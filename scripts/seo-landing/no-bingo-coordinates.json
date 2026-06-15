@@ -1,0 +1,725 @@
+{
+  "locale": "no",
+  "exerciseType": "bingo",
+  "level": "1-trinn",
+  "rawRowCount": 78,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 39
+  },
+  "totalValid": 39,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "kitchen_tools",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "things_that_fly",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 39,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonical": "bingo-tilbehor-4088",
+      "siblings": [
+        "bingo-tilbehor-4088",
+        "bingo-tilbehor-2f0f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 2,
+      "canonical": "bingo-aktiviteter-99ac",
+      "siblings": [
+        "bingo-aktiviteter-99ac",
+        "bingo-aktiviteter-adf4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "bingo-dyr-a113",
+      "siblings": [
+        "bingo-dyr-a113",
+        "bingo-dyr-dfd6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonical": "bingo-rundt-i-huset-a67e",
+      "siblings": [
+        "bingo-rundt-i-huset-a67e",
+        "bingo-rundt-i-huset-5519"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonical": "bingo-i-supermarkedet-f7c7",
+      "siblings": [
+        "bingo-i-supermarkedet-f7c7",
+        "bingo-i-supermarkedet-8ae7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonical": "bingo-bakeri-bd4d",
+      "siblings": [
+        "bingo-bakeri-bd4d",
+        "bingo-bakeri-7c30"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonical": "bingo-strand-e807",
+      "siblings": [
+        "bingo-strand-e807",
+        "bingo-strand-1ae6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonical": "bingo-fugler-2-9694",
+      "siblings": [
+        "bingo-fugler-2-9694",
+        "bingo-fugler-2-8c01"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonical": "bingo-kroppsdeler-eee7",
+      "siblings": [
+        "bingo-kroppsdeler-eee7",
+        "bingo-kroppsdeler-5a8c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonical": "bingo-frokost-68ac",
+      "siblings": [
+        "bingo-frokost-68ac",
+        "bingo-frokost-3d2a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonical": "bingo-camping-46a9",
+      "siblings": [
+        "bingo-camping-46a9",
+        "bingo-camping-e963"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonical": "bingo-jul-4fc2",
+      "siblings": [
+        "bingo-jul-4fc2",
+        "bingo-jul-e702"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonical": "bingo-klasserom-3e98",
+      "siblings": [
+        "bingo-klasserom-3e98",
+        "bingo-klasserom-466d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonical": "bingo-klaer-5b3d",
+      "siblings": [
+        "bingo-klaer-5b3d",
+        "bingo-klaer-2036"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 2,
+      "canonical": "bingo-farger-8dd8",
+      "siblings": [
+        "bingo-farger-8dd8",
+        "bingo-farger-41cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonical": "bingo-desserter-og-godteri-9e5c",
+      "siblings": [
+        "bingo-desserter-og-godteri-9e5c",
+        "bingo-desserter-og-godteri-9f55"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonical": "bingo-paske-7346",
+      "siblings": [
+        "bingo-paske-7346",
+        "bingo-paske-eb64"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonical": "bingo-gardsdyr-6c9b",
+      "siblings": [
+        "bingo-gardsdyr-6c9b",
+        "bingo-gardsdyr-6a78"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonical": "bingo-blomster-24e7",
+      "siblings": [
+        "bingo-blomster-24e7",
+        "bingo-blomster-c46c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonical": "bingo-skogsdyr-2786",
+      "siblings": [
+        "bingo-skogsdyr-2786",
+        "bingo-skogsdyr-8e4f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonical": "bingo-frukter-2c3a",
+      "siblings": [
+        "bingo-frukter-2c3a",
+        "bingo-frukter-a8dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonical": "bingo-mobler-23ed",
+      "siblings": [
+        "bingo-mobler-23ed",
+        "bingo-mobler-8b13"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonical": "bingo-sykehus-5bb2",
+      "siblings": [
+        "bingo-sykehus-5bb2",
+        "bingo-sykehus-0e23"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonical": "bingo-kjokkenredskaper-4221",
+      "siblings": [
+        "bingo-kjokkenredskaper-4221",
+        "bingo-kjokkenredskaper-e764"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonical": "bingo-yrker-7b52",
+      "siblings": [
+        "bingo-yrker-7b52",
+        "bingo-yrker-5ec5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "bingo-havliv-6a08",
+      "siblings": [
+        "bingo-havliv-6a08",
+        "bingo-havliv-d3d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonical": "bingo-kjaeledyr-78b5",
+      "siblings": [
+        "bingo-kjaeledyr-78b5",
+        "bingo-kjaeledyr-12a6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonical": "bingo-former-4f11",
+      "siblings": [
+        "bingo-former-4f11",
+        "bingo-former-8907"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonical": "bingo-verdensrommet-913d",
+      "siblings": [
+        "bingo-verdensrommet-913d",
+        "bingo-verdensrommet-b302"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 2,
+      "canonical": "bingo-var-ab91",
+      "siblings": [
+        "bingo-var-ab91",
+        "bingo-var-a5bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonical": "bingo-sommer-918f",
+      "siblings": [
+        "bingo-sommer-918f",
+        "bingo-sommer-d32c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonical": "bingo-ting-som-flyr-a6f2",
+      "siblings": [
+        "bingo-ting-som-flyr-a6f2",
+        "bingo-ting-som-flyr-2ed2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonical": "bingo-leker-160f",
+      "siblings": [
+        "bingo-leker-160f",
+        "bingo-leker-d720"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 2,
+      "canonical": "bingo-traer-a51b",
+      "siblings": [
+        "bingo-traer-a51b",
+        "bingo-traer-50de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonical": "bingo-gronnsaker-47fb",
+      "siblings": [
+        "bingo-gronnsaker-47fb",
+        "bingo-gronnsaker-0fb6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonical": "bingo-kjoretoy-32f3",
+      "siblings": [
+        "bingo-kjoretoy-32f3",
+        "bingo-kjoretoy-daf2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 2,
+      "canonical": "bingo-vaer-f37c",
+      "siblings": [
+        "bingo-vaer-f37c",
+        "bingo-vaer-f8d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonical": "bingo-vinter-902c",
+      "siblings": [
+        "bingo-vinter-902c",
+        "bingo-vinter-f640"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonical": "bingo-dyrehagedyr-d912",
+      "siblings": [
+        "bingo-dyrehagedyr-d912",
+        "bingo-dyrehagedyr-8a2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    }
+  ]
+}

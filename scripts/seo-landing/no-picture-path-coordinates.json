@@ -1,0 +1,1467 @@
+{
+  "locale": "no",
+  "exerciseType": "picture-path",
+  "level": "1-trinn",
+  "rawRowCount": 91,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "choose-path": 48,
+    "classic-maze": 39
+  },
+  "totalValid": 87,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "choose-path",
+    "classic-maze"
+  ],
+  "collapsedFamilies": 2,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "choose-path",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-tilbehor-e927",
+      "siblings": [
+        "bildevei-velg-riktig-vei-tilbehor-e927"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-aktiviteter-c2d5",
+      "siblings": [
+        "bildevei-velg-riktig-vei-aktiviteter-c2d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-dyr-d5b1",
+      "siblings": [
+        "bildevei-velg-riktig-vei-dyr-d5b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-rundt-i-huset-1425",
+      "siblings": [
+        "bildevei-velg-riktig-vei-rundt-i-huset-1425"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-i-supermarkedet-b033",
+      "siblings": [
+        "bildevei-velg-riktig-vei-i-supermarkedet-b033"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-bakeri-666f",
+      "siblings": [
+        "bildevei-velg-riktig-vei-bakeri-666f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-strand-163e",
+      "siblings": [
+        "bildevei-velg-riktig-vei-strand-163e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-fugler-5ee4",
+      "siblings": [
+        "bildevei-velg-riktig-vei-fugler-5ee4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-fugler-2-136f",
+      "siblings": [
+        "bildevei-velg-riktig-vei-fugler-2-136f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-kroppsdeler-02df",
+      "siblings": [
+        "bildevei-velg-riktig-vei-kroppsdeler-02df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-frokost-7773",
+      "siblings": [
+        "bildevei-velg-riktig-vei-frokost-7773"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-camping-bcab",
+      "siblings": [
+        "bildevei-velg-riktig-vei-camping-bcab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-jul-7dfc",
+      "siblings": [
+        "bildevei-velg-riktig-vei-jul-7dfc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-klasserom-6a84",
+      "siblings": [
+        "bildevei-velg-riktig-vei-klasserom-6a84"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-klaer-aae9",
+      "siblings": [
+        "bildevei-velg-riktig-vei-klaer-aae9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-farger-41ba",
+      "siblings": [
+        "bildevei-velg-riktig-vei-farger-41ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-desserter-og-godteri-20e7",
+      "siblings": [
+        "bildevei-velg-riktig-vei-desserter-og-godteri-20e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-dinosaurer-9950",
+      "siblings": [
+        "bildevei-velg-riktig-vei-dinosaurer-9950"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-paske-6df3",
+      "siblings": [
+        "bildevei-velg-riktig-vei-paske-6df3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-folelser-0542",
+      "siblings": [
+        "bildevei-velg-riktig-vei-folelser-0542"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-gardsdyr-8da7",
+      "siblings": [
+        "bildevei-velg-riktig-vei-gardsdyr-8da7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-blomster-69ee",
+      "siblings": [
+        "bildevei-velg-riktig-vei-blomster-69ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-skogsdyr-daf6",
+      "siblings": [
+        "bildevei-velg-riktig-vei-skogsdyr-daf6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-frukter-9d9d",
+      "siblings": [
+        "bildevei-velg-riktig-vei-frukter-9d9d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-mobler-a432",
+      "siblings": [
+        "bildevei-velg-riktig-vei-mobler-a432"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-sykehus-1bcc",
+      "siblings": [
+        "bildevei-velg-riktig-vei-sykehus-1bcc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-insekter-og-kryp-0fcc",
+      "siblings": [
+        "bildevei-velg-riktig-vei-insekter-og-kryp-0fcc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-kjokkenredskaper-36c8",
+      "siblings": [
+        "bildevei-velg-riktig-vei-kjokkenredskaper-36c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-musikk-90bf",
+      "siblings": [
+        "bildevei-velg-riktig-vei-musikk-90bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-yrker-0944",
+      "siblings": [
+        "bildevei-velg-riktig-vei-yrker-0944"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-havliv-08d2",
+      "siblings": [
+        "bildevei-velg-riktig-vei-havliv-08d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-kjaeledyr-f456",
+      "siblings": [
+        "bildevei-velg-riktig-vei-kjaeledyr-f456"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-postkontor-0192",
+      "siblings": [
+        "bildevei-velg-riktig-vei-postkontor-0192"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-reptiler-og-amfibier-8883",
+      "siblings": [
+        "bildevei-velg-riktig-vei-reptiler-og-amfibier-8883"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-former-481e",
+      "siblings": [
+        "bildevei-velg-riktig-vei-former-481e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-verdensrommet-ac65",
+      "siblings": [
+        "bildevei-velg-riktig-vei-verdensrommet-ac65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-var-2e7b",
+      "siblings": [
+        "bildevei-velg-riktig-vei-var-2e7b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-sommer-2732",
+      "siblings": [
+        "bildevei-velg-riktig-vei-sommer-2732"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-thanksgiving-6ae0",
+      "siblings": [
+        "bildevei-velg-riktig-vei-thanksgiving-6ae0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-ting-som-flyr-42d4",
+      "siblings": [
+        "bildevei-velg-riktig-vei-ting-som-flyr-42d4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-verktoy-c0a0",
+      "siblings": [
+        "bildevei-velg-riktig-vei-verktoy-c0a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-leker-1a7d",
+      "siblings": [
+        "bildevei-velg-riktig-vei-leker-1a7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-traer-6963",
+      "siblings": [
+        "bildevei-velg-riktig-vei-traer-6963"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-gronnsaker-7164",
+      "siblings": [
+        "bildevei-velg-riktig-vei-gronnsaker-7164"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-kjoretoy-8ae4",
+      "siblings": [
+        "bildevei-velg-riktig-vei-kjoretoy-8ae4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-vaer-aa32",
+      "siblings": [
+        "bildevei-velg-riktig-vei-vaer-aa32"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-vinter-f23c",
+      "siblings": [
+        "bildevei-velg-riktig-vei-vinter-f23c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "bildevei-velg-riktig-vei-dyrehagedyr-9333",
+      "siblings": [
+        "bildevei-velg-riktig-vei-dyrehagedyr-9333"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-tilbehor-2ed5",
+      "siblings": [
+        "bildevei-klassisk-labyrint-tilbehor-2ed5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-aktiviteter-3b70",
+      "siblings": [
+        "bildevei-klassisk-labyrint-aktiviteter-3b70"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-rundt-i-huset-02f4",
+      "siblings": [
+        "bildevei-klassisk-labyrint-rundt-i-huset-02f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-i-supermarkedet-1c18",
+      "siblings": [
+        "bildevei-klassisk-labyrint-i-supermarkedet-1c18"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-bakeri-2f2d",
+      "siblings": [
+        "bildevei-klassisk-labyrint-bakeri-2f2d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-strand-809f",
+      "siblings": [
+        "bildevei-klassisk-labyrint-strand-809f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-kroppsdeler-02ba",
+      "siblings": [
+        "bildevei-klassisk-labyrint-kroppsdeler-02ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-frokost-b739",
+      "siblings": [
+        "bildevei-klassisk-labyrint-frokost-b739"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-camping-921b",
+      "siblings": [
+        "bildevei-klassisk-labyrint-camping-921b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-jul-503e",
+      "siblings": [
+        "bildevei-klassisk-labyrint-jul-503e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-klasserom-eb84",
+      "siblings": [
+        "bildevei-klassisk-labyrint-klasserom-eb84"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-klaer-aed5",
+      "siblings": [
+        "bildevei-klassisk-labyrint-klaer-aed5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-farger-6d6d",
+      "siblings": [
+        "bildevei-klassisk-labyrint-farger-6d6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-desserter-og-godteri-1b82",
+      "siblings": [
+        "bildevei-klassisk-labyrint-desserter-og-godteri-1b82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-dinosaurer-47f1",
+      "siblings": [
+        "bildevei-klassisk-labyrint-dinosaurer-47f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-paske-7057",
+      "siblings": [
+        "bildevei-klassisk-labyrint-paske-7057"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-folelser-556c",
+      "siblings": [
+        "bildevei-klassisk-labyrint-folelser-556c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-blomster-10a3",
+      "siblings": [
+        "bildevei-klassisk-labyrint-blomster-10a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-frukter-9449",
+      "siblings": [
+        "bildevei-klassisk-labyrint-frukter-9449"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-mobler-1d4c",
+      "siblings": [
+        "bildevei-klassisk-labyrint-mobler-1d4c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-sykehus-eba1",
+      "siblings": [
+        "bildevei-klassisk-labyrint-sykehus-eba1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 2,
+      "canonical": "bildevei-klassisk-labyrint-insekter-og-kryp-3586",
+      "siblings": [
+        "bildevei-klassisk-labyrint-insekter-og-kryp-3586",
+        "bildevei-klassisk-labyrint-insekter-og-kryp-8313"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-kjokkenredskaper-28c2",
+      "siblings": [
+        "bildevei-klassisk-labyrint-kjokkenredskaper-28c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-musikk-969d",
+      "siblings": [
+        "bildevei-klassisk-labyrint-musikk-969d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-yrker-9615",
+      "siblings": [
+        "bildevei-klassisk-labyrint-yrker-9615"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-postkontor-419d",
+      "siblings": [
+        "bildevei-klassisk-labyrint-postkontor-419d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-former-51ed",
+      "siblings": [
+        "bildevei-klassisk-labyrint-former-51ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-verdensrommet-f1a0",
+      "siblings": [
+        "bildevei-klassisk-labyrint-verdensrommet-f1a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-var-404c",
+      "siblings": [
+        "bildevei-klassisk-labyrint-var-404c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-sommer-b56c",
+      "siblings": [
+        "bildevei-klassisk-labyrint-sommer-b56c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-thanksgiving-7a50",
+      "siblings": [
+        "bildevei-klassisk-labyrint-thanksgiving-7a50"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-ting-som-flyr-facf",
+      "siblings": [
+        "bildevei-klassisk-labyrint-ting-som-flyr-facf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-verktoy-4bbd",
+      "siblings": [
+        "bildevei-klassisk-labyrint-verktoy-4bbd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-leker-221d",
+      "siblings": [
+        "bildevei-klassisk-labyrint-leker-221d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-traer-5c7d",
+      "siblings": [
+        "bildevei-klassisk-labyrint-traer-5c7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonical": "bildevei-klassisk-labyrint-gronnsaker-1d7c",
+      "siblings": [
+        "bildevei-klassisk-labyrint-gronnsaker-1d7c",
+        "bildevei-klassisk-labyrint-gronnsaker-040f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-kjoretoy-5d49",
+      "siblings": [
+        "bildevei-klassisk-labyrint-kjoretoy-5d49"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-vaer-9755",
+      "siblings": [
+        "bildevei-klassisk-labyrint-vaer-9755"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "bildevei-klassisk-labyrint-vinter-7c4f",
+      "siblings": [
+        "bildevei-klassisk-labyrint-vinter-7c4f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    }
+  ]
+}

@@ -1,0 +1,989 @@
+{
+  "locale": "no",
+  "exerciseType": "odd-one-out",
+  "level": "1-trinn",
+  "rawRowCount": 137,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cross-theme": 4,
+    "same-theme": 48
+  },
+  "totalValid": 52,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cross-theme",
+    "same-theme"
+  ],
+  "collapsedFamilies": 4,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "cross-theme",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 16,
+      "canonical": "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-4949",
+      "siblings": [
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-4949",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-c6b1",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-1e7e",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-c49a",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-ea31",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-fa2d",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-f6d0",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-68f1",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-2620",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-b1e8",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-2973",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-d168",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-78dc",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-d6dc",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-e07a",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-6358"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 43,
+      "canonical": "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-999c",
+      "siblings": [
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-999c",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-2151",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-ada4",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-1463",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-8324",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-fae4",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-a1dc",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-7dd1",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-0fab",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-6c70",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-91ea",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-6688",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-9cc7",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-0e17",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-c7e9",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-5093",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-1201",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-dea4",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-3cc4",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-8397",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-d34a",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-354e",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-152f",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-4e7d",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-7a38",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-ab76",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-ef54",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-1c03",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-aa45",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-8adb",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-ebe3",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-5fd1",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-4f6f",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-3c15",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-3cb0",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-6448",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-54ed",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-052b",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-7835",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-9eb1",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-d7e5",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-c729",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-c428"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 12,
+      "canonical": "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-92c9",
+      "siblings": [
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-92c9",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-25e3",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-62d2",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-0bbd",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-df36",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-05ef",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-a80e",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-f79f",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-68b5",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-a92a",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-3310",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-6894"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 17,
+      "canonical": "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-8013",
+      "siblings": [
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-8013",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-01f7",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-f38e",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-7928",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-460f",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-799b",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-e518",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-9577",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-c8c0",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-0f15",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-d73a",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-80c1",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-77e2",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-ac02",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-c889",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-fada",
+        "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-2153"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-tilbehor-e32a",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-tilbehor-e32a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-aktiviteter-4311",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-aktiviteter-4311"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-dyr-36b5",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-dyr-36b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-rundt-i-huset-35e7",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-rundt-i-huset-35e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-i-supermarkedet-84bd",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-i-supermarkedet-84bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-bakeri-2374",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-bakeri-2374"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-strand-0140",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-strand-0140"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-fugler-b1ff",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-fugler-b1ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-fugler-2-7932",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-fugler-2-7932"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-kroppsdeler-e774",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-kroppsdeler-e774"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-frokost-f6c2",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-frokost-f6c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-camping-3d7d",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-camping-3d7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-jul-68cf",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-jul-68cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-klasserom-9d12",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-klasserom-9d12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-klaer-a2d3",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-klaer-a2d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-farger-7eda",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-farger-7eda"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-desserter-og-godteri-0c85",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-desserter-og-godteri-0c85"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-dinosaurer-ee19",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-dinosaurer-ee19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-paske-f8b5",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-paske-f8b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-folelser-0eff",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-folelser-0eff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-gardsdyr-9962",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-gardsdyr-9962"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-blomster-3199",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-blomster-3199"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-skogsdyr-2560",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-skogsdyr-2560"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-frukter-e3df",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-frukter-e3df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-mobler-32bc",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-mobler-32bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-sykehus-367d",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-sykehus-367d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-insekter-og-kryp-963e",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-insekter-og-kryp-963e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-kjokkenredskaper-123d",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-kjokkenredskaper-123d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-musikk-a9a3",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-musikk-a9a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-yrker-a578",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-yrker-a578"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-havliv-034f",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-havliv-034f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-kjaeledyr-300f",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-kjaeledyr-300f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-postkontor-c898",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-postkontor-c898"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-reptiler-og-amfibier-327d",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-reptiler-og-amfibier-327d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-former-aaeb",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-former-aaeb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-verdensrommet-7306",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-verdensrommet-7306"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-var-3f4a",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-var-3f4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-sommer-9451",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-sommer-9451"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-thanksgiving-1609",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-thanksgiving-1609"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-ting-som-flyr-c302",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-ting-som-flyr-c302"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-verktoy-e13e",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-verktoy-e13e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-leker-920c",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-leker-920c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-traer-1c9c",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-traer-1c9c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-gronnsaker-6bbd",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-gronnsaker-6bbd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-kjoretoy-bf96",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-kjoretoy-bf96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-vaer-f0dc",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-vaer-f0dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-vinter-bdad",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-vinter-bdad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "hvilken-passer-ikke-samme-tema-dyrehagedyr-8d1e",
+      "siblings": [
+        "hvilken-passer-ikke-samme-tema-dyrehagedyr-8d1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    }
+  ]
+}

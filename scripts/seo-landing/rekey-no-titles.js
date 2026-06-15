@@ -34,7 +34,7 @@ const TAXONOMY = path.join(REPO_ROOT, 'frontend', 'config', 'topics-taxonomy.jso
 
 const META_CAP = 170;
 const TAIL_NUMERIC = ' | til utskrift PDF gratis';
-const TAIL_OTHER = ' | oppgaver til utskrift PDF gratis';
+const TAIL_OTHER = ' | oppgaver for barn til utskrift PDF gratis';
 
 const GRADE_LABEL = { '1-trinn': '1. trinn', '2-trinn': '2. trinn', '3-trinn': '3. trinn' };
 
@@ -56,11 +56,11 @@ const TYPE_MAP = {
   'more-less':     { op: 'Flest og færrest', qual: { 'check-cross': 'sett kryss', 'image-image': 'med bilder', 'image-number': 'med bilder og tall' } },
   'find-and-count':{ op: { 'hidden-object': 'Finn og tell', 'letter-spotting': 'Finn bokstaven' }, qual: {} },
   'big-small':     { op: { findBig: 'Størst og minst', orderAsc: 'Sorter etter størrelse' }, qual: {} },
-  'grid-match':    { op: 'Bildebrikker', qual: {} },
+  'grid-match':    { op: 'Para sammen bilder', qual: {} },
   'missing-pieces':{ op: 'Den manglende brikken', qual: { 'one-missing': 'én brikke mangler', 'two-missing': 'to brikker mangler' } },
   'shadow-match':  { op: { 'find-shadow': 'Finn skyggen', 'make-whole': 'Gjør bildet helt' }, qual: {} },
-  sudoku:          { op: 'Sudoku for barn med bilder', qual: { easy: 'lett', medium: 'middels' } },
-  'find-objects':  { op: { 'i-spy': 'Finn tingene', 'find-odd': 'Finn det som er annerledes' }, qual: {} },
+  sudoku:          { op: 'Bildesudoku', qual: { easy: 'lett', medium: 'middels' } },
+  'find-objects':  { op: { 'i-spy': 'Finn de skjulte tingene', 'find-odd': 'Finn forskjellen' }, qual: {} },
   'odd-one-out':   { op: 'Hva passer ikke?', qual: {} },
   bingo:           { op: 'Bildebingo', qual: {} },
   'pattern-train': { op: { 'null': 'AB-mønster', aab: 'AAB-mønster', abb: 'ABB-mønster', aabb: 'AABB-mønster', abc: 'ABC-mønster' }, qual: {} },

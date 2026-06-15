@@ -1,0 +1,3919 @@
+{
+  "locale": "no",
+  "exerciseType": "pattern-train",
+  "level": "1-trinn",
+  "rawRowCount": 245,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "aab": 48,
+    "aabb": 48,
+    "abb": 48,
+    "abc": 48,
+    "(null)": 48
+  },
+  "totalValid": 240,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "aab",
+    "aabb",
+    "abb",
+    "abc",
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "aab",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "monstertoget-aab-tilbehor-27a4",
+      "siblings": [
+        "monstertoget-aab-tilbehor-27a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "monstertoget-aab-aktiviteter-0493",
+      "siblings": [
+        "monstertoget-aab-aktiviteter-0493"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "monstertoget-aab-dyr-0de8",
+      "siblings": [
+        "monstertoget-aab-dyr-0de8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "monstertoget-aab-rundt-i-huset-55ed",
+      "siblings": [
+        "monstertoget-aab-rundt-i-huset-55ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "monstertoget-aab-i-supermarkedet-4e8b",
+      "siblings": [
+        "monstertoget-aab-i-supermarkedet-4e8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "monstertoget-aab-bakeri-aee6",
+      "siblings": [
+        "monstertoget-aab-bakeri-aee6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "monstertoget-aab-strand-0f97",
+      "siblings": [
+        "monstertoget-aab-strand-0f97"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "monstertoget-aab-fugler-08fb",
+      "siblings": [
+        "monstertoget-aab-fugler-08fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "monstertoget-aab-fugler-2-00f2",
+      "siblings": [
+        "monstertoget-aab-fugler-2-00f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "monstertoget-aab-kroppsdeler-a586",
+      "siblings": [
+        "monstertoget-aab-kroppsdeler-a586"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "monstertoget-aab-frokost-b92c",
+      "siblings": [
+        "monstertoget-aab-frokost-b92c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "monstertoget-aab-camping-9b8a",
+      "siblings": [
+        "monstertoget-aab-camping-9b8a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "monstertoget-aab-jul-87cf",
+      "siblings": [
+        "monstertoget-aab-jul-87cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "monstertoget-aab-klasserom-dbe0",
+      "siblings": [
+        "monstertoget-aab-klasserom-dbe0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "monstertoget-aab-klaer-c971",
+      "siblings": [
+        "monstertoget-aab-klaer-c971"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "monstertoget-aab-farger-44b4",
+      "siblings": [
+        "monstertoget-aab-farger-44b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "monstertoget-aab-desserter-og-godteri-d836",
+      "siblings": [
+        "monstertoget-aab-desserter-og-godteri-d836"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "monstertoget-aab-dinosaurer-6798",
+      "siblings": [
+        "monstertoget-aab-dinosaurer-6798"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "monstertoget-aab-paske-a1fa",
+      "siblings": [
+        "monstertoget-aab-paske-a1fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "monstertoget-aab-folelser-942a",
+      "siblings": [
+        "monstertoget-aab-folelser-942a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "monstertoget-aab-gardsdyr-a669",
+      "siblings": [
+        "monstertoget-aab-gardsdyr-a669"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "monstertoget-aab-blomster-9344",
+      "siblings": [
+        "monstertoget-aab-blomster-9344"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "monstertoget-aab-skogsdyr-2faa",
+      "siblings": [
+        "monstertoget-aab-skogsdyr-2faa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "monstertoget-aab-frukter-7cb9",
+      "siblings": [
+        "monstertoget-aab-frukter-7cb9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "monstertoget-aab-mobler-26d8",
+      "siblings": [
+        "monstertoget-aab-mobler-26d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "monstertoget-aab-sykehus-20ee",
+      "siblings": [
+        "monstertoget-aab-sykehus-20ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "monstertoget-aab-insekter-og-kryp-1f6a",
+      "siblings": [
+        "monstertoget-aab-insekter-og-kryp-1f6a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "monstertoget-aab-kjokkenredskaper-1159",
+      "siblings": [
+        "monstertoget-aab-kjokkenredskaper-1159"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "monstertoget-aab-musikk-769d",
+      "siblings": [
+        "monstertoget-aab-musikk-769d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "monstertoget-aab-yrker-4e24",
+      "siblings": [
+        "monstertoget-aab-yrker-4e24"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "monstertoget-aab-havliv-bb68",
+      "siblings": [
+        "monstertoget-aab-havliv-bb68"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "monstertoget-aab-kjaeledyr-f578",
+      "siblings": [
+        "monstertoget-aab-kjaeledyr-f578"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "monstertoget-aab-postkontor-e01f",
+      "siblings": [
+        "monstertoget-aab-postkontor-e01f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "monstertoget-aab-reptiler-og-amfibier-e7ba",
+      "siblings": [
+        "monstertoget-aab-reptiler-og-amfibier-e7ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "monstertoget-aab-former-6b90",
+      "siblings": [
+        "monstertoget-aab-former-6b90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "monstertoget-aab-verdensrommet-a8b2",
+      "siblings": [
+        "monstertoget-aab-verdensrommet-a8b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "monstertoget-aab-var-e3dc",
+      "siblings": [
+        "monstertoget-aab-var-e3dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "monstertoget-aab-sommer-d920",
+      "siblings": [
+        "monstertoget-aab-sommer-d920"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "monstertoget-aab-thanksgiving-2577",
+      "siblings": [
+        "monstertoget-aab-thanksgiving-2577"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "monstertoget-aab-ting-som-flyr-2ddb",
+      "siblings": [
+        "monstertoget-aab-ting-som-flyr-2ddb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "monstertoget-aab-verktoy-8022",
+      "siblings": [
+        "monstertoget-aab-verktoy-8022"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "monstertoget-aab-leker-0f99",
+      "siblings": [
+        "monstertoget-aab-leker-0f99"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "monstertoget-aab-traer-4598",
+      "siblings": [
+        "monstertoget-aab-traer-4598"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "monstertoget-aab-gronnsaker-9e8e",
+      "siblings": [
+        "monstertoget-aab-gronnsaker-9e8e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "monstertoget-aab-kjoretoy-68be",
+      "siblings": [
+        "monstertoget-aab-kjoretoy-68be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "monstertoget-aab-vaer-78dc",
+      "siblings": [
+        "monstertoget-aab-vaer-78dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "monstertoget-aab-vinter-4cb7",
+      "siblings": [
+        "monstertoget-aab-vinter-4cb7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aab",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "monstertoget-aab-dyrehagedyr-77c4",
+      "siblings": [
+        "monstertoget-aab-dyrehagedyr-77c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "monstertoget-aabb-tilbehor-4839",
+      "siblings": [
+        "monstertoget-aabb-tilbehor-4839"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "monstertoget-aabb-aktiviteter-79eb",
+      "siblings": [
+        "monstertoget-aabb-aktiviteter-79eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "monstertoget-aabb-dyr-9f02",
+      "siblings": [
+        "monstertoget-aabb-dyr-9f02"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "monstertoget-aabb-rundt-i-huset-1de0",
+      "siblings": [
+        "monstertoget-aabb-rundt-i-huset-1de0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "monstertoget-aabb-i-supermarkedet-2655",
+      "siblings": [
+        "monstertoget-aabb-i-supermarkedet-2655"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "monstertoget-aabb-bakeri-1521",
+      "siblings": [
+        "monstertoget-aabb-bakeri-1521"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "monstertoget-aabb-strand-72e2",
+      "siblings": [
+        "monstertoget-aabb-strand-72e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "monstertoget-aabb-fugler-e075",
+      "siblings": [
+        "monstertoget-aabb-fugler-e075"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "monstertoget-aabb-fugler-2-53dc",
+      "siblings": [
+        "monstertoget-aabb-fugler-2-53dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "monstertoget-aabb-kroppsdeler-081e",
+      "siblings": [
+        "monstertoget-aabb-kroppsdeler-081e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "monstertoget-aabb-frokost-c155",
+      "siblings": [
+        "monstertoget-aabb-frokost-c155"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "monstertoget-aabb-camping-dc4e",
+      "siblings": [
+        "monstertoget-aabb-camping-dc4e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "monstertoget-aabb-jul-e1a6",
+      "siblings": [
+        "monstertoget-aabb-jul-e1a6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "monstertoget-aabb-klasserom-37e8",
+      "siblings": [
+        "monstertoget-aabb-klasserom-37e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "monstertoget-aabb-klaer-4799",
+      "siblings": [
+        "monstertoget-aabb-klaer-4799"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "monstertoget-aabb-farger-839c",
+      "siblings": [
+        "monstertoget-aabb-farger-839c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "monstertoget-aabb-desserter-og-godteri-e062",
+      "siblings": [
+        "monstertoget-aabb-desserter-og-godteri-e062"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "monstertoget-aabb-dinosaurer-2de5",
+      "siblings": [
+        "monstertoget-aabb-dinosaurer-2de5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "monstertoget-aabb-paske-9186",
+      "siblings": [
+        "monstertoget-aabb-paske-9186"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "monstertoget-aabb-folelser-20ba",
+      "siblings": [
+        "monstertoget-aabb-folelser-20ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "monstertoget-aabb-gardsdyr-4002",
+      "siblings": [
+        "monstertoget-aabb-gardsdyr-4002"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "monstertoget-aabb-blomster-2074",
+      "siblings": [
+        "monstertoget-aabb-blomster-2074"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "monstertoget-aabb-skogsdyr-8e8a",
+      "siblings": [
+        "monstertoget-aabb-skogsdyr-8e8a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "monstertoget-aabb-frukter-fe14",
+      "siblings": [
+        "monstertoget-aabb-frukter-fe14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "monstertoget-aabb-mobler-56f3",
+      "siblings": [
+        "monstertoget-aabb-mobler-56f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "monstertoget-aabb-sykehus-2aa8",
+      "siblings": [
+        "monstertoget-aabb-sykehus-2aa8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "monstertoget-aabb-insekter-og-kryp-c5ab",
+      "siblings": [
+        "monstertoget-aabb-insekter-og-kryp-c5ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "monstertoget-aabb-kjokkenredskaper-624e",
+      "siblings": [
+        "monstertoget-aabb-kjokkenredskaper-624e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "monstertoget-aabb-musikk-a8e1",
+      "siblings": [
+        "monstertoget-aabb-musikk-a8e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "monstertoget-aabb-yrker-216d",
+      "siblings": [
+        "monstertoget-aabb-yrker-216d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "monstertoget-aabb-havliv-22d7",
+      "siblings": [
+        "monstertoget-aabb-havliv-22d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "monstertoget-aabb-kjaeledyr-f891",
+      "siblings": [
+        "monstertoget-aabb-kjaeledyr-f891"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "monstertoget-aabb-postkontor-07f9",
+      "siblings": [
+        "monstertoget-aabb-postkontor-07f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "monstertoget-aabb-reptiler-og-amfibier-f745",
+      "siblings": [
+        "monstertoget-aabb-reptiler-og-amfibier-f745"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "monstertoget-aabb-former-2b15",
+      "siblings": [
+        "monstertoget-aabb-former-2b15"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "monstertoget-aabb-verdensrommet-bede",
+      "siblings": [
+        "monstertoget-aabb-verdensrommet-bede"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "monstertoget-aabb-var-e076",
+      "siblings": [
+        "monstertoget-aabb-var-e076"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "monstertoget-aabb-sommer-c2bf",
+      "siblings": [
+        "monstertoget-aabb-sommer-c2bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "monstertoget-aabb-thanksgiving-813c",
+      "siblings": [
+        "monstertoget-aabb-thanksgiving-813c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "monstertoget-aabb-ting-som-flyr-bc31",
+      "siblings": [
+        "monstertoget-aabb-ting-som-flyr-bc31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "monstertoget-aabb-verktoy-cc29",
+      "siblings": [
+        "monstertoget-aabb-verktoy-cc29"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "monstertoget-aabb-leker-6ea7",
+      "siblings": [
+        "monstertoget-aabb-leker-6ea7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "monstertoget-aabb-traer-a3f2",
+      "siblings": [
+        "monstertoget-aabb-traer-a3f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "monstertoget-aabb-gronnsaker-81ed",
+      "siblings": [
+        "monstertoget-aabb-gronnsaker-81ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "monstertoget-aabb-kjoretoy-b78d",
+      "siblings": [
+        "monstertoget-aabb-kjoretoy-b78d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "monstertoget-aabb-vaer-0470",
+      "siblings": [
+        "monstertoget-aabb-vaer-0470"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "monstertoget-aabb-vinter-8934",
+      "siblings": [
+        "monstertoget-aabb-vinter-8934"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "aabb",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "monstertoget-aabb-dyrehagedyr-b95f",
+      "siblings": [
+        "monstertoget-aabb-dyrehagedyr-b95f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "monstertoget-abb-tilbehor-9cbe",
+      "siblings": [
+        "monstertoget-abb-tilbehor-9cbe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "monstertoget-abb-aktiviteter-81a2",
+      "siblings": [
+        "monstertoget-abb-aktiviteter-81a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "monstertoget-abb-dyr-ffaf",
+      "siblings": [
+        "monstertoget-abb-dyr-ffaf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "monstertoget-abb-rundt-i-huset-d3e5",
+      "siblings": [
+        "monstertoget-abb-rundt-i-huset-d3e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "monstertoget-abb-i-supermarkedet-2ef1",
+      "siblings": [
+        "monstertoget-abb-i-supermarkedet-2ef1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "monstertoget-abb-bakeri-09a6",
+      "siblings": [
+        "monstertoget-abb-bakeri-09a6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "monstertoget-abb-strand-b4cf",
+      "siblings": [
+        "monstertoget-abb-strand-b4cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "monstertoget-abb-fugler-4bc2",
+      "siblings": [
+        "monstertoget-abb-fugler-4bc2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "monstertoget-abb-fugler-2-a1d6",
+      "siblings": [
+        "monstertoget-abb-fugler-2-a1d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "monstertoget-abb-kroppsdeler-839d",
+      "siblings": [
+        "monstertoget-abb-kroppsdeler-839d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "monstertoget-abb-frokost-c39f",
+      "siblings": [
+        "monstertoget-abb-frokost-c39f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "monstertoget-abb-camping-de72",
+      "siblings": [
+        "monstertoget-abb-camping-de72"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "monstertoget-abb-jul-aca8",
+      "siblings": [
+        "monstertoget-abb-jul-aca8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "monstertoget-abb-klasserom-5c43",
+      "siblings": [
+        "monstertoget-abb-klasserom-5c43"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "monstertoget-abb-klaer-3b20",
+      "siblings": [
+        "monstertoget-abb-klaer-3b20"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "monstertoget-abb-farger-2e02",
+      "siblings": [
+        "monstertoget-abb-farger-2e02"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "monstertoget-abb-desserter-og-godteri-d07e",
+      "siblings": [
+        "monstertoget-abb-desserter-og-godteri-d07e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "monstertoget-abb-dinosaurer-0b5f",
+      "siblings": [
+        "monstertoget-abb-dinosaurer-0b5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "monstertoget-abb-paske-c4e9",
+      "siblings": [
+        "monstertoget-abb-paske-c4e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "monstertoget-abb-folelser-61aa",
+      "siblings": [
+        "monstertoget-abb-folelser-61aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "monstertoget-abb-gardsdyr-161f",
+      "siblings": [
+        "monstertoget-abb-gardsdyr-161f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "monstertoget-abb-blomster-30d6",
+      "siblings": [
+        "monstertoget-abb-blomster-30d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "monstertoget-abb-skogsdyr-c069",
+      "siblings": [
+        "monstertoget-abb-skogsdyr-c069"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "monstertoget-abb-frukter-fea3",
+      "siblings": [
+        "monstertoget-abb-frukter-fea3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "monstertoget-abb-mobler-8ba6",
+      "siblings": [
+        "monstertoget-abb-mobler-8ba6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "monstertoget-abb-sykehus-d483",
+      "siblings": [
+        "monstertoget-abb-sykehus-d483"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "monstertoget-abb-insekter-og-kryp-f286",
+      "siblings": [
+        "monstertoget-abb-insekter-og-kryp-f286"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "monstertoget-abb-kjokkenredskaper-8851",
+      "siblings": [
+        "monstertoget-abb-kjokkenredskaper-8851"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "monstertoget-abb-musikk-ae2b",
+      "siblings": [
+        "monstertoget-abb-musikk-ae2b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "monstertoget-abb-yrker-35cd",
+      "siblings": [
+        "monstertoget-abb-yrker-35cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "monstertoget-abb-havliv-59ba",
+      "siblings": [
+        "monstertoget-abb-havliv-59ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "monstertoget-abb-kjaeledyr-a40e",
+      "siblings": [
+        "monstertoget-abb-kjaeledyr-a40e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "monstertoget-abb-postkontor-bb28",
+      "siblings": [
+        "monstertoget-abb-postkontor-bb28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "monstertoget-abb-reptiler-og-amfibier-0849",
+      "siblings": [
+        "monstertoget-abb-reptiler-og-amfibier-0849"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "monstertoget-abb-former-fd7e",
+      "siblings": [
+        "monstertoget-abb-former-fd7e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "monstertoget-abb-verdensrommet-0467",
+      "siblings": [
+        "monstertoget-abb-verdensrommet-0467"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "monstertoget-abb-var-3f98",
+      "siblings": [
+        "monstertoget-abb-var-3f98"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "monstertoget-abb-sommer-2981",
+      "siblings": [
+        "monstertoget-abb-sommer-2981"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "monstertoget-abb-thanksgiving-e756",
+      "siblings": [
+        "monstertoget-abb-thanksgiving-e756"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "monstertoget-abb-ting-som-flyr-574d",
+      "siblings": [
+        "monstertoget-abb-ting-som-flyr-574d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "monstertoget-abb-verktoy-caa0",
+      "siblings": [
+        "monstertoget-abb-verktoy-caa0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "monstertoget-abb-leker-f250",
+      "siblings": [
+        "monstertoget-abb-leker-f250"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "monstertoget-abb-traer-e445",
+      "siblings": [
+        "monstertoget-abb-traer-e445"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "monstertoget-abb-gronnsaker-65ac",
+      "siblings": [
+        "monstertoget-abb-gronnsaker-65ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "monstertoget-abb-kjoretoy-b91f",
+      "siblings": [
+        "monstertoget-abb-kjoretoy-b91f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "monstertoget-abb-vaer-780e",
+      "siblings": [
+        "monstertoget-abb-vaer-780e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "monstertoget-abb-vinter-e7de",
+      "siblings": [
+        "monstertoget-abb-vinter-e7de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abb",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "monstertoget-abb-dyrehagedyr-6645",
+      "siblings": [
+        "monstertoget-abb-dyrehagedyr-6645"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "monstertoget-abc-tilbehor-137a",
+      "siblings": [
+        "monstertoget-abc-tilbehor-137a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "monstertoget-abc-aktiviteter-8fef",
+      "siblings": [
+        "monstertoget-abc-aktiviteter-8fef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "monstertoget-abc-dyr-fde6",
+      "siblings": [
+        "monstertoget-abc-dyr-fde6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "monstertoget-abc-rundt-i-huset-80b8",
+      "siblings": [
+        "monstertoget-abc-rundt-i-huset-80b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "monstertoget-abc-i-supermarkedet-c074",
+      "siblings": [
+        "monstertoget-abc-i-supermarkedet-c074"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "monstertoget-abc-bakeri-304a",
+      "siblings": [
+        "monstertoget-abc-bakeri-304a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "monstertoget-abc-strand-a90c",
+      "siblings": [
+        "monstertoget-abc-strand-a90c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "monstertoget-abc-fugler-6f02",
+      "siblings": [
+        "monstertoget-abc-fugler-6f02"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "monstertoget-abc-fugler-2-bcad",
+      "siblings": [
+        "monstertoget-abc-fugler-2-bcad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "monstertoget-abc-kroppsdeler-08b1",
+      "siblings": [
+        "monstertoget-abc-kroppsdeler-08b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "monstertoget-abc-frokost-6790",
+      "siblings": [
+        "monstertoget-abc-frokost-6790"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "monstertoget-abc-camping-6451",
+      "siblings": [
+        "monstertoget-abc-camping-6451"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "monstertoget-abc-jul-f168",
+      "siblings": [
+        "monstertoget-abc-jul-f168"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "monstertoget-abc-klasserom-345a",
+      "siblings": [
+        "monstertoget-abc-klasserom-345a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "monstertoget-abc-klaer-8364",
+      "siblings": [
+        "monstertoget-abc-klaer-8364"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "monstertoget-abc-farger-cb55",
+      "siblings": [
+        "monstertoget-abc-farger-cb55"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "monstertoget-abc-desserter-og-godteri-b54c",
+      "siblings": [
+        "monstertoget-abc-desserter-og-godteri-b54c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "monstertoget-abc-dinosaurer-db53",
+      "siblings": [
+        "monstertoget-abc-dinosaurer-db53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "monstertoget-abc-paske-1e65",
+      "siblings": [
+        "monstertoget-abc-paske-1e65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "monstertoget-abc-folelser-508a",
+      "siblings": [
+        "monstertoget-abc-folelser-508a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "monstertoget-abc-gardsdyr-b5f6",
+      "siblings": [
+        "monstertoget-abc-gardsdyr-b5f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "monstertoget-abc-blomster-5d91",
+      "siblings": [
+        "monstertoget-abc-blomster-5d91"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "monstertoget-abc-skogsdyr-4d67",
+      "siblings": [
+        "monstertoget-abc-skogsdyr-4d67"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "monstertoget-abc-frukter-fc13",
+      "siblings": [
+        "monstertoget-abc-frukter-fc13"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "monstertoget-abc-mobler-ea62",
+      "siblings": [
+        "monstertoget-abc-mobler-ea62"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "monstertoget-abc-sykehus-56d3",
+      "siblings": [
+        "monstertoget-abc-sykehus-56d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "monstertoget-abc-insekter-og-kryp-1741",
+      "siblings": [
+        "monstertoget-abc-insekter-og-kryp-1741"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "monstertoget-abc-kjokkenredskaper-60f7",
+      "siblings": [
+        "monstertoget-abc-kjokkenredskaper-60f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "monstertoget-abc-musikk-9b5f",
+      "siblings": [
+        "monstertoget-abc-musikk-9b5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "monstertoget-abc-yrker-215b",
+      "siblings": [
+        "monstertoget-abc-yrker-215b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "monstertoget-abc-havliv-3e7f",
+      "siblings": [
+        "monstertoget-abc-havliv-3e7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "monstertoget-abc-kjaeledyr-b893",
+      "siblings": [
+        "monstertoget-abc-kjaeledyr-b893"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "monstertoget-abc-postkontor-a829",
+      "siblings": [
+        "monstertoget-abc-postkontor-a829"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "monstertoget-abc-reptiler-og-amfibier-720a",
+      "siblings": [
+        "monstertoget-abc-reptiler-og-amfibier-720a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "monstertoget-abc-former-0024",
+      "siblings": [
+        "monstertoget-abc-former-0024"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "monstertoget-abc-verdensrommet-fcf3",
+      "siblings": [
+        "monstertoget-abc-verdensrommet-fcf3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "monstertoget-abc-var-5be5",
+      "siblings": [
+        "monstertoget-abc-var-5be5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "monstertoget-abc-sommer-6050",
+      "siblings": [
+        "monstertoget-abc-sommer-6050"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "monstertoget-abc-thanksgiving-a620",
+      "siblings": [
+        "monstertoget-abc-thanksgiving-a620"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "monstertoget-abc-ting-som-flyr-38da",
+      "siblings": [
+        "monstertoget-abc-ting-som-flyr-38da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "monstertoget-abc-verktoy-603f",
+      "siblings": [
+        "monstertoget-abc-verktoy-603f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "monstertoget-abc-leker-3d9f",
+      "siblings": [
+        "monstertoget-abc-leker-3d9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "monstertoget-abc-traer-bed4",
+      "siblings": [
+        "monstertoget-abc-traer-bed4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "monstertoget-abc-gronnsaker-4015",
+      "siblings": [
+        "monstertoget-abc-gronnsaker-4015"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "monstertoget-abc-kjoretoy-2261",
+      "siblings": [
+        "monstertoget-abc-kjoretoy-2261"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "monstertoget-abc-vaer-771a",
+      "siblings": [
+        "monstertoget-abc-vaer-771a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "monstertoget-abc-vinter-cba5",
+      "siblings": [
+        "monstertoget-abc-vinter-cba5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "abc",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "monstertoget-abc-dyrehagedyr-8efc",
+      "siblings": [
+        "monstertoget-abc-dyrehagedyr-8efc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "monstertoget-tilbehor-cc25",
+      "siblings": [
+        "monstertoget-tilbehor-cc25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "monstertoget-aktiviteter-9a7d",
+      "siblings": [
+        "monstertoget-aktiviteter-9a7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "monstertoget-dyr-9869",
+      "siblings": [
+        "monstertoget-dyr-9869"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "monstertoget-rundt-i-huset-ed6e",
+      "siblings": [
+        "monstertoget-rundt-i-huset-ed6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "monstertoget-i-supermarkedet-c261",
+      "siblings": [
+        "monstertoget-i-supermarkedet-c261"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "monstertoget-bakeri-86be",
+      "siblings": [
+        "monstertoget-bakeri-86be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "monstertoget-strand-a526",
+      "siblings": [
+        "monstertoget-strand-a526"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "monstertoget-fugler-49cd",
+      "siblings": [
+        "monstertoget-fugler-49cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "monstertoget-fugler-2-7df7",
+      "siblings": [
+        "monstertoget-fugler-2-7df7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "monstertoget-kroppsdeler-7e0d",
+      "siblings": [
+        "monstertoget-kroppsdeler-7e0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "monstertoget-frokost-5be3",
+      "siblings": [
+        "monstertoget-frokost-5be3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "monstertoget-camping-3ae3",
+      "siblings": [
+        "monstertoget-camping-3ae3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "monstertoget-jul-467b",
+      "siblings": [
+        "monstertoget-jul-467b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "monstertoget-klasserom-0a11",
+      "siblings": [
+        "monstertoget-klasserom-0a11"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "monstertoget-klaer-91cc",
+      "siblings": [
+        "monstertoget-klaer-91cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "monstertoget-farger-dfa8",
+      "siblings": [
+        "monstertoget-farger-dfa8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "monstertoget-desserter-og-godteri-a680",
+      "siblings": [
+        "monstertoget-desserter-og-godteri-a680"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "monstertoget-dinosaurer-46ab",
+      "siblings": [
+        "monstertoget-dinosaurer-46ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "monstertoget-paske-ccc7",
+      "siblings": [
+        "monstertoget-paske-ccc7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "monstertoget-folelser-b3ab",
+      "siblings": [
+        "monstertoget-folelser-b3ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "monstertoget-gardsdyr-210f",
+      "siblings": [
+        "monstertoget-gardsdyr-210f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "monstertoget-blomster-9222",
+      "siblings": [
+        "monstertoget-blomster-9222"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "monstertoget-skogsdyr-a5fd",
+      "siblings": [
+        "monstertoget-skogsdyr-a5fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "monstertoget-frukter-5a3d",
+      "siblings": [
+        "monstertoget-frukter-5a3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "monstertoget-mobler-7426",
+      "siblings": [
+        "monstertoget-mobler-7426"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "monstertoget-sykehus-0930",
+      "siblings": [
+        "monstertoget-sykehus-0930"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "monstertoget-insekter-og-kryp-4ca5",
+      "siblings": [
+        "monstertoget-insekter-og-kryp-4ca5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "monstertoget-kjokkenredskaper-593b",
+      "siblings": [
+        "monstertoget-kjokkenredskaper-593b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "monstertoget-musikk-a5b2",
+      "siblings": [
+        "monstertoget-musikk-a5b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "monstertoget-yrker-54f3",
+      "siblings": [
+        "monstertoget-yrker-54f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "monstertoget-havliv-f1f1",
+      "siblings": [
+        "monstertoget-havliv-f1f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "monstertoget-kjaeledyr-93d0",
+      "siblings": [
+        "monstertoget-kjaeledyr-93d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "monstertoget-postkontor-0e6b",
+      "siblings": [
+        "monstertoget-postkontor-0e6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "monstertoget-reptiler-og-amfibier-c3d1",
+      "siblings": [
+        "monstertoget-reptiler-og-amfibier-c3d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "monstertoget-former-41f3",
+      "siblings": [
+        "monstertoget-former-41f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "monstertoget-verdensrommet-df69",
+      "siblings": [
+        "monstertoget-verdensrommet-df69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "monstertoget-var-18c6",
+      "siblings": [
+        "monstertoget-var-18c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "monstertoget-sommer-360b",
+      "siblings": [
+        "monstertoget-sommer-360b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "monstertoget-thanksgiving-3254",
+      "siblings": [
+        "monstertoget-thanksgiving-3254"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "monstertoget-ting-som-flyr-cd0e",
+      "siblings": [
+        "monstertoget-ting-som-flyr-cd0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "monstertoget-verktoy-bb95",
+      "siblings": [
+        "monstertoget-verktoy-bb95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "monstertoget-leker-15a8",
+      "siblings": [
+        "monstertoget-leker-15a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "monstertoget-traer-ce31",
+      "siblings": [
+        "monstertoget-traer-ce31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "monstertoget-gronnsaker-f5bd",
+      "siblings": [
+        "monstertoget-gronnsaker-f5bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "monstertoget-kjoretoy-870f",
+      "siblings": [
+        "monstertoget-kjoretoy-870f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "monstertoget-vaer-f7d0",
+      "siblings": [
+        "monstertoget-vaer-f7d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "monstertoget-vinter-374c",
+      "siblings": [
+        "monstertoget-vinter-374c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "monstertoget-dyrehagedyr-c1c7",
+      "siblings": [
+        "monstertoget-dyrehagedyr-c1c7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    }
+  ]
+}

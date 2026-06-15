@@ -64,7 +64,7 @@ const TYPE_MAP = {
   'odd-one-out':   { op: 'Hva passer ikke?', qual: {} },
   bingo:           { op: 'Bildebingo', qual: {} },
   'pattern-train': { op: { 'null': 'AB-mønster', aab: 'AAB-mønster', abb: 'ABB-mønster', aabb: 'AABB-mønster', abc: 'ABC-mønster' }, qual: {} },
-  'pattern-worksheet': { op: 'Mønstre', qual: {} },
+  'pattern-worksheet': { op: 'Mønster', qual: {} },
   'picture-path':  { op: 'Labyrint', qual: { 'choose-path': 'velg riktig vei', 'classic-maze': 'klassisk labyrint' } },
   'picture-trail': { op: 'Labyrint', qual: {} },
   'picture-sort':  { op: 'Sorter bildene', qual: {} },

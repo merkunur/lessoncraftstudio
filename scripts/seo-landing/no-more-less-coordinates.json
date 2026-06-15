@@ -1,0 +1,2034 @@
+{
+  "locale": "no",
+  "exerciseType": "more-less",
+  "level": "1-trinn",
+  "rawRowCount": 146,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "check-cross": 48,
+    "image-image": 48,
+    "image-number": 47
+  },
+  "totalValid": 120,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "check-cross",
+    "image-image",
+    "image-number"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [
+    "check-cross/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "check-cross/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "check-cross/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "check-cross/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "check-cross/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "check-cross/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "check-cross/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "check-cross/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)",
+    "image-image/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "image-image/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "image-image/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "image-image/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "image-image/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "image-image/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "image-image/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "image-image/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)",
+    "image-number/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "image-number/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "image-number/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "image-number/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "image-number/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "image-number/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "image-number/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "check-cross",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-tilbehor-bd64",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-tilbehor-bd64"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-dyr-1248",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-dyr-1248"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-rundt-i-huset-4a2d",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-rundt-i-huset-4a2d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-i-supermarkedet-5422",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-i-supermarkedet-5422"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-bakeri-0941",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-bakeri-0941"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-strand-45de",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-strand-45de"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-fugler-5da3",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-fugler-5da3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-fugler-2-5e64",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-fugler-2-5e64"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-frokost-44e1",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-frokost-44e1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-camping-28bf",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-camping-28bf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-jul-ba0c",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-jul-ba0c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-klasserom-fd5b",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-klasserom-fd5b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-klaer-7c7f",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-klaer-7c7f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-desserter-og-godteri-8c02",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-desserter-og-godteri-8c02"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-dinosaurer-4d8f",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-dinosaurer-4d8f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-paske-16b5",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-paske-16b5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-gardsdyr-2da9",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-gardsdyr-2da9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-blomster-7092",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-blomster-7092"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-skogsdyr-eea9",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-skogsdyr-eea9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-frukter-33f2",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-frukter-33f2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-mobler-faca",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-mobler-faca"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-sykehus-033b",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-sykehus-033b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-insekter-og-kryp-a263",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-insekter-og-kryp-a263"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-kjokkenredskaper-ace2",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-kjokkenredskaper-ace2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-musikk-3032",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-musikk-3032"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-yrker-8c5e",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-yrker-8c5e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-havliv-76ea",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-havliv-76ea"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-kjaeledyr-f80a",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-kjaeledyr-f80a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-postkontor-fad5",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-postkontor-fad5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-reptiler-og-amfibier-0563",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-reptiler-og-amfibier-0563"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-former-5fa6",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-former-5fa6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-verdensrommet-3745",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-verdensrommet-3745"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-thanksgiving-f7aa",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-thanksgiving-f7aa"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-ting-som-flyr-d1c9",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-ting-som-flyr-d1c9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-verktoy-27dd",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-verktoy-27dd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-leker-297d",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-leker-297d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-traer-83e5",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-traer-83e5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-gronnsaker-0078",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-gronnsaker-0078"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-kjoretoy-55f5",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-kjoretoy-55f5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mer-mindre-kryss-av-og-strek-over-grupper-dyrehagedyr-d18f",
+      "siblings": [
+        "mer-mindre-kryss-av-og-strek-over-grupper-dyrehagedyr-d18f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-tilbehor-be78",
+      "siblings": [
+        "mer-mindre-bilde-bilde-tilbehor-be78"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-dyr-0094",
+      "siblings": [
+        "mer-mindre-bilde-bilde-dyr-0094"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-rundt-i-huset-f3b8",
+      "siblings": [
+        "mer-mindre-bilde-bilde-rundt-i-huset-f3b8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-i-supermarkedet-5a29",
+      "siblings": [
+        "mer-mindre-bilde-bilde-i-supermarkedet-5a29"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-bakeri-3818",
+      "siblings": [
+        "mer-mindre-bilde-bilde-bakeri-3818"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-strand-de7e",
+      "siblings": [
+        "mer-mindre-bilde-bilde-strand-de7e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-fugler-3fcd",
+      "siblings": [
+        "mer-mindre-bilde-bilde-fugler-3fcd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-fugler-2-9bc9",
+      "siblings": [
+        "mer-mindre-bilde-bilde-fugler-2-9bc9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-frokost-e30f",
+      "siblings": [
+        "mer-mindre-bilde-bilde-frokost-e30f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-camping-b968",
+      "siblings": [
+        "mer-mindre-bilde-bilde-camping-b968"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-jul-0c68",
+      "siblings": [
+        "mer-mindre-bilde-bilde-jul-0c68"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-klasserom-8775",
+      "siblings": [
+        "mer-mindre-bilde-bilde-klasserom-8775"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-klaer-f593",
+      "siblings": [
+        "mer-mindre-bilde-bilde-klaer-f593"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-desserter-og-godteri-31f5",
+      "siblings": [
+        "mer-mindre-bilde-bilde-desserter-og-godteri-31f5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-dinosaurer-8f53",
+      "siblings": [
+        "mer-mindre-bilde-bilde-dinosaurer-8f53"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-paske-f52f",
+      "siblings": [
+        "mer-mindre-bilde-bilde-paske-f52f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-gardsdyr-68b6",
+      "siblings": [
+        "mer-mindre-bilde-bilde-gardsdyr-68b6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-blomster-bc24",
+      "siblings": [
+        "mer-mindre-bilde-bilde-blomster-bc24"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-skogsdyr-9d75",
+      "siblings": [
+        "mer-mindre-bilde-bilde-skogsdyr-9d75"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-frukter-0424",
+      "siblings": [
+        "mer-mindre-bilde-bilde-frukter-0424"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-mobler-00d3",
+      "siblings": [
+        "mer-mindre-bilde-bilde-mobler-00d3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-sykehus-d3d0",
+      "siblings": [
+        "mer-mindre-bilde-bilde-sykehus-d3d0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-insekter-og-kryp-eda9",
+      "siblings": [
+        "mer-mindre-bilde-bilde-insekter-og-kryp-eda9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-kjokkenredskaper-faeb",
+      "siblings": [
+        "mer-mindre-bilde-bilde-kjokkenredskaper-faeb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-musikk-1e54",
+      "siblings": [
+        "mer-mindre-bilde-bilde-musikk-1e54"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-yrker-e3a4",
+      "siblings": [
+        "mer-mindre-bilde-bilde-yrker-e3a4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-havliv-356c",
+      "siblings": [
+        "mer-mindre-bilde-bilde-havliv-356c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-kjaeledyr-c74e",
+      "siblings": [
+        "mer-mindre-bilde-bilde-kjaeledyr-c74e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-postkontor-ad24",
+      "siblings": [
+        "mer-mindre-bilde-bilde-postkontor-ad24"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-reptiler-og-amfibier-8e8e",
+      "siblings": [
+        "mer-mindre-bilde-bilde-reptiler-og-amfibier-8e8e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-former-ae6b",
+      "siblings": [
+        "mer-mindre-bilde-bilde-former-ae6b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-verdensrommet-92c9",
+      "siblings": [
+        "mer-mindre-bilde-bilde-verdensrommet-92c9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-thanksgiving-d679",
+      "siblings": [
+        "mer-mindre-bilde-bilde-thanksgiving-d679"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-ting-som-flyr-c310",
+      "siblings": [
+        "mer-mindre-bilde-bilde-ting-som-flyr-c310"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-verktoy-c5e6",
+      "siblings": [
+        "mer-mindre-bilde-bilde-verktoy-c5e6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-leker-1d70",
+      "siblings": [
+        "mer-mindre-bilde-bilde-leker-1d70"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-traer-1e8a",
+      "siblings": [
+        "mer-mindre-bilde-bilde-traer-1e8a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-gronnsaker-5798",
+      "siblings": [
+        "mer-mindre-bilde-bilde-gronnsaker-5798"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-kjoretoy-cfdd",
+      "siblings": [
+        "mer-mindre-bilde-bilde-kjoretoy-cfdd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-bilde-dyrehagedyr-faf2",
+      "siblings": [
+        "mer-mindre-bilde-bilde-dyrehagedyr-faf2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-tilbehor-0f28",
+      "siblings": [
+        "mer-mindre-bilde-tall-tilbehor-0f28"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-dyr-1611",
+      "siblings": [
+        "mer-mindre-bilde-tall-dyr-1611"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-rundt-i-huset-1ed2",
+      "siblings": [
+        "mer-mindre-bilde-tall-rundt-i-huset-1ed2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-i-supermarkedet-4a55",
+      "siblings": [
+        "mer-mindre-bilde-tall-i-supermarkedet-4a55"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-bakeri-adc7",
+      "siblings": [
+        "mer-mindre-bilde-tall-bakeri-adc7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-strand-639f",
+      "siblings": [
+        "mer-mindre-bilde-tall-strand-639f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-fugler-0c0c",
+      "siblings": [
+        "mer-mindre-bilde-tall-fugler-0c0c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-fugler-2-ce53",
+      "siblings": [
+        "mer-mindre-bilde-tall-fugler-2-ce53"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-frokost-27b1",
+      "siblings": [
+        "mer-mindre-bilde-tall-frokost-27b1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-camping-a05f",
+      "siblings": [
+        "mer-mindre-bilde-tall-camping-a05f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-jul-1930",
+      "siblings": [
+        "mer-mindre-bilde-tall-jul-1930"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-klasserom-eab3",
+      "siblings": [
+        "mer-mindre-bilde-tall-klasserom-eab3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-klaer-0838",
+      "siblings": [
+        "mer-mindre-bilde-tall-klaer-0838"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-desserter-og-godteri-72af",
+      "siblings": [
+        "mer-mindre-bilde-tall-desserter-og-godteri-72af"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-dinosaurer-454e",
+      "siblings": [
+        "mer-mindre-bilde-tall-dinosaurer-454e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-paske-26b3",
+      "siblings": [
+        "mer-mindre-bilde-tall-paske-26b3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-gardsdyr-0ebf",
+      "siblings": [
+        "mer-mindre-bilde-tall-gardsdyr-0ebf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-blomster-1f6b",
+      "siblings": [
+        "mer-mindre-bilde-tall-blomster-1f6b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-skogsdyr-d7ad",
+      "siblings": [
+        "mer-mindre-bilde-tall-skogsdyr-d7ad"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-frukter-1d89",
+      "siblings": [
+        "mer-mindre-bilde-tall-frukter-1d89"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-mobler-a67c",
+      "siblings": [
+        "mer-mindre-bilde-tall-mobler-a67c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-sykehus-5882",
+      "siblings": [
+        "mer-mindre-bilde-tall-sykehus-5882"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-insekter-og-kryp-fb28",
+      "siblings": [
+        "mer-mindre-bilde-tall-insekter-og-kryp-fb28"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-kjokkenredskaper-eca4",
+      "siblings": [
+        "mer-mindre-bilde-tall-kjokkenredskaper-eca4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-musikk-288e",
+      "siblings": [
+        "mer-mindre-bilde-tall-musikk-288e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-yrker-96de",
+      "siblings": [
+        "mer-mindre-bilde-tall-yrker-96de"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-havliv-2f06",
+      "siblings": [
+        "mer-mindre-bilde-tall-havliv-2f06"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-kjaeledyr-9fa3",
+      "siblings": [
+        "mer-mindre-bilde-tall-kjaeledyr-9fa3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-postkontor-9f9f",
+      "siblings": [
+        "mer-mindre-bilde-tall-postkontor-9f9f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-reptiler-og-amfibier-63a3",
+      "siblings": [
+        "mer-mindre-bilde-tall-reptiler-og-amfibier-63a3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-former-013f",
+      "siblings": [
+        "mer-mindre-bilde-tall-former-013f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-verdensrommet-1480",
+      "siblings": [
+        "mer-mindre-bilde-tall-verdensrommet-1480"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-thanksgiving-5982",
+      "siblings": [
+        "mer-mindre-bilde-tall-thanksgiving-5982"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-ting-som-flyr-6806",
+      "siblings": [
+        "mer-mindre-bilde-tall-ting-som-flyr-6806"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-verktoy-55b1",
+      "siblings": [
+        "mer-mindre-bilde-tall-verktoy-55b1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-leker-ae35",
+      "siblings": [
+        "mer-mindre-bilde-tall-leker-ae35"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-traer-03c8",
+      "siblings": [
+        "mer-mindre-bilde-tall-traer-03c8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-gronnsaker-a27f",
+      "siblings": [
+        "mer-mindre-bilde-tall-gronnsaker-a27f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-kjoretoy-3074",
+      "siblings": [
+        "mer-mindre-bilde-tall-kjoretoy-3074"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mer-mindre-bilde-tall-dyrehagedyr-0db0",
+      "siblings": [
+        "mer-mindre-bilde-tall-dyrehagedyr-0db0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-trinn"
+    }
+  ]
+}

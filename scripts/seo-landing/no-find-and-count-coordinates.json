@@ -1,0 +1,1531 @@
+{
+  "locale": "no",
+  "exerciseType": "find-and-count",
+  "level": "1-trinn",
+  "rawRowCount": 93,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "hidden-object": 45,
+    "letter-spotting": 46
+  },
+  "totalValid": 91,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "hidden-object",
+    "letter-spotting"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "hidden-object",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-tilbehor-13d7",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-tilbehor-13d7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-aktiviteter-f863",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-aktiviteter-f863"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-dyr-bd49",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-dyr-bd49"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-rundt-i-huset-453b",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-rundt-i-huset-453b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-i-supermarkedet-07b8",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-i-supermarkedet-07b8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-bakeri-c278",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-bakeri-c278"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-strand-2ee7",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-strand-2ee7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-fugler-2-4e77",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-fugler-2-4e77"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-kroppsdeler-efe6",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-kroppsdeler-efe6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-frokost-cbf2",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-frokost-cbf2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-camping-58b3",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-camping-58b3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-jul-da8a",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-jul-da8a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-klasserom-d82a",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-klasserom-d82a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-klaer-223e",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-klaer-223e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-farger-5af7",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-farger-5af7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: colors has low onset variety",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-desserter-og-godteri-102f",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-desserter-og-godteri-102f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-paske-ec8a",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-paske-ec8a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-folelser-c271",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-folelser-c271"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-gardsdyr-6699",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-gardsdyr-6699"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-blomster-6372",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-blomster-6372"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-skogsdyr-9ea3",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-skogsdyr-9ea3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-frukter-ab1f",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-frukter-ab1f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-mobler-60bc",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-mobler-60bc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-sykehus-f4f4",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-sykehus-f4f4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-insekter-og-kryp-1ce8",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-insekter-og-kryp-1ce8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-kjokkenredskaper-a4fe",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-kjokkenredskaper-a4fe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-musikk-d571",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-musikk-d571"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-yrker-1ca0",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-yrker-1ca0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-havliv-ab55",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-havliv-ab55"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-kjaeledyr-81cb",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-kjaeledyr-81cb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-postkontor-c51f",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-postkontor-c51f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-reptiler-og-amfibier-b785",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-reptiler-og-amfibier-b785"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-former-68f6",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-former-68f6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: shapes has low onset variety",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-verdensrommet-25e4",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-verdensrommet-25e4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-var-7fa6",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-var-7fa6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-sommer-9e1f",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-sommer-9e1f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-thanksgiving-77c8",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-thanksgiving-77c8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-ting-som-flyr-fecc",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-ting-som-flyr-fecc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-verktoy-8b80",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-verktoy-8b80"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-leker-a35b",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-leker-a35b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-gronnsaker-93ec",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-gronnsaker-93ec"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-kjoretoy-93ed",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-kjoretoy-93ed"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-vaer-7ea8",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-vaer-7ea8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-vinter-ab2e",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-vinter-ab2e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "finn-og-tell-skjulte-gjenstander-dyrehagedyr-1b61",
+      "siblings": [
+        "finn-og-tell-skjulte-gjenstander-dyrehagedyr-1b61"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-tilbehor-e913",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-tilbehor-e913"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-aktiviteter-e6f3",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-aktiviteter-e6f3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-dyr-2534",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-dyr-2534"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-rundt-i-huset-3be1",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-rundt-i-huset-3be1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-i-supermarkedet-4b84",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-i-supermarkedet-4b84"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-bakeri-5729",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-bakeri-5729"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-strand-145c",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-strand-145c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-fugler-2-efaa",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-fugler-2-efaa"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-kroppsdeler-39af",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-kroppsdeler-39af"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-frokost-7ca3",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-frokost-7ca3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-camping-83f4",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-camping-83f4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-jul-fcc8",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-jul-fcc8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-klasserom-567f",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-klasserom-567f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-klaer-f987",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-klaer-f987"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-farger-a531",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-farger-a531"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: colors has low onset variety",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-desserter-og-godteri-ea68",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-desserter-og-godteri-ea68"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-paske-c641",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-paske-c641"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-folelser-8df2",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-folelser-8df2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-gardsdyr-3508",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-gardsdyr-3508"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-blomster-a9a0",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-blomster-a9a0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-skogsdyr-910f",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-skogsdyr-910f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-frukter-3888",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-frukter-3888"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-mobler-7d60",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-mobler-7d60"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-sykehus-6d79",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-sykehus-6d79"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-insekter-og-kryp-2c10",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-insekter-og-kryp-2c10"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-kjokkenredskaper-37a4",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-kjokkenredskaper-37a4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-musikk-a042",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-musikk-a042"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-yrker-5d0c",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-yrker-5d0c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-havliv-cc58",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-havliv-cc58"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-kjaeledyr-d19e",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-kjaeledyr-d19e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-postkontor-6439",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-postkontor-6439"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-reptiler-og-amfibier-750e",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-reptiler-og-amfibier-750e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-former-a06f",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-former-a06f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: shapes has low onset variety",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-verdensrommet-a0a9",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-verdensrommet-a0a9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-var-3c43",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-var-3c43"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-sommer-a994",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-sommer-a994"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-thanksgiving-f715",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-thanksgiving-f715"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-ting-som-flyr-542c",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-ting-som-flyr-542c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-verktoy-f9f1",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-verktoy-f9f1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-leker-4e9b",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-leker-4e9b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-traer-6791",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-traer-6791"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-gronnsaker-9b14",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-gronnsaker-9b14"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-kjoretoy-d3b0",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-kjoretoy-d3b0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-vaer-e8e9",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-vaer-e8e9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-vinter-d074",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-vinter-d074"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "finn-og-tell-finn-bokstaver-dyrehagedyr-ab4a",
+      "siblings": [
+        "finn-og-tell-finn-bokstaver-dyrehagedyr-ab4a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "1-trinn"
+    }
+  ]
+}

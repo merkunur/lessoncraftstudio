@@ -1,0 +1,1319 @@
+{
+  "locale": "no",
+  "exerciseType": "big-small",
+  "level": "1-trinn",
+  "rawRowCount": 92,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "findBig": 42,
+    "orderAsc": 48
+  },
+  "totalValid": 77,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "findBig",
+    "orderAsc"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [
+    "findBig/activities — INVALID: activities has no orderable physical size for a size mechanic",
+    "findBig/colors — INVALID: colors has no orderable physical size for a size mechanic",
+    "findBig/spring — INVALID: spring has no orderable physical size for a size mechanic",
+    "findBig/summer — INVALID: summer has no orderable physical size for a size mechanic",
+    "findBig/weather — INVALID: weather has no orderable physical size for a size mechanic",
+    "findBig/winter — INVALID: winter has no orderable physical size for a size mechanic",
+    "orderAsc/activities — INVALID: activities has no orderable physical size for a size mechanic",
+    "orderAsc/colors — INVALID: colors has no orderable physical size for a size mechanic",
+    "orderAsc/emotions — INVALID: emotions has no orderable physical size for a size mechanic",
+    "orderAsc/spring — INVALID: spring has no orderable physical size for a size mechanic",
+    "orderAsc/summer — INVALID: summer has no orderable physical size for a size mechanic",
+    "orderAsc/weather — INVALID: weather has no orderable physical size for a size mechanic",
+    "orderAsc/winter — INVALID: winter has no orderable physical size for a size mechanic"
+  ],
+  "coordinates": [
+    {
+      "mode": "findBig",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-tilbehor-4ff9",
+      "siblings": [
+        "stor-liten-finn-den-store-tilbehor-4ff9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-dyr-b37e",
+      "siblings": [
+        "stor-liten-finn-den-store-dyr-b37e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-rundt-i-huset-5c60",
+      "siblings": [
+        "stor-liten-finn-den-store-rundt-i-huset-5c60"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-i-supermarkedet-9810",
+      "siblings": [
+        "stor-liten-finn-den-store-i-supermarkedet-9810"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-bakeri-f96e",
+      "siblings": [
+        "stor-liten-finn-den-store-bakeri-f96e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-strand-c6bc",
+      "siblings": [
+        "stor-liten-finn-den-store-strand-c6bc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-fugler-2-79e7",
+      "siblings": [
+        "stor-liten-finn-den-store-fugler-2-79e7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-kroppsdeler-d257",
+      "siblings": [
+        "stor-liten-finn-den-store-kroppsdeler-d257"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-frokost-85a9",
+      "siblings": [
+        "stor-liten-finn-den-store-frokost-85a9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-camping-8398",
+      "siblings": [
+        "stor-liten-finn-den-store-camping-8398"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-jul-3419",
+      "siblings": [
+        "stor-liten-finn-den-store-jul-3419"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-klasserom-c247",
+      "siblings": [
+        "stor-liten-finn-den-store-klasserom-c247"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-klaer-c7fc",
+      "siblings": [
+        "stor-liten-finn-den-store-klaer-c7fc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-desserter-og-godteri-b1aa",
+      "siblings": [
+        "stor-liten-finn-den-store-desserter-og-godteri-b1aa"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-dinosaurer-af75",
+      "siblings": [
+        "stor-liten-finn-den-store-dinosaurer-af75"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-paske-4c6c",
+      "siblings": [
+        "stor-liten-finn-den-store-paske-4c6c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-gardsdyr-b747",
+      "siblings": [
+        "stor-liten-finn-den-store-gardsdyr-b747"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-blomster-4129",
+      "siblings": [
+        "stor-liten-finn-den-store-blomster-4129"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-skogsdyr-fab8",
+      "siblings": [
+        "stor-liten-finn-den-store-skogsdyr-fab8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-frukter-5c87",
+      "siblings": [
+        "stor-liten-finn-den-store-frukter-5c87"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-mobler-708f",
+      "siblings": [
+        "stor-liten-finn-den-store-mobler-708f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-sykehus-d5a8",
+      "siblings": [
+        "stor-liten-finn-den-store-sykehus-d5a8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-kjokkenredskaper-dfaf",
+      "siblings": [
+        "stor-liten-finn-den-store-kjokkenredskaper-dfaf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-musikk-e5ad",
+      "siblings": [
+        "stor-liten-finn-den-store-musikk-e5ad"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-yrker-fe32",
+      "siblings": [
+        "stor-liten-finn-den-store-yrker-fe32"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-havliv-d08e",
+      "siblings": [
+        "stor-liten-finn-den-store-havliv-d08e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-kjaeledyr-36fc",
+      "siblings": [
+        "stor-liten-finn-den-store-kjaeledyr-36fc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-former-cf0a",
+      "siblings": [
+        "stor-liten-finn-den-store-former-cf0a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-verdensrommet-1fe3",
+      "siblings": [
+        "stor-liten-finn-den-store-verdensrommet-1fe3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-ting-som-flyr-814c",
+      "siblings": [
+        "stor-liten-finn-den-store-ting-som-flyr-814c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-verktoy-bad3",
+      "siblings": [
+        "stor-liten-finn-den-store-verktoy-bad3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-leker-c48e",
+      "siblings": [
+        "stor-liten-finn-den-store-leker-c48e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-traer-4bdf",
+      "siblings": [
+        "stor-liten-finn-den-store-traer-4bdf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-gronnsaker-3a02",
+      "siblings": [
+        "stor-liten-finn-den-store-gronnsaker-3a02"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-kjoretoy-5dc3",
+      "siblings": [
+        "stor-liten-finn-den-store-kjoretoy-5dc3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "findBig",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "stor-liten-finn-den-store-dyrehagedyr-d679",
+      "siblings": [
+        "stor-liten-finn-den-store-dyrehagedyr-d679"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-tilbehor-b557",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-tilbehor-b557"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-dyr-a43f",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-dyr-a43f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-rundt-i-huset-431c",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-rundt-i-huset-431c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-i-supermarkedet-a503",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-i-supermarkedet-a503"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-bakeri-e1d3",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-bakeri-e1d3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-strand-aa60",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-strand-aa60"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-fugler-b91c",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-fugler-b91c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-fugler-2-16e7",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-fugler-2-16e7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-kroppsdeler-76df",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-kroppsdeler-76df"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-frokost-3b48",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-frokost-3b48"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-camping-2b47",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-camping-2b47"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-jul-6731",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-jul-6731"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-klasserom-803b",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-klasserom-803b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-klaer-cbf4",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-klaer-cbf4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-desserter-og-godteri-3e41",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-desserter-og-godteri-3e41"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-dinosaurer-e107",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-dinosaurer-e107"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-paske-cde8",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-paske-cde8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-gardsdyr-d3fe",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-gardsdyr-d3fe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-blomster-9b4b",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-blomster-9b4b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-skogsdyr-2c1e",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-skogsdyr-2c1e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-frukter-e7ae",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-frukter-e7ae"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-mobler-3caf",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-mobler-3caf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-sykehus-dbfe",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-sykehus-dbfe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-insekter-og-kryp-81c0",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-insekter-og-kryp-81c0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-kjokkenredskaper-5634",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-kjokkenredskaper-5634"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-musikk-e104",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-musikk-e104"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-yrker-46e4",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-yrker-46e4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-havliv-fc91",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-havliv-fc91"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-kjaeledyr-b524",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-kjaeledyr-b524"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-postkontor-ba32",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-postkontor-ba32"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-reptiler-og-amfibier-dcfc",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-reptiler-og-amfibier-dcfc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-former-51fc",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-former-51fc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-verdensrommet-1375",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-verdensrommet-1375"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-thanksgiving-4717",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-thanksgiving-4717"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-ting-som-flyr-47b0",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-ting-som-flyr-47b0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-verktoy-f07d",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-verktoy-f07d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-leker-2a2f",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-leker-2a2f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-traer-823a",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-traer-823a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-gronnsaker-2740",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-gronnsaker-2740"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-kjoretoy-d325",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-kjoretoy-d325"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "stor-liten-stigende-rekkefolge-dyrehagedyr-15b8",
+      "siblings": [
+        "stor-liten-stigende-rekkefolge-dyrehagedyr-15b8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "1-trinn"
+    }
+  ]
+}

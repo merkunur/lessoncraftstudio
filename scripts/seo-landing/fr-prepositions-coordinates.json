@@ -1,0 +1,1422 @@
+{
+  "locale": "fr",
+  "exerciseType": "prepositions",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 93,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "fillin": 47,
+    "multiplechoice": 43
+  },
+  "totalValid": 90,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "fillin",
+    "multiplechoice"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "fillin",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "prepositions-a-completer-accessoires-6cc1",
+      "siblings": [
+        "prepositions-a-completer-accessoires-6cc1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "prepositions-a-completer-activites-6b04",
+      "siblings": [
+        "prepositions-a-completer-activites-6b04"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "prepositions-a-completer-animaux-822b",
+      "siblings": [
+        "prepositions-a-completer-animaux-822b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "prepositions-a-completer-autour-de-la-maison-2a20",
+      "siblings": [
+        "prepositions-a-completer-autour-de-la-maison-2a20"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "prepositions-a-completer-au-supermarche-6604",
+      "siblings": [
+        "prepositions-a-completer-au-supermarche-6604"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "prepositions-a-completer-boulangerie-def5",
+      "siblings": [
+        "prepositions-a-completer-boulangerie-def5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "prepositions-a-completer-plage-0f19",
+      "siblings": [
+        "prepositions-a-completer-plage-0f19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "prepositions-a-completer-oiseaux-be7f",
+      "siblings": [
+        "prepositions-a-completer-oiseaux-be7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "prepositions-a-completer-oiseaux-2-d42d",
+      "siblings": [
+        "prepositions-a-completer-oiseaux-2-d42d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "prepositions-a-completer-parties-du-corps-f503",
+      "siblings": [
+        "prepositions-a-completer-parties-du-corps-f503"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "prepositions-a-completer-petit-dejeuner-f081",
+      "siblings": [
+        "prepositions-a-completer-petit-dejeuner-f081"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "prepositions-a-completer-camping-ba24",
+      "siblings": [
+        "prepositions-a-completer-camping-ba24"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "prepositions-a-completer-noel-088c",
+      "siblings": [
+        "prepositions-a-completer-noel-088c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "prepositions-a-completer-salle-de-classe-f5e7",
+      "siblings": [
+        "prepositions-a-completer-salle-de-classe-f5e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "prepositions-a-completer-vetements-e968",
+      "siblings": [
+        "prepositions-a-completer-vetements-e968"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "prepositions-a-completer-couleurs-c801",
+      "siblings": [
+        "prepositions-a-completer-couleurs-c801"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "prepositions-a-completer-desserts-et-sucreries-cb1f",
+      "siblings": [
+        "prepositions-a-completer-desserts-et-sucreries-cb1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "prepositions-a-completer-dinosaures-1c06",
+      "siblings": [
+        "prepositions-a-completer-dinosaures-1c06"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "prepositions-a-completer-paques-ad08",
+      "siblings": [
+        "prepositions-a-completer-paques-ad08"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "prepositions-a-completer-emotions-aecc",
+      "siblings": [
+        "prepositions-a-completer-emotions-aecc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "prepositions-a-completer-animaux-de-la-ferme-a913",
+      "siblings": [
+        "prepositions-a-completer-animaux-de-la-ferme-a913"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "prepositions-a-completer-fleurs-4a3c",
+      "siblings": [
+        "prepositions-a-completer-fleurs-4a3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "prepositions-a-completer-creatures-de-la-foret-0bc9",
+      "siblings": [
+        "prepositions-a-completer-creatures-de-la-foret-0bc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "prepositions-a-completer-fruits-3fe1",
+      "siblings": [
+        "prepositions-a-completer-fruits-3fe1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "prepositions-a-completer-meubles-5d57",
+      "siblings": [
+        "prepositions-a-completer-meubles-5d57"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "prepositions-a-completer-hopital-2e5c",
+      "siblings": [
+        "prepositions-a-completer-hopital-2e5c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "prepositions-a-completer-insectes-et-bestioles-addb",
+      "siblings": [
+        "prepositions-a-completer-insectes-et-bestioles-addb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "prepositions-a-completer-ustensiles-de-cuisine-5093",
+      "siblings": [
+        "prepositions-a-completer-ustensiles-de-cuisine-5093"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "prepositions-a-completer-musique-9800",
+      "siblings": [
+        "prepositions-a-completer-musique-9800"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "prepositions-a-completer-metiers-2729",
+      "siblings": [
+        "prepositions-a-completer-metiers-2729"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "prepositions-a-completer-vie-oceanique-0a8c",
+      "siblings": [
+        "prepositions-a-completer-vie-oceanique-0a8c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "prepositions-a-completer-animaux-de-compagnie-8921",
+      "siblings": [
+        "prepositions-a-completer-animaux-de-compagnie-8921"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "prepositions-a-completer-bureau-de-poste-cbaa",
+      "siblings": [
+        "prepositions-a-completer-bureau-de-poste-cbaa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "prepositions-a-completer-formes-39c1",
+      "siblings": [
+        "prepositions-a-completer-formes-39c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "prepositions-a-completer-espace-1628",
+      "siblings": [
+        "prepositions-a-completer-espace-1628"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "prepositions-a-completer-printemps-4476",
+      "siblings": [
+        "prepositions-a-completer-printemps-4476"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "prepositions-a-completer-ete-19e8",
+      "siblings": [
+        "prepositions-a-completer-ete-19e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "prepositions-a-completer-action-de-grace-0e15",
+      "siblings": [
+        "prepositions-a-completer-action-de-grace-0e15"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "prepositions-a-completer-choses-qui-volent-8317",
+      "siblings": [
+        "prepositions-a-completer-choses-qui-volent-8317"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "prepositions-a-completer-outils-43b0",
+      "siblings": [
+        "prepositions-a-completer-outils-43b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "prepositions-a-completer-jouets-5c38",
+      "siblings": [
+        "prepositions-a-completer-jouets-5c38"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "prepositions-a-completer-arbres-a51d",
+      "siblings": [
+        "prepositions-a-completer-arbres-a51d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "prepositions-a-completer-legumes-493c",
+      "siblings": [
+        "prepositions-a-completer-legumes-493c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "prepositions-a-completer-vehicules-b7c1",
+      "siblings": [
+        "prepositions-a-completer-vehicules-b7c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "prepositions-a-completer-meteo-732a",
+      "siblings": [
+        "prepositions-a-completer-meteo-732a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "prepositions-a-completer-hiver-e240",
+      "siblings": [
+        "prepositions-a-completer-hiver-e240"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "prepositions-a-completer-animaux-du-zoo-a2d6",
+      "siblings": [
+        "prepositions-a-completer-animaux-du-zoo-a2d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-accessoires-bcb4",
+      "siblings": [
+        "prepositions-choix-multiple-accessoires-bcb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-activites-ee5e",
+      "siblings": [
+        "prepositions-choix-multiple-activites-ee5e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-animaux-666b",
+      "siblings": [
+        "prepositions-choix-multiple-animaux-666b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-autour-de-la-maison-4f8b",
+      "siblings": [
+        "prepositions-choix-multiple-autour-de-la-maison-4f8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-au-supermarche-c434",
+      "siblings": [
+        "prepositions-choix-multiple-au-supermarche-c434"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-boulangerie-8dac",
+      "siblings": [
+        "prepositions-choix-multiple-boulangerie-8dac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-plage-1cba",
+      "siblings": [
+        "prepositions-choix-multiple-plage-1cba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-oiseaux-88c5",
+      "siblings": [
+        "prepositions-choix-multiple-oiseaux-88c5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-oiseaux-2-e638",
+      "siblings": [
+        "prepositions-choix-multiple-oiseaux-2-e638"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-parties-du-corps-2e4b",
+      "siblings": [
+        "prepositions-choix-multiple-parties-du-corps-2e4b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-camping-0724",
+      "siblings": [
+        "prepositions-choix-multiple-camping-0724"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-noel-917f",
+      "siblings": [
+        "prepositions-choix-multiple-noel-917f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-salle-de-classe-8763",
+      "siblings": [
+        "prepositions-choix-multiple-salle-de-classe-8763"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-vetements-879c",
+      "siblings": [
+        "prepositions-choix-multiple-vetements-879c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-desserts-et-sucreries-97cc",
+      "siblings": [
+        "prepositions-choix-multiple-desserts-et-sucreries-97cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-dinosaures-470c",
+      "siblings": [
+        "prepositions-choix-multiple-dinosaures-470c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-paques-6760",
+      "siblings": [
+        "prepositions-choix-multiple-paques-6760"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-emotions-eacc",
+      "siblings": [
+        "prepositions-choix-multiple-emotions-eacc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-animaux-de-la-ferme-8a6a",
+      "siblings": [
+        "prepositions-choix-multiple-animaux-de-la-ferme-8a6a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-fleurs-37e5",
+      "siblings": [
+        "prepositions-choix-multiple-fleurs-37e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-fruits-83bc",
+      "siblings": [
+        "prepositions-choix-multiple-fruits-83bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-meubles-03d3",
+      "siblings": [
+        "prepositions-choix-multiple-meubles-03d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-hopital-ccdf",
+      "siblings": [
+        "prepositions-choix-multiple-hopital-ccdf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-insectes-et-bestioles-b436",
+      "siblings": [
+        "prepositions-choix-multiple-insectes-et-bestioles-b436"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-ustensiles-de-cuisine-013e",
+      "siblings": [
+        "prepositions-choix-multiple-ustensiles-de-cuisine-013e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-musique-5712",
+      "siblings": [
+        "prepositions-choix-multiple-musique-5712"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-metiers-7b57",
+      "siblings": [
+        "prepositions-choix-multiple-metiers-7b57"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-vie-oceanique-5602",
+      "siblings": [
+        "prepositions-choix-multiple-vie-oceanique-5602"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-animaux-de-compagnie-3727",
+      "siblings": [
+        "prepositions-choix-multiple-animaux-de-compagnie-3727"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-bureau-de-poste-ea32",
+      "siblings": [
+        "prepositions-choix-multiple-bureau-de-poste-ea32"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-espace-ddb9",
+      "siblings": [
+        "prepositions-choix-multiple-espace-ddb9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-printemps-0c82",
+      "siblings": [
+        "prepositions-choix-multiple-printemps-0c82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-ete-de79",
+      "siblings": [
+        "prepositions-choix-multiple-ete-de79"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-action-de-grace-4fe0",
+      "siblings": [
+        "prepositions-choix-multiple-action-de-grace-4fe0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-choses-qui-volent-6b6e",
+      "siblings": [
+        "prepositions-choix-multiple-choses-qui-volent-6b6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-outils-f2ba",
+      "siblings": [
+        "prepositions-choix-multiple-outils-f2ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-jouets-40b1",
+      "siblings": [
+        "prepositions-choix-multiple-jouets-40b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-arbres-40a2",
+      "siblings": [
+        "prepositions-choix-multiple-arbres-40a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-legumes-0133",
+      "siblings": [
+        "prepositions-choix-multiple-legumes-0133"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-vehicules-5690",
+      "siblings": [
+        "prepositions-choix-multiple-vehicules-5690"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-meteo-ef7d",
+      "siblings": [
+        "prepositions-choix-multiple-meteo-ef7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-hiver-68b5",
+      "siblings": [
+        "prepositions-choix-multiple-hiver-68b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "prepositions-choix-multiple-animaux-du-zoo-b32f",
+      "siblings": [
+        "prepositions-choix-multiple-animaux-du-zoo-b32f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

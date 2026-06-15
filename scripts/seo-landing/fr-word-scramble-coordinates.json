@@ -1,0 +1,1467 @@
+{
+  "locale": "fr",
+  "exerciseType": "word-scramble",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 96,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 46,
+    "normal": 47
+  },
+  "totalValid": 93,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "normal"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-accessoires-a4b8",
+      "siblings": [
+        "lettres-melangees-facile-accessoires-a4b8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-activites-ff4f",
+      "siblings": [
+        "lettres-melangees-facile-activites-ff4f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-animaux-14b4",
+      "siblings": [
+        "lettres-melangees-facile-animaux-14b4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-autour-de-la-maison-5327",
+      "siblings": [
+        "lettres-melangees-facile-autour-de-la-maison-5327"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-au-supermarche-0e34",
+      "siblings": [
+        "lettres-melangees-facile-au-supermarche-0e34"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-boulangerie-c4db",
+      "siblings": [
+        "lettres-melangees-facile-boulangerie-c4db"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-plage-658f",
+      "siblings": [
+        "lettres-melangees-facile-plage-658f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-oiseaux-83b0",
+      "siblings": [
+        "lettres-melangees-facile-oiseaux-83b0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-oiseaux-2-d285",
+      "siblings": [
+        "lettres-melangees-facile-oiseaux-2-d285"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-parties-du-corps-0338",
+      "siblings": [
+        "lettres-melangees-facile-parties-du-corps-0338"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-petit-dejeuner-e4f8",
+      "siblings": [
+        "lettres-melangees-facile-petit-dejeuner-e4f8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-camping-7b06",
+      "siblings": [
+        "lettres-melangees-facile-camping-7b06"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-noel-e2f6",
+      "siblings": [
+        "lettres-melangees-facile-noel-e2f6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-salle-de-classe-d07c",
+      "siblings": [
+        "lettres-melangees-facile-salle-de-classe-d07c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-vetements-4353",
+      "siblings": [
+        "lettres-melangees-facile-vetements-4353"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-couleurs-4a59",
+      "siblings": [
+        "lettres-melangees-facile-couleurs-4a59"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-desserts-et-sucreries-5ead",
+      "siblings": [
+        "lettres-melangees-facile-desserts-et-sucreries-5ead"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-paques-15b0",
+      "siblings": [
+        "lettres-melangees-facile-paques-15b0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-emotions-bc2b",
+      "siblings": [
+        "lettres-melangees-facile-emotions-bc2b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-animaux-de-la-ferme-bb61",
+      "siblings": [
+        "lettres-melangees-facile-animaux-de-la-ferme-bb61"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-fleurs-0299",
+      "siblings": [
+        "lettres-melangees-facile-fleurs-0299"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-creatures-de-la-foret-d670",
+      "siblings": [
+        "lettres-melangees-facile-creatures-de-la-foret-d670"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-fruits-85bf",
+      "siblings": [
+        "lettres-melangees-facile-fruits-85bf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-meubles-5a46",
+      "siblings": [
+        "lettres-melangees-facile-meubles-5a46"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-hopital-f202",
+      "siblings": [
+        "lettres-melangees-facile-hopital-f202"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-insectes-et-bestioles-191b",
+      "siblings": [
+        "lettres-melangees-facile-insectes-et-bestioles-191b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-ustensiles-de-cuisine-d2d2",
+      "siblings": [
+        "lettres-melangees-facile-ustensiles-de-cuisine-d2d2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-musique-54c0",
+      "siblings": [
+        "lettres-melangees-facile-musique-54c0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-metiers-0d3e",
+      "siblings": [
+        "lettres-melangees-facile-metiers-0d3e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-vie-oceanique-e772",
+      "siblings": [
+        "lettres-melangees-facile-vie-oceanique-e772"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-animaux-de-compagnie-3c95",
+      "siblings": [
+        "lettres-melangees-facile-animaux-de-compagnie-3c95"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-bureau-de-poste-4b7f",
+      "siblings": [
+        "lettres-melangees-facile-bureau-de-poste-4b7f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-reptiles-et-amphibiens-69c0",
+      "siblings": [
+        "lettres-melangees-facile-reptiles-et-amphibiens-69c0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-formes-e8db",
+      "siblings": [
+        "lettres-melangees-facile-formes-e8db"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-espace-af2d",
+      "siblings": [
+        "lettres-melangees-facile-espace-af2d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-printemps-c570",
+      "siblings": [
+        "lettres-melangees-facile-printemps-c570"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-ete-d785",
+      "siblings": [
+        "lettres-melangees-facile-ete-d785"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-action-de-grace-8792",
+      "siblings": [
+        "lettres-melangees-facile-action-de-grace-8792"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-choses-qui-volent-22a8",
+      "siblings": [
+        "lettres-melangees-facile-choses-qui-volent-22a8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-jouets-d5b1",
+      "siblings": [
+        "lettres-melangees-facile-jouets-d5b1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-arbres-a4a1",
+      "siblings": [
+        "lettres-melangees-facile-arbres-a4a1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-legumes-298a",
+      "siblings": [
+        "lettres-melangees-facile-legumes-298a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-vehicules-4ade",
+      "siblings": [
+        "lettres-melangees-facile-vehicules-4ade"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-meteo-d0a1",
+      "siblings": [
+        "lettres-melangees-facile-meteo-d0a1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-hiver-629b",
+      "siblings": [
+        "lettres-melangees-facile-hiver-629b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "lettres-melangees-facile-animaux-du-zoo-c536",
+      "siblings": [
+        "lettres-melangees-facile-animaux-du-zoo-c536"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-accessoires-b995",
+      "siblings": [
+        "lettres-melangees-normal-accessoires-b995"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-activites-29ac",
+      "siblings": [
+        "lettres-melangees-normal-activites-29ac"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-animaux-31f5",
+      "siblings": [
+        "lettres-melangees-normal-animaux-31f5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-autour-de-la-maison-ec4d",
+      "siblings": [
+        "lettres-melangees-normal-autour-de-la-maison-ec4d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-au-supermarche-8cae",
+      "siblings": [
+        "lettres-melangees-normal-au-supermarche-8cae"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-boulangerie-ca85",
+      "siblings": [
+        "lettres-melangees-normal-boulangerie-ca85"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-plage-823f",
+      "siblings": [
+        "lettres-melangees-normal-plage-823f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-oiseaux-5555",
+      "siblings": [
+        "lettres-melangees-normal-oiseaux-5555"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-oiseaux-2-745b",
+      "siblings": [
+        "lettres-melangees-normal-oiseaux-2-745b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-parties-du-corps-748d",
+      "siblings": [
+        "lettres-melangees-normal-parties-du-corps-748d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-petit-dejeuner-b201",
+      "siblings": [
+        "lettres-melangees-normal-petit-dejeuner-b201"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-camping-bd89",
+      "siblings": [
+        "lettres-melangees-normal-camping-bd89"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-noel-ec76",
+      "siblings": [
+        "lettres-melangees-normal-noel-ec76"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-salle-de-classe-cfdc",
+      "siblings": [
+        "lettres-melangees-normal-salle-de-classe-cfdc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-vetements-90cc",
+      "siblings": [
+        "lettres-melangees-normal-vetements-90cc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-couleurs-e63e",
+      "siblings": [
+        "lettres-melangees-normal-couleurs-e63e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-desserts-et-sucreries-db7a",
+      "siblings": [
+        "lettres-melangees-normal-desserts-et-sucreries-db7a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-paques-5ea2",
+      "siblings": [
+        "lettres-melangees-normal-paques-5ea2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-emotions-92f5",
+      "siblings": [
+        "lettres-melangees-normal-emotions-92f5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-animaux-de-la-ferme-7838",
+      "siblings": [
+        "lettres-melangees-normal-animaux-de-la-ferme-7838"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-fleurs-8485",
+      "siblings": [
+        "lettres-melangees-normal-fleurs-8485"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-creatures-de-la-foret-422a",
+      "siblings": [
+        "lettres-melangees-normal-creatures-de-la-foret-422a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-fruits-4aae",
+      "siblings": [
+        "lettres-melangees-normal-fruits-4aae"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-meubles-81ff",
+      "siblings": [
+        "lettres-melangees-normal-meubles-81ff"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-hopital-f481",
+      "siblings": [
+        "lettres-melangees-normal-hopital-f481"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-insectes-et-bestioles-547c",
+      "siblings": [
+        "lettres-melangees-normal-insectes-et-bestioles-547c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-ustensiles-de-cuisine-ee19",
+      "siblings": [
+        "lettres-melangees-normal-ustensiles-de-cuisine-ee19"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-musique-1282",
+      "siblings": [
+        "lettres-melangees-normal-musique-1282"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-metiers-178c",
+      "siblings": [
+        "lettres-melangees-normal-metiers-178c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-vie-oceanique-163a",
+      "siblings": [
+        "lettres-melangees-normal-vie-oceanique-163a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-animaux-de-compagnie-55f8",
+      "siblings": [
+        "lettres-melangees-normal-animaux-de-compagnie-55f8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-bureau-de-poste-190c",
+      "siblings": [
+        "lettres-melangees-normal-bureau-de-poste-190c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-reptiles-et-amphibiens-a30c",
+      "siblings": [
+        "lettres-melangees-normal-reptiles-et-amphibiens-a30c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-formes-22fd",
+      "siblings": [
+        "lettres-melangees-normal-formes-22fd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-espace-d249",
+      "siblings": [
+        "lettres-melangees-normal-espace-d249"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-printemps-57da",
+      "siblings": [
+        "lettres-melangees-normal-printemps-57da"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-ete-7480",
+      "siblings": [
+        "lettres-melangees-normal-ete-7480"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-action-de-grace-023d",
+      "siblings": [
+        "lettres-melangees-normal-action-de-grace-023d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-choses-qui-volent-13f8",
+      "siblings": [
+        "lettres-melangees-normal-choses-qui-volent-13f8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-outils-9179",
+      "siblings": [
+        "lettres-melangees-normal-outils-9179"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-jouets-aec2",
+      "siblings": [
+        "lettres-melangees-normal-jouets-aec2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-arbres-7a6e",
+      "siblings": [
+        "lettres-melangees-normal-arbres-7a6e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-legumes-3497",
+      "siblings": [
+        "lettres-melangees-normal-legumes-3497"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-vehicules-5200",
+      "siblings": [
+        "lettres-melangees-normal-vehicules-5200"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-meteo-8c4d",
+      "siblings": [
+        "lettres-melangees-normal-meteo-8c4d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-hiver-f581",
+      "siblings": [
+        "lettres-melangees-normal-hiver-f581"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "lettres-melangees-normal-animaux-du-zoo-67c1",
+      "siblings": [
+        "lettres-melangees-normal-animaux-du-zoo-67c1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

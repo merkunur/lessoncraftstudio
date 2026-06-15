@@ -1,0 +1,1801 @@
+{
+  "locale": "no",
+  "exerciseType": "math-worksheet",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 98,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "three-symbols-add-sub": 48,
+    "two-symbols-add-sub": 48
+  },
+  "totalValid": 96,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "three-symbols-add-sub",
+    "two-symbols-add-sub"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-tilbehor-b8d2",
+      "siblings": [
+        "matteark-3-symboler-add-sub-tilbehor-b8d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-aktiviteter-99b5",
+      "siblings": [
+        "matteark-3-symboler-add-sub-aktiviteter-99b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-dyr-3e70",
+      "siblings": [
+        "matteark-3-symboler-add-sub-dyr-3e70"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-rundt-i-huset-c117",
+      "siblings": [
+        "matteark-3-symboler-add-sub-rundt-i-huset-c117"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-i-supermarkedet-9c59",
+      "siblings": [
+        "matteark-3-symboler-add-sub-i-supermarkedet-9c59"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-bakeri-ff4c",
+      "siblings": [
+        "matteark-3-symboler-add-sub-bakeri-ff4c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 4
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-strand-48ce",
+      "siblings": [
+        "matteark-3-symboler-add-sub-strand-48ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-fugler-7325",
+      "siblings": [
+        "matteark-3-symboler-add-sub-fugler-7325"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-fugler-2-8a7a",
+      "siblings": [
+        "matteark-3-symboler-add-sub-fugler-2-8a7a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-kroppsdeler-1dd7",
+      "siblings": [
+        "matteark-3-symboler-add-sub-kroppsdeler-1dd7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-frokost-f0be",
+      "siblings": [
+        "matteark-3-symboler-add-sub-frokost-f0be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-camping-4111",
+      "siblings": [
+        "matteark-3-symboler-add-sub-camping-4111"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-jul-2882",
+      "siblings": [
+        "matteark-3-symboler-add-sub-jul-2882"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-klasserom-30d3",
+      "siblings": [
+        "matteark-3-symboler-add-sub-klasserom-30d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-klaer-ed30",
+      "siblings": [
+        "matteark-3-symboler-add-sub-klaer-ed30"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-farger-75ac",
+      "siblings": [
+        "matteark-3-symboler-add-sub-farger-75ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-desserter-og-godteri-9119",
+      "siblings": [
+        "matteark-3-symboler-add-sub-desserter-og-godteri-9119"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-dinosaurer-7b32",
+      "siblings": [
+        "matteark-3-symboler-add-sub-dinosaurer-7b32"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-paske-9ff1",
+      "siblings": [
+        "matteark-3-symboler-add-sub-paske-9ff1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-folelser-dc3e",
+      "siblings": [
+        "matteark-3-symboler-add-sub-folelser-dc3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-gardsdyr-0b05",
+      "siblings": [
+        "matteark-3-symboler-add-sub-gardsdyr-0b05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-blomster-2278",
+      "siblings": [
+        "matteark-3-symboler-add-sub-blomster-2278"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-skogsdyr-5ccf",
+      "siblings": [
+        "matteark-3-symboler-add-sub-skogsdyr-5ccf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-frukter-27b2",
+      "siblings": [
+        "matteark-3-symboler-add-sub-frukter-27b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-mobler-3ed6",
+      "siblings": [
+        "matteark-3-symboler-add-sub-mobler-3ed6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-sykehus-dd0e",
+      "siblings": [
+        "matteark-3-symboler-add-sub-sykehus-dd0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-insekter-og-kryp-32bd",
+      "siblings": [
+        "matteark-3-symboler-add-sub-insekter-og-kryp-32bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-kjokkenredskaper-462b",
+      "siblings": [
+        "matteark-3-symboler-add-sub-kjokkenredskaper-462b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-musikk-78b1",
+      "siblings": [
+        "matteark-3-symboler-add-sub-musikk-78b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-yrker-cac9",
+      "siblings": [
+        "matteark-3-symboler-add-sub-yrker-cac9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-havliv-c6c8",
+      "siblings": [
+        "matteark-3-symboler-add-sub-havliv-c6c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-kjaeledyr-ecc4",
+      "siblings": [
+        "matteark-3-symboler-add-sub-kjaeledyr-ecc4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-postkontor-6b69",
+      "siblings": [
+        "matteark-3-symboler-add-sub-postkontor-6b69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-reptiler-og-amfibier-3baf",
+      "siblings": [
+        "matteark-3-symboler-add-sub-reptiler-og-amfibier-3baf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-former-1a4e",
+      "siblings": [
+        "matteark-3-symboler-add-sub-former-1a4e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-verdensrommet-3e82",
+      "siblings": [
+        "matteark-3-symboler-add-sub-verdensrommet-3e82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-var-0bcf",
+      "siblings": [
+        "matteark-3-symboler-add-sub-var-0bcf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-sommer-d8e7",
+      "siblings": [
+        "matteark-3-symboler-add-sub-sommer-d8e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-thanksgiving-78a5",
+      "siblings": [
+        "matteark-3-symboler-add-sub-thanksgiving-78a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-ting-som-flyr-d0f2",
+      "siblings": [
+        "matteark-3-symboler-add-sub-ting-som-flyr-d0f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-verktoy-8547",
+      "siblings": [
+        "matteark-3-symboler-add-sub-verktoy-8547"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-leker-4ec8",
+      "siblings": [
+        "matteark-3-symboler-add-sub-leker-4ec8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-traer-0085",
+      "siblings": [
+        "matteark-3-symboler-add-sub-traer-0085"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-gronnsaker-0806",
+      "siblings": [
+        "matteark-3-symboler-add-sub-gronnsaker-0806"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-kjoretoy-e3f2",
+      "siblings": [
+        "matteark-3-symboler-add-sub-kjoretoy-e3f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-vaer-2dda",
+      "siblings": [
+        "matteark-3-symboler-add-sub-vaer-2dda"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-vinter-51c2",
+      "siblings": [
+        "matteark-3-symboler-add-sub-vinter-51c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "matteark-3-symboler-add-sub-dyrehagedyr-84eb",
+      "siblings": [
+        "matteark-3-symboler-add-sub-dyrehagedyr-84eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-tilbehor-266e",
+      "siblings": [
+        "matteark-2-symboler-add-sub-tilbehor-266e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-aktiviteter-1c6b",
+      "siblings": [
+        "matteark-2-symboler-add-sub-aktiviteter-1c6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-dyr-4c95",
+      "siblings": [
+        "matteark-2-symboler-add-sub-dyr-4c95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-rundt-i-huset-d5e5",
+      "siblings": [
+        "matteark-2-symboler-add-sub-rundt-i-huset-d5e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-i-supermarkedet-1573",
+      "siblings": [
+        "matteark-2-symboler-add-sub-i-supermarkedet-1573"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-bakeri-5c91",
+      "siblings": [
+        "matteark-2-symboler-add-sub-bakeri-5c91"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-strand-aab7",
+      "siblings": [
+        "matteark-2-symboler-add-sub-strand-aab7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-fugler-d7df",
+      "siblings": [
+        "matteark-2-symboler-add-sub-fugler-d7df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-fugler-2-7d15",
+      "siblings": [
+        "matteark-2-symboler-add-sub-fugler-2-7d15"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-kroppsdeler-3a05",
+      "siblings": [
+        "matteark-2-symboler-add-sub-kroppsdeler-3a05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-frokost-ee51",
+      "siblings": [
+        "matteark-2-symboler-add-sub-frokost-ee51"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-camping-db0f",
+      "siblings": [
+        "matteark-2-symboler-add-sub-camping-db0f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-jul-3316",
+      "siblings": [
+        "matteark-2-symboler-add-sub-jul-3316"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-klasserom-e1fd",
+      "siblings": [
+        "matteark-2-symboler-add-sub-klasserom-e1fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 4
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-klaer-b451",
+      "siblings": [
+        "matteark-2-symboler-add-sub-klaer-b451"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-farger-60c5",
+      "siblings": [
+        "matteark-2-symboler-add-sub-farger-60c5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-desserter-og-godteri-ddc6",
+      "siblings": [
+        "matteark-2-symboler-add-sub-desserter-og-godteri-ddc6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-dinosaurer-baf2",
+      "siblings": [
+        "matteark-2-symboler-add-sub-dinosaurer-baf2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 5
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-paske-75b4",
+      "siblings": [
+        "matteark-2-symboler-add-sub-paske-75b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-folelser-daca",
+      "siblings": [
+        "matteark-2-symboler-add-sub-folelser-daca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-gardsdyr-c8ae",
+      "siblings": [
+        "matteark-2-symboler-add-sub-gardsdyr-c8ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-blomster-2d2b",
+      "siblings": [
+        "matteark-2-symboler-add-sub-blomster-2d2b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-skogsdyr-16bb",
+      "siblings": [
+        "matteark-2-symboler-add-sub-skogsdyr-16bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-frukter-2b93",
+      "siblings": [
+        "matteark-2-symboler-add-sub-frukter-2b93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-mobler-c8e2",
+      "siblings": [
+        "matteark-2-symboler-add-sub-mobler-c8e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-sykehus-2f7c",
+      "siblings": [
+        "matteark-2-symboler-add-sub-sykehus-2f7c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-insekter-og-kryp-a93e",
+      "siblings": [
+        "matteark-2-symboler-add-sub-insekter-og-kryp-a93e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-kjokkenredskaper-a680",
+      "siblings": [
+        "matteark-2-symboler-add-sub-kjokkenredskaper-a680"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-musikk-426b",
+      "siblings": [
+        "matteark-2-symboler-add-sub-musikk-426b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-yrker-ee43",
+      "siblings": [
+        "matteark-2-symboler-add-sub-yrker-ee43"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-havliv-243a",
+      "siblings": [
+        "matteark-2-symboler-add-sub-havliv-243a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-kjaeledyr-2fd0",
+      "siblings": [
+        "matteark-2-symboler-add-sub-kjaeledyr-2fd0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-postkontor-584e",
+      "siblings": [
+        "matteark-2-symboler-add-sub-postkontor-584e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-reptiler-og-amfibier-452f",
+      "siblings": [
+        "matteark-2-symboler-add-sub-reptiler-og-amfibier-452f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-former-8026",
+      "siblings": [
+        "matteark-2-symboler-add-sub-former-8026"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-verdensrommet-301d",
+      "siblings": [
+        "matteark-2-symboler-add-sub-verdensrommet-301d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 4
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-var-fc00",
+      "siblings": [
+        "matteark-2-symboler-add-sub-var-fc00"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-sommer-e4c1",
+      "siblings": [
+        "matteark-2-symboler-add-sub-sommer-e4c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-thanksgiving-7b54",
+      "siblings": [
+        "matteark-2-symboler-add-sub-thanksgiving-7b54"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-ting-som-flyr-00f5",
+      "siblings": [
+        "matteark-2-symboler-add-sub-ting-som-flyr-00f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-verktoy-eadb",
+      "siblings": [
+        "matteark-2-symboler-add-sub-verktoy-eadb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-leker-5a8b",
+      "siblings": [
+        "matteark-2-symboler-add-sub-leker-5a8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-traer-961c",
+      "siblings": [
+        "matteark-2-symboler-add-sub-traer-961c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-gronnsaker-e7a1",
+      "siblings": [
+        "matteark-2-symboler-add-sub-gronnsaker-e7a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-kjoretoy-a2fb",
+      "siblings": [
+        "matteark-2-symboler-add-sub-kjoretoy-a2fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-vaer-7ed8",
+      "siblings": [
+        "matteark-2-symboler-add-sub-vaer-7ed8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-vinter-4065",
+      "siblings": [
+        "matteark-2-symboler-add-sub-vinter-4065"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "matteark-2-symboler-add-sub-dyrehagedyr-21c0",
+      "siblings": [
+        "matteark-2-symboler-add-sub-dyrehagedyr-21c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    }
+  ]
+}

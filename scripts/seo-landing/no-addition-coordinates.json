@@ -1,0 +1,2674 @@
+{
+  "locale": "no",
+  "exerciseType": "addition",
+  "level": "2-trinn",
+  "rawRowCount": 195,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-addend": 48,
+    "image-image": 47,
+    "image-number": 48,
+    "mixed": 48
+  },
+  "totalValid": 159,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-addend",
+    "image-image",
+    "image-number",
+    "mixed"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [
+    "find-addend/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "find-addend/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "find-addend/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "find-addend/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "find-addend/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "find-addend/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "find-addend/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "find-addend/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)",
+    "image-image/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "image-image/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "image-image/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "image-image/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "image-image/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "image-image/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "image-image/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "image-image/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)",
+    "image-number/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "image-number/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "image-number/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "image-number/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "image-number/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "image-number/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "image-number/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "image-number/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "mixed/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "find-addend",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-tilbehor-9909",
+      "siblings": [
+        "addisjon-finn-ledd-tilbehor-9909"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-dyr-5a2f",
+      "siblings": [
+        "addisjon-finn-ledd-dyr-5a2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-rundt-i-huset-c69d",
+      "siblings": [
+        "addisjon-finn-ledd-rundt-i-huset-c69d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-i-supermarkedet-ffd8",
+      "siblings": [
+        "addisjon-finn-ledd-i-supermarkedet-ffd8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-bakeri-8c84",
+      "siblings": [
+        "addisjon-finn-ledd-bakeri-8c84"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-strand-ef19",
+      "siblings": [
+        "addisjon-finn-ledd-strand-ef19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-fugler-842f",
+      "siblings": [
+        "addisjon-finn-ledd-fugler-842f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-fugler-2-146a",
+      "siblings": [
+        "addisjon-finn-ledd-fugler-2-146a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-frokost-03c9",
+      "siblings": [
+        "addisjon-finn-ledd-frokost-03c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-camping-2eed",
+      "siblings": [
+        "addisjon-finn-ledd-camping-2eed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-jul-3ea5",
+      "siblings": [
+        "addisjon-finn-ledd-jul-3ea5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-klasserom-2e85",
+      "siblings": [
+        "addisjon-finn-ledd-klasserom-2e85"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-klaer-e81b",
+      "siblings": [
+        "addisjon-finn-ledd-klaer-e81b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-desserter-og-godteri-271d",
+      "siblings": [
+        "addisjon-finn-ledd-desserter-og-godteri-271d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-dinosaurer-6269",
+      "siblings": [
+        "addisjon-finn-ledd-dinosaurer-6269"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-paske-7724",
+      "siblings": [
+        "addisjon-finn-ledd-paske-7724"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-gardsdyr-2282",
+      "siblings": [
+        "addisjon-finn-ledd-gardsdyr-2282"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-blomster-d51a",
+      "siblings": [
+        "addisjon-finn-ledd-blomster-d51a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-skogsdyr-9a67",
+      "siblings": [
+        "addisjon-finn-ledd-skogsdyr-9a67"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-frukter-5086",
+      "siblings": [
+        "addisjon-finn-ledd-frukter-5086"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-mobler-6aec",
+      "siblings": [
+        "addisjon-finn-ledd-mobler-6aec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-sykehus-0410",
+      "siblings": [
+        "addisjon-finn-ledd-sykehus-0410"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-insekter-og-kryp-7bfd",
+      "siblings": [
+        "addisjon-finn-ledd-insekter-og-kryp-7bfd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-kjokkenredskaper-ce79",
+      "siblings": [
+        "addisjon-finn-ledd-kjokkenredskaper-ce79"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-musikk-80a0",
+      "siblings": [
+        "addisjon-finn-ledd-musikk-80a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-yrker-bd3b",
+      "siblings": [
+        "addisjon-finn-ledd-yrker-bd3b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-havliv-1578",
+      "siblings": [
+        "addisjon-finn-ledd-havliv-1578"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-kjaeledyr-adc8",
+      "siblings": [
+        "addisjon-finn-ledd-kjaeledyr-adc8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-postkontor-6ad8",
+      "siblings": [
+        "addisjon-finn-ledd-postkontor-6ad8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-reptiler-og-amfibier-ce77",
+      "siblings": [
+        "addisjon-finn-ledd-reptiler-og-amfibier-ce77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-former-6c68",
+      "siblings": [
+        "addisjon-finn-ledd-former-6c68"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-verdensrommet-219b",
+      "siblings": [
+        "addisjon-finn-ledd-verdensrommet-219b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-thanksgiving-e1fe",
+      "siblings": [
+        "addisjon-finn-ledd-thanksgiving-e1fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-ting-som-flyr-ab29",
+      "siblings": [
+        "addisjon-finn-ledd-ting-som-flyr-ab29"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-verktoy-cc77",
+      "siblings": [
+        "addisjon-finn-ledd-verktoy-cc77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-leker-2a45",
+      "siblings": [
+        "addisjon-finn-ledd-leker-2a45"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-traer-ec1d",
+      "siblings": [
+        "addisjon-finn-ledd-traer-ec1d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-gronnsaker-f8d8",
+      "siblings": [
+        "addisjon-finn-ledd-gronnsaker-f8d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-kjoretoy-29e4",
+      "siblings": [
+        "addisjon-finn-ledd-kjoretoy-29e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "addisjon-finn-ledd-dyrehagedyr-3f8f",
+      "siblings": [
+        "addisjon-finn-ledd-dyrehagedyr-3f8f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-tilbehor-ce0e",
+      "siblings": [
+        "addisjon-bilde-bilde-tilbehor-ce0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-dyr-45a8",
+      "siblings": [
+        "addisjon-bilde-bilde-dyr-45a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-rundt-i-huset-f447",
+      "siblings": [
+        "addisjon-bilde-bilde-rundt-i-huset-f447"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-i-supermarkedet-ec61",
+      "siblings": [
+        "addisjon-bilde-bilde-i-supermarkedet-ec61"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-bakeri-c687",
+      "siblings": [
+        "addisjon-bilde-bilde-bakeri-c687"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-strand-0662",
+      "siblings": [
+        "addisjon-bilde-bilde-strand-0662"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-fugler-80c6",
+      "siblings": [
+        "addisjon-bilde-bilde-fugler-80c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-fugler-2-91a6",
+      "siblings": [
+        "addisjon-bilde-bilde-fugler-2-91a6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-frokost-f5ee",
+      "siblings": [
+        "addisjon-bilde-bilde-frokost-f5ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-camping-d959",
+      "siblings": [
+        "addisjon-bilde-bilde-camping-d959"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-jul-c915",
+      "siblings": [
+        "addisjon-bilde-bilde-jul-c915"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-klasserom-9d7c",
+      "siblings": [
+        "addisjon-bilde-bilde-klasserom-9d7c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-klaer-351b",
+      "siblings": [
+        "addisjon-bilde-bilde-klaer-351b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-desserter-og-godteri-d8c0",
+      "siblings": [
+        "addisjon-bilde-bilde-desserter-og-godteri-d8c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-dinosaurer-cf1a",
+      "siblings": [
+        "addisjon-bilde-bilde-dinosaurer-cf1a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-paske-c7de",
+      "siblings": [
+        "addisjon-bilde-bilde-paske-c7de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-blomster-8498",
+      "siblings": [
+        "addisjon-bilde-bilde-blomster-8498"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-skogsdyr-e26c",
+      "siblings": [
+        "addisjon-bilde-bilde-skogsdyr-e26c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-frukter-2a19",
+      "siblings": [
+        "addisjon-bilde-bilde-frukter-2a19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-mobler-c490",
+      "siblings": [
+        "addisjon-bilde-bilde-mobler-c490"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-sykehus-db72",
+      "siblings": [
+        "addisjon-bilde-bilde-sykehus-db72"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-insekter-og-kryp-3d0f",
+      "siblings": [
+        "addisjon-bilde-bilde-insekter-og-kryp-3d0f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-kjokkenredskaper-d05b",
+      "siblings": [
+        "addisjon-bilde-bilde-kjokkenredskaper-d05b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-musikk-f3cf",
+      "siblings": [
+        "addisjon-bilde-bilde-musikk-f3cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-yrker-957b",
+      "siblings": [
+        "addisjon-bilde-bilde-yrker-957b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-havliv-7ab0",
+      "siblings": [
+        "addisjon-bilde-bilde-havliv-7ab0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-kjaeledyr-bdca",
+      "siblings": [
+        "addisjon-bilde-bilde-kjaeledyr-bdca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-postkontor-12c1",
+      "siblings": [
+        "addisjon-bilde-bilde-postkontor-12c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-reptiler-og-amfibier-2a82",
+      "siblings": [
+        "addisjon-bilde-bilde-reptiler-og-amfibier-2a82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-former-fa9d",
+      "siblings": [
+        "addisjon-bilde-bilde-former-fa9d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-verdensrommet-3b34",
+      "siblings": [
+        "addisjon-bilde-bilde-verdensrommet-3b34"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-thanksgiving-233c",
+      "siblings": [
+        "addisjon-bilde-bilde-thanksgiving-233c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-ting-som-flyr-256e",
+      "siblings": [
+        "addisjon-bilde-bilde-ting-som-flyr-256e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-verktoy-5f61",
+      "siblings": [
+        "addisjon-bilde-bilde-verktoy-5f61"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-leker-6160",
+      "siblings": [
+        "addisjon-bilde-bilde-leker-6160"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-traer-0a34",
+      "siblings": [
+        "addisjon-bilde-bilde-traer-0a34"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-gronnsaker-ebd8",
+      "siblings": [
+        "addisjon-bilde-bilde-gronnsaker-ebd8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-kjoretoy-368e",
+      "siblings": [
+        "addisjon-bilde-bilde-kjoretoy-368e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-image",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "addisjon-bilde-bilde-dyrehagedyr-cb9a",
+      "siblings": [
+        "addisjon-bilde-bilde-dyrehagedyr-cb9a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-tilbehor-e87b",
+      "siblings": [
+        "addisjon-bilde-tall-tilbehor-e87b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-dyr-db63",
+      "siblings": [
+        "addisjon-bilde-tall-dyr-db63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-rundt-i-huset-6953",
+      "siblings": [
+        "addisjon-bilde-tall-rundt-i-huset-6953"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-i-supermarkedet-92cb",
+      "siblings": [
+        "addisjon-bilde-tall-i-supermarkedet-92cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-bakeri-02f6",
+      "siblings": [
+        "addisjon-bilde-tall-bakeri-02f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-strand-30d0",
+      "siblings": [
+        "addisjon-bilde-tall-strand-30d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-fugler-e8a9",
+      "siblings": [
+        "addisjon-bilde-tall-fugler-e8a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-fugler-2-7336",
+      "siblings": [
+        "addisjon-bilde-tall-fugler-2-7336"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-frokost-4d84",
+      "siblings": [
+        "addisjon-bilde-tall-frokost-4d84"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-camping-0e76",
+      "siblings": [
+        "addisjon-bilde-tall-camping-0e76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-jul-63d6",
+      "siblings": [
+        "addisjon-bilde-tall-jul-63d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-klasserom-4141",
+      "siblings": [
+        "addisjon-bilde-tall-klasserom-4141"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-klaer-6c25",
+      "siblings": [
+        "addisjon-bilde-tall-klaer-6c25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-desserter-og-godteri-28fa",
+      "siblings": [
+        "addisjon-bilde-tall-desserter-og-godteri-28fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-dinosaurer-24cb",
+      "siblings": [
+        "addisjon-bilde-tall-dinosaurer-24cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-paske-ebad",
+      "siblings": [
+        "addisjon-bilde-tall-paske-ebad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-gardsdyr-0203",
+      "siblings": [
+        "addisjon-bilde-tall-gardsdyr-0203"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-blomster-a2b2",
+      "siblings": [
+        "addisjon-bilde-tall-blomster-a2b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-skogsdyr-b46c",
+      "siblings": [
+        "addisjon-bilde-tall-skogsdyr-b46c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-frukter-035a",
+      "siblings": [
+        "addisjon-bilde-tall-frukter-035a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-mobler-aee8",
+      "siblings": [
+        "addisjon-bilde-tall-mobler-aee8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-sykehus-85b5",
+      "siblings": [
+        "addisjon-bilde-tall-sykehus-85b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-insekter-og-kryp-f8f8",
+      "siblings": [
+        "addisjon-bilde-tall-insekter-og-kryp-f8f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-kjokkenredskaper-9221",
+      "siblings": [
+        "addisjon-bilde-tall-kjokkenredskaper-9221"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-musikk-e439",
+      "siblings": [
+        "addisjon-bilde-tall-musikk-e439"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-yrker-884e",
+      "siblings": [
+        "addisjon-bilde-tall-yrker-884e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-havliv-9e04",
+      "siblings": [
+        "addisjon-bilde-tall-havliv-9e04"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-kjaeledyr-5b83",
+      "siblings": [
+        "addisjon-bilde-tall-kjaeledyr-5b83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-postkontor-d5b2",
+      "siblings": [
+        "addisjon-bilde-tall-postkontor-d5b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-reptiler-og-amfibier-09e9",
+      "siblings": [
+        "addisjon-bilde-tall-reptiler-og-amfibier-09e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-former-4cc7",
+      "siblings": [
+        "addisjon-bilde-tall-former-4cc7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-verdensrommet-dfc3",
+      "siblings": [
+        "addisjon-bilde-tall-verdensrommet-dfc3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-thanksgiving-5719",
+      "siblings": [
+        "addisjon-bilde-tall-thanksgiving-5719"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-ting-som-flyr-50d6",
+      "siblings": [
+        "addisjon-bilde-tall-ting-som-flyr-50d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-verktoy-75f8",
+      "siblings": [
+        "addisjon-bilde-tall-verktoy-75f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-leker-3bea",
+      "siblings": [
+        "addisjon-bilde-tall-leker-3bea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-traer-f448",
+      "siblings": [
+        "addisjon-bilde-tall-traer-f448"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-gronnsaker-302f",
+      "siblings": [
+        "addisjon-bilde-tall-gronnsaker-302f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-kjoretoy-c3a1",
+      "siblings": [
+        "addisjon-bilde-tall-kjoretoy-c3a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "addisjon-bilde-tall-dyrehagedyr-c222",
+      "siblings": [
+        "addisjon-bilde-tall-dyrehagedyr-c222"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "addisjon-blandet-tilbehor-2036",
+      "siblings": [
+        "addisjon-blandet-tilbehor-2036"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "addisjon-blandet-dyr-016b",
+      "siblings": [
+        "addisjon-blandet-dyr-016b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "addisjon-blandet-rundt-i-huset-37f9",
+      "siblings": [
+        "addisjon-blandet-rundt-i-huset-37f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "addisjon-blandet-i-supermarkedet-3741",
+      "siblings": [
+        "addisjon-blandet-i-supermarkedet-3741"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "addisjon-blandet-bakeri-633e",
+      "siblings": [
+        "addisjon-blandet-bakeri-633e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "addisjon-blandet-strand-d9ac",
+      "siblings": [
+        "addisjon-blandet-strand-d9ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "addisjon-blandet-fugler-fb19",
+      "siblings": [
+        "addisjon-blandet-fugler-fb19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "addisjon-blandet-fugler-2-6b9d",
+      "siblings": [
+        "addisjon-blandet-fugler-2-6b9d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "addisjon-blandet-frokost-d639",
+      "siblings": [
+        "addisjon-blandet-frokost-d639"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "addisjon-blandet-camping-cffb",
+      "siblings": [
+        "addisjon-blandet-camping-cffb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "addisjon-blandet-jul-b889",
+      "siblings": [
+        "addisjon-blandet-jul-b889"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "addisjon-blandet-klasserom-a204",
+      "siblings": [
+        "addisjon-blandet-klasserom-a204"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "addisjon-blandet-klaer-cb99",
+      "siblings": [
+        "addisjon-blandet-klaer-cb99"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "addisjon-blandet-desserter-og-godteri-ae1c",
+      "siblings": [
+        "addisjon-blandet-desserter-og-godteri-ae1c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "addisjon-blandet-dinosaurer-7294",
+      "siblings": [
+        "addisjon-blandet-dinosaurer-7294"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "addisjon-blandet-paske-4324",
+      "siblings": [
+        "addisjon-blandet-paske-4324"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "addisjon-blandet-gardsdyr-c2fa",
+      "siblings": [
+        "addisjon-blandet-gardsdyr-c2fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "addisjon-blandet-blomster-d356",
+      "siblings": [
+        "addisjon-blandet-blomster-d356"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "addisjon-blandet-skogsdyr-f941",
+      "siblings": [
+        "addisjon-blandet-skogsdyr-f941"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "addisjon-blandet-frukter-0a79",
+      "siblings": [
+        "addisjon-blandet-frukter-0a79"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "addisjon-blandet-mobler-aa8f",
+      "siblings": [
+        "addisjon-blandet-mobler-aa8f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "addisjon-blandet-sykehus-0194",
+      "siblings": [
+        "addisjon-blandet-sykehus-0194"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "addisjon-blandet-insekter-og-kryp-fc5c",
+      "siblings": [
+        "addisjon-blandet-insekter-og-kryp-fc5c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "addisjon-blandet-kjokkenredskaper-85e6",
+      "siblings": [
+        "addisjon-blandet-kjokkenredskaper-85e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "addisjon-blandet-musikk-7d58",
+      "siblings": [
+        "addisjon-blandet-musikk-7d58"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "addisjon-blandet-yrker-c22e",
+      "siblings": [
+        "addisjon-blandet-yrker-c22e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "addisjon-blandet-havliv-2f44",
+      "siblings": [
+        "addisjon-blandet-havliv-2f44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "addisjon-blandet-kjaeledyr-86ac",
+      "siblings": [
+        "addisjon-blandet-kjaeledyr-86ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "addisjon-blandet-postkontor-c53c",
+      "siblings": [
+        "addisjon-blandet-postkontor-c53c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "addisjon-blandet-reptiler-og-amfibier-94cc",
+      "siblings": [
+        "addisjon-blandet-reptiler-og-amfibier-94cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "addisjon-blandet-former-26b4",
+      "siblings": [
+        "addisjon-blandet-former-26b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "addisjon-blandet-verdensrommet-04ae",
+      "siblings": [
+        "addisjon-blandet-verdensrommet-04ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "addisjon-blandet-thanksgiving-e141",
+      "siblings": [
+        "addisjon-blandet-thanksgiving-e141"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "addisjon-blandet-ting-som-flyr-1003",
+      "siblings": [
+        "addisjon-blandet-ting-som-flyr-1003"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "addisjon-blandet-verktoy-fb63",
+      "siblings": [
+        "addisjon-blandet-verktoy-fb63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "addisjon-blandet-leker-33d7",
+      "siblings": [
+        "addisjon-blandet-leker-33d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "addisjon-blandet-traer-6efc",
+      "siblings": [
+        "addisjon-blandet-traer-6efc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "addisjon-blandet-gronnsaker-aa6b",
+      "siblings": [
+        "addisjon-blandet-gronnsaker-aa6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "addisjon-blandet-kjoretoy-2afa",
+      "siblings": [
+        "addisjon-blandet-kjoretoy-2afa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "addisjon-blandet-dyrehagedyr-5ab6",
+      "siblings": [
+        "addisjon-blandet-dyrehagedyr-5ab6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    }
+  ]
+}

@@ -1,0 +1,2642 @@
+{
+  "locale": "no",
+  "exerciseType": "subtraction",
+  "level": "2-trinn",
+  "rawRowCount": 193,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cross-out": 46,
+    "find-subtrahend": 48,
+    "image-number": 47,
+    "mixed": 47
+  },
+  "totalValid": 157,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cross-out",
+    "find-subtrahend",
+    "image-number",
+    "mixed"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [
+    "cross-out/activities — INVALID: cannot subtraction activities — not discrete-countable (semantic nonsense)",
+    "cross-out/body_parts — INVALID: cannot subtraction body_parts — not discrete-countable (semantic nonsense)",
+    "cross-out/colors — INVALID: cannot subtraction colors — not discrete-countable (semantic nonsense)",
+    "cross-out/emotions — INVALID: cannot subtraction emotions — not discrete-countable (semantic nonsense)",
+    "cross-out/spring — INVALID: cannot subtraction spring — not discrete-countable (semantic nonsense)",
+    "cross-out/summer — INVALID: cannot subtraction summer — not discrete-countable (semantic nonsense)",
+    "cross-out/winter — INVALID: cannot subtraction winter — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/activities — INVALID: cannot subtraction activities — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/body_parts — INVALID: cannot subtraction body_parts — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/colors — INVALID: cannot subtraction colors — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/emotions — INVALID: cannot subtraction emotions — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/spring — INVALID: cannot subtraction spring — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/summer — INVALID: cannot subtraction summer — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/weather — INVALID: cannot subtraction weather — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/winter — INVALID: cannot subtraction winter — not discrete-countable (semantic nonsense)",
+    "image-number/activities — INVALID: cannot subtraction activities — not discrete-countable (semantic nonsense)",
+    "image-number/body_parts — INVALID: cannot subtraction body_parts — not discrete-countable (semantic nonsense)",
+    "image-number/colors — INVALID: cannot subtraction colors — not discrete-countable (semantic nonsense)",
+    "image-number/emotions — INVALID: cannot subtraction emotions — not discrete-countable (semantic nonsense)",
+    "image-number/spring — INVALID: cannot subtraction spring — not discrete-countable (semantic nonsense)",
+    "image-number/summer — INVALID: cannot subtraction summer — not discrete-countable (semantic nonsense)",
+    "image-number/weather — INVALID: cannot subtraction weather — not discrete-countable (semantic nonsense)",
+    "image-number/winter — INVALID: cannot subtraction winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot subtraction activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot subtraction body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/colors — INVALID: cannot subtraction colors — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot subtraction emotions — not discrete-countable (semantic nonsense)",
+    "mixed/spring — INVALID: cannot subtraction spring — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot subtraction summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot subtraction weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot subtraction winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "cross-out",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-tilbehor-4bf9",
+      "siblings": [
+        "subtraksjon-strek-over-tilbehor-4bf9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-dyr-407b",
+      "siblings": [
+        "subtraksjon-strek-over-dyr-407b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-rundt-i-huset-ba6c",
+      "siblings": [
+        "subtraksjon-strek-over-rundt-i-huset-ba6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-i-supermarkedet-110f",
+      "siblings": [
+        "subtraksjon-strek-over-i-supermarkedet-110f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-bakeri-0389",
+      "siblings": [
+        "subtraksjon-strek-over-bakeri-0389"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-strand-9df6",
+      "siblings": [
+        "subtraksjon-strek-over-strand-9df6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-fugler-eceb",
+      "siblings": [
+        "subtraksjon-strek-over-fugler-eceb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-fugler-2-efe1",
+      "siblings": [
+        "subtraksjon-strek-over-fugler-2-efe1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-frokost-28ea",
+      "siblings": [
+        "subtraksjon-strek-over-frokost-28ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-camping-35de",
+      "siblings": [
+        "subtraksjon-strek-over-camping-35de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-jul-7de2",
+      "siblings": [
+        "subtraksjon-strek-over-jul-7de2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-klasserom-d817",
+      "siblings": [
+        "subtraksjon-strek-over-klasserom-d817"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-klaer-835a",
+      "siblings": [
+        "subtraksjon-strek-over-klaer-835a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-desserter-og-godteri-4194",
+      "siblings": [
+        "subtraksjon-strek-over-desserter-og-godteri-4194"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-dinosaurer-f6c8",
+      "siblings": [
+        "subtraksjon-strek-over-dinosaurer-f6c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-paske-2e5f",
+      "siblings": [
+        "subtraksjon-strek-over-paske-2e5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-gardsdyr-2466",
+      "siblings": [
+        "subtraksjon-strek-over-gardsdyr-2466"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-blomster-10e1",
+      "siblings": [
+        "subtraksjon-strek-over-blomster-10e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-skogsdyr-65af",
+      "siblings": [
+        "subtraksjon-strek-over-skogsdyr-65af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-frukter-d4ad",
+      "siblings": [
+        "subtraksjon-strek-over-frukter-d4ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-mobler-edb0",
+      "siblings": [
+        "subtraksjon-strek-over-mobler-edb0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-sykehus-5b60",
+      "siblings": [
+        "subtraksjon-strek-over-sykehus-5b60"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-insekter-og-kryp-57c5",
+      "siblings": [
+        "subtraksjon-strek-over-insekter-og-kryp-57c5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-kjokkenredskaper-9fdf",
+      "siblings": [
+        "subtraksjon-strek-over-kjokkenredskaper-9fdf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-musikk-ce22",
+      "siblings": [
+        "subtraksjon-strek-over-musikk-ce22"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-yrker-ad83",
+      "siblings": [
+        "subtraksjon-strek-over-yrker-ad83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-havliv-5d5c",
+      "siblings": [
+        "subtraksjon-strek-over-havliv-5d5c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-kjaeledyr-2908",
+      "siblings": [
+        "subtraksjon-strek-over-kjaeledyr-2908"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-postkontor-9369",
+      "siblings": [
+        "subtraksjon-strek-over-postkontor-9369"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-reptiler-og-amfibier-7e77",
+      "siblings": [
+        "subtraksjon-strek-over-reptiler-og-amfibier-7e77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonical": "subtraksjon-strek-over-former-ecd2",
+      "siblings": [
+        "subtraksjon-strek-over-former-ecd2",
+        "subtraksjon-strek-over-former-5bec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-verdensrommet-3e0e",
+      "siblings": [
+        "subtraksjon-strek-over-verdensrommet-3e0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-thanksgiving-a708",
+      "siblings": [
+        "subtraksjon-strek-over-thanksgiving-a708"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-ting-som-flyr-b5c9",
+      "siblings": [
+        "subtraksjon-strek-over-ting-som-flyr-b5c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-verktoy-ab62",
+      "siblings": [
+        "subtraksjon-strek-over-verktoy-ab62"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-leker-83c9",
+      "siblings": [
+        "subtraksjon-strek-over-leker-83c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-traer-1a43",
+      "siblings": [
+        "subtraksjon-strek-over-traer-1a43"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-gronnsaker-39ec",
+      "siblings": [
+        "subtraksjon-strek-over-gronnsaker-39ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "subtraksjon-strek-over-kjoretoy-5b01",
+      "siblings": [
+        "subtraksjon-strek-over-kjoretoy-5b01"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-tilbehor-b69e",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-tilbehor-b69e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-dyr-1359",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-dyr-1359"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-rundt-i-huset-d4e2",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-rundt-i-huset-d4e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-i-supermarkedet-9188",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-i-supermarkedet-9188"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-bakeri-b073",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-bakeri-b073"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-strand-3a96",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-strand-3a96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-fugler-c76a",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-fugler-c76a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-fugler-2-b067",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-fugler-2-b067"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-frokost-d9d1",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-frokost-d9d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-camping-886d",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-camping-886d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-jul-1a09",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-jul-1a09"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-klasserom-9a5a",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-klasserom-9a5a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-klaer-7c77",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-klaer-7c77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-desserter-og-godteri-99d7",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-desserter-og-godteri-99d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-dinosaurer-f31e",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-dinosaurer-f31e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-paske-2a6e",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-paske-2a6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-gardsdyr-7c93",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-gardsdyr-7c93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-blomster-b052",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-blomster-b052"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-skogsdyr-8c51",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-skogsdyr-8c51"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-frukter-5e41",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-frukter-5e41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-mobler-05b7",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-mobler-05b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-sykehus-09f2",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-sykehus-09f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-insekter-og-kryp-0ff2",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-insekter-og-kryp-0ff2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-kjokkenredskaper-9495",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-kjokkenredskaper-9495"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-musikk-5f3c",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-musikk-5f3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-yrker-b3fc",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-yrker-b3fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-havliv-01dd",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-havliv-01dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-kjaeledyr-b156",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-kjaeledyr-b156"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-postkontor-5057",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-postkontor-5057"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-reptiler-og-amfibier-2fd4",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-reptiler-og-amfibier-2fd4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-former-88b5",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-former-88b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-verdensrommet-e121",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-verdensrommet-e121"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-thanksgiving-f0f5",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-thanksgiving-f0f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-ting-som-flyr-ab88",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-ting-som-flyr-ab88"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-verktoy-b96f",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-verktoy-b96f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-leker-7f75",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-leker-7f75"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-traer-53fd",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-traer-53fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-gronnsaker-107f",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-gronnsaker-107f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-kjoretoy-981a",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-kjoretoy-981a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "subtraksjon-finn-subtrahend-dyrehagedyr-00eb",
+      "siblings": [
+        "subtraksjon-finn-subtrahend-dyrehagedyr-00eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-tilbehor-7701",
+      "siblings": [
+        "subtraksjon-bilde-tall-tilbehor-7701"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-dyr-0fbe",
+      "siblings": [
+        "subtraksjon-bilde-tall-dyr-0fbe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-rundt-i-huset-a869",
+      "siblings": [
+        "subtraksjon-bilde-tall-rundt-i-huset-a869"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-i-supermarkedet-ca1b",
+      "siblings": [
+        "subtraksjon-bilde-tall-i-supermarkedet-ca1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-bakeri-58ca",
+      "siblings": [
+        "subtraksjon-bilde-tall-bakeri-58ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-strand-ff10",
+      "siblings": [
+        "subtraksjon-bilde-tall-strand-ff10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-fugler-7107",
+      "siblings": [
+        "subtraksjon-bilde-tall-fugler-7107"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-fugler-2-921b",
+      "siblings": [
+        "subtraksjon-bilde-tall-fugler-2-921b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-frokost-031d",
+      "siblings": [
+        "subtraksjon-bilde-tall-frokost-031d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-camping-6d6b",
+      "siblings": [
+        "subtraksjon-bilde-tall-camping-6d6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-jul-deef",
+      "siblings": [
+        "subtraksjon-bilde-tall-jul-deef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-klasserom-63e7",
+      "siblings": [
+        "subtraksjon-bilde-tall-klasserom-63e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-klaer-def5",
+      "siblings": [
+        "subtraksjon-bilde-tall-klaer-def5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-desserter-og-godteri-9f33",
+      "siblings": [
+        "subtraksjon-bilde-tall-desserter-og-godteri-9f33"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-dinosaurer-a3d9",
+      "siblings": [
+        "subtraksjon-bilde-tall-dinosaurer-a3d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-paske-8589",
+      "siblings": [
+        "subtraksjon-bilde-tall-paske-8589"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-gardsdyr-e7f8",
+      "siblings": [
+        "subtraksjon-bilde-tall-gardsdyr-e7f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-blomster-d188",
+      "siblings": [
+        "subtraksjon-bilde-tall-blomster-d188"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-skogsdyr-37c3",
+      "siblings": [
+        "subtraksjon-bilde-tall-skogsdyr-37c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-mobler-5ce8",
+      "siblings": [
+        "subtraksjon-bilde-tall-mobler-5ce8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-sykehus-fb1e",
+      "siblings": [
+        "subtraksjon-bilde-tall-sykehus-fb1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-insekter-og-kryp-9734",
+      "siblings": [
+        "subtraksjon-bilde-tall-insekter-og-kryp-9734"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-kjokkenredskaper-9c3b",
+      "siblings": [
+        "subtraksjon-bilde-tall-kjokkenredskaper-9c3b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-musikk-5fb7",
+      "siblings": [
+        "subtraksjon-bilde-tall-musikk-5fb7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-yrker-8e08",
+      "siblings": [
+        "subtraksjon-bilde-tall-yrker-8e08"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-havliv-6f97",
+      "siblings": [
+        "subtraksjon-bilde-tall-havliv-6f97"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-kjaeledyr-2bf7",
+      "siblings": [
+        "subtraksjon-bilde-tall-kjaeledyr-2bf7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-postkontor-3057",
+      "siblings": [
+        "subtraksjon-bilde-tall-postkontor-3057"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-reptiler-og-amfibier-d319",
+      "siblings": [
+        "subtraksjon-bilde-tall-reptiler-og-amfibier-d319"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-former-4e65",
+      "siblings": [
+        "subtraksjon-bilde-tall-former-4e65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-verdensrommet-ac1a",
+      "siblings": [
+        "subtraksjon-bilde-tall-verdensrommet-ac1a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-thanksgiving-b6ad",
+      "siblings": [
+        "subtraksjon-bilde-tall-thanksgiving-b6ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-ting-som-flyr-b345",
+      "siblings": [
+        "subtraksjon-bilde-tall-ting-som-flyr-b345"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-verktoy-6510",
+      "siblings": [
+        "subtraksjon-bilde-tall-verktoy-6510"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-leker-6057",
+      "siblings": [
+        "subtraksjon-bilde-tall-leker-6057"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-traer-99d0",
+      "siblings": [
+        "subtraksjon-bilde-tall-traer-99d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-gronnsaker-4bea",
+      "siblings": [
+        "subtraksjon-bilde-tall-gronnsaker-4bea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-kjoretoy-45e1",
+      "siblings": [
+        "subtraksjon-bilde-tall-kjoretoy-45e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "subtraksjon-bilde-tall-dyrehagedyr-29bb",
+      "siblings": [
+        "subtraksjon-bilde-tall-dyrehagedyr-29bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-tilbehor-f584",
+      "siblings": [
+        "subtraksjon-blandet-tilbehor-f584"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-dyr-d22c",
+      "siblings": [
+        "subtraksjon-blandet-dyr-d22c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-rundt-i-huset-19ab",
+      "siblings": [
+        "subtraksjon-blandet-rundt-i-huset-19ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-i-supermarkedet-a95b",
+      "siblings": [
+        "subtraksjon-blandet-i-supermarkedet-a95b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-bakeri-eb05",
+      "siblings": [
+        "subtraksjon-blandet-bakeri-eb05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-strand-285c",
+      "siblings": [
+        "subtraksjon-blandet-strand-285c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-fugler-4565",
+      "siblings": [
+        "subtraksjon-blandet-fugler-4565"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-fugler-2-103d",
+      "siblings": [
+        "subtraksjon-blandet-fugler-2-103d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-frokost-412f",
+      "siblings": [
+        "subtraksjon-blandet-frokost-412f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-camping-73e8",
+      "siblings": [
+        "subtraksjon-blandet-camping-73e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-jul-62d3",
+      "siblings": [
+        "subtraksjon-blandet-jul-62d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-klasserom-bf63",
+      "siblings": [
+        "subtraksjon-blandet-klasserom-bf63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-klaer-9db4",
+      "siblings": [
+        "subtraksjon-blandet-klaer-9db4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-desserter-og-godteri-70bf",
+      "siblings": [
+        "subtraksjon-blandet-desserter-og-godteri-70bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-dinosaurer-018c",
+      "siblings": [
+        "subtraksjon-blandet-dinosaurer-018c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-paske-05bf",
+      "siblings": [
+        "subtraksjon-blandet-paske-05bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-gardsdyr-1c47",
+      "siblings": [
+        "subtraksjon-blandet-gardsdyr-1c47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-blomster-240f",
+      "siblings": [
+        "subtraksjon-blandet-blomster-240f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-skogsdyr-ae93",
+      "siblings": [
+        "subtraksjon-blandet-skogsdyr-ae93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-frukter-66ca",
+      "siblings": [
+        "subtraksjon-blandet-frukter-66ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-mobler-129b",
+      "siblings": [
+        "subtraksjon-blandet-mobler-129b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-sykehus-557f",
+      "siblings": [
+        "subtraksjon-blandet-sykehus-557f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-insekter-og-kryp-0239",
+      "siblings": [
+        "subtraksjon-blandet-insekter-og-kryp-0239"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-kjokkenredskaper-9514",
+      "siblings": [
+        "subtraksjon-blandet-kjokkenredskaper-9514"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-musikk-dd15",
+      "siblings": [
+        "subtraksjon-blandet-musikk-dd15"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-yrker-c8e6",
+      "siblings": [
+        "subtraksjon-blandet-yrker-c8e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-havliv-3647",
+      "siblings": [
+        "subtraksjon-blandet-havliv-3647"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-kjaeledyr-7761",
+      "siblings": [
+        "subtraksjon-blandet-kjaeledyr-7761"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-postkontor-e09b",
+      "siblings": [
+        "subtraksjon-blandet-postkontor-e09b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-reptiler-og-amfibier-a85b",
+      "siblings": [
+        "subtraksjon-blandet-reptiler-og-amfibier-a85b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-former-28d7",
+      "siblings": [
+        "subtraksjon-blandet-former-28d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-verdensrommet-ffeb",
+      "siblings": [
+        "subtraksjon-blandet-verdensrommet-ffeb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-thanksgiving-9633",
+      "siblings": [
+        "subtraksjon-blandet-thanksgiving-9633"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-verktoy-ff96",
+      "siblings": [
+        "subtraksjon-blandet-verktoy-ff96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-leker-9e22",
+      "siblings": [
+        "subtraksjon-blandet-leker-9e22"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-traer-5439",
+      "siblings": [
+        "subtraksjon-blandet-traer-5439"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-gronnsaker-2d0d",
+      "siblings": [
+        "subtraksjon-blandet-gronnsaker-2d0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-kjoretoy-2dbc",
+      "siblings": [
+        "subtraksjon-blandet-kjoretoy-2dbc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "subtraksjon-blandet-dyrehagedyr-e230",
+      "siblings": [
+        "subtraksjon-blandet-dyrehagedyr-e230"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn"
+    }
+  ]
+}

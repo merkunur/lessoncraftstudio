@@ -1,0 +1,1842 @@
+{
+  "locale": "no",
+  "exerciseType": "code-addition",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 147,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 48,
+    "secret-word": 47
+  },
+  "totalValid": 95,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null,
+    "secret-word"
+  ],
+  "collapsedFamilies": 49,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonical": "kodeaddisjon-tilbehor-d5d2",
+      "siblings": [
+        "kodeaddisjon-tilbehor-d5d2",
+        "kodeaddisjon-tilbehor-a684"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 2,
+      "canonical": "kodeaddisjon-aktiviteter-e6f9",
+      "siblings": [
+        "kodeaddisjon-aktiviteter-e6f9",
+        "kodeaddisjon-aktiviteter-ffbd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "kodeaddisjon-dyr-c542",
+      "siblings": [
+        "kodeaddisjon-dyr-c542",
+        "kodeaddisjon-dyr-ba03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonical": "kodeaddisjon-rundt-i-huset-6ee3",
+      "siblings": [
+        "kodeaddisjon-rundt-i-huset-6ee3",
+        "kodeaddisjon-rundt-i-huset-fdd5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonical": "kodeaddisjon-i-supermarkedet-943a",
+      "siblings": [
+        "kodeaddisjon-i-supermarkedet-943a",
+        "kodeaddisjon-i-supermarkedet-c649"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonical": "kodeaddisjon-bakeri-2cbf",
+      "siblings": [
+        "kodeaddisjon-bakeri-2cbf",
+        "kodeaddisjon-bakeri-6f85"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonical": "kodeaddisjon-strand-bfad",
+      "siblings": [
+        "kodeaddisjon-strand-bfad",
+        "kodeaddisjon-strand-ae14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 2,
+      "canonical": "kodeaddisjon-fugler-00b8",
+      "siblings": [
+        "kodeaddisjon-fugler-00b8",
+        "kodeaddisjon-fugler-b9b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonical": "kodeaddisjon-fugler-2-ab40",
+      "siblings": [
+        "kodeaddisjon-fugler-2-ab40",
+        "kodeaddisjon-fugler-2-dc5d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonical": "kodeaddisjon-kroppsdeler-4e35",
+      "siblings": [
+        "kodeaddisjon-kroppsdeler-4e35",
+        "kodeaddisjon-kroppsdeler-4661"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonical": "kodeaddisjon-frokost-ef12",
+      "siblings": [
+        "kodeaddisjon-frokost-ef12",
+        "kodeaddisjon-frokost-c2b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonical": "kodeaddisjon-camping-153f",
+      "siblings": [
+        "kodeaddisjon-camping-153f",
+        "kodeaddisjon-camping-9c69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonical": "kodeaddisjon-jul-048b",
+      "siblings": [
+        "kodeaddisjon-jul-048b",
+        "kodeaddisjon-jul-026f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonical": "kodeaddisjon-klasserom-ce3a",
+      "siblings": [
+        "kodeaddisjon-klasserom-ce3a",
+        "kodeaddisjon-klasserom-6fc6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonical": "kodeaddisjon-klaer-3b62",
+      "siblings": [
+        "kodeaddisjon-klaer-3b62",
+        "kodeaddisjon-klaer-d29f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 2,
+      "canonical": "kodeaddisjon-farger-4696",
+      "siblings": [
+        "kodeaddisjon-farger-4696",
+        "kodeaddisjon-farger-cb93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonical": "kodeaddisjon-desserter-og-godteri-ff06",
+      "siblings": [
+        "kodeaddisjon-desserter-og-godteri-ff06",
+        "kodeaddisjon-desserter-og-godteri-1052"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 2,
+      "canonical": "kodeaddisjon-dinosaurer-c1b5",
+      "siblings": [
+        "kodeaddisjon-dinosaurer-c1b5",
+        "kodeaddisjon-dinosaurer-c901"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonical": "kodeaddisjon-paske-a7d8",
+      "siblings": [
+        "kodeaddisjon-paske-a7d8",
+        "kodeaddisjon-paske-d32f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 2,
+      "canonical": "kodeaddisjon-folelser-2505",
+      "siblings": [
+        "kodeaddisjon-folelser-2505",
+        "kodeaddisjon-folelser-8701"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonical": "kodeaddisjon-gardsdyr-6ba0",
+      "siblings": [
+        "kodeaddisjon-gardsdyr-6ba0",
+        "kodeaddisjon-gardsdyr-f69f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonical": "kodeaddisjon-blomster-96f8",
+      "siblings": [
+        "kodeaddisjon-blomster-96f8",
+        "kodeaddisjon-blomster-56f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonical": "kodeaddisjon-skogsdyr-b059",
+      "siblings": [
+        "kodeaddisjon-skogsdyr-b059",
+        "kodeaddisjon-skogsdyr-3ca9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonical": "kodeaddisjon-frukter-8c9b",
+      "siblings": [
+        "kodeaddisjon-frukter-8c9b",
+        "kodeaddisjon-frukter-d0b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonical": "kodeaddisjon-mobler-bfc4",
+      "siblings": [
+        "kodeaddisjon-mobler-bfc4",
+        "kodeaddisjon-mobler-084a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonical": "kodeaddisjon-sykehus-9de0",
+      "siblings": [
+        "kodeaddisjon-sykehus-9de0",
+        "kodeaddisjon-sykehus-39c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 2,
+      "canonical": "kodeaddisjon-insekter-og-kryp-8c8e",
+      "siblings": [
+        "kodeaddisjon-insekter-og-kryp-8c8e",
+        "kodeaddisjon-insekter-og-kryp-76ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonical": "kodeaddisjon-kjokkenredskaper-08ee",
+      "siblings": [
+        "kodeaddisjon-kjokkenredskaper-08ee",
+        "kodeaddisjon-kjokkenredskaper-4257"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 2,
+      "canonical": "kodeaddisjon-musikk-c18b",
+      "siblings": [
+        "kodeaddisjon-musikk-c18b",
+        "kodeaddisjon-musikk-1abc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonical": "kodeaddisjon-yrker-ca7e",
+      "siblings": [
+        "kodeaddisjon-yrker-ca7e",
+        "kodeaddisjon-yrker-191e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "kodeaddisjon-havliv-c656",
+      "siblings": [
+        "kodeaddisjon-havliv-c656",
+        "kodeaddisjon-havliv-e26d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonical": "kodeaddisjon-kjaeledyr-6f83",
+      "siblings": [
+        "kodeaddisjon-kjaeledyr-6f83",
+        "kodeaddisjon-kjaeledyr-5556"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 2,
+      "canonical": "kodeaddisjon-postkontor-412d",
+      "siblings": [
+        "kodeaddisjon-postkontor-412d",
+        "kodeaddisjon-postkontor-1c20"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 2,
+      "canonical": "kodeaddisjon-reptiler-og-amfibier-93c0",
+      "siblings": [
+        "kodeaddisjon-reptiler-og-amfibier-93c0",
+        "kodeaddisjon-reptiler-og-amfibier-6675"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonical": "kodeaddisjon-former-3cdc",
+      "siblings": [
+        "kodeaddisjon-former-3cdc",
+        "kodeaddisjon-former-17fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonical": "kodeaddisjon-verdensrommet-e221",
+      "siblings": [
+        "kodeaddisjon-verdensrommet-e221",
+        "kodeaddisjon-verdensrommet-1375"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 2,
+      "canonical": "kodeaddisjon-var-932e",
+      "siblings": [
+        "kodeaddisjon-var-932e",
+        "kodeaddisjon-var-3f8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonical": "kodeaddisjon-sommer-31d7",
+      "siblings": [
+        "kodeaddisjon-sommer-31d7",
+        "kodeaddisjon-sommer-a6b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 2,
+      "canonical": "kodeaddisjon-thanksgiving-ce3a",
+      "siblings": [
+        "kodeaddisjon-thanksgiving-ce3a",
+        "kodeaddisjon-thanksgiving-c4ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonical": "kodeaddisjon-ting-som-flyr-9ca9",
+      "siblings": [
+        "kodeaddisjon-ting-som-flyr-9ca9",
+        "kodeaddisjon-ting-som-flyr-c5d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 2,
+      "canonical": "kodeaddisjon-verktoy-1741",
+      "siblings": [
+        "kodeaddisjon-verktoy-1741",
+        "kodeaddisjon-verktoy-7da1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonical": "kodeaddisjon-leker-0e76",
+      "siblings": [
+        "kodeaddisjon-leker-0e76",
+        "kodeaddisjon-leker-3880"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 2,
+      "canonical": "kodeaddisjon-traer-5daf",
+      "siblings": [
+        "kodeaddisjon-traer-5daf",
+        "kodeaddisjon-traer-df20"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonical": "kodeaddisjon-gronnsaker-017a",
+      "siblings": [
+        "kodeaddisjon-gronnsaker-017a",
+        "kodeaddisjon-gronnsaker-bca8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonical": "kodeaddisjon-kjoretoy-db82",
+      "siblings": [
+        "kodeaddisjon-kjoretoy-db82",
+        "kodeaddisjon-kjoretoy-ac85"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 2,
+      "canonical": "kodeaddisjon-vaer-3af7",
+      "siblings": [
+        "kodeaddisjon-vaer-3af7",
+        "kodeaddisjon-vaer-644f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonical": "kodeaddisjon-vinter-d471",
+      "siblings": [
+        "kodeaddisjon-vinter-d471",
+        "kodeaddisjon-vinter-1e39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonical": "kodeaddisjon-dyrehagedyr-77a7",
+      "siblings": [
+        "kodeaddisjon-dyrehagedyr-77a7",
+        "kodeaddisjon-dyrehagedyr-0678"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "secret-word",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-tilbehor-d83e",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-tilbehor-d83e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "secret-word",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-aktiviteter-0b13",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-aktiviteter-0b13"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "secret-word",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-dyr-0ab6",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-dyr-0ab6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 34
+    },
+    {
+      "mode": "secret-word",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-rundt-i-huset-83fc",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-rundt-i-huset-83fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "secret-word",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-i-supermarkedet-7958",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-i-supermarkedet-7958"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    },
+    {
+      "mode": "secret-word",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-bakeri-0a6e",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-bakeri-0a6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 29
+    },
+    {
+      "mode": "secret-word",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-strand-0b60",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-strand-0b60"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "secret-word",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 2,
+      "canonical": "kodeaddisjon-hemmelig-ord-fugler-2fb4",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-fugler-2fb4",
+        "kodeaddisjon-hemmelig-ord-fugler-9d7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "secret-word",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-kroppsdeler-8f3c",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-kroppsdeler-8f3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "secret-word",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-frokost-dd0e",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-frokost-dd0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-camping-f839",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-camping-f839"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-jul-0547",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-jul-0547"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "secret-word",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-klasserom-5bbd",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-klasserom-5bbd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 29
+    },
+    {
+      "mode": "secret-word",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-klaer-63db",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-klaer-63db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    },
+    {
+      "mode": "secret-word",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-farger-434f",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-farger-434f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "secret-word",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-desserter-og-godteri-6218",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-desserter-og-godteri-6218"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 33
+    },
+    {
+      "mode": "secret-word",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-dinosaurer-bac1",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-dinosaurer-bac1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 34
+    },
+    {
+      "mode": "secret-word",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-paske-4440",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-paske-4440"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-folelser-385b",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-folelser-385b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-gardsdyr-7702",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-gardsdyr-7702"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 28
+    },
+    {
+      "mode": "secret-word",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-blomster-bcd2",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-blomster-bcd2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "secret-word",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-skogsdyr-0228",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-skogsdyr-0228"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-frukter-a221",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-frukter-a221"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "secret-word",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-mobler-4b42",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-mobler-4b42"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "secret-word",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-sykehus-5e89",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-sykehus-5e89"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "secret-word",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-insekter-og-kryp-ce94",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-insekter-og-kryp-ce94"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 28
+    },
+    {
+      "mode": "secret-word",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-kjokkenredskaper-d21d",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-kjokkenredskaper-d21d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "secret-word",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-musikk-e864",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-musikk-e864"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": "secret-word",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-yrker-74bc",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-yrker-74bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "secret-word",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-havliv-77cd",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-havliv-77cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "secret-word",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-kjaeledyr-4391",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-kjaeledyr-4391"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": "secret-word",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-postkontor-fb80",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-postkontor-fb80"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "secret-word",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-reptiler-og-amfibier-c453",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-reptiler-og-amfibier-c453"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "secret-word",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-former-a3ef",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-former-a3ef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-verdensrommet-9e87",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-verdensrommet-9e87"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-var-5698",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-var-5698"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 32
+    },
+    {
+      "mode": "secret-word",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-sommer-296a",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-sommer-296a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    },
+    {
+      "mode": "secret-word",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-thanksgiving-c09f",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-thanksgiving-c09f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "secret-word",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-ting-som-flyr-d886",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-ting-som-flyr-d886"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-verktoy-01fd",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-verktoy-01fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "secret-word",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-leker-d519",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-leker-d519"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "secret-word",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-traer-ea88",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-traer-ea88"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "secret-word",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-gronnsaker-660a",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-gronnsaker-660a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 32
+    },
+    {
+      "mode": "secret-word",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-kjoretoy-5a54",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-kjoretoy-5a54"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-vaer-ad0e",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-vaer-ad0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "secret-word",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-vinter-ae73",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-vinter-ae73"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "secret-word",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "kodeaddisjon-hemmelig-ord-dyrehagedyr-95a7",
+      "siblings": [
+        "kodeaddisjon-hemmelig-ord-dyrehagedyr-95a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    }
+  ]
+}

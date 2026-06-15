@@ -1,0 +1,1594 @@
+{
+  "locale": "no",
+  "exerciseType": "sudoku",
+  "level": "1-trinn",
+  "rawRowCount": 98,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 48,
+    "medium": 47
+  },
+  "totalValid": 95,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "medium"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "bildesudoku-lett-tilbehor-ce95",
+      "siblings": [
+        "bildesudoku-lett-tilbehor-ce95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "bildesudoku-lett-aktiviteter-724d",
+      "siblings": [
+        "bildesudoku-lett-aktiviteter-724d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "bildesudoku-lett-dyr-5f09",
+      "siblings": [
+        "bildesudoku-lett-dyr-5f09"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "bildesudoku-lett-rundt-i-huset-bf4f",
+      "siblings": [
+        "bildesudoku-lett-rundt-i-huset-bf4f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "bildesudoku-lett-i-supermarkedet-6251",
+      "siblings": [
+        "bildesudoku-lett-i-supermarkedet-6251"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "bildesudoku-lett-bakeri-a2f2",
+      "siblings": [
+        "bildesudoku-lett-bakeri-a2f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "bildesudoku-lett-strand-01c3",
+      "siblings": [
+        "bildesudoku-lett-strand-01c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "bildesudoku-lett-fugler-3416",
+      "siblings": [
+        "bildesudoku-lett-fugler-3416"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "bildesudoku-lett-fugler-2-3a12",
+      "siblings": [
+        "bildesudoku-lett-fugler-2-3a12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "bildesudoku-lett-kroppsdeler-1729",
+      "siblings": [
+        "bildesudoku-lett-kroppsdeler-1729"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "bildesudoku-lett-frokost-8872",
+      "siblings": [
+        "bildesudoku-lett-frokost-8872"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "bildesudoku-lett-camping-a4bd",
+      "siblings": [
+        "bildesudoku-lett-camping-a4bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "bildesudoku-lett-jul-de57",
+      "siblings": [
+        "bildesudoku-lett-jul-de57"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "bildesudoku-lett-klasserom-8bb5",
+      "siblings": [
+        "bildesudoku-lett-klasserom-8bb5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "bildesudoku-lett-klaer-41c0",
+      "siblings": [
+        "bildesudoku-lett-klaer-41c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "bildesudoku-lett-farger-afcc",
+      "siblings": [
+        "bildesudoku-lett-farger-afcc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "bildesudoku-lett-desserter-og-godteri-b8e8",
+      "siblings": [
+        "bildesudoku-lett-desserter-og-godteri-b8e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "bildesudoku-lett-dinosaurer-b511",
+      "siblings": [
+        "bildesudoku-lett-dinosaurer-b511"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "bildesudoku-lett-paske-981b",
+      "siblings": [
+        "bildesudoku-lett-paske-981b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "bildesudoku-lett-folelser-0c91",
+      "siblings": [
+        "bildesudoku-lett-folelser-0c91"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "bildesudoku-lett-gardsdyr-cc94",
+      "siblings": [
+        "bildesudoku-lett-gardsdyr-cc94"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "bildesudoku-lett-blomster-a771",
+      "siblings": [
+        "bildesudoku-lett-blomster-a771"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "bildesudoku-lett-skogsdyr-d2e6",
+      "siblings": [
+        "bildesudoku-lett-skogsdyr-d2e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "bildesudoku-lett-frukter-1053",
+      "siblings": [
+        "bildesudoku-lett-frukter-1053"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "bildesudoku-lett-mobler-313f",
+      "siblings": [
+        "bildesudoku-lett-mobler-313f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "bildesudoku-lett-sykehus-f08e",
+      "siblings": [
+        "bildesudoku-lett-sykehus-f08e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "bildesudoku-lett-insekter-og-kryp-0160",
+      "siblings": [
+        "bildesudoku-lett-insekter-og-kryp-0160"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "bildesudoku-lett-kjokkenredskaper-156c",
+      "siblings": [
+        "bildesudoku-lett-kjokkenredskaper-156c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "bildesudoku-lett-musikk-d805",
+      "siblings": [
+        "bildesudoku-lett-musikk-d805"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "bildesudoku-lett-yrker-c186",
+      "siblings": [
+        "bildesudoku-lett-yrker-c186"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "bildesudoku-lett-havliv-bfce",
+      "siblings": [
+        "bildesudoku-lett-havliv-bfce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "bildesudoku-lett-kjaeledyr-2551",
+      "siblings": [
+        "bildesudoku-lett-kjaeledyr-2551"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "bildesudoku-lett-postkontor-72dc",
+      "siblings": [
+        "bildesudoku-lett-postkontor-72dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "bildesudoku-lett-reptiler-og-amfibier-fac5",
+      "siblings": [
+        "bildesudoku-lett-reptiler-og-amfibier-fac5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "bildesudoku-lett-former-f4cd",
+      "siblings": [
+        "bildesudoku-lett-former-f4cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "bildesudoku-lett-verdensrommet-4eeb",
+      "siblings": [
+        "bildesudoku-lett-verdensrommet-4eeb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "bildesudoku-lett-var-088f",
+      "siblings": [
+        "bildesudoku-lett-var-088f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "bildesudoku-lett-sommer-8b26",
+      "siblings": [
+        "bildesudoku-lett-sommer-8b26"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "bildesudoku-lett-thanksgiving-041f",
+      "siblings": [
+        "bildesudoku-lett-thanksgiving-041f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "bildesudoku-lett-ting-som-flyr-6d98",
+      "siblings": [
+        "bildesudoku-lett-ting-som-flyr-6d98"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "bildesudoku-lett-verktoy-9089",
+      "siblings": [
+        "bildesudoku-lett-verktoy-9089"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "bildesudoku-lett-leker-740e",
+      "siblings": [
+        "bildesudoku-lett-leker-740e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "bildesudoku-lett-traer-b871",
+      "siblings": [
+        "bildesudoku-lett-traer-b871"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "bildesudoku-lett-gronnsaker-58e4",
+      "siblings": [
+        "bildesudoku-lett-gronnsaker-58e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "bildesudoku-lett-kjoretoy-4941",
+      "siblings": [
+        "bildesudoku-lett-kjoretoy-4941"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "bildesudoku-lett-vaer-f1bd",
+      "siblings": [
+        "bildesudoku-lett-vaer-f1bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "bildesudoku-lett-vinter-1e38",
+      "siblings": [
+        "bildesudoku-lett-vinter-1e38"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "bildesudoku-lett-dyrehagedyr-15a3",
+      "siblings": [
+        "bildesudoku-lett-dyrehagedyr-15a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "bildesudoku-middels-tilbehor-6a92",
+      "siblings": [
+        "bildesudoku-middels-tilbehor-6a92"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "bildesudoku-middels-aktiviteter-d656",
+      "siblings": [
+        "bildesudoku-middels-aktiviteter-d656"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "bildesudoku-middels-dyr-4e1e",
+      "siblings": [
+        "bildesudoku-middels-dyr-4e1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "bildesudoku-middels-rundt-i-huset-f505",
+      "siblings": [
+        "bildesudoku-middels-rundt-i-huset-f505"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "bildesudoku-middels-i-supermarkedet-cc1f",
+      "siblings": [
+        "bildesudoku-middels-i-supermarkedet-cc1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "bildesudoku-middels-bakeri-6902",
+      "siblings": [
+        "bildesudoku-middels-bakeri-6902"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "bildesudoku-middels-strand-0a61",
+      "siblings": [
+        "bildesudoku-middels-strand-0a61"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "bildesudoku-middels-fugler-e85e",
+      "siblings": [
+        "bildesudoku-middels-fugler-e85e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "bildesudoku-middels-fugler-2-5164",
+      "siblings": [
+        "bildesudoku-middels-fugler-2-5164"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "bildesudoku-middels-frokost-6dd1",
+      "siblings": [
+        "bildesudoku-middels-frokost-6dd1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "bildesudoku-middels-camping-85b3",
+      "siblings": [
+        "bildesudoku-middels-camping-85b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "bildesudoku-middels-jul-db2e",
+      "siblings": [
+        "bildesudoku-middels-jul-db2e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "bildesudoku-middels-klasserom-6679",
+      "siblings": [
+        "bildesudoku-middels-klasserom-6679"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "bildesudoku-middels-klaer-99b2",
+      "siblings": [
+        "bildesudoku-middels-klaer-99b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "bildesudoku-middels-farger-a260",
+      "siblings": [
+        "bildesudoku-middels-farger-a260"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "bildesudoku-middels-desserter-og-godteri-b185",
+      "siblings": [
+        "bildesudoku-middels-desserter-og-godteri-b185"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "bildesudoku-middels-dinosaurer-8728",
+      "siblings": [
+        "bildesudoku-middels-dinosaurer-8728"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "bildesudoku-middels-paske-5e2f",
+      "siblings": [
+        "bildesudoku-middels-paske-5e2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "bildesudoku-middels-folelser-ff47",
+      "siblings": [
+        "bildesudoku-middels-folelser-ff47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "bildesudoku-middels-gardsdyr-ecd3",
+      "siblings": [
+        "bildesudoku-middels-gardsdyr-ecd3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "bildesudoku-middels-blomster-e1e5",
+      "siblings": [
+        "bildesudoku-middels-blomster-e1e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "bildesudoku-middels-skogsdyr-1b2d",
+      "siblings": [
+        "bildesudoku-middels-skogsdyr-1b2d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "bildesudoku-middels-frukter-07df",
+      "siblings": [
+        "bildesudoku-middels-frukter-07df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "bildesudoku-middels-mobler-7d6f",
+      "siblings": [
+        "bildesudoku-middels-mobler-7d6f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "bildesudoku-middels-sykehus-3ee5",
+      "siblings": [
+        "bildesudoku-middels-sykehus-3ee5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "bildesudoku-middels-insekter-og-kryp-2483",
+      "siblings": [
+        "bildesudoku-middels-insekter-og-kryp-2483"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "bildesudoku-middels-kjokkenredskaper-d53e",
+      "siblings": [
+        "bildesudoku-middels-kjokkenredskaper-d53e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "bildesudoku-middels-musikk-6865",
+      "siblings": [
+        "bildesudoku-middels-musikk-6865"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "bildesudoku-middels-yrker-0286",
+      "siblings": [
+        "bildesudoku-middels-yrker-0286"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "bildesudoku-middels-havliv-7a9b",
+      "siblings": [
+        "bildesudoku-middels-havliv-7a9b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonical": "bildesudoku-middels-kjaeledyr-f69d",
+      "siblings": [
+        "bildesudoku-middels-kjaeledyr-f69d",
+        "bildesudoku-middels-kjaeledyr-6d1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "bildesudoku-middels-postkontor-db6f",
+      "siblings": [
+        "bildesudoku-middels-postkontor-db6f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "bildesudoku-middels-reptiler-og-amfibier-0872",
+      "siblings": [
+        "bildesudoku-middels-reptiler-og-amfibier-0872"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "bildesudoku-middels-former-8d40",
+      "siblings": [
+        "bildesudoku-middels-former-8d40"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "bildesudoku-middels-verdensrommet-c548",
+      "siblings": [
+        "bildesudoku-middels-verdensrommet-c548"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "bildesudoku-middels-var-7259",
+      "siblings": [
+        "bildesudoku-middels-var-7259"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "bildesudoku-middels-sommer-6cef",
+      "siblings": [
+        "bildesudoku-middels-sommer-6cef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "bildesudoku-middels-thanksgiving-cce3",
+      "siblings": [
+        "bildesudoku-middels-thanksgiving-cce3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "bildesudoku-middels-ting-som-flyr-0da9",
+      "siblings": [
+        "bildesudoku-middels-ting-som-flyr-0da9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "bildesudoku-middels-verktoy-4aa0",
+      "siblings": [
+        "bildesudoku-middels-verktoy-4aa0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "bildesudoku-middels-leker-4024",
+      "siblings": [
+        "bildesudoku-middels-leker-4024"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "bildesudoku-middels-traer-61ab",
+      "siblings": [
+        "bildesudoku-middels-traer-61ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "bildesudoku-middels-gronnsaker-debf",
+      "siblings": [
+        "bildesudoku-middels-gronnsaker-debf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "bildesudoku-middels-kjoretoy-f202",
+      "siblings": [
+        "bildesudoku-middels-kjoretoy-f202"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "bildesudoku-middels-vaer-9c6b",
+      "siblings": [
+        "bildesudoku-middels-vaer-9c6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "bildesudoku-middels-vinter-ab19",
+      "siblings": [
+        "bildesudoku-middels-vinter-ab19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "medium",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "bildesudoku-middels-dyrehagedyr-1207",
+      "siblings": [
+        "bildesudoku-middels-dyrehagedyr-1207"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    }
+  ]
+}

@@ -1,0 +1,1560 @@
+{
+  "locale": "no",
+  "exerciseType": "find-objects",
+  "level": "1-trinn",
+  "rawRowCount": 95,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-odd": 47,
+    "i-spy": 46
+  },
+  "totalValid": 93,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-odd",
+    "i-spy"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "find-odd",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-tilbehor-7da9",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-tilbehor-7da9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-aktiviteter-8951",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-aktiviteter-8951"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-dyr-bc75",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-dyr-bc75"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-rundt-i-huset-b677",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-rundt-i-huset-b677"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-i-supermarkedet-be1a",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-i-supermarkedet-be1a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-bakeri-c855",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-bakeri-c855"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-strand-fff0",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-strand-fff0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-fugler-2-810a",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-fugler-2-810a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-kroppsdeler-894d",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-kroppsdeler-894d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-frokost-2557",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-frokost-2557"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-camping-aca4",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-camping-aca4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-jul-474d",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-jul-474d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-klasserom-36b9",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-klasserom-36b9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-klaer-2437",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-klaer-2437"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-farger-c174",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-farger-c174"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-desserter-og-godteri-11ad",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-desserter-og-godteri-11ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-dinosaurer-f0aa",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-dinosaurer-f0aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-paske-bb22",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-paske-bb22"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-folelser-6cea",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-folelser-6cea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-gardsdyr-5cc9",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-gardsdyr-5cc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-blomster-85c5",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-blomster-85c5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-skogsdyr-cf33",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-skogsdyr-cf33"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-frukter-cac4",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-frukter-cac4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-mobler-da3b",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-mobler-da3b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-sykehus-f0f1",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-sykehus-f0f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-insekter-og-kryp-5b02",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-insekter-og-kryp-5b02"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-kjokkenredskaper-8b37",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-kjokkenredskaper-8b37"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-musikk-f8f2",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-musikk-f8f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-yrker-4d23",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-yrker-4d23"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-havliv-999a",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-havliv-999a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-kjaeledyr-d524",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-kjaeledyr-d524"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-postkontor-adf4",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-postkontor-adf4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-reptiler-og-amfibier-019e",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-reptiler-og-amfibier-019e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-former-4082",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-former-4082"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-verdensrommet-9061",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-verdensrommet-9061"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-var-0461",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-var-0461"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-sommer-fe04",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-sommer-fe04"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-thanksgiving-2e66",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-thanksgiving-2e66"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-ting-som-flyr-5885",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-ting-som-flyr-5885"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-verktoy-259b",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-verktoy-259b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-leker-32f9",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-leker-32f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-traer-9d71",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-traer-9d71"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-gronnsaker-7a5e",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-gronnsaker-7a5e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-kjoretoy-4a97",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-kjoretoy-4a97"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-vaer-3aeb",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-vaer-3aeb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-vinter-a883",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-vinter-a883"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "finn-objektene-finn-den-som-er-ulik-dyrehagedyr-51b7",
+      "siblings": [
+        "finn-objektene-finn-den-som-er-ulik-dyrehagedyr-51b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-tilbehor-27a1",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-tilbehor-27a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-aktiviteter-23ce",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-aktiviteter-23ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-dyr-7f70",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-dyr-7f70"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-i-supermarkedet-04db",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-i-supermarkedet-04db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-bakeri-48c0",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-bakeri-48c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-strand-34ad",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-strand-34ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-fugler-2-43cf",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-fugler-2-43cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-kroppsdeler-6754",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-kroppsdeler-6754"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-frokost-adbc",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-frokost-adbc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-camping-70d1",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-camping-70d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-jul-3175",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-jul-3175"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-klasserom-63cb",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-klasserom-63cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-klaer-8377",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-klaer-8377"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-farger-8c60",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-farger-8c60"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-desserter-og-godteri-14ab",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-desserter-og-godteri-14ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-dinosaurer-52b5",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-dinosaurer-52b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-paske-84b7",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-paske-84b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-folelser-9311",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-folelser-9311"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-gardsdyr-eaaf",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-gardsdyr-eaaf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-blomster-b9fb",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-blomster-b9fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-skogsdyr-60bb",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-skogsdyr-60bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-frukter-bf9d",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-frukter-bf9d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-mobler-a5fa",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-mobler-a5fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-sykehus-12e4",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-sykehus-12e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-insekter-og-kryp-294b",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-insekter-og-kryp-294b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-kjokkenredskaper-a091",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-kjokkenredskaper-a091"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-musikk-d052",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-musikk-d052"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-yrker-cf97",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-yrker-cf97"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-havliv-159a",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-havliv-159a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-kjaeledyr-734d",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-kjaeledyr-734d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-postkontor-d1b9",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-postkontor-d1b9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-reptiler-og-amfibier-cb96",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-reptiler-og-amfibier-cb96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-former-d700",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-former-d700"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-verdensrommet-fda5",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-verdensrommet-fda5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-var-1425",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-var-1425"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-sommer-dd35",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-sommer-dd35"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-thanksgiving-4850",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-thanksgiving-4850"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-ting-som-flyr-7f81",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-ting-som-flyr-7f81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-verktoy-fbe2",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-verktoy-fbe2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-leker-5c93",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-leker-5c93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-traer-b90a",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-traer-b90a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-gronnsaker-fb92",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-gronnsaker-fb92"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-kjoretoy-af06",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-kjoretoy-af06"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-vaer-7977",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-vaer-7977"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-vinter-6d0e",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-vinter-6d0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "finn-objektene-jeg-ser-jeg-ser-dyrehagedyr-7ba0",
+      "siblings": [
+        "finn-objektene-jeg-ser-jeg-ser-dyrehagedyr-7ba0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-trinn"
+    }
+  ]
+}

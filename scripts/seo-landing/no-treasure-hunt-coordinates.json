@@ -1,0 +1,1609 @@
+{
+  "locale": "no",
+  "exerciseType": "treasure-hunt",
+  "level": "1-trinn",
+  "rawRowCount": 98,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cardinal-arrows": 48,
+    "compass": 48
+  },
+  "totalValid": 96,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cardinal-arrows",
+    "compass"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "cardinal-arrows",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-tilbehor-93b8",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-tilbehor-93b8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-aktiviteter-78bd",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-aktiviteter-78bd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-dyr-8c13",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-dyr-8c13"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-rundt-i-huset-41e8",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-rundt-i-huset-41e8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-i-supermarkedet-a54d",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-i-supermarkedet-a54d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-bakeri-1bb5",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-bakeri-1bb5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-strand-fbb8",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-strand-fbb8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-fugler-430c",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-fugler-430c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-fugler-2-be76",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-fugler-2-be76"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-kroppsdeler-68d0",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-kroppsdeler-68d0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-frokost-2b92",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-frokost-2b92"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-camping-bb82",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-camping-bb82"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-jul-fbbe",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-jul-fbbe"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-klasserom-07ad",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-klasserom-07ad"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-klaer-0064",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-klaer-0064"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-farger-cb5a",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-farger-cb5a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-desserter-og-godteri-d8d2",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-desserter-og-godteri-d8d2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-dinosaurer-2b74",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-dinosaurer-2b74"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-paske-5b08",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-paske-5b08"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-folelser-455f",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-folelser-455f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-gardsdyr-c747",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-gardsdyr-c747"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-blomster-5e10",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-blomster-5e10"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-skogsdyr-adcc",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-skogsdyr-adcc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-frukter-4c1f",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-frukter-4c1f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-mobler-97b3",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-mobler-97b3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-sykehus-59dc",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-sykehus-59dc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-insekter-og-kryp-3eb6",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-insekter-og-kryp-3eb6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-kjokkenredskaper-955a",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-kjokkenredskaper-955a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-musikk-a8b7",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-musikk-a8b7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-yrker-e0c3",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-yrker-e0c3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-havliv-ce94",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-havliv-ce94"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-kjaeledyr-8bfa",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-kjaeledyr-8bfa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-postkontor-9267",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-postkontor-9267"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-reptiler-og-amfibier-f028",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-reptiler-og-amfibier-f028"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-former-68e7",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-former-68e7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-verdensrommet-6ba2",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-verdensrommet-6ba2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-var-c5f1",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-var-c5f1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-sommer-9edd",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-sommer-9edd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-thanksgiving-c6e3",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-thanksgiving-c6e3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-ting-som-flyr-e11f",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-ting-som-flyr-e11f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-verktoy-e9ee",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-verktoy-e9ee"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-leker-45a0",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-leker-45a0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-traer-afd0",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-traer-afd0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-gronnsaker-a143",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-gronnsaker-a143"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-kjoretoy-23b2",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-kjoretoy-23b2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-vaer-4041",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-vaer-4041"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-vinter-4154",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-vinter-4154"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "skattejakt-opp-ned-venstre-hoyre-dyrehagedyr-eb98",
+      "siblings": [
+        "skattejakt-opp-ned-venstre-hoyre-dyrehagedyr-eb98"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-tilbehor-320e",
+      "siblings": [
+        "skattejakt-himmelretninger-tilbehor-320e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-aktiviteter-1edf",
+      "siblings": [
+        "skattejakt-himmelretninger-aktiviteter-1edf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-dyr-62ab",
+      "siblings": [
+        "skattejakt-himmelretninger-dyr-62ab"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-rundt-i-huset-4446",
+      "siblings": [
+        "skattejakt-himmelretninger-rundt-i-huset-4446"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-i-supermarkedet-3dd4",
+      "siblings": [
+        "skattejakt-himmelretninger-i-supermarkedet-3dd4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-bakeri-2489",
+      "siblings": [
+        "skattejakt-himmelretninger-bakeri-2489"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-strand-8c5f",
+      "siblings": [
+        "skattejakt-himmelretninger-strand-8c5f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-fugler-b3bf",
+      "siblings": [
+        "skattejakt-himmelretninger-fugler-b3bf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-fugler-2-007f",
+      "siblings": [
+        "skattejakt-himmelretninger-fugler-2-007f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-kroppsdeler-63f9",
+      "siblings": [
+        "skattejakt-himmelretninger-kroppsdeler-63f9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-frokost-aac6",
+      "siblings": [
+        "skattejakt-himmelretninger-frokost-aac6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-camping-2064",
+      "siblings": [
+        "skattejakt-himmelretninger-camping-2064"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-jul-de4e",
+      "siblings": [
+        "skattejakt-himmelretninger-jul-de4e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-klasserom-dc33",
+      "siblings": [
+        "skattejakt-himmelretninger-klasserom-dc33"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-klaer-10dd",
+      "siblings": [
+        "skattejakt-himmelretninger-klaer-10dd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-farger-92c8",
+      "siblings": [
+        "skattejakt-himmelretninger-farger-92c8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-desserter-og-godteri-863f",
+      "siblings": [
+        "skattejakt-himmelretninger-desserter-og-godteri-863f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-dinosaurer-0240",
+      "siblings": [
+        "skattejakt-himmelretninger-dinosaurer-0240"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-paske-ce64",
+      "siblings": [
+        "skattejakt-himmelretninger-paske-ce64"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-folelser-b1f4",
+      "siblings": [
+        "skattejakt-himmelretninger-folelser-b1f4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-gardsdyr-a41d",
+      "siblings": [
+        "skattejakt-himmelretninger-gardsdyr-a41d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-blomster-8ec1",
+      "siblings": [
+        "skattejakt-himmelretninger-blomster-8ec1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-skogsdyr-e4b6",
+      "siblings": [
+        "skattejakt-himmelretninger-skogsdyr-e4b6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-frukter-1143",
+      "siblings": [
+        "skattejakt-himmelretninger-frukter-1143"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-mobler-5ff8",
+      "siblings": [
+        "skattejakt-himmelretninger-mobler-5ff8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-sykehus-80ee",
+      "siblings": [
+        "skattejakt-himmelretninger-sykehus-80ee"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-insekter-og-kryp-95c9",
+      "siblings": [
+        "skattejakt-himmelretninger-insekter-og-kryp-95c9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-kjokkenredskaper-2ffc",
+      "siblings": [
+        "skattejakt-himmelretninger-kjokkenredskaper-2ffc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-musikk-2232",
+      "siblings": [
+        "skattejakt-himmelretninger-musikk-2232"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-yrker-ab12",
+      "siblings": [
+        "skattejakt-himmelretninger-yrker-ab12"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-havliv-7dc3",
+      "siblings": [
+        "skattejakt-himmelretninger-havliv-7dc3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-kjaeledyr-c9ff",
+      "siblings": [
+        "skattejakt-himmelretninger-kjaeledyr-c9ff"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-postkontor-3307",
+      "siblings": [
+        "skattejakt-himmelretninger-postkontor-3307"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-reptiler-og-amfibier-86b6",
+      "siblings": [
+        "skattejakt-himmelretninger-reptiler-og-amfibier-86b6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-former-a95a",
+      "siblings": [
+        "skattejakt-himmelretninger-former-a95a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-verdensrommet-6acd",
+      "siblings": [
+        "skattejakt-himmelretninger-verdensrommet-6acd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-var-9ff2",
+      "siblings": [
+        "skattejakt-himmelretninger-var-9ff2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-sommer-9812",
+      "siblings": [
+        "skattejakt-himmelretninger-sommer-9812"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-thanksgiving-0c96",
+      "siblings": [
+        "skattejakt-himmelretninger-thanksgiving-0c96"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-ting-som-flyr-ad8d",
+      "siblings": [
+        "skattejakt-himmelretninger-ting-som-flyr-ad8d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-verktoy-3f81",
+      "siblings": [
+        "skattejakt-himmelretninger-verktoy-3f81"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-leker-db29",
+      "siblings": [
+        "skattejakt-himmelretninger-leker-db29"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-traer-63db",
+      "siblings": [
+        "skattejakt-himmelretninger-traer-63db"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-gronnsaker-2782",
+      "siblings": [
+        "skattejakt-himmelretninger-gronnsaker-2782"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-kjoretoy-e7e7",
+      "siblings": [
+        "skattejakt-himmelretninger-kjoretoy-e7e7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-vaer-ce6c",
+      "siblings": [
+        "skattejakt-himmelretninger-vaer-ce6c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-vinter-f4ad",
+      "siblings": [
+        "skattejakt-himmelretninger-vinter-f4ad"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    },
+    {
+      "mode": "compass",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "skattejakt-himmelretninger-dyrehagedyr-5200",
+      "siblings": [
+        "skattejakt-himmelretninger-dyrehagedyr-5200"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "1-trinn"
+    }
+  ]
+}

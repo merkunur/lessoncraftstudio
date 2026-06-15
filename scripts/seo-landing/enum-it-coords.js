@@ -57,7 +57,7 @@ var DROP_THEMES = { '4th_of_july': true };
       slugTheme: theme.replace(/_/g, '-'),
       multiTag: (members[0].r.subjectTags || []).length > 1 ? members[0].r.subjectTags : undefined,
       n: members.length,
-      canonical: members[0].r.slug,
+      canonicalDeckSlug: members[0].r.slug, // it gen-it-readiness reads `canonicalDeckSlug` (NOT fr's `canonical`)
       siblings: members.map(function (m) { return m.r.slug; }),
       ageRanges: Array.from(new Set(members.map(function (m) { return m.r.ageRange; }))),
       valid: v.valid,

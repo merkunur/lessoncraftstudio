@@ -85,7 +85,7 @@ function bandFor(type, max) {
 
 const out = [], drops = [], unparseable = [];
 coords.forEach(co => {
-  const decks = (co.siblings && co.siblings.length) ? co.siblings : [co.canonical];
+  const decks = (co.siblings && co.siblings.length) ? co.siblings : [co.canonicalDeckSlug || co.canonical];
   let coMax = 0, gotAny = false;
   decks.forEach(s => { const r = SOURCE === 'deck-html' ? maxNumInDeckHtml(s) : maxNumInManifest(s); if (r !== null) { gotAny = true; if (r > coMax) coMax = r; } });
   if (!gotAny) { unparseable.push((co.mode || '') + '/' + co.theme); return; }

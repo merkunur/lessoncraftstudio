@@ -61,7 +61,6 @@
       "theme": "accessories",
       "slugTheme": "accessories",
       "n": 2,
-      "canonical": "bingo-accessori-7c7f",
       "siblings": [
         "bingo-accessori-7c7f",
         "bingo-accessori-e878"
@@ -71,14 +70,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-accessori-7c7f"
     },
     {
       "mode": null,
       "theme": "activities",
       "slugTheme": "activities",
       "n": 2,
-      "canonical": "bingo-attivita-5bd7",
       "siblings": [
         "bingo-attivita-5bd7",
         "bingo-attivita-35f3"
@@ -88,14 +87,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-attivita-5bd7"
     },
     {
       "mode": null,
       "theme": "animals",
       "slugTheme": "animals",
       "n": 3,
-      "canonical": "bingo-animali",
       "siblings": [
         "bingo-animali",
         "bingo-animali-64b3",
@@ -106,14 +105,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-animali"
     },
     {
       "mode": null,
       "theme": "around_the_house",
       "slugTheme": "around-the-house",
       "n": 2,
-      "canonical": "bingo-in-giro-per-casa-3305",
       "siblings": [
         "bingo-in-giro-per-casa-3305",
         "bingo-in-giro-per-casa-6308"
@@ -123,14 +122,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-in-giro-per-casa-3305"
     },
     {
       "mode": null,
       "theme": "at_the_supermarket",
       "slugTheme": "at-the-supermarket",
       "n": 2,
-      "canonical": "bingo-al-supermercato-f2aa",
       "siblings": [
         "bingo-al-supermercato-f2aa",
         "bingo-al-supermercato-a957"
@@ -140,14 +139,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-al-supermercato-f2aa"
     },
     {
       "mode": null,
       "theme": "bakery",
       "slugTheme": "bakery",
       "n": 2,
-      "canonical": "bingo-panetteria-75c4",
       "siblings": [
         "bingo-panetteria-75c4",
         "bingo-panetteria-f20c"
@@ -157,14 +156,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-panetteria-75c4"
     },
     {
       "mode": null,
       "theme": "beach",
       "slugTheme": "beach",
       "n": 2,
-      "canonical": "bingo-spiaggia-dd1a",
       "siblings": [
         "bingo-spiaggia-dd1a",
         "bingo-spiaggia-1e9a"
@@ -174,14 +173,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-spiaggia-dd1a"
     },
     {
       "mode": null,
       "theme": "birds_2",
       "slugTheme": "birds-2",
       "n": 2,
-      "canonical": "bingo-uccelli-2-0728",
       "siblings": [
         "bingo-uccelli-2-0728",
         "bingo-uccelli-2-89b7"
@@ -191,14 +190,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-uccelli-2-0728"
     },
     {
       "mode": null,
       "theme": "body_parts",
       "slugTheme": "body-parts",
       "n": 1,
-      "canonical": "bingo-parti-del-corpo-c904",
       "siblings": [
         "bingo-parti-del-corpo-c904"
       ],
@@ -207,14 +206,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-parti-del-corpo-c904"
     },
     {
       "mode": null,
       "theme": "breakfast",
       "slugTheme": "breakfast",
       "n": 2,
-      "canonical": "bingo-colazione-0154",
       "siblings": [
         "bingo-colazione-0154",
         "bingo-colazione-127c"
@@ -224,14 +223,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-colazione-0154"
     },
     {
       "mode": null,
       "theme": "camping",
       "slugTheme": "camping",
       "n": 2,
-      "canonical": "bingo-campeggio-77b0",
       "siblings": [
         "bingo-campeggio-77b0",
         "bingo-campeggio-beef"
@@ -241,14 +240,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-campeggio-77b0"
     },
     {
       "mode": null,
       "theme": "christmas",
       "slugTheme": "christmas",
       "n": 2,
-      "canonical": "bingo-natale-9760",
       "siblings": [
         "bingo-natale-9760",
         "bingo-natale-87bf"
@@ -258,14 +257,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-natale-9760"
     },
     {
       "mode": null,
       "theme": "classroom",
       "slugTheme": "classroom",
       "n": 2,
-      "canonical": "bingo-aula-4d5b",
       "siblings": [
         "bingo-aula-4d5b",
         "bingo-aula-e04c"
@@ -275,14 +274,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-aula-4d5b"
     },
     {
       "mode": null,
       "theme": "clothing",
       "slugTheme": "clothing",
       "n": 2,
-      "canonical": "bingo-abbigliamento-8683",
       "siblings": [
         "bingo-abbigliamento-8683",
         "bingo-abbigliamento-20cc"
@@ -292,14 +291,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-abbigliamento-8683"
     },
     {
       "mode": null,
       "theme": "colors",
       "slugTheme": "colors",
       "n": 2,
-      "canonical": "bingo-colori-b21b",
       "siblings": [
         "bingo-colori-b21b",
         "bingo-colori-70b9"
@@ -309,14 +308,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-colori-b21b"
     },
     {
       "mode": null,
       "theme": "desserts_and_sweets",
       "slugTheme": "desserts-and-sweets",
       "n": 2,
-      "canonical": "bingo-dolci-e-dolciumi-2eba",
       "siblings": [
         "bingo-dolci-e-dolciumi-2eba",
         "bingo-dolci-e-dolciumi-1c15"
@@ -326,14 +325,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-dolci-e-dolciumi-2eba"
     },
     {
       "mode": null,
       "theme": "easter",
       "slugTheme": "easter",
       "n": 1,
-      "canonical": "bingo-pasqua-2e37",
       "siblings": [
         "bingo-pasqua-2e37"
       ],
@@ -342,14 +341,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-pasqua-2e37"
     },
     {
       "mode": null,
       "theme": "farm_animals",
       "slugTheme": "farm-animals",
       "n": 2,
-      "canonical": "bingo-animali-della-fattoria-88ce",
       "siblings": [
         "bingo-animali-della-fattoria-88ce",
         "bingo-animali-della-fattoria-ca99"
@@ -359,14 +358,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-animali-della-fattoria-88ce"
     },
     {
       "mode": null,
       "theme": "flowers",
       "slugTheme": "flowers",
       "n": 2,
-      "canonical": "bingo-fiori-07b7",
       "siblings": [
         "bingo-fiori-07b7",
         "bingo-fiori-6db0"
@@ -376,14 +375,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-fiori-07b7"
     },
     {
       "mode": null,
       "theme": "forest_creatures",
       "slugTheme": "forest-creatures",
       "n": 2,
-      "canonical": "bingo-creature-della-foresta-5032",
       "siblings": [
         "bingo-creature-della-foresta-5032",
         "bingo-creature-della-foresta-0e51"
@@ -393,14 +392,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-creature-della-foresta-5032"
     },
     {
       "mode": null,
       "theme": "fruits",
       "slugTheme": "fruits",
       "n": 2,
-      "canonical": "bingo-frutta-85c2",
       "siblings": [
         "bingo-frutta-85c2",
         "bingo-frutta-88a1"
@@ -410,14 +409,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-frutta-85c2"
     },
     {
       "mode": null,
       "theme": "furniture",
       "slugTheme": "furniture",
       "n": 2,
-      "canonical": "bingo-mobili-986e",
       "siblings": [
         "bingo-mobili-986e",
         "bingo-mobili-d1ec"
@@ -427,14 +426,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-mobili-986e"
     },
     {
       "mode": null,
       "theme": "hospital",
       "slugTheme": "hospital",
       "n": 2,
-      "canonical": "bingo-ospedale-cb52",
       "siblings": [
         "bingo-ospedale-cb52",
         "bingo-ospedale-ee3f"
@@ -444,14 +443,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-ospedale-cb52"
     },
     {
       "mode": null,
       "theme": "kitchen_tools",
       "slugTheme": "kitchen-tools",
       "n": 1,
-      "canonical": "bingo-utensili-da-cucina-5356",
       "siblings": [
         "bingo-utensili-da-cucina-5356"
       ],
@@ -460,14 +459,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-utensili-da-cucina-5356"
     },
     {
       "mode": null,
       "theme": "ocean_life",
       "slugTheme": "ocean-life",
       "n": 2,
-      "canonical": "bingo-vita-oceanica-4c5e",
       "siblings": [
         "bingo-vita-oceanica-4c5e",
         "bingo-vita-oceanica-e2b1"
@@ -477,14 +476,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-vita-oceanica-4c5e"
     },
     {
       "mode": null,
       "theme": "pets",
       "slugTheme": "pets",
       "n": 2,
-      "canonical": "bingo-animali-domestici-93bc",
       "siblings": [
         "bingo-animali-domestici-93bc",
         "bingo-animali-domestici-22f0"
@@ -494,14 +493,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-animali-domestici-93bc"
     },
     {
       "mode": null,
       "theme": "shapes",
       "slugTheme": "shapes",
       "n": 2,
-      "canonical": "bingo-forme-607b",
       "siblings": [
         "bingo-forme-607b",
         "bingo-forme-a00a"
@@ -511,14 +510,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-forme-607b"
     },
     {
       "mode": null,
       "theme": "space",
       "slugTheme": "space",
       "n": 2,
-      "canonical": "bingo-spazio-8e2c",
       "siblings": [
         "bingo-spazio-8e2c",
         "bingo-spazio-f73e"
@@ -528,14 +527,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-spazio-8e2c"
     },
     {
       "mode": null,
       "theme": "spring",
       "slugTheme": "spring",
       "n": 1,
-      "canonical": "bingo-primavera-2834",
       "siblings": [
         "bingo-primavera-2834"
       ],
@@ -544,14 +543,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-primavera-2834"
     },
     {
       "mode": null,
       "theme": "summer",
       "slugTheme": "summer",
       "n": 2,
-      "canonical": "bingo-estate-9453",
       "siblings": [
         "bingo-estate-9453",
         "bingo-estate-90b6"
@@ -561,14 +560,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-estate-9453"
     },
     {
       "mode": null,
       "theme": "things_that_fly",
       "slugTheme": "things-that-fly",
       "n": 2,
-      "canonical": "bingo-cose-che-volano-f3d0",
       "siblings": [
         "bingo-cose-che-volano-f3d0",
         "bingo-cose-che-volano-f605"
@@ -578,14 +577,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-cose-che-volano-f3d0"
     },
     {
       "mode": null,
       "theme": "toys",
       "slugTheme": "toys",
       "n": 2,
-      "canonical": "bingo-giocattoli-1622",
       "siblings": [
         "bingo-giocattoli-1622",
         "bingo-giocattoli-ad2d"
@@ -595,14 +594,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-giocattoli-1622"
     },
     {
       "mode": null,
       "theme": "vegetables",
       "slugTheme": "vegetables",
       "n": 2,
-      "canonical": "bingo-verdure-338c",
       "siblings": [
         "bingo-verdure-338c",
         "bingo-verdure-23c9"
@@ -612,14 +611,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-verdure-338c"
     },
     {
       "mode": null,
       "theme": "vehicles",
       "slugTheme": "vehicles",
       "n": 1,
-      "canonical": "bingo-veicoli-c242",
       "siblings": [
         "bingo-veicoli-c242"
       ],
@@ -628,14 +627,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-veicoli-c242"
     },
     {
       "mode": null,
       "theme": "weather",
       "slugTheme": "weather",
       "n": 2,
-      "canonical": "bingo-meteo-0b56",
       "siblings": [
         "bingo-meteo-0b56",
         "bingo-meteo-2964"
@@ -645,14 +644,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-meteo-0b56"
     },
     {
       "mode": null,
       "theme": "winter",
       "slugTheme": "winter",
       "n": 2,
-      "canonical": "bingo-inverno-2d08",
       "siblings": [
         "bingo-inverno-2d08",
         "bingo-inverno-cc1a"
@@ -662,14 +661,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-inverno-2d08"
     },
     {
       "mode": null,
       "theme": "zoo_animals",
       "slugTheme": "zoo-animals",
       "n": 2,
-      "canonical": "bingo-animali-dello-zoo-a068",
       "siblings": [
         "bingo-animali-dello-zoo-a068",
         "bingo-animali-dello-zoo-5aa3"
@@ -679,7 +678,8 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "bingo-animali-dello-zoo-a068"
     }
   ]
 }

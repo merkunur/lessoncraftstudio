@@ -46,7 +46,7 @@ const TYPE_MAP = {
   subtraction: { op: 'Schede di sottrazioni', qual: { 'cross-out': 'da barrare', 'image-number': 'con immagini e numeri', 'find-subtrahend': 'con il numero mancante', mixed: '' } },
   'math-puzzle': { op: 'Schede di puzzle matematici', qual: { addition: 'con le addizioni', subtraction: 'con le sottrazioni', mixed: 'con addizioni e sottrazioni' } },
   'code-addition': { op: 'Schede di addizioni codificate', qual: { 'secret-word': 'con la parola segreta' } },
-  'math-worksheet': { op: 'Schede di calcoli', qual: {} }, // Part 2 (standard-bearing)
+  'math-worksheet': { op: 'Schede di calcoli', qual: { 'two-symbols-add-sub': 'con due immagini', 'three-symbols-add-sub': 'con tre immagini' } }, // Part 2 (standard-bearing)
   'chart-count': { op: 'Conta e completa il diagramma', qual: {} }, // non-arithmetic (no range), K.MD.B.3
   'more-less': { op: 'Di più o di meno', qual: {} },
   'big-small': { op: { findBig: 'Grande o piccolo', orderAsc: 'Ordina dal più piccolo' }, qual: {} },
@@ -70,7 +70,7 @@ const TYPE_MAP = {
   wordsearch: { op: 'Crucipuzzle', qual: {} },
   crossword: { op: 'Cruciverba', qual: {} },
   bingo: { op: 'Tombola illustrata', qual: {} },        // Part 2
-  'treasure-hunt': { op: 'Caccia al tesoro', qual: {} }, // Part 2
+  'treasure-hunt': { op: 'Caccia al tesoro', qual: { 'cardinal-arrows': 'con le frecce', compass: 'con la bussola' } }, // Part 2
 };
 
 const META_FLAVOR = {

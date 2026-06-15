@@ -1,0 +1,1869 @@
+{
+  "locale": "it",
+  "exerciseType": "math-worksheet",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 150,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "three-symbols-add-sub": 48,
+    "two-symbols-add-sub": 49
+  },
+  "totalValid": 97,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "three-symbols-add-sub",
+    "two-symbols-add-sub"
+  ],
+  "collapsedFamilies": 49,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-accessori-fd0a",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-accessori-fd0a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-attivita-d783",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-attivita-d783"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-animali-91b6",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-animali-91b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-in-giro-per-casa-dee5",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-in-giro-per-casa-dee5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 28
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-al-supermercato-64d0",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-al-supermercato-64d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-panetteria-aa3c",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-panetteria-aa3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 37
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-spiaggia-f48a",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-spiaggia-f48a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 32
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-uccelli-89a0",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-uccelli-89a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 34
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-uccelli-2-0e0e",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-uccelli-2-0e0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-parti-del-corpo-af01",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-parti-del-corpo-af01"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 33
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-colazione-d731",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-colazione-d731"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-campeggio-86e7",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-campeggio-86e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-natale-79e6",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-natale-79e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-aula-352f",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-aula-352f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 31
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-abbigliamento-90ff",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-abbigliamento-90ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 37
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-colori-2fe9",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-colori-2fe9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-dolci-e-dolciumi-4cc9",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-dolci-e-dolciumi-4cc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-dinosauri-0535",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-dinosauri-0535"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-pasqua-45d0",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-pasqua-45d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-emozioni-c92b",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-emozioni-c92b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-animali-della-fattoria-efba",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-animali-della-fattoria-efba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-fiori-1dd6",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-fiori-1dd6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-creature-della-foresta-a0d9",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-creature-della-foresta-a0d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 28
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-frutta-7a63",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-frutta-7a63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-mobili-fbb4",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-mobili-fbb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-ospedale-0295",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-ospedale-0295"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-insetti-e-scarafaggi-9cd9",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-insetti-e-scarafaggi-9cd9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-utensili-da-cucina-edbb",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-utensili-da-cucina-edbb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-musica-adfd",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-musica-adfd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-professioni-78eb",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-professioni-78eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-vita-oceanica-ca14",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-vita-oceanica-ca14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-animali-domestici-15ed",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-animali-domestici-15ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-ufficio-postale-3f47",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-ufficio-postale-3f47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-rettili-e-anfibi-a676",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-rettili-e-anfibi-a676"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 36
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-forme-43ff",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-forme-43ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-spazio-dd0d",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-spazio-dd0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-primavera-c2ca",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-primavera-c2ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 36
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-estate-b9e0",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-estate-b9e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-giorno-del-ringraziamento-cd7d",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-giorno-del-ringraziamento-cd7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-cose-che-volano-0f22",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-cose-che-volano-0f22"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-attrezzi-5b0d",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-attrezzi-5b0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-giocattoli-24a2",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-giocattoli-24a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-alberi-7c38",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-alberi-7c38"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 29
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-verdure-c79a",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-verdure-c79a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 31
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-veicoli-ac94",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-veicoli-ac94"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-meteo-1450",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-meteo-1450"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-inverno-6ca4",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-inverno-6ca4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-seconda",
+      "standard": "2.NBT.B.5",
+      "_max": 34
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "scheda-di-matematica-3-simboli-add-sott-animali-dello-zoo-2c46",
+      "siblings": [
+        "scheda-di-matematica-3-simboli-add-sott-animali-dello-zoo-2c46"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-accessori-09a6",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-accessori-09a6",
+        "scheda-di-matematica-2-simboli-add-sott-accessori-1e0c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-attivita-7c24",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-attivita-7c24",
+        "scheda-di-matematica-2-simboli-add-sott-attivita-9f82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-animali-38b9",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-animali-38b9",
+        "scheda-di-matematica-2-simboli-add-sott-animali-1513"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-in-giro-per-casa-6f4f",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-in-giro-per-casa-6f4f",
+        "scheda-di-matematica-2-simboli-add-sott-in-giro-per-casa-54cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-al-supermercato-9908",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-al-supermercato-9908",
+        "scheda-di-matematica-2-simboli-add-sott-al-supermercato-7355"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-panetteria-fde9",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-panetteria-fde9",
+        "scheda-di-matematica-2-simboli-add-sott-panetteria-6aa5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-spiaggia-afdf",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-spiaggia-afdf",
+        "scheda-di-matematica-2-simboli-add-sott-spiaggia-b734"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-uccelli-8ae7",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-uccelli-8ae7",
+        "scheda-di-matematica-2-simboli-add-sott-uccelli-21be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-uccelli-2-f2fa",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-uccelli-2-f2fa",
+        "scheda-di-matematica-2-simboli-add-sott-uccelli-2-11c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-parti-del-corpo-2fbb",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-parti-del-corpo-2fbb",
+        "scheda-di-matematica-2-simboli-add-sott-parti-del-corpo-55bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-colazione-a97b",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-colazione-a97b",
+        "scheda-di-matematica-2-simboli-add-sott-colazione-a6b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-campeggio-1508",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-campeggio-1508",
+        "scheda-di-matematica-2-simboli-add-sott-campeggio-daa0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-natale-ce9d",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-natale-ce9d",
+        "scheda-di-matematica-2-simboli-add-sott-natale-8884"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-aula-4456",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-aula-4456",
+        "scheda-di-matematica-2-simboli-add-sott-aula-0697"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-abbigliamento-6555",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-abbigliamento-6555",
+        "scheda-di-matematica-2-simboli-add-sott-abbigliamento-3605"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-colori-ec08",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-colori-ec08",
+        "scheda-di-matematica-2-simboli-add-sott-colori-96f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-dolci-e-dolciumi-d27c",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-dolci-e-dolciumi-d27c",
+        "scheda-di-matematica-2-simboli-add-sott-dolci-e-dolciumi-328a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-dinosauri-bff8",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-dinosauri-bff8",
+        "scheda-di-matematica-2-simboli-add-sott-dinosauri-77f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-pasqua-6e83",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-pasqua-6e83",
+        "scheda-di-matematica-2-simboli-add-sott-pasqua-6043"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-emozioni-9779",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-emozioni-9779",
+        "scheda-di-matematica-2-simboli-add-sott-emozioni-2c1a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-animali-della-fattoria-9e98",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-animali-della-fattoria-9e98",
+        "scheda-di-matematica-2-simboli-add-sott-animali-della-fattoria-cc80"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-fiori-6391",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-fiori-6391",
+        "scheda-di-matematica-2-simboli-add-sott-fiori-9fd8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-creature-della-foresta-725c",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-creature-della-foresta-725c",
+        "scheda-di-matematica-2-simboli-add-sott-creature-della-foresta-975d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-frutta-3297",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-frutta-3297",
+        "scheda-di-matematica-2-simboli-add-sott-frutta-ac58"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-mobili-9d67",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-mobili-9d67",
+        "scheda-di-matematica-2-simboli-add-sott-mobili-53ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-ospedale-705c",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-ospedale-705c",
+        "scheda-di-matematica-2-simboli-add-sott-ospedale-10a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-insetti-e-scarafaggi-86cb",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-insetti-e-scarafaggi-86cb",
+        "scheda-di-matematica-2-simboli-add-sott-insetti-e-scarafaggi-edd8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-utensili-da-cucina-05e4",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-utensili-da-cucina-05e4",
+        "scheda-di-matematica-2-simboli-add-sott-utensili-da-cucina-788e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-varie-89f4",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-varie-89f4",
+        "scheda-di-matematica-2-simboli-add-sott-varie-946b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-musica-2392",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-musica-2392",
+        "scheda-di-matematica-2-simboli-add-sott-musica-6f03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-professioni-735a",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-professioni-735a",
+        "scheda-di-matematica-2-simboli-add-sott-professioni-3934"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-vita-oceanica-50cc",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-vita-oceanica-50cc",
+        "scheda-di-matematica-2-simboli-add-sott-vita-oceanica-81e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-animali-domestici-7d0f",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-animali-domestici-7d0f",
+        "scheda-di-matematica-2-simboli-add-sott-animali-domestici-ba75"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-ufficio-postale-2490",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-ufficio-postale-2490",
+        "scheda-di-matematica-2-simboli-add-sott-ufficio-postale-5f45"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-rettili-e-anfibi-20b2",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-rettili-e-anfibi-20b2",
+        "scheda-di-matematica-2-simboli-add-sott-rettili-e-anfibi-f3db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-forme-a143",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-forme-a143",
+        "scheda-di-matematica-2-simboli-add-sott-forme-d6ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-spazio-baed",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-spazio-baed",
+        "scheda-di-matematica-2-simboli-add-sott-spazio-7dec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-primavera-edcc",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-primavera-edcc",
+        "scheda-di-matematica-2-simboli-add-sott-primavera-cd0c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-estate-a35c",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-estate-a35c",
+        "scheda-di-matematica-2-simboli-add-sott-estate-d2d4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-giorno-del-ringraziamento-a4ea",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-giorno-del-ringraziamento-a4ea",
+        "scheda-di-matematica-2-simboli-add-sott-giorno-del-ringraziamento-0860"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-cose-che-volano-0fa4",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-cose-che-volano-0fa4",
+        "scheda-di-matematica-2-simboli-add-sott-cose-che-volano-31be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-attrezzi-0b2d",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-attrezzi-0b2d",
+        "scheda-di-matematica-2-simboli-add-sott-attrezzi-bfa9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-giocattoli-f8df",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-giocattoli-f8df",
+        "scheda-di-matematica-2-simboli-add-sott-giocattoli-5b33"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-alberi-8c9a",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-alberi-8c9a",
+        "scheda-di-matematica-2-simboli-add-sott-alberi-3165"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-verdure-3bf7",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-verdure-3bf7",
+        "scheda-di-matematica-2-simboli-add-sott-verdure-c28f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-veicoli-5975",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-veicoli-5975",
+        "scheda-di-matematica-2-simboli-add-sott-veicoli-4155"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-meteo-51e0",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-meteo-51e0",
+        "scheda-di-matematica-2-simboli-add-sott-meteo-1ce3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-inverno-8a7c",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-inverno-8a7c",
+        "scheda-di-matematica-2-simboli-add-sott-inverno-9f05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonical": "scheda-di-matematica-2-simboli-add-sott-animali-dello-zoo-350d",
+      "siblings": [
+        "scheda-di-matematica-2-simboli-add-sott-animali-dello-zoo-350d",
+        "scheda-di-matematica-2-simboli-add-sott-animali-dello-zoo-fb4d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "classe-prima",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    }
+  ]
+}

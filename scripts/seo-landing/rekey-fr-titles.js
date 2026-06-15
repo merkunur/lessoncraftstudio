@@ -64,7 +64,7 @@ const TYPE_MAP = {
   'pattern-worksheet': { op: 'Suites logiques', qual: {} },
   'picture-path':  { op: 'Labyrinthe', qual: { 'choose-path': 'choisis le bon chemin', 'classic-maze': 'labyrinthe classique' } },
   'picture-trail': { op: 'Labyrinthe', qual: {} },
-  'picture-sort':  { op: 'Trier les images', qual: {} },
+  'picture-sort':  { op: 'Tri des images', qual: {} }, // Wave E operator SPLIT: title head = noun "Tri des images" (search demand); H1/body keep "Trier les images" (gen config)
   'alphabet-train':{ op: 'Ordre alphabétique', qual: {} },
   matching:        { op: { letter: 'Le son initial', name: 'Lire le mot' }, qual: {} },
   prepositions:    { op: 'Les positions', qual: { fillin: 'à compléter', multiplechoice: 'à cocher' } },

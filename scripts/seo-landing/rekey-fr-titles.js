@@ -46,8 +46,8 @@ const NO_CARRY_EXCLUDED_TYPES = new Set(['math-puzzle', 'math-worksheet']);
 const TYPE_MAP = {
   addition:        { op: "Fiches d'addition", qual: { 'image-image': 'avec images', 'image-number': 'avec images et nombres', 'find-addend': 'à trou', mixed: '' } },
   subtraction:     { op: 'Fiches de soustraction', qual: { 'cross-out': 'à barrer', 'image-number': 'avec images et nombres', 'find-subtrahend': 'à trou', mixed: '' } },
-  'math-puzzle':   { op: 'Fiches de calcul', qual: {} },
-  'math-worksheet':{ op: 'Fiches de mathématiques', qual: {} },
+  'math-puzzle':   { op: 'Calcul mystère', qual: {} }, // Wave C operator (reveal mechanic; frees the "calcul" lane)
+  'math-worksheet':{ op: 'Fiches de calcul', qual: {} }, // Wave C operator (inherits the freed lane)
   'code-addition': { op: { 'null': 'Additions codées', 'secret-word': 'Mot secret en code' }, qual: {} },
   'chart-count':   { op: 'Graphiques', qual: {} }, // operator-chosen (Graphique en barres)
   'more-less':     { op: 'Comparer les quantités', qual: { 'check-cross': 'à cocher', 'image-image': 'avec images', 'image-number': 'avec images et nombres' } }, // title head (Wave B operator); H1 keeps "Plus ou moins"

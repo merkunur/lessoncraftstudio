@@ -1,0 +1,520 @@
+{
+  "locale": "fr",
+  "exerciseType": "alphabet-train",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 32,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "letter-hint": 2,
+    "(null)": 29
+  },
+  "totalValid": 31,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "classroom",
+    "clothing",
+    "colors",
+    "forest_creatures",
+    "hospital",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "space",
+    "spring",
+    "summer",
+    "things_that_fly",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "letter-hint",
+    null
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "letter-hint",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-indice-de-lettre-activites-9f0a",
+      "siblings": [
+        "train-de-l-alphabet-indice-de-lettre-activites-9f0a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-indice-de-lettre-jouets-383d",
+      "siblings": [
+        "train-de-l-alphabet-indice-de-lettre-jouets-383d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-accessoires-d5f2",
+      "siblings": [
+        "train-de-l-alphabet-accessoires-d5f2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-activites-0ae5",
+      "siblings": [
+        "train-de-l-alphabet-activites-0ae5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "train-de-l-alphabet-animaux",
+      "siblings": [
+        "train-de-l-alphabet-animaux",
+        "train-de-l-alphabet-animaux-00fc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-autour-de-la-maison-438d",
+      "siblings": [
+        "train-de-l-alphabet-autour-de-la-maison-438d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-au-supermarche-b267",
+      "siblings": [
+        "train-de-l-alphabet-au-supermarche-b267"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-plage-9522",
+      "siblings": [
+        "train-de-l-alphabet-plage-9522"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-oiseaux-2-55d7",
+      "siblings": [
+        "train-de-l-alphabet-oiseaux-2-55d7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-parties-du-corps-1c76",
+      "siblings": [
+        "train-de-l-alphabet-parties-du-corps-1c76"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-petit-dejeuner-8c41",
+      "siblings": [
+        "train-de-l-alphabet-petit-dejeuner-8c41"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-camping-1c25",
+      "siblings": [
+        "train-de-l-alphabet-camping-1c25"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-salle-de-classe-f0d7",
+      "siblings": [
+        "train-de-l-alphabet-salle-de-classe-f0d7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-vetements-fdb0",
+      "siblings": [
+        "train-de-l-alphabet-vetements-fdb0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-couleurs-df0e",
+      "siblings": [
+        "train-de-l-alphabet-couleurs-df0e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-creatures-de-la-foret-a59a",
+      "siblings": [
+        "train-de-l-alphabet-creatures-de-la-foret-a59a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-hopital-9db3",
+      "siblings": [
+        "train-de-l-alphabet-hopital-9db3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-ustensiles-de-cuisine-6fb2",
+      "siblings": [
+        "train-de-l-alphabet-ustensiles-de-cuisine-6fb2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-musique-5988",
+      "siblings": [
+        "train-de-l-alphabet-musique-5988"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-metiers-36ef",
+      "siblings": [
+        "train-de-l-alphabet-metiers-36ef"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-vie-oceanique-9f22",
+      "siblings": [
+        "train-de-l-alphabet-vie-oceanique-9f22"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-espace-3ac1",
+      "siblings": [
+        "train-de-l-alphabet-espace-3ac1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-printemps-0e9d",
+      "siblings": [
+        "train-de-l-alphabet-printemps-0e9d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-ete-38b4",
+      "siblings": [
+        "train-de-l-alphabet-ete-38b4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-choses-qui-volent-ca12",
+      "siblings": [
+        "train-de-l-alphabet-choses-qui-volent-ca12"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-jouets-c0be",
+      "siblings": [
+        "train-de-l-alphabet-jouets-c0be"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-legumes-5215",
+      "siblings": [
+        "train-de-l-alphabet-legumes-5215"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-vehicules-84d5",
+      "siblings": [
+        "train-de-l-alphabet-vehicules-84d5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-meteo-0fda",
+      "siblings": [
+        "train-de-l-alphabet-meteo-0fda"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-hiver-eea9",
+      "siblings": [
+        "train-de-l-alphabet-hiver-eea9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "train-de-l-alphabet-animaux-du-zoo-ef2f",
+      "siblings": [
+        "train-de-l-alphabet-animaux-du-zoo-ef2f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

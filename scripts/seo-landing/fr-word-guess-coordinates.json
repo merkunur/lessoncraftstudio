@@ -1,0 +1,1484 @@
+{
+  "locale": "fr",
+  "exerciseType": "word-guess",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 96,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 46,
+    "normal": 47,
+    "(null)": 1
+  },
+  "totalValid": 94,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "normal",
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-accessoires-8201",
+      "siblings": [
+        "devine-le-mot-facile-accessoires-8201"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-activites-bff9",
+      "siblings": [
+        "devine-le-mot-facile-activites-bff9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-animaux-3363",
+      "siblings": [
+        "devine-le-mot-facile-animaux-3363"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-autour-de-la-maison-3097",
+      "siblings": [
+        "devine-le-mot-facile-autour-de-la-maison-3097"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-au-supermarche-628e",
+      "siblings": [
+        "devine-le-mot-facile-au-supermarche-628e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-boulangerie-762f",
+      "siblings": [
+        "devine-le-mot-facile-boulangerie-762f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-plage-a5b5",
+      "siblings": [
+        "devine-le-mot-facile-plage-a5b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-oiseaux-68ba",
+      "siblings": [
+        "devine-le-mot-facile-oiseaux-68ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-oiseaux-2-8a3b",
+      "siblings": [
+        "devine-le-mot-facile-oiseaux-2-8a3b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-parties-du-corps-aa54",
+      "siblings": [
+        "devine-le-mot-facile-parties-du-corps-aa54"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-petit-dejeuner-b148",
+      "siblings": [
+        "devine-le-mot-facile-petit-dejeuner-b148"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-camping-8d00",
+      "siblings": [
+        "devine-le-mot-facile-camping-8d00"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-noel-e511",
+      "siblings": [
+        "devine-le-mot-facile-noel-e511"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-salle-de-classe-558e",
+      "siblings": [
+        "devine-le-mot-facile-salle-de-classe-558e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-vetements-9a94",
+      "siblings": [
+        "devine-le-mot-facile-vetements-9a94"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-couleurs-13e7",
+      "siblings": [
+        "devine-le-mot-facile-couleurs-13e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-desserts-et-sucreries-bd32",
+      "siblings": [
+        "devine-le-mot-facile-desserts-et-sucreries-bd32"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-paques-6563",
+      "siblings": [
+        "devine-le-mot-facile-paques-6563"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-emotions-7097",
+      "siblings": [
+        "devine-le-mot-facile-emotions-7097"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-animaux-de-la-ferme-92e8",
+      "siblings": [
+        "devine-le-mot-facile-animaux-de-la-ferme-92e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-fleurs-f290",
+      "siblings": [
+        "devine-le-mot-facile-fleurs-f290"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-creatures-de-la-foret-cc23",
+      "siblings": [
+        "devine-le-mot-facile-creatures-de-la-foret-cc23"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-fruits-04ba",
+      "siblings": [
+        "devine-le-mot-facile-fruits-04ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-meubles-fa1b",
+      "siblings": [
+        "devine-le-mot-facile-meubles-fa1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-hopital-79c7",
+      "siblings": [
+        "devine-le-mot-facile-hopital-79c7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-insectes-et-bestioles-b5d1",
+      "siblings": [
+        "devine-le-mot-facile-insectes-et-bestioles-b5d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-ustensiles-de-cuisine-8b20",
+      "siblings": [
+        "devine-le-mot-facile-ustensiles-de-cuisine-8b20"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-musique-5c95",
+      "siblings": [
+        "devine-le-mot-facile-musique-5c95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-metiers-b58b",
+      "siblings": [
+        "devine-le-mot-facile-metiers-b58b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-vie-oceanique-85b0",
+      "siblings": [
+        "devine-le-mot-facile-vie-oceanique-85b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-animaux-de-compagnie-f55c",
+      "siblings": [
+        "devine-le-mot-facile-animaux-de-compagnie-f55c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-reptiles-et-amphibiens-63d5",
+      "siblings": [
+        "devine-le-mot-facile-reptiles-et-amphibiens-63d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-formes-b4f6",
+      "siblings": [
+        "devine-le-mot-facile-formes-b4f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-espace-40b1",
+      "siblings": [
+        "devine-le-mot-facile-espace-40b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-printemps-37fe",
+      "siblings": [
+        "devine-le-mot-facile-printemps-37fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-ete-8b1d",
+      "siblings": [
+        "devine-le-mot-facile-ete-8b1d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-action-de-grace-67f1",
+      "siblings": [
+        "devine-le-mot-facile-action-de-grace-67f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-choses-qui-volent-5aae",
+      "siblings": [
+        "devine-le-mot-facile-choses-qui-volent-5aae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-outils-dbd0",
+      "siblings": [
+        "devine-le-mot-facile-outils-dbd0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-jouets-db1f",
+      "siblings": [
+        "devine-le-mot-facile-jouets-db1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-arbres-f67b",
+      "siblings": [
+        "devine-le-mot-facile-arbres-f67b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-legumes-c448",
+      "siblings": [
+        "devine-le-mot-facile-legumes-c448"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-vehicules-1dec",
+      "siblings": [
+        "devine-le-mot-facile-vehicules-1dec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-meteo-3822",
+      "siblings": [
+        "devine-le-mot-facile-meteo-3822"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-hiver-12ce",
+      "siblings": [
+        "devine-le-mot-facile-hiver-12ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "devine-le-mot-facile-animaux-du-zoo-c378",
+      "siblings": [
+        "devine-le-mot-facile-animaux-du-zoo-c378"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-accessoires-ee25",
+      "siblings": [
+        "devine-le-mot-normal-accessoires-ee25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-activites-a263",
+      "siblings": [
+        "devine-le-mot-normal-activites-a263"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-animaux-5498",
+      "siblings": [
+        "devine-le-mot-normal-animaux-5498"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-autour-de-la-maison-ba4e",
+      "siblings": [
+        "devine-le-mot-normal-autour-de-la-maison-ba4e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-au-supermarche-b6ec",
+      "siblings": [
+        "devine-le-mot-normal-au-supermarche-b6ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-boulangerie-9798",
+      "siblings": [
+        "devine-le-mot-normal-boulangerie-9798"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-plage-b95b",
+      "siblings": [
+        "devine-le-mot-normal-plage-b95b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-oiseaux-6656",
+      "siblings": [
+        "devine-le-mot-normal-oiseaux-6656"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-oiseaux-2-c33f",
+      "siblings": [
+        "devine-le-mot-normal-oiseaux-2-c33f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-parties-du-corps-99ec",
+      "siblings": [
+        "devine-le-mot-normal-parties-du-corps-99ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-petit-dejeuner-d40e",
+      "siblings": [
+        "devine-le-mot-normal-petit-dejeuner-d40e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-camping-caf5",
+      "siblings": [
+        "devine-le-mot-normal-camping-caf5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-noel-5e8a",
+      "siblings": [
+        "devine-le-mot-normal-noel-5e8a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-salle-de-classe-23ee",
+      "siblings": [
+        "devine-le-mot-normal-salle-de-classe-23ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-vetements-e0ea",
+      "siblings": [
+        "devine-le-mot-normal-vetements-e0ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-couleurs-87bb",
+      "siblings": [
+        "devine-le-mot-normal-couleurs-87bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-desserts-et-sucreries-5813",
+      "siblings": [
+        "devine-le-mot-normal-desserts-et-sucreries-5813"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-paques-ae90",
+      "siblings": [
+        "devine-le-mot-normal-paques-ae90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-emotions-a296",
+      "siblings": [
+        "devine-le-mot-normal-emotions-a296"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-animaux-de-la-ferme-3838",
+      "siblings": [
+        "devine-le-mot-normal-animaux-de-la-ferme-3838"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-fleurs-79c2",
+      "siblings": [
+        "devine-le-mot-normal-fleurs-79c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-creatures-de-la-foret-bd6a",
+      "siblings": [
+        "devine-le-mot-normal-creatures-de-la-foret-bd6a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-fruits-812d",
+      "siblings": [
+        "devine-le-mot-normal-fruits-812d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-meubles-9808",
+      "siblings": [
+        "devine-le-mot-normal-meubles-9808"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-hopital-6bcc",
+      "siblings": [
+        "devine-le-mot-normal-hopital-6bcc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-insectes-et-bestioles-5d6c",
+      "siblings": [
+        "devine-le-mot-normal-insectes-et-bestioles-5d6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-ustensiles-de-cuisine-c106",
+      "siblings": [
+        "devine-le-mot-normal-ustensiles-de-cuisine-c106"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-musique-ae30",
+      "siblings": [
+        "devine-le-mot-normal-musique-ae30"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-metiers-b828",
+      "siblings": [
+        "devine-le-mot-normal-metiers-b828"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-vie-oceanique-e917",
+      "siblings": [
+        "devine-le-mot-normal-vie-oceanique-e917"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-animaux-de-compagnie-3b40",
+      "siblings": [
+        "devine-le-mot-normal-animaux-de-compagnie-3b40"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-bureau-de-poste-f925",
+      "siblings": [
+        "devine-le-mot-normal-bureau-de-poste-f925"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-reptiles-et-amphibiens-4c49",
+      "siblings": [
+        "devine-le-mot-normal-reptiles-et-amphibiens-4c49"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-formes-f719",
+      "siblings": [
+        "devine-le-mot-normal-formes-f719"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-espace-695d",
+      "siblings": [
+        "devine-le-mot-normal-espace-695d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-printemps-52c0",
+      "siblings": [
+        "devine-le-mot-normal-printemps-52c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-ete-54f2",
+      "siblings": [
+        "devine-le-mot-normal-ete-54f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-action-de-grace-0893",
+      "siblings": [
+        "devine-le-mot-normal-action-de-grace-0893"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-choses-qui-volent-398a",
+      "siblings": [
+        "devine-le-mot-normal-choses-qui-volent-398a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-outils-ef28",
+      "siblings": [
+        "devine-le-mot-normal-outils-ef28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-jouets-f9c4",
+      "siblings": [
+        "devine-le-mot-normal-jouets-f9c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-arbres-bdac",
+      "siblings": [
+        "devine-le-mot-normal-arbres-bdac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-legumes-0db1",
+      "siblings": [
+        "devine-le-mot-normal-legumes-0db1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-vehicules-d115",
+      "siblings": [
+        "devine-le-mot-normal-vehicules-d115"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-meteo-bcc9",
+      "siblings": [
+        "devine-le-mot-normal-meteo-bcc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-hiver-fc27",
+      "siblings": [
+        "devine-le-mot-normal-hiver-fc27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "devine-le-mot-normal-animaux-du-zoo-f2bc",
+      "siblings": [
+        "devine-le-mot-normal-animaux-du-zoo-f2bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "devine-le-mot-animaux",
+      "siblings": [
+        "devine-le-mot-animaux"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

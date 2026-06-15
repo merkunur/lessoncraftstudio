@@ -57,7 +57,7 @@ const TYPE_MAP = {
   'missing-pieces':{ op: 'Pièce manquante', qual: { 'one-missing': 'une pièce manque', 'two-missing': 'deux pièces manquent' } },
   'shadow-match':  { op: { 'find-shadow': 'Les ombres', 'make-whole': "Compléter l'image" }, qual: {} },
   sudoku:          { op: 'Sudoku des images', qual: { easy: 'facile', medium: 'moyen' } },
-  'find-objects':  { op: { 'i-spy': 'Cherche et trouve', 'find-odd': 'Trouve la différence' }, qual: {} },
+  'find-objects':  { op: { 'i-spy': 'Cherche et trouve', 'find-odd': 'Trouve les différences' }, qual: {} },
   'odd-one-out':   { op: "L'intrus", qual: {} },
   bingo:           { op: 'Loto des images', qual: {} },
   'pattern-train': { op: { 'null': 'Algorithme AB', aab: 'Algorithme AAB', abb: 'Algorithme ABB', aabb: 'Algorithme AABB', abc: 'Algorithme ABC' }, qual: {} },

@@ -1,0 +1,1544 @@
+{
+  "locale": "fr",
+  "exerciseType": "missing-pieces",
+  "level": "maternelle",
+  "rawRowCount": 95,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "one-missing": 46,
+    "two-missing": 46
+  },
+  "totalValid": 92,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "one-missing",
+    "two-missing"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "one-missing",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-accessoires-0f13",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-accessoires-0f13"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-activites-0020",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-activites-0020"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "pieces-manquantes-1-piece-manquante-animaux",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-animaux",
+        "pieces-manquantes-1-piece-manquante-animaux-30b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-autour-de-la-maison-bfc0",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-autour-de-la-maison-bfc0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-au-supermarche-d832",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-au-supermarche-d832"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-boulangerie-612b",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-boulangerie-612b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-plage-ac2f",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-plage-ac2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-oiseaux-233f",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-oiseaux-233f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-oiseaux-2-5dc4",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-oiseaux-2-5dc4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-parties-du-corps-8a1f",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-parties-du-corps-8a1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-petit-dejeuner-ee06",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-petit-dejeuner-ee06"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-camping-0bc5",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-camping-0bc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-noel-4c30",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-noel-4c30"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-salle-de-classe-aa3f",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-salle-de-classe-aa3f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-vetements-d5d7",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-vetements-d5d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-desserts-et-sucreries-9198",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-desserts-et-sucreries-9198"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-dinosaures-0397",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-dinosaures-0397"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-paques-36b2",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-paques-36b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-emotions-4abb",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-emotions-4abb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-animaux-de-la-ferme-8132",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-animaux-de-la-ferme-8132"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-fleurs-da6c",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-fleurs-da6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-creatures-de-la-foret-5806",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-creatures-de-la-foret-5806"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-fruits-8718",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-fruits-8718"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-meubles-8b46",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-meubles-8b46"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-hopital-bb74",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-hopital-bb74"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-insectes-et-bestioles-9a7f",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-insectes-et-bestioles-9a7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-ustensiles-de-cuisine-347a",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-ustensiles-de-cuisine-347a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-musique-0de0",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-musique-0de0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-metiers-1865",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-metiers-1865"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-vie-oceanique-b55f",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-vie-oceanique-b55f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-animaux-de-compagnie-48c7",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-animaux-de-compagnie-48c7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-bureau-de-poste-4d38",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-bureau-de-poste-4d38"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-reptiles-et-amphibiens-28cb",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-reptiles-et-amphibiens-28cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-espace-19fd",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-espace-19fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-printemps-e9ee",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-printemps-e9ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-ete-0219",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-ete-0219"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-action-de-grace-cd45",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-action-de-grace-cd45"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-choses-qui-volent-b0fa",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-choses-qui-volent-b0fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-outils-6880",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-outils-6880"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-jouets-906e",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-jouets-906e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-arbres-4216",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-arbres-4216"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-legumes-710d",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-legumes-710d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-vehicules-8a70",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-vehicules-8a70"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-meteo-d189",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-meteo-d189"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-hiver-46d5",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-hiver-46d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "pieces-manquantes-1-piece-manquante-animaux-du-zoo-e6d3",
+      "siblings": [
+        "pieces-manquantes-1-piece-manquante-animaux-du-zoo-e6d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-accessoires-15ee",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-accessoires-15ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-activites-3ec0",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-activites-3ec0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-animaux-31db",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-animaux-31db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-autour-de-la-maison-979d",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-autour-de-la-maison-979d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-au-supermarche-89d0",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-au-supermarche-89d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-boulangerie-725c",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-boulangerie-725c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-plage-348d",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-plage-348d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-oiseaux-f4b9",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-oiseaux-f4b9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-oiseaux-2-a889",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-oiseaux-2-a889"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-parties-du-corps-f8d9",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-parties-du-corps-f8d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-petit-dejeuner-491f",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-petit-dejeuner-491f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-camping-8dd5",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-camping-8dd5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-noel-85de",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-noel-85de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-salle-de-classe-187a",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-salle-de-classe-187a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-vetements-8fda",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-vetements-8fda"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-desserts-et-sucreries-200f",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-desserts-et-sucreries-200f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-dinosaures-a4d9",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-dinosaures-a4d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-paques-a28a",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-paques-a28a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-emotions-c903",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-emotions-c903"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-animaux-de-la-ferme-25a3",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-animaux-de-la-ferme-25a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-fleurs-5e55",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-fleurs-5e55"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-creatures-de-la-foret-cc9b",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-creatures-de-la-foret-cc9b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-fruits-9fb2",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-fruits-9fb2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-meubles-54ba",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-meubles-54ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-hopital-49ab",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-hopital-49ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-insectes-et-bestioles-fddf",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-insectes-et-bestioles-fddf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-ustensiles-de-cuisine-2b14",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-ustensiles-de-cuisine-2b14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-musique-f553",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-musique-f553"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-metiers-20a4",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-metiers-20a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-vie-oceanique-7b02",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-vie-oceanique-7b02"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-animaux-de-compagnie-e63e",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-animaux-de-compagnie-e63e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-bureau-de-poste-16bf",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-bureau-de-poste-16bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-reptiles-et-amphibiens-dd2f",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-reptiles-et-amphibiens-dd2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-espace-6bef",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-espace-6bef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-printemps-2829",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-printemps-2829"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-ete-3c27",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-ete-3c27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-action-de-grace-5ba2",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-action-de-grace-5ba2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-choses-qui-volent-0e2f",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-choses-qui-volent-0e2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-outils-8834",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-outils-8834"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-jouets-d7af",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-jouets-d7af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-arbres-5c54",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-arbres-5c54"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-legumes-6218",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-legumes-6218"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-vehicules-7b95",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-vehicules-7b95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-meteo-92ad",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-meteo-92ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-hiver-5a6b",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-hiver-5a6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "pieces-manquantes-2-pieces-manquantes-animaux-du-zoo-2e95",
+      "siblings": [
+        "pieces-manquantes-2-pieces-manquantes-animaux-du-zoo-2e95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    }
+  ]
+}

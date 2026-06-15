@@ -1,0 +1,688 @@
+{
+  "locale": "fr",
+  "exerciseType": "bingo",
+  "level": "maternelle",
+  "rawRowCount": 73,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 37
+  },
+  "totalValid": 37,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "farm_animals",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "kitchen_tools",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "things_that_fly",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 35,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonical": "loto-accessoires-36f8",
+      "siblings": [
+        "loto-accessoires-36f8",
+        "loto-accessoires-6c10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 2,
+      "canonical": "loto-activites-38d5",
+      "siblings": [
+        "loto-activites-38d5",
+        "loto-activites-b829"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 3,
+      "canonical": "loto-animaux",
+      "siblings": [
+        "loto-animaux",
+        "loto-animaux-9f17",
+        "loto-animaux-68b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonical": "loto-autour-de-la-maison-ac7a",
+      "siblings": [
+        "loto-autour-de-la-maison-ac7a",
+        "loto-autour-de-la-maison-e9ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonical": "loto-au-supermarche-c8ef",
+      "siblings": [
+        "loto-au-supermarche-c8ef",
+        "loto-au-supermarche-4659"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonical": "loto-boulangerie-1ef2",
+      "siblings": [
+        "loto-boulangerie-1ef2",
+        "loto-boulangerie-f318"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonical": "loto-plage-26c4",
+      "siblings": [
+        "loto-plage-26c4",
+        "loto-plage-dec8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonical": "loto-oiseaux-2-e493",
+      "siblings": [
+        "loto-oiseaux-2-e493",
+        "loto-oiseaux-2-d79b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonical": "loto-parties-du-corps-839a",
+      "siblings": [
+        "loto-parties-du-corps-839a",
+        "loto-parties-du-corps-bfbf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonical": "loto-petit-dejeuner-59aa",
+      "siblings": [
+        "loto-petit-dejeuner-59aa",
+        "loto-petit-dejeuner-0fa6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonical": "loto-camping-6a93",
+      "siblings": [
+        "loto-camping-6a93",
+        "loto-camping-d63e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonical": "loto-noel-486b",
+      "siblings": [
+        "loto-noel-486b",
+        "loto-noel-16ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonical": "loto-salle-de-classe-95b4",
+      "siblings": [
+        "loto-salle-de-classe-95b4",
+        "loto-salle-de-classe-34b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonical": "loto-vetements-dca1",
+      "siblings": [
+        "loto-vetements-dca1",
+        "loto-vetements-c542"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 2,
+      "canonical": "loto-couleurs-443a",
+      "siblings": [
+        "loto-couleurs-443a",
+        "loto-couleurs-2565"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonical": "loto-desserts-et-sucreries-8746",
+      "siblings": [
+        "loto-desserts-et-sucreries-8746",
+        "loto-desserts-et-sucreries-f669"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonical": "loto-paques-fb42",
+      "siblings": [
+        "loto-paques-fb42",
+        "loto-paques-e202"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonical": "loto-animaux-de-la-ferme-e42b",
+      "siblings": [
+        "loto-animaux-de-la-ferme-e42b",
+        "loto-animaux-de-la-ferme-6b02"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonical": "loto-creatures-de-la-foret-b569",
+      "siblings": [
+        "loto-creatures-de-la-foret-b569",
+        "loto-creatures-de-la-foret-e2bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "loto-fruits-8078",
+      "siblings": [
+        "loto-fruits-8078"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonical": "loto-meubles-580d",
+      "siblings": [
+        "loto-meubles-580d",
+        "loto-meubles-4524"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonical": "loto-hopital-0431",
+      "siblings": [
+        "loto-hopital-0431",
+        "loto-hopital-2d31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonical": "loto-ustensiles-de-cuisine-c894",
+      "siblings": [
+        "loto-ustensiles-de-cuisine-c894",
+        "loto-ustensiles-de-cuisine-0a8e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonical": "loto-metiers-bd51",
+      "siblings": [
+        "loto-metiers-bd51",
+        "loto-metiers-9138"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "loto-vie-oceanique-0bae",
+      "siblings": [
+        "loto-vie-oceanique-0bae",
+        "loto-vie-oceanique-ba1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonical": "loto-animaux-de-compagnie-0890",
+      "siblings": [
+        "loto-animaux-de-compagnie-0890",
+        "loto-animaux-de-compagnie-40e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "loto-formes-f506",
+      "siblings": [
+        "loto-formes-f506"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonical": "loto-espace-70bf",
+      "siblings": [
+        "loto-espace-70bf",
+        "loto-espace-a006"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 2,
+      "canonical": "loto-printemps-1373",
+      "siblings": [
+        "loto-printemps-1373",
+        "loto-printemps-4d23"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonical": "loto-ete-e1cc",
+      "siblings": [
+        "loto-ete-e1cc",
+        "loto-ete-c729"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonical": "loto-choses-qui-volent-e2e4",
+      "siblings": [
+        "loto-choses-qui-volent-e2e4",
+        "loto-choses-qui-volent-ad5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonical": "loto-jouets-aa38",
+      "siblings": [
+        "loto-jouets-aa38",
+        "loto-jouets-b652"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonical": "loto-legumes-31b4",
+      "siblings": [
+        "loto-legumes-31b4",
+        "loto-legumes-9a88"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonical": "loto-vehicules-d81f",
+      "siblings": [
+        "loto-vehicules-d81f",
+        "loto-vehicules-e3dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 2,
+      "canonical": "loto-meteo-b52c",
+      "siblings": [
+        "loto-meteo-b52c",
+        "loto-meteo-7e1c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonical": "loto-hiver-35b9",
+      "siblings": [
+        "loto-hiver-35b9",
+        "loto-hiver-f4ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonical": "loto-animaux-du-zoo-2fa9",
+      "siblings": [
+        "loto-animaux-du-zoo-2fa9",
+        "loto-animaux-du-zoo-89e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    }
+  ]
+}

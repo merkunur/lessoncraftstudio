@@ -1,0 +1,1433 @@
+{
+  "locale": "fr",
+  "exerciseType": "picture-path",
+  "level": "maternelle",
+  "rawRowCount": 88,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "choose-path": 48,
+    "classic-maze": 37
+  },
+  "totalValid": 85,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "choose-path",
+    "classic-maze"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "choose-path",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-accessoires-cef5",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-accessoires-cef5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-activites-85b0",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-activites-85b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-animaux-1077",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-animaux-1077"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-autour-de-la-maison-5325",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-autour-de-la-maison-5325"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-au-supermarche-3431",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-au-supermarche-3431"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-boulangerie-dfea",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-boulangerie-dfea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-plage-4a56",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-plage-4a56"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-oiseaux-9761",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-oiseaux-9761"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-oiseaux-2-e3d8",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-oiseaux-2-e3d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-parties-du-corps-c44d",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-parties-du-corps-c44d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-petit-dejeuner-7b6f",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-petit-dejeuner-7b6f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-camping-ca30",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-camping-ca30"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-noel-c6d9",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-noel-c6d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-salle-de-classe-cdb5",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-salle-de-classe-cdb5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-vetements-a154",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-vetements-a154"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-couleurs-52ec",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-couleurs-52ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-desserts-et-sucreries-11eb",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-desserts-et-sucreries-11eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-dinosaures-bb1a",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-dinosaures-bb1a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-paques-9fc5",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-paques-9fc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-emotions-c6be",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-emotions-c6be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-animaux-de-la-ferme-5521",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-animaux-de-la-ferme-5521"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-fleurs-2dbf",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-fleurs-2dbf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-creatures-de-la-foret-d528",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-creatures-de-la-foret-d528"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-fruits-39e9",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-fruits-39e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-meubles-ad37",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-meubles-ad37"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-hopital-7552",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-hopital-7552"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-insectes-et-bestioles-9dac",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-insectes-et-bestioles-9dac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-ustensiles-de-cuisine-5f3e",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-ustensiles-de-cuisine-5f3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-musique-7c0a",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-musique-7c0a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-metiers-a1a8",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-metiers-a1a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-vie-oceanique-93e1",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-vie-oceanique-93e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-animaux-de-compagnie-b08a",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-animaux-de-compagnie-b08a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-bureau-de-poste-19bb",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-bureau-de-poste-19bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-reptiles-et-amphibiens-063d",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-reptiles-et-amphibiens-063d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-formes-6b39",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-formes-6b39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-espace-325a",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-espace-325a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-printemps-2a88",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-printemps-2a88"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-ete-62d2",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-ete-62d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-action-de-grace-15aa",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-action-de-grace-15aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-choses-qui-volent-a5c3",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-choses-qui-volent-a5c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-outils-cc07",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-outils-cc07"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-jouets-da7c",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-jouets-da7c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-arbres-6fd8",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-arbres-6fd8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-legumes-dfa7",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-legumes-dfa7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-vehicules-1b1f",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-vehicules-1b1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-meteo-2d81",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-meteo-2d81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-hiver-401a",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-hiver-401a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "parcours-illustre-choisis-le-bon-chemin-animaux-du-zoo-3fef",
+      "siblings": [
+        "parcours-illustre-choisis-le-bon-chemin-animaux-du-zoo-3fef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-accessoires-6fb6",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-accessoires-6fb6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-activites-bc0e",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-activites-bc0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-autour-de-la-maison-fbe7",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-autour-de-la-maison-fbe7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-au-supermarche-4fea",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-au-supermarche-4fea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-boulangerie-a6b7",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-boulangerie-a6b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-plage-4c93",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-plage-4c93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-parties-du-corps-7429",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-parties-du-corps-7429"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-petit-dejeuner-664d",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-petit-dejeuner-664d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-noel-f8ac",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-noel-f8ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-salle-de-classe-2664",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-salle-de-classe-2664"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-vetements-017b",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-vetements-017b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-couleurs-17ab",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-couleurs-17ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-desserts-et-sucreries-6df3",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-desserts-et-sucreries-6df3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-dinosaures-ee0a",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-dinosaures-ee0a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-paques-827d",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-paques-827d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-emotions-73d5",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-emotions-73d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-fleurs-efea",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-fleurs-efea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-fruits-a92c",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-fruits-a92c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-meubles-3f00",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-meubles-3f00"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-hopital-6308",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-hopital-6308"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-ustensiles-de-cuisine-755c",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-ustensiles-de-cuisine-755c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-musique-f295",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-musique-f295"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-metiers-3773",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-metiers-3773"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-vie-oceanique-12fc",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-vie-oceanique-12fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-bureau-de-poste-b9d2",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-bureau-de-poste-b9d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-formes-67cb",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-formes-67cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-espace-b68f",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-espace-b68f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-printemps-12bc",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-printemps-12bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-ete-281b",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-ete-281b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-action-de-grace-5505",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-action-de-grace-5505"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-choses-qui-volent-2372",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-choses-qui-volent-2372"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-outils-78ce",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-outils-78ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-jouets-44ac",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-jouets-44ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-arbres-09e1",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-arbres-09e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-vehicules-15bb",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-vehicules-15bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-meteo-7bb6",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-meteo-7bb6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "parcours-illustre-labyrinthe-classique-hiver-24aa",
+      "siblings": [
+        "parcours-illustre-labyrinthe-classique-hiver-24aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    }
+  ]
+}

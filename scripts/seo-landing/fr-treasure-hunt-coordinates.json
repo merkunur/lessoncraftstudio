@@ -1,0 +1,1562 @@
+{
+  "locale": "fr",
+  "exerciseType": "treasure-hunt",
+  "level": "maternelle",
+  "rawRowCount": 96,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cardinal-arrows": 48,
+    "compass": 45
+  },
+  "totalValid": 93,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cardinal-arrows",
+    "compass"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "cardinal-arrows",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-accessoires-db57",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-accessoires-db57"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-activites-73fe",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-activites-73fe"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-animaux",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-animaux",
+        "chasse-au-tresor-haut-bas-gauche-droite-animaux-25f1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-autour-de-la-maison-65f3",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-autour-de-la-maison-65f3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-au-supermarche-2e61",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-au-supermarche-2e61"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-boulangerie-fe4e",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-boulangerie-fe4e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-plage-0d98",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-plage-0d98"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-oiseaux-c2a6",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-oiseaux-c2a6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-oiseaux-2-1074",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-oiseaux-2-1074"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-parties-du-corps-872b",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-parties-du-corps-872b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-petit-dejeuner-50fa",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-petit-dejeuner-50fa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-camping-9d11",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-camping-9d11"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-noel-3417",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-noel-3417"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-salle-de-classe-031c",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-salle-de-classe-031c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-vetements-5cbf",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-vetements-5cbf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-couleurs-5d79",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-couleurs-5d79"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-desserts-et-sucreries-42de",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-desserts-et-sucreries-42de"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-dinosaures-0879",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-dinosaures-0879"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-paques-fafe",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-paques-fafe"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-emotions-0d1a",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-emotions-0d1a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-animaux-de-la-ferme-d0ed",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-animaux-de-la-ferme-d0ed"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-fleurs-d952",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-fleurs-d952"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-creatures-de-la-foret-86a3",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-creatures-de-la-foret-86a3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-fruits-9225",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-fruits-9225"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-meubles-4b2a",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-meubles-4b2a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-hopital-c718",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-hopital-c718"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-insectes-et-bestioles-f308",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-insectes-et-bestioles-f308"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-ustensiles-de-cuisine-c21d",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-ustensiles-de-cuisine-c21d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-musique-3c7e",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-musique-3c7e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-metiers-04c1",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-metiers-04c1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-vie-oceanique-472c",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-vie-oceanique-472c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-animaux-de-compagnie-ae5d",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-animaux-de-compagnie-ae5d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-bureau-de-poste-63bf",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-bureau-de-poste-63bf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-reptiles-et-amphibiens-347e",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-reptiles-et-amphibiens-347e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-formes-1a00",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-formes-1a00"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-espace-fcbd",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-espace-fcbd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-printemps-c9e6",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-printemps-c9e6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-ete-cf2e",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-ete-cf2e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-action-de-grace-f3b1",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-action-de-grace-f3b1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-choses-qui-volent-fa05",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-choses-qui-volent-fa05"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-outils-7c1e",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-outils-7c1e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-jouets-bfe7",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-jouets-bfe7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-arbres-13ea",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-arbres-13ea"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-legumes-ee41",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-legumes-ee41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-vehicules-7c74",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-vehicules-7c74"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-meteo-ce94",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-meteo-ce94"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-hiver-a02c",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-hiver-a02c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "chasse-au-tresor-haut-bas-gauche-droite-animaux-du-zoo-f1f5",
+      "siblings": [
+        "chasse-au-tresor-haut-bas-gauche-droite-animaux-du-zoo-f1f5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-accessoires-c718",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-accessoires-c718"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-activites-ec2e",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-activites-ec2e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-animaux-281e",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-animaux-281e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-autour-de-la-maison-fa8c",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-autour-de-la-maison-fa8c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-au-supermarche-81af",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-au-supermarche-81af"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-boulangerie-44e0",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-boulangerie-44e0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-plage-e985",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-plage-e985"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-oiseaux-b3dc",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-oiseaux-b3dc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-oiseaux-2-5ebe",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-oiseaux-2-5ebe"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-parties-du-corps-93f9",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-parties-du-corps-93f9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-petit-dejeuner-ec41",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-petit-dejeuner-ec41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-camping-9a8a",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-camping-9a8a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-noel-847d",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-noel-847d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-salle-de-classe-b2a9",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-salle-de-classe-b2a9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-vetements-b9de",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-vetements-b9de"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-couleurs-b085",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-couleurs-b085"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-desserts-et-sucreries-8a3c",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-desserts-et-sucreries-8a3c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-dinosaures-a451",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-dinosaures-a451"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-paques-622f",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-paques-622f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-emotions-851c",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-emotions-851c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-animaux-de-la-ferme-7b47",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-animaux-de-la-ferme-7b47"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-fleurs-50ba",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-fleurs-50ba"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-creatures-de-la-foret-de1f",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-creatures-de-la-foret-de1f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-meubles-16c2",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-meubles-16c2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-hopital-a3f0",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-hopital-a3f0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-insectes-et-bestioles-363a",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-insectes-et-bestioles-363a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-musique-49e5",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-musique-49e5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-metiers-4143",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-metiers-4143"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-vie-oceanique-6276",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-vie-oceanique-6276"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-animaux-de-compagnie-4478",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-animaux-de-compagnie-4478"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-bureau-de-poste-89b1",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-bureau-de-poste-89b1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-reptiles-et-amphibiens-2d17",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-reptiles-et-amphibiens-2d17"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-espace-1a38",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-espace-1a38"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-printemps-17d9",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-printemps-17d9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-ete-c6d0",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-ete-c6d0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-action-de-grace-87b9",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-action-de-grace-87b9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-choses-qui-volent-712e",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-choses-qui-volent-712e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-outils-8c0e",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-outils-8c0e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-jouets-39cc",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-jouets-39cc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-arbres-6c7e",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-arbres-6c7e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-legumes-bd41",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-legumes-bd41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-vehicules-c88a",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-vehicules-c88a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-meteo-b45d",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-meteo-b45d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-hiver-c5b7",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-hiver-c5b7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "compass",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "chasse-au-tresor-points-cardinaux-animaux-du-zoo-f79c",
+      "siblings": [
+        "chasse-au-tresor-points-cardinaux-animaux-du-zoo-f79c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    }
+  ]
+}

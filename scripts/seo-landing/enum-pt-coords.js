@@ -1,0 +1,97 @@
+#!/usr/bin/env node
+/* Generic PT coordinate enumeration (READ-ONLY) — the it fan, any non-picture-sort type.
+ * Clone of enum-fr-coords.js with language='it'. Dumps published it decks for an exercise-type,
+ * grouped by (exerciseMode, subjectTags[0]). exerciseMode may be null. canonical = earliest
+ * publishedAt; siblings = the rest. Drops 4th_of_july (locale-validity exclusion). NOT for
+ * picture-sort.
+ *
+ * Emits `level` per coordinate ONLY when --level=<key> is passed (readiness types: --level=educacao-infantil).
+ * Banded arithmetic (math-worksheet/math-puzzle/code-addition) omit level here and get a
+ * per-coordinate re-grade pass (annotate-it-bands.js, by child-seen quantity) before gen.
+ *
+ * MUST run on Hetzner. Usage: node scripts/seo-landing/enum-pt-coords.js --type=treasure-hunt --level=educacao-infantil > scripts/seo-landing/pt-treasure-hunt-coordinates.json
+ */
+'use strict';
+var db = require('../publish-cli/db');
+var validateCoordinate;
+try { validateCoordinate = require('./validity-gate').validateCoordinate; } catch (e) { validateCoordinate = null; }
+
+var argv = process.argv.slice(2);
+var arg = function (k, d) { var a = argv.find(function (s) { return s.indexOf('--' + k + '=') === 0; }); return a ? a.slice(k.length + 3) : d; };
+var TYPE = arg('type', null);
+var LEVEL = arg('level', null);
+if (!TYPE) { console.error('ENUM-ERROR: --type=<exerciseType> required'); process.exit(1); }
+var DROP_THEMES = { '4th_of_july': true };
+
+(async function () {
+  var c = db.client();
+  var rows = await c.deck.findMany({
+    where: { language: 'pt', status: 'published', exerciseType: TYPE },
+    select: { slug: true, exerciseMode: true, ageRange: true, subjectTags: true, publishedAt: true, id: true },
+    orderBy: [{ slug: 'asc' }]
+  });
+
+  var groups = {}, noTag = [];
+  rows.forEach(function (r) {
+    var theme = (r.subjectTags && r.subjectTags[0]) || null;
+    if (!theme) { noTag.push(r.slug); return; }
+    if (DROP_THEMES[theme]) return;
+    var mode = (r.exerciseMode == null) ? null : r.exerciseMode;
+    var key = (mode === null ? 'null' : mode) + '::' + theme;
+    (groups[key] = groups[key] || []).push({ r: r, mode: mode });
+  });
+
+  var coords = Object.keys(groups).sort().map(function (key) {
+    var members = groups[key].slice().sort(function (a, b) {
+      var ta = a.r.publishedAt ? new Date(a.r.publishedAt).getTime() : Infinity;
+      var tb = b.r.publishedAt ? new Date(b.r.publishedAt).getTime() : Infinity;
+      if (ta !== tb) return ta - tb;
+      return a.r.id < b.r.id ? -1 : 1;
+    });
+    var mode = members[0].mode;
+    var theme = key.split('::')[1];
+    var v = validateCoordinate ? validateCoordinate(TYPE, mode, theme, {}) : { valid: true, warn: null };
+    var co = {
+      mode: mode,
+      theme: theme,
+      slugTheme: theme.replace(/_/g, '-'),
+      multiTag: (members[0].r.subjectTags || []).length > 1 ? members[0].r.subjectTags : undefined,
+      n: members.length,
+      canonicalDeckSlug: members[0].r.slug, // it gen-it-readiness reads `canonicalDeckSlug` (NOT fr's `canonical`)
+      siblings: members.map(function (m) { return m.r.slug; }),
+      ageRanges: Array.from(new Set(members.map(function (m) { return m.r.ageRange; }))),
+      valid: v.valid,
+      gate: v.gate,
+      warn: v.warn || undefined,
+      reason: v.valid ? undefined : v.reason
+    };
+    if (LEVEL) co.level = LEVEL;
+    return co;
+  });
+
+  var byModeAll = {}, invalid = [];
+  coords.forEach(function (co) {
+    var mk = co.mode === null ? '(null)' : co.mode;
+    byModeAll[mk] = (byModeAll[mk] || 0) + 1;
+    if (!co.valid) invalid.push(mk + '/' + co.theme + ' — ' + co.reason);
+  });
+  var validCoords = coords.filter(function (c) { return c.valid; });
+
+  console.log(JSON.stringify({
+    locale: 'pt',
+    exerciseType: TYPE,
+    level: LEVEL || '(per-coordinate re-grade)',
+    rawRowCount: rows.length,
+    rowsWithoutSubjectTag: noTag.length,
+    droppedThemes: Object.keys(DROP_THEMES),
+    coordinateCountByMode_ALL: byModeAll,
+    totalValid: validCoords.length,
+    distinctThemes: Array.from(new Set(coords.map(function (c) { return c.theme; }))).sort(),
+    distinctModes: Array.from(new Set(coords.map(function (c) { return c.mode; }))),
+    collapsedFamilies: coords.filter(function (c) { return c.n > 1; }).length,
+    invalidRetired: invalid,
+    coordinates: validCoords
+  }, null, 2));
+
+  await db.disconnect();
+})().catch(function (e) { console.error('ENUM-ERROR:', e && e.message); process.exit(1); });

@@ -39,6 +39,7 @@ const FRAMEWORK_BY_LOCALE: Record<string, { jsonld: string; chip: string }> = {
   it: { jsonld: 'Indicazioni nazionali per il curricolo', chip: 'Indicazioni Nazionali' },
   no: { jsonld: 'Læreplanverket for Kunnskapsløftet (LK20)', chip: 'LK20' },
   fr: { jsonld: "Programmes de l'Éducation Nationale", chip: 'Éducation Nationale' },
+  pt: { jsonld: 'Base Nacional Comum Curricular (BNCC)', chip: 'BNCC' },
 };
 
 // Per-locale UI chrome (the route was EN-hardcoded). de pages render German chrome.
@@ -142,6 +143,16 @@ const UI_STRINGS: Record<string, {
     playAria: (h1) => `Jouer à ${h1}`, previewAlt: (h1) => `Aperçu : ${h1}`,
     embedButton: 'Intégrer cette fiche', embedCopy: 'Copier le code', embedCopied: 'Copié !',
     embedPrefix: 'Fiche de', embedKeyword: 'fiches gratuites à imprimer',
+  },
+  pt: {
+    worksheets: 'Atividades', playInteractive: 'Jogar', downloadPdf: 'Baixar PDF', answerKey: 'Gabarito',
+    moreToTry: 'Mais atividades para experimentar', tryInteractive: 'Jogar online', makerSoon: 'O gerador chega em breve.',
+    comingSoon: '', // pt: no dashed framework chip on strand-only readiness landings (family precedent de/it/no/fr)
+    sameThemeHeading: 'Mais com o mesmo tema', sameLevelHeading: 'Mais para o mesmo nível',
+    madeWith: (t) => `Criado com o gerador de ${t}`, typeCrumb: (e) => e.replace(/^(Atividade|Ficha|Exercício)\s*:\s*/, ''),
+    playAria: (h1) => `Jogar ${h1}`, previewAlt: (h1) => `Prévia: ${h1}`,
+    embedButton: 'Incorporar esta atividade', embedCopy: 'Copiar código', embedCopied: 'Copiado!',
+    embedPrefix: 'Atividade de', embedKeyword: 'atividades grátis para imprimir',
   },
 };
 
@@ -288,6 +299,9 @@ export default function WorksheetLandingPage(
     'maternelle': { chip: 'Maternelle', schema: 'École maternelle', age: '3-6' },
     'cp': { chip: 'CP', schema: 'Cours préparatoire (CP)', age: '6-7' },
     'ce1': { chip: 'CE1', schema: 'Cours élémentaire 1 (CE1)', age: '7-8' },
+    'educacao-infantil': { chip: 'Educação infantil', schema: 'Educação infantil', age: '3-6' },
+    '1o-ano': { chip: '1º ano', schema: 'Ensino fundamental — 1º ano', age: '6-7' },
+    '2o-ano': { chip: '2º ano', schema: 'Ensino fundamental — 2º ano', age: '7-8' },
   };
   const _bandKeys = l.levels && l.levels.length ? l.levels : [l.coordinate.level];
   const _bands = _bandKeys.map((k) => LEVELS[`${locale}:${k}`] || LEVELS[k]).filter(Boolean);

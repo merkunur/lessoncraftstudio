@@ -1,0 +1,2327 @@
+{
+  "locale": "pt",
+  "exerciseType": "math-puzzle",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 148,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "addition": 48,
+    "mixed": 48,
+    "subtraction": 48
+  },
+  "totalValid": 123,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "addition",
+    "mixed",
+    "subtraction"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [
+    "addition/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "addition/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "addition/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "addition/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "addition/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "addition/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "addition/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "mixed/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "subtraction/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "subtraction/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "subtraction/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "subtraction/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "subtraction/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "subtraction/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "subtraction/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "addition",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-acessorios-bc54",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-acessorios-bc54"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-animais-86cd",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-animais-86cd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-pela-casa-b068",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-pela-casa-b068"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-no-supermercado-9162",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-no-supermercado-9162"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-padaria-8d3b",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-padaria-8d3b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-praia-60ac",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-praia-60ac"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-passaros-add4",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-passaros-add4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-passaros-2-8f81",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-passaros-2-8f81"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-cafe-da-manha-9d87",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-cafe-da-manha-9d87"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-acampamento-61ef",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-acampamento-61ef"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-natal-c265",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-natal-c265"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-sala-de-aula-fc95",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-sala-de-aula-fc95"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-roupas-319f",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-roupas-319f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-sobremesas-e-doces-2152",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-sobremesas-e-doces-2152"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-dinossauros-9772",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-dinossauros-9772"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-pascoa-f85b",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-pascoa-f85b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-animais-da-fazenda-6906",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-animais-da-fazenda-6906"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-flores-ab41",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-flores-ab41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-criaturas-da-floresta-5ff4",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-criaturas-da-floresta-5ff4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-frutas-1b9f",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-frutas-1b9f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-moveis-3987",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-moveis-3987"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-hospital-e819",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-hospital-e819"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-insetos-e-bichos-88ed",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-insetos-e-bichos-88ed"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-utensilios-de-cozinha-dbe3",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-utensilios-de-cozinha-dbe3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-diversos-18b8",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-diversos-18b8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-musica-8369",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-musica-8369"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-profissoes-ed5c",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-profissoes-ed5c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-vida-marinha-a967",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-vida-marinha-a967"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-animais-de-estimacao-f69a",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-animais-de-estimacao-f69a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-correios-6070",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-correios-6070"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-repteis-e-anfibios-2228",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-repteis-e-anfibios-2228"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-formas-6886",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-formas-6886"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-espaco-c77b",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-espaco-c77b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-dia-de-acao-de-gracas-cffc",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-dia-de-acao-de-gracas-cffc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-coisas-que-voam-a1fd",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-coisas-que-voam-a1fd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-ferramentas-ef6a",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-ferramentas-ef6a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-brinquedos-0b13",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-brinquedos-0b13"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-arvores-e4f6",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-arvores-e4f6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-vegetais-c4f1",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-vegetais-c4f1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-veiculos-d733",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-veiculos-d733"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-soma-animais-do-zoologico-dec7",
+      "siblings": [
+        "quebra-cabeca-matematico-soma-animais-do-zoologico-dec7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-acessorios-1d37",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-acessorios-1d37"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-animais",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-animais",
+        "quebra-cabeca-matematico-misto-animais-b36e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-pela-casa-65fa",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-pela-casa-65fa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-no-supermercado-3fc5",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-no-supermercado-3fc5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-padaria-20e8",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-padaria-20e8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-praia-48ed",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-praia-48ed"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-passaros-f2b6",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-passaros-f2b6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-passaros-2-3f05",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-passaros-2-3f05"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-cafe-da-manha-008a",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-cafe-da-manha-008a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-acampamento-d503",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-acampamento-d503"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-natal-c019",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-natal-c019"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-sala-de-aula-b97a",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-sala-de-aula-b97a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-roupas-4a5f",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-roupas-4a5f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-sobremesas-e-doces-337b",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-sobremesas-e-doces-337b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-dinossauros-56fc",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-dinossauros-56fc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-pascoa-a0df",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-pascoa-a0df"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-animais-da-fazenda-0c39",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-animais-da-fazenda-0c39"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-flores-0102",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-flores-0102"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-criaturas-da-floresta-7ae8",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-criaturas-da-floresta-7ae8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-frutas-bfa8",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-frutas-bfa8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-moveis-064e",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-moveis-064e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-hospital-6a79",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-hospital-6a79"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-insetos-e-bichos-c6ac",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-insetos-e-bichos-c6ac"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-utensilios-de-cozinha-3780",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-utensilios-de-cozinha-3780"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-diversos-b066",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-diversos-b066"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-musica-62a3",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-musica-62a3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-profissoes-2854",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-profissoes-2854"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-vida-marinha-3bb1",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-vida-marinha-3bb1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-animais-de-estimacao-c335",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-animais-de-estimacao-c335"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-correios-eed2",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-correios-eed2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-repteis-e-anfibios-52b7",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-repteis-e-anfibios-52b7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-formas-4c7e",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-formas-4c7e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-espaco-35d4",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-espaco-35d4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-dia-de-acao-de-gracas-248c",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-dia-de-acao-de-gracas-248c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-coisas-que-voam-0920",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-coisas-que-voam-0920"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-ferramentas-7619",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-ferramentas-7619"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-brinquedos-7bd6",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-brinquedos-7bd6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-arvores-2a58",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-arvores-2a58"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-vegetais-a735",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-vegetais-a735"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-veiculos-e241",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-veiculos-e241"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-misto-animais-do-zoologico-66aa",
+      "siblings": [
+        "quebra-cabeca-matematico-misto-animais-do-zoologico-66aa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-acessorios-4e35",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-acessorios-4e35"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-animais-79b8",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-animais-79b8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-pela-casa-5546",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-pela-casa-5546"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-no-supermercado-7b1d",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-no-supermercado-7b1d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-padaria-91f8",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-padaria-91f8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-praia-a6d8",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-praia-a6d8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-passaros-7535",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-passaros-7535"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-passaros-2-d879",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-passaros-2-d879"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-cafe-da-manha-bf6a",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-cafe-da-manha-bf6a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-acampamento-36d6",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-acampamento-36d6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-natal-8330",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-natal-8330"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-sala-de-aula-9a5b",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-sala-de-aula-9a5b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-roupas-051a",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-roupas-051a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-sobremesas-e-doces-da30",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-sobremesas-e-doces-da30"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-dinossauros-4cdb",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-dinossauros-4cdb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-pascoa-4693",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-pascoa-4693"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-animais-da-fazenda-a857",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-animais-da-fazenda-a857"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-flores-535b",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-flores-535b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-criaturas-da-floresta-e955",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-criaturas-da-floresta-e955"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-frutas-87fb",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-frutas-87fb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-moveis-cd26",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-moveis-cd26"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "subtraction",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-hospital-b8e3",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-hospital-b8e3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-insetos-e-bichos-0c51",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-insetos-e-bichos-0c51"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-utensilios-de-cozinha-e911",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-utensilios-de-cozinha-e911"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-diversos-e710",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-diversos-e710"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-musica-e19f",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-musica-e19f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-profissoes-c7e6",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-profissoes-c7e6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-vida-marinha-4909",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-vida-marinha-4909"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-animais-de-estimacao-582e",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-animais-de-estimacao-582e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "subtraction",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-correios-778e",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-correios-778e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "subtraction",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-repteis-e-anfibios-e4a7",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-repteis-e-anfibios-e4a7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-formas-d5ec",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-formas-d5ec"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-espaco-3f84",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-espaco-3f84"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-dia-de-acao-de-gracas-f5a7",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-dia-de-acao-de-gracas-f5a7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "subtraction",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-coisas-que-voam-08f9",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-coisas-que-voam-08f9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-ferramentas-74ac",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-ferramentas-74ac"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-brinquedos-ba33",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-brinquedos-ba33"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-arvores-6710",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-arvores-6710"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-vegetais-3780",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-vegetais-3780"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-veiculos-e90b",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-veiculos-e90b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "subtraction",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "quebra-cabeca-matematico-subtracao-animais-do-zoologico-c212",
+      "siblings": [
+        "quebra-cabeca-matematico-subtracao-animais-do-zoologico-c212"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    }
+  ]
+}

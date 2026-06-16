@@ -1,0 +1,1876 @@
+{
+  "locale": "pt",
+  "exerciseType": "code-addition",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 147,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 49,
+    "secret-word": 48
+  },
+  "totalValid": 97,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null,
+    "secret-word"
+  ],
+  "collapsedFamilies": 46,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-acessorios-7e67",
+      "siblings": [
+        "adicao-com-codigo-acessorios-7e67",
+        "adicao-com-codigo-acessorios-0bc1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-atividades-da72",
+      "siblings": [
+        "adicao-com-codigo-atividades-da72",
+        "adicao-com-codigo-atividades-1d39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-animais-628e",
+      "siblings": [
+        "adicao-com-codigo-animais-628e",
+        "adicao-com-codigo-animais-03d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-pela-casa-bb9a",
+      "siblings": [
+        "adicao-com-codigo-pela-casa-bb9a",
+        "adicao-com-codigo-pela-casa-ebd5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-no-supermercado-33dc",
+      "siblings": [
+        "adicao-com-codigo-no-supermercado-33dc",
+        "adicao-com-codigo-no-supermercado-8260"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-padaria-c2ea",
+      "siblings": [
+        "adicao-com-codigo-padaria-c2ea",
+        "adicao-com-codigo-padaria-a3b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-praia-f5c1",
+      "siblings": [
+        "adicao-com-codigo-praia-f5c1",
+        "adicao-com-codigo-praia-739e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-passaros-4a74",
+      "siblings": [
+        "adicao-com-codigo-passaros-4a74",
+        "adicao-com-codigo-passaros-2395"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-passaros-2-ebdc",
+      "siblings": [
+        "adicao-com-codigo-passaros-2-ebdc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-partes-do-corpo-b070",
+      "siblings": [
+        "adicao-com-codigo-partes-do-corpo-b070",
+        "adicao-com-codigo-partes-do-corpo-1213"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-cafe-da-manha-d37b",
+      "siblings": [
+        "adicao-com-codigo-cafe-da-manha-d37b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-acampamento-7440",
+      "siblings": [
+        "adicao-com-codigo-acampamento-7440",
+        "adicao-com-codigo-acampamento-fe39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-natal-f79d",
+      "siblings": [
+        "adicao-com-codigo-natal-f79d",
+        "adicao-com-codigo-natal-67c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-sala-de-aula-f70b",
+      "siblings": [
+        "adicao-com-codigo-sala-de-aula-f70b",
+        "adicao-com-codigo-sala-de-aula-9465"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-roupas-f716",
+      "siblings": [
+        "adicao-com-codigo-roupas-f716",
+        "adicao-com-codigo-roupas-3a49"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-cores-0e68",
+      "siblings": [
+        "adicao-com-codigo-cores-0e68",
+        "adicao-com-codigo-cores-5454"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-sobremesas-e-doces-c23a",
+      "siblings": [
+        "adicao-com-codigo-sobremesas-e-doces-c23a",
+        "adicao-com-codigo-sobremesas-e-doces-20cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-dinossauros-1789",
+      "siblings": [
+        "adicao-com-codigo-dinossauros-1789",
+        "adicao-com-codigo-dinossauros-196c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-pascoa-4078",
+      "siblings": [
+        "adicao-com-codigo-pascoa-4078",
+        "adicao-com-codigo-pascoa-b69a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-emocoes-cf37",
+      "siblings": [
+        "adicao-com-codigo-emocoes-cf37",
+        "adicao-com-codigo-emocoes-61c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-animais-da-fazenda-49ce",
+      "siblings": [
+        "adicao-com-codigo-animais-da-fazenda-49ce",
+        "adicao-com-codigo-animais-da-fazenda-a86d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-flores-cfe6",
+      "siblings": [
+        "adicao-com-codigo-flores-cfe6",
+        "adicao-com-codigo-flores-a255"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-criaturas-da-floresta-821e",
+      "siblings": [
+        "adicao-com-codigo-criaturas-da-floresta-821e",
+        "adicao-com-codigo-criaturas-da-floresta-098b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-frutas-715e",
+      "siblings": [
+        "adicao-com-codigo-frutas-715e",
+        "adicao-com-codigo-frutas-c66a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-moveis-7239",
+      "siblings": [
+        "adicao-com-codigo-moveis-7239",
+        "adicao-com-codigo-moveis-1fde"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-hospital-8349",
+      "siblings": [
+        "adicao-com-codigo-hospital-8349",
+        "adicao-com-codigo-hospital-244f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-insetos-e-bichos-bbc4",
+      "siblings": [
+        "adicao-com-codigo-insetos-e-bichos-bbc4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-utensilios-de-cozinha-98e6",
+      "siblings": [
+        "adicao-com-codigo-utensilios-de-cozinha-98e6",
+        "adicao-com-codigo-utensilios-de-cozinha-928c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-diversos-cc48",
+      "siblings": [
+        "adicao-com-codigo-diversos-cc48",
+        "adicao-com-codigo-diversos-5ee1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-musica-bf73",
+      "siblings": [
+        "adicao-com-codigo-musica-bf73",
+        "adicao-com-codigo-musica-b75d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-profissoes-87c4",
+      "siblings": [
+        "adicao-com-codigo-profissoes-87c4",
+        "adicao-com-codigo-profissoes-b257"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-vida-marinha-7d31",
+      "siblings": [
+        "adicao-com-codigo-vida-marinha-7d31",
+        "adicao-com-codigo-vida-marinha-878e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-animais-de-estimacao-2536",
+      "siblings": [
+        "adicao-com-codigo-animais-de-estimacao-2536",
+        "adicao-com-codigo-animais-de-estimacao-b801"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-correios-2c05",
+      "siblings": [
+        "adicao-com-codigo-correios-2c05",
+        "adicao-com-codigo-correios-9911"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-repteis-e-anfibios-1034",
+      "siblings": [
+        "adicao-com-codigo-repteis-e-anfibios-1034",
+        "adicao-com-codigo-repteis-e-anfibios-90a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-formas-7d42",
+      "siblings": [
+        "adicao-com-codigo-formas-7d42",
+        "adicao-com-codigo-formas-7a5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-espaco-1c84",
+      "siblings": [
+        "adicao-com-codigo-espaco-1c84",
+        "adicao-com-codigo-espaco-10d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-primavera-09c3",
+      "siblings": [
+        "adicao-com-codigo-primavera-09c3",
+        "adicao-com-codigo-primavera-ab76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-verao-dab5",
+      "siblings": [
+        "adicao-com-codigo-verao-dab5",
+        "adicao-com-codigo-verao-4034"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-dia-de-acao-de-gracas-c481",
+      "siblings": [
+        "adicao-com-codigo-dia-de-acao-de-gracas-c481",
+        "adicao-com-codigo-dia-de-acao-de-gracas-1fe7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-coisas-que-voam-318f",
+      "siblings": [
+        "adicao-com-codigo-coisas-que-voam-318f",
+        "adicao-com-codigo-coisas-que-voam-6006"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-ferramentas-3b14",
+      "siblings": [
+        "adicao-com-codigo-ferramentas-3b14",
+        "adicao-com-codigo-ferramentas-4608"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-brinquedos-9844",
+      "siblings": [
+        "adicao-com-codigo-brinquedos-9844",
+        "adicao-com-codigo-brinquedos-843c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-arvores-eecd",
+      "siblings": [
+        "adicao-com-codigo-arvores-eecd",
+        "adicao-com-codigo-arvores-49d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-vegetais-fc50",
+      "siblings": [
+        "adicao-com-codigo-vegetais-fc50",
+        "adicao-com-codigo-vegetais-d237"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-veiculos-34a6",
+      "siblings": [
+        "adicao-com-codigo-veiculos-34a6",
+        "adicao-com-codigo-veiculos-ea2d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-clima-52b6",
+      "siblings": [
+        "adicao-com-codigo-clima-52b6",
+        "adicao-com-codigo-clima-fb9e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-inverno-e2e3",
+      "siblings": [
+        "adicao-com-codigo-inverno-e2e3",
+        "adicao-com-codigo-inverno-7a50"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-com-codigo-animais-do-zoologico-f25e",
+      "siblings": [
+        "adicao-com-codigo-animais-do-zoologico-f25e",
+        "adicao-com-codigo-animais-do-zoologico-9fc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "secret-word",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-acessorios-8967",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-acessorios-8967"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 28
+    },
+    {
+      "mode": "secret-word",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-atividades-bcb6",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-atividades-bcb6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-animais-972e",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-animais-972e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 34
+    },
+    {
+      "mode": "secret-word",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-pela-casa-abbc",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-pela-casa-abbc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 28
+    },
+    {
+      "mode": "secret-word",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-no-supermercado-fc46",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-no-supermercado-fc46"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    },
+    {
+      "mode": "secret-word",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-padaria-44d6",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-padaria-44d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 29
+    },
+    {
+      "mode": "secret-word",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-praia-4b3f",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-praia-4b3f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-passaros-f19f",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-passaros-f19f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "secret-word",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-passaros-2-e250",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-passaros-2-e250"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": "secret-word",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-partes-do-corpo-097c",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-partes-do-corpo-097c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 37
+    },
+    {
+      "mode": "secret-word",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-cafe-da-manha-abcc",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-cafe-da-manha-abcc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 31
+    },
+    {
+      "mode": "secret-word",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-acampamento-7dbf",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-acampamento-7dbf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "secret-word",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-natal-146f",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-natal-146f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 28
+    },
+    {
+      "mode": "secret-word",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-sala-de-aula-541e",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-sala-de-aula-541e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "secret-word",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-roupas-420d",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-roupas-420d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-cores-e5e4",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-cores-e5e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "secret-word",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-sobremesas-e-doces-d981",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-sobremesas-e-doces-d981"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "secret-word",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-dinossauros-e102",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-dinossauros-e102"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 34
+    },
+    {
+      "mode": "secret-word",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-pascoa-0aee",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-pascoa-0aee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "secret-word",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-emocoes-ff99",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-emocoes-ff99"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 34
+    },
+    {
+      "mode": "secret-word",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-animais-da-fazenda-b031",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-animais-da-fazenda-b031"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    },
+    {
+      "mode": "secret-word",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-flores-d308",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-flores-d308"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-criaturas-da-floresta-746c",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-criaturas-da-floresta-746c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 36
+    },
+    {
+      "mode": "secret-word",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-frutas-5545",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-frutas-5545"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 33
+    },
+    {
+      "mode": "secret-word",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-moveis-651a",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-moveis-651a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 31
+    },
+    {
+      "mode": "secret-word",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-hospital-0988",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-hospital-0988"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "secret-word",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-insetos-e-bichos-5d3c",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-insetos-e-bichos-5d3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "secret-word",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-utensilios-de-cozinha-d6df",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-utensilios-de-cozinha-d6df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "secret-word",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-musica-29ff",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-musica-29ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-profissoes-b97d",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-profissoes-b97d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "secret-word",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-vida-marinha-6fb6",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-vida-marinha-6fb6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    },
+    {
+      "mode": "secret-word",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-animais-de-estimacao-b7ae",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-animais-de-estimacao-b7ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 38
+    },
+    {
+      "mode": "secret-word",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-correios-960d",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-correios-960d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 31
+    },
+    {
+      "mode": "secret-word",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-repteis-e-anfibios-a0cb",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-repteis-e-anfibios-a0cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "secret-word",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-formas-01de",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-formas-01de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 28
+    },
+    {
+      "mode": "secret-word",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-espaco-6046",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-espaco-6046"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    },
+    {
+      "mode": "secret-word",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-primavera-3a0e",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-primavera-3a0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "secret-word",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-verao-ccd4",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-verao-ccd4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-dia-de-acao-de-gracas-4925",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-dia-de-acao-de-gracas-4925"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "secret-word",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-coisas-que-voam-3b0d",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-coisas-que-voam-3b0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 31
+    },
+    {
+      "mode": "secret-word",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-ferramentas-a8f7",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-ferramentas-a8f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": "secret-word",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-brinquedos-74ad",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-brinquedos-74ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    },
+    {
+      "mode": "secret-word",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-arvores-4b90",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-arvores-4b90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 36
+    },
+    {
+      "mode": "secret-word",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-vegetais-0943",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-vegetais-0943"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-veiculos-5b25",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-veiculos-5b25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 35
+    },
+    {
+      "mode": "secret-word",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-clima-9934",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-clima-9934"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "secret-word",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-inverno-c339",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-inverno-c339"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 36
+    },
+    {
+      "mode": "secret-word",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-com-codigo-palavra-secreta-animais-do-zoologico-903b",
+      "siblings": [
+        "adicao-com-codigo-palavra-secreta-animais-do-zoologico-903b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    }
+  ]
+}

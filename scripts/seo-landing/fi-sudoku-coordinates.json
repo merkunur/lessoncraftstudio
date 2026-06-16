@@ -1,0 +1,1609 @@
+{
+  "locale": "fi",
+  "exerciseType": "sudoku",
+  "level": "esikoulu",
+  "rawRowCount": 99,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 48,
+    "medium": 48
+  },
+  "totalValid": 96,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "medium"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-asusteet-d837",
+      "siblings": [
+        "kuvasudoku-helppo-asusteet-d837"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-aktiviteetit-9ea2",
+      "siblings": [
+        "kuvasudoku-helppo-aktiviteetit-9ea2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-elaimet-8deb",
+      "siblings": [
+        "kuvasudoku-helppo-elaimet-8deb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-kodin-ymparilla-8f44",
+      "siblings": [
+        "kuvasudoku-helppo-kodin-ymparilla-8f44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-ruokakaupassa-d534",
+      "siblings": [
+        "kuvasudoku-helppo-ruokakaupassa-d534"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-leipomo-ce87",
+      "siblings": [
+        "kuvasudoku-helppo-leipomo-ce87"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-ranta-4494",
+      "siblings": [
+        "kuvasudoku-helppo-ranta-4494"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-linnut-fbe3",
+      "siblings": [
+        "kuvasudoku-helppo-linnut-fbe3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-linnut-2-0345",
+      "siblings": [
+        "kuvasudoku-helppo-linnut-2-0345"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-ruumiinosat-20e9",
+      "siblings": [
+        "kuvasudoku-helppo-ruumiinosat-20e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-aamiainen-bc88",
+      "siblings": [
+        "kuvasudoku-helppo-aamiainen-bc88"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-leirielama-06da",
+      "siblings": [
+        "kuvasudoku-helppo-leirielama-06da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-joulu-35a5",
+      "siblings": [
+        "kuvasudoku-helppo-joulu-35a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-luokkahuone-a67d",
+      "siblings": [
+        "kuvasudoku-helppo-luokkahuone-a67d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-vaatteet-bd16",
+      "siblings": [
+        "kuvasudoku-helppo-vaatteet-bd16"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-varit-ea33",
+      "siblings": [
+        "kuvasudoku-helppo-varit-ea33"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-jalkiruoat-ja-makeiset-15de",
+      "siblings": [
+        "kuvasudoku-helppo-jalkiruoat-ja-makeiset-15de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-dinosaurukset-dffa",
+      "siblings": [
+        "kuvasudoku-helppo-dinosaurukset-dffa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-paasiainen-ae2a",
+      "siblings": [
+        "kuvasudoku-helppo-paasiainen-ae2a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-tunteet-0d90",
+      "siblings": [
+        "kuvasudoku-helppo-tunteet-0d90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-maatilan-elaimet-0842",
+      "siblings": [
+        "kuvasudoku-helppo-maatilan-elaimet-0842"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-kukat-c12c",
+      "siblings": [
+        "kuvasudoku-helppo-kukat-c12c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-metsan-elaimet-488d",
+      "siblings": [
+        "kuvasudoku-helppo-metsan-elaimet-488d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-hedelmat-d35a",
+      "siblings": [
+        "kuvasudoku-helppo-hedelmat-d35a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-huonekalut-83de",
+      "siblings": [
+        "kuvasudoku-helppo-huonekalut-83de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-sairaala-5729",
+      "siblings": [
+        "kuvasudoku-helppo-sairaala-5729"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-hyonteiset-ja-otokat-2f7e",
+      "siblings": [
+        "kuvasudoku-helppo-hyonteiset-ja-otokat-2f7e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-keittiovalineet-1fff",
+      "siblings": [
+        "kuvasudoku-helppo-keittiovalineet-1fff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-musiikki-eb6b",
+      "siblings": [
+        "kuvasudoku-helppo-musiikki-eb6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-ammatit-e419",
+      "siblings": [
+        "kuvasudoku-helppo-ammatit-e419"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-merielama-386f",
+      "siblings": [
+        "kuvasudoku-helppo-merielama-386f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-lemmikit-1ed0",
+      "siblings": [
+        "kuvasudoku-helppo-lemmikit-1ed0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-postitoimisto-ff10",
+      "siblings": [
+        "kuvasudoku-helppo-postitoimisto-ff10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-matelijat-ja-sammakkoelaimet-5b7e",
+      "siblings": [
+        "kuvasudoku-helppo-matelijat-ja-sammakkoelaimet-5b7e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-muodot-ea0a",
+      "siblings": [
+        "kuvasudoku-helppo-muodot-ea0a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-avaruus-7401",
+      "siblings": [
+        "kuvasudoku-helppo-avaruus-7401"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-kevat-767d",
+      "siblings": [
+        "kuvasudoku-helppo-kevat-767d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-kesa-a80a",
+      "siblings": [
+        "kuvasudoku-helppo-kesa-a80a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-kiitospaiva-ae53",
+      "siblings": [
+        "kuvasudoku-helppo-kiitospaiva-ae53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-lentavat-asiat-6c56",
+      "siblings": [
+        "kuvasudoku-helppo-lentavat-asiat-6c56"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-tyokalut-161c",
+      "siblings": [
+        "kuvasudoku-helppo-tyokalut-161c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-lelut-89fe",
+      "siblings": [
+        "kuvasudoku-helppo-lelut-89fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-puut-161c",
+      "siblings": [
+        "kuvasudoku-helppo-puut-161c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-vihannekset-f605",
+      "siblings": [
+        "kuvasudoku-helppo-vihannekset-f605"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-ajoneuvot-5e97",
+      "siblings": [
+        "kuvasudoku-helppo-ajoneuvot-5e97"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-saa-d290",
+      "siblings": [
+        "kuvasudoku-helppo-saa-d290"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-talvi-08f9",
+      "siblings": [
+        "kuvasudoku-helppo-talvi-08f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-helppo-elaintarhan-elaimet-c823",
+      "siblings": [
+        "kuvasudoku-helppo-elaintarhan-elaimet-c823"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-asusteet-912c",
+      "siblings": [
+        "kuvasudoku-keskitaso-asusteet-912c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-aktiviteetit-7c63",
+      "siblings": [
+        "kuvasudoku-keskitaso-aktiviteetit-7c63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-elaimet-894b",
+      "siblings": [
+        "kuvasudoku-keskitaso-elaimet-894b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-kodin-ymparilla-f26d",
+      "siblings": [
+        "kuvasudoku-keskitaso-kodin-ymparilla-f26d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-ruokakaupassa-e002",
+      "siblings": [
+        "kuvasudoku-keskitaso-ruokakaupassa-e002"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-leipomo-f447",
+      "siblings": [
+        "kuvasudoku-keskitaso-leipomo-f447"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-ranta-a017",
+      "siblings": [
+        "kuvasudoku-keskitaso-ranta-a017"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-linnut-4f9a",
+      "siblings": [
+        "kuvasudoku-keskitaso-linnut-4f9a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-linnut-2-f1c3",
+      "siblings": [
+        "kuvasudoku-keskitaso-linnut-2-f1c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-ruumiinosat-cb4e",
+      "siblings": [
+        "kuvasudoku-keskitaso-ruumiinosat-cb4e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-aamiainen-7125",
+      "siblings": [
+        "kuvasudoku-keskitaso-aamiainen-7125"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-leirielama-1f17",
+      "siblings": [
+        "kuvasudoku-keskitaso-leirielama-1f17"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-joulu-1543",
+      "siblings": [
+        "kuvasudoku-keskitaso-joulu-1543"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-luokkahuone-f716",
+      "siblings": [
+        "kuvasudoku-keskitaso-luokkahuone-f716"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-vaatteet-c166",
+      "siblings": [
+        "kuvasudoku-keskitaso-vaatteet-c166"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-varit-6e2e",
+      "siblings": [
+        "kuvasudoku-keskitaso-varit-6e2e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-jalkiruoat-ja-makeiset-c486",
+      "siblings": [
+        "kuvasudoku-keskitaso-jalkiruoat-ja-makeiset-c486"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-dinosaurukset-b070",
+      "siblings": [
+        "kuvasudoku-keskitaso-dinosaurukset-b070"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-paasiainen-168e",
+      "siblings": [
+        "kuvasudoku-keskitaso-paasiainen-168e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-tunteet-3cbe",
+      "siblings": [
+        "kuvasudoku-keskitaso-tunteet-3cbe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-maatilan-elaimet-2759",
+      "siblings": [
+        "kuvasudoku-keskitaso-maatilan-elaimet-2759"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-kukat-fdb9",
+      "siblings": [
+        "kuvasudoku-keskitaso-kukat-fdb9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-metsan-elaimet-932a",
+      "siblings": [
+        "kuvasudoku-keskitaso-metsan-elaimet-932a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-hedelmat-0c07",
+      "siblings": [
+        "kuvasudoku-keskitaso-hedelmat-0c07"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-huonekalut-a376",
+      "siblings": [
+        "kuvasudoku-keskitaso-huonekalut-a376"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-sairaala-9317",
+      "siblings": [
+        "kuvasudoku-keskitaso-sairaala-9317"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-hyonteiset-ja-otokat-2ec2",
+      "siblings": [
+        "kuvasudoku-keskitaso-hyonteiset-ja-otokat-2ec2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-keittiovalineet-486e",
+      "siblings": [
+        "kuvasudoku-keskitaso-keittiovalineet-486e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-musiikki-7975",
+      "siblings": [
+        "kuvasudoku-keskitaso-musiikki-7975"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-ammatit-a7f4",
+      "siblings": [
+        "kuvasudoku-keskitaso-ammatit-a7f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-merielama-416e",
+      "siblings": [
+        "kuvasudoku-keskitaso-merielama-416e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-lemmikit-2804",
+      "siblings": [
+        "kuvasudoku-keskitaso-lemmikit-2804"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-postitoimisto-c105",
+      "siblings": [
+        "kuvasudoku-keskitaso-postitoimisto-c105"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-matelijat-ja-sammakkoelaimet-861a",
+      "siblings": [
+        "kuvasudoku-keskitaso-matelijat-ja-sammakkoelaimet-861a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-muodot-7a33",
+      "siblings": [
+        "kuvasudoku-keskitaso-muodot-7a33"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-avaruus-2b23",
+      "siblings": [
+        "kuvasudoku-keskitaso-avaruus-2b23"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-kevat-e54e",
+      "siblings": [
+        "kuvasudoku-keskitaso-kevat-e54e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-kesa-7685",
+      "siblings": [
+        "kuvasudoku-keskitaso-kesa-7685"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-kiitospaiva-8495",
+      "siblings": [
+        "kuvasudoku-keskitaso-kiitospaiva-8495"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-lentavat-asiat-831f",
+      "siblings": [
+        "kuvasudoku-keskitaso-lentavat-asiat-831f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-tyokalut-0e96",
+      "siblings": [
+        "kuvasudoku-keskitaso-tyokalut-0e96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-lelut-c75f",
+      "siblings": [
+        "kuvasudoku-keskitaso-lelut-c75f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-puut-20ec",
+      "siblings": [
+        "kuvasudoku-keskitaso-puut-20ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-vihannekset-8616",
+      "siblings": [
+        "kuvasudoku-keskitaso-vihannekset-8616"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-ajoneuvot-7701",
+      "siblings": [
+        "kuvasudoku-keskitaso-ajoneuvot-7701"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-saa-f5c8",
+      "siblings": [
+        "kuvasudoku-keskitaso-saa-f5c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-talvi-c247",
+      "siblings": [
+        "kuvasudoku-keskitaso-talvi-c247"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "medium",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuvasudoku-keskitaso-elaintarhan-elaimet-802a",
+      "siblings": [
+        "kuvasudoku-keskitaso-elaintarhan-elaimet-802a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    }
+  ]
+}

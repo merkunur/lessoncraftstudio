@@ -78,7 +78,7 @@ const TYPE_MAP = {
   'grid-match':    { op: 'Ruudukkoyhdistys', qual: {} },
   'missing-pieces':{ op: { 'one-missing': 'Puuttuvat palat', 'two-missing': 'Kaksi puuttuvaa palaa' }, qual: {} },
   'shadow-match':  { op: { 'make-whole': 'Yhdistä varjot', 'find-shadow': 'Etsi oikea varjo' }, qual: {} },
-  sudoku:          { op: 'Kuvasudoku', qual: {} },
+  sudoku:          { op: 'Kuvasudoku', qual: { easy: 'helppo', medium: 'keskivaikea' } },
   'find-objects':  { op: { 'i-spy': 'Etsi esineet', 'find-odd': 'Etsi erilainen' }, qual: {} },
   'odd-one-out':   { op: 'Mikä ei kuulu joukkoon', qual: {} },
   bingo:           { op: 'Kuvabingo', qual: {} },
@@ -95,7 +95,7 @@ const TYPE_MAP = {
   'word-scramble': { op: 'Kirjainsekoitus', qual: {} },
   wordsearch:      { op: 'Sanahaku', qual: {} },
   crossword:       { op: 'Kuvaristikko', qual: {} },
-  'treasure-hunt': { op: 'Aarteenetsintä', qual: {} },
+  'treasure-hunt': { op: 'Aarteenetsintä', qual: { 'cardinal-arrows': 'nuolilla', compass: 'kompassilla' } },
 };
 
 const META_FLAVOR = {

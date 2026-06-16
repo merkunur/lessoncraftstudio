@@ -1,0 +1,1562 @@
+{
+  "locale": "pt",
+  "exerciseType": "word-guess",
+  "level": "1o-ano",
+  "rawRowCount": 95,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 47,
+    "normal": 45,
+    "(null)": 1
+  },
+  "totalValid": 93,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "normal",
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-acessorios-280e",
+      "siblings": [
+        "adivinhe-a-palavra-facil-acessorios-280e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-atividades-6476",
+      "siblings": [
+        "adivinhe-a-palavra-facil-atividades-6476"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-animais-aaf6",
+      "siblings": [
+        "adivinhe-a-palavra-facil-animais-aaf6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-pela-casa-0a4c",
+      "siblings": [
+        "adivinhe-a-palavra-facil-pela-casa-0a4c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-no-supermercado-1e39",
+      "siblings": [
+        "adivinhe-a-palavra-facil-no-supermercado-1e39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-padaria-de0c",
+      "siblings": [
+        "adivinhe-a-palavra-facil-padaria-de0c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-praia-9d3e",
+      "siblings": [
+        "adivinhe-a-palavra-facil-praia-9d3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-passaros-de22",
+      "siblings": [
+        "adivinhe-a-palavra-facil-passaros-de22"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-passaros-2-62e4",
+      "siblings": [
+        "adivinhe-a-palavra-facil-passaros-2-62e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-partes-do-corpo-3a1f",
+      "siblings": [
+        "adivinhe-a-palavra-facil-partes-do-corpo-3a1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-cafe-da-manha-7196",
+      "siblings": [
+        "adivinhe-a-palavra-facil-cafe-da-manha-7196"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-acampamento-423a",
+      "siblings": [
+        "adivinhe-a-palavra-facil-acampamento-423a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-natal-62bb",
+      "siblings": [
+        "adivinhe-a-palavra-facil-natal-62bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-sala-de-aula-6a74",
+      "siblings": [
+        "adivinhe-a-palavra-facil-sala-de-aula-6a74"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-roupas-4ed2",
+      "siblings": [
+        "adivinhe-a-palavra-facil-roupas-4ed2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-cores-b4d6",
+      "siblings": [
+        "adivinhe-a-palavra-facil-cores-b4d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-sobremesas-e-doces-de6c",
+      "siblings": [
+        "adivinhe-a-palavra-facil-sobremesas-e-doces-de6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-pascoa-bdb3",
+      "siblings": [
+        "adivinhe-a-palavra-facil-pascoa-bdb3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-emocoes-d024",
+      "siblings": [
+        "adivinhe-a-palavra-facil-emocoes-d024"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-animais-da-fazenda-0e67",
+      "siblings": [
+        "adivinhe-a-palavra-facil-animais-da-fazenda-0e67"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-flores-0aa9",
+      "siblings": [
+        "adivinhe-a-palavra-facil-flores-0aa9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-criaturas-da-floresta-aa42",
+      "siblings": [
+        "adivinhe-a-palavra-facil-criaturas-da-floresta-aa42"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-frutas-dee3",
+      "siblings": [
+        "adivinhe-a-palavra-facil-frutas-dee3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-moveis-f6b4",
+      "siblings": [
+        "adivinhe-a-palavra-facil-moveis-f6b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-hospital-aee3",
+      "siblings": [
+        "adivinhe-a-palavra-facil-hospital-aee3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-insetos-e-bichos-e2e7",
+      "siblings": [
+        "adivinhe-a-palavra-facil-insetos-e-bichos-e2e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-utensilios-de-cozinha-326c",
+      "siblings": [
+        "adivinhe-a-palavra-facil-utensilios-de-cozinha-326c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-diversos-e182",
+      "siblings": [
+        "adivinhe-a-palavra-facil-diversos-e182"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-musica-f54b",
+      "siblings": [
+        "adivinhe-a-palavra-facil-musica-f54b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-profissoes-1ef9",
+      "siblings": [
+        "adivinhe-a-palavra-facil-profissoes-1ef9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-vida-marinha-5a42",
+      "siblings": [
+        "adivinhe-a-palavra-facil-vida-marinha-5a42"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-animais-de-estimacao-d427",
+      "siblings": [
+        "adivinhe-a-palavra-facil-animais-de-estimacao-d427"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-repteis-e-anfibios-9d11",
+      "siblings": [
+        "adivinhe-a-palavra-facil-repteis-e-anfibios-9d11"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-formas-cf5b",
+      "siblings": [
+        "adivinhe-a-palavra-facil-formas-cf5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-espaco-4874",
+      "siblings": [
+        "adivinhe-a-palavra-facil-espaco-4874"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-primavera-b931",
+      "siblings": [
+        "adivinhe-a-palavra-facil-primavera-b931"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-verao-7f93",
+      "siblings": [
+        "adivinhe-a-palavra-facil-verao-7f93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-dia-de-acao-de-gracas-fa36",
+      "siblings": [
+        "adivinhe-a-palavra-facil-dia-de-acao-de-gracas-fa36"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-coisas-que-voam-bc9f",
+      "siblings": [
+        "adivinhe-a-palavra-facil-coisas-que-voam-bc9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-ferramentas-a168",
+      "siblings": [
+        "adivinhe-a-palavra-facil-ferramentas-a168"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-brinquedos-4aef",
+      "siblings": [
+        "adivinhe-a-palavra-facil-brinquedos-4aef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-arvores-f068",
+      "siblings": [
+        "adivinhe-a-palavra-facil-arvores-f068"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-vegetais-a49c",
+      "siblings": [
+        "adivinhe-a-palavra-facil-vegetais-a49c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-veiculos-bf96",
+      "siblings": [
+        "adivinhe-a-palavra-facil-veiculos-bf96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-clima-7d3f",
+      "siblings": [
+        "adivinhe-a-palavra-facil-clima-7d3f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-inverno-bd07",
+      "siblings": [
+        "adivinhe-a-palavra-facil-inverno-bd07"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-facil-animais-do-zoologico-dfb6",
+      "siblings": [
+        "adivinhe-a-palavra-facil-animais-do-zoologico-dfb6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-acessorios-0a76",
+      "siblings": [
+        "adivinhe-a-palavra-normal-acessorios-0a76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-atividades-7920",
+      "siblings": [
+        "adivinhe-a-palavra-normal-atividades-7920"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-animais-4223",
+      "siblings": [
+        "adivinhe-a-palavra-normal-animais-4223"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-pela-casa-db12",
+      "siblings": [
+        "adivinhe-a-palavra-normal-pela-casa-db12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-no-supermercado-af5a",
+      "siblings": [
+        "adivinhe-a-palavra-normal-no-supermercado-af5a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-padaria-43eb",
+      "siblings": [
+        "adivinhe-a-palavra-normal-padaria-43eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-praia-6e9f",
+      "siblings": [
+        "adivinhe-a-palavra-normal-praia-6e9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-passaros-291e",
+      "siblings": [
+        "adivinhe-a-palavra-normal-passaros-291e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-passaros-2-8843",
+      "siblings": [
+        "adivinhe-a-palavra-normal-passaros-2-8843"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-partes-do-corpo-d543",
+      "siblings": [
+        "adivinhe-a-palavra-normal-partes-do-corpo-d543"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-cafe-da-manha-12fd",
+      "siblings": [
+        "adivinhe-a-palavra-normal-cafe-da-manha-12fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-acampamento-657c",
+      "siblings": [
+        "adivinhe-a-palavra-normal-acampamento-657c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-natal-7e54",
+      "siblings": [
+        "adivinhe-a-palavra-normal-natal-7e54"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-sala-de-aula-cd69",
+      "siblings": [
+        "adivinhe-a-palavra-normal-sala-de-aula-cd69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-roupas-3cc7",
+      "siblings": [
+        "adivinhe-a-palavra-normal-roupas-3cc7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-cores-4ac1",
+      "siblings": [
+        "adivinhe-a-palavra-normal-cores-4ac1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-sobremesas-e-doces-2259",
+      "siblings": [
+        "adivinhe-a-palavra-normal-sobremesas-e-doces-2259"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-pascoa-1e4f",
+      "siblings": [
+        "adivinhe-a-palavra-normal-pascoa-1e4f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-emocoes-5242",
+      "siblings": [
+        "adivinhe-a-palavra-normal-emocoes-5242"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-animais-da-fazenda-3a41",
+      "siblings": [
+        "adivinhe-a-palavra-normal-animais-da-fazenda-3a41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-flores-2b6e",
+      "siblings": [
+        "adivinhe-a-palavra-normal-flores-2b6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-criaturas-da-floresta-3f40",
+      "siblings": [
+        "adivinhe-a-palavra-normal-criaturas-da-floresta-3f40"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-frutas-0c05",
+      "siblings": [
+        "adivinhe-a-palavra-normal-frutas-0c05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-moveis-9aa2",
+      "siblings": [
+        "adivinhe-a-palavra-normal-moveis-9aa2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-hospital-f6d9",
+      "siblings": [
+        "adivinhe-a-palavra-normal-hospital-f6d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-insetos-e-bichos-2578",
+      "siblings": [
+        "adivinhe-a-palavra-normal-insetos-e-bichos-2578"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-utensilios-de-cozinha-384e",
+      "siblings": [
+        "adivinhe-a-palavra-normal-utensilios-de-cozinha-384e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-musica-531c",
+      "siblings": [
+        "adivinhe-a-palavra-normal-musica-531c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-profissoes-87da",
+      "siblings": [
+        "adivinhe-a-palavra-normal-profissoes-87da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-vida-marinha-81c2",
+      "siblings": [
+        "adivinhe-a-palavra-normal-vida-marinha-81c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-animais-de-estimacao-aa3d",
+      "siblings": [
+        "adivinhe-a-palavra-normal-animais-de-estimacao-aa3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-repteis-e-anfibios-8477",
+      "siblings": [
+        "adivinhe-a-palavra-normal-repteis-e-anfibios-8477"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-formas-5f3d",
+      "siblings": [
+        "adivinhe-a-palavra-normal-formas-5f3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-espaco-a2d7",
+      "siblings": [
+        "adivinhe-a-palavra-normal-espaco-a2d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-primavera-64a7",
+      "siblings": [
+        "adivinhe-a-palavra-normal-primavera-64a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-verao-5113",
+      "siblings": [
+        "adivinhe-a-palavra-normal-verao-5113"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-dia-de-acao-de-gracas-5634",
+      "siblings": [
+        "adivinhe-a-palavra-normal-dia-de-acao-de-gracas-5634"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-coisas-que-voam-0510",
+      "siblings": [
+        "adivinhe-a-palavra-normal-coisas-que-voam-0510"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-ferramentas-c74a",
+      "siblings": [
+        "adivinhe-a-palavra-normal-ferramentas-c74a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-brinquedos-a978",
+      "siblings": [
+        "adivinhe-a-palavra-normal-brinquedos-a978"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-vegetais-2774",
+      "siblings": [
+        "adivinhe-a-palavra-normal-vegetais-2774"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-veiculos-0ddd",
+      "siblings": [
+        "adivinhe-a-palavra-normal-veiculos-0ddd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-clima-210a",
+      "siblings": [
+        "adivinhe-a-palavra-normal-clima-210a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-inverno-ef5a",
+      "siblings": [
+        "adivinhe-a-palavra-normal-inverno-ef5a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-normal-animais-do-zoologico-1acb",
+      "siblings": [
+        "adivinhe-a-palavra-normal-animais-do-zoologico-1acb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "adivinhe-a-palavra-animais",
+      "siblings": [
+        "adivinhe-a-palavra-animais"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    }
+  ]
+}

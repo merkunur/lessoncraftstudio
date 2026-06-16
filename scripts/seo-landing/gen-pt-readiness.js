@@ -59,7 +59,7 @@ function buildMode(mk){
   list.forEach((co,i)=>{
     const d = THEMES[co.theme];
     const c = cellAssign(i, sk.length, p2.length);
-    const lvl = co.level || cfg.level || 'educacao-infantil';
+    const lvl = co.level || (typeof cfg.level === 'function' ? cfg.level(mk) : cfg.level) || 'educacao-infantil';
     const nb1 = THEMES[list[(i+1)%list.length].theme], nb2 = THEMES[list[(i+7)%list.length].theme];
     const entry = {
       slug: co.canonicalDeckSlug,

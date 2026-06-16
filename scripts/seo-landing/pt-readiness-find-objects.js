@@ -26,7 +26,7 @@ module.exports = {
   strand: (mk) => (mk === 'find-odd' ? 'Discriminação visual' : 'Atenção visual'),
   slotWord: 'imagens',
   level: 'educacao-infantil',
-  h1: (mk, theme) => TOK(mk) + ': ' + theme.h1Display + ' – para a educação infantil',
+  h1: (mk) => TOK(mk) + ': {H1} – para a educação infantil',
   carousel: (mk, h1Display) => TOK(mk) + ' – ' + h1Display,
   modes: {
     'i-spy': {

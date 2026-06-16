@@ -1,0 +1,788 @@
+{
+  "locale": "pt",
+  "exerciseType": "matching",
+  "level": "educacao-infantil",
+  "rawRowCount": 94,
+  "rowsWithoutSubjectTag": 48,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "letter": 45
+  },
+  "totalValid": 45,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "letter"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "letter",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-acessorios-0684",
+      "siblings": [
+        "pareamento-letra-acessorios-0684"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-atividades-337e",
+      "siblings": [
+        "pareamento-letra-atividades-337e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-animais-c16f",
+      "siblings": [
+        "pareamento-letra-animais-c16f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-pela-casa-07f7",
+      "siblings": [
+        "pareamento-letra-pela-casa-07f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-no-supermercado-2439",
+      "siblings": [
+        "pareamento-letra-no-supermercado-2439"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-padaria-c876",
+      "siblings": [
+        "pareamento-letra-padaria-c876"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-praia-02dc",
+      "siblings": [
+        "pareamento-letra-praia-02dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-passaros-c288",
+      "siblings": [
+        "pareamento-letra-passaros-c288"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-passaros-2-56e9",
+      "siblings": [
+        "pareamento-letra-passaros-2-56e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-partes-do-corpo-6c4a",
+      "siblings": [
+        "pareamento-letra-partes-do-corpo-6c4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-cafe-da-manha-e291",
+      "siblings": [
+        "pareamento-letra-cafe-da-manha-e291"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-acampamento-fb12",
+      "siblings": [
+        "pareamento-letra-acampamento-fb12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-natal-8473",
+      "siblings": [
+        "pareamento-letra-natal-8473"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-sala-de-aula-419b",
+      "siblings": [
+        "pareamento-letra-sala-de-aula-419b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-roupas-c9f0",
+      "siblings": [
+        "pareamento-letra-roupas-c9f0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-cores-1a76",
+      "siblings": [
+        "pareamento-letra-cores-1a76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-sobremesas-e-doces-f593",
+      "siblings": [
+        "pareamento-letra-sobremesas-e-doces-f593"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-pascoa-e1c4",
+      "siblings": [
+        "pareamento-letra-pascoa-e1c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-emocoes-486b",
+      "siblings": [
+        "pareamento-letra-emocoes-486b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-animais-da-fazenda-3136",
+      "siblings": [
+        "pareamento-letra-animais-da-fazenda-3136"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-criaturas-da-floresta-ed1e",
+      "siblings": [
+        "pareamento-letra-criaturas-da-floresta-ed1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-frutas-4a74",
+      "siblings": [
+        "pareamento-letra-frutas-4a74"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-moveis-1b77",
+      "siblings": [
+        "pareamento-letra-moveis-1b77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-hospital-d8c2",
+      "siblings": [
+        "pareamento-letra-hospital-d8c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-insetos-e-bichos-5af9",
+      "siblings": [
+        "pareamento-letra-insetos-e-bichos-5af9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-utensilios-de-cozinha-b29a",
+      "siblings": [
+        "pareamento-letra-utensilios-de-cozinha-b29a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-musica-68d6",
+      "siblings": [
+        "pareamento-letra-musica-68d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-profissoes-e662",
+      "siblings": [
+        "pareamento-letra-profissoes-e662"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-vida-marinha-4cb0",
+      "siblings": [
+        "pareamento-letra-vida-marinha-4cb0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-animais-de-estimacao-95bb",
+      "siblings": [
+        "pareamento-letra-animais-de-estimacao-95bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-correios-142b",
+      "siblings": [
+        "pareamento-letra-correios-142b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-repteis-e-anfibios-5089",
+      "siblings": [
+        "pareamento-letra-repteis-e-anfibios-5089"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-formas-08cf",
+      "siblings": [
+        "pareamento-letra-formas-08cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-espaco-6910",
+      "siblings": [
+        "pareamento-letra-espaco-6910"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-primavera-1ba8",
+      "siblings": [
+        "pareamento-letra-primavera-1ba8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-verao-a5f5",
+      "siblings": [
+        "pareamento-letra-verao-a5f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-dia-de-acao-de-gracas-e897",
+      "siblings": [
+        "pareamento-letra-dia-de-acao-de-gracas-e897"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-coisas-que-voam-f6e7",
+      "siblings": [
+        "pareamento-letra-coisas-que-voam-f6e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-ferramentas-dabc",
+      "siblings": [
+        "pareamento-letra-ferramentas-dabc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-brinquedos-e317",
+      "siblings": [
+        "pareamento-letra-brinquedos-e317"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-vegetais-582b",
+      "siblings": [
+        "pareamento-letra-vegetais-582b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-veiculos-ae5c",
+      "siblings": [
+        "pareamento-letra-veiculos-ae5c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-clima-8e94",
+      "siblings": [
+        "pareamento-letra-clima-8e94"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-inverno-5f0f",
+      "siblings": [
+        "pareamento-letra-inverno-5f0f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-letra-animais-do-zoologico-f08f",
+      "siblings": [
+        "pareamento-letra-animais-do-zoologico-f08f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    }
+  ]
+}

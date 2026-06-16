@@ -33,9 +33,9 @@ module.exports = {
   strand: (mk) => (mk === 'letter-spotting' ? 'Consciência fonológica' : 'Atenção e contagem'),
   slotWord: 'imagens',
   level: 'educacao-infantil',
-  h1: (mk, theme) => (mk === 'letter-spotting'
-    ? 'Ache a letra: ' + theme.h1Display + ' – para a educação infantil'
-    : 'Procure e conte: ' + theme.h1Display + ' – para a educação infantil'),
+  h1: (mk) => (mk === 'letter-spotting'
+    ? 'Ache a letra: {H1} – para a educação infantil'
+    : 'Procure e conte: {H1} – para a educação infantil'),
   carousel: (mk, h1Display) => TOK(mk) + ' – ' + h1Display,
   modes: {
     'hidden-object': {

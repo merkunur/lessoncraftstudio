@@ -1,0 +1,1527 @@
+{
+  "locale": "pt",
+  "exerciseType": "word-scramble",
+  "level": "1o-ano",
+  "rawRowCount": 94,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 45,
+    "normal": 46
+  },
+  "totalValid": 91,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "normal"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-acessorios-4e1a",
+      "siblings": [
+        "letras-embaralhadas-facil-acessorios-4e1a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-atividades-651c",
+      "siblings": [
+        "letras-embaralhadas-facil-atividades-651c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-animais-6c34",
+      "siblings": [
+        "letras-embaralhadas-facil-animais-6c34"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-pela-casa-2798",
+      "siblings": [
+        "letras-embaralhadas-facil-pela-casa-2798"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-no-supermercado-9cbb",
+      "siblings": [
+        "letras-embaralhadas-facil-no-supermercado-9cbb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-padaria-377f",
+      "siblings": [
+        "letras-embaralhadas-facil-padaria-377f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-praia-f393",
+      "siblings": [
+        "letras-embaralhadas-facil-praia-f393"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-passaros-7179",
+      "siblings": [
+        "letras-embaralhadas-facil-passaros-7179"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-passaros-2-d89b",
+      "siblings": [
+        "letras-embaralhadas-facil-passaros-2-d89b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-partes-do-corpo-1af8",
+      "siblings": [
+        "letras-embaralhadas-facil-partes-do-corpo-1af8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-cafe-da-manha-9ed0",
+      "siblings": [
+        "letras-embaralhadas-facil-cafe-da-manha-9ed0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-acampamento-1f91",
+      "siblings": [
+        "letras-embaralhadas-facil-acampamento-1f91"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-sala-de-aula-b76d",
+      "siblings": [
+        "letras-embaralhadas-facil-sala-de-aula-b76d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-roupas-059f",
+      "siblings": [
+        "letras-embaralhadas-facil-roupas-059f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-cores-7124",
+      "siblings": [
+        "letras-embaralhadas-facil-cores-7124"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-sobremesas-e-doces-b6f4",
+      "siblings": [
+        "letras-embaralhadas-facil-sobremesas-e-doces-b6f4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-pascoa-9450",
+      "siblings": [
+        "letras-embaralhadas-facil-pascoa-9450"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-emocoes-acc7",
+      "siblings": [
+        "letras-embaralhadas-facil-emocoes-acc7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-animais-da-fazenda-a1e7",
+      "siblings": [
+        "letras-embaralhadas-facil-animais-da-fazenda-a1e7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-flores-0eba",
+      "siblings": [
+        "letras-embaralhadas-facil-flores-0eba"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-criaturas-da-floresta-b585",
+      "siblings": [
+        "letras-embaralhadas-facil-criaturas-da-floresta-b585"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-frutas-ef82",
+      "siblings": [
+        "letras-embaralhadas-facil-frutas-ef82"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-moveis-b6bd",
+      "siblings": [
+        "letras-embaralhadas-facil-moveis-b6bd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-hospital-4c1f",
+      "siblings": [
+        "letras-embaralhadas-facil-hospital-4c1f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-insetos-e-bichos-d6d6",
+      "siblings": [
+        "letras-embaralhadas-facil-insetos-e-bichos-d6d6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-utensilios-de-cozinha-98e1",
+      "siblings": [
+        "letras-embaralhadas-facil-utensilios-de-cozinha-98e1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-musica-8807",
+      "siblings": [
+        "letras-embaralhadas-facil-musica-8807"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-profissoes-938d",
+      "siblings": [
+        "letras-embaralhadas-facil-profissoes-938d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-vida-marinha-a031",
+      "siblings": [
+        "letras-embaralhadas-facil-vida-marinha-a031"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-animais-de-estimacao-9fbf",
+      "siblings": [
+        "letras-embaralhadas-facil-animais-de-estimacao-9fbf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-correios-7ebd",
+      "siblings": [
+        "letras-embaralhadas-facil-correios-7ebd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-repteis-e-anfibios-0095",
+      "siblings": [
+        "letras-embaralhadas-facil-repteis-e-anfibios-0095"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-formas-5707",
+      "siblings": [
+        "letras-embaralhadas-facil-formas-5707"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-espaco-c1a0",
+      "siblings": [
+        "letras-embaralhadas-facil-espaco-c1a0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-primavera-ca71",
+      "siblings": [
+        "letras-embaralhadas-facil-primavera-ca71"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-verao-2fbd",
+      "siblings": [
+        "letras-embaralhadas-facil-verao-2fbd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-dia-de-acao-de-gracas-d741",
+      "siblings": [
+        "letras-embaralhadas-facil-dia-de-acao-de-gracas-d741"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-coisas-que-voam-0204",
+      "siblings": [
+        "letras-embaralhadas-facil-coisas-que-voam-0204"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-ferramentas-94cc",
+      "siblings": [
+        "letras-embaralhadas-facil-ferramentas-94cc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-brinquedos-3d11",
+      "siblings": [
+        "letras-embaralhadas-facil-brinquedos-3d11"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-vegetais-5b03",
+      "siblings": [
+        "letras-embaralhadas-facil-vegetais-5b03"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-veiculos-d71f",
+      "siblings": [
+        "letras-embaralhadas-facil-veiculos-d71f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-clima-48d3",
+      "siblings": [
+        "letras-embaralhadas-facil-clima-48d3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-inverno-f073",
+      "siblings": [
+        "letras-embaralhadas-facil-inverno-f073"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-facil-animais-do-zoologico-2a2e",
+      "siblings": [
+        "letras-embaralhadas-facil-animais-do-zoologico-2a2e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-acessorios-b18a",
+      "siblings": [
+        "letras-embaralhadas-normal-acessorios-b18a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-atividades-a700",
+      "siblings": [
+        "letras-embaralhadas-normal-atividades-a700"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-animais-1eab",
+      "siblings": [
+        "letras-embaralhadas-normal-animais-1eab"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-pela-casa-ad31",
+      "siblings": [
+        "letras-embaralhadas-normal-pela-casa-ad31"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-no-supermercado-9e8f",
+      "siblings": [
+        "letras-embaralhadas-normal-no-supermercado-9e8f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-padaria-50ff",
+      "siblings": [
+        "letras-embaralhadas-normal-padaria-50ff"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-praia-7131",
+      "siblings": [
+        "letras-embaralhadas-normal-praia-7131"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-passaros-3a6a",
+      "siblings": [
+        "letras-embaralhadas-normal-passaros-3a6a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-passaros-2-66b3",
+      "siblings": [
+        "letras-embaralhadas-normal-passaros-2-66b3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-partes-do-corpo-cba1",
+      "siblings": [
+        "letras-embaralhadas-normal-partes-do-corpo-cba1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-cafe-da-manha-0268",
+      "siblings": [
+        "letras-embaralhadas-normal-cafe-da-manha-0268"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-acampamento-c519",
+      "siblings": [
+        "letras-embaralhadas-normal-acampamento-c519"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-natal-6984",
+      "siblings": [
+        "letras-embaralhadas-normal-natal-6984"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-sala-de-aula-b6f9",
+      "siblings": [
+        "letras-embaralhadas-normal-sala-de-aula-b6f9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-roupas-4db7",
+      "siblings": [
+        "letras-embaralhadas-normal-roupas-4db7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-cores-472c",
+      "siblings": [
+        "letras-embaralhadas-normal-cores-472c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-sobremesas-e-doces-a75f",
+      "siblings": [
+        "letras-embaralhadas-normal-sobremesas-e-doces-a75f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-pascoa-c406",
+      "siblings": [
+        "letras-embaralhadas-normal-pascoa-c406"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-emocoes-000b",
+      "siblings": [
+        "letras-embaralhadas-normal-emocoes-000b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-animais-da-fazenda-6380",
+      "siblings": [
+        "letras-embaralhadas-normal-animais-da-fazenda-6380"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-flores-2b6d",
+      "siblings": [
+        "letras-embaralhadas-normal-flores-2b6d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-criaturas-da-floresta-19c0",
+      "siblings": [
+        "letras-embaralhadas-normal-criaturas-da-floresta-19c0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-frutas-ab87",
+      "siblings": [
+        "letras-embaralhadas-normal-frutas-ab87"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-moveis-7bd4",
+      "siblings": [
+        "letras-embaralhadas-normal-moveis-7bd4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-hospital-7370",
+      "siblings": [
+        "letras-embaralhadas-normal-hospital-7370"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-insetos-e-bichos-b2ae",
+      "siblings": [
+        "letras-embaralhadas-normal-insetos-e-bichos-b2ae"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-utensilios-de-cozinha-5541",
+      "siblings": [
+        "letras-embaralhadas-normal-utensilios-de-cozinha-5541"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-musica-bf2c",
+      "siblings": [
+        "letras-embaralhadas-normal-musica-bf2c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-profissoes-6279",
+      "siblings": [
+        "letras-embaralhadas-normal-profissoes-6279"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-vida-marinha-319e",
+      "siblings": [
+        "letras-embaralhadas-normal-vida-marinha-319e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-animais-de-estimacao-a096",
+      "siblings": [
+        "letras-embaralhadas-normal-animais-de-estimacao-a096"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-correios-876c",
+      "siblings": [
+        "letras-embaralhadas-normal-correios-876c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-repteis-e-anfibios-de62",
+      "siblings": [
+        "letras-embaralhadas-normal-repteis-e-anfibios-de62"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-formas-c02e",
+      "siblings": [
+        "letras-embaralhadas-normal-formas-c02e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-espaco-b2db",
+      "siblings": [
+        "letras-embaralhadas-normal-espaco-b2db"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-primavera-1b5c",
+      "siblings": [
+        "letras-embaralhadas-normal-primavera-1b5c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-verao-9eff",
+      "siblings": [
+        "letras-embaralhadas-normal-verao-9eff"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-dia-de-acao-de-gracas-855b",
+      "siblings": [
+        "letras-embaralhadas-normal-dia-de-acao-de-gracas-855b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-coisas-que-voam-6a7a",
+      "siblings": [
+        "letras-embaralhadas-normal-coisas-que-voam-6a7a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-ferramentas-4f23",
+      "siblings": [
+        "letras-embaralhadas-normal-ferramentas-4f23"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-brinquedos-5e9b",
+      "siblings": [
+        "letras-embaralhadas-normal-brinquedos-5e9b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-vegetais-045f",
+      "siblings": [
+        "letras-embaralhadas-normal-vegetais-045f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-veiculos-df70",
+      "siblings": [
+        "letras-embaralhadas-normal-veiculos-df70"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-clima-3ad3",
+      "siblings": [
+        "letras-embaralhadas-normal-clima-3ad3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-inverno-a95f",
+      "siblings": [
+        "letras-embaralhadas-normal-inverno-a95f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": "normal",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "letras-embaralhadas-normal-animais-do-zoologico-bcdc",
+      "siblings": [
+        "letras-embaralhadas-normal-animais-do-zoologico-bcdc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    }
+  ]
+}

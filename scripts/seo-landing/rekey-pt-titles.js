@@ -58,7 +58,7 @@ const TYPE_MAP = {
   'picture-trail': { op: 'Labirinto', qual: {} },
   'picture-sort': { op: 'Separar e classificar', qual: {} },
   'odd-one-out': { op: 'Ache o intruso', qual: { 'cross-theme': 'temas misturados' } },
-  sudoku: { op: 'Sudoku ilustrado', qual: { easy: 'fácil', medium: 'médio' } },
+  sudoku: { op: 'Sudoku ilustrado', qual: { easy: 'fácil', medium: 'médio', hard: 'difícil' } },
   'treasure-hunt': { op: 'Caça ao tesouro', qual: { 'cardinal-arrows': 'com setas', compass: 'com bússola' } },
   'alphabet-train': { op: 'Ordem alfabética', qual: {} },
   matching: { op: { letter: 'Som inicial', name: 'Leia a palavra' }, qual: {} },

@@ -1,0 +1,839 @@
+{
+  "locale": "pt",
+  "exerciseType": "pattern-worksheet",
+  "level": "educacao-infantil",
+  "rawRowCount": 50,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 48
+  },
+  "totalValid": 48,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-acessorios-1de0",
+      "siblings": [
+        "atividade-de-padroes-acessorios-1de0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-atividades-ebea",
+      "siblings": [
+        "atividade-de-padroes-atividades-ebea"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-animais-febb",
+      "siblings": [
+        "atividade-de-padroes-animais-febb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-pela-casa-282b",
+      "siblings": [
+        "atividade-de-padroes-pela-casa-282b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-no-supermercado-5b55",
+      "siblings": [
+        "atividade-de-padroes-no-supermercado-5b55"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-padaria-7866",
+      "siblings": [
+        "atividade-de-padroes-padaria-7866"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-praia-c163",
+      "siblings": [
+        "atividade-de-padroes-praia-c163"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-passaros-6cb7",
+      "siblings": [
+        "atividade-de-padroes-passaros-6cb7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-passaros-2-34c9",
+      "siblings": [
+        "atividade-de-padroes-passaros-2-34c9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-partes-do-corpo-f0f6",
+      "siblings": [
+        "atividade-de-padroes-partes-do-corpo-f0f6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-cafe-da-manha-de50",
+      "siblings": [
+        "atividade-de-padroes-cafe-da-manha-de50"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-acampamento-fc8c",
+      "siblings": [
+        "atividade-de-padroes-acampamento-fc8c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-natal-c593",
+      "siblings": [
+        "atividade-de-padroes-natal-c593"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-sala-de-aula-250a",
+      "siblings": [
+        "atividade-de-padroes-sala-de-aula-250a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-roupas-d1c4",
+      "siblings": [
+        "atividade-de-padroes-roupas-d1c4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-cores-fdb6",
+      "siblings": [
+        "atividade-de-padroes-cores-fdb6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-sobremesas-e-doces-05ce",
+      "siblings": [
+        "atividade-de-padroes-sobremesas-e-doces-05ce"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-dinossauros-88e7",
+      "siblings": [
+        "atividade-de-padroes-dinossauros-88e7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-pascoa-2890",
+      "siblings": [
+        "atividade-de-padroes-pascoa-2890"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-emocoes-fb20",
+      "siblings": [
+        "atividade-de-padroes-emocoes-fb20"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-animais-da-fazenda-ae4d",
+      "siblings": [
+        "atividade-de-padroes-animais-da-fazenda-ae4d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-flores-7810",
+      "siblings": [
+        "atividade-de-padroes-flores-7810"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-criaturas-da-floresta-2ced",
+      "siblings": [
+        "atividade-de-padroes-criaturas-da-floresta-2ced"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-frutas-62b9",
+      "siblings": [
+        "atividade-de-padroes-frutas-62b9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-moveis-3a5d",
+      "siblings": [
+        "atividade-de-padroes-moveis-3a5d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-hospital-6d29",
+      "siblings": [
+        "atividade-de-padroes-hospital-6d29"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-insetos-e-bichos-511b",
+      "siblings": [
+        "atividade-de-padroes-insetos-e-bichos-511b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-utensilios-de-cozinha-fcf6",
+      "siblings": [
+        "atividade-de-padroes-utensilios-de-cozinha-fcf6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-musica-c076",
+      "siblings": [
+        "atividade-de-padroes-musica-c076"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-profissoes-6d9c",
+      "siblings": [
+        "atividade-de-padroes-profissoes-6d9c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-vida-marinha-c6df",
+      "siblings": [
+        "atividade-de-padroes-vida-marinha-c6df"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-animais-de-estimacao-f0de",
+      "siblings": [
+        "atividade-de-padroes-animais-de-estimacao-f0de"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-correios-23ac",
+      "siblings": [
+        "atividade-de-padroes-correios-23ac"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-repteis-e-anfibios-167d",
+      "siblings": [
+        "atividade-de-padroes-repteis-e-anfibios-167d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-formas-0748",
+      "siblings": [
+        "atividade-de-padroes-formas-0748"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-espaco-1f81",
+      "siblings": [
+        "atividade-de-padroes-espaco-1f81"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-primavera-8dcf",
+      "siblings": [
+        "atividade-de-padroes-primavera-8dcf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-verao-d88c",
+      "siblings": [
+        "atividade-de-padroes-verao-d88c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-dia-de-acao-de-gracas-1fa8",
+      "siblings": [
+        "atividade-de-padroes-dia-de-acao-de-gracas-1fa8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-coisas-que-voam-0c5c",
+      "siblings": [
+        "atividade-de-padroes-coisas-que-voam-0c5c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-ferramentas-ccec",
+      "siblings": [
+        "atividade-de-padroes-ferramentas-ccec"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-brinquedos-50f4",
+      "siblings": [
+        "atividade-de-padroes-brinquedos-50f4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-arvores-70fe",
+      "siblings": [
+        "atividade-de-padroes-arvores-70fe"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-vegetais-0c50",
+      "siblings": [
+        "atividade-de-padroes-vegetais-0c50"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-veiculos-4e19",
+      "siblings": [
+        "atividade-de-padroes-veiculos-4e19"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-clima-07f3",
+      "siblings": [
+        "atividade-de-padroes-clima-07f3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-inverno-770b",
+      "siblings": [
+        "atividade-de-padroes-inverno-770b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-padroes-animais-do-zoologico-c6a4",
+      "siblings": [
+        "atividade-de-padroes-animais-do-zoologico-c6a4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    }
+  ]
+}

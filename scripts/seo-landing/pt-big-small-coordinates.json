@@ -1,0 +1,1469 @@
+{
+  "locale": "pt",
+  "exerciseType": "big-small",
+  "level": "educacao-infantil",
+  "rawRowCount": 144,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "findBig": 49,
+    "orderAsc": 49
+  },
+  "totalValid": 84,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "findBig",
+    "orderAsc"
+  ],
+  "collapsedFamilies": 42,
+  "invalidRetired": [
+    "findBig/activities — INVALID: activities has no orderable physical size for a size mechanic",
+    "findBig/colors — INVALID: colors has no orderable physical size for a size mechanic",
+    "findBig/emotions — INVALID: emotions has no orderable physical size for a size mechanic",
+    "findBig/spring — INVALID: spring has no orderable physical size for a size mechanic",
+    "findBig/summer — INVALID: summer has no orderable physical size for a size mechanic",
+    "findBig/weather — INVALID: weather has no orderable physical size for a size mechanic",
+    "findBig/winter — INVALID: winter has no orderable physical size for a size mechanic",
+    "orderAsc/activities — INVALID: activities has no orderable physical size for a size mechanic",
+    "orderAsc/colors — INVALID: colors has no orderable physical size for a size mechanic",
+    "orderAsc/emotions — INVALID: emotions has no orderable physical size for a size mechanic",
+    "orderAsc/spring — INVALID: spring has no orderable physical size for a size mechanic",
+    "orderAsc/summer — INVALID: summer has no orderable physical size for a size mechanic",
+    "orderAsc/weather — INVALID: weather has no orderable physical size for a size mechanic",
+    "orderAsc/winter — INVALID: winter has no orderable physical size for a size mechanic"
+  ],
+  "coordinates": [
+    {
+      "mode": "findBig",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-acessorios-5729",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-acessorios-5729",
+        "grande-pequeno-encontre-o-grande-acessorios-da1a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-animais-bd82",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-animais-bd82",
+        "grande-pequeno-encontre-o-grande-animais-eb3f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-pela-casa-ff2f",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-pela-casa-ff2f",
+        "grande-pequeno-encontre-o-grande-pela-casa-fe53"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-no-supermercado-9935",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-no-supermercado-9935",
+        "grande-pequeno-encontre-o-grande-no-supermercado-3a5c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-padaria-ce84",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-padaria-ce84",
+        "grande-pequeno-encontre-o-grande-padaria-6611"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-praia-e8e3",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-praia-e8e3",
+        "grande-pequeno-encontre-o-grande-praia-ab76"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-passaros-b343",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-passaros-b343"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-passaros-2-23dc",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-passaros-2-23dc",
+        "grande-pequeno-encontre-o-grande-passaros-2-35b9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-partes-do-corpo-7b87",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-partes-do-corpo-7b87",
+        "grande-pequeno-encontre-o-grande-partes-do-corpo-11a2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-cafe-da-manha-60f5",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-cafe-da-manha-60f5",
+        "grande-pequeno-encontre-o-grande-cafe-da-manha-2ca5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-acampamento-ec7c",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-acampamento-ec7c",
+        "grande-pequeno-encontre-o-grande-acampamento-03d7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-natal-5847",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-natal-5847",
+        "grande-pequeno-encontre-o-grande-natal-abbd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-sala-de-aula-b39a",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-sala-de-aula-b39a",
+        "grande-pequeno-encontre-o-grande-sala-de-aula-44c5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-roupas-64a1",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-roupas-64a1",
+        "grande-pequeno-encontre-o-grande-roupas-691b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-sobremesas-e-doces-bb91",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-sobremesas-e-doces-bb91",
+        "grande-pequeno-encontre-o-grande-sobremesas-e-doces-4239"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-dinossauros-7a56",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-dinossauros-7a56",
+        "grande-pequeno-encontre-o-grande-dinossauros-cb8f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-pascoa-2caf",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-pascoa-2caf",
+        "grande-pequeno-encontre-o-grande-pascoa-86fc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-animais-da-fazenda-f7f9",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-animais-da-fazenda-f7f9",
+        "grande-pequeno-encontre-o-grande-animais-da-fazenda-b4ff"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-flores-d5cf",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-flores-d5cf",
+        "grande-pequeno-encontre-o-grande-flores-7c50"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-criaturas-da-floresta-aa82",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-criaturas-da-floresta-aa82",
+        "grande-pequeno-encontre-o-grande-criaturas-da-floresta-76a2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-frutas-2169",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-frutas-2169",
+        "grande-pequeno-encontre-o-grande-frutas-34b4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-moveis-f91c",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-moveis-f91c",
+        "grande-pequeno-encontre-o-grande-moveis-da2c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-hospital-ec48",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-hospital-ec48",
+        "grande-pequeno-encontre-o-grande-hospital-9356"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-insetos-e-bichos-f278",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-insetos-e-bichos-f278"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-utensilios-de-cozinha-1525",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-utensilios-de-cozinha-1525",
+        "grande-pequeno-encontre-o-grande-utensilios-de-cozinha-cc35"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-diversos-1ec2",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-diversos-1ec2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-musica-3472",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-musica-3472",
+        "grande-pequeno-encontre-o-grande-musica-48ff"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-profissoes-b217",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-profissoes-b217",
+        "grande-pequeno-encontre-o-grande-profissoes-d1bf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-vida-marinha-5440",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-vida-marinha-5440",
+        "grande-pequeno-encontre-o-grande-vida-marinha-0213"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-animais-de-estimacao-8881",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-animais-de-estimacao-8881",
+        "grande-pequeno-encontre-o-grande-animais-de-estimacao-e5a6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-correios-e58e",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-correios-e58e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-repteis-e-anfibios-2f3e",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-repteis-e-anfibios-2f3e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-formas-11e5",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-formas-11e5",
+        "grande-pequeno-encontre-o-grande-formas-8c57"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-espaco-4394",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-espaco-4394",
+        "grande-pequeno-encontre-o-grande-espaco-9a70"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-dia-de-acao-de-gracas-5214",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-dia-de-acao-de-gracas-5214"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-coisas-que-voam-db33",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-coisas-que-voam-db33",
+        "grande-pequeno-encontre-o-grande-coisas-que-voam-96ec"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-ferramentas-4c24",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-ferramentas-4c24",
+        "grande-pequeno-encontre-o-grande-ferramentas-e197"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-brinquedos-335a",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-brinquedos-335a",
+        "grande-pequeno-encontre-o-grande-brinquedos-89de"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-arvores-478d",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-arvores-478d",
+        "grande-pequeno-encontre-o-grande-arvores-c30a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-vegetais-01e0",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-vegetais-01e0",
+        "grande-pequeno-encontre-o-grande-vegetais-6cea"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-veiculos-e9d6",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-veiculos-e9d6",
+        "grande-pequeno-encontre-o-grande-veiculos-a5ba"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "findBig",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonicalDeckSlug": "grande-pequeno-encontre-o-grande-animais-do-zoologico-f7a2",
+      "siblings": [
+        "grande-pequeno-encontre-o-grande-animais-do-zoologico-f7a2",
+        "grande-pequeno-encontre-o-grande-animais-do-zoologico-d3fd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-acessorios-83a4",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-acessorios-83a4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-animais-1f13",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-animais-1f13"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-pela-casa-e936",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-pela-casa-e936"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-no-supermercado-2729",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-no-supermercado-2729"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-padaria-36b2",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-padaria-36b2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-praia-f1c4",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-praia-f1c4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-passaros-485b",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-passaros-485b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-passaros-2-6c3c",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-passaros-2-6c3c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-partes-do-corpo-0afd",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-partes-do-corpo-0afd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-cafe-da-manha-d548",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-cafe-da-manha-d548"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-acampamento-2c28",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-acampamento-2c28"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-natal-e798",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-natal-e798"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-sala-de-aula-8a42",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-sala-de-aula-8a42"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-roupas-a908",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-roupas-a908"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-sobremesas-e-doces-20f2",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-sobremesas-e-doces-20f2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-dinossauros-3161",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-dinossauros-3161"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-pascoa-6f2d",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-pascoa-6f2d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-animais-da-fazenda-f206",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-animais-da-fazenda-f206"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-flores-e9c9",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-flores-e9c9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-criaturas-da-floresta-74e9",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-criaturas-da-floresta-74e9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-frutas-4b0e",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-frutas-4b0e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-moveis-42ec",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-moveis-42ec"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-hospital-4e23",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-hospital-4e23"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-insetos-e-bichos-a0ee",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-insetos-e-bichos-a0ee"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-utensilios-de-cozinha-7b8e",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-utensilios-de-cozinha-7b8e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-diversos-0a76",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-diversos-0a76"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-musica-f189",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-musica-f189"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-profissoes-68f8",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-profissoes-68f8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-vida-marinha-ae1c",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-vida-marinha-ae1c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-animais-de-estimacao-f257",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-animais-de-estimacao-f257"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-correios-5914",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-correios-5914"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-repteis-e-anfibios-9a28",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-repteis-e-anfibios-9a28"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-formas-cfba",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-formas-cfba"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-espaco-254d",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-espaco-254d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-dia-de-acao-de-gracas-09f6",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-dia-de-acao-de-gracas-09f6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-coisas-que-voam-5eca",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-coisas-que-voam-5eca"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-ferramentas-0306",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-ferramentas-0306"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-brinquedos-67e1",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-brinquedos-67e1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-arvores-0b71",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-arvores-0b71"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-vegetais-8228",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-vegetais-8228"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-veiculos-b6b5",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-veiculos-b6b5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "grande-pequeno-ordem-crescente-animais-do-zoologico-4b2c",
+      "siblings": [
+        "grande-pequeno-ordem-crescente-animais-do-zoologico-4b2c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "educacao-infantil"
+    }
+  ]
+}

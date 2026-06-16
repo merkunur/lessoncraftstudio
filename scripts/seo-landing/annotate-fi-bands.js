@@ -5,11 +5,12 @@
  * writes them back into the coordinate JSON. Coords whose max > 100 are DROPPED (above the K-2 ceiling).
  * Clone of annotate-pt-bands.js (fi AGE-ANCHORED bands). MUST run on Hetzner (reads /var/www/lcs-media/decks/fi/).
  *
- * Band map (fi ledger; by child-seen max quantity):
- *   ≤10  → esikoulu   K.OA.A.2
- *   ≤20  → 1-luokka   1.OA.C.6
- *   ≤100 → 2-luokka   2.NBT.B.5
+ * Band map (fi ledger; by child-seen max quantity; NO esikoulu — symbolic arithmetic always CARRIES):
+ *   ≤10  → 1-luokka   K.OA.A.2  (find-addend K.OA.A.4)         range 0–10 + ilman kymmenylitystä
+ *   ≤20  → 1-luokka   1.OA.C.6  (find-subtrahend 1.OA.D.8)     range 0–20
+ *   ≤100 → 2-luokka   2.NBT.B.5                                range 0–100
  *   >100 → DROP (above the K-2 ceiling)
+ * Covers all 5 arithmetic types (addition, subtraction, math-puzzle, math-worksheet, code-addition).
  * Usage: node annotate-fi-bands.js <coords.json> --type=math-worksheet [--locale=fi] [--source=deck-html]
  */
 'use strict';
@@ -69,15 +70,24 @@ function maxNumInManifest(slug) {
   });
   return got ? max : null;
 }
-function bandFor(type, max) {
-  // Uniform by child-seen max for every band-split arithmetic type in the fi fan.
-  if (type === 'math-worksheet' || type === 'math-puzzle' || type === 'code-addition') {
-    if (max <= 10) return { level: 'esikoulu', standard: 'K.OA.A.2' };
-    if (max <= 20) return { level: '1-luokka', standard: '1.OA.C.6' };
-    if (max <= 100) return { level: '2-luokka', standard: '2.NBT.B.5' };
-    return null;
-  }
-  return null;
+function bandFor(type, mode, max) {
+  // ALL 5 symbolic-arithmetic types band-split by child-seen max. NO esikoulu tier — a symbolic
+  // sum is NEVER the no-standard readiness band (the sv §22.5 within-10-symbolic=grade-1 ruling /
+  // förskola=no-standard invariant). Band floor = 1-luokka; >100 dropped (above the K-2 ceiling).
+  // The CCSS code (machine targetName) is decoupled from the band: K.OA.A.2 stays on a within-10
+  // deck so the rekey's RANGE_BY_STANDARD yields the honest "0–10" range + "ilman kymmenylitystä",
+  // even though the grade chip reads 1. luokka.
+  const ARITH = new Set(['addition', 'subtraction', 'math-puzzle', 'math-worksheet', 'code-addition']);
+  if (!ARITH.has(type)) return null;
+  if (max > 100) return null;
+  const level = max <= 20 ? '1-luokka' : '2-luokka';
+  let standard;
+  if (mode === 'find-addend')        standard = max <= 10 ? 'K.OA.A.4' : (max <= 20 ? '1.OA.A.1' : '2.NBT.B.5');
+  else if (mode === 'find-subtrahend') standard = max <= 20 ? '1.OA.D.8' : '2.NBT.B.5';
+  else if (max <= 10)  standard = 'K.OA.A.2';
+  else if (max <= 20)  standard = '1.OA.C.6';
+  else                 standard = '2.NBT.B.5';
+  return { level, standard };
 }
 
 const out = [], drops = [], unparseable = [];
@@ -86,7 +96,7 @@ coords.forEach(co => {
   let coMax = 0, gotAny = false;
   decks.forEach(s => { const r = SOURCE === 'deck-html' ? maxNumInDeckHtml(s) : maxNumInManifest(s); if (r !== null) { gotAny = true; if (r > coMax) coMax = r; } });
   if (!gotAny) { unparseable.push((co.mode || '') + '/' + co.theme); return; }
-  const b = bandFor(TYPE, coMax);
+  const b = bandFor(TYPE, co.mode, coMax);
   if (!b) { drops.push((co.mode || '') + '/' + co.theme + ' (max=' + coMax + ')'); return; }
   out.push(Object.assign({}, co, { level: b.level, standard: b.standard, _max: coMax }));
 });

@@ -1,0 +1,469 @@
+{
+ "locale": "pt",
+ "exerciseType": "crossword",
+ "source": "thumbnail-recovery",
+ "totalValid": 46,
+ "coordinates": [
+  {
+   "mode": null,
+   "theme": "accessories",
+   "canonicalDeckSlug": "palavras-cruzadas-3d14",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-3d14"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "activities",
+   "canonicalDeckSlug": "palavras-cruzadas-8072",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-8072"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "animals",
+   "canonicalDeckSlug": "palavras-cruzadas",
+   "n": 2,
+   "siblings": [
+    "palavras-cruzadas",
+    "palavras-cruzadas-2819"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "palavras-cruzadas-72b2",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-72b2"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "palavras-cruzadas-121d",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-121d"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "bakery",
+   "canonicalDeckSlug": "palavras-cruzadas-42cf",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-42cf"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "beach",
+   "canonicalDeckSlug": "palavras-cruzadas-d989",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-d989"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "birds_2",
+   "canonicalDeckSlug": "palavras-cruzadas-673e",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-673e"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "body_parts",
+   "canonicalDeckSlug": "palavras-cruzadas-28ad",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-28ad"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "breakfast",
+   "canonicalDeckSlug": "palavras-cruzadas-4ddc",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-4ddc"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "camping",
+   "canonicalDeckSlug": "palavras-cruzadas-1839",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-1839"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "christmas",
+   "canonicalDeckSlug": "palavras-cruzadas-3069",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-3069"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "classroom",
+   "canonicalDeckSlug": "palavras-cruzadas-bacf",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-bacf"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "clothing",
+   "canonicalDeckSlug": "palavras-cruzadas-1030",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-1030"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "colors",
+   "canonicalDeckSlug": "palavras-cruzadas-deb5",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-deb5"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "palavras-cruzadas-ea6a",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-ea6a"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "easter",
+   "canonicalDeckSlug": "palavras-cruzadas-819b",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-819b"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "emotions",
+   "canonicalDeckSlug": "palavras-cruzadas-8e4b",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-8e4b"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "palavras-cruzadas-f876",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-f876"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "flowers",
+   "canonicalDeckSlug": "palavras-cruzadas-1169",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-1169"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "palavras-cruzadas-0a68",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-0a68"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "fruits",
+   "canonicalDeckSlug": "palavras-cruzadas-b2fd",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-b2fd"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "furniture",
+   "canonicalDeckSlug": "palavras-cruzadas-aa3b",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-aa3b"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "hospital",
+   "canonicalDeckSlug": "palavras-cruzadas-a3ff",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-a3ff"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "palavras-cruzadas-ba19",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-ba19"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "palavras-cruzadas-d798",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-d798"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "palavras-cruzadas-673b",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-673b"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "music",
+   "canonicalDeckSlug": "palavras-cruzadas-7dd5",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-7dd5"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "occupations",
+   "canonicalDeckSlug": "palavras-cruzadas-7bab",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-7bab"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "palavras-cruzadas-025f",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-025f"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "pets",
+   "canonicalDeckSlug": "palavras-cruzadas-093d",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-093d"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "post_office",
+   "canonicalDeckSlug": "palavras-cruzadas-4a91",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-4a91"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "palavras-cruzadas-bda5",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-bda5"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "shapes",
+   "canonicalDeckSlug": "palavras-cruzadas-5308",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-5308"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "space",
+   "canonicalDeckSlug": "palavras-cruzadas-d024",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-d024"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "spring",
+   "canonicalDeckSlug": "palavras-cruzadas-950d",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-950d"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "summer",
+   "canonicalDeckSlug": "palavras-cruzadas-ead7",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-ead7"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "palavras-cruzadas-4e95",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-4e95"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "palavras-cruzadas-ffa0",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-ffa0"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "tools",
+   "canonicalDeckSlug": "palavras-cruzadas-f126",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-f126"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "toys",
+   "canonicalDeckSlug": "palavras-cruzadas-7819",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-7819"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "vegetables",
+   "canonicalDeckSlug": "palavras-cruzadas-2f49",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-2f49"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "vehicles",
+   "canonicalDeckSlug": "palavras-cruzadas-d960",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-d960"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "weather",
+   "canonicalDeckSlug": "palavras-cruzadas-0c8e",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-0c8e"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "winter",
+   "canonicalDeckSlug": "palavras-cruzadas-6015",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-6015"
+   ],
+   "level": "2o-ano"
+  },
+  {
+   "mode": null,
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "palavras-cruzadas-1914",
+   "n": 1,
+   "siblings": [
+    "palavras-cruzadas-1914"
+   ],
+   "level": "2o-ano"
+  }
+ ]
+}

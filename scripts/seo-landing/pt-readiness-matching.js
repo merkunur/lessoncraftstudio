@@ -1,16 +1,30 @@
-/* pt-readiness config: matching (Som inicial) — educação infantil, SEM padrão.
- * Atividade: SOM INICIAL (matching, modo "letter"). A criança LIGA cada IMAGEM
- * (de {N_PL}) à sua LETRA INICIAL — ouvindo/dizendo o som com que a palavra
- * começa e ligando esse som à letra certa. É ligar figura à primeira letra.
- * Strand: Consciência fonológica.
+/* pt-readiness config: matching — DOIS modos.
  *
- * FENCE-C (LOAD-BEARING): este config É DONO da moldura do SOM INICIAL —
+ * MODO "letter" — SOM INICIAL (matching). educação infantil, SEM padrão.
+ *   A criança LIGA cada IMAGEM (de {N_PL}) à sua LETRA INICIAL — ouvindo/dizendo
+ *   o som com que a palavra começa e ligando esse som à letra certa. É ligar
+ *   figura à primeira letra. Strand: Consciência fonológica.
+ *
+ * MODO "name" — LEIA A PALAVRA (matching). 1º ano, padrão RF.K.3.c.
+ *   A criança LÊ a PALAVRA INTEIRA escrita e a liga à FIGURA certa (leitura de
+ *   palavra de reconhecimento global / sight-word). É reconhecer o nome escrito
+ *   e ligar a palavra à imagem. Strand: Alfabetização.
+ *
+ * FENCE-C (LOAD-BEARING): o modo "letter" É DONO da moldura do SOM INICIAL —
  * "o som inicial / a primeira letra / com que som começa / a letra inicial /
  * o som com que a palavra começa". É PROIBIDO qualquer moldura de ORDEM
  * alfabética (guarda contra a atividade alphabet-train / "Ordem alfabética"):
  * NUNCA "ordem alfabética", "de A a Z", "a sequência do alfabeto", "em ordem",
  * "qual letra vem primeiro/depois". O SOM INICIAL fica no centro de cada
- * parágrafo.
+ * parágrafo do modo "letter".
+ *
+ * FENCE entre os dois modos (LOAD-BEARING): o modo "name" É DONO da moldura da
+ * LEITURA DA PALAVRA INTEIRA — "leia a palavra / a palavra inteira / reconheça
+ * a palavra / o nome escrito / ligue a palavra à imagem / a leitura". É PROIBIDO
+ * ao modo "name" usar a moldura do SOM INICIAL (do modo "letter"): NUNCA
+ * "som inicial", "a primeira letra", "começa com", "a letra que começa". Os dois
+ * modos têm de se ler bem diferentes: letter = ouvir o PRIMEIRO SOM → letra;
+ * name = LER a PALAVRA INTEIRA → figura.
  *
  * pt PLACEHOLDERS (com gênero): {N_PL} só em "imagens de {N_PL}" /
  * "figuras de {N_PL}"; "os/as animais" = {GEN_ART} {GEN}; contrações
@@ -21,11 +35,14 @@
 module.exports = {
   type: 'matching',
   eyebrow: 'Atividade: Som inicial',
-  strand: 'Consciência fonológica',
   slotWord: 'letras',
-  level: 'educacao-infantil',
-  h1: (mk) => 'Som inicial: {H1} – para a educação infantil',
-  carousel: (mk, h1Display) => 'Som inicial – ' + h1Display,
+  strand: (mk) => mk === 'name' ? 'Alfabetização' : 'Consciência fonológica',
+  level: (mk) => mk === 'name' ? '1o-ano' : 'educacao-infantil',
+  standard: (mk) => mk === 'name' ? 'RF.K.3.c' : undefined,
+  h1: (mk) => mk === 'name'
+    ? 'Leia a palavra: {H1} – atividade para o 1º ano'
+    : 'Som inicial: {H1} – para a educação infantil',
+  carousel: (mk, h1Display) => (mk === 'name' ? 'Leia a palavra – ' : 'Som inicial – ') + h1Display,
   modes: {
     'letter': {
       SKEL: [
@@ -48,6 +65,29 @@ module.exports = {
         'Para as crianças que adoram brincar com os sons das palavras, esta atividade é uma festinha. Ela treina o ouvido para o som inicial sem nem parecer lição, e combina bem com os cinco e seis anos. Encontre a atividade grátis aqui, ou imprima em PDF para o passeio ou o cantinho do sofá — dos dois jeitos, a sua criança tem toda a calma para falar, escutar e ligar cada figura à sua letra inicial no seu ritmo, sem a menor pressa.',
       ],
     },
+    'name': {
+      SKEL: [
+        'Que palavra será que combina com cada figura? É essa a pergunta gostosa que move a atividade inteira. A sua criança vê figuras de {N_PL} de um lado e, do outro, as palavras escritas esperando para serem reconhecidas. A missão é ler cada palavra inteira e ligá-la à imagem certa. Para isso, a sua criança olha o nome escrito, lê a palavra do começo ao fim, sílaba por sílaba quando precisa, e procura, entre as figuras, aquela que combina com o que acabou de ler. Assim, devagarinho, o olho aprende a reconhecer a palavra como um todo — uma das conquistas mais bonitas do 1º ano, e um passo firme dentro da alfabetização, que vai sustentar toda a leitura que ainda está por vir. Aqui não tem cronômetro nem disputa: a sua criança lê e liga a palavra à figura no seu próprio ritmo, relê quantas vezes quiser quando precisa e comemora cada ligação que encontra, uma palavra de cada vez, sem a menor pressa.',
+        'A gente lê a palavra inteirinha e procura a figura que combina! Nesta atividade, palavras escritas aparecem ao lado de imagens de {N_PL}, e a sua criança precisa ligar cada palavra à figura certa. O caminho é sempre o mesmo e bem suave: olhar a palavra, lê-la com calma do começo ao fim, reconhecer o nome escrito e achar, no meio das figuras, a que combina com aquela leitura. Esse jeito de reconhecer a palavra inteira é justamente o que o 1º ano pede, e está bem no coração da alfabetização, que ganha firmeza a cada palavra lida. A sua criança já começa a ler de verdade aqui, palavra por palavra, no seu próprio tempo e do seu próprio jeito. Nenhum tempo para bater, ninguém para ultrapassar: só o prazer de ler {GEN_ART} {GEN} com calma e de encontrar a imagem certinha para cada palavra, relendo o nome sempre que quiser, no ritmo que a sua criança escolher.',
+        'Cada figura tem uma palavra que combina com ela, e descobrir qual é a brincadeira gostosa desta atividade. A sua criança encontra imagens de {N_PL} e, ao lado, as palavras escritas, e liga cada palavra à figura certa. Para acertar, a sua criança lê o nome inteiro com calma, do começo ao fim, reconhece a palavra escrita e procura a figura que combina com aquela leitura. Esse exercício tranquilo fortalece a leitura de palavras inteiras — uma habilidade preciosa que o 1º ano cultiva com carinho, e que abre caminho para muita leitura mais para a frente, dentro da alfabetização que está só começando. Não tem ninguém olhando por cima do ombro nem nada com pressa: a sua criança lê e liga a palavra à sua figura no ritmo dela, relê o nome quantas vezes quiser, e cada ligação certa vira uma pequena alegria que dá vontade de seguir adiante para a próxima palavra que espera.',
+        'Olha a palavra, lê o nome inteiro, acha a figura — pronto, é assim que esta atividade funciona, e como é gostoso. Em um lado ficam imagens de {N_PL}; no outro, as palavras escritas esperando para serem reconhecidas. A sua criança precisa ler cada palavra inteira e ligá-la à figura que combina com o que leu. Aqui a leitura entra de verdade: a sua criança lê o nome escrito e reconhece a palavra como um todo. Esse cuidado em ler a palavra inteira fortalece justamente a base sobre a qual o 1º ano se constrói, devagar e com firmeza, sem cobrança nenhuma. E como nem cronômetro nem pontos entram na brincadeira, a sua criança vai lendo e ligando palavra e figura com toda a calma, relendo o nome sempre que quiser e comemorando cada acerto enquanto a atividade continuar agradando. Cada palavra reconhecida é uma pequena conquista, e é assim, ligação por ligação, que a leitura {DE_GEN} {GEN} vai ficando cada vez mais segura.',
+        'Olhos atentos à palavra! Esta atividade convida a sua criança a ler o nome escrito de cada figura com toda a atenção. De um lado, imagens de {N_PL}; do outro, as palavras escritas. A tarefa é simples e gostosa de fazer: olhar cada palavra, lê-la inteira do começo ao fim, reconhecer o nome e ligá-lo à figura certa. Pelo caminho, a sua criança aprende a reconhecer a palavra como um todo — e a encontrar a imagem que combina com ela. Essa leitura de palavras inteiras está no coração do que o 1º ano prepara, e é o que mais tarde vai sustentar a leitura de frases com firmeza. Tudo na maior tranquilidade: nenhum relógio correndo, nenhuma resposta errada que assuste, só a sua criança lendo o nome de cada palavra e ligando palavra e figura com prazer, relendo {GEN_ART} {GEN} quando precisa, no seu próprio ritmo e com toda a calma do mundo.',
+        'Será que dá para ler a palavra inteira e achar a figura certa? Dá, sim — e é isso que a sua criança treina, com gosto, nesta atividade. Aparecem imagens de {N_PL} ao lado das palavras escritas, e a sua criança liga cada palavra à figura que combina com ela. O segredo é ler o nome inteiro com calma, do começo ao fim, e reconhecer a palavra escrita. Reconhecida a palavra certa, é só ligar à figura e seguir para a próxima. Assim, do jeitinho mais leve, a sua criança exercita a leitura de palavras inteiras, uma capacidade que o 1º ano valoriza muito e que firma a alfabetização. Sem cronômetro, sem competição: é a sua criança que decide o ritmo, lendo {GEN_ART} {GEN} e ligando palavra e figura uma de cada vez, relendo o nome quando quiser, com toda a calma do mundo e a alegria de cada acerto.',
+        'Para ler de verdade, a gente reconhece a palavra inteira — e é exatamente isso que esta atividade propõe, com toda a calma. A sua criança vê palavras escritas de um lado e imagens de {N_PL} do outro, e liga cada palavra à figura com que ela combina. Para isso, basta ler o nome inteiro com atenção, do começo ao fim, reconhecer a palavra escrita e depois procurar, entre as figuras, aquela que combina com aquela leitura. Parece uma brincadeira, mas treina algo muito importante: reconhecer a palavra como um todo e ligá-la à imagem certa, sem precisar adivinhar. É leitura de palavras na altura da criança — justamente do que se precisa no 1º ano para a alfabetização avançar com firmeza e segurança. A sua criança pode levar todo o tempo que quiser e reler o nome de novo quantas vezes precisar; aqui, cada palavra espera com paciência ser ligada à sua figura, sem nenhuma pressa.',
+        'Um joguinho de leitura para quem já começou a ler: de um lado, um montão de imagens de {N_PL}; do outro, as palavras escritas; e, no meio, a sua criança, a leitora atenta. A brincadeira é ler o nome inteiro de cada palavra, reconhecê-la como um todo e ligá-la à figura que combina com aquela leitura. Algumas palavras a sua criança reconhece de cara, outras pedem reler o nome mais uma vez bem devagar — e é justamente aí que a leitura fica mais segura e tranquila. Continuar lendo, mesmo quando a palavra custa a ser reconhecida, é uma das mais lindas conquistas para levar ao 1º ano. Tudo acontece sem cronômetro nem pontos: a sua criança lê e liga palavra e figura, relê {GEN_ART} {GEN} quando quer e se alegra no seu próprio ritmo, ligação após ligação, sentindo a cada acerto a vontade gostosa de continuar para a próxima palavra que espera.',
+      ],
+      P2: [
+        'Esta atividade de leitura de palavras combina com crianças por volta do 1º ano, que já estão começando a ler. A sua criança lê o nome inteiro de cada figura e liga a palavra à imagem certa, reconhecendo {GEN_ART} {GEN} como um todo. Dá para jogar grátis online, ou você pode imprimir em PDF para deixar na mesa da cozinha. De qualquer jeito, a sua criança lê e liga palavra e figura no seu próprio ritmo, sem nenhuma pressa.',
+        'Um jeito bem tranquilo de praticar a leitura de palavras: sem cronômetro, sem pontos, só palavras escritas de um lado e figuras de {N_PL} do outro. A sua criança lê o nome inteiro e o liga à figura certa, sem pressa. Você pode abrir a atividade direto no navegador sem pagar nada — ou imprimir em PDF, se a sua criança preferir papel e lápis. É a sua criança que decide o ritmo do começo ao fim, relendo o nome quantas vezes quiser.',
+        'A atividade pede que a criança já reconheça palavras escritas: por isso combina bem com o 1º ano e a alfabetização. Tudo acontece com o olho e a leitura — ler o nome inteiro, reconhecer {GEN_ART} {GEN} e ligar à figura certa. Está disponível grátis online e também dá para imprimir, para a leitura ir na mochila ou na casa dos avós. A sua criança escolhe o ritmo, e cada ligação certa parece uma pequena vitória que dá vontade de continuar para a próxima palavra.',
+        'Se a sua criança prefere o tablet ou uma folha de papel não muda nada — esta atividade funciona dos dois jeitos. É grátis online, e o botão de imprimir em PDF está bem ali do lado. Para o 1º ano, é uma atividade bem suave em que a leitura de palavras inteiras cresce sem ninguém olhar o relógio nem cobrar nada. A sua criança continua lendo e ligando palavra e figura, relendo {GEN_ART} {GEN} sempre que quiser, enquanto a brincadeira agradar.',
+        'Aqui não tem som para adivinhar nem nada para calcular — só palavras escritas para ler e figuras de {N_PL} para reconhecer com atenção. Isso deixa a atividade ideal para os pequenos leitores do 1º ano. Jogue à vontade na tela, sem pagar, ou imprima em PDF para um momento calminho em casa. A sua criança lê o nome de cada palavra com toda tranquilidade, reconhece {GEN_ART} {GEN} e comemora cada figura que liga, uma de cada vez.',
+        'Uma atividade para a idade do 1º ano, em que o convite é ler a palavra inteira e achar a figura de {N_PL} que combina. A sua criança pode ler e ligar palavras online, sem pagar nada, ou você pode imprimir em PDF e fazer a brincadeira na mesa do jantar. Nem cronômetro nem disputa entram no jogo, então a sua criança pode ler e ligar palavra e figura enquanto for divertido. Cada palavra reconhecida dá uma coragem gostosa para ler e encontrar a próxima.',
+        'Para as crianças que já começaram a ler e adoram reconhecer palavras, esta atividade com figuras de {N_PL} é uma festinha. Ela treina a leitura de palavras inteiras sem nem parecer lição, e combina bem com o 1º ano. Encontre a atividade grátis aqui, ou imprima em PDF para o passeio ou o cantinho do sofá — dos dois jeitos, a sua criança tem toda a calma para ler, reconhecer e ligar cada palavra à sua figura no seu ritmo, sem a menor pressa.',
+      ],
+    },
   },
-  P3: 'Gostou de escutar os sons? Experimente as atividades com {nb1}, onde outras figuras esperam ser ligadas à sua letra inicial, ou mude de rumo com {nb2} se a sua criança quiser uma nova inspiração. Cada atividade é a mesma brincadeira tranquila, sem cronômetro e sem pontos. Toda a coleção com {GEN} é grátis: tudo se joga online no tablet ou no computador e também dá para imprimir em PDF para um momento calminho na mesa da cozinha. Assim a sua criança continua falando, escutando e comemorando cada som inicial que encontra, no seu próprio ritmo.',
+  P3: (mk) => mk === 'name'
+    ? 'Gostou de ler as palavras? Experimente as atividades com {nb1}, onde outras figuras esperam ser ligadas à palavra certa, ou mude de rumo com {nb2} se a sua criança quiser uma nova inspiração. Cada atividade é a mesma brincadeira tranquila, sem cronômetro e sem pontos. Toda a coleção com {GEN} é grátis: tudo se joga online no tablet ou no computador e também dá para imprimir em PDF para um momento calminho na mesa da cozinha. Assim a sua criança continua lendo, reconhecendo a palavra inteira e comemorando cada palavra que decifra, no seu próprio ritmo.'
+    : 'Gostou de escutar os sons? Experimente as atividades com {nb1}, onde outras figuras esperam ser ligadas à sua letra inicial, ou mude de rumo com {nb2} se a sua criança quiser uma nova inspiração. Cada atividade é a mesma brincadeira tranquila, sem cronômetro e sem pontos. Toda a coleção com {GEN} é grátis: tudo se joga online no tablet ou no computador e também dá para imprimir em PDF para um momento calminho na mesa da cozinha. Assim a sua criança continua falando, escutando e comemorando cada som inicial que encontra, no seu próprio ritmo.',
 };

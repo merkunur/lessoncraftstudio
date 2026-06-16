@@ -1,0 +1,1577 @@
+{
+  "locale": "fi",
+  "exerciseType": "treasure-hunt",
+  "level": "esikoulu",
+  "rawRowCount": 97,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cardinal-arrows": 47,
+    "compass": 47
+  },
+  "totalValid": 94,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cardinal-arrows",
+    "compass"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "cardinal-arrows",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-asusteet-cbfd",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-asusteet-cbfd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-aktiviteetit-9ec1",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-aktiviteetit-9ec1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-elaimet",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-elaimet",
+        "aarteenetsinta-ylos-alas-vasen-oikea-elaimet-e1ac"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-kodin-ymparilla-04d1",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-kodin-ymparilla-04d1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-ruokakaupassa-b24e",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-ruokakaupassa-b24e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-leipomo-14a2",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-leipomo-14a2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-ranta-7f13",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-ranta-7f13"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-linnut-2-a609",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-linnut-2-a609"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-ruumiinosat-ed61",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-ruumiinosat-ed61"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-aamiainen-1581",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-aamiainen-1581"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-leirielama-c175",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-leirielama-c175"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-joulu-a99a",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-joulu-a99a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-luokkahuone-d419",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-luokkahuone-d419"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-vaatteet-6c6b",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-vaatteet-6c6b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-varit-2b25",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-varit-2b25"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-jalkiruoat-ja-makeiset-1d20",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-jalkiruoat-ja-makeiset-1d20"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-dinosaurukset-3c99",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-dinosaurukset-3c99"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-paasiainen-dd45",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-paasiainen-dd45"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-tunteet-5f6a",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-tunteet-5f6a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-maatilan-elaimet-00ab",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-maatilan-elaimet-00ab"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-kukat-f957",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-kukat-f957"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-metsan-elaimet-2c81",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-metsan-elaimet-2c81"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-hedelmat-b7af",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-hedelmat-b7af"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-huonekalut-d934",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-huonekalut-d934"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-sairaala-9cfe",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-sairaala-9cfe"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-hyonteiset-ja-otokat-e0ed",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-hyonteiset-ja-otokat-e0ed"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-keittiovalineet-1867",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-keittiovalineet-1867"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-musiikki-eee9",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-musiikki-eee9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-ammatit-28f6",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-ammatit-28f6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-merielama-cec3",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-merielama-cec3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-lemmikit-c0c0",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-lemmikit-c0c0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-postitoimisto-7afe",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-postitoimisto-7afe"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-matelijat-ja-sammakkoelaimet-912e",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-matelijat-ja-sammakkoelaimet-912e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-muodot-b2d4",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-muodot-b2d4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-avaruus-3502",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-avaruus-3502"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-kevat-e976",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-kevat-e976"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-kesa-6a0c",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-kesa-6a0c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-kiitospaiva-3f42",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-kiitospaiva-3f42"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-lentavat-asiat-eb6e",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-lentavat-asiat-eb6e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-tyokalut-12b3",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-tyokalut-12b3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-lelut-fa0b",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-lelut-fa0b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-puut-0213",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-puut-0213"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-vihannekset-7828",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-vihannekset-7828"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-ajoneuvot-9457",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-ajoneuvot-9457"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-saa-9018",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-saa-9018"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-talvi-fdfe",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-talvi-fdfe"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ylos-alas-vasen-oikea-elaintarhan-elaimet-6bf5",
+      "siblings": [
+        "aarteenetsinta-ylos-alas-vasen-oikea-elaintarhan-elaimet-6bf5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-asusteet-2290",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-asusteet-2290"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-aktiviteetit-c1e3",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-aktiviteetit-c1e3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-elaimet-ff9d",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-elaimet-ff9d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-kodin-ymparilla-9453",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-kodin-ymparilla-9453"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-ruokakaupassa-d5f0",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-ruokakaupassa-d5f0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-leipomo-916a",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-leipomo-916a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-ranta-978e",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-ranta-978e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-linnut-2-e8b4",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-linnut-2-e8b4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-ruumiinosat-30f3",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-ruumiinosat-30f3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-aamiainen-d1e1",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-aamiainen-d1e1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-leirielama-987d",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-leirielama-987d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-joulu-eb7f",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-joulu-eb7f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-luokkahuone-d53c",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-luokkahuone-d53c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-vaatteet-5aa7",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-vaatteet-5aa7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-varit-7eff",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-varit-7eff"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-jalkiruoat-ja-makeiset-294d",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-jalkiruoat-ja-makeiset-294d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-dinosaurukset-7865",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-dinosaurukset-7865"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-paasiainen-cd2b",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-paasiainen-cd2b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-tunteet-72e5",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-tunteet-72e5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-maatilan-elaimet-4002",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-maatilan-elaimet-4002"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-kukat-c095",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-kukat-c095"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-metsan-elaimet-395b",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-metsan-elaimet-395b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-hedelmat-5083",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-hedelmat-5083"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-huonekalut-edd9",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-huonekalut-edd9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-sairaala-0f40",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-sairaala-0f40"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-hyonteiset-ja-otokat-5ede",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-hyonteiset-ja-otokat-5ede"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-keittiovalineet-fa81",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-keittiovalineet-fa81"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-musiikki-7196",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-musiikki-7196"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-ammatit-46ac",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-ammatit-46ac"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-merielama-d200",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-merielama-d200"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-lemmikit-b15e",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-lemmikit-b15e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-postitoimisto-4f61",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-postitoimisto-4f61"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-matelijat-ja-sammakkoelaimet-8127",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-matelijat-ja-sammakkoelaimet-8127"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-muodot-9788",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-muodot-9788"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-avaruus-cfbb",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-avaruus-cfbb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-kevat-a03b",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-kevat-a03b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-kesa-ddb3",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-kesa-ddb3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-kiitospaiva-c3fb",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-kiitospaiva-c3fb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-lentavat-asiat-0ac2",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-lentavat-asiat-0ac2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-tyokalut-2238",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-tyokalut-2238"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-lelut-e1d6",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-lelut-e1d6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-puut-512a",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-puut-512a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-vihannekset-5161",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-vihannekset-5161"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-ajoneuvot-b3a8",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-ajoneuvot-b3a8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-saa-23b9",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-saa-23b9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-talvi-0d7f",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-talvi-0d7f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "compass",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "aarteenetsinta-ilmansuunnat-elaintarhan-elaimet-7102",
+      "siblings": [
+        "aarteenetsinta-ilmansuunnat-elaintarhan-elaimet-7102"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    }
+  ]
+}

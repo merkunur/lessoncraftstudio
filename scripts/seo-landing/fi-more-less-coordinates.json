@@ -1,0 +1,2003 @@
+{
+  "locale": "fi",
+  "exerciseType": "more-less",
+  "level": "esikoulu",
+  "rawRowCount": 146,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "check-cross": 47,
+    "image-image": 48,
+    "image-number": 47
+  },
+  "totalValid": 118,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "check-cross",
+    "image-image",
+    "image-number"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [
+    "check-cross/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "check-cross/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "check-cross/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "check-cross/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "check-cross/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "check-cross/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "check-cross/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "check-cross/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)",
+    "image-image/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "image-image/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "image-image/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "image-image/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "image-image/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "image-image/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "image-image/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "image-image/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)",
+    "image-number/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "image-number/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "image-number/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "image-number/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "image-number/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "image-number/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "image-number/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "image-number/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "check-cross",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-asusteet-10da",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-asusteet-10da"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-elaimet-9e4e",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-elaimet-9e4e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-kodin-ymparilla-2b22",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-kodin-ymparilla-2b22"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ruokakaupassa-b642",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ruokakaupassa-b642"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-leipomo-d429",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-leipomo-d429"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ranta-337f",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ranta-337f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-linnut-85f7",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-linnut-85f7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-linnut-2-f426",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-linnut-2-f426"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-aamiainen-91bf",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-aamiainen-91bf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-leirielama-d214",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-leirielama-d214"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-joulu-5985",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-joulu-5985"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-luokkahuone-e2d3",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-luokkahuone-e2d3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-vaatteet-deaf",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-vaatteet-deaf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-jalkiruoat-ja-makeiset-ee53",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-jalkiruoat-ja-makeiset-ee53"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-dinosaurukset-05c7",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-dinosaurukset-05c7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-paasiainen-a3c5",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-paasiainen-a3c5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-maatilan-elaimet-2850",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-maatilan-elaimet-2850"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-kukat-247d",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-kukat-247d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-metsan-elaimet-2ea6",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-metsan-elaimet-2ea6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-hedelmat-e7e7",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-hedelmat-e7e7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-huonekalut-867b",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-huonekalut-867b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-hyonteiset-ja-otokat-56cb",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-hyonteiset-ja-otokat-56cb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-keittiovalineet-a4ec",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-keittiovalineet-a4ec"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-musiikki-e637",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-musiikki-e637"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ammatit-8bed",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ammatit-8bed"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-merielama-fd0b",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-merielama-fd0b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-lemmikit-76f8",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-lemmikit-76f8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-postitoimisto-0c3f",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-postitoimisto-0c3f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-matelijat-ja-sammakkoelaimet-cb24",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-matelijat-ja-sammakkoelaimet-cb24"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-muodot-5ac7",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-muodot-5ac7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-avaruus-c525",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-avaruus-c525"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-kiitospaiva-aeee",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-kiitospaiva-aeee"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-lentavat-asiat-c1f9",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-lentavat-asiat-c1f9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-tyokalut-1c2f",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-tyokalut-1c2f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-lelut-ccc3",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-lelut-ccc3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-puut-1aa2",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-puut-1aa2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-vihannekset-3263",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-vihannekset-3263"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ajoneuvot-ab8d",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ajoneuvot-ab8d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-elaintarhan-elaimet-a623",
+      "siblings": [
+        "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-elaintarhan-elaimet-a623"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-asusteet-a67f",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-asusteet-a67f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-elaimet-3b3b",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-elaimet-3b3b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-kodin-ymparilla-57a6",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-kodin-ymparilla-57a6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-ruokakaupassa-e764",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-ruokakaupassa-e764"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-leipomo-25b8",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-leipomo-25b8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-ranta-ecd0",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-ranta-ecd0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-linnut-275b",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-linnut-275b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-linnut-2-3a88",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-linnut-2-3a88"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-aamiainen-2c8f",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-aamiainen-2c8f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-leirielama-2709",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-leirielama-2709"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-joulu-770a",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-joulu-770a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-luokkahuone-34e7",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-luokkahuone-34e7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-vaatteet-65c5",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-vaatteet-65c5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-jalkiruoat-ja-makeiset-1a85",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-jalkiruoat-ja-makeiset-1a85"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-dinosaurukset-a125",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-dinosaurukset-a125"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-paasiainen-6e99",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-paasiainen-6e99"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-maatilan-elaimet-930b",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-maatilan-elaimet-930b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-kukat-8e46",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-kukat-8e46"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-metsan-elaimet-4460",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-metsan-elaimet-4460"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-hedelmat-0b7c",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-hedelmat-0b7c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-huonekalut-23df",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-huonekalut-23df"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-sairaala-050c",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-sairaala-050c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-hyonteiset-ja-otokat-0475",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-hyonteiset-ja-otokat-0475"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-keittiovalineet-ea1a",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-keittiovalineet-ea1a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-musiikki-4157",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-musiikki-4157"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-ammatit-86be",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-ammatit-86be"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-merielama-c6f2",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-merielama-c6f2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-lemmikit-1203",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-lemmikit-1203"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-postitoimisto-a486",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-postitoimisto-a486"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-matelijat-ja-sammakkoelaimet-a9ed",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-matelijat-ja-sammakkoelaimet-a9ed"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-muodot-9d9e",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-muodot-9d9e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-avaruus-8c9b",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-avaruus-8c9b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-kiitospaiva-c9f3",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-kiitospaiva-c9f3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-lentavat-asiat-9b58",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-lentavat-asiat-9b58"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-tyokalut-52b5",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-tyokalut-52b5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-lelut-864f",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-lelut-864f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-puut-fa42",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-puut-fa42"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-vihannekset-335f",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-vihannekset-335f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-ajoneuvot-9ba9",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-ajoneuvot-9ba9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-image",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-kuva-elaintarhan-elaimet-e838",
+      "siblings": [
+        "enemman-vahemman-kuva-kuva-elaintarhan-elaimet-e838"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-asusteet-9718",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-asusteet-9718"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-elaimet-2806",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-elaimet-2806"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-kodin-ymparilla-a10a",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-kodin-ymparilla-a10a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-ruokakaupassa-8c77",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-ruokakaupassa-8c77"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-leipomo-e4e5",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-leipomo-e4e5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-ranta-a50d",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-ranta-a50d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-linnut-989f",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-linnut-989f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-linnut-2-a333",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-linnut-2-a333"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-aamiainen-f125",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-aamiainen-f125"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-leirielama-655e",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-leirielama-655e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-joulu-db82",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-joulu-db82"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-luokkahuone-304c",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-luokkahuone-304c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-vaatteet-4ae4",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-vaatteet-4ae4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-jalkiruoat-ja-makeiset-1653",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-jalkiruoat-ja-makeiset-1653"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-dinosaurukset-ada4",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-dinosaurukset-ada4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-paasiainen-15d5",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-paasiainen-15d5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-maatilan-elaimet-581f",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-maatilan-elaimet-581f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-kukat-528b",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-kukat-528b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-metsan-elaimet-c661",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-metsan-elaimet-c661"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-hedelmat-e947",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-hedelmat-e947"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-huonekalut-9c1b",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-huonekalut-9c1b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-hyonteiset-ja-otokat-a0e3",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-hyonteiset-ja-otokat-a0e3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-keittiovalineet-c798",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-keittiovalineet-c798"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-musiikki-4041",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-musiikki-4041"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-ammatit-45fa",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-ammatit-45fa"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-merielama-9ff2",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-merielama-9ff2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-lemmikit-e584",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-lemmikit-e584"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-postitoimisto-50ac",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-postitoimisto-50ac"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-matelijat-ja-sammakkoelaimet-cc8d",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-matelijat-ja-sammakkoelaimet-cc8d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-muodot-b97b",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-muodot-b97b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-avaruus-c8bf",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-avaruus-c8bf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-kiitospaiva-4aa0",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-kiitospaiva-4aa0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-lentavat-asiat-3661",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-lentavat-asiat-3661"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-tyokalut-595e",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-tyokalut-595e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-lelut-745a",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-lelut-745a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-puut-247a",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-puut-247a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-vihannekset-cc74",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-vihannekset-cc74"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-ajoneuvot-13fc",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-ajoneuvot-13fc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "enemman-vahemman-kuva-numero-elaintarhan-elaimet-9d20",
+      "siblings": [
+        "enemman-vahemman-kuva-numero-elaintarhan-elaimet-9d20"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "esikoulu"
+    }
+  ]
+}

@@ -1,0 +1,1532 @@
+{
+  "locale": "fi",
+  "exerciseType": "find-and-count",
+  "level": "esikoulu",
+  "rawRowCount": 94,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "hidden-object": 46,
+    "letter-spotting": 45
+  },
+  "totalValid": 91,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "hidden-object",
+    "letter-spotting"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "hidden-object",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-asusteet-a6e9",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-asusteet-a6e9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-aktiviteetit-a58b",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-aktiviteetit-a58b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-elaimet-e955",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-elaimet-e955"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-kodin-ymparilla-8529",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-kodin-ymparilla-8529"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-ruokakaupassa-24ba",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-ruokakaupassa-24ba"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-leipomo-7fa6",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-leipomo-7fa6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-ranta-a723",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-ranta-a723"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-linnut-2-56bf",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-linnut-2-56bf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-ruumiinosat-5db2",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-ruumiinosat-5db2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-aamiainen-4ad5",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-aamiainen-4ad5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-leirielama-11ac",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-leirielama-11ac"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-joulu-70db",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-joulu-70db"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-luokkahuone-03d9",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-luokkahuone-03d9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-vaatteet-e404",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-vaatteet-e404"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-varit-7b3f",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-varit-7b3f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: colors has low onset variety",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-jalkiruoat-ja-makeiset-5fc3",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-jalkiruoat-ja-makeiset-5fc3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-paasiainen-cd34",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-paasiainen-cd34"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-tunteet-c485",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-tunteet-c485"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-maatilan-elaimet-cbb2",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-maatilan-elaimet-cbb2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-kukat-21b5",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-kukat-21b5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-metsan-elaimet-10d4",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-metsan-elaimet-10d4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-hedelmat-56bf",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-hedelmat-56bf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-huonekalut-5bb8",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-huonekalut-5bb8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-sairaala-d882",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-sairaala-d882"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-hyonteiset-ja-otokat-17be",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-hyonteiset-ja-otokat-17be"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-keittiovalineet-2903",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-keittiovalineet-2903"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-musiikki-d508",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-musiikki-d508"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-ammatit-d941",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-ammatit-d941"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-merielama-860a",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-merielama-860a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-lemmikit-a2a5",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-lemmikit-a2a5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-postitoimisto-3e2f",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-postitoimisto-3e2f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-matelijat-ja-sammakkoelaimet-82ee",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-matelijat-ja-sammakkoelaimet-82ee"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-muodot-37ef",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-muodot-37ef"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: shapes has low onset variety",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-avaruus-bc7d",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-avaruus-bc7d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-kevat-440a",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-kevat-440a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-kesa-67d8",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-kesa-67d8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-kiitospaiva-4f49",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-kiitospaiva-4f49"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-lentavat-asiat-b116",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-lentavat-asiat-b116"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-tyokalut-18c6",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-tyokalut-18c6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-lelut-1bd8",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-lelut-1bd8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-puut-cba2",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-puut-cba2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-vihannekset-7e2f",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-vihannekset-7e2f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-ajoneuvot-531f",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-ajoneuvot-531f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-saa-fec1",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-saa-fec1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-talvi-94fb",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-talvi-94fb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-piilotetut-esineet-elaintarhan-elaimet-65b6",
+      "siblings": [
+        "etsi-ja-laske-piilotetut-esineet-elaintarhan-elaimet-65b6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-asusteet-b6df",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-asusteet-b6df"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-aktiviteetit-6d97",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-aktiviteetit-6d97"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-elaimet",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-elaimet",
+        "etsi-ja-laske-etsi-kirjaimia-elaimet-4dfa"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-kodin-ymparilla-78e7",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-kodin-ymparilla-78e7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-ruokakaupassa-6313",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-ruokakaupassa-6313"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-leipomo-2b5e",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-leipomo-2b5e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-ranta-fcb2",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-ranta-fcb2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-linnut-2-287b",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-linnut-2-287b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-ruumiinosat-572b",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-ruumiinosat-572b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-aamiainen-3906",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-aamiainen-3906"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-leirielama-925d",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-leirielama-925d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-joulu-13d3",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-joulu-13d3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-luokkahuone-4d72",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-luokkahuone-4d72"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-vaatteet-e24d",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-vaatteet-e24d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-varit-23ce",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-varit-23ce"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: colors has low onset variety",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-jalkiruoat-ja-makeiset-d578",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-jalkiruoat-ja-makeiset-d578"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-paasiainen-0b87",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-paasiainen-0b87"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-tunteet-4257",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-tunteet-4257"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-maatilan-elaimet-eb86",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-maatilan-elaimet-eb86"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-kukat-d0c4",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-kukat-d0c4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-metsan-elaimet-536f",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-metsan-elaimet-536f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-hedelmat-276e",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-hedelmat-276e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-huonekalut-9799",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-huonekalut-9799"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-sairaala-4813",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-sairaala-4813"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-hyonteiset-ja-otokat-eb8f",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-hyonteiset-ja-otokat-eb8f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-keittiovalineet-93ac",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-keittiovalineet-93ac"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-musiikki-5576",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-musiikki-5576"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-ammatit-8ad4",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-ammatit-8ad4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-merielama-58dd",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-merielama-58dd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-lemmikit-c91d",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-lemmikit-c91d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-postitoimisto-1e0b",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-postitoimisto-1e0b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-matelijat-ja-sammakkoelaimet-dac9",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-matelijat-ja-sammakkoelaimet-dac9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-muodot-1ce9",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-muodot-1ce9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: shapes has low onset variety",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-avaruus-4bf7",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-avaruus-4bf7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-kevat-c9d1",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-kevat-c9d1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-kesa-acf8",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-kesa-acf8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-kiitospaiva-5238",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-kiitospaiva-5238"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-lentavat-asiat-0c07",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-lentavat-asiat-0c07"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-tyokalut-af3b",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-tyokalut-af3b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-lelut-92dd",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-lelut-92dd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-puut-463f",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-puut-463f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-vihannekset-14ea",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-vihannekset-14ea"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-ajoneuvot-ba18",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-ajoneuvot-ba18"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-saa-6d11",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-saa-6d11"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "etsi-ja-laske-etsi-kirjaimia-talvi-8bb6",
+      "siblings": [
+        "etsi-ja-laske-etsi-kirjaimia-talvi-8bb6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "esikoulu"
+    }
+  ]
+}

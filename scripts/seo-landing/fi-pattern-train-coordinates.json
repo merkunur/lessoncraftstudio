@@ -1,0 +1,3919 @@
+{
+  "locale": "fi",
+  "exerciseType": "pattern-train",
+  "level": "esikoulu",
+  "rawRowCount": 246,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "aab": 48,
+    "aabb": 48,
+    "abb": 48,
+    "abc": 48,
+    "(null)": 48
+  },
+  "totalValid": 240,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "aab",
+    "aabb",
+    "abb",
+    "abc",
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "aab",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-asusteet-15dc",
+      "siblings": [
+        "kuviojuna-aab-asusteet-15dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-aktiviteetit-f1c4",
+      "siblings": [
+        "kuviojuna-aab-aktiviteetit-f1c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-elaimet-9c1b",
+      "siblings": [
+        "kuviojuna-aab-elaimet-9c1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-kodin-ymparilla-eebb",
+      "siblings": [
+        "kuviojuna-aab-kodin-ymparilla-eebb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-ruokakaupassa-abbd",
+      "siblings": [
+        "kuviojuna-aab-ruokakaupassa-abbd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-leipomo-4b00",
+      "siblings": [
+        "kuviojuna-aab-leipomo-4b00"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-ranta-c01f",
+      "siblings": [
+        "kuviojuna-aab-ranta-c01f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-linnut-7eb8",
+      "siblings": [
+        "kuviojuna-aab-linnut-7eb8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-linnut-2-02a0",
+      "siblings": [
+        "kuviojuna-aab-linnut-2-02a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-ruumiinosat-b43f",
+      "siblings": [
+        "kuviojuna-aab-ruumiinosat-b43f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-aamiainen-170f",
+      "siblings": [
+        "kuviojuna-aab-aamiainen-170f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-leirielama-81fc",
+      "siblings": [
+        "kuviojuna-aab-leirielama-81fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-joulu-6eab",
+      "siblings": [
+        "kuviojuna-aab-joulu-6eab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-luokkahuone-44ee",
+      "siblings": [
+        "kuviojuna-aab-luokkahuone-44ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-vaatteet-6a6e",
+      "siblings": [
+        "kuviojuna-aab-vaatteet-6a6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-varit-3421",
+      "siblings": [
+        "kuviojuna-aab-varit-3421"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-jalkiruoat-ja-makeiset-63ae",
+      "siblings": [
+        "kuviojuna-aab-jalkiruoat-ja-makeiset-63ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-dinosaurukset-952f",
+      "siblings": [
+        "kuviojuna-aab-dinosaurukset-952f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-paasiainen-25c8",
+      "siblings": [
+        "kuviojuna-aab-paasiainen-25c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-tunteet-3bc5",
+      "siblings": [
+        "kuviojuna-aab-tunteet-3bc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-maatilan-elaimet-c83e",
+      "siblings": [
+        "kuviojuna-aab-maatilan-elaimet-c83e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-kukat-9d76",
+      "siblings": [
+        "kuviojuna-aab-kukat-9d76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-metsan-elaimet-d5d1",
+      "siblings": [
+        "kuviojuna-aab-metsan-elaimet-d5d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-hedelmat-e047",
+      "siblings": [
+        "kuviojuna-aab-hedelmat-e047"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-huonekalut-0cd9",
+      "siblings": [
+        "kuviojuna-aab-huonekalut-0cd9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-sairaala-5103",
+      "siblings": [
+        "kuviojuna-aab-sairaala-5103"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-hyonteiset-ja-otokat-217a",
+      "siblings": [
+        "kuviojuna-aab-hyonteiset-ja-otokat-217a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-keittiovalineet-5c08",
+      "siblings": [
+        "kuviojuna-aab-keittiovalineet-5c08"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-musiikki-2501",
+      "siblings": [
+        "kuviojuna-aab-musiikki-2501"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-ammatit-2d06",
+      "siblings": [
+        "kuviojuna-aab-ammatit-2d06"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-merielama-76ff",
+      "siblings": [
+        "kuviojuna-aab-merielama-76ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-lemmikit-f509",
+      "siblings": [
+        "kuviojuna-aab-lemmikit-f509"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-postitoimisto-0252",
+      "siblings": [
+        "kuviojuna-aab-postitoimisto-0252"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-matelijat-ja-sammakkoelaimet-6eec",
+      "siblings": [
+        "kuviojuna-aab-matelijat-ja-sammakkoelaimet-6eec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-muodot-d8b9",
+      "siblings": [
+        "kuviojuna-aab-muodot-d8b9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-avaruus-51b6",
+      "siblings": [
+        "kuviojuna-aab-avaruus-51b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-kevat-047a",
+      "siblings": [
+        "kuviojuna-aab-kevat-047a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-kesa-676c",
+      "siblings": [
+        "kuviojuna-aab-kesa-676c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-kiitospaiva-0676",
+      "siblings": [
+        "kuviojuna-aab-kiitospaiva-0676"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-lentavat-asiat-97eb",
+      "siblings": [
+        "kuviojuna-aab-lentavat-asiat-97eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-tyokalut-1e0b",
+      "siblings": [
+        "kuviojuna-aab-tyokalut-1e0b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-lelut-58cd",
+      "siblings": [
+        "kuviojuna-aab-lelut-58cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-puut-5598",
+      "siblings": [
+        "kuviojuna-aab-puut-5598"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-vihannekset-5c00",
+      "siblings": [
+        "kuviojuna-aab-vihannekset-5c00"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-ajoneuvot-486c",
+      "siblings": [
+        "kuviojuna-aab-ajoneuvot-486c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-saa-31f1",
+      "siblings": [
+        "kuviojuna-aab-saa-31f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-talvi-3c82",
+      "siblings": [
+        "kuviojuna-aab-talvi-3c82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aab",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aab-elaintarhan-elaimet-13c4",
+      "siblings": [
+        "kuviojuna-aab-elaintarhan-elaimet-13c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-asusteet-c6e9",
+      "siblings": [
+        "kuviojuna-aabb-asusteet-c6e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-aktiviteetit-9c41",
+      "siblings": [
+        "kuviojuna-aabb-aktiviteetit-9c41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-elaimet-d437",
+      "siblings": [
+        "kuviojuna-aabb-elaimet-d437"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-kodin-ymparilla-ae1d",
+      "siblings": [
+        "kuviojuna-aabb-kodin-ymparilla-ae1d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-ruokakaupassa-3b8f",
+      "siblings": [
+        "kuviojuna-aabb-ruokakaupassa-3b8f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-leipomo-b7dc",
+      "siblings": [
+        "kuviojuna-aabb-leipomo-b7dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-ranta-4add",
+      "siblings": [
+        "kuviojuna-aabb-ranta-4add"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-linnut-e3f9",
+      "siblings": [
+        "kuviojuna-aabb-linnut-e3f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-linnut-2-1b43",
+      "siblings": [
+        "kuviojuna-aabb-linnut-2-1b43"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-ruumiinosat-aa28",
+      "siblings": [
+        "kuviojuna-aabb-ruumiinosat-aa28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-aamiainen-27f2",
+      "siblings": [
+        "kuviojuna-aabb-aamiainen-27f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-leirielama-5ac7",
+      "siblings": [
+        "kuviojuna-aabb-leirielama-5ac7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-joulu-1173",
+      "siblings": [
+        "kuviojuna-aabb-joulu-1173"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-luokkahuone-80ab",
+      "siblings": [
+        "kuviojuna-aabb-luokkahuone-80ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-vaatteet-4d6b",
+      "siblings": [
+        "kuviojuna-aabb-vaatteet-4d6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-varit-6ec8",
+      "siblings": [
+        "kuviojuna-aabb-varit-6ec8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-jalkiruoat-ja-makeiset-c82e",
+      "siblings": [
+        "kuviojuna-aabb-jalkiruoat-ja-makeiset-c82e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-dinosaurukset-2ca6",
+      "siblings": [
+        "kuviojuna-aabb-dinosaurukset-2ca6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-paasiainen-ee10",
+      "siblings": [
+        "kuviojuna-aabb-paasiainen-ee10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-tunteet-6972",
+      "siblings": [
+        "kuviojuna-aabb-tunteet-6972"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-maatilan-elaimet-bef5",
+      "siblings": [
+        "kuviojuna-aabb-maatilan-elaimet-bef5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-kukat-6917",
+      "siblings": [
+        "kuviojuna-aabb-kukat-6917"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-metsan-elaimet-ed35",
+      "siblings": [
+        "kuviojuna-aabb-metsan-elaimet-ed35"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-hedelmat-49d3",
+      "siblings": [
+        "kuviojuna-aabb-hedelmat-49d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-huonekalut-4adf",
+      "siblings": [
+        "kuviojuna-aabb-huonekalut-4adf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-sairaala-1ca7",
+      "siblings": [
+        "kuviojuna-aabb-sairaala-1ca7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-hyonteiset-ja-otokat-3ea3",
+      "siblings": [
+        "kuviojuna-aabb-hyonteiset-ja-otokat-3ea3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-keittiovalineet-4836",
+      "siblings": [
+        "kuviojuna-aabb-keittiovalineet-4836"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-musiikki-2fe8",
+      "siblings": [
+        "kuviojuna-aabb-musiikki-2fe8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-ammatit-3621",
+      "siblings": [
+        "kuviojuna-aabb-ammatit-3621"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-merielama-5e76",
+      "siblings": [
+        "kuviojuna-aabb-merielama-5e76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-lemmikit-a92b",
+      "siblings": [
+        "kuviojuna-aabb-lemmikit-a92b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-postitoimisto-afd3",
+      "siblings": [
+        "kuviojuna-aabb-postitoimisto-afd3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-matelijat-ja-sammakkoelaimet-9fc1",
+      "siblings": [
+        "kuviojuna-aabb-matelijat-ja-sammakkoelaimet-9fc1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-muodot-6053",
+      "siblings": [
+        "kuviojuna-aabb-muodot-6053"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-avaruus-69ec",
+      "siblings": [
+        "kuviojuna-aabb-avaruus-69ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-kevat-cca0",
+      "siblings": [
+        "kuviojuna-aabb-kevat-cca0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-kesa-0db5",
+      "siblings": [
+        "kuviojuna-aabb-kesa-0db5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-kiitospaiva-8e2d",
+      "siblings": [
+        "kuviojuna-aabb-kiitospaiva-8e2d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-lentavat-asiat-ecf5",
+      "siblings": [
+        "kuviojuna-aabb-lentavat-asiat-ecf5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-tyokalut-3c7e",
+      "siblings": [
+        "kuviojuna-aabb-tyokalut-3c7e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-lelut-c512",
+      "siblings": [
+        "kuviojuna-aabb-lelut-c512"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-puut-07eb",
+      "siblings": [
+        "kuviojuna-aabb-puut-07eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-vihannekset-4964",
+      "siblings": [
+        "kuviojuna-aabb-vihannekset-4964"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-ajoneuvot-cd9e",
+      "siblings": [
+        "kuviojuna-aabb-ajoneuvot-cd9e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-saa-339e",
+      "siblings": [
+        "kuviojuna-aabb-saa-339e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-talvi-dda8",
+      "siblings": [
+        "kuviojuna-aabb-talvi-dda8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "aabb",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aabb-elaintarhan-elaimet-d6ed",
+      "siblings": [
+        "kuviojuna-aabb-elaintarhan-elaimet-d6ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-asusteet-2687",
+      "siblings": [
+        "kuviojuna-abb-asusteet-2687"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-aktiviteetit-b039",
+      "siblings": [
+        "kuviojuna-abb-aktiviteetit-b039"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-elaimet-f25f",
+      "siblings": [
+        "kuviojuna-abb-elaimet-f25f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-kodin-ymparilla-074b",
+      "siblings": [
+        "kuviojuna-abb-kodin-ymparilla-074b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-ruokakaupassa-7474",
+      "siblings": [
+        "kuviojuna-abb-ruokakaupassa-7474"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-leipomo-e577",
+      "siblings": [
+        "kuviojuna-abb-leipomo-e577"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-ranta-7f2d",
+      "siblings": [
+        "kuviojuna-abb-ranta-7f2d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-linnut-d9b3",
+      "siblings": [
+        "kuviojuna-abb-linnut-d9b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-linnut-2-40bb",
+      "siblings": [
+        "kuviojuna-abb-linnut-2-40bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-ruumiinosat-1c53",
+      "siblings": [
+        "kuviojuna-abb-ruumiinosat-1c53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-aamiainen-e31e",
+      "siblings": [
+        "kuviojuna-abb-aamiainen-e31e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-leirielama-1fa3",
+      "siblings": [
+        "kuviojuna-abb-leirielama-1fa3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-joulu-df66",
+      "siblings": [
+        "kuviojuna-abb-joulu-df66"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-luokkahuone-eb1d",
+      "siblings": [
+        "kuviojuna-abb-luokkahuone-eb1d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-vaatteet-b694",
+      "siblings": [
+        "kuviojuna-abb-vaatteet-b694"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-varit-4863",
+      "siblings": [
+        "kuviojuna-abb-varit-4863"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-jalkiruoat-ja-makeiset-d9a3",
+      "siblings": [
+        "kuviojuna-abb-jalkiruoat-ja-makeiset-d9a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-dinosaurukset-326c",
+      "siblings": [
+        "kuviojuna-abb-dinosaurukset-326c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-paasiainen-1905",
+      "siblings": [
+        "kuviojuna-abb-paasiainen-1905"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-tunteet-0dda",
+      "siblings": [
+        "kuviojuna-abb-tunteet-0dda"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-maatilan-elaimet-ffef",
+      "siblings": [
+        "kuviojuna-abb-maatilan-elaimet-ffef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-kukat-36f7",
+      "siblings": [
+        "kuviojuna-abb-kukat-36f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-metsan-elaimet-f3e2",
+      "siblings": [
+        "kuviojuna-abb-metsan-elaimet-f3e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-hedelmat-5d34",
+      "siblings": [
+        "kuviojuna-abb-hedelmat-5d34"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-huonekalut-5115",
+      "siblings": [
+        "kuviojuna-abb-huonekalut-5115"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-sairaala-a3de",
+      "siblings": [
+        "kuviojuna-abb-sairaala-a3de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-hyonteiset-ja-otokat-de58",
+      "siblings": [
+        "kuviojuna-abb-hyonteiset-ja-otokat-de58"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-keittiovalineet-91bc",
+      "siblings": [
+        "kuviojuna-abb-keittiovalineet-91bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-musiikki-7629",
+      "siblings": [
+        "kuviojuna-abb-musiikki-7629"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-ammatit-6370",
+      "siblings": [
+        "kuviojuna-abb-ammatit-6370"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-merielama-0fbf",
+      "siblings": [
+        "kuviojuna-abb-merielama-0fbf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-lemmikit-5262",
+      "siblings": [
+        "kuviojuna-abb-lemmikit-5262"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-postitoimisto-1c3b",
+      "siblings": [
+        "kuviojuna-abb-postitoimisto-1c3b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-matelijat-ja-sammakkoelaimet-90c4",
+      "siblings": [
+        "kuviojuna-abb-matelijat-ja-sammakkoelaimet-90c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-muodot-d28e",
+      "siblings": [
+        "kuviojuna-abb-muodot-d28e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-avaruus-11b5",
+      "siblings": [
+        "kuviojuna-abb-avaruus-11b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-kevat-bbff",
+      "siblings": [
+        "kuviojuna-abb-kevat-bbff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-kesa-5442",
+      "siblings": [
+        "kuviojuna-abb-kesa-5442"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-kiitospaiva-2378",
+      "siblings": [
+        "kuviojuna-abb-kiitospaiva-2378"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-lentavat-asiat-49b5",
+      "siblings": [
+        "kuviojuna-abb-lentavat-asiat-49b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-tyokalut-7fa8",
+      "siblings": [
+        "kuviojuna-abb-tyokalut-7fa8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-lelut-d970",
+      "siblings": [
+        "kuviojuna-abb-lelut-d970"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-puut-71e2",
+      "siblings": [
+        "kuviojuna-abb-puut-71e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-vihannekset-603b",
+      "siblings": [
+        "kuviojuna-abb-vihannekset-603b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-ajoneuvot-5f70",
+      "siblings": [
+        "kuviojuna-abb-ajoneuvot-5f70"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-saa-a900",
+      "siblings": [
+        "kuviojuna-abb-saa-a900"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-talvi-91a0",
+      "siblings": [
+        "kuviojuna-abb-talvi-91a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abb",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abb-elaintarhan-elaimet-4355",
+      "siblings": [
+        "kuviojuna-abb-elaintarhan-elaimet-4355"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-asusteet-c89f",
+      "siblings": [
+        "kuviojuna-abc-asusteet-c89f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-aktiviteetit-115a",
+      "siblings": [
+        "kuviojuna-abc-aktiviteetit-115a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-elaimet-6293",
+      "siblings": [
+        "kuviojuna-abc-elaimet-6293"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-kodin-ymparilla-7264",
+      "siblings": [
+        "kuviojuna-abc-kodin-ymparilla-7264"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-ruokakaupassa-7183",
+      "siblings": [
+        "kuviojuna-abc-ruokakaupassa-7183"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-leipomo-62c9",
+      "siblings": [
+        "kuviojuna-abc-leipomo-62c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-ranta-b15d",
+      "siblings": [
+        "kuviojuna-abc-ranta-b15d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-linnut-3f67",
+      "siblings": [
+        "kuviojuna-abc-linnut-3f67"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-linnut-2-ac05",
+      "siblings": [
+        "kuviojuna-abc-linnut-2-ac05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-ruumiinosat-1b45",
+      "siblings": [
+        "kuviojuna-abc-ruumiinosat-1b45"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-aamiainen-d4d8",
+      "siblings": [
+        "kuviojuna-abc-aamiainen-d4d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-leirielama-6af4",
+      "siblings": [
+        "kuviojuna-abc-leirielama-6af4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-joulu-f460",
+      "siblings": [
+        "kuviojuna-abc-joulu-f460"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-luokkahuone-d4a9",
+      "siblings": [
+        "kuviojuna-abc-luokkahuone-d4a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-vaatteet-c056",
+      "siblings": [
+        "kuviojuna-abc-vaatteet-c056"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-varit-6843",
+      "siblings": [
+        "kuviojuna-abc-varit-6843"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-jalkiruoat-ja-makeiset-cb96",
+      "siblings": [
+        "kuviojuna-abc-jalkiruoat-ja-makeiset-cb96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-dinosaurukset-694b",
+      "siblings": [
+        "kuviojuna-abc-dinosaurukset-694b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-paasiainen-50b4",
+      "siblings": [
+        "kuviojuna-abc-paasiainen-50b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-tunteet-db29",
+      "siblings": [
+        "kuviojuna-abc-tunteet-db29"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-maatilan-elaimet-5779",
+      "siblings": [
+        "kuviojuna-abc-maatilan-elaimet-5779"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-kukat-bc57",
+      "siblings": [
+        "kuviojuna-abc-kukat-bc57"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-metsan-elaimet-a054",
+      "siblings": [
+        "kuviojuna-abc-metsan-elaimet-a054"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-hedelmat-46bb",
+      "siblings": [
+        "kuviojuna-abc-hedelmat-46bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-huonekalut-1646",
+      "siblings": [
+        "kuviojuna-abc-huonekalut-1646"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-sairaala-77d2",
+      "siblings": [
+        "kuviojuna-abc-sairaala-77d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-hyonteiset-ja-otokat-0b94",
+      "siblings": [
+        "kuviojuna-abc-hyonteiset-ja-otokat-0b94"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-keittiovalineet-42a1",
+      "siblings": [
+        "kuviojuna-abc-keittiovalineet-42a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-musiikki-76cb",
+      "siblings": [
+        "kuviojuna-abc-musiikki-76cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-ammatit-4927",
+      "siblings": [
+        "kuviojuna-abc-ammatit-4927"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-merielama-8098",
+      "siblings": [
+        "kuviojuna-abc-merielama-8098"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-lemmikit-d74a",
+      "siblings": [
+        "kuviojuna-abc-lemmikit-d74a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-postitoimisto-3ae0",
+      "siblings": [
+        "kuviojuna-abc-postitoimisto-3ae0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-matelijat-ja-sammakkoelaimet-028c",
+      "siblings": [
+        "kuviojuna-abc-matelijat-ja-sammakkoelaimet-028c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-muodot-49ca",
+      "siblings": [
+        "kuviojuna-abc-muodot-49ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-avaruus-05d9",
+      "siblings": [
+        "kuviojuna-abc-avaruus-05d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-kevat-6bed",
+      "siblings": [
+        "kuviojuna-abc-kevat-6bed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-kesa-c019",
+      "siblings": [
+        "kuviojuna-abc-kesa-c019"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-kiitospaiva-1434",
+      "siblings": [
+        "kuviojuna-abc-kiitospaiva-1434"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-lentavat-asiat-de99",
+      "siblings": [
+        "kuviojuna-abc-lentavat-asiat-de99"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-tyokalut-8bb7",
+      "siblings": [
+        "kuviojuna-abc-tyokalut-8bb7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-lelut-2e20",
+      "siblings": [
+        "kuviojuna-abc-lelut-2e20"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-puut-4e55",
+      "siblings": [
+        "kuviojuna-abc-puut-4e55"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-vihannekset-042f",
+      "siblings": [
+        "kuviojuna-abc-vihannekset-042f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-ajoneuvot-9f62",
+      "siblings": [
+        "kuviojuna-abc-ajoneuvot-9f62"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-saa-d29f",
+      "siblings": [
+        "kuviojuna-abc-saa-d29f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-talvi-ba04",
+      "siblings": [
+        "kuviojuna-abc-talvi-ba04"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "abc",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-abc-elaintarhan-elaimet-cff6",
+      "siblings": [
+        "kuviojuna-abc-elaintarhan-elaimet-cff6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-asusteet-9fe4",
+      "siblings": [
+        "kuviojuna-asusteet-9fe4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aktiviteetit-39dc",
+      "siblings": [
+        "kuviojuna-aktiviteetit-39dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-elaimet-759b",
+      "siblings": [
+        "kuviojuna-elaimet-759b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-kodin-ymparilla-c989",
+      "siblings": [
+        "kuviojuna-kodin-ymparilla-c989"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-ruokakaupassa-8993",
+      "siblings": [
+        "kuviojuna-ruokakaupassa-8993"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-leipomo-de1b",
+      "siblings": [
+        "kuviojuna-leipomo-de1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-ranta-e378",
+      "siblings": [
+        "kuviojuna-ranta-e378"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-linnut-2074",
+      "siblings": [
+        "kuviojuna-linnut-2074"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-linnut-2-3889",
+      "siblings": [
+        "kuviojuna-linnut-2-3889"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-ruumiinosat-d9d6",
+      "siblings": [
+        "kuviojuna-ruumiinosat-d9d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-aamiainen-009f",
+      "siblings": [
+        "kuviojuna-aamiainen-009f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-leirielama-6e4a",
+      "siblings": [
+        "kuviojuna-leirielama-6e4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-joulu-7a9d",
+      "siblings": [
+        "kuviojuna-joulu-7a9d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-luokkahuone-01ae",
+      "siblings": [
+        "kuviojuna-luokkahuone-01ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-vaatteet-a6ae",
+      "siblings": [
+        "kuviojuna-vaatteet-a6ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-varit-bbcc",
+      "siblings": [
+        "kuviojuna-varit-bbcc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-jalkiruoat-ja-makeiset-28aa",
+      "siblings": [
+        "kuviojuna-jalkiruoat-ja-makeiset-28aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-dinosaurukset-bc0a",
+      "siblings": [
+        "kuviojuna-dinosaurukset-bc0a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-paasiainen-1f13",
+      "siblings": [
+        "kuviojuna-paasiainen-1f13"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-tunteet-06f5",
+      "siblings": [
+        "kuviojuna-tunteet-06f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-maatilan-elaimet-1a2e",
+      "siblings": [
+        "kuviojuna-maatilan-elaimet-1a2e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-kukat-f1e7",
+      "siblings": [
+        "kuviojuna-kukat-f1e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-metsan-elaimet-728e",
+      "siblings": [
+        "kuviojuna-metsan-elaimet-728e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-hedelmat-39f5",
+      "siblings": [
+        "kuviojuna-hedelmat-39f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-huonekalut-60f8",
+      "siblings": [
+        "kuviojuna-huonekalut-60f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-sairaala-5a41",
+      "siblings": [
+        "kuviojuna-sairaala-5a41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-hyonteiset-ja-otokat-006e",
+      "siblings": [
+        "kuviojuna-hyonteiset-ja-otokat-006e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-keittiovalineet-5171",
+      "siblings": [
+        "kuviojuna-keittiovalineet-5171"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-musiikki-a92c",
+      "siblings": [
+        "kuviojuna-musiikki-a92c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-ammatit-71aa",
+      "siblings": [
+        "kuviojuna-ammatit-71aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-merielama-da63",
+      "siblings": [
+        "kuviojuna-merielama-da63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-lemmikit-f8a8",
+      "siblings": [
+        "kuviojuna-lemmikit-f8a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-postitoimisto-ffaf",
+      "siblings": [
+        "kuviojuna-postitoimisto-ffaf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-matelijat-ja-sammakkoelaimet-215a",
+      "siblings": [
+        "kuviojuna-matelijat-ja-sammakkoelaimet-215a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-muodot-a968",
+      "siblings": [
+        "kuviojuna-muodot-a968"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-avaruus-a15c",
+      "siblings": [
+        "kuviojuna-avaruus-a15c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-kevat-0418",
+      "siblings": [
+        "kuviojuna-kevat-0418"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-kesa-ae3e",
+      "siblings": [
+        "kuviojuna-kesa-ae3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-kiitospaiva-cba0",
+      "siblings": [
+        "kuviojuna-kiitospaiva-cba0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-lentavat-asiat-9f2c",
+      "siblings": [
+        "kuviojuna-lentavat-asiat-9f2c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-tyokalut-b762",
+      "siblings": [
+        "kuviojuna-tyokalut-b762"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-lelut-4df9",
+      "siblings": [
+        "kuviojuna-lelut-4df9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-puut-66c2",
+      "siblings": [
+        "kuviojuna-puut-66c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-vihannekset-bee4",
+      "siblings": [
+        "kuviojuna-vihannekset-bee4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-ajoneuvot-94b6",
+      "siblings": [
+        "kuviojuna-ajoneuvot-94b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-saa-a80e",
+      "siblings": [
+        "kuviojuna-saa-a80e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-talvi-8d5a",
+      "siblings": [
+        "kuviojuna-talvi-8d5a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kuviojuna-elaintarhan-elaimet-7613",
+      "siblings": [
+        "kuviojuna-elaintarhan-elaimet-7613"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "esikoulu"
+    }
+  ]
+}

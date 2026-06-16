@@ -1,0 +1,517 @@
+{
+  "locale": "pt",
+  "exerciseType": "alphabet-train",
+  "level": "educacao-infantil",
+  "rawRowCount": 30,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 29
+  },
+  "totalValid": 29,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "beach",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "easter",
+    "forest_creatures",
+    "fruits",
+    "hospital",
+    "kitchen_tools",
+    "occupations",
+    "ocean_life",
+    "space",
+    "spring",
+    "summer",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-acessorios-7204",
+      "siblings": [
+        "trem-do-alfabeto-acessorios-7204"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-atividades-4c7e",
+      "siblings": [
+        "trem-do-alfabeto-atividades-4c7e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "trem-do-alfabeto-animais",
+      "siblings": [
+        "trem-do-alfabeto-animais",
+        "trem-do-alfabeto-animais-8372"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-pela-casa-53d3",
+      "siblings": [
+        "trem-do-alfabeto-pela-casa-53d3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-no-supermercado-9163",
+      "siblings": [
+        "trem-do-alfabeto-no-supermercado-9163"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-praia-b134",
+      "siblings": [
+        "trem-do-alfabeto-praia-b134"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-partes-do-corpo-68db",
+      "siblings": [
+        "trem-do-alfabeto-partes-do-corpo-68db"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-cafe-da-manha-1906",
+      "siblings": [
+        "trem-do-alfabeto-cafe-da-manha-1906"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-acampamento-4355",
+      "siblings": [
+        "trem-do-alfabeto-acampamento-4355"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-natal-b7d4",
+      "siblings": [
+        "trem-do-alfabeto-natal-b7d4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-sala-de-aula-e03d",
+      "siblings": [
+        "trem-do-alfabeto-sala-de-aula-e03d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-roupas-f325",
+      "siblings": [
+        "trem-do-alfabeto-roupas-f325"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-pascoa-80fc",
+      "siblings": [
+        "trem-do-alfabeto-pascoa-80fc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-criaturas-da-floresta-a712",
+      "siblings": [
+        "trem-do-alfabeto-criaturas-da-floresta-a712"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-frutas-09b9",
+      "siblings": [
+        "trem-do-alfabeto-frutas-09b9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-hospital-4942",
+      "siblings": [
+        "trem-do-alfabeto-hospital-4942"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-utensilios-de-cozinha-37d3",
+      "siblings": [
+        "trem-do-alfabeto-utensilios-de-cozinha-37d3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-profissoes-96a1",
+      "siblings": [
+        "trem-do-alfabeto-profissoes-96a1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-vida-marinha-6c1d",
+      "siblings": [
+        "trem-do-alfabeto-vida-marinha-6c1d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-espaco-3517",
+      "siblings": [
+        "trem-do-alfabeto-espaco-3517"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-primavera-30ad",
+      "siblings": [
+        "trem-do-alfabeto-primavera-30ad"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-verao-bfa5",
+      "siblings": [
+        "trem-do-alfabeto-verao-bfa5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-coisas-que-voam-548c",
+      "siblings": [
+        "trem-do-alfabeto-coisas-que-voam-548c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-ferramentas-e160",
+      "siblings": [
+        "trem-do-alfabeto-ferramentas-e160"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-brinquedos-a466",
+      "siblings": [
+        "trem-do-alfabeto-brinquedos-a466"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-veiculos-7a59",
+      "siblings": [
+        "trem-do-alfabeto-veiculos-7a59"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-clima-bbaf",
+      "siblings": [
+        "trem-do-alfabeto-clima-bbaf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-inverno-d677",
+      "siblings": [
+        "trem-do-alfabeto-inverno-d677"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-do-alfabeto-animais-do-zoologico-fddc",
+      "siblings": [
+        "trem-do-alfabeto-animais-do-zoologico-fddc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    }
+  ]
+}

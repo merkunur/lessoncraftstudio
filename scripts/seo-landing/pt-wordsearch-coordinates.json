@@ -1,0 +1,856 @@
+{
+  "locale": "pt",
+  "exerciseType": "wordsearch",
+  "level": "1o-ano",
+  "rawRowCount": 51,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 49
+  },
+  "totalValid": 49,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-acessorios-23ba",
+      "siblings": [
+        "caca-palavras-acessorios-23ba"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-atividades-6bff",
+      "siblings": [
+        "caca-palavras-atividades-6bff"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-animais-b5d5",
+      "siblings": [
+        "caca-palavras-animais-b5d5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-pela-casa-97e6",
+      "siblings": [
+        "caca-palavras-pela-casa-97e6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-no-supermercado-0f8a",
+      "siblings": [
+        "caca-palavras-no-supermercado-0f8a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-padaria-d5f1",
+      "siblings": [
+        "caca-palavras-padaria-d5f1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-praia-88d7",
+      "siblings": [
+        "caca-palavras-praia-88d7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-passaros-bcbf",
+      "siblings": [
+        "caca-palavras-passaros-bcbf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-passaros-2-8efe",
+      "siblings": [
+        "caca-palavras-passaros-2-8efe"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-partes-do-corpo-fc44",
+      "siblings": [
+        "caca-palavras-partes-do-corpo-fc44"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-cafe-da-manha-8dd4",
+      "siblings": [
+        "caca-palavras-cafe-da-manha-8dd4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-acampamento-17c6",
+      "siblings": [
+        "caca-palavras-acampamento-17c6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-natal-4209",
+      "siblings": [
+        "caca-palavras-natal-4209"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-sala-de-aula-2875",
+      "siblings": [
+        "caca-palavras-sala-de-aula-2875"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-roupas-bd64",
+      "siblings": [
+        "caca-palavras-roupas-bd64"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-cores-a352",
+      "siblings": [
+        "caca-palavras-cores-a352"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-sobremesas-e-doces-9931",
+      "siblings": [
+        "caca-palavras-sobremesas-e-doces-9931"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-dinossauros-4714",
+      "siblings": [
+        "caca-palavras-dinossauros-4714"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-pascoa-62d7",
+      "siblings": [
+        "caca-palavras-pascoa-62d7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-emocoes-1dc1",
+      "siblings": [
+        "caca-palavras-emocoes-1dc1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-animais-da-fazenda-60e2",
+      "siblings": [
+        "caca-palavras-animais-da-fazenda-60e2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-flores-44d7",
+      "siblings": [
+        "caca-palavras-flores-44d7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-criaturas-da-floresta-47a1",
+      "siblings": [
+        "caca-palavras-criaturas-da-floresta-47a1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-frutas-c133",
+      "siblings": [
+        "caca-palavras-frutas-c133"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-moveis-879f",
+      "siblings": [
+        "caca-palavras-moveis-879f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-hospital-6770",
+      "siblings": [
+        "caca-palavras-hospital-6770"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-insetos-e-bichos-98b7",
+      "siblings": [
+        "caca-palavras-insetos-e-bichos-98b7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-utensilios-de-cozinha-8da4",
+      "siblings": [
+        "caca-palavras-utensilios-de-cozinha-8da4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-diversos-400b",
+      "siblings": [
+        "caca-palavras-diversos-400b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-musica-a667",
+      "siblings": [
+        "caca-palavras-musica-a667"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-profissoes-aa7d",
+      "siblings": [
+        "caca-palavras-profissoes-aa7d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-vida-marinha-7643",
+      "siblings": [
+        "caca-palavras-vida-marinha-7643"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-animais-de-estimacao-96fe",
+      "siblings": [
+        "caca-palavras-animais-de-estimacao-96fe"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-correios-6530",
+      "siblings": [
+        "caca-palavras-correios-6530"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-repteis-e-anfibios-3ae2",
+      "siblings": [
+        "caca-palavras-repteis-e-anfibios-3ae2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-formas-55b8",
+      "siblings": [
+        "caca-palavras-formas-55b8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-espaco-350f",
+      "siblings": [
+        "caca-palavras-espaco-350f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-primavera-4ded",
+      "siblings": [
+        "caca-palavras-primavera-4ded"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-verao-bedf",
+      "siblings": [
+        "caca-palavras-verao-bedf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-dia-de-acao-de-gracas-31e9",
+      "siblings": [
+        "caca-palavras-dia-de-acao-de-gracas-31e9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-coisas-que-voam-c95e",
+      "siblings": [
+        "caca-palavras-coisas-que-voam-c95e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-ferramentas-3720",
+      "siblings": [
+        "caca-palavras-ferramentas-3720"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-brinquedos-aecf",
+      "siblings": [
+        "caca-palavras-brinquedos-aecf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-arvores-c8ff",
+      "siblings": [
+        "caca-palavras-arvores-c8ff"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-vegetais-473c",
+      "siblings": [
+        "caca-palavras-vegetais-473c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-veiculos-7a61",
+      "siblings": [
+        "caca-palavras-veiculos-7a61"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-clima-9459",
+      "siblings": [
+        "caca-palavras-clima-9459"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-inverno-8d2e",
+      "siblings": [
+        "caca-palavras-inverno-8d2e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "caca-palavras-animais-do-zoologico-8aa1",
+      "siblings": [
+        "caca-palavras-animais-do-zoologico-8aa1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano"
+    }
+  ]
+}

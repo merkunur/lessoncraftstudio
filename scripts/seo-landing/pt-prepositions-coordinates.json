@@ -1,0 +1,1544 @@
+{
+  "locale": "pt",
+  "exerciseType": "prepositions",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 101,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "fillin": 49,
+    "multiplechoice": 49
+  },
+  "totalValid": 98,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "fillin",
+    "multiplechoice"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "fillin",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-acessorios-ef96",
+      "siblings": [
+        "preposicoes-complete-acessorios-ef96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-atividades-eff5",
+      "siblings": [
+        "preposicoes-complete-atividades-eff5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-animais-2a2c",
+      "siblings": [
+        "preposicoes-complete-animais-2a2c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-pela-casa-0fd9",
+      "siblings": [
+        "preposicoes-complete-pela-casa-0fd9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-no-supermercado-53c7",
+      "siblings": [
+        "preposicoes-complete-no-supermercado-53c7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-padaria-029e",
+      "siblings": [
+        "preposicoes-complete-padaria-029e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-praia-a844",
+      "siblings": [
+        "preposicoes-complete-praia-a844"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-passaros-652b",
+      "siblings": [
+        "preposicoes-complete-passaros-652b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-passaros-2-b74e",
+      "siblings": [
+        "preposicoes-complete-passaros-2-b74e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-partes-do-corpo-4df5",
+      "siblings": [
+        "preposicoes-complete-partes-do-corpo-4df5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-cafe-da-manha-6d65",
+      "siblings": [
+        "preposicoes-complete-cafe-da-manha-6d65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-acampamento-71b4",
+      "siblings": [
+        "preposicoes-complete-acampamento-71b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-natal-e290",
+      "siblings": [
+        "preposicoes-complete-natal-e290"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-sala-de-aula-b40d",
+      "siblings": [
+        "preposicoes-complete-sala-de-aula-b40d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-roupas-36b4",
+      "siblings": [
+        "preposicoes-complete-roupas-36b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-cores-2bb9",
+      "siblings": [
+        "preposicoes-complete-cores-2bb9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-sobremesas-e-doces-fcd3",
+      "siblings": [
+        "preposicoes-complete-sobremesas-e-doces-fcd3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-dinossauros-3243",
+      "siblings": [
+        "preposicoes-complete-dinossauros-3243"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-pascoa-b337",
+      "siblings": [
+        "preposicoes-complete-pascoa-b337"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-emocoes-e6de",
+      "siblings": [
+        "preposicoes-complete-emocoes-e6de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-animais-da-fazenda-9aab",
+      "siblings": [
+        "preposicoes-complete-animais-da-fazenda-9aab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-flores-4a32",
+      "siblings": [
+        "preposicoes-complete-flores-4a32"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-criaturas-da-floresta-2a1f",
+      "siblings": [
+        "preposicoes-complete-criaturas-da-floresta-2a1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-frutas-870e",
+      "siblings": [
+        "preposicoes-complete-frutas-870e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-moveis-6603",
+      "siblings": [
+        "preposicoes-complete-moveis-6603"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-hospital-764b",
+      "siblings": [
+        "preposicoes-complete-hospital-764b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-insetos-e-bichos-05e7",
+      "siblings": [
+        "preposicoes-complete-insetos-e-bichos-05e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-utensilios-de-cozinha-785d",
+      "siblings": [
+        "preposicoes-complete-utensilios-de-cozinha-785d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-diversos-e503",
+      "siblings": [
+        "preposicoes-complete-diversos-e503"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-musica-e13c",
+      "siblings": [
+        "preposicoes-complete-musica-e13c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-profissoes-d429",
+      "siblings": [
+        "preposicoes-complete-profissoes-d429"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-vida-marinha-4f19",
+      "siblings": [
+        "preposicoes-complete-vida-marinha-4f19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-animais-de-estimacao-cff0",
+      "siblings": [
+        "preposicoes-complete-animais-de-estimacao-cff0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-correios-3a79",
+      "siblings": [
+        "preposicoes-complete-correios-3a79"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-repteis-e-anfibios-76f8",
+      "siblings": [
+        "preposicoes-complete-repteis-e-anfibios-76f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-formas-2e09",
+      "siblings": [
+        "preposicoes-complete-formas-2e09"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-espaco-0d6e",
+      "siblings": [
+        "preposicoes-complete-espaco-0d6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-primavera-24d1",
+      "siblings": [
+        "preposicoes-complete-primavera-24d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-verao-5394",
+      "siblings": [
+        "preposicoes-complete-verao-5394"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-dia-de-acao-de-gracas-9290",
+      "siblings": [
+        "preposicoes-complete-dia-de-acao-de-gracas-9290"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-coisas-que-voam-0904",
+      "siblings": [
+        "preposicoes-complete-coisas-que-voam-0904"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-ferramentas-b7af",
+      "siblings": [
+        "preposicoes-complete-ferramentas-b7af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-brinquedos-42c1",
+      "siblings": [
+        "preposicoes-complete-brinquedos-42c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-arvores-7e8c",
+      "siblings": [
+        "preposicoes-complete-arvores-7e8c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-vegetais-e8d4",
+      "siblings": [
+        "preposicoes-complete-vegetais-e8d4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-veiculos-2875",
+      "siblings": [
+        "preposicoes-complete-veiculos-2875"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-clima-84cc",
+      "siblings": [
+        "preposicoes-complete-clima-84cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-inverno-d652",
+      "siblings": [
+        "preposicoes-complete-inverno-d652"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-complete-animais-do-zoologico-9ce6",
+      "siblings": [
+        "preposicoes-complete-animais-do-zoologico-9ce6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-acessorios-d808",
+      "siblings": [
+        "preposicoes-multipla-escolha-acessorios-d808"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-atividades-02e8",
+      "siblings": [
+        "preposicoes-multipla-escolha-atividades-02e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-animais-a1df",
+      "siblings": [
+        "preposicoes-multipla-escolha-animais-a1df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-pela-casa-3ba7",
+      "siblings": [
+        "preposicoes-multipla-escolha-pela-casa-3ba7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-no-supermercado-fd62",
+      "siblings": [
+        "preposicoes-multipla-escolha-no-supermercado-fd62"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-padaria-71c0",
+      "siblings": [
+        "preposicoes-multipla-escolha-padaria-71c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-praia-3597",
+      "siblings": [
+        "preposicoes-multipla-escolha-praia-3597"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-passaros-295c",
+      "siblings": [
+        "preposicoes-multipla-escolha-passaros-295c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-passaros-2-e6f2",
+      "siblings": [
+        "preposicoes-multipla-escolha-passaros-2-e6f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-partes-do-corpo-a76b",
+      "siblings": [
+        "preposicoes-multipla-escolha-partes-do-corpo-a76b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-cafe-da-manha-79f0",
+      "siblings": [
+        "preposicoes-multipla-escolha-cafe-da-manha-79f0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-acampamento-cb3a",
+      "siblings": [
+        "preposicoes-multipla-escolha-acampamento-cb3a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-natal-0d99",
+      "siblings": [
+        "preposicoes-multipla-escolha-natal-0d99"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-sala-de-aula-63e8",
+      "siblings": [
+        "preposicoes-multipla-escolha-sala-de-aula-63e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-roupas-0868",
+      "siblings": [
+        "preposicoes-multipla-escolha-roupas-0868"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-cores-aeb6",
+      "siblings": [
+        "preposicoes-multipla-escolha-cores-aeb6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-sobremesas-e-doces-fe18",
+      "siblings": [
+        "preposicoes-multipla-escolha-sobremesas-e-doces-fe18"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-dinossauros-2c76",
+      "siblings": [
+        "preposicoes-multipla-escolha-dinossauros-2c76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-pascoa-baec",
+      "siblings": [
+        "preposicoes-multipla-escolha-pascoa-baec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-emocoes-8ab2",
+      "siblings": [
+        "preposicoes-multipla-escolha-emocoes-8ab2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-animais-da-fazenda-ce50",
+      "siblings": [
+        "preposicoes-multipla-escolha-animais-da-fazenda-ce50"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-flores-995c",
+      "siblings": [
+        "preposicoes-multipla-escolha-flores-995c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-criaturas-da-floresta-d8eb",
+      "siblings": [
+        "preposicoes-multipla-escolha-criaturas-da-floresta-d8eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-frutas-7a3a",
+      "siblings": [
+        "preposicoes-multipla-escolha-frutas-7a3a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-moveis-8a2f",
+      "siblings": [
+        "preposicoes-multipla-escolha-moveis-8a2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-hospital-3a67",
+      "siblings": [
+        "preposicoes-multipla-escolha-hospital-3a67"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-insetos-e-bichos-bcc3",
+      "siblings": [
+        "preposicoes-multipla-escolha-insetos-e-bichos-bcc3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-utensilios-de-cozinha-29ca",
+      "siblings": [
+        "preposicoes-multipla-escolha-utensilios-de-cozinha-29ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-diversos-6a19",
+      "siblings": [
+        "preposicoes-multipla-escolha-diversos-6a19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-musica-ac03",
+      "siblings": [
+        "preposicoes-multipla-escolha-musica-ac03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-profissoes-b98c",
+      "siblings": [
+        "preposicoes-multipla-escolha-profissoes-b98c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-vida-marinha-9fa6",
+      "siblings": [
+        "preposicoes-multipla-escolha-vida-marinha-9fa6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-animais-de-estimacao-7bf6",
+      "siblings": [
+        "preposicoes-multipla-escolha-animais-de-estimacao-7bf6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-correios-e8b7",
+      "siblings": [
+        "preposicoes-multipla-escolha-correios-e8b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-repteis-e-anfibios-314d",
+      "siblings": [
+        "preposicoes-multipla-escolha-repteis-e-anfibios-314d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-formas-eb6a",
+      "siblings": [
+        "preposicoes-multipla-escolha-formas-eb6a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-espaco-2dbf",
+      "siblings": [
+        "preposicoes-multipla-escolha-espaco-2dbf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-primavera-dcf0",
+      "siblings": [
+        "preposicoes-multipla-escolha-primavera-dcf0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-verao-a16e",
+      "siblings": [
+        "preposicoes-multipla-escolha-verao-a16e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-dia-de-acao-de-gracas-0540",
+      "siblings": [
+        "preposicoes-multipla-escolha-dia-de-acao-de-gracas-0540"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-coisas-que-voam-8c18",
+      "siblings": [
+        "preposicoes-multipla-escolha-coisas-que-voam-8c18"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-ferramentas-e99b",
+      "siblings": [
+        "preposicoes-multipla-escolha-ferramentas-e99b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-brinquedos-c376",
+      "siblings": [
+        "preposicoes-multipla-escolha-brinquedos-c376"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-arvores-44b6",
+      "siblings": [
+        "preposicoes-multipla-escolha-arvores-44b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-vegetais-d3e4",
+      "siblings": [
+        "preposicoes-multipla-escolha-vegetais-d3e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-veiculos-2863",
+      "siblings": [
+        "preposicoes-multipla-escolha-veiculos-2863"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-clima-56f3",
+      "siblings": [
+        "preposicoes-multipla-escolha-clima-56f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-inverno-0d28",
+      "siblings": [
+        "preposicoes-multipla-escolha-inverno-0d28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "preposicoes-multipla-escolha-animais-do-zoologico-42aa",
+      "siblings": [
+        "preposicoes-multipla-escolha-animais-do-zoologico-42aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

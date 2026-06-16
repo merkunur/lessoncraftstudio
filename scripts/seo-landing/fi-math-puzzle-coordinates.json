@@ -1,0 +1,2272 @@
+{
+  "locale": "fi",
+  "exerciseType": "math-puzzle",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 145,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "addition": 47,
+    "mixed": 47,
+    "subtraction": 47
+  },
+  "totalValid": 120,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "addition",
+    "mixed",
+    "subtraction"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [
+    "addition/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "addition/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "addition/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "addition/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "addition/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "addition/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "addition/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "mixed/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "subtraction/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "subtraction/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "subtraction/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "subtraction/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "subtraction/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "subtraction/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "subtraction/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "addition",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-asusteet-d7cc",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-asusteet-d7cc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-elaimet-8de5",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-elaimet-8de5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-kodin-ymparilla-67b5",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-kodin-ymparilla-67b5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-ruokakaupassa-70b5",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-ruokakaupassa-70b5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-leipomo-19c3",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-leipomo-19c3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-ranta-0060",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-ranta-0060"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-linnut-9cfc",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-linnut-9cfc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-linnut-2-3aec",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-linnut-2-3aec"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-aamiainen-7530",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-aamiainen-7530"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-leirielama-6c41",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-leirielama-6c41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-joulu-f041",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-joulu-f041"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-luokkahuone-27f8",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-luokkahuone-27f8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-vaatteet-7b56",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-vaatteet-7b56"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-jalkiruoat-ja-makeiset-e28b",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-jalkiruoat-ja-makeiset-e28b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-dinosaurukset-5124",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-dinosaurukset-5124"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-paasiainen-16c8",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-paasiainen-16c8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-maatilan-elaimet-a962",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-maatilan-elaimet-a962"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-kukat-9d25",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-kukat-9d25"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-metsan-elaimet-2a54",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-metsan-elaimet-2a54"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-hedelmat-48bd",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-hedelmat-48bd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-huonekalut-9c22",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-huonekalut-9c22"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-sairaala-ac40",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-sairaala-ac40"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-hyonteiset-ja-otokat-ef2a",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-hyonteiset-ja-otokat-ef2a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-keittiovalineet-79d4",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-keittiovalineet-79d4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-musiikki-55ac",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-musiikki-55ac"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-ammatit-6828",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-ammatit-6828"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-merielama-43ea",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-merielama-43ea"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-lemmikit-2f35",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-lemmikit-2f35"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-postitoimisto-975d",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-postitoimisto-975d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-matelijat-ja-sammakkoelaimet-65de",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-matelijat-ja-sammakkoelaimet-65de"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-muodot-c182",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-muodot-c182"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-avaruus-1586",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-avaruus-1586"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-kiitospaiva-d45a",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-kiitospaiva-d45a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-lentavat-asiat-1282",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-lentavat-asiat-1282"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-tyokalut-fc88",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-tyokalut-fc88"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-lelut-4801",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-lelut-4801"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-puut-3266",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-puut-3266"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-vihannekset-f68a",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-vihannekset-f68a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-ajoneuvot-54f4",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-ajoneuvot-54f4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-yhteenlasku-elaintarhan-elaimet-a87a",
+      "siblings": [
+        "matematiikkapulma-yhteenlasku-elaintarhan-elaimet-a87a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-asusteet-7549",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-asusteet-7549"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-elaimet",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-elaimet",
+        "matematiikkapulma-sekoitettu-elaimet-5cb4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-kodin-ymparilla-6b11",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-kodin-ymparilla-6b11"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-ruokakaupassa-c476",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-ruokakaupassa-c476"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-leipomo-80d5",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-leipomo-80d5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-ranta-405a",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-ranta-405a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-linnut-a060",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-linnut-a060"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-linnut-2-a6e5",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-linnut-2-a6e5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-aamiainen-2f60",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-aamiainen-2f60"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-leirielama-2a83",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-leirielama-2a83"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-joulu-15f6",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-joulu-15f6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-luokkahuone-b7b4",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-luokkahuone-b7b4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-vaatteet-9872",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-vaatteet-9872"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-jalkiruoat-ja-makeiset-3d91",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-jalkiruoat-ja-makeiset-3d91"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-dinosaurukset-b8a5",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-dinosaurukset-b8a5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-paasiainen-05bc",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-paasiainen-05bc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-maatilan-elaimet-e329",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-maatilan-elaimet-e329"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-kukat-0d9c",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-kukat-0d9c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-metsan-elaimet-10f5",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-metsan-elaimet-10f5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-hedelmat-81b4",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-hedelmat-81b4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-huonekalut-c045",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-huonekalut-c045"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-sairaala-fe34",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-sairaala-fe34"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-hyonteiset-ja-otokat-3592",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-hyonteiset-ja-otokat-3592"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-keittiovalineet-ade1",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-keittiovalineet-ade1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-musiikki-3e03",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-musiikki-3e03"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-ammatit-df11",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-ammatit-df11"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-merielama-4b19",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-merielama-4b19"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-lemmikit-b2d7",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-lemmikit-b2d7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-postitoimisto-ad32",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-postitoimisto-ad32"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-matelijat-ja-sammakkoelaimet-27a7",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-matelijat-ja-sammakkoelaimet-27a7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-muodot-b4bc",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-muodot-b4bc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-avaruus-a41d",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-avaruus-a41d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-kiitospaiva-9805",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-kiitospaiva-9805"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-lentavat-asiat-0f63",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-lentavat-asiat-0f63"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-tyokalut-f60f",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-tyokalut-f60f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-lelut-3fee",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-lelut-3fee"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-puut-2986",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-puut-2986"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-vihannekset-4b02",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-vihannekset-4b02"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-ajoneuvot-9a43",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-ajoneuvot-9a43"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-sekoitettu-elaintarhan-elaimet-2e02",
+      "siblings": [
+        "matematiikkapulma-sekoitettu-elaintarhan-elaimet-2e02"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-asusteet-54e0",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-asusteet-54e0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-elaimet-a99b",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-elaimet-a99b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-kodin-ymparilla-6f99",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-kodin-ymparilla-6f99"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-ruokakaupassa-9c81",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-ruokakaupassa-9c81"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-leipomo-0283",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-leipomo-0283"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-ranta-34aa",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-ranta-34aa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-linnut-db76",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-linnut-db76"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-linnut-2-145b",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-linnut-2-145b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-aamiainen-c154",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-aamiainen-c154"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-leirielama-1b06",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-leirielama-1b06"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-joulu-4558",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-joulu-4558"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-luokkahuone-5453",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-luokkahuone-5453"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-vaatteet-083e",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-vaatteet-083e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-jalkiruoat-ja-makeiset-eae5",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-jalkiruoat-ja-makeiset-eae5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-dinosaurukset-8e9f",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-dinosaurukset-8e9f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "subtraction",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-paasiainen-9b6c",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-paasiainen-9b6c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-maatilan-elaimet-c0da",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-maatilan-elaimet-c0da"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-kukat-df80",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-kukat-df80"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-metsan-elaimet-3180",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-metsan-elaimet-3180"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-hedelmat-3aba",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-hedelmat-3aba"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-huonekalut-fbc4",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-huonekalut-fbc4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-sairaala-62d5",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-sairaala-62d5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-hyonteiset-ja-otokat-326f",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-hyonteiset-ja-otokat-326f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-keittiovalineet-db5f",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-keittiovalineet-db5f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-musiikki-db7b",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-musiikki-db7b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-ammatit-a95e",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-ammatit-a95e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-merielama-c7a6",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-merielama-c7a6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-lemmikit-8794",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-lemmikit-8794"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-postitoimisto-fd3c",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-postitoimisto-fd3c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-matelijat-ja-sammakkoelaimet-218a",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-matelijat-ja-sammakkoelaimet-218a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-muodot-c7dc",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-muodot-c7dc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-avaruus-c403",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-avaruus-c403"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-kiitospaiva-2874",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-kiitospaiva-2874"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-lentavat-asiat-d877",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-lentavat-asiat-d877"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-tyokalut-adc4",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-tyokalut-adc4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-lelut-2d85",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-lelut-2d85"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-puut-cf91",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-puut-cf91"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-vihannekset-69e9",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-vihannekset-69e9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-ajoneuvot-5faf",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-ajoneuvot-5faf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkapulma-vahennyslasku-elaintarhan-elaimet-17a7",
+      "siblings": [
+        "matematiikkapulma-vahennyslasku-elaintarhan-elaimet-17a7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    }
+  ]
+}

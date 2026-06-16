@@ -1,0 +1,131 @@
+/**
+ * fi-readiness-code-addition.js — suomenkielinen (fi) laskeutumissivun teksti
+ * koodatun yhteenlaskun tehtävälle.
+ *
+ * Tehtävä (Koodattu yhteenlasku): yhteenlasku, jossa on annettu AVAIN / KOODI.
+ * Avain kertoo, kuinka paljon kukin kuva on arvoltaan; lapsi lukee avaimen, purkaa
+ * jokaisen kuvan luvuksi ja laskee summan. STANDARD-BEARING (1.–2. luokka, OPS 2014,
+ * sisältöalue Luvut ja laskutoimitukset). HUOM: tämä config EI vie level- eikä
+ * standard-kenttää — ne tulevat per-koordinaatti-annotaatiosta (band-split
+ * 1-luokka / 2-luokka).
+ *
+ * KAKSI tilaa:
+ *   null         — tavallinen koodattu yhteenlasku: avain antaa kullekin kuvalle arvon;
+ *                  lapsi purkaa koodin ja laskee yhteen.
+ *   secret-word  — koodattujen summien ratkaiseminen paljastaa lopussa SALASANAN
+ *                  (jokainen tulos on yksi kirjain).
+ *
+ * KRIITTINEN AITA — KOLME KASVOA (koodattu yhteenlasku = AVAIN ANNETTU; kaksi muuta
+ * ovat sisartehtäviä). Koodattu yhteenlasku OMISTAA avaimen: koodi / avain / salakoodi /
+ * koodi kertoo kunkin kuvan arvon / avaimen avulla / ratkaise koodi / pura koodi.
+ * secret-word OMISTAA loppupalkinnon: salasana.
+ * KIELLETYT (kuuluvat math-worksheet- ja math-puzzle-tehtäviin):
+ *   "päättele kunkin kuvan arvo / mikä arvo / ilman avainta" (math-worksheetissa EI ole
+ *   avainta — tässä ON), JA "kuva paljastuu / palapeli / kuva ilmestyy / paljastuu"
+ *   (se on math-puzzlen paljastus). Tässä arvot on ANNETTU avaimella; mitään ei päätellä
+ *   ilman avainta eikä mikään kuva paljastu. null-tila EI saa mainita salasanaa.
+ *
+ * LUKUALUE-AGNOSTINEN: lukualue elää SERP-otsikossa, EI tässä leipätekstissä.
+ * Ei kovakoodattua lukualuetta, ei numeroita. Teeman substantiivi tulee aina
+ * fi-render.js:n paikkamerkeistä:
+ *   {H1}        nominatiivin monikko, isolla (otsikko/karuselli/sivun H1)
+ *   {N_PL}      nominatiivin monikko, pienellä — SUBJEKTI ("{N_PL} ovat avaimessa")
+ *   {N_PART_PL} partitiivin monikko, pienellä — laskemisen/purkamisen OBJEKTI ("pura {N_PART_PL}")
+ *   {N_GEN}     genetiivin monikko, pienellä — "{N_GEN} kuvat / arvot"
+ *
+ * Ei kovakoodattua teeman substantiivia. Ei numeroita. [NSR-FLAG][fi] §17.5.1.
+ */
+'use strict';
+
+const SKEL_NULL = [
+  `Tässä koodatun yhteenlaskun tehtävässä pienestä laskijastasi tulee pieni koodisalapoliisi, ja kaikki pyörii {N_GEN} kuvien ympärillä. Sivun ylälaidassa on avain: se kertoo selkeästi, kuinka paljon kukin kuva on arvoltaan. Mitään ei tarvitse keksiä eikä arvata — riittää, että katsoo avaimesta. Lapsi katsoo kuvaa, etsii sen luvun avaimesta, purkaa koodin ja laskee löytämänsä arvot yhteen. Se on rauhallinen leikki: ensin katsotaan, sitten kirjoitetaan ja lopuksi lasketaan yhteen, ilman minkäänlaista kiirettä. {N_GEN} parissa työskentely tekee kaikesta tutumpaa, koska kuvat tulevat lasten omasta maailmasta. Ei ajanottoa, ei arvosanaa, ei kilpailua — vain lempeä arvoitus ratkaistavaksi rauhassa. Tehtävä harjoittaa avaimen lukemista, koodin purkamista ja askel askeleelta ajattelua. Jos pieni jumittuu, palataan vain avaimeen ja luetaan yksi kuva kerrallaan. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tämä tehtävä muuttaa yhteenlaskut pieneksi koodiksi, joka puretaan {N_GEN} kuvien avulla numeroiden sijaan. Tehtävien vieressä on hyvin selkeä avain: kukin kuva on arvoltaan jokin luku, ja avain antaa sen arvon valmiina. Lapsen ei tarvitse selvittää mitään yksin — hän seuraa avainta, purkaa koodin ja kääntää kuvat luvuiksi ennen kuin laskee yhteen. Se on aitoa pienen koodisalapoliisin työtä: luetaan koodi, yhdistetään kuva ja luku, lasketaan yhteen. {N_GEN} parissa työskentely pitää uteliaisuuden virkeänä, koska lapsi tunnistaa kuvat ja kohtaa laskun hymyssä suin. Ilman ajanottoa ja ilman arvosanaa tehtävä jättää tilaa järjestelmälliselle ajattelulle ja oikean vastauksen löytämisen ilolle. Se harjoittaa työmuistia, tarkkuutta yksityiskohdille ja taitoa seurata sääntöä loppuun asti. Jos apua tarvitaan, osoita sormella kuvaa avaimessa — pieni ele tekee koodin purkamisesta varmempaa. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Avain, muutama kuva ja kova halu keksiä: siitä on kyse tässä {N_GEN} kuvista tehdyssä koodatussa yhteenlaskussa. Lapsi ei näe lukuja heti — hän löytää ne purkamalla kunkin kuvan avaimen avulla. Avain kertoo, kuinka paljon kukin kuva on arvoltaan, eikä mitään tarvitse päätellä: riittää, että katsoo avaimesta rauhassa ja seuraa sitä. Sen jälkeen löydetyt arvot lasketaan yhteen, kunnes päästään tulokseen. Se on lempeä arvoitus, jonka todellinen päähenkilö on pienen koodisalapoliisin ajattelu. {N_GEN} kuvat tekevät tehtävästä konkreettisen ja lämpimän, koska ne lähtevät asioista, jotka lapset tuntevat ja joista he pitävät. Tehtävä harjoittaa avaintaulukon lukemista, kärsivällisyyttä ja tapaa tarkistaa oma työ. Askel kerrallaan lapsi oppii, että koodin purkaminen on tarkkaavaisuuden taidetta. Jos jokin lasku ei mene umpeen, kutsu hänet lukemaan avain uudelleen kaikessa rauhassa. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Koodin purkaminen ja yhteen laskeminen on leikki, josta lapset pitävät kovasti, ja tämä tehtävä tarjoaa sen {N_GEN} merkeillä. Jokainen kuva kätkee luvun, joka on merkitty avaimeen: tehtävänä on katsoa se avaimesta, kirjoittaa muistiin ja sitten yhdistää arvot yhdeksi summaksi. Avain on aina siinä auttamassa — se kertoo, kuinka paljon kukin kuva on arvoltaan, ja pienen koodisalapoliisin tarvitsee vain lukea sitä ja seurata sitä. Ei tähtiä kerättävänä eikä pisteitä voitettavana: on vain ystävällinen koodi ratkaistavaksi omalla päällä. {N_GEN} parissa työskentely pitää motivaation korkealla, koska kuvat ovat iloisia ja helppoja tunnistaa. Pelin lomassa lapsi harjoittaa keskittymistä, avaimen lukemista ja järjestelmällistä ajattelua. Hän oppii myös arvokkaan tavan: ensin puran kaikki merkit, sitten lasken varmasti yhteen. Tarvittaessa palataan vain avaimeen ja luetaan se uudelleen lempeästi. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tämä sivu tarjoaa pienen koodin selvitettäväksi: koodatun yhteenlaskun, joka on rakennettu {N_GEN} kuvista. Lapsi katsoo avaimesta, huomaa mikä luku kutakin kuvaa vastaa ja laskee sitten summan. Se on looginen ja rauhallinen tehtävä, jossa tarkkaavaisuus merkitsee enemmän kuin nopeus. Et löydä ajanottoa, arvosanoja etkä tulostauluja: on vain lempeä arvoitus, joka kutsuu ajattelemaan järjestyksessä. Salaisuus on koko lailla avaimessa, joka antaa kunkin kuvan arvon — mitään ei tarvitse päätellä, riittää että seuraa sitä kuin pieni koodisalapoliisi. Koodin purkaminen harjoittaa työmuistia ja taitoa seurata tarkkaa sääntöä askel askeleelta. Lapsi oppii lukemaan arvotaulukkoa, tarkistamaan omat askeleensa ja luottamaan ajatteluunsa. Jos jokin lasku tuntuu vaikealta, ehdota {N_GEN} merkkien lukemista uudelleen rauhassa. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Kuvista ja luvuista tehty arvoitus odottaa lasta tässä {N_GEN} kuvilla varustetussa koodatussa yhteenlaskussa. Avain on leikin ydin: se liittää kunkin merkin arvoon, ja pienen tarvitsee vain katsoa se avaimesta ja sitten laskea se yhteen. Mitään ei selvitetä yksin — avain antaa kaiken, ja työ on lukea sitä tarkasti. Se on rauhallinen tehtävä, joka arvostaa huolellisuutta enemmän kuin vauhtia. Ei pisteitä, ei vertailuja: vain ilo purkaa koodi rauhassa ja ajatella järjestyksessä. {N_GEN} kuvat tekevät tehtävästä konkreettisen ja lämpimän, lähellä lasten arkea. Koodin purkaminen ja yhteen laskeminen harjoittaa keskittymistä, taulukon lukemista ja kärsivällisyyttä olla hyppäämättä yhdenkään askeleen yli. Lapsi huomaa, että salaisuus on edetä menetelmällisesti: ensin etsin arvon, sitten kirjoitan sen, lopuksi lasken yhteen. Tämä lempeä logiikka rakentaa varmuutta. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tämän tehtävän myötä lasku muuttuu pieneksi mysteeriksi ratkaistavaksi {N_GEN} kuvien avulla. Jokainen kuva on merkki, joka kätkee luvun, ja hyvin näkyvä avain auttaa selvittämään sen. Lapsi purkaa merkit yksi kerrallaan, kirjoittaa niiden arvot muistiin ja laskee ne sitten rauhassa yhteen päästäkseen tulokseen. Se on hidas ja rauhoittava logiikkapeli, kaukana ajan paineesta ja arvosanoista. Avain on pienen koodisalapoliisin paras ystävä: se kertoo, kuinka paljon kukin kuva on arvoltaan, eikä mitään tarvitse keksiä. {N_GEN} parissa työskentely tekee tehtävästä kutsuvan, koska se lähtee kuvista, jotka lapset tunnistavat heti. Tämä tehtävä harjoittaa tarkkaavaisuutta, avaimen lukemista ja arvokasta tapaa tarkistaa oma työ. Askel askeleelta pieni oppii, että kärsivällisyys ja järjestys vievät oikeaan vastaukseen. Koodin purkaminen yhdessä voi olla suloinen yhteinen hetki kotona tai koulussa. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tässä on koodattu yhteenlasku, joka näyttää pieneltä salakoodilta, rakennettu {N_GEN} merkeistä. Sääntö on lempeä: kukin kuva on arvoltaan luku, joka on merkitty avaimeen, ja lapsen tarvitsee vain katsoa se avaimesta ja sitten laskea se yhteen. Se on looginen ja seesteinen tehtävä, jossa merkitsee ajattelu eikä koskaan kiire. Ei ajanottoa eikä pisteitä: on vain ystävällinen arvoitus kohdattavaksi tarkkaavaisesti. Tärkeä yksityiskohta on, että avain on annettu — arvoa ei päätellä, se katsotaan avaimesta kuten jokainen hyvä salapoliisi tekee. {N_GEN} parissa työskentely pitää uteliaisuuden virkeänä ja tekee jokaisesta askeleesta kevyemmän. Koodin purkaminen ja yhteen laskeminen harjoittaa keskittymistä, arvotaulukon lukemista ja työmuistia. Lapsi oppii etenemään menetelmällisesti, tarkistaen yhden merkin kerrallaan lannistumatta. Jos jokin lasku ei mene umpeen, palataan vain avaimeen rauhassa ja aloitetaan se pala alusta. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+];
+
+const P2_NULL = [
+  `Tässä osassa lapsi katsoo avaimesta ja purkaa {N_GEN} merkit yksi kerrallaan. Hän etsii kunkin kuvan arvon avaimesta, kirjoittaa sen rauhassa muistiin ja laskee sitten yhteen löytääkseen tuloksen. Se on rauhallinen logiikkapeli, ilman kiirettä ja ilman pisteitä, jossa tarkkaavaisuus merkitsee enemmän kuin vauhti. {N_GEN} parissa työskentely tekee laskusta konkreettisen ja lämpimän. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tässä luetaan avain ja löydetään kunkin {N_GEN} kuvan taakse kätketty luku. Arvoa ei arvata — avain antaa sen, ja pienen koodisalapoliisin tarvitsee vain katsoa se sieltä. Hän purkaa koodin huolellisesti, kirjoittaa arvot muistiin ja laskee lopuksi varmasti yhteen. Ei ajanottoa eikä kilpailua: vain lempeä arvoitus ratkaistavaksi askel askeleelta. {N_GEN} kuvat pitävät uteliaisuuden elossa. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tämä osa kutsuu purkamaan koodin ja laskemaan yhteen rauhassa, selkeän avaimen ja {N_GEN} merkkien avulla. Lapsi katsoo avaimesta kunkin kuvan arvon, kirjoittaa sen muistiin ja laskee sitten kokonaissumman. Se on seesteinen tehtävä, joka harjoittaa tarkkaavaisuutta ja järjestelmällistä ajattelua. {N_GEN} kuvat tekevät kaikesta tutumpaa, ja jokainen askel on pieni oivalluksen hetki, ilman kiirettä eikä arvosanaa. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tässä logiikkapelissä pieni muuttaa {N_GEN} kuvat luvuiksi avaimen ansiosta. Hän katsoo kunkin arvon avaimesta, kirjoittaa sen ja laskee sitten yhteen löytääkseen lopullisen tuloksen. Ilman pisteitä ja ilman kiirettä tehtävä arvostaa huolellisuutta ja oman työn hallintaa. {N_GEN} parissa työskentely tekee laskusta rauhallisen ja uteliaan hetken, joka on hyvä jakaa kaikessa rauhassa. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tässä lapsesta tulee pieni koodin purkaja: hän lukee avaimen, katsoo sieltä {N_GEN} merkkien arvot ja laskee ne yhteen. Hän etenee yksi kuva kerrallaan, rauhassa ja tarkkaavaisesti, aina tulokseen asti. Se on lempeä arvoitus, kaukana ajanotosta ja arvosanoista, jossa avain antaa kunkin arvon — riittää, että katsoo sen sieltä. {N_GEN} kuvat pitävät motivaation korkealla koko matkan, merkki toisensa jälkeen. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tämä osa tarjoaa kunkin {N_GEN} kuvan purkamista avaimen avulla ja löydettyjen arvojen laskemista yhteen. Kunkin kuvan arvo on avaimessa, joten mitään ei tarvitse päätellä — vain katsoa ja kirjoittaa muistiin. Pieni työskentelee järjestyksessä, tarkistaa askeleensa ja päätyy varmasti summaan. Ei kilpailua, ei pisteitä: vain seesteistä logiikkaa ja paljon tarkkaavaisuutta. {N_GEN} kuvat tuovat tehtävän lähelle lasten maailmaa. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tässä tehtävän kohdassa lapsi katsoo avaimesta, löytää {N_GEN} kuvien joukkoon kätketyt luvut ja laskee ne rauhassa yhteen. Se on looginen ja rauhoittava peli, jossa merkitsee menetelmä eikä koskaan kiire. Avain antaa kunkin arvon valmiina, joten pienen koodisalapoliisin tarvitsee vain purkaa yksi merkki kerrallaan, harjoittaen keskittymistä ja työmuistia. {N_GEN} parissa työskentely tekee jokaisesta askeleesta kevyemmän. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+];
+
+const SKEL_SW = [
+  `Tällä sivulla matematiikasta tulee pieni aarrejahti: {N_GEN} kuvien koodattu yhteenlasku kätkee sisäänsä salasanan. Lapsi ratkaisee yksinkertaisia yhteenlaskuja, ja kukin tulos vastaa kirjainta, joka on merkitty avaimeen. Kun kirjaimet asetetaan riviin, esiin tulee piiloutunut salasana — juuri se loppuyllätys tekee leikistä niin mukavan. Avain antaa kaiken: se kertoo, kuinka paljon kukin kuva on arvoltaan, ja pienen koodisalapoliisin tarvitsee vain katsoa sieltä, purkaa koodi ja laskea yhteen. Tehtävä on rauhallinen, ilman ajanottoa, ilman pisteitä ja ilman minkäänlaista kilpailua. {N_GEN} parissa työskentely tuo tuttua ja iloista tunnelmaa, koska kuvat kulkevat mukana läpi koko arvoituksen. Koodia purkaessaan pieni harjoittaa laskemista, tarkkaavaisuutta ja ajattelua huomaamattaan: hänelle se on vain koodileikki. Uteliaisuus selvittää, mikä viesti kätkeytyy lukujen taakse, vie häntä eteenpäin mielellään. Jokainen ratkaistu lasku antaa uuden kirjaimen kirjoitettavaksi. Jos jumittuu, palataan vain avaimeen ja luetaan se rauhassa uudelleen. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tällä sivulla on kätketty viesti, ja sen selvittääkseen lapsi pääsee leikkimään {N_GEN} kuvista tehdyllä koodilla. Hän ratkaisee pieniä yhteenlaskuja, ja kukin tulos muuttuu kirjaimeksi avaimen ansiosta. Yksi toisensa jälkeen kirjaimet muodostavat salasanan: loppuyllätys, joka saa lasten kasvot loistamaan. Se on seesteinen tehtävä, kaukana ajanotosta, arvosanoista ja tulostauluista. Avain antaa kunkin kuvan arvon — mitään ei arvata, se katsotaan avaimesta kuten pieni koodisalapoliisi tekee. {N_GEN} parissa työskentely tekee arvoituksesta ystävällisemmän ja kutsuvamman, koska se yhdistää luvut ja lasten rakastamat kuvat. Kätketyn salasanan purkaminen harjoittaa laskemista, keskittymistä ja vastaavuustaulukon lukemista. Lapselle se on kuitenkin ennen kaikkea uteliaisuusleikki: hän haluaa tietää, mikä sana piiloutuu merkkien joukkoon. Tämä luontainen into auttaa häntä etenemään kärsivällisesti, yksi lasku kerrallaan. Jokainen löytynyt kirjain on pieni askel kohti lopullista viestiä. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Salasanan purkaminen on paljon enemmän kuin harjoitus: se on aito arvoitus, ja tässä se saa muotonsa {N_GEN} merkeistä. Lapsi ratkaisee helppoja yhteenlaskuja ja käyttää sitten avainta muuttaakseen kunkin tuloksen kirjaimeksi. Kirjaimet riviin asettamalla hän löytää sivulle piiloutuneen salasanan, ja juuri tämä paljastus on leikin sydän. Avain antaa kunkin kuvan arvon, joten mitään ei tarvitse päätellä — riittää, että katsoo sen sieltä kuin pieni koodisalapoliisi. Tehtävä on rauhallinen, ilman ajanottoa ja ilman pisteitä, lapsen omaan tahtiin. {N_GEN} parissa työskentely tuo iloa ja tuttuutta, koska kuvat kulkevat mukana joka askeleella. Pieniä laskuja ratkaistessaan pieni harjoittaa tarkkaavaisuutta, logiikkaa ja taitoa seurata sääntöä loppuun asti. Uteliaisuus lukea lopullinen viesti on moottori, joka vie häntä eteenpäin mielellään. Jokainen oikea summa tuo uuden kirjaimen ja vie lähemmäs ratkaisua. Se on suloinen tapa harjoittaa lukuja muuttamalla ne sanaleikiksi. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Mikä sana piiloutuu lukujen taakse? Sen selvittääkseen lapsi leikkii tällä {N_GEN} kuvista tehdyllä koodatulla yhteenlaskulla. Hän ratkaisee yksinkertaisia yhteenlaskuja ja muuttaa avaimen ansiosta kunkin tuloksen kirjaimeksi. Kirjaimet järjestyksessä paljastavat salasanan: juuri tämä yllätys tekee leikistä erityisen. Avain on annettu — arvoa ei päätellä, se katsotaan avaimesta kuten jokainen hyvä salapoliisi tekee. Tehtävä on rauhallinen, ilman ajanottoa, ilman arvosanoja ja ilman painetta. Yhteys {N_GEN} kuviin tekee arvoituksesta ystävällisemmän, koska se yhdistää laskun ja lasten rakastamat kuvat. Koodin purkaminen harjoittaa tarkkaavaisuutta, avaimen lukemista ja järjestelmällistä ajattelua, askel toisensa jälkeen. Lapselle se on kuitenkin ennen kaikkea uteliaisuutta: hän haluaa tietää, mikä viesti tulee lopussa esiin. Tämä halu selvittää auttaa häntä etenemään kärsivällisesti ja hymyssä suin. Jokainen löytynyt kirjain on pieni voitto, joka tuo varmuutta. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tämä sivu on pieni salasana: yhteenlaskuja ratkaisemalla lapsi paljastaa kätketyn sanan, ja kaikki alkaa {N_GEN} kuvista. Kukin tulos vastaa kirjainta, joka on merkitty avaimeen; riittää, kun ne asettaa riviin lukeakseen viestin. Salasanan paljastuminen on yllätys, joka tekee tästä logiikkapelistä lasten niin rakastaman. Tehtävä on seesteinen, ilman ajanottoa ja ilman pisteitä, lempeään tahtiin. Avain antaa kunkin kuvan arvon, joten mitään ei päätellä — se katsotaan avaimesta rauhassa. Salasanan purkaminen harjoittaa laskemista, keskittymistä ja tapaa tarkistaa oma työ. Pieni oppii etenemään menetelmällisesti, yksi lasku kerrallaan, aina lopulliseen viestiin asti. Uteliaisuus selvittää salasana on luontainen moottori, joka vie häntä eteenpäin. Jokainen löytynyt kirjain on askel kohti ratkaisua ja pieni voitto. Tarvittaessa palataan vain avaimeen ja luetaan se rauhassa. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Kirjaimista ja luvuista tehty arvoitus odottaa lasta tällä {N_GEN} merkeillä varustetulla sivulla. Leikki on yksinkertainen ja viehättävä: ratkaiset pienet yhteenlaskut, muutat kunkin tuloksen kirjaimeksi avaimella ja löydät kätketyn salasanan. Kun kirjaimet asettuvat riviin, esiin tulee salainen viesti, ja juuri se yllätys innostaa pieniä. Tehtävä on rauhallinen, kaukana ajanotosta, arvosanoista ja tulostauluista. Avain antaa kunkin kuvan arvon valmiina — riittää, että katsoo sen sieltä kuin pieni koodisalapoliisi, keksimättä mitään. {N_GEN} parissa työskentely tekee arvoituksesta ystävällisemmän, koska se yhdistää luvut ja tutut kuvat. Salasanan purkaminen harjoittaa tarkkaavaisuutta, logiikkaa ja taitoa seurata tarkkaa sääntöä. Lapselle se on kuitenkin ennen kaikkea uteliaisuusleikki, ja se auttaa häntä olemaan lannistumatta. Jokainen ratkaistu lasku tuo kirjaimen ja vie lähemmäs lopullista viestiä. Se on suloinen tapa harjoittaa laskua muuttamalla se sanajahtiin. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tämän sivun lukujen taakse kätkeytyy salasana, ja lapsi pääsee selvittämään sen leikkimällä {N_GEN} kuvilla. Hän ratkaisee helppoja yhteenlaskuja ja käyttää sitten avainta muuttaakseen kunkin tuloksen kirjaimeksi. Kirjaimet järjestyksessä muodostavat salaperäisen viestin: lopullinen paljastus on leikin kaunein hetki. Se on rauhallinen tehtävä, ilman ajanottoa, ilman pisteitä ja ilman minkäänlaista kilpailua. Avain antaa kunkin arvon — mitään ei arvata, se katsotaan avaimesta kuten pieni koodisalapoliisi tekee. {N_GEN} parissa työskentely tuo iloa ja tuttuutta, koska kuvat kulkevat mukana joka askeleella. Salasanan purkaminen harjoittaa laskemista, keskittymistä ja vastaavuustaulukon lukemista. Uteliaisuus lukea kätketty viesti on se, mikä vie pientä eteenpäin mielellään. Jokainen löytynyt kirjain on voitto, joka kasvattaa varmuutta. Rauhassa edeten, yksi lasku kerrallaan, lapsi huomaa, että kärsivällisyys palkitaan aina. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Muuta luvut kirjaimiksi ja löydä viesti: siitä on kyse {N_GEN} merkkien joukkoon kätketyssä salasanassa. Lapsi ratkaisee pieniä yhteenlaskuja, katsoo avaimesta ja kirjoittaa kunkin tulosta vastaavan kirjaimen. Kun kaikki kirjaimet ovat paikoillaan, esiin tulee salaperäinen sana, ja juuri se yllätys tekee leikistä unohtumattoman. Tehtävä on seesteinen, ilman ajanottoa ja ilman arvosanoja, suloiseen tahtiin. Avain on annettu — arvoa ei päätellä, se katsotaan avaimesta kuten jokainen pieni salapoliisi tekee. Yhteys {N_GEN} kuviin pitää uteliaisuuden elossa ja tekee jokaisesta askeleesta kevyemmän. Salasanan purkaminen harjoittaa tarkkaavaisuutta, loogista ajattelua ja työmuistia. Lapselle se on kuitenkin ennen kaikkea leikki: halu lukea lopullinen viesti johdattaa häntä innolla. Jokainen oikea summa tuo kirjaimen ja vie lähemmäs ratkaisua, yksi askel kerrallaan. Se on lempeä tapa harjoittaa lukuja ilman tavanomaisten tehtävien painetta. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+];
+
+const P2_SW = [
+  `Tässä osassa lapsi ratkaisee pieniä yhteenlaskuja ja muuttaa kunkin tuloksen kirjaimeksi avaimen avulla. Kun kirjaimet asetetaan riviin, esiin tulee sivulle kätketty salasana. Se on rauhallinen logiikkapeli, ilman ajanottoa ja ilman pisteitä, jossa uteliaisuus toimii moottorina. Avain antaa kunkin arvon — riittää, että katsoo sen sieltä kuin pieni koodisalapoliisi. {N_GEN} parissa työskentely tekee arvoituksesta ystävällisemmän. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tässä leikitään viestin purkamista: kukin lasku antaa tuloksen, ja kukin tulos antaa kirjaimen. Yksi toisensa jälkeen kirjaimet muodostavat salaperäisen sanan paljastettavaksi. Ilman kiirettä ja ilman kilpailua tehtävä yhdistää laskun ja uteliaisuuden seesteisellä tavalla. {N_GEN} kuvat kulkevat lapsen mukana läpi koko arvoituksen, ja avain antaa kunkin arvon valmiina. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tämä osa kutsuu pientä ratkaisemaan helppoja yhteenlaskuja ja kääntämään tulokset kirjaimiksi avaimen avulla. Kirjaimet riviin asettamalla esiin tulee salasana: leikin loppuyllätys. Se on rauhallinen tehtävä, kaukana ajanotosta ja arvosanoista. Avain antaa kunkin arvon — mitään ei tarvitse päätellä. Yhteys {N_GEN} kuviin pitää elossa halun selvittää viesti, lasku toisensa jälkeen. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tässä tehtävän kohdassa lapsi laskee, katsoo avaimesta ja kirjoittaa kutakin tulosta vastaavan kirjaimen. Vähitellen kirjaimet paljastavat {N_GEN} merkkien joukkoon kätketyn salasanan. Ei pisteitä eikä kiirettä: vain ilo purkaa koodi rauhassa avainta seuraten. {N_GEN} parissa työskentely tekee leikistä tutun ja iloisen, ja jokainen löytynyt kirjain tuo pienen ilon. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tässä pienestä tulee sanojen purkaja: hän ratkaisee yhteenlaskut, muuttaa ne kirjaimiksi avaimella ja lukee salasanan. Jokainen löytynyt kirjain on askel kohti lopullista paljastusta. Se on lempeä arvoitus, ilman ajanottoa ja ilman kilpailua, jossa avain antaa kunkin arvon — riittää, että katsoo sen sieltä. Uteliaisuus selvittää sana {N_GEN} kuvien joukosta vie häntä eteenpäin hymyssä suin. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tämä osa tarjoaa lukujen muuttamista kirjaimiksi avaimen avulla, kunnes salasana on koossa. Lapsi etenee rauhassa, yksi lasku kerrallaan, kohti kätkettyä viestiä. Kunkin kuvan arvo on avaimessa — mitään ei arvata, se katsotaan sieltä. Ilman arvosanoja ja ilman painetta tehtävä arvostaa tarkkaavaisuutta ja loogista ajattelua. {N_GEN} kuvat tuovat leikin lähelle lasten maailmaa. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+
+  `Tässä koodileikissä pieni ratkaisee yhteenlaskuja ja paljastaa, kirjain kirjaimelta, salaperäisen sanan. Lopullisen viestin yllätys tekee arvoituksesta aidosti mukaansatempaavan. Se on seesteinen tehtävä, kaukana ajanotosta ja pisteistä. Avain antaa kunkin arvon valmiina — vain purat sen, kuten pieni koodisalapoliisi tekee. Jokainen löytynyt kirjain on voitto, joka kasvattaa varmuutta ja tuo hymyn. {N_GEN} kuvat kulkevat mukana koko matkan. Tehtävä on ilmainen, tulostettavaksi tai pelattavaksi netissä.`,
+];
+
+const H1 = {
+  'null': 'Koodattu yhteenlasku: {H1} – {GRADE}',
+  'secret-word': 'Koodattu yhteenlasku ja salasana: {H1} – {GRADE}',
+};
+
+const CAR = {
+  'null': 'Koodattu yhteenlasku – ',
+  'secret-word': 'Salasana – ',
+};
+
+module.exports = {
+  type: 'code-addition',
+  eyebrow: 'Tehtävä: Koodattu yhteenlasku',
+  strand: 'Luvut ja laskutoimitukset',
+  slotWord: 'kuvat',
+  h1: (mk, lvl) =>
+    H1[mk || 'null'].replace('{GRADE}', lvl === '2-luokka' ? '2. luokan oppilaille' : '1. luokan oppilaille'),
+  carousel: (mk, h1Display) => (CAR[mk || 'null'] || '') + h1Display,
+  modes: {
+    'null': { SKEL: SKEL_NULL, P2: P2_NULL },
+    'secret-word': { SKEL: SKEL_SW, P2: P2_SW },
+  },
+  P3: `Pitikö pieni tästä koodileikistä? Silloin tutkittavaa riittää vielä paljon yhdessä. Vilkaiskaa tehtäviä, joissa on {nb1}, jolloin pieni voi jatkaa koodien purkamista samalla rauhalla, tai kokeilkaa jotakin, jossa on {nb2}, pienen vaihtelun vuoksi. Vaihtamalla teemaa silloin tällöin arvoitus pysyy elävänä, ja pieni jatkaa avaimen lukemista ja yhteen laskemista mielellään. Kun lapsi katsoo avaimesta {N_GEN} kuvien arvot ja laskee ne yhteen, koko kokoelma on täysin ilmainen: pelatkaa tehtävät netissä tai tulostakaa ja tehkää ne pöydän ääressä kotona. Avain on aina siinä auttamassa, ja jokainen purettu kuva on pienen koodisalapoliisin pieni voitto. Rauhaa ja aikaa on niin paljon kuin tarvitsee, ilman painetta ja lapsen omaan tahtiin.`,
+};

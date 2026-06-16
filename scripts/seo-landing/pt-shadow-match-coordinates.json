@@ -1,0 +1,1583 @@
+{
+  "locale": "pt",
+  "exerciseType": "shadow-match",
+  "level": "educacao-infantil",
+  "rawRowCount": 134,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-shadow": 45,
+    "make-whole": 47
+  },
+  "totalValid": 92,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-shadow",
+    "make-whole"
+  ],
+  "collapsedFamilies": 39,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "find-shadow",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-acessorios-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-acessorios-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-atividades-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-atividades-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-animais",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-animais",
+        "pareamento-de-sombras-combine-a-sombra-animais-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-pela-casa-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-pela-casa-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-no-supermercado-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-no-supermercado-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-padaria-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-padaria-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-praia-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-praia-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-passaros-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-passaros-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-passaros-2-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-passaros-2-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-partes-do-corpo-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-partes-do-corpo-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-cafe-da-manha-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-cafe-da-manha-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-acampamento-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-acampamento-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-natal-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-natal-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-sala-de-aula-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-sala-de-aula-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-roupas-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-roupas-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-dinossauros-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-dinossauros-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-pascoa-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-pascoa-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-animais-da-fazenda-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-animais-da-fazenda-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-flores-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-flores-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-criaturas-da-floresta-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-criaturas-da-floresta-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-frutas-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-frutas-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-moveis-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-moveis-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-hospital-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-hospital-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-insetos-e-bichos-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-insetos-e-bichos-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-utensilios-de-cozinha-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-utensilios-de-cozinha-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-diversos-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-diversos-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-musica-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-musica-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-profissoes-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-profissoes-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-vida-marinha-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-vida-marinha-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-animais-de-estimacao-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-animais-de-estimacao-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-correios-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-correios-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-repteis-e-anfibios-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-repteis-e-anfibios-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-espaco-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-espaco-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-primavera-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-primavera-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-verao-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-verao-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-dia-de-acao-de-gracas-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-dia-de-acao-de-gracas-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-coisas-que-voam-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-coisas-que-voam-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-ferramentas-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-ferramentas-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-brinquedos-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-brinquedos-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-arvores-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-arvores-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-vegetais-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-vegetais-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-veiculos-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-veiculos-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-clima-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-clima-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-inverno-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-inverno-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-combine-a-sombra-animais-do-zoologico-e7bd",
+      "siblings": [
+        "pareamento-de-sombras-combine-a-sombra-animais-do-zoologico-e7bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-acessorios-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-acessorios-5d83",
+        "pareamento-de-sombras-complete-acessorios-b7be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-atividades-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-atividades-5d83",
+        "pareamento-de-sombras-complete-atividades-970b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-animais-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-animais-5d83",
+        "pareamento-de-sombras-complete-animais-12a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-pela-casa-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-pela-casa-5d83",
+        "pareamento-de-sombras-complete-pela-casa-955a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-no-supermercado-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-no-supermercado-5d83",
+        "pareamento-de-sombras-complete-no-supermercado-20c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-padaria-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-padaria-5d83",
+        "pareamento-de-sombras-complete-padaria-1520"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-praia-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-praia-5d83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-passaros-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-passaros-5d83",
+        "pareamento-de-sombras-complete-passaros-a505"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-passaros-2-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-passaros-2-5d83",
+        "pareamento-de-sombras-complete-passaros-2-a9ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-partes-do-corpo-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-partes-do-corpo-5d83",
+        "pareamento-de-sombras-complete-partes-do-corpo-69a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-cafe-da-manha-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-cafe-da-manha-5d83",
+        "pareamento-de-sombras-complete-cafe-da-manha-a200"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-acampamento-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-acampamento-5d83",
+        "pareamento-de-sombras-complete-acampamento-a520"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-natal-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-natal-5d83",
+        "pareamento-de-sombras-complete-natal-7a0a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-sala-de-aula-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-sala-de-aula-5d83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-roupas-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-roupas-5d83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-sobremesas-e-doces-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-sobremesas-e-doces-5d83",
+        "pareamento-de-sombras-complete-sobremesas-e-doces-ed0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-dinossauros-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-dinossauros-5d83",
+        "pareamento-de-sombras-complete-dinossauros-cc42"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-pascoa-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-pascoa-5d83",
+        "pareamento-de-sombras-complete-pascoa-e30c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-emocoes-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-emocoes-5d83",
+        "pareamento-de-sombras-complete-emocoes-e237"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-animais-da-fazenda-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-animais-da-fazenda-5d83",
+        "pareamento-de-sombras-complete-animais-da-fazenda-d988"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-flores-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-flores-5d83",
+        "pareamento-de-sombras-complete-flores-d2c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-criaturas-da-floresta-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-criaturas-da-floresta-5d83",
+        "pareamento-de-sombras-complete-criaturas-da-floresta-73c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-frutas-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-frutas-5d83",
+        "pareamento-de-sombras-complete-frutas-1ec9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-moveis-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-moveis-5d83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-hospital-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-hospital-5d83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-insetos-e-bichos-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-insetos-e-bichos-5d83",
+        "pareamento-de-sombras-complete-insetos-e-bichos-1beb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-utensilios-de-cozinha-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-utensilios-de-cozinha-5d83",
+        "pareamento-de-sombras-complete-utensilios-de-cozinha-a2cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-diversos-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-diversos-5d83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-musica-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-musica-5d83",
+        "pareamento-de-sombras-complete-musica-ef31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-profissoes-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-profissoes-5d83",
+        "pareamento-de-sombras-complete-profissoes-c710"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-vida-marinha-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-vida-marinha-5d83",
+        "pareamento-de-sombras-complete-vida-marinha-a739"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-animais-de-estimacao-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-animais-de-estimacao-5d83",
+        "pareamento-de-sombras-complete-animais-de-estimacao-e28a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-correios-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-correios-5d83",
+        "pareamento-de-sombras-complete-correios-00f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-repteis-e-anfibios-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-repteis-e-anfibios-5d83",
+        "pareamento-de-sombras-complete-repteis-e-anfibios-164d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-espaco-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-espaco-5d83",
+        "pareamento-de-sombras-complete-espaco-8d58"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-primavera-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-primavera-5d83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-verao-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-verao-5d83",
+        "pareamento-de-sombras-complete-verao-7cc8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-dia-de-acao-de-gracas-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-dia-de-acao-de-gracas-5d83",
+        "pareamento-de-sombras-complete-dia-de-acao-de-gracas-8c7b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-coisas-que-voam-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-coisas-que-voam-5d83",
+        "pareamento-de-sombras-complete-coisas-que-voam-54cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-ferramentas-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-ferramentas-5d83",
+        "pareamento-de-sombras-complete-ferramentas-bd1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-brinquedos-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-brinquedos-5d83",
+        "pareamento-de-sombras-complete-brinquedos-569c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-arvores-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-arvores-5d83",
+        "pareamento-de-sombras-complete-arvores-d0af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-vegetais-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-vegetais-5d83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-veiculos-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-veiculos-5d83",
+        "pareamento-de-sombras-complete-veiculos-b707"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-clima-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-clima-5d83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-inverno-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-inverno-5d83",
+        "pareamento-de-sombras-complete-inverno-8767"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonicalDeckSlug": "pareamento-de-sombras-complete-animais-do-zoologico-5d83",
+      "siblings": [
+        "pareamento-de-sombras-complete-animais-do-zoologico-5d83",
+        "pareamento-de-sombras-complete-animais-do-zoologico-b2e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    }
+  ]
+}

@@ -1,0 +1,999 @@
+{
+  "locale": "pt",
+  "exerciseType": "odd-one-out",
+  "level": "educacao-infantil",
+  "rawRowCount": 131,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cross-theme": 4,
+    "same-theme": 49
+  },
+  "totalValid": 53,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cross-theme",
+    "same-theme"
+  ],
+  "collapsedFamilies": 5,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "cross-theme",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 33,
+      "canonicalDeckSlug": "qual-e-diferente-multi-tema-animais-1a45",
+      "siblings": [
+        "qual-e-diferente-multi-tema-animais-1a45",
+        "qual-e-diferente-multi-tema-animais-3363",
+        "qual-e-diferente-multi-tema-animais-11ab",
+        "qual-e-diferente-multi-tema-animais-a593",
+        "qual-e-diferente-multi-tema-animais-6993",
+        "qual-e-diferente-multi-tema-animais-8165",
+        "qual-e-diferente-multi-tema-animais-c6fd",
+        "qual-e-diferente-multi-tema-animais-f082",
+        "qual-e-diferente-multi-tema-animais-3212",
+        "qual-e-diferente-multi-tema-animais-349e",
+        "qual-e-diferente-multi-tema-animais-f08c",
+        "qual-e-diferente-multi-tema-animais-8e5e",
+        "qual-e-diferente-multi-tema-animais-9583",
+        "qual-e-diferente-multi-tema-animais-ddce",
+        "qual-e-diferente-multi-tema-animais-e53d",
+        "qual-e-diferente-multi-tema-animais-830c",
+        "qual-e-diferente-multi-tema-animais-5a99",
+        "qual-e-diferente-multi-tema-animais-1612",
+        "qual-e-diferente-multi-tema-animais-aeb0",
+        "qual-e-diferente-multi-tema-animais-c7c6",
+        "qual-e-diferente-multi-tema-animais-5f8b",
+        "qual-e-diferente-multi-tema-animais-5fa7",
+        "qual-e-diferente-multi-tema-animais-55ca",
+        "qual-e-diferente-multi-tema-animais-7946",
+        "qual-e-diferente-multi-tema-animais-0869",
+        "qual-e-diferente-multi-tema-animais-cd64",
+        "qual-e-diferente-multi-tema-animais-3cdc",
+        "qual-e-diferente-multi-tema-animais-afd7",
+        "qual-e-diferente-multi-tema-animais-4120",
+        "qual-e-diferente-multi-tema-animais-05c3",
+        "qual-e-diferente-multi-tema-animais-28f1",
+        "qual-e-diferente-multi-tema-animais-f250",
+        "qual-e-diferente-multi-tema-animais-f1d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 16,
+      "canonicalDeckSlug": "qual-e-diferente-multi-tema-dinossauros-6fcb",
+      "siblings": [
+        "qual-e-diferente-multi-tema-dinossauros-6fcb",
+        "qual-e-diferente-multi-tema-dinossauros-0348",
+        "qual-e-diferente-multi-tema-dinossauros-4376",
+        "qual-e-diferente-multi-tema-dinossauros-739d",
+        "qual-e-diferente-multi-tema-dinossauros-269a",
+        "qual-e-diferente-multi-tema-dinossauros-9e0d",
+        "qual-e-diferente-multi-tema-dinossauros-1d99",
+        "qual-e-diferente-multi-tema-dinossauros-d1d5",
+        "qual-e-diferente-multi-tema-dinossauros-2dc7",
+        "qual-e-diferente-multi-tema-dinossauros-975e",
+        "qual-e-diferente-multi-tema-dinossauros-a0fc",
+        "qual-e-diferente-multi-tema-dinossauros-bcc1",
+        "qual-e-diferente-multi-tema-dinossauros-0e1f",
+        "qual-e-diferente-multi-tema-dinossauros-bef4",
+        "qual-e-diferente-multi-tema-dinossauros-0ddf",
+        "qual-e-diferente-multi-tema-dinossauros-9910"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 23,
+      "canonicalDeckSlug": "qual-e-diferente-multi-tema-flores-7777",
+      "siblings": [
+        "qual-e-diferente-multi-tema-flores-7777",
+        "qual-e-diferente-multi-tema-flores-bb22",
+        "qual-e-diferente-multi-tema-flores-c17b",
+        "qual-e-diferente-multi-tema-flores-d803",
+        "qual-e-diferente-multi-tema-flores-b6af",
+        "qual-e-diferente-multi-tema-flores-9f67",
+        "qual-e-diferente-multi-tema-flores-9a8c",
+        "qual-e-diferente-multi-tema-flores-fb4a",
+        "qual-e-diferente-multi-tema-flores-88fa",
+        "qual-e-diferente-multi-tema-flores-5af6",
+        "qual-e-diferente-multi-tema-flores-7804",
+        "qual-e-diferente-multi-tema-flores-1e44",
+        "qual-e-diferente-multi-tema-flores-09f5",
+        "qual-e-diferente-multi-tema-flores-dc4d",
+        "qual-e-diferente-multi-tema-flores-6252",
+        "qual-e-diferente-multi-tema-flores-9120",
+        "qual-e-diferente-multi-tema-flores-3f6c",
+        "qual-e-diferente-multi-tema-flores-c870",
+        "qual-e-diferente-multi-tema-flores-dbbe",
+        "qual-e-diferente-multi-tema-flores-bf49",
+        "qual-e-diferente-multi-tema-flores-0d66",
+        "qual-e-diferente-multi-tema-flores-4653",
+        "qual-e-diferente-multi-tema-flores-7e61"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 8,
+      "canonicalDeckSlug": "qual-e-diferente-multi-tema-arvores-75fd",
+      "siblings": [
+        "qual-e-diferente-multi-tema-arvores-75fd",
+        "qual-e-diferente-multi-tema-arvores-722a",
+        "qual-e-diferente-multi-tema-arvores-0a7f",
+        "qual-e-diferente-multi-tema-arvores-eb4c",
+        "qual-e-diferente-multi-tema-arvores-7888",
+        "qual-e-diferente-multi-tema-arvores-a321",
+        "qual-e-diferente-multi-tema-arvores-39ec",
+        "qual-e-diferente-multi-tema-arvores-a9e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-acessorios-b83c",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-acessorios-b83c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-atividades-66bd",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-atividades-66bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-animais",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-animais",
+        "qual-e-diferente-mesmo-tema-animais-d098"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-pela-casa-024a",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-pela-casa-024a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-no-supermercado-08b6",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-no-supermercado-08b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-padaria-50e6",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-padaria-50e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-praia-45cd",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-praia-45cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-passaros-a380",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-passaros-a380"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-passaros-2-2f98",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-passaros-2-2f98"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-partes-do-corpo-2944",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-partes-do-corpo-2944"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-cafe-da-manha-ea3c",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-cafe-da-manha-ea3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-acampamento-fe91",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-acampamento-fe91"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-natal-e6f3",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-natal-e6f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-sala-de-aula-cfab",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-sala-de-aula-cfab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-roupas-9e35",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-roupas-9e35"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-cores-8f1d",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-cores-8f1d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-sobremesas-e-doces-7095",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-sobremesas-e-doces-7095"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-dinossauros-7660",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-dinossauros-7660"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-pascoa-4b98",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-pascoa-4b98"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-emocoes-9d1f",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-emocoes-9d1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-animais-da-fazenda-7062",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-animais-da-fazenda-7062"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-flores-b5da",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-flores-b5da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-criaturas-da-floresta-89a0",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-criaturas-da-floresta-89a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-frutas-48df",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-frutas-48df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-moveis-64fe",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-moveis-64fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-hospital-a476",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-hospital-a476"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-insetos-e-bichos-3b25",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-insetos-e-bichos-3b25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-utensilios-de-cozinha-828d",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-utensilios-de-cozinha-828d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-diversos-c7c3",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-diversos-c7c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-musica-c7ea",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-musica-c7ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-profissoes-4903",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-profissoes-4903"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-vida-marinha-c20e",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-vida-marinha-c20e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-animais-de-estimacao-4506",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-animais-de-estimacao-4506"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-correios-f1f7",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-correios-f1f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-repteis-e-anfibios-c734",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-repteis-e-anfibios-c734"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-formas-e491",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-formas-e491"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-espaco-2ff2",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-espaco-2ff2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-primavera-1791",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-primavera-1791"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-verao-b58d",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-verao-b58d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-dia-de-acao-de-gracas-7cd2",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-dia-de-acao-de-gracas-7cd2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-coisas-que-voam-852b",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-coisas-que-voam-852b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-ferramentas-8d28",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-ferramentas-8d28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-brinquedos-bbb1",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-brinquedos-bbb1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-arvores-a7ed",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-arvores-a7ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-vegetais-a1b8",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-vegetais-a1b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-veiculos-1d23",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-veiculos-1d23"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-clima-8a14",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-clima-8a14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-inverno-8e02",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-inverno-8e02"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "qual-e-diferente-mesmo-tema-animais-do-zoologico-d39e",
+      "siblings": [
+        "qual-e-diferente-mesmo-tema-animais-do-zoologico-d39e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    }
+  ]
+}

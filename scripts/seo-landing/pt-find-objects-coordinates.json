@@ -1,0 +1,1594 @@
+{
+  "locale": "pt",
+  "exerciseType": "find-objects",
+  "level": "educacao-infantil",
+  "rawRowCount": 98,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-odd": 48,
+    "i-spy": 47
+  },
+  "totalValid": 95,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-odd",
+    "i-spy"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "find-odd",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-acessorios-b0fe",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-acessorios-b0fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-atividades-9e8f",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-atividades-9e8f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-animais-6c44",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-animais-6c44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-pela-casa-8af5",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-pela-casa-8af5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-no-supermercado-0f12",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-no-supermercado-0f12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-padaria-7f9c",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-padaria-7f9c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-praia-b03f",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-praia-b03f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-passaros-2-88fd",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-passaros-2-88fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-partes-do-corpo-16da",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-partes-do-corpo-16da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-cafe-da-manha-48c7",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-cafe-da-manha-48c7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-acampamento-7446",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-acampamento-7446"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-natal-e690",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-natal-e690"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-sala-de-aula-74e4",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-sala-de-aula-74e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-roupas-15d4",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-roupas-15d4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-cores-aee3",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-cores-aee3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-sobremesas-e-doces-b738",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-sobremesas-e-doces-b738"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-dinossauros-e13f",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-dinossauros-e13f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-pascoa-1d9a",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-pascoa-1d9a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-emocoes-1efa",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-emocoes-1efa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-animais-da-fazenda-8f99",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-animais-da-fazenda-8f99"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-flores-85ca",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-flores-85ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-criaturas-da-floresta-7e31",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-criaturas-da-floresta-7e31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-frutas-5155",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-frutas-5155"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-moveis-2f86",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-moveis-2f86"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-hospital-5db1",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-hospital-5db1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-insetos-e-bichos-5862",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-insetos-e-bichos-5862"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-utensilios-de-cozinha-b5f6",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-utensilios-de-cozinha-b5f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-diversos-5351",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-diversos-5351"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-musica-eb97",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-musica-eb97"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-profissoes-257e",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-profissoes-257e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-vida-marinha-fac9",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-vida-marinha-fac9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-animais-de-estimacao-912a",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-animais-de-estimacao-912a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-correios-a125",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-correios-a125"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-repteis-e-anfibios-1c3e",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-repteis-e-anfibios-1c3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-formas-7883",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-formas-7883"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-espaco-e3e7",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-espaco-e3e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-primavera-84b1",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-primavera-84b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-verao-b13e",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-verao-b13e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-dia-de-acao-de-gracas-8799",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-dia-de-acao-de-gracas-8799"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-coisas-que-voam-18a3",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-coisas-que-voam-18a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-ferramentas-d7f9",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-ferramentas-d7f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-brinquedos-099c",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-brinquedos-099c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-arvores-abb0",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-arvores-abb0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-vegetais-8c8d",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-vegetais-8c8d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-veiculos-949d",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-veiculos-949d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-clima-7bd3",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-clima-7bd3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-inverno-7116",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-inverno-7116"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-encontre-o-diferente-animais-do-zoologico-d88b",
+      "siblings": [
+        "encontre-os-objetos-encontre-o-diferente-animais-do-zoologico-d88b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-acessorios-1f63",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-acessorios-1f63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-atividades-2a8a",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-atividades-2a8a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-animais-5aa1",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-animais-5aa1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-no-supermercado-1bd5",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-no-supermercado-1bd5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-padaria-847b",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-padaria-847b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-praia-299c",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-praia-299c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-passaros-51c4",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-passaros-51c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-passaros-2-36a4",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-passaros-2-36a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-partes-do-corpo-d2d0",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-partes-do-corpo-d2d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-cafe-da-manha-743f",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-cafe-da-manha-743f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-acampamento-b6c1",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-acampamento-b6c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-natal-3274",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-natal-3274"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-sala-de-aula-9f52",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-sala-de-aula-9f52"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-roupas-4b4a",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-roupas-4b4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-cores-62bd",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-cores-62bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-sobremesas-e-doces-bacd",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-sobremesas-e-doces-bacd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-dinossauros-4d6b",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-dinossauros-4d6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-pascoa-2d78",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-pascoa-2d78"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-emocoes-1702",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-emocoes-1702"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-animais-da-fazenda-81ca",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-animais-da-fazenda-81ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-flores-f6e7",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-flores-f6e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-criaturas-da-floresta-21b9",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-criaturas-da-floresta-21b9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-frutas-a802",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-frutas-a802"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-moveis-5315",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-moveis-5315"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-hospital-25d6",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-hospital-25d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-insetos-e-bichos-dee0",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-insetos-e-bichos-dee0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-utensilios-de-cozinha-e50a",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-utensilios-de-cozinha-e50a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-musica-736d",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-musica-736d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-profissoes-1e1c",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-profissoes-1e1c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-vida-marinha-dadc",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-vida-marinha-dadc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-animais-de-estimacao-6e25",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-animais-de-estimacao-6e25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-correios-7599",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-correios-7599"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-repteis-e-anfibios-46bf",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-repteis-e-anfibios-46bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-formas-b49e",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-formas-b49e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-espaco-a9d1",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-espaco-a9d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-primavera-7303",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-primavera-7303"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-verao-e2ba",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-verao-e2ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-dia-de-acao-de-gracas-9b26",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-dia-de-acao-de-gracas-9b26"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-coisas-que-voam-a332",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-coisas-que-voam-a332"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-ferramentas-37b4",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-ferramentas-37b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-brinquedos-18d0",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-brinquedos-18d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-arvores-ddbd",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-arvores-ddbd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-vegetais-fdc9",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-vegetais-fdc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-veiculos-3c81",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-veiculos-3c81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-clima-4aee",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-clima-4aee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-inverno-425c",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-inverno-425c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-os-objetos-vejo-vejo-animais-do-zoologico-1500",
+      "siblings": [
+        "encontre-os-objetos-vejo-vejo-animais-do-zoologico-1500"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    }
+  ]
+}

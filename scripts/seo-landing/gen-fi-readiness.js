@@ -90,7 +90,11 @@ function buildMode(mk){
       carousel: [1,2,5,11].map(off=>{ const n=list[(i+off)%list.length]; return {label: cfg.carousel(mk, THEMES[n.theme].h1Display), href: n.canonicalDeckSlug}; }),
     };
     if (co.siblings && co.siblings.length>1) entry.collapseSiblings = co.siblings;
-    if (cfg.standard) { const _std = (typeof cfg.standard === 'function' ? cfg.standard(mk, lvl) : cfg.standard); if (_std) entry.standard = _std; }
+    // Wave C: the per-coordinate ANNOTATED standard (band-split arithmetic) is authoritative — it
+    // encodes the range (0–10 vs 0–20, a distinction `level` alone can't carry since both are 1-luokka).
+    // Readiness coords have no co.standard → fall through to the (usually absent) cfg.standard path.
+    if (co.standard) { entry.standard = co.standard; entry.coordinate.standard = co.standard; }
+    else if (cfg.standard) { const _std = (typeof cfg.standard === 'function' ? cfg.standard(mk, lvl) : cfg.standard); if (_std) entry.standard = _std; }
     out.push(entry);
   });
   if (dropped.length) console.log('  dropped ' + dropped.length + ': ' + dropped.join(', '));

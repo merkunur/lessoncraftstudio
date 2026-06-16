@@ -67,7 +67,7 @@ const TYPE_MAP = {
   addition:        { op: 'Yhteenlaskutehtäviä', qual: {} },
   subtraction:     { op: 'Vähennyslaskutehtäviä', qual: {} },
   'math-puzzle':   { op: { addition: 'Matematiikkapulma yhteenlasku', subtraction: 'Matematiikkapulma vähennyslasku', mixed: 'Matematiikkapulma' }, qual: {} },
-  'math-worksheet':{ op: 'Matematiikkatehtävä', qual: {} },
+  'math-worksheet':{ op: 'Matematiikkatehtävä', qual: { 'two-symbols-add-sub': 'kahdella kuvalla', 'three-symbols-add-sub': 'kolmella kuvalla' } },
   'code-addition': { op: { 'null': 'Koodattu yhteenlasku', 'secret-word': 'Salasana koodilla' }, qual: {} },
   // numeracy readiness / data
   'chart-count':   { op: 'Laske kaaviossa', qual: {} },

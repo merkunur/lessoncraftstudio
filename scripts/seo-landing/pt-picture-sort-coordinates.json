@@ -1,0 +1,1282 @@
+{
+  "locale": "pt",
+  "exerciseType": "picture-sort",
+  "rawRowCount": 123,
+  "pairCount": 122,
+  "leftThemes": [
+    "accessories",
+    "animals",
+    "camping"
+  ],
+  "rightThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "coordinates": [
+    {
+      "pairKey": "accessories-vs-activities",
+      "left": "accessories",
+      "right": "activities",
+      "canonical": "ordenar-imagens-accessories-vs-activities-b089",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-activities-b089"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-animals",
+      "left": "accessories",
+      "right": "animals",
+      "canonical": "ordenar-imagens-accessories-vs-animals-08c9",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-animals-08c9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-around_the_house",
+      "left": "accessories",
+      "right": "around_the_house",
+      "canonical": "ordenar-imagens-accessories-vs-around-the-house-c391",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-around-the-house-c391"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-at_the_supermarket",
+      "left": "accessories",
+      "right": "at_the_supermarket",
+      "canonical": "ordenar-imagens-accessories-vs-at-the-supermarket-c046",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-at-the-supermarket-c046"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-bakery",
+      "left": "accessories",
+      "right": "bakery",
+      "canonical": "ordenar-imagens-accessories-vs-bakery-ac64",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-bakery-ac64"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-beach",
+      "left": "accessories",
+      "right": "beach",
+      "canonical": "ordenar-imagens-accessories-vs-beach-4461",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-beach-4461"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-birds",
+      "left": "accessories",
+      "right": "birds",
+      "canonical": "ordenar-imagens-accessories-vs-birds-efc1",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-birds-efc1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-body_parts",
+      "left": "accessories",
+      "right": "body_parts",
+      "canonical": "ordenar-imagens-accessories-vs-body-parts-7d3d",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-body-parts-7d3d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-breakfast",
+      "left": "accessories",
+      "right": "breakfast",
+      "canonical": "ordenar-imagens-accessories-vs-breakfast-905c",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-breakfast-905c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-christmas",
+      "left": "accessories",
+      "right": "christmas",
+      "canonical": "ordenar-imagens-accessories-vs-christmas-0043",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-christmas-0043"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-classroom",
+      "left": "accessories",
+      "right": "classroom",
+      "canonical": "ordenar-imagens-accessories-vs-classroom-f12b",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-classroom-f12b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-clothing",
+      "left": "accessories",
+      "right": "clothing",
+      "canonical": "ordenar-imagens-accessories-vs-clothing-542f",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-clothing-542f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-colors",
+      "left": "accessories",
+      "right": "colors",
+      "canonical": "ordenar-imagens-accessories-vs-colors-4d55",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-colors-4d55"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-desserts_and_sweets",
+      "left": "accessories",
+      "right": "desserts_and_sweets",
+      "canonical": "ordenar-imagens-accessories-vs-desserts-and-sweets-2c0e",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-desserts-and-sweets-2c0e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-dinosaurs",
+      "left": "accessories",
+      "right": "dinosaurs",
+      "canonical": "ordenar-imagens-accessories-vs-dinosaurs-d6bd",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-dinosaurs-d6bd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-easter",
+      "left": "accessories",
+      "right": "easter",
+      "canonical": "ordenar-imagens-accessories-vs-easter-f0f1",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-easter-f0f1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-emotions",
+      "left": "accessories",
+      "right": "emotions",
+      "canonical": "ordenar-imagens-accessories-vs-emotions-c336",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-emotions-c336"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-farm_animals",
+      "left": "accessories",
+      "right": "farm_animals",
+      "canonical": "ordenar-imagens-accessories-vs-farm-animals-797e",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-farm-animals-797e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-flowers",
+      "left": "accessories",
+      "right": "flowers",
+      "canonical": "ordenar-imagens-accessories-vs-flowers-d2d2",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-flowers-d2d2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-forest_creatures",
+      "left": "accessories",
+      "right": "forest_creatures",
+      "canonical": "ordenar-imagens-accessories-vs-forest-creatures-6784",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-forest-creatures-6784"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-fruits",
+      "left": "accessories",
+      "right": "fruits",
+      "canonical": "ordenar-imagens-accessories-vs-fruits-fc1c",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-fruits-fc1c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-furniture",
+      "left": "accessories",
+      "right": "furniture",
+      "canonical": "ordenar-imagens-accessories-vs-furniture-7f21",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-furniture-7f21"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-hospital",
+      "left": "accessories",
+      "right": "hospital",
+      "canonical": "ordenar-imagens-accessories-vs-hospital-fd56",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-hospital-fd56"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-insects_and_bugs",
+      "left": "accessories",
+      "right": "insects_and_bugs",
+      "canonical": "ordenar-imagens-accessories-vs-insects-and-bugs-f696",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-insects-and-bugs-f696"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-kitchen_tools",
+      "left": "accessories",
+      "right": "kitchen_tools",
+      "canonical": "ordenar-imagens-accessories-vs-kitchen-tools-80f9",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-kitchen-tools-80f9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-music",
+      "left": "accessories",
+      "right": "music",
+      "canonical": "ordenar-imagens-accessories-vs-music-0427",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-music-0427"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-occupations",
+      "left": "accessories",
+      "right": "occupations",
+      "canonical": "ordenar-imagens-accessories-vs-occupations-6206",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-occupations-6206"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-ocean_life",
+      "left": "accessories",
+      "right": "ocean_life",
+      "canonical": "ordenar-imagens-accessories-vs-ocean-life-de19",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-ocean-life-de19"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-pets",
+      "left": "accessories",
+      "right": "pets",
+      "canonical": "ordenar-imagens-accessories-vs-pets-b706",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-pets-b706"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-post_office",
+      "left": "accessories",
+      "right": "post_office",
+      "canonical": "ordenar-imagens-accessories-vs-post-office-315d",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-post-office-315d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-reptiles_and_amphibians",
+      "left": "accessories",
+      "right": "reptiles_and_amphibians",
+      "canonical": "ordenar-imagens-accessories-vs-reptiles-and-amphibians-cfc2",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-reptiles-and-amphibians-cfc2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-shapes",
+      "left": "accessories",
+      "right": "shapes",
+      "canonical": "ordenar-imagens-accessories-vs-shapes-4ebc",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-shapes-4ebc"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-space",
+      "left": "accessories",
+      "right": "space",
+      "canonical": "ordenar-imagens-accessories-vs-space-01eb",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-space-01eb"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-spring",
+      "left": "accessories",
+      "right": "spring",
+      "canonical": "ordenar-imagens-accessories-vs-spring-12d1",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-spring-12d1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-summer",
+      "left": "accessories",
+      "right": "summer",
+      "canonical": "ordenar-imagens-accessories-vs-summer-3b6a",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-summer-3b6a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-thanksgivinng",
+      "left": "accessories",
+      "right": "thanksgivinng",
+      "canonical": "ordenar-imagens-accessories-vs-thanksgiving-5a2d",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-thanksgiving-5a2d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-things_that_fly",
+      "left": "accessories",
+      "right": "things_that_fly",
+      "canonical": "ordenar-imagens-accessories-vs-things-that-fly-5de5",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-things-that-fly-5de5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-tools",
+      "left": "accessories",
+      "right": "tools",
+      "canonical": "ordenar-imagens-accessories-vs-tools-f1ca",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-tools-f1ca"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-toys",
+      "left": "accessories",
+      "right": "toys",
+      "canonical": "ordenar-imagens-accessories-vs-toys-2fad",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-toys-2fad"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-tree",
+      "left": "accessories",
+      "right": "tree",
+      "canonical": "ordenar-imagens-accessories-vs-tree-18d6",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-tree-18d6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-vegetables",
+      "left": "accessories",
+      "right": "vegetables",
+      "canonical": "ordenar-imagens-accessories-vs-vegetables-b107",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-vegetables-b107"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-vehicles",
+      "left": "accessories",
+      "right": "vehicles",
+      "canonical": "ordenar-imagens-accessories-vs-vehicles-0723",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-vehicles-0723"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-weather",
+      "left": "accessories",
+      "right": "weather",
+      "canonical": "ordenar-imagens-accessories-vs-weather-6f05",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-weather-6f05"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-winter",
+      "left": "accessories",
+      "right": "winter",
+      "canonical": "ordenar-imagens-accessories-vs-winter-47ea",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-winter-47ea"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-zoo_animals",
+      "left": "accessories",
+      "right": "zoo_animals",
+      "canonical": "ordenar-imagens-accessories-vs-zoo-animals-fd8a",
+      "siblings": [
+        "ordenar-imagens-accessories-vs-zoo-animals-fd8a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-activities",
+      "left": "animals",
+      "right": "activities",
+      "canonical": "ordenar-imagens-animals-vs-activities-efac",
+      "siblings": [
+        "ordenar-imagens-animals-vs-activities-efac"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-around_the_house",
+      "left": "animals",
+      "right": "around_the_house",
+      "canonical": "ordenar-imagens-animals-vs-around-the-house-77c8",
+      "siblings": [
+        "ordenar-imagens-animals-vs-around-the-house-77c8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-at_the_supermarket",
+      "left": "animals",
+      "right": "at_the_supermarket",
+      "canonical": "ordenar-imagens-animals-vs-at-the-supermarket-f0f1",
+      "siblings": [
+        "ordenar-imagens-animals-vs-at-the-supermarket-f0f1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-bakery",
+      "left": "animals",
+      "right": "bakery",
+      "canonical": "ordenar-imagens-animals-vs-bakery-054c",
+      "siblings": [
+        "ordenar-imagens-animals-vs-bakery-054c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-beach",
+      "left": "animals",
+      "right": "beach",
+      "canonical": "ordenar-imagens-animals-vs-beach-5ebf",
+      "siblings": [
+        "ordenar-imagens-animals-vs-beach-5ebf"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-body_parts",
+      "left": "animals",
+      "right": "body_parts",
+      "canonical": "ordenar-imagens-animals-vs-body-parts-bae1",
+      "siblings": [
+        "ordenar-imagens-animals-vs-body-parts-bae1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-breakfast",
+      "left": "animals",
+      "right": "breakfast",
+      "canonical": "ordenar-imagens-animals-vs-breakfast-aa7e",
+      "siblings": [
+        "ordenar-imagens-animals-vs-breakfast-aa7e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-christmas",
+      "left": "animals",
+      "right": "christmas",
+      "canonical": "ordenar-imagens-animals-vs-christmas-cb36",
+      "siblings": [
+        "ordenar-imagens-animals-vs-christmas-cb36"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-classroom",
+      "left": "animals",
+      "right": "classroom",
+      "canonical": "ordenar-imagens-animals-vs-classroom-9206",
+      "siblings": [
+        "ordenar-imagens-animals-vs-classroom-9206"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-clothing",
+      "left": "animals",
+      "right": "clothing",
+      "canonical": "ordenar-imagens-animals-vs-clothing-f180",
+      "siblings": [
+        "ordenar-imagens-animals-vs-clothing-f180"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-desserts_and_sweets",
+      "left": "animals",
+      "right": "desserts_and_sweets",
+      "canonical": "ordenar-imagens-animals-vs-desserts-and-sweets-55eb",
+      "siblings": [
+        "ordenar-imagens-animals-vs-desserts-and-sweets-55eb"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-dinosaurs",
+      "left": "animals",
+      "right": "dinosaurs",
+      "canonical": "ordenar-imagens-animals-vs-dinosaurs-e87e",
+      "siblings": [
+        "ordenar-imagens-animals-vs-dinosaurs-e87e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-easter",
+      "left": "animals",
+      "right": "easter",
+      "canonical": "ordenar-imagens-animals-vs-easter-66dd",
+      "siblings": [
+        "ordenar-imagens-animals-vs-easter-66dd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-emotions",
+      "left": "animals",
+      "right": "emotions",
+      "canonical": "ordenar-imagens-animals-vs-emotions-ab78",
+      "siblings": [
+        "ordenar-imagens-animals-vs-emotions-ab78"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-flowers",
+      "left": "animals",
+      "right": "flowers",
+      "canonical": "ordenar-imagens-animals-vs-flowers-463a",
+      "siblings": [
+        "ordenar-imagens-animals-vs-flowers-463a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-fruits",
+      "left": "animals",
+      "right": "fruits",
+      "canonical": "ordenar-imagens-animals-vs-fruits-0e95",
+      "siblings": [
+        "ordenar-imagens-animals-vs-fruits-0e95"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-furniture",
+      "left": "animals",
+      "right": "furniture",
+      "canonical": "ordenar-imagens-animals-vs-furniture-4c62",
+      "siblings": [
+        "ordenar-imagens-animals-vs-furniture-4c62"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-hospital",
+      "left": "animals",
+      "right": "hospital",
+      "canonical": "ordenar-imagens-animals-vs-hospital-4df8",
+      "siblings": [
+        "ordenar-imagens-animals-vs-hospital-4df8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-kitchen_tools",
+      "left": "animals",
+      "right": "kitchen_tools",
+      "canonical": "ordenar-imagens-animals-vs-kitchen-tools-c9bc",
+      "siblings": [
+        "ordenar-imagens-animals-vs-kitchen-tools-c9bc"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-occupations",
+      "left": "animals",
+      "right": "occupations",
+      "canonical": "ordenar-imagens-animals-vs-occupations-8245",
+      "siblings": [
+        "ordenar-imagens-animals-vs-occupations-8245"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-post_office",
+      "left": "animals",
+      "right": "post_office",
+      "canonical": "ordenar-imagens-animals-vs-post-office-cf24",
+      "siblings": [
+        "ordenar-imagens-animals-vs-post-office-cf24"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-shapes",
+      "left": "animals",
+      "right": "shapes",
+      "canonical": "ordenar-imagens-animals-vs-shapes-a146",
+      "siblings": [
+        "ordenar-imagens-animals-vs-shapes-a146"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-space",
+      "left": "animals",
+      "right": "space",
+      "canonical": "ordenar-imagens-animals-vs-space-b48b",
+      "siblings": [
+        "ordenar-imagens-animals-vs-space-b48b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-spring",
+      "left": "animals",
+      "right": "spring",
+      "canonical": "ordenar-imagens-animals-vs-spring-48d1",
+      "siblings": [
+        "ordenar-imagens-animals-vs-spring-48d1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-summer",
+      "left": "animals",
+      "right": "summer",
+      "canonical": "ordenar-imagens-animals-vs-summer-d77f",
+      "siblings": [
+        "ordenar-imagens-animals-vs-summer-d77f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-thanksgivinng",
+      "left": "animals",
+      "right": "thanksgivinng",
+      "canonical": "ordenar-imagens-animals-vs-thanksgiving-11c5",
+      "siblings": [
+        "ordenar-imagens-animals-vs-thanksgiving-11c5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-tools",
+      "left": "animals",
+      "right": "tools",
+      "canonical": "ordenar-imagens-animals-vs-tools-e3d4",
+      "siblings": [
+        "ordenar-imagens-animals-vs-tools-e3d4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-toys",
+      "left": "animals",
+      "right": "toys",
+      "canonical": "ordenar-imagens-animals-vs-toys-a360",
+      "siblings": [
+        "ordenar-imagens-animals-vs-toys-a360"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-tree",
+      "left": "animals",
+      "right": "tree",
+      "canonical": "ordenar-imagens-animals-vs-tree-4455",
+      "siblings": [
+        "ordenar-imagens-animals-vs-tree-4455"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-vegetables",
+      "left": "animals",
+      "right": "vegetables",
+      "canonical": "ordenar-imagens-animals-vs-vegetables-c16f",
+      "siblings": [
+        "ordenar-imagens-animals-vs-vegetables-c16f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-vehicles",
+      "left": "animals",
+      "right": "vehicles",
+      "canonical": "ordenar-imagens-animals-vs-vehicles-b595",
+      "siblings": [
+        "ordenar-imagens-animals-vs-vehicles-b595"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-weather",
+      "left": "animals",
+      "right": "weather",
+      "canonical": "ordenar-imagens-animals-vs-weather-dccd",
+      "siblings": [
+        "ordenar-imagens-animals-vs-weather-dccd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-accessories",
+      "left": "camping",
+      "right": "accessories",
+      "canonical": "ordenar-imagens-camping-vs-accessories-ecce",
+      "siblings": [
+        "ordenar-imagens-camping-vs-accessories-ecce"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-activities",
+      "left": "camping",
+      "right": "activities",
+      "canonical": "ordenar-imagens-camping-vs-activities-0026",
+      "siblings": [
+        "ordenar-imagens-camping-vs-activities-0026"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-animals",
+      "left": "camping",
+      "right": "animals",
+      "canonical": "ordenar-imagens-camping-vs-animals-6524",
+      "siblings": [
+        "ordenar-imagens-camping-vs-animals-6524"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-around_the_house",
+      "left": "camping",
+      "right": "around_the_house",
+      "canonical": "ordenar-imagens-camping-vs-around-the-house-f17e",
+      "siblings": [
+        "ordenar-imagens-camping-vs-around-the-house-f17e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-at_the_supermarket",
+      "left": "camping",
+      "right": "at_the_supermarket",
+      "canonical": "ordenar-imagens-camping-vs-at-the-supermarket-4a90",
+      "siblings": [
+        "ordenar-imagens-camping-vs-at-the-supermarket-4a90"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-bakery",
+      "left": "camping",
+      "right": "bakery",
+      "canonical": "ordenar-imagens-camping-vs-bakery-8499",
+      "siblings": [
+        "ordenar-imagens-camping-vs-bakery-8499"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-beach",
+      "left": "camping",
+      "right": "beach",
+      "canonical": "ordenar-imagens-camping-vs-beach-ab54",
+      "siblings": [
+        "ordenar-imagens-camping-vs-beach-ab54"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-birds",
+      "left": "camping",
+      "right": "birds",
+      "canonical": "ordenar-imagens-camping-vs-birds-dc8d",
+      "siblings": [
+        "ordenar-imagens-camping-vs-birds-dc8d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-birds_2",
+      "left": "camping",
+      "right": "birds_2",
+      "canonical": "ordenar-imagens-camping-vs-birds-2-6a0e",
+      "siblings": [
+        "ordenar-imagens-camping-vs-birds-2-6a0e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-body_parts",
+      "left": "camping",
+      "right": "body_parts",
+      "canonical": "ordenar-imagens-camping-vs-body-parts-5d2f",
+      "siblings": [
+        "ordenar-imagens-camping-vs-body-parts-5d2f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-breakfast",
+      "left": "camping",
+      "right": "breakfast",
+      "canonical": "ordenar-imagens-camping-vs-breakfast-a87f",
+      "siblings": [
+        "ordenar-imagens-camping-vs-breakfast-a87f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-christmas",
+      "left": "camping",
+      "right": "christmas",
+      "canonical": "ordenar-imagens-camping-vs-christmas-0cc7",
+      "siblings": [
+        "ordenar-imagens-camping-vs-christmas-0cc7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-classroom",
+      "left": "camping",
+      "right": "classroom",
+      "canonical": "ordenar-imagens-camping-vs-classroom-2445",
+      "siblings": [
+        "ordenar-imagens-camping-vs-classroom-2445"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-clothing",
+      "left": "camping",
+      "right": "clothing",
+      "canonical": "ordenar-imagens-camping-vs-clothing-b1e7",
+      "siblings": [
+        "ordenar-imagens-camping-vs-clothing-b1e7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-colors",
+      "left": "camping",
+      "right": "colors",
+      "canonical": "ordenar-imagens-camping-vs-colors-61f5",
+      "siblings": [
+        "ordenar-imagens-camping-vs-colors-61f5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-desserts_and_sweets",
+      "left": "camping",
+      "right": "desserts_and_sweets",
+      "canonical": "ordenar-imagens-camping-vs-desserts-and-sweets-eb01",
+      "siblings": [
+        "ordenar-imagens-camping-vs-desserts-and-sweets-eb01"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-dinosaurs",
+      "left": "camping",
+      "right": "dinosaurs",
+      "canonical": "ordenar-imagens-camping-vs-dinosaurs-e0b3",
+      "siblings": [
+        "ordenar-imagens-camping-vs-dinosaurs-e0b3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-easter",
+      "left": "camping",
+      "right": "easter",
+      "canonical": "ordenar-imagens-camping-vs-easter-501f",
+      "siblings": [
+        "ordenar-imagens-camping-vs-easter-501f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-emotions",
+      "left": "camping",
+      "right": "emotions",
+      "canonical": "ordenar-imagens-camping-vs-emotions-d9d8",
+      "siblings": [
+        "ordenar-imagens-camping-vs-emotions-d9d8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-farm_animals",
+      "left": "camping",
+      "right": "farm_animals",
+      "canonical": "ordenar-imagens-camping-vs-farm-animals-c949",
+      "siblings": [
+        "ordenar-imagens-camping-vs-farm-animals-c949"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-flowers",
+      "left": "camping",
+      "right": "flowers",
+      "canonical": "ordenar-imagens-camping-vs-flowers-3601",
+      "siblings": [
+        "ordenar-imagens-camping-vs-flowers-3601"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-forest_creatures",
+      "left": "camping",
+      "right": "forest_creatures",
+      "canonical": "ordenar-imagens-camping-vs-forest-creatures-23b0",
+      "siblings": [
+        "ordenar-imagens-camping-vs-forest-creatures-23b0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-fruits",
+      "left": "camping",
+      "right": "fruits",
+      "canonical": "ordenar-imagens-camping-vs-fruits-a790",
+      "siblings": [
+        "ordenar-imagens-camping-vs-fruits-a790"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-furniture",
+      "left": "camping",
+      "right": "furniture",
+      "canonical": "ordenar-imagens-camping-vs-furniture-5904",
+      "siblings": [
+        "ordenar-imagens-camping-vs-furniture-5904"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-hospital",
+      "left": "camping",
+      "right": "hospital",
+      "canonical": "ordenar-imagens-camping-vs-hospital-5ad6",
+      "siblings": [
+        "ordenar-imagens-camping-vs-hospital-5ad6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-insects_and_bugs",
+      "left": "camping",
+      "right": "insects_and_bugs",
+      "canonical": "ordenar-imagens-camping-vs-insects-and-bugs-67e8",
+      "siblings": [
+        "ordenar-imagens-camping-vs-insects-and-bugs-67e8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-kitchen_tools",
+      "left": "camping",
+      "right": "kitchen_tools",
+      "canonical": "ordenar-imagens-camping-vs-kitchen-tools-7731",
+      "siblings": [
+        "ordenar-imagens-camping-vs-kitchen-tools-7731"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-music",
+      "left": "camping",
+      "right": "music",
+      "canonical": "ordenar-imagens-camping-vs-music-ffad",
+      "siblings": [
+        "ordenar-imagens-camping-vs-music-ffad"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-occupations",
+      "left": "camping",
+      "right": "occupations",
+      "canonical": "ordenar-imagens-camping-vs-occupations-e1d5",
+      "siblings": [
+        "ordenar-imagens-camping-vs-occupations-e1d5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-ocean_life",
+      "left": "camping",
+      "right": "ocean_life",
+      "canonical": "ordenar-imagens-camping-vs-ocean-life-dba4",
+      "siblings": [
+        "ordenar-imagens-camping-vs-ocean-life-dba4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-pets",
+      "left": "camping",
+      "right": "pets",
+      "canonical": "ordenar-imagens-camping-vs-pets-e585",
+      "siblings": [
+        "ordenar-imagens-camping-vs-pets-e585"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-post_office",
+      "left": "camping",
+      "right": "post_office",
+      "canonical": "ordenar-imagens-camping-vs-post-office-1a0e",
+      "siblings": [
+        "ordenar-imagens-camping-vs-post-office-1a0e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-reptiles_and_amphibians",
+      "left": "camping",
+      "right": "reptiles_and_amphibians",
+      "canonical": "ordenar-imagens-camping-vs-reptiles-and-amphibians-4698",
+      "siblings": [
+        "ordenar-imagens-camping-vs-reptiles-and-amphibians-4698"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-shapes",
+      "left": "camping",
+      "right": "shapes",
+      "canonical": "ordenar-imagens-camping-vs-shapes-d76d",
+      "siblings": [
+        "ordenar-imagens-camping-vs-shapes-d76d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-space",
+      "left": "camping",
+      "right": "space",
+      "canonical": "ordenar-imagens-camping-vs-space-82d4",
+      "siblings": [
+        "ordenar-imagens-camping-vs-space-82d4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-thanksgivinng",
+      "left": "camping",
+      "right": "thanksgivinng",
+      "canonical": "ordenar-imagens-camping-vs-thanksgiving-0bcf",
+      "siblings": [
+        "ordenar-imagens-camping-vs-thanksgiving-0bcf"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-things_that_fly",
+      "left": "camping",
+      "right": "things_that_fly",
+      "canonical": "ordenar-imagens-camping-vs-things-that-fly-8e72",
+      "siblings": [
+        "ordenar-imagens-camping-vs-things-that-fly-8e72"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-tools",
+      "left": "camping",
+      "right": "tools",
+      "canonical": "ordenar-imagens-camping-vs-tools-47cb",
+      "siblings": [
+        "ordenar-imagens-camping-vs-tools-47cb"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-toys",
+      "left": "camping",
+      "right": "toys",
+      "canonical": "ordenar-imagens-camping-vs-toys-1a82",
+      "siblings": [
+        "ordenar-imagens-camping-vs-toys-1a82"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-tree",
+      "left": "camping",
+      "right": "tree",
+      "canonical": "ordenar-imagens-camping-vs-tree-5e5d",
+      "siblings": [
+        "ordenar-imagens-camping-vs-tree-5e5d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-vegetables",
+      "left": "camping",
+      "right": "vegetables",
+      "canonical": "ordenar-imagens-camping-vs-vegetables-8903",
+      "siblings": [
+        "ordenar-imagens-camping-vs-vegetables-8903"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-vehicles",
+      "left": "camping",
+      "right": "vehicles",
+      "canonical": "ordenar-imagens-camping-vs-vehicles-12ec",
+      "siblings": [
+        "ordenar-imagens-camping-vs-vehicles-12ec"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-weather",
+      "left": "camping",
+      "right": "weather",
+      "canonical": "ordenar-imagens-camping-vs-weather-ee70",
+      "siblings": [
+        "ordenar-imagens-camping-vs-weather-ee70"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-winter",
+      "left": "camping",
+      "right": "winter",
+      "canonical": "ordenar-imagens-camping-vs-winter-7bd0",
+      "siblings": [
+        "ordenar-imagens-camping-vs-winter-7bd0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-zoo_animals",
+      "left": "camping",
+      "right": "zoo_animals",
+      "canonical": "ordenar-imagens-camping-vs-zoo-animals-004c",
+      "siblings": [
+        "ordenar-imagens-camping-vs-zoo-animals-004c"
+      ],
+      "n": 1
+    }
+  ]
+}

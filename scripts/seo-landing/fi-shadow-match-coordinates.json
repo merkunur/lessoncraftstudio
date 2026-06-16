@@ -1,0 +1,1530 @@
+{
+  "locale": "fi",
+  "exerciseType": "shadow-match",
+  "level": "esikoulu",
+  "rawRowCount": 94,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-shadow": 44,
+    "make-whole": 47
+  },
+  "totalValid": 91,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-shadow",
+    "make-whole"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "find-shadow",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-asusteet-cae8",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-asusteet-cae8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-aktiviteetit-9c24",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-aktiviteetit-9c24"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-elaimet",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-elaimet",
+        "yhdista-varjot-yhdista-varjo-elaimet-6645"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-ruokakaupassa-5b7c",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-ruokakaupassa-5b7c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-leipomo-1c5b",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-leipomo-1c5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-ranta-ddb3",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-ranta-ddb3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-linnut-310a",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-linnut-310a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-linnut-2-9857",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-linnut-2-9857"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-ruumiinosat-e779",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-ruumiinosat-e779"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-aamiainen-07c5",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-aamiainen-07c5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-leirielama-1788",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-leirielama-1788"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-joulu-e97b",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-joulu-e97b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-luokkahuone-21cf",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-luokkahuone-21cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-vaatteet-d528",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-vaatteet-d528"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-varit-7ee8",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-varit-7ee8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-jalkiruoat-ja-makeiset-df12",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-jalkiruoat-ja-makeiset-df12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-dinosaurukset-d2c1",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-dinosaurukset-d2c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-paasiainen-a6a8",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-paasiainen-a6a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-maatilan-elaimet-5bcc",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-maatilan-elaimet-5bcc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-kukat-411e",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-kukat-411e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-metsan-elaimet-a0f2",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-metsan-elaimet-a0f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-hedelmat-e7f4",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-hedelmat-e7f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-huonekalut-fd14",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-huonekalut-fd14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-sairaala-4af4",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-sairaala-4af4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-hyonteiset-ja-otokat-9d5c",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-hyonteiset-ja-otokat-9d5c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-keittiovalineet-9f14",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-keittiovalineet-9f14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-musiikki-06df",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-musiikki-06df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-ammatit-428c",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-ammatit-428c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-merielama-b469",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-merielama-b469"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-lemmikit-7b41",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-lemmikit-7b41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-postitoimisto-bf4e",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-postitoimisto-bf4e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-matelijat-ja-sammakkoelaimet-8ecf",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-matelijat-ja-sammakkoelaimet-8ecf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-avaruus-370b",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-avaruus-370b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-kevat-634b",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-kevat-634b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-kesa-3498",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-kesa-3498"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-kiitospaiva-7f71",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-kiitospaiva-7f71"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-lentavat-asiat-2680",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-lentavat-asiat-2680"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-tyokalut-114a",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-tyokalut-114a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-lelut-4d2e",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-lelut-4d2e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-puut-2d8c",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-puut-2d8c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-ajoneuvot-e059",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-ajoneuvot-e059"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-saa-7adc",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-saa-7adc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-talvi-6ab2",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-talvi-6ab2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-yhdista-varjo-elaintarhan-elaimet-b323",
+      "siblings": [
+        "yhdista-varjot-yhdista-varjo-elaintarhan-elaimet-b323"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-asusteet-c561",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-asusteet-c561"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-aktiviteetit-9faf",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-aktiviteetit-9faf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-elaimet-2976",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-elaimet-2976"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-kodin-ymparilla-24d7",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-kodin-ymparilla-24d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-ruokakaupassa-9066",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-ruokakaupassa-9066"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-leipomo-498d",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-leipomo-498d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-ranta-233d",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-ranta-233d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-linnut-770c",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-linnut-770c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-linnut-2-c7f3",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-linnut-2-c7f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-ruumiinosat-fc51",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-ruumiinosat-fc51"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-aamiainen-c662",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-aamiainen-c662"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-leirielama-a011",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-leirielama-a011"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-joulu-becc",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-joulu-becc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-luokkahuone-498a",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-luokkahuone-498a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-vaatteet-91d0",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-vaatteet-91d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-jalkiruoat-ja-makeiset-d73c",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-jalkiruoat-ja-makeiset-d73c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-dinosaurukset-d5f8",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-dinosaurukset-d5f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-paasiainen-8990",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-paasiainen-8990"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-tunteet-b495",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-tunteet-b495"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-maatilan-elaimet-9b57",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-maatilan-elaimet-9b57"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-kukat-aa14",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-kukat-aa14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-metsan-elaimet-c219",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-metsan-elaimet-c219"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-hedelmat-e1a2",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-hedelmat-e1a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-huonekalut-75e6",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-huonekalut-75e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-sairaala-d210",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-sairaala-d210"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-hyonteiset-ja-otokat-bdb5",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-hyonteiset-ja-otokat-bdb5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-keittiovalineet-b89a",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-keittiovalineet-b89a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-musiikki-bd6f",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-musiikki-bd6f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-ammatit-f194",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-ammatit-f194"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-merielama-dc0c",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-merielama-dc0c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-lemmikit-c173",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-lemmikit-c173"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-postitoimisto-5c43",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-postitoimisto-5c43"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-matelijat-ja-sammakkoelaimet-6c7f",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-matelijat-ja-sammakkoelaimet-6c7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-muodot-e629",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-muodot-e629"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-avaruus-bcc5",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-avaruus-bcc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-kevat-f63a",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-kevat-f63a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-kesa-b059",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-kesa-b059"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-kiitospaiva-3287",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-kiitospaiva-3287"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-lentavat-asiat-0de8",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-lentavat-asiat-0de8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-tyokalut-a3cf",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-tyokalut-a3cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-lelut-18a2",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-lelut-18a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-puut-b809",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-puut-b809"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-vihannekset-d73a",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-vihannekset-d73a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-ajoneuvot-79f3",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-ajoneuvot-79f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-saa-bd77",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-saa-bd77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-talvi-4f5d",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-talvi-4f5d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhdista-varjot-tee-kokonaiseksi-elaintarhan-elaimet-6b87",
+      "siblings": [
+        "yhdista-varjot-tee-kokonaiseksi-elaintarhan-elaimet-6b87"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    }
+  ]
+}

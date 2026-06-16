@@ -76,15 +76,15 @@ const TYPE_MAP = {
   'big-small':     { op: { findBig: 'Iso vai pieni', orderAsc: 'Järjestä koon mukaan' }, qual: {} },
   // visual / logic readiness
   'grid-match':    { op: 'Ruudukkoyhdistys', qual: {} },
-  'missing-pieces':{ op: 'Puuttuvat palat', qual: {} },
-  'shadow-match':  { op: 'Yhdistä varjot', qual: {} },
+  'missing-pieces':{ op: { 'one-missing': 'Puuttuvat palat', 'two-missing': 'Kaksi puuttuvaa palaa' }, qual: {} },
+  'shadow-match':  { op: { 'make-whole': 'Yhdistä varjot', 'find-shadow': 'Etsi oikea varjo' }, qual: {} },
   sudoku:          { op: 'Kuvasudoku', qual: {} },
   'find-objects':  { op: { 'i-spy': 'Etsi esineet', 'find-odd': 'Etsi erilainen' }, qual: {} },
   'odd-one-out':   { op: 'Mikä ei kuulu joukkoon', qual: {} },
   bingo:           { op: 'Kuvabingo', qual: {} },
   'pattern-train': { op: { 'null': 'AB-kuvio', aab: 'AAB-kuvio', abb: 'ABB-kuvio', aabb: 'AABB-kuvio', abc: 'ABC-kuvio' }, qual: {} },
   'pattern-worksheet': { op: 'Kuviotehtävä', qual: {} },
-  'picture-path':  { op: 'Kuvapolku', qual: {} },
+  'picture-path':  { op: { 'choose-path': 'Kuvapolku', 'classic-maze': 'Kuvalabyrintti' }, qual: {} },
   'picture-trail': { op: 'Kuvapolku', qual: {} },
   'picture-sort':  { op: 'Lajittele kuvat', qual: {} },
   // literacy

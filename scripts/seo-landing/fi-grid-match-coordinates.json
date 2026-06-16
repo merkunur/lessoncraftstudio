@@ -1,0 +1,806 @@
+{
+  "locale": "fi",
+  "exerciseType": "grid-match",
+  "level": "esikoulu",
+  "rawRowCount": 48,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 46
+  },
+  "totalValid": 46,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-asusteet-f216",
+      "siblings": [
+        "ruudukkoyhdistys-asusteet-f216"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-aktiviteetit-07bf",
+      "siblings": [
+        "ruudukkoyhdistys-aktiviteetit-07bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "ruudukkoyhdistys-elaimet",
+      "siblings": [
+        "ruudukkoyhdistys-elaimet",
+        "ruudukkoyhdistys-elaimet-37ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-kodin-ymparilla-6cc9",
+      "siblings": [
+        "ruudukkoyhdistys-kodin-ymparilla-6cc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-ruokakaupassa-8b77",
+      "siblings": [
+        "ruudukkoyhdistys-ruokakaupassa-8b77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-leipomo-bd9b",
+      "siblings": [
+        "ruudukkoyhdistys-leipomo-bd9b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-ranta-a0b4",
+      "siblings": [
+        "ruudukkoyhdistys-ranta-a0b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-linnut-2073",
+      "siblings": [
+        "ruudukkoyhdistys-linnut-2073"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-linnut-2-4ed8",
+      "siblings": [
+        "ruudukkoyhdistys-linnut-2-4ed8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-ruumiinosat-f8d5",
+      "siblings": [
+        "ruudukkoyhdistys-ruumiinosat-f8d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-aamiainen-9065",
+      "siblings": [
+        "ruudukkoyhdistys-aamiainen-9065"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-leirielama-5475",
+      "siblings": [
+        "ruudukkoyhdistys-leirielama-5475"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-joulu-f38f",
+      "siblings": [
+        "ruudukkoyhdistys-joulu-f38f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-luokkahuone-6552",
+      "siblings": [
+        "ruudukkoyhdistys-luokkahuone-6552"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-vaatteet-88c4",
+      "siblings": [
+        "ruudukkoyhdistys-vaatteet-88c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-jalkiruoat-ja-makeiset-7ba6",
+      "siblings": [
+        "ruudukkoyhdistys-jalkiruoat-ja-makeiset-7ba6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-dinosaurukset-e998",
+      "siblings": [
+        "ruudukkoyhdistys-dinosaurukset-e998"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-paasiainen-5270",
+      "siblings": [
+        "ruudukkoyhdistys-paasiainen-5270"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-tunteet-e3e2",
+      "siblings": [
+        "ruudukkoyhdistys-tunteet-e3e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-maatilan-elaimet-baed",
+      "siblings": [
+        "ruudukkoyhdistys-maatilan-elaimet-baed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-kukat-da34",
+      "siblings": [
+        "ruudukkoyhdistys-kukat-da34"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-metsan-elaimet-c435",
+      "siblings": [
+        "ruudukkoyhdistys-metsan-elaimet-c435"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-hedelmat-b208",
+      "siblings": [
+        "ruudukkoyhdistys-hedelmat-b208"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-huonekalut-6b9d",
+      "siblings": [
+        "ruudukkoyhdistys-huonekalut-6b9d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-hyonteiset-ja-otokat-bace",
+      "siblings": [
+        "ruudukkoyhdistys-hyonteiset-ja-otokat-bace"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-keittiovalineet-9814",
+      "siblings": [
+        "ruudukkoyhdistys-keittiovalineet-9814"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-musiikki-fd67",
+      "siblings": [
+        "ruudukkoyhdistys-musiikki-fd67"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-ammatit-b580",
+      "siblings": [
+        "ruudukkoyhdistys-ammatit-b580"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-merielama-287f",
+      "siblings": [
+        "ruudukkoyhdistys-merielama-287f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-lemmikit-f63a",
+      "siblings": [
+        "ruudukkoyhdistys-lemmikit-f63a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-postitoimisto-227c",
+      "siblings": [
+        "ruudukkoyhdistys-postitoimisto-227c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-matelijat-ja-sammakkoelaimet-b488",
+      "siblings": [
+        "ruudukkoyhdistys-matelijat-ja-sammakkoelaimet-b488"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-muodot-41d1",
+      "siblings": [
+        "ruudukkoyhdistys-muodot-41d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-avaruus-35b8",
+      "siblings": [
+        "ruudukkoyhdistys-avaruus-35b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-kevat-6808",
+      "siblings": [
+        "ruudukkoyhdistys-kevat-6808"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-kesa-d3f1",
+      "siblings": [
+        "ruudukkoyhdistys-kesa-d3f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-kiitospaiva-d090",
+      "siblings": [
+        "ruudukkoyhdistys-kiitospaiva-d090"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-lentavat-asiat-c6ad",
+      "siblings": [
+        "ruudukkoyhdistys-lentavat-asiat-c6ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-tyokalut-a717",
+      "siblings": [
+        "ruudukkoyhdistys-tyokalut-a717"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-lelut-8c0c",
+      "siblings": [
+        "ruudukkoyhdistys-lelut-8c0c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-puut-9163",
+      "siblings": [
+        "ruudukkoyhdistys-puut-9163"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-vihannekset-c1d2",
+      "siblings": [
+        "ruudukkoyhdistys-vihannekset-c1d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-ajoneuvot-d572",
+      "siblings": [
+        "ruudukkoyhdistys-ajoneuvot-d572"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-saa-7a4c",
+      "siblings": [
+        "ruudukkoyhdistys-saa-7a4c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-talvi-4bd6",
+      "siblings": [
+        "ruudukkoyhdistys-talvi-4bd6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "ruudukkoyhdistys-elaintarhan-elaimet-015c",
+      "siblings": [
+        "ruudukkoyhdistys-elaintarhan-elaimet-015c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    }
+  ]
+}

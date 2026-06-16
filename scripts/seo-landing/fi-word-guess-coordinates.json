@@ -1,0 +1,1484 @@
+{
+  "locale": "fi",
+  "exerciseType": "word-guess",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 96,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 47,
+    "normal": 46,
+    "(null)": 1
+  },
+  "totalValid": 94,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "normal",
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-asusteet-3c66",
+      "siblings": [
+        "arvaa-sana-helppo-asusteet-3c66"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-aktiviteetit-b00e",
+      "siblings": [
+        "arvaa-sana-helppo-aktiviteetit-b00e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-elaimet-3195",
+      "siblings": [
+        "arvaa-sana-helppo-elaimet-3195"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-kodin-ymparilla-db4e",
+      "siblings": [
+        "arvaa-sana-helppo-kodin-ymparilla-db4e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-ruokakaupassa-f786",
+      "siblings": [
+        "arvaa-sana-helppo-ruokakaupassa-f786"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-leipomo-2083",
+      "siblings": [
+        "arvaa-sana-helppo-leipomo-2083"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-ranta-6d36",
+      "siblings": [
+        "arvaa-sana-helppo-ranta-6d36"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-linnut-bb9e",
+      "siblings": [
+        "arvaa-sana-helppo-linnut-bb9e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-ruumiinosat-876f",
+      "siblings": [
+        "arvaa-sana-helppo-ruumiinosat-876f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-aamiainen-11c0",
+      "siblings": [
+        "arvaa-sana-helppo-aamiainen-11c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-leirielama-02da",
+      "siblings": [
+        "arvaa-sana-helppo-leirielama-02da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-joulu-4997",
+      "siblings": [
+        "arvaa-sana-helppo-joulu-4997"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-luokkahuone-9fea",
+      "siblings": [
+        "arvaa-sana-helppo-luokkahuone-9fea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-vaatteet-0caa",
+      "siblings": [
+        "arvaa-sana-helppo-vaatteet-0caa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-varit-a673",
+      "siblings": [
+        "arvaa-sana-helppo-varit-a673"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-jalkiruoat-ja-makeiset-6b22",
+      "siblings": [
+        "arvaa-sana-helppo-jalkiruoat-ja-makeiset-6b22"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-dinosaurukset-793f",
+      "siblings": [
+        "arvaa-sana-helppo-dinosaurukset-793f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-paasiainen-5890",
+      "siblings": [
+        "arvaa-sana-helppo-paasiainen-5890"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-tunteet-58c0",
+      "siblings": [
+        "arvaa-sana-helppo-tunteet-58c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-maatilan-elaimet-35f8",
+      "siblings": [
+        "arvaa-sana-helppo-maatilan-elaimet-35f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-kukat-a7da",
+      "siblings": [
+        "arvaa-sana-helppo-kukat-a7da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-metsan-elaimet-0a04",
+      "siblings": [
+        "arvaa-sana-helppo-metsan-elaimet-0a04"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-hedelmat-da27",
+      "siblings": [
+        "arvaa-sana-helppo-hedelmat-da27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-huonekalut-f07d",
+      "siblings": [
+        "arvaa-sana-helppo-huonekalut-f07d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-sairaala-6b27",
+      "siblings": [
+        "arvaa-sana-helppo-sairaala-6b27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-hyonteiset-ja-otokat-3872",
+      "siblings": [
+        "arvaa-sana-helppo-hyonteiset-ja-otokat-3872"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-keittiovalineet-21b3",
+      "siblings": [
+        "arvaa-sana-helppo-keittiovalineet-21b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-musiikki-8f4d",
+      "siblings": [
+        "arvaa-sana-helppo-musiikki-8f4d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-ammatit-e621",
+      "siblings": [
+        "arvaa-sana-helppo-ammatit-e621"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-merielama-a53c",
+      "siblings": [
+        "arvaa-sana-helppo-merielama-a53c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-lemmikit-720a",
+      "siblings": [
+        "arvaa-sana-helppo-lemmikit-720a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-postitoimisto-96f8",
+      "siblings": [
+        "arvaa-sana-helppo-postitoimisto-96f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-matelijat-ja-sammakkoelaimet-c06c",
+      "siblings": [
+        "arvaa-sana-helppo-matelijat-ja-sammakkoelaimet-c06c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-muodot-1243",
+      "siblings": [
+        "arvaa-sana-helppo-muodot-1243"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-avaruus-51e1",
+      "siblings": [
+        "arvaa-sana-helppo-avaruus-51e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-kevat-263d",
+      "siblings": [
+        "arvaa-sana-helppo-kevat-263d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-kesa-0a5f",
+      "siblings": [
+        "arvaa-sana-helppo-kesa-0a5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-kiitospaiva-9c33",
+      "siblings": [
+        "arvaa-sana-helppo-kiitospaiva-9c33"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-lentavat-asiat-7c13",
+      "siblings": [
+        "arvaa-sana-helppo-lentavat-asiat-7c13"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-tyokalut-2a21",
+      "siblings": [
+        "arvaa-sana-helppo-tyokalut-2a21"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-lelut-554c",
+      "siblings": [
+        "arvaa-sana-helppo-lelut-554c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-puut-9db8",
+      "siblings": [
+        "arvaa-sana-helppo-puut-9db8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-vihannekset-d89f",
+      "siblings": [
+        "arvaa-sana-helppo-vihannekset-d89f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-ajoneuvot-e514",
+      "siblings": [
+        "arvaa-sana-helppo-ajoneuvot-e514"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-saa-052f",
+      "siblings": [
+        "arvaa-sana-helppo-saa-052f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-talvi-076b",
+      "siblings": [
+        "arvaa-sana-helppo-talvi-076b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-helppo-elaintarhan-elaimet-da9f",
+      "siblings": [
+        "arvaa-sana-helppo-elaintarhan-elaimet-da9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-asusteet-79e1",
+      "siblings": [
+        "arvaa-sana-normaali-asusteet-79e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-aktiviteetit-7d8d",
+      "siblings": [
+        "arvaa-sana-normaali-aktiviteetit-7d8d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-elaimet-3e3f",
+      "siblings": [
+        "arvaa-sana-normaali-elaimet-3e3f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-kodin-ymparilla-0003",
+      "siblings": [
+        "arvaa-sana-normaali-kodin-ymparilla-0003"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-ruokakaupassa-9041",
+      "siblings": [
+        "arvaa-sana-normaali-ruokakaupassa-9041"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-leipomo-dadc",
+      "siblings": [
+        "arvaa-sana-normaali-leipomo-dadc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-ranta-6a16",
+      "siblings": [
+        "arvaa-sana-normaali-ranta-6a16"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-linnut-821c",
+      "siblings": [
+        "arvaa-sana-normaali-linnut-821c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-ruumiinosat-5846",
+      "siblings": [
+        "arvaa-sana-normaali-ruumiinosat-5846"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-aamiainen-284d",
+      "siblings": [
+        "arvaa-sana-normaali-aamiainen-284d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-leirielama-a8da",
+      "siblings": [
+        "arvaa-sana-normaali-leirielama-a8da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-joulu-d3f0",
+      "siblings": [
+        "arvaa-sana-normaali-joulu-d3f0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-luokkahuone-1fe1",
+      "siblings": [
+        "arvaa-sana-normaali-luokkahuone-1fe1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-vaatteet-c533",
+      "siblings": [
+        "arvaa-sana-normaali-vaatteet-c533"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-varit-644a",
+      "siblings": [
+        "arvaa-sana-normaali-varit-644a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-jalkiruoat-ja-makeiset-887b",
+      "siblings": [
+        "arvaa-sana-normaali-jalkiruoat-ja-makeiset-887b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-paasiainen-aed1",
+      "siblings": [
+        "arvaa-sana-normaali-paasiainen-aed1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-tunteet-8286",
+      "siblings": [
+        "arvaa-sana-normaali-tunteet-8286"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-maatilan-elaimet-ccd8",
+      "siblings": [
+        "arvaa-sana-normaali-maatilan-elaimet-ccd8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-kukat-7927",
+      "siblings": [
+        "arvaa-sana-normaali-kukat-7927"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-metsan-elaimet-5ffe",
+      "siblings": [
+        "arvaa-sana-normaali-metsan-elaimet-5ffe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-hedelmat-9765",
+      "siblings": [
+        "arvaa-sana-normaali-hedelmat-9765"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-huonekalut-b9b6",
+      "siblings": [
+        "arvaa-sana-normaali-huonekalut-b9b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-sairaala-f545",
+      "siblings": [
+        "arvaa-sana-normaali-sairaala-f545"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-hyonteiset-ja-otokat-7433",
+      "siblings": [
+        "arvaa-sana-normaali-hyonteiset-ja-otokat-7433"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-keittiovalineet-6e59",
+      "siblings": [
+        "arvaa-sana-normaali-keittiovalineet-6e59"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-musiikki-4d30",
+      "siblings": [
+        "arvaa-sana-normaali-musiikki-4d30"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-ammatit-869b",
+      "siblings": [
+        "arvaa-sana-normaali-ammatit-869b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-merielama-2465",
+      "siblings": [
+        "arvaa-sana-normaali-merielama-2465"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-lemmikit-b24c",
+      "siblings": [
+        "arvaa-sana-normaali-lemmikit-b24c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-postitoimisto-d08e",
+      "siblings": [
+        "arvaa-sana-normaali-postitoimisto-d08e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-matelijat-ja-sammakkoelaimet-3846",
+      "siblings": [
+        "arvaa-sana-normaali-matelijat-ja-sammakkoelaimet-3846"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-muodot-2f2c",
+      "siblings": [
+        "arvaa-sana-normaali-muodot-2f2c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-avaruus-e39f",
+      "siblings": [
+        "arvaa-sana-normaali-avaruus-e39f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-kevat-49cd",
+      "siblings": [
+        "arvaa-sana-normaali-kevat-49cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-kesa-3f03",
+      "siblings": [
+        "arvaa-sana-normaali-kesa-3f03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-kiitospaiva-bf95",
+      "siblings": [
+        "arvaa-sana-normaali-kiitospaiva-bf95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-lentavat-asiat-30e8",
+      "siblings": [
+        "arvaa-sana-normaali-lentavat-asiat-30e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-tyokalut-7547",
+      "siblings": [
+        "arvaa-sana-normaali-tyokalut-7547"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-lelut-dff4",
+      "siblings": [
+        "arvaa-sana-normaali-lelut-dff4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-puut-c7f4",
+      "siblings": [
+        "arvaa-sana-normaali-puut-c7f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-vihannekset-c340",
+      "siblings": [
+        "arvaa-sana-normaali-vihannekset-c340"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-ajoneuvot-3fdb",
+      "siblings": [
+        "arvaa-sana-normaali-ajoneuvot-3fdb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-saa-a936",
+      "siblings": [
+        "arvaa-sana-normaali-saa-a936"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-talvi-5892",
+      "siblings": [
+        "arvaa-sana-normaali-talvi-5892"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-normaali-elaintarhan-elaimet-a998",
+      "siblings": [
+        "arvaa-sana-normaali-elaintarhan-elaimet-a998"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "arvaa-sana-elaimet",
+      "siblings": [
+        "arvaa-sana-elaimet"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

@@ -1,0 +1,1265 @@
+{
+ "locale": "pt",
+ "exerciseType": "sudoku",
+ "source": "thumbnail-recovery",
+ "totalValid": 123,
+ "coordinates": [
+  {
+   "mode": "easy",
+   "theme": "accessories",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-af79",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-af79"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "activities",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-f975",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-f975"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "animals",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-8cb6",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-8cb6"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-576d",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-576d"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "bakery",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-c1ec",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-c1ec"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "beach",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-c4a7",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-c4a7"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "birds",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-374f",
+   "n": 3,
+   "siblings": [
+    "sudoku-ilustrado-facil-374f",
+    "sudoku-ilustrado-facil-86b1",
+    "sudoku-ilustrado-facil-1220"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-9baf",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-9baf"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-b274",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-b274"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "camping",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-a9ee",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-a9ee"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "christmas",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-65f6",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-65f6"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "classroom",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-f970",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-f970"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "clothing",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-a9eb",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-a9eb"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "colors",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-4b1d",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-4b1d"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-7b8e",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-7b8e"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-0ace",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-0ace"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "easter",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-8186",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-8186"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "emotions",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-618d",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-618d"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "flowers",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-7429",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-7429"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-f596",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-f596"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "fruits",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-724b",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-724b"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "furniture",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-5ba6",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-facil-5ba6",
+    "sudoku-ilustrado-facil-d90c"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "hospital",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-0782",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-0782"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-634a",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-634a"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-3a37",
+   "n": 3,
+   "siblings": [
+    "sudoku-ilustrado-facil-3a37",
+    "sudoku-ilustrado-facil-ec47",
+    "sudoku-ilustrado-facil-e8c1"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "music",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-35fb",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-35fb"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "occupations",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-0c14",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-0c14"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-3a1c",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-3a1c"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "post_office",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-3d8d",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-facil-3d8d",
+    "sudoku-ilustrado-facil-3c32"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-9a3a",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-9a3a"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "shapes",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-4f31",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-4f31"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "space",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-6533",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-6533"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "spring",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-825b",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-825b"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "summer",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-a515",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-facil-a515",
+    "sudoku-ilustrado-facil-6ed3"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-8617",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-8617"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "toys",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-8356",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-8356"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "tree",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-0150",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-0150"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-baee",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-baee"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-75d5",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-75d5"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "weather",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-2483",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-2483"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "winter",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-0be6",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-0be6"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "sudoku-ilustrado-facil-1681",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-facil-1681"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "animals",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-cc16",
+   "n": 3,
+   "siblings": [
+    "sudoku-ilustrado-dificil-cc16",
+    "sudoku-ilustrado-dificil-a1a7",
+    "sudoku-ilustrado-dificil-b9f2"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-dc0b",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-dc0b"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "beach",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-a118",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-dificil-a118",
+    "sudoku-ilustrado-dificil-cc44"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "birds",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-4441",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-dificil-4441",
+    "sudoku-ilustrado-dificil-06bc"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-c4e8",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-c4e8"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-c2d3",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-c2d3"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "camping",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-9251",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-9251"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "christmas",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-d413",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-d413"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "classroom",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-e456",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-e456"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "clothing",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-7fc1",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-7fc1"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "colors",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-845e",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-845e"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-5419",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-dificil-5419",
+    "sudoku-ilustrado-dificil-c105"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-d3b0",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-dificil-d3b0",
+    "sudoku-ilustrado-dificil-e6e1"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "easter",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-43d9",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-43d9"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "emotions",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-b39b",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-b39b"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "flowers",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-9e05",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-9e05"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "fruits",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-77f7",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-77f7"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "furniture",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-979a",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-979a"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "hospital",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-5853",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-5853"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-96f6",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-96f6"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-62ed",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-62ed"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-05c3",
+   "n": 4,
+   "siblings": [
+    "sudoku-ilustrado-dificil-05c3",
+    "sudoku-ilustrado-dificil-137c",
+    "sudoku-ilustrado-dificil-fee0",
+    "sudoku-ilustrado-dificil-8a19"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "music",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-3096",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-3096"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "occupations",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-1b3a",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-dificil-1b3a",
+    "sudoku-ilustrado-dificil-290a"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-414d",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-414d"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "shapes",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-5ebb",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-5ebb"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "space",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-466d",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-466d"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "spring",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-b2c3",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-b2c3"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "summer",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-7748",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-7748"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-bdba",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-bdba"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-2db8",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-dificil-2db8",
+    "sudoku-ilustrado-dificil-a7c1"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "tools",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-0290",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-0290"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "tree",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-feca",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-feca"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-a268",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-dificil-a268",
+    "sudoku-ilustrado-dificil-c323"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-d4a3",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-d4a3"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "weather",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-bc60",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-bc60"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "winter",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-a93e",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-a93e"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "hard",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "sudoku-ilustrado-dificil-590b",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-dificil-590b"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "accessories",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-97b5",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-97b5"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "activities",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-5c81",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-5c81"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "animals",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-2c1e",
+   "n": 3,
+   "siblings": [
+    "sudoku-ilustrado-medio-2c1e",
+    "sudoku-ilustrado-medio-3d11",
+    "sudoku-ilustrado-medio-7972"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-af08",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-af08"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "beach",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-2750",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-2750"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "birds",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-5f13",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-5f13"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-ea5e",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-ea5e"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-6723",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-6723"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-e704",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-e704"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "camping",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-ae83",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-medio-ae83",
+    "sudoku-ilustrado-medio-0f02"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "christmas",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-3a68",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-3a68"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "classroom",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-9c1a",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-9c1a"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "clothing",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-eaa7",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-eaa7"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "colors",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-4ca8",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-4ca8"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-b635",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-medio-b635",
+    "sudoku-ilustrado-medio-8dd6"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-3d22",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-3d22"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "easter",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-902b",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-902b"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "emotions",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-c593",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-c593"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "flowers",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-6590",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-6590"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "fruits",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-f10d",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-medio-f10d",
+    "sudoku-ilustrado-medio-f295"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "furniture",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-67ae",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-67ae"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "hospital",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-6a81",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-6a81"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-825e",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-825e"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-afc1",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-afc1"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-0406",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-medio-0406",
+    "sudoku-ilustrado-medio-f65f"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "music",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-f637",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-medio-f637",
+    "sudoku-ilustrado-medio-6797"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-46a8",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-46a8"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "pets",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-a287",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-a287"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "post_office",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-415d",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-415d"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-b92a",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-b92a"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "shapes",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-8e04",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-8e04"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "space",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-0423",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-0423"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "spring",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-7fff",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-7fff"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-9a0a",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-9a0a"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-a952",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-a952"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "tools",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-83a2",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-83a2"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "toys",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-199e",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-199e"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "tree",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-b9ea",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-b9ea"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-18fb",
+   "n": 2,
+   "siblings": [
+    "sudoku-ilustrado-medio-18fb",
+    "sudoku-ilustrado-medio-2ca7"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "weather",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-0905",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-0905"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "winter",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-1889",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-1889"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "sudoku-ilustrado-medio-e41b",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado-medio-e41b"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": null,
+   "theme": "animals",
+   "canonicalDeckSlug": "sudoku-ilustrado",
+   "n": 1,
+   "siblings": [
+    "sudoku-ilustrado"
+   ],
+   "level": "educacao-infantil"
+  }
+ ]
+}

@@ -1,0 +1,900 @@
+{
+ "locale": "pt",
+ "exerciseType": "treasure-hunt",
+ "source": "thumbnail-recovery",
+ "totalValid": 88,
+ "coordinates": [
+  {
+   "mode": "cardinal-arrows",
+   "theme": "accessories",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-2cff",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-2cff"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "activities",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ec2a",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ec2a"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "animals",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8809",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8809"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-77df",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-77df"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-fa8c",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-fa8c"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "bakery",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-9108",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-9108"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "beach",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4ca7",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4ca7"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "birds",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4306",
+   "n": 2,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4306",
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-1ecb"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-f4af",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-f4af"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b03c",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b03c"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "camping",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-34d4",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-34d4"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "christmas",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-95d5",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-95d5"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "classroom",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5234",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5234"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "clothing",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5e3d",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5e3d"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "colors",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-1b05",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-1b05"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b30e",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b30e"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-fbdb",
+   "n": 2,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-fbdb",
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-7d00"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "easter",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-2e03",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-2e03"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "emotions",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-17d6",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-17d6"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-46a5",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-46a5"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "flowers",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b352",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b352"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-animais",
+   "n": 2,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-animais",
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-7880"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "fruits",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-53cf",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-53cf"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "furniture",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5e29",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5e29"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "hospital",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-9395",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-9395"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-7cc8",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-7cc8"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-d60e",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-d60e"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-cf31",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-cf31"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "music",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-c962",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-c962"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "occupations",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-908b",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-908b"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-848d",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-848d"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "pets",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-d608",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-d608"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "post_office",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-f48b",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-f48b"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "shapes",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-98ab",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-98ab"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "space",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-43d6",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-43d6"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "summer",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-23d6",
+   "n": 2,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-23d6",
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8c7a"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ac6d",
+   "n": 2,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ac6d",
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-87f2"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ab04",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ab04"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "tools",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-a515",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-a515"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "toys",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4d25",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4d25"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "tree",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-25ae",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-25ae"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8ee3",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8ee3"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-0aa6",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-0aa6"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "winter",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-6cad",
+   "n": 2,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-6cad",
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-affc"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "cardinal-arrows",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-e81d",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-e81d"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "accessories",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d60f",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-d60f"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "activities",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-1fc1",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-1fc1"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0e66",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-0e66"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "bakery",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7fc6",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-7fc6"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "birds",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-e831",
+   "n": 2,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-e831",
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-d6fb"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-6d5f",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-6d5f"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "camping",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-95b5",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-95b5"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "christmas",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7584",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-7584"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "classroom",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-8858",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-8858"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "clothing",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-2248",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-2248"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "colors",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-b91e",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-b91e"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-ba90",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-ba90"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-a4c3",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-a4c3"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "easter",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-fe69",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-fe69"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "emotions",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-bf74",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-bf74"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-1bd8",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-1bd8"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "flowers",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0775",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-0775"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-ff94",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-ff94"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "fruits",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-021b",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-021b"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "furniture",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-4090",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-4090"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "hospital",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-6408",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-6408"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0e58",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-0e58"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d5f7",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-d5f7"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-c60d",
+   "n": 3,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-c60d",
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-f0bb",
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-5339"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "music",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-59f1",
+   "n": 2,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-59f1",
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-1281"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-259b",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-259b"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "pets",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-a517",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-a517"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "post_office",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-cb3f",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-cb3f"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-da63",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-da63"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "shapes",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7f5b",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-7f5b"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "space",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-bbda",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-bbda"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "spring",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-2d65",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-2d65"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "summer",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-e38e",
+   "n": 2,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-e38e",
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-66eb"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-387e",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-387e"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-8293",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-8293"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "tools",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d824",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-d824"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "toys",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-be94",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-be94"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "tree",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-38cf",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-38cf"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-4ab0",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-4ab0"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-dac0",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-dac0"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "weather",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-b6e5",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-b6e5"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "winter",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-37c4",
+   "n": 1,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-37c4"
+   ],
+   "level": "educacao-infantil"
+  },
+  {
+   "mode": "compass",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d957",
+   "n": 2,
+   "siblings": [
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-d957",
+    "caca-ao-tesouro-pontos-cardeais-4-de-julho-d545"
+   ],
+   "level": "educacao-infantil"
+  }
+ ]
+}

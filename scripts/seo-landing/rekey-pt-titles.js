@@ -56,7 +56,7 @@ const TYPE_MAP = {
   'pattern-worksheet': { op: 'Sequências lógicas', qual: {} },
   'picture-path': { op: 'Labirinto', qual: { 'choose-path': 'com escolhas', 'classic-maze': 'clássico' } },
   'picture-trail': { op: 'Labirinto', qual: {} },
-  'picture-sort': { op: 'Separe as imagens', qual: {} },
+  'picture-sort': { op: 'Separar e classificar', qual: {} },
   'odd-one-out': { op: 'Ache o intruso', qual: { 'cross-theme': 'temas misturados' } },
   sudoku: { op: 'Sudoku ilustrado', qual: { easy: 'fácil', medium: 'médio' } },
   'treasure-hunt': { op: 'Caça ao tesouro', qual: { 'cardinal-arrows': 'com setas', compass: 'com bússola' } },

@@ -40,7 +40,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     sv: 'Taluppfattning och tals användning',
     da: 'Tal og algebra (tælling og antal)',
     no: 'Telling og tall',
-    fi: 'Lukumäärä ja laskeminen',
+    fi: 'Luvut ja laskutoimitukset',
   },
   'Operations & Algebraic Thinking': {
     en: 'Operations & Algebraic Thinking',
@@ -53,7 +53,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     sv: 'Algebra',
     da: 'Tal og algebra (regnestrategier)',
     no: 'Regneoperasjoner og algebraisk tenkning',
-    fi: 'Laskutoimitukset ja algebrallinen ajattelu',
+    fi: 'Luvut ja laskutoimitukset',
   },
   'Geometry': {
     en: 'Geometry',
@@ -81,7 +81,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     sv: 'Mätning och data',
     da: 'Måling og data',
     no: 'Måling og data',
-    fi: 'Mittaaminen ja tieto',
+    fi: 'Mittaaminen ja tietojen käsittely',
   },
   'Number & Operations in Base Ten': {
     en: 'Number & Operations in Base Ten',
@@ -94,7 +94,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     sv: 'Taluppfattning och tals användning',
     da: 'Tal og algebra (positionssystemet)',
     no: 'Tall og titallssystemet',
-    fi: 'Luvut ja kymmenjärjestelmä',
+    fi: 'Luvut ja laskutoimitukset',
   },
   // Alias: manifest uses the "and" spelling in places — map to the same value.
   'Number and Operations in Base Ten': {
@@ -108,7 +108,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     sv: 'Taluppfattning och tals användning',
     da: 'Tal og algebra (positionssystemet)',
     no: 'Tall og titallssystemet',
-    fi: 'Luvut ja kymmenjärjestelmä',
+    fi: 'Luvut ja laskutoimitukset',
   },
   'Reading: Foundational Skills': {
     en: 'Reading: Foundational Skills',
@@ -144,6 +144,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Language': {
     en: 'Language',
     nl: 'Taal', // SLO-kerndoelen leergebied Nederlands/taal (nl literacy fan-out)
+    fi: 'Kielen rakenteet ja oikeinkirjoitus', // OPS 2014 äidinkieli: language structures & spelling
   },
 };
 

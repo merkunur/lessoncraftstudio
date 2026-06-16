@@ -40,6 +40,7 @@ const FRAMEWORK_BY_LOCALE: Record<string, { jsonld: string; chip: string }> = {
   no: { jsonld: 'Læreplanverket for Kunnskapsløftet (LK20)', chip: 'LK20' },
   fr: { jsonld: "Programmes de l'Éducation Nationale", chip: 'Éducation Nationale' },
   pt: { jsonld: 'Base Nacional Comum Curricular (BNCC)', chip: 'BNCC' },
+  fi: { jsonld: 'OPS 2014', chip: 'OPS 2014' },
 };
 
 // Per-locale UI chrome (the route was EN-hardcoded). de pages render German chrome.
@@ -153,6 +154,16 @@ const UI_STRINGS: Record<string, {
     playAria: (h1) => `Jogar ${h1}`, previewAlt: (h1) => `Prévia: ${h1}`,
     embedButton: 'Incorporar esta atividade', embedCopy: 'Copiar código', embedCopied: 'Copiado!',
     embedPrefix: 'Atividade de', embedKeyword: 'atividades grátis para imprimir',
+  },
+  fi: {
+    worksheets: 'Tehtävät', playInteractive: 'Pelaa', downloadPdf: 'Lataa PDF', answerKey: 'Vastaukset',
+    moreToTry: 'Lisää tehtäviä kokeiltavaksi', tryInteractive: 'Kokeile — vuorovaikutteinen', makerSoon: 'Tehtävägeneraattori tulossa pian.',
+    comingSoon: '', // fi: no dashed framework chip on strand-only readiness landings (family precedent de/it/no/fr/pt)
+    sameThemeHeading: 'Lisää samasta aiheesta', sameLevelHeading: 'Lisää samalle tasolle',
+    madeWith: (t) => `Tehty ${t}-generaattorilla`, typeCrumb: (e) => e.replace(/^Tehtävä:\s*/, ''),
+    playAria: (h1) => `Pelaa: ${h1}`, previewAlt: (h1) => `Esikatselu: ${h1}`,
+    embedButton: 'Upota tämä tehtävä', embedCopy: 'Kopioi koodi', embedCopied: 'Kopioitu!',
+    embedPrefix: 'Tehtävä:', embedKeyword: 'ilmaiset tulostettavat tehtävät',
   },
 };
 
@@ -302,6 +313,10 @@ export default function WorksheetLandingPage(
     'educacao-infantil': { chip: 'Educação infantil', schema: 'Educação infantil', age: '3-6' },
     '1o-ano': { chip: '1º ano', schema: 'Ensino fundamental — 1º ano', age: '6-7' },
     '2o-ano': { chip: '2º ano', schema: 'Ensino fundamental — 2º ano', age: '7-8' },
+    // fi — 3-band spine (OPS 2014): esikoulu (esiopetus, readiness) / 1. luokka / 2. luokka. Keys collision-free.
+    'esikoulu': { chip: 'Esikoulu', schema: 'Esiopetus', age: '5-6' },
+    '1-luokka': { chip: '1. luokka', schema: 'Perusopetus — 1. luokka', age: '7' },
+    '2-luokka': { chip: '2. luokka', schema: 'Perusopetus — 2. luokka', age: '8' },
   };
   const _bandKeys = l.levels && l.levels.length ? l.levels : [l.coordinate.level];
   const _bands = _bandKeys.map((k) => LEVELS[`${locale}:${k}`] || LEVELS[k]).filter(Boolean);

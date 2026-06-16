@@ -1,0 +1,1497 @@
+{
+  "locale": "fi",
+  "exerciseType": "missing-pieces",
+  "level": "esikoulu",
+  "rawRowCount": 93,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "one-missing": 46,
+    "two-missing": 43
+  },
+  "totalValid": 89,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "one-missing",
+    "two-missing"
+  ],
+  "collapsedFamilies": 2,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "one-missing",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-asusteet-fb2f",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-asusteet-fb2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-aktiviteetit-002c",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-aktiviteetit-002c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-elaimet",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-elaimet",
+        "puuttuvat-palat-1-puuttuva-pala-elaimet-9ce0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-kodin-ymparilla-43ac",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-kodin-ymparilla-43ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-ruokakaupassa-bde1",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-ruokakaupassa-bde1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-leipomo-e19e",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-leipomo-e19e",
+        "puuttuvat-palat-1-puuttuva-pala-leipomo-4099"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-ranta-756b",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-ranta-756b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-linnut-9cf0",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-linnut-9cf0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-linnut-2-d83d",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-linnut-2-d83d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-ruumiinosat-5837",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-ruumiinosat-5837"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-aamiainen-1c6b",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-aamiainen-1c6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-leirielama-da3e",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-leirielama-da3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-joulu-12a2",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-joulu-12a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-luokkahuone-b939",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-luokkahuone-b939"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-vaatteet-3a76",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-vaatteet-3a76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-jalkiruoat-ja-makeiset-22ce",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-jalkiruoat-ja-makeiset-22ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-dinosaurukset-a4a7",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-dinosaurukset-a4a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-paasiainen-0195",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-paasiainen-0195"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-tunteet-a82b",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-tunteet-a82b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-maatilan-elaimet-64d4",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-maatilan-elaimet-64d4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-kukat-6baa",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-kukat-6baa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-metsan-elaimet-7009",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-metsan-elaimet-7009"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-hedelmat-54ac",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-hedelmat-54ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-huonekalut-2efe",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-huonekalut-2efe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-sairaala-d96c",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-sairaala-d96c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-hyonteiset-ja-otokat-d590",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-hyonteiset-ja-otokat-d590"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-keittiovalineet-1e3a",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-keittiovalineet-1e3a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-musiikki-c352",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-musiikki-c352"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-ammatit-49e1",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-ammatit-49e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-merielama-b11b",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-merielama-b11b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-lemmikit-fc25",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-lemmikit-fc25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-postitoimisto-bfec",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-postitoimisto-bfec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-matelijat-ja-sammakkoelaimet-0f12",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-matelijat-ja-sammakkoelaimet-0f12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-avaruus-bec7",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-avaruus-bec7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-kevat-acd4",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-kevat-acd4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-kesa-28bf",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-kesa-28bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-kiitospaiva-eefa",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-kiitospaiva-eefa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-lentavat-asiat-4ca5",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-lentavat-asiat-4ca5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-tyokalut-0243",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-tyokalut-0243"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-lelut-2a90",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-lelut-2a90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-puut-ec89",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-puut-ec89"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-vihannekset-c4f4",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-vihannekset-c4f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-ajoneuvot-017c",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-ajoneuvot-017c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-saa-e8bd",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-saa-e8bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-talvi-3f65",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-talvi-3f65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-1-puuttuva-pala-elaintarhan-elaimet-f46d",
+      "siblings": [
+        "puuttuvat-palat-1-puuttuva-pala-elaintarhan-elaimet-f46d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-asusteet-9371",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-asusteet-9371"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-aktiviteetit-45c5",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-aktiviteetit-45c5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-elaimet-08a8",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-elaimet-08a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-kodin-ymparilla-f06d",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-kodin-ymparilla-f06d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-leipomo-0d7a",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-leipomo-0d7a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-ranta-ccf9",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-ranta-ccf9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-linnut-b2ce",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-linnut-b2ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-linnut-2-9b6f",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-linnut-2-9b6f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-ruumiinosat-52fe",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-ruumiinosat-52fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-aamiainen-cb39",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-aamiainen-cb39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-leirielama-a45f",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-leirielama-a45f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-luokkahuone-71f7",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-luokkahuone-71f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-vaatteet-c06a",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-vaatteet-c06a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-dinosaurukset-972e",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-dinosaurukset-972e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-paasiainen-bf74",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-paasiainen-bf74"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-tunteet-bb17",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-tunteet-bb17"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-maatilan-elaimet-b1d5",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-maatilan-elaimet-b1d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-kukat-d5a3",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-kukat-d5a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-metsan-elaimet-2116",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-metsan-elaimet-2116"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-hedelmat-e129",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-hedelmat-e129"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-huonekalut-4657",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-huonekalut-4657"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-sairaala-1097",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-sairaala-1097"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-hyonteiset-ja-otokat-6115",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-hyonteiset-ja-otokat-6115"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-keittiovalineet-36d6",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-keittiovalineet-36d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-musiikki-8500",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-musiikki-8500"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-ammatit-69a8",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-ammatit-69a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-merielama-252c",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-merielama-252c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-lemmikit-124a",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-lemmikit-124a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-postitoimisto-22ba",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-postitoimisto-22ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-matelijat-ja-sammakkoelaimet-84ed",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-matelijat-ja-sammakkoelaimet-84ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-avaruus-c126",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-avaruus-c126"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-kevat-0d54",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-kevat-0d54"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-kesa-73ef",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-kesa-73ef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-kiitospaiva-ed49",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-kiitospaiva-ed49"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-lentavat-asiat-0d1e",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-lentavat-asiat-0d1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-tyokalut-d900",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-tyokalut-d900"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-lelut-3dcc",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-lelut-3dcc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-puut-0131",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-puut-0131"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-vihannekset-bf21",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-vihannekset-bf21"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-ajoneuvot-fb1f",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-ajoneuvot-fb1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-saa-66c3",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-saa-66c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-talvi-cbba",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-talvi-cbba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "puuttuvat-palat-2-puuttuvaa-palaa-elaintarhan-elaimet-38aa",
+      "siblings": [
+        "puuttuvat-palat-2-puuttuvaa-palaa-elaintarhan-elaimet-38aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    }
+  ]
+}

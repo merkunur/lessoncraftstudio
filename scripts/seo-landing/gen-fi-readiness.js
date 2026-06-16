@@ -82,7 +82,7 @@ function buildMode(mk){
       h1: render(cfg.h1(mk, lvl), d),
       strand: (typeof cfg.strand === 'function' ? cfg.strand(mk, lvl) : cfg.strand),
       // §4.B "theme-noun in P1" lint tokens — the fi case fields + display + theme key + level + slotWord.
-      slotTokens: [d.nomPl, d.partPl, d.partSg, d.h1Display, co.theme.replace(/_/g,' '), lvl, cfg.slotWord].filter(Boolean),
+      slotTokens: [d.nomPl, d.partPl, d.partSg, d.genPl, d.h1Display, co.theme.replace(/_/g,' '), lvl, cfg.slotWord].filter(Boolean),
       p1: render(sk[c.skel], d),
       p2: render(p2[c.p2], d),
       p3: p3fi(d, nb1, nb2, mk),

@@ -1,0 +1,742 @@
+{
+  "locale": "fi",
+  "exerciseType": "bingo",
+  "level": "esikoulu",
+  "rawRowCount": 79,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 40
+  },
+  "totalValid": 40,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "kitchen_tools",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "things_that_fly",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 37,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-asusteet-baa3",
+      "siblings": [
+        "bingo-asusteet-baa3",
+        "bingo-asusteet-3b94"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-aktiviteetit-2d40",
+      "siblings": [
+        "bingo-aktiviteetit-2d40",
+        "bingo-aktiviteetit-0c6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 3,
+      "canonicalDeckSlug": "bingo-elaimet",
+      "siblings": [
+        "bingo-elaimet",
+        "bingo-elaimet-a442",
+        "bingo-elaimet-6192"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-kodin-ymparilla-296a",
+      "siblings": [
+        "bingo-kodin-ymparilla-296a",
+        "bingo-kodin-ymparilla-85ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-ruokakaupassa-a9a7",
+      "siblings": [
+        "bingo-ruokakaupassa-a9a7",
+        "bingo-ruokakaupassa-3d93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-leipomo-c4f8",
+      "siblings": [
+        "bingo-leipomo-c4f8",
+        "bingo-leipomo-e250"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-ranta-d26f",
+      "siblings": [
+        "bingo-ranta-d26f",
+        "bingo-ranta-1774"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 3,
+      "canonicalDeckSlug": "bingo-linnut-2-a91a",
+      "siblings": [
+        "bingo-linnut-2-a91a",
+        "bingo-linnut-2-734a",
+        "bingo-linnut-2-abd5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "bingo-ruumiinosat-53df",
+      "siblings": [
+        "bingo-ruumiinosat-53df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-aamiainen-4ca2",
+      "siblings": [
+        "bingo-aamiainen-4ca2",
+        "bingo-aamiainen-b7a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-leirielama-7068",
+      "siblings": [
+        "bingo-leirielama-7068",
+        "bingo-leirielama-f252"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-joulu-0872",
+      "siblings": [
+        "bingo-joulu-0872",
+        "bingo-joulu-9466"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "bingo-luokkahuone-1cf5",
+      "siblings": [
+        "bingo-luokkahuone-1cf5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-vaatteet-1dac",
+      "siblings": [
+        "bingo-vaatteet-1dac",
+        "bingo-vaatteet-c9e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-varit-6f88",
+      "siblings": [
+        "bingo-varit-6f88",
+        "bingo-varit-571c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-jalkiruoat-ja-makeiset-5958",
+      "siblings": [
+        "bingo-jalkiruoat-ja-makeiset-5958",
+        "bingo-jalkiruoat-ja-makeiset-92cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-dinosaurukset-62d6",
+      "siblings": [
+        "bingo-dinosaurukset-62d6",
+        "bingo-dinosaurukset-8ae5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-paasiainen-5f2d",
+      "siblings": [
+        "bingo-paasiainen-5f2d",
+        "bingo-paasiainen-e1df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-maatilan-elaimet-0c70",
+      "siblings": [
+        "bingo-maatilan-elaimet-0c70",
+        "bingo-maatilan-elaimet-720f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-kukat-7db0",
+      "siblings": [
+        "bingo-kukat-7db0",
+        "bingo-kukat-e495"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-metsan-elaimet-308e",
+      "siblings": [
+        "bingo-metsan-elaimet-308e",
+        "bingo-metsan-elaimet-2f05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-hedelmat-fb63",
+      "siblings": [
+        "bingo-hedelmat-fb63",
+        "bingo-hedelmat-6397"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-huonekalut-b06f",
+      "siblings": [
+        "bingo-huonekalut-b06f",
+        "bingo-huonekalut-977d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-sairaala-0c50",
+      "siblings": [
+        "bingo-sairaala-0c50",
+        "bingo-sairaala-9c82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-keittiovalineet-9670",
+      "siblings": [
+        "bingo-keittiovalineet-9670",
+        "bingo-keittiovalineet-8c61"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-ammatit-0e45",
+      "siblings": [
+        "bingo-ammatit-0e45",
+        "bingo-ammatit-9a8a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-merielama-8ed2",
+      "siblings": [
+        "bingo-merielama-8ed2",
+        "bingo-merielama-fd5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-lemmikit-c3ac",
+      "siblings": [
+        "bingo-lemmikit-c3ac",
+        "bingo-lemmikit-6ff5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-muodot-9b72",
+      "siblings": [
+        "bingo-muodot-9b72",
+        "bingo-muodot-d99b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-avaruus-3c97",
+      "siblings": [
+        "bingo-avaruus-3c97",
+        "bingo-avaruus-7719"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-kevat-ddce",
+      "siblings": [
+        "bingo-kevat-ddce",
+        "bingo-kevat-6252"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-kesa-1003",
+      "siblings": [
+        "bingo-kesa-1003",
+        "bingo-kesa-fff6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-lentavat-asiat-917f",
+      "siblings": [
+        "bingo-lentavat-asiat-917f",
+        "bingo-lentavat-asiat-0d64"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-lelut-39c4",
+      "siblings": [
+        "bingo-lelut-39c4",
+        "bingo-lelut-0223"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-puut-9435",
+      "siblings": [
+        "bingo-puut-9435",
+        "bingo-puut-f2aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "bingo-vihannekset-edfe",
+      "siblings": [
+        "bingo-vihannekset-edfe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-ajoneuvot-3fc2",
+      "siblings": [
+        "bingo-ajoneuvot-3fc2",
+        "bingo-ajoneuvot-94e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-saa-330d",
+      "siblings": [
+        "bingo-saa-330d",
+        "bingo-saa-fbe5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-talvi-f5da",
+      "siblings": [
+        "bingo-talvi-f5da",
+        "bingo-talvi-8932"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-elaintarhan-elaimet-06d0",
+      "siblings": [
+        "bingo-elaintarhan-elaimet-06d0",
+        "bingo-elaintarhan-elaimet-6066"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "esikoulu"
+    }
+  ]
+}

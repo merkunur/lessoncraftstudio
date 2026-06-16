@@ -1,0 +1,1433 @@
+{
+  "locale": "pt",
+  "exerciseType": "find-and-count",
+  "level": "educacao-infantil",
+  "rawRowCount": 88,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "hidden-object": 42,
+    "letter-spotting": 43
+  },
+  "totalValid": 85,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "hidden-object",
+    "letter-spotting"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "hidden-object",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-acessorios-a321",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-acessorios-a321"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-atividades-cd01",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-atividades-cd01"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-animais-bdd6",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-animais-bdd6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-pela-casa-7cfb",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-pela-casa-7cfb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-no-supermercado-c7d0",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-no-supermercado-c7d0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-padaria-7390",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-padaria-7390"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-praia-0841",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-praia-0841"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-passaros-2-7b73",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-passaros-2-7b73"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-partes-do-corpo-e577",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-partes-do-corpo-e577"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-cafe-da-manha-c299",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-cafe-da-manha-c299"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-acampamento-0275",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-acampamento-0275"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-natal-69f4",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-natal-69f4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-sala-de-aula-d88a",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-sala-de-aula-d88a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-roupas-720c",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-roupas-720c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-cores-f049",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-cores-f049"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: colors has low onset variety",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-sobremesas-e-doces-0345",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-sobremesas-e-doces-0345"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-pascoa-2247",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-pascoa-2247"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-emocoes-c336",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-emocoes-c336"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-animais-da-fazenda-adf7",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-animais-da-fazenda-adf7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-criaturas-da-floresta-c124",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-criaturas-da-floresta-c124"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-frutas-3818",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-frutas-3818"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-moveis-e9ca",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-moveis-e9ca"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-hospital-37e2",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-hospital-37e2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-utensilios-de-cozinha-d6d9",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-utensilios-de-cozinha-d6d9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-musica-c5d4",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-musica-c5d4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-profissoes-403f",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-profissoes-403f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-vida-marinha-6e00",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-vida-marinha-6e00"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-animais-de-estimacao-1e73",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-animais-de-estimacao-1e73"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-correios-3f5f",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-correios-3f5f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-repteis-e-anfibios-033c",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-repteis-e-anfibios-033c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-formas-3845",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-formas-3845"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: shapes has low onset variety",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-espaco-a0b7",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-espaco-a0b7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-primavera-3b34",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-primavera-3b34"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-dia-de-acao-de-gracas-8b45",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-dia-de-acao-de-gracas-8b45"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-coisas-que-voam-0c2a",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-coisas-que-voam-0c2a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-ferramentas-4d0b",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-ferramentas-4d0b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-brinquedos-30c5",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-brinquedos-30c5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-vegetais-0c82",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-vegetais-0c82"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-veiculos-f890",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-veiculos-f890"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-clima-93a2",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-clima-93a2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-inverno-7e5c",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-inverno-7e5c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-objetos-escondidos-animais-do-zoologico-5a21",
+      "siblings": [
+        "encontre-e-conte-objetos-escondidos-animais-do-zoologico-5a21"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-acessorios-aaf8",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-acessorios-aaf8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-atividades-c3ae",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-atividades-c3ae"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-animais",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-animais",
+        "encontre-e-conte-procurar-letras-animais-ec4c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-pela-casa-0cf4",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-pela-casa-0cf4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-no-supermercado-c20c",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-no-supermercado-c20c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-padaria-a3a2",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-padaria-a3a2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-praia-ef71",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-praia-ef71"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-passaros-2-9ba9",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-passaros-2-9ba9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-partes-do-corpo-6f36",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-partes-do-corpo-6f36"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-cafe-da-manha-a158",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-cafe-da-manha-a158"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-acampamento-3ec5",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-acampamento-3ec5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-natal-bf32",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-natal-bf32"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-sala-de-aula-d108",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-sala-de-aula-d108"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-roupas-1847",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-roupas-1847"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-sobremesas-e-doces-728d",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-sobremesas-e-doces-728d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-pascoa-6eff",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-pascoa-6eff"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-emocoes-f05c",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-emocoes-f05c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-animais-da-fazenda-23d0",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-animais-da-fazenda-23d0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-criaturas-da-floresta-63de",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-criaturas-da-floresta-63de"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-frutas-3e21",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-frutas-3e21"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-moveis-9ad6",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-moveis-9ad6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-hospital-aade",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-hospital-aade"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-insetos-e-bichos-04fe",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-insetos-e-bichos-04fe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-utensilios-de-cozinha-1ece",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-utensilios-de-cozinha-1ece"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-musica-eab6",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-musica-eab6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-profissoes-3f17",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-profissoes-3f17"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-vida-marinha-067d",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-vida-marinha-067d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-animais-de-estimacao-5bfa",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-animais-de-estimacao-5bfa"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-correios-ebc2",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-correios-ebc2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-repteis-e-anfibios-5da8",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-repteis-e-anfibios-5da8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-formas-7a73",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-formas-7a73"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: shapes has low onset variety",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-espaco-738e",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-espaco-738e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-primavera-ba20",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-primavera-ba20"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-verao-962b",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-verao-962b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-dia-de-acao-de-gracas-477f",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-dia-de-acao-de-gracas-477f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-coisas-que-voam-4579",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-coisas-que-voam-4579"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-ferramentas-9da2",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-ferramentas-9da2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-brinquedos-ab87",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-brinquedos-ab87"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-vegetais-70dd",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-vegetais-70dd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-veiculos-4af7",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-veiculos-4af7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-clima-38a8",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-clima-38a8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-inverno-7449",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-inverno-7449"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "encontre-e-conte-procurar-letras-animais-do-zoologico-256e",
+      "siblings": [
+        "encontre-e-conte-procurar-letras-animais-do-zoologico-256e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "educacao-infantil"
+    }
+  ]
+}

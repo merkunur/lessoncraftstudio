@@ -1,0 +1,4000 @@
+{
+  "locale": "pt",
+  "exerciseType": "pattern-train",
+  "level": "educacao-infantil",
+  "rawRowCount": 251,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "aab": 49,
+    "aabb": 49,
+    "abb": 49,
+    "abc": 49,
+    "(null)": 49
+  },
+  "totalValid": 245,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "aab",
+    "aabb",
+    "abb",
+    "abc",
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "aab",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-acessorios-d51d",
+      "siblings": [
+        "trem-de-padroes-aab-acessorios-d51d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-atividades-2090",
+      "siblings": [
+        "trem-de-padroes-aab-atividades-2090"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-animais-0fea",
+      "siblings": [
+        "trem-de-padroes-aab-animais-0fea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-pela-casa-9d56",
+      "siblings": [
+        "trem-de-padroes-aab-pela-casa-9d56"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-no-supermercado-2fdf",
+      "siblings": [
+        "trem-de-padroes-aab-no-supermercado-2fdf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-padaria-da17",
+      "siblings": [
+        "trem-de-padroes-aab-padaria-da17"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-praia-2a74",
+      "siblings": [
+        "trem-de-padroes-aab-praia-2a74"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-passaros-d0c6",
+      "siblings": [
+        "trem-de-padroes-aab-passaros-d0c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-passaros-2-474d",
+      "siblings": [
+        "trem-de-padroes-aab-passaros-2-474d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-partes-do-corpo-f3c2",
+      "siblings": [
+        "trem-de-padroes-aab-partes-do-corpo-f3c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-cafe-da-manha-5d55",
+      "siblings": [
+        "trem-de-padroes-aab-cafe-da-manha-5d55"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-acampamento-7b7b",
+      "siblings": [
+        "trem-de-padroes-aab-acampamento-7b7b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-natal-626a",
+      "siblings": [
+        "trem-de-padroes-aab-natal-626a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-sala-de-aula-7766",
+      "siblings": [
+        "trem-de-padroes-aab-sala-de-aula-7766"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-roupas-b68a",
+      "siblings": [
+        "trem-de-padroes-aab-roupas-b68a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-cores-296c",
+      "siblings": [
+        "trem-de-padroes-aab-cores-296c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-sobremesas-e-doces-af14",
+      "siblings": [
+        "trem-de-padroes-aab-sobremesas-e-doces-af14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-dinossauros-f918",
+      "siblings": [
+        "trem-de-padroes-aab-dinossauros-f918"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-pascoa-58a3",
+      "siblings": [
+        "trem-de-padroes-aab-pascoa-58a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-emocoes-874b",
+      "siblings": [
+        "trem-de-padroes-aab-emocoes-874b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-animais-da-fazenda-844d",
+      "siblings": [
+        "trem-de-padroes-aab-animais-da-fazenda-844d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-flores-e5ad",
+      "siblings": [
+        "trem-de-padroes-aab-flores-e5ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-criaturas-da-floresta-d3b7",
+      "siblings": [
+        "trem-de-padroes-aab-criaturas-da-floresta-d3b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-frutas-b9a1",
+      "siblings": [
+        "trem-de-padroes-aab-frutas-b9a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-moveis-7305",
+      "siblings": [
+        "trem-de-padroes-aab-moveis-7305"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-hospital-510c",
+      "siblings": [
+        "trem-de-padroes-aab-hospital-510c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-insetos-e-bichos-3092",
+      "siblings": [
+        "trem-de-padroes-aab-insetos-e-bichos-3092"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-utensilios-de-cozinha-c07d",
+      "siblings": [
+        "trem-de-padroes-aab-utensilios-de-cozinha-c07d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-diversos-e6b2",
+      "siblings": [
+        "trem-de-padroes-aab-diversos-e6b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-musica-5878",
+      "siblings": [
+        "trem-de-padroes-aab-musica-5878"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-profissoes-4d5d",
+      "siblings": [
+        "trem-de-padroes-aab-profissoes-4d5d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-vida-marinha-6126",
+      "siblings": [
+        "trem-de-padroes-aab-vida-marinha-6126"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-animais-de-estimacao-129f",
+      "siblings": [
+        "trem-de-padroes-aab-animais-de-estimacao-129f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-correios-1b8b",
+      "siblings": [
+        "trem-de-padroes-aab-correios-1b8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-repteis-e-anfibios-d5cc",
+      "siblings": [
+        "trem-de-padroes-aab-repteis-e-anfibios-d5cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-formas-7018",
+      "siblings": [
+        "trem-de-padroes-aab-formas-7018"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-espaco-7353",
+      "siblings": [
+        "trem-de-padroes-aab-espaco-7353"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-primavera-12de",
+      "siblings": [
+        "trem-de-padroes-aab-primavera-12de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-verao-e4de",
+      "siblings": [
+        "trem-de-padroes-aab-verao-e4de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-dia-de-acao-de-gracas-b231",
+      "siblings": [
+        "trem-de-padroes-aab-dia-de-acao-de-gracas-b231"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-coisas-que-voam-8d00",
+      "siblings": [
+        "trem-de-padroes-aab-coisas-que-voam-8d00"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-ferramentas-42ce",
+      "siblings": [
+        "trem-de-padroes-aab-ferramentas-42ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-brinquedos-9a1b",
+      "siblings": [
+        "trem-de-padroes-aab-brinquedos-9a1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-arvores-be65",
+      "siblings": [
+        "trem-de-padroes-aab-arvores-be65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-vegetais-15ca",
+      "siblings": [
+        "trem-de-padroes-aab-vegetais-15ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-veiculos-1123",
+      "siblings": [
+        "trem-de-padroes-aab-veiculos-1123"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-clima-1190",
+      "siblings": [
+        "trem-de-padroes-aab-clima-1190"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-inverno-f9b8",
+      "siblings": [
+        "trem-de-padroes-aab-inverno-f9b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aab",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aab-animais-do-zoologico-bb32",
+      "siblings": [
+        "trem-de-padroes-aab-animais-do-zoologico-bb32"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-acessorios-7127",
+      "siblings": [
+        "trem-de-padroes-aabb-acessorios-7127"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-atividades-5ae3",
+      "siblings": [
+        "trem-de-padroes-aabb-atividades-5ae3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-animais-750f",
+      "siblings": [
+        "trem-de-padroes-aabb-animais-750f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-pela-casa-a908",
+      "siblings": [
+        "trem-de-padroes-aabb-pela-casa-a908"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-no-supermercado-fae0",
+      "siblings": [
+        "trem-de-padroes-aabb-no-supermercado-fae0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-padaria-e819",
+      "siblings": [
+        "trem-de-padroes-aabb-padaria-e819"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-praia-bea0",
+      "siblings": [
+        "trem-de-padroes-aabb-praia-bea0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-passaros-b299",
+      "siblings": [
+        "trem-de-padroes-aabb-passaros-b299"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-passaros-2-2bc8",
+      "siblings": [
+        "trem-de-padroes-aabb-passaros-2-2bc8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-partes-do-corpo-3ad0",
+      "siblings": [
+        "trem-de-padroes-aabb-partes-do-corpo-3ad0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-cafe-da-manha-5e61",
+      "siblings": [
+        "trem-de-padroes-aabb-cafe-da-manha-5e61"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-acampamento-1d22",
+      "siblings": [
+        "trem-de-padroes-aabb-acampamento-1d22"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-natal-0fd6",
+      "siblings": [
+        "trem-de-padroes-aabb-natal-0fd6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-sala-de-aula-b3d6",
+      "siblings": [
+        "trem-de-padroes-aabb-sala-de-aula-b3d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-roupas-195c",
+      "siblings": [
+        "trem-de-padroes-aabb-roupas-195c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-cores-927d",
+      "siblings": [
+        "trem-de-padroes-aabb-cores-927d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-sobremesas-e-doces-48c1",
+      "siblings": [
+        "trem-de-padroes-aabb-sobremesas-e-doces-48c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-dinossauros-bead",
+      "siblings": [
+        "trem-de-padroes-aabb-dinossauros-bead"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-pascoa-c2a6",
+      "siblings": [
+        "trem-de-padroes-aabb-pascoa-c2a6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-emocoes-6f5f",
+      "siblings": [
+        "trem-de-padroes-aabb-emocoes-6f5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-animais-da-fazenda-9dda",
+      "siblings": [
+        "trem-de-padroes-aabb-animais-da-fazenda-9dda"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-flores-e90e",
+      "siblings": [
+        "trem-de-padroes-aabb-flores-e90e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-criaturas-da-floresta-d9b2",
+      "siblings": [
+        "trem-de-padroes-aabb-criaturas-da-floresta-d9b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-frutas-0393",
+      "siblings": [
+        "trem-de-padroes-aabb-frutas-0393"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-moveis-2792",
+      "siblings": [
+        "trem-de-padroes-aabb-moveis-2792"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-hospital-ac54",
+      "siblings": [
+        "trem-de-padroes-aabb-hospital-ac54"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-insetos-e-bichos-dc51",
+      "siblings": [
+        "trem-de-padroes-aabb-insetos-e-bichos-dc51"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-utensilios-de-cozinha-1475",
+      "siblings": [
+        "trem-de-padroes-aabb-utensilios-de-cozinha-1475"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-diversos-f8f4",
+      "siblings": [
+        "trem-de-padroes-aabb-diversos-f8f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-musica-c695",
+      "siblings": [
+        "trem-de-padroes-aabb-musica-c695"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-profissoes-d767",
+      "siblings": [
+        "trem-de-padroes-aabb-profissoes-d767"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-vida-marinha-3b64",
+      "siblings": [
+        "trem-de-padroes-aabb-vida-marinha-3b64"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-animais-de-estimacao-dc89",
+      "siblings": [
+        "trem-de-padroes-aabb-animais-de-estimacao-dc89"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-correios-89f1",
+      "siblings": [
+        "trem-de-padroes-aabb-correios-89f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-repteis-e-anfibios-e4c9",
+      "siblings": [
+        "trem-de-padroes-aabb-repteis-e-anfibios-e4c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-formas-defa",
+      "siblings": [
+        "trem-de-padroes-aabb-formas-defa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-espaco-3a3a",
+      "siblings": [
+        "trem-de-padroes-aabb-espaco-3a3a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-primavera-c0bc",
+      "siblings": [
+        "trem-de-padroes-aabb-primavera-c0bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-verao-acba",
+      "siblings": [
+        "trem-de-padroes-aabb-verao-acba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-dia-de-acao-de-gracas-ebe8",
+      "siblings": [
+        "trem-de-padroes-aabb-dia-de-acao-de-gracas-ebe8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-coisas-que-voam-025a",
+      "siblings": [
+        "trem-de-padroes-aabb-coisas-que-voam-025a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-ferramentas-6086",
+      "siblings": [
+        "trem-de-padroes-aabb-ferramentas-6086"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-brinquedos-7af6",
+      "siblings": [
+        "trem-de-padroes-aabb-brinquedos-7af6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-arvores-0b10",
+      "siblings": [
+        "trem-de-padroes-aabb-arvores-0b10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-vegetais-de82",
+      "siblings": [
+        "trem-de-padroes-aabb-vegetais-de82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-veiculos-7b98",
+      "siblings": [
+        "trem-de-padroes-aabb-veiculos-7b98"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-clima-b238",
+      "siblings": [
+        "trem-de-padroes-aabb-clima-b238"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-inverno-c408",
+      "siblings": [
+        "trem-de-padroes-aabb-inverno-c408"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "aabb",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-aabb-animais-do-zoologico-3ea9",
+      "siblings": [
+        "trem-de-padroes-aabb-animais-do-zoologico-3ea9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-acessorios-dc8a",
+      "siblings": [
+        "trem-de-padroes-abb-acessorios-dc8a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-atividades-92c3",
+      "siblings": [
+        "trem-de-padroes-abb-atividades-92c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-animais-9a9a",
+      "siblings": [
+        "trem-de-padroes-abb-animais-9a9a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-pela-casa-5357",
+      "siblings": [
+        "trem-de-padroes-abb-pela-casa-5357"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-no-supermercado-afde",
+      "siblings": [
+        "trem-de-padroes-abb-no-supermercado-afde"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-padaria-ee69",
+      "siblings": [
+        "trem-de-padroes-abb-padaria-ee69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-praia-cdc5",
+      "siblings": [
+        "trem-de-padroes-abb-praia-cdc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-passaros-4f1c",
+      "siblings": [
+        "trem-de-padroes-abb-passaros-4f1c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-passaros-2-cb96",
+      "siblings": [
+        "trem-de-padroes-abb-passaros-2-cb96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-partes-do-corpo-adc7",
+      "siblings": [
+        "trem-de-padroes-abb-partes-do-corpo-adc7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-cafe-da-manha-eb12",
+      "siblings": [
+        "trem-de-padroes-abb-cafe-da-manha-eb12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-acampamento-9ca1",
+      "siblings": [
+        "trem-de-padroes-abb-acampamento-9ca1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-natal-7ec0",
+      "siblings": [
+        "trem-de-padroes-abb-natal-7ec0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-sala-de-aula-166a",
+      "siblings": [
+        "trem-de-padroes-abb-sala-de-aula-166a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-roupas-fe29",
+      "siblings": [
+        "trem-de-padroes-abb-roupas-fe29"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-cores-ee63",
+      "siblings": [
+        "trem-de-padroes-abb-cores-ee63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-sobremesas-e-doces-f5b0",
+      "siblings": [
+        "trem-de-padroes-abb-sobremesas-e-doces-f5b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-dinossauros-a146",
+      "siblings": [
+        "trem-de-padroes-abb-dinossauros-a146"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-pascoa-2720",
+      "siblings": [
+        "trem-de-padroes-abb-pascoa-2720"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-emocoes-3955",
+      "siblings": [
+        "trem-de-padroes-abb-emocoes-3955"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-animais-da-fazenda-5563",
+      "siblings": [
+        "trem-de-padroes-abb-animais-da-fazenda-5563"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-flores-0104",
+      "siblings": [
+        "trem-de-padroes-abb-flores-0104"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-criaturas-da-floresta-1d6a",
+      "siblings": [
+        "trem-de-padroes-abb-criaturas-da-floresta-1d6a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-frutas-b20c",
+      "siblings": [
+        "trem-de-padroes-abb-frutas-b20c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-moveis-4f84",
+      "siblings": [
+        "trem-de-padroes-abb-moveis-4f84"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-hospital-9009",
+      "siblings": [
+        "trem-de-padroes-abb-hospital-9009"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-insetos-e-bichos-226e",
+      "siblings": [
+        "trem-de-padroes-abb-insetos-e-bichos-226e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-utensilios-de-cozinha-e2bb",
+      "siblings": [
+        "trem-de-padroes-abb-utensilios-de-cozinha-e2bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-diversos-54fd",
+      "siblings": [
+        "trem-de-padroes-abb-diversos-54fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-musica-5c1f",
+      "siblings": [
+        "trem-de-padroes-abb-musica-5c1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-profissoes-0992",
+      "siblings": [
+        "trem-de-padroes-abb-profissoes-0992"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-vida-marinha-df6b",
+      "siblings": [
+        "trem-de-padroes-abb-vida-marinha-df6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-animais-de-estimacao-307d",
+      "siblings": [
+        "trem-de-padroes-abb-animais-de-estimacao-307d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-correios-7958",
+      "siblings": [
+        "trem-de-padroes-abb-correios-7958"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-repteis-e-anfibios-7da7",
+      "siblings": [
+        "trem-de-padroes-abb-repteis-e-anfibios-7da7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-formas-721c",
+      "siblings": [
+        "trem-de-padroes-abb-formas-721c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-espaco-42f2",
+      "siblings": [
+        "trem-de-padroes-abb-espaco-42f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-primavera-ce3b",
+      "siblings": [
+        "trem-de-padroes-abb-primavera-ce3b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-verao-ec90",
+      "siblings": [
+        "trem-de-padroes-abb-verao-ec90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-dia-de-acao-de-gracas-e7fc",
+      "siblings": [
+        "trem-de-padroes-abb-dia-de-acao-de-gracas-e7fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-coisas-que-voam-a4b0",
+      "siblings": [
+        "trem-de-padroes-abb-coisas-que-voam-a4b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-ferramentas-8eb7",
+      "siblings": [
+        "trem-de-padroes-abb-ferramentas-8eb7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-brinquedos-1f19",
+      "siblings": [
+        "trem-de-padroes-abb-brinquedos-1f19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-arvores-7497",
+      "siblings": [
+        "trem-de-padroes-abb-arvores-7497"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-vegetais-7132",
+      "siblings": [
+        "trem-de-padroes-abb-vegetais-7132"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-veiculos-63bc",
+      "siblings": [
+        "trem-de-padroes-abb-veiculos-63bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-clima-4fdd",
+      "siblings": [
+        "trem-de-padroes-abb-clima-4fdd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-inverno-7085",
+      "siblings": [
+        "trem-de-padroes-abb-inverno-7085"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abb",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abb-animais-do-zoologico-d30c",
+      "siblings": [
+        "trem-de-padroes-abb-animais-do-zoologico-d30c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-acessorios-5cea",
+      "siblings": [
+        "trem-de-padroes-abc-acessorios-5cea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-atividades-97b0",
+      "siblings": [
+        "trem-de-padroes-abc-atividades-97b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-animais-da2c",
+      "siblings": [
+        "trem-de-padroes-abc-animais-da2c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-pela-casa-0a11",
+      "siblings": [
+        "trem-de-padroes-abc-pela-casa-0a11"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-no-supermercado-4bff",
+      "siblings": [
+        "trem-de-padroes-abc-no-supermercado-4bff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-padaria-3b22",
+      "siblings": [
+        "trem-de-padroes-abc-padaria-3b22"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-praia-072d",
+      "siblings": [
+        "trem-de-padroes-abc-praia-072d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-passaros-e03e",
+      "siblings": [
+        "trem-de-padroes-abc-passaros-e03e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-passaros-2-8d19",
+      "siblings": [
+        "trem-de-padroes-abc-passaros-2-8d19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-partes-do-corpo-6b66",
+      "siblings": [
+        "trem-de-padroes-abc-partes-do-corpo-6b66"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-cafe-da-manha-39a5",
+      "siblings": [
+        "trem-de-padroes-abc-cafe-da-manha-39a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-acampamento-181a",
+      "siblings": [
+        "trem-de-padroes-abc-acampamento-181a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-natal-1dda",
+      "siblings": [
+        "trem-de-padroes-abc-natal-1dda"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-sala-de-aula-11cb",
+      "siblings": [
+        "trem-de-padroes-abc-sala-de-aula-11cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-roupas-e3d3",
+      "siblings": [
+        "trem-de-padroes-abc-roupas-e3d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-cores-c077",
+      "siblings": [
+        "trem-de-padroes-abc-cores-c077"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-sobremesas-e-doces-f370",
+      "siblings": [
+        "trem-de-padroes-abc-sobremesas-e-doces-f370"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-dinossauros-532c",
+      "siblings": [
+        "trem-de-padroes-abc-dinossauros-532c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-pascoa-4138",
+      "siblings": [
+        "trem-de-padroes-abc-pascoa-4138"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-emocoes-c0ef",
+      "siblings": [
+        "trem-de-padroes-abc-emocoes-c0ef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-animais-da-fazenda-9c19",
+      "siblings": [
+        "trem-de-padroes-abc-animais-da-fazenda-9c19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-flores-286b",
+      "siblings": [
+        "trem-de-padroes-abc-flores-286b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-criaturas-da-floresta-2133",
+      "siblings": [
+        "trem-de-padroes-abc-criaturas-da-floresta-2133"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-frutas-674b",
+      "siblings": [
+        "trem-de-padroes-abc-frutas-674b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-moveis-6208",
+      "siblings": [
+        "trem-de-padroes-abc-moveis-6208"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-hospital-ebd5",
+      "siblings": [
+        "trem-de-padroes-abc-hospital-ebd5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-insetos-e-bichos-7cf9",
+      "siblings": [
+        "trem-de-padroes-abc-insetos-e-bichos-7cf9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-utensilios-de-cozinha-0ab8",
+      "siblings": [
+        "trem-de-padroes-abc-utensilios-de-cozinha-0ab8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-diversos-8078",
+      "siblings": [
+        "trem-de-padroes-abc-diversos-8078"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-musica-1c75",
+      "siblings": [
+        "trem-de-padroes-abc-musica-1c75"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-profissoes-6285",
+      "siblings": [
+        "trem-de-padroes-abc-profissoes-6285"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-vida-marinha-24a8",
+      "siblings": [
+        "trem-de-padroes-abc-vida-marinha-24a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-animais-de-estimacao-a1ac",
+      "siblings": [
+        "trem-de-padroes-abc-animais-de-estimacao-a1ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-correios-3e84",
+      "siblings": [
+        "trem-de-padroes-abc-correios-3e84"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-repteis-e-anfibios-f6eb",
+      "siblings": [
+        "trem-de-padroes-abc-repteis-e-anfibios-f6eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-formas-9475",
+      "siblings": [
+        "trem-de-padroes-abc-formas-9475"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-espaco-5baa",
+      "siblings": [
+        "trem-de-padroes-abc-espaco-5baa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-primavera-9944",
+      "siblings": [
+        "trem-de-padroes-abc-primavera-9944"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-verao-cdfe",
+      "siblings": [
+        "trem-de-padroes-abc-verao-cdfe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-dia-de-acao-de-gracas-dc71",
+      "siblings": [
+        "trem-de-padroes-abc-dia-de-acao-de-gracas-dc71"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-coisas-que-voam-ba6f",
+      "siblings": [
+        "trem-de-padroes-abc-coisas-que-voam-ba6f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-ferramentas-0121",
+      "siblings": [
+        "trem-de-padroes-abc-ferramentas-0121"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-brinquedos-6dc9",
+      "siblings": [
+        "trem-de-padroes-abc-brinquedos-6dc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-arvores-e450",
+      "siblings": [
+        "trem-de-padroes-abc-arvores-e450"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-vegetais-e76d",
+      "siblings": [
+        "trem-de-padroes-abc-vegetais-e76d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-veiculos-e48f",
+      "siblings": [
+        "trem-de-padroes-abc-veiculos-e48f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-clima-4187",
+      "siblings": [
+        "trem-de-padroes-abc-clima-4187"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-inverno-eae3",
+      "siblings": [
+        "trem-de-padroes-abc-inverno-eae3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "abc",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-abc-animais-do-zoologico-7727",
+      "siblings": [
+        "trem-de-padroes-abc-animais-do-zoologico-7727"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-acessorios-015b",
+      "siblings": [
+        "trem-de-padroes-acessorios-015b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-atividades-c637",
+      "siblings": [
+        "trem-de-padroes-atividades-c637"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-animais-020c",
+      "siblings": [
+        "trem-de-padroes-animais-020c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-pela-casa-4e9f",
+      "siblings": [
+        "trem-de-padroes-pela-casa-4e9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-no-supermercado-b294",
+      "siblings": [
+        "trem-de-padroes-no-supermercado-b294"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-padaria-33fe",
+      "siblings": [
+        "trem-de-padroes-padaria-33fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-praia-925f",
+      "siblings": [
+        "trem-de-padroes-praia-925f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-passaros-4730",
+      "siblings": [
+        "trem-de-padroes-passaros-4730"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-passaros-2-0727",
+      "siblings": [
+        "trem-de-padroes-passaros-2-0727"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-partes-do-corpo-9af2",
+      "siblings": [
+        "trem-de-padroes-partes-do-corpo-9af2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-cafe-da-manha-f203",
+      "siblings": [
+        "trem-de-padroes-cafe-da-manha-f203"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-acampamento-2e90",
+      "siblings": [
+        "trem-de-padroes-acampamento-2e90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-natal-0535",
+      "siblings": [
+        "trem-de-padroes-natal-0535"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-sala-de-aula-4a4d",
+      "siblings": [
+        "trem-de-padroes-sala-de-aula-4a4d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-roupas-5182",
+      "siblings": [
+        "trem-de-padroes-roupas-5182"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-cores-995a",
+      "siblings": [
+        "trem-de-padroes-cores-995a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-sobremesas-e-doces-534c",
+      "siblings": [
+        "trem-de-padroes-sobremesas-e-doces-534c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-dinossauros-be2d",
+      "siblings": [
+        "trem-de-padroes-dinossauros-be2d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-pascoa-5976",
+      "siblings": [
+        "trem-de-padroes-pascoa-5976"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-emocoes-868d",
+      "siblings": [
+        "trem-de-padroes-emocoes-868d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-animais-da-fazenda-4374",
+      "siblings": [
+        "trem-de-padroes-animais-da-fazenda-4374"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-flores-0e81",
+      "siblings": [
+        "trem-de-padroes-flores-0e81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-criaturas-da-floresta-5300",
+      "siblings": [
+        "trem-de-padroes-criaturas-da-floresta-5300"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-frutas-2976",
+      "siblings": [
+        "trem-de-padroes-frutas-2976"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-moveis-d7a6",
+      "siblings": [
+        "trem-de-padroes-moveis-d7a6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-hospital-8610",
+      "siblings": [
+        "trem-de-padroes-hospital-8610"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-insetos-e-bichos-f076",
+      "siblings": [
+        "trem-de-padroes-insetos-e-bichos-f076"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-utensilios-de-cozinha-41ed",
+      "siblings": [
+        "trem-de-padroes-utensilios-de-cozinha-41ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-diversos-5479",
+      "siblings": [
+        "trem-de-padroes-diversos-5479"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-musica-4278",
+      "siblings": [
+        "trem-de-padroes-musica-4278"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-profissoes-1856",
+      "siblings": [
+        "trem-de-padroes-profissoes-1856"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-vida-marinha-5a90",
+      "siblings": [
+        "trem-de-padroes-vida-marinha-5a90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-animais-de-estimacao-d613",
+      "siblings": [
+        "trem-de-padroes-animais-de-estimacao-d613"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-correios-bbb4",
+      "siblings": [
+        "trem-de-padroes-correios-bbb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-repteis-e-anfibios-23ce",
+      "siblings": [
+        "trem-de-padroes-repteis-e-anfibios-23ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-formas-a0c9",
+      "siblings": [
+        "trem-de-padroes-formas-a0c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-espaco-815f",
+      "siblings": [
+        "trem-de-padroes-espaco-815f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-primavera-6b21",
+      "siblings": [
+        "trem-de-padroes-primavera-6b21"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-verao-e442",
+      "siblings": [
+        "trem-de-padroes-verao-e442"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-dia-de-acao-de-gracas-bf20",
+      "siblings": [
+        "trem-de-padroes-dia-de-acao-de-gracas-bf20"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-coisas-que-voam-8f68",
+      "siblings": [
+        "trem-de-padroes-coisas-que-voam-8f68"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-ferramentas-141a",
+      "siblings": [
+        "trem-de-padroes-ferramentas-141a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-brinquedos-8822",
+      "siblings": [
+        "trem-de-padroes-brinquedos-8822"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-arvores-2723",
+      "siblings": [
+        "trem-de-padroes-arvores-2723"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-vegetais-f652",
+      "siblings": [
+        "trem-de-padroes-vegetais-f652"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-veiculos-0813",
+      "siblings": [
+        "trem-de-padroes-veiculos-0813"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-clima-1adb",
+      "siblings": [
+        "trem-de-padroes-clima-1adb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-inverno-133d",
+      "siblings": [
+        "trem-de-padroes-inverno-133d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "trem-de-padroes-animais-do-zoologico-74f4",
+      "siblings": [
+        "trem-de-padroes-animais-do-zoologico-74f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "educacao-infantil"
+    }
+  ]
+}

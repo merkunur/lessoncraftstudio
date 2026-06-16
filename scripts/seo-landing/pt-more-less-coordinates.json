@@ -1,0 +1,2067 @@
+{
+  "locale": "pt",
+  "exerciseType": "more-less",
+  "level": "educacao-infantil",
+  "rawRowCount": 150,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "check-cross": 49,
+    "image-image": 48,
+    "image-number": 49
+  },
+  "totalValid": 122,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "check-cross",
+    "image-image",
+    "image-number"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [
+    "check-cross/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "check-cross/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "check-cross/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "check-cross/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "check-cross/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "check-cross/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "check-cross/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "check-cross/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)",
+    "image-image/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "image-image/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "image-image/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "image-image/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "image-image/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "image-image/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "image-image/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "image-image/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)",
+    "image-number/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "image-number/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "image-number/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "image-number/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "image-number/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "image-number/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "image-number/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "image-number/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "check-cross",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-acessorios-69be",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-acessorios-69be"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-animais-a24f",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-animais-a24f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-pela-casa-4376",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-pela-casa-4376"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-no-supermercado-4794",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-no-supermercado-4794"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-padaria-81ee",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-padaria-81ee"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-praia-2308",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-praia-2308"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-passaros-cc0c",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-passaros-cc0c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-passaros-2-7d32",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-passaros-2-7d32"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-cafe-da-manha-f268",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-cafe-da-manha-f268"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-acampamento-a7f5",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-acampamento-a7f5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-natal-48c5",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-natal-48c5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-sala-de-aula-57d7",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-sala-de-aula-57d7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-roupas-f0df",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-roupas-f0df"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-sobremesas-e-doces-9f8b",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-sobremesas-e-doces-9f8b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-dinossauros-4524",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-dinossauros-4524"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-pascoa-15cf",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-pascoa-15cf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-animais-da-fazenda-7aca",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-animais-da-fazenda-7aca"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-flores-5579",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-flores-5579"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-criaturas-da-floresta-0ffa",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-criaturas-da-floresta-0ffa"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-frutas-e388",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-frutas-e388"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-moveis-9ded",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-moveis-9ded"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-hospital-d0ed",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-hospital-d0ed"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-insetos-e-bichos-0f01",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-insetos-e-bichos-0f01"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-utensilios-de-cozinha-f27a",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-utensilios-de-cozinha-f27a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-diversos-f6c6",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-diversos-f6c6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-musica-3989",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-musica-3989"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-profissoes-5ccb",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-profissoes-5ccb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-vida-marinha-5cb4",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-vida-marinha-5cb4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-animais-de-estimacao-3e55",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-animais-de-estimacao-3e55"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-correios-f8fe",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-correios-f8fe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-repteis-e-anfibios-30c5",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-repteis-e-anfibios-30c5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-formas-4cf9",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-formas-4cf9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-espaco-de24",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-espaco-de24"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-dia-de-acao-de-gracas-7ac7",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-dia-de-acao-de-gracas-7ac7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-coisas-que-voam-a825",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-coisas-que-voam-a825"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-ferramentas-83ba",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-ferramentas-83ba"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-brinquedos-f9eb",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-brinquedos-f9eb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-arvores-6dcf",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-arvores-6dcf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-vegetais-87ab",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-vegetais-87ab"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-veiculos-de36",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-veiculos-de36"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-marque-e-risque-grupos-animais-do-zoologico-3c17",
+      "siblings": [
+        "mais-ou-menos-marque-e-risque-grupos-animais-do-zoologico-3c17"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-acessorios-6f0b",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-acessorios-6f0b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-animais-fae3",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-animais-fae3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-pela-casa-f5cc",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-pela-casa-f5cc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-no-supermercado-8682",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-no-supermercado-8682"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-padaria-d3ba",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-padaria-d3ba"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-praia-39d2",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-praia-39d2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-passaros-703b",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-passaros-703b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-passaros-2-ba90",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-passaros-2-ba90"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-acampamento-96c8",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-acampamento-96c8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-natal-8569",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-natal-8569"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-sala-de-aula-eb3f",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-sala-de-aula-eb3f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-roupas-ec43",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-roupas-ec43"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-sobremesas-e-doces-0a68",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-sobremesas-e-doces-0a68"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-dinossauros-03b3",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-dinossauros-03b3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-pascoa-1e07",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-pascoa-1e07"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-animais-da-fazenda-5364",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-animais-da-fazenda-5364"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-flores-7c94",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-flores-7c94"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-criaturas-da-floresta-b220",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-criaturas-da-floresta-b220"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-frutas-2542",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-frutas-2542"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-moveis-ebd9",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-moveis-ebd9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-hospital-2b69",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-hospital-2b69"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-insetos-e-bichos-6930",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-insetos-e-bichos-6930"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-utensilios-de-cozinha-7453",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-utensilios-de-cozinha-7453"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-diversos-efe0",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-diversos-efe0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-musica-8769",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-musica-8769"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-profissoes-9bc2",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-profissoes-9bc2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-vida-marinha-1c7b",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-vida-marinha-1c7b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-animais-de-estimacao-7571",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-animais-de-estimacao-7571"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-correios-d397",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-correios-d397"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-repteis-e-anfibios-2f99",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-repteis-e-anfibios-2f99"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-formas-421e",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-formas-421e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-espaco-6388",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-espaco-6388"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-dia-de-acao-de-gracas-b884",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-dia-de-acao-de-gracas-b884"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-coisas-que-voam-782e",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-coisas-que-voam-782e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-ferramentas-3659",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-ferramentas-3659"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-brinquedos-df90",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-brinquedos-df90"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-arvores-2f5b",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-arvores-2f5b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-vegetais-61ab",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-vegetais-61ab"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-veiculos-bf8b",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-veiculos-bf8b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-image",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-imagem-animais-do-zoologico-2a90",
+      "siblings": [
+        "mais-ou-menos-imagem-imagem-animais-do-zoologico-2a90"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-acessorios-5d1a",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-acessorios-5d1a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-animais-31c2",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-animais-31c2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-pela-casa-41bf",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-pela-casa-41bf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-no-supermercado-8f32",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-no-supermercado-8f32"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-padaria-ac56",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-padaria-ac56"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-praia-2cf4",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-praia-2cf4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-passaros-1ae3",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-passaros-1ae3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-passaros-2-41e1",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-passaros-2-41e1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-cafe-da-manha-4e24",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-cafe-da-manha-4e24"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-acampamento-43ed",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-acampamento-43ed"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-natal-bf7d",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-natal-bf7d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-sala-de-aula-1d36",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-sala-de-aula-1d36"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-roupas-2e40",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-roupas-2e40"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-sobremesas-e-doces-13c7",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-sobremesas-e-doces-13c7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-dinossauros-7f61",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-dinossauros-7f61"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-pascoa-87e7",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-pascoa-87e7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-animais-da-fazenda-716f",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-animais-da-fazenda-716f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-flores-8f6f",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-flores-8f6f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-criaturas-da-floresta-bbf0",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-criaturas-da-floresta-bbf0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-frutas-7c0e",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-frutas-7c0e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-moveis-8509",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-moveis-8509"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-hospital-14d1",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-hospital-14d1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-insetos-e-bichos-4dbe",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-insetos-e-bichos-4dbe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-utensilios-de-cozinha-b47a",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-utensilios-de-cozinha-b47a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-diversos-4711",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-diversos-4711"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-musica-52bf",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-musica-52bf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-profissoes-b64a",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-profissoes-b64a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-vida-marinha-d09c",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-vida-marinha-d09c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-animais-de-estimacao-9987",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-animais-de-estimacao-9987"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-correios-aaf9",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-correios-aaf9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-repteis-e-anfibios-2942",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-repteis-e-anfibios-2942"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-formas-4536",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-formas-4536"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-espaco-c685",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-espaco-c685"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-dia-de-acao-de-gracas-e626",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-dia-de-acao-de-gracas-e626"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-coisas-que-voam-dbde",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-coisas-que-voam-dbde"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-ferramentas-3a99",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-ferramentas-3a99"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-brinquedos-4139",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-brinquedos-4139"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-arvores-59e3",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-arvores-59e3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-vegetais-a98a",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-vegetais-a98a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-veiculos-c5a8",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-veiculos-c5a8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "mais-ou-menos-imagem-numero-animais-do-zoologico-aa26",
+      "siblings": [
+        "mais-ou-menos-imagem-numero-animais-do-zoologico-aa26"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "educacao-infantil"
+    }
+  ]
+}

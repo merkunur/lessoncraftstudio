@@ -1,0 +1,1451 @@
+{
+  "locale": "fi",
+  "exerciseType": "word-scramble",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 95,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 46,
+    "normal": 46
+  },
+  "totalValid": 92,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "normal"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-asusteet-b5a5",
+      "siblings": [
+        "kirjainsekoitus-helppo-asusteet-b5a5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-aktiviteetit-3563",
+      "siblings": [
+        "kirjainsekoitus-helppo-aktiviteetit-3563"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-elaimet-8154",
+      "siblings": [
+        "kirjainsekoitus-helppo-elaimet-8154"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-kodin-ymparilla-baa3",
+      "siblings": [
+        "kirjainsekoitus-helppo-kodin-ymparilla-baa3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-ruokakaupassa-0c7d",
+      "siblings": [
+        "kirjainsekoitus-helppo-ruokakaupassa-0c7d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-leipomo-0641",
+      "siblings": [
+        "kirjainsekoitus-helppo-leipomo-0641"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-ranta-fbbf",
+      "siblings": [
+        "kirjainsekoitus-helppo-ranta-fbbf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-linnut-ee23",
+      "siblings": [
+        "kirjainsekoitus-helppo-linnut-ee23"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-ruumiinosat-010e",
+      "siblings": [
+        "kirjainsekoitus-helppo-ruumiinosat-010e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-aamiainen-6cfb",
+      "siblings": [
+        "kirjainsekoitus-helppo-aamiainen-6cfb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-leirielama-4e5d",
+      "siblings": [
+        "kirjainsekoitus-helppo-leirielama-4e5d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-joulu-d8b4",
+      "siblings": [
+        "kirjainsekoitus-helppo-joulu-d8b4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-luokkahuone-02b0",
+      "siblings": [
+        "kirjainsekoitus-helppo-luokkahuone-02b0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-vaatteet-abfc",
+      "siblings": [
+        "kirjainsekoitus-helppo-vaatteet-abfc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-varit-814f",
+      "siblings": [
+        "kirjainsekoitus-helppo-varit-814f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-jalkiruoat-ja-makeiset-ae48",
+      "siblings": [
+        "kirjainsekoitus-helppo-jalkiruoat-ja-makeiset-ae48"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-paasiainen-9a27",
+      "siblings": [
+        "kirjainsekoitus-helppo-paasiainen-9a27"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-tunteet-a4e1",
+      "siblings": [
+        "kirjainsekoitus-helppo-tunteet-a4e1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-maatilan-elaimet-b80e",
+      "siblings": [
+        "kirjainsekoitus-helppo-maatilan-elaimet-b80e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-kukat-6da3",
+      "siblings": [
+        "kirjainsekoitus-helppo-kukat-6da3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-metsan-elaimet-e4a9",
+      "siblings": [
+        "kirjainsekoitus-helppo-metsan-elaimet-e4a9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-hedelmat-20e9",
+      "siblings": [
+        "kirjainsekoitus-helppo-hedelmat-20e9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-huonekalut-1ef0",
+      "siblings": [
+        "kirjainsekoitus-helppo-huonekalut-1ef0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-sairaala-8019",
+      "siblings": [
+        "kirjainsekoitus-helppo-sairaala-8019"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-hyonteiset-ja-otokat-f05d",
+      "siblings": [
+        "kirjainsekoitus-helppo-hyonteiset-ja-otokat-f05d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-keittiovalineet-e2f7",
+      "siblings": [
+        "kirjainsekoitus-helppo-keittiovalineet-e2f7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-musiikki-332a",
+      "siblings": [
+        "kirjainsekoitus-helppo-musiikki-332a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-ammatit-4275",
+      "siblings": [
+        "kirjainsekoitus-helppo-ammatit-4275"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-merielama-7159",
+      "siblings": [
+        "kirjainsekoitus-helppo-merielama-7159"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-lemmikit-0000",
+      "siblings": [
+        "kirjainsekoitus-helppo-lemmikit-0000"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-postitoimisto-0990",
+      "siblings": [
+        "kirjainsekoitus-helppo-postitoimisto-0990"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-matelijat-ja-sammakkoelaimet-0939",
+      "siblings": [
+        "kirjainsekoitus-helppo-matelijat-ja-sammakkoelaimet-0939"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-muodot-97bf",
+      "siblings": [
+        "kirjainsekoitus-helppo-muodot-97bf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-avaruus-8160",
+      "siblings": [
+        "kirjainsekoitus-helppo-avaruus-8160"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-kevat-e661",
+      "siblings": [
+        "kirjainsekoitus-helppo-kevat-e661"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-kesa-7aff",
+      "siblings": [
+        "kirjainsekoitus-helppo-kesa-7aff"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-kiitospaiva-2401",
+      "siblings": [
+        "kirjainsekoitus-helppo-kiitospaiva-2401"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-lentavat-asiat-78ad",
+      "siblings": [
+        "kirjainsekoitus-helppo-lentavat-asiat-78ad"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-tyokalut-c81a",
+      "siblings": [
+        "kirjainsekoitus-helppo-tyokalut-c81a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-lelut-a7d6",
+      "siblings": [
+        "kirjainsekoitus-helppo-lelut-a7d6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-puut-31c0",
+      "siblings": [
+        "kirjainsekoitus-helppo-puut-31c0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-vihannekset-1e78",
+      "siblings": [
+        "kirjainsekoitus-helppo-vihannekset-1e78"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-ajoneuvot-e994",
+      "siblings": [
+        "kirjainsekoitus-helppo-ajoneuvot-e994"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-saa-c8a4",
+      "siblings": [
+        "kirjainsekoitus-helppo-saa-c8a4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-talvi-098a",
+      "siblings": [
+        "kirjainsekoitus-helppo-talvi-098a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-helppo-elaintarhan-elaimet-6560",
+      "siblings": [
+        "kirjainsekoitus-helppo-elaintarhan-elaimet-6560"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-asusteet-a397",
+      "siblings": [
+        "kirjainsekoitus-normaali-asusteet-a397"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-aktiviteetit-135a",
+      "siblings": [
+        "kirjainsekoitus-normaali-aktiviteetit-135a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-elaimet-826f",
+      "siblings": [
+        "kirjainsekoitus-normaali-elaimet-826f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-kodin-ymparilla-5be9",
+      "siblings": [
+        "kirjainsekoitus-normaali-kodin-ymparilla-5be9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-ruokakaupassa-d8c3",
+      "siblings": [
+        "kirjainsekoitus-normaali-ruokakaupassa-d8c3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-leipomo-f0f1",
+      "siblings": [
+        "kirjainsekoitus-normaali-leipomo-f0f1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-ranta-31ca",
+      "siblings": [
+        "kirjainsekoitus-normaali-ranta-31ca"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-linnut-0cc0",
+      "siblings": [
+        "kirjainsekoitus-normaali-linnut-0cc0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-ruumiinosat-db4e",
+      "siblings": [
+        "kirjainsekoitus-normaali-ruumiinosat-db4e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-aamiainen-87d7",
+      "siblings": [
+        "kirjainsekoitus-normaali-aamiainen-87d7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-leirielama-ec49",
+      "siblings": [
+        "kirjainsekoitus-normaali-leirielama-ec49"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-joulu-b490",
+      "siblings": [
+        "kirjainsekoitus-normaali-joulu-b490"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-luokkahuone-e07d",
+      "siblings": [
+        "kirjainsekoitus-normaali-luokkahuone-e07d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-vaatteet-97af",
+      "siblings": [
+        "kirjainsekoitus-normaali-vaatteet-97af"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-varit-e5c2",
+      "siblings": [
+        "kirjainsekoitus-normaali-varit-e5c2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-jalkiruoat-ja-makeiset-7605",
+      "siblings": [
+        "kirjainsekoitus-normaali-jalkiruoat-ja-makeiset-7605"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-paasiainen-fa30",
+      "siblings": [
+        "kirjainsekoitus-normaali-paasiainen-fa30"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-tunteet-b40a",
+      "siblings": [
+        "kirjainsekoitus-normaali-tunteet-b40a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-maatilan-elaimet-ec31",
+      "siblings": [
+        "kirjainsekoitus-normaali-maatilan-elaimet-ec31"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-kukat-547c",
+      "siblings": [
+        "kirjainsekoitus-normaali-kukat-547c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-metsan-elaimet-839b",
+      "siblings": [
+        "kirjainsekoitus-normaali-metsan-elaimet-839b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-hedelmat-6d52",
+      "siblings": [
+        "kirjainsekoitus-normaali-hedelmat-6d52"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-huonekalut-5b5e",
+      "siblings": [
+        "kirjainsekoitus-normaali-huonekalut-5b5e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-sairaala-ba58",
+      "siblings": [
+        "kirjainsekoitus-normaali-sairaala-ba58"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-hyonteiset-ja-otokat-b786",
+      "siblings": [
+        "kirjainsekoitus-normaali-hyonteiset-ja-otokat-b786"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-keittiovalineet-00b7",
+      "siblings": [
+        "kirjainsekoitus-normaali-keittiovalineet-00b7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-musiikki-6300",
+      "siblings": [
+        "kirjainsekoitus-normaali-musiikki-6300"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-ammatit-3a16",
+      "siblings": [
+        "kirjainsekoitus-normaali-ammatit-3a16"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-merielama-1e87",
+      "siblings": [
+        "kirjainsekoitus-normaali-merielama-1e87"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-lemmikit-c237",
+      "siblings": [
+        "kirjainsekoitus-normaali-lemmikit-c237"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-postitoimisto-4e9a",
+      "siblings": [
+        "kirjainsekoitus-normaali-postitoimisto-4e9a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-matelijat-ja-sammakkoelaimet-02ea",
+      "siblings": [
+        "kirjainsekoitus-normaali-matelijat-ja-sammakkoelaimet-02ea"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-muodot-40e0",
+      "siblings": [
+        "kirjainsekoitus-normaali-muodot-40e0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-avaruus-72c9",
+      "siblings": [
+        "kirjainsekoitus-normaali-avaruus-72c9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-kevat-6cbc",
+      "siblings": [
+        "kirjainsekoitus-normaali-kevat-6cbc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-kesa-fb31",
+      "siblings": [
+        "kirjainsekoitus-normaali-kesa-fb31"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-kiitospaiva-a37c",
+      "siblings": [
+        "kirjainsekoitus-normaali-kiitospaiva-a37c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-lentavat-asiat-a5e1",
+      "siblings": [
+        "kirjainsekoitus-normaali-lentavat-asiat-a5e1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-tyokalut-8073",
+      "siblings": [
+        "kirjainsekoitus-normaali-tyokalut-8073"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-lelut-e6c6",
+      "siblings": [
+        "kirjainsekoitus-normaali-lelut-e6c6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-puut-34c5",
+      "siblings": [
+        "kirjainsekoitus-normaali-puut-34c5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-vihannekset-cb28",
+      "siblings": [
+        "kirjainsekoitus-normaali-vihannekset-cb28"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-ajoneuvot-074f",
+      "siblings": [
+        "kirjainsekoitus-normaali-ajoneuvot-074f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-saa-43dd",
+      "siblings": [
+        "kirjainsekoitus-normaali-saa-43dd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-talvi-dae4",
+      "siblings": [
+        "kirjainsekoitus-normaali-talvi-dae4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "kirjainsekoitus-normaali-elaintarhan-elaimet-a32e",
+      "siblings": [
+        "kirjainsekoitus-normaali-elaintarhan-elaimet-a32e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

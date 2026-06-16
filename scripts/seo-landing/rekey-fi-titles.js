@@ -90,9 +90,9 @@ const TYPE_MAP = {
   // literacy
   'alphabet-train':{ op: 'Aakkosjuna', qual: {} },
   matching:        { op: { letter: 'Alkuäänne ja kirjain', name: 'Lue ja yhdistä' }, qual: {} },
-  prepositions:    { op: 'Prepositiot', qual: {} },
-  'word-guess':    { op: 'Arvaa sana', qual: {} },
-  'word-scramble': { op: 'Kirjainsekoitus', qual: {} },
+  prepositions:    { op: 'Prepositiot', qual: { multiplechoice: 'valitse oikea', fillin: 'kirjoita sana' } },
+  'word-guess':    { op: 'Arvaa sana', qual: { easy: 'helpot sanat', normal: 'haastavammat sanat' } },
+  'word-scramble': { op: 'Kirjainsekoitus', qual: { easy: 'helpot sanat', normal: 'haastavammat sanat' } },
   wordsearch:      { op: 'Sanahaku', qual: {} },
   crossword:       { op: 'Kuvaristikko', qual: {} },
   'treasure-hunt': { op: 'Aarteenetsintä', qual: { 'cardinal-arrows': 'nuolilla', compass: 'kompassilla' } },

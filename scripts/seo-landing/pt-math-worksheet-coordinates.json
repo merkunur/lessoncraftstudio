@@ -1,0 +1,2722 @@
+{
+  "locale": "pt",
+  "exerciseType": "math-worksheet",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 151,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "four-symbols-add-sub": 49,
+    "three-symbols-add-sub": 49,
+    "two-symbols-add-sub": 49
+  },
+  "totalValid": 147,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "four-symbols-add-sub",
+    "three-symbols-add-sub",
+    "two-symbols-add-sub"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-acessorios-c6ee",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-acessorios-c6ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-atividades-9fd1",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-atividades-9fd1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-animais-8f1c",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-animais-8f1c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-pela-casa-5cd1",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-pela-casa-5cd1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-no-supermercado-b92a",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-no-supermercado-b92a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-padaria-6ff6",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-padaria-6ff6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-praia-ebbf",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-praia-ebbf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-passaros-6709",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-passaros-6709"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-passaros-2-a34c",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-passaros-2-a34c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-partes-do-corpo-d962",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-partes-do-corpo-d962"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-cafe-da-manha-08c0",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-cafe-da-manha-08c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-acampamento-1113",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-acampamento-1113"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-natal-8ae2",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-natal-8ae2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-sala-de-aula-1046",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-sala-de-aula-1046"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-roupas-c8f3",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-roupas-c8f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-cores-3a42",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-cores-3a42"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-sobremesas-e-doces-dfdd",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-sobremesas-e-doces-dfdd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-dinossauros-d9f9",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-dinossauros-d9f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-pascoa-74a5",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-pascoa-74a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-emocoes-5c62",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-emocoes-5c62"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-animais-da-fazenda-7656",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-animais-da-fazenda-7656"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-flores-6b8a",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-flores-6b8a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-criaturas-da-floresta-2a44",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-criaturas-da-floresta-2a44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-frutas-a2a1",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-frutas-a2a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-moveis-a6ac",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-moveis-a6ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-hospital-86e5",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-hospital-86e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-insetos-e-bichos-12d7",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-insetos-e-bichos-12d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-utensilios-de-cozinha-4872",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-utensilios-de-cozinha-4872"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-diversos-ba63",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-diversos-ba63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-musica-0ca1",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-musica-0ca1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-profissoes-e6ac",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-profissoes-e6ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-vida-marinha-76e1",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-vida-marinha-76e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-animais-de-estimacao-ae90",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-animais-de-estimacao-ae90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-correios-09e7",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-correios-09e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-repteis-e-anfibios-8833",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-repteis-e-anfibios-8833"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-formas-f07d",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-formas-f07d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-espaco-fa6d",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-espaco-fa6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-primavera-fee2",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-primavera-fee2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-verao-a07e",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-verao-a07e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-dia-de-acao-de-gracas-cd07",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-dia-de-acao-de-gracas-cd07"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-coisas-que-voam-6e0d",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-coisas-que-voam-6e0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-ferramentas-0097",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-ferramentas-0097"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-brinquedos-f6b2",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-brinquedos-f6b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-arvores-f699",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-arvores-f699"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-vegetais-91a0",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-vegetais-91a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-veiculos-a0a4",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-veiculos-a0a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-clima-5862",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-clima-5862"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-inverno-00ec",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-inverno-00ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "four-symbols-add-sub",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-4-simbolos-soma-sub-animais-do-zoologico-1a93",
+      "siblings": [
+        "atividade-de-matematica-4-simbolos-soma-sub-animais-do-zoologico-1a93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-acessorios-3271",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-acessorios-3271"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-atividades-61f8",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-atividades-61f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-animais-0c86",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-animais-0c86"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-pela-casa-eb0f",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-pela-casa-eb0f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-no-supermercado-fbb9",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-no-supermercado-fbb9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-padaria-1aa6",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-padaria-1aa6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-praia-1731",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-praia-1731"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-passaros-4c09",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-passaros-4c09"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-passaros-2-0b3c",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-passaros-2-0b3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-partes-do-corpo-e92f",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-partes-do-corpo-e92f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-cafe-da-manha-5489",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-cafe-da-manha-5489"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-acampamento-9a06",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-acampamento-9a06"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-natal-a491",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-natal-a491"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-sala-de-aula-36e4",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-sala-de-aula-36e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-roupas-ba66",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-roupas-ba66"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-cores-2baf",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-cores-2baf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-sobremesas-e-doces-e259",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-sobremesas-e-doces-e259"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-dinossauros-78b6",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-dinossauros-78b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-pascoa-e7e6",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-pascoa-e7e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-emocoes-aae4",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-emocoes-aae4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-animais-da-fazenda-c026",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-animais-da-fazenda-c026"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-flores-1a03",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-flores-1a03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-criaturas-da-floresta-341c",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-criaturas-da-floresta-341c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-frutas-cf24",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-frutas-cf24"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-moveis-1a30",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-moveis-1a30"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-hospital-ee5f",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-hospital-ee5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-insetos-e-bichos-6037",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-insetos-e-bichos-6037"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-utensilios-de-cozinha-50a8",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-utensilios-de-cozinha-50a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-diversos-5252",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-diversos-5252"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-musica-550c",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-musica-550c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-profissoes-3a75",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-profissoes-3a75"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-vida-marinha-e9cb",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-vida-marinha-e9cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-animais-de-estimacao-eda4",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-animais-de-estimacao-eda4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-correios-8486",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-correios-8486"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-repteis-e-anfibios-f3f4",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-repteis-e-anfibios-f3f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-formas-e1db",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-formas-e1db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 29
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-espaco-4cea",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-espaco-4cea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-primavera-d02b",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-primavera-d02b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-verao-75c8",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-verao-75c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-dia-de-acao-de-gracas-1c7b",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-dia-de-acao-de-gracas-1c7b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-coisas-que-voam-be4d",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-coisas-que-voam-be4d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-ferramentas-ed1e",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-ferramentas-ed1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-brinquedos-1ab5",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-brinquedos-1ab5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-arvores-6a60",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-arvores-6a60"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2o-ano",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-vegetais-5977",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-vegetais-5977"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-veiculos-d4ce",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-veiculos-d4ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-clima-23b4",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-clima-23b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-inverno-0b5f",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-inverno-0b5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 4
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-3-simbolos-soma-sub-animais-do-zoologico-bea7",
+      "siblings": [
+        "atividade-de-matematica-3-simbolos-soma-sub-animais-do-zoologico-bea7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-acessorios-5fdc",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-acessorios-5fdc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-atividades-055e",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-atividades-055e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-animais-2be1",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-animais-2be1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-pela-casa-c22f",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-pela-casa-c22f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-no-supermercado-e0cf",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-no-supermercado-e0cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-padaria-c7b6",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-padaria-c7b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-praia-69d3",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-praia-69d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-passaros-146f",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-passaros-146f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-passaros-2-4ada",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-passaros-2-4ada"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-partes-do-corpo-f946",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-partes-do-corpo-f946"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-cafe-da-manha-c663",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-cafe-da-manha-c663"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-acampamento-9807",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-acampamento-9807"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-natal-c1ec",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-natal-c1ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-sala-de-aula-0960",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-sala-de-aula-0960"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-roupas-255c",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-roupas-255c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-cores-f71d",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-cores-f71d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-sobremesas-e-doces-8c7c",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-sobremesas-e-doces-8c7c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-dinossauros-447b",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-dinossauros-447b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-pascoa-7ffe",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-pascoa-7ffe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 3
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-emocoes-2aae",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-emocoes-2aae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-animais-da-fazenda-e49a",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-animais-da-fazenda-e49a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 3
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-flores-72e1",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-flores-72e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-criaturas-da-floresta-9e83",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-criaturas-da-floresta-9e83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-frutas-8075",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-frutas-8075"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-moveis-1d0d",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-moveis-1d0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-hospital-2eaf",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-hospital-2eaf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-insetos-e-bichos-65d6",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-insetos-e-bichos-65d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 5
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-utensilios-de-cozinha-a40c",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-utensilios-de-cozinha-a40c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-diversos-b237",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-diversos-b237"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-musica-a16b",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-musica-a16b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-profissoes-2b65",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-profissoes-2b65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-vida-marinha-ac78",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-vida-marinha-ac78"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-animais-de-estimacao-d5a4",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-animais-de-estimacao-d5a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-correios-7db7",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-correios-7db7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-repteis-e-anfibios-b406",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-repteis-e-anfibios-b406"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-formas-8c6c",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-formas-8c6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-espaco-c2d6",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-espaco-c2d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-primavera-7339",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-primavera-7339"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-verao-c149",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-verao-c149"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-dia-de-acao-de-gracas-58b6",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-dia-de-acao-de-gracas-58b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-coisas-que-voam-a704",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-coisas-que-voam-a704"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-ferramentas-cd6b",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-ferramentas-cd6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-brinquedos-916c",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-brinquedos-916c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-arvores-88f7",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-arvores-88f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-vegetais-0731",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-vegetais-0731"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-veiculos-c3db",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-veiculos-c3db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-clima-3575",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-clima-3575"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-inverno-7ee9",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-inverno-7ee9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "atividade-de-matematica-2-simbolos-soma-sub-animais-do-zoologico-fec5",
+      "siblings": [
+        "atividade-de-matematica-2-simbolos-soma-sub-animais-do-zoologico-fec5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1o-ano",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    }
+  ]
+}

@@ -43,7 +43,7 @@ const TYPE_MAP = {
   subtraction: { op: 'Atividades de subtração', qual: { 'cross-out': 'para riscar', 'image-number': 'com imagens e números', 'find-subtrahend': 'com o número que falta', mixed: '' } },
   'math-puzzle': { op: 'Quebra-cabeça matemático', qual: { addition: 'com adições', subtraction: 'com subtrações', mixed: 'com adições e subtrações' } },
   'code-addition': { op: 'Adição com código', qual: { 'secret-word': 'com palavra secreta' } },
-  'math-worksheet': { op: 'Atividades de cálculo', qual: { 'two-symbols-add-sub': 'com duas imagens', 'three-symbols-add-sub': 'com três imagens' } },
+  'math-worksheet': { op: 'Atividades de cálculo', qual: { 'two-symbols-add-sub': 'com duas imagens', 'three-symbols-add-sub': 'com três imagens', 'four-symbols-add-sub': 'com quatro imagens' } },
   'chart-count': { op: 'Conte e complete o gráfico', qual: {} },
   'more-less': { op: 'Mais ou menos', qual: { 'image-image': 'com imagens', 'check-cross': 'marque o grupo', 'image-number': 'com números' } },
   'big-small': { op: { findBig: 'Grande ou pequeno', orderAsc: 'Ordene por tamanho' }, qual: {} },

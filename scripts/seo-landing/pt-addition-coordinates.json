@@ -1,0 +1,2576 @@
+{
+  "locale": "pt",
+  "exerciseType": "addition",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 200,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-addend": 49,
+    "image-image": 49,
+    "image-number": 49,
+    "mixed": 48
+  },
+  "totalValid": 163,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-addend",
+    "image-image",
+    "image-number",
+    "mixed"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [
+    "find-addend/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "find-addend/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "find-addend/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "find-addend/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "find-addend/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "find-addend/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "find-addend/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "find-addend/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)",
+    "image-image/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "image-image/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "image-image/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "image-image/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "image-image/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "image-image/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "image-image/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "image-image/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)",
+    "image-number/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "image-number/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "image-number/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "image-number/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "image-number/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "image-number/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "image-number/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "image-number/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "mixed/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "find-addend",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-acessorios-6b9a",
+      "siblings": [
+        "adicao-encontre-o-termo-acessorios-6b9a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-animais-6165",
+      "siblings": [
+        "adicao-encontre-o-termo-animais-6165"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-pela-casa-6fad",
+      "siblings": [
+        "adicao-encontre-o-termo-pela-casa-6fad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-no-supermercado-bdd9",
+      "siblings": [
+        "adicao-encontre-o-termo-no-supermercado-bdd9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-padaria-9eaf",
+      "siblings": [
+        "adicao-encontre-o-termo-padaria-9eaf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-praia-d7de",
+      "siblings": [
+        "adicao-encontre-o-termo-praia-d7de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-passaros-9ab5",
+      "siblings": [
+        "adicao-encontre-o-termo-passaros-9ab5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-passaros-2-08f9",
+      "siblings": [
+        "adicao-encontre-o-termo-passaros-2-08f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-cafe-da-manha-c4aa",
+      "siblings": [
+        "adicao-encontre-o-termo-cafe-da-manha-c4aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-acampamento-9bc3",
+      "siblings": [
+        "adicao-encontre-o-termo-acampamento-9bc3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-natal-26ac",
+      "siblings": [
+        "adicao-encontre-o-termo-natal-26ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-sala-de-aula-670c",
+      "siblings": [
+        "adicao-encontre-o-termo-sala-de-aula-670c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-roupas-8443",
+      "siblings": [
+        "adicao-encontre-o-termo-roupas-8443"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-sobremesas-e-doces-c49e",
+      "siblings": [
+        "adicao-encontre-o-termo-sobremesas-e-doces-c49e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-dinossauros-61f4",
+      "siblings": [
+        "adicao-encontre-o-termo-dinossauros-61f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-pascoa-f52e",
+      "siblings": [
+        "adicao-encontre-o-termo-pascoa-f52e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-animais-da-fazenda-a793",
+      "siblings": [
+        "adicao-encontre-o-termo-animais-da-fazenda-a793"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-flores-ebae",
+      "siblings": [
+        "adicao-encontre-o-termo-flores-ebae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-criaturas-da-floresta-99a3",
+      "siblings": [
+        "adicao-encontre-o-termo-criaturas-da-floresta-99a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-frutas-abf2",
+      "siblings": [
+        "adicao-encontre-o-termo-frutas-abf2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-moveis-93c2",
+      "siblings": [
+        "adicao-encontre-o-termo-moveis-93c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-hospital-2b69",
+      "siblings": [
+        "adicao-encontre-o-termo-hospital-2b69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-insetos-e-bichos-3b97",
+      "siblings": [
+        "adicao-encontre-o-termo-insetos-e-bichos-3b97"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-utensilios-de-cozinha-b53e",
+      "siblings": [
+        "adicao-encontre-o-termo-utensilios-de-cozinha-b53e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-diversos-1588",
+      "siblings": [
+        "adicao-encontre-o-termo-diversos-1588"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-musica-d70c",
+      "siblings": [
+        "adicao-encontre-o-termo-musica-d70c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-profissoes-9fb3",
+      "siblings": [
+        "adicao-encontre-o-termo-profissoes-9fb3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-vida-marinha-0957",
+      "siblings": [
+        "adicao-encontre-o-termo-vida-marinha-0957"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-animais-de-estimacao-6f94",
+      "siblings": [
+        "adicao-encontre-o-termo-animais-de-estimacao-6f94"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-correios-2a80",
+      "siblings": [
+        "adicao-encontre-o-termo-correios-2a80"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-repteis-e-anfibios-b877",
+      "siblings": [
+        "adicao-encontre-o-termo-repteis-e-anfibios-b877"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-formas-464d",
+      "siblings": [
+        "adicao-encontre-o-termo-formas-464d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-espaco-25f0",
+      "siblings": [
+        "adicao-encontre-o-termo-espaco-25f0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-dia-de-acao-de-gracas-36b1",
+      "siblings": [
+        "adicao-encontre-o-termo-dia-de-acao-de-gracas-36b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-coisas-que-voam-764d",
+      "siblings": [
+        "adicao-encontre-o-termo-coisas-que-voam-764d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-ferramentas-4828",
+      "siblings": [
+        "adicao-encontre-o-termo-ferramentas-4828"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-brinquedos-6201",
+      "siblings": [
+        "adicao-encontre-o-termo-brinquedos-6201"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-arvores-6567",
+      "siblings": [
+        "adicao-encontre-o-termo-arvores-6567"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-vegetais-a0e9",
+      "siblings": [
+        "adicao-encontre-o-termo-vegetais-a0e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-veiculos-b606",
+      "siblings": [
+        "adicao-encontre-o-termo-veiculos-b606"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-encontre-o-termo-animais-do-zoologico-6ba9",
+      "siblings": [
+        "adicao-encontre-o-termo-animais-do-zoologico-6ba9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-acessorios-43bd",
+      "siblings": [
+        "adicao-imagem-imagem-acessorios-43bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "adicao-imagem-imagem-animais",
+      "siblings": [
+        "adicao-imagem-imagem-animais",
+        "adicao-imagem-imagem-animais-a137"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-pela-casa-0bd6",
+      "siblings": [
+        "adicao-imagem-imagem-pela-casa-0bd6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-no-supermercado-6074",
+      "siblings": [
+        "adicao-imagem-imagem-no-supermercado-6074"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-image",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-padaria-e24e",
+      "siblings": [
+        "adicao-imagem-imagem-padaria-e24e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-image",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-praia-6196",
+      "siblings": [
+        "adicao-imagem-imagem-praia-6196"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-passaros-9f3b",
+      "siblings": [
+        "adicao-imagem-imagem-passaros-9f3b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-passaros-2-ef30",
+      "siblings": [
+        "adicao-imagem-imagem-passaros-2-ef30"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-cafe-da-manha-7a1d",
+      "siblings": [
+        "adicao-imagem-imagem-cafe-da-manha-7a1d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-image",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-acampamento-2cb8",
+      "siblings": [
+        "adicao-imagem-imagem-acampamento-2cb8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-natal-c5ae",
+      "siblings": [
+        "adicao-imagem-imagem-natal-c5ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-sala-de-aula-57f3",
+      "siblings": [
+        "adicao-imagem-imagem-sala-de-aula-57f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-roupas-2ebf",
+      "siblings": [
+        "adicao-imagem-imagem-roupas-2ebf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-sobremesas-e-doces-1c3d",
+      "siblings": [
+        "adicao-imagem-imagem-sobremesas-e-doces-1c3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-image",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-dinossauros-4ae9",
+      "siblings": [
+        "adicao-imagem-imagem-dinossauros-4ae9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-pascoa-049b",
+      "siblings": [
+        "adicao-imagem-imagem-pascoa-049b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-animais-da-fazenda-0f10",
+      "siblings": [
+        "adicao-imagem-imagem-animais-da-fazenda-0f10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-flores-a7d3",
+      "siblings": [
+        "adicao-imagem-imagem-flores-a7d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-criaturas-da-floresta-0cc0",
+      "siblings": [
+        "adicao-imagem-imagem-criaturas-da-floresta-0cc0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-frutas-8fca",
+      "siblings": [
+        "adicao-imagem-imagem-frutas-8fca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-moveis-5eb1",
+      "siblings": [
+        "adicao-imagem-imagem-moveis-5eb1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-hospital-dc77",
+      "siblings": [
+        "adicao-imagem-imagem-hospital-dc77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-insetos-e-bichos-203b",
+      "siblings": [
+        "adicao-imagem-imagem-insetos-e-bichos-203b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-utensilios-de-cozinha-18e9",
+      "siblings": [
+        "adicao-imagem-imagem-utensilios-de-cozinha-18e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-image",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-diversos-fa3f",
+      "siblings": [
+        "adicao-imagem-imagem-diversos-fa3f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-musica-e2c1",
+      "siblings": [
+        "adicao-imagem-imagem-musica-e2c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-profissoes-460c",
+      "siblings": [
+        "adicao-imagem-imagem-profissoes-460c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-vida-marinha-e438",
+      "siblings": [
+        "adicao-imagem-imagem-vida-marinha-e438"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-animais-de-estimacao-baf8",
+      "siblings": [
+        "adicao-imagem-imagem-animais-de-estimacao-baf8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-correios-11a9",
+      "siblings": [
+        "adicao-imagem-imagem-correios-11a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-repteis-e-anfibios-2339",
+      "siblings": [
+        "adicao-imagem-imagem-repteis-e-anfibios-2339"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-formas-d91e",
+      "siblings": [
+        "adicao-imagem-imagem-formas-d91e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-espaco-6049",
+      "siblings": [
+        "adicao-imagem-imagem-espaco-6049"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-dia-de-acao-de-gracas-1207",
+      "siblings": [
+        "adicao-imagem-imagem-dia-de-acao-de-gracas-1207"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-coisas-que-voam-6e05",
+      "siblings": [
+        "adicao-imagem-imagem-coisas-que-voam-6e05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-ferramentas-1dff",
+      "siblings": [
+        "adicao-imagem-imagem-ferramentas-1dff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-brinquedos-6677",
+      "siblings": [
+        "adicao-imagem-imagem-brinquedos-6677"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-arvores-24a9",
+      "siblings": [
+        "adicao-imagem-imagem-arvores-24a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-vegetais-475a",
+      "siblings": [
+        "adicao-imagem-imagem-vegetais-475a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-veiculos-0efc",
+      "siblings": [
+        "adicao-imagem-imagem-veiculos-0efc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-imagem-animais-do-zoologico-24d8",
+      "siblings": [
+        "adicao-imagem-imagem-animais-do-zoologico-24d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-acessorios-2d5a",
+      "siblings": [
+        "adicao-imagem-numero-acessorios-2d5a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-animais-a26e",
+      "siblings": [
+        "adicao-imagem-numero-animais-a26e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-pela-casa-f9d2",
+      "siblings": [
+        "adicao-imagem-numero-pela-casa-f9d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-no-supermercado-0442",
+      "siblings": [
+        "adicao-imagem-numero-no-supermercado-0442"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-padaria-63b5",
+      "siblings": [
+        "adicao-imagem-numero-padaria-63b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-praia-fe53",
+      "siblings": [
+        "adicao-imagem-numero-praia-fe53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-passaros-33a7",
+      "siblings": [
+        "adicao-imagem-numero-passaros-33a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-passaros-2-3ff7",
+      "siblings": [
+        "adicao-imagem-numero-passaros-2-3ff7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-cafe-da-manha-a3b6",
+      "siblings": [
+        "adicao-imagem-numero-cafe-da-manha-a3b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-acampamento-9a35",
+      "siblings": [
+        "adicao-imagem-numero-acampamento-9a35"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-natal-384e",
+      "siblings": [
+        "adicao-imagem-numero-natal-384e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-sala-de-aula-03c3",
+      "siblings": [
+        "adicao-imagem-numero-sala-de-aula-03c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-roupas-5a98",
+      "siblings": [
+        "adicao-imagem-numero-roupas-5a98"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-sobremesas-e-doces-1cef",
+      "siblings": [
+        "adicao-imagem-numero-sobremesas-e-doces-1cef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-dinossauros-b04e",
+      "siblings": [
+        "adicao-imagem-numero-dinossauros-b04e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-pascoa-5be3",
+      "siblings": [
+        "adicao-imagem-numero-pascoa-5be3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-animais-da-fazenda-5102",
+      "siblings": [
+        "adicao-imagem-numero-animais-da-fazenda-5102"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-flores-8323",
+      "siblings": [
+        "adicao-imagem-numero-flores-8323"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-criaturas-da-floresta-3d98",
+      "siblings": [
+        "adicao-imagem-numero-criaturas-da-floresta-3d98"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-frutas-96e0",
+      "siblings": [
+        "adicao-imagem-numero-frutas-96e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-moveis-b432",
+      "siblings": [
+        "adicao-imagem-numero-moveis-b432"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-hospital-21a3",
+      "siblings": [
+        "adicao-imagem-numero-hospital-21a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-insetos-e-bichos-2377",
+      "siblings": [
+        "adicao-imagem-numero-insetos-e-bichos-2377"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-utensilios-de-cozinha-accc",
+      "siblings": [
+        "adicao-imagem-numero-utensilios-de-cozinha-accc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-diversos-1d99",
+      "siblings": [
+        "adicao-imagem-numero-diversos-1d99"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-musica-0d0d",
+      "siblings": [
+        "adicao-imagem-numero-musica-0d0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-profissoes-d9d9",
+      "siblings": [
+        "adicao-imagem-numero-profissoes-d9d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-vida-marinha-93ce",
+      "siblings": [
+        "adicao-imagem-numero-vida-marinha-93ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-animais-de-estimacao-b715",
+      "siblings": [
+        "adicao-imagem-numero-animais-de-estimacao-b715"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-correios-b469",
+      "siblings": [
+        "adicao-imagem-numero-correios-b469"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-repteis-e-anfibios-fa49",
+      "siblings": [
+        "adicao-imagem-numero-repteis-e-anfibios-fa49"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-formas-1bf0",
+      "siblings": [
+        "adicao-imagem-numero-formas-1bf0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-espaco-fde1",
+      "siblings": [
+        "adicao-imagem-numero-espaco-fde1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-dia-de-acao-de-gracas-ce25",
+      "siblings": [
+        "adicao-imagem-numero-dia-de-acao-de-gracas-ce25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-coisas-que-voam-fd6f",
+      "siblings": [
+        "adicao-imagem-numero-coisas-que-voam-fd6f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-ferramentas-3c14",
+      "siblings": [
+        "adicao-imagem-numero-ferramentas-3c14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-brinquedos-97ec",
+      "siblings": [
+        "adicao-imagem-numero-brinquedos-97ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-arvores-dfea",
+      "siblings": [
+        "adicao-imagem-numero-arvores-dfea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-vegetais-019a",
+      "siblings": [
+        "adicao-imagem-numero-vegetais-019a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-veiculos-348d",
+      "siblings": [
+        "adicao-imagem-numero-veiculos-348d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-imagem-numero-animais-do-zoologico-b315",
+      "siblings": [
+        "adicao-imagem-numero-animais-do-zoologico-b315"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-acessorios-563b",
+      "siblings": [
+        "adicao-misto-acessorios-563b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-animais-9d4c",
+      "siblings": [
+        "adicao-misto-animais-9d4c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-pela-casa-f58b",
+      "siblings": [
+        "adicao-misto-pela-casa-f58b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-no-supermercado-ff0b",
+      "siblings": [
+        "adicao-misto-no-supermercado-ff0b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-padaria-4b71",
+      "siblings": [
+        "adicao-misto-padaria-4b71"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-praia-4963",
+      "siblings": [
+        "adicao-misto-praia-4963"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-passaros-2094",
+      "siblings": [
+        "adicao-misto-passaros-2094"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-passaros-2-636b",
+      "siblings": [
+        "adicao-misto-passaros-2-636b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-cafe-da-manha-f0cf",
+      "siblings": [
+        "adicao-misto-cafe-da-manha-f0cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-acampamento-0473",
+      "siblings": [
+        "adicao-misto-acampamento-0473"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-natal-58fa",
+      "siblings": [
+        "adicao-misto-natal-58fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-sala-de-aula-aea8",
+      "siblings": [
+        "adicao-misto-sala-de-aula-aea8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-roupas-f65f",
+      "siblings": [
+        "adicao-misto-roupas-f65f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-sobremesas-e-doces-ab98",
+      "siblings": [
+        "adicao-misto-sobremesas-e-doces-ab98"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-dinossauros-e24e",
+      "siblings": [
+        "adicao-misto-dinossauros-e24e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-pascoa-2f36",
+      "siblings": [
+        "adicao-misto-pascoa-2f36"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-animais-da-fazenda-e76e",
+      "siblings": [
+        "adicao-misto-animais-da-fazenda-e76e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-flores-a646",
+      "siblings": [
+        "adicao-misto-flores-a646"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-criaturas-da-floresta-8164",
+      "siblings": [
+        "adicao-misto-criaturas-da-floresta-8164"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-frutas-f59a",
+      "siblings": [
+        "adicao-misto-frutas-f59a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-moveis-860e",
+      "siblings": [
+        "adicao-misto-moveis-860e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-hospital-9763",
+      "siblings": [
+        "adicao-misto-hospital-9763"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-insetos-e-bichos-27c7",
+      "siblings": [
+        "adicao-misto-insetos-e-bichos-27c7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-diversos-6eef",
+      "siblings": [
+        "adicao-misto-diversos-6eef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-musica-2d93",
+      "siblings": [
+        "adicao-misto-musica-2d93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-profissoes-6400",
+      "siblings": [
+        "adicao-misto-profissoes-6400"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-vida-marinha-4ff3",
+      "siblings": [
+        "adicao-misto-vida-marinha-4ff3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-animais-de-estimacao-ec12",
+      "siblings": [
+        "adicao-misto-animais-de-estimacao-ec12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-correios-cb8d",
+      "siblings": [
+        "adicao-misto-correios-cb8d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-repteis-e-anfibios-0bcc",
+      "siblings": [
+        "adicao-misto-repteis-e-anfibios-0bcc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-formas-8a49",
+      "siblings": [
+        "adicao-misto-formas-8a49"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-espaco-5ff3",
+      "siblings": [
+        "adicao-misto-espaco-5ff3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-dia-de-acao-de-gracas-6d68",
+      "siblings": [
+        "adicao-misto-dia-de-acao-de-gracas-6d68"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-coisas-que-voam-fbf8",
+      "siblings": [
+        "adicao-misto-coisas-que-voam-fbf8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-ferramentas-3ea9",
+      "siblings": [
+        "adicao-misto-ferramentas-3ea9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-brinquedos-f3f2",
+      "siblings": [
+        "adicao-misto-brinquedos-f3f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-arvores-4ffd",
+      "siblings": [
+        "adicao-misto-arvores-4ffd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-vegetais-ab8b",
+      "siblings": [
+        "adicao-misto-vegetais-ab8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-veiculos-192a",
+      "siblings": [
+        "adicao-misto-veiculos-192a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "adicao-misto-animais-do-zoologico-7081",
+      "siblings": [
+        "adicao-misto-animais-do-zoologico-7081"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    }
+  ]
+}

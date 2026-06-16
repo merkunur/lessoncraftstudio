@@ -53,6 +53,25 @@ if [ "$TOTAL_SYMLINKS" -lt 1 ]; then
     exit 1
 fi
 
+# --- Pre-flight rotation + disk guard (added 2026-06-16 after a keep-3 run filled the
+# 436 GB volume and crashed Postgres). At ~78 GB/tarball, retaining 3 (~234 GB) alongside
+# the ~141 GB live decks overflowed the disk, and because the prune ran AFTER tar, the
+# Sunday run briefly held 4 tarballs and `set -e` left them behind when the disk filled.
+# Fix: (1) prune to the single newest PRIOR backup BEFORE creating the new one, so peak
+# usage during tar is 1 old + 1 new; (2) abort if free space < decks-size + ~33% headroom.
+echo "🧹 Pruning old deck backups BEFORE creating the new one (keep newest 1 prior)..."
+ls -t $BACKUP_DIR/decks_*.tar.gz 2>/dev/null | tail -n +2 | xargs -r rm -v
+
+NEED_BYTES=$(du -sb $DECKS_DIR 2>/dev/null | cut -f1)
+FREE_BYTES=$(df --output=avail -B1 $BACKUP_DIR 2>/dev/null | tail -1)
+GUARD_BYTES=$(( NEED_BYTES + NEED_BYTES / 3 ))
+if [ "${FREE_BYTES:-0}" -lt "$GUARD_BYTES" ]; then
+    echo "⚠️  ABORT: free ${FREE_BYTES} bytes < required ~${GUARD_BYTES} (decks size + 33%)."
+    echo "   Skipping this backup to protect the disk. The same-host tarball is only a"
+    echo "   rotation fallback; resolve disk pressure or move to off-host backup (Scaling Arc 3 Q3)."
+    exit 1
+fi
+
 # Create the backup
 BACKUP_FILE="$BACKUP_DIR/decks_$TIMESTAMP.tar.gz"
 echo "📦 Creating backup: $BACKUP_FILE"
@@ -74,13 +93,13 @@ echo "   File: $BACKUP_FILE"
 echo "   Size: $BACKUP_SIZE ($BACKUP_BYTES bytes)"
 echo ""
 
-# Keep only last 3 backups to save disk space (matches backup-samples.sh
-# retention pattern per audit-report §11.1 Option A spec)
-echo "🧹 Cleaning old backups (keeping last 3)..."
+# Final retention: keep last 2 (reduced from 3 — at ~78 GB/tarball, 3 overflowed the
+# 436 GB volume). Combined with the prune-before-create guard above, steady state = 2.
+echo "🧹 Final retention: keeping last 2 deck backups..."
 BACKUP_COUNT=$(ls -t $BACKUP_DIR/decks_*.tar.gz 2>/dev/null | wc -l)
-if [ "$BACKUP_COUNT" -gt 3 ]; then
-    ls -t $BACKUP_DIR/decks_*.tar.gz | tail -n +4 | xargs -r rm -v
-    echo "   Removed $(($BACKUP_COUNT - 3)) old backup(s)"
+if [ "$BACKUP_COUNT" -gt 2 ]; then
+    ls -t $BACKUP_DIR/decks_*.tar.gz | tail -n +3 | xargs -r rm -v
+    echo "   Removed $(($BACKUP_COUNT - 2)) old backup(s)"
 else
     echo "   No old backups to remove"
 fi

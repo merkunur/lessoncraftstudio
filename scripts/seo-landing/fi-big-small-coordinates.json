@@ -1,0 +1,1319 @@
+{
+  "locale": "fi",
+  "exerciseType": "big-small",
+  "level": "esikoulu",
+  "rawRowCount": 93,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "findBig": 42,
+    "orderAsc": 48
+  },
+  "totalValid": 77,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "findBig",
+    "orderAsc"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [
+    "findBig/activities — INVALID: activities has no orderable physical size for a size mechanic",
+    "findBig/colors — INVALID: colors has no orderable physical size for a size mechanic",
+    "findBig/spring — INVALID: spring has no orderable physical size for a size mechanic",
+    "findBig/summer — INVALID: summer has no orderable physical size for a size mechanic",
+    "findBig/weather — INVALID: weather has no orderable physical size for a size mechanic",
+    "findBig/winter — INVALID: winter has no orderable physical size for a size mechanic",
+    "orderAsc/activities — INVALID: activities has no orderable physical size for a size mechanic",
+    "orderAsc/colors — INVALID: colors has no orderable physical size for a size mechanic",
+    "orderAsc/emotions — INVALID: emotions has no orderable physical size for a size mechanic",
+    "orderAsc/spring — INVALID: spring has no orderable physical size for a size mechanic",
+    "orderAsc/summer — INVALID: summer has no orderable physical size for a size mechanic",
+    "orderAsc/weather — INVALID: weather has no orderable physical size for a size mechanic",
+    "orderAsc/winter — INVALID: winter has no orderable physical size for a size mechanic"
+  ],
+  "coordinates": [
+    {
+      "mode": "findBig",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-asusteet-2e02",
+      "siblings": [
+        "iso-pieni-etsi-iso-asusteet-2e02"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-elaimet-ec06",
+      "siblings": [
+        "iso-pieni-etsi-iso-elaimet-ec06"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-kodin-ymparilla-33c3",
+      "siblings": [
+        "iso-pieni-etsi-iso-kodin-ymparilla-33c3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-ruokakaupassa-21b6",
+      "siblings": [
+        "iso-pieni-etsi-iso-ruokakaupassa-21b6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-leipomo-16de",
+      "siblings": [
+        "iso-pieni-etsi-iso-leipomo-16de"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-ranta-1a31",
+      "siblings": [
+        "iso-pieni-etsi-iso-ranta-1a31"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-linnut-2-e4c5",
+      "siblings": [
+        "iso-pieni-etsi-iso-linnut-2-e4c5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-ruumiinosat-4346",
+      "siblings": [
+        "iso-pieni-etsi-iso-ruumiinosat-4346"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-aamiainen-ed13",
+      "siblings": [
+        "iso-pieni-etsi-iso-aamiainen-ed13"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-leirielama-4fd5",
+      "siblings": [
+        "iso-pieni-etsi-iso-leirielama-4fd5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-joulu-5f06",
+      "siblings": [
+        "iso-pieni-etsi-iso-joulu-5f06"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-luokkahuone-afef",
+      "siblings": [
+        "iso-pieni-etsi-iso-luokkahuone-afef"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-vaatteet-44a3",
+      "siblings": [
+        "iso-pieni-etsi-iso-vaatteet-44a3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-jalkiruoat-ja-makeiset-d88d",
+      "siblings": [
+        "iso-pieni-etsi-iso-jalkiruoat-ja-makeiset-d88d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-dinosaurukset-f5ab",
+      "siblings": [
+        "iso-pieni-etsi-iso-dinosaurukset-f5ab"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-paasiainen-192b",
+      "siblings": [
+        "iso-pieni-etsi-iso-paasiainen-192b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-maatilan-elaimet-c685",
+      "siblings": [
+        "iso-pieni-etsi-iso-maatilan-elaimet-c685"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-kukat-becb",
+      "siblings": [
+        "iso-pieni-etsi-iso-kukat-becb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-metsan-elaimet-9ede",
+      "siblings": [
+        "iso-pieni-etsi-iso-metsan-elaimet-9ede"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-hedelmat-e809",
+      "siblings": [
+        "iso-pieni-etsi-iso-hedelmat-e809"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-huonekalut-9069",
+      "siblings": [
+        "iso-pieni-etsi-iso-huonekalut-9069"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-sairaala-726b",
+      "siblings": [
+        "iso-pieni-etsi-iso-sairaala-726b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-keittiovalineet-b7de",
+      "siblings": [
+        "iso-pieni-etsi-iso-keittiovalineet-b7de"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-musiikki-db1a",
+      "siblings": [
+        "iso-pieni-etsi-iso-musiikki-db1a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-ammatit-414b",
+      "siblings": [
+        "iso-pieni-etsi-iso-ammatit-414b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-merielama-f445",
+      "siblings": [
+        "iso-pieni-etsi-iso-merielama-f445"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-lemmikit-6ba1",
+      "siblings": [
+        "iso-pieni-etsi-iso-lemmikit-6ba1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-muodot-8841",
+      "siblings": [
+        "iso-pieni-etsi-iso-muodot-8841"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-avaruus-e0c2",
+      "siblings": [
+        "iso-pieni-etsi-iso-avaruus-e0c2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-lentavat-asiat-3fc7",
+      "siblings": [
+        "iso-pieni-etsi-iso-lentavat-asiat-3fc7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-tyokalut-6dda",
+      "siblings": [
+        "iso-pieni-etsi-iso-tyokalut-6dda"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-lelut-242f",
+      "siblings": [
+        "iso-pieni-etsi-iso-lelut-242f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-puut-f50c",
+      "siblings": [
+        "iso-pieni-etsi-iso-puut-f50c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-vihannekset-a6ce",
+      "siblings": [
+        "iso-pieni-etsi-iso-vihannekset-a6ce"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-ajoneuvot-6069",
+      "siblings": [
+        "iso-pieni-etsi-iso-ajoneuvot-6069"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "findBig",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-etsi-iso-elaintarhan-elaimet-445a",
+      "siblings": [
+        "iso-pieni-etsi-iso-elaintarhan-elaimet-445a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-asusteet-0d6f",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-asusteet-0d6f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-elaimet-c5ff",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-elaimet-c5ff"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-kodin-ymparilla-88bb",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-kodin-ymparilla-88bb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-ruokakaupassa-cda3",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-ruokakaupassa-cda3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-leipomo-43bb",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-leipomo-43bb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-ranta-9b62",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-ranta-9b62"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-linnut-9003",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-linnut-9003"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-linnut-2-1b39",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-linnut-2-1b39"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-ruumiinosat-d2e5",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-ruumiinosat-d2e5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-aamiainen-ceb8",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-aamiainen-ceb8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-leirielama-1cf1",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-leirielama-1cf1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-joulu-b30f",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-joulu-b30f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-luokkahuone-fb1e",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-luokkahuone-fb1e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-vaatteet-2ff2",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-vaatteet-2ff2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-jalkiruoat-ja-makeiset-a90f",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-jalkiruoat-ja-makeiset-a90f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-dinosaurukset-86c2",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-dinosaurukset-86c2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-paasiainen-b876",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-paasiainen-b876"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-maatilan-elaimet-0ed7",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-maatilan-elaimet-0ed7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-kukat-3f2e",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-kukat-3f2e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-metsan-elaimet-e6ce",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-metsan-elaimet-e6ce"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-hedelmat-6466",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-hedelmat-6466"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-huonekalut-4e95",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-huonekalut-4e95"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-sairaala-049c",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-sairaala-049c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-hyonteiset-ja-otokat-d558",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-hyonteiset-ja-otokat-d558"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-keittiovalineet-3f65",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-keittiovalineet-3f65"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-musiikki-b68b",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-musiikki-b68b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-ammatit-d8a9",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-ammatit-d8a9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-merielama-0817",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-merielama-0817"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-lemmikit-3962",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-lemmikit-3962"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-postitoimisto-a487",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-postitoimisto-a487"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-matelijat-ja-sammakkoelaimet-2917",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-matelijat-ja-sammakkoelaimet-2917"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-muodot-dd66",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-muodot-dd66"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-avaruus-4bc4",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-avaruus-4bc4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-kiitospaiva-66c0",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-kiitospaiva-66c0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-lentavat-asiat-1655",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-lentavat-asiat-1655"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-tyokalut-6cdd",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-tyokalut-6cdd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-lelut-1203",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-lelut-1203"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-puut-526d",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-puut-526d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-vihannekset-c91e",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-vihannekset-c91e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-ajoneuvot-28e3",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-ajoneuvot-28e3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "iso-pieni-nouseva-jarjestys-elaintarhan-elaimet-96f4",
+      "siblings": [
+        "iso-pieni-nouseva-jarjestys-elaintarhan-elaimet-96f4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "esikoulu"
+    }
+  ]
+}

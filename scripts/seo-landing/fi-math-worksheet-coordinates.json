@@ -1,0 +1,1784 @@
+{
+  "locale": "fi",
+  "exerciseType": "math-worksheet",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 99,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "three-symbols-add-sub": 47,
+    "two-symbols-add-sub": 48
+  },
+  "totalValid": 95,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "three-symbols-add-sub",
+    "two-symbols-add-sub"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-asusteet-d033",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-asusteet-d033"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-aktiviteetit-75d1",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-aktiviteetit-75d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 5
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-elaimet-c417",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-elaimet-c417"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-kodin-ymparilla-bd3d",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-kodin-ymparilla-bd3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-leipomo-e89e",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-leipomo-e89e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-ranta-0515",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-ranta-0515"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-linnut-f1be",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-linnut-f1be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-linnut-2-c0fc",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-linnut-2-c0fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-ruumiinosat-dc1e",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-ruumiinosat-dc1e",
+        "matematiikkatehtava-3-symbolia-yht-vahen-ruumiinosat-47ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-aamiainen-9df1",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-aamiainen-9df1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-leirielama-bcd7",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-leirielama-bcd7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-joulu-cb62",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-joulu-cb62"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-luokkahuone-d1f7",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-luokkahuone-d1f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-vaatteet-962a",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-vaatteet-962a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-varit-0139",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-varit-0139"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-jalkiruoat-ja-makeiset-2060",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-jalkiruoat-ja-makeiset-2060"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 4
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-dinosaurukset-37de",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-dinosaurukset-37de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-paasiainen-a13b",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-paasiainen-a13b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-tunteet-b62d",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-tunteet-b62d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-maatilan-elaimet-e69f",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-maatilan-elaimet-e69f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-kukat-95e1",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-kukat-95e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-metsan-elaimet-85f8",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-metsan-elaimet-85f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-hedelmat-928f",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-hedelmat-928f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-huonekalut-4297",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-huonekalut-4297"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-sairaala-133e",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-sairaala-133e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-hyonteiset-ja-otokat-7739",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-hyonteiset-ja-otokat-7739"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-keittiovalineet-01d8",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-keittiovalineet-01d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-musiikki-7129",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-musiikki-7129"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-ammatit-7630",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-ammatit-7630"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-merielama-8abc",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-merielama-8abc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-lemmikit-a258",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-lemmikit-a258"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-postitoimisto-e175",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-postitoimisto-e175"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-matelijat-ja-sammakkoelaimet-54ae",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-matelijat-ja-sammakkoelaimet-54ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-muodot-f075",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-muodot-f075"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-avaruus-0d5d",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-avaruus-0d5d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-kevat-3007",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-kevat-3007"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-kesa-aeb9",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-kesa-aeb9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-kiitospaiva-4806",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-kiitospaiva-4806"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-lentavat-asiat-bffc",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-lentavat-asiat-bffc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-tyokalut-1ddd",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-tyokalut-1ddd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-lelut-58e4",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-lelut-58e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-puut-c165",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-puut-c165"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "2-luokka",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-vihannekset-d44e",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-vihannekset-d44e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-ajoneuvot-df12",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-ajoneuvot-df12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-saa-230c",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-saa-230c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-talvi-5ae3",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-talvi-5ae3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-3-symbolia-yht-vahen-elaintarhan-elaimet-c7fd",
+      "siblings": [
+        "matematiikkatehtava-3-symbolia-yht-vahen-elaintarhan-elaimet-c7fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-asusteet-e48d",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-asusteet-e48d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-aktiviteetit-fa2b",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-aktiviteetit-fa2b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-elaimet-726f",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-elaimet-726f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-kodin-ymparilla-cefa",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-kodin-ymparilla-cefa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-ruokakaupassa-08dc",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-ruokakaupassa-08dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 3
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-leipomo-bbd4",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-leipomo-bbd4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-ranta-641d",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-ranta-641d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-linnut-ed2a",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-linnut-ed2a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-linnut-2-d135",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-linnut-2-d135"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-ruumiinosat-da42",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-ruumiinosat-da42"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-aamiainen-a2a5",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-aamiainen-a2a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-leirielama-a5a3",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-leirielama-a5a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-joulu-5761",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-joulu-5761"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-luokkahuone-a9d4",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-luokkahuone-a9d4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-vaatteet-67d3",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-vaatteet-67d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 2
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-varit-0b54",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-varit-0b54"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-jalkiruoat-ja-makeiset-b492",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-jalkiruoat-ja-makeiset-b492"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-dinosaurukset-c2c9",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-dinosaurukset-c2c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-paasiainen-4536",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-paasiainen-4536"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-tunteet-64a0",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-tunteet-64a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-maatilan-elaimet-39b6",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-maatilan-elaimet-39b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-kukat-8605",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-kukat-8605"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-metsan-elaimet-c10a",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-metsan-elaimet-c10a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-hedelmat-43bc",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-hedelmat-43bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-huonekalut-5205",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-huonekalut-5205"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-sairaala-ae27",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-sairaala-ae27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-hyonteiset-ja-otokat-a7ff",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-hyonteiset-ja-otokat-a7ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-keittiovalineet-4e96",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-keittiovalineet-4e96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-musiikki-1f9e",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-musiikki-1f9e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-ammatit-ae14",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-ammatit-ae14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-merielama-5e48",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-merielama-5e48"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-lemmikit-1b51",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-lemmikit-1b51"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-postitoimisto-d219",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-postitoimisto-d219"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-matelijat-ja-sammakkoelaimet-5e55",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-matelijat-ja-sammakkoelaimet-5e55"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-muodot-5665",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-muodot-5665"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-avaruus-6031",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-avaruus-6031"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-kevat-98f4",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-kevat-98f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-kesa-1591",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-kesa-1591"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-kiitospaiva-de44",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-kiitospaiva-de44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-lentavat-asiat-5f8f",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-lentavat-asiat-5f8f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-tyokalut-19dd",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-tyokalut-19dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 4
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-lelut-ba87",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-lelut-ba87"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-puut-560e",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-puut-560e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-vihannekset-e9d1",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-vihannekset-e9d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 5
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-ajoneuvot-f58a",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-ajoneuvot-f58a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-saa-0759",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-saa-0759"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-talvi-1c4a",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-talvi-1c4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 3
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "matematiikkatehtava-2-symbolia-yht-vahen-elaintarhan-elaimet-dfca",
+      "siblings": [
+        "matematiikkatehtava-2-symbolia-yht-vahen-elaintarhan-elaimet-dfca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    }
+  ]
+}

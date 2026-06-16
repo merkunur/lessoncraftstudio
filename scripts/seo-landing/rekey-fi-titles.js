@@ -64,8 +64,8 @@ const NO_CARRY_EXCLUDED_TYPES = new Set(['math-puzzle', 'math-worksheet']);
 // arithmetic closed-compound where the locked pattern requires it ([Op]tehtäviä). [NSR-FLAG][fi].
 const TYPE_MAP = {
   // arithmetic — closed-compound head [Op]tehtäviä
-  addition:        { op: 'Yhteenlaskutehtäviä', qual: {} },
-  subtraction:     { op: 'Vähennyslaskutehtäviä', qual: {} },
+  addition:        { op: 'Yhteenlaskutehtäviä', qual: { 'image-image': 'kuvaryhmillä', 'image-number': 'kuvilla ja luvulla', 'find-addend': 'puuttuvalla luvulla', 'mixed': 'sekaisin' } },
+  subtraction:     { op: 'Vähennyslaskutehtäviä', qual: { 'cross-out': 'yliviivaten', 'image-number': 'kuvilla ja luvulla', 'find-subtrahend': 'puuttuvalla luvulla', 'mixed': 'sekaisin' } },
   'math-puzzle':   { op: { addition: 'Matematiikkapulma yhteenlasku', subtraction: 'Matematiikkapulma vähennyslasku', mixed: 'Matematiikkapulma' }, qual: {} },
   'math-worksheet':{ op: 'Matematiikkatehtävä', qual: { 'two-symbols-add-sub': 'kahdella kuvalla', 'three-symbols-add-sub': 'kolmella kuvalla' } },
   'code-addition': { op: { 'null': 'Koodattu yhteenlasku', 'secret-word': 'Salasana koodilla' }, qual: {} },

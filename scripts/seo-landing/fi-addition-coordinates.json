@@ -1,0 +1,3048 @@
+{
+  "locale": "fi",
+  "exerciseType": "addition",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 199,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-addend": 49,
+    "image-image": 49,
+    "image-number": 49,
+    "mixed": 47
+  },
+  "totalValid": 162,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-addend",
+    "image-image",
+    "image-number",
+    "mixed"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [
+    "find-addend/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "find-addend/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "find-addend/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "find-addend/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "find-addend/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "find-addend/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "find-addend/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "find-addend/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)",
+    "image-image/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "image-image/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "image-image/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "image-image/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "image-image/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "image-image/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "image-image/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "image-image/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)",
+    "image-number/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "image-number/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "image-number/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "image-number/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "image-number/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "image-number/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "image-number/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "image-number/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "mixed/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "find-addend",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-asusteet-ef16",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-asusteet-ef16"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 8
+    },
+    {
+      "mode": "find-addend",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-elaimet-7870",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-elaimet-7870"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 8
+    },
+    {
+      "mode": "find-addend",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-kodin-ymparilla-9845",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-kodin-ymparilla-9845"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 8
+    },
+    {
+      "mode": "find-addend",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-ruokakaupassa-8a5b",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-ruokakaupassa-8a5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 8
+    },
+    {
+      "mode": "find-addend",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-leipomo-bb77",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-leipomo-bb77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 8
+    },
+    {
+      "mode": "find-addend",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-ranta-d00c",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-ranta-d00c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 7
+    },
+    {
+      "mode": "find-addend",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-linnut-bb7f",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-linnut-bb7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 8
+    },
+    {
+      "mode": "find-addend",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-linnut-2-89c7",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-linnut-2-89c7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-aamiainen-5123",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-aamiainen-5123"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 10
+    },
+    {
+      "mode": "find-addend",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-leirielama-3254",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-leirielama-3254"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-joulu-8d7a",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-joulu-8d7a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 8
+    },
+    {
+      "mode": "find-addend",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-luokkahuone-d6d2",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-luokkahuone-d6d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 10
+    },
+    {
+      "mode": "find-addend",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-vaatteet-514e",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-vaatteet-514e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 6
+    },
+    {
+      "mode": "find-addend",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-jalkiruoat-ja-makeiset-fceb",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-jalkiruoat-ja-makeiset-fceb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 7
+    },
+    {
+      "mode": "find-addend",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-dinosaurukset-c534",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-dinosaurukset-c534"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-paasiainen-3d27",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-paasiainen-3d27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 10
+    },
+    {
+      "mode": "find-addend",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-maatilan-elaimet-6abf",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-maatilan-elaimet-6abf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-kukat-2364",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-kukat-2364"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-metsan-elaimet-e44e",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-metsan-elaimet-e44e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 7
+    },
+    {
+      "mode": "find-addend",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-hedelmat-306b",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-hedelmat-306b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 8
+    },
+    {
+      "mode": "find-addend",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-huonekalut-658e",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-huonekalut-658e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 7
+    },
+    {
+      "mode": "find-addend",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-sairaala-cad0",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-sairaala-cad0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 7
+    },
+    {
+      "mode": "find-addend",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-hyonteiset-ja-otokat-3e76",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-hyonteiset-ja-otokat-3e76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-keittiovalineet-5045",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-keittiovalineet-5045"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-sekalaista-7a86",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-sekalaista-7a86"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-musiikki-b0a5",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-musiikki-b0a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 10
+    },
+    {
+      "mode": "find-addend",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-ammatit-e49b",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-ammatit-e49b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 7
+    },
+    {
+      "mode": "find-addend",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-merielama-98b5",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-merielama-98b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-lemmikit-5cd0",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-lemmikit-5cd0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-postitoimisto-a474",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-postitoimisto-a474"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 8
+    },
+    {
+      "mode": "find-addend",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-matelijat-ja-sammakkoelaimet-71da",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-matelijat-ja-sammakkoelaimet-71da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-muodot-6a26",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-muodot-6a26"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-avaruus-9320",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-avaruus-9320"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 8
+    },
+    {
+      "mode": "find-addend",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-kiitospaiva-6e31",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-kiitospaiva-6e31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-lentavat-asiat-9090",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-lentavat-asiat-9090"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 7
+    },
+    {
+      "mode": "find-addend",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-tyokalut-598d",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-tyokalut-598d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-lelut-5400",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-lelut-5400"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 7
+    },
+    {
+      "mode": "find-addend",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-puut-48db",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-puut-48db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-vihannekset-3765",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-vihannekset-3765"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "find-addend",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-ajoneuvot-a8ca",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-ajoneuvot-a8ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 7
+    },
+    {
+      "mode": "find-addend",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-etsi-yhteenlaskettava-elaintarhan-elaimet-fd79",
+      "siblings": [
+        "yhteenlasku-etsi-yhteenlaskettava-elaintarhan-elaimet-fd79"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.4",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-asusteet-4dbb",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-asusteet-4dbb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-image",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-elaimet",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-elaimet",
+        "yhteenlasku-kuva-kuva-elaimet-0705"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-kodin-ymparilla-3efa",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-kodin-ymparilla-3efa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-image",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-ruokakaupassa-0726",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-ruokakaupassa-0726"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-image",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-leipomo-9659",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-leipomo-9659"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-ranta-05a9",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-ranta-05a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-linnut-c835",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-linnut-c835"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-linnut-2-1896",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-linnut-2-1896"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-image",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-aamiainen-add5",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-aamiainen-add5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-image",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-leirielama-f7f5",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-leirielama-f7f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "image-image",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-joulu-2c5b",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-joulu-2c5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-image",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-luokkahuone-0218",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-luokkahuone-0218"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-image",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-vaatteet-7443",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-vaatteet-7443"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-jalkiruoat-ja-makeiset-5daf",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-jalkiruoat-ja-makeiset-5daf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-image",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-dinosaurukset-5414",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-dinosaurukset-5414"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-image",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-paasiainen-2eb0",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-paasiainen-2eb0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 5
+    },
+    {
+      "mode": "image-image",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-maatilan-elaimet-b4d0",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-maatilan-elaimet-b4d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-image",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-kukat-7ba7",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-kukat-7ba7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-metsan-elaimet-71ef",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-metsan-elaimet-71ef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-hedelmat-cda2",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-hedelmat-cda2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-huonekalut-10c5",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-huonekalut-10c5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-image",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-sairaala-8b31",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-sairaala-8b31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-hyonteiset-ja-otokat-cfa9",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-hyonteiset-ja-otokat-cfa9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-keittiovalineet-730a",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-keittiovalineet-730a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-sekalaista-3bac",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-sekalaista-3bac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-image",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-musiikki-8875",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-musiikki-8875"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-image",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-ammatit-c96c",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-ammatit-c96c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-image",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-merielama-e7b3",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-merielama-e7b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-image",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-lemmikit-92a4",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-lemmikit-92a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-image",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-postitoimisto-fe1c",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-postitoimisto-fe1c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-matelijat-ja-sammakkoelaimet-bad0",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-matelijat-ja-sammakkoelaimet-bad0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-muodot-7317",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-muodot-7317"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-image",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-avaruus-b598",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-avaruus-b598"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-image",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-kiitospaiva-7dec",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-kiitospaiva-7dec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-image",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-lentavat-asiat-8ed4",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-lentavat-asiat-8ed4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-tyokalut-5016",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-tyokalut-5016"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-lelut-cb9b",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-lelut-cb9b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-image",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-puut-e3e1",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-puut-e3e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-vihannekset-5686",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-vihannekset-5686"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-image",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-ajoneuvot-1d8b",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-ajoneuvot-1d8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-image",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-kuva-elaintarhan-elaimet-f322",
+      "siblings": [
+        "yhteenlasku-kuva-kuva-elaintarhan-elaimet-f322"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-asusteet-3ffc",
+      "siblings": [
+        "yhteenlasku-kuva-numero-asusteet-3ffc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-elaimet-af53",
+      "siblings": [
+        "yhteenlasku-kuva-numero-elaimet-af53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-kodin-ymparilla-cacf",
+      "siblings": [
+        "yhteenlasku-kuva-numero-kodin-ymparilla-cacf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-ruokakaupassa-dd4b",
+      "siblings": [
+        "yhteenlasku-kuva-numero-ruokakaupassa-dd4b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-leipomo-efe6",
+      "siblings": [
+        "yhteenlasku-kuva-numero-leipomo-efe6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-ranta-17e4",
+      "siblings": [
+        "yhteenlasku-kuva-numero-ranta-17e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-linnut-ee33",
+      "siblings": [
+        "yhteenlasku-kuva-numero-linnut-ee33"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-linnut-2-955a",
+      "siblings": [
+        "yhteenlasku-kuva-numero-linnut-2-955a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-aamiainen-aee4",
+      "siblings": [
+        "yhteenlasku-kuva-numero-aamiainen-aee4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-leirielama-6f8b",
+      "siblings": [
+        "yhteenlasku-kuva-numero-leirielama-6f8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-joulu-546c",
+      "siblings": [
+        "yhteenlasku-kuva-numero-joulu-546c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-luokkahuone-dba8",
+      "siblings": [
+        "yhteenlasku-kuva-numero-luokkahuone-dba8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-vaatteet-eb9d",
+      "siblings": [
+        "yhteenlasku-kuva-numero-vaatteet-eb9d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-jalkiruoat-ja-makeiset-c918",
+      "siblings": [
+        "yhteenlasku-kuva-numero-jalkiruoat-ja-makeiset-c918"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-dinosaurukset-8521",
+      "siblings": [
+        "yhteenlasku-kuva-numero-dinosaurukset-8521"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-paasiainen-85fe",
+      "siblings": [
+        "yhteenlasku-kuva-numero-paasiainen-85fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-maatilan-elaimet-5c6a",
+      "siblings": [
+        "yhteenlasku-kuva-numero-maatilan-elaimet-5c6a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-kukat-6d2a",
+      "siblings": [
+        "yhteenlasku-kuva-numero-kukat-6d2a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-metsan-elaimet-88f6",
+      "siblings": [
+        "yhteenlasku-kuva-numero-metsan-elaimet-88f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-hedelmat-ebcc",
+      "siblings": [
+        "yhteenlasku-kuva-numero-hedelmat-ebcc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 6
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-huonekalut-7e6d",
+      "siblings": [
+        "yhteenlasku-kuva-numero-huonekalut-7e6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-sairaala-be50",
+      "siblings": [
+        "yhteenlasku-kuva-numero-sairaala-be50"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-hyonteiset-ja-otokat-1418",
+      "siblings": [
+        "yhteenlasku-kuva-numero-hyonteiset-ja-otokat-1418"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-keittiovalineet-2620",
+      "siblings": [
+        "yhteenlasku-kuva-numero-keittiovalineet-2620"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-sekalaista-4ab5",
+      "siblings": [
+        "yhteenlasku-kuva-numero-sekalaista-4ab5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-musiikki-bc69",
+      "siblings": [
+        "yhteenlasku-kuva-numero-musiikki-bc69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-ammatit-8488",
+      "siblings": [
+        "yhteenlasku-kuva-numero-ammatit-8488"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-merielama-d886",
+      "siblings": [
+        "yhteenlasku-kuva-numero-merielama-d886"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-lemmikit-db2e",
+      "siblings": [
+        "yhteenlasku-kuva-numero-lemmikit-db2e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-postitoimisto-fff4",
+      "siblings": [
+        "yhteenlasku-kuva-numero-postitoimisto-fff4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-matelijat-ja-sammakkoelaimet-49e9",
+      "siblings": [
+        "yhteenlasku-kuva-numero-matelijat-ja-sammakkoelaimet-49e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-muodot-4578",
+      "siblings": [
+        "yhteenlasku-kuva-numero-muodot-4578"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-avaruus-eaa2",
+      "siblings": [
+        "yhteenlasku-kuva-numero-avaruus-eaa2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-kiitospaiva-964b",
+      "siblings": [
+        "yhteenlasku-kuva-numero-kiitospaiva-964b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-lentavat-asiat-9a83",
+      "siblings": [
+        "yhteenlasku-kuva-numero-lentavat-asiat-9a83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-tyokalut-77a1",
+      "siblings": [
+        "yhteenlasku-kuva-numero-tyokalut-77a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-lelut-a426",
+      "siblings": [
+        "yhteenlasku-kuva-numero-lelut-a426"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-puut-3b26",
+      "siblings": [
+        "yhteenlasku-kuva-numero-puut-3b26"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-vihannekset-4cdf",
+      "siblings": [
+        "yhteenlasku-kuva-numero-vihannekset-4cdf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-ajoneuvot-6c18",
+      "siblings": [
+        "yhteenlasku-kuva-numero-ajoneuvot-6c18"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-kuva-numero-elaintarhan-elaimet-a0a0",
+      "siblings": [
+        "yhteenlasku-kuva-numero-elaintarhan-elaimet-a0a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-asusteet-41d1",
+      "siblings": [
+        "yhteenlasku-sekoitettu-asusteet-41d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-elaimet-15b5",
+      "siblings": [
+        "yhteenlasku-sekoitettu-elaimet-15b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-kodin-ymparilla-9935",
+      "siblings": [
+        "yhteenlasku-sekoitettu-kodin-ymparilla-9935"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-ruokakaupassa-87ba",
+      "siblings": [
+        "yhteenlasku-sekoitettu-ruokakaupassa-87ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-leipomo-d0d1",
+      "siblings": [
+        "yhteenlasku-sekoitettu-leipomo-d0d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-linnut-05b8",
+      "siblings": [
+        "yhteenlasku-sekoitettu-linnut-05b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-linnut-2-548a",
+      "siblings": [
+        "yhteenlasku-sekoitettu-linnut-2-548a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-aamiainen-9a2a",
+      "siblings": [
+        "yhteenlasku-sekoitettu-aamiainen-9a2a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-leirielama-7d5b",
+      "siblings": [
+        "yhteenlasku-sekoitettu-leirielama-7d5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-joulu-7bf1",
+      "siblings": [
+        "yhteenlasku-sekoitettu-joulu-7bf1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-luokkahuone-3ffd",
+      "siblings": [
+        "yhteenlasku-sekoitettu-luokkahuone-3ffd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-vaatteet-29d1",
+      "siblings": [
+        "yhteenlasku-sekoitettu-vaatteet-29d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-jalkiruoat-ja-makeiset-d345",
+      "siblings": [
+        "yhteenlasku-sekoitettu-jalkiruoat-ja-makeiset-d345"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-dinosaurukset-838c",
+      "siblings": [
+        "yhteenlasku-sekoitettu-dinosaurukset-838c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-maatilan-elaimet-1327",
+      "siblings": [
+        "yhteenlasku-sekoitettu-maatilan-elaimet-1327"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-kukat-22da",
+      "siblings": [
+        "yhteenlasku-sekoitettu-kukat-22da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-metsan-elaimet-6dbf",
+      "siblings": [
+        "yhteenlasku-sekoitettu-metsan-elaimet-6dbf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-hedelmat-9c66",
+      "siblings": [
+        "yhteenlasku-sekoitettu-hedelmat-9c66"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-huonekalut-7f5b",
+      "siblings": [
+        "yhteenlasku-sekoitettu-huonekalut-7f5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-sairaala-c122",
+      "siblings": [
+        "yhteenlasku-sekoitettu-sairaala-c122"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-hyonteiset-ja-otokat-2b5d",
+      "siblings": [
+        "yhteenlasku-sekoitettu-hyonteiset-ja-otokat-2b5d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-keittiovalineet-a51f",
+      "siblings": [
+        "yhteenlasku-sekoitettu-keittiovalineet-a51f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-sekalaista-5fb7",
+      "siblings": [
+        "yhteenlasku-sekoitettu-sekalaista-5fb7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-musiikki-4f7c",
+      "siblings": [
+        "yhteenlasku-sekoitettu-musiikki-4f7c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-ammatit-3d47",
+      "siblings": [
+        "yhteenlasku-sekoitettu-ammatit-3d47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-merielama-8f12",
+      "siblings": [
+        "yhteenlasku-sekoitettu-merielama-8f12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-lemmikit-ca5d",
+      "siblings": [
+        "yhteenlasku-sekoitettu-lemmikit-ca5d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-postitoimisto-ef19",
+      "siblings": [
+        "yhteenlasku-sekoitettu-postitoimisto-ef19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-matelijat-ja-sammakkoelaimet-7526",
+      "siblings": [
+        "yhteenlasku-sekoitettu-matelijat-ja-sammakkoelaimet-7526"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-muodot-70dd",
+      "siblings": [
+        "yhteenlasku-sekoitettu-muodot-70dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-avaruus-7aea",
+      "siblings": [
+        "yhteenlasku-sekoitettu-avaruus-7aea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-kiitospaiva-8f53",
+      "siblings": [
+        "yhteenlasku-sekoitettu-kiitospaiva-8f53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-lentavat-asiat-9396",
+      "siblings": [
+        "yhteenlasku-sekoitettu-lentavat-asiat-9396"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 9
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-tyokalut-208b",
+      "siblings": [
+        "yhteenlasku-sekoitettu-tyokalut-208b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-lelut-c2f5",
+      "siblings": [
+        "yhteenlasku-sekoitettu-lelut-c2f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-puut-3921",
+      "siblings": [
+        "yhteenlasku-sekoitettu-puut-3921"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-vihannekset-cf21",
+      "siblings": [
+        "yhteenlasku-sekoitettu-vihannekset-cf21"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-ajoneuvot-e2ec",
+      "siblings": [
+        "yhteenlasku-sekoitettu-ajoneuvot-e2ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 8
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "yhteenlasku-sekoitettu-elaintarhan-elaimet-b72f",
+      "siblings": [
+        "yhteenlasku-sekoitettu-elaintarhan-elaimet-b72f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "1-luokka",
+      "standard": "K.OA.A.2",
+      "_max": 7
+    }
+  ]
+}

@@ -54,7 +54,7 @@ const TYPE_MAP = {
   'find-and-count': { op: 'Procure e conte', qual: {} },
   'pattern-train': { op: { 'null': 'Sequência AB', aab: 'Sequência AAB', abb: 'Sequência ABB', aabb: 'Sequência AABB', abc: 'Sequência ABC' }, qual: {} },
   'pattern-worksheet': { op: 'Sequências lógicas', qual: {} },
-  'picture-path': { op: 'Labirinto', qual: { 'choose-path': 'escolha o caminho', 'classic-maze': 'labirinto clássico' } },
+  'picture-path': { op: 'Labirinto', qual: { 'choose-path': 'com escolhas', 'classic-maze': 'clássico' } },
   'picture-trail': { op: 'Labirinto', qual: {} },
   'picture-sort': { op: 'Separe as imagens', qual: {} },
   'odd-one-out': { op: 'Ache o intruso', qual: { 'cross-theme': 'temas misturados' } },

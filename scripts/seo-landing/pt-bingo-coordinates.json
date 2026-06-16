@@ -1,0 +1,711 @@
+{
+  "locale": "pt",
+  "exerciseType": "bingo",
+  "level": "educacao-infantil",
+  "rawRowCount": 80,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 38
+  },
+  "totalValid": 38,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "kitchen_tools",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "things_that_fly",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 37,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-acessorios-098e",
+      "siblings": [
+        "bingo-acessorios-098e",
+        "bingo-acessorios-bfc4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 3,
+      "canonicalDeckSlug": "bingo-atividades-fde1",
+      "siblings": [
+        "bingo-atividades-fde1",
+        "bingo-atividades-8c9b",
+        "bingo-atividades-c0ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 3,
+      "canonicalDeckSlug": "bingo-animais",
+      "siblings": [
+        "bingo-animais",
+        "bingo-animais-107f",
+        "bingo-animais-6149"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-pela-casa-d174",
+      "siblings": [
+        "bingo-pela-casa-d174",
+        "bingo-pela-casa-36e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-no-supermercado-5277",
+      "siblings": [
+        "bingo-no-supermercado-5277",
+        "bingo-no-supermercado-a55f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-padaria-d39a",
+      "siblings": [
+        "bingo-padaria-d39a",
+        "bingo-padaria-ee99"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-praia-c465",
+      "siblings": [
+        "bingo-praia-c465",
+        "bingo-praia-d2db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-passaros-2-925e",
+      "siblings": [
+        "bingo-passaros-2-925e",
+        "bingo-passaros-2-5b1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-partes-do-corpo-15b9",
+      "siblings": [
+        "bingo-partes-do-corpo-15b9",
+        "bingo-partes-do-corpo-5023"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-cafe-da-manha-b795",
+      "siblings": [
+        "bingo-cafe-da-manha-b795",
+        "bingo-cafe-da-manha-e926"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-acampamento-4b37",
+      "siblings": [
+        "bingo-acampamento-4b37",
+        "bingo-acampamento-9ea6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-natal-b2a8",
+      "siblings": [
+        "bingo-natal-b2a8",
+        "bingo-natal-cf9c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-sala-de-aula-7ca6",
+      "siblings": [
+        "bingo-sala-de-aula-7ca6",
+        "bingo-sala-de-aula-0a09"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-roupas-2923",
+      "siblings": [
+        "bingo-roupas-2923",
+        "bingo-roupas-8395"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-cores-5b34",
+      "siblings": [
+        "bingo-cores-5b34",
+        "bingo-cores-aa95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-sobremesas-e-doces-482c",
+      "siblings": [
+        "bingo-sobremesas-e-doces-482c",
+        "bingo-sobremesas-e-doces-45ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-pascoa-a0a0",
+      "siblings": [
+        "bingo-pascoa-a0a0",
+        "bingo-pascoa-ab1d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-animais-da-fazenda-68ac",
+      "siblings": [
+        "bingo-animais-da-fazenda-68ac",
+        "bingo-animais-da-fazenda-2d48"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "bingo-flores-69ce",
+      "siblings": [
+        "bingo-flores-69ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 3,
+      "canonicalDeckSlug": "bingo-criaturas-da-floresta-0575",
+      "siblings": [
+        "bingo-criaturas-da-floresta-0575",
+        "bingo-criaturas-da-floresta-9a87",
+        "bingo-criaturas-da-floresta-d5f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-frutas-259e",
+      "siblings": [
+        "bingo-frutas-259e",
+        "bingo-frutas-4572"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-moveis-120d",
+      "siblings": [
+        "bingo-moveis-120d",
+        "bingo-moveis-84c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-hospital-62ee",
+      "siblings": [
+        "bingo-hospital-62ee",
+        "bingo-hospital-5ab4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-utensilios-de-cozinha-a35b",
+      "siblings": [
+        "bingo-utensilios-de-cozinha-a35b",
+        "bingo-utensilios-de-cozinha-9ead"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-profissoes-f864",
+      "siblings": [
+        "bingo-profissoes-f864",
+        "bingo-profissoes-d45e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-vida-marinha-a00a",
+      "siblings": [
+        "bingo-vida-marinha-a00a",
+        "bingo-vida-marinha-ddc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-animais-de-estimacao-f449",
+      "siblings": [
+        "bingo-animais-de-estimacao-f449",
+        "bingo-animais-de-estimacao-c6a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-formas-abbd",
+      "siblings": [
+        "bingo-formas-abbd",
+        "bingo-formas-d9e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-espaco-74e4",
+      "siblings": [
+        "bingo-espaco-74e4",
+        "bingo-espaco-a838"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-primavera-ce94",
+      "siblings": [
+        "bingo-primavera-ce94",
+        "bingo-primavera-27e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-verao-5b80",
+      "siblings": [
+        "bingo-verao-5b80",
+        "bingo-verao-da1c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 3,
+      "canonicalDeckSlug": "bingo-coisas-que-voam-0f13",
+      "siblings": [
+        "bingo-coisas-que-voam-0f13",
+        "bingo-coisas-que-voam-942d",
+        "bingo-coisas-que-voam-f305"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 3,
+      "canonicalDeckSlug": "bingo-brinquedos-f7c3",
+      "siblings": [
+        "bingo-brinquedos-f7c3",
+        "bingo-brinquedos-37b1",
+        "bingo-brinquedos-dc92"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-vegetais-5db5",
+      "siblings": [
+        "bingo-vegetais-5db5",
+        "bingo-vegetais-df92"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-veiculos-ded6",
+      "siblings": [
+        "bingo-veiculos-ded6",
+        "bingo-veiculos-d6ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-clima-0ac6",
+      "siblings": [
+        "bingo-clima-0ac6",
+        "bingo-clima-b297"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-inverno-8760",
+      "siblings": [
+        "bingo-inverno-8760",
+        "bingo-inverno-e1bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonicalDeckSlug": "bingo-animais-do-zoologico-1aed",
+      "siblings": [
+        "bingo-animais-do-zoologico-1aed",
+        "bingo-animais-do-zoologico-1870"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    }
+  ]
+}

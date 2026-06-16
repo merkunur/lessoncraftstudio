@@ -1,0 +1,1499 @@
+{
+  "locale": "pt",
+  "exerciseType": "picture-path",
+  "level": "educacao-infantil",
+  "rawRowCount": 93,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "choose-path": 49,
+    "classic-maze": 40
+  },
+  "totalValid": 89,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "choose-path",
+    "classic-maze"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "choose-path",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-acessorios-36df",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-acessorios-36df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-atividades-e275",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-atividades-e275"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-animais-32ae",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-animais-32ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-pela-casa-54cb",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-pela-casa-54cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-no-supermercado-76e4",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-no-supermercado-76e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-padaria-d3e3",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-padaria-d3e3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-praia-d3d5",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-praia-d3d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-passaros-f2be",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-passaros-f2be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-passaros-2-e463",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-passaros-2-e463"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-partes-do-corpo-0f98",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-partes-do-corpo-0f98"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-cafe-da-manha-094b",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-cafe-da-manha-094b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-acampamento-334e",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-acampamento-334e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-natal-4c76",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-natal-4c76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-sala-de-aula-edc5",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-sala-de-aula-edc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-roupas-6808",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-roupas-6808"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-cores-907b",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-cores-907b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-sobremesas-e-doces-1fc4",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-sobremesas-e-doces-1fc4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-dinossauros-c77f",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-dinossauros-c77f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-pascoa-bd9b",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-pascoa-bd9b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-emocoes-0b4e",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-emocoes-0b4e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-animais-da-fazenda-6577",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-animais-da-fazenda-6577"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-flores-29d9",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-flores-29d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-criaturas-da-floresta-26f4",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-criaturas-da-floresta-26f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-frutas-b9f5",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-frutas-b9f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-moveis-e8b1",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-moveis-e8b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-hospital-c8d1",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-hospital-c8d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-insetos-e-bichos-d515",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-insetos-e-bichos-d515"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-utensilios-de-cozinha-3204",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-utensilios-de-cozinha-3204"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-diversos-e723",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-diversos-e723"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-musica-f175",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-musica-f175"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-profissoes-6f01",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-profissoes-6f01"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-vida-marinha-b7db",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-vida-marinha-b7db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-animais-de-estimacao-53ca",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-animais-de-estimacao-53ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-correios-ff4a",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-correios-ff4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-repteis-e-anfibios-b333",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-repteis-e-anfibios-b333"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-formas-1757",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-formas-1757"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-espaco-1a34",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-espaco-1a34"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-primavera-0fd6",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-primavera-0fd6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-verao-c3e4",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-verao-c3e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-dia-de-acao-de-gracas-ccc6",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-dia-de-acao-de-gracas-ccc6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-coisas-que-voam-d5d1",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-coisas-que-voam-d5d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-ferramentas-4936",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-ferramentas-4936"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-brinquedos-a5b0",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-brinquedos-a5b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-arvores-92df",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-arvores-92df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-vegetais-cf78",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-vegetais-cf78"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-veiculos-69b8",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-veiculos-69b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-clima-0cc4",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-clima-0cc4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-inverno-2a5e",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-inverno-2a5e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-escolha-o-caminho-certo-animais-do-zoologico-9785",
+      "siblings": [
+        "caminho-ilustrado-escolha-o-caminho-certo-animais-do-zoologico-9785"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-acessorios-af1b",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-acessorios-af1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-atividades-f69b",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-atividades-f69b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-pela-casa-493e",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-pela-casa-493e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-no-supermercado-b1d0",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-no-supermercado-b1d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-padaria-6b3a",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-padaria-6b3a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-praia-cf41",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-praia-cf41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-passaros-be31",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-passaros-be31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-cafe-da-manha-04ba",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-cafe-da-manha-04ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-acampamento-01a5",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-acampamento-01a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-natal-90bc",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-natal-90bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-sala-de-aula-7ab6",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-sala-de-aula-7ab6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-roupas-ec82",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-roupas-ec82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-cores-3e1a",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-cores-3e1a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-sobremesas-e-doces-0dc8",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-sobremesas-e-doces-0dc8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-dinossauros-289f",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-dinossauros-289f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-pascoa-2161",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-pascoa-2161"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-emocoes-bbd4",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-emocoes-bbd4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-flores-1d5b",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-flores-1d5b",
+        "caminho-ilustrado-labirinto-classico-flores-11e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-frutas-9f63",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-frutas-9f63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-moveis-2a21",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-moveis-2a21"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-hospital-8567",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-hospital-8567"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-insetos-e-bichos-3f87",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-insetos-e-bichos-3f87"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-utensilios-de-cozinha-c7b1",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-utensilios-de-cozinha-c7b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-diversos-4ee5",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-diversos-4ee5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-musica-4e40",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-musica-4e40"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-profissoes-1a27",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-profissoes-1a27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-vida-marinha-7ba0",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-vida-marinha-7ba0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-correios-7b81",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-correios-7b81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-repteis-e-anfibios-cff7",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-repteis-e-anfibios-cff7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-formas-e69f",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-formas-e69f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-espaco-b362",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-espaco-b362"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-primavera-e29b",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-primavera-e29b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-verao-019a",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-verao-019a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-ferramentas-d685",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-ferramentas-d685"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-brinquedos-adcf",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-brinquedos-adcf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-arvores-ee3f",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-arvores-ee3f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-vegetais-39fd",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-vegetais-39fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-veiculos-bc4c",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-veiculos-bc4c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-clima-b9d5",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-clima-b9d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "caminho-ilustrado-labirinto-classico-inverno-e8ab",
+      "siblings": [
+        "caminho-ilustrado-labirinto-classico-inverno-e8ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    }
+  ]
+}

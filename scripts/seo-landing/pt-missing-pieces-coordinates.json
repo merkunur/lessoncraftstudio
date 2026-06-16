@@ -1,0 +1,1577 @@
+{
+  "locale": "pt",
+  "exerciseType": "missing-pieces",
+  "level": "educacao-infantil",
+  "rawRowCount": 97,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "one-missing": 47,
+    "two-missing": 47
+  },
+  "totalValid": 94,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "one-missing",
+    "two-missing"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "one-missing",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-acessorios-b5c9",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-acessorios-b5c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-atividades-eeb4",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-atividades-eeb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-animais",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-animais",
+        "pecas-faltantes-1-peca-faltando-animais-eec3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-pela-casa-b5be",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-pela-casa-b5be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-no-supermercado-8070",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-no-supermercado-8070"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-padaria-4b74",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-padaria-4b74"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-praia-24b5",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-praia-24b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-passaros-89fb",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-passaros-89fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-passaros-2-849e",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-passaros-2-849e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-partes-do-corpo-6ecd",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-partes-do-corpo-6ecd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-cafe-da-manha-e30d",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-cafe-da-manha-e30d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-acampamento-1b31",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-acampamento-1b31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-natal-e70f",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-natal-e70f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-sala-de-aula-edff",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-sala-de-aula-edff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-roupas-bdec",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-roupas-bdec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-sobremesas-e-doces-2a2f",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-sobremesas-e-doces-2a2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-dinossauros-84a9",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-dinossauros-84a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-pascoa-43ff",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-pascoa-43ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-emocoes-2310",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-emocoes-2310"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-animais-da-fazenda-ca6e",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-animais-da-fazenda-ca6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-flores-d376",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-flores-d376"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-criaturas-da-floresta-5a4c",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-criaturas-da-floresta-5a4c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-frutas-f39d",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-frutas-f39d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-moveis-8838",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-moveis-8838"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-hospital-ac37",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-hospital-ac37"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-insetos-e-bichos-6bc1",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-insetos-e-bichos-6bc1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-utensilios-de-cozinha-a1e4",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-utensilios-de-cozinha-a1e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-diversos-83ea",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-diversos-83ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-musica-c5da",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-musica-c5da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-profissoes-9cc5",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-profissoes-9cc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-vida-marinha-852d",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-vida-marinha-852d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-animais-de-estimacao-7364",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-animais-de-estimacao-7364"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-correios-3220",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-correios-3220"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-repteis-e-anfibios-f633",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-repteis-e-anfibios-f633"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-espaco-bfaa",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-espaco-bfaa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-primavera-5592",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-primavera-5592"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-verao-2b42",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-verao-2b42"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-dia-de-acao-de-gracas-b809",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-dia-de-acao-de-gracas-b809"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-coisas-que-voam-df21",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-coisas-que-voam-df21"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-ferramentas-5480",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-ferramentas-5480"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-brinquedos-fcbd",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-brinquedos-fcbd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-arvores-bd69",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-arvores-bd69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-vegetais-ad9e",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-vegetais-ad9e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-veiculos-eab6",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-veiculos-eab6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-clima-c03b",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-clima-c03b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-inverno-666a",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-inverno-666a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-1-peca-faltando-animais-do-zoologico-5d41",
+      "siblings": [
+        "pecas-faltantes-1-peca-faltando-animais-do-zoologico-5d41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-acessorios-9c41",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-acessorios-9c41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-atividades-1377",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-atividades-1377"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-animais-5ef3",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-animais-5ef3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-pela-casa-4a5e",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-pela-casa-4a5e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-no-supermercado-924b",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-no-supermercado-924b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-padaria-6c02",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-padaria-6c02"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-praia-e02b",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-praia-e02b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-passaros-dbc4",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-passaros-dbc4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-passaros-2-cdf9",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-passaros-2-cdf9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-partes-do-corpo-00d7",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-partes-do-corpo-00d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-cafe-da-manha-6aaa",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-cafe-da-manha-6aaa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-acampamento-eed5",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-acampamento-eed5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-natal-513a",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-natal-513a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-sala-de-aula-7ea7",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-sala-de-aula-7ea7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-roupas-18c5",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-roupas-18c5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-sobremesas-e-doces-6fba",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-sobremesas-e-doces-6fba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-dinossauros-1cd9",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-dinossauros-1cd9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-pascoa-eebd",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-pascoa-eebd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-emocoes-c428",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-emocoes-c428"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-animais-da-fazenda-2474",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-animais-da-fazenda-2474"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-flores-362d",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-flores-362d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-criaturas-da-floresta-ef78",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-criaturas-da-floresta-ef78"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-frutas-e62a",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-frutas-e62a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-moveis-d387",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-moveis-d387"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-hospital-6b1b",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-hospital-6b1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-insetos-e-bichos-033c",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-insetos-e-bichos-033c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-utensilios-de-cozinha-3c36",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-utensilios-de-cozinha-3c36"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-diversos-d1e5",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-diversos-d1e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-musica-3c76",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-musica-3c76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-profissoes-81b0",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-profissoes-81b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-vida-marinha-7c7e",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-vida-marinha-7c7e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-animais-de-estimacao-452c",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-animais-de-estimacao-452c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-correios-f868",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-correios-f868"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-repteis-e-anfibios-b4f8",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-repteis-e-anfibios-b4f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-espaco-6e6f",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-espaco-6e6f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-primavera-f5cb",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-primavera-f5cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-verao-787e",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-verao-787e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-dia-de-acao-de-gracas-fd56",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-dia-de-acao-de-gracas-fd56"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-coisas-que-voam-71f5",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-coisas-que-voam-71f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-ferramentas-bf28",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-ferramentas-bf28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-brinquedos-d3df",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-brinquedos-d3df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-arvores-4437",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-arvores-4437"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-vegetais-45e8",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-vegetais-45e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-veiculos-424d",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-veiculos-424d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-clima-7c7e",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-clima-7c7e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-inverno-bc37",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-inverno-bc37"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonicalDeckSlug": "pecas-faltantes-2-pecas-faltando-animais-do-zoologico-a93d",
+      "siblings": [
+        "pecas-faltantes-2-pecas-faltando-animais-do-zoologico-a93d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "educacao-infantil"
+    }
+  ]
+}

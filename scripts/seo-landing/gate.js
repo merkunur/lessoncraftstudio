@@ -6,6 +6,10 @@
  */
 const fs = require('fs');
 const path = require('process').argv[2] || 'frontend/content/seo-landing/en.json';
+// fi tokenizer fix: the default [a-z0-9] strips ä/ö/å (very common in Finnish) → fragments
+// words → UNDER-reports similarity for fi. Widen to a \p{L} Unicode tokenizer ONLY for fi.json
+// so the other 10 locales' scores are byte-identical (the swirling-bengio recommendation).
+const IS_FI = /\bfi\.json$/.test(path.replace(/\\/g, '/'));
 const data = JSON.parse(fs.readFileSync(path, 'utf8'));
 const pages = data.landings;
 
@@ -17,7 +21,7 @@ const BANNED = [
   'engaging','captivating','delightful','amazing','watch as they learn','before you know it',
   'in no time','boost','supercharge','unlock','easy and fun','simple yet effective'];
 
-function words(s){ return (s.toLowerCase().match(/[a-z0-9]+/g)||[]); }
+function words(s){ return (s.toLowerCase().match(IS_FI ? /[\p{L}0-9]+/gu : /[a-z0-9]+/g)||[]); }
 function grams(s,n){ const w=words(s); const g=new Set(); for(let i=0;i+n<=w.length;i++) g.add(w.slice(i,i+n).join(' ')); return g; }
 function jaccard(a,b){ if(a.size===0&&b.size===0) return 1; let inter=0; for(const x of a) if(b.has(x)) inter++; return inter/(a.size+b.size-inter); }
 function normalize(text, tokens){ let t=' '+text.toLowerCase()+' '; for(const tok of (tokens||[])){ const re=new RegExp('\\b'+tok.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','g'); t=t.replace(re,' __slot__ '); } return t; }

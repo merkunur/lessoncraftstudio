@@ -33,7 +33,13 @@ const tax = JSON.parse(fs.readFileSync('frontend/config/topics-taxonomy.json', '
 const FR = require('./fi-chartcount-frames'); // { p1:[..], p2:[..], p3:[..] } native templates
 const THEME_AXIS = (tax.axes && tax.axes.theme) || {};
 
-function themeDisplay(k) { const e = THEME_AXIS[k]; return (e && e.name && e.name.fi) ? e.name.fi : k; }
+// §20.5: ignore trailing numbers on theme/category names ("Linnut 2" -> "Linnut") — dedup artifacts.
+function stripNum(s) { return String(s || '').replace(/[\s-]*\d+$/, '').trim(); }
+function themeDisplay(k) { const e = THEME_AXIS[k]; return stripNum((e && e.name && e.name.fi) ? e.name.fi : k); }
+// Coprime cell-assignment (NOT periodic i%len, which clusters same-template collisions): give each
+// entry a DISTINCT (p1,p2,p3) template cell so no two pages share all three templates.
+function gcd(a, b) { while (b) { const t = a % b; a = b; b = t; } return a; }
+function coprimeStride(cells) { let k = Math.max(2, Math.round(cells * 0.6180339887)); for (let d = 0; d < cells; d++) for (const cand of [k + d, k - d]) if (cand > 1 && cand < cells && gcd(cand, cells) === 1) return cand; return 1; }
 function lc(s) { return s ? s.charAt(0).toLowerCase() + s.slice(1) : s; }
 // Finnish list join: "poro, norsu ja susi"
 function fiList(items) { if (items.length === 1) return items[0]; return items.slice(0, -1).join(', ') + ' ja ' + items[items.length - 1]; }
@@ -44,13 +50,18 @@ const culled = deckList.filter(d => CULL_THEMES.has(d.themeKey || d.theme)).map(
 const targets = deckList.filter(d => !CULL_THEMES.has(d.themeKey || d.theme));
 const report = { dropped: [] };
 const entries = [];
+// Distinct-template cell space: (p1 × p2) coprime bijection + an independent p3 coprime index.
+const CELLS = FR.p1.length * FR.p2.length;
+const STRIDE = coprimeStride(CELLS);
+const P3N = FR.p3.length, P3STRIDE = coprimeStride(P3N) || 1;
+console.log('  template cells ' + FR.p1.length + 'x' + FR.p2.length + '=' + CELLS + ' (stride ' + STRIDE + ') vs decks ' + targets.length + (CELLS > targets.length ? ' [OK distinct]' : ' [WARN cells<decks]'));
 
 targets.forEach((deck, i) => {
   const themeKey = deck.themeKey || deck.theme;
   const cats = (deck.categories || deck.cats || []).filter(c => typeof c.count === 'number');
   if (cats.length < 2) { report.dropped.push((deck.slug || '?') + ' (only ' + cats.length + ' cats)'); return; }
   const T = themeDisplay(themeKey);
-  const CATS = fiList(cats.map(c => lc(c.locName))); // nominative-singular labels, never inflected
+  const CATS = fiList(cats.map(c => lc(stripNum(c.locName)))); // nominative-singular labels, trailing-num stripped, never inflected
   const counts = cats.map(c => c.count);
   const max = Math.max(...counts), min = Math.min(...counts), sum = counts.reduce((a, b) => a + b, 0);
   const siblings = deck.siblings || [deck.slug];
@@ -71,9 +82,9 @@ targets.forEach((deck, i) => {
     strand: 'Tilastot ja todennäköisyys',
     standard: 'K.MD.B.3',
     slotTokens: [...cats.map(c => c.locName), T, '1-luokka', 'kaavio'],
-    p1: fill(FR.p1[i % FR.p1.length], T, CATS),
-    p2: fill(FR.p2[i % FR.p2.length], T, CATS),
-    p3: fill(FR.p3[i % FR.p3.length], T, CATS),
+    p1: fill(FR.p1[(((i % CELLS) * STRIDE) % CELLS) % FR.p1.length], T, CATS),
+    p2: fill(FR.p2[Math.floor(((i % CELLS) * STRIDE) % CELLS / FR.p1.length) % FR.p2.length], T, CATS),
+    p3: fill(FR.p3[((i % P3N) * P3STRIDE) % P3N], T, CATS),
     canonicalDeckSlug: deck.slug,
     carousel: [],
     practiceProblems: pp,

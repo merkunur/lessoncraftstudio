@@ -52,6 +52,7 @@ const MANIFEST_FILES = [
   'syllable-builder-activities.json',
   'place-value-activities.json',
   'match-pairs-activities.json',
+  'fractions-activities.json',
   // future: 'number-line-activities.json', 'ruler-activities.json', …
 ];
 

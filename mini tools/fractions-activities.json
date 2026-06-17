@@ -1,0 +1,58 @@
+[
+  {
+    "id": "fractions.partition-equal-shares.1-g-a-3",
+    "tool": "fractions-activity",
+    "task_template": "partition-equal-shares",
+    "alignment": { "framework": "CCSS", "code": "1.G.A.3", "grade": "1", "strand": "Geometry" },
+    "params": {
+      "rounds": [
+        { "shape": "rect",   "n": 2, "cut": "v",    "seed": 11 },
+        { "shape": "circle", "n": 2, "cut": "v",    "seed": 23 },
+        { "shape": "square", "n": 2, "cut": "h",    "seed": 31 },
+        { "shape": "square", "n": 4, "cut": "grid", "seed": 37 },
+        { "shape": "circle", "n": 4, "cut": "grid", "seed": 41 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "make-equal-parts",
+      "de": "gleiche-teile-machen",
+      "es": "forma-partes-iguales",
+      "pt": "fazer-partes-iguais",
+      "fr": "partager-en-parts-egales",
+      "it": "crea-parti-uguali",
+      "nl": "gelijke-delen-maken",
+      "sv": "gor-lika-stora-delar",
+      "da": "lav-lige-store-dele",
+      "no": "lag-like-store-deler",
+      "fi": "tee-yhta-suuret-osat"
+    },
+    "page_title": {
+      "en": "Make Equal Parts — Partition into Halves & Fourths (Grade 1)",
+      "de": "Gleiche Teile machen – Hälften und Viertel schneiden",
+      "es": "Forma partes iguales: mitades y cuartos para niños",
+      "pt": "Faça Partes Iguais: metades e quartos para crianças",
+      "fr": "Partage en parts égales : moitiés et quarts (CP)",
+      "it": "Crea parti uguali: metà e quarti | gioco di geometria",
+      "nl": "Maak gelijke delen — helften en kwarten | Gratis spel",
+      "sv": "Gör lika stora delar – dela i halvor och fjärdedelar",
+      "da": "Lav lige store dele — halve og fjerdedele | gratis",
+      "no": "Lag like store deler – halvdeler og firedeler",
+      "fi": "Tee yhtä suuret osat – puolikkaat ja neljäsosat"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 geometry activity: tap to cut circles, squares and rectangles into 2 and 4 equal parts — halves and fourths. Common Core 1.G.A.3.",
+      "de": "Tippe und schneide Kreise, Quadrate und Rechtecke in 2 und 4 gleiche Teile – Hälften und Viertel. Kostenlose, interaktive Geometrie-Übung nach Lehrplan.",
+      "es": "Toca para cortar círculos, cuadrados y rectángulos en 2 y 4 partes iguales. Aprende mitades y cuartos con una actividad gratuita e interactiva para niños.",
+      "pt": "Toque para cortar círculos, quadrados e retângulos em 2 e 4 partes iguais — metades e quartos. Atividade gratuita e interativa de geometria, alinhada à BNCC.",
+      "fr": "Tape pour couper des cercles, des carrés et des rectangles en 2 et 4 parts égales : moitiés et quarts. Activité gratuite et interactive, dès le CP.",
+      "it": "Tocca per dividere cerchi, quadrati e rettangoli in 2 e 4 parti uguali — metà e quarti. Attività interattiva e gratuita, allineata alle Indicazioni nazionali.",
+      "nl": "Tik om cirkels, vierkanten en rechthoeken in 2 en 4 gelijke delen te knippen. Leer helften en kwarten met dit gratis interactieve spel, passend bij de SLO-kerndoelen.",
+      "sv": "Tryck och dela cirklar, kvadrater och rektanglar i 2 och 4 lika stora delar — halvor och fjärdedelar. Gratis, interaktiv matteövning enligt Lgr22.",
+      "da": "Tryk for at klippe cirkler, kvadrater og rektangler i 2 og 4 lige store dele — halve og fjerdedele. Gratis, interaktiv matematik for børn, der følger Fælles Mål.",
+      "no": "Trykk for å dele sirkler, kvadrater og rektangler i 2 og 4 like store deler. Gratis, interaktiv mattelek for de minste, tilpasset LK20.",
+      "fi": "Napauta ja jaa ympyrät, neliöt ja suorakulmiot kahteen ja neljään yhtä suureen osaan. Ilmainen ja vuorovaikutteinen geometriatehtävä. OPS 2014."
+    },
+    "kid_prompt_template": "partition-equal-shares"
+  }
+]

@@ -47,10 +47,12 @@ if (!SLUG) {
   const frameH = await page.waitForSelector('iframe', { timeout: 20000 });
   const frame = await frameH.contentFrame();
 
-  // wait for the tool + first task render (manifest fetch is async)
+  // wait for the tool + its pool + first task render (manifest fetch is async).
+  // The wrapper uses nextTask (no `tasks` property) — readiness = the manifest
+  // pool loaded (_activityRow / _pool) + the SVG rendered.
   await frame.waitForFunction(() => {
     const t = window.FractionsActivity;
-    return t && Array.isArray(t.tasks) && t.tasks.length === 5 &&
+    return t && (t._activityRow || (t._pool && t._pool.length)) &&
       document.querySelector('.frac-svg') && document.querySelectorAll('.frac-line').length > 0;
   }, { timeout: 20000 });
 

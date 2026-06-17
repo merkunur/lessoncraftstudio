@@ -86,7 +86,7 @@ if (!SLUG) {
       candIds: t.candidates.map(c => c.id),
       distractorIds: t.candidates.filter(c => c.kind === 'distractor').map(c => c.id),
       lineCount: document.querySelectorAll('.frac-line').length,
-      bodyCount: document.querySelectorAll('.frac-svg > rect, .frac-svg > circle').length,
+      bodyCount: document.querySelectorAll('.frac-svg > rect, .frac-svg > circle, .frac-svg > path, .frac-svg > ellipse').length,
       promptCelebrate: !!document.querySelector('.lcs-activity-prompt.celebrate'),
       promptTryagain: !!document.querySelector('.lcs-activity-prompt.tryagain'),
       hint: (document.querySelector('.lcs-activity-prompt-hint') || {}).textContent || '',
@@ -102,8 +102,9 @@ if (!SLUG) {
     if (s.lineCount < s.candIds.length) fail.push(`round ${r} (${s.shape}): only ${s.lineCount} lines rendered for ${s.candIds.length} candidates`);
     if (s.bodyCount < 1) fail.push(`round ${r} (${s.shape}): no shape body rendered`);
     if (!s.promptText) fail.push(`round ${r}: empty prompt text`);
-    // expected correct-cut count: circle halves=1/thirds=3/fourths=2; box halves=1/thirds=2/fourths=2
-    const expected = s.shape === 'circle' ? (s.n === 2 ? 1 : s.n === 3 ? 3 : 2) : (s.n === 2 ? 1 : 2);
+    // expected correct-cut count: halves=1, fourths=2; thirds = 3 for radial shapes
+    // (circle/triangle/hexagon → radii/cevians) or 2 for strip shapes (square/rect).
+    const expected = s.n === 2 ? 1 : s.n === 4 ? 2 : (['circle', 'triangle', 'hexagon'].indexOf(s.shape) >= 0 ? 3 : 2);
     if (s.correctIds.length !== expected) fail.push(`round ${r} (${s.shape}/n${s.n}): correctIds=${s.correctIds.length}, expected ${expected}`);
 
     // WRONG PATH (prove once, on the first round that has a distractor):

@@ -46,24 +46,6 @@ window.FractionsCore = {
     promptFourths: {en:"Cut the shape into 4 equal parts — fourths.",de:"Schneide die Form in 4 gleiche Teile – Viertel.",es:"Corta la figura en 4 partes iguales: cuartos.",pt:"Corte em 4 partes iguais — os quartos.",fr:"Coupe la forme en 4 parts égales : les quarts.",it:"Dividi la figura in 4 parti uguali — i quarti.",nl:"Knip in 4 gelijke delen — kwarten.",sv:"Dela formen i 4 lika stora delar — fjärdedelar.",da:"Klip figuren i 4 lige store dele — fjerdedele.",no:"Del opp i 4 like store deler — firedeler.",fi:"Jaa neljään yhtä suureen osaan – neljäsosat."},
     /* E14 #3b thirds (2.G.A.3) — native per locale */
     promptThirds: {en:"Cut the shape into 3 equal parts — thirds.",de:"Schneide die Form in 3 gleiche Teile – Drittel.",es:"Corta la figura en 3 partes iguales: tercios.",pt:"Corte em 3 partes iguais — os terços.",fr:"Coupe la forme en 3 parts égales : les tiers.",it:"Dividi la figura in 3 parti uguali — i terzi.",nl:"Knip in 3 gelijke delen — derden.",sv:"Dela formen i 3 lika stora delar — tredjedelar.",da:"Klip figuren i 3 lige store dele — tredjedele.",no:"Del opp i 3 like store deler — tredeler.",fi:"Jaa kolmeen yhtä suureen osaan – kolmasosat."},
-    /* THEMED prompts (§A.13.60 genuine variety — the prompt NAMES the drawn
-       object). Keyed <theme><n>. EN authored here; the 10 non-EN are folded
-       in after the native pass (article/gender/case per locale, Rule 3). */
-    pizza2:      {en:"Cut the pizza into 2 equal parts — halves.",de:"Schneide die Pizza in 2 gleiche Teile – Hälften.",es:"Corta la pizza en 2 partes iguales: mitades.",pt:"Corte a pizza em 2 partes iguais — as metades.",fr:"Coupe la pizza en 2 parts égales : les moitiés.",it:"Dividi la pizza in 2 parti uguali — le metà.",nl:"Knip de pizza in 2 gelijke delen — helften.",sv:"Dela pizzan i 2 lika stora delar — halvor.",da:"Klip pizzaen i 2 lige store dele — halve.",no:"Del pizzaen i 2 like store deler — halvdeler.",fi:"Jaa pizza kahteen yhtä suureen osaan – puolikkaat."},
-    pizza3:      {en:"Cut the pizza into 3 equal parts — thirds.",de:"Schneide die Pizza in 3 gleiche Teile – Drittel.",es:"Corta la pizza en 3 partes iguales: tercios.",pt:"Corte a pizza em 3 partes iguais — os terços.",fr:"Coupe la pizza en 3 parts égales : les tiers.",it:"Dividi la pizza in 3 parti uguali — i terzi.",nl:"Knip de pizza in 3 gelijke delen — derden.",sv:"Dela pizzan i 3 lika stora delar — tredjedelar.",da:"Klip pizzaen i 3 lige store dele — tredjedele.",no:"Del pizzaen i 3 like store deler — tredeler.",fi:"Jaa pizza kolmeen yhtä suureen osaan – kolmasosat."},
-    cookie4:     {en:"Cut the cookie into 4 equal parts — fourths.",de:"Schneide den Keks in 4 gleiche Teile – Viertel.",es:"Corta la galleta en 4 partes iguales: cuartos.",pt:"Corte o biscoito em 4 partes iguais — os quartos.",fr:"Coupe le cookie en 4 parts égales : les quarts.",it:"Dividi il biscotto in 4 parti uguali — i quarti.",nl:"Knip de koek in 4 gelijke delen — kwarten.",sv:"Dela kakan i 4 lika stora delar — fjärdedelar.",da:"Klip småkagen i 4 lige store dele — fjerdedele.",no:"Del kjeksen i 4 like store deler — firedeler.",fi:"Jaa keksi neljään yhtä suureen osaan – neljäsosat."},
-    watermelon2: {en:"Cut the watermelon into 2 equal parts — halves.",de:"Schneide die Wassermelone in 2 gleiche Teile – Hälften.",es:"Corta la sandía en 2 partes iguales: mitades.",pt:"Corte a melancia em 2 partes iguais — as metades.",fr:"Coupe la pastèque en 2 parts égales : les moitiés.",it:"Dividi l'anguria in 2 parti uguali — le metà.",nl:"Knip de watermeloen in 2 gelijke delen — helften.",sv:"Dela vattenmelonen i 2 lika stora delar — halvor.",da:"Klip vandmelonen i 2 lige store dele — halve.",no:"Del vannmelonen i 2 like store deler — halvdeler.",fi:"Jaa vesimeloni kahteen yhtä suureen osaan – puolikkaat."},
-    watermelon3: {en:"Cut the watermelon into 3 equal parts — thirds.",de:"Schneide die Wassermelone in 3 gleiche Teile – Drittel.",es:"Corta la sandía en 3 partes iguales: tercios.",pt:"Corte a melancia em 3 partes iguais — os terços.",fr:"Coupe la pastèque en 3 parts égales : les tiers.",it:"Dividi l'anguria in 3 parti uguali — i terzi.",nl:"Knip de watermeloen in 3 gelijke delen — derden.",sv:"Dela vattenmelonen i 3 lika stora delar — tredjedelar.",da:"Klip vandmelonen i 3 lige store dele — tredjedele.",no:"Del vannmelonen i 3 like store deler — tredeler.",fi:"Jaa vesimeloni kolmeen yhtä suureen osaan – kolmasosat."},
-    orange4:     {en:"Cut the orange into 4 equal parts — fourths.",de:"Schneide die Orange in 4 gleiche Teile – Viertel.",es:"Corta la naranja en 4 partes iguales: cuartos.",pt:"Corte a laranja em 4 partes iguais — os quartos.",fr:"Coupe l'orange en 4 parts égales : les quarts.",it:"Dividi l'arancia in 4 parti uguali — i quarti.",nl:"Knip de sinaasappel in 4 gelijke delen — kwarten.",sv:"Dela apelsinen i 4 lika stora delar — fjärdedelar.",da:"Klip appelsinen i 4 lige store dele — fjerdedele.",no:"Del appelsinen i 4 like store deler — firedeler.",fi:"Jaa appelsiini neljään yhtä suureen osaan – neljäsosat."},
-    orange3:     {en:"Cut the orange into 3 equal parts — thirds.",de:"Schneide die Orange in 3 gleiche Teile – Drittel.",es:"Corta la naranja en 3 partes iguales: tercios.",pt:"Corte a laranja em 3 partes iguais — os terços.",fr:"Coupe l'orange en 3 parts égales : les tiers.",it:"Dividi l'arancia in 3 parti uguali — i terzi.",nl:"Knip de sinaasappel in 3 gelijke delen — derden.",sv:"Dela apelsinen i 3 lika stora delar — tredjedelar.",da:"Klip appelsinen i 3 lige store dele — tredjedele.",no:"Del appelsinen i 3 like store deler — tredeler.",fi:"Jaa appelsiini kolmeen yhtä suureen osaan – kolmasosat."},
-    cake2:       {en:"Cut the cake into 2 equal parts — halves.",de:"Schneide den Kuchen in 2 gleiche Teile – Hälften.",es:"Corta el pastel en 2 partes iguales: mitades.",pt:"Corte o bolo em 2 partes iguais — as metades.",fr:"Coupe le gâteau en 2 parts égales : les moitiés.",it:"Dividi la torta in 2 parti uguali — le metà.",nl:"Knip de taart in 2 gelijke delen — helften.",sv:"Dela tårtan i 2 lika stora delar — halvor.",da:"Klip kagen i 2 lige store dele — halve.",no:"Del kaka i 2 like store deler — halvdeler.",fi:"Jaa kakku kahteen yhtä suureen osaan – puolikkaat."},
-    cake3:       {en:"Cut the cake into 3 equal parts — thirds.",de:"Schneide den Kuchen in 3 gleiche Teile – Drittel.",es:"Corta el pastel en 3 partes iguales: tercios.",pt:"Corte o bolo em 3 partes iguais — os terços.",fr:"Coupe le gâteau en 3 parts égales : les tiers.",it:"Dividi la torta in 3 parti uguali — i terzi.",nl:"Knip de taart in 3 gelijke delen — derden.",sv:"Dela tårtan i 3 lika stora delar — tredjedelar.",da:"Klip kagen i 3 lige store dele — tredjedele.",no:"Del kaka i 3 like store deler — tredeler.",fi:"Jaa kakku kolmeen yhtä suureen osaan – kolmasosat."},
-    pie4:        {en:"Cut the pie into 4 equal parts — fourths.",de:"Schneide die Torte in 4 gleiche Teile – Viertel.",es:"Corta el pay en 4 partes iguales: cuartos.",pt:"Corte a torta em 4 partes iguais — os quartos.",fr:"Coupe la tarte en 4 parts égales : les quarts.",it:"Dividi la crostata in 4 parti uguali — i quarti.",nl:"Knip de appeltaart in 4 gelijke delen — kwarten.",sv:"Dela pajen i 4 lika stora delar — fjärdedelar.",da:"Klip tærten i 4 lige store dele — fjerdedele.",no:"Del paien i 4 like store deler — firedeler.",fi:"Jaa piirakka neljään yhtä suureen osaan – neljäsosat."},
-    pie3:        {en:"Cut the pie into 3 equal parts — thirds.",de:"Schneide die Torte in 3 gleiche Teile – Drittel.",es:"Corta el pay en 3 partes iguales: tercios.",pt:"Corte a torta em 3 partes iguais — os terços.",fr:"Coupe la tarte en 3 parts égales : les tiers.",it:"Dividi la crostata in 3 parti uguali — i terzi.",nl:"Knip de appeltaart in 3 gelijke delen — derden.",sv:"Dela pajen i 3 lika stora delar — tredjedelar.",da:"Klip tærten i 3 lige store dele — tredjedele.",no:"Del paien i 3 like store deler — tredeler.",fi:"Jaa piirakka kolmeen yhtä suureen osaan – kolmasosat."},
-    chocolate2:  {en:"Cut the chocolate bar into 2 equal parts — halves.",de:"Schneide die Tafel Schokolade in 2 gleiche Teile – Hälften.",es:"Corta la barra de chocolate en 2 partes iguales: mitades.",pt:"Corte a barra de chocolate em 2 partes iguais — as metades.",fr:"Coupe la tablette de chocolat en 2 parts égales : les moitiés.",it:"Dividi la tavoletta di cioccolato in 2 parti uguali — le metà.",nl:"Knip de reep chocolade in 2 gelijke delen — helften.",sv:"Dela chokladkakan i 2 lika stora delar — halvor.",da:"Klip chokoladen i 2 lige store dele — halve.",no:"Del sjokoladen i 2 like store deler — halvdeler.",fi:"Jaa suklaalevy kahteen yhtä suureen osaan – puolikkaat."},
-    chocolate3:  {en:"Cut the chocolate bar into 3 equal parts — thirds.",de:"Schneide die Tafel Schokolade in 3 gleiche Teile – Drittel.",es:"Corta la barra de chocolate en 3 partes iguales: tercios.",pt:"Corte a barra de chocolate em 3 partes iguais — os terços.",fr:"Coupe la tablette de chocolat en 3 parts égales : les tiers.",it:"Dividi la tavoletta di cioccolato in 3 parti uguali — i terzi.",nl:"Knip de reep chocolade in 3 gelijke delen — derden.",sv:"Dela chokladkakan i 3 lika stora delar — tredjedelar.",da:"Klip chokoladen i 3 lige store dele — tredjedele.",no:"Del sjokoladen i 3 like store deler — tredeler.",fi:"Jaa suklaalevy kolmeen yhtä suureen osaan – kolmasosat."},
-    waffle4:     {en:"Cut the waffle into 4 equal parts — fourths.",de:"Schneide die Waffel in 4 gleiche Teile – Viertel.",es:"Corta el wafle en 4 partes iguales: cuartos.",pt:"Corte o waffle em 4 partes iguais — os quartos.",fr:"Coupe la gaufre en 4 parts égales : les quarts.",it:"Dividi il waffle in 4 parti uguali — i quarti.",nl:"Knip de wafel in 4 gelijke delen — kwarten.",sv:"Dela våfflan i 4 lika stora delar — fjärdedelar.",da:"Klip vaflen i 4 lige store dele — fjerdedele.",no:"Del vaffelen i 4 like store deler — firedeler.",fi:"Jaa vohveli neljään yhtä suureen osaan – neljäsosat."},
-    waffle3:     {en:"Cut the waffle into 3 equal parts — thirds.",de:"Schneide die Waffel in 3 gleiche Teile – Drittel.",es:"Corta el wafle en 3 partes iguales: tercios.",pt:"Corte o waffle em 3 partes iguais — os terços.",fr:"Coupe la gaufre en 3 parts égales : les tiers.",it:"Dividi il waffle in 3 parti uguali — i terzi.",nl:"Knip de wafel in 3 gelijke delen — derden.",sv:"Dela våfflan i 3 lika stora delar — tredjedelar.",da:"Klip vaflen i 3 lige store dele — tredjedele.",no:"Del vaffelen i 3 like store deler — tredeler.",fi:"Jaa vohveli kolmeen yhtä suureen osaan – kolmasosat."},
     /* try-again hints (returned by the wrapper's hintKey) */
     hintTapLine: {en:"Tap a dotted line to make a cut.",de:"Tippe auf eine gepunktete Linie, um einen Schnitt zu machen.",es:"Toca una línea punteada para hacer un corte.",pt:"Toque em uma linha pontilhada para fazer um corte.",fr:"Tape sur un trait en pointillés pour faire une coupe.",it:"Tocca una linea tratteggiata per fare un taglio.",nl:"Tik op een stippellijn om te knippen.",sv:"Tryck på en prickad linje för att göra ett snitt.",da:"Tryk på en stiplet linje for at lave et klip.",no:"Trykk på en prikket linje for å lage et kutt.",fi:"Napauta katkoviivaa ja tee leikkaus."},
     hintMoreCuts: {en:"Add another cut so the parts are equal.",de:"Mach noch einen Schnitt, damit die Teile gleich groß sind.",es:"Agrega otro corte para que las partes queden iguales.",pt:"Faça mais um corte para deixar as partes iguais.",fr:"Ajoute une autre coupe pour que les parts soient égales.",it:"Aggiungi un altro taglio per rendere le parti uguali.",nl:"Maak nog een knip zodat de delen gelijk zijn.",sv:"Lägg till ett snitt till så att delarna blir lika stora.",da:"Lav endnu et klip, så delene bliver lige store.",no:"Legg til ett kutt til, så delene blir like store.",fi:"Tee vielä yksi leikkaus, niin osista tulee yhtä suuret."},
@@ -112,8 +94,7 @@ window.FractionsCore = {
     this.shape = opts.shape || 'rect';
     this.n = opts.n || 2;
     this.cut = opts.cut || 'v';
-    this.rot = opts.rot || 0;          // circle-thirds rotation (deg); 0 for halves/fourths
-    this.theme = opts.theme || null;   // recognizable object drawn over the base shape (pizza/cake/…); null = plain
+    this.rot = opts.rot || 0;          // circle/polygon rotation (deg) where used
     this.readOnly = false;
     this.committed = {};
 
@@ -157,6 +138,33 @@ window.FractionsCore = {
         correct: [this._diamV(), this._diamH()],
         distractors: [this._chordV(30), this._chordH(30)]
       };
+    }
+    if (shape === 'triangle') {
+      var Tp = this._polyOf();   // [apex, left, right]
+      if (n === 3) {             // 3 cevians centroid(50,50)→vertices → 3 equal-area triangles
+        return { correct: Tp.map(function (v) { return { x1: 50, y1: 50, x2: v.x, y2: v.y }; }),
+                 distractors: [{ x1: 50, y1: 50, x2: 33, y2: 70 }] };
+      }
+      return { correct: [this._vCut(50)], distractors: [this._vCut(34)] };   // halves = median (vertical apex→base-mid)
+    }
+    if (shape === 'diamond') {
+      if (n === 4) return { correct: [this._vCut(50), this._hCut(50)], distractors: [this._vCut(34), this._hCut(34)] };
+      return { correct: [this._vCut(50)], distractors: [this._vCut(34)] };
+    }
+    if (shape === 'hexagon') {
+      if (n === 3) {             // 3 radii to alternate vertices (90/210/330), 120° apart → 3 equal rhombi
+        var d150 = this._polyPoints([150])[0];
+        return { correct: this._polyPoints([90, 210, 330]).map(function (v) { return { x1: 50, y1: 50, x2: v.x, y2: v.y }; }),
+                 distractors: [{ x1: 50, y1: 50, x2: d150.x, y2: d150.y }] };
+      }
+      return { correct: [this._vCut(50)], distractors: [this._vCut(34)] };
+    }
+    if (shape === 'pentagon') {  // halves only — vertical symmetry axis (apex→opposite-edge midpoint)
+      return { correct: [this._vCut(50)], distractors: [this._vCut(34)] };
+    }
+    if (shape === 'ellipse') {
+      if (n === 4) return { correct: [this._vCut(50), this._hCut(50)], distractors: [this._vCut(34), this._hCut(34)] };
+      return { correct: [this._vCut(50)], distractors: [this._vCut(34)] };
     }
     /* rect / square box */
     var box = (shape === 'square')
@@ -234,69 +242,54 @@ window.FractionsCore = {
     return a;
   },
 
+  /* ---- shape geometry. Regular polygons + ellipse are inscribed in the
+     r40 circle @50,50 (same scale as the circle). Genuinely DIFFERENT shapes
+     are the variety (§A.13.60); the cuts in _lines partition each into
+     EXACTLY equal areas (verified by scripts/verify-fractions-core.js). ---- */
+  _SHAPES: { triangle: [90, 210, 330], diamond: [90, 0, 270, 180], pentagon: [90, 162, 234, 306, 18], hexagon: [90, 150, 210, 270, 330, 30] },
+  _ELLIPSE: { rx: 46, ry: 32 },
+  _polyPoints: function (angles) {
+    var C = this._C;
+    return angles.map(function (d) { var a = d * Math.PI / 180; return { x: C.CX + C.R * Math.cos(a), y: C.CY - C.R * Math.sin(a) }; });
+  },
+  _polyOf: function () { return this._polyPoints(this._SHAPES[this.shape]); },
+  _polyPath: function (pts) { return 'M' + pts.map(function (p) { return p.x.toFixed(2) + ' ' + p.y.toFixed(2); }).join(' L') + ' Z'; },
+  /* vertical/horizontal extent of the current shape at a given x/y, so a cut
+     segment ends exactly on the boundary (not sticking out past the shape). */
+  _vSpan: function (x) {
+    var C = this._C;
+    if (this.shape === 'circle') { var o = Math.sqrt(C.R * C.R - (x - C.CX) * (x - C.CX)); return { a: C.CY - o, b: C.CY + o }; }
+    if (this.shape === 'ellipse') { var t = (x - C.CX) / this._ELLIPSE.rx, o2 = this._ELLIPSE.ry * Math.sqrt(Math.max(0, 1 - t * t)); return { a: C.CY - o2, b: C.CY + o2 }; }
+    var pts = this._polyOf(), ys = [];
+    for (var i = 0; i < pts.length; i++) { var p = pts[i], q = pts[(i + 1) % pts.length]; if (p.x !== q.x && (p.x - x) * (q.x - x) <= 0) { var f = (x - p.x) / (q.x - p.x); ys.push(p.y + f * (q.y - p.y)); } }
+    return { a: Math.min.apply(null, ys), b: Math.max.apply(null, ys) };
+  },
+  _hSpan: function (y) {
+    var C = this._C;
+    if (this.shape === 'circle') { var o = Math.sqrt(C.R * C.R - (y - C.CY) * (y - C.CY)); return { a: C.CX - o, b: C.CX + o }; }
+    if (this.shape === 'ellipse') { var t = (y - C.CY) / this._ELLIPSE.ry, o2 = this._ELLIPSE.rx * Math.sqrt(Math.max(0, 1 - t * t)); return { a: C.CX - o2, b: C.CX + o2 }; }
+    var pts = this._polyOf(), xs = [];
+    for (var i = 0; i < pts.length; i++) { var p = pts[i], q = pts[(i + 1) % pts.length]; if (p.y !== q.y && (p.y - y) * (q.y - y) <= 0) { var f = (y - p.y) / (q.y - p.y); xs.push(p.x + f * (q.x - p.x)); } }
+    return { a: Math.min.apply(null, xs), b: Math.max.apply(null, xs) };
+  },
+  _vCut: function (x) { var s = this._vSpan(x); return { x1: x, y1: s.a, x2: x, y2: s.b }; },
+  _hCut: function (y) { var s = this._hSpan(y); return { x1: s.a, y1: y, x2: s.b, y2: y }; },
+
   /* ---- SVG body for the current shape ---- */
   _bodySVG: function () {
     var C = this._C;
-    if (this.shape === 'circle') {
-      return '<circle cx="50" cy="50" r="40" fill="' + C.BODY + '"/>'
-           + '<circle cx="50" cy="50" r="40" fill="none" stroke="' + C.T + '" stroke-width="3.5"/>';
+    if (this.shape === 'circle')
+      return '<circle cx="50" cy="50" r="40" fill="' + C.BODY + '"/><circle cx="50" cy="50" r="40" fill="none" stroke="' + C.T + '" stroke-width="3.5"/>';
+    if (this.shape === 'ellipse')
+      return '<ellipse cx="50" cy="50" rx="' + this._ELLIPSE.rx + '" ry="' + this._ELLIPSE.ry + '" fill="' + C.BODY + '"/><ellipse cx="50" cy="50" rx="' + this._ELLIPSE.rx + '" ry="' + this._ELLIPSE.ry + '" fill="none" stroke="' + C.T + '" stroke-width="3.5"/>';
+    if (this._SHAPES[this.shape]) {
+      var d = this._polyPath(this._polyOf());
+      return '<path d="' + d + '" fill="' + C.BODY + '"/><path d="' + d + '" fill="none" stroke="' + C.T + '" stroke-width="3.5" stroke-linejoin="round"/>';
     }
     var x, y, w, h;
     if (this.shape === 'square') { x = C.SX; y = C.SX; w = C.SR - C.SX; h = C.SR - C.SX; }
     else { x = C.RX; y = C.RY; w = C.RR - C.RX; h = C.RB - C.RY; }
-    return '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="6" fill="' + C.BODY + '"/>'
-         + '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="6" fill="none" stroke="' + C.T + '" stroke-width="3.5"/>';
-  },
-
-  /* ---- THEMED FIGURES: code-drawn recognizable objects (§A.13.60 genuine
-     variety). Drawn as an OVERLAY between the body fill and the cut lines —
-     the base geometry (circle r40@50,50 / rect x8-92,y28-72 / square 10-90)
-     is UNTOUCHED, so partitions stay measured-equal. Motifs are SYMMETRIC +
-     partition-NEUTRAL (scattered dots/seeds/sprinkles, centred rings) — never
-     a competing grid/line that would read as an alternative cut. The teal
-     body rim (drawn first) stays visible as the object edge; the deep-teal
-     3.5px cut lines (drawn last) read clearly over every fill. ---- */
-  _ring: function (cx, cy, r, n, startDeg, dotR, fill) {
-    var s = '';
-    for (var i = 0; i < n; i++) {
-      var a = (startDeg + i * 360 / n) * Math.PI / 180;
-      s += '<circle cx="' + (cx + r * Math.cos(a)).toFixed(2) + '" cy="' + (cy - r * Math.sin(a)).toFixed(2) + '" r="' + dotR + '" fill="' + fill + '"/>';
-    }
-    return s;
-  },
-  _cfill: function (r, fill) { return '<circle cx="50" cy="50" r="' + r + '" fill="' + fill + '"/>'; },
-  _rfill: function (inset, fill) {
-    var C = this._C, b = (this.shape === 'square')
-      ? { x: C.SX, y: C.SX, w: C.SR - C.SX, h: C.SR - C.SX }
-      : { x: C.RX, y: C.RY, w: C.RR - C.RX, h: C.RB - C.RY };
-    return '<rect x="' + (b.x + inset) + '" y="' + (b.y + inset) + '" width="' + (b.w - 2 * inset) + '" height="' + (b.h - 2 * inset) + '" rx="5" fill="' + fill + '"/>';
-  },
-  /* uniform dot texture inside the rect/square body (waffle/chocolate) */
-  _boxDots: function (cols, rows, dotR, fill, square) {
-    var C = this._C, b = square
-      ? { x: C.SX, y: C.SX, w: C.SR - C.SX, h: C.SR - C.SX }
-      : { x: C.RX, y: C.RY, w: C.RR - C.RX, h: C.RB - C.RY };
-    var s = '', ix = b.w / (cols + 1), iy = b.h / (rows + 1);
-    for (var r = 1; r <= rows; r++) for (var c = 1; c <= cols; c++) {
-      s += '<rect x="' + (b.x + c * ix - dotR).toFixed(2) + '" y="' + (b.y + r * iy - dotR).toFixed(2) + '" width="' + (2 * dotR) + '" height="' + (2 * dotR) + '" rx="1.2" fill="' + fill + '"/>';
-    }
-    return s;
-  },
-  _themes: {
-    /* CIRCLE objects (r40@50,50) */
-    pizza:      function (T) { return T._cfill(38, '#E0A356') + T._cfill(31, '#E4592B') + T._ring(50, 50, 18, 7, 90, 3.2, '#B23320') + '<circle cx="50" cy="50" r="3.2" fill="#B23320"/>'; },
-    cookie:     function (T) { return T._cfill(38, '#D7A458') + T._ring(50, 50, 22, 6, 60, 2.7, '#4A2E1C') + T._ring(50, 50, 10, 3, 30, 2.7, '#4A2E1C'); },
-    watermelon: function (T) { return T._cfill(38, '#3FAE63') + T._cfill(31, '#E8465F') + T._ring(50, 50, 19, 8, 22, 1.7, '#243B2E'); },
-    orange:     function (T) { return T._cfill(38, '#F4922E') + T._cfill(30, '#F7A94E') + '<circle cx="50" cy="50" r="3" fill="#E07E1E"/>'; },
-    cake:       function (T) { return T._cfill(38, '#F2A6C2') + T._cfill(30, '#F8C6D9') + T._ring(50, 50, 20, 8, 12, 1.8, '#8FD0F0') + T._ring(50, 50, 20, 8, 35, 1.8, '#FBE38A') + '<circle cx="50" cy="50" r="4" fill="#C23149"/>'; },
-    pie:        function (T) { return T._cfill(38, '#D9A24A') + T._cfill(30, '#C5762B') + T._ring(50, 50, 17, 6, 90, 1.8, '#9A5A20'); },
-    /* RECT / SQUARE objects */
-    chocolate:  function (T) { return T._rfill(2.5, '#6B4324') + '<rect x="11" y="31" width="78" height="7" rx="3" fill="#FFFFFF" opacity="0.10"/>' + T._boxDots(6, 3, 2.0, '#4A2E18', false); },
-    waffle:     function (T) { var sq = T.shape === 'square'; return T._rfill(2.5, '#E0A24A') + T._boxDots(sq ? 4 : 5, sq ? 4 : 3, 2.6, '#C2832C', sq); }
-  },
-  _decorationSVG: function () {
-    var fn = this.theme && this._themes[this.theme];
-    return fn ? fn(this) : '';
+    return '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="6" fill="' + C.BODY + '"/><rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="6" fill="none" stroke="' + C.T + '" stroke-width="3.5"/>';
   },
 
   /* ---- render(): build the SVG once per task ---- */
@@ -313,12 +306,8 @@ window.FractionsCore = {
     svg.setAttribute('role', 'group');
     svg.setAttribute('aria-label', api.t('instruction'));
 
-    /* body first, then the themed-object decoration overlay, then the cut
-       lines on top (so cuts stay visible + clickable). The base geometry is
-       in _bodySVG; the decoration never alters it (partitions stay exact). */
+    /* body first (under the cut lines) */
     svg.insertAdjacentHTML('beforeend', this._bodySVG());
-    var deco = this._decorationSVG();
-    if (deco) svg.insertAdjacentHTML('beforeend', deco);
 
     /* one <g> per candidate: a visible line (ghost/cut) + a fat transparent
        hit line on top (≥~14 viewBox units → ≥36px target at any viewport). */

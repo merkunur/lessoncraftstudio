@@ -46,101 +46,90 @@ function throughCentre(l) {
   return Math.abs(cross) < 1e-6;
 }
 
-// circle-thirds helpers (radii)
-function isCentre(x, y) { return Math.abs(x - C.CX) < TOL && Math.abs(y - C.CY) < TOL; }
-function rimPoint(l) { return isCentre(l.x1, l.y1) ? { x: l.x2, y: l.y2 } : { x: l.x1, y: l.y1 }; }
-function radiusAngle(l) {
-  const p = rimPoint(l);
-  let deg = Math.atan2(-(p.y - C.CY), p.x - C.CX) * 180 / Math.PI;  // SVG y-down → negate
-  return ((deg % 360) + 360) % 360;
-}
-function angDiff(a, b) { const d = Math.abs(a - b) % 360; return d > 180 ? 360 - d : d; }
 function dist(p, q) { return Math.hypot(p.x - q.x, p.y - q.y); }
 
-function verifyRound(label, shape, n, cut, rot) {
-  const built = Core._lines(shape, n, cut, rot || 0);
-  const correct = built.correct, distractors = built.distractors;
+/* ---- equal-area proof by POINT-SAMPLING (general — works for every shape,
+   no per-shape theorem coding). Classify each interior sample point into a
+   piece (radial cuts → angular sector from centre; line cuts → side-sign
+   tuple), count points per piece, and assert the CORRECT cuts make exactly
+   N pieces of EQUAL area (count ratio ≤ tol) while the DISTRACTOR foil makes
+   UNequal pieces. This is the "measured, not eyeballed" content gate. ---- */
+const GRID = 240;
+const EQ_TOL = 1.06;     // max/min piece-count ratio tolerated for an EQUAL partition (sampling noise)
+const FOIL_MIN = 1.12;   // min ratio proving a distractor foil is genuinely UNequal
 
-  // expected correct-cut count: circle halves=1/thirds=3/fourths=2; box halves=1/thirds=2/fourths-grid=2
-  const expected = shape === 'circle' ? (n === 2 ? 1 : n === 3 ? 3 : 2) : (n === 2 ? 1 : 2);
-  check(correct.length === expected, `${label}: expected ${expected} correct cut(s), got ${correct.length}`);
-
-  if (shape === 'circle') {
-    if (n === 3) {
-      // 3 radii from centre, pairwise 120° apart → 3 EXACT equal 120° wedges
-      correct.forEach((l, i) => check(throughCentre(l), `${label}: correct radius #${i} must originate at centre`));
-      if (correct.length === 3) {
-        const a = correct.map(radiusAngle);
-        [[0, 1], [1, 2], [0, 2]].forEach(([i, j]) =>
-          check(Math.abs(angDiff(a[i], a[j]) - 120) < 1e-6,
-            `${label}: circle-thirds radii must be 120° apart (got ${angDiff(a[i], a[j]).toFixed(4)}°) — wedges not equal`));
+function polyOf(shape) { Core.shape = shape; return Core._polyOf(); }
+function pointInShape(x, y, shape, poly) {
+  if (shape === 'circle') return (x - 50) * (x - 50) + (y - 50) * (y - 50) <= C.R * C.R;
+  if (shape === 'ellipse') { const a = (x - 50) / Core._ELLIPSE.rx, b = (y - 50) / Core._ELLIPSE.ry; return a * a + b * b <= 1; }
+  if (shape === 'square') return x >= C.SX && x <= C.SR && y >= C.SX && y <= C.SR;
+  if (shape === 'rect') return x >= C.RX && x <= C.RR && y >= C.RY && y <= C.RB;
+  let inside = false;                       // ray-cast point-in-polygon
+  for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+    const xi = poly[i].x, yi = poly[i].y, xj = poly[j].x, yj = poly[j].y;
+    if (((yi > y) !== (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi)) inside = !inside;
+  }
+  return inside;
+}
+function atCentre(l, end) { return Math.abs((end ? l.x2 : l.x1) - C.CX) < 1e-6 && Math.abs((end ? l.y2 : l.y1) - C.CY) < 1e-6; }
+function isRadial(cuts) { return cuts.length >= 2 && cuts.every(l => atCentre(l, false) || atCentre(l, true)); }
+function rimOf(l) { return atCentre(l, false) ? { x: l.x2, y: l.y2 } : { x: l.x1, y: l.y1 }; }
+function angleOf(p) { return (Math.atan2(-(p.y - C.CY), p.x - C.CX) * 180 / Math.PI + 360) % 360; }
+function pieceCounts(shape, poly, cuts) {
+  const radial = isRadial(cuts);
+  const radAngs = radial ? cuts.map(l => angleOf(rimOf(l))).sort((a, b) => a - b) : null;
+  const counts = {}, step = 100 / GRID;
+  for (let gx = 0; gx < GRID; gx++) {
+    const x = (gx + 0.5) * step;
+    for (let gy = 0; gy < GRID; gy++) {
+      const y = (gy + 0.5) * step;
+      if (!pointInShape(x, y, shape, poly)) continue;
+      let k;
+      if (radial) {
+        const ang = angleOf({ x, y });
+        let s = 0; while (s < radAngs.length && ang >= radAngs[s]) s++;
+        k = 's' + (s % radAngs.length);
+      } else {
+        k = cuts.map(l => ((l.x2 - l.x1) * (y - l.y1) - (l.y2 - l.y1) * (x - l.x1)) >= 0 ? '1' : '0').join('');
       }
-      // distractor radius is a genuine foil: between two spokes (0 < Δ < 120 from nearest correct → unequal wedges)
-      distractors.forEach((l, i) => {
-        const da = radiusAngle(l);
-        const nearest = Math.min.apply(null, correct.map(c => angDiff(da, radiusAngle(c))));
-        check(nearest > TOL && nearest < 120 - TOL, `${label}: distractor radius #${i} must break equal-thirds (nearest correct ${nearest.toFixed(2)}°)`);
-      });
-    } else {
-      correct.forEach((l, i) => check(throughCentre(l), `${label}: correct circle cut #${i} must pass through centre (equal shares)`));
-      if (n === 4) check(correct.length === 2 && isVertical(correct[0]) !== isVertical(correct[1]),
-        `${label}: circle fourths need 2 PERPENDICULAR diameters (4 equal quarter-disks)`);
-      distractors.forEach((l, i) => check(!throughCentre(l), `${label}: distractor circle chord #${i} must NOT pass through centre (genuine foil)`));
-    }
-  } else {
-    const box = (shape === 'square')
-      ? { left: C.SX, top: C.SX, right: C.SR, bottom: C.SR }
-      : { left: C.RX, top: C.RY, right: C.RR, bottom: C.RB };
-    const w = box.right - box.left, h = box.bottom - box.top;
-    const midX = (box.left + box.right) / 2, midY = (box.top + box.bottom) / 2;
-    if (n === 3) {
-      // 2 parallel cuts at EXACT thirds → 3 equal strips
-      const vert = correct.every(isVertical), horiz = correct.every(isHorizontal);
-      check(vert || horiz, `${label}: thirds cuts must be parallel (all vertical OR all horizontal)`);
-      if (vert) {
-        const xs = correct.map(l => l.x1).sort((p, q) => p - q);
-        check(xs.length === 2 && Math.abs(xs[0] - (box.left + w / 3)) < TOL && Math.abs(xs[1] - (box.left + 2 * w / 3)) < TOL,
-          `${label}: vertical thirds must be at exact 1/3,2/3 (x=${(box.left + w / 3).toFixed(2)},${(box.left + 2 * w / 3).toFixed(2)}); got ${xs.map(x => x.toFixed(2))}`);
-      } else if (horiz) {
-        const ys = correct.map(l => l.y1).sort((p, q) => p - q);
-        check(ys.length === 2 && Math.abs(ys[0] - (box.top + h / 3)) < TOL && Math.abs(ys[1] - (box.top + 2 * h / 3)) < TOL,
-          `${label}: horizontal thirds must be at exact 1/3,2/3; got ${ys.map(y => y.toFixed(2))}`);
-      }
-      distractors.forEach((l, i) => {
-        const off = isVertical(l)
-          ? (Math.abs(l.x1 - (box.left + w / 3)) > TOL && Math.abs(l.x1 - (box.left + 2 * w / 3)) > TOL)
-          : (Math.abs(l.y1 - (box.top + h / 3)) > TOL && Math.abs(l.y1 - (box.top + 2 * h / 3)) > TOL);
-        check(off, `${label}: thirds distractor #${i} must be off the exact-third positions (genuine foil)`);
-      });
-    } else {
-      correct.forEach((l, i) => {
-        if (isVertical(l)) check(Math.abs(l.x1 - midX) < TOL, `${label}: correct vertical cut #${i} must bisect (x=${midX}); got x=${l.x1}`);
-        else if (isHorizontal(l)) check(Math.abs(l.y1 - midY) < TOL, `${label}: correct horizontal cut #${i} must bisect (y=${midY}); got y=${l.y1}`);
-        else failures.push(`${label}: correct cut #${i} is neither vertical nor horizontal`);
-      });
-      if (n === 4) check(correct.some(isVertical) && correct.some(isHorizontal), `${label}: grid fourths need one vertical + one horizontal centre cut (4 equal quadrants)`);
-      distractors.forEach((l, i) => {
-        const offCentre = isVertical(l) ? Math.abs(l.x1 - midX) > TOL : Math.abs(l.y1 - midY) > TOL;
-        check(offCentre, `${label}: distractor #${i} must be off-centre (genuine foil)`);
-      });
+      counts[k] = (counts[k] || 0) + 1;
     }
   }
+  return counts;
+}
+function ratioOf(counts) { const v = Object.values(counts); return v.length ? Math.max.apply(null, v) / Math.min.apply(null, v) : Infinity; }
 
-  // tap-target separation
+function verifyRound(label, shape, n, cut, rot) {
+  Core.shape = shape;   // _lines + the polygon helpers read this.shape (set by setupTask in the engine)
+  const built = Core._lines(shape, n, cut, rot || 0);
+  const correct = built.correct, distractors = built.distractors;
+  const poly = ['circle', 'ellipse', 'square', 'rect'].indexOf(shape) < 0 ? polyOf(shape) : null;
+
+  // 1+2. correct cuts → exactly N pieces of EQUAL area (sampled)
+  const cc = pieceCounts(shape, poly, correct);
+  const pieces = Object.keys(cc).length;
+  check(pieces === n, `${label}: correct cuts make ${pieces} piece(s), expected ${n}`);
+  if (pieces === n) {
+    const r = ratioOf(cc);
+    check(r <= EQ_TOL, `${label}: correct pieces NOT equal area — count ratio ${r.toFixed(3)} > ${EQ_TOL} (sampled ${GRID}²)`);
+  }
+  // 3. distractor is a genuine foil: swap the last k correct cuts for the k distractors → UNequal pieces
+  if (distractors.length) {
+    const foil = correct.slice(0, Math.max(0, correct.length - distractors.length)).concat(distractors);
+    const fr = ratioOf(pieceCounts(shape, poly, foil));
+    check(fr >= FOIL_MIN, `${label}: distractor not a genuine foil — foil pieces nearly equal (ratio ${fr.toFixed(3)})`);
+  }
+  // 4. tap-target separation (radial → rim distance; line → same-orientation gap)
   const all = correct.concat(distractors);
-  for (let a = 0; a < all.length; a++) {
-    for (let b = a + 1; b < all.length; b++) {
-      const la = all[a], lb = all[b];
-      if (shape === 'circle' && n === 3) {
-        check(dist(rimPoint(la), rimPoint(lb)) >= SEP_MIN - TOL,
-          `${label}: radius rim points too close (<${SEP_MIN}u) — tap targets converge`);
-      } else {
-        let gap = null;
-        if (isVertical(la) && isVertical(lb)) gap = Math.abs(la.x1 - lb.x1);
-        else if (isHorizontal(la) && isHorizontal(lb)) gap = Math.abs(la.y1 - lb.y1);
-        if (gap !== null) check(gap >= SEP_MIN - TOL,
-          `${label}: candidate lines ${gap.toFixed(2)} units apart (<${SEP_MIN}) — tap targets too close at 280px`);
-      }
+  for (let a = 0; a < all.length; a++) for (let b = a + 1; b < all.length; b++) {
+    const la = all[a], lb = all[b];
+    if (isRadial(correct) && (atCentre(la, false) || atCentre(la, true)) && (atCentre(lb, false) || atCentre(lb, true))) {
+      check(dist(rimOf(la), rimOf(lb)) >= SEP_MIN - TOL, `${label}: radius rim points too close (<${SEP_MIN}u)`);
+    } else {
+      let gap = null;
+      if (isVertical(la) && isVertical(lb)) gap = Math.abs(la.x1 - lb.x1);
+      else if (isHorizontal(la) && isHorizontal(lb)) gap = Math.abs(la.y1 - lb.y1);
+      if (gap !== null) check(gap >= SEP_MIN - TOL, `${label}: candidate lines ${gap.toFixed(2)}u apart (<${SEP_MIN}) — tap targets too close at 280px`);
     }
   }
 }

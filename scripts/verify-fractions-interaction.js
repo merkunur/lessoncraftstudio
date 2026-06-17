@@ -12,11 +12,15 @@ const BASE = arg('base', 'http://localhost:3000');
 const LOCALE = arg('locale', 'en');
 // Resolve the per-locale native slug from the manifest (native slugs differ
 // per locale — hardcoding one slug for all locales 404s the non-EN routes).
+// --activity-id picks the coordinate row (default: row 0, make-equal-parts).
+const ACTIVITY_ID = arg('activity-id', '');
 let SLUG = arg('slug', '');
 if (!SLUG) {
   const manifest = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'mini tools', 'fractions-activities.json'), 'utf8'));
-  SLUG = manifest[0].slug[LOCALE];
-  if (!SLUG) { console.error(`no manifest slug for locale "${LOCALE}"`); process.exit(1); }
+  const row = ACTIVITY_ID ? manifest.find(r => r.id === ACTIVITY_ID) : manifest[0];
+  if (!row) { console.error(`no manifest row for id "${ACTIVITY_ID}"`); process.exit(1); }
+  SLUG = row.slug[LOCALE];
+  if (!SLUG) { console.error(`no manifest slug for locale "${LOCALE}" on row "${row.id}"`); process.exit(1); }
 }
 
 (async () => {
@@ -96,7 +100,9 @@ if (!SLUG) {
     if (s.lineCount < s.candIds.length) fail.push(`round ${r} (${s.shape}): only ${s.lineCount} lines rendered for ${s.candIds.length} candidates`);
     if (s.bodyCount < 1) fail.push(`round ${r} (${s.shape}): no shape body rendered`);
     if (!s.promptText) fail.push(`round ${r}: empty prompt text`);
-    if (s.correctIds.length !== (s.n === 4 ? 2 : 1)) fail.push(`round ${r} (${s.shape}/n${s.n}): correctIds=${s.correctIds.length}, expected ${s.n === 4 ? 2 : 1}`);
+    // expected correct-cut count: circle halves=1/thirds=3/fourths=2; box halves=1/thirds=2/fourths=2
+    const expected = s.shape === 'circle' ? (s.n === 2 ? 1 : s.n === 3 ? 3 : 2) : (s.n === 2 ? 1 : 2);
+    if (s.correctIds.length !== expected) fail.push(`round ${r} (${s.shape}/n${s.n}): correctIds=${s.correctIds.length}, expected ${expected}`);
 
     // WRONG PATH (prove once, on the first round that has a distractor):
     // commit a distractor → Check must FAIL with a non-empty hint.

@@ -40,7 +40,10 @@ var DEMO_ROUNDS = [
 
 function makeRoundTasks(rounds, idPrefix) {
   return rounds.map(function (r, i) {
-    var promptKey = (r.n === 4) ? 'promptFourths' : 'promptHalves';
+    var promptKey = (r.n === 4) ? 'promptFourths' : (r.n === 3) ? 'promptThirds' : 'promptHalves';
+    /* the halves "through the middle" wording is wrong for thirds → route
+       n=3 wrong-set hints to the thirds-specific key. */
+    var notEqualKey = (r.n === 3) ? 'hintNotEqualThirds' : 'hintNotEqual';
     return {
       id: idPrefix + '.round-' + i,
       promptKey: promptKey,
@@ -57,7 +60,7 @@ function makeRoundTasks(rounds, idPrefix) {
         if (made === 0)    return 'hintTapLine';
         if (made < need)   return 'hintMoreCuts';
         if (made > need)   return 'hintTooManyCuts';
-        return 'hintNotEqual';   /* right count, wrong set → off-centre cut */
+        return notEqualKey;   /* right count, wrong set → off-position cut */
       }
     };
   });

@@ -54,5 +54,61 @@
       "fi": "Napauta ja jaa ympyrät, neliöt ja suorakulmiot kahteen ja neljään yhtä suureen osaan. Ilmainen ja vuorovaikutteinen geometriatehtävä. OPS 2014."
     },
     "kid_prompt_template": "partition-equal-shares"
+  },
+  {
+    "id": "fractions.partition-thirds.2-g-a-3",
+    "tool": "fractions-activity",
+    "task_template": "partition-equal-shares",
+    "alignment": { "framework": "CCSS", "code": "2.G.A.3", "grade": "2", "strand": "Geometry" },
+    "params": {
+      "rounds": [
+        { "shape": "circle", "n": 3, "cut": "radii", "rot": 0,  "seed": 101 },
+        { "shape": "rect",   "n": 3, "cut": "v",     "seed": 103 },
+        { "shape": "square", "n": 3, "cut": "h",     "seed": 107 },
+        { "shape": "circle", "n": 3, "cut": "radii", "rot": 40, "seed": 109 },
+        { "shape": "square", "n": 3, "cut": "v",     "seed": 113 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "make-thirds",
+      "de": "in-drei-gleiche-teile",
+      "es": "en-tres-partes-iguales",
+      "pt": "fazer-tercos",
+      "fr": "partager-en-trois",
+      "it": "in-tre-parti-uguali",
+      "nl": "in-drie-gelijke-delen",
+      "sv": "i-tre-lika-delar",
+      "da": "lav-tredjedele",
+      "no": "lag-tredeler",
+      "fi": "jaa-kolmeen-yhta-suureen-osaan"
+    },
+    "page_title": {
+      "en": "Make Thirds — Partition Shapes into 3 Equal Parts (Grade 2)",
+      "de": "Formen in 3 gleiche Teile schneiden – Drittel üben",
+      "es": "Corta en tercios: 3 partes iguales | Actividad gratis",
+      "pt": "Cortar em 3 partes iguais: os terços — atividade",
+      "fr": "Partager une forme en 3 parts égales : les tiers | CP CE1",
+      "it": "Dividere in 3 parti uguali: i terzi — gioco gratis",
+      "nl": "In 3 gelijke delen knippen — derden maken | gratis",
+      "sv": "Dela i tredjedelar – 3 lika stora delar | gratis övning",
+      "da": "Klip i tredjedele — del figurer i 3 lige store dele",
+      "no": "Lag tredeler — del i 3 like store deler | gratis",
+      "fi": "Jaa kolmeen yhtä suureen osaan – kolmasosat"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 geometry activity: tap to cut circles, squares and rectangles into 3 equal parts — thirds. Common Core 2.G.A.3.",
+      "de": "Tippe auf die Linien und schneide Kreise, Quadrate und Rechtecke in 3 gleiche Teile – Drittel. Kostenlose, interaktive Übung passend zum Lehrplan.",
+      "es": "Corta círculos, cuadrados y rectángulos en 3 partes iguales para formar tercios. Actividad interactiva y gratis de geometría para preescolar y primaria.",
+      "pt": "Corte círculos, quadrados e retângulos em 3 partes iguais e descubra os terços! Atividade gratuita e interativa de frações para os anos iniciais, alinhada à BNCC.",
+      "fr": "Activité gratuite et interactive pour couper des cercles, carrés et rectangles en 3 parts égales : les tiers. Idéale pour les programmes officiels au CP et au CE1.",
+      "it": "Dividi cerchi, quadrati e rettangoli in 3 parti uguali (i terzi) con questa attività gratuita e interattiva, allineata alle Indicazioni nazionali per la scuola primaria.",
+      "nl": "Knip cirkels, vierkanten en rechthoeken in 3 gelijke delen en maak derden. Gratis, interactief en passend bij de SLO-kerndoelen. Leuk voor groep 3-4.",
+      "sv": "Dela cirklar, kvadrater och rektanglar i 3 lika stora delar (tredjedelar). Gratis interaktiv övning för förskoleklass och åk 1–2, enligt Lgr22.",
+      "da": "Klip cirkler, kvadrater og rektangler i 3 lige store dele — tredjedele. Gratis, interaktiv øvelse til de små, der følger Fælles Mål. Tap, klip og lær brøker.",
+      "no": "Del sirkler, kvadrater og rektangler i 3 like store deler — tredeler. Gratis og interaktiv øvelse for 1.–2. trinn, i tråd med LK20. Tapp snittene som passer.",
+      "fi": "Jaa ympyrät, neliöt ja suorakulmiot kolmeen yhtä suureen osaan eli kolmasosiin. Ilmainen ja vuorovaikutteinen tehtävä esiopetukseen ja alkuopetukseen, OPS 2014."
+    },
+    "kid_prompt_template": "partition-equal-shares"
   }
 ]

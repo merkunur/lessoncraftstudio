@@ -25,6 +25,7 @@ import {
   getLandingLocales, getLandingSlugs, getLandingBySlug, deckAssets, getSiblingLandingsByCoordinate,
   getRelatedLandings, Landing,
 } from '@/lib/seo/landing-content';
+import { getMakerContent, MAKER_KEYS, MakerKey } from '@/lib/seo/maker-content';
 
 // Per-locale framework: human-facing chip + JSON-LD name. Readiness/no-standard de landings carry NO
 // framework chip; standard-bearing coded landings (future de slices) cite Lehrplan / KMK Bildungsstandards.
@@ -228,7 +229,12 @@ export async function generateMetadata(
   };
 }
 
-export default function WorksheetLandingPage(
+// The deck's coordinate.type maps 1:1 to a worksheet-generator MAKER_KEY for all
+// shipped landing types EXCEPT picture-trail (the EN deck-landing name for the
+// picture-path mechanic, §15.10), which aliases to the picture-path maker.
+const MAKER_TYPE_ALIAS: Record<string, string> = { 'picture-trail': 'picture-path' };
+
+export default async function WorksheetLandingPage(
   { params }: { params: { locale: string; slug: string } },
 ) {
   const { locale } = params;
@@ -236,6 +242,13 @@ export default function WorksheetLandingPage(
   if (!l) notFound();
   const ui = UI_STRINGS[locale] || UI_STRINGS.en;
   const fw = FRAMEWORK_BY_LOCALE[locale] || FRAMEWORK_BY_LOCALE.en;
+
+  // Resolve the worksheet-generator (maker) landing this deck was made with, in
+  // the page's language, so the bottom "Made with the … maker" block links out.
+  const _makerKey = (MAKER_TYPE_ALIAS[l.coordinate.type] ?? l.coordinate.type) as MakerKey;
+  const maker = (MAKER_KEYS as readonly string[]).includes(_makerKey)
+    ? await getMakerContent(locale, _makerKey)
+    : null;
 
   const a = deckAssets(locale, l.canonicalDeckSlug);
   const canonical = canonicalUrl(localePath(locale, 'worksheets', l.slug));
@@ -548,13 +561,28 @@ export default function WorksheetLandingPage(
             );
           })()}
 
-          {/* reserved app block (Ruling #7 — wired to nothing) */}
-          <section className="mb-4">
-            <div className="rounded-2xl border-2 border-dashed border-cream-300 bg-[repeating-linear-gradient(45deg,rgba(20,107,94,0.02),rgba(20,107,94,0.02)_10px,transparent_10px,transparent_20px)] p-7 text-center">
-              <p className="font-display font-semibold text-ink-700 text-[17px]">{ui.madeWith(ui.typeCrumb(l.eyebrow))}</p>
-              <p className="text-ink-500 text-sm mt-1">{ui.makerSoon}</p>
-            </div>
-          </section>
+          {/* "Made with the … maker" — links to the worksheet-generator (maker)
+              landing for this deck's type, in the page's language. */}
+          {maker ? (
+            <section className="mb-4">
+              <Link
+                href={localePath(locale, 'tools', maker.slug)}
+                className="group block rounded-2xl border-2 border-cream-300 bg-white p-7 text-center transition hover:border-teal-400 hover:shadow-md"
+              >
+                <p className="font-display font-semibold text-ink-700 text-[17px]">{ui.madeWith(ui.typeCrumb(l.eyebrow))}</p>
+                <p className="text-teal-700 text-sm mt-1 font-medium group-hover:underline">
+                  {maker.labels.launchCta.replace('{name}', maker.name)} &rarr;
+                </p>
+              </Link>
+            </section>
+          ) : (
+            <section className="mb-4">
+              <div className="rounded-2xl border-2 border-dashed border-cream-300 bg-[repeating-linear-gradient(45deg,rgba(20,107,94,0.02),rgba(20,107,94,0.02)_10px,transparent_10px,transparent_20px)] p-7 text-center">
+                <p className="font-display font-semibold text-ink-700 text-[17px]">{ui.madeWith(ui.typeCrumb(l.eyebrow))}</p>
+                <p className="text-ink-500 text-sm mt-1">{ui.makerSoon}</p>
+              </div>
+            </section>
+          )}
 
         </div>
       </main>

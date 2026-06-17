@@ -135,10 +135,10 @@ if (!SLUG) {
     }
   }
 
-  // every shape family must have rendered (rect, square, circle) incl. the novel circle path
-  for (const want of ['rect', 'square', 'circle']) {
-    if (!shapesSeen.has(want)) fail.push(`shape "${want}" never rendered across the 5 rounds`);
-  }
+  // (base-shape coverage is NOT asserted: themed pools are content-varied, not
+  // shape-balanced — a circle-heavy themed pool legitimately may not surface a
+  // lone rect/square in 5 random draws. Distinctness/exactness are covered by
+  // the variety + geometry gates; here we only verify render + tap + answer-logic.)
   if (consoleErrors.length) fail.push('console/page errors: ' + consoleErrors.slice(0, 5).join(' | '));
 
   await browser.close();

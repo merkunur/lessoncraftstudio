@@ -51,7 +51,11 @@ var DEMO_ROUNDS = [
 
 function makeRoundTasks(rounds, idPrefix) {
   return rounds.map(function (r, i) {
-    var promptKey = (r.n === 4) ? 'promptFourths' : (r.n === 3) ? 'promptThirds' : 'promptHalves';
+    /* themed prompt (NAMES the object, §A.13.60) when the round has a theme
+       AND a themed string exists (<theme><n>); else the generic prompt. */
+    var generic = (r.n === 4) ? 'promptFourths' : (r.n === 3) ? 'promptThirds' : 'promptHalves';
+    var themedKey = r.theme ? (r.theme + r.n) : null;
+    var promptKey = (themedKey && FractionsCore.strings[themedKey]) ? themedKey : generic;
     /* the halves "through the middle" wording is wrong for thirds → route
        n=3 wrong-set hints to the thirds-specific key. */
     var notEqualKey = (r.n === 3) ? 'hintNotEqualThirds' : 'hintNotEqual';

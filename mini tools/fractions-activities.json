@@ -6,14 +6,14 @@
     "alignment": { "framework": "CCSS", "code": "1.G.A.3", "grade": "1", "strand": "Geometry" },
     "params": {
       "rounds": [
-        { "shape": "rect",   "n": 2, "cut": "v",    "seed": 11 },
-        { "shape": "circle", "n": 2, "cut": "v",    "seed": 23 },
-        { "shape": "square", "n": 2, "cut": "h",    "seed": 31 },
-        { "shape": "rect",   "n": 2, "cut": "h",    "seed": 59 },
-        { "shape": "square", "n": 2, "cut": "v",    "seed": 61 },
-        { "shape": "square", "n": 4, "cut": "grid", "seed": 37 },
-        { "shape": "rect",   "n": 4, "cut": "grid", "seed": 67 },
-        { "shape": "circle", "n": 4, "cut": "grid", "seed": 41 }
+        { "shape": "circle", "n": 2, "cut": "v",    "theme": "pizza",      "seed": 11 },
+        { "shape": "circle", "n": 4, "cut": "grid", "theme": "cookie",     "seed": 23 },
+        { "shape": "circle", "n": 2, "cut": "v",    "theme": "watermelon", "seed": 31 },
+        { "shape": "circle", "n": 4, "cut": "grid", "theme": "orange",     "seed": 59 },
+        { "shape": "circle", "n": 2, "cut": "v",    "theme": "cake",       "seed": 61 },
+        { "shape": "circle", "n": 4, "cut": "grid", "theme": "pie",        "seed": 37 },
+        { "shape": "rect",   "n": 2, "cut": "v",    "theme": "chocolate",  "seed": 67 },
+        { "shape": "square", "n": 4, "cut": "grid", "theme": "waffle",     "seed": 41 }
       ]
     },
     "theme": null,
@@ -65,13 +65,13 @@
     "alignment": { "framework": "CCSS", "code": "2.G.A.3", "grade": "2", "strand": "Geometry" },
     "params": {
       "rounds": [
-        { "shape": "circle", "n": 3, "cut": "radii", "rot": 0,  "seed": 101 },
-        { "shape": "rect",   "n": 3, "cut": "v",     "seed": 103 },
-        { "shape": "square", "n": 3, "cut": "h",     "seed": 107 },
-        { "shape": "rect",   "n": 3, "cut": "h",     "seed": 127 },
-        { "shape": "square", "n": 3, "cut": "v",     "seed": 113 },
-        { "shape": "circle", "n": 3, "cut": "radii", "rot": 40, "seed": 109 },
-        { "shape": "circle", "n": 3, "cut": "radii", "rot": 80, "seed": 131 }
+        { "shape": "circle", "n": 3, "cut": "radii", "rot": 0,  "theme": "pizza",      "seed": 101 },
+        { "shape": "circle", "n": 3, "cut": "radii", "rot": 40, "theme": "pie",        "seed": 103 },
+        { "shape": "circle", "n": 3, "cut": "radii", "rot": 80, "theme": "orange",     "seed": 107 },
+        { "shape": "circle", "n": 3, "cut": "radii", "rot": 20, "theme": "cake",       "seed": 127 },
+        { "shape": "circle", "n": 3, "cut": "radii", "rot": 60, "theme": "watermelon", "seed": 113 },
+        { "shape": "rect",   "n": 3, "cut": "v",     "theme": "chocolate",  "seed": 109 },
+        { "shape": "rect",   "n": 3, "cut": "h",     "theme": "waffle",     "seed": 131 }
       ]
     },
     "theme": null,

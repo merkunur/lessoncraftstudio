@@ -1,0 +1,1315 @@
+{
+  "locale": "fi",
+  "exerciseType": "picture-sort",
+  "rawRowCount": 127,
+  "pairCount": 125,
+  "leftThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "rightThemes": [
+    "animals",
+    "breakfast",
+    "dinosaurs",
+    "flowers",
+    "vehicles"
+  ],
+  "coordinates": [
+    {
+      "pairKey": "4th_of_july-vs-animals",
+      "left": "4th_of_july",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-4th-of-july-vs-animals-e319",
+      "siblings": [
+        "lajittele-kuvat-4th-of-july-vs-animals-e319"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "4th_of_july-vs-dinosaurs",
+      "left": "4th_of_july",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-4th-of-july-vs-dinosaurs-7541",
+      "siblings": [
+        "lajittele-kuvat-4th-of-july-vs-dinosaurs-7541"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "4th_of_july-vs-vehicles",
+      "left": "4th_of_july",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-4th-of-july-vs-vehicles-8ae4",
+      "siblings": [
+        "lajittele-kuvat-4th-of-july-vs-vehicles-8ae4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-animals",
+      "left": "accessories",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-accessories-vs-animals-104a",
+      "siblings": [
+        "lajittele-kuvat-accessories-vs-animals-104a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-breakfast",
+      "left": "accessories",
+      "right": "breakfast",
+      "canonical": "lajittele-kuvat-accessories-vs-breakfast-1ad2",
+      "siblings": [
+        "lajittele-kuvat-accessories-vs-breakfast-1ad2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-dinosaurs",
+      "left": "accessories",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-accessories-vs-dinosaurs-13b6",
+      "siblings": [
+        "lajittele-kuvat-accessories-vs-dinosaurs-13b6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-flowers",
+      "left": "accessories",
+      "right": "flowers",
+      "canonical": "lajittele-kuvat-accessories-vs-flowers-eaa7",
+      "siblings": [
+        "lajittele-kuvat-accessories-vs-flowers-eaa7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "activities-vs-animals",
+      "left": "activities",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-activities-vs-animals-56fa",
+      "siblings": [
+        "lajittele-kuvat-activities-vs-animals-56fa"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "activities-vs-breakfast",
+      "left": "activities",
+      "right": "breakfast",
+      "canonical": "lajittele-kuvat-activities-vs-breakfast-f7f9",
+      "siblings": [
+        "lajittele-kuvat-activities-vs-breakfast-f7f9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "activities-vs-dinosaurs",
+      "left": "activities",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-activities-vs-dinosaurs-2d7d",
+      "siblings": [
+        "lajittele-kuvat-activities-vs-dinosaurs-2d7d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "activities-vs-flowers",
+      "left": "activities",
+      "right": "flowers",
+      "canonical": "lajittele-kuvat-activities-vs-flowers-097c",
+      "siblings": [
+        "lajittele-kuvat-activities-vs-flowers-097c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-dinosaurs",
+      "left": "animals",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-animals-vs-dinosaurs-af4e",
+      "siblings": [
+        "lajittele-kuvat-animals-vs-dinosaurs-af4e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-flowers",
+      "left": "animals",
+      "right": "flowers",
+      "canonical": "lajittele-kuvat-animals-vs-flowers-206e",
+      "siblings": [
+        "lajittele-kuvat-animals-vs-flowers-206e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-vehicles",
+      "left": "animals",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-animals-vs-vehicles-8fa4",
+      "siblings": [
+        "lajittele-kuvat-animals-vs-vehicles-8fa4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "around_the_house-vs-animals",
+      "left": "around_the_house",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-around-the-house-vs-animals-efa9",
+      "siblings": [
+        "lajittele-kuvat-around-the-house-vs-animals-efa9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "around_the_house-vs-vehicles",
+      "left": "around_the_house",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-around-the-house-vs-vehicles-4f3e",
+      "siblings": [
+        "lajittele-kuvat-around-the-house-vs-vehicles-4f3e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "at_the_supermarket-vs-dinosaurs",
+      "left": "at_the_supermarket",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-at-the-supermarket-vs-dinosaurs-843e",
+      "siblings": [
+        "lajittele-kuvat-at-the-supermarket-vs-dinosaurs-843e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "at_the_supermarket-vs-vehicles",
+      "left": "at_the_supermarket",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-at-the-supermarket-vs-vehicles-1307",
+      "siblings": [
+        "lajittele-kuvat-at-the-supermarket-vs-vehicles-1307"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-animals",
+      "left": "bakery",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-bakery-vs-animals-6b92",
+      "siblings": [
+        "lajittele-kuvat-bakery-vs-animals-6b92"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-dinosaurs",
+      "left": "bakery",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-bakery-vs-dinosaurs-faa5",
+      "siblings": [
+        "lajittele-kuvat-bakery-vs-dinosaurs-faa5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-vehicles",
+      "left": "bakery",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-bakery-vs-vehicles-5605",
+      "siblings": [
+        "lajittele-kuvat-bakery-vs-vehicles-5605"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "beach-vs-dinosaurs",
+      "left": "beach",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-beach-vs-dinosaurs-d305",
+      "siblings": [
+        "lajittele-kuvat-beach-vs-dinosaurs-d305"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "beach-vs-vehicles",
+      "left": "beach",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-beach-vs-vehicles-469f",
+      "siblings": [
+        "lajittele-kuvat-beach-vs-vehicles-469f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "birds-vs-dinosaurs",
+      "left": "birds",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-birds-vs-dinosaurs-e76a",
+      "siblings": [
+        "lajittele-kuvat-birds-vs-dinosaurs-e76a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "birds-vs-vehicles",
+      "left": "birds",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-birds-vs-vehicles-3324",
+      "siblings": [
+        "lajittele-kuvat-birds-vs-vehicles-3324"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "body_parts-vs-vehicles",
+      "left": "body_parts",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-body-parts-vs-vehicles-cc2b",
+      "siblings": [
+        "lajittele-kuvat-body-parts-vs-vehicles-cc2b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "breakfast-vs-animals",
+      "left": "breakfast",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-breakfast-vs-animals-1f36",
+      "siblings": [
+        "lajittele-kuvat-breakfast-vs-animals-1f36"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "breakfast-vs-dinosaurs",
+      "left": "breakfast",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-breakfast-vs-dinosaurs-2630",
+      "siblings": [
+        "lajittele-kuvat-breakfast-vs-dinosaurs-2630"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "breakfast-vs-flowers",
+      "left": "breakfast",
+      "right": "flowers",
+      "canonical": "lajittele-kuvat-breakfast-vs-flowers-13e6",
+      "siblings": [
+        "lajittele-kuvat-breakfast-vs-flowers-13e6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-animals",
+      "left": "camping",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-camping-vs-animals-d84a",
+      "siblings": [
+        "lajittele-kuvat-camping-vs-animals-d84a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-dinosaurs",
+      "left": "camping",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-camping-vs-dinosaurs-8d44",
+      "siblings": [
+        "lajittele-kuvat-camping-vs-dinosaurs-8d44"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-vehicles",
+      "left": "camping",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-camping-vs-vehicles-509e",
+      "siblings": [
+        "lajittele-kuvat-camping-vs-vehicles-509e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "christmas-vs-animals",
+      "left": "christmas",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-christmas-vs-animals-bcd8",
+      "siblings": [
+        "lajittele-kuvat-christmas-vs-animals-bcd8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "christmas-vs-dinosaurs",
+      "left": "christmas",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-christmas-vs-dinosaurs-7fc3",
+      "siblings": [
+        "lajittele-kuvat-christmas-vs-dinosaurs-7fc3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "christmas-vs-flowers",
+      "left": "christmas",
+      "right": "flowers",
+      "canonical": "lajittele-kuvat-christmas-vs-flowers-fd02",
+      "siblings": [
+        "lajittele-kuvat-christmas-vs-flowers-fd02"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "christmas-vs-vehicles",
+      "left": "christmas",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-christmas-vs-vehicles-e5fd",
+      "siblings": [
+        "lajittele-kuvat-christmas-vs-vehicles-e5fd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "classroom-vs-animals",
+      "left": "classroom",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-classroom-vs-animals-8bbd",
+      "siblings": [
+        "lajittele-kuvat-classroom-vs-animals-8bbd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "classroom-vs-dinosaurs",
+      "left": "classroom",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-classroom-vs-dinosaurs-1bce",
+      "siblings": [
+        "lajittele-kuvat-classroom-vs-dinosaurs-1bce"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "classroom-vs-vehicles",
+      "left": "classroom",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-classroom-vs-vehicles-cd97",
+      "siblings": [
+        "lajittele-kuvat-classroom-vs-vehicles-cd97"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "clothing-vs-dinosaurs",
+      "left": "clothing",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-clothing-vs-dinosaurs-3b85",
+      "siblings": [
+        "lajittele-kuvat-clothing-vs-dinosaurs-3b85"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "clothing-vs-vehicles",
+      "left": "clothing",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-clothing-vs-vehicles-a285",
+      "siblings": [
+        "lajittele-kuvat-clothing-vs-vehicles-a285"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "colors-vs-dinosaurs",
+      "left": "colors",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-colors-vs-dinosaurs-83c6",
+      "siblings": [
+        "lajittele-kuvat-colors-vs-dinosaurs-83c6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "colors-vs-vehicles",
+      "left": "colors",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-colors-vs-vehicles-20a4",
+      "siblings": [
+        "lajittele-kuvat-colors-vs-vehicles-20a4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "desserts_and_sweets-vs-animals",
+      "left": "desserts_and_sweets",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-desserts-and-sweets-vs-animals-bcdf",
+      "siblings": [
+        "lajittele-kuvat-desserts-and-sweets-vs-animals-bcdf"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "desserts_and_sweets-vs-dinosaurs",
+      "left": "desserts_and_sweets",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-desserts-and-sweets-vs-dinosaurs-105c",
+      "siblings": [
+        "lajittele-kuvat-desserts-and-sweets-vs-dinosaurs-105c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "desserts_and_sweets-vs-vehicles",
+      "left": "desserts_and_sweets",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-desserts-and-sweets-vs-vehicles-0028",
+      "siblings": [
+        "lajittele-kuvat-desserts-and-sweets-vs-vehicles-0028"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "dinosaurs-vs-animals",
+      "left": "dinosaurs",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-dinosaurs-vs-animals-05f4",
+      "siblings": [
+        "lajittele-kuvat-dinosaurs-vs-animals-05f4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "dinosaurs-vs-flowers",
+      "left": "dinosaurs",
+      "right": "flowers",
+      "canonical": "lajittele-kuvat-dinosaurs-vs-flowers-0d11",
+      "siblings": [
+        "lajittele-kuvat-dinosaurs-vs-flowers-0d11"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "easter-vs-dinosaurs",
+      "left": "easter",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-easter-vs-dinosaurs-9165",
+      "siblings": [
+        "lajittele-kuvat-easter-vs-dinosaurs-9165"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "easter-vs-vehicles",
+      "left": "easter",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-easter-vs-vehicles-1a21",
+      "siblings": [
+        "lajittele-kuvat-easter-vs-vehicles-1a21"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "emotions-vs-dinosaurs",
+      "left": "emotions",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-emotions-vs-dinosaurs-9247",
+      "siblings": [
+        "lajittele-kuvat-emotions-vs-dinosaurs-9247"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "emotions-vs-vehicles",
+      "left": "emotions",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-emotions-vs-vehicles-8298",
+      "siblings": [
+        "lajittele-kuvat-emotions-vs-vehicles-8298"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "farm_animals-vs-dinosaurs",
+      "left": "farm_animals",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-farm-animals-vs-dinosaurs-27d0",
+      "siblings": [
+        "lajittele-kuvat-farm-animals-vs-dinosaurs-27d0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "farm_animals-vs-vehicles",
+      "left": "farm_animals",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-farm-animals-vs-vehicles-cada",
+      "siblings": [
+        "lajittele-kuvat-farm-animals-vs-vehicles-cada"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-animals",
+      "left": "flowers",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-flowers-vs-animals-4cc8",
+      "siblings": [
+        "lajittele-kuvat-flowers-vs-animals-4cc8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-dinosaurs",
+      "left": "flowers",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-flowers-vs-dinosaurs-f21a",
+      "siblings": [
+        "lajittele-kuvat-flowers-vs-dinosaurs-f21a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-vehicles",
+      "left": "flowers",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-flowers-vs-vehicles-f362",
+      "siblings": [
+        "lajittele-kuvat-flowers-vs-vehicles-f362"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "forest_creatures-vs-dinosaurs",
+      "left": "forest_creatures",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-forest-creatures-vs-dinosaurs-0dbb",
+      "siblings": [
+        "lajittele-kuvat-forest-creatures-vs-dinosaurs-0dbb"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "forest_creatures-vs-vehicles",
+      "left": "forest_creatures",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-forest-creatures-vs-vehicles-1697",
+      "siblings": [
+        "lajittele-kuvat-forest-creatures-vs-vehicles-1697"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "fruits-vs-animals",
+      "left": "fruits",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-fruits-vs-animals-2a06",
+      "siblings": [
+        "lajittele-kuvat-fruits-vs-animals-2a06"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "fruits-vs-dinosaurs",
+      "left": "fruits",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-fruits-vs-dinosaurs-211f",
+      "siblings": [
+        "lajittele-kuvat-fruits-vs-dinosaurs-211f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "fruits-vs-flowers",
+      "left": "fruits",
+      "right": "flowers",
+      "canonical": "lajittele-kuvat-fruits-vs-flowers-6773",
+      "siblings": [
+        "lajittele-kuvat-fruits-vs-flowers-6773"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "fruits-vs-vehicles",
+      "left": "fruits",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-fruits-vs-vehicles-abe5",
+      "siblings": [
+        "lajittele-kuvat-fruits-vs-vehicles-abe5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "furniture-vs-animals",
+      "left": "furniture",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-furniture-vs-animals-0927",
+      "siblings": [
+        "lajittele-kuvat-furniture-vs-animals-0927"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "furniture-vs-dinosaurs",
+      "left": "furniture",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-furniture-vs-dinosaurs-9c47",
+      "siblings": [
+        "lajittele-kuvat-furniture-vs-dinosaurs-9c47"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "furniture-vs-vehicles",
+      "left": "furniture",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-furniture-vs-vehicles-f1a0",
+      "siblings": [
+        "lajittele-kuvat-furniture-vs-vehicles-f1a0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "hospital-vs-dinosaurs",
+      "left": "hospital",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-hospital-vs-dinosaurs-9c5b",
+      "siblings": [
+        "lajittele-kuvat-hospital-vs-dinosaurs-9c5b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "hospital-vs-vehicles",
+      "left": "hospital",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-hospital-vs-vehicles-d74d",
+      "siblings": [
+        "lajittele-kuvat-hospital-vs-vehicles-d74d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "insects_and_bugs-vs-dinosaurs",
+      "left": "insects_and_bugs",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-insects-and-bugs-vs-dinosaurs-313e",
+      "siblings": [
+        "lajittele-kuvat-insects-and-bugs-vs-dinosaurs-313e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "kitchen_tools-vs-animals",
+      "left": "kitchen_tools",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-kitchen-tools-vs-animals-d86e",
+      "siblings": [
+        "lajittele-kuvat-kitchen-tools-vs-animals-d86e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "kitchen_tools-vs-dinosaurs",
+      "left": "kitchen_tools",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-kitchen-tools-vs-dinosaurs-6e8b",
+      "siblings": [
+        "lajittele-kuvat-kitchen-tools-vs-dinosaurs-6e8b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "kitchen_tools-vs-vehicles",
+      "left": "kitchen_tools",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-kitchen-tools-vs-vehicles-3542",
+      "siblings": [
+        "lajittele-kuvat-kitchen-tools-vs-vehicles-3542"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "music-vs-animals",
+      "left": "music",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-music-vs-animals-493e",
+      "siblings": [
+        "lajittele-kuvat-music-vs-animals-493e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "music-vs-dinosaurs",
+      "left": "music",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-music-vs-dinosaurs-fff5",
+      "siblings": [
+        "lajittele-kuvat-music-vs-dinosaurs-fff5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "music-vs-vehicles",
+      "left": "music",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-music-vs-vehicles-2b3a",
+      "siblings": [
+        "lajittele-kuvat-music-vs-vehicles-2b3a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "occupations-vs-animals",
+      "left": "occupations",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-occupations-vs-animals-0dd9",
+      "siblings": [
+        "lajittele-kuvat-occupations-vs-animals-0dd9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "occupations-vs-dinosaurs",
+      "left": "occupations",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-occupations-vs-dinosaurs-87fc",
+      "siblings": [
+        "lajittele-kuvat-occupations-vs-dinosaurs-87fc"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "occupations-vs-flowers",
+      "left": "occupations",
+      "right": "flowers",
+      "canonical": "lajittele-kuvat-occupations-vs-flowers-cfc5",
+      "siblings": [
+        "lajittele-kuvat-occupations-vs-flowers-cfc5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "ocean_life-vs-dinosaurs",
+      "left": "ocean_life",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-ocean-life-vs-dinosaurs-cf48",
+      "siblings": [
+        "lajittele-kuvat-ocean-life-vs-dinosaurs-cf48"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "ocean_life-vs-vehicles",
+      "left": "ocean_life",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-ocean-life-vs-vehicles-bb31",
+      "siblings": [
+        "lajittele-kuvat-ocean-life-vs-vehicles-bb31"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "pets-vs-dinosaurs",
+      "left": "pets",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-pets-vs-dinosaurs-0434",
+      "siblings": [
+        "lajittele-kuvat-pets-vs-dinosaurs-0434"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "pets-vs-vehicles",
+      "left": "pets",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-pets-vs-vehicles-fbef",
+      "siblings": [
+        "lajittele-kuvat-pets-vs-vehicles-fbef"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "post_office-vs-animals",
+      "left": "post_office",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-post-office-vs-animals-411e",
+      "siblings": [
+        "lajittele-kuvat-post-office-vs-animals-411e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "post_office-vs-dinosaurs",
+      "left": "post_office",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-post-office-vs-dinosaurs-4ab2",
+      "siblings": [
+        "lajittele-kuvat-post-office-vs-dinosaurs-4ab2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "post_office-vs-vehicles",
+      "left": "post_office",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-post-office-vs-vehicles-9566",
+      "siblings": [
+        "lajittele-kuvat-post-office-vs-vehicles-9566"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "shapes-vs-animals",
+      "left": "shapes",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-shapes-vs-animals-87db",
+      "siblings": [
+        "lajittele-kuvat-shapes-vs-animals-87db"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "shapes-vs-dinosaurs",
+      "left": "shapes",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-shapes-vs-dinosaurs-4552",
+      "siblings": [
+        "lajittele-kuvat-shapes-vs-dinosaurs-4552"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "shapes-vs-vehicles",
+      "left": "shapes",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-shapes-vs-vehicles-42a2",
+      "siblings": [
+        "lajittele-kuvat-shapes-vs-vehicles-42a2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "space-vs-animals",
+      "left": "space",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-space-vs-animals-81fd",
+      "siblings": [
+        "lajittele-kuvat-space-vs-animals-81fd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "space-vs-dinosaurs",
+      "left": "space",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-space-vs-dinosaurs-9759",
+      "siblings": [
+        "lajittele-kuvat-space-vs-dinosaurs-9759"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "space-vs-flowers",
+      "left": "space",
+      "right": "flowers",
+      "canonical": "lajittele-kuvat-space-vs-flowers-0a36",
+      "siblings": [
+        "lajittele-kuvat-space-vs-flowers-0a36"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "space-vs-vehicles",
+      "left": "space",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-space-vs-vehicles-bc12",
+      "siblings": [
+        "lajittele-kuvat-space-vs-vehicles-bc12"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "spring-vs-animals",
+      "left": "spring",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-spring-vs-animals-4d63",
+      "siblings": [
+        "lajittele-kuvat-spring-vs-animals-4d63"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "spring-vs-dinosaurs",
+      "left": "spring",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-spring-vs-dinosaurs-a62d",
+      "siblings": [
+        "lajittele-kuvat-spring-vs-dinosaurs-a62d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "spring-vs-vehicles",
+      "left": "spring",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-spring-vs-vehicles-819f",
+      "siblings": [
+        "lajittele-kuvat-spring-vs-vehicles-819f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "summer-vs-animals",
+      "left": "summer",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-summer-vs-animals-9b2c",
+      "siblings": [
+        "lajittele-kuvat-summer-vs-animals-9b2c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "summer-vs-dinosaurs",
+      "left": "summer",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-summer-vs-dinosaurs-6ff0",
+      "siblings": [
+        "lajittele-kuvat-summer-vs-dinosaurs-6ff0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "summer-vs-flowers",
+      "left": "summer",
+      "right": "flowers",
+      "canonical": "lajittele-kuvat-summer-vs-flowers-2fc5",
+      "siblings": [
+        "lajittele-kuvat-summer-vs-flowers-2fc5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "summer-vs-vehicles",
+      "left": "summer",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-summer-vs-vehicles-2411",
+      "siblings": [
+        "lajittele-kuvat-summer-vs-vehicles-2411"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "thanksgivinng-vs-animals",
+      "left": "thanksgivinng",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-thanksgivinng-vs-animals-c964",
+      "siblings": [
+        "lajittele-kuvat-thanksgivinng-vs-animals-c964"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "thanksgivinng-vs-dinosaurs",
+      "left": "thanksgivinng",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-thanksgivinng-vs-dinosaurs-8ba8",
+      "siblings": [
+        "lajittele-kuvat-thanksgivinng-vs-dinosaurs-8ba8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "thanksgivinng-vs-vehicles",
+      "left": "thanksgivinng",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-thanksgivinng-vs-vehicles-c09f",
+      "siblings": [
+        "lajittele-kuvat-thanksgivinng-vs-vehicles-c09f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "things_that_fly-vs-dinosaurs",
+      "left": "things_that_fly",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-things-that-fly-vs-dinosaurs-0644",
+      "siblings": [
+        "lajittele-kuvat-things-that-fly-vs-dinosaurs-0644"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "things_that_fly-vs-vehicles",
+      "left": "things_that_fly",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-things-that-fly-vs-vehicles-f31e",
+      "siblings": [
+        "lajittele-kuvat-things-that-fly-vs-vehicles-f31e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tools-vs-dinosaurs",
+      "left": "tools",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-tools-vs-dinosaurs-e6d1",
+      "siblings": [
+        "lajittele-kuvat-tools-vs-dinosaurs-e6d1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tools-vs-vehicles",
+      "left": "tools",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-tools-vs-vehicles-9a06",
+      "siblings": [
+        "lajittele-kuvat-tools-vs-vehicles-9a06"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "toys-vs-animals",
+      "left": "toys",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-toys-vs-animals-426d",
+      "siblings": [
+        "lajittele-kuvat-toys-vs-animals-426d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "toys-vs-dinosaurs",
+      "left": "toys",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-toys-vs-dinosaurs-68aa",
+      "siblings": [
+        "lajittele-kuvat-toys-vs-dinosaurs-68aa"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "toys-vs-vehicles",
+      "left": "toys",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-toys-vs-vehicles-51d5",
+      "siblings": [
+        "lajittele-kuvat-toys-vs-vehicles-51d5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-animals",
+      "left": "tree",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-tree-vs-animals-c6a7",
+      "siblings": [
+        "lajittele-kuvat-tree-vs-animals-c6a7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-dinosaurs",
+      "left": "tree",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-tree-vs-dinosaurs-b2ac",
+      "siblings": [
+        "lajittele-kuvat-tree-vs-dinosaurs-b2ac"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-vehicles",
+      "left": "tree",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-tree-vs-vehicles-63ec",
+      "siblings": [
+        "lajittele-kuvat-tree-vs-vehicles-63ec"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vegetables-vs-dinosaurs",
+      "left": "vegetables",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-vegetables-vs-dinosaurs-e4dc",
+      "siblings": [
+        "lajittele-kuvat-vegetables-vs-dinosaurs-e4dc"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vegetables-vs-vehicles",
+      "left": "vegetables",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-vegetables-vs-vehicles-9f09",
+      "siblings": [
+        "lajittele-kuvat-vegetables-vs-vehicles-9f09"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vehicles-vs-animals",
+      "left": "vehicles",
+      "right": "animals",
+      "canonical": "lajittele-kuvat-vehicles-vs-animals-6de9",
+      "siblings": [
+        "lajittele-kuvat-vehicles-vs-animals-6de9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vehicles-vs-breakfast",
+      "left": "vehicles",
+      "right": "breakfast",
+      "canonical": "lajittele-kuvat-vehicles-vs-breakfast-4119",
+      "siblings": [
+        "lajittele-kuvat-vehicles-vs-breakfast-4119"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vehicles-vs-dinosaurs",
+      "left": "vehicles",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-vehicles-vs-dinosaurs-dee9",
+      "siblings": [
+        "lajittele-kuvat-vehicles-vs-dinosaurs-dee9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vehicles-vs-flowers",
+      "left": "vehicles",
+      "right": "flowers",
+      "canonical": "lajittele-kuvat-vehicles-vs-flowers-99e6",
+      "siblings": [
+        "lajittele-kuvat-vehicles-vs-flowers-99e6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "weather-vs-dinosaurs",
+      "left": "weather",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-weather-vs-dinosaurs-aade",
+      "siblings": [
+        "lajittele-kuvat-weather-vs-dinosaurs-aade",
+        "lajittele-kuvat-weather-vs-dinosaurs-bc6d"
+      ],
+      "n": 2
+    },
+    {
+      "pairKey": "weather-vs-vehicles",
+      "left": "weather",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-weather-vs-vehicles-e8a6",
+      "siblings": [
+        "lajittele-kuvat-weather-vs-vehicles-e8a6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "winter-vs-dinosaurs",
+      "left": "winter",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-winter-vs-dinosaurs-6494",
+      "siblings": [
+        "lajittele-kuvat-winter-vs-dinosaurs-6494"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "winter-vs-vehicles",
+      "left": "winter",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-winter-vs-vehicles-ffef",
+      "siblings": [
+        "lajittele-kuvat-winter-vs-vehicles-ffef"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "zoo_animals-vs-dinosaurs",
+      "left": "zoo_animals",
+      "right": "dinosaurs",
+      "canonical": "lajittele-kuvat-zoo-animals-vs-dinosaurs-58e1",
+      "siblings": [
+        "lajittele-kuvat-zoo-animals-vs-dinosaurs-58e1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "zoo_animals-vs-flowers",
+      "left": "zoo_animals",
+      "right": "flowers",
+      "canonical": "lajittele-kuvat-zoo-animals-vs-flowers-e4bf",
+      "siblings": [
+        "lajittele-kuvat-zoo-animals-vs-flowers-e4bf"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "zoo_animals-vs-vehicles",
+      "left": "zoo_animals",
+      "right": "vehicles",
+      "canonical": "lajittele-kuvat-zoo-animals-vs-vehicles-de1f",
+      "siblings": [
+        "lajittele-kuvat-zoo-animals-vs-vehicles-de1f"
+      ],
+      "n": 1
+    }
+  ]
+}

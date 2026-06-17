@@ -72,11 +72,14 @@ console.log('generated ' + out.length + ' picture-sort landings (blocked ' + blo
 // the only allowed use sits in a negation window ("ei lasketa", "ei tarvitse laskea", "ilman laskemista").
 const FENCE_HARD = ['montako', 'kuinka monta', 'lukumäär', 'kaavio', 'diagramm', 'pylväs']; // count-framing forbidden even negated
 const SIBLING_HARD = ['ei kuulu joukkoon', 'erilainen', 'poikkeava', 'mikä ei kuulu']; // odd-one-out exclusion frame
+// Unicode-safe negator detection (JS \b breaks after Finnish ä/ö, so use [^letters] boundaries).
+// A "laske*" is allowed iff a negator word sits in the ~36 chars before OR ~30 after (same clause).
+const NEG_RE = /(^|[^a-zäöyåA-ZÄÖÅ])(ei|eikä|eivät|en|et|emme|ette|ilman|älä|älkää|ettei|eihän)([^a-zäöyåA-ZÄÖÅ]|$)/;
 function inNegationWindow(lc, idx) {
-  const pre = lc.slice(Math.max(0, idx - 30), idx);
-  if (/(ei|eikä|ilman|älä|ettei)\b[^.!?]*$/.test(pre)) return true;
-  const post = lc.slice(idx, idx + 26);
-  return /^lask\w*[^.!?]*\b(ei|eikä|ilman)\b/.test(post);
+  const pre = lc.slice(Math.max(0, idx - 36), idx);
+  if (NEG_RE.test(pre)) return true;
+  const post = lc.slice(idx, idx + 30);
+  return NEG_RE.test(post);
 }
 let short = 0, fence = 0, hasStd = 0, missNoun = 0, sib = 0;
 out.forEach(e => {

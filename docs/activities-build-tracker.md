@@ -38,16 +38,18 @@ Local gate (2026-06-17, `npm run dev` @ localhost:3000, `node scripts/test-activ
 
 | locale | strings (native agent) | local render (L1) | local audit (L2) | deployed | live re-verify |
 |---|---|---|---|---|---|
-| en | ✅ (CC author) | ✅ | ✅ | ⬜ | ⬜ |
-| de | ✅ | ✅ | ✅ | ⬜ | ⬜ |
-| es | ✅ | ✅ | ✅ | ⬜ | ⬜ |
-| fr | ✅ | ✅ | ✅ | ⬜ | ⬜ |
-| it | ✅ | ✅ | ✅ | ⬜ | ⬜ |
-| pt | ✅ | ✅ | ✅ | ⬜ | ⬜ |
-| nl | ✅ | ✅ | ✅ | ⬜ | ⬜ |
-| sv | ✅ `[NSR-FLAG]` | ✅ | ✅ | ⬜ | ⬜ |
-| da | ✅ `[NSR-FLAG]` | ✅ | ✅ | ⬜ | ⬜ |
-| no | ✅ `[NSR-FLAG]` | ✅ | ✅ | ⬜ | ⬜ |
-| fi | ✅ `[NSR-FLAG]` | ✅ | ✅ | ⬜ | ⬜ |
+| en | ✅ (CC author) | ✅ | ✅ | ✅ | ✅ |
+| de | ✅ | ✅ | ✅ | ✅ | ✅ |
+| es | ✅ | ✅ | ✅ | ✅ | ✅ |
+| fr | ✅ | ✅ | ✅ | ✅ | ✅ |
+| it | ✅ | ✅ | ✅ | ✅ | ✅ |
+| pt | ✅ | ✅ | ✅ | ✅ | ✅ |
+| nl | ✅ | ✅ | ✅ | ✅ | ✅ |
+| sv | ✅ `[NSR-FLAG]` | ✅ | ✅ | ✅ | ✅ |
+| da | ✅ `[NSR-FLAG]` | ✅ | ✅ | ✅ | ✅ |
+| no | ✅ `[NSR-FLAG]` | ✅ | ✅ | ✅ | ✅ |
+| fi | ✅ `[NSR-FLAG]` | ✅ | ✅ | ✅ | ✅ |
+
+**DONE 2026-06-17** — single deploy `a56b089b` (deploy.sh smoke ALL PASSED); live re-verify GREEN at https://www.lessoncraftstudio.com (88/88 mobile + 11/11 SEO-floor pages, 0 fail; per-locale framework localized live: en Common Core / de Lehrplan / fi OPS 2014). All 11 locales built → local-tested → deployed once → live-verified.
 
 Notes: first activity through the new workflow — validates the cycle (local-test-before-deploy, single deploy), not an engine. fi prompt uses genitive framing (`luvun {n} jälkeen`) to handle the caseless substituted numeral.

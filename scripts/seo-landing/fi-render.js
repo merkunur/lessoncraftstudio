@@ -43,6 +43,18 @@ function render(tpl, theme) {
     .replace(/\{H1\}/g, theme.h1Display);
 }
 
+/* ---- render2: DUAL-theme pure substitution for picture-sort "-vs-" pairs ----
+ * Reads the SAME hand-verified fi-themes fields as render() (no new fields, no morphology) for
+ * two themes A and B. Markers {A_*}/{B_*}: NPL->nomPl, PART_PL->partPl, GEN->genPl, H1->h1Display.
+ * The sv-render render2 analog; picture-sort SORTS (no counting), so partSg is not used. */
+function render2(tpl, A, B) {
+  return tpl
+    .replace(/\{A_PART_PL\}/g, A.partPl).replace(/\{B_PART_PL\}/g, B.partPl)
+    .replace(/\{A_GEN\}/g, A.genPl).replace(/\{B_GEN\}/g, B.genPl)
+    .replace(/\{A_NPL\}/g, A.nomPl).replace(/\{B_NPL\}/g, B.nomPl)
+    .replace(/\{A_H1\}/g, A.h1Display).replace(/\{B_H1\}/g, B.h1Display);
+}
+
 /* ---- vowel-harmony helpers (the Finnish *djurna analog) ----
  * Back vowels: a o u   Front vowels: ä ö y   Neutral: e i (do not set harmony class).
  * A word's harmony class = back if it contains any back vowel, else front (e/i-only -> front).
@@ -139,6 +151,7 @@ function placeholdersRemain(text) {
 
 module.exports = {
   render,
+  render2,
   assertThemeTable,
   placeholdersRemain,
   harmonyClass,

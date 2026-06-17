@@ -228,6 +228,14 @@ bsList.forEach((e, i) => {
 });
 
 // ---- by-object
+// Preserve the OLD landing slug scheme so no live URL 404s: gen-wave4 used `-kindergarten`
+// only for themes WITH letter-spotting siblings (collapsed) and the BARE `find-and-count-<theme>`
+// for singleton themes (no letter-spotting). Replicate exactly.
+const lsThemes = new Set(COORDS.letterSpotting.map(r => r.theme));
+// slug-theme aliases: keep the OLD landing URL (and a correctly-spelled slug) while canonicalDeckSlug
+// stays the real on-disk deck. thanksgivinng deck dir is typo'd; the old landing URL was the correct
+// spelling — preserve it (no 404, better keyword) and let it embed the real find-and-count-thanksgivinng.
+const SLUG_THEME_ALIAS = { 'thanksgivinng': 'thanksgiving' };
 const S_FC = SKEL_FC.length, P_FC = P2_FC.length;
 const bo = COORDS.byObject.slice().sort((a,b)=> a.theme<b.theme?-1:1);
 console.log(`[find-and-count by-object] cells ${S_FC}x${P_FC}=${S_FC*P_FC} vs ${bo.length} themes`);
@@ -236,7 +244,9 @@ bo.forEach((r, i) => {
   if (!d) { console.log('NO COPY DATA for ' + r.theme); missing++; return; }
   const tasks = r.tasks.length ? r.tasks : [{verb:'circle',word:d.h1}];
   const tasklist = humanList(tasks.map(t => `${t.verb} the ${t.word.toLowerCase()}`));
-  const slug = `find-and-count-${r.slugTheme}-kindergarten`;
+  // -kindergarten for themes that had letter-spotting siblings (old collapsed slug); bare otherwise (old singleton slug)
+  const slugTheme = SLUG_THEME_ALIAS[r.theme] || r.slugTheme;
+  const slug = lsThemes.has(r.theme) ? `find-and-count-${slugTheme}-kindergarten` : `find-and-count-${slugTheme}`;
   if (slugSeen.has(slug)) { console.log('SLUG COLLISION ' + slug); blocked++; return; }
   slugSeen.add(slug);
   const ctx = { tasklist, n: d.nouns, g: d.gen, h1: d.h1, firstVerb: tasks[0].verb, firstWord: tasks[0].word.toLowerCase() };

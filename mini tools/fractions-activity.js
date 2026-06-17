@@ -33,29 +33,27 @@
    per-mount shuffle (fresh order each mount + a fresh order each pass).
    ===================================================================== */
 
-/* The canonical pool: rect/square/circle × halves & fourths, every cut
-   exact-by-construction (centre line / even fraction / diameter through
-   centre), every candidate tap target ≥36px even at 280px. 8 distinct
-   rounds (≥7 floor). Used for the direct-load demo AND as the manifest
-   fallback; the per-activity pool comes from the manifest. */
+/* The canonical pool: 8 GENUINELY DIFFERENT SHAPES (§A.13.60 — the variety
+   is the shapes, not a dressed-up rectangle), each cut into exactly-equal
+   parts, every candidate tap target ≥36px even at 280px. Used for the
+   direct-load demo AND the manifest fallback; the per-activity pool comes
+   from the manifest. (triangle/hexagon/pentagon do halves; square/ellipse/
+   diamond do fourths; circle/rect halves — each shape uses a cut it
+   partitions exactly.) */
 var DEMO_ROUNDS = [
-  { shape: 'rect',   n: 2, cut: 'v',    seed: 11 },
-  { shape: 'circle', n: 2, cut: 'v',    seed: 23 },
-  { shape: 'square', n: 2, cut: 'h',    seed: 31 },
-  { shape: 'rect',   n: 2, cut: 'h',    seed: 59 },
-  { shape: 'square', n: 2, cut: 'v',    seed: 61 },
-  { shape: 'square', n: 4, cut: 'grid', seed: 37 },
-  { shape: 'rect',   n: 4, cut: 'grid', seed: 67 },
-  { shape: 'circle', n: 4, cut: 'grid', seed: 41 }
+  { shape: 'circle',   n: 2, cut: 'v',    seed: 11 },
+  { shape: 'square',   n: 4, cut: 'grid', seed: 23 },
+  { shape: 'rect',     n: 2, cut: 'v',    seed: 31 },
+  { shape: 'triangle', n: 2, cut: 'v',    seed: 59 },
+  { shape: 'ellipse',  n: 4, cut: 'grid', seed: 61 },
+  { shape: 'diamond',  n: 4, cut: 'grid', seed: 37 },
+  { shape: 'hexagon',  n: 2, cut: 'v',    seed: 67 },
+  { shape: 'pentagon', n: 2, cut: 'v',    seed: 41 }
 ];
 
 function makeRoundTasks(rounds, idPrefix) {
   return rounds.map(function (r, i) {
-    /* themed prompt (NAMES the object, §A.13.60) when the round has a theme
-       AND a themed string exists (<theme><n>); else the generic prompt. */
-    var generic = (r.n === 4) ? 'promptFourths' : (r.n === 3) ? 'promptThirds' : 'promptHalves';
-    var themedKey = r.theme ? (r.theme + r.n) : null;
-    var promptKey = (themedKey && FractionsCore.strings[themedKey]) ? themedKey : generic;
+    var promptKey = (r.n === 4) ? 'promptFourths' : (r.n === 3) ? 'promptThirds' : 'promptHalves';
     /* the halves "through the middle" wording is wrong for thirds → route
        n=3 wrong-set hints to the thirds-specific key. */
     var notEqualKey = (r.n === 3) ? 'hintNotEqualThirds' : 'hintNotEqual';

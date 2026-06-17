@@ -376,6 +376,22 @@ var ACTIVITY_STRINGS = {
     da: 'Denne form er delt i fire lige store dele. Tryk på en anden form, der også er delt i fire lige store dele.',
     no: 'Denne formen er delt i fire like store deler. Trykk på en annen form som også er delt i fire like store deler.'
   },
+  /* Batch (workflow pilot) K.CC.A.2 — What number comes next.
+     {n} = the given number; the kid taps n+1. Native per-locale authoring
+     (one native-linguist agent per language); sv/da/no/fi NSR-flagged. */
+  promptNextNumber: {
+    en: 'What number comes after {n}?',
+    de: 'Welche Zahl kommt nach {n}?',
+    fr: 'Quel nombre vient juste après {n} ?',
+    it: 'Quale numero viene dopo il {n}?',
+    es: '¿Qué número viene después del {n}?',
+    pt: 'Qual número vem depois do {n}?',
+    nl: 'Welk getal komt na {n}? Tik erop!',
+    sv: 'Vilket tal kommer efter {n}? Tryck på det!',
+    da: 'Hvilket tal kommer efter {n}? Tryk på det.',
+    no: 'Hvilket tall kommer etter {n}? Trykk på det!',
+    fi: 'Mikä luku tulee luvun {n} jälkeen? Napauta oikeaa lukua.'
+  },
   hintPickOne: {
     en: 'Pick one of the shapes first',
     de: 'Wähle zuerst eine Form aus',
@@ -875,6 +891,38 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
           },
           check: function (tool) {
             var correct = tool.answer === String(entry.sides);
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: next-number (K.CC.A.2) — show a number n as the subject,
+       kid picks the number that comes next (n+1) from 4 number tiles.
+       params.numbers = list of n values (keep n+1 within range);
+       params.distractorPool default {0..10}. Activity-layer only — reuses
+       the count-sides number-tile rendering; core untouched. */
+    if (row.task_template === 'next-number') {
+      var nextNumbers = row.params.numbers;
+      var nextPool = row.params.distractorPool || [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      return nextNumbers.map(function (n) {
+        var answer = n + 1;
+        return {
+          id: row.id + '.n' + n,
+          promptKey: 'promptNextNumber',
+          promptArgs: { n: String(n) },
+          answerType: 'state',
+          setup: function (tool) {
+            var numberOpts = pickNumberDistractors(nextPool, answer, 4);
+            var subject = { type: 'text', text: String(n) };
+            tool.setupTask(numberOpts, String(answer), subject);
+          },
+          check: function (tool) {
+            var correct = tool.answer === String(answer);
             tool.showFeedback(correct);
             return correct;
           },

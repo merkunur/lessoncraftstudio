@@ -25,7 +25,12 @@ import fiData from '@/content/seo-landing/fi.json';
 import { CANONICAL_HOST } from '@/lib/seo/url';
 
 export interface LandingCarouselItem { label: string; href: string }
-export interface LandingCoordinate { type: string; mode: string | null; theme: string; level: string }
+export interface LandingCoordinate { type: string; mode: string | null; theme: string; level: string;
+  /** Optional 5th discriminator. Set on per-deck find-and-count "Beginning Sounds" landings
+   * (one landing per (theme, letter)) where (type, mode, theme) alone is NOT unique. Included
+   * in coordKey() when present, so these landings sibling cross-locale on (theme, letter) and
+   * do NOT falsely match another locale's still-collapsed theme-level landing. */
+  letter?: string }
 export interface Landing {
   slug: string;
   variantShape: 'singleton' | 'collapsed';
@@ -132,7 +137,7 @@ export function landingSlugForDeck(locale: string, deckSlug: string): string | n
  */
 const _coordIndex: Record<string, Map<string, Landing>> = {};
 function coordKey(c: LandingCoordinate): string {
-  return `${c.type}|${c.mode === null ? 'null' : c.mode}|${c.theme}`;
+  return `${c.type}|${c.mode === null ? 'null' : c.mode}|${c.theme}${c.letter ? '|' + c.letter : ''}`;
 }
 function coordIndex(locale: string): Map<string, Landing> {
   if (_coordIndex[locale]) return _coordIndex[locale];

@@ -1,0 +1,16 @@
+{
+  "locale": "fi",
+  "exerciseType": "cryptogram",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 97,
+  "rowsWithoutSubjectTag": 97,
+  "droppedThemes": [],
+  "coordinateCountByMode_ALL": {},
+  "totalValid": 0,
+  "distinctThemes": [],
+  "distinctModes": [],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [],
+  "_note": "PROVEN-UNLANDABLE: fi cryptogram = themeless decode of a random sentence (kryptogrammi register), 0 subjectTags across all 97 published decks — the same wall as es/en/de/sv/da/no/fr/it/pt. DON'T-LAND, surfaced not folded."
+}

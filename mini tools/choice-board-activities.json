@@ -1184,5 +1184,61 @@
       "no": "Gratis, interaktiv aktivitet som følger LK20. Barnet kjenner igjen like deler — formen er delt likt, men bitene kan ha samme størrelse og ulik form."
     },
     "kid_prompt_template": "promptTapMatchEqualShares"
+  },
+  {
+    "id": "choice-board.next-number.k-cc-a-2",
+    "tool": "choice-board-activity",
+    "task_template": "next-number",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.A.2",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
+    "params": {
+      "numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "distractorPool": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    },
+    "theme": null,
+    "slug": {
+      "en": "what-number-comes-next",
+      "de": "welche-zahl-kommt-danach",
+      "es": "que-numero-sigue",
+      "fr": "quel-nombre-vient-apres",
+      "it": "quale-numero-viene-dopo",
+      "pt": "qual-numero-vem-depois",
+      "nl": "welk-getal-komt-erna",
+      "sv": "vilket-tal-kommer-efter",
+      "da": "hvilket-tal-kommer-efter",
+      "no": "hvilket-tall-kommer-etter",
+      "fi": "mika-luku-tulee-seuraavaksi"
+    },
+    "page_title": {
+      "en": "What Number Comes Next? — Kindergarten Counting",
+      "de": "Welche Zahl kommt danach? — Zählen im Kindergarten",
+      "es": "Qué número sigue — Conteo en jardín infantil",
+      "fr": "Quel nombre vient après ? — Les nombres à la maternelle",
+      "it": "Quale numero viene dopo — Numeri e conteggio scuola dell'infanzia",
+      "pt": "Qual número vem depois — Contagem no pré-escolar",
+      "nl": "Welk getal komt erna? — Tellen in de kleuterklas",
+      "sv": "Vilket tal kommer efter? — Taluppfattning i förskoleklass",
+      "da": "Hvilket tal kommer efter? — Tal og tælling i børnehaveklassen",
+      "no": "Hvilket tall kommer etter? — Telling i barnehagen",
+      "fi": "Mikä luku tulee seuraavaksi — Esiopetuksen lukujonotaitoja"
+    },
+    "page_intro": {
+      "en": "Look at the number and tap the number that comes next. Aligned to Common Core K.CC.A.2 — count forward beginning from a given number within the known sequence.",
+      "de": "Schau dir die Zahl an und tippe an, welche Zahl danach kommt. An den Lehrplänen ausgerichtet — vom Zählen einer Zahl zur nächsten weiterzählen.",
+      "es": "Mira el número y toca el que viene justo después al contar. Alineado con el currículo oficial — contar hacia adelante a partir de un número dado.",
+      "fr": "Regarde le nombre et touche celui qui vient juste après. Conforme aux programmes officiels — compter en avançant à partir d'un nombre donné.",
+      "it": "Guarda il numero e tocca quello che viene subito dopo. Allineato alle Indicazioni nazionali — contare in avanti a partire da un numero dato.",
+      "pt": "Olhe o número e toque naquele que vem logo depois. Alinhado à BNCC — contar avançando a partir de um número dado, desenvolvendo a noção de sequência numérica.",
+      "nl": "Kijk naar het getal en tik op het getal dat erna komt. Afgestemd op de kerndoelen — vooruittellen vanaf een willekeurig getal.",
+      "sv": "Titta på talet och tryck på det tal som kommer näst i räkneordningen. Anpassat till Lgr22 — räkna framåt från ett givet tal och öva taluppfattning.",
+      "da": "Se på tallet, og tryk på det tal, der kommer lige efter. Tilpasset Fælles Mål — tæl videre fra et tal, barnet kender.",
+      "no": "Se på tallet og trykk på det tallet som kommer rett etterpå. Tilpasset LK20 — øv på å telle videre fra et tall.",
+      "fi": "Katso lukua ja napauta lukua, joka tulee heti sen jälkeen. Yhteensopiva OPS 2014:n kanssa — harjoitellaan lukujonossa eteenpäin laskemista."
+    },
+    "kid_prompt_template": "promptNextNumber"
   }
 ]

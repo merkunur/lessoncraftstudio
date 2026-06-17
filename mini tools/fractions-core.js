@@ -44,11 +44,15 @@ window.FractionsCore = {
     /* prompts — selected by N in the wrapper (n=2 → halves, n=4 → fourths) */
     promptHalves: {en:"Cut the shape into 2 equal parts — halves.",de:"Schneide die Form in 2 gleiche Teile – Hälften.",es:"Corta la figura en 2 partes iguales: mitades.",pt:"Corte em 2 partes iguais — as metades.",fr:"Coupe la forme en 2 parts égales : les moitiés.",it:"Dividi la figura in 2 parti uguali — le metà.",nl:"Knip in 2 gelijke delen — helften.",sv:"Dela formen i 2 lika stora delar — halvor.",da:"Klip figuren i 2 lige store dele — halve.",no:"Del opp i 2 like store deler — halvdeler.",fi:"Jaa kahteen yhtä suureen osaan – puolikkaat."},
     promptFourths: {en:"Cut the shape into 4 equal parts — fourths.",de:"Schneide die Form in 4 gleiche Teile – Viertel.",es:"Corta la figura en 4 partes iguales: cuartos.",pt:"Corte em 4 partes iguais — os quartos.",fr:"Coupe la forme en 4 parts égales : les quarts.",it:"Dividi la figura in 4 parti uguali — i quarti.",nl:"Knip in 4 gelijke delen — kwarten.",sv:"Dela formen i 4 lika stora delar — fjärdedelar.",da:"Klip figuren i 4 lige store dele — fjerdedele.",no:"Del opp i 4 like store deler — firedeler.",fi:"Jaa neljään yhtä suureen osaan – neljäsosat."},
+    /* E14 #3b thirds (2.G.A.3) — native per locale */
+    promptThirds: {en:"Cut the shape into 3 equal parts — thirds.",de:"Schneide die Form in 3 gleiche Teile – Drittel.",es:"Corta la figura en 3 partes iguales: tercios.",pt:"Corte em 3 partes iguais — os terços.",fr:"Coupe la forme en 3 parts égales : les tiers.",it:"Dividi la figura in 3 parti uguali — i terzi.",nl:"Knip in 3 gelijke delen — derden.",sv:"Dela formen i 3 lika stora delar — tredjedelar.",da:"Klip figuren i 3 lige store dele — tredjedele.",no:"Del opp i 3 like store deler — tredeler.",fi:"Jaa kolmeen yhtä suureen osaan – kolmasosat."},
     /* try-again hints (returned by the wrapper's hintKey) */
     hintTapLine: {en:"Tap a dotted line to make a cut.",de:"Tippe auf eine gepunktete Linie, um einen Schnitt zu machen.",es:"Toca una línea punteada para hacer un corte.",pt:"Toque em uma linha pontilhada para fazer um corte.",fr:"Tape sur un trait en pointillés pour faire une coupe.",it:"Tocca una linea tratteggiata per fare un taglio.",nl:"Tik op een stippellijn om te knippen.",sv:"Tryck på en prickad linje för att göra ett snitt.",da:"Tryk på en stiplet linje for at lave et klip.",no:"Trykk på en prikket linje for å lage et kutt.",fi:"Napauta katkoviivaa ja tee leikkaus."},
     hintMoreCuts: {en:"Add another cut so the parts are equal.",de:"Mach noch einen Schnitt, damit die Teile gleich groß sind.",es:"Agrega otro corte para que las partes queden iguales.",pt:"Faça mais um corte para deixar as partes iguais.",fr:"Ajoute une autre coupe pour que les parts soient égales.",it:"Aggiungi un altro taglio per rendere le parti uguali.",nl:"Maak nog een knip zodat de delen gelijk zijn.",sv:"Lägg till ett snitt till så att delarna blir lika stora.",da:"Lav endnu et klip, så delene bliver lige store.",no:"Legg til ett kutt til, så delene blir like store.",fi:"Tee vielä yksi leikkaus, niin osista tulee yhtä suuret."},
     hintTooManyCuts: {en:"Too many cuts — tap one to take it away.",de:"Zu viele Schnitte – tippe auf einen, um ihn wegzunehmen.",es:"Hay demasiados cortes. Toca uno para quitarlo.",pt:"Cortes demais — toque em um para tirar.",fr:"Trop de coupes ! Tape sur une coupe pour l'enlever.",it:"Troppi tagli — toccane uno per toglierlo.",nl:"Te veel knippen — tik er een aan om hem weg te halen.",sv:"För många snitt — tryck på ett för att ta bort det.",da:"For mange klip — tryk på et af dem for at fjerne det.",no:"For mange kutt — trykk på ett for å ta det bort.",fi:"Liikaa leikkauksia – napauta yhtä ja poista se."},
     hintNotEqual: {en:"Those parts aren’t equal — choose the cut through the middle.",de:"Diese Teile sind nicht gleich groß – wähle den Schnitt durch die Mitte.",es:"Esas partes no son iguales. Elige el corte que pasa justo por el centro.",pt:"Essas partes não estão iguais — escolha o corte que passa pelo meio.",fr:"Ces parts ne sont pas égales : choisis la coupe qui passe par le milieu.",it:"Queste parti non sono uguali — scegli il taglio che passa nel mezzo.",nl:"Deze delen zijn niet gelijk — kies de knip door het midden.",sv:"De där delarna är inte lika stora — välj snittet rakt genom mitten.",da:"De dele er ikke lige store — vælg klippet, der går gennem midten.",no:"Disse delene er ikke like store — velg kuttet som går rett gjennom midten.",fi:"Osat eivät ole yhtä suuret – valitse leikkaus keskeltä."},
+    /* thirds-specific "not equal" hint (the halves "through the middle" wording is wrong for thirds) — native per locale */
+    hintNotEqualThirds: {en:"Those parts aren’t equal — choose the cuts that make 3 equal parts.",de:"Diese Teile sind nicht gleich groß – wähle die Schnitte, die 3 gleiche Teile ergeben.",es:"Esas partes no son iguales: elige los cortes que hacen 3 partes iguales.",pt:"Essas partes não estão iguais — escolha os cortes que fazem 3 partes iguais.",fr:"Ces parts ne sont pas égales — choisis les coupes qui font 3 parts égales.",it:"Queste parti non sono uguali — scegli i tagli che fanno 3 parti uguali.",nl:"Die delen zijn niet gelijk — kies de lijnen die 3 gelijke delen maken.",sv:"De delarna är inte lika stora — välj snitten som ger 3 lika stora delar.",da:"De dele er ikke lige store — vælg de streger, der laver 3 lige store dele.",no:"Disse delene er ikke like store — velg snittene som lager 3 like store deler.",fi:"Nuo osat eivät ole yhtä suuria – valitse leikkaukset, jotka tekevät kolme yhtä suurta osaa."},
     /* screen-reader shape nouns + cut-line label */
     shapeCircle: {en:"circle",de:"Kreis",es:"círculo",pt:"círculo",fr:"cercle",it:"cerchio",nl:"cirkel",sv:"cirkel",da:"cirkel",no:"sirkel",fi:"ympyrä"},
     shapeSquare: {en:"square",de:"Quadrat",es:"cuadrado",pt:"quadrado",fr:"carré",it:"quadrato",nl:"vierkant",sv:"kvadrat",da:"kvadrat",no:"kvadrat",fi:"neliö"},
@@ -90,10 +94,11 @@ window.FractionsCore = {
     this.shape = opts.shape || 'rect';
     this.n = opts.n || 2;
     this.cut = opts.cut || 'v';
+    this.rot = opts.rot || 0;          // circle-thirds rotation (deg); 0 for halves/fourths
     this.readOnly = false;
     this.committed = {};
 
-    var built = this._lines(this.shape, this.n, this.cut);
+    var built = this._lines(this.shape, this.n, this.cut, this.rot);
     var all = [];
     built.correct.forEach(function (ln) { all.push({ kind: 'correct', line: ln }); });
     built.distractors.forEach(function (ln) { all.push({ kind: 'distractor', line: ln }); });
@@ -112,9 +117,19 @@ window.FractionsCore = {
      partition is provably equal. Distractors are well-separated off-centre
      lines (≥16 viewBox units from the correct line and from edges, which
      keeps every tap target ≥36px even at a 280px viewport). */
-  _lines: function (shape, n, cut) {
+  _lines: function (shape, n, cut, rot) {
     var C = this._C;
+    rot = rot || 0;
     if (shape === 'circle') {
+      if (n === 3) {
+        /* THREE radii 120° apart from the centre → 3 exact 120° wedges.
+           Distractor = one off-angle radius (60° from each correct → ≥60°
+           rim separation; breaks equal-thirds). rot rotates the whole set. */
+        return {
+          correct: [this._radius(90 + rot), this._radius(210 + rot), this._radius(330 + rot)],
+          distractors: [this._radius(150 + rot)]
+        };
+      }
       if (n === 2) {
         return { correct: [this._diamV()], distractors: [this._chordV(34)] };
       }
@@ -130,6 +145,18 @@ window.FractionsCore = {
       : { left: C.RX, top: C.RY, right: C.RR, bottom: C.RB };
     var midX = (box.left + box.right) / 2;   // 50 for both
     var midY = (box.top + box.bottom) / 2;   // 50 for both
+    var w = box.right - box.left, h = box.bottom - box.top;
+    if (n === 3 && cut === 'h') {
+      /* two horizontal cuts at exact thirds → 3 equal strips; distractor
+         off-position (16u above the first correct cut). */
+      var h1 = box.top + h / 3, h2 = box.top + 2 * h / 3;
+      return { correct: [this._lineH(box, h1), this._lineH(box, h2)], distractors: [this._lineH(box, h1 - 16)] };
+    }
+    if (n === 3) {
+      /* two vertical cuts at exact thirds → 3 equal strips */
+      var v1 = box.left + w / 3, v2 = box.left + 2 * w / 3;
+      return { correct: [this._lineV(box, v1), this._lineV(box, v2)], distractors: [this._lineV(box, v1 - 16)] };
+    }
     if (n === 2 && cut === 'h') {
       return {
         correct: [this._lineH(box, midY)],
@@ -153,6 +180,12 @@ window.FractionsCore = {
   _lineH: function (box, y) { return { x1: box.left, y1: y, x2: box.right, y2: y }; },
   _diamV: function () { var C = this._C; return { x1: C.CX, y1: C.CY - C.R, x2: C.CX, y2: C.CY + C.R }; },
   _diamH: function () { var C = this._C; return { x1: C.CX - C.R, y1: C.CY, x2: C.CX + C.R, y2: C.CY }; },
+  /* a radius (spoke) from centre to the rim at angleDeg (math convention:
+     0°=right, 90°=up; SVG y is down so subtract sin). For circle-thirds. */
+  _radius: function (angleDeg) {
+    var C = this._C, a = angleDeg * Math.PI / 180;
+    return { x1: C.CX, y1: C.CY, x2: C.CX + C.R * Math.cos(a), y2: C.CY - C.R * Math.sin(a) };
+  },
   /* vertical chord at x — endpoints where the line meets the circle */
   _chordV: function (x) {
     var C = this._C, off = Math.sqrt(C.R * C.R - (x - C.CX) * (x - C.CX));

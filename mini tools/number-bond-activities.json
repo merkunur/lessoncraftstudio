@@ -1,0 +1,61 @@
+[
+  {
+    "id": "numberbond.make-ten.k-oa-a-4",
+    "tool": "number-bond-activity",
+    "task_template": "make-ten",
+    "alignment": { "framework": "CCSS", "code": "K.OA.A.4", "grade": "K", "strand": "Operations & Algebraic Thinking" },
+    "params": {
+      "rounds": [
+        { "whole": 10, "given": 7, "seed": 11 },
+        { "whole": 10, "given": 4, "seed": 23 },
+        { "whole": 10, "given": 9, "seed": 31 },
+        { "whole": 10, "given": 2, "seed": 41 },
+        { "whole": 10, "given": 6, "seed": 53 },
+        { "whole": 10, "given": 5, "seed": 61 },
+        { "whole": 10, "given": 8, "seed": 67 },
+        { "whole": 10, "given": 3, "seed": 71 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "make-ten-number-bond",
+      "de": "zehn-voll-machen-zahlenhaus-zehnerfreunde",
+      "es": "amigos-del-10-descomposicion",
+      "pt": "amigos-do-10-decomposicao",
+      "fr": "les-amis-de-10-decomposition",
+      "it": "amici-del-10-coppie-che-formano-dieci",
+      "nl": "splitsen-tot-10-getalsplitsing",
+      "sv": "tiokompisar-gor-10",
+      "da": "venner-til-10",
+      "no": "tiervenner-tallbinding",
+      "fi": "kympin-kaverit"
+    },
+    "page_title": {
+      "en": "Make 10 — Number Bonds to Ten (Kindergarten)",
+      "de": "Zehn voll machen – Zahlenhaus für den Kindergarten | Zehnerfreunde üben",
+      "es": "Amigos del 10: descomposición del número para Educación Infantil (5-6 años)",
+      "pt": "Amigos do 10: atividade de decomposição para a educação infantil (5–6 anos)",
+      "fr": "Les amis de 10 : décomposer le nombre 10 en grande section (5–6 ans)",
+      "it": "Forma il 10: gli amici del 10 per la scuola dell'infanzia (5-6 anni)",
+      "nl": "Maak 10: splitsen tot 10 voor kleuters (groep 2) — gratis rekenactiviteit",
+      "sv": "Gör 10 – tiokompisar i förskoleklass (5–6 år)",
+      "da": "Lav 10 — venner til 10 for børnehaveklassen (5–6 år)",
+      "no": "Lag 10 – tiervenner for barnehage og 1. trinn (5–6 år)",
+      "fi": "Kympin kaverit – esiopetuksen matematiikkaharjoitus (5–6-vuotiaat)"
+    },
+    "page_intro": {
+      "en": "A free interactive Kindergarten math activity: the whole is 10 and one part is filled — tap the empty part of the number bond to add counters until both parts make 10. Find the number that makes 10. Common Core K.OA.A.4.",
+      "de": "Passend zum Lehrplan (K.OA.A.4): eine kostenlose interaktive Mathe-Aktivität für den Kindergarten rund um die Zahlzerlegung der Zehn. Dein Kind findet spielerisch die Zehnerfreunde und füllt mit Plättchen den fehlenden Teil, bis das Zahlenhaus die Zehn voll macht.",
+      "es": "Una actividad de matemáticas gratuita e interactiva para Educación Infantil: descubre los amigos del 10 completando la parte que falta del diagrama parte-parte-todo, a tu ritmo y sin prisas. Alineada al Currículo LOMLOE (K.OA.A.4): para cualquier número del 1 al 9, encuentra el número que forma 10.",
+      "pt": "Atividade alinhada à BNCC (K.OA.A.4): descubra os amigos do 10 montando o número juntos, no seu ritmo. Uma atividade interativa e gratuita de matemática para a educação infantil, com fichas para tocar e contar sem pressa.",
+      "fr": "Une activité interactive et gratuite (K.OA.A.4, Programmes officiels) pour découvrir les amis de 10 : ton enfant complète la partie vide jusqu'à faire 10. À son rythme, sans note ni chrono, juste le plaisir de manipuler les nombres.",
+      "it": "Un'attività interattiva e gratuita allineata alle Indicazioni nazionali (K.OA.A.4): i bambini scoprono gli amici del 10 toccando per aggiungere le pedine finché le due parti formano l'intero. Con tempo e tranquillità, senza fretta e senza punteggi, ogni tentativo è un piccolo passo per imparare.",
+      "nl": "In deze activiteit (K.OA.A.4, afgestemd op de SLO-kerndoelen) ontdekken kleuters spelenderwijs welk getal samen met een ander getal 10 maakt. Tik op het lege deel, voeg fiches toe en zoek samen de vrienden van 10 — helemaal gratis en zonder druk.",
+      "sv": "En gratis interaktiv matteaktivitet där barnet hittar tiokompisen och delar upp talet 10 i två delar. Aktiviteten övar K.OA.A.4 enligt Lgr22 och passar barn i förskoleklass som börjar utforska hur tal kan byggas ihop.",
+      "da": "I denne aktivitet (K.OA.A.4, Fælles Mål) finder børnene tallet, der mangler for at lave 10. Det er en gratis, interaktiv matematikaktivitet til børnehaveklassen, hvor man roligt kan prøve sig frem og lære vennerne til 10 i sit eget tempo.",
+      "no": "Gratis interaktiv matematikkaktivitet der barna øver på tiervenner: de fyller den tomme delen til de to delene blir 10. Aktiviteten er knyttet til K.OA.A.4 i rammeverket LK20, og passer fint for barn på 5–6 år som tar sine første steg med tall – i et trygt tempo og helt uten stress.",
+      "fi": "Ilmainen interaktiivinen esiopetuksen matematiikkaharjoitus, jossa lapsi etsii kympin kaverit eli luvun 10 hajotelman. Harjoitus tukee OPS 2014 -tavoitteita ja taitoa K.OA.A.4: lapsi löytää jokaiselle luvulle 1–9 sen parin, joka täydentää sen kymmeneksi — omaan tahtiin ja ilman kiirettä."
+    },
+    "kid_prompt_template": "make-ten"
+  }
+]

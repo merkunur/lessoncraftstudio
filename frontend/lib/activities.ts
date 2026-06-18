@@ -57,6 +57,7 @@ const MANIFEST_FILES = [
   'array-activities.json',
   'clock-activities.json',
   'number-bond-activities.json',
+  'money-activities.json',
   // future: 'number-line-activities.json', 'ruler-activities.json', …
 ];
 

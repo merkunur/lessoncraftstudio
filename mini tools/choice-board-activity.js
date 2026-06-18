@@ -50,6 +50,21 @@ var ACTIVITY_STRINGS = {
     da: 'Tryk på ordet, du hører.',
     no: 'Trykk på ordet du hører.'
   },
+  /* E9 #2 RF.K.3.c — Tell the Words Apart (near-word discrimination). Same
+     hear→tap mechanic; the prompt cues careful listening because the distractors
+     are minimal-pair near-twins of the target. */
+  promptTellApart: {
+    en: 'Listen carefully. Tap the word you hear.',
+    de: 'Hör genau hin. Tippe auf das Wort, das du hörst.',
+    fr: 'Écoute bien. Touche le mot que tu entends.',
+    it: 'Ascolta bene. Tocca la parola che senti.',
+    es: 'Escucha con atención. Toca la palabra que escuchas.',
+    pt: 'Ouça com atenção. Toque na palavra que você ouve.',
+    nl: 'Luister goed. Tik op het woord dat je hoort.',
+    sv: 'Lyssna noga. Tryck på ordet du hör.',
+    da: 'Lyt godt efter. Tryk på ordet, du hører.',
+    no: 'Lytt godt. Trykk på ordet du hører.'
+  },
   /* Batch 1 K.G.B.4 — Count the sides */
   promptCountSides: {
     en: 'How many sides does this shape have?',
@@ -1516,7 +1531,7 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
         }
         return {
           id: row.id + '.round-' + i,
-          promptKey: 'promptReadSight',
+          promptKey: (row.params && row.params.promptKey) || 'promptReadSight',
           answerType: 'state',
           setup: function (tool) { tool.setupTask(options, targetKey, null); speakTarget(); },
           check: function (tool) {

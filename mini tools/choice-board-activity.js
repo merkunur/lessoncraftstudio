@@ -34,6 +34,22 @@ var ACTIVITY_STRINGS = {
     no: 'Trykk på {shape}',
     fi: 'Napauta {shape}'
   },
+  /* E9 RF.K.3.c — Read common high-frequency words by sight. The target word
+     is SPOKEN (wrapper-driven LCSAudio); the prompt is generic so the displayed
+     text does NOT reveal the target (genuine reading, not a string-match). No fi
+     (transparent orthography → no sight-word tradition; excluded per native evidence). */
+  promptReadSight: {
+    en: 'Tap the word you hear.',
+    de: 'Tippe auf das Wort, das du hörst.',
+    fr: 'Touche le mot que tu entends.',
+    it: 'Tocca la parola che senti.',
+    es: 'Toca la palabra que escuchas.',
+    pt: 'Toque na palavra que você ouve.',
+    nl: 'Tik op het woord dat je hoort.',
+    sv: 'Tryck på ordet du hör.',
+    da: 'Tryk på ordet, du hører.',
+    no: 'Trykk på ordet du hører.'
+  },
   /* Batch 1 K.G.B.4 — Count the sides */
   promptCountSides: {
     en: 'How many sides does this shape have?',
@@ -804,6 +820,24 @@ function buildSortCountTiles(correct, total, otherCounts, seed) {
   });
 }
 
+/* E9 sight-word per-pass reshuffle (§A.13.60) — order-only Fisher–Yates, used
+   ONLY by the read-sight-word template (every other choice-board skill keeps the
+   shell's tasks[] per-mount shuffle, untouched). */
+function _cbSameOrder(a, b) {
+  if (!b || a.length !== b.length) return false;
+  for (var i = 0; i < a.length; i++) { if (a[i] !== b[i]) return false; }
+  return true;
+}
+function cbShuffledOrder(n, prev) {
+  var idx = [], i, j, t;
+  for (i = 0; i < n; i++) idx.push(i);
+  if (n < 2) return idx;
+  do {
+    for (i = n - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = idx[i]; idx[i] = idx[j]; idx[j] = t; }
+  } while (_cbSameOrder(idx, prev));
+  return idx;
+}
+
 window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
   id: 'choice-board-activity',
   strings: Object.assign({}, ChoiceBoardCore.strings, ACTIVITY_STRINGS, FLATTENED_SHAPE_LABELS, FLATTENED_NOUN_LABELS, {
@@ -830,13 +864,36 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       var row = rows.find(function (r) { return r.id === self._activityId; });
       if (!row) return;
       self._activityRow = row;
-      self.tasks = self._buildTasksFromRow(row);
+      var built = self._buildTasksFromRow(row);
+      if (row.task_template === 'read-sight-word') {
+        /* per-pass reshuffle path: shell uses nextTask() when tasks is unset */
+        self._pool = built; self._order = null; self._curPass = 0; self._orderForPool = null;
+        self.tasks = null;
+      } else {
+        self.tasks = built;
+      }
       if (typeof window.LCS_reloadFirstTask === 'function') {
         window.LCS_reloadFirstTask();
       }
     }).catch(function (e) {
       if (window.console && console.warn) console.warn('[choice-board-activity] manifest load failed; using fallback:', e.message);
     });
+  },
+
+  /* Per-pass reshuffle for the read-sight-word template (self._pool set + self.tasks
+     null → the shell calls nextTask). Other templates set self.tasks, so the shell
+     uses tasks[] and never calls this. */
+  nextTask: function (opts) {
+    var pool = this._pool;
+    if (!pool || !pool.length) return null;
+    var n = pool.length;
+    var i = (opts && opts.index) || 0;
+    if (!this._order || this._orderForPool !== pool || this._order.length !== n) {
+      this._order = cbShuffledOrder(n, null); this._orderForPool = pool; this._curPass = 0;
+    }
+    var pass = Math.floor(i / n);
+    if (pass > this._curPass) { this._order = cbShuffledOrder(n, this._order); this._curPass = pass; }
+    return pool[this._order[i % n]];
   },
 
   _buildTasksFromRow: function (row) {
@@ -1431,6 +1488,44 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
           hintKey: function (tool) {
             return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
           }
+        };
+      });
+    }
+
+    /* E9 RF.K.3.c — read common high-frequency words by sight. The target word
+       is SPOKEN via window.LCSAudio (wrapper-driven; 0 core touch); 4 word tiles
+       (target + 3 non-homophone visually-similar distractors); the kid taps the
+       word they hear. Per-locale rounds in params.byLocale (fi absent → 404 by
+       design). Target tile position rotated by round index (deterministic
+       variety; no within-round randomness). */
+    if (row.task_template === 'read-sight-word') {
+      var swLoc = (window.LCS && window.LCS.i18n && window.LCS.i18n.current) || 'en';
+      var swByLoc = (row.params && row.params.byLocale) || {};
+      var swL = swByLoc[swLoc] || swByLoc.en;
+      var swRounds = (swL && swL.rounds) || [];
+      return swRounds.map(function (r, i) {
+        var words = [r.target].concat(r.distractors || []);
+        var rot = i % words.length;
+        var ordered = words.slice(rot).concat(words.slice(0, rot));
+        var options = ordered.map(function (w) { return { key: w, text: w }; });
+        var targetKey = r.target;
+        function speakTarget() {
+          if (window.LCSAudio && window.LCSAudio.speak) {
+            window.LCSAudio.speak({ type: 'word', text: targetKey, lang: swLoc, rate: 0.85 });
+          }
+        }
+        return {
+          id: row.id + '.round-' + i,
+          promptKey: 'promptReadSight',
+          answerType: 'state',
+          setup: function (tool) { tool.setupTask(options, targetKey, null); speakTarget(); },
+          check: function (tool) {
+            var correct = tool.answer === targetKey;
+            if (!correct) speakTarget();   /* replay-on-retry */
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) { return tool.answer == null ? 'hintPickOne' : 'hintTryAgain'; }
         };
       });
     }

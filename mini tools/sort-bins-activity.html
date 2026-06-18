@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sort Shapes by Sides — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=16">
+  <!-- Activity-page parent forces the iframe height + renders the sage field;
+       these rules make body transparent + cascade height: 100% to #lcs-root.
+       Engine CSS is injected by sort-bins-core.js at runtime (those rules
+       already use !important per §A.13.47 rule 6). -->
+  <style>
+    html, body { background: transparent !important; }
+    html, body, #lcs-root { height: 100% !important; }
+  </style>
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- Shell first, then the sort-by-sides drag-to-bin core, then this activity
+       wrapper. NOTE: bump ?v=N on EVERY change to sort-bins-core.js or
+       sort-bins-activity.js (§A.13.42 cache-buster discipline). -->
+  <script src="/mini-tools/lcs-shell.js?v=3"></script>
+  <script src="/mini-tools/sort-bins-core.js?v=1"></script>
+  <script src="/mini-tools/sort-bins-activity.js?v=1"></script>
+  <script>
+    LCS.mount(SortBinsActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

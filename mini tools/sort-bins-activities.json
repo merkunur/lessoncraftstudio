@@ -1,0 +1,61 @@
+[
+  {
+    "id": "sort-bins.sort-by-sides.2-g-a-1",
+    "tool": "sort-bins-activity",
+    "task_template": "sort-by-sides",
+    "alignment": { "framework": "CCSS", "code": "2.G.A.1", "grade": "2", "strand": "Geometry" },
+    "params": {
+      "rounds": [
+        { "bins": ["triangle", "quadrilateral", "pentagon"],            "items": ["tri_equi", "tri_right", "quad_square", "quad_rect", "pent_reg", "pent_house"],                "seed": 11 },
+        { "bins": ["triangle", "quadrilateral", "hexagon"],             "items": ["tri_equi", "tri_obtuse", "quad_rhombus", "quad_trap", "hex_reg", "hex_irreg"],                "seed": 23 },
+        { "bins": ["quadrilateral", "pentagon", "hexagon"],             "items": ["quad_square", "quad_para", "pent_reg", "pent_house", "hex_reg", "hex_irreg"],                  "seed": 31 },
+        { "bins": ["triangle", "quadrilateral"],                        "items": ["tri_equi", "tri_right", "tri_obtuse", "quad_square", "quad_rect", "quad_rhombus", "quad_trap"], "seed": 41 },
+        { "bins": ["triangle", "quadrilateral", "pentagon", "hexagon"], "items": ["tri_equi", "quad_trap", "pent_reg", "hex_reg", "quad_rect", "hex_irreg"],                      "seed": 53 },
+        { "bins": ["triangle", "pentagon"],                             "items": ["tri_equi", "tri_right", "tri_obtuse", "pent_reg", "pent_house"],                               "seed": 61 },
+        { "bins": ["quadrilateral", "hexagon"],                         "items": ["quad_square", "quad_rect", "quad_rhombus", "hex_reg", "hex_irreg"],                            "seed": 67 },
+        { "bins": ["triangle", "quadrilateral", "pentagon", "hexagon"], "items": ["tri_obtuse", "quad_para", "pent_house", "hex_irreg", "quad_rect", "pent_reg"],                "seed": 71 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "sort-shapes-by-sides",
+      "de": "formen-nach-ecken-sortieren",
+      "es": "clasifica-figuras-por-lados",
+      "pt": "classificar-figuras-por-lados",
+      "fr": "trier-formes-cotes",
+      "it": "ordina-le-figure-per-lati",
+      "nl": "vormen-sorteren-op-zijden",
+      "sv": "sortera-former-efter-sidor",
+      "da": "sorter-figurer-efter-sider",
+      "no": "sorter-former-etter-sider",
+      "fi": "lajittele-kuviot-sivujen-mukaan"
+    },
+    "page_title": {
+      "en": "Sort Shapes by Sides — Triangles, Quadrilaterals, Pentagons & Hexagons (Grade 2)",
+      "de": "Formen nach Ecken sortieren – Dreiecke, Vierecke, Fünf- und Sechsecke (2. Klasse)",
+      "es": "Clasifica figuras por lados — triángulos y cuadriláteros (segundo de primaria)",
+      "pt": "Classificar figuras por lados — triângulos, quadriláteros, pentágonos e hexágonos (2º ano)",
+      "fr": "Trier les formes par côtés — triangles, quadrilatères, pentagones et hexagones (CE1)",
+      "it": "Ordina le figure per lati: triangoli, quadrilateri, pentagoni ed esagoni (classe seconda)",
+      "nl": "Vormen sorteren op zijden — driehoeken, vierhoeken, vijfhoeken en zeshoeken (groep 4)",
+      "sv": "Sortera former efter sidor — trianglar, fyrhörningar, femhörningar och sexhörningar (åk 2)",
+      "da": "Sortér figurer efter sider — trekanter, firkanter, femkanter og sekskanter (2. klasse)",
+      "no": "Sorter former etter sider – trekanter, firkanter, femkanter og sekskanter (2. trinn)",
+      "fi": "Lajittele kuviot sivujen mukaan – kolmiot, nelikulmiot, viisi- ja kuusikulmiot (2. luokka)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 geometry activity: drag each shape into the right bin — triangles, quadrilaterals, pentagons and hexagons — by counting its sides. Common Core 2.G.A.1.",
+      "de": "Kostenlose interaktive Geometrie-Übung für die 2. Klasse: Ziehe jede Form in den richtigen Korb – Dreiecke, Vierecke, Fünfecke und Sechsecke – und zähle dabei die Ecken. Passend zum Lehrplan (2.G.A.1).",
+      "es": "Actividad gratis e interactiva de geometría para segundo de primaria: arrastra cada figura a su caja y clasifícala por su número de lados (3, 4, 5 o 6). Cuenta y aprende jugando.",
+      "pt": "Atividade de geometria gratuita e interativa para o 2º ano: arraste e classifique cada figura por número de lados — triângulos, quadriláteros, pentágonos e hexágonos. Alinhada à BNCC (2.G.A.1).",
+      "fr": "Une activité de géométrie CE1 gratuite et interactive : glisse chaque forme dans la bonne boîte — triangles, quadrilatères, pentagones, hexagones — en comptant ses côtés. Programmes officiels (CCSS 2.G.A.1).",
+      "it": "Attività di geometria gratuita e interattiva per la classe seconda della scuola primaria: trascina ogni figura nel contenitore giusto e ordinala per numero di lati. In linea con le Indicazioni nazionali (2.G.A.1).",
+      "nl": "Gratis interactieve meetkunde voor groep 4: sleep en sorteer elke vorm in de juiste bak op het aantal zijden — driehoeken, vierhoeken, vijfhoeken en zeshoeken. Sluit aan op de SLO-kerndoelen (CCSS 2.G.A.1).",
+      "sv": "En gratis interaktiv geometriövning för åk 2: dra varje form till rätt låda — trianglar, fyrhörningar, femhörningar eller sexhörningar — genom att räkna antalet sidor. Följer Lgr22 (2.G.A.1).",
+      "da": "En gratis, interaktiv geometriøvelse til 2. klasse: træk og sortér hver figur i den rigtige kasse efter antal sider — trekanter, firkanter, femkanter og sekskanter. Fælles Mål (2.G.A.1).",
+      "no": "Gratis interaktiv geometrioppgave for 2. trinn: dra og sorter hver form i riktig boks etter antall sider – trekanter, firkanter, femkanter og sekskanter. Følger LK20 (CCSS 2.G.A.1).",
+      "fi": "Ilmainen vuorovaikutteinen geometriatehtävä 2. luokalle: vedä ja lajittele jokainen kuvio sivujen lukumäärän mukaan oikeaan laatikkoon. OPS 2014 (CCSS 2.G.A.1)."
+    },
+    "kid_prompt_template": "sort-by-sides"
+  }
+]

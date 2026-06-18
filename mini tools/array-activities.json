@@ -57,5 +57,64 @@
       "fi": "Rakenna yhtä suuret rivit suorakulmaiseksi taulukoksi ja selvitä yhteismäärä toistuvalla yhteenlaskulla. Harjoitus tukee OPS 2014 -tavoitteita ja taitoa 2.OA.C.4."
     },
     "kid_prompt_template": "build-array"
+  },
+  {
+    "id": "array.equal-groups.2-oa-c-4",
+    "tool": "array-activity",
+    "task_template": "equal-groups",
+    "alignment": { "framework": "CCSS", "code": "2.OA.C.4", "grade": "2", "strand": "Operations & Algebraic Thinking" },
+    "params": {
+      "rounds": [
+        { "groups": 2, "each": 3, "seed": 11 },
+        { "groups": 3, "each": 4, "seed": 23 },
+        { "groups": 4, "each": 2, "seed": 31 },
+        { "groups": 2, "each": 5, "seed": 41 },
+        { "groups": 3, "each": 3, "seed": 53 },
+        { "groups": 5, "each": 2, "seed": 61 },
+        { "groups": 4, "each": 4, "seed": 67 },
+        { "groups": 3, "each": 5, "seed": 71 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "make-equal-groups",
+      "de": "gleiche-gruppen-bilden-klasse-2",
+      "es": "haz-grupos-iguales",
+      "pt": "faca-grupos-iguais",
+      "fr": "fais-des-groupes-egaux-ce1",
+      "it": "fai-gruppi-uguali",
+      "nl": "maak-gelijke-groepen-groep-4",
+      "sv": "gor-lika-grupper-ak-2",
+      "da": "lav-lige-store-grupper",
+      "no": "lag-like-grupper-2-trinn",
+      "fi": "tee-yhta-suuret-ryhmat"
+    },
+    "page_title": {
+      "en": "Equal Groups — Repeated Addition to Find the Total (Grade 2)",
+      "de": "Gleiche Gruppen bilden – wiederholte Addition für Klasse 2",
+      "es": "Grupos iguales y suma repetida para 2.º de primaria",
+      "pt": "Grupos iguais: adição repetida para o 2º ano | Atividade",
+      "fr": "Groupes égaux CE1 : addition répétée et multiplication (PDF)",
+      "it": "Gruppi uguali e addizione ripetuta per la classe seconda",
+      "nl": "Gelijke groepen oefenen — herhaald optellen voor groep 4",
+      "sv": "Lika grupper – upprepad addition för åk 2 | LessonCraftStudio",
+      "da": "Lige store grupper – gentagen addition for 2. klasse",
+      "no": "Like grupper og gjentatt addisjon – mattespill for 2. trinn",
+      "fi": "Yhtä suuret ryhmät – toistuva yhteenlasku, 2. luokka"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 math activity: make equal groups — the same number in each — and find the total by repeated addition (4 + 4 + 4 = 12). Tap to fill the groups, watch them add up, then type how many in all. Common Core 2.OA.C.4.",
+      "de": "Diese interaktive Übung zu gleichen Gruppen führt Kinder der 2. Klasse spielerisch an die wiederholte Addition heran. Sie füllen gleich große Gruppen, beobachten den Additionsstreifen und bestimmen die Gesamtzahl – passend zum Lehrplan der Grundschule (2.OA.C.4).",
+      "es": "Actividad interactiva de grupos iguales y suma repetida para niñas y niños de 2.º de primaria, alineada al Currículo LOMLOE (equivalente a 2.OA.C.4). El alumno forma grupos con la misma cantidad, observa la suma repetida y escribe el total.",
+      "pt": "Atividade interativa de grupos iguais e adição repetida para crianças do 2º ano (cerca de 7 anos). Alinhada à BNCC, ela prepara o raciocínio multiplicativo (equivalente à habilidade 2.OA.C.4): a criança monta grupos com a mesma quantidade e descobre o total.",
+      "fr": "Une activité interactive pour découvrir les groupes égaux et l'addition répétée au CE1, alignée sur les Programmes officiels (équivalent 2.OA.C.4). L'enfant remplit des groupes identiques, observe l'addition se construire, puis tape le total.",
+      "it": "Un'attività interattiva per la classe seconda in cui i bambini formano gruppi uguali e usano l'addizione ripetuta per trovare il totale, in linea con le Indicazioni nazionali (2.OA.C.4).",
+      "nl": "Met deze interactieve oefening maakt je kind gelijke groepen en telt het herhaald op om het totaal te vinden. De activiteit sluit aan bij de SLO-kerndoelen voor rekenen in groep 4 (2.OA.C.4).",
+      "sv": "Öva lika grupper och upprepad addition i denna interaktiva aktivitet för åk 2. Eleven fyller lika stora grupper, ser additionen byggas upp och räknar ut summan, i linje med Lgr22 (2.OA.C.4).",
+      "da": "Øv lige store grupper og gentagen addition med denne interaktive opgave til 2. klasse. Aktiviteten følger Fælles Mål og understøtter målet bag 2.OA.C.4, hvor børn bygger grupper og finder det samlede antal.",
+      "no": "I denne aktiviteten lager barna like grupper og bruker gjentatt addisjon for å finne hvor mange det blir til sammen. Oppgaven støtter mål i matematikk fra LK20 for 2. trinn og tilsvarer 2.OA.C.4.",
+      "fi": "Harjoittele yhtä suurten ryhmien tekemistä ja toistuvaa yhteenlaskua tällä toiminnallisella tehtävällä 2. luokan oppilaille. Tehtävä tukee OPS 2014 -opetussuunnitelman tavoitteita (2.OA.C.4): lapsi rakentaa ryhmät, seuraa yhteenlaskua ja laskee kokonaismäärän."
+    },
+    "kid_prompt_template": "equal-groups"
   }
 ]

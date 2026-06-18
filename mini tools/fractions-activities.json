@@ -69,7 +69,9 @@
         { "shape": "triangle", "n": 3, "cut": "v",     "seed": 103 },
         { "shape": "hexagon",  "n": 3, "cut": "v",     "seed": 107 },
         { "shape": "square",   "n": 3, "cut": "v",     "seed": 127 },
-        { "shape": "rect",     "n": 3, "cut": "h",     "seed": 113 }
+        { "shape": "rect",     "n": 3, "cut": "h",     "seed": 113 },
+        { "shape": "diamond",  "n": 3, "cut": "edge",  "seed": 131 },
+        { "shape": "ellipse",  "n": 3, "cut": "radii", "seed": 137 }
       ]
     },
     "theme": null,

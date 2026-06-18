@@ -588,6 +588,32 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   }
 }
 
+/* 2026-06-18 — K-2 tap-target floor (authorized protected-core change).
+   The @media(max-width:600px) block above keeps a FIXED 6 columns
+   (repeat(6, minmax(0,1fr))), so on a narrow iframe the keys shrink
+   unbounded — measured 18px @ iframe 216px (page-280), clearing the 36px
+   K-2 minimum only ~iframe 366px (page-430). Below ~iframe 358px, 6 keys at
+   36px (a 246px keypad) simply don't fit. Fix: auto-fit with a 36px column
+   FLOOR — the column count drops (6→5→4→3) as the iframe narrows so every
+   key stays ≥36px and the keypad never overflows. Engages ONLY ≤360px (the
+   failure band); within it the container is ≤~250px so auto-fit yields at
+   most 6 columns (no 7-col over-pack) and keeps 6 where 6 fit, so the
+   page-430 layout and everything wider is UNCHANGED. The key rule above
+   (width:100%; aspect-ratio:1) fills the ≥36px track → ≥36px square keys.
+   Only the shared keypad is touched; non-keypad activities have no
+   .lcs-activity-keypad. */
+@media (max-width: 360px) {
+  .lcs-app.activity .lcs-activity-keypad {
+    /* minmax(36px, 1fr) — NOT minmax(36px, var(--lcs-tap)): auto-fit counts
+       repetitions by the track's MAX when that is a fixed length (44px would
+       pack only 2 cols @140px → 6 tall rows). A flexible 1fr max makes the
+       count use the 36px MIN, so columns pack denser (3-5 @ the narrow band,
+       ≤6 at ~250px) → fewer rows, every key still ≥36px, tracks stretch to
+       fill, no overflow. */
+    grid-template-columns: repeat(auto-fit, minmax(36px, 1fr));
+  }
+}
+
 /* Gentle celebrate-bounce on the success prompt. Lands at scale(1.04)
    which matches the resting state of the shell's existing celebrate
    class; the keyframe is purely additive entry motion. */

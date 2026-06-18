@@ -53,6 +53,7 @@ const MANIFEST_FILES = [
   'place-value-activities.json',
   'match-pairs-activities.json',
   'fractions-activities.json',
+  'sort-bins-activities.json',
   // future: 'number-line-activities.json', 'ruler-activities.json', …
 ];
 

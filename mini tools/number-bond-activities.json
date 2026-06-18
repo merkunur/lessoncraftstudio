@@ -116,5 +116,64 @@
       "fi": "Tässä maksuttomassa 1. luokan tehtävässä harjoitellaan yhteenlaskua kahteenkymmeneen kympin ylityksen avulla: lapsi jakaa luvun ja täyttää ensin kympin. Harjoitus tukee OPS 2014 -tavoitteita ja taitoa 1.OA.C.6 luontevalla, kannustavalla tavalla."
     },
     "kid_prompt_template": "make-ten-to-add"
+  },
+  {
+    "id": "numberbond.find-the-total.1-oa-a-1",
+    "tool": "number-bond-activity",
+    "task_template": "whole-unknown",
+    "alignment": { "framework": "CCSS", "code": "1.OA.A.1", "grade": "1", "strand": "Operations & Algebraic Thinking" },
+    "params": {
+      "rounds": [
+        { "first": 3, "second": 4, "seed": 211 },
+        { "first": 6, "second": 2, "seed": 223 },
+        { "first": 5, "second": 5, "seed": 231 },
+        { "first": 4, "second": 7, "seed": 241 },
+        { "first": 8, "second": 3, "seed": 253 },
+        { "first": 2, "second": 6, "seed": 261 },
+        { "first": 7, "second": 4, "seed": 267 },
+        { "first": 5, "second": 8, "seed": 271 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "find-the-total-number-bond",
+      "de": "finde-das-ganze-zahlenbild",
+      "es": "encuentra-el-total",
+      "pt": "encontre-o-total",
+      "fr": "trouve-le-total",
+      "it": "trova-il-totale-classe-prima",
+      "nl": "hoeveel-in-totaal",
+      "sv": "hitta-det-hela",
+      "da": "find-det-hele-hvor-mange-i-alt",
+      "no": "finn-summen-hvor-mange-til-sammen",
+      "fi": "etsi-kokonaisuus-montako-yhteensa"
+    },
+    "page_title": {
+      "en": "Find the Total — Add Two Parts Within 20 (Grade 1)",
+      "de": "Finde das Ganze – Zahlenbild Klasse 1 | Kostenlose Mathe-Übung",
+      "es": "Encuentra el total — suma hasta 20 para 1.º de primaria",
+      "pt": "Encontre o Total — Atividade de Matemática para o 1º ano",
+      "fr": "Trouve le total — addition CP (jusqu'à 20) | activité de maths gratuite",
+      "it": "Trova il totale – matematica classe prima (1.OA.A.1)",
+      "nl": "Vind het totaal – gratis rekenactiviteit groep 3 (optellen tot 20)",
+      "sv": "Hitta det hela – addition inom 20, åk 1 | Gratis mattaktivitet",
+      "da": "Find det hele – matematik for 1. klasse",
+      "no": "Finn summen – addisjon opp til 20 for 1. trinn (1.OA.A.1)",
+      "fi": "Etsi kokonaisuus – yhteenlasku, 1. luokka | maksuton harjoitus"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 math activity: a number bond shows two parts — count how many there are in all and type the total. Putting together to add within 20. Common Core 1.OA.A.1.",
+      "de": "Passend zum Lehrplan (1.OA.A.1): Ein Zahlenbild zeigt zwei Teile, und dein Kind findet das Ganze, indem es beide Teile zusammenzählt (Addition bis 20). Diese kostenlose interaktive Mathe-Übung für die Klasse 1 macht das Zusammensetzen von Zahlen spielerisch und ohne Druck begreifbar.",
+      "es": "Actividad de matemáticas interactiva y gratuita para 1.º de primaria: un diagrama de partes y todo muestra las dos partes y los peques averiguan el todo contando cuántos hay en total (suma hasta 20, componer números). Alineada con el Currículo LOMLOE (1.OA.A.1).",
+      "pt": "Atividade interativa e gratuita de matemática para o 1º ano: um diagrama de partes e todo mostra as duas partes, e a criança encontra o todo contando quantos há ao todo (adição até 20, juntando e compondo). Alinhada à BNCC (1.OA.A.1).",
+      "fr": "Une activité (1.OA.A.1, Programmes officiels) pour le CP : une maison des nombres montre deux parties, et l'enfant cherche le tout. On compose et on calcule jusqu'à 20, tout en douceur. Gratuite, interactive, à faire en classe ou à la maison.",
+      "it": "Un'attività di matematica interattiva e gratuita per la classe prima: un legame tra numeri mostra due parti e i bambini trovano l'intero, cioè il totale (addizione entro il 20, comporre). Allineata alle Indicazioni nazionali (1.OA.A.1).",
+      "nl": "In deze activiteit (1.OA.A.1, afgestemd op de SLO-kerndoelen) zie je een splitsing met twee delen. Tel ze samen en ontdek het geheel: zo oefen je spelenderwijs optellen tot 20.",
+      "sv": "I den här gratis interaktiva mattaktiviteten för åk 1 visar ett tiokompis-diagram två delar, och barnet räknar ut det hela – summan av delarna (addition inom 20, att sätta ihop delar till en helhet). Aktiviteten övar 1.OA.A.1 enligt Lgr22 på ett varmt och lekfullt sätt.",
+      "da": "I denne aktivitet (1.OA.A.1, Fælles Mål) viser en taldeling to dele – nu skal du finde det hele. Tæl med, læg de to dele sammen op til 20, og skriv hvor mange der er i alt.",
+      "no": "Matematikkaktivitet knyttet til 1.OA.A.1 i rammeverket LK20. I denne gratis aktiviteten for 1. trinn viser et tallvenn-bilde to deler – tell hvor mange det er til sammen, og finn det hele (addisjon opp til 20, å sette sammen).",
+      "fi": "Maksuton interaktiivinen 1.-luokan matematiikkaharjoitus: lukukolmiossa näkyy kaksi osaa, ja lapsi etsii niistä kokonaisuuden eli summan. Harjoitus tukee OPS 2014 -tavoitteita ja taitoa 1.OA.A.1, jossa harjoitellaan yhteenlaskua kahteenkymmeneen ja osista koottavaa kokonaisuutta."
+    },
+    "kid_prompt_template": "whole-unknown"
   }
 ]

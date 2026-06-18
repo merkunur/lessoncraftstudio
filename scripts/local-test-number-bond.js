@@ -23,8 +23,9 @@ const has = (k) => process.argv.includes('--' + k);
 const LOCALES = arg('locales', 'en,de,es,pt,fr,it,nl,sv,da,no,fi').split(',');
 const SHOT = has('shot');
 const ACTIVITIES = [
-  { id: 'numberbond.make-ten.k-oa-a-4', titleKey: 'title' },
-  { id: 'numberbond.make-ten-to-add.1-oa-c-6', titleKey: 'titleAdd' },
+  { id: 'numberbond.make-ten.k-oa-a-4', titleKey: 'title', answer: 'tap' },
+  { id: 'numberbond.make-ten-to-add.1-oa-c-6', titleKey: 'titleAdd', answer: 'tap' },
+  { id: 'numberbond.find-the-total.1-oa-a-1', titleKey: 'titleWhole', answer: 'keypad' },
 ];
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');
@@ -58,6 +59,13 @@ function coreStrings() {
   const note = (cond, msg) => { if (!cond) fails.push(msg); };
 
   async function tapFill(page, n) { for (let i = 0; i < n; i++) { await page.click('.nb-part-fill'); } }
+  async function keypadClear(page) { await page.evaluate(() => { const c = document.querySelector('.lcs-activity-key-clear'); if (c) c.click(); }); }
+  async function keypadEnter(page, num) {
+    for (const ch of String(num)) {
+      await page.evaluate((d) => { const k = [...document.querySelectorAll('.lcs-activity-key')].find(b => b.textContent.trim() === d); if (k) k.click(); }, ch);
+    }
+  }
+  const celebrating = (page) => page.evaluate(() => document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'));
 
   for (const loc of LOCALES) {
     for (const act of ACTIVITIES) {
@@ -73,7 +81,7 @@ function coreStrings() {
         await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
         await page.waitForFunction(() => {
           const t = window.NumberBondActivity;
-          return t && t._activityRow && document.querySelector('.nb-svg') && document.querySelector('.nb-part-fill') && document.querySelector('.lcs-activity-check');
+          return t && t._activityRow && document.querySelector('.nb-svg') && document.querySelector('.lcs-activity-check');
         }, { timeout: 15000 });
 
         const title = await page.$eval('.lcs-title', e => e.textContent.trim()).catch(() => '');
@@ -90,25 +98,38 @@ function coreStrings() {
         note(p1.slice().sort().join('|') === p2.slice().sort().join('|'), `${tag}: pass-2 not same set`);
         note(p1.join('|') !== p2.join('|'), `${tag}: pass-2 order identical (no reshuffle)`);
 
-        /* interaction: reload round 0, read missing (= the target fill), tap-fill */
+        /* interaction: reload round 0, then drive the answer surface */
         await page.evaluate(() => window.LCS_reloadFirstTask && window.LCS_reloadFirstTask());
-        await page.waitForFunction(() => document.querySelector('.nb-part-fill'), { timeout: 5000 });
-        const m = await page.evaluate(() => ({ whole: window.NumberBondActivity.whole, missing: window.NumberBondActivity.missing() }));
 
-        /* UNDER-fill (missing-1) → no celebrate; then complete → correct */
-        if (m.missing - 1 >= 1) {
-          await tapFill(page, m.missing - 1);
+        if (act.answer === 'keypad') {
+          /* whole-unknown: read the total, type a WRONG value (no celebrate), then the correct total */
+          await page.waitForFunction(() => document.querySelector('.lcs-activity-keypad'), { timeout: 5000 });
+          const t = await page.evaluate(() => window.NumberBondActivity.total());
+          await keypadEnter(page, t - 1);
           await page.click('.lcs-activity-check');
-          const wrong = await page.evaluate(() => ({ c: document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'), ro: window.NumberBondActivity.readOnly }));
-          note(!wrong.c && !wrong.ro, `${tag}: an under-fill still celebrated/locked`);
-          await tapFill(page, 1);
+          note(!(await celebrating(page)), `${tag}: a wrong total (${t - 1}) still celebrated`);
+          await keypadClear(page);
+          await keypadEnter(page, t);
+          await page.click('.lcs-activity-check');
+          note(await celebrating(page), `${tag}: correct total (${t}) did not celebrate`);
         } else {
-          await tapFill(page, m.missing);
+          /* tap-fill (make-ten / make-ten-to-add): under-fill → no celebrate, then complete */
+          await page.waitForFunction(() => document.querySelector('.nb-part-fill'), { timeout: 5000 });
+          const m = await page.evaluate(() => ({ whole: window.NumberBondActivity.whole, missing: window.NumberBondActivity.missing() }));
+          if (m.missing - 1 >= 1) {
+            await tapFill(page, m.missing - 1);
+            await page.click('.lcs-activity-check');
+            const wrong = await page.evaluate(() => ({ c: document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'), ro: window.NumberBondActivity.readOnly }));
+            note(!wrong.c && !wrong.ro, `${tag}: an under-fill still celebrated/locked`);
+            await tapFill(page, 1);
+          } else {
+            await tapFill(page, m.missing);
+          }
+          await page.click('.lcs-activity-check');
+          const ok = await page.evaluate(() => ({ c: document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'), ro: window.NumberBondActivity.readOnly, correct: window.NumberBondActivity.isCorrect() }));
+          note(ok.correct, `${tag}: filling to the target (${m.missing}) did not satisfy isCorrect()`);
+          note(ok.c && ok.ro, `${tag}: correct fill did not celebrate + lock`);
         }
-        await page.click('.lcs-activity-check');
-        const ok = await page.evaluate(() => ({ c: document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'), ro: window.NumberBondActivity.readOnly, correct: window.NumberBondActivity.isCorrect() }));
-        note(ok.correct, `${tag}: filling to the target (${m.missing}) did not satisfy isCorrect()`);
-        note(ok.c && ok.ro, `${tag}: correct fill did not celebrate + lock`);
 
         /* mobile overflow */
         for (const w of [280, 360, 412, 768]) {

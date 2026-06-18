@@ -60,7 +60,14 @@ window.NumberBondCore = {
     instructionAdd: {en:"Break the second number into two parts so one part makes a ten with the first number. Tap the left part to fill it, then tap Check.",de:"Zerlege die zweite Zahl in zwei Teile, sodass ein Teil mit der ersten Zahl genau zehn ergibt. Tippe auf den linken Teil, um ihn zu füllen, und tippe dann auf Prüfen.",es:"Separa el segundo número en dos partes para que una de ellas forme una decena con el primero. Toca la parte de la izquierda para rellenarla y luego toca Comprobar.",pt:"Separe o segundo número em duas partes para que uma delas complete uma dezena com o primeiro número. Toque na parte da esquerda para preenchê-la e depois toque em Conferir.",fr:"Décompose le deuxième nombre en deux parties pour qu'une partie fasse dix avec le premier nombre. Touche la partie de gauche pour la remplir, puis touche Vérifier.",it:"Scomponi il secondo numero in due parti, in modo che una parte formi un dieci con il primo numero. Tocca la parte di sinistra per riempirla, poi tocca Controlla.",nl:"Splits het tweede getal in twee delen, zodat één deel samen met het eerste getal tien wordt. Tik op het linkerdeel om het te vullen en tik daarna op Controleer.",sv:"Dela upp det andra talet i två delar så att en del blir en tia tillsammans med det första talet. Tryck på den vänstra delen för att fylla den, och tryck sedan på Kontrollera.",da:"Del det andet tal i to dele, så den ene del bliver til ti sammen med det første tal. Tryk på den venstre del for at fylde den, og tryk så på Tjek.",no:"Del det andre tallet i to deler slik at den ene delen lager en tier sammen med det første tallet. Trykk på den venstre delen for å fylle den, og trykk så på Sjekk.",fi:"Jaa jälkimmäinen luku kahteen osaan niin, että toinen osa täyttää kympin ensimmäisen luvun kanssa. Napauta vasenta osaa täyttääksesi sen ja paina sitten Tarkista."},
     promptAdd: {en:"Make a ten: break {second} so one part makes 10 with {first}.",de:"Mach zehn: Zerlege {second} so, dass ein Teil mit {first} zusammen 10 ergibt.",es:"Haz una decena: separa {second} para que una parte forme 10 con {first}.",pt:"Faça uma dezena: separe {second} para que uma parte complete 10 com {first}.",fr:"Fais dix : décompose {second} pour qu'une partie fasse 10 avec {first}.",it:"Fai dieci: scomponi {second} in modo che una parte formi 10 con {first}.",nl:"Vul aan tot tien: splits {second} zodat één deel samen met {first} tien wordt.",sv:"Gör en tia: dela upp {second} så att en del blir 10 tillsammans med {first}.",da:"Lav en tier: del {second}, så den ene del bliver 10 sammen med {first}.",no:"Lag en tier: del opp {second} slik at den ene delen blir 10 sammen med {first}.",fi:"Täytä kymppi: jaa luku {second} niin, että toinen osa täyttää kympin luvun {first} kanssa."},
     hintAdd: {en:"Not yet — the left part should make exactly 10 with the first number.",de:"Noch nicht — der linke Teil muss mit der ersten Zahl zusammen genau 10 ergeben.",es:"Todavía no: la parte de la izquierda debe formar exactamente 10 con el primer número.",pt:"Ainda não — a parte da esquerda deve completar exatamente 10 com o primeiro número.",fr:"Pas encore — la partie de gauche doit faire exactement 10 avec le premier nombre.",it:"Non ancora — la parte di sinistra deve formare esattamente 10 con il primo numero.",nl:"Nog niet — het linkerdeel moet samen met het eerste getal precies tien worden.",sv:"Inte än – den vänstra delen ska bli precis 10 tillsammans med det första talet.",da:"Ikke helt endnu — den venstre del skal blive præcis 10 sammen med det første tal.",no:"Ikke helt ennå – den venstre delen skal bli akkurat 10 sammen med det første tallet.",fi:"Ei vielä — vasemman osan pitää täyttää tasan kymppi ensimmäisen luvun kanssa."},
-    srMakeTenPart: {en:"the make-a-ten part — tap to add counters",de:"der Zehner-Teil — tippe, um Plättchen hinzuzufügen",es:"la parte para hacer la decena: toca para añadir fichas",pt:"a parte para fazer a dezena — toque para adicionar fichas",fr:"la partie pour faire dix — touche pour ajouter des jetons",it:"la parte per fare dieci — tocca per aggiungere le pedine",nl:"het deel om aan te vullen tot tien — tik om stippen toe te voegen",sv:"tia-delen – tryck för att lägga till markörer",da:"tier-delen - tryk for at tilføje brikker",no:"lag-en-tier-delen – trykk for å legge til brikker",fi:"kympin täyttävä osa — napauta lisätäksesi laskunappuloita"}
+    srMakeTenPart: {en:"the make-a-ten part — tap to add counters",de:"der Zehner-Teil — tippe, um Plättchen hinzuzufügen",es:"la parte para hacer la decena: toca para añadir fichas",pt:"a parte para fazer a dezena — toque para adicionar fichas",fr:"la partie pour faire dix — touche pour ajouter des jetons",it:"la parte per fare dieci — tocca per aggiungere le pedine",nl:"het deel om aan te vullen tot tien — tik om stippen toe te voegen",sv:"tia-delen – tryck för att lägga till markörer",da:"tier-delen - tryk for at tilføje brikker",no:"lag-en-tier-delen – trykk for å legge til brikker",fi:"kympin täyttävä osa — napauta lisätäksesi laskunappuloita"},
+
+    /* ── whole-unknown mode (1.OA.A.1) strings — EN authored; 10 non-EN folded
+       in by the per-locale native ensemble. promptWhole is argless (the bond
+       shows the two parts; the child types the total on the keypad). ── */
+    titleWhole: {en:"Find the Total",de:"Finde das Ganze",es:"Encuentra el total",pt:"Encontre o Total",fr:"Trouve le total",it:"Trova il totale",nl:"Vind het totaal",sv:"Hitta det hela",da:"Find det hele",no:"Finn summen",fi:"Etsi kokonaisuus"},
+    instructionWhole: {en:"Both parts are filled. Count how many there are in all, then type the total and tap Check.",de:"Beide Teile sind gefüllt. Zähle, wie viele es zusammen sind, tippe dann das Ganze ein und tippe auf Prüfen.",es:"Las dos partes están completas. Cuenta cuántos hay en total, escribe el total y pulsa Comprobar.",pt:"As duas partes estão preenchidas. Conte quantos há ao todo, depois digite o total e toque em Verificar.",fr:"Les deux parties sont remplies. Compte combien il y en a en tout, puis écris le total et appuie sur Vérifier.",it:"Le due parti sono già riempite. Conta quanti sono in tutto, poi scrivi il totale e tocca Controlla.",nl:"Beide delen zijn ingevuld. Tel hoeveel het er in totaal zijn, typ dan het totaal en tik op Controleer.",sv:"Båda delarna är ifyllda. Räkna hur många det är tillsammans, skriv sedan summan och tryck på Kontrollera.",da:"Begge dele er fyldt ud. Tæl hvor mange der er i alt, skriv så det hele, og tryk på Tjek.",no:"Begge delene er fylt ut. Tell hvor mange det er til sammen, skriv summen og trykk på Sjekk.",fi:"Molemmat osat on täytetty. Laske, kuinka monta niitä on yhteensä, kirjoita summa ja napauta Tarkista."},
+    promptWhole: {en:"How many in all? Type the total.",de:"Wie viele sind es zusammen? Tippe das Ganze ein.",es:"¿Cuántos hay en total? Escribe el total.",pt:"Quantos há ao todo? Digite o total.",fr:"Combien en tout ? Écris le total.",it:"Quanti sono in tutto? Scrivi il totale.",nl:"Hoeveel in totaal? Typ het totaal.",sv:"Hur många är det tillsammans? Skriv summan.",da:"Hvor mange er der i alt? Skriv det hele.",no:"Hvor mange til sammen? Skriv summen.",fi:"Kuinka monta yhteensä? Kirjoita summa."}
   },
 
   defaults: {},
@@ -96,12 +103,27 @@ window.NumberBondCore = {
       this.readOnly = false;
       return;
     }
+    if (opts.mode === 'whole-unknown') {
+      /* 1.OA.A.1 putting-together: both parts given, find the total (whole).
+         Display-only bond + the shell keypad is the answer surface. */
+      this.mode = 'whole-unknown';
+      this.first = opts.first;
+      this.second = opts.second;
+      this.whole = opts.first + opts.second;   // the answer key
+      this.given = null;
+      this.filled = 0;
+      this.readOnly = false;
+      return;
+    }
     this.mode = 'make-ten';
     this.whole = opts.whole || 10;
     this.given = (typeof opts.given === 'number') ? opts.given : 7;
     this.filled = 0;
     this.readOnly = false;
   },
+
+  /* the total (whole-unknown answer key) = both parts composed */
+  total: function () { return this.first + this.second; },
 
   /* the single correct missing part + the discrete answer key (mode-aware) */
   missing: function () { return this.mode === 'make-ten-to-add' ? (10 - this.first) : (this.whole - this.given); },
@@ -115,6 +137,7 @@ window.NumberBondCore = {
   render: function () {
     this.injectCSS();
     if (this.mode === 'make-ten-to-add') { this._renderAddMode(); return; }
+    if (this.mode === 'whole-unknown') { this._renderWholeUnknown(); return; }
     var api = this.api, self = this, C = this._C;
     var stage = api.stage;
     stage.innerHTML = '';
@@ -323,6 +346,34 @@ window.NumberBondCore = {
     if (this.readOnly) { this._addLeft.classList.add('nb-locked'); if (this._minusEl) this._minusEl.disabled = true; }
     else { this._addLeft.classList.remove('nb-locked'); if (this._minusEl) this._minusEl.disabled = false; }
     if (this.api && this.api.announce) this.api.announce(A + ' + ' + f + ' / ' + 'make 10');
+  },
+
+  /* ── whole-unknown (1.OA.A.1): both parts given, WHOLE shows "?" — the child
+     reads the parts and types the total on the shell keypad (answerType
+     'number'; the bond is display-only, no tap handlers). ── */
+  _renderWholeUnknown: function () {
+    var api = this.api, C = this._C, elNS = this._elNS.bind(this);
+    var stage = api.stage; stage.innerHTML = '';
+    var A = this.first, B = this.second;
+    var wrap = api.el('div', 'nb-wrap nb-whole');
+
+    var svg = elNS('svg', { viewBox: '0 0 100 78', 'class': 'nb-svg', role: 'group' });
+    svg.setAttribute('aria-label', api.t('instructionWhole'));
+    svg.appendChild(elNS('line', { x1: 50, y1: 26, x2: 28, y2: 48, stroke: C.LINE, 'stroke-width': 2.5, 'stroke-linecap': 'round', opacity: 0.7 }));
+    svg.appendChild(elNS('line', { x1: 50, y1: 26, x2: 72, y2: 48, stroke: C.LINE, 'stroke-width': 2.5, 'stroke-linecap': 'round', opacity: 0.7 }));
+    /* WHOLE (top) — unknown, shows "?" */
+    svg.appendChild(elNS('circle', { cx: 50, cy: 15, r: 13, fill: C.WHOLE, stroke: C.T, 'stroke-width': 2.5 }));
+    var qt = elNS('text', { x: 50, y: 15, 'text-anchor': 'middle', 'dominant-baseline': 'central', fill: C.DOT, 'font-size': 14, 'font-weight': 800, 'font-family': 'var(--lcs-font-display,"Baloo 2",system-ui,sans-serif)' });
+    qt.textContent = '?';
+    svg.appendChild(qt);
+    qt.setAttribute('aria-label', api.t('srWhole'));
+    /* the two given parts (filled, static) */
+    this._partGroup(svg, elNS, 'given', 28, 61, A, false);
+    this._partGroup(svg, elNS, 'given', 72, 61, B, false);
+
+    wrap.appendChild(svg);
+    stage.appendChild(wrap);
+    this._fillEl = null;   // no tappable part; the keypad is the answer surface
   },
 
   reset: function () { this.filled = 0; this.readOnly = false; this.paint(); },

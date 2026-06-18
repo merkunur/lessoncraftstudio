@@ -57,5 +57,65 @@
       "fi": "Harjoittele kellonaikojen lukemista ja näyttämistä: vedä viisarit oikeaan kohtaan tasa- ja puolitunneilla. Tukee tavoitetta 1.MD.B.3 ja noudattaa OPS 2014 -opetussuunnitelmaa 1. luokan oppilaille."
     },
     "kid_prompt_template": "set-clock"
+  },
+  {
+    "id": "clock.tell-time-5-min.2-md-c-7",
+    "tool": "clock-activity",
+    "task_template": "set-clock",
+    "alignment": { "framework": "CCSS", "code": "2.MD.C.7", "grade": "2", "strand": "Measurement & Data" },
+    "params": {
+      "minuteStep": 5,
+      "rounds": [
+        { "hour": 3,  "minute": 15, "seed": 12 },
+        { "hour": 7,  "minute": 45, "seed": 24 },
+        { "hour": 6,  "minute": 10, "seed": 32 },
+        { "hour": 9,  "minute": 20, "seed": 44 },
+        { "hour": 4,  "minute": 40, "seed": 56 },
+        { "hour": 1,  "minute": 50, "seed": 62 },
+        { "hour": 10, "minute": 5,  "seed": 68 },
+        { "hour": 12, "minute": 25, "seed": 74 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "tell-time-to-five-minutes",
+      "de": "uhr-stellen-5-minuten-2-klasse",
+      "es": "pon-el-reloj-en-la-hora",
+      "pt": "que-horas-sao-de-5-em-5-minutos-2-ano",
+      "fr": "lire-l-heure-a-5-minutes-ce1",
+      "it": "leggere-lora-ai-cinque-minuti-classe-seconda",
+      "nl": "zet-de-klok-op-5-minuten-groep-4",
+      "sv": "stall-klockan-pa-5-minuter-ak-2",
+      "da": "stil-uret-paa-5-minutter-2-klasse",
+      "no": "klokka-5-minutter-2-trinn",
+      "fi": "kellonajat-5-minuutin-tarkkuudella-2-luokka"
+    },
+    "page_title": {
+      "en": "Tell Time to the Nearest 5 Minutes — Set the Clock (Grade 2)",
+      "de": "Uhrzeit stellen – auf 5 Minuten genau (2. Klasse)",
+      "es": "Pon el reloj en la hora a 5 minutos — segundo de primaria",
+      "pt": "Que horas são? A hora de 5 em 5 minutos — 2º ano",
+      "fr": "Lire l'heure à 5 minutes (CE1) — Règle l'horloge",
+      "it": "Leggere l'ora ai 5 minuti — classe seconda",
+      "nl": "Zet de klok op 5 minuten – klokkijken groep 4",
+      "sv": "Ställ klockan på 5 minuter – övning i klockan för åk 2",
+      "da": "Stil uret på 5 minutter – klokken i 2. klasse",
+      "no": "Klokka på 5 minutter – 2. trinn matematikk",
+      "fi": "Kellonajat 5 minuutin tarkkuudella – 2. luokka"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 math activity: read the time, then drag the analog clock hands to show it — to the nearest 5 minutes (quarter past, quarter to, ten past and more), with a digital readout. Common Core 2.MD.C.7.",
+      "de": "Stell die Uhr auf die richtige Zeit! Lies die Uhrzeit und ziehe die Zeiger an die passende Stelle – auf 5 Minuten genau. Übe Viertel nach, Viertel vor und mehr. Passend zum Lehrplan (2.MD.C.7).",
+      "es": "Lee la hora escrita y mueve las manecillas del reloj a la hora exacta. Practica la hora a los 5 minutos para segundo de primaria (7-8 años). Alineada al Currículo LOMLOE (2.MD.C.7).",
+      "pt": "Atividade de leitura das horas no relógio analógico de 5 em 5 minutos para o 2º ano: a criança lê a hora por extenso e arrasta os ponteiros. Alinhada à BNCC (2.MD.C.7).",
+      "fr": "Règle les aiguilles à l'heure exacte indiquée, à 5 minutes près : et quart, moins le quart, et plus. Une activité de géométrie du temps alignée sur les Programmes officiels pour le CE1 (2.MD.C.7).",
+      "it": "Attività di classe seconda allineata alle Indicazioni nazionali (2.MD.C.7): leggi l'ora a parole e trascina le lancette dell'orologio analogico fino all'ora esatta, ai cinque minuti.",
+      "nl": "Oefen klokkijken tot op 5 minuten nauwkeurig: lees de tijd en sleep de wijzers naar de juiste plek. Leuk en duidelijk voor groep 4 (7-8 jaar). Sluit aan op de SLO-kerndoelen (2.MD.C.7).",
+      "sv": "Öva på att ställa klockan till närmaste 5 minuter: läs den skrivna tiden med kvart över, kvart i och halv – dra sedan visarna till rätt tid. Följer Lgr22 (2.MD.C.7). För åk 2.",
+      "da": "Øv at aflæse og indstille uret til nærmeste 5 minutter i 2. klasse. Træk viserne til den rigtige tid med udtryk som kvart over, ti i halv og fem i halv. Følger Fælles Mål (2.MD.C.7).",
+      "no": "Øv på å lese klokka til nærmeste 5 minutter: les den skrevne tiden og dra viserne til riktig klokkeslett – med kvart over, kvart på og over/på halv. Følger LK20 (2.MD.C.7). For 2. trinn.",
+      "fi": "Harjoittele kellonaikoja 5 minuutin tarkkuudella: lapsi lukee sanallisen kellonajan ja asettaa viisarit oikeaan aikaan – vartti yli, varttia vaille ja puoli-ilmaukset. OPS 2014 (2.MD.C.7). 2. luokalle."
+    },
+    "kid_prompt_template": "set-clock"
   }
 ]

@@ -66,7 +66,20 @@ window.ClockCore = {
       "12:00": {en:"12 o'clock",de:"12 Uhr",es:"las doce en punto",pt:"meio-dia",fr:"midi",it:"mezzogiorno",nl:"12 uur",sv:"12",da:"klokken 12",no:"12",fi:"kello 12"},
       "4:30":  {en:"half past 4",de:"halb 5",es:"las cuatro y media",pt:"quatro e meia",fr:"quatre heures et demie",it:"le quattro e mezza",nl:"half 5",sv:"halv 5",da:"halv 5",no:"halv 5",fi:"puoli 5"},
       "10:00": {en:"10 o'clock",de:"10 Uhr",es:"las diez en punto",pt:"dez horas",fr:"dix heures",it:"le dieci",nl:"10 uur",sv:"10",da:"klokken 10",no:"10",fi:"kello 10"},
-      "1:30":  {en:"half past 1",de:"halb 2",es:"la una y media",pt:"uma e meia",fr:"une heure et demie",it:"l'una e mezza",nl:"half 2",sv:"halv 2",da:"halv 2",no:"halv 2",fi:"puoli 2"}
+      "1:30":  {en:"half past 1",de:"halb 2",es:"la una y media",pt:"uma e meia",fr:"une heure et demie",it:"l'una e mezza",nl:"half 2",sv:"halv 2",da:"halv 2",no:"halv 2",fi:"puoli 2"},
+      /* ---- E10 #2 (2.MD.C.7) to-the-nearest-5-minutes times. The 5-min
+         IDIOM is harder than the half-hour (quarter-past/quarter-to,
+         toward-next-hour "twenty to", Romance subtractive "menos cuarto",
+         de "fünf vor halb eins", nl "tien voor half tien") — each native
+         author owns + states the mapping. EN authored here. ---- */
+      "3:15":  {en:"quarter past 3",de:"Viertel nach 3",es:"las tres y cuarto",pt:"três e quinze",fr:"trois heures et quart",it:"le tre e un quarto",nl:"kwart over 3",sv:"kvart över 3",da:"kvart over 3",no:"kvart over 3",fi:"vartti yli kolme"},
+      "7:45":  {en:"quarter to 8",de:"Viertel vor 8",es:"las ocho menos cuarto",pt:"quinze para as oito",fr:"huit heures moins le quart",it:"le otto meno un quarto",nl:"kwart voor 8",sv:"kvart i 8",da:"kvart i 8",no:"kvart på 8",fi:"varttia vaille kahdeksan"},
+      "6:10":  {en:"ten past 6",de:"zehn nach 6",es:"las seis y diez",pt:"seis e dez",fr:"six heures dix",it:"le sei e dieci",nl:"tien over 6",sv:"tio över 6",da:"ti minutter over 6",no:"ti over 6",fi:"kymmenen yli kuusi"},
+      "9:20":  {en:"twenty past 9",de:"zwanzig nach 9",es:"las nueve y veinte",pt:"nove e vinte",fr:"neuf heures vingt",it:"le nove e venti",nl:"tien voor half tien",sv:"tjugo över 9",da:"ti i halv ti",no:"ti på halv 10",fi:"kymmentä vaille puoli kymmentä"},
+      "4:40":  {en:"twenty to 5",de:"zwanzig vor 5",es:"las cinco menos veinte",pt:"vinte para as cinco",fr:"cinq heures moins vingt",it:"le cinque meno venti",nl:"tien over half vijf",sv:"tjugo i 5",da:"ti over halv fem",no:"ti over halv 5",fi:"kymmenen yli puoli viisi"},
+      "1:50":  {en:"ten to 2",de:"zehn vor 2",es:"las dos menos diez",pt:"dez para as duas",fr:"deux heures moins dix",it:"le due meno dieci",nl:"tien voor 2",sv:"tio i 2",da:"ti i 2",no:"ti på 2",fi:"kymmentä vaille kaksi"},
+      "10:05": {en:"five past 10",de:"fünf nach 10",es:"las diez y cinco",pt:"dez e cinco",fr:"dix heures cinq",it:"le dieci e cinque",nl:"vijf over 10",sv:"fem över 10",da:"fem over 10",no:"fem over 10",fi:"viisi yli kymmenen"},
+      "12:25": {en:"twenty-five past 12",de:"fünf vor halb 1",es:"las doce y veinticinco",pt:"meio-dia e vinte e cinco",fr:"midi vingt-cinq",it:"mezzogiorno e venticinque",nl:"vijf voor half 1",sv:"fem i halv 1",da:"fem i halv 1",no:"fem på halv 1",fi:"viisi vaille puoli yksi"}
     },
     hintWrong: {en:"Not yet — the short hand points to the hour, the long hand to the minutes.",de:"Noch nicht ganz – der kurze Zeiger zeigt auf die Stunde, der lange Zeiger auf die Minuten.",es:"Casi. Fíjate bien: la manecilla corta marca la hora y la larga marca los minutos. ¡Inténtalo otra vez!",pt:"Quase! Olhe de novo onde cada ponteiro precisa apontar e tente outra vez.",fr:"Pas tout à fait ! Regarde bien où pointent les aiguilles, puis essaie encore.",it:"Quasi! Guarda bene dove indicano le lancette e prova di nuovo.",nl:"Nog niet — de korte wijzer wijst naar het uur, de lange wijzer naar de minuten.",sv:"Inte än — den korta visaren pekar på timmen, den långa visaren på minuterna.",da:"Ikke helt endnu. Husk: den korte viser peger på timen, og den lange viser peger på minutterne. Prøv igen!",no:"Nesten! Se godt på viserne og prøv en gang til.",fi:"Melkein! Katso tarkkaan, mihin lyhyt ja pitkä viisari osoittavat, ja yritä uudelleen."},
     /* screen-reader labels */
@@ -84,19 +97,25 @@ window.ClockCore = {
   /* ---- state + setup ---- */
   init: function (api) {
     this.api = api;
+    this.minuteStep = 30;                          // 30 (#1) | 5 (#2); set per task
     this.targetHour = 3; this.targetMinute = 0;   // this round's answer
     this.setHour = 12; this.setMinute = 0;        // the child's current setting
     this.readOnly = false;
     this._svg = null; this._hourEl = null; this._minEl = null; this._readoutEl = null;
   },
 
-  /* opts = { hour:1..12, minute:0|30, seed }. (seed accepted for signature
-     parity; the clock layout is deterministic.) Start the hands at a neutral
-     12:00 (or 6:00 when the target IS 12:00) so the child always sets it. */
+  /* opts = { hour:1..12, minute, minuteStep, seed }. minute is any 0..55
+     (a multiple of minuteStep); minuteStep is 30 (#1) or 5 (#2). seed is
+     accepted for signature parity (the layout is deterministic). Start the
+     hands at a neutral 12:00 (or 6:00 when the target IS 12:00). */
   setupTask: function (opts) {
     opts = opts || {};
+    /* minuteStep = the drag/keyboard granularity: 30 (E10 #1, o'clock +
+       half-past) | 5 (E10 #2, 2.MD.C.7 to the nearest 5 min). Default 30 so
+       the #1 path is behavior-identical. */
+    this.minuteStep = (opts.minuteStep === 5) ? 5 : 30;
     this.targetHour = opts.hour || 3;
-    this.targetMinute = (opts.minute === 30) ? 30 : 0;
+    this.targetMinute = (typeof opts.minute === 'number') ? (((opts.minute % 60) + 60) % 60) : 0;
     this.setHour = (this.targetHour === 12 && this.targetMinute === 0) ? 6 : 12;
     this.setMinute = 0;
     this.readOnly = false;
@@ -139,9 +158,12 @@ window.ClockCore = {
     }
     return best;
   },
-  /* snap a dragged angle to the nearest of {0,30} (o'clock / half-past) */
+  /* snap a dragged angle to the nearest valid minute (multiple of
+     this.minuteStep): {0,30} for #1, {0,5,…,55} for #2 (2.MD.C.7). */
   _snapMinute: function (angle) {
-    return (this._circDist(angle, 180) < this._circDist(angle, 0)) ? 30 : 0;
+    var step = this.minuteStep || 30;
+    var raw = ((angle % 360 + 360) % 360) / 6;   // 0..60
+    return (Math.round(raw / step) * step) % 60;
   },
 
   /* ---- render(): build the clock face + two draggable hands + readout ---- */
@@ -251,7 +273,7 @@ window.ClockCore = {
       if (e.key !== 'Enter' && e.key !== ' ' && e.key !== 'Spacebar') return;
       e.preventDefault();
       if (which === 'hour') self.setHour = (self.setHour % 12) + 1;
-      else self.setMinute = (self.setMinute === 0) ? 30 : 0;
+      else self.setMinute = (self.setMinute + (self.minuteStep || 30)) % 60;
       if (self.api && self.api.sound) self.api.sound(640);
       self.paint();
     });

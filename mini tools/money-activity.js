@@ -57,6 +57,27 @@ function makeCountOutTasks(L, idPrefix) {
   });
 }
 
+/* MAKE-CHANGE (#2): each round { cost, paid, palette, solution }; the child
+   tenders coins summing to (paid - cost). Same tray/palette mechanics; the
+   cost/paid show as the purchase context (paid may be a note). */
+function makeMakeChangeTasks(L, idPrefix) {
+  var currency = L.currency, coins = L.coins;
+  return L.rounds.map(function (r, i) {
+    return {
+      id: idPrefix + '.round-' + i,
+      promptKey: 'promptChange',
+      promptArgs: { cost: MoneyCore.formatMoney(r.cost, currency), paid: MoneyCore.formatMoney(r.paid, currency) },
+      answerType: 'state',
+      setup: function (tool) { tool.setupTask({ mode: 'make-change', currency: currency, coins: coins, cost: r.cost, paid: r.paid, palette: r.palette }); },
+      check: function (tool) {
+        var ok = tool.isCorrect();
+        if (ok) { tool.readOnly = true; tool.paint(); }
+        return ok;
+      }
+    };
+  });
+}
+
 var STATIC_DEMO_TASKS = makeCountOutTasks(DEMO_LOCALE, 'demo');
 
 function _sameOrder(a, b) {
@@ -78,9 +99,19 @@ function _currentLocale() {
   return (typeof window !== 'undefined' && window.LCS && window.LCS.i18n && window.LCS.i18n.current) || 'en';
 }
 
+/* The shell reads tool.strings.title/instruction at MOUNT (before init), so the
+   per-activity title must be chosen SYNCHRONOUSLY from ?activity (the E3 #2
+   pattern; zero lcs-shell touch). make-change → swap in titleChange/instructionChange. */
+var _ACTIVITY_ID = (typeof window !== 'undefined' && window.location)
+  ? (new URLSearchParams(window.location.search)).get('activity') : null;
+var _IS_MAKE_CHANGE = /make-change/.test(_ACTIVITY_ID || '');
+
 window.MoneyActivity = Object.assign({}, MoneyCore, {
   id: 'money-activity',
-  strings: Object.assign({}, MoneyCore.strings),
+  strings: Object.assign({}, MoneyCore.strings, _IS_MAKE_CHANGE ? {
+    title: MoneyCore.strings.titleChange,
+    instruction: MoneyCore.strings.instructionChange
+  } : {}),
 
   init: function (api) {
     MoneyCore.init.call(this, api);
@@ -123,10 +154,10 @@ window.MoneyActivity = Object.assign({}, MoneyCore, {
   },
 
   _buildTasksFromRow: function (row) {
+    var byLoc = (row.params && row.params.byLocale) || {};
+    var loc = _currentLocale();
+    var L = byLoc[loc] || byLoc.en || DEMO_LOCALE;
     if (row.task_template === 'count-out') {
-      var byLoc = (row.params && row.params.byLocale) || {};
-      var loc = _currentLocale();
-      var L = byLoc[loc] || byLoc.en || DEMO_LOCALE;
       /* defensive: each round's solution must be in-palette + sum to target + ≥2 coins. */
       if (window.console && console.warn) {
         (L.rounds || []).forEach(function (r, ri) {
@@ -136,6 +167,20 @@ window.MoneyActivity = Object.assign({}, MoneyCore, {
         });
       }
       return makeCountOutTasks(L, row.id);
+    }
+    if (row.task_template === 'make-change') {
+      /* defensive: paid>cost, solution sums to the change, in-palette, ≥2 coins. */
+      if (window.console && console.warn) {
+        (L.rounds || []).forEach(function (r, ri) {
+          var change = r.paid - r.cost;
+          var sum = (r.solution || []).reduce(function (a, b) { return a + b; }, 0);
+          if (!(r.paid > r.cost)) console.warn('[money-activity] ' + loc + ' round ' + ri + ' paid ' + r.paid + ' not > cost ' + r.cost);
+          if (sum !== change) console.warn('[money-activity] ' + loc + ' round ' + ri + ' solution sums ' + sum + ' ≠ change ' + change);
+          if ((r.solution || []).some(function (v) { return (r.palette || []).indexOf(v) === -1; })) console.warn('[money-activity] ' + loc + ' round ' + ri + ' solution coin not in palette');
+          if ((r.solution || []).length < 2) console.warn('[money-activity] ' + loc + ' round ' + ri + ' trivial change (<2 coins)');
+        });
+      }
+      return makeMakeChangeTasks(L, row.id);
     }
     return STATIC_DEMO_TASKS;
   }

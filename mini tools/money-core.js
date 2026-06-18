@@ -52,7 +52,15 @@ window.MoneyCore = {
     promptCount: {en:"Show {amount}. Tap coins to count it out.",de:"Zeige {amount}. Tippe auf Münzen, um den Betrag abzuzählen.",es:"Reúne {amount}.",pt:"Mostre {amount}.",fr:"Montre {amount}.",it:"Mostra {amount}.",nl:"Maak {amount} met munten.",sv:"Visa {amount}.",da:"Vis {amount}.",no:"Vis {amount}.",fi:"Näytä {amount}."},
     totalLabel: {en:"Total",de:"Gesamt",es:"Total",pt:"Total",fr:"Total",it:"Totale",nl:"In de bak",sv:"Summa",da:"I alt",no:"I skålen",fi:"Yhteensä"},
     srPalette: {en:"coins you can use — tap a coin to add it to your tray",de:"Münzen, die du verwenden kannst – tippe auf eine Münze, um sie in deine Schale zu legen",es:"monedas disponibles: toca una para ponerla en la bandeja",pt:"moedas disponíveis: toque numa para colocá-la na bandeja",fr:"pièces disponibles : touche une pièce pour la mettre dans le bac",it:"monete disponibili: tocca una moneta per metterla nel vassoio",nl:"beschikbare munten – tik op een munt om die in de bak te leggen",sv:"mynt att välja – tryck på ett mynt för att lägga det i facket",da:"mønter, du kan vælge – tryk på en mønt for at lægge den i bakken",no:"mynter du kan velge – trykk på en mynt for å legge den i skålen",fi:"käytettävissä olevat kolikot – napauta kolikkoa lisätäksesi sen lokeroon"},
-    srTray: {en:"your tray — tap a coin to take it back",de:"deine Schale – tippe auf eine Münze, um sie zurückzunehmen",es:"tu bandeja: toca una moneda para quitarla",pt:"sua bandeja: toque numa moeda para tirá-la",fr:"ton bac : touche une pièce pour la retirer",it:"il tuo vassoio: tocca una moneta per toglierla",nl:"jouw bak – tik op een munt om die terug te nemen",sv:"ditt fack – tryck på ett mynt för att ta tillbaka det",da:"din bakke – tryk på en mønt for at tage den tilbage",no:"skålen din – trykk på en mynt for å ta den tilbake",fi:"lokerosi – napauta kolikkoa ottaaksesi sen pois"}
+    srTray: {en:"your tray — tap a coin to take it back",de:"deine Schale – tippe auf eine Münze, um sie zurückzunehmen",es:"tu bandeja: toca una moneda para quitarla",pt:"sua bandeja: toque numa moeda para tirá-la",fr:"ton bac : touche une pièce pour la retirer",it:"il tuo vassoio: tocca una moneta per toglierla",nl:"jouw bak – tik op een munt om die terug te nemen",sv:"ditt fack – tryck på ett mynt för att ta tillbaka det",da:"din bakke – tryk på en mønt for at tage den tilbage",no:"skålen din – trykk på en mynt for å ta den tilbake",fi:"lokerosi – napauta kolikkoa ottaaksesi sen pois"},
+
+    /* ---- MAKE-CHANGE (#2) strings — per-locale native ensemble (§A.13.48).
+       promptChange args: {cost},{paid}. [NSR-FLAG] sv/da/no/fi. ---- */
+    titleChange: {en:"Make Change",de:"Gib das Wechselgeld",es:"Da el cambio",pt:"Dê o troco",fr:"Rends la monnaie",it:"Dai il resto",nl:"Geef wisselgeld",sv:"Ge tillbaka växel",da:"Giv byttepenge tilbage",no:"Gi tilbake vekslepenger",fi:"Anna vaihtorahat"},
+    instructionChange: {en:"See what it costs and what you pay. Tap coins into your tray to give the right change. Tap a coin in the tray to take it back. Then tap Check.",de:"Schau, was die Ware kostet und wie viel du bezahlst. Tippe Münzen in die Schale, um das richtige Wechselgeld herauszugeben. Tippe eine Münze in der Schale an, um sie wieder herauszunehmen. Tippe dann auf Prüfen.",es:"Mira cuánto cuesta y cuánto pagas. Toca las monedas para poner el cambio correcto en la charola. Si te equivocas, toca una moneda de la charola para quitarla. Luego toca Comprobar.",pt:"Veja quanto custa e quanto você paga. Toque nas moedas para colocar o troco certo na bandeja. Para tirar uma moeda, toque nela na bandeja. Quando terminar, toque em Verificar.",fr:"Regarde ce que ça coûte et ce que tu paies. Touche les pièces pour les mettre dans le plateau et rendre la bonne monnaie. Touche une pièce dans le plateau pour la reprendre, puis touche Vérifier.",it:"Guarda quanto costa e quanto paghi. Tocca le monete per metterle nel vassoio e dare il resto giusto. Per togliere una moneta, toccala nel vassoio. Poi tocca Controlla.",nl:"Kijk goed hoeveel iets kost en hoeveel je betaalt. Tik munten in de bak om het juiste wisselgeld te geven. Tik op een munt in de bak om hem terug te nemen. Tik daarna op Controleer.",sv:"Titta på vad varan kostar och hur mycket du betalar. Tryck på mynten så att de hamnar i facket för att ge rätt växel tillbaka. Tryck på ett mynt i facket för att ta tillbaka det. Tryck sedan på Kolla.",da:"Se på, hvad det koster, og hvad du betaler. Tryk mønter ned i bakken for at give de rigtige byttepenge. Tryk på en mønt i bakken for at tage den op igen, og tryk så på Tjek.",no:"Se på hva varen koster og hvor mye du betaler. Trykk mynter ned i skålen for å gi riktig vekslepenger. Trykk på en mynt i skålen for å ta den tilbake, og trykk så på Sjekk.",fi:"Katso, mitä tavara maksaa ja kuinka paljon maksat. Napauta kolikoita lokeroon, niin annat oikean vaihtorahan. Voit napauttaa kolikkoa lokerossa ottaaksesi sen takaisin. Lopuksi napauta Tarkista."},
+    promptChange: {en:"It costs {cost}. You pay {paid}. Give the change.",de:"Es kostet {cost}. Du zahlst {paid}. Gib das Wechselgeld.",es:"Cuesta {cost}. Pagas {paid}. Da el cambio.",pt:"Custa {cost}. Você paga {paid}. Dê o troco.",fr:"Ça coûte {cost}. Tu paies {paid}. Rends la monnaie.",it:"Costa {cost}. Paghi {paid}. Dai il resto.",nl:"Het kost {cost}. Je betaalt {paid}. Geef het wisselgeld.",sv:"Det kostar {cost}. Du betalar {paid}. Ge tillbaka växeln.",da:"Det koster {cost}. Du betaler {paid}. Giv byttepenge tilbage.",no:"Det koster {cost}. Du betaler {paid}. Gi tilbake vekslepengene.",fi:"Se maksaa {cost}. Maksat {paid}. Anna vaihtorahat."},
+    costLabel: {en:"Costs",de:"Kostet",es:"Cuesta",pt:"Custa",fr:"Coûte",it:"Costa",nl:"Kost",sv:"Kostar",da:"Koster",no:"Koster",fi:"Hinta"},
+    paidLabel: {en:"You pay",de:"Du zahlst",es:"Pagas",pt:"Você paga",fr:"Tu paies",it:"Paghi",nl:"Je betaalt",sv:"Du betalar",da:"Du betaler",no:"Du betaler",fi:"Maksat"}
   },
 
   defaults: {},
@@ -67,19 +75,32 @@ window.MoneyCore = {
     this.coins = [];        // [{v, label}]
     this._labelOf = {};     // v -> label
     this.palette = [];      // coin values available this round
-    this.target = 0;        // minor units
+    this.target = 0;        // minor units (count-out: the amount; make-change: the change)
+    this.mode = 'count-out';
+    this.cost = null; this.paid = null;   // make-change purchase context
     this.tray = [];         // coin values the child has tendered
     this.readOnly = false;
     this._trayEl = null; this._totalEl = null;
   },
 
-  /* opts = { currency, coins:[{v,label}], target, palette:[values] } */
+  /* COUNT-OUT: opts = { currency, coins:[{v,label}], target, palette:[values] }
+     MAKE-CHANGE: opts = { mode:'make-change', currency, coins, cost, paid, palette }
+       → target = paid - cost (the CHANGE the child tenders); cost/paid shown as
+       the purchase context. Tender mechanics are identical to count-out. */
   setupTask: function (opts) {
     opts = opts || {};
     if (opts.currency) this.currency = opts.currency;
     if (opts.coins) { this.coins = opts.coins; this._labelOf = {}; for (var i = 0; i < opts.coins.length; i++) this._labelOf[opts.coins[i].v] = opts.coins[i].label; }
     this.palette = opts.palette || [];
-    this.target = opts.target || 0;
+    this.mode = opts.mode || 'count-out';
+    if (this.mode === 'make-change') {
+      this.cost = opts.cost || 0;
+      this.paid = opts.paid || 0;
+      this.target = this.paid - this.cost;   // the change to tender
+    } else {
+      this.cost = null; this.paid = null;
+      this.target = opts.target || 0;
+    }
     this.tray = [];
     this.readOnly = false;
   },
@@ -105,6 +126,23 @@ window.MoneyCore = {
     var api = this.api, self = this;
     var stage = api.stage; stage.innerHTML = '';
     var wrap = api.el('div', 'mn-wrap');
+
+    /* CONTEXT (make-change only) — "Costs X · You pay Y". The paid amount may
+       be a note (e.g. "$1"/"€5"); it is display-only — the child tenders the
+       CHANGE in coins below. */
+    if (this.mode === 'make-change') {
+      var ctx = api.el('div', 'mn-context');
+      var cCost = api.el('span', 'mn-ctx-item');
+      var cLbl = api.el('span', 'mn-ctx-lbl'); cLbl.textContent = api.t('costLabel');
+      var cVal = api.el('span', 'mn-ctx-val'); cVal.textContent = this.formatMoney(this.cost);
+      cCost.append(cLbl, cVal);
+      var pPaid = api.el('span', 'mn-ctx-item');
+      var pLbl = api.el('span', 'mn-ctx-lbl'); pLbl.textContent = api.t('paidLabel');
+      var pVal = api.el('span', 'mn-ctx-val'); pVal.textContent = this.formatMoney(this.paid);
+      pPaid.append(pLbl, pVal);
+      ctx.append(cCost, pPaid);
+      wrap.appendChild(ctx);
+    }
 
     /* TRAY — tendered coins + running total */
     var tray = api.el('div', 'mn-tray');
@@ -187,6 +225,11 @@ window.MoneyCore = {
     var C = this._C;
     var css = ''
       + '.mn-wrap{display:flex;flex-direction:column;align-items:center;gap:14px;width:100%;}'
+      + '.mn-context{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;justify-content:center;width:min(92vw,420px);'
+      +   'background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:16px;padding:10px 14px;}'
+      + '.mn-ctx-item{display:flex;align-items:baseline;gap:8px;}'
+      + '.mn-ctx-lbl{font:700 13px/1.2 var(--lcs-font-body,"Nunito",system-ui,sans-serif);color:' + C.T + ';opacity:.7;text-transform:uppercase;letter-spacing:.04em;}'
+      + '.mn-ctx-val{font:800 22px/1 var(--lcs-font-display,"Baloo 2",system-ui,sans-serif);color:' + C.T + ';}'
       + '.mn-tray{width:min(92vw,420px);min-height:84px;background:' + C.TRAY + ';border:2px dashed rgba(20,107,94,.35);border-radius:18px;padding:10px 12px;display:flex;flex-direction:column;gap:8px;}'
       + '.mn-tray-coins{display:flex;flex-wrap:wrap;gap:8px;min-height:48px;align-items:center;justify-content:center;}'
       + '.mn-total-row{display:flex;align-items:center;justify-content:center;gap:8px;font:800 20px/1 var(--lcs-font-display,"Baloo 2",system-ui,sans-serif);color:' + C.T + ';}'

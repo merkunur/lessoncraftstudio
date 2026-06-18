@@ -85,6 +85,27 @@ function makeWholeTasks(rounds, idPrefix) {
   });
 }
 
+/* subtraction-as-unknown-addend (1.OA.B.4): each round {whole, given, seed} →
+   reuses the make-ten MODE (whole = minuend, given = subtrahend); the child fills
+   the missing part (= the difference). Only the prompt framing differs from #1. */
+function makeUnknownAddendTasks(rounds, idPrefix) {
+  return rounds.map(function (r, i) {
+    return {
+      id: idPrefix + '.round-' + i,
+      promptKey: 'promptSubtraction',
+      promptArgs: { whole: r.whole, given: r.given },
+      answerType: 'state',
+      setup: function (tool) { tool.setupTask({ whole: r.whole, given: r.given, seed: r.seed }); },
+      check: function (tool) {
+        var ok = tool.isCorrect();
+        if (ok) { tool.readOnly = true; tool.paint(); }
+        return ok;
+      },
+      hintKey: function () { return 'hintWrong'; }
+    };
+  });
+}
+
 var STATIC_DEMO_TASKS = makeRoundTasks(DEMO_ROUNDS, 'demo');
 
 function _sameOrder(a, b) {
@@ -169,6 +190,17 @@ window.NumberBondActivity = Object.assign({}, NumberBondCore, {
       }
       return makeWholeTasks(wholeRounds, row.id);
     }
+    if (row.task_template === 'unknown-addend') {
+      var uaRounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : [];
+      /* defensive: given 1..whole-1; BOTH parts ≤9 (render-safety — the tested dot-packing range). */
+      if (window.console && console.warn) {
+        uaRounds.forEach(function (r, ri) {
+          if (!(r.given >= 1 && r.given < r.whole)) console.warn('[number-bond-activity] ua round ' + ri + ' given ' + r.given + ' not in 1..' + (r.whole - 1));
+          if (!(r.given <= 9 && (r.whole - r.given) <= 9)) console.warn('[number-bond-activity] ua round ' + ri + ' part >9 (render-safety): ' + r.given + '/' + (r.whole - r.given));
+        });
+      }
+      return makeUnknownAddendTasks(uaRounds, row.id);
+    }
     if (row.task_template === 'make-ten') {
       var rounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : DEMO_ROUNDS;
       /* defensive: given 1..9, parts must be able to sum to the whole. */
@@ -200,6 +232,11 @@ window.NumberBondActivity = Object.assign({}, NumberBondCore, {
     NumberBondActivity.strings = Object.assign({}, NumberBondActivity.strings, {
       title: NumberBondActivity.strings.titleWhole,
       instruction: NumberBondActivity.strings.instructionWhole
+    });
+  } else if (id && id.indexOf('subtraction') >= 0) {
+    NumberBondActivity.strings = Object.assign({}, NumberBondActivity.strings, {
+      title: NumberBondActivity.strings.titleSubtraction,
+      instruction: NumberBondActivity.strings.instructionSubtraction
     });
   }
 })();

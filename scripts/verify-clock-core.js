@@ -39,11 +39,15 @@ const manifest = JSON.parse(fs.readFileSync(path.join(REPO, 'mini tools', 'clock
 const failures = [];
 function check(cond, msg) { if (!cond) failures.push(msg); }
 function near(a, b) { return Math.abs(a - b) < 1e-9; }
-function timeKey(h, m) { return h + ':' + (m === 30 ? '30' : '00'); }
+function timeKey(h, m) { return h + ':' + (m < 10 ? '0' + m : '' + m); }
 
 let roundCount = 0;
 for (const row of manifest) {
   const rounds = (row.params && row.params.rounds) || [];
+  /* minute-scope is per-coordinate: 2.MD.C.7 = to the nearest 5 min
+     ({0,5,…,55}); everything else (1.MD.B.3) = o'clock + half ({0,30}). */
+  const code = (row.alignment && row.alignment.code) || '';
+  const minStep = (code === '2.MD.C.7') ? 5 : 30;
   check(rounds.length >= VARIETY_MIN, `${row.id}: ${rounds.length} rounds < ${VARIETY_MIN} variety floor (§A.13.60)`);
   rounds.forEach((r, i) => {
     roundCount++;
@@ -51,7 +55,7 @@ for (const row of manifest) {
 
     // 1. scope
     check(r.hour >= 1 && r.hour <= 12, `${label}: hour ${r.hour} outside 1..12`);
-    check(r.minute === 0 || r.minute === 30, `${label}: minute ${r.minute} not 0|30 (1.MD.B.3 scope)`);
+    check(r.minute >= 0 && r.minute < 60 && r.minute % minStep === 0, `${label}: minute ${r.minute} not a multiple of ${minStep} (${code || '1.MD.B.3'} scope)`);
 
     Core.init({});
     Core.setupTask({ hour: r.hour, minute: r.minute });
@@ -89,5 +93,5 @@ if (failures.length) {
   failures.forEach((f) => console.error('  • ' + f));
   process.exit(1);
 }
-console.log(`PASS — ${roundCount} round(s) across ${manifest.length} coordinate(s): hand angles = 30H+0.5M / 6M (exact, coupled); discrete grade accepts target + rejects wrong hour/minute; worded timeExpr present for all ${LOCALES.length} locales; ≥${VARIETY_MIN} rounds; minutes ∈ {0,30}.`);
+console.log(`PASS — ${roundCount} round(s) across ${manifest.length} coordinate(s): hand angles = 30H+0.5M / 6M (exact, coupled); discrete grade accepts target + rejects wrong hour/minute; worded timeExpr present for all ${LOCALES.length} locales; ≥${VARIETY_MIN} rounds; minutes valid per coordinate scope (1.MD.B.3 {0,30} / 2.MD.C.7 {0,5,…,55}).`);
 process.exit(0);

@@ -42,21 +42,24 @@ var DEMO_ROUNDS = [
   { hour: 1,  minute: 30, seed: 71 }
 ];
 
-function _timeKey(h, m) { return h + ':' + (m === 30 ? '30' : '00'); }
+/* "H:MM" key — minute zero-padded (handles {0,30} for #1 AND {0,5,…,55}
+   for #2; e.g. 3:00, 7:30, 3:15, 10:05). */
+function _timeKey(h, m) { return h + ':' + (m < 10 ? '0' + m : '' + m); }
 
-function makeRoundTasks(rounds, idPrefix) {
+function makeRoundTasks(rounds, idPrefix, minuteStep) {
   var loc = (typeof window !== 'undefined' && window.LCS && window.LCS.i18n && window.LCS.i18n.current) || 'en';
   var TE = ClockCore.strings.timeExpr;
+  var step = (minuteStep === 5) ? 5 : 30;
   return rounds.map(function (r, i) {
     var key = _timeKey(r.hour, r.minute);
     var entry = TE[key] || {};
-    var time = entry[loc] || entry.en || key;   // localized worded time (half-idiom native-owned)
+    var time = entry[loc] || entry.en || key;   // localized worded time (idiom native-owned)
     return {
       id: idPrefix + '.round-' + i,
       promptKey: 'promptSet',
       promptArgs: { time: time },
       answerType: 'state',
-      setup: function (tool) { tool.setupTask(r); },
+      setup: function (tool) { tool.setupTask({ hour: r.hour, minute: r.minute, minuteStep: step, seed: r.seed }); },
       check: function (tool) {
         var ok = tool.isCorrect();
         if (ok) { tool.readOnly = true; tool.paint(); }
@@ -147,17 +150,18 @@ window.ClockActivity = Object.assign({}, ClockCore, {
   _buildTasksFromRow: function (row) {
     if (row.task_template === 'set-clock') {
       var rounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : DEMO_ROUNDS;
-      /* defensive: 1.MD.B.3 scope = hours + half-hours; a worded time must
-         exist for each round (else the prompt would show a bare key). */
+      var step = (row.params && row.params.minuteStep === 5) ? 5 : 30;   // 30 = #1 (o'clock/half), 5 = #2 (2.MD.C.7)
+      /* defensive: minutes must be a multiple of minuteStep, and a worded
+         time must exist for each round (else the prompt shows a bare key). */
       if (window.console && console.warn) {
         var TE = ClockCore.strings.timeExpr;
         rounds.forEach(function (r, ri) {
           if (!(r.hour >= 1 && r.hour <= 12)) console.warn('[clock-activity] round ' + ri + ' hour ' + r.hour + ' outside 1..12');
-          if (r.minute !== 0 && r.minute !== 30) console.warn('[clock-activity] round ' + ri + ' minute ' + r.minute + ' not 0|30 (1.MD.B.3 scope)');
+          if (r.minute % step !== 0) console.warn('[clock-activity] round ' + ri + ' minute ' + r.minute + ' not a multiple of ' + step);
           if (!TE[_timeKey(r.hour, r.minute)]) console.warn('[clock-activity] round ' + ri + ' no timeExpr for ' + _timeKey(r.hour, r.minute));
         });
       }
-      return makeRoundTasks(rounds, row.id);
+      return makeRoundTasks(rounds, row.id, step);
     }
     return STATIC_DEMO_TASKS;
   }

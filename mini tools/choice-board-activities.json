@@ -1390,5 +1390,156 @@
       "no": "Øv på å lese høyfrekvente ord og ordbilder på 2. trinn: barnet hører et ord og trykker på det riktige skrevne ordet blant fire som ligner. Aktiviteten støtter tidlig lesetrening i tråd med LK20 (RF.K.3.c)."
     },
     "kid_prompt_template": "promptReadSight"
+  },
+  {
+    "id": "choice-board.tell-words-apart.rf-k-3-c",
+    "tool": "choice-board-activity",
+    "task_template": "read-sight-word",
+    "alignment": { "framework": "CCSS", "code": "RF.K.3.c", "grade": "K", "strand": "Reading: Foundational Skills" },
+    "params": {
+      "promptKey": "promptTellApart",
+      "byLocale": {
+        "en": {
+          "rounds": [
+            { "target": "was", "distractors": ["saw", "war", "wax"] },
+            { "target": "of", "distractors": ["off", "for", "or"] },
+            { "target": "the", "distractors": ["they", "then", "them"] },
+            { "target": "were", "distractors": ["where", "here", "we"] },
+            { "target": "want", "distractors": ["went", "what", "wait"] },
+            { "target": "no", "distractors": ["on", "now", "not"] },
+            { "target": "who", "distractors": ["how", "why", "hot"] },
+            { "target": "saw", "distractors": ["was", "say", "sat"] }
+          ]
+        },
+        "de": { "rounds": [
+          { "target": "der", "distractors": ["dir", "den", "dem"] },
+          { "target": "ein", "distractors": ["sein", "kein", "mein"] },
+          { "target": "und", "distractors": ["uns", "rund", "Hund"] },
+          { "target": "mit", "distractors": ["mir", "Mut", "mag"] },
+          { "target": "war", "distractors": ["wir", "wer", "was"] },
+          { "target": "bei", "distractors": ["bin", "bist", "beim"] },
+          { "target": "vom", "distractors": ["von", "vor", "wo"] },
+          { "target": "alle", "distractors": ["alt", "also", "aller"] }
+        ] },
+        "es": { "rounds": [
+          { "target": "el", "distractors": ["en", "es", "mi"] },
+          { "target": "la", "distractors": ["las", "le", "ya"] },
+          { "target": "los", "distractors": ["dos", "las", "sol"] },
+          { "target": "un", "distractors": ["una", "uno", "tan"] },
+          { "target": "con", "distractors": ["como", "sin", "son"] },
+          { "target": "por", "distractors": ["par", "pan", "col"] },
+          { "target": "mis", "distractors": ["mas", "mes", "vid"] },
+          { "target": "sus", "distractors": ["sur", "tus", "luz"] }
+        ] },
+        "pt": { "rounds": [
+          { "target": "o", "distractors": ["eu", "ele", "um"] },
+          { "target": "da", "distractors": ["de", "do", "na"] },
+          { "target": "um", "distractors": ["uma", "em", "eu"] },
+          { "target": "meu", "distractors": ["seu", "teu", "mel"] },
+          { "target": "que", "distractors": ["quem", "qual", "quente"] },
+          { "target": "não", "distractors": ["nada", "mão", "pão"] },
+          { "target": "com", "distractors": ["como", "bom", "som"] },
+          { "target": "ela", "distractors": ["ele", "dela", "mala"] }
+        ] },
+        "fr": { "rounds": [
+          { "target": "les", "distractors": ["bus", "mes", "vis"] },
+          { "target": "une", "distractors": ["lune", "dune", "rune"] },
+          { "target": "dans", "distractors": ["banc", "rang", "sang"] },
+          { "target": "pour", "distractors": ["jour", "cour", "tour"] },
+          { "target": "avec", "distractors": ["bec", "sec", "lac"] },
+          { "target": "mon", "distractors": ["bon", "don", "fond"] },
+          { "target": "son", "distractors": ["bon", "long", "rond"] },
+          { "target": "petit", "distractors": ["lit", "nuit", "bruit"] }
+        ] },
+        "it": { "rounds": [
+          { "target": "il", "distractors": ["in", "un", "al"] },
+          { "target": "la", "distractors": ["le", "lo", "va"] },
+          { "target": "uno", "distractors": ["una", "sole", "nudo"] },
+          { "target": "con", "distractors": ["come", "cono", "cane"] },
+          { "target": "per", "distractors": ["pera", "pero", "pere"] },
+          { "target": "che", "distractors": ["chi", "cane", "casa"] },
+          { "target": "non", "distractors": ["nono", "nome", "mano"] },
+          { "target": "sono", "distractors": ["suono", "sano", "seno"] }
+        ] },
+        "nl": { "rounds": [
+          { "target": "de", "distractors": ["die", "den", "doe"] },
+          { "target": "het", "distractors": ["hen", "heb", "heet"] },
+          { "target": "een", "distractors": ["en", "eet", "aan"] },
+          { "target": "met", "distractors": ["mat", "mes", "mis"] },
+          { "target": "niet", "distractors": ["net", "nieuw", "noot"] },
+          { "target": "dat", "distractors": ["dan", "dak", "das"] },
+          { "target": "kan", "distractors": ["kon", "kar", "kat"] },
+          { "target": "ik", "distractors": ["uit", "is", "in"] }
+        ] },
+        "sv": { "rounds": [
+          { "target": "en", "distractors": ["ett", "än", "in"] },
+          { "target": "är", "distractors": ["var", "här", "när"] },
+          { "target": "det", "distractors": ["den", "de", "dit"] },
+          { "target": "på", "distractors": ["så", "får", "låt"] },
+          { "target": "med", "distractors": ["mer", "mat", "mod"] },
+          { "target": "inte", "distractors": ["inne", "ute", "ifrån"] },
+          { "target": "han", "distractors": ["hon", "hann", "hen"] },
+          { "target": "och", "distractors": ["att", "ofta", "ock"] }
+        ] },
+        "da": { "rounds": [
+          { "target": "en", "distractors": ["et", "han", "der"] },
+          { "target": "er", "distractors": ["der", "har", "var"] },
+          { "target": "det", "distractors": ["den", "der", "ven"] },
+          { "target": "og", "distractors": ["om", "op", "ud"] },
+          { "target": "på", "distractors": ["så", "da", "nu"] },
+          { "target": "med", "distractors": ["ved", "fed", "mit"] },
+          { "target": "han", "distractors": ["hun", "hat", "kan"] },
+          { "target": "var", "distractors": ["vor", "far", "har"] }
+        ] },
+        "no": { "rounds": [
+          { "target": "en", "distractors": ["et", "den", "han"] },
+          { "target": "et", "distractors": ["en", "der", "det"] },
+          { "target": "er", "distractors": ["der", "har", "var"] },
+          { "target": "det", "distractors": ["den", "der", "vet"] },
+          { "target": "med", "distractors": ["men", "ved", "mer"] },
+          { "target": "har", "distractors": ["han", "var", "hare"] },
+          { "target": "var", "distractors": ["vår", "har", "han"] },
+          { "target": "på", "distractors": ["så", "gå", "stå"] }
+        ] }
+      }
+    },
+    "theme": null,
+    "slug": {
+      "en": "tell-sight-words-apart",
+      "de": "aehnliche-woerter-unterscheiden-klasse-1",
+      "es": "distinguir-palabras-parecidas",
+      "pt": "distinguir-palavras-parecidas",
+      "fr": "distinguer-les-mots-frequents-cp",
+      "it": "distinguere-parole-simili",
+      "nl": "lijkende-woorden-onderscheiden-groep-3",
+      "sv": "skilja-pa-lika-ord-ak-1",
+      "da": "skelne-mellem-ens-ord-1-klasse",
+      "no": "skille-mellom-like-ord-2-trinn"
+    },
+    "page_title": {
+      "en": "Tell the Words Apart — Hear It, Spot the Right One (Kindergarten)",
+      "de": "Ähnliche Wörter unterscheiden – Klasse 1 Lese-Übung",
+      "es": "Distinguir palabras parecidas para 1.º de primaria | Lectura",
+      "pt": "Distinguir palavras parecidas - leitura no 1º ano (PDF)",
+      "fr": "Distinguer les mots qui se ressemblent au CP - mots frequents",
+      "it": "Distinguere parole simili in classe prima: parole gemelle",
+      "nl": "Lijkende woorden uit elkaar houden – groep 3 luisteroefening",
+      "sv": "Skilja på lika ord – liknande ord för åk 1 | Lgr22",
+      "da": "Skelne mellem ens ord – lyt og find ordet · 1. klasse",
+      "no": "Skille mellom like ord – øv på like ord, 2. trinn norsk"
+    },
+    "page_intro": {
+      "en": "A free interactive Kindergarten reading activity: hear a common word, then tap it apart from its look-alikes (was/saw, of/off). Sharpens sight-word discrimination — telling apart the high-frequency words children mix up. Common Core RF.K.3.c.",
+      "de": "Bei dieser Übung lernen Kinder, häufig verwechselte kurze Wörter wie der, ein und und sicher voneinander zu unterscheiden. Das geschulte Hinhören und genaue Hinschauen fördert das Lesen leicht verwechselbarer Sichtwörter gemäß Lehrplan der Grundschule (RF.K.3.c).",
+      "es": "En esta actividad de lectura para 1.º de primaria, tu hija o hijo escucha una palabra de uso frecuente y la toca entre otras muy parecidas que se escriben casi igual pero suenan distinto. Es un apoyo a la conciencia fonológica y al reconocimiento de palabras del Currículo LOMLOE (RF.K.3.c).",
+      "pt": "Atividade de consciência fonológica para o 1º ano: a criança ouve uma palavra de alta frequência e a distingue de seus vizinhos parecidos, fortalecendo a leitura cuidadosa. Alinhada à BNCC (RF.K.3.c), trabalha pares mínimos como o/um, da/de e meu/seu sem armadilhas de palavras homófonas.",
+      "fr": "Au CP, l'enfant écoute un mot fréquent et le repère parmi des mots qui lui ressemblent beaucoup mais qui se prononcent autrement. Cette activité développe la discrimination auditive et la reconnaissance des mots, conformément aux Programmes officiels (RF.K.3.c).",
+      "it": "In questa attività il bambino di classe prima ascolta una parola ad alta frequenza e la riconosce tra le sue \"gemelle\" molto somiglianti, allenando l'attenzione visiva e fonologica. Il percorso segue le Indicazioni nazionali per la scuola primaria (riferimento RF.K.3.c).",
+      "nl": "In deze luisteroefening leert je kind veelvoorkomende woorden uit elkaar houden door het juiste woord te kiezen tussen lijkende klankvormen. De activiteit sluit aan bij de SLO-kerndoelen voor beginnende geletterdheid en oefent het nauwkeurig onderscheiden van klanken (RF.K.3.c).",
+      "sv": "I den här övningen lyssnar barnet på ett ord och tappar rätt på det bland sina närmaste tvillingar, så att lika ord som en/ett och är/var inte blandas ihop. Aktiviteten stödjer den tidiga avkodningen och ordavläsningen i åk 1 enligt Lgr22 (RF.K.3.c).",
+      "da": "I denne øvelse lytter barnet til et almindeligt ord og trykker på det rette ord blandt næsten ens ord, der ligner hinanden (en/et, er/der, det/den). Aktiviteten styrker lydopmærksomhed og ordkendskab i tråd med Fælles Mål for dansk i 1. klasse (RF.K.3.c).",
+      "no": "I denne aktiviteten hører barnet et vanlig ord og skal skille det fra ord som ser nesten like ut (RF.K.3.c). Øvelsen støtter LK20 sitt mål om at elevene på 2. trinn skal lese og kjenne igjen høyfrekvente ord med trygghet."
+    },
+    "kid_prompt_template": "promptTellApart"
   }
 ]

@@ -24,18 +24,26 @@ const arg = (k, d) => { const m = process.argv.find(a => a.startsWith('--' + k +
 const has = (k) => process.argv.includes('--' + k);
 const LOCALES = arg('locales', 'en,de,es,pt,fr,it,nl,sv,da,no').split(',');  /* no fi */
 const SHOT = has('shot');
-const ACTIVITY = 'choice-board.read-sight-word.rf-k-3-c';
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');
 const SHOT_DIR = path.join(REPO, 'docs', 'audit-results', 'sight-word');
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html', '.svg': 'image/svg+xml' };
 
-/* expected localized prompt per locale (strict no-raw-key check) */
-const PROMPTS = {
+/* expected localized prompt per (activity, locale) — strict no-raw-key check */
+const PROMPTS_READ = {
   en: 'Tap the word you hear.', de: 'Tippe auf das Wort, das du hörst.', fr: 'Touche le mot que tu entends.',
   it: 'Tocca la parola che senti.', es: 'Toca la palabra que escuchas.', pt: 'Toque na palavra que você ouve.',
   nl: 'Tik op het woord dat je hoort.', sv: 'Tryck på ordet du hör.', da: 'Tryk på ordet, du hører.', no: 'Trykk på ordet du hører.'
 };
+const PROMPTS_TELL = {
+  en: 'Listen carefully. Tap the word you hear.', de: 'Hör genau hin. Tippe auf das Wort, das du hörst.', fr: 'Écoute bien. Touche le mot que tu entends.',
+  it: 'Ascolta bene. Tocca la parola che senti.', es: 'Escucha con atención. Toca la palabra que escuchas.', pt: 'Ouça com atenção. Toque na palavra que você ouve.',
+  nl: 'Luister goed. Tik op het woord dat je hoort.', sv: 'Lyssna noga. Tryck på ordet du hör.', da: 'Lyt godt efter. Tryk på ordet, du hører.', no: 'Lytt godt. Trykk på ordet du hører.'
+};
+const ACTIVITIES = [
+  { id: 'choice-board.read-sight-word.rf-k-3-c', prompts: PROMPTS_READ },
+  { id: 'choice-board.tell-words-apart.rf-k-3-c', prompts: PROMPTS_TELL }
+];
 
 function serve() {
   return http.createServer((req, res) => {
@@ -74,7 +82,10 @@ function serve() {
   const curTarget = (page) => page.evaluate(() => window.ChoiceBoardActivity.targetKey);
   const reload = (page) => page.evaluate(() => { window.__spokenWords = []; if (window.LCS_reloadFirstTask) window.LCS_reloadFirstTask(); });
 
-  for (const loc of LOCALES) {
+  for (const ACT of ACTIVITIES) {
+   const pfx = ACT.id.split('.')[1];
+   for (const loc of LOCALES) {
+    const tag = `${pfx}/${loc}`;
     const page = await browser.newPage();
     await page.setViewport({ width: 412, height: 900 });
     const errs = [];
@@ -89,7 +100,7 @@ function serve() {
       try { Object.defineProperty(window, 'SpeechSynthesisUtterance', { configurable: true, writable: true, value: function (t) { this.text = String(t); } }); } catch (e) {}
       try { Object.defineProperty(window, 'speechSynthesis', { configurable: true, value: { speak: function (u) { window.__spokenWords.push(u && u.text); }, cancel: function () {}, getVoices: function () { return []; } } }); } catch (e) {}
     });
-    const url = `${BASE}/choice-board-activity.html?lang=${loc}&activity=${ACTIVITY}&embed=1`;
+    const url = `${BASE}/choice-board-activity.html?lang=${loc}&activity=${ACT.id}&embed=1`;
     try {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
       await page.waitForFunction(() => {
@@ -99,27 +110,27 @@ function serve() {
 
       /* prompt localized (not the raw key) */
       const prompt = await page.$eval('.lcs-activity-prompt-text', e => e.textContent.trim()).catch(() => '');
-      note(prompt === PROMPTS[loc], `${loc}: prompt "${prompt}" ≠ "${PROMPTS[loc]}"`);
-      note(prompt !== 'promptReadSight', `${loc}: raw key leaked in prompt`);
+      note(prompt === ACT.prompts[loc], `${tag}: prompt "${prompt}" ≠ "${ACT.prompts[loc]}"`);
+      note(!/^prompt[A-Z]/.test(prompt), `${tag}: raw key leaked in prompt`);
 
       /* 4 word tiles */
       const tileWords = await page.$$eval('.cb-tile .cb-tile-text', els => els.map(e => e.textContent.trim()));
-      note(tileWords.length === 4, `${loc}: ${tileWords.length} tiles (expected 4)`);
+      note(tileWords.length === 4, `${tag}: ${tileWords.length} tiles (expected 4)`);
 
       /* audio: the TARGET word was spoken on load (the answer channel) */
       await page.waitForFunction(() => window.__spokenWords && window.__spokenWords.length > 0, { timeout: 5000 }).catch(() => {});
       const target0 = await curTarget(page);
       const spoken = await page.evaluate(() => window.__spokenWords.slice());
-      note(spoken.indexOf(target0) >= 0, `${loc}: target "${target0}" was not spoken on load (spoken=${JSON.stringify(spoken)})`);
-      note(tileWords.indexOf(target0) >= 0, `${loc}: spoken target "${target0}" is not among the tiles`);
+      note(spoken.indexOf(target0) >= 0, `${tag}: target "${target0}" was not spoken on load (spoken=${JSON.stringify(spoken)})`);
+      note(tileWords.indexOf(target0) >= 0, `${tag}: spoken target "${target0}" is not among the tiles`);
 
       /* variety/shuffle over 2 passes */
       const N = await page.evaluate(() => window.ChoiceBoardActivity._pool.length);
       const ids = await page.evaluate((c) => { const t = window.ChoiceBoardActivity, o = []; for (let i = 0; i < c; i++) { const x = t.nextTask({ index: i }); o.push(x ? x.id : null); } return o; }, 2 * N);
       const p1 = ids.slice(0, N), p2 = ids.slice(N, 2 * N);
-      note(new Set(p1).size >= 7, `${loc}: only ${new Set(p1).size} distinct rounds (<7)`);
-      note(p1.slice().sort().join('|') === p2.slice().sort().join('|'), `${loc}: pass-2 not same set`);
-      note(p1.join('|') !== p2.join('|'), `${loc}: pass-2 order identical (no reshuffle)`);
+      note(new Set(p1).size >= 7, `${tag}: only ${new Set(p1).size} distinct rounds (<7)`);
+      note(p1.slice().sort().join('|') === p2.slice().sort().join('|'), `${tag}: pass-2 not same set`);
+      note(p1.join('|') !== p2.join('|'), `${tag}: pass-2 order identical (no reshuffle)`);
 
       /* DISTRACTOR → no celebrate (fresh task) */
       await reload(page);
@@ -129,34 +140,35 @@ function serve() {
       const distractor = wordsA.find(w => w !== tA);
       await clickWord(page, distractor);
       await page.click('.lcs-activity-check');
-      note(!(await celebrating(page)), `${loc}: tapping a distractor ("${distractor}") still celebrated`);
+      note(!(await celebrating(page)), `${tag}: tapping a distractor ("${distractor}") still celebrated`);
 
       /* TARGET → celebrate (fresh task) */
       await reload(page);
       await page.waitForFunction(() => document.querySelector('.cb-tile'), { timeout: 5000 });
       const tB = await curTarget(page);
       const okClick = await clickWord(page, tB);
-      note(okClick, `${loc}: target tile "${tB}" not found`);
+      note(okClick, `${tag}: target tile "${tB}" not found`);
       await page.click('.lcs-activity-check');
-      note(await celebrating(page), `${loc}: tapping the target ("${tB}") did not celebrate`);
+      note(await celebrating(page), `${tag}: tapping the target ("${tB}") did not celebrate`);
 
       /* mobile overflow */
       for (const w of [280, 360, 412, 768]) {
         await page.setViewport({ width: w, height: 900 });
         await reload(page);
         const over = await page.evaluate(() => { const d = document.scrollingElement || document.documentElement; return d.scrollWidth - d.clientWidth; });
-        note(over <= 2, `${loc}: horizontal overflow ${over}px at ${w}px`);
-        if (SHOT && (w === 360 || w === 768)) await page.screenshot({ path: path.join(SHOT_DIR, `${loc}-${w}.png`) });
+        note(over <= 2, `${tag}: horizontal overflow ${over}px at ${w}px`);
+        if (SHOT && (w === 360 || w === 768)) await page.screenshot({ path: path.join(SHOT_DIR, `${pfx}-${loc}-${w}.png`) });
       }
       await page.setViewport({ width: 412, height: 900 });
 
-      note(errs.length === 0, `${loc}: console error(s): ${errs.slice(0, 2).join(' | ')}`);
-      const okLoc = !fails.some(f => f.startsWith(loc + ':'));
-      console.log(`  ${okLoc ? 'ok  ' : 'FAIL'} ${loc} — "${prompt}" | heard "${target0}" | ${new Set(p1).size} distinct`);
+      note(errs.length === 0, `${tag}: console error(s): ${errs.slice(0, 2).join(' | ')}`);
+      const okLoc = !fails.some(f => f.startsWith(tag + ':'));
+      console.log(`  ${okLoc ? 'ok  ' : 'FAIL'} ${tag} — "${prompt}" | heard "${target0}" | ${new Set(p1).size} distinct`);
     } catch (e) {
-      fails.push(`${loc}: ${e.message}`);
-      console.log(`  FAIL ${loc} — ${e.message}`);
+      fails.push(`${tag}: ${e.message}`);
+      console.log(`  FAIL ${tag} — ${e.message}`);
     } finally { await page.close(); }
+   }
   }
 
   await browser.close();
@@ -167,6 +179,6 @@ function serve() {
     fails.forEach(f => console.error('  • ' + f));
     process.exit(1);
   }
-  console.log(`SIGHT-WORD LOCAL TEST PASSED — ${LOCALES.length} locale(s): localized prompt + 4 word tiles + the spoken TARGET is heard + tap-target celebrates / tap-distractor doesn't + ≥7-round reshuffle + no mobile overflow.`);
+  console.log(`SIGHT-WORD LOCAL TEST PASSED — ${ACTIVITIES.length} activities × ${LOCALES.length} locale(s): localized prompt + 4 word tiles + the spoken TARGET is heard + tap-target celebrates / tap-distractor doesn't + ≥7-round reshuffle + no mobile overflow.`);
   process.exit(0);
 })().catch(e => { console.error('ERROR:', e.message); process.exit(1); });

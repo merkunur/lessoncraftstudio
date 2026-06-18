@@ -24,7 +24,6 @@ const fs = require('fs');
 const path = require('path');
 
 const VARIETY_MIN = 7;
-const ROW_ID = 'choice-board.read-sight-word.rf-k-3-c';
 const REPO = path.join(__dirname, '..');
 
 const coreSrc = fs.readFileSync(path.join(REPO, 'mini tools', 'choice-board-core.js'), 'utf8');
@@ -35,8 +34,9 @@ if (!Core) { console.error('FAIL: choice-board-core.js did not define window.Cho
 Core.init({ sound: function () {} });  /* api stub — selectKey calls api.sound; paint early-returns w/o tiles */
 
 const manifest = JSON.parse(fs.readFileSync(path.join(REPO, 'mini tools', 'choice-board-activities.json'), 'utf8'));
-const row = manifest.find((r) => r.id === ROW_ID);
-if (!row) { console.error('FAIL: row ' + ROW_ID + ' not found in choice-board-activities.json'); process.exit(1); }
+/* every sight-word activity rides the read-sight-word template (#1 read + #2 tell-apart) */
+const rows = manifest.filter((r) => r.task_template === 'read-sight-word');
+if (!rows.length) { console.error('FAIL: no read-sight-word rows in choice-board-activities.json'); process.exit(1); }
 
 /* Known homophone pairs that must NOT co-occur as target+distractor (a spoken
    target would have two correct tiles). Seeded from the native early-literacy
@@ -63,16 +63,18 @@ const failures = [];
 const check = (cond, msg) => { if (!cond) failures.push(msg); };
 const TOKEN = /^\p{L}+$/u;
 
-const byLoc = (row.params && row.params.byLocale) || {};
 let roundCount = 0, localeCount = 0;
 
-for (const loc of Object.keys(byLoc)) {
+for (const row of rows) {
+ const short = row.id.split('.')[1] || row.id;   /* read-sight-word | tell-words-apart */
+ const byLoc = (row.params && row.params.byLocale) || {};
+ for (const loc of Object.keys(byLoc)) {
   localeCount++;
   const rounds = (byLoc[loc] && byLoc[loc].rounds) || [];
-  check(rounds.length >= VARIETY_MIN, `${loc}: ${rounds.length} rounds < ${VARIETY_MIN} variety floor`);
+  check(rounds.length >= VARIETY_MIN, `${short}/${loc}: ${rounds.length} rounds < ${VARIETY_MIN} variety floor`);
   rounds.forEach((r, i) => {
     roundCount++;
-    const label = `${loc}#${i}[${r.target}]`;
+    const label = `${short}/${loc}#${i}[${r.target}]`;
     const distractors = r.distractors || [];
     const words = [r.target].concat(distractors);
 
@@ -97,6 +99,7 @@ for (const loc of Object.keys(byLoc)) {
       check(!(Core.answer === Core.targetKey), `${label}: selecting distractor "${d}" was graded correct`);
     });
   });
+ }
 }
 
 if (failures.length) {

@@ -1,0 +1,69 @@
+/* Activities catalog index — Direction A card surfaces.
+   Lifted (unscoped) from the .hv3-card vocabulary in homepage-v3.css so the
+   dual-shadow + paper-grain "sheet of handmade paper" look applies on
+   /[locale]/activities/ without importing the entire homepage stylesheet.
+   Colors are the locked Direction A palette (teal #146B5E on cream #FBF3E4). */
+
+.actcat-card {
+  /* Paper-white sheet lifting off the cream page ground (#FBF3E4) — the
+     "sheet of handmade paper on cream" separation the critics flagged. */
+  background: #FFFDF8;
+  position: relative;
+  isolation: isolate;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    0 1.5px 0 rgba(20, 107, 94, 0.08),
+    0 10px 20px -8px rgba(20, 107, 94, 0.16),
+    0 24px 40px -16px rgba(20, 107, 94, 0.10);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease;
+}
+.actcat-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.32;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='ac'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.08 0 0 0 0 0.42 0 0 0 0 0.37 0 0 0 0.07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23ac)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  mix-blend-mode: multiply;
+}
+.actcat-card > * {
+  position: relative;
+  z-index: 1;
+}
+.actcat-card:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.7) inset,
+    0 2px 0 rgba(20, 107, 94, 0.10),
+    0 16px 30px -10px rgba(20, 107, 94, 0.22),
+    0 36px 52px -18px rgba(20, 107, 94, 0.14);
+}
+
+/* Flat variant — sidebar panel + mobile filter drawer + empty state. */
+.actcat-card-flat {
+  background: #FFFDF8;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    0 2px 10px -5px rgba(20, 107, 94, 0.16);
+  border: 1px solid rgba(20, 107, 94, 0.10);
+}
+
+/* Mobile-filter disclosure caret flips when open. */
+details[open] .actcat-caret {
+  transform: rotate(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .actcat-card {
+    transition: none;
+  }
+  .actcat-card:hover {
+    transform: none;
+  }
+  .actcat-caret {
+    transition: none;
+  }
+}

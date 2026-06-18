@@ -148,6 +148,13 @@ window.FractionsCore = {
       return { correct: [this._vCut(50)], distractors: [this._vCut(34)] };   // halves = median (vertical apex→base-mid)
     }
     if (shape === 'diamond') {
+      if (n === 3) {
+        /* the diamond is a square rotated 45°; 2 cuts parallel to an edge
+           (x−y = ±R/3) → 3 EXACTLY equal strips. Distractor = the other
+           diagonal through centre (x+y=2·CX), a clearly-wrong cut. */
+        var dc = C.R / 3;
+        return { correct: [this._edgeLine(-dc), this._edgeLine(dc)], distractors: [this._edgeLine(2 * C.CX, true)] };
+      }
       if (n === 4) return { correct: [this._vCut(50), this._hCut(50)], distractors: [this._vCut(34), this._hCut(34)] };
       return { correct: [this._vCut(50)], distractors: [this._vCut(34)] };
     }
@@ -163,6 +170,12 @@ window.FractionsCore = {
       return { correct: [this._vCut(50)], distractors: [this._vCut(34)] };
     }
     if (shape === 'ellipse') {
+      if (n === 3) {
+        /* 3 affine-radii spokes (param 90/210/330) = the affine image of the
+           circle's 120° wedges → 3 EXACTLY equal-area sectors (affine preserves
+           ratios). Distractor = an off-angle spoke (150°), mirrors the circle. */
+        return { correct: [this._eRadius(90), this._eRadius(210), this._eRadius(330)], distractors: [this._eRadius(150)] };
+      }
       if (n === 4) return { correct: [this._vCut(50), this._hCut(50)], distractors: [this._vCut(34), this._hCut(34)] };
       return { correct: [this._vCut(50)], distractors: [this._vCut(34)] };
     }
@@ -274,6 +287,21 @@ window.FractionsCore = {
   },
   _vCut: function (x) { var s = this._vSpan(x); return { x1: x, y1: s.a, x2: x, y2: s.b }; },
   _hCut: function (y) { var s = this._hSpan(y); return { x1: s.a, y1: y, x2: s.b, y2: y }; },
+  /* diamond-thirds chord: a full edge-parallel cut on the diamond
+     (|x−CX|+|y−CY|≤R). perp=false → line x−y=c (parallel to the top-right /
+     bottom-left edges), endpoints on the x+y=2CX±R edges. perp=true → line
+     x+y=c (the other diagonal family), endpoints on the x−y=±R edges. */
+  _edgeLine: function (c, perp) {
+    var C = this._C, CX = C.CX, R = C.R;
+    if (perp) return { x1: (c + R) / 2, y1: (c - R) / 2, x2: (c - R) / 2, y2: (c + R) / 2 };
+    return { x1: (2 * CX - R + c) / 2, y1: (2 * CX - R - c) / 2, x2: (2 * CX + R + c) / 2, y2: (2 * CX + R - c) / 2 };
+  },
+  /* ellipse spoke from the centre to the rim at parametric angle deg (the
+     affine image of a circle radius — 0°=right, 90°=up; SVG y is down). */
+  _eRadius: function (deg) {
+    var C = this._C, E = this._ELLIPSE, a = deg * Math.PI / 180;
+    return { x1: C.CX, y1: C.CY, x2: C.CX + E.rx * Math.cos(a), y2: C.CY - E.ry * Math.sin(a) };
+  },
 
   /* ---- SVG body for the current shape ---- */
   _bodySVG: function () {

@@ -57,11 +57,19 @@ Object.keys(FAM).forEach((k) => {
   check(!!Core.strings[FAM[k].labelKey], `family "${k}": label key "${FAM[k].labelKey}" missing from strings`);
 });
 
-/* 3 + 4. per-manifest-row round validity */
+/* 3 + 4. per-manifest-row round validity — branch on task_template. The
+   sort-by-sides validation below is UNCHANGED (it is the G1 regression check:
+   the 2.G.A.1 coordinate must still pass exactly as before). */
 let roundCount = 0;
 for (const row of manifest) {
   const rounds = (row.params && row.params.rounds) || [];
   check(rounds.length >= VARIETY_MIN, `${row.id}: ${rounds.length} rounds < ${VARIETY_MIN} variety floor (§A.13.60)`);
+
+  if (row.task_template === 'defining-attributes') {
+    validateDefiningRows(row, rounds);
+    continue;
+  }
+
   rounds.forEach((r, i) => {
     roundCount++;
     const label = `${row.id}#${i}`;
@@ -82,10 +90,62 @@ for (const row of manifest) {
   });
 }
 
+/* ---- defining-attributes (1.G.A.1) validation ----
+   For each round: target is a known family; every trueItem IS that family;
+   every falseItem is NOT; both sides non-empty. Then the G2 NON-DEFINING
+   INVARIANCE check: setupTask twice with DIFFERENT seeds (→ different
+   colour/size/orientation), drive the REAL core, and assert the answer key
+   (which tiles belong in the target box) is identical and decoration-derived
+   never. Negative bin labels must exist in the core strings. */
+function validateDefiningRows(row, rounds) {
+  const NEG = { triangle: 'binNotTriangles', quadrilateral: 'binNotQuadrilaterals', pentagon: 'binNotPentagons', hexagon: 'binNotHexagons' };
+  rounds.forEach((r, i) => {
+    roundCount++;
+    const label = `${row.id}#${i}`;
+    const fam = FAM[r.target];
+    check(!!fam, `${label}: unknown target family "${r.target}"`);
+    if (!fam) return;
+    const ts = fam.sides;
+    check(!!Core.strings[NEG[r.target]], `${label}: negative label "${NEG[r.target]}" missing from core strings`);
+    check((r.trueItems || []).length >= 1, `${label}: no trueItems`);
+    check((r.falseItems || []).length >= 1, `${label}: no falseItems (a "not" box needs at least one non-example)`);
+    (r.trueItems || []).forEach((id) => {
+      check(CAT[id] != null, `${label}: trueItem "${id}" not in catalog`);
+      check(CAT[id] && CAT[id].sides === ts, `${label}: trueItem "${id}" (sides ${CAT[id] && CAT[id].sides}) is NOT a ${r.target} (sides ${ts})`);
+    });
+    (r.falseItems || []).forEach((id) => {
+      check(CAT[id] != null, `${label}: falseItem "${id}" not in catalog`);
+      check(!(CAT[id] && CAT[id].sides === ts), `${label}: falseItem "${id}" IS a ${r.target} — it would be unsortable into the "not" box`);
+    });
+
+    /* G2 — drive the real core with two seeds and assert the answer key is
+       deco-independent + the placement check ignores colour/size/rotation. */
+    [r.seed || 1, (r.seed || 1) + 100].forEach((seed) => {
+      Core.setupTask({ target: r.target, trueItems: r.trueItems, falseItems: r.falseItems, seed });
+      check(Core.mode === 'defining', `${label}: setupTask did not enter defining mode`);
+      Core.items.forEach((it) => {
+        // the answer key (isTarget) is set by SIDE COUNT, never by decoration
+        check(it.isTarget === (it.sides === ts), `${label}: tile "${it.shapeId}" isTarget=${it.isTarget} disagrees with side count (seed ${seed})`);
+        // every tile carries non-defining decoration (so the look truly varies)
+        check(!!it.color && it.scale != null && it.rotation != null, `${label}: tile "${it.shapeId}" missing non-defining decoration (seed ${seed})`);
+      });
+      // place every tile in its correct box → isCorrect true
+      Core.items.forEach((it) => { Core.placement[it.uid] = it.isTarget ? 0 : 1; });
+      check(Core.isCorrect() === true, `${label}: correct placement rejected (seed ${seed})`);
+      // flip ONE tile to the wrong box → isCorrect false (the check is real)
+      if (Core.items.length) {
+        const first = Core.items[0];
+        Core.placement[first.uid] = first.isTarget ? 1 : 0;
+        check(Core.isCorrect() === false, `${label}: a wrong placement was accepted (seed ${seed})`);
+      }
+    });
+  });
+}
+
 if (failures.length) {
   console.error(`FAIL — ${failures.length} sort-correctness violation(s) across ${roundCount} round(s):`);
   failures.forEach((f) => console.error('  • ' + f));
   process.exit(1);
 }
-console.log(`PASS — ${Object.keys(CAT).length} catalog shapes (sides = vertex count), ${roundCount} round(s) across ${manifest.length} coordinate(s): every item maps to exactly one non-empty bin, ≥${VARIETY_MIN} rounds.`);
+console.log(`PASS — ${Object.keys(CAT).length} catalog shapes (sides = vertex count), ${roundCount} round(s) across ${manifest.length} coordinate(s): sort-by-sides items map to one non-empty bin; defining-attributes answer key is side-count-derived + invariant to colour/size/orientation (G2); ≥${VARIETY_MIN} rounds each.`);
 process.exit(0);

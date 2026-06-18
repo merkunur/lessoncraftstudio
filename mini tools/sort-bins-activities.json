@@ -57,5 +57,64 @@
       "fi": "Ilmainen vuorovaikutteinen geometriatehtävä 2. luokalle: vedä ja lajittele jokainen kuvio sivujen lukumäärän mukaan oikeaan laatikkoon. OPS 2014 (CCSS 2.G.A.1)."
     },
     "kid_prompt_template": "sort-by-sides"
+  },
+  {
+    "id": "sort-bins.defining-attributes.1-g-a-1",
+    "tool": "sort-bins-activity",
+    "task_template": "defining-attributes",
+    "alignment": { "framework": "CCSS", "code": "1.G.A.1", "grade": "1", "strand": "Geometry" },
+    "params": {
+      "rounds": [
+        { "target": "triangle",      "trueItems": ["tri_equi", "tri_right", "tri_obtuse"], "falseItems": ["quad_square", "pent_reg", "hex_reg"],   "seed": 101 },
+        { "target": "quadrilateral", "trueItems": ["quad_square", "quad_rect", "quad_trap"], "falseItems": ["tri_equi", "pent_reg", "hex_reg"],    "seed": 113 },
+        { "target": "pentagon",      "trueItems": ["pent_reg", "pent_house"], "falseItems": ["tri_right", "quad_rhombus", "hex_irreg"],            "seed": 127 },
+        { "target": "hexagon",       "trueItems": ["hex_reg", "hex_irreg"], "falseItems": ["tri_obtuse", "quad_para", "pent_reg"],                 "seed": 139 },
+        { "target": "triangle",      "trueItems": ["tri_equi", "tri_obtuse"], "falseItems": ["quad_rect", "quad_trap", "pent_house"],              "seed": 151 },
+        { "target": "quadrilateral", "trueItems": ["quad_rhombus", "quad_para", "quad_rect"], "falseItems": ["tri_right", "pent_house", "hex_reg"], "seed": 163 },
+        { "target": "pentagon",      "trueItems": ["pent_reg", "pent_house"], "falseItems": ["tri_equi", "quad_square", "hex_irreg"],              "seed": 173 },
+        { "target": "hexagon",       "trueItems": ["hex_reg", "hex_irreg"], "falseItems": ["tri_right", "quad_rect"],                              "seed": 181 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "defining-attributes-of-shapes",
+      "de": "formen-erkennen-nach-ecken",
+      "es": "descubre-la-figura-por-lados",
+      "pt": "descubra-a-figura-pelos-lados",
+      "fr": "reconnais-la-forme-par-ses-cotes-cp",
+      "it": "riconosci-le-figure-triangoli-quadrilateri-pentagoni-esagoni",
+      "nl": "vormen-herkennen-aan-zijden",
+      "sv": "hitta-formen-sortera-efter-sidor-ak-1",
+      "da": "find-figuren-efter-sider",
+      "no": "finn-formen-trekanter-firkanter-femkanter-sekskanter",
+      "fi": "tunnista-kuvio-sivujen-mukaan"
+    },
+    "page_title": {
+      "en": "Defining Attributes of Shapes — Is It Still a Triangle? (Grade 1 Geometry)",
+      "de": "Formen erkennen – Dreiecke, Vierecke, Fünf- und Sechsecke (1. Klasse)",
+      "es": "Descubre la figura por sus lados — triángulos y cuadriláteros (primero de primaria)",
+      "pt": "Descubra a figura pelos lados — triângulos, quadriláteros, pentágonos e hexágonos (1º ano)",
+      "fr": "Reconnais la forme par ses côtés — triangles, quadrilatères, pentagones et hexagones (CP)",
+      "it": "Riconosci le figure: triangoli, quadrilateri, pentagoni ed esagoni (classe prima)",
+      "nl": "Vormen herkennen aan zijden — driehoeken, vierhoeken, vijfhoeken en zeshoeken (groep 3)",
+      "sv": "Hitta formen – sortera trianglar, fyrhörningar, femhörningar och sexhörningar (åk 1)",
+      "da": "Find figuren — trekanter, firkanter, femkanter og sekskanter (1. klasse)",
+      "no": "Finn formen – sorter trekanter, firkanter, femkanter og sekskanter (1. trinn)",
+      "fi": "Tunnista kuvio sivujen mukaan – kolmiot, nelikulmiot, viisi- ja kuusikulmiot (1. luokka)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 geometry activity: a triangle is still a triangle even when its colour, size, or direction changes. Drag each shape into the right box — sort by what it IS (its number of sides), not how it looks. Common Core 1.G.A.1.",
+      "de": "Kostenlose interaktive Geometrie-Übung für die 1. Klasse: Sortiere jede Form in den richtigen Korb und erkenne sie an ihren Ecken – egal welche Farbe, Größe oder Drehung. Passend zum Lehrplan (1.G.A.1).",
+      "es": "Un triángulo sigue siendo triángulo aunque cambie de color, tamaño o dirección. Tu peque clasifica figuras por su número de lados (Currículo LOMLOE, 1.G.A.1).",
+      "pt": "Atividade interativa em que a criança reconhece cada figura pelo número de lados, mesmo mudando a cor, o tamanho ou a direção. Alinhada à BNCC (1.G.A.1).",
+      "fr": "Une forme reste la même quelle que soit sa couleur, sa taille ou son sens : l'enfant la reconnaît au nombre de côtés. Activité de géométrie pour le CP, alignée aux Programmes officiels (CCSS 1.G.A.1).",
+      "it": "Un'attività di geometria per la classe prima: riconosci ogni figura dal numero di lati, non dal colore o dalla grandezza. In linea con le Indicazioni nazionali (1.G.A.1).",
+      "nl": "Sleep elke vorm naar de juiste bak en herken hem aan het aantal zijden — niet aan kleur, grootte of richting. Sluit aan op de SLO-kerndoelen (CCSS 1.G.A.1).",
+      "sv": "Barnen lär sig känna igen former efter antalet sidor – inte färg, storlek eller riktning. En triangel är en triangel även när den är röd, stor eller vänd åt ett annat håll. Följer Lgr22 (1.G.A.1).",
+      "da": "Lær figurer at kende efter antallet af sider — ikke efter farve, størrelse eller retning. En sjov geometriaktivitet til 1. klasse, der følger Fælles Mål (1.G.A.1).",
+      "no": "Barna kjenner igjen former etter antall sider – uansett farge, størrelse eller retning – og sorterer dem i riktig boks. Følger LK20 (CCSS 1.G.A.1).",
+      "fi": "Ilmainen vuorovaikutteinen geometriatehtävä 1. luokalle: lapsi oppii, että kolmio on aina kolmio – olipa se punainen, iso, pieni tai käännetty. Lajittele kuviot sivujen määrän mukaan. OPS 2014 (CCSS 1.G.A.1)."
+    },
+    "kid_prompt_template": "defining-attributes"
   }
 ]

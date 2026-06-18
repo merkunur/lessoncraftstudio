@@ -1,11 +1,23 @@
 /* =====================================================================
-   SORT BY SIDES — DRAG-TO-BIN CORE   (sort-bins-core.js)
+   SORT / DRAG-TO-BIN CORE   (sort-bins-core.js)
    ---------------------------------------------------------------------
-   E3 #1 — the CLASSIFY-AND-PLACE VERB engine. The child DRAGS each shape
-   tile into the family bin whose name matches the shape's NUMBER OF SIDES
-   (Triangles / Quadrilaterals / Pentagons / Hexagons). This instantiates
-   CCSS 2.G.A.1 ("Identify triangles, quadrilaterals, pentagons, hexagons")
-   — a different VERB from the E2 choice-board tap (tap-the-answer) and from
+   E3 — the CLASSIFY-AND-PLACE VERB engine. The child DRAGS each shape tile
+   into a labeled bin. Two MODES share one drag/state/paint machinery:
+
+   • mode 'sides'    (E3 #1, CCSS 2.G.A.1) — sort each shape into the family
+     bin whose name matches its NUMBER OF SIDES (Triangles / Quadrilaterals /
+     Pentagons / Hexagons). [setupTask({bins,items,seed})]
+   • mode 'defining' (E3 #2, CCSS 1.G.A.1) — sort a mixed pile into a target-
+     family box vs a "not" box; the true tiles are the target shape drawn in
+     varied COLOUR / SIZE / ORIENTATION, so the child recognises the shape by
+     its DEFINING attribute (side count), not its look. The non-defining
+     attributes are INERT to the placement check (read only by _shapeSVG); the
+     build-time gate asserts that invariance. [setupTask({target,trueItems,
+     falseItems,seed})] The wrapper selects the mode (+ its title/instruction/
+     prompt strings) from the activity id — the core only branches on
+     this.mode, so mode 'sides' runs behavior-identical to before (G1).
+
+   A different VERB from the E2 choice-board tap (tap-the-answer) and from
    E14 fractions (partition). The child sorts a mixed pile, not taps a chip.
 
    CLEAN SIBLING CORE — zero lines to any of the protected cores
@@ -62,7 +74,28 @@ window.SortBinsCore = {
     /* screen-reader: neutral tile noun (naming the family would reveal the
        answer) + pile region label */
     srTile: {en:"shape to sort",de:"Form zum Sortieren",es:"figura para clasificar",pt:"figura para classificar",fr:"forme à trier",it:"figura da ordinare",nl:"vorm om te sorteren",sv:"form att sortera",da:"figur, der skal sorteres",no:"form som skal sorteres",fi:"lajiteltava kuvio"},
-    srPile: {en:"shapes to sort",de:"Formen zum Sortieren",es:"figuras para clasificar",pt:"figuras para classificar",fr:"formes à trier",it:"figure da ordinare",nl:"vormen om te sorteren",sv:"former att sortera",da:"figurer, der skal sorteres",no:"former som skal sorteres",fi:"lajiteltavat kuviot"}
+    srPile: {en:"shapes to sort",de:"Formen zum Sortieren",es:"figuras para clasificar",pt:"figuras para classificar",fr:"formes à trier",it:"figure da ordinare",nl:"vormen om te sorteren",sv:"former att sortera",da:"figurer, der skal sorteres",no:"former som skal sorteres",fi:"lajiteltavat kuviot"},
+
+    /* ===== DEFINING-ATTRIBUTES MODE (1.G.A.1) — selected by the wrapper when
+       the activity id carries `defining-attributes`. The child sorts a mixed
+       pile into a target-family box vs a "not" box; the true tiles are the
+       target shape drawn in varied COLOUR / SIZE / ORIENTATION (non-defining
+       attributes), so the child must recognise the shape by its DEFINING
+       attribute (side count), not its look. Positive bin labels REUSE the
+       formal-polygon labels above (binTriangles …) per the naming-standard
+       doctrine; only the NEGATIVE labels + the title/instruction/prompt/hint
+       are new. The 10 non-EN locales are folded in by the per-locale native
+       ensemble (§A.13.48 / §A.13.56). Negatives are authored as FULL literal
+       phrases per (target, locale) — never a "Not a {shape}" token apposition
+       (the case-language trap, esp. Finnish). */
+    titleDefining: {en:"Spot the Shape",de:"Welche Form ist das?",es:"Descubre la figura",pt:"Descubra a Figura",fr:"Reconnais la forme",it:"Riconosci la figura",nl:"Welke vorm is het?",sv:"Hitta formen",da:"Find figuren",no:"Finn formen",fi:"Tunnista kuvio"},
+    instructionDefining: {en:"A shape stays the same even when its colour, size, or direction changes. Drag each one into the right box, then tap Check.",de:"Eine Form bleibt dieselbe Form – auch wenn sie eine andere Farbe oder Größe hat oder gedreht ist. Ziehe jede Form in den richtigen Korb und tippe dann auf Prüfen.",es:"Una figura sigue siendo la misma aunque cambie de color, de tamaño o de dirección. Arrastra cada una a la caja correcta y luego toca Revisar.",pt:"Uma figura continua a mesma mesmo quando muda de cor, de tamanho ou de direção. Arraste cada uma para a caixa certa e toque em Conferir.",fr:"Une forme reste la même même si sa couleur, sa taille ou son sens changent. Glisse chaque forme dans la bonne boîte, puis appuie sur Vérifier.",it:"Una figura resta la stessa anche se cambia colore, grandezza o direzione. Trascina ognuna nel contenitore giusto, poi tocca Controlla.",nl:"Een vorm blijft dezelfde, ook als de kleur, de grootte of de richting verandert. Sleep elke vorm naar de juiste bak en tik daarna op Controleer.",sv:"En form är likadan även om färgen, storleken eller riktningen ändras. Dra varje form till rätt låda och tryck sedan på Kontrollera.",da:"En figur er den samme, selvom dens farve, størrelse eller retning ændrer sig. Træk hver figur over i den rigtige kasse, og tryk så på Tjek.",no:"En form er den samme selv om fargen, størrelsen eller retningen endrer seg. Dra hver form til riktig boks, og trykk på Sjekk.",fi:"Kuvio pysyy samana, vaikka sen väri, koko tai suunta muuttuu. Vedä jokainen kuvio oikeaan laatikkoon ja napauta sitten Tarkista."},
+    promptDefining: {en:"Drag each shape into the right box. Colour and size don't change what it is!",de:"Ziehe jede Form in den richtigen Korb. Farbe und Größe ändern nichts daran, welche Form es ist!",es:"Arrastra cada figura a la caja correcta. ¡El color y el tamaño no cambian lo que es!",pt:"Arraste cada figura para a caixa certa. A cor e o tamanho não mudam o que ela é!",fr:"Glisse chaque forme dans la bonne boîte. La couleur et la taille ne changent rien !",it:"Trascina ogni figura nel contenitore giusto. Il colore e la grandezza non cambiano che cos'è!",nl:"Sleep elke vorm naar de juiste bak. De kleur en de grootte veranderen niet wat het is!",sv:"Dra varje form till rätt låda. Färg och storlek ändrar inte vad det är!",da:"Træk hver figur over i den rigtige kasse. Farve og størrelse ændrer ikke, hvad den er!",no:"Dra hver form til riktig boks. Farge og størrelse endrer ikke hva den er!",fi:"Vedä jokainen kuvio oikeaan laatikkoon. Väri ja koko eivät muuta sitä, mikä kuvio on!"},
+    hintSomeWrongDefining: {en:"Some shapes are in the wrong box — look at the number of sides, not the colour or size.",de:"Ein paar Formen liegen im falschen Korb – schau auf die Anzahl der Ecken, nicht auf die Farbe oder die Größe.",es:"Algunas figuras están en la caja equivocada: fíjate en el número de lados, no en el color ni en el tamaño.",pt:"Algumas figuras estão na caixa errada — olhe o número de lados, não a cor nem o tamanho.",fr:"Certaines formes sont dans la mauvaise boîte — regarde le nombre de côtés, pas la couleur ni la taille.",it:"Alcune figure sono nel contenitore sbagliato: guarda il numero di lati, non il colore o la grandezza.",nl:"Sommige vormen zitten in de verkeerde bak — kijk naar het aantal zijden, niet naar de kleur of de grootte.",sv:"Några former ligger i fel låda – titta på antalet sidor, inte på färgen eller storleken.",da:"Nogle figurer ligger i den forkerte kasse — kig på antallet af sider, ikke på farven eller størrelsen.",no:"Noen former ligger i feil boks – se på antall sider, ikke på fargen eller størrelsen.",fi:"Osa kuvioista on väärässä laatikossa – katso sivujen määrää, älä väriä tai kokoa."},
+    binNotTriangles: {en:"Not triangles",de:"Keine Dreiecke",es:"No son triángulos",pt:"Não são triângulos",fr:"Pas des triangles",it:"Non sono triangoli",nl:"Geen driehoeken",sv:"Inga trianglar",da:"Ingen trekanter",no:"Ingen trekanter",fi:"Ei kolmioita"},
+    binNotQuadrilaterals: {en:"Not quadrilaterals",de:"Keine Vierecke",es:"No son cuadriláteros",pt:"Não são quadriláteros",fr:"Pas des quadrilatères",it:"Non sono quadrilateri",nl:"Geen vierhoeken",sv:"Inga fyrhörningar",da:"Ingen firkanter",no:"Ingen firkanter",fi:"Ei nelikulmioita"},
+    binNotPentagons: {en:"Not pentagons",de:"Keine Fünfecke",es:"No son pentágonos",pt:"Não são pentágonos",fr:"Pas des pentagones",it:"Non sono pentagoni",nl:"Geen vijfhoeken",sv:"Inga femhörningar",da:"Ingen femkanter",no:"Ingen femkanter",fi:"Ei viisikulmioita"},
+    binNotHexagons: {en:"Not hexagons",de:"Keine Sechsecke",es:"No son hexágonos",pt:"Não são hexágonos",fr:"Pas des hexagones",it:"Non sono esagoni",nl:"Geen zeshoeken",sv:"Inga sexhörningar",da:"Ingen sekskanter",no:"Ingen sekskanter",fi:"Ei kuusikulmioita"}
   },
 
   defaults: {},
@@ -110,8 +143,11 @@ window.SortBinsCore = {
   /* ---- state + setup ---- */
   init: function (api) {
     this.api = api;
+    this.mode = 'sides';      // 'sides' (2.G.A.1) | 'defining' (1.G.A.1)
+    this.target = null;       // defining mode: the target family key
+    this._binDefs = null;     // defining mode: [{labelKey,isTarget}] per bin
     this.bins = ['triangle', 'quadrilateral', 'pentagon'];  // family keys, this round
-    this.items = [];          // [{ uid, shapeId, sides, pts }]
+    this.items = [];          // [{ uid, shapeId, sides, pts }] (+ isTarget/color/scale/rotation in defining mode)
     this.placement = {};      // uid -> binIndex (number) | 'pile'
     this.reviewed = false;    // a failed Check painted marks
     this.readOnly = false;    // wrapper sets true on correct Check
@@ -119,17 +155,50 @@ window.SortBinsCore = {
     this._binDrops = [];      // binIndex -> drop element
   },
 
-  /* Build one round. opts = { bins:[familyKey], items:[shapeId], seed }.
+  /* Build one round.
+     • sort-by-sides (legacy): opts = { bins:[familyKey], items:[shapeId], seed }.
+     • defining-attributes:    opts = { target:familyKey, trueItems:[shapeId],
+                                        falseItems:[shapeId], seed }.
      Items are ordered by a seeded shuffle so all 11 locales render an
      identical pile layout. */
   setupTask: function (opts) {
     opts = opts || {};
-    this.bins = (opts.bins && opts.bins.length) ? opts.bins.slice() : ['triangle', 'quadrilateral', 'pentagon'];
     this.reviewed = false;
     this.readOnly = false;
     this.placement = {};
-
     var self = this;
+
+    if (opts.target) {
+      /* ---- defining-attributes mode (1.G.A.1) ---- */
+      this.mode = 'defining';
+      this.target = opts.target;
+      var fam = this._FAMILY[opts.target] || this._FAMILY.triangle;
+      var posKey = fam.labelKey;                       // e.g. 'binTriangles'
+      var negKey = 'binNot' + posKey.slice(3);         // 'binNotTriangles'
+      this._binDefs = [
+        { labelKey: posKey, isTarget: true },          // bin 0 = the target box
+        { labelKey: negKey, isTarget: false }          // bin 1 = the "not" box
+      ];
+      this.bins = ['__is__', '__not__'];               // length 2 for keyboard nav; NOT family keys
+      var raw = (opts.trueItems || []).map(function (id) { return { id: id, isTarget: true }; })
+        .concat((opts.falseItems || []).map(function (id) { return { id: id, isTarget: false }; }));
+      raw = this._shuffle(raw, opts.seed || 1);
+      this.items = raw.map(function (e, i) {
+        var cat = self._CATALOG[e.id] || self._CATALOG.tri_equi;
+        var uid = e.id + '#' + i;
+        self.placement[uid] = 'pile';
+        var deco = self._decorate(i, opts.seed || 1);
+        return { uid: uid, shapeId: e.id, sides: cat.sides, pts: self._pointsOf(cat),
+                 isTarget: e.isTarget, color: deco.color, scale: deco.scale, rotation: deco.rotation };
+      });
+      return;
+    }
+
+    /* ---- sort-by-sides mode (legacy, unchanged) ---- */
+    this.mode = 'sides';
+    this.target = null;
+    this._binDefs = null;
+    this.bins = (opts.bins && opts.bins.length) ? opts.bins.slice() : ['triangle', 'quadrilateral', 'pentagon'];
     var ids = (opts.items && opts.items.length) ? opts.items.slice() : [];
     ids = this._shuffle(ids, opts.seed || 1);
     this.items = ids.map(function (shapeId, i) {
@@ -170,14 +239,46 @@ window.SortBinsCore = {
     return a;
   },
 
-  /* ---- SVG tile body for a shape's points ---- */
-  _shapeSVG: function (pts) {
+  /* ---- defining-attributes mode: non-defining decoration ----
+     A small kid palette (distinct from the teal chrome) + a deterministic
+     per-(seed,index) pick of colour / size / orientation. These are the
+     NON-DEFINING attributes of 1.G.A.1: they are read ONLY by _shapeSVG (the
+     look), NEVER by the placement check (isCorrect/paint read side count
+     alone), so a red/rotated/small triangle and a blue/upright/large one
+     both sort to "Triangles". The build-time gate asserts that invariance. */
+  _PALETTE: ['#F2784B', '#3FA7D6', '#5EB95E', '#E6B800', '#B07CC6', '#EC6A88'],
+  _decorate: function (index, seed) {
+    var s = (((seed | 0) * 0x9E3779B1) + (index + 1) * 0x9E37) >>> 0;
+    function rand() {
+      s = (s + 0x6D2B79F5) | 0;
+      var t = s;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    }
+    var color = this._PALETTE[Math.floor(rand() * this._PALETTE.length)];
+    var scale = [0.66, 0.77, 0.88][Math.floor(rand() * 3)];   // visibly different sizes (≤0.88 keeps rotation in-box)
+    var rotation = Math.floor(rand() * 8) * 45;               // 0,45,…,315
+    return { color: color, scale: scale, rotation: rotation };
+  },
+
+  /* ---- SVG tile body for a shape's points. `opts` (defining mode only) adds
+     non-defining colour/scale/rotation; with NO opts the output is byte-
+     identical to the sort-by-sides render (G1 — legacy path unchanged). ---- */
+  _shapeSVG: function (pts, opts) {
     var C = this._C;
+    var fill = (opts && opts.color) || C.BODY;
     var d = 'M' + pts.map(function (p) { return p.x.toFixed(2) + ' ' + p.y.toFixed(2); }).join(' L') + ' Z';
-    return '<svg viewBox="0 0 100 100" class="sb-shape" aria-hidden="true">'
-      + '<path d="' + d + '" fill="' + C.BODY + '"/>'
-      + '<path d="' + d + '" fill="none" stroke="' + C.T + '" stroke-width="5" stroke-linejoin="round"/>'
-      + '</svg>';
+    var paths = '<path d="' + d + '" fill="' + fill + '"/>'
+      + '<path d="' + d + '" fill="none" stroke="' + C.T + '" stroke-width="5" stroke-linejoin="round"/>';
+    if (opts && (opts.scale != null || opts.rotation != null)) {
+      var s = (opts.scale != null) ? opts.scale : 1;
+      var rot = (opts.rotation != null) ? opts.rotation : 0;
+      /* scale + rotate about the viewBox centre (50,50): translate→scale→
+         rotate→translate-back (SVG applies right-to-left). */
+      paths = '<g transform="translate(50 50) rotate(' + rot + ') scale(' + s + ') translate(-50 -50)">' + paths + '</g>';
+    }
+    return '<svg viewBox="0 0 100 100" class="sb-shape" aria-hidden="true">' + paths + '</svg>';
   },
 
   /* ---- render(): build pile + bins once per task; tile elements PERSIST
@@ -203,14 +304,18 @@ window.SortBinsCore = {
     var binsRow = api.el('div', 'sb-bins');
     this._binDrops = [];
     this.bins.forEach(function (familyKey, bi) {
-      var fam = self._FAMILY[familyKey] || self._FAMILY.triangle;
+      /* defining mode reads the per-bin label from _binDefs (target box vs
+         "not" box); sort-by-sides reads the family label (unchanged). */
+      var labelKey = (self.mode === 'defining')
+        ? self._binDefs[bi].labelKey
+        : (self._FAMILY[familyKey] || self._FAMILY.triangle).labelKey;
       var bin = api.el('div', 'sb-bin');
       var label = api.el('div', 'sb-bin-label');
-      label.textContent = api.t(fam.labelKey);
+      label.textContent = api.t(labelKey);
       var drop = api.el('div', 'sb-bin-drop');
       drop.setAttribute('data-bin', String(bi));
       drop.setAttribute('role', 'group');
-      drop.setAttribute('aria-label', api.t(fam.labelKey));
+      drop.setAttribute('aria-label', api.t(labelKey));
       bin.append(label, drop);
       binsRow.appendChild(bin);
       self._binDrops[bi] = drop;
@@ -225,7 +330,8 @@ window.SortBinsCore = {
       tile.setAttribute('role', 'button');
       tile.setAttribute('tabindex', '0');
       tile.setAttribute('aria-label', api.t('srTile'));
-      tile.innerHTML = self._shapeSVG(it.pts);
+      tile.innerHTML = self._shapeSVG(it.pts, (self.mode === 'defining')
+        ? { color: it.color, scale: it.scale, rotation: it.rotation } : null);
       self._tileEls[it.uid] = tile;
       self._containerFor(self.placement[it.uid]).appendChild(tile);
       self._wireDrag(tile, it.uid);
@@ -350,8 +456,14 @@ window.SortBinsCore = {
       if (this.reviewed) {
         var where = this.placement[it.uid];
         if (where !== 'pile') {
-          var fam = this._FAMILY[this.bins[where]];
-          tile.classList.add((fam && fam.sides === it.sides) ? 'sb-correct' : 'sb-wrong');
+          var right;
+          if (this.mode === 'defining') {
+            right = ((where === 0) === !!it.isTarget);   // bin 0 = target box
+          } else {
+            var fam = this._FAMILY[this.bins[where]];
+            right = !!(fam && fam.sides === it.sides);
+          }
+          tile.classList.add(right ? 'sb-correct' : 'sb-wrong');
         }
       }
       if (this.readOnly) tile.classList.add('sb-locked');
@@ -375,8 +487,12 @@ window.SortBinsCore = {
     for (var i = 0; i < this.items.length; i++) {
       var it = this.items[i], where = this.placement[it.uid];
       if (where === 'pile' || where == null) return false;
-      var fam = this._FAMILY[this.bins[where]];
-      if (!fam || fam.sides !== it.sides) return false;
+      if (this.mode === 'defining') {
+        if (((where === 0) === !!it.isTarget) === false) return false;   // bin 0 = target box
+      } else {
+        var fam = this._FAMILY[this.bins[where]];
+        if (!fam || fam.sides !== it.sides) return false;
+      }
     }
     return this.items.length > 0;
   },

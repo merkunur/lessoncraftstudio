@@ -40,28 +40,35 @@ for (const row of manifest) {
     const L = byLoc[loc];
     const rounds = (L && L.rounds) || [];
     const paletteAll = new Set((L.coins || []).map((c) => c.v));
+    const isChange = row.task_template === 'make-change';
     check(rounds.length >= VARIETY_MIN, `${row.id}/${loc}: ${rounds.length} rounds < ${VARIETY_MIN} variety floor`);
     rounds.forEach((r, i) => {
       roundCount++;
-      const label = `${row.id}/${loc}#${i}[→${r.target}]`;
+      // count-out: target = r.target ; make-change: target (the change) = paid − cost
+      const target = isChange ? (r.paid - r.cost) : r.target;
+      const label = `${row.id}/${loc}#${i}[→${target}]`;
       const palette = r.palette || [];
       const solution = r.solution || [];
       // 1. solution coins ∈ palette (and palette ⊆ declared coins)
       palette.forEach((v) => check(paletteAll.has(v), `${label}: palette coin ${v} not in declared coins`));
       solution.forEach((v) => check(palette.indexOf(v) >= 0, `${label}: solution coin ${v} not in palette`));
-      // 2. sum(solution) === target + core grades the solution correct
-      check(sum(solution) === r.target, `${label}: solution sums ${sum(solution)} ≠ target ${r.target}`);
+      // make-change sanity: paid must exceed cost
+      if (isChange) check(r.paid > r.cost, `${label}: paid ${r.paid} not > cost ${r.cost}`);
+      // 2. sum(solution) === target + core grades the solution correct (mode-aware setup)
+      check(sum(solution) === target, `${label}: solution sums ${sum(solution)} ≠ ${isChange ? 'change' : 'target'} ${target}`);
       Core.init({});
-      Core.setupTask({ currency: L.currency, coins: L.coins, target: r.target, palette: palette });
+      if (isChange) Core.setupTask({ mode: 'make-change', currency: L.currency, coins: L.coins, cost: r.cost, paid: r.paid, palette: palette });
+      else Core.setupTask({ currency: L.currency, coins: L.coins, target: r.target, palette: palette });
+      check(Core.target === target, `${label}: core target ${Core.target} ≠ expected ${target}`);
       Core.tray = solution.slice();
-      check(Core.total() === r.target, `${label}: core total ${Core.total()} ≠ target`);
+      check(Core.total() === target, `${label}: core total ${Core.total()} ≠ target`);
       check(Core.isCorrect() === true, `${label}: correct tender rejected`);
-      // 3. genuine count-out foil
+      // 3. ≥2 coins (genuine count-out). For count-out also: no one-tap single coin.
       check(solution.length >= 2, `${label}: trivial solution (<2 coins)`);
-      check(palette.indexOf(r.target) < 0, `${label}: target ${r.target} equals a single palette coin (one-tap, not a count-out)`);
+      if (!isChange) check(palette.indexOf(target) < 0, `${label}: target ${target} equals a single palette coin (one-tap, not a count-out)`);
       if (solution.length) {
         const nearMiss = solution.slice(0, -1);
-        check(sum(nearMiss) !== r.target, `${label}: near-miss (solution minus last) also equals target — not a genuine foil`);
+        check(sum(nearMiss) !== target, `${label}: near-miss (solution minus last) also equals target — not a genuine foil`);
       }
       // 4. discriminate: a wrong tray → isCorrect false
       Core.tray = solution.slice(0, -1);

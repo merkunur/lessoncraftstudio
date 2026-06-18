@@ -203,5 +203,210 @@
       "fi": "Harjoittele eurojen ja senttien laskemista napauttamalla kolikoita lokeroon, kunnes summa täsmää. Tämä tehtävä tukee OPS 2014 -opetussuunnitelman rahankäsittelytaitoja (2.MD.C.8)."
     },
     "kid_prompt_template": "count-out"
+  },
+  {
+    "id": "money.make-change.2-md-c-8",
+    "tool": "money-activity",
+    "task_template": "make-change",
+    "alignment": { "framework": "CCSS", "code": "2.MD.C.8", "grade": "2", "strand": "Measurement & Data" },
+    "params": {
+      "byLocale": {
+        "en": {
+          "currency": { "symbol": "$", "before": true, "decimalSep": ".", "minorPerMajor": 100 },
+          "coins": [ {"v":1,"label":"1¢"},{"v":5,"label":"5¢"},{"v":10,"label":"10¢"},{"v":25,"label":"25¢"},{"v":100,"label":"$1"} ],
+          "rounds": [
+            {"cost":70,"paid":100,"palette":[1,5,10,25],"solution":[25,5]},
+            {"cost":85,"paid":100,"palette":[1,5,10,25],"solution":[10,5]},
+            {"cost":60,"paid":100,"palette":[1,5,10,25],"solution":[25,10,5]},
+            {"cost":75,"paid":100,"palette":[1,5,10],"solution":[10,10,5]},
+            {"cost":90,"paid":100,"palette":[1,5,10],"solution":[5,5]},
+            {"cost":55,"paid":100,"palette":[1,5,10,25],"solution":[25,10,10]},
+            {"cost":65,"paid":100,"palette":[5,10,25],"solution":[25,10]},
+            {"cost":80,"paid":100,"palette":[5,10,25],"solution":[10,10]}
+          ]
+        },
+        "de": {
+          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
+          "coins": [ {"v":1,"label":"1 ct"},{"v":2,"label":"2 ct"},{"v":5,"label":"5 ct"},{"v":10,"label":"10 ct"},{"v":20,"label":"20 ct"},{"v":50,"label":"50 ct"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "rounds": [
+            {"cost":80,"paid":100,"palette":[5,10,20,50],"solution":[10,10]},
+            {"cost":70,"paid":100,"palette":[5,10,20,50],"solution":[20,10]},
+            {"cost":60,"paid":100,"palette":[5,10,20,50],"solution":[20,20]},
+            {"cost":175,"paid":200,"palette":[2,5,10,20],"solution":[20,5]},
+            {"cost":90,"paid":150,"palette":[5,10,20,50],"solution":[50,10]},
+            {"cost":65,"paid":100,"palette":[2,5,10,20],"solution":[20,10,5]},
+            {"cost":350,"paid":400,"palette":[5,10,20,50],"solution":[20,20,10]},
+            {"cost":130,"paid":200,"palette":[5,10,20,50],"solution":[50,20]}
+          ]
+        },
+        "es": {
+          "currency": { "symbol": "$", "before": true, "decimalSep": ".", "minorPerMajor": 100 },
+          "coins": [ {"v":5,"label":"5¢"},{"v":10,"label":"10¢"},{"v":20,"label":"20¢"},{"v":50,"label":"50¢"},{"v":100,"label":"$1"},{"v":200,"label":"$2"},{"v":500,"label":"$5"} ],
+          "rounds": [
+            {"cost":80,"paid":100,"palette":[5,10,20,50],"solution":[10,10]},
+            {"cost":35,"paid":50,"palette":[5,10,20],"solution":[10,5]},
+            {"cost":75,"paid":100,"palette":[5,10,20,50],"solution":[20,5]},
+            {"cost":150,"paid":200,"palette":[10,20,50,100],"solution":[20,20,10]},
+            {"cost":60,"paid":100,"palette":[5,10,20,50],"solution":[20,20]},
+            {"cost":110,"paid":150,"palette":[10,20,50],"solution":[20,20]},
+            {"cost":440,"paid":500,"palette":[5,10,20,50],"solution":[50,10]},
+            {"cost":85,"paid":100,"palette":[5,10,50],"solution":[10,5]}
+          ]
+        },
+        "pt": {
+          "currency": { "symbol": "R$", "before": true, "decimalSep": ",", "minorPerMajor": 100, "space": true },
+          "coins": [ {"v":5,"label":"5 centavos"},{"v":10,"label":"10 centavos"},{"v":25,"label":"25 centavos"},{"v":50,"label":"50 centavos"},{"v":100,"label":"R$1"} ],
+          "rounds": [
+            {"cost":75,"paid":100,"palette":[5,10,25,50],"solution":[10,10,5]},
+            {"cost":80,"paid":100,"palette":[5,10,25,50],"solution":[10,10]},
+            {"cost":70,"paid":100,"palette":[5,10,25,50],"solution":[25,5]},
+            {"cost":40,"paid":100,"palette":[5,10,25,50,100],"solution":[50,10]},
+            {"cost":55,"paid":100,"palette":[5,10,25,50],"solution":[25,10,10]},
+            {"cost":150,"paid":200,"palette":[5,10,25,50],"solution":[25,25]},
+            {"cost":135,"paid":200,"palette":[5,10,25,50],"solution":[50,10,5]},
+            {"cost":85,"paid":100,"palette":[5,10,25],"solution":[10,5]}
+          ]
+        },
+        "fr": {
+          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
+          "coins": [ {"v":1,"label":"1 c"},{"v":2,"label":"2 c"},{"v":5,"label":"5 c"},{"v":10,"label":"10 c"},{"v":20,"label":"20 c"},{"v":50,"label":"50 c"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "rounds": [
+            {"cost":80,"paid":100,"palette":[5,10,20,50],"solution":[10,10]},
+            {"cost":75,"paid":100,"palette":[5,10,20,50],"solution":[20,5]},
+            {"cost":70,"paid":100,"palette":[5,10,20,50],"solution":[20,10]},
+            {"cost":150,"paid":200,"palette":[10,20,100],"solution":[20,20,10]},
+            {"cost":140,"paid":200,"palette":[10,20,50,100],"solution":[50,10]},
+            {"cost":65,"paid":100,"palette":[2,5,10,20],"solution":[20,10,5]},
+            {"cost":55,"paid":100,"palette":[5,10,20,50],"solution":[20,20,5]},
+            {"cost":120,"paid":200,"palette":[10,20,50,100],"solution":[50,20,10]}
+          ]
+        },
+        "it": {
+          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
+          "coins": [ {"v":1,"label":"1 c"},{"v":2,"label":"2 c"},{"v":5,"label":"5 c"},{"v":10,"label":"10 c"},{"v":20,"label":"20 c"},{"v":50,"label":"50 c"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "rounds": [
+            {"cost":80,"paid":100,"palette":[5,10,20,50],"solution":[10,10]},
+            {"cost":70,"paid":100,"palette":[5,10,20,50],"solution":[20,10]},
+            {"cost":150,"paid":200,"palette":[10,20,50],"solution":[20,20,10]},
+            {"cost":40,"paid":50,"palette":[2,5,10],"solution":[5,5]},
+            {"cost":175,"paid":200,"palette":[5,10,20],"solution":[20,5]},
+            {"cost":135,"paid":200,"palette":[5,10,20,50],"solution":[50,10,5]},
+            {"cost":120,"paid":200,"palette":[10,20,50],"solution":[50,20,10]},
+            {"cost":55,"paid":100,"palette":[5,10,20,50],"solution":[20,20,5]}
+          ]
+        },
+        "nl": {
+          "currency": { "symbol": "€", "before": true, "decimalSep": ",", "minorPerMajor": 100, "space": true },
+          "coins": [ {"v":5,"label":"5 ct"},{"v":10,"label":"10 ct"},{"v":20,"label":"20 ct"},{"v":50,"label":"50 ct"},{"v":100,"label":"€1"},{"v":200,"label":"€2"} ],
+          "rounds": [
+            {"cost":35,"paid":50,"palette":[5,10,20,50],"solution":[5,10]},
+            {"cost":80,"paid":100,"palette":[5,10,20,50],"solution":[10,10]},
+            {"cost":75,"paid":100,"palette":[5,10,20,50],"solution":[5,20]},
+            {"cost":140,"paid":200,"palette":[10,20,50,100],"solution":[10,50]},
+            {"cost":40,"paid":50,"palette":[5,10,20,50],"solution":[5,5]},
+            {"cost":130,"paid":200,"palette":[10,20,50,100],"solution":[20,50]},
+            {"cost":85,"paid":100,"palette":[5,10,20,50],"solution":[5,10]},
+            {"cost":175,"paid":200,"palette":[5,10,20,100],"solution":[5,20]}
+          ]
+        },
+        "sv": {
+          "currency": { "symbol": "kr", "before": false, "decimalSep": ",", "minorPerMajor": 1 },
+          "coins": [ {"v":1,"label":"1 kr"},{"v":2,"label":"2 kr"},{"v":5,"label":"5 kr"},{"v":10,"label":"10 kr"} ],
+          "rounds": [
+            {"cost":7,"paid":10,"palette":[1,2,5],"solution":[2,1]},
+            {"cost":6,"paid":10,"palette":[1,2,5],"solution":[2,2]},
+            {"cost":15,"paid":20,"palette":[1,2,5,10],"solution":[2,2,1]},
+            {"cost":12,"paid":20,"palette":[1,2,5,10],"solution":[5,2,1]},
+            {"cost":14,"paid":20,"palette":[1,2,5],"solution":[5,1]},
+            {"cost":3,"paid":10,"palette":[1,2,5],"solution":[5,2]},
+            {"cost":8,"paid":20,"palette":[2,5,10],"solution":[10,2]},
+            {"cost":11,"paid":20,"palette":[1,2,5],"solution":[5,2,2]}
+          ]
+        },
+        "da": {
+          "currency": { "symbol": "kr", "before": false, "decimalSep": ",", "minorPerMajor": 1 },
+          "coins": [ {"v":1,"label":"1 kr"},{"v":2,"label":"2 kr"},{"v":5,"label":"5 kr"},{"v":10,"label":"10 kr"},{"v":20,"label":"20 kr"} ],
+          "rounds": [
+            {"cost":7,"paid":10,"palette":[1,2,5],"solution":[2,1]},
+            {"cost":16,"paid":20,"palette":[1,2,5],"solution":[2,2]},
+            {"cost":14,"paid":20,"palette":[1,2,5],"solution":[5,1]},
+            {"cost":12,"paid":20,"palette":[1,2,5,10],"solution":[5,2,1]},
+            {"cost":13,"paid":20,"palette":[1,2,5],"solution":[5,2]},
+            {"cost":8,"paid":10,"palette":[1,2,5],"solution":[1,1]},
+            {"cost":35,"paid":50,"palette":[2,5,10],"solution":[10,5]},
+            {"cost":9,"paid":20,"palette":[1,2,5,10],"solution":[10,1]}
+          ]
+        },
+        "no": {
+          "currency": { "symbol": "kr", "before": false, "decimalSep": ",", "minorPerMajor": 1 },
+          "coins": [ {"v":1,"label":"1 kr"},{"v":5,"label":"5 kr"},{"v":10,"label":"10 kr"},{"v":20,"label":"20 kr"} ],
+          "rounds": [
+            {"cost":7,"paid":10,"palette":[1,5,10],"solution":[1,1,1]},
+            {"cost":16,"paid":20,"palette":[1,5,10],"solution":[1,1,1,1]},
+            {"cost":12,"paid":20,"palette":[1,5,10],"solution":[5,1,1,1]},
+            {"cost":13,"paid":20,"palette":[1,5,10],"solution":[5,1,1]},
+            {"cost":42,"paid":50,"palette":[1,5,10,20],"solution":[5,1,1,1]},
+            {"cost":36,"paid":50,"palette":[1,5,10,20],"solution":[10,1,1,1,1]},
+            {"cost":34,"paid":50,"palette":[1,5,10,20],"solution":[10,5,1]},
+            {"cost":38,"paid":50,"palette":[1,5,10,20],"solution":[10,1,1]}
+          ]
+        },
+        "fi": {
+          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
+          "coins": [ {"v":5,"label":"5 snt"},{"v":10,"label":"10 snt"},{"v":20,"label":"20 snt"},{"v":50,"label":"50 snt"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "rounds": [
+            {"cost":15,"paid":50,"palette":[5,10,20,50],"solution":[20,10,5]},
+            {"cost":70,"paid":100,"palette":[5,10,20,50],"solution":[20,10]},
+            {"cost":80,"paid":100,"palette":[5,10,20,50],"solution":[10,5,5]},
+            {"cost":35,"paid":50,"palette":[5,10,20],"solution":[10,5]},
+            {"cost":160,"paid":200,"palette":[10,20,50,100],"solution":[20,20]},
+            {"cost":55,"paid":100,"palette":[5,10,20,50],"solution":[20,20,5]},
+            {"cost":130,"paid":200,"palette":[10,20,50,100],"solution":[50,20]},
+            {"cost":25,"paid":50,"palette":[5,10,20,50],"solution":[20,5]}
+          ]
+        }
+      }
+    },
+    "theme": null,
+    "slug": {
+      "en": "make-change-money-coins",
+      "de": "wechselgeld-herausgeben-klasse-2",
+      "es": "da-el-cambio-pesos",
+      "pt": "de-o-troco",
+      "fr": "rends-la-monnaie-ce1",
+      "it": "dai-il-resto",
+      "nl": "geef-wisselgeld-groep-4",
+      "sv": "ge-tillbaka-vaxel-kronor",
+      "da": "giv-byttepenge-tilbage",
+      "no": "gi-tilbake-vekslepenger-2-trinn",
+      "fi": "anna-vaihtorahat-eurot"
+    },
+    "page_title": {
+      "en": "Make Change with Coins — Money Word Problems (Grade 2)",
+      "de": "Wechselgeld herausgeben – Mathe Klasse 2 online üben mit Euro",
+      "es": "Da el cambio en pesos: actividad de dinero para 2.º de primaria",
+      "pt": "Dê o troco com moedas e dinheiro — 2º ano | Atividade",
+      "fr": "Rendre la monnaie en CE1 — exercice de calcul interactif",
+      "it": "Dai il resto con le monete in euro - matematica classe seconda",
+      "nl": "Geef wisselgeld met euro's – rekenen met geld groep 4",
+      "sv": "Ge tillbaka växel i kronor – pengar och växel för åk 2",
+      "da": "Giv byttepenge tilbage – regn med penge i 2. klasse",
+      "no": "Gi tilbake vekslepenger – pengeregning for 2. trinn",
+      "fi": "Anna vaihtorahat – rahalasku 2. luokalle | euro"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 money activity: see what an item costs and what you pay, then tap coins into the tray to give the right change. Making change with ¢ and $. Common Core 2.MD.C.8.",
+      "de": "In dieser interaktiven Übung gibt dein Kind passendes Wechselgeld mit Euro-Münzen heraus und übt dabei das Rechnen mit Geld. Die Aufgabe orientiert sich am Lehrplan für die 2. Klasse (2.MD.C.8).",
+      "es": "Actividad interactiva para que los niños de 2.º de primaria practiquen dar el cambio con monedas de pesos mexicanos. Pensada según el Currículo LOMLOE para reforzar el manejo del dinero (equivalente a 2.MD.C.8).",
+      "pt": "Atividade de matemática para o 2º ano: dê o troco certo usando moedas e dinheiro de verdade (real). Alinhada à BNCC, ajuda a praticar a habilidade 2.MD.C.8 de calcular e contar o troco.",
+      "fr": "Un exercice interactif pour apprendre à rendre la monnaie en CE1, en lien avec les Programmes officiels (2.MD.C.8). L'enfant choisit les pièces en euros pour redonner la somme exacte et s'entraîne au calcul de tête.",
+      "it": "Un'attività di matematica per la classe seconda della scuola primaria: i bambini calcolano e danno il resto in euro toccando le monete giuste. In linea con le Indicazioni nazionali e con l'obiettivo 2.MD.C.8 sul denaro.",
+      "nl": "Met deze rekenoefening leren kinderen in groep 4 wisselgeld teruggeven met euromunten. De opgaven sluiten aan bij de SLO-kerndoelen voor rekenen met geld (2.MD.C.8).",
+      "sv": "I den här aktiviteten övar barnen i årskurs 2 på att räkna ut och ge tillbaka rätt växel i hela kronor. Övningen följer Lgr22 och stödjer arbetet med pengar och subtraktion (motsvarar 2.MD.C.8).",
+      "da": "Her øver dit barn at give byttepenge tilbage med danske kroner i 2. klasse. Aktiviteten støtter matematik efter Fælles Mål og svarer til færdigheden 2.MD.C.8.",
+      "no": "I denne aktiviteten øver barna på 2. trinn på å gi tilbake riktige vekslepenger med norske kroner. Oppgaven følger LK20 og styrker tallforståelse og praktisk pengeregning (tilsvarer 2.MD.C.8).",
+      "fi": "Harjoittele vaihtorahan antamista euroilla. Tehtävä tukee 2. luokan matematiikan tavoitteita OPS 2014 -opetussuunnitelman mukaisesti (2.MD.C.8)."
+    },
+    "kid_prompt_template": "make-change"
   }
 ]

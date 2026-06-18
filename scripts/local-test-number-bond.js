@@ -26,6 +26,7 @@ const ACTIVITIES = [
   { id: 'numberbond.make-ten.k-oa-a-4', titleKey: 'title', answer: 'tap' },
   { id: 'numberbond.make-ten-to-add.1-oa-c-6', titleKey: 'titleAdd', answer: 'tap' },
   { id: 'numberbond.find-the-total.1-oa-a-1', titleKey: 'titleWhole', answer: 'keypad' },
+  { id: 'numberbond.subtraction-unknown-addend.1-oa-b-4', titleKey: 'titleSubtraction', answer: 'tap' },
 ];
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');

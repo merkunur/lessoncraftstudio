@@ -88,6 +88,8 @@ for (const row of manifest) {
     // 1. scope
     check(r.given >= 1 && r.given < whole, `${label}: given ${r.given} not in 1..${whole - 1}`);
     const missing = whole - r.given;
+    // render-safety: both bond parts ≤9 dots (the tested make-10 packing range)
+    check(r.given <= 9 && missing <= 9, `${label}: part >9 (render-safety): ${r.given}/${missing}`);
 
     Core.init({});
     Core.setupTask({ whole: whole, given: r.given });

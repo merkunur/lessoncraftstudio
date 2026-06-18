@@ -175,5 +175,64 @@
       "fi": "Maksuton interaktiivinen 1.-luokan matematiikkaharjoitus: lukukolmiossa näkyy kaksi osaa, ja lapsi etsii niistä kokonaisuuden eli summan. Harjoitus tukee OPS 2014 -tavoitteita ja taitoa 1.OA.A.1, jossa harjoitellaan yhteenlaskua kahteenkymmeneen ja osista koottavaa kokonaisuutta."
     },
     "kid_prompt_template": "whole-unknown"
+  },
+  {
+    "id": "numberbond.subtraction-unknown-addend.1-oa-b-4",
+    "tool": "number-bond-activity",
+    "task_template": "unknown-addend",
+    "alignment": { "framework": "CCSS", "code": "1.OA.B.4", "grade": "1", "strand": "Operations & Algebraic Thinking" },
+    "params": {
+      "rounds": [
+        { "whole": 8, "given": 3, "seed": 11 },
+        { "whole": 9, "given": 4, "seed": 23 },
+        { "whole": 11, "given": 7, "seed": 31 },
+        { "whole": 12, "given": 5, "seed": 41 },
+        { "whole": 13, "given": 8, "seed": 53 },
+        { "whole": 14, "given": 6, "seed": 61 },
+        { "whole": 15, "given": 9, "seed": 67 },
+        { "whole": 16, "given": 9, "seed": 71 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "find-the-missing-part-subtraction",
+      "de": "fehlenden-teil-finden-klasse-1",
+      "es": "encuentra-la-parte-que-falta",
+      "pt": "encontre-a-parte-que-falta",
+      "fr": "trouve-la-partie-qui-manque-cp",
+      "it": "trova-la-parte-mancante",
+      "nl": "vind-het-ontbrekende-deel-groep-4",
+      "sv": "hitta-delen-som-saknas-ak-1",
+      "da": "find-den-manglende-del-1-klasse",
+      "no": "finn-den-manglende-delen-2-trinn",
+      "fi": "etsi-puuttuva-osa-1-luokka"
+    },
+    "page_title": {
+      "en": "Find the Missing Part — Subtraction as a Number Bond (Grade 1)",
+      "de": "Fehlender Teil finden – Subtraktion als Zahlenzerlegung, Klasse 1",
+      "es": "Encuentra la parte que falta: resta y descomposición · 1.º primaria",
+      "pt": "Encontre a Parte que Falta: Subtração e Decomposição no 1º Ano",
+      "fr": "Trouve la partie manquante : soustraction et décomposition au CP",
+      "it": "Trova la parte mancante: sottrazione e scomposizione, classe prima",
+      "nl": "Ontbrekend deel: aftrekken door splitsen – groep 4",
+      "sv": "Hitta delen som saknas – subtraktion med talkompisar, åk 1",
+      "da": "Find den manglende del – subtraktion og talvenner i 1. klasse",
+      "no": "Finn den manglende delen – subtraksjon og tallvenner, 2. trinn",
+      "fi": "Puuttuva osa – vähennyslasku ja luvun hajottaminen, 1. luokka"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 math activity: see a subtraction like 8 − 3 as a number bond — the whole and one part are given, fill in the missing part. Builds subtraction as an unknown-addend (3 and ? make 8). Common Core 1.OA.B.4.",
+      "de": "Subtraktion als Zahlenzerlegung verstehen: Das Ganze und ein Teil sind im Zahlenbild vorgegeben, dein Kind ergänzt den fehlenden Teil. So wird Subtrahieren als Ergänzen zum Ganzen begreifbar – passend zum Lehrplan der Klasse 1 (1.OA.B.4).",
+      "es": "Esta actividad presenta la resta como una descomposición del todo en partes: dado el todo y una parte, el niño descubre la parte que falta para completarlo. Alineada con el Currículo LOMLOE (1.OA.B.4).",
+      "pt": "Nesta atividade, a criança entende a subtração como decomposição: dado o todo e uma parte, ela descobre a parte que falta para completar o número. Alinhada à BNCC (1.OA.B.4), fortalece o raciocínio aditivo e a relação entre adição e subtração no 1º ano.",
+      "fr": "Cette activité présente la soustraction comme un complément : à partir d'un tout et d'une partie connue, l'enfant retrouve la partie manquante en décomposant le nombre. Conforme aux Programmes officiels du cycle 2 (1.OA.B.4).",
+      "it": "Attività di classe prima per scoprire la sottrazione come scomposizione: dato l'intero e una parte, i bambini trovano la parte mancante in uno schema parte-parte-intero. In linea con le Indicazioni nazionali (1.OA.B.4).",
+      "nl": "Bij deze activiteit oefent je kind aftrekken als een splitsing: het geheel en één deel zijn bekend, en je kind zoekt het ontbrekende deel. Deze ontbrekende-deel-aanpak (1.OA.B.4) sluit aan bij de SLO-kerndoelen voor rekenen in groep 4.",
+      "sv": "Här övar barnen subtraktion som att hitta den del som saknas i ett tal. Genom att se det hela och en känd del fyller barnet i talkompisen som saknas, vilket stärker taluppfattningen enligt Lgr22 (1.OA.B.4).",
+      "da": "Her øver børnene subtraktion som opdeling i et talvenne-billede: de ser det hele og den ene del og finder den manglende del. Aktiviteten understøtter Fælles Mål for matematik i 1. klasse og arbejder med subtraktion som en manglende addend (1.OA.B.4).",
+      "no": "Her øver elevene på subtraksjon som oppdeling og som en manglende del: med det hele tallet og én del gitt finner de tallvennen som mangler (1.OA.B.4). Aktiviteten støtter målene i LK20 om addisjon og subtraksjon innenfor tjue.",
+      "fi": "Tässä tehtävässä lapsi harjoittelee vähennyslaskua osina: kokonaisluku ja toinen osa näkyvät, ja lapsi etsii puuttuvan osan, joka on vähennyslaskun vastaus (1.OA.B.4). Harjoitus tukee luvun hajottamista ja yhteen- ja vähennyslaskun yhteyden ymmärtämistä OPS 2014:n tavoitteiden mukaisesti."
+    },
+    "kid_prompt_template": "unknown-addend"
   }
 ]

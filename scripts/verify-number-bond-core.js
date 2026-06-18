@@ -33,6 +33,36 @@ let roundCount = 0;
 for (const row of manifest) {
   const rounds = (row.params && row.params.rounds) || [];
   check(rounds.length >= VARIETY_MIN, `${row.id}: ${rounds.length} rounds < ${VARIETY_MIN} variety floor (§A.13.60)`);
+
+  if (row.task_template === 'make-ten-to-add') {
+    // 1.OA.C.6: bond decomposes B; the make-ten part = 10 − A completes a ten.
+    rounds.forEach((r, i) => {
+      roundCount++;
+      const A = r.first, B = r.second, mt = 10 - A;
+      const label = `${row.id}#${i}[${A}+${B}]`;
+      // scope: A∈6..9, make-ten part < B (rest ≥1), total within 20 + crosses ten
+      check(A >= 6 && A <= 9, `${label}: first ${A} not in 6..9`);
+      check(mt >= 1 && mt < B, `${label}: make-ten part ${mt} not in 1..${B - 1}`);
+      check(A + B > 10 && A + B <= 18, `${label}: ${A}+${B} not a clean cross-ten ≤18`);
+
+      Core.init({});
+      Core.setupTask({ mode: 'make-ten-to-add', first: A, second: B });
+      // parts sum to whole (B): filled + rest = B by construction
+      check(Core.whole === B, `${label}: whole ${Core.whole} ≠ B ${B}`);
+      check(Core.missing() === mt, `${label}: missing() ${Core.missing()} ≠ ${mt}`);
+      // correct: make-ten part = 10 − A → isCorrect; A + mt === 10
+      check(A + mt === 10, `${label}: ${A} + ${mt} ≠ 10`);
+      Core.filled = mt;
+      check(Core.isCorrect() === true, `${label}: correct make-ten part (${mt}) rejected`);
+      // wrong: ±1 and 0 rejected
+      Core.filled = mt + 1; check(Core.isCorrect() === false, `${label}: over-fill (${mt + 1}) accepted`);
+      Core.filled = mt - 1; check(Core.isCorrect() === false, `${label}: under-fill (${mt - 1}) accepted`);
+      Core.filled = 0; check(Core.isCorrect() === false, `${label}: empty accepted`);
+    });
+    continue;
+  }
+
+  // default: make-ten (K.OA.A.4) — unchanged
   rounds.forEach((r, i) => {
     roundCount++;
     const whole = r.whole || 10;

@@ -57,5 +57,64 @@
       "fi": "Ilmainen interaktiivinen esiopetuksen matematiikkaharjoitus, jossa lapsi etsii kympin kaverit eli luvun 10 hajotelman. Harjoitus tukee OPS 2014 -tavoitteita ja taitoa K.OA.A.4: lapsi löytää jokaiselle luvulle 1–9 sen parin, joka täydentää sen kymmeneksi — omaan tahtiin ja ilman kiirettä."
     },
     "kid_prompt_template": "make-ten"
+  },
+  {
+    "id": "numberbond.make-ten-to-add.1-oa-c-6",
+    "tool": "number-bond-activity",
+    "task_template": "make-ten-to-add",
+    "alignment": { "framework": "CCSS", "code": "1.OA.C.6", "grade": "1", "strand": "Operations & Algebraic Thinking" },
+    "params": {
+      "rounds": [
+        { "first": 8, "second": 5, "seed": 11 },
+        { "first": 9, "second": 4, "seed": 23 },
+        { "first": 7, "second": 6, "seed": 31 },
+        { "first": 8, "second": 7, "seed": 41 },
+        { "first": 9, "second": 6, "seed": 53 },
+        { "first": 7, "second": 5, "seed": 61 },
+        { "first": 6, "second": 8, "seed": 67 },
+        { "first": 9, "second": 8, "seed": 71 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "make-a-ten-to-add",
+      "de": "zehn-machen-zehnueberschreitung-addieren",
+      "es": "suma-haciendo-una-decena",
+      "pt": "fazer-uma-dezena-para-somar",
+      "fr": "faire-dix-pour-additionner-cp",
+      "it": "fai-dieci-per-addizionare",
+      "nl": "aanvullen-tot-tien-optellen-groep-3",
+      "sv": "gor-en-tia-nar-du-adderar",
+      "da": "lav-en-tier-for-at-laegge-sammen",
+      "no": "lag-en-tier-for-aa-legge-sammen",
+      "fi": "tayta-kymppi-yhteenlaskussa"
+    },
+    "page_title": {
+      "en": "Make a Ten to Add — Addition Within 20 (Grade 1)",
+      "de": "Zehn machen beim Addieren bis 20 – Mathe Klasse 1 zum Üben",
+      "es": "Suma haciendo una decena — Matemáticas de 1.º de primaria",
+      "pt": "Faça uma dezena para somar (1º ano) — atividade de matemática",
+      "fr": "Faire dix pour additionner (CP) — additions jusqu'à 20 | activité gratuite",
+      "it": "Fai dieci per addizionare entro il 20 — classe prima",
+      "nl": "Aanvullen tot tien om op te tellen (groep 3) — gratis rekenactiviteit",
+      "sv": "Gör en tia när du adderar (åk 1) – gratis matteövning",
+      "da": "Lav en tier - læg sammen op til 20 (1. klasse) | gratis matematikaktivitet",
+      "no": "Lag en tier for å legge sammen – 1. trinn matematikk (tierovergang)",
+      "fi": "Täytä kymppi yhteenlaskussa – 1. luokan matematiikka"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 math activity: add within 20 with the make-a-ten strategy. For a sum like 8 + 5, break the 5 on a number bond so one part makes 10 with the 8 (8 + 2 = 10), then add what's left (10 + 3 = 13). Tap to fill the make-a-ten part. Common Core 1.OA.C.6.",
+      "de": "Passend zum Lehrplan (1.OA.C.6): Hier üben Kinder das Addieren bis 20 mit der Zehnerübergang-Strategie. Sie zerlegen eine Zahl, machen erst zehn voll und rechnen Schritt für Schritt weiter – ein kostenloses, interaktives Mathe-Spiel für die 1. Klasse.",
+      "es": "Actividad interactiva y gratuita de matemáticas para 1.º de primaria: suma hasta 20 usando la estrategia de hacer una decena. Alineada al Currículo LOMLOE (1.OA.C.6): el niño separa un número para formar 10 y sumar con más facilidad.",
+      "pt": "Atividade alinhada à BNCC (1.OA.C.6): some até 20 fazendo uma dezena, uma estratégia que deixa as contas mais fáceis e divertidas. Uma atividade interativa e gratuita de matemática para crianças do 1º ano.",
+      "fr": "Une activité (1.OA.C.6, Programmes officiels) pour additionner jusqu'à 20 grâce au passage de la dizaine. Ton enfant décompose un nombre pour faire dix, puis ajoute le reste : une stratégie simple et rassurante, à son rythme.",
+      "it": "Un'attività allineata alle Indicazioni nazionali (1.OA.C.6): i bambini imparano ad addizionare entro il 20 usando la strategia del fare dieci con gli amici del 10. Gioca gratis e scopri quanto è facile e divertente comporre la decina!",
+      "nl": "In deze activiteit (1.OA.C.6, afgestemd op de SLO-kerndoelen) oefent je kind het rekenen over het tiental: optellen tot 20 door eerst aan te vullen tot tien. Een warme, gratis rekenactiviteit voor groep 3 waarbij kinderen leren splitsen om handig op te tellen.",
+      "sv": "I den här gratis matteövningen för åk 1 tränar barnet på att addera inom 20 med strategin tiotalsövergång – att först göra en tia. Aktiviteten övar 1.OA.C.6 enligt Lgr22 och passar perfekt för att bygga säker huvudräkning på ett lekfullt sätt.",
+      "da": "I denne aktivitet (1.OA.C.6, Fælles Mål) øver dit barn at lægge tal sammen op til 20 ved at lave en tier (tierovergang). Barnet deler det andet tal, så det første tal lige nøjagtig bliver til 10 - en tryg og sjov måde at få styr på de svære plusstykker.",
+      "no": "Matematikkaktivitet knyttet til 1.OA.C.6 i rammeverket LK20. I denne gratis interaktive aktiviteten for 1. trinn øver barna på å legge sammen opp til 20 ved å lage en tier (tierovergang) – en trygg og lekende måte å bygge god tallforståelse på.",
+      "fi": "Tässä maksuttomassa 1. luokan tehtävässä harjoitellaan yhteenlaskua kahteenkymmeneen kympin ylityksen avulla: lapsi jakaa luvun ja täyttää ensin kympin. Harjoitus tukee OPS 2014 -tavoitteita ja taitoa 1.OA.C.6 luontevalla, kannustavalla tavalla."
+    },
+    "kid_prompt_template": "make-ten-to-add"
   }
 ]

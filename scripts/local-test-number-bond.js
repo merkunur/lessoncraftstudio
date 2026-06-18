@@ -22,7 +22,10 @@ const arg = (k, d) => { const m = process.argv.find(a => a.startsWith('--' + k +
 const has = (k) => process.argv.includes('--' + k);
 const LOCALES = arg('locales', 'en,de,es,pt,fr,it,nl,sv,da,no,fi').split(',');
 const SHOT = has('shot');
-const ACTIVITY = 'numberbond.make-ten.k-oa-a-4';
+const ACTIVITIES = [
+  { id: 'numberbond.make-ten.k-oa-a-4', titleKey: 'title' },
+  { id: 'numberbond.make-ten-to-add.1-oa-c-6', titleKey: 'titleAdd' },
+];
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');
 const SHOT_DIR = path.join(REPO, 'docs', 'audit-results', 'number-bond');
@@ -57,71 +60,74 @@ function coreStrings() {
   async function tapFill(page, n) { for (let i = 0; i < n; i++) { await page.click('.nb-part-fill'); } }
 
   for (const loc of LOCALES) {
-    const page = await browser.newPage();
-    await page.setViewport({ width: 412, height: 900 });
-    const errs = [];
-    const isNoise = (s) => /Failed to load resource|favicon|\/audio\//i.test(s);
-    page.on('console', m => { if (m.type() === 'error' && !isNoise(m.text())) errs.push(m.text()); });
-    page.on('pageerror', e => { if (!isNoise(e.message)) errs.push(e.message); });
-    const url = `${BASE}/number-bond-activity.html?lang=${loc}&activity=${ACTIVITY}&embed=1`;
-    try {
-      await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
-      await page.waitForFunction(() => {
-        const t = window.NumberBondActivity;
-        return t && t._activityRow && document.querySelector('.nb-svg') && document.querySelector('.nb-part-fill') && document.querySelector('.lcs-activity-check');
-      }, { timeout: 15000 });
-
-      const title = await page.$eval('.lcs-title', e => e.textContent.trim()).catch(() => '');
-      note(title === (STR.title[loc] || STR.title.en), `${loc}: title "${title}" ≠ localized "${STR.title[loc] || STR.title.en}"`);
-      const prompt = await page.$eval('.lcs-activity-prompt-text', e => e.textContent.trim()).catch(() => '');
-      note(prompt.length > 0, `${loc}: empty prompt`);
-
-      /* variety */
-      const N = await page.evaluate(() => window.NumberBondActivity._pool.length);
-      const ids = await page.evaluate((c) => { const t = window.NumberBondActivity, o = []; for (let i = 0; i < c; i++) { const x = t.nextTask({ index: i }); o.push(x ? x.id : null); } return o; }, 2 * N);
-      const p1 = ids.slice(0, N), p2 = ids.slice(N, 2 * N);
-      note(new Set(p1).size >= 7, `${loc}: only ${new Set(p1).size} distinct rounds (<7)`);
-      note(p1.slice().sort().join('|') === p2.slice().sort().join('|'), `${loc}: pass-2 not same set`);
-      note(p1.join('|') !== p2.join('|'), `${loc}: pass-2 order identical (no reshuffle)`);
-
-      /* interaction: reload round 0, read missing, tap-fill */
-      await page.evaluate(() => window.LCS_reloadFirstTask && window.LCS_reloadFirstTask());
-      await page.waitForFunction(() => document.querySelector('.nb-part-fill'), { timeout: 5000 });
-      const m = await page.evaluate(() => ({ given: window.NumberBondActivity.given, whole: window.NumberBondActivity.whole, missing: window.NumberBondActivity.missing() }));
-
-      /* UNDER-fill (missing-1) → no celebrate */
-      if (m.missing - 1 >= 1) {
-        await tapFill(page, m.missing - 1);
-        await page.click('.lcs-activity-check');
-        const wrong = await page.evaluate(() => ({ c: document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'), ro: window.NumberBondActivity.readOnly }));
-        note(!wrong.c && !wrong.ro, `${loc}: an under-fill still celebrated/locked`);
-        // add the last one → correct
-        await tapFill(page, 1);
-      } else {
-        await tapFill(page, m.missing);
-      }
-      await page.click('.lcs-activity-check');
-      const ok = await page.evaluate(() => ({ c: document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'), ro: window.NumberBondActivity.readOnly, correct: window.NumberBondActivity.isCorrect() }));
-      note(ok.correct, `${loc}: filling to the missing part did not satisfy isCorrect()`);
-      note(ok.c && ok.ro, `${loc}: correct fill (${m.given}+${m.missing}=${m.whole}) did not celebrate + lock`);
-
-      /* mobile overflow */
-      for (const w of [280, 360, 412, 768]) {
-        await page.setViewport({ width: w, height: 900 });
-        await page.evaluate(() => window.LCS_reloadFirstTask && window.LCS_reloadFirstTask());
-        const over = await page.evaluate(() => { const d = document.scrollingElement || document.documentElement; return d.scrollWidth - d.clientWidth; });
-        note(over <= 2, `${loc}: horizontal overflow ${over}px at ${w}px`);
-        if (SHOT && (w === 360 || w === 768)) await page.screenshot({ path: path.join(SHOT_DIR, `${loc}-${w}.png`) });
-      }
+    for (const act of ACTIVITIES) {
+      const tag = `${loc}/${act.id.split('.')[1]}`;
+      const page = await browser.newPage();
       await page.setViewport({ width: 412, height: 900 });
+      const errs = [];
+      const isNoise = (s) => /Failed to load resource|favicon|\/audio\//i.test(s);
+      page.on('console', m => { if (m.type() === 'error' && !isNoise(m.text())) errs.push(m.text()); });
+      page.on('pageerror', e => { if (!isNoise(e.message)) errs.push(e.message); });
+      const url = `${BASE}/number-bond-activity.html?lang=${loc}&activity=${act.id}&embed=1`;
+      try {
+        await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
+        await page.waitForFunction(() => {
+          const t = window.NumberBondActivity;
+          return t && t._activityRow && document.querySelector('.nb-svg') && document.querySelector('.nb-part-fill') && document.querySelector('.lcs-activity-check');
+        }, { timeout: 15000 });
 
-      note(errs.length === 0, `${loc}: console error(s): ${errs.slice(0, 2).join(' | ')}`);
-      const okLoc = !fails.some(f => f.startsWith(loc + ':'));
-      console.log(`  ${okLoc ? 'ok  ' : 'FAIL'} ${loc} — "${title}" | "${prompt}" | ${new Set(p1).size} distinct`);
-    } catch (e) {
-      fails.push(`${loc}: ${e.message}`);
-      console.log(`  FAIL ${loc} — ${e.message}`);
-    } finally { await page.close(); }
+        const title = await page.$eval('.lcs-title', e => e.textContent.trim()).catch(() => '');
+        const expectTitle = (STR[act.titleKey] && STR[act.titleKey][loc]) || null;
+        if (expectTitle) note(title === expectTitle, `${tag}: title "${title}" ≠ localized "${expectTitle}"`);
+        const prompt = await page.$eval('.lcs-activity-prompt-text', e => e.textContent.trim()).catch(() => '');
+        note(prompt.length > 0, `${tag}: empty prompt`);
+
+        /* variety */
+        const N = await page.evaluate(() => window.NumberBondActivity._pool.length);
+        const ids = await page.evaluate((c) => { const t = window.NumberBondActivity, o = []; for (let i = 0; i < c; i++) { const x = t.nextTask({ index: i }); o.push(x ? x.id : null); } return o; }, 2 * N);
+        const p1 = ids.slice(0, N), p2 = ids.slice(N, 2 * N);
+        note(new Set(p1).size >= 7, `${tag}: only ${new Set(p1).size} distinct rounds (<7)`);
+        note(p1.slice().sort().join('|') === p2.slice().sort().join('|'), `${tag}: pass-2 not same set`);
+        note(p1.join('|') !== p2.join('|'), `${tag}: pass-2 order identical (no reshuffle)`);
+
+        /* interaction: reload round 0, read missing (= the target fill), tap-fill */
+        await page.evaluate(() => window.LCS_reloadFirstTask && window.LCS_reloadFirstTask());
+        await page.waitForFunction(() => document.querySelector('.nb-part-fill'), { timeout: 5000 });
+        const m = await page.evaluate(() => ({ whole: window.NumberBondActivity.whole, missing: window.NumberBondActivity.missing() }));
+
+        /* UNDER-fill (missing-1) → no celebrate; then complete → correct */
+        if (m.missing - 1 >= 1) {
+          await tapFill(page, m.missing - 1);
+          await page.click('.lcs-activity-check');
+          const wrong = await page.evaluate(() => ({ c: document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'), ro: window.NumberBondActivity.readOnly }));
+          note(!wrong.c && !wrong.ro, `${tag}: an under-fill still celebrated/locked`);
+          await tapFill(page, 1);
+        } else {
+          await tapFill(page, m.missing);
+        }
+        await page.click('.lcs-activity-check');
+        const ok = await page.evaluate(() => ({ c: document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'), ro: window.NumberBondActivity.readOnly, correct: window.NumberBondActivity.isCorrect() }));
+        note(ok.correct, `${tag}: filling to the target (${m.missing}) did not satisfy isCorrect()`);
+        note(ok.c && ok.ro, `${tag}: correct fill did not celebrate + lock`);
+
+        /* mobile overflow */
+        for (const w of [280, 360, 412, 768]) {
+          await page.setViewport({ width: w, height: 900 });
+          await page.evaluate(() => window.LCS_reloadFirstTask && window.LCS_reloadFirstTask());
+          const over = await page.evaluate(() => { const d = document.scrollingElement || document.documentElement; return d.scrollWidth - d.clientWidth; });
+          note(over <= 2, `${tag}: horizontal overflow ${over}px at ${w}px`);
+          if (SHOT && (w === 360 || w === 768)) await page.screenshot({ path: path.join(SHOT_DIR, `${tag.replace('/', '-')}-${w}.png`) });
+        }
+        await page.setViewport({ width: 412, height: 900 });
+
+        note(errs.length === 0, `${tag}: console error(s): ${errs.slice(0, 2).join(' | ')}`);
+        const okT = !fails.some(f => f.startsWith(tag + ':'));
+        console.log(`  ${okT ? 'ok  ' : 'FAIL'} ${tag} — "${title}" | "${prompt}" | ${new Set(p1).size} distinct`);
+      } catch (e) {
+        fails.push(`${tag}: ${e.message}`);
+        console.log(`  FAIL ${tag} — ${e.message}`);
+      } finally { await page.close(); }
+    }
   }
 
   await browser.close();

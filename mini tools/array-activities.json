@@ -1,0 +1,61 @@
+[
+  {
+    "id": "array.build-array.2-oa-c-4",
+    "tool": "array-activity",
+    "task_template": "build-array",
+    "alignment": { "framework": "CCSS", "code": "2.OA.C.4", "grade": "2", "strand": "Operations & Algebraic Thinking" },
+    "params": {
+      "rounds": [
+        { "rows": 2, "cols": 3, "seed": 11 },
+        { "rows": 3, "cols": 4, "seed": 23 },
+        { "rows": 4, "cols": 2, "seed": 31 },
+        { "rows": 2, "cols": 5, "seed": 41 },
+        { "rows": 3, "cols": 3, "seed": 53 },
+        { "rows": 5, "cols": 2, "seed": 61 },
+        { "rows": 4, "cols": 4, "seed": 67 },
+        { "rows": 4, "cols": 3, "seed": 71 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "build-an-array",
+      "de": "baue-das-gitter-reihen-mal-spalten",
+      "es": "arma-el-arreglo-rectangular",
+      "pt": "monte-a-matriz",
+      "fr": "construis-le-quadrillage-ce1",
+      "it": "costruisci-lo-schieramento",
+      "nl": "bouw-het-rooster-groep-4",
+      "sv": "bygg-rutnatet-rader",
+      "da": "byg-gitteret",
+      "no": "bygg-rutenettet",
+      "fi": "rakenna-suorakulmainen-taulukko"
+    },
+    "page_title": {
+      "en": "Build an Array — Rows, Columns & Repeated Addition (Grade 2)",
+      "de": "Gitter bauen: Reihen mal Spalten – Gesamtzahl durch wiederholte Addition (2. Klasse)",
+      "es": "Arma un arreglo rectangular y suma repetida — segundo de primaria",
+      "pt": "Monte uma matriz retangular e some por adição repetida — 2º ano",
+      "fr": "Construis un quadrillage en rangées – total par addition répétée (CE1)",
+      "it": "Costruisci uno schieramento e trova il totale con l'addizione ripetuta — classe seconda",
+      "nl": "Bouw een rooster met rijen – totaal door herhaald optellen (groep 4)",
+      "sv": "Bygg ett rutnät med rader – totalsumma med upprepad addition, åk 2",
+      "da": "Byg et gitter med rækker — find i alt med gentagen addition, 2. klasse",
+      "no": "Bygg et rutenett og finn summen med gjentatt addisjon – 2. trinn",
+      "fi": "Rakenna suorakulmainen taulukko – yhteismäärä toistuvalla yhteenlaskulla, 2. luokka"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 math activity: build a rectangular array — equal rows — and find the total by repeated addition (4 + 4 + 4 = 12). Tap to fill the rows, watch the equal groups add up, then type how many in all. Common Core 2.OA.C.4.",
+      "de": "Passend zum Lehrplan (2.OA.C.4): Dein Kind baut ein Gitter aus gleich langen Reihen und findet die Gesamtzahl durch wiederholte Addition – die Brücke zum Einmaleins in der 2. Klasse.",
+      "es": "Actividad interactiva para segundo de primaria: arma filas iguales en un arreglo rectangular y descubre el total con suma repetida. Alineada al Currículo LOMLOE (2.OA.C.4).",
+      "pt": "Atividade alinhada à BNCC (2.OA.C.4): a criança preenche fileiras iguais para montar uma matriz retangular e descobre o total por adição repetida, preparando a multiplicação no 2º ano.",
+      "fr": "Une activité de CE1 (2.OA.C.4, Programmes officiels) : remplis un quadrillage en rangées égales, puis trouve le total grâce à l'addition répétée pour préparer la multiplication.",
+      "it": "Un'attività di classe seconda allineata alle Indicazioni nazionali (2.OA.C.4): il bambino costruisce righe uguali in uno schieramento rettangolare e trova il totale con l'addizione ripetuta.",
+      "nl": "In deze activiteit (2.OA.C.4, afgestemd op de SLO-kerndoelen) bouwt je kind een rooster met evenveel vakjes in elke rij en vindt het totaal door de rijen herhaald op te tellen.",
+      "sv": "Bygg lika rader i ett rutnät och räkna ut totalsumman med upprepad addition. Aktiviteten övar 2.OA.C.4 enligt Lgr22 och förbereder eleven inför multiplikation i åk 2.",
+      "da": "I denne aktivitet (2.OA.C.4, Fælles Mål) bygger barnet et gitter med lige store rækker og finder, hvor mange der er i alt, ved hjælp af gentagen addition.",
+      "no": "Bygg like rader i et rutenett og finn hvor mange det er til sammen med gjentatt addisjon. Matematikkaktivitet for 2. trinn, knyttet til 2.OA.C.4 i rammeverket LK20.",
+      "fi": "Rakenna yhtä suuret rivit suorakulmaiseksi taulukoksi ja selvitä yhteismäärä toistuvalla yhteenlaskulla. Harjoitus tukee OPS 2014 -tavoitteita ja taitoa 2.OA.C.4."
+    },
+    "kid_prompt_template": "build-array"
+  }
+]

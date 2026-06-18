@@ -30,7 +30,11 @@ const arg = (k, d) => { const m = process.argv.find(a => a.startsWith('--' + k +
 const has = (k) => process.argv.includes('--' + k);
 const LOCALES = arg('locales', 'en,de,es,pt,fr,it,nl,sv,da,no,fi').split(',');
 const SHOT = has('shot');
-const ACTIVITY = 'array.build-array.2-oa-c-4';
+/* both array activities — build-array (#1) + equal-groups (#2) */
+const ACTIVITIES = [
+  { id: 'array.build-array.2-oa-c-4', groups: false },
+  { id: 'array.equal-groups.2-oa-c-4', groups: true }
+];
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');
 const SHOT_DIR = path.join(REPO, 'docs', 'audit-results', 'array');
@@ -72,14 +76,17 @@ function coreStrings() {
   const fails = [];
   const note = (cond, msg) => { if (!cond) fails.push(msg); };
 
-  for (const loc of LOCALES) {
+  for (const ACT of ACTIVITIES) {
+   const pfx = ACT.groups ? 'equal-groups' : 'build-array';
+   for (const loc of LOCALES) {
+    const tag = `${pfx}/${loc}`;
     const page = await browser.newPage();
     await page.setViewport({ width: 412, height: 900 });
     const errs = [];
     const isNoise = (s) => /Failed to load resource|favicon|\/audio\//i.test(s);
     page.on('console', m => { if (m.type() === 'error' && !isNoise(m.text())) errs.push(m.text()); });
     page.on('pageerror', e => { if (!isNoise(e.message)) errs.push(e.message); });
-    const url = `${BASE}/array-activity.html?lang=${loc}&activity=${ACTIVITY}&embed=1`;
+    const url = `${BASE}/array-activity.html?lang=${loc}&activity=${ACT.id}&embed=1`;
 
     /* keypad helpers (shell renders .lcs-activity-key digit buttons + clear) */
     async function clearPad() { const c = await page.$('.lcs-activity-key-clear'); if (c) await c.click(); }
@@ -97,16 +104,19 @@ function coreStrings() {
         return t && t._activityRow && document.querySelector('.arr-cell') && document.querySelector('.arr-strip') && document.querySelector('.lcs-activity-check');
       }, { timeout: 15000 });
 
-      /* 1. localized title */
+      /* 1. localized title (build-array → title; equal-groups → titleGroups) */
       const title = await page.$eval('.lcs-title', e => e.textContent.trim()).catch(() => '');
-      const expTitle = STR.title[loc] || STR.title.en;
-      note(title === expTitle, `${loc}: header title "${title}" ≠ localized "${expTitle}"`);
+      const expTitle = ACT.groups ? (STR.titleGroups[loc] || STR.titleGroups.en) : (STR.title[loc] || STR.title.en);
+      note(title === expTitle, `${tag}: header title "${title}" ≠ localized "${expTitle}"`);
 
-      /* 2. grid + strip present, cell count === rows×cols */
+      /* 2. correct layout for the mode + strip present, cell count === units×each */
+      const hasGrid = !!(await page.$('.arr-grid'));
+      const hasGroups = !!(await page.$('.arr-group'));
+      note(ACT.groups ? (hasGroups && !hasGrid) : (hasGrid && !hasGroups), `${tag}: layout grid=${hasGrid} groups=${hasGroups} (expected ${ACT.groups ? 'groups' : 'grid'})`);
       const dims0 = await page.evaluate(() => ({ rows: window.ArrayActivity.rows, cols: window.ArrayActivity.cols }));
       const cellCount = await page.$$eval('.arr-cell', els => els.length);
-      note(cellCount === dims0.rows * dims0.cols, `${loc}: ${cellCount} cells ≠ rows×cols ${dims0.rows * dims0.cols}`);
-      note(!!(await page.$('.arr-strip')), `${loc}: no repeated-addition strip`);
+      note(cellCount === dims0.rows * dims0.cols, `${tag}: ${cellCount} cells ≠ ${dims0.rows * dims0.cols}`);
+      note(!!(await page.$('.arr-strip')), `${tag}: no repeated-addition strip`);
 
       /* 3. variety/shuffle over 2 passes */
       const N = (await page.evaluate(() => window.ArrayActivity._pool.length));
@@ -117,9 +127,9 @@ function coreStrings() {
       }, 2 * N);
       const p1 = ids.slice(0, N), p2 = ids.slice(N, 2 * N);
       const distinct = new Set(p1).size;
-      note(distinct >= 7, `${loc}: only ${distinct} distinct rounds (<7)`);
-      note(p1.slice().sort().join('|') === p2.slice().sort().join('|'), `${loc}: pass-2 not the same set (order-only violated)`);
-      note(p1.join('|') !== p2.join('|'), `${loc}: pass-2 order identical to pass-1 (no reshuffle)`);
+      note(distinct >= 7, `${tag}: only ${distinct} distinct rounds (<7)`);
+      note(p1.slice().sort().join('|') === p2.slice().sort().join('|'), `${tag}: pass-2 not the same set (order-only violated)`);
+      note(p1.join('|') !== p2.join('|'), `${tag}: pass-2 order identical to pass-1 (no reshuffle)`);
 
       /* 4. TAP-FILL + KEYPAD. Re-mount round 0 so we build a known array. */
       await page.evaluate(() => window.LCS_reloadFirstTask && window.LCS_reloadFirstTask());
@@ -130,7 +140,7 @@ function coreStrings() {
       const cells = await page.$$('.arr-cell');
       for (const cell of cells) await cell.click();
       const addends = await page.$$eval('.arr-addend', els => els.filter(e => !e.classList.contains('arr-blank')).length);
-      note(addends === dims.rows, `${loc}: filled array shows ${addends} complete addends, expected ${dims.rows} rows`);
+      note(addends === dims.rows, `${tag}: filled shows ${addends} complete addends, expected ${dims.rows} units`);
 
       // WRONG total → no celebrate
       await enterNumber(dims.total - 1);
@@ -139,7 +149,7 @@ function coreStrings() {
         celebrated: document.querySelector('.lcs-activity-prompt') && document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'),
         readOnly: window.ArrayActivity.readOnly
       }));
-      note(!wrong.celebrated && !wrong.readOnly, `${loc}: a wrong total still celebrated/locked`);
+      note(!wrong.celebrated && !wrong.readOnly, `${tag}: a wrong total still celebrated/locked`);
 
       // CORRECT total → celebrate + lock
       await enterNumber(dims.total);
@@ -148,7 +158,7 @@ function coreStrings() {
         celebrated: document.querySelector('.lcs-activity-prompt') && document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'),
         readOnly: window.ArrayActivity.readOnly
       }));
-      note(ok.celebrated && ok.readOnly, `${loc}: correct total (${dims.total}) did not celebrate + lock`);
+      note(ok.celebrated && ok.readOnly, `${tag}: correct total (${dims.total}) did not celebrate + lock`);
 
       /* 5. mobile overflow */
       for (const w of [280, 360, 412, 768]) {
@@ -158,18 +168,19 @@ function coreStrings() {
           const d = document.scrollingElement || document.documentElement;
           return d.scrollWidth - d.clientWidth;
         });
-        note(over <= 2, `${loc}: horizontal overflow ${over}px at ${w}px`);
-        if (SHOT && (w === 360 || w === 768)) await page.screenshot({ path: path.join(SHOT_DIR, `${loc}-${w}.png`) });
+        note(over <= 2, `${tag}: horizontal overflow ${over}px at ${w}px`);
+        if (SHOT && (w === 360 || w === 768)) await page.screenshot({ path: path.join(SHOT_DIR, `${pfx}-${loc}-${w}.png`) });
       }
       await page.setViewport({ width: 412, height: 900 });
 
-      note(errs.length === 0, `${loc}: console error(s): ${errs.slice(0, 2).join(' | ')}`);
-      const okLoc = !fails.some(f => f.startsWith(loc + ':'));
-      console.log(`  ${okLoc ? 'ok  ' : 'FAIL'} ${loc} — "${title}" | ${dims.rows}×${dims.cols}=${dims.total} | ${distinct} distinct rounds`);
+      note(errs.length === 0, `${tag}: console error(s): ${errs.slice(0, 2).join(' | ')}`);
+      const okLoc = !fails.some(f => f.startsWith(tag + ':'));
+      console.log(`  ${okLoc ? 'ok  ' : 'FAIL'} ${tag} — "${title}" | ${dims.rows}×${dims.cols}=${dims.total} | ${distinct} distinct rounds`);
     } catch (e) {
-      fails.push(`${loc}: ${e.message}`);
-      console.log(`  FAIL ${loc} — ${e.message}`);
+      fails.push(`${tag}: ${e.message}`);
+      console.log(`  FAIL ${tag} — ${e.message}`);
     } finally { await page.close(); }
+   }
   }
 
   await browser.close();
@@ -180,6 +191,6 @@ function coreStrings() {
     fails.forEach(f => console.error('  • ' + f));
     process.exit(1);
   }
-  console.log(`ARRAY LOCAL TEST PASSED — ${LOCALES.length} locale(s): render (grid + strip) + localized title + tap-fill builds the equation + keypad total (correct celebrates, wrong doesn't) + ≥7-round reshuffle + no mobile overflow.`);
+  console.log(`ARRAY LOCAL TEST PASSED — ${ACTIVITIES.length} activities × ${LOCALES.length} locale(s): correct layout (grid / groups) + strip + localized title + tap-fill builds the equation + keypad total (correct celebrates, wrong doesn't) + ≥7-round reshuffle + no mobile overflow.`);
   process.exit(0);
 })().catch(e => { console.error('ERROR:', e.message); process.exit(1); });

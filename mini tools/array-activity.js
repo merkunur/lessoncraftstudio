@@ -63,8 +63,39 @@ function makeRoundTasks(rounds, idPrefix) {
   });
 }
 
+/* EQUAL-GROUPS (#2): each round { groups, each, seed }; the child fills N
+   discrete groups of M, the strip assembles M + M + … and the keypad answers
+   the total (groups × each). Same tap-fill/strip/keypad path as build-array. */
+function makeGroupTasks(rounds, idPrefix) {
+  return rounds.map(function (r, i) {
+    return {
+      id: idPrefix + '.round-' + i,
+      promptKey: 'promptGroups',
+      promptArgs: { groups: r.groups, each: r.each },
+      answerType: 'number',
+      answerMin: 0,
+      answerMax: 25,
+      setup: function (tool) { tool.setupTask({ mode: 'equal-groups', groups: r.groups, each: r.each, seed: r.seed }); },
+      check: function (tool, answer) {
+        var ok = (answer === tool.total());   // total === groups × each
+        if (ok) { tool.readOnly = true; tool.paint(); }
+        return ok;
+      },
+      hintKey: function () { return 'hintGroups'; }
+    };
+  });
+}
+
 /* Fallback static task pool when no ?activity= is given. */
 var STATIC_DEMO_TASKS = makeRoundTasks(DEMO_ROUNDS, 'demo');
+
+/* The shell reads tool.strings.title/instruction at MOUNT (before init), so the
+   per-activity title must be chosen SYNCHRONOUSLY from ?activity (the E3 #2 /
+   money #2 pattern; zero lcs-shell touch). equal-groups → swap titleGroups/
+   instructionGroups in. */
+var _ARR_ACTIVITY_ID = (typeof window !== 'undefined' && window.location)
+  ? (new URLSearchParams(window.location.search)).get('activity') : null;
+var _ARR_IS_GROUPS = /equal-groups/.test(_ARR_ACTIVITY_ID || '');
 
 /* Order-only Fisher–Yates over n indices. When `prev` is given (and n≥2),
    the result is GUARANTEED to differ from prev (the per-pass "never the same
@@ -87,9 +118,12 @@ function shuffledOrder(n, prev) {
 window.ArrayActivity = Object.assign({}, ArrayCore, {
   id: 'array-activity',
 
-  /* Inherit the core's 11-locale strings (title / instruction / prompt /
-     hint / sr nouns). No activity-only strings beyond the core's. */
-  strings: Object.assign({}, ArrayCore.strings),
+  /* Inherit the core's 11-locale strings; for equal-groups, swap the title +
+     instruction to the groups variants synchronously (shell reads them at mount). */
+  strings: Object.assign({}, ArrayCore.strings, _ARR_IS_GROUPS ? {
+    title: ArrayCore.strings.titleGroups,
+    instruction: ArrayCore.strings.instructionGroups
+  } : {}),
 
   /* NO `tasks` property → the shell calls our nextTask() for ordering, so we
      own the per-pass reshuffle (CLAUDE.md §A.13.60). Pool resolved lazily:
@@ -160,6 +194,18 @@ window.ArrayActivity = Object.assign({}, ArrayCore, {
         });
       }
       return makeRoundTasks(rounds, row.id);
+    }
+    if (row.task_template === 'equal-groups') {
+      var grounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : [];
+      /* defensive: groups + each within 2..5 (on-grade, total ≤ 25, fits the layout). */
+      if (window.console && console.warn) {
+        grounds.forEach(function (r, ri) {
+          if (!(r.groups >= 2 && r.groups <= 5 && r.each >= 2 && r.each <= 5)) {
+            console.warn('[array-activity] equal-groups round ' + ri + ' dims ' + r.groups + '×' + r.each + ' outside 2..5');
+          }
+        });
+      }
+      return makeGroupTasks(grounds, row.id);
     }
     return STATIC_DEMO_TASKS;
   }

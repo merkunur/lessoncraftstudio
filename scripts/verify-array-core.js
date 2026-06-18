@@ -43,39 +43,49 @@ function fillAll(rows, cols) {
   for (var r = 0; r < rows; r++) { for (var c = 0; c < cols; c++) { Core.filled[Core._key(r, c)] = true; } }
 }
 
+/* mode-aware setup: equal-groups maps groups→rows, each→cols (the math layer
+   is shared: total = rows×cols, one addend per completed unit). */
+function setup(row, rows, cols, seed) {
+  if (row.task_template === 'equal-groups') Core.setupTask({ mode: 'equal-groups', groups: rows, each: cols, seed: seed });
+  else Core.setupTask({ rows: rows, cols: cols, seed: seed });
+}
+
 let roundCount = 0;
 for (const row of manifest) {
+  const isGroups = row.task_template === 'equal-groups';
   const rounds = (row.params && row.params.rounds) || [];
   check(rounds.length >= VARIETY_MIN, `${row.id}: ${rounds.length} rounds < ${VARIETY_MIN} variety floor (§A.13.60)`);
   rounds.forEach((r, i) => {
     roundCount++;
-    const label = `${row.id}#${i}[${r.rows}×${r.cols}]`;
+    const rows = isGroups ? r.groups : r.rows;   // N groups / R rows
+    const cols = isGroups ? r.each : r.cols;     // M each / C cols
+    const label = `${row.id}#${i}[${rows}×${cols}${isGroups ? ' groups' : ''}]`;
 
-    // 1. dimensions within 2.OA.C.4 bounds
-    check(r.rows >= 2 && r.rows <= 5, `${label}: rows ${r.rows} outside 2..5`);
-    check(r.cols >= 2 && r.cols <= 5, `${label}: cols ${r.cols} outside 2..5`);
+    // 1. dimensions within 2.OA.C.4 bounds (≤5×5, total ≤25)
+    check(rows >= 2 && rows <= 5, `${label}: ${isGroups ? 'groups' : 'rows'} ${rows} outside 2..5`);
+    check(cols >= 2 && cols <= 5, `${label}: ${isGroups ? 'each' : 'cols'} ${cols} outside 2..5`);
 
-    Core.setupTask({ rows: r.rows, cols: r.cols, seed: r.seed });
+    setup(row, rows, cols, r.seed);
 
-    // 2. full fill → R equal addends of C summing to rows×cols === total()
-    fillAll(r.rows, r.cols);
+    // 2. full fill → N equal addends of M summing to N×M === total()
+    fillAll(rows, cols);
     const eq = Core.builtEquation();
-    check(eq.length === r.rows, `${label}: full build gave ${eq.length} addends, expected ${r.rows} rows`);
-    check(eq.every((a) => a === r.cols), `${label}: addends ${JSON.stringify(eq)} are not all = ${r.cols} (equal-addends violated)`);
+    check(eq.length === rows, `${label}: full build gave ${eq.length} addends, expected ${rows}`);
+    check(eq.every((a) => a === cols), `${label}: addends ${JSON.stringify(eq)} are not all = ${cols} (equal-addends violated)`);
     const sum = eq.reduce((a, b) => a + b, 0);
-    check(sum === r.rows * r.cols, `${label}: equation sum ${sum} ≠ rows×cols ${r.rows * r.cols}`);
-    check(Core.total() === r.rows * r.cols, `${label}: total() ${Core.total()} ≠ rows×cols ${r.rows * r.cols}`);
-    check(Core._filledCount() === r.rows * r.cols, `${label}: filled count ${Core._filledCount()} ≠ ${r.rows * r.cols}`);
+    check(sum === rows * cols, `${label}: equation sum ${sum} ≠ ${rows * cols}`);
+    check(Core.total() === rows * cols, `${label}: total() ${Core.total()} ≠ ${rows * cols}`);
+    check(Core._filledCount() === rows * cols, `${label}: filled count ${Core._filledCount()} ≠ ${rows * cols}`);
 
-    // 3. one cell short → not all rows complete (equation incomplete)
-    Core.setupTask({ rows: r.rows, cols: r.cols, seed: r.seed });
-    fillAll(r.rows, r.cols);
-    delete Core.filled[Core._key(r.rows - 1, r.cols - 1)];
-    check(Core.builtEquation().length < r.rows, `${label}: one cell short still reported a complete ${r.rows}-addend equation`);
+    // 3. one cell short → not all units complete (equation incomplete)
+    setup(row, rows, cols, r.seed);
+    fillAll(rows, cols);
+    delete Core.filled[Core._key(rows - 1, cols - 1)];
+    check(Core.builtEquation().length < rows, `${label}: one cell short still reported a complete ${rows}-addend equation`);
 
     // 4. grading rule (mirror the wrapper's check: answer === total) discriminates
-    Core.setupTask({ rows: r.rows, cols: r.cols, seed: r.seed });
-    const total = r.rows * r.cols;
+    setup(row, rows, cols, r.seed);
+    const total = rows * cols;
     check((total === Core.total()) === true, `${label}: correct total not accepted`);
     check((total - 1 === Core.total()) === false, `${label}: a wrong total (${total - 1}) was accepted`);
   });

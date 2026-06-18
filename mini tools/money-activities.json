@@ -1,0 +1,207 @@
+[
+  {
+    "id": "money.count-out.2-md-c-8",
+    "tool": "money-activity",
+    "task_template": "count-out",
+    "alignment": { "framework": "CCSS", "code": "2.MD.C.8", "grade": "2", "strand": "Measurement & Data" },
+    "params": {
+      "byLocale": {
+        "en": {
+          "currency": { "symbol": "$", "before": true, "decimalSep": ".", "minorPerMajor": 100 },
+          "coins": [ {"v":1,"label":"1¢"},{"v":5,"label":"5¢"},{"v":10,"label":"10¢"},{"v":25,"label":"25¢"},{"v":100,"label":"$1"} ],
+          "rounds": [
+            {"target":30,"palette":[1,5,10,25],"solution":[25,5]},
+            {"target":15,"palette":[1,5,10,25],"solution":[10,5]},
+            {"target":40,"palette":[5,10,25],"solution":[25,10,5]},
+            {"target":11,"palette":[1,5,10,25],"solution":[10,1]},
+            {"target":26,"palette":[1,5,10,25],"solution":[25,1]},
+            {"target":35,"palette":[5,10,25],"solution":[25,10]},
+            {"target":50,"palette":[10,25],"solution":[25,25]},
+            {"target":20,"palette":[5,10,25],"solution":[10,10]}
+          ]
+        },
+        "de": {
+          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
+          "coins": [ {"v":1,"label":"1 ct"},{"v":2,"label":"2 ct"},{"v":5,"label":"5 ct"},{"v":10,"label":"10 ct"},{"v":20,"label":"20 ct"},{"v":50,"label":"50 ct"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "rounds": [
+            {"target":30,"palette":[1,5,10,20,50],"solution":[20,10]},
+            {"target":7,"palette":[1,2,5,10,20],"solution":[5,2]},
+            {"target":16,"palette":[1,2,5,10,20],"solution":[10,5,1]},
+            {"target":70,"palette":[5,10,20,50],"solution":[50,20]},
+            {"target":45,"palette":[2,5,10,20,50],"solution":[20,20,5]},
+            {"target":80,"palette":[10,20,50,100],"solution":[50,20,10]},
+            {"target":150,"palette":[10,20,50,100,200],"solution":[100,50]},
+            {"target":120,"palette":[10,20,50,100,200],"solution":[100,20]}
+          ]
+        },
+        "es": {
+          "currency": { "symbol": "$", "before": true, "decimalSep": ".", "minorPerMajor": 100 },
+          "coins": [ {"v":5,"label":"5¢"},{"v":10,"label":"10¢"},{"v":20,"label":"20¢"},{"v":50,"label":"50¢"},{"v":100,"label":"$1"},{"v":200,"label":"$2"},{"v":500,"label":"$5"} ],
+          "rounds": [
+            {"target":30,"palette":[5,10,20,50],"solution":[20,10]},
+            {"target":70,"palette":[5,10,20,50],"solution":[50,20]},
+            {"target":60,"palette":[10,20,50],"solution":[20,20,20]},
+            {"target":80,"palette":[10,20,50],"solution":[50,20,10]},
+            {"target":300,"palette":[50,100,200],"solution":[200,100]},
+            {"target":250,"palette":[50,100,200],"solution":[100,100,50]},
+            {"target":400,"palette":[100,200,500],"solution":[200,200]},
+            {"target":700,"palette":[100,200,500],"solution":[500,200]}
+          ]
+        },
+        "pt": {
+          "currency": { "symbol": "R$", "before": true, "decimalSep": ",", "minorPerMajor": 100, "space": true },
+          "coins": [ {"v":5,"label":"5 centavos"},{"v":10,"label":"10 centavos"},{"v":25,"label":"25 centavos"},{"v":50,"label":"50 centavos"},{"v":100,"label":"R$1"} ],
+          "rounds": [
+            {"target":15,"palette":[5,10,25],"solution":[10,5]},
+            {"target":30,"palette":[5,10,25],"solution":[10,10,10]},
+            {"target":35,"palette":[5,10,25],"solution":[25,10]},
+            {"target":45,"palette":[5,10,25,50],"solution":[25,10,10]},
+            {"target":60,"palette":[10,25,50],"solution":[50,10]},
+            {"target":75,"palette":[5,25,50],"solution":[50,25]},
+            {"target":85,"palette":[10,25,50],"solution":[50,25,10]},
+            {"target":100,"palette":[10,25,50],"solution":[50,25,25]}
+          ]
+        },
+        "fr": {
+          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
+          "coins": [ {"v":1,"label":"1 c"},{"v":2,"label":"2 c"},{"v":5,"label":"5 c"},{"v":10,"label":"10 c"},{"v":20,"label":"20 c"},{"v":50,"label":"50 c"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "rounds": [
+            {"target":7,"palette":[1,2,5,10],"solution":[5,2]},
+            {"target":30,"palette":[5,10,20,50],"solution":[20,10]},
+            {"target":15,"palette":[1,2,5,10],"solution":[10,5]},
+            {"target":70,"palette":[10,20,50],"solution":[50,20]},
+            {"target":25,"palette":[2,5,10,20],"solution":[20,5]},
+            {"target":60,"palette":[5,10,20,50],"solution":[50,10]},
+            {"target":150,"palette":[10,50,100,200],"solution":[100,50]},
+            {"target":250,"palette":[20,50,100,200],"solution":[200,50]}
+          ]
+        },
+        "it": {
+          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
+          "coins": [ {"v":1,"label":"1 c"},{"v":2,"label":"2 c"},{"v":5,"label":"5 c"},{"v":10,"label":"10 c"},{"v":20,"label":"20 c"},{"v":50,"label":"50 c"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "rounds": [
+            {"target":7,"palette":[1,2,5,10,20],"solution":[5,2]},
+            {"target":30,"palette":[5,10,20,50],"solution":[20,10]},
+            {"target":16,"palette":[1,2,5,10,20],"solution":[10,5,1]},
+            {"target":70,"palette":[10,20,50,100],"solution":[50,20]},
+            {"target":35,"palette":[5,10,20,50],"solution":[20,10,5]},
+            {"target":110,"palette":[10,50,100,200],"solution":[100,10]},
+            {"target":62,"palette":[1,2,10,50],"solution":[50,10,2]},
+            {"target":250,"palette":[20,50,100,200],"solution":[200,50]}
+          ]
+        },
+        "nl": {
+          "currency": { "symbol": "€", "before": true, "decimalSep": ",", "minorPerMajor": 100, "space": true },
+          "coins": [ {"v":5,"label":"5 ct"},{"v":10,"label":"10 ct"},{"v":20,"label":"20 ct"},{"v":50,"label":"50 ct"},{"v":100,"label":"€1"},{"v":200,"label":"€2"} ],
+          "rounds": [
+            {"target":30,"palette":[5,10,20,50],"solution":[20,10]},
+            {"target":15,"palette":[5,10,20,50],"solution":[10,5]},
+            {"target":70,"palette":[10,20,50,100],"solution":[50,20]},
+            {"target":25,"palette":[5,10,20,50],"solution":[20,5]},
+            {"target":60,"palette":[10,20,50,100],"solution":[50,10]},
+            {"target":150,"palette":[20,50,100,200],"solution":[100,50]},
+            {"target":110,"palette":[10,50,100,200],"solution":[100,10]},
+            {"target":300,"palette":[50,100,200],"solution":[200,100]}
+          ]
+        },
+        "sv": {
+          "currency": { "symbol": "kr", "before": false, "decimalSep": ",", "minorPerMajor": 1 },
+          "coins": [ {"v":1,"label":"1 kr"},{"v":2,"label":"2 kr"},{"v":5,"label":"5 kr"},{"v":10,"label":"10 kr"} ],
+          "rounds": [
+            {"target":12,"palette":[1,2,5,10],"solution":[10,2]},
+            {"target":7,"palette":[1,2,5,10],"solution":[5,2]},
+            {"target":16,"palette":[1,2,5,10],"solution":[10,5,1]},
+            {"target":21,"palette":[1,2,5,10],"solution":[10,10,1]},
+            {"target":9,"palette":[1,2,5,10],"solution":[5,2,2]},
+            {"target":17,"palette":[1,2,5,10],"solution":[10,5,2]},
+            {"target":14,"palette":[1,2,5,10],"solution":[10,2,2]},
+            {"target":25,"palette":[1,2,5,10],"solution":[10,10,5]}
+          ]
+        },
+        "da": {
+          "currency": { "symbol": "kr", "before": false, "decimalSep": ",", "minorPerMajor": 1 },
+          "coins": [ {"v":1,"label":"1 kr"},{"v":2,"label":"2 kr"},{"v":5,"label":"5 kr"},{"v":10,"label":"10 kr"},{"v":20,"label":"20 kr"} ],
+          "rounds": [
+            {"target":7,"palette":[1,2,5,10],"solution":[5,2]},
+            {"target":13,"palette":[1,2,5,10,20],"solution":[10,2,1]},
+            {"target":17,"palette":[1,2,5,10,20],"solution":[10,5,2]},
+            {"target":22,"palette":[1,2,5,10,20],"solution":[20,2]},
+            {"target":26,"palette":[1,2,5,10,20],"solution":[20,5,1]},
+            {"target":31,"palette":[1,2,5,10,20],"solution":[20,10,1]},
+            {"target":38,"palette":[1,2,5,10,20],"solution":[20,10,5,2,1]},
+            {"target":45,"palette":[1,2,5,10,20],"solution":[20,20,5]}
+          ]
+        },
+        "no": {
+          "currency": { "symbol": "kr", "before": false, "decimalSep": ",", "minorPerMajor": 1 },
+          "coins": [ {"v":1,"label":"1 kr"},{"v":5,"label":"5 kr"},{"v":10,"label":"10 kr"},{"v":20,"label":"20 kr"} ],
+          "rounds": [
+            {"target":16,"palette":[1,5,10,20],"solution":[10,5,1]},
+            {"target":7,"palette":[1,5,10,20],"solution":[5,1,1]},
+            {"target":12,"palette":[1,5,10,20],"solution":[10,1,1]},
+            {"target":23,"palette":[1,5,10,20],"solution":[20,1,1,1]},
+            {"target":31,"palette":[1,5,10,20],"solution":[20,10,1]},
+            {"target":26,"palette":[1,5,10,20],"solution":[20,5,1]},
+            {"target":35,"palette":[1,5,10,20],"solution":[20,10,5]},
+            {"target":41,"palette":[1,5,10,20],"solution":[20,20,1]}
+          ]
+        },
+        "fi": {
+          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
+          "coins": [ {"v":5,"label":"5 snt"},{"v":10,"label":"10 snt"},{"v":20,"label":"20 snt"},{"v":50,"label":"50 snt"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "rounds": [
+            {"target":30,"palette":[5,10,20,50],"solution":[20,10]},
+            {"target":70,"palette":[5,10,20,50],"solution":[50,20]},
+            {"target":55,"palette":[5,10,20,50],"solution":[50,5]},
+            {"target":80,"palette":[5,10,20,50],"solution":[50,20,10]},
+            {"target":150,"palette":[10,20,50,100],"solution":[100,50]},
+            {"target":120,"palette":[10,20,50,100],"solution":[100,20]},
+            {"target":250,"palette":[50,100,200],"solution":[200,50]},
+            {"target":220,"palette":[10,20,100,200],"solution":[200,20]}
+          ]
+        }
+      }
+    },
+    "theme": null,
+    "slug": {
+      "en": "count-out-the-money-coins",
+      "de": "muenzen-abzaehlen-klasse-2",
+      "es": "cuenta-el-dinero-pesos",
+      "pt": "conte-o-dinheiro",
+      "fr": "compte-la-monnaie",
+      "it": "conta-i-soldi",
+      "nl": "tel-het-geld",
+      "sv": "rakna-pengarna-kronor",
+      "da": "tael-pengene",
+      "no": "tell-pengene-2-trinn",
+      "fi": "laske-rahat-eurot"
+    },
+    "page_title": {
+      "en": "Count Out the Money — Coins to a Target Amount (Grade 2)",
+      "de": "Geld abzählen mit Euro-Münzen – Mathe Klasse 2",
+      "es": "Cuenta el dinero en pesos para 2.º de primaria | Actividad interactiva",
+      "pt": "Conte o dinheiro: moedas de real para o 2º ano (BNCC)",
+      "fr": "Compte la monnaie en euros — CE1 (monnaie, pièces) | activité interactive",
+      "it": "Conta i soldi in euro – Attività di matematica per la classe seconda",
+      "nl": "Tel het geld – Euromunten tellen voor groep 4",
+      "sv": "Räkna pengarna i kronor – matteövning för åk 2",
+      "da": "Tæl pengene – penge og kroner i 2. klasse",
+      "no": "Tell pengene – kroner og mynter for 2. trinn",
+      "fi": "Laske rahat – eurokolikot, 2. luokka | tulostettava tehtävä"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 math activity: tap coins (pennies, nickels, dimes, quarters) into the tray until the money matches the target amount. Counting coins with ¢ and $. Common Core 2.MD.C.8.",
+      "de": "Tippe Euro-Münzen in die Schale und zähle ab, bis der Betrag genau stimmt. Diese spielerische Übung zum Rechnen mit Geld orientiert sich am Lehrplan für die Klasse 2 (2.MD.C.8).",
+      "es": "Una actividad cálida y sin prisas para que los niños de 2.º de primaria reúnan cantidades exactas con monedas de pesos y centavos. Alineada con el Currículo LOMLOE (2.MD.C.8).",
+      "pt": "Nesta atividade do 2º ano, as crianças contam moedas de real (R$) e formam o valor pedido, tocando em cada moeda até completar o total. Alinhada à BNCC (2.MD.C.8), ela fortalece o sistema monetário e a contagem com centavos de um jeito leve e acolhedor.",
+      "fr": "Une activité interactive pour apprendre à compter la monnaie en euros : touche les pièces une à une jusqu'à former le montant demandé. Conçue pour les élèves de CE1 selon les Programmes officiels (2.MD.C.8).",
+      "it": "Un'attività divertente in cui i bambini toccano le monete in euro per comporre l'importo richiesto, esercitando il conteggio del denaro. Allineata alle Indicazioni nazionali (2.MD.C.8).",
+      "nl": "Maak het juiste bedrag door euromunten in de bak te leggen, helemaal afgestemd op de SLO-kerndoelen voor groep 4. Een speelse manier om geld leren tellen te oefenen (2.MD.C.8).",
+      "sv": "Här övar barnen i åk 2 på att räkna ut rätt summa i kronor genom att lägga mynt i facket. Övningen följer Lgr22 (2.MD.C.8) och stärker förståelsen för pengar och tal i vardagen.",
+      "da": "Øv jer i at tælle danske kroner ved at lægge de rigtige mønter i bakken, så beløbet passer. Aktiviteten støtter målene i Fælles Mål (2.MD.C.8) for arbejdet med penge i 2. klasse.",
+      "no": "Øv på å telle ut riktig beløp med norske kronemynter, helt på barnets eget tempo. Aktiviteten støtter målene i LK20 for matematikk på 2. trinn (2.MD.C.8).",
+      "fi": "Harjoittele eurojen ja senttien laskemista napauttamalla kolikoita lokeroon, kunnes summa täsmää. Tämä tehtävä tukee OPS 2014 -opetussuunnitelman rahankäsittelytaitoja (2.MD.C.8)."
+    },
+    "kid_prompt_template": "count-out"
+  }
+]

@@ -79,6 +79,10 @@ function seedScript(row) {
     // Fill every R×C cell so the array of dots + repeated-addition strip show.
     return `(function(){var t=window['${g}'];if(t&&t.filled&&t._key){for(var r=0;r<t.rows;r++)for(var c=0;c<t.cols;c++){t.filled[t._key(r,c)]=true;}if(t.paint)t.paint();}})();`;
   }
+  if (row.tool === 'money-activity') {
+    // tender one coin so the tray shows a coin + a non-zero running total
+    return `(function(){var t=window['${g}'];if(t&&t.palette&&t.palette.length){t.tray.push(t.palette[t.palette.length-1]);if(t.paint)t.paint();}})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

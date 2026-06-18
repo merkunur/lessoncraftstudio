@@ -49,6 +49,26 @@ function makeRoundTasks(rounds, idPrefix) {
   });
 }
 
+/* make-ten-to-add (1.OA.C.6): each round {first, second, seed} → "A + B" where
+   the bond decomposes B so one part makes a ten with A. promptArgs are digits. */
+function makeAddTasks(rounds, idPrefix) {
+  return rounds.map(function (r, i) {
+    return {
+      id: idPrefix + '.round-' + i,
+      promptKey: 'promptAdd',
+      promptArgs: { first: r.first, second: r.second },
+      answerType: 'state',
+      setup: function (tool) { tool.setupTask({ mode: 'make-ten-to-add', first: r.first, second: r.second, seed: r.seed }); },
+      check: function (tool) {
+        var ok = tool.isCorrect();
+        if (ok) { tool.readOnly = true; tool.paint(); }
+        return ok;
+      },
+      hintKey: function () { return 'hintAdd'; }
+    };
+  });
+}
+
 var STATIC_DEMO_TASKS = makeRoundTasks(DEMO_ROUNDS, 'demo');
 
 function _sameOrder(a, b) {
@@ -112,6 +132,17 @@ window.NumberBondActivity = Object.assign({}, NumberBondCore, {
   },
 
   _buildTasksFromRow: function (row) {
+    if (row.task_template === 'make-ten-to-add') {
+      var addRounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : [];
+      /* defensive: A∈6..9, the make-ten part (10−A) must be < B, total ≤18 (within 20). */
+      if (window.console && console.warn) {
+        addRounds.forEach(function (r, ri) {
+          if (!(r.first >= 6 && r.first <= 9)) console.warn('[number-bond-activity] add round ' + ri + ' first ' + r.first + ' not in 6..9');
+          if (!((10 - r.first) < r.second && r.first + r.second <= 18 && r.first + r.second > 10)) console.warn('[number-bond-activity] add round ' + ri + ' (' + r.first + ',' + r.second + ') not a clean cross-ten');
+        });
+      }
+      return makeAddTasks(addRounds, row.id);
+    }
     if (row.task_template === 'make-ten') {
       var rounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : DEMO_ROUNDS;
       /* defensive: given 1..9, parts must be able to sum to the whole. */
@@ -125,5 +156,21 @@ window.NumberBondActivity = Object.assign({}, NumberBondCore, {
     return STATIC_DEMO_TASKS;
   }
 });
+
+/* The shell reads tool.strings.title/instruction at MOUNT (before init). For
+   the make-ten-to-add activity, swap them to the add-mode variants synchronously
+   (this module runs before the inline LCS.mount), so the in-deck title strip
+   reads "Make a Ten to Add" — not "Make 10". The default (make-ten) path is
+   untouched. (Per-task prompt is already handled via promptKey:'promptAdd'.) */
+(function () {
+  var p = (typeof window !== 'undefined' && window.location) ? new URLSearchParams(window.location.search) : null;
+  var id = p ? p.get('activity') : null;
+  if (id && id.indexOf('make-ten-to-add') >= 0) {
+    NumberBondActivity.strings = Object.assign({}, NumberBondActivity.strings, {
+      title: NumberBondActivity.strings.titleAdd,
+      instruction: NumberBondActivity.strings.instructionAdd
+    });
+  }
+})();
 
 NumberBondCore.injectCSS();

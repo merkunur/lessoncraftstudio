@@ -1,0 +1,61 @@
+[
+  {
+    "id": "clock.set-clock.1-md-b-3",
+    "tool": "clock-activity",
+    "task_template": "set-clock",
+    "alignment": { "framework": "CCSS", "code": "1.MD.B.3", "grade": "1", "strand": "Measurement & Data" },
+    "params": {
+      "rounds": [
+        { "hour": 3,  "minute": 0,  "seed": 11 },
+        { "hour": 7,  "minute": 30, "seed": 23 },
+        { "hour": 9,  "minute": 0,  "seed": 31 },
+        { "hour": 6,  "minute": 30, "seed": 41 },
+        { "hour": 12, "minute": 0,  "seed": 53 },
+        { "hour": 4,  "minute": 30, "seed": 61 },
+        { "hour": 10, "minute": 0,  "seed": 67 },
+        { "hour": 1,  "minute": 30, "seed": 71 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "set-the-clock",
+      "de": "stell-die-uhr-volle-und-halbe-stunden",
+      "es": "pon-la-hora-en-el-reloj-primero",
+      "pt": "acerte-o-relogio-1-ano",
+      "fr": "regle-lhorloge-lire-lheure-cp",
+      "it": "metti-l-ora-sull-orologio-classe-prima",
+      "nl": "zet-de-klok-hele-en-halve-uren-groep-3",
+      "sv": "stall-klockan-hela-och-halva-timmar-ak-1",
+      "da": "stil-uret-hele-og-halve-timer",
+      "no": "still-klokka-hele-og-halve-timer-1-trinn",
+      "fi": "aseta-kello"
+    },
+    "page_title": {
+      "en": "Set the Clock — Tell Time to the Hour & Half-Hour (Grade 1)",
+      "de": "Stell die Uhr: volle und halbe Stunden lesen – Analoguhr, 1. Klasse",
+      "es": "Pon la hora en el reloj: horas y medias horas — primero de primaria",
+      "pt": "Acerte o relógio: ler as horas e meias horas — 1º ano",
+      "fr": "Règle l'horloge : lire l'heure, heures et demi-heures (CP)",
+      "it": "Leggere l'ora: ore e mezze ore – attività per la classe prima",
+      "nl": "Klok kijken: hele en halve uren oefenen — groep 3",
+      "sv": "Ställ klockan – hela och halva timmar för åk 1",
+      "da": "Stil uret: hele og halve timer · klokken · 1. klasse",
+      "no": "Still klokka – hele og halve timer for 1. trinn",
+      "fi": "Aseta kello – kellonajat, tasa- ja puolitunnit (1. luokka)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 math activity: read the time, then drag the analog clock hands to show it — hours and half-hours, with a digital readout. Tell and write time on analog and digital clocks. Common Core 1.MD.B.3.",
+      "de": "Lies die Uhrzeit und zieh die Zeiger auf die richtige Stelle. Geübt werden volle und halbe Stunden auf der Analoguhr. Passend zum Lehrplan der 1. Klasse (1.MD.B.3).",
+      "es": "Actividad interactiva para leer el reloj en primero de primaria (6-7 años): los niños mueven las manecillas para mostrar horas en punto y medias horas. Alineada con 1.MD.B.3 del Currículo LOMLOE.",
+      "pt": "Atividade interativa de 1º ano para ler as horas: a criança arrasta os ponteiros do relógio para mostrar horas e meias horas. Alinhada à BNCC e ao código 1.MD.B.3.",
+      "fr": "Une activité de mathématiques pour le CP : l'enfant fait glisser les aiguilles pour afficher l'heure, aux heures pleines et aux demi-heures. Alignée sur la norme 1.MD.B.3 des Programmes officiels.",
+      "it": "Attività interattiva per imparare a leggere l'ora sull'orologio analogico: ore intere e mezze ore. Allineata all'obiettivo 1.MD.B.3 delle Indicazioni nazionali, pensata per i bambini di classe prima (6-7 anni).",
+      "nl": "Leer klokkijken in groep 3: lees de tijd en zet zelf de wijzers op hele en halve uren (let op: half 8 is 7:30!). Sluit aan bij 1.MD.B.3 van de SLO-kerndoelen.",
+      "sv": "Lär dig läsa klockan med hela och halva timmar. Barnet drar visarna till rätt tid och tränar tidsuppfattning enligt 1.MD.B.3 i läroplanen Lgr22. Perfekt för åk 1.",
+      "da": "Lær at aflæse klokken i 1. klasse! Børnene trækker urets visere til hele og halve timer og øver klokkeslæt på en sjov måde. Aktiviteten følger Fælles Mål og standarden 1.MD.B.3.",
+      "no": "Interaktiv klokkeoppgave for 1. trinn (CCSS 1.MD.B.3, rammeverk LK20): barnet leser tiden og drar viserne til riktig hele eller halve time. Husk at «halv 8» betyr 7:30 – halvveis mot åtte.",
+      "fi": "Harjoittele kellonaikojen lukemista ja näyttämistä: vedä viisarit oikeaan kohtaan tasa- ja puolitunneilla. Tukee tavoitetta 1.MD.B.3 ja noudattaa OPS 2014 -opetussuunnitelmaa 1. luokan oppilaille."
+    },
+    "kid_prompt_template": "set-clock"
+  }
+]

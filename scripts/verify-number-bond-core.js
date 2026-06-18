@@ -62,6 +62,23 @@ for (const row of manifest) {
     continue;
   }
 
+  if (row.task_template === 'whole-unknown') {
+    // 1.OA.A.1 putting-together: both parts given; the WHOLE = first+second is
+    // the answer key (typed on the keypad). Measured invariant: parts sum to whole.
+    rounds.forEach((r, i) => {
+      roundCount++;
+      const A = r.first, B = r.second;
+      const label = `${row.id}#${i}[${A}+${B}=?]`;
+      check(A >= 1 && B >= 1, `${label}: parts ${A},${B} not ≥1`);
+      check(A + B <= 20, `${label}: total ${A + B} > 20 (out of within-20 scope)`);
+      Core.init({});
+      Core.setupTask({ mode: 'whole-unknown', first: A, second: B });
+      check(Core.whole === A + B, `${label}: whole ${Core.whole} ≠ ${A + B} (parts sum to whole)`);
+      check(Core.total() === A + B, `${label}: total() ${Core.total()} ≠ ${A + B}`);
+    });
+    continue;
+  }
+
   // default: make-ten (K.OA.A.4) — unchanged
   rounds.forEach((r, i) => {
     roundCount++;

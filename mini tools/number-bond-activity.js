@@ -69,6 +69,22 @@ function makeAddTasks(rounds, idPrefix) {
   });
 }
 
+/* whole-unknown (1.OA.A.1): each round {first, second, seed} → both parts given,
+   the child types the TOTAL on the shell keypad (answerType 'number'). */
+function makeWholeTasks(rounds, idPrefix) {
+  return rounds.map(function (r, i) {
+    return {
+      id: idPrefix + '.round-' + i,
+      promptKey: 'promptWhole',
+      answerType: 'number',
+      answerMin: 0,
+      answerMax: 20,
+      setup: function (tool) { tool.setupTask({ mode: 'whole-unknown', first: r.first, second: r.second, seed: r.seed }); },
+      check: function (tool, answer) { return answer === tool.total(); }
+    };
+  });
+}
+
 var STATIC_DEMO_TASKS = makeRoundTasks(DEMO_ROUNDS, 'demo');
 
 function _sameOrder(a, b) {
@@ -143,6 +159,16 @@ window.NumberBondActivity = Object.assign({}, NumberBondCore, {
       }
       return makeAddTasks(addRounds, row.id);
     }
+    if (row.task_template === 'whole-unknown') {
+      var wholeRounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : [];
+      /* defensive: both parts ≥1, total within 20. */
+      if (window.console && console.warn) {
+        wholeRounds.forEach(function (r, ri) {
+          if (!(r.first >= 1 && r.second >= 1 && r.first + r.second <= 20)) console.warn('[number-bond-activity] whole round ' + ri + ' (' + r.first + ',' + r.second + ') not within-20 parts≥1');
+        });
+      }
+      return makeWholeTasks(wholeRounds, row.id);
+    }
     if (row.task_template === 'make-ten') {
       var rounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : DEMO_ROUNDS;
       /* defensive: given 1..9, parts must be able to sum to the whole. */
@@ -169,6 +195,11 @@ window.NumberBondActivity = Object.assign({}, NumberBondCore, {
     NumberBondActivity.strings = Object.assign({}, NumberBondActivity.strings, {
       title: NumberBondActivity.strings.titleAdd,
       instruction: NumberBondActivity.strings.instructionAdd
+    });
+  } else if (id && id.indexOf('find-the-total') >= 0) {
+    NumberBondActivity.strings = Object.assign({}, NumberBondActivity.strings, {
+      title: NumberBondActivity.strings.titleWhole,
+      instruction: NumberBondActivity.strings.instructionWhole
     });
   }
 })();

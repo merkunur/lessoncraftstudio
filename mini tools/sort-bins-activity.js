@@ -18,9 +18,14 @@
    via FractionsCore-style review() then reads isCorrect(); on success the
    board locks (readOnly) so the celebration state is stable.
 
-   One coordinate lives on this wrapper: 2.G.A.1 (classify triangles /
-   quadrilaterals / pentagons / hexagons). Its params.rounds is the
-   exercise POOL.
+   Two coordinates live on this wrapper, chosen by ?activity= (the id's
+   middle segment is the task_template):
+     • sort-by-sides       → 2.G.A.1 (classify by side count, mode 'sides')
+     • defining-attributes → 1.G.A.1 (target box vs "not" box; true tiles
+                              vary in colour/size/orientation, mode 'defining')
+   Each row's params.rounds is its exercise POOL. The defining title/
+   instruction/prompt are selected synchronously from the id (see below) so
+   the shell header shows the right chrome without touching lcs-shell.js.
 
    VARIETY + SHUFFLE (CLAUDE.md §A.13.60 standing rule): the pool has ≥7
    ORIGINAL distinct rounds (each a genuinely different sorting challenge —
@@ -69,6 +74,31 @@ function makeRoundTasks(rounds, idPrefix) {
   });
 }
 
+/* Defining-attributes (1.G.A.1) task builder. Same Check/lock contract as
+   sort-by-sides; the round spec carries {target, trueItems, falseItems, seed}
+   and the prompt/hint use the defining-mode strings (promptDefining /
+   hintSomeWrongDefining). */
+function makeDefiningTasks(rounds, idPrefix) {
+  return rounds.map(function (r, i) {
+    return {
+      id: idPrefix + '.round-' + i,
+      promptKey: 'prompt',            // wrapper has remapped 'prompt' → promptDefining
+      answerType: 'state',
+      setup: function (tool) { tool.setupTask(r); },
+      check: function (tool) {
+        tool.review();
+        var ok = tool.isCorrect();
+        if (ok) { tool.readOnly = true; tool.paint(); }
+        return ok;
+      },
+      hintKey: function (tool) {
+        if (tool._placedCount() < tool.items.length) return 'hintPlaceAll';
+        return 'hintSomeWrongDefining';
+      }
+    };
+  });
+}
+
 /* Fallback static task pool when no ?activity= is given. */
 var STATIC_DEMO_TASKS = makeRoundTasks(DEMO_ROUNDS, 'demo');
 
@@ -90,12 +120,34 @@ function shuffledOrder(n, prev) {
   return idx;
 }
 
+/* Which mode? Detected SYNCHRONOUSLY from ?activity= at module load — BEFORE
+   LCS.mount reads tool.strings.title/instruction for the header (the shell
+   reads those once at mount, before init/manifest-load, and we never touch
+   lcs-shell.js). The defining-attributes activity id carries the token
+   `defining-attributes`; everything else is sort-by-sides. */
+var _SB_ACTIVITY_ID = (typeof window !== 'undefined' && window.location)
+  ? (new URLSearchParams(window.location.search)).get('activity') || ''
+  : '';
+var _SB_IS_DEFINING = /defining-attributes/.test(_SB_ACTIVITY_ID);
+
+/* Defining mode swaps title/instruction/prompt to the defining variants (the
+   bin labels + sr nouns are reused as-is; the negative bin labels are looked
+   up per-round by the core). Positive bin labels = the formal-polygon labels
+   per the naming-standard doctrine. */
+var _SB_STRINGS = Object.assign({}, SortBinsCore.strings);
+if (_SB_IS_DEFINING) {
+  _SB_STRINGS.title = SortBinsCore.strings.titleDefining;
+  _SB_STRINGS.instruction = SortBinsCore.strings.instructionDefining;
+  _SB_STRINGS.prompt = SortBinsCore.strings.promptDefining;
+}
+
 window.SortBinsActivity = Object.assign({}, SortBinsCore, {
   id: 'sort-bins-activity',
 
   /* Inherit the core's 11-locale strings (title / instruction / prompt / bin
-     labels / hints / sr nouns). No activity-only strings beyond the core's. */
-  strings: Object.assign({}, SortBinsCore.strings),
+     labels / hints / sr nouns). In defining mode the title/instruction/prompt
+     are the defining variants (selected synchronously above). */
+  strings: _SB_STRINGS,
 
   /* NO `tasks` property → the shell calls our nextTask() for ordering, so we
      own the per-pass reshuffle (CLAUDE.md §A.13.60). Pool resolved lazily:
@@ -157,12 +209,29 @@ window.SortBinsActivity = Object.assign({}, SortBinsCore, {
   },
 
   _buildTasksFromRow: function (row) {
+    var FAM = SortBinsCore._FAMILY, CAT = SortBinsCore._CATALOG;
+    if (row.task_template === 'defining-attributes') {
+      var drounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : [];
+      /* defensive: trueItems must all BE the target family; falseItems must
+         NOT be (a mis-tagged tile would make the answer key wrong). */
+      if (window.console && console.warn) {
+        drounds.forEach(function (r, ri) {
+          var ts = FAM[r.target] && FAM[r.target].sides;
+          (r.trueItems || []).forEach(function (id) {
+            if (!(CAT[id] && CAT[id].sides === ts)) console.warn('[sort-bins-activity] defining round ' + ri + ' trueItem "' + id + '" is not a ' + r.target);
+          });
+          (r.falseItems || []).forEach(function (id) {
+            if (CAT[id] && CAT[id].sides === ts) console.warn('[sort-bins-activity] defining round ' + ri + ' falseItem "' + id + '" IS a ' + r.target);
+          });
+        });
+      }
+      return makeDefiningTasks(drounds, row.id);
+    }
     if (row.task_template === 'sort-by-sides') {
       var rounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : DEMO_ROUNDS;
       /* defensive: every item in every round must have a matching bin
          (an item whose side-count no bin covers would be unsortable). */
       if (window.console && console.warn) {
-        var FAM = SortBinsCore._FAMILY, CAT = SortBinsCore._CATALOG;
         rounds.forEach(function (r, ri) {
           var binSides = (r.bins || []).map(function (b) { return FAM[b] && FAM[b].sides; });
           (r.items || []).forEach(function (id) {

@@ -1240,5 +1240,155 @@
       "fi": "Katso lukua ja napauta lukua, joka tulee heti sen jälkeen. Yhteensopiva OPS 2014:n kanssa — harjoitellaan lukujonossa eteenpäin laskemista."
     },
     "kid_prompt_template": "promptNextNumber"
+  },
+  {
+    "id": "choice-board.read-sight-word.rf-k-3-c",
+    "tool": "choice-board-activity",
+    "task_template": "read-sight-word",
+    "alignment": { "framework": "CCSS", "code": "RF.K.3.c", "grade": "K", "strand": "Reading: Foundational Skills" },
+    "params": {
+      "byLocale": {
+        "en": {
+          "rounds": [
+            { "target": "was", "distractors": ["saw", "want", "with"] },
+            { "target": "the", "distractors": ["they", "then", "that"] },
+            { "target": "of", "distractors": ["off", "for", "on"] },
+            { "target": "you", "distractors": ["your", "yes", "use"] },
+            { "target": "see", "distractors": ["she", "say", "so"] },
+            { "target": "and", "distractors": ["an", "end", "said"] },
+            { "target": "go", "distractors": ["got", "do", "so"] },
+            { "target": "like", "distractors": ["lick", "line", "make"] }
+          ]
+        },
+        "de": { "rounds": [
+          { "target": "der", "distractors": ["dem", "den", "wer"] },
+          { "target": "und", "distractors": ["uns", "ein", "um"] },
+          { "target": "ist", "distractors": ["Ast", "Mist", "fast"] },
+          { "target": "ich", "distractors": ["ach", "auch", "euch"] },
+          { "target": "das", "distractors": ["was", "Hals", "Glas"] },
+          { "target": "ein", "distractors": ["sein", "kein", "nein"] },
+          { "target": "mit", "distractors": ["Mut", "mir", "Mitte"] },
+          { "target": "auf", "distractors": ["Lauf", "Kauf", "Raum"] }
+        ] },
+        "es": { "rounds": [
+          { "target": "el", "distractors": ["en", "del", "al"] },
+          { "target": "la", "distractors": ["las", "una", "ya"] },
+          { "target": "los", "distractors": ["las", "dos", "sol"] },
+          { "target": "con", "distractors": ["como", "sin", "cosa"] },
+          { "target": "por", "distractors": ["par", "pero", "poco"] },
+          { "target": "una", "distractors": ["uno", "luna", "unos"] },
+          { "target": "mi", "distractors": ["mil", "mis", "ti"] },
+          { "target": "su", "distractors": ["sus", "sur", "tu"] }
+        ] },
+        "pt": { "rounds": [
+          { "target": "com", "distractors": ["como", "sem", "cor"] },
+          { "target": "não", "distractors": ["nada", "mão", "nos"] },
+          { "target": "que", "distractors": ["quem", "quente", "queda"] },
+          { "target": "uma", "distractors": ["umas", "rima", "luva"] },
+          { "target": "você", "distractors": ["vocês", "voar", "vela"] },
+          { "target": "meu", "distractors": ["meus", "mel", "mar"] },
+          { "target": "de", "distractors": ["dia", "dei", "do"] },
+          { "target": "é", "distractors": ["em", "ele", "eu"] }
+        ] },
+        "fr": { "rounds": [
+          { "target": "les", "distractors": ["des", "mes", "le"] },
+          { "target": "une", "distractors": ["un", "lune", "ne"] },
+          { "target": "et", "distractors": ["en", "le", "de"] },
+          { "target": "il", "distractors": ["si", "lit", "fil"] },
+          { "target": "elle", "distractors": ["belle", "ville", "selle"] },
+          { "target": "dans", "distractors": ["sans", "dent", "danse"] },
+          { "target": "avec", "distractors": ["avoir", "avant", "aveu"] },
+          { "target": "pour", "distractors": ["pourra", "cour", "jour"] }
+        ] },
+        "it": { "rounds": [
+          { "target": "il", "distractors": ["in", "li", "si"] },
+          { "target": "la", "distractors": ["le", "ala", "va"] },
+          { "target": "un", "distractors": ["uno", "una", "tu"] },
+          { "target": "che", "distractors": ["chi", "cena", "cane"] },
+          { "target": "con", "distractors": ["come", "cono", "conta"] },
+          { "target": "non", "distractors": ["nono", "noi", "nove"] },
+          { "target": "per", "distractors": ["pera", "pere", "penna"] },
+          { "target": "sono", "distractors": ["suono", "sano", "sole"] }
+        ] },
+        "nl": { "rounds": [
+          { "target": "de", "distractors": ["die", "den", "te"] },
+          { "target": "het", "distractors": ["hen", "heb", "wet"] },
+          { "target": "een", "distractors": ["en", "eed", "veen"] },
+          { "target": "ik", "distractors": ["in", "is", "uit"] },
+          { "target": "op", "distractors": ["om", "of", "en"] },
+          { "target": "met", "distractors": ["mat", "net", "mes"] },
+          { "target": "niet", "distractors": ["net", "niets", "nieuw"] },
+          { "target": "kan", "distractors": ["kon", "kam", "kar"] }
+        ] },
+        "sv": { "rounds": [
+          { "target": "är", "distractors": ["en", "ett", "har"] },
+          { "target": "och", "distractors": ["ock", "oss", "som"] },
+          { "target": "jag", "distractors": ["dag", "lag", "väg"] },
+          { "target": "det", "distractors": ["den", "del", "dit"] },
+          { "target": "en", "distractors": ["er", "än", "in"] },
+          { "target": "på", "distractors": ["så", "pål", "par"] },
+          { "target": "med", "distractors": ["mer", "ned", "mig"] },
+          { "target": "inte", "distractors": ["inne", "inom", "inre"] }
+        ] },
+        "da": { "rounds": [
+          { "target": "og", "distractors": ["om", "op", "os"] },
+          { "target": "er", "distractors": ["en", "et", "der"] },
+          { "target": "jeg", "distractors": ["jer", "leg", "tog"] },
+          { "target": "det", "distractors": ["der", "den", "de"] },
+          { "target": "på", "distractors": ["så", "nå", "ja"] },
+          { "target": "med", "distractors": ["ned", "ved", "mod"] },
+          { "target": "han", "distractors": ["hen", "hun", "hav"] },
+          { "target": "var", "distractors": ["far", "vor", "har"] }
+        ] },
+        "no": { "rounds": [
+          { "target": "det", "distractors": ["den", "der", "de"] },
+          { "target": "er", "distractors": ["en", "et", "ert"] },
+          { "target": "jeg", "distractors": ["jo", "ja", "jul"] },
+          { "target": "med", "distractors": ["men", "mer", "mor"] },
+          { "target": "har", "distractors": ["han", "hun", "hus"] },
+          { "target": "ikke", "distractors": ["like", "ikon", "isen"] },
+          { "target": "var", "distractors": ["vår", "vil", "ved"] },
+          { "target": "på", "distractors": ["så", "tå", "to"] }
+        ] }
+      }
+    },
+    "theme": null,
+    "slug": {
+      "en": "read-common-sight-words",
+      "de": "haeufige-woerter-lesen-klasse-1",
+      "es": "leer-palabras-frecuentes",
+      "pt": "ler-palavras-frequentes",
+      "fr": "lire-les-mots-frequents-cp",
+      "it": "leggere-le-parole-frequenti",
+      "nl": "veelvoorkomende-woorden-lezen-groep-3",
+      "sv": "las-vanliga-ord-ak-1",
+      "da": "laes-hyppige-ord-1-klasse",
+      "no": "les-hoyfrekvente-ord-2-trinn"
+    },
+    "page_title": {
+      "en": "Read Common Sight Words — Hear It, Tap It (Kindergarten)",
+      "de": "Häufige Wörter lesen – Klasse 1: Wörter hören und finden",
+      "es": "Leer palabras de uso frecuente | 1.º primaria - Lectura fluida",
+      "pt": "Ler Palavras Frequentes no 1º Ano — Fluência na Leitura",
+      "fr": "Lire les mots fréquents CP : reconnaître les mots outils",
+      "it": "Leggere le parole frequenti — fluenza di lettura classe prima",
+      "nl": "Hoogfrequente woorden lezen groep 3 – flitswoorden oefenen",
+      "sv": "Läs vanliga ord åk 1 – högfrekventa ord, helordsläsning",
+      "da": "Læs hyppige ord – ordbilleder for 1. klasse",
+      "no": "Les høyfrekvente ord – ordbilder for 2. trinn | lesetrening"
+    },
+    "page_intro": {
+      "en": "A free interactive Kindergarten reading activity: hear a common high-frequency word, then tap the matching written word among look-alike choices. Builds sight-word recognition for fluent reading. Common Core RF.K.3.c.",
+      "de": "Bei dieser Übung hören Kinder ein häufiges Wort und tippen das passende geschriebene Wort an. So trainieren Erstklässler das schnelle, sichere Lesen der wichtigsten Wörter und bauen ihre Leseflüssigkeit auf – passend zum Lehrplan der Klasse 1 (RF.K.3.c).",
+      "es": "Actividad de lectura para 1.º de primaria: el niño escucha una palabra de uso muy frecuente y toca la palabra escrita correcta entre cuatro opciones parecidas. Refuerza la fluidez y la velocidad de reconocimiento de palabras frecuentes, alineada con el Currículo LOMLOE (RF.K.3.c).",
+      "pt": "Atividade de leitura de palavras de alta frequência para crianças do 1º ano: a palavra é falada e o aluno toca a forma escrita correta entre opções parecidas. Desenvolve a fluência no reconhecimento de palavras frequentes, alinhada à BNCC (RF.K.3.c).",
+      "fr": "Une activité de lecture pour reconnaître les mots fréquents (mots outils) du CP : l'enfant écoute un mot et tape le mot écrit correct parmi quatre mots qui se ressemblent. Conçue selon les Programmes officiels (RF.K.3.c) pour développer la lecture rapide des mots les plus courants.",
+      "it": "Attività di lettura fluente delle parole ad alta frequenza: il bambino ascolta una parola e tocca quella scritta corretta tra quattro simili. Pensata per la classe prima secondo le Indicazioni nazionali, sviluppa il riconoscimento rapido e automatico delle parole più comuni (RF.K.3.c).",
+      "nl": "Oefen het lezen van veelvoorkomende woorden (flitswoorden) voor groep 3, passend bij de SLO-kerndoelen voor beginnende geletterdheid. De leerling hoort een hoogfrequent woord en tikt het juiste geschreven woord aan tussen woorden die er bijna hetzelfde uitzien (RF.K.3.c).",
+      "sv": "Träna helordsläsning av högfrekventa ord i årskurs 1: ditt barn hör ett vanligt ord och pekar på rätt skrivna ord bland fyra lika alternativ. Aktiviteten stödjer tidig ordavkodning enligt Lgr22 (RF.K.3.c).",
+      "da": "Lyt til et hyppigt ord, og tap det rigtige ordbillede blandt fire ord, der ligner hinanden. Aktiviteten støtter genkendelse af almindelige ordbilleder i 1. klasse efter Fælles Mål (RF.K.3.c).",
+      "no": "Øv på å lese høyfrekvente ord og ordbilder på 2. trinn: barnet hører et ord og trykker på det riktige skrevne ordet blant fire som ligner. Aktiviteten støtter tidlig lesetrening i tråd med LK20 (RF.K.3.c)."
+    },
+    "kid_prompt_template": "promptReadSight"
   }
 ]

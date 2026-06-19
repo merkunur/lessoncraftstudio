@@ -79,6 +79,29 @@ function makeRoundTasks(rounds, idPrefix) {
   });
 }
 
+/* task_template 'grid-count' (2.G.A.2) — partition a rectangle into rows×cols
+   same-size squares (the live cut-to-commit verb, generalized to R×C on
+   fractions-core) and COUNT the total (= rows×cols). The partition is the
+   interactive modeling stage; the keypad is the assessed answer (the K.OA.A.2
+   interactive-stage + keypad pattern — the shell renders the keypad in answerEl
+   and does NOT lock the stage). {rows}/{cols} are DIGITS (universal). */
+function makeGridCountTasks(rounds, idPrefix) {
+  return rounds.map(function (r, i) {
+    var total = r.rows * r.cols;
+    return {
+      id: idPrefix + '.round-' + i,
+      promptKey: 'taskGridCount',
+      promptArgs: { rows: r.rows, cols: r.cols },
+      answerType: 'number',
+      answerMin: 0,
+      answerMax: 30,
+      answer: total,                                 // metadata for the local-test harness
+      setup: function (tool) { tool.setupTask({ gridRows: r.rows, gridCols: r.cols, seed: r.seed }); },
+      check: function (tool, ans) { return parseInt(ans, 10) === total; }
+    };
+  });
+}
+
 /* Fallback static task pool when no ?activity= is given. */
 var STATIC_DEMO_TASKS = makeRoundTasks(DEMO_ROUNDS, 'demo');
 
@@ -105,7 +128,12 @@ window.FractionsActivity = Object.assign({}, FractionsCore, {
 
   /* Inherit the core's 11-locale strings (title / instruction / prompts /
      hints / sr nouns). No activity-only strings beyond the core's. */
-  strings: Object.assign({}, FractionsCore.strings),
+  strings: Object.assign({}, FractionsCore.strings, {
+    /* 2.G.A.2 grid-count prompt — EN now; 10 non-EN folded by the native
+       ensemble (§A.13.48). {rows}/{cols} are DIGITS — native frame must read
+       grammatically with a digit substituted (fi partitive, §A.13.56). */
+    taskGridCount: {"en":"Make {rows} rows and {cols} columns of squares. How many squares in all?","de":"Mache {rows} Reihen und {cols} Spalten aus Quadraten. Wie viele Quadrate sind es zusammen?","es":"Forma {rows} filas y {cols} columnas de cuadrados. ¿Cuántos cuadrados hay en total?","it":"Forma {rows} righe e {cols} colonne di quadrati. Quanti quadrati ci sono in tutto?","pt":"Faça {rows} fileiras e {cols} colunas de quadradinhos. Quantos quadradinhos há no total?","fr":"Fais {rows} rangées et {cols} colonnes de carrés. Combien de carrés y a-t-il en tout ?","nl":"Maak {rows} rijen en {cols} kolommen van vierkanten. Hoeveel vierkanten zijn er in totaal?","sv":"Gör {rows} rader och {cols} kolumner med rutor. Hur många rutor är det sammanlagt?","da":"Lav {rows} rækker og {cols} kolonner med kvadrater. Hvor mange kvadrater er der i alt?","no":"Lag {rows} rader og {cols} kolonner med kvadrater. Hvor mange kvadrater er det til sammen?","fi":"Tee {rows} riviä ja {cols} saraketta neliöitä. Kuinka monta neliötä on yhteensä?"}
+  }),
 
   /* NO `tasks` property → the shell calls our nextTask() for ordering, so
      we own the per-pass reshuffle (CLAUDE.md §A.13.60). Pool resolved
@@ -170,6 +198,10 @@ window.FractionsActivity = Object.assign({}, FractionsCore, {
     if (row.task_template === 'partition-equal-shares') {
       var rounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : DEMO_ROUNDS;
       return makeRoundTasks(rounds, row.id);
+    }
+    if (row.task_template === 'grid-count') {
+      var gcRounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : [];
+      return makeGridCountTasks(gcRounds, row.id);
     }
     return STATIC_DEMO_TASKS;
   }

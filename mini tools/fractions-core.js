@@ -98,6 +98,21 @@ window.FractionsCore = {
     this.readOnly = false;
     this.committed = {};
 
+    /* 2.G.A.2 grid-count EXTEND (declared touch): when gridRows/gridCols are
+       given, partition a rectangle into an R×C grid of SAME-SIZE SQUARES. The
+       child commits the gridlines (the live cut-to-commit verb); the COUNT
+       (rows×cols) is the assessed answer (keypad, via the wrapper). Gated:
+       gridCols=0 (the default for the partition pair) → shape stays the real
+       shape and the gridrect branches below are never reached → BYTE-IDENTICAL. */
+    this.gridCols = opts.gridCols || 0;
+    this.gridRows = opts.gridRows || 0;
+    if (this.gridCols && this.gridRows) {
+      this.shape = 'gridrect';
+      var avail = 80, s = Math.min(avail / this.gridCols, avail / this.gridRows); // square cell side (viewBox units)
+      var gw = this.gridCols * s, gh = this.gridRows * s;
+      this._gridBox = { left: 50 - gw / 2, top: 50 - gh / 2, right: 50 + gw / 2, bottom: 50 + gh / 2, s: s };
+    }
+
     var built = this._lines(this.shape, this.n, this.cut, this.rot);
     var all = [];
     built.correct.forEach(function (ln) { all.push({ kind: 'correct', line: ln }); });
@@ -120,6 +135,15 @@ window.FractionsCore = {
   _lines: function (shape, n, cut, rot) {
     var C = this._C;
     rot = rot || 0;
+    if (shape === 'gridrect') {
+      /* 2.G.A.2: (cols-1) vertical + (rows-1) horizontal evenly-spaced cuts →
+         rows×cols same-size squares. Every gridline is correct (no distractors —
+         the task is "partition the rectangle", and the COUNT is the keypad answer). */
+      var b = this._gridBox, lines = [], i, j;
+      for (i = 1; i < this.gridCols; i++) { var gx = b.left + i * b.s; lines.push({ x1: gx, y1: b.top, x2: gx, y2: b.bottom }); }
+      for (j = 1; j < this.gridRows; j++) { var gy = b.top + j * b.s; lines.push({ x1: b.left, y1: gy, x2: b.right, y2: gy }); }
+      return { correct: lines, distractors: [] };
+    }
     if (shape === 'circle') {
       if (n === 3) {
         /* THREE radii 120° apart from the centre → 3 exact 120° wedges.
@@ -313,6 +337,10 @@ window.FractionsCore = {
     if (this._SHAPES[this.shape]) {
       var d = this._polyPath(this._polyOf());
       return '<path d="' + d + '" fill="' + C.BODY + '"/><path d="' + d + '" fill="none" stroke="' + C.T + '" stroke-width="3.5" stroke-linejoin="round"/>';
+    }
+    if (this.shape === 'gridrect') {
+      var gb = this._gridBox, gbw = gb.right - gb.left, gbh = gb.bottom - gb.top;
+      return '<rect x="' + gb.left + '" y="' + gb.top + '" width="' + gbw + '" height="' + gbh + '" rx="3" fill="' + C.BODY + '"/><rect x="' + gb.left + '" y="' + gb.top + '" width="' + gbw + '" height="' + gbh + '" rx="3" fill="none" stroke="' + C.T + '" stroke-width="3.5"/>';
     }
     var x, y, w, h;
     if (this.shape === 'square') { x = C.SX; y = C.SX; w = C.SR - C.SX; h = C.SR - C.SX; }

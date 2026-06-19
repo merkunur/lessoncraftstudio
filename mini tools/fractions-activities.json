@@ -3,17 +3,62 @@
     "id": "fractions.partition-equal-shares.1-g-a-3",
     "tool": "fractions-activity",
     "task_template": "partition-equal-shares",
-    "alignment": { "framework": "CCSS", "code": "1.G.A.3", "grade": "1", "strand": "Geometry" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.G.A.3",
+      "grade": "1",
+      "strand": "Geometry"
+    },
     "params": {
       "rounds": [
-        { "shape": "circle",   "n": 2, "cut": "v",    "seed": 11 },
-        { "shape": "square",   "n": 4, "cut": "grid", "seed": 23 },
-        { "shape": "rect",     "n": 2, "cut": "v",    "seed": 31 },
-        { "shape": "triangle", "n": 2, "cut": "v",    "seed": 59 },
-        { "shape": "ellipse",  "n": 4, "cut": "grid", "seed": 61 },
-        { "shape": "diamond",  "n": 4, "cut": "grid", "seed": 37 },
-        { "shape": "hexagon",  "n": 2, "cut": "v",    "seed": 67 },
-        { "shape": "pentagon", "n": 2, "cut": "v",    "seed": 41 }
+        {
+          "shape": "circle",
+          "n": 2,
+          "cut": "v",
+          "seed": 11
+        },
+        {
+          "shape": "square",
+          "n": 4,
+          "cut": "grid",
+          "seed": 23
+        },
+        {
+          "shape": "rect",
+          "n": 2,
+          "cut": "v",
+          "seed": 31
+        },
+        {
+          "shape": "triangle",
+          "n": 2,
+          "cut": "v",
+          "seed": 59
+        },
+        {
+          "shape": "ellipse",
+          "n": 4,
+          "cut": "grid",
+          "seed": 61
+        },
+        {
+          "shape": "diamond",
+          "n": 4,
+          "cut": "grid",
+          "seed": 37
+        },
+        {
+          "shape": "hexagon",
+          "n": 2,
+          "cut": "v",
+          "seed": 67
+        },
+        {
+          "shape": "pentagon",
+          "n": 2,
+          "cut": "v",
+          "seed": 41
+        }
       ]
     },
     "theme": null,
@@ -62,16 +107,57 @@
     "id": "fractions.partition-thirds.2-g-a-3",
     "tool": "fractions-activity",
     "task_template": "partition-equal-shares",
-    "alignment": { "framework": "CCSS", "code": "2.G.A.3", "grade": "2", "strand": "Geometry" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.G.A.3",
+      "grade": "2",
+      "strand": "Geometry"
+    },
     "params": {
       "rounds": [
-        { "shape": "circle",   "n": 3, "cut": "radii", "rot": 0, "seed": 101 },
-        { "shape": "triangle", "n": 3, "cut": "v",     "seed": 103 },
-        { "shape": "hexagon",  "n": 3, "cut": "v",     "seed": 107 },
-        { "shape": "square",   "n": 3, "cut": "v",     "seed": 127 },
-        { "shape": "rect",     "n": 3, "cut": "h",     "seed": 113 },
-        { "shape": "diamond",  "n": 3, "cut": "edge",  "seed": 131 },
-        { "shape": "ellipse",  "n": 3, "cut": "radii", "seed": 137 }
+        {
+          "shape": "circle",
+          "n": 3,
+          "cut": "radii",
+          "rot": 0,
+          "seed": 101
+        },
+        {
+          "shape": "triangle",
+          "n": 3,
+          "cut": "v",
+          "seed": 103
+        },
+        {
+          "shape": "hexagon",
+          "n": 3,
+          "cut": "v",
+          "seed": 107
+        },
+        {
+          "shape": "square",
+          "n": 3,
+          "cut": "v",
+          "seed": 127
+        },
+        {
+          "shape": "rect",
+          "n": 3,
+          "cut": "h",
+          "seed": 113
+        },
+        {
+          "shape": "diamond",
+          "n": 3,
+          "cut": "edge",
+          "seed": 131
+        },
+        {
+          "shape": "ellipse",
+          "n": 3,
+          "cut": "radii",
+          "seed": 137
+        }
       ]
     },
     "theme": null,
@@ -115,5 +201,101 @@
       "fi": "Jaa ympyrät, neliöt ja suorakulmiot kolmeen yhtä suureen osaan eli kolmasosiin. Ilmainen ja vuorovaikutteinen tehtävä esiopetukseen ja alkuopetukseen, OPS 2014."
     },
     "kid_prompt_template": "partition-equal-shares"
+  },
+  {
+    "id": "fractions.make-and-count-squares.2-g-a-2",
+    "tool": "fractions-activity",
+    "task_template": "grid-count",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.G.A.2",
+      "grade": "2",
+      "strand": "Geometry"
+    },
+    "params": {
+      "rounds": [
+        {
+          "rows": 2,
+          "cols": 3,
+          "seed": 11
+        },
+        {
+          "rows": 2,
+          "cols": 4,
+          "seed": 23
+        },
+        {
+          "rows": 3,
+          "cols": 3,
+          "seed": 31
+        },
+        {
+          "rows": 2,
+          "cols": 5,
+          "seed": 41
+        },
+        {
+          "rows": 3,
+          "cols": 4,
+          "seed": 53
+        },
+        {
+          "rows": 4,
+          "cols": 4,
+          "seed": 59
+        },
+        {
+          "rows": 3,
+          "cols": 5,
+          "seed": 67
+        },
+        {
+          "rows": 4,
+          "cols": 5,
+          "seed": 71
+        }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "make-and-count-squares",
+      "de": "quadrate-in-reihen-und-spalten-zaehlen",
+      "es": "filas-y-columnas-de-cuadrados",
+      "it": "forma-righe-e-colonne-di-quadrati",
+      "pt": "fileiras-e-colunas-de-quadradinhos",
+      "fr": "partitionner-un-rectangle-en-carres",
+      "nl": "vierkanten-tellen-in-een-rooster",
+      "sv": "dela-rektangel-i-rutor",
+      "da": "del-rektanglet-i-kvadrater",
+      "no": "del-opp-rektangel-i-kvadrater",
+      "fi": "nelioiden-rivit-ja-sarakkeet"
+    },
+    "page_title": {
+      "en": "Make and Count Squares — Partition a Rectangle into a Grid",
+      "de": "Quadrate In Reihen Und Spalten Zählen",
+      "es": "Filas y Columnas de Cuadrados",
+      "it": "Forma Righe e Colonne di Quadrati",
+      "pt": "Fileiras e Colunas de Quadradinhos",
+      "fr": "Partitionner un Rectangle en Carrés",
+      "nl": "Vierkanten Tellen In Een Rooster",
+      "sv": "Dela In En Rektangel I Lika Stora Rutor",
+      "da": "Del Rektanglet I Lige Store Kvadrater",
+      "no": "Del Opp Rektangelet i Kvadrater og Tell",
+      "fi": "Neliöiden Rivit Ja Sarakkeet"
+    },
+    "page_intro": {
+      "en": "Partition a rectangle into rows and columns of same-size squares, then count to find the total. Tap the dotted lines to make the grid — like 3 rows and 4 columns — and type how many squares there are in all. Aligned to Common Core 2.G.A.2 — partition a rectangle into rows and columns of same-size squares and count to find the total number of them.",
+      "de": "Hier teilst du ein Rechteck in Reihen und Spalten aus gleich großen Quadraten ein. Tippe auf die Linien, um das Gitter zu bauen, und zähle dann, wie viele Quadrate insgesamt entstehen. So entdeckst du spielerisch, wie aus Reihen und Spalten ein ordentliches Gitter wird – ausgerichtet am Lehrplan.",
+      "es": "En esta actividad los niños dividen un rectángulo en filas y columnas para formar cuadrados del mismo tamaño y luego cuentan cuántos hay en total. Tocan las líneas punteadas para crear la cuadrícula y descubren cómo las filas y las columnas ayudan a contar de forma ordenada. Una manera tranquila y divertida de explorar la geometría, alineada al Currículo LOMLOE.",
+      "it": "In questa attività i bambini dividono un rettangolo in righe e colonne di quadrati tutti della stessa grandezza. Toccano le linee tratteggiate per costruire la griglia e poi contano quanti quadrati ci sono in tutto. Un modo sereno e giocoso per esplorare righe, colonne e conteggio, allineato alle Indicazioni nazionali.",
+      "pt": "Nesta atividade, as crianças dividem um retângulo em fileiras e colunas de quadradinhos do mesmo tamanho e depois contam quantos há ao todo. Ao tocar nas linhas pontilhadas, elas montam a grade e descobrem como organizar e contar os quadradinhos de um jeito simples e divertido. Uma maneira carinhosa de explorar a geometria e a contagem, alinhada à BNCC.",
+      "fr": "Découpe un rectangle en rangées et en colonnes de carrés tous de la même taille, puis compte combien il y en a en tout. En traçant la grille et en comptant les carrés, les enfants découvrent en douceur les premières idées de multiplication et d'aire. Une activité de géométrie alignée aux programmes officiels.",
+      "nl": "Verdeel een rechthoek in rijen en kolommen van even grote vierkanten en tel hoeveel het er samen zijn. Je kindje tikt op de stippellijnen om het rooster te maken en telt daarna alle vierkanten op. Een fijne, rustige rekenoefening, afgestemd op de SLO-kerndoelen.",
+      "sv": "Här övar barnen på att dela in en rektangel i rader och kolumner med lika stora rutor. Genom att trycka på de prickade linjerna bygger barnet rutnätet och räknar sedan hur många rutor det blir sammanlagt. En lekfull och trygg geometriövning för de yngsta, anpassad till Lgr22.",
+      "da": "Her deler vi et rektangel op i rækker og kolonner med lige store kvadrater. Børnene trykker på de stiplede linjer for at lave gitteret og tæller så, hvor mange kvadrater der er i alt. Aktiviteten er tilpasset Fælles Mål for matematik i indskolingen.",
+      "no": "I denne aktiviteten deler barna et rektangel inn i rader og kolonner med like store kvadrater. De tapper på de stiplede rutelinjene for å lage rutenettet, og teller deretter hvor mange kvadrater det er til sammen. Oppgaven er tilpasset kompetansemålene i matematikk for 2. trinn i LK20.",
+      "fi": "Tässä tehtävässä lapsi jakaa suorakulmion samankokoisten neliöiden riveihin ja sarakkeisiin. Lapsi naputtaa pisteviivoja muodostaakseen ruudukon ja laskee sitten neliöiden kokonaismäärän. Tehtävä noudattaa OPS 2014 -opetussuunnitelman geometrian tavoitteita."
+    },
+    "kid_prompt_template": "taskGridCount"
   }
 ]

@@ -4114,5 +4114,93 @@
       "fi": "Tässä tehtävässä lapsi katsoo kaksinumeroista lukua ja etsii kymmenen enemmän tai kymmenen vähemmän. Vihje: vain kymmenet muuttuvat, joten lukua ei tarvitse laskea sormin – riittää, kun katsoo kymmenten paikkaa. Lapsi napauttaa oikean luvun rauhassa, omaan tahtiinsa, ilman kiirettä. Tehtävä harjoittaa lukujen hahmottamista ja päässälaskua OPS 2014 -opetussuunnitelman mukaisesti."
     },
     "kid_prompt_template": "promptTenMore"
+  },
+  {
+    "id": "choice-board.read-ruler.2-md-a-1",
+    "tool": "choice-board-activity",
+    "task_template": "read-ruler",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.MD.A.1",
+      "grade": "2",
+      "strand": "Measurement & Data"
+    },
+    "params": {
+      "rounds": [
+        {
+          "obj": "pencil",
+          "n": 7
+        },
+        {
+          "obj": "ribbon",
+          "n": 12
+        },
+        {
+          "obj": "crayon",
+          "n": 5
+        },
+        {
+          "obj": "worm",
+          "n": 9
+        },
+        {
+          "obj": "marker",
+          "n": 14
+        },
+        {
+          "obj": "stick",
+          "n": 17
+        },
+        {
+          "obj": "straw",
+          "n": 6
+        },
+        {
+          "obj": "eraser",
+          "n": 4
+        }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "read-the-ruler-centimeters",
+      "de": "lineal-ablesen-zentimeter-messen",
+      "es": "leer-la-regla-medir-en-centimetros",
+      "it": "leggi-il-righello-centimetri",
+      "pt": "ler-a-regua-medir-em-cm",
+      "fr": "lire-la-regle-en-centimetres",
+      "nl": "lees-de-liniaal-meten-in-cm",
+      "sv": "las-linjalen-mat-i-centimeter",
+      "da": "laes-linealen-maal-i-cm",
+      "no": "les-linjalen-mal-i-cm",
+      "fi": "lue-viivainta-mittaa-senttimetreina"
+    },
+    "page_title": {
+      "en": "Read the Ruler — Measure Length in Centimeters",
+      "de": "Mit Dem Lineal In Zentimetern Messen",
+      "es": "Lee la Regla y Mide en Centímetros",
+      "it": "Leggi il Righello in Centimetri",
+      "pt": "Ler a Régua: Medindo em Centímetros",
+      "fr": "Lire la Règle en Centimètres",
+      "nl": "Lees de Liniaal: Meten in Centimeters",
+      "sv": "Läs Linjalen – Mät i Centimeter",
+      "da": "Læs Linealen: Mål i Centimeter",
+      "no": "Les Linjalen – Mål i Centimeter",
+      "fi": "Lue Viivainta: Mittaa Senttimetreinä"
+    },
+    "page_intro": {
+      "en": "Read how long an object is on a centimeter ruler. Line the left end up with 0, follow the object to its other end, and tap how many centimeters long it is. Take your time — there is no timer and no score, just reading the ruler one mark at a time. Aligned to Common Core 2.MD.A.1 — measuring the length of an object by selecting and using an appropriate tool such as a ruler.",
+      "de": "Hier liest dein Kind ab, wie lang ein Gegenstand auf einem Zentimeter-Lineal ist. Der Anfang des Gegenstands liegt genau bei der Null, und dein Kind schaut in Ruhe nach, bei welcher Zahl er endet. Dann tippt es die passende Länge in Zentimetern an. Ganz ohne Eile und ohne Druck – Fehler gehören einfach dazu. Diese Übung ist am Lehrplan für die Grundschule ausgerichtet.",
+      "es": "Aquí mides objetos con una regla en centímetros, sin prisa y a tu ritmo. Coloca el comienzo del objeto en el cero, sigue la regla hasta su otro extremo y descubre cuántos centímetros mide. Cada intento te ayuda a fijarte mejor en los números. Esta actividad acompaña el trabajo de medida del Currículo LOMLOE.",
+      "it": "In questa attività osservi un oggetto appoggiato su un righello: il suo inizio è allineato allo zero e tu leggi con calma fino a dove arriva la sua fine. Poi tocchi quanti centimetri è lungo, senza fretta e senza punteggi. È un modo sereno per imparare a misurare con il righello in centimetri, in linea con le Indicazioni nazionali.",
+      "pt": "Nesta atividade, a criança observa um objeto desenhado sobre uma régua em centímetros e descobre quantos centímetros ele mede. É só alinhar o começo do objeto com o zero e ver onde ele termina, com calma e no seu próprio ritmo. Não há pressa nem certo ou errado que assuste: cada tentativa é uma chance de aprender. Uma forma tranquila de explorar medidas de comprimento, alinhada à BNCC.",
+      "fr": "Place le début de l'objet sur le zéro de la règle graduée, puis regarde tranquillement où il s'arrête. Lis le nombre de centimètres, puis touche la bonne longueur parmi les étiquettes. Prends ton temps : il n'y a ni chrono ni score, seulement le plaisir de mesurer pas à pas. Cette activité accompagne en douceur l'apprentissage de la mesure en centimètres, conformément aux programmes officiels.",
+      "nl": "Bij deze activiteit lees je af hoe lang een voorwerp is op een liniaal in centimeters. Leg de linkerkant van het voorwerp netjes bij de 0 en kijk waar het eindigt. Tik daarna op het juiste aantal centimeter. Neem rustig de tijd, er is geen haast bij. Zo oefen je spelenderwijs met meten, helemaal volgens de SLO-kerndoelen voor groep 4.",
+      "sv": "Här får barnet öva på att mäta. Ett föremål ligger längs en linjal, och barnet läser av hur många centimeter långt det är. Lägg märke till att föremålets vänstra kant börjar vid 0 – då blir mätningen rätt. Ta god tid på dig och titta noga var föremålet slutar. Övningen följer målen för mätning och längd i Lgr22.",
+      "da": "Her øver du dig i at læse en lineal. En ting ligger langs linealen, og dens venstre ende starter ved 0. Se efter, hvor tingen slutter, og find ud af, hvor mange centimeter lang den er. Tag dig god tid – der er ingen tidtagning, og du kan bare prøve dig frem i ro og mag. Aktiviteten passer til måling i 1.-2. klasse efter Fælles Mål.",
+      "no": "Her får du øve på å lese en linjal. En ting ligger langs linjalen med venstre ende på 0, og du finner ut hvor mange centimeter lang den er. Pass på at starten står ved 0, og se hvor tingen slutter. Det er ingen tidtaking og ingenting du kan gjøre feil – bare ta den tiden du trenger. Aktiviteten følger målene for matematikk i LK20.",
+      "fi": "Tässä tehtävässä luet, kuinka pitkä esine on senttimetreinä. Aseta esineen alkupää viivaimen nollakohtaan ja katso, mihin kohtaan sen toinen pää yltää. Valitse sitten oikea pituus neljästä numerosta. Voit edetä rauhassa omaan tahtiisi ilman kiirettä. Tehtävä on OPS 2014 -opetussuunnitelman mukainen ja harjoittaa mittaamisen taitoja."
+    },
+    "kid_prompt_template": "promptHowManyCm"
   }
 ]

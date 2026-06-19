@@ -82,7 +82,14 @@ window.NumberBondCore = {
        parts are shown in the bond; the child types the total). ── */
     titleThree: {en:"Add Three Numbers",de:"Drei Zahlen addieren",es:"Suma tres números",pt:"Some três números",fr:"Additionne trois nombres",it:"Somma tre numeri",nl:"Tel drie getallen op",sv:"Addera tre tal",da:"Læg tre tal sammen",no:"Legg sammen tre tall",fi:"Laske kolme lukua yhteen"},
     instructionThree: {en:"All three parts are filled. Count how many there are in all, then type the total and tap Check.",de:"Alle drei Teile sind ausgefüllt. Zähle, wie viele es zusammen sind. Schreibe die Gesamtzahl auf und tippe auf Prüfen.",es:"Las tres partes ya están completas. Cuenta cuántos hay en total, escribe el total y toca Comprobar.",pt:"As três partes já estão preenchidas. Conte quantos há no total, depois digite o total e toque em Verificar.",fr:"Les trois parties sont déjà remplies. Compte combien il y en a en tout, puis écris le total et touche Vérifier.",it:"Le tre parti sono già piene. Conta quanti sono in tutto, scrivi il totale e tocca Controlla.",nl:"De drie delen zijn al gevuld. Tel hoeveel het er samen zijn, typ het totaal en tik op Controleer.",sv:"De tre delarna är redan ifyllda. Räkna hur många det är tillsammans, skriv summan och tryck på Kontrollera.",da:"De tre dele er fyldt ud. Tæl hvor mange der er i alt, skriv det hele, og tryk på Tjek.",no:"De tre delene er fylt ut. Tell hvor mange det er til sammen, skriv summen og trykk på Sjekk.",fi:"Kolme osaa on jo täytetty. Laske, kuinka monta niitä on yhteensä. Kirjoita summa ja napauta Tarkista."},
-    promptThree: {en:"Add the three parts. How many in all? Type the total.",de:"Addiere die drei Teile. Wie viele sind es zusammen? Schreibe die Gesamtzahl auf.",es:"Suma las tres partes. ¿Cuántos hay en total? Escribe el total.",pt:"Some as três partes. Quantos há no total? Digite o total.",fr:"Additionne les trois parties. Combien en tout ? Écris le total.",it:"Somma le tre parti. Quanti sono in tutto? Scrivi il totale.",nl:"Tel de drie delen op. Hoeveel in totaal? Typ het totaal.",sv:"Addera de tre delarna. Hur många är det tillsammans? Skriv summan.",da:"Læg de tre dele sammen. Hvor mange er der i alt? Skriv det hele.",no:"Legg sammen de tre delene. Hvor mange er det til sammen? Skriv summen.",fi:"Laske kolme osaa yhteen. Kuinka monta yhteensä? Kirjoita summa."}
+    promptThree: {en:"Add the three parts. How many in all? Type the total.",de:"Addiere die drei Teile. Wie viele sind es zusammen? Schreibe die Gesamtzahl auf.",es:"Suma las tres partes. ¿Cuántos hay en total? Escribe el total.",pt:"Some as três partes. Quantos há no total? Digite o total.",fr:"Additionne les trois parties. Combien en tout ? Écris le total.",it:"Somma le tre parti. Quanti sono in tutto? Scrivi il totale.",nl:"Tel de drie delen op. Hoeveel in totaal? Typ het totaal.",sv:"Addera de tre delarna. Hur många är det tillsammans? Skriv summan.",da:"Læg de tre dele sammen. Hvor mange er der i alt? Skriv det hele.",no:"Legg sammen de tre delene. Hvor mange er det til sammen? Skriv summen.",fi:"Laske kolme osaa yhteen. Kuinka monta yhteensä? Kirjoita summa."},
+
+    /* ── word-problem mode (2.OA.A.1) strings — EN authored; 10 non-EN folded in
+       by the native ensemble. promptWordProblem = "{text}" passthrough (the native
+       problem sentence rides promptArgs.text from the manifest byLocale rounds). ── */
+    titleWordProblem: {en:"Story Problems",de:"Sachaufgaben",es:"Problemas con palabras",pt:"Problemas",fr:"Problèmes",it:"Problemi",nl:"Verhaaltjessommen",sv:"Lästal",da:"Tekststykker",no:"Tekstoppgaver",fi:"Sanalliset tehtävät"},
+    instructionWordProblem: {en:"Read the problem. The bond shows the numbers — one is missing. Work it out, type the missing number, then tap Check.",de:"Lies die Aufgabe genau. Das Zahlenbild zeigt die Zahlen, eine fehlt. Rechne, tippe die fehlende Zahl ein und tippe auf Prüfen.",es:"Lee el problema. El modelo muestra los números y falta uno. Resuélvelo, escribe el número que falta y toca Comprobar.",pt:"Leia o problema. O modelo mostra os números, e um deles está faltando. Resolva, digite o número que falta e toque em Verificar.",fr:"Lis le problème. Le modèle montre les nombres, mais il en manque un. Calcule, écris le nombre manquant, puis touche Vérifier.",it:"Leggi il problema. Il modello mostra i numeri: ne manca uno. Risolvi, scrivi il numero mancante e tocca Controlla.",nl:"Lees de som. Het model toont de getallen, maar er ontbreekt er één. Reken uit, typ het ontbrekende getal en tik op Controleer.",sv:"Läs uppgiften. Modellen visar talen, men ett tal saknas. Räkna ut svaret, skriv talet som saknas och tryck på Kontrollera.",da:"Læs opgaven. Modellen viser tallene, og ét tal mangler. Regn det ud, skriv det manglende tal, og tryk på Tjek.",no:"Les oppgaven. Modellen viser tallene, men ett tall mangler. Regn det ut, skriv tallet som mangler, og trykk på Sjekk.",fi:"Lue tehtävä. Lukukolmio näyttää luvut, ja yksi niistä puuttuu. Päättele puuttuva luku, kirjoita se ja napauta Tarkista."},
+    promptWordProblem: {en:"{text}"}
   },
 
   defaults: {},
@@ -99,6 +106,7 @@ window.NumberBondCore = {
     this.first = 8;          // make-ten-to-add: the first addend A
     this.second = 5;         // make-ten-to-add: the second addend B (= whole)
     this.third = null;       // whole-unknown-3 (1.OA.A.2): the third addend
+    this.unknownPos = 'whole'; // word-problem (2.OA.A.1): which node is "?" ('whole'|'first'|'second')
     this.filled = 0;         // counters the child has put in the empty/make-ten part
     this.readOnly = false;
     this._fillEl = null; this._minusEl = null;
@@ -132,6 +140,21 @@ window.NumberBondCore = {
       this.readOnly = false;
       return;
     }
+    if (opts.mode === 'word-problem') {
+      /* 2.OA.A.1 word problem within 100, modeled as a NUMERAL part-part-whole
+         bond. first/second/whole are the situation's quantities; unknownPos
+         marks which node shows "?". Display-only bond + the shell keypad. */
+      this.mode = 'word-problem';
+      this.first = opts.first;
+      this.second = opts.second;
+      this.third = null;
+      this.whole = opts.whole;
+      this.unknownPos = opts.unknownPos || 'whole';
+      this.given = null;
+      this.filled = 0;
+      this.readOnly = false;
+      return;
+    }
     if (opts.mode === 'whole-unknown-3') {
       /* 1.OA.A.2 add three numbers: THREE parts given, find the total.
          Display-only 3-part bond + the shell keypad is the answer surface. */
@@ -155,6 +178,13 @@ window.NumberBondCore = {
   /* the total (whole-unknown answer key) = the parts composed (2 or 3) */
   total: function () { return this.first + this.second + (this.third || 0); },
 
+  /* word-problem (2.OA.A.1) answer key = the value of the "?" node */
+  answerKey: function () {
+    if (this.unknownPos === 'first') return this.whole - this.second;
+    if (this.unknownPos === 'second') return this.whole - this.first;
+    return this.first + this.second;   // unknownPos 'whole'
+  },
+
   /* the single correct missing part + the discrete answer key (mode-aware) */
   missing: function () { return this.mode === 'make-ten-to-add' ? (10 - this.first) : (this.whole - this.given); },
   isCorrect: function () {
@@ -169,6 +199,7 @@ window.NumberBondCore = {
     if (this.mode === 'make-ten-to-add') { this._renderAddMode(); return; }
     if (this.mode === 'whole-unknown') { this._renderWholeUnknown(); return; }
     if (this.mode === 'whole-unknown-3') { this._renderWholeUnknown3(); return; }
+    if (this.mode === 'word-problem') { this._renderWordProblem(); return; }
     var api = this.api, self = this, C = this._C;
     var stage = api.stage;
     stage.innerHTML = '';
@@ -434,6 +465,37 @@ window.NumberBondCore = {
     this._partGroup(svg, elNS, 'given', 50, 61, B, false);
     this._partGroup(svg, elNS, 'given', 82, 61, Cn, false);
 
+    wrap.appendChild(svg);
+    stage.appendChild(wrap);
+    this._fillEl = null;   // no tappable part; the keypad is the answer surface
+  },
+
+  /* a NUMERAL bond node: circle + a big numeral (or "?" for the unknown). Used by
+     the word-problem mode for within-100 numbers (dots can't render 47). */
+  _numNode: function (svg, elNS, cx, cy, r, label, isUnknown) {
+    var C = this._C;
+    svg.appendChild(elNS('circle', { cx: cx, cy: cy, r: r, fill: isUnknown ? C.WHOLE : '#D2E8E1', stroke: C.T, 'stroke-width': 2.5 }));
+    var fs = String(label).length >= 3 ? 9 : 12;   // shrink for 3-digit (e.g. 100)
+    var t = elNS('text', { x: cx, y: cy, 'text-anchor': 'middle', 'dominant-baseline': 'central', fill: isUnknown ? C.DOT : C.T, 'font-size': fs, 'font-weight': 800, 'font-family': 'var(--lcs-font-display,"Baloo 2",system-ui,sans-serif)' });
+    t.textContent = String(label);
+    svg.appendChild(t);
+  },
+
+  /* ── word-problem (2.OA.A.1): a NUMERAL part-part-whole bond. The word problem
+     is in the prompt strip; the bond shows the two known quantities + "?" at the
+     unknown; the child types the answer on the keypad. Display-only. ── */
+  _renderWordProblem: function () {
+    var api = this.api, C = this._C, elNS = this._elNS.bind(this);
+    var stage = api.stage; stage.innerHTML = '';
+    var wrap = api.el('div', 'nb-wrap nb-whole');
+    var svg = elNS('svg', { viewBox: '0 0 100 78', 'class': 'nb-svg', role: 'group' });
+    svg.setAttribute('aria-label', api.t('instructionWordProblem'));
+    svg.appendChild(elNS('line', { x1: 50, y1: 26, x2: 28, y2: 48, stroke: C.LINE, 'stroke-width': 2.5, 'stroke-linecap': 'round', opacity: 0.7 }));
+    svg.appendChild(elNS('line', { x1: 50, y1: 26, x2: 72, y2: 48, stroke: C.LINE, 'stroke-width': 2.5, 'stroke-linecap': 'round', opacity: 0.7 }));
+    /* whole (top) + two parts; "?" at the unknown node */
+    this._numNode(svg, elNS, 50, 15, 13, this.unknownPos === 'whole' ? '?' : this.whole, this.unknownPos === 'whole');
+    this._numNode(svg, elNS, 28, 61, 15, this.unknownPos === 'first' ? '?' : this.first, this.unknownPos === 'first');
+    this._numNode(svg, elNS, 72, 61, 15, this.unknownPos === 'second' ? '?' : this.second, this.unknownPos === 'second');
     wrap.appendChild(svg);
     stage.appendChild(wrap);
     this._fillEl = null;   // no tappable part; the keypad is the answer surface

@@ -4202,5 +4202,897 @@
       "fi": "Tässä tehtävässä luet, kuinka pitkä esine on senttimetreinä. Aseta esineen alkupää viivaimen nollakohtaan ja katso, mihin kohtaan sen toinen pää yltää. Valitse sitten oikea pituus neljästä numerosta. Voit edetä rauhassa omaan tahtiisi ilman kiirettä. Tehtävä on OPS 2014 -opetussuunnitelman mukainen ja harjoittaa mittaamisen taitoja."
     },
     "kid_prompt_template": "promptHowManyCm"
+  },
+  {
+    "id": "choice-board.letter-case.rf-k-1-d",
+    "tool": "choice-board-activity",
+    "task_template": "letter-case",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.1.d",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "byLocale": {
+        "en": {
+          "rounds": [
+            {
+              "prompt": "B",
+              "answer": "b",
+              "distractors": [
+                "d",
+                "p",
+                "h"
+              ]
+            },
+            {
+              "prompt": "R",
+              "answer": "r",
+              "distractors": [
+                "n",
+                "m",
+                "h"
+              ]
+            },
+            {
+              "prompt": "E",
+              "answer": "e",
+              "distractors": [
+                "c",
+                "o",
+                "a"
+              ]
+            },
+            {
+              "prompt": "G",
+              "answer": "g",
+              "distractors": [
+                "q",
+                "p",
+                "y"
+              ]
+            },
+            {
+              "prompt": "a",
+              "answer": "A",
+              "distractors": [
+                "H",
+                "N",
+                "V"
+              ]
+            },
+            {
+              "prompt": "d",
+              "answer": "D",
+              "distractors": [
+                "B",
+                "P",
+                "O"
+              ]
+            },
+            {
+              "prompt": "m",
+              "answer": "M",
+              "distractors": [
+                "N",
+                "W",
+                "H"
+              ]
+            },
+            {
+              "prompt": "q",
+              "answer": "Q",
+              "distractors": [
+                "O",
+                "G",
+                "C"
+              ]
+            }
+          ]
+        },
+        "de": {
+          "rounds": [
+            {
+              "prompt": "B",
+              "answer": "b",
+              "distractors": [
+                "d",
+                "p",
+                "h"
+              ]
+            },
+            {
+              "prompt": "Ü",
+              "answer": "ü",
+              "distractors": [
+                "u",
+                "ä",
+                "ö"
+              ]
+            },
+            {
+              "prompt": "M",
+              "answer": "m",
+              "distractors": [
+                "n",
+                "w",
+                "h"
+              ]
+            },
+            {
+              "prompt": "G",
+              "answer": "g",
+              "distractors": [
+                "q",
+                "y",
+                "p"
+              ]
+            },
+            {
+              "prompt": "d",
+              "answer": "D",
+              "distractors": [
+                "B",
+                "P",
+                "O"
+              ]
+            },
+            {
+              "prompt": "ä",
+              "answer": "Ä",
+              "distractors": [
+                "A",
+                "Ö",
+                "Ü"
+              ]
+            },
+            {
+              "prompt": "n",
+              "answer": "N",
+              "distractors": [
+                "M",
+                "H",
+                "U"
+              ]
+            },
+            {
+              "prompt": "l",
+              "answer": "L",
+              "distractors": [
+                "I",
+                "T",
+                "E"
+              ]
+            }
+          ]
+        },
+        "es": {
+          "rounds": [
+            {
+              "prompt": "B",
+              "answer": "b",
+              "distractors": [
+                "d",
+                "p",
+                "q"
+              ]
+            },
+            {
+              "prompt": "Ñ",
+              "answer": "ñ",
+              "distractors": [
+                "n",
+                "m",
+                "h"
+              ]
+            },
+            {
+              "prompt": "a",
+              "answer": "A",
+              "distractors": [
+                "E",
+                "O",
+                "C"
+              ]
+            },
+            {
+              "prompt": "n",
+              "answer": "N",
+              "distractors": [
+                "M",
+                "U",
+                "H"
+              ]
+            },
+            {
+              "prompt": "q",
+              "answer": "Q",
+              "distractors": [
+                "O",
+                "C",
+                "G"
+              ]
+            },
+            {
+              "prompt": "d",
+              "answer": "D",
+              "distractors": [
+                "B",
+                "P",
+                "O"
+              ]
+            },
+            {
+              "prompt": "e",
+              "answer": "E",
+              "distractors": [
+                "F",
+                "C",
+                "L"
+              ]
+            },
+            {
+              "prompt": "ñ",
+              "answer": "Ñ",
+              "distractors": [
+                "N",
+                "M",
+                "U"
+              ]
+            }
+          ]
+        },
+        "it": {
+          "rounds": [
+            {
+              "prompt": "B",
+              "answer": "b",
+              "distractors": [
+                "d",
+                "p",
+                "q"
+              ]
+            },
+            {
+              "prompt": "M",
+              "answer": "m",
+              "distractors": [
+                "n",
+                "u",
+                "r"
+              ]
+            },
+            {
+              "prompt": "O",
+              "answer": "o",
+              "distractors": [
+                "c",
+                "e",
+                "a"
+              ]
+            },
+            {
+              "prompt": "G",
+              "answer": "g",
+              "distractors": [
+                "q",
+                "p",
+                "d"
+              ]
+            },
+            {
+              "prompt": "d",
+              "answer": "D",
+              "distractors": [
+                "B",
+                "P",
+                "R"
+              ]
+            },
+            {
+              "prompt": "a",
+              "answer": "A",
+              "distractors": [
+                "E",
+                "O",
+                "V"
+              ]
+            },
+            {
+              "prompt": "n",
+              "answer": "N",
+              "distractors": [
+                "M",
+                "U",
+                "H"
+              ]
+            },
+            {
+              "prompt": "e",
+              "answer": "E",
+              "distractors": [
+                "F",
+                "L",
+                "C"
+              ]
+            }
+          ]
+        },
+        "pt": {
+          "rounds": [
+            {
+              "prompt": "B",
+              "answer": "b",
+              "distractors": [
+                "d",
+                "p",
+                "h"
+              ]
+            },
+            {
+              "prompt": "R",
+              "answer": "r",
+              "distractors": [
+                "n",
+                "m",
+                "v"
+              ]
+            },
+            {
+              "prompt": "E",
+              "answer": "e",
+              "distractors": [
+                "c",
+                "a",
+                "o"
+              ]
+            },
+            {
+              "prompt": "G",
+              "answer": "g",
+              "distractors": [
+                "q",
+                "p",
+                "y"
+              ]
+            },
+            {
+              "prompt": "a",
+              "answer": "A",
+              "distractors": [
+                "H",
+                "N",
+                "V"
+              ]
+            },
+            {
+              "prompt": "m",
+              "answer": "M",
+              "distractors": [
+                "N",
+                "W",
+                "H"
+              ]
+            },
+            {
+              "prompt": "f",
+              "answer": "F",
+              "distractors": [
+                "E",
+                "T",
+                "L"
+              ]
+            },
+            {
+              "prompt": "ç",
+              "answer": "Ç",
+              "distractors": [
+                "G",
+                "O",
+                "Q"
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "rounds": [
+            {
+              "prompt": "B",
+              "answer": "b",
+              "distractors": [
+                "d",
+                "p",
+                "h"
+              ]
+            },
+            {
+              "prompt": "R",
+              "answer": "r",
+              "distractors": [
+                "n",
+                "m",
+                "v"
+              ]
+            },
+            {
+              "prompt": "E",
+              "answer": "e",
+              "distractors": [
+                "c",
+                "o",
+                "a"
+              ]
+            },
+            {
+              "prompt": "G",
+              "answer": "g",
+              "distractors": [
+                "q",
+                "p",
+                "y"
+              ]
+            },
+            {
+              "prompt": "a",
+              "answer": "A",
+              "distractors": [
+                "V",
+                "M",
+                "N"
+              ]
+            },
+            {
+              "prompt": "d",
+              "answer": "D",
+              "distractors": [
+                "O",
+                "P",
+                "B"
+              ]
+            },
+            {
+              "prompt": "l",
+              "answer": "L",
+              "distractors": [
+                "I",
+                "E",
+                "T"
+              ]
+            },
+            {
+              "prompt": "é",
+              "answer": "É",
+              "distractors": [
+                "E",
+                "F",
+                "C"
+              ]
+            }
+          ]
+        },
+        "nl": {
+          "rounds": [
+            {
+              "prompt": "B",
+              "answer": "b",
+              "distractors": [
+                "d",
+                "p",
+                "q"
+              ]
+            },
+            {
+              "prompt": "R",
+              "answer": "r",
+              "distractors": [
+                "n",
+                "m",
+                "u"
+              ]
+            },
+            {
+              "prompt": "O",
+              "answer": "o",
+              "distractors": [
+                "c",
+                "e",
+                "a"
+              ]
+            },
+            {
+              "prompt": "M",
+              "answer": "m",
+              "distractors": [
+                "n",
+                "u",
+                "w"
+              ]
+            },
+            {
+              "prompt": "d",
+              "answer": "D",
+              "distractors": [
+                "B",
+                "P",
+                "O"
+              ]
+            },
+            {
+              "prompt": "a",
+              "answer": "A",
+              "distractors": [
+                "E",
+                "O",
+                "C"
+              ]
+            },
+            {
+              "prompt": "g",
+              "answer": "G",
+              "distractors": [
+                "O",
+                "Q",
+                "C"
+              ]
+            },
+            {
+              "prompt": "p",
+              "answer": "P",
+              "distractors": [
+                "B",
+                "R",
+                "D"
+              ]
+            }
+          ]
+        },
+        "sv": {
+          "rounds": [
+            {
+              "prompt": "B",
+              "answer": "b",
+              "distractors": [
+                "d",
+                "p",
+                "h"
+              ]
+            },
+            {
+              "prompt": "R",
+              "answer": "r",
+              "distractors": [
+                "n",
+                "m",
+                "f"
+              ]
+            },
+            {
+              "prompt": "G",
+              "answer": "g",
+              "distractors": [
+                "q",
+                "y",
+                "j"
+              ]
+            },
+            {
+              "prompt": "Å",
+              "answer": "å",
+              "distractors": [
+                "a",
+                "ä",
+                "o"
+              ]
+            },
+            {
+              "prompt": "e",
+              "answer": "E",
+              "distractors": [
+                "F",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "prompt": "l",
+              "answer": "L",
+              "distractors": [
+                "I",
+                "T",
+                "E"
+              ]
+            },
+            {
+              "prompt": "ä",
+              "answer": "Ä",
+              "distractors": [
+                "Å",
+                "A",
+                "Ö"
+              ]
+            },
+            {
+              "prompt": "ö",
+              "answer": "Ö",
+              "distractors": [
+                "O",
+                "Ä",
+                "Q"
+              ]
+            }
+          ]
+        },
+        "da": {
+          "rounds": [
+            {
+              "prompt": "B",
+              "answer": "b",
+              "distractors": [
+                "d",
+                "p",
+                "h"
+              ]
+            },
+            {
+              "prompt": "R",
+              "answer": "r",
+              "distractors": [
+                "n",
+                "m",
+                "v"
+              ]
+            },
+            {
+              "prompt": "Æ",
+              "answer": "æ",
+              "distractors": [
+                "a",
+                "e",
+                "o"
+              ]
+            },
+            {
+              "prompt": "Ø",
+              "answer": "ø",
+              "distractors": [
+                "o",
+                "a",
+                "e"
+              ]
+            },
+            {
+              "prompt": "g",
+              "answer": "G",
+              "distractors": [
+                "C",
+                "O",
+                "Q"
+              ]
+            },
+            {
+              "prompt": "l",
+              "answer": "L",
+              "distractors": [
+                "I",
+                "T",
+                "E"
+              ]
+            },
+            {
+              "prompt": "å",
+              "answer": "Å",
+              "distractors": [
+                "A",
+                "O",
+                "Ø"
+              ]
+            },
+            {
+              "prompt": "m",
+              "answer": "M",
+              "distractors": [
+                "N",
+                "W",
+                "H"
+              ]
+            }
+          ]
+        },
+        "no": {
+          "rounds": [
+            {
+              "prompt": "B",
+              "answer": "b",
+              "distractors": [
+                "d",
+                "p",
+                "h"
+              ]
+            },
+            {
+              "prompt": "R",
+              "answer": "r",
+              "distractors": [
+                "n",
+                "m",
+                "h"
+              ]
+            },
+            {
+              "prompt": "Æ",
+              "answer": "æ",
+              "distractors": [
+                "a",
+                "e",
+                "o"
+              ]
+            },
+            {
+              "prompt": "G",
+              "answer": "g",
+              "distractors": [
+                "q",
+                "y",
+                "p"
+              ]
+            },
+            {
+              "prompt": "a",
+              "answer": "A",
+              "distractors": [
+                "O",
+                "H",
+                "N"
+              ]
+            },
+            {
+              "prompt": "ø",
+              "answer": "Ø",
+              "distractors": [
+                "O",
+                "Q",
+                "C"
+              ]
+            },
+            {
+              "prompt": "å",
+              "answer": "Å",
+              "distractors": [
+                "A",
+                "O",
+                "H"
+              ]
+            },
+            {
+              "prompt": "l",
+              "answer": "L",
+              "distractors": [
+                "I",
+                "T",
+                "E"
+              ]
+            }
+          ]
+        },
+        "fi": {
+          "rounds": [
+            {
+              "prompt": "B",
+              "answer": "b",
+              "distractors": [
+                "d",
+                "p",
+                "h"
+              ]
+            },
+            {
+              "prompt": "R",
+              "answer": "r",
+              "distractors": [
+                "n",
+                "m",
+                "i"
+              ]
+            },
+            {
+              "prompt": "A",
+              "answer": "a",
+              "distractors": [
+                "o",
+                "e",
+                "c"
+              ]
+            },
+            {
+              "prompt": "Ä",
+              "answer": "ä",
+              "distractors": [
+                "a",
+                "o",
+                "ö"
+              ]
+            },
+            {
+              "prompt": "n",
+              "answer": "N",
+              "distractors": [
+                "M",
+                "H",
+                "U"
+              ]
+            },
+            {
+              "prompt": "l",
+              "answer": "L",
+              "distractors": [
+                "I",
+                "T",
+                "E"
+              ]
+            },
+            {
+              "prompt": "o",
+              "answer": "O",
+              "distractors": [
+                "A",
+                "Q",
+                "C"
+              ]
+            },
+            {
+              "prompt": "ö",
+              "answer": "Ö",
+              "distractors": [
+                "O",
+                "A",
+                "Ä"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "theme": null,
+    "slug": {
+      "en": "match-uppercase-and-lowercase-letters",
+      "de": "grosse-und-kleine-buchstaben-zuordnen",
+      "es": "relaciona-mayusculas-minusculas",
+      "it": "abbina-lettere-maiuscole-minuscole",
+      "pt": "combinar-letras-maiusculas-minusculas",
+      "fr": "associer-majuscules-minuscules",
+      "nl": "hoofdletters-en-kleine-letters-matchen",
+      "sv": "matcha-stora-och-sma-bokstaver",
+      "da": "match-store-og-smaa-bogstaver",
+      "no": "match-store-og-smaa-bokstaver",
+      "fi": "yhdista-isot-ja-pienet-kirjaimet"
+    },
+    "page_title": {
+      "en": "Match Uppercase and Lowercase Letters",
+      "de": "Große Und Kleine Buchstaben Zuordnen",
+      "es": "Relaciona Letras Mayúsculas y Minúsculas",
+      "it": "Abbina le Lettere Maiuscole e Minuscole",
+      "pt": "Combine as Letras Maiúsculas e Minúsculas",
+      "fr": "Associe les Majuscules et les Minuscules",
+      "nl": "Hoofdletters En Kleine Letters Matchen",
+      "sv": "Matcha Stora Och Små Bokstäver",
+      "da": "Match Store Og Små Bogstaver",
+      "no": "Finn Store Og Små Bokstaver",
+      "fi": "Yhdistä Isot Ja Pienet Kirjaimet"
+    },
+    "page_intro": {
+      "en": "Every letter has two forms — a big uppercase letter and a small lowercase letter. A letter appears, and the child taps the matching letter in its other form. It is a calm, friendly way to recognize the same letter as both big and small, with no timer and no score. Aligned to Common Core RF.K.1.d — recognizing and naming all upper- and lowercase letters of the alphabet.",
+      "de": "Bei dieser Aufgabe entdeckt Ihr Kind, dass jeder Buchstabe eine große und eine kleine Form hat. Ein Buchstabe wird groß gezeigt, und Ihr Kind sucht in Ruhe die passende kleine Form – oder umgekehrt. So lernt es spielerisch, denselben Buchstaben in beiden Formen wiederzuerkennen. Ganz ohne Zeitdruck und ganz nach dem eigenen Tempo, abgestimmt auf den Lehrplan der Grundschule.",
+      "es": "En esta actividad tu peque descubre que cada letra tiene dos formas: una grande y una pequeña. Aparece una letra y solo hay que tocar la misma letra en su otra forma. Es una manera tranquila y cariñosa de reconocer las letras del abecedario, incluida la ñ, sin prisas ni puntuaciones. Una práctica perfecta para afianzar las letras según el Currículo LOMLOE.",
+      "it": "Benvenuti in questa attività dedicata alle lettere dell'alfabeto! Il bambino osserva una lettera grande e tocca la sua amica piccola, oppure trova la lettera grande che corrisponde a quella piccola. È un gioco tranquillo e sereno per imparare a riconoscere le maiuscole e le minuscole, una coppia alla volta. Un primo passo gentile verso la lettura, pensato in armonia con le Indicazioni nazionali.",
+      "pt": "Vamos brincar com as letras! Aqui a criança observa uma letra grande e encontra a sua parceira pequena, ou então parte da letrinha minúscula para achar a maiúscula. Cada acerto é uma descoberta tranquila, no ritmo de cada um, sem pressa e sem disputa. Uma forma gostosa de reconhecer as letras do alfabeto, alinhada à BNCC.",
+      "fr": "Voici un joli jeu pour reconnaître les lettres ! À chaque tour, une lettre apparaît en grand : à toi de toucher la même lettre dans son autre forme. Tu apprends ainsi à relier les majuscules et les minuscules, tout doucement, à ton rythme. Prends ton temps, observe bien chaque lettre et amuse-toi. Une activité pensée pour accompagner les premiers apprentissages, en lien avec les programmes officiels.",
+      "nl": "Welkom bij dit fijne letterspel! Je ziet steeds één grote letter, een hoofdletter, in het midden. Daaronder staan vier kleine letters. Tik op de kleine letter die bij de grote letter hoort. Soms draaien we het om: dan zoek je juist de hoofdletter bij een kleine letter. Neem rustig de tijd en oefen samen het herkennen van letters. Een warme start die past bij de SLO-kerndoelen voor groep 3.",
+      "sv": "Här får barnet para ihop stora och små bokstäver. En stor bokstav visas, och barnet trycker på den lilla bokstaven som hör ihop med den – eller tvärtom. Ni övar lugnt i er egen takt, utan tid eller poäng. Det är ett varmt och roligt sätt att lära känna hela alfabetet, även å, ä och ö. Aktiviteten följer Lgr22.",
+      "da": "Her øver dit barn at kende bogstaverne igen. Et stort bogstav vises, og barnet finder det samme lille bogstav – eller omvendt. Vi leger med både store og små bogstaver, også de hyggelige danske æ, ø og å. Tag jer god tid og hav det sjovt sammen, helt uden ur eller point. Aktiviteten støtter de tidlige læsefærdigheder i Fælles Mål.",
+      "no": "Her får barnet øve på å kjenne igjen bokstaver. En stor bokstav vises, og barnet trykker på den lille bokstaven som hører til – eller omvendt. Vi tar med hele det norske alfabetet, også æ, ø og å. Ingen klokke og ingen poeng, bare rolig og trygg lek med bokstaver. Aktiviteten støtter arbeidet med bokstavkjennskap i tråd med LK20.",
+      "fi": "Tervetuloa harjoittelemaan kirjaimia! Tässä leikissä lapsi näkee yhden ison tai pienen kirjaimen ja etsii sille parin: saman kirjaimen toisen muodon. Isot ja pienet kirjaimet kuuluvat yhteen, ja niiden tunnistaminen on tärkeä askel lukemaan oppimisessa. Edetään rauhassa ja omaan tahtiin, ilman kiirettä tai pisteitä. Harjoitus tukee lapsen kirjaintuntemusta OPS 2014 -opetussuunnitelman mukaisesti."
+    },
+    "kid_prompt_template": "promptFindBig"
   }
 ]

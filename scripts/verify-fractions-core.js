@@ -136,6 +136,10 @@ function verifyRound(label, shape, n, cut, rot) {
 
 let roundCount = 0;
 for (const row of manifest) {
+  /* This gate proves the EQUAL-AREA partition geometry (shape/n/cut rounds).
+     Other fractions templates (e.g. grid-count 2.G.A.2 — {rows,cols} rounds, no
+     shape) have their own measured gate; skip them here. */
+  if (row.task_template && row.task_template !== 'partition-equal-shares') continue;
   const rounds = (row.params && row.params.rounds) || [];
   rounds.forEach((r, i) => {
     roundCount++;

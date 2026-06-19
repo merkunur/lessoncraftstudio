@@ -7394,5 +7394,673 @@
       "fi": "Tervetuloa harjoittelemaan alkuäänteitä! Lapsi näkee kirjaimen ja etsii kuvan, jonka suomenkielinen sana alkaa samalla äänteellä. Suomi on läpinäkyvä kieli: kirjain vastaa äännettä, joten harjoitus tukee kuulemista ja lukemaan oppimista lempeästi ja kiireettä. Tehtävässä ei ole kelloa eikä pisteitä — vain iloista oivaltamista omaan tahtiin. Harjoitus tukee OPS 2014 -opetussuunnitelman tavoitteita."
     },
     "kid_prompt_template": "promptStartsWith"
+  },
+  {
+    "id": "choice-board.onset-rime-blend.rf-k-2-c",
+    "tool": "choice-board-activity",
+    "task_template": "onset-rime-blend",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.c",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "byLocale": {
+        "en": {
+          "rounds": [
+            {
+              "onset": "c",
+              "rime": "at",
+              "correct": {
+                "noun": "cat",
+                "themeDir": "animals",
+                "word": "Cat"
+              },
+              "distractors": [
+                {
+                  "noun": "bat",
+                  "themeDir": "animals",
+                  "word": "Bat"
+                },
+                {
+                  "noun": "bed",
+                  "themeDir": "around the house",
+                  "word": "Bed"
+                },
+                {
+                  "noun": "car",
+                  "themeDir": "toys",
+                  "word": "Car"
+                }
+              ]
+            },
+            {
+              "onset": "h",
+              "rime": "at",
+              "correct": {
+                "noun": "hat",
+                "themeDir": "accessories",
+                "word": "Hat"
+              },
+              "distractors": [
+                {
+                  "noun": "cat",
+                  "themeDir": "animals",
+                  "word": "Cat"
+                },
+                {
+                  "noun": "bag",
+                  "themeDir": "At the Supermarket",
+                  "word": "Bag"
+                },
+                {
+                  "noun": "bee",
+                  "themeDir": "farm animals",
+                  "word": "Bee"
+                }
+              ]
+            },
+            {
+              "onset": "b",
+              "rime": "ag",
+              "correct": {
+                "noun": "bag",
+                "themeDir": "At the Supermarket",
+                "word": "Bag"
+              },
+              "distractors": [
+                {
+                  "noun": "flag",
+                  "themeDir": "4th of July",
+                  "word": "Flag"
+                },
+                {
+                  "noun": "cat",
+                  "themeDir": "animals",
+                  "word": "Cat"
+                },
+                {
+                  "noun": "bed",
+                  "themeDir": "around the house",
+                  "word": "Bed"
+                }
+              ]
+            },
+            {
+              "onset": "b",
+              "rime": "ed",
+              "correct": {
+                "noun": "bed",
+                "themeDir": "around the house",
+                "word": "Bed"
+              },
+              "distractors": [
+                {
+                  "noun": "sled",
+                  "themeDir": "winter",
+                  "word": "Sled"
+                },
+                {
+                  "noun": "cat",
+                  "themeDir": "animals",
+                  "word": "Cat"
+                },
+                {
+                  "noun": "car",
+                  "themeDir": "toys",
+                  "word": "Car"
+                }
+              ]
+            },
+            {
+              "onset": "b",
+              "rime": "ee",
+              "correct": {
+                "noun": "bee",
+                "themeDir": "farm animals",
+                "word": "Bee"
+              },
+              "distractors": [
+                {
+                  "noun": "tree",
+                  "themeDir": "christmas",
+                  "word": "Tree"
+                },
+                {
+                  "noun": "cat",
+                  "themeDir": "animals",
+                  "word": "Cat"
+                },
+                {
+                  "noun": "bag",
+                  "themeDir": "At the Supermarket",
+                  "word": "Bag"
+                }
+              ]
+            },
+            {
+              "onset": "tr",
+              "rime": "ee",
+              "correct": {
+                "noun": "tree",
+                "themeDir": "christmas",
+                "word": "Tree"
+              },
+              "distractors": [
+                {
+                  "noun": "bee",
+                  "themeDir": "farm animals",
+                  "word": "Bee"
+                },
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hat"
+                },
+                {
+                  "noun": "car",
+                  "themeDir": "toys",
+                  "word": "Car"
+                }
+              ]
+            },
+            {
+              "onset": "c",
+              "rime": "ar",
+              "correct": {
+                "noun": "car",
+                "themeDir": "toys",
+                "word": "Car"
+              },
+              "distractors": [
+                {
+                  "noun": "jar",
+                  "themeDir": "kitchen tools",
+                  "word": "Jar"
+                },
+                {
+                  "noun": "cat",
+                  "themeDir": "animals",
+                  "word": "Cat"
+                },
+                {
+                  "noun": "bed",
+                  "themeDir": "around the house",
+                  "word": "Bed"
+                }
+              ]
+            },
+            {
+              "onset": "j",
+              "rime": "ar",
+              "correct": {
+                "noun": "jar",
+                "themeDir": "kitchen tools",
+                "word": "Jar"
+              },
+              "distractors": [
+                {
+                  "noun": "car",
+                  "themeDir": "toys",
+                  "word": "Car"
+                },
+                {
+                  "noun": "star",
+                  "themeDir": "christmas",
+                  "word": "Star"
+                },
+                {
+                  "noun": "bag",
+                  "themeDir": "At the Supermarket",
+                  "word": "Bag"
+                }
+              ]
+            }
+          ]
+        },
+        "nl": {
+          "rounds": [
+            {
+              "onset": "V",
+              "rime": "is",
+              "correct": {
+                "noun": "fish",
+                "themeDir": "animals",
+                "word": "Vis"
+              },
+              "distractors": [
+                {
+                  "noun": "house",
+                  "themeDir": "miscellaneous",
+                  "word": "Huis"
+                },
+                {
+                  "noun": "mouse",
+                  "themeDir": "forest creatures",
+                  "word": "Muis"
+                },
+                {
+                  "noun": "chicken",
+                  "themeDir": "birds 2",
+                  "word": "Kip"
+                }
+              ]
+            },
+            {
+              "onset": "M",
+              "rime": "aan",
+              "correct": {
+                "noun": "moon",
+                "themeDir": "camping",
+                "word": "Maan"
+              },
+              "distractors": [
+                {
+                  "noun": "rooster",
+                  "themeDir": "birds 2",
+                  "word": "Haan"
+                },
+                {
+                  "noun": "swan",
+                  "themeDir": "animals",
+                  "word": "Zwaan"
+                },
+                {
+                  "noun": "jug",
+                  "themeDir": "kitchen tools",
+                  "word": "Kan"
+                }
+              ]
+            },
+            {
+              "onset": "B",
+              "rime": "us",
+              "correct": {
+                "noun": "bus",
+                "themeDir": "vehicles",
+                "word": "Bus"
+              },
+              "distractors": [
+                {
+                  "noun": "sparrow",
+                  "themeDir": "birds 2",
+                  "word": "Mus"
+                },
+                {
+                  "noun": "nose",
+                  "themeDir": "body parts",
+                  "word": "Neus"
+                },
+                {
+                  "noun": "sock",
+                  "themeDir": "accessories",
+                  "word": "Sok"
+                }
+              ]
+            },
+            {
+              "onset": "S",
+              "rime": "ok",
+              "correct": {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "word": "Sok"
+              },
+              "distractors": [
+                {
+                  "noun": "clock",
+                  "themeDir": "around the house",
+                  "word": "Klok"
+                },
+                {
+                  "noun": "mug",
+                  "themeDir": "kitchen tools",
+                  "word": "Mok"
+                },
+                {
+                  "noun": "skirt",
+                  "themeDir": "clothing",
+                  "word": "Rok"
+                }
+              ]
+            },
+            {
+              "onset": "K",
+              "rime": "ip",
+              "correct": {
+                "noun": "chicken",
+                "themeDir": "birds 2",
+                "word": "Kip"
+              },
+              "distractors": [
+                {
+                  "noun": "lip",
+                  "themeDir": "body parts",
+                  "word": "Lip"
+                },
+                {
+                  "noun": "ship",
+                  "themeDir": "vehicles",
+                  "word": "Schip"
+                },
+                {
+                  "noun": "fish",
+                  "themeDir": "animals",
+                  "word": "Vis"
+                }
+              ]
+            },
+            {
+              "onset": "J",
+              "rime": "as",
+              "correct": {
+                "noun": "coat",
+                "themeDir": "clothing",
+                "word": "Jas"
+              },
+              "distractors": [
+                {
+                  "noun": "bag",
+                  "themeDir": "At the Supermarket",
+                  "word": "Tas"
+                },
+                {
+                  "noun": "glass",
+                  "themeDir": "around the house",
+                  "word": "Glas"
+                },
+                {
+                  "noun": "cheese",
+                  "themeDir": "At the Supermarket",
+                  "word": "Kaas"
+                }
+              ]
+            },
+            {
+              "onset": "P",
+              "rime": "ot",
+              "correct": {
+                "noun": "pot",
+                "themeDir": "around the house",
+                "word": "Pot"
+              },
+              "distractors": [
+                {
+                  "noun": "lock",
+                  "themeDir": "around the house",
+                  "word": "Slot"
+                },
+                {
+                  "noun": "boat",
+                  "themeDir": "beach",
+                  "word": "Boot"
+                },
+                {
+                  "noun": "bowl",
+                  "themeDir": "around the house",
+                  "word": "Kom"
+                }
+              ]
+            },
+            {
+              "onset": "V",
+              "rime": "aas",
+              "correct": {
+                "noun": "vase",
+                "themeDir": "around the house",
+                "word": "Vaas"
+              },
+              "distractors": [
+                {
+                  "noun": "cheese",
+                  "themeDir": "At the Supermarket",
+                  "word": "Kaas"
+                },
+                {
+                  "noun": "coat",
+                  "themeDir": "clothing",
+                  "word": "Jas"
+                },
+                {
+                  "noun": "tree",
+                  "themeDir": "christmas",
+                  "word": "Boom"
+                }
+              ]
+            }
+          ]
+        },
+        "da": {
+          "rounds": [
+            {
+              "onset": "H",
+              "rime": "und",
+              "correct": {
+                "noun": "dog",
+                "themeDir": "animals",
+                "word": "Hund"
+              },
+              "distractors": [
+                {
+                  "noun": "mouth",
+                  "themeDir": "body parts",
+                  "word": "Mund"
+                },
+                {
+                  "noun": "cat",
+                  "themeDir": "animals",
+                  "word": "Kat"
+                },
+                {
+                  "noun": "sun",
+                  "themeDir": "beach",
+                  "word": "Sol"
+                }
+              ]
+            },
+            {
+              "onset": "B",
+              "rime": "us",
+              "correct": {
+                "noun": "bus",
+                "themeDir": "vehicles",
+                "word": "Bus"
+              },
+              "distractors": [
+                {
+                  "noun": "house",
+                  "themeDir": "miscellaneous",
+                  "word": "Hus"
+                },
+                {
+                  "noun": "mouse",
+                  "themeDir": "forest creatures",
+                  "word": "Mus"
+                },
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hat"
+                }
+              ]
+            },
+            {
+              "onset": "K",
+              "rime": "at",
+              "correct": {
+                "noun": "cat",
+                "themeDir": "animals",
+                "word": "Kat"
+              },
+              "distractors": [
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hat"
+                },
+                {
+                  "noun": "sock",
+                  "themeDir": "accessories",
+                  "word": "Sok"
+                },
+                {
+                  "noun": "rice",
+                  "themeDir": "At the Supermarket",
+                  "word": "Ris"
+                }
+              ]
+            },
+            {
+              "onset": "Gr",
+              "rime": "is",
+              "correct": {
+                "noun": "pig",
+                "themeDir": "animals",
+                "word": "Gris"
+              },
+              "distractors": [
+                {
+                  "noun": "rice",
+                  "themeDir": "At the Supermarket",
+                  "word": "Ris"
+                },
+                {
+                  "noun": "cup",
+                  "themeDir": "around the house",
+                  "word": "Kop"
+                },
+                {
+                  "noun": "lamb",
+                  "themeDir": "easter",
+                  "word": "Lam"
+                }
+              ]
+            },
+            {
+              "onset": "St",
+              "rime": "ol",
+              "correct": {
+                "noun": "chair",
+                "themeDir": "around the house",
+                "word": "Stol"
+              },
+              "distractors": [
+                {
+                  "noun": "sun",
+                  "themeDir": "beach",
+                  "word": "Sol"
+                },
+                {
+                  "noun": "horse",
+                  "themeDir": "animals",
+                  "word": "Hest"
+                },
+                {
+                  "noun": "comb",
+                  "themeDir": "around the house",
+                  "word": "Kam"
+                }
+              ]
+            },
+            {
+              "onset": "Br",
+              "rime": "ød",
+              "correct": {
+                "noun": "bread",
+                "themeDir": "At the Supermarket",
+                "word": "Brød"
+              },
+              "distractors": [
+                {
+                  "noun": "red",
+                  "themeDir": "colors",
+                  "word": "Rød"
+                },
+                {
+                  "noun": "pig",
+                  "themeDir": "animals",
+                  "word": "Gris"
+                },
+                {
+                  "noun": "bus",
+                  "themeDir": "vehicles",
+                  "word": "Bus"
+                }
+              ]
+            },
+            {
+              "onset": "H",
+              "rime": "est",
+              "correct": {
+                "noun": "horse",
+                "themeDir": "animals",
+                "word": "Hest"
+              },
+              "distractors": [
+                {
+                  "noun": "vest",
+                  "themeDir": "accessories",
+                  "word": "Vest"
+                },
+                {
+                  "noun": "bud",
+                  "themeDir": "spring",
+                  "word": "Knop"
+                },
+                {
+                  "noun": "sheep",
+                  "themeDir": "animals",
+                  "word": "Får"
+                }
+              ]
+            },
+            {
+              "onset": "G",
+              "rime": "ås",
+              "correct": {
+                "noun": "goose",
+                "themeDir": "birds 2",
+                "word": "Gås"
+              },
+              "distractors": [
+                {
+                  "noun": "lock",
+                  "themeDir": "around the house",
+                  "word": "Lås"
+                },
+                {
+                  "noun": "cabbage",
+                  "themeDir": "vegetables",
+                  "word": "Kål"
+                },
+                {
+                  "noun": "sock",
+                  "themeDir": "accessories",
+                  "word": "Sok"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "theme": null,
+    "slug": {
+      "en": "blend-onset-and-rime",
+      "nl": "plak-de-klanken-samen",
+      "da": "saet-lydene-sammen"
+    },
+    "page_title": {
+      "en": "Blend Onset and Rime — Listen and Find the Word",
+      "nl": "Plak de Klanken Samen",
+      "da": "Sæt Lydene Sammen"
+    },
+    "page_intro": {
+      "en": "Hear the ending sound, see the first letter, and blend them into a word — then tap its picture. One of the pictures rhymes, so the first letter is the clue that finds the right word. Take your time; there is no timer and no score. Aligned to Common Core RF.K.2.c — blending and segmenting onsets and rimes of single-syllable spoken words.",
+      "nl": "Welkom bij deze rustige luister- en kijkoefening voor jonge lezers. Je kind ziet de eerste letter en hoort het laatste stukje van het woord. Door die delen samen te plakken — net als hakken en plakken in de klas — ontdekt je kind welk plaatje erbij hoort. Een woordje met dezelfde klank zit er telkens tussen, zodat de eerste letter er echt toe doet. Geen klok, geen punten: gewoon ontdekken en oefenen, in lijn met de SLO-kerndoelen voor groep 3.",
+      "da": "Her hører dit barn slutningen af et ord og ser den første lyd. Sammen smelter I lydene til ét ord og finder det rigtige billede. Der er ingen tid og ingen point – kun roen til at lytte, prøve og opdage, hvordan lyde bliver til ord. En blid og legende start på at læse, helt i tråd med Fælles Mål for dansk i 0.-1. klasse."
+    },
+    "kid_prompt_template": "promptBlend"
   }
 ]

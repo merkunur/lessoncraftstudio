@@ -10,7 +10,18 @@
       "strand": "Geometry"
     },
     "params": {
-      "shapes": ["circle", "square", "triangle", "rectangle", "hexagon", "oval", "star", "diamond", "heart", "pentagon"],
+      "shapes": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle",
+        "hexagon",
+        "oval",
+        "star",
+        "diamond",
+        "heart",
+        "pentagon"
+      ],
       "choicesPerTask": 4
     },
     "theme": null,
@@ -67,12 +78,31 @@
     },
     "params": {
       "shapes": [
-        { "key": "triangle", "sides": 3 },
-        { "key": "square",   "sides": 4 },
-        { "key": "pentagon", "sides": 5 },
-        { "key": "hexagon",  "sides": 6 }
+        {
+          "key": "triangle",
+          "sides": 3
+        },
+        {
+          "key": "square",
+          "sides": 4
+        },
+        {
+          "key": "pentagon",
+          "sides": 5
+        },
+        {
+          "key": "hexagon",
+          "sides": 6
+        }
       ],
-      "distractorPool": [3, 4, 5, 6, 7, 8]
+      "distractorPool": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
     },
     "theme": null,
     "slug": {
@@ -128,24 +158,78 @@
     },
     "params": {
       "pairs": [
-        [7, 6],
-        [9, 2],
-        [5, 4],
-        [8, 1],
-        [8, 7],
-        [10, 3],
-        [3, 2],
-        [9, 5],
-        [10, 9],
-        [5, 1],
-        [8, 6],
-        [4, 3],
-        [10, 4],
-        [9, 7],
-        [2, 1],
-        [8, 5],
-        [10, 6],
-        [10, 1]
+        [
+          7,
+          6
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          7
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          10,
+          1
+        ]
       ]
     },
     "theme": null,
@@ -202,24 +286,150 @@
     },
     "params": {
       "pairs": [
-        { "noun": "cat",        "themeDir": "animals",    "counts": [5, 4] },
-        { "noun": "dog",        "themeDir": "animals",    "counts": [8, 2] },
-        { "noun": "apple",      "themeDir": "fruits",     "counts": [7, 6] },
-        { "noun": "fish",       "themeDir": "animals",    "counts": [8, 3] },
-        { "noun": "duck",       "themeDir": "animals",    "counts": [6, 5] },
-        { "noun": "banana",     "themeDir": "fruits",     "counts": [7, 1] },
-        { "noun": "orange",     "themeDir": "fruits",     "counts": [4, 3] },
-        { "noun": "strawberry", "themeDir": "fruits",     "counts": [6, 2] },
-        { "noun": "rabbit",     "themeDir": "animals",    "counts": [8, 7] },
-        { "noun": "horse",      "themeDir": "animals",    "counts": [5, 1] },
-        { "noun": "pig",        "themeDir": "animals",    "counts": [7, 5] },
-        { "noun": "sheep",      "themeDir": "animals",    "counts": [3, 2] },
-        { "noun": "giraffe",    "themeDir": "animals",    "counts": [8, 4] },
-        { "noun": "pear",       "themeDir": "fruits",     "counts": [8, 6] },
-        { "noun": "lemon",      "themeDir": "fruits",     "counts": [2, 1] },
-        { "noun": "cherry",     "themeDir": "fruits",     "counts": [7, 3] },
-        { "noun": "carrot",     "themeDir": "vegetables", "counts": [6, 4] },
-        { "noun": "pumpkin",    "themeDir": "vegetables", "counts": [8, 1] }
+        {
+          "noun": "cat",
+          "themeDir": "animals",
+          "counts": [
+            5,
+            4
+          ]
+        },
+        {
+          "noun": "dog",
+          "themeDir": "animals",
+          "counts": [
+            8,
+            2
+          ]
+        },
+        {
+          "noun": "apple",
+          "themeDir": "fruits",
+          "counts": [
+            7,
+            6
+          ]
+        },
+        {
+          "noun": "fish",
+          "themeDir": "animals",
+          "counts": [
+            8,
+            3
+          ]
+        },
+        {
+          "noun": "duck",
+          "themeDir": "animals",
+          "counts": [
+            6,
+            5
+          ]
+        },
+        {
+          "noun": "banana",
+          "themeDir": "fruits",
+          "counts": [
+            7,
+            1
+          ]
+        },
+        {
+          "noun": "orange",
+          "themeDir": "fruits",
+          "counts": [
+            4,
+            3
+          ]
+        },
+        {
+          "noun": "strawberry",
+          "themeDir": "fruits",
+          "counts": [
+            6,
+            2
+          ]
+        },
+        {
+          "noun": "rabbit",
+          "themeDir": "animals",
+          "counts": [
+            8,
+            7
+          ]
+        },
+        {
+          "noun": "horse",
+          "themeDir": "animals",
+          "counts": [
+            5,
+            1
+          ]
+        },
+        {
+          "noun": "pig",
+          "themeDir": "animals",
+          "counts": [
+            7,
+            5
+          ]
+        },
+        {
+          "noun": "sheep",
+          "themeDir": "animals",
+          "counts": [
+            3,
+            2
+          ]
+        },
+        {
+          "noun": "giraffe",
+          "themeDir": "animals",
+          "counts": [
+            8,
+            4
+          ]
+        },
+        {
+          "noun": "pear",
+          "themeDir": "fruits",
+          "counts": [
+            8,
+            6
+          ]
+        },
+        {
+          "noun": "lemon",
+          "themeDir": "fruits",
+          "counts": [
+            2,
+            1
+          ]
+        },
+        {
+          "noun": "cherry",
+          "themeDir": "fruits",
+          "counts": [
+            7,
+            3
+          ]
+        },
+        {
+          "noun": "carrot",
+          "themeDir": "vegetables",
+          "counts": [
+            6,
+            4
+          ]
+        },
+        {
+          "noun": "pumpkin",
+          "themeDir": "vegetables",
+          "counts": [
+            8,
+            1
+          ]
+        }
       ]
     },
     "theme": null,
@@ -275,7 +485,28 @@
       "strand": "Operations & Algebraic Thinking"
     },
     "params": {
-      "numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+      "numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
     },
     "theme": null,
     "slug": {
@@ -331,16 +562,46 @@
     },
     "params": {
       "shapes": [
-        { "key": "circle",    "kind": "2d" },
-        { "key": "cube",      "kind": "3d" },
-        { "key": "triangle",  "kind": "2d" },
-        { "key": "sphere",    "kind": "3d" },
-        { "key": "square",    "kind": "2d" },
-        { "key": "cylinder",  "kind": "3d" },
-        { "key": "hexagon",   "kind": "2d" },
-        { "key": "cone",      "kind": "3d" },
-        { "key": "rectangle", "kind": "2d" },
-        { "key": "pyramid",   "kind": "3d" }
+        {
+          "key": "circle",
+          "kind": "2d"
+        },
+        {
+          "key": "cube",
+          "kind": "3d"
+        },
+        {
+          "key": "triangle",
+          "kind": "2d"
+        },
+        {
+          "key": "sphere",
+          "kind": "3d"
+        },
+        {
+          "key": "square",
+          "kind": "2d"
+        },
+        {
+          "key": "cylinder",
+          "kind": "3d"
+        },
+        {
+          "key": "hexagon",
+          "kind": "2d"
+        },
+        {
+          "key": "cone",
+          "kind": "3d"
+        },
+        {
+          "key": "rectangle",
+          "kind": "2d"
+        },
+        {
+          "key": "pyramid",
+          "kind": "3d"
+        }
       ]
     },
     "theme": null,
@@ -397,24 +658,78 @@
     },
     "params": {
       "pairs": [
-        [3, 5],
-        [1, 9],
-        [7, 10],
-        [2, 4],
-        [8, 9],
-        [1, 6],
-        [5, 6],
-        [2, 7],
-        [4, 8],
-        [1, 3],
-        [6, 9],
-        [3, 9],
-        [2, 10],
-        [4, 7],
-        [1, 4],
-        [5, 10],
-        [2, 8],
-        [1, 7]
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          1,
+          7
+        ]
       ]
     },
     "theme": null,
@@ -471,24 +786,186 @@
     },
     "params": {
       "items": [
-        { "noun": "owl",        "themeDir": "animals",    "count": 1, "distractors": [2, 3, 4] },
-        { "noun": "elephant",   "themeDir": "animals",    "count": 8, "distractors": [6, 7, 9] },
-        { "noun": "fox",        "themeDir": "animals",    "count": 4, "distractors": [3, 5, 6] },
-        { "noun": "turtle",     "themeDir": "animals",    "count": 2, "distractors": [1, 3, 4] },
-        { "noun": "peach",      "themeDir": "fruits",     "count": 6, "distractors": [4, 5, 7] },
-        { "noun": "watermelon", "themeDir": "fruits",     "count": 3, "distractors": [2, 4, 5] },
-        { "noun": "pineapple",  "themeDir": "fruits",     "count": 7, "distractors": [5, 6, 8] },
-        { "noun": "tomato",     "themeDir": "vegetables", "count": 5, "distractors": [3, 4, 6] },
-        { "noun": "corn",       "themeDir": "vegetables", "count": 1, "distractors": [2, 3, 4] },
-        { "noun": "potato",     "themeDir": "vegetables", "count": 6, "distractors": [5, 7, 8] },
-        { "noun": "onion",      "themeDir": "vegetables", "count": 4, "distractors": [2, 3, 5] },
-        { "noun": "broccoli",   "themeDir": "vegetables", "count": 8, "distractors": [6, 7, 9] },
-        { "noun": "cat",        "themeDir": "animals",    "count": 2, "distractors": [1, 3, 4] },
-        { "noun": "fish",       "themeDir": "animals",    "count": 5, "distractors": [4, 6, 7] },
-        { "noun": "rabbit",     "themeDir": "animals",    "count": 3, "distractors": [1, 2, 4] },
-        { "noun": "apple",      "themeDir": "fruits",     "count": 7, "distractors": [6, 8, 9] },
-        { "noun": "lemon",      "themeDir": "fruits",     "count": 4, "distractors": [3, 5, 6] },
-        { "noun": "pumpkin",    "themeDir": "vegetables", "count": 6, "distractors": [4, 5, 7] }
+        {
+          "noun": "owl",
+          "themeDir": "animals",
+          "count": 1,
+          "distractors": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "noun": "elephant",
+          "themeDir": "animals",
+          "count": 8,
+          "distractors": [
+            6,
+            7,
+            9
+          ]
+        },
+        {
+          "noun": "fox",
+          "themeDir": "animals",
+          "count": 4,
+          "distractors": [
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "noun": "turtle",
+          "themeDir": "animals",
+          "count": 2,
+          "distractors": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "noun": "peach",
+          "themeDir": "fruits",
+          "count": 6,
+          "distractors": [
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "noun": "watermelon",
+          "themeDir": "fruits",
+          "count": 3,
+          "distractors": [
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "noun": "pineapple",
+          "themeDir": "fruits",
+          "count": 7,
+          "distractors": [
+            5,
+            6,
+            8
+          ]
+        },
+        {
+          "noun": "tomato",
+          "themeDir": "vegetables",
+          "count": 5,
+          "distractors": [
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "noun": "corn",
+          "themeDir": "vegetables",
+          "count": 1,
+          "distractors": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "noun": "potato",
+          "themeDir": "vegetables",
+          "count": 6,
+          "distractors": [
+            5,
+            7,
+            8
+          ]
+        },
+        {
+          "noun": "onion",
+          "themeDir": "vegetables",
+          "count": 4,
+          "distractors": [
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "noun": "broccoli",
+          "themeDir": "vegetables",
+          "count": 8,
+          "distractors": [
+            6,
+            7,
+            9
+          ]
+        },
+        {
+          "noun": "cat",
+          "themeDir": "animals",
+          "count": 2,
+          "distractors": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "noun": "fish",
+          "themeDir": "animals",
+          "count": 5,
+          "distractors": [
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "noun": "rabbit",
+          "themeDir": "animals",
+          "count": 3,
+          "distractors": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "noun": "apple",
+          "themeDir": "fruits",
+          "count": 7,
+          "distractors": [
+            6,
+            8,
+            9
+          ]
+        },
+        {
+          "noun": "lemon",
+          "themeDir": "fruits",
+          "count": 4,
+          "distractors": [
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "noun": "pumpkin",
+          "themeDir": "vegetables",
+          "count": 6,
+          "distractors": [
+            4,
+            5,
+            7
+          ]
+        }
       ]
     },
     "theme": null,
@@ -545,18 +1022,66 @@
     },
     "params": {
       "rounds": [
-        { "noun": "pine",      "themeDir": "tree",       "attribute": "taller"  },
-        { "noun": "pencil",    "themeDir": "classroom",  "attribute": "longer"  },
-        { "noun": "candle",    "themeDir": "christmas",  "attribute": "shorter" },
-        { "noun": "carrot",    "themeDir": "vegetables", "attribute": "longer"  },
-        { "noun": "giraffe",   "themeDir": "animals",    "attribute": "taller"  },
-        { "noun": "crayon",    "themeDir": "classroom",  "attribute": "shorter" },
-        { "noun": "palm",      "themeDir": "tree",       "attribute": "taller"  },
-        { "noun": "ruler",     "themeDir": "classroom",  "attribute": "longer"  },
-        { "noun": "marker",    "themeDir": "classroom",  "attribute": "shorter" },
-        { "noun": "sunflower", "themeDir": "flowers",    "attribute": "taller"  },
-        { "noun": "cucumber",  "themeDir": "vegetables", "attribute": "longer"  },
-        { "noun": "corn",      "themeDir": "vegetables", "attribute": "shorter" }
+        {
+          "noun": "pine",
+          "themeDir": "tree",
+          "attribute": "taller"
+        },
+        {
+          "noun": "pencil",
+          "themeDir": "classroom",
+          "attribute": "longer"
+        },
+        {
+          "noun": "candle",
+          "themeDir": "christmas",
+          "attribute": "shorter"
+        },
+        {
+          "noun": "carrot",
+          "themeDir": "vegetables",
+          "attribute": "longer"
+        },
+        {
+          "noun": "giraffe",
+          "themeDir": "animals",
+          "attribute": "taller"
+        },
+        {
+          "noun": "crayon",
+          "themeDir": "classroom",
+          "attribute": "shorter"
+        },
+        {
+          "noun": "palm",
+          "themeDir": "tree",
+          "attribute": "taller"
+        },
+        {
+          "noun": "ruler",
+          "themeDir": "classroom",
+          "attribute": "longer"
+        },
+        {
+          "noun": "marker",
+          "themeDir": "classroom",
+          "attribute": "shorter"
+        },
+        {
+          "noun": "sunflower",
+          "themeDir": "flowers",
+          "attribute": "taller"
+        },
+        {
+          "noun": "cucumber",
+          "themeDir": "vegetables",
+          "attribute": "longer"
+        },
+        {
+          "noun": "corn",
+          "themeDir": "vegetables",
+          "attribute": "shorter"
+        }
       ]
     },
     "theme": null,
@@ -616,135 +1141,431 @@
         {
           "target": "animals",
           "items": [
-            { "noun": "cat",        "themeDir": "animals", "cat": "animals" },
-            { "noun": "dog",        "themeDir": "animals", "cat": "animals" },
-            { "noun": "duck",       "themeDir": "animals", "cat": "animals" },
-            { "noun": "apple",      "themeDir": "fruits",  "cat": "fruits"  },
-            { "noun": "banana",     "themeDir": "fruits",  "cat": "fruits"  }
+            {
+              "noun": "cat",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "dog",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "duck",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "apple",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "banana",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            }
           ]
         },
         {
           "target": "fruits",
           "items": [
-            { "noun": "apple",      "themeDir": "fruits",  "cat": "fruits"  },
-            { "noun": "orange",     "themeDir": "fruits",  "cat": "fruits"  },
-            { "noun": "banana",     "themeDir": "fruits",  "cat": "fruits"  },
-            { "noun": "strawberry", "themeDir": "fruits",  "cat": "fruits"  },
-            { "noun": "dog",        "themeDir": "animals", "cat": "animals" },
-            { "noun": "fish",       "themeDir": "animals", "cat": "animals" }
+            {
+              "noun": "apple",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "orange",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "banana",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "strawberry",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "dog",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "fish",
+              "themeDir": "animals",
+              "cat": "animals"
+            }
           ]
         },
         {
           "target": "animals",
           "items": [
-            { "noun": "fish",       "themeDir": "animals", "cat": "animals" },
-            { "noun": "duck",       "themeDir": "animals", "cat": "animals" },
-            { "noun": "rabbit",     "themeDir": "animals", "cat": "animals" },
-            { "noun": "horse",      "themeDir": "animals", "cat": "animals" },
-            { "noun": "pear",       "themeDir": "fruits",  "cat": "fruits"  },
-            { "noun": "lemon",      "themeDir": "fruits",  "cat": "fruits"  }
+            {
+              "noun": "fish",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "duck",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "rabbit",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "horse",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "pear",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "lemon",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            }
           ]
         },
         {
           "target": "fruits",
           "items": [
-            { "noun": "cherry",     "themeDir": "fruits",  "cat": "fruits"  },
-            { "noun": "apple",      "themeDir": "fruits",  "cat": "fruits"  },
-            { "noun": "pear",       "themeDir": "fruits",  "cat": "fruits"  },
-            { "noun": "horse",      "themeDir": "animals", "cat": "animals" },
-            { "noun": "pig",        "themeDir": "animals", "cat": "animals" },
-            { "noun": "sheep",      "themeDir": "animals", "cat": "animals" },
-            { "noun": "rabbit",     "themeDir": "animals", "cat": "animals" }
+            {
+              "noun": "cherry",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "apple",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "pear",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "horse",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "pig",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "sheep",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "rabbit",
+              "themeDir": "animals",
+              "cat": "animals"
+            }
           ]
         },
         {
           "target": "vehicles",
           "items": [
-            { "noun": "car",        "themeDir": "vehicles", "cat": "vehicles" },
-            { "noun": "bus",        "themeDir": "vehicles", "cat": "vehicles" },
-            { "noun": "cat",        "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "dog",        "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "fish",       "themeDir": "animals",  "cat": "animals"  }
+            {
+              "noun": "car",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            },
+            {
+              "noun": "bus",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            },
+            {
+              "noun": "cat",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "dog",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "fish",
+              "themeDir": "animals",
+              "cat": "animals"
+            }
           ]
         },
         {
           "target": "animals",
           "items": [
-            { "noun": "giraffe",    "themeDir": "animals", "cat": "animals" },
-            { "noun": "horse",      "themeDir": "animals", "cat": "animals" },
-            { "noun": "rabbit",     "themeDir": "animals", "cat": "animals" },
-            { "noun": "pig",        "themeDir": "animals", "cat": "animals" },
-            { "noun": "sheep",      "themeDir": "animals", "cat": "animals" },
-            { "noun": "banana",     "themeDir": "fruits",  "cat": "fruits"  },
-            { "noun": "apple",      "themeDir": "fruits",  "cat": "fruits"  }
+            {
+              "noun": "giraffe",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "horse",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "rabbit",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "pig",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "sheep",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "banana",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "apple",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            }
           ]
         },
         {
           "target": "vehicles",
           "items": [
-            { "noun": "car",        "themeDir": "vehicles", "cat": "vehicles" },
-            { "noun": "bus",        "themeDir": "vehicles", "cat": "vehicles" },
-            { "noun": "truck",      "themeDir": "vehicles", "cat": "vehicles" },
-            { "noun": "train",      "themeDir": "vehicles", "cat": "vehicles" },
-            { "noun": "apple",      "themeDir": "fruits",   "cat": "fruits"   },
-            { "noun": "banana",     "themeDir": "fruits",   "cat": "fruits"   }
+            {
+              "noun": "car",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            },
+            {
+              "noun": "bus",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            },
+            {
+              "noun": "truck",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            },
+            {
+              "noun": "train",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            },
+            {
+              "noun": "apple",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "banana",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            }
           ]
         },
         {
           "target": "animals",
           "items": [
-            { "noun": "owl",        "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "fox",        "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "elephant",   "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "car",        "themeDir": "vehicles", "cat": "vehicles" },
-            { "noun": "truck",      "themeDir": "vehicles", "cat": "vehicles" }
+            {
+              "noun": "owl",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "fox",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "elephant",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "car",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            },
+            {
+              "noun": "truck",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            }
           ]
         },
         {
           "target": "fruits",
           "items": [
-            { "noun": "peach",      "themeDir": "fruits",   "cat": "fruits"   },
-            { "noun": "pineapple",  "themeDir": "fruits",   "cat": "fruits"   },
-            { "noun": "watermelon", "themeDir": "fruits",   "cat": "fruits"   },
-            { "noun": "cherry",     "themeDir": "fruits",   "cat": "fruits"   },
-            { "noun": "horse",      "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "pig",        "themeDir": "animals",  "cat": "animals"  }
+            {
+              "noun": "peach",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "pineapple",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "watermelon",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "cherry",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "horse",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "pig",
+              "themeDir": "animals",
+              "cat": "animals"
+            }
           ]
         },
         {
           "target": "vehicles",
           "items": [
-            { "noun": "airplane",   "themeDir": "vehicles", "cat": "vehicles" },
-            { "noun": "boat",       "themeDir": "vehicles", "cat": "vehicles" },
-            { "noun": "helicopter", "themeDir": "vehicles", "cat": "vehicles" },
-            { "noun": "turtle",     "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "owl",        "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "fox",        "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "rabbit",     "themeDir": "animals",  "cat": "animals"  }
+            {
+              "noun": "airplane",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            },
+            {
+              "noun": "boat",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            },
+            {
+              "noun": "helicopter",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            },
+            {
+              "noun": "turtle",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "owl",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "fox",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "rabbit",
+              "themeDir": "animals",
+              "cat": "animals"
+            }
           ]
         },
         {
           "target": "animals",
           "items": [
-            { "noun": "cat",        "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "dog",        "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "duck",       "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "fish",       "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "rabbit",     "themeDir": "animals",  "cat": "animals"  },
-            { "noun": "orange",     "themeDir": "fruits",   "cat": "fruits"   },
-            { "noun": "lemon",      "themeDir": "fruits",   "cat": "fruits"   }
+            {
+              "noun": "cat",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "dog",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "duck",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "fish",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "rabbit",
+              "themeDir": "animals",
+              "cat": "animals"
+            },
+            {
+              "noun": "orange",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "lemon",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            }
           ]
         },
         {
           "target": "fruits",
           "items": [
-            { "noun": "strawberry", "themeDir": "fruits",   "cat": "fruits"   },
-            { "noun": "pear",       "themeDir": "fruits",   "cat": "fruits"   },
-            { "noun": "lemon",      "themeDir": "fruits",   "cat": "fruits"   },
-            { "noun": "cherry",     "themeDir": "fruits",   "cat": "fruits"   },
-            { "noun": "bus",        "themeDir": "vehicles", "cat": "vehicles" },
-            { "noun": "van",        "themeDir": "vehicles", "cat": "vehicles" },
-            { "noun": "taxi",       "themeDir": "vehicles", "cat": "vehicles" }
+            {
+              "noun": "strawberry",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "pear",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "lemon",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "cherry",
+              "themeDir": "fruits",
+              "cat": "fruits"
+            },
+            {
+              "noun": "bus",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            },
+            {
+              "noun": "van",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            },
+            {
+              "noun": "taxi",
+              "themeDir": "vehicles",
+              "cat": "vehicles"
+            }
           ]
         }
       ]
@@ -803,16 +1624,56 @@
     },
     "params": {
       "rounds": [
-        { "noun": "pencil",     "themeDir": "classroom",  "attribute": "long"  },
-        { "noun": "giraffe",    "themeDir": "animals",    "attribute": "tall"  },
-        { "noun": "rock",       "themeDir": "camping",    "attribute": "heavy" },
-        { "noun": "ruler",      "themeDir": "classroom",  "attribute": "long"  },
-        { "noun": "pumpkin",    "themeDir": "vegetables", "attribute": "heavy" },
-        { "noun": "carrot",     "themeDir": "vegetables", "attribute": "long"  },
-        { "noun": "crayon",     "themeDir": "classroom",  "attribute": "long"  },
-        { "noun": "marker",     "themeDir": "classroom",  "attribute": "long"  },
-        { "noun": "cucumber",   "themeDir": "vegetables", "attribute": "long"  },
-        { "noun": "sunflower",  "themeDir": "flowers",    "attribute": "tall"  }
+        {
+          "noun": "pencil",
+          "themeDir": "classroom",
+          "attribute": "long"
+        },
+        {
+          "noun": "giraffe",
+          "themeDir": "animals",
+          "attribute": "tall"
+        },
+        {
+          "noun": "rock",
+          "themeDir": "camping",
+          "attribute": "heavy"
+        },
+        {
+          "noun": "ruler",
+          "themeDir": "classroom",
+          "attribute": "long"
+        },
+        {
+          "noun": "pumpkin",
+          "themeDir": "vegetables",
+          "attribute": "heavy"
+        },
+        {
+          "noun": "carrot",
+          "themeDir": "vegetables",
+          "attribute": "long"
+        },
+        {
+          "noun": "crayon",
+          "themeDir": "classroom",
+          "attribute": "long"
+        },
+        {
+          "noun": "marker",
+          "themeDir": "classroom",
+          "attribute": "long"
+        },
+        {
+          "noun": "cucumber",
+          "themeDir": "vegetables",
+          "attribute": "long"
+        },
+        {
+          "noun": "sunflower",
+          "themeDir": "flowers",
+          "attribute": "tall"
+        }
       ]
     },
     "theme": null,
@@ -870,111 +1731,279 @@
     "params": {
       "rounds": [
         {
-          "shape": "circle", "fraction": "halves",
+          "shape": "circle",
+          "fraction": "halves",
           "tiles": [
-            { "fig": "circle-halves-v", "correct": true, "label": "circle split into two equal halves" },
-            { "fig": "circle-halves-uneq", "label": "circle split into two unequal parts" },
-            { "fig": "circle-fourths", "label": "circle split into four equal parts" },
-            { "fig": "circle-notsplit", "label": "whole circle, not split into parts" }
+            {
+              "fig": "circle-halves-v",
+              "correct": true,
+              "label": "circle split into two equal halves"
+            },
+            {
+              "fig": "circle-halves-uneq",
+              "label": "circle split into two unequal parts"
+            },
+            {
+              "fig": "circle-fourths",
+              "label": "circle split into four equal parts"
+            },
+            {
+              "fig": "circle-notsplit",
+              "label": "whole circle, not split into parts"
+            }
           ]
         },
         {
-          "shape": "square", "fraction": "halves",
+          "shape": "square",
+          "fraction": "halves",
           "tiles": [
-            { "fig": "sq-halves-v", "correct": true, "label": "square split into two equal halves" },
-            { "fig": "sq-halves-uneq", "label": "square split into two unequal parts" },
-            { "fig": "sq-fourths-grid", "label": "square split into four equal parts" },
-            { "fig": "sq-fourths-uneq", "label": "square split into four unequal parts" }
+            {
+              "fig": "sq-halves-v",
+              "correct": true,
+              "label": "square split into two equal halves"
+            },
+            {
+              "fig": "sq-halves-uneq",
+              "label": "square split into two unequal parts"
+            },
+            {
+              "fig": "sq-fourths-grid",
+              "label": "square split into four equal parts"
+            },
+            {
+              "fig": "sq-fourths-uneq",
+              "label": "square split into four unequal parts"
+            }
           ]
         },
         {
-          "shape": "rectangle", "fraction": "halves",
+          "shape": "rectangle",
+          "fraction": "halves",
           "tiles": [
-            { "fig": "rect-halves-h", "correct": true, "label": "rectangle split into two equal halves" },
-            { "fig": "rect-halves-uneq", "label": "rectangle split into two unequal parts" },
-            { "fig": "rect-fourths-strips", "label": "rectangle split into four equal parts" },
-            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+            {
+              "fig": "rect-halves-h",
+              "correct": true,
+              "label": "rectangle split into two equal halves"
+            },
+            {
+              "fig": "rect-halves-uneq",
+              "label": "rectangle split into two unequal parts"
+            },
+            {
+              "fig": "rect-fourths-strips",
+              "label": "rectangle split into four equal parts"
+            },
+            {
+              "fig": "rect-notsplit",
+              "label": "whole rectangle, not split into parts"
+            }
           ]
         },
         {
-          "shape": "circle", "fraction": "halves",
+          "shape": "circle",
+          "fraction": "halves",
           "tiles": [
-            { "fig": "circle-halves-diag", "correct": true, "label": "circle split into two equal halves" },
-            { "fig": "circle-halves-uneq", "label": "circle split into two unequal parts" },
-            { "fig": "circle-fourths", "label": "circle split into four equal parts" },
-            { "fig": "circle-fourths-uneq", "label": "circle split into four unequal parts" }
+            {
+              "fig": "circle-halves-diag",
+              "correct": true,
+              "label": "circle split into two equal halves"
+            },
+            {
+              "fig": "circle-halves-uneq",
+              "label": "circle split into two unequal parts"
+            },
+            {
+              "fig": "circle-fourths",
+              "label": "circle split into four equal parts"
+            },
+            {
+              "fig": "circle-fourths-uneq",
+              "label": "circle split into four unequal parts"
+            }
           ]
         },
         {
-          "shape": "square", "fraction": "fourths",
+          "shape": "square",
+          "fraction": "fourths",
           "tiles": [
-            { "fig": "sq-fourths-grid", "correct": true, "label": "square split into four equal parts" },
-            { "fig": "sq-fourths-uneq", "label": "square split into four unequal parts" },
-            { "fig": "sq-halves-v", "label": "square split into two equal halves" },
-            { "fig": "sq-notsplit", "label": "whole square, not split into parts" }
+            {
+              "fig": "sq-fourths-grid",
+              "correct": true,
+              "label": "square split into four equal parts"
+            },
+            {
+              "fig": "sq-fourths-uneq",
+              "label": "square split into four unequal parts"
+            },
+            {
+              "fig": "sq-halves-v",
+              "label": "square split into two equal halves"
+            },
+            {
+              "fig": "sq-notsplit",
+              "label": "whole square, not split into parts"
+            }
           ]
         },
         {
-          "shape": "rectangle", "fraction": "fourths",
+          "shape": "rectangle",
+          "fraction": "fourths",
           "tiles": [
-            { "fig": "rect-fourths-grid", "correct": true, "label": "rectangle split into four equal parts" },
-            { "fig": "rect-fourths-uneq", "label": "rectangle split into four unequal parts" },
-            { "fig": "rect-halves-v", "label": "rectangle split into two equal halves" },
-            { "fig": "rect-halves-uneq", "label": "rectangle split into two unequal parts" }
+            {
+              "fig": "rect-fourths-grid",
+              "correct": true,
+              "label": "rectangle split into four equal parts"
+            },
+            {
+              "fig": "rect-fourths-uneq",
+              "label": "rectangle split into four unequal parts"
+            },
+            {
+              "fig": "rect-halves-v",
+              "label": "rectangle split into two equal halves"
+            },
+            {
+              "fig": "rect-halves-uneq",
+              "label": "rectangle split into two unequal parts"
+            }
           ]
         },
         {
-          "shape": "circle", "fraction": "fourths",
+          "shape": "circle",
+          "fraction": "fourths",
           "tiles": [
-            { "fig": "circle-fourths", "correct": true, "label": "circle split into four equal parts" },
-            { "fig": "circle-fourths-uneq", "label": "circle split into four unequal parts" },
-            { "fig": "circle-halves-h", "label": "circle split into two equal halves" },
-            { "fig": "circle-notsplit", "label": "whole circle, not split into parts" }
+            {
+              "fig": "circle-fourths",
+              "correct": true,
+              "label": "circle split into four equal parts"
+            },
+            {
+              "fig": "circle-fourths-uneq",
+              "label": "circle split into four unequal parts"
+            },
+            {
+              "fig": "circle-halves-h",
+              "label": "circle split into two equal halves"
+            },
+            {
+              "fig": "circle-notsplit",
+              "label": "whole circle, not split into parts"
+            }
           ]
         },
         {
-          "shape": "square", "fraction": "halves",
+          "shape": "square",
+          "fraction": "halves",
           "tiles": [
-            { "fig": "sq-halves-diag", "correct": true, "label": "square split into two equal halves" },
-            { "fig": "sq-halves-uneq", "label": "square split into two unequal parts" },
-            { "fig": "sq-fourths-grid", "label": "square split into four equal parts" },
-            { "fig": "sq-fourths-uneq", "label": "square split into four unequal parts" }
+            {
+              "fig": "sq-halves-diag",
+              "correct": true,
+              "label": "square split into two equal halves"
+            },
+            {
+              "fig": "sq-halves-uneq",
+              "label": "square split into two unequal parts"
+            },
+            {
+              "fig": "sq-fourths-grid",
+              "label": "square split into four equal parts"
+            },
+            {
+              "fig": "sq-fourths-uneq",
+              "label": "square split into four unequal parts"
+            }
           ]
         },
         {
-          "shape": "rectangle", "fraction": "halves",
+          "shape": "rectangle",
+          "fraction": "halves",
           "tiles": [
-            { "fig": "rect-halves-v", "correct": true, "label": "rectangle split into two equal halves" },
-            { "fig": "rect-halves-uneq", "label": "rectangle split into two unequal parts" },
-            { "fig": "rect-fourths-strips", "label": "rectangle split into four equal parts" },
-            { "fig": "rect-fourths-uneq", "label": "rectangle split into four unequal parts" }
+            {
+              "fig": "rect-halves-v",
+              "correct": true,
+              "label": "rectangle split into two equal halves"
+            },
+            {
+              "fig": "rect-halves-uneq",
+              "label": "rectangle split into two unequal parts"
+            },
+            {
+              "fig": "rect-fourths-strips",
+              "label": "rectangle split into four equal parts"
+            },
+            {
+              "fig": "rect-fourths-uneq",
+              "label": "rectangle split into four unequal parts"
+            }
           ]
         },
         {
-          "shape": "circle", "fraction": "fourths",
+          "shape": "circle",
+          "fraction": "fourths",
           "tiles": [
-            { "fig": "circle-fourths", "correct": true, "label": "circle split into four equal parts" },
-            { "fig": "circle-fourths-uneq", "label": "circle split into four unequal parts" },
-            { "fig": "circle-halves-v", "label": "circle split into two equal halves" },
-            { "fig": "circle-notsplit", "label": "whole circle, not split into parts" }
+            {
+              "fig": "circle-fourths",
+              "correct": true,
+              "label": "circle split into four equal parts"
+            },
+            {
+              "fig": "circle-fourths-uneq",
+              "label": "circle split into four unequal parts"
+            },
+            {
+              "fig": "circle-halves-v",
+              "label": "circle split into two equal halves"
+            },
+            {
+              "fig": "circle-notsplit",
+              "label": "whole circle, not split into parts"
+            }
           ]
         },
         {
-          "shape": "square", "fraction": "fourths",
+          "shape": "square",
+          "fraction": "fourths",
           "tiles": [
-            { "fig": "sq-fourths-grid", "correct": true, "label": "square split into four equal parts" },
-            { "fig": "sq-fourths-uneq", "label": "square split into four unequal parts" },
-            { "fig": "sq-halves-h", "label": "square split into two equal halves" },
-            { "fig": "sq-halves-uneq", "label": "square split into two unequal parts" }
+            {
+              "fig": "sq-fourths-grid",
+              "correct": true,
+              "label": "square split into four equal parts"
+            },
+            {
+              "fig": "sq-fourths-uneq",
+              "label": "square split into four unequal parts"
+            },
+            {
+              "fig": "sq-halves-h",
+              "label": "square split into two equal halves"
+            },
+            {
+              "fig": "sq-halves-uneq",
+              "label": "square split into two unequal parts"
+            }
           ]
         },
         {
-          "shape": "rectangle", "fraction": "halves",
+          "shape": "rectangle",
+          "fraction": "halves",
           "tiles": [
-            { "fig": "rect-halves-h", "correct": true, "label": "rectangle split into two equal halves" },
-            { "fig": "rect-halves-uneq", "label": "rectangle split into two unequal parts" },
-            { "fig": "rect-fourths-grid", "label": "rectangle split into four equal parts" },
-            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+            {
+              "fig": "rect-halves-h",
+              "correct": true,
+              "label": "rectangle split into two equal halves"
+            },
+            {
+              "fig": "rect-halves-uneq",
+              "label": "rectangle split into two unequal parts"
+            },
+            {
+              "fig": "rect-fourths-grid",
+              "label": "rectangle split into four equal parts"
+            },
+            {
+              "fig": "rect-notsplit",
+              "label": "whole rectangle, not split into parts"
+            }
           ]
         }
       ]
@@ -1034,111 +2063,291 @@
     "params": {
       "rounds": [
         {
-          "shape": "square", "fraction": "halves", "anchorFig": "sq-halves-diag",
+          "shape": "square",
+          "fraction": "halves",
+          "anchorFig": "sq-halves-diag",
           "tiles": [
-            { "fig": "sq-halves-v", "correct": true, "label": "square split into two equal halves a different way" },
-            { "fig": "sq-halves-uneq", "label": "square split into two unequal parts" },
-            { "fig": "sq-fourths-grid", "label": "square split into four equal parts" },
-            { "fig": "sq-notsplit", "label": "whole square, not split into parts" }
+            {
+              "fig": "sq-halves-v",
+              "correct": true,
+              "label": "square split into two equal halves a different way"
+            },
+            {
+              "fig": "sq-halves-uneq",
+              "label": "square split into two unequal parts"
+            },
+            {
+              "fig": "sq-fourths-grid",
+              "label": "square split into four equal parts"
+            },
+            {
+              "fig": "sq-notsplit",
+              "label": "whole square, not split into parts"
+            }
           ]
         },
         {
-          "shape": "rectangle", "fraction": "halves", "anchorFig": "rect-halves-v",
+          "shape": "rectangle",
+          "fraction": "halves",
+          "anchorFig": "rect-halves-v",
           "tiles": [
-            { "fig": "rect-halves-h", "correct": true, "label": "rectangle split into two equal halves a different way" },
-            { "fig": "rect-halves-uneq", "label": "rectangle split into two unequal parts" },
-            { "fig": "rect-fourths-grid", "label": "rectangle split into four equal parts" },
-            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+            {
+              "fig": "rect-halves-h",
+              "correct": true,
+              "label": "rectangle split into two equal halves a different way"
+            },
+            {
+              "fig": "rect-halves-uneq",
+              "label": "rectangle split into two unequal parts"
+            },
+            {
+              "fig": "rect-fourths-grid",
+              "label": "rectangle split into four equal parts"
+            },
+            {
+              "fig": "rect-notsplit",
+              "label": "whole rectangle, not split into parts"
+            }
           ]
         },
         {
-          "shape": "square", "fraction": "halves", "anchorFig": "sq-halves-v",
+          "shape": "square",
+          "fraction": "halves",
+          "anchorFig": "sq-halves-v",
           "tiles": [
-            { "fig": "sq-halves-diag", "correct": true, "label": "square split into two equal halves a different way" },
-            { "fig": "sq-halves-uneq", "label": "square split into two unequal parts" },
-            { "fig": "sq-fourths-strips", "label": "square split into four equal parts" },
-            { "fig": "sq-notsplit", "label": "whole square, not split into parts" }
+            {
+              "fig": "sq-halves-diag",
+              "correct": true,
+              "label": "square split into two equal halves a different way"
+            },
+            {
+              "fig": "sq-halves-uneq",
+              "label": "square split into two unequal parts"
+            },
+            {
+              "fig": "sq-fourths-strips",
+              "label": "square split into four equal parts"
+            },
+            {
+              "fig": "sq-notsplit",
+              "label": "whole square, not split into parts"
+            }
           ]
         },
         {
-          "shape": "rectangle", "fraction": "halves", "anchorFig": "rect-halves-diag",
+          "shape": "rectangle",
+          "fraction": "halves",
+          "anchorFig": "rect-halves-diag",
           "tiles": [
-            { "fig": "rect-halves-v", "correct": true, "label": "rectangle split into two equal halves a different way" },
-            { "fig": "rect-halves-uneq", "label": "rectangle split into two unequal parts" },
-            { "fig": "rect-fourths-strips", "label": "rectangle split into four equal parts" },
-            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+            {
+              "fig": "rect-halves-v",
+              "correct": true,
+              "label": "rectangle split into two equal halves a different way"
+            },
+            {
+              "fig": "rect-halves-uneq",
+              "label": "rectangle split into two unequal parts"
+            },
+            {
+              "fig": "rect-fourths-strips",
+              "label": "rectangle split into four equal parts"
+            },
+            {
+              "fig": "rect-notsplit",
+              "label": "whole rectangle, not split into parts"
+            }
           ]
         },
         {
-          "shape": "rectangle", "fraction": "fourths", "anchorFig": "rect-fourths-grid",
+          "shape": "rectangle",
+          "fraction": "fourths",
+          "anchorFig": "rect-fourths-grid",
           "tiles": [
-            { "fig": "rect-fourths-strips", "correct": true, "label": "rectangle split into four equal parts a different way" },
-            { "fig": "rect-fourths-uneq", "label": "rectangle split into four unequal parts" },
-            { "fig": "rect-halves-v", "label": "rectangle split into two equal parts" },
-            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+            {
+              "fig": "rect-fourths-strips",
+              "correct": true,
+              "label": "rectangle split into four equal parts a different way"
+            },
+            {
+              "fig": "rect-fourths-uneq",
+              "label": "rectangle split into four unequal parts"
+            },
+            {
+              "fig": "rect-halves-v",
+              "label": "rectangle split into two equal parts"
+            },
+            {
+              "fig": "rect-notsplit",
+              "label": "whole rectangle, not split into parts"
+            }
           ]
         },
         {
-          "shape": "square", "fraction": "fourths", "anchorFig": "sq-fourths-grid",
+          "shape": "square",
+          "fraction": "fourths",
+          "anchorFig": "sq-fourths-grid",
           "tiles": [
-            { "fig": "sq-fourths-strips", "correct": true, "label": "square split into four equal parts a different way" },
-            { "fig": "sq-fourths-uneq", "label": "square split into four unequal parts" },
-            { "fig": "sq-halves-v", "label": "square split into two equal parts" },
-            { "fig": "sq-notsplit", "label": "whole square, not split into parts" }
+            {
+              "fig": "sq-fourths-strips",
+              "correct": true,
+              "label": "square split into four equal parts a different way"
+            },
+            {
+              "fig": "sq-fourths-uneq",
+              "label": "square split into four unequal parts"
+            },
+            {
+              "fig": "sq-halves-v",
+              "label": "square split into two equal parts"
+            },
+            {
+              "fig": "sq-notsplit",
+              "label": "whole square, not split into parts"
+            }
           ]
         },
         {
-          "shape": "rectangle", "fraction": "fourths", "anchorFig": "rect-fourths-strips",
+          "shape": "rectangle",
+          "fraction": "fourths",
+          "anchorFig": "rect-fourths-strips",
           "tiles": [
-            { "fig": "rect-fourths-grid", "correct": true, "label": "rectangle split into four equal parts a different way" },
-            { "fig": "rect-fourths-uneq", "label": "rectangle split into four unequal parts" },
-            { "fig": "rect-halves-h", "label": "rectangle split into two equal parts" },
-            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+            {
+              "fig": "rect-fourths-grid",
+              "correct": true,
+              "label": "rectangle split into four equal parts a different way"
+            },
+            {
+              "fig": "rect-fourths-uneq",
+              "label": "rectangle split into four unequal parts"
+            },
+            {
+              "fig": "rect-halves-h",
+              "label": "rectangle split into two equal parts"
+            },
+            {
+              "fig": "rect-notsplit",
+              "label": "whole rectangle, not split into parts"
+            }
           ]
         },
         {
-          "shape": "rectangle", "fraction": "thirds", "anchorFig": "rect-thirds-v",
+          "shape": "rectangle",
+          "fraction": "thirds",
+          "anchorFig": "rect-thirds-v",
           "tiles": [
-            { "fig": "rect-thirds-h", "correct": true, "label": "rectangle split into three equal parts a different way" },
-            { "fig": "rect-thirds-uneq", "label": "rectangle split into three unequal parts" },
-            { "fig": "rect-halves-v", "label": "rectangle split into two equal parts" },
-            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+            {
+              "fig": "rect-thirds-h",
+              "correct": true,
+              "label": "rectangle split into three equal parts a different way"
+            },
+            {
+              "fig": "rect-thirds-uneq",
+              "label": "rectangle split into three unequal parts"
+            },
+            {
+              "fig": "rect-halves-v",
+              "label": "rectangle split into two equal parts"
+            },
+            {
+              "fig": "rect-notsplit",
+              "label": "whole rectangle, not split into parts"
+            }
           ]
         },
         {
-          "shape": "square", "fraction": "thirds", "anchorFig": "sq-thirds-v",
+          "shape": "square",
+          "fraction": "thirds",
+          "anchorFig": "sq-thirds-v",
           "tiles": [
-            { "fig": "sq-thirds-h", "correct": true, "label": "square split into three equal parts a different way" },
-            { "fig": "sq-thirds-uneq", "label": "square split into three unequal parts" },
-            { "fig": "sq-fourths-grid", "label": "square split into four equal parts" },
-            { "fig": "sq-notsplit", "label": "whole square, not split into parts" }
+            {
+              "fig": "sq-thirds-h",
+              "correct": true,
+              "label": "square split into three equal parts a different way"
+            },
+            {
+              "fig": "sq-thirds-uneq",
+              "label": "square split into three unequal parts"
+            },
+            {
+              "fig": "sq-fourths-grid",
+              "label": "square split into four equal parts"
+            },
+            {
+              "fig": "sq-notsplit",
+              "label": "whole square, not split into parts"
+            }
           ]
         },
         {
-          "shape": "rectangle", "fraction": "thirds", "anchorFig": "rect-thirds-h",
+          "shape": "rectangle",
+          "fraction": "thirds",
+          "anchorFig": "rect-thirds-h",
           "tiles": [
-            { "fig": "rect-thirds-v", "correct": true, "label": "rectangle split into three equal parts a different way" },
-            { "fig": "rect-thirds-uneq", "label": "rectangle split into three unequal parts" },
-            { "fig": "rect-fourths-grid", "label": "rectangle split into four equal parts" },
-            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+            {
+              "fig": "rect-thirds-v",
+              "correct": true,
+              "label": "rectangle split into three equal parts a different way"
+            },
+            {
+              "fig": "rect-thirds-uneq",
+              "label": "rectangle split into three unequal parts"
+            },
+            {
+              "fig": "rect-fourths-grid",
+              "label": "rectangle split into four equal parts"
+            },
+            {
+              "fig": "rect-notsplit",
+              "label": "whole rectangle, not split into parts"
+            }
           ]
         },
         {
-          "shape": "square", "fraction": "halves", "anchorFig": "sq-halves-h",
+          "shape": "square",
+          "fraction": "halves",
+          "anchorFig": "sq-halves-h",
           "tiles": [
-            { "fig": "sq-halves-diag", "correct": true, "label": "square split into two equal halves a different way" },
-            { "fig": "sq-halves-uneq", "label": "square split into two unequal parts" },
-            { "fig": "sq-thirds-v", "label": "square split into three equal parts" },
-            { "fig": "sq-notsplit", "label": "whole square, not split into parts" }
+            {
+              "fig": "sq-halves-diag",
+              "correct": true,
+              "label": "square split into two equal halves a different way"
+            },
+            {
+              "fig": "sq-halves-uneq",
+              "label": "square split into two unequal parts"
+            },
+            {
+              "fig": "sq-thirds-v",
+              "label": "square split into three equal parts"
+            },
+            {
+              "fig": "sq-notsplit",
+              "label": "whole square, not split into parts"
+            }
           ]
         },
         {
-          "shape": "square", "fraction": "thirds", "anchorFig": "sq-thirds-h",
+          "shape": "square",
+          "fraction": "thirds",
+          "anchorFig": "sq-thirds-h",
           "tiles": [
-            { "fig": "sq-thirds-v", "correct": true, "label": "square split into three equal parts a different way" },
-            { "fig": "sq-thirds-uneq", "label": "square split into three unequal parts" },
-            { "fig": "sq-halves-v", "label": "square split into two equal parts" },
-            { "fig": "sq-notsplit", "label": "whole square, not split into parts" }
+            {
+              "fig": "sq-thirds-v",
+              "correct": true,
+              "label": "square split into three equal parts a different way"
+            },
+            {
+              "fig": "sq-thirds-uneq",
+              "label": "square split into three unequal parts"
+            },
+            {
+              "fig": "sq-halves-v",
+              "label": "square split into two equal parts"
+            },
+            {
+              "fig": "sq-notsplit",
+              "label": "whole square, not split into parts"
+            }
           ]
         }
       ]
@@ -1196,8 +2405,30 @@
       "strand": "Counting & Cardinality"
     },
     "params": {
-      "numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9],
-      "distractorPool": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+      "numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "distractorPool": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
     },
     "theme": null,
     "slug": {
@@ -1245,111 +2476,694 @@
     "id": "choice-board.read-sight-word.rf-k-3-c",
     "tool": "choice-board-activity",
     "task_template": "read-sight-word",
-    "alignment": { "framework": "CCSS", "code": "RF.K.3.c", "grade": "K", "strand": "Reading: Foundational Skills" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.3.c",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
     "params": {
       "byLocale": {
         "en": {
           "rounds": [
-            { "target": "was", "distractors": ["saw", "want", "with"] },
-            { "target": "the", "distractors": ["they", "then", "that"] },
-            { "target": "of", "distractors": ["off", "for", "on"] },
-            { "target": "you", "distractors": ["your", "yes", "use"] },
-            { "target": "see", "distractors": ["she", "say", "so"] },
-            { "target": "and", "distractors": ["an", "end", "said"] },
-            { "target": "go", "distractors": ["got", "do", "so"] },
-            { "target": "like", "distractors": ["lick", "line", "make"] }
+            {
+              "target": "was",
+              "distractors": [
+                "saw",
+                "want",
+                "with"
+              ]
+            },
+            {
+              "target": "the",
+              "distractors": [
+                "they",
+                "then",
+                "that"
+              ]
+            },
+            {
+              "target": "of",
+              "distractors": [
+                "off",
+                "for",
+                "on"
+              ]
+            },
+            {
+              "target": "you",
+              "distractors": [
+                "your",
+                "yes",
+                "use"
+              ]
+            },
+            {
+              "target": "see",
+              "distractors": [
+                "she",
+                "say",
+                "so"
+              ]
+            },
+            {
+              "target": "and",
+              "distractors": [
+                "an",
+                "end",
+                "said"
+              ]
+            },
+            {
+              "target": "go",
+              "distractors": [
+                "got",
+                "do",
+                "so"
+              ]
+            },
+            {
+              "target": "like",
+              "distractors": [
+                "lick",
+                "line",
+                "make"
+              ]
+            }
           ]
         },
-        "de": { "rounds": [
-          { "target": "der", "distractors": ["dem", "den", "wer"] },
-          { "target": "und", "distractors": ["uns", "ein", "um"] },
-          { "target": "ist", "distractors": ["Ast", "Mist", "fast"] },
-          { "target": "ich", "distractors": ["ach", "auch", "euch"] },
-          { "target": "das", "distractors": ["was", "Hals", "Glas"] },
-          { "target": "ein", "distractors": ["sein", "kein", "nein"] },
-          { "target": "mit", "distractors": ["Mut", "mir", "Mitte"] },
-          { "target": "auf", "distractors": ["Lauf", "Kauf", "Raum"] }
-        ] },
-        "es": { "rounds": [
-          { "target": "el", "distractors": ["en", "del", "al"] },
-          { "target": "la", "distractors": ["las", "una", "ya"] },
-          { "target": "los", "distractors": ["las", "dos", "sol"] },
-          { "target": "con", "distractors": ["como", "sin", "cosa"] },
-          { "target": "por", "distractors": ["par", "pero", "poco"] },
-          { "target": "una", "distractors": ["uno", "luna", "unos"] },
-          { "target": "mi", "distractors": ["mil", "mis", "ti"] },
-          { "target": "su", "distractors": ["sus", "sur", "tu"] }
-        ] },
-        "pt": { "rounds": [
-          { "target": "com", "distractors": ["como", "sem", "cor"] },
-          { "target": "não", "distractors": ["nada", "mão", "nos"] },
-          { "target": "que", "distractors": ["quem", "quente", "queda"] },
-          { "target": "uma", "distractors": ["umas", "rima", "luva"] },
-          { "target": "você", "distractors": ["vocês", "voar", "vela"] },
-          { "target": "meu", "distractors": ["meus", "mel", "mar"] },
-          { "target": "de", "distractors": ["dia", "dei", "do"] },
-          { "target": "é", "distractors": ["em", "ele", "eu"] }
-        ] },
-        "fr": { "rounds": [
-          { "target": "les", "distractors": ["des", "mes", "le"] },
-          { "target": "une", "distractors": ["un", "lune", "ne"] },
-          { "target": "et", "distractors": ["en", "le", "de"] },
-          { "target": "il", "distractors": ["si", "lit", "fil"] },
-          { "target": "elle", "distractors": ["belle", "ville", "selle"] },
-          { "target": "dans", "distractors": ["sans", "dent", "danse"] },
-          { "target": "avec", "distractors": ["avoir", "avant", "aveu"] },
-          { "target": "pour", "distractors": ["pourra", "cour", "jour"] }
-        ] },
-        "it": { "rounds": [
-          { "target": "il", "distractors": ["in", "li", "si"] },
-          { "target": "la", "distractors": ["le", "ala", "va"] },
-          { "target": "un", "distractors": ["uno", "una", "tu"] },
-          { "target": "che", "distractors": ["chi", "cena", "cane"] },
-          { "target": "con", "distractors": ["come", "cono", "conta"] },
-          { "target": "non", "distractors": ["nono", "noi", "nove"] },
-          { "target": "per", "distractors": ["pera", "pere", "penna"] },
-          { "target": "sono", "distractors": ["suono", "sano", "sole"] }
-        ] },
-        "nl": { "rounds": [
-          { "target": "de", "distractors": ["die", "den", "te"] },
-          { "target": "het", "distractors": ["hen", "heb", "wet"] },
-          { "target": "een", "distractors": ["en", "eed", "veen"] },
-          { "target": "ik", "distractors": ["in", "is", "uit"] },
-          { "target": "op", "distractors": ["om", "of", "en"] },
-          { "target": "met", "distractors": ["mat", "net", "mes"] },
-          { "target": "niet", "distractors": ["net", "niets", "nieuw"] },
-          { "target": "kan", "distractors": ["kon", "kam", "kar"] }
-        ] },
-        "sv": { "rounds": [
-          { "target": "är", "distractors": ["en", "ett", "har"] },
-          { "target": "och", "distractors": ["ock", "oss", "som"] },
-          { "target": "jag", "distractors": ["dag", "lag", "väg"] },
-          { "target": "det", "distractors": ["den", "del", "dit"] },
-          { "target": "en", "distractors": ["er", "än", "in"] },
-          { "target": "på", "distractors": ["så", "pål", "par"] },
-          { "target": "med", "distractors": ["mer", "ned", "mig"] },
-          { "target": "inte", "distractors": ["inne", "inom", "inre"] }
-        ] },
-        "da": { "rounds": [
-          { "target": "og", "distractors": ["om", "op", "os"] },
-          { "target": "er", "distractors": ["en", "et", "der"] },
-          { "target": "jeg", "distractors": ["jer", "leg", "tog"] },
-          { "target": "det", "distractors": ["der", "den", "de"] },
-          { "target": "på", "distractors": ["så", "nå", "ja"] },
-          { "target": "med", "distractors": ["ned", "ved", "mod"] },
-          { "target": "han", "distractors": ["hen", "hun", "hav"] },
-          { "target": "var", "distractors": ["far", "vor", "har"] }
-        ] },
-        "no": { "rounds": [
-          { "target": "det", "distractors": ["den", "der", "de"] },
-          { "target": "er", "distractors": ["en", "et", "ert"] },
-          { "target": "jeg", "distractors": ["jo", "ja", "jul"] },
-          { "target": "med", "distractors": ["men", "mer", "mor"] },
-          { "target": "har", "distractors": ["han", "hun", "hus"] },
-          { "target": "ikke", "distractors": ["like", "ikon", "isen"] },
-          { "target": "var", "distractors": ["vår", "vil", "ved"] },
-          { "target": "på", "distractors": ["så", "tå", "to"] }
-        ] }
+        "de": {
+          "rounds": [
+            {
+              "target": "der",
+              "distractors": [
+                "dem",
+                "den",
+                "wer"
+              ]
+            },
+            {
+              "target": "und",
+              "distractors": [
+                "uns",
+                "ein",
+                "um"
+              ]
+            },
+            {
+              "target": "ist",
+              "distractors": [
+                "Ast",
+                "Mist",
+                "fast"
+              ]
+            },
+            {
+              "target": "ich",
+              "distractors": [
+                "ach",
+                "auch",
+                "euch"
+              ]
+            },
+            {
+              "target": "das",
+              "distractors": [
+                "was",
+                "Hals",
+                "Glas"
+              ]
+            },
+            {
+              "target": "ein",
+              "distractors": [
+                "sein",
+                "kein",
+                "nein"
+              ]
+            },
+            {
+              "target": "mit",
+              "distractors": [
+                "Mut",
+                "mir",
+                "Mitte"
+              ]
+            },
+            {
+              "target": "auf",
+              "distractors": [
+                "Lauf",
+                "Kauf",
+                "Raum"
+              ]
+            }
+          ]
+        },
+        "es": {
+          "rounds": [
+            {
+              "target": "el",
+              "distractors": [
+                "en",
+                "del",
+                "al"
+              ]
+            },
+            {
+              "target": "la",
+              "distractors": [
+                "las",
+                "una",
+                "ya"
+              ]
+            },
+            {
+              "target": "los",
+              "distractors": [
+                "las",
+                "dos",
+                "sol"
+              ]
+            },
+            {
+              "target": "con",
+              "distractors": [
+                "como",
+                "sin",
+                "cosa"
+              ]
+            },
+            {
+              "target": "por",
+              "distractors": [
+                "par",
+                "pero",
+                "poco"
+              ]
+            },
+            {
+              "target": "una",
+              "distractors": [
+                "uno",
+                "luna",
+                "unos"
+              ]
+            },
+            {
+              "target": "mi",
+              "distractors": [
+                "mil",
+                "mis",
+                "ti"
+              ]
+            },
+            {
+              "target": "su",
+              "distractors": [
+                "sus",
+                "sur",
+                "tu"
+              ]
+            }
+          ]
+        },
+        "pt": {
+          "rounds": [
+            {
+              "target": "com",
+              "distractors": [
+                "como",
+                "sem",
+                "cor"
+              ]
+            },
+            {
+              "target": "não",
+              "distractors": [
+                "nada",
+                "mão",
+                "nos"
+              ]
+            },
+            {
+              "target": "que",
+              "distractors": [
+                "quem",
+                "quente",
+                "queda"
+              ]
+            },
+            {
+              "target": "uma",
+              "distractors": [
+                "umas",
+                "rima",
+                "luva"
+              ]
+            },
+            {
+              "target": "você",
+              "distractors": [
+                "vocês",
+                "voar",
+                "vela"
+              ]
+            },
+            {
+              "target": "meu",
+              "distractors": [
+                "meus",
+                "mel",
+                "mar"
+              ]
+            },
+            {
+              "target": "de",
+              "distractors": [
+                "dia",
+                "dei",
+                "do"
+              ]
+            },
+            {
+              "target": "é",
+              "distractors": [
+                "em",
+                "ele",
+                "eu"
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "rounds": [
+            {
+              "target": "les",
+              "distractors": [
+                "des",
+                "mes",
+                "le"
+              ]
+            },
+            {
+              "target": "une",
+              "distractors": [
+                "un",
+                "lune",
+                "ne"
+              ]
+            },
+            {
+              "target": "et",
+              "distractors": [
+                "en",
+                "le",
+                "de"
+              ]
+            },
+            {
+              "target": "il",
+              "distractors": [
+                "si",
+                "lit",
+                "fil"
+              ]
+            },
+            {
+              "target": "elle",
+              "distractors": [
+                "belle",
+                "ville",
+                "selle"
+              ]
+            },
+            {
+              "target": "dans",
+              "distractors": [
+                "sans",
+                "dent",
+                "danse"
+              ]
+            },
+            {
+              "target": "avec",
+              "distractors": [
+                "avoir",
+                "avant",
+                "aveu"
+              ]
+            },
+            {
+              "target": "pour",
+              "distractors": [
+                "pourra",
+                "cour",
+                "jour"
+              ]
+            }
+          ]
+        },
+        "it": {
+          "rounds": [
+            {
+              "target": "il",
+              "distractors": [
+                "in",
+                "li",
+                "si"
+              ]
+            },
+            {
+              "target": "la",
+              "distractors": [
+                "le",
+                "ala",
+                "va"
+              ]
+            },
+            {
+              "target": "un",
+              "distractors": [
+                "uno",
+                "una",
+                "tu"
+              ]
+            },
+            {
+              "target": "che",
+              "distractors": [
+                "chi",
+                "cena",
+                "cane"
+              ]
+            },
+            {
+              "target": "con",
+              "distractors": [
+                "come",
+                "cono",
+                "conta"
+              ]
+            },
+            {
+              "target": "non",
+              "distractors": [
+                "nono",
+                "noi",
+                "nove"
+              ]
+            },
+            {
+              "target": "per",
+              "distractors": [
+                "pera",
+                "pere",
+                "penna"
+              ]
+            },
+            {
+              "target": "sono",
+              "distractors": [
+                "suono",
+                "sano",
+                "sole"
+              ]
+            }
+          ]
+        },
+        "nl": {
+          "rounds": [
+            {
+              "target": "de",
+              "distractors": [
+                "die",
+                "den",
+                "te"
+              ]
+            },
+            {
+              "target": "het",
+              "distractors": [
+                "hen",
+                "heb",
+                "wet"
+              ]
+            },
+            {
+              "target": "een",
+              "distractors": [
+                "en",
+                "eed",
+                "veen"
+              ]
+            },
+            {
+              "target": "ik",
+              "distractors": [
+                "in",
+                "is",
+                "uit"
+              ]
+            },
+            {
+              "target": "op",
+              "distractors": [
+                "om",
+                "of",
+                "en"
+              ]
+            },
+            {
+              "target": "met",
+              "distractors": [
+                "mat",
+                "net",
+                "mes"
+              ]
+            },
+            {
+              "target": "niet",
+              "distractors": [
+                "net",
+                "niets",
+                "nieuw"
+              ]
+            },
+            {
+              "target": "kan",
+              "distractors": [
+                "kon",
+                "kam",
+                "kar"
+              ]
+            }
+          ]
+        },
+        "sv": {
+          "rounds": [
+            {
+              "target": "är",
+              "distractors": [
+                "en",
+                "ett",
+                "har"
+              ]
+            },
+            {
+              "target": "och",
+              "distractors": [
+                "ock",
+                "oss",
+                "som"
+              ]
+            },
+            {
+              "target": "jag",
+              "distractors": [
+                "dag",
+                "lag",
+                "väg"
+              ]
+            },
+            {
+              "target": "det",
+              "distractors": [
+                "den",
+                "del",
+                "dit"
+              ]
+            },
+            {
+              "target": "en",
+              "distractors": [
+                "er",
+                "än",
+                "in"
+              ]
+            },
+            {
+              "target": "på",
+              "distractors": [
+                "så",
+                "pål",
+                "par"
+              ]
+            },
+            {
+              "target": "med",
+              "distractors": [
+                "mer",
+                "ned",
+                "mig"
+              ]
+            },
+            {
+              "target": "inte",
+              "distractors": [
+                "inne",
+                "inom",
+                "inre"
+              ]
+            }
+          ]
+        },
+        "da": {
+          "rounds": [
+            {
+              "target": "og",
+              "distractors": [
+                "om",
+                "op",
+                "os"
+              ]
+            },
+            {
+              "target": "er",
+              "distractors": [
+                "en",
+                "et",
+                "der"
+              ]
+            },
+            {
+              "target": "jeg",
+              "distractors": [
+                "jer",
+                "leg",
+                "tog"
+              ]
+            },
+            {
+              "target": "det",
+              "distractors": [
+                "der",
+                "den",
+                "de"
+              ]
+            },
+            {
+              "target": "på",
+              "distractors": [
+                "så",
+                "nå",
+                "ja"
+              ]
+            },
+            {
+              "target": "med",
+              "distractors": [
+                "ned",
+                "ved",
+                "mod"
+              ]
+            },
+            {
+              "target": "han",
+              "distractors": [
+                "hen",
+                "hun",
+                "hav"
+              ]
+            },
+            {
+              "target": "var",
+              "distractors": [
+                "far",
+                "vor",
+                "har"
+              ]
+            }
+          ]
+        },
+        "no": {
+          "rounds": [
+            {
+              "target": "det",
+              "distractors": [
+                "den",
+                "der",
+                "de"
+              ]
+            },
+            {
+              "target": "er",
+              "distractors": [
+                "en",
+                "et",
+                "ert"
+              ]
+            },
+            {
+              "target": "jeg",
+              "distractors": [
+                "jo",
+                "ja",
+                "jul"
+              ]
+            },
+            {
+              "target": "med",
+              "distractors": [
+                "men",
+                "mer",
+                "mor"
+              ]
+            },
+            {
+              "target": "har",
+              "distractors": [
+                "han",
+                "hun",
+                "hus"
+              ]
+            },
+            {
+              "target": "ikke",
+              "distractors": [
+                "like",
+                "ikon",
+                "isen"
+              ]
+            },
+            {
+              "target": "var",
+              "distractors": [
+                "vår",
+                "vil",
+                "ved"
+              ]
+            },
+            {
+              "target": "på",
+              "distractors": [
+                "så",
+                "tå",
+                "to"
+              ]
+            }
+          ]
+        }
       }
     },
     "theme": null,
@@ -1395,112 +3209,695 @@
     "id": "choice-board.tell-words-apart.rf-k-3-c",
     "tool": "choice-board-activity",
     "task_template": "read-sight-word",
-    "alignment": { "framework": "CCSS", "code": "RF.K.3.c", "grade": "K", "strand": "Reading: Foundational Skills" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.3.c",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
     "params": {
       "promptKey": "promptTellApart",
       "byLocale": {
         "en": {
           "rounds": [
-            { "target": "was", "distractors": ["saw", "war", "wax"] },
-            { "target": "of", "distractors": ["off", "for", "or"] },
-            { "target": "the", "distractors": ["they", "then", "them"] },
-            { "target": "were", "distractors": ["where", "here", "we"] },
-            { "target": "want", "distractors": ["went", "what", "wait"] },
-            { "target": "no", "distractors": ["on", "now", "not"] },
-            { "target": "who", "distractors": ["how", "why", "hot"] },
-            { "target": "saw", "distractors": ["was", "say", "sat"] }
+            {
+              "target": "was",
+              "distractors": [
+                "saw",
+                "war",
+                "wax"
+              ]
+            },
+            {
+              "target": "of",
+              "distractors": [
+                "off",
+                "for",
+                "or"
+              ]
+            },
+            {
+              "target": "the",
+              "distractors": [
+                "they",
+                "then",
+                "them"
+              ]
+            },
+            {
+              "target": "were",
+              "distractors": [
+                "where",
+                "here",
+                "we"
+              ]
+            },
+            {
+              "target": "want",
+              "distractors": [
+                "went",
+                "what",
+                "wait"
+              ]
+            },
+            {
+              "target": "no",
+              "distractors": [
+                "on",
+                "now",
+                "not"
+              ]
+            },
+            {
+              "target": "who",
+              "distractors": [
+                "how",
+                "why",
+                "hot"
+              ]
+            },
+            {
+              "target": "saw",
+              "distractors": [
+                "was",
+                "say",
+                "sat"
+              ]
+            }
           ]
         },
-        "de": { "rounds": [
-          { "target": "der", "distractors": ["dir", "den", "dem"] },
-          { "target": "ein", "distractors": ["sein", "kein", "mein"] },
-          { "target": "und", "distractors": ["uns", "rund", "Hund"] },
-          { "target": "mit", "distractors": ["mir", "Mut", "mag"] },
-          { "target": "war", "distractors": ["wir", "wer", "was"] },
-          { "target": "bei", "distractors": ["bin", "bist", "beim"] },
-          { "target": "vom", "distractors": ["von", "vor", "wo"] },
-          { "target": "alle", "distractors": ["alt", "also", "aller"] }
-        ] },
-        "es": { "rounds": [
-          { "target": "el", "distractors": ["en", "es", "mi"] },
-          { "target": "la", "distractors": ["las", "le", "ya"] },
-          { "target": "los", "distractors": ["dos", "las", "sol"] },
-          { "target": "un", "distractors": ["una", "uno", "tan"] },
-          { "target": "con", "distractors": ["como", "sin", "son"] },
-          { "target": "por", "distractors": ["par", "pan", "col"] },
-          { "target": "mis", "distractors": ["mas", "mes", "vid"] },
-          { "target": "sus", "distractors": ["sur", "tus", "luz"] }
-        ] },
-        "pt": { "rounds": [
-          { "target": "o", "distractors": ["eu", "ele", "um"] },
-          { "target": "da", "distractors": ["de", "do", "na"] },
-          { "target": "um", "distractors": ["uma", "em", "eu"] },
-          { "target": "meu", "distractors": ["seu", "teu", "mel"] },
-          { "target": "que", "distractors": ["quem", "qual", "quente"] },
-          { "target": "não", "distractors": ["nada", "mão", "pão"] },
-          { "target": "com", "distractors": ["como", "bom", "som"] },
-          { "target": "ela", "distractors": ["ele", "dela", "mala"] }
-        ] },
-        "fr": { "rounds": [
-          { "target": "les", "distractors": ["bus", "mes", "vis"] },
-          { "target": "une", "distractors": ["lune", "dune", "rune"] },
-          { "target": "dans", "distractors": ["banc", "rang", "sang"] },
-          { "target": "pour", "distractors": ["jour", "cour", "tour"] },
-          { "target": "avec", "distractors": ["bec", "sec", "lac"] },
-          { "target": "mon", "distractors": ["bon", "don", "fond"] },
-          { "target": "son", "distractors": ["bon", "long", "rond"] },
-          { "target": "petit", "distractors": ["lit", "nuit", "bruit"] }
-        ] },
-        "it": { "rounds": [
-          { "target": "il", "distractors": ["in", "un", "al"] },
-          { "target": "la", "distractors": ["le", "lo", "va"] },
-          { "target": "uno", "distractors": ["una", "sole", "nudo"] },
-          { "target": "con", "distractors": ["come", "cono", "cane"] },
-          { "target": "per", "distractors": ["pera", "pero", "pere"] },
-          { "target": "che", "distractors": ["chi", "cane", "casa"] },
-          { "target": "non", "distractors": ["nono", "nome", "mano"] },
-          { "target": "sono", "distractors": ["suono", "sano", "seno"] }
-        ] },
-        "nl": { "rounds": [
-          { "target": "de", "distractors": ["die", "den", "doe"] },
-          { "target": "het", "distractors": ["hen", "heb", "heet"] },
-          { "target": "een", "distractors": ["en", "eet", "aan"] },
-          { "target": "met", "distractors": ["mat", "mes", "mis"] },
-          { "target": "niet", "distractors": ["net", "nieuw", "noot"] },
-          { "target": "dat", "distractors": ["dan", "dak", "das"] },
-          { "target": "kan", "distractors": ["kon", "kar", "kat"] },
-          { "target": "ik", "distractors": ["uit", "is", "in"] }
-        ] },
-        "sv": { "rounds": [
-          { "target": "en", "distractors": ["ett", "än", "in"] },
-          { "target": "är", "distractors": ["var", "här", "när"] },
-          { "target": "det", "distractors": ["den", "de", "dit"] },
-          { "target": "på", "distractors": ["så", "får", "låt"] },
-          { "target": "med", "distractors": ["mer", "mat", "mod"] },
-          { "target": "inte", "distractors": ["inne", "ute", "ifrån"] },
-          { "target": "han", "distractors": ["hon", "hann", "hen"] },
-          { "target": "och", "distractors": ["att", "ofta", "ock"] }
-        ] },
-        "da": { "rounds": [
-          { "target": "en", "distractors": ["et", "han", "der"] },
-          { "target": "er", "distractors": ["der", "har", "var"] },
-          { "target": "det", "distractors": ["den", "der", "ven"] },
-          { "target": "og", "distractors": ["om", "op", "ud"] },
-          { "target": "på", "distractors": ["så", "da", "nu"] },
-          { "target": "med", "distractors": ["ved", "fed", "mit"] },
-          { "target": "han", "distractors": ["hun", "hat", "kan"] },
-          { "target": "var", "distractors": ["vor", "far", "har"] }
-        ] },
-        "no": { "rounds": [
-          { "target": "en", "distractors": ["et", "den", "han"] },
-          { "target": "et", "distractors": ["en", "der", "det"] },
-          { "target": "er", "distractors": ["der", "har", "var"] },
-          { "target": "det", "distractors": ["den", "der", "vet"] },
-          { "target": "med", "distractors": ["men", "ved", "mer"] },
-          { "target": "har", "distractors": ["han", "var", "hare"] },
-          { "target": "var", "distractors": ["vår", "har", "han"] },
-          { "target": "på", "distractors": ["så", "gå", "stå"] }
-        ] }
+        "de": {
+          "rounds": [
+            {
+              "target": "der",
+              "distractors": [
+                "dir",
+                "den",
+                "dem"
+              ]
+            },
+            {
+              "target": "ein",
+              "distractors": [
+                "sein",
+                "kein",
+                "mein"
+              ]
+            },
+            {
+              "target": "und",
+              "distractors": [
+                "uns",
+                "rund",
+                "Hund"
+              ]
+            },
+            {
+              "target": "mit",
+              "distractors": [
+                "mir",
+                "Mut",
+                "mag"
+              ]
+            },
+            {
+              "target": "war",
+              "distractors": [
+                "wir",
+                "wer",
+                "was"
+              ]
+            },
+            {
+              "target": "bei",
+              "distractors": [
+                "bin",
+                "bist",
+                "beim"
+              ]
+            },
+            {
+              "target": "vom",
+              "distractors": [
+                "von",
+                "vor",
+                "wo"
+              ]
+            },
+            {
+              "target": "alle",
+              "distractors": [
+                "alt",
+                "also",
+                "aller"
+              ]
+            }
+          ]
+        },
+        "es": {
+          "rounds": [
+            {
+              "target": "el",
+              "distractors": [
+                "en",
+                "es",
+                "mi"
+              ]
+            },
+            {
+              "target": "la",
+              "distractors": [
+                "las",
+                "le",
+                "ya"
+              ]
+            },
+            {
+              "target": "los",
+              "distractors": [
+                "dos",
+                "las",
+                "sol"
+              ]
+            },
+            {
+              "target": "un",
+              "distractors": [
+                "una",
+                "uno",
+                "tan"
+              ]
+            },
+            {
+              "target": "con",
+              "distractors": [
+                "como",
+                "sin",
+                "son"
+              ]
+            },
+            {
+              "target": "por",
+              "distractors": [
+                "par",
+                "pan",
+                "col"
+              ]
+            },
+            {
+              "target": "mis",
+              "distractors": [
+                "mas",
+                "mes",
+                "vid"
+              ]
+            },
+            {
+              "target": "sus",
+              "distractors": [
+                "sur",
+                "tus",
+                "luz"
+              ]
+            }
+          ]
+        },
+        "pt": {
+          "rounds": [
+            {
+              "target": "o",
+              "distractors": [
+                "eu",
+                "ele",
+                "um"
+              ]
+            },
+            {
+              "target": "da",
+              "distractors": [
+                "de",
+                "do",
+                "na"
+              ]
+            },
+            {
+              "target": "um",
+              "distractors": [
+                "uma",
+                "em",
+                "eu"
+              ]
+            },
+            {
+              "target": "meu",
+              "distractors": [
+                "seu",
+                "teu",
+                "mel"
+              ]
+            },
+            {
+              "target": "que",
+              "distractors": [
+                "quem",
+                "qual",
+                "quente"
+              ]
+            },
+            {
+              "target": "não",
+              "distractors": [
+                "nada",
+                "mão",
+                "pão"
+              ]
+            },
+            {
+              "target": "com",
+              "distractors": [
+                "como",
+                "bom",
+                "som"
+              ]
+            },
+            {
+              "target": "ela",
+              "distractors": [
+                "ele",
+                "dela",
+                "mala"
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "rounds": [
+            {
+              "target": "les",
+              "distractors": [
+                "bus",
+                "mes",
+                "vis"
+              ]
+            },
+            {
+              "target": "une",
+              "distractors": [
+                "lune",
+                "dune",
+                "rune"
+              ]
+            },
+            {
+              "target": "dans",
+              "distractors": [
+                "banc",
+                "rang",
+                "sang"
+              ]
+            },
+            {
+              "target": "pour",
+              "distractors": [
+                "jour",
+                "cour",
+                "tour"
+              ]
+            },
+            {
+              "target": "avec",
+              "distractors": [
+                "bec",
+                "sec",
+                "lac"
+              ]
+            },
+            {
+              "target": "mon",
+              "distractors": [
+                "bon",
+                "don",
+                "fond"
+              ]
+            },
+            {
+              "target": "son",
+              "distractors": [
+                "bon",
+                "long",
+                "rond"
+              ]
+            },
+            {
+              "target": "petit",
+              "distractors": [
+                "lit",
+                "nuit",
+                "bruit"
+              ]
+            }
+          ]
+        },
+        "it": {
+          "rounds": [
+            {
+              "target": "il",
+              "distractors": [
+                "in",
+                "un",
+                "al"
+              ]
+            },
+            {
+              "target": "la",
+              "distractors": [
+                "le",
+                "lo",
+                "va"
+              ]
+            },
+            {
+              "target": "uno",
+              "distractors": [
+                "una",
+                "sole",
+                "nudo"
+              ]
+            },
+            {
+              "target": "con",
+              "distractors": [
+                "come",
+                "cono",
+                "cane"
+              ]
+            },
+            {
+              "target": "per",
+              "distractors": [
+                "pera",
+                "pero",
+                "pere"
+              ]
+            },
+            {
+              "target": "che",
+              "distractors": [
+                "chi",
+                "cane",
+                "casa"
+              ]
+            },
+            {
+              "target": "non",
+              "distractors": [
+                "nono",
+                "nome",
+                "mano"
+              ]
+            },
+            {
+              "target": "sono",
+              "distractors": [
+                "suono",
+                "sano",
+                "seno"
+              ]
+            }
+          ]
+        },
+        "nl": {
+          "rounds": [
+            {
+              "target": "de",
+              "distractors": [
+                "die",
+                "den",
+                "doe"
+              ]
+            },
+            {
+              "target": "het",
+              "distractors": [
+                "hen",
+                "heb",
+                "heet"
+              ]
+            },
+            {
+              "target": "een",
+              "distractors": [
+                "en",
+                "eet",
+                "aan"
+              ]
+            },
+            {
+              "target": "met",
+              "distractors": [
+                "mat",
+                "mes",
+                "mis"
+              ]
+            },
+            {
+              "target": "niet",
+              "distractors": [
+                "net",
+                "nieuw",
+                "noot"
+              ]
+            },
+            {
+              "target": "dat",
+              "distractors": [
+                "dan",
+                "dak",
+                "das"
+              ]
+            },
+            {
+              "target": "kan",
+              "distractors": [
+                "kon",
+                "kar",
+                "kat"
+              ]
+            },
+            {
+              "target": "ik",
+              "distractors": [
+                "uit",
+                "is",
+                "in"
+              ]
+            }
+          ]
+        },
+        "sv": {
+          "rounds": [
+            {
+              "target": "en",
+              "distractors": [
+                "ett",
+                "än",
+                "in"
+              ]
+            },
+            {
+              "target": "är",
+              "distractors": [
+                "var",
+                "här",
+                "när"
+              ]
+            },
+            {
+              "target": "det",
+              "distractors": [
+                "den",
+                "de",
+                "dit"
+              ]
+            },
+            {
+              "target": "på",
+              "distractors": [
+                "så",
+                "får",
+                "låt"
+              ]
+            },
+            {
+              "target": "med",
+              "distractors": [
+                "mer",
+                "mat",
+                "mod"
+              ]
+            },
+            {
+              "target": "inte",
+              "distractors": [
+                "inne",
+                "ute",
+                "ifrån"
+              ]
+            },
+            {
+              "target": "han",
+              "distractors": [
+                "hon",
+                "hann",
+                "hen"
+              ]
+            },
+            {
+              "target": "och",
+              "distractors": [
+                "att",
+                "ofta",
+                "ock"
+              ]
+            }
+          ]
+        },
+        "da": {
+          "rounds": [
+            {
+              "target": "en",
+              "distractors": [
+                "et",
+                "han",
+                "der"
+              ]
+            },
+            {
+              "target": "er",
+              "distractors": [
+                "der",
+                "har",
+                "var"
+              ]
+            },
+            {
+              "target": "det",
+              "distractors": [
+                "den",
+                "der",
+                "ven"
+              ]
+            },
+            {
+              "target": "og",
+              "distractors": [
+                "om",
+                "op",
+                "ud"
+              ]
+            },
+            {
+              "target": "på",
+              "distractors": [
+                "så",
+                "da",
+                "nu"
+              ]
+            },
+            {
+              "target": "med",
+              "distractors": [
+                "ved",
+                "fed",
+                "mit"
+              ]
+            },
+            {
+              "target": "han",
+              "distractors": [
+                "hun",
+                "hat",
+                "kan"
+              ]
+            },
+            {
+              "target": "var",
+              "distractors": [
+                "vor",
+                "far",
+                "har"
+              ]
+            }
+          ]
+        },
+        "no": {
+          "rounds": [
+            {
+              "target": "en",
+              "distractors": [
+                "et",
+                "den",
+                "han"
+              ]
+            },
+            {
+              "target": "et",
+              "distractors": [
+                "en",
+                "der",
+                "det"
+              ]
+            },
+            {
+              "target": "er",
+              "distractors": [
+                "der",
+                "har",
+                "var"
+              ]
+            },
+            {
+              "target": "det",
+              "distractors": [
+                "den",
+                "der",
+                "vet"
+              ]
+            },
+            {
+              "target": "med",
+              "distractors": [
+                "men",
+                "ved",
+                "mer"
+              ]
+            },
+            {
+              "target": "har",
+              "distractors": [
+                "han",
+                "var",
+                "hare"
+              ]
+            },
+            {
+              "target": "var",
+              "distractors": [
+                "vår",
+                "har",
+                "han"
+              ]
+            },
+            {
+              "target": "på",
+              "distractors": [
+                "så",
+                "gå",
+                "stå"
+              ]
+            }
+          ]
+        }
       }
     },
     "theme": null,
@@ -1541,5 +3938,93 @@
       "no": "I denne aktiviteten hører barnet et vanlig ord og skal skille det fra ord som ser nesten like ut (RF.K.3.c). Øvelsen støtter LK20 sitt mål om at elevene på 2. trinn skal lese og kjenne igjen høyfrekvente ord med trygghet."
     },
     "kid_prompt_template": "promptTellApart"
+  },
+  {
+    "id": "choice-board.compare-two-digit.1-nbt-b-3",
+    "tool": "choice-board-activity",
+    "task_template": "compare-2digit",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.NBT.B.3",
+      "grade": "1",
+      "strand": "Number & Operations in Base Ten"
+    },
+    "params": {
+      "pairs": [
+        [
+          47,
+          52
+        ],
+        [
+          63,
+          38
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          71,
+          76
+        ],
+        [
+          54,
+          51
+        ],
+        [
+          29,
+          92
+        ],
+        [
+          88,
+          88
+        ],
+        [
+          60,
+          49
+        ]
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "compare-two-digit-numbers",
+      "de": "zweistellige-zahlen-vergleichen",
+      "es": "comparar-numeros-de-dos-cifras",
+      "it": "confronta-i-numeri-a-due-cifre",
+      "pt": "comparar-numeros-de-dois-digitos",
+      "fr": "comparer-les-nombres-a-deux-chiffres",
+      "nl": "vergelijk-tweecijferige-getallen",
+      "sv": "jamfor-tvasiffriga-tal",
+      "da": "sammenlign-tocifrede-tal",
+      "no": "sammenlign-tosifrede-tall",
+      "fi": "vertaa-kaksinumeroisia-lukuja"
+    },
+    "page_title": {
+      "en": "Compare Two-Digit Numbers — Greater Than, Less Than, Equal",
+      "de": "Zweistellige Zahlen Vergleichen",
+      "es": "Comparar Números de Dos Cifras",
+      "it": "Confronta i Numeri a Due Cifre",
+      "pt": "Comparar Números de Dois Dígitos",
+      "fr": "Comparer Les Nombres À Deux Chiffres",
+      "nl": "Vergelijk Tweecijferige Getallen Met Groter Dan, Gelijk Aan En Kleiner Dan",
+      "sv": "Jämför Tvåsiffriga Tal Med Större Än, Lika Med Och Mindre Än",
+      "da": "Sammenlign Tocifrede Tal Med Større End, Lig Med Og Mindre End",
+      "no": "Sammenlign Tosifrede Tall Med Større Enn, Lik Og Mindre Enn",
+      "fi": "Vertaa Kaksinumeroisia Lukuja"
+    },
+    "page_intro": {
+      "en": "Compare two two-digit numbers using the signs greater than (>), equal to (=), and less than (<). Look at the tens first, then the ones — like 47 and 52 — and tap the statement that is true. Aligned to Common Core 1.NBT.B.3 — comparing two two-digit numbers based on the meanings of the tens and ones digits, recording the results with >, =, and <.",
+      "de": "Hier vergleichen Kinder zwei zweistellige Zahlen mit den Zeichen >, = und <. Sie schauen zuerst auf die Zehner und dann auf die Einer und tippen die wahre Aussage an. So lernen sie Schritt für Schritt, Zahlen sicher zu ordnen. Abgestimmt auf den Lehrplan.",
+      "es": "Compara dos números de dos cifras usando los signos mayor que, igual y menor que. Fíjate primero en las decenas y, si son iguales, después en las unidades para descubrir cuál es la afirmación verdadera. Esta actividad está alineada al Currículo LOMLOE.",
+      "it": "Impariamo a confrontare due numeri a due cifre usando i simboli maggiore (>), uguale (=) e minore (<). I bambini osservano prima le decine e poi le unità per scoprire quale numero è più grande, e toccano l'affermazione vera. Un'attività serena per scoprire l'ordine dei numeri fino a 99, allineata alle Indicazioni nazionali.",
+      "pt": "Nesta atividade, as crianças comparam dois números de dois dígitos usando os símbolos >, = e <. Primeiro a gente olha as dezenas e, se forem iguais, a gente compara as unidades para descobrir qual número é maior, menor ou se são iguais. É uma forma tranquila e divertida de fortalecer o sentido numérico, alinhada à BNCC.",
+      "fr": "Apprends à comparer deux nombres à deux chiffres avec les signes plus grand que, égal et plus petit que. On regarde d'abord les dizaines, puis les unités pour savoir lequel est le plus grand. Une activité de comparaison de nombres pensée pour la grande section et le CP, alignée aux programmes officiels.",
+      "nl": "Bij deze activiteit vergelijken kinderen twee getallen van twee cijfers en kiezen ze het ware teken: groter dan (>), gelijk aan (=) of kleiner dan (<). Ze leren eerst naar de tientallen te kijken en daarna naar de eenheden, zodat ze stap voor stap kunnen bepalen welk getal het grootst is. De oefening is afgestemd op de SLO-kerndoelen voor rekenen in groep 3.",
+      "sv": "I den här aktiviteten övar barnet på att jämföra två tvåsiffriga tal med tecknen >, = och <. Barnet tittar först på tiotalen och sedan på entalen för att se vilket tal som är störst, eller om talen är lika stora. En varm och lugn övning som hjälper barnet att läsa och förstå jämförelsetecken, anpassad till Lgr22.",
+      "da": "Her øver vi os i at sammenligne to tocifrede tal med tegnene >, = og <. Vi kigger først på tierne og bagefter på enerne for at finde ud af, hvilket tal der er størst. Aktiviteten er tilpasset Fælles Mål for matematik i 1. klasse.",
+      "no": "Her øver barna på å sammenligne to tosifrede tall med tegnene >, = og <. De ser først på tierne og deretter på enerne for å finne ut hvilket tall som er størst, eller om tallene er like, og tapper på det utsagnet som er riktig. Oppgaven er tilpasset kompetansemålene i LK20.",
+      "fi": "Tässä tehtävässä lapsi vertaa kahta kaksinumeroista lukua ja valitsee oikean merkin >, = tai <. Vertaaminen aloitetaan kymmenistä ja edetään sitten ykkösiin, jotta lapsi oppii hahmottamaan lukujen suuruuden selkeästi ja rauhassa. Tehtävä on OPS 2014 -opetussuunnitelman mukainen."
+    },
+    "kid_prompt_template": "promptCompareTrue"
   }
 ]

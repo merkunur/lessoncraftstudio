@@ -232,7 +232,21 @@ var ACTIVITY_STRINGS_MP = {
                         sv: 'Vissa jämförelser är inte ihopkopplade med rätt symbol än — tryck på ett par för att lösa upp det och försök igen',
                         da: 'Nogle sammenligninger er ikke forbundet med det rigtige symbol endnu — tryk på et par for at løse det op og prøv igen',
                         no: 'Noen sammenligninger er ikke koblet til riktig symbol ennå — trykk på et par for å løse det opp og prøv igjen',
-                        fi: 'Jotkin vertailut eivät ole vielä yhdistetty oikeaan symboliin — paina paria avataksesi sen ja yritä uudelleen' }
+                        fi: 'Jotkin vertailut eivät ole vielä yhdistetty oikeaan symboliin — paina paria avataksesi sen ja yritä uudelleen' },
+
+  /* ---- commutative template (1.OA.B.3) chrome. The kid matches each addition
+     to the SAME numbers added the other way ("4 + 7" <-> "7 + 4") — the
+     commutative property. Each task has 3 pairs with 3 DIFFERENT sums, so each
+     sum's two cards are its only commuted pair -> matching is forced, no
+     false-correct. 11-locale native-authored (§A.13.48); [NSR-FLAG] sv/da/no/fi.
+     titleCommutative/instructionCommutative drive the in-deck title strip + the
+     accessibility/meta sentence (swapped via the IIFE; title also synced from
+     row.page_title in _loadActivity — kept equal). ---- */
+  taskCommutative: {"en":"Match each addition to the same numbers added the other way","de":"Verbinde jede Plusaufgabe mit denselben Zahlen, die andersherum addiert werden","es":"Relaciona cada suma con los mismos números sumados al revés","it":"Collega ogni addizione agli stessi numeri sommati nell'altro ordine","pt":"Combine cada soma com os mesmos números somados na outra ordem","fr":"Relie chaque addition aux mêmes nombres additionnés dans l'autre sens","nl":"Verbind elke optelling met dezelfde getallen in de andere volgorde","sv":"Koppla ihop varje addition med samma tal lagda åt andra hållet","da":"Forbind hvert plusstykke med de samme tal lagt sammen den anden vej","no":"Koble hvert addisjonsstykke til de samme tallene lagt sammen den andre veien","fi":"Yhdistä jokainen yhteenlasku samoihin lukuihin toisessa järjestyksessä"},
+  hintCommutative: {"en":"Tap an addition, then tap the one with the same numbers in the other order","de":"Tippe auf eine Plusaufgabe, dann auf die mit denselben Zahlen in der anderen Reihenfolge","es":"Toca una suma, luego toca la que tiene los mismos números en el otro orden","it":"Tocca un'addizione, poi tocca quella con gli stessi numeri nell'ordine opposto","pt":"Toque em uma soma, depois toque na que tem os mesmos números na ordem trocada","fr":"Touche une addition, puis touche celle qui a les mêmes nombres dans l'autre ordre","nl":"Tik op een optelling, tik dan op die met dezelfde getallen in de omgekeerde volgorde","sv":"Tryck på en addition, sedan på den med samma tal i omvänd ordning","da":"Tryk på et plusstykke, og tryk så på det med de samme tal i omvendt rækkefølge","no":"Trykk på et addisjonsstykke, og trykk deretter på det med de samme tallene i motsatt rekkefølge","fi":"Paina yhteenlaskua, paina sitten sitä, jossa on samat luvut toisin päin"},
+  hintTryCommutative: {"en":"Some pairs aren't swapped twins yet — tap a pair to break it and try again","de":"Manche Paare sind noch keine vertauschten Zwillinge — tippe ein Paar an, um es zu trennen, und versuch's nochmal","es":"Algunas parejas aún no son gemelas al revés — toca una pareja para deshacerla e inténtalo de nuevo","it":"Alcune coppie non sono ancora gemelle scambiate — tocca una coppia per scioglierla e riprova","pt":"Algumas somas ainda não estão combinadas com seu par trocado — toque em um par para desfazê-lo e tente novamente","fr":"Certaines paires ne sont pas encore des jumelles inversées — touche une paire pour la défaire et réessaie","nl":"Sommige paren zijn nog geen omgewisselde tweelingen — tik op een paar om het te ontkoppelen en probeer opnieuw","sv":"Vissa par är inte omvända tvillingar än — tryck på ett par för att koppla loss det och försök igen","da":"Nogle par er ikke byttet om endnu — tryk på et par for at løse det op og prøv igen","no":"Noen par er ikke byttetvillinger ennå — trykk på et par for å løse det opp og prøv igjen","fi":"Jotkin parit eivät ole vielä käännettyjä kaksosia — paina paria avataksesi sen ja yritä uudelleen"},
+  titleCommutative: {"en":"Add It Both Ways","de":"Beide Wege Rechnen","es":"Suma de las Dos Maneras","it":"Aggiungi Nei Due Ordini","pt":"Some de Duas Maneiras","fr":"Relie les Deux Additions","nl":"Tel Het Op Twee Manieren","sv":"Lägg Ihop På Två Sätt","da":"Læg Sammen Begge Veje","no":"Legg Sammen Begge Veier","fi":"Yhteenlasku Kumpaankin Suuntaan"},
+  instructionCommutative: {"en":"Adding numbers in any order makes the same total. Match each addition to the same numbers added the other way, then tap Check.","de":"Zahlen in beliebiger Reihenfolge zu addieren ergibt dieselbe Summe. Verbinde jede Plusaufgabe mit denselben Zahlen, die andersherum addiert werden, und tippe dann auf Prüfen.","es":"Sumar los números en cualquier orden da el mismo total. Relaciona cada suma con los mismos números sumados al revés, luego toca Comprobar.","it":"Sommare i numeri in qualsiasi ordine dà sempre lo stesso totale. Collega ogni addizione agli stessi numeri sommati nell'altro ordine, poi tocca Controlla.","pt":"Somar números em qualquer ordem dá o mesmo total. Combine cada soma com os mesmos números somados na outra ordem, depois toque em Verificar.","fr":"Additionner des nombres dans n'importe quel ordre donne le même total. Relie chaque addition aux mêmes nombres additionnés dans l'autre sens, puis touche Vérifier.","nl":"Getallen optellen in welke volgorde dan ook geeft dezelfde uitkomst. Verbind elke optelling met dezelfde getallen in de andere volgorde en tik dan op Controleer.","sv":"Att lägga ihop tal i vilken ordning som helst ger samma summa. Koppla ihop varje addition med samma tal lagda åt andra hållet, tryck sedan på Kontrollera.","da":"Når du lægger tal sammen, får du det samme i alt, uanset hvilken vej du gør det. Forbind hvert plusstykke med de samme tal lagt sammen den anden vej, og tryk så på Tjek.","no":"Når du legger sammen tall, blir summen den samme uansett rekkefølge. Koble hvert addisjonsstykke til de samme tallene lagt sammen den andre veien, og trykk så på Sjekk.","fi":"Lukujen järjestys ei muuta summaa. Yhdistä jokainen yhteenlasku samoihin lukuihin toisin päin laskettuna, paina sitten Tarkista."}
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -743,6 +757,90 @@ function makeCompareTasks(tasksRaw, idPrefix) {
   });
 }
 
+/* task_template 'commutative' (1.OA.B.3) — "Apply properties of operations as
+   strategies to add and subtract." The commutative property is the match-pairs-
+   NATIVE instantiation: each task shows 6 cards = 3 pairs, each pair an addition
+   and its COMMUTED form ("4 + 7" ↔ "7 + 4"), and the matching VERB *is*
+   commutativity (same sum, swapped order). Each task uses 3 DISTINCT sums, so a
+   sum's only two cards are its a+b / b+a → matching is forced to the commuted
+   partner with no false-correct. Cards are {display, kind:'expr', value} objects;
+   validity is `a.value === b.value` — IDENTICAL to equal-value/find-missing/
+   compare-3digit, so the engine state machine + connector renderer are UNCHANGED
+   (no core.js touch, no _speakWordTable → taps silent, no PlaceValueCore).
+   Number-free celebration ("You matched every pair!"). Scatter reuses
+   scatterThreeForm (6 cards; value-generic) to avoid column-stacking giveaways.
+   Distinct from 1.OA.D.7 equal-value (that matches addition↔SUBTRACTION; this
+   matches addition↔commuted-addition). */
+function makeCommutativeTasks(tasksRaw, idPrefix) {
+  return tasksRaw.map(function (t, i) {
+    var cards = t.cards.slice();
+    return {
+      id: idPrefix + '.task-' + i,
+      promptKey: 'taskCommutative',
+      answerType: 'state',
+      setup: function (tool) {
+        tool.setupTask({ cards: cards });          /* core Fisher-Yates shuffle */
+        tool.cards = scatterThreeForm(tool.cards); /* anti-column-stack (value-generic) */
+        tool.cardsState = tool.cards.map(function () { return 'unpaired'; });
+        tool.render();   /* fresh DOM per task — clears prior board */
+      },
+      check: function (tool) {
+        /* Pass criteria: every card paired AND every formed pair has two cards
+           of EQUAL value (an addition and its commuted form). */
+        if (!tool.allPaired()) return false;
+        var wrong = {};
+        var ok = true;
+        tool.pairsFormed.forEach(function (p) {
+          var a = tool.cards[p[0]];
+          var b = tool.cards[p[1]];
+          var valid = a && b && typeof a === 'object' && typeof b === 'object'
+                      && typeof a.value === 'number' && a.value === b.value;
+          if (!valid) { wrong[p[0]] = true; wrong[p[1]] = true; ok = false; }
+        });
+        if (!ok) {
+          tool.wrongIdxSet = wrong;
+          tool.paint();
+          tool.speakTryAgain();
+          return false;
+        }
+        /* Correct! Lock the board + speak the truthful, number-free celebration
+           (a task has three different sums). */
+        tool.readOnly = true;
+        tool.paint();
+        if (window.LCSAudio && window.LCSAudio.speak) {
+          var done = (tool.strings.speakMatchedAll && tool.strings.speakMatchedAll[tool.language])
+                     || tool.strings.speakMatchedAll.en;
+          window.LCSAudio.speak({ type: 'ui', text: done, lang: tool.language, rate: 0.95 });
+        }
+        return true;
+      },
+      hintKey: function (tool) {
+        if (!tool.allPaired()) return 'hintCommutative';
+        return 'hintTryCommutative';
+      }
+    };
+  });
+}
+
+/* Per-pass order-only reshuffle (§A.13.60) — ported verbatim from
+   number-bond-activity.js. Used ONLY by the commutative template (which installs
+   tool.nextTask + nulls tool.tasks); the other 5 match-pairs activities keep the
+   shell's per-mount tool.tasks[] path byte-identical. */
+function _sameOrderMP(a, b) {
+  if (!b || a.length !== b.length) return false;
+  for (var i = 0; i < a.length; i++) { if (a[i] !== b[i]) return false; }
+  return true;
+}
+function shuffledOrderMP(n, prev) {
+  var idx = [], i, j, t;
+  for (i = 0; i < n; i++) idx.push(i);
+  if (n < 2) return idx;
+  do {
+    for (i = n - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = idx[i]; idx[i] = idx[j]; idx[j] = t; }
+  } while (_sameOrderMP(idx, prev));
+  return idx;
+}
+
 window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
   id: 'match-pairs-activity',
   strings: Object.assign({}, MatchPairsCore.strings, ACTIVITY_STRINGS_MP, {
@@ -807,7 +905,30 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
       if (titleEl && wantTitle && titleEl.textContent !== wantTitle) {
         titleEl.textContent = wantTitle;
       }
-      self.tasks = self._buildTasksFromRow(row);
+      if (row.task_template === 'commutative') {
+        /* §A.13.60 per-pass reshuffle: install nextTask + null tasks so the
+           shell routes through tool.nextTask() (tasks takes priority in the
+           shell, so it MUST be null here). The other 5 templates fall to the
+           else and keep the per-mount tool.tasks[] path byte-identical. */
+        self._pool = self._buildTasksFromRow(row);
+        self.tasks = null;
+        self._order = null; self._curPass = 0; self._orderForPool = null;
+        self.nextTask = function (opts) {
+          var pool = (self._pool && self._pool.length) ? self._pool : STATIC_DEMO_TASKS_MP;
+          var n = pool.length;
+          var i = (opts && opts.index) || 0;
+          if (!self._order || self._orderForPool !== pool || self._order.length !== n) {
+            self._order = shuffledOrderMP(n, null);
+            self._orderForPool = pool;
+            self._curPass = 0;
+          }
+          var pass = (n > 0) ? Math.floor(i / n) : 0;
+          if (pass > self._curPass) { self._order = shuffledOrderMP(n, self._order); self._curPass = pass; }
+          return pool[self._order[i % n]];
+        };
+      } else {
+        self.tasks = self._buildTasksFromRow(row);
+      }
       if (typeof window.LCS_reloadFirstTask === 'function') {
         window.LCS_reloadFirstTask();
       }
@@ -837,8 +958,45 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
       var cmpTasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
       return makeCompareTasks(cmpTasks, row.id);
     }
+    if (row.task_template === 'commutative') {
+      var coTasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
+      /* defensive: each task = 6 cards / 3 DISTINCT sums / each pair a true
+         commuted addition a≠b. Warn (don't throw) so a stray task is visible
+         in dev without breaking the live board. */
+      if (window.console && console.warn) {
+        coTasks.forEach(function (t, ti) {
+          var cs = (t && Array.isArray(t.cards)) ? t.cards : [];
+          if (cs.length !== 6) console.warn('[match-pairs-activity] commutative task ' + ti + ' has ' + cs.length + ' cards (expected 6)');
+          var vals = {};
+          cs.forEach(function (c) { if (c && typeof c.value === 'number') vals[c.value] = (vals[c.value] || 0) + 1; });
+          var keys = Object.keys(vals);
+          if (keys.length !== 3) console.warn('[match-pairs-activity] commutative task ' + ti + ' has ' + keys.length + ' distinct sums (expected 3)');
+          keys.forEach(function (v) { if (vals[v] !== 2) console.warn('[match-pairs-activity] commutative task ' + ti + ' sum ' + v + ' appears ' + vals[v] + 'x (expected 2)'); });
+        });
+      }
+      return makeCommutativeTasks(coTasks, row.id);
+    }
     return STATIC_DEMO_TASKS_MP;
   }
 });
+
+/* The shell reads tool.strings.title/instruction at MOUNT (before init + before
+   the async manifest fetch). For the commutative activity, swap them to the
+   commutative variants synchronously (this module runs before the inline
+   LCS.mount) so the in-deck title strip + the accessibility/meta sentence read
+   "Add It Both Ways" — not "Make the Number". The default (make-n) path and the
+   other 4 templates are untouched. (Per-task prompt is handled via
+   promptKey:'taskCommutative'; the title is also synced from row.page_title in
+   _loadActivity — kept equal, so no flash.) */
+(function () {
+  var p = (typeof window !== 'undefined' && window.location) ? new URLSearchParams(window.location.search) : null;
+  var id = p ? p.get('activity') : null;
+  if (id && id.indexOf('add-it-both-ways') >= 0) {
+    MatchPairsActivity.strings = Object.assign({}, MatchPairsActivity.strings, {
+      title: MatchPairsActivity.strings.titleCommutative,
+      instruction: MatchPairsActivity.strings.instructionCommutative
+    });
+  }
+})();
 
 MatchPairsCore.injectCSS();

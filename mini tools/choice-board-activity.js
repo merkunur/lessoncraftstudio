@@ -166,6 +166,13 @@ var ACTIVITY_STRINGS = {
      tiles are bare universal numerals; the unit lives in this prompt. EN
      authoritative; the 10 non-EN authored by the native ensemble (§A.13.48). */
   promptHowManyCm: {"en":"How many centimeters long?","de":"Wie viele Zentimeter lang?","es":"¿Cuántos centímetros mide?","it":"Quanti centimetri è lungo?","pt":"Quantos centímetros tem?","fr":"Combien de centimètres ?","nl":"Hoeveel centimeter lang?","sv":"Hur många centimeter lång?","da":"Hvor mange centimeter lang?","no":"Hvor mange centimeter lang?","fi":"Kuinka monta senttimetriä?"},
+  /* RF.K.1.d — match upper/lowercase letters. Shown one letter (subject), the
+     child taps its OTHER-CASE match. promptFindSmall = the answer is lowercase
+     ("tap the small letter"); promptFindBig = the answer is uppercase. The
+     wrapper picks by the answer's case. Per-locale native alphabets (incl.
+     diacritics) ride in params.byLocale.<loc>.rounds, NOT a shared A–Z. */
+  promptFindSmall: {"en":"Tap the small letter","de":"Tippe auf den kleinen Buchstaben","es":"Toca la letra minúscula","it":"Tocca la lettera minuscola","pt":"Toque na letra minúscula","fr":"Touche la petite lettre","nl":"Tik op de kleine letter","sv":"Tryck på den lilla bokstaven","da":"Tryk på det lille bogstav","no":"Trykk på den lille bokstaven","fi":"Napauta pientä kirjainta"},
+  promptFindBig: {"en":"Tap the big letter","de":"Tippe auf den großen Buchstaben","es":"Toca la letra mayúscula","it":"Tocca la lettera maiuscola","pt":"Toque na letra maiúscula","fr":"Touche la grande lettre","nl":"Tik op de grote letter","sv":"Tryck på den stora bokstaven","da":"Tryk på det store bogstav","no":"Trykk på den store bokstaven","fi":"Napauta isoa kirjainta"},
   /* Batch 2 K.G.A.3 — Flat or solid (2D vs 3D) */
   promptFlatOrSolid: {
     en: 'Is this shape flat or solid?',
@@ -978,7 +985,7 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       if (!row) return;
       self._activityRow = row;
       var built = self._buildTasksFromRow(row);
-      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit' || row.task_template === 'ten-more-less' || row.task_template === 'read-ruler') {
+      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit' || row.task_template === 'ten-more-less' || row.task_template === 'read-ruler' || row.task_template === 'letter-case') {
         /* per-pass reshuffle path: shell uses nextTask() when tasks is unset */
         self._pool = built; self._order = null; self._curPass = 0; self._orderForPool = null;
         self.tasks = null;
@@ -1310,6 +1317,46 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
           },
           check: function (tool) {
             var ok = tool.answer === String(n);
+            tool.showFeedback(ok);
+            return ok;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: letter-case (RF.K.1.d) — recognize & match upper/lowercase
+       letters. A single letter is the text subject; the child taps its
+       OTHER-CASE match from 4 letter tiles (answer + 3 visually-confusable
+       same-case foils → EXACTLY ONE correct). Bidirectional: rounds mix
+       UPPER→lower and lower→UPPER (the standard's "upper- AND lowercase"). The
+       prompt (small/big) is derived from the answer's case. Per-locale native
+       alphabets (incl. diacritics) ride in params.byLocale.<loc>.rounds — NEVER
+       a shared A–Z (the sight-word byLocale shape; content locale via
+       window.LCS.i18n.current). Each round = { prompt, answer, distractors }. */
+    if (row.task_template === 'letter-case') {
+      var lcLoc = (window.LCS && window.LCS.i18n && window.LCS.i18n.current) || 'en';
+      var lcByLoc = (row.params && row.params.byLocale) || {};
+      var lcL = lcByLoc[lcLoc] || lcByLoc.en;
+      var lcRounds = (lcL && lcL.rounds) || [];
+      return lcRounds.map(function (r, i) {
+        var prompt = r.prompt, answer = r.answer, distractors = r.distractors || [];
+        var answerIsLower = (answer === answer.toLowerCase() && answer !== answer.toUpperCase());
+        return {
+          id: row.id + '.r' + i + '-' + answer,
+          promptKey: answerIsLower ? 'promptFindSmall' : 'promptFindBig',
+          answerType: 'state',
+          setup: function (tool) {
+            var seed = (i + 1) * 131;
+            for (var c = 0; c < answer.length; c++) seed = (seed * 31 + answer.charCodeAt(c)) | 0;
+            var ordered = seededShuffle([answer].concat(distractors), seed);
+            var options = ordered.map(function (g) { return { key: g, text: g }; });
+            tool.setupTask(options, answer, { type: 'text', text: prompt });
+          },
+          check: function (tool) {
+            var ok = tool.answer === answer;
             tool.showFeedback(ok);
             return ok;
           },

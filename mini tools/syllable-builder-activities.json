@@ -3700,5 +3700,149 @@
       "en": "Some long vowel sounds are spelled with two vowels working together as a team — oa in boat, ai in rain, ea in leaf, ee in bee. Tap the sound chunks to build the word for the picture, choosing the right vowel team as one piece, and tap Hear it to listen. Take your time; there is no timer and no score. Aligned to Common Core RF.1.3 — knowing common vowel-team conventions for representing long vowel sounds."
     },
     "kid_prompt_template": "promptVowelTeam"
+  },
+  {
+    "id": "syllable-builder.build-endings.rf-1-3-f",
+    "tool": "syllable-builder-activity",
+    "task_template": "build-endings",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.1.3.F",
+      "grade": "1",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "language": "en-US",
+      "words": [
+        {
+          "base": "cat",
+          "ending": "s",
+          "targetWord": "cats",
+          "tiles": [
+            "cat",
+            "s"
+          ],
+          "distractors": [
+            "ed",
+            "ing"
+          ]
+        },
+        {
+          "base": "dog",
+          "ending": "s",
+          "targetWord": "dogs",
+          "tiles": [
+            "dog",
+            "s"
+          ],
+          "distractors": [
+            "ed",
+            "ing"
+          ]
+        },
+        {
+          "base": "book",
+          "ending": "s",
+          "targetWord": "books",
+          "tiles": [
+            "book",
+            "s"
+          ],
+          "distractors": [
+            "ed",
+            "ing"
+          ]
+        },
+        {
+          "base": "jump",
+          "ending": "ing",
+          "targetWord": "jumping",
+          "tiles": [
+            "jump",
+            "ing"
+          ],
+          "distractors": [
+            "ed",
+            "s"
+          ]
+        },
+        {
+          "base": "walk",
+          "ending": "ing",
+          "targetWord": "walking",
+          "tiles": [
+            "walk",
+            "ing"
+          ],
+          "distractors": [
+            "ed",
+            "s"
+          ]
+        },
+        {
+          "base": "help",
+          "ending": "ing",
+          "targetWord": "helping",
+          "tiles": [
+            "help",
+            "ing"
+          ],
+          "distractors": [
+            "ed",
+            "s"
+          ]
+        },
+        {
+          "base": "play",
+          "ending": "ed",
+          "targetWord": "played",
+          "tiles": [
+            "play",
+            "ed"
+          ],
+          "distractors": [
+            "ing",
+            "s"
+          ]
+        },
+        {
+          "base": "rain",
+          "ending": "ed",
+          "targetWord": "rained",
+          "tiles": [
+            "rain",
+            "ed"
+          ],
+          "distractors": [
+            "ing",
+            "s"
+          ]
+        },
+        {
+          "base": "paint",
+          "ending": "ed",
+          "targetWord": "painted",
+          "tiles": [
+            "paint",
+            "ed"
+          ],
+          "distractors": [
+            "ing",
+            "s"
+          ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "build-words-with-endings"
+    },
+    "page_title": {
+      "en": "Build Words with Endings — Reading -s, -ed, and -ing"
+    },
+    "page_intro": {
+      "en": "A word can change when you add an ending. Add -s to make more than one (cat becomes cats), -ed to tell what already happened (play becomes played), and -ing to tell what is happening now (jump becomes jumping). Read the base word, listen with Hear it, and tap the right ending to build the word. Take your time; there is no timer and no score. Aligned to Common Core RF.1.3.f — reading words with inflectional endings."
+    },
+    "kid_prompt_template": "promptEnding"
   }
 ]

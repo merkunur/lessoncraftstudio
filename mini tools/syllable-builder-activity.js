@@ -44,6 +44,17 @@ var SYLLABLE_ACTIVITY_STRINGS = {
     sv: 'Tap the sounds to build the word for this picture.', da: 'Tap the sounds to build the word for this picture.',
     no: 'Tap the sounds to build the word for this picture.', fi: 'Tap the sounds to build the word for this picture.'
   },
+  /* RF.1.3.f inflectional endings (EN-only) — read the base word, then add the
+     right ending (-s/-ed/-ing) to build the named target word. {word} = the
+     target. EN-only; non-EN fall back to EN but never route (slug.en only). */
+  promptEnding: {
+    en: 'Read the base. Tap the base, then add the ending to build {word}.',
+    de: 'Read the base. Tap the base, then add the ending to build {word}.', fr: 'Read the base. Tap the base, then add the ending to build {word}.',
+    it: 'Read the base. Tap the base, then add the ending to build {word}.', es: 'Read the base. Tap the base, then add the ending to build {word}.',
+    pt: 'Read the base. Tap the base, then add the ending to build {word}.', nl: 'Read the base. Tap the base, then add the ending to build {word}.',
+    sv: 'Read the base. Tap the base, then add the ending to build {word}.', da: 'Read the base. Tap the base, then add the ending to build {word}.',
+    no: 'Read the base. Tap the base, then add the ending to build {word}.', fi: 'Read the base. Tap the base, then add the ending to build {word}.'
+  },
   hintFillAllSyllableSlots: {
     en: 'Place a syllable in each slot, then check.',
     de: 'Lege eine Silbe in jeden Platz und tippe dann auf Überprüfen.',
@@ -198,7 +209,7 @@ window.SyllableBuilderActivity = Object.assign({}, WordBuilderCore, {
 
   _loadActivity: function () {
     var self = this;
-    fetch('/mini-tools/syllable-builder-activities.json?v=15').then(function (r) {
+    fetch('/mini-tools/syllable-builder-activities.json?v=16').then(function (r) {
       if (!r.ok) throw new Error('manifest fetch failed: ' + r.status);
       return r.json();
     }).then(function (rows) {
@@ -206,7 +217,7 @@ window.SyllableBuilderActivity = Object.assign({}, WordBuilderCore, {
       if (!row) return;
       self._activityRow = row;
       var built = self._buildTasksFromRow(row);
-      if (row.task_template === 'build-vowel-teams') {
+      if (row.task_template === 'build-vowel-teams' || row.task_template === 'build-endings') {
         /* per-pass reshuffle path: shell uses nextTask() when tasks is unset */
         self._pool = built; self._order = null; self._curPass = 0; self._orderForPool = null;
         self.tasks = null;
@@ -270,6 +281,54 @@ window.SyllableBuilderActivity = Object.assign({}, WordBuilderCore, {
                 hearItLang: entry.hearItLang || vtLang
               },
               language: entry.hearItLang || vtLang
+            });
+          },
+          check: function (tool) {
+            var correct = _tilesEqual(tool.tileAnswers, tiles);
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintFillAllSyllableSlots' : 'hintSyllableOrderOff';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: build-endings (RF.1.3.f, EN-only) — WORD-ONLY (no picture; the
+       image library is nouns-only so -ed/-ing verbs cannot be picture-anchored).
+       The base word is the subject TEXT; the kid reads it, then builds the named
+       target by adding the right inflectional ending (-s/-ed/-ing) as ONE unit
+       tile. Palette = [base, correctEnding] + the OTHER TWO endings (the
+       ending-discrimination is load-bearing). Ordered _tilesEqual check. Per-tile
+       audio MUTED (single-letter endings speak as letter names); Hear-it speaks
+       the whole target + speakBlend on correct. params.words = [{ base, ending,
+       targetWord, tiles:[base,ending], distractors:[otherEnding,otherEnding] }]. */
+    if (row.task_template === 'build-endings') {
+      var endWords = row.params.words || [];
+      var endLang = row.params.language || 'en-US';
+      return endWords.map(function (entry) {
+        var tiles = entry.tiles.slice();
+        var palette = _buildVowelTeamPalette(tiles, entry.distractors || [], entry.targetWord);
+        return {
+          id: row.id + '.' + entry.targetWord,
+          promptKey: 'promptEnding',
+          promptArgs: { word: entry.targetWord },
+          answerType: 'state',
+          setup: function (tool) {
+            tool.setupTask({
+              slots: tiles.length,
+              palette: palette,
+              targetWord: entry.targetWord,
+              targetTiles: tiles,
+              mutePerTile: true,
+              subject: {
+                type: 'text',
+                text: entry.base,
+                hearItWord: entry.targetWord,
+                hearItLang: entry.hearItLang || endLang
+              },
+              language: entry.hearItLang || endLang
             });
           },
           check: function (tool) {

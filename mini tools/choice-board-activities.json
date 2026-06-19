@@ -8062,5 +8062,220 @@
       "da": "Her hører dit barn slutningen af et ord og ser den første lyd. Sammen smelter I lydene til ét ord og finder det rigtige billede. Der er ingen tid og ingen point – kun roen til at lytte, prøve og opdage, hvordan lyde bliver til ord. En blid og legende start på at læse, helt i tråd med Fælles Mål for dansk i 0.-1. klasse."
     },
     "kid_prompt_template": "promptBlend"
+  },
+  {
+    "id": "choice-board.read-cvc-word.rf-k-3",
+    "tool": "choice-board-activity",
+    "task_template": "read-cvc-word",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.3",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "rounds": [
+        {
+          "word": "cat",
+          "correct": {
+            "noun": "cat",
+            "themeDir": "animals"
+          },
+          "distractors": [
+            {
+              "noun": "cap",
+              "themeDir": "accessories"
+            },
+            {
+              "noun": "can",
+              "themeDir": "At the Supermarket"
+            },
+            {
+              "noun": "car",
+              "themeDir": "toys"
+            }
+          ]
+        },
+        {
+          "word": "can",
+          "correct": {
+            "noun": "can",
+            "themeDir": "At the Supermarket"
+          },
+          "distractors": [
+            {
+              "noun": "cat",
+              "themeDir": "animals"
+            },
+            {
+              "noun": "cap",
+              "themeDir": "accessories"
+            },
+            {
+              "noun": "bus",
+              "themeDir": "vehicles"
+            }
+          ]
+        },
+        {
+          "word": "cap",
+          "correct": {
+            "noun": "cap",
+            "themeDir": "accessories"
+          },
+          "distractors": [
+            {
+              "noun": "cat",
+              "themeDir": "animals"
+            },
+            {
+              "noun": "car",
+              "themeDir": "toys"
+            },
+            {
+              "noun": "ham",
+              "themeDir": "At the Supermarket"
+            }
+          ]
+        },
+        {
+          "word": "bus",
+          "correct": {
+            "noun": "bus",
+            "themeDir": "vehicles"
+          },
+          "distractors": [
+            {
+              "noun": "bun",
+              "themeDir": "bakery"
+            },
+            {
+              "noun": "bud",
+              "themeDir": "spring"
+            },
+            {
+              "noun": "cat",
+              "themeDir": "animals"
+            }
+          ]
+        },
+        {
+          "word": "bun",
+          "correct": {
+            "noun": "bun",
+            "themeDir": "bakery"
+          },
+          "distractors": [
+            {
+              "noun": "bus",
+              "themeDir": "vehicles"
+            },
+            {
+              "noun": "bud",
+              "themeDir": "spring"
+            },
+            {
+              "noun": "hat",
+              "themeDir": "accessories"
+            }
+          ]
+        },
+        {
+          "word": "hat",
+          "correct": {
+            "noun": "hat",
+            "themeDir": "accessories"
+          },
+          "distractors": [
+            {
+              "noun": "ham",
+              "themeDir": "At the Supermarket"
+            },
+            {
+              "noun": "bat",
+              "themeDir": "animals"
+            },
+            {
+              "noun": "sun",
+              "themeDir": "beach"
+            }
+          ]
+        },
+        {
+          "word": "bat",
+          "correct": {
+            "noun": "bat",
+            "themeDir": "animals"
+          },
+          "distractors": [
+            {
+              "noun": "bag",
+              "themeDir": "At the Supermarket"
+            },
+            {
+              "noun": "ham",
+              "themeDir": "At the Supermarket"
+            },
+            {
+              "noun": "jam",
+              "themeDir": "At the Supermarket"
+            }
+          ]
+        },
+        {
+          "word": "jam",
+          "correct": {
+            "noun": "jam",
+            "themeDir": "At the Supermarket"
+          },
+          "distractors": [
+            {
+              "noun": "jar",
+              "themeDir": "kitchen tools"
+            },
+            {
+              "noun": "bus",
+              "themeDir": "vehicles"
+            },
+            {
+              "noun": "pig",
+              "themeDir": "animals"
+            }
+          ]
+        },
+        {
+          "word": "lip",
+          "correct": {
+            "noun": "lip",
+            "themeDir": "body parts"
+          },
+          "distractors": [
+            {
+              "noun": "lid",
+              "themeDir": "kitchen tools"
+            },
+            {
+              "noun": "sun",
+              "themeDir": "beach"
+            },
+            {
+              "noun": "mug",
+              "themeDir": "kitchen tools"
+            }
+          ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "read-the-word-tap-the-picture"
+    },
+    "page_title": {
+      "en": "Read the Word, Tap the Picture — Decoding CVC Words"
+    },
+    "page_intro": {
+      "en": "Reading starts with decoding — sounding out each letter and blending the sounds into a word. Here the child reads a short printed word like cat, can, or bus, then taps the picture it names. The picture choices share beginnings on purpose (cat, cap, can), so the only way to find the right one is to read the whole word, all the way to the last sound. Take your time; there is no timer and no score. Aligned to Common Core RF.K.3 — knowing and applying grade-level phonics to decode words."
+    },
+    "kid_prompt_template": "promptReadWord"
   }
 ]

@@ -173,6 +173,11 @@ var ACTIVITY_STRINGS = {
      diacritics) ride in params.byLocale.<loc>.rounds, NOT a shared A–Z. */
   promptFindSmall: {"en":"Tap the small letter","de":"Tippe auf den kleinen Buchstaben","es":"Toca la letra minúscula","it":"Tocca la lettera minuscola","pt":"Toque na letra minúscula","fr":"Touche la petite lettre","nl":"Tik op de kleine letter","sv":"Tryck på den lilla bokstaven","da":"Tryk på det lille bogstav","no":"Trykk på den lille bokstaven","fi":"Napauta pientä kirjainta"},
   promptFindBig: {"en":"Tap the big letter","de":"Tippe auf den großen Buchstaben","es":"Toca la letra mayúscula","it":"Tocca la lettera maiuscola","pt":"Toque na letra maiúscula","fr":"Touche la grande lettre","nl":"Tik op de grote letter","sv":"Tryck på den stora bokstaven","da":"Tryk på det store bogstav","no":"Trykk på den store bokstaven","fi":"Napauta isoa kirjainta"},
+  /* RF.K.3.a — beginning sound. A consonant LETTER is the subject; the child
+     taps the PICTURE whose locale-word starts with that letter's primary sound.
+     Per-locale picture↔sound pairings (native-owned) ride in
+     params.byLocale.<loc>.rounds. NO audio — the letter is the visual stimulus. */
+  promptStartsWith: {"en":"Which picture starts with this sound?","de":"Welches Bild beginnt mit diesem Laut?","es":"¿Qué imagen empieza con este sonido?","it":"Quale immagine inizia con questo suono?","pt":"Qual imagem começa com este som?","fr":"Quelle image commence par ce son ?","nl":"Welke afbeelding begint met deze klank?","sv":"Vilken bild börjar med detta ljud?","da":"Hvilket billede begynder med denne lyd?","no":"Hvilket bilde begynner med denne lyden?","fi":"Mikä kuva alkaa tällä äänteellä?"},
   /* Batch 2 K.G.A.3 — Flat or solid (2D vs 3D) */
   promptFlatOrSolid: {
     en: 'Is this shape flat or solid?',
@@ -985,7 +990,7 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       if (!row) return;
       self._activityRow = row;
       var built = self._buildTasksFromRow(row);
-      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit' || row.task_template === 'ten-more-less' || row.task_template === 'read-ruler' || row.task_template === 'letter-case') {
+      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit' || row.task_template === 'ten-more-less' || row.task_template === 'read-ruler' || row.task_template === 'letter-case' || row.task_template === 'beginning-sound') {
         /* per-pass reshuffle path: shell uses nextTask() when tasks is unset */
         self._pool = built; self._order = null; self._curPass = 0; self._orderForPool = null;
         self.tasks = null;
@@ -1357,6 +1362,48 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
           },
           check: function (tool) {
             var ok = tool.answer === answer;
+            tool.showFeedback(ok);
+            return ok;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: beginning-sound (RF.K.3.a) — primary consonant letter→sound. A
+       consonant LETTER is the text subject; the child taps the PICTURE whose
+       locale-word starts with that letter's primary sound. 4 image tiles =
+       correct + 3 distractors whose words do NOT share the onset → EXACTLY ONE
+       correct. Per-locale native picture↔sound pairings in
+       params.byLocale.<loc>.rounds; content locale via window.LCS.i18n.current.
+       NO audio (letter is the visual stimulus). 0-core (shape-id image-option +
+       even-odd text-subject precedents). Each round = { letter, correct:{noun,
+       themeDir, word}, distractors:[{noun,themeDir,word}×3] }. */
+    if (row.task_template === 'beginning-sound') {
+      var bsLoc = (window.LCS && window.LCS.i18n && window.LCS.i18n.current) || 'en';
+      var bsByLoc = (row.params && row.params.byLocale) || {};
+      var bsL = bsByLoc[bsLoc] || bsByLoc.en;
+      var bsRounds = (bsL && bsL.rounds) || [];
+      function _bsTile(o) {
+        return { key: o.noun, imgUrl: '/image-library-webp/themes/' + o.themeDir + '/' + o.noun + '@2x.webp', label: o.word };
+      }
+      return bsRounds.map(function (r, i) {
+        var letter = r.letter, correct = r.correct, distractors = r.distractors || [];
+        return {
+          id: row.id + '.r' + i + '-' + letter + '-' + correct.noun,
+          promptKey: 'promptStartsWith',
+          answerType: 'state',
+          setup: function (tool) {
+            var seed = (i + 1) * 131;
+            for (var c = 0; c < correct.noun.length; c++) seed = (seed * 31 + correct.noun.charCodeAt(c)) | 0;
+            var ordered = seededShuffle([correct].concat(distractors), seed);
+            var options = ordered.map(_bsTile);
+            tool.setupTask(options, correct.noun, { type: 'text', text: letter });
+          },
+          check: function (tool) {
+            var ok = tool.answer === correct.noun;
             tool.showFeedback(ok);
             return ok;
           },

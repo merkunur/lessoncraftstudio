@@ -5094,5 +5094,2305 @@
       "fi": "Tervetuloa harjoittelemaan kirjaimia! Tässä leikissä lapsi näkee yhden ison tai pienen kirjaimen ja etsii sille parin: saman kirjaimen toisen muodon. Isot ja pienet kirjaimet kuuluvat yhteen, ja niiden tunnistaminen on tärkeä askel lukemaan oppimisessa. Edetään rauhassa ja omaan tahtiin, ilman kiirettä tai pisteitä. Harjoitus tukee lapsen kirjaintuntemusta OPS 2014 -opetussuunnitelman mukaisesti."
     },
     "kid_prompt_template": "promptFindBig"
+  },
+  {
+    "id": "choice-board.beginning-sound.rf-k-3-a",
+    "tool": "choice-board-activity",
+    "task_template": "beginning-sound",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.3.a",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "byLocale": {
+        "en": {
+          "rounds": [
+            {
+              "letter": "D",
+              "correct": {
+                "noun": "dog",
+                "themeDir": "animals",
+                "word": "Dog"
+              },
+              "distractors": [
+                {
+                  "noun": "fish",
+                  "themeDir": "animals",
+                  "word": "Fish"
+                },
+                {
+                  "noun": "rabbit",
+                  "themeDir": "animals",
+                  "word": "Rabbit"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiger"
+                }
+              ]
+            },
+            {
+              "letter": "F",
+              "correct": {
+                "noun": "fish",
+                "themeDir": "animals",
+                "word": "Fish"
+              },
+              "distractors": [
+                {
+                  "noun": "dog",
+                  "themeDir": "animals",
+                  "word": "Dog"
+                },
+                {
+                  "noun": "moose",
+                  "themeDir": "animals",
+                  "word": "Moose"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiger"
+                }
+              ]
+            },
+            {
+              "letter": "M",
+              "correct": {
+                "noun": "moose",
+                "themeDir": "animals",
+                "word": "Moose"
+              },
+              "distractors": [
+                {
+                  "noun": "dog",
+                  "themeDir": "animals",
+                  "word": "Dog"
+                },
+                {
+                  "noun": "fish",
+                  "themeDir": "animals",
+                  "word": "Fish"
+                },
+                {
+                  "noun": "rabbit",
+                  "themeDir": "animals",
+                  "word": "Rabbit"
+                }
+              ]
+            },
+            {
+              "letter": "R",
+              "correct": {
+                "noun": "rabbit",
+                "themeDir": "animals",
+                "word": "Rabbit"
+              },
+              "distractors": [
+                {
+                  "noun": "dog",
+                  "themeDir": "animals",
+                  "word": "Dog"
+                },
+                {
+                  "noun": "giraffe",
+                  "themeDir": "animals",
+                  "word": "Giraffe"
+                },
+                {
+                  "noun": "sock",
+                  "themeDir": "accessories",
+                  "word": "Sock"
+                }
+              ]
+            },
+            {
+              "letter": "S",
+              "correct": {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "word": "Sock"
+              },
+              "distractors": [
+                {
+                  "noun": "dog",
+                  "themeDir": "animals",
+                  "word": "Dog"
+                },
+                {
+                  "noun": "fish",
+                  "themeDir": "animals",
+                  "word": "Fish"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiger"
+                }
+              ]
+            },
+            {
+              "letter": "T",
+              "correct": {
+                "noun": "tiger",
+                "themeDir": "animals",
+                "word": "Tiger"
+              },
+              "distractors": [
+                {
+                  "noun": "dog",
+                  "themeDir": "animals",
+                  "word": "Dog"
+                },
+                {
+                  "noun": "fish",
+                  "themeDir": "animals",
+                  "word": "Fish"
+                },
+                {
+                  "noun": "moose",
+                  "themeDir": "animals",
+                  "word": "Moose"
+                }
+              ]
+            },
+            {
+              "letter": "L",
+              "correct": {
+                "noun": "lemon",
+                "themeDir": "At the Supermarket",
+                "word": "Lemon"
+              },
+              "distractors": [
+                {
+                  "noun": "dog",
+                  "themeDir": "animals",
+                  "word": "Dog"
+                },
+                {
+                  "noun": "fish",
+                  "themeDir": "animals",
+                  "word": "Fish"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiger"
+                }
+              ]
+            },
+            {
+              "letter": "G",
+              "correct": {
+                "noun": "giraffe",
+                "themeDir": "animals",
+                "word": "Giraffe"
+              },
+              "distractors": [
+                {
+                  "noun": "dog",
+                  "themeDir": "animals",
+                  "word": "Dog"
+                },
+                {
+                  "noun": "fish",
+                  "themeDir": "animals",
+                  "word": "Fish"
+                },
+                {
+                  "noun": "rabbit",
+                  "themeDir": "animals",
+                  "word": "Rabbit"
+                }
+              ]
+            }
+          ]
+        },
+        "de": {
+          "rounds": [
+            {
+              "letter": "B",
+              "correct": {
+                "noun": "balloon",
+                "themeDir": "4th of July",
+                "word": "Ballon"
+              },
+              "distractors": [
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Delfin"
+                },
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hut"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiger"
+                }
+              ]
+            },
+            {
+              "letter": "D",
+              "correct": {
+                "noun": "dolphin",
+                "themeDir": "animals",
+                "word": "Delfin"
+              },
+              "distractors": [
+                {
+                  "noun": "balloon",
+                  "themeDir": "4th of July",
+                  "word": "Ballon"
+                },
+                {
+                  "noun": "giraffe",
+                  "themeDir": "animals",
+                  "word": "Giraffe"
+                },
+                {
+                  "noun": "knife",
+                  "themeDir": "around the house",
+                  "word": "Messer"
+                }
+              ]
+            },
+            {
+              "letter": "F",
+              "correct": {
+                "noun": "bat",
+                "themeDir": "animals",
+                "word": "Fledermaus"
+              },
+              "distractors": [
+                {
+                  "noun": "camel",
+                  "themeDir": "animals",
+                  "word": "Kamel"
+                },
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hut"
+                },
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Delfin"
+                }
+              ]
+            },
+            {
+              "letter": "G",
+              "correct": {
+                "noun": "giraffe",
+                "themeDir": "animals",
+                "word": "Giraffe"
+              },
+              "distractors": [
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiger"
+                },
+                {
+                  "noun": "balloon",
+                  "themeDir": "4th of July",
+                  "word": "Ballon"
+                },
+                {
+                  "noun": "knife",
+                  "themeDir": "around the house",
+                  "word": "Messer"
+                }
+              ]
+            },
+            {
+              "letter": "H",
+              "correct": {
+                "noun": "hat",
+                "themeDir": "accessories",
+                "word": "Hut"
+              },
+              "distractors": [
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Delfin"
+                },
+                {
+                  "noun": "camel",
+                  "themeDir": "animals",
+                  "word": "Kamel"
+                },
+                {
+                  "noun": "bat",
+                  "themeDir": "animals",
+                  "word": "Fledermaus"
+                }
+              ]
+            },
+            {
+              "letter": "K",
+              "correct": {
+                "noun": "camel",
+                "themeDir": "animals",
+                "word": "Kamel"
+              },
+              "distractors": [
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiger"
+                },
+                {
+                  "noun": "balloon",
+                  "themeDir": "4th of July",
+                  "word": "Ballon"
+                },
+                {
+                  "noun": "giraffe",
+                  "themeDir": "animals",
+                  "word": "Giraffe"
+                }
+              ]
+            },
+            {
+              "letter": "M",
+              "correct": {
+                "noun": "knife",
+                "themeDir": "around the house",
+                "word": "Messer"
+              },
+              "distractors": [
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hut"
+                },
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Delfin"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiger"
+                }
+              ]
+            },
+            {
+              "letter": "T",
+              "correct": {
+                "noun": "tiger",
+                "themeDir": "animals",
+                "word": "Tiger"
+              },
+              "distractors": [
+                {
+                  "noun": "giraffe",
+                  "themeDir": "animals",
+                  "word": "Giraffe"
+                },
+                {
+                  "noun": "bat",
+                  "themeDir": "animals",
+                  "word": "Fledermaus"
+                },
+                {
+                  "noun": "camel",
+                  "themeDir": "animals",
+                  "word": "Kamel"
+                }
+              ]
+            }
+          ]
+        },
+        "es": {
+          "rounds": [
+            {
+              "letter": "B",
+              "correct": {
+                "noun": "baseball",
+                "themeDir": "4th of July",
+                "word": "Béisbol"
+              },
+              "distractors": [
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Delfín"
+                },
+                {
+                  "noun": "strawberry",
+                  "themeDir": "At the Supermarket",
+                  "word": "Fresa"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tigre"
+                }
+              ]
+            },
+            {
+              "letter": "D",
+              "correct": {
+                "noun": "dolphin",
+                "themeDir": "animals",
+                "word": "Delfín"
+              },
+              "distractors": [
+                {
+                  "noun": "backpack",
+                  "themeDir": "accessories",
+                  "word": "Mochila"
+                },
+                {
+                  "noun": "reindeer",
+                  "themeDir": "animals",
+                  "word": "Reno"
+                },
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Sombrero"
+                }
+              ]
+            },
+            {
+              "letter": "F",
+              "correct": {
+                "noun": "strawberry",
+                "themeDir": "At the Supermarket",
+                "word": "Fresa"
+              },
+              "distractors": [
+                {
+                  "noun": "giraffe",
+                  "themeDir": "animals",
+                  "word": "Jirafa"
+                },
+                {
+                  "noun": "wolf",
+                  "themeDir": "animals",
+                  "word": "Lobo"
+                },
+                {
+                  "noun": "turtle",
+                  "themeDir": "animals",
+                  "word": "Tortuga"
+                }
+              ]
+            },
+            {
+              "letter": "J",
+              "correct": {
+                "noun": "giraffe",
+                "themeDir": "animals",
+                "word": "Jirafa"
+              },
+              "distractors": [
+                {
+                  "noun": "orange",
+                  "themeDir": "At the Supermarket",
+                  "word": "Naranja"
+                },
+                {
+                  "noun": "watch",
+                  "themeDir": "accessories",
+                  "word": "Reloj"
+                },
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Sombrero"
+                }
+              ]
+            },
+            {
+              "letter": "L",
+              "correct": {
+                "noun": "wolf",
+                "themeDir": "animals",
+                "word": "Lobo"
+              },
+              "distractors": [
+                {
+                  "noun": "giraffe",
+                  "themeDir": "animals",
+                  "word": "Jirafa"
+                },
+                {
+                  "noun": "backpack",
+                  "themeDir": "accessories",
+                  "word": "Mochila"
+                },
+                {
+                  "noun": "peach",
+                  "themeDir": "At the Supermarket",
+                  "word": "Durazno"
+                }
+              ]
+            },
+            {
+              "letter": "M",
+              "correct": {
+                "noun": "backpack",
+                "themeDir": "accessories",
+                "word": "Mochila"
+              },
+              "distractors": [
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Delfín"
+                },
+                {
+                  "noun": "orange",
+                  "themeDir": "At the Supermarket",
+                  "word": "Naranja"
+                },
+                {
+                  "noun": "turtle",
+                  "themeDir": "animals",
+                  "word": "Tortuga"
+                }
+              ]
+            },
+            {
+              "letter": "P",
+              "correct": {
+                "noun": "cake",
+                "themeDir": "4th of July",
+                "word": "Pastel"
+              },
+              "distractors": [
+                {
+                  "noun": "wolf",
+                  "themeDir": "animals",
+                  "word": "Lobo"
+                },
+                {
+                  "noun": "ham",
+                  "themeDir": "At the Supermarket",
+                  "word": "Jamón"
+                },
+                {
+                  "noun": "reindeer",
+                  "themeDir": "animals",
+                  "word": "Reno"
+                }
+              ]
+            },
+            {
+              "letter": "T",
+              "correct": {
+                "noun": "tiger",
+                "themeDir": "animals",
+                "word": "Tigre"
+              },
+              "distractors": [
+                {
+                  "noun": "strawberry",
+                  "themeDir": "At the Supermarket",
+                  "word": "Fresa"
+                },
+                {
+                  "noun": "wolf",
+                  "themeDir": "animals",
+                  "word": "Lobo"
+                },
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Sombrero"
+                }
+              ]
+            }
+          ]
+        },
+        "it": {
+          "rounds": [
+            {
+              "letter": "B",
+              "correct": {
+                "noun": "flag",
+                "themeDir": "4th of July",
+                "word": "Bandiera"
+              },
+              "distractors": [
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Delfino"
+                },
+                {
+                  "noun": "fork",
+                  "themeDir": "around the house",
+                  "word": "Forchetta"
+                },
+                {
+                  "noun": "medal",
+                  "themeDir": "accessories",
+                  "word": "Medaglia"
+                }
+              ]
+            },
+            {
+              "letter": "D",
+              "correct": {
+                "noun": "dolphin",
+                "themeDir": "animals",
+                "word": "Delfino"
+              },
+              "distractors": [
+                {
+                  "noun": "flag",
+                  "themeDir": "4th of July",
+                  "word": "Bandiera"
+                },
+                {
+                  "noun": "wolf",
+                  "themeDir": "animals",
+                  "word": "Lupo"
+                },
+                {
+                  "noun": "turtle",
+                  "themeDir": "animals",
+                  "word": "Tartaruga"
+                }
+              ]
+            },
+            {
+              "letter": "F",
+              "correct": {
+                "noun": "fork",
+                "themeDir": "around the house",
+                "word": "Forchetta"
+              },
+              "distractors": [
+                {
+                  "noun": "bed",
+                  "themeDir": "around the house",
+                  "word": "Letto"
+                },
+                {
+                  "noun": "nose",
+                  "themeDir": "body parts",
+                  "word": "Naso"
+                },
+                {
+                  "noun": "reindeer",
+                  "themeDir": "animals",
+                  "word": "Renna"
+                }
+              ]
+            },
+            {
+              "letter": "L",
+              "correct": {
+                "noun": "wolf",
+                "themeDir": "animals",
+                "word": "Lupo"
+              },
+              "distractors": [
+                {
+                  "noun": "mask",
+                  "themeDir": "accessories",
+                  "word": "Maschera"
+                },
+                {
+                  "noun": "piano",
+                  "themeDir": "activities",
+                  "word": "Pianoforte"
+                },
+                {
+                  "noun": "vase",
+                  "themeDir": "around the house",
+                  "word": "Vaso"
+                }
+              ]
+            },
+            {
+              "letter": "M",
+              "correct": {
+                "noun": "hammer",
+                "themeDir": "around the house",
+                "word": "Martello"
+              },
+              "distractors": [
+                {
+                  "noun": "nose",
+                  "themeDir": "body parts",
+                  "word": "Naso"
+                },
+                {
+                  "noun": "balloon",
+                  "themeDir": "4th of July",
+                  "word": "Palloncino"
+                },
+                {
+                  "noun": "turtle",
+                  "themeDir": "animals",
+                  "word": "Tartaruga"
+                }
+              ]
+            },
+            {
+              "letter": "R",
+              "correct": {
+                "noun": "reindeer",
+                "themeDir": "animals",
+                "word": "Renna"
+              },
+              "distractors": [
+                {
+                  "noun": "violin",
+                  "themeDir": "activities",
+                  "word": "Violino"
+                },
+                {
+                  "noun": "bed",
+                  "themeDir": "around the house",
+                  "word": "Letto"
+                },
+                {
+                  "noun": "fork",
+                  "themeDir": "around the house",
+                  "word": "Forchetta"
+                }
+              ]
+            },
+            {
+              "letter": "T",
+              "correct": {
+                "noun": "tiger",
+                "themeDir": "animals",
+                "word": "Tigre"
+              },
+              "distractors": [
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Delfino"
+                },
+                {
+                  "noun": "fox",
+                  "themeDir": "animals",
+                  "word": "Volpe"
+                },
+                {
+                  "noun": "reindeer",
+                  "themeDir": "animals",
+                  "word": "Renna"
+                }
+              ]
+            },
+            {
+              "letter": "V",
+              "correct": {
+                "noun": "fox",
+                "themeDir": "animals",
+                "word": "Volpe"
+              },
+              "distractors": [
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tigre"
+                },
+                {
+                  "noun": "hammer",
+                  "themeDir": "around the house",
+                  "word": "Martello"
+                },
+                {
+                  "noun": "balloon",
+                  "themeDir": "4th of July",
+                  "word": "Palloncino"
+                }
+              ]
+            }
+          ]
+        },
+        "pt": {
+          "rounds": [
+            {
+              "letter": "B",
+              "correct": {
+                "noun": "balloon",
+                "themeDir": "4th of July",
+                "word": "Balão"
+              },
+              "distractors": [
+                {
+                  "noun": "finger",
+                  "themeDir": "body parts",
+                  "word": "Dedo"
+                },
+                {
+                  "noun": "glove",
+                  "themeDir": "accessories",
+                  "word": "Luva"
+                },
+                {
+                  "noun": "piano",
+                  "themeDir": "activities",
+                  "word": "Piano"
+                }
+              ]
+            },
+            {
+              "letter": "D",
+              "correct": {
+                "noun": "tooth",
+                "themeDir": "body parts",
+                "word": "Dente"
+              },
+              "distractors": [
+                {
+                  "noun": "watermelon",
+                  "themeDir": "4th of July",
+                  "word": "Melancia"
+                },
+                {
+                  "noun": "fox",
+                  "themeDir": "animals",
+                  "word": "Raposa"
+                },
+                {
+                  "noun": "vase",
+                  "themeDir": "around the house",
+                  "word": "Vaso"
+                }
+              ]
+            },
+            {
+              "letter": "F",
+              "correct": {
+                "noun": "knife",
+                "themeDir": "around the house",
+                "word": "Faca"
+              },
+              "distractors": [
+                {
+                  "noun": "backpack",
+                  "themeDir": "accessories",
+                  "word": "Mochila"
+                },
+                {
+                  "noun": "cloud",
+                  "themeDir": "beach",
+                  "word": "Nuvem"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tigre"
+                }
+              ]
+            },
+            {
+              "letter": "L",
+              "correct": {
+                "noun": "wolf",
+                "themeDir": "animals",
+                "word": "Lobo"
+              },
+              "distractors": [
+                {
+                  "noun": "oven",
+                  "themeDir": "around the house",
+                  "word": "Forno"
+                },
+                {
+                  "noun": "bracelet",
+                  "themeDir": "accessories",
+                  "word": "Pulseira"
+                },
+                {
+                  "noun": "nose",
+                  "themeDir": "body parts",
+                  "word": "Nariz"
+                }
+              ]
+            },
+            {
+              "letter": "M",
+              "correct": {
+                "noun": "hammer",
+                "themeDir": "around the house",
+                "word": "Martelo"
+              },
+              "distractors": [
+                {
+                  "noun": "reindeer",
+                  "themeDir": "animals",
+                  "word": "Rena"
+                },
+                {
+                  "noun": "belt",
+                  "themeDir": "accessories",
+                  "word": "Cinto"
+                },
+                {
+                  "noun": "guitar",
+                  "themeDir": "activities",
+                  "word": "Violão"
+                }
+              ]
+            },
+            {
+              "letter": "P",
+              "correct": {
+                "noun": "piano",
+                "themeDir": "activities",
+                "word": "Piano"
+              },
+              "distractors": [
+                {
+                  "noun": "drum",
+                  "themeDir": "music",
+                  "word": "Tambor"
+                },
+                {
+                  "noun": "flag",
+                  "themeDir": "4th of July",
+                  "word": "Bandeira"
+                },
+                {
+                  "noun": "window",
+                  "themeDir": "around the house",
+                  "word": "Janela"
+                }
+              ]
+            },
+            {
+              "letter": "T",
+              "correct": {
+                "noun": "turtle",
+                "themeDir": "animals",
+                "word": "Tartaruga"
+              },
+              "distractors": [
+                {
+                  "noun": "couch",
+                  "themeDir": "around the house",
+                  "word": "Sofá"
+                },
+                {
+                  "noun": "fan",
+                  "themeDir": "around the house",
+                  "word": "Ventilador"
+                },
+                {
+                  "noun": "cake",
+                  "themeDir": "4th of July",
+                  "word": "Bolo"
+                }
+              ]
+            },
+            {
+              "letter": "V",
+              "correct": {
+                "noun": "broom",
+                "themeDir": "around the house",
+                "word": "Vassoura"
+              },
+              "distractors": [
+                {
+                  "noun": "medal",
+                  "themeDir": "accessories",
+                  "word": "Medalha"
+                },
+                {
+                  "noun": "fox",
+                  "themeDir": "animals",
+                  "word": "Raposa"
+                },
+                {
+                  "noun": "window",
+                  "themeDir": "around the house",
+                  "word": "Janela"
+                }
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "rounds": [
+            {
+              "letter": "B",
+              "correct": {
+                "noun": "balloon",
+                "themeDir": "4th of July",
+                "word": "Ballon"
+              },
+              "distractors": [
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Dauphin"
+                },
+                {
+                  "noun": "rabbit",
+                  "themeDir": "animals",
+                  "word": "Lapin"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tigre"
+                }
+              ]
+            },
+            {
+              "letter": "D",
+              "correct": {
+                "noun": "dolphin",
+                "themeDir": "animals",
+                "word": "Dauphin"
+              },
+              "distractors": [
+                {
+                  "noun": "sheep",
+                  "themeDir": "animals",
+                  "word": "Mouton"
+                },
+                {
+                  "noun": "vase",
+                  "themeDir": "around the house",
+                  "word": "Vase"
+                },
+                {
+                  "noun": "rabbit",
+                  "themeDir": "animals",
+                  "word": "Lapin"
+                }
+              ]
+            },
+            {
+              "letter": "F",
+              "correct": {
+                "noun": "cheese",
+                "themeDir": "At the Supermarket",
+                "word": "Fromage"
+              },
+              "distractors": [
+                {
+                  "noun": "balloon",
+                  "themeDir": "4th of July",
+                  "word": "Ballon"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tigre"
+                },
+                {
+                  "noun": "sheep",
+                  "themeDir": "animals",
+                  "word": "Mouton"
+                }
+              ]
+            },
+            {
+              "letter": "L",
+              "correct": {
+                "noun": "rabbit",
+                "themeDir": "animals",
+                "word": "Lapin"
+              },
+              "distractors": [
+                {
+                  "noun": "fox",
+                  "themeDir": "animals",
+                  "word": "Renard"
+                },
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Dauphin"
+                },
+                {
+                  "noun": "vase",
+                  "themeDir": "around the house",
+                  "word": "Vase"
+                }
+              ]
+            },
+            {
+              "letter": "M",
+              "correct": {
+                "noun": "sheep",
+                "themeDir": "animals",
+                "word": "Mouton"
+              },
+              "distractors": [
+                {
+                  "noun": "balloon",
+                  "themeDir": "4th of July",
+                  "word": "Ballon"
+                },
+                {
+                  "noun": "fox",
+                  "themeDir": "animals",
+                  "word": "Renard"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tigre"
+                }
+              ]
+            },
+            {
+              "letter": "R",
+              "correct": {
+                "noun": "fox",
+                "themeDir": "animals",
+                "word": "Renard"
+              },
+              "distractors": [
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Dauphin"
+                },
+                {
+                  "noun": "cheese",
+                  "themeDir": "At the Supermarket",
+                  "word": "Fromage"
+                },
+                {
+                  "noun": "vase",
+                  "themeDir": "around the house",
+                  "word": "Vase"
+                }
+              ]
+            },
+            {
+              "letter": "T",
+              "correct": {
+                "noun": "tiger",
+                "themeDir": "animals",
+                "word": "Tigre"
+              },
+              "distractors": [
+                {
+                  "noun": "rabbit",
+                  "themeDir": "animals",
+                  "word": "Lapin"
+                },
+                {
+                  "noun": "sheep",
+                  "themeDir": "animals",
+                  "word": "Mouton"
+                },
+                {
+                  "noun": "balloon",
+                  "themeDir": "4th of July",
+                  "word": "Ballon"
+                }
+              ]
+            },
+            {
+              "letter": "V",
+              "correct": {
+                "noun": "vase",
+                "themeDir": "around the house",
+                "word": "Vase"
+              },
+              "distractors": [
+                {
+                  "noun": "fox",
+                  "themeDir": "animals",
+                  "word": "Renard"
+                },
+                {
+                  "noun": "cheese",
+                  "themeDir": "At the Supermarket",
+                  "word": "Fromage"
+                },
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Dauphin"
+                }
+              ]
+            }
+          ]
+        },
+        "nl": {
+          "rounds": [
+            {
+              "letter": "B",
+              "correct": {
+                "noun": "balloon",
+                "themeDir": "4th of July",
+                "word": "Ballon"
+              },
+              "distractors": [
+                {
+                  "noun": "cat",
+                  "themeDir": "animals",
+                  "word": "Kat"
+                },
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Dolfijn"
+                },
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hoed"
+                }
+              ]
+            },
+            {
+              "letter": "K",
+              "correct": {
+                "noun": "cat",
+                "themeDir": "animals",
+                "word": "Kat"
+              },
+              "distractors": [
+                {
+                  "noun": "balloon",
+                  "themeDir": "4th of July",
+                  "word": "Ballon"
+                },
+                {
+                  "noun": "raspberry",
+                  "themeDir": "At the Supermarket",
+                  "word": "Framboos"
+                },
+                {
+                  "noun": "lamp",
+                  "themeDir": "around the house",
+                  "word": "Lamp"
+                }
+              ]
+            },
+            {
+              "letter": "D",
+              "correct": {
+                "noun": "dolphin",
+                "themeDir": "animals",
+                "word": "Dolfijn"
+              },
+              "distractors": [
+                {
+                  "noun": "crown",
+                  "themeDir": "accessories",
+                  "word": "Kroon"
+                },
+                {
+                  "noun": "net",
+                  "themeDir": "beach",
+                  "word": "Net"
+                },
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hoed"
+                }
+              ]
+            },
+            {
+              "letter": "M",
+              "correct": {
+                "noun": "knife",
+                "themeDir": "around the house",
+                "word": "Mes"
+              },
+              "distractors": [
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tijger"
+                },
+                {
+                  "noun": "ring",
+                  "themeDir": "accessories",
+                  "word": "Ring"
+                },
+                {
+                  "noun": "flag",
+                  "themeDir": "4th of July",
+                  "word": "Vlag"
+                }
+              ]
+            },
+            {
+              "letter": "S",
+              "correct": {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "word": "Sok"
+              },
+              "distractors": [
+                {
+                  "noun": "door",
+                  "themeDir": "around the house",
+                  "word": "Deur"
+                },
+                {
+                  "noun": "guitar",
+                  "themeDir": "activities",
+                  "word": "Gitaar"
+                },
+                {
+                  "noun": "cap",
+                  "themeDir": "accessories",
+                  "word": "Pet"
+                }
+              ]
+            },
+            {
+              "letter": "T",
+              "correct": {
+                "noun": "tiger",
+                "themeDir": "animals",
+                "word": "Tijger"
+              },
+              "distractors": [
+                {
+                  "noun": "lamp",
+                  "themeDir": "around the house",
+                  "word": "Lamp"
+                },
+                {
+                  "noun": "backpack",
+                  "themeDir": "accessories",
+                  "word": "Rugzak"
+                },
+                {
+                  "noun": "mask",
+                  "themeDir": "accessories",
+                  "word": "Masker"
+                }
+              ]
+            },
+            {
+              "letter": "R",
+              "correct": {
+                "noun": "ring",
+                "themeDir": "accessories",
+                "word": "Ring"
+              },
+              "distractors": [
+                {
+                  "noun": "camel",
+                  "themeDir": "animals",
+                  "word": "Kameel"
+                },
+                {
+                  "noun": "whistle",
+                  "themeDir": "accessories",
+                  "word": "Fluitje"
+                },
+                {
+                  "noun": "net",
+                  "themeDir": "beach",
+                  "word": "Net"
+                }
+              ]
+            },
+            {
+              "letter": "V",
+              "correct": {
+                "noun": "flag",
+                "themeDir": "4th of July",
+                "word": "Vlag"
+              },
+              "distractors": [
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hoed"
+                },
+                {
+                  "noun": "beanie",
+                  "themeDir": "accessories",
+                  "word": "Muts"
+                },
+                {
+                  "noun": "door",
+                  "themeDir": "around the house",
+                  "word": "Deur"
+                }
+              ]
+            }
+          ]
+        },
+        "sv": {
+          "rounds": [
+            {
+              "letter": "B",
+              "correct": {
+                "noun": "balloon",
+                "themeDir": "4th of July",
+                "word": "Ballong"
+              },
+              "distractors": [
+                {
+                  "noun": "cat",
+                  "themeDir": "animals",
+                  "word": "Katt"
+                },
+                {
+                  "noun": "sock",
+                  "themeDir": "accessories",
+                  "word": "Strumpa"
+                },
+                {
+                  "noun": "lamp",
+                  "themeDir": "around the house",
+                  "word": "Lampa"
+                }
+              ]
+            },
+            {
+              "letter": "D",
+              "correct": {
+                "noun": "dolphin",
+                "themeDir": "animals",
+                "word": "Delfin"
+              },
+              "distractors": [
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hatt"
+                },
+                {
+                  "noun": "ring",
+                  "themeDir": "accessories",
+                  "word": "Ring"
+                },
+                {
+                  "noun": "pig",
+                  "themeDir": "animals",
+                  "word": "Gris"
+                }
+              ]
+            },
+            {
+              "letter": "H",
+              "correct": {
+                "noun": "hat",
+                "themeDir": "accessories",
+                "word": "Hatt"
+              },
+              "distractors": [
+                {
+                  "noun": "net",
+                  "themeDir": "beach",
+                  "word": "Nät"
+                },
+                {
+                  "noun": "cake",
+                  "themeDir": "4th of July",
+                  "word": "Tårta"
+                },
+                {
+                  "noun": "vest",
+                  "themeDir": "accessories",
+                  "word": "Väst"
+                }
+              ]
+            },
+            {
+              "letter": "L",
+              "correct": {
+                "noun": "lock",
+                "themeDir": "around the house",
+                "word": "Lås"
+              },
+              "distractors": [
+                {
+                  "noun": "panda",
+                  "themeDir": "animals",
+                  "word": "Panda"
+                },
+                {
+                  "noun": "mask",
+                  "themeDir": "accessories",
+                  "word": "Mask"
+                },
+                {
+                  "noun": "fox",
+                  "themeDir": "animals",
+                  "word": "Räv"
+                }
+              ]
+            },
+            {
+              "letter": "M",
+              "correct": {
+                "noun": "carpet",
+                "themeDir": "around the house",
+                "word": "Matta"
+              },
+              "distractors": [
+                {
+                  "noun": "door",
+                  "themeDir": "around the house",
+                  "word": "Dörr"
+                },
+                {
+                  "noun": "crown",
+                  "themeDir": "accessories",
+                  "word": "Krona"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiger"
+                }
+              ]
+            },
+            {
+              "letter": "P",
+              "correct": {
+                "noun": "panda",
+                "themeDir": "animals",
+                "word": "Panda"
+              },
+              "distractors": [
+                {
+                  "noun": "balloon",
+                  "themeDir": "4th of July",
+                  "word": "Ballong"
+                },
+                {
+                  "noun": "key",
+                  "themeDir": "around the house",
+                  "word": "Nyckel"
+                },
+                {
+                  "noun": "watch",
+                  "themeDir": "accessories",
+                  "word": "Klocka"
+                }
+              ]
+            },
+            {
+              "letter": "R",
+              "correct": {
+                "noun": "reindeer",
+                "themeDir": "animals",
+                "word": "Ren"
+              },
+              "distractors": [
+                {
+                  "noun": "sock",
+                  "themeDir": "accessories",
+                  "word": "Strumpa"
+                },
+                {
+                  "noun": "flag",
+                  "themeDir": "4th of July",
+                  "word": "Flagga"
+                },
+                {
+                  "noun": "camel",
+                  "themeDir": "animals",
+                  "word": "Kamel"
+                }
+              ]
+            },
+            {
+              "letter": "V",
+              "correct": {
+                "noun": "mitten",
+                "themeDir": "accessories",
+                "word": "Vante"
+              },
+              "distractors": [
+                {
+                  "noun": "lamp",
+                  "themeDir": "around the house",
+                  "word": "Lampa"
+                },
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Delfin"
+                },
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hatt"
+                }
+              ]
+            }
+          ]
+        },
+        "da": {
+          "rounds": [
+            {
+              "letter": "B",
+              "correct": {
+                "noun": "balloon",
+                "themeDir": "4th of July",
+                "word": "Ballon"
+              },
+              "distractors": [
+                {
+                  "noun": "dog",
+                  "themeDir": "animals",
+                  "word": "Hund"
+                },
+                {
+                  "noun": "melon",
+                  "themeDir": "At the Supermarket",
+                  "word": "Melon"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiger"
+                }
+              ]
+            },
+            {
+              "letter": "H",
+              "correct": {
+                "noun": "dog",
+                "themeDir": "animals",
+                "word": "Hund"
+              },
+              "distractors": [
+                {
+                  "noun": "pig",
+                  "themeDir": "animals",
+                  "word": "Gris"
+                },
+                {
+                  "noun": "sock",
+                  "themeDir": "accessories",
+                  "word": "Sok"
+                },
+                {
+                  "noun": "key",
+                  "themeDir": "around the house",
+                  "word": "Nøgle"
+                }
+              ]
+            },
+            {
+              "letter": "F",
+              "correct": {
+                "noun": "flag",
+                "themeDir": "4th of July",
+                "word": "Flag"
+              },
+              "distractors": [
+                {
+                  "noun": "lamp",
+                  "themeDir": "around the house",
+                  "word": "Lampe"
+                },
+                {
+                  "noun": "camel",
+                  "themeDir": "animals",
+                  "word": "Kamel"
+                },
+                {
+                  "noun": "ring",
+                  "themeDir": "accessories",
+                  "word": "Ring"
+                }
+              ]
+            },
+            {
+              "letter": "K",
+              "correct": {
+                "noun": "camel",
+                "themeDir": "animals",
+                "word": "Kamel"
+              },
+              "distractors": [
+                {
+                  "noun": "balloon",
+                  "themeDir": "4th of July",
+                  "word": "Ballon"
+                },
+                {
+                  "noun": "vest",
+                  "themeDir": "accessories",
+                  "word": "Vest"
+                },
+                {
+                  "noun": "penguin",
+                  "themeDir": "animals",
+                  "word": "Pingvin"
+                }
+              ]
+            },
+            {
+              "letter": "S",
+              "correct": {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "word": "Sok"
+              },
+              "distractors": [
+                {
+                  "noun": "fox",
+                  "themeDir": "animals",
+                  "word": "Ræv"
+                },
+                {
+                  "noun": "door",
+                  "themeDir": "around the house",
+                  "word": "Dør"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiger"
+                }
+              ]
+            },
+            {
+              "letter": "T",
+              "correct": {
+                "noun": "tiger",
+                "themeDir": "animals",
+                "word": "Tiger"
+              },
+              "distractors": [
+                {
+                  "noun": "flag",
+                  "themeDir": "4th of July",
+                  "word": "Flag"
+                },
+                {
+                  "noun": "panda",
+                  "themeDir": "animals",
+                  "word": "Panda"
+                },
+                {
+                  "noun": "melon",
+                  "themeDir": "At the Supermarket",
+                  "word": "Melon"
+                }
+              ]
+            },
+            {
+              "letter": "M",
+              "correct": {
+                "noun": "melon",
+                "themeDir": "At the Supermarket",
+                "word": "Melon"
+              },
+              "distractors": [
+                {
+                  "noun": "dog",
+                  "themeDir": "animals",
+                  "word": "Hund"
+                },
+                {
+                  "noun": "ring",
+                  "themeDir": "accessories",
+                  "word": "Ring"
+                },
+                {
+                  "noun": "vest",
+                  "themeDir": "accessories",
+                  "word": "Vest"
+                }
+              ]
+            },
+            {
+              "letter": "P",
+              "correct": {
+                "noun": "panda",
+                "themeDir": "animals",
+                "word": "Panda"
+              },
+              "distractors": [
+                {
+                  "noun": "camel",
+                  "themeDir": "animals",
+                  "word": "Kamel"
+                },
+                {
+                  "noun": "sock",
+                  "themeDir": "accessories",
+                  "word": "Sok"
+                },
+                {
+                  "noun": "flag",
+                  "themeDir": "4th of July",
+                  "word": "Flag"
+                }
+              ]
+            }
+          ]
+        },
+        "no": {
+          "rounds": [
+            {
+              "letter": "B",
+              "correct": {
+                "noun": "balloon",
+                "themeDir": "4th of July",
+                "word": "Ballong"
+              },
+              "distractors": [
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Delfin"
+                },
+                {
+                  "noun": "flag",
+                  "themeDir": "4th of July",
+                  "word": "Flagg"
+                },
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hatt"
+                }
+              ]
+            },
+            {
+              "letter": "D",
+              "correct": {
+                "noun": "dolphin",
+                "themeDir": "animals",
+                "word": "Delfin"
+              },
+              "distractors": [
+                {
+                  "noun": "balloon",
+                  "themeDir": "4th of July",
+                  "word": "Ballong"
+                },
+                {
+                  "noun": "mask",
+                  "themeDir": "accessories",
+                  "word": "Maske"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiger"
+                }
+              ]
+            },
+            {
+              "letter": "F",
+              "correct": {
+                "noun": "soccer",
+                "themeDir": "activities",
+                "word": "Fotball"
+              },
+              "distractors": [
+                {
+                  "noun": "panda",
+                  "themeDir": "animals",
+                  "word": "Panda"
+                },
+                {
+                  "noun": "lamp",
+                  "themeDir": "around the house",
+                  "word": "Lampe"
+                },
+                {
+                  "noun": "net",
+                  "themeDir": "beach",
+                  "word": "Nett"
+                }
+              ]
+            },
+            {
+              "letter": "H",
+              "correct": {
+                "noun": "hat",
+                "themeDir": "accessories",
+                "word": "Hatt"
+              },
+              "distractors": [
+                {
+                  "noun": "ring",
+                  "themeDir": "accessories",
+                  "word": "Ring"
+                },
+                {
+                  "noun": "vest",
+                  "themeDir": "accessories",
+                  "word": "Vest"
+                },
+                {
+                  "noun": "mask",
+                  "themeDir": "accessories",
+                  "word": "Maske"
+                }
+              ]
+            },
+            {
+              "letter": "L",
+              "correct": {
+                "noun": "lamp",
+                "themeDir": "around the house",
+                "word": "Lampe"
+              },
+              "distractors": [
+                {
+                  "noun": "cat",
+                  "themeDir": "animals",
+                  "word": "Katt"
+                },
+                {
+                  "noun": "net",
+                  "themeDir": "beach",
+                  "word": "Nett"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiger"
+                }
+              ]
+            },
+            {
+              "letter": "M",
+              "correct": {
+                "noun": "mask",
+                "themeDir": "accessories",
+                "word": "Maske"
+              },
+              "distractors": [
+                {
+                  "noun": "balloon",
+                  "themeDir": "4th of July",
+                  "word": "Ballong"
+                },
+                {
+                  "noun": "panda",
+                  "themeDir": "animals",
+                  "word": "Panda"
+                },
+                {
+                  "noun": "flag",
+                  "themeDir": "4th of July",
+                  "word": "Flagg"
+                }
+              ]
+            },
+            {
+              "letter": "P",
+              "correct": {
+                "noun": "panda",
+                "themeDir": "animals",
+                "word": "Panda"
+              },
+              "distractors": [
+                {
+                  "noun": "dolphin",
+                  "themeDir": "animals",
+                  "word": "Delfin"
+                },
+                {
+                  "noun": "lamp",
+                  "themeDir": "around the house",
+                  "word": "Lampe"
+                },
+                {
+                  "noun": "vest",
+                  "themeDir": "accessories",
+                  "word": "Vest"
+                }
+              ]
+            },
+            {
+              "letter": "T",
+              "correct": {
+                "noun": "tiger",
+                "themeDir": "animals",
+                "word": "Tiger"
+              },
+              "distractors": [
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hatt"
+                },
+                {
+                  "noun": "ring",
+                  "themeDir": "accessories",
+                  "word": "Ring"
+                },
+                {
+                  "noun": "cat",
+                  "themeDir": "animals",
+                  "word": "Katt"
+                }
+              ]
+            }
+          ]
+        },
+        "fi": {
+          "rounds": [
+            {
+              "letter": "H",
+              "correct": {
+                "noun": "hat",
+                "themeDir": "accessories",
+                "word": "Hattu"
+              },
+              "distractors": [
+                {
+                  "noun": "swan",
+                  "themeDir": "animals",
+                  "word": "Joutsen"
+                },
+                {
+                  "noun": "cake",
+                  "themeDir": "4th of July",
+                  "word": "Kakku"
+                },
+                {
+                  "noun": "elephant",
+                  "themeDir": "animals",
+                  "word": "Norsu"
+                }
+              ]
+            },
+            {
+              "letter": "J",
+              "correct": {
+                "noun": "swan",
+                "themeDir": "animals",
+                "word": "Joutsen"
+              },
+              "distractors": [
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hattu"
+                },
+                {
+                  "noun": "beanie",
+                  "themeDir": "accessories",
+                  "word": "Pipo"
+                },
+                {
+                  "noun": "sock",
+                  "themeDir": "accessories",
+                  "word": "Sukka"
+                }
+              ]
+            },
+            {
+              "letter": "K",
+              "correct": {
+                "noun": "cake",
+                "themeDir": "4th of July",
+                "word": "Kakku"
+              },
+              "distractors": [
+                {
+                  "noun": "flag",
+                  "themeDir": "4th of July",
+                  "word": "Lippu"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiikeri"
+                },
+                {
+                  "noun": "elephant",
+                  "themeDir": "animals",
+                  "word": "Norsu"
+                }
+              ]
+            },
+            {
+              "letter": "L",
+              "correct": {
+                "noun": "flag",
+                "themeDir": "4th of July",
+                "word": "Lippu"
+              },
+              "distractors": [
+                {
+                  "noun": "medal",
+                  "themeDir": "accessories",
+                  "word": "Mitali"
+                },
+                {
+                  "noun": "backpack",
+                  "themeDir": "accessories",
+                  "word": "Reppu"
+                },
+                {
+                  "noun": "sock",
+                  "themeDir": "accessories",
+                  "word": "Sukka"
+                }
+              ]
+            },
+            {
+              "letter": "N",
+              "correct": {
+                "noun": "elephant",
+                "themeDir": "animals",
+                "word": "Norsu"
+              },
+              "distractors": [
+                {
+                  "noun": "beanie",
+                  "themeDir": "accessories",
+                  "word": "Pipo"
+                },
+                {
+                  "noun": "ring",
+                  "themeDir": "accessories",
+                  "word": "Sormus"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiikeri"
+                }
+              ]
+            },
+            {
+              "letter": "P",
+              "correct": {
+                "noun": "beanie",
+                "themeDir": "accessories",
+                "word": "Pipo"
+              },
+              "distractors": [
+                {
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hattu"
+                },
+                {
+                  "noun": "eagle",
+                  "themeDir": "4th of July",
+                  "word": "Kotka"
+                },
+                {
+                  "noun": "belt",
+                  "themeDir": "accessories",
+                  "word": "Vyö"
+                }
+              ]
+            },
+            {
+              "letter": "S",
+              "correct": {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "word": "Sukka"
+              },
+              "distractors": [
+                {
+                  "noun": "elephant",
+                  "themeDir": "animals",
+                  "word": "Norsu"
+                },
+                {
+                  "noun": "flag",
+                  "themeDir": "4th of July",
+                  "word": "Lippu"
+                },
+                {
+                  "noun": "tiger",
+                  "themeDir": "animals",
+                  "word": "Tiikeri"
+                }
+              ]
+            },
+            {
+              "letter": "T",
+              "correct": {
+                "noun": "tiger",
+                "themeDir": "animals",
+                "word": "Tiikeri"
+              },
+              "distractors": [
+                {
+                  "noun": "cake",
+                  "themeDir": "4th of July",
+                  "word": "Kakku"
+                },
+                {
+                  "noun": "ring",
+                  "themeDir": "accessories",
+                  "word": "Sormus"
+                },
+                {
+                  "noun": "watermelon",
+                  "themeDir": "4th of July",
+                  "word": "Vesimeloni"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "theme": null,
+    "slug": {
+      "en": "beginning-sounds",
+      "de": "anlaute-erster-buchstabe",
+      "es": "sonidos-iniciales",
+      "it": "suoni-iniziali",
+      "pt": "sons-iniciais",
+      "fr": "sons-du-debut",
+      "nl": "beginklanken-letters-en-klanken",
+      "sv": "forsta-ljudet",
+      "da": "begyndelseslyde",
+      "no": "begynnelseslyder",
+      "fi": "alkuaanteet-suomi"
+    },
+    "page_title": {
+      "en": "Beginning Sounds — Match the First Letter Sound",
+      "de": "Anlaute: Welcher Buchstabe Beginnt das Wort?",
+      "es": "Sonidos Iniciales",
+      "it": "Suoni Iniziali",
+      "pt": "Sons Iniciais",
+      "fr": "Les Sons du Début",
+      "nl": "Beginklanken Oefenen",
+      "sv": "Första Ljudet",
+      "da": "Begyndelseslyde",
+      "no": "Begynnelseslyder",
+      "fi": "Alkuäänteet — Mikä Kuva Alkaa Tällä Äänteellä?"
+    },
+    "page_intro": {
+      "en": "A letter appears, and the child taps the picture whose name begins with that letter’s sound. It is a calm, friendly way to connect each letter to its sound — animals, food, and everyday objects make the first sound easy to hear. No timer and no score, just one happy discovery at a time. Aligned to Common Core RF.K.3.a — knowing the primary sound each consonant letter makes.",
+      "de": "Dein Kind sieht einen Buchstaben und hört den passenden Laut. Dann sucht es das Bild, dessen Wort mit genau diesem Laut beginnt, und tippt es an. So wird das Heraushören des ersten Lautes spielerisch geübt – ganz in Ruhe, ohne Zeitdruck und ohne Punkte. Eine warme, kindgerechte Übung zum Anlaut nach dem Lehrplan.",
+      "es": "En esta actividad tu pequeño observa una letra y toca el dibujo cuyo nombre empieza con ese sonido. Es una forma tranquila y divertida de unir cada letra con su sonido, sin prisas ni puntajes. Cada ronda muestra objetos conocidos —animales, comida y prendas— para que reconocer el sonido inicial resulte natural y alegre. Una base sólida de lectura temprana, alineada con el Currículo LOMLOE.",
+      "it": "Benvenuti in questa attività dolce e tranquilla! Il tuo bambino guarda una lettera e tocca l’immagine la cui parola inizia con quello stesso suono. È un primo passo gioioso verso la lettura, senza fretta e senza punteggi: solo tanti piccoli successi da festeggiare insieme. Ogni suono scoperto rafforza la consapevolezza fonologica. Attività allineata alle Indicazioni nazionali.",
+      "pt": "Vamos brincar com os sons das letras! A criança vê uma letra e toca na figura cujo nome começa com aquele som. É um jeito carinhoso e tranquilo de descobrir os sons que formam as palavras, no ritmo de cada um. Cada acerto fortalece a consciência fonológica, primeiro passo para a leitura, em sintonia com a BNCC.",
+      "fr": "Découvre les premiers sons des mots avec ton enfant ! Une lettre apparaît, et il choisit l’image dont le mot commence par ce son. Chaque partie propose des animaux et des objets familiers pour écouter, observer et reconnaître les sons en douceur. Pas de chrono, pas de score : juste le plaisir de jouer et d’apprendre, en lien avec les programmes officiels.",
+      "nl": "Welkom bij deze leuke luisteroefening voor groep 3! Je kindje ziet een letter en zoekt het plaatje dat met diezelfde klank begint. Zo koppelt het spelenderwijs letters aan klanken, een belangrijke eerste stap bij het leren lezen. Rustig ontdekken mag, er is geen klok en geen score. Deze activiteit sluit mooi aan bij de SLO-kerndoelen voor beginnende geletterdheid in groep 3.",
+      "sv": "Här får barnet lyssna efter ljudet i början av ordet. Vi visar en bokstav och barnet pekar på bilden vars ord börjar med just det ljudet. Det finns inga klockor och inga poäng – bara lugn lek med ljud och bokstäver. Att känna igen första ljudet är ett viktigt första steg in i läsningen, helt i linje med Lgr22.",
+      "da": "Her øver vi os på begyndelseslyde. Dit barn ser et bogstav og finder billedet, hvis ord starter med netop den lyd. Det er en rolig og legende måde at lytte til sproget på og opdage, hvordan bogstaver og lyde hænger sammen. Tag jer god tid, og snak gerne om billederne sammen. Aktiviteten støtter den tidlige læsning i tråd med Fælles Mål.",
+      "no": "Velkommen til en morsom lytteøvelse! Her ser barnet en bokstav og skal finne bildet som begynner med samme lyd. Det er en rolig og trygg måte å øve på forbindelsen mellom bokstav og lyd, helt uten stress. Lek og utforsk lydene sammen i eget tempo. Aktiviteten støtter tidlig lese- og skriveopplæring etter LK20.",
+      "fi": "Tervetuloa harjoittelemaan alkuäänteitä! Lapsi näkee kirjaimen ja etsii kuvan, jonka suomenkielinen sana alkaa samalla äänteellä. Suomi on läpinäkyvä kieli: kirjain vastaa äännettä, joten harjoitus tukee kuulemista ja lukemaan oppimista lempeästi ja kiireettä. Tehtävässä ei ole kelloa eikä pisteitä — vain iloista oivaltamista omaan tahtiin. Harjoitus tukee OPS 2014 -opetussuunnitelman tavoitteita."
+    },
+    "kid_prompt_template": "promptStartsWith"
   }
 ]

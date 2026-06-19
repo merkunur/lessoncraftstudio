@@ -106,6 +106,22 @@ function makeUnknownAddendTasks(rounds, idPrefix) {
   });
 }
 
+/* add-three (1.OA.A.2): each round {first, second, third, seed} → 3 parts given,
+   the child types the TOTAL on the shell keypad (answerType 'number'). */
+function makeWhole3Tasks(rounds, idPrefix) {
+  return rounds.map(function (r, i) {
+    return {
+      id: idPrefix + '.round-' + i,
+      promptKey: 'promptThree',
+      answerType: 'number',
+      answerMin: 0,
+      answerMax: 20,
+      setup: function (tool) { tool.setupTask({ mode: 'whole-unknown-3', first: r.first, second: r.second, third: r.third, seed: r.seed }); },
+      check: function (tool, answer) { return answer === tool.total(); }
+    };
+  });
+}
+
 var STATIC_DEMO_TASKS = makeRoundTasks(DEMO_ROUNDS, 'demo');
 
 function _sameOrder(a, b) {
@@ -190,6 +206,19 @@ window.NumberBondActivity = Object.assign({}, NumberBondCore, {
       }
       return makeWholeTasks(wholeRounds, row.id);
     }
+    if (row.task_template === 'add-three') {
+      var a3Rounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : [];
+      /* defensive: 3 addends ≥1, EACH part ≤7 (render-safety in the smaller 3-part nodes), sum ≤20. */
+      if (window.console && console.warn) {
+        a3Rounds.forEach(function (r, ri) {
+          var s = r.first + r.second + r.third;
+          if (!(r.first >= 1 && r.second >= 1 && r.third >= 1)) console.warn('[number-bond-activity] add-three round ' + ri + ' part <1');
+          if (!(r.first <= 7 && r.second <= 7 && r.third <= 7)) console.warn('[number-bond-activity] add-three round ' + ri + ' part >7 (render-safety)');
+          if (!(s <= 20)) console.warn('[number-bond-activity] add-three round ' + ri + ' sum ' + s + ' > 20');
+        });
+      }
+      return makeWhole3Tasks(a3Rounds, row.id);
+    }
     if (row.task_template === 'unknown-addend') {
       var uaRounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : [];
       /* defensive: given 1..whole-1; BOTH parts ≤9 (render-safety — the tested dot-packing range). */
@@ -237,6 +266,11 @@ window.NumberBondActivity = Object.assign({}, NumberBondCore, {
     NumberBondActivity.strings = Object.assign({}, NumberBondActivity.strings, {
       title: NumberBondActivity.strings.titleSubtraction,
       instruction: NumberBondActivity.strings.instructionSubtraction
+    });
+  } else if (id && id.indexOf('add-three') >= 0) {
+    NumberBondActivity.strings = Object.assign({}, NumberBondActivity.strings, {
+      title: NumberBondActivity.strings.titleThree,
+      instruction: NumberBondActivity.strings.instructionThree
     });
   }
 })();

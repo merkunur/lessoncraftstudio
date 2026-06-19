@@ -79,6 +79,24 @@ for (const row of manifest) {
     continue;
   }
 
+  if (row.task_template === 'add-three') {
+    // 1.OA.A.2: THREE parts given; WHOLE = a+b+c is the keypad answer key.
+    rounds.forEach((r, i) => {
+      roundCount++;
+      const A = r.first, B = r.second, Cn = r.third, sum = A + B + Cn;
+      const label = `${row.id}#${i}[${A}+${B}+${Cn}=?]`;
+      check(A >= 1 && B >= 1 && Cn >= 1, `${label}: a part < 1`);
+      // render-safety: each part ≤7 dots (the slightly-smaller 3-part nodes)
+      check(A <= 7 && B <= 7 && Cn <= 7, `${label}: a part >7 (render-safety): ${A}/${B}/${Cn}`);
+      check(sum <= 20, `${label}: sum ${sum} > 20 (out of within-20 scope)`);
+      Core.init({});
+      Core.setupTask({ mode: 'whole-unknown-3', first: A, second: B, third: Cn });
+      check(Core.whole === sum, `${label}: whole ${Core.whole} ≠ ${sum} (three parts sum to whole)`);
+      check(Core.total() === sum, `${label}: total() ${Core.total()} ≠ ${sum}`);
+    });
+    continue;
+  }
+
   // default: make-ten (K.OA.A.4) — unchanged
   rounds.forEach((r, i) => {
     roundCount++;

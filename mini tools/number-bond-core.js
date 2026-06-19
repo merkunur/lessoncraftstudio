@@ -75,7 +75,14 @@ window.NumberBondCore = {
        ensemble. promptSubtraction is ICU: {whole}/{given} are DIGITS. ── */
     titleSubtraction: {en:"Find the Missing Part",de:"Finde den fehlenden Teil",es:"Encuentra la parte que falta",pt:"Encontre a parte que falta",fr:"Trouve la partie qui manque",it:"Trova la parte mancante",nl:"Vind het ontbrekende deel",sv:"Hitta delen som saknas",da:"Find den manglende del",no:"Finn den manglende delen",fi:"Etsi puuttuva osa"},
     instructionSubtraction: {en:"The whole is at the top and one part is filled. Tap the empty part to add counters until the two parts make the whole — the missing part is the answer to the subtraction. Tap Check when you're ready.",de:"Oben steht das Ganze, ein Teil ist schon gefüllt. Tippe auf den leeren Teil und füge Plättchen hinzu, bis beide Teile zusammen das Ganze ergeben – dieser fehlende Teil ist die Antwort. Tippe dann auf Prüfen.",es:"El todo está arriba y una parte ya está completa. Toca la parte vacía para añadir fichas hasta que las dos partes formen el todo; esa parte que falta es la respuesta de la resta. Luego toca Comprobar.",pt:"O todo está lá em cima e uma das partes já está preenchida. Toque na parte vazia para acrescentar fichas até as duas partes formarem o todo — essa parte que falta é a resposta da subtração. Depois toque em Verificar.",fr:"Le tout est en haut et une partie est déjà remplie. Touche la partie vide pour ajouter des jetons jusqu'à ce que les deux parties fassent le tout : cette partie manquante est la réponse de la soustraction. Touche Vérifier.",it:"L'intero è in alto e una parte è già piena. Tocca la parte vuota per aggiungere le pedine finché le due parti formano l'intero: quella parte mancante è la risposta della sottrazione. Poi tocca Controlla.",nl:"Het geheel staat bovenaan en één deel is al gevuld. Tik op het lege deel om fiches toe te voegen tot de twee delen samen het geheel maken; dat ontbrekende deel is het antwoord van de aftrekking. Tik daarna op Controleer.",sv:"Det hela står överst och en del är redan ifylld. Tryck på den tomma delen för att lägga till markörer tills de två delarna tillsammans blir det hela – den delen som saknas är svaret på subtraktionen. Tryck sedan på Kontrollera.",da:"Det hele står øverst, og den ene del er allerede fyldt. Tryk på den tomme del for at lægge brikker til, indtil de to dele tilsammen bliver det hele – den manglende del er svaret på subtraktionen. Tryk på Tjek.",no:"Det hele tallet står øverst, og den ene delen er allerede fylt. Trykk på den tomme delen for å legge til brikker til de to delene blir det hele tallet – den manglende delen er svaret på subtraksjonen. Trykk på Sjekk når du er ferdig.",fi:"Kokonaisluku on ylhäällä ja toinen osa on jo täytetty. Napauta tyhjää osaa ja lisää nappuloita, kunnes molemmat osat muodostavat yhdessä kokonaisluvun. Puuttuva osa on vähennyslaskun vastaus. Napauta sitten Tarkista."},
-    promptSubtraction: {en:"{whole} − {given} = ? Fill the empty part so {given} and it make {whole}.",de:"{whole} − {given} = ? Fülle den leeren Teil, sodass {given} und er zusammen {whole} ergeben.",es:"{whole} − {given} = ? Completa la parte vacía para que {given} y ella formen {whole}.",pt:"{whole} − {given} = ? Preencha a parte vazia para que {given} e ela formem {whole}.",fr:"{whole} − {given} = ? Remplis la partie vide pour que {given} et elle fassent {whole}.",it:"{whole} − {given} = ? Riempi la parte vuota in modo che {given} ed essa formino {whole}.",nl:"{whole} − {given} = ? Vul het lege deel zodat {given} en dat deel samen {whole} maken.",sv:"{whole} − {given} = ? Fyll den tomma delen så att {given} och den blir {whole}.",da:"{whole} − {given} = ? Fyld den tomme del, så {given} og den bliver {whole}.",no:"{whole} − {given} = ? Fyll den tomme delen slik at {given} og den blir {whole}.",fi:"{whole} − {given} = ? Täytä tyhjä osa niin, että {given} ja se ovat yhteensä {whole}."}
+    promptSubtraction: {en:"{whole} − {given} = ? Fill the empty part so {given} and it make {whole}.",de:"{whole} − {given} = ? Fülle den leeren Teil, sodass {given} und er zusammen {whole} ergeben.",es:"{whole} − {given} = ? Completa la parte vacía para que {given} y ella formen {whole}.",pt:"{whole} − {given} = ? Preencha a parte vazia para que {given} e ela formem {whole}.",fr:"{whole} − {given} = ? Remplis la partie vide pour que {given} et elle fassent {whole}.",it:"{whole} − {given} = ? Riempi la parte vuota in modo che {given} ed essa formino {whole}.",nl:"{whole} − {given} = ? Vul het lege deel zodat {given} en dat deel samen {whole} maken.",sv:"{whole} − {given} = ? Fyll den tomma delen så att {given} och den blir {whole}.",da:"{whole} − {given} = ? Fyld den tomme del, så {given} og den bliver {whole}.",no:"{whole} − {given} = ? Fyll den tomme delen slik at {given} og den blir {whole}.",fi:"{whole} − {given} = ? Täytä tyhjä osa niin, että {given} ja se ovat yhteensä {whole}."},
+
+    /* ── whole-unknown-3 mode (1.OA.A.2 add three numbers) strings — EN authored;
+       10 non-EN folded in by the native ensemble. promptThree is argless (the 3
+       parts are shown in the bond; the child types the total). ── */
+    titleThree: {en:"Add Three Numbers",de:"Drei Zahlen addieren",es:"Suma tres números",pt:"Some três números",fr:"Additionne trois nombres",it:"Somma tre numeri",nl:"Tel drie getallen op",sv:"Addera tre tal",da:"Læg tre tal sammen",no:"Legg sammen tre tall",fi:"Laske kolme lukua yhteen"},
+    instructionThree: {en:"All three parts are filled. Count how many there are in all, then type the total and tap Check.",de:"Alle drei Teile sind ausgefüllt. Zähle, wie viele es zusammen sind. Schreibe die Gesamtzahl auf und tippe auf Prüfen.",es:"Las tres partes ya están completas. Cuenta cuántos hay en total, escribe el total y toca Comprobar.",pt:"As três partes já estão preenchidas. Conte quantos há no total, depois digite o total e toque em Verificar.",fr:"Les trois parties sont déjà remplies. Compte combien il y en a en tout, puis écris le total et touche Vérifier.",it:"Le tre parti sono già piene. Conta quanti sono in tutto, scrivi il totale e tocca Controlla.",nl:"De drie delen zijn al gevuld. Tel hoeveel het er samen zijn, typ het totaal en tik op Controleer.",sv:"De tre delarna är redan ifyllda. Räkna hur många det är tillsammans, skriv summan och tryck på Kontrollera.",da:"De tre dele er fyldt ud. Tæl hvor mange der er i alt, skriv det hele, og tryk på Tjek.",no:"De tre delene er fylt ut. Tell hvor mange det er til sammen, skriv summen og trykk på Sjekk.",fi:"Kolme osaa on jo täytetty. Laske, kuinka monta niitä on yhteensä. Kirjoita summa ja napauta Tarkista."},
+    promptThree: {en:"Add the three parts. How many in all? Type the total.",de:"Addiere die drei Teile. Wie viele sind es zusammen? Schreibe die Gesamtzahl auf.",es:"Suma las tres partes. ¿Cuántos hay en total? Escribe el total.",pt:"Some as três partes. Quantos há no total? Digite o total.",fr:"Additionne les trois parties. Combien en tout ? Écris le total.",it:"Somma le tre parti. Quanti sono in tutto? Scrivi il totale.",nl:"Tel de drie delen op. Hoeveel in totaal? Typ het totaal.",sv:"Addera de tre delarna. Hur många är det tillsammans? Skriv summan.",da:"Læg de tre dele sammen. Hvor mange er der i alt? Skriv det hele.",no:"Legg sammen de tre delene. Hvor mange er det til sammen? Skriv summen.",fi:"Laske kolme osaa yhteen. Kuinka monta yhteensä? Kirjoita summa."}
   },
 
   defaults: {},
@@ -91,6 +98,7 @@ window.NumberBondCore = {
     this.given = 7;          // the filled part this round (1-9)
     this.first = 8;          // make-ten-to-add: the first addend A
     this.second = 5;         // make-ten-to-add: the second addend B (= whole)
+    this.third = null;       // whole-unknown-3 (1.OA.A.2): the third addend
     this.filled = 0;         // counters the child has put in the empty/make-ten part
     this.readOnly = false;
     this._fillEl = null; this._minusEl = null;
@@ -117,7 +125,21 @@ window.NumberBondCore = {
       this.mode = 'whole-unknown';
       this.first = opts.first;
       this.second = opts.second;
+      this.third = null;
       this.whole = opts.first + opts.second;   // the answer key
+      this.given = null;
+      this.filled = 0;
+      this.readOnly = false;
+      return;
+    }
+    if (opts.mode === 'whole-unknown-3') {
+      /* 1.OA.A.2 add three numbers: THREE parts given, find the total.
+         Display-only 3-part bond + the shell keypad is the answer surface. */
+      this.mode = 'whole-unknown-3';
+      this.first = opts.first;
+      this.second = opts.second;
+      this.third = opts.third;
+      this.whole = opts.first + opts.second + opts.third;   // the answer key
       this.given = null;
       this.filled = 0;
       this.readOnly = false;
@@ -130,8 +152,8 @@ window.NumberBondCore = {
     this.readOnly = false;
   },
 
-  /* the total (whole-unknown answer key) = both parts composed */
-  total: function () { return this.first + this.second; },
+  /* the total (whole-unknown answer key) = the parts composed (2 or 3) */
+  total: function () { return this.first + this.second + (this.third || 0); },
 
   /* the single correct missing part + the discrete answer key (mode-aware) */
   missing: function () { return this.mode === 'make-ten-to-add' ? (10 - this.first) : (this.whole - this.given); },
@@ -146,6 +168,7 @@ window.NumberBondCore = {
     this.injectCSS();
     if (this.mode === 'make-ten-to-add') { this._renderAddMode(); return; }
     if (this.mode === 'whole-unknown') { this._renderWholeUnknown(); return; }
+    if (this.mode === 'whole-unknown-3') { this._renderWholeUnknown3(); return; }
     var api = this.api, self = this, C = this._C;
     var stage = api.stage;
     stage.innerHTML = '';
@@ -378,6 +401,38 @@ window.NumberBondCore = {
     /* the two given parts (filled, static) */
     this._partGroup(svg, elNS, 'given', 28, 61, A, false);
     this._partGroup(svg, elNS, 'given', 72, 61, B, false);
+
+    wrap.appendChild(svg);
+    stage.appendChild(wrap);
+    this._fillEl = null;   // no tappable part; the keypad is the answer surface
+  },
+
+  /* ── whole-unknown-3 (1.OA.A.2): THREE parts given, WHOLE shows "?" — the child
+     reads the three parts and types the total on the shell keypad. Reuses the
+     2-part bond geometry with a third node: parts at cx 18/50/82 (r=15 spans
+     3..97 inside the 100 viewBox), three connecting lines. Display-only. ── */
+  _renderWholeUnknown3: function () {
+    var api = this.api, C = this._C, elNS = this._elNS.bind(this);
+    var stage = api.stage; stage.innerHTML = '';
+    var A = this.first, B = this.second, Cn = this.third;
+    var wrap = api.el('div', 'nb-wrap nb-whole');
+
+    var svg = elNS('svg', { viewBox: '0 0 100 78', 'class': 'nb-svg', role: 'group' });
+    svg.setAttribute('aria-label', api.t('instructionThree'));
+    /* three connecting lines (whole bottom → each part top) */
+    svg.appendChild(elNS('line', { x1: 50, y1: 26, x2: 18, y2: 48, stroke: C.LINE, 'stroke-width': 2.5, 'stroke-linecap': 'round', opacity: 0.7 }));
+    svg.appendChild(elNS('line', { x1: 50, y1: 26, x2: 50, y2: 48, stroke: C.LINE, 'stroke-width': 2.5, 'stroke-linecap': 'round', opacity: 0.7 }));
+    svg.appendChild(elNS('line', { x1: 50, y1: 26, x2: 82, y2: 48, stroke: C.LINE, 'stroke-width': 2.5, 'stroke-linecap': 'round', opacity: 0.7 }));
+    /* WHOLE (top) — unknown, shows "?" */
+    svg.appendChild(elNS('circle', { cx: 50, cy: 15, r: 13, fill: C.WHOLE, stroke: C.T, 'stroke-width': 2.5 }));
+    var qt = elNS('text', { x: 50, y: 15, 'text-anchor': 'middle', 'dominant-baseline': 'central', fill: C.DOT, 'font-size': 14, 'font-weight': 800, 'font-family': 'var(--lcs-font-display,"Baloo 2",system-ui,sans-serif)' });
+    qt.textContent = '?';
+    svg.appendChild(qt);
+    qt.setAttribute('aria-label', api.t('srWhole'));
+    /* the three given parts (filled, static) */
+    this._partGroup(svg, elNS, 'given', 18, 61, A, false);
+    this._partGroup(svg, elNS, 'given', 50, 61, B, false);
+    this._partGroup(svg, elNS, 'given', 82, 61, Cn, false);
 
     wrap.appendChild(svg);
     stage.appendChild(wrap);

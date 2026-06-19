@@ -234,5 +234,64 @@
       "fi": "Tässä tehtävässä lapsi harjoittelee vähennyslaskua osina: kokonaisluku ja toinen osa näkyvät, ja lapsi etsii puuttuvan osan, joka on vähennyslaskun vastaus (1.OA.B.4). Harjoitus tukee luvun hajottamista ja yhteen- ja vähennyslaskun yhteyden ymmärtämistä OPS 2014:n tavoitteiden mukaisesti."
     },
     "kid_prompt_template": "unknown-addend"
+  },
+  {
+    "id": "numberbond.add-three.1-oa-a-2",
+    "tool": "number-bond-activity",
+    "task_template": "add-three",
+    "alignment": { "framework": "CCSS", "code": "1.OA.A.2", "grade": "1", "strand": "Operations & Algebraic Thinking" },
+    "params": {
+      "rounds": [
+        { "first": 3, "second": 4, "third": 5, "seed": 11 },
+        { "first": 2, "second": 3, "third": 6, "seed": 23 },
+        { "first": 5, "second": 6, "third": 7, "seed": 31 },
+        { "first": 4, "second": 4, "third": 5, "seed": 41 },
+        { "first": 2, "second": 5, "third": 7, "seed": 53 },
+        { "first": 6, "second": 3, "third": 2, "seed": 61 },
+        { "first": 7, "second": 4, "third": 3, "seed": 67 },
+        { "first": 5, "second": 5, "third": 6, "seed": 71 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "add-three-numbers",
+      "de": "drei-zahlen-addieren-klasse-1",
+      "es": "suma-tres-numeros",
+      "pt": "some-tres-numeros",
+      "fr": "additionne-trois-nombres-cp",
+      "it": "somma-tre-numeri",
+      "nl": "tel-drie-getallen-op-groep-4",
+      "sv": "addera-tre-tal-ak-1",
+      "da": "laeg-tre-tal-sammen-1-klasse",
+      "no": "legg-sammen-tre-tall-2-trinn",
+      "fi": "laske-kolme-lukua-yhteen-1-luokka"
+    },
+    "page_title": {
+      "en": "Add Three Numbers — Three-Part Number Bond (Grade 1)",
+      "de": "Drei Zahlen addieren bis 20 – Zahlenbild, Klasse 1",
+      "es": "Sumar tres números hasta 20 para 1.º de primaria",
+      "pt": "Somar três números até 20 — Matemática 1º ano",
+      "fr": "Additionner trois nombres jusqu'à 20 au CP – arbre des nombres",
+      "it": "Sommare tre numeri entro 20 in classe prima",
+      "nl": "Drie getallen optellen tot 20 (splitsing) – groep 4",
+      "sv": "Addera tre tal upp till 20 – åk 1 matematik | övning",
+      "da": "Læg tre tal sammen op til 20 – matematik for 1. klasse",
+      "no": "Legge sammen tre tall opptil 20 – mattespill for 2. trinn",
+      "fi": "Kolmen luvun yhteenlasku kahteenkymmeneen – 1. luokka"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 math activity: see three parts join into one whole in a number bond, then add the three numbers and type the total (3 + 4 + 5 = 12). Adding three whole numbers within 20. Common Core 1.OA.A.2.",
+      "de": "Drei Zahlen im Zahlenraum bis 20 als Zahlenbild addieren: Dein Kind liest die drei Teile, zählt zusammen und tippt die Gesamtzahl ein. Passend zum Lehrplan der Klasse 1 (1.OA.A.2).",
+      "es": "En esta actividad los niños suman tres números hasta 20 viendo cómo las tres partes se juntan para formar un total, una primera idea de la descomposición numérica. Apoya el aprendizaje de la suma en 1.º de primaria según el Currículo LOMLOE (1.OA.A.2).",
+      "pt": "Atividade para somar três números cujo total não passa de 20, juntando as partes como uma decomposição (3 + 4 + 5 = 12). Alinhada à BNCC para o 1º ano (1.OA.A.2).",
+      "fr": "Apprends à additionner trois nombres dont la somme va jusqu'à 20, en décomposant le tout en trois parties (1.OA.A.2). Une activité de calcul réfléchi alignée sur les Programmes officiels du cycle 2.",
+      "it": "In questa attività i bambini imparano a sommare tre numeri entro il 20, scomponendo l'intero nelle sue tre parti. In linea con le Indicazioni nazionali, l'esercizio rafforza il calcolo mentale e la comprensione delle relazioni tra le parti e il tutto (1.OA.A.2).",
+      "nl": "Bij deze oefening tel je drie getallen op tot 20 als splitsing: drie delen vormen samen één geheel. Sluit aan bij de SLO-kerndoelen voor rekenen in groep 4 (1.OA.A.2).",
+      "sv": "I den här övningen får barnet addera tre tal med en summa upp till 20. Aktiviteten övar talförståelse och addition enligt Lgr22 (1.OA.A.2).",
+      "da": "Øv at lægge tre tal sammen op til 20. Barnet ser tre dele samlet til ét hele og finder summen. Aktiviteten følger Fælles Mål (1.OA.A.2).",
+      "no": "Øv på å legge sammen tre tall opptil 20 i et morsomt tallvenn-spill. Aktiviteten støtter målene i LK20 og svarer til kompetansemålet 1.OA.A.2.",
+      "fi": "Harjoitellaan kolmen luvun yhteenlaskua kahteenkymmeneen asti: lapsi lukee kolme osaa, laskee ne yhteen ja kirjoittaa summan. Tehtävä tukee OPS 2014:n tavoitteita yhteenlaskutaidon kehittämisessä (1.OA.A.2)."
+    },
+    "kid_prompt_template": "add-three"
   }
 ]

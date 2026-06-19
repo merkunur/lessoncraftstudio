@@ -10,8 +10,23 @@
       "strand": "Counting & Cardinality"
     },
     "params": {
-      "targets": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-      "range": { "min": 0, "max": 10 },
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "range": {
+        "min": 0,
+        "max": 10
+      },
       "frames": 1
     },
     "theme": "animals",
@@ -67,8 +82,33 @@
       "strand": "Counting & Cardinality"
     },
     "params": {
-      "targets": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
-      "range": { "min": 0, "max": 20 },
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "range": {
+        "min": 0,
+        "max": 20
+      },
       "frames": 2
     },
     "theme": "fruits",
@@ -124,8 +164,23 @@
       "strand": "Counting & Cardinality"
     },
     "params": {
-      "targets": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-      "range": { "min": 0, "max": 10 },
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "range": {
+        "min": 0,
+        "max": 10
+      },
       "frames": 1
     },
     "theme": "animals",
@@ -181,8 +236,33 @@
       "strand": "Counting & Cardinality"
     },
     "params": {
-      "targets": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
-      "range": { "min": 0, "max": 20 },
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "range": {
+        "min": 0,
+        "max": 20
+      },
       "frames": 2
     },
     "theme": "fruits",
@@ -238,8 +318,21 @@
       "strand": "Number & Operations in Base Ten"
     },
     "params": {
-      "targets": [11, 12, 13, 14, 15, 16, 17, 18, 19],
-      "range": { "min": 0, "max": 20 },
+      "targets": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "range": {
+        "min": 0,
+        "max": 20
+      },
       "frames": 2
     },
     "theme": null,
@@ -283,5 +376,112 @@
       "fi": "Rakenna luvut 11–19 muodossa \"täysi kymmen ja muutama lisää\". Kaksoiskymmenruudukko näyttää kymmenen ykköstä plus lisät. Yhteensopiva OPS 2014:n kanssa."
     },
     "kid_prompt_template": "taskMake"
+  },
+  {
+    "id": "ten-frame.show-the-operation.k-oa-a-1",
+    "tool": "ten-frame-activity",
+    "task_template": "represent-operation",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.OA.A.1",
+      "grade": "K",
+      "strand": "Operations & Algebraic Thinking"
+    },
+    "params": {
+      "problems": [
+        {
+          "a": 3,
+          "b": 2,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 6,
+          "op": "+"
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "op": "+"
+        },
+        {
+          "a": 5,
+          "b": 2,
+          "op": "−"
+        },
+        {
+          "a": 8,
+          "b": 3,
+          "op": "−"
+        },
+        {
+          "a": 7,
+          "b": 4,
+          "op": "−"
+        },
+        {
+          "a": 9,
+          "b": 6,
+          "op": "−"
+        },
+        {
+          "a": 6,
+          "b": 2,
+          "op": "−"
+        }
+      ],
+      "frames": 1
+    },
+    "theme": null,
+    "slug": {
+      "en": "show-the-operation",
+      "de": "plus-und-minus-im-zehnerfeld-zeigen",
+      "es": "sumar-y-restar-en-el-marco-de-diez",
+      "it": "rappresenta-addizioni-e-sottrazioni-sulla-tabella-del-dieci",
+      "pt": "representar-adicao-subtracao-quadro-de-dez",
+      "fr": "representer-addition-soustraction-cadre-de-dix",
+      "nl": "optellen-en-aftrekken-op-het-tienraam",
+      "sv": "addition-och-subtraktion-pa-tioram",
+      "da": "addition-og-subtraktion-paa-tierrammen",
+      "no": "vis-pluss-og-minus-pa-tierammen",
+      "fi": "yhteen-ja-vahennyslasku-kymmenruudukossa"
+    },
+    "page_title": {
+      "en": "Show the Operation — Add & Subtract on a Ten Frame",
+      "de": "Plus und Minus im Zehnerfeld Zeigen",
+      "es": "Sumar y Restar en el Marco de Diez",
+      "it": "Rappresenta Addizioni e Sottrazioni sulla Tabella del Dieci",
+      "pt": "Representar Adição e Subtração no Quadro de Dez",
+      "fr": "Représenter l'Addition et la Soustraction sur un Cadre de Dix",
+      "nl": "Optellen En Aftrekken Op Het Tienraam",
+      "sv": "Addition Och Subtraktion På Tioram",
+      "da": "Addition Og Subtraktion På Tierrammen",
+      "no": "Vis Pluss Og Minus På Tierammen",
+      "fi": "Yhteen- ja Vähennyslasku Kymmenruudukossa"
+    },
+    "page_intro": {
+      "en": "Represent addition and subtraction on a ten-frame with counters. For \"3 + 2\", place 3 counters then 2 more in a second colour to see the two parts make 5; for \"5 − 2\", start with 5 and take 2 away. Aligned to Common Core K.OA.A.1 — represent addition and subtraction with objects, fingers, and drawings.",
+      "de": "In dieser Aktivität legen Kinder Plus- und Minusaufgaben mit Plättchen im Zehnerfeld. Bei 3 + 2 legt das Kind erst 3 Plättchen und dann 2 weitere in einer zweiten Farbe dazu, bei 5 − 2 startet es mit 5 Plättchen und nimmt 2 wieder weg. So wird das Rechnen anschaulich begreifbar – ausgerichtet am Lehrplan.",
+      "es": "Representa sumas y restas en un marco de diez con fichas de colores. Para 3 + 2, coloca 3 fichas y añade 2 más de otro color; para 5 − 2, comienza con 5 fichas y quita 2. Una forma concreta y divertida de que los niños vean los números, alineado al Currículo LOMLOE.",
+      "it": "I bambini imparano a rappresentare addizioni e sottrazioni sulla tabella del dieci usando i gettoni: per 3 + 2 mettono prima 3 gettoni e poi ne aggiungono 2 di un altro colore, per 5 − 2 partono da 5 e ne tolgono 2. Con questi semplici gesti scoprono in modo concreto come i numeri si compongono e si scompongono fino a dieci. Un'attività calorosa e senza fretta, allineata alle Indicazioni nazionali.",
+      "pt": "Nesta atividade, as crianças representam adição e subtração num quadro de dez usando fichas coloridas. Para 3 + 2, a criança coloca 3 fichas e depois mais 2 de outra cor; para 5 − 2, começa com 5 fichas e tira 2. É uma forma concreta e acolhedora de visualizar como os números se juntam e se separam, alinhada à BNCC.",
+      "fr": "Sur cette activité, l'enfant représente l'addition et la soustraction sur un cadre de dix à l'aide de jetons. Pour 3 + 2, il place d'abord 3 jetons, puis 2 autres d'une couleur différente ; pour 5 − 2, il commence avec 5 jetons et en retire 2. Une première approche concrète et rassurante du calcul, alignée aux programmes officiels.",
+      "nl": "Leg met fiches op het tienraam zien hoe optellen en aftrekken werkt. Voor 3 + 2 leg je eerst 3 fiches neer en daarna nog 2 in een andere kleur; voor 5 − 2 begin je met 5 fiches en haal je er 2 weg. Zo zien kleuters het rekenen echt voor zich, afgestemd op de SLO-kerndoelen.",
+      "sv": "På den här aktiviteten visar barnet addition och subtraktion på en tioram med hjälp av markörer. För 3 + 2 lägger barnet först 3 markörer och sedan 2 till i en annan färg; för 5 − 2 börjar barnet med 5 markörer och tar bort 2. Ett tryggt och konkret sätt att utforska tal upp till tio, anpassad till Lgr22.",
+      "da": "Lær de små at vise både addition og subtraktion på en tierramme med brikker. Til 3 + 2 lægger barnet først 3 brikker og derefter 2 mere i en anden farve, og til 5 − 2 starter det med 5 brikker og tager 2 væk. Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen.",
+      "no": "Her viser barna addisjon og subtraksjon på en tierramme med tellebrikker. For 3 + 2 legger de tre brikker og så to til i en ny farge, og for 5 − 2 starter de med fem brikker og tar to bort. Aktiviteten er tilpasset rammeplanen og kompetansemålene i LK20.",
+      "fi": "Tällä toiminnolla lapsi kuvaa yhteen- ja vähennyslaskuja kymmenruudukossa siirtämällä laskupelimerkkejä ruutuihin. Laskussa 3 + 2 lapsi asettaa ensin kolme merkkiä ja lisää sitten kaksi toisenväristä merkkiä, ja laskussa 5 − 2 hän aloittaa viidellä merkillä ja ottaa kaksi pois. Tehtävä on OPS 2014 -opetussuunnitelman mukainen ja tukee luvun ja lukumäärän hahmottamista lempeästi ja leikkien."
+    },
+    "kid_prompt_template": "taskRepresentAdd"
   }
 ]

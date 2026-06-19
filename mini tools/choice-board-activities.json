@@ -4026,5 +4026,93 @@
       "fi": "Tässä tehtävässä lapsi vertaa kahta kaksinumeroista lukua ja valitsee oikean merkin >, = tai <. Vertaaminen aloitetaan kymmenistä ja edetään sitten ykkösiin, jotta lapsi oppii hahmottamaan lukujen suuruuden selkeästi ja rauhassa. Tehtävä on OPS 2014 -opetussuunnitelman mukainen."
     },
     "kid_prompt_template": "promptCompareTrue"
+  },
+  {
+    "id": "choice-board.ten-more-less.1-nbt-c-5",
+    "tool": "choice-board-activity",
+    "task_template": "ten-more-less",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.NBT.C.5",
+      "grade": "1",
+      "strand": "Number & Operations in Base Ten"
+    },
+    "params": {
+      "rounds": [
+        {
+          "n": 34,
+          "op": "more"
+        },
+        {
+          "n": 57,
+          "op": "less"
+        },
+        {
+          "n": 60,
+          "op": "more"
+        },
+        {
+          "n": 82,
+          "op": "less"
+        },
+        {
+          "n": 25,
+          "op": "more"
+        },
+        {
+          "n": 48,
+          "op": "less"
+        },
+        {
+          "n": 71,
+          "op": "more"
+        },
+        {
+          "n": 39,
+          "op": "less"
+        }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "ten-more-ten-less",
+      "de": "zehn-mehr-zehn-weniger",
+      "es": "diez-mas-diez-menos",
+      "it": "dieci-in-piu-dieci-in-meno",
+      "pt": "dez-a-mais-dez-a-menos",
+      "fr": "dix-de-plus-dix-de-moins",
+      "nl": "tien-meer-tien-minder",
+      "sv": "tio-mer-tio-mindre",
+      "da": "ti-mere-ti-mindre",
+      "no": "ti-mer-ti-mindre",
+      "fi": "kymmenen-enemman-kymmenen-vahemman"
+    },
+    "page_title": {
+      "en": "Ten More, Ten Less — Mental Math With Two-Digit Numbers",
+      "de": "10 Mehr, 10 Weniger bei Zweistelligen Zahlen",
+      "es": "Diez Más, Diez Menos",
+      "it": "Dieci in Più, Dieci in Meno",
+      "pt": "Dez a Mais, Dez a Menos",
+      "fr": "Dix de Plus, Dix de Moins",
+      "nl": "Tien Meer, Tien Minder",
+      "sv": "Tio Mer, Tio Mindre",
+      "da": "Ti Mere, Ti Mindre",
+      "no": "Ti Mer, Ti Mindre",
+      "fi": "Kymmenen Enemmän, Kymmenen Vähemmän"
+    },
+    "page_intro": {
+      "en": "Find 10 more or 10 less than a two-digit number — all in your head. Look at the tens: only the tens digit changes, so there is no counting. Tap the number you think is right, and take all the time you need. A calm way to build place-value sense and mental math, aligned to Common Core 1.NBT.C.5 — mentally finding 10 more or 10 less than a two-digit number without having to count.",
+      "de": "Bei dieser Übung sucht dein Kind zu einer zweistelligen Zahl ganz im Kopf 10 mehr oder 10 weniger. Dabei schaut es nur auf den Zehner – gezählt wird nicht. In Ruhe und ohne Druck darf es das passende Ergebnis aus vier Zahlen auswählen, ausprobieren und dabei ein Gefühl für die Zehner entwickeln. So wird das Rechnen im Zahlenraum bis 100 spielerisch geübt – passend zum Lehrplan der ersten Klasse.",
+      "es": "Aquí el niño mira un número de dos cifras y busca cuánto es 10 más o 10 menos. Basta con fijarse en las decenas: solo cambia esa cifra, sin contar de uno en uno. Luego toca la respuesta correcta, con calma y sin prisa, equivocarse forma parte de aprender. Una actividad tranquila de cálculo mental alineada con el Currículo LOMLOE.",
+      "it": "Qui il bambino guarda un numero di due cifre e trova con calma quanto fa 10 in più o 10 in meno. Basta osservare le decine: cambia solo quella cifra, senza contare a uno a uno. Poi sceglie il numero giusto tra quelli proposti, con tutta la tranquillità che desidera. Un modo sereno per allenare il calcolo mentale, in linea con le Indicazioni nazionali.",
+      "pt": "Aqui a criança olha um número de dois algarismos e descobre quanto fica com 10 a mais ou 10 a menos, percebendo que só o algarismo das dezenas muda. É só observar e tocar no número certo, com calma e sem pressa nenhuma. Uma forma tranquila de fortalecer o cálculo mental, alinhada às habilidades de números da BNCC.",
+      "fr": "Ici, ton enfant regarde un nombre à deux chiffres et cherche tranquillement 10 de plus ou 10 de moins. Pas besoin de compter un par un : il suffit d’observer le chiffre des dizaines, qui change tout seul. Chacun avance à son rythme, en douceur et sans pression. Une belle façon de renforcer le calcul mental, en accord avec les programmes officiels.",
+      "nl": "Bij deze activiteit zie je een getal van twee cijfers, bijvoorbeeld 47. Je zoekt rustig 10 meer of 10 minder. Kijk goed naar de tientallen: alleen dat cijfer verandert, dus je hoeft niet te tellen. Tik daarna op het juiste getal. Neem gerust de tijd, er is geen haast. Zo oefen je hoofdrekenen met tientallen, passend bij de SLO-kerndoelen voor groep 3.",
+      "sv": "Här tittar du på ett tvåsiffrigt tal och räknar ut vad som är tio mer eller tio mindre. Titta på tiotalssiffran – det är bara den som ändras, så du behöver inte räkna stegen ett och ett. Ta den tid du behöver och tryck på det tal du tror är rätt. Övningen tränar huvudräkning med tiotal i linje med Lgr22.",
+      "da": "Her øver du dig i at finde 10 mere og 10 mindre end et tocifret tal. Du kigger på tierne — det er kun tierne, der ændrer sig, mens enerne bliver de samme. Tag dig god tid, og tap det tal, du synes passer. Der er ingen tidtagning og intet, der haster — bare rolig regning i hovedet. Aktiviteten passer fint til matematik i 1. klasse efter Fælles Mål.",
+      "no": "Her ser du et tosifret tall, og du skal finne ti mer eller ti mindre. Se på tierne – det er bare tierplassen som endrer seg, så du trenger ikke å telle. Ta den tiden du trenger, og trykk på det tallet du tror er riktig. Denne aktiviteten støtter arbeidet med tierovergang og hoderegning i tråd med LK20.",
+      "fi": "Tässä tehtävässä lapsi katsoo kaksinumeroista lukua ja etsii kymmenen enemmän tai kymmenen vähemmän. Vihje: vain kymmenet muuttuvat, joten lukua ei tarvitse laskea sormin – riittää, kun katsoo kymmenten paikkaa. Lapsi napauttaa oikean luvun rauhassa, omaan tahtiinsa, ilman kiirettä. Tehtävä harjoittaa lukujen hahmottamista ja päässälaskua OPS 2014 -opetussuunnitelman mukaisesti."
+    },
+    "kid_prompt_template": "promptTenMore"
   }
 ]

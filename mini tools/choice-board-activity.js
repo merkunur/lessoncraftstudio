@@ -149,6 +149,11 @@ var ACTIVITY_STRINGS = {
     no: 'Er tallet partall eller oddetall?',
     fi: 'Onko luku parillinen vai pariton?'
   },
+  /* 1.NBT.B.3 — compare two two-digit numbers. The 3 option tiles are the
+     full comparison statements ("47 < 52" / "47 = 52" / "47 > 52", universal
+     numerals+symbols); this prompt asks which is true. EN now; 10 non-EN folded
+     by the native ensemble (§A.13.48). */
+  promptCompareTrue: {"en":"Which one is true?","de":"Welche Aussage stimmt?","es":"¿Cuál es la verdadera?","it":"Quale è vero?","pt":"Qual está correto?","fr":"Laquelle est vraie ?","nl":"Welke is waar?","sv":"Vilken stämmer?","da":"Hvilken er rigtig?","no":"Hvilken er riktig?","fi":"Mikä näistä on totta?"},
   /* Batch 2 K.G.A.3 — Flat or solid (2D vs 3D) */
   promptFlatOrSolid: {
     en: 'Is this shape flat or solid?',
@@ -880,7 +885,7 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       if (!row) return;
       self._activityRow = row;
       var built = self._buildTasksFromRow(row);
-      if (row.task_template === 'read-sight-word') {
+      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit') {
         /* per-pass reshuffle path: shell uses nextTask() when tasks is unset */
         self._pool = built; self._order = null; self._curPass = 0; self._orderForPool = null;
         self.tasks = null;
@@ -1098,6 +1103,41 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
           },
           check: function (tool) {
             var correct = tool.answer === targetKey;
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: compare-2digit (1.NBT.B.3) — compare two TWO-DIGIT numbers
+       using >, =, <. The 3 option tiles are the full comparison STATEMENTS
+       ("47 < 52" / "47 = 52" / "47 > 52" — universal numerals+symbols); the
+       child taps the TRUE one. EXACTLY ONE is true (no-two-correct by
+       construction). Distinct from pick-bigger (tap a NUMBER, single-digit, no
+       symbol/equal). params.pairs = [[a, b], ...] two-digit, mix of </=/>. */
+    if (row.task_template === 'compare-2digit') {
+      var cmpPairs = row.params.pairs;
+      return cmpPairs.map(function (pair) {
+        var a = pair[0], b = pair[1];
+        var rel = (a < b) ? 'lt' : (a > b) ? 'gt' : 'eq';
+        return {
+          id: row.id + '.' + a + '-' + b,
+          promptKey: 'promptCompareTrue',
+          answerType: 'state',
+          setup: function (tool) {
+            var options = [
+              { key: 'lt', text: a + ' < ' + b },
+              { key: 'eq', text: a + ' = ' + b },
+              { key: 'gt', text: a + ' > ' + b }
+            ];
+            tool.setupTask(options, rel, null);
+          },
+          check: function (tool) {
+            var correct = tool.answer === rel;
             tool.showFeedback(correct);
             return correct;
           },

@@ -51,6 +51,16 @@ var CVC_ACTIVITY_STRINGS = {
     sv: 'Tap the sounds to build the word.', da: 'Tap the sounds to build the word.',
     no: 'Tap the sounds to build the word.', fi: 'Tap the sounds to build the word.'
   },
+  /* RF.1.3 silent-e — the base (kit_) is pre-filled; add the magic e to make the
+     vowel long (kit→kite). EN-only. */
+  promptMagicE: {
+    en: 'Add the magic e to finish the word.',
+    de: 'Add the magic e to finish the word.', fr: 'Add the magic e to finish the word.',
+    it: 'Add the magic e to finish the word.', es: 'Add the magic e to finish the word.',
+    pt: 'Add the magic e to finish the word.', nl: 'Add the magic e to finish the word.',
+    sv: 'Add the magic e to finish the word.', da: 'Add the magic e to finish the word.',
+    no: 'Add the magic e to finish the word.', fi: 'Add the magic e to finish the word.'
+  },
   hintFillAllSlots: {
     en: 'Fill all three letter slots, then check.',
     de: 'Fill all three letter slots, then check.',
@@ -207,7 +217,7 @@ window.CvcBuilderActivity = Object.assign({}, CvcBuilderCore, {
       if (!row) return;
       self._activityRow = row;
       var built = self._buildTasksFromRow(row);
-      if (row.task_template === 'build-blend-word') {
+      if (row.task_template === 'build-blend-word' || row.task_template === 'build-magic-e') {
         /* per-pass reshuffle path: shell uses nextTask() when tasks is unset */
         self._pool = built; self._order = null; self._curPass = 0; self._orderForPool = null;
         self.tasks = null;
@@ -272,6 +282,52 @@ window.CvcBuilderActivity = Object.assign({}, CvcBuilderCore, {
           },
           check: function (tool) {
             var correct = tool.answer === entry.targetWord;
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintFillAllSlots' : 'hintTryAnother';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: build-magic-e (RF.1.3 silent-e) — the CVC base (kit_) is
+       PRE-FILLED + locked; the child adds the magic e to make the long-vowel
+       target (kite) matching the picture. Surfaces the cap→cape transform.
+       params.words = [{ noun, themeDir, targetWord (CVCe ending in 'e'),
+       distractors:[wrong final letters] }]. prefill + magicLetter derived. */
+    if (row.task_template === 'build-magic-e') {
+      var magicWords = row.params.words;
+      return magicWords.map(function (entry) {
+        var imgUrl = '/image-library-webp/themes/' + entry.themeDir + '/' + entry.noun + '@2x.webp';
+        var tw = String(entry.targetWord);
+        var magicLetter = tw.slice(-1);                       /* "e" */
+        var base = tw.slice(0, -1).split('');                 /* ["k","i","t"] */
+        var prefill = base.concat([null]);                    /* ["k","i","t",null] */
+        var palette = _shuffle([magicLetter].concat(entry.distractors || []), _seedFromWord(tw));
+        return {
+          id: row.id + '.' + entry.noun,
+          promptKey: 'promptMagicE',
+          answerType: 'state',
+          setup: function (tool) {
+            tool.setupTask({
+              slots: tw.length,
+              palette: palette,
+              targetWord: tw,
+              prefill: prefill,
+              lockPrefilled: true,
+              subject: {
+                type: 'image',
+                imgUrl: imgUrl,
+                alt: entry.noun,
+                hearItWord: tw,
+                hearItLang: entry.hearItLang || 'en-US'
+              }
+            });
+          },
+          check: function (tool) {
+            var correct = tool.answer === tw;
             tool.showFeedback(correct);
             return correct;
           },

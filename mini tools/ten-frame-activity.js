@@ -27,7 +27,10 @@ var ACTIVITY_STRINGS = {
      numerals. taskRepresentAdd → place a+b counters (first a one colour, next b
      another); taskRepresentSub → start with a, take b away. */
   taskRepresentAdd: {"en":"Show {a} + {b}","de":"Zeige {a} + {b}","es":"Muestra {a} + {b}","it":"Mostra {a} + {b}","pt":"Mostre {a} + {b}","fr":"Montre {a} + {b}","nl":"Laat {a} + {b} zien","sv":"Visa {a} + {b}","da":"Vis {a} + {b}","no":"Vis {a} + {b}","fi":"Näytä {a} + {b}"},
-  taskRepresentSub: {"en":"Show {a} − {b} — take some away","de":"Zeige {a} − {b} — nimm etwas weg","es":"Muestra {a} − {b}: quita algunas","it":"Mostra {a} − {b} — togline alcune","pt":"Mostre {a} − {b} — tire alguns","fr":"Montre {a} − {b} — enlèves-en quelques-uns","nl":"Laat {a} − {b} zien — haal er een paar weg","sv":"Visa {a} − {b} — ta bort några","da":"Vis {a} − {b} — tag nogle væk","no":"Vis {a} − {b} — ta noen bort","fi":"Näytä {a} − {b} — ota osa pois"}
+  taskRepresentSub: {"en":"Show {a} − {b} — take some away","de":"Zeige {a} − {b} — nimm etwas weg","es":"Muestra {a} − {b}: quita algunas","it":"Mostra {a} − {b} — togline alcune","pt":"Mostre {a} − {b} — tire alguns","fr":"Montre {a} − {b} — enlèves-en quelques-uns","nl":"Laat {a} − {b} zien — haal er een paar weg","sv":"Visa {a} − {b} — ta bort några","da":"Vis {a} − {b} — tag nogle væk","no":"Vis {a} − {b} — ta noen bort","fi":"Näytä {a} − {b} — ota osa pois"},
+  /* word-problem template (K.OA.A.2) prompt — pure "{text}" passthrough; the native
+     story sentence rides promptArgs.text (the E18 #6 pattern). Locale-independent. */
+  taskStoryProblem: {en:'{text}',de:'{text}',es:'{text}',it:'{text}',pt:'{text}',fr:'{text}',nl:'{text}',sv:'{text}',da:'{text}',no:'{text}',fi:'{text}'}
 };
 
 /* Per-pass order-only reshuffle (§A.13.60) — ported from number-bond-activity.js.
@@ -116,7 +119,7 @@ var TenFrameActivity = Object.assign({}, TenFrameCore, {
       return row;
     }).then(function (row) {
       if (!row) return;
-      if (row.task_template === 'represent-operation') {
+      if (row.task_template === 'represent-operation' || row.task_template === 'word-problem') {
         /* §A.13.60 per-pass reshuffle: install nextTask + null tasks so the shell
            routes through tool.nextTask() (tasks takes priority in the shell, so it
            MUST be null). make-n/how-many fall through and keep the tasks[] path. */
@@ -257,6 +260,39 @@ var TenFrameActivity = Object.assign({}, TenFrameCore, {
           },
           check: function (tool) { return tool.count === result; },
           hintKey: function (tool) { return tool.count < result ? 'hintAddMore' : 'hintTakeAway'; }
+        };
+      });
+    }
+    if (t === 'word-problem') {
+      /* K.OA.A.2 — solve a within-10 word problem on the ten-frame. The story
+         rides the prompt strip ("{text}" passthrough); the frame is the
+         modeling tool (interactive, child places/clears counters to represent
+         the situation); the answer is KEYPADED (the solve). per-locale rounds:
+         numbers fixed across locales, native story text. */
+      /* content locale = window.LCS.i18n.current (the E18 #6 pattern); self.language
+         / api.lang is NOT the content locale (it's 'en'/default) — using it served
+         English text for every locale. */
+      var lang = (typeof window !== 'undefined' && window.LCS && window.LCS.i18n && window.LCS.i18n.current) || 'en';
+      var byLoc = (row.params && row.params.byLocale) || {};
+      var rounds = ((byLoc[lang] || byLoc.en || {}).rounds) || [];
+      return rounds.map(function (r, i) {
+        return {
+          id: row.id + '.wp-' + i,
+          promptKey: 'taskStoryProblem',
+          promptArgs: { text: r.text },
+          answerType: 'number',
+          answerMin: 0,
+          answerMax: 10,
+          answer: r.answer,                           // metadata for the local-test harness
+          setup: function (tool) {
+            tool.hideReadout = false;                  // frame is a modeling aid; the keypad is the answer
+            tool.readOnly = false;                     // interactive — child models the story
+            tool.splitAt = null; tool.splitColor = null;
+            tool.api.settings.frames = (row.params.frames || 1);
+            tool.render();
+            tool.setCount(0);                          // empty start — child models the whole story
+          },
+          check: function (tool, ans) { return parseInt(ans, 10) === r.answer; }
         };
       });
     }

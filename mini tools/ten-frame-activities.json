@@ -483,5 +483,722 @@
       "fi": "Tällä toiminnolla lapsi kuvaa yhteen- ja vähennyslaskuja kymmenruudukossa siirtämällä laskupelimerkkejä ruutuihin. Laskussa 3 + 2 lapsi asettaa ensin kolme merkkiä ja lisää sitten kaksi toisenväristä merkkiä, ja laskussa 5 − 2 hän aloittaa viidellä merkillä ja ottaa kaksi pois. Tehtävä on OPS 2014 -opetussuunnitelman mukainen ja tukee luvun ja lukumäärän hahmottamista lempeästi ja leikkien."
     },
     "kid_prompt_template": "taskRepresentAdd"
+  },
+  {
+    "id": "ten-frame.solve-the-story.k-oa-a-2",
+    "tool": "ten-frame-activity",
+    "task_template": "word-problem",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.OA.A.2",
+      "grade": "K",
+      "strand": "Operations & Algebraic Thinking"
+    },
+    "params": {
+      "frames": 1,
+      "byLocale": {
+        "en": {
+          "rounds": [
+            {
+              "text": "3 birds sit on a branch. 2 more birds land. How many birds are there now?",
+              "a": 3,
+              "b": 2,
+              "op": "+",
+              "answer": 5
+            },
+            {
+              "text": "4 apples are in a basket. You put in 3 more. How many apples are there now?",
+              "a": 4,
+              "b": 3,
+              "op": "+",
+              "answer": 7
+            },
+            {
+              "text": "2 ducks swim in the pond. 4 more ducks join them. How many ducks are there now?",
+              "a": 2,
+              "b": 4,
+              "op": "+",
+              "answer": 6
+            },
+            {
+              "text": "5 children play in the park. 4 more children come. How many children are there now?",
+              "a": 5,
+              "b": 4,
+              "op": "+",
+              "answer": 9
+            },
+            {
+              "text": "7 balloons float in the air. 3 balloons pop. How many balloons are left?",
+              "a": 7,
+              "b": 3,
+              "op": "−",
+              "answer": 4
+            },
+            {
+              "text": "8 cookies are on a plate. You eat 2 cookies. How many cookies are left?",
+              "a": 8,
+              "b": 2,
+              "op": "−",
+              "answer": 6
+            },
+            {
+              "text": "6 fish swim in a tank. 4 fish swim away. How many fish are left?",
+              "a": 6,
+              "b": 4,
+              "op": "−",
+              "answer": 2
+            },
+            {
+              "text": "9 flowers grow in a pot. 5 flowers are picked. How many flowers are left?",
+              "a": 9,
+              "b": 5,
+              "op": "−",
+              "answer": 4
+            }
+          ]
+        },
+        "de": {
+          "rounds": [
+            {
+              "text": "3 Vögel sitzen auf einem Ast. 2 weitere Vögel landen dazu. Wie viele Vögel sind es jetzt?",
+              "a": 3,
+              "b": 2,
+              "op": "+",
+              "answer": 5
+            },
+            {
+              "text": "4 Äpfel liegen in einem Korb. Du legst 3 weitere Äpfel hinein. Wie viele Äpfel sind es jetzt?",
+              "a": 4,
+              "b": 3,
+              "op": "+",
+              "answer": 7
+            },
+            {
+              "text": "2 Enten schwimmen im Teich. 4 weitere Enten kommen dazu. Wie viele Enten sind es jetzt?",
+              "a": 2,
+              "b": 4,
+              "op": "+",
+              "answer": 6
+            },
+            {
+              "text": "5 Kinder spielen im Park. 4 weitere Kinder kommen dazu. Wie viele Kinder sind es jetzt?",
+              "a": 5,
+              "b": 4,
+              "op": "+",
+              "answer": 9
+            },
+            {
+              "text": "7 Luftballons schweben in der Luft. 3 Luftballons platzen. Wie viele Luftballons sind noch übrig?",
+              "a": 7,
+              "b": 3,
+              "op": "−",
+              "answer": 4
+            },
+            {
+              "text": "8 Kekse liegen auf einem Teller. Du isst 2 Kekse. Wie viele Kekse sind noch übrig?",
+              "a": 8,
+              "b": 2,
+              "op": "−",
+              "answer": 6
+            },
+            {
+              "text": "6 Fische schwimmen in einem Becken. 4 Fische schwimmen davon. Wie viele Fische sind noch übrig?",
+              "a": 6,
+              "b": 4,
+              "op": "−",
+              "answer": 2
+            },
+            {
+              "text": "9 Blumen wachsen in einem Topf. 5 Blumen werden gepflückt. Wie viele Blumen sind noch übrig?",
+              "a": 9,
+              "b": 5,
+              "op": "−",
+              "answer": 4
+            }
+          ]
+        },
+        "es": {
+          "rounds": [
+            {
+              "text": "3 pájaros están en el árbol. Llegan 2 pájaros más. ¿Cuántos pájaros hay ahora?",
+              "a": 3,
+              "b": 2,
+              "op": "+",
+              "answer": 5
+            },
+            {
+              "text": "Hay 4 manzanas en la cesta. Ponemos 3 manzanas más. ¿Cuántas manzanas hay en total?",
+              "a": 4,
+              "b": 3,
+              "op": "+",
+              "answer": 7
+            },
+            {
+              "text": "2 patitos nadan en el estanque. Llegan 4 patitos más. ¿Cuántos patitos hay ahora?",
+              "a": 2,
+              "b": 4,
+              "op": "+",
+              "answer": 6
+            },
+            {
+              "text": "5 niños juegan en el parque. Vienen 4 niños más. ¿Cuántos niños hay en total?",
+              "a": 5,
+              "b": 4,
+              "op": "+",
+              "answer": 9
+            },
+            {
+              "text": "Tienes 7 globos. Se revientan 3 globos. ¿Cuántos globos quedan?",
+              "a": 7,
+              "b": 3,
+              "op": "−",
+              "answer": 4
+            },
+            {
+              "text": "Hay 8 galletas en el plato. Te comes 2 galletas. ¿Cuántas galletas quedan?",
+              "a": 8,
+              "b": 2,
+              "op": "−",
+              "answer": 6
+            },
+            {
+              "text": "6 peces nadan juntos. 4 peces se alejan nadando. ¿Cuántos peces quedan?",
+              "a": 6,
+              "b": 4,
+              "op": "−",
+              "answer": 2
+            },
+            {
+              "text": "En el jardín hay 9 flores. Cortamos 5 flores. ¿Cuántas flores quedan?",
+              "a": 9,
+              "b": 5,
+              "op": "−",
+              "answer": 4
+            }
+          ]
+        },
+        "it": {
+          "rounds": [
+            {
+              "text": "In giardino ci sono 3 uccellini. Ne arrivano altri 2 che si posano vicino. Quanti uccellini ci sono adesso in tutto?",
+              "a": 3,
+              "b": 2,
+              "op": "+",
+              "answer": 5
+            },
+            {
+              "text": "In un cestino ci sono 4 mele. La mamma ne mette altre 3. Quante mele ci sono ora nel cestino?",
+              "a": 4,
+              "b": 3,
+              "op": "+",
+              "answer": 7
+            },
+            {
+              "text": "Nello stagno nuotano 2 anatre. Poi arrivano altre 4 anatre a nuotare insieme. Quante anatre ci sono adesso?",
+              "a": 2,
+              "b": 4,
+              "op": "+",
+              "answer": 6
+            },
+            {
+              "text": "Al parco giocano 5 bambini. Ne arrivano altri 4 a giocare con loro. Quanti bambini ci sono ora in tutto?",
+              "a": 5,
+              "b": 4,
+              "op": "+",
+              "answer": 9
+            },
+            {
+              "text": "Marco tiene 7 palloncini colorati. Ne scoppiano 3. Quanti palloncini gli rimangono?",
+              "a": 7,
+              "b": 3,
+              "op": "−",
+              "answer": 4
+            },
+            {
+              "text": "Sul tavolo ci sono 8 biscotti. Ne mangiamo 2. Quanti biscotti restano sul tavolo?",
+              "a": 8,
+              "b": 2,
+              "op": "−",
+              "answer": 6
+            },
+            {
+              "text": "Nella vasca ci sono 6 pesciolini. Poi 4 nuotano via lontano. Quanti pesciolini rimangono nella vasca?",
+              "a": 6,
+              "b": 4,
+              "op": "−",
+              "answer": 2
+            },
+            {
+              "text": "Nel prato ci sono 9 fiori. La bambina ne raccoglie 5. Quanti fiori restano nel prato?",
+              "a": 9,
+              "b": 5,
+              "op": "−",
+              "answer": 4
+            }
+          ]
+        },
+        "pt": {
+          "rounds": [
+            {
+              "text": "3 passarinhos estão pousados no galho. Mais 2 passarinhos chegam voando. Quantos passarinhos há agora no galho?",
+              "a": 3,
+              "b": 2,
+              "op": "+",
+              "answer": 5
+            },
+            {
+              "text": "Tem 4 maçãs na cesta. A Lia coloca mais 3 maçãs na cesta. Quantas maçãs há agora na cesta?",
+              "a": 4,
+              "b": 3,
+              "op": "+",
+              "answer": 7
+            },
+            {
+              "text": "2 patinhos estão nadando no lago. Mais 4 patinhos vêm nadando juntos. Quantos patinhos há agora no lago?",
+              "a": 2,
+              "b": 4,
+              "op": "+",
+              "answer": 6
+            },
+            {
+              "text": "5 crianças estão brincando no parque. Mais 4 crianças chegam para brincar. Quantas crianças há agora no parque?",
+              "a": 5,
+              "b": 4,
+              "op": "+",
+              "answer": 9
+            },
+            {
+              "text": "O Téo tem 7 balões coloridos. 3 balões estouram. Quantos balões sobraram para o Téo?",
+              "a": 7,
+              "b": 3,
+              "op": "−",
+              "answer": 4
+            },
+            {
+              "text": "Tem 8 biscoitos no prato. A Bia come 2 biscoitos. Quantos biscoitos sobraram no prato?",
+              "a": 8,
+              "b": 2,
+              "op": "−",
+              "answer": 6
+            },
+            {
+              "text": "6 peixinhos estão no aquário. 4 peixinhos nadam para longe. Quantos peixinhos sobraram no aquário?",
+              "a": 6,
+              "b": 4,
+              "op": "−",
+              "answer": 2
+            },
+            {
+              "text": "Tem 9 flores no jardim. A Nina colhe 5 flores. Quantas flores sobraram no jardim?",
+              "a": 9,
+              "b": 5,
+              "op": "−",
+              "answer": 4
+            }
+          ]
+        },
+        "fr": {
+          "rounds": [
+            {
+              "text": "3 oiseaux sont sur la branche. 2 autres oiseaux arrivent. Combien d'oiseaux y a-t-il en tout ?",
+              "a": 3,
+              "b": 2,
+              "op": "+",
+              "answer": 5
+            },
+            {
+              "text": "Il y a 4 pommes dans le panier. On en ajoute 3 de plus. Combien de pommes y a-t-il en tout ?",
+              "a": 4,
+              "b": 3,
+              "op": "+",
+              "answer": 7
+            },
+            {
+              "text": "2 canards nagent sur l'étang. 4 autres canards les rejoignent. Combien de canards y a-t-il en tout ?",
+              "a": 2,
+              "b": 4,
+              "op": "+",
+              "answer": 6
+            },
+            {
+              "text": "5 enfants jouent dans le jardin. 4 autres enfants arrivent. Combien d'enfants y a-t-il en tout ?",
+              "a": 5,
+              "b": 4,
+              "op": "+",
+              "answer": 9
+            },
+            {
+              "text": "Il y a 7 ballons. 3 ballons éclatent. Combien de ballons reste-t-il ?",
+              "a": 7,
+              "b": 3,
+              "op": "−",
+              "answer": 4
+            },
+            {
+              "text": "Il y a 8 biscuits sur l'assiette. On en mange 2. Combien de biscuits reste-t-il ?",
+              "a": 8,
+              "b": 2,
+              "op": "−",
+              "answer": 6
+            },
+            {
+              "text": "6 poissons nagent dans le bocal. 4 poissons s'en vont. Combien de poissons reste-t-il ?",
+              "a": 6,
+              "b": 4,
+              "op": "−",
+              "answer": 2
+            },
+            {
+              "text": "Il y a 9 fleurs dans le jardin. On en cueille 5. Combien de fleurs reste-t-il ?",
+              "a": 9,
+              "b": 5,
+              "op": "−",
+              "answer": 4
+            }
+          ]
+        },
+        "nl": {
+          "rounds": [
+            {
+              "text": "Er zitten 3 vogels op het hek. Er komen 2 vogels bij. Hoeveel vogels zijn er nu?",
+              "a": 3,
+              "b": 2,
+              "op": "+",
+              "answer": 5
+            },
+            {
+              "text": "In het mandje liggen 4 appels. Je legt er 3 appels bij. Hoeveel appels zijn het nu?",
+              "a": 4,
+              "b": 3,
+              "op": "+",
+              "answer": 7
+            },
+            {
+              "text": "Er zwemmen 2 eendjes in de vijver. Er komen 4 eendjes bij. Hoeveel eendjes zijn er nu?",
+              "a": 2,
+              "b": 4,
+              "op": "+",
+              "answer": 6
+            },
+            {
+              "text": "Er spelen 5 kinderen in de zandbak. Er komen 4 kinderen bij. Hoeveel kinderen zijn er nu?",
+              "a": 5,
+              "b": 4,
+              "op": "+",
+              "answer": 9
+            },
+            {
+              "text": "Je hebt 7 ballonnen. Er knappen 3 ballonnen. Hoeveel ballonnen heb je nog?",
+              "a": 7,
+              "b": 3,
+              "op": "−",
+              "answer": 4
+            },
+            {
+              "text": "Op het bord liggen 8 koekjes. Je eet er 2 koekjes op. Hoeveel koekjes liggen er nog?",
+              "a": 8,
+              "b": 2,
+              "op": "−",
+              "answer": 6
+            },
+            {
+              "text": "Er zwemmen 6 visjes in de kom. Er zwemmen 4 visjes weg. Hoeveel visjes zijn er nog?",
+              "a": 6,
+              "b": 4,
+              "op": "−",
+              "answer": 2
+            },
+            {
+              "text": "In de tuin staan 9 bloemen. Je plukt er 5 bloemen. Hoeveel bloemen staan er nog?",
+              "a": 9,
+              "b": 5,
+              "op": "−",
+              "answer": 4
+            }
+          ]
+        },
+        "sv": {
+          "rounds": [
+            {
+              "text": "3 fåglar sitter på en gren. 2 fåglar till landar. Hur många fåglar är det nu?",
+              "a": 3,
+              "b": 2,
+              "op": "+",
+              "answer": 5
+            },
+            {
+              "text": "Det ligger 4 äpplen i korgen. Du lägger 3 äpplen till. Hur många äpplen är det nu?",
+              "a": 4,
+              "b": 3,
+              "op": "+",
+              "answer": 7
+            },
+            {
+              "text": "2 ankor simmar i dammen. 4 ankor till kommer dit. Hur många ankor är det nu?",
+              "a": 2,
+              "b": 4,
+              "op": "+",
+              "answer": 6
+            },
+            {
+              "text": "5 barn leker på gården. 4 barn till kommer. Hur många barn är det nu?",
+              "a": 5,
+              "b": 4,
+              "op": "+",
+              "answer": 9
+            },
+            {
+              "text": "Du har 7 ballonger. 3 ballonger spricker. Hur många ballonger är kvar?",
+              "a": 7,
+              "b": 3,
+              "op": "−",
+              "answer": 4
+            },
+            {
+              "text": "Det finns 8 kakor på fatet. Du äter 2 kakor. Hur många kakor är kvar?",
+              "a": 8,
+              "b": 2,
+              "op": "−",
+              "answer": 6
+            },
+            {
+              "text": "6 fiskar simmar tillsammans. 4 fiskar simmar bort. Hur många fiskar är kvar?",
+              "a": 6,
+              "b": 4,
+              "op": "−",
+              "answer": 2
+            },
+            {
+              "text": "Det står 9 blommor i vasen. Du plockar 5 blommor. Hur många blommor är kvar?",
+              "a": 9,
+              "b": 5,
+              "op": "−",
+              "answer": 4
+            }
+          ]
+        },
+        "da": {
+          "rounds": [
+            {
+              "text": "3 fugle sidder på grenen. 2 fugle mere lander ved siden af dem. Hvor mange fugle er der nu?",
+              "a": 3,
+              "b": 2,
+              "op": "+",
+              "answer": 5
+            },
+            {
+              "text": "Der ligger 4 æbler i kurven. Du lægger 3 æbler mere ned i kurven. Hvor mange æbler er der i alt?",
+              "a": 4,
+              "b": 3,
+              "op": "+",
+              "answer": 7
+            },
+            {
+              "text": "2 ællinger svømmer på søen. 4 ællinger mere kommer hen til dem. Hvor mange ællinger er der nu?",
+              "a": 2,
+              "b": 4,
+              "op": "+",
+              "answer": 6
+            },
+            {
+              "text": "5 børn leger i haven. 4 børn mere kommer ud og leger med. Hvor mange børn er der i alt?",
+              "a": 5,
+              "b": 4,
+              "op": "+",
+              "answer": 9
+            },
+            {
+              "text": "Du har 7 balloner. 3 balloner springer. Hvor mange balloner er der tilbage?",
+              "a": 7,
+              "b": 3,
+              "op": "−",
+              "answer": 4
+            },
+            {
+              "text": "Der står 8 småkager på tallerkenen. Du spiser 2 småkager. Hvor mange småkager er der tilbage?",
+              "a": 8,
+              "b": 2,
+              "op": "−",
+              "answer": 6
+            },
+            {
+              "text": "6 fisk svømmer i dammen. 4 fisk svømmer væk. Hvor mange fisk er der tilbage?",
+              "a": 6,
+              "b": 4,
+              "op": "−",
+              "answer": 2
+            },
+            {
+              "text": "Der står 9 blomster i vasen. Du plukker 5 blomster. Hvor mange blomster er der tilbage?",
+              "a": 9,
+              "b": 5,
+              "op": "−",
+              "answer": 4
+            }
+          ]
+        },
+        "no": {
+          "rounds": [
+            {
+              "text": "Det sitter 3 fugler på grenen. 2 fugler til lander. Hvor mange fugler er det nå?",
+              "a": 3,
+              "b": 2,
+              "op": "+",
+              "answer": 5
+            },
+            {
+              "text": "Det ligger 4 epler i kurven. Du legger 3 epler til. Hvor mange epler er det nå?",
+              "a": 4,
+              "b": 3,
+              "op": "+",
+              "answer": 7
+            },
+            {
+              "text": "Det svømmer 2 ender i dammen. 4 ender til kommer. Hvor mange ender er det nå?",
+              "a": 2,
+              "b": 4,
+              "op": "+",
+              "answer": 6
+            },
+            {
+              "text": "Det leker 5 barn på lekeplassen. 4 barn til kommer. Hvor mange barn er det nå?",
+              "a": 5,
+              "b": 4,
+              "op": "+",
+              "answer": 9
+            },
+            {
+              "text": "Du har 7 ballonger. 3 ballonger sprekker. Hvor mange ballonger er igjen?",
+              "a": 7,
+              "b": 3,
+              "op": "−",
+              "answer": 4
+            },
+            {
+              "text": "Det ligger 8 kjeks på fatet. Du spiser 2 kjeks. Hvor mange kjeks er igjen?",
+              "a": 8,
+              "b": 2,
+              "op": "−",
+              "answer": 6
+            },
+            {
+              "text": "Det svømmer 6 fisker i bollen. 4 fisker svømmer vekk. Hvor mange fisker er igjen?",
+              "a": 6,
+              "b": 4,
+              "op": "−",
+              "answer": 2
+            },
+            {
+              "text": "Det står 9 blomster i hagen. 5 blomster blir plukket. Hvor mange blomster er igjen?",
+              "a": 9,
+              "b": 5,
+              "op": "−",
+              "answer": 4
+            }
+          ]
+        },
+        "fi": {
+          "rounds": [
+            {
+              "text": "3 lintua istuu oksalla. 2 lintua lentää lisää oksalle. Kuinka monta lintua oksalla on nyt?",
+              "a": 3,
+              "b": 2,
+              "op": "+",
+              "answer": 5
+            },
+            {
+              "text": "Korissa on 4 omenaa. Laitat koriin vielä 3 omenaa. Kuinka monta omenaa korissa on nyt?",
+              "a": 4,
+              "b": 3,
+              "op": "+",
+              "answer": 7
+            },
+            {
+              "text": "2 ankkaa ui lammessa. 4 ankkaa tulee uimaan lisää. Kuinka monta ankkaa lammessa on nyt?",
+              "a": 2,
+              "b": 4,
+              "op": "+",
+              "answer": 6
+            },
+            {
+              "text": "Puistossa leikkii 5 lasta. Vielä 4 lasta tulee leikkimään. Kuinka monta lasta puistossa on nyt?",
+              "a": 5,
+              "b": 4,
+              "op": "+",
+              "answer": 9
+            },
+            {
+              "text": "Ilmassa leijuu 7 ilmapalloa. 3 ilmapalloa puhkeaa. Kuinka monta ilmapalloa on jäljellä?",
+              "a": 7,
+              "b": 3,
+              "op": "−",
+              "answer": 4
+            },
+            {
+              "text": "Lautasella on 8 keksiä. Syöt 2 keksiä. Kuinka monta keksiä on jäljellä?",
+              "a": 8,
+              "b": 2,
+              "op": "−",
+              "answer": 6
+            },
+            {
+              "text": "Akvaariossa ui 6 kalaa. 4 kalaa ui pois. Kuinka monta kalaa on jäljellä?",
+              "a": 6,
+              "b": 4,
+              "op": "−",
+              "answer": 2
+            },
+            {
+              "text": "Ruukussa kasvaa 9 kukkaa. 5 kukkaa poimitaan. Kuinka monta kukkaa on jäljellä?",
+              "a": 9,
+              "b": 5,
+              "op": "−",
+              "answer": 4
+            }
+          ]
+        }
+      }
+    },
+    "theme": null,
+    "slug": {
+      "en": "solve-the-story",
+      "de": "textaufgaben-bis-10",
+      "es": "problemas-de-sumar-y-restar-hasta-10",
+      "it": "problemi-addizione-sottrazione-entro-10",
+      "pt": "problemas-de-adicao-e-subtracao-ate-10",
+      "fr": "problemes-additions-soustractions-jusqu-a-10",
+      "nl": "verhaaltjessommen-tot-10",
+      "sv": "rakna-ut-textuppgifter-inom-10",
+      "da": "regnehistorier-inden-for-10",
+      "no": "tekstoppgaver-innenfor-10",
+      "fi": "sanalliset-tehtavat-kymppiin"
+    },
+    "page_title": {
+      "en": "Solve the Story — Add & Subtract Word Problems on a Ten Frame",
+      "de": "Textaufgaben Bis 10 Mit Dem Zehnerfeld",
+      "es": "Problemas de Sumar y Restar Hasta 10",
+      "it": "Problemi di Addizione e Sottrazione Entro il 10",
+      "pt": "Problemas de Adição e Subtração até 10 no Quadro de Dez",
+      "fr": "Problèmes d'Additions et de Soustractions Jusqu'à 10",
+      "nl": "Verhaaltjessommen Tot 10 Op Het Tienraam",
+      "sv": "Räkna Ut Textuppgifter Inom 10",
+      "da": "Regnehistorier Inden For 10",
+      "no": "Tekstoppgaver Innenfor 10",
+      "fi": "Sanalliset Tehtävät Kymppiin"
+    },
+    "page_intro": {
+      "en": "Solve addition and subtraction word problems within 10 using a ten-frame. Read each short story — like \"3 birds sit, 2 more land, how many now?\" — place counters on the frame to model it, then type how many there are. Aligned to Common Core K.OA.A.2 — solve word problems with objects and drawings.",
+      "de": "Löse Plus- und Minus-Textaufgaben im Zahlenraum bis 10 mit Hilfe von Spielsteinen auf dem Zehnerfeld. Kinder lesen eine kurze Geschichte, legen die Mengen ins Zehnerfeld und finden die Antwort durch Zählen. Abgestimmt auf den Lehrplan für den frühen Mathematikunterricht.",
+      "es": "Resuelve problemas verbales de sumar y restar hasta el número 10 usando un marco de diez. Los niños leen una situación cercana y amable, mueven las fichas y descubren cuántos hay en total o cuántos quedan. Una práctica de cálculo mental temprano alineada al Currículo LOMLOE.",
+      "it": "Risolvi semplici problemi di addizione e sottrazione entro il 10 usando la tabella del dieci. Ogni storia accompagna i bambini a contare, aggiungere e togliere con immagini chiare e un tono sereno. Attività allineata alle Indicazioni nazionali.",
+      "pt": "Nesta atividade, as crianças resolvem problemas de palavras de adição e subtração até 10 usando um quadro de dez para representar e contar as quantidades. Cada história convida a criança a ler a situação, montar os números no quadro e descobrir quantos sobraram ou quantos há ao todo. Atividade alinhada à BNCC para a Educação Infantil.",
+      "fr": "Résolvez des problèmes d'addition et de soustraction jusqu'à 10 à l'aide d'un cadre de dix. Les enfants lisent une petite histoire, placent les jetons et trouvent combien il y a en tout ou combien il reste. Une activité ludique alignée aux programmes officiels.",
+      "nl": "Op deze pagina oefenen kleuters met eenvoudige verhaaltjessommen: optellen en aftrekken tot 10 met behulp van een tienraam. De kinderen lezen een herkenbaar verhaaltje, leggen de hoeveelheden op het tienraam en zoeken samen het antwoord. Deze oefening is afgestemd op de SLO-kerndoelen voor het jonge kind.",
+      "sv": "Lös addition och subtraktion i textuppgifter inom 10 med hjälp av en tioram. Barnet läser en kort vardagshändelse, fyller i tioramen och räknar ut svaret steg för steg. Övningen är anpassad till Lgr22.",
+      "da": "Øv dig i at løse regnehistorier med plus og minus inden for 10 ved hjælp af en tierramme. Børnene læser en lille historie, lægger tællebrikker på tierrammen og finder svaret ved at tælle med og tælle væk. Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen.",
+      "no": "Øv på å løse tekstoppgaver med addisjon og subtraksjon innenfor 10 ved hjelp av en tierramme. Barnet leser en liten fortelling, finner tallene og regner ut svaret med tierrammen som støtte. Aktiviteten er tilpasset kompetansemålene i matematikk i Læreplanverket LK20.",
+      "fi": "Ratkaise yhteen- ja vähennyslaskujen sanallisia tehtäviä kymppiin asti kymmenruudukon ja laskupalikoiden avulla. Lapsi lukee lyhyen tarinan, asettaa laskupalikat kymmenruudukkoon ja löytää vastauksen konkreettisesti laskemalla. Tehtävät ovat OPS 2014 -opetussuunnitelman mukaisia."
+    },
+    "kid_prompt_template": "taskStoryProblem"
   }
 ]

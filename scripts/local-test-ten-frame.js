@@ -22,7 +22,10 @@ const arg = (k, d) => { const m = process.argv.find(a => a.startsWith('--' + k +
 const has = (k) => process.argv.includes('--' + k);
 const LOCALES = arg('locales', 'en,de,es,pt,fr,it,nl,sv,da,no,fi').split(',');
 const SHOT = has('shot');
-const ACTIVITY_ID = 'ten-frame.show-the-operation.k-oa-a-1';
+const ACTIVITIES = [
+  { id: 'ten-frame.show-the-operation.k-oa-a-1', kind: 'op' },
+  { id: 'ten-frame.solve-the-story.k-oa-a-2', kind: 'story' },
+];
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');
 const SHOT_DIR = path.join(REPO, 'docs', 'audit-results', 'ten-frame');
@@ -39,10 +42,6 @@ function serve() {
 }
 
 (async () => {
-  const manifest = JSON.parse(fs.readFileSync(path.join(MINI, 'ten-frame-activities.json'), 'utf8'));
-  const row = manifest.find(r => r.id === ACTIVITY_ID);
-  if (!row) { console.error('FAIL: manifest row not found: ' + ACTIVITY_ID); process.exit(1); }
-
   const puppeteer = require('puppeteer');
   const server = serve();
   await new Promise(r => server.listen(0, '127.0.0.1', r));
@@ -61,16 +60,24 @@ function serve() {
     const ord = (c < T) ? T : T + 1;            // c<T → tap ord=T (fills to T); c>T → tap ord=T+1 (drops to T)
     await page.evaluate(o => { document.querySelectorAll('.tf-cell')[o - 1].click(); }, ord);
   }
+  async function keypadClear(page) { await page.evaluate(() => { const c = document.querySelector('.lcs-activity-key-clear'); if (c) c.click(); }); }
+  async function keypadEnter(page, num) {
+    for (const ch of String(num)) {
+      await page.evaluate(d => { const k = [...document.querySelectorAll('.lcs-activity-key')].find(b => b.textContent.trim() === d); if (k) k.click(); }, ch);
+    }
+  }
 
-  for (const loc of LOCALES) {
-    const tag = `${loc}/show-the-operation`;
+  for (const act of ACTIVITIES) {
+   const shortId = act.id.split('.')[1];
+   for (const loc of LOCALES) {
+    const tag = `${loc}/${shortId}`;
     const page = await browser.newPage();
     await page.setViewport({ width: 412, height: 900 });
     const errs = [];
     const isNoise = (s) => /Failed to load resource|favicon|\/audio\//i.test(s);
     page.on('console', m => { if (m.type() === 'error' && !isNoise(m.text())) errs.push(m.text()); });
     page.on('pageerror', e => { if (!isNoise(e.message)) errs.push(e.message); });
-    const url = `${BASE}/ten-frame-activity.html?lang=${loc}&activity=${ACTIVITY_ID}&embed=1`;
+    const url = `${BASE}/ten-frame-activity.html?lang=${loc}&activity=${act.id}&embed=1`;
     try {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
       await page.waitForFunction(() => {
@@ -90,27 +97,42 @@ function serve() {
       note(p1.slice().sort().join('|') === p2.slice().sort().join('|'), `${tag}: pass-2 not same set`);
       note(p1.join('|') !== p2.join('|'), `${tag}: pass-2 order identical (no reshuffle)`);
 
-      /* interaction: reload round 0, parse the prompt (a op b), drive to wrong then correct */
+      /* interaction: reload round 0 */
       await page.evaluate(() => window.LCS_reloadFirstTask && window.LCS_reloadFirstTask());
       await page.waitForFunction(() => document.querySelectorAll('.tf-cell').length >= 10, { timeout: 5000 });
       const prompt = await page.$eval('.lcs-activity-prompt-text', e => e.textContent.trim()).catch(() => '');
       note(prompt.length > 0, `${tag}: empty prompt`);
-      const m = /(\d+)\s*([+−])\s*(\d+)/.exec(prompt);
-      note(!!m, `${tag}: prompt has no "a op b" — "${prompt}"`);
-      if (m) {
-        const a = +m[1], op = m[2], b = +m[3];
-        const result = op === '+' ? a + b : a - b;
-        /* wrong count first (result+1 if it fits the frame, else result-1) → no celebrate */
-        const wrong = (result + 1 <= 10) ? result + 1 : result - 1;
-        await setCountTo(page, wrong);
-        await page.click('.lcs-activity-check');
-        note(!(await celebrating(page)), `${tag}: a wrong count (${wrong}) still celebrated [${a}${op}${b}]`);
-        /* correct count → celebrate */
-        await setCountTo(page, result);
-        const reached = await count(page);
-        note(reached === result, `${tag}: could not reach count ${result} (got ${reached}) [${a}${op}${b}]`);
-        await page.click('.lcs-activity-check');
-        note(await celebrating(page), `${tag}: correct count (${result}) did not celebrate [${a}${op}${b}]`);
+
+      if (act.kind === 'op') {
+        /* parse "a op b", drive frame to wrong then correct (state answer) */
+        const m = /(\d+)\s*([+−])\s*(\d+)/.exec(prompt);
+        note(!!m, `${tag}: prompt has no "a op b" — "${prompt}"`);
+        if (m) {
+          const a = +m[1], op = m[2], b = +m[3];
+          const result = op === '+' ? a + b : a - b;
+          const wrong = (result + 1 <= 10) ? result + 1 : result - 1;
+          await setCountTo(page, wrong);
+          await page.click('.lcs-activity-check');
+          note(!(await celebrating(page)), `${tag}: a wrong count (${wrong}) still celebrated [${a}${op}${b}]`);
+          await setCountTo(page, result);
+          note((await count(page)) === result, `${tag}: could not reach count ${result} [${a}${op}${b}]`);
+          await page.click('.lcs-activity-check');
+          note(await celebrating(page), `${tag}: correct count (${result}) did not celebrate [${a}${op}${b}]`);
+        }
+      } else {
+        /* story: native prompt with digits; keypad the loaded round's .answer */
+        note(/\d/.test(prompt), `${tag}: story prompt has no digits — "${prompt}"`);
+        const ans = await page.evaluate(() => { const t = window.TenFrameActivity.nextTask({ index: 0 }); return t ? t.answer : null; });
+        note(typeof ans === 'number', `${tag}: could not read round .answer`);
+        if (typeof ans === 'number') {
+          const wrong = (ans + 1 <= 10) ? ans + 1 : ans - 1;
+          await keypadClear(page); await keypadEnter(page, wrong);
+          await page.click('.lcs-activity-check');
+          note(!(await celebrating(page)), `${tag}: a wrong answer (${wrong}) still celebrated`);
+          await keypadClear(page); await keypadEnter(page, ans);
+          await page.click('.lcs-activity-check');
+          note(await celebrating(page), `${tag}: correct answer (${ans}) did not celebrate`);
+        }
       }
 
       /* mobile overflow */
@@ -130,6 +152,7 @@ function serve() {
       fails.push(`${tag}: ${e.message}`);
       console.log(`  FAIL ${tag} — ${e.message}`);
     } finally { await page.close(); }
+   }
   }
 
   await browser.close();

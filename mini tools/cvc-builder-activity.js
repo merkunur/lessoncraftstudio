@@ -41,6 +41,16 @@ var CVC_ACTIVITY_STRINGS = {
     no: 'Tap the letters to spell the word for this picture.',
     fi: 'Tap the letters to spell the word for this picture.'
   },
+  /* RF.1.3 — build a blend/digraph word; the cluster (sh/ch/st/fr…) is a
+     SINGLE chunk tile. EN-only (cvc-builder is the EN-only exception). */
+  promptBuildBlend: {
+    en: 'Tap the sounds to build the word.',
+    de: 'Tap the sounds to build the word.', fr: 'Tap the sounds to build the word.',
+    it: 'Tap the sounds to build the word.', es: 'Tap the sounds to build the word.',
+    pt: 'Tap the sounds to build the word.', nl: 'Tap the sounds to build the word.',
+    sv: 'Tap the sounds to build the word.', da: 'Tap the sounds to build the word.',
+    no: 'Tap the sounds to build the word.', fi: 'Tap the sounds to build the word.'
+  },
   hintFillAllSlots: {
     en: 'Fill all three letter slots, then check.',
     de: 'Fill all three letter slots, then check.',
@@ -143,6 +153,33 @@ function _buildPalette(targetWord, distractors) {
   return _shuffle(unique, _seedFromWord(targetWord));
 }
 
+/* Build a deterministic CHUNK palette for a blend/digraph task: the round's
+   chunks (cluster as ONE unit, e.g. "sh") + the manifest's distractor
+   chunks/letters, de-duped + shuffled by the target seed. Distinct from
+   _buildPalette (which char-splits) — here a multi-letter chunk is one tile. */
+function _buildChunkPalette(chunks, distractors) {
+  var pool = (chunks || []).concat(distractors || []);
+  var seen = {}, unique = [];
+  for (var i = 0; i < pool.length; i++) { var c = pool[i]; if (!seen[c]) { seen[c] = true; unique.push(c); } }
+  return _shuffle(unique, _seedFromWord((chunks || []).join('')));
+}
+
+/* nextTask per-pass reshuffle (§A.13.60) — order-only Fisher–Yates, used ONLY
+   by the build-blend-word template; the live build-cvc-word keeps the shell
+   tasks[] per-mount shuffle (untouched). Mirrors choice-board's cbShuffledOrder. */
+function _cvcSameOrder(a, b) {
+  if (!b || a.length !== b.length) return false;
+  for (var i = 0; i < a.length; i++) { if (a[i] !== b[i]) return false; }
+  return true;
+}
+function cvcShuffledOrder(n, prev) {
+  var idx = [], i, j, t;
+  for (i = 0; i < n; i++) idx.push(i);
+  if (n < 2) return idx;
+  do { for (i = n - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = idx[i]; idx[i] = idx[j]; idx[j] = t; } } while (_cvcSameOrder(idx, prev));
+  return idx;
+}
+
 window.CvcBuilderActivity = Object.assign({}, CvcBuilderCore, {
   id: 'cvc-builder-activity',
   strings: Object.assign({}, CvcBuilderCore.strings, CVC_ACTIVITY_STRINGS, {
@@ -169,7 +206,14 @@ window.CvcBuilderActivity = Object.assign({}, CvcBuilderCore, {
       var row = rows.find(function (r) { return r.id === self._activityId; });
       if (!row) return;
       self._activityRow = row;
-      self.tasks = self._buildTasksFromRow(row);
+      var built = self._buildTasksFromRow(row);
+      if (row.task_template === 'build-blend-word') {
+        /* per-pass reshuffle path: shell uses nextTask() when tasks is unset */
+        self._pool = built; self._order = null; self._curPass = 0; self._orderForPool = null;
+        self.tasks = null;
+      } else {
+        self.tasks = built;
+      }
       if (typeof window.LCS_reloadFirstTask === 'function') {
         window.LCS_reloadFirstTask();
       }
@@ -178,8 +222,65 @@ window.CvcBuilderActivity = Object.assign({}, CvcBuilderCore, {
     });
   },
 
+  /* Per-pass reshuffle for build-blend-word (self._pool set + self.tasks null →
+     shell calls nextTask). Other templates set self.tasks → never called. */
+  nextTask: function (opts) {
+    var pool = this._pool;
+    if (!pool || !pool.length) return null;
+    var n = pool.length;
+    var i = (opts && opts.index) || 0;
+    if (!this._order || this._orderForPool !== pool || this._order.length !== n) {
+      this._order = cvcShuffledOrder(n, null); this._orderForPool = pool; this._curPass = 0;
+    }
+    var pass = Math.floor(i / n);
+    if (pass > this._curPass) { this._order = cvcShuffledOrder(n, this._order); this._curPass = pass; }
+    return pool[this._order[i % n]];
+  },
+
   _buildTasksFromRow: function (row) {
     var self = this;
+
+    /* TEMPLATE: build-blend-word (RF.1.3) — build a blend/digraph word from
+       CHUNK tiles where the cluster (sh/ch/st/fr…) is ONE selectable unit.
+       params.words = [{ noun, themeDir, targetWord, chunks:[…], distractors:[…] }].
+       chunks.join('') === targetWord; slots = chunks.length; the core's chunk
+       mode gives chunk-wise feedback + widened slots. */
+    if (row.task_template === 'build-blend-word') {
+      var blendWords = row.params.words;
+      return blendWords.map(function (entry) {
+        var imgUrl = '/image-library-webp/themes/' + entry.themeDir + '/' + entry.noun + '@2x.webp';
+        var chunks = entry.chunks || [];
+        var palette = _buildChunkPalette(chunks, entry.distractors || []);
+        return {
+          id: row.id + '.' + entry.noun,
+          promptKey: 'promptBuildBlend',
+          answerType: 'state',
+          setup: function (tool) {
+            tool.setupTask({
+              slots: chunks.length,
+              palette: palette,
+              targetWord: entry.targetWord,
+              chunks: chunks,
+              subject: {
+                type: 'image',
+                imgUrl: imgUrl,
+                alt: entry.noun,
+                hearItWord: entry.targetWord,
+                hearItLang: entry.hearItLang || 'en-US'
+              }
+            });
+          },
+          check: function (tool) {
+            var correct = tool.answer === entry.targetWord;
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintFillAllSlots' : 'hintTryAnother';
+          }
+        };
+      });
+    }
 
     /* TEMPLATE: build-cvc-word (RF.K.3) — show a picture, kid spells
        the word by tapping letters into 3 slots.

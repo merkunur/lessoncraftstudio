@@ -59,6 +59,13 @@ window.TenFrameCore = {
     this.hideReadout = false;    // activity 'how-many' tasks set true so the
                                   // COUNT readout doesn't show the answer the
                                   // kid is being asked to determine
+    /* Two-colour split (K.OA.A.1 represent-operation addition): when splitAt is
+       a number, filled cells with ord > splitAt render in splitColor (the second
+       addend) while ord <= splitAt keep s.color (the first addend) — so "3 + 2"
+       shows 3 of one colour then 2 of another. splitAt=null (the default for
+       make-n/how-many/teen) → every filled cell uses s.color, behaviour UNCHANGED. */
+    this.splitAt = null;
+    this.splitColor = null;
   },
 
   capacity: function () { return this.api.settings.frames * 10; },
@@ -132,12 +139,19 @@ window.TenFrameCore = {
     for (var k = 0; k < this.cells.length; k++) {
       var cell = this.cells[k], ord = +cell.dataset.ord, filled = ord <= this.count;
       if (filled) {
-        if (!cell.classList.contains('filled')) {
+        /* Two-colour split: second-addend cells (ord > splitAt) use splitColor.
+           splitAt null → s.color for all (make-n/how-many/teen unchanged). Re-set
+           innerHTML when the cell's correct colour differs from what's drawn, so a
+           split task re-painted after splitAt changes shows the right colours. */
+        var cellColor = (this.splitAt != null && ord > this.splitAt && this.splitColor) ? this.splitColor : s.color;
+        if (!cell.classList.contains('filled') || cell.dataset.color !== cellColor) {
           cell.classList.add('filled');
-          cell.innerHTML = this.api.token(s.shape, s.color, 56);
+          cell.dataset.color = cellColor;
+          cell.innerHTML = this.api.token(s.shape, cellColor, 56);
         }
       } else if (cell.classList.contains('filled')) {
         cell.classList.remove('filled');
+        cell.removeAttribute('data-color');
         cell.innerHTML = '';
       }
       cell.setAttribute('aria-label', ord + ', ' + (filled ? filledWord : emptyWord));

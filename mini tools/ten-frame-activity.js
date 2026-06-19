@@ -21,8 +21,32 @@ var ACTIVITY_STRINGS = {
   taskMake:     {en:'Make {n}',de:'Mache {n}',fr:'Fais {n}',it:'Fai {n}',es:'Haz {n}',pt:'Faça {n}',nl:'Maak {n}',sv:'Gör {n}',da:'Lav {n}',no:'Lag {n}',fi:'Tee {n}'},
   taskHowMany:  {en:'How many?',de:'Wie viele?',fr:'Combien ?',it:'Quanti?',es:'¿Cuántos?',pt:'Quantos?',nl:'Hoeveel?',sv:'Hur många?',da:'Hvor mange?',no:'Hvor mange?',fi:'Kuinka monta?'},
   hintAddMore:  {en:'Add more',de:'Mehr hinzufügen',fr:'Ajoute encore',it:'Aggiungi ancora',es:'Añade más',pt:'Adicione mais',nl:'Voeg meer toe',sv:'Lägg till fler',da:'Tilføj flere',no:'Legg til flere',fi:'Lisää enemmän'},
-  hintTakeAway: {en:'Take some away',de:'Weniger nehmen',fr:'Enlève quelques-uns',it:'Togli qualcuno',es:'Quita algunos',pt:'Tire alguns',nl:'Haal er een paar weg',sv:'Ta bort några',da:'Fjern nogle',no:'Ta bort noen',fi:'Poista joitakin'}
+  hintTakeAway: {en:'Take some away',de:'Weniger nehmen',fr:'Enlève quelques-uns',it:'Togli qualcuno',es:'Quita algunos',pt:'Tire alguns',nl:'Haal er een paar weg',sv:'Ta bort några',da:'Fjern nogle',no:'Ta bort noen',fi:'Poista joitakin'},
+  /* represent-operation template (K.OA.A.1) prompts. EN base-locale now; the
+     10-locale fan-out adds entries per §A.13.48. {a}/{b} are language-neutral
+     numerals. taskRepresentAdd → place a+b counters (first a one colour, next b
+     another); taskRepresentSub → start with a, take b away. */
+  taskRepresentAdd: {"en":"Show {a} + {b}","de":"Zeige {a} + {b}","es":"Muestra {a} + {b}","it":"Mostra {a} + {b}","pt":"Mostre {a} + {b}","fr":"Montre {a} + {b}","nl":"Laat {a} + {b} zien","sv":"Visa {a} + {b}","da":"Vis {a} + {b}","no":"Vis {a} + {b}","fi":"Näytä {a} + {b}"},
+  taskRepresentSub: {"en":"Show {a} − {b} — take some away","de":"Zeige {a} − {b} — nimm etwas weg","es":"Muestra {a} − {b}: quita algunas","it":"Mostra {a} − {b} — togline alcune","pt":"Mostre {a} − {b} — tire alguns","fr":"Montre {a} − {b} — enlèves-en quelques-uns","nl":"Laat {a} − {b} zien — haal er een paar weg","sv":"Visa {a} − {b} — ta bort några","da":"Vis {a} − {b} — tag nogle væk","no":"Vis {a} − {b} — ta noen bort","fi":"Näytä {a} − {b} — ota osa pois"}
 };
+
+/* Per-pass order-only reshuffle (§A.13.60) — ported from number-bond-activity.js.
+   Used ONLY by the represent-operation template (which installs tool.nextTask +
+   nulls tool.tasks); make-n/how-many keep the shell's per-mount tool.tasks[] path. */
+function _sameOrderTF(a, b) {
+  if (!b || a.length !== b.length) return false;
+  for (var i = 0; i < a.length; i++) { if (a[i] !== b[i]) return false; }
+  return true;
+}
+function shuffledOrderTF(n, prev) {
+  var idx = [], i, j, t;
+  for (i = 0; i < n; i++) idx.push(i);
+  if (n < 2) return idx;
+  do {
+    for (i = n - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = idx[i]; idx[i] = idx[j]; idx[j] = t; }
+  } while (_sameOrderTF(idx, prev));
+  return idx;
+}
 
 /* Fallback static task set when no ?activity= is given. Kept identical to
    the pre-manifest demo so direct loads of ten-frame-activity.html still
@@ -92,7 +116,29 @@ var TenFrameActivity = Object.assign({}, TenFrameCore, {
       return row;
     }).then(function (row) {
       if (!row) return;
-      self.tasks = self._buildTasksFromRow(row);
+      if (row.task_template === 'represent-operation') {
+        /* §A.13.60 per-pass reshuffle: install nextTask + null tasks so the shell
+           routes through tool.nextTask() (tasks takes priority in the shell, so it
+           MUST be null). make-n/how-many fall through and keep the tasks[] path. */
+        self._pool = self._buildTasksFromRow(row);
+        self.tasks = null;
+        self._order = null; self._curPass = 0; self._orderForPool = null;
+        self.nextTask = function (opts) {
+          var pool = (self._pool && self._pool.length) ? self._pool : STATIC_DEMO_TASKS;
+          var n = pool.length;
+          var i = (opts && opts.index) || 0;
+          if (!self._order || self._orderForPool !== pool || self._order.length !== n) {
+            self._order = shuffledOrderTF(n, null);
+            self._orderForPool = pool;
+            self._curPass = 0;
+          }
+          var pass = (n > 0) ? Math.floor(i / n) : 0;
+          if (pass > self._curPass) { self._order = shuffledOrderTF(n, self._order); self._curPass = pass; }
+          return pool[self._order[i % n]];
+        };
+      } else {
+        self.tasks = self._buildTasksFromRow(row);
+      }
       if (typeof window.LCS_reloadFirstTask === 'function') {
         window.LCS_reloadFirstTask();
       }
@@ -183,6 +229,34 @@ var TenFrameActivity = Object.assign({}, TenFrameCore, {
             tool.setCount(n);
           },
           check: function (tool, ans) { return parseInt(ans, 10) === tool.count; }
+        };
+      });
+    }
+    if (t === 'represent-operation') {
+      /* K.OA.A.1 — represent an addition/subtraction on the ten-frame.
+         addition: fill to a+b (first a counters = primary colour, next b =
+         splitColor → the two addends visible). subtraction: pre-fill a, the
+         child REMOVES b (tap-to-remove) → count === a-b. answerType state. */
+      return row.params.problems.map(function (p) {
+        var a = p.a, b = p.b, op = p.op;
+        var isAdd = (op === '+');
+        var result = isAdd ? (a + b) : (a - b);
+        return {
+          id: row.id + '.' + (isAdd ? 'add' : 'sub') + '-' + a + '-' + b,
+          promptKey: isAdd ? 'taskRepresentAdd' : 'taskRepresentSub',
+          promptArgs: { a: a, b: b },
+          answerType: 'state',
+          setup: function (tool) {
+            tool.hideReadout = false;                  // kid sees their count build/shrink
+            tool.readOnly = false;
+            tool.api.settings.frames = (row.params.frames || 1);
+            if (isAdd) { tool.splitAt = a; tool.splitColor = '#1B9E8F'; }
+            else { tool.splitAt = null; tool.splitColor = null; }
+            tool.render();                             // re-render to honor frames + clear prior split
+            tool.setCount(isAdd ? 0 : a);              // addition starts empty; subtraction pre-fills a
+          },
+          check: function (tool) { return tool.count === result; },
+          hintKey: function (tool) { return tool.count < result ? 'hintAddMore' : 'hintTakeAway'; }
         };
       });
     }

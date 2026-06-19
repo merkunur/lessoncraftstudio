@@ -46,6 +46,8 @@ function poolSize(row) {
   if (Array.isArray(p.items)) return p.items.length;
   // task-board pools (e.g. match-pairs: params.tasks[]) — one entry per round.
   if (Array.isArray(p.tasks)) return p.tasks.length;
+  // operation pools (e.g. ten-frame represent-operation: params.problems[]).
+  if (Array.isArray(p.problems)) return p.problems.length;
   // per-locale rounds (e.g. money: params.byLocale.<loc>.rounds) — count en (all locales same length).
   if (p.byLocale) { const L = p.byLocale.en || p.byLocale[Object.keys(p.byLocale)[0]]; if (L && Array.isArray(L.rounds)) return L.rounds.length; }
   return null; // not enumerable from the manifest → manual

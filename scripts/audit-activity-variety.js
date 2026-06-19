@@ -50,6 +50,8 @@ function poolSize(row) {
   if (Array.isArray(p.problems)) return p.problems.length;
   // pair pools (e.g. choice-board pick-bigger / compare-2digit: params.pairs[]).
   if (Array.isArray(p.pairs)) return p.pairs.length;
+  // word pools (e.g. cvc-builder build-cvc-word / build-blend-word: params.words[]).
+  if (Array.isArray(p.words)) return p.words.length;
   // per-locale rounds (e.g. money: params.byLocale.<loc>.rounds) — count en (all locales same length).
   if (p.byLocale) { const L = p.byLocale.en || p.byLocale[Object.keys(p.byLocale)[0]]; if (L && Array.isArray(L.rounds)) return L.rounds.length; }
   return null; // not enumerable from the manifest → manual

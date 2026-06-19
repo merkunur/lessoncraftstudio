@@ -54,6 +54,7 @@ window.CvcBuilderCore = {
     this.readOnly = false;
     this.feedbackMode = null;  /* null | 'correct' | 'wrong' */
     this.answer = null;        /* joined letter string when ALL slots filled, else null */
+    this.chunks = null;        /* optional per-slot expected CHUNK array (multi-letter unit tiles, e.g. ["sh","i","p"]); null = single-char-per-slot (CVC) */
     this.slotEls = [];
     this.letterEls = [];
   },
@@ -87,6 +88,11 @@ window.CvcBuilderCore = {
     this.slotFeedback = new Array(this.slots).fill(null);
     this.palette = Array.isArray(opts.palette) ? opts.palette.slice() : [];
     this.targetWord = String(opts.targetWord || '');
+    /* Optional CHUNK mode: opts.chunks = the expected multi-letter unit per
+       slot (e.g. ["sh","i","p"] for a digraph/blend build). Drives chunk-wise
+       per-slot feedback (showFeedback) + the .cvc-chunks slot-widen CSS. Absent
+       → single-char-per-slot (CVC) behavior is byte-identical. */
+    this.chunks = (Array.isArray(opts.chunks) && opts.chunks.length === this.slots) ? opts.chunks.slice() : null;
     this.subject = opts.subject || null;
     this.activeSlot = 0;
     this.readOnly = false;
@@ -151,7 +157,8 @@ window.CvcBuilderCore = {
       var fb = [];
       for (var i = 0; i < this.slots; i++) {
         var picked = this.slotValues[i];
-        var target = this.targetWord[i] || '';
+        /* chunk mode compares the whole CHUNK per slot; CVC mode char-indexes targetWord */
+        var target = this.chunks ? (this.chunks[i] || '') : (this.targetWord[i] || '');
         if (picked == null) fb.push(null);
         else if (picked === target) fb.push('correct');
         else fb.push('wrong');
@@ -168,6 +175,9 @@ window.CvcBuilderCore = {
     this.letterEls = [];
 
     var wrap = this.api.el('div', 'cvc-wrap');
+    /* chunk mode → tag the wrap so the gated .cvc-chunks CSS widens slots +
+       tiles for 2-3 char unit tiles. No-op for CVC (this.chunks null). */
+    if (this.chunks) wrap.classList.add('cvc-chunks');
 
     /* Subject — picture above the slots. Optional "Hear it" speaker
        button overlays the bottom-right corner of the subject; tapping
@@ -420,7 +430,14 @@ window.CvcBuilderCore = {
 
       /* Animations. */
       '@keyframes cvc-pop{0%{transform:scale(1);}40%{transform:scale(1.10);}100%{transform:scale(1);}}',
-      '@keyframes cvc-shake{0%,100%{transform:translateX(0);}25%{transform:translateX(-4px);}75%{transform:translateX(4px);}}'
+      '@keyframes cvc-shake{0%,100%{transform:translateX(0);}25%{transform:translateX(-4px);}75%{transform:translateX(4px);}}',
+
+      /* CHUNK MODE (gated on .cvc-chunks; CVC activity never gets this class) —
+         slots + tiles hold a 2-3 char unit ("sh","ck","fr"), so relax the
+         square aspect-ratio to auto width + horizontal padding + a smaller font
+         so the chunk fits without clipping. Live RF.K.3 CVC is unaffected. */
+      '.cvc-wrap.cvc-chunks .cvc-slot{aspect-ratio:auto;min-height:clamp(56px,15vmin,84px);padding:0 clamp(8px,2.4vw,16px);font-size:clamp(24px,6.5vmin,44px);}',
+      '.cvc-wrap.cvc-chunks .cvc-letter{aspect-ratio:auto;min-height:clamp(46px,12vw,62px);padding:0 clamp(6px,2vw,12px);font-size:clamp(18px,4.6vw,28px);}'
     ].join('\n');
     var tag = document.createElement('style');
     tag.textContent = css;

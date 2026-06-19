@@ -33,6 +33,17 @@ var SYLLABLE_ACTIVITY_STRINGS = {
     no: 'Trykk på stavelsene i riktig rekkefølge for å lage ordet til dette bildet.',
     fi: 'Napauta tavut järjestyksessä muodostaaksesi sanan.'
   },
+  /* RF.1.3 vowel-teams (EN-only) — build the word with the vowel-team (oa/ai/
+     ea/ee) as a SINGLE unit tile. EN-only; non-EN fall back to EN but never
+     route (slug.en only). */
+  promptVowelTeam: {
+    en: 'Tap the sounds to build the word for this picture.',
+    de: 'Tap the sounds to build the word for this picture.', fr: 'Tap the sounds to build the word for this picture.',
+    it: 'Tap the sounds to build the word for this picture.', es: 'Tap the sounds to build the word for this picture.',
+    pt: 'Tap the sounds to build the word for this picture.', nl: 'Tap the sounds to build the word for this picture.',
+    sv: 'Tap the sounds to build the word for this picture.', da: 'Tap the sounds to build the word for this picture.',
+    no: 'Tap the sounds to build the word for this picture.', fi: 'Tap the sounds to build the word for this picture.'
+  },
   hintFillAllSyllableSlots: {
     en: 'Place a syllable in each slot, then check.',
     de: 'Lege eine Silbe in jeden Platz und tippe dann auf Überprüfen.',
@@ -141,6 +152,33 @@ function _tilesEqual(a, b) {
   return true;
 }
 
+/* Vowel-team palette: the round's tiles (vowel-team as one unit) + distractor
+   tiles (incl. ≥1 confusable vowel-team), de-duped + deterministically shuffled.
+   Distinct from _shuffleSyllables (which only scrambles the exact target tiles)
+   — vowel-teams needs distractors so picking the RIGHT vowel-team is the skill. */
+function _buildVowelTeamPalette(tiles, distractors, seedWord) {
+  var pool = (tiles || []).concat(distractors || []);
+  var seen = {}, unique = [];
+  for (var i = 0; i < pool.length; i++) { var t = pool[i]; if (!seen[t]) { seen[t] = true; unique.push(t); } }
+  return _shuffleSyllables(unique, seedWord);
+}
+
+/* nextTask per-pass reshuffle (§A.13.60) — order-only Fisher–Yates, used ONLY by
+   the build-vowel-teams template; the live syllable rows keep the shell tasks[]
+   per-mount shuffle (untouched). Mirrors cvc/choice-board. */
+function _sbSameOrder(a, b) {
+  if (!b || a.length !== b.length) return false;
+  for (var i = 0; i < a.length; i++) { if (a[i] !== b[i]) return false; }
+  return true;
+}
+function sbShuffledOrder(n, prev) {
+  var idx = [], i, j, t;
+  for (i = 0; i < n; i++) idx.push(i);
+  if (n < 2) return idx;
+  do { for (i = n - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = idx[i]; idx[i] = idx[j]; idx[j] = t; } } while (_sbSameOrder(idx, prev));
+  return idx;
+}
+
 window.SyllableBuilderActivity = Object.assign({}, WordBuilderCore, {
   id: 'syllable-builder-activity',
   strings: Object.assign({}, WordBuilderCore.strings, SYLLABLE_ACTIVITY_STRINGS, {
@@ -160,14 +198,21 @@ window.SyllableBuilderActivity = Object.assign({}, WordBuilderCore, {
 
   _loadActivity: function () {
     var self = this;
-    fetch('/mini-tools/syllable-builder-activities.json?v=14').then(function (r) {
+    fetch('/mini-tools/syllable-builder-activities.json?v=15').then(function (r) {
       if (!r.ok) throw new Error('manifest fetch failed: ' + r.status);
       return r.json();
     }).then(function (rows) {
       var row = rows.find(function (r) { return r.id === self._activityId; });
       if (!row) return;
       self._activityRow = row;
-      self.tasks = self._buildTasksFromRow(row);
+      var built = self._buildTasksFromRow(row);
+      if (row.task_template === 'build-vowel-teams') {
+        /* per-pass reshuffle path: shell uses nextTask() when tasks is unset */
+        self._pool = built; self._order = null; self._curPass = 0; self._orderForPool = null;
+        self.tasks = null;
+      } else {
+        self.tasks = built;
+      }
       if (typeof window.LCS_reloadFirstTask === 'function') {
         window.LCS_reloadFirstTask();
       }
@@ -176,7 +221,69 @@ window.SyllableBuilderActivity = Object.assign({}, WordBuilderCore, {
     });
   },
 
+  /* Per-pass reshuffle for build-vowel-teams (self._pool set + self.tasks null →
+     shell calls nextTask). Other templates set self.tasks → never called. */
+  nextTask: function (opts) {
+    var pool = this._pool;
+    if (!pool || !pool.length) return null;
+    var n = pool.length;
+    var i = (opts && opts.index) || 0;
+    if (!this._order || this._orderForPool !== pool || this._order.length !== n) {
+      this._order = sbShuffledOrder(n, null); this._orderForPool = pool; this._curPass = 0;
+    }
+    var pass = Math.floor(i / n);
+    if (pass > this._curPass) { this._order = sbShuffledOrder(n, this._order); this._curPass = pass; }
+    return pool[this._order[i % n]];
+  },
+
   _buildTasksFromRow: function (row) {
+    /* TEMPLATE: build-vowel-teams (RF.1.3, EN-only) — build a single-syllable
+       word where the vowel-team (oa/ai/ea/ee) is ONE unit tile (boat =
+       ["b","oa","t"]). Palette = tiles + distractor tiles (incl. a confusable
+       vowel-team) so picking the right vowel-team unit is load-bearing. Per-tile
+       audio MUTED (single-consonant tiles would speak letter names); Hear-it +
+       speakBlend-on-correct carry the audio. params.words = [{ noun, themeDir,
+       targetWord, tiles, distractors }]. */
+    if (row.task_template === 'build-vowel-teams') {
+      var vtWords = row.params.words || [];
+      var vtLang = row.params.language || 'en-US';
+      return vtWords.map(function (entry) {
+        var imgUrl = '/image-library-webp/themes/' + entry.themeDir + '/' + entry.noun + '@2x.webp';
+        var tiles = entry.tiles.slice();
+        var palette = _buildVowelTeamPalette(tiles, entry.distractors || [], entry.targetWord);
+        return {
+          id: row.id + '.' + entry.noun,
+          promptKey: 'promptVowelTeam',
+          answerType: 'state',
+          setup: function (tool) {
+            tool.setupTask({
+              slots: tiles.length,
+              palette: palette,
+              targetWord: entry.targetWord,
+              targetTiles: tiles,
+              mutePerTile: true,
+              subject: {
+                type: 'image',
+                imgUrl: imgUrl,
+                alt: entry.noun,
+                hearItWord: entry.targetWord,
+                hearItLang: entry.hearItLang || vtLang
+              },
+              language: entry.hearItLang || vtLang
+            });
+          },
+          check: function (tool) {
+            var correct = _tilesEqual(tool.tileAnswers, tiles);
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintFillAllSyllableSlots' : 'hintSyllableOrderOff';
+          }
+        };
+      });
+    }
+
     /* TEMPLATE: build-syllables-word — show picture, kid arranges scrambled
        syllable tiles into the target order.
        params.words = [{ noun, themeDir, targetWord, syllables, label }, ...]. */

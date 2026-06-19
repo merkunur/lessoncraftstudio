@@ -79,6 +79,11 @@ window.WordBuilderCore = {
     this.targetWord = String(opts.targetWord || this.targetTiles.join(''));
     this.subject = opts.subject || null;
     this.language = String(opts.language || (this.api && this.api.lang) || 'en');
+    /* Optional: suppress per-tile TTS on tap (e.g. vowel-teams, where single-
+       consonant onset/coda tiles would be spoken as letter NAMES, which don't
+       blend to the word). The whole-word Hear-it + speakBlend-on-correct carry
+       the audio. Absent → per-tile audio on (syllable-builder unchanged). */
+    this.mutePerTile = !!opts.mutePerTile;
     this.activeSlot = 0;
     this.readOnly = false;
     this.feedbackMode = null;
@@ -95,8 +100,9 @@ window.WordBuilderCore = {
     this.tileAnswers[this.activeSlot] = String(tileText);
     this.api.sound(660);
     /* Speak the syllable that was just placed — the segment side of the
-       segment->blend pedagogy. Independent of correctness. */
-    this.speakTile(String(tileText));
+       segment->blend pedagogy. Independent of correctness. Muted when
+       mutePerTile (vowel-teams) — see setupTask. */
+    if (!this.mutePerTile) this.speakTile(String(tileText));
     this.activeSlot = this._nextEmptySlot();
     this._updateAnswer();
     this.paint();

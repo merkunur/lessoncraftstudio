@@ -27,6 +27,7 @@ const ACTIVITIES = [
   { id: 'numberbond.make-ten-to-add.1-oa-c-6', titleKey: 'titleAdd', answer: 'tap' },
   { id: 'numberbond.find-the-total.1-oa-a-1', titleKey: 'titleWhole', answer: 'keypad' },
   { id: 'numberbond.subtraction-unknown-addend.1-oa-b-4', titleKey: 'titleSubtraction', answer: 'tap' },
+  { id: 'numberbond.add-three.1-oa-a-2', titleKey: 'titleThree', answer: 'keypad', parts: 3 },
 ];
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');
@@ -90,6 +91,12 @@ function coreStrings() {
         if (expectTitle) note(title === expectTitle, `${tag}: title "${title}" ≠ localized "${expectTitle}"`);
         const prompt = await page.$eval('.lcs-activity-prompt-text', e => e.textContent.trim()).catch(() => '');
         note(prompt.length > 0, `${tag}: empty prompt`);
+
+        /* 3-part bond: assert exactly 3 given part-nodes render (the novel render path) */
+        if (act.parts === 3) {
+          const nGiven = await page.$$eval('.nb-part-given', els => els.length);
+          note(nGiven === 3, `${tag}: ${nGiven} given part-nodes (expected 3)`);
+        }
 
         /* variety */
         const N = await page.evaluate(() => window.NumberBondActivity._pool.length);

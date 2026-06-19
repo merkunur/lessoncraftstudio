@@ -25,6 +25,7 @@ const SHOT = has('shot');
 const ACTIVITIES = [
   { id: 'ten-frame.show-the-operation.k-oa-a-1', kind: 'op' },
   { id: 'ten-frame.solve-the-story.k-oa-a-2', kind: 'story' },
+  { id: 'ten-frame.quick-facts-to-5.k-oa-a-5', kind: 'choice' },
 ];
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');
@@ -119,7 +120,7 @@ function serve() {
           await page.click('.lcs-activity-check');
           note(await celebrating(page), `${tag}: correct count (${result}) did not celebrate [${a}${op}${b}]`);
         }
-      } else {
+      } else if (act.kind === 'story') {
         /* story: native prompt with digits; keypad the loaded round's .answer */
         note(/\d/.test(prompt), `${tag}: story prompt has no digits — "${prompt}"`);
         const ans = await page.evaluate(() => { const t = window.TenFrameActivity.nextTask({ index: 0 }); return t ? t.answer : null; });
@@ -132,6 +133,22 @@ function serve() {
           await keypadClear(page); await keypadEnter(page, ans);
           await page.click('.lcs-activity-check');
           note(await celebrating(page), `${tag}: correct answer (${ans}) did not celebrate`);
+        }
+      } else {
+        /* choice: bare expression prompt with digits; tap a WRONG chip → no celebrate,
+           tap the answer chip → celebrate. Read .answer + .choices from the loaded round. */
+        note(/\d/.test(prompt), `${tag}: choice prompt has no digits — "${prompt}"`);
+        const t = await page.evaluate(() => { const x = window.TenFrameActivity.nextTask({ index: 0 }); return x ? { answer: x.answer, choices: (x.choices || []).map(c => c.value) } : null; });
+        note(t && typeof t.answer === 'number' && t.choices.length === 3, `${tag}: bad task .answer/.choices`);
+        const tapChip = async (val) => { await page.evaluate(v => { const c = [...document.querySelectorAll('.lcs-chip')].find(b => b.textContent.trim() === String(v)); if (c) c.click(); }, val); };
+        if (t && typeof t.answer === 'number') {
+          const wrong = t.choices.find(c => c !== t.answer);
+          await tapChip(wrong);
+          await page.click('.lcs-activity-check');
+          note(!(await celebrating(page)), `${tag}: a wrong choice (${wrong}) still celebrated`);
+          await tapChip(t.answer);
+          await page.click('.lcs-activity-check');
+          note(await celebrating(page), `${tag}: correct choice (${t.answer}) did not celebrate`);
         }
       }
 

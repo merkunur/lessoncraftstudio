@@ -1200,5 +1200,150 @@
       "fi": "Ratkaise yhteen- ja vähennyslaskujen sanallisia tehtäviä kymppiin asti kymmenruudukon ja laskupalikoiden avulla. Lapsi lukee lyhyen tarinan, asettaa laskupalikat kymmenruudukkoon ja löytää vastauksen konkreettisesti laskemalla. Tehtävät ovat OPS 2014 -opetussuunnitelman mukaisia."
     },
     "kid_prompt_template": "taskStoryProblem"
+  },
+  {
+    "id": "ten-frame.quick-facts-to-5.k-oa-a-5",
+    "tool": "ten-frame-activity",
+    "task_template": "quick-fact",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.OA.A.5",
+      "grade": "K",
+      "strand": "Operations & Algebraic Thinking"
+    },
+    "params": {
+      "frames": 1,
+      "problems": [
+        {
+          "a": 2,
+          "b": 1,
+          "op": "+",
+          "answer": 3,
+          "choices": [
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "a": 2,
+          "b": 2,
+          "op": "+",
+          "answer": 4,
+          "choices": [
+            5,
+            4,
+            3
+          ]
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+",
+          "answer": 5,
+          "choices": [
+            4,
+            3,
+            5
+          ]
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "op": "+",
+          "answer": 4,
+          "choices": [
+            4,
+            5,
+            2
+          ]
+        },
+        {
+          "a": 5,
+          "b": 2,
+          "op": "−",
+          "answer": 3,
+          "choices": [
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "a": 4,
+          "b": 1,
+          "op": "−",
+          "answer": 3,
+          "choices": [
+            4,
+            2,
+            3
+          ]
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "op": "−",
+          "answer": 2,
+          "choices": [
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "a": 5,
+          "b": 1,
+          "op": "−",
+          "answer": 4,
+          "choices": [
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "quick-facts-to-5",
+      "de": "schnelles-kopfrechnen-bis-5",
+      "es": "sumas-y-restas-hasta-5",
+      "it": "calcoli-rapidi-entro-il-5",
+      "pt": "fatos-rapidos-ate-5",
+      "fr": "additions-soustractions-rapides-jusqua-5",
+      "nl": "snel-rekenen-tot-5",
+      "sv": "snabba-tal-upp-till-5",
+      "da": "hurtige-talfakta-til-5",
+      "no": "raske-regnefakta-til-5",
+      "fi": "pikalaskut-viiteen"
+    },
+    "page_title": {
+      "en": "Quick Facts to 5 — Add & Subtract Fluently",
+      "de": "Schnelles Kopfrechnen Bis 5 — Plus Und Minus Sicher Beherrschen",
+      "es": "Sumas y Restas Hasta el 5 — Calcula con Fluidez",
+      "it": "Calcoli Rapidi Entro il 5 — Addizioni e Sottrazioni con Sicurezza",
+      "pt": "Fatos Rápidos Até 5 — Somar e Subtrair com Fluência",
+      "fr": "Additions et Soustractions Rapides Jusqu'à 5",
+      "nl": "Snel Rekenen Tot 5 — Vlot Optellen En Aftrekken",
+      "sv": "Snabba Tal Upp Till 5 — Addera Och Subtrahera Med Säkerhet",
+      "da": "Hurtige Talfakta Til 5 — Plus Og Minus",
+      "no": "Raske Regnefakta Til 5 – Pluss Og Minus",
+      "fi": "Pikalaskut Viiteen — Yhteen- Ja Vähennyslaskut Sujuvasti"
+    },
+    "page_intro": {
+      "en": "Build fluency with addition and subtraction facts within 5. See a quick fact like 3 + 2 or 5 − 2, then tap the answer fast — a ten-frame is there if you want to check. Aligned to Common Core K.OA.A.5 — fluently add and subtract within 5.",
+      "de": "Mit diesem Aktivitätsblatt üben Kinder das sichere und schnelle Kopfrechnen mit Plus- und Minusaufgaben bis 5 am Zehnerfeld. Sie sehen eine kurze Aufgabe wie 3 + 2 = ? und tippen die passende Antwort an, bis ihnen die Zahlen wie von selbst einfallen. Diese Übung ist am Lehrplan ausgerichtet.",
+      "es": "Practica las operaciones de suma y resta hasta el 5 usando un marco de diez, para que tu peque reconozca cada resultado de un vistazo y con confianza. Ve la operación (por ejemplo, 3 + 2) y toca la respuesta con seguridad, afianzando el cálculo mental sin prisas ni presión. Una actividad pensada para ganar fluidez y recordar las combinaciones básicas con calma, alineado al Currículo LOMLOE.",
+      "it": "Su questa pagina i bambini esercitano la padronanza delle addizioni e sottrazioni entro il 5, usando la tabella del dieci per visualizzare i numeri e richiamare i risultati con sicurezza. Vedono un calcolo come \"3 + 2 = ?\" e toccano la risposta giusta, allenando il richiamo rapido e tranquillo dei fatti numerici di base. Un'attività serena e amichevole, allineata alle Indicazioni nazionali.",
+      "pt": "Nesta atividade, as crianças praticam os fatos de adição e subtração até 5 em um quadro de dez, tocando a resposta com confiança e tranquilidade. A repetição amigável fortalece a memória rápida desses fatos, ajudando cada criança a reconhecer as combinações sem precisar contar tudo de novo. Conteúdo alinhado à BNCC.",
+      "fr": "Avec ce cadre de dix, votre enfant s'entraîne à reconnaître rapidement les additions et soustractions dont le résultat ne dépasse pas 5. En voyant « 3 + 2 = ? », il apprend à donner la bonne réponse en toute confiance, sans hésitation et sans compter sur ses doigts. Une activité douce et rassurante pour gagner en aisance avec les petits nombres, alignée aux programmes officiels.",
+      "nl": "Met dit tienraam oefent je kleuter het vlot optellen en aftrekken van sommen tot 5, zoals \"3 + 2 = ?\". De som verschijnt en je kind tikt rustig en zelfverzekerd het juiste antwoord aan, zodat de getalbeelden tot 5 vanzelf gaan herkennen. Een fijne manier om vlotte rekenfeiten op te bouwen, afgestemd op de SLO-kerndoelen.",
+      "sv": "Här övar barnen på att snabbt komma ihåg addition och subtraktion inom 5 med hjälp av en tioram. När barnet ser \"3 + 2 = ?\" stödjer tioramen den trygga och säkra återkallningen av talkombinationer, helt utan tävling eller tidtagning. Aktiviteten bygger en lugn taluppfattning steg för steg och är anpassad till Lgr22.",
+      "da": "Øv flydende plus- og minus-talfakta inden for 5 på en tierramme, hvor barnet ser et regnestykke som \"3 + 2 = ?\" og roligt finder det rigtige svar. Med tierrammen som tryg støtte træner barnet sikker, hurtig genkaldelse af tallene op til 5 — i sit eget tempo og helt uden konkurrence. Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen.",
+      "no": "Øv på rask gjenkjenning av pluss- og minusfakta innenfor 5 ved hjelp av en tierramme. Barnet ser et regnestykke som «3 + 2 = ?» og tapper svaret raskt fra valgene, slik at de bygger trygg og sikker tallforståelse. Aktiviteten er tilpasset rammeverket LK20.",
+      "fi": "Tällä tehtävällä lapsi harjoittelee yhteen- ja vähennyslaskuja lukualueella 0–5 kymmenruudukon avulla. Lapsi näkee laskun, kuten 3 + 2 = ?, ja valitsee oikean vastauksen — tavoitteena on rauhallinen, varma muistista laskeminen ilman kiirettä. Tehtävä on OPS 2014 -opetussuunnitelman perusteiden mukainen."
+    },
+    "kid_prompt_template": "taskQuickAdd"
   }
 ]

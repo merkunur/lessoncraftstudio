@@ -30,7 +30,12 @@ var ACTIVITY_STRINGS = {
   taskRepresentSub: {"en":"Show {a} − {b} — take some away","de":"Zeige {a} − {b} — nimm etwas weg","es":"Muestra {a} − {b}: quita algunas","it":"Mostra {a} − {b} — togline alcune","pt":"Mostre {a} − {b} — tire alguns","fr":"Montre {a} − {b} — enlèves-en quelques-uns","nl":"Laat {a} − {b} zien — haal er een paar weg","sv":"Visa {a} − {b} — ta bort några","da":"Vis {a} − {b} — tag nogle væk","no":"Vis {a} − {b} — ta noen bort","fi":"Näytä {a} − {b} — ota osa pois"},
   /* word-problem template (K.OA.A.2) prompt — pure "{text}" passthrough; the native
      story sentence rides promptArgs.text (the E18 #6 pattern). Locale-independent. */
-  taskStoryProblem: {en:'{text}',de:'{text}',es:'{text}',it:'{text}',pt:'{text}',fr:'{text}',nl:'{text}',sv:'{text}',da:'{text}',no:'{text}',fi:'{text}'}
+  taskStoryProblem: {en:'{text}',de:'{text}',es:'{text}',it:'{text}',pt:'{text}',fr:'{text}',nl:'{text}',sv:'{text}',da:'{text}',no:'{text}',fi:'{text}'},
+  /* quick-fact template (K.OA.A.5) prompts — bare within-5 expression; pure math
+     notation, locale-independent (all 11 identical, for api.t-fallback safety).
+     − is U+2212. */
+  taskQuickAdd: {en:'{a} + {b} = ?',de:'{a} + {b} = ?',es:'{a} + {b} = ?',it:'{a} + {b} = ?',pt:'{a} + {b} = ?',fr:'{a} + {b} = ?',nl:'{a} + {b} = ?',sv:'{a} + {b} = ?',da:'{a} + {b} = ?',no:'{a} + {b} = ?',fi:'{a} + {b} = ?'},
+  taskQuickSub: {en:'{a} − {b} = ?',de:'{a} − {b} = ?',es:'{a} − {b} = ?',it:'{a} − {b} = ?',pt:'{a} − {b} = ?',fr:'{a} − {b} = ?',nl:'{a} − {b} = ?',sv:'{a} − {b} = ?',da:'{a} − {b} = ?',no:'{a} − {b} = ?',fi:'{a} − {b} = ?'}
 };
 
 /* Per-pass order-only reshuffle (§A.13.60) — ported from number-bond-activity.js.
@@ -119,7 +124,7 @@ var TenFrameActivity = Object.assign({}, TenFrameCore, {
       return row;
     }).then(function (row) {
       if (!row) return;
-      if (row.task_template === 'represent-operation' || row.task_template === 'word-problem') {
+      if (row.task_template === 'represent-operation' || row.task_template === 'word-problem' || row.task_template === 'quick-fact') {
         /* §A.13.60 per-pass reshuffle: install nextTask + null tasks so the shell
            routes through tool.nextTask() (tasks takes priority in the shell, so it
            MUST be null). make-n/how-many fall through and keep the tasks[] path. */
@@ -293,6 +298,33 @@ var TenFrameActivity = Object.assign({}, TenFrameCore, {
             tool.setCount(0);                          // empty start — child models the whole story
           },
           check: function (tool, ans) { return parseInt(ans, 10) === r.answer; }
+        };
+      });
+    }
+    if (t === 'quick-fact') {
+      /* K.OA.A.5 — fluently add/subtract within 5. Bare expression prompt + a fast
+         CHOICE-tap (recall). The frame is an empty interactive within-5 scratch aid
+         (not graded); the answer is the tapped chip. Choices are pre-varied in the
+         manifest (the shell renders them in array order). */
+      var problems = (row.params && Array.isArray(row.params.problems)) ? row.params.problems : [];
+      return problems.map(function (p) {
+        var isAdd = (p.op === '+');
+        return {
+          id: row.id + '.' + (isAdd ? 'add' : 'sub') + '-' + p.a + '-' + p.b,
+          promptKey: isAdd ? 'taskQuickAdd' : 'taskQuickSub',
+          promptArgs: { a: p.a, b: p.b },
+          answerType: 'choice',
+          choices: (p.choices || []).map(function (v) { return { value: v }; }),
+          answer: p.answer,                          // metadata for the local-test harness
+          setup: function (tool) {
+            tool.hideReadout = false;
+            tool.readOnly = false;                   // empty interactive within-5 scratch aid
+            tool.splitAt = null; tool.splitColor = null;
+            tool.api.settings.frames = (row.params.frames || 1);
+            tool.render();
+            tool.setCount(0);
+          },
+          check: function (tool, ans) { return ans === p.answer; }
         };
       });
     }

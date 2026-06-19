@@ -154,6 +154,13 @@ var ACTIVITY_STRINGS = {
      numerals+symbols); this prompt asks which is true. EN now; 10 non-EN folded
      by the native ensemble (§A.13.48). */
   promptCompareTrue: {"en":"Which one is true?","de":"Welche Aussage stimmt?","es":"¿Cuál es la verdadera?","it":"Quale è vero?","pt":"Qual está correto?","fr":"Laquelle est vraie ?","nl":"Welke is waar?","sv":"Vilken stämmer?","da":"Hvilken er rigtig?","no":"Hvilken er riktig?","fi":"Mikä näistä on totta?"},
+  /* 1.NBT.C.5 — mentally find 10 more / 10 less than a two-digit number (the
+     number is the subject; the prompt names the ±10 operation). Two variants
+     selected by round.op. EN authoritative; the 10 non-EN are authored by the
+     native ensemble (§A.13.48). Universal numerals → only the prompt is
+     localized. No-competition lock (no race/timer/score framing). */
+  promptTenMore: {"en":"What is 10 more?","de":"Was ist 10 mehr?","es":"¿Cuánto es 10 más?","it":"Quanto fa 10 in più?","pt":"Quanto é 10 a mais?","fr":"Combien font 10 de plus ?","nl":"Hoeveel is 10 meer?","sv":"Vad är 10 mer?","da":"Hvad er 10 mere?","no":"Hva er 10 mer?","fi":"Paljonko on 10 enemmän?"},
+  promptTenLess: {"en":"What is 10 less?","de":"Was ist 10 weniger?","es":"¿Cuánto es 10 menos?","it":"Quanto fa 10 in meno?","pt":"Quanto é 10 a menos?","fr":"Combien font 10 de moins ?","nl":"Hoeveel is 10 minder?","sv":"Vad är 10 mindre?","da":"Hvad er 10 mindre?","no":"Hva er 10 mindre?","fi":"Paljonko on 10 vähemmän?"},
   /* Batch 2 K.G.A.3 — Flat or solid (2D vs 3D) */
   promptFlatOrSolid: {
     en: 'Is this shape flat or solid?',
@@ -885,7 +892,7 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       if (!row) return;
       self._activityRow = row;
       var built = self._buildTasksFromRow(row);
-      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit') {
+      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit' || row.task_template === 'ten-more-less') {
         /* per-pass reshuffle path: shell uses nextTask() when tasks is unset */
         self._pool = built; self._order = null; self._curPass = 0; self._orderForPool = null;
         self.tasks = null;
@@ -1140,6 +1147,44 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
             var correct = tool.answer === rel;
             tool.showFeedback(correct);
             return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: ten-more-less (1.NBT.C.5) — given a two-digit number n (the
+       text subject), mentally find 10 MORE or 10 LESS (without counting). The
+       4 number tiles are the FIXED place-value offset set {n-10, n-1, n+1,
+       n+10}: correct = (op==='more' ? n+10 : n-10); the foils are the genuine
+       place-value traps — n±1 (ones-digit trap: "±1 not ±10"), n∓10 (wrong
+       direction, = the OTHER op's answer), n∓1 (off-by-place). The four offsets
+       are pairwise-distinct → EXACTLY ONE correct (no-two-correct by
+       construction). Distinct from next-number (n+1, single-digit) and
+       compare-2digit (pick a relation). params.rounds = [{ n, op }, ...] with
+       n∈20..89 so every tile stays two-digit (10..99). */
+    if (row.task_template === 'ten-more-less') {
+      var tmlRounds = row.params.rounds;
+      return tmlRounds.map(function (round) {
+        var n = round.n, op = round.op;
+        var correct = (op === 'more') ? n + 10 : n - 10;
+        var vals = [n - 10, n - 1, n + 1, n + 10];
+        return {
+          id: row.id + '.' + op + '-' + n,
+          promptKey: (op === 'more') ? 'promptTenMore' : 'promptTenLess',
+          answerType: 'state',
+          setup: function (tool) {
+            var ordered = seededShuffle(vals, n * 31);
+            var options = ordered.map(function (v) { return { key: String(v), text: String(v) }; });
+            var subject = { type: 'text', text: String(n) };
+            tool.setupTask(options, String(correct), subject);
+          },
+          check: function (tool) {
+            var ok = tool.answer === String(correct);
+            tool.showFeedback(ok);
+            return ok;
           },
           hintKey: function (tool) {
             return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';

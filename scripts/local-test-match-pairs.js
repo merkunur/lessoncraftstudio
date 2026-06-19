@@ -22,7 +22,10 @@ const arg = (k, d) => { const m = process.argv.find(a => a.startsWith('--' + k +
 const has = (k) => process.argv.includes('--' + k);
 const LOCALES = arg('locales', 'en,de,es,pt,fr,it,nl,sv,da,no,fi').split(',');
 const SHOT = has('shot');
-const ACTIVITY_ID = 'match-pairs.add-it-both-ways.1-oa-b-3';
+const ACTIVITIES = [
+  { id: 'match-pairs.add-it-both-ways.1-oa-b-3', taskKey: 'taskCommutative' },
+  { id: 'match-pairs.match-facts-to-20.2-oa-b-2', taskKey: 'taskFluency' },
+];
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');
 const SHOT_DIR = path.join(REPO, 'docs', 'audit-results', 'match-pairs');
@@ -40,8 +43,6 @@ function serve() {
 
 (async () => {
   const manifest = JSON.parse(fs.readFileSync(path.join(MINI, 'match-pairs-activities.json'), 'utf8'));
-  const row = manifest.find(r => r.id === ACTIVITY_ID);
-  if (!row) { console.error('FAIL: manifest row not found: ' + ACTIVITY_ID); process.exit(1); }
 
   const puppeteer = require('puppeteer');
   const server = serve();
@@ -55,29 +56,38 @@ function serve() {
   const celebrating = (page) => page.evaluate(() => document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'));
 
   async function clickCard(page, idx) { await page.evaluate(i => { document.querySelectorAll('.mp-card')[i].click(); }, idx); }
-  /* group card indices by parsed sum; returns [{value, idxs:[a,b]}…] for complete pairs */
+  /* group card indices by value; pairs cards of EQUAL value. Parses "a + b",
+     "a − b" (U+2212), and bare numbers — so an expression card and its answer
+     number card group under the SAME value. Returns [{value, idxs:[a,b]}…]. */
   async function groups(page) {
     return page.$$eval('.mp-card', els => {
       const g = {};
       els.forEach((el, i) => {
         const t = ((el.querySelector('.mp-card-num') || el).textContent || '').trim();
-        const m = /^(\d+)\s*\+\s*(\d+)$/.exec(t);
-        const v = m ? (parseInt(m[1], 10) + parseInt(m[2], 10)) : ('x' + i);
+        let v;
+        const m = /^(\d+)\s*([+−])\s*(\d+)$/.exec(t);
+        if (m) v = m[2] === '+' ? (parseInt(m[1], 10) + parseInt(m[3], 10)) : (parseInt(m[1], 10) - parseInt(m[3], 10));
+        else if (/^\d+$/.test(t)) v = parseInt(t, 10);
+        else v = 'x' + i;
         (g[v] = g[v] || []).push(i);
       });
       return Object.keys(g).filter(v => g[v].length === 2).map(v => ({ value: v, idxs: g[v] }));
     });
   }
 
-  for (const loc of LOCALES) {
-    const tag = `${loc}/add-it-both-ways`;
+  for (const act of ACTIVITIES) {
+   const row = manifest.find(r => r.id === act.id);
+   if (!row) { fails.push('manifest row not found: ' + act.id); continue; }
+   const shortId = act.id.split('.')[1];
+   for (const loc of LOCALES) {
+    const tag = `${loc}/${shortId}`;
     const page = await browser.newPage();
     await page.setViewport({ width: 412, height: 900 });
     const errs = [];
     const isNoise = (s) => /Failed to load resource|favicon|\/audio\//i.test(s);
     page.on('console', m => { if (m.type() === 'error' && !isNoise(m.text())) errs.push(m.text()); });
     page.on('pageerror', e => { if (!isNoise(e.message)) errs.push(e.message); });
-    const url = `${BASE}/match-pairs-activity.html?lang=${loc}&activity=${ACTIVITY_ID}&embed=1`;
+    const url = `${BASE}/match-pairs-activity.html?lang=${loc}&activity=${act.id}&embed=1`;
     try {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
       await page.waitForFunction(() => {
@@ -85,16 +95,16 @@ function serve() {
         return t && t._activityRow && document.querySelector('.mp-card') && document.querySelector('.lcs-activity-check');
       }, { timeout: 15000 });
 
-      /* localized title (= manifest page_title) + prompt (= taskCommutative[loc]) */
+      /* localized title (= manifest page_title) + prompt (= task<X>[loc]) */
       const title = await page.$eval('.lcs-title', e => e.textContent.trim()).catch(() => '');
       const wantTitle = row.page_title && row.page_title[loc];
       if (wantTitle) note(title === wantTitle, `${tag}: title "${title}" ≠ page_title "${wantTitle}"`);
       const prompt = await page.$eval('.lcs-activity-prompt-text', e => e.textContent.trim()).catch(() => '');
-      const wantPrompt = await page.evaluate(l => { const s = window.MatchPairsActivity.strings.taskCommutative; return s && (s[l] || null); }, loc);
+      const wantPrompt = await page.evaluate((l, k) => { const s = window.MatchPairsActivity.strings[k]; return s && (s[l] || null); }, loc, act.taskKey);
       note(prompt.length > 0, `${tag}: empty prompt`);
-      if (wantPrompt) note(prompt === wantPrompt, `${tag}: prompt "${prompt}" ≠ taskCommutative "${wantPrompt}"`);
+      if (wantPrompt) note(prompt === wantPrompt, `${tag}: prompt "${prompt}" ≠ ${act.taskKey} "${wantPrompt}"`);
 
-      /* nextTask installed (commutative routes through nextTask, tasks nulled) */
+      /* nextTask installed (commutative + fluency route through nextTask, tasks nulled) */
       const wired = await page.evaluate(() => typeof window.MatchPairsActivity.nextTask === 'function' && !window.MatchPairsActivity.tasks);
       note(wired, `${tag}: nextTask not installed / tasks not nulled`);
 
@@ -143,6 +153,7 @@ function serve() {
       fails.push(`${tag}: ${e.message}`);
       console.log(`  FAIL ${tag} — ${e.message}`);
     } finally { await page.close(); }
+   }
   }
 
   await browser.close();

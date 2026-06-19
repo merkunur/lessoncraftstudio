@@ -246,7 +246,18 @@ var ACTIVITY_STRINGS_MP = {
   hintCommutative: {"en":"Tap an addition, then tap the one with the same numbers in the other order","de":"Tippe auf eine Plusaufgabe, dann auf die mit denselben Zahlen in der anderen Reihenfolge","es":"Toca una suma, luego toca la que tiene los mismos números en el otro orden","it":"Tocca un'addizione, poi tocca quella con gli stessi numeri nell'ordine opposto","pt":"Toque em uma soma, depois toque na que tem os mesmos números na ordem trocada","fr":"Touche une addition, puis touche celle qui a les mêmes nombres dans l'autre ordre","nl":"Tik op een optelling, tik dan op die met dezelfde getallen in de omgekeerde volgorde","sv":"Tryck på en addition, sedan på den med samma tal i omvänd ordning","da":"Tryk på et plusstykke, og tryk så på det med de samme tal i omvendt rækkefølge","no":"Trykk på et addisjonsstykke, og trykk deretter på det med de samme tallene i motsatt rekkefølge","fi":"Paina yhteenlaskua, paina sitten sitä, jossa on samat luvut toisin päin"},
   hintTryCommutative: {"en":"Some pairs aren't swapped twins yet — tap a pair to break it and try again","de":"Manche Paare sind noch keine vertauschten Zwillinge — tippe ein Paar an, um es zu trennen, und versuch's nochmal","es":"Algunas parejas aún no son gemelas al revés — toca una pareja para deshacerla e inténtalo de nuevo","it":"Alcune coppie non sono ancora gemelle scambiate — tocca una coppia per scioglierla e riprova","pt":"Algumas somas ainda não estão combinadas com seu par trocado — toque em um par para desfazê-lo e tente novamente","fr":"Certaines paires ne sont pas encore des jumelles inversées — touche une paire pour la défaire et réessaie","nl":"Sommige paren zijn nog geen omgewisselde tweelingen — tik op een paar om het te ontkoppelen en probeer opnieuw","sv":"Vissa par är inte omvända tvillingar än — tryck på ett par för att koppla loss det och försök igen","da":"Nogle par er ikke byttet om endnu — tryk på et par for at løse det op og prøv igen","no":"Noen par er ikke byttetvillinger ennå — trykk på et par for å løse det opp og prøv igjen","fi":"Jotkin parit eivät ole vielä käännettyjä kaksosia — paina paria avataksesi sen ja yritä uudelleen"},
   titleCommutative: {"en":"Add It Both Ways","de":"Beide Wege Rechnen","es":"Suma de las Dos Maneras","it":"Aggiungi Nei Due Ordini","pt":"Some de Duas Maneiras","fr":"Relie les Deux Additions","nl":"Tel Het Op Twee Manieren","sv":"Lägg Ihop På Två Sätt","da":"Læg Sammen Begge Veje","no":"Legg Sammen Begge Veier","fi":"Yhteenlasku Kumpaankin Suuntaan"},
-  instructionCommutative: {"en":"Adding numbers in any order makes the same total. Match each addition to the same numbers added the other way, then tap Check.","de":"Zahlen in beliebiger Reihenfolge zu addieren ergibt dieselbe Summe. Verbinde jede Plusaufgabe mit denselben Zahlen, die andersherum addiert werden, und tippe dann auf Prüfen.","es":"Sumar los números en cualquier orden da el mismo total. Relaciona cada suma con los mismos números sumados al revés, luego toca Comprobar.","it":"Sommare i numeri in qualsiasi ordine dà sempre lo stesso totale. Collega ogni addizione agli stessi numeri sommati nell'altro ordine, poi tocca Controlla.","pt":"Somar números em qualquer ordem dá o mesmo total. Combine cada soma com os mesmos números somados na outra ordem, depois toque em Verificar.","fr":"Additionner des nombres dans n'importe quel ordre donne le même total. Relie chaque addition aux mêmes nombres additionnés dans l'autre sens, puis touche Vérifier.","nl":"Getallen optellen in welke volgorde dan ook geeft dezelfde uitkomst. Verbind elke optelling met dezelfde getallen in de andere volgorde en tik dan op Controleer.","sv":"Att lägga ihop tal i vilken ordning som helst ger samma summa. Koppla ihop varje addition med samma tal lagda åt andra hållet, tryck sedan på Kontrollera.","da":"Når du lægger tal sammen, får du det samme i alt, uanset hvilken vej du gør det. Forbind hvert plusstykke med de samme tal lagt sammen den anden vej, og tryk så på Tjek.","no":"Når du legger sammen tall, blir summen den samme uansett rekkefølge. Koble hvert addisjonsstykke til de samme tallene lagt sammen den andre veien, og trykk så på Sjekk.","fi":"Lukujen järjestys ei muuta summaa. Yhdistä jokainen yhteenlasku samoihin lukuihin toisin päin laskettuna, paina sitten Tarkista."}
+  instructionCommutative: {"en":"Adding numbers in any order makes the same total. Match each addition to the same numbers added the other way, then tap Check.","de":"Zahlen in beliebiger Reihenfolge zu addieren ergibt dieselbe Summe. Verbinde jede Plusaufgabe mit denselben Zahlen, die andersherum addiert werden, und tippe dann auf Prüfen.","es":"Sumar los números en cualquier orden da el mismo total. Relaciona cada suma con los mismos números sumados al revés, luego toca Comprobar.","it":"Sommare i numeri in qualsiasi ordine dà sempre lo stesso totale. Collega ogni addizione agli stessi numeri sommati nell'altro ordine, poi tocca Controlla.","pt":"Somar números em qualquer ordem dá o mesmo total. Combine cada soma com os mesmos números somados na outra ordem, depois toque em Verificar.","fr":"Additionner des nombres dans n'importe quel ordre donne le même total. Relie chaque addition aux mêmes nombres additionnés dans l'autre sens, puis touche Vérifier.","nl":"Getallen optellen in welke volgorde dan ook geeft dezelfde uitkomst. Verbind elke optelling met dezelfde getallen in de andere volgorde en tik dan op Controleer.","sv":"Att lägga ihop tal i vilken ordning som helst ger samma summa. Koppla ihop varje addition med samma tal lagda åt andra hållet, tryck sedan på Kontrollera.","da":"Når du lægger tal sammen, får du det samme i alt, uanset hvilken vej du gør det. Forbind hvert plusstykke med de samme tal lagt sammen den anden vej, og tryk så på Tjek.","no":"Når du legger sammen tall, blir summen den samme uansett rekkefølge. Koble hvert addisjonsstykke til de samme tallene lagt sammen den andre veien, og trykk så på Sjekk.","fi":"Lukujen järjestys ei muuta summaa. Yhdistä jokainen yhteenlasku samoihin lukuihin toisin päin laskettuna, paina sitten Tarkista."},
+
+  /* ---- fluency-within-20 template (2.OA.B.2) chrome. The kid works out each
+     COMPLETE within-20 fact ("8 + 5" / "17 − 9") and matches it to its ANSWER
+     number — fact recall, mixing + and −. 11-locale native-authored (§A.13.48);
+     [NSR-FLAG] sv/da/no/fi. titleFluency := page_title (displayed/synced value).
+     Distinct from find-missing (D.8): complete-recall, NOT solve-for-the-blank. ---- */
+  taskFluency: {"en":"Work out each fact, then match it to its answer","de":"Rechne jede Aufgabe aus und verbinde sie mit ihrer Antwort","es":"Resuelve cada operación, luego relaciónala con su respuesta","it":"Risolvi ogni calcolo, poi abbinalo alla sua risposta","pt":"Resolva cada operação, depois combine-a com a sua resposta","fr":"Calcule chaque opération, puis relie-la à sa réponse","nl":"Werk elke som uit, verbind hem dan met het antwoord","sv":"Räkna ut varje uppgift, koppla sedan ihop den med sitt svar","da":"Regn hvert regnestykke ud, og forbind det så med sit svar","no":"Regn ut hvert stykke, og koble det så til svaret sitt","fi":"Ratkaise jokainen lasku ja yhdistä se sitten tulokseensa"},
+  hintFluency: {"en":"Tap a fact, then tap the number that is its answer","de":"Tippe auf eine Aufgabe, dann auf die Zahl, die ihre Antwort ist","es":"Toca una operación, luego toca el número que es su respuesta","it":"Tocca un calcolo, poi tocca il numero che è la sua risposta","pt":"Toque em uma operação, depois toque no número que é a sua resposta","fr":"Touche une opération, puis touche le nombre qui est sa réponse","nl":"Tik op een som, dan op het getal dat het antwoord is","sv":"Tryck på en uppgift, sedan på talet som är dess svar","da":"Tryk på et regnestykke, derefter på tallet, der er dets svar","no":"Trykk på et stykke, deretter på tallet som er svaret","fi":"Paina laskua, sitten lukua, joka on sen tulos"},
+  hintTryFluency: {"en":"Some facts aren't matched to the right answer yet — tap a pair to break it and try again","de":"Manche Aufgaben sind noch nicht mit der richtigen Antwort verbunden — tippe ein Paar an, um es zu trennen, und versuch's nochmal","es":"Algunas operaciones aún no están relacionadas con la respuesta correcta — toca una pareja para deshacerla e inténtalo de nuevo","it":"Alcuni calcoli non sono ancora abbinati alla risposta giusta — tocca una coppia per scioglierla e riprova","pt":"Algumas operações ainda não estão combinadas com a resposta certa — toque em um par para desfazê-lo e tente novamente","fr":"Certaines opérations ne sont pas encore reliées à la bonne réponse — touche une paire pour la défaire et réessaie","nl":"Sommige sommen zijn nog niet aan het juiste antwoord gekoppeld — tik op een paar om het te ontkoppelen en probeer opnieuw","sv":"Vissa uppgifter är inte ihopkopplade med rätt svar än — tryck på ett par för att lösa upp det och försök igen","da":"Nogle regnestykker er ikke forbundet med det rigtige svar endnu — tryk på et par for at løse det op og prøv igen","no":"Noen stykker er ikke koblet til riktig svar ennå — trykk på et par for å løse det opp og prøv igjen","fi":"Jotkin laskut eivät ole vielä yhdistetty oikeaan tulokseen — paina paria avataksesi sen ja yritä uudelleen"},
+  titleFluency: {"en":"Match Facts to 20","de":"Aufgaben Bis 20 Auswendig Lernen","es":"Relaciona Operaciones Hasta 20","it":"Abbina i Calcoli alla Risposta Entro il 20","pt":"Combine Fatos até 20","fr":"Relie les Calculs jusqu'à 20","nl":"Sommen Koppelen Tot 20","sv":"Para Ihop Tal Upp Till 20","da":"Match Regnestykker Op Til 20","no":"Match Plusstykker og Minusstykker Opp Til 20","fi":"Yhdistä Laskut Tulokseen Kahteenkymmeneen Asti"},
+  instructionFluency: {"en":"Add and subtract within 20. Work out each fact, then match it to its answer, and tap Check.","de":"Addiere und subtrahiere im Zahlenraum bis 20. Rechne jede Aufgabe aus, verbinde sie mit ihrer Antwort und tippe dann auf Prüfen.","es":"Suma y resta hasta 20. Resuelve cada operación, luego relaciónala con su respuesta y toca Comprobar.","it":"Addizioni e sottrazioni entro il 20. Risolvi ogni calcolo, poi abbinalo alla sua risposta e tocca Controlla.","pt":"Some e subtraia até 20. Resolva cada operação, depois combine-a com a sua resposta e toque em Verificar.","fr":"Additionne et soustrais jusqu'à 20. Calcule chaque opération, puis relie-la à sa réponse, et touche Vérifier.","nl":"Tel op en trek af tot 20. Werk elke som uit, verbind hem dan met het antwoord en tik op Controleren.","sv":"Addera och subtrahera inom 20. Räkna ut varje uppgift, koppla sedan ihop den med sitt svar, och tryck på Kontrollera.","da":"Læg sammen og træk fra op til 20. Regn hvert regnestykke ud, forbind det med sit svar, og tryk på Tjek.","no":"Legg til og trekk fra opp til 20. Regn ut hvert stykke, koble det så til svaret sitt, og trykk på Sjekk.","fi":"Laske yhteen ja vähennä kahteenkymmeneen asti. Ratkaise jokainen lasku, yhdistä se tulokseensa ja paina Tarkista."}
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -822,10 +833,72 @@ function makeCommutativeTasks(tasksRaw, idPrefix) {
   });
 }
 
+/* task_template 'fluency-within-20' (2.OA.B.2) — "Fluently add and subtract within
+   20." Fact-recall: each task shows 6 cards = 3 pairs, each pair a COMPLETE within-20
+   expression ("8 + 5" / "17 − 9") matched to its ANSWER number ("13" / "8"). The
+   matching VERB carries the fact recall. Each task uses 3 DISTINCT values, so a
+   value's only two cards are its expression + its number → matching is forced, no
+   false-correct. The pool MIXES addition + subtraction facts (fluency both ways).
+   Cards are {display, kind:'expr', value} objects; validity is `a.value === b.value`
+   — IDENTICAL to equal-value/find-missing/compare-3digit/commutative, so the engine
+   state machine + connector renderer are UNCHANGED (no core.js touch). Number-free
+   celebration. Scatter reuses scatterThreeForm. DISTINCT from 1.OA.D.8 find-missing
+   (COMPLETE expression↔number recall, vs a BLANK-equation↔number solve-for-unknown)
+   and from D.7/B.3 (which pair expression↔expression). */
+function makeFluencyTasks(tasksRaw, idPrefix) {
+  return tasksRaw.map(function (t, i) {
+    var cards = t.cards.slice();
+    return {
+      id: idPrefix + '.task-' + i,
+      promptKey: 'taskFluency',
+      answerType: 'state',
+      setup: function (tool) {
+        tool.setupTask({ cards: cards });          /* core Fisher-Yates shuffle */
+        tool.cards = scatterThreeForm(tool.cards); /* anti-column-stack (value-generic) */
+        tool.cardsState = tool.cards.map(function () { return 'unpaired'; });
+        tool.render();   /* fresh DOM per task — clears prior board */
+      },
+      check: function (tool) {
+        /* Pass criteria: every card paired AND every formed pair has two cards of
+           EQUAL value (a within-20 expression and its answer number). */
+        if (!tool.allPaired()) return false;
+        var wrong = {};
+        var ok = true;
+        tool.pairsFormed.forEach(function (p) {
+          var a = tool.cards[p[0]];
+          var b = tool.cards[p[1]];
+          var valid = a && b && typeof a === 'object' && typeof b === 'object'
+                      && typeof a.value === 'number' && a.value === b.value;
+          if (!valid) { wrong[p[0]] = true; wrong[p[1]] = true; ok = false; }
+        });
+        if (!ok) {
+          tool.wrongIdxSet = wrong;
+          tool.paint();
+          tool.speakTryAgain();
+          return false;
+        }
+        /* Correct! Lock the board + speak the truthful, number-free celebration. */
+        tool.readOnly = true;
+        tool.paint();
+        if (window.LCSAudio && window.LCSAudio.speak) {
+          var done = (tool.strings.speakMatchedAll && tool.strings.speakMatchedAll[tool.language])
+                     || tool.strings.speakMatchedAll.en;
+          window.LCSAudio.speak({ type: 'ui', text: done, lang: tool.language, rate: 0.95 });
+        }
+        return true;
+      },
+      hintKey: function (tool) {
+        if (!tool.allPaired()) return 'hintFluency';
+        return 'hintTryFluency';
+      }
+    };
+  });
+}
+
 /* Per-pass order-only reshuffle (§A.13.60) — ported verbatim from
-   number-bond-activity.js. Used ONLY by the commutative template (which installs
-   tool.nextTask + nulls tool.tasks); the other 5 match-pairs activities keep the
-   shell's per-mount tool.tasks[] path byte-identical. */
+   number-bond-activity.js. Used by the commutative + fluency-within-20 templates
+   (which install tool.nextTask + null tool.tasks); the other 5 match-pairs
+   activities keep the shell's per-mount tool.tasks[] path byte-identical. */
 function _sameOrderMP(a, b) {
   if (!b || a.length !== b.length) return false;
   for (var i = 0; i < a.length; i++) { if (a[i] !== b[i]) return false; }
@@ -905,10 +978,10 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
       if (titleEl && wantTitle && titleEl.textContent !== wantTitle) {
         titleEl.textContent = wantTitle;
       }
-      if (row.task_template === 'commutative') {
+      if (row.task_template === 'commutative' || row.task_template === 'fluency-within-20') {
         /* §A.13.60 per-pass reshuffle: install nextTask + null tasks so the
            shell routes through tool.nextTask() (tasks takes priority in the
-           shell, so it MUST be null here). The other 5 templates fall to the
+           shell, so it MUST be null here). The other templates fall to the
            else and keep the per-mount tool.tasks[] path byte-identical. */
         self._pool = self._buildTasksFromRow(row);
         self.tasks = null;
@@ -976,6 +1049,27 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
       }
       return makeCommutativeTasks(coTasks, row.id);
     }
+    if (row.task_template === 'fluency-within-20') {
+      var flTasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
+      /* defensive: each task = 6 cards / 3 DISTINCT values / each value exactly 2
+         cards / exactly one a complete "a op b" (op ∈ +,−) evaluating to value ≤20.
+         Warn (don't throw). */
+      if (window.console && console.warn) {
+        flTasks.forEach(function (t, ti) {
+          var cs = (t && Array.isArray(t.cards)) ? t.cards : [];
+          if (cs.length !== 6) console.warn('[match-pairs-activity] fluency task ' + ti + ' has ' + cs.length + ' cards (expected 6)');
+          var vals = {};
+          cs.forEach(function (c) { if (c && typeof c.value === 'number') vals[c.value] = (vals[c.value] || 0) + 1; });
+          var keys = Object.keys(vals);
+          if (keys.length !== 3) console.warn('[match-pairs-activity] fluency task ' + ti + ' has ' + keys.length + ' distinct values (expected 3)');
+          keys.forEach(function (v) {
+            if (vals[v] !== 2) console.warn('[match-pairs-activity] fluency task ' + ti + ' value ' + v + ' appears ' + vals[v] + 'x (expected 2)');
+            if (Number(v) > 20) console.warn('[match-pairs-activity] fluency task ' + ti + ' value ' + v + ' > 20 (out of within-20 scope)');
+          });
+        });
+      }
+      return makeFluencyTasks(flTasks, row.id);
+    }
     return STATIC_DEMO_TASKS_MP;
   }
 });
@@ -995,6 +1089,11 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
     MatchPairsActivity.strings = Object.assign({}, MatchPairsActivity.strings, {
       title: MatchPairsActivity.strings.titleCommutative,
       instruction: MatchPairsActivity.strings.instructionCommutative
+    });
+  } else if (id && id.indexOf('match-facts-to-20') >= 0) {
+    MatchPairsActivity.strings = Object.assign({}, MatchPairsActivity.strings, {
+      title: MatchPairsActivity.strings.titleFluency,
+      instruction: MatchPairsActivity.strings.instructionFluency
     });
   }
 })();

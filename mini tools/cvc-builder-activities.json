@@ -390,5 +390,111 @@
       "en": "Build words that begin with two letters working together — blends like fr and st (two sounds blended) and digraphs like sh and ch (two letters, one sound). Tap the sound chunks in order to spell the word for the picture, and tap Hear it to listen. Take your time; there is no timer and no score. Aligned to Common Core RF.1.3 — knowing the spelling-sound correspondences for common consonant digraphs and blends."
     },
     "kid_prompt_template": "promptBuildBlend"
+  },
+  {
+    "id": "cvc-builder.build-magic-e.rf-1-3-silent-e",
+    "tool": "cvc-builder-activity",
+    "task_template": "build-magic-e",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.1.3",
+      "grade": "1",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "words": [
+        {
+          "noun": "kite",
+          "themeDir": "beach",
+          "targetWord": "kite",
+          "distractors": [
+            "a",
+            "o",
+            "y"
+          ]
+        },
+        {
+          "noun": "cake",
+          "themeDir": "4th of July",
+          "targetWord": "cake",
+          "distractors": [
+            "a",
+            "o",
+            "i"
+          ]
+        },
+        {
+          "noun": "rose",
+          "themeDir": "flowers",
+          "targetWord": "rose",
+          "distractors": [
+            "a",
+            "o",
+            "y"
+          ]
+        },
+        {
+          "noun": "cube",
+          "themeDir": "shapes",
+          "targetWord": "cube",
+          "distractors": [
+            "a",
+            "o",
+            "y"
+          ]
+        },
+        {
+          "noun": "cone",
+          "themeDir": "shapes",
+          "targetWord": "cone",
+          "distractors": [
+            "a",
+            "o",
+            "y"
+          ]
+        },
+        {
+          "noun": "gate",
+          "themeDir": "around the house",
+          "targetWord": "gate",
+          "distractors": [
+            "a",
+            "o",
+            "i"
+          ]
+        },
+        {
+          "noun": "nose",
+          "themeDir": "body parts",
+          "targetWord": "nose",
+          "distractors": [
+            "a",
+            "o",
+            "y"
+          ]
+        },
+        {
+          "noun": "vase",
+          "themeDir": "around the house",
+          "targetWord": "vase",
+          "distractors": [
+            "a",
+            "o",
+            "i"
+          ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "add-the-magic-e"
+    },
+    "page_title": {
+      "en": "Add the Magic e — Long Vowel Words"
+    },
+    "page_intro": {
+      "en": "The magic e is a quiet little letter that changes everything: add it to the end and the vowel says its name — kit becomes kite, cap becomes cape. The base word is already started for you; tap the magic e to finish the word for the picture, and tap Hear it to listen to the long vowel. No timer and no score, just listening and noticing. Aligned to Common Core RF.1.3 — knowing the final -e and common vowel-team conventions for representing long vowel sounds."
+    },
+    "kid_prompt_template": "promptMagicE"
   }
 ]

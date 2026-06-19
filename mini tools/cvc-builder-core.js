@@ -55,6 +55,8 @@ window.CvcBuilderCore = {
     this.feedbackMode = null;  /* null | 'correct' | 'wrong' */
     this.answer = null;        /* joined letter string when ALL slots filled, else null */
     this.chunks = null;        /* optional per-slot expected CHUNK array (multi-letter unit tiles, e.g. ["sh","i","p"]); null = single-char-per-slot (CVC) */
+    this.prefill = null;       /* optional per-slot seed values (magic-e: ["k","i","t",null]); null = empty slots */
+    this.lockedSlots = [];     /* slot indices seeded by prefill + lockPrefilled (can't be cleared) */
     this.slotEls = [];
     this.letterEls = [];
   },
@@ -84,7 +86,15 @@ window.CvcBuilderCore = {
   setupTask: function (opts) {
     opts = opts || {};
     this.slots = (typeof opts.slots === 'number' && opts.slots > 0) ? opts.slots : (opts.targetWord ? opts.targetWord.length : 3);
-    this.slotValues = new Array(this.slots).fill(null);
+    /* Optional PREFILL mode (magic-e): opts.prefill = per-slot seed values with
+       nulls for the empty slot(s) (e.g. ["k","i","t",null] for "kit_"). With
+       opts.lockPrefilled, the seeded slots can't be cleared — the child only
+       fills the empty slot (adds the magic-e). Absent → empty slots (CVC). */
+    this.prefill = (Array.isArray(opts.prefill) && opts.prefill.length === this.slots) ? opts.prefill.slice() : null;
+    this.slotValues = this.prefill ? this.prefill.slice() : new Array(this.slots).fill(null);
+    this.lockedSlots = (this.prefill && opts.lockPrefilled)
+      ? this.prefill.map(function (v, i) { return v != null ? i : -1; }).filter(function (i) { return i >= 0; })
+      : [];
     this.slotFeedback = new Array(this.slots).fill(null);
     this.palette = Array.isArray(opts.palette) ? opts.palette.slice() : [];
     this.targetWord = String(opts.targetWord || '');
@@ -94,7 +104,7 @@ window.CvcBuilderCore = {
        → single-char-per-slot (CVC) behavior is byte-identical. */
     this.chunks = (Array.isArray(opts.chunks) && opts.chunks.length === this.slots) ? opts.chunks.slice() : null;
     this.subject = opts.subject || null;
-    this.activeSlot = 0;
+    this.activeSlot = this._nextEmptySlot();  /* first empty slot (0 when none prefilled) */
     this.readOnly = false;
     this.feedbackMode = null;
     this._updateAnswer();
@@ -121,6 +131,9 @@ window.CvcBuilderCore = {
   clearSlot: function (idx) {
     if (this.readOnly) return;
     if (typeof idx !== 'number' || idx < 0 || idx >= this.slots) return;
+    /* prefill lock — a seeded base slot (magic-e "kit_") can't be cleared; the
+       child only fills the empty final slot. No-op for non-prefill (empty array). */
+    if (this.lockedSlots && this.lockedSlots.indexOf(idx) >= 0) return;
     if (this.slotValues[idx] == null) {
       /* Tapping an empty slot just makes it active. */
       this.activeSlot = idx;
@@ -178,6 +191,9 @@ window.CvcBuilderCore = {
     /* chunk mode → tag the wrap so the gated .cvc-chunks CSS widens slots +
        tiles for 2-3 char unit tiles. No-op for CVC (this.chunks null). */
     if (this.chunks) wrap.classList.add('cvc-chunks');
+    /* prefill (magic-e) mode → tag the wrap so the gated .cvc-prefill CSS gilds
+       the magic-e tile. No-op for non-prefill (this.prefill null). */
+    if (this.prefill) wrap.classList.add('cvc-prefill');
 
     /* Subject — picture above the slots. Optional "Hear it" speaker
        button overlays the bottom-right corner of the subject; tapping
@@ -437,7 +453,13 @@ window.CvcBuilderCore = {
          square aspect-ratio to auto width + horizontal padding + a smaller font
          so the chunk fits without clipping. Live RF.K.3 CVC is unaffected. */
       '.cvc-wrap.cvc-chunks .cvc-slot{aspect-ratio:auto;min-height:clamp(56px,15vmin,84px);padding:0 clamp(8px,2.4vw,16px);font-size:clamp(24px,6.5vmin,44px);}',
-      '.cvc-wrap.cvc-chunks .cvc-letter{aspect-ratio:auto;min-height:clamp(46px,12vw,62px);padding:0 clamp(6px,2vw,12px);font-size:clamp(18px,4.6vw,28px);}'
+      '.cvc-wrap.cvc-chunks .cvc-letter{aspect-ratio:auto;min-height:clamp(46px,12vw,62px);padding:0 clamp(6px,2vw,12px);font-size:clamp(18px,4.6vw,28px);}',
+
+      /* PREFILL/MAGIC-E MODE (gated on .cvc-prefill) — gild the magic-e tile so
+         it reads as the special letter, + dim the locked base slots slightly so
+         the empty final slot draws the eye. CVC/blends never get this class. */
+      '.cvc-wrap.cvc-prefill .cvc-letter[data-letter="e"]{background:linear-gradient(180deg,#FFF7DE 0%,#FCE9A8 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,0.9),0 4px 0 0 #E3C969,0 6px 14px rgba(214,170,40,0.28);color:#9A6B12;}',
+      '.cvc-wrap.cvc-prefill .cvc-slot.cvc-slot--filled{opacity:0.92;}'
     ].join('\n');
     var tag = document.createElement('style');
     tag.textContent = css;

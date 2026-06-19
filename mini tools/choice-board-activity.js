@@ -178,6 +178,10 @@ var ACTIVITY_STRINGS = {
      Per-locale picture↔sound pairings (native-owned) ride in
      params.byLocale.<loc>.rounds. NO audio — the letter is the visual stimulus. */
   promptStartsWith: {"en":"Which picture starts with this sound?","de":"Welches Bild beginnt mit diesem Laut?","es":"¿Qué imagen empieza con este sonido?","it":"Quale immagine inizia con questo suono?","pt":"Qual imagem começa com este som?","fr":"Quelle image commence par ce son ?","nl":"Welke afbeelding begint met deze klank?","sv":"Vilken bild börjar med detta ljud?","da":"Hvilket billede begynder med denne lyd?","no":"Hvilket bilde begynner med denne lyden?","fi":"Mikä kuva alkaa tällä äänteellä?"},
+  /* RF.K.3 — read a whole printed CVC word + tap its picture (decode-to-meaning).
+     EN-only (the cvc/decode exception); slug.en-only → 404 non-EN. The 10 non-EN
+     entries are EN fallbacks that never route. */
+  promptReadWord: {"en":"Read the word. Tap the picture that matches it.","de":"Read the word. Tap the picture that matches it.","es":"Read the word. Tap the picture that matches it.","it":"Read the word. Tap the picture that matches it.","pt":"Read the word. Tap the picture that matches it.","fr":"Read the word. Tap the picture that matches it.","nl":"Read the word. Tap the picture that matches it.","sv":"Read the word. Tap the picture that matches it.","da":"Read the word. Tap the picture that matches it.","no":"Read the word. Tap the picture that matches it.","fi":"Read the word. Tap the picture that matches it."},
   /* RF.K.2.c — blend onset + rime (REDUCED FAN: en/nl/da native-confirmed; de/no/sv
      excluded their language uses syllable not onset-rime). The onset is shown as a
      letter-chunk + the rime is SPOKEN (TTS-safe syllable; isolated-onset TTS is
@@ -997,7 +1001,7 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       if (!row) return;
       self._activityRow = row;
       var built = self._buildTasksFromRow(row);
-      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit' || row.task_template === 'ten-more-less' || row.task_template === 'read-ruler' || row.task_template === 'letter-case' || row.task_template === 'beginning-sound' || row.task_template === 'onset-rime-blend') {
+      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit' || row.task_template === 'ten-more-less' || row.task_template === 'read-ruler' || row.task_template === 'letter-case' || row.task_template === 'beginning-sound' || row.task_template === 'onset-rime-blend' || row.task_template === 'read-cvc-word') {
         /* per-pass reshuffle path: shell uses nextTask() when tasks is unset */
         self._pool = built; self._order = null; self._curPass = 0; self._orderForPool = null;
         self.tasks = null;
@@ -1408,6 +1412,48 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
             var ordered = seededShuffle([correct].concat(distractors), seed);
             var options = ordered.map(_bsTile);
             tool.setupTask(options, correct.noun, { type: 'text', text: letter });
+          },
+          check: function (tool) {
+            var ok = tool.answer === correct.noun;
+            tool.showFeedback(ok);
+            return ok;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: read-cvc-word (RF.K.3, EN-only) — whole-word DECODE-to-meaning. A
+       printed CVC word is the text subject; the child reads/decodes it and taps
+       the PICTURE it names (1-of-4 image tiles). Distinct from beginning-sound
+       (initial-phoneme→picture), read-sight-word (heard word→word tile, no
+       decode), and cvc-build (encode): here the artifact is a 3-letter printed
+       word + the skill is full grapheme-phoneme decode. ≥1 distractor word SHARES
+       THE FIRST TWO LETTERS (onset+vowel) but differs in the full word, so a child
+       reading only the onset cannot disambiguate → decoding the whole word (incl.
+       the final phoneme) is load-bearing. EXACTLY ONE correct (subject word ===
+       correct word; every option is a distinct noun). NO audio. 0-core (the
+       beginning-sound image-option + text-subject precedent). Each round =
+       { word, correct:{noun,themeDir}, distractors:[{noun,themeDir}×3] }. */
+    if (row.task_template === 'read-cvc-word') {
+      var rwRounds = (row.params && row.params.rounds) || [];
+      function _rwTile(o) {
+        return { key: o.noun, imgUrl: '/image-library-webp/themes/' + o.themeDir + '/' + o.noun + '@2x.webp', label: o.noun };
+      }
+      return rwRounds.map(function (r, i) {
+        var word = r.word, correct = r.correct, distractors = r.distractors || [];
+        return {
+          id: row.id + '.r' + i + '-' + word,
+          promptKey: 'promptReadWord',
+          answerType: 'state',
+          setup: function (tool) {
+            var seed = (i + 1) * 137;
+            for (var c = 0; c < word.length; c++) seed = (seed * 31 + word.charCodeAt(c)) | 0;
+            var ordered = seededShuffle([correct].concat(distractors), seed);
+            var options = ordered.map(_rwTile);
+            tool.setupTask(options, correct.noun, { type: 'text', text: word });
           },
           check: function (tool) {
             var ok = tool.answer === correct.noun;

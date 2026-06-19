@@ -122,6 +122,24 @@ function makeWhole3Tasks(rounds, idPrefix) {
   });
 }
 
+/* word-problem (2.OA.A.1): each round {text, first, second, whole, unknownPos, seed}
+   → a NUMERAL part-part-whole bond modeling the situation; the child reads the
+   problem (the prompt) and types the missing number (keypad). */
+function makeWordProblemTasks(rounds, idPrefix) {
+  return rounds.map(function (r, i) {
+    return {
+      id: idPrefix + '.round-' + i,
+      promptKey: 'promptWordProblem',
+      promptArgs: { text: r.text },
+      answerType: 'number',
+      answerMin: 0,
+      answerMax: 100,
+      setup: function (tool) { tool.setupTask({ mode: 'word-problem', first: r.first, second: r.second, whole: r.whole, unknownPos: r.unknownPos, seed: r.seed }); },
+      check: function (tool, answer) { return answer === tool.answerKey(); }
+    };
+  });
+}
+
 var STATIC_DEMO_TASKS = makeRoundTasks(DEMO_ROUNDS, 'demo');
 
 function _sameOrder(a, b) {
@@ -206,6 +224,21 @@ window.NumberBondActivity = Object.assign({}, NumberBondCore, {
       }
       return makeWholeTasks(wholeRounds, row.id);
     }
+    if (row.task_template === 'word-problem') {
+      var wpLoc = (typeof window !== 'undefined' && window.LCS && window.LCS.i18n && window.LCS.i18n.current) || 'en';
+      var wpByLoc = (row.params && row.params.byLocale) || {};
+      var wpL = wpByLoc[wpLoc] || wpByLoc.en;
+      var wpRounds = (wpL && wpL.rounds) || [];
+      /* defensive: parts sum to whole, ≤100, valid unknownPos. */
+      if (window.console && console.warn) {
+        wpRounds.forEach(function (r, ri) {
+          if (r.first + r.second !== r.whole) console.warn('[number-bond-activity] wp round ' + ri + ' parts ' + r.first + '+' + r.second + ' ≠ whole ' + r.whole);
+          if (r.whole > 100) console.warn('[number-bond-activity] wp round ' + ri + ' whole ' + r.whole + ' > 100');
+          if (['whole', 'first', 'second'].indexOf(r.unknownPos) < 0) console.warn('[number-bond-activity] wp round ' + ri + ' bad unknownPos ' + r.unknownPos);
+        });
+      }
+      return makeWordProblemTasks(wpRounds, row.id);
+    }
     if (row.task_template === 'add-three') {
       var a3Rounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : [];
       /* defensive: 3 addends ≥1, EACH part ≤7 (render-safety in the smaller 3-part nodes), sum ≤20. */
@@ -271,6 +304,11 @@ window.NumberBondActivity = Object.assign({}, NumberBondCore, {
     NumberBondActivity.strings = Object.assign({}, NumberBondActivity.strings, {
       title: NumberBondActivity.strings.titleThree,
       instruction: NumberBondActivity.strings.instructionThree
+    });
+  } else if (id && id.indexOf('story-problem') >= 0) {
+    NumberBondActivity.strings = Object.assign({}, NumberBondActivity.strings, {
+      title: NumberBondActivity.strings.titleWordProblem,
+      instruction: NumberBondActivity.strings.instructionWordProblem
     });
   }
 })();

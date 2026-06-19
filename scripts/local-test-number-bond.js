@@ -28,6 +28,7 @@ const ACTIVITIES = [
   { id: 'numberbond.find-the-total.1-oa-a-1', titleKey: 'titleWhole', answer: 'keypad' },
   { id: 'numberbond.subtraction-unknown-addend.1-oa-b-4', titleKey: 'titleSubtraction', answer: 'tap' },
   { id: 'numberbond.add-three.1-oa-a-2', titleKey: 'titleThree', answer: 'keypad', parts: 3 },
+  { id: 'numberbond.story-problem.2-oa-a-1', titleKey: 'titleWordProblem', answer: 'keypad', numeral: true },
 ];
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');
@@ -110,9 +111,15 @@ function coreStrings() {
         await page.evaluate(() => window.LCS_reloadFirstTask && window.LCS_reloadFirstTask());
 
         if (act.answer === 'keypad') {
-          /* whole-unknown: read the total, type a WRONG value (no celebrate), then the correct total */
+          /* keypad answer: word-problem grades against answerKey() (unknown may be a part);
+             whole-unknown/add-three grade against total(). */
           await page.waitForFunction(() => document.querySelector('.lcs-activity-keypad'), { timeout: 5000 });
-          const t = await page.evaluate(() => window.NumberBondActivity.total());
+          if (act.numeral) {
+            /* word-problem: the prompt must be the localized PROBLEM text, not a raw key/passthrough */
+            note(prompt !== '{text}' && prompt.indexOf('promptWordProblem') < 0 && prompt.length > 12, `${tag}: prompt is not real problem text ("${prompt}")`);
+            note(!!(await page.$('.nb-svg')), `${tag}: no numeral bond rendered`);
+          }
+          const t = await page.evaluate((wp) => wp ? window.NumberBondActivity.answerKey() : window.NumberBondActivity.total(), !!act.numeral);
           await keypadEnter(page, t - 1);
           await page.click('.lcs-activity-check');
           note(!(await celebrating(page)), `${tag}: a wrong total (${t - 1}) still celebrated`);

@@ -32,7 +32,8 @@ const check = (cond, msg) => { if (!cond) failures.push(msg); };
 let roundCount = 0;
 for (const row of manifest) {
   const rounds = (row.params && row.params.rounds) || [];
-  check(rounds.length >= VARIETY_MIN, `${row.id}: ${rounds.length} rounds < ${VARIETY_MIN} variety floor (§A.13.60)`);
+  /* byLocale rows (word-problem) carry rounds per-locale — variety checked in that branch */
+  if (!(row.params && row.params.byLocale)) check(rounds.length >= VARIETY_MIN, `${row.id}: ${rounds.length} rounds < ${VARIETY_MIN} variety floor (§A.13.60)`);
 
   if (row.task_template === 'make-ten-to-add') {
     // 1.OA.C.6: bond decomposes B; the make-ten part = 10 − A completes a ten.
@@ -75,6 +76,30 @@ for (const row of manifest) {
       Core.setupTask({ mode: 'whole-unknown', first: A, second: B });
       check(Core.whole === A + B, `${label}: whole ${Core.whole} ≠ ${A + B} (parts sum to whole)`);
       check(Core.total() === A + B, `${label}: total() ${Core.total()} ≠ ${A + B}`);
+    });
+    continue;
+  }
+
+  if (row.task_template === 'word-problem') {
+    // 2.OA.A.1 word problem within 100, numeral bond. byLocale rounds; verify each
+    // locale's rounds: parts+whole consistent, ≤100, valid unknownPos, answerKey correct.
+    const byLoc = (row.params && row.params.byLocale) || {};
+    Object.keys(byLoc).forEach((loc) => {
+      const rs = (byLoc[loc] && byLoc[loc].rounds) || [];
+      check(rs.length >= VARIETY_MIN, `${row.id}/${loc}: ${rs.length} rounds < ${VARIETY_MIN} variety floor`);
+      rs.forEach((r, i) => {
+        roundCount++;
+        const label = `${row.id}/${loc}#${i}`;
+        check(r.first + r.second === r.whole, `${label}: parts ${r.first}+${r.second} ≠ whole ${r.whole}`);
+        check(r.whole <= 100 && r.first >= 0 && r.second >= 0, `${label}: out of within-100 scope`);
+        check(['whole', 'first', 'second'].indexOf(r.unknownPos) >= 0, `${label}: bad unknownPos ${r.unknownPos}`);
+        check(typeof r.text === 'string' && r.text.length > 0, `${label}: empty problem text`);
+        Core.init({});
+        Core.setupTask({ mode: 'word-problem', first: r.first, second: r.second, whole: r.whole, unknownPos: r.unknownPos });
+        const expect = r.unknownPos === 'first' ? r.whole - r.second : r.unknownPos === 'second' ? r.whole - r.first : r.first + r.second;
+        check(Core.answerKey() === expect, `${label}: answerKey() ${Core.answerKey()} ≠ ${expect}`);
+        check(Core.answerKey() >= 0, `${label}: negative answer`);
+      });
     });
     continue;
   }

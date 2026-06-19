@@ -1,0 +1,509 @@
+{
+  "locale": "en",
+  "exerciseType": "alphabet-train",
+  "exerciseMode": "letter-hint",
+  "rawRowCount": 39,
+  "validCount": 37,
+  "modesSeen": [
+    "letter-hint"
+  ],
+  "ageRangeValues": [
+    "3-5"
+  ],
+  "collapses": 2,
+  "collapseSizes": [
+    1,
+    2
+  ],
+  "bareOrNone": [],
+  "sampleSlugs": [
+    "alphabet-train-letter-hint-4th-of-july-d61f (n=2)",
+    "alphabet-train-letter-hint-accessories-dc6a (n=1)",
+    "alphabet-train-letter-hint-activities-fc36 (n=1)"
+  ],
+  "coordinates": [
+    {
+      "mode": "letter-hint",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 2,
+      "canonical": "alphabet-train-letter-hint-4th-of-july-d61f",
+      "siblings": [
+        "alphabet-train-letter-hint-4th-of-july-d61f",
+        "alphabet-train-letter-hint-4th-of-july-a0bc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-accessories-dc6a",
+      "siblings": [
+        "alphabet-train-letter-hint-accessories-dc6a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-activities-fc36",
+      "siblings": [
+        "alphabet-train-letter-hint-activities-fc36"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-animals-761c",
+      "siblings": [
+        "alphabet-train-letter-hint-animals-761c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonical": "alphabet-train-letter-hint-around-the-house-c6f1",
+      "siblings": [
+        "alphabet-train-letter-hint-around-the-house-c6f1",
+        "alphabet-train-letter-hint-around-the-house-664f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-at-the-supermarket-b083",
+      "siblings": [
+        "alphabet-train-letter-hint-at-the-supermarket-b083"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-beach-635a",
+      "siblings": [
+        "alphabet-train-letter-hint-beach-635a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-birds-2-7cd7",
+      "siblings": [
+        "alphabet-train-letter-hint-birds-2-7cd7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-body-parts-a88a",
+      "siblings": [
+        "alphabet-train-letter-hint-body-parts-a88a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-breakfast-2152",
+      "siblings": [
+        "alphabet-train-letter-hint-breakfast-2152"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-camping-d2da",
+      "siblings": [
+        "alphabet-train-letter-hint-camping-d2da"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-christmas-7442",
+      "siblings": [
+        "alphabet-train-letter-hint-christmas-7442"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-classroom-b311",
+      "siblings": [
+        "alphabet-train-letter-hint-classroom-b311"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-clothing-f32c",
+      "siblings": [
+        "alphabet-train-letter-hint-clothing-f32c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-colors-90b6",
+      "siblings": [
+        "alphabet-train-letter-hint-colors-90b6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-desserts-and-sweets-c1f4",
+      "siblings": [
+        "alphabet-train-letter-hint-desserts-and-sweets-c1f4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-farm-animals-86b5",
+      "siblings": [
+        "alphabet-train-letter-hint-farm-animals-86b5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-flowers-b5b6",
+      "siblings": [
+        "alphabet-train-letter-hint-flowers-b5b6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-forest-creatures-a07c",
+      "siblings": [
+        "alphabet-train-letter-hint-forest-creatures-a07c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-fruits-63ac",
+      "siblings": [
+        "alphabet-train-letter-hint-fruits-63ac"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-furniture-843e",
+      "siblings": [
+        "alphabet-train-letter-hint-furniture-843e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-hospital-fc88",
+      "siblings": [
+        "alphabet-train-letter-hint-hospital-fc88"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-kitchen-tools-675d",
+      "siblings": [
+        "alphabet-train-letter-hint-kitchen-tools-675d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-music-1d0d",
+      "siblings": [
+        "alphabet-train-letter-hint-music-1d0d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-occupations-018e",
+      "siblings": [
+        "alphabet-train-letter-hint-occupations-018e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-ocean-life-d3bb",
+      "siblings": [
+        "alphabet-train-letter-hint-ocean-life-d3bb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-pets-7dbc",
+      "siblings": [
+        "alphabet-train-letter-hint-pets-7dbc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-space-b2a9",
+      "siblings": [
+        "alphabet-train-letter-hint-space-b2a9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-spring-c9a4",
+      "siblings": [
+        "alphabet-train-letter-hint-spring-c9a4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-summer-af79",
+      "siblings": [
+        "alphabet-train-letter-hint-summer-af79"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-things-that-fly-7c93",
+      "siblings": [
+        "alphabet-train-letter-hint-things-that-fly-7c93"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-tools-71ca",
+      "siblings": [
+        "alphabet-train-letter-hint-tools-71ca"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-toys-84a8",
+      "siblings": [
+        "alphabet-train-letter-hint-toys-84a8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-vegetables-eeb5",
+      "siblings": [
+        "alphabet-train-letter-hint-vegetables-eeb5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-vehicles-bfc4",
+      "siblings": [
+        "alphabet-train-letter-hint-vehicles-bfc4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-winter-441a",
+      "siblings": [
+        "alphabet-train-letter-hint-winter-441a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "alphabet-train-letter-hint-zoo-animals-7bed",
+      "siblings": [
+        "alphabet-train-letter-hint-zoo-animals-7bed"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    }
+  ]
+}

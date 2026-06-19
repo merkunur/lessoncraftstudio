@@ -161,6 +161,11 @@ var ACTIVITY_STRINGS = {
      localized. No-competition lock (no race/timer/score framing). */
   promptTenMore: {"en":"What is 10 more?","de":"Was ist 10 mehr?","es":"¿Cuánto es 10 más?","it":"Quanto fa 10 in più?","pt":"Quanto é 10 a mais?","fr":"Combien font 10 de plus ?","nl":"Hoeveel is 10 meer?","sv":"Vad är 10 mer?","da":"Hvad er 10 mere?","no":"Hva er 10 mer?","fi":"Paljonko on 10 enemmän?"},
   promptTenLess: {"en":"What is 10 less?","de":"Was ist 10 weniger?","es":"¿Cuánto es 10 menos?","it":"Quanto fa 10 in meno?","pt":"Quanto é 10 a menos?","fr":"Combien font 10 de moins ?","nl":"Hoeveel is 10 minder?","sv":"Vad är 10 mindre?","da":"Hvad er 10 mindre?","no":"Hva er 10 mindre?","fi":"Paljonko on 10 vähemmän?"},
+  /* 2.MD.A.1 — read the length (cm) of a to-scale object off a code-drawn
+     centimeter ruler. Unit = cm in EVERY locale (operator ruling). The number
+     tiles are bare universal numerals; the unit lives in this prompt. EN
+     authoritative; the 10 non-EN authored by the native ensemble (§A.13.48). */
+  promptHowManyCm: {"en":"How many centimeters long?","de":"Wie viele Zentimeter lang?","es":"¿Cuántos centímetros mide?","it":"Quanti centimetri è lungo?","pt":"Quantos centímetros tem?","fr":"Combien de centimètres ?","nl":"Hoeveel centimeter lang?","sv":"Hur många centimeter lång?","da":"Hvor mange centimeter lang?","no":"Hvor mange centimeter lang?","fi":"Kuinka monta senttimetriä?"},
   /* Batch 2 K.G.A.3 — Flat or solid (2D vs 3D) */
   promptFlatOrSolid: {
     en: 'Is this shape flat or solid?',
@@ -737,6 +742,87 @@ function injectFractionCSS() {
   document.head.appendChild(tag);
 }
 
+/* E2-math 2.MD.A.1 read-ruler — code-drawn CENTIMETER ruler + a to-scale object.
+   Same activity-layer SVG-injection pattern as FRACTION_FIGURES: drawn inline,
+   injected ABOVE the board in the render() override (the _fractionAnchor
+   precedent). 0 lines to choice-board-core.js / lcs-shell.* / Direction A CSS.
+   ONE scale fn `_rrX(cm)` places BOTH the ruler ticks AND the object's right
+   edge → the drawn object honestly spans exactly N cm (the local-test asserts
+   .cb-ruler-object's right edge === the [data-tick="N"] x in real pixels).
+   Each object spans x(0)..x(N): leftmost point at x(0), rightmost at x(N). */
+var RR_LEFT = 14, RR_PXCM = 11, RR_MAXCM = 20, RR_YTOP = 58;
+function _rrX(cm) { return RR_LEFT + cm * RR_PXCM; }
+function _rulerSlab() {
+  var s = '<rect x="' + (_rrX(0) - 5) + '" y="' + RR_YTOP + '" width="' + (RR_MAXCM * RR_PXCM + 10) + '" height="26" rx="3" fill="#FBF3E4" stroke="' + FR_T + '" stroke-width="2"/>';
+  for (var k = 0; k <= RR_MAXCM; k++) {
+    var major = (k % 5 === 0), x = _rrX(k);
+    s += '<line data-tick="' + k + '" x1="' + x + '" y1="' + RR_YTOP + '" x2="' + x + '" y2="' + (RR_YTOP + (major ? 12 : 6)) + '" stroke="' + FR_T + '" stroke-width="' + (major ? 2 : 1) + '"/>';
+    if (major) s += '<text x="' + x + '" y="' + (RR_YTOP + 22) + '" text-anchor="middle" font-size="7" font-family="Nunito,sans-serif" fill="' + FR_T + '">' + k + '</text>';
+  }
+  return s;
+}
+/* Each builder draws an object from x0 (left, =x(0)) to xN (right, =x(N)),
+   seated just above the ruler's top edge (y≈40..56). Distinct silhouettes so
+   the rounds are genuinely distinct to the child (§A.13.60), not one bar
+   recoloured. Every builder's leftmost point is x0 and rightmost is xN. */
+var RULER_OBJECTS = {
+  pencil: function (x0, xN) {
+    return '<rect x="' + x0 + '" y="40" width="' + (xN - x0 - 7) + '" height="13" rx="2" fill="#F4C84B"/>'
+      + '<rect x="' + x0 + '" y="40" width="5" height="13" rx="2" fill="#F2A6B0"/>'
+      + '<polygon points="' + (xN - 7) + ',40 ' + xN + ',46.5 ' + (xN - 7) + ',53" fill="#E8A33D"/>'
+      + '<polygon points="' + (xN - 3) + ',44.8 ' + xN + ',46.5 ' + (xN - 3) + ',48.2" fill="#5B4636"/>';
+  },
+  crayon: function (x0, xN) {
+    return '<rect x="' + x0 + '" y="41" width="' + (xN - x0 - 6) + '" height="11" rx="2" fill="#F2784B"/>'
+      + '<rect x="' + (x0 + 2) + '" y="41" width="2.5" height="11" fill="#D85F35"/>'
+      + '<polygon points="' + (xN - 6) + ',42 ' + xN + ',46.5 ' + (xN - 6) + ',51" fill="#D85F35"/>';
+  },
+  marker: function (x0, xN) {
+    return '<rect x="' + x0 + '" y="40" width="' + (xN - x0 - 7) + '" height="13" rx="2" fill="#6B4FA3"/>'
+      + '<rect x="' + (xN - 7) + '" y="41" width="7" height="11" rx="2" fill="#4A3673"/>';
+  },
+  ribbon: function (x0, xN) {
+    return '<rect x="' + x0 + '" y="42" width="' + (xN - x0) + '" height="10" rx="5" fill="#4FA3D1"/>';
+  },
+  worm: function (x0, xN) {
+    return '<rect x="' + x0 + '" y="43" width="' + (xN - x0) + '" height="10" rx="5" fill="#8BC34A"/>'
+      + '<circle cx="' + (xN - 4) + '" cy="46.5" r="1.4" fill="#2E3B2E"/>';
+  },
+  stick: function (x0, xN) {
+    return '<rect x="' + x0 + '" y="44" width="' + (xN - x0) + '" height="7" rx="3.5" fill="#A9743B"/>'
+      + '<circle cx="' + (x0 + (xN - x0) * 0.4) + '" cy="44" r="2.2" fill="#8A5E2E"/>';
+  },
+  straw: function (x0, xN) {
+    var w = xN - x0, s = '<rect x="' + x0 + '" y="42" width="' + w + '" height="10" rx="3" fill="#E85D75"/>';
+    for (var i = 1; i <= 3; i++) { var sx = x0 + w * i / 4; s += '<rect x="' + sx + '" y="42" width="1.6" height="10" fill="#FFFFFF" opacity="0.55"/>'; }
+    return s;
+  },
+  eraser: function (x0, xN) {
+    return '<rect x="' + x0 + '" y="41" width="' + (xN - x0) + '" height="12" rx="2.5" fill="#F2A6B0"/>'
+      + '<rect x="' + x0 + '" y="41" width="' + (xN - x0) + '" height="4" rx="2.5" fill="#FFFFFF" opacity="0.5"/>';
+  }
+};
+function _readRulerSvg(n, objKey) {
+  var fn = RULER_OBJECTS[objKey] || RULER_OBJECTS.ribbon;
+  return '<svg class="cb-ruler" viewBox="0 0 260 90" aria-hidden="true">'
+    + _rulerSlab()
+    + '<g class="cb-ruler-object" data-cm="' + n + '">' + fn(_rrX(0), _rrX(n)) + '</g>'
+    + '</svg>';
+}
+var _rrCssInjected = false;
+function injectReadRulerCSS() {
+  if (_rrCssInjected) return;
+  _rrCssInjected = true;
+  var css = [
+    '.cb-ruler-figure{display:flex;justify-content:center;align-items:center;margin:0 auto clamp(8px,2.6vw,18px);width:100%;max-width:min(94vw,460px);}',
+    '.cb-ruler-figure .cb-ruler{width:100%;height:auto;display:block;pointer-events:none;user-select:none;}'
+  ].join('\n');
+  var tag = document.createElement('style');
+  tag.setAttribute('data-cb-read-ruler', '');
+  tag.textContent = css;
+  document.head.appendChild(tag);
+}
+
 /* Number-tile builder for count-sides + similar templates. Seeded
    deterministically on the target so all 11 locales render identical
    tile ordering. Distractors are picked from `pool` excluding target,
@@ -892,7 +978,7 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       if (!row) return;
       self._activityRow = row;
       var built = self._buildTasksFromRow(row);
-      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit' || row.task_template === 'ten-more-less') {
+      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit' || row.task_template === 'ten-more-less' || row.task_template === 'read-ruler') {
         /* per-pass reshuffle path: shell uses nextTask() when tasks is unset */
         self._pool = built; self._order = null; self._curPass = 0; self._orderForPool = null;
         self.tasks = null;
@@ -1183,6 +1269,47 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
           },
           check: function (tool) {
             var ok = tool.answer === String(correct);
+            tool.showFeedback(ok);
+            return ok;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: read-ruler (2.MD.A.1) — a to-scale object lies on a code-drawn
+       CENTIMETER ruler, left end at 0; the kid reads where it ends and taps the
+       length in cm. The ruler+object SVG is injected ABOVE the board in the
+       render() override (the _fractionAnchor precedent; _readRulerSvg draws both
+       from the SAME _rrX scale so the object honestly spans N cm). 4 bare-numeral
+       tiles = the canonical-misread set {N-1, N, N+1, N+2}: correct = N; foils =
+       read-one-short / counted-the-last-tick-edge / off-by-two. Pairwise-distinct
+       → EXACTLY ONE correct. Unit = cm (in the prompt). params.rounds =
+       [{ obj, n }, ...] with n∈3..18 (so all foils stay 1..20 on-scale). */
+    if (row.task_template === 'read-ruler') {
+      injectReadRulerCSS();
+      var rrRounds = row.params.rounds;
+      return rrRounds.map(function (round) {
+        var n = round.n, objKey = round.obj;
+        var vals = [n - 1, n, n + 1, n + 2];
+        var svg = _readRulerSvg(n, objKey);
+        var figKey = objKey + '-' + n;
+        return {
+          id: row.id + '.' + objKey + '-' + n,
+          promptKey: 'promptHowManyCm',
+          answerType: 'state',
+          setup: function (tool) {
+            tool._rulerFig = svg; tool._rulerFigKey = figKey;
+            var seed = n * 131;
+            for (var c = 0; c < objKey.length; c++) seed = (seed * 31 + objKey.charCodeAt(c)) | 0;
+            var ordered = seededShuffle(vals, seed);
+            var options = ordered.map(function (v) { return { key: String(v), text: String(v) }; });
+            tool.setupTask(options, String(n), null);
+          },
+          check: function (tool) {
+            var ok = tool.answer === String(n);
             tool.showFeedback(ok);
             return ok;
           },
@@ -1689,6 +1816,25 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
         if (aHost.getAttribute('data-fig') !== this._fractionAnchorKey) {
           aHost.innerHTML = this._fractionAnchor;
           aHost.setAttribute('data-fig', this._fractionAnchorKey);
+        }
+      }
+    }
+    /* 2.MD.A.1 read-ruler — inject the code-drawn ruler + to-scale object ABOVE
+       the board (same anchor-zone pattern as fraction-noncongruent). Guarded on
+       the per-task _rulerFig flag: no-op for every other template + the demo.
+       data-fig guard updates only on Next, survives paint() (selection/Check). */
+    if (this._rulerFig && this.api && this.api.stage) {
+      var rrBoard = this.api.stage.querySelector('.cb-board');
+      if (rrBoard) {
+        var rrHost = this.api.stage.querySelector('.cb-ruler-figure');
+        if (!rrHost) {
+          rrHost = document.createElement('div');
+          rrHost.className = 'cb-ruler-figure';
+          rrBoard.parentNode.insertBefore(rrHost, rrBoard);
+        }
+        if (rrHost.getAttribute('data-fig') !== this._rulerFigKey) {
+          rrHost.innerHTML = this._rulerFig;
+          rrHost.setAttribute('data-fig', this._rulerFigKey);
         }
       }
     }

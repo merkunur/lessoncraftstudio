@@ -2556,5 +2556,345 @@
       "no": "Koble hvert addisjonsstykke til de samme tallene lagt sammen den andre veien.",
       "fi": "Yhdistä jokainen yhteenlasku samoihin lukuihin toisessa järjestyksessä."
     }
+  },
+  {
+    "id": "match-pairs.match-facts-to-20.2-oa-b-2",
+    "tool": "match-pairs-activity",
+    "task_template": "fluency-within-20",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.OA.B.2",
+      "grade": "2",
+      "strand": "Operations and Algebraic Thinking"
+    },
+    "params": {
+      "tasks": [
+        {
+          "cards": [
+            {
+              "display": "8 + 5",
+              "kind": "expr",
+              "value": 13
+            },
+            {
+              "display": "13",
+              "kind": "expr",
+              "value": 13
+            },
+            {
+              "display": "9 + 7",
+              "kind": "expr",
+              "value": 16
+            },
+            {
+              "display": "16",
+              "kind": "expr",
+              "value": 16
+            },
+            {
+              "display": "14 − 6",
+              "kind": "expr",
+              "value": 8
+            },
+            {
+              "display": "8",
+              "kind": "expr",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "display": "6 + 9",
+              "kind": "expr",
+              "value": 15
+            },
+            {
+              "display": "15",
+              "kind": "expr",
+              "value": 15
+            },
+            {
+              "display": "17 − 8",
+              "kind": "expr",
+              "value": 9
+            },
+            {
+              "display": "9",
+              "kind": "expr",
+              "value": 9
+            },
+            {
+              "display": "7 + 5",
+              "kind": "expr",
+              "value": 12
+            },
+            {
+              "display": "12",
+              "kind": "expr",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "display": "9 + 9",
+              "kind": "expr",
+              "value": 18
+            },
+            {
+              "display": "18",
+              "kind": "expr",
+              "value": 18
+            },
+            {
+              "display": "16 − 9",
+              "kind": "expr",
+              "value": 7
+            },
+            {
+              "display": "7",
+              "kind": "expr",
+              "value": 7
+            },
+            {
+              "display": "8 + 6",
+              "kind": "expr",
+              "value": 14
+            },
+            {
+              "display": "14",
+              "kind": "expr",
+              "value": 14
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "display": "7 + 8",
+              "kind": "expr",
+              "value": 15
+            },
+            {
+              "display": "15",
+              "kind": "expr",
+              "value": 15
+            },
+            {
+              "display": "13 − 4",
+              "kind": "expr",
+              "value": 9
+            },
+            {
+              "display": "9",
+              "kind": "expr",
+              "value": 9
+            },
+            {
+              "display": "6 + 5",
+              "kind": "expr",
+              "value": 11
+            },
+            {
+              "display": "11",
+              "kind": "expr",
+              "value": 11
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "display": "5 + 9",
+              "kind": "expr",
+              "value": 14
+            },
+            {
+              "display": "14",
+              "kind": "expr",
+              "value": 14
+            },
+            {
+              "display": "11 − 7",
+              "kind": "expr",
+              "value": 4
+            },
+            {
+              "display": "4",
+              "kind": "expr",
+              "value": 4
+            },
+            {
+              "display": "8 + 8",
+              "kind": "expr",
+              "value": 16
+            },
+            {
+              "display": "16",
+              "kind": "expr",
+              "value": 16
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "display": "7 + 6",
+              "kind": "expr",
+              "value": 13
+            },
+            {
+              "display": "13",
+              "kind": "expr",
+              "value": 13
+            },
+            {
+              "display": "15 − 6",
+              "kind": "expr",
+              "value": 9
+            },
+            {
+              "display": "9",
+              "kind": "expr",
+              "value": 9
+            },
+            {
+              "display": "9 + 8",
+              "kind": "expr",
+              "value": 17
+            },
+            {
+              "display": "17",
+              "kind": "expr",
+              "value": 17
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "display": "12 − 8",
+              "kind": "expr",
+              "value": 4
+            },
+            {
+              "display": "4",
+              "kind": "expr",
+              "value": 4
+            },
+            {
+              "display": "6 + 7",
+              "kind": "expr",
+              "value": 13
+            },
+            {
+              "display": "13",
+              "kind": "expr",
+              "value": 13
+            },
+            {
+              "display": "14 − 5",
+              "kind": "expr",
+              "value": 9
+            },
+            {
+              "display": "9",
+              "kind": "expr",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "display": "8 + 9",
+              "kind": "expr",
+              "value": 17
+            },
+            {
+              "display": "17",
+              "kind": "expr",
+              "value": 17
+            },
+            {
+              "display": "13 − 7",
+              "kind": "expr",
+              "value": 6
+            },
+            {
+              "display": "6",
+              "kind": "expr",
+              "value": 6
+            },
+            {
+              "display": "7 + 7",
+              "kind": "expr",
+              "value": 14
+            },
+            {
+              "display": "14",
+              "kind": "expr",
+              "value": 14
+            }
+          ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "match-facts-to-20",
+      "de": "rechne-aus-bis-20",
+      "es": "relaciona-operaciones-hasta-20",
+      "it": "abbina-i-calcoli-alla-risposta-entro-il-20",
+      "pt": "combine-fatos-ate-20",
+      "fr": "relie-les-calculs-jusqu-a-20",
+      "nl": "sommen-koppelen-tot-20",
+      "sv": "para-ihop-tal-upp-till-20",
+      "da": "match-regnestykker-op-til-20",
+      "no": "match-plus-og-minus-opp-til-20",
+      "fi": "yhdista-laskut-tulokseen"
+    },
+    "page_title": {
+      "en": "Match Facts to 20",
+      "de": "Aufgaben Bis 20 Auswendig Lernen",
+      "es": "Relaciona Operaciones Hasta 20",
+      "it": "Abbina i Calcoli alla Risposta Entro il 20",
+      "pt": "Combine Fatos até 20",
+      "fr": "Relie les Calculs jusqu'à 20",
+      "nl": "Sommen Koppelen Tot 20",
+      "sv": "Para Ihop Tal Upp Till 20",
+      "da": "Match Regnestykker Op Til 20",
+      "no": "Match Plusstykker og Minusstykker Opp Til 20",
+      "fi": "Yhdistä Laskut Tulokseen Kahteenkymmeneen Asti"
+    },
+    "page_intro": {
+      "en": "Build fluency with addition and subtraction facts within 20. Work out each fact, like 8 + 5 or 17 − 9, then match it to its answer. Tap a fact, then tap the number that is its answer, and watch the pair link. Aligned to Common Core 2.OA.B.2 — fluently adding and subtracting within 20 and knowing the sums of two one-digit numbers from memory.",
+      "de": "In dieser Aktivität übt dein Kind das schnelle Kopfrechnen mit Plus- und Minusaufgaben im Zahlenraum bis 20. Dein Kind rechnet jede ganze Aufgabe aus — zum Beispiel 8 + 5 oder 17 − 9 — und verbindet sie dann mit der passenden Antwortzahl. So werden die Rechenwege geläufig und sicher, ganz spielerisch durch Zuordnen. An den Lehrplänen ausgerichtet.",
+      "es": "Practica la fluidez con las operaciones de suma y resta hasta 20. Tu peque resuelve cada operación, como 8 + 5 o 17 − 9, y la relaciona con su respuesta. Esta actividad de relacionar parejas refuerza el cálculo mental y el recuerdo rápido de las operaciones básicas. Está alineada al Currículo LOMLOE.",
+      "it": "Esercizi di calcolo rapido con addizioni e sottrazioni entro il 20, pensati per la scuola primaria. Il bambino risolve ogni operazione, come 8 + 5 oppure 17 − 9, e la collega alla sua risposta con un semplice tocco. Un'attività di consolidamento che rafforza la memorizzazione dei fatti numerici e la sicurezza nel calcolo mentale. Allineato alle Indicazioni nazionali.",
+      "pt": "Pratique a fluência em somar e subtrair até 20 combinando cada operação com a sua resposta. A criança resolve fatos como 8 + 5 ou 17 − 9 e toca no número certo para formar cada par. Esta atividade fortalece a memorização dos fatos básicos de adição e subtração de forma lúdica e sem pressa. Conteúdo alinhado à BNCC.",
+      "fr": "Calcule chaque addition et chaque soustraction jusqu'à 20, puis relie l'opération au nombre qui est sa réponse — par exemple 8 + 5 ou 17 − 9. En reliant chaque calcul à son résultat, l'enfant gagne en rapidité et en confiance avec ses faits numériques. Touche une opération, puis le nombre qui lui correspond, et regarde la paire se relier. Aligné aux programmes officiels.",
+      "nl": "Oefen het vlot optellen en aftrekken tot 20. De kinderen werken elke som uit, zoals 8 + 5 of 17 − 9, en verbinden die met het juiste antwoord. Door sommen en antwoorden te koppelen, bouwen ze hun rekenvaardigheid en automatisering op. Deze activiteit is afgestemd op de SLO-kerndoelen.",
+      "sv": "Här tränar barnen på att räkna ut additions- och subtraktionsuppgifter inom 20 och koppla ihop varje uppgift med rätt svar. Barnet räknar ut hela uppgiften, till exempel 8 + 5 eller 17 − 9, och letar sedan upp talet som är svaret. Genom att para ihop uppgift och svar bygger barnet upp en snabb och säker taluppfattning. Övningen är anpassad till Lgr22.",
+      "da": "Øv at lægge sammen og trække fra op til 20, og bliv hurtig og sikker i regnestykkerne. Barnet regner hvert regnestykke ud — som 8 + 5 eller 17 − 9 — og forbinder det med det tal, der er svaret. Tre par i hver runde gør, at både plusstykker og minusstykker bliver til lette, velkendte kombinationer. Tilpasset Fælles Mål.",
+      "no": "Her øver barna på å regne ut plusstykker og minusstykker opp til 20 raskt og sikkert. De regner ut hvert stykke, som 8 + 5 eller 17 − 9, og kobler det til svaret sitt. Å kjenne disse tallfaktaene godt gir et trygt grunnlag for videre regning. Aktiviteten er tilpasset læreplanen LK20.",
+      "fi": "Tässä tehtävässä lapsi harjoittelee yhteen- ja vähennyslaskuja sujuvasti kahteenkymmeneen asti. Hän ratkaisee jokaisen kokonaisen laskun, kuten 8 + 5 tai 17 − 9, ja yhdistää sen oikeaan tulokseen. Joka kierroksella on kolme laskuparia, jotka opettavat muistamaan laskut nopeasti ja varmasti. Tehtävä on OPS 2014 -opetussuunnitelman mukainen."
+    },
+    "kid_prompt_template": {
+      "en": "Work out each fact, then match it to its answer.",
+      "de": "Rechne jede Aufgabe aus und verbinde sie mit ihrer Antwort.",
+      "es": "Resuelve cada operación, luego relaciónala con su respuesta.",
+      "it": "Risolvi ogni calcolo, poi abbinalo alla sua risposta.",
+      "pt": "Resolva cada operação, depois combine-a com a sua resposta.",
+      "fr": "Calcule chaque opération, puis relie-la à sa réponse.",
+      "nl": "Werk elke som uit, verbind hem dan met het antwoord.",
+      "sv": "Räkna ut varje uppgift, koppla sedan ihop den med sitt svar.",
+      "da": "Regn hvert regnestykke ud, og forbind det så med sit svar.",
+      "no": "Regn ut hvert stykke, og koble det så til svaret sitt.",
+      "fi": "Ratkaise jokainen lasku ja yhdistä se sitten tulokseensa."
+    }
   }
 ]

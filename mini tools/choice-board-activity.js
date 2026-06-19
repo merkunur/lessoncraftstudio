@@ -178,6 +178,13 @@ var ACTIVITY_STRINGS = {
      Per-locale picture↔sound pairings (native-owned) ride in
      params.byLocale.<loc>.rounds. NO audio — the letter is the visual stimulus. */
   promptStartsWith: {"en":"Which picture starts with this sound?","de":"Welches Bild beginnt mit diesem Laut?","es":"¿Qué imagen empieza con este sonido?","it":"Quale immagine inizia con questo suono?","pt":"Qual imagem começa com este som?","fr":"Quelle image commence par ce son ?","nl":"Welke afbeelding begint met deze klank?","sv":"Vilken bild börjar med detta ljud?","da":"Hvilket billede begynder med denne lyd?","no":"Hvilket bilde begynner med denne lyden?","fi":"Mikä kuva alkaa tällä äänteellä?"},
+  /* RF.K.2.c — blend onset + rime (REDUCED FAN: en/nl/da native-confirmed; de/no/sv
+     excluded their language uses syllable not onset-rime). The onset is shown as a
+     letter-chunk + the rime is SPOKEN (TTS-safe syllable; isolated-onset TTS is
+     unreliable) → the child blends → taps the picture; a same-rime distractor makes
+     the onset load-bearing. Only the fan locales have a string; excluded locales never
+     load this template (404 by design). */
+  promptBlend: {"en":"Blend the parts. Which picture do they make?","nl":"Plak de delen aan elkaar. Welk plaatje is het?","da":"Sæt forlyd og resten af ordet sammen. Hvilket billede passer?"},
   /* Batch 2 K.G.A.3 — Flat or solid (2D vs 3D) */
   promptFlatOrSolid: {
     en: 'Is this shape flat or solid?',
@@ -990,7 +997,7 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       if (!row) return;
       self._activityRow = row;
       var built = self._buildTasksFromRow(row);
-      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit' || row.task_template === 'ten-more-less' || row.task_template === 'read-ruler' || row.task_template === 'letter-case' || row.task_template === 'beginning-sound') {
+      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit' || row.task_template === 'ten-more-less' || row.task_template === 'read-ruler' || row.task_template === 'letter-case' || row.task_template === 'beginning-sound' || row.task_template === 'onset-rime-blend') {
         /* per-pass reshuffle path: shell uses nextTask() when tasks is unset */
         self._pool = built; self._order = null; self._curPass = 0; self._orderForPool = null;
         self.tasks = null;
@@ -1404,6 +1411,52 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
           },
           check: function (tool) {
             var ok = tool.answer === correct.noun;
+            tool.showFeedback(ok);
+            return ok;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: onset-rime-blend (RF.K.2.c, REDUCED FAN en/nl/da) — scaffolded
+       blend: the onset is shown as a letter-chunk + the rime is SPOKEN (TTS-safe
+       syllable; isolated-onset TTS unreliable). The child blends onset+rime and
+       taps the PICTURE of the word; ≥1 distractor shares the rime → the onset is
+       load-bearing. EXACTLY ONE correct. Reuses the read-sight-word speak/replay
+       plumbing (speak rime on setup + replay on wrong) + the E8 speakBlend (speak
+       the whole word on correct). 0-core. params.byLocale.<loc>.rounds; content
+       locale via window.LCS.i18n.current. Each round = { onset, rime, correct:
+       {noun,themeDir,word}, distractors:[{noun,themeDir,word}×3] }. */
+    if (row.task_template === 'onset-rime-blend') {
+      var orLoc = (window.LCS && window.LCS.i18n && window.LCS.i18n.current) || 'en';
+      var orByLoc = (row.params && row.params.byLocale) || {};
+      var orL = orByLoc[orLoc] || orByLoc.en;
+      var orRounds = (orL && orL.rounds) || [];
+      function _orTile(o) {
+        return { key: o.noun, imgUrl: '/image-library-webp/themes/' + o.themeDir + '/' + o.noun + '@2x.webp', label: o.word };
+      }
+      return orRounds.map(function (r, i) {
+        var onset = r.onset, rime = r.rime, correct = r.correct, distractors = r.distractors || [];
+        function speakRime() { if (window.LCSAudio && window.LCSAudio.speak) window.LCSAudio.speak({ type: 'syllable', text: rime, lang: orLoc, rate: 0.85 }); }
+        function speakWord() { if (window.LCSAudio && window.LCSAudio.speak) window.LCSAudio.speak({ type: 'word', text: correct.word, lang: orLoc, rate: 0.8 }); }
+        return {
+          id: row.id + '.r' + i + '-' + onset + '-' + rime,
+          promptKey: 'promptBlend',
+          answerType: 'state',
+          setup: function (tool) {
+            var seed = (i + 1) * 131;
+            for (var c = 0; c < correct.noun.length; c++) seed = (seed * 31 + correct.noun.charCodeAt(c)) | 0;
+            var ordered = seededShuffle([correct].concat(distractors), seed);
+            var options = ordered.map(_orTile);
+            tool.setupTask(options, correct.noun, { type: 'text', text: onset + ' · ' + rime });
+            speakRime();
+          },
+          check: function (tool) {
+            var ok = tool.answer === correct.noun;
+            if (ok) speakWord(); else speakRime();
             tool.showFeedback(ok);
             return ok;
           },

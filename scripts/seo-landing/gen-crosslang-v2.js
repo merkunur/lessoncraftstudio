@@ -25,7 +25,9 @@ const TARGET = arg('target', null);
 const TYPE = arg('type', null);
 if (!LOCALE || !TARGET || !TYPE) { console.error('--locale, --target and --type required'); process.exit(1); }
 
-const { THEMES } = require('./' + LOCALE + '-themes');
+// themes export shape varies: de/sv/fr/nl/no/da/fi export { THEMES }; it/pt export the map directly.
+const _tmod = require('./' + LOCALE + '-themes');
+const THEMES = _tmod.THEMES || _tmod;
 const rmod = require('./' + LOCALE + '-render');
 const render = rmod.render;
 const assertThemeTable = rmod.assertThemeTable;
@@ -44,12 +46,22 @@ function gcd(a, b){ while(b){ const t=a%b; a=b; b=t; } return a; }
 function coprimeStride(cells){ let k = Math.max(2, Math.round(cells * 0.6180339887)); for (let d=0; d<cells; d++) for (const cand of [k+d, k-d]) if (cand>1 && cand<cells && gcd(cand,cells)===1) return cand; return 1; }
 function cellAssign(i, S, P){ const cells = S*P, stride = coprimeStride(cells); const c = ((i % cells) * stride) % cells; return { skel: c % S, p2: Math.floor(c / S) % P }; }
 
-// own/neighbour collective for P3 — newer themes expose plIndef.
+// Shape-agnostic accessors across the 3 newer theme shapes:
+//   sv/nl/no/da: {plIndef, plDef, h1Display}   fr: {plIndef, gen=GENDER(!), h1Display}
+//   it/pt:       {nPl, gen=collective, genArt, h1}   fi: {nomPl, partSg, partPl, genPl, h1Display}
+// `gen` is a collective NOUN in it/pt but a GENDER code in fr — so plIndef wins first (fr always has it).
+const coll = (x) => x.plIndef || x.gen || x.nomPl || x.h1Display || x.h1;          // collective plural noun
+const listForm = (x) => x.nPl || x.plIndef || x.nomPl || x.h1Display || x.h1;       // the {N_PL} example list
+const disp = (x) => x.h1Display || x.h1;                                            // display name for h1/carousel
+
+// P3: pre-substitute the neighbour tokens (the locale render can't know them) + {GEN}→own collective,
+// THEN run the locale render() so {GEN_ART}/{N_PL}/{N_PART_*}/elision slots all resolve.
 function p3(ownTheme, nb1Theme, nb2Theme){
-  return cfg.P3
-    .replace(/\{NB1\}/g, nb1Theme.plIndef)
-    .replace(/\{NB2\}/g, nb2Theme.plIndef)
-    .replace(/\{GEN\}/g, ownTheme.plIndef);
+  const pre = cfg.P3
+    .replace(/\{NB1\}/g, coll(nb1Theme))
+    .replace(/\{NB2\}/g, coll(nb2Theme))
+    .replace(/\{GEN\}/g, coll(ownTheme));
+  return render(pre, ownTheme);
 }
 
 const modeKey = (m) => (m === null ? 'null' : m);
@@ -78,14 +90,16 @@ function buildMode(mk){
       variantShape: co.siblings.length>1 ? 'collapsed' : 'singleton',
       coordinate: { type:TYPE, mode: wantMode, theme:co.theme, level: LEVEL, target: TARGET },
       eyebrow: cfg.eyebrow,
-      h1: cfg.h1(mk, d, LEVEL, d.h1Display),
+      h1: cfg.h1(mk, d, LEVEL, disp(d)),
       strand: (typeof cfg.strand === 'function' ? cfg.strand(mk, LEVEL) : cfg.strand),
-      slotTokens: [d.plIndef, d.plDef, d.h1Display, co.theme.replace(/_/g,' '), cfg.slotWord].filter(Boolean),
+      // every theme-noun surface form across all locales, so the theme-noun-in-P1 gate matches whichever
+      // case/definiteness a locale's SKEL legitimately uses (fi p1 may carry partitive/genitive, not nominative).
+      slotTokens: [d.nPl, d.plIndef, d.plDef, d.nomPl, d.partPl, d.partSg, d.genPl, d.gen && d.genArt ? d.gen : null, disp(d), co.theme.replace(/_/g,' '), cfg.slotWord].filter(Boolean),
       p1: render(sk[c.skel], d),
       p2: render(p2[c.p2], d),
       p3: p3(d, THEMES[nb1.theme], THEMES[nb2.theme]),
       canonicalDeckSlug: co.canonical,
-      carousel: [1,2,5,11].map(off=>{ const n=list[(i+off)%list.length]; return {label: cfg.carousel(mk, THEMES[n.theme].h1Display), href: n.canonical}; }),
+      carousel: [1,2,5,11].map(off=>{ const n=list[(i+off)%list.length]; return {label: cfg.carousel(mk, disp(THEMES[n.theme])), href: n.canonical}; }),
     };
     if (co.siblings.length>1) entry.collapseSiblings = co.siblings;
     out.push(entry);

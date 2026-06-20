@@ -1,0 +1,856 @@
+{
+  "locale": "it",
+  "target": "en",
+  "exerciseType": "wordsearch",
+  "rawRowCount": 49,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "(null)": 49
+  },
+  "totalValid": 49,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-4-luglio-9f7f",
+      "siblings": [
+        "inglese-cerca-parole-4-luglio-9f7f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-accessori-f33e",
+      "siblings": [
+        "inglese-cerca-parole-accessori-f33e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-attivita-5cda",
+      "siblings": [
+        "inglese-cerca-parole-attivita-5cda"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-animali-b9fb",
+      "siblings": [
+        "inglese-cerca-parole-animali-b9fb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-in-giro-per-casa-9536",
+      "siblings": [
+        "inglese-cerca-parole-in-giro-per-casa-9536"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-al-supermercato-c2d3",
+      "siblings": [
+        "inglese-cerca-parole-al-supermercato-c2d3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-panetteria-b825",
+      "siblings": [
+        "inglese-cerca-parole-panetteria-b825"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-spiaggia-d976",
+      "siblings": [
+        "inglese-cerca-parole-spiaggia-d976"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-uccelli-f515",
+      "siblings": [
+        "inglese-cerca-parole-uccelli-f515"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-uccelli-2-efd8",
+      "siblings": [
+        "inglese-cerca-parole-uccelli-2-efd8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-parti-del-corpo-a850",
+      "siblings": [
+        "inglese-cerca-parole-parti-del-corpo-a850"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-colazione-06d7",
+      "siblings": [
+        "inglese-cerca-parole-colazione-06d7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-campeggio-3b49",
+      "siblings": [
+        "inglese-cerca-parole-campeggio-3b49"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-natale-432c",
+      "siblings": [
+        "inglese-cerca-parole-natale-432c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-aula-c39c",
+      "siblings": [
+        "inglese-cerca-parole-aula-c39c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-abbigliamento-1711",
+      "siblings": [
+        "inglese-cerca-parole-abbigliamento-1711"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-colori-e1b9",
+      "siblings": [
+        "inglese-cerca-parole-colori-e1b9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-dolci-e-dolciumi-9ed2",
+      "siblings": [
+        "inglese-cerca-parole-dolci-e-dolciumi-9ed2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-pasqua-59d3",
+      "siblings": [
+        "inglese-cerca-parole-pasqua-59d3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-emozioni-5b87",
+      "siblings": [
+        "inglese-cerca-parole-emozioni-5b87"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-animali-della-fattoria-1bc2",
+      "siblings": [
+        "inglese-cerca-parole-animali-della-fattoria-1bc2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-fiori-4735",
+      "siblings": [
+        "inglese-cerca-parole-fiori-4735"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-creature-della-foresta-ba00",
+      "siblings": [
+        "inglese-cerca-parole-creature-della-foresta-ba00"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-frutta-b533",
+      "siblings": [
+        "inglese-cerca-parole-frutta-b533"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-mobili-b1a8",
+      "siblings": [
+        "inglese-cerca-parole-mobili-b1a8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-ospedale-7973",
+      "siblings": [
+        "inglese-cerca-parole-ospedale-7973"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-insetti-e-scarafaggi-6637",
+      "siblings": [
+        "inglese-cerca-parole-insetti-e-scarafaggi-6637"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-utensili-da-cucina-010d",
+      "siblings": [
+        "inglese-cerca-parole-utensili-da-cucina-010d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-varie-8636",
+      "siblings": [
+        "inglese-cerca-parole-varie-8636"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-musica-75f4",
+      "siblings": [
+        "inglese-cerca-parole-musica-75f4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-professioni-f3c1",
+      "siblings": [
+        "inglese-cerca-parole-professioni-f3c1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-vita-oceanica-fa48",
+      "siblings": [
+        "inglese-cerca-parole-vita-oceanica-fa48"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-animali-domestici-0ca0",
+      "siblings": [
+        "inglese-cerca-parole-animali-domestici-0ca0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-ufficio-postale-9452",
+      "siblings": [
+        "inglese-cerca-parole-ufficio-postale-9452"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-rettili-e-anfibi-3485",
+      "siblings": [
+        "inglese-cerca-parole-rettili-e-anfibi-3485"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-forme-c940",
+      "siblings": [
+        "inglese-cerca-parole-forme-c940"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-spazio-e9e8",
+      "siblings": [
+        "inglese-cerca-parole-spazio-e9e8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-primavera-5892",
+      "siblings": [
+        "inglese-cerca-parole-primavera-5892"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-estate-2753",
+      "siblings": [
+        "inglese-cerca-parole-estate-2753"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-giorno-del-ringraziamento-6e7c",
+      "siblings": [
+        "inglese-cerca-parole-giorno-del-ringraziamento-6e7c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-cose-che-volano-7eb7",
+      "siblings": [
+        "inglese-cerca-parole-cose-che-volano-7eb7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-attrezzi-15a6",
+      "siblings": [
+        "inglese-cerca-parole-attrezzi-15a6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-giocattoli-aec8",
+      "siblings": [
+        "inglese-cerca-parole-giocattoli-aec8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-alberi-34a3",
+      "siblings": [
+        "inglese-cerca-parole-alberi-34a3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-verdure-980d",
+      "siblings": [
+        "inglese-cerca-parole-verdure-980d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-veicoli-ad09",
+      "siblings": [
+        "inglese-cerca-parole-veicoli-ad09"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-meteo-da95",
+      "siblings": [
+        "inglese-cerca-parole-meteo-da95"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-inverno-ca1b",
+      "siblings": [
+        "inglese-cerca-parole-inverno-ca1b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "inglese-cerca-parole-animali-dello-zoo-5b83",
+      "siblings": [
+        "inglese-cerca-parole-animali-dello-zoo-5b83"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

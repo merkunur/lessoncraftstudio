@@ -1,0 +1,822 @@
+{
+  "locale": "pt",
+  "target": "en",
+  "exerciseType": "matching",
+  "rawRowCount": 47,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "name": 47
+  },
+  "totalValid": 47,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "name"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-4-de-julho-9a29",
+      "siblings": [
+        "ingles-pareamento-nomes-4-de-julho-9a29"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-acessorios-8e37",
+      "siblings": [
+        "ingles-pareamento-nomes-acessorios-8e37"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-atividades-4f0d",
+      "siblings": [
+        "ingles-pareamento-nomes-atividades-4f0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-animais-1087",
+      "siblings": [
+        "ingles-pareamento-nomes-animais-1087"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-pela-casa-692b",
+      "siblings": [
+        "ingles-pareamento-nomes-pela-casa-692b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-no-supermercado-87c4",
+      "siblings": [
+        "ingles-pareamento-nomes-no-supermercado-87c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-padaria-584f",
+      "siblings": [
+        "ingles-pareamento-nomes-padaria-584f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-praia-1a3e",
+      "siblings": [
+        "ingles-pareamento-nomes-praia-1a3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-passaros-024a",
+      "siblings": [
+        "ingles-pareamento-nomes-passaros-024a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-passaros-2-e0b1",
+      "siblings": [
+        "ingles-pareamento-nomes-passaros-2-e0b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-partes-do-corpo-9c74",
+      "siblings": [
+        "ingles-pareamento-nomes-partes-do-corpo-9c74"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-cafe-da-manha-1188",
+      "siblings": [
+        "ingles-pareamento-nomes-cafe-da-manha-1188"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-acampamento-09e6",
+      "siblings": [
+        "ingles-pareamento-nomes-acampamento-09e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-natal-a9c7",
+      "siblings": [
+        "ingles-pareamento-nomes-natal-a9c7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-sala-de-aula-f596",
+      "siblings": [
+        "ingles-pareamento-nomes-sala-de-aula-f596"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-roupas-a506",
+      "siblings": [
+        "ingles-pareamento-nomes-roupas-a506"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-cores-9299",
+      "siblings": [
+        "ingles-pareamento-nomes-cores-9299"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-sobremesas-e-doces-47af",
+      "siblings": [
+        "ingles-pareamento-nomes-sobremesas-e-doces-47af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-pascoa-2ba5",
+      "siblings": [
+        "ingles-pareamento-nomes-pascoa-2ba5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-emocoes-9dc1",
+      "siblings": [
+        "ingles-pareamento-nomes-emocoes-9dc1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-animais-da-fazenda-1bf5",
+      "siblings": [
+        "ingles-pareamento-nomes-animais-da-fazenda-1bf5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-flores-6336",
+      "siblings": [
+        "ingles-pareamento-nomes-flores-6336"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-criaturas-da-floresta-fc20",
+      "siblings": [
+        "ingles-pareamento-nomes-criaturas-da-floresta-fc20"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-frutas-5214",
+      "siblings": [
+        "ingles-pareamento-nomes-frutas-5214"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-moveis-f05f",
+      "siblings": [
+        "ingles-pareamento-nomes-moveis-f05f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-hospital-d1e6",
+      "siblings": [
+        "ingles-pareamento-nomes-hospital-d1e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-insetos-e-bichos-582b",
+      "siblings": [
+        "ingles-pareamento-nomes-insetos-e-bichos-582b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-utensilios-de-cozinha-0fb1",
+      "siblings": [
+        "ingles-pareamento-nomes-utensilios-de-cozinha-0fb1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-musica-6921",
+      "siblings": [
+        "ingles-pareamento-nomes-musica-6921"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-profissoes-381d",
+      "siblings": [
+        "ingles-pareamento-nomes-profissoes-381d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-vida-marinha-3b39",
+      "siblings": [
+        "ingles-pareamento-nomes-vida-marinha-3b39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-animais-de-estimacao-e11e",
+      "siblings": [
+        "ingles-pareamento-nomes-animais-de-estimacao-e11e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-correios-a98e",
+      "siblings": [
+        "ingles-pareamento-nomes-correios-a98e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-repteis-e-anfibios-889f",
+      "siblings": [
+        "ingles-pareamento-nomes-repteis-e-anfibios-889f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-formas-0c34",
+      "siblings": [
+        "ingles-pareamento-nomes-formas-0c34"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-espaco-876a",
+      "siblings": [
+        "ingles-pareamento-nomes-espaco-876a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-primavera-ecc8",
+      "siblings": [
+        "ingles-pareamento-nomes-primavera-ecc8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-verao-2b16",
+      "siblings": [
+        "ingles-pareamento-nomes-verao-2b16"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-dia-de-acao-de-gracas-d44c",
+      "siblings": [
+        "ingles-pareamento-nomes-dia-de-acao-de-gracas-d44c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-coisas-que-voam-36e6",
+      "siblings": [
+        "ingles-pareamento-nomes-coisas-que-voam-36e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-ferramentas-f1c0",
+      "siblings": [
+        "ingles-pareamento-nomes-ferramentas-f1c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-brinquedos-c068",
+      "siblings": [
+        "ingles-pareamento-nomes-brinquedos-c068"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-vegetais-8993",
+      "siblings": [
+        "ingles-pareamento-nomes-vegetais-8993"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-veiculos-0ca7",
+      "siblings": [
+        "ingles-pareamento-nomes-veiculos-0ca7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-clima-e664",
+      "siblings": [
+        "ingles-pareamento-nomes-clima-e664"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-inverno-8bf2",
+      "siblings": [
+        "ingles-pareamento-nomes-inverno-8bf2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "ingles-pareamento-nomes-animais-do-zoologico-c83e",
+      "siblings": [
+        "ingles-pareamento-nomes-animais-do-zoologico-c83e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

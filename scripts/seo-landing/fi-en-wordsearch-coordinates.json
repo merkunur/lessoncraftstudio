@@ -1,0 +1,839 @@
+{
+  "locale": "fi",
+  "target": "en",
+  "exerciseType": "wordsearch",
+  "rawRowCount": 48,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "(null)": 48
+  },
+  "totalValid": 48,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "englanti-sanahaku-heinakuun-4-d295",
+      "siblings": [
+        "englanti-sanahaku-heinakuun-4-d295"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "englanti-sanahaku-asusteet-aba7",
+      "siblings": [
+        "englanti-sanahaku-asusteet-aba7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "englanti-sanahaku-aktiviteetit-ee0a",
+      "siblings": [
+        "englanti-sanahaku-aktiviteetit-ee0a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "englanti-sanahaku-elaimet-53a6",
+      "siblings": [
+        "englanti-sanahaku-elaimet-53a6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "englanti-sanahaku-kodin-ymparilla-4696",
+      "siblings": [
+        "englanti-sanahaku-kodin-ymparilla-4696"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "englanti-sanahaku-ruokakaupassa-4725",
+      "siblings": [
+        "englanti-sanahaku-ruokakaupassa-4725"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "englanti-sanahaku-leipomo-7951",
+      "siblings": [
+        "englanti-sanahaku-leipomo-7951"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "englanti-sanahaku-ranta-9df4",
+      "siblings": [
+        "englanti-sanahaku-ranta-9df4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "englanti-sanahaku-linnut-1848",
+      "siblings": [
+        "englanti-sanahaku-linnut-1848"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "englanti-sanahaku-linnut-2-8059",
+      "siblings": [
+        "englanti-sanahaku-linnut-2-8059"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "englanti-sanahaku-ruumiinosat-9ab9",
+      "siblings": [
+        "englanti-sanahaku-ruumiinosat-9ab9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "englanti-sanahaku-aamiainen-68a2",
+      "siblings": [
+        "englanti-sanahaku-aamiainen-68a2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "englanti-sanahaku-leirielama-04bd",
+      "siblings": [
+        "englanti-sanahaku-leirielama-04bd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "englanti-sanahaku-joulu-c410",
+      "siblings": [
+        "englanti-sanahaku-joulu-c410"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "englanti-sanahaku-luokkahuone-d68c",
+      "siblings": [
+        "englanti-sanahaku-luokkahuone-d68c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "englanti-sanahaku-vaatteet-58f8",
+      "siblings": [
+        "englanti-sanahaku-vaatteet-58f8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "englanti-sanahaku-varit-3803",
+      "siblings": [
+        "englanti-sanahaku-varit-3803"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "englanti-sanahaku-jalkiruoat-ja-makeiset-391b",
+      "siblings": [
+        "englanti-sanahaku-jalkiruoat-ja-makeiset-391b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "englanti-sanahaku-paasiainen-7e53",
+      "siblings": [
+        "englanti-sanahaku-paasiainen-7e53"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "englanti-sanahaku-tunteet-754c",
+      "siblings": [
+        "englanti-sanahaku-tunteet-754c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "englanti-sanahaku-maatilan-elaimet-d2b8",
+      "siblings": [
+        "englanti-sanahaku-maatilan-elaimet-d2b8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "englanti-sanahaku-kukat-5d0b",
+      "siblings": [
+        "englanti-sanahaku-kukat-5d0b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "englanti-sanahaku-metsan-elaimet-27e9",
+      "siblings": [
+        "englanti-sanahaku-metsan-elaimet-27e9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "englanti-sanahaku-hedelmat-e204",
+      "siblings": [
+        "englanti-sanahaku-hedelmat-e204"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "englanti-sanahaku-huonekalut-aabf",
+      "siblings": [
+        "englanti-sanahaku-huonekalut-aabf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "englanti-sanahaku-sairaala-8a0c",
+      "siblings": [
+        "englanti-sanahaku-sairaala-8a0c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "englanti-sanahaku-hyonteiset-ja-otokat-1a4c",
+      "siblings": [
+        "englanti-sanahaku-hyonteiset-ja-otokat-1a4c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "englanti-sanahaku-keittiovalineet-ef20",
+      "siblings": [
+        "englanti-sanahaku-keittiovalineet-ef20"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "englanti-sanahaku-musiikki-0183",
+      "siblings": [
+        "englanti-sanahaku-musiikki-0183"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "englanti-sanahaku-ammatit-f39a",
+      "siblings": [
+        "englanti-sanahaku-ammatit-f39a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "englanti-sanahaku-merielama-4ab6",
+      "siblings": [
+        "englanti-sanahaku-merielama-4ab6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "englanti-sanahaku-lemmikit-a95c",
+      "siblings": [
+        "englanti-sanahaku-lemmikit-a95c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "englanti-sanahaku-postitoimisto-f5c7",
+      "siblings": [
+        "englanti-sanahaku-postitoimisto-f5c7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "englanti-sanahaku-matelijat-ja-sammakkoelaimet-efd9",
+      "siblings": [
+        "englanti-sanahaku-matelijat-ja-sammakkoelaimet-efd9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "englanti-sanahaku-muodot-0e1e",
+      "siblings": [
+        "englanti-sanahaku-muodot-0e1e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "englanti-sanahaku-avaruus-577f",
+      "siblings": [
+        "englanti-sanahaku-avaruus-577f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "englanti-sanahaku-kevat-4c32",
+      "siblings": [
+        "englanti-sanahaku-kevat-4c32"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "englanti-sanahaku-kesa-0532",
+      "siblings": [
+        "englanti-sanahaku-kesa-0532"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "englanti-sanahaku-kiitospaiva-2b5b",
+      "siblings": [
+        "englanti-sanahaku-kiitospaiva-2b5b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "englanti-sanahaku-lentavat-asiat-bf6b",
+      "siblings": [
+        "englanti-sanahaku-lentavat-asiat-bf6b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "englanti-sanahaku-tyokalut-eae1",
+      "siblings": [
+        "englanti-sanahaku-tyokalut-eae1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "englanti-sanahaku-lelut-9940",
+      "siblings": [
+        "englanti-sanahaku-lelut-9940"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "englanti-sanahaku-puut-dc1e",
+      "siblings": [
+        "englanti-sanahaku-puut-dc1e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "englanti-sanahaku-vihannekset-6bdc",
+      "siblings": [
+        "englanti-sanahaku-vihannekset-6bdc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "englanti-sanahaku-ajoneuvot-4d62",
+      "siblings": [
+        "englanti-sanahaku-ajoneuvot-4d62"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "englanti-sanahaku-saa-3e3e",
+      "siblings": [
+        "englanti-sanahaku-saa-3e3e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "englanti-sanahaku-talvi-2147",
+      "siblings": [
+        "englanti-sanahaku-talvi-2147"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "englanti-sanahaku-elaintarhan-elaimet-f6f6",
+      "siblings": [
+        "englanti-sanahaku-elaintarhan-elaimet-f6f6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

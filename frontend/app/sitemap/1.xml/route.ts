@@ -10,17 +10,19 @@ import { getTranslations } from 'next-intl/server';
 import { prisma } from '@/lib/prisma';
 import { buildDeckRichAlt } from '@/lib/deck-seo';
 import { buildDeckHreflangLinks, type SitemapSibling } from '@/lib/seo/deck-sitemap-hreflang';
+import { landingSlugForDeck } from '@/lib/seo/landing-content';
 
 export const revalidate = 1800;
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
 
 /**
- * SEO RESCUE Part 2 Wave A (2026-06-14): deck pages de-promoted from the sitemap
- * (near-duplicate image-only thin assets; GSC Crawled-not-indexed is ~78% deck pages).
- * See sitemap/0.xml/route.ts for the rationale. Flip back to true to restore (reversible).
+ * SEO Recovery Part 2 (2026-06-20): re-emit deck pages FILTERED to landing-less
+ * (self-canonical) decks only — see sitemap/0.xml/route.ts for the full rationale.
+ * Decks WITH a landing stay OUT (their landing is in shard 4). Reversible (flip to false).
  */
-const EMIT_DECK_SITEMAP = false;
+const EMIT_DECK_SITEMAP = true;
+const LANDING_LESS_ONLY = true;
 
 const EMPTY_URLSET = [
   '<?xml version="1.0" encoding="UTF-8"?>',
@@ -175,7 +177,11 @@ export async function GET() {
         contentFamilyId: true,
       },
     });
-    const xml = await buildShard(decks, 1);
+    // Emit only landing-less (self-canonical) decks — see sitemap/0.xml/route.ts.
+    const emitDecks = LANDING_LESS_ONLY
+      ? decks.filter((d) => !landingSlugForDeck(d.language, d.slug))
+      : decks;
+    const xml = await buildShard(emitDecks, 1);
     return new NextResponse(xml, {
       status: 200,
       headers: {

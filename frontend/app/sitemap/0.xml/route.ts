@@ -31,21 +31,29 @@ import { getTranslations } from 'next-intl/server';
 import { prisma } from '@/lib/prisma';
 import { buildDeckRichAlt } from '@/lib/deck-seo';
 import { buildDeckHreflangLinks, type SitemapSibling } from '@/lib/seo/deck-sitemap-hreflang';
+import { landingSlugForDeck } from '@/lib/seo/landing-content';
 
 export const revalidate = 1800;
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
 
 /**
- * SEO RESCUE Part 2 Wave A (2026-06-14): the individual `/decks/<slug>/` pages are
- * near-duplicate, image-only thin assets — GSC's "Crawled – currently not indexed"
- * bucket is ~78% deck pages. We STOP promoting them in the sitemap so Google's crawl
- * budget concentrates on the genuinely-unique topic hubs + the (enriched) /worksheets/
- * landings. Decks stay live + playable; this only de-promotes them. Flip back to true
- * to restore the deck-page + image sitemap (fully reversible). The buildShard machinery
- * below is retained for that revert.
+ * SEO RESCUE Part 2 Wave A (2026-06-14): de-promoted ALL deck pages from the sitemap
+ * (near-duplicate image-only thin assets; GSC "Crawled – not indexed" ~78% deck pages).
+ *
+ * SEO Recovery Part 2 (2026-06-20): that was an OVER-correction. Decks split two ways:
+ *   - WITH a published landing → deck.html canonical points to the /worksheets/ landing
+ *     (non-canonical), and the landing is already in shard 4. Correct to keep OUT.
+ *   - WITHOUT a landing (~13.2k, 29% of the catalog) → deck.html is SELF-canonical and is
+ *     the ONLY indexable surface for its content, yet sits in NO sitemap → orphaned from
+ *     discovery (live-verified). These MUST be in the sitemap.
+ * So we re-emit the deck shards but FILTER to landing-less (self-canonical) decks only
+ * (landingSlugForDeck === null). With-landing decks stay out (their landing carries them
+ * in shard 4 → no duplicate/cannibalization, which Wave A was protecting against).
+ * Fully reversible: set EMIT_DECK_SITEMAP=false to restore the empty Wave-A state.
  */
-const EMIT_DECK_SITEMAP = false;
+const EMIT_DECK_SITEMAP = true;
+const LANDING_LESS_ONLY = true; // emit only decks whose canonical is self (no landing)
 
 const EMPTY_URLSET = [
   '<?xml version="1.0" encoding="UTF-8"?>',
@@ -210,7 +218,12 @@ export async function GET() {
         contentFamilyId: true,
       },
     });
-    const xml = await buildShard(decks, 0);
+    // Emit only landing-less (self-canonical) decks — decks WITH a landing are
+    // non-canonical (canonical → /worksheets/ landing, already in shard 4).
+    const emitDecks = LANDING_LESS_ONLY
+      ? decks.filter((d) => !landingSlugForDeck(d.language, d.slug))
+      : decks;
+    const xml = await buildShard(emitDecks, 0);
     return new NextResponse(xml, {
       status: 200,
       headers: {

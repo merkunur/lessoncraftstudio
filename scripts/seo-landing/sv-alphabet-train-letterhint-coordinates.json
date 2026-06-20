@@ -1,0 +1,535 @@
+{
+  "locale": "sv",
+  "exerciseType": "alphabet-train",
+  "exerciseMode": "letter-hint",
+  "rawRowCount": 41,
+  "validCount": 39,
+  "modesSeen": [
+    "letter-hint"
+  ],
+  "ageRangeValues": [
+    "3-5"
+  ],
+  "collapses": 2,
+  "collapseSizes": [
+    1,
+    2
+  ],
+  "bareOrNone": [],
+  "sampleSlugs": [
+    "alfabetstaget-bokstavsledtrad-4-juli-b0e8 (n=1)",
+    "alfabetstaget-bokstavsledtrad-tillbehor-83af (n=1)",
+    "alfabetstaget-bokstavsledtrad-aktiviteter-8d6b (n=1)"
+  ],
+  "coordinates": [
+    {
+      "mode": "letter-hint",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-4-juli-b0e8",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-4-juli-b0e8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-tillbehor-83af",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-tillbehor-83af"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-aktiviteter-8d6b",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-aktiviteter-8d6b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-djur-fcd7",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-djur-fcd7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-runt-huset-4fa6",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-runt-huset-4fa6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-i-snabbkopet-c2b4",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-i-snabbkopet-c2b4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-strand-3128",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-strand-3128"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-faglar-2-1c81",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-faglar-2-1c81"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-kroppsdelar-f08a",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-kroppsdelar-f08a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-frukost-fc2d",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-frukost-fc2d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-camping-0e35",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-camping-0e35"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-jul-aeb6",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-jul-aeb6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-klassrum-f8e3",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-klassrum-f8e3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-klader-bab3",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-klader-bab3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-dinosaurier-b921",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-dinosaurier-b921"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-pask-278b",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-pask-278b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-kanslor-152d",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-kanslor-152d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-bondgardsdjur-3725",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-bondgardsdjur-3725"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-blommor-479c",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-blommor-479c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-skogsdjur-936c",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-skogsdjur-936c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-frukter-2225",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-frukter-2225"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-sjukhus-750d",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-sjukhus-750d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-koksredskap-2d5b",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-koksredskap-2d5b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-musik-fbd5",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-musik-fbd5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-yrken-4317",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-yrken-4317"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "alfabetstaget-bokstavsledtrad-havsliv-4d60",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-havsliv-4d60",
+        "alfabetstaget-bokstavsledtrad-havsliv-f67e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-husdjur-54b5",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-husdjur-54b5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-former-bcee",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-former-bcee"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-rymden-4953",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-rymden-4953"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-var-119d",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-var-119d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-sommar-0041",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-sommar-0041"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-thanksgiving-2bf9",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-thanksgiving-2bf9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-saker-som-flyger-ed57",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-saker-som-flyger-ed57"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-leksaker-d641",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-leksaker-d641"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-trad-92c0",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-trad-92c0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-gronsaker-ccf1",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-gronsaker-ccf1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonical": "alfabetstaget-bokstavsledtrad-fordon-c69f",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-fordon-c69f",
+        "alfabetstaget-bokstavsledtrad-fordon-1a56"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-vader-8f1d",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-vader-8f1d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "alfabetstaget-bokstavsledtrad-djurparksdjur-0b87",
+      "siblings": [
+        "alfabetstaget-bokstavsledtrad-djurparksdjur-0b87"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    }
+  ]
+}

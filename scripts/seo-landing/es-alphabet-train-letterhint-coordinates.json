@@ -1,0 +1,482 @@
+{
+  "locale": "es",
+  "exerciseType": "alphabet-train",
+  "exerciseMode": "letter-hint",
+  "rawRowCount": 36,
+  "validCount": 35,
+  "modesSeen": [
+    "letter-hint"
+  ],
+  "ageRangeValues": [
+    "3-5"
+  ],
+  "collapses": 1,
+  "collapseSizes": [
+    1,
+    2
+  ],
+  "bareOrNone": [],
+  "sampleSlugs": [
+    "tren-del-abecedario-pista-de-letra-accesorios-8f0d (n=1)",
+    "tren-del-abecedario-pista-de-letra-actividades-8d61 (n=1)",
+    "tren-del-abecedario-pista-de-letra-animales-3f01 (n=1)"
+  ],
+  "coordinates": [
+    {
+      "mode": "letter-hint",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-accesorios-8f0d",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-accesorios-8f0d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-actividades-8d61",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-actividades-8d61"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-animales-3f01",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-animales-3f01"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-alrededor-de-la-casa-a1a4",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-alrededor-de-la-casa-a1a4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-en-el-supermercado-2121",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-en-el-supermercado-2121"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-panaderia-627d",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-panaderia-627d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-playa-63bc",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-playa-63bc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-aves-2-a64e",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-aves-2-a64e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-partes-del-cuerpo-626e",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-partes-del-cuerpo-626e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-desayuno-9fc3",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-desayuno-9fc3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-campamento-6e79",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-campamento-6e79"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-navidad-2bfd",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-navidad-2bfd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-salon-de-clases-0ed8",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-salon-de-clases-0ed8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-ropa-62e5",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-ropa-62e5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-colores-096f",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-colores-096f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-dinosaurios-25f0",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-dinosaurios-25f0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-pascua-0db7",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-pascua-0db7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-flores-be9e",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-flores-be9e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-criaturas-del-bosque-f867",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-criaturas-del-bosque-f867"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonical": "tren-del-abecedario-pista-de-letra-frutas-4c9d",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-frutas-4c9d",
+        "tren-del-abecedario-pista-de-letra-frutas-5865"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-hospital-5946",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-hospital-5946"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-utensilios-de-cocina-3c70",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-utensilios-de-cocina-3c70"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-musica-035a",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-musica-035a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-ocupaciones-2941",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-ocupaciones-2941"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-vida-marina-9e8b",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-vida-marina-9e8b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-espacio-c5f6",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-espacio-c5f6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-primavera-93b0",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-primavera-93b0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-verano-76ea",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-verano-76ea"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-cosas-que-vuelan-93ae",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-cosas-que-vuelan-93ae"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-juguetes-27cd",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-juguetes-27cd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-arboles-b025",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-arboles-b025"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-vehiculos-4bdd",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-vehiculos-4bdd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-clima-c438",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-clima-c438"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-invierno-0bda",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-invierno-0bda"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "tren-del-abecedario-pista-de-letra-animales-del-zoologico-6502",
+      "siblings": [
+        "tren-del-abecedario-pista-de-letra-animales-del-zoologico-6502"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    }
+  ]
+}

@@ -85696,96 +85696,6 @@
       "metaDescription": "Ordre alphabétique – Animaux du zoo. Remets les lettres dans l'ordre alphabétique. Fiches gratuites à imprimer au format PDF."
     },
     {
-      "slug": "train-de-l-alphabet-indice-de-lettre-activites-9f0a",
-      "variantShape": "singleton",
-      "coordinate": {
-        "type": "alphabet-train",
-        "mode": "letter-hint",
-        "theme": "activities",
-        "level": "maternelle"
-      },
-      "eyebrow": "Fiche : Ordre alphabétique",
-      "h1": "Ordre alphabétique : Activités – fiche pour la maternelle",
-      "strand": "Reconnaissance des lettres",
-      "slotTokens": [
-        "activités",
-        "les activités",
-        "Activités",
-        "activities",
-        "maternelle",
-        "lettres"
-      ],
-      "p1": "Cette fiche d'ordre alphabétique offre un petit coup de pouce : un repère qui montre, çà et là, quelle lettre vient ensuite. Les lettres montent dans le train, de la locomotive A au wagon Z, et l'enfant les range dans l'ordre en s'appuyant sur cette aide rassurante. Pas besoin de savoir lire : il suffit de reconnaître et de nommer les lettres, en se laissant guider par le repère quand on hésite. Les images qui accompagnent les activités donnent envie de regarder et de bavarder ensemble. Avec activités, ranger les lettres dans l'ordre devient un jeu accessible à tous, où l'abécédaire se construit pas à pas, de A à Z, avec une main tendue à chaque doute.",
-      "p2": "Cette fiche d'ordre alphabétique avec repère est pensée pour les enfants de maternelle, même les plus petits. Rien à lire : reconnaître les lettres et les ranger de A à Z, avec un petit coup de pouce, suffit largement. Vous ouvrez la fiche gratuitement dans le navigateur et jouez tout de suite sur tablette ou ordinateur, ou vous l'imprimez pour un moment calme. Les deux versions sont aussi simples l'une que l'autre.",
-      "p3": "Et voilà : avec le train de l'alphabet activités, votre enfant a reconnu les lettres et les a rangées dans l'ordre, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, vous pouvez essayer d'autres trains tout aussi doux, par exemple avec jouets ou jouets, pour varier les images et le plaisir. Chaque version repose sur la même idée joyeuse : des wagons remplis de lettres à remettre dans l'ordre alphabétique. Toutes ces fiches sont gratuites, à imprimer ou à jouer en ligne. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, juste le bonheur de reconnaître les lettres et de les nommer ensemble. Bravo à votre petit chef de gare !",
-      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-activites-9f0a",
-      "carousel": [
-        {
-          "label": "Ordre alphabétique – Jouets",
-          "href": "train-de-l-alphabet-indice-de-lettre-jouets-383d"
-        },
-        {
-          "label": "Ordre alphabétique – Activités",
-          "href": "train-de-l-alphabet-indice-de-lettre-activites-9f0a"
-        },
-        {
-          "label": "Ordre alphabétique – Jouets",
-          "href": "train-de-l-alphabet-indice-de-lettre-jouets-383d"
-        },
-        {
-          "label": "Ordre alphabétique – Jouets",
-          "href": "train-de-l-alphabet-indice-de-lettre-jouets-383d"
-        }
-      ],
-      "title": "Ordre alphabétique – Activités (2) | fiches à imprimer PDF gratuit",
-      "metaDescription": "Ordre alphabétique – Activités (2). Remets les lettres dans l'ordre alphabétique. Fiches gratuites à imprimer au format PDF."
-    },
-    {
-      "slug": "train-de-l-alphabet-indice-de-lettre-jouets-383d",
-      "variantShape": "singleton",
-      "coordinate": {
-        "type": "alphabet-train",
-        "mode": "letter-hint",
-        "theme": "toys",
-        "level": "maternelle"
-      },
-      "eyebrow": "Fiche : Ordre alphabétique",
-      "h1": "Ordre alphabétique : Jouets – fiche pour la maternelle",
-      "strand": "Reconnaissance des lettres",
-      "slotTokens": [
-        "jouets",
-        "les jouets",
-        "Jouets",
-        "toys",
-        "maternelle",
-        "lettres"
-      ],
-      "p1": "Votre enfant connaît déjà quelques lettres mais hésite encore parfois ? Alors cette version du train de l'alphabet, avec son repère, est parfaite. Chaque wagon porte une lettre, et ensemble elles forment l'abécédaire – l'aide affichée indique laquelle vient ensuite quand le doute pointe. De A à Z, l'enfant fait glisser les lettres à leur place, soutenu par ce guide et par la comptine de l'alphabet. Les mots de la fiche parlent de jouets, et il y a de belles choses à nommer avec les jouets. En maternelle, on apprend justement à reconnaître les lettres, et ce repère rend le jeu accessible sans pression.",
-      "p2": "La fiche correspond à ce que les enfants découvrent en maternelle : reconnaître et nommer les lettres et se familiariser avec l'ordre de l'alphabet, ici avec une aide. L'enfant joue gratuitement à l'écran, où les wagons se déplacent facilement et où le repère guide, ou bien vous imprimez le train. Dans tous les cas, l'enfant assemble peu à peu son abécédaire en confiance.",
-      "p3": "Et voilà : avec le train de l'alphabet jouets, votre enfant a reconnu les lettres et les a rangées dans l'ordre, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, vous pouvez essayer d'autres trains tout aussi doux, par exemple avec activités ou activités, pour varier les images et le plaisir. Chaque version repose sur la même idée joyeuse : des wagons remplis de lettres à remettre dans l'ordre alphabétique. Toutes ces fiches sont gratuites, à imprimer ou à jouer en ligne. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, juste le bonheur de reconnaître les lettres et de les nommer ensemble. Bravo à votre petit chef de gare !",
-      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-jouets-383d",
-      "carousel": [
-        {
-          "label": "Ordre alphabétique – Activités",
-          "href": "train-de-l-alphabet-indice-de-lettre-activites-9f0a"
-        },
-        {
-          "label": "Ordre alphabétique – Jouets",
-          "href": "train-de-l-alphabet-indice-de-lettre-jouets-383d"
-        },
-        {
-          "label": "Ordre alphabétique – Activités",
-          "href": "train-de-l-alphabet-indice-de-lettre-activites-9f0a"
-        },
-        {
-          "label": "Ordre alphabétique – Activités",
-          "href": "train-de-l-alphabet-indice-de-lettre-activites-9f0a"
-        }
-      ],
-      "title": "Ordre alphabétique – Jouets | fiches à imprimer PDF gratuit",
-      "metaDescription": "Ordre alphabétique – Jouets. Remets les lettres dans l'ordre alphabétique. Fiches gratuites à imprimer au format PDF."
-    },
-    {
       "slug": "appariement-lettre-accessoires-037c",
       "variantShape": "singleton",
       "coordinate": {
@@ -116137,6 +116047,1409 @@
       ],
       "title": "Graphiques CP – Animaux du zoo | fiches à imprimer PDF gratuit",
       "metaDescription": "Graphiques CP – Animaux du zoo. Compte et complète le graphique en barres. Fiches gratuites à imprimer au format PDF."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-accessoires-6d18",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "accessories",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Accessoires par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Accessoires",
+        "accessories",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Sur cette fiche, chaque carte-image porte une petite lettre imprimée dans un coin : c'est la première lettre du mot. L'enfant n'a pas à lire le mot ; il lui suffit de regarder cette lettre repère pour savoir où ranger la carte. On installe d'abord la carte dont la lettre est A, puis celle dont la lettre est B, et ainsi de suite jusqu'à Z. Les images de Accessoires défilent une à une et donnent envie de pointer du doigt et de nommer ce que l'on voit. Tout en triant les cartes selon leur lettre initiale, le tout-petit découvre tranquillement l'ordre alphabétique, une carte après l'autre, sans jamais avoir à déchiffrer.",
+      "p2": "Cette fiche de tri d'images est pensée pour les enfants de maternelle, même les plus petits. Rien à lire : il suffit de regarder la première lettre imprimée sur chaque carte de Accessoires et de ranger les images de A à Z. Vous ouvrez la fiche gratuitement dans le navigateur et jouez tout de suite sur tablette ou ordinateur, ou bien vous l'imprimez pour un moment calme à table. Les deux versions sont aussi simples et joyeuses l'une que l'autre.",
+      "p3": "Et voilà : avec les images de Accessoires à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-accessoires-6d18",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Activités",
+          "href": "train-de-l-alphabet-indice-de-lettre-activites-9f0a"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Animaux",
+          "href": "train-de-l-alphabet-indice-de-lettre-animaux-01da"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Plage",
+          "href": "train-de-l-alphabet-indice-de-lettre-plage-3900"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Couleurs",
+          "href": "train-de-l-alphabet-indice-de-lettre-couleurs-1795"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Accessoires | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Accessoires de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-activites-9f0a",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "activities",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Activités par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Activités",
+        "activities",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Votre enfant reconnaît déjà quelques lettres ? Alors trier des images selon leur initiale est une jolie façon de travailler l'ordre alphabétique. Sur chaque carte de Activités, une lettre imprimée indique par où commence le mot : l'enfant la regarde, la compare aux autres et range les cartes de A à Z. Aucun mot à lire, aucune difficulté de lecture : la lettre par laquelle commence l'image fait office de repère. Les images donnent envie de nommer et de raconter ensemble. En maternelle, on apprend justement à reconnaître les lettres et à les situer dans l'alphabet ; ce petit tri d'images accompagne ce travail tout en douceur.",
+      "p2": "La fiche correspond à ce que les enfants découvrent en maternelle : reconnaître les lettres et se familiariser avec l'ordre de l'alphabet. Ici, chaque carte de Activités porte sa lettre initiale imprimée, et l'enfant range les images à l'écran, où les cartes se déplacent facilement, ou bien vous imprimez la série pour l'emporter. Dans tous les cas, le tout-petit met les images en file de A à Z, à son rythme.",
+      "p3": "Et voilà : avec les images de Activités à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-activites-9f0a",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Animaux",
+          "href": "train-de-l-alphabet-indice-de-lettre-animaux-01da"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Autour de la maison",
+          "href": "train-de-l-alphabet-indice-de-lettre-autour-de-la-maison-6c0c"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Oiseaux 2",
+          "href": "train-de-l-alphabet-indice-de-lettre-oiseaux-2-f5a4"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Dinosaures",
+          "href": "train-de-l-alphabet-indice-de-lettre-dinosaures-e0a5"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Activités | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Activités de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription.",
+      "collapseSiblings": [
+        "train-de-l-alphabet-indice-de-lettre-activites-9f0a",
+        "train-de-l-alphabet-indice-de-lettre-activites-3c68"
+      ]
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-animaux-01da",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "animals",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Animaux par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Animaux",
+        "animals",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Imaginez une rangée de cartes-images bien alignées : sur chacune, une lettre est imprimée, celle par laquelle commence le mot. L'enfant range alors les images dans l'ordre de ces lettres, de A à Z. Pas besoin de savoir lire : il regarde la lettre repère, la compare à celle d'à côté et glisse la carte à sa place. D'abord la lettre A, puis la suivante – et la rangée s'allonge. Les images de Animaux accompagnent chaque lettre et rendent le tri concret et agréable. Au fil des cartes, l'ordre alphabétique se dépose en douceur dans la tête du tout-petit, sans pression et sans déchiffrage.",
+      "p2": "Aucun prérequis n'est nécessaire : si l'enfant repère déjà quelques lettres, il peut ranger les cartes de Animaux dans l'ordre alphabétique. La lettre imprimée sur chaque image lui montre par où commence le mot, et c'est tout ce dont il a besoin. La fiche se joue gratuitement dans le navigateur, et si vous préférez le papier, elle s'imprime en un instant. Chantez la comptine de l'alphabet pendant ce temps, et les cartes trouvent toutes seules leur place.",
+      "p3": "Et voilà : avec les images de Animaux à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-animaux-01da",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Autour de la maison",
+          "href": "train-de-l-alphabet-indice-de-lettre-autour-de-la-maison-6c0c"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Au supermarché",
+          "href": "train-de-l-alphabet-indice-de-lettre-au-supermarche-4b74"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Petit-déjeuner",
+          "href": "train-de-l-alphabet-indice-de-lettre-petit-dejeuner-ce42"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Animaux de la ferme",
+          "href": "train-de-l-alphabet-indice-de-lettre-animaux-de-la-ferme-0c25"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Animaux | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Animaux de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-autour-de-la-maison-6c0c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "around_the_house",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Autour de la maison par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Autour de la maison",
+        "around the house",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "L'alphabet a un ordre bien à lui, et c'est ce qui rend ce tri d'images amusant. Les cartes de Autour de la maison se sont mélangées : il faut les remettre en file selon la lettre imprimée sur chacune. L'enfant regarde la lettre par laquelle commence chaque image, la première lettre du mot, et range les cartes de A jusqu'à Z. Il observe, compare, réfléchit un peu – quelle lettre vient avant l'autre ? – mais il n'a pas encore besoin de savoir lire. Les images donnent à chaque lettre un petit visage familier. Carte après carte, la rangée se complète, et avec elle le sens de l'ordre alphabétique : une belle préparation au plaisir de lire qui attend en CP.",
+      "p2": "Que vous remplissiez un après-midi de pluie à la maison ou que vous aménagiez un coin des lettres en classe, cette fiche trouve toujours sa place. Trier les images de Autour de la maison selon leur lettre initiale est gratuit à jouer en ligne et tout aussi simple à imprimer. L'enfant choisit son rythme, vous regardez avec lui et nommez peut-être chaque image ensemble – et la rangée se complète, de A à Z.",
+      "p3": "Et voilà : avec les images de Autour de la maison à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-autour-de-la-maison-6c0c",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Au supermarché",
+          "href": "train-de-l-alphabet-indice-de-lettre-au-supermarche-4b74"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Plage",
+          "href": "train-de-l-alphabet-indice-de-lettre-plage-3900"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Camping",
+          "href": "train-de-l-alphabet-indice-de-lettre-camping-d9e2"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Fleurs",
+          "href": "train-de-l-alphabet-indice-de-lettre-fleurs-7448"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Autour de la maison | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Autour de la maison de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-au-supermarche-4b74",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "at_the_supermarket",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Au supermarché par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Au supermarché",
+        "at the supermarket",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Une lettre dans le coin de chaque image, et tout un alphabet à reconstituer : voilà cette fiche dans toute sa simplicité. Avec les images de Au supermarché, l'enfant cherche la carte dont la première lettre vient en tête, la pose, puis poursuit avec la lettre suivante, jusqu'à Z. Il ne lit pas le mot ; il s'appuie uniquement sur la lettre imprimée pour ranger. Rien n'est en jeu, rien n'est à finir à tout prix : le tout-petit avance aussi longtemps que c'est amusant. À chaque carte qui trouve sa place dans la file alphabétique, le repère des lettres se fixe un peu mieux, sans que cela ressemble jamais à une leçon imposée.",
+      "p2": "La fiche correspond à ce que les enfants découvrent en maternelle : reconnaître les lettres et se familiariser avec l'ordre de l'alphabet. Ici, chaque carte de Au supermarché porte sa lettre initiale imprimée, et l'enfant range les images à l'écran, où les cartes se déplacent facilement, ou bien vous imprimez la série pour l'emporter. Dans tous les cas, le tout-petit met les images en file de A à Z, à son rythme.",
+      "p3": "Et voilà : avec les images de Au supermarché à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-au-supermarche-4b74",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Plage",
+          "href": "train-de-l-alphabet-indice-de-lettre-plage-3900"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Oiseaux 2",
+          "href": "train-de-l-alphabet-indice-de-lettre-oiseaux-2-f5a4"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Salle de classe",
+          "href": "train-de-l-alphabet-indice-de-lettre-salle-de-classe-a490"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Créatures de la forêt",
+          "href": "train-de-l-alphabet-indice-de-lettre-creatures-de-la-foret-7989"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Au supermarché | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Au supermarché de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-plage-3900",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "beach",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Plage par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Plage",
+        "beach",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Quelle carte se range en premier ? Celle dont la lettre imprimée vient le plus tôt dans l'alphabet. Sur cette fiche, l'enfant compare les premières lettres affichées sur chaque image et place les cartes en file, de A jusqu'à Z. Il regarde la lettre par laquelle commence chaque mot, sans lire le mot lui-même : la lettre imprimée fait tout le travail. Les images de Plage rendent ce tri joyeux et familier, et chaque carte bien placée est une petite victoire. C'est exactement ce travail tout en douceur sur l'initiale des images qui prépare l'enfant de maternelle à reconnaître les lettres et à sentir leur ordre.",
+      "p2": "Aucun prérequis n'est nécessaire : si l'enfant repère déjà quelques lettres, il peut ranger les cartes de Plage dans l'ordre alphabétique. La lettre imprimée sur chaque image lui montre par où commence le mot, et c'est tout ce dont il a besoin. La fiche se joue gratuitement dans le navigateur, et si vous préférez le papier, elle s'imprime en un instant. Chantez la comptine de l'alphabet pendant ce temps, et les cartes trouvent toutes seules leur place.",
+      "p3": "Et voilà : avec les images de Plage à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-plage-3900",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Oiseaux 2",
+          "href": "train-de-l-alphabet-indice-de-lettre-oiseaux-2-f5a4"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Petit-déjeuner",
+          "href": "train-de-l-alphabet-indice-de-lettre-petit-dejeuner-ce42"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Vêtements",
+          "href": "train-de-l-alphabet-indice-de-lettre-vetements-9b15"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Hôpital",
+          "href": "train-de-l-alphabet-indice-de-lettre-hopital-b2c5"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Plage | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Plage de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-oiseaux-2-f5a4",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "birds_2",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Oiseaux 2 par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Oiseaux 2",
+        "birds 2",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Lancez un grand « on range les cartes ! » et le jeu des lettres peut commencer. Sur cette fiche, l'enfant met en ordre les images de Oiseaux 2 en regardant la lettre imprimée sur chacune. Cette lettre, c'est la première du mot, et elle sert de guide : on cherche d'abord celle qui vient au début de l'alphabet, puis on continue, lettre après lettre, jusqu'à Z. Lire n'est pas nécessaire : c'est bien la reconnaissance de la lettre initiale et sa place dans l'alphabet qui sont au cœur du jeu. Les images en font une petite excursion : on regarde ensemble, on nomme, puis on glisse la carte à sa place dans la rangée.",
+      "p2": "Que vous remplissiez un après-midi de pluie à la maison ou que vous aménagiez un coin des lettres en classe, cette fiche trouve toujours sa place. Trier les images de Oiseaux 2 selon leur lettre initiale est gratuit à jouer en ligne et tout aussi simple à imprimer. L'enfant choisit son rythme, vous regardez avec lui et nommez peut-être chaque image ensemble – et la rangée se complète, de A à Z.",
+      "p3": "Et voilà : avec les images de Oiseaux 2 à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-oiseaux-2-f5a4",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Petit-déjeuner",
+          "href": "train-de-l-alphabet-indice-de-lettre-petit-dejeuner-ce42"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Camping",
+          "href": "train-de-l-alphabet-indice-de-lettre-camping-d9e2"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Couleurs",
+          "href": "train-de-l-alphabet-indice-de-lettre-couleurs-1795"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Ustensiles de cuisine",
+          "href": "train-de-l-alphabet-indice-de-lettre-ustensiles-de-cuisine-8e08"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Oiseaux 2 | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Oiseaux 2 de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-petit-dejeuner-ce42",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "breakfast",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Petit-déjeuner par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Petit-déjeuner",
+        "breakfast",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Toutes les cartes sont mélangées, et il faut les remettre dans l'ordre des lettres ! Sur cette fiche, l'enfant trie les images de Petit-déjeuner en s'appuyant sur la lettre imprimée que porte chacune. Cette lettre, c'est l'initiale du mot, et elle suffit pour décider où va la carte : la lettre A en tête, puis B, jusqu'au bout, à Z. Le pré-lecteur n'a rien à lire ; il reconnaît la première lettre et la place au bon endroit. Les images invitent à montrer du doigt, à nommer et à bavarder ensemble. Ainsi, ranger les cartes selon leur lettre initiale devient un jeu, et l'ordre alphabétique se construit carte après carte.",
+      "p2": "La fiche correspond à ce que les enfants découvrent en maternelle : reconnaître les lettres et se familiariser avec l'ordre de l'alphabet. Ici, chaque carte de Petit-déjeuner porte sa lettre initiale imprimée, et l'enfant range les images à l'écran, où les cartes se déplacent facilement, ou bien vous imprimez la série pour l'emporter. Dans tous les cas, le tout-petit met les images en file de A à Z, à son rythme.",
+      "p3": "Et voilà : avec les images de Petit-déjeuner à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-petit-dejeuner-ce42",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Camping",
+          "href": "train-de-l-alphabet-indice-de-lettre-camping-d9e2"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Salle de classe",
+          "href": "train-de-l-alphabet-indice-de-lettre-salle-de-classe-a490"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Dinosaures",
+          "href": "train-de-l-alphabet-indice-de-lettre-dinosaures-e0a5"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Musique",
+          "href": "train-de-l-alphabet-indice-de-lettre-musique-d526"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Petit-déjeuner | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Petit-déjeuner de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-camping-d9e2",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "camping",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Camping par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Camping",
+        "camping",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Sur cette fiche, chaque carte-image porte une petite lettre imprimée dans un coin : c'est la première lettre du mot. L'enfant n'a pas à lire le mot ; il lui suffit de regarder cette lettre repère pour savoir où ranger la carte. On installe d'abord la carte dont la lettre est A, puis celle dont la lettre est B, et ainsi de suite jusqu'à Z. Les images de Camping défilent une à une et donnent envie de pointer du doigt et de nommer ce que l'on voit. Tout en triant les cartes selon leur lettre initiale, le tout-petit découvre tranquillement l'ordre alphabétique, une carte après l'autre, sans jamais avoir à déchiffrer.",
+      "p2": "Aucun prérequis n'est nécessaire : si l'enfant repère déjà quelques lettres, il peut ranger les cartes de Camping dans l'ordre alphabétique. La lettre imprimée sur chaque image lui montre par où commence le mot, et c'est tout ce dont il a besoin. La fiche se joue gratuitement dans le navigateur, et si vous préférez le papier, elle s'imprime en un instant. Chantez la comptine de l'alphabet pendant ce temps, et les cartes trouvent toutes seules leur place.",
+      "p3": "Et voilà : avec les images de Camping à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-camping-d9e2",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Salle de classe",
+          "href": "train-de-l-alphabet-indice-de-lettre-salle-de-classe-a490"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Vêtements",
+          "href": "train-de-l-alphabet-indice-de-lettre-vetements-9b15"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Animaux de la ferme",
+          "href": "train-de-l-alphabet-indice-de-lettre-animaux-de-la-ferme-0c25"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Métiers",
+          "href": "train-de-l-alphabet-indice-de-lettre-metiers-71dc"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Camping | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Camping de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-salle-de-classe-a490",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "classroom",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Salle de classe par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Salle de classe",
+        "classroom",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Votre enfant reconnaît déjà quelques lettres ? Alors trier des images selon leur initiale est une jolie façon de travailler l'ordre alphabétique. Sur chaque carte de Salle de classe, une lettre imprimée indique par où commence le mot : l'enfant la regarde, la compare aux autres et range les cartes de A à Z. Aucun mot à lire, aucune difficulté de lecture : la lettre par laquelle commence l'image fait office de repère. Les images donnent envie de nommer et de raconter ensemble. En maternelle, on apprend justement à reconnaître les lettres et à les situer dans l'alphabet ; ce petit tri d'images accompagne ce travail tout en douceur.",
+      "p2": "Que vous remplissiez un après-midi de pluie à la maison ou que vous aménagiez un coin des lettres en classe, cette fiche trouve toujours sa place. Trier les images de Salle de classe selon leur lettre initiale est gratuit à jouer en ligne et tout aussi simple à imprimer. L'enfant choisit son rythme, vous regardez avec lui et nommez peut-être chaque image ensemble – et la rangée se complète, de A à Z.",
+      "p3": "Et voilà : avec les images de Salle de classe à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-salle-de-classe-a490",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Vêtements",
+          "href": "train-de-l-alphabet-indice-de-lettre-vetements-9b15"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Couleurs",
+          "href": "train-de-l-alphabet-indice-de-lettre-couleurs-1795"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Fleurs",
+          "href": "train-de-l-alphabet-indice-de-lettre-fleurs-7448"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Vie océanique",
+          "href": "train-de-l-alphabet-indice-de-lettre-vie-oceanique-0a9a"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Salle de classe | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Salle de classe de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-vetements-9b15",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "clothing",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Vêtements par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Vêtements",
+        "clothing",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Imaginez une rangée de cartes-images bien alignées : sur chacune, une lettre est imprimée, celle par laquelle commence le mot. L'enfant range alors les images dans l'ordre de ces lettres, de A à Z. Pas besoin de savoir lire : il regarde la lettre repère, la compare à celle d'à côté et glisse la carte à sa place. D'abord la lettre A, puis la suivante – et la rangée s'allonge. Les images de Vêtements accompagnent chaque lettre et rendent le tri concret et agréable. Au fil des cartes, l'ordre alphabétique se dépose en douceur dans la tête du tout-petit, sans pression et sans déchiffrage.",
+      "p2": "La fiche correspond à ce que les enfants découvrent en maternelle : reconnaître les lettres et se familiariser avec l'ordre de l'alphabet. Ici, chaque carte de Vêtements porte sa lettre initiale imprimée, et l'enfant range les images à l'écran, où les cartes se déplacent facilement, ou bien vous imprimez la série pour l'emporter. Dans tous les cas, le tout-petit met les images en file de A à Z, à son rythme.",
+      "p3": "Et voilà : avec les images de Vêtements à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-vetements-9b15",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Couleurs",
+          "href": "train-de-l-alphabet-indice-de-lettre-couleurs-1795"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Dinosaures",
+          "href": "train-de-l-alphabet-indice-de-lettre-dinosaures-e0a5"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Créatures de la forêt",
+          "href": "train-de-l-alphabet-indice-de-lettre-creatures-de-la-foret-7989"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Espace",
+          "href": "train-de-l-alphabet-indice-de-lettre-espace-7cb1"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Vêtements | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Vêtements de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-couleurs-1795",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "colors",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Couleurs par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Couleurs",
+        "colors",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "L'alphabet a un ordre bien à lui, et c'est ce qui rend ce tri d'images amusant. Les cartes de Couleurs se sont mélangées : il faut les remettre en file selon la lettre imprimée sur chacune. L'enfant regarde la lettre par laquelle commence chaque image, la première lettre du mot, et range les cartes de A jusqu'à Z. Il observe, compare, réfléchit un peu – quelle lettre vient avant l'autre ? – mais il n'a pas encore besoin de savoir lire. Les images donnent à chaque lettre un petit visage familier. Carte après carte, la rangée se complète, et avec elle le sens de l'ordre alphabétique : une belle préparation au plaisir de lire qui attend en CP.",
+      "p2": "Pour les enfants de cinq à six ans, trier des images selon leur initiale est une douce entrée dans l'ordre alphabétique. L'enfant regarde la lettre imprimée sur chaque carte de Couleurs et range les images à son rythme, sans aucune lecture. La fiche ne coûte rien : jouez-y directement en ligne, ou imprimez-la et posez-la à côté des crayons de couleur. Ainsi, le tout-petit travaille l'ordre des lettres là où il se sent le mieux.",
+      "p3": "Et voilà : avec les images de Couleurs à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-couleurs-1795",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Dinosaures",
+          "href": "train-de-l-alphabet-indice-de-lettre-dinosaures-e0a5"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Animaux de la ferme",
+          "href": "train-de-l-alphabet-indice-de-lettre-animaux-de-la-ferme-0c25"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Hôpital",
+          "href": "train-de-l-alphabet-indice-de-lettre-hopital-b2c5"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Printemps",
+          "href": "train-de-l-alphabet-indice-de-lettre-printemps-d80d"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Couleurs | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Couleurs de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-dinosaures-e0a5",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "dinosaurs",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Dinosaures par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Dinosaures",
+        "dinosaurs",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Une lettre dans le coin de chaque image, et tout un alphabet à reconstituer : voilà cette fiche dans toute sa simplicité. Avec les images de Dinosaures, l'enfant cherche la carte dont la première lettre vient en tête, la pose, puis poursuit avec la lettre suivante, jusqu'à Z. Il ne lit pas le mot ; il s'appuie uniquement sur la lettre imprimée pour ranger. Rien n'est en jeu, rien n'est à finir à tout prix : le tout-petit avance aussi longtemps que c'est amusant. À chaque carte qui trouve sa place dans la file alphabétique, le repère des lettres se fixe un peu mieux, sans que cela ressemble jamais à une leçon imposée.",
+      "p2": "Que vous remplissiez un après-midi de pluie à la maison ou que vous aménagiez un coin des lettres en classe, cette fiche trouve toujours sa place. Trier les images de Dinosaures selon leur lettre initiale est gratuit à jouer en ligne et tout aussi simple à imprimer. L'enfant choisit son rythme, vous regardez avec lui et nommez peut-être chaque image ensemble – et la rangée se complète, de A à Z.",
+      "p3": "Et voilà : avec les images de Dinosaures à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-dinosaures-e0a5",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Animaux de la ferme",
+          "href": "train-de-l-alphabet-indice-de-lettre-animaux-de-la-ferme-0c25"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Fleurs",
+          "href": "train-de-l-alphabet-indice-de-lettre-fleurs-7448"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Ustensiles de cuisine",
+          "href": "train-de-l-alphabet-indice-de-lettre-ustensiles-de-cuisine-8e08"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Été",
+          "href": "train-de-l-alphabet-indice-de-lettre-ete-20dc"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Dinosaures | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Dinosaures de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-animaux-de-la-ferme-0c25",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "farm_animals",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Animaux de la ferme par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Animaux de la ferme",
+        "farm animals",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Quelle carte se range en premier ? Celle dont la lettre imprimée vient le plus tôt dans l'alphabet. Sur cette fiche, l'enfant compare les premières lettres affichées sur chaque image et place les cartes en file, de A jusqu'à Z. Il regarde la lettre par laquelle commence chaque mot, sans lire le mot lui-même : la lettre imprimée fait tout le travail. Les images de Animaux de la ferme rendent ce tri joyeux et familier, et chaque carte bien placée est une petite victoire. C'est exactement ce travail tout en douceur sur l'initiale des images qui prépare l'enfant de maternelle à reconnaître les lettres et à sentir leur ordre.",
+      "p2": "La fiche correspond à ce que les enfants découvrent en maternelle : reconnaître les lettres et se familiariser avec l'ordre de l'alphabet. Ici, chaque carte de Animaux de la ferme porte sa lettre initiale imprimée, et l'enfant range les images à l'écran, où les cartes se déplacent facilement, ou bien vous imprimez la série pour l'emporter. Dans tous les cas, le tout-petit met les images en file de A à Z, à son rythme.",
+      "p3": "Et voilà : avec les images de Animaux de la ferme à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-animaux-de-la-ferme-0c25",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Fleurs",
+          "href": "train-de-l-alphabet-indice-de-lettre-fleurs-7448"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Créatures de la forêt",
+          "href": "train-de-l-alphabet-indice-de-lettre-creatures-de-la-foret-7989"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Musique",
+          "href": "train-de-l-alphabet-indice-de-lettre-musique-d526"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Choses qui volent",
+          "href": "train-de-l-alphabet-indice-de-lettre-choses-qui-volent-dc4a"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Animaux de la ferme | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Animaux de la ferme de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-fleurs-7448",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "flowers",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Fleurs par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Fleurs",
+        "flowers",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Lancez un grand « on range les cartes ! » et le jeu des lettres peut commencer. Sur cette fiche, l'enfant met en ordre les images de Fleurs en regardant la lettre imprimée sur chacune. Cette lettre, c'est la première du mot, et elle sert de guide : on cherche d'abord celle qui vient au début de l'alphabet, puis on continue, lettre après lettre, jusqu'à Z. Lire n'est pas nécessaire : c'est bien la reconnaissance de la lettre initiale et sa place dans l'alphabet qui sont au cœur du jeu. Les images en font une petite excursion : on regarde ensemble, on nomme, puis on glisse la carte à sa place dans la rangée.",
+      "p2": "Pour les enfants de cinq à six ans, trier des images selon leur initiale est une douce entrée dans l'ordre alphabétique. L'enfant regarde la lettre imprimée sur chaque carte de Fleurs et range les images à son rythme, sans aucune lecture. La fiche ne coûte rien : jouez-y directement en ligne, ou imprimez-la et posez-la à côté des crayons de couleur. Ainsi, le tout-petit travaille l'ordre des lettres là où il se sent le mieux.",
+      "p3": "Et voilà : avec les images de Fleurs à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-fleurs-7448",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Créatures de la forêt",
+          "href": "train-de-l-alphabet-indice-de-lettre-creatures-de-la-foret-7989"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Hôpital",
+          "href": "train-de-l-alphabet-indice-de-lettre-hopital-b2c5"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Métiers",
+          "href": "train-de-l-alphabet-indice-de-lettre-metiers-71dc"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Jouets",
+          "href": "train-de-l-alphabet-indice-de-lettre-jouets-383d"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Fleurs | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Fleurs de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-creatures-de-la-foret-7989",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "forest_creatures",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Créatures de la forêt par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Créatures de la forêt",
+        "forest creatures",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Toutes les cartes sont mélangées, et il faut les remettre dans l'ordre des lettres ! Sur cette fiche, l'enfant trie les images de Créatures de la forêt en s'appuyant sur la lettre imprimée que porte chacune. Cette lettre, c'est l'initiale du mot, et elle suffit pour décider où va la carte : la lettre A en tête, puis B, jusqu'au bout, à Z. Le pré-lecteur n'a rien à lire ; il reconnaît la première lettre et la place au bon endroit. Les images invitent à montrer du doigt, à nommer et à bavarder ensemble. Ainsi, ranger les cartes selon leur lettre initiale devient un jeu, et l'ordre alphabétique se construit carte après carte.",
+      "p2": "Que vous remplissiez un après-midi de pluie à la maison ou que vous aménagiez un coin des lettres en classe, cette fiche trouve toujours sa place. Trier les images de Créatures de la forêt selon leur lettre initiale est gratuit à jouer en ligne et tout aussi simple à imprimer. L'enfant choisit son rythme, vous regardez avec lui et nommez peut-être chaque image ensemble – et la rangée se complète, de A à Z.",
+      "p3": "Et voilà : avec les images de Créatures de la forêt à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-creatures-de-la-foret-7989",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Hôpital",
+          "href": "train-de-l-alphabet-indice-de-lettre-hopital-b2c5"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Ustensiles de cuisine",
+          "href": "train-de-l-alphabet-indice-de-lettre-ustensiles-de-cuisine-8e08"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Vie océanique",
+          "href": "train-de-l-alphabet-indice-de-lettre-vie-oceanique-0a9a"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Légumes",
+          "href": "train-de-l-alphabet-indice-de-lettre-legumes-7b1c"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Créatures de la forêt | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Créatures de la forêt de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-hopital-b2c5",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "hospital",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Hôpital par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Hôpital",
+        "hospital",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Sur cette fiche, chaque carte-image porte une petite lettre imprimée dans un coin : c'est la première lettre du mot. L'enfant n'a pas à lire le mot ; il lui suffit de regarder cette lettre repère pour savoir où ranger la carte. On installe d'abord la carte dont la lettre est A, puis celle dont la lettre est B, et ainsi de suite jusqu'à Z. Les images de Hôpital défilent une à une et donnent envie de pointer du doigt et de nommer ce que l'on voit. Tout en triant les cartes selon leur lettre initiale, le tout-petit découvre tranquillement l'ordre alphabétique, une carte après l'autre, sans jamais avoir à déchiffrer.",
+      "p2": "La fiche correspond à ce que les enfants découvrent en maternelle : reconnaître les lettres et se familiariser avec l'ordre de l'alphabet. Ici, chaque carte de Hôpital porte sa lettre initiale imprimée, et l'enfant range les images à l'écran, où les cartes se déplacent facilement, ou bien vous imprimez la série pour l'emporter. Dans tous les cas, le tout-petit met les images en file de A à Z, à son rythme.",
+      "p3": "Et voilà : avec les images de Hôpital à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-hopital-b2c5",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Ustensiles de cuisine",
+          "href": "train-de-l-alphabet-indice-de-lettre-ustensiles-de-cuisine-8e08"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Musique",
+          "href": "train-de-l-alphabet-indice-de-lettre-musique-d526"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Espace",
+          "href": "train-de-l-alphabet-indice-de-lettre-espace-7cb1"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Véhicules",
+          "href": "train-de-l-alphabet-indice-de-lettre-vehicules-5b8a"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Hôpital | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Hôpital de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-ustensiles-de-cuisine-8e08",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "kitchen_tools",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Ustensiles de cuisine par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Ustensiles de cuisine",
+        "kitchen tools",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Votre enfant reconnaît déjà quelques lettres ? Alors trier des images selon leur initiale est une jolie façon de travailler l'ordre alphabétique. Sur chaque carte de Ustensiles de cuisine, une lettre imprimée indique par où commence le mot : l'enfant la regarde, la compare aux autres et range les cartes de A à Z. Aucun mot à lire, aucune difficulté de lecture : la lettre par laquelle commence l'image fait office de repère. Les images donnent envie de nommer et de raconter ensemble. En maternelle, on apprend justement à reconnaître les lettres et à les situer dans l'alphabet ; ce petit tri d'images accompagne ce travail tout en douceur.",
+      "p2": "Pour les enfants de cinq à six ans, trier des images selon leur initiale est une douce entrée dans l'ordre alphabétique. L'enfant regarde la lettre imprimée sur chaque carte de Ustensiles de cuisine et range les images à son rythme, sans aucune lecture. La fiche ne coûte rien : jouez-y directement en ligne, ou imprimez-la et posez-la à côté des crayons de couleur. Ainsi, le tout-petit travaille l'ordre des lettres là où il se sent le mieux.",
+      "p3": "Et voilà : avec les images de Ustensiles de cuisine à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-ustensiles-de-cuisine-8e08",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Musique",
+          "href": "train-de-l-alphabet-indice-de-lettre-musique-d526"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Métiers",
+          "href": "train-de-l-alphabet-indice-de-lettre-metiers-71dc"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Printemps",
+          "href": "train-de-l-alphabet-indice-de-lettre-printemps-d80d"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Météo",
+          "href": "train-de-l-alphabet-indice-de-lettre-meteo-bc02"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Ustensiles de cuisine | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Ustensiles de cuisine de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-musique-d526",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "music",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Musique par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Musique",
+        "music",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Imaginez une rangée de cartes-images bien alignées : sur chacune, une lettre est imprimée, celle par laquelle commence le mot. L'enfant range alors les images dans l'ordre de ces lettres, de A à Z. Pas besoin de savoir lire : il regarde la lettre repère, la compare à celle d'à côté et glisse la carte à sa place. D'abord la lettre A, puis la suivante – et la rangée s'allonge. Les images de Musique accompagnent chaque lettre et rendent le tri concret et agréable. Au fil des cartes, l'ordre alphabétique se dépose en douceur dans la tête du tout-petit, sans pression et sans déchiffrage.",
+      "p2": "Que vous remplissiez un après-midi de pluie à la maison ou que vous aménagiez un coin des lettres en classe, cette fiche trouve toujours sa place. Trier les images de Musique selon leur lettre initiale est gratuit à jouer en ligne et tout aussi simple à imprimer. L'enfant choisit son rythme, vous regardez avec lui et nommez peut-être chaque image ensemble – et la rangée se complète, de A à Z.",
+      "p3": "Et voilà : avec les images de Musique à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-musique-d526",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Métiers",
+          "href": "train-de-l-alphabet-indice-de-lettre-metiers-71dc"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Vie océanique",
+          "href": "train-de-l-alphabet-indice-de-lettre-vie-oceanique-0a9a"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Été",
+          "href": "train-de-l-alphabet-indice-de-lettre-ete-20dc"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Hiver",
+          "href": "train-de-l-alphabet-indice-de-lettre-hiver-bbf8"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Musique | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Musique de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-metiers-71dc",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "occupations",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Métiers par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Métiers",
+        "occupations",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "L'alphabet a un ordre bien à lui, et c'est ce qui rend ce tri d'images amusant. Les cartes de Métiers se sont mélangées : il faut les remettre en file selon la lettre imprimée sur chacune. L'enfant regarde la lettre par laquelle commence chaque image, la première lettre du mot, et range les cartes de A jusqu'à Z. Il observe, compare, réfléchit un peu – quelle lettre vient avant l'autre ? – mais il n'a pas encore besoin de savoir lire. Les images donnent à chaque lettre un petit visage familier. Carte après carte, la rangée se complète, et avec elle le sens de l'ordre alphabétique : une belle préparation au plaisir de lire qui attend en CP.",
+      "p2": "Dans le canapé avec une tablette ou à la table de la cuisine avec une feuille imprimée : ce tri d'images se fait partout. La fiche de Métiers est gratuite en ligne, pour commencer tout de suite, et le bouton d'impression est à portée de main pour ceux qui aiment le papier. Pour les enfants de maternelle, regarder la première lettre de chaque image est une façon tout en douceur de découvrir l'ordre alphabétique.",
+      "p3": "Et voilà : avec les images de Métiers à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-metiers-71dc",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Vie océanique",
+          "href": "train-de-l-alphabet-indice-de-lettre-vie-oceanique-0a9a"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Espace",
+          "href": "train-de-l-alphabet-indice-de-lettre-espace-7cb1"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Choses qui volent",
+          "href": "train-de-l-alphabet-indice-de-lettre-choses-qui-volent-dc4a"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Animaux du zoo",
+          "href": "train-de-l-alphabet-indice-de-lettre-animaux-du-zoo-b0ab"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Métiers | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Métiers de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-vie-oceanique-0a9a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "ocean_life",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Vie océanique par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Vie océanique",
+        "ocean life",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Une lettre dans le coin de chaque image, et tout un alphabet à reconstituer : voilà cette fiche dans toute sa simplicité. Avec les images de Vie océanique, l'enfant cherche la carte dont la première lettre vient en tête, la pose, puis poursuit avec la lettre suivante, jusqu'à Z. Il ne lit pas le mot ; il s'appuie uniquement sur la lettre imprimée pour ranger. Rien n'est en jeu, rien n'est à finir à tout prix : le tout-petit avance aussi longtemps que c'est amusant. À chaque carte qui trouve sa place dans la file alphabétique, le repère des lettres se fixe un peu mieux, sans que cela ressemble jamais à une leçon imposée.",
+      "p2": "Pour les enfants de cinq à six ans, trier des images selon leur initiale est une douce entrée dans l'ordre alphabétique. L'enfant regarde la lettre imprimée sur chaque carte de Vie océanique et range les images à son rythme, sans aucune lecture. La fiche ne coûte rien : jouez-y directement en ligne, ou imprimez-la et posez-la à côté des crayons de couleur. Ainsi, le tout-petit travaille l'ordre des lettres là où il se sent le mieux.",
+      "p3": "Et voilà : avec les images de Vie océanique à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-vie-oceanique-0a9a",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Espace",
+          "href": "train-de-l-alphabet-indice-de-lettre-espace-7cb1"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Printemps",
+          "href": "train-de-l-alphabet-indice-de-lettre-printemps-d80d"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Jouets",
+          "href": "train-de-l-alphabet-indice-de-lettre-jouets-383d"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Accessoires",
+          "href": "train-de-l-alphabet-indice-de-lettre-accessoires-6d18"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Vie océanique | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Vie océanique de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-espace-7cb1",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "space",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Espace par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Espace",
+        "space",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Quelle carte se range en premier ? Celle dont la lettre imprimée vient le plus tôt dans l'alphabet. Sur cette fiche, l'enfant compare les premières lettres affichées sur chaque image et place les cartes en file, de A jusqu'à Z. Il regarde la lettre par laquelle commence chaque mot, sans lire le mot lui-même : la lettre imprimée fait tout le travail. Les images de Espace rendent ce tri joyeux et familier, et chaque carte bien placée est une petite victoire. C'est exactement ce travail tout en douceur sur l'initiale des images qui prépare l'enfant de maternelle à reconnaître les lettres et à sentir leur ordre.",
+      "p2": "Que vous remplissiez un après-midi de pluie à la maison ou que vous aménagiez un coin des lettres en classe, cette fiche trouve toujours sa place. Trier les images de Espace selon leur lettre initiale est gratuit à jouer en ligne et tout aussi simple à imprimer. L'enfant choisit son rythme, vous regardez avec lui et nommez peut-être chaque image ensemble – et la rangée se complète, de A à Z.",
+      "p3": "Et voilà : avec les images de Espace à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-espace-7cb1",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Printemps",
+          "href": "train-de-l-alphabet-indice-de-lettre-printemps-d80d"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Été",
+          "href": "train-de-l-alphabet-indice-de-lettre-ete-20dc"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Légumes",
+          "href": "train-de-l-alphabet-indice-de-lettre-legumes-7b1c"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Activités",
+          "href": "train-de-l-alphabet-indice-de-lettre-activites-9f0a"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Espace | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Espace de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-printemps-d80d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "spring",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Printemps par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Printemps",
+        "spring",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Lancez un grand « on range les cartes ! » et le jeu des lettres peut commencer. Sur cette fiche, l'enfant met en ordre les images de Printemps en regardant la lettre imprimée sur chacune. Cette lettre, c'est la première du mot, et elle sert de guide : on cherche d'abord celle qui vient au début de l'alphabet, puis on continue, lettre après lettre, jusqu'à Z. Lire n'est pas nécessaire : c'est bien la reconnaissance de la lettre initiale et sa place dans l'alphabet qui sont au cœur du jeu. Les images en font une petite excursion : on regarde ensemble, on nomme, puis on glisse la carte à sa place dans la rangée.",
+      "p2": "Dans le canapé avec une tablette ou à la table de la cuisine avec une feuille imprimée : ce tri d'images se fait partout. La fiche de Printemps est gratuite en ligne, pour commencer tout de suite, et le bouton d'impression est à portée de main pour ceux qui aiment le papier. Pour les enfants de maternelle, regarder la première lettre de chaque image est une façon tout en douceur de découvrir l'ordre alphabétique.",
+      "p3": "Et voilà : avec les images de Printemps à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-printemps-d80d",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Été",
+          "href": "train-de-l-alphabet-indice-de-lettre-ete-20dc"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Choses qui volent",
+          "href": "train-de-l-alphabet-indice-de-lettre-choses-qui-volent-dc4a"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Véhicules",
+          "href": "train-de-l-alphabet-indice-de-lettre-vehicules-5b8a"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Animaux",
+          "href": "train-de-l-alphabet-indice-de-lettre-animaux-01da"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Printemps | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Printemps de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-ete-20dc",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "summer",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Été par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Été",
+        "summer",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Toutes les cartes sont mélangées, et il faut les remettre dans l'ordre des lettres ! Sur cette fiche, l'enfant trie les images de Été en s'appuyant sur la lettre imprimée que porte chacune. Cette lettre, c'est l'initiale du mot, et elle suffit pour décider où va la carte : la lettre A en tête, puis B, jusqu'au bout, à Z. Le pré-lecteur n'a rien à lire ; il reconnaît la première lettre et la place au bon endroit. Les images invitent à montrer du doigt, à nommer et à bavarder ensemble. Ainsi, ranger les cartes selon leur lettre initiale devient un jeu, et l'ordre alphabétique se construit carte après carte.",
+      "p2": "Pour les enfants de cinq à six ans, trier des images selon leur initiale est une douce entrée dans l'ordre alphabétique. L'enfant regarde la lettre imprimée sur chaque carte de Été et range les images à son rythme, sans aucune lecture. La fiche ne coûte rien : jouez-y directement en ligne, ou imprimez-la et posez-la à côté des crayons de couleur. Ainsi, le tout-petit travaille l'ordre des lettres là où il se sent le mieux.",
+      "p3": "Et voilà : avec les images de Été à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-ete-20dc",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Choses qui volent",
+          "href": "train-de-l-alphabet-indice-de-lettre-choses-qui-volent-dc4a"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Jouets",
+          "href": "train-de-l-alphabet-indice-de-lettre-jouets-383d"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Météo",
+          "href": "train-de-l-alphabet-indice-de-lettre-meteo-bc02"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Autour de la maison",
+          "href": "train-de-l-alphabet-indice-de-lettre-autour-de-la-maison-6c0c"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Été | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Été de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-choses-qui-volent-dc4a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "things_that_fly",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Choses qui volent par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Choses qui volent",
+        "things that fly",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Sur cette fiche, chaque carte-image porte une petite lettre imprimée dans un coin : c'est la première lettre du mot. L'enfant n'a pas à lire le mot ; il lui suffit de regarder cette lettre repère pour savoir où ranger la carte. On installe d'abord la carte dont la lettre est A, puis celle dont la lettre est B, et ainsi de suite jusqu'à Z. Les images de Choses qui volent défilent une à une et donnent envie de pointer du doigt et de nommer ce que l'on voit. Tout en triant les cartes selon leur lettre initiale, le tout-petit découvre tranquillement l'ordre alphabétique, une carte après l'autre, sans jamais avoir à déchiffrer.",
+      "p2": "Que vous remplissiez un après-midi de pluie à la maison ou que vous aménagiez un coin des lettres en classe, cette fiche trouve toujours sa place. Trier les images de Choses qui volent selon leur lettre initiale est gratuit à jouer en ligne et tout aussi simple à imprimer. L'enfant choisit son rythme, vous regardez avec lui et nommez peut-être chaque image ensemble – et la rangée se complète, de A à Z.",
+      "p3": "Et voilà : avec les images de Choses qui volent à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-choses-qui-volent-dc4a",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Jouets",
+          "href": "train-de-l-alphabet-indice-de-lettre-jouets-383d"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Légumes",
+          "href": "train-de-l-alphabet-indice-de-lettre-legumes-7b1c"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Hiver",
+          "href": "train-de-l-alphabet-indice-de-lettre-hiver-bbf8"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Au supermarché",
+          "href": "train-de-l-alphabet-indice-de-lettre-au-supermarche-4b74"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Choses qui volent | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Choses qui volent de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-jouets-383d",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "toys",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Jouets par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Jouets",
+        "toys",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Votre enfant reconnaît déjà quelques lettres ? Alors trier des images selon leur initiale est une jolie façon de travailler l'ordre alphabétique. Sur chaque carte de Jouets, une lettre imprimée indique par où commence le mot : l'enfant la regarde, la compare aux autres et range les cartes de A à Z. Aucun mot à lire, aucune difficulté de lecture : la lettre par laquelle commence l'image fait office de repère. Les images donnent envie de nommer et de raconter ensemble. En maternelle, on apprend justement à reconnaître les lettres et à les situer dans l'alphabet ; ce petit tri d'images accompagne ce travail tout en douceur.",
+      "p2": "Dans le canapé avec une tablette ou à la table de la cuisine avec une feuille imprimée : ce tri d'images se fait partout. La fiche de Jouets est gratuite en ligne, pour commencer tout de suite, et le bouton d'impression est à portée de main pour ceux qui aiment le papier. Pour les enfants de maternelle, regarder la première lettre de chaque image est une façon tout en douceur de découvrir l'ordre alphabétique.",
+      "p3": "Et voilà : avec les images de Jouets à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-jouets-383d",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Légumes",
+          "href": "train-de-l-alphabet-indice-de-lettre-legumes-7b1c"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Véhicules",
+          "href": "train-de-l-alphabet-indice-de-lettre-vehicules-5b8a"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Animaux du zoo",
+          "href": "train-de-l-alphabet-indice-de-lettre-animaux-du-zoo-b0ab"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Plage",
+          "href": "train-de-l-alphabet-indice-de-lettre-plage-3900"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Jouets | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Jouets de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription.",
+      "collapseSiblings": [
+        "train-de-l-alphabet-indice-de-lettre-jouets-383d",
+        "train-de-l-alphabet-indice-de-lettre-jouets-922d"
+      ]
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-legumes-7b1c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "vegetables",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Légumes par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Légumes",
+        "vegetables",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Imaginez une rangée de cartes-images bien alignées : sur chacune, une lettre est imprimée, celle par laquelle commence le mot. L'enfant range alors les images dans l'ordre de ces lettres, de A à Z. Pas besoin de savoir lire : il regarde la lettre repère, la compare à celle d'à côté et glisse la carte à sa place. D'abord la lettre A, puis la suivante – et la rangée s'allonge. Les images de Légumes accompagnent chaque lettre et rendent le tri concret et agréable. Au fil des cartes, l'ordre alphabétique se dépose en douceur dans la tête du tout-petit, sans pression et sans déchiffrage.",
+      "p2": "Pour les enfants de cinq à six ans, trier des images selon leur initiale est une douce entrée dans l'ordre alphabétique. L'enfant regarde la lettre imprimée sur chaque carte de Légumes et range les images à son rythme, sans aucune lecture. La fiche ne coûte rien : jouez-y directement en ligne, ou imprimez-la et posez-la à côté des crayons de couleur. Ainsi, le tout-petit travaille l'ordre des lettres là où il se sent le mieux.",
+      "p3": "Et voilà : avec les images de Légumes à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-legumes-7b1c",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Véhicules",
+          "href": "train-de-l-alphabet-indice-de-lettre-vehicules-5b8a"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Météo",
+          "href": "train-de-l-alphabet-indice-de-lettre-meteo-bc02"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Accessoires",
+          "href": "train-de-l-alphabet-indice-de-lettre-accessoires-6d18"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Oiseaux 2",
+          "href": "train-de-l-alphabet-indice-de-lettre-oiseaux-2-f5a4"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Légumes | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Légumes de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-vehicules-5b8a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "vehicles",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Véhicules par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Véhicules",
+        "vehicles",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "L'alphabet a un ordre bien à lui, et c'est ce qui rend ce tri d'images amusant. Les cartes de Véhicules se sont mélangées : il faut les remettre en file selon la lettre imprimée sur chacune. L'enfant regarde la lettre par laquelle commence chaque image, la première lettre du mot, et range les cartes de A jusqu'à Z. Il observe, compare, réfléchit un peu – quelle lettre vient avant l'autre ? – mais il n'a pas encore besoin de savoir lire. Les images donnent à chaque lettre un petit visage familier. Carte après carte, la rangée se complète, et avec elle le sens de l'ordre alphabétique : une belle préparation au plaisir de lire qui attend en CP.",
+      "p2": "Les lettres n'ont pas à coûter quoi que ce soit : ce tri d'images de Véhicules est prêt pour tout le monde. Ouvrez la fiche en ligne et laissez l'enfant ranger les cartes selon leur première lettre, ou imprimez-la et accrochez fièrement la rangée terminée sur le frigo. Pour les enfants qui s'approchent du CP, c'est un exercice joyeux où chaque carte bien placée dans l'ordre alphabétique est une petite fête.",
+      "p3": "Et voilà : avec les images de Véhicules à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-vehicules-5b8a",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Météo",
+          "href": "train-de-l-alphabet-indice-de-lettre-meteo-bc02"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Hiver",
+          "href": "train-de-l-alphabet-indice-de-lettre-hiver-bbf8"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Activités",
+          "href": "train-de-l-alphabet-indice-de-lettre-activites-9f0a"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Petit-déjeuner",
+          "href": "train-de-l-alphabet-indice-de-lettre-petit-dejeuner-ce42"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Véhicules | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Véhicules de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-meteo-bc02",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "weather",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Météo par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Météo",
+        "weather",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Une lettre dans le coin de chaque image, et tout un alphabet à reconstituer : voilà cette fiche dans toute sa simplicité. Avec les images de Météo, l'enfant cherche la carte dont la première lettre vient en tête, la pose, puis poursuit avec la lettre suivante, jusqu'à Z. Il ne lit pas le mot ; il s'appuie uniquement sur la lettre imprimée pour ranger. Rien n'est en jeu, rien n'est à finir à tout prix : le tout-petit avance aussi longtemps que c'est amusant. À chaque carte qui trouve sa place dans la file alphabétique, le repère des lettres se fixe un peu mieux, sans que cela ressemble jamais à une leçon imposée.",
+      "p2": "Dans le canapé avec une tablette ou à la table de la cuisine avec une feuille imprimée : ce tri d'images se fait partout. La fiche de Météo est gratuite en ligne, pour commencer tout de suite, et le bouton d'impression est à portée de main pour ceux qui aiment le papier. Pour les enfants de maternelle, regarder la première lettre de chaque image est une façon tout en douceur de découvrir l'ordre alphabétique.",
+      "p3": "Et voilà : avec les images de Météo à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-meteo-bc02",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Hiver",
+          "href": "train-de-l-alphabet-indice-de-lettre-hiver-bbf8"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Animaux du zoo",
+          "href": "train-de-l-alphabet-indice-de-lettre-animaux-du-zoo-b0ab"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Animaux",
+          "href": "train-de-l-alphabet-indice-de-lettre-animaux-01da"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Camping",
+          "href": "train-de-l-alphabet-indice-de-lettre-camping-d9e2"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Météo | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Météo de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-hiver-bbf8",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "winter",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Hiver par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Hiver",
+        "winter",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Quelle carte se range en premier ? Celle dont la lettre imprimée vient le plus tôt dans l'alphabet. Sur cette fiche, l'enfant compare les premières lettres affichées sur chaque image et place les cartes en file, de A jusqu'à Z. Il regarde la lettre par laquelle commence chaque mot, sans lire le mot lui-même : la lettre imprimée fait tout le travail. Les images de Hiver rendent ce tri joyeux et familier, et chaque carte bien placée est une petite victoire. C'est exactement ce travail tout en douceur sur l'initiale des images qui prépare l'enfant de maternelle à reconnaître les lettres et à sentir leur ordre.",
+      "p2": "Pour les enfants de cinq à six ans, trier des images selon leur initiale est une douce entrée dans l'ordre alphabétique. L'enfant regarde la lettre imprimée sur chaque carte de Hiver et range les images à son rythme, sans aucune lecture. La fiche ne coûte rien : jouez-y directement en ligne, ou imprimez-la et posez-la à côté des crayons de couleur. Ainsi, le tout-petit travaille l'ordre des lettres là où il se sent le mieux.",
+      "p3": "Et voilà : avec les images de Hiver à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-hiver-bbf8",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Animaux du zoo",
+          "href": "train-de-l-alphabet-indice-de-lettre-animaux-du-zoo-b0ab"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Accessoires",
+          "href": "train-de-l-alphabet-indice-de-lettre-accessoires-6d18"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Autour de la maison",
+          "href": "train-de-l-alphabet-indice-de-lettre-autour-de-la-maison-6c0c"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Salle de classe",
+          "href": "train-de-l-alphabet-indice-de-lettre-salle-de-classe-a490"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Hiver | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Hiver de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
+    },
+    {
+      "slug": "train-de-l-alphabet-indice-de-lettre-animaux-du-zoo-b0ab",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "zoo_animals",
+        "level": "maternelle"
+      },
+      "eyebrow": "Fiche : Lettre repère sur l'image",
+      "h1": "Range les images de Animaux du zoo par leur première lettre",
+      "strand": "Découverte du principe alphabétique — initiale des images",
+      "slotTokens": [
+        "Animaux du zoo",
+        "zoo animals",
+        "maternelle",
+        "ordre alphabétique",
+        "première lettre",
+        "train des lettres"
+      ],
+      "p1": "Lancez un grand « on range les cartes ! » et le jeu des lettres peut commencer. Sur cette fiche, l'enfant met en ordre les images de Animaux du zoo en regardant la lettre imprimée sur chacune. Cette lettre, c'est la première du mot, et elle sert de guide : on cherche d'abord celle qui vient au début de l'alphabet, puis on continue, lettre après lettre, jusqu'à Z. Lire n'est pas nécessaire : c'est bien la reconnaissance de la lettre initiale et sa place dans l'alphabet qui sont au cœur du jeu. Les images en font une petite excursion : on regarde ensemble, on nomme, puis on glisse la carte à sa place dans la rangée.",
+      "p2": "Les lettres n'ont pas à coûter quoi que ce soit : ce tri d'images de Animaux du zoo est prêt pour tout le monde. Ouvrez la fiche en ligne et laissez l'enfant ranger les cartes selon leur première lettre, ou imprimez-la et accrochez fièrement la rangée terminée sur le frigo. Pour les enfants qui s'approchent du CP, c'est un exercice joyeux où chaque carte bien placée dans l'ordre alphabétique est une petite fête.",
+      "p3": "Et voilà : avec les images de Animaux du zoo à ranger par leur première lettre, votre enfant a reconnu l'initiale de chaque carte et l'a glissée à sa place, de A à Z, tout en s'amusant. C'est déjà une belle réussite ! Si ce jeu lui a plu, d'autres fiches tout aussi douces l'attendent, avec d'autres images à trier dans l'ordre alphabétique. Toutes sont gratuites, à imprimer en PDF ou à jouer en ligne, sans inscription. Prenez votre temps, jouez à son rythme : il n'y a ni gagnant ni perdant, ni chronomètre, juste le bonheur de reconnaître les lettres ensemble. Ce petit tri d'images s'inscrit naturellement dans les programmes officiels de l'école maternelle, où l'on découvre le principe alphabétique en douceur. Bravo à votre petit trieur de cartes !",
+      "canonicalDeckSlug": "train-de-l-alphabet-indice-de-lettre-animaux-du-zoo-b0ab",
+      "carousel": [
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Accessoires",
+          "href": "train-de-l-alphabet-indice-de-lettre-accessoires-6d18"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Activités",
+          "href": "train-de-l-alphabet-indice-de-lettre-activites-9f0a"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Au supermarché",
+          "href": "train-de-l-alphabet-indice-de-lettre-au-supermarche-4b74"
+        },
+        {
+          "label": "Images à ranger dans l'ordre des lettres – Vêtements",
+          "href": "train-de-l-alphabet-indice-de-lettre-vetements-9b15"
+        }
+      ],
+      "title": "Ordre alphabétique en images pour la maternelle – Animaux du zoo | PDF gratuit",
+      "metaDescription": "Fiche maternelle : range les cartes-images de Animaux du zoo de A à Z grâce à la lettre imprimée sur chaque image. À imprimer en PDF ou à jouer en ligne, gratuit, sans inscription."
     }
   ]
 }

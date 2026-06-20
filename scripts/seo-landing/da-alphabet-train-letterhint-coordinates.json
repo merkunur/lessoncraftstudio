@@ -1,0 +1,519 @@
+{
+  "locale": "da",
+  "exerciseType": "alphabet-train",
+  "exerciseMode": "letter-hint",
+  "rawRowCount": 38,
+  "validCount": 38,
+  "modesSeen": [
+    "letter-hint"
+  ],
+  "ageRangeValues": [
+    "3-5"
+  ],
+  "collapses": 0,
+  "collapseSizes": [
+    1
+  ],
+  "bareOrNone": [],
+  "sampleSlugs": [
+    "alfabettoget-bogstavhjaelp-4-juli-6344 (n=1)",
+    "alfabettoget-bogstavhjaelp-tilbehor-2643 (n=1)",
+    "alfabettoget-bogstavhjaelp-aktiviteter-26a9 (n=1)"
+  ],
+  "coordinates": [
+    {
+      "mode": "letter-hint",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-4-juli-6344",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-4-juli-6344"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-tilbehor-2643",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-tilbehor-2643"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-aktiviteter-26a9",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-aktiviteter-26a9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-dyr-f8ea",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-dyr-f8ea"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-rundt-i-huset-6160",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-rundt-i-huset-6160"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-i-supermarkedet-7670",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-i-supermarkedet-7670"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-bageri-1552",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-bageri-1552"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-strand-2ad3",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-strand-2ad3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-fugle-2-2899",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-fugle-2-2899"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-kropsdele-f906",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-kropsdele-f906"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-morgenmad-48bd",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-morgenmad-48bd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-camping-bb26",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-camping-bb26"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-jul-afa0",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-jul-afa0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-klassevaerelse-08dc",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-klassevaerelse-08dc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-toj-51c9",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-toj-51c9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-farver-7a02",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-farver-7a02"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-desserter-og-slik-fc8d",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-desserter-og-slik-fc8d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-dinosaurer-d6d3",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-dinosaurer-d6d3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-paske-ca0c",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-paske-ca0c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-bondegardsdyr-c20a",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-bondegardsdyr-c20a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-blomster-8e05",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-blomster-8e05"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-skovdyr-f61d",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-skovdyr-f61d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-frugter-8fb2",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-frugter-8fb2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-hospital-d1a4",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-hospital-d1a4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-kokkenredskaber-8748",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-kokkenredskaber-8748"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-erhverv-5152",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-erhverv-5152"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-havliv-1ade",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-havliv-1ade"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-kaeledyr-cd9b",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-kaeledyr-cd9b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-rummet-0b2a",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-rummet-0b2a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-forar-a914",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-forar-a914"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-sommer-cdfb",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-sommer-cdfb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-thanksgiving-a07a",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-thanksgiving-a07a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-ting-der-flyver-c844",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-ting-der-flyver-c844"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-legetoj-2b45",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-legetoj-2b45"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-traeer-1e09",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-traeer-1e09"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-grontsager-0bcb",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-grontsager-0bcb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-koretojer-6ef3",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-koretojer-6ef3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "alfabettoget-bogstavhjaelp-zoodyr-b007",
+      "siblings": [
+        "alfabettoget-bogstavhjaelp-zoodyr-b007"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    }
+  ]
+}

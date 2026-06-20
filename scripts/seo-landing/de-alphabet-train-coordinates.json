@@ -560,6 +560,596 @@
         "3-5"
       ],
       "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-4-juli-160e",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-4-juli-160e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-accessoires-8499",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-accessoires-8499"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-aktivitaten-b4d1",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-aktivitaten-b4d1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-tiere-d196",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-tiere-d196"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-rund-ums-haus-16ce",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-rund-ums-haus-16ce"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-im-supermarkt-56b1",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-im-supermarkt-56b1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-strand-0343",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-strand-0343"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-vogel-2-62ae",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-vogel-2-62ae"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-korperteile-ae39",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-korperteile-ae39"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-fruhstuck-9c8c",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-fruhstuck-9c8c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-camping-005f",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-camping-005f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonical": "buchstabenzug-buchstaben-hilfe-weihnachten-d4a0",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-weihnachten-d4a0",
+        "buchstabenzug-buchstaben-hilfe-weihnachten-63c1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-klassenzimmer-d66e",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-klassenzimmer-d66e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-kleidung-b583",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-kleidung-b583"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-farben-9cdd",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-farben-9cdd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-desserts-und-sussigkeiten-138f",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-desserts-und-sussigkeiten-138f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-dinosaurier-fef7",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-dinosaurier-fef7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-ostern-459a",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-ostern-459a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-emotionen-5270",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-emotionen-5270"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-bauernhoftiere-52e0",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-bauernhoftiere-52e0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-blumen-077d",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-blumen-077d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-waldtiere-8d45",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-waldtiere-8d45"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-fruchte-9998",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-fruchte-9998"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-krankenhaus-223d",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-krankenhaus-223d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-kuchenwerkzeuge-c9ff",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-kuchenwerkzeuge-c9ff"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-musik-6fba",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-musik-6fba"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-berufe-de40",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-berufe-de40"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-meeresleben-4d83",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-meeresleben-4d83"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-haustiere-272c",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-haustiere-272c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-formen-1b80",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-formen-1b80"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonical": "buchstabenzug-buchstaben-hilfe-weltraum-94e2",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-weltraum-94e2",
+        "buchstabenzug-buchstaben-hilfe-weltraum-2ea8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-fruhling-b1a5",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-fruhling-b1a5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-sommer-5d92",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-sommer-5d92"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-erntedankfest-8b6e",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-erntedankfest-8b6e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-dinge-die-fliegen-1af0",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-dinge-die-fliegen-1af0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-werkzeuge-d332",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-werkzeuge-d332"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-spielzeug-b336",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-spielzeug-b336"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-baume-826c",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-baume-826c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-gemuse-25d7",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-gemuse-25d7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-fahrzeuge-59b9",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-fahrzeuge-59b9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-winter-4f7b",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-winter-4f7b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "buchstabenzug-buchstaben-hilfe-zootiere-0406",
+      "siblings": [
+        "buchstabenzug-buchstaben-hilfe-zootiere-0406"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
     }
   ]
 }

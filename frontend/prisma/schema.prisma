@@ -1155,6 +1155,7 @@ model Deck {
   createdBy       String    @map("created_by")
   version         Int       @default(1)
   contentFamilyId String?   @map("content_family_id") // §17.8.7 reserved nullable
+  contentLanguage String?   @map("content_language") // ISO 639-1 TARGET language of a cross-language (2nd-language vocab) deck; null = monolingual. Drives the /learn category + the monolingual-surface exclusion filter.
   // Phase 2 doctrine §1+§2 uniqueness invariants (deck-page SEO arc Phase 3a).
   // sha256 hashes of rendered post-substitution title + meta description; nullable
   // for pre-Phase-4a-retrofit decks (backfilled at retrofit pass per Phase 4a
@@ -1184,6 +1185,9 @@ model Deck {
   @@index([subjectTags], type: Gin)
   @@index([language, status, ageRange])
   @@index([language, status, exerciseType])
+  // Serves both the monolingual-surface exclusion filter (contentLanguage IS NULL)
+  // and the /learn category fetchers (contentLanguage = <target>).
+  @@index([language, status, contentLanguage])
   @@map("decks")
 }
 

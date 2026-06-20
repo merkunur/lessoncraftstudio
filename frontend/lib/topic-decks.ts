@@ -27,6 +27,7 @@ const DECK_SELECT = {
   description: true,
   exerciseType: true,
   exerciseMode: true,
+  contentLanguage: true,
   ageRange: true,
   subjectTags: true,
   thumbnailUrl: true,
@@ -37,6 +38,14 @@ const DECK_SELECT = {
   updatedAt: true,
 } as const;
 
+/**
+ * Monolingual-catalog guard: excludes cross-language (2nd-language vocab) decks
+ * (contentLanguage set) from every monolingual browse surface. Cross-language
+ * decks live in the /learn ("Languages") category instead. Spread into every
+ * topic/browse/variety/breadth-grid `where`.
+ */
+export const MONOLINGUAL_WHERE = { contentLanguage: null } as const;
+
 // De-orphan (Wave 5): picture-sort "-vs-" pairs carry a single combined "X-vs-Y" subjectTag, so a theme hub for X
 // (or Y) must also surface them. getVsKeysForTheme returns the published "-vs-" subjectTags whose split on "-vs-"
 // has axisKey as an EXACT component — exact-equality, not substring, so `animals` matches `animals-vs-vehicles`
@@ -46,7 +55,7 @@ let _vsKeysCache: string[] | null = null;
 async function loadAllVsKeys(): Promise<string[]> {
   if (_vsKeysCache) return _vsKeysCache;
   const rows = await prisma.$queryRaw<{ t: string }[]>`
-    SELECT DISTINCT t FROM decks, unnest(subject_tags) AS t WHERE status = 'published' AND t LIKE '%-vs-%'`;
+    SELECT DISTINCT t FROM decks, unnest(subject_tags) AS t WHERE status = 'published' AND content_language IS NULL AND t LIKE '%-vs-%'`;
   _vsKeysCache = rows.map((r) => r.t);
   return _vsKeysCache;
 }
@@ -79,7 +88,7 @@ export async function fetchDecksForAxis(
 ): Promise<TopicDeckSummary[]> {
   if (axis === 'exercise-type') {
     return prisma.deck.findMany({
-      where: { language: locale, status: 'published', exerciseType: axisKey },
+      where: { language: locale, status: 'published', contentLanguage: null, exerciseType: axisKey },
       select: DECK_SELECT,
       orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
     }) as unknown as Promise<TopicDeckSummary[]>;
@@ -87,7 +96,7 @@ export async function fetchDecksForAxis(
   if (axis === 'theme') {
     // De-orphan (Wave 5): match the theme exactly OR as a "-vs-" component (see themeSubjectTagsWhere).
     return prisma.deck.findMany({
-      where: { language: locale, status: 'published', ...(await themeSubjectTagsWhere(axisKey)) },
+      where: { language: locale, status: 'published', contentLanguage: null, ...(await themeSubjectTagsWhere(axisKey)) },
       select: DECK_SELECT,
       orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
     }) as unknown as Promise<TopicDeckSummary[]>;
@@ -96,7 +105,7 @@ export async function fetchDecksForAxis(
     const ageRanges = levelKeyToAgeRanges(axisKey);
     if (ageRanges.length === 0) return [];
     return prisma.deck.findMany({
-      where: { language: locale, status: 'published', ageRange: { in: ageRanges } },
+      where: { language: locale, status: 'published', contentLanguage: null, ageRange: { in: ageRanges } },
       select: DECK_SELECT,
       orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
     }) as unknown as Promise<TopicDeckSummary[]>;
@@ -119,7 +128,7 @@ export async function listNonEmptyAxisKeys(
   if (axis === 'exercise-type') {
     const grouped = await prisma.deck.groupBy({
       by: ['exerciseType'],
-      where: { language: locale, status: 'published' },
+      where: { language: locale, status: 'published', contentLanguage: null },
       _count: { _all: true },
     });
     const present = new Set(grouped.map(g => g.exerciseType));
@@ -127,7 +136,7 @@ export async function listNonEmptyAxisKeys(
   }
   if (axis === 'theme') {
     const decks = await prisma.deck.findMany({
-      where: { language: locale, status: 'published' },
+      where: { language: locale, status: 'published', contentLanguage: null },
       select: { subjectTags: true },
     });
     const present = new Set<string>();
@@ -139,7 +148,7 @@ export async function listNonEmptyAxisKeys(
   if (axis === 'educational-level') {
     const grouped = await prisma.deck.groupBy({
       by: ['ageRange'],
-      where: { language: locale, status: 'published' },
+      where: { language: locale, status: 'published', contentLanguage: null },
       _count: { _all: true },
     });
     const presentRanges = new Set(grouped.map(g => g.ageRange));
@@ -215,7 +224,7 @@ export async function fetchDecksForIntersection(
   if (!w1 || !w2) return [];
   const take = options?.take ?? 24;
   return prisma.deck.findMany({
-    where: { language: locale, status: 'published', ...w1, ...w2 },
+    where: { language: locale, status: 'published', contentLanguage: null, ...w1, ...w2 },
     select: DECK_SELECT,
     orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
     take,
@@ -239,7 +248,7 @@ export async function countDecksForIntersection(
   const w2 = buildAxisWhere(axis2, axisKey2);
   if (!w1 || !w2) return 0;
   return prisma.deck.count({
-    where: { language: locale, status: 'published', ...w1, ...w2 },
+    where: { language: locale, status: 'published', contentLanguage: null, ...w1, ...w2 },
   });
 }
 
@@ -270,7 +279,7 @@ export async function listNonEmptyIntersections(
   // intersectionLastModified() N+1 query (1 DB call per tuple × thousands
   // of tuples = static-export worker SIGTERMs at the 5-min budget).
   const decks = await prisma.deck.findMany({
-    where: { language: locale, status: 'published' },
+    where: { language: locale, status: 'published', contentLanguage: null },
     select: { exerciseType: true, ageRange: true, subjectTags: true, updatedAt: true },
   });
 
@@ -340,7 +349,7 @@ export async function intersectionLastModified(
   const w2 = buildAxisWhere(axis2, axisKey2);
   if (!w1 || !w2) return null;
   const row = await prisma.deck.findFirst({
-    where: { language: locale, status: 'published', ...w1, ...w2 },
+    where: { language: locale, status: 'published', contentLanguage: null, ...w1, ...w2 },
     select: { updatedAt: true },
     orderBy: { updatedAt: 'desc' },
   });
@@ -365,7 +374,7 @@ export async function listSiblingAxisKeysWithCounts(
   if (axis === 'exercise-type') {
     const grouped = await prisma.deck.groupBy({
       by: ['exerciseType'],
-      where: { language: locale, status: 'published' },
+      where: { language: locale, status: 'published', contentLanguage: null },
       _count: { _all: true },
     });
     const registry = new Set(listAxisKeys(axis));
@@ -379,7 +388,7 @@ export async function listSiblingAxisKeysWithCounts(
     // and tally per tag. Per-locale-bounded by language filter; index hit on
     // (language, status, *) compound prefixes.
     const decks = await prisma.deck.findMany({
-      where: { language: locale, status: 'published' },
+      where: { language: locale, status: 'published', contentLanguage: null },
       select: { subjectTags: true },
     });
     const registry = new Set(listAxisKeys(axis));
@@ -397,7 +406,7 @@ export async function listSiblingAxisKeysWithCounts(
   if (axis === 'educational-level') {
     const grouped = await prisma.deck.groupBy({
       by: ['ageRange'],
-      where: { language: locale, status: 'published' },
+      where: { language: locale, status: 'published', contentLanguage: null },
       _count: { _all: true },
     });
     // Aggregate ageRange tallies into educational-level keys (one ageRange
@@ -476,7 +485,7 @@ export async function listRelatedNonEmptyIntersections(
     // Pull all decks for the locale once per pair for counting. Per-locale-
     // bounded fetch; index hit on (language, status, *) compound.
     const decks = await prisma.deck.findMany({
-      where: { language: locale, status: 'published' },
+      where: { language: locale, status: 'published', contentLanguage: null },
       select: { exerciseType: true, ageRange: true, subjectTags: true },
     });
 
@@ -637,7 +646,7 @@ export async function fetchDecksForTopicWithFilters(
 
   const baseWhere = {
     language: locale,
-    status: 'published',
+    status: 'published', contentLanguage: null,
     ...whereFragments.reduce((acc, w) => ({ ...acc, ...w }), {}),
   };
 
@@ -701,7 +710,7 @@ export async function getFacetCounts(
 
   const baseWhere = {
     language: locale,
-    status: 'published',
+    status: 'published', contentLanguage: null,
     ...whereFragments.reduce((acc, w) => ({ ...acc, ...w }), {}),
   };
 
@@ -781,7 +790,7 @@ export async function getExerciseModeCountsForType(
 
   const baseWhere = {
     language: locale,
-    status: 'published',
+    status: 'published', contentLanguage: null,
     exerciseMode: { not: null },
     ...whereFragments.reduce((acc, w) => ({ ...acc, ...w }), {}),
   };
@@ -815,7 +824,7 @@ export async function listAllNonEmptyThemesWithCounts(
   locale: string
 ): Promise<Array<{ axisKey: string; count: number }>> {
   const decks = await prisma.deck.findMany({
-    where: { language: locale, status: 'published' },
+    where: { language: locale, status: 'published', contentLanguage: null },
     select: { subjectTags: true },
   });
   const registry = new Set(listAxisKeys('theme'));

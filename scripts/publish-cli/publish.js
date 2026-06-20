@@ -379,6 +379,7 @@ async function publish(opts) {
         description: { [locale]: meta.description },
         exerciseType: manifest.exercise_type,
         exerciseMode: manifest.exercise_mode,
+        contentLanguage: (manifest.content_language && manifest.content_language !== locale) ? manifest.content_language : null,
         subjectTags: subjectTagsForUpdate,
         ageRange: manifest.age_range || '5-7',  // per-deck (worksheet-gen printables); TODO: taxonomy.appConfig fallback per app
         htmlUrl: canonicalURL + 'deck.html',
@@ -418,6 +419,9 @@ async function publish(opts) {
         exerciseType: manifest.exercise_type,
         exerciseMode: manifest.exercise_mode,
         language: locale,
+        // Cross-language (2nd-language vocab) decks carry a target content_language;
+        // a content_language equal to the page locale is effectively monolingual.
+        contentLanguage: (manifest.content_language && manifest.content_language !== locale) ? manifest.content_language : null,
         subjectTags: subjectTagsForInsert,
         topicSlugs: [],   // future amendment to derive from taxonomy
         ageRange: ageRange,

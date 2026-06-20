@@ -98,6 +98,7 @@ export async function getExerciseModeUniverse(visitorLocale: string): Promise<Ex
     where: {
       status: 'published',
       language: { in: locales },
+      contentLanguage: null, // exclude cross-language decks (they live in /learn)
     },
     select: DECK_SELECT,
     orderBy: [{ publishedAt: 'desc' }, { slug: 'asc' }],

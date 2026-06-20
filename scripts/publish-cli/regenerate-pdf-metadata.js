@@ -33,6 +33,7 @@ var path = require('path');
 var pdfMetadata = require('./pdf-metadata');
 var taxonomy = require('./taxonomy');
 var i18n = require('./i18n');
+var pdfSeo = require('./pdf-seo-meta');
 
 var DEFAULT_DECKS_DIR = '/var/www/lcs-media/decks';
 var DEFAULT_LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
@@ -44,12 +45,16 @@ function parseArgs(argv) {
     decksRoot: DEFAULT_DECKS_DIR,
     sample: 0,
     dryRun: false,
-    concurrency: 16
+    concurrency: 16,
+    deckList: null,   // tsv "<lang>\t<slug>" (DB-sourced, authoritative public slugs)
+    show: 6           // dry-run: number of old→new samples to print per locale
   };
   argv.slice(2).forEach(function (a) {
     if (a.indexOf('--locales=') === 0) out.locales = a.slice('--locales='.length).split(',').filter(Boolean);
     else if (a.indexOf('--decks-root=') === 0) out.decksRoot = a.slice('--decks-root='.length);
+    else if (a.indexOf('--deck-list=') === 0) out.deckList = a.slice('--deck-list='.length);
     else if (a.indexOf('--sample=') === 0) out.sample = parseInt(a.slice('--sample='.length), 10) || 0;
+    else if (a.indexOf('--show=') === 0) out.show = parseInt(a.slice('--show='.length), 10) || 0;
     else if (a.indexOf('--concurrency=') === 0) out.concurrency = parseInt(a.slice('--concurrency='.length), 10) || 16;
     else if (a === '--dry-run') out.dryRun = true;
   });
@@ -73,6 +78,29 @@ function walkDecks(rootDir, locale) {
       versionDir: path.join(localeDir, n)
     };
   });
+}
+
+/**
+ * Build deck entries from a DB-sourced tsv ("<lang>\t<slug>") — the authoritative
+ * list of PUBLISHED public slugs. The dir is the public path /decks/<lang>/<slug>/
+ * (a symlink → <slug>-vN, or a flat dir); fs reads/writes follow it. This is more
+ * reliable than walkDecks() which only matches -vN dirs and silently skips flat
+ * dirs + double-processes legacy alias symlinks.
+ */
+function entriesFromDeckList(rootDir, locale, listPath) {
+  var lines = fs.readFileSync(listPath, 'utf8').split('\n');
+  var out = [];
+  for (var i = 0; i < lines.length; i++) {
+    var ln = lines[i];
+    if (!ln) continue;
+    var tab = ln.indexOf('\t');
+    if (tab < 0) continue;
+    var lang = ln.slice(0, tab).trim();
+    var slug = ln.slice(tab + 1).trim();
+    if (lang !== locale || !slug) continue;
+    out.push({ versionDirName: slug, slug: slug, versionDir: path.join(rootDir, locale, slug) });
+  }
+  return out;
 }
 
 function extractFromDeckHtml(versionDir) {
@@ -166,31 +194,40 @@ async function processOneDeck(rootDir, locale, entry, args) {
     return { ok: false, slug: slug, reason: 'manifest.json parse error: ' + e.message };
   }
 
-  var deckHtmlMeta = extractFromDeckHtml(versionDir);
-  var title = deckHtmlMeta.title;
-  if (!title) {
-    // Last-resort fallback: try manifest.title[locale].
-    if (manifest.title && typeof manifest.title === 'object' && manifest.title[locale]) {
-      title = manifest.title[locale];
+  // PDF-SEO commission 2026-06-20: compose PDF-SPECIFIC printable-intent localized
+  // metadata (NOT the deck.html <title>/description, which cannibalizes the landing
+  // + leaks English/raw-mode-tokens). Last-resort fallback to deck.html only when the
+  // manifest is too degenerate to compose a type name.
+  var seo = pdfSeo.composePdfMetadata(manifest, { locale: locale, slug: slug });
+  if (!seo || !seo.title) {
+    var dm = extractFromDeckHtml(versionDir);
+    if (dm.title) {
+      seo = { title: dm.title, subject: dm.description || dm.title, keywords: composeKeywords(manifest, locale) };
     } else {
-      return { ok: false, slug: slug, reason: 'no title source (deck.html + manifest.title both empty)' };
+      return { ok: false, slug: slug, reason: 'composePdfMetadata + deck.html both empty' };
     }
   }
-  var description = deckHtmlMeta.description || title;
-
-  var keywords = composeKeywords(manifest, locale);
   var canonicalUrl = canonicalUrlFor(locale, slug);
 
   var basePdfOpts = {
-    title: title,
+    title: seo.title,
     author: 'LessonCraftStudio',
-    subject: description,
-    keywords: keywords,
+    subject: seo.subject,
+    keywords: seo.keywords,
     canonicalUrl: canonicalUrl
   };
 
   if (args.dryRun) {
-    return { ok: true, slug: slug, dryRun: true, hasAnswerKey: fs.existsSync(answerKeyPath) };
+    var oldMeta = null;
+    try {
+      var PDFDocument = require('pdf-lib').PDFDocument;
+      var d0 = await PDFDocument.load(fs.readFileSync(printablePath), { updateMetadata: false });
+      oldMeta = { title: d0.getTitle(), subject: d0.getSubject(), keywords: d0.getKeywords() };
+    } catch (e) { /* ignore — old read is best-effort for the diff preview */ }
+    return {
+      ok: true, slug: slug, dryRun: true, hasAnswerKey: fs.existsSync(answerKeyPath),
+      oldMeta: oldMeta, newMeta: { title: seo.title, subject: seo.subject, keywords: seo.keywords }
+    };
   }
 
   var printableResult, answerKeyResult = null;
@@ -207,8 +244,12 @@ async function processOneDeck(rootDir, locale, entry, args) {
     } catch (e) {
       answerKeyLabel = 'Answer Key';
     }
+    // Answer-key gets distinct /Title + /Subject + lead /Keywords so it never
+    // competes with the printable for the primary query (anti-cannibalization).
     var answerKeyOpts = Object.assign({}, basePdfOpts, {
-      title: title + ' — ' + answerKeyLabel
+      title: seo.title + ' — ' + answerKeyLabel,
+      subject: answerKeyLabel + ': ' + seo.subject,
+      keywords: (seo.keywords ? (answerKeyLabel + ', ') : '') + seo.keywords
     });
     try {
       answerKeyResult = await processOnePdf(answerKeyPath, answerKeyOpts);
@@ -262,7 +303,9 @@ async function main() {
 
   for (var li = 0; li < args.locales.length; li++) {
     var loc = args.locales[li];
-    var entries = walkDecks(args.decksRoot, loc);
+    var entries = args.deckList
+      ? entriesFromDeckList(args.decksRoot, loc, args.deckList)
+      : walkDecks(args.decksRoot, loc);
     if (args.sample) entries = entries.slice(0, args.sample);
     console.log('[regen-pdf] ' + loc + ': ' + entries.length + ' decks');
     perLocale[loc] = { found: entries.length, ok: 0, fail: 0 };
@@ -289,6 +332,22 @@ async function main() {
     }
     var lElapsed = ((Date.now() - lt0) / 1000).toFixed(1);
     console.log('[regen-pdf] ' + loc + ' done: ok=' + perLocale[loc].ok + ' fail=' + perLocale[loc].fail + ' in ' + lElapsed + 's');
+
+    if (args.dryRun && args.show > 0) {
+      var shown = 0;
+      for (var si = 0; si < results.length && shown < args.show; si++) {
+        var rr = results[si];
+        if (!rr || !rr.newMeta) continue;
+        shown++;
+        var o = rr.oldMeta || {};
+        console.log('  --- ' + loc + '/' + rr.slug + (rr.hasAnswerKey ? '' : '  [printable-only]'));
+        console.log('    OLD title: ' + (o.title || '(none)'));
+        console.log('    NEW title: ' + rr.newMeta.title);
+        console.log('    OLD subj : ' + (o.subject || '(none)'));
+        console.log('    NEW subj : ' + rr.newMeta.subject);
+        console.log('    NEW keyw : ' + rr.newMeta.keywords);
+      }
+    }
   }
 
   var elapsedTotal = ((Date.now() - t0) / 1000).toFixed(1);

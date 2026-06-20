@@ -30,6 +30,7 @@ var crypto = require('crypto');
 var db = require('./db');
 var seoReconciliation = require('./seo-reconciliation');
 var countInboundMod = require('./count-inbound-surfaces');
+var waveScope = require('./wave-scope');
 
 var CANONICAL_URL_BASE = 'https://www.lessoncraftstudio.com';
 var DECKS_ROOT_DEFAULT = '/var/www/lcs-media/decks';
@@ -668,6 +669,16 @@ async function main() {
 
   // Filter to requested locales (baseline may carry others).
   var decks = baselineDecks.filter(function (d) { return args.locales.indexOf(d.language) !== -1; });
+
+  // Wave-scoping (--slugs-file): restrict the file-level audit to the wave's new decks.
+  // Catalog-wide title/description uniqueness is already enforced by the DB @@unique constraint
+  // at publish time, so a wave-scoped audit is the right publish gate (and avoids loading every
+  // deck.html into memory — the catalog-scale OOM). Omit --slugs-file to audit the whole catalog.
+  var waveSlugs = waveScope.loadSlugSet(process.argv);
+  if (waveSlugs) {
+    decks = decks.filter(function (d) { return waveSlugs.has(d.slug); });
+    console.log('[audit-deck-html] wave-scoped (--slugs-file): ' + decks.length + ' decks');
+  }
 
   // If sampling, take first N per locale.
   if (args.sample) {

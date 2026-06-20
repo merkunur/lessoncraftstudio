@@ -33,6 +33,7 @@
 
 var fs = require('fs');
 var path = require('path');
+var waveScope = require('./wave-scope');
 
 var DECKS_ROOT = '/var/www/lcs-media/decks';
 var ALL_LOCALES = ['en', 'de', 'es', 'nl', 'fr', 'it', 'pt', 'sv', 'da', 'no', 'fi'];
@@ -43,6 +44,7 @@ var localeFlag = argv.find(function (a) { return a.indexOf('--locale=') === 0; }
 var TARGET_LOCALE = localeFlag ? localeFlag.split('=')[1] : null;
 var limitFlag = argv.find(function (a) { return a.indexOf('--limit=') === 0; });
 var TARGET_LIMIT = limitFlag ? parseInt(limitFlag.split('=')[1], 10) : Infinity;
+var WAVE_SLUGS = waveScope.loadSlugSet(argv); // --slugs-file: restrict to the wave's new decks (null = all)
 
 // Idempotency marker + the injected style. display:none!important defeats any
 // per-app inline CSS via cascade; keyed on body.lcs-embedded so it ONLY fires
@@ -109,7 +111,7 @@ function main() {
     var slugs = fs.readdirSync(localeDir).filter(function (name) {
       if (name.startsWith('.')) return false;
       return !/-v\d+$/.test(name);
-    });
+    }).filter(function (name) { return waveScope.inSet(WAVE_SLUGS, name); });
     perLocale[locale] = { total: slugs.length, applied: 0, already: 0, failed: 0 };
     console.log('[' + locale + '] ' + slugs.length + ' deck symlinks');
     for (var si = 0; si < slugs.length; si++) {

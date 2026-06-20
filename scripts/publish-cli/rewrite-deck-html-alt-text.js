@@ -48,6 +48,7 @@
 
 var fs = require('fs');
 var path = require('path');
+var waveScope = require('./wave-scope');
 var substitute = require('./substitute');
 var deckEndSuggestions = require('./deck-end-suggestions');
 
@@ -142,6 +143,7 @@ function parseArgs(argv) {
       process.exit(0);
     }
   });
+  out.slugs = waveScope.loadSlugSet(argv);
   return out;
 }
 
@@ -428,7 +430,8 @@ async function main() {
   for (var li = 0; li < opts.locales.length; li++) {
     var locale = opts.locales[li];
     var t = { total: 0, written: 0, idempotent: 0, errors: 0, wouldWrite: 0 };
-    var dirs = listDeckDirs(opts.decksRoot, locale, opts.sample);
+    var dirs = listDeckDirs(opts.decksRoot, locale, opts.sample)
+      .filter(function (d) { return waveScope.inSet(opts.slugs, path.basename(d)); });
     for (var di = 0; di < dirs.length; di++) {
       var deckDir = dirs[di];
       var slug = path.basename(deckDir).replace(/-v\d+$/, '');

@@ -34,6 +34,7 @@
 
 var fs = require('fs');
 var path = require('path');
+var waveScope = require('./wave-scope');
 
 var DEFAULT_DECKS_ROOT = '/var/www/lcs-media/decks';
 var LOCALE_CHUNK_ORDER = ['no', 'da', 'fi', 'sv', 'nl', 'it', 'pt', 'es', 'fr', 'de', 'en'];
@@ -46,7 +47,7 @@ var ITEM_TOPIC_SLASH = /"item":"(https:\/\/www\.lessoncraftstudio\.com\/[a-z]{2}
 var ITEM_HOME_SLASH = /"item":"(https:\/\/www\.lessoncraftstudio\.com\/[a-z]{2})\/"/g;
 
 function parseArgs(argv) {
-  var out = { dryRun: true, confirm: false, decksRoot: DEFAULT_DECKS_ROOT, locales: LOCALE_CHUNK_ORDER.slice(), sample: null };
+  var out = { dryRun: true, confirm: false, decksRoot: DEFAULT_DECKS_ROOT, locales: LOCALE_CHUNK_ORDER.slice(), sample: null, slugs: waveScope.loadSlugSet(argv) };
   argv.slice(2).forEach(function (a) {
     if (a === '--confirm') { out.confirm = true; out.dryRun = false; }
     else if (a === '--dry-run') { out.dryRun = true; out.confirm = false; }
@@ -109,7 +110,9 @@ function main() {
   var grand = { total: 0, rewrite: 0, idempotent: 0, errors: 0, links: 0, itemsTopic: 0, itemsHome: 0 };
   opts.locales.forEach(function (locale) {
     var t = { total: 0, rewrite: 0, idempotent: 0, errors: 0, links: 0, itemsTopic: 0, itemsHome: 0 };
-    listDeckDirs(opts.decksRoot, locale, opts.sample).forEach(function (deckDir) {
+    listDeckDirs(opts.decksRoot, locale, opts.sample)
+      .filter(function (d) { return waveScope.inSet(opts.slugs, path.basename(d)); })
+      .forEach(function (deckDir) {
       var res = processDeck(deckDir, opts);
       t.total++;
       if (res.status === 'written' || res.status === 'would-rewrite') { t.rewrite++; t.links += res.r.links; t.itemsTopic += res.r.itemsTopic; t.itemsHome += res.r.itemsHome; }

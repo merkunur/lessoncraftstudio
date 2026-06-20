@@ -35,6 +35,7 @@
 
 var fs = require('fs');
 var path = require('path');
+var waveScope = require('./wave-scope');
 
 var DEFAULT_DECKS_ROOT = '/var/www/lcs-media/decks';
 var LOCALE_CHUNK_ORDER = ['no', 'da', 'fi', 'sv', 'nl', 'it', 'pt', 'es', 'fr', 'de', 'en'];
@@ -69,7 +70,7 @@ var BAR_FLEX_WRAP = /(align-items:center;gap:12px;)flex-wrap:wrap/g;
 var FREDOKA_BLOCKING = /<link href="(https:\/\/fonts\.googleapis\.com\/css2\?family=Fredoka[^"]*)" rel="stylesheet">/;
 
 function parseArgs(argv) {
-  var out = { dryRun: true, confirm: false, decksRoot: DEFAULT_DECKS_ROOT, locales: LOCALE_CHUNK_ORDER.slice(), sample: null };
+  var out = { dryRun: true, confirm: false, decksRoot: DEFAULT_DECKS_ROOT, locales: LOCALE_CHUNK_ORDER.slice(), sample: null, slugs: waveScope.loadSlugSet(argv) };
   argv.slice(2).forEach(function (a) {
     if (a === '--confirm') { out.confirm = true; out.dryRun = false; }
     else if (a === '--dry-run') { out.dryRun = true; out.confirm = false; }
@@ -158,7 +159,9 @@ function main() {
   var grand = { total: 0, rewrite: 0, idempotent: 0, errors: 0, lazyImgs: 0, fonts: 0, unhid: 0, bars: 0 };
   opts.locales.forEach(function (locale) {
     var t = { total: 0, rewrite: 0, idempotent: 0, errors: 0, lazyImgs: 0, fonts: 0, unhid: 0, bars: 0 };
-    listDeckDirs(opts.decksRoot, locale, opts.sample).forEach(function (deckDir) {
+    listDeckDirs(opts.decksRoot, locale, opts.sample)
+      .filter(function (d) { return waveScope.inSet(opts.slugs, path.basename(d)); })
+      .forEach(function (deckDir) {
       var res = processDeck(deckDir, opts);
       t.total++;
       if (res.status === 'written' || res.status === 'would-rewrite') { t.rewrite++; t.lazyImgs += (res.lazyAdded || 0); if (res.fontAsync) t.fonts++; if (res.hiddenRemoved) t.unhid++; if (res.barFixed) t.bars++; }

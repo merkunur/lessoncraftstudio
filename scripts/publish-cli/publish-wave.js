@@ -169,6 +169,39 @@ function runStep(label, scriptName, scriptArgs) {
   }
 }
 
+/**
+ * After publish-bulk, build a wave-slugs file from the batch's _results.txt so the
+ * post-publish retrofits (STEP 3-8) touch ONLY the wave's new decks instead of
+ * re-walking the entire ~42k-deck catalog every wave — O(wave), not O(catalog),
+ * and no longer slower every wave as the catalog grows. Returns the absolute path
+ * to the slugs file, or null → the retrofits fall back to full-catalog behaviour
+ * (correctness preserved; just slow) if the results file is missing/unparsable.
+ */
+function deriveWaveSlugsFile() {
+  const STAGING_ROOT = path.join(HERE, '..', '..', '.publish-cli-staging');
+  const warn = (m) => console.warn(`[wave-scope] ${m}; STEP 3-8 fall back to catalog-wide.`);
+  if (!fs.existsSync(STAGING_ROOT)) { warn('no staging root'); return null; }
+  const batchDirs = fs.readdirSync(STAGING_ROOT, { withFileTypes: true })
+    .filter((e) => e.isDirectory())
+    .map((e) => ({ name: e.name, mtime: fs.statSync(path.join(STAGING_ROOT, e.name)).mtimeMs }))
+    .sort((a, b) => b.mtime - a.mtime);
+  if (!batchDirs.length) { warn('no batch dir'); return null; }
+  const batchDir = path.join(STAGING_ROOT, batchDirs[0].name);
+  const resultsPath = path.join(batchDir, '_results.txt');
+  if (!fs.existsSync(resultsPath)) { warn(`no _results.txt in ${batchDirs[0].name}`); return null; }
+  const slugs = [];
+  fs.readFileSync(resultsPath, 'utf8').split('\n').forEach((line) => {
+    const m = line.match(/^PUBLISHED\s.*\bslug=(\S+)/);
+    if (m) slugs.push(m[1]);
+  });
+  if (!slugs.length) { warn('0 published slugs parsed'); return null; }
+  const out = path.join(batchDir, 'wave-slugs.txt');
+  fs.writeFileSync(out, slugs.join('\n') + '\n', 'utf8');
+  console.log(`\n[wave-scope] ${slugs.length} new-deck slugs → ${out}`);
+  console.log('[wave-scope] STEP 3-8 retrofits scoped to THIS wave (not the full catalog).');
+  return out;
+}
+
 function main() {
   const args = parseArgs(process.argv);
   if (args.help) { usage(); process.exit(0); }
@@ -240,14 +273,19 @@ function main() {
     process.exit(0);
   }
 
-  // STEP 3 — OG IMAGES (two-column composite + XMP) for the wave's locales.
-  runStep('OG IMAGES — regenerate-og-images', 'regenerate-og-images.js', [`--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
+  // Wave-scoping: parse the just-published slugs so STEP 3-8 touch only this wave's
+  // new decks (not the whole catalog). Empty array if unavailable → catalog-wide.
+  const waveSlugsFile = deriveWaveSlugsFile();
+  const scopeArg = waveSlugsFile ? [`--slugs-file=${waveSlugsFile}`] : [];
+
+  // STEP 3 — OG IMAGES (two-column composite + XMP) for the wave's new decks.
+  runStep('OG IMAGES — regenerate-og-images', 'regenerate-og-images.js', [`--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`, ...scopeArg]);
 
   // STEP 4 — ALT-TEXT retrofit (worksheet alt + app aria-label + deckend-thumb
   // alts). The apps emit empty body alt; this fills it. Idempotent; preserves an
   // already-injected hreflang block (STEP 5 runs after, so no conflict).
   if (!args.skipAltText) {
-    runStep('ALT-TEXT — rewrite-deck-html-alt-text', 'rewrite-deck-html-alt-text.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
+    runStep('ALT-TEXT — rewrite-deck-html-alt-text', 'rewrite-deck-html-alt-text.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`, ...scopeArg]);
   } else {
     console.log('\n(skipping alt-text retrofit per --skip-alt-text)');
   }
@@ -259,7 +297,7 @@ function main() {
   // img-dims first would insert width/height between id and alt and break that match.
   // Per page-speed audit 2026-06.
   if (!args.skipImgDims) {
-    runStep('IMG-DIMS — rewrite-deck-html-img-dimensions', 'rewrite-deck-html-img-dimensions.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
+    runStep('IMG-DIMS — rewrite-deck-html-img-dimensions', 'rewrite-deck-html-img-dimensions.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`, ...scopeArg]);
   } else {
     console.log('\n(skipping img-dims retrofit per --skip-img-dims)');
   }
@@ -275,7 +313,7 @@ function main() {
   // stay last in <head>; this touches the font <link>/bar CSS mid-head + the deckend
   // <img>/section in <body>).
   if (!args.skipLazyDeckend) {
-    runStep('LAZY-DECKEND — rewrite-deck-html-lazy-deckend', 'rewrite-deck-html-lazy-deckend.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
+    runStep('LAZY-DECKEND — rewrite-deck-html-lazy-deckend', 'rewrite-deck-html-lazy-deckend.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`, ...scopeArg]);
   } else {
     console.log('\n(skipping lazy-deckend retrofit per --skip-lazy-deckend)');
   }
@@ -287,7 +325,7 @@ function main() {
   // deck, every wave (the operator's "always apply it" standing rule). Runs BEFORE
   // hreflang so the hreflang block stays last in <head>.
   for (const loc of args.locales) {
-    runStep(`END-LINKS — inject-deck-end-topic-links (${loc})`, 'inject-deck-end-topic-links.js', [`--locale=${loc}`]);
+    runStep(`END-LINKS — inject-deck-end-topic-links (${loc})`, 'inject-deck-end-topic-links.js', [`--locale=${loc}`, ...scopeArg]);
   }
 
   // STEP 5b — TOPIC-SLASH: strip trailing slashes off the end-deck topic links +
@@ -297,7 +335,7 @@ function main() {
   // substitute.js, so this is a no-op for freshly-built decks; it heals any deck
   // that still carries the old trailing-slash form. Idempotent. (SEO audit 2026-06.)
   if (!args.skipTopicSlash) {
-    runStep('TOPIC-SLASH — rewrite-deck-html-topic-slash', 'rewrite-deck-html-topic-slash.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
+    runStep('TOPIC-SLASH — rewrite-deck-html-topic-slash', 'rewrite-deck-html-topic-slash.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`, ...scopeArg]);
   } else {
     console.log('\n(skipping topic-slash retrofit per --skip-topic-slash)');
   }
@@ -306,16 +344,16 @@ function main() {
   // suggestion reel) when the deck loads inside an embed iframe. Per-locale;
   // idempotent (marker-guarded); inserts at the top of <head>.
   for (const loc of args.locales) {
-    runStep(`EMBED-HIDE — inject-embed-hide-style (${loc})`, 'inject-embed-hide-style.js', [`--locale=${loc}`]);
+    runStep(`EMBED-HIDE — inject-embed-hide-style (${loc})`, 'inject-embed-hide-style.js', [`--locale=${loc}`, ...scopeArg]);
   }
 
   // STEP 7 — HREFLANG cross-locale sibling injection. ALWAYS the full 11-locale
   // set (siblings span every locale; passing only the wave locale is a no-op).
-  runStep('HREFLANG — populate-and-inject-hreflang (all 11 locales)', 'populate-and-inject-hreflang.js', ['--confirm', `--locales=${HREFLANG_LOCALES.join(',')}`, `--decks-root=${args.decksRoot}`]);
+  runStep('HREFLANG — populate-and-inject-hreflang (all 11 locales)', 'populate-and-inject-hreflang.js', ['--confirm', `--locales=${HREFLANG_LOCALES.join(',')}`, `--decks-root=${args.decksRoot}`, ...scopeArg]);
 
   // STEP 8 — POST-PUBLISH AUDIT over the wave's locales.
   if (!args.skipAudit) {
-    runStep('AUDIT — audit-deck-html', 'audit-deck-html.js', [`--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
+    runStep('AUDIT — audit-deck-html', 'audit-deck-html.js', [`--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`, ...scopeArg]);
   } else {
     console.log('\n(skipping post-publish audit per --skip-audit)');
   }

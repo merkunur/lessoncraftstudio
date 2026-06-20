@@ -21,7 +21,13 @@
       "Set picture addition at a hands-on counting centre.",
       "Send a short sheet home for extra practice with a parent.",
       "Pair a themed sheet with the topic you are exploring that week."
-    ]
+    ],
+    "modes": {
+      "find-addend": "Show one part and the total; children work out the missing addend.",
+      "image-image": "Add two groups of pictures and count them all to find the sum.",
+      "image-number": "Count a group of pictures, then add it to a number for the total.",
+      "mixed": "A mix of picture sums and number sums together on one page."
+    }
   },
   "subtraction": {
     "slug": "subtraction-worksheet-maker",
@@ -45,7 +51,13 @@
       "Offer picture subtraction at a counting station with objects to move.",
       "Send a short practice sheet home between lessons.",
       "Mix in a themed page when you want a fresh context for the same skill."
-    ]
+    ],
+    "modes": {
+      "cross-out": "Children cross out pictures to take them away and count what is left.",
+      "find-subtrahend": "Show the start and the answer; children find the number taken away.",
+      "image-number": "Count a group of pictures, then subtract a number from it.",
+      "mixed": "A mix of picture and number take-away problems on one sheet."
+    }
   },
   "code-addition": {
     "slug": "code-addition-worksheet-maker",
@@ -69,7 +81,14 @@
       "Use it as an extension for children who finish plain addition early.",
       "Walk through one decoded sum together before children work alone.",
       "Tie the legend theme to a current topic for a themed challenge."
-    ]
+    ],
+    "modes": {
+      "default": "Solve each sum, then use the number key to crack a hidden picture code.",
+      "secret-word": "Solve the sums and the answers spell out a fun secret word."
+    },
+    "modeNames": {
+      "default": "Number Code"
+    }
   },
   "more-less": {
     "slug": "more-or-less-worksheet-maker",
@@ -93,7 +112,12 @@
       "Set it at a math centre alongside real objects to compare.",
       "Model the words 'more', 'fewer', and 'the same' as you mark one together.",
       "Send a sheet home to practise comparing everyday groups."
-    ]
+    ],
+    "modes": {
+      "check-cross": "Children mark which group has more and which has fewer.",
+      "image-image": "Compare two groups of pictures and decide which is more or less.",
+      "image-number": "Compare a group of pictures against a number — more, less or equal?"
+    }
   },
   "math-puzzle": {
     "slug": "math-puzzle-maker",
@@ -117,7 +141,12 @@
       "Offer it as an extension for children ready to reason, not just recall.",
       "Solve one tricky line together and talk through the thinking.",
       "Set a small set as an early-finisher challenge."
-    ]
+    ],
+    "modes": {
+      "addition": "Number-grid puzzles where every clue is an addition fact.",
+      "subtraction": "Number-grid puzzles built entirely from take-away facts.",
+      "mixed": "Puzzle grids that mix addition and subtraction clues."
+    }
   },
   "math-worksheet": {
     "slug": "math-worksheet-maker",
@@ -141,7 +170,17 @@
       "Set it as independent work while you run a small group.",
       "Send one home as light, varied practice.",
       "Build a short sheet for a fast formative check at the end of a unit."
-    ]
+    ],
+    "modes": {
+      "two-symbols-add-sub": "Two-number sums with a plus or minus, neatly laid out to solve.",
+      "three-symbols-add-sub": "Three-number problems combining plus and minus in one line.",
+      "four-symbols-add-sub": "Longer four-number strings of plus and minus to work through."
+    },
+    "modeNames": {
+      "two-symbols-add-sub": "Two Numbers",
+      "three-symbols-add-sub": "Three Numbers",
+      "four-symbols-add-sub": "Four Numbers"
+    }
   },
   "alphabet-train": {
     "slug": "alphabet-train-maker",
@@ -165,7 +204,14 @@
       "Use it at a literacy centre alongside magnetic letters.",
       "Start with one or two gaps, then add more as children grow.",
       "Send a train home to practise letter order with a grown-up."
-    ]
+    ],
+    "modes": {
+      "letter-hint": "Each carriage shows a letter hint to help build the alphabet train.",
+      "default": "Build the alphabet train by placing the letters in the right order."
+    },
+    "modeNames": {
+      "default": "Classic"
+    }
   },
   "prepositions": {
     "slug": "prepositions-worksheet-maker",
@@ -189,7 +235,11 @@
       "Use it to support a language-rich 'where is it?' discussion.",
       "Pair it with everyday classroom objects for a hands-on follow-up.",
       "Link the scene theme to a story you are reading together."
-    ]
+    ],
+    "modes": {
+      "fillin": "Children write the position word (in, on, under…) that fits each picture.",
+      "multiplechoice": "Pick the correct position word for each picture from the choices."
+    }
   },
   "word-guess": {
     "slug": "word-guess-maker",
@@ -213,7 +263,11 @@
       "Use picture clues so children connect a word's meaning to its spelling.",
       "Make a topic word-guess as a fun end-of-unit review.",
       "Let early finishers guess a few bonus words while others complete the page."
-    ]
+    ],
+    "modes": {
+      "easy": "Shorter words with picture clues for early readers to guess.",
+      "normal": "Longer words and trickier clues for confident readers."
+    }
   },
   "word-scramble": {
     "slug": "word-scramble-maker",
@@ -237,7 +291,11 @@
       "Use it to review topic or theme vocabulary at the week's end.",
       "Set it as a spelling centre with letter tiles to move around.",
       "Send a short scramble home for playful spelling practice."
-    ]
+    ],
+    "modes": {
+      "easy": "Unscramble short, familiar words with a picture clue to help.",
+      "normal": "Unscramble longer words for a bigger spelling challenge."
+    }
   },
   "wordsearch": {
     "slug": "word-search-maker",
@@ -261,7 +319,15 @@
       "Build a topic word search to introduce or revise subject vocabulary.",
       "Make a small left-to-right grid for early readers and a larger grid for older children.",
       "Use a word search as a calm settling task at the start of the day."
-    ]
+    ],
+    "modes": {
+      "default": "Hide a list of words in the grid for children to find and circle.",
+      "image-only": "A picture word search — children find the words for the pictures shown."
+    },
+    "modeNames": {
+      "default": "Word Hunt",
+      "image-only": "Picture Hunt"
+    }
   },
   "cryptogram": {
     "slug": "cryptogram-maker",
@@ -285,7 +351,8 @@
       "Build a cryptogram from a story's key vocabulary as a comprehension warm-up.",
       "Make a short coded message — like a class reward or a riddle — for children to reveal.",
       "Pair a cryptogram with a topic so children decode the words they are about to learn."
-    ]
+    ],
+    "samplesIntro": "Make decode-the-message puzzles where symbols stand in for letters."
   },
   "writing": {
     "slug": "handwriting-worksheet-maker",
@@ -333,7 +400,15 @@
       "Use it at a sorting centre with big and small toys.",
       "Model the words big, small, bigger, and smaller as you go.",
       "Send a sheet home to spot big and small things around the house."
-    ]
+    ],
+    "modes": {
+      "findBig": "Children spot and tap the biggest (or smallest) picture in each set.",
+      "orderAsc": "Put the pictures in order from smallest to biggest."
+    },
+    "modeNames": {
+      "findBig": "Find the Biggest",
+      "orderAsc": "Order by Size"
+    }
   },
   "pattern-train": {
     "slug": "pattern-train-maker",
@@ -357,7 +432,17 @@
       "Build a matching pattern with blocks at a centre.",
       "Start with simple ABAB patterns, then add complexity.",
       "Link the pattern theme to your current topic."
-    ]
+    ],
+    "modes": {
+      "aab": "Repeating A-A-B picture patterns for children to continue.",
+      "aabb": "A-A-B-B patterns that build a steady two-by-two rhythm.",
+      "abb": "A-B-B patterns to read, predict and extend.",
+      "abc": "Three-part A-B-C patterns with a longer repeating unit.",
+      "default": "Mixed repeating patterns where children work out what comes next."
+    },
+    "modeNames": {
+      "default": "Mixed Patterns"
+    }
   },
   "pattern-worksheet": {
     "slug": "pattern-worksheet-maker",
@@ -381,7 +466,8 @@
       "Set it as independent work after a pattern mini-lesson.",
       "Offer harder patterns as an early-finisher extension.",
       "Combine picture and shape rows for varied practice."
-    ]
+    ],
+    "samplesIntro": "Create mixed pattern worksheets for children to read and complete."
   },
   "draw-and-color": {
     "slug": "draw-and-color-maker",
@@ -477,7 +563,8 @@
       "Use it to record results of a quick class survey.",
       "Talk about which bar is tallest and shortest together.",
       "Set it at a math centre as hands-on data practice."
-    ]
+    ],
+    "samplesIntro": "Build count-and-graph worksheets where children tally pictures into a chart."
   },
   "matching": {
     "slug": "matching-worksheet-maker",
@@ -501,7 +588,11 @@
       "Use it to review themed vocabulary or related concepts.",
       "Set it at a center with physical cards to match first.",
       "Send a matching sheet home for quick, clear practice."
-    ]
+    ],
+    "modes": {
+      "letter": "Draw a line from each picture to the letter it starts with.",
+      "name": "Match each picture to its written word."
+    }
   },
   "grid-match": {
     "slug": "grid-match-maker",
@@ -525,7 +616,8 @@
       "Use it as a careful-looking challenge at a math centre.",
       "Start with a small grid and grow it as confidence builds.",
       "Tie the picture theme to your current topic."
-    ]
+    ],
+    "samplesIntro": "Build grid-matching worksheets that pair pictures across a grid."
   },
   "shadow-match": {
     "slug": "shadow-match-maker",
@@ -549,7 +641,11 @@
       "Use it as a focused visual-perception centre activity.",
       "Discuss how shape alone helps you recognise an object.",
       "Link the picture theme to a story or topic."
-    ]
+    ],
+    "modes": {
+      "find-shadow": "Match each picture to its matching shadow shape.",
+      "make-whole": "Join the two halves that make each picture whole again."
+    }
   },
   "bingo": {
     "slug": "bingo-card-maker",
@@ -573,7 +669,8 @@
       "Call the words in another language for language learners.",
       "Let a child be the caller to practise reading the pictures.",
       "Run a quick round as a fun lesson opener or transition."
-    ]
+    ],
+    "samplesIntro": "Make picture and word bingo cards your whole class can play together."
   },
   "picture-sort": {
     "slug": "picture-sort-maker",
@@ -597,7 +694,8 @@
       "Use it to support a science or topic categorisation lesson.",
       "Talk through one picture together, naming why it fits a group.",
       "Set it at a center with cut-out pictures to physically sort."
-    ]
+    ],
+    "samplesIntro": "Make sorting worksheets where children group pictures into the right baskets."
   },
   "missing-pieces": {
     "slug": "missing-pieces-maker",
@@ -621,7 +719,11 @@
       "Use it as a visual-reasoning challenge at a quiet centre.",
       "Pair it with simple jigsaw puzzles for hands-on practice.",
       "Link the picture theme to your current topic."
-    ]
+    ],
+    "modes": {
+      "one-missing": "One piece is missing from the picture — children pick the part that completes it.",
+      "two-missing": "Two pieces are missing, so children choose both parts to finish the picture."
+    }
   },
   "odd-one-out": {
     "slug": "odd-one-out-maker",
@@ -645,7 +747,11 @@
       "Use it to deepen a sorting or categorising lesson.",
       "Encourage children to say why their choice doesn't fit.",
       "Set it as a quick reasoning warm-up."
-    ]
+    ],
+    "modes": {
+      "same-theme": "Every picture shares a theme except one — find the odd one out.",
+      "cross-theme": "Pictures come from different themes; children spot the one that does not fit."
+    }
   },
   "sudoku": {
     "slug": "sudoku-maker",
@@ -669,7 +775,12 @@
       "Pair a themed sudoku with a topic so the pictures feel familiar.",
       "Solve one together on the board, thinking aloud, before children try their own.",
       "Offer a number sudoku as an extension for children ready for a challenge."
-    ]
+    ],
+    "modes": {
+      "easy": "Gentle picture sudoku grids for a first try at the puzzle.",
+      "medium": "A step up, with slightly fuller grids to reason through.",
+      "hard": "Trickier grids that need more careful logic to complete."
+    }
   },
   "picture-path": {
     "slug": "picture-path-maker",
@@ -693,7 +804,12 @@
       "Use it as a calm, focused activity at a quiet centre.",
       "Start with simple mazes and build up the difficulty.",
       "Talk about planning a route before rushing in."
-    ]
+    ],
+    "modes": {
+      "choose-path": "Children choose the correct route through a picture maze.",
+      "classic-maze": "A classic maze to trace from start to finish without crossing walls.",
+      "pathway": "Follow the picture pathway from one end to the other."
+    }
   },
   "find-and-count": {
     "slug": "find-and-count-maker",
@@ -717,7 +833,11 @@
       "Use it at an early-counting centre.",
       "Encourage children to touch each item once as they count.",
       "Link the scene theme to a story or topic."
-    ]
+    ],
+    "modes": {
+      "hidden-object": "Children hunt for hidden objects in a busy scene and count them.",
+      "letter-spotting": "Search the picture for a target letter and count every one found."
+    }
   },
   "find-objects": {
     "slug": "hidden-object-maker",
@@ -741,7 +861,11 @@
       "Ask children to count one kind of object and write the number to practise counting.",
       "Pair the scene with a theme so children search for words they are learning.",
       "Turn it into an I Spy game — call out an object and let children point or circle it."
-    ]
+    ],
+    "modes": {
+      "find-odd": "Spot the one picture in the row that does not belong with the others.",
+      "i-spy": "An I-Spy scene where children find and count the named objects."
+    }
   },
   "crossword": {
     "slug": "crossword-maker",
@@ -765,7 +889,8 @@
       "Use a crossword as a spelling check that feels like a game rather than a test.",
       "Make a topic crossword children complete at the end of a unit.",
       "Let children suggest the words for next week's class crossword."
-    ]
+    ],
+    "samplesIntro": "Create picture crosswords where children spell each word into the grid."
   },
   "treasure-hunt": {
     "slug": "treasure-hunt-maker",
@@ -789,7 +914,11 @@
       "Use it to practise the words up, down, left, and right.",
       "Set it as a problem-solving challenge at a centre.",
       "Increase the number of steps as children grow more confident."
-    ]
+    ],
+    "modes": {
+      "cardinal-arrows": "Follow up, down, left and right arrows across the grid to the treasure.",
+      "compass": "Use compass directions to navigate the map and find the treasure."
+    }
   },
   "labels": {
     "about": "About this worksheet maker",
@@ -798,6 +927,13 @@
     "launchCta": "Open the free {name}",
     "otherLanguages": "Available in other languages",
     "relatedMakers": "More worksheet makers",
-    "makersBreadcrumb": "Worksheet makers"
+    "makersBreadcrumb": "Worksheet makers",
+    "samplesHeading": "See what you can make",
+    "samplesIntroDefault": "Each style below is a ready-made sample — tap to play it, and every worksheet is free to print.",
+    "playSample": "Play sample",
+    "crossLangHeading": "Make ‘learn a language’ worksheets",
+    "crossLangIntro": "The same maker also builds picture-vocabulary worksheets for learning a new language.",
+    "seeAllLang": "See all {lang} worksheets",
+    "closeSample": "Close sample"
   }
 }

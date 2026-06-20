@@ -12,6 +12,8 @@ import {
   makerGeneratorUrl,
   MakerKey,
 } from '@/lib/seo/maker-content';
+import { fetchMakerSamples } from '@/lib/seo/maker-samples';
+import MakerSamples, { makerScreenshots } from './MakerSamples';
 
 /**
  * Per-maker landing page body — /<locale>/tools/<native-slug>/ for a worksheet
@@ -26,6 +28,7 @@ function jsonLdFor(
   content: { name: string; metaDescription: string },
   locale: string,
   slug: string,
+  screenshots: Array<{ url: string; caption: string }> = [],
 ): string {
   const canonical = canonicalUrl(localePath(locale, 'tools', slug));
   const data: Record<string, unknown> = {
@@ -44,6 +47,16 @@ function jsonLdFor(
     creator: { '@type': 'Organization', name: 'LessonCraftStudio', url: CANONICAL_HOST },
     url: canonical,
   };
+  // Real screenshots of the tool's output (the per-mode sample thumbnails) — honest
+  // ImageObjects on the WebApplication entity (NOT per-sample LearningResource nodes,
+  // which belong to the deck landing pages and would confuse the entity graph).
+  if (screenshots.length) {
+    data.screenshot = screenshots.map((s) => ({
+      '@type': 'ImageObject',
+      contentUrl: s.url,
+      caption: s.caption,
+    }));
+  }
   return JSON.stringify(data);
 }
 
@@ -61,6 +74,11 @@ export default async function MakerLanding({
 
   const launchUrl = makerGeneratorUrl(makerKey, locale);
   const launchLabel = content.labels.launchCta.replace('{name}', content.name);
+
+  // "See what you can make" samples — fetched once here so the JSON-LD screenshots
+  // and the rendered section share a single DB read (ISR-cached).
+  const samplesData = await fetchMakerSamples(makerKey, locale);
+  const screenshots = makerScreenshots(samplesData);
 
   // Sibling makers in this locale (link mesh) + other-language siblings.
   const relatedMakers: Array<{ key: MakerKey; name: string; href: string }> = [];
@@ -115,6 +133,19 @@ export default async function MakerLanding({
             </div>
           </header>
         </section>
+
+        {/* "See what you can make" — per-mode playable samples (+ cross-language strip
+            for crossword/wordsearch/matching). Highest-intent spot, right under the
+            hero CTA; renders nothing for makers with no interactive decks. */}
+        <MakerSamples
+          locale={locale}
+          makerKey={makerKey}
+          labels={content.labels}
+          modes={content.modes}
+          modeNames={content.modeNames}
+          samplesIntro={content.samplesIntro}
+          data={samplesData}
+        />
 
         {/* Crawlable editorial body — the SEO surface for the maker. */}
         <section className="mx-auto max-w-2xl mt-8 space-y-8 px-1">
@@ -196,7 +227,7 @@ export default async function MakerLanding({
 
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: jsonLdFor({ name: content.name, metaDescription: content.metaDescription }, locale, slug) }}
+          dangerouslySetInnerHTML={{ __html: jsonLdFor({ name: content.name, metaDescription: content.metaDescription }, locale, slug, screenshots) }}
         />
         <script
           type="application/ld+json"

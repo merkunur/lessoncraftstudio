@@ -70,6 +70,21 @@ export interface MakerEntry {
   classroomIdeas: string[];
   metaTitle: string;
   metaDescription: string;
+  /**
+   * One-sentence explanation per exercise MODE, keyed by the mode string (or
+   * "default" for the null/standard mode). Drives the "See what you can make"
+   * mode cards. Optional — the card renders name+sample even when absent, so
+   * locales can ship explanations incrementally. (maker-samples.ts DEFAULT_MODE_KEY.)
+   */
+  modes?: Record<string, string>;
+  /**
+   * Friendly display name override per mode key — used for the "default" (null)
+   * mode (the taxonomy has no name for null) and any mode whose taxonomy name
+   * needs softening. name = modeNames[key] ?? getExerciseModeName(key, locale).
+   */
+  modeNames?: Record<string, string>;
+  /** Single-mode + PDF makers: one line introducing the theme-varied samples. */
+  samplesIntro?: string;
 }
 
 export interface MakerContentLabels {
@@ -81,6 +96,20 @@ export interface MakerContentLabels {
   otherLanguages: string;
   relatedMakers: string;
   makersBreadcrumb: string;
+  /** "See what you can make" section heading. */
+  samplesHeading?: string;
+  /** Sub-text under the samples heading (multi-mode makers). */
+  samplesIntroDefault?: string;
+  /** Play-affordance label on a sample tile. */
+  playSample?: string;
+  /** Cross-language sub-section heading (crossword/wordsearch/matching). */
+  crossLangHeading?: string;
+  /** Cross-language sub-section intro line. */
+  crossLangIntro?: string;
+  /** "See all {lang} worksheets" link under a cross-language tile. */
+  seeAllLang?: string;
+  /** Modal close button aria-label. */
+  closeSample?: string;
 }
 
 type MakerContentFile = Record<MakerKey, MakerEntry> & { labels: MakerContentLabels };

@@ -28,6 +28,34 @@ const TYPE = arg('type', null);
 const TGT = arg('targetname', null);
 const TGT_CAP = TGT ? (TGT.charAt(0).toUpperCase() + TGT.slice(1)) : null;
 if (!LOCALE || !TARGET || !TYPE) { console.error('--locale, --target and --type required'); process.exit(1); }
+// MULTI-TARGET anti-doorway: en→de and en→fr (same page-locale, same theme, different taught language)
+// otherwise share the SAME English skeleton — only the {TGT} word differs → near-duplicate bodies. Offset the
+// cell assignment by a per-target constant so the SAME theme lands on a DIFFERENT skeleton+P2 per target.
+// 0 for single-target locales (no --targetname) → shipped English-target output byte-identical.
+// Explicit, DISTINCT per-target offsets (stride 17, coprime with the 56-cell space) so that within a
+// page-locale no two targets map the SAME theme to the SAME (skeleton, P2) cell — eliminates the exact
+// same-cell cross-target near-duplicates a hash would leave.
+const TARGET_INDEX = { en:0, de:1, es:2, fr:3, it:4, nl:5, pt:6, sv:7, da:8, no:9, fi:10 };
+const TARGET_OFFSET = TGT ? ((TARGET_INDEX[TARGET] != null ? TARGET_INDEX[TARGET] : 0) * 17) : 0;
+// Per-(page-locale, target) language-fact sentence — genuinely target-SPECIFIC content appended to the
+// body so a "Learn German" page and a "Learn French" page are not near-duplicates differing only by the
+// language name (the doorway-page failure mode of the multi-target en fan). Optional: locales/targets
+// without an entry append nothing. en page-locale only (the dense 10-target case); es/pt are clean without.
+const TARGET_NOTES = {
+  en: {
+    de: 'Here is something special about German: it gives every naming word a capital letter, even a small cat or a ball.',
+    es: 'One friendly thing about Spanish: the words are said almost exactly the way they are written.',
+    fr: 'French has a playful habit — some letters are written down but stay completely silent when you say the word.',
+    it: 'Italian has a musical sound, and many of its everyday words end in a bright -o or -a.',
+    nl: 'Dutch likes to join small words together, so a single word can grow surprisingly long.',
+    pt: 'Portuguese adds little marks to some letters, like the curly a in "ã", which gives the word a soft nasal sound.',
+    sv: 'Swedish has three extra letters at the very end of its alphabet — a, a and o with little marks — that English does not use.',
+    da: 'Danish often sounds softer than it looks, so a word can be written one way and spoken a little more gently.',
+    no: 'Norwegian shares a lot of everyday words with English, so a few of them feel familiar right away.',
+    fi: 'Finnish builds long words by clicking small pieces together, a bit like adding cars to a train.',
+  },
+};
+const NOTE = (TARGET_NOTES[LOCALE] && TARGET_NOTES[LOCALE][TARGET]) || null;
 function tgt(s){ return (TGT && typeof s === 'string') ? s.replace(/\{TGT_CAP\}/g, TGT_CAP).replace(/\{TGT\}/g, TGT) : s; }
 
 // themes export shape varies: de/sv/fr/nl/no/da/fi export { THEMES }; it/pt export the map directly.
@@ -88,8 +116,10 @@ function buildMode(mk){
   const out=[];
   list.forEach((co,i)=>{
     const d = THEMES[co.theme];
-    const c = cellAssign(i, sk.length, p2.length);
-    const nb1 = list[(i+1)%list.length], nb2 = list[(i+7)%list.length];
+    const c = cellAssign(i + TARGET_OFFSET, sk.length, p2.length);
+    // neighbour themes (the P3 "want more?" pair) also shift per target, so same-theme pages for
+    // DIFFERENT targets reference DIFFERENT neighbours → P3 diverges across targets (anti-doorway).
+    const nb1 = list[(i+1+TARGET_OFFSET)%list.length], nb2 = list[(i+7+TARGET_OFFSET)%list.length];
     const entry = {
       slug: co.canonical,
       variantShape: co.siblings.length>1 ? 'collapsed' : 'singleton',
@@ -101,7 +131,7 @@ function buildMode(mk){
       // case/definiteness a locale's SKEL legitimately uses (fi p1 may carry partitive/genitive, not nominative).
       slotTokens: [d.nPl, d.plIndef, d.plDef, d.nomPl, d.partPl, d.partSg, d.genPl, d.gen && d.genArt ? d.gen : null, disp(d), co.theme.replace(/_/g,' '), cfg.slotWord].filter(Boolean),
       p1: tgt(render(sk[c.skel], d)),
-      p2: tgt(render(p2[c.p2], d)),
+      p2: tgt(render(p2[c.p2], d)) + (NOTE ? ' ' + NOTE : ''),
       p3: tgt(p3(d, THEMES[nb1.theme], THEMES[nb2.theme])),
       canonicalDeckSlug: co.canonical,
       carousel: [1,2,5,11].map(off=>{ const n=list[(i+off)%list.length]; return {label: tgt(cfg.carousel(mk, disp(THEMES[n.theme]))), href: n.canonical}; }),

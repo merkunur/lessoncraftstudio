@@ -1,0 +1,822 @@
+{
+  "locale": "es",
+  "target": "pt",
+  "exerciseType": "matching",
+  "rawRowCount": 47,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "name": 47
+  },
+  "totalValid": 47,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "name"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-4-de-julio-8af4",
+      "siblings": [
+        "portugues-emparejar-nombres-4-de-julio-8af4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-accesorios-ab49",
+      "siblings": [
+        "portugues-emparejar-nombres-accesorios-ab49"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-actividades-e790",
+      "siblings": [
+        "portugues-emparejar-nombres-actividades-e790"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-animales-3cf3",
+      "siblings": [
+        "portugues-emparejar-nombres-animales-3cf3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-alrededor-de-la-casa-2bbb",
+      "siblings": [
+        "portugues-emparejar-nombres-alrededor-de-la-casa-2bbb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-en-el-supermercado-8de7",
+      "siblings": [
+        "portugues-emparejar-nombres-en-el-supermercado-8de7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-panaderia-0f3a",
+      "siblings": [
+        "portugues-emparejar-nombres-panaderia-0f3a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-playa-f387",
+      "siblings": [
+        "portugues-emparejar-nombres-playa-f387"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-aves-9105",
+      "siblings": [
+        "portugues-emparejar-nombres-aves-9105"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-aves-2-e841",
+      "siblings": [
+        "portugues-emparejar-nombres-aves-2-e841"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-partes-del-cuerpo-cde9",
+      "siblings": [
+        "portugues-emparejar-nombres-partes-del-cuerpo-cde9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-desayuno-af6d",
+      "siblings": [
+        "portugues-emparejar-nombres-desayuno-af6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-campamento-7155",
+      "siblings": [
+        "portugues-emparejar-nombres-campamento-7155"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-navidad-ed10",
+      "siblings": [
+        "portugues-emparejar-nombres-navidad-ed10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-salon-de-clases-76c0",
+      "siblings": [
+        "portugues-emparejar-nombres-salon-de-clases-76c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-ropa-5526",
+      "siblings": [
+        "portugues-emparejar-nombres-ropa-5526"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-colores-ce75",
+      "siblings": [
+        "portugues-emparejar-nombres-colores-ce75"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-postres-y-dulces-a9b4",
+      "siblings": [
+        "portugues-emparejar-nombres-postres-y-dulces-a9b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-pascua-4b34",
+      "siblings": [
+        "portugues-emparejar-nombres-pascua-4b34"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-emociones-345e",
+      "siblings": [
+        "portugues-emparejar-nombres-emociones-345e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-animales-de-granja-fe32",
+      "siblings": [
+        "portugues-emparejar-nombres-animales-de-granja-fe32"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-flores-894e",
+      "siblings": [
+        "portugues-emparejar-nombres-flores-894e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-criaturas-del-bosque-8990",
+      "siblings": [
+        "portugues-emparejar-nombres-criaturas-del-bosque-8990"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-frutas-22f0",
+      "siblings": [
+        "portugues-emparejar-nombres-frutas-22f0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-muebles-0f0f",
+      "siblings": [
+        "portugues-emparejar-nombres-muebles-0f0f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-hospital-858c",
+      "siblings": [
+        "portugues-emparejar-nombres-hospital-858c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-insectos-y-bichos-cf93",
+      "siblings": [
+        "portugues-emparejar-nombres-insectos-y-bichos-cf93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-utensilios-de-cocina-700d",
+      "siblings": [
+        "portugues-emparejar-nombres-utensilios-de-cocina-700d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-musica-85e2",
+      "siblings": [
+        "portugues-emparejar-nombres-musica-85e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-ocupaciones-1597",
+      "siblings": [
+        "portugues-emparejar-nombres-ocupaciones-1597"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-vida-marina-31fd",
+      "siblings": [
+        "portugues-emparejar-nombres-vida-marina-31fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-mascotas-5acb",
+      "siblings": [
+        "portugues-emparejar-nombres-mascotas-5acb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-oficina-de-correos-bb92",
+      "siblings": [
+        "portugues-emparejar-nombres-oficina-de-correos-bb92"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-reptiles-y-anfibios-d4be",
+      "siblings": [
+        "portugues-emparejar-nombres-reptiles-y-anfibios-d4be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-formas-6784",
+      "siblings": [
+        "portugues-emparejar-nombres-formas-6784"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-espacio-7a58",
+      "siblings": [
+        "portugues-emparejar-nombres-espacio-7a58"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-primavera-43c9",
+      "siblings": [
+        "portugues-emparejar-nombres-primavera-43c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-verano-7b1a",
+      "siblings": [
+        "portugues-emparejar-nombres-verano-7b1a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-dia-de-accion-de-gracias-c1e4",
+      "siblings": [
+        "portugues-emparejar-nombres-dia-de-accion-de-gracias-c1e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-cosas-que-vuelan-450b",
+      "siblings": [
+        "portugues-emparejar-nombres-cosas-que-vuelan-450b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-herramientas-1589",
+      "siblings": [
+        "portugues-emparejar-nombres-herramientas-1589"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-juguetes-c6b1",
+      "siblings": [
+        "portugues-emparejar-nombres-juguetes-c6b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-verduras-9ee9",
+      "siblings": [
+        "portugues-emparejar-nombres-verduras-9ee9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-vehiculos-b992",
+      "siblings": [
+        "portugues-emparejar-nombres-vehiculos-b992"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-clima-f5d4",
+      "siblings": [
+        "portugues-emparejar-nombres-clima-f5d4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-invierno-250e",
+      "siblings": [
+        "portugues-emparejar-nombres-invierno-250e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "portugues-emparejar-nombres-animales-del-zoologico-0f50",
+      "siblings": [
+        "portugues-emparejar-nombres-animales-del-zoologico-0f50"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

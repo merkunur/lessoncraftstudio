@@ -1,0 +1,737 @@
+{
+  "locale": "pt",
+  "target": "es",
+  "exerciseType": "crossword",
+  "rawRowCount": 42,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "(null)": 42
+  },
+  "totalValid": 42,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "music",
+    "occupations",
+    "ocean_life",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-4-de-julho-8ef7",
+      "siblings": [
+        "espanhol-palavras-cruzadas-4-de-julho-8ef7"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-acessorios-395d",
+      "siblings": [
+        "espanhol-palavras-cruzadas-acessorios-395d"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-atividades-425c",
+      "siblings": [
+        "espanhol-palavras-cruzadas-atividades-425c"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-animais-b3f4",
+      "siblings": [
+        "espanhol-palavras-cruzadas-animais-b3f4"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-pela-casa-528a",
+      "siblings": [
+        "espanhol-palavras-cruzadas-pela-casa-528a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-no-supermercado-b598",
+      "siblings": [
+        "espanhol-palavras-cruzadas-no-supermercado-b598"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-praia-24d3",
+      "siblings": [
+        "espanhol-palavras-cruzadas-praia-24d3"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-passaros-2-2f60",
+      "siblings": [
+        "espanhol-palavras-cruzadas-passaros-2-2f60"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-partes-do-corpo-9a89",
+      "siblings": [
+        "espanhol-palavras-cruzadas-partes-do-corpo-9a89"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-cafe-da-manha-3fd9",
+      "siblings": [
+        "espanhol-palavras-cruzadas-cafe-da-manha-3fd9"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-acampamento-2822",
+      "siblings": [
+        "espanhol-palavras-cruzadas-acampamento-2822"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-natal-cc30",
+      "siblings": [
+        "espanhol-palavras-cruzadas-natal-cc30"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-sala-de-aula-2e3b",
+      "siblings": [
+        "espanhol-palavras-cruzadas-sala-de-aula-2e3b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-roupas-29c5",
+      "siblings": [
+        "espanhol-palavras-cruzadas-roupas-29c5"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-cores-c916",
+      "siblings": [
+        "espanhol-palavras-cruzadas-cores-c916"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-sobremesas-e-doces-1181",
+      "siblings": [
+        "espanhol-palavras-cruzadas-sobremesas-e-doces-1181"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-pascoa-8f87",
+      "siblings": [
+        "espanhol-palavras-cruzadas-pascoa-8f87"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-emocoes-0ecf",
+      "siblings": [
+        "espanhol-palavras-cruzadas-emocoes-0ecf"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-animais-da-fazenda-9631",
+      "siblings": [
+        "espanhol-palavras-cruzadas-animais-da-fazenda-9631"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-flores-ff2a",
+      "siblings": [
+        "espanhol-palavras-cruzadas-flores-ff2a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-criaturas-da-floresta-58b1",
+      "siblings": [
+        "espanhol-palavras-cruzadas-criaturas-da-floresta-58b1"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-frutas-460e",
+      "siblings": [
+        "espanhol-palavras-cruzadas-frutas-460e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-moveis-a5f2",
+      "siblings": [
+        "espanhol-palavras-cruzadas-moveis-a5f2"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-hospital-b090",
+      "siblings": [
+        "espanhol-palavras-cruzadas-hospital-b090"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-insetos-e-bichos-4188",
+      "siblings": [
+        "espanhol-palavras-cruzadas-insetos-e-bichos-4188"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-musica-2955",
+      "siblings": [
+        "espanhol-palavras-cruzadas-musica-2955"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-profissoes-eade",
+      "siblings": [
+        "espanhol-palavras-cruzadas-profissoes-eade"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-vida-marinha-c142",
+      "siblings": [
+        "espanhol-palavras-cruzadas-vida-marinha-c142"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-correios-3ba7",
+      "siblings": [
+        "espanhol-palavras-cruzadas-correios-3ba7"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-formas-f091",
+      "siblings": [
+        "espanhol-palavras-cruzadas-formas-f091"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-espaco-79d5",
+      "siblings": [
+        "espanhol-palavras-cruzadas-espaco-79d5"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-primavera-754d",
+      "siblings": [
+        "espanhol-palavras-cruzadas-primavera-754d"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-verao-42d6",
+      "siblings": [
+        "espanhol-palavras-cruzadas-verao-42d6"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-dia-de-acao-de-gracas-a044",
+      "siblings": [
+        "espanhol-palavras-cruzadas-dia-de-acao-de-gracas-a044"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-coisas-que-voam-ff64",
+      "siblings": [
+        "espanhol-palavras-cruzadas-coisas-que-voam-ff64"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-ferramentas-86c3",
+      "siblings": [
+        "espanhol-palavras-cruzadas-ferramentas-86c3"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-brinquedos-aae0",
+      "siblings": [
+        "espanhol-palavras-cruzadas-brinquedos-aae0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-vegetais-9feb",
+      "siblings": [
+        "espanhol-palavras-cruzadas-vegetais-9feb"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-veiculos-1441",
+      "siblings": [
+        "espanhol-palavras-cruzadas-veiculos-1441"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-clima-e86b",
+      "siblings": [
+        "espanhol-palavras-cruzadas-clima-e86b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-inverno-7b97",
+      "siblings": [
+        "espanhol-palavras-cruzadas-inverno-7b97"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "es",
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "espanhol-palavras-cruzadas-animais-do-zoologico-afcf",
+      "siblings": [
+        "espanhol-palavras-cruzadas-animais-do-zoologico-afcf"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

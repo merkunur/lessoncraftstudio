@@ -33,8 +33,10 @@
       "browseAll": {
         "worksheets": "Tutte le schede",
         "apps": "Tutti i generatori",
-        "interactive": "Tutte le interattive"
-      }
+        "interactive": "Tutte le interattive",
+        "languages": "Lingue"
+      },
+      "languages": "Lingue"
     }
   },
   "homepage": {
@@ -3983,5 +3985,18 @@
     "audienceBody": "Pensato per insegnanti e famiglie in classi bilingui, plurilingui e internazionali, soprattutto nella prima infanzia (3-7 anni).",
     "teamHeading": "Il nostro team",
     "teamBody": "Stiamo aggiornando questa sezione — torna presto."
+  },
+  "learnPage": {
+    "category": "Lingue",
+    "hubH1": "Lingue — Schede di vocabolario per bambini",
+    "hubIntro": "Cruciverba, abbinamento immagine-parola e crucipuzzle gratis da stampare per aiutare i bambini a imparare una nuova lingua: esercizi di vocabolario su tanti temi.",
+    "choose": "Scegli una lingua da imparare",
+    "learnH1": "Imparare {lang}",
+    "learnH1Tail": "— Schede di vocabolario per bambini",
+    "learnIntro": "{count} schede gratis per imparare il vocabolario di {lang}: cruciverba, abbinamento immagine-parola e crucipuzzle su {themes} temi. Stampa in PDF o gioca online, sempre gratis e senza registrazione.",
+    "worksheets": "{count} schede",
+    "themesWord": "temi",
+    "allFormats": "Tutti i formati",
+    "breadcrumb": "Lingue"
   }
 }

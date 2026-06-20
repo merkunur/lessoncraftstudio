@@ -33,8 +33,10 @@
       "browseAll": {
         "worksheets": "Alle Arbeitsblätter",
         "apps": "Alle Arbeitsblatt-Generatoren",
-        "interactive": "Alle interaktiven"
-      }
+        "interactive": "Alle interaktiven",
+        "languages": "Sprachen lernen"
+      },
+      "languages": "Sprachen"
     }
   },
   "homepage": {
@@ -3783,5 +3785,18 @@
     "audienceBody": "Entwickelt für Lehrkräfte und Eltern in mehrsprachigen, bilingualen und internationalen Klassen, vor allem für die frühe Kindheit (3 bis 7 Jahre).",
     "teamHeading": "Über unser Team",
     "teamBody": "Wir aktualisieren diesen Abschnitt — bald gibt es mehr."
+  },
+  "learnPage": {
+    "category": "Sprachen",
+    "hubH1": "Sprachen lernen — Vokabel-Arbeitsblätter für Kinder",
+    "hubIntro": "Kostenlose Kreuzworträtsel, Bild-Wort-Zuordnungen und Wortsuchen zum Ausdrucken, die Kindern helfen, eine neue Sprache zu lernen — Vokabelübungen zu vielen Themen.",
+    "choose": "Wähle eine Sprache zum Lernen",
+    "learnH1": "{lang} lernen",
+    "learnH1Tail": "— Vokabel-Arbeitsblätter für Kinder",
+    "learnIntro": "{count} kostenlose Arbeitsblätter zum Lernen von {lang}-Vokabeln: Kreuzworträtsel, Bild-Wort-Zuordnung und Wortsuche zu {themes} Themen. Als PDF ausdrucken oder online spielen — immer kostenlos, ohne Anmeldung.",
+    "worksheets": "{count} Arbeitsblätter",
+    "themesWord": "Themen",
+    "allFormats": "Alle Formate",
+    "breadcrumb": "Sprachen"
   }
 }

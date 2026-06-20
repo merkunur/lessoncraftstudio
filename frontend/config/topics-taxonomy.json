@@ -6310,6 +6310,316 @@
           "fi": "Valitse oikea polku"
         }
       }
+    },
+    "target-language": {
+      "en": {
+        "slug": {
+          "en": "english",
+          "de": "englisch",
+          "es": "ingles",
+          "nl": "engels",
+          "it": "inglese",
+          "fr": "anglais",
+          "pt": "ingles",
+          "sv": "engelska",
+          "da": "engelsk",
+          "no": "engelsk",
+          "fi": "englanti"
+        },
+        "name": {
+          "en": "English",
+          "de": "Englisch",
+          "es": "Inglés",
+          "nl": "Engels",
+          "it": "Inglese",
+          "fr": "Anglais",
+          "pt": "Inglês",
+          "sv": "Engelska",
+          "da": "Engelsk",
+          "no": "Engelsk",
+          "fi": "Englanti"
+        }
+      },
+      "de": {
+        "slug": {
+          "en": "german",
+          "de": "deutsch",
+          "es": "aleman",
+          "nl": "duits",
+          "it": "tedesco",
+          "fr": "allemand",
+          "pt": "alemao",
+          "sv": "tyska",
+          "da": "tysk",
+          "no": "tysk",
+          "fi": "saksa"
+        },
+        "name": {
+          "en": "German",
+          "de": "Deutsch",
+          "es": "Alemán",
+          "nl": "Duits",
+          "it": "Tedesco",
+          "fr": "Allemand",
+          "pt": "Alemão",
+          "sv": "Tyska",
+          "da": "Tysk",
+          "no": "Tysk",
+          "fi": "Saksa"
+        }
+      },
+      "es": {
+        "slug": {
+          "en": "spanish",
+          "de": "spanisch",
+          "es": "espanol",
+          "nl": "spaans",
+          "it": "spagnolo",
+          "fr": "espagnol",
+          "pt": "espanhol",
+          "sv": "spanska",
+          "da": "spansk",
+          "no": "spansk",
+          "fi": "espanja"
+        },
+        "name": {
+          "en": "Spanish",
+          "de": "Spanisch",
+          "es": "Español",
+          "nl": "Spaans",
+          "it": "Spagnolo",
+          "fr": "Espagnol",
+          "pt": "Espanhol",
+          "sv": "Spanska",
+          "da": "Spansk",
+          "no": "Spansk",
+          "fi": "Espanja"
+        }
+      },
+      "fr": {
+        "slug": {
+          "en": "french",
+          "de": "franzosisch",
+          "es": "frances",
+          "nl": "frans",
+          "it": "francese",
+          "fr": "francais",
+          "pt": "frances",
+          "sv": "franska",
+          "da": "fransk",
+          "no": "fransk",
+          "fi": "ranska"
+        },
+        "name": {
+          "en": "French",
+          "de": "Französisch",
+          "es": "Francés",
+          "nl": "Frans",
+          "it": "Francese",
+          "fr": "Français",
+          "pt": "Francês",
+          "sv": "Franska",
+          "da": "Fransk",
+          "no": "Fransk",
+          "fi": "Ranska"
+        }
+      },
+      "it": {
+        "slug": {
+          "en": "italian",
+          "de": "italienisch",
+          "es": "italiano",
+          "nl": "italiaans",
+          "it": "italiano",
+          "fr": "italien",
+          "pt": "italiano",
+          "sv": "italienska",
+          "da": "italiensk",
+          "no": "italiensk",
+          "fi": "italia"
+        },
+        "name": {
+          "en": "Italian",
+          "de": "Italienisch",
+          "es": "Italiano",
+          "nl": "Italiaans",
+          "it": "Italiano",
+          "fr": "Italien",
+          "pt": "Italiano",
+          "sv": "Italienska",
+          "da": "Italiensk",
+          "no": "Italiensk",
+          "fi": "Italia"
+        }
+      },
+      "nl": {
+        "slug": {
+          "en": "dutch",
+          "de": "niederlandisch",
+          "es": "neerlandes",
+          "nl": "nederlands",
+          "it": "olandese",
+          "fr": "neerlandais",
+          "pt": "neerlandes",
+          "sv": "nederlandska",
+          "da": "nederlandsk",
+          "no": "nederlandsk",
+          "fi": "hollanti"
+        },
+        "name": {
+          "en": "Dutch",
+          "de": "Niederländisch",
+          "es": "Neerlandés",
+          "nl": "Nederlands",
+          "it": "Olandese",
+          "fr": "Néerlandais",
+          "pt": "Neerlandês",
+          "sv": "Nederländska",
+          "da": "Nederlandsk",
+          "no": "Nederlandsk",
+          "fi": "Hollanti"
+        }
+      },
+      "pt": {
+        "slug": {
+          "en": "portuguese",
+          "de": "portugiesisch",
+          "es": "portugues",
+          "nl": "portugees",
+          "it": "portoghese",
+          "fr": "portugais",
+          "pt": "portugues",
+          "sv": "portugisiska",
+          "da": "portugisisk",
+          "no": "portugisisk",
+          "fi": "portugali"
+        },
+        "name": {
+          "en": "Portuguese",
+          "de": "Portugiesisch",
+          "es": "Portugués",
+          "nl": "Portugees",
+          "it": "Portoghese",
+          "fr": "Portugais",
+          "pt": "Português",
+          "sv": "Portugisiska",
+          "da": "Portugisisk",
+          "no": "Portugisisk",
+          "fi": "Portugali"
+        }
+      },
+      "sv": {
+        "slug": {
+          "en": "swedish",
+          "de": "schwedisch",
+          "es": "sueco",
+          "nl": "zweeds",
+          "it": "svedese",
+          "fr": "suedois",
+          "pt": "sueco",
+          "sv": "svenska",
+          "da": "svensk",
+          "no": "svensk",
+          "fi": "ruotsi"
+        },
+        "name": {
+          "en": "Swedish",
+          "de": "Schwedisch",
+          "es": "Sueco",
+          "nl": "Zweeds",
+          "it": "Svedese",
+          "fr": "Suédois",
+          "pt": "Sueco",
+          "sv": "Svenska",
+          "da": "Svensk",
+          "no": "Svensk",
+          "fi": "Ruotsi"
+        }
+      },
+      "da": {
+        "slug": {
+          "en": "danish",
+          "de": "danisch",
+          "es": "danes",
+          "nl": "deens",
+          "it": "danese",
+          "fr": "danois",
+          "pt": "dinamarques",
+          "sv": "danska",
+          "da": "dansk",
+          "no": "dansk",
+          "fi": "tanska"
+        },
+        "name": {
+          "en": "Danish",
+          "de": "Dänisch",
+          "es": "Danés",
+          "nl": "Deens",
+          "it": "Danese",
+          "fr": "Danois",
+          "pt": "Dinamarquês",
+          "sv": "Danska",
+          "da": "Dansk",
+          "no": "Dansk",
+          "fi": "Tanska"
+        }
+      },
+      "no": {
+        "slug": {
+          "en": "norwegian",
+          "de": "norwegisch",
+          "es": "noruego",
+          "nl": "noors",
+          "it": "norvegese",
+          "fr": "norvegien",
+          "pt": "noruegues",
+          "sv": "norska",
+          "da": "norsk",
+          "no": "norsk",
+          "fi": "norja"
+        },
+        "name": {
+          "en": "Norwegian",
+          "de": "Norwegisch",
+          "es": "Noruego",
+          "nl": "Noors",
+          "it": "Norvegese",
+          "fr": "Norvégien",
+          "pt": "Norueguês",
+          "sv": "Norska",
+          "da": "Norsk",
+          "no": "Norsk",
+          "fi": "Norja"
+        }
+      },
+      "fi": {
+        "slug": {
+          "en": "finnish",
+          "de": "finnisch",
+          "es": "fines",
+          "nl": "fins",
+          "it": "finlandese",
+          "fr": "finnois",
+          "pt": "finlandes",
+          "sv": "finska",
+          "da": "finsk",
+          "no": "finsk",
+          "fi": "suomi"
+        },
+        "name": {
+          "en": "Finnish",
+          "de": "Finnisch",
+          "es": "Finés",
+          "nl": "Fins",
+          "it": "Finlandese",
+          "fr": "Finnois",
+          "pt": "Finlandês",
+          "sv": "Finska",
+          "da": "Finsk",
+          "no": "Finsk",
+          "fi": "Suomi"
+        }
+      }
     }
   }
 }

@@ -7,6 +7,8 @@ import { Footer } from '@/components/layout/Footer';
 import { LocaleLayoutClient } from './LocaleLayoutClient';
 import { listNonEmptyAxisKeys } from '@/lib/topic-decks';
 import { listAllActivities } from '@/lib/activities';
+import { fetchCrossLanguageTargets } from '@/lib/cross-language-decks';
+import { targetLangSlug, targetLangName } from '@/lib/target-language';
 
 // Generate static params for all locales - enables static generation
 export function generateStaticParams() {
@@ -67,6 +69,15 @@ export default async function LocaleLayout({
     // Manifest unreachable: dropdown renders empty + Browse-all link still works.
   }
 
+  // Cross-language ("Languages") category targets for this locale (≥1 deck each).
+  let availableTargets: Array<{ iso: string; slug: string; name: string; count: number }> = [];
+  try {
+    const targets = await fetchCrossLanguageTargets(locale);
+    availableTargets = targets.map((tg) => ({ iso: tg.iso, slug: targetLangSlug(tg.iso, locale), name: targetLangName(tg.iso, locale), count: tg.count }));
+  } catch {
+    // DB unavailable: Languages category simply won't render.
+  }
+
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <LocaleLayoutClient
@@ -75,6 +86,7 @@ export default async function LocaleLayout({
         footerAvailableThemes={footerAvailableThemes}
         footerAvailableLevels={footerAvailableLevels}
         availableActivities={availableActivities}
+        availableTargets={availableTargets}
       >
         {children}
       </LocaleLayoutClient>

@@ -76,6 +76,24 @@ const nextConfig = {
           },
         ],
       },
+      {
+        // SEO 2026-06-20: the mini-tool engine HTML (`/mini-tools/<engine>-activity.html`,
+        // manipulatives, etc.) is loaded ONLY inside same-origin iframes on the
+        // `/[locale]/activities/<slug>` + `/[locale]/tools/<slug>` pages — those Next
+        // routes are the canonical, fully-indexed ranking surfaces. The engine files
+        // are thin embedded widgets with a static English <title> regardless of
+        // ?lang, and are reachable standalone (200, crawlable). Keep them OUT of the
+        // index so they don't surface as thin/wrong-language pages; the host page
+        // ranks. (Textbook iframe-widget treatment; opposite of the deck PDFs, which
+        // are standalone content and stay indexable.)
+        source: '/mini-tools/:path*.html',
+        headers: [
+          {
+            key: 'X-Robots-Tag',
+            value: 'noindex'
+          },
+        ],
+      },
     ];
   },
 

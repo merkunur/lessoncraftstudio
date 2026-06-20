@@ -33,6 +33,7 @@ var path = require('path');
 var crypto = require('crypto');
 var db = require('./db');
 var hreflangCodes = require('./hreflang-codes');
+var waveScope = require('./wave-scope');
 
 var DEFAULT_DECKS_DIR = '/var/www/lcs-media/decks';
 var CANONICAL_URL_BASE = 'https://www.lessoncraftstudio.com';
@@ -178,6 +179,19 @@ async function main() {
   var totalSiblingMembers = 0;
   siblingGroups.forEach(function (g) { totalSiblingMembers += g.members.length; });
   console.log('[hreflang-v2] total deck members in sibling sets: ' + totalSiblingMembers);
+
+  // Wave-scoping (--slugs-file): a sibling group's hreflang block only CHANGES when the wave
+  // added/changed a member of that group. Groups with no wave deck are already correct from prior
+  // waves → skip them. The catalog-wide QUERY above is still required (sibling discovery needs the
+  // full set); only the REWRITE is scoped. Omit --slugs-file to re-inject every group.
+  var waveSlugs = waveScope.loadSlugSet(process.argv);
+  if (waveSlugs) {
+    var beforeN = siblingGroups.length;
+    siblingGroups = siblingGroups.filter(function (g) {
+      return g.members.some(function (m) { return waveSlugs.has(m.row.slug); });
+    });
+    console.log('[hreflang-v2] wave-scoped (--slugs-file): ' + siblingGroups.length + ' of ' + beforeN + ' groups contain a wave deck');
+  }
 
   if (args.dryRun) {
     console.log('[hreflang-v2] sample groups:');

@@ -23,7 +23,12 @@ const arg = (k, d) => { const a = argv.find(s => s.indexOf('--' + k + '=') === 0
 const LOCALE = arg('locale', null);
 const TARGET = arg('target', null);
 const TYPE = arg('type', null);
+// Multi-target page-locales (en→10, es→{en,pt}, pt→{en,es}) parametrize the taught language.
+// --targetname="inglés" (lowercase, as used in prose: "palabras en {TGT}"); {TGT_CAP} = capitalized.
+const TGT = arg('targetname', null);
+const TGT_CAP = TGT ? (TGT.charAt(0).toUpperCase() + TGT.slice(1)) : null;
 if (!LOCALE || !TARGET || !TYPE) { console.error('--locale, --target and --type required'); process.exit(1); }
+function tgt(s){ return (TGT && typeof s === 'string') ? s.replace(/\{TGT_CAP\}/g, TGT_CAP).replace(/\{TGT\}/g, TGT) : s; }
 
 // themes export shape varies: de/sv/fr/nl/no/da/fi export { THEMES }; it/pt export the map directly.
 const _tmod = require('./' + LOCALE + '-themes');
@@ -89,17 +94,17 @@ function buildMode(mk){
       slug: co.canonical,
       variantShape: co.siblings.length>1 ? 'collapsed' : 'singleton',
       coordinate: { type:TYPE, mode: wantMode, theme:co.theme, level: LEVEL, target: TARGET },
-      eyebrow: cfg.eyebrow,
-      h1: cfg.h1(mk, d, LEVEL, disp(d)),
-      strand: (typeof cfg.strand === 'function' ? cfg.strand(mk, LEVEL) : cfg.strand),
+      eyebrow: tgt(cfg.eyebrow),
+      h1: tgt(cfg.h1(mk, d, LEVEL, disp(d))),
+      strand: tgt(typeof cfg.strand === 'function' ? cfg.strand(mk, LEVEL) : cfg.strand),
       // every theme-noun surface form across all locales, so the theme-noun-in-P1 gate matches whichever
       // case/definiteness a locale's SKEL legitimately uses (fi p1 may carry partitive/genitive, not nominative).
       slotTokens: [d.nPl, d.plIndef, d.plDef, d.nomPl, d.partPl, d.partSg, d.genPl, d.gen && d.genArt ? d.gen : null, disp(d), co.theme.replace(/_/g,' '), cfg.slotWord].filter(Boolean),
-      p1: render(sk[c.skel], d),
-      p2: render(p2[c.p2], d),
-      p3: p3(d, THEMES[nb1.theme], THEMES[nb2.theme]),
+      p1: tgt(render(sk[c.skel], d)),
+      p2: tgt(render(p2[c.p2], d)),
+      p3: tgt(p3(d, THEMES[nb1.theme], THEMES[nb2.theme])),
       canonicalDeckSlug: co.canonical,
-      carousel: [1,2,5,11].map(off=>{ const n=list[(i+off)%list.length]; return {label: cfg.carousel(mk, disp(THEMES[n.theme])), href: n.canonical}; }),
+      carousel: [1,2,5,11].map(off=>{ const n=list[(i+off)%list.length]; return {label: tgt(cfg.carousel(mk, disp(THEMES[n.theme]))), href: n.canonical}; }),
     };
     if (co.siblings.length>1) entry.collapseSiblings = co.siblings;
     out.push(entry);

@@ -1,0 +1,200 @@
+{
+  "labels": {
+    "samplesHeading": "Sieh, was du erstellen kannst",
+    "samplesIntroDefault": "Jede Vorlage unten ist ein fertiges Beispiel — tippe an, um es zu spielen, und jedes Arbeitsblatt kannst du kostenlos ausdrucken.",
+    "playSample": "Beispiel spielen",
+    "crossLangHeading": "Arbeitsblätter zum Sprachenlernen erstellen",
+    "crossLangIntro": "Derselbe Generator erstellt auch Bild-Wortschatz-Arbeitsblätter zum Lernen einer neuen Sprache.",
+    "seeAllLang": "Alle {lang} Arbeitsblätter ansehen",
+    "closeSample": "Beispiel schließen"
+  },
+  "makers": {
+    "addition": {
+      "modes": {
+        "find-addend": "Zeige einen Teil und die Summe; das Kind findet den fehlenden Summanden heraus.",
+        "image-image": "Zwei Bildergruppen addieren und alle zählen, um die Summe zu finden.",
+        "image-number": "Eine Bildergruppe zählen und dann eine Zahl dazu addieren.",
+        "mixed": "Eine Mischung aus Bild- und Zahlensummen auf einer Seite."
+      }
+    },
+    "subtraction": {
+      "modes": {
+        "cross-out": "Das Kind streicht Bilder durch, um sie wegzunehmen, und zählt den Rest.",
+        "find-subtrahend": "Zeige Anfang und Ergebnis; das Kind findet die weggenommene Zahl.",
+        "image-number": "Eine Bildergruppe zählen und dann eine Zahl davon abziehen.",
+        "mixed": "Eine Mischung aus Bild- und Zahlen-Wegnehmaufgaben auf einem Blatt."
+      }
+    },
+    "code-addition": {
+      "modes": {
+        "default": "Löse jede Summe und knacke mit dem Zahlenschlüssel ein verstecktes Bild.",
+        "secret-word": "Löse die Summen, und die Ergebnisse ergeben ein lustiges geheimes Wort."
+      },
+      "modeNames": {
+        "default": "Zahlencode"
+      }
+    },
+    "more-less": {
+      "modes": {
+        "check-cross": "Das Kind markiert, welche Gruppe mehr und welche weniger hat.",
+        "image-image": "Zwei Bildergruppen vergleichen und entscheiden, welche mehr oder weniger hat.",
+        "image-number": "Eine Bildergruppe mit einer Zahl vergleichen — mehr, weniger oder gleich?"
+      }
+    },
+    "math-puzzle": {
+      "modes": {
+        "addition": "Zahlengitter-Rätsel, bei denen jeder Hinweis eine Additionsaufgabe ist.",
+        "subtraction": "Zahlengitter-Rätsel, die ganz aus Wegnehmaufgaben bestehen.",
+        "mixed": "Rätselgitter, die Additions- und Subtraktionshinweise mischen."
+      }
+    },
+    "math-worksheet": {
+      "modes": {
+        "two-symbols-add-sub": "Aufgaben mit zwei Zahlen und Plus oder Minus, übersichtlich zum Lösen.",
+        "three-symbols-add-sub": "Aufgaben mit drei Zahlen, die Plus und Minus in einer Zeile verbinden.",
+        "four-symbols-add-sub": "Längere Ketten aus vier Zahlen mit Plus und Minus zum Durchrechnen."
+      },
+      "modeNames": {
+        "two-symbols-add-sub": "Zwei Zahlen",
+        "three-symbols-add-sub": "Drei Zahlen",
+        "four-symbols-add-sub": "Vier Zahlen"
+      }
+    },
+    "alphabet-train": {
+      "modes": {
+        "letter-hint": "Jeder Waggon zeigt einen Buchstabenhinweis zum Bauen des Alphabet-Zugs.",
+        "default": "Baue den Alphabet-Zug, indem du die Buchstaben in die richtige Reihenfolge bringst."
+      },
+      "modeNames": {
+        "default": "Klassisch"
+      }
+    },
+    "prepositions": {
+      "modes": {
+        "fillin": "Das Kind schreibt das Ortswort (in, auf, unter…), das zu jedem Bild passt.",
+        "multiplechoice": "Wähle für jedes Bild das richtige Ortswort aus den Möglichkeiten."
+      }
+    },
+    "word-guess": {
+      "modes": {
+        "easy": "Kürzere Wörter mit Bildhinweisen für Leseanfänger zum Erraten.",
+        "normal": "Längere Wörter und kniffligere Hinweise für sichere Leser."
+      }
+    },
+    "word-scramble": {
+      "modes": {
+        "easy": "Kurze, bekannte Wörter mit Bildhinweis als Hilfe entwirren.",
+        "normal": "Längere Wörter entwirren für eine größere Rechtschreib-Herausforderung."
+      }
+    },
+    "wordsearch": {
+      "modes": {
+        "default": "Verstecke eine Wortliste im Gitter, die das Kind findet und einkreist.",
+        "image-only": "Eine Bild-Wortsuche — das Kind findet die Wörter zu den gezeigten Bildern."
+      },
+      "modeNames": {
+        "default": "Wortjagd",
+        "image-only": "Bilderjagd"
+      }
+    },
+    "cryptogram": {
+      "samplesIntro": "Erstelle Entschlüssel-Rätsel, bei denen Symbole für Buchstaben stehen."
+    },
+    "big-small": {
+      "modes": {
+        "findBig": "Das Kind erkennt und tippt das größte (oder kleinste) Bild in jedem Satz an.",
+        "orderAsc": "Bringe die Bilder in die Reihenfolge vom kleinsten zum größten."
+      },
+      "modeNames": {
+        "findBig": "Das Größte finden",
+        "orderAsc": "Nach Größe ordnen"
+      }
+    },
+    "pattern-train": {
+      "modes": {
+        "aab": "Sich wiederholende A-A-B-Bildmuster, die das Kind fortsetzt.",
+        "aabb": "A-A-B-B-Muster, die einen ruhigen Zwei-zu-Zwei-Rhythmus aufbauen.",
+        "abb": "A-B-B-Muster zum Lesen, Vorhersagen und Erweitern.",
+        "abc": "Dreiteilige A-B-C-Muster mit einer längeren sich wiederholenden Einheit.",
+        "default": "Gemischte Wiederholungsmuster, bei denen das Kind herausfindet, was kommt."
+      },
+      "modeNames": {
+        "default": "Gemischte Muster"
+      }
+    },
+    "pattern-worksheet": {
+      "samplesIntro": "Erstelle gemischte Muster-Arbeitsblätter zum Lesen und Vervollständigen."
+    },
+    "chart-count": {
+      "samplesIntro": "Erstelle Zähl-und-Diagramm-Arbeitsblätter, bei denen Bilder in ein Diagramm übertragen werden."
+    },
+    "matching": {
+      "modes": {
+        "letter": "Ziehe eine Linie von jedem Bild zum Anfangsbuchstaben.",
+        "name": "Ordne jedem Bild sein geschriebenes Wort zu."
+      }
+    },
+    "grid-match": {
+      "samplesIntro": "Erstelle Gitter-Zuordnungs-Arbeitsblätter, die Bilder über ein Gitter paaren."
+    },
+    "shadow-match": {
+      "modes": {
+        "find-shadow": "Ordne jedem Bild seine passende Schattenform zu.",
+        "make-whole": "Füge die zwei Hälften zusammen, die jedes Bild wieder ganz machen."
+      }
+    },
+    "bingo": {
+      "samplesIntro": "Erstelle Bild- und Wort-Bingokarten, die deine ganze Klasse zusammen spielen kann."
+    },
+    "picture-sort": {
+      "samplesIntro": "Erstelle Sortier-Arbeitsblätter, bei denen Bilder in die richtigen Körbe gruppiert werden."
+    },
+    "missing-pieces": {
+      "modes": {
+        "one-missing": "Ein Teil fehlt im Bild — das Kind wählt das Stück, das es vervollständigt.",
+        "two-missing": "Zwei Teile fehlen, also wählt das Kind beide Stücke, um das Bild fertigzustellen."
+      }
+    },
+    "odd-one-out": {
+      "modes": {
+        "same-theme": "Alle Bilder teilen ein Thema außer einem — finde das, was nicht passt.",
+        "cross-theme": "Die Bilder stammen aus verschiedenen Themen; finde das, was nicht passt."
+      }
+    },
+    "sudoku": {
+      "modes": {
+        "easy": "Sanfte Bild-Sudoku-Gitter für einen ersten Versuch mit dem Rätsel.",
+        "medium": "Eine Stufe höher, mit etwas volleren Gittern zum Durchdenken.",
+        "hard": "Kniffligere Gitter, die mehr sorgfältige Logik zum Lösen brauchen."
+      }
+    },
+    "picture-path": {
+      "modes": {
+        "choose-path": "Das Kind wählt den richtigen Weg durch ein Bildlabyrinth.",
+        "classic-maze": "Ein klassisches Labyrinth von Start bis Ziel, ohne Wände zu kreuzen.",
+        "pathway": "Folge dem Bildpfad von einem Ende zum anderen."
+      }
+    },
+    "find-and-count": {
+      "modes": {
+        "hidden-object": "Das Kind sucht versteckte Dinge in einem wimmeligen Bild und zählt sie.",
+        "letter-spotting": "Suche im Bild einen bestimmten Buchstaben und zähle jeden gefundenen."
+      }
+    },
+    "find-objects": {
+      "modes": {
+        "find-odd": "Erkenne das eine Bild in der Reihe, das nicht zu den anderen passt.",
+        "i-spy": "Eine Ich-sehe-was-Szene, in der die genannten Dinge gefunden und gezählt werden."
+      }
+    },
+    "crossword": {
+      "samplesIntro": "Erstelle Bild-Kreuzworträtsel, bei denen jedes Wort ins Gitter geschrieben wird."
+    },
+    "treasure-hunt": {
+      "modes": {
+        "cardinal-arrows": "Folge Pfeilen nach oben, unten, links und rechts durchs Gitter zum Schatz.",
+        "compass": "Nutze Himmelsrichtungen, um über die Karte zum Schatz zu navigieren."
+      }
+    }
+  }
+}

@@ -21,7 +21,13 @@
       "Installez les additions imagées dans un atelier de manipulation et de comptage.",
       "Envoyez une courte fiche à la maison pour s'entraîner avec un parent.",
       "Associez une fiche thématique au sujet que vous explorez cette semaine."
-    ]
+    ],
+    "modes": {
+      "find-addend": "On montre une partie et le total ; l'enfant trouve le terme manquant.",
+      "image-image": "L'enfant additionne deux groupes d'images et compte le tout pour trouver la somme.",
+      "image-number": "L'enfant compte un groupe d'images, puis l'ajoute à un nombre pour le total.",
+      "mixed": "Un mélange de sommes en images et de sommes en chiffres sur une même page."
+    }
   },
   "subtraction": {
     "slug": "generateur-fiches-soustraction",
@@ -45,7 +51,13 @@
       "Proposez la soustraction imagée à un atelier de comptage avec des objets à déplacer.",
       "Envoyez une courte fiche d'entraînement à la maison entre deux séances.",
       "Glissez une page thématique pour donner un contexte neuf à la même compétence."
-    ]
+    ],
+    "modes": {
+      "cross-out": "L'enfant barre des images pour les enlever et compte ce qui reste.",
+      "find-subtrahend": "On montre le départ et le résultat ; l'enfant trouve le nombre enlevé.",
+      "image-number": "L'enfant compte un groupe d'images, puis en soustrait un nombre.",
+      "mixed": "Un mélange de soustractions en images et en chiffres sur une même fiche."
+    }
   },
   "code-addition": {
     "slug": "generateur-addition-codee",
@@ -69,7 +81,14 @@
       "Utilisez-la comme prolongement pour les enfants qui terminent l'addition simple vite.",
       "Décodez une addition ensemble avant que les enfants ne travaillent seuls.",
       "Reliez le thème de la légende à un sujet en cours pour un défi thématique."
-    ]
+    ],
+    "modes": {
+      "default": "L'enfant résout chaque somme, puis utilise le code chiffré pour révéler une image cachée.",
+      "secret-word": "L'enfant résout les sommes et les réponses forment un mot secret amusant."
+    },
+    "modeNames": {
+      "default": "Code chiffré"
+    }
   },
   "more-less": {
     "slug": "generateur-comparaison-quantites",
@@ -93,7 +112,12 @@
       "Installez-la dans un atelier de mathématiques avec de vrais objets à comparer.",
       "Modélisez les mots « plus », « moins » et « autant » en marquant un exemple ensemble.",
       "Envoyez une fiche à la maison pour s'entraîner à comparer des groupes du quotidien."
-    ]
+    ],
+    "modes": {
+      "check-cross": "L'enfant repère quel groupe en a le plus et quel groupe en a le moins.",
+      "image-image": "L'enfant compare deux groupes d'images et décide lequel en a plus ou moins.",
+      "image-number": "L'enfant compare un groupe d'images à un nombre — plus, moins ou autant ?"
+    }
   },
   "math-puzzle": {
     "slug": "generateur-puzzle-maths",
@@ -117,7 +141,12 @@
       "Proposez-le en prolongement aux enfants prêts à raisonner et non à réciter.",
       "Résolvez une ligne difficile ensemble en verbalisant le raisonnement.",
       "Proposez un petit lot comme défi pour les enfants qui finissent tôt."
-    ]
+    ],
+    "modes": {
+      "addition": "Des grilles de nombres où chaque indice est une addition.",
+      "subtraction": "Des grilles de nombres construites entièrement à partir de soustractions.",
+      "mixed": "Des grilles qui mélangent les indices d'addition et de soustraction."
+    }
   },
   "math-worksheet": {
     "slug": "generateur-exercices-maths",
@@ -141,7 +170,17 @@
       "Proposez-la en travail autonome pendant que vous menez un petit groupe.",
       "Envoyez-en une à la maison comme entraînement léger et varié.",
       "Composez une courte fiche pour une évaluation formative rapide en fin de séquence."
-    ]
+    ],
+    "modes": {
+      "two-symbols-add-sub": "Des sommes à deux nombres avec un plus ou un moins, bien présentées à résoudre.",
+      "three-symbols-add-sub": "Des opérations à trois nombres combinant plus et moins sur une ligne.",
+      "four-symbols-add-sub": "De plus longues suites de quatre nombres avec des plus et des moins à résoudre."
+    },
+    "modeNames": {
+      "two-symbols-add-sub": "Deux nombres",
+      "three-symbols-add-sub": "Trois nombres",
+      "four-symbols-add-sub": "Quatre nombres"
+    }
   },
   "alphabet-train": {
     "slug": "generateur-train-alphabet",
@@ -165,7 +204,14 @@
       "Utilisez-le dans un atelier de langage avec des lettres magnétiques.",
       "Commencez par un ou deux trous, puis ajoutez-en à mesure des progrès.",
       "Envoyez un train à la maison pour réviser l'ordre des lettres avec un adulte."
-    ]
+    ],
+    "modes": {
+      "letter-hint": "Chaque wagon montre un indice de lettre pour aider à former le train de l'alphabet.",
+      "default": "L'enfant forme le train de l'alphabet en plaçant les lettres dans le bon ordre."
+    },
+    "modeNames": {
+      "default": "Classique"
+    }
   },
   "prepositions": {
     "slug": "generateur-fiches-prepositions",
@@ -189,7 +235,11 @@
       "Utilisez-la pour soutenir une discussion riche en langage « où est-il ? ».",
       "Associez-la à des objets familiers de la classe pour un prolongement concret.",
       "Reliez le thème des scènes à une histoire que vous lisez ensemble."
-    ]
+    ],
+    "modes": {
+      "fillin": "L'enfant écrit le mot de position (dans, sur, sous…) qui convient à chaque image.",
+      "multiplechoice": "L'enfant choisit le bon mot de position pour chaque image parmi les propositions."
+    }
   },
   "word-guess": {
     "slug": "generateur-deviner-mots",
@@ -213,7 +263,11 @@
       "Utilisez les indices imagés pour relier le sens d'un mot à son orthographe.",
       "Créez une devinette thématique comme révision ludique de fin de séquence.",
       "Laissez les enfants rapides deviner quelques mots bonus pendant que les autres finissent."
-    ]
+    ],
+    "modes": {
+      "easy": "Des mots courts avec des indices en images, à deviner pour les jeunes lecteurs.",
+      "normal": "Des mots plus longs et des indices plus délicats pour les lecteurs confirmés."
+    }
   },
   "word-scramble": {
     "slug": "generateur-mots-melanges",
@@ -237,7 +291,11 @@
       "Utilisez-la pour réviser le vocabulaire du thème en fin de semaine.",
       "Installez-la en atelier d'orthographe avec des lettres à déplacer.",
       "Envoyez un court mélange à la maison pour un entraînement orthographique ludique."
-    ]
+    ],
+    "modes": {
+      "easy": "L'enfant remet en ordre des mots courts et familiers, aidé d'un indice en image.",
+      "normal": "L'enfant remet en ordre des mots plus longs pour un défi d'orthographe plus grand."
+    }
   },
   "wordsearch": {
     "slug": "generateur-mots-caches",
@@ -261,7 +319,15 @@
       "Construisez une grille thématique pour introduire ou réviser le vocabulaire d'un sujet.",
       "Faites une petite grille de gauche à droite pour les débutants et une plus grande pour les grands.",
       "Utilisez une grille comme tâche d'accueil calme en début de journée."
-    ]
+    ],
+    "modes": {
+      "default": "Cachez une liste de mots dans la grille pour que l'enfant les trouve et les entoure.",
+      "image-only": "Une grille de mots en images — l'enfant cherche les mots des images montrées."
+    },
+    "modeNames": {
+      "default": "Chasse aux mots",
+      "image-only": "Chasse aux images"
+    }
   },
   "cryptogram": {
     "slug": "generateur-cryptogramme",
@@ -285,7 +351,8 @@
       "Construisez un cryptogramme à partir du vocabulaire d'une histoire en échauffement.",
       "Créez un court message codé — une récompense de classe ou une devinette — à révéler.",
       "Associez un cryptogramme à un thème pour décoder les mots à venir."
-    ]
+    ],
+    "samplesIntro": "Créez des messages à décoder où des symboles remplacent les lettres."
   },
   "writing": {
     "slug": "generateur-fiches-ecriture",
@@ -333,7 +400,15 @@
       "Utilisez-la dans un atelier de tri avec des jouets grands et petits.",
       "Modélisez les mots grand, petit, plus grand et plus petit au fil de l'activité.",
       "Envoyez une fiche à la maison pour repérer les choses grandes et petites du quotidien."
-    ]
+    ],
+    "modes": {
+      "findBig": "L'enfant repère et touche l'image la plus grande (ou la plus petite) de chaque série.",
+      "orderAsc": "L'enfant range les images de la plus petite à la plus grande."
+    },
+    "modeNames": {
+      "findBig": "Trouve la plus grande",
+      "orderAsc": "Ranger par taille"
+    }
   },
   "pattern-train": {
     "slug": "generateur-train-suites-logiques",
@@ -357,7 +432,17 @@
       "Construisez une suite identique avec des cubes dans un atelier.",
       "Commencez par des suites simples ABAB, puis ajoutez de la complexité.",
       "Reliez le thème de la suite à votre sujet en cours."
-    ]
+    ],
+    "modes": {
+      "aab": "Des suites d'images A-A-B à poursuivre par l'enfant.",
+      "aabb": "Des suites A-A-B-B qui installent un rythme régulier deux par deux.",
+      "abb": "Des suites A-B-B à lire, anticiper et prolonger.",
+      "abc": "Des suites A-B-C en trois parties, avec un motif répété plus long.",
+      "default": "Des suites variées où l'enfant cherche ce qui vient ensuite."
+    },
+    "modeNames": {
+      "default": "Suites variées"
+    }
   },
   "pattern-worksheet": {
     "slug": "generateur-fiches-sequences-logiques",
@@ -381,7 +466,8 @@
       "Proposez-la en travail autonome après une mini-leçon sur les suites.",
       "Offrez des suites plus difficiles en prolongement pour les enfants rapides.",
       "Combinez des rangées d'images et de formes pour un entraînement varié."
-    ]
+    ],
+    "samplesIntro": "Créez des fiches de suites variées à lire et à compléter par l'enfant."
   },
   "draw-and-color": {
     "slug": "generateur-dessin-quadrillage",
@@ -477,7 +563,8 @@
       "Utilisez-la pour noter les résultats d'un petit sondage de classe.",
       "Discutez ensemble de la barre la plus haute et la plus basse.",
       "Installez-la dans un atelier de mathématiques comme entraînement aux données."
-    ]
+    ],
+    "samplesIntro": "Créez des fiches « compter et représenter » où l'enfant reporte les images dans un graphique."
   },
   "matching": {
     "slug": "generateur-fiches-association",
@@ -501,7 +588,11 @@
       "Utilisez-la pour réviser un vocabulaire thématique ou des notions liées.",
       "Installez-la à un atelier avec de vraies cartes à associer d'abord.",
       "Envoyez une fiche d'association à la maison pour un entraînement rapide et clair."
-    ]
+    ],
+    "modes": {
+      "letter": "L'enfant trace une ligne de chaque image vers la lettre par laquelle elle commence.",
+      "name": "L'enfant relie chaque image au mot qui lui correspond."
+    }
   },
   "grid-match": {
     "slug": "generateur-puzzle-grille",
@@ -525,7 +616,8 @@
       "Utilisez-la comme défi d'observation attentive à un atelier de mathématiques.",
       "Commencez par une petite grille et agrandissez-la à mesure des progrès.",
       "Reliez le thème des images à votre sujet en cours."
-    ]
+    ],
+    "samplesIntro": "Créez des fiches d'association en grille qui apparient les images d'un quadrillage."
   },
   "shadow-match": {
     "slug": "generateur-discrimination-visuelle",
@@ -549,7 +641,11 @@
       "Utilisez-la comme atelier de perception visuelle ciblée.",
       "Discutez de la façon dont la forme seule aide à reconnaître un objet.",
       "Reliez le thème des images à une histoire ou à un sujet."
-    ]
+    ],
+    "modes": {
+      "find-shadow": "L'enfant relie chaque image à l'ombre qui lui correspond.",
+      "make-whole": "L'enfant réunit les deux moitiés qui reforment chaque image."
+    }
   },
   "bingo": {
     "slug": "generateur-cartes-bingo",
@@ -573,7 +669,8 @@
       "Annoncez les mots dans une autre langue pour les apprenants en langues.",
       "Laissez un enfant être le meneur pour s'entraîner à lire les images.",
       "Lancez une manche rapide comme ouverture de séance ou transition."
-    ]
+    ],
+    "samplesIntro": "Créez des cartes de loto en images et en mots pour jouer avec toute la classe."
   },
   "picture-sort": {
     "slug": "generateur-tri-images",
@@ -597,7 +694,8 @@
       "Utilisez-la pour soutenir une leçon de catégorisation en sciences ou en thème.",
       "Réfléchissez à une image ensemble en nommant pourquoi elle va dans un groupe.",
       "Installez-la à un atelier avec des images découpées à trier concrètement."
-    ]
+    ],
+    "samplesIntro": "Créez des fiches de tri où l'enfant regroupe les images dans les bons paniers."
   },
   "missing-pieces": {
     "slug": "generateur-pieces-manquantes",
@@ -621,7 +719,11 @@
       "Utilisez-la comme défi de raisonnement visuel à un atelier calme.",
       "Associez-la à de simples puzzles pour un entraînement concret.",
       "Reliez le thème des images à votre sujet en cours."
-    ]
+    ],
+    "modes": {
+      "one-missing": "Une pièce manque à l'image — l'enfant choisit la partie qui la complète.",
+      "two-missing": "Deux pièces manquent ; l'enfant choisit les deux parties pour finir l'image."
+    }
   },
   "odd-one-out": {
     "slug": "generateur-fiches-intrus",
@@ -645,7 +747,11 @@
       "Utilisez-la pour approfondir une leçon de tri ou de catégorisation.",
       "Encouragez les enfants à dire pourquoi leur choix ne va pas.",
       "Proposez-la comme court échauffement de raisonnement."
-    ]
+    ],
+    "modes": {
+      "same-theme": "Toutes les images partagent un thème sauf une — l'enfant trouve l'intrus.",
+      "cross-theme": "Les images viennent de thèmes différents ; l'enfant repère celle qui ne va pas."
+    }
   },
   "sudoku": {
     "slug": "generateur-sudoku-enfants",
@@ -669,7 +775,12 @@
       "Associez un sudoku thématique à un sujet pour que les images soient familières.",
       "Résolvez-en un ensemble au tableau en pensant à voix haute avant l'autonomie.",
       "Proposez un sudoku chiffré en prolongement pour les enfants prêts à un défi."
-    ]
+    ],
+    "modes": {
+      "easy": "Des grilles de sudoku en images toutes douces pour un premier essai.",
+      "medium": "Un cran au-dessus, avec des grilles un peu plus remplies à raisonner.",
+      "hard": "Des grilles plus corsées qui demandent une logique plus soignée."
+    }
   },
   "picture-path": {
     "slug": "generateur-parcours-images",
@@ -693,7 +804,12 @@
       "Utilisez-la comme activité calme et concentrée à un atelier tranquille.",
       "Commencez par des labyrinthes simples et augmentez la difficulté.",
       "Discutez de la planification d'un itinéraire avant de se lancer trop vite."
-    ]
+    ],
+    "modes": {
+      "choose-path": "L'enfant choisit le bon chemin à travers un labyrinthe en images.",
+      "classic-maze": "Un labyrinthe classique à tracer du début à la fin sans franchir les murs.",
+      "pathway": "L'enfant suit le chemin en images d'un bout à l'autre."
+    }
   },
   "find-and-count": {
     "slug": "generateur-cherche-et-compte",
@@ -717,7 +833,11 @@
       "Utilisez-la à un atelier de comptage débutant.",
       "Encouragez les enfants à toucher chaque élément une fois en comptant.",
       "Reliez le thème de la scène à une histoire ou à un sujet."
-    ]
+    ],
+    "modes": {
+      "hidden-object": "L'enfant cherche des objets cachés dans une scène animée et les compte.",
+      "letter-spotting": "L'enfant cherche une lettre cible dans l'image et compte chaque exemplaire trouvé."
+    }
   },
   "find-objects": {
     "slug": "generateur-cherche-objets",
@@ -741,7 +861,11 @@
       "Faites compter une sorte d'objet et écrire le nombre pour s'entraîner à compter.",
       "Associez la scène à un thème pour que les enfants cherchent des mots étudiés.",
       "Transformez-la en jeu de « je vois » — annoncez un objet et faites-le pointer ou entourer."
-    ]
+    ],
+    "modes": {
+      "find-odd": "L'enfant repère la seule image de la rangée qui ne va pas avec les autres.",
+      "i-spy": "Une scène « cherche et trouve » où l'enfant repère et compte les objets nommés."
+    }
   },
   "crossword": {
     "slug": "generateur-mots-croises-images",
@@ -765,7 +889,8 @@
       "Utilisez un mot croisé comme contrôle d'orthographe qui ressemble à un jeu, pas à un test.",
       "Créez un mot croisé thématique à compléter en fin de séquence.",
       "Laissez les enfants proposer les mots du mot croisé de la classe pour la semaine suivante."
-    ]
+    ],
+    "samplesIntro": "Créez des mots croisés en images où l'enfant écrit chaque mot dans la grille."
   },
   "treasure-hunt": {
     "slug": "generateur-chasse-au-tresor",
@@ -789,7 +914,11 @@
       "Utilisez-la pour travailler les mots haut, bas, gauche et droite.",
       "Proposez-la comme défi de résolution de problèmes à un atelier.",
       "Augmentez le nombre d'étapes à mesure que les enfants gagnent en assurance."
-    ]
+    ],
+    "modes": {
+      "cardinal-arrows": "L'enfant suit les flèches haut, bas, gauche et droite sur la grille jusqu'au trésor.",
+      "compass": "L'enfant utilise les points cardinaux pour se repérer sur la carte et trouver le trésor."
+    }
   },
   "labels": {
     "about": "À propos de ce générateur de fiches",
@@ -798,6 +927,13 @@
     "launchCta": "Ouvrir {name} gratuitement",
     "otherLanguages": "Disponible dans d'autres langues",
     "relatedMakers": "Autres générateurs de fiches",
-    "makersBreadcrumb": "Générateurs de fiches"
+    "makersBreadcrumb": "Générateurs de fiches",
+    "samplesHeading": "Découvrez ce que vous pouvez créer",
+    "samplesIntroDefault": "Chaque style ci-dessous est un exemple prêt à l'emploi — touchez pour y jouer, et chaque fiche est gratuite à imprimer.",
+    "playSample": "Essayer l'exemple",
+    "crossLangHeading": "Créez des fiches « apprendre une langue »",
+    "crossLangIntro": "Le même créateur fabrique aussi des fiches de vocabulaire en images pour apprendre une nouvelle langue.",
+    "seeAllLang": "Voir toutes les fiches {lang}",
+    "closeSample": "Fermer l'exemple"
   }
 }

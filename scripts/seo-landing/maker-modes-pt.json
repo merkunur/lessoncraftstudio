@@ -1,0 +1,200 @@
+{
+  "labels": {
+    "samplesHeading": "Veja o que você pode criar",
+    "samplesIntroDefault": "Cada estilo abaixo é um modelo pronto — toque para jogar, e toda atividade é gratuita para imprimir.",
+    "playSample": "Jogar exemplo",
+    "crossLangHeading": "Crie atividades de ‘aprender um idioma’",
+    "crossLangIntro": "O mesmo criador também monta atividades de vocabulário com imagens para aprender um novo idioma.",
+    "seeAllLang": "Ver todas as atividades de {lang}",
+    "closeSample": "Fechar exemplo"
+  },
+  "makers": {
+    "addition": {
+      "modes": {
+        "find-addend": "Mostra uma parte e o total; a criança descobre a parcela que falta.",
+        "image-image": "A criança soma dois grupos de figuras e conta tudo para achar o total.",
+        "image-number": "A criança conta um grupo de figuras e soma a um número para o total.",
+        "mixed": "Uma mistura de somas com figuras e somas com números na mesma página."
+      }
+    },
+    "subtraction": {
+      "modes": {
+        "cross-out": "A criança risca as figuras para tirá-las e conta o que sobrou.",
+        "find-subtrahend": "Mostra o início e a resposta; a criança acha o número que foi tirado.",
+        "image-number": "A criança conta um grupo de figuras e subtrai um número dele.",
+        "mixed": "Uma mistura de problemas de tirar com figuras e com números na mesma folha."
+      }
+    },
+    "code-addition": {
+      "modes": {
+        "default": "A criança resolve cada soma e usa a chave numérica para revelar uma figura secreta.",
+        "secret-word": "A criança resolve as somas e as respostas formam uma palavra secreta divertida."
+      },
+      "modeNames": {
+        "default": "Código numérico"
+      }
+    },
+    "more-less": {
+      "modes": {
+        "check-cross": "A criança marca qual grupo tem mais e qual tem menos.",
+        "image-image": "A criança compara dois grupos de figuras e decide qual tem mais ou menos.",
+        "image-number": "A criança compara um grupo de figuras com um número — mais, menos ou igual?"
+      }
+    },
+    "math-puzzle": {
+      "modes": {
+        "addition": "Quebra-cabeças de grade numérica em que toda pista é uma soma.",
+        "subtraction": "Quebra-cabeças de grade numérica feitos só de subtrações.",
+        "mixed": "Grades de quebra-cabeça que misturam pistas de soma e subtração."
+      }
+    },
+    "math-worksheet": {
+      "modes": {
+        "two-symbols-add-sub": "Somas de dois números com mais ou menos, organizadas para resolver.",
+        "three-symbols-add-sub": "Problemas de três números combinando mais e menos numa linha só.",
+        "four-symbols-add-sub": "Sequências mais longas de quatro números com mais e menos para resolver."
+      },
+      "modeNames": {
+        "two-symbols-add-sub": "Dois números",
+        "three-symbols-add-sub": "Três números",
+        "four-symbols-add-sub": "Quatro números"
+      }
+    },
+    "alphabet-train": {
+      "modes": {
+        "letter-hint": "Cada vagão mostra uma dica de letra para ajudar a montar o trem do alfabeto.",
+        "default": "A criança monta o trem do alfabeto colocando as letras na ordem certa."
+      },
+      "modeNames": {
+        "default": "Clássico"
+      }
+    },
+    "prepositions": {
+      "modes": {
+        "fillin": "A criança escreve a palavra de posição (em, sobre, embaixo…) que combina com cada figura.",
+        "multiplechoice": "A criança escolhe a palavra de posição certa para cada figura entre as opções."
+      }
+    },
+    "word-guess": {
+      "modes": {
+        "easy": "Palavras curtas com dicas de figura para os pequenos leitores adivinharem.",
+        "normal": "Palavras mais longas e dicas mais difíceis para leitores confiantes."
+      }
+    },
+    "word-scramble": {
+      "modes": {
+        "easy": "A criança desembaralha palavras curtas e familiares com uma dica de figura.",
+        "normal": "A criança desembaralha palavras mais longas para um desafio maior de soletração."
+      }
+    },
+    "wordsearch": {
+      "modes": {
+        "default": "Esconde uma lista de palavras na grade para a criança encontrar e circular.",
+        "image-only": "Um caça-palavras com figuras — a criança acha as palavras das imagens mostradas."
+      },
+      "modeNames": {
+        "default": "Caça-palavras",
+        "image-only": "Caça-figuras"
+      }
+    },
+    "cryptogram": {
+      "samplesIntro": "Crie quebra-cabeças de decifrar mensagens em que símbolos substituem as letras."
+    },
+    "big-small": {
+      "modes": {
+        "findBig": "A criança encontra e toca na maior (ou menor) figura de cada conjunto.",
+        "orderAsc": "A criança coloca as figuras em ordem da menor para a maior."
+      },
+      "modeNames": {
+        "findBig": "Ache a maior",
+        "orderAsc": "Ordenar por tamanho"
+      }
+    },
+    "pattern-train": {
+      "modes": {
+        "aab": "Padrões de figuras A-A-B que se repetem para a criança continuar.",
+        "aabb": "Padrões A-A-B-B que criam um ritmo constante de dois em dois.",
+        "abb": "Padrões A-B-B para a criança ler, prever e continuar.",
+        "abc": "Padrões A-B-C de três partes com uma unidade de repetição maior.",
+        "default": "Padrões repetidos variados em que a criança descobre o que vem a seguir."
+      },
+      "modeNames": {
+        "default": "Padrões variados"
+      }
+    },
+    "pattern-worksheet": {
+      "samplesIntro": "Crie atividades de padrões variados para a criança ler e completar."
+    },
+    "chart-count": {
+      "samplesIntro": "Monte atividades de contar e fazer gráfico em que a criança registra figuras numa tabela."
+    },
+    "matching": {
+      "modes": {
+        "letter": "A criança liga cada figura à letra com que começa.",
+        "name": "A criança liga cada figura à sua palavra escrita."
+      }
+    },
+    "grid-match": {
+      "samplesIntro": "Monte atividades de combinar em grade que emparelham figuras pelo quadro."
+    },
+    "shadow-match": {
+      "modes": {
+        "find-shadow": "A criança liga cada figura à sua sombra correspondente.",
+        "make-whole": "A criança junta as duas metades que completam cada figura."
+      }
+    },
+    "bingo": {
+      "samplesIntro": "Crie cartelas de bingo de figuras e palavras para toda a turma jogar junto."
+    },
+    "picture-sort": {
+      "samplesIntro": "Crie atividades de separar em que a criança agrupa figuras nas cestas certas."
+    },
+    "missing-pieces": {
+      "modes": {
+        "one-missing": "Falta uma peça na figura — a criança escolhe a parte que a completa.",
+        "two-missing": "Faltam duas peças, então a criança escolhe as duas partes para terminar a figura."
+      }
+    },
+    "odd-one-out": {
+      "modes": {
+        "same-theme": "Todas as figuras têm um tema em comum, menos uma — ache a diferente.",
+        "cross-theme": "As figuras vêm de temas diferentes; a criança acha a que não combina."
+      }
+    },
+    "sudoku": {
+      "modes": {
+        "easy": "Sudoku de figuras suave para uma primeira tentativa no quebra-cabeça.",
+        "medium": "Um passo adiante, com grades um pouco mais cheias para raciocinar.",
+        "hard": "Grades mais difíceis que exigem uma lógica mais cuidadosa para completar."
+      }
+    },
+    "picture-path": {
+      "modes": {
+        "choose-path": "A criança escolhe o caminho certo por um labirinto de figuras.",
+        "classic-maze": "Um labirinto clássico para traçar do início ao fim sem cruzar as paredes.",
+        "pathway": "A criança segue a trilha de figuras de uma ponta à outra."
+      }
+    },
+    "find-and-count": {
+      "modes": {
+        "hidden-object": "A criança procura objetos escondidos numa cena cheia e os conta.",
+        "letter-spotting": "A criança procura uma letra-alvo na figura e conta cada uma que achar."
+      }
+    },
+    "find-objects": {
+      "modes": {
+        "find-odd": "A criança acha a única figura da linha que não combina com as outras.",
+        "i-spy": "Uma cena de procurar em que a criança encontra e conta os objetos pedidos."
+      }
+    },
+    "crossword": {
+      "samplesIntro": "Crie palavras-cruzadas com figuras em que a criança soletra cada palavra na grade."
+    },
+    "treasure-hunt": {
+      "modes": {
+        "cardinal-arrows": "A criança segue setas para cima, baixo, esquerda e direita até o tesouro.",
+        "compass": "A criança usa os pontos da bússola para navegar pelo mapa e achar o tesouro."
+      }
+    }
+  }
+}

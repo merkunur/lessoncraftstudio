@@ -21,7 +21,13 @@
       "Coloque a adição com imagens num cantinho de contagem com material concreto.",
       "Mande uma ficha curta para casa, como prática extra com a família.",
       "Combine uma folha temática com o assunto que vocês estão explorando na semana."
-    ]
+    ],
+    "modes": {
+      "find-addend": "Mostra uma parte e o total; a criança descobre a parcela que falta.",
+      "image-image": "A criança soma dois grupos de figuras e conta tudo para achar o total.",
+      "image-number": "A criança conta um grupo de figuras e soma a um número para o total.",
+      "mixed": "Uma mistura de somas com figuras e somas com números na mesma página."
+    }
   },
   "subtraction": {
     "slug": "gerador-fichas-subtracao",
@@ -45,7 +51,13 @@
       "Ofereça a subtração com imagens num cantinho de contagem com objetos para mover.",
       "Mande uma folha curta de prática para casa entre as aulas.",
       "Inclua uma página temática quando quiser um contexto novo para a mesma habilidade."
-    ]
+    ],
+    "modes": {
+      "cross-out": "A criança risca as figuras para tirá-las e conta o que sobrou.",
+      "find-subtrahend": "Mostra o início e a resposta; a criança acha o número que foi tirado.",
+      "image-number": "A criança conta um grupo de figuras e subtrai um número dele.",
+      "mixed": "Uma mistura de problemas de tirar com figuras e com números na mesma folha."
+    }
   },
   "code-addition": {
     "slug": "gerador-adicao-codificada",
@@ -69,7 +81,14 @@
       "Use como extensão para quem termina a adição comum mais cedo.",
       "Resolva uma soma decifrada juntos antes de as crianças trabalharem sozinhas.",
       "Ligue o tema da legenda a um assunto atual para um desafio temático."
-    ]
+    ],
+    "modes": {
+      "default": "A criança resolve cada soma e usa a chave numérica para revelar uma figura secreta.",
+      "secret-word": "A criança resolve as somas e as respostas formam uma palavra secreta divertida."
+    },
+    "modeNames": {
+      "default": "Código numérico"
+    }
   },
   "more-less": {
     "slug": "gerador-comparacao-quantidades",
@@ -93,7 +112,12 @@
       "Coloque num cantinho de matemática junto com objetos reais para comparar.",
       "Modele as palavras 'mais', 'menos' e 'a mesma quantidade' ao marcar uma junto.",
       "Mande uma folha para casa para praticar a comparação de grupos do dia a dia."
-    ]
+    ],
+    "modes": {
+      "check-cross": "A criança marca qual grupo tem mais e qual tem menos.",
+      "image-image": "A criança compara dois grupos de figuras e decide qual tem mais ou menos.",
+      "image-number": "A criança compara um grupo de figuras com um número — mais, menos ou igual?"
+    }
   },
   "math-puzzle": {
     "slug": "gerador-puzzles-matematicos",
@@ -117,7 +141,12 @@
       "Ofereça como extensão para quem já raciocina, e não só decora.",
       "Resolva uma linha mais difícil juntos e conversem sobre o raciocínio.",
       "Proponha um conjunto pequeno como desafio para quem termina cedo."
-    ]
+    ],
+    "modes": {
+      "addition": "Quebra-cabeças de grade numérica em que toda pista é uma soma.",
+      "subtraction": "Quebra-cabeças de grade numérica feitos só de subtrações.",
+      "mixed": "Grades de quebra-cabeça que misturam pistas de soma e subtração."
+    }
   },
   "math-worksheet": {
     "slug": "gerador-exercicios-matematica",
@@ -141,7 +170,17 @@
       "Proponha como trabalho independente enquanto você atende um grupo pequeno.",
       "Mande uma para casa como prática leve e variada.",
       "Monte uma folha curta para uma avaliação rápida ao fim de uma unidade."
-    ]
+    ],
+    "modes": {
+      "two-symbols-add-sub": "Somas de dois números com mais ou menos, organizadas para resolver.",
+      "three-symbols-add-sub": "Problemas de três números combinando mais e menos numa linha só.",
+      "four-symbols-add-sub": "Sequências mais longas de quatro números com mais e menos para resolver."
+    },
+    "modeNames": {
+      "two-symbols-add-sub": "Dois números",
+      "three-symbols-add-sub": "Três números",
+      "four-symbols-add-sub": "Quatro números"
+    }
   },
   "alphabet-train": {
     "slug": "gerador-trem-alfabeto",
@@ -165,7 +204,14 @@
       "Use num cantinho de alfabetização junto com letras móveis.",
       "Comece com uma ou duas lacunas e aumente conforme as crianças crescem.",
       "Mande um trem para casa para praticar a ordem das letras com um adulto."
-    ]
+    ],
+    "modes": {
+      "letter-hint": "Cada vagão mostra uma dica de letra para ajudar a montar o trem do alfabeto.",
+      "default": "A criança monta o trem do alfabeto colocando as letras na ordem certa."
+    },
+    "modeNames": {
+      "default": "Clássico"
+    }
   },
   "prepositions": {
     "slug": "gerador-fichas-preposicoes",
@@ -189,7 +235,11 @@
       "Use para apoiar uma conversa rica em linguagem do tipo 'onde está?'.",
       "Combine com objetos da sala numa atividade prática de continuidade.",
       "Ligue o tema das cenas a uma história que vocês estão lendo juntos."
-    ]
+    ],
+    "modes": {
+      "fillin": "A criança escreve a palavra de posição (em, sobre, embaixo…) que combina com cada figura.",
+      "multiplechoice": "A criança escolhe a palavra de posição certa para cada figura entre as opções."
+    }
   },
   "word-guess": {
     "slug": "gerador-adivinhar-palavras",
@@ -213,7 +263,11 @@
       "Use as pistas em imagens para ligar o significado de uma palavra à sua escrita.",
       "Crie uma atividade de tema como uma revisão divertida no fim da unidade.",
       "Deixe quem termina cedo adivinhar algumas palavras bônus enquanto os outros concluem."
-    ]
+    ],
+    "modes": {
+      "easy": "Palavras curtas com dicas de figura para os pequenos leitores adivinharem.",
+      "normal": "Palavras mais longas e dicas mais difíceis para leitores confiantes."
+    }
   },
   "word-scramble": {
     "slug": "gerador-palavras-embaralhadas",
@@ -237,7 +291,11 @@
       "Use para revisar o vocabulário do tema no fim da semana.",
       "Coloque num cantinho de ortografia com letras móveis para mexer.",
       "Mande um embaralhado curto para casa, como prática divertida de ortografia."
-    ]
+    ],
+    "modes": {
+      "easy": "A criança desembaralha palavras curtas e familiares com uma dica de figura.",
+      "normal": "A criança desembaralha palavras mais longas para um desafio maior de soletração."
+    }
   },
   "wordsearch": {
     "slug": "gerador-caca-palavras",
@@ -261,7 +319,15 @@
       "Monte um caça-palavras temático para apresentar ou revisar o vocabulário da matéria.",
       "Faça uma grade pequena da esquerda para a direita para leitores iniciantes e uma maior para os maiores.",
       "Use um caça-palavras como tarefa calma para acomodar a turma no início do dia."
-    ]
+    ],
+    "modes": {
+      "default": "Esconde uma lista de palavras na grade para a criança encontrar e circular.",
+      "image-only": "Um caça-palavras com figuras — a criança acha as palavras das imagens mostradas."
+    },
+    "modeNames": {
+      "default": "Caça-palavras",
+      "image-only": "Caça-figuras"
+    }
   },
   "cryptogram": {
     "slug": "gerador-criptogramas",
@@ -285,7 +351,8 @@
       "Monte um criptograma com o vocabulário-chave de uma história como aquecimento de compreensão.",
       "Crie uma mensagem cifrada curta — como uma recompensa da turma ou uma charada — para as crianças revelarem.",
       "Combine um criptograma com um tema para as crianças decifrarem as palavras que vão aprender."
-    ]
+    ],
+    "samplesIntro": "Crie quebra-cabeças de decifrar mensagens em que símbolos substituem as letras."
   },
   "writing": {
     "slug": "gerador-fichas-escrita",
@@ -333,7 +400,15 @@
       "Use num cantinho de classificação com brinquedos grandes e pequenos.",
       "Modele as palavras grande, pequeno, maior e menor à medida que avançam.",
       "Mande uma folha para casa para procurar coisas grandes e pequenas pela casa."
-    ]
+    ],
+    "modes": {
+      "findBig": "A criança encontra e toca na maior (ou menor) figura de cada conjunto.",
+      "orderAsc": "A criança coloca as figuras em ordem da menor para a maior."
+    },
+    "modeNames": {
+      "findBig": "Ache a maior",
+      "orderAsc": "Ordenar por tamanho"
+    }
   },
   "pattern-train": {
     "slug": "gerador-trem-padroes",
@@ -357,7 +432,17 @@
       "Montem um padrão igual com blocos num cantinho.",
       "Comece com padrões ABAB simples e depois aumente a complexidade.",
       "Ligue o tema do padrão ao seu assunto atual."
-    ]
+    ],
+    "modes": {
+      "aab": "Padrões de figuras A-A-B que se repetem para a criança continuar.",
+      "aabb": "Padrões A-A-B-B que criam um ritmo constante de dois em dois.",
+      "abb": "Padrões A-B-B para a criança ler, prever e continuar.",
+      "abc": "Padrões A-B-C de três partes com uma unidade de repetição maior.",
+      "default": "Padrões repetidos variados em que a criança descobre o que vem a seguir."
+    },
+    "modeNames": {
+      "default": "Padrões variados"
+    }
   },
   "pattern-worksheet": {
     "slug": "gerador-fichas-padroes",
@@ -381,7 +466,8 @@
       "Proponha como trabalho independente após uma miniaula sobre padrões.",
       "Ofereça padrões mais difíceis como extensão para quem termina cedo.",
       "Combine fileiras de imagens e de formas para uma prática variada."
-    ]
+    ],
+    "samplesIntro": "Crie atividades de padrões variados para a criança ler e completar."
   },
   "draw-and-color": {
     "slug": "gerador-desenho-quadricula",
@@ -477,7 +563,8 @@
       "Use para registrar os resultados de uma enquete rápida da turma.",
       "Conversem juntos sobre qual barra é a mais alta e a mais baixa.",
       "Coloque num cantinho de matemática como prática prática de dados."
-    ]
+    ],
+    "samplesIntro": "Monte atividades de contar e fazer gráfico em que a criança registra figuras numa tabela."
   },
   "matching": {
     "slug": "gerador-fichas-associacao",
@@ -501,7 +588,11 @@
       "Use para revisar vocabulário temático ou conceitos relacionados.",
       "Coloque num cantinho com cartões físicos para associar primeiro.",
       "Mande uma folha de associação para casa, como prática rápida e clara."
-    ]
+    ],
+    "modes": {
+      "letter": "A criança liga cada figura à letra com que começa.",
+      "name": "A criança liga cada figura à sua palavra escrita."
+    }
   },
   "grid-match": {
     "slug": "gerador-puzzle-quadricula",
@@ -525,7 +616,8 @@
       "Use como desafio de observação atenta num cantinho de matemática.",
       "Comece com uma quadrícula pequena e aumente conforme a confiança cresce.",
       "Ligue o tema das imagens ao seu assunto atual."
-    ]
+    ],
+    "samplesIntro": "Monte atividades de combinar em grade que emparelham figuras pelo quadro."
   },
   "shadow-match": {
     "slug": "gerador-discriminacao-visual",
@@ -549,7 +641,11 @@
       "Use como atividade concentrada de percepção visual num cantinho.",
       "Conversem sobre como só a forma ajuda a reconhecer um objeto.",
       "Ligue o tema das imagens a uma história ou assunto."
-    ]
+    ],
+    "modes": {
+      "find-shadow": "A criança liga cada figura à sua sombra correspondente.",
+      "make-whole": "A criança junta as duas metades que completam cada figura."
+    }
   },
   "bingo": {
     "slug": "gerador-cartelas-bingo",
@@ -573,7 +669,8 @@
       "Chame as palavras em outro idioma para os alunos de língua estrangeira.",
       "Deixe uma criança ser quem chama, para praticar a leitura das imagens.",
       "Faça uma rodada rápida como abertura divertida da aula ou transição."
-    ]
+    ],
+    "samplesIntro": "Crie cartelas de bingo de figuras e palavras para toda a turma jogar junto."
   },
   "picture-sort": {
     "slug": "gerador-classificacao-imagens",
@@ -597,7 +694,8 @@
       "Use para apoiar uma aula de classificação de ciências ou de um tema.",
       "Conversem sobre uma imagem juntos, nomeando por que ela se encaixa num grupo.",
       "Coloque num cantinho com imagens recortadas para classificar fisicamente."
-    ]
+    ],
+    "samplesIntro": "Crie atividades de separar em que a criança agrupa figuras nas cestas certas."
   },
   "missing-pieces": {
     "slug": "gerador-pecas-faltantes",
@@ -621,7 +719,11 @@
       "Use como desafio de raciocínio visual num cantinho silencioso.",
       "Combine com quebra-cabeças simples para uma prática concreta.",
       "Ligue o tema das imagens ao seu assunto atual."
-    ]
+    ],
+    "modes": {
+      "one-missing": "Falta uma peça na figura — a criança escolhe a parte que a completa.",
+      "two-missing": "Faltam duas peças, então a criança escolhe as duas partes para terminar a figura."
+    }
   },
   "odd-one-out": {
     "slug": "gerador-fichas-intruso",
@@ -645,7 +747,11 @@
       "Use para aprofundar uma aula de classificação ou de agrupamento.",
       "Incentive as crianças a dizer por que a escolha delas não se encaixa.",
       "Proponha como aquecimento rápido de raciocínio."
-    ]
+    ],
+    "modes": {
+      "same-theme": "Todas as figuras têm um tema em comum, menos uma — ache a diferente.",
+      "cross-theme": "As figuras vêm de temas diferentes; a criança acha a que não combina."
+    }
   },
   "sudoku": {
     "slug": "gerador-sudoku-infantil",
@@ -669,7 +775,12 @@
       "Combine um sudoku temático com um assunto para que as imagens fiquem familiares.",
       "Resolvam um juntos na lousa, pensando em voz alta, antes de as crianças tentarem o seu.",
       "Ofereça um sudoku com números como extensão para quem está pronto para um desafio."
-    ]
+    ],
+    "modes": {
+      "easy": "Sudoku de figuras suave para uma primeira tentativa no quebra-cabeça.",
+      "medium": "Um passo adiante, com grades um pouco mais cheias para raciocinar.",
+      "hard": "Grades mais difíceis que exigem uma lógica mais cuidadosa para completar."
+    }
   },
   "picture-path": {
     "slug": "gerador-percurso-imagens",
@@ -693,7 +804,12 @@
       "Use como atividade calma e concentrada num cantinho silencioso.",
       "Comece com labirintos simples e aumente a dificuldade.",
       "Conversem sobre planejar uma rota antes de sair correndo."
-    ]
+    ],
+    "modes": {
+      "choose-path": "A criança escolhe o caminho certo por um labirinto de figuras.",
+      "classic-maze": "Um labirinto clássico para traçar do início ao fim sem cruzar as paredes.",
+      "pathway": "A criança segue a trilha de figuras de uma ponta à outra."
+    }
   },
   "find-and-count": {
     "slug": "gerador-procura-conta",
@@ -717,7 +833,11 @@
       "Use num cantinho de contagem inicial.",
       "Incentive as crianças a tocar cada item uma vez ao contar.",
       "Ligue o tema da cena a uma história ou assunto."
-    ]
+    ],
+    "modes": {
+      "hidden-object": "A criança procura objetos escondidos numa cena cheia e os conta.",
+      "letter-spotting": "A criança procura uma letra-alvo na figura e conta cada uma que achar."
+    }
   },
   "find-objects": {
     "slug": "gerador-procura-objetos",
@@ -741,7 +861,11 @@
       "Peça que as crianças contem um tipo de objeto e escrevam o número para praticar contagem.",
       "Combine a cena com um tema para as crianças procurarem palavras que estão aprendendo.",
       "Transforme num jogo de 'estou vendo' — diga um objeto e deixe as crianças apontarem ou circularem."
-    ]
+    ],
+    "modes": {
+      "find-odd": "A criança acha a única figura da linha que não combina com as outras.",
+      "i-spy": "Uma cena de procurar em que a criança encontra e conta os objetos pedidos."
+    }
   },
   "crossword": {
     "slug": "gerador-palavras-cruzadas",
@@ -765,7 +889,8 @@
       "Use uma palavra cruzada como verificação de ortografia que parece um jogo, e não uma prova.",
       "Crie uma cruzadinha de tema para as crianças completarem no fim de uma unidade.",
       "Deixe as crianças sugerirem as palavras para a cruzadinha da turma da próxima semana."
-    ]
+    ],
+    "samplesIntro": "Crie palavras-cruzadas com figuras em que a criança soletra cada palavra na grade."
   },
   "treasure-hunt": {
     "slug": "gerador-caca-tesouro",
@@ -789,7 +914,11 @@
       "Use para praticar as palavras cima, baixo, esquerda e direita.",
       "Proponha como desafio de resolução de problemas num cantinho.",
       "Aumente o número de passos conforme as crianças ganham confiança."
-    ]
+    ],
+    "modes": {
+      "cardinal-arrows": "A criança segue setas para cima, baixo, esquerda e direita até o tesouro.",
+      "compass": "A criança usa os pontos da bússola para navegar pelo mapa e achar o tesouro."
+    }
   },
   "labels": {
     "about": "Sobre este gerador de fichas",
@@ -798,6 +927,13 @@
     "launchCta": "Abrir {name} grátis",
     "otherLanguages": "Disponível em outros idiomas",
     "relatedMakers": "Mais geradores de fichas",
-    "makersBreadcrumb": "Geradores de fichas"
+    "makersBreadcrumb": "Geradores de fichas",
+    "samplesHeading": "Veja o que você pode criar",
+    "samplesIntroDefault": "Cada estilo abaixo é um modelo pronto — toque para jogar, e toda atividade é gratuita para imprimir.",
+    "playSample": "Jogar exemplo",
+    "crossLangHeading": "Crie atividades de ‘aprender um idioma’",
+    "crossLangIntro": "O mesmo criador também monta atividades de vocabulário com imagens para aprender um novo idioma.",
+    "seeAllLang": "Ver todas as atividades de {lang}",
+    "closeSample": "Fechar exemplo"
   }
 }

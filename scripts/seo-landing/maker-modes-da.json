@@ -1,0 +1,200 @@
+{
+  "labels": {
+    "samplesHeading": "Se hvad du kan lave",
+    "samplesIntroDefault": "Hver stil nedenfor er et færdigt eksempel — tryk for at prøve det, og alle opgaveark er gratis at printe.",
+    "playSample": "Prøv eksempel",
+    "crossLangHeading": "Lav opgaveark til at ‘lære et sprog’",
+    "crossLangIntro": "Den samme maker laver også billedordforråd-opgaveark til at lære et nyt sprog.",
+    "seeAllLang": "Se alle {lang} opgaveark",
+    "closeSample": "Luk eksempel"
+  },
+  "makers": {
+    "addition": {
+      "modes": {
+        "find-addend": "Vis én del og totalen; dit barn regner det manglende addend ud.",
+        "image-image": "Dit barn lægger to grupper billeder sammen og tæller dem alle for at finde summen.",
+        "image-number": "Dit barn tæller en gruppe billeder og lægger den til et tal for at finde totalen.",
+        "mixed": "En blanding af billedsummer og talsummer sammen på én side."
+      }
+    },
+    "subtraction": {
+      "modes": {
+        "cross-out": "Dit barn streger billeder ud for at trække dem fra og tæller, hvad der er tilbage.",
+        "find-subtrahend": "Vis starten og svaret; dit barn finder tallet, der blev trukket fra.",
+        "image-number": "Dit barn tæller en gruppe billeder og trækker et tal fra den.",
+        "mixed": "En blanding af billed- og talopgaver med fratrækning på ét ark."
+      }
+    },
+    "code-addition": {
+      "modes": {
+        "default": "Dit barn løser hver sum og bruger talnøglen til at knække en skjult billedkode.",
+        "secret-word": "Dit barn løser summerne, og svarene staver et sjovt hemmeligt ord."
+      },
+      "modeNames": {
+        "default": "Talkode"
+      }
+    },
+    "more-less": {
+      "modes": {
+        "check-cross": "Dit barn markerer, hvilken gruppe der har flest, og hvilken der har færrest.",
+        "image-image": "Dit barn sammenligner to grupper billeder og afgør, hvilken der er flest eller færrest.",
+        "image-number": "Dit barn sammenligner en gruppe billeder med et tal — flere, færre eller lige mange?"
+      }
+    },
+    "math-puzzle": {
+      "modes": {
+        "addition": "Talgitter-opgaver, hvor hvert spor er et plusregnestykke.",
+        "subtraction": "Talgitter-opgaver bygget helt op af fratræknings-regnestykker.",
+        "mixed": "Opgavegitre, der blander plus- og minusspor."
+      }
+    },
+    "math-worksheet": {
+      "modes": {
+        "two-symbols-add-sub": "Summer med to tal og et plus eller minus, pænt sat op til at løse.",
+        "three-symbols-add-sub": "Opgaver med tre tal, der kombinerer plus og minus i én linje.",
+        "four-symbols-add-sub": "Længere rækker med fire tal af plus og minus at arbejde sig igennem."
+      },
+      "modeNames": {
+        "two-symbols-add-sub": "To tal",
+        "three-symbols-add-sub": "Tre tal",
+        "four-symbols-add-sub": "Fire tal"
+      }
+    },
+    "alphabet-train": {
+      "modes": {
+        "letter-hint": "Hver vogn viser et bogstavtip, der hjælper med at bygge alfabettoget.",
+        "default": "Byg alfabettoget ved at sætte bogstaverne i den rigtige rækkefølge."
+      },
+      "modeNames": {
+        "default": "Klassisk"
+      }
+    },
+    "prepositions": {
+      "modes": {
+        "fillin": "Dit barn skriver det stedord (i, på, under …), der passer til hvert billede.",
+        "multiplechoice": "Vælg det rigtige stedord til hvert billede blandt mulighederne."
+      }
+    },
+    "word-guess": {
+      "modes": {
+        "easy": "Kortere ord med billedspor, som begynderlæsere kan gætte.",
+        "normal": "Længere ord og sværere spor til sikre læsere."
+      }
+    },
+    "word-scramble": {
+      "modes": {
+        "easy": "Sæt korte, kendte ord på plads med et billedspor som hjælp.",
+        "normal": "Sæt længere ord på plads for en større staveudfordring."
+      }
+    },
+    "wordsearch": {
+      "modes": {
+        "default": "Gem en liste med ord i gitteret, som dit barn skal finde og cirkle ind.",
+        "image-only": "En billedordjagt — dit barn finder ordene for de viste billeder."
+      },
+      "modeNames": {
+        "default": "Ordjagt",
+        "image-only": "Billedjagt"
+      }
+    },
+    "cryptogram": {
+      "samplesIntro": "Lav afkod-beskeden-opgaver, hvor symboler står i stedet for bogstaver."
+    },
+    "big-small": {
+      "modes": {
+        "findBig": "Dit barn finder og trykker på det største (eller mindste) billede i hvert sæt.",
+        "orderAsc": "Sæt billederne i rækkefølge fra mindst til størst."
+      },
+      "modeNames": {
+        "findBig": "Find det største",
+        "orderAsc": "Sortér efter størrelse"
+      }
+    },
+    "pattern-train": {
+      "modes": {
+        "aab": "Gentagne A-A-B-billedmønstre, som dit barn skal fortsætte.",
+        "aabb": "A-A-B-B-mønstre, der opbygger en jævn to-og-to-rytme.",
+        "abb": "A-B-B-mønstre at læse, forudsige og forlænge.",
+        "abc": "Tredelte A-B-C-mønstre med en længere gentagende enhed.",
+        "default": "Blandede gentagne mønstre, hvor dit barn finder ud af, hvad der kommer næste gang."
+      },
+      "modeNames": {
+        "default": "Blandede mønstre"
+      }
+    },
+    "pattern-worksheet": {
+      "samplesIntro": "Lav blandede mønster-opgaveark, som dit barn skal læse og fuldføre."
+    },
+    "chart-count": {
+      "samplesIntro": "Byg tæl-og-graf-opgaveark, hvor dit barn tæller billeder op i et diagram."
+    },
+    "matching": {
+      "modes": {
+        "letter": "Tegn en streg fra hvert billede til det bogstav, det begynder med.",
+        "name": "Match hvert billede med dets skrevne ord."
+      }
+    },
+    "grid-match": {
+      "samplesIntro": "Byg gittermatch-opgaveark, der parrer billeder på tværs af et gitter."
+    },
+    "shadow-match": {
+      "modes": {
+        "find-shadow": "Match hvert billede med dets tilsvarende skyggeform.",
+        "make-whole": "Saml de to halvdele, der gør hvert billede helt igen."
+      }
+    },
+    "bingo": {
+      "samplesIntro": "Lav billed- og ordbingoplader, som hele klassen kan spille sammen."
+    },
+    "picture-sort": {
+      "samplesIntro": "Lav sorteringsopgaver, hvor dit barn grupperer billeder i de rigtige kurve."
+    },
+    "missing-pieces": {
+      "modes": {
+        "one-missing": "Én brik mangler i billedet — dit barn vælger den del, der fuldender det.",
+        "two-missing": "To brikker mangler, så dit barn vælger begge dele for at færdiggøre billedet."
+      }
+    },
+    "odd-one-out": {
+      "modes": {
+        "same-theme": "Alle billeder deler et tema undtagen ét — find det, der skiller sig ud.",
+        "cross-theme": "Billederne kommer fra forskellige temaer; dit barn finder det, der ikke passer ind."
+      }
+    },
+    "sudoku": {
+      "modes": {
+        "easy": "Blide billedsudoku-gitre til et første forsøg med opgaven.",
+        "medium": "Et trin op, med lidt fyldigere gitre at ræsonnere igennem.",
+        "hard": "Sværere gitre, der kræver mere omhyggelig logik at fuldføre."
+      }
+    },
+    "picture-path": {
+      "modes": {
+        "choose-path": "Dit barn vælger den rigtige vej gennem en billedlabyrint.",
+        "classic-maze": "En klassisk labyrint at tegne fra start til slut uden at krydse vægge.",
+        "pathway": "Følg billedstien fra den ene ende til den anden."
+      }
+    },
+    "find-and-count": {
+      "modes": {
+        "hidden-object": "Dit barn leder efter skjulte ting i et travlt billede og tæller dem.",
+        "letter-spotting": "Søg i billedet efter et bestemt bogstav og tæl hver eneste, der findes."
+      }
+    },
+    "find-objects": {
+      "modes": {
+        "find-odd": "Find det ene billede i rækken, der ikke hører sammen med de andre.",
+        "i-spy": "En jeg-spionerer-scene, hvor dit barn finder og tæller de nævnte ting."
+      }
+    },
+    "crossword": {
+      "samplesIntro": "Lav billedkrydsord, hvor dit barn staver hvert ord ind i gitteret."
+    },
+    "treasure-hunt": {
+      "modes": {
+        "cardinal-arrows": "Følg pile op, ned, til venstre og højre hen over gitteret til skatten.",
+        "compass": "Brug verdenshjørnerne til at navigere på kortet og finde skatten."
+      }
+    }
+  }
+}

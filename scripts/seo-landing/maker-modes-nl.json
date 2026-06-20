@@ -1,0 +1,200 @@
+{
+  "labels": {
+    "samplesHeading": "Kijk wat je kunt maken",
+    "samplesIntroDefault": "Elke stijl hieronder is een kant-en-klaar voorbeeld — tik om te spelen, en elk werkblad is gratis af te drukken.",
+    "playSample": "Speel voorbeeld",
+    "crossLangHeading": "Maak werkbladen om een taal te leren",
+    "crossLangIntro": "Dezelfde maker bouwt ook woordenschatwerkbladen met plaatjes om een nieuwe taal te leren.",
+    "seeAllLang": "Bekijk alle {lang} werkbladen",
+    "closeSample": "Sluit voorbeeld"
+  },
+  "makers": {
+    "addition": {
+      "modes": {
+        "find-addend": "Je kind ziet één deel en het totaal en zoekt het ontbrekende getal erbij.",
+        "image-image": "Je kind telt twee groepjes plaatjes samen en vindt zo de som.",
+        "image-number": "Je kind telt een groepje plaatjes en telt er een getal bij op.",
+        "mixed": "Een mix van sommen met plaatjes en sommen met getallen op één pagina."
+      }
+    },
+    "subtraction": {
+      "modes": {
+        "cross-out": "Je kind streept plaatjes door om ze weg te halen en telt wat er overblijft.",
+        "find-subtrahend": "Je kind ziet het begin en het antwoord en zoekt welk getal eraf ging.",
+        "image-number": "Je kind telt een groepje plaatjes en trekt er een getal van af.",
+        "mixed": "Een mix van aftreksommen met plaatjes en met getallen op één blad."
+      }
+    },
+    "code-addition": {
+      "modes": {
+        "default": "Je kind lost elke som op en kraakt met de cijfersleutel een verborgen plaatje.",
+        "secret-word": "Je kind lost de sommen op en de antwoorden vormen een leuk geheim woord."
+      },
+      "modeNames": {
+        "default": "Cijfercode"
+      }
+    },
+    "more-less": {
+      "modes": {
+        "check-cross": "Je kind markeert welke groep er meer heeft en welke er minder heeft.",
+        "image-image": "Je kind vergelijkt twee groepjes plaatjes en kiest welke meer of minder is.",
+        "image-number": "Je kind vergelijkt een groepje plaatjes met een getal — meer, minder of gelijk?"
+      }
+    },
+    "math-puzzle": {
+      "modes": {
+        "addition": "Getalpuzzels waarbij elke aanwijzing een optelsom is.",
+        "subtraction": "Getalpuzzels die helemaal uit aftreksommen bestaan.",
+        "mixed": "Puzzels die optel- en aftreksommen door elkaar mengen."
+      }
+    },
+    "math-worksheet": {
+      "modes": {
+        "two-symbols-add-sub": "Sommen met twee getallen en een plus of min, netjes klaar om op te lossen.",
+        "three-symbols-add-sub": "Sommen met drie getallen die plus en min in één regel combineren.",
+        "four-symbols-add-sub": "Langere sommen met vier getallen vol plussen en minnen om uit te werken."
+      },
+      "modeNames": {
+        "two-symbols-add-sub": "Twee getallen",
+        "three-symbols-add-sub": "Drie getallen",
+        "four-symbols-add-sub": "Vier getallen"
+      }
+    },
+    "alphabet-train": {
+      "modes": {
+        "letter-hint": "Elk wagentje toont een letterhint om de alfabettrein te bouwen.",
+        "default": "Je kind bouwt de alfabettrein door de letters in de juiste volgorde te zetten."
+      },
+      "modeNames": {
+        "default": "Klassiek"
+      }
+    },
+    "prepositions": {
+      "modes": {
+        "fillin": "Je kind schrijft het plaatswoord (in, op, onder…) dat bij elk plaatje past.",
+        "multiplechoice": "Je kind kiest bij elk plaatje het juiste plaatswoord uit de opties."
+      }
+    },
+    "word-guess": {
+      "modes": {
+        "easy": "Kortere woorden met plaatjeshints voor beginnende lezers om te raden.",
+        "normal": "Langere woorden en lastigere hints voor zekere lezers."
+      }
+    },
+    "word-scramble": {
+      "modes": {
+        "easy": "Je kind ontwart korte, bekende woorden met een plaatje als hulp.",
+        "normal": "Je kind ontwart langere woorden voor een grotere speluitdaging."
+      }
+    },
+    "wordsearch": {
+      "modes": {
+        "default": "Verstop een lijst woorden in het rooster die je kind moet vinden en omcirkelen.",
+        "image-only": "Een woordzoeker met plaatjes — je kind vindt de woorden bij de getoonde plaatjes."
+      },
+      "modeNames": {
+        "default": "Woordjacht",
+        "image-only": "Plaatjesjacht"
+      }
+    },
+    "cryptogram": {
+      "samplesIntro": "Maak decodeerpuzzels waarbij symbolen voor letters staan."
+    },
+    "big-small": {
+      "modes": {
+        "findBig": "Je kind zoekt en tikt het grootste (of kleinste) plaatje in elke reeks aan.",
+        "orderAsc": "Je kind zet de plaatjes op volgorde van klein naar groot."
+      },
+      "modeNames": {
+        "findBig": "Vind de grootste",
+        "orderAsc": "Op grootte ordenen"
+      }
+    },
+    "pattern-train": {
+      "modes": {
+        "aab": "Herhalende A-A-B-plaatjespatronen die je kind voortzet.",
+        "aabb": "A-A-B-B-patronen die een rustig ritme van twee-om-twee opbouwen.",
+        "abb": "A-B-B-patronen om te lezen, te voorspellen en uit te breiden.",
+        "abc": "A-B-C-patronen in drie delen met een langere herhaling.",
+        "default": "Gemengde herhalende patronen waarbij je kind bedenkt wat er volgt."
+      },
+      "modeNames": {
+        "default": "Gemengde patronen"
+      }
+    },
+    "pattern-worksheet": {
+      "samplesIntro": "Maak gemengde patroonwerkbladen die je kind kan lezen en aanvullen."
+    },
+    "chart-count": {
+      "samplesIntro": "Bouw tel-en-grafiekwerkbladen waarbij je kind plaatjes in een diagram telt."
+    },
+    "matching": {
+      "modes": {
+        "letter": "Je kind trekt een lijn van elk plaatje naar de letter waarmee het begint.",
+        "name": "Je kind koppelt elk plaatje aan het geschreven woord."
+      }
+    },
+    "grid-match": {
+      "samplesIntro": "Bouw roosterwerkbladen die plaatjes door een rooster heen koppelen."
+    },
+    "shadow-match": {
+      "modes": {
+        "find-shadow": "Je kind koppelt elk plaatje aan de bijpassende schaduwvorm.",
+        "make-whole": "Je kind voegt de twee helften samen die elk plaatje weer heel maken."
+      }
+    },
+    "bingo": {
+      "samplesIntro": "Maak bingokaarten met plaatjes en woorden die de hele klas samen kan spelen."
+    },
+    "picture-sort": {
+      "samplesIntro": "Maak sorteerwerkbladen waarbij je kind plaatjes in de juiste mandjes groepeert."
+    },
+    "missing-pieces": {
+      "modes": {
+        "one-missing": "Er ontbreekt één stukje van het plaatje — je kind kiest het deel dat het afmaakt.",
+        "two-missing": "Er ontbreken twee stukjes, dus je kind kiest beide delen om het plaatje af te maken."
+      }
+    },
+    "odd-one-out": {
+      "modes": {
+        "same-theme": "Alle plaatjes delen één thema, op één na — vind het vreemde plaatje.",
+        "cross-theme": "De plaatjes komen uit verschillende thema's; je kind zoekt het plaatje dat er niet bij past."
+      }
+    },
+    "sudoku": {
+      "modes": {
+        "easy": "Rustige plaatjessudoku's voor een eerste kennismaking met de puzzel.",
+        "medium": "Een stapje hoger, met iets vollere roosters om te beredeneren.",
+        "hard": "Lastigere roosters die zorgvuldiger nadenken vragen om af te maken."
+      }
+    },
+    "picture-path": {
+      "modes": {
+        "choose-path": "Je kind kiest de juiste route door een plaatjesdoolhof.",
+        "classic-maze": "Een klassiek doolhof om van start tot finish te volgen zonder muren te kruisen.",
+        "pathway": "Je kind volgt het plaatjespad van het ene eind naar het andere."
+      }
+    },
+    "find-and-count": {
+      "modes": {
+        "hidden-object": "Je kind zoekt verstopte voorwerpen in een druk tafereel en telt ze.",
+        "letter-spotting": "Je kind zoekt een letter in het plaatje en telt elke keer dat hij voorkomt."
+      }
+    },
+    "find-objects": {
+      "modes": {
+        "find-odd": "Je kind zoekt het ene plaatje in de rij dat niet bij de andere hoort.",
+        "i-spy": "Een ik-zie-ik-zie-tafereel waarin je kind de genoemde voorwerpen vindt en telt."
+      }
+    },
+    "crossword": {
+      "samplesIntro": "Maak plaatjeskruiswoordpuzzels waarbij je kind elk woord in het rooster spelt."
+    },
+    "treasure-hunt": {
+      "modes": {
+        "cardinal-arrows": "Je kind volgt pijlen omhoog, omlaag, links en rechts door het rooster naar de schat.",
+        "compass": "Je kind gebruikt windrichtingen om de kaart te navigeren en de schat te vinden."
+      }
+    }
+  }
+}

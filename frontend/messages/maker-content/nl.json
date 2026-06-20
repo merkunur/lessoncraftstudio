@@ -21,7 +21,13 @@
       "Zet plaatjessommen klaar in een telhoek met echt materiaal.",
       "Stuur een kort blad mee naar huis voor extra oefening met een ouder.",
       "Koppel een themablad aan het onderwerp dat je die week behandelt."
-    ]
+    ],
+    "modes": {
+      "find-addend": "Je kind ziet één deel en het totaal en zoekt het ontbrekende getal erbij.",
+      "image-image": "Je kind telt twee groepjes plaatjes samen en vindt zo de som.",
+      "image-number": "Je kind telt een groepje plaatjes en telt er een getal bij op.",
+      "mixed": "Een mix van sommen met plaatjes en sommen met getallen op één pagina."
+    }
   },
   "subtraction": {
     "slug": "aftrekken-werkblad-maker",
@@ -45,7 +51,13 @@
       "Bied aftrekken met plaatjes aan in een telhoek met materiaal om te verplaatsen.",
       "Stuur een kort oefenblad mee naar huis tussen de lessen door.",
       "Voeg af en toe een themablad toe voor een frisse context bij dezelfde vaardigheid."
-    ]
+    ],
+    "modes": {
+      "cross-out": "Je kind streept plaatjes door om ze weg te halen en telt wat er overblijft.",
+      "find-subtrahend": "Je kind ziet het begin en het antwoord en zoekt welk getal eraf ging.",
+      "image-number": "Je kind telt een groepje plaatjes en trekt er een getal van af.",
+      "mixed": "Een mix van aftreksommen met plaatjes en met getallen op één blad."
+    }
   },
   "code-addition": {
     "slug": "code-optellen-werkblad-maker",
@@ -69,7 +81,14 @@
       "Gebruik het als verdieping voor kinderen die gewone optelsommen snel af hebben.",
       "Loop samen één ontcijferde som door voordat de kinderen alleen werken.",
       "Koppel het legendathema aan een lopend onderwerp voor een themauitdaging."
-    ]
+    ],
+    "modes": {
+      "default": "Je kind lost elke som op en kraakt met de cijfersleutel een verborgen plaatje.",
+      "secret-word": "Je kind lost de sommen op en de antwoorden vormen een leuk geheim woord."
+    },
+    "modeNames": {
+      "default": "Cijfercode"
+    }
   },
   "more-less": {
     "slug": "meer-minder-werkblad-maker",
@@ -93,7 +112,12 @@
       "Zet het klaar in een rekenhoek met echte voorwerpen om te vergelijken.",
       "Doe de woorden 'meer', 'minder' en 'evenveel' voor terwijl je er samen één markeert.",
       "Stuur een blad mee naar huis om alledaagse groepen te vergelijken."
-    ]
+    ],
+    "modes": {
+      "check-cross": "Je kind markeert welke groep er meer heeft en welke er minder heeft.",
+      "image-image": "Je kind vergelijkt twee groepjes plaatjes en kiest welke meer of minder is.",
+      "image-number": "Je kind vergelijkt een groepje plaatjes met een getal — meer, minder of gelijk?"
+    }
   },
   "math-puzzle": {
     "slug": "rekenpuzzel-maker",
@@ -117,7 +141,12 @@
       "Bied het als verdieping voor kinderen die kunnen redeneren, niet alleen onthouden.",
       "Los samen één lastige regel op en bespreek de denkstappen.",
       "Zet een setje klaar als uitdaging voor kinderen die snel klaar zijn."
-    ]
+    ],
+    "modes": {
+      "addition": "Getalpuzzels waarbij elke aanwijzing een optelsom is.",
+      "subtraction": "Getalpuzzels die helemaal uit aftreksommen bestaan.",
+      "mixed": "Puzzels die optel- en aftreksommen door elkaar mengen."
+    }
   },
   "math-worksheet": {
     "slug": "reken-werkblad-maker",
@@ -141,7 +170,17 @@
       "Zet het als zelfstandig werk in terwijl jij met een groepje werkt.",
       "Stuur er één mee naar huis als lichte, gevarieerde oefening.",
       "Maak een kort blad voor een snelle toetsing aan het eind van een blok."
-    ]
+    ],
+    "modes": {
+      "two-symbols-add-sub": "Sommen met twee getallen en een plus of min, netjes klaar om op te lossen.",
+      "three-symbols-add-sub": "Sommen met drie getallen die plus en min in één regel combineren.",
+      "four-symbols-add-sub": "Langere sommen met vier getallen vol plussen en minnen om uit te werken."
+    },
+    "modeNames": {
+      "two-symbols-add-sub": "Twee getallen",
+      "three-symbols-add-sub": "Drie getallen",
+      "four-symbols-add-sub": "Vier getallen"
+    }
   },
   "alphabet-train": {
     "slug": "alfabettrein-maker",
@@ -165,7 +204,14 @@
       "Gebruik het in een taalhoek naast magnetische letters.",
       "Begin met één of twee gaten en voeg er meer toe naarmate kinderen groeien.",
       "Stuur een trein mee naar huis om de lettervolgorde met een volwassene te oefenen."
-    ]
+    ],
+    "modes": {
+      "letter-hint": "Elk wagentje toont een letterhint om de alfabettrein te bouwen.",
+      "default": "Je kind bouwt de alfabettrein door de letters in de juiste volgorde te zetten."
+    },
+    "modeNames": {
+      "default": "Klassiek"
+    }
   },
   "prepositions": {
     "slug": "voorzetsels-werkblad-maker",
@@ -189,7 +235,11 @@
       "Gebruik het om een taalrijk 'waar is het?'-gesprek te ondersteunen.",
       "Combineer het met alledaagse voorwerpen uit de klas voor een doe-vervolg.",
       "Koppel het thema van de taferelen aan een verhaal dat je samen leest."
-    ]
+    ],
+    "modes": {
+      "fillin": "Je kind schrijft het plaatswoord (in, op, onder…) dat bij elk plaatje past.",
+      "multiplechoice": "Je kind kiest bij elk plaatje het juiste plaatswoord uit de opties."
+    }
   },
   "word-guess": {
     "slug": "woordraadsel-maker",
@@ -213,7 +263,11 @@
       "Gebruik het werkblad bij het aanvankelijk lezen om klanken te verbinden met letters.",
       "Geef het als zelfstandige opdracht in de takenmap voor beginnende lezers.",
       "Maak een themaraadsel rond dieren of voorwerpen die je in de klas behandelt."
-    ]
+    ],
+    "modes": {
+      "easy": "Kortere woorden met plaatjeshints voor beginnende lezers om te raden.",
+      "normal": "Langere woorden en lastigere hints voor zekere lezers."
+    }
   },
   "word-scramble": {
     "slug": "letterpuzzel-maker",
@@ -237,7 +291,11 @@
       "Gebruik het om onderwerp- of themawoorden aan het eind van de week te herhalen.",
       "Zet het in als spellinghoek met losse letters om te schuiven.",
       "Stuur een korte letterpuzzel mee naar huis voor speelse spellingoefening."
-    ]
+    ],
+    "modes": {
+      "easy": "Je kind ontwart korte, bekende woorden met een plaatje als hulp.",
+      "normal": "Je kind ontwart langere woorden voor een grotere speluitdaging."
+    }
   },
   "wordsearch": {
     "slug": "woordzoeker-maker",
@@ -261,7 +319,15 @@
       "Maak een themawoordzoeker over dieren, het weer of een project als leuke inleiding.",
       "Gebruik de woordzoeker als rustige opdracht voor wie eerder klaar is.",
       "Laat kinderen daarna zelf een woord uit de zoeker in een zin verwerken."
-    ]
+    ],
+    "modes": {
+      "default": "Verstop een lijst woorden in het rooster die je kind moet vinden en omcirkelen.",
+      "image-only": "Een woordzoeker met plaatjes — je kind vindt de woorden bij de getoonde plaatjes."
+    },
+    "modeNames": {
+      "default": "Woordjacht",
+      "image-only": "Plaatjesjacht"
+    }
   },
   "cryptogram": {
     "slug": "cryptogram-maker",
@@ -285,7 +351,8 @@
       "Maak een themacryptogram rond seizoenen, dieren of een project en laat het woord het thema verklappen.",
       "Geef snelle leerlingen een cryptogram als rustige verwerkingsopdracht in de hoek.",
       "Laat kinderen in tweetallen samen kraken: de een leest de sleutel, de ander vult de letters in."
-    ]
+    ],
+    "samplesIntro": "Maak decodeerpuzzels waarbij symbolen voor letters staan."
   },
   "writing": {
     "slug": "schrijfoefeningen-maker",
@@ -333,7 +400,15 @@
       "Gebruik het in een sorteerhoek met grote en kleine knuffels.",
       "Doe de woorden groot, klein, groter en kleiner voor terwijl je bezig bent.",
       "Stuur een blad mee naar huis om grote en kleine dingen in huis te zoeken."
-    ]
+    ],
+    "modes": {
+      "findBig": "Je kind zoekt en tikt het grootste (of kleinste) plaatje in elke reeks aan.",
+      "orderAsc": "Je kind zet de plaatjes op volgorde van klein naar groot."
+    },
+    "modeNames": {
+      "findBig": "Vind de grootste",
+      "orderAsc": "Op grootte ordenen"
+    }
   },
   "pattern-train": {
     "slug": "patroontrein-maker",
@@ -357,7 +432,17 @@
       "Bouw een bijpassend patroon met blokken in een hoek.",
       "Begin met eenvoudige ABAB-patronen en voeg complexiteit toe.",
       "Koppel het patroonthema aan je lopende onderwerp."
-    ]
+    ],
+    "modes": {
+      "aab": "Herhalende A-A-B-plaatjespatronen die je kind voortzet.",
+      "aabb": "A-A-B-B-patronen die een rustig ritme van twee-om-twee opbouwen.",
+      "abb": "A-B-B-patronen om te lezen, te voorspellen en uit te breiden.",
+      "abc": "A-B-C-patronen in drie delen met een langere herhaling.",
+      "default": "Gemengde herhalende patronen waarbij je kind bedenkt wat er volgt."
+    },
+    "modeNames": {
+      "default": "Gemengde patronen"
+    }
   },
   "pattern-worksheet": {
     "slug": "patronen-werkblad-maker",
@@ -381,7 +466,8 @@
       "Zet het als zelfstandig werk in na een korte patroonles.",
       "Bied moeilijkere patronen aan als verdieping voor wie snel klaar is.",
       "Combineer plaatjes- en vormrijen voor gevarieerde oefening."
-    ]
+    ],
+    "samplesIntro": "Maak gemengde patroonwerkbladen die je kind kan lezen en aanvullen."
   },
   "draw-and-color": {
     "slug": "rastertekenen-maker",
@@ -477,7 +563,8 @@
       "Gebruik het om de uitkomst van een snelle klasenquête vast te leggen.",
       "Bespreek samen welke staaf het hoogst en welke het laagst is.",
       "Zet het in een rekenhoek als praktische dataoefening."
-    ]
+    ],
+    "samplesIntro": "Bouw tel-en-grafiekwerkbladen waarbij je kind plaatjes in een diagram telt."
   },
   "matching": {
     "slug": "koppelen-werkblad-maker",
@@ -501,7 +588,11 @@
       "Gebruik het om themawoordenschat of verwante begrippen te herhalen.",
       "Zet het in een hoek met fysieke kaartjes om eerst te koppelen.",
       "Stuur een koppelblad mee naar huis voor snelle, duidelijke oefening."
-    ]
+    ],
+    "modes": {
+      "letter": "Je kind trekt een lijn van elk plaatje naar de letter waarmee het begint.",
+      "name": "Je kind koppelt elk plaatje aan het geschreven woord."
+    }
   },
   "grid-match": {
     "slug": "raster-puzzel-maker",
@@ -525,7 +616,8 @@
       "Gebruik het als kijk-uitdaging in een rekenhoek.",
       "Begin met een klein raster en maak het groter naarmate het vertrouwen groeit.",
       "Koppel het plaatjesthema aan je lopende onderwerp."
-    ]
+    ],
+    "samplesIntro": "Bouw roosterwerkbladen die plaatjes door een rooster heen koppelen."
   },
   "shadow-match": {
     "slug": "schaduw-koppelen-maker",
@@ -549,7 +641,11 @@
       "Gebruik het als gerichte activiteit voor visuele waarneming in een hoek.",
       "Bespreek hoe alleen de vorm je een voorwerp laat herkennen.",
       "Koppel het plaatjesthema aan een verhaal of onderwerp."
-    ]
+    ],
+    "modes": {
+      "find-shadow": "Je kind koppelt elk plaatje aan de bijpassende schaduwvorm.",
+      "make-whole": "Je kind voegt de twee helften samen die elk plaatje weer heel maken."
+    }
   },
   "bingo": {
     "slug": "plaatjesbingo-maker",
@@ -573,7 +669,8 @@
       "Roep de woorden in een andere taal voor taalleerders.",
       "Laat een kind de omroeper zijn om het lezen van de plaatjes te oefenen.",
       "Speel een snelle ronde als vrolijke lesopener of overgang."
-    ]
+    ],
+    "samplesIntro": "Maak bingokaarten met plaatjes en woorden die de hele klas samen kan spelen."
   },
   "picture-sort": {
     "slug": "plaatjes-sorteren-maker",
@@ -597,7 +694,8 @@
       "Gebruik het om een sorteerles in wereldoriëntatie te ondersteunen.",
       "Bespreek samen één plaatje en benoem waarom het in een groep past.",
       "Zet het in een hoek met uitgeknipte plaatjes om fysiek te sorteren."
-    ]
+    ],
+    "samplesIntro": "Maak sorteerwerkbladen waarbij je kind plaatjes in de juiste mandjes groepeert."
   },
   "missing-pieces": {
     "slug": "ontbrekende-stukjes-maker",
@@ -621,7 +719,11 @@
       "Gebruik het als uitdaging voor visueel redeneren in een rustige hoek.",
       "Combineer het met eenvoudige legpuzzels voor praktische oefening.",
       "Koppel het plaatjesthema aan je lopende onderwerp."
-    ]
+    ],
+    "modes": {
+      "one-missing": "Er ontbreekt één stukje van het plaatje — je kind kiest het deel dat het afmaakt.",
+      "two-missing": "Er ontbreken twee stukjes, dus je kind kiest beide delen om het plaatje af te maken."
+    }
   },
   "odd-one-out": {
     "slug": "wat-hoort-er-niet-bij-maker",
@@ -645,7 +747,11 @@
       "Gebruik het om een sorteer- of categoriseerles te verdiepen.",
       "Moedig kinderen aan te zeggen waarom hun keuze er niet bij past.",
       "Zet het in als snelle redeneeropwarmer."
-    ]
+    ],
+    "modes": {
+      "same-theme": "Alle plaatjes delen één thema, op één na — vind het vreemde plaatje.",
+      "cross-theme": "De plaatjes komen uit verschillende thema's; je kind zoekt het plaatje dat er niet bij past."
+    }
   },
   "sudoku": {
     "slug": "kinder-sudoku-maker",
@@ -669,7 +775,12 @@
       "Laat kleuters de plaatjes eerst uitknippen en in de vakjes leggen voordat ze tekenen.",
       "Zet de sudoku in als logische opwarmer bij het rekenen.",
       "Maak een themasudoku rond dieren of seizoenen die aansluit bij je project."
-    ]
+    ],
+    "modes": {
+      "easy": "Rustige plaatjessudoku's voor een eerste kennismaking met de puzzel.",
+      "medium": "Een stapje hoger, met iets vollere roosters om te beredeneren.",
+      "hard": "Lastigere roosters die zorgvuldiger nadenken vragen om af te maken."
+    }
   },
   "picture-path": {
     "slug": "plaatjespad-maker",
@@ -693,7 +804,12 @@
       "Gebruik het als rustige, geconcentreerde activiteit in een stille hoek.",
       "Begin met eenvoudige doolhoven en bouw de moeilijkheid op.",
       "Praat over het plannen van een route in plaats van er meteen in te stormen."
-    ]
+    ],
+    "modes": {
+      "choose-path": "Je kind kiest de juiste route door een plaatjesdoolhof.",
+      "classic-maze": "Een klassiek doolhof om van start tot finish te volgen zonder muren te kruisen.",
+      "pathway": "Je kind volgt het plaatjespad van het ene eind naar het andere."
+    }
   },
   "find-and-count": {
     "slug": "zoek-en-tel-maker",
@@ -717,7 +833,11 @@
       "Gebruik het in een hoek voor beginnend tellen.",
       "Moedig kinderen aan elk voorwerp één keer aan te raken terwijl ze tellen.",
       "Koppel het thema van het tafereel aan een verhaal of onderwerp."
-    ]
+    ],
+    "modes": {
+      "hidden-object": "Je kind zoekt verstopte voorwerpen in een druk tafereel en telt ze.",
+      "letter-spotting": "Je kind zoekt een letter in het plaatje en telt elke keer dat hij voorkomt."
+    }
   },
   "find-objects": {
     "slug": "zoek-en-vind-maker",
@@ -741,7 +861,11 @@
       "Koppel de gezochte voorwerpen aan de woordenschat van het thema.",
       "Laat kinderen na het zoeken vertellen waar ze elk voorwerp vonden.",
       "Maak een seizoens- of projectzoekplaat die aansluit bij je thema."
-    ]
+    ],
+    "modes": {
+      "find-odd": "Je kind zoekt het ene plaatje in de rij dat niet bij de andere hoort.",
+      "i-spy": "Een ik-zie-ik-zie-tafereel waarin je kind de genoemde voorwerpen vindt en telt."
+    }
   },
   "crossword": {
     "slug": "kruiswoordpuzzel-maker",
@@ -765,7 +889,8 @@
       "Gebruik plaatjes als aanwijzing voor kinderen die nog niet vlot lezen.",
       "Geef de puzzel mee als rustige verwerking na een leesles.",
       "Laat leerlingen in tweetallen elkaars aanwijzingen oplossen."
-    ]
+    ],
+    "samplesIntro": "Maak plaatjeskruiswoordpuzzels waarbij je kind elk woord in het rooster spelt."
   },
   "treasure-hunt": {
     "slug": "schattenjacht-maker",
@@ -789,7 +914,11 @@
       "Gebruik het om de woorden omhoog, omlaag, links en rechts te oefenen.",
       "Zet het als probleemoplos-uitdaging in een hoek.",
       "Voeg meer stappen toe naarmate de kinderen meer vertrouwen krijgen."
-    ]
+    ],
+    "modes": {
+      "cardinal-arrows": "Je kind volgt pijlen omhoog, omlaag, links en rechts door het rooster naar de schat.",
+      "compass": "Je kind gebruikt windrichtingen om de kaart te navigeren en de schat te vinden."
+    }
   },
   "labels": {
     "about": "Over deze maker",
@@ -798,6 +927,13 @@
     "launchCta": "Open {name} gratis",
     "otherLanguages": "Beschikbaar in andere talen",
     "relatedMakers": "Meer werkblad-makers",
-    "makersBreadcrumb": "Werkblad-makers"
+    "makersBreadcrumb": "Werkblad-makers",
+    "samplesHeading": "Kijk wat je kunt maken",
+    "samplesIntroDefault": "Elke stijl hieronder is een kant-en-klaar voorbeeld — tik om te spelen, en elk werkblad is gratis af te drukken.",
+    "playSample": "Speel voorbeeld",
+    "crossLangHeading": "Maak werkbladen om een taal te leren",
+    "crossLangIntro": "Dezelfde maker bouwt ook woordenschatwerkbladen met plaatjes om een nieuwe taal te leren.",
+    "seeAllLang": "Bekijk alle {lang} werkbladen",
+    "closeSample": "Sluit voorbeeld"
   }
 }

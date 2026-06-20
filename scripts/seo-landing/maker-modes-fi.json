@@ -1,0 +1,200 @@
+{
+  "labels": {
+    "samplesHeading": "Katso, mitä voit tehdä",
+    "samplesIntroDefault": "Jokainen alla oleva tyyli on valmis malli — napauta ja kokeile, ja jokainen tehtävä on ilmainen tulostaa.",
+    "playSample": "Kokeile mallia",
+    "crossLangHeading": "Tee ’opi uusi kieli’ -tehtäviä",
+    "crossLangIntro": "Sama tekijä rakentaa myös kuvasanastotehtäviä uuden kielen oppimiseen.",
+    "seeAllLang": "Näytä kaikki {lang}-tehtävät",
+    "closeSample": "Sulje malli"
+  },
+  "makers": {
+    "addition": {
+      "modes": {
+        "find-addend": "Näytä yksi osa ja kokonaismäärä; lapsi päättelee puuttuvan yhteenlaskettavan.",
+        "image-image": "Lapsesi laskee yhteen kaksi kuvaryhmää ja löytää summan laskemalla kaikki.",
+        "image-number": "Lapsi laskee kuvaryhmän ja lisää siihen luvun saadakseen summan.",
+        "mixed": "Sekoitus kuvasummia ja lukusummia samalla sivulla."
+      }
+    },
+    "subtraction": {
+      "modes": {
+        "cross-out": "Lapsi yliviivaa kuvia ottaakseen ne pois ja laskee, mitä jää jäljelle.",
+        "find-subtrahend": "Näytä alku ja vastaus; lapsi etsii pois otetun luvun.",
+        "image-number": "Lapsesi laskee kuvaryhmän ja vähentää siitä luvun.",
+        "mixed": "Sekoitus kuva- ja lukuvähennyslaskuja samalla sivulla."
+      }
+    },
+    "code-addition": {
+      "modes": {
+        "default": "Ratkaise jokainen summa ja avaa lukuavaimella piilotettu kuvakoodi.",
+        "secret-word": "Ratkaise summat, ja vastaukset paljastavat hauskan salasanan."
+      },
+      "modeNames": {
+        "default": "Numerokoodi"
+      }
+    },
+    "more-less": {
+      "modes": {
+        "check-cross": "Lapsi merkitsee, missä ryhmässä on enemmän ja missä vähemmän.",
+        "image-image": "Vertaa kahta kuvaryhmää ja päätä, kummassa on enemmän tai vähemmän.",
+        "image-number": "Vertaa kuvaryhmää lukuun — enemmän, vähemmän vai yhtä paljon?"
+      }
+    },
+    "math-puzzle": {
+      "modes": {
+        "addition": "Lukuruudukkopulmia, joissa jokainen vihje on yhteenlasku.",
+        "subtraction": "Lukuruudukkopulmia, jotka rakentuvat pelkistä vähennyslaskuista.",
+        "mixed": "Pulmaruudukoita, joissa yhdistyvät yhteen- ja vähennyslaskuvihjeet."
+      }
+    },
+    "math-worksheet": {
+      "modes": {
+        "two-symbols-add-sub": "Kahden luvun laskuja plus- tai miinusmerkillä, siististi ratkottavaksi.",
+        "three-symbols-add-sub": "Kolmen luvun laskuja, jotka yhdistävät plussan ja miinuksen samalle riville.",
+        "four-symbols-add-sub": "Pidempiä neljän luvun plus- ja miinusketjuja työstettäväksi."
+      },
+      "modeNames": {
+        "two-symbols-add-sub": "Kaksi lukua",
+        "three-symbols-add-sub": "Kolme lukua",
+        "four-symbols-add-sub": "Neljä lukua"
+      }
+    },
+    "alphabet-train": {
+      "modes": {
+        "letter-hint": "Jokainen vaunu näyttää kirjainvihjeen aakkosjunan rakentamiseen.",
+        "default": "Rakenna aakkosjuna asettamalla kirjaimet oikeaan järjestykseen."
+      },
+      "modeNames": {
+        "default": "Klassinen"
+      }
+    },
+    "prepositions": {
+      "modes": {
+        "fillin": "Lapsi kirjoittaa kuhunkin kuvaan sopivan paikkasanan (sisällä, päällä, alla…).",
+        "multiplechoice": "Valitse kuhunkin kuvaan oikea paikkasana vaihtoehdoista."
+      }
+    },
+    "word-guess": {
+      "modes": {
+        "easy": "Lyhyempiä sanoja kuvavihjeineen alkavien lukijoiden arvattaviksi.",
+        "normal": "Pidempiä sanoja ja vaikeampia vihjeitä varmemmille lukijoille."
+      }
+    },
+    "word-scramble": {
+      "modes": {
+        "easy": "Selvitä lyhyitä, tuttuja sanoja kuvavihjeen avulla.",
+        "normal": "Selvitä pidempiä sanoja isompaa kirjoitushaastetta varten."
+      }
+    },
+    "wordsearch": {
+      "modes": {
+        "default": "Piilota sanalista ruudukkoon lapsen löydettäväksi ja ympyröitäväksi.",
+        "image-only": "Kuvasanahaku — lapsi etsii sanat näytetyille kuville."
+      },
+      "modeNames": {
+        "default": "Sanajahti",
+        "image-only": "Kuvajahti"
+      }
+    },
+    "cryptogram": {
+      "samplesIntro": "Tee pura-viesti-pulmia, joissa symbolit korvaavat kirjaimet."
+    },
+    "big-small": {
+      "modes": {
+        "findBig": "Lapsi etsii ja napauttaa joukon suurimman (tai pienimmän) kuvan.",
+        "orderAsc": "Laita kuvat järjestykseen pienimmästä suurimpaan."
+      },
+      "modeNames": {
+        "findBig": "Etsi suurin",
+        "orderAsc": "Järjestä koon mukaan"
+      }
+    },
+    "pattern-train": {
+      "modes": {
+        "aab": "Toistuvia A-A-B-kuvasarjoja lapsen jatkettavaksi.",
+        "aabb": "A-A-B-B-sarjoja, jotka luovat tasaisen kahden parin rytmin.",
+        "abb": "A-B-B-sarjoja luettavaksi, ennakoitavaksi ja jatkettavaksi.",
+        "abc": "Kolmiosaisia A-B-C-sarjoja, joissa toistuva jakso on pidempi.",
+        "default": "Sekalaisia toistuvia sarjoja, joissa lapsi päättelee, mikä tulee seuraavaksi."
+      },
+      "modeNames": {
+        "default": "Sekasarjat"
+      }
+    },
+    "pattern-worksheet": {
+      "samplesIntro": "Luo sekalaisia sarjatehtäviä lapsen luettavaksi ja täydennettäväksi."
+    },
+    "chart-count": {
+      "samplesIntro": "Tee laske-ja-piirrä-tehtäviä, joissa lapsi merkitsee kuvat kaavioon."
+    },
+    "matching": {
+      "modes": {
+        "letter": "Vedä viiva kustakin kuvasta kirjaimeen, jolla sana alkaa.",
+        "name": "Yhdistä jokainen kuva sen kirjoitettuun sanaan."
+      }
+    },
+    "grid-match": {
+      "samplesIntro": "Tee ruudukkoyhdistelytehtäviä, joissa kuvat paritetaan ruudukon poikki."
+    },
+    "shadow-match": {
+      "modes": {
+        "find-shadow": "Yhdistä jokainen kuva sen oikeaan varjokuvaan.",
+        "make-whole": "Liitä kaksi puolikasta, jotka tekevät kuvasta jälleen kokonaisen."
+      }
+    },
+    "bingo": {
+      "samplesIntro": "Tee kuva- ja sanabingokortit, joita koko luokka voi pelata yhdessä."
+    },
+    "picture-sort": {
+      "samplesIntro": "Tee lajittelutehtäviä, joissa lapsi ryhmittelee kuvat oikeisiin koreihin."
+    },
+    "missing-pieces": {
+      "modes": {
+        "one-missing": "Kuvasta puuttuu yksi pala — lapsi valitsee osan, joka täydentää sen.",
+        "two-missing": "Kaksi palaa puuttuu, joten lapsi valitsee molemmat osat kuvan viimeistelyyn."
+      }
+    },
+    "odd-one-out": {
+      "modes": {
+        "same-theme": "Jokaisella kuvalla on yhteinen teema yhtä lukuun ottamatta — etsi joukkoon kuulumaton.",
+        "cross-theme": "Kuvat ovat eri teemoista; lapsi löytää sen, joka ei sovi joukkoon."
+      }
+    },
+    "sudoku": {
+      "modes": {
+        "easy": "Leppoisia kuvasudokuja ensimmäiseen pulman kokeiluun.",
+        "medium": "Astetta haastavampia, hieman täydempiä ruudukoita päättelyä varten.",
+        "hard": "Vaikeampia ruudukoita, jotka vaativat tarkempaa logiikkaa."
+      }
+    },
+    "picture-path": {
+      "modes": {
+        "choose-path": "Lapsi valitsee oikean reitin kuvasokkelon läpi.",
+        "classic-maze": "Klassinen sokkelo jäljitettäväksi alusta loppuun seiniä ylittämättä.",
+        "pathway": "Seuraa kuvapolkua päästä päähän."
+      }
+    },
+    "find-and-count": {
+      "modes": {
+        "hidden-object": "Lapsi etsii piilotettuja esineitä vilkkaasta kuvasta ja laskee ne.",
+        "letter-spotting": "Etsi kuvasta tietty kirjain ja laske jokainen löytynyt."
+      }
+    },
+    "find-objects": {
+      "modes": {
+        "find-odd": "Etsi rivin kuva, joka ei kuulu muiden joukkoon.",
+        "i-spy": "Etsintänäkymä, jossa lapsi löytää ja laskee nimetyt esineet."
+      }
+    },
+    "crossword": {
+      "samplesIntro": "Luo kuvaristikoita, joihin lapsi kirjoittaa jokaisen sanan ruudukkoon."
+    },
+    "treasure-hunt": {
+      "modes": {
+        "cardinal-arrows": "Seuraa ylös-, alas-, vasen- ja oikea-nuolia ruudukon poikki aarteelle.",
+        "compass": "Käytä ilmansuuntia kartalla navigointiin ja aarteen löytämiseen."
+      }
+    }
+  }
+}

@@ -21,7 +21,13 @@
       "Sett ut bilde-addisjon på en telle-stasjon med konkreter.",
       "Send et kort ark hjem til ekstra øving sammen med en voksen.",
       "Koble et tema-ark til emnet dere utforsker den uka."
-    ]
+    ],
+    "modes": {
+      "find-addend": "Vis én del og summen; barnet ditt finner ut hvilket tall som mangler.",
+      "image-image": "Legg sammen to grupper med bilder og tell alle for å finne summen.",
+      "image-number": "Tell en gruppe bilder, og legg den så til et tall for å finne summen.",
+      "mixed": "En blanding av bildesummer og tallsummer sammen på én side."
+    }
   },
   "subtraction": {
     "slug": "subtraksjons-arbeidsark-skaper",
@@ -45,7 +51,13 @@
       "Tilby bilde-subtraksjon på en telle-stasjon med ting de kan flytte.",
       "Send et kort øvingsark hjem mellom timene.",
       "Bland inn en tema-side når du vil ha en frisk sammenheng for samme ferdighet."
-    ]
+    ],
+    "modes": {
+      "cross-out": "Barnet ditt streker over bilder for å ta dem bort og teller hva som er igjen.",
+      "find-subtrahend": "Vis starten og svaret; barnet ditt finner tallet som ble tatt bort.",
+      "image-number": "Tell en gruppe bilder, og trekk så et tall fra den.",
+      "mixed": "En blanding av bilde- og tall-oppgaver med å ta bort på ett ark."
+    }
   },
   "code-addition": {
     "slug": "kode-addisjons-arbeidsark-skaper",
@@ -69,7 +81,14 @@
       "Bruk det som påbygging for barn som blir fort ferdige med vanlig addisjon.",
       "Gå gjennom én tydet oppgave sammen før barna jobber alene.",
       "Knytt temaet i forklaringen til et aktuelt emne for en tema-utfordring."
-    ]
+    ],
+    "modes": {
+      "default": "Løs hver sum, og bruk så tallnøkkelen for å knekke en skjult bildekode.",
+      "secret-word": "Løs summene, og svarene staver et morsomt hemmelig ord."
+    },
+    "modeNames": {
+      "default": "Tallkode"
+    }
   },
   "more-less": {
     "slug": "mer-eller-mindre-arbeidsark-skaper",
@@ -93,7 +112,12 @@
       "Sett det på en matematikkstasjon sammen med ekte ting å sammenligne.",
       "Modeller ordene «mer», «færre» og «like mange» mens dere merker én sammen.",
       "Send et ark hjem for å øve på å sammenligne hverdagsgrupper."
-    ]
+    ],
+    "modes": {
+      "check-cross": "Barnet ditt markerer hvilken gruppe som har flest og hvilken som har færrest.",
+      "image-image": "Sammenlign to grupper med bilder og avgjør hvilken som er mer eller mindre.",
+      "image-number": "Sammenlign en gruppe bilder med et tall – mer, mindre eller likt?"
+    }
   },
   "math-puzzle": {
     "slug": "mattepuslespill-skaper",
@@ -117,7 +141,12 @@
       "Tilby det som påbygging for barn som er klare til å resonnere, ikke bare huske.",
       "Løs én vrien linje sammen og snakk dere gjennom tenkingen.",
       "Sett et lite sett som en utfordring for de som blir tidlig ferdige."
-    ]
+    ],
+    "modes": {
+      "addition": "Tallrutenett-oppgaver der hvert hint er et pluss-stykke.",
+      "subtraction": "Tallrutenett-oppgaver bygd helt opp av minus-stykker.",
+      "mixed": "Oppgaverutenett som blander pluss- og minus-hint."
+    }
   },
   "math-worksheet": {
     "slug": "matematikk-arbeidsark-skaper",
@@ -141,7 +170,17 @@
       "Sett det som selvstendig arbeid mens du har en liten gruppe.",
       "Send ett hjem som lett, variert øving.",
       "Bygg et kort ark til en rask vurdering på slutten av et emne."
-    ]
+    ],
+    "modes": {
+      "two-symbols-add-sub": "Stykker med to tall og pluss eller minus, fint satt opp til å løse.",
+      "three-symbols-add-sub": "Oppgaver med tre tall som kombinerer pluss og minus på én linje.",
+      "four-symbols-add-sub": "Lengre rekker med fire tall, pluss og minus, å jobbe seg gjennom."
+    },
+    "modeNames": {
+      "two-symbols-add-sub": "To tall",
+      "three-symbols-add-sub": "Tre tall",
+      "four-symbols-add-sub": "Fire tall"
+    }
   },
   "alphabet-train": {
     "slug": "alfabet-tog-skaper",
@@ -165,7 +204,14 @@
       "Bruk det på en lese-stasjon sammen med magnetbokstaver.",
       "Begynn med ett eller to tomrom, og legg så til flere etter hvert som barna vokser.",
       "Send et tog hjem for å øve på bokstavrekkefølge med en voksen."
-    ]
+    ],
+    "modes": {
+      "letter-hint": "Hver vogn viser et bokstavhint som hjelper med å bygge alfabettoget.",
+      "default": "Bygg alfabettoget ved å sette bokstavene i riktig rekkefølge."
+    },
+    "modeNames": {
+      "default": "Klassisk"
+    }
   },
   "prepositions": {
     "slug": "preposisjoner-arbeidsark-skaper",
@@ -189,7 +235,11 @@
       "Bruk det til å støtte en språkrik «hvor er det?»-samtale.",
       "Koble det til vanlige klasseromsting som en praktisk oppfølging.",
       "Knytt scene-temaet til en fortelling dere leser sammen."
-    ]
+    ],
+    "modes": {
+      "fillin": "Barnet ditt skriver posisjonsordet (i, på, under …) som passer til hvert bilde.",
+      "multiplechoice": "Velg det riktige posisjonsordet for hvert bilde blant alternativene."
+    }
   },
   "word-guess": {
     "slug": "gjett-ordet-skaper",
@@ -213,7 +263,11 @@
       "Bruk bildeledetråder så barna kobler ordets mening til stavingen.",
       "Lag et emne-ord-ark som en morsom repetisjon ved slutten av et emne.",
       "La de som blir fort ferdige gjette noen bonus-ord mens andre fullfører siden."
-    ]
+    ],
+    "modes": {
+      "easy": "Kortere ord med bildehint som nye lesere kan gjette.",
+      "normal": "Lengre ord og vanskeligere hint for trygge lesere."
+    }
   },
   "word-scramble": {
     "slug": "ordmiks-skaper",
@@ -237,7 +291,11 @@
       "Bruk det til å repetere emne- eller tema-ordforråd ved ukas slutt.",
       "Sett det som en stave-stasjon med bokstavbrikker å flytte rundt.",
       "Send en kort ordmiks hjem for leken staveøving."
-    ]
+    ],
+    "modes": {
+      "easy": "Sett sammen korte, kjente ord med et bildehint til hjelp.",
+      "normal": "Sett sammen lengre ord for en større staveutfordring."
+    }
   },
   "wordsearch": {
     "slug": "ordsoek-skaper",
@@ -261,7 +319,15 @@
       "Bygg et emne-ordsøk for å introdusere eller repetere fag-ordforråd.",
       "Lag et lite rutenett fra venstre mot høyre til tidlige lesere og et større til eldre barn.",
       "Bruk et ordsøk som en rolig start-oppgave i begynnelsen av dagen."
-    ]
+    ],
+    "modes": {
+      "default": "Skjul en liste med ord i rutenettet som barna skal finne og ringe rundt.",
+      "image-only": "Et bildeordsøk – barna finner ordene for bildene som vises."
+    },
+    "modeNames": {
+      "default": "Ordjakt",
+      "image-only": "Bildejakt"
+    }
   },
   "cryptogram": {
     "slug": "kryptogram-skaper",
@@ -285,7 +351,8 @@
       "Bygg et kryptogram fra en fortellings nøkkelord som en forståelses-oppvarming.",
       "Lag en kort kodet melding — som en klassebelønning eller en gåte — som barna kan avsløre.",
       "Koble et kryptogram til et emne så barna tyder ordene de er i ferd med å lære."
-    ]
+    ],
+    "samplesIntro": "Lag tyd-meldingen-oppgaver der symboler står for bokstaver."
   },
   "writing": {
     "slug": "skriveovelser-skaper",
@@ -333,7 +400,15 @@
       "Bruk det på en sortere-stasjon med store og små leker.",
       "Modeller ordene stor, liten, større og mindre underveis.",
       "Send et ark hjem for å finne store og små ting rundt huset."
-    ]
+    ],
+    "modes": {
+      "findBig": "Barnet ditt finner og trykker på det største (eller minste) bildet i hvert sett.",
+      "orderAsc": "Sett bildene i rekkefølge fra minst til størst."
+    },
+    "modeNames": {
+      "findBig": "Finn det største",
+      "orderAsc": "Ordne etter størrelse"
+    }
   },
   "pattern-train": {
     "slug": "moenstertog-skaper",
@@ -357,7 +432,17 @@
       "Bygg et tilsvarende mønster med klosser på en stasjon.",
       "Begynn med enkle ABAB-mønstre, og legg så til mer kompleksitet.",
       "Knytt mønster-temaet til ditt aktuelle emne."
-    ]
+    ],
+    "modes": {
+      "aab": "Gjentakende A-A-B-bildemønstre som barna skal fortsette.",
+      "aabb": "A-A-B-B-mønstre som bygger en jevn to-og-to-rytme.",
+      "abb": "A-B-B-mønstre å lese, forutse og forlenge.",
+      "abc": "Tredelte A-B-C-mønstre med en lengre gjentakende enhet.",
+      "default": "Blandede gjentakende mønstre der barna finner ut hva som kommer videre."
+    },
+    "modeNames": {
+      "default": "Blandede mønstre"
+    }
   },
   "pattern-worksheet": {
     "slug": "moenster-arbeidsark-skaper",
@@ -381,7 +466,8 @@
       "Sett det som selvstendig arbeid etter en mønster-mini-leksjon.",
       "Tilby vanskeligere mønstre som påbygging for de som blir fort ferdige.",
       "Kombiner bilde- og formrader for variert øving."
-    ]
+    ],
+    "samplesIntro": "Lag blandede mønsterark som barna skal lese og fullføre."
   },
   "draw-and-color": {
     "slug": "tegn-og-fargelegg-skaper",
@@ -477,7 +563,8 @@
       "Bruk det til å registrere resultatene av en rask klasse-undersøkelse.",
       "Snakk sammen om hvilken søyle som er høyest og lavest.",
       "Sett det på en matematikkstasjon som praktisk data-øving."
-    ]
+    ],
+    "samplesIntro": "Lag tell-og-graf-ark der barna teller bilder inn i et diagram."
   },
   "matching": {
     "slug": "koblings-arbeidsark-skaper",
@@ -501,7 +588,11 @@
       "Bruk det til å repetere tema-ordforråd eller beslektede begreper.",
       "Sett det på en stasjon med fysiske kort å koble først.",
       "Send et kobling-ark hjem for rask, tydelig øving."
-    ]
+    ],
+    "modes": {
+      "letter": "Tegn en strek fra hvert bilde til bokstaven det begynner med.",
+      "name": "Match hvert bilde til det skrevne ordet."
+    }
   },
   "grid-match": {
     "slug": "rutenett-puslespill-skaper",
@@ -525,7 +616,8 @@
       "Bruk det som en nøyaktig-se-utfordring på en matematikkstasjon.",
       "Begynn med et lite rutenett og utvid det etter hvert som tryggheten bygges.",
       "Knytt bilde-temaet til ditt aktuelle emne."
-    ]
+    ],
+    "samplesIntro": "Lag rutenett-matchark som parer bilder på tvers av et rutenett."
   },
   "shadow-match": {
     "slug": "skyggematching-skaper",
@@ -549,7 +641,11 @@
       "Bruk det som en fokusert stasjon for visuell persepsjon.",
       "Diskuter hvordan form alene hjelper deg å kjenne igjen en ting.",
       "Knytt bilde-temaet til en fortelling eller et emne."
-    ]
+    ],
+    "modes": {
+      "find-shadow": "Match hvert bilde til skyggeformen som passer.",
+      "make-whole": "Sett sammen de to halvdelene som gjør hvert bilde helt igjen."
+    }
   },
   "bingo": {
     "slug": "bildebingo-skaper",
@@ -573,7 +669,8 @@
       "Rop ordene på et annet språk for språkelever.",
       "La et barn være den som roper opp for å øve på å lese bildene.",
       "Kjør en rask runde som en morsom åpning eller overgang i timen."
-    ]
+    ],
+    "samplesIntro": "Lag bilde- og ordbingokort som hele klassen kan spille sammen."
   },
   "picture-sort": {
     "slug": "bildesortering-skaper",
@@ -597,7 +694,8 @@
       "Bruk det til å støtte en kategoriserings-leksjon i naturfag eller emne.",
       "Snakk gjennom ett bilde sammen og navngi hvorfor det passer en gruppe.",
       "Sett det på en stasjon med utklipte bilder å sortere fysisk."
-    ]
+    ],
+    "samplesIntro": "Lag sorteringsark der barna grupperer bilder i de riktige kurvene."
   },
   "missing-pieces": {
     "slug": "manglende-biter-skaper",
@@ -621,7 +719,11 @@
       "Bruk det som en utfordring i visuelt resonnement på en rolig stasjon.",
       "Koble det til enkle puslespill for praktisk øving.",
       "Knytt bilde-temaet til ditt aktuelle emne."
-    ]
+    ],
+    "modes": {
+      "one-missing": "Én bit mangler i bildet – barna velger delen som fullfører det.",
+      "two-missing": "To biter mangler, så barna velger begge delene for å fullføre bildet."
+    }
   },
   "odd-one-out": {
     "slug": "finn-den-ulike-skaper",
@@ -645,7 +747,11 @@
       "Bruk det til å fordype en sortere- eller kategoriserings-leksjon.",
       "Oppmuntre barna til å si hvorfor valget deres ikke passer.",
       "Sett det som en rask resonnement-oppvarming."
-    ]
+    ],
+    "modes": {
+      "same-theme": "Alle bildene deler et tema unntatt ett – finn det som skiller seg ut.",
+      "cross-theme": "Bildene kommer fra ulike temaer; barna finner det som ikke passer."
+    }
   },
   "sudoku": {
     "slug": "barne-sudoku-skaper",
@@ -669,7 +775,12 @@
       "Koble en tema-sudoku til et emne slik at bildene føles kjente.",
       "Løs én sammen på tavla, og tenk høyt, før barna prøver sin egen.",
       "Tilby en tall-sudoku som påbygging for barn som er klare for en utfordring."
-    ]
+    ],
+    "modes": {
+      "easy": "Snille bildesudoku-rutenett for et første forsøk på oppgaven.",
+      "medium": "Et hakk opp, med litt fyldigere rutenett å resonnere gjennom.",
+      "hard": "Vanskeligere rutenett som krever mer nøye logikk å fullføre."
+    }
   },
   "picture-path": {
     "slug": "bildesti-skaper",
@@ -693,7 +804,12 @@
       "Bruk det som en rolig, fokusert aktivitet på en stille stasjon.",
       "Begynn med enkle labyrinter og bygg opp vanskegraden.",
       "Snakk om å planlegge en rute før man stormer av sted."
-    ]
+    ],
+    "modes": {
+      "choose-path": "Barna velger den riktige veien gjennom en bildelabyrint.",
+      "classic-maze": "En klassisk labyrint å følge fra start til mål uten å krysse vegger.",
+      "pathway": "Følg bildestien fra den ene enden til den andre."
+    }
   },
   "find-and-count": {
     "slug": "finn-og-tell-skaper",
@@ -717,7 +833,11 @@
       "Bruk det på en tidlig-telling-stasjon.",
       "Oppmuntre barna til å ta på hver ting én gang mens de teller.",
       "Knytt scene-temaet til en fortelling eller et emne."
-    ]
+    ],
+    "modes": {
+      "hidden-object": "Barna leter etter skjulte gjenstander i et yrende bilde og teller dem.",
+      "letter-spotting": "Let i bildet etter en målbokstav og tell hver eneste én du finner."
+    }
   },
   "find-objects": {
     "slug": "finn-gjenstandene-skaper",
@@ -741,7 +861,11 @@
       "Be barna telle én slags gjenstand og skrive tallet for å øve på telling.",
       "Koble scenen til et tema så barna leter etter ord de holder på å lære.",
       "Gjør det om til et jeg-ser-spill — rop opp en gjenstand og la barna peke eller ringe rundt den."
-    ]
+    ],
+    "modes": {
+      "find-odd": "Finn det ene bildet i raden som ikke hører sammen med de andre.",
+      "i-spy": "En tittelek der barna finner og teller gjenstandene som nevnes."
+    }
   },
   "crossword": {
     "slug": "bildekryssord-skaper",
@@ -765,7 +889,8 @@
       "Bruk et kryssord som en stavekontroll som føles som et spill i stedet for en prøve.",
       "Lag et emne-kryssord barna fullfører ved slutten av et emne.",
       "La barna foreslå ordene til neste ukes klasse-kryssord."
-    ]
+    ],
+    "samplesIntro": "Lag bildekryssord der barna staver hvert ord inn i rutenettet."
   },
   "treasure-hunt": {
     "slug": "skattejakt-skaper",
@@ -789,7 +914,11 @@
       "Bruk det til å øve på ordene opp, ned, venstre og høyre.",
       "Sett det som en problemløsnings-utfordring på en stasjon.",
       "Øk antallet steg etter hvert som barna blir tryggere."
-    ]
+    ],
+    "modes": {
+      "cardinal-arrows": "Følg piler opp, ned, til venstre og høyre over rutenettet til skatten.",
+      "compass": "Bruk kompassretninger for å finne veien på kartet og finne skatten."
+    }
   },
   "labels": {
     "about": "Om denne arbeidsark-skaperen",
@@ -798,6 +927,13 @@
     "launchCta": "Åpne gratis {name}",
     "otherLanguages": "Tilgjengelig på andre språk",
     "relatedMakers": "Flere arbeidsark-skapere",
-    "makersBreadcrumb": "Arbeidsark-skapere"
+    "makersBreadcrumb": "Arbeidsark-skapere",
+    "samplesHeading": "Se hva du kan lage",
+    "samplesIntroDefault": "Hver stil nedenfor er et ferdig eksempel – trykk for å spille det, og alle arkene er gratis å skrive ut.",
+    "playSample": "Spill eksempel",
+    "crossLangHeading": "Lag «lær et språk»-ark",
+    "crossLangIntro": "Det samme verktøyet lager også bildeordforråd-ark for å lære et nytt språk.",
+    "seeAllLang": "Se alle {lang}-ark",
+    "closeSample": "Lukk eksempel"
   }
 }

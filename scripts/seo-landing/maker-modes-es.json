@@ -1,0 +1,200 @@
+{
+  "labels": {
+    "samplesHeading": "Mira lo que puedes crear",
+    "samplesIntroDefault": "Cada estilo de abajo es una muestra lista para usar: tócala para jugar, y todas las fichas se imprimen gratis.",
+    "playSample": "Jugar muestra",
+    "crossLangHeading": "Crea fichas para ‘aprender un idioma’",
+    "crossLangIntro": "El mismo generador también crea fichas de vocabulario con imágenes para aprender un idioma nuevo.",
+    "seeAllLang": "Ver todas las fichas de {lang}",
+    "closeSample": "Cerrar muestra"
+  },
+  "makers": {
+    "addition": {
+      "modes": {
+        "find-addend": "Muestra una parte y el total; los niños calculan el sumando que falta.",
+        "image-image": "Suma dos grupos de imágenes y cuéntalas todas para hallar el resultado.",
+        "image-number": "Cuenta un grupo de imágenes y súmalo a un número para obtener el total.",
+        "mixed": "Una mezcla de sumas con imágenes y sumas con números en una misma página."
+      }
+    },
+    "subtraction": {
+      "modes": {
+        "cross-out": "Los niños tachan imágenes para quitarlas y cuentan las que quedan.",
+        "find-subtrahend": "Muestra el inicio y el resultado; los niños hallan el número que se quitó.",
+        "image-number": "Cuenta un grupo de imágenes y luego réstale un número.",
+        "mixed": "Una mezcla de restas con imágenes y con números en una misma hoja."
+      }
+    },
+    "code-addition": {
+      "modes": {
+        "default": "Resuelve cada suma y usa la clave numérica para descifrar una imagen oculta.",
+        "secret-word": "Resuelve las sumas y las respuestas forman una palabra secreta divertida."
+      },
+      "modeNames": {
+        "default": "Código numérico"
+      }
+    },
+    "more-less": {
+      "modes": {
+        "check-cross": "Los niños marcan qué grupo tiene más y cuál tiene menos.",
+        "image-image": "Compara dos grupos de imágenes y decide cuál tiene más o menos.",
+        "image-number": "Compara un grupo de imágenes con un número: ¿más, menos o igual?"
+      }
+    },
+    "math-puzzle": {
+      "modes": {
+        "addition": "Rompecabezas de cuadrícula numérica donde cada pista es una suma.",
+        "subtraction": "Rompecabezas de cuadrícula numérica hechos solo con restas.",
+        "mixed": "Cuadrículas de rompecabezas que mezclan pistas de suma y resta."
+      }
+    },
+    "math-worksheet": {
+      "modes": {
+        "two-symbols-add-sub": "Sumas de dos números con un más o un menos, bien ordenadas para resolver.",
+        "three-symbols-add-sub": "Problemas de tres números que combinan más y menos en una línea.",
+        "four-symbols-add-sub": "Series más largas de cuatro números con más y menos para resolver."
+      },
+      "modeNames": {
+        "two-symbols-add-sub": "Dos números",
+        "three-symbols-add-sub": "Tres números",
+        "four-symbols-add-sub": "Cuatro números"
+      }
+    },
+    "alphabet-train": {
+      "modes": {
+        "letter-hint": "Cada vagón muestra una pista de letra para armar el tren del abecedario.",
+        "default": "Arma el tren del abecedario colocando las letras en el orden correcto."
+      },
+      "modeNames": {
+        "default": "Clásico"
+      }
+    },
+    "prepositions": {
+      "modes": {
+        "fillin": "Los niños escriben la palabra de posición (en, sobre, debajo…) que va con cada imagen.",
+        "multiplechoice": "Elige entre las opciones la palabra de posición correcta para cada imagen."
+      }
+    },
+    "word-guess": {
+      "modes": {
+        "easy": "Palabras cortas con pistas de imágenes para que adivinen los primeros lectores.",
+        "normal": "Palabras más largas y pistas más difíciles para lectores seguros."
+      }
+    },
+    "word-scramble": {
+      "modes": {
+        "easy": "Ordena palabras cortas y conocidas con una pista de imagen que ayuda.",
+        "normal": "Ordena palabras más largas para un reto de ortografía mayor."
+      }
+    },
+    "wordsearch": {
+      "modes": {
+        "default": "Esconde una lista de palabras en la cuadrícula para que los niños las busquen y rodeen.",
+        "image-only": "Una sopa de letras con imágenes: los niños buscan las palabras de las imágenes."
+      },
+      "modeNames": {
+        "default": "Busca palabras",
+        "image-only": "Busca imágenes"
+      }
+    },
+    "cryptogram": {
+      "samplesIntro": "Crea acertijos para descifrar mensajes donde los símbolos representan letras."
+    },
+    "big-small": {
+      "modes": {
+        "findBig": "Los niños encuentran y tocan la imagen más grande (o más pequeña) de cada conjunto.",
+        "orderAsc": "Ordena las imágenes de la más pequeña a la más grande."
+      },
+      "modeNames": {
+        "findBig": "Encuentra la más grande",
+        "orderAsc": "Ordena por tamaño"
+      }
+    },
+    "pattern-train": {
+      "modes": {
+        "aab": "Patrones de imágenes A-A-B que se repiten para que los niños los continúen.",
+        "aabb": "Patrones A-A-B-B que crean un ritmo constante de dos en dos.",
+        "abb": "Patrones A-B-B para leer, predecir y extender.",
+        "abc": "Patrones A-B-C de tres partes con una unidad repetida más larga.",
+        "default": "Patrones repetidos variados donde los niños descubren qué sigue."
+      },
+      "modeNames": {
+        "default": "Patrones variados"
+      }
+    },
+    "pattern-worksheet": {
+      "samplesIntro": "Crea fichas de patrones variados para que los niños lean y completen."
+    },
+    "chart-count": {
+      "samplesIntro": "Crea fichas de contar y graficar donde los niños registran imágenes en una gráfica."
+    },
+    "matching": {
+      "modes": {
+        "letter": "Traza una línea de cada imagen a la letra con la que empieza.",
+        "name": "Une cada imagen con su palabra escrita."
+      }
+    },
+    "grid-match": {
+      "samplesIntro": "Crea fichas de emparejar en cuadrícula que unen imágenes a lo largo de la cuadrícula."
+    },
+    "shadow-match": {
+      "modes": {
+        "find-shadow": "Une cada imagen con su sombra correspondiente.",
+        "make-whole": "Junta las dos mitades que completan cada imagen."
+      }
+    },
+    "bingo": {
+      "samplesIntro": "Crea cartones de bingo de imágenes y palabras para jugar con toda la clase."
+    },
+    "picture-sort": {
+      "samplesIntro": "Crea fichas de clasificar donde los niños agrupan imágenes en las cestas correctas."
+    },
+    "missing-pieces": {
+      "modes": {
+        "one-missing": "Falta una pieza de la imagen: los niños eligen la parte que la completa.",
+        "two-missing": "Faltan dos piezas, así que los niños eligen ambas partes para terminar la imagen."
+      }
+    },
+    "odd-one-out": {
+      "modes": {
+        "same-theme": "Todas las imágenes comparten un tema menos una: encuentra la que sobra.",
+        "cross-theme": "Las imágenes son de temas distintos; los niños hallan la que no encaja."
+      }
+    },
+    "sudoku": {
+      "modes": {
+        "easy": "Sudokus de imágenes suaves para un primer intento con el acertijo.",
+        "medium": "Un paso más, con cuadrículas algo más llenas para razonar.",
+        "hard": "Cuadrículas más difíciles que necesitan una lógica más cuidadosa."
+      }
+    },
+    "picture-path": {
+      "modes": {
+        "choose-path": "Los niños eligen el camino correcto a través de un laberinto de imágenes.",
+        "classic-maze": "Un laberinto clásico para trazar de principio a fin sin cruzar las paredes.",
+        "pathway": "Sigue el camino de imágenes de un extremo al otro."
+      }
+    },
+    "find-and-count": {
+      "modes": {
+        "hidden-object": "Los niños buscan objetos escondidos en una escena llena y los cuentan.",
+        "letter-spotting": "Busca una letra en la imagen y cuenta cada vez que aparece."
+      }
+    },
+    "find-objects": {
+      "modes": {
+        "find-odd": "Encuentra la imagen de la fila que no pertenece con las demás.",
+        "i-spy": "Una escena de Veo-Veo donde los niños buscan y cuentan los objetos nombrados."
+      }
+    },
+    "crossword": {
+      "samplesIntro": "Crea crucigramas de imágenes donde los niños escriben cada palabra en la cuadrícula."
+    },
+    "treasure-hunt": {
+      "modes": {
+        "cardinal-arrows": "Sigue las flechas de arriba, abajo, izquierda y derecha por la cuadrícula hasta el tesoro.",
+        "compass": "Usa los puntos cardinales para recorrer el mapa y encontrar el tesoro."
+      }
+    }
+  }
+}

@@ -271,33 +271,21 @@ async function publish(opts) {
   // inside the PDF is structurally infeasible (flat JPEG snapshot; no
   // image-object granularity for PDF /Alt entries).
   var canonicalURLForPdf = subResult.resolved.canonicalURL;
-  var pdfKeywordsParts = [];
-  try {
-    var et = taxonomy.exerciseTypeFor(manifest.generator.app, locale);
-    if (et && et.name) pdfKeywordsParts.push(et.name);
-  } catch (e) { /* axis-key gap — skip silently */ }
-  if (manifest.theme) {
-    try {
-      var themeEntry = taxonomy.themeFor(manifest.theme, locale);
-      if (themeEntry && themeEntry.name) pdfKeywordsParts.push(themeEntry.name);
-    } catch (e) { /* off-taxonomy theme — skip */ }
-  }
-  // Source age_range from manifest if present (metadata.json layer per
-  // §15.1), else fall back to app's default per taxonomy.
-  var ageRangeForPdf;
-  try {
-    ageRangeForPdf = (manifest.metadata && manifest.metadata.age_range)
-      || taxonomy.appConfig(manifest.generator.app).default_age_range;
-    var levelEntry = taxonomy.levelFor(ageRangeForPdf, locale);
-    if (levelEntry && levelEntry.name) pdfKeywordsParts.push(levelEntry.name);
-  } catch (e) { /* skip */ }
-  pdfKeywordsParts.push('worksheet', 'K-3');
-
+  // PDF-SEO commission 2026-06-20: compose PDF-SPECIFIC, printable-download-intent,
+  // localized /Info via the shared composer (scripts/publish-cli/pdf-seo-meta.js).
+  // Do NOT reuse meta.title/meta.description — those duplicate the HTML landing title
+  // (cannibalization) and carry "interactive / play online" framing wrong for a
+  // printable file, and the old keyword list leaked English ("worksheet, K-3"). The
+  // composer reads exercise_type/theme/age_range/mode/vocab from the manifest and emits
+  // clean localized printable-PDF metadata. Fallback to deck meta only when the manifest
+  // is too degenerate to yield a type name.
+  var pdfSeo = require('./pdf-seo-meta');
+  var pdfSeoMeta = pdfSeo.composePdfMetadata(manifest, { locale: locale, slug: slug });
   var basePdfOpts = {
-    title: meta.title,
+    title: (pdfSeoMeta && pdfSeoMeta.title) || meta.title,
     author: 'LessonCraftStudio',
-    subject: meta.description || meta.title,
-    keywords: pdfKeywordsParts.join(', '),
+    subject: (pdfSeoMeta && pdfSeoMeta.subject) || meta.description || meta.title,
+    keywords: (pdfSeoMeta && pdfSeoMeta.keywords) || '',
     canonicalUrl: canonicalURLForPdf
   };
 
@@ -317,7 +305,9 @@ async function publish(opts) {
     // answerKeyLink string (already authored + reviewed per locale).
     var answerKeyLabel = i18n.resolve(locale, 'topicPage.deckCard.answerKeyLink', 'Answer Key').value;
     var answerKeyOpts = Object.assign({}, basePdfOpts, {
-      title: meta.title + ' — ' + answerKeyLabel
+      title: basePdfOpts.title + ' — ' + answerKeyLabel,
+      subject: answerKeyLabel + ': ' + basePdfOpts.subject,
+      keywords: (basePdfOpts.keywords ? (answerKeyLabel + ', ') : '') + basePdfOpts.keywords
     });
     try {
       enhancedAnswerKey = await pdfMetadata.enhancePdf(answerKeyRaw, answerKeyOpts);

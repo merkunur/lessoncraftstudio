@@ -33,8 +33,10 @@
       "browseAll": {
         "worksheets": "Ver todas las hojas",
         "apps": "Todos los creadores",
-        "interactive": "Todas las interactivas"
-      }
+        "interactive": "Todas las interactivas",
+        "languages": "Idiomas"
+      },
+      "languages": "Idiomas"
     }
   },
   "homepage": {
@@ -3980,5 +3982,18 @@
     "audienceBody": "Pensado para docentes y familias en aulas bilingües, plurilingües e internacionales, especialmente en la primera infancia (3 a 7 años).",
     "teamHeading": "Sobre nuestro equipo",
     "teamBody": "Estamos actualizando esta sección — vuelve pronto."
+  },
+  "learnPage": {
+    "category": "Idiomas",
+    "hubH1": "Idiomas — Fichas de vocabulario para niños",
+    "hubIntro": "Crucigramas, asociación de imágenes y sopas de letras gratis para imprimir que ayudan a los niños a aprender un nuevo idioma: práctica de vocabulario en muchos temas.",
+    "choose": "Elige un idioma para aprender",
+    "learnH1": "Aprender {lang}",
+    "learnH1Tail": "— Fichas de vocabulario para niños",
+    "learnIntro": "{count} fichas gratis para aprender vocabulario de {lang}: crucigramas, asociación de imágenes y sopas de letras en {themes} temas. Imprime en PDF o juega en línea, siempre gratis y sin registro.",
+    "worksheets": "{count} fichas",
+    "themesWord": "temas",
+    "allFormats": "Todos los formatos",
+    "breadcrumb": "Idiomas"
   }
 }

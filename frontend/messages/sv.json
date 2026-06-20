@@ -33,8 +33,10 @@
       "browseAll": {
         "worksheets": "Alla arbetsblad",
         "apps": "Alla generatorer",
-        "interactive": "Alla interaktiva"
-      }
+        "interactive": "Alla interaktiva",
+        "languages": "Språk"
+      },
+      "languages": "Språk"
     }
   },
   "homepage": {
@@ -2385,5 +2387,18 @@
     "audienceBody": "För lärare och föräldrar i tvåspråkiga, flerspråkiga och internationella klassrum, särskilt i förskoleåldern och tidiga skolåren (3–7 år).",
     "teamHeading": "Om vårt team",
     "teamBody": "Vi uppdaterar det här avsnittet — kom tillbaka snart."
+  },
+  "learnPage": {
+    "category": "Språk",
+    "hubH1": "Språk — Ordförrådsblad för barn",
+    "hubIntro": "Gratis korsord, bild-ord-matchning och ordletor att skriva ut som hjälper barn att lära sig ett nytt språk — ordförrådsövningar inom många teman.",
+    "choose": "Välj ett språk att lära dig",
+    "learnH1": "Lär dig {lang}",
+    "learnH1Tail": "— Ordförrådsblad för barn",
+    "learnIntro": "{count} gratis arbetsblad för att lära dig ord på {lang}: korsord, bild-ord-matchning och ordletor inom {themes} teman. Skriv ut som PDF eller spela online, alltid gratis och utan registrering.",
+    "worksheets": "{count} arbetsblad",
+    "themesWord": "teman",
+    "allFormats": "Alla format",
+    "breadcrumb": "Språk"
   }
 }

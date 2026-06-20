@@ -39,12 +39,14 @@ interface CategoryNavProps {
   availableActivities?: Array<{ id: string; slug: string; title: string; code: string }>;
   // Per-locale non-empty theme axis-keys for the Topics dropdown sub-items.
   availableThemes?: string[];
+  availableTargets?: Array<{ iso: string; slug: string; name: string; count: number }>;
 }
 
 export function CategoryNav({
   availableExerciseTypes = [],
   availableActivities = [],
   availableThemes = [],
+  availableTargets = [],
 }: CategoryNavProps) {
   const t = useTranslations('nav.categories');
   const pathname = usePathname();
@@ -76,6 +78,7 @@ export function CategoryNav({
     availableExerciseTypes,
     availableActivities,
     availableThemes,
+    availableTargets,
     t,
   });
 

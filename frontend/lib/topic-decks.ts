@@ -19,7 +19,7 @@ export interface TopicDeckSummary {
   updatedAt: Date;
 }
 
-const DECK_SELECT = {
+export const DECK_SELECT = {
   id: true,
   slug: true,
   language: true,
@@ -580,7 +580,7 @@ export const TOPIC_PAGE_SIZE = 24;
  */
 export type TopicSortKey = 'newest' | 'alpha-asc' | 'alpha-desc';
 
-function orderByForSort(sort: TopicSortKey) {
+export function orderByForSort(sort: TopicSortKey) {
   if (sort === 'alpha-asc') return [{ slug: 'asc' as const }, { id: 'asc' as const }];
   if (sort === 'alpha-desc') return [{ slug: 'desc' as const }, { id: 'asc' as const }];
   // 'newest' default

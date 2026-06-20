@@ -33,8 +33,10 @@
       "browseAll": {
         "worksheets": "Alle arbejdsark",
         "apps": "Alle generatorer",
-        "interactive": "Alle interaktive"
-      }
+        "interactive": "Alle interaktive",
+        "languages": "Sprog"
+      },
+      "languages": "Sprog"
     }
   },
   "homepage": {
@@ -2382,5 +2384,18 @@
     "audienceBody": "Lavet til lærere og forældre i tosprogede klasser, sprogbadsklasser og internationale skoler — især til de små fra 3 til 7 år.",
     "teamHeading": "Om vores team",
     "teamBody": "Vi opdaterer dette afsnit — kig forbi igen snart."
+  },
+  "learnPage": {
+    "category": "Sprog",
+    "hubH1": "Sprog — Ordforrådsark til børn",
+    "hubIntro": "Gratis krydsord, billede-ord-matchning og ordsøgninger til at printe, der hjælper børn med at lære et nyt sprog — ordforrådsøvelser inden for mange temaer.",
+    "choose": "Vælg et sprog at lære",
+    "learnH1": "Lær {lang}",
+    "learnH1Tail": "— Ordforrådsark til børn",
+    "learnIntro": "{count} gratis ark til at lære ord på {lang}: krydsord, billede-ord-matchning og ordsøgninger inden for {themes} temaer. Print som PDF eller spil online, altid gratis og uden tilmelding.",
+    "worksheets": "{count} ark",
+    "themesWord": "temaer",
+    "allFormats": "Alle formater",
+    "breadcrumb": "Sprog"
   }
 }

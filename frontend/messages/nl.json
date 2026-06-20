@@ -33,8 +33,10 @@
       "browseAll": {
         "worksheets": "Alle werkbladen",
         "apps": "Alle werkblad-makers",
-        "interactive": "Alle interactieve"
-      }
+        "interactive": "Alle interactieve",
+        "languages": "Talen"
+      },
+      "languages": "Talen"
     }
   },
   "homepage": {
@@ -2385,5 +2387,18 @@
     "audienceBody": "Gemaakt voor leerkrachten en ouders in tweetalige, meertalige en internationale klassen, vooral in de vroege jeugd (3 tot 7 jaar).",
     "teamHeading": "Over ons team",
     "teamBody": "We werken deze sectie bij — kom snel terug."
+  },
+  "learnPage": {
+    "category": "Talen",
+    "hubH1": "Talen — Woordenschatbladen voor kinderen",
+    "hubIntro": "Gratis afdrukbare kruiswoordraadsels, beeld-woordkoppeling en woordzoekers die kinderen helpen een nieuwe taal te leren — woordenschatoefeningen over veel thema’s.",
+    "choose": "Kies een taal om te leren",
+    "learnH1": "{lang} leren",
+    "learnH1Tail": "— Woordenschatbladen voor kinderen",
+    "learnIntro": "{count} gratis werkbladen om {lang} woordenschat te leren: kruiswoordraadsels, beeld-woordkoppeling en woordzoekers over {themes} thema’s. Print als pdf of speel online, altijd gratis en zonder registratie.",
+    "worksheets": "{count} werkbladen",
+    "themesWord": "thema’s",
+    "allFormats": "Alle formats",
+    "breadcrumb": "Talen"
   }
 }

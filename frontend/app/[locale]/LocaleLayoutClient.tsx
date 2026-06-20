@@ -10,7 +10,8 @@ export function LocaleLayoutClient({
   footerAvailableExerciseTypes = [],
   footerAvailableThemes = [],
   footerAvailableLevels = [],
-  availableActivities = []
+  availableActivities = [],
+  availableTargets = []
 }: {
   children: React.ReactNode;
   locale: string;
@@ -20,6 +21,7 @@ export function LocaleLayoutClient({
   footerAvailableThemes?: string[];
   footerAvailableLevels?: string[];
   availableActivities?: Array<{ id: string; slug: string; title: string; code: string }>;
+  availableTargets?: Array<{ iso: string; slug: string; name: string; count: number }>;
 }) {
   const pathname = usePathname();
 
@@ -39,6 +41,7 @@ export function LocaleLayoutClient({
           availableExerciseTypes={footerAvailableExerciseTypes}
           availableActivities={availableActivities}
           availableThemes={footerAvailableThemes}
+          availableTargets={availableTargets}
         />
         <main>
           {children}
@@ -56,6 +59,7 @@ export function LocaleLayoutClient({
         availableExerciseTypes={footerAvailableExerciseTypes}
         availableActivities={availableActivities}
         availableThemes={footerAvailableThemes}
+        availableTargets={availableTargets}
       />
       <main className="flex-1">
         {children}

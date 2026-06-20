@@ -33,8 +33,10 @@
       "browseAll": {
         "worksheets": "Toutes les fiches",
         "apps": "Tous les générateurs",
-        "interactive": "Toutes les interactives"
-      }
+        "interactive": "Toutes les interactives",
+        "languages": "Langues"
+      },
+      "languages": "Langues"
     }
   },
   "homepage": {
@@ -2405,5 +2407,18 @@
     "audienceBody": "Conçu pour les enseignants et les parents en classes bilingues, plurilingues et internationales, en particulier pour la petite enfance (3 à 7 ans).",
     "teamHeading": "À propos de notre équipe",
     "teamBody": "Nous mettons à jour cette section — à très vite."
+  },
+  "learnPage": {
+    "category": "Langues",
+    "hubH1": "Langues — Fiches de vocabulaire pour enfants",
+    "hubIntro": "Mots croisés, association image-mot et mots mêlés gratuits à imprimer pour aider les enfants à apprendre une nouvelle langue — exercices de vocabulaire sur de nombreux thèmes.",
+    "choose": "Choisis une langue à apprendre",
+    "learnH1": "Apprendre {lang}",
+    "learnH1Tail": "— Fiches de vocabulaire pour enfants",
+    "learnIntro": "{count} fiches gratuites pour apprendre le vocabulaire en {lang} : mots croisés, association image-mot et mots mêlés sur {themes} thèmes. À imprimer en PDF ou à jouer en ligne, toujours gratuit et sans inscription.",
+    "worksheets": "{count} fiches",
+    "themesWord": "thèmes",
+    "allFormats": "Tous les formats",
+    "breadcrumb": "Langues"
   }
 }

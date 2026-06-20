@@ -22,12 +22,14 @@ interface NavigationProps {
   availableExerciseTypes?: string[];
   availableActivities?: Array<{ id: string; slug: string; title: string; code: string }>;
   availableThemes?: string[];
+  availableTargets?: Array<{ iso: string; slug: string; name: string; count: number }>;
 }
 
 export function Navigation({
   availableExerciseTypes = [],
   availableActivities = [],
   availableThemes = [],
+  availableTargets = [],
 }: NavigationProps = {}) {
   const t = useTranslations('navigation');
   const pathname = usePathname();
@@ -181,6 +183,7 @@ export function Navigation({
             availableExerciseTypes={availableExerciseTypes}
             availableActivities={availableActivities}
             availableThemes={availableThemes}
+            availableTargets={availableTargets}
             onItemClick={closeDrawer}
           />
 
@@ -240,6 +243,7 @@ export function Navigation({
       availableExerciseTypes={availableExerciseTypes}
       availableActivities={availableActivities}
       availableThemes={availableThemes}
+      availableTargets={availableTargets}
     />
     </>
   );

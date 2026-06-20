@@ -124,7 +124,7 @@ export const LABELS: Record<string, {
   fi: { activities: 'Tehtävät', manipulatives: 'Työkalut', topics: 'Aiheet', browseAllActivities: 'Kaikki tehtävät', browseAllManipulatives: 'Kaikki työkalut', browseAllTopics: 'Kaikki aiheet' },
 };
 
-export type CategoryKey = 'worksheets' | 'apps' | 'interactive' | 'activities' | 'manipulatives' | 'topics';
+export type CategoryKey = 'worksheets' | 'apps' | 'interactive' | 'activities' | 'manipulatives' | 'topics' | 'languages';
 
 export interface DropdownItem {
   href: string;
@@ -144,6 +144,8 @@ export interface BuildCategoriesInput {
   availableExerciseTypes?: string[];
   availableActivities?: Array<{ id: string; slug: string; title: string; code: string }>;
   availableThemes?: string[];
+  // Cross-language ("Languages") category targets for this page locale (≥1 deck each).
+  availableTargets?: Array<{ iso: string; slug: string; name: string; count: number }>;
   // Translator for the 'nav.categories' namespace. Accepts a key, returns
   // the localized string. CategoryNav and MobileCategoryAccordion both pass
   // `useTranslations('nav.categories')` directly.
@@ -159,6 +161,7 @@ export function buildCategories({
   availableExerciseTypes = [],
   availableActivities = [],
   availableThemes = [],
+  availableTargets = [],
   t,
 }: BuildCategoriesInput): CategoryDropdown[] {
   const labels = LABELS[locale] || LABELS.en;
@@ -212,7 +215,13 @@ export function buildCategories({
     label: resolveAxisName(key, locale, 'theme'),
   }));
 
-  return [
+  // Cross-language "Languages" category — only when this locale has cross-language decks.
+  const languagesItems: DropdownItem[] = availableTargets.slice(0, 6).map(tg => ({
+    href: `/${locale}/learn/${tg.slug}/`,
+    label: tg.name,
+  }));
+
+  const cats: CategoryDropdown[] = [
     {
       key: 'worksheets',
       label: t('worksheets'),
@@ -256,4 +265,17 @@ export function buildCategories({
       browseAllLabel: t('browseAll.interactive'),
     },
   ];
+
+  // Insert "Languages" after Topics (index 3) when there are cross-language decks.
+  if (languagesItems.length > 0) {
+    cats.splice(4, 0, {
+      key: 'languages',
+      label: t('languages'),
+      items: languagesItems,
+      browseAllHref: `/${locale}/learn/`,
+      browseAllLabel: t('browseAll.languages'),
+    });
+  }
+
+  return cats;
 }

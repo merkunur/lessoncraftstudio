@@ -33,8 +33,10 @@
       "browseAll": {
         "worksheets": "Kaikki tehtäväarkit",
         "apps": "Kaikki generaattorit",
-        "interactive": "Kaikki interaktiiviset"
-      }
+        "interactive": "Kaikki interaktiiviset",
+        "languages": "Kielet"
+      },
+      "languages": "Kielet"
     }
   },
   "homepage": {
@@ -2374,5 +2376,18 @@
     "audienceBody": "Tarkoitettu opettajille ja vanhemmille kaksikielisissä, monikielisissä ja kansainvälisissä luokissa, erityisesti varhaiskasvatuksessa ja esiopetuksessa (3–7-vuotiaat).",
     "teamHeading": "Tietoa tiimistämme",
     "teamBody": "Päivitämme tätä osiota – palaathan pian uudelleen."
+  },
+  "learnPage": {
+    "category": "Kielet",
+    "hubH1": "Kielet — Sanastotehtäviä lapsille",
+    "hubIntro": "Ilmaisia tulostettavia ristikoita, kuva-sana-yhdistelyjä ja sanahakuja, jotka auttavat lapsia oppimaan uutta kieltä — sanastoharjoituksia monista aiheista.",
+    "choose": "Valitse opittava kieli",
+    "learnH1": "Opi {lang}",
+    "learnH1Tail": "— Sanastotehtäviä lapsille",
+    "learnIntro": "{count} ilmaista tehtävää {lang}n sanaston oppimiseen: ristikoita, kuva-sana-yhdistelyä ja sanahakuja {themes} aiheesta. Tulosta PDF:nä tai pelaa verkossa, aina ilmaiseksi ja ilman rekisteröitymistä.",
+    "worksheets": "{count} tehtävää",
+    "themesWord": "aihetta",
+    "allFormats": "Kaikki muodot",
+    "breadcrumb": "Kielet"
   }
 }

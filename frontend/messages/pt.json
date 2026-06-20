@@ -33,8 +33,10 @@
       "browseAll": {
         "worksheets": "Todas as fichas",
         "apps": "Todos os geradores",
-        "interactive": "Todas as interativas"
-      }
+        "interactive": "Todas as interativas",
+        "languages": "Idiomas"
+      },
+      "languages": "Idiomas"
     }
   },
   "homepage": {
@@ -3968,5 +3970,18 @@
     "audienceBody": "Pensado para professores e famílias em turmas bilíngues, plurilíngues e internacionais, principalmente na primeira infância (3 a 7 anos).",
     "teamHeading": "Sobre nossa equipe",
     "teamBody": "Estamos atualizando esta seção — volte em breve."
+  },
+  "learnPage": {
+    "category": "Idiomas",
+    "hubH1": "Idiomas — Fichas de vocabulário para crianças",
+    "hubIntro": "Palavras cruzadas, associação imagem-palavra e caça-palavras grátis para imprimir que ajudam as crianças a aprender um novo idioma: prática de vocabulário em muitos temas.",
+    "choose": "Escolha um idioma para aprender",
+    "learnH1": "Aprender {lang}",
+    "learnH1Tail": "— Fichas de vocabulário para crianças",
+    "learnIntro": "{count} fichas grátis para aprender vocabulário de {lang}: palavras cruzadas, associação imagem-palavra e caça-palavras em {themes} temas. Imprima em PDF ou jogue online, sempre grátis e sem cadastro.",
+    "worksheets": "{count} fichas",
+    "themesWord": "temas",
+    "allFormats": "Todos os formatos",
+    "breadcrumb": "Idiomas"
   }
 }

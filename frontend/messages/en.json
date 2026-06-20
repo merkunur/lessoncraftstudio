@@ -33,8 +33,10 @@
       "browseAll": {
         "worksheets": "Browse all worksheets",
         "apps": "All worksheet creators",
-        "interactive": "Browse all interactive"
-      }
+        "interactive": "Browse all interactive",
+        "languages": "Languages"
+      },
+      "languages": "Languages"
     }
   },
   "homepage": {
@@ -3964,5 +3966,18 @@
     "tutorialsHeading": "Video tutorials",
     "tutorialsBody": "Step-by-step tutorials for each of our worksheet generators are on our YouTube channel:",
     "tutorialsLinkText": "@LessonCraftStudioApps on YouTube"
+  },
+  "learnPage": {
+    "category": "Languages",
+    "hubH1": "Languages — Vocabulary Worksheets for Kids",
+    "hubIntro": "Free printable crosswords, picture matching and word searches to help children learn a new language — vocabulary practice across many themes.",
+    "choose": "Choose a language to learn",
+    "learnH1": "Learn {lang}",
+    "learnH1Tail": "— Vocabulary Worksheets for Kids",
+    "learnIntro": "{count} free printable worksheets to learn {lang} vocabulary: crosswords, picture matching and word searches across {themes} themes. Print as a PDF or play online — always free, no sign-up.",
+    "worksheets": "{count} worksheets",
+    "themesWord": "themes",
+    "allFormats": "All formats",
+    "breadcrumb": "Languages"
   }
 }

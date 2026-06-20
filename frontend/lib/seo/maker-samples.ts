@@ -95,7 +95,9 @@ function toSample(row: DeckRow, modeKey: string | null, pageLocale: string): Mak
     deckLocale: row.language,
     title: localizedTitle(row.title, pageLocale, row.slug),
     thumbnailUrl: wwwImg(a.thumbnail),
-    deckUrl: a.deckHtml,
+    // The playable URL is the deck DIRECTORY (nginx serves it); `/…/deck.html` 404s
+    // and the no-trailing-slash form 404s — match the §22 iframe convention (a.deckDir).
+    deckUrl: a.deckDir,
   };
 }
 
@@ -163,6 +165,13 @@ export async function fetchMakerSamples(makerKey: MakerKey, locale: string): Pro
     const key = m === null ? DEFAULT_MODE_KEY : m;
     const row = localeByMode.get(key) ?? enByMode.get(key);
     if (row) samples.push(toSample(row, key, locale));
+  }
+  // If only one mode is actually showable in this locale (the others exist in OTHER
+  // locales but not here or in EN), a lone mode card reads oddly — fall back to a
+  // theme-varied single-mode display so the section still shows real variety.
+  if (samples.length < 2) {
+    const themed = await fetchThemeVariedSamples(typeWhere, locale);
+    return { kind: 'interactive', multiMode: false, samples: themed, crossLanguage };
   }
   return { kind: 'interactive', multiMode: true, samples, crossLanguage };
 }

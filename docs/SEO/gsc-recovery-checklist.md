@@ -18,13 +18,28 @@ back in it). Make Google re-read it:
 - In the "Add a new sitemap" box type **`sitemap.xml`** → **Submit**.
 - Over the next days it should show "Success" with a rising "Discovered URLs" count.
 
-## 2. Request indexing on a few top pages (5 minutes) — accelerates recovery
-This nudges Google to re-crawl your most important pages immediately (the rest follow on
-their own). Do ~10 total:
+## 2. Request indexing — START WITH THE WORKSHEET-MAKER PAGES (highest priority)
+This nudges Google to re-crawl pages immediately (Google allows ~10/day). Do the
+worksheet-maker pages FIRST — they were your **single biggest traffic source** before the
+pivot accidentally told Google they were permanently gone (a 410), which deleted them from
+the index. They were rebuilt 6 days ago and are now technically perfect, but Google is slow
+to revisit pages it was told were gone — so they need a manual nudge. **This is likely your
+biggest single recovery opportunity.**
+
 - Top of the screen there's a **search bar** ("Inspect any URL"). Paste a URL → Enter →
   wait → click **Request Indexing**.
-- Paste a few of your **most popular printable PDFs** (these were the pages that lost the
-  most traffic — they were blocked from Google and are now un-blocked). Example shape:
+- **Day 1 — the ~10 maker pages you most want back** (English first; they rank fastest):
+  `https://www.lessoncraftstudio.com/en/tools/addition-worksheet-maker`
+  …then `subtraction-worksheet-maker`, `wordsearch-maker`, `crossword-maker`,
+  `sudoku-maker`, `cryptogram-maker`, `matching-worksheet-maker`, `bingo-maker`,
+  `coloring-worksheet-maker`, `tracing-worksheet-maker` (same `/en/tools/<name>` shape;
+  if unsure of a name, open `https://www.lessoncraftstudio.com/en/worksheet-makers` and
+  copy the links).
+- **Day 2+** — repeat with the German/Spanish/French versions of your top makers
+  (e.g. `/de/tools/additions-arbeitsblatt-ersteller`, `/es/tools/generador-fichas-suma`),
+  and a few more makers, ~10/day. The other ~340 maker pages will be re-found automatically
+  via the sitemap over the following weeks — the manual requests just speed up the top ones.
+- **Then the printable PDFs** (the other big lost-traffic group — now un-blocked):
   `https://www.lessoncraftstudio.com/en/decks/addition-image-image/addition-image-image-printable.pdf`
 - And a few **worksheet pages**, e.g. `https://www.lessoncraftstudio.com/en/worksheets/...`
 - (If you don't know your top URLs, use the **Performance** report → sort by Clicks → pick

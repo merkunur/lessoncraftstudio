@@ -5,6 +5,7 @@ import { ALL_APPS } from '@/config/products';
 import { ArrowRight } from 'lucide-react';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { MAKER_KEYS, getMakerContent } from '@/lib/seo/maker-content';
+import { getAxisName } from '@/lib/taxonomy';
 
 // /[locale]/worksheet-makers/ — Worksheet creators (Apps) category landing.
 // Reopened publicly per operator's 2026-05-17 strategic lock §8.1; daily
@@ -30,14 +31,18 @@ interface AppMeta {
   htmlFile: string;
 }
 
-function listCatalogApps(): AppMeta[] {
+function listCatalogApps(locale: string): AppMeta[] {
   const apps: AppMeta[] = [];
   for (const [slug, meta] of Object.entries(ALL_APPS)) {
     if (PDF_ONLY_APPS.has(slug)) continue;
-    apps.push({ slug, name: meta.name, category: meta.category, htmlFile: meta.htmlFile });
+    // Card name in the page's language: the localized exercise-type axis name
+    // (de "Subtraktion", "Mehr oder weniger" …). EN keeps the exact ALL_APPS name
+    // (zero EN regression); non-EN falls back to it only if the taxonomy lacks a name.
+    const localized = locale === 'en' ? null : getAxisName('exercise-type', slug, locale);
+    apps.push({ slug, name: localized ?? meta.name, category: meta.category, htmlFile: meta.htmlFile });
   }
-  // Stable sort: category then name.
-  apps.sort((a, b) => a.category.localeCompare(b.category) || a.name.localeCompare(b.name));
+  // Stable sort: category then localized name (locale-aware so cards order naturally per language).
+  apps.sort((a, b) => a.category.localeCompare(b.category) || a.name.localeCompare(b.name, locale));
   return apps;
 }
 
@@ -62,7 +67,7 @@ export default async function WorksheetMakersPage({ params }: { params: { locale
   const locale = params.locale || 'en';
   const t = await getTranslations({ locale, namespace: 'homepage.fourCardGrid.apps' });
 
-  const apps = listCatalogApps();
+  const apps = listCatalogApps(locale);
 
   // SEO RESCUE Part 1: apps with a rebuilt maker landing in this locale link to
   // that indexable /tools/<slug> page (internal); the rest still open the

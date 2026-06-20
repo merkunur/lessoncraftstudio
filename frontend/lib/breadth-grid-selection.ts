@@ -187,7 +187,7 @@ async function fetchLocaleCandidates(
   locale: string
 ): Promise<BreadthGridDeck[]> {
   return prisma.deck.findMany({
-    where: { language: locale, status: 'published' },
+    where: { language: locale, status: 'published', contentLanguage: null },
     select: DECK_SELECT,
     orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
     take: CANDIDATES_PER_LOCALE,
@@ -226,7 +226,7 @@ export async function selectBreadthGridDecks(
     Promise.all(ALL_LOCALES.map(loc => fetchLocaleCandidates(loc))),
     prisma.deck.groupBy({
       by: ['language'],
-      where: { status: 'published' },
+      where: { status: 'published', contentLanguage: null },
       _count: { _all: true },
     }),
   ]);

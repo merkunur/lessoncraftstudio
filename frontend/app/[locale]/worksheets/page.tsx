@@ -51,7 +51,7 @@ interface Tile {
 async function countLocaleDecks(locale: string): Promise<number> {
   try {
     return await prisma.deck.count({
-      where: { language: locale, status: 'published' },
+      where: { language: locale, status: 'published', contentLanguage: null },
     });
   } catch {
     return 0;
@@ -166,7 +166,8 @@ export default async function AllWorksheetsPage({
   try {
     const [decks, count] = await Promise.all([
       prisma.deck.findMany({
-        where: { language: locale, status: 'published' },
+        // contentLanguage: null — exclude cross-language decks (they live in /learn).
+        where: { language: locale, status: 'published', contentLanguage: null },
         distinct: ['exerciseType'],
         select: {
           slug: true,
@@ -177,7 +178,7 @@ export default async function AllWorksheetsPage({
         },
         orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
       }),
-      prisma.deck.count({ where: { language: locale, status: 'published' } }),
+      prisma.deck.count({ where: { language: locale, status: 'published', contentLanguage: null } }),
     ]);
     totalCount = count;
 

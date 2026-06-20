@@ -21,6 +21,7 @@ const DECK_SELECT = {
   description: true,
   exerciseType: true,
   exerciseMode: true,
+  contentLanguage: true,
   ageRange: true,
   subjectTags: true,
   thumbnailUrl: true,
@@ -66,7 +67,7 @@ async function fetchPublishedDecksByLocale(
   const perLocale = await Promise.all(
     locales.map(loc =>
       prisma.deck.findMany({
-        where: { language: loc, status: 'published' },
+        where: { language: loc, status: 'published', contentLanguage: null },
         select: DECK_SELECT,
         orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
         take,
@@ -101,13 +102,13 @@ export async function fetchDecksSameAxisKeyOtherLocales(
 ): Promise<TopicDeckSummary[]> {
   let where: Record<string, unknown>;
   if (axis === 'exercise-type') {
-    where = { exerciseType: axisKey, language: { not: currentLocale }, status: 'published' };
+    where = { exerciseType: axisKey, language: { not: currentLocale }, status: 'published', contentLanguage: null };
   } else if (axis === 'theme') {
-    where = { subjectTags: { has: axisKey }, language: { not: currentLocale }, status: 'published' };
+    where = { subjectTags: { has: axisKey }, language: { not: currentLocale }, status: 'published', contentLanguage: null };
   } else if (axis === 'educational-level') {
     const ageRanges = levelKeyToAgeRanges(axisKey);
     if (ageRanges.length === 0) return [];
-    where = { ageRange: { in: ageRanges }, language: { not: currentLocale }, status: 'published' };
+    where = { ageRange: { in: ageRanges }, language: { not: currentLocale }, status: 'published', contentLanguage: null };
   } else {
     return [];
   }
@@ -218,9 +219,9 @@ export async function fetchDecksOtherAges(
 
   let where: Record<string, unknown>;
   if (axis === 'exercise-type') {
-    where = { exerciseType: axisKey, language: currentLocale, status: 'published' };
+    where = { exerciseType: axisKey, language: currentLocale, status: 'published', contentLanguage: null };
   } else if (axis === 'theme') {
-    where = { subjectTags: { has: axisKey }, language: currentLocale, status: 'published' };
+    where = { subjectTags: { has: axisKey }, language: currentLocale, status: 'published', contentLanguage: null };
   } else {
     return [];
   }

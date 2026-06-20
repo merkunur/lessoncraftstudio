@@ -163,6 +163,7 @@ async function insertDeck(opts) {
     createdBy: opts.createdBy,
     version: 1,
     contentFamilyId: null,
+    contentLanguage: opts.contentLanguage || null,   // cross-language target language; null = monolingual
     // [ARC][SEO][DECK-PAGE] Phase 3a.1: persist SEO hashes for uniqueness
     // invariants. Optional — caller passes seoRecon.predicates.title.hash etc.
     // Schema columns are nullable (Phase 3a.1 migration); pre-Checkpoint-2
@@ -188,6 +189,7 @@ async function updateDeck(id, opts) {
     description: opts.description,
     exerciseType: opts.exerciseType,
     exerciseMode: opts.exerciseMode || null,
+    contentLanguage: (opts.contentLanguage !== undefined) ? opts.contentLanguage : existing.contentLanguage,
     subjectTags: opts.subjectTags || existing.subjectTags,
     topicSlugs: opts.topicSlugs || existing.topicSlugs,
     ageRange: opts.ageRange,

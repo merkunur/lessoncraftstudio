@@ -248,7 +248,7 @@ export interface CatalogAxesSummary {
 async function queryDbState(): Promise<{ exercisedThemes: number; publishedDecks: number }> {
   try {
     const publishedDecks = await prisma.deck.count({
-      where: { status: 'published' },
+      where: { status: 'published', contentLanguage: null },
     });
 
     // Query distinct theme axis-keys exercised. subjectTags is String[] in Prisma

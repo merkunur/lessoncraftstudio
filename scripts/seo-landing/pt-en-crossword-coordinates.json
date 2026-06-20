@@ -1,0 +1,822 @@
+{
+  "locale": "pt",
+  "target": "en",
+  "exerciseType": "crossword",
+  "rawRowCount": 47,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "(null)": 47
+  },
+  "totalValid": 47,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-4-de-julho-fa29",
+      "siblings": [
+        "ingles-palavras-cruzadas-4-de-julho-fa29"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-acessorios-fbbb",
+      "siblings": [
+        "ingles-palavras-cruzadas-acessorios-fbbb"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-atividades-2510",
+      "siblings": [
+        "ingles-palavras-cruzadas-atividades-2510"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-animais-fd83",
+      "siblings": [
+        "ingles-palavras-cruzadas-animais-fd83"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-pela-casa-a4b6",
+      "siblings": [
+        "ingles-palavras-cruzadas-pela-casa-a4b6"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-no-supermercado-4b57",
+      "siblings": [
+        "ingles-palavras-cruzadas-no-supermercado-4b57"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-padaria-f60f",
+      "siblings": [
+        "ingles-palavras-cruzadas-padaria-f60f"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-praia-5a6e",
+      "siblings": [
+        "ingles-palavras-cruzadas-praia-5a6e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-passaros-7147",
+      "siblings": [
+        "ingles-palavras-cruzadas-passaros-7147"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-passaros-2-867f",
+      "siblings": [
+        "ingles-palavras-cruzadas-passaros-2-867f"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-partes-do-corpo-0473",
+      "siblings": [
+        "ingles-palavras-cruzadas-partes-do-corpo-0473"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-cafe-da-manha-894f",
+      "siblings": [
+        "ingles-palavras-cruzadas-cafe-da-manha-894f"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-acampamento-972e",
+      "siblings": [
+        "ingles-palavras-cruzadas-acampamento-972e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-natal-26ef",
+      "siblings": [
+        "ingles-palavras-cruzadas-natal-26ef"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-sala-de-aula-385a",
+      "siblings": [
+        "ingles-palavras-cruzadas-sala-de-aula-385a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-roupas-c26a",
+      "siblings": [
+        "ingles-palavras-cruzadas-roupas-c26a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-cores-4972",
+      "siblings": [
+        "ingles-palavras-cruzadas-cores-4972"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-sobremesas-e-doces-5b4a",
+      "siblings": [
+        "ingles-palavras-cruzadas-sobremesas-e-doces-5b4a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-pascoa-9307",
+      "siblings": [
+        "ingles-palavras-cruzadas-pascoa-9307"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-emocoes-be4b",
+      "siblings": [
+        "ingles-palavras-cruzadas-emocoes-be4b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-animais-da-fazenda-5f0f",
+      "siblings": [
+        "ingles-palavras-cruzadas-animais-da-fazenda-5f0f"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-flores-f985",
+      "siblings": [
+        "ingles-palavras-cruzadas-flores-f985"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-criaturas-da-floresta-7c64",
+      "siblings": [
+        "ingles-palavras-cruzadas-criaturas-da-floresta-7c64"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-frutas-6801",
+      "siblings": [
+        "ingles-palavras-cruzadas-frutas-6801"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-moveis-c733",
+      "siblings": [
+        "ingles-palavras-cruzadas-moveis-c733"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-hospital-98c8",
+      "siblings": [
+        "ingles-palavras-cruzadas-hospital-98c8"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-insetos-e-bichos-3cb6",
+      "siblings": [
+        "ingles-palavras-cruzadas-insetos-e-bichos-3cb6"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-utensilios-de-cozinha-458c",
+      "siblings": [
+        "ingles-palavras-cruzadas-utensilios-de-cozinha-458c"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-musica-3a1b",
+      "siblings": [
+        "ingles-palavras-cruzadas-musica-3a1b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-profissoes-102e",
+      "siblings": [
+        "ingles-palavras-cruzadas-profissoes-102e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-vida-marinha-359a",
+      "siblings": [
+        "ingles-palavras-cruzadas-vida-marinha-359a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-animais-de-estimacao-e9ab",
+      "siblings": [
+        "ingles-palavras-cruzadas-animais-de-estimacao-e9ab"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-correios-f974",
+      "siblings": [
+        "ingles-palavras-cruzadas-correios-f974"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-repteis-e-anfibios-f20a",
+      "siblings": [
+        "ingles-palavras-cruzadas-repteis-e-anfibios-f20a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-formas-50c3",
+      "siblings": [
+        "ingles-palavras-cruzadas-formas-50c3"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-espaco-518e",
+      "siblings": [
+        "ingles-palavras-cruzadas-espaco-518e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-primavera-ac70",
+      "siblings": [
+        "ingles-palavras-cruzadas-primavera-ac70"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-verao-fb69",
+      "siblings": [
+        "ingles-palavras-cruzadas-verao-fb69"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-dia-de-acao-de-gracas-61e3",
+      "siblings": [
+        "ingles-palavras-cruzadas-dia-de-acao-de-gracas-61e3"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-coisas-que-voam-8d08",
+      "siblings": [
+        "ingles-palavras-cruzadas-coisas-que-voam-8d08"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-ferramentas-cb0c",
+      "siblings": [
+        "ingles-palavras-cruzadas-ferramentas-cb0c"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-arvores-6a82",
+      "siblings": [
+        "ingles-palavras-cruzadas-arvores-6a82"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-vegetais-ff79",
+      "siblings": [
+        "ingles-palavras-cruzadas-vegetais-ff79"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-veiculos-a8ca",
+      "siblings": [
+        "ingles-palavras-cruzadas-veiculos-a8ca"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-clima-b97e",
+      "siblings": [
+        "ingles-palavras-cruzadas-clima-b97e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-inverno-8060",
+      "siblings": [
+        "ingles-palavras-cruzadas-inverno-8060"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "ingles-palavras-cruzadas-animais-do-zoologico-652f",
+      "siblings": [
+        "ingles-palavras-cruzadas-animais-do-zoologico-652f"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

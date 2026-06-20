@@ -122401,6 +122401,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "flagg",
+        "flagg",
         "flaggene",
         "4. juli",
         "4th of july",
@@ -122443,6 +122444,7 @@
       "h1": "Lær engelsk: Tilbehør – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "tilbehør",
         "tilbehør",
         "tilbehørene",
         "Tilbehør",
@@ -122487,6 +122489,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "aktiviteter",
+        "aktiviteter",
         "aktivitetene",
         "Aktiviteter",
         "activities",
@@ -122529,6 +122532,7 @@
       "h1": "Lær engelsk: Dyr – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "dyr",
         "dyr",
         "dyrene",
         "Dyr",
@@ -122573,6 +122577,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "ting",
+        "ting",
         "tingene",
         "Rundt i huset",
         "around the house",
@@ -122615,6 +122620,7 @@
       "h1": "Lær engelsk: I supermarkedet – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "varer",
         "varer",
         "varene",
         "I supermarkedet",
@@ -122659,6 +122665,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "kaker",
+        "kaker",
         "kakene",
         "Bakeri",
         "bakery",
@@ -122701,6 +122708,7 @@
       "h1": "Lær engelsk: Strand – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "skjell",
         "skjell",
         "skjellene",
         "Strand",
@@ -122745,6 +122753,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "fugler",
+        "fugler",
         "fuglene",
         "Fugler",
         "birds",
@@ -122787,6 +122796,7 @@
       "h1": "Lær engelsk: Fugler 2 – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "fugler",
         "fugler",
         "fuglene",
         "Fugler 2",
@@ -122831,6 +122841,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "kroppsdeler",
+        "kroppsdeler",
         "kroppsdelene",
         "Kroppsdeler",
         "body parts",
@@ -122873,6 +122884,7 @@
       "h1": "Lær engelsk: Frokost – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "frokostretter",
         "frokostretter",
         "frokostrettene",
         "Frokost",
@@ -122917,6 +122929,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "telt",
+        "telt",
         "teltene",
         "Camping",
         "camping",
@@ -122959,6 +122972,7 @@
       "h1": "Lær engelsk: Jul – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "julegaver",
         "julegaver",
         "julegavene",
         "Jul",
@@ -123003,6 +123017,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "blyanter",
+        "blyanter",
         "blyantene",
         "Klasserom",
         "classroom",
@@ -123045,6 +123060,7 @@
       "h1": "Lær engelsk: Klær – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "klesplagg",
         "klesplagg",
         "klesplaggene",
         "Klær",
@@ -123089,6 +123105,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "farger",
+        "farger",
         "fargene",
         "Farger",
         "colors",
@@ -123131,6 +123148,7 @@
       "h1": "Lær engelsk: Desserter og godteri – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "desserter",
         "desserter",
         "dessertene",
         "Desserter og godteri",
@@ -123175,6 +123193,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "påskeegg",
+        "påskeegg",
         "påskeeggene",
         "Påske",
         "easter",
@@ -123217,6 +123236,7 @@
       "h1": "Lær engelsk: Følelser – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "følelser",
         "følelser",
         "følelsene",
         "Følelser",
@@ -123261,6 +123281,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "gårdsdyr",
+        "gårdsdyr",
         "gårdsdyrene",
         "Gårdsdyr",
         "farm animals",
@@ -123303,6 +123324,7 @@
       "h1": "Lær engelsk: Blomster – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "blomster",
         "blomster",
         "blomstene",
         "Blomster",
@@ -123347,6 +123369,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "skogsdyr",
+        "skogsdyr",
         "skogsdyrene",
         "Skogsdyr",
         "forest creatures",
@@ -123389,6 +123412,7 @@
       "h1": "Lær engelsk: Frukter – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "frukter",
         "frukter",
         "fruktene",
         "Frukter",
@@ -123433,6 +123457,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "møbler",
+        "møbler",
         "møblene",
         "Møbler",
         "furniture",
@@ -123475,6 +123500,7 @@
       "h1": "Lær engelsk: Sykehus – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "sprøyter",
         "sprøyter",
         "sprøytene",
         "Sykehus",
@@ -123519,6 +123545,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "insekter",
+        "insekter",
         "insektene",
         "Insekter og kryp",
         "insects and bugs",
@@ -123561,6 +123588,7 @@
       "h1": "Lær engelsk: Kjøkkenredskaper – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "kjøkkenredskaper",
         "kjøkkenredskaper",
         "kjøkkenredskapene",
         "Kjøkkenredskaper",
@@ -123605,6 +123633,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "instrumenter",
+        "instrumenter",
         "instrumentene",
         "Musikk",
         "music",
@@ -123647,6 +123676,7 @@
       "h1": "Lær engelsk: Yrker – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "yrker",
         "yrker",
         "yrkene",
         "Yrker",
@@ -123691,6 +123721,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "havdyr",
+        "havdyr",
         "havdyrene",
         "Havliv",
         "ocean life",
@@ -123733,6 +123764,7 @@
       "h1": "Lær engelsk: Kjæledyr – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "kjæledyr",
         "kjæledyr",
         "kjæledyrene",
         "Kjæledyr",
@@ -123777,6 +123809,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "brev",
+        "brev",
         "brevene",
         "Postkontor",
         "post office",
@@ -123819,6 +123852,7 @@
       "h1": "Lær engelsk: Former – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "former",
         "former",
         "formene",
         "Former",
@@ -123863,6 +123897,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "stjerner",
+        "stjerner",
         "stjernene",
         "Verdensrommet",
         "space",
@@ -123905,6 +123940,7 @@
       "h1": "Lær engelsk: Vår – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "blomster",
         "blomster",
         "blomstene",
         "Vår",
@@ -123949,6 +123985,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "ispinner",
+        "ispinner",
         "ispinnene",
         "Sommer",
         "summer",
@@ -123991,6 +124028,7 @@
       "h1": "Lær engelsk: Thanksgiving – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "gresskar",
         "gresskar",
         "gresskarene",
         "Thanksgiving",
@@ -124035,6 +124073,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "verktøy",
+        "verktøy",
         "verktøyene",
         "Verktøy",
         "tools",
@@ -124077,6 +124116,7 @@
       "h1": "Lær engelsk: Leker – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "leker",
         "leker",
         "lekene",
         "Leker",
@@ -124121,6 +124161,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "grønnsaker",
+        "grønnsaker",
         "grønnsakene",
         "Grønnsaker",
         "vegetables",
@@ -124163,6 +124204,7 @@
       "h1": "Lær engelsk: Kjøretøy – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "kjøretøy",
         "kjøretøy",
         "kjøretøyene",
         "Kjøretøy",
@@ -124207,6 +124249,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "skyer",
+        "skyer",
         "skyene",
         "Vær",
         "weather",
@@ -124249,6 +124292,7 @@
       "h1": "Lær engelsk: Vinter – kryssord for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "snøfnugg",
         "snøfnugg",
         "snøfnuggene",
         "Vinter",
@@ -124293,6 +124337,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "dyrehagedyr",
+        "dyrehagedyr",
         "dyrehagedyrene",
         "Dyrehagedyr",
         "zoo animals",
@@ -124335,6 +124380,7 @@
       "h1": "Lær engelsk: 4. juli – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "flagg",
         "flagg",
         "flaggene",
         "4. juli",
@@ -124379,6 +124425,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "tilbehør",
+        "tilbehør",
         "tilbehørene",
         "Tilbehør",
         "accessories",
@@ -124421,6 +124468,7 @@
       "h1": "Lær engelsk: Aktiviteter – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "aktiviteter",
         "aktiviteter",
         "aktivitetene",
         "Aktiviteter",
@@ -124465,6 +124513,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "dyr",
+        "dyr",
         "dyrene",
         "Dyr",
         "animals",
@@ -124507,6 +124556,7 @@
       "h1": "Lær engelsk: Rundt i huset – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "ting",
         "ting",
         "tingene",
         "Rundt i huset",
@@ -124551,6 +124601,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "varer",
+        "varer",
         "varene",
         "I supermarkedet",
         "at the supermarket",
@@ -124593,6 +124644,7 @@
       "h1": "Lær engelsk: Bakeri – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "kaker",
         "kaker",
         "kakene",
         "Bakeri",
@@ -124637,6 +124689,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "skjell",
+        "skjell",
         "skjellene",
         "Strand",
         "beach",
@@ -124679,6 +124732,7 @@
       "h1": "Lær engelsk: Fugler – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "fugler",
         "fugler",
         "fuglene",
         "Fugler",
@@ -124723,6 +124777,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "fugler",
+        "fugler",
         "fuglene",
         "Fugler 2",
         "birds 2",
@@ -124765,6 +124820,7 @@
       "h1": "Lær engelsk: Kroppsdeler – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "kroppsdeler",
         "kroppsdeler",
         "kroppsdelene",
         "Kroppsdeler",
@@ -124809,6 +124865,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "frokostretter",
+        "frokostretter",
         "frokostrettene",
         "Frokost",
         "breakfast",
@@ -124851,6 +124908,7 @@
       "h1": "Lær engelsk: Camping – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "telt",
         "telt",
         "teltene",
         "Camping",
@@ -124895,6 +124953,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "julegaver",
+        "julegaver",
         "julegavene",
         "Jul",
         "christmas",
@@ -124937,6 +124996,7 @@
       "h1": "Lær engelsk: Klasserom – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "blyanter",
         "blyanter",
         "blyantene",
         "Klasserom",
@@ -124981,6 +125041,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "klesplagg",
+        "klesplagg",
         "klesplaggene",
         "Klær",
         "clothing",
@@ -125023,6 +125084,7 @@
       "h1": "Lær engelsk: Farger – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "farger",
         "farger",
         "fargene",
         "Farger",
@@ -125067,6 +125129,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "desserter",
+        "desserter",
         "dessertene",
         "Desserter og godteri",
         "desserts and sweets",
@@ -125109,6 +125172,7 @@
       "h1": "Lær engelsk: Påske – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "påskeegg",
         "påskeegg",
         "påskeeggene",
         "Påske",
@@ -125153,6 +125217,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "følelser",
+        "følelser",
         "følelsene",
         "Følelser",
         "emotions",
@@ -125195,6 +125260,7 @@
       "h1": "Lær engelsk: Gårdsdyr – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "gårdsdyr",
         "gårdsdyr",
         "gårdsdyrene",
         "Gårdsdyr",
@@ -125239,6 +125305,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "blomster",
+        "blomster",
         "blomstene",
         "Blomster",
         "flowers",
@@ -125281,6 +125348,7 @@
       "h1": "Lær engelsk: Skogsdyr – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "skogsdyr",
         "skogsdyr",
         "skogsdyrene",
         "Skogsdyr",
@@ -125325,6 +125393,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "frukter",
+        "frukter",
         "fruktene",
         "Frukter",
         "fruits",
@@ -125367,6 +125436,7 @@
       "h1": "Lær engelsk: Møbler – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "møbler",
         "møbler",
         "møblene",
         "Møbler",
@@ -125411,6 +125481,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "sprøyter",
+        "sprøyter",
         "sprøytene",
         "Sykehus",
         "hospital",
@@ -125453,6 +125524,7 @@
       "h1": "Lær engelsk: Insekter og kryp – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "insekter",
         "insekter",
         "insektene",
         "Insekter og kryp",
@@ -125497,6 +125569,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "kjøkkenredskaper",
+        "kjøkkenredskaper",
         "kjøkkenredskapene",
         "Kjøkkenredskaper",
         "kitchen tools",
@@ -125539,6 +125612,7 @@
       "h1": "Lær engelsk: Musikk – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "instrumenter",
         "instrumenter",
         "instrumentene",
         "Musikk",
@@ -125583,6 +125657,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "yrker",
+        "yrker",
         "yrkene",
         "Yrker",
         "occupations",
@@ -125625,6 +125700,7 @@
       "h1": "Lær engelsk: Havliv – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "havdyr",
         "havdyr",
         "havdyrene",
         "Havliv",
@@ -125669,6 +125745,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "kjæledyr",
+        "kjæledyr",
         "kjæledyrene",
         "Kjæledyr",
         "pets",
@@ -125711,6 +125788,7 @@
       "h1": "Lær engelsk: Postkontor – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "brev",
         "brev",
         "brevene",
         "Postkontor",
@@ -125755,6 +125833,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "reptiler",
+        "reptiler",
         "reptilene",
         "Reptiler og amfibier",
         "reptiles and amphibians",
@@ -125797,6 +125876,7 @@
       "h1": "Lær engelsk: Former – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "former",
         "former",
         "formene",
         "Former",
@@ -125841,6 +125921,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "stjerner",
+        "stjerner",
         "stjernene",
         "Verdensrommet",
         "space",
@@ -125883,6 +125964,7 @@
       "h1": "Lær engelsk: Vår – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "blomster",
         "blomster",
         "blomstene",
         "Vår",
@@ -125927,6 +126009,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "ispinner",
+        "ispinner",
         "ispinnene",
         "Sommer",
         "summer",
@@ -125969,6 +126052,7 @@
       "h1": "Lær engelsk: Thanksgiving – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "gresskar",
         "gresskar",
         "gresskarene",
         "Thanksgiving",
@@ -126013,6 +126097,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "fly",
+        "fly",
         "flyene",
         "Ting som flyr",
         "things that fly",
@@ -126055,6 +126140,7 @@
       "h1": "Lær engelsk: Verktøy – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "verktøy",
         "verktøy",
         "verktøyene",
         "Verktøy",
@@ -126099,6 +126185,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "leker",
+        "leker",
         "lekene",
         "Leker",
         "toys",
@@ -126141,6 +126228,7 @@
       "h1": "Lær engelsk: Trær – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "trær",
         "trær",
         "trærne",
         "Trær",
@@ -126185,6 +126273,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "grønnsaker",
+        "grønnsaker",
         "grønnsakene",
         "Grønnsaker",
         "vegetables",
@@ -126227,6 +126316,7 @@
       "h1": "Lær engelsk: Kjøretøy – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "kjøretøy",
         "kjøretøy",
         "kjøretøyene",
         "Kjøretøy",
@@ -126271,6 +126361,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "skyer",
+        "skyer",
         "skyene",
         "Vær",
         "weather",
@@ -126313,6 +126404,7 @@
       "h1": "Lær engelsk: Vinter – ordleting for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "snøfnugg",
         "snøfnugg",
         "snøfnuggene",
         "Vinter",
@@ -126357,6 +126449,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "dyrehagedyr",
+        "dyrehagedyr",
         "dyrehagedyrene",
         "Dyrehagedyr",
         "zoo animals",
@@ -126399,6 +126492,7 @@
       "h1": "Lær engelsk: 4. juli – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "flagg",
         "flagg",
         "flaggene",
         "4. juli",
@@ -126443,6 +126537,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "tilbehør",
+        "tilbehør",
         "tilbehørene",
         "Tilbehør",
         "accessories",
@@ -126485,6 +126580,7 @@
       "h1": "Lær engelsk: Aktiviteter – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "aktiviteter",
         "aktiviteter",
         "aktivitetene",
         "Aktiviteter",
@@ -126529,6 +126625,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "dyr",
+        "dyr",
         "dyrene",
         "Dyr",
         "animals",
@@ -126571,6 +126668,7 @@
       "h1": "Lær engelsk: Rundt i huset – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "ting",
         "ting",
         "tingene",
         "Rundt i huset",
@@ -126615,6 +126713,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "varer",
+        "varer",
         "varene",
         "I supermarkedet",
         "at the supermarket",
@@ -126657,6 +126756,7 @@
       "h1": "Lær engelsk: Bakeri – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "kaker",
         "kaker",
         "kakene",
         "Bakeri",
@@ -126701,6 +126801,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "skjell",
+        "skjell",
         "skjellene",
         "Strand",
         "beach",
@@ -126743,6 +126844,7 @@
       "h1": "Lær engelsk: Fugler – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "fugler",
         "fugler",
         "fuglene",
         "Fugler",
@@ -126787,6 +126889,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "fugler",
+        "fugler",
         "fuglene",
         "Fugler 2",
         "birds 2",
@@ -126829,6 +126932,7 @@
       "h1": "Lær engelsk: Kroppsdeler – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "kroppsdeler",
         "kroppsdeler",
         "kroppsdelene",
         "Kroppsdeler",
@@ -126873,6 +126977,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "frokostretter",
+        "frokostretter",
         "frokostrettene",
         "Frokost",
         "breakfast",
@@ -126915,6 +127020,7 @@
       "h1": "Lær engelsk: Camping – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "telt",
         "telt",
         "teltene",
         "Camping",
@@ -126959,6 +127065,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "julegaver",
+        "julegaver",
         "julegavene",
         "Jul",
         "christmas",
@@ -127001,6 +127108,7 @@
       "h1": "Lær engelsk: Klasserom – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "blyanter",
         "blyanter",
         "blyantene",
         "Klasserom",
@@ -127045,6 +127153,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "klesplagg",
+        "klesplagg",
         "klesplaggene",
         "Klær",
         "clothing",
@@ -127087,6 +127196,7 @@
       "h1": "Lær engelsk: Farger – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "farger",
         "farger",
         "fargene",
         "Farger",
@@ -127131,6 +127241,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "desserter",
+        "desserter",
         "dessertene",
         "Desserter og godteri",
         "desserts and sweets",
@@ -127173,6 +127284,7 @@
       "h1": "Lær engelsk: Påske – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "påskeegg",
         "påskeegg",
         "påskeeggene",
         "Påske",
@@ -127217,6 +127329,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "følelser",
+        "følelser",
         "følelsene",
         "Følelser",
         "emotions",
@@ -127259,6 +127372,7 @@
       "h1": "Lær engelsk: Gårdsdyr – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "gårdsdyr",
         "gårdsdyr",
         "gårdsdyrene",
         "Gårdsdyr",
@@ -127303,6 +127417,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "blomster",
+        "blomster",
         "blomstene",
         "Blomster",
         "flowers",
@@ -127345,6 +127460,7 @@
       "h1": "Lær engelsk: Skogsdyr – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "skogsdyr",
         "skogsdyr",
         "skogsdyrene",
         "Skogsdyr",
@@ -127389,6 +127505,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "frukter",
+        "frukter",
         "fruktene",
         "Frukter",
         "fruits",
@@ -127431,6 +127548,7 @@
       "h1": "Lær engelsk: Møbler – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "møbler",
         "møbler",
         "møblene",
         "Møbler",
@@ -127475,6 +127593,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "sprøyter",
+        "sprøyter",
         "sprøytene",
         "Sykehus",
         "hospital",
@@ -127517,6 +127636,7 @@
       "h1": "Lær engelsk: Insekter og kryp – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "insekter",
         "insekter",
         "insektene",
         "Insekter og kryp",
@@ -127561,6 +127681,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "kjøkkenredskaper",
+        "kjøkkenredskaper",
         "kjøkkenredskapene",
         "Kjøkkenredskaper",
         "kitchen tools",
@@ -127603,6 +127724,7 @@
       "h1": "Lær engelsk: Musikk – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "instrumenter",
         "instrumenter",
         "instrumentene",
         "Musikk",
@@ -127647,6 +127769,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "yrker",
+        "yrker",
         "yrkene",
         "Yrker",
         "occupations",
@@ -127689,6 +127812,7 @@
       "h1": "Lær engelsk: Havliv – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "havdyr",
         "havdyr",
         "havdyrene",
         "Havliv",
@@ -127733,6 +127857,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "kjæledyr",
+        "kjæledyr",
         "kjæledyrene",
         "Kjæledyr",
         "pets",
@@ -127775,6 +127900,7 @@
       "h1": "Lær engelsk: Postkontor – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "brev",
         "brev",
         "brevene",
         "Postkontor",
@@ -127819,6 +127945,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "reptiler",
+        "reptiler",
         "reptilene",
         "Reptiler og amfibier",
         "reptiles and amphibians",
@@ -127861,6 +127988,7 @@
       "h1": "Lær engelsk: Former – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "former",
         "former",
         "formene",
         "Former",
@@ -127905,6 +128033,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "stjerner",
+        "stjerner",
         "stjernene",
         "Verdensrommet",
         "space",
@@ -127947,6 +128076,7 @@
       "h1": "Lær engelsk: Vår – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "blomster",
         "blomster",
         "blomstene",
         "Vår",
@@ -127991,6 +128121,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "ispinner",
+        "ispinner",
         "ispinnene",
         "Sommer",
         "summer",
@@ -128033,6 +128164,7 @@
       "h1": "Lær engelsk: Thanksgiving – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "gresskar",
         "gresskar",
         "gresskarene",
         "Thanksgiving",
@@ -128077,6 +128209,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "fly",
+        "fly",
         "flyene",
         "Ting som flyr",
         "things that fly",
@@ -128119,6 +128252,7 @@
       "h1": "Lær engelsk: Verktøy – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "verktøy",
         "verktøy",
         "verktøyene",
         "Verktøy",
@@ -128163,6 +128297,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "leker",
+        "leker",
         "lekene",
         "Leker",
         "toys",
@@ -128205,6 +128340,7 @@
       "h1": "Lær engelsk: Grønnsaker – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "grønnsaker",
         "grønnsaker",
         "grønnsakene",
         "Grønnsaker",
@@ -128249,6 +128385,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "kjøretøy",
+        "kjøretøy",
         "kjøretøyene",
         "Kjøretøy",
         "vehicles",
@@ -128291,6 +128428,7 @@
       "h1": "Lær engelsk: Vær – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "skyer",
         "skyer",
         "skyene",
         "Vær",
@@ -128335,6 +128473,7 @@
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
         "snøfnugg",
+        "snøfnugg",
         "snøfnuggene",
         "Vinter",
         "winter",
@@ -128377,6 +128516,7 @@
       "h1": "Lær engelsk: Dyrehagedyr – bildematching for barn",
       "strand": "Engelsk · Ordforråd",
       "slotTokens": [
+        "dyrehagedyr",
         "dyrehagedyr",
         "dyrehagedyrene",
         "Dyrehagedyr",

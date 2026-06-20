@@ -1,0 +1,822 @@
+{
+  "locale": "fi",
+  "target": "en",
+  "exerciseType": "matching",
+  "rawRowCount": 47,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "name": 47
+  },
+  "totalValid": 47,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "name"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-heinakuun-4-2eee",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-heinakuun-4-2eee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-asusteet-8308",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-asusteet-8308"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-aktiviteetit-c265",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-aktiviteetit-c265"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-elaimet-8950",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-elaimet-8950"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-kodin-ymparilla-a86d",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-kodin-ymparilla-a86d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-ruokakaupassa-3913",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-ruokakaupassa-3913"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-leipomo-4964",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-leipomo-4964"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-ranta-21f6",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-ranta-21f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-linnut-fbd7",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-linnut-fbd7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-linnut-2-8188",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-linnut-2-8188"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-ruumiinosat-c6fb",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-ruumiinosat-c6fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-aamiainen-6f6a",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-aamiainen-6f6a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-leirielama-fb74",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-leirielama-fb74"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-joulu-1cc2",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-joulu-1cc2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-luokkahuone-ce77",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-luokkahuone-ce77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-vaatteet-7308",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-vaatteet-7308"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-varit-0f38",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-varit-0f38"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-jalkiruoat-ja-makeiset-d02c",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-jalkiruoat-ja-makeiset-d02c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-paasiainen-d13c",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-paasiainen-d13c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-tunteet-654f",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-tunteet-654f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-maatilan-elaimet-5a46",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-maatilan-elaimet-5a46"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-kukat-e422",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-kukat-e422"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-metsan-elaimet-7bb8",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-metsan-elaimet-7bb8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-hedelmat-23fa",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-hedelmat-23fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-huonekalut-4945",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-huonekalut-4945"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-sairaala-26d7",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-sairaala-26d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-hyonteiset-ja-otokat-b1c3",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-hyonteiset-ja-otokat-b1c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-keittiovalineet-211c",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-keittiovalineet-211c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-musiikki-ad33",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-musiikki-ad33"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-ammatit-4ce5",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-ammatit-4ce5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-merielama-5b66",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-merielama-5b66"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-lemmikit-7786",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-lemmikit-7786"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-postitoimisto-af8c",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-postitoimisto-af8c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-matelijat-ja-sammakkoelaimet-d3aa",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-matelijat-ja-sammakkoelaimet-d3aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-muodot-56f1",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-muodot-56f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-avaruus-8621",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-avaruus-8621"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-kevat-e339",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-kevat-e339"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-kesa-5c14",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-kesa-5c14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-kiitospaiva-1d0a",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-kiitospaiva-1d0a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-lentavat-asiat-ff9e",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-lentavat-asiat-ff9e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-tyokalut-5fe3",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-tyokalut-5fe3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-lelut-bd72",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-lelut-bd72"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-vihannekset-81e6",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-vihannekset-81e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-ajoneuvot-3d06",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-ajoneuvot-3d06"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-saa-5171",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-saa-5171"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-talvi-b54b",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-talvi-b54b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "englanti-yhdistaminen-nimet-elaintarhan-elaimet-303c",
+      "siblings": [
+        "englanti-yhdistaminen-nimet-elaintarhan-elaimet-303c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

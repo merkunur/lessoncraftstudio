@@ -1,0 +1,822 @@
+{
+  "locale": "it",
+  "target": "en",
+  "exerciseType": "matching",
+  "rawRowCount": 47,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "name": 47
+  },
+  "totalValid": 47,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "name"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-4-luglio-5989",
+      "siblings": [
+        "inglese-abbinamento-nomi-4-luglio-5989"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-accessori-7997",
+      "siblings": [
+        "inglese-abbinamento-nomi-accessori-7997"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-attivita-7544",
+      "siblings": [
+        "inglese-abbinamento-nomi-attivita-7544"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-animali-f2d9",
+      "siblings": [
+        "inglese-abbinamento-nomi-animali-f2d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-in-giro-per-casa-2e3a",
+      "siblings": [
+        "inglese-abbinamento-nomi-in-giro-per-casa-2e3a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-al-supermercato-9205",
+      "siblings": [
+        "inglese-abbinamento-nomi-al-supermercato-9205"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-panetteria-e9b0",
+      "siblings": [
+        "inglese-abbinamento-nomi-panetteria-e9b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-spiaggia-9062",
+      "siblings": [
+        "inglese-abbinamento-nomi-spiaggia-9062"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-uccelli-f3fd",
+      "siblings": [
+        "inglese-abbinamento-nomi-uccelli-f3fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-uccelli-2-2b67",
+      "siblings": [
+        "inglese-abbinamento-nomi-uccelli-2-2b67"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-parti-del-corpo-2ea5",
+      "siblings": [
+        "inglese-abbinamento-nomi-parti-del-corpo-2ea5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-colazione-f380",
+      "siblings": [
+        "inglese-abbinamento-nomi-colazione-f380"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-campeggio-7090",
+      "siblings": [
+        "inglese-abbinamento-nomi-campeggio-7090"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-natale-7d75",
+      "siblings": [
+        "inglese-abbinamento-nomi-natale-7d75"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-aula-8a92",
+      "siblings": [
+        "inglese-abbinamento-nomi-aula-8a92"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-abbigliamento-9f03",
+      "siblings": [
+        "inglese-abbinamento-nomi-abbigliamento-9f03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-colori-148a",
+      "siblings": [
+        "inglese-abbinamento-nomi-colori-148a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-dolci-e-dolciumi-98ce",
+      "siblings": [
+        "inglese-abbinamento-nomi-dolci-e-dolciumi-98ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-pasqua-9390",
+      "siblings": [
+        "inglese-abbinamento-nomi-pasqua-9390"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-emozioni-5efc",
+      "siblings": [
+        "inglese-abbinamento-nomi-emozioni-5efc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-animali-della-fattoria-30de",
+      "siblings": [
+        "inglese-abbinamento-nomi-animali-della-fattoria-30de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-fiori-740e",
+      "siblings": [
+        "inglese-abbinamento-nomi-fiori-740e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-creature-della-foresta-f3fa",
+      "siblings": [
+        "inglese-abbinamento-nomi-creature-della-foresta-f3fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-frutta-1797",
+      "siblings": [
+        "inglese-abbinamento-nomi-frutta-1797"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-mobili-4b2a",
+      "siblings": [
+        "inglese-abbinamento-nomi-mobili-4b2a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-ospedale-52e8",
+      "siblings": [
+        "inglese-abbinamento-nomi-ospedale-52e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-insetti-e-scarafaggi-c655",
+      "siblings": [
+        "inglese-abbinamento-nomi-insetti-e-scarafaggi-c655"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-utensili-da-cucina-fc40",
+      "siblings": [
+        "inglese-abbinamento-nomi-utensili-da-cucina-fc40"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-musica-29e3",
+      "siblings": [
+        "inglese-abbinamento-nomi-musica-29e3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-professioni-3dc1",
+      "siblings": [
+        "inglese-abbinamento-nomi-professioni-3dc1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-vita-oceanica-edbf",
+      "siblings": [
+        "inglese-abbinamento-nomi-vita-oceanica-edbf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-animali-domestici-d360",
+      "siblings": [
+        "inglese-abbinamento-nomi-animali-domestici-d360"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-ufficio-postale-f1fd",
+      "siblings": [
+        "inglese-abbinamento-nomi-ufficio-postale-f1fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-rettili-e-anfibi-7399",
+      "siblings": [
+        "inglese-abbinamento-nomi-rettili-e-anfibi-7399"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-forme-cc1f",
+      "siblings": [
+        "inglese-abbinamento-nomi-forme-cc1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-spazio-5b2b",
+      "siblings": [
+        "inglese-abbinamento-nomi-spazio-5b2b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-primavera-43f5",
+      "siblings": [
+        "inglese-abbinamento-nomi-primavera-43f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-estate-5a79",
+      "siblings": [
+        "inglese-abbinamento-nomi-estate-5a79"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-giorno-del-ringraziamento-d5f8",
+      "siblings": [
+        "inglese-abbinamento-nomi-giorno-del-ringraziamento-d5f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-cose-che-volano-4eed",
+      "siblings": [
+        "inglese-abbinamento-nomi-cose-che-volano-4eed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-attrezzi-1f2d",
+      "siblings": [
+        "inglese-abbinamento-nomi-attrezzi-1f2d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-giocattoli-b6b3",
+      "siblings": [
+        "inglese-abbinamento-nomi-giocattoli-b6b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-verdure-5985",
+      "siblings": [
+        "inglese-abbinamento-nomi-verdure-5985"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-veicoli-9aa8",
+      "siblings": [
+        "inglese-abbinamento-nomi-veicoli-9aa8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-meteo-3aab",
+      "siblings": [
+        "inglese-abbinamento-nomi-meteo-3aab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-inverno-8804",
+      "siblings": [
+        "inglese-abbinamento-nomi-inverno-8804"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "inglese-abbinamento-nomi-animali-dello-zoo-e34c",
+      "siblings": [
+        "inglese-abbinamento-nomi-animali-dello-zoo-e34c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

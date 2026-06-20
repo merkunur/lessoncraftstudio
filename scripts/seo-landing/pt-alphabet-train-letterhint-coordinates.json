@@ -1,0 +1,441 @@
+{
+  "locale": "pt",
+  "exerciseType": "alphabet-train",
+  "exerciseMode": "letter-hint",
+  "rawRowCount": 32,
+  "validCount": 32,
+  "modesSeen": [
+    "letter-hint"
+  ],
+  "ageRangeValues": [
+    "3-5"
+  ],
+  "collapses": 0,
+  "collapseSizes": [
+    1
+  ],
+  "bareOrNone": [],
+  "sampleSlugs": [
+    "trem-do-alfabeto-dica-de-letra-acessorios-e89e (n=1)",
+    "trem-do-alfabeto-dica-de-letra-atividades-3748 (n=1)",
+    "trem-do-alfabeto-dica-de-letra-animais-1868 (n=1)"
+  ],
+  "coordinates": [
+    {
+      "mode": "letter-hint",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-acessorios-e89e",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-acessorios-e89e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-atividades-3748",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-atividades-3748"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-animais-1868",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-animais-1868"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-pela-casa-40fe",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-pela-casa-40fe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-no-supermercado-d30e",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-no-supermercado-d30e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-praia-04b0",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-praia-04b0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-partes-do-corpo-392f",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-partes-do-corpo-392f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-cafe-da-manha-3ed3",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-cafe-da-manha-3ed3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-acampamento-e290",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-acampamento-e290"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-natal-36c8",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-natal-36c8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-sala-de-aula-a1c3",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-sala-de-aula-a1c3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-roupas-7ab3",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-roupas-7ab3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-dinossauros-f5ff",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-dinossauros-f5ff"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-pascoa-c72f",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-pascoa-c72f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-flores-a518",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-flores-a518"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-criaturas-da-floresta-9a1b",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-criaturas-da-floresta-9a1b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-frutas-4703",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-frutas-4703"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-hospital-3e30",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-hospital-3e30"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-utensilios-de-cozinha-15aa",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-utensilios-de-cozinha-15aa"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-profissoes-bd36",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-profissoes-bd36"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-vida-marinha-89f3",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-vida-marinha-89f3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-espaco-c4c1",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-espaco-c4c1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-primavera-adad",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-primavera-adad"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-verao-125c",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-verao-125c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-coisas-que-voam-21c2",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-coisas-que-voam-21c2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-ferramentas-06f9",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-ferramentas-06f9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-brinquedos-52fd",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-brinquedos-52fd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-arvores-d22c",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-arvores-d22c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-veiculos-7587",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-veiculos-7587"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-clima-f0f9",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-clima-f0f9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-inverno-9e55",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-inverno-9e55"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "trem-do-alfabeto-dica-de-letra-animais-do-zoologico-7290",
+      "siblings": [
+        "trem-do-alfabeto-dica-de-letra-animais-do-zoologico-7290"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    }
+  ]
+}

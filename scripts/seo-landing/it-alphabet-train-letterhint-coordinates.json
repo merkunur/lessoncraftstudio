@@ -1,0 +1,428 @@
+{
+  "locale": "it",
+  "exerciseType": "alphabet-train",
+  "exerciseMode": "letter-hint",
+  "rawRowCount": 31,
+  "validCount": 31,
+  "modesSeen": [
+    "letter-hint"
+  ],
+  "ageRangeValues": [
+    "3-5"
+  ],
+  "collapses": 0,
+  "collapseSizes": [
+    1
+  ],
+  "bareOrNone": [],
+  "sampleSlugs": [
+    "treno-dell-alfabeto-indizio-lettera-accessori-ea2b (n=1)",
+    "treno-dell-alfabeto-indizio-lettera-attivita-90e3 (n=1)",
+    "treno-dell-alfabeto-indizio-lettera-animali-2d0d (n=1)"
+  ],
+  "coordinates": [
+    {
+      "mode": "letter-hint",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-accessori-ea2b",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-accessori-ea2b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-attivita-90e3",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-attivita-90e3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-animali-2d0d",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-animali-2d0d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-in-giro-per-casa-947a",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-in-giro-per-casa-947a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-al-supermercato-9d14",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-al-supermercato-9d14"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-spiaggia-8b05",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-spiaggia-8b05"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-uccelli-2-29b1",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-uccelli-2-29b1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-parti-del-corpo-618a",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-parti-del-corpo-618a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-colazione-7944",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-colazione-7944"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-campeggio-7500",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-campeggio-7500"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-natale-f672",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-natale-f672"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-aula-65bd",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-aula-65bd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-abbigliamento-bc20",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-abbigliamento-bc20"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-colori-3482",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-colori-3482"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-dolci-e-dolciumi-0dd6",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-dolci-e-dolciumi-0dd6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-dinosauri-ccbc",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-dinosauri-ccbc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-fiori-baac",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-fiori-baac"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-creature-della-foresta-a917",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-creature-della-foresta-a917"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-ospedale-738c",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-ospedale-738c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-professioni-e397",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-professioni-e397"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-vita-oceanica-56f2",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-vita-oceanica-56f2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-spazio-eae5",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-spazio-eae5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-primavera-28f0",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-primavera-28f0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-estate-b3c1",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-estate-b3c1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-cose-che-volano-722b",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-cose-che-volano-722b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-giocattoli-f0a5",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-giocattoli-f0a5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-alberi-16a6",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-alberi-16a6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-veicoli-4b41",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-veicoli-4b41"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-meteo-1df2",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-meteo-1df2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-inverno-d87d",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-inverno-d87d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "treno-dell-alfabeto-indizio-lettera-animali-dello-zoo-87a4",
+      "siblings": [
+        "treno-dell-alfabeto-indizio-lettera-animali-dello-zoo-87a4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    }
+  ]
+}

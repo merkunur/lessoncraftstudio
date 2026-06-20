@@ -1,0 +1,454 @@
+{
+  "locale": "fi",
+  "exerciseType": "alphabet-train",
+  "exerciseMode": "letter-hint",
+  "rawRowCount": 33,
+  "validCount": 33,
+  "modesSeen": [
+    "letter-hint"
+  ],
+  "ageRangeValues": [
+    "3-5"
+  ],
+  "collapses": 0,
+  "collapseSizes": [
+    1
+  ],
+  "bareOrNone": [],
+  "sampleSlugs": [
+    "aakkosjuna-kirjainvihje-heinakuun-4-ce1b (n=1)",
+    "aakkosjuna-kirjainvihje-asusteet-1b68 (n=1)",
+    "aakkosjuna-kirjainvihje-aktiviteetit-a79d (n=1)"
+  ],
+  "coordinates": [
+    {
+      "mode": "letter-hint",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-heinakuun-4-ce1b",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-heinakuun-4-ce1b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-asusteet-1b68",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-asusteet-1b68"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-aktiviteetit-a79d",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-aktiviteetit-a79d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-elaimet-e076",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-elaimet-e076"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-kodin-ymparilla-dc98",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-kodin-ymparilla-dc98"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-ruokakaupassa-91c4",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-ruokakaupassa-91c4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-leipomo-7cbc",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-leipomo-7cbc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-ranta-b400",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-ranta-b400"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-linnut-2-c378",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-linnut-2-c378"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-ruumiinosat-ca98",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-ruumiinosat-ca98"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-aamiainen-7efe",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-aamiainen-7efe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-leirielama-5fdc",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-leirielama-5fdc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-joulu-7d94",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-joulu-7d94"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-luokkahuone-5d3c",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-luokkahuone-5d3c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-vaatteet-24ad",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-vaatteet-24ad"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-varit-f91e",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-varit-f91e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-dinosaurukset-2784",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-dinosaurukset-2784"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-tunteet-8964",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-tunteet-8964"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-kukat-54ed",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-kukat-54ed"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-hedelmat-5a56",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-hedelmat-5a56"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-huonekalut-7772",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-huonekalut-7772"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-keittiovalineet-e135",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-keittiovalineet-e135"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-ammatit-a77c",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-ammatit-a77c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-merielama-882a",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-merielama-882a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-lemmikit-7880",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-lemmikit-7880"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-avaruus-d7a1",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-avaruus-d7a1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-kesa-d998",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-kesa-d998"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-lentavat-asiat-3f59",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-lentavat-asiat-3f59"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-lelut-a6ca",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-lelut-a6ca"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-puut-7f83",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-puut-7f83"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-ajoneuvot-b908",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-ajoneuvot-b908"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-talvi-23b0",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-talvi-23b0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    },
+    {
+      "mode": "letter-hint",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "aakkosjuna-kirjainvihje-elaintarhan-elaimet-686f",
+      "siblings": [
+        "aakkosjuna-kirjainvihje-elaintarhan-elaimet-686f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ]
+    }
+  ]
+}

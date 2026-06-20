@@ -121677,6 +121677,1491 @@
       ],
       "title": "Laske kaaviossa – Eläintarhan eläimet | tulostettavia tehtäviä",
       "metaDescription": "Laske kaaviossa – Eläintarhan eläimet. Laske ja täytä kaavio. Ilmaisia tulostettavia tehtäviä (PDF)."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-heinakuun-4-ce1b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "4th_of_july",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Heinäkuun 4.",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Heinäkuun 4.",
+        "4th of july",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tässä rauhallisessa tehtävässä lapsi järjestää kuvakortit kauniisti aakkosjärjestykseen, ja se on tehty varhaiskasvatuksen ja esiopetuksen kiireettömään tunnelmaan. Jokaiseen kuvaan on painettu sen alkukirjain, joten esilukijakin osaa asettaa kortit oikeaan riviin pelkän painetun ensimmäisen kirjaimen avulla – sanaa ei tarvitse vielä osata lukea. Junan vaunuissa kuvat odottavat sekaisin paikkaansa, ja aiheena on Heinäkuun 4., joka tekee aloittamisesta tutun ja lämpimän. Lapsi katsoo kunkin kortin alkukirjaimen, miettii tyynesti, mikä kirjain tulee aakkosissa ensin, ja asettaa kortit a:sta ö:hön oikeaan järjestykseen. Tämä on aakkosjärjestyksen harjoitus, ei äänteiden opettelua: tärkeintä on tunnistaa painettu kirjain ja aakkosten järjestys. Mukana ei ole ajanottoa eikä pisteitä. Voit laulaa lapsen kanssa aakkoset ja osoittaa sormella kunkin kuvan alkukirjainta. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä, juuri silloin kun se lapselle sopii.",
+      "p2": "Tässä muunnelmassa kortteja on vähemmän, joten lapsi katsoo entistä tarkemmin kunkin kuvan painettua alkukirjainta. Aiheena on Heinäkuun 4., ja jokaisessa kortissa näkyy sen ensimmäinen kirjain, niin että esilukijakin osaa asettaa kortit aakkosjärjestykseen a:sta ö:hön sanaa lukematta. Hän tunnistaa painetun kirjaimen, miettii, mikä tulee ensin, ja järjestää kortit rauhassa. Ei kiirettä, ei pisteitä, vain aakkosten laulamisen ja järjestämisen tyyni ilo. Tehtävä on täysin ilmainen, tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Heinäkuun 4. ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-heinakuun-4-ce1b",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Asusteet",
+          "href": "aakkosjuna-kirjainvihje-asusteet-1b68"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Aktiviteetit",
+          "href": "aakkosjuna-kirjainvihje-aktiviteetit-a79d"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ruokakaupassa",
+          "href": "aakkosjuna-kirjainvihje-ruokakaupassa-91c4"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Leirielämä",
+          "href": "aakkosjuna-kirjainvihje-leirielama-5fdc"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Heinäkuun 4. | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Heinäkuun 4.. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-asusteet-1b68",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "accessories",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Asusteet",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Asusteet",
+        "accessories",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tämä sivu tarjoaa yksinkertaisen ja lämpimän leikin, jossa kuvakortit järjestetään aakkosjärjestykseen niiden painetun alkukirjaimen mukaan, ja se sopii erinomaisesti varhaiskasvatuksen rauhalliseen päivänkulkuun. Junan vaunuissa odottavat kuvat, joiden aiheena on Asusteet, ja kunkin kuvan kulmaan on painettu sen ensimmäinen kirjain. Näin esilukijakin pärjää: hän ei lue sanaa, vaan tunnistaa painetun alkukirjaimen ja päättää sen perusteella, mikä kuva tulee aakkosissa ensin ja mikä sen jälkeen. Lapsi asettaa kortit a:sta ö:hön oikeaan riviin kaikessa rauhassa. Tämä on aakkosjärjestyksen tehtävä, joka terävöittää kirjaintuntemusta ja harjoittaa järjestyksen tajua – kyse ei ole äänteistä vaan painetun kirjaimen tunnistamisesta. Mukana ei ole aikoja eikä pisteitä. Saata pientä lempein kysymyksin ja anna hänen järjestää junaa omassa tahdissaan. Jos oikea paikka ei löydy heti, sitä saa yrittää uudelleen ilman painetta. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Lämmin aakkosjuna houkuttelee lasta järjestämään kuvakortit, joiden aiheena on Asusteet. Jokaisessa kortissa on sen alkukirjain painettuna, joten pieni ei lue sanaa, vaan asettaa kortit aakkosjärjestykseen a:sta ö:hön tunnistamalla painetun ensimmäisen kirjaimen. Hän miettii, mikä kuva tulee ensin, ja harjoittaa samalla kirjaintuntemustaan sekä järjestyksen tajua. Ilman aikoja ja pisteitä tärkeintä on yrittämisen ja oivaltamisen ilo, lapsen omassa tahdissa. Erehdyksen saa korjata aivan levollisesti, eikä kukaan kiirehdi. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Asusteet ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-asusteet-1b68",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Aktiviteetit",
+          "href": "aakkosjuna-kirjainvihje-aktiviteetit-a79d"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Eläimet",
+          "href": "aakkosjuna-kirjainvihje-elaimet-e076"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Leipomo",
+          "href": "aakkosjuna-kirjainvihje-leipomo-7cbc"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Joulu",
+          "href": "aakkosjuna-kirjainvihje-joulu-7d94"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Asusteet | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Asusteet. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-aktiviteetit-a79d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "activities",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Aktiviteetit",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Aktiviteetit",
+        "activities",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tämä on rauhallinen tehtäväsivu, jossa kuvakortit järjestetään aakkosjärjestykseen niiden painetun alkukirjaimen mukaan, ja se on tehty varta vasten varhaiskasvatuksen pienille. Sivulla on iloinen juna, ja kuvina ovat Aktiviteetit. Jokaiseen kuvaan on painettu sen ensimmäinen kirjain, joten esilukija osaa asettaa kortit oikeaan riviin tarvitsematta lukea sanaa lainkaan – riittää, kun hän tunnistaa painetun alkukirjaimen. Lapsi miettii kaikessa rauhassa, mikä kirjain tulee aakkosissa ensin ja mikä sen jälkeen, kunnes kortit ovat järjestyksessä a:sta ö:hön. Tämä leikki harjoittaa aakkosjärjestystä ja kirjaintuntemusta, ei äänteitä: katse pysyy painetussa kirjaimessa. Mukana ei ole aikarajaa eikä pisteitä. Saata lasta lempein kysymyksin, kuten kumpi kirjain on aakkosissa ensin, ja anna hänen kokeilla rauhassa. Jos järjestys ei heti osu kohdalleen, sen saa korjata hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Rauhallinen aakkosleikki selkeässä junassa, jonka kuvina ovat Aktiviteetit. Lapsi järjestää kortit aakkosjärjestykseen ja asettaa kunkin kuvan oikeaan vaunuun sen painetun alkukirjaimen mukaan. Esilukija ei lue sanaa, vaan tunnistaa painetun ensimmäisen kirjaimen ja miettii sen avulla tyynesti, mikä kirjain tulee ensin. Ei kiirettä eikä kilpailua, vain utelias katse aakkosiin ja oivaltamisen aito ilo. Tämä tehtävä tukee kirjaintuntemusta ja järjestyksen tajua leikin lomassa. Erehdyksen saa korjata aivan levollisesti. Tehtävä on tulostettavaksi tai pelattavaksi netissä, ja se on täysin ilmainen.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Aktiviteetit ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-aktiviteetit-a79d",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Eläimet",
+          "href": "aakkosjuna-kirjainvihje-elaimet-e076"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Kodin ympärillä",
+          "href": "aakkosjuna-kirjainvihje-kodin-ymparilla-dc98"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ranta",
+          "href": "aakkosjuna-kirjainvihje-ranta-b400"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Luokkahuone",
+          "href": "aakkosjuna-kirjainvihje-luokkahuone-5d3c"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Aktiviteetit | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Aktiviteetit. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-elaimet-e076",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "animals",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Eläimet",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Eläimet",
+        "animals",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tässä on rauhallinen aakkosleikki, joka kutsuu lasta järjestämään kuvakortit aakkosjärjestykseen, ja sen aiheena on Eläimet. Mukavinta on, että jokaiseen korttiin on painettu sen alkukirjain: pieni ei lue sanaa, vaan tunnistaa painetun ensimmäisen kirjaimen ja valitsee sen avulla, mikä kuva kuuluu aakkosissa ensin. Näin tehtävä on tehty juuri esilukijalle, joka vasta opettelee aakkosia. Junan vaunuissa kortit odottavat sekaisin, ja lapsi asettaa ne a:sta ö:hön kirjainten tutun rivin mukaan. Tämä on aakkosjärjestyksen tehtävä, joka kehittää kirjaintuntemusta, järjestyksen tajua ja keskittymistä – ei äänteitä, vaan painetun kirjaimen tunnistamista. Ei ajanottoa, ei pisteitä eikä kilpailua. Rohkaise lasta osoittamaan sormella, mikä kirjain tulee ensin, ja puhumaan siitä rauhassa. Vaikka järjestys menisi sekaisin, sen saa yrittää uudelleen hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Yksinkertainen ja lämmin leikki, jossa kuvakortit aakkostetaan painetun alkukirjaimen mukaan, varhaiskasvatuksen tyyneen päivänkulkuun sopivaksi tehtynä. Aiheena on Eläimet, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsi tunnistaa kirjaimen ja asettaa kuvat aakkosjärjestykseen a:sta ö:hön tarvitsematta lukea sanaa. Hän harjoittaa kirjaintuntemusta ja aakkosjärjestystä kaikessa rauhassa, ilman ajanottoa ja painetta. Lempeä ote ja lupa erehtyä hymyillen tekevät hetkestä turvallisen, ja jokainen oikein järjestetty vaunu ilahduttaa. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Eläimet ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-elaimet-e076",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Kodin ympärillä",
+          "href": "aakkosjuna-kirjainvihje-kodin-ymparilla-dc98"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ruokakaupassa",
+          "href": "aakkosjuna-kirjainvihje-ruokakaupassa-91c4"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Linnut 2",
+          "href": "aakkosjuna-kirjainvihje-linnut-2-c378"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Vaatteet",
+          "href": "aakkosjuna-kirjainvihje-vaatteet-24ad"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Eläimet | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Eläimet. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-kodin-ymparilla-dc98",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "around_the_house",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Kodin ympärillä",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Kodin ympärillä",
+        "around the house",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Valoisa aakkosjuna ottaa lapsen vastaan rauhallisessa järjestämisleikissä, jossa kuvina ovat Kodin ympärillä. Jokaiseen kuvaan on painettu sen alkukirjain, ja juuri se tekee tehtävästä sopivan esilukijalle: pieni ei tunnista sanaa lukemalla, vaan katsoo painettua ensimmäistä kirjainta ja asettaa kortin sen mukaan oikeaan riviin. Kun lapsi järjestää kortit aakkosjärjestykseen, hän miettii tyynellä katseella, mikä kirjain tulee aakkosissa ensin, a:sta ö:hön. Harjoitus kehittää aakkosjärjestyksen tajua ja kirjaintuntemusta opettaen tunnistamaan painetun alkukirjaimen ja kokoamaan kuvista siististi aakkostetun junan. Tämä ei ole äänteiden harjoittelua, vaan kirjainten ja niiden järjestyksen tunnistamista. Täällä ei ole kiirettä eikä kilpailua. Rohkaise lasta laulamaan aakkoset, vertailemaan kahden kortin alkukirjaimia ja puhumaan siitä, kumpi tulee ensin. Jokainen oikea paikka on pieni ilo. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Lämmin aakkosjuna houkuttelee lasta järjestämään kuvakortit, joiden aiheena on Kodin ympärillä. Jokaisessa kortissa on sen alkukirjain painettuna, joten pieni ei lue sanaa, vaan asettaa kortit aakkosjärjestykseen a:sta ö:hön tunnistamalla painetun ensimmäisen kirjaimen. Hän miettii, mikä kuva tulee ensin, ja harjoittaa samalla kirjaintuntemustaan sekä järjestyksen tajua. Ilman aikoja ja pisteitä tärkeintä on yrittämisen ja oivaltamisen ilo, lapsen omassa tahdissa. Erehdyksen saa korjata aivan levollisesti, eikä kukaan kiirehdi. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Kodin ympärillä ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-kodin-ymparilla-dc98",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ruokakaupassa",
+          "href": "aakkosjuna-kirjainvihje-ruokakaupassa-91c4"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Leipomo",
+          "href": "aakkosjuna-kirjainvihje-leipomo-7cbc"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ruumiinosat",
+          "href": "aakkosjuna-kirjainvihje-ruumiinosat-ca98"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Värit",
+          "href": "aakkosjuna-kirjainvihje-varit-f91e"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Kodin ympärillä | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Kodin ympärillä. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-ruokakaupassa-91c4",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "at_the_supermarket",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Ruokakaupassa",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Ruokakaupassa",
+        "at the supermarket",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Iloinen aakkosjuna kutsuu pientä järjestämään kuvakortit aakkosjärjestykseen, ja kuvina ovat Ruokakaupassa. Erityistä tässä on se, että jokaiseen korttiin on painettu sen alkukirjain: lapsen ei tarvitse lukea sanaa, vaan hän tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortin sen mukaan oikealle paikalleen. Näin tehtävä sopii esilukijalle, joka vasta tutustuu kirjaimiin. Lapsi katsoo kortit kaikessa rauhassa, miettii, mikä kirjain tulee aakkosissa ensin, ja järjestää kuvat a:sta ö:hön vaunusta toiseen. Kyseessä on aakkosjärjestyksen ja kirjaintuntemuksen harjoitus, jossa pieni oppii, miten kirjaimet seuraavat toisiaan tutussa rivissä. Täällä kukaan ei kiirehdi: katsotaan painettua alkukirjainta, lauletaan aakkoset ja asetetaan kortit järjestykseen. Pyydä lasta osoittamaan kunkin kuvan ensimmäistä kirjainta sormella ja kertomaan, mikä kortti tulee aakkosissa ensin. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä, lapsen omaan tahtiin sovitettuna.",
+      "p2": "Rauhallinen aakkosleikki selkeässä junassa, jonka kuvina ovat Ruokakaupassa. Lapsi järjestää kortit aakkosjärjestykseen ja asettaa kunkin kuvan oikeaan vaunuun sen painetun alkukirjaimen mukaan. Esilukija ei lue sanaa, vaan tunnistaa painetun ensimmäisen kirjaimen ja miettii sen avulla tyynesti, mikä kirjain tulee ensin. Ei kiirettä eikä kilpailua, vain utelias katse aakkosiin ja oivaltamisen aito ilo. Tämä tehtävä tukee kirjaintuntemusta ja järjestyksen tajua leikin lomassa. Erehdyksen saa korjata aivan levollisesti. Tehtävä on tulostettavaksi tai pelattavaksi netissä, ja se on täysin ilmainen.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Ruokakaupassa ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-ruokakaupassa-91c4",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Leipomo",
+          "href": "aakkosjuna-kirjainvihje-leipomo-7cbc"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ranta",
+          "href": "aakkosjuna-kirjainvihje-ranta-b400"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Aamiainen",
+          "href": "aakkosjuna-kirjainvihje-aamiainen-7efe"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Dinosaurukset",
+          "href": "aakkosjuna-kirjainvihje-dinosaurukset-2784"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Ruokakaupassa | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Ruokakaupassa. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-leipomo-7cbc",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "bakery",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Leipomo",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Leipomo",
+        "bakery",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tällä sivulla lapsi kohtaa kutsuvan aakkosjunan, jonka kuvina ovat Leipomo, ja jokaisessa kortissa on sen alkukirjain painettuna selvästi näkyviin. Tämä painettu kirjain on koko leikin avain: esilukija ei tarvitse lukutaitoa, vaan katsoo kortin ensimmäistä kirjainta ja asettaa sen sen mukaan oikeaan vaunuun. Vaunuissa kortit odottavat sekaisin, ja pieni järjestää ne aakkosten mukaan a:sta ö:hön. Katsellen rauhassa kunkin kuvan painettua alkukirjainta hän miettii, mikä kortti tulee aakkosissa ensin. Tämä leikki harjoittaa aakkosjärjestystä, kykyä tunnistaa painettu kirjain ja ymmärrystä siitä, miten kirjaimet seuraavat toisiaan tutussa rivissä. Ei kilpajuoksua aikaa vastaan eikä virheiden laskemista. Kutsu lapsi laulamaan aakkoslaulu, vertailemaan korttien ensimmäisiä kirjaimia ja selittämään omin sanoin, kumpi kuuluu junan alkuun. Jokainen oikea paikka on pieni voitto. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Yksinkertainen ja lämmin leikki, jossa kuvakortit aakkostetaan painetun alkukirjaimen mukaan, varhaiskasvatuksen tyyneen päivänkulkuun sopivaksi tehtynä. Aiheena on Leipomo, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsi tunnistaa kirjaimen ja asettaa kuvat aakkosjärjestykseen a:sta ö:hön tarvitsematta lukea sanaa. Hän harjoittaa kirjaintuntemusta ja aakkosjärjestystä kaikessa rauhassa, ilman ajanottoa ja painetta. Lempeä ote ja lupa erehtyä hymyillen tekevät hetkestä turvallisen, ja jokainen oikein järjestetty vaunu ilahduttaa. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Leipomo ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-leipomo-7cbc",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ranta",
+          "href": "aakkosjuna-kirjainvihje-ranta-b400"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Linnut 2",
+          "href": "aakkosjuna-kirjainvihje-linnut-2-c378"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Leirielämä",
+          "href": "aakkosjuna-kirjainvihje-leirielama-5fdc"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Tunteet",
+          "href": "aakkosjuna-kirjainvihje-tunteet-8964"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Leipomo | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Leipomo. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-ranta-b400",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "beach",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Ranta",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Ranta",
+        "beach",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tämä tehtävä muuttaa iloisen junan seesteiseksi aakkosleikiksi, jossa kuvina ovat Ranta ja jokaisessa kortissa on sen alkukirjain painettuna näkyviin. Juuri tuo painettu kirjain on tehtävän ydin: esilukija ei lue sanaa, vaan katsoo kortin ensimmäistä kirjainta ja päättää sen perusteella, mikä kuva kuuluu aakkosissa ensin. Junan vaunuissa kortit odottavat sekaisin, ja lapsi asettaa ne a:sta ö:hön seuraten kirjainten tuttua riviä. Tämä on arvokas aakkosjärjestyksen harjoitus: se auttaa tunnistamaan painetun alkukirjaimen, muistamaan kirjainten järjestyksen ja ymmärtämään, miten samaa järjestystä käytetään asioiden lajittelussa. Ei ajanottoa, ei kilpailua, vain utelias katse aakkosiin. Kutsu pieni laulamaan aakkoset, osoittamaan kunkin kuvan ensimmäistä kirjainta ja kertomaan, mikä kortti kuuluu junan alkupäähän. Vaikka järjestys menisi sekaisin, hän yrittää uudelleen luottavaisin mielin. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Lämmin aakkosjuna houkuttelee lasta järjestämään kuvakortit, joiden aiheena on Ranta. Jokaisessa kortissa on sen alkukirjain painettuna, joten pieni ei lue sanaa, vaan asettaa kortit aakkosjärjestykseen a:sta ö:hön tunnistamalla painetun ensimmäisen kirjaimen. Hän miettii, mikä kuva tulee ensin, ja harjoittaa samalla kirjaintuntemustaan sekä järjestyksen tajua. Ilman aikoja ja pisteitä tärkeintä on yrittämisen ja oivaltamisen ilo, lapsen omassa tahdissa. Erehdyksen saa korjata aivan levollisesti, eikä kukaan kiirehdi. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Ranta ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-ranta-b400",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Linnut 2",
+          "href": "aakkosjuna-kirjainvihje-linnut-2-c378"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ruumiinosat",
+          "href": "aakkosjuna-kirjainvihje-ruumiinosat-ca98"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Joulu",
+          "href": "aakkosjuna-kirjainvihje-joulu-7d94"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Kukat",
+          "href": "aakkosjuna-kirjainvihje-kukat-54ed"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Ranta | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Ranta. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-linnut-2-c378",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "birds_2",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Linnut 2",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Linnut 2",
+        "birds 2",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tässä rauhallisessa tehtävässä lapsi järjestää kuvakortit kauniisti aakkosjärjestykseen, ja se on tehty varhaiskasvatuksen ja esiopetuksen kiireettömään tunnelmaan. Jokaiseen kuvaan on painettu sen alkukirjain, joten esilukijakin osaa asettaa kortit oikeaan riviin pelkän painetun ensimmäisen kirjaimen avulla – sanaa ei tarvitse vielä osata lukea. Junan vaunuissa kuvat odottavat sekaisin paikkaansa, ja aiheena on Linnut 2, joka tekee aloittamisesta tutun ja lämpimän. Lapsi katsoo kunkin kortin alkukirjaimen, miettii tyynesti, mikä kirjain tulee aakkosissa ensin, ja asettaa kortit a:sta ö:hön oikeaan järjestykseen. Tämä on aakkosjärjestyksen harjoitus, ei äänteiden opettelua: tärkeintä on tunnistaa painettu kirjain ja aakkosten järjestys. Mukana ei ole ajanottoa eikä pisteitä. Voit laulaa lapsen kanssa aakkoset ja osoittaa sormella kunkin kuvan alkukirjainta. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä, juuri silloin kun se lapselle sopii.",
+      "p2": "Rauhallinen aakkosleikki selkeässä junassa, jonka kuvina ovat Linnut 2. Lapsi järjestää kortit aakkosjärjestykseen ja asettaa kunkin kuvan oikeaan vaunuun sen painetun alkukirjaimen mukaan. Esilukija ei lue sanaa, vaan tunnistaa painetun ensimmäisen kirjaimen ja miettii sen avulla tyynesti, mikä kirjain tulee ensin. Ei kiirettä eikä kilpailua, vain utelias katse aakkosiin ja oivaltamisen aito ilo. Tämä tehtävä tukee kirjaintuntemusta ja järjestyksen tajua leikin lomassa. Erehdyksen saa korjata aivan levollisesti. Tehtävä on tulostettavaksi tai pelattavaksi netissä, ja se on täysin ilmainen.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Linnut 2 ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-linnut-2-c378",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ruumiinosat",
+          "href": "aakkosjuna-kirjainvihje-ruumiinosat-ca98"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Aamiainen",
+          "href": "aakkosjuna-kirjainvihje-aamiainen-7efe"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Luokkahuone",
+          "href": "aakkosjuna-kirjainvihje-luokkahuone-5d3c"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Hedelmät",
+          "href": "aakkosjuna-kirjainvihje-hedelmat-5a56"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Linnut 2 | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Linnut 2. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-ruumiinosat-ca98",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "body_parts",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Ruumiinosat",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Ruumiinosat",
+        "body parts",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tämä sivu tarjoaa yksinkertaisen ja lämpimän leikin, jossa kuvakortit järjestetään aakkosjärjestykseen niiden painetun alkukirjaimen mukaan, ja se sopii erinomaisesti varhaiskasvatuksen rauhalliseen päivänkulkuun. Junan vaunuissa odottavat kuvat, joiden aiheena on Ruumiinosat, ja kunkin kuvan kulmaan on painettu sen ensimmäinen kirjain. Näin esilukijakin pärjää: hän ei lue sanaa, vaan tunnistaa painetun alkukirjaimen ja päättää sen perusteella, mikä kuva tulee aakkosissa ensin ja mikä sen jälkeen. Lapsi asettaa kortit a:sta ö:hön oikeaan riviin kaikessa rauhassa. Tämä on aakkosjärjestyksen tehtävä, joka terävöittää kirjaintuntemusta ja harjoittaa järjestyksen tajua – kyse ei ole äänteistä vaan painetun kirjaimen tunnistamisesta. Mukana ei ole aikoja eikä pisteitä. Saata pientä lempein kysymyksin ja anna hänen järjestää junaa omassa tahdissaan. Jos oikea paikka ei löydy heti, sitä saa yrittää uudelleen ilman painetta. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Yksinkertainen ja lämmin leikki, jossa kuvakortit aakkostetaan painetun alkukirjaimen mukaan, varhaiskasvatuksen tyyneen päivänkulkuun sopivaksi tehtynä. Aiheena on Ruumiinosat, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsi tunnistaa kirjaimen ja asettaa kuvat aakkosjärjestykseen a:sta ö:hön tarvitsematta lukea sanaa. Hän harjoittaa kirjaintuntemusta ja aakkosjärjestystä kaikessa rauhassa, ilman ajanottoa ja painetta. Lempeä ote ja lupa erehtyä hymyillen tekevät hetkestä turvallisen, ja jokainen oikein järjestetty vaunu ilahduttaa. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Ruumiinosat ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-ruumiinosat-ca98",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Aamiainen",
+          "href": "aakkosjuna-kirjainvihje-aamiainen-7efe"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Leirielämä",
+          "href": "aakkosjuna-kirjainvihje-leirielama-5fdc"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Vaatteet",
+          "href": "aakkosjuna-kirjainvihje-vaatteet-24ad"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Huonekalut",
+          "href": "aakkosjuna-kirjainvihje-huonekalut-7772"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Ruumiinosat | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Ruumiinosat. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-aamiainen-7efe",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "breakfast",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Aamiainen",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Aamiainen",
+        "breakfast",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tämä on rauhallinen tehtäväsivu, jossa kuvakortit järjestetään aakkosjärjestykseen niiden painetun alkukirjaimen mukaan, ja se on tehty varta vasten varhaiskasvatuksen pienille. Sivulla on iloinen juna, ja kuvina ovat Aamiainen. Jokaiseen kuvaan on painettu sen ensimmäinen kirjain, joten esilukija osaa asettaa kortit oikeaan riviin tarvitsematta lukea sanaa lainkaan – riittää, kun hän tunnistaa painetun alkukirjaimen. Lapsi miettii kaikessa rauhassa, mikä kirjain tulee aakkosissa ensin ja mikä sen jälkeen, kunnes kortit ovat järjestyksessä a:sta ö:hön. Tämä leikki harjoittaa aakkosjärjestystä ja kirjaintuntemusta, ei äänteitä: katse pysyy painetussa kirjaimessa. Mukana ei ole aikarajaa eikä pisteitä. Saata lasta lempein kysymyksin, kuten kumpi kirjain on aakkosissa ensin, ja anna hänen kokeilla rauhassa. Jos järjestys ei heti osu kohdalleen, sen saa korjata hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Lämmin aakkosjuna houkuttelee lasta järjestämään kuvakortit, joiden aiheena on Aamiainen. Jokaisessa kortissa on sen alkukirjain painettuna, joten pieni ei lue sanaa, vaan asettaa kortit aakkosjärjestykseen a:sta ö:hön tunnistamalla painetun ensimmäisen kirjaimen. Hän miettii, mikä kuva tulee ensin, ja harjoittaa samalla kirjaintuntemustaan sekä järjestyksen tajua. Ilman aikoja ja pisteitä tärkeintä on yrittämisen ja oivaltamisen ilo, lapsen omassa tahdissa. Erehdyksen saa korjata aivan levollisesti, eikä kukaan kiirehdi. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Aamiainen ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-aamiainen-7efe",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Leirielämä",
+          "href": "aakkosjuna-kirjainvihje-leirielama-5fdc"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Joulu",
+          "href": "aakkosjuna-kirjainvihje-joulu-7d94"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Värit",
+          "href": "aakkosjuna-kirjainvihje-varit-f91e"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Keittiövälineet",
+          "href": "aakkosjuna-kirjainvihje-keittiovalineet-e135"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Aamiainen | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Aamiainen. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-leirielama-5fdc",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "camping",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Leirielämä",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Leirielämä",
+        "camping",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tässä on rauhallinen aakkosleikki, joka kutsuu lasta järjestämään kuvakortit aakkosjärjestykseen, ja sen aiheena on Leirielämä. Mukavinta on, että jokaiseen korttiin on painettu sen alkukirjain: pieni ei lue sanaa, vaan tunnistaa painetun ensimmäisen kirjaimen ja valitsee sen avulla, mikä kuva kuuluu aakkosissa ensin. Näin tehtävä on tehty juuri esilukijalle, joka vasta opettelee aakkosia. Junan vaunuissa kortit odottavat sekaisin, ja lapsi asettaa ne a:sta ö:hön kirjainten tutun rivin mukaan. Tämä on aakkosjärjestyksen tehtävä, joka kehittää kirjaintuntemusta, järjestyksen tajua ja keskittymistä – ei äänteitä, vaan painetun kirjaimen tunnistamista. Ei ajanottoa, ei pisteitä eikä kilpailua. Rohkaise lasta osoittamaan sormella, mikä kirjain tulee ensin, ja puhumaan siitä rauhassa. Vaikka järjestys menisi sekaisin, sen saa yrittää uudelleen hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Tällä sivulla on iloinen juna, jonka vaunuihin kuvakortit asetetaan aakkosten mukaan painetun alkukirjaimen perusteella. Aiheena on Leirielämä, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsen ei tarvitse lukea sanaa lainkaan – hän tunnistaa kirjaimen ja sijoittaa kortin sen mukaan. Pieni miettii, mikä kirjain tulee aakkosissa ensin, ja järjestää kuvat a:sta ö:hön omin silmin. Tämä on suloinen aakkosjärjestyksen ja kirjaintuntemuksen harjoitus, koettavaksi kiireettömästi. Erehdyksen saa korjata levollisesti hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Leirielämä ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-leirielama-5fdc",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Joulu",
+          "href": "aakkosjuna-kirjainvihje-joulu-7d94"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Luokkahuone",
+          "href": "aakkosjuna-kirjainvihje-luokkahuone-5d3c"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Dinosaurukset",
+          "href": "aakkosjuna-kirjainvihje-dinosaurukset-2784"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ammatit",
+          "href": "aakkosjuna-kirjainvihje-ammatit-a77c"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Leirielämä | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Leirielämä. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-joulu-7d94",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "christmas",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Joulu",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Joulu",
+        "christmas",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Valoisa aakkosjuna ottaa lapsen vastaan rauhallisessa järjestämisleikissä, jossa kuvina ovat Joulu. Jokaiseen kuvaan on painettu sen alkukirjain, ja juuri se tekee tehtävästä sopivan esilukijalle: pieni ei tunnista sanaa lukemalla, vaan katsoo painettua ensimmäistä kirjainta ja asettaa kortin sen mukaan oikeaan riviin. Kun lapsi järjestää kortit aakkosjärjestykseen, hän miettii tyynellä katseella, mikä kirjain tulee aakkosissa ensin, a:sta ö:hön. Harjoitus kehittää aakkosjärjestyksen tajua ja kirjaintuntemusta opettaen tunnistamaan painetun alkukirjaimen ja kokoamaan kuvista siististi aakkostetun junan. Tämä ei ole äänteiden harjoittelua, vaan kirjainten ja niiden järjestyksen tunnistamista. Täällä ei ole kiirettä eikä kilpailua. Rohkaise lasta laulamaan aakkoset, vertailemaan kahden kortin alkukirjaimia ja puhumaan siitä, kumpi tulee ensin. Jokainen oikea paikka on pieni ilo. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Yksinkertainen ja lämmin leikki, jossa kuvakortit aakkostetaan painetun alkukirjaimen mukaan, varhaiskasvatuksen tyyneen päivänkulkuun sopivaksi tehtynä. Aiheena on Joulu, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsi tunnistaa kirjaimen ja asettaa kuvat aakkosjärjestykseen a:sta ö:hön tarvitsematta lukea sanaa. Hän harjoittaa kirjaintuntemusta ja aakkosjärjestystä kaikessa rauhassa, ilman ajanottoa ja painetta. Lempeä ote ja lupa erehtyä hymyillen tekevät hetkestä turvallisen, ja jokainen oikein järjestetty vaunu ilahduttaa. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Joulu ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-joulu-7d94",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Luokkahuone",
+          "href": "aakkosjuna-kirjainvihje-luokkahuone-5d3c"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Vaatteet",
+          "href": "aakkosjuna-kirjainvihje-vaatteet-24ad"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Tunteet",
+          "href": "aakkosjuna-kirjainvihje-tunteet-8964"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Merielämä",
+          "href": "aakkosjuna-kirjainvihje-merielama-882a"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Joulu | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Joulu. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-luokkahuone-5d3c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "classroom",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Luokkahuone",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Luokkahuone",
+        "classroom",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Iloinen aakkosjuna kutsuu pientä järjestämään kuvakortit aakkosjärjestykseen, ja kuvina ovat Luokkahuone. Erityistä tässä on se, että jokaiseen korttiin on painettu sen alkukirjain: lapsen ei tarvitse lukea sanaa, vaan hän tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortin sen mukaan oikealle paikalleen. Näin tehtävä sopii esilukijalle, joka vasta tutustuu kirjaimiin. Lapsi katsoo kortit kaikessa rauhassa, miettii, mikä kirjain tulee aakkosissa ensin, ja järjestää kuvat a:sta ö:hön vaunusta toiseen. Kyseessä on aakkosjärjestyksen ja kirjaintuntemuksen harjoitus, jossa pieni oppii, miten kirjaimet seuraavat toisiaan tutussa rivissä. Täällä kukaan ei kiirehdi: katsotaan painettua alkukirjainta, lauletaan aakkoset ja asetetaan kortit järjestykseen. Pyydä lasta osoittamaan kunkin kuvan ensimmäistä kirjainta sormella ja kertomaan, mikä kortti tulee aakkosissa ensin. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä, lapsen omaan tahtiin sovitettuna.",
+      "p2": "Lämmin aakkosjuna houkuttelee lasta järjestämään kuvakortit, joiden aiheena on Luokkahuone. Jokaisessa kortissa on sen alkukirjain painettuna, joten pieni ei lue sanaa, vaan asettaa kortit aakkosjärjestykseen a:sta ö:hön tunnistamalla painetun ensimmäisen kirjaimen. Hän miettii, mikä kuva tulee ensin, ja harjoittaa samalla kirjaintuntemustaan sekä järjestyksen tajua. Ilman aikoja ja pisteitä tärkeintä on yrittämisen ja oivaltamisen ilo, lapsen omassa tahdissa. Erehdyksen saa korjata aivan levollisesti, eikä kukaan kiirehdi. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Luokkahuone ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-luokkahuone-5d3c",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Vaatteet",
+          "href": "aakkosjuna-kirjainvihje-vaatteet-24ad"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Värit",
+          "href": "aakkosjuna-kirjainvihje-varit-f91e"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Kukat",
+          "href": "aakkosjuna-kirjainvihje-kukat-54ed"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Lemmikit",
+          "href": "aakkosjuna-kirjainvihje-lemmikit-7880"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Luokkahuone | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Luokkahuone. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-vaatteet-24ad",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "clothing",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Vaatteet",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Vaatteet",
+        "clothing",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tällä sivulla lapsi kohtaa kutsuvan aakkosjunan, jonka kuvina ovat Vaatteet, ja jokaisessa kortissa on sen alkukirjain painettuna selvästi näkyviin. Tämä painettu kirjain on koko leikin avain: esilukija ei tarvitse lukutaitoa, vaan katsoo kortin ensimmäistä kirjainta ja asettaa sen sen mukaan oikeaan vaunuun. Vaunuissa kortit odottavat sekaisin, ja pieni järjestää ne aakkosten mukaan a:sta ö:hön. Katsellen rauhassa kunkin kuvan painettua alkukirjainta hän miettii, mikä kortti tulee aakkosissa ensin. Tämä leikki harjoittaa aakkosjärjestystä, kykyä tunnistaa painettu kirjain ja ymmärrystä siitä, miten kirjaimet seuraavat toisiaan tutussa rivissä. Ei kilpajuoksua aikaa vastaan eikä virheiden laskemista. Kutsu lapsi laulamaan aakkoslaulu, vertailemaan korttien ensimmäisiä kirjaimia ja selittämään omin sanoin, kumpi kuuluu junan alkuun. Jokainen oikea paikka on pieni voitto. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Tällä sivulla on iloinen juna, jonka vaunuihin kuvakortit asetetaan aakkosten mukaan painetun alkukirjaimen perusteella. Aiheena on Vaatteet, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsen ei tarvitse lukea sanaa lainkaan – hän tunnistaa kirjaimen ja sijoittaa kortin sen mukaan. Pieni miettii, mikä kirjain tulee aakkosissa ensin, ja järjestää kuvat a:sta ö:hön omin silmin. Tämä on suloinen aakkosjärjestyksen ja kirjaintuntemuksen harjoitus, koettavaksi kiireettömästi. Erehdyksen saa korjata levollisesti hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Vaatteet ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-vaatteet-24ad",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Värit",
+          "href": "aakkosjuna-kirjainvihje-varit-f91e"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Dinosaurukset",
+          "href": "aakkosjuna-kirjainvihje-dinosaurukset-2784"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Hedelmät",
+          "href": "aakkosjuna-kirjainvihje-hedelmat-5a56"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Avaruus",
+          "href": "aakkosjuna-kirjainvihje-avaruus-d7a1"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Vaatteet | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Vaatteet. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-varit-f91e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "colors",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Värit",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Värit",
+        "colors",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tämä tehtävä muuttaa iloisen junan seesteiseksi aakkosleikiksi, jossa kuvina ovat Värit ja jokaisessa kortissa on sen alkukirjain painettuna näkyviin. Juuri tuo painettu kirjain on tehtävän ydin: esilukija ei lue sanaa, vaan katsoo kortin ensimmäistä kirjainta ja päättää sen perusteella, mikä kuva kuuluu aakkosissa ensin. Junan vaunuissa kortit odottavat sekaisin, ja lapsi asettaa ne a:sta ö:hön seuraten kirjainten tuttua riviä. Tämä on arvokas aakkosjärjestyksen harjoitus: se auttaa tunnistamaan painetun alkukirjaimen, muistamaan kirjainten järjestyksen ja ymmärtämään, miten samaa järjestystä käytetään asioiden lajittelussa. Ei ajanottoa, ei kilpailua, vain utelias katse aakkosiin. Kutsu pieni laulamaan aakkoset, osoittamaan kunkin kuvan ensimmäistä kirjainta ja kertomaan, mikä kortti kuuluu junan alkupäähän. Vaikka järjestys menisi sekaisin, hän yrittää uudelleen luottavaisin mielin. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Yksinkertainen ja lämmin leikki, jossa kuvakortit aakkostetaan painetun alkukirjaimen mukaan, varhaiskasvatuksen tyyneen päivänkulkuun sopivaksi tehtynä. Aiheena on Värit, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsi tunnistaa kirjaimen ja asettaa kuvat aakkosjärjestykseen a:sta ö:hön tarvitsematta lukea sanaa. Hän harjoittaa kirjaintuntemusta ja aakkosjärjestystä kaikessa rauhassa, ilman ajanottoa ja painetta. Lempeä ote ja lupa erehtyä hymyillen tekevät hetkestä turvallisen, ja jokainen oikein järjestetty vaunu ilahduttaa. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Värit ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-varit-f91e",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Dinosaurukset",
+          "href": "aakkosjuna-kirjainvihje-dinosaurukset-2784"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Tunteet",
+          "href": "aakkosjuna-kirjainvihje-tunteet-8964"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Huonekalut",
+          "href": "aakkosjuna-kirjainvihje-huonekalut-7772"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Kesä",
+          "href": "aakkosjuna-kirjainvihje-kesa-d998"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Värit | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Värit. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-dinosaurukset-2784",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "dinosaurs",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Dinosaurukset",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Dinosaurukset",
+        "dinosaurs",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tässä rauhallisessa tehtävässä lapsi järjestää kuvakortit kauniisti aakkosjärjestykseen, ja se on tehty varhaiskasvatuksen ja esiopetuksen kiireettömään tunnelmaan. Jokaiseen kuvaan on painettu sen alkukirjain, joten esilukijakin osaa asettaa kortit oikeaan riviin pelkän painetun ensimmäisen kirjaimen avulla – sanaa ei tarvitse vielä osata lukea. Junan vaunuissa kuvat odottavat sekaisin paikkaansa, ja aiheena on Dinosaurukset, joka tekee aloittamisesta tutun ja lämpimän. Lapsi katsoo kunkin kortin alkukirjaimen, miettii tyynesti, mikä kirjain tulee aakkosissa ensin, ja asettaa kortit a:sta ö:hön oikeaan järjestykseen. Tämä on aakkosjärjestyksen harjoitus, ei äänteiden opettelua: tärkeintä on tunnistaa painettu kirjain ja aakkosten järjestys. Mukana ei ole ajanottoa eikä pisteitä. Voit laulaa lapsen kanssa aakkoset ja osoittaa sormella kunkin kuvan alkukirjainta. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä, juuri silloin kun se lapselle sopii.",
+      "p2": "Lämmin aakkosjuna houkuttelee lasta järjestämään kuvakortit, joiden aiheena on Dinosaurukset. Jokaisessa kortissa on sen alkukirjain painettuna, joten pieni ei lue sanaa, vaan asettaa kortit aakkosjärjestykseen a:sta ö:hön tunnistamalla painetun ensimmäisen kirjaimen. Hän miettii, mikä kuva tulee ensin, ja harjoittaa samalla kirjaintuntemustaan sekä järjestyksen tajua. Ilman aikoja ja pisteitä tärkeintä on yrittämisen ja oivaltamisen ilo, lapsen omassa tahdissa. Erehdyksen saa korjata aivan levollisesti, eikä kukaan kiirehdi. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Dinosaurukset ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-dinosaurukset-2784",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Tunteet",
+          "href": "aakkosjuna-kirjainvihje-tunteet-8964"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Kukat",
+          "href": "aakkosjuna-kirjainvihje-kukat-54ed"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Keittiövälineet",
+          "href": "aakkosjuna-kirjainvihje-keittiovalineet-e135"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Lentävät asiat",
+          "href": "aakkosjuna-kirjainvihje-lentavat-asiat-3f59"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Dinosaurukset | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Dinosaurukset. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-tunteet-8964",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "emotions",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Tunteet",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Tunteet",
+        "emotions",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tämä sivu tarjoaa yksinkertaisen ja lämpimän leikin, jossa kuvakortit järjestetään aakkosjärjestykseen niiden painetun alkukirjaimen mukaan, ja se sopii erinomaisesti varhaiskasvatuksen rauhalliseen päivänkulkuun. Junan vaunuissa odottavat kuvat, joiden aiheena on Tunteet, ja kunkin kuvan kulmaan on painettu sen ensimmäinen kirjain. Näin esilukijakin pärjää: hän ei lue sanaa, vaan tunnistaa painetun alkukirjaimen ja päättää sen perusteella, mikä kuva tulee aakkosissa ensin ja mikä sen jälkeen. Lapsi asettaa kortit a:sta ö:hön oikeaan riviin kaikessa rauhassa. Tämä on aakkosjärjestyksen tehtävä, joka terävöittää kirjaintuntemusta ja harjoittaa järjestyksen tajua – kyse ei ole äänteistä vaan painetun kirjaimen tunnistamisesta. Mukana ei ole aikoja eikä pisteitä. Saata pientä lempein kysymyksin ja anna hänen järjestää junaa omassa tahdissaan. Jos oikea paikka ei löydy heti, sitä saa yrittää uudelleen ilman painetta. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Tällä sivulla on iloinen juna, jonka vaunuihin kuvakortit asetetaan aakkosten mukaan painetun alkukirjaimen perusteella. Aiheena on Tunteet, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsen ei tarvitse lukea sanaa lainkaan – hän tunnistaa kirjaimen ja sijoittaa kortin sen mukaan. Pieni miettii, mikä kirjain tulee aakkosissa ensin, ja järjestää kuvat a:sta ö:hön omin silmin. Tämä on suloinen aakkosjärjestyksen ja kirjaintuntemuksen harjoitus, koettavaksi kiireettömästi. Erehdyksen saa korjata levollisesti hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Tunteet ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-tunteet-8964",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Kukat",
+          "href": "aakkosjuna-kirjainvihje-kukat-54ed"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Hedelmät",
+          "href": "aakkosjuna-kirjainvihje-hedelmat-5a56"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ammatit",
+          "href": "aakkosjuna-kirjainvihje-ammatit-a77c"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Lelut",
+          "href": "aakkosjuna-kirjainvihje-lelut-a6ca"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Tunteet | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Tunteet. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-kukat-54ed",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "flowers",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Kukat",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Kukat",
+        "flowers",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tämä on rauhallinen tehtäväsivu, jossa kuvakortit järjestetään aakkosjärjestykseen niiden painetun alkukirjaimen mukaan, ja se on tehty varta vasten varhaiskasvatuksen pienille. Sivulla on iloinen juna, ja kuvina ovat Kukat. Jokaiseen kuvaan on painettu sen ensimmäinen kirjain, joten esilukija osaa asettaa kortit oikeaan riviin tarvitsematta lukea sanaa lainkaan – riittää, kun hän tunnistaa painetun alkukirjaimen. Lapsi miettii kaikessa rauhassa, mikä kirjain tulee aakkosissa ensin ja mikä sen jälkeen, kunnes kortit ovat järjestyksessä a:sta ö:hön. Tämä leikki harjoittaa aakkosjärjestystä ja kirjaintuntemusta, ei äänteitä: katse pysyy painetussa kirjaimessa. Mukana ei ole aikarajaa eikä pisteitä. Saata lasta lempein kysymyksin, kuten kumpi kirjain on aakkosissa ensin, ja anna hänen kokeilla rauhassa. Jos järjestys ei heti osu kohdalleen, sen saa korjata hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Yksinkertainen ja lämmin leikki, jossa kuvakortit aakkostetaan painetun alkukirjaimen mukaan, varhaiskasvatuksen tyyneen päivänkulkuun sopivaksi tehtynä. Aiheena on Kukat, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsi tunnistaa kirjaimen ja asettaa kuvat aakkosjärjestykseen a:sta ö:hön tarvitsematta lukea sanaa. Hän harjoittaa kirjaintuntemusta ja aakkosjärjestystä kaikessa rauhassa, ilman ajanottoa ja painetta. Lempeä ote ja lupa erehtyä hymyillen tekevät hetkestä turvallisen, ja jokainen oikein järjestetty vaunu ilahduttaa. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Kukat ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-kukat-54ed",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Hedelmät",
+          "href": "aakkosjuna-kirjainvihje-hedelmat-5a56"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Huonekalut",
+          "href": "aakkosjuna-kirjainvihje-huonekalut-7772"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Merielämä",
+          "href": "aakkosjuna-kirjainvihje-merielama-882a"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Puut",
+          "href": "aakkosjuna-kirjainvihje-puut-7f83"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Kukat | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Kukat. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-hedelmat-5a56",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "fruits",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Hedelmät",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Hedelmät",
+        "fruits",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tässä on rauhallinen aakkosleikki, joka kutsuu lasta järjestämään kuvakortit aakkosjärjestykseen, ja sen aiheena on Hedelmät. Mukavinta on, että jokaiseen korttiin on painettu sen alkukirjain: pieni ei lue sanaa, vaan tunnistaa painetun ensimmäisen kirjaimen ja valitsee sen avulla, mikä kuva kuuluu aakkosissa ensin. Näin tehtävä on tehty juuri esilukijalle, joka vasta opettelee aakkosia. Junan vaunuissa kortit odottavat sekaisin, ja lapsi asettaa ne a:sta ö:hön kirjainten tutun rivin mukaan. Tämä on aakkosjärjestyksen tehtävä, joka kehittää kirjaintuntemusta, järjestyksen tajua ja keskittymistä – ei äänteitä, vaan painetun kirjaimen tunnistamista. Ei ajanottoa, ei pisteitä eikä kilpailua. Rohkaise lasta osoittamaan sormella, mikä kirjain tulee ensin, ja puhumaan siitä rauhassa. Vaikka järjestys menisi sekaisin, sen saa yrittää uudelleen hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Tällä sivulla pieni löytää iloisen junan, jonka vaunuihin kuvakortit asetetaan aakkosten mukaan. Kuvina ovat Hedelmät, ja jokaiseen korttiin on painettu sen alkukirjain, niin että esilukijakin osaa järjestää kortit a:sta ö:hön tunnistamalla painetun ensimmäisen kirjaimen. Samalla lapsi terävöittää kirjaintuntemustaan, aakkosten muistamista ja tarkkaa katsettaan. Tämä on tyyni aakkosjärjestyksen tehtävä, joka on täydellinen tehtäväksi yhdessä rauhassa ja lämmöllä. Jokainen oikein järjestetty vaunu on pieni ilo, joka rohkaisee jatkamaan. Tehtävä on täysin ilmainen, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Hedelmät ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-hedelmat-5a56",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Huonekalut",
+          "href": "aakkosjuna-kirjainvihje-huonekalut-7772"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Keittiövälineet",
+          "href": "aakkosjuna-kirjainvihje-keittiovalineet-e135"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Lemmikit",
+          "href": "aakkosjuna-kirjainvihje-lemmikit-7880"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ajoneuvot",
+          "href": "aakkosjuna-kirjainvihje-ajoneuvot-b908"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Hedelmät | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Hedelmät. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-huonekalut-7772",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "furniture",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Huonekalut",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Huonekalut",
+        "furniture",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Valoisa aakkosjuna ottaa lapsen vastaan rauhallisessa järjestämisleikissä, jossa kuvina ovat Huonekalut. Jokaiseen kuvaan on painettu sen alkukirjain, ja juuri se tekee tehtävästä sopivan esilukijalle: pieni ei tunnista sanaa lukemalla, vaan katsoo painettua ensimmäistä kirjainta ja asettaa kortin sen mukaan oikeaan riviin. Kun lapsi järjestää kortit aakkosjärjestykseen, hän miettii tyynellä katseella, mikä kirjain tulee aakkosissa ensin, a:sta ö:hön. Harjoitus kehittää aakkosjärjestyksen tajua ja kirjaintuntemusta opettaen tunnistamaan painetun alkukirjaimen ja kokoamaan kuvista siististi aakkostetun junan. Tämä ei ole äänteiden harjoittelua, vaan kirjainten ja niiden järjestyksen tunnistamista. Täällä ei ole kiirettä eikä kilpailua. Rohkaise lasta laulamaan aakkoset, vertailemaan kahden kortin alkukirjaimia ja puhumaan siitä, kumpi tulee ensin. Jokainen oikea paikka on pieni ilo. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Tällä sivulla on iloinen juna, jonka vaunuihin kuvakortit asetetaan aakkosten mukaan painetun alkukirjaimen perusteella. Aiheena on Huonekalut, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsen ei tarvitse lukea sanaa lainkaan – hän tunnistaa kirjaimen ja sijoittaa kortin sen mukaan. Pieni miettii, mikä kirjain tulee aakkosissa ensin, ja järjestää kuvat a:sta ö:hön omin silmin. Tämä on suloinen aakkosjärjestyksen ja kirjaintuntemuksen harjoitus, koettavaksi kiireettömästi. Erehdyksen saa korjata levollisesti hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Huonekalut ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-huonekalut-7772",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Keittiövälineet",
+          "href": "aakkosjuna-kirjainvihje-keittiovalineet-e135"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ammatit",
+          "href": "aakkosjuna-kirjainvihje-ammatit-a77c"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Avaruus",
+          "href": "aakkosjuna-kirjainvihje-avaruus-d7a1"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Talvi",
+          "href": "aakkosjuna-kirjainvihje-talvi-23b0"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Huonekalut | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Huonekalut. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-keittiovalineet-e135",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "kitchen_tools",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Keittiövälineet",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Keittiövälineet",
+        "kitchen tools",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Iloinen aakkosjuna kutsuu pientä järjestämään kuvakortit aakkosjärjestykseen, ja kuvina ovat Keittiövälineet. Erityistä tässä on se, että jokaiseen korttiin on painettu sen alkukirjain: lapsen ei tarvitse lukea sanaa, vaan hän tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortin sen mukaan oikealle paikalleen. Näin tehtävä sopii esilukijalle, joka vasta tutustuu kirjaimiin. Lapsi katsoo kortit kaikessa rauhassa, miettii, mikä kirjain tulee aakkosissa ensin, ja järjestää kuvat a:sta ö:hön vaunusta toiseen. Kyseessä on aakkosjärjestyksen ja kirjaintuntemuksen harjoitus, jossa pieni oppii, miten kirjaimet seuraavat toisiaan tutussa rivissä. Täällä kukaan ei kiirehdi: katsotaan painettua alkukirjainta, lauletaan aakkoset ja asetetaan kortit järjestykseen. Pyydä lasta osoittamaan kunkin kuvan ensimmäistä kirjainta sormella ja kertomaan, mikä kortti tulee aakkosissa ensin. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä, lapsen omaan tahtiin sovitettuna.",
+      "p2": "Yksinkertainen ja lämmin leikki, jossa kuvakortit aakkostetaan painetun alkukirjaimen mukaan, varhaiskasvatuksen tyyneen päivänkulkuun sopivaksi tehtynä. Aiheena on Keittiövälineet, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsi tunnistaa kirjaimen ja asettaa kuvat aakkosjärjestykseen a:sta ö:hön tarvitsematta lukea sanaa. Hän harjoittaa kirjaintuntemusta ja aakkosjärjestystä kaikessa rauhassa, ilman ajanottoa ja painetta. Lempeä ote ja lupa erehtyä hymyillen tekevät hetkestä turvallisen, ja jokainen oikein järjestetty vaunu ilahduttaa. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Keittiövälineet ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-keittiovalineet-e135",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ammatit",
+          "href": "aakkosjuna-kirjainvihje-ammatit-a77c"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Merielämä",
+          "href": "aakkosjuna-kirjainvihje-merielama-882a"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Kesä",
+          "href": "aakkosjuna-kirjainvihje-kesa-d998"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Eläintarhan eläimet",
+          "href": "aakkosjuna-kirjainvihje-elaintarhan-elaimet-686f"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Keittiövälineet | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Keittiövälineet. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-ammatit-a77c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "occupations",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Ammatit",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Ammatit",
+        "occupations",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tällä sivulla lapsi kohtaa kutsuvan aakkosjunan, jonka kuvina ovat Ammatit, ja jokaisessa kortissa on sen alkukirjain painettuna selvästi näkyviin. Tämä painettu kirjain on koko leikin avain: esilukija ei tarvitse lukutaitoa, vaan katsoo kortin ensimmäistä kirjainta ja asettaa sen sen mukaan oikeaan vaunuun. Vaunuissa kortit odottavat sekaisin, ja pieni järjestää ne aakkosten mukaan a:sta ö:hön. Katsellen rauhassa kunkin kuvan painettua alkukirjainta hän miettii, mikä kortti tulee aakkosissa ensin. Tämä leikki harjoittaa aakkosjärjestystä, kykyä tunnistaa painettu kirjain ja ymmärrystä siitä, miten kirjaimet seuraavat toisiaan tutussa rivissä. Ei kilpajuoksua aikaa vastaan eikä virheiden laskemista. Kutsu lapsi laulamaan aakkoslaulu, vertailemaan korttien ensimmäisiä kirjaimia ja selittämään omin sanoin, kumpi kuuluu junan alkuun. Jokainen oikea paikka on pieni voitto. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Tällä sivulla pieni löytää iloisen junan, jonka vaunuihin kuvakortit asetetaan aakkosten mukaan. Kuvina ovat Ammatit, ja jokaiseen korttiin on painettu sen alkukirjain, niin että esilukijakin osaa järjestää kortit a:sta ö:hön tunnistamalla painetun ensimmäisen kirjaimen. Samalla lapsi terävöittää kirjaintuntemustaan, aakkosten muistamista ja tarkkaa katsettaan. Tämä on tyyni aakkosjärjestyksen tehtävä, joka on täydellinen tehtäväksi yhdessä rauhassa ja lämmöllä. Jokainen oikein järjestetty vaunu on pieni ilo, joka rohkaisee jatkamaan. Tehtävä on täysin ilmainen, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Ammatit ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-ammatit-a77c",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Merielämä",
+          "href": "aakkosjuna-kirjainvihje-merielama-882a"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Lemmikit",
+          "href": "aakkosjuna-kirjainvihje-lemmikit-7880"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Lentävät asiat",
+          "href": "aakkosjuna-kirjainvihje-lentavat-asiat-3f59"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Heinäkuun 4.",
+          "href": "aakkosjuna-kirjainvihje-heinakuun-4-ce1b"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Ammatit | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Ammatit. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-merielama-882a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "ocean_life",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Merielämä",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Merielämä",
+        "ocean life",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tämä tehtävä muuttaa iloisen junan seesteiseksi aakkosleikiksi, jossa kuvina ovat Merielämä ja jokaisessa kortissa on sen alkukirjain painettuna näkyviin. Juuri tuo painettu kirjain on tehtävän ydin: esilukija ei lue sanaa, vaan katsoo kortin ensimmäistä kirjainta ja päättää sen perusteella, mikä kuva kuuluu aakkosissa ensin. Junan vaunuissa kortit odottavat sekaisin, ja lapsi asettaa ne a:sta ö:hön seuraten kirjainten tuttua riviä. Tämä on arvokas aakkosjärjestyksen harjoitus: se auttaa tunnistamaan painetun alkukirjaimen, muistamaan kirjainten järjestyksen ja ymmärtämään, miten samaa järjestystä käytetään asioiden lajittelussa. Ei ajanottoa, ei kilpailua, vain utelias katse aakkosiin. Kutsu pieni laulamaan aakkoset, osoittamaan kunkin kuvan ensimmäistä kirjainta ja kertomaan, mikä kortti kuuluu junan alkupäähän. Vaikka järjestys menisi sekaisin, hän yrittää uudelleen luottavaisin mielin. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Tällä sivulla on iloinen juna, jonka vaunuihin kuvakortit asetetaan aakkosten mukaan painetun alkukirjaimen perusteella. Aiheena on Merielämä, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsen ei tarvitse lukea sanaa lainkaan – hän tunnistaa kirjaimen ja sijoittaa kortin sen mukaan. Pieni miettii, mikä kirjain tulee aakkosissa ensin, ja järjestää kuvat a:sta ö:hön omin silmin. Tämä on suloinen aakkosjärjestyksen ja kirjaintuntemuksen harjoitus, koettavaksi kiireettömästi. Erehdyksen saa korjata levollisesti hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Merielämä ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-merielama-882a",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Lemmikit",
+          "href": "aakkosjuna-kirjainvihje-lemmikit-7880"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Avaruus",
+          "href": "aakkosjuna-kirjainvihje-avaruus-d7a1"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Lelut",
+          "href": "aakkosjuna-kirjainvihje-lelut-a6ca"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Asusteet",
+          "href": "aakkosjuna-kirjainvihje-asusteet-1b68"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Merielämä | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Merielämä. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-lemmikit-7880",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "pets",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Lemmikit",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Lemmikit",
+        "pets",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tässä rauhallisessa tehtävässä lapsi järjestää kuvakortit kauniisti aakkosjärjestykseen, ja se on tehty varhaiskasvatuksen ja esiopetuksen kiireettömään tunnelmaan. Jokaiseen kuvaan on painettu sen alkukirjain, joten esilukijakin osaa asettaa kortit oikeaan riviin pelkän painetun ensimmäisen kirjaimen avulla – sanaa ei tarvitse vielä osata lukea. Junan vaunuissa kuvat odottavat sekaisin paikkaansa, ja aiheena on Lemmikit, joka tekee aloittamisesta tutun ja lämpimän. Lapsi katsoo kunkin kortin alkukirjaimen, miettii tyynesti, mikä kirjain tulee aakkosissa ensin, ja asettaa kortit a:sta ö:hön oikeaan järjestykseen. Tämä on aakkosjärjestyksen harjoitus, ei äänteiden opettelua: tärkeintä on tunnistaa painettu kirjain ja aakkosten järjestys. Mukana ei ole ajanottoa eikä pisteitä. Voit laulaa lapsen kanssa aakkoset ja osoittaa sormella kunkin kuvan alkukirjainta. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä, juuri silloin kun se lapselle sopii.",
+      "p2": "Yksinkertainen ja lämmin leikki, jossa kuvakortit aakkostetaan painetun alkukirjaimen mukaan, varhaiskasvatuksen tyyneen päivänkulkuun sopivaksi tehtynä. Aiheena on Lemmikit, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsi tunnistaa kirjaimen ja asettaa kuvat aakkosjärjestykseen a:sta ö:hön tarvitsematta lukea sanaa. Hän harjoittaa kirjaintuntemusta ja aakkosjärjestystä kaikessa rauhassa, ilman ajanottoa ja painetta. Lempeä ote ja lupa erehtyä hymyillen tekevät hetkestä turvallisen, ja jokainen oikein järjestetty vaunu ilahduttaa. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Lemmikit ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-lemmikit-7880",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Avaruus",
+          "href": "aakkosjuna-kirjainvihje-avaruus-d7a1"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Kesä",
+          "href": "aakkosjuna-kirjainvihje-kesa-d998"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Puut",
+          "href": "aakkosjuna-kirjainvihje-puut-7f83"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Aktiviteetit",
+          "href": "aakkosjuna-kirjainvihje-aktiviteetit-a79d"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Lemmikit | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Lemmikit. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-avaruus-d7a1",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "space",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Avaruus",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Avaruus",
+        "space",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tämä sivu tarjoaa yksinkertaisen ja lämpimän leikin, jossa kuvakortit järjestetään aakkosjärjestykseen niiden painetun alkukirjaimen mukaan, ja se sopii erinomaisesti varhaiskasvatuksen rauhalliseen päivänkulkuun. Junan vaunuissa odottavat kuvat, joiden aiheena on Avaruus, ja kunkin kuvan kulmaan on painettu sen ensimmäinen kirjain. Näin esilukijakin pärjää: hän ei lue sanaa, vaan tunnistaa painetun alkukirjaimen ja päättää sen perusteella, mikä kuva tulee aakkosissa ensin ja mikä sen jälkeen. Lapsi asettaa kortit a:sta ö:hön oikeaan riviin kaikessa rauhassa. Tämä on aakkosjärjestyksen tehtävä, joka terävöittää kirjaintuntemusta ja harjoittaa järjestyksen tajua – kyse ei ole äänteistä vaan painetun kirjaimen tunnistamisesta. Mukana ei ole aikoja eikä pisteitä. Saata pientä lempein kysymyksin ja anna hänen järjestää junaa omassa tahdissaan. Jos oikea paikka ei löydy heti, sitä saa yrittää uudelleen ilman painetta. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Tällä sivulla pieni löytää iloisen junan, jonka vaunuihin kuvakortit asetetaan aakkosten mukaan. Kuvina ovat Avaruus, ja jokaiseen korttiin on painettu sen alkukirjain, niin että esilukijakin osaa järjestää kortit a:sta ö:hön tunnistamalla painetun ensimmäisen kirjaimen. Samalla lapsi terävöittää kirjaintuntemustaan, aakkosten muistamista ja tarkkaa katsettaan. Tämä on tyyni aakkosjärjestyksen tehtävä, joka on täydellinen tehtäväksi yhdessä rauhassa ja lämmöllä. Jokainen oikein järjestetty vaunu on pieni ilo, joka rohkaisee jatkamaan. Tehtävä on täysin ilmainen, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Avaruus ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-avaruus-d7a1",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Kesä",
+          "href": "aakkosjuna-kirjainvihje-kesa-d998"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Lentävät asiat",
+          "href": "aakkosjuna-kirjainvihje-lentavat-asiat-3f59"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ajoneuvot",
+          "href": "aakkosjuna-kirjainvihje-ajoneuvot-b908"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Eläimet",
+          "href": "aakkosjuna-kirjainvihje-elaimet-e076"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Avaruus | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Avaruus. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-kesa-d998",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "summer",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Kesä",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Kesä",
+        "summer",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tämä on rauhallinen tehtäväsivu, jossa kuvakortit järjestetään aakkosjärjestykseen niiden painetun alkukirjaimen mukaan, ja se on tehty varta vasten varhaiskasvatuksen pienille. Sivulla on iloinen juna, ja kuvina ovat Kesä. Jokaiseen kuvaan on painettu sen ensimmäinen kirjain, joten esilukija osaa asettaa kortit oikeaan riviin tarvitsematta lukea sanaa lainkaan – riittää, kun hän tunnistaa painetun alkukirjaimen. Lapsi miettii kaikessa rauhassa, mikä kirjain tulee aakkosissa ensin ja mikä sen jälkeen, kunnes kortit ovat järjestyksessä a:sta ö:hön. Tämä leikki harjoittaa aakkosjärjestystä ja kirjaintuntemusta, ei äänteitä: katse pysyy painetussa kirjaimessa. Mukana ei ole aikarajaa eikä pisteitä. Saata lasta lempein kysymyksin, kuten kumpi kirjain on aakkosissa ensin, ja anna hänen kokeilla rauhassa. Jos järjestys ei heti osu kohdalleen, sen saa korjata hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Tällä sivulla on iloinen juna, jonka vaunuihin kuvakortit asetetaan aakkosten mukaan painetun alkukirjaimen perusteella. Aiheena on Kesä, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsen ei tarvitse lukea sanaa lainkaan – hän tunnistaa kirjaimen ja sijoittaa kortin sen mukaan. Pieni miettii, mikä kirjain tulee aakkosissa ensin, ja järjestää kuvat a:sta ö:hön omin silmin. Tämä on suloinen aakkosjärjestyksen ja kirjaintuntemuksen harjoitus, koettavaksi kiireettömästi. Erehdyksen saa korjata levollisesti hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Kesä ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-kesa-d998",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Lentävät asiat",
+          "href": "aakkosjuna-kirjainvihje-lentavat-asiat-3f59"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Lelut",
+          "href": "aakkosjuna-kirjainvihje-lelut-a6ca"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Talvi",
+          "href": "aakkosjuna-kirjainvihje-talvi-23b0"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Kodin ympärillä",
+          "href": "aakkosjuna-kirjainvihje-kodin-ymparilla-dc98"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Kesä | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Kesä. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-lentavat-asiat-3f59",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "things_that_fly",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Lentävät asiat",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Lentävät asiat",
+        "things that fly",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tässä on rauhallinen aakkosleikki, joka kutsuu lasta järjestämään kuvakortit aakkosjärjestykseen, ja sen aiheena on Lentävät asiat. Mukavinta on, että jokaiseen korttiin on painettu sen alkukirjain: pieni ei lue sanaa, vaan tunnistaa painetun ensimmäisen kirjaimen ja valitsee sen avulla, mikä kuva kuuluu aakkosissa ensin. Näin tehtävä on tehty juuri esilukijalle, joka vasta opettelee aakkosia. Junan vaunuissa kortit odottavat sekaisin, ja lapsi asettaa ne a:sta ö:hön kirjainten tutun rivin mukaan. Tämä on aakkosjärjestyksen tehtävä, joka kehittää kirjaintuntemusta, järjestyksen tajua ja keskittymistä – ei äänteitä, vaan painetun kirjaimen tunnistamista. Ei ajanottoa, ei pisteitä eikä kilpailua. Rohkaise lasta osoittamaan sormella, mikä kirjain tulee ensin, ja puhumaan siitä rauhassa. Vaikka järjestys menisi sekaisin, sen saa yrittää uudelleen hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Tämä rauhallinen aakkosleikki pyytää pientä katsomaan kunkin kortin painettua alkukirjainta ja löytämään kaikessa rauhassa, mikä kuva tulee aakkosissa ensin. Aiheena on Lentävät asiat, ja painettu ensimmäinen kirjain on koko ajan apuna, niin että esilukija pärjää sanaa lukematta. Järjestäen kortit a:sta ö:hön hän asettaa jokaisen kuvan oikeaan vaunuun kirjainten tutun rivin mukaan. Lämmin keskittymisen ja oivalluksen hetki on jaettavaksi hellästi ja kiireettömästi. Jokainen yritys on tervetullut, ja jokainen oikein aakkostettu vaunu ilahduttaa. Tehtävä on täysin ilmainen, tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Lentävät asiat ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-lentavat-asiat-3f59",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Lelut",
+          "href": "aakkosjuna-kirjainvihje-lelut-a6ca"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Puut",
+          "href": "aakkosjuna-kirjainvihje-puut-7f83"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Eläintarhan eläimet",
+          "href": "aakkosjuna-kirjainvihje-elaintarhan-elaimet-686f"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ruokakaupassa",
+          "href": "aakkosjuna-kirjainvihje-ruokakaupassa-91c4"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Lentävät asiat | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Lentävät asiat. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-lelut-a6ca",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "toys",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Lelut",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Lelut",
+        "toys",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Valoisa aakkosjuna ottaa lapsen vastaan rauhallisessa järjestämisleikissä, jossa kuvina ovat Lelut. Jokaiseen kuvaan on painettu sen alkukirjain, ja juuri se tekee tehtävästä sopivan esilukijalle: pieni ei tunnista sanaa lukemalla, vaan katsoo painettua ensimmäistä kirjainta ja asettaa kortin sen mukaan oikeaan riviin. Kun lapsi järjestää kortit aakkosjärjestykseen, hän miettii tyynellä katseella, mikä kirjain tulee aakkosissa ensin, a:sta ö:hön. Harjoitus kehittää aakkosjärjestyksen tajua ja kirjaintuntemusta opettaen tunnistamaan painetun alkukirjaimen ja kokoamaan kuvista siististi aakkostetun junan. Tämä ei ole äänteiden harjoittelua, vaan kirjainten ja niiden järjestyksen tunnistamista. Täällä ei ole kiirettä eikä kilpailua. Rohkaise lasta laulamaan aakkoset, vertailemaan kahden kortin alkukirjaimia ja puhumaan siitä, kumpi tulee ensin. Jokainen oikea paikka on pieni ilo. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Tällä sivulla pieni löytää iloisen junan, jonka vaunuihin kuvakortit asetetaan aakkosten mukaan. Kuvina ovat Lelut, ja jokaiseen korttiin on painettu sen alkukirjain, niin että esilukijakin osaa järjestää kortit a:sta ö:hön tunnistamalla painetun ensimmäisen kirjaimen. Samalla lapsi terävöittää kirjaintuntemustaan, aakkosten muistamista ja tarkkaa katsettaan. Tämä on tyyni aakkosjärjestyksen tehtävä, joka on täydellinen tehtäväksi yhdessä rauhassa ja lämmöllä. Jokainen oikein järjestetty vaunu on pieni ilo, joka rohkaisee jatkamaan. Tehtävä on täysin ilmainen, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Lelut ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-lelut-a6ca",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Puut",
+          "href": "aakkosjuna-kirjainvihje-puut-7f83"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ajoneuvot",
+          "href": "aakkosjuna-kirjainvihje-ajoneuvot-b908"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Heinäkuun 4.",
+          "href": "aakkosjuna-kirjainvihje-heinakuun-4-ce1b"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Leipomo",
+          "href": "aakkosjuna-kirjainvihje-leipomo-7cbc"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Lelut | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Lelut. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-puut-7f83",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "tree",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Puut",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Puut",
+        "tree",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Iloinen aakkosjuna kutsuu pientä järjestämään kuvakortit aakkosjärjestykseen, ja kuvina ovat Puut. Erityistä tässä on se, että jokaiseen korttiin on painettu sen alkukirjain: lapsen ei tarvitse lukea sanaa, vaan hän tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortin sen mukaan oikealle paikalleen. Näin tehtävä sopii esilukijalle, joka vasta tutustuu kirjaimiin. Lapsi katsoo kortit kaikessa rauhassa, miettii, mikä kirjain tulee aakkosissa ensin, ja järjestää kuvat a:sta ö:hön vaunusta toiseen. Kyseessä on aakkosjärjestyksen ja kirjaintuntemuksen harjoitus, jossa pieni oppii, miten kirjaimet seuraavat toisiaan tutussa rivissä. Täällä kukaan ei kiirehdi: katsotaan painettua alkukirjainta, lauletaan aakkoset ja asetetaan kortit järjestykseen. Pyydä lasta osoittamaan kunkin kuvan ensimmäistä kirjainta sormella ja kertomaan, mikä kortti tulee aakkosissa ensin. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä, lapsen omaan tahtiin sovitettuna.",
+      "p2": "Tällä sivulla on iloinen juna, jonka vaunuihin kuvakortit asetetaan aakkosten mukaan painetun alkukirjaimen perusteella. Aiheena on Puut, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsen ei tarvitse lukea sanaa lainkaan – hän tunnistaa kirjaimen ja sijoittaa kortin sen mukaan. Pieni miettii, mikä kirjain tulee aakkosissa ensin, ja järjestää kuvat a:sta ö:hön omin silmin. Tämä on suloinen aakkosjärjestyksen ja kirjaintuntemuksen harjoitus, koettavaksi kiireettömästi. Erehdyksen saa korjata levollisesti hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Puut ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-puut-7f83",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ajoneuvot",
+          "href": "aakkosjuna-kirjainvihje-ajoneuvot-b908"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Talvi",
+          "href": "aakkosjuna-kirjainvihje-talvi-23b0"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Asusteet",
+          "href": "aakkosjuna-kirjainvihje-asusteet-1b68"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ranta",
+          "href": "aakkosjuna-kirjainvihje-ranta-b400"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Puut | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Puut. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-ajoneuvot-b908",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "vehicles",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Ajoneuvot",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Ajoneuvot",
+        "vehicles",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tällä sivulla lapsi kohtaa kutsuvan aakkosjunan, jonka kuvina ovat Ajoneuvot, ja jokaisessa kortissa on sen alkukirjain painettuna selvästi näkyviin. Tämä painettu kirjain on koko leikin avain: esilukija ei tarvitse lukutaitoa, vaan katsoo kortin ensimmäistä kirjainta ja asettaa sen sen mukaan oikeaan vaunuun. Vaunuissa kortit odottavat sekaisin, ja pieni järjestää ne aakkosten mukaan a:sta ö:hön. Katsellen rauhassa kunkin kuvan painettua alkukirjainta hän miettii, mikä kortti tulee aakkosissa ensin. Tämä leikki harjoittaa aakkosjärjestystä, kykyä tunnistaa painettu kirjain ja ymmärrystä siitä, miten kirjaimet seuraavat toisiaan tutussa rivissä. Ei kilpajuoksua aikaa vastaan eikä virheiden laskemista. Kutsu lapsi laulamaan aakkoslaulu, vertailemaan korttien ensimmäisiä kirjaimia ja selittämään omin sanoin, kumpi kuuluu junan alkuun. Jokainen oikea paikka on pieni voitto. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Tämä rauhallinen aakkosleikki pyytää pientä katsomaan kunkin kortin painettua alkukirjainta ja löytämään kaikessa rauhassa, mikä kuva tulee aakkosissa ensin. Aiheena on Ajoneuvot, ja painettu ensimmäinen kirjain on koko ajan apuna, niin että esilukija pärjää sanaa lukematta. Järjestäen kortit a:sta ö:hön hän asettaa jokaisen kuvan oikeaan vaunuun kirjainten tutun rivin mukaan. Lämmin keskittymisen ja oivalluksen hetki on jaettavaksi hellästi ja kiireettömästi. Jokainen yritys on tervetullut, ja jokainen oikein aakkostettu vaunu ilahduttaa. Tehtävä on täysin ilmainen, tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Ajoneuvot ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-ajoneuvot-b908",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Talvi",
+          "href": "aakkosjuna-kirjainvihje-talvi-23b0"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Eläintarhan eläimet",
+          "href": "aakkosjuna-kirjainvihje-elaintarhan-elaimet-686f"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Aktiviteetit",
+          "href": "aakkosjuna-kirjainvihje-aktiviteetit-a79d"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Linnut 2",
+          "href": "aakkosjuna-kirjainvihje-linnut-2-c378"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Ajoneuvot | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Ajoneuvot. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-talvi-23b0",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "winter",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Talvi",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Talvi",
+        "winter",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tämä tehtävä muuttaa iloisen junan seesteiseksi aakkosleikiksi, jossa kuvina ovat Talvi ja jokaisessa kortissa on sen alkukirjain painettuna näkyviin. Juuri tuo painettu kirjain on tehtävän ydin: esilukija ei lue sanaa, vaan katsoo kortin ensimmäistä kirjainta ja päättää sen perusteella, mikä kuva kuuluu aakkosissa ensin. Junan vaunuissa kortit odottavat sekaisin, ja lapsi asettaa ne a:sta ö:hön seuraten kirjainten tuttua riviä. Tämä on arvokas aakkosjärjestyksen harjoitus: se auttaa tunnistamaan painetun alkukirjaimen, muistamaan kirjainten järjestyksen ja ymmärtämään, miten samaa järjestystä käytetään asioiden lajittelussa. Ei ajanottoa, ei kilpailua, vain utelias katse aakkosiin. Kutsu pieni laulamaan aakkoset, osoittamaan kunkin kuvan ensimmäistä kirjainta ja kertomaan, mikä kortti kuuluu junan alkupäähän. Vaikka järjestys menisi sekaisin, hän yrittää uudelleen luottavaisin mielin. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p2": "Tällä sivulla pieni löytää iloisen junan, jonka vaunuihin kuvakortit asetetaan aakkosten mukaan. Kuvina ovat Talvi, ja jokaiseen korttiin on painettu sen alkukirjain, niin että esilukijakin osaa järjestää kortit a:sta ö:hön tunnistamalla painetun ensimmäisen kirjaimen. Samalla lapsi terävöittää kirjaintuntemustaan, aakkosten muistamista ja tarkkaa katsettaan. Tämä on tyyni aakkosjärjestyksen tehtävä, joka on täydellinen tehtäväksi yhdessä rauhassa ja lämmöllä. Jokainen oikein järjestetty vaunu on pieni ilo, joka rohkaisee jatkamaan. Tehtävä on täysin ilmainen, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Talvi ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-talvi-23b0",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Eläintarhan eläimet",
+          "href": "aakkosjuna-kirjainvihje-elaintarhan-elaimet-686f"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Heinäkuun 4.",
+          "href": "aakkosjuna-kirjainvihje-heinakuun-4-ce1b"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Eläimet",
+          "href": "aakkosjuna-kirjainvihje-elaimet-e076"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Ruumiinosat",
+          "href": "aakkosjuna-kirjainvihje-ruumiinosat-ca98"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Talvi | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Talvi. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
+    },
+    {
+      "slug": "aakkosjuna-kirjainvihje-elaintarhan-elaimet-686f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "alphabet-train",
+        "mode": "letter-hint",
+        "theme": "zoo_animals",
+        "level": "esikoulu"
+      },
+      "eyebrow": "Tehtävä: Aakkosjärjestys kuvilla",
+      "h1": "Järjestä kuvat aakkosjärjestykseen alkukirjaimen mukaan – aiheena Eläintarhan eläimet",
+      "strand": "Esilukijan kirjaintuntemus ja aakkosjärjestys",
+      "slotTokens": [
+        "Eläintarhan eläimet",
+        "zoo animals",
+        "esikoulu",
+        "aakkosjärjestys",
+        "alkukirjain",
+        "kirjainjuna"
+      ],
+      "p1": "Tässä rauhallisessa tehtävässä lapsi järjestää kuvakortit kauniisti aakkosjärjestykseen, ja se on tehty varhaiskasvatuksen ja esiopetuksen kiireettömään tunnelmaan. Jokaiseen kuvaan on painettu sen alkukirjain, joten esilukijakin osaa asettaa kortit oikeaan riviin pelkän painetun ensimmäisen kirjaimen avulla – sanaa ei tarvitse vielä osata lukea. Junan vaunuissa kuvat odottavat sekaisin paikkaansa, ja aiheena on Eläintarhan eläimet, joka tekee aloittamisesta tutun ja lämpimän. Lapsi katsoo kunkin kortin alkukirjaimen, miettii tyynesti, mikä kirjain tulee aakkosissa ensin, ja asettaa kortit a:sta ö:hön oikeaan järjestykseen. Tämä on aakkosjärjestyksen harjoitus, ei äänteiden opettelua: tärkeintä on tunnistaa painettu kirjain ja aakkosten järjestys. Mukana ei ole ajanottoa eikä pisteitä. Voit laulaa lapsen kanssa aakkoset ja osoittaa sormella kunkin kuvan alkukirjainta. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä, juuri silloin kun se lapselle sopii.",
+      "p2": "Tällä sivulla on iloinen juna, jonka vaunuihin kuvakortit asetetaan aakkosten mukaan painetun alkukirjaimen perusteella. Aiheena on Eläintarhan eläimet, ja jokaisen kortin ensimmäinen kirjain on painettu näkyviin, joten lapsen ei tarvitse lukea sanaa lainkaan – hän tunnistaa kirjaimen ja sijoittaa kortin sen mukaan. Pieni miettii, mikä kirjain tulee aakkosissa ensin, ja järjestää kuvat a:sta ö:hön omin silmin. Tämä on suloinen aakkosjärjestyksen ja kirjaintuntemuksen harjoitus, koettavaksi kiireettömästi. Erehdyksen saa korjata levollisesti hymyillen. Tehtävä on täysin ilmainen ja valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "p3": "Jos lapsi piti tästä kuvien aakkostamisleikistä, hän voi jatkaa oivaltamista muilla yhtä rauhallisilla tehtävillä, joissa kuvina ovat Eläintarhan eläimet ja joissa jokaiseen korttiin on painettu sen alkukirjain. Ne kaikki on suunniteltu harjoittamaan esilukijan kirjaintuntemusta ja aakkosjärjestystä leikin lomassa, kun pieni tunnistaa painetun ensimmäisen kirjaimen ja asettaa kortit a:sta ö:hön. Tarjoa tehtäviä lempein sanoin ja kiireettä, antaen lapsen edetä omassa tahdissaan ilman ajanottoa tai pisteitä. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen sekä OPS 2014:n henkeen, jossa kieleen ja kirjaimiin tutustutaan leikkien. Kaikki tehtävät ovat täysin ilmaisia, valmiina tulostettavaksi tai pelattavaksi netissä.",
+      "canonicalDeckSlug": "aakkosjuna-kirjainvihje-elaintarhan-elaimet-686f",
+      "carousel": [
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Heinäkuun 4.",
+          "href": "aakkosjuna-kirjainvihje-heinakuun-4-ce1b"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Asusteet",
+          "href": "aakkosjuna-kirjainvihje-asusteet-1b68"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Kodin ympärillä",
+          "href": "aakkosjuna-kirjainvihje-kodin-ymparilla-dc98"
+        },
+        {
+          "label": "Aakkosjuna kuvilla – aiheena Aamiainen",
+          "href": "aakkosjuna-kirjainvihje-aamiainen-7efe"
+        }
+      ],
+      "title": "Aakkosjärjestys kuvilla varhaiskasvatukseen – Eläintarhan eläimet | tulostettava PDF",
+      "metaDescription": "Järjestä kuvakortit aakkosjärjestykseen niiden painetun alkukirjaimen mukaan – aiheena Eläintarhan eläimet. Esilukijalle sopiva, rauhallinen tehtävä. Tulosta ilmainen PDF tai pelaa netissä."
     }
   ]
 }

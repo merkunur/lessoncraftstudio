@@ -30,7 +30,14 @@ export interface LandingCoordinate { type: string; mode: string | null; theme: s
    * (one landing per (theme, letter)) where (type, mode, theme) alone is NOT unique. Included
    * in coordKey() when present, so these landings sibling cross-locale on (theme, letter) and
    * do NOT falsely match another locale's still-collapsed theme-level landing. */
-  letter?: string }
+  letter?: string;
+  /** Cross-language landings only — the TARGET language ISO the deck teaches (e.g. 'en' for a
+   * de→English crossword). Appended to coordKey() so a cross-language coordinate NEVER collides
+   * with the monolingual coordinate of the same (type, mode, theme) — e.g. monolingual
+   * `wordsearch|null|accessories` vs cross-language `wordsearch|null|accessories|t:en`. Cross-
+   * language siblings match on (type, mode, theme, target) across page-locales that teach the
+   * same target. Absent on monolingual coords → byte-identical key → zero regression. */
+  target?: string }
 export interface Landing {
   slug: string;
   variantShape: 'singleton' | 'collapsed';
@@ -104,6 +111,22 @@ export function getAllLandings(locale: string): Landing[] {
 }
 
 /**
+ * Monolingual landings only (no cross-language target). The /worksheets browse
+ * HUB is the monolingual catalog's browse home — cross-language "Learn <X>"
+ * landings live in the /learn category, NOT here. Use this for any monolingual-
+ * facing facet/browse surface; use getAllLandings for the sitemap + route
+ * generateStaticParams (which legitimately include cross-language entries).
+ */
+export function getMonolingualLandings(locale: string): Landing[] {
+  return getAllLandings(locale).filter((l) => !l.coordinate.target);
+}
+
+/** Cross-language landings only (a target language is set). */
+export function getCrossLanguageLandings(locale: string): Landing[] {
+  return getAllLandings(locale).filter((l) => !!l.coordinate.target);
+}
+
+/**
  * Reverse map: deck slug → published landing slug (per locale). Drives the
  * hub→landing CONDITIONAL REPOINT — a deck card points to its landing IFF a
  * published landing exists for that deck's coordinate; else it keeps the /decks/
@@ -137,7 +160,7 @@ export function landingSlugForDeck(locale: string, deckSlug: string): string | n
  */
 const _coordIndex: Record<string, Map<string, Landing>> = {};
 function coordKey(c: LandingCoordinate): string {
-  return `${c.type}|${c.mode === null ? 'null' : c.mode}|${c.theme}${c.letter ? '|' + c.letter : ''}`;
+  return `${c.type}|${c.mode === null ? 'null' : c.mode}|${c.theme}${c.letter ? '|' + c.letter : ''}${c.target ? '|t:' + c.target : ''}`;
 }
 function coordIndex(locale: string): Map<string, Landing> {
   if (_coordIndex[locale]) return _coordIndex[locale];
@@ -260,18 +283,25 @@ function neighborWindow(list: Landing[], self: Landing, take: number, exclude: S
 export function getRelatedLandings(locale: string, self: Landing): MeshGroups {
   const fx = facets(locale);
   const exclude = new Set<string>([self.slug]);
+  // Mesh must stay WITHIN its tier: a cross-language "Learn English" landing links
+  // only to other same-target cross-language landings; a monolingual landing links
+  // only to monolingual ones. Otherwise the shared byType/byTheme facets would
+  // cross-pollinate (an off-topic German-math link on a Learn-English page, and a
+  // diluted cross-language mesh). null target = monolingual.
+  const selfTarget = self.coordinate.target || null;
+  const sameTier = (l: Landing) => (l.coordinate.target || null) === selfTarget;
   // same type: prefer the same level's slice of the type list, then the rest of the type
-  const typeList = fx.byType.get(self.coordinate.type) || [];
+  const typeList = (fx.byType.get(self.coordinate.type) || []).filter(sameTier);
   const typeSameLevel = typeList.filter((l) => l.coordinate.level === self.coordinate.level);
   let sameType = neighborWindow(typeSameLevel, self, 4, exclude);
   if (sameType.length < 4) sameType = sameType.concat(neighborWindow(typeList, self, 4 - sameType.length, exclude));
   const sameTheme = neighborWindow(
-    (fx.byTheme.get(self.coordinate.theme) || []).filter((l) => l.coordinate.type !== self.coordinate.type),
+    (fx.byTheme.get(self.coordinate.theme) || []).filter((l) => sameTier(l) && l.coordinate.type !== self.coordinate.type),
     self, 4, exclude,
   );
   const sameLevel = neighborWindow(
     (fx.byLevel.get(self.coordinate.level) || []).filter(
-      (l) => l.coordinate.type !== self.coordinate.type && l.coordinate.theme !== self.coordinate.theme,
+      (l) => sameTier(l) && l.coordinate.type !== self.coordinate.type && l.coordinate.theme !== self.coordinate.theme,
     ),
     self, 2, exclude,
   );

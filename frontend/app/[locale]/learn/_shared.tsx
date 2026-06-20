@@ -28,7 +28,10 @@ export function deckTitleFor(deck: TopicDeckSummary, locale: string): string {
   return deck.slug;
 }
 
-/** Cross-language decks have no /worksheets landing, so this resolves to the /decks/ page. */
+/** Conditional repoint (same mechanism as the monolingual /topic grid): point a card at
+ *  its tier-3 /worksheets landing IFF one is published for the deck, else the /decks/ asset.
+ *  Cross-language landings carry a coordinate.target, so the moment they ship in the landing
+ *  JSON these cards auto-repoint; until then they fall back to /decks/. */
 export function deckLinkFor(deck: TopicDeckSummary): string {
   const lp = landingSlugForDeck(deck.language, deck.slug);
   return lp ? `/${deck.language}/worksheets/${lp}` : `/${deck.language}/decks/${deck.slug}/`;

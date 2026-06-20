@@ -21,6 +21,8 @@ import { EmbedWorksheet } from '@/components/worksheets/EmbedWorksheet';
 import { ogLocaleMap } from '@/lib/schema-generator';
 import { buildHreflangAlternates } from '@/lib/seo/hreflang';
 import { getAxisSlug } from '@/lib/taxonomy';
+import { getTranslations } from 'next-intl/server';
+import { targetLangName, targetLangSlug } from '@/lib/target-language';
 import {
   getLandingLocales, getLandingSlugs, getLandingBySlug, deckAssets, getSiblingLandingsByCoordinate,
   getRelatedLandings, Landing,
@@ -267,11 +269,30 @@ export default async function WorksheetLandingPage(
   const themeHub = localePath(locale, 'topic', themeHubSlug(l, locale));
   const intersection = localePath(locale, 'topic', themeHubSlug(l, locale), typeHubSlug(l, locale));
 
-  const breadcrumbSchema = buildBreadcrumbSchema([
-    { name: ui.worksheets, path: localePath(locale, 'worksheets') },
-    { name: ui.typeCrumb(l.eyebrow), path: typeHub },
-    { name: l.h1, path: localePath(locale, 'worksheets', l.slug) },
-  ]);
+  // Cross-language ("Learn <X>") variant: a target language ISO on the coordinate.
+  // These landings live under the Languages (/learn) category, carry NO CCSS standard,
+  // and breadcrumb "Languages › Learn <Target> › <H1>" (reusing the learnPage i18n
+  // namespace I authored in 11 locales) instead of the monolingual "Worksheets › Type".
+  const xlang = l.coordinate.target;
+  const tLearn = xlang ? await getTranslations({ locale, namespace: 'learnPage' }) : null;
+  const targetName = xlang ? targetLangName(xlang, locale) : '';
+  const learnCat = tLearn ? tLearn('category') : '';
+  const learnCrumb = tLearn ? tLearn('learnH1', { lang: targetName }) : '';
+  const learnHub = xlang ? localePath(locale, 'learn', targetLangSlug(xlang, locale)) : '';
+
+  const breadcrumbSchema = buildBreadcrumbSchema(
+    xlang
+      ? [
+          { name: learnCat, path: localePath(locale, 'learn') },
+          { name: learnCrumb, path: learnHub },
+          { name: l.h1, path: localePath(locale, 'worksheets', l.slug) },
+        ]
+      : [
+          { name: ui.worksheets, path: localePath(locale, 'worksheets') },
+          { name: ui.typeCrumb(l.eyebrow), path: typeHub },
+          { name: l.h1, path: localePath(locale, 'worksheets', l.slug) },
+        ],
+  );
 
   // Per-entry educational level. SINGLE band via coordinate.level, OR an honest grade
   // SPAN via l.levels (ordered low→high band keys) when a worksheet genuinely suits >1
@@ -330,6 +351,21 @@ export default async function WorksheetLandingPage(
     'esikoulu': { chip: 'Esikoulu', schema: 'Esiopetus', age: '5-6' },
     '1-luokka': { chip: '1. luokka', schema: 'Perusopetus — 1. luokka', age: '7' },
     '2-luokka': { chip: '2. luokka', schema: 'Perusopetus — 2. luokka', age: '8' },
+    // Cross-language ("Learn <X>") vocabulary decks are NOT national-grade-banded — they're
+    // early-language beginner practice for K-3 kids. One neutral "Beginner" band per locale
+    // (wide 5-9 age) keeps educationalLevel honest (no fake grade/standard). Locale-prefixed
+    // chips so a de Learn-English page reads "Anfänger", not "Beginner".
+    'language-beginner': { chip: 'Beginner', schema: 'Beginner', age: '5-9' },
+    'de:language-beginner': { chip: 'Anfänger', schema: 'Anfänger', age: '5-9' },
+    'es:language-beginner': { chip: 'Principiante', schema: 'Principiante', age: '5-9' },
+    'fr:language-beginner': { chip: 'Débutant', schema: 'Débutant', age: '5-9' },
+    'it:language-beginner': { chip: 'Principiante', schema: 'Principiante', age: '5-9' },
+    'nl:language-beginner': { chip: 'Beginner', schema: 'Beginner', age: '5-9' },
+    'pt:language-beginner': { chip: 'Iniciante', schema: 'Iniciante', age: '5-9' },
+    'sv:language-beginner': { chip: 'Nybörjare', schema: 'Nybörjare', age: '5-9' },
+    'da:language-beginner': { chip: 'Begynder', schema: 'Begynder', age: '5-9' },
+    'no:language-beginner': { chip: 'Nybegynner', schema: 'Nybegynner', age: '5-9' },
+    'fi:language-beginner': { chip: 'Aloittelija', schema: 'Aloittelija', age: '5-9' },
   };
   const _bandKeys = l.levels && l.levels.length ? l.levels : [l.coordinate.level];
   const _bands = _bandKeys.map((k) => LEVELS[`${locale}:${k}`] || LEVELS[k]).filter(Boolean);
@@ -410,17 +446,29 @@ export default async function WorksheetLandingPage(
 
           {/* breadcrumb */}
           <nav aria-label="Breadcrumb" className="text-sm text-ink-500 flex flex-wrap items-center gap-x-2 gap-y-1 mb-6">
-            <Link href={localePath(locale, 'worksheets')} className="hover:text-ink-900">{ui.worksheets}</Link>
-            <span aria-hidden="true" className="text-cream-300">›</span>
-            <Link href={typeHub} className="hover:text-ink-900">{ui.typeCrumb(l.eyebrow)}</Link>
-            {locale === 'en' && (
+            {xlang ? (
               <>
+                <Link href={localePath(locale, 'learn')} className="hover:text-ink-900">{learnCat}</Link>
                 <span aria-hidden="true" className="text-cream-300">›</span>
-                <Link href={intersection} className="hover:text-ink-900 hidden sm:inline">{cap(l.coordinate.theme)} · {l.eyebrow.replace(' Worksheet', '')}</Link>
+                <Link href={learnHub} className="hover:text-ink-900">{learnCrumb}</Link>
+                <span aria-hidden="true" className="text-cream-300 hidden sm:inline">›</span>
+                <span className="text-ink-900 font-medium" aria-current="page">{l.h1}</span>
+              </>
+            ) : (
+              <>
+                <Link href={localePath(locale, 'worksheets')} className="hover:text-ink-900">{ui.worksheets}</Link>
+                <span aria-hidden="true" className="text-cream-300">›</span>
+                <Link href={typeHub} className="hover:text-ink-900">{ui.typeCrumb(l.eyebrow)}</Link>
+                {locale === 'en' && (
+                  <>
+                    <span aria-hidden="true" className="text-cream-300">›</span>
+                    <Link href={intersection} className="hover:text-ink-900 hidden sm:inline">{cap(l.coordinate.theme)} · {l.eyebrow.replace(' Worksheet', '')}</Link>
+                  </>
+                )}
+                <span aria-hidden="true" className="text-cream-300 hidden sm:inline">›</span>
+                <span className="text-ink-900 font-medium" aria-current="page">{l.h1}</span>
               </>
             )}
-            <span aria-hidden="true" className="text-cream-300 hidden sm:inline">›</span>
-            <span className="text-ink-900 font-medium" aria-current="page">{l.h1}</span>
           </nav>
 
           {/* hero */}
@@ -444,7 +492,7 @@ export default async function WorksheetLandingPage(
                 <span className="inline-flex items-center gap-1.5 bg-[#E3EEEB] text-[#0E544A] font-semibold text-sm rounded-full px-3 py-1.5">{l.strand}</span>
                 {l.standard ? (
                   <span className="inline-flex items-center gap-1.5 bg-[#FBEDE6] text-[#9A4521] font-semibold text-sm rounded-full px-3 py-1.5">{fw.chip}</span>
-                ) : ui.comingSoon ? (
+                ) : (ui.comingSoon && !xlang) ? (
                   <span className="inline-flex items-center gap-1.5 border border-dashed border-cream-300 text-ink-500 italic text-sm rounded-full px-3 py-1.5">{ui.comingSoon}</span>
                 ) : null}
               </div>
@@ -562,8 +610,10 @@ export default async function WorksheetLandingPage(
           })()}
 
           {/* "Made with the … maker" — links to the worksheet-generator (maker)
-              landing for this deck's type, in the page's language. */}
-          {maker ? (
+              landing for this deck's type, in the page's language. Suppressed for
+              cross-language landings (the maker tools are a monolingual-catalog
+              concept; "make your own English wordsearch" isn't the Learn-<X> value). */}
+          {xlang ? null : maker ? (
             <section className="mb-4">
               <Link
                 href={localePath(locale, 'tools', maker.slug)}

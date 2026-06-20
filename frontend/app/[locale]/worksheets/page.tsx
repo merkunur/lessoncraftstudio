@@ -26,7 +26,7 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 import PageUsageBlock from '@/components/catalog/PageUsageBlock';
 import Pagination from '@/components/catalog/Pagination';
 import { buildFilterUrl, withParam } from '@/components/catalog/filterUrl';
-import { getAllLandings, deckAssets, Landing } from '@/lib/seo/landing-content';
+import { getMonolingualLandings, deckAssets, Landing } from '@/lib/seo/landing-content';
 
 const BASE_URL = CANONICAL_HOST;
 
@@ -231,7 +231,7 @@ export default async function AllWorksheetsPage({
   // Renders ONLY for locales with published landings (substrate honesty —
   // unled locales keep the tiles-only hub). Filters are SSR over the
   // in-memory landing arrays (microseconds at 2.5k entries).
-  const allLandings = getAllLandings(locale);
+  const allLandings = getMonolingualLandings(locale);
   const fType = searchParams?.type || '';
   const fLevel = searchParams?.level || '';
   const fTheme = searchParams?.theme || '';

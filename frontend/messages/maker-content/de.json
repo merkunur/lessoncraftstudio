@@ -21,7 +21,13 @@
       "Bieten Sie Bildaddition an einer Zählstation zum Anfassen an.",
       "Geben Sie ein kleines Blatt für zusätzliche Übung mit den Eltern nach Hause.",
       "Verbinden Sie ein thematisches Blatt mit dem Thema der Woche."
-    ]
+    ],
+    "modes": {
+      "find-addend": "Zeige einen Teil und die Summe; das Kind findet den fehlenden Summanden heraus.",
+      "image-image": "Zwei Bildergruppen addieren und alle zählen, um die Summe zu finden.",
+      "image-number": "Eine Bildergruppe zählen und dann eine Zahl dazu addieren.",
+      "mixed": "Eine Mischung aus Bild- und Zahlensummen auf einer Seite."
+    }
   },
   "subtraction": {
     "slug": "subtraktions-arbeitsblatt-ersteller",
@@ -45,7 +51,13 @@
       "Bieten Sie Bildsubtraktion an einer Zählstation mit beweglichen Gegenständen an.",
       "Geben Sie ein kurzes Übungsblatt zwischen den Stunden nach Hause.",
       "Mischen Sie ein thematisches Blatt unter, wenn Sie einen frischen Kontext für dieselbe Fertigkeit möchten."
-    ]
+    ],
+    "modes": {
+      "cross-out": "Das Kind streicht Bilder durch, um sie wegzunehmen, und zählt den Rest.",
+      "find-subtrahend": "Zeige Anfang und Ergebnis; das Kind findet die weggenommene Zahl.",
+      "image-number": "Eine Bildergruppe zählen und dann eine Zahl davon abziehen.",
+      "mixed": "Eine Mischung aus Bild- und Zahlen-Wegnehmaufgaben auf einem Blatt."
+    }
   },
   "code-addition": {
     "slug": "bilder-additions-ersteller",
@@ -69,7 +81,14 @@
       "Nutzen Sie es als Erweiterung für Kinder, die das normale Addieren früh beenden.",
       "Gehen Sie eine entschlüsselte Aufgabe gemeinsam durch, bevor die Kinder allein arbeiten.",
       "Verbinden Sie das Legendenthema mit einem aktuellen Thema für eine thematische Herausforderung."
-    ]
+    ],
+    "modes": {
+      "default": "Löse jede Summe und knacke mit dem Zahlenschlüssel ein verstecktes Bild.",
+      "secret-word": "Löse die Summen, und die Ergebnisse ergeben ein lustiges geheimes Wort."
+    },
+    "modeNames": {
+      "default": "Zahlencode"
+    }
   },
   "more-less": {
     "slug": "mehr-weniger-ersteller",
@@ -93,7 +112,12 @@
       "Stellen Sie es an einer Mathestation neben echten Gegenständen zum Vergleichen bereit.",
       "Zeigen Sie die Wörter „mehr“, „weniger“ und „gleich viel“, während Sie eines gemeinsam markieren.",
       "Geben Sie ein Blatt nach Hause, um alltägliche Gruppen zu vergleichen."
-    ]
+    ],
+    "modes": {
+      "check-cross": "Das Kind markiert, welche Gruppe mehr und welche weniger hat.",
+      "image-image": "Zwei Bildergruppen vergleichen und entscheiden, welche mehr oder weniger hat.",
+      "image-number": "Eine Bildergruppe mit einer Zahl vergleichen — mehr, weniger oder gleich?"
+    }
   },
   "math-puzzle": {
     "slug": "mathe-raetsel-ersteller",
@@ -117,7 +141,12 @@
       "Bieten Sie es als Erweiterung für Kinder an, die überlegen statt nur abrufen.",
       "Lösen Sie eine knifflige Zeile gemeinsam und sprechen Sie über den Lösungsweg.",
       "Stellen Sie ein kleines Set als Herausforderung für Schnellfertige bereit."
-    ]
+    ],
+    "modes": {
+      "addition": "Zahlengitter-Rätsel, bei denen jeder Hinweis eine Additionsaufgabe ist.",
+      "subtraction": "Zahlengitter-Rätsel, die ganz aus Wegnehmaufgaben bestehen.",
+      "mixed": "Rätselgitter, die Additions- und Subtraktionshinweise mischen."
+    }
   },
   "math-worksheet": {
     "slug": "mathe-arbeitsblatt-ersteller",
@@ -141,7 +170,17 @@
       "Setzen Sie es als selbstständige Arbeit ein, während Sie eine Kleingruppe begleiten.",
       "Geben Sie eines als leichte, abwechslungsreiche Übung nach Hause.",
       "Bauen Sie ein kurzes Blatt für eine schnelle Lernstandskontrolle am Ende einer Einheit."
-    ]
+    ],
+    "modes": {
+      "two-symbols-add-sub": "Aufgaben mit zwei Zahlen und Plus oder Minus, übersichtlich zum Lösen.",
+      "three-symbols-add-sub": "Aufgaben mit drei Zahlen, die Plus und Minus in einer Zeile verbinden.",
+      "four-symbols-add-sub": "Längere Ketten aus vier Zahlen mit Plus und Minus zum Durchrechnen."
+    },
+    "modeNames": {
+      "two-symbols-add-sub": "Zwei Zahlen",
+      "three-symbols-add-sub": "Drei Zahlen",
+      "four-symbols-add-sub": "Vier Zahlen"
+    }
   },
   "alphabet-train": {
     "slug": "alphabet-zug-ersteller",
@@ -165,7 +204,14 @@
       "Nutzen Sie es an einer Lese-Station neben Magnetbuchstaben.",
       "Beginnen Sie mit einer oder zwei Lücken und fügen Sie mehr hinzu, wenn die Kinder wachsen.",
       "Geben Sie einen Zug nach Hause, um die Buchstabenreihenfolge mit einem Erwachsenen zu üben."
-    ]
+    ],
+    "modes": {
+      "letter-hint": "Jeder Waggon zeigt einen Buchstabenhinweis zum Bauen des Alphabet-Zugs.",
+      "default": "Baue den Alphabet-Zug, indem du die Buchstaben in die richtige Reihenfolge bringst."
+    },
+    "modeNames": {
+      "default": "Klassisch"
+    }
   },
   "prepositions": {
     "slug": "praepositionen-arbeitsblatt-ersteller",
@@ -189,7 +235,11 @@
       "Nutzen Sie es für ein sprachreiches „Wo ist es?“-Gespräch.",
       "Verbinden Sie es mit Alltagsgegenständen aus dem Klassenraum für eine Übung zum Anfassen.",
       "Verknüpfen Sie das Szenenthema mit einer Geschichte, die Sie gemeinsam lesen."
-    ]
+    ],
+    "modes": {
+      "fillin": "Das Kind schreibt das Ortswort (in, auf, unter…), das zu jedem Bild passt.",
+      "multiplechoice": "Wähle für jedes Bild das richtige Ortswort aus den Möglichkeiten."
+    }
   },
   "word-guess": {
     "slug": "woerter-raten-ersteller",
@@ -213,7 +263,11 @@
       "Geben Sie für jüngere Kinder mehr Anfangsbuchstaben vor, um den Einstieg zu erleichtern.",
       "Setzen Sie das Rätsel als kurze Wiederholung am Ende der Stunde ein.",
       "Lassen Sie die Kinder die erratenen Wörter laut vorlesen und in einen Satz einbauen."
-    ]
+    ],
+    "modes": {
+      "easy": "Kürzere Wörter mit Bildhinweisen für Leseanfänger zum Erraten.",
+      "normal": "Längere Wörter und kniffligere Hinweise für sichere Leser."
+    }
   },
   "word-scramble": {
     "slug": "buchstabensalat-ersteller",
@@ -237,7 +291,11 @@
       "Nutzen Sie es, um Themen- oder Sachwortschatz am Ende der Woche zu wiederholen.",
       "Stellen Sie es als Rechtschreibstation mit beweglichen Buchstabenkärtchen bereit.",
       "Geben Sie einen kurzen Buchstabensalat für spielerische Rechtschreibübung nach Hause."
-    ]
+    ],
+    "modes": {
+      "easy": "Kurze, bekannte Wörter mit Bildhinweis als Hilfe entwirren.",
+      "normal": "Längere Wörter entwirren für eine größere Rechtschreib-Herausforderung."
+    }
   },
   "wordsearch": {
     "slug": "wortsuche-ersteller",
@@ -261,7 +319,15 @@
       "Legen Sie eine leichte und eine schwere Variante an, um in der Klasse zu differenzieren.",
       "Setzen Sie die Wortsuche als entspannte Beschäftigung für die ersten Minuten am Morgen ein.",
       "Lassen Sie die Kinder zu zweit suchen und sich gegenseitig die gefundenen Wörter vorlesen."
-    ]
+    ],
+    "modes": {
+      "default": "Verstecke eine Wortliste im Gitter, die das Kind findet und einkreist.",
+      "image-only": "Eine Bild-Wortsuche — das Kind findet die Wörter zu den gezeigten Bildern."
+    },
+    "modeNames": {
+      "default": "Wortjagd",
+      "image-only": "Bilderjagd"
+    }
   },
   "cryptogram": {
     "slug": "kryptogramm-ersteller",
@@ -285,7 +351,8 @@
       "Nutzen Sie ein Kryptogramm als motivierenden Einstieg in eine neue Unterrichtseinheit oder ein Projektthema.",
       "Setzen Sie das Rätsel als ruhige Stationsarbeit oder Freiarbeit für schnelle Kinder ein.",
       "Gestalten Sie eine Schatzsuche, bei der jede geknackte Botschaft zum nächsten Hinweis führt."
-    ]
+    ],
+    "samplesIntro": "Erstelle Entschlüssel-Rätsel, bei denen Symbole für Buchstaben stehen."
   },
   "writing": {
     "slug": "schreibuebungen-ersteller",
@@ -333,7 +400,15 @@
       "Nutzen Sie es an einer Sortierstation mit großem und kleinem Spielzeug.",
       "Zeigen Sie die Wörter groß, klein, größer und kleiner, während Sie üben.",
       "Geben Sie ein Blatt nach Hause, um große und kleine Dinge im Haus zu finden."
-    ]
+    ],
+    "modes": {
+      "findBig": "Das Kind erkennt und tippt das größte (oder kleinste) Bild in jedem Satz an.",
+      "orderAsc": "Bringe die Bilder in die Reihenfolge vom kleinsten zum größten."
+    },
+    "modeNames": {
+      "findBig": "Das Größte finden",
+      "orderAsc": "Nach Größe ordnen"
+    }
   },
   "pattern-train": {
     "slug": "muster-zug-ersteller",
@@ -357,7 +432,17 @@
       "Bauen Sie ein passendes Muster mit Bausteinen an einer Station.",
       "Beginnen Sie mit einfachen ABAB-Mustern und fügen Sie dann Komplexität hinzu.",
       "Verbinden Sie das Musterthema mit Ihrem aktuellen Thema."
-    ]
+    ],
+    "modes": {
+      "aab": "Sich wiederholende A-A-B-Bildmuster, die das Kind fortsetzt.",
+      "aabb": "A-A-B-B-Muster, die einen ruhigen Zwei-zu-Zwei-Rhythmus aufbauen.",
+      "abb": "A-B-B-Muster zum Lesen, Vorhersagen und Erweitern.",
+      "abc": "Dreiteilige A-B-C-Muster mit einer längeren sich wiederholenden Einheit.",
+      "default": "Gemischte Wiederholungsmuster, bei denen das Kind herausfindet, was kommt."
+    },
+    "modeNames": {
+      "default": "Gemischte Muster"
+    }
   },
   "pattern-worksheet": {
     "slug": "muster-arbeitsblatt-ersteller",
@@ -381,7 +466,8 @@
       "Setzen Sie es als selbstständige Arbeit nach einer kurzen Muster-Einführung ein.",
       "Bieten Sie schwierigere Muster als Erweiterung für Schnellfertige an.",
       "Kombinieren Sie Bild- und Formenzeilen für abwechslungsreiche Übung."
-    ]
+    ],
+    "samplesIntro": "Erstelle gemischte Muster-Arbeitsblätter zum Lesen und Vervollständigen."
   },
   "draw-and-color": {
     "slug": "rasterzeichnen-ersteller",
@@ -477,7 +563,8 @@
       "Nutzen Sie es, um die Ergebnisse einer kurzen Klassenumfrage festzuhalten.",
       "Sprechen Sie gemeinsam darüber, welche Säule am höchsten und welche am niedrigsten ist.",
       "Stellen Sie es an einer Mathestation als Datenübung zum Anfassen bereit."
-    ]
+    ],
+    "samplesIntro": "Erstelle Zähl-und-Diagramm-Arbeitsblätter, bei denen Bilder in ein Diagramm übertragen werden."
   },
   "matching": {
     "slug": "zuordnungs-arbeitsblatt-ersteller",
@@ -501,7 +588,11 @@
       "Nutzen Sie es, um thematischen Wortschatz oder verwandte Begriffe zu wiederholen.",
       "Stellen Sie es an einer Station mit echten Kärtchen zum Zuordnen bereit.",
       "Geben Sie ein Zuordnungsblatt für schnelle, klare Übung nach Hause."
-    ]
+    ],
+    "modes": {
+      "letter": "Ziehe eine Linie von jedem Bild zum Anfangsbuchstaben.",
+      "name": "Ordne jedem Bild sein geschriebenes Wort zu."
+    }
   },
   "grid-match": {
     "slug": "raster-puzzle-ersteller",
@@ -525,7 +616,8 @@
       "Nutzen Sie es als Genau-Hinsehen-Herausforderung an einer Mathestation.",
       "Beginnen Sie mit einem kleinen Raster und vergrößern Sie es, wenn die Sicherheit wächst.",
       "Verbinden Sie das Bildthema mit Ihrem aktuellen Thema."
-    ]
+    ],
+    "samplesIntro": "Erstelle Gitter-Zuordnungs-Arbeitsblätter, die Bilder über ein Gitter paaren."
   },
   "shadow-match": {
     "slug": "schattenbilder-ersteller",
@@ -549,7 +641,11 @@
       "Nutzen Sie es als konzentrierte Station zur visuellen Wahrnehmung.",
       "Sprechen Sie darüber, wie die Form allein hilft, einen Gegenstand zu erkennen.",
       "Verbinden Sie das Bildthema mit einer Geschichte oder einem Thema."
-    ]
+    ],
+    "modes": {
+      "find-shadow": "Ordne jedem Bild seine passende Schattenform zu.",
+      "make-whole": "Füge die zwei Hälften zusammen, die jedes Bild wieder ganz machen."
+    }
   },
   "bingo": {
     "slug": "bingo-karten-ersteller",
@@ -573,7 +669,8 @@
       "Rufen Sie die Wörter in einer anderen Sprache für Sprachenlerner auf.",
       "Lassen Sie ein Kind die Aufruferin sein, um das Lesen der Bilder zu üben.",
       "Spielen Sie eine kurze Runde als vergnüglichen Stundenbeginn oder Übergang."
-    ]
+    ],
+    "samplesIntro": "Erstelle Bild- und Wort-Bingokarten, die deine ganze Klasse zusammen spielen kann."
   },
   "picture-sort": {
     "slug": "bilder-sortieren-ersteller",
@@ -597,7 +694,8 @@
       "Nutzen Sie es zur Unterstützung einer Sortier-Stunde in Sachkunde oder im Thema.",
       "Gehen Sie ein Bild gemeinsam durch und benennen Sie, warum es zu einer Gruppe passt.",
       "Stellen Sie es an einer Station mit ausgeschnittenen Bildern zum echten Sortieren bereit."
-    ]
+    ],
+    "samplesIntro": "Erstelle Sortier-Arbeitsblätter, bei denen Bilder in die richtigen Körbe gruppiert werden."
   },
   "missing-pieces": {
     "slug": "fehlende-puzzleteile-ersteller",
@@ -621,7 +719,11 @@
       "Nutzen Sie es als Herausforderung zum visuellen Denken an einer ruhigen Station.",
       "Verbinden Sie es mit einfachen Steckpuzzles für Übung zum Anfassen.",
       "Verknüpfen Sie das Bildthema mit Ihrem aktuellen Thema."
-    ]
+    ],
+    "modes": {
+      "one-missing": "Ein Teil fehlt im Bild — das Kind wählt das Stück, das es vervollständigt.",
+      "two-missing": "Zwei Teile fehlen, also wählt das Kind beide Stücke, um das Bild fertigzustellen."
+    }
   },
   "odd-one-out": {
     "slug": "was-passt-nicht-ersteller",
@@ -645,7 +747,11 @@
       "Nutzen Sie es, um eine Sortier- oder Kategorisier-Stunde zu vertiefen.",
       "Ermutigen Sie die Kinder zu sagen, warum ihre Wahl nicht passt.",
       "Setzen Sie es als kurze Denk-Aufwärmübung ein."
-    ]
+    ],
+    "modes": {
+      "same-theme": "Alle Bilder teilen ein Thema außer einem — finde das, was nicht passt.",
+      "cross-theme": "Die Bilder stammen aus verschiedenen Themen; finde das, was nicht passt."
+    }
   },
   "sudoku": {
     "slug": "kinder-sudoku-ersteller",
@@ -669,7 +775,12 @@
       "Beginnen Sie mit einem 4x4-Raster und steigern Sie die Größe, sobald die Kinder sicherer werden.",
       "Lassen Sie die Kinder das ausgeschnittene Bildmaterial erst legen und dann eintragen.",
       "Verbinden Sie das Thema des Sudokus mit dem aktuellen Sachunterricht, etwa Tiere oder Obst."
-    ]
+    ],
+    "modes": {
+      "easy": "Sanfte Bild-Sudoku-Gitter für einen ersten Versuch mit dem Rätsel.",
+      "medium": "Eine Stufe höher, mit etwas volleren Gittern zum Durchdenken.",
+      "hard": "Kniffligere Gitter, die mehr sorgfältige Logik zum Lösen brauchen."
+    }
   },
   "picture-path": {
     "slug": "bilderpfad-ersteller",
@@ -693,7 +804,12 @@
       "Nutzen Sie es als ruhige, konzentrierte Aktivität an einer stillen Station.",
       "Beginnen Sie mit einfachen Labyrinthen und steigern Sie den Schwierigkeitsgrad.",
       "Sprechen Sie über das Planen einer Route, statt loszustürmen."
-    ]
+    ],
+    "modes": {
+      "choose-path": "Das Kind wählt den richtigen Weg durch ein Bildlabyrinth.",
+      "classic-maze": "Ein klassisches Labyrinth von Start bis Ziel, ohne Wände zu kreuzen.",
+      "pathway": "Folge dem Bildpfad von einem Ende zum anderen."
+    }
   },
   "find-and-count": {
     "slug": "suchen-und-zaehlen-ersteller",
@@ -717,7 +833,11 @@
       "Nutzen Sie es an einer Station für frühes Zählen.",
       "Ermutigen Sie die Kinder, jedes Ding einmal zu berühren, während sie zählen.",
       "Verbinden Sie das Szenenthema mit einer Geschichte oder einem Thema."
-    ]
+    ],
+    "modes": {
+      "hidden-object": "Das Kind sucht versteckte Dinge in einem wimmeligen Bild und zählt sie.",
+      "letter-spotting": "Suche im Bild einen bestimmten Buchstaben und zähle jeden gefundenen."
+    }
   },
   "find-objects": {
     "slug": "suchbilder-ersteller",
@@ -741,7 +861,11 @@
       "Setzen Sie das Suchbild als ruhige Aufgabe für die Eingangsphase am Morgen ein.",
       "Lassen Sie die Kinder zu jedem gefundenen Motiv das passende Wort nennen.",
       "Nutzen Sie ein Thema aus dem Sachunterricht, etwa Tiere oder Fahrzeuge, als Motivauswahl."
-    ]
+    ],
+    "modes": {
+      "find-odd": "Erkenne das eine Bild in der Reihe, das nicht zu den anderen passt.",
+      "i-spy": "Eine Ich-sehe-was-Szene, in der die genannten Dinge gefunden und gezählt werden."
+    }
   },
   "crossword": {
     "slug": "bilderkreuzwortraetsel-ersteller",
@@ -765,7 +889,8 @@
       "Nutzen Sie das Rätsel zur Wortschatzwiederholung am Ende einer Unterrichtseinheit.",
       "Differenzieren Sie, indem Sie für manche Kinder die Anfangsbuchstaben vorgeben.",
       "Lassen Sie die Kinder ihr ausgefülltes Rätsel mit dem Lösungsblatt selbst kontrollieren."
-    ]
+    ],
+    "samplesIntro": "Erstelle Bild-Kreuzworträtsel, bei denen jedes Wort ins Gitter geschrieben wird."
   },
   "treasure-hunt": {
     "slug": "schatzsuche-ersteller",
@@ -789,7 +914,11 @@
       "Nutzen Sie es, um die Wörter oben, unten, links und rechts zu üben.",
       "Setzen Sie es als Problemlöse-Herausforderung an einer Station ein.",
       "Erhöhen Sie die Anzahl der Schritte, wenn die Kinder sicherer werden."
-    ]
+    ],
+    "modes": {
+      "cardinal-arrows": "Folge Pfeilen nach oben, unten, links und rechts durchs Gitter zum Schatz.",
+      "compass": "Nutze Himmelsrichtungen, um über die Karte zum Schatz zu navigieren."
+    }
   },
   "labels": {
     "about": "Über diesen Generator",
@@ -798,6 +927,13 @@
     "launchCta": "{name} kostenlos öffnen",
     "otherLanguages": "In anderen Sprachen verfügbar",
     "relatedMakers": "Weitere Arbeitsblatt-Generatoren",
-    "makersBreadcrumb": "Arbeitsblatt-Generatoren"
+    "makersBreadcrumb": "Arbeitsblatt-Generatoren",
+    "samplesHeading": "Sieh, was du erstellen kannst",
+    "samplesIntroDefault": "Jede Vorlage unten ist ein fertiges Beispiel — tippe an, um es zu spielen, und jedes Arbeitsblatt kannst du kostenlos ausdrucken.",
+    "playSample": "Beispiel spielen",
+    "crossLangHeading": "Arbeitsblätter zum Sprachenlernen erstellen",
+    "crossLangIntro": "Derselbe Generator erstellt auch Bild-Wortschatz-Arbeitsblätter zum Lernen einer neuen Sprache.",
+    "seeAllLang": "Alle {lang} Arbeitsblätter ansehen",
+    "closeSample": "Beispiel schließen"
   }
 }

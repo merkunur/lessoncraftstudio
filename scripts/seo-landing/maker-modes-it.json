@@ -1,0 +1,200 @@
+{
+  "labels": {
+    "samplesHeading": "Guarda cosa puoi creare",
+    "samplesIntroDefault": "Ogni stile qui sotto è un esempio già pronto — toccalo per provarlo, e ogni scheda è gratuita da stampare.",
+    "playSample": "Prova l'esempio",
+    "crossLangHeading": "Crea schede per ‘imparare una lingua’",
+    "crossLangIntro": "Lo stesso strumento crea anche schede di vocabolario illustrato per imparare una nuova lingua.",
+    "seeAllLang": "Vedi tutte le schede {lang}",
+    "closeSample": "Chiudi l'esempio"
+  },
+  "makers": {
+    "addition": {
+      "modes": {
+        "find-addend": "Mostra una parte e il totale; il bambino trova l'addendo mancante.",
+        "image-image": "Il bambino somma due gruppi di immagini e li conta tutti per trovare il risultato.",
+        "image-number": "Il bambino conta un gruppo di immagini, poi lo aggiunge a un numero per il totale.",
+        "mixed": "Un misto di somme con immagini e somme con numeri sulla stessa pagina."
+      }
+    },
+    "subtraction": {
+      "modes": {
+        "cross-out": "Il bambino cancella le immagini per toglierle e conta quelle che restano.",
+        "find-subtrahend": "Mostra l'inizio e il risultato; il bambino trova il numero tolto.",
+        "image-number": "Il bambino conta un gruppo di immagini, poi sottrae un numero.",
+        "mixed": "Un misto di sottrazioni con immagini e con numeri sulla stessa scheda."
+      }
+    },
+    "code-addition": {
+      "modes": {
+        "default": "Il bambino risolve ogni somma, poi usa la chiave numerica per svelare un'immagine nascosta.",
+        "secret-word": "Il bambino risolve le somme e le risposte compongono una parola segreta divertente."
+      },
+      "modeNames": {
+        "default": "Codice numerico"
+      }
+    },
+    "more-less": {
+      "modes": {
+        "check-cross": "Il bambino segna quale gruppo ne ha di più e quale di meno.",
+        "image-image": "Il bambino confronta due gruppi di immagini e decide quale è di più o di meno.",
+        "image-number": "Il bambino confronta un gruppo di immagini con un numero — di più, di meno o uguale?"
+      }
+    },
+    "math-puzzle": {
+      "modes": {
+        "addition": "Puzzle a griglia numerica in cui ogni indizio è un'addizione.",
+        "subtraction": "Puzzle a griglia numerica costruiti interamente con sottrazioni.",
+        "mixed": "Griglie di puzzle che mescolano indizi di addizione e sottrazione."
+      }
+    },
+    "math-worksheet": {
+      "modes": {
+        "two-symbols-add-sub": "Somme tra due numeri con un più o un meno, ben disposte da risolvere.",
+        "three-symbols-add-sub": "Problemi a tre numeri che combinano più e meno in una sola riga.",
+        "four-symbols-add-sub": "Sequenze più lunghe di quattro numeri con più e meno da svolgere."
+      },
+      "modeNames": {
+        "two-symbols-add-sub": "Due numeri",
+        "three-symbols-add-sub": "Tre numeri",
+        "four-symbols-add-sub": "Quattro numeri"
+      }
+    },
+    "alphabet-train": {
+      "modes": {
+        "letter-hint": "Ogni vagone mostra l'indizio di una lettera per costruire il trenino dell'alfabeto.",
+        "default": "Il bambino costruisce il trenino dell'alfabeto mettendo le lettere nell'ordine giusto."
+      },
+      "modeNames": {
+        "default": "Classico"
+      }
+    },
+    "prepositions": {
+      "modes": {
+        "fillin": "Il bambino scrive la parola di posizione (dentro, su, sotto…) adatta a ogni immagine.",
+        "multiplechoice": "Il bambino sceglie la parola di posizione giusta per ogni immagine tra le opzioni."
+      }
+    },
+    "word-guess": {
+      "modes": {
+        "easy": "Parole più corte con indizi illustrati da indovinare per chi inizia a leggere.",
+        "normal": "Parole più lunghe e indizi più difficili per i lettori sicuri."
+      }
+    },
+    "word-scramble": {
+      "modes": {
+        "easy": "Il bambino riordina parole corte e familiari con l'aiuto di un'immagine.",
+        "normal": "Il bambino riordina parole più lunghe per una sfida di ortografia più grande."
+      }
+    },
+    "wordsearch": {
+      "modes": {
+        "default": "Nascondi un elenco di parole nella griglia perché il bambino le trovi e le cerchi.",
+        "image-only": "Una ricerca di parole illustrata — il bambino trova le parole delle immagini mostrate."
+      },
+      "modeNames": {
+        "default": "Caccia alle parole",
+        "image-only": "Caccia alle immagini"
+      }
+    },
+    "cryptogram": {
+      "samplesIntro": "Crea puzzle da decifrare in cui i simboli prendono il posto delle lettere."
+    },
+    "big-small": {
+      "modes": {
+        "findBig": "Il bambino individua e tocca l'immagine più grande (o più piccola) di ogni insieme.",
+        "orderAsc": "Il bambino mette le immagini in ordine dalla più piccola alla più grande."
+      },
+      "modeNames": {
+        "findBig": "Trova la più grande",
+        "orderAsc": "Ordina per grandezza"
+      }
+    },
+    "pattern-train": {
+      "modes": {
+        "aab": "Sequenze illustrate ripetute A-A-B che il bambino prosegue.",
+        "aabb": "Sequenze A-A-B-B che creano un ritmo costante a due a due.",
+        "abb": "Sequenze A-B-B da leggere, prevedere ed estendere.",
+        "abc": "Sequenze a tre parti A-B-C con un'unità ripetuta più lunga.",
+        "default": "Sequenze ripetute miste in cui il bambino capisce cosa viene dopo."
+      },
+      "modeNames": {
+        "default": "Sequenze miste"
+      }
+    },
+    "pattern-worksheet": {
+      "samplesIntro": "Crea schede di sequenze miste da leggere e completare."
+    },
+    "chart-count": {
+      "samplesIntro": "Crea schede conta-e-rappresenta in cui il bambino riporta le immagini in un grafico."
+    },
+    "matching": {
+      "modes": {
+        "letter": "Il bambino traccia una linea da ogni immagine alla lettera con cui inizia.",
+        "name": "Il bambino abbina ogni immagine alla sua parola scritta."
+      }
+    },
+    "grid-match": {
+      "samplesIntro": "Crea schede di abbinamento a griglia che accoppiano le immagini su una griglia."
+    },
+    "shadow-match": {
+      "modes": {
+        "find-shadow": "Il bambino abbina ogni immagine alla sua ombra corrispondente.",
+        "make-whole": "Il bambino unisce le due metà che ricompongono ogni immagine."
+      }
+    },
+    "bingo": {
+      "samplesIntro": "Crea cartelle di tombola con immagini e parole per giocare con tutta la classe."
+    },
+    "picture-sort": {
+      "samplesIntro": "Crea schede di classificazione in cui il bambino raggruppa le immagini nei cestini giusti."
+    },
+    "missing-pieces": {
+      "modes": {
+        "one-missing": "Manca un pezzo dell'immagine — il bambino sceglie la parte che la completa.",
+        "two-missing": "Mancano due pezzi, così il bambino sceglie entrambe le parti per finire l'immagine."
+      }
+    },
+    "odd-one-out": {
+      "modes": {
+        "same-theme": "Ogni immagine ha un tema comune tranne una — il bambino trova l'intrusa.",
+        "cross-theme": "Le immagini sono di temi diversi; il bambino individua quella che non c'entra."
+      }
+    },
+    "sudoku": {
+      "modes": {
+        "easy": "Griglie di sudoku illustrato semplici per un primo approccio al puzzle.",
+        "medium": "Un gradino più su, con griglie un po' più piene su cui ragionare.",
+        "hard": "Griglie più difficili che richiedono una logica più attenta per completarle."
+      }
+    },
+    "picture-path": {
+      "modes": {
+        "choose-path": "Il bambino sceglie il percorso giusto attraverso un labirinto illustrato.",
+        "classic-maze": "Un labirinto classico da tracciare dall'inizio alla fine senza toccare le pareti.",
+        "pathway": "Il bambino segue il sentiero illustrato da un capo all'altro."
+      }
+    },
+    "find-and-count": {
+      "modes": {
+        "hidden-object": "Il bambino cerca gli oggetti nascosti in una scena affollata e li conta.",
+        "letter-spotting": "Il bambino cerca una lettera nell'immagine e conta tutte quelle trovate."
+      }
+    },
+    "find-objects": {
+      "modes": {
+        "find-odd": "Il bambino individua l'unica immagine della fila che non si abbina alle altre.",
+        "i-spy": "Una scena cerca-e-trova in cui il bambino trova e conta gli oggetti indicati."
+      }
+    },
+    "crossword": {
+      "samplesIntro": "Crea cruciverba illustrati in cui il bambino scrive ogni parola nella griglia."
+    },
+    "treasure-hunt": {
+      "modes": {
+        "cardinal-arrows": "Il bambino segue le frecce su, giù, sinistra e destra nella griglia fino al tesoro.",
+        "compass": "Il bambino usa i punti cardinali per orientarsi sulla mappa e trovare il tesoro."
+      }
+    }
+  }
+}

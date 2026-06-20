@@ -21,7 +21,13 @@
       "Sijoita kuvayhteenlasku toiminnalliseen laskupisteeseen, jossa on laskettavia esineitä.",
       "Lähetä lyhyt arkki kotiin lisäharjoitteluksi vanhemman kanssa.",
       "Yhdistä teemallinen arkki viikon aiheeseen, jotta laskeminen tukee muuta opetusta."
-    ]
+    ],
+    "modes": {
+      "find-addend": "Näytä yksi osa ja kokonaismäärä; lapsi päättelee puuttuvan yhteenlaskettavan.",
+      "image-image": "Lapsesi laskee yhteen kaksi kuvaryhmää ja löytää summan laskemalla kaikki.",
+      "image-number": "Lapsi laskee kuvaryhmän ja lisää siihen luvun saadakseen summan.",
+      "mixed": "Sekoitus kuvasummia ja lukusummia samalla sivulla."
+    }
   },
   "subtraction": {
     "slug": "vahennyslasku-generaattori",
@@ -45,7 +51,13 @@
       "Tarjoa kuvavähennyslaskua laskupisteellä, jossa on siirreltäviä esineitä.",
       "Lähetä lyhyt harjoitusarkki kotiin tuntien välillä.",
       "Sekoita mukaan teemallinen sivu, kun haluat uuden kontekstin samalle taidolle."
-    ]
+    ],
+    "modes": {
+      "cross-out": "Lapsi yliviivaa kuvia ottaakseen ne pois ja laskee, mitä jää jäljelle.",
+      "find-subtrahend": "Näytä alku ja vastaus; lapsi etsii pois otetun luvun.",
+      "image-number": "Lapsesi laskee kuvaryhmän ja vähentää siitä luvun.",
+      "mixed": "Sekoitus kuva- ja lukuvähennyslaskuja samalla sivulla."
+    }
   },
   "code-addition": {
     "slug": "koodi-yhteenlasku-generaattori",
@@ -69,7 +81,14 @@
       "Käytä sitä lisätehtävänä lapsille, jotka saavat tavalliset yhteenlaskut nopeasti valmiiksi.",
       "Käy yksi purettu lasku läpi yhdessä ennen kuin lapset työskentelevät yksin.",
       "Liitä selitteen teema nykyiseen aiheeseen teemallisena haasteena."
-    ]
+    ],
+    "modes": {
+      "default": "Ratkaise jokainen summa ja avaa lukuavaimella piilotettu kuvakoodi.",
+      "secret-word": "Ratkaise summat, ja vastaukset paljastavat hauskan salasanan."
+    },
+    "modeNames": {
+      "default": "Numerokoodi"
+    }
   },
   "more-less": {
     "slug": "enemman-vahemman-generaattori",
@@ -93,7 +112,12 @@
       "Sijoita se laskupisteelle yhdessä vertailtavien oikeiden esineiden kanssa.",
       "Mallinna sanat ”enemmän”, ”vähemmän” ja ”yhtä paljon”, kun merkitsette yhden yhdessä.",
       "Lähetä arkki kotiin harjoittelemaan arkisten ryhmien vertailua."
-    ]
+    ],
+    "modes": {
+      "check-cross": "Lapsi merkitsee, missä ryhmässä on enemmän ja missä vähemmän.",
+      "image-image": "Vertaa kahta kuvaryhmää ja päätä, kummassa on enemmän tai vähemmän.",
+      "image-number": "Vertaa kuvaryhmää lukuun — enemmän, vähemmän vai yhtä paljon?"
+    }
   },
   "math-puzzle": {
     "slug": "matikkapulma-generaattori",
@@ -117,7 +141,12 @@
       "Tarjoa sitä lisätehtävänä lapsille, jotka ovat valmiita päättelemään eivätkä vain muistamaan.",
       "Ratkaiskaa yksi vaikea rivi yhdessä ja puhukaa ajattelusta ääneen.",
       "Anna pieni setti pulmia varhain valmistuvien haasteeksi."
-    ]
+    ],
+    "modes": {
+      "addition": "Lukuruudukkopulmia, joissa jokainen vihje on yhteenlasku.",
+      "subtraction": "Lukuruudukkopulmia, jotka rakentuvat pelkistä vähennyslaskuista.",
+      "mixed": "Pulmaruudukoita, joissa yhdistyvät yhteen- ja vähennyslaskuvihjeet."
+    }
   },
   "math-worksheet": {
     "slug": "matematiikka-generaattori",
@@ -141,7 +170,17 @@
       "Anna se itsenäisenä työnä, kun ohjaat pienryhmää.",
       "Lähetä yksi kotiin kevyenä, vaihtelevana harjoitteluna.",
       "Rakenna lyhyt arkki nopeaksi arvioinniksi jakson lopussa."
-    ]
+    ],
+    "modes": {
+      "two-symbols-add-sub": "Kahden luvun laskuja plus- tai miinusmerkillä, siististi ratkottavaksi.",
+      "three-symbols-add-sub": "Kolmen luvun laskuja, jotka yhdistävät plussan ja miinuksen samalle riville.",
+      "four-symbols-add-sub": "Pidempiä neljän luvun plus- ja miinusketjuja työstettäväksi."
+    },
+    "modeNames": {
+      "two-symbols-add-sub": "Kaksi lukua",
+      "three-symbols-add-sub": "Kolme lukua",
+      "four-symbols-add-sub": "Neljä lukua"
+    }
   },
   "alphabet-train": {
     "slug": "aakkoset-generaattori",
@@ -165,7 +204,14 @@
       "Käytä sitä lukupisteellä magneettikirjainten kanssa.",
       "Aloita yhdellä tai kahdella aukolla ja lisää niitä, kun lapset kehittyvät.",
       "Lähetä juna kotiin harjoittelemaan kirjainjärjestystä aikuisen kanssa."
-    ]
+    ],
+    "modes": {
+      "letter-hint": "Jokainen vaunu näyttää kirjainvihjeen aakkosjunan rakentamiseen.",
+      "default": "Rakenna aakkosjuna asettamalla kirjaimet oikeaan järjestykseen."
+    },
+    "modeNames": {
+      "default": "Klassinen"
+    }
   },
   "prepositions": {
     "slug": "sijaintisanat-generaattori",
@@ -189,7 +235,11 @@
       "Käytä sitä tukemaan rikasta ”missä se on?” -keskustelua.",
       "Yhdistä se arkisiin luokan esineisiin toiminnalliseen jatkoon.",
       "Liitä kuvan teema tarinaan, jota luette yhdessä."
-    ]
+    ],
+    "modes": {
+      "fillin": "Lapsi kirjoittaa kuhunkin kuvaan sopivan paikkasanan (sisällä, päällä, alla…).",
+      "multiplechoice": "Valitse kuhunkin kuvaan oikea paikkasana vaihtoehdoista."
+    }
   },
   "word-guess": {
     "slug": "hirsipuu-generaattori",
@@ -213,7 +263,11 @@
       "Käytä kuvavihjeitä, jotta lapset yhdistävät sanan merkityksen sen kirjoitusasuun.",
       "Tee aihesananarvaus hauskana jakson lopun kertauksena.",
       "Anna varhain valmistuvien arvata muutama lisäsana muiden tehdessä sivua."
-    ]
+    ],
+    "modes": {
+      "easy": "Lyhyempiä sanoja kuvavihjeineen alkavien lukijoiden arvattaviksi.",
+      "normal": "Pidempiä sanoja ja vaikeampia vihjeitä varmemmille lukijoille."
+    }
   },
   "word-scramble": {
     "slug": "sekoitetut-sanat-generaattori",
@@ -237,7 +291,11 @@
       "Käytä sitä aiheen tai teeman sanaston kertaukseen viikon lopussa.",
       "Sijoita se oikeinkirjoituspisteelle siirreltävien kirjainlaattojen kanssa.",
       "Lähetä lyhyt sekoitus kotiin leikkisään oikeinkirjoitusharjoitteluun."
-    ]
+    ],
+    "modes": {
+      "easy": "Selvitä lyhyitä, tuttuja sanoja kuvavihjeen avulla.",
+      "normal": "Selvitä pidempiä sanoja isompaa kirjoitushaastetta varten."
+    }
   },
   "wordsearch": {
     "slug": "sanahaku-generaattori",
@@ -261,7 +319,15 @@
       "Rakenna aihesanahaku esittelemään tai kertaamaan aiheen sanastoa.",
       "Tee pieni vasemmalta oikealle -ruudukko varhaisille lukijoille ja suurempi vanhemmille.",
       "Käytä sanahakua rauhallisena rauhoittumistehtävänä päivän alussa."
-    ]
+    ],
+    "modes": {
+      "default": "Piilota sanalista ruudukkoon lapsen löydettäväksi ja ympyröitäväksi.",
+      "image-only": "Kuvasanahaku — lapsi etsii sanat näytetyille kuville."
+    },
+    "modeNames": {
+      "default": "Sanajahti",
+      "image-only": "Kuvajahti"
+    }
   },
   "cryptogram": {
     "slug": "kryptogrammi-generaattori",
@@ -285,7 +351,8 @@
       "Rakenna kryptogrammi tarinan avainsanastosta luetunymmärtämisen lämmittelyksi.",
       "Tee lyhyt koodattu viesti – kuten luokan palkinto tai arvoitus – lasten paljastettavaksi.",
       "Liitä kryptogrammi aiheeseen, jotta lapset purkavat sanat, jotka ovat juuri oppimassa."
-    ]
+    ],
+    "samplesIntro": "Tee pura-viesti-pulmia, joissa symbolit korvaavat kirjaimet."
   },
   "writing": {
     "slug": "kirjoitus-generaattori",
@@ -333,7 +400,15 @@
       "Käytä sitä lajittelupisteellä isojen ja pienten lelujen kanssa.",
       "Mallinna sanat iso, pieni, isompi ja pienempi edetessänne.",
       "Lähetä arkki kotiin etsimään isoja ja pieniä asioita ympäri kotia."
-    ]
+    ],
+    "modes": {
+      "findBig": "Lapsi etsii ja napauttaa joukon suurimman (tai pienimmän) kuvan.",
+      "orderAsc": "Laita kuvat järjestykseen pienimmästä suurimpaan."
+    },
+    "modeNames": {
+      "findBig": "Etsi suurin",
+      "orderAsc": "Järjestä koon mukaan"
+    }
   },
   "pattern-train": {
     "slug": "kuviosarja-generaattori",
@@ -357,7 +432,17 @@
       "Rakentakaa vastaava kuvio palikoilla pisteellä.",
       "Aloita yksinkertaisista ABAB-kuvioista ja lisää monimutkaisuutta.",
       "Liitä kuvion teema nykyiseen aiheeseesi."
-    ]
+    ],
+    "modes": {
+      "aab": "Toistuvia A-A-B-kuvasarjoja lapsen jatkettavaksi.",
+      "aabb": "A-A-B-B-sarjoja, jotka luovat tasaisen kahden parin rytmin.",
+      "abb": "A-B-B-sarjoja luettavaksi, ennakoitavaksi ja jatkettavaksi.",
+      "abc": "Kolmiosaisia A-B-C-sarjoja, joissa toistuva jakso on pidempi.",
+      "default": "Sekalaisia toistuvia sarjoja, joissa lapsi päättelee, mikä tulee seuraavaksi."
+    },
+    "modeNames": {
+      "default": "Sekasarjat"
+    }
   },
   "pattern-worksheet": {
     "slug": "kuvio-generaattori",
@@ -381,7 +466,8 @@
       "Anna se itsenäisenä työnä kuvio-minituokion jälkeen.",
       "Tarjoa vaikeampia kuvioita varhain valmistuvien lisätehtävänä.",
       "Yhdistä kuva- ja muotorivejä vaihtelevaan harjoitteluun."
-    ]
+    ],
+    "samplesIntro": "Luo sekalaisia sarjatehtäviä lapsen luettavaksi ja täydennettäväksi."
   },
   "draw-and-color": {
     "slug": "piirra-varita-generaattori",
@@ -477,7 +563,8 @@
       "Käytä sitä nopean luokkakyselyn tulosten kirjaamiseen.",
       "Puhukaa yhdessä, mikä pylväs on korkein ja matalin.",
       "Sijoita se laskupisteelle toiminnallisena dataharjoitteluna."
-    ]
+    ],
+    "samplesIntro": "Tee laske-ja-piirrä-tehtäviä, joissa lapsi merkitsee kuvat kaavioon."
   },
   "matching": {
     "slug": "yhdistamis-generaattori",
@@ -501,7 +588,11 @@
       "Käytä sitä teemallisen sanaston tai liittyvien käsitteiden kertaukseen.",
       "Sijoita se pisteelle, jossa on ensin fyysisiä yhdistettäviä kortteja.",
       "Lähetä yhdistämisarkki kotiin nopeaan, selkeään harjoitteluun."
-    ]
+    ],
+    "modes": {
+      "letter": "Vedä viiva kustakin kuvasta kirjaimeen, jolla sana alkaa.",
+      "name": "Yhdistä jokainen kuva sen kirjoitettuun sanaan."
+    }
   },
   "grid-match": {
     "slug": "ruudukko-generaattori",
@@ -525,7 +616,8 @@
       "Käytä sitä huolellisen katsomisen haasteena laskupisteellä.",
       "Aloita pienestä ruudukosta ja kasvata sitä, kun varmuus karttuu.",
       "Liitä kuvien teema nykyiseen aiheeseesi."
-    ]
+    ],
+    "samplesIntro": "Tee ruudukkoyhdistelytehtäviä, joissa kuvat paritetaan ruudukon poikki."
   },
   "shadow-match": {
     "slug": "varjokuva-generaattori",
@@ -549,7 +641,11 @@
       "Käytä sitä keskittyneenä visuaalisen havainnoinnin pisteenä.",
       "Pohtikaa, miten pelkkä muoto auttaa tunnistamaan esineen.",
       "Liitä kuvien teema tarinaan tai aiheeseen."
-    ]
+    ],
+    "modes": {
+      "find-shadow": "Yhdistä jokainen kuva sen oikeaan varjokuvaan.",
+      "make-whole": "Liitä kaksi puolikasta, jotka tekevät kuvasta jälleen kokonaisen."
+    }
   },
   "bingo": {
     "slug": "bingokortti-generaattori",
@@ -573,7 +669,8 @@
       "Huuda sanat toisella kielellä kielenoppijoille.",
       "Anna lapsen olla huutaja harjoitellakseen kuvien lukemista.",
       "Pelaa nopea kierros hauskana tunnin avauksena tai siirtymänä."
-    ]
+    ],
+    "samplesIntro": "Tee kuva- ja sanabingokortit, joita koko luokka voi pelata yhdessä."
   },
   "picture-sort": {
     "slug": "lajittelu-generaattori",
@@ -597,7 +694,8 @@
       "Käytä sitä tukemaan luonnontiedon tai aiheen luokittelutuntia.",
       "Käykää yksi kuva läpi yhdessä nimeten, miksi se sopii ryhmään.",
       "Sijoita se pisteelle, jossa on leikattuja kuvia fyysiseen lajitteluun."
-    ]
+    ],
+    "samplesIntro": "Tee lajittelutehtäviä, joissa lapsi ryhmittelee kuvat oikeisiin koreihin."
   },
   "missing-pieces": {
     "slug": "puuttuvat-palat-generaattori",
@@ -621,7 +719,11 @@
       "Käytä sitä visuaalisen päättelyn haasteena hiljaisella pisteellä.",
       "Yhdistä se yksinkertaisiin palapeleihin toiminnalliseen harjoitteluun.",
       "Liitä kuvien teema nykyiseen aiheeseesi."
-    ]
+    ],
+    "modes": {
+      "one-missing": "Kuvasta puuttuu yksi pala — lapsi valitsee osan, joka täydentää sen.",
+      "two-missing": "Kaksi palaa puuttuu, joten lapsi valitsee molemmat osat kuvan viimeistelyyn."
+    }
   },
   "odd-one-out": {
     "slug": "mika-ei-sovi-generaattori",
@@ -645,7 +747,11 @@
       "Käytä sitä syventämään lajittelu- tai luokittelutuntia.",
       "Kannusta lapsia kertomaan, miksi heidän valintansa ei sovi.",
       "Anna se nopeana päättelyn lämmittelynä."
-    ]
+    ],
+    "modes": {
+      "same-theme": "Jokaisella kuvalla on yhteinen teema yhtä lukuun ottamatta — etsi joukkoon kuulumaton.",
+      "cross-theme": "Kuvat ovat eri teemoista; lapsi löytää sen, joka ei sovi joukkoon."
+    }
   },
   "sudoku": {
     "slug": "sudoku-generaattori",
@@ -669,7 +775,12 @@
       "Yhdistä teemallinen sudoku aiheeseen, jotta kuvat tuntuvat tutuilta.",
       "Ratkaiskaa yksi yhdessä taululla ääneen ajatellen ennen kuin lapset kokeilevat omaansa.",
       "Tarjoa numerosudokua lisätehtävänä lapsille, jotka ovat valmiita haasteeseen."
-    ]
+    ],
+    "modes": {
+      "easy": "Leppoisia kuvasudokuja ensimmäiseen pulman kokeiluun.",
+      "medium": "Astetta haastavampia, hieman täydempiä ruudukoita päättelyä varten.",
+      "hard": "Vaikeampia ruudukoita, jotka vaativat tarkempaa logiikkaa."
+    }
   },
   "picture-path": {
     "slug": "labyrintti-generaattori",
@@ -693,7 +804,12 @@
       "Käytä sitä rauhallisena, keskittyneenä toimintana hiljaisella pisteellä.",
       "Aloita yksinkertaisista labyrinteistä ja kasvata vaikeutta.",
       "Puhukaa reitin suunnittelusta ennen kuin syöksytään sisään."
-    ]
+    ],
+    "modes": {
+      "choose-path": "Lapsi valitsee oikean reitin kuvasokkelon läpi.",
+      "classic-maze": "Klassinen sokkelo jäljitettäväksi alusta loppuun seiniä ylittämättä.",
+      "pathway": "Seuraa kuvapolkua päästä päähän."
+    }
   },
   "find-and-count": {
     "slug": "etsi-laske-generaattori",
@@ -717,7 +833,11 @@
       "Käytä sitä varhaisen laskemisen pisteellä.",
       "Kannusta lapsia koskettamaan jokaista kohdetta kerran laskiessaan.",
       "Liitä näkymän teema tarinaan tai aiheeseen."
-    ]
+    ],
+    "modes": {
+      "hidden-object": "Lapsi etsii piilotettuja esineitä vilkkaasta kuvasta ja laskee ne.",
+      "letter-spotting": "Etsi kuvasta tietty kirjain ja laske jokainen löytynyt."
+    }
   },
   "find-objects": {
     "slug": "piilokuva-generaattori",
@@ -741,7 +861,11 @@
       "Pyydä lapsia laskemaan yhtä esinelajia ja kirjoittamaan luku laskemisen harjoitteluksi.",
       "Yhdistä näkymä teemaan, jotta lapset etsivät sanoja, joita he opettelevat.",
       "Muuta se ”minä näen” -peliksi – huuda esine ja anna lasten osoittaa tai ympyröidä se."
-    ]
+    ],
+    "modes": {
+      "find-odd": "Etsi rivin kuva, joka ei kuulu muiden joukkoon.",
+      "i-spy": "Etsintänäkymä, jossa lapsi löytää ja laskee nimetyt esineet."
+    }
   },
   "crossword": {
     "slug": "kuvaristikko-generaattori",
@@ -765,7 +889,8 @@
       "Käytä ristikkoa oikeinkirjoituksen tarkistuksena, joka tuntuu peliltä eikä kokeelta.",
       "Tee aiheristikko, jonka lapset täydentävät jakson lopussa.",
       "Anna lasten ehdottaa sanoja ensi viikon luokkaristikkoon."
-    ]
+    ],
+    "samplesIntro": "Luo kuvaristikoita, joihin lapsi kirjoittaa jokaisen sanan ruudukkoon."
   },
   "treasure-hunt": {
     "slug": "aarteenetsinta-generaattori",
@@ -789,7 +914,11 @@
       "Käytä sitä harjoittelemaan sanoja ylös, alas, vasen ja oikea.",
       "Anna se ongelmanratkaisun haasteena pisteellä.",
       "Lisää askelten määrää, kun lapset kasvavat varmemmiksi."
-    ]
+    ],
+    "modes": {
+      "cardinal-arrows": "Seuraa ylös-, alas-, vasen- ja oikea-nuolia ruudukon poikki aarteelle.",
+      "compass": "Käytä ilmansuuntia kartalla navigointiin ja aarteen löytämiseen."
+    }
   },
   "labels": {
     "about": "Tietoa tästä työarkkigeneraattorista",
@@ -798,6 +927,13 @@
     "launchCta": "Avaa ilmainen {name}",
     "otherLanguages": "Saatavilla muilla kielillä",
     "relatedMakers": "Lisää työarkkigeneraattoreita",
-    "makersBreadcrumb": "Työarkkigeneraattorit"
+    "makersBreadcrumb": "Työarkkigeneraattorit",
+    "samplesHeading": "Katso, mitä voit tehdä",
+    "samplesIntroDefault": "Jokainen alla oleva tyyli on valmis malli — napauta ja kokeile, ja jokainen tehtävä on ilmainen tulostaa.",
+    "playSample": "Kokeile mallia",
+    "crossLangHeading": "Tee ’opi uusi kieli’ -tehtäviä",
+    "crossLangIntro": "Sama tekijä rakentaa myös kuvasanastotehtäviä uuden kielen oppimiseen.",
+    "seeAllLang": "Näytä kaikki {lang}-tehtävät",
+    "closeSample": "Sulje malli"
   }
 }

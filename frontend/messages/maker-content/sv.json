@@ -21,7 +21,13 @@
       "Lägg bildaddition i en praktisk räknestation.",
       "Skicka hem ett kort blad för extra övning med en förälder.",
       "Para ihop ett tematiskt blad med det ämne ni utforskar just den veckan."
-    ]
+    ],
+    "modes": {
+      "find-addend": "Visa en del och summan; ditt barn räknar ut den term som saknas.",
+      "image-image": "Lägg ihop två grupper av bilder och räkna alla för att hitta summan.",
+      "image-number": "Räkna en grupp bilder och lägg sedan till ett tal för att få summan.",
+      "mixed": "En blandning av bildsummor och talsummor tillsammans på en sida."
+    }
   },
   "subtraction": {
     "slug": "subtraktions-arbetsblad-skapare",
@@ -45,7 +51,13 @@
       "Erbjud bildsubtraktion i en räknestation med föremål att flytta.",
       "Skicka hem ett kort övningsblad mellan lektionerna.",
       "Blanda in en tematisk sida när du vill ge samma färdighet ett nytt sammanhang."
-    ]
+    ],
+    "modes": {
+      "cross-out": "Ditt barn stryker över bilder för att ta bort dem och räknar vad som är kvar.",
+      "find-subtrahend": "Visa början och svaret; ditt barn hittar talet som togs bort.",
+      "image-number": "Räkna en grupp bilder och dra sedan bort ett tal från den.",
+      "mixed": "En blandning av bild- och talsubtraktion på ett blad."
+    }
   },
   "code-addition": {
     "slug": "kodadditions-arbetsblad-skapare",
@@ -69,7 +81,14 @@
       "Använd det som en utvidgning för barn som blir klara med vanlig addition tidigt.",
       "Gå igenom ett avkodat tal tillsammans innan barnen arbetar själva.",
       "Knyt temat i teckenförklaringen till ett pågående ämne för en tematisk utmaning."
-    ]
+    ],
+    "modes": {
+      "default": "Lös varje summa och använd sedan siffernyckeln för att knäcka en dold bildkod.",
+      "secret-word": "Lös summorna så bildar svaren ett roligt hemligt ord."
+    },
+    "modeNames": {
+      "default": "Sifferkod"
+    }
   },
   "more-less": {
     "slug": "mer-eller-mindre-arbetsblad-skapare",
@@ -93,7 +112,12 @@
       "Lägg det i en matematikstation tillsammans med riktiga föremål att jämföra.",
       "Visa orden mer, färre och lika många medan du markerar ett tillsammans.",
       "Skicka hem ett blad för att öva på att jämföra vardagliga grupper."
-    ]
+    ],
+    "modes": {
+      "check-cross": "Ditt barn markerar vilken grupp som har fler och vilken som har färre.",
+      "image-image": "Jämför två grupper av bilder och avgör vilken som är fler eller färre.",
+      "image-number": "Jämför en grupp bilder med ett tal – fler, färre eller lika många?"
+    }
   },
   "math-puzzle": {
     "slug": "mattepussel-skapare",
@@ -117,7 +141,12 @@
       "Erbjud det som en utvidgning för barn som är redo att resonera, inte bara minnas.",
       "Lös en knepig rad tillsammans och prata igenom tänkandet.",
       "Lägg en liten uppsättning som utmaning för dem som blir klara tidigt."
-    ]
+    ],
+    "modes": {
+      "addition": "Talrutspussel där varje ledtråd är en additionsuppgift.",
+      "subtraction": "Talrutspussel som helt och hållet bygger på subtraktion.",
+      "mixed": "Pusselrutor som blandar ledtrådar med addition och subtraktion."
+    }
   },
   "math-worksheet": {
     "slug": "matte-arbetsblad-skapare",
@@ -141,7 +170,17 @@
       "Lägg det som självständigt arbete medan du håller en liten grupp.",
       "Skicka hem ett som lätt, varierad övning.",
       "Bygg ett kort blad för en snabb avstämning i slutet av ett arbetsområde."
-    ]
+    ],
+    "modes": {
+      "two-symbols-add-sub": "Summor med två tal och plus eller minus, snyggt uppställda att lösa.",
+      "three-symbols-add-sub": "Uppgifter med tre tal som kombinerar plus och minus på en rad.",
+      "four-symbols-add-sub": "Längre rader med fyra tal av plus och minus att arbeta igenom."
+    },
+    "modeNames": {
+      "two-symbols-add-sub": "Två tal",
+      "three-symbols-add-sub": "Tre tal",
+      "four-symbols-add-sub": "Fyra tal"
+    }
   },
   "alphabet-train": {
     "slug": "alfabetstaag-skapare",
@@ -165,7 +204,14 @@
       "Använd det i en språkstation tillsammans med magnetbokstäver.",
       "Börja med en eller två luckor och lägg sedan till fler när barnen växer.",
       "Skicka hem ett tåg för att öva bokstavsordning med en vuxen."
-    ]
+    ],
+    "modes": {
+      "letter-hint": "Varje vagn visar en bokstavsledtråd som hjälper till att bygga alfabetståget.",
+      "default": "Bygg alfabetståget genom att placera bokstäverna i rätt ordning."
+    },
+    "modeNames": {
+      "default": "Klassisk"
+    }
   },
   "prepositions": {
     "slug": "prepositioner-arbetsblad-skapare",
@@ -189,7 +235,11 @@
       "Använd det för att stötta ett språkrikt samtal om var saker finns.",
       "Para ihop det med vardagliga föremål i klassrummet för en praktisk och rolig uppföljning.",
       "Knyt temat i scenen till en saga ni läser tillsammans."
-    ]
+    ],
+    "modes": {
+      "fillin": "Ditt barn skriver lägesordet (i, på, under…) som passar varje bild.",
+      "multiplechoice": "Välj rätt lägesord för varje bild bland alternativen."
+    }
   },
   "word-guess": {
     "slug": "gissa-ordet-skapare",
@@ -213,7 +263,11 @@
       "Använd temabilder, till exempel djur eller frukter, för att bygga ordförråd.",
       "Lös några ord gemensamt på tavlan innan barnen arbetar på egen hand.",
       "Låt bladet bli en självrättande station där barnen kontrollerar med facitet."
-    ]
+    ],
+    "modes": {
+      "easy": "Kortare ord med bildledtrådar som nybörjarläsare kan gissa.",
+      "normal": "Längre ord och klurigare ledtrådar för säkra läsare."
+    }
   },
   "word-scramble": {
     "slug": "ordmix-skapare",
@@ -237,7 +291,11 @@
       "Använd det för att repetera ämnes- eller temaordförråd i slutet av veckan.",
       "Lägg det som en stavningsstation med bokstavsbrickor att flytta runt.",
       "Skicka hem en kort ordmix för lekfull stavningsövning."
-    ]
+    ],
+    "modes": {
+      "easy": "Lägg ihop korta, kända ord rätt med en bildledtråd till hjälp.",
+      "normal": "Lägg ihop längre ord rätt för en större stavningsutmaning."
+    }
   },
   "wordsearch": {
     "slug": "ordsoek-skapare",
@@ -261,7 +319,15 @@
       "Gör ett tematiskt ordsök, till exempel om kroppen eller maten, kopplat till bilderna.",
       "Använd det som lugn stationsaktivitet eller tyst arbete efter en lektion.",
       "Låt snabba elever skapa egna ordlistor som du gömmer i nästa blad."
-    ]
+    ],
+    "modes": {
+      "default": "Göm en lista med ord i rutnätet som ditt barn ska hitta och ringa in.",
+      "image-only": "En bildordletning – ditt barn hittar orden för bilderna som visas."
+    },
+    "modeNames": {
+      "default": "Ordjakt",
+      "image-only": "Bildjakt"
+    }
   },
   "cryptogram": {
     "slug": "kryptogram-skapare",
@@ -285,7 +351,8 @@
       "Gör ett gemensamt kryptogram på tavlan och lös det tillsammans steg för steg.",
       "Låt barnen knäcka varandras hemliga meddelanden i par.",
       "Koppla koden till ett tema, till exempel djur eller årstider, för extra motivation."
-    ]
+    ],
+    "samplesIntro": "Gör avkoda-meddelandet-pussel där symboler står för bokstäver."
   },
   "writing": {
     "slug": "skrivoevningar-skapare",
@@ -333,7 +400,15 @@
       "Använd det i en sorteringsstation med stora och små leksaker.",
       "Visa orden stor, liten, större och mindre medan ni arbetar.",
       "Skicka hem ett blad för att leta efter stora och små saker hemma."
-    ]
+    ],
+    "modes": {
+      "findBig": "Ditt barn hittar och trycker på den största (eller minsta) bilden i varje uppsättning.",
+      "orderAsc": "Sätt bilderna i ordning från minst till störst."
+    },
+    "modeNames": {
+      "findBig": "Hitta den största",
+      "orderAsc": "Ordna efter storlek"
+    }
   },
   "pattern-train": {
     "slug": "moenstertaag-skapare",
@@ -357,7 +432,17 @@
       "Bygg ett matchande mönster med klossar i en station.",
       "Börja med enkla ABAB-mönster och lägg sedan till mer komplexitet.",
       "Knyt mönstertemat till ert pågående ämne."
-    ]
+    ],
+    "modes": {
+      "aab": "Upprepande A-A-B-bildmönster som ditt barn ska fortsätta.",
+      "aabb": "A-A-B-B-mönster som bygger en jämn rytm två och två.",
+      "abb": "A-B-B-mönster att läsa, förutse och fortsätta.",
+      "abc": "Tredelade A-B-C-mönster med en längre upprepande enhet.",
+      "default": "Blandade upprepande mönster där ditt barn räknar ut vad som kommer härnäst."
+    },
+    "modeNames": {
+      "default": "Blandade mönster"
+    }
   },
   "pattern-worksheet": {
     "slug": "moenster-arbetsblad-skapare",
@@ -381,7 +466,8 @@
       "Lägg det som självständigt arbete efter en kort mönsterlektion.",
       "Erbjud svårare mönster som utvidgning för dem som blir klara tidigt.",
       "Kombinera bild- och formrader för varierad övning."
-    ]
+    ],
+    "samplesIntro": "Skapa blandade mönsterarbetsblad som ditt barn ska läsa och fylla i."
   },
   "draw-and-color": {
     "slug": "rita-och-faerglaeg-skapare",
@@ -477,7 +563,8 @@
       "Använd det för att redovisa resultatet av en snabb klassundersökning.",
       "Prata om vilken stapel som är högst och lägst tillsammans.",
       "Lägg det i en matematikstation som praktisk dataövning."
-    ]
+    ],
+    "samplesIntro": "Bygg räkna-och-grafa-arbetsblad där ditt barn prickar in bilder i ett diagram."
   },
   "matching": {
     "slug": "matchnings-arbetsblad-skapare",
@@ -501,7 +588,11 @@
       "Använd det för att repetera tematiskt ordförråd eller relaterade begrepp.",
       "Lägg det i en station med fysiska kort att matcha först.",
       "Skicka hem ett matchningsblad för snabb, tydlig övning."
-    ]
+    ],
+    "modes": {
+      "letter": "Dra en linje från varje bild till bokstaven den börjar på.",
+      "name": "Para ihop varje bild med dess skrivna ord."
+    }
   },
   "grid-match": {
     "slug": "rutnaetspussel-skapare",
@@ -525,7 +616,8 @@
       "Använd det som en titta-noga-utmaning i en matematikstation.",
       "Börja med ett litet rutnät och låt det växa när tryggheten ökar.",
       "Knyt bildtemat till ert pågående ämne."
-    ]
+    ],
+    "samplesIntro": "Bygg rutnätsmatchnings-arbetsblad som parar ihop bilder över ett rutnät."
   },
   "shadow-match": {
     "slug": "skuggmatchning-skapare",
@@ -549,7 +641,11 @@
       "Använd det som en fokuserad aktivitet för visuell perception i en station.",
       "Diskutera hur formen ensam hjälper dig att känna igen ett föremål.",
       "Knyt bildtemat till en saga eller ett ämne."
-    ]
+    ],
+    "modes": {
+      "find-shadow": "Para ihop varje bild med sin matchande skugga.",
+      "make-whole": "Foga ihop de två halvorna som gör varje bild hel igen."
+    }
   },
   "bingo": {
     "slug": "bildbingo-skapare",
@@ -573,7 +669,8 @@
       "Ropa orden på ett annat språk för språkinlärare.",
       "Låt ett barn vara den som ropar för att öva på att läsa bilderna.",
       "Kör en snabb runda som en rolig lektionsöppnare eller övergång."
-    ]
+    ],
+    "samplesIntro": "Gör bild- och ordbingobrickor som hela klassen kan spela tillsammans."
   },
   "picture-sort": {
     "slug": "sortera-bilder-skapare",
@@ -597,7 +694,8 @@
       "Använd det för att stötta en lektion i att kategorisera inom naturkunskap eller ämne.",
       "Prata igenom en bild tillsammans och sätt ord på varför den passar i en grupp.",
       "Lägg det i en station med utklippta bilder att sortera fysiskt."
-    ]
+    ],
+    "samplesIntro": "Gör sorteringsarbetsblad där ditt barn grupperar bilder i rätt korgar."
   },
   "missing-pieces": {
     "slug": "saknade-bitar-skapare",
@@ -621,7 +719,11 @@
       "Använd det som en utmaning i visuellt resonemang i en lugn station.",
       "Para ihop det med enkla pussel för praktisk övning.",
       "Knyt bildtemat till ert pågående ämne."
-    ]
+    ],
+    "modes": {
+      "one-missing": "En bit saknas i bilden – ditt barn väljer delen som gör den färdig.",
+      "two-missing": "Två bitar saknas, så ditt barn väljer båda delarna för att göra bilden klar."
+    }
   },
   "odd-one-out": {
     "slug": "hitta-udda-skapare",
@@ -645,7 +747,11 @@
       "Använd det för att fördjupa en lektion i att sortera eller kategorisera.",
       "Uppmuntra barnen att säga varför deras val inte passar.",
       "Lägg det som en snabb resonemangsuppvärmning."
-    ]
+    ],
+    "modes": {
+      "same-theme": "Alla bilder delar ett tema utom en – hitta den som inte hör hemma.",
+      "cross-theme": "Bilderna kommer från olika teman; ditt barn hittar den som inte passar."
+    }
   },
   "sudoku": {
     "slug": "barn-sudoku-skapare",
@@ -669,7 +775,12 @@
       "Använd temabilder som knyter an till veckans ämne, till exempel djur eller årstider.",
       "Erbjud sudoku som lugn aktivitet vid stationsarbete eller fri stund.",
       "Låt barnen prata om hur de tänker när de placerar varje bild – ett fint matematiksamtal."
-    ]
+    ],
+    "modes": {
+      "easy": "Lugna bildsudoku-rutnät för ett första försök med pusslet.",
+      "medium": "Ett steg upp, med något fylligare rutnät att resonera sig igenom.",
+      "hard": "Klurigare rutnät som kräver mer noggrann logik att lösa."
+    }
   },
   "picture-path": {
     "slug": "bildvaeg-skapare",
@@ -693,7 +804,12 @@
       "Använd det som en lugn och fokuserad aktivitet i en stilla station under dagen.",
       "Börja med enkla labyrinter och bygg upp svårighetsgraden.",
       "Prata om att planera hela vägen i förväg innan man rusar in."
-    ]
+    ],
+    "modes": {
+      "choose-path": "Ditt barn väljer rätt väg genom en bildlabyrint.",
+      "classic-maze": "En klassisk labyrint att följa från start till mål utan att korsa väggar.",
+      "pathway": "Följ bildstigen från ena änden till den andra."
+    }
   },
   "find-and-count": {
     "slug": "hitta-och-raekna-skapare",
@@ -717,7 +833,11 @@
       "Använd det i en station för tidig räkning.",
       "Uppmuntra barnen att röra vid varje föremål en gång medan de räknar.",
       "Knyt scenens tema till en saga eller ett ämne."
-    ]
+    ],
+    "modes": {
+      "hidden-object": "Ditt barn letar efter gömda föremål i en livlig bild och räknar dem.",
+      "letter-spotting": "Sök efter en målbokstav i bilden och räkna varje gång den hittas."
+    }
   },
   "find-objects": {
     "slug": "hitta-foeremaalen-skapare",
@@ -741,7 +861,11 @@
       "Koppla föremålen till ett tema, som havet eller köket, för att utöka ordförrådet.",
       "Använd bladet som lugn väntaktivitet eller vid stationsarbete.",
       "Låt barnen jämföra antal i par: vem hittade flest av varje föremål?"
-    ]
+    ],
+    "modes": {
+      "find-odd": "Hitta den enda bilden i raden som inte hör ihop med de andra.",
+      "i-spy": "En titt-och-hitta-scen där ditt barn hittar och räknar de namngivna föremålen."
+    }
   },
   "crossword": {
     "slug": "bildkorsord-skapare",
@@ -765,7 +889,8 @@
       "Gör ett temakorsord, till exempel om fordon eller mat, kopplat till bilderna.",
       "Lös ett gemensamt korsord på tavlan och samtala om varje ords stavning.",
       "Använd korsordet som rolig repetition av veckans ord innan helgen."
-    ]
+    ],
+    "samplesIntro": "Skapa bildkorsord där ditt barn stavar varje ord in i rutnätet."
   },
   "treasure-hunt": {
     "slug": "skattjakt-skapare",
@@ -789,7 +914,11 @@
       "Använd det för att öva orden upp, ner, vänster och höger.",
       "Lägg det som en problemlösningsutmaning i en station.",
       "Öka antalet steg när barnen blir tryggare."
-    ]
+    ],
+    "modes": {
+      "cardinal-arrows": "Följ pilar upp, ner, vänster och höger över rutnätet till skatten.",
+      "compass": "Använd väderstreck för att navigera kartan och hitta skatten."
+    }
   },
   "labels": {
     "about": "Om det här verktyget",
@@ -798,6 +927,13 @@
     "launchCta": "Öppna {name} gratis",
     "otherLanguages": "Tillgängligt på andra språk",
     "relatedMakers": "Fler arbetsblads-verktyg",
-    "makersBreadcrumb": "Arbetsblads-verktyg"
+    "makersBreadcrumb": "Arbetsblads-verktyg",
+    "samplesHeading": "Se vad du kan göra",
+    "samplesIntroDefault": "Varje stil nedan är ett färdigt exempel – tryck för att spela det, och alla arbetsblad är gratis att skriva ut.",
+    "playSample": "Spela exempel",
+    "crossLangHeading": "Gör arbetsblad för att ‘lära sig ett språk’",
+    "crossLangIntro": "Samma verktyg gör även bildordförråd-arbetsblad för att lära sig ett nytt språk.",
+    "seeAllLang": "Se alla {lang} arbetsblad",
+    "closeSample": "Stäng exempel"
   }
 }

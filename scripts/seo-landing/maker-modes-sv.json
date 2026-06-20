@@ -1,0 +1,200 @@
+{
+  "labels": {
+    "samplesHeading": "Se vad du kan göra",
+    "samplesIntroDefault": "Varje stil nedan är ett färdigt exempel – tryck för att spela det, och alla arbetsblad är gratis att skriva ut.",
+    "playSample": "Spela exempel",
+    "crossLangHeading": "Gör arbetsblad för att ‘lära sig ett språk’",
+    "crossLangIntro": "Samma verktyg gör även bildordförråd-arbetsblad för att lära sig ett nytt språk.",
+    "seeAllLang": "Se alla {lang} arbetsblad",
+    "closeSample": "Stäng exempel"
+  },
+  "makers": {
+    "addition": {
+      "modes": {
+        "find-addend": "Visa en del och summan; ditt barn räknar ut den term som saknas.",
+        "image-image": "Lägg ihop två grupper av bilder och räkna alla för att hitta summan.",
+        "image-number": "Räkna en grupp bilder och lägg sedan till ett tal för att få summan.",
+        "mixed": "En blandning av bildsummor och talsummor tillsammans på en sida."
+      }
+    },
+    "subtraction": {
+      "modes": {
+        "cross-out": "Ditt barn stryker över bilder för att ta bort dem och räknar vad som är kvar.",
+        "find-subtrahend": "Visa början och svaret; ditt barn hittar talet som togs bort.",
+        "image-number": "Räkna en grupp bilder och dra sedan bort ett tal från den.",
+        "mixed": "En blandning av bild- och talsubtraktion på ett blad."
+      }
+    },
+    "code-addition": {
+      "modes": {
+        "default": "Lös varje summa och använd sedan siffernyckeln för att knäcka en dold bildkod.",
+        "secret-word": "Lös summorna så bildar svaren ett roligt hemligt ord."
+      },
+      "modeNames": {
+        "default": "Sifferkod"
+      }
+    },
+    "more-less": {
+      "modes": {
+        "check-cross": "Ditt barn markerar vilken grupp som har fler och vilken som har färre.",
+        "image-image": "Jämför två grupper av bilder och avgör vilken som är fler eller färre.",
+        "image-number": "Jämför en grupp bilder med ett tal – fler, färre eller lika många?"
+      }
+    },
+    "math-puzzle": {
+      "modes": {
+        "addition": "Talrutspussel där varje ledtråd är en additionsuppgift.",
+        "subtraction": "Talrutspussel som helt och hållet bygger på subtraktion.",
+        "mixed": "Pusselrutor som blandar ledtrådar med addition och subtraktion."
+      }
+    },
+    "math-worksheet": {
+      "modes": {
+        "two-symbols-add-sub": "Summor med två tal och plus eller minus, snyggt uppställda att lösa.",
+        "three-symbols-add-sub": "Uppgifter med tre tal som kombinerar plus och minus på en rad.",
+        "four-symbols-add-sub": "Längre rader med fyra tal av plus och minus att arbeta igenom."
+      },
+      "modeNames": {
+        "two-symbols-add-sub": "Två tal",
+        "three-symbols-add-sub": "Tre tal",
+        "four-symbols-add-sub": "Fyra tal"
+      }
+    },
+    "alphabet-train": {
+      "modes": {
+        "letter-hint": "Varje vagn visar en bokstavsledtråd som hjälper till att bygga alfabetståget.",
+        "default": "Bygg alfabetståget genom att placera bokstäverna i rätt ordning."
+      },
+      "modeNames": {
+        "default": "Klassisk"
+      }
+    },
+    "prepositions": {
+      "modes": {
+        "fillin": "Ditt barn skriver lägesordet (i, på, under…) som passar varje bild.",
+        "multiplechoice": "Välj rätt lägesord för varje bild bland alternativen."
+      }
+    },
+    "word-guess": {
+      "modes": {
+        "easy": "Kortare ord med bildledtrådar som nybörjarläsare kan gissa.",
+        "normal": "Längre ord och klurigare ledtrådar för säkra läsare."
+      }
+    },
+    "word-scramble": {
+      "modes": {
+        "easy": "Lägg ihop korta, kända ord rätt med en bildledtråd till hjälp.",
+        "normal": "Lägg ihop längre ord rätt för en större stavningsutmaning."
+      }
+    },
+    "wordsearch": {
+      "modes": {
+        "default": "Göm en lista med ord i rutnätet som ditt barn ska hitta och ringa in.",
+        "image-only": "En bildordletning – ditt barn hittar orden för bilderna som visas."
+      },
+      "modeNames": {
+        "default": "Ordjakt",
+        "image-only": "Bildjakt"
+      }
+    },
+    "cryptogram": {
+      "samplesIntro": "Gör avkoda-meddelandet-pussel där symboler står för bokstäver."
+    },
+    "big-small": {
+      "modes": {
+        "findBig": "Ditt barn hittar och trycker på den största (eller minsta) bilden i varje uppsättning.",
+        "orderAsc": "Sätt bilderna i ordning från minst till störst."
+      },
+      "modeNames": {
+        "findBig": "Hitta den största",
+        "orderAsc": "Ordna efter storlek"
+      }
+    },
+    "pattern-train": {
+      "modes": {
+        "aab": "Upprepande A-A-B-bildmönster som ditt barn ska fortsätta.",
+        "aabb": "A-A-B-B-mönster som bygger en jämn rytm två och två.",
+        "abb": "A-B-B-mönster att läsa, förutse och fortsätta.",
+        "abc": "Tredelade A-B-C-mönster med en längre upprepande enhet.",
+        "default": "Blandade upprepande mönster där ditt barn räknar ut vad som kommer härnäst."
+      },
+      "modeNames": {
+        "default": "Blandade mönster"
+      }
+    },
+    "pattern-worksheet": {
+      "samplesIntro": "Skapa blandade mönsterarbetsblad som ditt barn ska läsa och fylla i."
+    },
+    "chart-count": {
+      "samplesIntro": "Bygg räkna-och-grafa-arbetsblad där ditt barn prickar in bilder i ett diagram."
+    },
+    "matching": {
+      "modes": {
+        "letter": "Dra en linje från varje bild till bokstaven den börjar på.",
+        "name": "Para ihop varje bild med dess skrivna ord."
+      }
+    },
+    "grid-match": {
+      "samplesIntro": "Bygg rutnätsmatchnings-arbetsblad som parar ihop bilder över ett rutnät."
+    },
+    "shadow-match": {
+      "modes": {
+        "find-shadow": "Para ihop varje bild med sin matchande skugga.",
+        "make-whole": "Foga ihop de två halvorna som gör varje bild hel igen."
+      }
+    },
+    "bingo": {
+      "samplesIntro": "Gör bild- och ordbingobrickor som hela klassen kan spela tillsammans."
+    },
+    "picture-sort": {
+      "samplesIntro": "Gör sorteringsarbetsblad där ditt barn grupperar bilder i rätt korgar."
+    },
+    "missing-pieces": {
+      "modes": {
+        "one-missing": "En bit saknas i bilden – ditt barn väljer delen som gör den färdig.",
+        "two-missing": "Två bitar saknas, så ditt barn väljer båda delarna för att göra bilden klar."
+      }
+    },
+    "odd-one-out": {
+      "modes": {
+        "same-theme": "Alla bilder delar ett tema utom en – hitta den som inte hör hemma.",
+        "cross-theme": "Bilderna kommer från olika teman; ditt barn hittar den som inte passar."
+      }
+    },
+    "sudoku": {
+      "modes": {
+        "easy": "Lugna bildsudoku-rutnät för ett första försök med pusslet.",
+        "medium": "Ett steg upp, med något fylligare rutnät att resonera sig igenom.",
+        "hard": "Klurigare rutnät som kräver mer noggrann logik att lösa."
+      }
+    },
+    "picture-path": {
+      "modes": {
+        "choose-path": "Ditt barn väljer rätt väg genom en bildlabyrint.",
+        "classic-maze": "En klassisk labyrint att följa från start till mål utan att korsa väggar.",
+        "pathway": "Följ bildstigen från ena änden till den andra."
+      }
+    },
+    "find-and-count": {
+      "modes": {
+        "hidden-object": "Ditt barn letar efter gömda föremål i en livlig bild och räknar dem.",
+        "letter-spotting": "Sök efter en målbokstav i bilden och räkna varje gång den hittas."
+      }
+    },
+    "find-objects": {
+      "modes": {
+        "find-odd": "Hitta den enda bilden i raden som inte hör ihop med de andra.",
+        "i-spy": "En titt-och-hitta-scen där ditt barn hittar och räknar de namngivna föremålen."
+      }
+    },
+    "crossword": {
+      "samplesIntro": "Skapa bildkorsord där ditt barn stavar varje ord in i rutnätet."
+    },
+    "treasure-hunt": {
+      "modes": {
+        "cardinal-arrows": "Följ pilar upp, ner, vänster och höger över rutnätet till skatten.",
+        "compass": "Använd väderstreck för att navigera kartan och hitta skatten."
+      }
+    }
+  }
+}

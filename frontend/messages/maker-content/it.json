@@ -21,7 +21,13 @@
       "Metti l'addizione con immagini in un angolo di conteggio pratico.",
       "Manda a casa una scheda breve per un po' di pratica in più con un genitore.",
       "Abbina una scheda a tema all'argomento che state esplorando quella settimana."
-    ]
+    ],
+    "modes": {
+      "find-addend": "Mostra una parte e il totale; il bambino trova l'addendo mancante.",
+      "image-image": "Il bambino somma due gruppi di immagini e li conta tutti per trovare il risultato.",
+      "image-number": "Il bambino conta un gruppo di immagini, poi lo aggiunge a un numero per il totale.",
+      "mixed": "Un misto di somme con immagini e somme con numeri sulla stessa pagina."
+    }
   },
   "subtraction": {
     "slug": "generatore-schede-sottrazione",
@@ -45,7 +51,13 @@
       "Offri la sottrazione con immagini in una postazione di conteggio con oggetti da spostare.",
       "Manda a casa una scheda breve di pratica tra una lezione e l'altra.",
       "Inserisci una pagina a tema quando vuoi un contesto nuovo per la stessa competenza."
-    ]
+    ],
+    "modes": {
+      "cross-out": "Il bambino cancella le immagini per toglierle e conta quelle che restano.",
+      "find-subtrahend": "Mostra l'inizio e il risultato; il bambino trova il numero tolto.",
+      "image-number": "Il bambino conta un gruppo di immagini, poi sottrae un numero.",
+      "mixed": "Un misto di sottrazioni con immagini e con numeri sulla stessa scheda."
+    }
   },
   "code-addition": {
     "slug": "generatore-addizione-codificata",
@@ -69,7 +81,14 @@
       "Usala come approfondimento per chi finisce in fretta l'addizione semplice.",
       "Svolgi insieme una somma decodificata prima che i bambini lavorino da soli.",
       "Collega il tema della legenda a un argomento in corso per una sfida tematica."
-    ]
+    ],
+    "modes": {
+      "default": "Il bambino risolve ogni somma, poi usa la chiave numerica per svelare un'immagine nascosta.",
+      "secret-word": "Il bambino risolve le somme e le risposte compongono una parola segreta divertente."
+    },
+    "modeNames": {
+      "default": "Codice numerico"
+    }
   },
   "more-less": {
     "slug": "generatore-confronto-quantita",
@@ -93,7 +112,12 @@
       "Mettila in un angolo di matematica insieme a oggetti reali da confrontare.",
       "Modella le parole \"di più\", \"di meno\" e \"uguali\" mentre ne segni una insieme.",
       "Manda a casa una scheda per esercitarsi a confrontare gruppi di tutti i giorni."
-    ]
+    ],
+    "modes": {
+      "check-cross": "Il bambino segna quale gruppo ne ha di più e quale di meno.",
+      "image-image": "Il bambino confronta due gruppi di immagini e decide quale è di più o di meno.",
+      "image-number": "Il bambino confronta un gruppo di immagini con un numero — di più, di meno o uguale?"
+    }
   },
   "math-puzzle": {
     "slug": "generatore-puzzle-matematici",
@@ -117,7 +141,12 @@
       "Offrilo come approfondimento per i bambini pronti a ragionare, non solo a ricordare.",
       "Risolvete insieme una riga difficile e parlate del ragionamento.",
       "Proponi un piccolo set come sfida per chi finisce prima."
-    ]
+    ],
+    "modes": {
+      "addition": "Puzzle a griglia numerica in cui ogni indizio è un'addizione.",
+      "subtraction": "Puzzle a griglia numerica costruiti interamente con sottrazioni.",
+      "mixed": "Griglie di puzzle che mescolano indizi di addizione e sottrazione."
+    }
   },
   "math-worksheet": {
     "slug": "generatore-esercizi-matematica",
@@ -141,7 +170,17 @@
       "Proponila come lavoro autonomo mentre segui un piccolo gruppo.",
       "Mandane una a casa come pratica leggera e varia.",
       "Crea una scheda breve per una verifica formativa veloce alla fine di un'unità."
-    ]
+    ],
+    "modes": {
+      "two-symbols-add-sub": "Somme tra due numeri con un più o un meno, ben disposte da risolvere.",
+      "three-symbols-add-sub": "Problemi a tre numeri che combinano più e meno in una sola riga.",
+      "four-symbols-add-sub": "Sequenze più lunghe di quattro numeri con più e meno da svolgere."
+    },
+    "modeNames": {
+      "two-symbols-add-sub": "Due numeri",
+      "three-symbols-add-sub": "Tre numeri",
+      "four-symbols-add-sub": "Quattro numeri"
+    }
   },
   "alphabet-train": {
     "slug": "generatore-treno-alfabeto",
@@ -165,7 +204,14 @@
       "Usalo in un angolo di lettoscrittura insieme alle lettere magnetiche.",
       "Inizia con uno o due spazi, poi aggiungine altri man mano che i bambini crescono.",
       "Manda a casa un treno per esercitare l'ordine delle lettere con un adulto."
-    ]
+    ],
+    "modes": {
+      "letter-hint": "Ogni vagone mostra l'indizio di una lettera per costruire il trenino dell'alfabeto.",
+      "default": "Il bambino costruisce il trenino dell'alfabeto mettendo le lettere nell'ordine giusto."
+    },
+    "modeNames": {
+      "default": "Classico"
+    }
   },
   "prepositions": {
     "slug": "generatore-schede-preposizioni",
@@ -189,7 +235,11 @@
       "Usala per sostenere una conversazione ricca di linguaggio su \"dov'è?\".",
       "Abbinala a oggetti di classe di uso quotidiano per un seguito pratico.",
       "Collega il tema della scena a una storia che state leggendo insieme."
-    ]
+    ],
+    "modes": {
+      "fillin": "Il bambino scrive la parola di posizione (dentro, su, sotto…) adatta a ogni immagine.",
+      "multiplechoice": "Il bambino sceglie la parola di posizione giusta per ogni immagine tra le opzioni."
+    }
   },
   "word-guess": {
     "slug": "generatore-indovina-parole",
@@ -213,7 +263,11 @@
       "Proponi l'attività a coppie: un bambino legge l'immagine, l'altro scrive la parola.",
       "Usa le parole nuove di una storia letta insieme per ripassarle dopo la lettura.",
       "Prepara schede con poche caselle e molte lettere d'aiuto per i bambini più piccoli."
-    ]
+    ],
+    "modes": {
+      "easy": "Parole più corte con indizi illustrati da indovinare per chi inizia a leggere.",
+      "normal": "Parole più lunghe e indizi più difficili per i lettori sicuri."
+    }
   },
   "word-scramble": {
     "slug": "generatore-parole-mescolate",
@@ -237,7 +291,11 @@
       "Usala per ripassare il vocabolario dell'argomento alla fine della settimana.",
       "Proponila come angolo di ortografia con tessere di lettere da spostare.",
       "Manda a casa una breve scheda per una pratica ortografica giocosa."
-    ]
+    ],
+    "modes": {
+      "easy": "Il bambino riordina parole corte e familiari con l'aiuto di un'immagine.",
+      "normal": "Il bambino riordina parole più lunghe per una sfida di ortografia più grande."
+    }
   },
   "wordsearch": {
     "slug": "generatore-cerca-parole",
@@ -261,7 +319,15 @@
       "Cronometra una sfida amichevole: chi trova più parole entro la fine della musica?",
       "Lascia la scheda nell'angolo dei giochi tranquilli per i momenti di lavoro autonomo.",
       "Crea griglie facili con poche parole grandi per i bambini più piccoli che iniziano a leggere."
-    ]
+    ],
+    "modes": {
+      "default": "Nascondi un elenco di parole nella griglia perché il bambino le trovi e le cerchi.",
+      "image-only": "Una ricerca di parole illustrata — il bambino trova le parole delle immagini mostrate."
+    },
+    "modeNames": {
+      "default": "Caccia alle parole",
+      "image-only": "Caccia alle immagini"
+    }
   },
   "cryptogram": {
     "slug": "generatore-crittogrammi",
@@ -285,7 +351,8 @@
       "Crea un crittogramma a coppie: chi decifra per primo aiuta poi il compagno, in un clima collaborativo.",
       "Prepara una scheda per il momento dell'accoglienza, mentre aspetti che tutti i bambini arrivino.",
       "Sfrutta i nomi dei bambini della classe come messaggi segreti da scoprire a turno."
-    ]
+    ],
+    "samplesIntro": "Crea puzzle da decifrare in cui i simboli prendono il posto delle lettere."
   },
   "writing": {
     "slug": "generatore-schede-scrittura",
@@ -333,7 +400,15 @@
       "Usala in un angolo di smistamento con giocattoli grandi e piccoli.",
       "Modella le parole grande, piccolo, più grande e più piccolo mentre procedi.",
       "Manda a casa una scheda per individuare cose grandi e piccole in casa."
-    ]
+    ],
+    "modes": {
+      "findBig": "Il bambino individua e tocca l'immagine più grande (o più piccola) di ogni insieme.",
+      "orderAsc": "Il bambino mette le immagini in ordine dalla più piccola alla più grande."
+    },
+    "modeNames": {
+      "findBig": "Trova la più grande",
+      "orderAsc": "Ordina per grandezza"
+    }
   },
   "pattern-train": {
     "slug": "generatore-treno-sequenze",
@@ -357,7 +432,17 @@
       "Costruisci una sequenza corrispondente con i blocchi in un angolo.",
       "Inizia con sequenze semplici ABAB, poi aggiungi complessità.",
       "Collega il tema della sequenza al vostro argomento attuale."
-    ]
+    ],
+    "modes": {
+      "aab": "Sequenze illustrate ripetute A-A-B che il bambino prosegue.",
+      "aabb": "Sequenze A-A-B-B che creano un ritmo costante a due a due.",
+      "abb": "Sequenze A-B-B da leggere, prevedere ed estendere.",
+      "abc": "Sequenze a tre parti A-B-C con un'unità ripetuta più lunga.",
+      "default": "Sequenze ripetute miste in cui il bambino capisce cosa viene dopo."
+    },
+    "modeNames": {
+      "default": "Sequenze miste"
+    }
   },
   "pattern-worksheet": {
     "slug": "generatore-schede-sequenze",
@@ -381,7 +466,8 @@
       "Proponila come lavoro autonomo dopo una mini-lezione sulle sequenze.",
       "Offri sequenze più difficili come approfondimento per chi finisce prima.",
       "Combina righe di immagini e di forme per una pratica varia."
-    ]
+    ],
+    "samplesIntro": "Crea schede di sequenze miste da leggere e completare."
   },
   "draw-and-color": {
     "slug": "generatore-disegno-griglia",
@@ -477,7 +563,8 @@
       "Usala per registrare i risultati di un rapido sondaggio in classe.",
       "Parlate insieme di quale barra è la più alta e la più bassa.",
       "Mettila in un angolo di matematica come pratica pratica sui dati."
-    ]
+    ],
+    "samplesIntro": "Crea schede conta-e-rappresenta in cui il bambino riporta le immagini in un grafico."
   },
   "matching": {
     "slug": "generatore-schede-abbinamento",
@@ -501,7 +588,11 @@
       "Usala per ripassare il vocabolario a tema o concetti collegati.",
       "Mettila in un angolo con carte fisiche da abbinare prima.",
       "Manda a casa una scheda di abbinamento per una pratica rapida e chiara."
-    ]
+    ],
+    "modes": {
+      "letter": "Il bambino traccia una linea da ogni immagine alla lettera con cui inizia.",
+      "name": "Il bambino abbina ogni immagine alla sua parola scritta."
+    }
   },
   "grid-match": {
     "slug": "generatore-puzzle-griglia",
@@ -525,7 +616,8 @@
       "Usala come sfida di osservazione attenta in un angolo di matematica.",
       "Inizia con una griglia piccola e ingrandiscila man mano che cresce la sicurezza.",
       "Collega il tema delle immagini al vostro argomento attuale."
-    ]
+    ],
+    "samplesIntro": "Crea schede di abbinamento a griglia che accoppiano le immagini su una griglia."
   },
   "shadow-match": {
     "slug": "generatore-discriminazione-visiva",
@@ -549,7 +641,11 @@
       "Usala come attività di percezione visiva concentrata in un angolo.",
       "Discutete come la sola forma aiuti a riconoscere un oggetto.",
       "Collega il tema delle immagini a una storia o a un argomento."
-    ]
+    ],
+    "modes": {
+      "find-shadow": "Il bambino abbina ogni immagine alla sua ombra corrispondente.",
+      "make-whole": "Il bambino unisce le due metà che ricompongono ogni immagine."
+    }
   },
   "bingo": {
     "slug": "generatore-cartelle-bingo",
@@ -573,7 +669,8 @@
       "Chiama le parole in un'altra lingua per chi sta imparando le lingue.",
       "Lascia che un bambino faccia il chiamante per esercitare la lettura delle immagini.",
       "Fai un giro veloce come apertura divertente o transizione di lezione."
-    ]
+    ],
+    "samplesIntro": "Crea cartelle di tombola con immagini e parole per giocare con tutta la classe."
   },
   "picture-sort": {
     "slug": "generatore-classificazione-immagini",
@@ -597,7 +694,8 @@
       "Usala per sostenere una lezione di classificazione di scienze o di un argomento.",
       "Ragionate insieme su un'immagine, nominando perché appartiene a un gruppo.",
       "Mettila in un angolo con immagini ritagliate da classificare fisicamente."
-    ]
+    ],
+    "samplesIntro": "Crea schede di classificazione in cui il bambino raggruppa le immagini nei cestini giusti."
   },
   "missing-pieces": {
     "slug": "generatore-pezzi-mancanti",
@@ -621,7 +719,11 @@
       "Usala come sfida di ragionamento visivo in un angolo tranquillo.",
       "Abbinala a semplici puzzle a incastro per una pratica pratica.",
       "Collega il tema delle immagini al vostro argomento attuale."
-    ]
+    ],
+    "modes": {
+      "one-missing": "Manca un pezzo dell'immagine — il bambino sceglie la parte che la completa.",
+      "two-missing": "Mancano due pezzi, così il bambino sceglie entrambe le parti per finire l'immagine."
+    }
   },
   "odd-one-out": {
     "slug": "generatore-schede-intruso",
@@ -645,7 +747,11 @@
       "Usala per approfondire una lezione di smistamento o categorizzazione.",
       "Incoraggia i bambini a dire perché la loro scelta non si adatta.",
       "Proponila come rapido riscaldamento di ragionamento."
-    ]
+    ],
+    "modes": {
+      "same-theme": "Ogni immagine ha un tema comune tranne una — il bambino trova l'intrusa.",
+      "cross-theme": "Le immagini sono di temi diversi; il bambino individua quella che non c'entra."
+    }
   },
   "sudoku": {
     "slug": "generatore-sudoku-bambini",
@@ -669,7 +775,12 @@
       "Proponi il sudoku a coppie, così i bambini ragionano ad alta voce e si confrontano.",
       "Usa figure legate a un tema (la frutta, i mezzi di trasporto) per unire logica e lessico.",
       "Tieni alcune schede pronte per chi finisce prima le altre attività, come gioco di pensiero."
-    ]
+    ],
+    "modes": {
+      "easy": "Griglie di sudoku illustrato semplici per un primo approccio al puzzle.",
+      "medium": "Un gradino più su, con griglie un po' più piene su cui ragionare.",
+      "hard": "Griglie più difficili che richiedono una logica più attenta per completarle."
+    }
   },
   "picture-path": {
     "slug": "generatore-percorso-immagini",
@@ -693,7 +804,12 @@
       "Usala come attività calma e concentrata in un angolo tranquillo.",
       "Inizia con labirinti semplici e aumenta gradualmente la difficoltà.",
       "Parlate di pianificare un tragitto prima di precipitarsi."
-    ]
+    ],
+    "modes": {
+      "choose-path": "Il bambino sceglie il percorso giusto attraverso un labirinto illustrato.",
+      "classic-maze": "Un labirinto classico da tracciare dall'inizio alla fine senza toccare le pareti.",
+      "pathway": "Il bambino segue il sentiero illustrato da un capo all'altro."
+    }
   },
   "find-and-count": {
     "slug": "generatore-cerca-e-conta",
@@ -717,7 +833,11 @@
       "Usala in un angolo di conteggio precoce.",
       "Incoraggia i bambini a toccare ogni oggetto una volta mentre contano.",
       "Collega il tema della scena a una storia o a un argomento."
-    ]
+    ],
+    "modes": {
+      "hidden-object": "Il bambino cerca gli oggetti nascosti in una scena affollata e li conta.",
+      "letter-spotting": "Il bambino cerca una lettera nell'immagine e conta tutte quelle trovate."
+    }
   },
   "find-objects": {
     "slug": "generatore-cerca-oggetti",
@@ -741,7 +861,11 @@
       "Chiedi ai bambini di contare quanti oggetti uguali compaiono per unire osservazione e numeri.",
       "Usa scene a tema stagionale per accompagnare le attività del periodo dell'anno.",
       "Proponila come attività calmante dopo il gioco motorio, per ritrovare la concentrazione."
-    ]
+    ],
+    "modes": {
+      "find-odd": "Il bambino individua l'unica immagine della fila che non si abbina alle altre.",
+      "i-spy": "Una scena cerca-e-trova in cui il bambino trova e conta gli oggetti indicati."
+    }
   },
   "crossword": {
     "slug": "generatore-cruciverba-immagini",
@@ -765,7 +889,8 @@
       "Lascia che i bambini più sicuri scrivano le parole e i compagni le verifichino insieme.",
       "Usa il cruciverba come scheda di chiusura di un'unità per ripassare i contenuti.",
       "Prepara griglie con parole corte e immagini chiare per chi è alle prime armi con la scrittura."
-    ]
+    ],
+    "samplesIntro": "Crea cruciverba illustrati in cui il bambino scrive ogni parola nella griglia."
   },
   "treasure-hunt": {
     "slug": "generatore-caccia-tesoro",
@@ -789,7 +914,11 @@
       "Usala per esercitare le parole su, giù, sinistra e destra.",
       "Proponila come sfida di problem solving in un angolo.",
       "Aumenta il numero di passi man mano che i bambini diventano più sicuri."
-    ]
+    ],
+    "modes": {
+      "cardinal-arrows": "Il bambino segue le frecce su, giù, sinistra e destra nella griglia fino al tesoro.",
+      "compass": "Il bambino usa i punti cardinali per orientarsi sulla mappa e trovare il tesoro."
+    }
   },
   "labels": {
     "about": "Informazioni su questo generatore",
@@ -798,6 +927,13 @@
     "launchCta": "Apri {name} gratis",
     "otherLanguages": "Disponibile in altre lingue",
     "relatedMakers": "Altri generatori di schede",
-    "makersBreadcrumb": "Generatori di schede"
+    "makersBreadcrumb": "Generatori di schede",
+    "samplesHeading": "Guarda cosa puoi creare",
+    "samplesIntroDefault": "Ogni stile qui sotto è un esempio già pronto — toccalo per provarlo, e ogni scheda è gratuita da stampare.",
+    "playSample": "Prova l'esempio",
+    "crossLangHeading": "Crea schede per ‘imparare una lingua’",
+    "crossLangIntro": "Lo stesso strumento crea anche schede di vocabolario illustrato per imparare una nuova lingua.",
+    "seeAllLang": "Vedi tutte le schede {lang}",
+    "closeSample": "Chiudi l'esempio"
   }
 }

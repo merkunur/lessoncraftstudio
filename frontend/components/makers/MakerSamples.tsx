@@ -79,6 +79,10 @@ export default async function MakerSamples({
 }: MakerSamplesProps): Promise<JSX.Element | null> {
   const data = preData ?? (await fetchMakerSamples(makerKey, locale));
 
+  // The section needs its localized chrome (heading) — until a locale is translated
+  // in the fan-out, render nothing rather than a heading-less grid (substrate-honest).
+  if (!labels.samplesHeading) return null;
+
   const hasSamples = data.kind !== 'none' && data.samples.length > 0;
   const hasCrossLang = data.crossLanguage.length > 0;
   if (!hasSamples && !hasCrossLang) return null;

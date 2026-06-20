@@ -21,7 +21,13 @@
       "Coloca la suma con dibujos en un rincón de conteo manipulativo.",
       "Envía una ficha corta a casa para practicar con la familia.",
       "Combina una ficha temática con el tema que estéis explorando esa semana."
-    ]
+    ],
+    "modes": {
+      "find-addend": "Muestra una parte y el total; los niños calculan el sumando que falta.",
+      "image-image": "Suma dos grupos de imágenes y cuéntalas todas para hallar el resultado.",
+      "image-number": "Cuenta un grupo de imágenes y súmalo a un número para obtener el total.",
+      "mixed": "Una mezcla de sumas con imágenes y sumas con números en una misma página."
+    }
   },
   "subtraction": {
     "slug": "generador-fichas-resta",
@@ -45,7 +51,13 @@
       "Ofrece la resta con dibujos en un rincón de conteo con objetos para mover.",
       "Envía una ficha corta de práctica a casa entre clases.",
       "Incluye una ficha temática cuando quieras un contexto nuevo para la misma destreza."
-    ]
+    ],
+    "modes": {
+      "cross-out": "Los niños tachan imágenes para quitarlas y cuentan las que quedan.",
+      "find-subtrahend": "Muestra el inicio y el resultado; los niños hallan el número que se quitó.",
+      "image-number": "Cuenta un grupo de imágenes y luego réstale un número.",
+      "mixed": "Una mezcla de restas con imágenes y con números en una misma hoja."
+    }
   },
   "code-addition": {
     "slug": "generador-suma-codificada",
@@ -69,7 +81,14 @@
       "Úsalo como ampliación para quienes terminan pronto la suma normal.",
       "Resuelve una suma descifrada juntos antes de que trabajen solos.",
       "Vincula el tema de la leyenda a un contenido actual para un reto temático."
-    ]
+    ],
+    "modes": {
+      "default": "Resuelve cada suma y usa la clave numérica para descifrar una imagen oculta.",
+      "secret-word": "Resuelve las sumas y las respuestas forman una palabra secreta divertida."
+    },
+    "modeNames": {
+      "default": "Código numérico"
+    }
   },
   "more-less": {
     "slug": "generador-comparacion-cantidades",
@@ -93,7 +112,12 @@
       "Colócalo en un rincón de matemáticas junto a objetos reales para comparar.",
       "Modela las palabras \"más\", \"menos\" e \"igual\" mientras marcáis una juntos.",
       "Envía una ficha a casa para practicar comparando grupos cotidianos."
-    ]
+    ],
+    "modes": {
+      "check-cross": "Los niños marcan qué grupo tiene más y cuál tiene menos.",
+      "image-image": "Compara dos grupos de imágenes y decide cuál tiene más o menos.",
+      "image-number": "Compara un grupo de imágenes con un número: ¿más, menos o igual?"
+    }
   },
   "math-puzzle": {
     "slug": "generador-puzzles-matematicos",
@@ -117,7 +141,12 @@
       "Ofrécelo como ampliación a los niños listos para razonar, no solo recordar.",
       "Resuelve una línea difícil juntos y comentad el razonamiento.",
       "Propón un pequeño conjunto como reto para quienes terminan pronto."
-    ]
+    ],
+    "modes": {
+      "addition": "Rompecabezas de cuadrícula numérica donde cada pista es una suma.",
+      "subtraction": "Rompecabezas de cuadrícula numérica hechos solo con restas.",
+      "mixed": "Cuadrículas de rompecabezas que mezclan pistas de suma y resta."
+    }
   },
   "math-worksheet": {
     "slug": "generador-ejercicios-matematicas",
@@ -141,7 +170,17 @@
       "Plantéalo como trabajo autónomo mientras atiendes a un grupo pequeño.",
       "Envía una ficha a casa como práctica ligera y variada.",
       "Prepara una ficha corta para una evaluación rápida al cerrar una unidad."
-    ]
+    ],
+    "modes": {
+      "two-symbols-add-sub": "Sumas de dos números con un más o un menos, bien ordenadas para resolver.",
+      "three-symbols-add-sub": "Problemas de tres números que combinan más y menos en una línea.",
+      "four-symbols-add-sub": "Series más largas de cuatro números con más y menos para resolver."
+    },
+    "modeNames": {
+      "two-symbols-add-sub": "Dos números",
+      "three-symbols-add-sub": "Tres números",
+      "four-symbols-add-sub": "Cuatro números"
+    }
   },
   "alphabet-train": {
     "slug": "generador-tren-abecedario",
@@ -165,7 +204,14 @@
       "Úsalo en un rincón de lectoescritura junto a letras magnéticas.",
       "Empieza con uno o dos huecos y añade más a medida que crecen.",
       "Envía un tren a casa para practicar el orden de las letras con un adulto."
-    ]
+    ],
+    "modes": {
+      "letter-hint": "Cada vagón muestra una pista de letra para armar el tren del abecedario.",
+      "default": "Arma el tren del abecedario colocando las letras en el orden correcto."
+    },
+    "modeNames": {
+      "default": "Clásico"
+    }
   },
   "prepositions": {
     "slug": "generador-fichas-preposiciones",
@@ -189,7 +235,11 @@
       "Úsalo para apoyar una conversación rica de \"¿dónde está?\".",
       "Combínalo con objetos cotidianos del aula para un seguimiento manipulativo.",
       "Vincula el tema de las escenas a un cuento que estéis leyendo juntos."
-    ]
+    ],
+    "modes": {
+      "fillin": "Los niños escriben la palabra de posición (en, sobre, debajo…) que va con cada imagen.",
+      "multiplechoice": "Elige entre las opciones la palabra de posición correcta para cada imagen."
+    }
   },
   "word-guess": {
     "slug": "generador-adivinar-palabras",
@@ -213,7 +263,11 @@
       "Aumenta la dificultad dejando todas las casillas vacías para los lectores más avanzados.",
       "Crea fichas por campos de vocabulario y úsalas como repaso semanal.",
       "Conviértelo en juego oral: los niños dicen la palabra en voz alta antes de escribirla."
-    ]
+    ],
+    "modes": {
+      "easy": "Palabras cortas con pistas de imágenes para que adivinen los primeros lectores.",
+      "normal": "Palabras más largas y pistas más difíciles para lectores seguros."
+    }
   },
   "word-scramble": {
     "slug": "generador-palabras-desordenadas",
@@ -237,7 +291,11 @@
       "Úsalo para repasar el vocabulario del tema al final de la semana.",
       "Plantéalo como rincón de ortografía con fichas de letras para mover.",
       "Envía una palabra corta a casa para una práctica de ortografía lúdica."
-    ]
+    ],
+    "modes": {
+      "easy": "Ordena palabras cortas y conocidas con una pista de imagen que ayuda.",
+      "normal": "Ordena palabras más largas para un reto de ortografía mayor."
+    }
   },
   "wordsearch": {
     "slug": "generador-sopa-letras",
@@ -261,7 +319,15 @@
       "Crea una sopa de letras con los nombres de los niños de la clase para el primer día.",
       "Prepara una ficha por temas (frutas, animales, colores) y úsala en el rincón tranquilo.",
       "Combínala con un dictado: primero buscan la palabra y luego la copian debajo."
-    ]
+    ],
+    "modes": {
+      "default": "Esconde una lista de palabras en la cuadrícula para que los niños las busquen y rodeen.",
+      "image-only": "Una sopa de letras con imágenes: los niños buscan las palabras de las imágenes."
+    },
+    "modeNames": {
+      "default": "Busca palabras",
+      "image-only": "Busca imágenes"
+    }
   },
   "cryptogram": {
     "slug": "generador-criptogramas",
@@ -285,7 +351,8 @@
       "Esconde un mensaje secreto sencillo ('hola clase') como actividad de buenos días.",
       "Úsalo como rincón de lectura: los niños descifran su nombre o el de un compañero.",
       "Prepara una ficha por estaciones del año o por animales y enlázala con tu proyecto del trimestre."
-    ]
+    ],
+    "samplesIntro": "Crea acertijos para descifrar mensajes donde los símbolos representan letras."
   },
   "writing": {
     "slug": "generador-fichas-escritura",
@@ -333,7 +400,15 @@
       "Úsalo en un rincón de clasificación con juguetes grandes y pequeños.",
       "Modela las palabras grande, pequeño, mayor y menor mientras avanzáis.",
       "Envía una ficha a casa para encontrar cosas grandes y pequeñas por la casa."
-    ]
+    ],
+    "modes": {
+      "findBig": "Los niños encuentran y tocan la imagen más grande (o más pequeña) de cada conjunto.",
+      "orderAsc": "Ordena las imágenes de la más pequeña a la más grande."
+    },
+    "modeNames": {
+      "findBig": "Encuentra la más grande",
+      "orderAsc": "Ordena por tamaño"
+    }
   },
   "pattern-train": {
     "slug": "generador-tren-patrones",
@@ -357,7 +432,17 @@
       "Construid un patrón igual con bloques en un rincón.",
       "Empieza con patrones simples ABAB y añade complejidad.",
       "Vincula el tema del patrón a vuestro contenido actual."
-    ]
+    ],
+    "modes": {
+      "aab": "Patrones de imágenes A-A-B que se repiten para que los niños los continúen.",
+      "aabb": "Patrones A-A-B-B que crean un ritmo constante de dos en dos.",
+      "abb": "Patrones A-B-B para leer, predecir y extender.",
+      "abc": "Patrones A-B-C de tres partes con una unidad repetida más larga.",
+      "default": "Patrones repetidos variados donde los niños descubren qué sigue."
+    },
+    "modeNames": {
+      "default": "Patrones variados"
+    }
   },
   "pattern-worksheet": {
     "slug": "generador-fichas-patrones",
@@ -381,7 +466,8 @@
       "Plantéalo como trabajo autónomo tras una mini-lección de patrones.",
       "Ofrece patrones más difíciles como ampliación para quienes terminan pronto.",
       "Combina filas de dibujos y de formas para una práctica variada."
-    ]
+    ],
+    "samplesIntro": "Crea fichas de patrones variados para que los niños lean y completen."
   },
   "draw-and-color": {
     "slug": "generador-dibujo-cuadricula",
@@ -477,7 +563,8 @@
       "Úsalo para registrar los resultados de una encuesta rápida de clase.",
       "Hablad juntos de qué barra es la más alta y la más baja.",
       "Colócalo en un rincón de matemáticas como práctica de datos manipulativa."
-    ]
+    ],
+    "samplesIntro": "Crea fichas de contar y graficar donde los niños registran imágenes en una gráfica."
   },
   "matching": {
     "slug": "generador-fichas-asociacion",
@@ -501,7 +588,11 @@
       "Úsalo para repasar vocabulario temático o conceptos relacionados.",
       "Colócalo en un rincón con tarjetas físicas para emparejar primero.",
       "Envía una ficha de asociación a casa para una práctica rápida y clara."
-    ]
+    ],
+    "modes": {
+      "letter": "Traza una línea de cada imagen a la letra con la que empieza.",
+      "name": "Une cada imagen con su palabra escrita."
+    }
   },
   "grid-match": {
     "slug": "generador-puzzle-cuadricula",
@@ -525,7 +616,8 @@
       "Úsalo como reto de observación atenta en un rincón de matemáticas.",
       "Empieza con una cuadrícula pequeña y agrándala según crece la confianza.",
       "Vincula el tema de los dibujos a vuestro contenido actual."
-    ]
+    ],
+    "samplesIntro": "Crea fichas de emparejar en cuadrícula que unen imágenes a lo largo de la cuadrícula."
   },
   "shadow-match": {
     "slug": "generador-discriminacion-visual",
@@ -549,7 +641,11 @@
       "Úsalo como actividad concentrada de percepción visual en un rincón.",
       "Comentad cómo la forma por sí sola ayuda a reconocer un objeto.",
       "Vincula el tema de los dibujos a un cuento o contenido."
-    ]
+    ],
+    "modes": {
+      "find-shadow": "Une cada imagen con su sombra correspondiente.",
+      "make-whole": "Junta las dos mitades que completan cada imagen."
+    }
   },
   "bingo": {
     "slug": "generador-tarjetas-bingo",
@@ -573,7 +669,8 @@
       "Canta las palabras en otro idioma para los que aprenden lenguas.",
       "Deja que un niño sea quien canta para practicar leyendo los dibujos.",
       "Haz una ronda rápida como apertura o transición divertida de la clase."
-    ]
+    ],
+    "samplesIntro": "Crea cartones de bingo de imágenes y palabras para jugar con toda la clase."
   },
   "picture-sort": {
     "slug": "generador-clasificacion-imagenes",
@@ -597,7 +694,8 @@
       "Úsalo para apoyar una lección de clasificación en ciencias o de un tema.",
       "Comentad un dibujo juntos, nombrando por qué encaja en un grupo.",
       "Colócalo en un rincón con dibujos recortados para clasificar físicamente."
-    ]
+    ],
+    "samplesIntro": "Crea fichas de clasificar donde los niños agrupan imágenes en las cestas correctas."
   },
   "missing-pieces": {
     "slug": "generador-piezas-faltantes",
@@ -621,7 +719,11 @@
       "Úsalo como reto de razonamiento visual en un rincón tranquilo.",
       "Combínalo con puzzles sencillos de encaje para una práctica manipulativa.",
       "Vincula el tema de los dibujos a vuestro contenido actual."
-    ]
+    ],
+    "modes": {
+      "one-missing": "Falta una pieza de la imagen: los niños eligen la parte que la completa.",
+      "two-missing": "Faltan dos piezas, así que los niños eligen ambas partes para terminar la imagen."
+    }
   },
   "odd-one-out": {
     "slug": "generador-fichas-intruso",
@@ -645,7 +747,11 @@
       "Úsalo para profundizar en una lección de clasificar o agrupar.",
       "Anima a los niños a decir por qué su elección no encaja.",
       "Plantéalo como un calentamiento rápido de razonamiento."
-    ]
+    ],
+    "modes": {
+      "same-theme": "Todas las imágenes comparten un tema menos una: encuentra la que sobra.",
+      "cross-theme": "Las imágenes son de temas distintos; los niños hallan la que no encaja."
+    }
   },
   "sudoku": {
     "slug": "generador-sudoku-infantil",
@@ -669,7 +775,12 @@
       "Plastifica una ficha y úsala con piezas recortables para resolverla en grupo.",
       "Crea una versión con las formas geométricas que estéis trabajando ese mes.",
       "Ofrécelo como reto tranquilo para los niños que terminan antes las demás tareas."
-    ]
+    ],
+    "modes": {
+      "easy": "Sudokus de imágenes suaves para un primer intento con el acertijo.",
+      "medium": "Un paso más, con cuadrículas algo más llenas para razonar.",
+      "hard": "Cuadrículas más difíciles que necesitan una lógica más cuidadosa."
+    }
   },
   "picture-path": {
     "slug": "generador-recorrido-imagenes",
@@ -693,7 +804,12 @@
       "Úsalo como actividad calmada y concentrada en un rincón tranquilo.",
       "Empieza con laberintos sencillos y sube la dificultad poco a poco.",
       "Hablad de planificar una ruta antes de lanzarse de golpe."
-    ]
+    ],
+    "modes": {
+      "choose-path": "Los niños eligen el camino correcto a través de un laberinto de imágenes.",
+      "classic-maze": "Un laberinto clásico para trazar de principio a fin sin cruzar las paredes.",
+      "pathway": "Sigue el camino de imágenes de un extremo al otro."
+    }
   },
   "find-and-count": {
     "slug": "generador-busca-cuenta",
@@ -717,7 +833,11 @@
       "Úsalo en un rincón de conteo inicial.",
       "Anima a los niños a tocar cada objeto una vez mientras cuentan.",
       "Vincula el tema de la escena a un cuento o contenido."
-    ]
+    ],
+    "modes": {
+      "hidden-object": "Los niños buscan objetos escondidos en una escena llena y los cuentan.",
+      "letter-spotting": "Busca una letra en la imagen y cuenta cada vez que aparece."
+    }
   },
   "find-objects": {
     "slug": "generador-busca-objetos",
@@ -741,7 +861,11 @@
       "Usa una escena del tema del trimestre (la granja, el mar) como portada del proyecto.",
       "Cronométralo como reto suave: ¿quién encuentra todos los objetos con calma?",
       "Trabaja vocabulario nombrando en voz alta cada objeto antes de empezar a buscar."
-    ]
+    ],
+    "modes": {
+      "find-odd": "Encuentra la imagen de la fila que no pertenece con las demás.",
+      "i-spy": "Una escena de Veo-Veo donde los niños buscan y cuentan los objetos nombrados."
+    }
   },
   "crossword": {
     "slug": "generador-crucigramas-imagenes",
@@ -765,7 +889,8 @@
       "Trabaja la conciencia fonológica pidiendo que digan el sonido inicial antes de escribir.",
       "Crea un crucigrama por campos semánticos: el cuerpo, la casa, los medios de transporte.",
       "Úsalo como tarea de repaso para casa, con la imagen ayudando a las familias a guiar."
-    ]
+    ],
+    "samplesIntro": "Crea crucigramas de imágenes donde los niños escriben cada palabra en la cuadrícula."
   },
   "treasure-hunt": {
     "slug": "generador-busqueda-tesoro",
@@ -789,7 +914,11 @@
       "Úsalo para practicar las palabras arriba, abajo, izquierda y derecha.",
       "Plantéalo como reto de resolución de problemas en un rincón.",
       "Aumenta el número de pasos a medida que los niños ganan confianza."
-    ]
+    ],
+    "modes": {
+      "cardinal-arrows": "Sigue las flechas de arriba, abajo, izquierda y derecha por la cuadrícula hasta el tesoro.",
+      "compass": "Usa los puntos cardinales para recorrer el mapa y encontrar el tesoro."
+    }
   },
   "labels": {
     "about": "Sobre este generador",
@@ -798,6 +927,13 @@
     "launchCta": "Abrir {name} gratis",
     "otherLanguages": "Disponible en otros idiomas",
     "relatedMakers": "Más generadores de fichas",
-    "makersBreadcrumb": "Generadores de fichas"
+    "makersBreadcrumb": "Generadores de fichas",
+    "samplesHeading": "Mira lo que puedes crear",
+    "samplesIntroDefault": "Cada estilo de abajo es una muestra lista para usar: tócala para jugar, y todas las fichas se imprimen gratis.",
+    "playSample": "Jugar muestra",
+    "crossLangHeading": "Crea fichas para ‘aprender un idioma’",
+    "crossLangIntro": "El mismo generador también crea fichas de vocabulario con imágenes para aprender un idioma nuevo.",
+    "seeAllLang": "Ver todas las fichas de {lang}",
+    "closeSample": "Cerrar muestra"
   }
 }

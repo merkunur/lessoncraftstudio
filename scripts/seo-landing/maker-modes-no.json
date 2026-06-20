@@ -1,0 +1,200 @@
+{
+  "labels": {
+    "samplesHeading": "Se hva du kan lage",
+    "samplesIntroDefault": "Hver stil nedenfor er et ferdig eksempel – trykk for å spille det, og alle arkene er gratis å skrive ut.",
+    "playSample": "Spill eksempel",
+    "crossLangHeading": "Lag «lær et språk»-ark",
+    "crossLangIntro": "Det samme verktøyet lager også bildeordforråd-ark for å lære et nytt språk.",
+    "seeAllLang": "Se alle {lang}-ark",
+    "closeSample": "Lukk eksempel"
+  },
+  "makers": {
+    "addition": {
+      "modes": {
+        "find-addend": "Vis én del og summen; barnet ditt finner ut hvilket tall som mangler.",
+        "image-image": "Legg sammen to grupper med bilder og tell alle for å finne summen.",
+        "image-number": "Tell en gruppe bilder, og legg den så til et tall for å finne summen.",
+        "mixed": "En blanding av bildesummer og tallsummer sammen på én side."
+      }
+    },
+    "subtraction": {
+      "modes": {
+        "cross-out": "Barnet ditt streker over bilder for å ta dem bort og teller hva som er igjen.",
+        "find-subtrahend": "Vis starten og svaret; barnet ditt finner tallet som ble tatt bort.",
+        "image-number": "Tell en gruppe bilder, og trekk så et tall fra den.",
+        "mixed": "En blanding av bilde- og tall-oppgaver med å ta bort på ett ark."
+      }
+    },
+    "code-addition": {
+      "modes": {
+        "default": "Løs hver sum, og bruk så tallnøkkelen for å knekke en skjult bildekode.",
+        "secret-word": "Løs summene, og svarene staver et morsomt hemmelig ord."
+      },
+      "modeNames": {
+        "default": "Tallkode"
+      }
+    },
+    "more-less": {
+      "modes": {
+        "check-cross": "Barnet ditt markerer hvilken gruppe som har flest og hvilken som har færrest.",
+        "image-image": "Sammenlign to grupper med bilder og avgjør hvilken som er mer eller mindre.",
+        "image-number": "Sammenlign en gruppe bilder med et tall – mer, mindre eller likt?"
+      }
+    },
+    "math-puzzle": {
+      "modes": {
+        "addition": "Tallrutenett-oppgaver der hvert hint er et pluss-stykke.",
+        "subtraction": "Tallrutenett-oppgaver bygd helt opp av minus-stykker.",
+        "mixed": "Oppgaverutenett som blander pluss- og minus-hint."
+      }
+    },
+    "math-worksheet": {
+      "modes": {
+        "two-symbols-add-sub": "Stykker med to tall og pluss eller minus, fint satt opp til å løse.",
+        "three-symbols-add-sub": "Oppgaver med tre tall som kombinerer pluss og minus på én linje.",
+        "four-symbols-add-sub": "Lengre rekker med fire tall, pluss og minus, å jobbe seg gjennom."
+      },
+      "modeNames": {
+        "two-symbols-add-sub": "To tall",
+        "three-symbols-add-sub": "Tre tall",
+        "four-symbols-add-sub": "Fire tall"
+      }
+    },
+    "alphabet-train": {
+      "modes": {
+        "letter-hint": "Hver vogn viser et bokstavhint som hjelper med å bygge alfabettoget.",
+        "default": "Bygg alfabettoget ved å sette bokstavene i riktig rekkefølge."
+      },
+      "modeNames": {
+        "default": "Klassisk"
+      }
+    },
+    "prepositions": {
+      "modes": {
+        "fillin": "Barnet ditt skriver posisjonsordet (i, på, under …) som passer til hvert bilde.",
+        "multiplechoice": "Velg det riktige posisjonsordet for hvert bilde blant alternativene."
+      }
+    },
+    "word-guess": {
+      "modes": {
+        "easy": "Kortere ord med bildehint som nye lesere kan gjette.",
+        "normal": "Lengre ord og vanskeligere hint for trygge lesere."
+      }
+    },
+    "word-scramble": {
+      "modes": {
+        "easy": "Sett sammen korte, kjente ord med et bildehint til hjelp.",
+        "normal": "Sett sammen lengre ord for en større staveutfordring."
+      }
+    },
+    "wordsearch": {
+      "modes": {
+        "default": "Skjul en liste med ord i rutenettet som barna skal finne og ringe rundt.",
+        "image-only": "Et bildeordsøk – barna finner ordene for bildene som vises."
+      },
+      "modeNames": {
+        "default": "Ordjakt",
+        "image-only": "Bildejakt"
+      }
+    },
+    "cryptogram": {
+      "samplesIntro": "Lag tyd-meldingen-oppgaver der symboler står for bokstaver."
+    },
+    "big-small": {
+      "modes": {
+        "findBig": "Barnet ditt finner og trykker på det største (eller minste) bildet i hvert sett.",
+        "orderAsc": "Sett bildene i rekkefølge fra minst til størst."
+      },
+      "modeNames": {
+        "findBig": "Finn det største",
+        "orderAsc": "Ordne etter størrelse"
+      }
+    },
+    "pattern-train": {
+      "modes": {
+        "aab": "Gjentakende A-A-B-bildemønstre som barna skal fortsette.",
+        "aabb": "A-A-B-B-mønstre som bygger en jevn to-og-to-rytme.",
+        "abb": "A-B-B-mønstre å lese, forutse og forlenge.",
+        "abc": "Tredelte A-B-C-mønstre med en lengre gjentakende enhet.",
+        "default": "Blandede gjentakende mønstre der barna finner ut hva som kommer videre."
+      },
+      "modeNames": {
+        "default": "Blandede mønstre"
+      }
+    },
+    "pattern-worksheet": {
+      "samplesIntro": "Lag blandede mønsterark som barna skal lese og fullføre."
+    },
+    "chart-count": {
+      "samplesIntro": "Lag tell-og-graf-ark der barna teller bilder inn i et diagram."
+    },
+    "matching": {
+      "modes": {
+        "letter": "Tegn en strek fra hvert bilde til bokstaven det begynner med.",
+        "name": "Match hvert bilde til det skrevne ordet."
+      }
+    },
+    "grid-match": {
+      "samplesIntro": "Lag rutenett-matchark som parer bilder på tvers av et rutenett."
+    },
+    "shadow-match": {
+      "modes": {
+        "find-shadow": "Match hvert bilde til skyggeformen som passer.",
+        "make-whole": "Sett sammen de to halvdelene som gjør hvert bilde helt igjen."
+      }
+    },
+    "bingo": {
+      "samplesIntro": "Lag bilde- og ordbingokort som hele klassen kan spille sammen."
+    },
+    "picture-sort": {
+      "samplesIntro": "Lag sorteringsark der barna grupperer bilder i de riktige kurvene."
+    },
+    "missing-pieces": {
+      "modes": {
+        "one-missing": "Én bit mangler i bildet – barna velger delen som fullfører det.",
+        "two-missing": "To biter mangler, så barna velger begge delene for å fullføre bildet."
+      }
+    },
+    "odd-one-out": {
+      "modes": {
+        "same-theme": "Alle bildene deler et tema unntatt ett – finn det som skiller seg ut.",
+        "cross-theme": "Bildene kommer fra ulike temaer; barna finner det som ikke passer."
+      }
+    },
+    "sudoku": {
+      "modes": {
+        "easy": "Snille bildesudoku-rutenett for et første forsøk på oppgaven.",
+        "medium": "Et hakk opp, med litt fyldigere rutenett å resonnere gjennom.",
+        "hard": "Vanskeligere rutenett som krever mer nøye logikk å fullføre."
+      }
+    },
+    "picture-path": {
+      "modes": {
+        "choose-path": "Barna velger den riktige veien gjennom en bildelabyrint.",
+        "classic-maze": "En klassisk labyrint å følge fra start til mål uten å krysse vegger.",
+        "pathway": "Følg bildestien fra den ene enden til den andre."
+      }
+    },
+    "find-and-count": {
+      "modes": {
+        "hidden-object": "Barna leter etter skjulte gjenstander i et yrende bilde og teller dem.",
+        "letter-spotting": "Let i bildet etter en målbokstav og tell hver eneste én du finner."
+      }
+    },
+    "find-objects": {
+      "modes": {
+        "find-odd": "Finn det ene bildet i raden som ikke hører sammen med de andre.",
+        "i-spy": "En tittelek der barna finner og teller gjenstandene som nevnes."
+      }
+    },
+    "crossword": {
+      "samplesIntro": "Lag bildekryssord der barna staver hvert ord inn i rutenettet."
+    },
+    "treasure-hunt": {
+      "modes": {
+        "cardinal-arrows": "Følg piler opp, ned, til venstre og høyre over rutenettet til skatten.",
+        "compass": "Bruk kompassretninger for å finne veien på kartet og finne skatten."
+      }
+    }
+  }
+}

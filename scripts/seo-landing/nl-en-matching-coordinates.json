@@ -1,0 +1,822 @@
+{
+  "locale": "nl",
+  "target": "en",
+  "exerciseType": "matching",
+  "rawRowCount": 47,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "name": 47
+  },
+  "totalValid": 47,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "name"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-4-juli-01a4",
+      "siblings": [
+        "engels-koppelen-namen-4-juli-01a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-accessoires-19a6",
+      "siblings": [
+        "engels-koppelen-namen-accessoires-19a6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-activiteiten-e03e",
+      "siblings": [
+        "engels-koppelen-namen-activiteiten-e03e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-dieren-4cf7",
+      "siblings": [
+        "engels-koppelen-namen-dieren-4cf7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-rond-het-huis-d756",
+      "siblings": [
+        "engels-koppelen-namen-rond-het-huis-d756"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-in-de-supermarkt-79e8",
+      "siblings": [
+        "engels-koppelen-namen-in-de-supermarkt-79e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-bakkerij-e5f4",
+      "siblings": [
+        "engels-koppelen-namen-bakkerij-e5f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-strand-fac2",
+      "siblings": [
+        "engels-koppelen-namen-strand-fac2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-vogels-8505",
+      "siblings": [
+        "engels-koppelen-namen-vogels-8505"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-vogels-2-c2da",
+      "siblings": [
+        "engels-koppelen-namen-vogels-2-c2da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-lichaamsdelen-b440",
+      "siblings": [
+        "engels-koppelen-namen-lichaamsdelen-b440"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-ontbijt-0bbe",
+      "siblings": [
+        "engels-koppelen-namen-ontbijt-0bbe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-kamperen-f4f0",
+      "siblings": [
+        "engels-koppelen-namen-kamperen-f4f0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-kerstmis-6225",
+      "siblings": [
+        "engels-koppelen-namen-kerstmis-6225"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-klaslokaal-3b41",
+      "siblings": [
+        "engels-koppelen-namen-klaslokaal-3b41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-kleding-5f31",
+      "siblings": [
+        "engels-koppelen-namen-kleding-5f31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-kleuren-1208",
+      "siblings": [
+        "engels-koppelen-namen-kleuren-1208"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-desserts-en-snoep-fc6e",
+      "siblings": [
+        "engels-koppelen-namen-desserts-en-snoep-fc6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-pasen-4c0b",
+      "siblings": [
+        "engels-koppelen-namen-pasen-4c0b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-emoties-b567",
+      "siblings": [
+        "engels-koppelen-namen-emoties-b567"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-boerderijdieren-a85d",
+      "siblings": [
+        "engels-koppelen-namen-boerderijdieren-a85d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-bloemen-b32d",
+      "siblings": [
+        "engels-koppelen-namen-bloemen-b32d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-boswezens-723e",
+      "siblings": [
+        "engels-koppelen-namen-boswezens-723e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-fruit-4d52",
+      "siblings": [
+        "engels-koppelen-namen-fruit-4d52"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-meubels-946e",
+      "siblings": [
+        "engels-koppelen-namen-meubels-946e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-ziekenhuis-ef88",
+      "siblings": [
+        "engels-koppelen-namen-ziekenhuis-ef88"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-insecten-en-beestjes-639b",
+      "siblings": [
+        "engels-koppelen-namen-insecten-en-beestjes-639b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-keukengerei-b8c0",
+      "siblings": [
+        "engels-koppelen-namen-keukengerei-b8c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-muziek-992a",
+      "siblings": [
+        "engels-koppelen-namen-muziek-992a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-beroepen-fd46",
+      "siblings": [
+        "engels-koppelen-namen-beroepen-fd46"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-oceaanleven-97ba",
+      "siblings": [
+        "engels-koppelen-namen-oceaanleven-97ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-huisdieren-1b86",
+      "siblings": [
+        "engels-koppelen-namen-huisdieren-1b86"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-postkantoor-69f5",
+      "siblings": [
+        "engels-koppelen-namen-postkantoor-69f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-reptielen-en-amfibieen-746b",
+      "siblings": [
+        "engels-koppelen-namen-reptielen-en-amfibieen-746b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-vormen-4e86",
+      "siblings": [
+        "engels-koppelen-namen-vormen-4e86"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-ruimte-17d0",
+      "siblings": [
+        "engels-koppelen-namen-ruimte-17d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-lente-5243",
+      "siblings": [
+        "engels-koppelen-namen-lente-5243"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-zomer-f088",
+      "siblings": [
+        "engels-koppelen-namen-zomer-f088"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-thanksgiving-e3a8",
+      "siblings": [
+        "engels-koppelen-namen-thanksgiving-e3a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-dingen-die-vliegen-08a1",
+      "siblings": [
+        "engels-koppelen-namen-dingen-die-vliegen-08a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-gereedschap-5b91",
+      "siblings": [
+        "engels-koppelen-namen-gereedschap-5b91"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-speelgoed-4dfc",
+      "siblings": [
+        "engels-koppelen-namen-speelgoed-4dfc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-groenten-7de1",
+      "siblings": [
+        "engels-koppelen-namen-groenten-7de1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-voertuigen-97a5",
+      "siblings": [
+        "engels-koppelen-namen-voertuigen-97a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-weer-ef44",
+      "siblings": [
+        "engels-koppelen-namen-weer-ef44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-winter-ea76",
+      "siblings": [
+        "engels-koppelen-namen-winter-ea76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "engels-koppelen-namen-dierentuindieren-f593",
+      "siblings": [
+        "engels-koppelen-namen-dierentuindieren-f593"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

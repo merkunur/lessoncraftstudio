@@ -1,0 +1,822 @@
+{
+  "locale": "no",
+  "target": "en",
+  "exerciseType": "matching",
+  "rawRowCount": 47,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "name": 47
+  },
+  "totalValid": 47,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "name"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-4-juli-5869",
+      "siblings": [
+        "engelsk-matching-navn-4-juli-5869"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-tilbehor-d092",
+      "siblings": [
+        "engelsk-matching-navn-tilbehor-d092"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-aktiviteter-0eae",
+      "siblings": [
+        "engelsk-matching-navn-aktiviteter-0eae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-dyr-33a7",
+      "siblings": [
+        "engelsk-matching-navn-dyr-33a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-rundt-i-huset-3a00",
+      "siblings": [
+        "engelsk-matching-navn-rundt-i-huset-3a00"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-i-supermarkedet-8231",
+      "siblings": [
+        "engelsk-matching-navn-i-supermarkedet-8231"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-bakeri-019a",
+      "siblings": [
+        "engelsk-matching-navn-bakeri-019a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-strand-ae1f",
+      "siblings": [
+        "engelsk-matching-navn-strand-ae1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-fugler-22d8",
+      "siblings": [
+        "engelsk-matching-navn-fugler-22d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-fugler-2-bc13",
+      "siblings": [
+        "engelsk-matching-navn-fugler-2-bc13"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-kroppsdeler-310a",
+      "siblings": [
+        "engelsk-matching-navn-kroppsdeler-310a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-frokost-3178",
+      "siblings": [
+        "engelsk-matching-navn-frokost-3178"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-camping-a900",
+      "siblings": [
+        "engelsk-matching-navn-camping-a900"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-jul-cb87",
+      "siblings": [
+        "engelsk-matching-navn-jul-cb87"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-klasserom-df82",
+      "siblings": [
+        "engelsk-matching-navn-klasserom-df82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-klaer-e6ee",
+      "siblings": [
+        "engelsk-matching-navn-klaer-e6ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-farger-33db",
+      "siblings": [
+        "engelsk-matching-navn-farger-33db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-desserter-og-godteri-ee44",
+      "siblings": [
+        "engelsk-matching-navn-desserter-og-godteri-ee44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-paske-0912",
+      "siblings": [
+        "engelsk-matching-navn-paske-0912"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-folelser-4ed4",
+      "siblings": [
+        "engelsk-matching-navn-folelser-4ed4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-gardsdyr-e7be",
+      "siblings": [
+        "engelsk-matching-navn-gardsdyr-e7be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-blomster-43b3",
+      "siblings": [
+        "engelsk-matching-navn-blomster-43b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-skogsdyr-0b19",
+      "siblings": [
+        "engelsk-matching-navn-skogsdyr-0b19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-frukter-baa2",
+      "siblings": [
+        "engelsk-matching-navn-frukter-baa2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-mobler-46be",
+      "siblings": [
+        "engelsk-matching-navn-mobler-46be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-sykehus-835d",
+      "siblings": [
+        "engelsk-matching-navn-sykehus-835d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-insekter-og-kryp-cdad",
+      "siblings": [
+        "engelsk-matching-navn-insekter-og-kryp-cdad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-kjokkenredskaper-ebdd",
+      "siblings": [
+        "engelsk-matching-navn-kjokkenredskaper-ebdd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-musikk-09a8",
+      "siblings": [
+        "engelsk-matching-navn-musikk-09a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-yrker-ae3c",
+      "siblings": [
+        "engelsk-matching-navn-yrker-ae3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-havliv-7ff4",
+      "siblings": [
+        "engelsk-matching-navn-havliv-7ff4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-kjaeledyr-2db0",
+      "siblings": [
+        "engelsk-matching-navn-kjaeledyr-2db0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-postkontor-026c",
+      "siblings": [
+        "engelsk-matching-navn-postkontor-026c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-reptiler-og-amfibier-c78c",
+      "siblings": [
+        "engelsk-matching-navn-reptiler-og-amfibier-c78c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-former-4fc2",
+      "siblings": [
+        "engelsk-matching-navn-former-4fc2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-verdensrommet-a707",
+      "siblings": [
+        "engelsk-matching-navn-verdensrommet-a707"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-var-7d8c",
+      "siblings": [
+        "engelsk-matching-navn-var-7d8c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-sommer-7f2b",
+      "siblings": [
+        "engelsk-matching-navn-sommer-7f2b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-thanksgiving-362b",
+      "siblings": [
+        "engelsk-matching-navn-thanksgiving-362b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-ting-som-flyr-17b7",
+      "siblings": [
+        "engelsk-matching-navn-ting-som-flyr-17b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-verktoy-af1c",
+      "siblings": [
+        "engelsk-matching-navn-verktoy-af1c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-leker-1a43",
+      "siblings": [
+        "engelsk-matching-navn-leker-1a43"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-gronnsaker-21f8",
+      "siblings": [
+        "engelsk-matching-navn-gronnsaker-21f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-kjoretoy-f8e3",
+      "siblings": [
+        "engelsk-matching-navn-kjoretoy-f8e3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-vaer-21a7",
+      "siblings": [
+        "engelsk-matching-navn-vaer-21a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-vinter-68e5",
+      "siblings": [
+        "engelsk-matching-navn-vinter-68e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "engelsk-matching-navn-dyrehagedyr-c486",
+      "siblings": [
+        "engelsk-matching-navn-dyrehagedyr-c486"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

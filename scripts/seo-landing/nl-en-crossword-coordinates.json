@@ -1,0 +1,805 @@
+{
+  "locale": "nl",
+  "target": "en",
+  "exerciseType": "crossword",
+  "rawRowCount": 46,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "(null)": 46
+  },
+  "totalValid": 46,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-4-juli-00d8",
+      "siblings": [
+        "engels-kruiswoordraadsel-4-juli-00d8"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-accessoires-98ab",
+      "siblings": [
+        "engels-kruiswoordraadsel-accessoires-98ab"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-activiteiten-8634",
+      "siblings": [
+        "engels-kruiswoordraadsel-activiteiten-8634"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-dieren-7b20",
+      "siblings": [
+        "engels-kruiswoordraadsel-dieren-7b20"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-rond-het-huis-a41b",
+      "siblings": [
+        "engels-kruiswoordraadsel-rond-het-huis-a41b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-in-de-supermarkt-4583",
+      "siblings": [
+        "engels-kruiswoordraadsel-in-de-supermarkt-4583"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-bakkerij-0cf9",
+      "siblings": [
+        "engels-kruiswoordraadsel-bakkerij-0cf9"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-strand-6dbc",
+      "siblings": [
+        "engels-kruiswoordraadsel-strand-6dbc"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-vogels-f525",
+      "siblings": [
+        "engels-kruiswoordraadsel-vogels-f525"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-vogels-2-73de",
+      "siblings": [
+        "engels-kruiswoordraadsel-vogels-2-73de"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-lichaamsdelen-1ca9",
+      "siblings": [
+        "engels-kruiswoordraadsel-lichaamsdelen-1ca9"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-ontbijt-1ddc",
+      "siblings": [
+        "engels-kruiswoordraadsel-ontbijt-1ddc"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-kamperen-bf8b",
+      "siblings": [
+        "engels-kruiswoordraadsel-kamperen-bf8b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-kerstmis-0ca7",
+      "siblings": [
+        "engels-kruiswoordraadsel-kerstmis-0ca7"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-klaslokaal-c4ea",
+      "siblings": [
+        "engels-kruiswoordraadsel-klaslokaal-c4ea"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-kleding-8deb",
+      "siblings": [
+        "engels-kruiswoordraadsel-kleding-8deb"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-kleuren-4958",
+      "siblings": [
+        "engels-kruiswoordraadsel-kleuren-4958"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-desserts-en-snoep-7c94",
+      "siblings": [
+        "engels-kruiswoordraadsel-desserts-en-snoep-7c94"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-pasen-2136",
+      "siblings": [
+        "engels-kruiswoordraadsel-pasen-2136"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-emoties-77c6",
+      "siblings": [
+        "engels-kruiswoordraadsel-emoties-77c6"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-boerderijdieren-ee3d",
+      "siblings": [
+        "engels-kruiswoordraadsel-boerderijdieren-ee3d"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-bloemen-8d31",
+      "siblings": [
+        "engels-kruiswoordraadsel-bloemen-8d31"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-boswezens-6898",
+      "siblings": [
+        "engels-kruiswoordraadsel-boswezens-6898"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-fruit-e6ab",
+      "siblings": [
+        "engels-kruiswoordraadsel-fruit-e6ab"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-meubels-32f0",
+      "siblings": [
+        "engels-kruiswoordraadsel-meubels-32f0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-ziekenhuis-00c0",
+      "siblings": [
+        "engels-kruiswoordraadsel-ziekenhuis-00c0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-insecten-en-beestjes-ac81",
+      "siblings": [
+        "engels-kruiswoordraadsel-insecten-en-beestjes-ac81"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-keukengerei-4631",
+      "siblings": [
+        "engels-kruiswoordraadsel-keukengerei-4631"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-muziek-3a1b",
+      "siblings": [
+        "engels-kruiswoordraadsel-muziek-3a1b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-beroepen-8a00",
+      "siblings": [
+        "engels-kruiswoordraadsel-beroepen-8a00"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-oceaanleven-1599",
+      "siblings": [
+        "engels-kruiswoordraadsel-oceaanleven-1599"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-huisdieren-6857",
+      "siblings": [
+        "engels-kruiswoordraadsel-huisdieren-6857"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-postkantoor-7d62",
+      "siblings": [
+        "engels-kruiswoordraadsel-postkantoor-7d62"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-vormen-bc95",
+      "siblings": [
+        "engels-kruiswoordraadsel-vormen-bc95"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-ruimte-34a0",
+      "siblings": [
+        "engels-kruiswoordraadsel-ruimte-34a0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-lente-2a83",
+      "siblings": [
+        "engels-kruiswoordraadsel-lente-2a83"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-zomer-4167",
+      "siblings": [
+        "engels-kruiswoordraadsel-zomer-4167"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-thanksgiving-a567",
+      "siblings": [
+        "engels-kruiswoordraadsel-thanksgiving-a567"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-dingen-die-vliegen-1bb6",
+      "siblings": [
+        "engels-kruiswoordraadsel-dingen-die-vliegen-1bb6"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-gereedschap-66d4",
+      "siblings": [
+        "engels-kruiswoordraadsel-gereedschap-66d4"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-speelgoed-d934",
+      "siblings": [
+        "engels-kruiswoordraadsel-speelgoed-d934"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-groenten-0c32",
+      "siblings": [
+        "engels-kruiswoordraadsel-groenten-0c32"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-voertuigen-fd5b",
+      "siblings": [
+        "engels-kruiswoordraadsel-voertuigen-fd5b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-weer-a997",
+      "siblings": [
+        "engels-kruiswoordraadsel-weer-a997"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-winter-c64d",
+      "siblings": [
+        "engels-kruiswoordraadsel-winter-c64d"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "engels-kruiswoordraadsel-dierentuindieren-1d96",
+      "siblings": [
+        "engels-kruiswoordraadsel-dierentuindieren-1d96"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

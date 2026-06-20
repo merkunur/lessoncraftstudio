@@ -1,0 +1,839 @@
+{
+  "locale": "nl",
+  "target": "en",
+  "exerciseType": "wordsearch",
+  "rawRowCount": 48,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "(null)": 48
+  },
+  "totalValid": 48,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "engels-woordzoeker-4-juli-599a",
+      "siblings": [
+        "engels-woordzoeker-4-juli-599a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "engels-woordzoeker-accessoires-2723",
+      "siblings": [
+        "engels-woordzoeker-accessoires-2723"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "engels-woordzoeker-activiteiten-4092",
+      "siblings": [
+        "engels-woordzoeker-activiteiten-4092"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "engels-woordzoeker-dieren-8554",
+      "siblings": [
+        "engels-woordzoeker-dieren-8554"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "engels-woordzoeker-rond-het-huis-a362",
+      "siblings": [
+        "engels-woordzoeker-rond-het-huis-a362"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "engels-woordzoeker-in-de-supermarkt-90ff",
+      "siblings": [
+        "engels-woordzoeker-in-de-supermarkt-90ff"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "engels-woordzoeker-bakkerij-9861",
+      "siblings": [
+        "engels-woordzoeker-bakkerij-9861"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "engels-woordzoeker-strand-e3cb",
+      "siblings": [
+        "engels-woordzoeker-strand-e3cb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "engels-woordzoeker-vogels-2bef",
+      "siblings": [
+        "engels-woordzoeker-vogels-2bef"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "engels-woordzoeker-vogels-2-3e64",
+      "siblings": [
+        "engels-woordzoeker-vogels-2-3e64"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "engels-woordzoeker-lichaamsdelen-f3ef",
+      "siblings": [
+        "engels-woordzoeker-lichaamsdelen-f3ef"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "engels-woordzoeker-ontbijt-1f41",
+      "siblings": [
+        "engels-woordzoeker-ontbijt-1f41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "engels-woordzoeker-kamperen-1a8c",
+      "siblings": [
+        "engels-woordzoeker-kamperen-1a8c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "engels-woordzoeker-kerstmis-0a89",
+      "siblings": [
+        "engels-woordzoeker-kerstmis-0a89"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "engels-woordzoeker-klaslokaal-fb93",
+      "siblings": [
+        "engels-woordzoeker-klaslokaal-fb93"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "engels-woordzoeker-kleding-57d6",
+      "siblings": [
+        "engels-woordzoeker-kleding-57d6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "engels-woordzoeker-kleuren-20e5",
+      "siblings": [
+        "engels-woordzoeker-kleuren-20e5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "engels-woordzoeker-desserts-en-snoep-ee13",
+      "siblings": [
+        "engels-woordzoeker-desserts-en-snoep-ee13"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "engels-woordzoeker-pasen-d981",
+      "siblings": [
+        "engels-woordzoeker-pasen-d981"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "engels-woordzoeker-emoties-f026",
+      "siblings": [
+        "engels-woordzoeker-emoties-f026"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "engels-woordzoeker-boerderijdieren-93ce",
+      "siblings": [
+        "engels-woordzoeker-boerderijdieren-93ce"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "engels-woordzoeker-bloemen-18e5",
+      "siblings": [
+        "engels-woordzoeker-bloemen-18e5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "engels-woordzoeker-boswezens-bef0",
+      "siblings": [
+        "engels-woordzoeker-boswezens-bef0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "engels-woordzoeker-fruit-fada",
+      "siblings": [
+        "engels-woordzoeker-fruit-fada"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "engels-woordzoeker-meubels-9781",
+      "siblings": [
+        "engels-woordzoeker-meubels-9781"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "engels-woordzoeker-ziekenhuis-abe4",
+      "siblings": [
+        "engels-woordzoeker-ziekenhuis-abe4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "engels-woordzoeker-insecten-en-beestjes-35fb",
+      "siblings": [
+        "engels-woordzoeker-insecten-en-beestjes-35fb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "engels-woordzoeker-keukengerei-8636",
+      "siblings": [
+        "engels-woordzoeker-keukengerei-8636"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "engels-woordzoeker-muziek-5fd9",
+      "siblings": [
+        "engels-woordzoeker-muziek-5fd9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "engels-woordzoeker-beroepen-700e",
+      "siblings": [
+        "engels-woordzoeker-beroepen-700e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "engels-woordzoeker-oceaanleven-e92a",
+      "siblings": [
+        "engels-woordzoeker-oceaanleven-e92a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "engels-woordzoeker-huisdieren-d89a",
+      "siblings": [
+        "engels-woordzoeker-huisdieren-d89a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "engels-woordzoeker-postkantoor-9ae5",
+      "siblings": [
+        "engels-woordzoeker-postkantoor-9ae5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "engels-woordzoeker-reptielen-en-amfibieen-70c9",
+      "siblings": [
+        "engels-woordzoeker-reptielen-en-amfibieen-70c9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "engels-woordzoeker-vormen-e054",
+      "siblings": [
+        "engels-woordzoeker-vormen-e054"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "engels-woordzoeker-ruimte-22a3",
+      "siblings": [
+        "engels-woordzoeker-ruimte-22a3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "engels-woordzoeker-lente-1b62",
+      "siblings": [
+        "engels-woordzoeker-lente-1b62"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "engels-woordzoeker-zomer-af12",
+      "siblings": [
+        "engels-woordzoeker-zomer-af12"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "engels-woordzoeker-thanksgiving-77e7",
+      "siblings": [
+        "engels-woordzoeker-thanksgiving-77e7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "engels-woordzoeker-dingen-die-vliegen-4fa6",
+      "siblings": [
+        "engels-woordzoeker-dingen-die-vliegen-4fa6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "engels-woordzoeker-gereedschap-bccf",
+      "siblings": [
+        "engels-woordzoeker-gereedschap-bccf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "engels-woordzoeker-speelgoed-437d",
+      "siblings": [
+        "engels-woordzoeker-speelgoed-437d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "engels-woordzoeker-bomen-54d5",
+      "siblings": [
+        "engels-woordzoeker-bomen-54d5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "engels-woordzoeker-groenten-3919",
+      "siblings": [
+        "engels-woordzoeker-groenten-3919"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "engels-woordzoeker-voertuigen-43dc",
+      "siblings": [
+        "engels-woordzoeker-voertuigen-43dc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "engels-woordzoeker-weer-d412",
+      "siblings": [
+        "engels-woordzoeker-weer-d412"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "engels-woordzoeker-winter-f8f3",
+      "siblings": [
+        "engels-woordzoeker-winter-f8f3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "engels-woordzoeker-dierentuindieren-bb41",
+      "siblings": [
+        "engels-woordzoeker-dierentuindieren-bb41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

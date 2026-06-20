@@ -1,0 +1,822 @@
+{
+  "locale": "sv",
+  "target": "en",
+  "exerciseType": "crossword",
+  "rawRowCount": 47,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "(null)": 47
+  },
+  "totalValid": 47,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "engelska-korsord-4-juli-8797",
+      "siblings": [
+        "engelska-korsord-4-juli-8797"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "engelska-korsord-tillbehor-ba03",
+      "siblings": [
+        "engelska-korsord-tillbehor-ba03"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "engelska-korsord-aktiviteter-2829",
+      "siblings": [
+        "engelska-korsord-aktiviteter-2829"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "engelska-korsord-djur-123e",
+      "siblings": [
+        "engelska-korsord-djur-123e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "engelska-korsord-runt-huset-f10e",
+      "siblings": [
+        "engelska-korsord-runt-huset-f10e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "engelska-korsord-i-snabbkopet-8ebc",
+      "siblings": [
+        "engelska-korsord-i-snabbkopet-8ebc"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "engelska-korsord-bageri-6c05",
+      "siblings": [
+        "engelska-korsord-bageri-6c05"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "engelska-korsord-strand-ca2c",
+      "siblings": [
+        "engelska-korsord-strand-ca2c"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "engelska-korsord-faglar-c349",
+      "siblings": [
+        "engelska-korsord-faglar-c349"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "engelska-korsord-faglar-2-5913",
+      "siblings": [
+        "engelska-korsord-faglar-2-5913"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "engelska-korsord-kroppsdelar-8526",
+      "siblings": [
+        "engelska-korsord-kroppsdelar-8526"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "engelska-korsord-frukost-2538",
+      "siblings": [
+        "engelska-korsord-frukost-2538"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "engelska-korsord-camping-06ec",
+      "siblings": [
+        "engelska-korsord-camping-06ec"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "engelska-korsord-jul-9b2e",
+      "siblings": [
+        "engelska-korsord-jul-9b2e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "engelska-korsord-klassrum-b7fe",
+      "siblings": [
+        "engelska-korsord-klassrum-b7fe"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "engelska-korsord-klader-1844",
+      "siblings": [
+        "engelska-korsord-klader-1844"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "engelska-korsord-farger-0db0",
+      "siblings": [
+        "engelska-korsord-farger-0db0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "engelska-korsord-efterratter-och-godis-408f",
+      "siblings": [
+        "engelska-korsord-efterratter-och-godis-408f"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "engelska-korsord-pask-833a",
+      "siblings": [
+        "engelska-korsord-pask-833a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "engelska-korsord-kanslor-13fd",
+      "siblings": [
+        "engelska-korsord-kanslor-13fd"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "engelska-korsord-bondgardsdjur-bd3a",
+      "siblings": [
+        "engelska-korsord-bondgardsdjur-bd3a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "engelska-korsord-blommor-858c",
+      "siblings": [
+        "engelska-korsord-blommor-858c"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "engelska-korsord-skogsdjur-ffda",
+      "siblings": [
+        "engelska-korsord-skogsdjur-ffda"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "engelska-korsord-frukter-c735",
+      "siblings": [
+        "engelska-korsord-frukter-c735"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "engelska-korsord-mobler-ac13",
+      "siblings": [
+        "engelska-korsord-mobler-ac13"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "engelska-korsord-sjukhus-c0df",
+      "siblings": [
+        "engelska-korsord-sjukhus-c0df"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "engelska-korsord-insekter-och-kryp-9bff",
+      "siblings": [
+        "engelska-korsord-insekter-och-kryp-9bff"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "engelska-korsord-koksredskap-6611",
+      "siblings": [
+        "engelska-korsord-koksredskap-6611"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "engelska-korsord-musik-0d62",
+      "siblings": [
+        "engelska-korsord-musik-0d62"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "engelska-korsord-yrken-967c",
+      "siblings": [
+        "engelska-korsord-yrken-967c"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "engelska-korsord-havsliv-85cb",
+      "siblings": [
+        "engelska-korsord-havsliv-85cb"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "engelska-korsord-husdjur-5320",
+      "siblings": [
+        "engelska-korsord-husdjur-5320"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "engelska-korsord-postkontor-1e7d",
+      "siblings": [
+        "engelska-korsord-postkontor-1e7d"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "engelska-korsord-reptiler-och-groddjur-773c",
+      "siblings": [
+        "engelska-korsord-reptiler-och-groddjur-773c"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "engelska-korsord-former-0755",
+      "siblings": [
+        "engelska-korsord-former-0755"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "engelska-korsord-rymden-882f",
+      "siblings": [
+        "engelska-korsord-rymden-882f"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "engelska-korsord-var-6c15",
+      "siblings": [
+        "engelska-korsord-var-6c15"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "engelska-korsord-sommar-420a",
+      "siblings": [
+        "engelska-korsord-sommar-420a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "engelska-korsord-thanksgiving-a567",
+      "siblings": [
+        "engelska-korsord-thanksgiving-a567"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "engelska-korsord-saker-som-flyger-f9ca",
+      "siblings": [
+        "engelska-korsord-saker-som-flyger-f9ca"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "engelska-korsord-verktyg-0dd1",
+      "siblings": [
+        "engelska-korsord-verktyg-0dd1"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "engelska-korsord-leksaker-73a9",
+      "siblings": [
+        "engelska-korsord-leksaker-73a9"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "engelska-korsord-gronsaker-e31b",
+      "siblings": [
+        "engelska-korsord-gronsaker-e31b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "engelska-korsord-fordon-c336",
+      "siblings": [
+        "engelska-korsord-fordon-c336"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "engelska-korsord-vader-2139",
+      "siblings": [
+        "engelska-korsord-vader-2139"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "engelska-korsord-vinter-acbc",
+      "siblings": [
+        "engelska-korsord-vinter-acbc"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "engelska-korsord-djurparksdjur-62c4",
+      "siblings": [
+        "engelska-korsord-djurparksdjur-62c4"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

@@ -64,7 +64,7 @@ function pairStats(subset, normed, paraKey){
   return {max:max.toFixed(3), mean:(sum/cnt).toFixed(3), pairs:cnt, over80, over65, over85, maxPair};
 }
 
-function classKey(p){return p.coordinate.type+'/'+p.coordinate.mode;}
+function classKey(p){return p.coordinate.type+'/'+p.coordinate.mode+(p.coordinate.target?'/t:'+p.coordinate.target:'');}
 const all = pages;
 
 // auto-discover (type,mode) clusters with >=2 pages

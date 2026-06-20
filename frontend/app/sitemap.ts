@@ -442,6 +442,75 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       }
     }
 
+    // Cross-language "Learn <X>" category pages — the per-target deck-grid
+    // page `/<locale>/learn/<target-slug>` (the real content surface) plus the
+    // `/<locale>/learn` hub for multi-target locales (single-target locales
+    // canonicalize their hub → the one target page, so only the target URL
+    // emits for them). DB-driven via fetchCrossLanguageTargets; only
+    // (locale, target) pairs with ≥1 published cross-language deck emit
+    // (§16.6.1 substrate-honesty). Hreflang siblings = locales that share the
+    // SAME target language.
+    try {
+      const { fetchCrossLanguageTargets } = await import('@/lib/cross-language-decks');
+      const { targetLangSlug } = await import('@/lib/target-language');
+      const targetsByLocale = new Map<TopicLocale, string[]>();
+      for (const loc of TOPIC_LOCALES) {
+        try {
+          const tg = await fetchCrossLanguageTargets(loc);
+          if (tg.length) targetsByLocale.set(loc, tg.map((t) => t.iso));
+        } catch { /* per-locale skip */ }
+      }
+      // iso → locales that offer it (hreflang sibling set per target).
+      const isoSiblings = new Map<string, TopicLocale[]>();
+      for (const [loc, isos] of targetsByLocale) {
+        for (const iso of isos) {
+          const arr = isoSiblings.get(iso) ?? [];
+          arr.push(loc);
+          isoSiblings.set(iso, arr);
+        }
+      }
+      const multiTargetLocales = [...targetsByLocale.entries()]
+        .filter(([, isos]) => isos.length > 1)
+        .map(([loc]) => loc);
+      const hubAlternates: Record<string, string> = {};
+      for (const loc of multiTargetLocales) hubAlternates[getHreflangCode(loc)] = `${baseUrl}/${loc}/learn`;
+      if (multiTargetLocales.includes('en' as TopicLocale)) hubAlternates['x-default'] = `${baseUrl}/en/learn`;
+
+      for (const [loc, isos] of targetsByLocale) {
+        if (isos.length > 1) {
+          routes.push({
+            url: `${baseUrl}/${loc}/learn`,
+            lastModified: STATIC_CONTENT_DATE,
+            changeFrequency: 'weekly',
+            priority: 0.6,
+            alternates: { languages: hubAlternates },
+          });
+        }
+        for (const iso of isos) {
+          const slug = targetLangSlug(iso, loc);
+          if (!slug) continue;
+          const alternates: Record<string, string> = {};
+          for (const sib of isoSiblings.get(iso) ?? []) {
+            const sibSlug = targetLangSlug(iso, sib);
+            if (sibSlug) alternates[getHreflangCode(sib)] = `${baseUrl}/${sib}/learn/${sibSlug}`;
+          }
+          if ((isoSiblings.get(iso) ?? []).includes('en' as TopicLocale)) {
+            const enSlug = targetLangSlug(iso, 'en');
+            if (enSlug) alternates['x-default'] = `${baseUrl}/en/learn/${enSlug}`;
+          }
+          routes.push({
+            url: `${baseUrl}/${loc}/learn/${slug}`,
+            lastModified: STATIC_CONTENT_DATE,
+            changeFrequency: 'weekly',
+            priority: 0.6,
+            alternates: { languages: alternates },
+          });
+        }
+      }
+    } catch (err) {
+      console.warn('[sitemap] learn URLs failed; skipping:', (err as Error).message);
+    }
+
     return routes;
   }
 

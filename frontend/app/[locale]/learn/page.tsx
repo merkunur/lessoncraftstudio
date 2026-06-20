@@ -20,7 +20,8 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const canonical = targets.length === 1
     ? canonicalUrl(localePath(locale, 'learn', targetLangSlug(targets[0].iso, locale)))
     : canonicalUrl(localePath(locale, 'learn'));
-  const title = `${t('hubH1')} | LessonCraftStudio`;
+  // Root layout's title template appends " · LessonCraftStudio" — don't double-brand.
+  const title = t('hubH1');
   return {
     title,
     description: t('hubIntro'),

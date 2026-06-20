@@ -35,7 +35,8 @@ export async function generateMetadata({
     fetchCrossLanguageFacets(locale, iso),
   ]);
   const canonical = canonicalUrl(localePath(locale, 'learn', targetLang));
-  const title = `${learnTargetH1((k, p) => t(k, p), langName)} | LessonCraftStudio`;
+  // Root layout's title template appends " · LessonCraftStudio" — don't double-brand.
+  const title = learnTargetH1((k, p) => t(k, p), langName);
   const description = t('learnIntro', { count: totalCount, lang: langName, themes: facets.themes.length });
   return {
     title,

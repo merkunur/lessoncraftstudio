@@ -10,6 +10,8 @@
  *
  * MUST run on Hetzner (acts on /var/www/lcs-media/decks/<locale>/<slug>/deck.html). Reads the deployed en.json.
  * Usage: node scripts/seo-landing/repoint-deck-canonical.js --types=chart-count,subtraction [--locale=en] [--dry-run]
+ *   --target=<iso>  restrict to CROSS-LANGUAGE landings teaching that target (else bounds to exactly
+ *                   the cross-language deck set, not the monolingual same-type decks). Omit for monolingual.
  */
 'use strict';
 const fs = require('fs');
@@ -18,6 +20,7 @@ const path = require('path');
 const argv = process.argv.slice(2);
 const arg = (k, d) => { const a = argv.find(s => s.indexOf('--' + k + '=') === 0); return a ? a.slice(k.length + 3) : d; };
 const TYPES = (arg('types', '') ? arg('types', '').split(',').map(s => s.trim()).filter(Boolean) : null); // null = all types
+const TARGET = arg('target', null); // cross-language target ISO; null = monolingual (target-less landings + all)
 const LOCALE = arg('locale', 'en');
 const DRY = argv.includes('--dry-run');
 const HOST = 'https://www.lessoncraftstudio.com';
@@ -29,6 +32,9 @@ const data = JSON.parse(fs.readFileSync(CONTENT, 'utf8'));
 const map = {}; // deckSlug -> landingURL
 for (const l of data.landings) {
   if (TYPES && !TYPES.includes(l.coordinate.type)) continue;
+  // --target set → only cross-language landings teaching that target; unset → only monolingual
+  // (target-less) landings, so a monolingual repoint never strays into the cross-language set.
+  if (TARGET ? (l.coordinate.target !== TARGET) : !!l.coordinate.target) continue;
   const landingURL = `${HOST}/${LOCALE}/worksheets/${l.slug}`;
   const decks = (l.collapseSiblings && l.collapseSiblings.length) ? l.collapseSiblings : [l.canonicalDeckSlug];
   for (const ds of decks) map[ds] = landingURL;

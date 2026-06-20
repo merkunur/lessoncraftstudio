@@ -13,6 +13,9 @@
 
 const THEMES = {
   // --- 41 object themes (STEP-1 addition set; valid for every type) ---
+  // 4th_of_july: dropped from the monolingual de readiness bulk (US holiday, not a German theme),
+  // but KEPT for cross-language English-learning decks (American-holiday vocabulary is legitimate).
+  '4th_of_july':           {nPl:'Flaggen, Sterne und Feuerwerke',           gen:'Dinge zum 4. Juli',    h1:'4. Juli'},
   accessories:             {nPl:'Hüte, Gürtel und Schals',                  gen:'Accessoires',          h1:'Accessoires'},
   animals:                 {nPl:'Kühe, Schafe und Hühner',                  gen:'Tiere',                h1:'Tiere'},
   around_the_house:        {nPl:'Lampen, Stühle und Uhren',                 gen:'Haushaltsdinge',       h1:'Rund ums Haus'},

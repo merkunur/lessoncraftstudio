@@ -1,0 +1,805 @@
+{
+  "locale": "de",
+  "target": "en",
+  "exerciseType": "crossword",
+  "rawRowCount": 46,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "(null)": 46
+  },
+  "totalValid": 46,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-4-juli-cc4a",
+      "siblings": [
+        "englisch-kreuzwortraetsel-4-juli-cc4a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-accessoires-9b98",
+      "siblings": [
+        "englisch-kreuzwortraetsel-accessoires-9b98"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-aktivitaten-293e",
+      "siblings": [
+        "englisch-kreuzwortraetsel-aktivitaten-293e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-tiere-3207",
+      "siblings": [
+        "englisch-kreuzwortraetsel-tiere-3207"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-rund-ums-haus-ba8a",
+      "siblings": [
+        "englisch-kreuzwortraetsel-rund-ums-haus-ba8a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-im-supermarkt-f075",
+      "siblings": [
+        "englisch-kreuzwortraetsel-im-supermarkt-f075"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-backerei-5be0",
+      "siblings": [
+        "englisch-kreuzwortraetsel-backerei-5be0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-strand-b738",
+      "siblings": [
+        "englisch-kreuzwortraetsel-strand-b738"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-vogel-07b3",
+      "siblings": [
+        "englisch-kreuzwortraetsel-vogel-07b3"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-vogel-2-162c",
+      "siblings": [
+        "englisch-kreuzwortraetsel-vogel-2-162c"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-korperteile-8f33",
+      "siblings": [
+        "englisch-kreuzwortraetsel-korperteile-8f33"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-fruhstuck-42c7",
+      "siblings": [
+        "englisch-kreuzwortraetsel-fruhstuck-42c7"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-camping-ed1b",
+      "siblings": [
+        "englisch-kreuzwortraetsel-camping-ed1b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-weihnachten-0315",
+      "siblings": [
+        "englisch-kreuzwortraetsel-weihnachten-0315"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-klassenzimmer-1f23",
+      "siblings": [
+        "englisch-kreuzwortraetsel-klassenzimmer-1f23"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-kleidung-b16a",
+      "siblings": [
+        "englisch-kreuzwortraetsel-kleidung-b16a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-farben-4730",
+      "siblings": [
+        "englisch-kreuzwortraetsel-farben-4730"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-desserts-und-sussigkeiten-d2b6",
+      "siblings": [
+        "englisch-kreuzwortraetsel-desserts-und-sussigkeiten-d2b6"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-ostern-d0c8",
+      "siblings": [
+        "englisch-kreuzwortraetsel-ostern-d0c8"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-emotionen-be4b",
+      "siblings": [
+        "englisch-kreuzwortraetsel-emotionen-be4b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-bauernhoftiere-ca8e",
+      "siblings": [
+        "englisch-kreuzwortraetsel-bauernhoftiere-ca8e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-blumen-77b8",
+      "siblings": [
+        "englisch-kreuzwortraetsel-blumen-77b8"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-waldtiere-611b",
+      "siblings": [
+        "englisch-kreuzwortraetsel-waldtiere-611b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-fruchte-d7c3",
+      "siblings": [
+        "englisch-kreuzwortraetsel-fruchte-d7c3"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-mobel-9a7f",
+      "siblings": [
+        "englisch-kreuzwortraetsel-mobel-9a7f"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-krankenhaus-4e02",
+      "siblings": [
+        "englisch-kreuzwortraetsel-krankenhaus-4e02"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-insekten-und-kafer-4030",
+      "siblings": [
+        "englisch-kreuzwortraetsel-insekten-und-kafer-4030"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-kuchenwerkzeuge-1264",
+      "siblings": [
+        "englisch-kreuzwortraetsel-kuchenwerkzeuge-1264"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-musik-3230",
+      "siblings": [
+        "englisch-kreuzwortraetsel-musik-3230"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-berufe-959c",
+      "siblings": [
+        "englisch-kreuzwortraetsel-berufe-959c"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-meeresleben-4dc0",
+      "siblings": [
+        "englisch-kreuzwortraetsel-meeresleben-4dc0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-haustiere-7256",
+      "siblings": [
+        "englisch-kreuzwortraetsel-haustiere-7256"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-postamt-2257",
+      "siblings": [
+        "englisch-kreuzwortraetsel-postamt-2257"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-formen-a758",
+      "siblings": [
+        "englisch-kreuzwortraetsel-formen-a758"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-weltraum-1473",
+      "siblings": [
+        "englisch-kreuzwortraetsel-weltraum-1473"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-fruhling-bf15",
+      "siblings": [
+        "englisch-kreuzwortraetsel-fruhling-bf15"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-sommer-26ec",
+      "siblings": [
+        "englisch-kreuzwortraetsel-sommer-26ec"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-erntedankfest-548f",
+      "siblings": [
+        "englisch-kreuzwortraetsel-erntedankfest-548f"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-dinge-die-fliegen-2b0f",
+      "siblings": [
+        "englisch-kreuzwortraetsel-dinge-die-fliegen-2b0f"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-werkzeuge-9ca1",
+      "siblings": [
+        "englisch-kreuzwortraetsel-werkzeuge-9ca1"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-spielzeug-d539",
+      "siblings": [
+        "englisch-kreuzwortraetsel-spielzeug-d539"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-gemuse-6bb9",
+      "siblings": [
+        "englisch-kreuzwortraetsel-gemuse-6bb9"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-fahrzeuge-e1ef",
+      "siblings": [
+        "englisch-kreuzwortraetsel-fahrzeuge-e1ef"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-wetter-7eef",
+      "siblings": [
+        "englisch-kreuzwortraetsel-wetter-7eef"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-winter-6370",
+      "siblings": [
+        "englisch-kreuzwortraetsel-winter-6370"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "englisch-kreuzwortraetsel-zootiere-af70",
+      "siblings": [
+        "englisch-kreuzwortraetsel-zootiere-af70"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

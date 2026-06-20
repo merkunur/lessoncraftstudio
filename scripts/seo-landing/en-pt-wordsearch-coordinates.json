@@ -1,0 +1,839 @@
+{
+  "locale": "en",
+  "target": "pt",
+  "exerciseType": "wordsearch",
+  "rawRowCount": 48,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "(null)": 48
+  },
+  "totalValid": 48,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-4th-of-july-332d",
+      "siblings": [
+        "portuguese-wordsearch-4th-of-july-332d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-accessories-173f",
+      "siblings": [
+        "portuguese-wordsearch-accessories-173f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-activities-f05f",
+      "siblings": [
+        "portuguese-wordsearch-activities-f05f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-animals-9cce",
+      "siblings": [
+        "portuguese-wordsearch-animals-9cce"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-around-the-house-703b",
+      "siblings": [
+        "portuguese-wordsearch-around-the-house-703b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-at-the-supermarket-235c",
+      "siblings": [
+        "portuguese-wordsearch-at-the-supermarket-235c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-bakery-a857",
+      "siblings": [
+        "portuguese-wordsearch-bakery-a857"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-beach-2b40",
+      "siblings": [
+        "portuguese-wordsearch-beach-2b40"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-birds-0558",
+      "siblings": [
+        "portuguese-wordsearch-birds-0558"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-birds-2-de55",
+      "siblings": [
+        "portuguese-wordsearch-birds-2-de55"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-body-parts-9d24",
+      "siblings": [
+        "portuguese-wordsearch-body-parts-9d24"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-breakfast-94b6",
+      "siblings": [
+        "portuguese-wordsearch-breakfast-94b6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-camping-bb32",
+      "siblings": [
+        "portuguese-wordsearch-camping-bb32"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-christmas-8acd",
+      "siblings": [
+        "portuguese-wordsearch-christmas-8acd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-classroom-d638",
+      "siblings": [
+        "portuguese-wordsearch-classroom-d638"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-clothing-ce52",
+      "siblings": [
+        "portuguese-wordsearch-clothing-ce52"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-colors-7248",
+      "siblings": [
+        "portuguese-wordsearch-colors-7248"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-desserts-and-sweets-2582",
+      "siblings": [
+        "portuguese-wordsearch-desserts-and-sweets-2582"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-easter-3dfa",
+      "siblings": [
+        "portuguese-wordsearch-easter-3dfa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-emotions-d7f1",
+      "siblings": [
+        "portuguese-wordsearch-emotions-d7f1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-farm-animals-b4e6",
+      "siblings": [
+        "portuguese-wordsearch-farm-animals-b4e6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-flowers-3748",
+      "siblings": [
+        "portuguese-wordsearch-flowers-3748"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-forest-creatures-aa5e",
+      "siblings": [
+        "portuguese-wordsearch-forest-creatures-aa5e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-fruits-e959",
+      "siblings": [
+        "portuguese-wordsearch-fruits-e959"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-furniture-aba8",
+      "siblings": [
+        "portuguese-wordsearch-furniture-aba8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-hospital-a6f6",
+      "siblings": [
+        "portuguese-wordsearch-hospital-a6f6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-insects-and-bugs-f8f3",
+      "siblings": [
+        "portuguese-wordsearch-insects-and-bugs-f8f3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-kitchen-tools-a034",
+      "siblings": [
+        "portuguese-wordsearch-kitchen-tools-a034"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-music-d730",
+      "siblings": [
+        "portuguese-wordsearch-music-d730"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-occupations-55ba",
+      "siblings": [
+        "portuguese-wordsearch-occupations-55ba"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-ocean-life-eb60",
+      "siblings": [
+        "portuguese-wordsearch-ocean-life-eb60"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-pets-cfd9",
+      "siblings": [
+        "portuguese-wordsearch-pets-cfd9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-post-office-6dd9",
+      "siblings": [
+        "portuguese-wordsearch-post-office-6dd9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-reptiles-and-amphibians-7334",
+      "siblings": [
+        "portuguese-wordsearch-reptiles-and-amphibians-7334"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-shapes-615e",
+      "siblings": [
+        "portuguese-wordsearch-shapes-615e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-space-6dfd",
+      "siblings": [
+        "portuguese-wordsearch-space-6dfd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-spring-54af",
+      "siblings": [
+        "portuguese-wordsearch-spring-54af"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-summer-bcb8",
+      "siblings": [
+        "portuguese-wordsearch-summer-bcb8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-thanksgiving-3b41",
+      "siblings": [
+        "portuguese-wordsearch-thanksgiving-3b41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-things-that-fly-361a",
+      "siblings": [
+        "portuguese-wordsearch-things-that-fly-361a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-tools-74ae",
+      "siblings": [
+        "portuguese-wordsearch-tools-74ae"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-toys-06f9",
+      "siblings": [
+        "portuguese-wordsearch-toys-06f9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-trees-e3b6",
+      "siblings": [
+        "portuguese-wordsearch-trees-e3b6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-vegetables-d80b",
+      "siblings": [
+        "portuguese-wordsearch-vegetables-d80b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-vehicles-c13b",
+      "siblings": [
+        "portuguese-wordsearch-vehicles-c13b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-weather-36d4",
+      "siblings": [
+        "portuguese-wordsearch-weather-36d4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-winter-9cfb",
+      "siblings": [
+        "portuguese-wordsearch-winter-9cfb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "portuguese-wordsearch-zoo-animals-4b71",
+      "siblings": [
+        "portuguese-wordsearch-zoo-animals-4b71"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

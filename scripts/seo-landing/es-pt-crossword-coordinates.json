@@ -1,0 +1,771 @@
+{
+  "locale": "es",
+  "target": "pt",
+  "exerciseType": "crossword",
+  "rawRowCount": 44,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "(null)": 44
+  },
+  "totalValid": 44,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "portugues-crucigrama-4-de-julio-c03d",
+      "siblings": [
+        "portugues-crucigrama-4-de-julio-c03d"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "portugues-crucigrama-accesorios-a836",
+      "siblings": [
+        "portugues-crucigrama-accesorios-a836"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "portugues-crucigrama-actividades-2acf",
+      "siblings": [
+        "portugues-crucigrama-actividades-2acf"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "portugues-crucigrama-animales-791b",
+      "siblings": [
+        "portugues-crucigrama-animales-791b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "portugues-crucigrama-alrededor-de-la-casa-a167",
+      "siblings": [
+        "portugues-crucigrama-alrededor-de-la-casa-a167"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "portugues-crucigrama-en-el-supermercado-20b7",
+      "siblings": [
+        "portugues-crucigrama-en-el-supermercado-20b7"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "portugues-crucigrama-panaderia-111c",
+      "siblings": [
+        "portugues-crucigrama-panaderia-111c"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "portugues-crucigrama-playa-e49e",
+      "siblings": [
+        "portugues-crucigrama-playa-e49e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "portugues-crucigrama-aves-8170",
+      "siblings": [
+        "portugues-crucigrama-aves-8170"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "portugues-crucigrama-aves-2-aec4",
+      "siblings": [
+        "portugues-crucigrama-aves-2-aec4"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "portugues-crucigrama-partes-del-cuerpo-b559",
+      "siblings": [
+        "portugues-crucigrama-partes-del-cuerpo-b559"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "portugues-crucigrama-campamento-e4af",
+      "siblings": [
+        "portugues-crucigrama-campamento-e4af"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "portugues-crucigrama-navidad-f1a8",
+      "siblings": [
+        "portugues-crucigrama-navidad-f1a8"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "portugues-crucigrama-salon-de-clases-8d92",
+      "siblings": [
+        "portugues-crucigrama-salon-de-clases-8d92"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "portugues-crucigrama-ropa-67da",
+      "siblings": [
+        "portugues-crucigrama-ropa-67da"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "portugues-crucigrama-postres-y-dulces-eb38",
+      "siblings": [
+        "portugues-crucigrama-postres-y-dulces-eb38"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "portugues-crucigrama-pascua-15de",
+      "siblings": [
+        "portugues-crucigrama-pascua-15de"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "portugues-crucigrama-emociones-5410",
+      "siblings": [
+        "portugues-crucigrama-emociones-5410"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "portugues-crucigrama-animales-de-granja-2c61",
+      "siblings": [
+        "portugues-crucigrama-animales-de-granja-2c61"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "portugues-crucigrama-flores-f3a0",
+      "siblings": [
+        "portugues-crucigrama-flores-f3a0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "portugues-crucigrama-criaturas-del-bosque-9339",
+      "siblings": [
+        "portugues-crucigrama-criaturas-del-bosque-9339"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "portugues-crucigrama-frutas-a929",
+      "siblings": [
+        "portugues-crucigrama-frutas-a929"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "portugues-crucigrama-muebles-7728",
+      "siblings": [
+        "portugues-crucigrama-muebles-7728"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "portugues-crucigrama-hospital-ed91",
+      "siblings": [
+        "portugues-crucigrama-hospital-ed91"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "portugues-crucigrama-insectos-y-bichos-5178",
+      "siblings": [
+        "portugues-crucigrama-insectos-y-bichos-5178"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "portugues-crucigrama-utensilios-de-cocina-d41b",
+      "siblings": [
+        "portugues-crucigrama-utensilios-de-cocina-d41b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "portugues-crucigrama-musica-2fc1",
+      "siblings": [
+        "portugues-crucigrama-musica-2fc1"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "portugues-crucigrama-ocupaciones-e2e4",
+      "siblings": [
+        "portugues-crucigrama-ocupaciones-e2e4"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "portugues-crucigrama-vida-marina-63f0",
+      "siblings": [
+        "portugues-crucigrama-vida-marina-63f0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "portugues-crucigrama-mascotas-c7ea",
+      "siblings": [
+        "portugues-crucigrama-mascotas-c7ea"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "portugues-crucigrama-oficina-de-correos-8f51",
+      "siblings": [
+        "portugues-crucigrama-oficina-de-correos-8f51"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "portugues-crucigrama-formas-005d",
+      "siblings": [
+        "portugues-crucigrama-formas-005d"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "portugues-crucigrama-espacio-9f63",
+      "siblings": [
+        "portugues-crucigrama-espacio-9f63"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "portugues-crucigrama-primavera-f8d7",
+      "siblings": [
+        "portugues-crucigrama-primavera-f8d7"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "portugues-crucigrama-verano-4698",
+      "siblings": [
+        "portugues-crucigrama-verano-4698"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "portugues-crucigrama-dia-de-accion-de-gracias-81a6",
+      "siblings": [
+        "portugues-crucigrama-dia-de-accion-de-gracias-81a6"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "portugues-crucigrama-cosas-que-vuelan-835e",
+      "siblings": [
+        "portugues-crucigrama-cosas-que-vuelan-835e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "portugues-crucigrama-herramientas-2a9e",
+      "siblings": [
+        "portugues-crucigrama-herramientas-2a9e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "portugues-crucigrama-juguetes-99d2",
+      "siblings": [
+        "portugues-crucigrama-juguetes-99d2"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "portugues-crucigrama-verduras-7171",
+      "siblings": [
+        "portugues-crucigrama-verduras-7171"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "portugues-crucigrama-vehiculos-1626",
+      "siblings": [
+        "portugues-crucigrama-vehiculos-1626"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "portugues-crucigrama-clima-cda7",
+      "siblings": [
+        "portugues-crucigrama-clima-cda7"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "portugues-crucigrama-invierno-394e",
+      "siblings": [
+        "portugues-crucigrama-invierno-394e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "portugues-crucigrama-animales-del-zoologico-ed55",
+      "siblings": [
+        "portugues-crucigrama-animales-del-zoologico-ed55"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

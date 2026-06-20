@@ -1,0 +1,822 @@
+{
+  "locale": "en",
+  "target": "pt",
+  "exerciseType": "matching",
+  "rawRowCount": 47,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "name": 47
+  },
+  "totalValid": 47,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "name"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "portuguese-matching-name-4th-of-july-eaf2",
+      "siblings": [
+        "portuguese-matching-name-4th-of-july-eaf2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "portuguese-matching-name-accessories-83f7",
+      "siblings": [
+        "portuguese-matching-name-accessories-83f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "portuguese-matching-name-activities-b696",
+      "siblings": [
+        "portuguese-matching-name-activities-b696"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "portuguese-matching-name-animals-1e03",
+      "siblings": [
+        "portuguese-matching-name-animals-1e03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "portuguese-matching-name-around-the-house-7a4d",
+      "siblings": [
+        "portuguese-matching-name-around-the-house-7a4d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "portuguese-matching-name-at-the-supermarket-b464",
+      "siblings": [
+        "portuguese-matching-name-at-the-supermarket-b464"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "portuguese-matching-name-bakery-fb2f",
+      "siblings": [
+        "portuguese-matching-name-bakery-fb2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "portuguese-matching-name-beach-b5ad",
+      "siblings": [
+        "portuguese-matching-name-beach-b5ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "portuguese-matching-name-birds-b5a2",
+      "siblings": [
+        "portuguese-matching-name-birds-b5a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "portuguese-matching-name-birds-2-f5a2",
+      "siblings": [
+        "portuguese-matching-name-birds-2-f5a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "portuguese-matching-name-body-parts-0558",
+      "siblings": [
+        "portuguese-matching-name-body-parts-0558"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "portuguese-matching-name-breakfast-38d9",
+      "siblings": [
+        "portuguese-matching-name-breakfast-38d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "portuguese-matching-name-camping-2dde",
+      "siblings": [
+        "portuguese-matching-name-camping-2dde"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "portuguese-matching-name-christmas-b17e",
+      "siblings": [
+        "portuguese-matching-name-christmas-b17e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "portuguese-matching-name-classroom-490f",
+      "siblings": [
+        "portuguese-matching-name-classroom-490f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "portuguese-matching-name-clothing-6640",
+      "siblings": [
+        "portuguese-matching-name-clothing-6640"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "portuguese-matching-name-colors-7c6c",
+      "siblings": [
+        "portuguese-matching-name-colors-7c6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "portuguese-matching-name-desserts-and-sweets-5fa4",
+      "siblings": [
+        "portuguese-matching-name-desserts-and-sweets-5fa4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "portuguese-matching-name-easter-7054",
+      "siblings": [
+        "portuguese-matching-name-easter-7054"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "portuguese-matching-name-emotions-39dc",
+      "siblings": [
+        "portuguese-matching-name-emotions-39dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "portuguese-matching-name-farm-animals-583b",
+      "siblings": [
+        "portuguese-matching-name-farm-animals-583b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "portuguese-matching-name-flowers-3870",
+      "siblings": [
+        "portuguese-matching-name-flowers-3870"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "portuguese-matching-name-forest-creatures-6225",
+      "siblings": [
+        "portuguese-matching-name-forest-creatures-6225"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "portuguese-matching-name-fruits-d045",
+      "siblings": [
+        "portuguese-matching-name-fruits-d045"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "portuguese-matching-name-furniture-8246",
+      "siblings": [
+        "portuguese-matching-name-furniture-8246"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "portuguese-matching-name-hospital-1aab",
+      "siblings": [
+        "portuguese-matching-name-hospital-1aab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "portuguese-matching-name-insects-and-bugs-6577",
+      "siblings": [
+        "portuguese-matching-name-insects-and-bugs-6577"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "portuguese-matching-name-kitchen-tools-7df1",
+      "siblings": [
+        "portuguese-matching-name-kitchen-tools-7df1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "portuguese-matching-name-music-04ed",
+      "siblings": [
+        "portuguese-matching-name-music-04ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "portuguese-matching-name-occupations-efea",
+      "siblings": [
+        "portuguese-matching-name-occupations-efea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "portuguese-matching-name-ocean-life-e370",
+      "siblings": [
+        "portuguese-matching-name-ocean-life-e370"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "portuguese-matching-name-pets-3913",
+      "siblings": [
+        "portuguese-matching-name-pets-3913"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "portuguese-matching-name-post-office-5feb",
+      "siblings": [
+        "portuguese-matching-name-post-office-5feb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "portuguese-matching-name-reptiles-and-amphibians-6e56",
+      "siblings": [
+        "portuguese-matching-name-reptiles-and-amphibians-6e56"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "portuguese-matching-name-shapes-8de3",
+      "siblings": [
+        "portuguese-matching-name-shapes-8de3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "portuguese-matching-name-space-b15c",
+      "siblings": [
+        "portuguese-matching-name-space-b15c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "portuguese-matching-name-spring-adf4",
+      "siblings": [
+        "portuguese-matching-name-spring-adf4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "portuguese-matching-name-summer-b3b5",
+      "siblings": [
+        "portuguese-matching-name-summer-b3b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "portuguese-matching-name-thanksgiving-9224",
+      "siblings": [
+        "portuguese-matching-name-thanksgiving-9224"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "portuguese-matching-name-things-that-fly-feb8",
+      "siblings": [
+        "portuguese-matching-name-things-that-fly-feb8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "portuguese-matching-name-tools-bcbb",
+      "siblings": [
+        "portuguese-matching-name-tools-bcbb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "portuguese-matching-name-toys-464a",
+      "siblings": [
+        "portuguese-matching-name-toys-464a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "portuguese-matching-name-vegetables-437d",
+      "siblings": [
+        "portuguese-matching-name-vegetables-437d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "portuguese-matching-name-vehicles-6c0d",
+      "siblings": [
+        "portuguese-matching-name-vehicles-6c0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "portuguese-matching-name-weather-9cef",
+      "siblings": [
+        "portuguese-matching-name-weather-9cef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "portuguese-matching-name-winter-1eb2",
+      "siblings": [
+        "portuguese-matching-name-winter-1eb2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": "name",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "portuguese-matching-name-zoo-animals-1cd6",
+      "siblings": [
+        "portuguese-matching-name-zoo-animals-1cd6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

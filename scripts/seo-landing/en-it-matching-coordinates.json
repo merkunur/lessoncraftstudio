@@ -1,0 +1,805 @@
+{
+  "locale": "en",
+  "target": "it",
+  "exerciseType": "matching",
+  "rawRowCount": 46,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "name": 46
+  },
+  "totalValid": 46,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "name"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "italian-matching-name-4th-of-july-4ea5",
+      "siblings": [
+        "italian-matching-name-4th-of-july-4ea5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "italian-matching-name-accessories-067c",
+      "siblings": [
+        "italian-matching-name-accessories-067c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "italian-matching-name-animals-46b6",
+      "siblings": [
+        "italian-matching-name-animals-46b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "italian-matching-name-around-the-house-0a54",
+      "siblings": [
+        "italian-matching-name-around-the-house-0a54"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "italian-matching-name-at-the-supermarket-2953",
+      "siblings": [
+        "italian-matching-name-at-the-supermarket-2953"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "italian-matching-name-bakery-c0cb",
+      "siblings": [
+        "italian-matching-name-bakery-c0cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "italian-matching-name-beach-00a4",
+      "siblings": [
+        "italian-matching-name-beach-00a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "italian-matching-name-birds-8e2f",
+      "siblings": [
+        "italian-matching-name-birds-8e2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "italian-matching-name-birds-2-c26d",
+      "siblings": [
+        "italian-matching-name-birds-2-c26d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "italian-matching-name-body-parts-dda5",
+      "siblings": [
+        "italian-matching-name-body-parts-dda5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "italian-matching-name-breakfast-d34d",
+      "siblings": [
+        "italian-matching-name-breakfast-d34d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "italian-matching-name-camping-b628",
+      "siblings": [
+        "italian-matching-name-camping-b628"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "italian-matching-name-christmas-1556",
+      "siblings": [
+        "italian-matching-name-christmas-1556"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "italian-matching-name-classroom-edc4",
+      "siblings": [
+        "italian-matching-name-classroom-edc4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "italian-matching-name-clothing-67eb",
+      "siblings": [
+        "italian-matching-name-clothing-67eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "italian-matching-name-colors-4047",
+      "siblings": [
+        "italian-matching-name-colors-4047"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "italian-matching-name-desserts-and-sweets-464f",
+      "siblings": [
+        "italian-matching-name-desserts-and-sweets-464f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "italian-matching-name-easter-afdb",
+      "siblings": [
+        "italian-matching-name-easter-afdb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "italian-matching-name-emotions-7c2f",
+      "siblings": [
+        "italian-matching-name-emotions-7c2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "italian-matching-name-farm-animals-b767",
+      "siblings": [
+        "italian-matching-name-farm-animals-b767"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "italian-matching-name-flowers-dcb6",
+      "siblings": [
+        "italian-matching-name-flowers-dcb6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "italian-matching-name-forest-creatures-8dcb",
+      "siblings": [
+        "italian-matching-name-forest-creatures-8dcb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "italian-matching-name-fruits-2316",
+      "siblings": [
+        "italian-matching-name-fruits-2316"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "italian-matching-name-furniture-8688",
+      "siblings": [
+        "italian-matching-name-furniture-8688"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "italian-matching-name-hospital-ca46",
+      "siblings": [
+        "italian-matching-name-hospital-ca46"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "italian-matching-name-insects-and-bugs-581e",
+      "siblings": [
+        "italian-matching-name-insects-and-bugs-581e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "italian-matching-name-kitchen-tools-4c57",
+      "siblings": [
+        "italian-matching-name-kitchen-tools-4c57"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "italian-matching-name-music-ba2a",
+      "siblings": [
+        "italian-matching-name-music-ba2a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "italian-matching-name-occupations-7a96",
+      "siblings": [
+        "italian-matching-name-occupations-7a96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "italian-matching-name-ocean-life-5318",
+      "siblings": [
+        "italian-matching-name-ocean-life-5318"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "italian-matching-name-pets-8209",
+      "siblings": [
+        "italian-matching-name-pets-8209"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "italian-matching-name-post-office-9168",
+      "siblings": [
+        "italian-matching-name-post-office-9168"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "italian-matching-name-reptiles-and-amphibians-664c",
+      "siblings": [
+        "italian-matching-name-reptiles-and-amphibians-664c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "italian-matching-name-shapes-8205",
+      "siblings": [
+        "italian-matching-name-shapes-8205"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "italian-matching-name-space-7a49",
+      "siblings": [
+        "italian-matching-name-space-7a49"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "italian-matching-name-spring-df8c",
+      "siblings": [
+        "italian-matching-name-spring-df8c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "italian-matching-name-summer-1a04",
+      "siblings": [
+        "italian-matching-name-summer-1a04"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "italian-matching-name-thanksgiving-0df7",
+      "siblings": [
+        "italian-matching-name-thanksgiving-0df7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "italian-matching-name-things-that-fly-1507",
+      "siblings": [
+        "italian-matching-name-things-that-fly-1507"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "italian-matching-name-tools-6107",
+      "siblings": [
+        "italian-matching-name-tools-6107"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "italian-matching-name-toys-5a17",
+      "siblings": [
+        "italian-matching-name-toys-5a17"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "italian-matching-name-vegetables-8655",
+      "siblings": [
+        "italian-matching-name-vegetables-8655"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "italian-matching-name-vehicles-db60",
+      "siblings": [
+        "italian-matching-name-vehicles-db60"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "italian-matching-name-weather-1c8b",
+      "siblings": [
+        "italian-matching-name-weather-1c8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "italian-matching-name-winter-3890",
+      "siblings": [
+        "italian-matching-name-winter-3890"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "it",
+      "mode": "name",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "italian-matching-name-zoo-animals-8de0",
+      "siblings": [
+        "italian-matching-name-zoo-animals-8de0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

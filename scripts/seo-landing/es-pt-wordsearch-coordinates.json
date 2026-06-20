@@ -1,0 +1,840 @@
+{
+  "locale": "es",
+  "target": "pt",
+  "exerciseType": "wordsearch",
+  "rawRowCount": 49,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "(null)": 48
+  },
+  "totalValid": 48,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-4-de-julio-b11b",
+      "siblings": [
+        "portugues-sopa-de-letras-4-de-julio-b11b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-accesorios-7391",
+      "siblings": [
+        "portugues-sopa-de-letras-accesorios-7391"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-actividades-51ac",
+      "siblings": [
+        "portugues-sopa-de-letras-actividades-51ac"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-animales-74a7",
+      "siblings": [
+        "portugues-sopa-de-letras-animales-74a7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-alrededor-de-la-casa-91a4",
+      "siblings": [
+        "portugues-sopa-de-letras-alrededor-de-la-casa-91a4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-en-el-supermercado-1873",
+      "siblings": [
+        "portugues-sopa-de-letras-en-el-supermercado-1873"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-panaderia-5fb1",
+      "siblings": [
+        "portugues-sopa-de-letras-panaderia-5fb1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-playa-8807",
+      "siblings": [
+        "portugues-sopa-de-letras-playa-8807"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-aves-2b29",
+      "siblings": [
+        "portugues-sopa-de-letras-aves-2b29"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-aves-2-5ab7",
+      "siblings": [
+        "portugues-sopa-de-letras-aves-2-5ab7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-partes-del-cuerpo-eb46",
+      "siblings": [
+        "portugues-sopa-de-letras-partes-del-cuerpo-eb46"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-desayuno-9ead",
+      "siblings": [
+        "portugues-sopa-de-letras-desayuno-9ead"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-campamento-378f",
+      "siblings": [
+        "portugues-sopa-de-letras-campamento-378f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-navidad-5877",
+      "siblings": [
+        "portugues-sopa-de-letras-navidad-5877"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-salon-de-clases-3a4a",
+      "siblings": [
+        "portugues-sopa-de-letras-salon-de-clases-3a4a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-ropa-139e",
+      "siblings": [
+        "portugues-sopa-de-letras-ropa-139e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-colores-2bcd",
+      "siblings": [
+        "portugues-sopa-de-letras-colores-2bcd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-postres-y-dulces-ca41",
+      "siblings": [
+        "portugues-sopa-de-letras-postres-y-dulces-ca41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-pascua-1c33",
+      "siblings": [
+        "portugues-sopa-de-letras-pascua-1c33"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-emociones-e35a",
+      "siblings": [
+        "portugues-sopa-de-letras-emociones-e35a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-animales-de-granja-b118",
+      "siblings": [
+        "portugues-sopa-de-letras-animales-de-granja-b118"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-flores-926b",
+      "siblings": [
+        "portugues-sopa-de-letras-flores-926b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonical": "portugues-sopa-de-letras-criaturas-del-bosque-9f9a",
+      "siblings": [
+        "portugues-sopa-de-letras-criaturas-del-bosque-9f9a",
+        "portugues-sopa-de-letras-criaturas-del-bosque-1598"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-frutas-3b29",
+      "siblings": [
+        "portugues-sopa-de-letras-frutas-3b29"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-muebles-2f63",
+      "siblings": [
+        "portugues-sopa-de-letras-muebles-2f63"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-hospital-d045",
+      "siblings": [
+        "portugues-sopa-de-letras-hospital-d045"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-insectos-y-bichos-0252",
+      "siblings": [
+        "portugues-sopa-de-letras-insectos-y-bichos-0252"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-utensilios-de-cocina-5e91",
+      "siblings": [
+        "portugues-sopa-de-letras-utensilios-de-cocina-5e91"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-musica-325d",
+      "siblings": [
+        "portugues-sopa-de-letras-musica-325d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-ocupaciones-b3ef",
+      "siblings": [
+        "portugues-sopa-de-letras-ocupaciones-b3ef"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-vida-marina-21d3",
+      "siblings": [
+        "portugues-sopa-de-letras-vida-marina-21d3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-mascotas-7f82",
+      "siblings": [
+        "portugues-sopa-de-letras-mascotas-7f82"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-oficina-de-correos-9f44",
+      "siblings": [
+        "portugues-sopa-de-letras-oficina-de-correos-9f44"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-reptiles-y-anfibios-085f",
+      "siblings": [
+        "portugues-sopa-de-letras-reptiles-y-anfibios-085f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-formas-e57d",
+      "siblings": [
+        "portugues-sopa-de-letras-formas-e57d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-espacio-a29c",
+      "siblings": [
+        "portugues-sopa-de-letras-espacio-a29c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-primavera-c092",
+      "siblings": [
+        "portugues-sopa-de-letras-primavera-c092"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-verano-3e24",
+      "siblings": [
+        "portugues-sopa-de-letras-verano-3e24"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-dia-de-accion-de-gracias-cf8a",
+      "siblings": [
+        "portugues-sopa-de-letras-dia-de-accion-de-gracias-cf8a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-cosas-que-vuelan-89a6",
+      "siblings": [
+        "portugues-sopa-de-letras-cosas-que-vuelan-89a6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-herramientas-3b92",
+      "siblings": [
+        "portugues-sopa-de-letras-herramientas-3b92"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-juguetes-de52",
+      "siblings": [
+        "portugues-sopa-de-letras-juguetes-de52"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-arboles-25ac",
+      "siblings": [
+        "portugues-sopa-de-letras-arboles-25ac"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-verduras-c2dd",
+      "siblings": [
+        "portugues-sopa-de-letras-verduras-c2dd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-vehiculos-63df",
+      "siblings": [
+        "portugues-sopa-de-letras-vehiculos-63df"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-clima-732f",
+      "siblings": [
+        "portugues-sopa-de-letras-clima-732f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-invierno-d0d9",
+      "siblings": [
+        "portugues-sopa-de-letras-invierno-d0d9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "pt",
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "portugues-sopa-de-letras-animales-del-zoologico-d8eb",
+      "siblings": [
+        "portugues-sopa-de-letras-animales-del-zoologico-d8eb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

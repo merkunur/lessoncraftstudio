@@ -1,0 +1,805 @@
+{
+  "locale": "es",
+  "target": "en",
+  "exerciseType": "wordsearch",
+  "rawRowCount": 46,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "(null)": 46
+  },
+  "totalValid": 46,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-4-de-julio-add3",
+      "siblings": [
+        "ingles-sopa-de-letras-4-de-julio-add3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-accesorios-95ad",
+      "siblings": [
+        "ingles-sopa-de-letras-accesorios-95ad"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-actividades-3778",
+      "siblings": [
+        "ingles-sopa-de-letras-actividades-3778"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-animales-a8dd",
+      "siblings": [
+        "ingles-sopa-de-letras-animales-a8dd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-alrededor-de-la-casa-d176",
+      "siblings": [
+        "ingles-sopa-de-letras-alrededor-de-la-casa-d176"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-en-el-supermercado-1323",
+      "siblings": [
+        "ingles-sopa-de-letras-en-el-supermercado-1323"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-panaderia-6bdc",
+      "siblings": [
+        "ingles-sopa-de-letras-panaderia-6bdc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-playa-a408",
+      "siblings": [
+        "ingles-sopa-de-letras-playa-a408"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-aves-1154",
+      "siblings": [
+        "ingles-sopa-de-letras-aves-1154"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-aves-2-db11",
+      "siblings": [
+        "ingles-sopa-de-letras-aves-2-db11"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-partes-del-cuerpo-1406",
+      "siblings": [
+        "ingles-sopa-de-letras-partes-del-cuerpo-1406"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-desayuno-d208",
+      "siblings": [
+        "ingles-sopa-de-letras-desayuno-d208"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-campamento-267f",
+      "siblings": [
+        "ingles-sopa-de-letras-campamento-267f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-navidad-5775",
+      "siblings": [
+        "ingles-sopa-de-letras-navidad-5775"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-salon-de-clases-7a0f",
+      "siblings": [
+        "ingles-sopa-de-letras-salon-de-clases-7a0f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-ropa-10b1",
+      "siblings": [
+        "ingles-sopa-de-letras-ropa-10b1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-colores-3ac9",
+      "siblings": [
+        "ingles-sopa-de-letras-colores-3ac9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-postres-y-dulces-c67a",
+      "siblings": [
+        "ingles-sopa-de-letras-postres-y-dulces-c67a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-pascua-98ee",
+      "siblings": [
+        "ingles-sopa-de-letras-pascua-98ee"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-emociones-925e",
+      "siblings": [
+        "ingles-sopa-de-letras-emociones-925e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-animales-de-granja-197f",
+      "siblings": [
+        "ingles-sopa-de-letras-animales-de-granja-197f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-flores-bc40",
+      "siblings": [
+        "ingles-sopa-de-letras-flores-bc40"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-criaturas-del-bosque-2608",
+      "siblings": [
+        "ingles-sopa-de-letras-criaturas-del-bosque-2608"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-frutas-eb05",
+      "siblings": [
+        "ingles-sopa-de-letras-frutas-eb05"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-muebles-8e49",
+      "siblings": [
+        "ingles-sopa-de-letras-muebles-8e49"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-hospital-8f10",
+      "siblings": [
+        "ingles-sopa-de-letras-hospital-8f10"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-insectos-y-bichos-9106",
+      "siblings": [
+        "ingles-sopa-de-letras-insectos-y-bichos-9106"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-utensilios-de-cocina-a976",
+      "siblings": [
+        "ingles-sopa-de-letras-utensilios-de-cocina-a976"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-musica-158e",
+      "siblings": [
+        "ingles-sopa-de-letras-musica-158e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-ocupaciones-68ef",
+      "siblings": [
+        "ingles-sopa-de-letras-ocupaciones-68ef"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-vida-marina-d426",
+      "siblings": [
+        "ingles-sopa-de-letras-vida-marina-d426"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-mascotas-3c76",
+      "siblings": [
+        "ingles-sopa-de-letras-mascotas-3c76"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-oficina-de-correos-2e0d",
+      "siblings": [
+        "ingles-sopa-de-letras-oficina-de-correos-2e0d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-formas-b5a7",
+      "siblings": [
+        "ingles-sopa-de-letras-formas-b5a7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-espacio-9dd4",
+      "siblings": [
+        "ingles-sopa-de-letras-espacio-9dd4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-verano-0946",
+      "siblings": [
+        "ingles-sopa-de-letras-verano-0946"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-dia-de-accion-de-gracias-c342",
+      "siblings": [
+        "ingles-sopa-de-letras-dia-de-accion-de-gracias-c342"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-cosas-que-vuelan-f867",
+      "siblings": [
+        "ingles-sopa-de-letras-cosas-que-vuelan-f867"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-herramientas-b67f",
+      "siblings": [
+        "ingles-sopa-de-letras-herramientas-b67f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-juguetes-573c",
+      "siblings": [
+        "ingles-sopa-de-letras-juguetes-573c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-arboles-c670",
+      "siblings": [
+        "ingles-sopa-de-letras-arboles-c670"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-verduras-773e",
+      "siblings": [
+        "ingles-sopa-de-letras-verduras-773e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-vehiculos-67c9",
+      "siblings": [
+        "ingles-sopa-de-letras-vehiculos-67c9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-clima-1980",
+      "siblings": [
+        "ingles-sopa-de-letras-clima-1980"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-invierno-06ee",
+      "siblings": [
+        "ingles-sopa-de-letras-invierno-06ee"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "ingles-sopa-de-letras-animales-del-zoologico-7d22",
+      "siblings": [
+        "ingles-sopa-de-letras-animales-del-zoologico-7d22"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

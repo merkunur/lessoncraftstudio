@@ -1,0 +1,839 @@
+{
+  "locale": "es",
+  "target": "en",
+  "exerciseType": "matching",
+  "rawRowCount": 48,
+  "rowsWithoutSubjectTag": 0,
+  "coordinateCountByMode_ALL": {
+    "name": 48
+  },
+  "totalValid": 48,
+  "gateClasses": [
+    "none"
+  ],
+  "distinctThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "name"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-4-de-julio-5164",
+      "siblings": [
+        "ingles-emparejar-nombres-4-de-julio-5164"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-accesorios-c1f0",
+      "siblings": [
+        "ingles-emparejar-nombres-accesorios-c1f0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-actividades-59d9",
+      "siblings": [
+        "ingles-emparejar-nombres-actividades-59d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-animales-eb73",
+      "siblings": [
+        "ingles-emparejar-nombres-animales-eb73"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-alrededor-de-la-casa-720b",
+      "siblings": [
+        "ingles-emparejar-nombres-alrededor-de-la-casa-720b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-en-el-supermercado-5330",
+      "siblings": [
+        "ingles-emparejar-nombres-en-el-supermercado-5330"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-panaderia-8007",
+      "siblings": [
+        "ingles-emparejar-nombres-panaderia-8007"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-playa-f477",
+      "siblings": [
+        "ingles-emparejar-nombres-playa-f477"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-aves-d40f",
+      "siblings": [
+        "ingles-emparejar-nombres-aves-d40f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-aves-2-d6c0",
+      "siblings": [
+        "ingles-emparejar-nombres-aves-2-d6c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-partes-del-cuerpo-8a6f",
+      "siblings": [
+        "ingles-emparejar-nombres-partes-del-cuerpo-8a6f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-desayuno-5e39",
+      "siblings": [
+        "ingles-emparejar-nombres-desayuno-5e39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-campamento-8ca7",
+      "siblings": [
+        "ingles-emparejar-nombres-campamento-8ca7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-navidad-2d82",
+      "siblings": [
+        "ingles-emparejar-nombres-navidad-2d82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-salon-de-clases-8e6e",
+      "siblings": [
+        "ingles-emparejar-nombres-salon-de-clases-8e6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-ropa-e47a",
+      "siblings": [
+        "ingles-emparejar-nombres-ropa-e47a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-colores-2cd4",
+      "siblings": [
+        "ingles-emparejar-nombres-colores-2cd4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-postres-y-dulces-2e84",
+      "siblings": [
+        "ingles-emparejar-nombres-postres-y-dulces-2e84"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-pascua-a845",
+      "siblings": [
+        "ingles-emparejar-nombres-pascua-a845"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-emociones-f2bc",
+      "siblings": [
+        "ingles-emparejar-nombres-emociones-f2bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-animales-de-granja-dbdc",
+      "siblings": [
+        "ingles-emparejar-nombres-animales-de-granja-dbdc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-flores-bca3",
+      "siblings": [
+        "ingles-emparejar-nombres-flores-bca3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-criaturas-del-bosque-4315",
+      "siblings": [
+        "ingles-emparejar-nombres-criaturas-del-bosque-4315"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-frutas-f8d7",
+      "siblings": [
+        "ingles-emparejar-nombres-frutas-f8d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-muebles-1442",
+      "siblings": [
+        "ingles-emparejar-nombres-muebles-1442"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-hospital-6c9a",
+      "siblings": [
+        "ingles-emparejar-nombres-hospital-6c9a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-insectos-y-bichos-4662",
+      "siblings": [
+        "ingles-emparejar-nombres-insectos-y-bichos-4662"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-utensilios-de-cocina-8ac0",
+      "siblings": [
+        "ingles-emparejar-nombres-utensilios-de-cocina-8ac0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-miscelaneo-559f",
+      "siblings": [
+        "ingles-emparejar-nombres-miscelaneo-559f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-musica-c2b5",
+      "siblings": [
+        "ingles-emparejar-nombres-musica-c2b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-ocupaciones-28b4",
+      "siblings": [
+        "ingles-emparejar-nombres-ocupaciones-28b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-vida-marina-903f",
+      "siblings": [
+        "ingles-emparejar-nombres-vida-marina-903f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-mascotas-dfae",
+      "siblings": [
+        "ingles-emparejar-nombres-mascotas-dfae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-oficina-de-correos-e6a5",
+      "siblings": [
+        "ingles-emparejar-nombres-oficina-de-correos-e6a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-reptiles-y-anfibios-7d04",
+      "siblings": [
+        "ingles-emparejar-nombres-reptiles-y-anfibios-7d04"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-formas-2c79",
+      "siblings": [
+        "ingles-emparejar-nombres-formas-2c79"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-espacio-9b6b",
+      "siblings": [
+        "ingles-emparejar-nombres-espacio-9b6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-primavera-0f14",
+      "siblings": [
+        "ingles-emparejar-nombres-primavera-0f14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-verano-c305",
+      "siblings": [
+        "ingles-emparejar-nombres-verano-c305"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-dia-de-accion-de-gracias-9f9a",
+      "siblings": [
+        "ingles-emparejar-nombres-dia-de-accion-de-gracias-9f9a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-cosas-que-vuelan-2f6d",
+      "siblings": [
+        "ingles-emparejar-nombres-cosas-que-vuelan-2f6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-herramientas-542f",
+      "siblings": [
+        "ingles-emparejar-nombres-herramientas-542f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-juguetes-b0df",
+      "siblings": [
+        "ingles-emparejar-nombres-juguetes-b0df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-verduras-9a5b",
+      "siblings": [
+        "ingles-emparejar-nombres-verduras-9a5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-vehiculos-6f1a",
+      "siblings": [
+        "ingles-emparejar-nombres-vehiculos-6f1a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-clima-1be3",
+      "siblings": [
+        "ingles-emparejar-nombres-clima-1be3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-invierno-22dd",
+      "siblings": [
+        "ingles-emparejar-nombres-invierno-22dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "target": "en",
+      "mode": "name",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "ingles-emparejar-nombres-animales-del-zoologico-6d13",
+      "siblings": [
+        "ingles-emparejar-nombres-animales-del-zoologico-6d13"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

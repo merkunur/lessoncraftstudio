@@ -47,6 +47,25 @@ Recovery is gradual (Google re-crawls over days→weeks). Check weekly:
 **c) Sitemaps** (left menu → **Sitemaps**):
 - "Discovered URLs" should rise as Google reads the bigger sitemap.
 
+## 4. Page-speed check (5 minutes) — gives me data to optimize
+Page speed is a Google ranking factor I couldn't measure myself (Google's automated tool
+blocks repeated requests without a paid key). Please run it manually — it's free and easy:
+
+- Go to **https://pagespeed.web.dev**
+- Paste each of these 3 URLs, one at a time, and click **Analyze** (wait ~30s each):
+  1. `https://www.lessoncraftstudio.com/en`  (homepage)
+  2. `https://www.lessoncraftstudio.com/en/worksheets/addition-image-image-animals-kindergarten`  (a worksheet page)
+  3. `https://www.lessoncraftstudio.com/en/decks/chart-count-winter/`  (a printable deck)
+- Make sure the **Mobile** tab is selected (top of the results).
+- For each, tell me **just 4 numbers** from the results:
+  - the big **Performance** score (0–100, the colored circle)
+  - **LCP** (Largest Contentful Paint, in seconds)
+  - **INP** (Interaction to Next Paint, in milliseconds) — may say "no data"
+  - **CLS** (Cumulative Layout Shift, a small decimal)
+- Paste those back to me. If any score is poor (Performance under ~70, LCP over 2.5s,
+  CLS over 0.1), I'll do a targeted speed‑optimization pass on the exact problem. If
+  they're green, we leave speed alone.
+
 ## What's normal (so you don't worry)
 - **PDFs**: re-index over days to a few weeks. This is the biggest single recovery lever
   (they were the main lost traffic) — expect the clearest improvement here.

@@ -320,3 +320,32 @@ export function deckAssets(locale: string, deckSlug: string): DeckAssets {
     answerKey: `${dir}${deckSlug}-answer-key.pdf`,
   };
 }
+
+/**
+ * Canonical deck-card asset URLs derived from the deck's slug+language — the
+ * single source of truth for thumbnail / printable-PDF / answer-key links on
+ * every browse surface (deck cards, variety strips, homepage tiles, collections).
+ *
+ * Why this exists (SEO-recovery 2026-06-25): the DB columns pdf_url / answer_key_url
+ * / thumbnail_url drifted for ~8.8k non-EN decks — they still carry the LEGACY
+ * English-mode filename (e.g. `…-make-whole-…-printable.pdf`) while the deck's slug,
+ * on-disk directory, and actual files use the localized mode (`…-complete-…`), so
+ * reading the DB column 404s. The on-disk asset tree is ALWAYS coherent with the
+ * slug (symlink + `<slug>-printable.pdf` verified present catalog-wide), so deriving
+ * the URLs from the slug — exactly as the /worksheets landing route already does —
+ * resolves 200 everywhere AND is permanently drift-proof (no surface reads the
+ * mutable DB columns again). answerKey stays null-preserving (many decks legitimately
+ * have no answer key; the card hides the link when null).
+ */
+export function canonicalDeckAssets(d: { slug: string; language: string; answerKeyUrl?: string | null }): {
+  thumbnailUrl: string;
+  pdfUrl: string;
+  answerKeyUrl: string | null;
+} {
+  const a = deckAssets(d.language, d.slug);
+  return {
+    thumbnailUrl: a.thumbnail,
+    pdfUrl: a.pdf,
+    answerKeyUrl: d.answerKeyUrl == null ? null : a.answerKey,
+  };
+}

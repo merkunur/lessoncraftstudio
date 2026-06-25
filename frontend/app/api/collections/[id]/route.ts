@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { requireSubscriber, getOwnedCollectionOrFail } from '@/lib/subscriber-api-gate';
+import { deckAssets } from '@/lib/seo/landing-content';
 
 // Tool 1A — Collection detail / update / delete.
 // All three endpoints gated on subscription + ownership per recon.
@@ -49,18 +50,22 @@ export async function GET(
       description: collectionOrError.description,
       createdAt: collectionOrError.createdAt.toISOString(),
       updatedAt: collectionOrError.updatedAt.toISOString(),
-      decks: collectionDecks.map(cd => ({
-        deckId: cd.deck.id,
-        slug: cd.deck.slug,
-        language: cd.deck.language,
-        title: cd.deck.title,
-        exerciseType: cd.deck.exerciseType,
-        ageRange: cd.deck.ageRange,
-        thumbnailUrl: cd.deck.thumbnailUrl,
-        pdfUrl: cd.deck.pdfUrl,
-        position: cd.position,
-        addedAt: cd.addedAt.toISOString(),
-      })),
+      decks: collectionDecks.map(cd => {
+        // SEO-recovery 2026-06-25: slug-derived (canonical, drift-proof) asset URLs.
+        const a = deckAssets(cd.deck.language, cd.deck.slug);
+        return {
+          deckId: cd.deck.id,
+          slug: cd.deck.slug,
+          language: cd.deck.language,
+          title: cd.deck.title,
+          exerciseType: cd.deck.exerciseType,
+          ageRange: cd.deck.ageRange,
+          thumbnailUrl: a.thumbnail,
+          pdfUrl: a.pdf,
+          position: cd.position,
+          addedAt: cd.addedAt.toISOString(),
+        };
+      }),
     },
   });
 }

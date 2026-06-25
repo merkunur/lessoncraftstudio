@@ -8,7 +8,7 @@ import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildDeckRichAlt } from '@/lib/deck-seo';
-import { landingSlugForDeck } from '@/lib/seo/landing-content';
+import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { targetLangName, targetLangSlug } from '@/lib/target-language';
 import { resolveAxisName } from '@/lib/category-nav-data';
@@ -52,9 +52,9 @@ async function buildLearnCards(decks: TopicDeckSummary[], locale: string): Promi
         (key, params) => tDeckAlt(key, params),
       ),
       href: deckLinkFor(deck),
-      thumbnailUrl: deck.thumbnailUrl,
-      pdfUrl: deck.pdfUrl,
-      answerKeyUrl: deck.answerKeyUrl,
+      // SEO-recovery 2026-06-25: derive asset URLs from slug (canonical, drift-proof)
+      // instead of the drifted DB columns. See canonicalDeckAssets.
+      ...canonicalDeckAssets(deck),
     };
   });
 }

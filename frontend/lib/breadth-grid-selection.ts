@@ -1,4 +1,5 @@
 import { prisma } from './prisma';
+import { deckAssets } from '@/lib/seo/landing-content';
 
 export interface BreadthGridDeck {
   id: string;
@@ -186,12 +187,14 @@ const CANDIDATES_PER_LOCALE = 20;
 async function fetchLocaleCandidates(
   locale: string
 ): Promise<BreadthGridDeck[]> {
-  return prisma.deck.findMany({
+  const rows = (await prisma.deck.findMany({
     where: { language: locale, status: 'published', contentLanguage: null },
     select: DECK_SELECT,
     orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
     take: CANDIDATES_PER_LOCALE,
-  }) as unknown as Promise<BreadthGridDeck[]>;
+  })) as unknown as BreadthGridDeck[];
+  // SEO-recovery 2026-06-25: slug-derived (canonical, drift-proof) thumbnail.
+  return rows.map((r) => ({ ...r, thumbnailUrl: deckAssets(r.language, r.slug).thumbnail }));
 }
 
 /**

@@ -7,7 +7,7 @@ import {
   fetchDecksCatalogHighlights,
 } from '@/lib/topic-variety';
 import { TopicDeckSummary } from '@/lib/topic-decks';
-import { landingSlugForDeck } from '@/lib/seo/landing-content';
+import { landingSlugForDeck, deckAssets } from '@/lib/seo/landing-content';
 import { buildDeckRichAlt } from '@/lib/deck-seo';
 import VarietyStripCard from './VarietyStripCard';
 
@@ -144,7 +144,7 @@ export default async function VarietyStrip(props: VarietyStripProps) {
                 deckUrl={deckLinkFor(deck)}
                 title={title}
                 richAlt={richAlt}
-                thumbnailUrl={deck.thumbnailUrl}
+                thumbnailUrl={deckAssets(deck.language, deck.slug).thumbnail}
                 languageLabel={languageLabelFor(deck.language)}
                 languageAriaLabel={tAria('languageBadge', { label: languageLabelFor(deck.language) })}
               />

@@ -96,3 +96,14 @@ blocks repeated requests without a paid key). Please run it manually — it's fr
 - **Part 1.5**: every PDF now has proper keyword-rich, localized titles/descriptions
   (the only text Google can read inside an image-based PDF).
 - **Part 2**: ~13,000 worksheet pages were wrongly hidden from the sitemap — restored.
+
+---
+
+## Update — 2026-06-25 (deck-card PDF/404 + indexation fixes)
+Three more fixes are now live. **Re-submit the sitemap again** (Section 1) so Google reads them; otherwise no new action is required — these clear on their own as Google re-crawls.
+
+1. **~8,800 deck-card PDF + answer-key links were 404** (the link pointed at an old filename; the file had been renamed). Fixed everywhere, AND the ~17,000 old PDF URLs Google already knew now **redirect (301)** to the working file. → In **Indexing → Pages**, the **"Not found (404)"** bucket (the PDF/answer-key 404s you saw) should **shrink** over the coming weeks.
+2. **Two new things are in the sitemap now:** (a) the **worksheet-maker hub pages** (`/<lang>/worksheet-makers`) — the category page for your #1 traffic source — were missing; (b) your **worksheet (landing) pages now carry their image** in the sitemap (helps Google Images show the worksheet thumbnail). Both picked up automatically when you re-submit the sitemap.
+3. **About the "Duplicate, Google chose different canonical" count** in **Indexing → Pages**: this is **NORMAL and healthy**, not an error. Each worksheet has ONE page Google indexes (its `/worksheets/…` page); the matching `/decks/…` page intentionally points at it so the same worksheet doesn't appear twice. You don't need to fix these.
+
+**Request-Indexing priority (Section 2), revised order:** (1) the worksheet-maker pages + the **`/en/worksheet-makers` hub**; (2) your top printable PDFs; (3) a few top `/worksheets/…` pages. **Checkpoint:** if clicks haven't started climbing by **~July 10**, tell me and we'll look at the Performance data together (the worksheet pages are newer URLs and can take several weeks to rank).

@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import { Metadata } from "next";
 import { Baloo_2, Nunito } from "next/font/google";
 import { getTranslations } from "next-intl/server";
@@ -402,7 +403,7 @@ export function generateMetadata({ params }: { params: PageParams }): Metadata {
       description: strings.metaDescription,
       images: [`${CANONICAL_HOST}/og-homepage.png`],
     },
-    robots: { index: true, follow: true },
+    robots: INDEXABLE_ROBOTS,
   };
 }
 

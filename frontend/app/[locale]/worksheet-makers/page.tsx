@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { ALL_APPS } from '@/config/products';
@@ -59,7 +60,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     description: t('description'),
     alternates: { canonical: canonicalUrl(localePath(locale, 'worksheet-makers')) },
     // Indexable hub for the worksheet-maker SEO channel (SEO RESCUE Part 1).
-    robots: { index: true, follow: true },
+    robots: INDEXABLE_ROBOTS,
   };
 }
 

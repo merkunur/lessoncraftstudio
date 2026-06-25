@@ -10,6 +10,7 @@
  * only the pilot slugs; any other slug/locale → notFound(). Does NOT touch live /topic/.
  */
 import { Metadata } from 'next';
+import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
@@ -227,7 +228,7 @@ export async function generateMetadata(
       images: [{ url: og, alt: l.h1 }],
     },
     twitter: { card: 'summary_large_image', title: l.h1, description, images: [{ url: og, alt: l.h1 }] },
-    robots: { index: true, follow: true },
+    robots: INDEXABLE_ROBOTS,
   };
 }
 

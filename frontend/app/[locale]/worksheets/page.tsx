@@ -11,6 +11,7 @@
    Nordic+Finnic doctrine. */
 
 import { Metadata } from 'next';
+import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import type { ReactNode } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -112,7 +113,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       description,
       images: [{ url: `${CANONICAL_HOST}${OG_IMAGE_PATH}`, alt: 'LessonCraftStudio — K-3 worksheets in 11 languages' }],
     },
-    robots: { index: true, follow: true },
+    robots: INDEXABLE_ROBOTS,
   };
 }
 

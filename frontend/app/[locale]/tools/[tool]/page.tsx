@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locales';
@@ -110,7 +111,7 @@ async function makerMetadata(locale: string, slug: string): Promise<Metadata | n
       description: content.metaDescription,
       images: [{ url: `${CANONICAL_HOST}/og-homepage.png`, alt: 'LessonCraftStudio — free worksheet makers in 11 languages' }],
     },
-    robots: { index: true, follow: true },
+    robots: INDEXABLE_ROBOTS,
   };
 }
 
@@ -158,7 +159,7 @@ export async function generateMetadata({ params }: { params: PageParams }): Prom
       description: content.metaDescription,
       images: [{ url: `${CANONICAL_HOST}/og-homepage.png`, alt: 'LessonCraftStudio — K-3 worksheets in 11 languages' }],
     },
-    robots: { index: true, follow: true },
+    robots: INDEXABLE_ROBOTS,
   };
 }
 

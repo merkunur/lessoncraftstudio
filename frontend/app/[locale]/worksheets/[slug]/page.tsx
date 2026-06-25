@@ -305,6 +305,10 @@ export default async function WorksheetLandingPage(
     'kindergarten': { chip: 'Kindergarten', schema: 'Kindergarten', age: '5-6' },
     'grade-1': { chip: 'Grade 1', schema: 'Grade 1', age: '6-7' },
     'grade-2': { chip: 'Grade 2', schema: 'Grade 2', age: '7-8' },
+    // grade-3: K-3 ceiling band for the printable math-skill types (telling-time to the
+    // minute, multi-step measurement, etc.) whose content is legitimately Grade 3. Additive
+    // — no shipped landing references 'grade-3', so K/Gr1/Gr2-stays regression holds trivially.
+    'grade-3': { chip: 'Grade 3', schema: 'Grade 3', age: '8-9' },
     // de 3-band axis (STEP-0): Vorschule / 1. Klasse / 2. Klasse. coordinate.level is re-derived per locale.
     'vorschule': { chip: 'Vorschule', schema: 'Vorschule', age: '5-6' },
     '1-klasse': { chip: '1. Klasse', schema: '1. Klasse', age: '6-7' },
@@ -460,7 +464,7 @@ export default async function WorksheetLandingPage(
                 <Link href={localePath(locale, 'worksheets')} className="hover:text-ink-900">{ui.worksheets}</Link>
                 <span aria-hidden="true" className="text-cream-300">›</span>
                 <Link href={typeHub} className="hover:text-ink-900">{ui.typeCrumb(l.eyebrow)}</Link>
-                {locale === 'en' && (
+                {locale === 'en' && l.coordinate.theme && (
                   <>
                     <span aria-hidden="true" className="text-cream-300">›</span>
                     <Link href={intersection} className="hover:text-ink-900 hidden sm:inline">{cap(l.coordinate.theme)} · {l.eyebrow.replace(' Worksheet', '')}</Link>

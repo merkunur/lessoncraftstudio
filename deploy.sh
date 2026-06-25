@@ -464,8 +464,24 @@ done
 # do NOT exit non-zero here
 
 echo ""
-echo "📡 Pinging Google with updated sitemap..."
-curl -s "https://www.google.com/ping?sitemap=https://www.lessoncraftstudio.com/sitemap.xml" > /dev/null 2>&1 || true
+echo "🔎 Checking deck URL-column drift (at-rest only; live links are slug-derived)..."
+# WARN-only recurrence guard (SEO-recovery 2026-06-25): the script always exits 0;
+# live deck links derive from slug (canonicalDeckAssets) so any drift here is at-rest
+# cosmetic. Isolated subshell (set +e + env) so it can never abort the deploy.
+# Fix surfaced drift with scripts/publish-cli/fix-deck-url-columns.js.
+( set +e
+  set -a; . /opt/lessoncraftstudio/frontend/.env.production 2>/dev/null; set +a
+  node /opt/lessoncraftstudio/scripts/publish-cli/check-deck-url-drift.js 2>&1 | tail -15
+) || true
+
+echo ""
+echo "📡 Submitting recrawl signals (IndexNow → Bing/Yandex)..."
+# NOTE: Google RETIRED its sitemap-ping endpoint in 2023 — the old
+# google.com/ping?sitemap= call was a no-op. Google recrawl is driven by the
+# GSC console + fresh sitemap lastmod (BUILD_DATE, set above). See
+# docs/seo/index-recovery-runbook.md. IndexNow notifies Bing/Yandex (+Seznam)
+# for near-real-time recrawl of the post-pivot clean pages.
+node /opt/lessoncraftstudio/scripts/indexnow-submit.js || true
 echo ""
 echo "Deployment complete!"
 echo ""

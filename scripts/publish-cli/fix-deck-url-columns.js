@@ -7,13 +7,15 @@
  * the 2026-06-25 [FIX][SEO] commit; this makes the DB match so audits read HARD=0
  * and any future/external column consumer is correct).
  *
- * Canonical forms (host = www per §A.10; the on-disk tree is the ground truth):
- *   html_url        = <dir>deck.html
- *   manifest_url    = <dir>manifest.json
- *   thumbnail_url   = <dir>thumbnail.png
- *   pdf_url         = <dir><slug>-printable.pdf
- *   answer_key_url  = <dir><slug>-answer-key.pdf   (ONLY when currently non-null)
- *   where dir       = https://www.lessoncraftstudio.com/<locale>/decks/<slug>/
+ * Canonical PATH forms (the on-disk tree is the ground truth). The existing
+ * column's scheme+host is PRESERVED (apex stays apex, www stays www — host
+ * normalization is out of scope for this drift fix); only the path is rewritten:
+ *   html_url        = <origin>/<locale>/decks/<slug>/deck.html
+ *   manifest_url    = <origin>/<locale>/decks/<slug>/manifest.json
+ *   thumbnail_url   = <origin>/<locale>/decks/<slug>/thumbnail.png
+ *   pdf_url         = <origin>/<locale>/decks/<slug>/<slug>-printable.pdf
+ *   answer_key_url  = <origin>/<locale>/decks/<slug>/<slug>-answer-key.pdf   (ONLY when currently non-null)
+ *   where origin    = scheme://host parsed from the column's CURRENT value (fallback www).
  *
  * SAFE:
  *   - dry-run by DEFAULT (prints before→after + per-column counts); --apply to write.
@@ -59,19 +61,21 @@ function utcStamp() {
   return d.getUTCFullYear() + p(d.getUTCMonth() + 1) + p(d.getUTCDate()) + '-' + p(d.getUTCHours()) + p(d.getUTCMinutes()) + p(d.getUTCSeconds());
 }
 
-// canonical targets for a deck (dir + each column value + the on-disk filename to verify)
-function canonical(locale, slug) {
-  var dir = HOST + '/' + locale + '/decks/' + slug + '/';
+// canonical PATH + on-disk filename per column (host is taken from the current value)
+function canonicalPaths(locale, slug) {
+  var dir = '/' + locale + '/decks/' + slug + '/';
   return {
-    dir: dir,
-    cols: {
-      htmlUrl: { url: dir + 'deck.html', file: 'deck.html' },
-      manifestUrl: { url: dir + 'manifest.json', file: 'manifest.json' },
-      thumbnailUrl: { url: dir + 'thumbnail.png', file: 'thumbnail.png' },
-      pdfUrl: { url: dir + slug + '-printable.pdf', file: slug + '-printable.pdf' },
-      answerKeyUrl: { url: dir + slug + '-answer-key.pdf', file: slug + '-answer-key.pdf' }
-    }
+    htmlUrl: { path: dir + 'deck.html', file: 'deck.html' },
+    manifestUrl: { path: dir + 'manifest.json', file: 'manifest.json' },
+    thumbnailUrl: { path: dir + 'thumbnail.png', file: 'thumbnail.png' },
+    pdfUrl: { path: dir + slug + '-printable.pdf', file: slug + '-printable.pdf' },
+    answerKeyUrl: { path: dir + slug + '-answer-key.pdf', file: slug + '-answer-key.pdf' }
   };
+}
+
+// preserve the existing column's scheme+host; fall back to www when unparseable/empty
+function originOf(url) {
+  try { var u = new URL(url); return u.protocol + '//' + u.host; } catch (e) { return HOST; }
 }
 
 async function main() {
@@ -100,7 +104,7 @@ async function main() {
 
     for (var i = 0; i < rows.length; i++) {
       var row = rows[i];
-      var can = canonical(locale, row.slug);
+      var can = canonicalPaths(locale, row.slug);
       // resolve the on-disk backing dir once
       var resolvedDir = null;
       try { resolvedDir = fs.realpathSync(path.join(args.decksRoot, locale, row.slug)); } catch (e) { resolvedDir = null; }
@@ -112,15 +116,16 @@ async function main() {
         var current = row[col];
         // answer_key_url: only manage when the deck already HAS one (null stays null)
         if (col === 'answerKeyUrl' && current == null) continue;
-        var target = can.cols[col];
-        if (current === target.url) continue; // already canonical (idempotent)
+        var target = can[col];
+        var targetUrl = originOf(current) + target.path; // preserve host; canonicalize path
+        if (current === targetUrl) continue; // already canonical (idempotent)
         // verify-before-point: the canonical file must exist on disk
         if (!fs.existsSync(path.join(resolvedDir, target.file))) {
           lc.residueSkips++;
           residue.push({ locale: locale, slug: row.slug, col: col, reason: 'TARGET_FILE_MISSING', file: target.file });
           continue;
         }
-        data[col] = target.url;
+        data[col] = targetUrl;
         lc.byCol[col]++;
       }
 

@@ -487,6 +487,10 @@ function buildSeoHead(opts) {
     '<!-- SEO_INSERTION_POINT_START -->',
     '<title>' + escapeHtml(titleFull) + '</title>',
     '<meta name="description" content="' + escapeAttr(description) + '">',
+    // Rich-result directives (SEO-recovery 2026-06-25): show the LARGE worksheet
+    // thumbnail in Google SERP + full text snippet for the indexed (landing-less)
+    // deck pages. Harmless on non-canonical decks (Google consolidates to the landing).
+    '<meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1">',
     '<link rel="canonical" href="__CANONICAL_URL__">',
     '<link rel="image_src" href="__OG_IMAGE__">',
     '<script type="application/ld+json">' + JSON.stringify(ld) + '<\/script>',

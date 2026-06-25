@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -220,7 +221,7 @@ export function generateMetadata({
       locale: params.locale,
       type: "website",
     },
-    robots: { index: true, follow: true },
+    robots: INDEXABLE_ROBOTS,
   };
 }
 

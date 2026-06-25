@@ -189,7 +189,8 @@ export default async function AllWorksheetsPage({
           exerciseType: d.exerciseType,
           typeName: getAxisName('exercise-type', d.exerciseType, locale) ?? d.exerciseType,
           typeSlug: getAxisSlug('exercise-type', d.exerciseType, locale) ?? d.exerciseType,
-          thumbnailUrl: d.thumbnailUrl,
+          // SEO-recovery 2026-06-25: slug-derived (canonical, drift-proof) thumbnail.
+          thumbnailUrl: deckAssets(d.language, d.slug).thumbnail,
           deckTitle: titleMap[locale] || titleMap.en || d.slug,
         };
       })

@@ -24,7 +24,7 @@ import {
   TOPIC_PAGE_SIZE,
   TopicSortKey,
 } from '@/lib/topic-decks';
-import { landingSlugForDeck } from '@/lib/seo/landing-content';
+import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
 import { buildDeckRichAlt } from '@/lib/deck-seo';
 import VarietyStrip from '@/components/catalog/VarietyStrip';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
@@ -697,9 +697,9 @@ export default async function TopicPage({
                       (key, params) => tDeckAlt(key, params),
                     ),
                     href: deckLinkFor(deck),
-                    thumbnailUrl: deck.thumbnailUrl,
-                    pdfUrl: deck.pdfUrl,
-                    answerKeyUrl: deck.answerKeyUrl,
+                    // SEO-recovery 2026-06-25: derive asset URLs from slug (canonical,
+                    // drift-proof) instead of the drifted DB columns. See canonicalDeckAssets.
+                    ...canonicalDeckAssets(deck),
                   };
                 })}
                 labels={{

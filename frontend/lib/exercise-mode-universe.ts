@@ -1,6 +1,7 @@
 import { prisma } from './prisma';
 import taxonomyData from '@/config/topics-taxonomy.json';
 import { getExerciseModeName } from './taxonomy';
+import { deckAssets } from '@/lib/seo/landing-content';
 
 interface AppEntry {
   default_subject: string;
@@ -136,7 +137,8 @@ export async function getExerciseModeUniverse(visitorLocale: string): Promise<Ex
         slug: chosen.slug,
         language: chosen.language,
         title: titleFor(chosen),
-        thumbnailUrl: chosen.thumbnailUrl,
+        // SEO-recovery 2026-06-25: slug-derived (canonical, drift-proof) thumbnail.
+        thumbnailUrl: deckAssets(chosen.language, chosen.slug).thumbnail,
       },
       isFallback,
     });

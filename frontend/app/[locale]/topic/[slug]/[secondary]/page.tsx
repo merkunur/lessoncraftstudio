@@ -23,7 +23,7 @@ import {
   TOPIC_PAGE_SIZE,
   TopicSortKey,
 } from '@/lib/topic-decks';
-import { landingSlugForDeck } from '@/lib/seo/landing-content';
+import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
 import TopicProseContainer, { intentForAxis } from '@/components/catalog/TopicProseContainer';
@@ -820,9 +820,9 @@ export default async function IntersectionPage({
                       (key, params) => tDeckAlt(key, params),
                     ),
                     href: deckLinkFor(deck),
-                    thumbnailUrl: deck.thumbnailUrl,
-                    pdfUrl: deck.pdfUrl,
-                    answerKeyUrl: deck.answerKeyUrl,
+                    // SEO-recovery 2026-06-25: derive asset URLs from slug (canonical,
+                    // drift-proof) instead of the drifted DB columns. See canonicalDeckAssets.
+                    ...canonicalDeckAssets(deck),
                   };
                 })}
                 labels={{

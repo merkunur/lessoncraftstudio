@@ -60,13 +60,13 @@ export async function generateSitemaps() {
   // Omitting ids 0 + 1 here lets the custom static routes own those URLs;
   // app/sitemap.xml/route.ts (the index) still references all five shards.
   //
-  // ID 4 — landings: /[locale]/worksheets/[slug] deck-landing pages (Gate-1
-  // browse-layer ruling 2026-06-12). DB-free (per-locale JSON via
-  // landing-content.ts); ~25k final URLs across all locales < 50k cap.
+  // ID 4 — landings: now served by the custom route app/sitemap/4.xml/route.ts
+  // (SEO-recovery 2026-06-25 P1: it adds <image:image> entries, which
+  // MetadataRoute.Sitemap cannot carry — same precedent as shards 0/1). Omit it
+  // here so Next does not also generate /sitemap/4.xml.
   return [
     { id: 2 },
     { id: 3 },
-    { id: 4 },
   ];
 }
 
@@ -199,6 +199,10 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       // /worksheets hub — the catalog hub + landing browser (Gate-1 browse
       // layer); renders for all 11 locales (type tiles even pre-landings).
       { path: '/worksheets', priority: 0.7, changeFreq: 'weekly' as const },
+      // /worksheet-makers hub — the worksheet-generator category hub (11 locales,
+      // index,follow, internally linked). The makers are the #1 historic organic
+      // source; the hub was sitemap-orphaned (SEO-recovery 2026-06-25 P0).
+      { path: '/worksheet-makers', priority: 0.7, changeFreq: 'weekly' as const },
       { path: '/terms', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/privacy', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/contact', priority: 0.3, changeFreq: 'monthly' as const },
@@ -527,36 +531,8 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
   // alternates built by the same buildHreflangAlternates SoT (pt→pt-BR,
   // x-default→en-else-first). Declares only locales where the sibling
   // actually exists (§17.4 hreflang honesty).
-  if (id === 4) {
-    try {
-      const { getLandingLocales, getAllLandings, getSiblingLandingsByCoordinate } = await import('@/lib/seo/landing-content');
-      const { buildHreflangAlternates } = await import('@/lib/seo/hreflang');
-      const routes: MetadataRoute.Sitemap = [];
-      const landingLocales = getLandingLocales();
-      for (const locale of landingLocales) {
-        for (const l of getAllLandings(locale)) {
-          const slugByLocale: Record<string, string> = { [locale]: l.slug };
-          for (const s of getSiblingLandingsByCoordinate(l.coordinate, locale)) slugByLocale[s.locale] = s.slug;
-          const languages = buildHreflangAlternates(
-            landingLocales,
-            (loc) => (slugByLocale[loc] ? `${baseUrl}/${loc}/worksheets/${slugByLocale[loc]}` : null),
-            baseUrl,
-          );
-          routes.push({
-            url: `${baseUrl}/${locale}/worksheets/${l.slug}`,
-            lastModified: STATIC_CONTENT_DATE,
-            changeFrequency: 'monthly',
-            priority: 0.6,
-            alternates: { languages },
-          });
-        }
-      }
-      return routes;
-    } catch (err) {
-      console.warn('[sitemap] shard 4 (landings) failed; emitting empty:', (err as Error).message);
-      return [];
-    }
-  }
+  // ID 4 (landings) is served by the custom route app/sitemap/4.xml/route.ts
+  // (image-enriched; see generateSitemaps comment above). Not handled here.
 
   return [];
 }

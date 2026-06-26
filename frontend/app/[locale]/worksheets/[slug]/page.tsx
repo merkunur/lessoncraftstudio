@@ -341,6 +341,7 @@ export default async function WorksheetLandingPage(
     'infanzia': { chip: "Scuola dell'infanzia", schema: "Scuola dell'infanzia", age: '3-6' },
     'classe-prima': { chip: 'Classe prima – scuola primaria', schema: 'Scuola primaria - classe prima', age: '6-7' },
     'classe-seconda': { chip: 'Classe seconda – scuola primaria', schema: 'Scuola primaria - classe seconda', age: '7-8' },
+    'classe-terza': { chip: 'Classe terza – scuola primaria', schema: 'Scuola primaria - classe terza', age: '8-9' },
     // no — 3-band spine (LK20, +1-year offset: Norway starts 1. trinn at age 6, NO pre-school year inside
     // school). 1. trinn = readiness floor (EN Kindergarten + ALL readiness + concrete ≤10); 2. trinn =
     // symbolic arithmetic ≤20 CARRIES + chart-count + formal decoding; 3. trinn = within-100 (2.NBT). 4. trinn OUT.

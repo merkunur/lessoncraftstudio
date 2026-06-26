@@ -319,6 +319,7 @@ export default async function WorksheetLandingPage(
     'preescolar': { chip: 'Preescolar (5 años)', schema: 'Educación Preescolar', age: '5-6' },
     'primer-grado': { chip: 'Primer grado', schema: 'Primer grado de primaria', age: '6-7' },
     'segundo-grado': { chip: 'Segundo grado', schema: 'Segundo grado de primaria', age: '7-8' },
+    'tercer-grado': { chip: 'Tercer grado', schema: 'Tercer grado de primaria', age: '8-9' },
     // sv 3-band axis (Lgr22, +1-year Nordic shift): förskola (readiness, EN Preschool+Kindergarten) / åk 1 / åk 2.
     'forskola': { chip: 'Förskola', schema: 'Förskola', age: '4-6' },
     'ak-1': { chip: 'Åk 1', schema: 'Årskurs 1', age: '7-8' },

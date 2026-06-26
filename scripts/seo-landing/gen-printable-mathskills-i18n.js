@@ -26,16 +26,18 @@ const PROSE = require('./printable-mathskills-prose-' + LOCALE + '.json');
 // Per-locale band-key → the human label that the prose puts in p1 (slotTokens lint anchor).
 const BANDLBL_BY_LOCALE = {
   de: { vorschule: 'Vorschule', '1-klasse': 'Klasse 1', '2-klasse': 'Klasse 2', '3-klasse': 'Klasse 3' },
+  es: { preescolar: 'Preescolar', 'primer-grado': 'Primer grado', 'segundo-grado': 'Segundo grado', 'tercer-grado': 'Tercer grado' },
 };
 // Per-locale type→noun for the sibling-grade carousel labels.
 const TYPE_NOUN_BY_LOCALE = {
   de: { 'telling-time': 'Uhrzeit', fractions: 'Brüche', geometry: 'Geometrie', measurement: 'Messen', 'arrays-multiplication': 'Einmaleins', 'graphing-data': 'Diagramme', 'number-charts': 'Hundertertafel' },
+  es: { 'telling-time': 'La hora', fractions: 'Fracciones', geometry: 'Geometría', measurement: 'Medición', 'arrays-multiplication': 'Multiplicación', 'graphing-data': 'Gráficas', 'number-charts': 'Tabla del 100' },
 };
 const BANDLBL = BANDLBL_BY_LOCALE[LOCALE];
 const TYPE_NOUN = TYPE_NOUN_BY_LOCALE[LOCALE];
 if (!BANDLBL || !TYPE_NOUN) { console.error('No BANDLBL/TYPE_NOUN map for locale ' + LOCALE + ' — add it.'); process.exit(1); }
 
-const carouselLabel = (pr, type) => (BANDLBL[pr.deBand] || pr.deBand) + ' ' + (TYPE_NOUN[type] || type);
+const carouselLabel = (pr, type) => (BANDLBL[pr.band||pr.deBand] || (pr.band||pr.deBand)) + ' ' + (TYPE_NOUN[type] || type);
 
 const raw = fs.readFileSync(FILE, 'utf8');
 const data = JSON.parse(raw);
@@ -53,15 +55,15 @@ for (const c of COORDS) {
   const pr = PROSE[c.slug];
   if (!pr) { console.error('NO PROSE for ' + c.slug + ' — aborting.'); process.exit(1); }
   if (have.has(pr.slug)) { console.log('skip (exists):', pr.slug); continue; }
-  const label = BANDLBL[pr.deBand];
-  if (!label) { console.error('bad deBand "' + pr.deBand + '" for ' + c.slug); process.exit(1); }
+  const label = BANDLBL[pr.band||pr.deBand];
+  if (!label) { console.error('bad band "' + (pr.band||pr.deBand) + '" for ' + c.slug); process.exit(1); }
   if (!pr.p1.includes(label)) { console.error('p1 missing band label "' + label + '" for ' + c.slug); process.exit(1); }
   const w = [pr.p1, pr.p2, pr.p3].join(' ').trim().split(/\s+/).length;
   if (w < 200) { console.error('WORDCOUNT ' + w + '<200 for ' + c.slug); process.exit(1); }
   const base = {
     slug: pr.slug,
     variantShape: 'collapsed',
-    coordinate: { type: c.type, mode: c.mode, theme: '', level: pr.deBand },
+    coordinate: { type: c.type, mode: c.mode, theme: '', level: (pr.band||pr.deBand) },
     eyebrow: pr.eyebrow,
     h1: pr.h1,
     strand: pr.strand,

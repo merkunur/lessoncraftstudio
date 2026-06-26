@@ -353,6 +353,7 @@ export default async function WorksheetLandingPage(
     'maternelle': { chip: 'Maternelle', schema: 'École maternelle', age: '3-6' },
     'cp': { chip: 'CP', schema: 'Cours préparatoire (CP)', age: '6-7' },
     'ce1': { chip: 'CE1', schema: 'Cours élémentaire 1 (CE1)', age: '7-8' },
+    'ce2': { chip: 'CE2', schema: 'Cours élémentaire 2 (CE2)', age: '8-9' },
     'educacao-infantil': { chip: 'Educação infantil', schema: 'Educação infantil', age: '3-6' },
     '1o-ano': { chip: '1º ano', schema: 'Ensino fundamental — 1º ano', age: '6-7' },
     '2o-ano': { chip: '2º ano', schema: 'Ensino fundamental — 2º ano', age: '7-8' },

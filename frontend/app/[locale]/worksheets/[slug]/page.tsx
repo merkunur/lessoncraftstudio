@@ -324,6 +324,7 @@ export default async function WorksheetLandingPage(
     'forskola': { chip: 'Förskola', schema: 'Förskola', age: '4-6' },
     'ak-1': { chip: 'Åk 1', schema: 'Årskurs 1', age: '7-8' },
     'ak-2': { chip: 'Åk 2', schema: 'Årskurs 2', age: '8-9' },
+    'ak-3': { chip: 'Åk 3', schema: 'Årskurs 3', age: '9-10' },
     // nl 3-band axis (SLO-kerndoelen): kleuters (readiness, EN Preschool+Kindergarten, groep 1-2) /
     // groep 3 (first formal, ≤20 CARRIES) / groep 4 (21-100 CARRIES). split-at-20; groep 5 OUT.
     'kleuters': { chip: 'Kleuters', schema: 'Kleuters (groep 1-2)', age: '4-6' },
@@ -332,11 +333,14 @@ export default async function WorksheetLandingPage(
     'groep-5': { chip: 'Groep 5', schema: 'Groep 5', age: '8-9' },
     // da 3-band axis (Fælles Mål, da ledger-lock 2026-06-12): børnehaveklassen (readiness floor =
     // børnehave + 0. klasse merged, ages 3-6) / 1. klasse (≤20 CARRIES, 7) / 2. klasse (21-100, 8);
-    // 3. klasse OUT. da SHARES the '1-klasse'/'2-klasse' KEYS with de — Danish writes lowercase
+    // da SHARES the '1-klasse'/'2-klasse' KEYS with de — Danish writes lowercase
     // "1. klasse", so the locale-prefixed 'da:' entries win via the prefixed lookup below.
+    // (+ 3. klasse for the Part 2 printable math-skill landings, whose grade-3 content sits in the
+    // Danish folkeskole's 3. klasse; additive — no shipped da landing referenced it, regression-safe.)
     'boernehaveklasse': { chip: 'Børnehaveklassen (0. klasse)', schema: 'Børnehaveklassen', age: '3-6' },
     'da:1-klasse': { chip: '1. klasse', schema: '1. klasse', age: '7-8' },
     'da:2-klasse': { chip: '2. klasse', schema: '2. klasse', age: '8-9' },
+    'da:3-klasse': { chip: '3. klasse', schema: '3. klasse', age: '9-10' },
     // it — 3-band spine (terza = OUT, >ceiling); infanzia folds EN preschool+K (no separate K year).
     'infanzia': { chip: "Scuola dell'infanzia", schema: "Scuola dell'infanzia", age: '3-6' },
     'classe-prima': { chip: 'Classe prima – scuola primaria', schema: 'Scuola primaria - classe prima', age: '6-7' },

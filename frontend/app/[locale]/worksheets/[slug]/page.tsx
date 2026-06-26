@@ -367,9 +367,12 @@ export default async function WorksheetLandingPage(
     '2o-ano': { chip: '2º ano', schema: 'Ensino fundamental — 2º ano', age: '7-8' },
     '3o-ano': { chip: '3º ano', schema: 'Ensino fundamental — 3º ano', age: '8-9' },
     // fi — 3-band spine (OPS 2014): esikoulu (esiopetus, readiness) / 1. luokka / 2. luokka. Keys collision-free.
+    // (+ 3. luokka for the Part 2 printable math-skill landings, whose grade-3 content sits in the Finnish
+    // perusopetus 3. luokka; additive — no shipped fi landing referenced it, regression-safe.)
     'esikoulu': { chip: 'Esikoulu', schema: 'Esiopetus', age: '5-6' },
     '1-luokka': { chip: '1. luokka', schema: 'Perusopetus — 1. luokka', age: '7' },
     '2-luokka': { chip: '2. luokka', schema: 'Perusopetus — 2. luokka', age: '8' },
+    '3-luokka': { chip: '3. luokka', schema: 'Perusopetus — 3. luokka', age: '9' },
     // Cross-language ("Learn <X>") vocabulary decks are NOT national-grade-banded — they're
     // early-language beginner practice for K-3 kids. One neutral "Beginner" band per locale
     // (wide 5-9 age) keeps educationalLevel honest (no fake grade/standard). Locale-prefixed

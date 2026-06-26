@@ -20,6 +20,10 @@ const AGE2LVL = { '3-5': 'preschool', '5-7': 'kindergarten', '6-8': 'grade-1', '
 
 // 18 coordinate definitions: [type, level, mode, standard|null, strand]
 const DEFS = [
+  // telling-time (the EN pilot's 3 coordinates — included here so non-EN fan-outs get all 21 in one enum)
+  ['telling-time', 'grade-1', 'hour-half-hour', '1.MD.B.3', 'Measurement & Data'],
+  ['telling-time', 'grade-2', 'to-five-minutes', '2.MD.C.7', 'Measurement & Data'],
+  ['telling-time', 'grade-3', 'to-the-minute', '3.MD.A.1', 'Measurement & Data'],
   ['fractions', 'grade-2', 'partition-and-share', '2.G.A.3', 'Fractions'],
   ['fractions', 'grade-3', 'name-and-compare', '3.NF.A.1', 'Fractions'],
   ['geometry', 'kindergarten', 'count-and-sort-shapes', 'K.G.B.4', 'Geometry'],
@@ -40,28 +44,31 @@ const DEFS = [
   ['number-charts', 'grade-3', 'number-patterns', '3.OA.D.9', 'Operations & Algebraic Thinking'], // verify
 ];
 
+const argLocale = (process.argv.find((a) => a.indexOf('--locale=') === 0) || '--locale=en').slice(9);
+
 (async () => {
   const p = db.client();
-  const TYPES = [...new Set(DEFS.map((d) => d[0]))];
   const out = [];
   for (const [type, level, mode, standard, strand] of DEFS) {
     const rows = await p.deck.findMany({
-      where: { language: 'en', status: 'published', contentLanguage: null, exerciseType: type },
+      where: { language: argLocale, status: 'published', contentLanguage: null, exerciseType: type },
       select: { slug: true, ageRange: true },
       orderBy: { slug: 'asc' },
     });
     const atLevel = rows.filter((r) => (AGE2LVL[r.ageRange] || r.ageRange) === level).map((r) => r.slug);
-    if (!atLevel.length) { console.error('!! NO DECKS for ' + type + ' ' + level); continue; }
-    // canonical = plain base `<type>-(g|k)<id>` (no easy/hard/theme/-N); else shortest slug.
-    const plainRe = new RegExp('^' + type.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&') + '-(g|k)\\d+$');
-    const plain = atLevel.filter((s) => plainRe.test(s)).sort((a, b) => a.length - b.length || a.localeCompare(b));
+    if (!atLevel.length) { console.error('!! NO DECKS for ' + type + ' ' + level + ' (' + argLocale + ')'); continue; }
+    // LOCALE-AWARE canonical = plain base ending `-(g|k)<id>` (no -N suffix), with the FEWEST
+    // hyphens (themeless base like `brueche-g2228` / `uhrzeit-g1148` over themed `brueche-fahrzeuge-g2233`);
+    // independent of the localized slug prefix. Fallback = shortest slug.
+    const plain = atLevel.filter((s) => /-(g|k)\d+$/.test(s))
+      .sort((a, b) => a.split('-').length - b.split('-').length || a.length - b.length || a.localeCompare(b));
     const canonical = (plain[0]) || atLevel.slice().sort((a, b) => a.length - b.length)[0];
-    const slug = type + '-' + level;
+    const slug = type + '-' + level; // landing slug stays English (route key); deck slugs are localized
     out.push({ slug, type, level, mode, standard, strand, canonicalDeckSlug: canonical, collapseSiblings: atLevel });
     console.error('  ' + slug.padEnd(34) + ' decks=' + String(atLevel.length).padStart(3) + ' canonical=' + canonical + (standard ? ' [' + standard + ']' : ' [strand-only]'));
   }
-  fs.writeFileSync('/root/pm-coords.json', JSON.stringify({ coordinates: out }, null, 2) + '\n', 'utf8');
-  console.error('TOTAL coordinates=' + out.length + ' | covered decks=' + out.reduce((a, c) => a + c.collapseSiblings.length, 0));
+  fs.writeFileSync('/root/pm-coords-' + argLocale + '.json', JSON.stringify({ locale: argLocale, coordinates: out }, null, 2) + '\n', 'utf8');
+  console.error('LOCALE=' + argLocale + ' TOTAL coordinates=' + out.length + ' | covered decks=' + out.reduce((a, c) => a + c.collapseSiblings.length, 0));
   // stdout = pure JSON (for capture)
   process.stdout.write(JSON.stringify({ coordinates: out }, null, 2) + '\n');
   await db.disconnect();

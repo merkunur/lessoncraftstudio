@@ -309,10 +309,12 @@ export default async function WorksheetLandingPage(
     // minute, multi-step measurement, etc.) whose content is legitimately Grade 3. Additive
     // — no shipped landing references 'grade-3', so K/Gr1/Gr2-stays regression holds trivially.
     'grade-3': { chip: 'Grade 3', schema: 'Grade 3', age: '8-9' },
-    // de 3-band axis (STEP-0): Vorschule / 1. Klasse / 2. Klasse. coordinate.level is re-derived per locale.
+    // de axis: Vorschule / 1. Klasse / 2. Klasse (+ 3. Klasse for the printable math-skill landings,
+    // whose grade-3 content sits in the German Grundschule's 3. Klasse). coordinate.level re-derived per locale.
     'vorschule': { chip: 'Vorschule', schema: 'Vorschule', age: '5-6' },
     '1-klasse': { chip: '1. Klasse', schema: '1. Klasse', age: '6-7' },
     '2-klasse': { chip: '2. Klasse', schema: '2. Klasse', age: '7-8' },
+    '3-klasse': { chip: '3. Klasse', schema: '3. Klasse', age: '8-9' },
     // es MX bands (Mexican Spanish): Educación Preescolar (por años) + primer/segundo grado de primaria.
     'preescolar': { chip: 'Preescolar (5 años)', schema: 'Educación Preescolar', age: '5-6' },
     'primer-grado': { chip: 'Primer grado', schema: 'Primer grado de primaria', age: '6-7' },

@@ -348,12 +348,15 @@ export default async function WorksheetLandingPage(
     'classe-terza': { chip: 'Classe terza – scuola primaria', schema: 'Scuola primaria - classe terza', age: '8-9' },
     // no — 3-band spine (LK20, +1-year offset: Norway starts 1. trinn at age 6, NO pre-school year inside
     // school). 1. trinn = readiness floor (EN Kindergarten + ALL readiness + concrete ≤10); 2. trinn =
-    // symbolic arithmetic ≤20 CARRIES + chart-count + formal decoding; 3. trinn = within-100 (2.NBT). 4. trinn OUT.
+    // symbolic arithmetic ≤20 CARRIES + chart-count + formal decoding; 3. trinn = within-100 (2.NBT).
+    // (+ 4. trinn for the Part 2 printable math-skill landings: with the +1 offset, EN grade-3 content
+    // maps to the Norwegian 4. trinn; additive — no shipped no landing referenced it, regression-safe.)
     // Keys are collision-free (no other locale uses 'N-trinn'), so unprefixed — the route's locale-prefixed
     // lookup falls through to these.
     '1-trinn': { chip: '1. trinn', schema: '1. trinn', age: '6-7' },
     '2-trinn': { chip: '2. trinn', schema: '2. trinn', age: '7-8' },
     '3-trinn': { chip: '3. trinn', schema: '3. trinn', age: '8-9' },
+    '4-trinn': { chip: '4. trinn', schema: '4. trinn', age: '9-10' },
     // fr — 3-band spine (Éducation Nationale: maternelle / CP / CE1; CE2 OUT; no offset, CP=age 6)
     'maternelle': { chip: 'Maternelle', schema: 'École maternelle', age: '3-6' },
     'cp': { chip: 'CP', schema: 'Cours préparatoire (CP)', age: '6-7' },

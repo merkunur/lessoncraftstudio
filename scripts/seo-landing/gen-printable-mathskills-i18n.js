@@ -34,6 +34,7 @@ const BANDLBL_BY_LOCALE = {
   sv: { forskola: 'förskola', 'ak-1': 'åk 1', 'ak-2': 'åk 2', 'ak-3': 'åk 3' },
   da: { boernehaveklasse: 'børnehaveklassen', '1-klasse': '1. klasse', '2-klasse': '2. klasse', '3-klasse': '3. klasse' },
   no: { '1-trinn': '1. trinn', '2-trinn': '2. trinn', '3-trinn': '3. trinn', '4-trinn': '4. trinn' },
+  fi: { esikoulu: 'esikoulu', '1-luokka': '1. luokka', '2-luokka': '2. luokka', '3-luokka': '3. luokka' },
 };
 // Per-locale type→noun for the sibling-grade carousel labels.
 const TYPE_NOUN_BY_LOCALE = {
@@ -46,6 +47,7 @@ const TYPE_NOUN_BY_LOCALE = {
   sv: { 'telling-time': 'Klockan', fractions: 'Bråk', geometry: 'Geometri', measurement: 'Mätning', 'arrays-multiplication': 'Multiplikation', 'graphing-data': 'Diagram', 'number-charts': 'Hundraruta' },
   da: { 'telling-time': 'Klokken', fractions: 'Brøker', geometry: 'Geometri', measurement: 'Måling', 'arrays-multiplication': 'Gangetabel', 'graphing-data': 'Diagrammer', 'number-charts': 'Hundredfelt' },
   no: { 'telling-time': 'Klokka', fractions: 'Brøk', geometry: 'Geometri', measurement: 'Måling', 'arrays-multiplication': 'Gangetabell', 'graphing-data': 'Diagram', 'number-charts': 'Hundrerutenett' },
+  fi: { 'telling-time': 'Kellonajat', fractions: 'Murtoluvut', geometry: 'Geometria', measurement: 'Mittaaminen', 'arrays-multiplication': 'Kertolasku', 'graphing-data': 'Kaaviot', 'number-charts': 'Lukutaulu' },
 };
 const BANDLBL = BANDLBL_BY_LOCALE[LOCALE];
 const TYPE_NOUN = TYPE_NOUN_BY_LOCALE[LOCALE];

@@ -329,6 +329,7 @@ export default async function WorksheetLandingPage(
     'kleuters': { chip: 'Kleuters', schema: 'Kleuters (groep 1-2)', age: '4-6' },
     'groep-3': { chip: 'Groep 3', schema: 'Groep 3', age: '6-7' },
     'groep-4': { chip: 'Groep 4', schema: 'Groep 4', age: '7-8' },
+    'groep-5': { chip: 'Groep 5', schema: 'Groep 5', age: '8-9' },
     // da 3-band axis (Fælles Mål, da ledger-lock 2026-06-12): børnehaveklassen (readiness floor =
     // børnehave + 0. klasse merged, ages 3-6) / 1. klasse (≤20 CARRIES, 7) / 2. klasse (21-100, 8);
     // 3. klasse OUT. da SHARES the '1-klasse'/'2-klasse' KEYS with de — Danish writes lowercase

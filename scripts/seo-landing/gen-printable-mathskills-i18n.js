@@ -28,12 +28,14 @@ const BANDLBL_BY_LOCALE = {
   de: { vorschule: 'Vorschule', '1-klasse': 'Klasse 1', '2-klasse': 'Klasse 2', '3-klasse': 'Klasse 3' },
   es: { preescolar: 'Preescolar', 'primer-grado': 'Primer grado', 'segundo-grado': 'Segundo grado', 'tercer-grado': 'Tercer grado' },
   nl: { kleuters: 'kleuters', 'groep-3': 'groep 3', 'groep-4': 'groep 4', 'groep-5': 'groep 5' },
+  fr: { maternelle: 'maternelle', cp: 'CP', ce1: 'CE1', ce2: 'CE2' },
 };
 // Per-locale type→noun for the sibling-grade carousel labels.
 const TYPE_NOUN_BY_LOCALE = {
   de: { 'telling-time': 'Uhrzeit', fractions: 'Brüche', geometry: 'Geometrie', measurement: 'Messen', 'arrays-multiplication': 'Einmaleins', 'graphing-data': 'Diagramme', 'number-charts': 'Hundertertafel' },
   es: { 'telling-time': 'La hora', fractions: 'Fracciones', geometry: 'Geometría', measurement: 'Medición', 'arrays-multiplication': 'Multiplicación', 'graphing-data': 'Gráficas', 'number-charts': 'Tabla del 100' },
   nl: { 'telling-time': 'Klokkijken', fractions: 'Breuken', geometry: 'Meetkunde', measurement: 'Meten', 'arrays-multiplication': 'Keersommen', 'graphing-data': 'Grafieken', 'number-charts': 'Honderdveld' },
+  fr: { 'telling-time': "Lire l'heure", fractions: 'Fractions', geometry: 'Géométrie', measurement: 'Mesures', 'arrays-multiplication': 'Multiplication', 'graphing-data': 'Graphiques', 'number-charts': 'Tableau des nombres' },
 };
 const BANDLBL = BANDLBL_BY_LOCALE[LOCALE];
 const TYPE_NOUN = TYPE_NOUN_BY_LOCALE[LOCALE];

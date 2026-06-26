@@ -358,6 +358,7 @@ export default async function WorksheetLandingPage(
     'educacao-infantil': { chip: 'Educação infantil', schema: 'Educação infantil', age: '3-6' },
     '1o-ano': { chip: '1º ano', schema: 'Ensino fundamental — 1º ano', age: '6-7' },
     '2o-ano': { chip: '2º ano', schema: 'Ensino fundamental — 2º ano', age: '7-8' },
+    '3o-ano': { chip: '3º ano', schema: 'Ensino fundamental — 3º ano', age: '8-9' },
     // fi — 3-band spine (OPS 2014): esikoulu (esiopetus, readiness) / 1. luokka / 2. luokka. Keys collision-free.
     'esikoulu': { chip: 'Esikoulu', schema: 'Esiopetus', age: '5-6' },
     '1-luokka': { chip: '1. luokka', schema: 'Perusopetus — 1. luokka', age: '7' },

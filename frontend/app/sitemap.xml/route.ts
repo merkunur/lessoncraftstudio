@@ -13,19 +13,22 @@
 
 export const revalidate = 3600;
 
-// Canonical 5-shard list. Phase 4 SEO-thumbnail commission: shards 0 + 1
+// Canonical shard list. Phase 4 SEO-thumbnail commission: shards 0 + 1
 // are served by custom routes (app/sitemap/0.xml/route.ts + 1.xml/route.ts)
-// to emit per-URL <image:image> entries. Shards 2 + 3 + 4 served by Next.js
-// sitemap convention from app/sitemap.ts (4 = deck-landing pages, Gate-1
-// browse-layer ruling 2026-06-12). Hard-coded here so the index references
-// all five shards regardless of generateSitemaps()'s return.
+// to emit per-URL <image:image> entries. Shards 2 + 3 served by Next.js
+// sitemap convention from app/sitemap.ts. Shards 4-7 = deck-landing pages,
+// served by custom routes (app/sitemap/{4,5,6,7}.xml/route.ts). Hard-coded
+// here so the index references all shards regardless of generateSitemaps().
 // SEO RESCUE Part 2 Wave A (2026-06-14): shards 0 + 1 were DROPPED to de-promote
 // near-duplicate deck pages. SEO Recovery Part 2 (2026-06-20): shards 0 + 1 are
 // RESTORED, but the 0.xml/1.xml routes now emit ONLY landing-less (self-canonical)
 // decks — the ~13.2k pages that are the canonical surface for their content yet
 // were orphaned from every sitemap. Decks WITH a landing stay out (their landing
-// is in shard 4). See app/sitemap/0.xml/route.ts for the full rationale.
-const SITEMAP_SHARD_IDS = [0, 1, 2, 3, 4];
+// is in shards 4-7). See app/sitemap/0.xml/route.ts for the full rationale.
+// SITEMAP FIX 2026-06-26: the single landing shard 4 hit 66.7 MB (> Google's
+// 50 MB/file cap). The landings now split across shards 4-7 (partitioned by a
+// stable hash of locale/slug in frontend/lib/seo/landing-sitemap.ts), ~16 MB each.
+const SITEMAP_SHARD_IDS = [0, 1, 2, 3, 4, 5, 6, 7];
 
 export async function GET() {
   const baseUrl = 'https://www.lessoncraftstudio.com';

@@ -121450,6 +121450,1066 @@
           "href": "engelska-matchning-namn-kroppsdelar-c3e8"
         }
       ]
+    },
+    {
+      "slug": "klockan-arbetsblad-ak-1",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "telling-time",
+        "mode": "hour-half-hour",
+        "theme": "",
+        "level": "ak-1"
+      },
+      "eyebrow": "Klockan · Arbetsblad",
+      "h1": "Läsa klockan i åk 1 – hela och halva timmar",
+      "strand": "Geometri",
+      "standard": "1.MD.B.3",
+      "slotTokens": [
+        "åk 1"
+      ],
+      "p1": "De här arbetsbladen hjälper barn i åk 1 att börja läsa klockan med hela och halva timmar. Barnet tittar på en analog klocka, ser var den korta och den långa visaren pekar och skriver vilken tid det är. Uppgifterna går steg för steg: först bara hela timmar som klockan tre och klockan sju, sedan halva timmar som halv fyra och halv nio. Allt är gratis att skriva ut som PDF, utan inloggning.",
+      "p2": "På bladen får barnet öva på tre saker som hör ihop. Att läsa av klockan och skriva tiden med siffror, att själv rita in timvisaren och minutvisaren på en tom urtavla, och att para ihop rätt klocka med rätt tid. Vi har medvetet hållt sidorna lugna och tydliga: en uppgift i taget, gott om plats och stora urtavlor. Det finns ingen tidtagning och inga poäng – barnet får ta den tid det behöver och prova igen utan att något känns fel.",
+      "p3": "När hela och halva timmar sitter brukar nästa steg vara klockan på fem minuter när, kvart i och kvart över, som hör hemma i åk 2. Vill du arbeta vidare kan du bläddra bland alla våra arbetsblad i klockan att skriva ut och välja den nivå som passar just nu. Skriv ut, lägg fram en penna och låt barnet öva i sin egen takt – hemma vid köksbordet eller i klassrummet.",
+      "canonicalDeckSlug": "klockan-g1148",
+      "collapseSiblings": [
+        "klockan-g1148",
+        "klockan-g1148-10",
+        "klockan-g1148-2",
+        "klockan-g1148-3",
+        "klockan-g1148-4",
+        "klockan-g1148-5",
+        "klockan-g1148-6",
+        "klockan-g1148-7",
+        "klockan-g1148-8",
+        "klockan-g1148-9",
+        "klockan-g1149",
+        "klockan-g1149-10",
+        "klockan-g1149-2",
+        "klockan-g1149-3",
+        "klockan-g1149-4",
+        "klockan-g1149-5",
+        "klockan-g1149-6",
+        "klockan-g1149-7",
+        "klockan-g1149-8",
+        "klockan-g1149-9",
+        "klockan-g1150"
+      ],
+      "carousel": [
+        {
+          "label": "åk 2 Klockan",
+          "href": "klockan-fem-minuter-ak-2"
+        },
+        {
+          "label": "åk 3 Klockan",
+          "href": "klockan-tidsskillnad-ak-3"
+        }
+      ],
+      "title": "Arbetsblad klockan åk 1 – hel och halv timme | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad i klockan för åk 1: läs hela och halva timmar, skriv tiden och rita visarna. Gratis att skriva ut som PDF, ingen registrering."
+    },
+    {
+      "slug": "klockan-fem-minuter-ak-2",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "telling-time",
+        "mode": "to-five-minutes",
+        "theme": "",
+        "level": "ak-2"
+      },
+      "eyebrow": "Klockan · Arbetsblad",
+      "h1": "Klockan i åk 2 – fem minuter, kvart i och kvart över",
+      "strand": "Geometri",
+      "standard": "2.MD.C.7",
+      "slotTokens": [
+        "åk 2"
+      ],
+      "p1": "I åk 2 tar barnet klivet från hela och halva timmar till att läsa klockan på fem minuter när. De här arbetsbladen övar just det: minutvisaren flyttas fem minuter i taget runt urtavlan, och barnet lär sig se skillnad på tio över, tjugo i och liknande tider. Sidorna går att skriva ut gratis som PDF, helt utan registrering.",
+      "p2": "Uppgifterna bygger på det barnet redan kan och lägger till nya delmoment. Att läsa kvart över och kvart i en hel timme, att förstå att varje steg på urtavlan är fem minuter, och att koppla ihop analog tid med digital tid – alltså att se att den runda klockan och siffrorna 07:15 visar samma sak. Barnet får både skriva tiden och rita visarna. Tonen är lugn och tillåtande: ingen klocka tickar, det finns inga poäng och inga rätt-eller-fel-stjärnor, bara stillsam övning i egen takt.",
+      "p3": "Känns fem minuter och kvart redan säkert väntar minuten, förfluten tid och 24-timmarsformatet i åk 3. Behöver barnet däremot repetera hela och halva timmar finns enklare blad för åk 1. Bläddra bland alla våra arbetsblad i klockan att skriva ut och plocka ihop ett eget häfte. Skriv ut, ta fram en penna och låt övningen ske utan press.",
+      "canonicalDeckSlug": "klockan-g2249",
+      "collapseSiblings": [
+        "klockan-g2249",
+        "klockan-g2249-10",
+        "klockan-g2249-2",
+        "klockan-g2249-3",
+        "klockan-g2249-4",
+        "klockan-g2249-5",
+        "klockan-g2249-6",
+        "klockan-g2249-7",
+        "klockan-g2249-8",
+        "klockan-g2249-9",
+        "klockan-g2250",
+        "klockan-g2250-10",
+        "klockan-g2250-2",
+        "klockan-g2250-3",
+        "klockan-g2250-4",
+        "klockan-g2250-5",
+        "klockan-g2250-6",
+        "klockan-g2250-7",
+        "klockan-g2250-8",
+        "klockan-g2250-9"
+      ],
+      "carousel": [
+        {
+          "label": "åk 1 Klockan",
+          "href": "klockan-arbetsblad-ak-1"
+        },
+        {
+          "label": "åk 3 Klockan",
+          "href": "klockan-tidsskillnad-ak-3"
+        }
+      ],
+      "title": "Arbetsblad klockan åk 2 – fem minuter & kvart | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad i klockan för åk 2: läs på fem minuter när, kvart i och kvart över, koppla analog och digital tid. Gratis PDF att skriva ut."
+    },
+    {
+      "slug": "klockan-tidsskillnad-ak-3",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "telling-time",
+        "mode": "to-the-minute",
+        "theme": "",
+        "level": "ak-3"
+      },
+      "eyebrow": "Klockan · Arbetsblad",
+      "h1": "Klockan i åk 3 – läsa på minuten och räkna tidsskillnad",
+      "strand": "Geometri",
+      "standard": "3.MD.A.1",
+      "slotTokens": [
+        "åk 3"
+      ],
+      "p1": "I åk 3 läser barnet klockan på minuten och börjar räkna med tid. De här arbetsbladen handlar om hur lång tid något tar: barnet får två tidpunkter och ska ta reda på tidsskillnaden, alltså den förflutna tiden mellan start och slut. Uppgifterna blandar analoga klockor och skrivna tider. Allt är gratis att skriva ut som PDF, utan inloggning.",
+      "p2": "Här möter barnet flera nya delmoment. Att läsa av exakt minut på urtavlan, att växla mellan 12-timmarsformat och 24-timmarsformat så att till exempel kvart i fyra på eftermiddagen blir 15:45, och att addera och subtrahera tid – hur mycket är klockan 40 minuter efter 14:20, och hur lång rast blev det mellan två klockslag. Uppgifterna kopplas ofta till vardagen, som tider för bussen, lektioner och tv-program. Sidorna är luftiga och utan stress: ingen tidtagning och inga poäng, så barnet hinner tänka och prova flera vägar till svaret.",
+      "p3": "Det här är det sista stora steget i klockan på lågstadiet och bygger vidare på fem minuter och kvart från åk 2. Om något känns för svårt går det bra att backa ett steg och repetera. Bläddra bland alla våra arbetsblad i klockan att skriva ut och välj rätt nivå. Skriv ut sidorna och låt barnet räkna tid i lugn och ro.",
+      "canonicalDeckSlug": "klockan-g3344",
+      "collapseSiblings": [
+        "klockan-g3344",
+        "klockan-g3344-10",
+        "klockan-g3344-2",
+        "klockan-g3344-3",
+        "klockan-g3344-4",
+        "klockan-g3344-5",
+        "klockan-g3344-6",
+        "klockan-g3344-7",
+        "klockan-g3344-8",
+        "klockan-g3344-9",
+        "klockan-g3354",
+        "klockan-g3354-10",
+        "klockan-g3354-2",
+        "klockan-g3354-3",
+        "klockan-g3354-4",
+        "klockan-g3354-5",
+        "klockan-g3354-6",
+        "klockan-g3354-7",
+        "klockan-g3354-8",
+        "klockan-g3354-9",
+        "klockan-g3355",
+        "klockan-g3355-10",
+        "klockan-g3355-2",
+        "klockan-g3355-3",
+        "klockan-g3355-4",
+        "klockan-g3355-5",
+        "klockan-g3355-6",
+        "klockan-g3355-7",
+        "klockan-g3355-8",
+        "klockan-g3355-9",
+        "klockan-g3356",
+        "klockan-g3356-10",
+        "klockan-g3356-2",
+        "klockan-g3356-3",
+        "klockan-g3356-4",
+        "klockan-g3356-5",
+        "klockan-g3356-6",
+        "klockan-g3356-7",
+        "klockan-g3356-8",
+        "klockan-g3356-9"
+      ],
+      "carousel": [
+        {
+          "label": "åk 1 Klockan",
+          "href": "klockan-arbetsblad-ak-1"
+        },
+        {
+          "label": "åk 2 Klockan",
+          "href": "klockan-fem-minuter-ak-2"
+        }
+      ],
+      "title": "Arbetsblad klockan åk 3 – tid & tidsskillnad | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad i klockan för åk 3: läs på minuten, räkna förfluten tid, 12- och 24-timmarsformat samt addera och subtrahera tid. Gratis PDF."
+    },
+    {
+      "slug": "brak-lika-delar-ak-2",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "fractions",
+        "mode": "partition-and-share",
+        "theme": "",
+        "level": "ak-2"
+      },
+      "eyebrow": "Bråk · Arbetsblad",
+      "h1": "Bråk i åk 2 – lika delar, halvor, tredjedelar och fjärdedelar",
+      "strand": "Taluppfattning och tals användning",
+      "standard": "2.G.A.3",
+      "slotTokens": [
+        "åk 2"
+      ],
+      "p1": "De här arbetsbladen ger barn i åk 2 en mjuk första kontakt med bråk genom att arbeta med lika delar. Barnet ritar streck som delar en figur i exakt lika stora bitar och färglägger sedan en del. Tanken är konkret och bildlig: en hel cirkel, kvadrat eller rektangel delas mitt itu eller i flera lika delar, och barnet ser direkt vad en halva, en tredjedel och en fjärdedel betyder. Bladen är gratis att skriva ut som PDF.",
+      "p2": "Övningarna rör sig mellan några tydliga delmoment. Att dela figurer i halvor, tredjedelar och fjärdedelar, att dela en mängd lika – till exempel att lägga sex äpplen lika i två korgar – och att känna igen när delarna faktiskt är lika stora och inte bara ser ungefär lika ut. Barnet får jämföra figurer där delarna är lika med figurer där de inte är det, och kryssa för vilka som är rättvist delade. Vi använder inga siffror i täljare och nämnare ännu; här bygger vi förståelsen med bilder. Sidorna är lugna, utan tidtagning och utan poäng.",
+      "p3": "När lika delar känns självklart är barnet redo för bråk med siffror, tallinje och att jämföra bråk i åk 3. Bläddra bland alla våra arbetsblad i bråk att skriva ut och välj nästa nivå när det passar. Skriv ut, ta fram färgpennor och låt barnet upptäcka halvor och fjärdedelar i sin egen takt.",
+      "canonicalDeckSlug": "brak-g2228",
+      "collapseSiblings": [
+        "brak-fordon-g2233",
+        "brak-frukter-g2233",
+        "brak-g2228",
+        "brak-g2229",
+        "brak-g2230",
+        "brak-g2231",
+        "brak-g2232",
+        "brak-g2234",
+        "brak-latt-fordon-g2233",
+        "brak-latt-frukter-g2233",
+        "brak-latt-g2228",
+        "brak-latt-g2228-2",
+        "brak-latt-g2229",
+        "brak-latt-g2229-2",
+        "brak-latt-g2230",
+        "brak-latt-g2230-2",
+        "brak-latt-g2231",
+        "brak-latt-g2231-2",
+        "brak-latt-g2232",
+        "brak-latt-g2232-2",
+        "brak-latt-g2234",
+        "brak-svar-fordon-g2233",
+        "brak-svar-frukter-g2233",
+        "brak-svar-g2228",
+        "brak-svar-g2228-2",
+        "brak-svar-g2229",
+        "brak-svar-g2229-2",
+        "brak-svar-g2230",
+        "brak-svar-g2230-2",
+        "brak-svar-g2231",
+        "brak-svar-g2231-2",
+        "brak-svar-g2232",
+        "brak-svar-g2232-2",
+        "brak-svar-g2234"
+      ],
+      "carousel": [
+        {
+          "label": "åk 3 Bråk",
+          "href": "brak-tallinjen-ak-3"
+        }
+      ],
+      "title": "Arbetsblad bråk åk 2 – lika delar & halvor | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad i bråk för åk 2: dela figurer i halvor, tredjedelar och fjärdedelar, dela en mängd lika och känn igen lika delar. Gratis PDF."
+    },
+    {
+      "slug": "brak-tallinjen-ak-3",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "fractions",
+        "mode": "name-and-compare",
+        "theme": "",
+        "level": "ak-3"
+      },
+      "eyebrow": "Bråk · Arbetsblad",
+      "h1": "Bråk i åk 3 – namnge, tallinje, likvärdiga och jämföra bråk",
+      "strand": "Taluppfattning och tals användning",
+      "standard": "3.NF.A.1",
+      "slotTokens": [
+        "åk 3"
+      ],
+      "p1": "I åk 3 går barnet från bilder av lika delar till att skriva och räkna med bråk. De här arbetsbladen tränar att namnge ett bråk med täljare och nämnare och att färglägga rätt antal delar, så att två tredjedelar verkligen blir 2/3. Barnet kopplar ihop figuren, ordet och siffrorna. Sidorna är gratis att skriva ut som PDF, helt utan registrering.",
+      "p2": "Här samlas flera delmoment som hör ihop. Att placera bråk på en tallinje mellan noll och ett, att hitta likvärdiga bråk som visar att en halva är samma sak som två fjärdedelar, att jämföra bråk och avgöra vilket som är störst, och att hitta det hela när man vet en del – om en fjärdedel är tre, hur många är då allt tillsammans. Uppgifterna blandar tallinjer, figurer och små vardagsproblem. Genom att se samma bråk på flera sätt blir förståelsen stabil. Allt sker i lugn takt, utan tidtagning och utan poäng, så barnet hinner resonera.",
+      "p3": "De här bladen bygger vidare på lika delar, halvor och fjärdedelar från åk 2. Om något känns svårt går det bra att repetera den enklare nivån först. Bläddra bland alla våra arbetsblad i bråk att skriva ut och sätt ihop ett eget häfte. Skriv ut sidorna och låt barnet öva på bråk steg för steg, utan press.",
+      "canonicalDeckSlug": "brak-g3315",
+      "collapseSiblings": [
+        "brak-fordon-g3320",
+        "brak-g3315",
+        "brak-g3316",
+        "brak-g3317",
+        "brak-g3318",
+        "brak-g3319",
+        "brak-g3321",
+        "brak-g3322",
+        "brak-g3343",
+        "brak-latt-djur-g3320",
+        "brak-latt-frukter-g3320",
+        "brak-latt-g3315",
+        "brak-latt-g3315-2",
+        "brak-latt-g3316",
+        "brak-latt-g3316-2",
+        "brak-latt-g3317",
+        "brak-latt-g3318",
+        "brak-latt-g3319",
+        "brak-latt-g3321",
+        "brak-latt-g3322",
+        "brak-latt-g3343",
+        "brak-leksaker-g3320",
+        "brak-svar-djur-g3320",
+        "brak-svar-frukter-g3320",
+        "brak-svar-g3315",
+        "brak-svar-g3315-2",
+        "brak-svar-g3316",
+        "brak-svar-g3316-2",
+        "brak-svar-g3317",
+        "brak-svar-g3318",
+        "brak-svar-g3319",
+        "brak-svar-g3321",
+        "brak-svar-g3322",
+        "brak-svar-g3343"
+      ],
+      "carousel": [
+        {
+          "label": "åk 2 Bråk",
+          "href": "brak-lika-delar-ak-2"
+        }
+      ],
+      "title": "Arbetsblad bråk åk 3 – tallinje & likvärdiga | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad i bråk för åk 3: namnge och färglägg bråk, bråk på tallinjen, likvärdiga bråk, jämför bråk och hitta det hela. Gratis PDF."
+    },
+    {
+      "slug": "geometri-former-forskola",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "geometry",
+        "mode": "count-and-sort-shapes",
+        "theme": "",
+        "level": "forskola"
+      },
+      "eyebrow": "Geometri · Arbetsblad",
+      "h1": "Geometri i förskola – räkna sidor och hörn på former",
+      "strand": "Geometri",
+      "standard": "K.G.B.4",
+      "slotTokens": [
+        "förskola"
+      ],
+      "p1": "De här arbetsbladen passar barn i förskola som börjar utforska former. Barnet tittar på en triangel, en fyrkant och en cirkel, följer kanterna med fingret och räknar hur många sidor och hörn varje form har. Det är konkret och visuellt: stora tydliga figurer, mycket plats och inga svåra ord. Bladen är gratis att skriva ut som PDF, utan inloggning.",
+      "p2": "Övningarna handlar om två enkla delmoment. Att räkna sidor och hörn – en triangel har tre sidor och tre hörn, en fyrkant har fyra – och att sortera former efter hur många sidor de har, så att alla trianglar hamnar i en grupp och alla fyrhörningar i en annan. Barnet får färglägga, dra streck och ringa in former som hör ihop. Eftersom det är för de allra yngsta är allt lugnt och lekfullt på riktigt: ingen tidtagning, inga poäng och inget rätt eller fel som skaver. Barnet får känna igen former i sin egen takt.",
+      "p3": "När barnet känner igen former och kan räkna deras sidor finns nästa steg i åk 2, där plana figurer jämförs med rymdkroppar och man räknar kanter och hörn på lådor och klot. Bläddra bland alla våra arbetsblad i geometri att skriva ut och välj det som passar. Skriv ut, ta fram pennor och låt barnet upptäcka former tillsammans med dig.",
+      "canonicalDeckSlug": "geometri-k075",
+      "collapseSiblings": [
+        "geometri-k075",
+        "geometri-k076",
+        "geometri-latt-k075",
+        "geometri-latt-k076",
+        "geometri-svar-k075",
+        "geometri-svar-k076"
+      ],
+      "carousel": [
+        {
+          "label": "åk 2 Geometri",
+          "href": "geometri-kroppar-ak-2"
+        },
+        {
+          "label": "åk 3 Geometri",
+          "href": "geometri-omkrets-area-ak-3"
+        }
+      ],
+      "title": "Arbetsblad geometri förskola – former, sidor & hörn | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad i geometri för förskola: räkna sidor och hörn på former och sortera figurer efter antal sidor. Gratis att skriva ut som PDF."
+    },
+    {
+      "slug": "geometri-kroppar-ak-2",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "geometry",
+        "mode": "shape-attributes",
+        "theme": "",
+        "level": "ak-2"
+      },
+      "eyebrow": "Geometri · Arbetsblad",
+      "h1": "Geometri i åk 2 – rymdkroppar, sidoytor, kanter och hörn",
+      "strand": "Geometri",
+      "standard": "2.G.A.1",
+      "slotTokens": [
+        "åk 2"
+      ],
+      "p1": "I åk 2 går barnet från platta figurer till tredimensionella kroppar. De här arbetsbladen övar att räkna sidoytor, kanter och hörn på rymdkroppar som kub, rätblock, cylinder och klot. Barnet tittar på bilden av kroppen, följer kanterna och fyller i hur många det är av varje. Sidorna är gratis att skriva ut som PDF, utan registrering.",
+      "p2": "Bladen samlar flera delmoment. Att skilja plana figurer från rymdkroppar – en kvadrat är platt, en kub är en kropp man kan hålla i – att räkna en kropps sidoytor, kanter och hörn, och att hitta en symmetrilinje genom en figur, det vill säga linjen som delar den i två spegelvända halvor. Barnet får sortera, para ihop vardagsföremål med rätt kropp och rita in symmetrilinjer. Uppgifterna är tydliga och en i taget, och tonen är lugn: det finns ingen tidtagning och inga poäng, så barnet kan undersöka former utan stress.",
+      "p3": "De här bladen bygger på formerna från förskolan och leder vidare mot fyrhörningar, räta vinklar, omkrets och area i åk 3. Behöver barnet repetera räcker det att backa ett steg. Bläddra bland alla våra arbetsblad i geometri att skriva ut och välj nivå. Skriv ut sidorna och låt barnet utforska kroppar och symmetri i egen takt.",
+      "canonicalDeckSlug": "geometri-g2241",
+      "collapseSiblings": [
+        "geometri-djur-g2247",
+        "geometri-frukter-g2247",
+        "geometri-frukter-g2248",
+        "geometri-g2241",
+        "geometri-g2242",
+        "geometri-g2243",
+        "geometri-g2244",
+        "geometri-g2245",
+        "geometri-g2246",
+        "geometri-latt-djur-g2247",
+        "geometri-latt-frukter-g2248",
+        "geometri-latt-g2242",
+        "geometri-latt-g2245",
+        "geometri-svar-djur-g2247",
+        "geometri-svar-frukter-g2248",
+        "geometri-svar-g2242",
+        "geometri-svar-g2245"
+      ],
+      "carousel": [
+        {
+          "label": "förskola Geometri",
+          "href": "geometri-former-forskola"
+        },
+        {
+          "label": "åk 3 Geometri",
+          "href": "geometri-omkrets-area-ak-3"
+        }
+      ],
+      "title": "Arbetsblad geometri åk 2 – kroppar & symmetri | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad i geometri för åk 2: räkna sidoytor, kanter och hörn på kroppar, skilj plana figurer från rymdkroppar och rita symmetrilinje. Gratis PDF."
+    },
+    {
+      "slug": "geometri-omkrets-area-ak-3",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "geometry",
+        "mode": "quadrilaterals-and-area",
+        "theme": "",
+        "level": "ak-3"
+      },
+      "eyebrow": "Geometri · Arbetsblad",
+      "h1": "Geometri i åk 3 – fyrhörningar, räta vinklar, omkrets och area",
+      "strand": "Geometri",
+      "standard": "3.G.A.1",
+      "slotTokens": [
+        "åk 3"
+      ],
+      "p1": "I åk 3 räknar barnet på figurer och inte bara känner igen dem. De här arbetsbladen tränar fyrhörningar och deras egenskaper, att hitta räta vinklar och att räkna ut omkrets och area på rektanglar och kvadrater. Barnet mäter sidor, lägger ihop dem till en omkrets och räknar rutor för att bestämma arean. Sidorna är gratis att skriva ut som PDF, utan inloggning.",
+      "p2": "Här finns flera delmoment som hänger ihop. Att känna igen och beskriva fyrhörningar som kvadrat, rektangel och romb, att hitta räta vinklar i figurer och i rummet, att räkna omkretsen genom att addera alla sidor, och att bestämma arean genom att räkna kvadratiska rutor eller multiplicera bas och höjd. Barnet ritar också symmetrilinjer i mer sammansatta figurer. Uppgifterna blandar mätning, räkning och ritning så att begreppen sätter sig. Allt görs i lugn takt, utan tidtagning och utan poäng, så att barnet hinner mäta noga och tänka efter.",
+      "p3": "De här bladen är slutet på geometrin i lågstadiet och bygger vidare på rymdkroppar och symmetri från åk 2. Om omkrets och area känns nytt går det bra att repetera enklare former först. Bläddra bland alla våra arbetsblad i geometri att skriva ut och sätt ihop ett eget häfte. Skriv ut, ta fram linjal och penna och låt barnet räkna i egen takt.",
+      "canonicalDeckSlug": "geometri-g3337",
+      "collapseSiblings": [
+        "geometri-g3337",
+        "geometri-g3338",
+        "geometri-g3339",
+        "geometri-g3340",
+        "geometri-g3341",
+        "geometri-g3342",
+        "geometri-latt-g3337",
+        "geometri-latt-g3340",
+        "geometri-latt-g3341",
+        "geometri-latt-g3342",
+        "geometri-svar-g3337",
+        "geometri-svar-g3340",
+        "geometri-svar-g3341",
+        "geometri-svar-g3342"
+      ],
+      "carousel": [
+        {
+          "label": "förskola Geometri",
+          "href": "geometri-former-forskola"
+        },
+        {
+          "label": "åk 2 Geometri",
+          "href": "geometri-kroppar-ak-2"
+        }
+      ],
+      "title": "Arbetsblad geometri åk 3 – omkrets & area | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad i geometri för åk 3: fyrhörningar, räta vinklar, omkrets och area samt symmetrilinjer. Gratis att skriva ut som PDF, ingen registrering."
+    },
+    {
+      "slug": "jamfora-vikt-tung-eller-latt-forskola",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "measurement",
+        "mode": "compare-weight",
+        "theme": "",
+        "level": "forskola"
+      },
+      "eyebrow": "Mätning · Arbetsblad",
+      "h1": "Jämföra vikt i förskolan: tung eller lätt",
+      "strand": "Geometri",
+      "standard": "K.MD.A.2",
+      "slotTokens": [
+        "förskola"
+      ],
+      "p1": "De här arbetsbladen passar barn i förskola som precis har börjat upptäcka hur saker känns olika tunga. Uppgiften handlar inte om siffror eller mätetal alls, utan om något barnet redan känner i händerna: den här är tung och den här är lätt. På varje sida ser barnet två föremål bredvid varandra – ett äpple och en fjäder, en sten och en ballong – och ringar in eller målar det som väger mest. Det finns ingen tidtagning och inga poäng, bara lugnet att titta, fundera och välja. Du laddar ner och skriver ut bladet gratis, utan registrering.",
+      "p2": "Att jämföra tung och lätt är ett av de första stegen mot att förstå vad mätning betyder. Barnet lär sig att vikt är något man kan känna och jämföra, långt innan det handlar om gram och kilo. Bladen är gjorda med tydliga, lugna bilder och gott om plats, så att även den minsta handen orkar färglägga. Många barn vill gärna prata om sina val – varför är stenen tyngre än löven? – och då blir bladet ett samtal lika mycket som en uppgift. Det är helt i sin ordning att svara fel och tänka om; här finns inget rätt-eller-fel-stress.",
+      "p3": "När barnet känner sig tryggt med tung och lätt är nästa naturliga steg att mäta längd och ordna föremål från kortast till längst, vilket finns bland våra arbetsblad för åk 1. Vill du fortsätta i samma lugna takt kan du bläddra bland alla våra arbetsblad att skriva ut – allt är gratis och klart att printa direkt.",
+      "canonicalDeckSlug": "matning-djur-k038",
+      "collapseSiblings": [
+        "matning-djur-k038",
+        "matning-frukter-k038",
+        "matning-latt-djur-k038",
+        "matning-latt-frukter-k038",
+        "matning-svar-djur-k038",
+        "matning-svar-frukter-k038"
+      ],
+      "carousel": [
+        {
+          "label": "åk 1 Mätning",
+          "href": "mata-langd-med-enheter-ak-1"
+        },
+        {
+          "label": "åk 2 Mätning",
+          "href": "mata-med-linjal-jamfora-langder-ak-2"
+        },
+        {
+          "label": "åk 3 Mätning",
+          "href": "temperatur-och-volym-jamfora-ak-3"
+        }
+      ],
+      "title": "Arbetsblad mätning förskola – tung eller lätt | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad om vikt för förskolan att skriva ut gratis. Barnet jämför två föremål och avgör vad som är tungt och lätt – utan siffror. PDF, ingen registrering."
+    },
+    {
+      "slug": "mata-langd-med-enheter-ak-1",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "measurement",
+        "mode": "length-units",
+        "theme": "",
+        "level": "ak-1"
+      },
+      "eyebrow": "Mätning · Arbetsblad",
+      "h1": "Mäta längd med enheter i åk 1",
+      "strand": "Geometri",
+      "standard": "1.MD.A.2",
+      "slotTokens": [
+        "åk 1"
+      ],
+      "p1": "De här arbetsbladen är gjorda för barn i åk 1 som ska börja mäta på riktigt med egna enheter. Barnet lägger eller räknar kuber utmed ett föremål och skriver hur många kuber långt det är – en penna är fem kuber, en sax är tre. På andra sidor får barnet en rad med föremål som ska ordnas från kortast till längst genom att numreras eller färgläggas i ordning. Det handlar om att räkna noga och jämföra, inte om att hinna fort. Ingen tidtagning, inga poäng. Du skriver ut bladet gratis och utan registrering.",
+      "p2": "När barnet mäter genom att räkna lika stora enheter upptäcker det en viktig idé: längd kan beskrivas med ett tal, och man måste lägga enheterna kant i kant utan glapp för att det ska stämma. Att sortera föremål från kortast till längst tränar samma blick på ett annat sätt – nu jämför barnet flera saker samtidigt och bestämmer en ordning. Bladen har tydliga rutnät och rena bilder så att kuberna är lätta att räkna, och det finns plats att skriva svaret. Om barnet räknar fel går det bra att börja om; det viktiga är att förstå hur mätandet fungerar.",
+      "p3": "Tidigare har många barn jämfört tung och lätt bland våra arbetsblad för förskola, och nästa steg efter det här är att mäta med linjal och jämföra hur mycket längre något är, som finns för åk 2. Bläddra gärna bland alla våra arbetsblad att skriva ut – allt är gratis och redo att printa.",
+      "canonicalDeckSlug": "matning-djur-g1139",
+      "collapseSiblings": [
+        "matning-djur-g1139",
+        "matning-fordon-g1140",
+        "matning-former-g1139",
+        "matning-frukter-g1140",
+        "matning-latt-fordon-g1139",
+        "matning-latt-fordon-g1140",
+        "matning-latt-frukter-g1139",
+        "matning-latt-leksaker-g1140",
+        "matning-svar-djur-g1139",
+        "matning-svar-fordon-g1139",
+        "matning-svar-fordon-g1140",
+        "matning-svar-leksaker-g1140"
+      ],
+      "carousel": [
+        {
+          "label": "förskola Mätning",
+          "href": "jamfora-vikt-tung-eller-latt-forskola"
+        },
+        {
+          "label": "åk 2 Mätning",
+          "href": "mata-med-linjal-jamfora-langder-ak-2"
+        },
+        {
+          "label": "åk 3 Mätning",
+          "href": "temperatur-och-volym-jamfora-ak-3"
+        }
+      ],
+      "title": "Arbetsblad mätning åk 1 – mäta längd med enheter | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad om längd för åk 1 att skriva ut gratis. Barnet räknar kuber för att mäta och ordnar föremål från kortast till längst. PDF, ingen registrering."
+    },
+    {
+      "slug": "mata-med-linjal-jamfora-langder-ak-2",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "measurement",
+        "mode": "measure-and-compare-length",
+        "theme": "",
+        "level": "ak-2"
+      },
+      "eyebrow": "Mätning · Arbetsblad",
+      "h1": "Mäta med linjal och jämföra längder i åk 2",
+      "strand": "Geometri",
+      "standard": "2.MD.A.1",
+      "slotTokens": [
+        "åk 2"
+      ],
+      "p1": "De här arbetsbladen är till för barn i åk 2 som har börjat mäta med linjal och standardenheter som centimeter. Barnet placerar linjalen vid nollan, läser av hur långt ett föremål är och skriver mätetalet. På flera sidor finns två föremål att mäta och jämföra, och barnet räknar sedan ut hur mycket längre det ena är än det andra – en skillnad i centimeter. Det är en lugn, noggrann syssla utan tidtagning och utan poäng. Bladen laddas ner och skrivs ut gratis, helt utan registrering.",
+      "p2": "Skillnaden mot tidigare årskurser är att barnet nu går från att räkna lösa enheter till att läsa av en linjal och arbeta med riktiga mått. Att räkna ut hur mycket längre ett föremål är knyter ihop mätning med subtraktion: man mäter båda, jämför och tar skillnaden. Bladen visar tydliga linjaler och raka föremål så att avläsningen blir rättvis, och det finns gott om plats att skriva både mätetal och uträkning. Det gör inget om en avläsning hamnar lite fel första gången – att lära sig lägga linjalen rätt vid nollan är en del av övningen.",
+      "p3": "Innan det här har många barn mätt genom att räkna kuber bland våra arbetsblad för åk 1. Nästa steg, för åk 3, handlar mer om att jämföra hur mycket plats och volym olika torn tar. Bläddra bland alla våra arbetsblad att skriva ut – allt är gratis och klart att printa direkt.",
+      "canonicalDeckSlug": "matning-fordon-g2236",
+      "collapseSiblings": [
+        "matning-fordon-g2236",
+        "matning-former-g2235",
+        "matning-former-g2236",
+        "matning-latt-djur-g2235",
+        "matning-latt-fordon-g2236",
+        "matning-latt-leksaker-g2235",
+        "matning-latt-leksaker-g2236",
+        "matning-leksaker-g2235",
+        "matning-svar-djur-g2235",
+        "matning-svar-fordon-g2236",
+        "matning-svar-leksaker-g2236"
+      ],
+      "carousel": [
+        {
+          "label": "förskola Mätning",
+          "href": "jamfora-vikt-tung-eller-latt-forskola"
+        },
+        {
+          "label": "åk 1 Mätning",
+          "href": "mata-langd-med-enheter-ak-1"
+        },
+        {
+          "label": "åk 3 Mätning",
+          "href": "temperatur-och-volym-jamfora-ak-3"
+        }
+      ],
+      "title": "Arbetsblad mätning åk 2 – mäta med linjal | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad om mätning för åk 2 att skriva ut gratis. Barnet mäter med linjal och enheter och räknar ut hur mycket längre ett föremål är. PDF, ingen registrering."
+    },
+    {
+      "slug": "temperatur-och-volym-jamfora-ak-3",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "measurement",
+        "mode": "volume-and-temperature",
+        "theme": "",
+        "level": "ak-3"
+      },
+      "eyebrow": "Mätning · Arbetsblad",
+      "h1": "Temperatur och volym: jämföra i åk 3",
+      "strand": "Geometri",
+      "slotTokens": [
+        "åk 3"
+      ],
+      "p1": "De här arbetsbladen är gjorda för barn i åk 3 som ska utforska två slags mätande som man inte gör med linjal: temperatur och hur mycket plats något tar. Barnet tittar på bilder och avgör vad som är varmt och vad som är kallt, och rangordnar saker som varmare eller kallare – en glass, en kopp te, en snögubbe. På andra sidor jämför barnet kubtorn och bestämmer vilket som tar mest plats, alltså störst volym. Här finns ingen tidtagning och inga poäng, bara lugnt jämförande. Bladen skrivs ut gratis och utan registrering.",
+      "p2": "Tanken med de här bladen är att vidga vad mätning kan vara. Tidigare har det mest handlat om längd, men temperatur och volym är minst lika vardagliga – barnet möter dem varje dag i väder, mat och lek. Genom att jämföra varmare och kallare, och avgöra vilket torn som rymmer mest, övar barnet på att tänka i grader och i storlek utan att fastna i exakta tal. Bilderna är tydliga och vardagsnära, och det finns plats att ringa in, färglägga och skriva korta svar. Det finns sällan bara ett rätt sätt att resonera, och samtalet om varför är en stor del av övningen.",
+      "p3": "Innan det här har många barn mätt med linjal och jämfört längder bland våra arbetsblad för åk 2. Vill du fortsätta utforska mätning på andra sätt kan du bläddra bland alla våra arbetsblad att skriva ut – allt är gratis och redo att printa.",
+      "canonicalDeckSlug": "matning-g3345",
+      "collapseSiblings": [
+        "matning-g3345",
+        "matning-g3346",
+        "matning-latt-g3345",
+        "matning-latt-g3346",
+        "matning-svar-g3345",
+        "matning-svar-g3346"
+      ],
+      "carousel": [
+        {
+          "label": "förskola Mätning",
+          "href": "jamfora-vikt-tung-eller-latt-forskola"
+        },
+        {
+          "label": "åk 1 Mätning",
+          "href": "mata-langd-med-enheter-ak-1"
+        },
+        {
+          "label": "åk 2 Mätning",
+          "href": "mata-med-linjal-jamfora-langder-ak-2"
+        }
+      ],
+      "title": "Arbetsblad mätning åk 3 – temperatur och volym | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad om temperatur och volym för åk 3 att skriva ut gratis. Barnet jämför varmt och kallt och hur mycket plats olika kubtorn tar. PDF, ingen registrering."
+    },
+    {
+      "slug": "rader-och-kolumner-lika-grupper-ak-2",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "arrays-multiplication",
+        "mode": "arrays-repeated-addition",
+        "theme": "",
+        "level": "ak-2"
+      },
+      "eyebrow": "Multiplikation · Arbetsblad",
+      "h1": "Rader och kolumner: lika grupper i åk 2",
+      "strand": "Taluppfattning och tals användning",
+      "standard": "2.OA.C.4",
+      "slotTokens": [
+        "åk 2"
+      ],
+      "p1": "De här arbetsbladen passar barn i åk 2 som ska ta första steget mot multiplikation. Barnet ser bilder ordnade i rader och kolumner – ett rutmönster av äpplen eller prickar – och räknar hur många det blir totalt. I stället för att räkna en och en upptäcker barnet att man kan räkna lika grupper: tre rader med fyra i varje. Bladen visar också hur upprepad addition, fyra plus fyra plus fyra, är samma sak som att börja med multiplikation. Det finns ingen tidtagning och inga poäng, bara lugnt utforskande. Du skriver ut bladet gratis, utan registrering.",
+      "p2": "Det centrala här är idén om lika grupper. När varje rad har lika många blir det enkelt att se varför multiplikation fungerar, och barnet kan dela upp en bild i grupper och beskriva den på flera sätt. Vissa sidor handlar om att dela lika – att fördela tolv saker i tre lika högar – vilket lägger grunden för division längre fram. Bilderna är tydligt rutade så att raderna och kolumnerna är lätta att följa, och det finns plats att skriva både additionen och multiplikationen. Om barnet räknar fel går det bra att räkna om; det viktiga är att se mönstret av lika grupper.",
+      "p3": "De här bladen bygger vidare på den addition barnet redan kan, och nästa steg i åk 3 är att lära sig multiplikationstabellen med rader och kolumner samt hitta faktorer som saknas. Bläddra gärna bland alla våra arbetsblad att skriva ut – allt är gratis och klart att printa direkt.",
+      "canonicalDeckSlug": "multiplikation-bilder-djur-g2209",
+      "collapseSiblings": [
+        "multiplikation-bilder-djur-g2209",
+        "multiplikation-bilder-djur-g2210",
+        "multiplikation-bilder-djur-g2216",
+        "multiplikation-bilder-djur-g2217",
+        "multiplikation-bilder-fordon-g2211",
+        "multiplikation-bilder-fordon-g2212",
+        "multiplikation-bilder-former-g2209",
+        "multiplikation-bilder-former-g2213",
+        "multiplikation-bilder-former-g2216",
+        "multiplikation-bilder-frukter-g2210",
+        "multiplikation-bilder-frukter-g2211",
+        "multiplikation-bilder-frukter-g2217",
+        "multiplikation-bilder-leksaker-g2212",
+        "multiplikation-bilder-leksaker-g2213"
+      ],
+      "carousel": [
+        {
+          "label": "åk 3 Multiplikation",
+          "href": "multiplikationstabellen-rader-kolumner-ak-3"
+        }
+      ],
+      "title": "Arbetsblad multiplikation åk 2 – lika grupper | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad om lika grupper för åk 2 att skriva ut gratis. Barnet räknar rader och kolumner och ser upprepad addition bli multiplikation. PDF, ingen registrering."
+    },
+    {
+      "slug": "multiplikationstabellen-rader-kolumner-ak-3",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "arrays-multiplication",
+        "mode": "multiply-and-divide",
+        "theme": "",
+        "level": "ak-3"
+      },
+      "eyebrow": "Multiplikation · Arbetsblad",
+      "h1": "Multiplikationstabellen med rader och kolumner i åk 3",
+      "strand": "Taluppfattning och tals användning",
+      "standard": "3.OA.A.1",
+      "slotTokens": [
+        "åk 3"
+      ],
+      "p1": "De här arbetsbladen är gjorda för barn i åk 3 som ska arbeta säkrare med multiplikationstabellen. Barnet ser tal ordnade i rader och kolumner och kopplar ihop bilden med en multiplikation, till exempel sex gånger fyra. På flera sidor ska barnet hitta en faktor som saknas – vilket tal gånger fem blir trettio? – och möta den kommutativa lagen, att man kan byta plats på faktorerna utan att svaret ändras. Det finns ingen tidtagning och inga poäng, bara lugn träning i din egen takt. Bladen skrivs ut gratis och utan registrering.",
+      "p2": "Skillnaden mot tidigare är att barnet nu går från att se lika grupper till att använda multiplikationstabellen som ett verktyg. Att leta efter en faktor som saknas tränar tankesättet bakåt: barnet vänder på multiplikationen och närmar sig division genom att dela i lika grupper. Den kommutativa lagen gör tabellen lättare att lära, eftersom tre gånger åtta och åtta gånger tre ger samma svar. Bladen är tydligt rutade och har plats att skriva både uträkning och svar, och uppgifterna varieras så att barnet möter samma tabell på flera sätt. Det gör inget att tveka eller räkna om – tabellen sätter sig med upprepning, inte med stress.",
+      "p3": "De här bladen bygger vidare på de lika grupper barnet mötte i åk 2, där rader och kolumner först blev multiplikation. Vill du ge mer träning kan du bläddra bland alla våra arbetsblad att skriva ut – allt är gratis och redo att printa direkt.",
+      "canonicalDeckSlug": "multiplikation-bilder-g3313",
+      "collapseSiblings": [
+        "multiplikation-bilder-djur-g3302",
+        "multiplikation-bilder-djur-g3312",
+        "multiplikation-bilder-fordon-g3309",
+        "multiplikation-bilder-fordon-g3314",
+        "multiplikation-bilder-former-g3301",
+        "multiplikation-bilder-former-g3302",
+        "multiplikation-bilder-former-g3311",
+        "multiplikation-bilder-former-g3312",
+        "multiplikation-bilder-frukter-g3309",
+        "multiplikation-bilder-frukter-g3314",
+        "multiplikation-bilder-g3313",
+        "multiplikation-bilder-leksaker-g3301",
+        "multiplikation-bilder-leksaker-g3311"
+      ],
+      "carousel": [
+        {
+          "label": "åk 2 Multiplikation",
+          "href": "rader-och-kolumner-lika-grupper-ak-2"
+        }
+      ],
+      "title": "Arbetsblad multiplikationstabellen åk 3 | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad om multiplikationstabellen för åk 3 att skriva ut gratis. Barnet tränar rader och kolumner, faktor som saknas och kommutativa lagen. PDF, utan registrering."
+    },
+    {
+      "slug": "diagram-ak-1",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "graphing-data",
+        "mode": "read-picture-bar-graphs",
+        "theme": "",
+        "level": "ak-1"
+      },
+      "eyebrow": "Diagram · Arbetsblad",
+      "h1": "Diagram för åk 1 – läsa bilddiagram och stapeldiagram",
+      "strand": "Sannolikhet och statistik",
+      "standard": "1.MD.C.4",
+      "slotTokens": [
+        "åk 1"
+      ],
+      "p1": "De här arbetsbladen om diagram är gjorda för barn i åk 1 som precis har börjat läsa enkla bilddiagram och stapeldiagram. Varje blad utgår från något barnet känner igen – frukter, djur eller leksaker – och samlar det i ett tydligt diagram med få staplar och stora rutor. Barnet tittar på bilden, räknar hur många det finns i varje grupp och skriver svaret bredvid. Allt finns färdigt att skriva ut gratis som PDF, utan registrering och utan att logga in.",
+      "p2": "Uppgifterna börjar lugnt och konkret. Först får barnet sortera och räkna föremål och se hur antalet blir staplar i ett stapeldiagram. Sedan kommer frågor som \"Vilken grupp har flest?\" och \"Vilken är den högsta stapeln?\", så att barnet lär sig att jämföra mängder genom att titta. På de sista bladen får barnet själv föra in data i ett tomt diagram genom att färga rätt antal rutor. Det finns ingen tidtagning och inga poäng – barnet får tänka i sin egen takt, och ett fel är bara en chans att räkna en gång till.",
+      "p3": "Skriv ut bladen hemma eller i klassrummet och låt barnet arbeta med ett i taget. När diagrammen i åk 1 känns trygga är nästa steg arbetsbladen för åk 2, där diagrammen får skala och en bild kan stå för fler än en. Du kan också bläddra bland alla våra diagram-arbetsblad att skriva ut och välja den nivå som passar just nu. Materialet är gratis och färdigt att använda direkt.",
+      "canonicalDeckSlug": "diagram-djur-g1144",
+      "collapseSiblings": [
+        "diagram-djur-g1144",
+        "diagram-djur-g1146",
+        "diagram-fordon-g1141",
+        "diagram-fordon-g1142",
+        "diagram-fordon-g1147",
+        "diagram-former-g1143",
+        "diagram-former-g1144",
+        "diagram-frukter-g1141",
+        "diagram-frukter-g1146",
+        "diagram-frukter-g1147",
+        "diagram-leksaker-g1142",
+        "diagram-leksaker-g1143"
+      ],
+      "carousel": [
+        {
+          "label": "åk 2 Diagram",
+          "href": "diagram-ak-2"
+        },
+        {
+          "label": "åk 3 Diagram",
+          "href": "diagram-ak-3"
+        }
+      ],
+      "title": "Arbetsblad diagram åk 1 – läsa stapeldiagram | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad om diagram för åk 1 att skriva ut gratis. Barnet läser bilddiagram och stapeldiagram, ser vilken stapel som är högst och sorterar och räknar."
+    },
+    {
+      "slug": "diagram-ak-2",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "graphing-data",
+        "mode": "graphs-and-line-plots",
+        "theme": "",
+        "level": "ak-2"
+      },
+      "eyebrow": "Diagram · Arbetsblad",
+      "h1": "Diagram för åk 2 – stapeldiagram, skala och frekvenstabell",
+      "strand": "Sannolikhet och statistik",
+      "standard": "2.MD.D.10",
+      "slotTokens": [
+        "åk 2"
+      ],
+      "p1": "De här arbetsbladen om diagram passar barn i åk 2 som redan kan läsa enkla diagram och nu ska ta nästa steg. Bladen handlar om stapeldiagram där barnet avläser värden på en axel, om bilddiagram med skala där en bild kan stå för två, och om frekvenstabeller där antalet skrivs med siffror. Allt går att skriva ut gratis som PDF, utan registrering. Innehållet bygger vidare på det barnet mött i åk 1, men med fler kategorier och lite större tal.",
+      "p2": "På bladen får barnet öva att läsa av ett stapeldiagram noggrant och svara på frågor om skillnaden mellan två staplar. I bilddiagrammen med skala måste barnet tänka efter: om en bild betyder två, hur många blir då fyra bilder? Sedan kommer punktdiagram och frekvenstabeller där barnet räknar hur ofta något förekommer. Den viktigaste övningen är att gå från en räknetabell till ett färdigt diagram – barnet läser siffrorna i tabellen och ritar staplarna själv. Ingen tidtagning, inga poäng, bara lugnt arbete steg för steg.",
+      "p3": "Skriv ut ett blad i taget och låt barnet förklara vad diagrammet visar med egna ord. Behöver barnet repetera grunderna finns arbetsbladen för åk 1, och när skala och tabeller sitter väntar åk 3 med större steg och egna ritade diagram. Bläddra gärna bland alla våra diagram-arbetsblad att skriva ut och plocka ihop ett eget häfte. Materialet är gratis och redo att användas direkt.",
+      "canonicalDeckSlug": "diagram-djur-g2237",
+      "collapseSiblings": [
+        "diagram-djur-g2237",
+        "diagram-fordon-g2238",
+        "diagram-fordon-g2239",
+        "diagram-former-g2240",
+        "diagram-frukter-g2237",
+        "diagram-frukter-g2238",
+        "diagram-leksaker-g2239",
+        "diagram-leksaker-g2240"
+      ],
+      "carousel": [
+        {
+          "label": "åk 1 Diagram",
+          "href": "diagram-ak-1"
+        },
+        {
+          "label": "åk 3 Diagram",
+          "href": "diagram-ak-3"
+        }
+      ],
+      "title": "Arbetsblad diagram åk 2 – stapeldiagram med skala | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad om diagram för åk 2 att skriva ut gratis. Barnet läser stapeldiagram, bilddiagram med skala och frekvenstabeller och går från räknetabell till diagram."
+    },
+    {
+      "slug": "diagram-ak-3",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "graphing-data",
+        "mode": "scaled-graphs",
+        "theme": "",
+        "level": "ak-3"
+      },
+      "eyebrow": "Diagram · Arbetsblad",
+      "h1": "Diagram för åk 3 – skala, teckenförklaring och rita själv",
+      "strand": "Sannolikhet och statistik",
+      "standard": "3.MD.B.3",
+      "slotTokens": [
+        "åk 3"
+      ],
+      "p1": "De här arbetsbladen om diagram är till för barn i åk 3 som ska arbeta mer självständigt med data. Här möter barnet stapeldiagram med skala i steg om 2, 5 och 10, där värdet ibland ligger mellan linjerna och måste uppskattas. Bilddiagrammen har en teckenförklaring – till exempel att en bild står för fem – och barnet räknar ut det riktiga antalet. Bladen finns att skriva ut gratis som PDF, utan registrering och utan inloggning.",
+      "p2": "Uppgifterna tränar både avläsning och eget skapande. Barnet läser av ett stapeldiagram med skala och avgör hur mycket en stapel är värd när den slutar mellan två linjer. I bilddiagrammen tolkar barnet teckenförklaringen och översätter bilder till antal och tillbaka igen. På de svårare bladen får barnet en räknetabell och ritar hela diagrammet själv: väljer skala, ritar axlar och fyller i staplarna så att de stämmer med värdena. Det finns ingen tidtagning och inga poäng – barnet får arbeta noggrant och kontrollera sitt eget resultat i lugn och ro.",
+      "p3": "Skriv ut bladen och låt barnet rita ett eget diagram över något hemma, som hur många böcker det finns i varje rum. Vill barnet repetera går det bra att backa till arbetsbladen för åk 2 med enklare skala. Du kan också bläddra bland alla våra diagram-arbetsblad att skriva ut och bygga ett häfte som följer barnet genom hela lågstadiet. Allt material är gratis.",
+      "canonicalDeckSlug": "diagram-djur-g3335",
+      "collapseSiblings": [
+        "diagram-djur-g3335",
+        "diagram-fordon-g3332",
+        "diagram-fordon-g3333",
+        "diagram-former-g3334",
+        "diagram-former-g3335",
+        "diagram-frukter-g3332",
+        "diagram-leksaker-g3333",
+        "diagram-leksaker-g3334"
+      ],
+      "carousel": [
+        {
+          "label": "åk 1 Diagram",
+          "href": "diagram-ak-1"
+        },
+        {
+          "label": "åk 2 Diagram",
+          "href": "diagram-ak-2"
+        }
+      ],
+      "title": "Arbetsblad diagram åk 3 – stapeldiagram med skala | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad om diagram för åk 3 att skriva ut gratis. Stapeldiagram med skala i steg om 2, 5 och 10, bilddiagram med teckenförklaring och uppgifter där barnet ritar diagrammet själv."
+    },
+    {
+      "slug": "tal-som-saknas-forskola",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "number-charts",
+        "mode": "numbers-to-20",
+        "theme": "",
+        "level": "forskola"
+      },
+      "eyebrow": "Talrad · Arbetsblad",
+      "h1": "Tal som saknas i förskolan – talraden upp till 10 och 20",
+      "strand": "Taluppfattning och tals användning",
+      "standard": "K.CC.A.3",
+      "slotTokens": [
+        "förskola"
+      ],
+      "p1": "De här arbetsbladen är gjorda för barn i förskola som håller på att lära känna talen upp till 10 och sedan upp till 20. På varje blad finns en talrad där några tal saknas, och barnet fyller i de tomma rutorna. Talen står i ordning med stora siffror och gott om plats att skriva, så att även den som precis börjat forma siffror kan vara med. Bladen finns att skriva ut gratis som PDF, utan registrering och utan att skapa konto.",
+      "p2": "Övningarna går från det enkla till det lite mer utmanande. Först fyller barnet i talet före och talet efter ett känt tal, sedan talet i mitten mellan två tal. På så sätt upptäcker barnet att varje tal har en granne på var sida. Det finns också blad där barnet räknar baklänges, en lugn nedräkning från tio eller tjugo ner till noll. Inget är på tid och det finns inga poäng – barnet får peka, räkna högt och fylla i i sin egen takt, och om det blir fel räknar man bara om tillsammans.",
+      "p3": "Skriv ut ett blad i taget och låt barnet säga talen högt medan det skriver. När talen upp till 20 känns säkra är nästa steg arbetsbladen för åk 1 med hela hundrarutan och hoppräkning. Bläddra gärna bland alla våra arbetsblad med talrader att skriva ut och välj det som passar barnet just nu. Allt material är gratis och färdigt att använda.",
+      "canonicalDeckSlug": "hundraruta-k021",
+      "collapseSiblings": [
+        "hundraruta-djur-k023",
+        "hundraruta-fordon-k019",
+        "hundraruta-fordon-k020",
+        "hundraruta-frukter-k019",
+        "hundraruta-frukter-k023",
+        "hundraruta-k021",
+        "hundraruta-k022",
+        "hundraruta-leksaker-k020"
+      ],
+      "carousel": [
+        {
+          "label": "åk 1 Hundraruta",
+          "href": "hundraruta-ak-1"
+        },
+        {
+          "label": "åk 2 Hundraruta",
+          "href": "hundraruta-ak-2"
+        },
+        {
+          "label": "åk 3 Hundraruta",
+          "href": "talfoljder-ak-3"
+        }
+      ],
+      "title": "Arbetsblad tal som saknas förskola – talraden 0–20 | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad där barnet fyller i tal som saknas upp till 10 och 20, hittar talet före och efter och räknar baklänges. Att skriva ut gratis som PDF, utan registrering."
+    },
+    {
+      "slug": "hundraruta-ak-1",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "number-charts",
+        "mode": "hundreds-chart-skip-count",
+        "theme": "",
+        "level": "ak-1"
+      },
+      "eyebrow": "Hundraruta · Arbetsblad",
+      "h1": "Hundraruta för åk 1 – fyll i, hoppräkna och 10 mer eller mindre",
+      "strand": "Taluppfattning och tals användning",
+      "standard": "1.NBT.A.1",
+      "slotTokens": [
+        "åk 1"
+      ],
+      "p1": "De här arbetsbladen med hundraruta är till för barn i åk 1 som ska få ordning på talen upp till hundra. På bladen finns hundrarutor där en del tal saknas, och barnet fyller i de tomma rutorna genom att följa mönstret i raderna och kolumnerna. När hundrarutan är ifylld blir den ett verktyg som barnet kan använda om och om igen. Allt går att skriva ut gratis som PDF, utan registrering och utan inloggning.",
+      "p2": "Uppgifterna bygger vidare steg för steg. Barnet hoppräknar med 2, 5 och 10 och färgar talen så att mönstret syns tydligt i rutan. Sedan kommer övningar med 1 mer och 1 mindre, där barnet rör sig ett steg åt sidan, och 10 mer och 10 mindre, där barnet hoppar en hel rad uppåt eller nedåt. Just den rörelsen i hundrarutan hjälper barnet att förstå hur tiotal och ental hänger ihop. Det finns ingen tidtagning och inga poäng – barnet arbetar lugnt och kan alltid räkna efter i rutan.",
+      "p3": "Skriv ut bladen och låt barnet ha en ifylld hundraruta bredvid sig som stöd. Behöver barnet repetera talraden går det bra att börja med förskolans blad om tal som saknas, och när hundrarutan sitter väntar åk 2 med hoppräkning på 3 och 4 och 100 mer eller mindre. Bläddra bland alla våra arbetsblad med talrader och hundrarutor att skriva ut. Materialet är gratis.",
+      "canonicalDeckSlug": "hundraruta-g1130",
+      "collapseSiblings": [
+        "hundraruta-djur-g1126",
+        "hundraruta-djur-g1129",
+        "hundraruta-fordon-g1123",
+        "hundraruta-fordon-g1124",
+        "hundraruta-former-g1125",
+        "hundraruta-former-g1126",
+        "hundraruta-frukter-g1123",
+        "hundraruta-frukter-g1129",
+        "hundraruta-g1130",
+        "hundraruta-g1131",
+        "hundraruta-g1132",
+        "hundraruta-leksaker-g1124",
+        "hundraruta-leksaker-g1125"
+      ],
+      "carousel": [
+        {
+          "label": "förskola Hundraruta",
+          "href": "tal-som-saknas-forskola"
+        },
+        {
+          "label": "åk 2 Hundraruta",
+          "href": "hundraruta-ak-2"
+        },
+        {
+          "label": "åk 3 Hundraruta",
+          "href": "talfoljder-ak-3"
+        }
+      ],
+      "title": "Arbetsblad hundraruta åk 1 – hoppräkna 2, 5 och 10 | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad med hundraruta för åk 1 att skriva ut gratis. Barnet fyller i tal som saknas, hoppräknar med 2, 5 och 10 och övar 1 mer/mindre och 10 mer/mindre."
+    },
+    {
+      "slug": "hundraruta-ak-2",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "number-charts",
+        "mode": "skip-count-and-100-more-less",
+        "theme": "",
+        "level": "ak-2"
+      },
+      "eyebrow": "Talföljd · Arbetsblad",
+      "h1": "Talföljder för åk 2 – hoppräkna med 3 och 4 samt udda tal",
+      "strand": "Taluppfattning och tals användning",
+      "standard": "2.NBT.A.2",
+      "slotTokens": [
+        "åk 2"
+      ],
+      "p1": "De här arbetsbladen passar barn i åk 2 som redan känner hundrarutan och nu ska ta sig an svårare talföljder. Här hoppräknar barnet med 3 och 4 i stället för de jämna hoppen på 2, 5 och 10, vilket gör mönstren mindre självklara och mer utmanande. Bladen har tydliga rutor och plats att skriva tankarna, och de finns att skriva ut gratis som PDF, utan registrering och utan konto.",
+      "p2": "Övningarna fördjupar talförståelsen på flera sätt. När barnet hoppräknar med 3 och 4 måste det lägga till samma tal varje gång och hålla koll på hur talen växer. Sedan kommer uppgifter med 100 mer och 100 mindre, där barnet arbetar med hela hundratal och ser hur den första siffran ändras medan resten står kvar. På andra blad letar barnet efter udda tal och färgar dem, så att skillnaden mellan udda och jämna tal blir synlig i talraden. Det finns ingen tidtagning och inga poäng – barnet får tid att hitta mönstret och kontrollera själv.",
+      "p3": "Skriv ut ett blad i taget och låt barnet förklara regeln i talföljden med egna ord. Vill barnet repetera de jämna hoppen finns arbetsbladen för åk 1 med hundrarutan, och nästa steg är åk 3 med stora hoppföljder och talmaskiner. Bläddra bland alla våra arbetsblad med talföljder att skriva ut och bygg ett eget häfte. Allt material är gratis och färdigt att använda direkt.",
+      "canonicalDeckSlug": "hundraruta-g2218",
+      "collapseSiblings": [
+        "hundraruta-fordon-g2207",
+        "hundraruta-former-g2208",
+        "hundraruta-g2218",
+        "hundraruta-g2226",
+        "hundraruta-leksaker-g2207",
+        "hundraruta-leksaker-g2208"
+      ],
+      "carousel": [
+        {
+          "label": "förskola Hundraruta",
+          "href": "tal-som-saknas-forskola"
+        },
+        {
+          "label": "åk 1 Hundraruta",
+          "href": "hundraruta-ak-1"
+        },
+        {
+          "label": "åk 3 Hundraruta",
+          "href": "talfoljder-ak-3"
+        }
+      ],
+      "title": "Arbetsblad talföljder åk 2 – hoppräkna 3 och 4 | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad med talföljder för åk 2 att skriva ut gratis. Barnet hoppräknar med 3 och 4, övar 100 mer och 100 mindre och letar efter udda tal i talraden."
+    },
+    {
+      "slug": "talfoljder-ak-3",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "number-charts",
+        "mode": "number-patterns",
+        "theme": "",
+        "level": "ak-3"
+      },
+      "eyebrow": "Talföljd · Arbetsblad",
+      "h1": "Talföljder för åk 3 – stora hopp, talmaskiner och hitta regeln",
+      "strand": "Taluppfattning och tals användning",
+      "standard": "3.OA.D.9",
+      "slotTokens": [
+        "åk 3"
+      ],
+      "p1": "De här arbetsbladen är gjorda för barn i åk 3 som ska arbeta självständigt med mönster i talen. Här fortsätter barnet talföljder med stora hopp, där stegen kan vara på till exempel 25 eller 50, och måste själv komma på vilket tal som kommer härnäst. Bladen är tydliga och utmanande och passar den som redan behärskar hundrarutan. Allt finns att skriva ut gratis som PDF, utan registrering och utan inloggning.",
+      "p2": "Uppgifterna handlar lika mycket om att hitta regeln som om att räkna. På talmaskinerna får barnet ett tal som går in och ett tal som kommer ut, och ska lista ut vilken regel maskinen följer – läggs det till, dras det ifrån, och hur mycket? Sedan använder barnet samma regel på nya tal. På andra blad fortsätter barnet en talföljd flera steg framåt eller räknar baklänges från ett stort tal. Det finns ingen tidtagning och inga poäng – barnet får pröva, tänka om och kontrollera sina svar i lugn och ro.",
+      "p3": "Skriv ut bladen och låt barnet hitta på en egen talmaskin åt dig att lösa. Behöver barnet repetera går det bra att backa till arbetsbladen för åk 2 med hoppräkning på 3 och 4. Du kan också bläddra bland alla våra arbetsblad med talföljder att skriva ut och samla ihop dem som passar bäst. Materialet är gratis och redo att användas direkt.",
+      "canonicalDeckSlug": "hundraruta-g3328",
+      "collapseSiblings": [
+        "hundraruta-djur-g3329",
+        "hundraruta-fordon-g3326",
+        "hundraruta-former-g3327",
+        "hundraruta-frukter-g3329",
+        "hundraruta-g3328",
+        "hundraruta-leksaker-g3326",
+        "hundraruta-leksaker-g3327"
+      ],
+      "carousel": [
+        {
+          "label": "förskola Hundraruta",
+          "href": "tal-som-saknas-forskola"
+        },
+        {
+          "label": "åk 1 Hundraruta",
+          "href": "hundraruta-ak-1"
+        },
+        {
+          "label": "åk 2 Hundraruta",
+          "href": "hundraruta-ak-2"
+        }
+      ],
+      "title": "Arbetsblad talföljder åk 3 – talmaskiner och regeln | skriva ut gratis (PDF)",
+      "metaDescription": "Arbetsblad med talföljder för åk 3 att skriva ut gratis. Barnet fortsätter stora hoppföljder, löser talmaskiner med in och ut, hittar regeln och räknar baklänges."
     }
   ]
 }

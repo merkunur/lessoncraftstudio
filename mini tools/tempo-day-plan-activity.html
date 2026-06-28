@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tempo's Day Plan — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+  <style>
+    html, body { background: transparent !important; }
+    html, body, #lcs-root { height: 100% !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, then the locale-neutral time-preposition core, then this activity.
+       NOTE: bump ?v=N on EVERY change to tempo-day-plan-activity.js / time-preposition-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=3"></script>
+  <script src="/mini-tools/time-preposition-core.js?v=1"></script>
+  <script src="/mini-tools/tempo-day-plan-activity.js?v=1"></script>
+  <script>
+    LCS.mount(TempoDayPlanActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

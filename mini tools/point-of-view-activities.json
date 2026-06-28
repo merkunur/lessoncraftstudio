@@ -1,0 +1,41 @@
+[
+  {
+    "id": "point-of-view.who-told.rl-1-6",
+    "tool": "point-of-view-activity",
+    "task_template": "point-of-view",
+    "alignment": { "framework": "CCSS", "code": "RL.1.6", "grade": "1", "strand": "Reading: Literature" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "pv-boat",  "event": "A red boat sailed into the harbor.", "line": "The boat looked like a tiny dot, far away.", "view": "high",
+          "chars": [ {"id":"a","name":"Gull","glyph":"bird","pos":"high"}, {"id":"b","name":"Mim","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Bru","glyph":"friend","pos":"low"} ] },
+        { "id": "pv-wave",  "event": "A big wave rolled in.", "line": "The wave splashed right over me!", "view": "low",
+          "chars": [ {"id":"a","name":"Bru","glyph":"friend","pos":"high"}, {"id":"b","name":"Hop","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Mim","glyph":"mouse","pos":"low"} ] },
+        { "id": "pv-fish",  "event": "A fish jumped in the bay.", "line": "The fish was just a tiny speck down below.", "view": "high",
+          "chars": [ {"id":"a","name":"Mim","glyph":"mouse","pos":"high"}, {"id":"b","name":"Bru","glyph":"friend","pos":"mid"}, {"id":"c","name":"Gull","glyph":"bird","pos":"low"} ] },
+        { "id": "pv-gull",  "event": "A seagull swooped past.", "line": "It zoomed right past my nose!", "view": "low",
+          "chars": [ {"id":"a","name":"Gull","glyph":"bird","pos":"high"}, {"id":"b","name":"Mim","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Hop","glyph":"bunny","pos":"low"} ] },
+        { "id": "pv-town",  "event": "The town lit up at night.", "line": "I could see the whole town, tiny far below.", "view": "high",
+          "chars": [ {"id":"a","name":"Bru","glyph":"friend","pos":"high"}, {"id":"b","name":"Gull","glyph":"bird","pos":"mid"}, {"id":"c","name":"Mim","glyph":"mouse","pos":"low"} ] },
+        { "id": "pv-crab",  "event": "A crab scuttled by.", "line": "The crab was huge, right next to me.", "view": "low",
+          "chars": [ {"id":"a","name":"Hop","glyph":"bunny","pos":"high"}, {"id":"b","name":"Bru","glyph":"friend","pos":"mid"}, {"id":"c","name":"Gull","glyph":"bird","pos":"low"} ] },
+        { "id": "pv-sail",  "event": "A sailboat raced past.", "line": "The sailboat looked teeny-tiny, far off.", "view": "high",
+          "chars": [ {"id":"a","name":"Hop","glyph":"bunny","pos":"high"}, {"id":"b","name":"Mim","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Bru","glyph":"friend","pos":"low"} ] },
+        { "id": "pv-jelly", "event": "A jellyfish drifted by.", "line": "The jellyfish was right under me, big and close.", "view": "low",
+          "chars": [ {"id":"a","name":"Bru","glyph":"friend","pos":"high"}, {"id":"b","name":"Gull","glyph":"bird","pos":"mid"}, {"id":"c","name":"Hop","glyph":"bunny","pos":"low"} ] },
+        { "id": "pv-ship",  "event": "A big ship crossed the sea.", "line": "The ship was so small, way out far.", "view": "high",
+          "chars": [ {"id":"a","name":"Mim","glyph":"mouse","pos":"high"}, {"id":"b","name":"Hop","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Gull","glyph":"bird","pos":"low"} ] }
+      ]
+    },
+    "slug": {
+      "en": "point-of-view-who-is-telling"
+    },
+    "page_title": {
+      "en": "Lumen's Lighthouse Windows — Point of View (Grade 1)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 reading activity: help Lumen the owl figure out who is telling the story. Each creature watches the harbor from a window at a different height — high up, things look tiny and far; down low, they look big and close. Read what the storyteller saw, then tap the window it was told from. A friendly first look at point of view. Common Core RL.1.6."
+    },
+    "kid_prompt_template": "point-of-view"
+  }
+]

@@ -1,0 +1,173 @@
+/* =====================================================================
+   MOCHI'S COUNTING FEAST — ACTIVITY   (mochi-feast-activity.js)
+   ---------------------------------------------------------------------
+   Task-driven wrapper over mochi-feast-core.js. Task source depends on
+   the URL:
+
+   • ?activity=<id>  → fetches mochi-feast-activities.json, finds the row,
+                       instantiates tasks from row.params.rounds.
+   • no ?activity    → falls back to a static demo set (the
+                       /mini-tools/mochi-feast-activity.html direct load
+                       shows the same kind of feeding board).
+
+   task_template 'count-out' — for each round { target, treat, seed } build
+   a "Feed Mochi N <treat>" task. answerType:'state' (the bowl IS the answer
+   surface; the shell renders no keypad/choices and leaves Check enabled).
+   check() reads MochiFeastCore.isCorrect() — bowl count must EXACTLY equal
+   the target; on success the board locks (readOnly) so Mochi's satisfied
+   pose + the celebration are stable.
+
+   One coordinate lives on this wrapper: K.CC.B.5 (count out a given number
+   of objects) + K.CC.B.4 (cardinality). Its params.rounds is the POOL.
+
+   VARIETY + SHUFFLE (CLAUDE.md §A.13.60): the pool has ≥7 ORIGINAL distinct
+   rounds (each a genuinely different little feast — a different food + a
+   different count, not one bowl with a new number), and after a full pass
+   the order RESHUFFLES (order-only — same validated rounds) so no two
+   consecutive passes share a sequence. The reshuffle lives here via the
+   shell's `nextTask` contract — ZERO change to lcs-shell.js.
+   ===================================================================== */
+
+/* The canonical pool: 8 GENUINELY DIFFERENT feasts (§A.13.60 — the variety
+   is the food + the count, both changing). Each `noun` is a real image-
+   library prop (theme = its folder). Counts mix small + large across the K
+   range (2..10) so cardinality is exercised, not a monotone climb. */
+var DEMO_ROUNDS = [
+  { target: 3,  noun: 'strawberry', theme: 'fruits',             seed: 11 },
+  { target: 5,  noun: 'cookie',     theme: 'desserts and sweets', seed: 23 },
+  { target: 4,  noun: 'cherry',     theme: 'fruits',             seed: 31 },
+  { target: 6,  noun: 'cupcake',    theme: 'desserts and sweets', seed: 41 },
+  { target: 2,  noun: 'banana',     theme: 'fruits',             seed: 53 },
+  { target: 7,  noun: 'apple',      theme: 'fruits',             seed: 61 },
+  { target: 8,  noun: 'donut',      theme: 'desserts and sweets', seed: 67 },
+  { target: 10, noun: 'muffin',     theme: 'desserts and sweets', seed: 71 }
+];
+
+/* noun → the localizable prompt key (one per food, like fractions'
+   promptHalves/Fourths). */
+function _promptKeyFor(noun) {
+  return 'prompt' + noun.charAt(0).toUpperCase() + noun.slice(1);
+}
+
+function makeFeastTasks(rounds, idPrefix) {
+  return rounds.map(function (r, i) {
+    return {
+      id: idPrefix + '.round-' + i,
+      promptKey: _promptKeyFor(r.noun),
+      promptArgs: { n: r.target },
+      answerType: 'state',
+      setup: function (tool) { tool.setupTask(r); },
+      check: function (tool) {
+        var ok = tool.isCorrect();           // bowl count === target
+        if (ok) { tool.readOnly = true; tool.paint(); }
+        return ok;
+      },
+      hintKey: function (tool) {
+        var have = tool.fed.length, need = tool.target;
+        if (have === 0)   return 'hintAddSome';
+        if (have > need)  return 'hintTooMany';
+        return 'hintMore';                   // under-count
+      }
+    };
+  });
+}
+
+/* Fallback static task pool when no ?activity= is given. */
+var STATIC_DEMO_TASKS = makeFeastTasks(DEMO_ROUNDS, 'demo');
+
+/* Order-only Fisher–Yates over n indices. When `prev` is given (and n≥2),
+   the result is GUARANTEED to differ from prev (the per-pass "never the
+   same sequence twice" requirement). n<2 is a no-op. */
+function _sameOrder(a, b) {
+  if (!b || a.length !== b.length) return false;
+  for (var i = 0; i < a.length; i++) { if (a[i] !== b[i]) return false; }
+  return true;
+}
+function shuffledOrder(n, prev) {
+  var idx = [], i, j, t;
+  for (i = 0; i < n; i++) idx.push(i);
+  if (n < 2) return idx;
+  do {
+    for (i = n - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = idx[i]; idx[i] = idx[j]; idx[j] = t; }
+  } while (_sameOrder(idx, prev));
+  return idx;
+}
+
+window.MochiFeastActivity = Object.assign({}, MochiFeastCore, {
+  id: 'mochi-feast-activity',
+
+  /* Inherit the core's strings (title / instruction / per-treat prompts /
+     hints / tray label / sr nouns). */
+  strings: Object.assign({}, MochiFeastCore.strings),
+
+  /* NO `tasks` property → the shell calls our nextTask() for ordering, so
+     we own the per-pass reshuffle (§A.13.60). Pool resolved lazily: by
+     ?activity=<id> if present, else the static demo. */
+
+  init: function (api) {
+    MochiFeastCore.init.call(this, api);
+    this._pool = STATIC_DEMO_TASKS;
+    this._order = null; this._curPass = 0; this._orderForPool = null;
+    var params = (typeof window !== 'undefined' && window.location)
+      ? new URLSearchParams(window.location.search) : null;
+    this._activityId = params ? params.get('activity') : null;
+    if (this._activityId) { this._loadActivity(); }
+  },
+
+  /* Shell ordering hook — same contract as fractions/array: build a
+     shuffled order over the pool; rebuild on pool length/ref change
+     (demo→manifest swap); RESHUFFLE (≠ previous) on a FORWARD pass
+     boundary (transition-driven so getTask(0) at mount is idempotent).
+     Order-only — every served round is a pre-validated feast spec. */
+  nextTask: function (opts) {
+    var pool = (this._pool && this._pool.length) ? this._pool : STATIC_DEMO_TASKS;
+    var n = pool.length;
+    var i = (opts && opts.index) || 0;
+    if (!this._order || this._orderForPool !== pool || this._order.length !== n) {
+      this._order = shuffledOrder(n, null);
+      this._orderForPool = pool;
+      this._curPass = 0;
+    }
+    var pass = (n > 0) ? Math.floor(i / n) : 0;
+    if (pass > this._curPass) {
+      this._order = shuffledOrder(n, this._order);
+      this._curPass = pass;
+    }
+    return pool[this._order[i % n]];
+  },
+
+  _loadActivity: function () {
+    var self = this;
+    fetch('/mini-tools/mochi-feast-activities.json').then(function (r) {
+      if (!r.ok) throw new Error('manifest fetch failed: ' + r.status);
+      return r.json();
+    }).then(function (rows) {
+      var row = rows.find(function (r) { return r.id === self._activityId; });
+      if (!row) return;
+      self._activityRow = row;
+      self._pool = self._buildTasksFromRow(row);
+      self._order = null;   // force nextTask to rebuild the order for the new pool
+      if (typeof window.LCS_reloadFirstTask === 'function') { window.LCS_reloadFirstTask(); }
+    }).catch(function (e) {
+      if (window.console && console.warn) console.warn('[mochi-feast] manifest load failed; using fallback:', e.message);
+    });
+  },
+
+  _buildTasksFromRow: function (row) {
+    if (row.task_template === 'count-out') {
+      var rounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : DEMO_ROUNDS;
+      /* defensive: every target within the K count-out range (1..20); each
+         round must name a library prop (noun + theme). */
+      if (window.console && console.warn) {
+        rounds.forEach(function (r, ri) {
+          if (!(r.target >= 1 && r.target <= 20)) console.warn('[mochi-feast] round ' + ri + ' target ' + r.target + ' outside 1..20');
+          if (!r.noun || !r.theme) console.warn('[mochi-feast] round ' + ri + ' missing noun/theme');
+        });
+      }
+      return makeFeastTasks(rounds, row.id);
+    }
+    return STATIC_DEMO_TASKS;
+  }
+});
+
+MochiFeastCore.injectCSS();

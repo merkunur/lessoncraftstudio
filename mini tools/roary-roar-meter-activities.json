@@ -1,0 +1,25 @@
+[
+  {
+    "id": "roary-roar-meter.shades.l-2-5-b",
+    "tool": "roary-roar-meter-activity",
+    "task_template": "shades",
+    "alignment": { "framework": "CCSS", "code": "L.2.5.b", "grade": "2", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "size", "band": 1, "setId": "size", "ask": "strongest", "words": [ { "word": "huge", "rank": 3 }, { "word": "big", "rank": 1 }, { "word": "large", "rank": 2 } ] },
+        { "id": "heat", "band": 1, "setId": "heat", "ask": "weakest", "words": [ { "word": "hot", "rank": 2 }, { "word": "warm", "rank": 1 }, { "word": "boiling", "rank": 3 } ] },
+        { "id": "volume", "band": 1, "setId": "volume", "ask": "strongest", "words": [ { "word": "talk", "rank": 1 }, { "word": "shout", "rank": 2 }, { "word": "scream", "rank": 3 } ] },
+        { "id": "tired", "band": 2, "setId": "tired", "ask": "weakest", "words": [ { "word": "tired", "rank": 1 }, { "word": "sleepy", "rank": 2 }, { "word": "exhausted", "rank": 3 } ] },
+        { "id": "good", "band": 2, "setId": "good", "ask": "strongest", "words": [ { "word": "good", "rank": 1 }, { "word": "amazing", "rank": 3 }, { "word": "great", "rank": 2 } ] },
+        { "id": "cold", "band": 2, "setId": "cold", "ask": "weakest", "words": [ { "word": "cold", "rank": 2 }, { "word": "freezing", "rank": 3 }, { "word": "cool", "rank": 1 } ] },
+        { "id": "love", "band": 3, "setId": "love", "ask": "strongest", "words": [ { "word": "adore", "rank": 3 }, { "word": "like", "rank": 1 }, { "word": "love", "rank": 2 } ] },
+        { "id": "sad", "band": 3, "setId": "sad", "ask": "weakest", "words": [ { "word": "upset", "rank": 2 }, { "word": "sad", "rank": 1 }, { "word": "miserable", "rank": 3 } ] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "roary-roar-meter" },
+    "page_title": { "en": "Roary's Roar Meter — Strongest & Weakest Words (Grade 2)" },
+    "page_intro": { "en": "Roary the lion's roar can be soft or mighty! These words are all alike, but some are stronger than others — big, large, huge. Read the three words, then tap the STRONGEST one (or the WEAKEST one). A Grade 2 vocabulary game about shades of meaning, aligned to Common Core L.2.5.b." },
+    "kid_prompt_template": "Read the words — tap the strongest or weakest!"
+  }
+]

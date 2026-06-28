@@ -1,0 +1,32 @@
+[
+  {
+    "id": "plural.irregular.l-2-1-b",
+    "tool": "plural-activity",
+    "task_template": "plural",
+    "alignment": { "framework": "CCSS", "code": "L.2.1.b", "grade": "2", "strand": "Language" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "pl-foot",  "singular": "foot",  "rule": "vowel-change", "ruleSpec": { "from": "oo", "to": "ee" },   "family": "oo-ee", "q": "More than one foot is…?" },
+        { "id": "pl-tooth", "singular": "tooth", "rule": "vowel-change", "ruleSpec": { "from": "oo", "to": "ee" },   "family": "oo-ee", "q": "More than one tooth is…?" },
+        { "id": "pl-goose", "singular": "goose", "rule": "vowel-change", "ruleSpec": { "from": "oo", "to": "ee" },   "family": "oo-ee", "q": "More than one goose is…?" },
+        { "id": "pl-man",   "singular": "man",   "rule": "vowel-change", "ruleSpec": { "from": "a", "to": "e" },     "family": "a-e",   "q": "More than one man is…?" },
+        { "id": "pl-woman", "singular": "woman", "rule": "vowel-change", "ruleSpec": { "from": "a", "to": "e" },     "family": "a-e",   "q": "More than one woman is…?" },
+        { "id": "pl-mouse", "singular": "mouse", "rule": "vowel-change", "ruleSpec": { "from": "ouse", "to": "ice" },"family": "lone",  "q": "More than one mouse is…?" },
+        { "id": "pl-child", "singular": "child", "rule": "suffix",       "ruleSpec": { "add": "ren" },               "family": "ren",   "q": "More than one child is…?" },
+        { "id": "pl-deer",  "singular": "deer",  "rule": "no-change",    "ruleSpec": {},                             "family": "no-change", "q": "More than one deer is…?" },
+        { "id": "pl-sheep", "singular": "sheep", "rule": "no-change",    "ruleSpec": {},                             "family": "no-change", "q": "More than one sheep is…?" }
+      ]
+    },
+    "slug": {
+      "en": "irregular-plural-nouns"
+    },
+    "page_title": {
+      "en": "The Doubling Pond — Irregular Plural Nouns (Grade 2)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 grammar activity: at Pearl's Doubling Pond, some words change in a special way when there is more than one — foot becomes feet, child becomes children, and a few (like deer and sheep) stay the same. Read the word, then pick the right plural — not the lazy +s. A friendly first look at irregular plural nouns. Common Core L.2.1.b."
+    },
+    "kid_prompt_template": "plural"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "word-clinic.spell-by-ear.l-1-2-e",
+    "tool": "word-clinic-activity",
+    "task_template": "word-clinic",
+    "alignment": { "framework": "CCSS", "code": "L.1.2.e", "grade": "1", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "lamp", "cog": "vowel-a", "band": 1, "word": "lamp", "label": "Lamp", "theme": "around the house", "graphemes": ["l", "a", "m", "p"], "sickIndex": 1, "sickPhoneme": "short_a" },
+        { "id": "nest", "cog": "vowel-e", "band": 1, "word": "nest", "label": "Nest", "theme": "spring", "graphemes": ["n", "e", "s", "t"], "sickIndex": 1, "sickPhoneme": "short_e" },
+        { "id": "vest", "cog": "vowel-e", "band": 1, "word": "vest", "label": "Vest", "theme": "accessories", "graphemes": ["v", "e", "s", "t"], "sickIndex": 1, "sickPhoneme": "short_e" },
+        { "id": "fish", "cog": "vowel-i", "band": 1, "word": "fish", "label": "Fish", "theme": "animals", "graphemes": ["f", "i", "sh"], "sickIndex": 1, "sickPhoneme": "short_i" },
+        { "id": "sock", "cog": "vowel-o", "band": 1, "word": "sock", "label": "Sock", "theme": "accessories", "graphemes": ["s", "o", "ck"], "sickIndex": 1, "sickPhoneme": "short_o" },
+        { "id": "jug", "cog": "vowel-u", "band": 1, "word": "jug", "label": "Jug", "theme": "kitchen tools", "graphemes": ["j", "u", "g"], "sickIndex": 1, "sickPhoneme": "short_u" },
+        { "id": "drum", "cog": "vowel-u", "band": 1, "word": "drum", "label": "Drum", "theme": "music", "graphemes": ["d", "r", "u", "m"], "sickIndex": 2, "sickPhoneme": "short_u" },
+        { "id": "ship", "cog": "digraph", "band": 2, "word": "ship", "label": "Ship", "theme": "vehicles", "graphemes": ["sh", "i", "p"], "sickIndex": 0, "sickPhoneme": "sh" },
+        { "id": "chin", "cog": "digraph", "band": 2, "word": "chin", "label": "Chin", "theme": "body parts", "graphemes": ["ch", "i", "n"], "sickIndex": 0, "sickPhoneme": "ch" },
+        { "id": "boat", "cog": "vowel-team", "band": 2, "word": "boat", "label": "Boat", "theme": "beach", "graphemes": ["b", "oa", "t"], "sickIndex": 1, "sickPhoneme": "long_o" },
+        { "id": "rain", "cog": "vowel-team", "band": 2, "word": "rain", "label": "Rain", "theme": "spring", "graphemes": ["r", "ai", "n"], "sickIndex": 1, "sickPhoneme": "long_a" },
+        { "id": "leaf", "cog": "vowel-team", "band": 2, "word": "leaf", "label": "Leaf", "theme": "miscellaneous", "graphemes": ["l", "ea", "f"], "sickIndex": 1, "sickPhoneme": "long_e" },
+        { "id": "frog", "cog": "blend", "band": 3, "word": "frog", "label": "Frog", "theme": "camping", "graphemes": ["fr", "o", "g"], "sickIndex": 0, "sickPhoneme": "fr" },
+        { "id": "flag", "cog": "blend", "band": 3, "word": "flag", "label": "Flag", "theme": "4th of July", "graphemes": ["fl", "a", "g"], "sickIndex": 0, "sickPhoneme": "fl" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "word-doctors-clinic" },
+    "page_title": { "en": "Word Doctor's Clinic — Heal the Sick Sound" },
+    "page_intro": { "en": "A sick little word shuffles into Doctor's clinic, and only you can heal it — by EAR! Listen to the word, then pick the letter that spells its one poorly sound and watch the patient hop off the cot, all better. A warm Grade 1 spelling game about spelling words by their sounds, aligned to Common Core L.1.2.e." },
+    "kid_prompt_template": "word-clinic"
+  }
+]

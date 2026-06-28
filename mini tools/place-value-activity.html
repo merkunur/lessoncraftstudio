@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Place Value — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=17">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
   <!-- v7 cascade: see ten-frame-activity.html for the full rationale.
        Activity-page parent forces iframe to 66.67vh + renders sage field;
        these rules transparent-body + cascade height: 100% to .lcs-app.
@@ -13,6 +13,20 @@
   <style>
     html, body { background: transparent !important; }
     html, body, #lcs-root { height: 100% !important; }
+
+    /* Fold fix (2026-06-27): at desktop the hero prompt renders at 48px (3-4
+       lines = ~200px) and the base-ten trays hit their tall base (the core's
+       768-1023 cap doesn't apply at ≥1024) → prompt + mat + readout + Check
+       overshot a 900-tall window (tens-and-ones 926, expanded-form 1002). Cap
+       the prompt + the trays. place-value-core is PROTECTED — these are wrapper
+       @media overrides; `.pv-wrap .pv-tray` (0,2,0) beats the core's runtime
+       `.pv-tray--*` !important. Phone already passes (untouched). */
+    @media (min-width: 768px) {
+      .lcs-activity-prompt { font-size: clamp(20px, 3vmin, 28px) !important; }
+      .pv-wrap .pv-tray--tens,
+      .pv-wrap .pv-tray--ones,
+      .pv-wrap .pv-tray--hundreds { height: clamp(150px, 21vmin, 196px) !important; }
+    }
   </style>
 </head>
 <body>

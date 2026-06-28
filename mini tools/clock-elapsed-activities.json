@@ -1,0 +1,62 @@
+[
+  {
+    "id": "clock-elapsed.what-time.3-md-a-1",
+    "tool": "clock-elapsed-activity",
+    "task_template": "elapsed-time",
+    "alignment": { "framework": "CCSS", "code": "3.MD.A.1", "grade": "3", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "ce-300-30", "start": { "h": 3, "m": 0 }, "deltaMin": 30, "options": [ { "h": 3, "m": 30 }, { "h": 4, "m": 0 }, { "h": 3, "m": 15 } ] },
+        { "id": "ce-345-30", "start": { "h": 3, "m": 45 }, "deltaMin": 30, "options": [ { "h": 4, "m": 15 }, { "h": 4, "m": 45 }, { "h": 3, "m": 15 } ] },
+        { "id": "ce-720-15", "start": { "h": 7, "m": 20 }, "deltaMin": 15, "options": [ { "h": 7, "m": 35 }, { "h": 7, "m": 5 }, { "h": 8, "m": 35 } ] },
+        { "id": "ce-1050-20", "start": { "h": 10, "m": 50 }, "deltaMin": 20, "options": [ { "h": 11, "m": 10 }, { "h": 10, "m": 30 }, { "h": 11, "m": 30 } ] },
+        { "id": "ce-215-45", "start": { "h": 2, "m": 15 }, "deltaMin": 45, "options": [ { "h": 3, "m": 0 }, { "h": 2, "m": 45 }, { "h": 3, "m": 30 } ] },
+        { "id": "ce-510-40", "start": { "h": 5, "m": 10 }, "deltaMin": 40, "options": [ { "h": 5, "m": 50 }, { "h": 6, "m": 50 }, { "h": 5, "m": 30 } ] },
+        { "id": "ce-830-25", "start": { "h": 8, "m": 30 }, "deltaMin": 25, "options": [ { "h": 8, "m": 55 }, { "h": 9, "m": 5 }, { "h": 8, "m": 5 } ] },
+        { "id": "ce-1140-30", "start": { "h": 11, "m": 40 }, "deltaMin": 30, "options": [ { "h": 12, "m": 10 }, { "h": 11, "m": 10 }, { "h": 12, "m": 40 } ] },
+        { "id": "ce-105-50", "start": { "h": 1, "m": 5 }, "deltaMin": 50, "options": [ { "h": 1, "m": 55 }, { "h": 2, "m": 55 }, { "h": 1, "m": 15 } ] }
+      ]
+    },
+    "slug": {
+      "en": "elapsed-time-what-time-will-it-be"
+    },
+    "page_title": {
+      "en": "Sprocket's Clock — Elapsed Time: What Time Will It Be? (Grade 3)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 3 time activity: read the start time on the clock, then count on the minutes to find what time it will be. Children solve elapsed-time problems like 'it is 3:00 — what time will it be in 30 minutes?', including times that cross the next hour. Sprocket the rooster cheers them on. Common Core 3.MD.A.1."
+    },
+    "kid_prompt_template": "clock-elapsed"
+  },
+  {
+    "id": "clock-elapsed.add-subtract.3-md-a-1",
+    "tool": "clock-elapsed-activity",
+    "task_template": "elapsed-time",
+    "alignment": { "framework": "CCSS", "code": "3.MD.A.1", "grade": "3", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "as-300a30", "start": { "h": 3, "m": 0 }, "deltaMin": 30, "options": [ { "h": 3, "m": 30 }, { "h": 2, "m": 30 }, { "h": 4, "m": 0 } ] },
+        { "id": "as-330s30", "start": { "h": 3, "m": 30 }, "deltaMin": -30, "options": [ { "h": 3, "m": 0 }, { "h": 4, "m": 0 }, { "h": 2, "m": 30 } ] },
+        { "id": "as-720a15", "start": { "h": 7, "m": 20 }, "deltaMin": 15, "options": [ { "h": 7, "m": 35 }, { "h": 7, "m": 5 }, { "h": 7, "m": 50 } ] },
+        { "id": "as-1210s20", "start": { "h": 12, "m": 10 }, "deltaMin": -20, "options": [ { "h": 11, "m": 50 }, { "h": 12, "m": 30 }, { "h": 11, "m": 10 } ] },
+        { "id": "as-215a45", "start": { "h": 2, "m": 15 }, "deltaMin": 45, "options": [ { "h": 3, "m": 0 }, { "h": 1, "m": 30 }, { "h": 2, "m": 45 } ] },
+        { "id": "as-905s25", "start": { "h": 9, "m": 5 }, "deltaMin": -25, "options": [ { "h": 8, "m": 40 }, { "h": 9, "m": 30 }, { "h": 8, "m": 20 } ] },
+        { "id": "as-510a40", "start": { "h": 5, "m": 10 }, "deltaMin": 40, "options": [ { "h": 5, "m": 50 }, { "h": 4, "m": 30 }, { "h": 6, "m": 10 } ] },
+        { "id": "as-105s10", "start": { "h": 1, "m": 5 }, "deltaMin": -10, "options": [ { "h": 12, "m": 55 }, { "h": 1, "m": 15 }, { "h": 12, "m": 45 } ] },
+        { "id": "as-840s30", "start": { "h": 8, "m": 40 }, "deltaMin": -30, "options": [ { "h": 8, "m": 10 }, { "h": 9, "m": 10 }, { "h": 7, "m": 40 } ] }
+      ]
+    },
+    "slug": {
+      "en": "time-addition-and-subtraction"
+    },
+    "page_title": {
+      "en": "Sprocket's Clock — Time Addition & Subtraction (Grade 3)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 3 time activity: add and subtract minutes to a clock time. Children read the start time, then count on ('what time will it be in 30 minutes?') or count back ('what time was it 30 minutes ago?'), including times that cross the hour. Sprocket the rooster cheers them on. Common Core 3.MD.A.1."
+    },
+    "kid_prompt_template": "clock-elapsed"
+  }
+]

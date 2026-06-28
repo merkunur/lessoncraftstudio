@@ -1,0 +1,63 @@
+[
+  {
+    "id": "fraction-equiv.same-amount.3-nf-a-3",
+    "tool": "fraction-equiv-activity",
+    "task_template": "fraction-equiv",
+    "alignment": { "framework": "CCSS", "code": "3.NF.A.3", "grade": "3", "strand": "Number & Operations—Fractions" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "fe-half-fourths", "ref": { "num": 1, "den": 2 }, "candidates": [
+          { "id": "c0", "num": 2, "den": 4 },
+          { "id": "c1", "num": 1, "den": 4 },
+          { "id": "c2", "num": 3, "den": 4 }
+        ] },
+        { "id": "fe-half-sixths", "ref": { "num": 1, "den": 2 }, "candidates": [
+          { "id": "c0", "num": 2, "den": 6 },
+          { "id": "c1", "num": 3, "den": 6 },
+          { "id": "c2", "num": 5, "den": 6 }
+        ] },
+        { "id": "fe-half-eighths", "ref": { "num": 1, "den": 2 }, "candidates": [
+          { "id": "c0", "num": 3, "den": 8 },
+          { "id": "c1", "num": 6, "den": 8 },
+          { "id": "c2", "num": 4, "den": 8 }
+        ] },
+        { "id": "fe-third-sixths", "ref": { "num": 1, "den": 3 }, "candidates": [
+          { "id": "c0", "num": 2, "den": 6 },
+          { "id": "c1", "num": 1, "den": 6 },
+          { "id": "c2", "num": 4, "den": 6 }
+        ] },
+        { "id": "fe-twothirds-sixths", "ref": { "num": 2, "den": 3 }, "candidates": [
+          { "id": "c0", "num": 3, "den": 6 },
+          { "id": "c1", "num": 4, "den": 6 },
+          { "id": "c2", "num": 5, "den": 6 }
+        ] },
+        { "id": "fe-threefourths-eighths", "ref": { "num": 3, "den": 4 }, "candidates": [
+          { "id": "c0", "num": 5, "den": 8 },
+          { "id": "c1", "num": 7, "den": 8 },
+          { "id": "c2", "num": 6, "den": 8 }
+        ] },
+        { "id": "fe-fourth-eighths", "ref": { "num": 1, "den": 4 }, "candidates": [
+          { "id": "c0", "num": 2, "den": 8 },
+          { "id": "c1", "num": 1, "den": 8 },
+          { "id": "c2", "num": 3, "den": 8 }
+        ] },
+        { "id": "fe-fourths-half", "ref": { "num": 2, "den": 4 }, "candidates": [
+          { "id": "c0", "num": 1, "den": 2 },
+          { "id": "c1", "num": 1, "den": 3 },
+          { "id": "c2", "num": 2, "den": 3 }
+        ] }
+      ]
+    },
+    "slug": {
+      "en": "equivalent-fractions-same-amount"
+    },
+    "page_title": {
+      "en": "Crumb's Same-Amount Bakery — Equivalent Fractions (Grade 3)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 3 fractions activity: Crumb the mouse shows a piece cut one way, then three pieces cut into more or fewer slices. Tap the one that is the SAME amount — the equivalent fraction (like 1/2 and 3/6). Shaded bars plus the fraction numbers let children see that different fractions can name the same amount. Common Core 3.NF.A.3."
+    },
+    "kid_prompt_template": "fraction-equiv"
+  }
+]

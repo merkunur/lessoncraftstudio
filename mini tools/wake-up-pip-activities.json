@@ -1,0 +1,110 @@
+[
+  {
+    "id": "wake-up-pip.retell-story.rl-k-2",
+    "tool": "wake-up-pip-activity",
+    "task_template": "retell-story",
+    "alignment": { "framework": "CCSS", "code": "RL.K.2", "grade": "K", "strand": "Reading: Literature" },
+    "params": {
+      "rounds": [
+        {
+          "id": "sun", "type": "order", "band": 1,
+          "story": { "id": "sun", "beats": [
+            { "id": "b1", "order": 0, "requires": [], "narrative_key": true, "key": { "who": "pip", "what": "asleep" }, "panel": "sun-1", "caption": "Pip is fast asleep in the grass." },
+            { "id": "b2", "order": 1, "requires": ["b1"], "key": { "who": "sun", "what": "rises" }, "panel": "sun-2", "caption": "The sun climbs up the sky." },
+            { "id": "b3", "order": 2, "requires": ["b2"], "key": { "who": "sun", "what": "warms" }, "panel": "sun-3", "caption": "Warm sunlight reaches Pip's nose." },
+            { "id": "b4", "order": 3, "requires": ["b3"], "narrative_key": true, "key": { "who": "pip", "what": "wakes" }, "panel": "sun-4", "caption": "Pip wakes up and stretches!" }
+          ] },
+          "tray": ["sun-2", "sun-4", "sun-1", "sun-3"], "keySlots": []
+        },
+        {
+          "id": "kite", "type": "order", "band": 1,
+          "story": { "id": "kite", "beats": [
+            { "id": "b1", "order": 0, "requires": [], "narrative_key": true, "key": { "who": "mira", "what": "kite-stuck" }, "panel": "kite-1", "caption": "Mira's kite is stuck in a tall tree." },
+            { "id": "b2", "order": 1, "requires": ["b1"], "key": { "who": "mira", "what": "shakes" }, "panel": "kite-2", "caption": "Mira shakes the tree trunk hard." },
+            { "id": "b3", "order": 2, "requires": ["b2"], "key": { "who": "kite", "what": "floats" }, "panel": "kite-3", "caption": "The kite slips free and floats down." },
+            { "id": "b4", "order": 3, "requires": ["b3"], "narrative_key": true, "key": { "who": "mira", "what": "catches" }, "panel": "kite-4", "caption": "Mira catches her kite and grins." }
+          ] },
+          "tray": ["kite-3", "kite-1", "kite-4", "kite-2"], "keySlots": []
+        },
+        {
+          "id": "crow", "type": "order", "band": 1,
+          "story": { "id": "crow", "beats": [
+            { "id": "b1", "order": 0, "requires": [], "narrative_key": true, "key": { "who": "crow", "what": "thirsty" }, "panel": "crow-1", "caption": "A crow cannot reach the water in a jug." },
+            { "id": "b2", "order": 1, "requires": ["b1"], "key": { "who": "crow", "what": "drops-pebbles" }, "panel": "crow-2", "caption": "The crow drops pebbles into the jug." },
+            { "id": "b3", "order": 2, "requires": ["b2"], "key": { "who": "water", "what": "rises" }, "panel": "crow-3", "caption": "The water rises up high." },
+            { "id": "b4", "order": 3, "requires": ["b3"], "narrative_key": true, "key": { "who": "crow", "what": "drinks" }, "panel": "crow-4", "caption": "The crow drinks at last." }
+          ] },
+          "tray": ["crow-2", "crow-3", "crow-1", "crow-4"], "keySlots": []
+        },
+        {
+          "id": "puppy", "type": "supply-key", "band": 2,
+          "story": { "id": "puppy", "beats": [
+            { "id": "b1", "order": 0, "requires": [], "narrative_key": true, "key": { "who": "duke", "what": "muddy" }, "panel": "puppy-1", "caption": "Duke the puppy is covered in mud." },
+            { "id": "b2", "order": 1, "requires": ["b1"], "key": { "who": "sam", "what": "fills-tub" }, "panel": "puppy-2", "caption": "Sam fills the tub with warm water." },
+            { "id": "b3", "order": 2, "requires": ["b2"], "key": { "who": "sam", "what": "scrubs" }, "panel": "puppy-3", "caption": "Sam scrubs Duke with bubbly soap." },
+            { "id": "b4", "order": 3, "requires": ["b3"], "narrative_key": true, "key": { "who": "duke", "what": "clean" }, "panel": "puppy-4", "caption": "Duke is clean and fluffy again." }
+          ] },
+          "locked": [ { "slot": 0, "panel": "puppy-1" }, { "slot": 1, "panel": "puppy-2" }, { "slot": 3, "panel": "puppy-4" } ],
+          "trivialWhats": { "b3": [ { "id": "puppy-tw", "caption": "Sam hums a little tune.", "in_story": true } ] },
+          "foreignWhats": [ { "id": "puppy-fw", "caption": "Snow starts to fall.", "in_story": false } ],
+          "foreignWhos": [ { "id": "puppy-fwo", "caption": "A fox trots past.", "in_story": false } ],
+          "tray": ["puppy-fw", "puppy-3", "puppy-fwo", "puppy-tw"], "keySlots": [2]
+        },
+        {
+          "id": "mitten", "type": "supply-key", "band": 2,
+          "story": { "id": "mitten", "beats": [
+            { "id": "b1", "order": 0, "requires": [], "narrative_key": true, "key": { "who": "lina", "what": "drops-mitten" }, "panel": "mitten-1", "caption": "Lina drops her red mitten in the snow." },
+            { "id": "b2", "order": 1, "requires": ["b1"], "key": { "who": "lina", "what": "follows-tracks" }, "panel": "mitten-2", "caption": "Lina follows her footprints back." },
+            { "id": "b3", "order": 2, "requires": ["b2"], "key": { "who": "lina", "what": "spots-mitten" }, "panel": "mitten-3", "caption": "She spots the red mitten by a log." },
+            { "id": "b4", "order": 3, "requires": ["b3"], "narrative_key": true, "key": { "who": "lina", "what": "warm" }, "panel": "mitten-4", "caption": "Lina pulls the warm mitten on." }
+          ] },
+          "locked": [ { "slot": 0, "panel": "mitten-1" }, { "slot": 2, "panel": "mitten-3" }, { "slot": 3, "panel": "mitten-4" } ],
+          "trivialWhats": { "b2": [ { "id": "mitten-tw", "caption": "A snowman stands nearby.", "in_story": true } ] },
+          "foreignWhats": [ { "id": "mitten-fw", "caption": "The sun sets bright red.", "in_story": false } ],
+          "foreignWhos": [ { "id": "mitten-fwo", "caption": "A deer leaps away.", "in_story": false } ],
+          "tray": ["mitten-tw", "mitten-2", "mitten-fwo", "mitten-fw"], "keySlots": [1]
+        },
+        {
+          "id": "cake", "type": "supply-key", "band": 2,
+          "story": { "id": "cake", "beats": [
+            { "id": "b1", "order": 0, "requires": [], "narrative_key": true, "key": { "who": "theo", "what": "wants-surprise" }, "panel": "cake-1", "caption": "Theo wants to surprise Mom with a cake." },
+            { "id": "b2", "order": 1, "requires": ["b1"], "key": { "who": "theo", "what": "mixes" }, "panel": "cake-2", "caption": "Theo mixes the batter in a bowl." },
+            { "id": "b3", "order": 2, "requires": ["b2"], "key": { "who": "theo", "what": "bakes" }, "panel": "cake-3", "caption": "Theo bakes the cake in the oven." },
+            { "id": "b4", "order": 3, "requires": ["b3"], "narrative_key": true, "key": { "who": "mom", "what": "surprised" }, "panel": "cake-4", "caption": "Mom gasps with a happy smile." }
+          ] },
+          "locked": [ { "slot": 0, "panel": "cake-1" }, { "slot": 1, "panel": "cake-2" }, { "slot": 3, "panel": "cake-4" } ],
+          "trivialWhats": { "b3": [ { "id": "cake-tw", "caption": "A cat naps on the chair.", "in_story": true } ] },
+          "foreignWhats": [ { "id": "cake-fw", "caption": "A boat sails by.", "in_story": false } ],
+          "foreignWhos": [ { "id": "cake-fwo", "caption": "A robot beeps twice.", "in_story": false } ],
+          "tray": ["cake-fwo", "cake-3", "cake-tw", "cake-fw"], "keySlots": [2]
+        },
+        {
+          "id": "seed", "type": "fix-memory", "band": 3, "fixKind": "order",
+          "story": { "id": "seed", "beats": [
+            { "id": "b1", "order": 0, "requires": [], "narrative_key": true, "key": { "who": "gus", "what": "plants" }, "panel": "seed-1", "caption": "Gus plants a tiny seed in a pot." },
+            { "id": "b2", "order": 1, "requires": ["b1"], "key": { "who": "gus", "what": "waters" }, "panel": "seed-2", "caption": "Gus waters it every morning." },
+            { "id": "b3", "order": 2, "requires": ["b2"], "key": { "who": "sprout", "what": "grows" }, "panel": "seed-3", "caption": "A green sprout pushes up." },
+            { "id": "b4", "order": 3, "requires": ["b3"], "narrative_key": true, "key": { "who": "flower", "what": "blooms" }, "panel": "seed-4", "caption": "A bright flower blooms!" }
+          ] },
+          "prefill": ["seed-1", "seed-3", "seed-2", "seed-4"], "tray": [], "keySlots": []
+        },
+        {
+          "id": "paint", "type": "fix-memory", "band": 3, "fixKind": "face",
+          "story": { "id": "paint", "beats": [
+            { "id": "b1", "order": 0, "requires": [], "narrative_key": true, "key": { "who": "ada", "what": "spills" }, "panel": "paint-1", "caption": "Ada knocks over the blue paint." },
+            { "id": "b2", "order": 1, "requires": ["b1"], "key": { "who": "ada", "what": "grabs-cloth" }, "panel": "paint-2", "caption": "Ada grabs a cloth to help." },
+            { "id": "b3", "order": 2, "requires": ["b2"], "key": { "who": "ada", "what": "makes-sky" }, "panel": "paint-3", "caption": "She turns the spill into a sky." },
+            { "id": "b4", "order": 3, "requires": ["b3"], "narrative_key": true, "key": { "who": "ada", "what": "proud" }, "panel": "paint-4", "caption": "Ada smiles at her new painting." }
+          ] },
+          "foreignWhats": [ { "id": "paint-fw1", "caption": "A train chugs by.", "in_story": false }, { "id": "paint-fw2", "caption": "It starts to rain.", "in_story": false } ],
+          "prefill": ["paint-1", "paint-2", "paint-fw1", "paint-4"], "tray": ["paint-3", "paint-fw2"], "keySlots": [0, 1, 2, 3]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "wake-up-pip" },
+    "page_title": { "en": "Wake Up, Pip! — Retell the Story to a Friend (Kindergarten)" },
+    "page_intro": { "en": "A free interactive Kindergarten reading game for retelling stories with key details: Pip the sleepy friend naps through every story and wakes up dying to know what happened. WATCH the story play; then, after it disappears, TELL it back to Pip in the right order with the parts that matter — who, the problem, and how it ends. Putting the events back in order WITH the key details is the heart of Common Core RL.K.2." },
+    "kid_prompt_template": "retell-story"
+  }
+]

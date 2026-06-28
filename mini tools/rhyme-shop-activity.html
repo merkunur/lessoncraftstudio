@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Rosa Raccoon's Rhyme Wagon — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+  <style>
+    html, body { background: transparent !important; }
+    html, body, #lcs-root { height: 100% !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, then the locale-neutral rhyme-shop core, then this activity.
+       NOTE: bump ?v=N on EVERY change to rhyme-shop-activity.js / -core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=3"></script>
+  <script src="/mini-tools/rhyme-shop-core.js?v=1"></script>
+  <script src="/mini-tools/rhyme-shop-activity.js?v=4"></script>
+  <script>
+    LCS.mount(RhymeShopActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

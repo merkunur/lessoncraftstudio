@@ -1,0 +1,26 @@
+[
+  {
+    "id": "mims-baskets.category-sort.l-k-5-a",
+    "tool": "mims-baskets-activity",
+    "task_template": "category-sort",
+    "alignment": { "framework": "CCSS", "code": "L.K.5.A", "grade": "K", "strand": "Vocabulary Acquisition and Use" },
+    "params": {
+      "rounds": [
+        { "id": "sort-three", "cog": "sort", "band": 1, "spill": ["dog", "apple", "car"], "baskets": ["animal", "food", "vehicle"] },
+        { "id": "confound-red", "cog": "confound", "band": 2, "spill": ["apple", "fire_truck", "banana"], "baskets": ["food", "vehicle", "animal"] },
+        { "id": "diverse-animals", "cog": "diverse", "band": 2, "spill": ["dog", "fish", "duck", "car"], "baskets": ["animal", "vehicle", "food"] },
+        { "id": "confound-round", "cog": "confound", "band": 2, "spill": ["ball", "orange", "shoe"], "baskets": ["toy", "food", "clothing"] },
+        { "id": "sort-four", "cog": "sort", "band": 1, "spill": ["hat", "train", "corn", "cat"], "baskets": ["clothing", "vehicle", "food", "animal"] },
+        { "id": "diverse-three", "cog": "diverse", "band": 3, "spill": ["rabbit", "turtle", "owl", "blocks"], "baskets": ["animal", "toy", "food"] },
+        { "id": "odd-one-out", "cog": "odd", "band": 2, "spill": ["dog", "cat", "fish", "car"], "baskets": ["animal", "vehicle", "food"] },
+        { "id": "confound-yellow", "cog": "confound", "band": 3, "spill": ["banana", "duck", "mitten"], "baskets": ["food", "animal", "clothing"] },
+        { "id": "sort-shapes", "cog": "sort", "band": 1, "spill": ["star", "circle", "strawberry", "horse"], "baskets": ["shape", "food", "animal"] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "mims-baskets" },
+    "page_title": { "en": "Mim's Memory Baskets — Sort Things into Groups" },
+    "page_intro": { "en": "Mim is a sleepy, forgetful little cloud-friend whose basket of treasures tipped over! Help Mim remember what things ARE by putting each one in the basket where it belongs — animals with animals, foods with foods. Every time you do, Mim remembers a little more. A warm Kindergarten sorting game aligned to Common Core L.K.5.A." },
+    "kid_prompt_template": "category-sort"
+  }
+]

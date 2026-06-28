@@ -1,0 +1,38 @@
+[
+  {
+    "id": "patchwork-meadow.tile.3-md-c-6",
+    "tool": "patchwork-meadow-activity",
+    "task_template": "area-cover",
+    "alignment": { "framework": "CCSS", "code": "3.MD.C.6", "grade": "3", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "pm-tile-flowerbed",  "cog": "tile",   "region": ["11", "11", "11", "1."] },
+        { "id": "pm-tile-staircase",  "cog": "tile",   "region": ["1..", "11.", "111"] },
+        { "id": "pm-tile-cross",      "cog": "tile",   "region": [".1.", "111", ".1."] },
+
+        { "id": "pm-repair-bed",      "cog": "repair", "region": ["111", "111"],        "prePlaced": ["101", "112"] },
+        { "id": "pm-repair-Lpond",    "cog": "repair", "region": ["11.", "111"],        "prePlaced": ["10.", "112"] },
+
+        { "id": "pm-estimate-stair",  "cog": "estimate", "region": ["1..", "11.", "111"], "choices": [{ "value": 9 }, { "value": 6 }, { "value": 5 }] },
+        { "id": "pm-estimate-Lbed",   "cog": "estimate", "region": ["111", "1..", "1.."], "choices": [{ "value": 9 }, { "value": 5 }, { "value": 4 }] },
+
+        { "id": "pm-finish-zigzag",   "cog": "finish", "region": [".11", "111", "11."], "prePlaced": [".10", "111", "00."] },
+        { "id": "pm-finish-bigstair", "cog": "finish", "region": ["1...", "11..", "111.", "1111"], "prePlaced": ["0...", "00..", "111.", "1111"] },
+
+        { "id": "pm-build-six",       "cog": "build",  "frame": ["111", "111", "111"], "target": 6 },
+        { "id": "pm-build-five",      "cog": "build",  "frame": ["1111", "1111"],      "target": 5 }
+      ]
+    },
+    "slug": {
+      "en": "sprouts-patchwork-meadow-area"
+    },
+    "page_title": {
+      "en": "Sprout's Patchwork Meadow — Measure Area by Covering with Unit Squares (Grade 3)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 3 math activity: help Sprout the gardener carpet irregular flower beds completely with moss-patch unit squares — no gaps, no overlaps — and the area is the count of squares it takes to cover the space. The beds are L-shapes and staircases, so there is no length to multiply by a width: children measure area the real way, by covering the space with unit squares and counting them. Cover from empty, fix a covering with a gap and an overlap, predict an area, finish a partial bed, and build a bed of an exact size. Common Core 3.MD.C.6 (also 3.MD.C.5)."
+    },
+    "kid_prompt_template": "area-cover"
+  }
+]

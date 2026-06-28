@@ -1,0 +1,43 @@
+[
+  {
+    "id": "bos-berry-pantry.slingshot-tens.1-nbt-b-2",
+    "tool": "bos-berry-pantry-activity",
+    "task_template": "slingshot-tens",
+    "alignment": { "framework": "CCSS", "code": "1.NBT.B.2", "grade": "1", "strand": "Number & Operations in Base Ten" },
+    "params": {
+      "rounds": [
+        { "id": "pack-thirty-four", "lane": "decode", "band": 1, "prompt": { "kind": "pile", "value": 34 },
+          "shelves": [ { "tens": 3, "ones": 4, "kind": "equivalent" }, { "tens": 4, "ones": 3, "kind": "reversal" }, { "tens": 2, "ones": 4, "kind": "near-place" }, { "tens": 1, "ones": 9, "kind": "value-trap" } ] },
+
+        { "id": "forty-no-loose", "lane": "decade", "band": 1, "prompt": { "kind": "value-q", "value": 40 },
+          "shelves": [ { "tens": 4, "ones": 0, "kind": "equivalent" }, { "tens": 4, "ones": 1, "kind": "near-place" }, { "tens": 0, "ones": 4, "kind": "value-trap" }, { "tens": 3, "ones": 0, "kind": "near-place" } ] },
+
+        { "id": "bundle-twenty-five", "lane": "unitize-count", "band": 2, "prompt": { "kind": "value-q", "value": 25 },
+          "shelves": [ { "tens": 2, "ones": 5, "kind": "equivalent" }, { "tens": 5, "ones": 2, "kind": "reversal" }, { "tens": 1, "ones": 15, "kind": "grouping-trap" }, { "tens": 2, "ones": 4, "kind": "near-place" } ] },
+
+        { "id": "which-is-more", "lane": "encode", "band": 2, "compare": "more", "prompt": { "kind": "value-q", "value": 44 },
+          "shelves": [ { "tens": 4, "ones": 4, "kind": "equivalent" }, { "tens": 2, "ones": 9, "kind": "value-trap" }, { "tens": 3, "ones": 6, "kind": "near-place" }, { "tens": 1, "ones": 9, "kind": "value-trap" } ] },
+
+        { "id": "send-sixty-three", "lane": "decode", "band": 1, "prompt": { "kind": "numeral", "value": 63 },
+          "shelves": [ { "tens": 6, "ones": 3, "kind": "equivalent" }, { "tens": 3, "ones": 6, "kind": "reversal" }, { "tens": 5, "ones": 3, "kind": "near-place" }, { "tens": 6, "ones": 2, "kind": "near-place" } ] },
+
+        { "id": "pack-twenty-eight", "lane": "decode", "band": 1, "prompt": { "kind": "pile", "value": 28 },
+          "shelves": [ { "tens": 2, "ones": 8, "kind": "equivalent" }, { "tens": 8, "ones": 2, "kind": "reversal" }, { "tens": 2, "ones": 7, "kind": "near-place" }, { "tens": 1, "ones": 9, "kind": "value-trap" } ] },
+
+        { "id": "seventy-no-loose", "lane": "decade", "band": 1, "prompt": { "kind": "value-q", "value": 70 },
+          "shelves": [ { "tens": 7, "ones": 0, "kind": "equivalent" }, { "tens": 7, "ones": 1, "kind": "near-place" }, { "tens": 0, "ones": 7, "kind": "value-trap" }, { "tens": 6, "ones": 0, "kind": "near-place" } ] },
+
+        { "id": "name-the-hoard", "lane": "encode", "band": 3, "prompt": { "kind": "value-q", "value": 85, "hoard": { "tens": 8, "ones": 5 } },
+          "shelves": [ { "numeral": 85, "kind": "equivalent" }, { "numeral": 58, "kind": "reversal" }, { "numeral": 95, "kind": "near-place" }, { "numeral": 805, "kind": "value-trap" } ] },
+
+        { "id": "pack-thirteen", "lane": "decode", "band": 1, "prompt": { "kind": "pile", "value": 13 },
+          "shelves": [ { "tens": 1, "ones": 3, "kind": "equivalent" }, { "tens": 3, "ones": 1, "kind": "reversal" }, { "tens": 1, "ones": 4, "kind": "near-place" }, { "tens": 0, "ones": 9, "kind": "value-trap" } ] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "bos-berry-pantry" },
+    "page_title": { "en": "Bo's Berry Pantry — Tens and Ones the Smart Way" },
+    "page_intro": { "en": "Bo the bunny is stocking his winter pantry, and a crate holds exactly ten berries — sealed up, you just KNOW it's a ten. Read Bo's pile or number, then sling his berries to the shelf that matches with the right crates and loose berries. Watch the crates crack open and count by tens! A warm Grade 1 place-value game about tens and ones, aligned to Common Core 1.NBT.B.2." },
+    "kid_prompt_template": "slingshot-tens"
+  }
+]

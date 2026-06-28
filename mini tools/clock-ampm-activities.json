@@ -1,0 +1,32 @@
+[
+  {
+    "id": "clock-ampm.morning-or-night.2-md-c-7",
+    "tool": "clock-ampm-activity",
+    "task_template": "am-or-pm",
+    "alignment": { "framework": "CCSS", "code": "2.MD.C.7", "grade": "2", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "ap-breakfast", "activity": "You eat breakfast.", "time": "7:00", "ampm": "AM" },
+        { "id": "ap-wakeup", "activity": "You wake up.", "time": "6:00", "ampm": "AM" },
+        { "id": "ap-school", "activity": "School starts.", "time": "8:00", "ampm": "AM" },
+        { "id": "ap-sunrise", "activity": "The sun comes up.", "time": "6:00", "ampm": "AM" },
+        { "id": "ap-dinner", "activity": "You eat dinner.", "time": "6:00", "ampm": "PM" },
+        { "id": "ap-sleep", "activity": "You go to sleep.", "time": "8:00", "ampm": "PM" },
+        { "id": "ap-stars", "activity": "You look at the stars.", "time": "9:00", "ampm": "PM" },
+        { "id": "ap-play", "activity": "You play after school.", "time": "4:00", "ampm": "PM" },
+        { "id": "ap-brush", "activity": "You brush your teeth before bed.", "time": "9:00", "ampm": "PM" }
+      ]
+    },
+    "slug": {
+      "en": "am-or-pm-morning-or-night"
+    },
+    "page_title": {
+      "en": "Sprocket's Clock — A.M. or P.M.? (Grade 2)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 time activity: decide whether an everyday thing happens in the a.m. (morning) or p.m. (afternoon or evening). Children learn that breakfast is a.m. and dinner is p.m. — using a.m. and p.m. with the time of day. Sprocket the rooster cheers them on. Common Core 2.MD.C.7."
+    },
+    "kid_prompt_template": "clock-ampm"
+  }
+]

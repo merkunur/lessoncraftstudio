@@ -1,0 +1,351 @@
+/* =====================================================================
+   CHUFFER'S SWITCHYARD — ACTIVITY  (chuffer-activity.js)
+   ---------------------------------------------------------------------
+   CCSS K.OA.A.3 — decompose a whole N into two parts in MORE THAN ONE WAY,
+   the child STATING each split (the recording requirement). You're the
+   switchman: a load of N crates forks into a Left car + a Right car; move
+   crates between the cars, READ each car, STATE the split (5 = ☐ + ☐), and
+   pull the coupler. Find EVERY distinct way → the route-book (staircase) fills.
+
+   The decomposition is the child's NAMED CLAIM — the equation NEVER auto-prints;
+   the coupler banks a way ONLY when the stated parts match the actual car-counts
+   (a mismatch → a no-shame "count again"). Seven distinct act-types:
+   decompose-record / predict-covariation / hunt-rung / make-ten / equation-build
+   / predict-mirror / judge-route.
+
+   Decomposition mechanics + the dedup'd manifest live in mini tools/
+   rail-decompose-core.js (pure). answerType:'state'. Crates wrap to ten-frame
+   arrays (the count-not-length cardinality aid). Chuffer = SVG STUB for CA5. No
+   timer/score/streak; mis-states are no-shame instruction. 0 lines to the
+   protected cores + lcs-shell.*.
+   ===================================================================== */
+(function (global) {
+  'use strict';
+
+  var Core = global.RailDecomposeCore;
+  var C = { T: '#146B5E', BLUE: '#3FA7D6', BLUE2: '#2E7CA8', RED: '#F2784B', RED2: '#D9572F', CREAM: '#FBF3E4', GOLD: '#E8A53A', INK: '#2A2A35' };
+  var WORDS = { 0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight', 9: 'nine', 10: 'ten' };
+
+  function speak(text) {
+    try {
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: 'en', rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+    } catch (e) {}
+  }
+  function chufferSVG(mood) {
+    var happy = mood === 'happy' || mood === 'haul';
+    return '<svg class="cf-loco-svg" viewBox="0 0 100 100" role="img" aria-label="Chuffer">'
+      + '<rect x="22" y="38" width="46" height="34" rx="7" fill="#3FA7D6"/><rect x="60" y="28" width="20" height="44" rx="5" fill="#2E7CA8"/>'
+      + '<circle cx="34" cy="78" r="9" fill="#2A2A35"/><circle cx="58" cy="78" r="9" fill="#2A2A35"/><circle cx="34" cy="78" r="3.5" fill="#fff"/><circle cx="58" cy="78" r="3.5" fill="#fff"/>'
+      + '<rect x="40" y="22" width="9" height="14" rx="2" fill="#2A2A35"/>'
+      + '<circle cx="70" cy="44" r="3.4" fill="#fff"/><circle cx="70" cy="44" r="1.6" fill="#2A2A35"/>'
+      + (happy ? '<path d="M44 26 q4 -8 9 -3" stroke="#cfe9f6" stroke-width="5" fill="none" stroke-linecap="round"/>' : '') + '</svg>';
+  }
+  function crateGrid(api, count, kind) {
+    var fr = api.el('div', 'cf-frame');
+    for (var i = 0; i < 10; i++) {
+      var cell = api.el('div', 'cf-cell' + (i < count ? ' cf-filled cf-' + kind : ''));
+      fr.appendChild(cell);
+    }
+    return fr;
+  }
+
+  global.ChufferActivity = {
+    id: 'chuffer-activity',
+    reward: { id: 'chuffer-hill', label: "Chuffer's Hill", emoji: '🚂' },
+
+    strings: {
+      title: { en: "Chuffer's Switchyard" },
+      prompt: { en: 'Split the load and say each way!' },
+      baseHint: { en: 'Move crates, say the split, pull the coupler!' },
+      covaryHint: { en: 'Move ONE crate — what is the new split?' },
+      huntHint: { en: 'The route-book has a gap — find that way!' },
+      maketenHint: { en: 'One car is sealed — find the partner to make 10!' },
+      equationHint: { en: 'Build this exact load: {a} + {b}!' },
+      mirrorHint: { en: 'You found {a} + {b} — what if we swap the cars?' },
+      judgeHint: { en: 'Chuffer says a route — is it NEW, or one we have?' },
+      sayA: { en: '?' },
+      coupler: { en: 'Pull the coupler! 🔗' },
+      pickPrompt: { en: 'How many in this car?' },
+      newRoute: { en: 'New route!' },
+      gotIt: { en: 'We have that!' },
+      swap: { en: 'Swap them!' },
+      banked: { en: 'CLUNK! {a} and {b} — logged!' },
+      mirror: { en: 'Same crates, just swapped — {a} and {b}, OR {b} and {a}!' },
+      dupe: { en: 'Chuffer already knows that route — find a NEW way!' },
+      mismatch: { en: "Let's count again — how many in each car?" },
+      win: { en: 'Chuffer reached the station! 🚂🎉' },
+      hintCheck: { en: 'Find every way to split the load.' }
+    },
+    defaults: {},
+
+    init: function (api) {
+      this.api = api;
+      this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
+      this.round = null; this.solved = false; this.solvedCount = 0; this.msg = null;
+      var params = (global.location) ? new URLSearchParams(global.location.search) : null;
+      this._activityId = params ? params.get('activity') : null;
+      if (this._activityId) this._loadActivity();
+    },
+
+    setupTask: function (round) {
+      this.round = round; this.cstate = Core.newState(round); this.solved = false; this.msg = null;
+      this.statedA = null; this.statedB = null; this.picking = null;
+      this.mirrorStep = false; this.judgeIdx = 0; this.act = round.actType;
+    },
+
+    _whole: function () { return this.round.whole; },
+    announce: function (s) { if (this.api.announce) this.api.announce(s); },
+
+    /* ---------- render ---------- */
+    render: function () {
+      this.injectCSS(); var api = this.api, stage = api.stage; stage.innerHTML = '';
+      var wrap = api.el('div', 'cf-wrap'); var root = api.el('div', 'cf-root'); this._rootEl = root;
+      if (!this.round) { wrap.appendChild(root); stage.appendChild(wrap); return; }
+      var head = api.el('div', 'cf-head');
+      var lo = api.el('div', 'cf-loco'); lo.innerHTML = chufferSVG(this.solved ? 'happy' : 'idle'); head.appendChild(lo);
+      var say = api.el('div', 'cf-say'); say.textContent = this.msg || this._hint(); head.appendChild(say);
+      root.appendChild(head);
+
+      if (this.solved) this._renderDone(root);
+      else if (this.act === 'judge-route') this._renderJudge(root);
+      else this._renderBase(root);
+
+      wrap.appendChild(root); stage.appendChild(wrap);
+    },
+    _hint: function () {
+      var api = this.api, r = this.round;
+      if (this.act === 'predict-covariation') return api.t('covaryHint');
+      if (this.act === 'hunt-rung') return api.t('huntHint');
+      if (this.act === 'make-ten') return api.t('maketenHint');
+      if (this.act === 'equation-build') return api.t('equationHint').replace('{a}', r.givenEquation.a).replace('{b}', r.givenEquation.b);
+      if (this.act === 'predict-mirror' && this.mirrorStep) return api.t('mirrorHint').replace('{a}', this.cstate.a).replace('{b}', this.cstate.b);
+      if (this.act === 'judge-route') return api.t('judgeHint');
+      return api.t('baseHint');
+    },
+
+    /* ----- the base flow: cars + shifter + route-card + coupler + staircase ----- */
+    _renderBase: function (root) {
+      var self = this, api = this.api, s = this.cstate, N = this._whole();
+      var main = api.el('div', 'cf-main');
+
+      // LEFT: the two cars + the shifter (the whole N lives in the route-card)
+      var yard = api.el('div', 'cf-yard');
+      var cars = api.el('div', 'cf-cars');
+      cars.appendChild(this._car('a', s.a, s.sealed === 'a')); cars.appendChild(this._car('b', s.b, s.sealed === 'b'));
+      yard.appendChild(cars);
+      if (!s.sealed) {
+        var sh = api.el('div', 'cf-shift');
+        var lft = api.el('button', 'cf-shiftbtn'); lft.type = 'button'; lft.textContent = '◀'; lft.setAttribute('aria-label', 'move a crate to the blue car'); lft.addEventListener('click', function () { self._move('a'); });
+        var lab = api.el('span', 'cf-shiftlab'); lab.textContent = 'move a crate';
+        var rgt = api.el('button', 'cf-shiftbtn'); rgt.type = 'button'; rgt.textContent = '▶'; rgt.setAttribute('aria-label', 'move a crate to the red car'); rgt.addEventListener('click', function () { self._move('b'); });
+        sh.appendChild(lft); sh.appendChild(lab); sh.appendChild(rgt); yard.appendChild(sh);
+      }
+      main.appendChild(yard);
+
+      // RIGHT: the route-card + (while PICKING: just the picker; else the coupler + the staircase)
+      var side = api.el('div', 'cf-side');
+      side.appendChild(this._routeCard());
+      if (this.picking) { side.appendChild(this._picker()); }
+      else {
+        var coupler = api.el('button', 'cf-coupler' + ((this.statedA != null && this.statedB != null) ? '' : ' cf-off')); coupler.type = 'button'; coupler.textContent = api.t('coupler'); coupler.disabled = (this.statedA == null || this.statedB == null);
+        if (this.statedA != null && this.statedB != null) coupler.addEventListener('click', function () { self._couple(); });
+        side.appendChild(coupler);
+        side.appendChild(this._staircase());
+      }
+      main.appendChild(side); root.appendChild(main);
+    },
+    _car: function (which, count, sealed) {
+      var api = this.api, box = api.el('div', 'cf-carbox cf-car-' + which);
+      var cap = api.el('div', 'cf-carcap'); cap.textContent = (which === 'a' ? 'Blue car' : 'Red car') + (sealed ? ' 🔒' : ''); box.appendChild(cap);
+      box.appendChild(crateGrid(api, count, which));
+      return box;
+    },
+    _move: function (toCar) { if (Core.move(this.cstate, toCar).changed) { this.statedA = null; this.statedB = null; this.msg = null; this.api.sound && this.api.sound(toCar === 'a' ? 520 : 560); this.render(); } },
+
+    _routeCard: function () {
+      var self = this, api = this.api, N = this._whole();
+      var card = api.el('div', 'cf-route');
+      card.appendChild(this._eqnum(N, 'cf-eq-whole'));
+      var eq = api.el('span', 'cf-eqop'); eq.textContent = '='; card.appendChild(eq);
+      var ba = api.el('button', 'cf-box cf-box-a' + (this.picking === 'a' ? ' cf-picking' : '')); ba.type = 'button'; ba.textContent = (this.statedA != null) ? this.statedA : '?'; ba.addEventListener('click', function () { self.picking = (self.picking === 'a' ? null : 'a'); self.render(); }); card.appendChild(ba);
+      var pl = api.el('span', 'cf-eqop'); pl.textContent = '+'; card.appendChild(pl);
+      var bb = api.el('button', 'cf-box cf-box-b' + (this.picking === 'b' ? ' cf-picking' : '')); bb.type = 'button'; bb.textContent = (this.statedB != null) ? this.statedB : '?'; bb.addEventListener('click', function () { self.picking = (self.picking === 'b' ? null : 'b'); self.render(); }); card.appendChild(bb);
+      return card;
+    },
+    _eqnum: function (n, cls) { var e = this.api.el('span', 'cf-eqn ' + (cls || '')); e.textContent = n; return e; },
+    _picker: function () {
+      var self = this, api = this.api, N = this._whole(), box = api.el('div', 'cf-picker');
+      var lab = api.el('div', 'cf-pickerlab'); lab.textContent = api.t('pickPrompt'); box.appendChild(lab);
+      var chips = api.el('div', 'cf-chips');
+      for (var i = 0; i <= N; i++) { (function (v) { var c = api.el('button', 'cf-chip'); c.type = 'button'; c.textContent = v; c.addEventListener('click', function () { if (self.picking === 'a') self.statedA = v; else self.statedB = v; self.picking = null; self.api.sound && self.api.sound(640); self.render(); }); chips.appendChild(c); })(i); }
+      box.appendChild(chips); return box;
+    },
+    _couple: function () {
+      var self = this, api = this.api;
+      Core.stateParts(this.cstate, this.statedA, this.statedB);
+      var res = Core.record(this.cstate);
+      if (res === 'recorded') {
+        this.api.sound && this.api.sound(880); this.msg = api.t('banked').replace('{a}', this.cstate.a).replace('{b}', this.cstate.b);
+        speak(WORDS[this._whole()] + ' is ' + WORDS[this.cstate.a] + ' and ' + WORDS[this.cstate.b]);
+        this.statedA = null; this.statedB = null;
+        if (this.act === 'predict-mirror' && this.cstate.a !== this.cstate.b && !this.mirrorStep) { this.mirrorStep = true; }
+        this._checkDone(); if (!this.solved) this.render();
+      } else if (res === 'mirror') {
+        this.api.sound && this.api.sound(760); this.msg = api.t('mirror').replace('{a}', this.cstate.b).replace('{b}', this.cstate.a);
+        this.statedA = null; this.statedB = null;
+        if (this.act === 'predict-mirror') { this.solved = true; this._win(); return; }
+        this.render();
+      } else if (res === 'duplicate') { this.api.sound && this.api.sound(420); this.msg = api.t('dupe'); this.statedA = null; this.statedB = null; this.render(); }
+      else { this.api.sound && this.api.sound(330); this.msg = api.t('mismatch'); this.statedA = null; this.statedB = null; this.render(); }
+    },
+    _checkDone: function () {
+      var r = this.round, s = this.cstate, done = false;
+      if (this.act === 'make-ten' || this.act === 'equation-build') { var k = (this.act === 'make-ten') ? Core.keyOf(r.sealedCar.k, r.whole - r.sealedCar.k) : Core.keyOf(r.givenEquation.a, r.givenEquation.b); done = !!s.manifest[k]; }
+      else if (this.act === 'predict-mirror') { done = false; }   // completes on the mirror (handled in _couple)
+      else done = Core.isComplete(r, s);
+      if (done) this._win();
+    },
+
+    /* ----- judge-route: Chuffer proposes; the child judges new vs duplicate ----- */
+    _renderJudge: function (root) {
+      var self = this, api = this.api, r = this.round, prop = r.proposed[this.judgeIdx];
+      var main = api.el('div', 'cf-main');
+      var yard = api.el('div', 'cf-yard');
+      var claim = api.el('div', 'cf-claim'); claim.innerHTML = 'Chuffer says: <b>' + r.whole + ' = ' + prop.a + ' + ' + prop.b + '</b>'; yard.appendChild(claim);
+      var cars = api.el('div', 'cf-cars'); cars.appendChild(this._car('a', prop.a, false)); cars.appendChild(this._car('b', prop.b, false)); yard.appendChild(cars);
+      main.appendChild(yard);
+      var side = api.el('div', 'cf-side cf-judge');
+      var nw = api.el('button', 'cf-jbtn cf-jnew'); nw.type = 'button'; nw.textContent = api.t('newRoute'); nw.addEventListener('click', function () { self._judge(true); });
+      var got = api.el('button', 'cf-jbtn cf-jgot'); got.type = 'button'; got.textContent = api.t('gotIt'); got.addEventListener('click', function () { self._judge(false); });
+      side.appendChild(nw); side.appendChild(got);
+      side.appendChild(this._staircase());
+      main.appendChild(side); root.appendChild(main);
+    },
+    _judge: function (sayNew) {
+      var self = this, r = this.round, prop = r.proposed[this.judgeIdx], s = this.cstate;
+      var key = Core.keyOf(prop.a, prop.b), isNew = !s.manifest[key];
+      if (sayNew === isNew) {
+        if (isNew) { s.manifest[key] = true; speak(WORDS[r.whole] + ' is ' + WORDS[prop.a] + ' and ' + WORDS[prop.b]); }
+        this.api.sound && this.api.sound(820); this.msg = null; this.judgeIdx++;
+        if (this.judgeIdx >= r.proposed.length) { this._win(); return; } this.render();
+      } else { this.api.sound && this.api.sound(330); this.msg = isNew ? "Look — it's not in the book yet!" : "Look again — we already have that one!"; this.render(); }
+    },
+
+    _win: function () { this.solved = true; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 9); this.api.sound && this.api.sound(940); this.render(); this.announce(this.api.t('win')); speak('Chuffer reached the station'); },
+
+    _staircase: function () {
+      var api = this.api, N = this._whole(), s = this.cstate, ways = Core.waysFor(N), book = api.el('div', 'cf-book');
+      var title = api.el('div', 'cf-booktitle'); title.textContent = 'Route-book'; book.appendChild(title);
+      var rungs = api.el('div', 'cf-rungs');
+      ways.forEach(function (w) {
+        var have = !!s.manifest[Core.keyOf(w.a, w.b)];
+        var rung = api.el('div', 'cf-rung' + (have ? ' cf-have' : ' cf-gap'));
+        rung.textContent = have ? (w.a + '+' + w.b) : '?';   // compact — the whole N is in the route-card
+        rungs.appendChild(rung);
+      });
+      book.appendChild(rungs); return book;
+    },
+
+    _renderDone: function (root) {
+      var api = this.api, N = this._whole();
+      var hill = api.el('div', 'cf-hill');
+      for (var i = 0; i < ((this._pool && this._pool.length) || 9); i++) { var p = api.el('span', 'cf-plank' + (i < this.solvedCount ? ' cf-plank-on' : '')); p.textContent = '🚂'; hill.appendChild(p); }
+      root.appendChild(hill);
+      if (this.act !== 'judge-route') { root.appendChild(this._staircase()); }
+    },
+
+    isCorrect: function () { return this.solved; },
+    reset: function () { this.setupTask(this.round); this.render(); },
+
+    nextTask: function (opts) {
+      var pool = (this._pool && this._pool.length) ? this._pool : makeTasks([]); var n = pool.length, i = (opts && opts.index) || 0;
+      if (!n) return null;
+      if (!this._order || this._orderForPool !== pool || this._order.length !== n) { this._order = bandOrder(pool, null); this._orderForPool = pool; this._curPass = 0; }
+      var pass = Math.floor(i / n); if (pass > this._curPass) { this._order = bandOrder(pool, this._order); this._curPass = pass; }
+      return pool[this._order[i % n]];
+    },
+
+    _loadActivity: function () {
+      var self = this;
+      fetch('/mini-tools/chuffer-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .catch(function (e) { if (global.console && console.warn) console.warn('[chuffer] manifest load failed:', e.message); });
+    },
+
+    injectCSS: function () {
+      if (this._cssInjected) return; this._cssInjected = true;
+      var css = ''
+        + '.cf-wrap{display:flex;justify-content:center;width:100%;max-width:min(96vw,560px);margin:0 auto;}'
+        + '.cf-root{position:relative;width:100%;display:flex;flex-direction:column;align-items:center;gap:clamp(6px,1.6vw,10px);background:linear-gradient(180deg,#FBF3E4,#F2E8D2);border-radius:20px;padding:clamp(8px,1.9vw,13px);box-shadow:inset 0 2px 0 rgba(255,255,255,.5),0 5px 0 rgba(20,107,94,.07);}'
+        + '.cf-head{display:flex;align-items:center;gap:clamp(6px,2vw,12px);justify-content:center;width:100%;}'
+        + '.cf-loco{width:clamp(44px,10vw,56px);flex:0 0 auto;}.cf-loco-svg{width:100%;height:auto;display:block;}'
+        + '.cf-say{background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:13px 13px 13px 3px;padding:5px 10px;font:700 clamp(12px,3vw,14px)/1.2 "Nunito",sans-serif;color:' + C.T + ';max-width:80%;}'
+        + '.cf-main{display:flex;flex-direction:column;align-items:center;gap:clamp(8px,2vw,14px);width:100%;}'
+        + '@media (min-width:768px){.cf-main{flex-direction:row;align-items:flex-start;justify-content:center;gap:22px;}.cf-side{width:auto;flex:0 1 auto;}.cf-yard{width:auto;flex:0 1 auto;}}'
+        + '.cf-yard{display:flex;flex-direction:column;align-items:center;gap:8px;width:100%;}'
+        + '.cf-whole{font:700 clamp(13px,3.4vw,16px)/1 "Nunito",sans-serif;color:' + C.T + ';}.cf-wholenum{font:800 clamp(20px,5.5vw,26px) "Baloo 2",sans-serif;color:' + C.T + ';}'
+        /* cars */
+        + '.cf-cars{display:flex;gap:clamp(8px,2.4vw,16px);justify-content:center;}'
+        + '.cf-carbox{display:flex;flex-direction:column;align-items:center;gap:4px;}'
+        + '.cf-carcap{font:800 clamp(11px,2.9vw,13px)/1 "Baloo 2",sans-serif;color:' + C.T + ';}'
+        + '.cf-frame{display:grid;grid-template-columns:repeat(5,clamp(15px,4vw,20px));grid-template-rows:repeat(2,clamp(15px,4vw,20px));gap:3px;background:#E7D9BD;padding:5px;border-radius:10px;box-shadow:inset 0 2px 5px rgba(120,90,40,.16);}'
+        + '.cf-cell{width:clamp(15px,4vw,20px);height:clamp(15px,4vw,20px);border-radius:4px;background:#FCF6EA;border:1px solid rgba(20,107,94,.1);}'
+        + '.cf-filled.cf-a{background:' + C.BLUE + ';border-color:' + C.BLUE2 + ';}.cf-filled.cf-b{background:' + C.RED + ';border-color:' + C.RED2 + ';}'
+        /* shifter */
+        + '.cf-shift{display:flex;align-items:center;gap:8px;}'
+        + '.cf-shiftbtn{min-width:48px;min-height:48px;border-radius:13px;border:0;background:' + C.T + ';color:#fff;font:800 20px/1 "Baloo 2",sans-serif;cursor:pointer;box-shadow:0 3px 0 #0e4f45;touch-action:manipulation;}.cf-shiftbtn:active{transform:translateY(2px);}'
+        + '.cf-shiftlab{font:700 clamp(11px,2.8vw,13px)/1 "Nunito",sans-serif;color:' + C.T + ';}'
+        /* route-card */
+        + '.cf-side{display:flex;flex-direction:column;align-items:center;gap:8px;width:100%;}'
+        + '.cf-route{display:inline-flex;align-items:center;gap:6px;background:#fff;border:2px solid rgba(20,107,94,.2);border-radius:14px;padding:6px 13px;}'
+        + '.cf-eqn{font:800 clamp(22px,6vw,30px)/1 "Baloo 2",sans-serif;color:' + C.T + ';}.cf-eqop{font:800 clamp(18px,5vw,24px)/1 "Baloo 2",sans-serif;color:#9a8f78;}'
+        + '.cf-box{min-width:46px;min-height:46px;border-radius:11px;border:2px dashed ' + C.T + ';background:#F4FAF8;font:800 clamp(20px,5.5vw,26px)/1 "Baloo 2",sans-serif;color:' + C.T + ';cursor:pointer;touch-action:manipulation;}'
+        + '.cf-box-a{color:' + C.BLUE2 + ';border-color:' + C.BLUE + ';}.cf-box-b{color:' + C.RED2 + ';border-color:' + C.RED + ';}'
+        + '.cf-box.cf-picking{background:#FFF6E4;box-shadow:0 0 0 3px rgba(232,165,58,.3);}'
+        + '.cf-picker{display:flex;flex-direction:column;align-items:stretch;gap:4px;background:#FFF9EC;border-radius:12px;padding:6px 8px;width:min(74vw,244px);margin:0 auto;}'
+        + '.cf-pickerlab{font:700 clamp(11px,2.8vw,13px)/1 "Nunito",sans-serif;color:' + C.T + ';}'
+        + '.cf-chips{display:flex;flex-wrap:nowrap;gap:4px;justify-content:flex-start;overflow-x:auto;width:100%;padding-bottom:2px;-webkit-overflow-scrolling:touch;}'
+        + '.cf-chip{min-width:44px;min-height:44px;border-radius:10px;border:2px solid rgba(20,107,94,.2);background:#fff;color:' + C.T + ';font:800 clamp(15px,4vw,18px)/1 "Baloo 2",sans-serif;cursor:pointer;touch-action:manipulation;}.cf-chip:active{transform:translateY(1px);}'
+        /* coupler */
+        + '.cf-coupler{min-height:50px;padding:0 clamp(16px,5vw,26px);border-radius:15px;border:0;background:' + C.RED + ';color:#fff;font:800 clamp(14px,3.8vw,18px)/1 "Baloo 2",sans-serif;cursor:pointer;box-shadow:0 3px 0 ' + C.RED2 + ';touch-action:manipulation;}.cf-coupler:active{transform:translateY(2px);}.cf-coupler.cf-off{opacity:.45;box-shadow:0 3px 0 rgba(20,107,94,.25);}'
+        /* judge */
+        + '.cf-claim{font:700 clamp(13px,3.4vw,16px)/1.2 "Nunito",sans-serif;color:' + C.T + ';text-align:center;}.cf-claim b{font-family:"Baloo 2";font-size:clamp(18px,5vw,24px);}'
+        + '.cf-judge{flex-direction:column;}.cf-jbtn{min-height:48px;min-width:130px;padding:0 18px;border-radius:14px;border:0;color:#fff;font:800 clamp(14px,3.8vw,17px)/1 "Baloo 2",sans-serif;cursor:pointer;touch-action:manipulation;}'
+        + '.cf-jnew{background:' + C.T + ';box-shadow:0 3px 0 #0e4f45;}.cf-jgot{background:' + C.GOLD + ';color:#3a2a00;box-shadow:0 3px 0 #c8841f;}.cf-jbtn:active{transform:translateY(2px);}'
+        /* route-book — a thin horizontal strip on phone (scrolls); the vertical staircase returns at desktop */
+        + '.cf-book{background:#EAF2EE;border-radius:13px;padding:5px 8px;width:100%;max-width:300px;}'
+        + '.cf-booktitle{font:800 clamp(10px,2.6vw,12px)/1 "Baloo 2",sans-serif;color:' + C.T + ';text-transform:uppercase;letter-spacing:.04em;text-align:center;margin-bottom:3px;}'
+        + '.cf-rungs{display:flex;flex-direction:row;flex-wrap:wrap;gap:3px;justify-content:center;}'
+        + '.cf-rung{font:800 clamp(12px,3.1vw,15px)/1.2 "Baloo 2",sans-serif;text-align:center;border-radius:7px;padding:2px 6px;white-space:nowrap;}'
+        + '.cf-have{background:' + C.T + ';color:#fff;}.cf-gap{background:#fff;color:#b9b0a0;border:1px dashed rgba(20,107,94,.25);}'
+        /* done */
+        + '.cf-hill{display:flex;gap:2px;flex-wrap:wrap;justify-content:center;}'
+        + '.cf-plank{font-size:clamp(15px,3.6vw,19px);filter:grayscale(1) opacity(.4);}.cf-plank-on{filter:none;}'
+        + '.cf-shiftbtn:focus-visible,.cf-box:focus-visible,.cf-chip:focus-visible,.cf-coupler:focus-visible,.cf-jbtn:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
+        + '@media (max-height:760px),(max-width:480px){.cf-root{gap:4px;padding:7px;}.cf-loco{width:clamp(38px,8vw,46px);}.cf-main{gap:6px;}.cf-yard{gap:5px;}.cf-side{gap:5px;}.cf-frame{grid-template-columns:repeat(5,15px);grid-template-rows:repeat(2,15px);}.cf-cell{width:15px;height:15px;}.cf-shiftbtn{min-width:44px;min-height:44px;}.cf-coupler{min-height:46px;}}'
+        + '@media (max-height:640px){.cf-root{gap:3px;}.cf-main{gap:5px;}.cf-route{padding:4px 10px;}}'
+        /* the 320×640 sub-floor — the shell header alone eats ~311px; compact everything so the active controls + the shell Check clear the fold */
+        + '@media (max-height:660px){.cf-root{gap:3px;padding:6px;}.cf-loco{width:36px;}.cf-head{gap:6px;}.cf-yard{gap:4px;}.cf-side{gap:4px;}.cf-frame{grid-template-columns:repeat(5,13px);grid-template-rows:repeat(2,13px);gap:2px;padding:4px;}.cf-cell{width:13px;height:13px;}.cf-carcap{font-size:11px;}.cf-shiftbtn{min-width:44px;min-height:44px;font-size:18px;}.cf-route{padding:3px 9px;}.cf-eqn{font-size:22px;}.cf-box{min-height:40px;font-size:22px;}.cf-coupler{min-height:42px;}.cf-shiftbtn{min-height:42px;}.cf-book{display:none;}}';
+      var tag = document.createElement('style'); tag.setAttribute('data-chuffer', ''); tag.textContent = css; document.head.appendChild(tag);
+    }
+  };
+
+  function makeTasks(rounds) {
+    return (rounds || []).map(function (round) {
+      return {
+        id: 'chuffer.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
+        setup: function (tool) { tool.setupTask(round); },
+        check: function (tool) { return tool.isCorrect(); },
+        hintKey: function () { return 'hintCheck'; }
+      };
+    });
+  }
+  function bandOrder(pool, prev) {
+    var byBand = {}; pool.forEach(function (t, i) { (byBand[t.band] = byBand[t.band] || []).push(i); });
+    var bands = Object.keys(byBand).sort(function (a, b) { return a - b; }); var out, attempts = 0;
+    do { out = []; bands.forEach(function (b) { var g = byBand[b].slice(); for (var i = g.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = g[i]; g[i] = g[j]; g[j] = t; } out = out.concat(g); }); attempts++; } while (prev && out.join(',') === prev.join(',') && attempts < 12 && pool.length > 1);
+    return out;
+  }
+
+}(typeof window !== 'undefined' ? window : this));

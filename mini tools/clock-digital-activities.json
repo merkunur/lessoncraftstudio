@@ -1,0 +1,189 @@
+[
+  {
+    "id": "clock-digital.read-hour.1-md-b-3",
+    "tool": "clock-digital-activity",
+    "task_template": "read-time",
+    "alignment": { "framework": "CCSS", "code": "1.MD.B.3", "grade": "1", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "granularity": "hour",
+      "rounds": [
+        { "id": "ch-3", "target": { "h": 3, "m": 0 }, "options": [ { "h": 3, "m": 0 }, { "h": 9, "m": 0 }, { "h": 6, "m": 0 } ] },
+        { "id": "ch-9", "target": { "h": 9, "m": 0 }, "options": [ { "h": 9, "m": 0 }, { "h": 12, "m": 0 }, { "h": 4, "m": 0 } ] },
+        { "id": "ch-6", "target": { "h": 6, "m": 0 }, "options": [ { "h": 6, "m": 0 }, { "h": 2, "m": 0 }, { "h": 10, "m": 0 } ] },
+        { "id": "ch-1", "target": { "h": 1, "m": 0 }, "options": [ { "h": 1, "m": 0 }, { "h": 7, "m": 0 }, { "h": 5, "m": 0 } ] },
+        { "id": "ch-11", "target": { "h": 11, "m": 0 }, "options": [ { "h": 11, "m": 0 }, { "h": 3, "m": 0 }, { "h": 8, "m": 0 } ] },
+        { "id": "ch-5", "target": { "h": 5, "m": 0 }, "options": [ { "h": 5, "m": 0 }, { "h": 12, "m": 0 }, { "h": 9, "m": 0 } ] },
+        { "id": "ch-8", "target": { "h": 8, "m": 0 }, "options": [ { "h": 8, "m": 0 }, { "h": 4, "m": 0 }, { "h": 1, "m": 0 } ] },
+        { "id": "ch-2", "target": { "h": 2, "m": 0 }, "options": [ { "h": 2, "m": 0 }, { "h": 10, "m": 0 }, { "h": 7, "m": 0 } ] },
+        { "id": "ch-7", "target": { "h": 7, "m": 0 }, "options": [ { "h": 7, "m": 0 }, { "h": 1, "m": 0 }, { "h": 11, "m": 0 } ] }
+      ]
+    },
+    "slug": {
+      "en": "read-clock-to-the-hour"
+    },
+    "page_title": {
+      "en": "Sprocket's Clock — Read the Clock to the Hour (Grade 1)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 time activity: read an analog clock at o'clock times and tap the matching digital time. Sprocket the rooster crows the hours while children learn to connect the clock face to the digital time (3 o'clock = 3:00). A friendly first step in telling time. Common Core 1.MD.B.3."
+    },
+    "kid_prompt_template": "clock-digital"
+  },
+  {
+    "id": "clock-digital.read-half-hour.1-md-b-3",
+    "tool": "clock-digital-activity",
+    "task_template": "read-time",
+    "alignment": { "framework": "CCSS", "code": "1.MD.B.3", "grade": "1", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "granularity": "half",
+      "rounds": [
+        { "id": "ch-330", "target": { "h": 3, "m": 30 }, "options": [ { "h": 3, "m": 30 }, { "h": 3, "m": 0 }, { "h": 8, "m": 30 } ] },
+        { "id": "ch-600", "target": { "h": 6, "m": 0 }, "options": [ { "h": 6, "m": 0 }, { "h": 6, "m": 30 }, { "h": 11, "m": 0 } ] },
+        { "id": "ch-930", "target": { "h": 9, "m": 30 }, "options": [ { "h": 9, "m": 30 }, { "h": 9, "m": 0 }, { "h": 4, "m": 30 } ] },
+        { "id": "ch-100", "target": { "h": 1, "m": 0 }, "options": [ { "h": 1, "m": 0 }, { "h": 1, "m": 30 }, { "h": 7, "m": 0 } ] },
+        { "id": "ch-1130", "target": { "h": 11, "m": 30 }, "options": [ { "h": 11, "m": 30 }, { "h": 11, "m": 0 }, { "h": 5, "m": 30 } ] },
+        { "id": "ch-500", "target": { "h": 5, "m": 0 }, "options": [ { "h": 5, "m": 0 }, { "h": 5, "m": 30 }, { "h": 12, "m": 0 } ] },
+        { "id": "ch-830", "target": { "h": 8, "m": 30 }, "options": [ { "h": 8, "m": 30 }, { "h": 8, "m": 0 }, { "h": 2, "m": 30 } ] },
+        { "id": "ch-200", "target": { "h": 2, "m": 0 }, "options": [ { "h": 2, "m": 0 }, { "h": 2, "m": 30 }, { "h": 10, "m": 0 } ] },
+        { "id": "ch-730", "target": { "h": 7, "m": 30 }, "options": [ { "h": 7, "m": 30 }, { "h": 7, "m": 0 }, { "h": 1, "m": 30 } ] }
+      ]
+    },
+    "slug": {
+      "en": "read-clock-to-the-half-hour"
+    },
+    "page_title": {
+      "en": "Sprocket's Clock — Read the Clock to the Half-Hour (Grade 1)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 time activity: read an analog clock at o'clock AND half-past times, then tap the matching digital time. Children must read BOTH hands — the long hand on 12 for o'clock or on 6 for half past — to tell 3:00 from 3:30. Sprocket the rooster cheers them on. A friendly next step in telling time after the hour. Common Core 1.MD.B.3."
+    },
+    "kid_prompt_template": "clock-digital"
+  },
+  {
+    "id": "clock-digital.read-quarter-hour.2-md-c-7",
+    "tool": "clock-digital-activity",
+    "task_template": "read-time",
+    "alignment": { "framework": "CCSS", "code": "2.MD.C.7", "grade": "2", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "granularity": "quarter",
+      "rounds": [
+        { "id": "cq-315", "target": { "h": 3, "m": 15 }, "options": [ { "h": 3, "m": 15 }, { "h": 3, "m": 45 }, { "h": 6, "m": 15 } ] },
+        { "id": "cq-945", "target": { "h": 9, "m": 45 }, "options": [ { "h": 9, "m": 45 }, { "h": 9, "m": 15 }, { "h": 10, "m": 45 } ] },
+        { "id": "cq-615", "target": { "h": 6, "m": 15 }, "options": [ { "h": 6, "m": 15 }, { "h": 6, "m": 45 }, { "h": 2, "m": 15 } ] },
+        { "id": "cq-145", "target": { "h": 1, "m": 45 }, "options": [ { "h": 1, "m": 45 }, { "h": 1, "m": 15 }, { "h": 2, "m": 45 } ] },
+        { "id": "cq-1115", "target": { "h": 11, "m": 15 }, "options": [ { "h": 11, "m": 15 }, { "h": 11, "m": 45 }, { "h": 5, "m": 15 } ] },
+        { "id": "cq-445", "target": { "h": 4, "m": 45 }, "options": [ { "h": 4, "m": 45 }, { "h": 4, "m": 15 }, { "h": 5, "m": 45 } ] },
+        { "id": "cq-815", "target": { "h": 8, "m": 15 }, "options": [ { "h": 8, "m": 15 }, { "h": 8, "m": 45 }, { "h": 12, "m": 15 } ] },
+        { "id": "cq-245", "target": { "h": 2, "m": 45 }, "options": [ { "h": 2, "m": 45 }, { "h": 2, "m": 15 }, { "h": 3, "m": 45 } ] },
+        { "id": "cq-715", "target": { "h": 7, "m": 15 }, "options": [ { "h": 7, "m": 15 }, { "h": 7, "m": 45 }, { "h": 10, "m": 15 } ] }
+      ]
+    },
+    "slug": {
+      "en": "read-clock-to-the-quarter-hour"
+    },
+    "page_title": {
+      "en": "Sprocket's Clock — Read the Clock to the Quarter-Hour (Grade 2)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 time activity: read an analog clock at quarter past and quarter to, then tap the matching digital time. Children learn that the long hand on the 3 means quarter past (3:15) and on the 9 means quarter to (3:45) — and that quarter to 4 is written 3:45, not 4:45. Sprocket the rooster cheers them on. A friendly step toward telling time to the nearest five minutes. Common Core 2.MD.C.7."
+    },
+    "kid_prompt_template": "clock-digital"
+  },
+  {
+    "id": "clock-digital.read-five-minute.2-md-c-7",
+    "tool": "clock-digital-activity",
+    "task_template": "read-time",
+    "alignment": { "framework": "CCSS", "code": "2.MD.C.7", "grade": "2", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "granularity": "five",
+      "rounds": [
+        { "id": "cf-320", "target": { "h": 3, "m": 20 }, "options": [ { "h": 3, "m": 20 }, { "h": 3, "m": 15 }, { "h": 3, "m": 25 } ] },
+        { "id": "cf-705", "target": { "h": 7, "m": 5 }, "options": [ { "h": 7, "m": 5 }, { "h": 7, "m": 0 }, { "h": 7, "m": 10 } ] },
+        { "id": "cf-1040", "target": { "h": 10, "m": 40 }, "options": [ { "h": 10, "m": 40 }, { "h": 10, "m": 35 }, { "h": 10, "m": 45 } ] },
+        { "id": "cf-225", "target": { "h": 2, "m": 25 }, "options": [ { "h": 2, "m": 25 }, { "h": 2, "m": 20 }, { "h": 2, "m": 30 } ] },
+        { "id": "cf-550", "target": { "h": 5, "m": 50 }, "options": [ { "h": 5, "m": 50 }, { "h": 5, "m": 45 }, { "h": 5, "m": 55 } ] },
+        { "id": "cf-810", "target": { "h": 8, "m": 10 }, "options": [ { "h": 8, "m": 10 }, { "h": 8, "m": 5 }, { "h": 8, "m": 15 } ] },
+        { "id": "cf-1235", "target": { "h": 12, "m": 35 }, "options": [ { "h": 12, "m": 35 }, { "h": 12, "m": 30 }, { "h": 12, "m": 40 } ] },
+        { "id": "cf-455", "target": { "h": 4, "m": 55 }, "options": [ { "h": 4, "m": 55 }, { "h": 4, "m": 50 }, { "h": 5, "m": 0 } ] },
+        { "id": "cf-905", "target": { "h": 9, "m": 5 }, "options": [ { "h": 9, "m": 5 }, { "h": 9, "m": 0 }, { "h": 9, "m": 10 } ] }
+      ]
+    },
+    "slug": {
+      "en": "read-clock-to-the-five-minute"
+    },
+    "page_title": {
+      "en": "Sprocket's Clock — Read the Clock to Five Minutes (Grade 2)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 time activity: read an analog clock to the nearest five minutes, then tap the matching digital time. Children learn to count by fives around the clock — the long hand on the 4 means 20 minutes, on the 7 means 35 — and to read times like 3:20 and 7:05. Sprocket the rooster cheers them on. Common Core 2.MD.C.7."
+    },
+    "kid_prompt_template": "clock-digital"
+  },
+  {
+    "id": "clock-digital.read-minute.3-md-a-1",
+    "tool": "clock-digital-activity",
+    "task_template": "read-time",
+    "alignment": { "framework": "CCSS", "code": "3.MD.A.1", "grade": "3", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "granularity": "minute",
+      "rounds": [
+        { "id": "cm-323", "target": { "h": 3, "m": 23 }, "options": [ { "h": 3, "m": 23 }, { "h": 3, "m": 21 }, { "h": 3, "m": 26 } ] },
+        { "id": "cm-747", "target": { "h": 7, "m": 47 }, "options": [ { "h": 7, "m": 47 }, { "h": 7, "m": 49 }, { "h": 7, "m": 44 } ] },
+        { "id": "cm-1008", "target": { "h": 10, "m": 8 }, "options": [ { "h": 10, "m": 8 }, { "h": 10, "m": 6 }, { "h": 10, "m": 11 } ] },
+        { "id": "cm-234", "target": { "h": 2, "m": 34 }, "options": [ { "h": 2, "m": 34 }, { "h": 2, "m": 36 }, { "h": 2, "m": 31 } ] },
+        { "id": "cm-552", "target": { "h": 5, "m": 52 }, "options": [ { "h": 5, "m": 52 }, { "h": 5, "m": 54 }, { "h": 5, "m": 49 } ] },
+        { "id": "cm-817", "target": { "h": 8, "m": 17 }, "options": [ { "h": 8, "m": 17 }, { "h": 8, "m": 19 }, { "h": 8, "m": 14 } ] },
+        { "id": "cm-1241", "target": { "h": 12, "m": 41 }, "options": [ { "h": 12, "m": 41 }, { "h": 12, "m": 39 }, { "h": 12, "m": 44 } ] },
+        { "id": "cm-406", "target": { "h": 4, "m": 6 }, "options": [ { "h": 4, "m": 6 }, { "h": 4, "m": 8 }, { "h": 4, "m": 3 } ] },
+        { "id": "cm-928", "target": { "h": 9, "m": 28 }, "options": [ { "h": 9, "m": 28 }, { "h": 9, "m": 26 }, { "h": 9, "m": 31 } ] }
+      ]
+    },
+    "slug": {
+      "en": "read-clock-to-the-minute"
+    },
+    "page_title": {
+      "en": "Sprocket's Clock — Read the Clock to the Minute (Grade 3)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 3 time activity: read an analog clock to the nearest minute, then tap the matching digital time. The clock shows minute marks so children can count past the nearest five — reading exact times like 3:23 and 7:47. Sprocket the rooster cheers them on. Common Core 3.MD.A.1."
+    },
+    "kid_prompt_template": "clock-digital"
+  },
+  {
+    "id": "clock-digital.match-clocks.2-md-c-7",
+    "tool": "clock-digital-activity",
+    "task_template": "match-time",
+    "alignment": { "framework": "CCSS", "code": "2.MD.C.7", "grade": "2", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "direction": "digital-to-analog",
+      "granularity": "five",
+      "rounds": [
+        { "id": "mc-300", "target": { "h": 3, "m": 0 }, "options": [ { "h": 3, "m": 0 }, { "h": 3, "m": 30 }, { "h": 9, "m": 0 } ] },
+        { "id": "mc-730", "target": { "h": 7, "m": 30 }, "options": [ { "h": 7, "m": 30 }, { "h": 7, "m": 0 }, { "h": 2, "m": 30 } ] },
+        { "id": "mc-1015", "target": { "h": 10, "m": 15 }, "options": [ { "h": 10, "m": 15 }, { "h": 10, "m": 45 }, { "h": 4, "m": 15 } ] },
+        { "id": "mc-145", "target": { "h": 1, "m": 45 }, "options": [ { "h": 1, "m": 45 }, { "h": 1, "m": 15 }, { "h": 6, "m": 45 } ] },
+        { "id": "mc-520", "target": { "h": 5, "m": 20 }, "options": [ { "h": 5, "m": 20 }, { "h": 5, "m": 40 }, { "h": 11, "m": 20 } ] },
+        { "id": "mc-800", "target": { "h": 8, "m": 0 }, "options": [ { "h": 8, "m": 0 }, { "h": 8, "m": 30 }, { "h": 12, "m": 0 } ] },
+        { "id": "mc-230", "target": { "h": 2, "m": 30 }, "options": [ { "h": 2, "m": 30 }, { "h": 2, "m": 0 }, { "h": 7, "m": 30 } ] },
+        { "id": "mc-1115", "target": { "h": 11, "m": 15 }, "options": [ { "h": 11, "m": 15 }, { "h": 11, "m": 45 }, { "h": 5, "m": 15 } ] },
+        { "id": "mc-645", "target": { "h": 6, "m": 45 }, "options": [ { "h": 6, "m": 45 }, { "h": 6, "m": 15 }, { "h": 9, "m": 45 } ] }
+      ]
+    },
+    "slug": {
+      "en": "match-analog-and-digital-clocks"
+    },
+    "page_title": {
+      "en": "Sprocket's Clock — Match Analog and Digital Clocks (Grade 2)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 time activity: read a digital time, then tap the analog clock whose hands match it. Children connect the two ways to show time — o'clock, half past, quarter past and to, and five-minute times — by reading each clock face. Sprocket the rooster cheers them on. Common Core 2.MD.C.7."
+    },
+    "kid_prompt_template": "clock-digital"
+  }
+]

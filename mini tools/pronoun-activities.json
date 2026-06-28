@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pronoun.case.l-1-1-d",
+    "tool": "pronoun-activity",
+    "task_template": "pronoun",
+    "alignment": { "framework": "CCSS", "code": "L.1.1.d", "grade": "1", "strand": "Language" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "pn-he-subj",  "referent": "he",   "role": "subject",    "wrongRole": "object",  "cap": true,  "kind": "simple-subject",  "sentence": "___ ran to the den." },
+        { "id": "pn-he-obj",   "referent": "he",   "role": "object",     "wrongRole": "subject", "cap": false, "kind": "simple-object",   "sentence": "Pat saw ___ at the park." },
+        { "id": "pn-his",      "referent": "he",   "role": "possessive", "wrongRole": "object",  "cap": false, "kind": "form-by-function","sentence": "That is ___ red ball." },
+        { "id": "pn-i-subj",   "referent": "i",    "role": "subject",    "wrongRole": "object",  "cap": false, "kind": "compound-subject","sentence": "Sam and ___ built a fort." },
+        { "id": "pn-i-obj",    "referent": "i",    "role": "object",     "wrongRole": "subject", "cap": false, "kind": "compound-object", "sentence": "Mom called Sam and ___." },
+        { "id": "pn-they-subj","referent": "they", "role": "subject",    "wrongRole": "object",  "cap": true,  "kind": "simple-subject",  "sentence": "___ sang a song." },
+        { "id": "pn-they-obj", "referent": "they", "role": "object",     "wrongRole": "subject", "cap": false, "kind": "simple-object",   "sentence": "We waved at ___." },
+        { "id": "pn-their",    "referent": "they", "role": "possessive", "wrongRole": "object",  "cap": false, "kind": "form-by-function","sentence": "The twins lost ___ hats." },
+        { "id": "pn-we-obj",   "referent": "we",   "role": "object",     "wrongRole": "subject", "cap": false, "kind": "simple-object",   "sentence": "Grandpa helped ___." }
+      ]
+    },
+    "slug": {
+      "en": "personal-pronouns"
+    },
+    "page_title": {
+      "en": "The Borrowed Hat — Personal Pronouns (Grade 1)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 grammar activity: at Hattie's Lost-and-Found Hat Shop, every character needs the right word-hat for its job in the sentence — he when doing, him when it is done to him, his when it belongs to him. Read the sentence, then pick the pronoun that fits. A friendly first look at using pronouns correctly. Common Core L.1.1.d."
+    },
+    "kid_prompt_template": "pronoun"
+  }
+]

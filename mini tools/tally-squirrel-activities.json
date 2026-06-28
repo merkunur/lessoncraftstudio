@@ -1,0 +1,26 @@
+[
+  {
+    "id": "tally-squirrel.add-four.2-nbt-b-6",
+    "tool": "tally-squirrel-activity",
+    "task_template": "add-four",
+    "alignment": { "framework": "CCSS", "code": "2.NBT.B.6", "grade": "2", "strand": "Number & Operations in Base Ten" },
+    "params": {
+      "rounds": [
+        { "addends": [23, 14],         "band": 1 },
+        { "addends": [31, 25],         "band": 1 },
+        { "addends": [12, 34, 21],     "band": 1 },
+        { "addends": [42, 15, 23],     "band": 2 },
+        { "addends": [21, 14, 32, 11], "band": 2 },
+        { "addends": [33, 26, 18],     "band": 2 },
+        { "addends": [15, 22, 34, 11], "band": 3 },
+        { "addends": [44, 28],         "band": 3 },
+        { "addends": [13, 21, 32, 24], "band": 3 }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "tally-squirrel-add-four" },
+    "page_title": { "en": "Tally's Acorn Baskets — Add Up to Four Two-Digit Numbers (Grade 2)" },
+    "page_intro": { "en": "A free interactive Grade 2 math activity: Tally the squirrel fills two, three, or four baskets with acorns. Add the two-digit numbers in all of Tally's baskets and type the total. Adding up to four two-digit numbers using place-value strategies. Common Core 2.NBT.B.6." },
+    "kid_prompt_template": "add-four"
+  }
+]

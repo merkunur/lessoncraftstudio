@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Constructor de sílabas — Actividad — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=17">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
   <!-- v7 cascade: see ten-frame-activity.html for the full rationale.
        Activity-page parent forces iframe to 66.67vh + renders sage field;
        these rules transparent-body + cascade height: 100% to .lcs-app. -->
@@ -18,29 +18,49 @@
        tiles + gap fit cleanly in ~285px card-inner. */
     @media (max-width: 599px) {
       /* !important needed: engine injects its CSS via JS at runtime (after
-         this inline <style>) — equal specificity, later cascade wins. */
-      .wb-subject { max-width: min(280px, 88vw) !important; }
-      .wb-subject-img { height: clamp(72px, 14vmin, 96px) !important; }
+         this inline <style>) — equal specificity, later cascade wins.
+         v7.5 phone-fold (2026-06-27): trim subject-img + slot/tile min-height +
+         gap so the stack (palette wraps at 320 — that's fine) clears a 640-tall
+         window (was 654-664>640 @320). */
+      .wb-subject { max-width: min(240px, 80vw) !important; }
+      .wb-subject-img { height: clamp(46px, 11vmin, 64px) !important; }
+      .wb-subject-text { font-size: clamp(28px, 7vmin, 40px) !important; }   /* word-only (endings) subject — was 72px, wrapped long bases */
       .wb-subject-hear { bottom: 4px !important; right: 4px !important; }
       .wb-slots { max-width: 90vw !important; }
-      .wb-palette { max-width: 90vw !important; }
-      .wb-tile { min-width: clamp(56px, 13vmin, 80px) !important; }
-      .wb-wrap { gap: clamp(12px, 2.6vmin, 16px) !important; }
+      .wb-palette { max-width: 92vw !important; }
+      .wb-slot { min-height: clamp(44px, 11vmin, 58px) !important; }
+      .wb-tile { min-width: clamp(52px, 12vmin, 74px) !important; min-height: clamp(44px, 11vmin, 56px) !important; }
+      .wb-wrap { gap: clamp(7px, 1.8vmin, 11px) !important; }
     }
 
-    /* v7.4 desktop: scale subject + slots + tiles up so engine content
-       fills the bigger card proportionally. */
+    /* v7.5 desktop-fold fix (2026-06-27): the v7.4 "fill the card" upscale
+       overshot a 900-tall window (build-vowel-teams 1131>900, folds even @768).
+       Cap subject-img + the (non-aspect-ratio) wb-slot min-height + the wide
+       multi-char wb-tile (the flex-wrap palette wraps to ≥2 rows — the hog) so
+       the (subject → slots → palette → Check) stack fits the gate's 900-tall
+       desktop FITS check. Tiles stay wide enough that 2-3 char chunks don't
+       clip + tap ≥44; slots/letters stay legible. (Mirrors the cvc-builder fix.) */
     @media (min-width: 768px) {
-      .wb-subject-img { height: clamp(120px, 16vmin, 180px) !important; }
+      /* Kept tight so even the verbose-locale prompts (es/de/it/sv wrap to 3 lines
+         in the protected shell prompt block → ~55px more chrome) leave room for the
+         (subject → slots → palette → Check) stack in a 900-tall window. */
+      .wb-subject-img { height: clamp(52px, 6.5vmin, 60px) !important; }
+      .wb-subject-text { font-size: clamp(30px, 4.6vmin, 42px) !important; }   /* word-only (endings) subject — was 72px (wrapped jumping/painted → fold) */
       .wb-slot {
-        min-height: clamp(72px, 12vmin, 96px) !important;
-        font-size: clamp(28px, 5vmin, 38px) !important;
+        min-height: clamp(44px, 6vmin, 52px) !important;
+        font-size: clamp(22px, 4vmin, 28px) !important;
       }
+      /* tile min-width small + palette wide so up to ~8 chunk tiles stay ONE row
+         (the flex-wrap 2-row palette was the fold hog); chunks (2-3 chars like
+         "ai"/"igh"/"cóp") still fit + tap ≥44. */
       .wb-tile {
-        min-width: clamp(96px, 14vmin, 128px) !important;
-        font-size: clamp(28px, 4.5vmin, 38px) !important;
+        min-width: clamp(48px, 6.5vmin, 56px) !important;
+        min-height: clamp(44px, 6vmin, 48px) !important;
+        font-size: clamp(20px, 3.4vmin, 26px) !important;
+        padding: 0 clamp(4px, 1.2vw, 8px) !important;
       }
-      .wb-wrap { gap: clamp(16px, 2.6vmin, 22px) !important; }
+      .wb-palette { max-width: 520px !important; }
+      .wb-wrap { gap: 8px !important; }
     }
   </style>
 </head>

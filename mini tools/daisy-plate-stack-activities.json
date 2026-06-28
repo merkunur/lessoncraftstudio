@@ -1,0 +1,26 @@
+[
+  {
+    "id": "daisy-plate-stack.plurals.l-k-1-c",
+    "tool": "daisy-plate-stack-activity",
+    "task_template": "daisy-plate-stack",
+    "alignment": { "framework": "CCSS", "code": "L.K.1.c", "grade": "K", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "cup",   "band": 1, "sentence": "I'd like two ___.",       "noun": "cup" },
+        { "id": "egg",   "band": 1, "sentence": "Can I have three ___?",   "noun": "egg" },
+        { "id": "dish",  "band": 1, "sentence": "Wash all six ___.",       "noun": "dish" },
+        { "id": "fork",  "band": 2, "sentence": "We need four ___.",       "noun": "fork" },
+        { "id": "plate", "band": 2, "sentence": "Please bring two ___.",   "noun": "plate" },
+        { "id": "box",   "band": 2, "sentence": "I packed two ___.",       "noun": "box" },
+        { "id": "spoon", "band": 3, "sentence": "Set out five ___.",       "noun": "spoon" },
+        { "id": "apple", "band": 3, "sentence": "I want three ___.",       "noun": "apple" },
+        { "id": "peach", "band": 3, "sentence": "I'll take four ___.",     "noun": "peach" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "daisy-plate-stack" },
+    "page_title": { "en": "Daisy's Plate Stack — More Than One (Kindergarten)" },
+    "page_intro": { "en": "Daisy the duck plates up the orders, and every order is for more than one. Read each request, then tap the word that names more than one — adding s or es the right way (cups, dishes, boxes). A warm Kindergarten language game about forming regular plural nouns, aligned to Common Core L.K.1.c." },
+    "kid_prompt_template": "daisy-plate-stack"
+  }
+]

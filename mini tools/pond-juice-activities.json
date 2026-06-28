@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pond-juice.pour-measure.3-md-a-2",
+    "tool": "pond-juice-activity",
+    "task_template": "pour-measure",
+    "alignment": { "framework": "CCSS", "code": "3.MD.A.2", "grade": "3", "strand": "Measurement & Data" },
+    "params": {
+      "rounds": [
+        { "id": "est-six-is-five", "cog": "estimate-pour", "band": 1, "scale": { "min": 0, "max": 10, "step": 1, "unit": "cups" }, "order": 6, "actualLevel": 5, "customer": "dragonfly" },
+        { "id": "read-seven", "cog": "read-level", "band": 1, "scale": { "min": 0, "max": 10, "step": 1, "unit": "cups" }, "actualLevel": 7, "customer": "frog" },
+        { "id": "compare-six-four", "cog": "compare", "band": 2, "scale": { "min": 0, "max": 10, "step": 1, "unit": "cups" }, "cups": [{ "level": 6, "tall": false }, { "level": 4, "tall": false }], "customer": "snail" },
+        { "id": "diff-big-small", "cog": "diff-scale", "band": 2, "scale": { "min": 0, "max": 10, "step": 1, "unit": "cups" }, "cups": [{ "level": 7, "scaleMax": 10 }, { "level": 8, "scaleMax": 20 }], "customer": "newt" },
+        { "id": "est-four-is-five", "cog": "estimate-pour", "band": 1, "scale": { "min": 0, "max": 10, "step": 1, "unit": "cups" }, "order": 4, "actualLevel": 5, "customer": "beetle" },
+        { "id": "read-between-five", "cog": "read-level", "band": 3, "scale": { "min": 0, "max": 10, "step": 2, "unit": "cups" }, "actualLevel": 5, "customer": "turtle" },
+        { "id": "compare-eight-nine", "cog": "compare", "band": 2, "scale": { "min": 0, "max": 10, "step": 1, "unit": "cups" }, "cups": [{ "level": 8, "tall": false }, { "level": 9, "tall": false }], "customer": "fish" },
+        { "id": "diff-full-small", "cog": "diff-scale", "band": 3, "scale": { "min": 0, "max": 10, "step": 1, "unit": "cups" }, "cups": [{ "level": 5, "scaleMax": 5 }, { "level": 8, "scaleMax": 10 }], "customer": "duck" },
+        { "id": "est-seven-is-six", "cog": "estimate-pour", "band": 1, "scale": { "min": 0, "max": 10, "step": 1, "unit": "cups" }, "order": 7, "actualLevel": 6, "customer": "bee" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "pippas-pond-juice-lab" },
+    "page_title": { "en": "Pippa's Pond-Juice Lab — Pour and Read the Measure" },
+    "page_intro": { "en": "Pippa the frog runs a cozy pond-juice stand, but she can't read the fancy numbers — only you can! Pour the juice by feel into the frosted beaker, then watch it turn clear and READ how much you made off the scale. A warm Grade 3 measurement game about reading and estimating liquid volume, aligned to Common Core 3.MD.A.2." },
+    "kid_prompt_template": "pour-measure"
+  }
+]

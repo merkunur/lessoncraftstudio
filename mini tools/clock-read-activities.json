@@ -1,0 +1,42 @@
+[
+  {
+    "id": "clock-read.tell-time.1-md-b-3",
+    "tool": "clock-read-activity",
+    "task_template": "clock-read",
+    "alignment": { "framework": "CCSS", "code": "1.MD.B.3", "grade": "1", "strand": "Measurement & Data" },
+    "params": {
+      "rounds": [
+        { "id": "read-lunch", "cog": "read-oclock", "mode": "read", "band": 1, "targetTime": { "hour": 12, "minute": 0 },
+          "events": [ { "id": "lunch", "label": "Lunch", "emoji": "🥪", "hour": 12, "minute": 0 }, { "id": "breakfast", "label": "Breakfast", "emoji": "🍳", "hour": 7, "minute": 0 }, { "id": "garden", "label": "Garden time", "emoji": "🌻", "hour": 3, "minute": 0 } ] },
+        { "id": "read-garden", "cog": "read-oclock", "mode": "read", "band": 1, "targetTime": { "hour": 3, "minute": 0 },
+          "events": [ { "id": "garden", "label": "Garden time", "emoji": "🌻", "hour": 3, "minute": 0 }, { "id": "lunch", "label": "Lunch", "emoji": "🥪", "hour": 12, "minute": 0 }, { "id": "tea", "label": "Morning tea", "emoji": "☕", "hour": 6, "minute": 0 } ] },
+        { "id": "read-bedtime", "cog": "read-half", "mode": "read", "band": 2, "targetTime": { "hour": 8, "minute": 30 },
+          "events": [ { "id": "bedtime", "label": "Bedtime", "emoji": "🌙", "hour": 8, "minute": 30 }, { "id": "breakfast", "label": "Breakfast", "emoji": "🍳", "hour": 7, "minute": 0 }, { "id": "lunch", "label": "Lunch", "emoji": "🥪", "hour": 12, "minute": 0 } ] },
+        { "id": "read-supper", "cog": "read-half", "mode": "read", "band": 2, "targetTime": { "hour": 6, "minute": 30 },
+          "events": [ { "id": "supper", "label": "Supper", "emoji": "🍲", "hour": 6, "minute": 30 }, { "id": "garden", "label": "Garden time", "emoji": "🌻", "hour": 3, "minute": 0 }, { "id": "bedtime", "label": "Bedtime", "emoji": "🌙", "hour": 8, "minute": 30 } ] },
+
+        { "id": "set-nine", "cog": "set-oclock", "mode": "set", "band": 1, "minuteStep": 30, "targetTime": { "hour": 9, "minute": 0 } },
+        { "id": "set-three", "cog": "set-oclock", "mode": "set", "band": 1, "minuteStep": 30, "targetTime": { "hour": 3, "minute": 0 } },
+        { "id": "set-half-one", "cog": "set-half", "mode": "set", "band": 2, "minuteStep": 30, "targetTime": { "hour": 1, "minute": 30 } },
+        { "id": "set-half-seven", "cog": "set-half", "mode": "set", "band": 2, "minuteStep": 30, "targetTime": { "hour": 7, "minute": 30 } },
+
+        { "id": "cue-dawn", "cog": "world-cue", "mode": "world-cue", "band": 2, "minuteStep": 30, "targetTime": { "hour": 6, "minute": 0 }, "cue": { "id": "dawn", "label": "The sky glows dawn-pink — early morning.", "emoji": "🌅" } },
+        { "id": "cue-noon", "cog": "world-cue", "mode": "world-cue", "band": 2, "minuteStep": 30, "targetTime": { "hour": 12, "minute": 0 }, "cue": { "id": "noon", "label": "The sun is high overhead — midday.", "emoji": "☀️" } },
+
+        { "id": "order-lunch", "cog": "order", "mode": "order", "band": 2, "askEvent": { "label": "Lunch", "emoji": "🥪", "hour": 12, "minute": 0 },
+          "clocks": [ { "hour": 7, "minute": 0 }, { "hour": 12, "minute": 0 }, { "hour": 3, "minute": 0 } ] },
+        { "id": "order-bedtime", "cog": "order", "mode": "order", "band": 2, "askEvent": { "label": "Bedtime", "emoji": "🌙", "hour": 8, "minute": 30 },
+          "clocks": [ { "hour": 8, "minute": 30 }, { "hour": 9, "minute": 0 }, { "hour": 6, "minute": 30 } ] },
+
+        { "id": "five-read-quarter", "cog": "five-min", "mode": "read", "band": 3, "targetTime": { "hour": 3, "minute": 15 },
+          "events": [ { "id": "snack", "label": "Snack", "emoji": "🍎", "hour": 3, "minute": 15 }, { "id": "garden", "label": "Garden time", "emoji": "🌻", "hour": 3, "minute": 0 }, { "id": "lunch", "label": "Lunch", "emoji": "🥪", "hour": 12, "minute": 0 } ] },
+        { "id": "five-set-quarterto", "cog": "five-min", "mode": "set", "band": 3, "minuteStep": 5, "targetTime": { "hour": 7, "minute": 45 } }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "owls-cuckoo-cottage" },
+    "page_title": { "en": "Owl's Cuckoo Cottage — Read and Set the Clock" },
+    "page_intro": { "en": "Owl's whole cozy day unfolds in the cuckoo cottage, and you are the timekeeper! Read the wall clock to find out what Owl is doing now — breakfast, garden time, bedtime — and set the hands so the cuckoo can pop out and act it out. A warm Grade 1 game about telling time to the hour and half-hour, aligned to Common Core 1.MD.B.3." },
+    "kid_prompt_template": "clock-read"
+  }
+]

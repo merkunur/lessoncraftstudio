@@ -1,0 +1,43 @@
+[
+  {
+    "id": "affix.apply.l-2-4-b",
+    "tool": "affix-activity",
+    "task_template": "affix",
+    "alignment": { "framework": "CCSS", "code": "L.2.4.b", "grade": "2", "strand": "Vocabulary Acquisition and Use" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "af-unkind",   "cog": "apply", "word": "unkind",   "root": "kind",  "affix": "un",
+          "options": [ {"affix":"root","text":"kind"}, {"affix":"un","text":"not kind"}, {"affix":"ful","text":"full of kindness"} ] },
+        { "id": "af-unlucky",  "cog": "apply", "word": "unlucky",  "root": "lucky", "affix": "un",
+          "options": [ {"affix":"root","text":"lucky"}, {"affix":"un","text":"not lucky"}, {"affix":"less","text":"without any luck"} ] },
+        { "id": "af-unhappy",  "cog": "apply", "word": "unhappy",  "root": "happy", "affix": "un",
+          "options": [ {"affix":"root","text":"happy"}, {"affix":"un","text":"not happy"}, {"affix":"ful","text":"full of happiness"} ] },
+        { "id": "af-retell",   "cog": "apply", "word": "retell",   "root": "tell",  "affix": "re",
+          "options": [ {"affix":"root","text":"to tell it"}, {"affix":"re","text":"to tell it again"}, {"affix":"un","text":"to not tell it"} ] },
+        { "id": "af-colorful", "cog": "apply", "word": "colorful", "root": "color", "affix": "ful",
+          "options": [ {"affix":"root","text":"color"}, {"affix":"ful","text":"full of color"}, {"affix":"less","text":"without any color"} ] },
+        { "id": "af-fearless", "cog": "apply", "word": "fearless", "root": "fear",  "affix": "less",
+          "options": [ {"affix":"root","text":"fear"}, {"affix":"less","text":"without any fear"}, {"affix":"ful","text":"full of fear"} ] },
+        { "id": "af-helpful",  "cog": "apply", "word": "helpful",  "root": "help",  "affix": "ful",
+          "options": [ {"affix":"root","text":"help"}, {"affix":"ful","text":"full of help"}, {"affix":"less","text":"without any help"} ] },
+        { "id": "af-spotless", "cog": "apply", "word": "spotless", "root": "spot",  "affix": "less",
+          "options": [ {"affix":"root","text":"spots"}, {"affix":"less","text":"without any spots"}, {"affix":"ful","text":"full of spots"} ] },
+
+        { "id": "af-which-retie", "cog": "which", "root": "tie",  "affix": "re",   "meaning": "to tie it again",  "options": ["un","re","less"] },
+        { "id": "af-which-useless","cog": "which", "root": "use",  "affix": "less", "meaning": "without any use",   "options": ["re","less","ful"] },
+        { "id": "af-which-careful","cog": "which", "root": "care", "affix": "ful",  "meaning": "full of care",      "options": ["un","ful","less"] }
+      ]
+    },
+    "slug": {
+      "en": "prefixes-and-suffixes-word-meaning"
+    },
+    "page_title": {
+      "en": "Marigold's Knowing Machine — Prefixes & Suffixes Word Meaning (Grade 2)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 reading activity: help Marigold the mole work out what a new word means when a prefix or suffix is added. Drop the un-, re-, -ful, or -less cog into the Knowing Machine and read the new word — then tap what it means. A clear, friendly way to learn how prefixes and suffixes change a word's meaning. Common Core L.2.4.b and L.2.4.c."
+    },
+    "kid_prompt_template": "affix"
+  }
+]

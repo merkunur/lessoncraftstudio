@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Build the Array — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=17">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
   <!-- Activity-page parent forces the iframe height + renders the sage field;
        these rules make body transparent + cascade height: 100% to #lcs-root.
        Engine CSS is injected by array-core.js at runtime (those rules already
@@ -12,6 +12,44 @@
   <style>
     html, body { background: transparent !important; }
     html, body, #lcs-root { height: 100% !important; }
+
+    /* Fold fix (2026-06-27): the array grid cells are aspect-ratio:1 sized by
+       the grid's max-width (min(86vw,360px)) ÷ cols, so a TALL array (up to 5
+       rows × 2 cols → ~175px cells × 5 = ~875px of grid) + the shell number-
+       keypad + Check overshoots a 900-tall window (operator: "cut off, Check
+       not visible"). Cap the cell to a fixed square (overrides aspect-ratio +
+       the 1fr column stretch via explicit w/h) so the grid height tracks the
+       row count, not the container width; centre the cells in their columns.
+       Cores untouched — this is the html @media override pattern. */
+    @media (min-width: 768px) {
+      /* Cap the hero prompt (shell renders it at 48px → 2 lines = ~146px); a
+         worksheet instruction reads fine smaller, and this is the biggest
+         single fold lever after the grid. Text, not a card → no sparse/tiny. */
+      .lcs-activity-prompt { font-size: clamp(22px, 3.4vmin, 30px) !important; }
+      .arr-grid { max-width: min(86vw, 280px) !important; justify-items: center !important; gap: 5px !important; }
+      /* build-array grid cells only (NOT the equal-groups .arr-group cells).
+         Sized so even the 5-row array clears the 900-tall desktop fold. */
+      .arr-grid .arr-cell { width: clamp(26px, 3.1vmin, 38px) !important; height: clamp(26px, 3.1vmin, 38px) !important; aspect-ratio: auto !important; }
+      /* equal-groups clusters: keep cells compact so 5 groups × 5 cells fit. */
+      .arr-group .arr-cell { width: clamp(24px, 3vmin, 32px) !important; height: clamp(24px, 3vmin, 32px) !important; aspect-ratio: auto !important; }
+      .arr-group { padding: 5px !important; gap: 4px !important; }
+      .arr-wrap { gap: 8px !important; }
+      /* compact the repeated-addition strip so 5 addends stay one line. */
+      .arr-strip { font-size: 18px !important; gap: 5px !important; }
+      .arr-addend, .arr-total { min-width: 24px !important; height: 32px !important; padding: 0 6px !important; }
+    }
+    @media (max-width: 599px) {
+      .lcs-activity-prompt { font-size: clamp(16px, 4vw, 21px) !important; }
+      .arr-grid { justify-items: center !important; gap: 3px !important; }
+      .arr-grid .arr-cell { width: clamp(15px, 4.6vmin, 28px) !important; height: clamp(15px, 4.6vmin, 28px) !important; aspect-ratio: auto !important; }
+      .arr-group .arr-cell { width: clamp(15px, 4vmin, 26px) !important; height: clamp(15px, 4vmin, 26px) !important; aspect-ratio: auto !important; }
+      .arr-group { padding: 4px !important; gap: 3px !important; }
+      .arr-wrap { gap: 5px !important; }
+      /* strip: shrink addends so "2+2+2+2+2 = ?" stays ONE line (was 2 lines, 83px). */
+      .arr-strip { font-size: 14px !important; gap: 4px !important; flex-wrap: nowrap !important; }
+      .arr-addend, .arr-total { min-width: 18px !important; height: 26px !important; padding: 0 4px !important; }
+      .arr-op { font-size: 13px !important; }
+    }
   </style>
 </head>
 <body>

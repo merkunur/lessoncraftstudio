@@ -1,0 +1,25 @@
+[
+  {
+    "id": "posy-egg-cartons.count-tens.k-cc-a-1",
+    "tool": "posy-egg-cartons-activity",
+    "task_template": "count-tens",
+    "alignment": { "framework": "CCSS", "code": "K.CC.A.1", "grade": "K", "strand": "Counting & Cardinality" },
+    "params": {
+      "rounds": [
+        { "id": "t2", "band": 1, "tens": 2 },
+        { "id": "t3", "band": 1, "tens": 3 },
+        { "id": "t4", "band": 2, "tens": 4 },
+        { "id": "t5", "band": 2, "tens": 5 },
+        { "id": "t6", "band": 2, "tens": 6 },
+        { "id": "t7", "band": 2, "tens": 7 },
+        { "id": "t8", "band": 3, "tens": 8 },
+        { "id": "t10", "band": 3, "tens": 10 }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "posy-egg-cartons" },
+    "page_title": { "en": "Posy's Egg Cartons — Count by Tens to 100 (Kindergarten)" },
+    "page_intro": { "en": "Posy the hen packs her eggs into cartons of ten! Each carton holds exactly 10 eggs, so the fast way to count them is by tens — 10, 20, 30… Count Posy's full cartons by tens and tap the total. A Kindergarten counting game about counting to 100 by tens, aligned to Common Core K.CC.A.1." },
+    "kid_prompt_template": "Count the cartons by tens and tap the total."
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "mochi-feast.count-out.k-cc-b-5",
+    "tool": "mochi-feast-activity",
+    "task_template": "count-out",
+    "alignment": { "framework": "CCSS", "code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality" },
+    "params": {
+      "rounds": [
+        { "target": 3,  "noun": "strawberry", "theme": "fruits",              "seed": 11 },
+        { "target": 5,  "noun": "cookie",     "theme": "desserts and sweets", "seed": 23 },
+        { "target": 4,  "noun": "cherry",     "theme": "fruits",              "seed": 31 },
+        { "target": 6,  "noun": "cupcake",    "theme": "desserts and sweets", "seed": 41 },
+        { "target": 2,  "noun": "banana",     "theme": "fruits",              "seed": 53 },
+        { "target": 7,  "noun": "apple",      "theme": "fruits",              "seed": 61 },
+        { "target": 8,  "noun": "donut",      "theme": "desserts and sweets", "seed": 67 },
+        { "target": 10, "noun": "muffin",     "theme": "desserts and sweets", "seed": 71 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "feed-mochi-counting"
+    },
+    "page_title": {
+      "en": "Feed Mochi — Count Out Treats (Kindergarten Counting Game)"
+    },
+    "page_intro": {
+      "en": "A free interactive Kindergarten counting activity: feed Mochi the dumpling exactly the number of treats asked. Tap the dish to drop berries, cookies, acorns and more into the bowl one at a time, then check. The bowl filling IS the count — no numerals — so children build cardinality and learn to count out a given number of objects. Common Core K.CC.B.5."
+    },
+    "kid_prompt_template": "count-out"
+  }
+]

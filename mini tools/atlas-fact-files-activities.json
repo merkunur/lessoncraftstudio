@@ -1,0 +1,25 @@
+[
+  {
+    "id": "atlas-fact-files.key-detail.ri-k-1",
+    "tool": "atlas-fact-files-activity",
+    "task_template": "key-detail",
+    "alignment": { "framework": "CCSS", "code": "RI.K.1", "grade": "K", "strand": "Reading: Informational Text" },
+    "params": {
+      "rounds": [
+        { "id": "bees", "band": 1, "fact": "Bees live in a hive. They make sweet honey.", "question": "Where do bees live?", "answer": "in a hive", "options": ["in a hive", "in a nest", "in a pond"] },
+        { "id": "frog", "band": 1, "fact": "A frog has long legs. It eats little bugs.", "question": "What does a frog eat?", "answer": "little bugs", "options": ["green leaves", "little bugs", "small fish"] },
+        { "id": "sun", "band": 1, "fact": "The sun gives us light. It shines in the day.", "question": "When does the sun shine?", "answer": "in the day", "options": ["in the dark", "in a cave", "in the day"] },
+        { "id": "penguin", "band": 2, "fact": "A penguin has black wings. It lives on cold ice.", "question": "Where does a penguin live?", "answer": "on cold ice", "options": ["on cold ice", "in a den", "on the warm sand"] },
+        { "id": "spider", "band": 2, "fact": "A spider spins a web. It has eight legs.", "question": "How many legs does a spider have?", "answer": "eight legs", "options": ["seven legs", "eight legs", "nine legs"] },
+        { "id": "tree", "band": 2, "fact": "A big tree grows tall. It gives us cool shade.", "question": "What does a tree give us?", "answer": "cool shade", "options": ["loud noise", "cold snow", "cool shade"] },
+        { "id": "cow", "band": 3, "fact": "A cow eats green grass. It gives us white milk.", "question": "What does a cow give us?", "answer": "white milk", "options": ["white milk", "brown eggs", "sweet jam"] },
+        { "id": "rain", "band": 3, "fact": "Rain falls from clouds. It makes the ground wet.", "question": "What does rain make wet?", "answer": "the ground", "options": ["the sky", "the warm sun", "the ground"] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "atlas-fact-files" },
+    "page_title": { "en": "Atlas's Fact Files — Find the Key Detail (Kindergarten)" },
+    "page_intro": { "en": "Atlas the armadillo keeps a file full of real facts! Read his two-sentence fact, then answer the question by tapping the key detail you found — who, what, where, or how many. A Kindergarten reading game about finding key details in an informational (fact) text, aligned to Common Core RI.K.1." },
+    "kid_prompt_template": "Read the facts, then tap the answer to the question."
+  }
+]

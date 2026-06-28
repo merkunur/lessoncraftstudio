@@ -1,0 +1,34 @@
+[
+  {
+    "id": "tense.past-present-future.l-1-1-e",
+    "tool": "tense-activity",
+    "task_template": "tense",
+    "alignment": { "framework": "CCSS", "code": "L.1.1.e", "grade": "1", "strand": "Language" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "tn-p1", "time": "past",    "timeWord": "Yesterday", "subject": "the boats",  "verb": { "lemma": "sail",  "forms": { "present": "sail",  "past": "sailed", "future": "will sail"  }, "regular": true  } },
+        { "id": "tn-n1", "time": "present", "timeWord": "Right now", "subject": "the kids",   "verb": { "lemma": "jump",  "forms": { "present": "jump",  "past": "jumped", "future": "will jump"  }, "regular": true  } },
+        { "id": "tn-f1", "time": "future",  "timeWord": "Tomorrow",  "subject": "the sailors","verb": { "lemma": "paint", "forms": { "present": "paint", "past": "painted","future": "will paint" }, "regular": true  } },
+
+        { "id": "tn-p2", "time": "past",    "timeWord": "Yesterday", "subject": "the gulls",  "verb": { "lemma": "go",    "forms": { "present": "go",    "past": "went",   "future": "will go"    }, "regular": false } },
+        { "id": "tn-n2", "time": "present", "timeWord": "Right now", "subject": "Bo and Pat", "verb": { "lemma": "wave",  "forms": { "present": "wave",  "past": "waved",  "future": "will wave"  }, "regular": true  } },
+        { "id": "tn-f2", "time": "future",  "timeWord": "Tomorrow",  "subject": "the dogs",   "verb": { "lemma": "run",   "forms": { "present": "run",   "past": "ran",    "future": "will run"   }, "regular": false } },
+
+        { "id": "tn-p3", "time": "past",    "timeWord": "Yesterday", "subject": "the cats",   "verb": { "lemma": "ride",  "forms": { "present": "ride",  "past": "rode",   "future": "will ride"  }, "regular": false } },
+        { "id": "tn-n3", "time": "present", "timeWord": "Right now", "subject": "the gulls",  "verb": { "lemma": "look",  "forms": { "present": "look",  "past": "looked", "future": "will look"  }, "regular": true  } },
+        { "id": "tn-f3", "time": "future",  "timeWord": "Tomorrow",  "subject": "the kids",   "verb": { "lemma": "play",  "forms": { "present": "play",  "past": "played", "future": "will play"  }, "regular": true  } }
+      ]
+    },
+    "slug": {
+      "en": "verb-tense-past-present-future"
+    },
+    "page_title": {
+      "en": "The Clock Tower — Verb Tense: Past, Present & Future (Grade 1)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 grammar activity: help Juniper the robin keep the clock tower's three time-windows — Before, Now, and Soon. Read the time word in each sentence, then tap the verb that fits the past, present, or future. A friendly first look at using verbs to tell when something happens. Common Core L.1.1.e."
+    },
+    "kid_prompt_template": "tense"
+  }
+]

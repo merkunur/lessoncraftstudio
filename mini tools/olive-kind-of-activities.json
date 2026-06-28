@@ -1,0 +1,25 @@
+[
+  {
+    "id": "olive-kind-of.category-attribute.l-1-5-b",
+    "tool": "olive-kind-of-activity",
+    "task_template": "category-attribute",
+    "alignment": { "framework": "CCSS", "code": "L.1.5.b", "grade": "1", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "robin", "band": 1, "target": { "noun": "robin", "themeDir": "birds 2" }, "clue": "It flies and has feathers.", "category": "bird", "choices": [ { "word": "bird" }, { "word": "food" }, { "word": "vehicle" } ] },
+        { "id": "banana", "band": 1, "target": { "noun": "banana", "themeDir": "At the Supermarket" }, "clue": "It is yellow and you can eat it.", "category": "food", "choices": [ { "word": "animal" }, { "word": "food" }, { "word": "clothing" } ] },
+        { "id": "truck", "band": 1, "target": { "noun": "truck", "themeDir": "post office" }, "clue": "It has wheels and drives on the road.", "category": "vehicle", "choices": [ { "word": "food" }, { "word": "plant" }, { "word": "vehicle" } ] },
+        { "id": "hat", "band": 2, "target": { "noun": "hat", "themeDir": "accessories" }, "clue": "You wear it on your head.", "category": "clothing", "choices": [ { "word": "clothing" }, { "word": "vehicle" }, { "word": "food" } ] },
+        { "id": "rose", "band": 2, "target": { "noun": "rose", "themeDir": "flowers" }, "clue": "It grows in a garden and smells nice.", "category": "plant", "choices": [ { "word": "animal" }, { "word": "plant" }, { "word": "vehicle" } ] },
+        { "id": "dog", "band": 2, "target": { "noun": "dog", "themeDir": "animals" }, "clue": "It has four legs and says woof.", "category": "animal", "choices": [ { "word": "food" }, { "word": "clothing" }, { "word": "animal" } ] },
+        { "id": "apple", "band": 3, "target": { "noun": "apple", "themeDir": "At the Supermarket" }, "clue": "It is sweet and crunchy, and you can eat it.", "category": "food", "choices": [ { "word": "food" }, { "word": "vehicle" }, { "word": "animal" } ] },
+        { "id": "boat", "band": 3, "target": { "noun": "boat", "themeDir": "beach" }, "clue": "It floats and carries people on the water.", "category": "vehicle", "choices": [ { "word": "clothing" }, { "word": "vehicle" }, { "word": "plant" } ] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "olive-kind-of" },
+    "page_title": { "en": "Olive's Kind-Of Tree — What Kind of Thing Is It? (Grade 1)" },
+    "page_intro": { "en": "Olive the owl knows what KIND of thing everything is! Look at the picture and read the clue (it flies and has feathers), then tap the group it belongs to — bird, food, or vehicle. A Grade 1 vocabulary game about putting words into categories by their key attributes, aligned to Common Core L.1.5.b." },
+    "kid_prompt_template": "Read the clue — what kind of thing is it?"
+  }
+]

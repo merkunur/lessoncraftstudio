@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sprocket's Clock — 12-Hour & 24-Hour Time — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+  <style>
+    html, body { background: transparent !important; }
+    html, body, #lcs-root { height: 100% !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, then the locale-neutral clock-convert core, then this activity.
+       NOTE: bump ?v=N on EVERY change to clock-convert-activity.js / -core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=3"></script>
+  <script src="/mini-tools/clock-convert-core.js?v=1"></script>
+  <script src="/mini-tools/clock-convert-activity.js?v=1"></script>
+  <script>
+    LCS.mount(ClockConvertActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

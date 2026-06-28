@@ -1,0 +1,45 @@
+[
+  {
+    "id": "shades.pick.l-1-5-d",
+    "tool": "shades-activity",
+    "task_template": "shades",
+    "alignment": { "framework": "CCSS", "code": "L.1.5.d", "grade": "1", "strand": "Language" },
+    "theme": null,
+    "params": {
+      "sets": {
+        "temp": { "dimension": "temp", "rote": false, "orderable": true, "words": [ { "id": "hot", "text": "hot", "rank": 3 }, { "id": "scalding", "text": "scalding", "rank": 4 }, { "id": "warm", "text": "warm", "rank": 1 }, { "id": "toasty", "text": "toasty", "rank": 2 } ] },
+        "wet":  { "dimension": "wet",  "rote": false, "orderable": true, "words": [ { "id": "wet", "text": "wet", "rank": 2 }, { "id": "soaked", "text": "soaked", "rank": 3 }, { "id": "damp", "text": "damp", "rank": 1 } ] },
+        "loud": { "dimension": "loud", "rote": false, "orderable": true, "words": [ { "id": "loud", "text": "loud", "rank": 2 }, { "id": "booming", "text": "booming", "rank": 3 }, { "id": "quiet", "text": "quiet", "rank": 1 } ] },
+        "size": { "dimension": "size", "rote": true,  "orderable": true, "words": [ { "id": "tiny", "text": "tiny", "rank": 1 }, { "id": "big", "text": "big", "rank": 3 }, { "id": "huge", "text": "huge", "rank": 4 }, { "id": "small", "text": "small", "rank": 2 } ] },
+        "look": { "dimension": "manner", "rote": false, "orderable": false, "words": [ { "id": "stare", "text": "stare", "rank": 1 }, { "id": "peek", "text": "peek", "rank": 2 }, { "id": "glare", "text": "glare", "rank": 3 }, { "id": "glance", "text": "glance", "rank": 4 } ] }
+      },
+      "rounds": [
+        { "id": "pick-soup-low",   "cog": "pick", "setId": "temp", "requiredRank": 1, "keywords": ["soup"], "sentence": "Grandpa likes his soup only just cool enough to sip — not hot at all." },
+        { "id": "pick-soup-high",  "cog": "pick", "setId": "temp", "requiredRank": 4, "keywords": ["soup"], "sentence": "This soup has boiled on the stove all morning — it would burn your tongue!" },
+        { "id": "pick-towel-low",  "cog": "pick", "setId": "wet",  "requiredRank": 1, "keywords": ["towel"], "sentence": "The towel only caught a little mist from the sea — just a tiny bit moist." },
+        { "id": "pick-towel-high", "cog": "pick", "setId": "wet",  "requiredRank": 3, "keywords": ["towel"], "sentence": "The towel fell right into the pond and came out dripping everywhere!" },
+        { "id": "pick-voice-low",  "cog": "pick", "setId": "loud", "requiredRank": 1, "keywords": ["voice"], "sentence": "Use your softest voice so the sleeping baby does not wake up." },
+        { "id": "pick-voice-high", "cog": "pick", "setId": "loud", "requiredRank": 3, "keywords": ["voice"], "sentence": "Call to your friend in your very biggest voice, all the way across the field!" },
+
+        { "id": "order-temp", "cog": "order", "setId": "temp" },
+        { "id": "order-wet",  "cog": "order", "setId": "wet" },
+
+        { "id": "bound-temp", "cog": "bound", "setId": "temp", "loId": "warm", "hiId": "hot" },
+        { "id": "bound-size", "cog": "bound", "setId": "size", "loId": "small", "hiId": "huge" },
+
+        { "id": "manner-shy",   "cog": "manner", "setId": "look", "answerId": "peek",  "sentence": "He was too shy to be seen, so he only took a quick little look from behind the door." },
+        { "id": "manner-angry", "cog": "manner", "setId": "look", "answerId": "glare", "sentence": "She was so cross at the mess that she gave it a long, angry look." }
+      ]
+    },
+    "slug": {
+      "en": "pestos-soup-stall-shades-of-meaning"
+    },
+    "page_title": {
+      "en": "Pesto's Soup Stall — Shades of Meaning (Grade 1)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 vocabulary activity: help Pesto the parrot pick the spice of exactly the right strength. Warm, toasty, hot, and scalding all mean heat — but the shade matters. Read what the customer needs and choose the right-strength word, order a ladder from weakest to strongest, find the word between two others, and choose the right way to look. Distinguishing shades of meaning among near-synonyms. Common Core L.1.5.d (also L.2.5.b)."
+    },
+    "kid_prompt_template": "shades"
+  }
+]

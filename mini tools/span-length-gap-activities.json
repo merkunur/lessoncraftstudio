@@ -1,0 +1,25 @@
+[
+  {
+    "id": "span-length-gap.how-much-longer.2-md-a-4",
+    "tool": "span-length-gap-activity",
+    "task_template": "how-much-longer",
+    "alignment": { "framework": "CCSS", "code": "2.MD.A.4", "grade": "2", "strand": "Measurement & Data" },
+    "params": {
+      "rounds": [
+        { "id": "ribbon", "band": 1, "aLabel": "ribbon", "aLen": 8, "bLabel": "string", "bLen": 5, "unit": "cm" },
+        { "id": "snake", "band": 1, "aLabel": "snake", "aLen": 10, "bLabel": "worm", "bLen": 4, "unit": "cm" },
+        { "id": "pencil", "band": 1, "aLabel": "pencil", "aLen": 9, "bLabel": "crayon", "bLen": 2, "unit": "cm" },
+        { "id": "rope", "band": 2, "aLabel": "rope", "aLen": 13, "bLabel": "cord", "bLen": 9, "unit": "cm" },
+        { "id": "scarf", "band": 2, "aLabel": "scarf", "aLen": 14, "bLabel": "belt", "bLen": 6, "unit": "cm" },
+        { "id": "leaf", "band": 2, "aLabel": "leaf", "aLen": 7, "bLabel": "seed", "bLen": 2, "unit": "cm" },
+        { "id": "track", "band": 3, "aLabel": "blue bar", "aLen": 20, "bLabel": "red bar", "bLen": 8, "unit": "cm" },
+        { "id": "twig", "band": 3, "aLabel": "branch", "aLen": 11, "bLabel": "twig", "bLen": 9, "unit": "cm" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "span-length-gap" },
+    "page_title": { "en": "Span's Length Gap — How Much Longer? (Grade 2)" },
+    "page_intro": { "en": "Span the inchworm measures the gap between two things! Read how long each bar is, then type how much LONGER the longer one is. A Grade 2 math game about finding the difference in length between two objects, aligned to Common Core 2.MD.A.4." },
+    "kid_prompt_template": "Read both lengths, then type how much longer the longer one is."
+  }
+]

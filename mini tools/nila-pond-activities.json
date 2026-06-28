@@ -1,0 +1,187 @@
+[
+  {
+    "id": "nila-pond.main-idea-net.ri-k-2",
+    "tool": "nila-pond-activity",
+    "task_template": "main-idea-net",
+    "alignment": { "framework": "CCSS", "code": "RI.K.2", "grade": "K", "strand": "Reading: Informational Text" },
+    "params": {
+      "rounds": [
+        {
+          "id": "bear-warm", "cog": "nest-reject", "band": 2, "group": "bear",
+          "paragraph": ["When the cold snow falls, a bear must stay snug.", "It grows a thick coat.", "It keeps its body warm.", "It rests inside a deep cave."],
+          "topicId": "bp1",
+          "fish": [
+            { "id": "bp1", "phrase": "A bear keeps its body warm.", "key": "warm", "picture": null },
+            { "id": "bp2", "phrase": "A bear eats sweet juicy berries.", "key": "berries", "picture": null },
+            { "id": "bp3", "phrase": "A bear rests inside a cave.", "key": "cave", "picture": null },
+            { "id": "bp4", "phrase": "A bear grows a thick coat.", "key": "coat", "picture": null }
+          ],
+          "details": [
+            { "id": "bp4", "belongs": true },
+            { "id": "bp3", "belongs": true },
+            { "id": "bp2", "belongs": false }
+          ],
+          "slots": 2
+        },
+        {
+          "id": "bear-eat", "cog": "pick-topic", "band": 1, "group": "bear",
+          "paragraph": ["Before its long winter sleep, a bear gets very hungry.", "It eats sweet juicy berries.", "It carries some to its cave.", "A full belly keeps it warm."],
+          "topicId": "bp2",
+          "fish": [
+            { "id": "bp1", "phrase": "A bear keeps its body warm.", "key": "warm", "picture": null },
+            { "id": "bp2", "phrase": "A bear eats sweet juicy berries.", "key": "berries", "picture": null },
+            { "id": "bp3", "phrase": "A bear rests inside a cave.", "key": "cave", "picture": null },
+            { "id": "bp4", "phrase": "A bear grows a thick coat.", "key": "coat", "picture": null }
+          ]
+        },
+        {
+          "id": "bear-cave", "cog": "nest-reject", "band": 2, "group": "bear",
+          "paragraph": ["All winter, a bear needs a safe place to hide.", "It eats sweet juicy berries to grow fat.", "It grows a thick coat.", "Best of all, it rests inside a deep cave."],
+          "topicId": "bp3",
+          "fish": [
+            { "id": "bp1", "phrase": "A bear keeps its body warm.", "key": "warm", "picture": null },
+            { "id": "bp2", "phrase": "A bear eats sweet juicy berries.", "key": "berries", "picture": null },
+            { "id": "bp3", "phrase": "A bear rests inside a cave.", "key": "cave", "picture": null },
+            { "id": "bp4", "phrase": "A bear grows a thick coat.", "key": "coat", "picture": null }
+          ],
+          "details": [
+            { "id": "bp2", "belongs": true },
+            { "id": "bp4", "belongs": true },
+            { "id": "bp1", "belongs": false }
+          ],
+          "slots": 2
+        },
+        {
+          "id": "bear-coat", "cog": "pick-topic", "band": 1, "group": "bear",
+          "paragraph": ["As fall ends, a bear grows new fur for the cold.", "It rests inside a cozy cave.", "It grows a thick coat.", "Its body stays warm all winter."],
+          "topicId": "bp4",
+          "fish": [
+            { "id": "bp1", "phrase": "A bear keeps its body warm.", "key": "warm", "picture": null },
+            { "id": "bp2", "phrase": "A bear eats sweet juicy berries.", "key": "berries", "picture": null },
+            { "id": "bp3", "phrase": "A bear rests inside a cave.", "key": "cave", "picture": null },
+            { "id": "bp4", "phrase": "A bear grows a thick coat.", "key": "coat", "picture": null }
+          ]
+        },
+
+        {
+          "id": "bee-honey", "cog": "pick-topic", "band": 1, "group": "bee",
+          "paragraph": ["All day a bee works hard to make food.", "It visits many bright flowers.", "It flies back to its hive.", "There the bee makes sweet sticky honey."],
+          "topicId": "qp1",
+          "fish": [
+            { "id": "qp1", "phrase": "A bee makes sweet sticky honey.", "key": "honey", "picture": null },
+            { "id": "qp2", "phrase": "A bee visits many bright flowers.", "key": "flowers", "picture": null },
+            { "id": "qp3", "phrase": "A bee lives in one hive.", "key": "hive", "picture": null },
+            { "id": "qp4", "phrase": "A bee flaps its tiny wings.", "key": "wings", "picture": null }
+          ]
+        },
+        {
+          "id": "bee-flowers", "cog": "nest-reject", "band": 2, "group": "bee",
+          "paragraph": ["A bee has a busy job in the garden.", "It zips out from its hive.", "It visits many bright flowers.", "It flaps its tiny wings to fly."],
+          "topicId": "qp2",
+          "fish": [
+            { "id": "qp1", "phrase": "A bee makes sweet sticky honey.", "key": "honey", "picture": null },
+            { "id": "qp2", "phrase": "A bee visits many bright flowers.", "key": "flowers", "picture": null },
+            { "id": "qp3", "phrase": "A bee lives in one hive.", "key": "hive", "picture": null },
+            { "id": "qp4", "phrase": "A bee flaps its tiny wings.", "key": "wings", "picture": null }
+          ],
+          "details": [
+            { "id": "qp3", "belongs": true },
+            { "id": "qp4", "belongs": true },
+            { "id": "qp1", "belongs": false }
+          ],
+          "slots": 2
+        },
+        {
+          "id": "bee-hive", "cog": "reject-narrow", "band": 2, "group": "bee",
+          "paragraph": ["Every bee belongs to one big home.", "This hive holds the whole busy family.", "Inside, bees make sweet sticky honey.", "They fly to bright flowers and back."],
+          "topicId": "qp3",
+          "narrowId": "qp1",
+          "fish": [
+            { "id": "qp1", "phrase": "A bee makes sweet sticky honey.", "key": "honey", "picture": null },
+            { "id": "qp2", "phrase": "A bee visits many bright flowers.", "key": "flowers", "picture": null },
+            { "id": "qp3", "phrase": "A bee lives in one hive.", "key": "hive", "picture": null },
+            { "id": "qp4", "phrase": "A bee flaps its tiny wings.", "key": "wings", "picture": null }
+          ]
+        },
+        {
+          "id": "bee-wings", "cog": "nest-reject", "band": 2, "group": "bee",
+          "paragraph": ["A bee is a tiny flying helper.", "It makes sweet sticky honey for the family.", "It visits many bright flowers.", "To fly so far, it flaps its tiny wings."],
+          "topicId": "qp4",
+          "fish": [
+            { "id": "qp1", "phrase": "A bee makes sweet sticky honey.", "key": "honey", "picture": null },
+            { "id": "qp2", "phrase": "A bee visits many bright flowers.", "key": "flowers", "picture": null },
+            { "id": "qp3", "phrase": "A bee lives in one hive.", "key": "hive", "picture": null },
+            { "id": "qp4", "phrase": "A bee flaps its tiny wings.", "key": "wings", "picture": null }
+          ],
+          "details": [
+            { "id": "qp1", "belongs": true },
+            { "id": "qp2", "belongs": true },
+            { "id": "qp3", "belongs": false }
+          ],
+          "slots": 2
+        },
+
+        {
+          "id": "duck-swim", "cog": "pick-topic", "band": 1, "group": "duck",
+          "paragraph": ["A duck loves the cool water all day.", "It swims across the wide pond.", "It dives for a little fish.", "Then it paddles home to its nest."],
+          "topicId": "rp1",
+          "fish": [
+            { "id": "rp1", "phrase": "A duck swims across the pond.", "key": "swims", "picture": null },
+            { "id": "rp2", "phrase": "A duck dives for little fish.", "key": "fish", "picture": null },
+            { "id": "rp3", "phrase": "A duck builds a soft nest.", "key": "nest", "picture": null },
+            { "id": "rp4", "phrase": "A duck quacks a happy song.", "key": "quacks", "picture": null }
+          ]
+        },
+        {
+          "id": "duck-dive", "cog": "nest-reject", "band": 2, "group": "duck",
+          "paragraph": ["A hungry duck looks for lunch in the pond.", "It swims out past the tall reeds.", "It rests by its soft nest.", "Down it goes to catch a little fish."],
+          "topicId": "rp2",
+          "fish": [
+            { "id": "rp1", "phrase": "A duck swims across the pond.", "key": "swims", "picture": null },
+            { "id": "rp2", "phrase": "A duck dives for little fish.", "key": "fish", "picture": null },
+            { "id": "rp3", "phrase": "A duck builds a soft nest.", "key": "nest", "picture": null },
+            { "id": "rp4", "phrase": "A duck quacks a happy song.", "key": "quacks", "picture": null }
+          ],
+          "details": [
+            { "id": "rp1", "belongs": true },
+            { "id": "rp3", "belongs": true },
+            { "id": "rp4", "belongs": false }
+          ],
+          "slots": 2
+        },
+        {
+          "id": "duck-nest", "cog": "supply-detail", "band": 3, "group": "duck",
+          "paragraph": ["A mother duck has a big job by the water.", "She swims out to gather soft reeds.", "She builds a warm nest for her eggs.", "She quacks softly to her little ducklings."],
+          "topicId": "rp3",
+          "fish": [
+            { "id": "rp1", "phrase": "A duck swims across the pond.", "key": "swims", "picture": null },
+            { "id": "rp2", "phrase": "A duck dives for little fish.", "key": "fish", "picture": null },
+            { "id": "rp3", "phrase": "A duck builds a soft nest.", "key": "nest", "picture": null },
+            { "id": "rp4", "phrase": "A duck quacks a happy song.", "key": "quacks", "picture": null }
+          ],
+          "altDetails": [
+            { "id": "alt-reeds", "phrase": "A duck gathers soft reeds.", "key": "reeds", "belongs": true, "picture": null },
+            { "id": "alt-tree", "phrase": "A duck climbs a tall tree.", "key": "tree", "belongs": false, "picture": null }
+          ]
+        },
+        {
+          "id": "duck-quack", "cog": "reject-narrow", "band": 2, "group": "duck",
+          "paragraph": ["A duck has a loud little voice.", "It quacks a happy song to its friends.", "It swims across the calm pond.", "It waddles up to its soft nest."],
+          "topicId": "rp4",
+          "narrowId": "rp1",
+          "fish": [
+            { "id": "rp1", "phrase": "A duck swims across the pond.", "key": "swims", "picture": null },
+            { "id": "rp2", "phrase": "A duck dives for little fish.", "key": "fish", "picture": null },
+            { "id": "rp3", "phrase": "A duck builds a soft nest.", "key": "nest", "picture": null },
+            { "id": "rp4", "phrase": "A duck quacks a happy song.", "key": "quacks", "picture": null }
+          ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "nilas-idea-pond" },
+    "page_title": { "en": "Nila's Idea Pond — Find the Big Idea" },
+    "page_intro": { "en": "Nila the otter listens to a little story, then you find the BIG IDEA among four idea-fish — net it, watch the umbrella open, and bring the true details home. A warm Kindergarten reading game about the main topic and key details of a story read aloud, aligned to Common Core RI.K.2." },
+    "kid_prompt_template": "main-idea-net"
+  }
+]

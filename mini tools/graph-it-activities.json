@@ -1,0 +1,62 @@
+[
+  {
+    "id": "graph-it.bar-graph.2-md-d-10",
+    "tool": "graph-it-activity",
+    "task_template": "graph-it",
+    "alignment": { "framework": "CCSS", "code": "2.MD.D.10", "grade": "2", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "graph-it.build-tally-1", "cog": "build-tally", "kind": "build", "source": "tally",
+          "cats": ["leaf", "berry", "acorn"], "data": { "leaf": 5, "berry": 3, "acorn": 6 } },
+        { "id": "graph-it.build-tally-2", "cog": "build-tally", "kind": "build", "source": "tally",
+          "cats": ["leaf", "berry", "acorn", "pinecone"], "data": { "leaf": 4, "berry": 7, "acorn": 5, "pinecone": 3 } },
+        { "id": "graph-it.build-tally-3", "cog": "build-tally", "kind": "build", "source": "tally",
+          "cats": ["berry", "leaf"], "data": { "berry": 8, "leaf": 6 } },
+        { "id": "graph-it.build-picture-1", "cog": "build-picture", "kind": "build", "source": "icons",
+          "cats": ["mushroom", "berry", "leaf"], "data": { "mushroom": 3, "berry": 5, "leaf": 4 } },
+        { "id": "graph-it.fix-1", "cog": "fix", "kind": "meta", "source": "tally",
+          "cats": ["leaf", "berry", "acorn"], "data": { "leaf": 6, "berry": 4, "acorn": 7 },
+          "graphInit": { "leaf": 6, "berry": 4, "acorn": 6 } },
+        { "id": "graph-it.more-1", "cog": "more", "kind": "interpret",
+          "cats": ["leaf", "berry", "acorn"], "data": { "leaf": 6, "berry": 4, "acorn": 9 },
+          "question": { "type": "more", "a": "leaf", "b": "berry" } },
+        { "id": "graph-it.more-2", "cog": "more", "kind": "interpret",
+          "cats": ["berry", "leaf", "acorn"], "data": { "berry": 5, "leaf": 8, "acorn": 10 },
+          "question": { "type": "more", "a": "leaf", "b": "berry" } },
+        { "id": "graph-it.more-3", "cog": "more", "kind": "interpret",
+          "cats": ["acorn", "berry", "leaf"], "data": { "acorn": 8, "berry": 7, "leaf": 10 },
+          "question": { "type": "more", "a": "acorn", "b": "berry" } },
+        { "id": "graph-it.fewer-1", "cog": "fewer", "kind": "interpret",
+          "cats": ["berry", "leaf", "mushroom"], "data": { "berry": 4, "leaf": 7, "mushroom": 10 },
+          "question": { "type": "fewer", "a": "berry", "b": "leaf" } },
+        { "id": "graph-it.fewer-2", "cog": "fewer", "kind": "interpret",
+          "cats": ["pinecone", "acorn", "leaf"], "data": { "pinecone": 7, "acorn": 9, "leaf": 10 },
+          "question": { "type": "fewer", "a": "pinecone", "b": "acorn" } },
+        { "id": "graph-it.total-1", "cog": "total", "kind": "interpret",
+          "cats": ["leaf", "berry", "acorn"], "data": { "leaf": 6, "berry": 4, "acorn": 7 },
+          "question": { "type": "total", "a": "leaf", "b": "berry" } },
+        { "id": "graph-it.total-2", "cog": "total", "kind": "interpret",
+          "cats": ["pinecone", "acorn", "mushroom"], "data": { "pinecone": 3, "acorn": 8, "mushroom": 6 },
+          "question": { "type": "total", "a": "pinecone", "b": "acorn" } },
+        { "id": "graph-it.verify-1", "cog": "verify", "kind": "interpret",
+          "cats": ["acorn", "pinecone", "leaf"], "data": { "acorn": 8, "pinecone": 5, "leaf": 6 },
+          "question": { "type": "verify", "x": "acorn", "y": "pinecone", "by": 2 } },
+        { "id": "graph-it.match-1", "cog": "match", "kind": "meta", "source": "tally",
+          "cats": ["leaf", "berry", "acorn"], "data": { "leaf": 6, "berry": 4, "acorn": 3 },
+          "question": { "type": "match" },
+          "options": [
+            { "leaf": 4, "berry": 6, "acorn": 3 },
+            { "leaf": 6, "berry": 4, "acorn": 3 },
+            { "leaf": 6, "berry": 3, "acorn": 4 }
+          ] }
+      ]
+    },
+    "slug": { "en": "pips-stacking-fence" },
+    "page_title": { "en": "Pip's Stacking Fence — Build & Read a Bar Graph" },
+    "page_intro": {
+      "en": "Build a bar graph one unit at a time, then read it: how many more leaves than berries? A no-counting-pressure Grade 2 data activity aligned to Common Core 2.MD.D.10 — draw a bar graph for up to four categories and solve compare, put-together, and take-apart problems from it."
+    },
+    "kid_prompt_template": "Build Pip's fence, then read how many more!"
+  }
+]

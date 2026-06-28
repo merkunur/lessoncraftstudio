@@ -1,0 +1,26 @@
+[
+  {
+    "id": "comet-kangaroo.tens-hundreds.2-nbt-b-8",
+    "tool": "comet-kangaroo-activity",
+    "task_template": "tens-hundreds",
+    "alignment": { "framework": "CCSS", "code": "2.NBT.B.8", "grade": "2", "strand": "Number & Operations in Base Ten" },
+    "params": {
+      "rounds": [
+        { "start": 247, "delta": 10,   "band": 1 },
+        { "start": 362, "delta": -10,  "band": 1 },
+        { "start": 415, "delta": 100,  "band": 1 },
+        { "start": 683, "delta": -100, "band": 2 },
+        { "start": 538, "delta": 10,   "band": 2 },
+        { "start": 271, "delta": -10,  "band": 2 },
+        { "start": 326, "delta": 100,  "band": 3 },
+        { "start": 754, "delta": -100, "band": 3 },
+        { "start": 489, "delta": 10,   "band": 3 }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "comet-kangaroo-tens-hundreds" },
+    "page_title": { "en": "Comet's Big Leaps — 10 & 100 More or Less (Grade 2)" },
+    "page_intro": { "en": "A free interactive Grade 2 math activity: Comet the kangaroo makes big leaps along the numbers. See a three-digit number and a leap — 10 more, 10 less, 100 more, or 100 less — work it out in your head and type where Comet lands. Mentally add or subtract 10 or 100, watching how only the tens or hundreds digit changes while the ones stay put. Common Core 2.NBT.B.8." },
+    "kid_prompt_template": "tens-hundreds"
+  }
+]

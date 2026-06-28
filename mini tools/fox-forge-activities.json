@@ -1,0 +1,71 @@
+[
+  {
+    "id": "fox-forge.fraction.3-nf-a-1",
+    "tool": "fox-forge-activity",
+    "task_template": "fox-forge",
+    "alignment": { "framework": "CCSS", "code": "3.NF.A.1", "grade": "3", "strand": "Number & Operations—Fractions" },
+    "theme": null,
+    "slug": { "en": "pips-chocolate-forge" },
+    "page_title": { "en": "Pip's Chocolate Forge — Build Fractions" },
+    "page_intro": { "en": "Help Pip the fox fill each chocolate order: pick the unit-piece by its SIZE (no labels to read) and forge it the right number of times. A fraction like 3/4 is three copies of the one-fourth piece — built, not read. Common Core 3.NF.A.1." },
+    "kid_prompt_template": "fox-forge",
+    "params": {
+      "rounds": [
+        {
+          "id": "build-half", "cog": "build", "band": 1, "a": 1, "b": 2, "wholeLen": 120,
+          "molds": [{ "b": 2 }, { "b": 4 }, { "b": 8 }],
+          "prompt": "Forge one half (1/2). Pick the piece that fits the bar TWO times."
+        },
+        {
+          "id": "build-three-fourths", "cog": "build", "band": 1, "a": 3, "b": 4, "wholeLen": 120,
+          "molds": [{ "b": 4 }, { "b": 2 }, { "b": 8 }],
+          "prompt": "Forge three fourths (3/4). One-fourth pieces, three of them."
+        },
+        {
+          "id": "name-unit-thirds", "cog": "name-unit", "band": 1, "a": 1, "b": 3, "wholeLen": 120,
+          "options": [[1, 2], [1, 4], [1, 3]],
+          "prompt": "The bar is in 3 equal parts. What fraction is ONE part?"
+        },
+        {
+          "id": "name-unit-eighths", "cog": "name-unit", "band": 1, "a": 1, "b": 8, "wholeLen": 120,
+          "options": [[1, 4], [1, 6], [1, 8]],
+          "prompt": "The bar is in 8 equal parts. What fraction is ONE part?"
+        },
+        {
+          "id": "equal-parts-fourths", "cog": "equal-parts", "band": 2, "a": 3, "b": 4, "wholeLen": 120,
+          "molds": [{ "b": "unequal" }, { "b": 4 }, { "b": 2 }],
+          "prompt": "One mold makes UNEQUAL pieces. Pick the fair mold, forge 3/4."
+        },
+        {
+          "id": "denominator-three-eighths", "cog": "denominator", "band": 2, "a": 3, "b": 8, "wholeLen": 120,
+          "molds": [{ "b": 8 }, { "b": 4 }, { "b": 2 }],
+          "prompt": "Still THREE pieces — but eighths now. Forge three eighths (3/8). Smaller pieces!"
+        },
+        {
+          "id": "magnitude-two-thirds", "cog": "magnitude", "band": 2, "a": 2, "b": 3, "wholeLen": 108,
+          "molds": [{ "b": 3 }, { "b": 6 }, { "b": 2 }],
+          "prompt": "Forge two thirds (2/3) of THIS bar."
+        },
+        {
+          "id": "the-whole-three-fourths", "cog": "the-whole", "band": 3, "a": 3, "b": 4, "wholeLen": 144, "refWhole": 90,
+          "molds": [{ "b": 4 }, { "b": 2 }],
+          "prompt": "Forge 3/4 on the BIG bar. Both are 3/4 — but the big one is more!"
+        },
+        {
+          "id": "build-five-sixths", "cog": "build", "band": 3, "a": 5, "b": 6, "wholeLen": 120,
+          "molds": [{ "b": 6 }, { "b": 3 }, { "b": 2 }],
+          "prompt": "Forge five sixths (5/6). One-sixth pieces, five of them."
+        },
+        {
+          "id": "magnitude-three-fourths-big", "cog": "magnitude", "band": 3, "a": 3, "b": 4, "wholeLen": 150,
+          "molds": [{ "b": 4 }, { "b": 2 }, { "b": 8 }],
+          "prompt": "Forge three fourths (3/4) of THIS bigger bar."
+        },
+        {
+          "id": "cross-shape-half", "cog": "cross-shape", "band": 3, "a": 1, "b": 2, "wholeLen": 120, "shape": "pizza",
+          "prompt": "One half of the bar — is one half of the PIZZA the same share?"
+        }
+      ]
+    }
+  }
+]

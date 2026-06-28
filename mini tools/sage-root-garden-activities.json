@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sage-root-garden.roots.l-2-4-c",
+    "tool": "sage-root-garden-activity",
+    "task_template": "roots",
+    "alignment": { "framework": "CCSS", "code": "L.2.4.c", "grade": "2", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "farm", "band": 1, "root": "farm", "correct": "farmer", "choices": [ { "word": "farmer" }, { "word": "former" }, { "word": "forest" } ] },
+        { "id": "help", "band": 1, "root": "help", "correct": "helper", "choices": [ { "word": "hammer" }, { "word": "helper" }, { "word": "hello" } ] },
+        { "id": "paint", "band": 1, "root": "paint", "correct": "painting", "choices": [ { "word": "pointing" }, { "word": "planting" }, { "word": "painting" } ] },
+        { "id": "care", "band": 2, "root": "care", "correct": "careful", "choices": [ { "word": "careful" }, { "word": "carrot" }, { "word": "cabin" } ] },
+        { "id": "play", "band": 2, "root": "play", "correct": "player", "choices": [ { "word": "plate" }, { "word": "player" }, { "word": "plant" } ] },
+        { "id": "teach", "band": 2, "root": "teach", "correct": "teacher", "choices": [ { "word": "feather" }, { "word": "beacon" }, { "word": "teacher" } ] },
+        { "id": "sun", "band": 3, "root": "sun", "correct": "sunny", "choices": [ { "word": "sunny" }, { "word": "funny" }, { "word": "bunny" } ] },
+        { "id": "jump", "band": 3, "root": "jump", "correct": "jumping", "choices": [ { "word": "jumbo" }, { "word": "jumping" }, { "word": "bumping" } ] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "sage-root-garden" },
+    "page_title": { "en": "Sage's Root Garden — Find the Root Word Family (Grade 2)" },
+    "page_intro": { "en": "Sage the tortoise grows word families from a single root! Big words often grow from a smaller root word you already know — farm grows into farmer. Read the root, then tap the word that GROWS from it (watch out for words that just look alike). A Grade 2 vocabulary game about using root words as a clue to meaning, aligned to Common Core L.2.4.c." },
+    "kid_prompt_template": "Tap the word that grows from the root."
+  }
+]

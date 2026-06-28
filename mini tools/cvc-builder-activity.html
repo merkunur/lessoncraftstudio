@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>CVC Word Builder — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=17">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
   <!-- v7 cascade: see ten-frame-activity.html for the full rationale.
        Activity-page parent forces iframe to 66.67vh + renders sage field;
        these rules transparent-body + cascade height: 100% to .lcs-app. -->
@@ -23,21 +23,33 @@
          (Empirical: v7.2 verify-mobile.js first run measured Hear button at
          -6px because the engine's .cvc-subject-hear{bottom:-6px} rule beat
          this block without !important.) */
-      .cvc-subject { max-width: min(280px, 88vw) !important; }
-      .cvc-subject-img { height: clamp(72px, 14vmin, 96px) !important; }
+      .cvc-subject { max-width: min(240px, 80vw) !important; }
+      /* v7.5 phone-fold (2026-06-27): trim subject-img + slots cap + gap so the
+         3-slot build-cvc stack (palette wraps to 2 rows at 320 — 7 tiles can't fit
+         one row at tap-min 44) clears a 640-tall window (was 674>640 @320). The
+         .cvc-slot is aspect-ratio:1, so capping .cvc-slots width caps its height. */
+      .cvc-subject-img { height: clamp(46px, 11vmin, 64px) !important; }
       .cvc-subject-hear { bottom: 4px !important; right: 4px !important; }
-      .cvc-slots { max-width: 90vw !important; }
-      .cvc-palette { max-width: 90vw !important; }
-      .cvc-wrap { gap: clamp(12px, 2.6vmin, 16px) !important; }
+      .cvc-slots { max-width: min(208px, 72vw) !important; }
+      .cvc-palette { max-width: min(300px, 92vw) !important; }
+      .cvc-wrap { gap: clamp(7px, 1.8vmin, 11px) !important; }
     }
 
-    /* v7.4 desktop: scale subject + slots + letters up so engine content
-       fills the bigger card proportionally. */
+    /* v7.5 desktop-fold fix (2026-06-27): the v7.4 "fill the card" upscale
+       overshot a 900-tall window (build-cvc 1031>900). The .cvc-slot/.cvc-letter
+       are aspect-ratio:1, so their HEIGHT is driven by the container max-width ÷
+       N — cap the container widths (not just fonts) so the square-tile stack
+       (subject → slots → palette → Check) fits the gate's 900-tall desktop FITS
+       check. Letters/slots stay big enough to read + tap. */
     @media (min-width: 768px) {
-      .cvc-subject-img { height: clamp(120px, 16vmin, 180px) !important; }
-      .cvc-slot { font-size: clamp(48px, 9vmin, 72px) !important; }
-      .cvc-letter { font-size: clamp(28px, 5vmin, 36px) !important; }
-      .cvc-wrap { gap: clamp(16px, 2.6vmin, 22px) !important; }
+      .cvc-subject-img { height: clamp(64px, 9vmin, 84px) !important; }
+      .cvc-slots { max-width: 240px !important; }     /* 3-slot build-cvc ≈ 69px / 4-slot magic-e ≈ 54px tall */
+      .cvc-slot { font-size: clamp(34px, 7vmin, 48px) !important; }
+      /* Palette: cap each tile (aspect-ratio:1 → height) + center so 6 tiles stay
+         ONE row (was wrapping to 2 rows = 130px, the dominant fold hog). */
+      .cvc-palette { max-width: 472px !important; grid-template-columns: repeat(auto-fit, minmax(46px, 56px)) !important; justify-content: center !important; }
+      .cvc-letter { font-size: clamp(22px, 4.4vmin, 28px) !important; }
+      .cvc-wrap { gap: 10px !important; }
     }
   </style>
 </head>
@@ -47,7 +59,7 @@
 
   <!-- Shell first, then the shared CVC builder core, then this activity wrapper. -->
   <script src="/mini-tools/lcs-shell.js?v=3"></script>
-  <script src="/mini-tools/cvc-builder-core.js?v=3"></script>
+  <script src="/mini-tools/cvc-builder-core.js?v=4"></script>
   <script src="/mini-tools/cvc-builder-activity.js?v=3"></script>
   <script>
     LCS.mount(CvcBuilderActivity, { mount: '#lcs-root' });

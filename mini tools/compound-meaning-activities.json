@@ -1,0 +1,94 @@
+[
+  {
+    "id": "compound-meaning.predict.l-2-4-d",
+    "tool": "compound-meaning-activity",
+    "task_template": "compound-meaning",
+    "alignment": { "framework": "CCSS", "code": "L.2.4.d", "grade": "2", "strand": "Language" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "compound.predict-fishbowl", "cog": "predict",
+          "entry": { "part1": { "noun": "fish", "themeDir": "animals" }, "part2": { "noun": "bowl", "themeDir": "around the house" }, "head": "part2", "relation": "for", "glossMod": "fish", "glossModMaterial": "fish", "compound": "fishbowl", "transparency": "transparent", "familiarity": "novel" },
+          "choices": [
+            { "text": "a bowl made of fish", "kind": "made-of" },
+            { "text": "a bowl for fish", "kind": "correct" },
+            { "text": "a fish for bowls", "kind": "reversed" }
+          ] },
+        { "id": "compound.predict-milkjug", "cog": "predict",
+          "entry": { "part1": { "noun": "milk", "themeDir": "At the Supermarket" }, "part2": { "noun": "jug", "themeDir": "kitchen tools" }, "head": "part2", "relation": "for", "glossMod": "milk", "glossModMaterial": "milk", "compound": "milkjug", "transparency": "transparent", "familiarity": "novel" },
+          "choices": [
+            { "text": "a jug made of milk", "kind": "made-of" },
+            { "text": "a jug for milk", "kind": "correct" },
+            { "text": "a jug for water", "kind": "wrong-mod" }
+          ] },
+        { "id": "compound.predict-eggcup", "cog": "predict",
+          "entry": { "part1": { "noun": "egg", "themeDir": "At the Supermarket" }, "part2": { "noun": "cup", "themeDir": "around the house" }, "head": "part2", "relation": "for", "glossMod": "eggs", "glossModMaterial": "eggs", "compound": "eggcup", "transparency": "transparent", "familiarity": "novel" },
+          "choices": [
+            { "text": "a cup made of eggs", "kind": "made-of" },
+            { "text": "a cup for eggs", "kind": "correct" },
+            { "text": "a cup for books", "kind": "wrong-mod" }
+          ] },
+        { "id": "compound.ticket-football", "cog": "ticket",
+          "entry": { "part1": { "noun": "foot", "themeDir": "body parts" }, "part2": { "noun": "ball", "themeDir": "toys" }, "head": "part2", "relation": "for", "glossMod": "the foot", "compound": "football", "transparency": "transparent", "familiarity": "familiar" },
+          "choices": [
+            { "text": "ballfoot", "kind": "reversed" },
+            { "text": "football", "kind": "correct" },
+            { "text": "handball", "kind": "wrong-mod" }
+          ] },
+        { "id": "compound.ticket-cupcake", "cog": "ticket",
+          "entry": { "part1": { "noun": "cup", "themeDir": "around the house" }, "part2": { "noun": "cake", "themeDir": "4th of July" }, "head": "part2", "relation": "looks-like", "glossMod": "a cup", "compound": "cupcake", "transparency": "transparent", "familiarity": "familiar" },
+          "choices": [
+            { "text": "cakecup", "kind": "reversed" },
+            { "text": "cupcake", "kind": "correct" },
+            { "text": "pancake", "kind": "wrong-mod" }
+          ] },
+        { "id": "compound.supply-mod-dogbed", "cog": "supply", "missing": "modifier", "frame": "a bed for ___",
+          "entry": { "part1": { "noun": "dog", "themeDir": "animals" }, "part2": { "noun": "bed", "themeDir": "around the house" }, "head": "part2", "relation": "for", "glossMod": "dogs", "compound": "dogbed", "transparency": "transparent", "familiarity": "novel" },
+          "choices": [
+            { "noun": "book", "themeDir": "classroom", "kind": "wrong" },
+            { "noun": "dog", "themeDir": "animals", "kind": "correct" },
+            { "noun": "cup", "themeDir": "around the house", "kind": "wrong" }
+          ] },
+        { "id": "compound.supply-head-football", "cog": "supply", "missing": "head", "frame": "a ___ for the foot",
+          "entry": { "part1": { "noun": "foot", "themeDir": "body parts" }, "part2": { "noun": "ball", "themeDir": "toys" }, "head": "part2", "relation": "for", "glossMod": "the foot", "compound": "football", "transparency": "transparent", "familiarity": "familiar" },
+          "choices": [
+            { "noun": "bag", "themeDir": "At the Supermarket", "kind": "wrong" },
+            { "noun": "ball", "themeDir": "toys", "kind": "correct" },
+            { "noun": "bowl", "themeDir": "around the house", "kind": "wrong" }
+          ] },
+        { "id": "compound.head-fishbowl", "cog": "head",
+          "entry": { "part1": { "noun": "fish", "themeDir": "animals" }, "part2": { "noun": "bowl", "themeDir": "around the house" }, "head": "part2", "relation": "for", "glossMod": "fish", "compound": "fishbowl", "transparency": "transparent", "familiarity": "novel" },
+          "choices": [
+            { "word": "fish", "kind": "mod" },
+            { "word": "bowl", "kind": "head" }
+          ] },
+        { "id": "compound.head-milkjug", "cog": "head",
+          "entry": { "part1": { "noun": "milk", "themeDir": "At the Supermarket" }, "part2": { "noun": "jug", "themeDir": "kitchen tools" }, "head": "part2", "relation": "for", "glossMod": "milk", "compound": "milkjug", "transparency": "transparent", "familiarity": "novel" },
+          "choices": [
+            { "word": "milk", "kind": "mod" },
+            { "word": "jug", "kind": "head" }
+          ] },
+        { "id": "compound.build-bookbag", "cog": "build",
+          "entry": { "part1": { "noun": "book", "themeDir": "classroom" }, "part2": { "noun": "bag", "themeDir": "At the Supermarket" }, "head": "part2", "relation": "for", "glossMod": "books", "glossModMaterial": "books", "compound": "bookbag", "transparency": "transparent", "familiarity": "novel" },
+          "choices": [
+            { "text": "a bag made of books", "kind": "made-of" },
+            { "text": "a bag for books", "kind": "correct" },
+            { "text": "a book for bags", "kind": "reversed" }
+          ] },
+        { "id": "compound.build-dogbed", "cog": "build",
+          "entry": { "part1": { "noun": "dog", "themeDir": "animals" }, "part2": { "noun": "bed", "themeDir": "around the house" }, "head": "part2", "relation": "for", "glossMod": "dogs", "glossModMaterial": "dogs", "compound": "dogbed", "transparency": "transparent", "familiarity": "novel" },
+          "choices": [
+            { "text": "a bed made of dogs", "kind": "made-of" },
+            { "text": "a bed for dogs", "kind": "correct" },
+            { "text": "a dog for beds", "kind": "reversed" }
+          ] }
+      ]
+    },
+    "slug": { "en": "skips-word-welding-yard" },
+    "page_title": { "en": "Skip's Word-Welding Yard — Build & Mean Compound Words" },
+    "page_intro": {
+      "en": "Skip the squirrel welds word-blocks together! Bring two words and figure out what the NEW compound word means — a fishbowl is a bowl FOR fish, not a bowl made OF fish. A Grade 2 vocabulary game aligned to Common Core L.2.4.d: use the meaning of the parts to predict the meaning of compound words."
+    },
+    "kid_prompt_template": "What does the new word MEAN?"
+  }
+]

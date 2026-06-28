@@ -1,0 +1,35 @@
+[
+  {
+    "id": "fern-clue-garden.context-clues.l-2-4-a",
+    "tool": "fern-clue-garden-activity",
+    "task_template": "context-clues",
+    "alignment": { "framework": "CCSS", "code": "L.2.4.a", "grade": "2", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "bark", "band": 1, "word": "bark", "sentence": "The puppy began to bark at the mail truck.",
+          "choices": [ { "text": "the sound a dog makes", "kind": "correct" }, { "text": "the hard cover on a tree", "kind": "no-context" }, { "text": "a soft warm coat", "kind": "off" } ] },
+        { "id": "bat", "band": 1, "word": "bat", "sentence": "After dark, a bat flew out of the cave.",
+          "choices": [ { "text": "a wooden stick for hitting a ball", "kind": "no-context" }, { "text": "a small animal that flies at night", "kind": "correct" }, { "text": "a cup for drinking milk", "kind": "off" } ] },
+        { "id": "trunk", "band": 1, "word": "trunk", "sentence": "The elephant picked up the log with its trunk.",
+          "choices": [ { "text": "a big box for keeping things", "kind": "no-context" }, { "text": "a path through a forest", "kind": "off" }, { "text": "a long bendy nose", "kind": "correct" } ] },
+        { "id": "ring", "band": 2, "word": "ring", "sentence": "The phone started to ring during dinner.",
+          "choices": [ { "text": "to make a loud sound", "kind": "correct" }, { "text": "a band you wear on a finger", "kind": "no-context" }, { "text": "a place where pigs sleep", "kind": "off" } ] },
+        { "id": "light", "band": 2, "word": "light", "sentence": "The box was so light that I lifted it easily.",
+          "choices": [ { "text": "a kind of juicy fruit", "kind": "off" }, { "text": "not heavy at all", "kind": "correct" }, { "text": "the brightness that helps us see", "kind": "no-context" } ] },
+        { "id": "fair", "band": 2, "word": "fair", "sentence": "We rode every ride at the fair on Saturday.",
+          "choices": [ { "text": "when everyone is treated the same", "kind": "no-context" }, { "text": "a tool for cutting paper", "kind": "off" }, { "text": "a fun place with rides and games", "kind": "correct" } ] },
+        { "id": "wave", "band": 3, "word": "wave", "sentence": "She lifted her hand to wave at her friend.",
+          "choices": [ { "text": "to say hello by moving your arm", "kind": "correct" }, { "text": "a small green plant", "kind": "off" }, { "text": "water that rolls onto the beach", "kind": "no-context" } ] },
+        { "id": "park", "band": 3, "word": "park", "sentence": "Dad will park the van next to the store.",
+          "choices": [ { "text": "a grassy place to play outside", "kind": "no-context" }, { "text": "to stop and leave a car somewhere", "kind": "correct" }, { "text": "a bowl of warm soup", "kind": "off" } ] },
+        { "id": "duck", "band": 3, "word": "duck", "sentence": "Duck quickly so the branch misses your head!",
+          "choices": [ { "text": "a tall stone tower", "kind": "off" }, { "text": "a bird that swims on a pond", "kind": "no-context" }, { "text": "to bend down low and fast", "kind": "correct" } ] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "fern-clue-garden" },
+    "page_title": { "en": "Fern's Clue Garden — Find a Word's Meaning from the Sentence (Grade 2)" },
+    "page_intro": { "en": "A free interactive Grade 2 vocabulary game: Fern the fawn reads the words around a tricky word to figure out what it means. Some words have more than one meaning — read the whole sentence, use the context clues, and tap the meaning that fits. Using sentence-level context as a clue to a word's meaning. Common Core L.2.4.a." },
+    "kid_prompt_template": "context-clues"
+  }
+]

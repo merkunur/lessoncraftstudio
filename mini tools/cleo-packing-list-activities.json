@@ -1,0 +1,25 @@
+[
+  {
+    "id": "cleo-packing-list.series-commas.l-1-2-b",
+    "tool": "cleo-packing-list-activity",
+    "task_template": "series-commas",
+    "alignment": { "framework": "CCSS", "code": "L.1.2.b", "grade": "1", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "picnic", "band": 1, "lead": "I packed", "items": ["apples", "pears", "plums"], "slot": 0 },
+        { "id": "farm", "band": 1, "lead": "We saw", "items": ["cats", "dogs", "pigs"], "slot": 1 },
+        { "id": "colors", "band": 1, "lead": "I like", "items": ["red", "blue", "green"], "slot": 2 },
+        { "id": "table", "band": 2, "lead": "We need", "items": ["cups", "plates", "forks"], "slot": 0 },
+        { "id": "garden", "band": 2, "lead": "I see", "items": ["bees", "birds", "bugs"], "slot": 1 },
+        { "id": "winter", "band": 2, "lead": "We have", "items": ["hats", "mittens", "boots"], "slot": 2 },
+        { "id": "lunch", "band": 3, "lead": "I want", "items": ["milk", "bread", "jam"], "slot": 0 },
+        { "id": "field", "band": 3, "lead": "We grow", "items": ["corn", "beans", "peas"], "slot": 1 }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "cleo-packing-list" },
+    "page_title": { "en": "Cleo's Packing List — Commas in a List (Grade 1)" },
+    "page_intro": { "en": "Cleo the chameleon makes lists all day! When you list three or more things, a comma goes after each one — apples, pears, and plums. Read the three sentences and tap the one with the commas in the right places. A Grade 1 grammar game about using commas in a series, aligned to Common Core L.1.2.b." },
+    "kid_prompt_template": "Tap the list that has its commas in the right places."
+  }
+]

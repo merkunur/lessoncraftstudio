@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Ten Frame — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=17">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
   <!-- Per-wrapper overrides scoped to ten-frame-activity. The shared v7
        activity-card rules (card sizing, padding, overflow, header
        stacking, celebrate-bounce, prompt/Check/Next scaling) live in
@@ -39,19 +39,34 @@
        right frame visibly cut off). New ceiling 80px + 4vw scaling +
        flex-wrap fallback ensures fit at every desktop width 768-2560. */
     @media (min-width: 768px) {
-      .tf-double .tf-cell { width: clamp(50px, 4vw, 80px) !important; }
+      .tf-double .tf-cell { width: clamp(40px, 3.2vw, 60px) !important; }
       .tf-frames-area {
-        gap: clamp(16px, 2vw, 32px) !important;
+        gap: clamp(8px, 1.4vw, 18px) !important;   /* tighter so the 2 frames stay side-by-side (no wrap→fold) with bigger cells */
         max-width: 100% !important;
         flex-wrap: wrap !important;
         justify-content: center !important;
       }
+      /* Fold fix (2026-06-27): solve-the-story rides a long word-problem on the
+         shell prompt (48px → ~6 lines = ~312px) above a single ten-frame +
+         COUNT readout + keypad → overshot a 900-tall window. Cap the prompt +
+         single-frame cells + readout. .tf-wrap .tf-cell (0,2,0) beats the
+         core's runtime .tf-cell!important. ten-frame-core untouched (protected). */
+      .lcs-activity-prompt { font-size: clamp(20px, 3vmin, 28px) !important; }
+      .tf-wrap .tf-cell { width: clamp(40px, 3.2vw, 56px) !important; }
+      /* Double-frame (0-20) on desktop is FOLD-BOUND: chrome + prompt + keypad +
+         Check is a ~828px fixed cost, so at vh=900 only ~80px of frame height
+         fits → the 2-row frame caps cells at ~40px (counters ~24px — above the
+         14px not-tiny floor, but a visual-critic flags them as small). Bigger
+         cells either grow the 2-row height (cut-off) or overflow the ~598px card
+         inner → wrap to stacked → cut-off. 40px is the physical max; the keypad
+         (protected shell) is the binding constraint. Keep at the single-frame
+         cap (40-56) — no separate enlarge rule, which only re-folds 1024/1366. */
     }
 
     /* Ten-frame-specific: COUNT readout number font-size. */
-    .tf-readout-num { font-size: clamp(28px, 6vh, 56px) !important; }
+    .tf-readout-num { font-size: clamp(24px, 5vh, 40px) !important; }
     @media (min-width: 768px) {
-      .tf-readout-num { font-size: clamp(40px, 7vh, 64px) !important; }
+      .tf-readout-num { font-size: clamp(30px, 4.4vh, 44px) !important; }
     }
 
     /* v7.2 mobile: stack the double-frame vertically (was flex-direction:
@@ -64,7 +79,18 @@
          inline <style>) — equal specificity, later cascade position wins.
          Matches the existing .tf-cell-width !important pattern below. */
       .tf-double .tf-frames-area { flex-direction: column !important; gap: 10px !important; }
-      .tf-double .tf-cell { width: clamp(28px, 8vw, 44px) !important; }
+      /* Counter images scale with the cell; at 28px the counter rendered ~13px
+         (<14 = TINY) on the 20-counter double-frame (write-numeral 0-20) at 360.
+         Floor the cell at 32 so the counter clears 14px; double-frame stays
+         within the 360+ budget (320 with 20 counters remains a density wall). */
+      .tf-double .tf-cell { width: clamp(32px, 8.5vw, 44px) !important; }
+      /* phone story-fold: cap ONLY the prompt (NOT cells — the counter images
+         scale with the cell and dropping cells below ~36px makes them <14px =
+         TINY, regressing how-many/count). A long word-problem + ten-frame +
+         keypad cannot fully fit the 320×640 Galaxy-Fold window (keypad floor
+         ~555 + story + ten-frame > 640); on real phones the iframe auto-grows
+         (Prong D.1) so the Check is reached by scrolling. 360px+ all fit. */
+      .lcs-activity-prompt { font-size: clamp(14px, 3.6vw, 19px) !important; line-height: 1.2 !important; }
     }
   </style>
 </head>

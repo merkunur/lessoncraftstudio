@@ -1,0 +1,32 @@
+[
+  {
+    "id": "clock-convert.12-24.2-md-c-7",
+    "tool": "clock-convert-activity",
+    "task_template": "convert-time",
+    "alignment": { "framework": "CCSS", "code": "2.MD.C.7", "grade": "2", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "cv-15a", "dir": "12to24", "h24": 15, "m": 0, "options": [ 15, 3, 13 ] },
+        { "id": "cv-20b", "dir": "24to12", "h24": 20, "m": 0, "options": [ 20, 8, 21 ] },
+        { "id": "cv-21a", "dir": "12to24", "h24": 21, "m": 30, "options": [ 21, 9, 20 ] },
+        { "id": "cv-14b", "dir": "24to12", "h24": 14, "m": 15, "options": [ 14, 2, 15 ] },
+        { "id": "cv-18a", "dir": "12to24", "h24": 18, "m": 0, "options": [ 18, 6, 17 ] },
+        { "id": "cv-23b", "dir": "24to12", "h24": 23, "m": 45, "options": [ 23, 11, 22 ] },
+        { "id": "cv-13a", "dir": "12to24", "h24": 13, "m": 20, "options": [ 13, 1, 14 ] },
+        { "id": "cv-16b", "dir": "24to12", "h24": 16, "m": 0, "options": [ 16, 4, 17 ] },
+        { "id": "cv-19a", "dir": "12to24", "h24": 19, "m": 30, "options": [ 19, 7, 18 ] }
+      ]
+    },
+    "slug": {
+      "en": "convert-12-hour-and-24-hour-time"
+    },
+    "page_title": {
+      "en": "Sprocket's Clock — 12-Hour & 24-Hour Time Conversion (Grade 2)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 time activity: convert times between 12-hour (a.m./p.m.) and 24-hour notation. Children read a time in one way of writing it and tap the same time in the other — learning that after noon, 24-hour time keeps counting (3:00 PM is 15:00). Sprocket the rooster cheers them on. Builds on Common Core 2.MD.C.7 (telling time using a.m. and p.m.), extended to 24-hour time."
+    },
+    "kid_prompt_template": "clock-convert"
+  }
+]

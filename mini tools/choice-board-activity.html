@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Choice Board — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=17">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
   <!-- v7 cascade: activity-page parent forces iframe height to 66.67vh
        and renders a sage field around the iframe. These per-wrapper
        rules make the iframe body transparent (so the field shows through)
@@ -39,6 +39,12 @@
          items scale to fit inside fixed tile width. */
       .cb-cols-2 .cb-tile { width: 76px !important; max-width: 76px !important; max-height: 76px !important; }
       .cb-cols-4 .cb-tile { width: clamp(40px, 13vw, 56px) !important; max-width: 56px !important; max-height: 56px !important; }
+      /* Fold/TINY fix (2026-06-27): a 2-choice tile CONTAINING a group of items
+         (which-more: tap the group with more) shrank a ~9-item group to ~10px
+         images inside the 76px uniform tile (TINY). Group tiles need to be
+         bigger; both get the same width via :has(.cb-group) so the comparison
+         stays fair. Plenty of vertical room (these activities are short). */
+      .cb-cols-2 .cb-tile:has(.cb-group) { width: clamp(116px, 40vw, 150px) !important; max-width: none !important; max-height: none !important; }
       /* Pin phones to the original no-wrap behaviour so the core's
          overflow-wrap (which covers the 600-767 gap + wide widths) cannot
          alter phone rendering — phones stay byte-identical. */
@@ -46,7 +52,12 @@
     }
 
     @media (min-width: 768px) {
-      .cb-subject-img { height: clamp(156px, 21vmin, 234px) !important; }
+      /* Fold fix (2026-06-27): cap the hero prompt (48px → flat-solid's prompt
+         wrapped 3 lines = ~146px) + trim the subject image so subject + 2-choice
+         board + Check clear a 900-tall window (flat-solid was 970). Pure
+         compaction shared across choice-board activities; all re-verified. */
+      .lcs-activity-prompt { font-size: clamp(20px, 3vmin, 28px) !important; }
+      .cb-subject-img { height: clamp(140px, 17vmin, 184px) !important; }
       .cb-board { max-width: 720px !important; }
       .cb-tile { padding: clamp(16px, 2.4vmin, 24px) !important; }
       /* v7.12: same gap-reduction pattern as mobile. */
@@ -81,7 +92,7 @@
   <!-- Shell first, then the shared choice-board core, then this activity wrapper. -->
   <script src="/mini-tools/lcs-shell.js?v=3"></script>
   <script src="/mini-tools/choice-board-core.js?v=8"></script>
-  <script src="/mini-tools/choice-board-activity.js?v=72"></script>
+  <script src="/mini-tools/choice-board-activity.js?v=73"></script>
   <script>
     LCS.mount(ChoiceBoardActivity, { mount: '#lcs-root' });
   </script>

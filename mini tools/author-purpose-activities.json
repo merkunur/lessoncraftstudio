@@ -1,0 +1,39 @@
+[
+  {
+    "id": "author-purpose.why-wrote.ri-2-6",
+    "tool": "author-purpose-activity",
+    "task_template": "author-purpose",
+    "alignment": { "framework": "CCSS", "code": "RI.2.6", "grade": "2", "strand": "Reading: Informational Text" },
+    "theme": null,
+    "params": {
+      "binLabels": {
+        "inform": "To tell facts",
+        "entertain": "To tell a fun story",
+        "instruct": "To show how to do it"
+      },
+      "rounds": [
+        { "id": "ap-i1", "note": { "purpose": "inform",    "text": "Owls sleep in the daytime and hunt at night. Their soft feathers help them fly without making a sound." } },
+        { "id": "ap-i2", "note": { "purpose": "inform",    "text": "The sun is a giant ball of hot, glowing gas. It gives our planet light and warmth every day." } },
+        { "id": "ap-i3", "note": { "purpose": "inform",    "text": "Honeybees live together in a busy hive. They turn flower nectar into sweet, golden honey." } },
+
+        { "id": "ap-e1", "note": { "purpose": "entertain", "text": "Pip the puppy chased his tail round and round. He spun so fast he flopped into the leaves!" } },
+        { "id": "ap-e2", "note": { "purpose": "entertain", "text": "A silly frog tried to catch the moon in the pond. He splashed all night, but the moon just winked!" } },
+        { "id": "ap-e3", "note": { "purpose": "entertain", "text": "Mabel the cat thought she was a lion. She roared at a feather and pounced on a sock!" } },
+
+        { "id": "ap-s1", "note": { "purpose": "instruct",  "text": "To make a paper boat, first fold the paper in half. Next, fold the corners down. Then shape the boat." } },
+        { "id": "ap-s2", "note": { "purpose": "instruct",  "text": "To plant a seed, first dig a small hole. Then drop the seed in. Last, give it some water." } },
+        { "id": "ap-s3", "note": { "purpose": "instruct",  "text": "To wash your hands, first turn on the water. Next, scrub with soap. Then rinse and dry them." } }
+      ]
+    },
+    "slug": {
+      "en": "authors-purpose-inform-entertain-instruct"
+    },
+    "page_title": {
+      "en": "The Harbor Post — Author's Purpose: Inform, Entertain & Instruct (Grade 2)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 reading activity: help Marlow the pelican sort harbor notes by why the author wrote them. Read each short note, then send it to the right bin — to tell facts, to tell a fun story, or to show you how to do something. A friendly first look at the author's purpose. Common Core RI.2.6."
+    },
+    "kid_prompt_template": "author-purpose"
+  }
+]

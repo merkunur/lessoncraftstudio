@@ -1,0 +1,35 @@
+[
+  {
+    "id": "line-plot.read.2-md-d-9",
+    "tool": "line-plot-activity",
+    "task_template": "line-plot",
+    "alignment": { "framework": "CCSS", "code": "2.MD.D.9", "grade": "2", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "lp-at-5",   "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"atN","n":5} },
+        { "id": "lp-at-4",   "cog": "read", "scale": {"min":1,"max":8}, "marks": [3,4,4,4,6,7],   "question": {"type":"atN","n":4} },
+        { "id": "lp-longer-5","cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"longerN","n":5} },
+        { "id": "lp-mode",   "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,2,4,6,6,6,7], "question": {"type":"mode"} },
+        { "id": "lp-diff-1", "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"maxMinusMin"} },
+        { "id": "lp-diff-2", "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,2,4,6,6,6,7], "question": {"type":"maxMinusMin"} },
+        { "id": "lp-more-56","cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"moreAB","a":5,"b":6} },
+        { "id": "lp-more-46","cog": "read", "scale": {"min":1,"max":8}, "marks": [3,4,4,4,6,7],   "question": {"type":"moreAB","a":4,"b":6} },
+
+        { "id": "lp-plot-6", "cog": "plot", "scale": {"min":1,"max":8}, "marks": [3,4,4,4,6,7],   "placeLength": 6 },
+        { "id": "lp-plot-4", "cog": "plot", "scale": {"min":1,"max":8}, "marks": [2,2,6,6,6,7],   "placeLength": 4 },
+        { "id": "lp-plot-7", "cog": "plot", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "placeLength": 7 }
+      ]
+    },
+    "slug": {
+      "en": "measurement-line-plot"
+    },
+    "page_title": {
+      "en": "Shelly's Tide-Line — Measurement Line Plots (Grade 2)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 math activity: help Shelly the hermit crab measure shells and plot their lengths on a tide-line. Read the X's stacked over each number to find how many shells are a given length, how many are longer, the most common length, and how much longer the longest shell is than the shortest. A clear, friendly introduction to measurement line plots. Common Core 2.MD.D.9."
+    },
+    "kid_prompt_template": "line-plot"
+  }
+]

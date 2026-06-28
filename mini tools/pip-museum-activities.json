@@ -1,0 +1,33 @@
+[
+  {
+    "id": "pip-museum.curate-wing.k-g-a-2",
+    "tool": "pip-museum-activity",
+    "task_template": "curate-wing",
+    "alignment": { "framework": "CCSS", "code": "K.G.A.2", "grade": "K", "strand": "Geometry" },
+    "params": {
+      "rounds": [
+        { "id": "route-tri-sq-ci", "facetAct": "transformed-route", "band": 1, "pedestals": [{ "type": "triangle" }, { "type": "square" }, { "type": "circle" }],
+          "belt": [{ "type": "square", "seed": 101, "assessed": true }, { "type": "triangle", "seed": 102, "assessed": true }, { "type": "circle", "seed": 103, "assessed": true }, { "type": "triangle", "seed": 104, "assessed": true } ] },
+        { "id": "route-hex-tri", "facetAct": "transformed-route", "band": 1, "pedestals": [{ "type": "hexagon" }, { "type": "triangle" }, { "type": "circle" }],
+          "belt": [{ "type": "hexagon", "seed": 111, "assessed": true }, { "type": "triangle", "seed": 112, "assessed": true }, { "type": "hexagon", "seed": 113, "assessed": true }, { "type": "circle", "seed": 114, "assessed": true } ] },
+        { "id": "exclude-mystery", "facetAct": "exclude-route", "band": 2, "pedestals": [{ "type": "circle" }, { "type": "square" }, { "type": "mystery" }],
+          "belt": [{ "type": "square", "seed": 121, "assessed": true }, { "type": "rhombus", "seed": 122, "assessed": true }, { "type": "circle", "seed": 123, "assessed": true }, { "type": "oval", "seed": 124, "assessed": true } ] },
+        { "id": "fine-sq-rect", "facetAct": "fine-discriminate", "band": 2, "pedestals": [{ "type": "square" }, { "type": "rectangle" }, { "type": "mystery" }],
+          "belt": [{ "type": "square", "seed": 131, "assessed": true }, { "type": "rectangle", "seed": 132, "assessed": true }, { "type": "rectangle_fine", "seed": 133, "assessed": true }, { "type": "rhombus", "seed": 134, "assessed": true } ] },
+        { "id": "name-to-hexagon", "facetAct": "name-to-shape", "band": 3, "targetName": "hexagon",
+          "choices": [{ "type": "hexagon", "seed": 141, "assessed": true }, { "type": "triangle", "seed": 142, "assessed": true }, { "type": "square", "seed": 143, "assessed": true }, { "type": "circle", "seed": 144, "assessed": true } ] },
+        { "id": "match-square-pair", "facetAct": "match-pair", "band": 3, "matchName": "square",
+          "set": [{ "type": "square", "seed": 151, "assessed": true }, { "type": "triangle", "seed": 152, "assessed": true }, { "type": "square", "seed": 153, "assessed": true }, { "type": "circle", "seed": 154, "assessed": true } ] },
+        { "id": "confirm-claim", "facetAct": "confirm-correct", "band": 4,
+          "claims": [{ "type": "rhombus", "seed": 161, "assessed": true, "claim": "square" }, { "type": "triangle", "seed": 162, "assessed": true, "claim": "triangle" }, { "type": "rectangle", "seed": 163, "assessed": true, "claim": "square" } ] },
+        { "id": "capstone-hall", "facetAct": "capstone", "band": 4, "pedestals": [{ "type": "triangle" }, { "type": "square" }, { "type": "hexagon" }],
+          "belt": [{ "type": "square", "seed": 171, "assessed": true }, { "type": "hexagon", "seed": 172, "assessed": true }, { "type": "triangle", "seed": 173, "assessed": true }, { "type": "square", "seed": 174, "assessed": true }, { "type": "hexagon", "seed": 175, "assessed": true } ] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "professor-pips-museum" },
+    "page_title": { "en": "Professor Pip's Museum — Name Shapes Any Way They Turn (Kindergarten)" },
+    "page_intro": { "en": "A free interactive Kindergarten geometry game: Professor Pip the penguin trusts you to NAME every new museum acquisition. Treasures ride up the conveyor tilted, tiny, stretched, or upside-down — and you route each to the pedestal that names it. A square is a square even when it's turned like a diamond! Naming circles, triangles, squares, rectangles, and hexagons no matter how they're turned or sized is the heart of Common Core K.G.A.2." },
+    "kid_prompt_template": "curate-wing"
+  }
+]

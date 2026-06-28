@@ -1,0 +1,26 @@
+[
+  {
+    "id": "bundle-bot.bundle-machine.1-nbt-b-2-a",
+    "tool": "bundle-bot-activity",
+    "task_template": "bundle-machine",
+    "alignment": { "framework": "CCSS", "code": "1.NBT.B.2.a", "grade": "1", "strand": "Number & Operations in Base Ten" },
+    "params": {
+      "rounds": [
+        { "id": "build-twenty-three", "cog": "build", "band": 1, "target": 23, "clumpSizes": [1, 2, 3] },
+        { "id": "build-thirty-four", "cog": "build", "band": 1, "target": 34, "clumpSizes": [1, 2, 3] },
+        { "id": "unbundle-thirty-two", "cog": "unbundle", "band": 2, "target": 32, "start": { "tens": 3, "ones": 2 }, "solveTens": 2, "solveOnes": 12 },
+        { "id": "impostor-twenty-nine", "cog": "impostor", "band": 2, "target": 29, "impostorOnes": 9, "clumpSizes": [1, 2, 3] },
+        { "id": "decade-forty", "cog": "decade", "band": 2, "target": 40, "clumpSizes": [1, 2, 3] },
+        { "id": "read-state-twenty-four", "cog": "read-state", "band": 1, "target": 24, "start": { "tens": 2, "ones": 3 }, "clumpSizes": [1, 2, 3] },
+        { "id": "overfill-thirty-six", "cog": "overfill", "band": 3, "target": 36, "clumpSizes": [3] },
+        { "id": "build-forty-five", "cog": "build", "band": 2, "target": 45, "clumpSizes": [1, 2, 3] },
+        { "id": "build-twenty-seven", "cog": "build", "band": 1, "target": 27, "clumpSizes": [1, 2, 3] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "bundle-bot" },
+    "page_title": { "en": "Bundle Bot — Make a Ten from Ten Ones" },
+    "page_intro": { "en": "Bundle Bot is an eager little robot who LOVES tidying loose ones into neat tens — but he can't bundle without you! Count the loose ones, and when it's exactly ten, pull the lever to clunk them into one neat ten. Build numbers up to forty-nine the smart way. A warm Grade 1 place-value game about bundling tens, aligned to Common Core 1.NBT.B.2.a." },
+    "kid_prompt_template": "bundle-machine"
+  }
+]

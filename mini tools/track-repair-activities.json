@@ -1,0 +1,33 @@
+[
+  {
+    "id": "track-repair.count-to-120.1-nbt-a-1",
+    "tool": "track-repair-activity",
+    "task_template": "track-repair",
+    "alignment": { "framework": "CCSS", "code": "1.NBT.A.1", "grade": "1", "strand": "Number & Operations in Base Ten" },
+    "params": {
+      "rounds": [
+        { "id": "count-on-47", "cog": "count-on", "band": 1, "start": 47, "end": 50, "step": 1, "present": [47, 50], "targets": [48, 49], "distractors": [46, 51], "epsilon": 0.45 },
+        { "id": "count-on-83", "cog": "count-on", "band": 1, "start": 83, "end": 86, "step": 1, "present": [83, 86], "targets": [84, 85], "distractors": [82, 87], "epsilon": 0.45 },
+        { "id": "count-back-25", "cog": "count-back", "band": 1, "start": 22, "end": 25, "step": 1, "present": [22, 25], "targets": [23, 24], "distractors": [21, 26], "epsilon": 0.45 },
+        { "id": "decade-38", "cog": "decade", "band": 2, "start": 38, "end": 42, "step": 1, "present": [38, 39, 42], "targets": [40, 41], "distractors": [37, 43], "epsilon": 0.5 },
+        { "id": "to-120-98", "cog": "to-120", "band": 3, "start": 98, "end": 102, "step": 1, "present": [98, 99, 102], "targets": [100, 101], "distractors": [97, 103], "epsilon": 0.5 },
+        { "id": "two-gap-33", "cog": "two-gap", "band": 2, "start": 32, "end": 37, "step": 1, "present": [32, 33, 35, 37], "targets": [34, 36], "distractors": [31, 38], "epsilon": 0.55 },
+
+        { "id": "skip-10-30", "cog": "skip", "band": 2, "start": 10, "end": 30, "step": 5, "present": [10, 30], "targets": [15, 20, 25], "distractors": [17, 22], "epsilon": 1.3 },
+        { "id": "skip-5-25", "cog": "skip", "band": 2, "start": 5, "end": 25, "step": 5, "present": [5, 25], "targets": [10, 15, 20], "distractors": [13, 18], "epsilon": 1.3 },
+        { "id": "skip-15-35", "cog": "skip", "band": 2, "start": 15, "end": 35, "step": 5, "present": [15, 35], "targets": [20, 25, 30], "distractors": [22, 28], "epsilon": 1.3 },
+        { "id": "skip-40-70", "cog": "skip", "band": 2, "start": 40, "end": 70, "step": 10, "present": [40, 70], "targets": [50, 60], "distractors": [45, 55], "epsilon": 1.8 },
+        { "id": "skip-60-90", "cog": "skip", "band": 3, "start": 60, "end": 90, "step": 10, "present": [60, 90], "targets": [70, 80], "distractors": [65, 75], "epsilon": 1.8 },
+
+        { "id": "interval-10-30", "cog": "interval", "band": 3, "start": 10, "end": 30, "step": 1, "present": [10, 30], "targets": [20], "distractors": [15, 25], "epsilon": 1.4 },
+        { "id": "interval-40-80", "cog": "interval", "band": 3, "start": 40, "end": 80, "step": 1, "present": [40, 80], "targets": [60], "distractors": [50, 70], "epsilon": 2.6 },
+        { "id": "interval-50-70", "cog": "interval", "band": 3, "start": 50, "end": 70, "step": 1, "present": [50, 70], "targets": [60], "distractors": [55, 65], "epsilon": 1.4 }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "whistle-valley-track-repair" },
+    "page_title": { "en": "Whistle Valley — Number-Line Track Repair" },
+    "page_intro": { "en": "A storm tore out the train track in Whistle Valley, and the track is a NUMBER LINE! Read each numbered tie and drag it to the exact spot its number belongs — count on from the anchor stations — then send the singing engine chugging across the repaired track. A warm Grade 1 game about counting to 120 on the number line, aligned to Common Core 1.NBT.A.1." },
+    "kid_prompt_template": "track-repair"
+  }
+]

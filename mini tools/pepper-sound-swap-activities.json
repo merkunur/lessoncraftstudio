@@ -1,0 +1,33 @@
+[
+  {
+    "id": "pepper-sound-swap.substitute.rf-k-2-e",
+    "tool": "pepper-sound-swap-activity",
+    "task_template": "substitute",
+    "alignment": { "framework": "CCSS", "code": "RF.K.2.e", "grade": "K", "strand": "Reading: Foundational Skills" },
+    "params": {
+      "rounds": [
+        { "id": "cat-h", "band": 1, "target": { "noun": "cat", "themeDir": "animals", "b": "k", "m": "a", "e": "t" }, "swap": { "position": "b", "phoneme": "h", "letter": "H" },
+          "choices": [ { "noun": "hat", "themeDir": "accessories", "b": "h", "m": "a", "e": "t" }, { "noun": "bat", "themeDir": "animals", "b": "b", "m": "a", "e": "t" }, { "noun": "dog", "themeDir": "animals", "b": "d", "m": "o", "e": "g" } ] },
+        { "id": "pan-f", "band": 1, "target": { "noun": "pan", "themeDir": "around the house", "b": "p", "m": "a", "e": "n" }, "swap": { "position": "b", "phoneme": "f", "letter": "F" },
+          "choices": [ { "noun": "van", "themeDir": "vehicles", "b": "v", "m": "a", "e": "n" }, { "noun": "fan", "themeDir": "around the house", "b": "f", "m": "a", "e": "n" }, { "noun": "sun", "themeDir": "beach", "b": "s", "m": "u", "e": "n" } ] },
+        { "id": "van-p", "band": 1, "target": { "noun": "van", "themeDir": "vehicles", "b": "v", "m": "a", "e": "n" }, "swap": { "position": "b", "phoneme": "p", "letter": "P" },
+          "choices": [ { "noun": "fan", "themeDir": "around the house", "b": "f", "m": "a", "e": "n" }, { "noun": "log", "themeDir": "camping", "b": "l", "m": "o", "e": "g" }, { "noun": "pan", "themeDir": "around the house", "b": "p", "m": "a", "e": "n" } ] },
+        { "id": "bat-c", "band": 2, "target": { "noun": "bat", "themeDir": "animals", "b": "b", "m": "a", "e": "t" }, "swap": { "position": "b", "phoneme": "k", "letter": "C" },
+          "choices": [ { "noun": "cat", "themeDir": "animals", "b": "k", "m": "a", "e": "t" }, { "noun": "hat", "themeDir": "accessories", "b": "h", "m": "a", "e": "t" }, { "noun": "fox", "themeDir": "animals", "b": "f", "m": "o", "e": "x" } ] },
+        { "id": "fan-v", "band": 2, "target": { "noun": "fan", "themeDir": "around the house", "b": "f", "m": "a", "e": "n" }, "swap": { "position": "b", "phoneme": "v", "letter": "V" },
+          "choices": [ { "noun": "pan", "themeDir": "around the house", "b": "p", "m": "a", "e": "n" }, { "noun": "van", "themeDir": "vehicles", "b": "v", "m": "a", "e": "n" }, { "noun": "sun", "themeDir": "beach", "b": "s", "m": "u", "e": "n" } ] },
+        { "id": "hat-b", "band": 2, "target": { "noun": "hat", "themeDir": "accessories", "b": "h", "m": "a", "e": "t" }, "swap": { "position": "b", "phoneme": "b", "letter": "B" },
+          "choices": [ { "noun": "cat", "themeDir": "animals", "b": "k", "m": "a", "e": "t" }, { "noun": "mop", "themeDir": "around the house", "b": "m", "m": "o", "e": "p" }, { "noun": "bat", "themeDir": "animals", "b": "b", "m": "a", "e": "t" } ] },
+        { "id": "cat-p-last", "band": 3, "target": { "noun": "cat", "themeDir": "animals", "b": "k", "m": "a", "e": "t" }, "swap": { "position": "e", "phoneme": "p", "letter": "P" },
+          "choices": [ { "noun": "cap", "themeDir": "accessories", "b": "k", "m": "a", "e": "p" }, { "noun": "map", "themeDir": "camping", "b": "m", "m": "a", "e": "p" }, { "noun": "dog", "themeDir": "animals", "b": "d", "m": "o", "e": "g" } ] },
+        { "id": "hat-m-last", "band": 3, "target": { "noun": "hat", "themeDir": "accessories", "b": "h", "m": "a", "e": "t" }, "swap": { "position": "e", "phoneme": "m", "letter": "M" },
+          "choices": [ { "noun": "jam", "themeDir": "At the Supermarket", "b": "j", "m": "a", "e": "m" }, { "noun": "ham", "themeDir": "At the Supermarket", "b": "h", "m": "a", "e": "m" }, { "noun": "fox", "themeDir": "animals", "b": "f", "m": "o", "e": "x" } ] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "pepper-sound-swap" },
+    "page_title": { "en": "Pepper's Sound Swap — Change a Sound, Make a New Word (Kindergarten)" },
+    "page_intro": { "en": "Headphones recommended! Tap a picture to HEAR its name. Pepper the parrot swaps one sound to make a brand-new word — hear cat, change the first sound to H, and it becomes hat! Tap the picture of the new word. A listening game for Kindergarten phonemic awareness, aligned to Common Core RF.K.2.e: add and substitute sounds to make new words." },
+    "kid_prompt_template": "Tap to hear — then make the new word!"
+  }
+]

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Mending Fences — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+  <style>
+    html, body { background: transparent !important; }
+    html, body, #lcs-root { height: 100% !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, then the locale-neutral mending-fences core, then this activity.
+       NOTE: bump ?v=N on EVERY change to mending-fences-activity.js / -core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=3"></script>
+  <script src="/mini-tools/mending-fences-core.js?v=1"></script>
+  <script src="/mini-tools/mending-fences-activity.js?v=2"></script>
+  <script>
+    LCS.mount(MendingFencesActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

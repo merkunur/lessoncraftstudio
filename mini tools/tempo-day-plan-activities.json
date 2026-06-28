@@ -1,0 +1,25 @@
+[
+  {
+    "id": "tempo-day-plan.time-prepositions.l-1-1-i",
+    "tool": "tempo-day-plan-activity",
+    "task_template": "time-prepositions",
+    "alignment": { "framework": "CCSS", "code": "L.1.1.i", "grade": "1", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "run", "band": 1, "before": "We stretch", "after": "the run.", "correct": "before" },
+        { "id": "show", "band": 1, "before": "We are quiet", "after": "the show.", "correct": "during" },
+        { "id": "lunch", "band": 1, "before": "We rest", "after": "lunch.", "correct": "after" },
+        { "id": "trip", "band": 2, "before": "We pack", "after": "the trip.", "correct": "before" },
+        { "id": "song", "band": 2, "before": "We clap", "after": "the song.", "correct": "during" },
+        { "id": "party", "band": 2, "before": "We clean up", "after": "the party.", "correct": "after" },
+        { "id": "bed", "band": 3, "before": "We brush our teeth", "after": "bed.", "correct": "before" },
+        { "id": "photo", "band": 3, "before": "We hold still", "after": "the photo.", "correct": "during" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "tempo-day-plan" },
+    "page_title": { "en": "Tempo's Day Plan — Before, During, or After? (Grade 1)" },
+    "page_intro": { "en": "Tempo the turtle plans the whole day in order! Some things happen BEFORE, some DURING, and some AFTER. Read the sentence and tap the time word that fits. A Grade 1 grammar game about using time prepositions (before, during, after), aligned to Common Core L.1.1.i." },
+    "kid_prompt_template": "Tap before, during, or after to fit the sentence."
+  }
+]

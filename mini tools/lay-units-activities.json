@@ -1,0 +1,277 @@
+[
+  {
+    "id": "lay-units.measure.1-md-a-2",
+    "tool": "lay-units-activity",
+    "task_template": "lay-units",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.MD.A.2",
+      "grade": "1",
+      "strand": "Measurement & Data"
+    },
+    "params": {
+      "rounds": [
+        {
+          "id": "span-pencil",
+          "cog": "span",
+          "band": 1,
+          "objectNoun": "pencil",
+          "unitKind": "helper",
+          "L": 4,
+          "unitWidth": 8,
+          "trackSteps": 40,
+          "supplyCount": 5,
+          "prompt": "Lay helpers along the pencil, then count them."
+        },
+        {
+          "id": "span-leaf",
+          "cog": "span",
+          "band": 1,
+          "objectNoun": "leaf",
+          "unitKind": "helper",
+          "L": 3,
+          "unitWidth": 8,
+          "trackSteps": 32,
+          "supplyCount": 4,
+          "prompt": "How many helpers long is the leaf?"
+        },
+        {
+          "id": "gaps-ribbon",
+          "cog": "gaps",
+          "band": 2,
+          "objectNoun": "ribbon",
+          "unitKind": "helper",
+          "L": 4,
+          "unitWidth": 8,
+          "trackSteps": 40,
+          "supplyCount": 5,
+          "prePlaced": [
+            {
+              "pos": 0,
+              "w": 8
+            },
+            {
+              "pos": 8,
+              "w": 8
+            },
+            {
+              "pos": 16,
+              "w": 8
+            },
+            {
+              "pos": 26,
+              "w": 8
+            }
+          ],
+          "prompt": "A gap snuck in! Scootch them together, then count."
+        },
+        {
+          "id": "overlaps-crayon",
+          "cog": "overlaps",
+          "band": 2,
+          "objectNoun": "crayon",
+          "unitKind": "helper",
+          "L": 4,
+          "unitWidth": 8,
+          "trackSteps": 40,
+          "supplyCount": 5,
+          "prePlaced": [
+            {
+              "pos": 0,
+              "w": 8
+            },
+            {
+              "pos": 8,
+              "w": 8
+            },
+            {
+              "pos": 16,
+              "w": 8
+            },
+            {
+              "pos": 22,
+              "w": 8
+            }
+          ],
+          "prompt": "Two helpers are on top — give them room, then count."
+        },
+        {
+          "id": "samesize-carrot",
+          "cog": "samesize",
+          "band": 2,
+          "objectNoun": "carrot",
+          "unitKind": "helper",
+          "L": 4,
+          "unitWidth": 8,
+          "trackSteps": 40,
+          "supplyCount": 5,
+          "decoyWidth": 12,
+          "prompt": "Use only the SAME helpers — then count."
+        },
+        {
+          "id": "start-stick",
+          "cog": "start",
+          "band": 2,
+          "objectNoun": "stick",
+          "unitKind": "helper",
+          "L": 4,
+          "unitWidth": 8,
+          "trackSteps": 40,
+          "supplyCount": 5,
+          "prePlaced": [
+            {
+              "pos": 3,
+              "w": 8
+            }
+          ],
+          "prompt": "Start the first helper right at the tip!"
+        },
+        {
+          "id": "judge-ribbon",
+          "cog": "judge",
+          "band": 3,
+          "objectNoun": "ribbon",
+          "unitKind": "helper",
+          "L": 4,
+          "unitWidth": 8,
+          "trackSteps": 40,
+          "supplyCount": 5,
+          "prompt": "Which one is measured the right way?",
+          "judgeRows": [
+            {
+              "helpers": [
+                {
+                  "pos": 0,
+                  "w": 8
+                },
+                {
+                  "pos": 8,
+                  "w": 8
+                },
+                {
+                  "pos": 16,
+                  "w": 12
+                },
+                {
+                  "pos": 28,
+                  "w": 8
+                }
+              ],
+              "correct": false
+            },
+            {
+              "helpers": [
+                {
+                  "pos": 0,
+                  "w": 8
+                },
+                {
+                  "pos": 8,
+                  "w": 8
+                },
+                {
+                  "pos": 16,
+                  "w": 8
+                },
+                {
+                  "pos": 24,
+                  "w": 8
+                }
+              ],
+              "correct": true
+            },
+            {
+              "helpers": [
+                {
+                  "pos": 0,
+                  "w": 8
+                },
+                {
+                  "pos": 8,
+                  "w": 8
+                },
+                {
+                  "pos": 16,
+                  "w": 8
+                },
+                {
+                  "pos": 24,
+                  "w": 8
+                },
+                {
+                  "pos": 32,
+                  "w": 8
+                }
+              ],
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "span-ribbon2",
+          "cog": "span",
+          "band": 3,
+          "objectNoun": "ribbon",
+          "unitKind": "cube",
+          "L": 5,
+          "unitWidth": 8,
+          "trackSteps": 44,
+          "supplyCount": 6,
+          "prompt": "Lay cubes along the ribbon, then count."
+        },
+        {
+          "id": "gaps-leaf",
+          "cog": "gaps",
+          "band": 3,
+          "objectNoun": "leaf",
+          "unitKind": "clip",
+          "L": 3,
+          "unitWidth": 8,
+          "trackSteps": 32,
+          "supplyCount": 4,
+          "prePlaced": [
+            {
+              "pos": 0,
+              "w": 8
+            },
+            {
+              "pos": 8,
+              "w": 8
+            },
+            {
+              "pos": 18,
+              "w": 8
+            }
+          ],
+          "prompt": "Close the gap, then count the clips."
+        },
+        {
+          "id": "inverse-leaf",
+          "cog": "inverse",
+          "band": 3,
+          "objectNoun": "leaf",
+          "unitKind": "helper",
+          "L": 4,
+          "unitWidth": 8,
+          "trackSteps": 40,
+          "supplyCount": 5,
+          "inverse": {
+            "smallWidth": 4
+          },
+          "prompt": "Measure the leaf with big helpers, then little ones — what changes?"
+        }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "inchies-garden-path"
+    },
+    "page_title": {
+      "en": "Inchie's Garden Path — Measuring by Laying Units"
+    },
+    "page_intro": {
+      "en": "Help Inchie the inchworm measure the garden! Lay identical helper-worms end to end along each object — no gaps, no overlaps, all the same size — then tap each helper to count how many long it is. A warm Grade 1 measurement game about laying length units and discovering that length is the number of units, aligned to Common Core 1.MD.A.2."
+    },
+    "kid_prompt_template": "lay-units"
+  }
+]

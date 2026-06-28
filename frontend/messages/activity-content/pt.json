@@ -1,17 +1,195 @@
 {
-  "labels": {"about":"Sobre esta atividade","practices":"O que seu filho pratica","howToPlay":"Como jogar","learningGoals":"Objetivos de aprendizagem","whatsInside":"O que tem nesta atividade"},
+  "labels": {
+    "about": "Sobre esta atividade",
+    "practices": "O que seu filho pratica",
+    "howToPlay": "Como jogar",
+    "learningGoals": "Objetivos de aprendizagem",
+    "whatsInside": "O que tem nesta atividade"
+  },
   "templates": {
     "byStrand": {
-      "Counting & Cardinality": {"about":["Esta é uma atividade interativa e gratuita de contagem para crianças pequenas, trabalhando com números até {max}. Ela funciona direto no navegador, em tablets, celulares e computadores da sala de aula — não há nada para instalar, nenhuma conta para criar e nenhuma configuração para o professor.","A atividade está alinhada à BNCC, na unidade temática Números. As crianças recebem um retorno suave e imediato à medida que avançam, para que possam continuar tentando até que a resposta pareça certa. Não há cronômetro e não há pontuação — apenas uma prática calma e mão na massa."],"practices":["Contar um grupo de objetos um a um e dizer quantos há no total","Associar um número falado ou escrito à quantidade correta","Reconhecer pequenas quantidades de relance, sem precisar contar todas as vezes","Trabalhar com cuidado e confiança com números até {max}"],"howToPlay":["As crianças observam as figuras na tela e leem ou ouvem o comando.","Elas contam os itens e, então, tocam para colocar as fichas de contagem ou escolhem o número correspondente.","Uma verificação amigável mostra quando a resposta está certa, com um jeito fácil de tentar de novo — os erros fazem parte do aprendizado aqui e nunca são punidos."],"learningGoals":["Contar um conjunto de objetos com precisão e dizer quantos há.","Compreender que o último número contado nomeia o tamanho do grupo inteiro — a ideia central por trás da BNCC.","Construir o senso numérico inicial do qual a adição, a subtração e o valor posicional se desenvolvem."]},
-      "Number & Operations in Base Ten": {"about":["Esta atividade interativa e gratuita de valor posicional ajuda as crianças a perceberem como o nosso sistema de numeração é construído em torno de grupos de dez, usando números até {max}. Ela funciona em qualquer navegador moderno — em um tablet, um celular ou a lousa digital da sala — sem nada para baixar.","Ela está alinhada à BNCC, na unidade temática Números. As crianças trabalham no seu próprio ritmo, com um retorno acolhedor e imediato, e não há cronômetro nem pontuação para apressá-las."],"practices":["Ver um número de dois algarismos como um grupo de dezenas mais algumas unidades extras","Compor números até {max} a partir de dezenas e unidades","Ler e escrever números e relacioná-los a uma imagem da quantidade","Perceber os padrões que tornam os números maiores mais fáceis de compreender"],"howToPlay":["As crianças leem o comando e observam os quadros de dez ou os blocos na tela.","Elas preenchem, montam ou escolhem para corresponder ao número solicitado.","Uma verificação suave confirma a resposta correta e convida a uma nova tentativa quando preciso — uma prática calma e sem pressão do início ao fim."],"learningGoals":["Compreender um número entre dez e dezenove ou de dois algarismos como algumas dezenas e algumas unidades.","Compor e ler números até {max} com confiança — o coração da BNCC.","Estabelecer a base do sistema decimal da qual dependem a adição e a subtração com vários algarismos."]},
-      "Operations & Algebraic Thinking": {"about":["Esta atividade interativa e gratuita oferece às crianças uma prática mão na massa com as primeiras ideias de adição e subtração, trabalhando com quantidades até {max}. Ela funciona direto no navegador, em qualquer dispositivo, sem nada para instalar e sem login.","Ela está alinhada à BNCC, na unidade temática Álgebra. O retorno é imediato e encorajador, e não há cronômetro nem pontuação — as crianças podem refletir sobre as coisas no seu próprio ritmo."],"practices":["Juntar grupos e separá-los para descobrir quantos há","Ver diferentes maneiras de formar o mesmo número","Resolver situações simples de problemas com figuras e fichas de contagem","Raciocinar sobre quantidades até {max}"],"howToPlay":["As crianças leem o comando e observam os grupos de objetos na tela.","Elas juntam, separam ou escolhem para responder à pergunta.","Uma verificação amigável mostra quando elas acertam, com uma chance tranquila de tentar de novo."],"learningGoals":["Somar e subtrair com números pequenos usando objetos e figuras.","Compreender a adição como juntar e a subtração como separar — a ideia por trás da BNCC.","Desenvolver o senso numérico flexível sobre o qual se constrói o cálculo mental fluente."]},
-      "Geometry": {"about":["Esta atividade interativa e gratuita de formas ajuda as crianças pequenas a perceberem, nomearem e compararem as formas ao seu redor. Ela funciona direto no navegador, em tablets, celulares e computadores da sala de aula, sem nada para instalar e sem precisar de conta.","Ela está alinhada à BNCC, na unidade temática Geometria. As crianças exploram no seu próprio ritmo, com um retorno suave e imediato — sem cronômetro, sem pontuação, apenas uma prática lúdica."],"practices":["Reconhecer e nomear formas bidimensionais e tridimensionais do dia a dia","Perceber quantos lados e cantos uma forma tem","Distinguir formas planas de formas sólidas","Descrever e comparar formas com suas próprias palavras"],"howToPlay":["As crianças observam as formas na tela e leem ou ouvem o comando.","Elas tocam na forma correspondente ou organizam as formas no grupo certo.","Uma verificação acolhedora confirma a escolha correta e oferece uma tentativa fácil quando preciso."],"learningGoals":["Nomear e descrever formas comuns com confiança crescente.","Distinguir formas bidimensionais (planas) de formas tridimensionais (sólidas) — o foco da BNCC.","Construir o vocabulário espacial do qual dependem os trabalhos posteriores de geometria e medida."]},
-      "Measurement & Data": {"about":["Esta atividade interativa e gratuita de medidas ajuda as crianças pequenas a comparar objetos pelo tamanho — mais alto, mais curto e mais comprido — sem nenhuma contagem. Ela funciona direto no navegador, em tablets, celulares e computadores da sala de aula, sem nada para instalar e sem precisar de conta.","Ela está alinhada à BNCC, no eixo {strand}. As crianças comparam no seu próprio ritmo, com um retorno suave e imediato — sem cronômetro, sem pontuação, apenas uma prática lúdica de observar com atenção como as coisas se comparam em tamanho."],"practices":["Comparar dois objetos diretamente por um atributo mensurável, como comprimento ou altura","Decidir qual objeto é mais alto, mais curto ou mais comprido","Descrever com as próprias palavras a diferença entre dois tamanhos","Observar com atenção e raciocinar sobre o tamanho em vez de contar"],"howToPlay":["A criança observa duas imagens do mesmo objeto mostrado em tamanhos diferentes e lê ou ouve o comando.","Ela toca naquela que é mais alta, mais curta ou mais comprida, conforme o comando pede.","Uma verificação acolhedora confirma a escolha correta e oferece uma tentativa fácil quando preciso."],"learningGoals":["Comparar diretamente dois objetos por um atributo mensurável — o foco da BNCC.","Usar as palavras mais alto, mais curto e mais comprido para descrever e comparar tamanhos.","Construir o vocabulário inicial de medidas que servirá de base para trabalhos futuros com comprimento, peso e dados."]},
-      "Reading: Foundational Skills": {"about":["Esta atividade interativa e gratuita de leitura oferece às crianças uma prática mão na massa de soletrar e formar palavras. Ela funciona direto no navegador, em tablets, celulares e computadores da sala de aula, sem nada para instalar e sem conta para configurar.","Ela está alinhada à BNCC, no eixo Leitura/escuta. Cada palavra é verificada para garantir uma separação precisa e adequada às crianças, e o retorno é suave e imediato — não há cronômetro e não há pontuação."],"practices":["Separar palavras em sons ou sílabas e juntá-las novamente","Associar letras e grupos de letras aos sons que elas produzem","Formar palavras curtas e decodificáveis passo a passo","Ouvir e dizer cada parte de uma palavra em ordem"],"howToPlay":["As crianças observam a figura ou ouvem a palavra e, então, leem o comando.","Elas tocam nos sons ou nas sílabas em ordem para formar a palavra.","Uma verificação amigável lê em voz alta a palavra concluída e convida a uma nova tentativa quando preciso."],"learningGoals":["Juntar sons e sílabas para ler e formar palavras simples.","Relacionar os sons falados às letras escritas — o cerne da BNCC.","Desenvolver as habilidades de decodificação sobre as quais se constrói uma leitura confiante e independente."]},
-      "Phonological Awareness": {"about":["Esta atividade interativa e gratuita de escuta ajuda as crianças a ouvirem e brincarem com os sons dentro das palavras faladas. Ela funciona direto no navegador, em qualquer dispositivo, sem nada para instalar e sem precisar de login.","Ela está alinhada à BNCC, no eixo Análise linguística/semiótica. O retorno é acolhedor e imediato, e não há cronômetro nem pontuação para apressar uma criança pequena."],"practices":["Ouvir os sons e as sílabas separadas nas palavras faladas","Juntar sons para formar uma palavra","Separar uma palavra em seus sons","Prestar atenção em rimas e sons iniciais"],"howToPlay":["As crianças ouvem ou observam a palavra e, então, leem o comando.","Elas tocam para escolher, juntar ou separar os sons solicitados.","Uma verificação suave confirma a resposta correta com uma chance fácil de tentar de novo."],"learningGoals":["Ouvir, juntar e separar os sons nas palavras faladas.","Desenvolver as habilidades de escuta descritas na BNCC.","Construir a consciência sonora da qual dependem o sucesso na leitura e na escrita."]}
+      "Counting & Cardinality": {
+        "about": [
+          "Esta é uma atividade interativa e gratuita de contagem para crianças pequenas, trabalhando com números até {max}. Ela funciona direto no navegador, em tablets, celulares e computadores da sala de aula — não há nada para instalar, nenhuma conta para criar e nenhuma configuração para o professor.",
+          "A atividade está alinhada à BNCC, na unidade temática Números. As crianças recebem um retorno suave e imediato à medida que avançam, para que possam continuar tentando até que a resposta pareça certa. Não há cronômetro e não há pontuação — apenas uma prática calma e mão na massa."
+        ],
+        "practices": [
+          "Contar um grupo de objetos um a um e dizer quantos há no total",
+          "Associar um número falado ou escrito à quantidade correta",
+          "Reconhecer pequenas quantidades de relance, sem precisar contar todas as vezes",
+          "Trabalhar com cuidado e confiança com números até {max}"
+        ],
+        "howToPlay": [
+          "As crianças observam as figuras na tela e leem ou ouvem o comando.",
+          "Elas contam os itens e, então, tocam para colocar as fichas de contagem ou escolhem o número correspondente.",
+          "Uma verificação amigável mostra quando a resposta está certa, com um jeito fácil de tentar de novo — os erros fazem parte do aprendizado aqui e nunca são punidos."
+        ],
+        "learningGoals": [
+          "Contar um conjunto de objetos com precisão e dizer quantos há.",
+          "Compreender que o último número contado nomeia o tamanho do grupo inteiro — a ideia central por trás da BNCC.",
+          "Construir o senso numérico inicial do qual a adição, a subtração e o valor posicional se desenvolvem."
+        ]
+      },
+      "Number & Operations in Base Ten": {
+        "about": [
+          "Esta atividade interativa e gratuita de valor posicional ajuda as crianças a perceberem como o nosso sistema de numeração é construído em torno de grupos de dez, usando números até {max}. Ela funciona em qualquer navegador moderno — em um tablet, um celular ou a lousa digital da sala — sem nada para baixar.",
+          "Ela está alinhada à BNCC, na unidade temática Números. As crianças trabalham no seu próprio ritmo, com um retorno acolhedor e imediato, e não há cronômetro nem pontuação para apressá-las."
+        ],
+        "practices": [
+          "Ver um número de dois algarismos como um grupo de dezenas mais algumas unidades extras",
+          "Compor números até {max} a partir de dezenas e unidades",
+          "Ler e escrever números e relacioná-los a uma imagem da quantidade",
+          "Perceber os padrões que tornam os números maiores mais fáceis de compreender"
+        ],
+        "howToPlay": [
+          "As crianças leem o comando e observam os quadros de dez ou os blocos na tela.",
+          "Elas preenchem, montam ou escolhem para corresponder ao número solicitado.",
+          "Uma verificação suave confirma a resposta correta e convida a uma nova tentativa quando preciso — uma prática calma e sem pressão do início ao fim."
+        ],
+        "learningGoals": [
+          "Compreender um número entre dez e dezenove ou de dois algarismos como algumas dezenas e algumas unidades.",
+          "Compor e ler números até {max} com confiança — o coração da BNCC.",
+          "Estabelecer a base do sistema decimal da qual dependem a adição e a subtração com vários algarismos."
+        ]
+      },
+      "Operations & Algebraic Thinking": {
+        "about": [
+          "Esta atividade interativa e gratuita oferece às crianças uma prática mão na massa com as primeiras ideias de adição e subtração, trabalhando com quantidades até {max}. Ela funciona direto no navegador, em qualquer dispositivo, sem nada para instalar e sem login.",
+          "Ela está alinhada à BNCC, na unidade temática Álgebra. O retorno é imediato e encorajador, e não há cronômetro nem pontuação — as crianças podem refletir sobre as coisas no seu próprio ritmo."
+        ],
+        "practices": [
+          "Juntar grupos e separá-los para descobrir quantos há",
+          "Ver diferentes maneiras de formar o mesmo número",
+          "Resolver situações simples de problemas com figuras e fichas de contagem",
+          "Raciocinar sobre quantidades até {max}"
+        ],
+        "howToPlay": [
+          "As crianças leem o comando e observam os grupos de objetos na tela.",
+          "Elas juntam, separam ou escolhem para responder à pergunta.",
+          "Uma verificação amigável mostra quando elas acertam, com uma chance tranquila de tentar de novo."
+        ],
+        "learningGoals": [
+          "Somar e subtrair com números pequenos usando objetos e figuras.",
+          "Compreender a adição como juntar e a subtração como separar — a ideia por trás da BNCC.",
+          "Desenvolver o senso numérico flexível sobre o qual se constrói o cálculo mental fluente."
+        ]
+      },
+      "Geometry": {
+        "about": [
+          "Esta atividade interativa e gratuita de formas ajuda as crianças pequenas a perceberem, nomearem e compararem as formas ao seu redor. Ela funciona direto no navegador, em tablets, celulares e computadores da sala de aula, sem nada para instalar e sem precisar de conta.",
+          "Ela está alinhada à BNCC, na unidade temática Geometria. As crianças exploram no seu próprio ritmo, com um retorno suave e imediato — sem cronômetro, sem pontuação, apenas uma prática lúdica."
+        ],
+        "practices": [
+          "Reconhecer e nomear formas bidimensionais e tridimensionais do dia a dia",
+          "Perceber quantos lados e cantos uma forma tem",
+          "Distinguir formas planas de formas sólidas",
+          "Descrever e comparar formas com suas próprias palavras"
+        ],
+        "howToPlay": [
+          "As crianças observam as formas na tela e leem ou ouvem o comando.",
+          "Elas tocam na forma correspondente ou organizam as formas no grupo certo.",
+          "Uma verificação acolhedora confirma a escolha correta e oferece uma tentativa fácil quando preciso."
+        ],
+        "learningGoals": [
+          "Nomear e descrever formas comuns com confiança crescente.",
+          "Distinguir formas bidimensionais (planas) de formas tridimensionais (sólidas) — o foco da BNCC.",
+          "Construir o vocabulário espacial do qual dependem os trabalhos posteriores de geometria e medida."
+        ]
+      },
+      "Measurement & Data": {
+        "about": [
+          "Esta atividade interativa e gratuita de medidas ajuda as crianças pequenas a comparar objetos pelo tamanho — mais alto, mais curto e mais comprido — sem nenhuma contagem. Ela funciona direto no navegador, em tablets, celulares e computadores da sala de aula, sem nada para instalar e sem precisar de conta.",
+          "Ela está alinhada à BNCC, no eixo {strand}. As crianças comparam no seu próprio ritmo, com um retorno suave e imediato — sem cronômetro, sem pontuação, apenas uma prática lúdica de observar com atenção como as coisas se comparam em tamanho."
+        ],
+        "practices": [
+          "Comparar dois objetos diretamente por um atributo mensurável, como comprimento ou altura",
+          "Decidir qual objeto é mais alto, mais curto ou mais comprido",
+          "Descrever com as próprias palavras a diferença entre dois tamanhos",
+          "Observar com atenção e raciocinar sobre o tamanho em vez de contar"
+        ],
+        "howToPlay": [
+          "A criança observa duas imagens do mesmo objeto mostrado em tamanhos diferentes e lê ou ouve o comando.",
+          "Ela toca naquela que é mais alta, mais curta ou mais comprida, conforme o comando pede.",
+          "Uma verificação acolhedora confirma a escolha correta e oferece uma tentativa fácil quando preciso."
+        ],
+        "learningGoals": [
+          "Comparar diretamente dois objetos por um atributo mensurável — o foco da BNCC.",
+          "Usar as palavras mais alto, mais curto e mais comprido para descrever e comparar tamanhos.",
+          "Construir o vocabulário inicial de medidas que servirá de base para trabalhos futuros com comprimento, peso e dados."
+        ]
+      },
+      "Reading: Foundational Skills": {
+        "about": [
+          "Esta atividade interativa e gratuita de leitura oferece às crianças uma prática mão na massa de soletrar e formar palavras. Ela funciona direto no navegador, em tablets, celulares e computadores da sala de aula, sem nada para instalar e sem conta para configurar.",
+          "Ela está alinhada à BNCC, no eixo Leitura/escuta. Cada palavra é verificada para garantir uma separação precisa e adequada às crianças, e o retorno é suave e imediato — não há cronômetro e não há pontuação."
+        ],
+        "practices": [
+          "Separar palavras em sons ou sílabas e juntá-las novamente",
+          "Associar letras e grupos de letras aos sons que elas produzem",
+          "Formar palavras curtas e decodificáveis passo a passo",
+          "Ouvir e dizer cada parte de uma palavra em ordem"
+        ],
+        "howToPlay": [
+          "As crianças observam a figura ou ouvem a palavra e, então, leem o comando.",
+          "Elas tocam nos sons ou nas sílabas em ordem para formar a palavra.",
+          "Uma verificação amigável lê em voz alta a palavra concluída e convida a uma nova tentativa quando preciso."
+        ],
+        "learningGoals": [
+          "Juntar sons e sílabas para ler e formar palavras simples.",
+          "Relacionar os sons falados às letras escritas — o cerne da BNCC.",
+          "Desenvolver as habilidades de decodificação sobre as quais se constrói uma leitura confiante e independente."
+        ]
+      },
+      "Phonological Awareness": {
+        "about": [
+          "Esta atividade interativa e gratuita de escuta ajuda as crianças a ouvirem e brincarem com os sons dentro das palavras faladas. Ela funciona direto no navegador, em qualquer dispositivo, sem nada para instalar e sem precisar de login.",
+          "Ela está alinhada à BNCC, no eixo Análise linguística/semiótica. O retorno é acolhedor e imediato, e não há cronômetro nem pontuação para apressar uma criança pequena."
+        ],
+        "practices": [
+          "Ouvir os sons e as sílabas separadas nas palavras faladas",
+          "Juntar sons para formar uma palavra",
+          "Separar uma palavra em seus sons",
+          "Prestar atenção em rimas e sons iniciais"
+        ],
+        "howToPlay": [
+          "As crianças ouvem ou observam a palavra e, então, leem o comando.",
+          "Elas tocam para escolher, juntar ou separar os sons solicitados.",
+          "Uma verificação suave confirma a resposta correta com uma chance fácil de tentar de novo."
+        ],
+        "learningGoals": [
+          "Ouvir, juntar e separar os sons nas palavras faladas.",
+          "Desenvolver as habilidades de escuta descritas na BNCC.",
+          "Construir a consciência sonora da qual dependem o sucesso na leitura e na escrita."
+        ]
+      }
     },
-    "generic": {"about":["Esta é uma atividade de aprendizagem interativa e gratuita para crianças pequenas, que funciona direto no navegador, em tablets, celulares e computadores da sala de aula. Não há nada para instalar, nenhuma conta para criar e nenhuma configuração para o professor.","Ela está alinhada à BNCC, no eixo {strand}. As crianças trabalham no seu próprio ritmo, com um retorno suave e imediato, e não há cronômetro e não há pontuação — apenas uma prática calma e mão na massa."],"practices":["Trabalhar a habilidade de {strand} que está no centro desta atividade","Relacionar figuras, números ou palavras à ideia que está sendo praticada","Tentar, verificar e tentar de novo sem nenhuma pressão","Construir confiança um pequeno passo de cada vez"],"howToPlay":["As crianças leem ou ouvem o comando e observam o que é mostrado na tela.","Elas tocam para responder ou montar a sua resposta.","Uma verificação amigável mostra quando elas acertam, com um jeito fácil de tentar de novo."],"learningGoals":["Praticar e fortalecer a habilidade de {strand} por trás da BNCC.","Sentir-se à vontade para aplicar a ideia de um jeito lúdico e sem pressão.","Construir uma base a partir da qual a aprendizagem posterior pode se desenvolver."]},
-    "whatsInsideRange":"Números de {min} a {max}","whatsInsideTheme":"Fichas de contagem com figuras de {theme} que as crianças reconhecem","whatsInsideGrade":"Pensada para crianças do {grade}º ano (cerca de 5 a 9 anos)","whatsInsideStrand":"Eixo da BNCC: {strand}","whatsInsideCode":"Alinhada à BNCC"
+    "generic": {
+      "about": [
+        "Esta é uma atividade de aprendizagem interativa e gratuita para crianças pequenas, que funciona direto no navegador, em tablets, celulares e computadores da sala de aula. Não há nada para instalar, nenhuma conta para criar e nenhuma configuração para o professor.",
+        "Ela está alinhada à BNCC, no eixo {strand}. As crianças trabalham no seu próprio ritmo, com um retorno suave e imediato, e não há cronômetro e não há pontuação — apenas uma prática calma e mão na massa."
+      ],
+      "practices": [
+        "Trabalhar a habilidade de {strand} que está no centro desta atividade",
+        "Relacionar figuras, números ou palavras à ideia que está sendo praticada",
+        "Tentar, verificar e tentar de novo sem nenhuma pressão",
+        "Construir confiança um pequeno passo de cada vez"
+      ],
+      "howToPlay": [
+        "As crianças leem ou ouvem o comando e observam o que é mostrado na tela.",
+        "Elas tocam para responder ou montar a sua resposta.",
+        "Uma verificação amigável mostra quando elas acertam, com um jeito fácil de tentar de novo."
+      ],
+      "learningGoals": [
+        "Praticar e fortalecer a habilidade de {strand} por trás da BNCC.",
+        "Sentir-se à vontade para aplicar a ideia de um jeito lúdico e sem pressão.",
+        "Construir uma base a partir da qual a aprendizagem posterior pode se desenvolver."
+      ]
+    },
+    "whatsInsideRange": "Números de {min} a {max}",
+    "whatsInsideTheme": "Fichas de contagem com figuras de {theme} que as crianças reconhecem",
+    "whatsInsideGrade": "Pensada para crianças do {grade}º ano (cerca de 5 a 9 anos)",
+    "whatsInsideStrand": "Eixo da BNCC: {strand}",
+    "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
     "choice-board.fraction-noncongruent.2-g-a-3": {
@@ -60,32 +238,1269 @@
         "Construir a base da ideia de partes justas para aprender frações mais adiante"
       ]
     },
-    "ten-frame.count-to-10.make-n.animals": ["Aqui seu filho ou sua filha conta de 0 a 10 montando cada número, célula por célula, em um único quadro de dez com fichas de bichinhos. Cada animal que entra no quadro deixa a contagem mais concreta e visível.", "O quadro de dez é uma ferramenta calma e poderosa: ele mostra de um jeito claro \"o quanto falta para chegar ao dez\", ajudando a criança a perceber as quantidades sem precisar recontar tudo a cada vez. Essa percepção visual fortalece a ligação entre contar e saber quantos há (K.CC.B.4).", "A atividade respeita o ritmo de cada criança, sem cronômetro e sem pontuação. Assim, seu filho ou sua filha explora os números com tranquilidade, construindo confiança a cada passo."],
-    "ten-frame.count-to-20.make-n.fruits": ["Nesta atividade, as crianças contam de 0 a 20 em um quadro de dez duplo, usando fichas de frutinhas. Cada fruta colocada ajuda a construir o número de forma concreta e visível.", "O quadro de dez duplo revela uma ideia importante: vinte é \"um dez cheio e mais um pouco\". Ao enxergar o primeiro dez completo e as frutas que sobram no segundo quadro, seu filho ou sua filha começa a plantar as primeiras sementes do valor posicional (K.CC.B.4).", "Tudo acontece com calma, sem cronômetro e sem pontuação. A criança tem todo o tempo de que precisa para observar, contar e compreender as quantidades no seu próprio ritmo."],
-    "ten-frame.how-many.0-10.animals": ["Aqui seu filho ou sua filha olha para um quadro de dez com bichinhos e responde quantos animais estão ali, dentro do intervalo de 0 a 10. É um convite gentil para observar e reconhecer quantidades.", "O quadro de dez organiza os animais de um jeito que favorece o subitismo, ou seja, a capacidade de perceber \"quantos são\" sem contar um por um. Essa habilidade visual é a base para contar com segurança e entender a cardinalidade (K.CC.B.5).", "A experiência é leve e acolhedora, sem cronômetro e sem pontuação. Assim, a criança aprende a confiar no próprio olhar e a explorar os números com tranquilidade."],
-    "ten-frame.write-numeral.0-20.fruits": ["Nesta atividade, as crianças contam as frutas em um quadro de dez duplo e depois escrevem o numeral correspondente, de 0 a 20. É um passo bonito que une o que se vê ao que se registra.", "O quadro de dez duplo ajuda seu filho ou sua filha a enxergar a quantidade com clareza, enquanto escrever o número conecta essa quantidade ao seu símbolo escrito. Essa ponte entre o concreto e o numeral fortalece a compreensão dos números (K.CC.A.3).", "Não há pressa nem cobrança: a atividade acontece sem cronômetro e sem pontuação. A criança conta, observa e escreve no seu próprio ritmo, ganhando confiança a cada número."],
-    "ten-frame.teen-numbers.make-n": ["Aqui seu filho ou sua filha constrói os números de 11 a 19 em um quadro de dez duplo, montando cada um como \"um dez cheio e mais algumas unidades\". É uma forma concreta de dar sentido a esses números que muitas vezes confundem as crianças.", "Ao ver claramente o primeiro quadro de dez completo e as unidades que sobram no segundo, a criança percebe a estrutura por trás dos números entre dez e vinte. Essa visão é uma base essencial para o valor posicional (K.NBT.A.1).", "A atividade convida à exploração calma, sem cronômetro e sem pontuação. Assim, seu filho ou sua filha compreende esses números com tranquilidade e constrói uma base sólida para a matemática que virá."],
+    "ten-frame.count-to-10.make-n.animals": {
+      "about": [
+        "\"Faça 3\", \"Faça 7\", \"Faça 10\" — a criança constrói o número tocando nos quadradinhos de um quadro de dez para colocar exatamente essa quantidade de fichas de animais e depois toca em Verificar. É uma atividade gratuita e interativa de contagem para a educação infantil, com números de 0 a 10, que funciona no navegador, sem instalar nada e sem conta.",
+        "O quadro de dez é o que faz isso ir além da contagem decorada. Suas duas fileiras de cinco dão a cada número uma forma que a criança reconhece — o quatro preenche quase toda a fileira de cima, o dez preenche o quadro inteiro — então contar começa a se ligar ao quanto um número realmente é. A criança decide quantos animais colocar e pode acrescentar ou tirar alguns antes de verificar, o que mantém o foco na contagem um a um, e não no chute.",
+        "A atividade está alinhada à BNCC, na relação entre contagem e cardinalidade — entender a ligação entre os números e as quantidades. Sem cronômetro e sem pontuação — é prática calma e divertida."
+      ],
+      "practices": [
+        "Contar exatamente a quantidade de animais que o enunciado pede.",
+        "Colocar uma ficha por quadradinho, com contagem cuidadosa de um a um.",
+        "Ver cada número de 0 a 10 ganhar forma no quadro de dez de duas fileiras.",
+        "Ligar o número falado ou escrito a uma quantidade de verdade."
+      ],
+      "howToPlay": [
+        "Leia o enunciado para ver qual número fazer, como Faça 7.",
+        "Toque nos quadradinhos do quadro de dez para colocar exatamente essa quantidade de fichas de animais e depois toque em Verificar.",
+        "Errou? Acrescente ou tire fichas e tente de novo — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "A criança aprende a formar qualquer número de 0 a 10 com fichas num quadro de dez.",
+        "A criança liga a contagem ao quanto, de modo que o último número contado diz a quantidade.",
+        "A criança constrói o senso numérico do quadro de dez em que a adição inicial e o valor posicional vão se apoiar."
+      ]
+    },
+    "ten-frame.count-to-20.make-n.fruits": {
+      "about": [
+        "O pedido diz um número para formar, e a criança toca nos quadradinhos de um quadro de dez duplo para colocar exatamente aquela quantidade de frutas nos dois quadros, depois toca em Verificar. Chegar até 20 quer dizer um dez completo e mais um pouco. É uma atividade de contagem gratuita e interativa para a educação infantil, que funciona no navegador sem cadastro.",
+        "O quadro de dez duplo ensina a ideia mais importante dos números na faixa do dez ao vinte: um dez completo e mais um pouco. Para formar 14, a criança completa o primeiro quadro com dez frutas e acrescenta quatro no segundo — assim a estrutura do número, dez e quatro, fica ali, à vista. Passar do dez é mesmo um passo além de contar até dez, e os dois quadros dão à criança um jeito de manter a contagem organizada sem se perder.",
+        "A atividade está alinhada à BNCC, no campo de Números, no trabalho de ligar a contagem à quantidade e de estender o senso numérico para além de dez. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+      ],
+      "practices": [
+        "Contar exatamente a quantidade de frutas que o pedido diz, até 20.",
+        "Completar um quadro de dez inteiro e seguir contando no segundo.",
+        "Ver os números do dez ao vinte como um dez e mais um pouco.",
+        "Manter uma contagem cuidadosa, uma fruta para cada quadradinho, passando do dez."
+      ],
+      "howToPlay": [
+        "Leia o pedido para ver qual número formar, até 20.",
+        "Toque nos quadradinhos do quadro de dez duplo para colocar exatamente aquela quantidade de frutas, depois toque em Verificar.",
+        "Não foi dessa vez? Acrescente ou tire frutas e tente de novo — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Formar qualquer número de 0 a 20 com frutas num quadro de dez duplo.",
+        "Ver os números acima do dez como um dez completo e algumas unidades a mais.",
+        "Construir a base de contar avançando e de valor posicional para a matemática do 1º ano."
+      ]
+    },
+    "ten-frame.how-many.0-10.animals": {
+      "about": [
+        "Um quadro de dez mostra um grupo de animais e faz uma pergunta simples: quantos? A criança conta os animais — de 0 a 10 — e digita o número correspondente no teclado numérico. É uma atividade de contagem gratuita e interativa para a educação infantil, que roda direto no navegador, sem instalar nada e sem conta.",
+        "Este é o lado de “responder” da contagem. Em vez de montar um número, a criança lê uma quantidade que já está ali e a nomeia com um número escrito. Como os animais ficam nas duas fileiras do quadro de dez, ela começa a reconhecer quantidades de relance — uma fileira de cima cheia é cinco, o quadro inteiro cheio é dez — e confere contando um por um. Essa passagem da contagem para um único número escrito é o coração da ideia de quantidade.",
+        "A atividade está alinhada à BNCC, no campo de Números, na ideia de contar para responder “quantos?” sobre objetos organizados em um quadro. Sem cronômetro e sem pontuação — só prática calma e divertida."
+      ],
+      "practices": [
+        "Contar um grupo de animais mostrado em um quadro de dez.",
+        "Responder “quantos?” com o número escrito correto.",
+        "Reconhecer o cinco e o dez pelas fileiras do quadro.",
+        "Combinar uma quantidade contada com o seu número, de 0 a 10."
+      ],
+      "howToPlay": [
+        "Olhe o quadro de dez e conte quantos animais você vê.",
+        "Digite esse número no teclado numérico e toque em Verificar.",
+        "Não acertou? Conte de novo e tente mais uma vez — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Contar para responder “quantos?” sobre até dez objetos.",
+        "Nomear uma quantidade com o número escrito correspondente.",
+        "Construir a noção de quantidade de que a leitura e a escrita dos números dependem."
+      ]
+    },
+    "ten-frame.write-numeral.0-20.fruits": {
+      "about": [
+        "Um quadro de dez duplo mostra um grupo de fichas com frutas, e a criança escreve o numeral correspondente a quantas há — contando de 0 a 20 e digitando o número no teclado. Como um quadro cheio é dez, dá para continuar a contagem a partir do dez para os números entre dez e vinte. É uma atividade de contagem gratuita e interativa para a educação infantil, que roda no navegador, sem instalar nada e sem precisar de conta.",
+        "Esta atividade liga o contar ao escrever. A criança lê uma quantidade já organizada em dois quadros de dez e a nomeia com um numeral escrito, incluindo os números de dois algarismos mais difíceis, passando do dez. Como um quadro cheio é dez, ela pode continuar a contagem a partir do dez para os números entre dez e vinte, em vez de começar do um toda vez, e depois registrar o que contou como um número escrito — a ligação entre a quantidade e o símbolo.",
+        "A atividade está alinhada à BNCC, no campo dos números, ao representar uma quantidade de objetos com um numeral escrito de 0 a 20. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+      ],
+      "practices": [
+        "Contar um grupo de frutas mostrado num quadro de dez duplo.",
+        "Escrever o numeral de 0 a 20 para a quantidade contada.",
+        "Continuar a contagem a partir de um dez cheio para os números entre dez e vinte.",
+        "Ligar uma quantidade ao seu símbolo numérico escrito."
+      ],
+      "howToPlay": [
+        "Olhe o quadro de dez duplo e conte quantas frutas você vê.",
+        "Digite esse número no teclado, inclusive os números maiores que dez, e toque em Verificar.",
+        "Errou? Conte de novo e tente mais uma vez — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Representar uma contagem de até 20 objetos com um numeral escrito.",
+        "Escrever os números de 0 a 20, incluindo os de dois algarismos.",
+        "Construir a habilidade de ler e escrever números de que toda a notação matemática posterior depende."
+      ]
+    },
+    "ten-frame.teen-numbers.make-n": {
+      "about": [
+        "O comando mostra um número de 11 a 19, como 16, e a criança preenche o primeiro quadro de dez até completar uma dezena e depois coloca as unidades que sobram num segundo quadro — então o 16 aparece como uma dezena e mais seis. Montar assim deixa visível a estrutura escondida do número. É uma atividade gratuita e interativa de valor posicional para a educação infantil, que roda no navegador sem cadastro.",
+        "Os números de 11 a 19 são traiçoeiros porque o nome esconde a estrutura — “dezesseis” não diz claramente “uma dezena e seis”. Montar cada um em dois quadros mostra essa estrutura escondida: há sempre uma dezena completa e mais algumas unidades. A criança compõe o número a partir de uma dezena e dos extras, em vez de contar tudo de um em um — e é exatamente nessa ideia que o valor posicional se apoia.",
+        "A atividade está alinhada à BNCC, na unidade temática Números, compondo e decompondo os números de 11 a 19 em uma dezena e algumas unidades. Sem cronômetro, sem pontuação: só prática calma e brincante para crianças da pré-escola."
+      ],
+      "practices": [
+        "Preencher um quadro de dez completo para formar uma dezena.",
+        "Acrescentar as unidades que sobram no segundo quadro.",
+        "Montar cada número de 11 a 19 como uma dezena e mais alguns.",
+        "Enxergar a dezena escondida dentro de números como 14 e 18."
+      ],
+      "howToPlay": [
+        "Leia o comando para ver qual número de 11 a 19 montar.",
+        "Preencha o primeiro quadro de dez até dez, coloque as unidades que sobram no segundo quadro e toque em Verificar.",
+        "Não acertou? Ajuste as fichas e tente de novo — não tem cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Compor os números de 11 a 19 como uma dezena e algumas unidades.",
+        "Entender que todo número de 11 a 19 contém uma dezena completa.",
+        "Construir a base de valor posicional para somar e agrupar no 1º ano."
+      ]
+    },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "Crianças aprendem a organizar o mundo classificando em grupos. Na tela, aparece uma pilha mista de figuras amigáveis — animais, frutas, às vezes veículos — tudo misturado. O comando nomeia UM grupo e a criança decide quantos pertencem, depois toca no número.",
-        "A mistura é de propósito. Para responder 'quantos animais?', a criança não pode apenas contar tudo — precisa olhar cada figura, decidir o que é, separar mentalmente o que não pertence, contar só o grupo nomeado.",
-        "Está alinhada à BNCC, no eixo {strand}. As crianças classificam e contam no próprio ritmo com feedback gentil e imediato — sem cronômetro, sem pontuação, apenas organização calma e contagem atenta."
+        "Uma pilha de figuras misturadas aparece na tela — animais, frutas e, às vezes, veículos, tudo embaralhado — e o comando nomeia um único grupo: a criança decide quantas figuras pertencem a ele e toca no número. É uma atividade gratuita e interativa de classificação e contagem para a educação infantil, que roda direto no navegador, no tablet, no celular ou no computador da escola, sem instalar nada e sem precisar de conta.",
+        "A mistura é de propósito. Para responder “quantos animais?”, a criança não pode simplesmente contar tudo: ela precisa olhar cada figura, decidir o que é, separar mentalmente o que não pertence e contar só o grupo que foi pedido. Classificar primeiro e contar depois é uma habilidade diferente de só contar um montinho pronto, e é a base do trabalho com dados que vem mais adiante.",
+        "A atividade está alinhada à BNCC, no trabalho de classificar objetos em categorias e contar quantos há em cada grupo — os primeiros passos da organização de dados. Sem cronômetro e sem pontuação: só uma prática calma e divertida para crianças da pré-escola."
       ],
       "practices": [
         "Reconhecer a categoria de cada figura — é animal, fruta ou veículo?",
-        "Contar só o grupo nomeado e ignorar o resto com segurança.",
-        "Dizer a quantidade de um grupo separada da pilha total.",
-        "Cultivar o hábito de organizar primeiro e contar depois, para trabalhos futuros com dados."
+        "Contar só o grupo que foi pedido e ignorar o resto com segurança.",
+        "Dizer a quantidade de um grupo separado da pilha inteira.",
+        "Cultivar o hábito de organizar primeiro e contar depois, base do trabalho futuro com dados."
       ],
       "howToPlay": [
-        "Olhe a pilha mista e ouça ou leia o grupo nomeado — 'quantas frutas?'.",
+        "Olhe a pilha misturada e ouça ou leia o grupo que foi pedido — por exemplo, “quantas frutas?”.",
         "Decida quantas figuras pertencem àquele grupo e toque no número na tela.",
-        "Receba um feedback caloroso e tente de novo sempre que quiser."
+        "Não acertou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
       ],
       "learningGoals": [
         "Classificar figuras em categorias e contar cada grupo.",
         "Dizer a quantidade de um grupo nomeado dentro de uma mistura.",
-        "Construir habilidades de organização e classificação para trabalhos futuros no eixo {strand}."
+        "Construir as habilidades de organizar e classificar que preparam o trabalho com dados mais adiante."
+      ]
+    },
+    "array.build-array.2-oa-c-4": {
+      "about": [
+        "Montar uma matriz retangular é o coração desta atividade: a criança preenche fileiras iguais, uma embaixo da outra, e depois descobre quantos pontinhos há no total. As rodadas começam pequenas, com uma matriz de 2 por 3, e vão crescendo para 3 por 4, 2 por 5, 4 por 4 e 4 por 3 — assim a criança preenche grades de tamanhos diferentes, sempre com fileiras certinhas. É uma atividade gratuita e interativa de matemática para o 2º ano, que roda direto no navegador, sem instalar nada e sem precisar de conta.",
+        "A grande ideia é que um retângulo formado por fileiras iguais pode ser somado de um jeito rápido. Enquanto a criança toca para preencher cada fileira, uma tira de adição repetida vai se montando embaixo — 4 + 4 + 4 — então ela enxerga o quatro contado três vezes, em vez de contar ponto por ponto. Depois é só digitar o total no teclado numérico. Ver as fileiras iguais alinhadas como parcelas iguais é justamente a ponte que leva da adição para a multiplicação.",
+        "A atividade está alinhada à BNCC, na unidade temática Números, e à ideia de usar a adição de parcelas iguais para encontrar o total de objetos organizados em fileiras e colunas — o primeiro passo rumo à multiplicação. Sem cronômetro, sem pontuação: só prática tranquila e no tempo de cada criança."
+      ],
+      "practices": [
+        "Preencher uma grade retangular como fileiras e colunas iguais.",
+        "Ler a matriz como uma adição repetida, do tipo 4 + 4 + 4 = 12.",
+        "Contar por grupos iguais em vez de contar de um em um para achar o total.",
+        "Digitar o total que corresponde às fileiras que a criança acabou de montar."
+      ],
+      "howToPlay": [
+        "Olhe a matriz pedida — por exemplo, 3 fileiras de 4 — e toque para preencher cada fileira.",
+        "Acompanhe a tira de adição repetida somando as fileiras iguais e digite quantos pontinhos há no total no teclado numérico.",
+        "Não acertou? Toque em tentar de novo quantas vezes quiser — não tem cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Encontrar o total de uma matriz retangular usando a adição repetida.",
+        "Perceber as fileiras iguais como parcelas iguais e escrever a soma correspondente.",
+        "Construir a base de grupos iguais de onde a multiplicação vai nascer nos anos seguintes."
+      ]
+    },
+    "choice-board.which-more.k-c-c-6": {
+      "about": [
+        "Dois grupos de figuras simpáticas aparecem lado a lado — gatos, cachorros, patos, peixes, maçãs, bananas, laranjas ou morangos — e a criança toca no grupo que tem mais. As quantidades vão até oito, e a comparação acontece olhando e contando, sem precisar ler números. É uma atividade gratuita de contagem para a educação infantil, que funciona no navegador do celular, do tablet ou do computador da escola, sem precisar de conta.",
+        "A grande ideia é que “mais” tem a ver com a quantidade, e não com o espaço que o grupo ocupa. Como os dois grupos podem ficar parecidos — sete contra seis, ou seis contra cinco —, não dá para ganhar só batendo o olho no monte maior: a criança precisa mesmo contar cada grupo e comparar os totais. Isso vence aquela ilusão comum em que poucas figuras espalhadas parecem ser mais do que um montinho bem juntinho.",
+        "A atividade está alinhada à BNCC, no trabalho de identificar se a quantidade de objetos de um grupo é maior, menor ou igual à de outro grupo. Sem cronômetro, sem pontuação: só prática calma e brincante para crianças da pré-escola."
+      ],
+      "practices": [
+        "Contar quantos objetos há em cada um dos dois grupos.",
+        "Comparar os dois totais para decidir qual grupo tem mais.",
+        "Ignorar se o grupo está espalhado ou juntinho e contar de verdade.",
+        "Ligar o total maior à ideia de “mais”."
+      ],
+      "howToPlay": [
+        "Olhe os dois grupos de figuras e conte quantos há em cada um.",
+        "Toque no grupo que tem mais e confirme a sua escolha.",
+        "Não acertou? Tente de novo quantas vezes quiser — não tem cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Dizer qual de dois grupos tem mais, contando para comparar.",
+        "Entender que a quantidade maior significa “mais”, não importa como as figuras estejam arrumadas.",
+        "Construir a base de comparação que vai sustentar o maior que e o menor que com números mais para frente."
+      ]
+    },
+    "choice-board.compare-length.k-md-2": {
+      "about": [
+        "Dois objetos do dia a dia ficam lado a lado e a criança toca no mais alto, no mais comprido ou no mais curto — comparando figuras reais e familiares, como um pinheiro e uma palmeira, um lápis, um giz de cera, uma caneta ou uma régua, uma cenoura ou um pepino, uma girafa, um girassol ou uma vela. É uma atividade gratuita de medidas para a educação infantil, que roda em qualquer navegador, sem baixar nada e sem cadastro.",
+        "Não tem contagem nem números: a criança simplesmente observa e compara um atributo de cada vez. O comando diz a palavra — mais alto, mais comprido ou mais curto — e a criança decide qual dos dois objetos combina com ela. Comparar a altura para «mais alto» (a girafa) e o comprimento para «mais comprido» (o pepino) constrói o vocabulário das medidas antes de qualquer régua ou número aparecer.",
+        "A atividade está alinhada à BNCC, na unidade temática Grandezas e medidas, comparando diretamente dois objetos por um atributo e dizendo qual é o mais alto, o mais comprido ou o mais curto. Sem cronômetro, sem pontuação: só observação tranquila no tempo de cada criança."
+      ],
+      "practices": [
+        "Comparar dois objetos pela altura ou pelo comprimento.",
+        "Entender as palavras mais alto, mais comprido e mais curto.",
+        "Escolher o objeto que combina com a palavra do comando.",
+        "Medir só olhando, sem contar e sem números."
+      ],
+      "howToPlay": [
+        "Olhe os dois objetos e leia ou ouça a palavra — mais alto, mais comprido ou mais curto.",
+        "Toque no objeto que combina com essa palavra.",
+        "Não acertou? Tente de novo quantas vezes quiser — não tem cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Comparar diretamente dois objetos e dizer qual é o mais alto, o mais comprido ou o mais curto.",
+        "Usar palavras de medida para descrever comprimento e altura.",
+        "Construir a base de comparar por um atributo, de onde nasce depois a medição com unidades."
+      ]
+    },
+    "choice-board.compare-two-digit.1-nbt-b-3": {
+      "about": [
+        "Aparecem dois números de dois dígitos — como 47 e 52, ou 63 e 38 — e a criança toca na frase que está certa, usando os sinais de maior que (>), menor que (<) e igual a (=). Alguns pares são iguais, como 45 e 45 ou 88 e 88, então o sinal de igual também conta. É uma atividade gratuita de valor posicional para o 1º ano, que roda direto no navegador, sem cadastro.",
+        "A estratégia é olhar primeiro as dezenas e, depois, as unidades. Com 47 e 52, as 5 dezenas vencem as 4 dezenas, então 47 é menor que 52 — mesmo que o 7 seja maior que o 2. Pares espertos como 29 e 92 usam os mesmos algarismos em posições diferentes, então a criança precisa ler o valor posicional, e não só os algarismos. Escolher o sinal correto transforma essa comparação na linguagem do >, do = e do <.",
+        "A atividade está alinhada à BNCC, na unidade temática Números, comparando dois números de dois dígitos pelo significado das dezenas e das unidades e registrando o resultado com os sinais >, = e <. Sem cronômetro, sem pontuação: só prática calma para fortalecer o sentido numérico."
+      ],
+      "practices": [
+        "Comparar dois números de dois dígitos pelas dezenas e, depois, pelas unidades.",
+        "Escolher o sinal certo — maior que, menor que ou igual a.",
+        "Reconhecer quando dois números são iguais.",
+        "Ler o valor posicional em pares espertos como 29 e 92."
+      ],
+      "howToPlay": [
+        "Olhe os dois números de dois dígitos, conferindo primeiro o algarismo das dezenas e depois o das unidades.",
+        "Toque na frase que está certa, usando >, = ou <.",
+        "Não acertou? Tente de novo quantas vezes quiser — não tem cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Comparar números de dois dígitos e registrar o resultado com >, = e <.",
+        "Usar o significado das dezenas e das unidades para decidir qual número é maior.",
+        "Construir a comparação por valor posicional de que o trabalho com números maiores vai depender."
+      ]
+    },
+    "clock.set-clock.1-md-b-3": {
+      "about": [
+        "Um horário aparece escrito — como 3:00, 7:30, 9:00, 6:30 ou uma e meia — e a criança arrasta o ponteiro grande e o ponteiro pequeno no relógio de ponteiros para mostrar esse horário, enquanto um visor digital vai se atualizando. «Acerte o relógio» é uma atividade gratuita de matemática para o 1º ano, que roda direto no navegador do tablet, do celular ou do computador da escola, sem instalar nada e sem precisar de conta.",
+        "Acertar um relógio é mais difícil do que só ler um, porque a criança tem que posicionar os dois ponteiros, em vez de reconhecer uma figura pronta. Nas meias horas, o ponteiro pequeno fica entre dois números, e não em cima de um só — então quem só empurra o ponteiro das horas até um número acaba errando: é preciso deixá-lo no meio do caminho. Ver o visor digital mudando conforme os ponteiros se movem liga a figura do relógio aos números que a criança já conhece, e os horários ficam só em horas e meias horas para o foco ser acertar os ponteiros.",
+        "A atividade está alinhada à BNCC, na unidade temática Grandezas e medidas, lendo e marcando horas e meias horas em relógios de ponteiros e digitais. Sem cronômetro, sem pontuação: só prática tranquila no tempo de cada criança."
+      ],
+      "practices": [
+        "Arrastar o ponteiro das horas e o dos minutos para mostrar um horário dado.",
+        "Colocar o ponteiro pequeno no meio do caminho entre dois números numa meia hora.",
+        "Ler o horário digital correspondente enquanto os ponteiros se movem.",
+        "Diferenciar horas de meias horas e marcar cada uma corretamente."
+      ],
+      "howToPlay": [
+        "Leia o horário escrito acima do relógio.",
+        "Arraste o ponteiro grande e o pequeno para mostrar esse horário, observando o visor digital.",
+        "Confira o seu relógio e ajuste quantas vezes quiser — não tem cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Acertar um relógio de ponteiros nas horas e nas meias horas.",
+        "Entender que, na meia hora, o ponteiro das horas fica entre dois números.",
+        "Ligar o relógio de ponteiros ao horário digital que a criança vê todo dia."
+      ]
+    },
+    "match-pairs.make-the-number.k-oa-a-3": {
+      "about": [
+        "Surge um número-alvo — digamos, 5 — e a criança encontra os pares de números que somados dão esse total, como 1 e 4 ou 2 e 3, tocando em um número e depois no seu parceiro para ligar a dupla. É um jogo gratuito e interativo de combinar números para a educação infantil, que roda direto no navegador, sem instalar e sem conta.",
+        "A grande ideia é que um mesmo número pode ser formado de mais de um jeito. Com o alvo 7, a criança pode ligar 0 e 7 e depois 3 e 4, descobrindo que o mesmo total tem várias duplas de parceiros. Como a atividade pede os pares que formam o alvo, e não uma única resposta certa, ela vai construindo com calma a noção de parte-parte-todo, em que toda a adição mais tarde se apoia.",
+        "A atividade está alinhada à BNCC, na unidade temática Números, decompondo números até 10 em pares de várias maneiras. Sem cronômetro, sem pontuação: só prática calma e brincante para crianças da pré-escola."
+      ],
+      "practices": [
+        "Encontrar dois números que somados dão um alvo até 10.",
+        "Descobrir mais de uma dupla que forma o mesmo número.",
+        "Construir a compreensão de parte-parte-todo dos números pequenos.",
+        "Combinar um número com o parceiro que completa o total."
+      ],
+      "howToPlay": [
+        "Olhe o número-alvo da rodada, como 6.",
+        "Toque em um número e depois no parceiro que somado com ele dá o alvo, e veja a dupla se ligar.",
+        "Encontre todos os pares que formam o alvo — não tem cronômetro nem pontuação, então vá com calma."
+      ],
+      "learningGoals": [
+        "Decompor números até 10 em pares de mais de uma maneira.",
+        "Entender que um número é formado por partes menores.",
+        "Preparar a base de parte-parte-todo para a adição e a subtração."
+      ]
+    },
+    "match-pairs.add-it-both-ways.1-oa-b-3": {
+      "about": [
+        "Cartões de soma como 4 + 7 e 7 + 4, ou 5 + 9 e 9 + 5, aparecem para a criança ligar cada adição aos mesmos dois números somados na outra ordem — toca em um cartão, depois no seu gêmeo trocado, e a dupla se conecta. É um jogo gratuito e interativo de combinar cartões de matemática para o 1º ano, que roda direto no navegador, sem instalar e sem conta.",
+        "A grande ideia é a propriedade comutativa: 4 + 7 e 7 + 4 dão os dois 11, ou seja, mudar a ordem das parcelas não muda o total. Cada rodada mostra seis cartões — três duplas trocadas embaralhadas juntas — então a criança calcula os totais e percebe quais somas usam exatamente os mesmos números invertidos. Ela não combina cartões idênticos; ela reconhece que duas somas de cara diferente valem a mesma coisa.",
+        "A atividade está alinhada à BNCC, na unidade temática Números, usando propriedades das operações, como a comutativa, como estratégia para somar. Sem cronômetro, sem pontuação: só prática divertida e tranquila."
+      ],
+      "practices": [
+        "Reconhecer que as parcelas podem ser somadas em qualquer ordem com o mesmo total.",
+        "Somar números pequenos como 6 + 9 e confirmar que 9 + 6 dá a mesma resposta.",
+        "Combinar cada adição com o seu gêmeo trocado entre os cartões embaralhados.",
+        "Usar a soma “de cabeça para baixo” como estratégia para somar com mais facilidade."
+      ],
+      "howToPlay": [
+        "Olhe os seis cartões de soma e descubra quais usam os mesmos dois números em ordem diferente.",
+        "Toque em uma soma como 3 + 6, depois no seu gêmeo trocado 6 + 3, e veja a dupla se ligar.",
+        "Continue até combinar as três duplas — não tem cronômetro nem pontuação, então vá com calma."
+      ],
+      "learningGoals": [
+        "Aplicar a propriedade comutativa da adição.",
+        "Entender que mudar a ordem das parcelas mantém o total igual.",
+        "Usar as somas trocadas para somar até 20 com mais rapidez e confiança."
+      ]
+    },
+    "numberbond.make-ten-to-add.1-oa-c-6": {
+      "about": [
+        "Para resolver uma conta como 8 + 5, a criança separa o segundo número em um diagrama de partes, de modo que uma parte complete o primeiro até dez (8 + 2 = 10), e depois soma o que sobrou (10 + 3 = 13). Essa estratégia de fazer uma dezena ganha vida numa atividade gratuita e interativa de matemática para o 1º ano, que roda direto no navegador, sem conta.",
+        "A grande ideia é transformar uma conta difícil numa conta fácil: chegar a uma dezena amiga e depois somar o que faltou. A criança toca para preencher a parte que forma a dezena, e o diagrama mostra exatamente como o segundo número se separa — então a estratégia é algo que ela vê e faz, e não algo que precisa decorar.",
+        "A atividade está alinhada à BNCC, na unidade temática Números, somando até 20 usando a estratégia de fazer uma dezena. Sem cronômetro, sem pontuação: só prática calma no tempo de cada criança."
+      ],
+      "practices": [
+        "Separar um número em duas partes no diagrama.",
+        "Completar o primeiro número até uma dezena (8 + 2 = 10).",
+        "Somar a parte que sobrou à dezena para terminar (10 + 3 = 13).",
+        "Desenvolver uma adição fluente e flexível até 20."
+      ],
+      "howToPlay": [
+        "Olhe uma conta como 8 + 5 mostrada no diagrama de partes.",
+        "Toque para preencher a parte que forma uma dezena com o primeiro número e depois some o que sobrou.",
+        "Não acertou? Tente de novo quantas vezes quiser — não tem cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Somar até 20 usando a estratégia de fazer uma dezena.",
+        "Separar um número para formar uma dezena amiga.",
+        "Somar de forma flexível, em vez de contar de um em um."
+      ]
+    },
+    "place-value.tens-and-ones.1-nbt-b-2": {
+      "about": [
+        "Para formar o número 47, a criança coloca quatro barras de dez e sete cubinhos e vê o “quarenta” virar algo concreto, em vez de só um algarismo. Os números vão de 12 até 95 — incluindo as dezenas redondas 30, 50, 70 e 90 — montados toque a toque de bloco, numa atividade gratuita e interativa de matemática para o 1º ano, que roda no navegador sem cadastro.",
+        "A grande ideia é que um número de dois dígitos é formado por dezenas e unidades. Para montar 47, a criança usa quatro barras de dez e sete cubinhos, e ver as quatro barras deixa o “quarenta” concreto, não apenas um algarismo. Os números redondos, como 70 e 90, reforçam que um zero na casa das unidades significa que não há nenhum cubinho solto — só dezenas completas.",
+        "A atividade está alinhada à BNCC, na unidade temática Números, compreendendo que um número de dois dígitos é formado por uma quantidade de dezenas e de unidades. Sem cronômetro, sem pontuação: só prática tranquila no tempo de cada criança."
+      ],
+      "practices": [
+        "Montar um número de dois dígitos com a quantidade certa de dezenas e unidades.",
+        "Ligar o algarismo das dezenas às barras de dez e o das unidades aos cubinhos.",
+        "Entender números redondos como 70 como uma quantidade de dezenas completas.",
+        "Ler e formar números de dois dígitos até 95."
+      ],
+      "howToPlay": [
+        "Leia o número-alvo, como 47.",
+        "Toque para adicionar barras de dez e cubinhos até os blocos formarem esse número.",
+        "Veja o número crescer e siga em frente — não tem cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Compreender dezenas e unidades nos números de dois dígitos.",
+        "Perceber que o algarismo das dezenas conta grupos de dez e o das unidades conta os soltos.",
+        "Construir a base de valor posicional para somar e subtrair até 100."
+      ]
+    },
+    "syllable-builder.forme-as-silabas.rf-k-2-b": {
+      "about": [
+        "A criança vê uma imagem e forma a palavra colocando as sílabas na ordem certa — toca em cada pedacinho, ouve o som dele e, ao montar a palavra completa, escuta a palavra inteira pronunciada. É uma atividade gratuita e interativa de fonética para a educação infantil, que roda direto no navegador, sem baixar nada e sem precisar de conta.",
+        "A grande ideia é que as palavras faladas são feitas de partes menores: as sílabas. Ao arrastar e encaixar cada sílaba na ordem, a criança conta, pronuncia e junta os pedaços até a palavra fazer sentido — um trabalho de consciência fonológica que é a base da alfabetização. Ouvir cada sílaba e depois a palavra inteira liga o som à escrita de um jeito concreto.",
+        "A atividade está alinhada à BNCC, no trabalho de contar, pronunciar, juntar e separar as sílabas das palavras faladas. Sem cronômetro, sem pontuação: só prática calma e brincante para crianças da pré-escola."
+      ],
+      "practices": [
+        "Reconhecer a imagem e dizer a palavra correspondente.",
+        "Colocar as sílabas na ordem certa para formar a palavra.",
+        "Ouvir o som de cada sílaba e juntá-los para ler a palavra inteira.",
+        "Contar e separar as sílabas das palavras faladas."
+      ],
+      "howToPlay": [
+        "Olhe a imagem e pense na palavra que ela mostra.",
+        "Toque ou arraste as sílabas para colocá-las na ordem certa e formar a palavra.",
+        "Ouça a palavra completa e tente de novo quantas vezes quiser — não tem cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Juntar e separar sílabas para formar palavras faladas.",
+        "Entender que as palavras são feitas de partes menores que se encaixam na ordem.",
+        "Fortalecer a consciência fonológica que prepara a leitura e a escrita."
+      ]
+    },
+    "array.equal-groups.2-oa-c-4": {
+      "about": [
+        "Montar grupos com a mesma quantidade e descobrir o total é o coração desta atividade gratuita de matemática para o 2º ano, que funciona direto no navegador, sem instalar nada e sem precisar de conta. A criança forma grupos iguais — desde 2 grupos de 3 até 3 grupos de 5, passando por 4 grupos de 4 e 5 grupos de 2 — e assim trabalha com vários arranjos diferentes de grupos do mesmo tamanho.",
+        "Aqui os objetos ficam em grupos separados, e não em um quadro retangular arrumadinho, então a ideia de 'a mesma quantidade em cada grupo' é justamente o ponto principal. Conforme a criança preenche cada grupo, uma fileira de adição repetida vai crescendo ao lado — 4 + 4 + 4 — transformando os grupos iguais em uma soma; depois ela digita quantos há ao todo. A criança ainda não multiplica, mas pratica exatamente o raciocínio em que a multiplicação se apoia.",
+        "A atividade está alinhada à BNCC, na unidade temática Números, e ao trabalho com adição repetida de parcelas iguais para encontrar um total. Sem cronômetro e sem pontuação — é uma prática tranquila e divertida, no tempo de cada criança."
+      ],
+      "practices": [
+        "Formar vários grupos com a mesma quantidade de objetos em cada um.",
+        "Somar grupos iguais como adição repetida, por exemplo 4 + 4 + 4 = 12.",
+        "Diferenciar grupos iguais de grupos com tamanhos diferentes.",
+        "Encontrar o total contando por grupos, em vez de contar de um em um."
+      ],
+      "howToPlay": [
+        "Leia quantos grupos iguais montar e quantos objetos vão em cada um, depois toque para preencher os grupos.",
+        "Acompanhe os grupos iguais virando uma soma na fileira de adição repetida e digite o total no teclado.",
+        "Errou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "A criança aprende a encontrar o total de grupos iguais usando adição repetida.",
+        "A criança entende que os grupos precisam ser iguais para a soma de parcelas iguais funcionar.",
+        "A criança desenvolve o senso de grupos iguais em que a multiplicação vai se apoiar mais adiante."
+      ]
+    },
+    "choice-board.even-odd.2-oa-c-3": {
+      "about": [
+        "Olhar um número e decidir, com calma, se ele é par ou ímpar é tudo o que esta atividade gratuita e interativa para o 2º ano pede. Aparece um número de 1 a 20 e a criança toca no cartão Par ou no cartão Ímpar. Com só duas opções, ela avalia cada número por si: é do tipo que forma duplas certinhas ou do tipo que sobra um? Tudo no navegador, sem cadastro.",
+        "A grande ideia é que par e ímpar têm a ver com a possibilidade de dividir uma quantidade em dois grupos iguais sem sobrar nada. A criança não está somando nem subtraindo — está classificando números pela sua estrutura. Trabalhando em toda a faixa de 1 a 20, com as duas opções sempre presentes, ela ganha o reconhecimento rápido e o hábito de olhar o algarismo das unidades que tornam par e ímpar quase automáticos.",
+        "A atividade está alinhada à BNCC, no trabalho de determinar se uma quantidade de objetos é par ou ímpar. Sem cronômetro e sem pontuação — é só prática tranquila e divertida."
+      ],
+      "practices": [
+        "Decidir se um número de 1 a 20 é par ou ímpar.",
+        "Entender os números pares como duplas sem sobra e os ímpares como tendo um a mais.",
+        "Olhar o algarismo das unidades como um jeito rápido de distinguir par de ímpar.",
+        "Classificar números pela estrutura, sem precisar somar ou subtrair."
+      ],
+      "howToPlay": [
+        "Olhe o número que aparece no quadro.",
+        "Decida se ele é par ou ímpar e toque no cartão correspondente, depois toque em Verificar.",
+        "Errou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "A criança aprende a dizer se um número até 20 é par ou ímpar.",
+        "A criança consegue explicar que par é dupla sem sobra e ímpar tem um a mais.",
+        "A criança fortalece o senso numérico que apoia o trabalho posterior com grupos iguais e multiplicação."
+      ]
+    },
+    "choice-board.describe-attribute.k-md-a-1": {
+      "about": [
+        "Dar nome às formas de medir as coisas, antes de qualquer número ou régua, é o que a criança faz nesta atividade gratuita e interativa de grandezas e medidas para a educação infantil. Aparece um objeto do dia a dia e ela toca na palavra que melhor o descreve — comprido, alto ou pesado. Os objetos são escolhidos para que uma característica se destaque com clareza: um lápis e uma cenoura são compridos, uma girafa é alta, uma pedra e uma abóbora são pesadas. Tudo roda no navegador, sem precisar de conta.",
+        "O objetivo é construir o vocabulário das medidas. A criança não conta nem mede aqui; ela observa um objeto de verdade e decide qual característica mensurável combina com ele — comprimento, altura ou peso. Como cada objeto da imagem tem uma característica bem mais evidente, a criança pratica perceber que tipo de medida cada coisa pede, e essa linguagem é a base de toda medição que vem depois.",
+        "A atividade está alinhada à BNCC, no trabalho de descrever atributos mensuráveis de um objeto, como comprimento, altura e peso. Sem cronômetro e sem pontuação — é uma prática calma e divertida."
+      ],
+      "practices": [
+        "Relacionar um objeto à palavra de medida que combina com ele — comprido, alto ou pesado.",
+        "Distinguir comprimento, altura e peso como formas diferentes de medir.",
+        "Observar um objeto de verdade e decidir que tipo de medida ele pede.",
+        "Construir o vocabulário de medidas que vem antes da contagem e da régua."
+      ],
+      "howToPlay": [
+        "Olhe o objeto no quadro — um lápis, uma girafa ou uma pedra.",
+        "Toque na palavra que melhor o descreve — comprido, alto ou pesado — e depois toque em Verificar.",
+        "Tente de novo quando quiser; não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "A criança aprende a descrever os atributos mensuráveis de um objeto — comprimento, altura e peso.",
+        "A criança usa as palavras comprido, alto e pesado corretamente para objetos de verdade.",
+        "A criança constrói a linguagem de medidas de que o medir e o comparar vão depender mais tarde."
+      ]
+    },
+    "choice-board.ten-more-less.1-nbt-c-5": {
+      "about": [
+        "Descobrir quanto fica com 10 a mais ou 10 a menos, só de cabeça, é o desafio tranquilo desta atividade gratuita e interativa para o 1º ano. Aparece um número de dois algarismos, como 34, 57, 60 ou 82, junto com as palavras dez a mais ou dez a menos, e a criança resolve mentalmente e toca na resposta entre quatro opções. Funciona no navegador — no tablet, no celular ou no computador da escola — sem instalar nada e sem conta.",
+        "A ideia-chave é que encontrar dez a mais ou dez a menos nem precisa de contagem: só o algarismo das dezenas muda, enquanto o das unidades fica exatamente igual, então 34 com dez a mais é 44, e 57 com dez a menos é 47. As opções erradas são números próximos, inclusive alguns que mudam o algarismo das unidades, de modo que quem conta de um em um ou põe a dezena no lugar errado percebe que não encaixa. O objetivo é enxergar as dezenas, não contar.",
+        "A atividade está alinhada à BNCC, no cálculo mental de 10 a mais e 10 a menos de um número de dois algarismos. Sem cronômetro e sem pontuação — é prática calma e divertida."
+      ],
+      "practices": [
+        "Encontrar 10 a mais ou 10 a menos de um número de dois algarismos de cabeça.",
+        "Perceber que só o algarismo das dezenas muda, enquanto o das unidades fica igual.",
+        "Ler se o enunciado pede dez a mais ou dez a menos.",
+        "Fortalecer o senso de valor posicional para números até 100."
+      ],
+      "howToPlay": [
+        "Leia o número e veja se o enunciado pede dez a mais ou dez a menos.",
+        "Resolva de cabeça — mude as dezenas, mantenha as unidades — e toque no número que você acha certo.",
+        "Use todo o tempo que precisar; não há cronômetro nem pontuação, e você pode tentar de novo."
+      ],
+      "learningGoals": [
+        "A criança aprende a encontrar 10 a mais e 10 a menos de qualquer número de dois algarismos de cabeça.",
+        "A criança entende que tirar ou acrescentar uma dezena muda apenas o algarismo das dezenas.",
+        "A criança constrói a base de valor posicional e cálculo mental para somar e subtrair até 100."
+      ]
+    },
+    "clock.tell-time-5-min.2-md-c-7": {
+      "about": [
+        "Ler a hora de 5 em 5 minutos e mostrá-la no relógio é o que esta atividade gratuita de matemática para o 2º ano propõe. Aparece um horário por extenso — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 ou 12:25 — e a criança arrasta os ponteiros do relógio analógico para representá-lo, com um mostrador digital que se atualiza enquanto ela mexe. Tudo roda no navegador, sem precisar de conta.",
+        "Ler e marcar de cinco em cinco minutos faz o ponteiro dos minutos finalmente importar nos detalhes: e quinze coloca o ponteiro no 3, e quarenta e cinco coloca no 9, e dez no 2, e a criança conta de 5 em 5 ao redor do relógio para acertar a posição exata. Os horários mais difíceis — como 7:45, que é um quarto para as oito mas se escreve 7:45, e não 8:45 — exigem ler o ponteiro das horas avançando em direção ao próximo número. O mostrador digital confirma cada posição e conecta o contar de 5 em 5 ao horário escrito.",
+        "A atividade está alinhada à BNCC, na leitura e na escrita de horas em relógios analógicos e digitais de 5 em 5 minutos. Sem cronômetro e sem pontuação — é prática calma e divertida."
+      ],
+      "practices": [
+        "Marcar o ponteiro dos minutos numa posição de 5 em 5 minutos contando de cinco em cinco.",
+        "Colocar e quinze, um quarto para a hora e e dez nos lugares certos.",
+        "Ler o ponteiro das horas avançando em direção ao próximo número perto do fim da hora.",
+        "Relacionar a posição no relógio analógico ao horário digital escrito."
+      ],
+      "howToPlay": [
+        "Leia o horário escrito acima do relógio.",
+        "Arraste os ponteiros dos minutos e das horas para mostrá-lo de 5 em 5 minutos, observando o mostrador digital.",
+        "Ajuste os ponteiros quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "A criança aprende a ler e a marcar a hora de 5 em 5 minutos.",
+        "A criança conta de 5 em 5 ao redor do relógio para posicionar o ponteiro dos minutos com exatidão.",
+        "A criança lê corretamente horários como um quarto para as oito, escrito 7:45 e não 8:45."
+      ]
+    },
+    "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
+      "about": [
+        "Calcular cada carta e combinar uma adição com a subtração que dá o mesmo resultado é a tarefa desta atividade gratuita e interativa de matemática para o 1º ano. A criança resolve cartas como 2 + 3 e 9 − 4 (ambas dão 5), ou 3 + 4 e 9 − 2 (ambas dão 7), e toca em uma adição e na subtração de mesmo valor para conectar o par. Funciona direto no navegador, sem instalar nada e sem conta.",
+        "A grande ideia é que uma adição e uma subtração podem valer a mesma quantidade — o sinal de igual quer dizer 'é o mesmo que', e não 'aqui vem a resposta'. As cartas não mostram os totais, então a criança precisa mesmo calcular cada uma e procurar uma expressão de aparência diferente com o mesmo valor. Cada rodada tem dois (às vezes três) resultados para encontrar, misturando contas de mais e de menos.",
+        "A atividade está alinhada à BNCC, no entendimento do significado do sinal de igual e no reconhecimento de que adições e subtrações podem ter o mesmo resultado. Sem cronômetro e sem pontuação — é prática calma e divertida."
+      ],
+      "practices": [
+        "Calcular o valor de adições e de subtrações.",
+        "Combinar uma conta de mais com uma de menos que tem a mesma resposta.",
+        "Entender o sinal de igual como 'a mesma quantidade que'.",
+        "Comparar duas expressões de aparência diferente para ver se têm o mesmo valor."
+      ],
+      "howToPlay": [
+        "Calcule cada carta — adições como 4 + 5 e subtrações como 10 − 1.",
+        "Toque em uma adição e depois na subtração de mesma resposta, e veja o par se conectar.",
+        "Encontre os dois pares iguais da rodada — não há cronômetro nem pontuação, então vá no seu tempo."
+      ],
+      "learningGoals": [
+        "A criança entende que adições e subtrações podem ter o mesmo resultado.",
+        "A criança lê o sinal de igual como 'o mesmo que', e não como 'a resposta vem a seguir'.",
+        "A criança ganha flexibilidade com os fatos ao ligar contas de mais e de menos que compartilham um valor."
+      ]
+    },
+    "match-pairs.match-facts-to-20.2-oa-b-2": {
+      "about": [
+        "Resolver cada carta e combiná-la com a sua resposta é o que fortalece a fluência em somar e subtrair até 20 nesta atividade gratuita e interativa de matemática para o 2º ano. A criança calcula cartas como 8 + 5, 9 + 7, 14 − 6 e 17 − 8 e toca em cada conta e no número que é o resultado para conectar o par. Funciona direto no navegador, sem instalar nada e sem conta.",
+        "A grande ideia é a lembrança rápida e segura dos fatos de adição e subtração até 20. Cada rodada mistura três contas — algumas de mais, outras de menos — com as três respostas embaralhadas, de modo que a criança calcula cada fato e localiza o valor correspondente. A prática repetida ao longo das rodadas vai levando fatos como 9 + 9 = 18 e 16 − 9 = 7 da contagem para a memória.",
+        "A atividade está alinhada à BNCC, na fluência em somar e subtrair até 20 e na memorização dos fatos básicos. Sem cronômetro e sem pontuação — é prática calma e divertida."
+      ],
+      "practices": [
+        "Somar e subtrair até 20, com e sem passar do dez.",
+        "Combinar uma conta como 7 + 8 com a carta da sua resposta.",
+        "Levar os fatos de adição e subtração da contagem para a memória.",
+        "Trabalhar com fluência tanto com contas de mais quanto de menos num mesmo conjunto."
+      ],
+      "howToPlay": [
+        "Calcule cada carta de conta, como 6 + 9 ou 13 − 4.",
+        "Toque em uma conta e depois no número que é a resposta, e veja o par se conectar.",
+        "Combine os três pares da rodada — não há cronômetro nem pontuação, então vá no seu tempo."
+      ],
+      "learningGoals": [
+        "A criança aprende a somar e subtrair com fluência até 20.",
+        "A criança memoriza os fatos básicos de adição com números de um algarismo.",
+        "A criança constrói a lembrança de fatos que torna mais fáceis as contas com números maiores."
+      ]
+    },
+    "numberbond.find-the-total.1-oa-a-1": {
+      "about": [
+        "Juntar duas partes e descobrir quantos há ao todo é o que a criança faz nesta atividade gratuita e interativa de matemática para o 1º ano. Um diagrama de partes e todo mostra duas partes, como 7 e 4, e a criança junta as partes e digita o total. Tudo roda no navegador, sem cadastro.",
+        "O todo fica no alto e as duas partes embaixo, então 'juntar' vira algo que a criança consegue ver. Ela pode contar a partir da parte maior ou simplesmente já saber o fato; as bolinhas de cada parte estão ali para contar quando o fato ainda não é automático. A resposta é o todo, no topo do diagrama (adição até 20, juntando e compondo).",
+        "A atividade está alinhada à BNCC, no uso da adição para juntar e somar até 20. Sem cronômetro e sem pontuação — é prática calma e divertida."
+      ],
+      "practices": [
+        "Ler as duas partes de um diagrama de partes e todo.",
+        "Juntar as partes para encontrar o todo até 20.",
+        "Contar a partir da parte maior para somar com mais agilidade.",
+        "Digitar o total que nomeia o todo."
+      ],
+      "howToPlay": [
+        "Olhe as duas partes do diagrama, como 7 + 4.",
+        "Conte quantos há ao todo e digite o total, depois toque em Verificar.",
+        "Errou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "A criança aprende a somar dois números até 20 juntando as partes.",
+        "A criança lê um diagrama de partes e todo e encontra o todo que falta.",
+        "A criança conta a partir do número maior para somar mais depressa."
+      ]
+    },
+    "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
+      "about": [
+        "Construir um número de três algarismos com placas, barras e cubinhos é o que esta atividade gratuita e interativa de matemática para o 2º ano propõe. A criança toca em uma placa de cem, uma barra de dez ou um cubinho e vê o número crescer conforme o material dourado se empilha — montando alvos de 108 a 974, incluindo números difíceis com zero, como 200, 305 e 906. Tudo roda no navegador, sem conta.",
+        "A grande ideia é que os três algarismos de um número representam centenas, dezenas e unidades. Para construir 463, a criança precisa de quatro placas de cem, seis barras de dez e três cubinhos, e ver o material se acumular liga cada algarismo a uma quantidade de verdade. Números como 305 e 906 ensinam discretamente que um zero significa nada naquela ordem — nenhuma barra de dez — que é justamente onde costuma começar a confusão com valor posicional.",
+        "A atividade está alinhada à BNCC, no entendimento de que os três algarismos de um número de três dígitos representam quantidades de centenas, dezenas e unidades. Sem cronômetro e sem pontuação — é prática calma e divertida."
+      ],
+      "practices": [
+        "Construir um número de três algarismos com as centenas, dezenas e unidades certas.",
+        "Relacionar cada algarismo a uma quantidade de placas, barras ou cubinhos.",
+        "Entender que um zero numa ordem significa nada daquela unidade.",
+        "Ler números de três algarismos até as centenas."
+      ],
+      "howToPlay": [
+        "Leia o número alvo, como 463.",
+        "Toque para acrescentar placas de cem, barras de dez e cubinhos até o material formar esse número.",
+        "Veja o número crescer e siga em frente, sem cronômetro e sem pontuação."
+      ],
+      "learningGoals": [
+        "A criança entende as centenas, dezenas e unidades nos números de três algarismos.",
+        "A criança relaciona cada algarismo ao seu valor posicional e à sua quantidade.",
+        "A criança constrói a base de valor posicional para somar, subtrair e comparar números maiores."
+      ]
+    },
+    "ten-frame.show-the-operation.k-oa-a-1": {
+      "about": [
+        "Representar uma adição ou uma subtração no quadro de dez, e não digitar um número, é a tarefa desta atividade gratuita e interativa de matemática para a educação infantil. Para \"3 + 2\", a criança coloca 3 fichas e depois mais 2 de outra cor, deixando as duas partes fáceis de ver; para \"5 − 2\", começa com 5 fichas e toca para tirar 2. Tudo roda no navegador, sem cadastro.",
+        "A grande ideia é que adição e subtração são ações que dá para mostrar, e não só respostas que se escrevem. A segunda cor de fichas torna as duas parcelas visíveis como grupos separados, e tirar fichas deixa o 'retirar' bem concreto. A criança representa a operação em vez de digitar um número, então o sentido de juntar e de separar vem antes da conta em si.",
+        "A atividade está alinhada à BNCC, na representação da adição e da subtração com objetos, dedos, desenhos e outros recursos. Sem cronômetro e sem pontuação — é prática calma e divertida."
+      ],
+      "practices": [
+        "Representar a adição colocando dois grupos de fichas em duas cores.",
+        "Representar a subtração tirando fichas de um grupo inicial.",
+        "Ver as duas partes que formam um todo no quadro de dez.",
+        "Modelar o que uma sentença de adição ou de subtração realmente significa."
+      ],
+      "howToPlay": [
+        "Leia a conta, como 3 + 2 ou 5 − 2.",
+        "Coloque ou tire fichas no quadro de dez para que ele mostre a operação, depois toque em Verificar.",
+        "Errou? Ajuste as fichas e tente de novo — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "A criança aprende a representar a adição e a subtração com fichas.",
+        "A criança entende a adição como juntar e a subtração como separar.",
+        "A criança constrói o hábito de modelar em que os problemas e as sentenças numéricas vão se apoiar."
+      ]
+    },
+    "choice-board.shape-id.k-g-a-2": {
+      "about": [
+        "Aqui o pedido mostra o nome de uma forma — círculo, quadrado, triângulo, retângulo, hexágono, oval, estrela, losango, coração ou pentágono — e a criança encontra essa forma só de olhar, tocando nela entre quatro opções. É uma atividade de geometria gratuita e interativa para a educação infantil, que funciona direto no navegador, no tablet, no celular ou no computador da sala, sem instalar nada e sem cadastro.",
+        "A ideia central é que uma forma continua sendo a mesma forma, não importa como esteja virada ou de que tamanho seja desenhada. Um triângulo apoiado na ponta ou um quadradinho bem pequeno ainda é triângulo e ainda é quadrado, então a criança precisa reconhecer a forma em si, e não uma única figura 'de livro'. As três opções erradas são outras formas de verdade, o que impede a criança de acertar escolhendo a única forma diferente do quadro — ela tem mesmo que saber qual nome combina com cada figura.",
+        "A atividade está alinhada à BNCC, na unidade temática Geometria, no trabalho de nomear formas independentemente da orientação ou do tamanho. Sem cronômetro e sem pontuação — só uma prática calma e divertida, no ritmo de cada criança."
+      ],
+      "practices": [
+        "Ligar o nome de uma forma à sua figura entre quatro opções.",
+        "Reconhecer uma forma mesmo quando ela está girada ou desenhada maior ou menor.",
+        "Diferenciar formas parecidas — um quadrado de um retângulo, uma oval de um círculo, um hexágono de um pentágono.",
+        "Ampliar o vocabulário de formas: círculo, quadrado, triângulo, retângulo, hexágono, oval, estrela, losango, coração e pentágono."
+      ],
+      "howToPlay": [
+        "Leia ou ouça o pedido, que diz o nome de uma forma para encontrar.",
+        "Olhe as quatro formas e toque naquela que corresponde ao nome, depois toque em Verificar.",
+        "Não foi dessa vez? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Nomear círculos, quadrados, triângulos, retângulos, hexágonos e mais só de olhar.",
+        "Entender que uma forma mantém o seu nome, não importa como esteja virada ou de que tamanho seja.",
+        "Construir o vocabulário de formas em que se apoiam, mais tarde, a geometria, a classificação e o desenho."
+      ]
+    },
+    "choice-board.flat-solid.k-g-a-3": {
+      "about": [
+        "Aparece uma forma de cada vez, e a criança toca para dizer se ela é plana ou sólida — formas planas (2D) como círculo, triângulo, quadrado e hexágono, e formas sólidas (3D) como cubo, esfera, cilindro e cone. É uma atividade de geometria gratuita e interativa para a educação infantil, que roda direto no navegador, no tablet, no celular ou no computador, sem instalar nada e sem precisar de conta.",
+        "A grande ideia é a diferença entre uma forma que dá para desenhar no papel e uma forma que dá para pegar e segurar na mão. Aqui a criança não está nomeando as formas; ela está separando entre bidimensionais e tridimensionais. Misturar formas planas conhecidas com suas 'primas' sólidas — um círculo perto de uma esfera, um quadrado perto de um cubo — faz a criança reparar se a forma tem profundidade, que é o primeiro passo para entender os sólidos.",
+        "A atividade está alinhada à BNCC, na unidade temática Geometria, no trabalho de identificar formas como bidimensionais (planas) ou tridimensionais (sólidas). Sem cronômetro e sem pontuação — só uma prática calma e tranquila."
+      ],
+      "practices": [
+        "Diferenciar formas planas (2D) de formas sólidas (3D).",
+        "Reconhecer círculo, quadrado e triângulo como planos, e cubo, esfera e cone como sólidos.",
+        "Reparar se uma forma tem profundidade — algo que dá para segurar e não só para desenhar.",
+        "Separar as formas em dois grupos, em vez de apenas nomeá-las."
+      ],
+      "howToPlay": [
+        "Olhe a forma que aparece no quadro.",
+        "Decida se ela é plana ou sólida e toque na opção certa, depois toque em Verificar.",
+        "Pode tentar de novo a hora que quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Identificar formas como planas (bidimensionais) ou sólidas (tridimensionais).",
+        "Relacionar uma forma plana à sua 'prima' sólida, como o quadrado e o cubo.",
+        "Construir a base para nomear e descrever formas 3D mais adiante."
+      ]
+    },
+    "choice-board.next-number.k-cc-a-2": {
+      "about": [
+        "Surge um número de 1 a 9, e a criança toca naquele que vem logo depois — vê o 4 e procura o 5, vê o 8 e procura o 9. É uma atividade de contagem gratuita e interativa para a educação infantil, que funciona direto no navegador, no tablet, no celular ou no computador, sem instalar nada e sem precisar de conta.",
+        "A ideia principal é contar avançando a partir de um número que já está dado, em vez de começar tudo de novo do um. As opções são números de 0 a 10 colocados perto da resposta certa, então a criança precisa realmente saber qual vem em seguida, e não chutar. Essa habilidade — pegar a contagem no meio da sequência — é o que deixa o contar mais rápido e mais flexível.",
+        "A atividade está alinhada à BNCC, no campo de Números, no trabalho de contar avançando a partir de um número dado e de desenvolver a noção de sequência numérica. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+      ],
+      "practices": [
+        "Dizer qual número vem logo depois de um número dado, de 1 a 9.",
+        "Contar avançando a partir do meio da sequência, e não sempre do um.",
+        "Conhecer bem a ordem dos números para identificar o próximo.",
+        "Desenvolver uma contagem flexível, que não precisa recomeçar a cada vez."
+      ],
+      "howToPlay": [
+        "Olhe o número que aparece no quadro.",
+        "Toque no número que vem logo depois dele, depois toque em Verificar.",
+        "Não foi dessa vez? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Contar avançando a partir de um número dado.",
+        "Saber qual número vem em seguida na sequência até 10.",
+        "Construir a fluência na contagem em que se apoiam a adição e o senso numérico."
+      ]
+    },
+    "choice-board.read-ruler.2-md-a-1": {
+      "about": [
+        "Um objeto aparece deitado sobre uma régua em centímetros — um lápis, uma fita, um giz de cera, uma caneta — e a criança lê quanto ele mede e toca na resposta em centímetros, com comprimentos que vão de um giz curto de 5 cm a uma caneta de 14 cm ou um graveto de 17 cm. É uma atividade de medidas gratuita e interativa para o 2º ano, que funciona direto no navegador, sem precisar de conta.",
+        "A grande ideia é ler a régua do jeito certo: alinhar a ponta esquerda do objeto com o zero, seguir até a outra ponta e ler a marca que está ali. A criança não está estimando; ela está lendo um comprimento exato na escala. Como as opções são números próximos, alinhar no 1 em vez de no 0 — um deslize bem comum ao medir — acaba aparecendo, o que ajuda a criar o hábito de começar toda medida no zero.",
+        "A atividade está alinhada à BNCC, na unidade temática Grandezas e Medidas, no trabalho de medir o comprimento de um objeto escolhendo e usando um instrumento adequado, como a régua. Sem cronômetro e sem pontuação — só uma prática calma e no ritmo de cada criança."
+      ],
+      "practices": [
+        "Ler em centímetros o comprimento de um objeto na régua.",
+        "Alinhar a ponta esquerda do objeto com o 0 antes de ler a outra ponta.",
+        "Encontrar a marca de centímetro onde o objeto termina.",
+        "Evitar o deslize comum de começar a medida no 1 em vez do 0."
+      ],
+      "howToPlay": [
+        "Olhe o objeto sobre a régua e confira se a ponta esquerda dele está no 0.",
+        "Siga até a outra ponta, leia a marca de centímetro e toque nesse número, depois toque em Verificar.",
+        "Pode tentar de novo a hora que quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Medir comprimentos em centímetros com a régua.",
+        "Ler uma escala de medida começando sempre do zero.",
+        "Criar hábitos de medição precisos para comprimentos maiores e outros instrumentos."
+      ]
+    },
+    "fractions.partition-equal-shares.1-g-a-3": {
+      "about": [
+        "Surge uma forma — círculo, quadrado, retângulo, triângulo, elipse, losango, hexágono ou pentágono — e a criança toca nas linhas de corte para dividi-la em 2 partes iguais (metades) ou em 4 partes iguais (quartos). É uma atividade de geometria gratuita e interativa para o 1º ano, que funciona no navegador em qualquer aparelho, sem cadastro.",
+        "A grande ideia é que partes iguais precisam ser justas — os pedaços têm que ter o mesmo tamanho. Cortar formas variadas, e não só círculos, mostra que metades e quartos têm a ver com áreas iguais, e não com uma única figura conhecida: um quadrado cortado numa grade de quatro e um círculo cortado em quatro, os dois fazem quartos. Como é a própria criança que corta, ela mesma deixa as partes iguais, em vez de só reconhecer uma figura já pronta.",
+        "A atividade está alinhada à BNCC, na unidade temática Geometria, no trabalho de dividir círculos e retângulos em duas e em quatro partes iguais e de chamar essas partes de metades e quartos. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+      ],
+      "practices": [
+        "Cortar círculos, quadrados e outras formas em partes iguais.",
+        "Fazer 2 partes iguais (metades) e 4 partes iguais (quartos).",
+        "Manter os pedaços do mesmo tamanho para que as partes sejam justas.",
+        "Ver metades e quartos em muitas formas diferentes."
+      ],
+      "howToPlay": [
+        "Olhe a forma e veja em quantas partes iguais ela precisa ser dividida.",
+        "Toque nas linhas de corte para dividi-la em metades ou em quartos.",
+        "Garanta que os pedaços fiquem iguais — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Dividir formas em duas e em quatro partes iguais.",
+        "Descrever as partes iguais como metades e quartos.",
+        "Construir a base da partilha justa em que se apoia, mais tarde, o trabalho com frações."
+      ]
+    },
+    "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
+      "about": [
+        "A criança liga as cartas que mostram o mesmo valor — o número em algarismos (305), o número por extenso (trezentos e cinco) e a forma decomposta (300 + 5) — tocando em uma carta e depois em outra que tem o mesmo valor, até ligar o trio. É um jogo de combinar cartas de matemática gratuito e interativo para o 2º ano, que funciona direto no navegador, sem instalar nada e sem conta.",
+        "A grande ideia é que o algarismo, o nome do número e a forma decomposta são, todos, jeitos de escrever um mesmo número — e os buracos do valor posicional são onde fica mais interessante. Números como 305 e 208 têm um zero na casa das dezenas, então a forma decomposta é 300 + 5, e não 300 + 0 + 5, e a criança precisa ler com atenção para combinar 'duzentos e oito' com 208, e não com 280. Cada rodada traz três números diferentes para resolver ao mesmo tempo.",
+        "A atividade está alinhada à BNCC, na unidade temática Números, no trabalho de ler e escrever números até 1000 em algarismos, por extenso e na forma decomposta. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+      ],
+      "practices": [
+        "Ligar um número em algarismos, o seu nome por extenso e a sua forma decomposta.",
+        "Ler números de três algarismos por extenso, como novecentos e quarenta.",
+        "Escrever a forma decomposta certinho quando há um zero numa casa, como 600 + 5.",
+        "Diferenciar números parecidos, como 208 e 280."
+      ],
+      "howToPlay": [
+        "Olhe as cartas — algarismos como 562, palavras como quinhentos e sessenta e dois, e formas decompostas como 500 + 60 + 2.",
+        "Toque em uma carta e depois em outra que mostra o mesmo número, e veja o par se ligar.",
+        "Encontre os três números da rodada — não há cronômetro nem pontuação, então pode ir com calma."
+      ],
+      "learningGoals": [
+        "Ler e escrever números até 1000 em algarismos, por extenso e na forma decomposta.",
+        "Entender que formas diferentes podem nomear o mesmo valor.",
+        "Fortalecer a noção de valor posicional, inclusive em números com um zero numa casa."
+      ]
+    },
+    "money.count-out.2-md-c-8": {
+      "about": [
+        "A criança forma o valor pedido moeda por moeda, tocando nas moedas de 5, 10, 25 e 50 centavos e de R$ 1 para colocá-las na bandeja até o dinheiro bater certinho — 15 centavos feitos com uma moeda de 10 e uma de 5, ou R$ 1,00 feito com uma de 50 e duas de 25. É uma atividade de matemática gratuita e interativa para o 2º ano, que funciona direto no navegador, sem instalar nada e sem precisar de conta.",
+        "A grande ideia é que o valor de uma moeda não está no tamanho dela, então a criança precisa saber quanto vale cada moeda e ir somando conforme escolhe. Uma moeda pequena de 50 centavos vale mais do que uma maior de 25, e várias moedas de 5 centavos podem não chegar perto de uma só de R$ 1. Chegar a cada valor escolhendo e somando moedas desenvolve a contagem com total acumulado que o uso do dinheiro de verdade exige.",
+        "A atividade está alinhada à BNCC, na unidade temática Grandezas e Medidas, no trabalho com o sistema monetário brasileiro: reconhecer cédulas e moedas e somar quantias em reais e centavos. Sem cronômetro e sem pontuação — só uma prática leve e acolhedora."
+      ],
+      "practices": [
+        "Saber o valor das moedas de 5, 10, 25 e 50 centavos e de R$ 1.",
+        "Somar os valores das moedas para chegar a uma quantia exata.",
+        "Manter o total acumulado enquanto escolhe as moedas.",
+        "Entender que o valor de uma moeda não tem a ver com o tamanho dela."
+      ],
+      "howToPlay": [
+        "Leia o valor que a rodada pede, como 35 centavos.",
+        "Toque nas moedas para colocá-las na bandeja — 5, 10, 25 e 50 centavos e R$ 1 — até o total bater certinho.",
+        "Não foi dessa vez? Acrescente ou tire moedas e tente de novo — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Contar moedas de real para formar uma quantia pedida.",
+        "Reconhecer o valor de cada moeda e usar o sistema monetário brasileiro.",
+        "Construir a noção de dinheiro necessária para contar e fazer compras no dia a dia."
+      ]
+    },
+    "numberbond.subtraction-unknown-addend.1-oa-b-4": {
+      "about": [
+        "Uma subtração como 8 − 3 aparece em forma de decomposição — o todo (8) e uma das partes (3) são dados — e a criança completa a parte que falta. É uma atividade de matemática gratuita e interativa para o 1º ano, que funciona direto no navegador, sem cadastro.",
+        "A grande ideia é ler a subtração como 'o que junto com 3 forma 8?' — uma parte desconhecida, e não uma contagem de tirar. A criança vai completando a parte vazia até as duas partes formarem o todo de novo, então a ligação profunda entre subtração e adição é exatamente o que ela faz, com rodadas que chegam a totais até 16.",
+        "A atividade está alinhada à BNCC, na unidade temática Números, no trabalho de entender a subtração e a relação entre adição e subtração, fortalecendo o raciocínio aditivo. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+      ],
+      "practices": [
+        "Ver uma subtração como um todo com uma das partes faltando.",
+        "Pensar 'o que somo à parte conhecida para formar o todo?'.",
+        "Completar a parte que falta até as duas partes formarem o todo.",
+        "Ligar a subtração à adição (3 e 5 formam 8)."
+      ],
+      "howToPlay": [
+        "Olhe a decomposição — o todo e uma das partes são dados, como 8 com 3.",
+        "Complete a parte que falta até as duas partes formarem o todo, depois toque em Verificar.",
+        "Não foi dessa vez? Ajuste a parte e verifique de novo — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Entender a subtração como descobrir uma parte desconhecida.",
+        "Encontrar a parte que falta quando o todo e uma das partes são conhecidos.",
+        "Perceber como a adição e a subtração se desfazem uma à outra."
+      ]
+    },
+    "place-value.expanded-form.2-nbt-a-3": {
+      "about": [
+        "A criança monta um número de três algarismos com material dourado — tocando para acrescentar placas de cem, barras de dez e cubinhos de um — e, quando a construção fica certa, os blocos mostram a forma expandida, então 247 vira 200 + 40 + 7, com números-alvo que vão de 108 até 974, incluindo casos espertos como 305. É uma atividade de matemática gratuita e interativa para o 2º ano, que funciona direto no navegador, sem precisar de conta.",
+        "A grande ideia é que um número é a soma do que cada algarismo vale. Ao montar 247 com duas centenas, quatro dezenas e sete unidades, a criança vê que o 4 quer dizer 40, e não só 'quatro'. Os números com zero são os que mais ensinam: 305 mostra que uma casa das dezenas vazia não acrescenta nada, então a forma expandida é só 300 + 5. Os blocos ligam os algarismos ao valor de verdade de cada um.",
+        "A atividade está alinhada à BNCC, na unidade temática Números, no trabalho de ler e escrever números de três algarismos na forma expandida (composição e decomposição). Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+      ],
+      "practices": [
+        "Montar um número de três algarismos com centenas, dezenas e unidades.",
+        "Ler o número na forma expandida, como 247 = 200 + 40 + 7.",
+        "Ver que o valor de cada algarismo depende da casa em que ele está.",
+        "Lidar com números que têm um zero numa casa, como 305 = 300 + 5."
+      ],
+      "howToPlay": [
+        "Toque para acrescentar placas de cem, barras de dez e cubinhos de um até montar o número-alvo.",
+        "Quando a construção estiver certa, os blocos mostram a forma expandida, como 200 + 40 + 7.",
+        "Siga para o próximo número — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Ler e escrever números de três algarismos na forma expandida.",
+        "Entender que um número é a soma dos seus valores posicionais.",
+        "Construir a noção de valor posicional que ajuda a somar e a comparar números."
+      ]
+    },
+    "ten-frame.solve-the-story.k-oa-a-2": {
+      "about": [
+        "\"3 passarinhos estão num galho, mais 2 pousam — quantos há agora?\" Uma historinha aparece, a criança representa a situação com fichas num quadro de dez para decidir se junta ou tira, e então digita a resposta no teclado numérico. É uma atividade de matemática gratuita e interativa para a educação infantil, com problemas até 10, que funciona no navegador sem precisar de conta.",
+        "Os problemas com historinha são onde os números ganham sentido. A criança precisa decidir se a história junta grupos ou tira uma parte, o que é mais difícil do que receber um sinal de mais ou de menos já pronto. O quadro de dez é um apoio para a criança encenar a história, mas a resposta vai no teclado numérico — então o trabalho é ler, decidir a operação e depois contar para ter certeza.",
+        "A atividade está alinhada à BNCC, no campo de Números, no trabalho de resolver problemas de adição e subtração até 10 usando objetos ou desenhos para representar a situação. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+      ],
+      "practices": [
+        "Ler uma historinha curta e decidir se é para somar ou subtrair.",
+        "Representar o problema com fichas num quadro de dez.",
+        "Resolver situações de adição e de subtração até 10.",
+        "Digitar a resposta de uma pergunta sobre quantidades do dia a dia."
+      ],
+      "howToPlay": [
+        "Leia o problema da historinha, como 3 passarinhos no galho e mais 2 que pousam.",
+        "Use as fichas no quadro de dez para encenar a situação, depois digite quantos há no teclado numérico e toque em Verificar.",
+        "Não foi dessa vez? Releia a história e tente de novo — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Resolver problemas de adição e subtração até 10.",
+        "Escolher a operação certa a partir do sentido da história.",
+        "Construir os hábitos de resolver problemas em que a matemática se apoia mais adiante."
+      ]
+    },
+    "choice-board.count-sides.k-g-b-4": {
+      "about": [
+        "Aparece uma única forma na tela e a criança conta os lados retos dela, depois toca no número que corresponde: um triângulo com 3 lados, um quadrado com 4, um pentágono com 5 ou um hexágono com 6, escolhendo entre números que vão de 3 a 8. É uma atividade de geometria gratuita e interativa para a educação infantil, que roda direto no navegador no tablet, no celular ou no computador da sala, sem instalar nada e sem precisar de conta.",
+        "A ideia central é que uma forma é mais do que o seu nome: ela é feita de partes que dá para contar. A criança não ganha só por reconhecer “um triângulo” — ela precisa percorrer cada lado com o olhar e contar um de cada vez. Como as opções de número trazem valores parecidos, como o 5 ao lado do 6, contar errado por um aparece logo, e isso convida a contar com calma, apontando cada lado, em vez de chutar de primeira.",
+        "A atividade está alinhada à BNCC, na unidade temática Geometria, na ideia de analisar e comparar formas pelas suas partes, como o número de lados. Sem cronômetro e sem pontuação — só formas para observar com tranquilidade, no ritmo de cada criança."
+      ],
+      "practices": [
+        "Contar os lados retos de um triângulo, um quadrado, um pentágono e um hexágono.",
+        "Ligar uma forma a um número — quantos lados ela tem, e não apenas o seu nome.",
+        "Contar com cuidado, um lado de cada vez, em vez de adivinhar o total de relance.",
+        "Diferenciar as formas pelas suas partes, como cinco lados em comparação com seis."
+      ],
+      "howToPlay": [
+        "Olhe a forma que aparece e conte os lados retos dela, um por um.",
+        "Toque no número que corresponde à quantidade de lados que você contou e depois toque em Verificar.",
+        "Não acertou? Pode tentar de novo quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Contar o número de lados das formas mais comuns.",
+        "Descrever uma forma pelas suas partes, em vez de só dizer o nome.",
+        "Construir o hábito de contar com atenção e analisar as formas, base da geometria que vem mais adiante."
+      ]
+    },
+    "choice-board.pick-smaller.k-c-c-7": {
+      "about": [
+        "Dois números escritos aparecem na tela e a criança toca no menor — como 3 e 5, ou 8 e 9. Alguns pares ficam bem distantes, como 1 e 9, e outros bem pertinho, como 5 e 6. É uma atividade de contagem gratuita e interativa para a educação infantil, que abre direto no navegador, sem precisar de conta.",
+        "A grande ideia é comparar números pelo valor olhando para quem é menor, e não para quem é maior — uma virada de atenção pequena, mas importante. Como não há objetos para contar, a criança lê cada algarismo e decide qual número é o menor. Os pares vizinhos deixam o desafio de verdade: saber que o 8 vem logo antes do 9 é o que mostra que o 8 é o menor.",
+        "A atividade está alinhada à BNCC, no campo de Números, na ideia de comparar dois números entre 1 e 10 apresentados como algarismos escritos. Sem cronômetro e sem pontuação — só prática calma e divertida."
+      ],
+      "practices": [
+        "Comparar dois números escritos de 1 a 10 e encontrar o menor.",
+        "Ler algarismos e saber o valor deles sem contar objetos.",
+        "Voltar a atenção para “o menor”, em vez de “o maior”, ao comparar.",
+        "Resolver pares próximos, como 8 e 9, e não só os bem distantes."
+      ],
+      "howToPlay": [
+        "Olhe os dois números que aparecem na tela.",
+        "Toque naquele que é menor e depois toque em Verificar.",
+        "Tente de novo quando quiser; não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Comparar números escritos de 1 a 10 e escolher o menor.",
+        "Saber o valor que cada algarismo representa, sem precisar contar.",
+        "Construir o senso de comparação que sustenta a ideia de “menor que” mais adiante."
+      ]
+    },
+    "choice-board.read-sight-word.rf-k-3-c": {
+      "about": [
+        "A criança ouve uma palavra muito comum falada em voz alta e toca na forma escrita correta entre opções bem parecidas — palavras do dia a dia, como “que”, “com”, “uma”, “não”, “para”, “vai” e “ver”, que aparecem o tempo todo nos primeiros textos. É uma atividade de leitura gratuita e interativa para quem está começando a ler, na pré-escola e no início do 1º ano, que roda direto no navegador no tablet, no celular ou no computador, sem instalar nada e sem cadastro.",
+        "A grande ideia é reconhecer de imediato as palavras mais frequentes, para que a leitura possa fluir. Muitas dessas palavrinhas a criança lê de relance, sem soletrar, então as opções erradas são primas próximas — trocas de uma letra ou de ordem — e é preciso reconhecer a palavra exata, e não só uma forma parecida. Ouvir a palavra e encontrá-la escrita liga o som à grafia justamente nas palavras que mais aparecem.",
+        "A atividade está alinhada à BNCC, no eixo da Leitura e do reconhecimento de palavras frequentes pela forma escrita. Sem cronômetro e sem pontuação — só prática tranquila e divertida."
+      ],
+      "practices": [
+        "Reconhecer de relance palavras frequentes, como “que”, “com” e “uma”.",
+        "Combinar uma palavra ouvida com a sua forma escrita.",
+        "Diferenciar palavras parecidas, que mudam por uma letra ou pela ordem.",
+        "Construir o reconhecimento imediato que deixa a leitura mais fluente."
+      ],
+      "howToPlay": [
+        "Ouça a palavra falada em voz alta — toque para ouvir de novo, se quiser.",
+        "Toque na palavra escrita que corresponde ao que você ouviu e depois toque em Verificar.",
+        "Não acertou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Ler palavras frequentes reconhecendo-as pela forma escrita.",
+        "Ligar uma palavra ouvida à grafia exata entre opções parecidas.",
+        "Construir o repositório de palavras frequentes que libera a atenção para entender o que se lê."
+      ]
+    },
+    "choice-board.letter-case.rf-k-1-d": {
+      "about": [
+        "Uma letra aparece na tela e a criança toca na mesma letra na outra forma — da maiúscula para a minúscula, ou da minúscula para a maiúscula. Aparece um B grande e a criança encontra o b pequeno; um R grande encontra o r; um E grande encontra o e. É uma atividade de leitura gratuita e interativa para a educação infantil, que abre direto no navegador, sem precisar de conta.",
+        "A ideia central é que cada letra tem duas aparências que nomeiam a mesma letra. As opções erradas são propositalmente próximas — para o B, as letrinhas oferecidas podem ser b, d, p e h — então a criança precisa conhecer o traçado de verdade da letra, e não só escolher algo arredondado. Resolver as letras que viram e espelham, como o b e o d, é exatamente o olhar atento que constrói um reconhecimento seguro do alfabeto.",
+        "A atividade está alinhada à BNCC, no eixo da apropriação do sistema de escrita, na ideia de reconhecer e nomear as letras maiúsculas e minúsculas do alfabeto. Sem cronômetro e sem pontuação — só prática calma e divertida."
+      ],
+      "practices": [
+        "Combinar uma letra maiúscula com a sua forma minúscula, e o contrário também.",
+        "Reconhecer a mesma letra nas suas formas grande e pequena.",
+        "Diferenciar letras parecidas, como b, d e p.",
+        "Construir o reconhecimento seguro das letras de que a leitura fluente precisa."
+      ],
+      "howToPlay": [
+        "Olhe a letra que aparece na tela.",
+        "Toque na letra correspondente na outra forma — maiúscula ou minúscula — e depois toque em Verificar.",
+        "Tente de novo quando quiser; não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Reconhecer e nomear as letras maiúsculas e minúsculas do alfabeto.",
+        "Ligar as duas formas de cada letra como sendo uma só letra.",
+        "Firmar as letras parecidas que as crianças costumam confundir no começo da leitura."
+      ]
+    },
+    "fractions.partition-thirds.2-g-a-3": {
+      "about": [
+        "Surge um círculo, um triângulo, um hexágono, um quadrado, um retângulo, um losango ou uma elipse, e a criança toca nas linhas de corte para dividir a forma em três partes iguais — os terços. É uma atividade de geometria gratuita e interativa para os anos iniciais, que roda no navegador em qualquer aparelho, sem instalar nada e sem conta.",
+        "A grande ideia é que os terços são mais difíceis do que as metades, porque três partes iguais não caem em uma linha do meio óbvia. O círculo é dividido com três linhas a partir do centro, o retângulo em três faixas iguais, o triângulo em três partes que combinam — assim a criança aprende que «terços» significa três partes do mesmo tamanho, não importa como a forma é cortada. Fazer os cortes com as próprias mãos constrói o senso de divisão igual que só olhar uma figura não dá.",
+        "A atividade está alinhada à BNCC, na unidade temática Geometria e na ideia de dividir círculos, quadrados e retângulos em duas, três ou quatro partes iguais, chamando essas partes de metades, terços e quartos. Sem cronômetro e sem pontuação — só prática tranquila e divertida."
+      ],
+      "practices": [
+        "Cortar uma forma em 3 partes iguais.",
+        "Fazer terços em círculos, retângulos, triângulos e outras formas.",
+        "Manter as três partes com o mesmo tamanho.",
+        "Usar a palavra terços para falar de três partes iguais."
+      ],
+      "howToPlay": [
+        "Olhe a forma que você precisa dividir em 3 partes iguais.",
+        "Toque nas linhas de corte para fazer os terços.",
+        "Confira se as três partes ficaram iguais — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Dividir formas em três partes iguais e nomeá-las como terços.",
+        "Entender que os terços precisam ser três partes do mesmo tamanho, não importa como a forma é cortada.",
+        "Fortalecer o senso de divisão igual sobre o qual as frações são construídas."
+      ]
+    },
+    "match-pairs.find-the-missing-number.1-oa-d-8": {
+      "about": [
+        "A criança resolve operações como ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 e 10 − ? = 6, e depois toca na operação e no número que a completa para ligar o par. É uma atividade de matemática gratuita e interativa para o 1º ano, que roda direto no navegador, sem instalar nada e sem conta.",
+        "A grande ideia é que o número desconhecido pode estar em qualquer lugar — uma parcela que falta, o número que se tira, o número inicial ou o total — então a criança precisa pensar na relação a cada vez, em vez de só «somar para achar a resposta». Às vezes o espaço vazio é o total (5 + 4 = ?) e às vezes está escondido dentro da operação (? − 4 = 1), o que constrói uma flexibilidade de verdade com as famílias de fatos.",
+        "A atividade está alinhada à BNCC, no eixo de Números e operações, na ideia de encontrar o número desconhecido em uma adição ou subtração, com a incógnita em qualquer posição. Sem cronômetro e sem pontuação — só prática calma e divertida."
+      ],
+      "practices": [
+        "Encontrar uma parcela que falta, um número a tirar, o número inicial ou o total.",
+        "Usar a relação entre a adição e a subtração para descobrir o número desconhecido.",
+        "Avançar ou voltar na contagem para achar a parte que falta.",
+        "Combinar cada operação com o número que a deixa verdadeira."
+      ],
+      "howToPlay": [
+        "Leia uma operação com um espaço vazio, como ? + 7 = 10, e descubra o número que falta.",
+        "Toque na operação e depois no número que a deixa correta, e veja o par se ligar.",
+        "Combine os dois pares da rodada — não há cronômetro nem pontuação, então leve o tempo que precisar."
+      ],
+      "learningGoals": [
+        "Encontrar o número desconhecido em uma adição ou subtração, em qualquer posição.",
+        "Entender como a adição e a subtração desfazem uma à outra.",
+        "Construir um raciocínio flexível com as famílias de fatos, em vez de um único procedimento fixo."
+      ]
+    },
+    "money.make-change.2-md-c-8": {
+      "about": [
+        "Um item custa 70 centavos e a criança paga com R$ 1 — então ela devolve o troco certo, neste caso 30 centavos, tocando nas moedas para colocá-las na bandeja. Descobrir a diferença e montá-la com moedas une a subtração à contagem de dinheiro de mão, em uma atividade de matemática gratuita e interativa para o 2º ano, que roda direto no navegador, sem instalar nada e sem conta.",
+        "A grande ideia é que o troco é a diferença entre o que foi pago e o que o item custa. A criança primeiro calcula quanto deve devolver e depois monta esse valor com as moedas que escolhe — de 5, 10, 25 e 50 centavos e de 1 real — o que junta a subtração com a contagem prática do dinheiro. Como o valor não vem escrito em cada moeda, ela precisa saber quanto cada uma vale e ir contando até chegar ao troco devido, sempre em reais e centavos.",
+        "A atividade está alinhada à BNCC, na unidade temática Grandezas e medidas, na ideia de resolver problemas com o sistema monetário brasileiro (real), usando moedas e cédulas e os símbolos R$ e centavos. Sem cronômetro e sem pontuação — só prática tranquila e divertida."
+      ],
+      "practices": [
+        "Encontrar o troco como a diferença entre o que foi pago e o que custa.",
+        "Montar o valor do troco com moedas de 5, 10, 25 e 50 centavos e de 1 real.",
+        "Ligar a subtração à contagem de moedas de verdade.",
+        "Contar para cima, do preço até o valor pago."
+      ],
+      "howToPlay": [
+        "Leia quanto o item custa e quanto você paga, por exemplo: custa 85 centavos e você paga R$ 1.",
+        "Calcule o troco e depois toque nas moedas para colocar na bandeja o valor certo.",
+        "Não acertou? Ajuste as moedas e tente de novo — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Dar o troco com moedas em problemas com dinheiro.",
+        "Entender o troco como a diferença entre o preço e o valor pago.",
+        "Fortalecer a subtração e a contagem de moedas juntas, em reais e centavos."
+      ]
+    },
+    "numberbond.add-three.1-oa-a-2": {
+      "about": [
+        "Um diagrama de partes e todo junta três números, como 3, 4 e 5, em um único total, e a criança soma os três e digita o resultado no teclado numérico. É uma atividade de matemática gratuita e interativa para o 1º ano, que abre direto no navegador, sem precisar de conta.",
+        "Ver três partes formando um todo mostra que dá para juntar os números em qualquer ordem e passo a passo. Combinações como 4 + 4 + 5 convidam, sem pressa, a montar primeiro um número amigo e só depois somar a última parte. A criança lê as três partes e digita a soma; os pontinhos dentro de cada parte estão ali para contar quando um fato ainda não vem de cabeça.",
+        "A atividade está alinhada à BNCC, no eixo de Números e operações, na ideia de somar três números cujo total não passa de 20. Sem cronômetro e sem pontuação — só prática calma e divertida."
+      ],
+      "practices": [
+        "Ler as três partes do diagrama e vê-las se juntar em um único todo.",
+        "Somar três números de um algarismo com total de até 20.",
+        "Escolher uma ordem prática — somar primeiro os dois que formam dez ou um número amigo.",
+        "Digitar o total que nomeia o todo."
+      ],
+      "howToPlay": [
+        "Olhe as três partes do diagrama, por exemplo 3 + 4 + 5.",
+        "Some os três números e digite o total no teclado numérico, depois toque em Verificar.",
+        "Não acertou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Somar três números com total de até 20.",
+        "Ver três partes se combinando em um único todo no diagrama de partes e todo.",
+        "Somar em uma ordem esperta, montando primeiro um dez ou um número amigo."
+      ]
+    },
+    "sort-bins.sort-by-sides.2-g-a-1": {
+      "about": [
+        "A cada rodada cai um monte de figuras embaralhadas — triângulos retângulos e obtusângulos, quadrados, losangos, pentágonos e hexágonos irregulares — e a criança conta os lados de cada uma e arrasta para a caixa correta. É uma atividade de geometria gratuita e interativa para o 2º ano, que roda no navegador, sem cadastro.",
+        "O passo principal é contar os lados, em vez de comparar com uma figura que ficou na memória, porque uma forma de cinco lados, mesmo esticada ou inclinada, continua sendo um pentágono. Ao encontrar figuras irregulares e giradas ao lado das bem certinhas, a criança pratica usar o número de lados como a regra que nomeia um polígono. Isso constrói o vocabulário — quadrilátero, pentágono, hexágono — e o hábito de analisar as formas pelas suas partes.",
+        "A atividade está alinhada à BNCC, na unidade temática Geometria, na ideia de reconhecer figuras por atributos como o número de lados e de identificar triângulos, quadriláteros, pentágonos e hexágonos. Sem cronômetro e sem pontuação — só prática tranquila e divertida."
+      ],
+      "practices": [
+        "Contar os lados de uma figura para decidir a qual grupo de polígonos ela pertence.",
+        "Diferenciar triângulos, quadriláteros, pentágonos e hexágonos pelo número de lados.",
+        "Reconhecer o mesmo polígono quando ele está irregular, esticado ou girado.",
+        "Usar corretamente as palavras quadrilátero, pentágono e hexágono."
+      ],
+      "howToPlay": [
+        "Olhe cada figura e conte quantos lados ela tem.",
+        "Arraste para a caixa correta — triângulos, quadriláteros, pentágonos ou hexágonos.",
+        "Não acertou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Identificar triângulos, quadriláteros, pentágonos e hexágonos pelos seus lados.",
+        "Entender que é o número de lados, e não a aparência, que nomeia um polígono.",
+        "Construir o vocabulário das formas e o hábito de contar lados, base da geometria que vem mais adiante."
+      ]
+    },
+    "ten-frame.quick-facts-to-5.k-oa-a-5": {
+      "about": [
+        "Um fato rápido pisca na tela — 2 + 1, 5 − 2, 4 − 1 — e a criança toca na resposta certa entre três números bem próximos, com um quadro de dez ao lado servindo de rascunho opcional. O objetivo é lembrar rápido e com confiança dos fatos até 5. É uma atividade de matemática gratuita e interativa para a educação infantil, que roda no navegador, sem cadastro.",
+        "A fluência até 5 é a ponte entre contar e fazer conta de verdade. As três opções de resposta ficam pertinho umas das outras — para 2 + 2 as opções são 3, 4 e 5 — então a criança não ganha escolhendo o maior ou o menor; ela precisa saber o fato ou resolvê-lo no quadro. Ao longo das rodadas, fatos que no começo eram contados um a um passam a vir na hora, e é justamente isso que significa ter fluência.",
+        "A atividade está alinhada à BNCC, no eixo de Números e operações, na ideia de somar e subtrair com fluência até 5. Sem cronômetro e sem pontuação — só prática tranquila e divertida."
+      ],
+      "practices": [
+        "Lembrar de fatos de adição e subtração até 5.",
+        "Diferenciar respostas próximas, como 3, 4 e 5.",
+        "Usar o quadro de dez para conferir um fato quando estiver na dúvida.",
+        "Ganhar rapidez e confiança com os fatos de números pequenos."
+      ],
+      "howToPlay": [
+        "Leia o fato rápido, como 3 + 2 ou 5 − 2.",
+        "Toque na resposta que você acha certa entre as três opções — espie o quadro de dez se quiser conferir.",
+        "Uma confirmação carinhosa avisa quando você acerta e oferece uma nova tentativa tranquila quando precisar."
+      ],
+      "learningGoals": [
+        "Somar e subtrair com fluência até 5.",
+        "Passar de contar os fatos um a um para lembrar deles rapidamente.",
+        "Construir a fluência de fatos sobre a qual a adição e a subtração do 1º ano se apoiam."
+      ]
+    },
+    "choice-board.pick-bigger.k-c-c-7": {
+      "about": [
+        "Aparecem dois números escritos e a criança toca no maior — por exemplo, 7 e 6, ou 8 e 7. Alguns pares ficam bem distantes, como 9 e 2, e outros ficam coladinhos, como 8 e 7. É uma atividade de contagem gratuita e interativa para a educação infantil, que funciona direto no navegador, no tablet, no celular ou no computador, sem instalar nada e sem precisar de conta.",
+        "A grande ideia é comparar números como algarismos escritos, e não como grupos de objetos para contar. Não há figuras para ajudar — a criança precisa saber que 8 vale mais que 7 só de ler os algarismos. Os pares próximos é que tornam o exercício de verdade: não dá para vencer escolhendo o número que parece maior; é preciso conhecer o valor que cada algarismo representa.",
+        "A atividade está alinhada à BNCC, no campo dos números, ao comparar dois números entre 1 e 10 apresentados como algarismos escritos. Sem cronômetro e sem pontuação — só uma prática calma e divertida, no ritmo de cada criança."
+      ],
+      "practices": [
+        "Comparar dois números escritos de 1 a 10 e descobrir qual é o maior.",
+        "Ler os algarismos e conhecer o seu valor sem precisar contar objetos.",
+        "Lidar com pares próximos, como 8 e 7, e não só com os bem distantes.",
+        "Construir o senso de qual número é maior."
+      ],
+      "howToPlay": [
+        "Olhe os dois números que aparecem na tela.",
+        "Toque naquele que é maior e depois toque em Verificar.",
+        "Errou? Pode tentar de novo quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Comparar números escritos de 1 a 10 e escolher o maior.",
+        "Conhecer o valor que cada algarismo representa, sem contar.",
+        "Construir o senso de comparação que mais tarde sustenta o maior que e o menor que."
+      ]
+    },
+    "choice-board.how-many-group.k-c-c-b-5": {
+      "about": [
+        "Surge um grupo de figuras simpáticas — como uma coruja, quatro raposas ou oito elefantes — e a criança conta os objetos e toca no número correspondente. É uma atividade de contagem gratuita e interativa para a educação infantil, que roda direto no navegador, no tablet, no celular ou no computador da escola, sem instalar nada e sem precisar de conta.",
+        "A grande ideia é a cardinalidade — entender que o último número dito ao contar é a quantidade total. Como os objetos aparecem em fileiras, em pequenos quadros e também espalhados, a criança não pode se apoiar em um padrão decorado; precisa contar cada figura uma única vez. As opções de número ficam próximas, como 7, 8 e 9, então um errinho de uma unidade aparece e convida a contar de novo com calma.",
+        "A atividade está alinhada à BNCC, no campo dos números, ao contar para responder à pergunta 'quantos há?' sobre até 10 objetos em fileira, em quadro ou espalhados. Sem cronômetro e sem pontuação — só uma prática tranquila e divertida."
+      ],
+      "practices": [
+        "Contar até 10 objetos e dizer quantos há ao todo.",
+        "Contar cada figura exatamente uma vez, esteja ela em fila ou espalhada.",
+        "Ligar a quantidade contada ao seu número escrito.",
+        "Construir a cardinalidade — saber que o último número contado é o total."
+      ],
+      "howToPlay": [
+        "Olhe o grupo de figuras e conte com cuidado, uma de cada vez.",
+        "Toque no número que corresponde à quantidade que você contou e depois toque em Verificar.",
+        "Errou? Pode tentar de novo quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Contar até 10 objetos em qualquer arranjo e nomear o total.",
+        "Ligar uma contagem ao seu número escrito.",
+        "Construir a correspondência um a um e a cardinalidade em que toda a matemática posterior se apoia."
+      ]
+    },
+    "choice-board.tell-words-apart.rf-k-3-c": {
+      "about": [
+        "A criança ouve uma palavra comum lida em voz alta e a distingue de três vizinhas muito parecidas — por exemplo, 'meu' entre 'seu', 'teu' e 'céu'; 'da' entre 'de', 'do' e 'dá'; 'um' entre 'uns', 'em' e 'mar'. É uma atividade de leitura gratuita e interativa para os primeiros passos da alfabetização, que funciona no navegador com som e sem cadastro, treinando justamente as palavrinhas de uso frequente que mais se confundem.",
+        "Essas palavras se parecem bastante, então uma olhada rápida não basta. A criança precisa guardar a palavra ouvida na memória e conferir as opções escritas letra por letra para achar a combinação exata — percebendo que 'meu' não é 'seu' e que 'da' não é 'de'. Esse olhar atento é o que transforma o palpite incerto no reconhecimento imediato e seguro em que a leitura fluente se apoia.",
+        "A atividade está alinhada à BNCC, no campo da leitura e da consciência fonológica, ao reconhecer de imediato palavras de alta frequência. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+      ],
+      "practices": [
+        "Guardar na memória uma palavra ouvida enquanto observa as opções escritas.",
+        "Distinguir palavras parecidas, como 'meu' e 'seu', 'da' e 'de'.",
+        "Ler a palavra inteira, em vez de adivinhar pela primeira letra.",
+        "Construir o reconhecimento rápido e preciso de palavras de uso frequente."
+      ],
+      "howToPlay": [
+        "Toque para ouvir a palavra e escute quantas vezes quiser.",
+        "Olhe as opções e toque naquela que corresponde à palavra que você ouviu, depois confirme.",
+        "Se confundiu? Tente de novo — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Reconhecer de imediato palavras de uso frequente.",
+        "Distinguir as palavras parecidas que mais confundem quem está começando a ler.",
+        "Construir a fluência que libera a atenção para entender o que se lê."
+      ]
+    },
+    "choice-board.beginning-sound.rf-k-3-a": {
+      "about": [
+        "Aparece uma única letra — como D, F ou M — e a criança toca na figura cujo nome começa com o som daquela letra, escolhendo entre grupos conhecidos, como animais, comidas e objetos do dia a dia (um dado, uma faca, uma maçã, um tigre). É uma atividade de fonética gratuita e interativa para a educação infantil, que roda direto no navegador, sem instalar nada e sem precisar de conta.",
+        "Cada rodada mostra uma figura certa e três que começam com outros sons, então a criança não pode adivinhar — precisa dizer o nome de cada figura e escutar bem o primeiro som. Ligar a letra D ao som /d/ no começo de 'dado' é o elo principal entre letra e som, e ouvi-lo ao lado de faca, rato e tigre faz esse som inicial se destacar com clareza.",
+        "A atividade está alinhada à BNCC, no campo da consciência fonológica, ao reconhecer o som que cada letra representa — o primeiro passo para a leitura. Sem cronômetro e sem pontuação — só uma prática carinhosa e tranquila."
+      ],
+      "practices": [
+        "Ligar uma letra ao som que ela faz.",
+        "Dizer o nome de uma figura e escutar o seu primeiro som.",
+        "Combinar o som inicial com a letra mostrada.",
+        "Distinguir o som inicial certo entre três outros começos."
+      ],
+      "howToPlay": [
+        "Olhe a letra que aparece em cima, como D, e diga o som dela.",
+        "Toque na figura cujo nome começa com aquele som, entre as quatro opções.",
+        "Errou? Pode tentar de novo quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Conhecer o som principal que cada letra faz.",
+        "Ouvir o primeiro som de uma palavra falada e combiná-lo com a sua letra.",
+        "Construir a base de letra e som de que a leitura das palavras depende."
+      ]
+    },
+    "fractions.make-and-count-squares.2-g-a-2": {
+      "about": [
+        "A criança toca nas linhas pontilhadas para dividir um retângulo em fileiras e colunas de quadradinhos do mesmo tamanho — 2 fileiras e 3 colunas, 3 fileiras e 4 colunas, até chegar a 4 fileiras e 5 colunas — e depois digita quantos quadradinhos há ao todo. É uma atividade de geometria gratuita e interativa para o 2º ano, que funciona no navegador em qualquer aparelho, sem instalar nada e sem precisar de conta.",
+        "A grande ideia é que um retângulo pode ser dividido em quadradinhos iguais, organizados em fileiras e colunas bem certinhas, e essa organização ajuda a contar. Como a própria criança monta a grade e depois conta, ela começa a sentir que 3 fileiras de 4 quadradinhos significam contar de grupo em grupo igual — o começo tranquilo das organizações retangulares e da multiplicação. Os quadradinhos têm todos o mesmo tamanho de propósito, então o 'quantos há' é um total verdadeiro de partes iguais.",
+        "A atividade está alinhada à BNCC, na unidade temática Geometria, ao dividir um retângulo em fileiras e colunas de quadradinhos do mesmo tamanho e contar para achar o total. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+      ],
+      "practices": [
+        "Dividir um retângulo em fileiras e colunas iguais de quadradinhos do mesmo tamanho.",
+        "Montar uma grade tocando nas linhas que dividem.",
+        "Contar os quadradinhos para achar o total no retângulo.",
+        "Perceber a organização em fileiras e colunas que leva às organizações retangulares."
+      ],
+      "howToPlay": [
+        "Toque nas linhas pontilhadas para formar fileiras e colunas de quadradinhos iguais.",
+        "Monte a grade que a rodada pede, como 3 fileiras e 4 colunas.",
+        "Digite quantos quadradinhos há ao todo — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Dividir um retângulo em quadradinhos do mesmo tamanho e contar o total.",
+        "Enxergar um retângulo como fileiras e colunas de partes iguais.",
+        "Construir a base das organizações retangulares que prepara para a multiplicação."
+      ]
+    },
+    "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
+      "about": [
+        "A criança lê uma comparação como 247 ___ 274 ou 583 ___ 419 e a combina com o símbolo que a deixa verdadeira — menor que (<) ou maior que (>) — tocando no cartão da comparação e depois no símbolo certo. É um jogo de combinar cartas de matemática, gratuito e interativo, para o 2º ano, que roda direto no navegador, sem instalar nada e sem precisar de conta.",
+        "A grande ideia é comparar pelo valor posicional, começando pelas centenas. Os pares são escolhidos para que a criança não decida no chute: números como 655 e 658 têm as mesmas centenas e dezenas, então o algarismo das unidades é que decide, enquanto 480 e 408 obrigam a olhar as dezenas. Trabalhar da esquerda para a direita — centenas, depois dezenas, depois unidades — é exatamente o raciocínio que a atividade faz praticar.",
+        "A atividade está alinhada à BNCC, no campo dos números, ao comparar dois números de três algarismos usando os símbolos >, = e < com base no valor das centenas, das dezenas e das unidades. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+      ],
+      "practices": [
+        "Comparar números de três algarismos olhando as centenas, depois as dezenas e por último as unidades.",
+        "Escolher o símbolo certo, < ou >, para deixar a comparação verdadeira.",
+        "Distinguir números próximos, como 655 e 658, pelo algarismo que decide.",
+        "Ler e raciocinar sobre o valor posicional em números até 1000."
+      ],
+      "howToPlay": [
+        "Leia um cartão de comparação, como 406 ___ 460, e decida qual número é maior.",
+        "Toque na comparação, depois toque no símbolo — < ou > — que a deixa verdadeira, e veja o par se ligar.",
+        "Combine as duas comparações da rodada — não há cronômetro nem pontuação, então pode ir com calma."
+      ],
+      "learningGoals": [
+        "Comparar dois números de três algarismos usando >, = e <.",
+        "Usar o valor posicional, começando pelas centenas, para decidir qual número é maior.",
+        "Construir um senso numérico seguro com números até 1000."
+      ]
+    },
+    "numberbond.make-ten.k-oa-a-4": {
+      "about": [
+        "O todo é 10 e uma das partes da ligação numérica já vem preenchida — digamos, 7 — e a criança toca na parte vazia para acrescentar fichas até que as duas partes juntas formem 10. É uma atividade de matemática gratuita e interativa para a educação infantil, que roda direto no navegador, sem cadastro e sem precisar de conta.",
+        "Cada número de 1 a 9 tem um amigo que completa o dez, e aqui a criança constrói esse amigo acrescentando fichas uma a uma e vendo as duas partes crescerem até 10 — e não lendo um resultado pronto numa folha. A própria ligação é a superfície da resposta; a criança para quando as duas partes formam exatamente dez, então uma parte pequena demais ou grande demais é fácil de sentir e de corrigir.",
+        "A atividade está alinhada à BNCC, no campo dos números, ao descobrir qual número, somado a um número dado, completa 10. Sem cronômetro e sem pontuação — só uma prática calma e divertida, no ritmo de cada criança."
+      ],
+      "practices": [
+        "Ver o todo 10 dividido em duas partes numa ligação numérica.",
+        "Acrescentar fichas à parte vazia, uma de cada vez.",
+        "Descobrir o amigo que completa o dez (7 e 3, 4 e 6).",
+        "Saber quando as duas partes juntas formam exatamente 10."
+      ],
+      "howToPlay": [
+        "Olhe a ligação numérica — o todo é 10 e uma parte já está preenchida.",
+        "Toque na parte vazia para acrescentar fichas até as duas partes formarem 10, depois toque em Verificar.",
+        "Fichas demais ou de menos? Acrescente ou tire e confira de novo — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Descobrir o número que completa 10 a partir de um número dado.",
+        "Construir os amigos do dez acrescentando fichas, e não decorando.",
+        "Preparar o terreno para a estratégia de somar completando o dez."
+      ]
+    },
+    "numberbond.story-problem.2-oa-a-1": {
+      "about": [
+        "A criança lê um probleminha em palavras — 20 tulipas vermelhas e 30 tulipas amarelas, uma prateleira com 45 livros, patinhos chegando a um laguinho — vê a situação montada como uma ligação numérica e digita o número que falta. É uma atividade de matemática gratuita e interativa para o 2º ano, que roda direto no navegador, sem precisar de conta.",
+        "A ligação numérica transforma toda história na mesma imagem: duas partes e um todo. Isso ajuda a criança a perceber se o que falta é o total, uma parte que sobrou ou uma quantidade inicial. Alguns problemas pedem para somar (quantos há ao todo) e outros, para subtrair (quantos sobraram, quantos chegaram), e a ligação deixa essa escolha clara, em vez de adivinhar por uma palavrinha solta.",
+        "A atividade está alinhada à BNCC, no campo dos números, ao resolver problemas de uma etapa de adição e de subtração com números até 100. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+      ],
+      "practices": [
+        "Ler um problema em palavras e achar os números que importam.",
+        "Representar a situação como uma ligação numérica de parte, parte e todo.",
+        "Decidir se é caso de somar ou de subtrair pelo lugar em que está o número que falta.",
+        "Resolver problemas de adição e de subtração com números até 100."
+      ],
+      "howToPlay": [
+        "Leia o problema em palavras que aparece acima da ligação numérica.",
+        "Descubra o número que falta — um total, uma parte ou uma quantidade inicial — digite no teclado e toque em Verificar.",
+        "Errou? Leia de novo e tente mais uma vez; não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Resolver problemas de uma etapa de adição e de subtração com números até 100.",
+        "Representar uma história como uma ligação numérica de parte, parte e todo.",
+        "Descobrir um total, uma parte ou uma quantidade inicial que falta."
+      ]
+    },
+    "sort-bins.defining-attributes.1-g-a-1": {
+      "about": [
+        "Continua sendo um triângulo se ele estiver vermelho, grande ou inclinado? A cada rodada uma figura é nomeada, e a criança arrasta cada forma para a caixa certa decidindo o que ela É, e não como ela parece — separando os triângulos de verdade dos quadriláteros, dos pentágonos e dos hexágonos. É uma atividade de geometria gratuita e interativa para o 1º ano, que funciona no navegador, sem instalar nada e sem precisar de conta.",
+        "A ideia central é a diferença entre uma característica que define a figura e uma que não define. Um triângulo é definido por ter três lados — ponto final — enquanto estar vermelho, grande ou inclinado é só o jeito que aquele triângulo em especial aparece. Ao separar exemplos de tentadores não exemplos, a criança aprende a ignorar a aparência e a julgar pela propriedade que realmente importa. Esse é o começo do raciocínio geométrico de verdade.",
+        "A atividade está alinhada à BNCC, na unidade temática Geometria, ao distinguir as características que definem uma figura daquelas que não definem. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+      ],
+      "practices": [
+        "Decidir se uma figura pertence a um grupo nomeado pelo seu número de lados.",
+        "Distinguir uma característica que define (número de lados) de uma que não define (cor, tamanho, direção).",
+        "Reconhecer triângulos e quadriláteros em muitas formas, não só no exemplo do livro.",
+        "Ignorar as figuras parecidas e julgar uma forma pelo que a faz ser aquela forma."
+      ],
+      "howToPlay": [
+        "Leia a figura nomeada — por exemplo, triângulo — no alto da rodada.",
+        "Arraste cada forma para a caixa certa decidindo se ela É aquela figura, não importa a cor, o tamanho ou a direção.",
+        "Errou? Pode tentar de novo quantas vezes quiser — não há cronômetro nem pontuação."
+      ],
+      "learningGoals": [
+        "Distinguir as características que definem uma figura daquelas que não definem.",
+        "Entender que um triângulo continua sendo um triângulo quando muda a cor, o tamanho ou a direção.",
+        "Construir o raciocínio por características de que classificar e nomear figuras depende."
       ]
     }
   }

@@ -57,7 +57,7 @@ const GRADE_KEY_MAP: Record<string, string> = {
 // anchor (targetName + the /standards/<code> URL). Operator decision 2026-05-31.
 const FRAMEWORK_BY_LOCALE: Record<string, string> = {
   en: 'Common Core State Standards', de: 'Lehrplan', fr: 'Programmes officiels',
-  es: 'Currículo LOMLOE', pt: 'BNCC', it: 'Indicazioni nazionali', nl: 'SLO-kerndoelen',
+  es: 'Planes y programas de estudio (SEP)', pt: 'BNCC', it: 'Indicazioni nazionali', nl: 'SLO-kerndoelen',
   sv: 'Lgr22', da: 'Fælles Mål', no: 'LK20', fi: 'OPS 2014',
 };
 

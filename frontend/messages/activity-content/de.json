@@ -9,53 +9,181 @@
   "templates": {
     "byStrand": {
       "Counting & Cardinality": {
-        "about": ["Dies ist eine kostenlose, interaktive Zähl-Aktivität für junge Lernende, die mit Zahlen bis {max} arbeitet. Sie läuft direkt im Browser auf Tablets, Smartphones und Klassenzimmer-Computern — es muss nichts installiert werden, kein Konto angelegt und keine Einrichtung durch die Lehrkraft vorgenommen werden.", "Die Aktivität ist an den Lehrplänen im Bereich Zählen und Anzahl ausgerichtet. Die Kinder erhalten unterwegs sanftes, sofortiges Feedback, sodass sie so lange ausprobieren können, bis sich die Antwort richtig anfühlt. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, anschauliches Üben."],
-        "practices": ["Eine Gruppe von Gegenständen Stück für Stück abzählen und sagen, wie viele es insgesamt sind", "Eine gesprochene oder geschriebene Zahl der passenden Menge zuordnen", "Kleine Mengen auf einen Blick erkennen, ohne jedes Mal alles einzeln zu zählen", "Sorgfältig und sicher mit Zahlen bis {max} arbeiten"],
-        "howToPlay": ["Die Kinder schauen sich die Bilder auf dem Bildschirm an und lesen oder hören die Aufgabe.", "Sie zählen die Gegenstände und tippen dann, um Zählsteine zu setzen oder die passende Zahl zu wählen.", "Eine freundliche Kontrolle zeigt an, wenn die Antwort richtig ist, und bietet eine einfache Möglichkeit, es noch einmal zu versuchen — Fehler gehören hier zum Lernen dazu und werden nie bestraft."],
-        "learningGoals": ["Eine Menge von Gegenständen genau abzählen und sagen, wie viele es sind.", "Verstehen, dass die zuletzt gezählte Zahl die Größe der gesamten Gruppe benennt — die Kernidee hinter den Lehrplänen.", "Das frühe Zahlenverständnis aufbauen, aus dem Addition, Subtraktion und Stellenwert alle hervorgehen."]
+        "about": [
+          "Dies ist eine kostenlose, interaktive Zähl-Aktivität für junge Lernende, die mit Zahlen bis {max} arbeitet. Sie läuft direkt im Browser auf Tablets, Smartphones und Klassenzimmer-Computern — es muss nichts installiert werden, kein Konto angelegt und keine Einrichtung durch die Lehrkraft vorgenommen werden.",
+          "Die Aktivität ist an den Lehrplänen im Bereich Zählen und Anzahl ausgerichtet. Die Kinder erhalten unterwegs sanftes, sofortiges Feedback, sodass sie so lange ausprobieren können, bis sich die Antwort richtig anfühlt. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, anschauliches Üben."
+        ],
+        "practices": [
+          "Eine Gruppe von Gegenständen Stück für Stück abzählen und sagen, wie viele es insgesamt sind",
+          "Eine gesprochene oder geschriebene Zahl der passenden Menge zuordnen",
+          "Kleine Mengen auf einen Blick erkennen, ohne jedes Mal alles einzeln zu zählen",
+          "Sorgfältig und sicher mit Zahlen bis {max} arbeiten"
+        ],
+        "howToPlay": [
+          "Die Kinder schauen sich die Bilder auf dem Bildschirm an und lesen oder hören die Aufgabe.",
+          "Sie zählen die Gegenstände und tippen dann, um Zählsteine zu setzen oder die passende Zahl zu wählen.",
+          "Eine freundliche Kontrolle zeigt an, wenn die Antwort richtig ist, und bietet eine einfache Möglichkeit, es noch einmal zu versuchen — Fehler gehören hier zum Lernen dazu und werden nie bestraft."
+        ],
+        "learningGoals": [
+          "Eine Menge von Gegenständen genau abzählen und sagen, wie viele es sind.",
+          "Verstehen, dass die zuletzt gezählte Zahl die Größe der gesamten Gruppe benennt — die Kernidee hinter den Lehrplänen.",
+          "Das frühe Zahlenverständnis aufbauen, aus dem Addition, Subtraktion und Stellenwert alle hervorgehen."
+        ]
       },
       "Number & Operations in Base Ten": {
-        "about": ["Diese kostenlose, interaktive Stellenwert-Aktivität hilft Kindern zu erkennen, wie unser Zahlensystem auf Zehnergruppen aufgebaut ist, und arbeitet mit Zahlen bis {max}. Sie läuft in jedem modernen Browser — auf einem Tablet, einem Smartphone oder dem Whiteboard im Klassenzimmer — ohne dass etwas heruntergeladen werden muss.", "Sie ist an den Lehrplänen im Bereich Zahlen und Rechnen im Zehnersystem ausgerichtet. Die Kinder arbeiten in ihrem eigenen Tempo mit herzlichem, sofortigem Feedback, und es gibt keinen Timer und keine Punktewertung, die sie hetzen."],
-        "practices": ["Eine zweistellige Zahl als eine Gruppe von Zehnern und einige zusätzliche Einer sehen", "Zahlen bis {max} aus Zehnern und Einern aufbauen", "Zahlen lesen und schreiben und sie mit einem Bild der Menge verbinden", "Die Muster bemerken, die größere Zahlen leichter verständlich machen"],
-        "howToPlay": ["Die Kinder lesen die Aufgabe und schauen sich die Zehnerfelder oder Blöcke auf dem Bildschirm an.", "Sie füllen, bauen oder wählen aus, um die gefragte Zahl darzustellen.", "Eine sanfte Kontrolle bestätigt eine richtige Antwort und lädt bei Bedarf zu einem weiteren Versuch ein — durchgehend ruhiges Üben ohne Druck."],
-        "learningGoals": ["Eine Zahl im Zehnerbereich oder eine zweistellige Zahl als einige Zehner und einige Einer verstehen.", "Zahlen bis {max} sicher zusammensetzen und lesen — der Kern von den Lehrplänen.", "Die Stellenwert-Grundlage legen, auf die mehrstellige Addition und Subtraktion angewiesen sind."]
+        "about": [
+          "Diese kostenlose, interaktive Stellenwert-Aktivität hilft Kindern zu erkennen, wie unser Zahlensystem auf Zehnergruppen aufgebaut ist, und arbeitet mit Zahlen bis {max}. Sie läuft in jedem modernen Browser — auf einem Tablet, einem Smartphone oder dem Whiteboard im Klassenzimmer — ohne dass etwas heruntergeladen werden muss.",
+          "Sie ist an den Lehrplänen im Bereich Zahlen und Rechnen im Zehnersystem ausgerichtet. Die Kinder arbeiten in ihrem eigenen Tempo mit herzlichem, sofortigem Feedback, und es gibt keinen Timer und keine Punktewertung, die sie hetzen."
+        ],
+        "practices": [
+          "Eine zweistellige Zahl als eine Gruppe von Zehnern und einige zusätzliche Einer sehen",
+          "Zahlen bis {max} aus Zehnern und Einern aufbauen",
+          "Zahlen lesen und schreiben und sie mit einem Bild der Menge verbinden",
+          "Die Muster bemerken, die größere Zahlen leichter verständlich machen"
+        ],
+        "howToPlay": [
+          "Die Kinder lesen die Aufgabe und schauen sich die Zehnerfelder oder Blöcke auf dem Bildschirm an.",
+          "Sie füllen, bauen oder wählen aus, um die gefragte Zahl darzustellen.",
+          "Eine sanfte Kontrolle bestätigt eine richtige Antwort und lädt bei Bedarf zu einem weiteren Versuch ein — durchgehend ruhiges Üben ohne Druck."
+        ],
+        "learningGoals": [
+          "Eine Zahl im Zehnerbereich oder eine zweistellige Zahl als einige Zehner und einige Einer verstehen.",
+          "Zahlen bis {max} sicher zusammensetzen und lesen — der Kern von den Lehrplänen.",
+          "Die Stellenwert-Grundlage legen, auf die mehrstellige Addition und Subtraktion angewiesen sind."
+        ]
       },
       "Operations & Algebraic Thinking": {
-        "about": ["Diese kostenlose, interaktive Aktivität bietet Kindern anschauliches Üben mit ersten Ideen zu Addition und Subtraktion und arbeitet mit Mengen bis {max}. Sie läuft direkt im Browser auf jedem Gerät, ohne Installation und ohne Anmeldung.", "Sie ist an den Lehrplänen im Bereich Rechnen und algebraisches Denken ausgerichtet. Das Feedback ist sofort und ermutigend, und es gibt keinen Timer und keine Punktewertung — die Kinder können alles in ihrem eigenen Tempo durchdenken."],
-        "practices": ["Gruppen zusammenfügen und auseinandernehmen, um herauszufinden, wie viele es sind", "Verschiedene Wege erkennen, dieselbe Zahl zu bilden", "Einfache Sachaufgaben mit Bildern und Zählsteinen lösen", "Über Mengen bis {max} nachdenken"],
-        "howToPlay": ["Die Kinder lesen die Aufgabe und schauen sich die Gruppen von Gegenständen auf dem Bildschirm an.", "Sie fügen zusammen, trennen auf oder wählen aus, um die Frage zu beantworten.", "Eine freundliche Kontrolle zeigt an, wenn sie richtig liegen, mit einer entspannten Gelegenheit, es noch einmal zu versuchen."],
-        "learningGoals": ["Im kleinen Zahlenraum mit Gegenständen und Bildern addieren und subtrahieren.", "Addition als Zusammenfügen und Subtraktion als Auseinandernehmen verstehen — die Idee hinter den Lehrplänen.", "Das flexible Zahlenverständnis entwickeln, auf dem sicheres Kopfrechnen aufbaut."]
+        "about": [
+          "Diese kostenlose, interaktive Aktivität bietet Kindern anschauliches Üben mit ersten Ideen zu Addition und Subtraktion und arbeitet mit Mengen bis {max}. Sie läuft direkt im Browser auf jedem Gerät, ohne Installation und ohne Anmeldung.",
+          "Sie ist an den Lehrplänen im Bereich Rechnen und algebraisches Denken ausgerichtet. Das Feedback ist sofort und ermutigend, und es gibt keinen Timer und keine Punktewertung — die Kinder können alles in ihrem eigenen Tempo durchdenken."
+        ],
+        "practices": [
+          "Gruppen zusammenfügen und auseinandernehmen, um herauszufinden, wie viele es sind",
+          "Verschiedene Wege erkennen, dieselbe Zahl zu bilden",
+          "Einfache Sachaufgaben mit Bildern und Zählsteinen lösen",
+          "Über Mengen bis {max} nachdenken"
+        ],
+        "howToPlay": [
+          "Die Kinder lesen die Aufgabe und schauen sich die Gruppen von Gegenständen auf dem Bildschirm an.",
+          "Sie fügen zusammen, trennen auf oder wählen aus, um die Frage zu beantworten.",
+          "Eine freundliche Kontrolle zeigt an, wenn sie richtig liegen, mit einer entspannten Gelegenheit, es noch einmal zu versuchen."
+        ],
+        "learningGoals": [
+          "Im kleinen Zahlenraum mit Gegenständen und Bildern addieren und subtrahieren.",
+          "Addition als Zusammenfügen und Subtraktion als Auseinandernehmen verstehen — die Idee hinter den Lehrplänen.",
+          "Das flexible Zahlenverständnis entwickeln, auf dem sicheres Kopfrechnen aufbaut."
+        ]
       },
       "Geometry": {
-        "about": ["Diese kostenlose, interaktive Formen-Aktivität hilft jungen Kindern, die Formen um sie herum wahrzunehmen, zu benennen und zu vergleichen. Sie läuft direkt im Browser auf Tablets, Smartphones und Klassenzimmer-Computern, ohne Installation und ohne Konto.", "Sie ist an den Lehrplänen im Bereich Geometrie ausgerichtet. Die Kinder erkunden in ihrem eigenen Tempo mit sanftem, sofortigem Feedback — kein Timer, keine Punktewertung, nur spielerisches Üben."],
-        "practices": ["Alltägliche zwei- und dreidimensionale Formen erkennen und benennen", "Bemerken, wie viele Seiten und Ecken eine Form hat", "Flache Formen von festen Körpern unterscheiden", "Formen mit eigenen Worten beschreiben und vergleichen"],
-        "howToPlay": ["Die Kinder schauen sich die Formen auf dem Bildschirm an und lesen oder hören die Aufgabe.", "Sie tippen auf die passende Form oder sortieren Formen in die richtige Gruppe.", "Eine herzliche Kontrolle bestätigt eine richtige Wahl und bietet bei Bedarf einen einfachen erneuten Versuch."],
-        "learningGoals": ["Gängige Formen mit wachsender Sicherheit benennen und beschreiben.", "Zweidimensionale (flache) Formen von dreidimensionalen (festen) Körpern unterscheiden — der Schwerpunkt von den Lehrplänen.", "Den räumlichen Wortschatz aufbauen, auf den spätere Arbeit in Geometrie und beim Messen angewiesen ist."]
+        "about": [
+          "Diese kostenlose, interaktive Formen-Aktivität hilft jungen Kindern, die Formen um sie herum wahrzunehmen, zu benennen und zu vergleichen. Sie läuft direkt im Browser auf Tablets, Smartphones und Klassenzimmer-Computern, ohne Installation und ohne Konto.",
+          "Sie ist an den Lehrplänen im Bereich Geometrie ausgerichtet. Die Kinder erkunden in ihrem eigenen Tempo mit sanftem, sofortigem Feedback — kein Timer, keine Punktewertung, nur spielerisches Üben."
+        ],
+        "practices": [
+          "Alltägliche zwei- und dreidimensionale Formen erkennen und benennen",
+          "Bemerken, wie viele Seiten und Ecken eine Form hat",
+          "Flache Formen von festen Körpern unterscheiden",
+          "Formen mit eigenen Worten beschreiben und vergleichen"
+        ],
+        "howToPlay": [
+          "Die Kinder schauen sich die Formen auf dem Bildschirm an und lesen oder hören die Aufgabe.",
+          "Sie tippen auf die passende Form oder sortieren Formen in die richtige Gruppe.",
+          "Eine herzliche Kontrolle bestätigt eine richtige Wahl und bietet bei Bedarf einen einfachen erneuten Versuch."
+        ],
+        "learningGoals": [
+          "Gängige Formen mit wachsender Sicherheit benennen und beschreiben.",
+          "Zweidimensionale (flache) Formen von dreidimensionalen (festen) Körpern unterscheiden — der Schwerpunkt von den Lehrplänen.",
+          "Den räumlichen Wortschatz aufbauen, auf den spätere Arbeit in Geometrie und beim Messen angewiesen ist."
+        ]
       },
       "Measurement & Data": {
-        "about": ["Diese kostenlose, interaktive Größen-Aktivität hilft kleinen Kindern, Gegenstände nach ihrer Größe zu vergleichen — höher, kürzer und länger — ganz ohne Zählen. Sie läuft direkt im Browser auf Tablets, Handys und Klassenzimmer-Computern, ohne Installation und ohne Konto.", "Sie ist auf den Lehrplan im Bereich {strand} abgestimmt. Die Kinder vergleichen in ihrem eigenen Tempo mit sanfter, sofortiger Rückmeldung — kein Timer, keine Punkte, nur spielerisches Üben und genaues Hinschauen, wie sich Dinge in der Größe unterscheiden."],
-        "practices": ["Zwei Gegenstände direkt nach einem messbaren Merkmal wie Länge oder Höhe vergleichen", "Entscheiden, welcher Gegenstand höher, kürzer oder länger ist", "Den Unterschied zwischen zwei Größen mit eigenen Worten beschreiben", "Genau hinschauen und über Größe nachdenken, statt zu zählen"],
-        "howToPlay": ["Die Kinder sehen zwei Bilder desselben Gegenstands in unterschiedlicher Größe und lesen oder hören die Aufgabe.", "Sie tippen auf das Bild, das höher, kürzer oder länger ist — je nachdem, wonach die Aufgabe fragt.", "Eine freundliche Bestätigung lobt die richtige Wahl und bietet bei Bedarf einen einfachen neuen Versuch an."],
-        "learningGoals": ["Zwei Gegenstände direkt nach einem messbaren Merkmal vergleichen — der Schwerpunkt des Lehrplans.", "Die Wörter höher, kürzer und länger nutzen, um Größen zu beschreiben und zu vergleichen.", "Den frühen Größen-Wortschatz aufbauen, auf dem späteres Arbeiten mit Länge, Gewicht und Daten aufbaut."]
+        "about": [
+          "Diese kostenlose, interaktive Größen-Aktivität hilft kleinen Kindern, Gegenstände nach ihrer Größe zu vergleichen — höher, kürzer und länger — ganz ohne Zählen. Sie läuft direkt im Browser auf Tablets, Handys und Klassenzimmer-Computern, ohne Installation und ohne Konto.",
+          "Sie ist auf den Lehrplan im Bereich {strand} abgestimmt. Die Kinder vergleichen in ihrem eigenen Tempo mit sanfter, sofortiger Rückmeldung — kein Timer, keine Punkte, nur spielerisches Üben und genaues Hinschauen, wie sich Dinge in der Größe unterscheiden."
+        ],
+        "practices": [
+          "Zwei Gegenstände direkt nach einem messbaren Merkmal wie Länge oder Höhe vergleichen",
+          "Entscheiden, welcher Gegenstand höher, kürzer oder länger ist",
+          "Den Unterschied zwischen zwei Größen mit eigenen Worten beschreiben",
+          "Genau hinschauen und über Größe nachdenken, statt zu zählen"
+        ],
+        "howToPlay": [
+          "Die Kinder sehen zwei Bilder desselben Gegenstands in unterschiedlicher Größe und lesen oder hören die Aufgabe.",
+          "Sie tippen auf das Bild, das höher, kürzer oder länger ist — je nachdem, wonach die Aufgabe fragt.",
+          "Eine freundliche Bestätigung lobt die richtige Wahl und bietet bei Bedarf einen einfachen neuen Versuch an."
+        ],
+        "learningGoals": [
+          "Zwei Gegenstände direkt nach einem messbaren Merkmal vergleichen — der Schwerpunkt des Lehrplans.",
+          "Die Wörter höher, kürzer und länger nutzen, um Größen zu beschreiben und zu vergleichen.",
+          "Den frühen Größen-Wortschatz aufbauen, auf dem späteres Arbeiten mit Länge, Gewicht und Daten aufbaut."
+        ]
       },
       "Reading: Foundational Skills": {
-        "about": ["Diese kostenlose, interaktive Lese-Aktivität bietet Kindern anschauliches Üben beim Lautieren und Aufbauen von Wörtern. Sie läuft direkt im Browser auf Tablets, Smartphones und Klassenzimmer-Computern, ohne Installation und ohne einzurichtendes Konto.", "Sie ist an den Lehrplänen im Bereich Lesen: Grundfertigkeiten ausgerichtet. Jedes Wort wird auf eine korrekte, kindgerechte Trennung geprüft, und das Feedback ist sanft und sofort — es gibt keinen Timer und keine Punktewertung."],
-        "practices": ["Wörter in Laute oder Silben zerlegen und wieder zusammenfügen", "Buchstaben und Buchstabengruppen den Lauten zuordnen, die sie bilden", "Kurze, lesbare Wörter Schritt für Schritt aufbauen", "Jeden Teil eines Wortes der Reihe nach hören und sprechen"],
-        "howToPlay": ["Die Kinder schauen sich das Bild an oder hören das Wort und lesen dann die Aufgabe.", "Sie tippen die Laute oder Silben der Reihe nach an, um das Wort aufzubauen.", "Eine freundliche Kontrolle liest das fertige Wort vor und lädt bei Bedarf zu einem weiteren Versuch ein."],
-        "learningGoals": ["Laute und Silben verschmelzen, um einfache Wörter zu lesen und aufzubauen.", "Gesprochene Laute mit geschriebenen Buchstaben verbinden — der Kern von den Lehrplänen.", "Die Lesefertigkeiten ausbauen, auf denen sicheres, selbstständiges Lesen aufbaut."]
+        "about": [
+          "Diese kostenlose, interaktive Lese-Aktivität bietet Kindern anschauliches Üben beim Lautieren und Aufbauen von Wörtern. Sie läuft direkt im Browser auf Tablets, Smartphones und Klassenzimmer-Computern, ohne Installation und ohne einzurichtendes Konto.",
+          "Sie ist an den Lehrplänen im Bereich Lesen: Grundfertigkeiten ausgerichtet. Jedes Wort wird auf eine korrekte, kindgerechte Trennung geprüft, und das Feedback ist sanft und sofort — es gibt keinen Timer und keine Punktewertung."
+        ],
+        "practices": [
+          "Wörter in Laute oder Silben zerlegen und wieder zusammenfügen",
+          "Buchstaben und Buchstabengruppen den Lauten zuordnen, die sie bilden",
+          "Kurze, lesbare Wörter Schritt für Schritt aufbauen",
+          "Jeden Teil eines Wortes der Reihe nach hören und sprechen"
+        ],
+        "howToPlay": [
+          "Die Kinder schauen sich das Bild an oder hören das Wort und lesen dann die Aufgabe.",
+          "Sie tippen die Laute oder Silben der Reihe nach an, um das Wort aufzubauen.",
+          "Eine freundliche Kontrolle liest das fertige Wort vor und lädt bei Bedarf zu einem weiteren Versuch ein."
+        ],
+        "learningGoals": [
+          "Laute und Silben verschmelzen, um einfache Wörter zu lesen und aufzubauen.",
+          "Gesprochene Laute mit geschriebenen Buchstaben verbinden — der Kern von den Lehrplänen.",
+          "Die Lesefertigkeiten ausbauen, auf denen sicheres, selbstständiges Lesen aufbaut."
+        ]
       },
       "Phonological Awareness": {
-        "about": ["Diese kostenlose, interaktive Hör-Aktivität hilft Kindern, die Laute in gesprochenen Wörtern zu hören und mit ihnen zu spielen. Sie läuft direkt im Browser auf jedem Gerät, ohne Installation und ohne erforderliche Anmeldung.", "Sie ist an den Lehrplänen im Bereich phonologische Bewusstheit ausgerichtet. Das Feedback ist herzlich und sofort, und es gibt keinen Timer und keine Punktewertung, die ein junges Kind hetzen."],
-        "practices": ["Die einzelnen Laute und Silben in gesprochenen Wörtern heraushören", "Laute zu einem Wort zusammenfügen", "Ein Wort in seine Laute zerlegen", "Auf Reime und Anfangslaute achten"],
-        "howToPlay": ["Die Kinder hören das Wort oder schauen es sich an und lesen dann die Aufgabe.", "Sie tippen, um die gefragten Laute zu wählen, zusammenzufügen oder zu zerlegen.", "Eine sanfte Kontrolle bestätigt eine richtige Antwort mit einer einfachen Gelegenheit, es noch einmal zu versuchen."],
-        "learningGoals": ["Die Laute in gesprochenen Wörtern hören, zusammenfügen und trennen.", "Die Hörfertigkeiten entwickeln, die in den Lehrplänen beschrieben sind.", "Das Lautbewusstsein aufbauen, auf das erfolgreiches Lesen und Schreiben angewiesen ist."]
+        "about": [
+          "Diese kostenlose, interaktive Hör-Aktivität hilft Kindern, die Laute in gesprochenen Wörtern zu hören und mit ihnen zu spielen. Sie läuft direkt im Browser auf jedem Gerät, ohne Installation und ohne erforderliche Anmeldung.",
+          "Sie ist an den Lehrplänen im Bereich phonologische Bewusstheit ausgerichtet. Das Feedback ist herzlich und sofort, und es gibt keinen Timer und keine Punktewertung, die ein junges Kind hetzen."
+        ],
+        "practices": [
+          "Die einzelnen Laute und Silben in gesprochenen Wörtern heraushören",
+          "Laute zu einem Wort zusammenfügen",
+          "Ein Wort in seine Laute zerlegen",
+          "Auf Reime und Anfangslaute achten"
+        ],
+        "howToPlay": [
+          "Die Kinder hören das Wort oder schauen es sich an und lesen dann die Aufgabe.",
+          "Sie tippen, um die gefragten Laute zu wählen, zusammenzufügen oder zu zerlegen.",
+          "Eine sanfte Kontrolle bestätigt eine richtige Antwort mit einer einfachen Gelegenheit, es noch einmal zu versuchen."
+        ],
+        "learningGoals": [
+          "Die Laute in gesprochenen Wörtern hören, zusammenfügen und trennen.",
+          "Die Hörfertigkeiten entwickeln, die in den Lehrplänen beschrieben sind.",
+          "Das Lautbewusstsein aufbauen, auf das erfolgreiches Lesen und Schreiben angewiesen ist."
+        ]
       }
     },
     "generic": {
-      "about": ["Dies ist eine kostenlose, interaktive Lern-Aktivität für junge Kinder, die direkt im Browser auf Tablets, Smartphones und Klassenzimmer-Computern läuft. Es muss nichts installiert werden, kein Konto angelegt und keine Einrichtung durch die Lehrkraft vorgenommen werden.", "Sie ist an den Lehrplänen im Bereich {strand} ausgerichtet. Die Kinder arbeiten in ihrem eigenen Tempo mit sanftem, sofortigem Feedback, und es gibt keinen Timer und keine Punktewertung — nur ruhiges, anschauliches Üben."],
-      "practices": ["An der {strand}-Fertigkeit arbeiten, die im Mittelpunkt dieser Aktivität steht", "Bilder, Zahlen oder Wörter mit der geübten Idee verbinden", "Ausprobieren, prüfen und ohne jeden Druck erneut versuchen", "Schritt für Schritt Selbstvertrauen aufbauen"],
-      "howToPlay": ["Die Kinder lesen oder hören die Aufgabe und schauen sich an, was auf dem Bildschirm gezeigt wird.", "Sie tippen, um zu antworten oder ihre Lösung aufzubauen.", "Eine freundliche Kontrolle zeigt an, wenn sie richtig liegen, mit einer einfachen Möglichkeit, es noch einmal zu versuchen."],
-      "learningGoals": ["Die {strand}-Fertigkeit hinter den Lehrplänen üben und festigen.", "Sich wohl dabei fühlen, die Idee auf spielerische, druckfreie Weise anzuwenden.", "Eine Grundlage schaffen, aus der späteres Lernen wachsen kann."]
+      "about": [
+        "Dies ist eine kostenlose, interaktive Lern-Aktivität für junge Kinder, die direkt im Browser auf Tablets, Smartphones und Klassenzimmer-Computern läuft. Es muss nichts installiert werden, kein Konto angelegt und keine Einrichtung durch die Lehrkraft vorgenommen werden.",
+        "Sie ist an den Lehrplänen im Bereich {strand} ausgerichtet. Die Kinder arbeiten in ihrem eigenen Tempo mit sanftem, sofortigem Feedback, und es gibt keinen Timer und keine Punktewertung — nur ruhiges, anschauliches Üben."
+      ],
+      "practices": [
+        "An der {strand}-Fertigkeit arbeiten, die im Mittelpunkt dieser Aktivität steht",
+        "Bilder, Zahlen oder Wörter mit der geübten Idee verbinden",
+        "Ausprobieren, prüfen und ohne jeden Druck erneut versuchen",
+        "Schritt für Schritt Selbstvertrauen aufbauen"
+      ],
+      "howToPlay": [
+        "Die Kinder lesen oder hören die Aufgabe und schauen sich an, was auf dem Bildschirm gezeigt wird.",
+        "Sie tippen, um zu antworten oder ihre Lösung aufzubauen.",
+        "Eine freundliche Kontrolle zeigt an, wenn sie richtig liegen, mit einer einfachen Möglichkeit, es noch einmal zu versuchen."
+      ],
+      "learningGoals": [
+        "Die {strand}-Fertigkeit hinter den Lehrplänen üben und festigen.",
+        "Sich wohl dabei fühlen, die Idee auf spielerische, druckfreie Weise anzuwenden.",
+        "Eine Grundlage schaffen, aus der späteres Lernen wachsen kann."
+      ]
     },
     "whatsInsideRange": "Zahlen von {min} bis {max}",
     "whatsInsideTheme": "{theme}-Bildchips, die Kinder wiedererkennen können",
@@ -66,7 +194,7 @@
   "prose": {
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
-        "In dieser Aktivität sieht ein Kind zuerst eine Form, die in gleiche Teile geteilt ist, und sucht dann eine zweite Form, die in genauso viele gleiche Teile geteilt ist. Sie läuft direkt im Browser — ohne Installation, ohne Konto, ohne Anmeldung.",
+        "Zuerst erscheint eine Form, die in gleiche Teile geteilt ist, und das Kind sucht dann eine zweite Form, die in genauso viele gleiche Teile geteilt ist — auch wenn die Teile ganz anders geformt sind. Diese kostenlose, interaktive Geometrie-Übung für die 2. Klasse läuft direkt im Browser, ohne Installation und ohne Anmeldung.",
         "Die neue Idee in dieser Aktivität: Gleiche Teile müssen nicht gleich aussehen. Ein Quadrat, das in der Mitte geteilt ist, und ein Quadrat, das von Ecke zu Ecke geteilt ist, zeigen beide zwei gleiche Hälften — auch wenn die Teile unterschiedlich geformt sind. Das Kind teilt die Form nicht selbst, sondern erkennt, dass gleiche Teile unterschiedlich aussehen können. Die falschen Antworten zeigen ungleiche Teile, die falsche Anzahl von Teilen oder eine Form, die gar nicht geteilt ist.",
         "Die Aktivität ist an den Lehrplänen im Bereich Geometrie ausgerichtet — gleiche Teile erkennen und zwei gleiche Teile als Hälften, drei gleiche Teile als Drittel und vier gleiche Teile als Viertel benennen. Es gibt keinen Timer, keine Punktewertung — nur ruhiges, geduldiges Ausprobieren."
       ],
@@ -91,13 +219,13 @@
       "about": [
         "Diese kostenlose, interaktive Aktivität hilft jungen Kindern zu erkennen, wann eine Form in gleiche Teile geteilt ist. Das Kind sieht vier Formen — Kreise, Quadrate oder Rechtecke — und tippt diejenige an, die in zwei oder vier gleich große Teile geteilt ist. Es läuft direkt im Browser, ganz ohne Installation und ohne Konto.",
         "Der wichtigste Gedanke ist, dass die Teile fair sein müssen — also gleich groß. Bei den anderen Formen sind die Teile unterschiedlich groß, es ist die falsche Anzahl an Teilen, oder die Form ist gar nicht geteilt. Das Kind teilt die Form nicht selbst, sondern erkennt, welche Form bereits in gleiche Teile aufgeteilt ist.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie ausgerichtet — gleiche Teile erkennen und zwei gleiche Teile als Hälften, vier gleiche Teile als Viertel benennen. Die Kinder arbeiten in ihrem eigenen Tempo mit sanftem, sofortigem Feedback — kein Timer, keine Punktewertung."
+        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie ausgerichtet — gleiche Teile erkennen und zwei gleiche Teile als Hälften, vier gleiche Teile als Viertel benennen. Die Kinder arbeiten in ihrem eigenen Tempo mit sanfter, sofortiger Rückmeldung — kein Timer, keine Punktewertung."
       ],
       "practices": [
-        "Erkennen, wann ein Kreis, ein Quadrat oder ein Rechteck in gleiche Teile geteilt ist",
-        "Gleich große Teile von unterschiedlich großen Teilen unterscheiden",
-        "Sehen, in wie viele gleiche Teile eine Form geteilt ist — in zwei oder in vier",
-        "Die Wörter Hälften und Viertel mit gleichen Teilen verbinden"
+        "Erkennen, wann ein Kreis, ein Quadrat oder ein Rechteck in gleiche Teile geteilt ist.",
+        "Gleich große Teile von unterschiedlich großen Teilen unterscheiden.",
+        "Sehen, in wie viele gleiche Teile eine Form geteilt ist — in zwei oder in vier.",
+        "Die Wörter Hälften und Viertel mit gleichen Teilen verbinden."
       ],
       "howToPlay": [
         "Schau dir die vier Formen an und überlege, welche in gleich große Teile geteilt ist.",
@@ -105,21 +233,132 @@
         "Du bekommst sofort eine sanfte Rückmeldung und kannst in deinem eigenen Tempo weitermachen."
       ],
       "learningGoals": [
-        "Kreise, Quadrate und Rechtecke erkennen, die in zwei oder vier gleiche Teile geteilt sind",
-        "Verstehen, dass die Teile gleich groß sein müssen, damit sie fair sind",
-        "Die Grundlage des gerechten Teilens für das spätere Rechnen mit Brüchen aufbauen"
+        "Kreise, Quadrate und Rechtecke erkennen, die in zwei oder vier gleiche Teile geteilt sind.",
+        "Verstehen, dass die Teile gleich groß sein müssen, damit sie fair sind.",
+        "Die Grundlage des gerechten Teilens für das spätere Rechnen mit Brüchen aufbauen."
       ]
     },
-    "ten-frame.count-to-10.make-n.animals": ["In dieser ruhigen Übung baut Ihr Kind die Zahlen von 0 bis 10 auf einem einzigen Zehnerfeld auf und legt dabei Tier-Plättchen Feld für Feld an seinen Platz. So wird jede Menge sichtbar und begreifbar, ganz im eigenen Tempo.", "Das Zehnerfeld zeigt auf einen Blick, wie weit eine Zahl noch von der Zehn entfernt ist. Wenn die Kinder ein leeres Kästchen sehen, verstehen sie nach und nach, dass zum Beispiel die 7 nur drei Plätze von der vollen Zehn entfernt liegt.", "Es gibt keinen Zeitdruck und keine Punkte, denn ruhiges Zählen festigt das Verständnis am besten. Diese Tätigkeit folgt dem Bildungsstandard K.CC.B.4 und verbindet das Zählen mit der Anzahl, also der Frage, wie viele Dinge wirklich vorhanden sind."],
-    "ten-frame.count-to-20.make-n.fruits": ["Hier zählt Ihr Kind die Zahlen von 0 bis 20 auf einem doppelten Zehnerfeld und legt dabei Obst-Plättchen an. Jede Zahl entsteht in Ruhe, ein Plättchen nach dem anderen.", "Das doppelte Zehnerfeld macht deutlich, dass die Zwanzig eigentlich eine volle Zehn und noch ein paar mehr ist. Diese Sichtweise legt schon früh den Grundstein für das spätere Stellenwertverständnis.", "Ohne Uhr und ohne Wertung können die Kinder gelassen üben und die Zahlen mit allen Sinnen erfassen. Die Übung entspricht dem Bildungsstandard K.CC.B.4 und erweitert das Mengenverständnis über die Zehn hinaus."],
-    "ten-frame.how-many.0-10.animals": ["Bei dieser Aufgabe betrachtet Ihr Kind Tier-Plättchen auf einem Zehnerfeld und beantwortet die Frage, wie viele es sind, im Bereich von 0 bis 10. Das Zehnerfeld gibt der Menge eine klare, vertraute Form.", "Durch die feste Anordnung im Zehnerfeld lernen die Kinder, Mengen auf einen Blick zu erkennen, ohne jedes Einzelne abzählen zu müssen. Dieses sogenannte Simultanerfassen ist eine wichtige Grundlage für sicheres Rechnen.", "Es läuft keine Zeit ab und es werden keine Punkte vergeben, sodass Ihr Kind in aller Ruhe schauen und überlegen kann. Die Übung folgt dem Bildungsstandard K.CC.B.5 und beantwortet die Frage nach der Anzahl."],
-    "ten-frame.write-numeral.0-20.fruits": ["In dieser Übung zählt Ihr Kind das Obst auf einem doppelten Zehnerfeld und schreibt anschließend die passende Zahl im Bereich von 0 bis 20 auf. So wird aus einer gesehenen Menge ein geschriebenes Zeichen.", "Das Zehnerfeld hilft dabei, die Menge übersichtlich zu erfassen, und verbindet sie dann mit ihrem Zahlzeichen. Auf diese Weise erkennen die Kinder, dass die Ziffer wirklich für eine bestimmte Anzahl steht.", "Da es weder einen Zeitnehmer noch eine Punktzahl gibt, kann Ihr Kind sorgfältig zählen und schreiben. Die Aufgabe entspricht dem Bildungsstandard K.CC.A.3, bei dem eine Anzahl von Gegenständen durch ein geschriebenes Zahlzeichen dargestellt wird."],
-    "ten-frame.teen-numbers.make-n": ["Hier baut Ihr Kind die Zahlen von 11 bis 19 auf einem doppelten Zehnerfeld auf und erlebt sie als eine volle Zehn und einige zusätzliche Einer. Schritt für Schritt entsteht so ein anschauliches Bild dieser Zahlen.", "Das Zehnerfeld macht den Aufbau der Zahlen im zweiten Zehner sofort sichtbar und zeigt, dass zum Beispiel die 14 aus zehn und vier besteht. Genau dieses Verständnis bildet die Grundlage für das spätere Rechnen mit dem Stellenwert.", "Ohne Zeitdruck und ohne Punkte können die Kinder gelassen ausprobieren und beobachten. Die Übung folgt dem Bildungsstandard K.NBT.A.1 und macht die Struktur der Zahlen von 11 bis 19 verständlich."],
+    "ten-frame.count-to-10.make-n.animals": {
+      "about": [
+        "„Lege 3\", „Lege 7\", „Lege 10\" — das Kind baut die Zahl, indem es auf die Felder eines Zehnerfeldes tippt und genau so viele Tierplättchen hineinlegt, und drückt dann auf Prüfen. Diese kostenlose, interaktive Zähl-Übung für den Kindergarten umfasst die Zahlen von 0 bis 10 und läuft ohne Installation und ohne Anmeldung im Browser.",
+        "Das Zehnerfeld macht aus dem Ganzen mehr als nur stures Zählen. Seine zwei Fünferreihen geben jeder Zahl eine Gestalt, die ein Kind wiedererkennt — vier füllt fast die obere Reihe, zehn füllt das ganze Feld — sodass sich das Zählen mit der Vorstellung verbindet, wie viel eine Zahl wirklich ist. Das Kind entscheidet selbst, wie viele Tiere es legt, und kann vor dem Prüfen welche dazulegen oder wegnehmen. So bleibt der Blick auf dem genauen Eins-zu-eins-Zählen statt auf dem Raten.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zählen und Anzahlen ausgerichtet — den Zusammenhang zwischen Zahlen und Mengen verstehen und das Zählen mit der Anzahl verknüpfen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Genau so viele Tiere abzählen, wie die Aufgabe nennt.",
+        "Ein Plättchen pro Feld legen und dabei sorgfältig eins zu eins zählen.",
+        "Jede Zahl von 0 bis 10 auf dem zweireihigen Zehnerfeld Gestalt annehmen sehen.",
+        "Die gesprochene oder geschriebene Zahl mit einer echten Menge verbinden."
+      ],
+      "howToPlay": [
+        "Lies die Aufgabe, um zu sehen, welche Zahl du legen sollst, etwa „Lege 7\".",
+        "Tippe auf die Felder des Zehnerfeldes, um genau so viele Tierplättchen zu legen, und drücke dann auf Prüfen.",
+        "Noch nicht ganz richtig? Lege Plättchen dazu oder nimm welche weg und probiere es erneut — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Jede Zahl von 0 bis 10 mit Plättchen auf einem Zehnerfeld legen.",
+        "Das Zählen mit der Anzahl verbinden, sodass die zuletzt gezählte Zahl die Menge angibt.",
+        "Das Zehnerfeld-Verständnis aufbauen, auf das frühes Addieren und der Stellenwert angewiesen sind."
+      ]
+    },
+    "ten-frame.count-to-20.make-n.fruits": {
+      "about": [
+        "Die Aufforderung nennt eine Zahl, die gelegt werden soll, und das Kind tippt die Felder eines doppelten Zehnerfelds an, um genau so viele Fruchtplättchen über die beiden Felder zu verteilen, und tippt dann auf Prüfen. Bis 20 zu arbeiten bedeutet einen vollen Zehner und noch etwas mehr. Die kostenlose, interaktive Zähl-Übung für den Kindergarten läuft im Browser, ohne Anmeldung.",
+        "Das doppelte Zehnerfeld vermittelt die wichtigste Idee der Zahlen zwischen 10 und 20: ein voller Zehner und noch etwas mehr. Um 14 zu legen, füllt das Kind das erste Feld bis zehn und legt dann vier in das zweite — so ist der Aufbau der Zahl, zehn und vier, direkt sichtbar. Über zehn hinaus zu arbeiten ist ein echter Schritt über das Zählen bis zehn hinaus, und die beiden Felder helfen dem Kind, den Überblick zu behalten, statt sich zu verzählen.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zählen für den Kindergarten ausgerichtet — Anzahlen über zehn hinaus erfassen und das Zahlenverständnis erweitern. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Genau so viele Fruchtplättchen legen, wie die Aufforderung nennt, bis 20.",
+        "Ein volles Zehnerfeld füllen und dann im zweiten Feld weiterzählen.",
+        "Zahlen zwischen 10 und 20 als einen Zehner und noch etwas mehr sehen.",
+        "Über zehn hinaus sorgfältig eins zu eins zählen."
+      ],
+      "howToPlay": [
+        "Lies die Aufforderung, um zu sehen, welche Zahl du legen sollst, bis 20.",
+        "Tippe die Felder des doppelten Zehnerfelds an, um genau so viele Fruchtplättchen zu legen. Tippe dann auf Prüfen.",
+        "Noch nicht ganz? Lege Plättchen dazu oder nimm welche weg und probiere es erneut — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Jede Zahl von 0 bis 20 mit Plättchen auf einem doppelten Zehnerfeld legen.",
+        "Zahlen über zehn als einen vollen Zehner und einige Einer mehr sehen.",
+        "Die Grundlage des Weiterzählens und des Stellenwerts für die Mathematik der 1. Klasse aufbauen."
+      ]
+    },
+    "ten-frame.how-many.0-10.animals": {
+      "about": [
+        "Ein Zehnerfeld zeigt eine Gruppe von Tier-Plättchen und stellt eine einfache Frage: Wie viele? Das Kind zählt die Tiere — irgendwo zwischen 0 und 10 — und tippt die passende Zahl auf dem Zahlenfeld ein. Diese kostenlose, interaktive Zähl-Übung für den Kindergarten läuft direkt im Browser, ohne Installation und ohne Konto.",
+        "Dies ist die antwortende Seite des Zählens. Statt eine Zahl aufzubauen, liest das Kind eine Menge ab, die schon da ist, und benennt sie mit einer geschriebenen Zahl. Weil die Plättchen in den zwei Reihen eines Zehnerfeldes liegen, kann ein Kind Mengen allmählich auf einen Blick erkennen — eine volle obere Reihe ist fünf, ein volles Feld ist zehn — und durch Zählen Stück für Stück nachprüfen. Dieser Schritt vom Zählen zu einer einzigen geschriebenen Zahl ist der Kern des Zahlverständnisses.",
+        "Die Aktivität ist am Lehrplan ausgerichtet — zählen, um „wie viele?“ zu beantworten, bei Gegenständen, die auf einem Feld angeordnet sind. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Eine Gruppe Tiere zählen, die auf einem Zehnerfeld gezeigt wird.",
+        "„Wie viele?“ mit der richtigen geschriebenen Zahl beantworten.",
+        "Fünf und zehn an den Reihen des Feldes erkennen.",
+        "Eine gezählte Menge ihrer Zahl von 0 bis 10 zuordnen."
+      ],
+      "howToPlay": [
+        "Schau auf das Zehnerfeld und zähle, wie viele Tiere du siehst.",
+        "Tippe diese Zahl auf dem Zahlenfeld ein und tippe dann auf Prüfen.",
+        "Stimmt es noch nicht? Zähle noch einmal und versuch es erneut — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Zählen, um „wie viele?“ bei bis zu zehn Gegenständen zu beantworten.",
+        "Eine Menge mit der passenden geschriebenen Zahl benennen.",
+        "Das Zahlverständnis aufbauen, auf dem das Lesen und Schreiben von Zahlen beruht."
+      ]
+    },
+    "ten-frame.write-numeral.0-20.fruits": {
+      "about": [
+        "Ein doppeltes Zehnerfeld zeigt eine Gruppe von Früchten als Plättchen, und das Kind schreibt die Zahl für die Anzahl — irgendwo zwischen 0 und 20 — und tippt sie auf dem Zahlenfeld ein. Weil ein volles Feld zehn ist, kann das Kind für die Zahlen ab elf und bis zwanzig weiterzählen. Diese kostenlose, interaktive Zähl-Übung für den Kindergarten läuft im Browser, ohne Installation und ohne Konto.",
+        "Diese Aktivität verbindet Zählen mit Schreiben. Das Kind liest eine Menge ab, die bereits über zwei Zehnerfelder verteilt ist, und benennt sie mit einer geschriebenen Zahl, auch bei den schwierigeren zweistelligen Zahlen über zehn. Weil ein volles Feld zehn ist, kann das Kind von der Zehn aus weiterzählen, statt jedes Mal bei eins zu beginnen, und dann aufschreiben, was es gezählt hat — die Verbindung zwischen Menge und Zahlzeichen.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Mengen ausgerichtet — Zahlen von 0 bis 20 schreiben und eine Anzahl von Objekten mit einer geschriebenen Ziffer darstellen. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Eine Gruppe von Früchten auf einem doppelten Zehnerfeld zählen.",
+        "Die Zahl 0 bis 20 für die gezählte Anzahl schreiben.",
+        "Von einer vollen Zehn aus für die Zahlen ab elf und bis zwanzig weiterzählen.",
+        "Eine Menge mit ihrem geschriebenen Zahlzeichen verbinden."
+      ],
+      "howToPlay": [
+        "Schau dir das doppelte Zehnerfeld an und zähle, wie viele Früchte du siehst.",
+        "Tippe diese Zahl auf dem Zahlenfeld ein, auch Zahlen über zehn, und tippe dann auf Prüfen.",
+        "Noch nicht ganz richtig? Zähle noch einmal und versuche es erneut — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Eine Anzahl von bis zu 20 Objekten mit einer geschriebenen Ziffer darstellen.",
+        "Die Zahlen 0 bis 20 schreiben, auch zweistellige Zahlen.",
+        "Die Lese- und Schreibfähigkeit für Zahlen aufbauen, auf der jede spätere mathematische Schreibweise beruht."
+      ]
+    },
+    "ten-frame.teen-numbers.make-n": {
+      "about": [
+        "Die Aufforderung nennt eine Zahl zwischen 11 und 19, etwa 16, und das Kind füllt das erste Zehnerfeld zu einer vollen Zehn und legt dann die zusätzlichen Einer auf ein zweites Feld – so erscheint 16 als zehn und sechs mehr. Auf diese Weise gebaut, wird die verborgene Struktur sichtbar. Diese kostenlose, interaktive Stellenwert-Aktivität für den Kindergarten läuft im Browser, ganz ohne Anmeldung.",
+        "Zahlen zwischen 11 und 19 sind knifflig, weil ihre Namen ihre Struktur verstecken – „sechzehn\" sagt nicht „zehn und sechs\". Jede auf zwei Feldern zu bauen, macht diese verborgene Struktur sichtbar: Es gibt immer eine volle Zehn und dann einige Einer. Das Kind setzt die Zahl aus einer Zehn und den zusätzlichen Einern zusammen, statt einzeln bis hinauf zu zählen – und genau darauf baut der Stellenwert auf.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Stellenwert ausgerichtet – Zahlen von 11 bis 19 in eine Zehn und einige Einer zerlegen und wieder zusammensetzen. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Ein volles Zehnerfeld füllen, um eine Zehn zu bilden.",
+        "Die zusätzlichen Einer auf das zweite Feld legen.",
+        "Jede Zahl von 11 bis 19 als eine Zehn und einige mehr bauen.",
+        "Die verborgene Zehn in Zahlen wie 14 und 18 erkennen.",
+        "Aus einer Zehn und Einern zusammensetzen, statt einzeln zu zählen."
+      ],
+      "howToPlay": [
+        "Lies die Aufforderung, um zu sehen, welche Zahl von 11 bis 19 du bauen sollst.",
+        "Fülle das erste Zehnerfeld bis zehn, lege dann die zusätzlichen Einer auf das zweite Feld und tippe auf Prüfen.",
+        "Noch nicht ganz richtig? Verschiebe die Plättchen und probiere es erneut – es gibt keinen Timer und keine Punktewertung."
+      ],
+      "learningGoals": [
+        "Zahlen von 11 bis 19 als eine Zehn und einige Einer zusammensetzen.",
+        "Verstehen, dass jede dieser Zahlen eine vollständige Zehn enthält.",
+        "Die Stellenwert-Grundlage für das Addieren und Bündeln in der 1. Klasse aufbauen."
+      ]
+    },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "Kinder lernen, die Welt zu ordnen, indem sie Dinge in Gruppen sortieren. Auf dem Bildschirm erscheint ein bunter Haufen freundlicher Bilder — Tiere, Früchte und manchmal Fahrzeuge, alle durcheinander. Der Text nennt eine Gruppe, und das Kind überlegt, wie viele Bilder dazugehören, und tippt dann die Zahl an.",
-        "Die Bilder sind absichtlich gemischt: Um „Wie viele Tiere?“ zu beantworten, kann das Kind nicht einfach alles zählen. Es schaut sich jedes Bild genau an, entscheidet, was es ist, lässt weg, was nicht dazugehört, und zählt nur die gefragte Gruppe.",
-        "Diese Aktivität ist auf den Lehrplan im Bereich {strand} abgestimmt. Die Kinder üben in ihrem eigenen Tempo mit sanfter, sofortiger Rückmeldung — kein Timer, keine Punkte, nur genaues Hinschauen."
+        "Ein bunter Haufen freundlicher Bilder erscheint – Tiere, Früchte und manchmal Fahrzeuge, alle durcheinander –, der Text nennt eine Gruppe, und das Kind überlegt, wie viele Bilder dazugehören, und tippt die passende Zahl an. Diese kostenlose, interaktive Übung zum Sortieren und Zählen für den Kindergarten läuft direkt im Browser auf Tablet, Handy und Computer, ganz ohne Anmeldung.",
+        "Die Bilder sind absichtlich gemischt: Um „Wie viele Tiere?“ zu beantworten, kann das Kind nicht einfach alles zählen. Es schaut sich jedes Bild genau an, entscheidet, was es ist, lässt weg, was nicht dazugehört, und zählt nur die gefragte Gruppe. So wird das Klassifizieren zur eigentlichen Aufgabe, nicht nur das Zählen.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Daten und Häufigkeiten ausgerichtet – Gegenstände nach Gruppen sortieren und zählen, wie viele zu jeder Gruppe gehören. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
       ],
       "practices": [
         "Einen gemischten Haufen anschauen und bei jedem Bild überlegen, zu welcher Gruppe es gehört.",
@@ -135,7 +374,1144 @@
       "learningGoals": [
         "Bilder in Gruppen einteilen und jede Gruppe zählen.",
         "Die Anzahl einer genannten Gruppe von der Gesamtmenge unterscheiden.",
-        "Sortier- und Ordnungsfähigkeiten für späteres Arbeiten im Bereich {strand} aufbauen."
+        "Sortier- und Ordnungsfähigkeiten für späteres Arbeiten im Bereich Daten und Häufigkeiten aufbauen."
+      ]
+    },
+    "array.build-array.2-oa-c-4": {
+      "about": [
+        "Bei dieser Aktivität baut ein Kind ein rechteckiges Gitter aus gleich langen Reihen und findet dann heraus, wie viele Punkte es insgesamt sind. Die Runden wachsen von einem kleinen Gitter mit 2 mal 3 über 3 mal 4, 2 mal 5 und 4 mal 4 bis 4 mal 3 – so füllt das Kind ordentliche Gitter in verschiedenen Formen. Sie läuft kostenlos und interaktiv direkt im Browser, ohne Installation und ohne Anmeldung.",
+        "Die wichtige Idee: Ein Rechteck aus gleich langen Reihen lässt sich auf dem schnellen Weg zusammenzählen. Während das Kind Reihe für Reihe antippt und füllt, entsteht darunter ein Streifen mit wiederholter Addition – zum Beispiel 4 + 4 + 4 – so sieht es die Vier dreimal gezählt statt jeden Punkt einzeln. Danach tippt es die Gesamtzahl auf dem Zahlenfeld ein. Gleich lange Reihen als gleiche Summanden zu erkennen, ist genau die Brücke von der Addition zum Einmaleins in der 2. Klasse.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Operationen ausgerichtet – mit Addition die Gesamtzahl von Objekten in einem rechteckigen Gitter aus Reihen und Spalten bestimmen und sie als Summe gleicher Summanden aufschreiben. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Ein rechteckiges Gitter als gleich lange Reihen und Spalten füllen.",
+        "Das Gitter als wiederholte Addition lesen, etwa 4 + 4 + 4 = 12.",
+        "In gleichen Gruppen statt einzeln zählen, um die Gesamtzahl zu finden.",
+        "Die Gesamtzahl eingeben, die zu den eben gebauten Reihen passt.",
+        "Verschiedene Gitterformen wie 2 mal 5 und 4 mal 4 sicher unterscheiden."
+      ],
+      "howToPlay": [
+        "Schau dir an, welches Gitter gebraucht wird – zum Beispiel 3 Reihen mit je 4 – und tippe, um jede Reihe zu füllen.",
+        "Beobachte, wie der Streifen die gleich langen Reihen zusammenzählt, und tippe dann auf dem Zahlenfeld ein, wie viele es insgesamt sind.",
+        "Noch nicht ganz richtig? Probiere es so oft, wie du möchtest – es gibt keinen Timer und keine Punktewertung."
+      ],
+      "learningGoals": [
+        "Die Gesamtzahl in einem rechteckigen Gitter mit wiederholter Addition finden.",
+        "Gleich lange Reihen als gleiche Summanden sehen und die passende Summe aufschreiben.",
+        "Das Verständnis gleicher Gruppen aufbauen, aus dem in späteren Klassen das Einmaleins erwächst."
+      ]
+    },
+    "choice-board.which-more.k-c-c-6": {
+      "about": [
+        "Zwei Gruppen freundlicher Bilder erscheinen nebeneinander – Katzen, Hunde, Enten, Fische, Äpfel, Bananen, Orangen oder Erdbeeren – und das Kind tippt auf die Gruppe mit mehr Objekten. Die Anzahlen reichen bis acht, und Kinder vergleichen durch Hinschauen und Zählen, noch ohne Ziffern zu lesen. Diese kostenlose Zählaktivität für den Kindergarten läuft interaktiv im Browser auf Handy, Tablet und Klassenrechner, ganz ohne Anmeldung.",
+        "Die wichtige Idee: „Mehr\" bedeutet, wie viele es sind – nicht, wie viel Platz eine Gruppe einnimmt. Weil die beiden Gruppen dicht beieinanderliegen können, etwa sieben gegen sechs oder sechs gegen fünf, reicht ein schneller Blick auf den größeren Haufen nicht aus. Das Kind muss jede Gruppe wirklich zählen und die Anzahlen vergleichen. So überlistet es die häufige Augentäuschung, bei der ein paar weit auseinanderliegende Bilder nach mehr aussehen als ein eng gedrängtes Häufchen.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zählen ausgerichtet – erkennen, ob die Anzahl der Objekte in einer Gruppe größer, kleiner oder gleich der in einer anderen ist. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Zählen, wie viele in jeder der beiden Gruppen sind.",
+        "Die beiden Anzahlen vergleichen und entscheiden, welche Gruppe mehr hat.",
+        "Nicht darauf achten, wie weit verteilt oder dicht gedrängt eine Gruppe aussieht, sondern zählen.",
+        "Die größere Anzahl mit der Idee von „mehr\" verknüpfen.",
+        "Nah beieinanderliegende Anzahlen wie sieben und sechs sicher auseinanderhalten."
+      ],
+      "howToPlay": [
+        "Schau dir die zwei Gruppen mit Bildern an und zähle, wie viele in jeder Gruppe sind.",
+        "Tippe auf die Gruppe, die mehr hat, und prüfe dann deine Wahl.",
+        "Noch nicht ganz richtig? Probiere es so oft, wie du möchtest – es gibt keinen Timer und keine Punktewertung."
+      ],
+      "learningGoals": [
+        "Durch Zählen erkennen, welche von zwei Gruppen mehr hat.",
+        "Verstehen, dass die größere Anzahl mehr bedeutet, egal wie die Bilder angeordnet sind.",
+        "Die Grundlage für das spätere Arbeiten mit „größer als\" und „kleiner als\" legen."
+      ]
+    },
+    "choice-board.compare-length.k-md-2": {
+      "about": [
+        "Zwei alltägliche Gegenstände stehen nebeneinander, und das Kind tippt auf den höheren, den längeren oder den kürzeren – verglichen werden echte, vertraute Bilder wie eine Tanne und eine Palme, ein Bleistift, Buntstift, Filzstift oder Lineal, eine Karotte oder Gurke, eine Giraffe, eine Sonnenblume oder eine Kerze. Diese kostenlose Aktivität zum Längenvergleich für den Kindergarten läuft interaktiv in jedem Browser, ohne Download und ohne Konto.",
+        "Es wird nicht gezählt und es gibt keine Zahlen; das Kind schaut einfach hin und vergleicht jeweils ein messbares Merkmal. Die Aufforderung nennt das Wort – höher, länger oder kürzer – und das Kind entscheidet, welcher der beiden Gegenstände passt. Höhe für „höher\" (eine Giraffe) und Länge für „länger\" (eine Gurke) nebeneinanderzulegen, baut den Wortschatz des Messens auf, noch bevor ein Lineal oder eine Zahl ins Spiel kommt.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Größen und Messen ausgerichtet – zwei Gegenstände direkt nach einem messbaren Merkmal vergleichen und beschreiben, welcher höher, länger oder kürzer ist. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Zwei Gegenstände nach Höhe oder Länge vergleichen.",
+        "Die Wörter höher, länger und kürzer verstehen.",
+        "Den Gegenstand wählen, der zum Wort in der Aufforderung passt.",
+        "Mit dem Auge vergleichen, ganz ohne Zählen und ohne Zahlen.",
+        "Ein Merkmal nach dem anderen betrachten, statt mehrere durcheinanderzubringen."
+      ],
+      "howToPlay": [
+        "Schau dir die zwei Gegenstände an und lies oder höre das Wort – höher, länger oder kürzer.",
+        "Tippe auf den Gegenstand, der zu diesem Wort passt.",
+        "Noch nicht ganz richtig? Probiere es so oft, wie du möchtest – es gibt keinen Timer und keine Punktewertung."
+      ],
+      "learningGoals": [
+        "Zwei Gegenstände direkt vergleichen und beschreiben, welcher höher, länger oder kürzer ist.",
+        "Mit den richtigen Wörtern Länge und Höhe beschreiben.",
+        "Die Grundlage des Vergleichens nach einem Merkmal legen, aus der später das Messen mit Einheiten erwächst."
+      ]
+    },
+    "choice-board.compare-two-digit.1-nbt-b-3": {
+      "about": [
+        "Zwei zweistellige Zahlen erscheinen – etwa 47 und 52 oder 63 und 38 – und das Kind tippt auf die Aussage, die wahr ist, mit den Zeichen größer als (>), kleiner als (<) und gleich (=). Manche Paare sind gleich, zum Beispiel 45 und 45 oder 88 und 88, also zählt auch das Gleichheitszeichen. Diese kostenlose Aktivität zum Stellenwert für die 1. Klasse läuft interaktiv direkt im Browser, ganz ohne Anmeldung.",
+        "Die Strategie: zuerst auf die Zehner schauen, dann auf die Einer. Bei 47 und 52 schlagen die 5 Zehner die 4 Zehner, also ist 47 kleiner als 52 – obwohl 7 größer ist als 2. Kniffige Paare wie 29 und 92 nutzen dieselben Ziffern an verschiedenen Stellen, deshalb muss das Kind den Stellenwert lesen und nicht nur die Ziffern. Das richtige Zeichen zu wählen, übersetzt diesen Vergleich in die formale Sprache von >, = und <.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Stellenwert ausgerichtet – zwei zweistellige Zahlen anhand der Bedeutung der Zehner- und Einerziffern vergleichen und das Ergebnis mit den Zeichen >, = und < festhalten. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Zwei zweistellige Zahlen erst nach den Zehnern, dann nach den Einern vergleichen.",
+        "Das richtige Zeichen wählen – größer als, kleiner als oder gleich.",
+        "Erkennen, wann zwei Zahlen gleich sind.",
+        "Den Stellenwert in kniffligen Paaren wie 29 und 92 lesen.",
+        "Eine wahre Aussage mit >, = oder < sicher auswählen."
+      ],
+      "howToPlay": [
+        "Schau dir die zwei zweistelligen Zahlen an und prüfe zuerst die Zehnerziffer, dann die Einerziffer.",
+        "Tippe auf die Aussage, die wahr ist, mit >, = oder <.",
+        "Noch nicht ganz richtig? Probiere es so oft, wie du möchtest – es gibt keinen Timer und keine Punktewertung."
+      ],
+      "learningGoals": [
+        "Zweistellige Zahlen vergleichen und das Ergebnis mit >, = und < festhalten.",
+        "Mit der Bedeutung der Zehner- und Einerziffern entscheiden, welche Zahl größer ist.",
+        "Die Vergleichsfähigkeit beim Stellenwert aufbauen, auf der das spätere Arbeiten mit größeren Zahlen beruht."
+      ]
+    },
+    "clock.set-clock.1-md-b-3": {
+      "about": [
+        "Eine Uhrzeit ist vorgegeben – etwa 3:00, 7:30, 9:00, 6:30 oder halb zwei – und das Kind zieht den langen und den kurzen Zeiger auf dem Zifferblatt an die richtige Stelle, während eine digitale Anzeige nebenher mitläuft. „Stell die Uhr\" ist eine kostenlose Mathe-Aktivität für die 1. Klasse, die interaktiv im Browser auf Tablet, Handy und Klassenrechner läuft, ohne Installation und ohne Anmeldung.",
+        "Eine Uhr einzustellen ist schwerer, als eine Uhr zu lesen, denn das Kind muss beide Zeiger selbst setzen und nicht nur ein Bild wiedererkennen. Bei halben Stunden steht der kurze Zeiger zwischen zwei Zahlen, nicht auf einer – wer den Stundenzeiger nur auf eine Zahl schiebt, liegt daneben und muss ihn genau in die Mitte stellen. Wenn sich die digitale Anzeige beim Bewegen der Zeiger verändert, verbindet das die analoge Uhr mit den Zahlen, die Kinder schon kennen. Geübt werden nur volle und halbe Stunden, damit der Fokus auf dem genauen Setzen der Zeiger liegt.",
+        "Die Aktivität ist an den Lehrplänen der 1. Klasse im Bereich Größen und Messen ausgerichtet – volle und halbe Stunden auf der analogen und der digitalen Uhr lesen und aufschreiben. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Den Stunden- und den Minutenzeiger ziehen, um eine vorgegebene Uhrzeit zu zeigen.",
+        "Den kurzen Zeiger bei einer halben Stunde genau zwischen zwei Zahlen setzen.",
+        "Die passende digitale Uhrzeit ablesen, während sich die Zeiger bewegen.",
+        "Volle Stunden von halben Stunden unterscheiden und beide richtig einstellen.",
+        "Auf der Analoguhr sicher zwischen langem und kurzem Zeiger unterscheiden."
+      ],
+      "howToPlay": [
+        "Lies die Uhrzeit, die über der Uhr steht.",
+        "Zieh den langen und den kurzen Zeiger so, dass sie diese Zeit zeigen, und achte dabei auf die digitale Anzeige.",
+        "Prüfe deine Uhr und stelle sie so oft nach, wie du möchtest – es gibt keinen Timer und keine Punktewertung."
+      ],
+      "learningGoals": [
+        "Eine analoge Uhr auf volle und halbe Stunden einstellen.",
+        "Verstehen, dass der Stundenzeiger bei „halb\" zwischen zwei Zahlen steht.",
+        "Das analoge Zifferblatt mit der digitalen Uhrzeit verbinden, die Kinder jeden Tag lesen."
+      ]
+    },
+    "match-pairs.make-the-number.k-oa-a-3": {
+      "about": [
+        "Eine Zielzahl erscheint – sagen wir 5 – und das Kind sucht die Zahlenpaare, die zusammen diese Zahl ergeben, etwa 1 und 4 oder 2 und 3. Es tippt auf eine Zahl, dann auf ihren Partner, und die beiden verbinden sich. Dieses kostenlose, interaktive Zahlen-Zuordnungsspiel für den Kindergarten läuft direkt im Browser – ohne Installation und ohne Konto.",
+        "Die wichtige Idee: Eine Zahl lässt sich auf mehr als eine Weise zusammensetzen. Bei der Zielzahl 7 kann ein Kind 0 und 7 verbinden und dann 3 und 4 – und entdeckt, dass dieselbe Gesamtzahl mehrere Partnerpaare hat. Weil die Aktivität nach allen Paaren fragt, die das Ziel ergeben, und nicht nach einer einzigen richtigen Antwort, baut sie ganz nebenbei das Teil-Teil-Ganzes-Verständnis auf, auf dem jede spätere Addition ruht.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Operationen ausgerichtet – Zahlen bis 10 auf verschiedene Weise in Paare zerlegen. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Zwei Zahlen finden, die zusammen eine Zielzahl bis 10 ergeben.",
+        "Mehr als ein Paar entdecken, das dieselbe Zahl bildet.",
+        "Das Teil-Teil-Ganzes-Verständnis kleiner Zahlen aufbauen.",
+        "Eine Zahl mit ihrem Partner verbinden, der die Gesamtzahl vervollständigt.",
+        "Verschiedene Zerlegungen derselben Zielzahl nebeneinander erkennen."
+      ],
+      "howToPlay": [
+        "Schau dir die Zielzahl der Runde an, zum Beispiel 6.",
+        "Tippe auf eine Zahl und dann auf ihren Partner, der zusammen das Ziel ergibt – und sieh zu, wie sich das Paar verbindet.",
+        "Finde alle Paare, die das Ziel ergeben – es gibt keinen Timer und keine Punktewertung, lass dir also Zeit."
+      ],
+      "learningGoals": [
+        "Zahlen bis 10 auf verschiedene Weise in Paare zerlegen.",
+        "Verstehen, dass eine Zahl aus kleineren Teilen besteht.",
+        "Die Teil-Teil-Ganzes-Grundlage für Addition und Subtraktion legen."
+      ]
+    },
+    "match-pairs.add-it-both-ways.1-oa-b-3": {
+      "about": [
+        "Das Kind sieht Plusaufgaben wie 4 + 7 und 7 + 4 oder 5 + 9 und 9 + 5 und verbindet jede Aufgabe mit denselben zwei Zahlen, nur in umgekehrter Reihenfolge addiert – tippe auf eine Karte, dann auf ihren vertauschten Zwilling, und das Paar verbindet sich. Dieses kostenlose, interaktive Karten-Zuordnungsspiel für die 1. Klasse läuft direkt im Browser – ohne Installation und ohne Konto.",
+        "Die wichtige Idee ist das Vertauschungsgesetz: 4 + 7 und 7 + 4 ergeben beide 11, also verändert die Reihenfolge der Summanden die Summe nicht. Jede Runde zeigt sechs Karten – drei vertauschte Paare durcheinandergemischt – sodass das Kind die Summen ausrechnet und merkt, welche Aufgaben genau dieselben Zahlen, nur umgedreht, verwenden. Es ordnet keine gleichen Karten zu, sondern erkennt, dass zwei unterschiedlich aussehende Summen gleich sind.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Operationen ausgerichtet – Rechengesetze wie das Vertauschungsgesetz als Strategie beim Addieren nutzen. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Erkennen, dass Summanden in beliebiger Reihenfolge dieselbe Summe ergeben.",
+        "Kleine Zahlen wie 6 + 9 addieren und bestätigen, dass 9 + 6 dasselbe ergibt.",
+        "Jede Plusaufgabe ihrem vertauschten Zwilling unter den gemischten Karten zuordnen.",
+        "Die Tauschaufgabe als Strategie zum leichteren Rechnen nutzen.",
+        "Zwei unterschiedlich aussehende Summen als gleichwertig erkennen."
+      ],
+      "howToPlay": [
+        "Schau dir die sechs Plusaufgaben an und finde heraus, welche dieselben zwei Zahlen in anderer Reihenfolge verwenden.",
+        "Tippe auf eine Aufgabe wie 3 + 6, dann auf ihren vertauschten Zwilling 6 + 3 – und sieh zu, wie sich das Paar verbindet.",
+        "Mach weiter, bis alle drei Paare zugeordnet sind – es gibt keinen Timer und keine Punktewertung, lass dir also Zeit."
+      ],
+      "learningGoals": [
+        "Das Vertauschungsgesetz der Addition anwenden.",
+        "Verstehen, dass die Reihenfolge der Summanden die Summe nicht verändert.",
+        "Mit Tauschaufgaben das Addieren bis 20 schneller und sicherer machen."
+      ]
+    },
+    "numberbond.make-ten-to-add.1-oa-c-6": {
+      "about": [
+        "Für eine Aufgabe wie 8 + 5 zerlegt das Kind die zweite Zahl an einem Zahlenhaus, sodass ein Teil die erste Zahl bis zehn auffüllt (8 + 2 = 10), und addiert dann den Rest (10 + 3 = 13). Diese Zehnerübergang-Strategie wird in einer kostenlosen, interaktiven Mathe-Aktivität für die 1. Klasse lebendig, die direkt im Browser läuft, ganz ohne Konto.",
+        "Die wichtige Idee: aus einer kniffligen Aufgabe eine leichte machen – erst eine glatte Zehn erreichen, dann den Rest dazuzählen. Das Kind tippt, um den Teil zu füllen, der die Zehn voll macht, und das Zahlenhaus zeigt genau, wie sich die zweite Zahl aufteilt – so ist die Strategie etwas, das das Kind sieht und selbst tut, und nicht etwas zum Auswendiglernen.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Operationen ausgerichtet – das Addieren bis 20 mit der Zehnerübergang-Strategie. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Eine Zahl am Zahlenhaus in zwei Teile zerlegen.",
+        "Die erste Zahl bis zu einer Zehn auffüllen (8 + 2 = 10).",
+        "Den übrigen Teil zur Zehn dazuzählen und so fertig rechnen (10 + 3 = 13).",
+        "Flüssig und flexibel bis 20 addieren.",
+        "Statt einzeln weiterzuzählen über die glatte Zehn rechnen."
+      ],
+      "howToPlay": [
+        "Schau dir eine Aufgabe wie 8 + 5 an, die am Zahlenhaus gezeigt wird.",
+        "Tippe, um den Teil zu füllen, der mit der ersten Zahl eine Zehn ergibt, und addiere dann den Rest.",
+        "Noch nicht ganz richtig? Probiere es so oft, wie du möchtest – es gibt keinen Timer und keine Punktewertung."
+      ],
+      "learningGoals": [
+        "Bis 20 mit der Zehnerübergang-Strategie addieren.",
+        "Eine Zahl zerlegen, um eine glatte Zehn zu bilden.",
+        "Flexibel rechnen, statt jede Zahl einzeln weiterzuzählen."
+      ]
+    },
+    "place-value.tens-and-ones.1-nbt-b-2": {
+      "about": [
+        "Um 47 zu bauen, legt ein Kind vier Zehnerstäbe und sieben Einerwürfel hin und erlebt, wie aus „vierzig\" etwas Greifbares wird statt nur einer Ziffer. Die Zahlen reichen von 12 bis 95 – darunter die glatten Zehner 30, 50, 70 und 90 – und entstehen Antippen für Antippen, Block für Block, in einer kostenlosen, interaktiven Mathe-Aktivität für die 1. Klasse, die im Browser läuft, ganz ohne Anmeldung.",
+        "Die wichtige Idee: Eine zweistellige Zahl besteht aus Zehnern und Einern. Um 47 zu bauen, nimmt das Kind vier Zehnerstäbe und sieben Einerwürfel, und die vier Stäbe zu sehen, macht die „vierzig\" greifbar statt nur als Ziffer. Glatte Zahlen wie 70 und 90 zeigen, dass eine Null an der Einerstelle bedeutet: Es gibt gar keine losen Würfel – nur vollständige Zehner.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Stellenwert ausgerichtet – verstehen, dass eine zweistellige Zahl aus einer Anzahl von Zehnern und Einern besteht. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Eine zweistellige Zahl mit der richtigen Anzahl Zehner und Einer bauen.",
+        "Die Zehnerziffer mit Zehnerstäben und die Einerziffer mit Einerwürfeln verbinden.",
+        "Glatte Zahlen wie 70 als eine Anzahl vollständiger Zehner verstehen.",
+        "Zweistellige Zahlen bis 95 lesen und bilden.",
+        "Erkennen, dass eine Null an der Einerstelle keine losen Würfel bedeutet."
+      ],
+      "howToPlay": [
+        "Lies die Zielzahl, zum Beispiel 47.",
+        "Tippe, um Zehnerstäbe und Einerwürfel hinzuzufügen, bis die Blöcke diese Zahl bilden.",
+        "Sieh zu, wie die Zahl wächst, und mach weiter – es gibt keinen Timer und keine Punktewertung."
+      ],
+      "learningGoals": [
+        "Zehner und Einer in zweistelligen Zahlen verstehen.",
+        "Sehen, dass die Zehnerziffer Zehnergruppen zählt und die Einerziffer einzelne Würfel.",
+        "Die Stellenwert-Grundlage für das Addieren und Subtrahieren bis 100 aufbauen."
+      ]
+    },
+    "syllable-builder.bau-das-wort-aus-silben.rf-k-2-b": {
+      "about": [
+        "Das Kind sieht ein Bild und baut das passende Wort, indem es die einzelnen Silben in die richtige Reihenfolge bringt – etwa „So-nne\", „Ba-na-ne\" oder „A-pfel\". So wird aus durcheinandergewürfelten Silben Schritt für Schritt ein ganzes Wort. Diese kostenlose Aktivität zur Lautschulung für den Kindergarten läuft interaktiv im Browser auf Handy, Tablet und Klassenrechner, ganz ohne Anmeldung.",
+        "Die wichtige Idee: Gesprochene Wörter bestehen aus Silben, und wer sie hört und ordnet, liest und schreibt später leichter. Das Kind muss nicht zählen oder rechnen, sondern hinhören, wie das Wort klingt, und die Silben in die Reihenfolge legen, die das Bild zeigt. Jede gesetzte Silbe lässt sich antippen und hören, und ist das Wort vollständig, wird es als Ganzes vorgelesen – so verbinden sich Klang und Schriftbild.",
+        "Die Aktivität ist an den Lehrplänen im Bereich der phonologischen Bewusstheit ausgerichtet – Silben in gesprochenen Wörtern zählen, aussprechen, verbinden und trennen. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Ein gesprochenes Wort in seine Silben gliedern.",
+        "Die Silben in die richtige Reihenfolge bringen, die das Bild zeigt.",
+        "Einzelne Silben anhören und zu einem ganzen Wort verbinden.",
+        "Klang und Schriftbild eines Wortes miteinander verknüpfen.",
+        "Vertraute Wörter wie „Banane\" oder „Sonne\" silbenweise aufbauen."
+      ],
+      "howToPlay": [
+        "Schau dir das Bild an und überlege, wie das Wort klingt.",
+        "Tippe die Silben in der richtigen Reihenfolge an und lege sie so zum ganzen Wort zusammen.",
+        "Höre dir die Silben an und prüfe dein Wort – probiere es so oft, wie du möchtest, ganz ohne Timer und ohne Punktewertung."
+      ],
+      "learningGoals": [
+        "Gesprochene Wörter in Silben zerlegen und aus Silben wieder zusammensetzen.",
+        "Silben hören, ordnen und zu einem ganzen Wort verbinden.",
+        "Die phonologische Grundlage für das Lesen- und Schreibenlernen aufbauen."
+      ]
+    },
+    "array.equal-groups.2-oa-c-4": {
+      "about": [
+        "Ein Kind bildet hier gleich große Gruppen — in jeder Gruppe steckt dieselbe Anzahl — und zählt sie zusammen, um die Gesamtzahl zu finden. Die Runden reichen von 2 Gruppen mit je 3 bis zu 3 Gruppen mit je 5, dazu 4 Gruppen mit je 4 und 5 Gruppen mit je 2. So begegnet das Kind vielen verschiedenen Anordnungen gleicher Gruppen. Die Übung läuft kostenlos und ohne Anmeldung direkt im Browser.",
+        "Anders als bei einem ordentlichen Rechteckmuster sitzen die Dinge hier in getrennten Gruppen — und genau dadurch wird die Idee „in jeder Gruppe gleich viele\" zum eigentlichen Kern. Während das Kind die Gruppen füllt, wächst daneben ein Additionsstreifen mit: 4 + 4 + 4. So werden die gleichen Gruppen zu einer Summe, und am Ende tippt das Kind die Gesamtzahl ein. Es baut und addiert die Gruppen, es multipliziert noch nicht — aber es übt schon genau das Denken, auf dem die Multiplikation später aufbaut.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Rechnen und Zahlen für die 2. Klasse ausgerichtet — mit wiederholter Addition gleicher Summanden eine Gesamtzahl bestimmen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Mehrere Gruppen bilden, die jeweils gleich viele Dinge enthalten.",
+        "Gleiche Gruppen als wiederholte Addition zusammenzählen, etwa 4 + 4 + 4 = 12.",
+        "Gleiche Gruppen von unterschiedlich großen Gruppen unterscheiden.",
+        "Eine Gesamtzahl finden, indem man die Gruppen nutzt, statt einzeln weiterzuzählen."
+      ],
+      "howToPlay": [
+        "Lies, wie viele gleiche Gruppen du bilden sollst und wie viele in jede Gruppe gehören, und tippe dann, um die Gruppen zu füllen.",
+        "Schau zu, wie sich die gleichen Gruppen auf dem Additionsstreifen aufsummieren, und tippe dann die Gesamtzahl auf dem Zahlenfeld ein.",
+        "Noch nicht ganz richtig? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Aus gleichen Gruppen mit wiederholter Addition eine Gesamtzahl finden.",
+        "Verstehen, dass die Gruppen gleich groß sein müssen, damit die Summe mit gleichen Summanden funktioniert.",
+        "Das Verständnis für gleiche Gruppen aufbauen, auf das die Multiplikation in späteren Klassen angewiesen ist."
+      ]
+    },
+    "choice-board.even-odd.2-oa-c-3": {
+      "about": [
+        "Eine Zahl von 1 bis 20 erscheint, und das Kind entscheidet, ob sie gerade oder ungerade ist, und tippt auf das Feld „gerade\" oder „ungerade\". Mit nur zwei Möglichkeiten beurteilt das Kind jede Zahl für sich: Ist es eine Zahl, die sich in Paare aufteilen lässt, oder eine, bei der eins übrig bleibt? Diese kostenlose, interaktive Übung zum Zahlenverständnis für die 2. Klasse läuft ohne Anmeldung im Browser.",
+        "Die zentrale Idee ist, dass gerade und ungerade davon erzählen, ob sich eine Anzahl in zwei gleiche Gruppen aufteilen lässt, ohne dass etwas übrig bleibt. Das Kind rechnet hier nicht plus oder minus, sondern sortiert ganze Zahlen nach ihrer Struktur. Weil es den ganzen Bereich von 1 bis 20 durchläuft und beide Felder immer sichtbar sind, entwickelt sich das schnelle Erkennen — und die Gewohnheit, auf die Einerstelle zu schauen — bis gerade und ungerade ganz selbstverständlich werden.",
+        "Die Aktivität ist an den Lehrplänen ausgerichtet — bestimmen, ob eine Gruppe von Objekten eine gerade oder ungerade Anzahl hat. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Entscheiden, ob eine Zahl von 1 bis 20 gerade oder ungerade ist.",
+        "Gerade Zahlen als Paare ohne Rest und ungerade als „eins mehr\" verstehen.",
+        "Auf die Einerziffer schauen, um schnell gerade von ungerade zu unterscheiden.",
+        "Ganze Zahlen nach ihrer Struktur ordnen, statt zu addieren oder zu subtrahieren."
+      ],
+      "howToPlay": [
+        "Schau dir die Zahl an, die auf dem Feld erscheint.",
+        "Entscheide, ob sie gerade oder ungerade ist, tippe auf das passende Feld und drücke dann auf Prüfen.",
+        "Noch nicht ganz richtig? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Erkennen, ob eine Zahl bis 20 gerade oder ungerade ist.",
+        "Gerade als Paare ohne Rest und ungerade als „eins übrig\" erklären.",
+        "Das Zahlenverständnis aufbauen, das später beim Arbeiten mit gleichen Gruppen und der Multiplikation hilft."
+      ]
+    },
+    "choice-board.describe-attribute.k-md-a-1": {
+      "about": [
+        "Ein Alltagsgegenstand erscheint, und das Kind tippt auf das Wort, das ihn am besten beschreibt — lang, hoch oder schwer. Die Gegenstände sind so gewählt, dass eine Eigenschaft deutlich hervorsticht: Ein Stift und eine Karotte sind lang, eine Giraffe ist hoch, ein Stein und ein Kürbis sind schwer. Diese kostenlose, interaktive Übung zum Größen-Beschreiben im Kindergarten läuft direkt im Browser, ganz ohne Konto.",
+        "Es geht darum, den Arten, wie wir Dinge messen, Worte zu geben — noch bevor Zahlen oder Lineale ins Spiel kommen. Das Kind zählt und misst hier nicht, sondern schaut sich einen echten Gegenstand an und entscheidet, welche messbare Eigenschaft passt: Länge, Höhe oder Gewicht. Weil jeder abgebildete Gegenstand eine klar stärkste Eigenschaft hat, übt das Kind zu erkennen, welche Art von Messung ein Ding einlädt — die sprachliche Grundlage allen späteren Messens.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Größen und Messen ausgerichtet — messbare Eigenschaften eines Gegenstands wie Länge, Höhe und Gewicht beschreiben. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Einen Gegenstand dem passenden Größen-Wort zuordnen — lang, hoch oder schwer.",
+        "Länge, Höhe und Gewicht als unterschiedliche Arten des Messens auseinanderhalten.",
+        "Einen echten Gegenstand betrachten und entscheiden, welche Art von Messung er einlädt.",
+        "Den Größenwortschatz aufbauen, der vor dem Zählen und vor dem Lineal kommt."
+      ],
+      "howToPlay": [
+        "Schau dir den Gegenstand auf dem Feld an — einen Stift, eine Giraffe oder einen Stein.",
+        "Tippe auf das Wort, das ihn am besten beschreibt — lang, hoch oder schwer — und drücke dann auf Prüfen.",
+        "Probiere es jederzeit erneut; es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Die messbaren Eigenschaften eines Gegenstands beschreiben — Länge, Höhe, Gewicht.",
+        "Die Wörter lang, hoch und schwer richtig für echte Gegenstände verwenden.",
+        "Die Größensprache aufbauen, auf die späteres Messen und Vergleichen angewiesen ist."
+      ]
+    },
+    "choice-board.ten-more-less.1-nbt-c-5": {
+      "about": [
+        "Eine Zahl wie 34, 57, 60 oder 82 taucht zusammen mit den Worten „10 mehr\" oder „10 weniger\" auf, und das Kind rechnet im Kopf und tippt das Ergebnis aus vier Möglichkeiten an. Diese kostenlose, interaktive Übung für die 1. Klasse läuft direkt im Browser — auf Tablet, Handy oder Klassenrechner, ohne Installation und ohne Anmeldung.",
+        "Die wichtige Einsicht: 10 mehr oder 10 weniger zu finden braucht gar kein Zählen — es ändert sich nur der Zehner, die Einer bleiben genau gleich. So sind 34 und 10 mehr eben 44, und 57 und 10 weniger sind 47. Die falschen Möglichkeiten sind benachbarte Zahlen, darunter solche, die die Einerstelle verändern. Ein Kind, das Schritt für Schritt weiterzählt oder den Zehner an der falschen Stelle dazugibt, merkt, dass es nicht passt. Es geht darum, die Zehner zu sehen — nicht zu zählen.",
+        "Die Aktivität ist an den Lehrplänen für die 1. Klasse ausgerichtet — im Kopf 10 mehr oder 10 weniger zu einer zweistelligen Zahl finden, ohne zu zählen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "10 mehr oder 10 weniger zu einer zweistelligen Zahl im Kopf finden.",
+        "Bemerken, dass sich nur der Zehner ändert, während die Einer gleich bleiben.",
+        "Lesen, ob die Aufgabe nach 10 mehr oder 10 weniger fragt.",
+        "Ein Stellenwert-Gefühl für Zahlen bis 100 aufbauen."
+      ],
+      "howToPlay": [
+        "Lies die Zahl und ob nach 10 mehr oder 10 weniger gefragt ist.",
+        "Rechne im Kopf — ändere den Zehner, lass die Einer gleich — und tippe dann auf die Zahl, die du für richtig hältst.",
+        "Lass dir alle Zeit, die du brauchst; es gibt keinen Timer und keine Punkte, und du kannst es erneut versuchen."
+      ],
+      "learningGoals": [
+        "Im Kopf 10 mehr und 10 weniger zu jeder zweistelligen Zahl finden.",
+        "Verstehen, dass ein Zehner mehr oder weniger nur die Zehnerstelle verändert.",
+        "Die Grundlage im Stellenwert und Kopfrechnen für das Plus- und Minusrechnen bis 100 aufbauen."
+      ]
+    },
+    "clock.tell-time-5-min.2-md-c-7": {
+      "about": [
+        "Eine geschriebene Uhrzeit erscheint — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 oder 12:25 — und das Kind zieht die Zeiger der analogen Uhr an die richtige Stelle, während eine digitale Anzeige beim Bewegen mitläuft. Diese kostenlose Mathe-Übung für die 2. Klasse bringt das Uhrstellen auf 5-Minuten-Zeiten und läuft ohne Anmeldung im Browser.",
+        "Auf fünf Minuten genau zu lesen und zu stellen heißt: Jetzt kommt es auf den Minutenzeiger genau an. Viertel nach setzt ihn auf die 3, Viertel vor auf die 9, zehn nach auf die 2 — und das Kind zählt in Fünferschritten um das Zifferblatt, um ihn genau zu treffen. Die kniffligeren Zeiten — etwa 7:45, wo Viertel vor acht als 7:45 und nicht als 8:45 geschrieben wird — bringen Kinder dazu, den Stundenzeiger zu lesen, während er sich der nächsten Zahl nähert. Die digitale Anzeige bestätigt jede Stellung, sodass das Zählen in Fünferschritten mit der geschriebenen Zeit zusammenkommt.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Größen und Messen für die 2. Klasse ausgerichtet — die Uhrzeit auf 5 Minuten genau an der analogen und der digitalen Uhr ablesen und schreiben. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Den Minutenzeiger durch Zählen in Fünferschritten auf eine 5-Minuten-Marke setzen.",
+        "Viertel nach, Viertel vor und zehn nach an die richtige Stelle bringen.",
+        "Den Stundenzeiger lesen, während er sich gegen Ende einer Stunde der nächsten Zahl nähert.",
+        "Die analoge Einstellung mit der geschriebenen digitalen Zeit abgleichen."
+      ],
+      "howToPlay": [
+        "Lies die geschriebene Uhrzeit über der Uhr.",
+        "Ziehe den Minuten- und den Stundenzeiger so, dass sie die Zeit auf 5 Minuten genau zeigen, und beobachte dabei die digitale Anzeige.",
+        "Stelle die Zeiger so oft nach, wie du möchtest — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Die Uhrzeit auf 5 Minuten genau ablesen und einstellen.",
+        "In Fünferschritten um die Uhr zählen, um den Minutenzeiger genau zu setzen.",
+        "Zeiten wie Viertel vor acht richtig als 7:45 statt als 8:45 lesen."
+      ]
+    },
+    "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
+      "about": [
+        "Das Kind rechnet Karten wie 2 + 3 und 9 − 4 aus (beide ergeben 5) oder 3 + 4 und 9 − 2 (beide 7) und tippt dann eine Plusaufgabe und die Minusaufgabe mit demselben Ergebnis an, um das Paar zu verbinden. Diese kostenlose, interaktive Mathe-Übung für die 1. Klasse läuft direkt im Browser, ohne Installation und ohne Anmeldung.",
+        "Die große Idee: Eine Plusaufgabe und eine Minusaufgabe können gleich viel wert sein — das Gleichheitszeichen bedeutet „ist genauso viel wie\", nicht „hier kommt das Ergebnis\". Die Karten zeigen ihre Ergebnisse nicht, deshalb muss das Kind jede wirklich ausrechnen und dann eine anders aussehende Aufgabe mit demselben Wert suchen. In jeder Runde gibt es zwei (manchmal drei) Werte zu finden, wobei Plus- und Minusaufgaben gemischt werden.",
+        "Die Aktivität ist an den Lehrplänen ausgerichtet — die Bedeutung des Gleichheitszeichens verstehen und entscheiden, ob Plus- und Minusaufgaben gleich viel ergeben. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Den Wert von Plus- und von Minusaufgaben ausrechnen.",
+        "Eine Plusaufgabe mit einer Minusaufgabe verbinden, die dasselbe Ergebnis hat.",
+        "Das Gleichheitszeichen als „ist genauso viel wie\" verstehen.",
+        "Zwei unterschiedlich aussehende Aufgaben auf gleichen Wert vergleichen."
+      ],
+      "howToPlay": [
+        "Rechne jede Karte aus — Plusaufgaben wie 4 + 5 und Minusaufgaben wie 10 − 1.",
+        "Tippe auf eine Plusaufgabe, dann auf die Minusaufgabe mit demselben Ergebnis, und sieh zu, wie sich das Paar verbindet.",
+        "Finde beide gleichen Paare in der Runde — es gibt keinen Timer und keine Punkte, also lass dir Zeit."
+      ],
+      "learningGoals": [
+        "Verstehen, dass Plus- und Minusaufgaben gleich viel ergeben können.",
+        "Das Gleichheitszeichen als „ist genauso viel wie\" lesen statt als „das Ergebnis folgt jetzt\".",
+        "Flexible Rechensicherheit aufbauen, indem man Plus- und Minusaufgaben mit gleichem Wert verknüpft."
+      ]
+    },
+    "match-pairs.match-facts-to-20.2-oa-b-2": {
+      "about": [
+        "Das Kind rechnet Karten wie 8 + 5, 9 + 7, 14 − 6 und 17 − 8 aus und tippt dann jede Aufgabe und die Zahl an, die ihr Ergebnis ist, um das Paar zu verbinden und sicher im Zahlenraum bis 20 zu rechnen. Diese kostenlose, interaktive Mathe-Übung für die 2. Klasse läuft direkt im Browser, ohne Installation und ohne Anmeldung.",
+        "Worum es geht: schnelles, sicheres Abrufen der Plus- und Minusaufgaben bis 20. Jede Runde mischt drei Aufgaben — einige Plus, einige Minus — mit ihren drei Ergebnissen durcheinander, sodass das Kind jede Aufgabe ausrechnet und dann den passenden Wert findet. Durch das wiederholte Üben über die Runden hinweg wandern Aufgaben wie 9 + 9 = 18 und 16 − 9 = 7 vom Zählen ins Gedächtnis.",
+        "Die Aktivität ist an den Lehrplänen ausgerichtet — sicher im Zahlenraum bis 20 addieren und subtrahieren und die Summen zweier einstelliger Zahlen auswendig kennen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Im Zahlenraum bis 20 addieren und subtrahieren, mit und ohne Zehnerübergang.",
+        "Eine Aufgabe wie 7 + 8 ihrer Ergebniskarte zuordnen.",
+        "Plus- und Minusaufgaben vom Zählen ins Gedächtnis bringen.",
+        "Sicher mit Plus- und Minusaufgaben in einer gemischten Auswahl arbeiten."
+      ],
+      "howToPlay": [
+        "Rechne jede Aufgabenkarte aus, etwa 6 + 9 oder 13 − 4.",
+        "Tippe auf eine Aufgabe, dann auf die Zahl, die ihr Ergebnis ist, und sieh zu, wie sich das Paar verbindet.",
+        "Verbinde alle drei Paare in der Runde — es gibt keinen Timer und keine Punkte, also lass dir Zeit."
+      ],
+      "learningGoals": [
+        "Sicher im Zahlenraum bis 20 addieren und subtrahieren.",
+        "Die Summen einstelliger Zahlen auswendig kennen.",
+        "Die Aufgabensicherheit aufbauen, die das Rechnen mit größeren Zahlen leichter macht."
+      ]
+    },
+    "numberbond.find-the-total.1-oa-a-1": {
+      "about": [
+        "Ein Zahlenbild zeigt zwei Teile, etwa 7 und 4, und das Kind findet heraus, wie viele es zusammen sind — es zählt die Teile zusammen und tippt die Gesamtzahl ein. Diese kostenlose, interaktive Mathe-Übung für die 1. Klasse läuft ohne Anmeldung direkt im Browser.",
+        "Das Ganze sitzt oben und die zwei Teile darunter, sodass das „Zusammensetzen\" für das Kind sichtbar wird. Es kann vom größeren Teil aus weiterzählen oder die Aufgabe einfach wissen; die Punkte in jedem Teil sind zum Mitzählen da, wenn eine Aufgabe noch nicht sicher sitzt. Die Antwort ist das Ganze oben im Zahlenbild.",
+        "Die Aktivität ist an den Lehrplänen für die 1. Klasse ausgerichtet — mit Addition zusammensetzen und im Zahlenraum bis 20 addieren. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Die zwei Teile eines Teil-Teil-Ganzes-Zahlenbildes lesen.",
+        "Die Teile zusammensetzen, um das Ganze bis 20 zu finden.",
+        "Vom größeren Teil aus weiterzählen, um geschickter zu addieren.",
+        "Die Gesamtzahl eintippen, die das Ganze benennt."
+      ],
+      "howToPlay": [
+        "Schau dir die zwei Teile im Zahlenbild an, etwa 7 + 4.",
+        "Zähle, wie viele es zusammen sind, tippe die Gesamtzahl ein und drücke dann auf Prüfen.",
+        "Noch nicht ganz richtig? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Zwei Zahlen bis 20 addieren, indem man die Teile zusammensetzt.",
+        "Ein Teil-Teil-Ganzes-Zahlenbild lesen und das fehlende Ganze finden.",
+        "Vom größeren Teil aus weiterzählen, um schneller zu addieren."
+      ]
+    },
+    "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
+      "about": [
+        "Tippe auf eine Platte, einen Stab oder einen Würfel und sieh zu, wie eine dreistellige Zahl wächst, während sich die Zehnersystem-Blöcke stapeln — Hunderterplatten, Zehnerstäbe und Einerwürfel bauen Zielzahlen von 108 bis 974 auf, samt kniffliger Nullen wie 200, 305 und 906. Diese kostenlose, interaktive Mathe-Übung für die 2. Klasse läuft ohne Konto direkt im Browser.",
+        "Die große Idee: Die drei Ziffern einer Zahl stehen für Hunderter, Zehner und Einer. Um 463 zu bauen, braucht das Kind vier Hunderterplatten, sechs Zehnerstäbe und drei Einerwürfel — und beim Zusehen, wie sich die Blöcke ansammeln, verbindet sich jede Ziffer mit einer echten Menge. Zahlen wie 305 und 906 zeigen ganz nebenbei, dass eine Null bedeutet: nichts an dieser Stelle — gar keine Zehnerstäbe. Genau dort beginnt sonst die Verwirrung beim Stellenwert.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Stellenwert für die 2. Klasse ausgerichtet — verstehen, dass die drei Ziffern einer dreistelligen Zahl Mengen an Hundertern, Zehnern und Einern darstellen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Eine dreistellige Zahl mit den richtigen Hundertern, Zehnern und Einern bauen.",
+        "Jede Ziffer mit einer Menge aus Platten, Stäben oder Würfeln verbinden.",
+        "Verstehen, dass eine Null an einer Stelle „nichts davon\" bedeutet.",
+        "Dreistellige Zahlen bis in die Hunderter lesen."
+      ],
+      "howToPlay": [
+        "Lies die Zielzahl, etwa 463.",
+        "Tippe, um Hunderterplatten, Zehnerstäbe und Einerwürfel hinzuzufügen, bis die Blöcke diese Zahl ergeben.",
+        "Schau zu, wie die Zahl wächst, und mach weiter — ohne Timer und ohne Punkte."
+      ],
+      "learningGoals": [
+        "Hunderter, Zehner und Einer in dreistelligen Zahlen verstehen.",
+        "Jede Ziffer mit ihrem Stellenwert und ihrer Menge verbinden.",
+        "Die Stellenwert-Grundlage für das Addieren, Subtrahieren und Vergleichen größerer Zahlen aufbauen."
+      ]
+    },
+    "ten-frame.show-the-operation.k-oa-a-1": {
+      "about": [
+        "Bei „3 + 2\" legt das Kind 3 Plättchen und dann 2 weitere in einer zweiten Farbe dazu, sodass die beiden Teile gut zu sehen sind; bei „5 − 2\" beginnt es mit 5 und tippt, um 2 wegzunehmen. Die Aufgabe besteht darin, das Rechnen auf dem Zehnerfeld zu zeigen — nicht eine Zahl einzutippen. Diese kostenlose, interaktive Mathe-Übung für den Kindergarten läuft ohne Anmeldung im Browser.",
+        "Die große Idee: Plus und Minus sind Handlungen, die man zeigen kann, nicht nur Ergebnisse, die man hinschreibt. Die zweite Plättchenfarbe macht die beiden Summanden als getrennte Gruppen sichtbar, und das Wegnehmen von Plättchen macht „wegnehmen\" ganz wörtlich. Das Kind stellt das Rechnen dar, statt eine Zahl einzutippen — so kommt die Bedeutung von Zusammenfügen und Auseinandernehmen vor dem reinen Rechnen.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Rechnen für den Kindergarten ausgerichtet — Addition und Subtraktion mit Gegenständen, Fingern, Zeichnungen und anderen Hilfsmitteln darstellen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Eine Addition zeigen, indem man zwei Gruppen Plättchen in zwei Farben legt.",
+        "Eine Subtraktion zeigen, indem man Plättchen aus einer Anfangsgruppe wegnimmt.",
+        "Die beiden Teile sehen, die zusammen ein Ganzes ergeben, auf dem Zehnerfeld.",
+        "Darstellen, was eine Plus- oder Minusaufgabe wirklich bedeutet."
+      ],
+      "howToPlay": [
+        "Lies die Aufgabe, etwa 3 + 2 oder 5 − 2.",
+        "Lege oder entferne Plättchen auf dem Zehnerfeld so, dass es die Aufgabe zeigt, und drücke dann auf Prüfen.",
+        "Noch nicht ganz richtig? Verändere die Plättchen und probiere es erneut — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Addition und Subtraktion mit Plättchen darstellen.",
+        "Addition als Zusammenfügen und Subtraktion als Wegnehmen verstehen.",
+        "Die Gewohnheit des Darstellens aufbauen, auf die Sachaufgaben und Rechensätze angewiesen sind."
+      ]
+    },
+    "choice-board.shape-id.k-g-a-2": {
+      "about": [
+        "Eine Aufforderung nennt eine Form — Kreis, Quadrat, Dreieck, Rechteck, Sechseck, Oval, Stern, Raute, Herz oder Fünfeck — und das Kind sucht sie aus vier abgebildeten Formen heraus und tippt sie an. Die Übung läuft direkt im Browser auf Tablet, Handy oder Klassenzimmer-Computer — kostenlos, interaktiv, ohne Installation und ohne Anmeldung.",
+        "Der Kern dieser Übung: Eine Form bleibt dieselbe Form, ganz gleich, wie sie gedreht ist oder wie groß sie gezeichnet wurde. Ein Dreieck, das auf der Spitze steht, oder ein winziges Quadrat ist immer noch ein Dreieck und immer noch ein Quadrat. Das Kind muss also die Form selbst erkennen und nicht ein einziges „Schulbuch-Bild“ davon. Die drei falschen Antworten sind andere echte Formen aus der Reihe, sodass man nicht durch Raten gewinnen kann — man muss wissen, welcher Name zu welcher Figur gehört.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie für den Kindergarten ausgerichtet — Formen unabhängig von ihrer Ausrichtung oder Größe richtig benennen. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Einen Formnamen unter vier Abbildungen der passenden Form zuordnen.",
+        "Eine Form auch dann erkennen, wenn sie gedreht oder größer bzw. kleiner gezeichnet ist.",
+        "Ähnliche Formen auseinanderhalten — ein Quadrat von einem Rechteck, ein Oval von einem Kreis, ein Sechseck von einem Fünfeck.",
+        "Den Formwortschatz für Kreis, Quadrat, Dreieck, Rechteck, Sechseck, Oval, Stern, Raute, Herz und Fünfeck aufbauen."
+      ],
+      "howToPlay": [
+        "Lies die Aufforderung oder hör sie dir an — sie nennt eine Form, die du finden sollst.",
+        "Schau dir die vier Formen an und tippe auf die, die zum Namen passt. Tippe dann auf Prüfen.",
+        "Noch nicht ganz? Probiere es so oft, wie du möchtest — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Kreise, Quadrate, Dreiecke, Rechtecke, Sechsecke und weitere Formen auf einen Blick benennen.",
+        "Verstehen, dass eine Form ihren Namen behält, egal wie sie gedreht oder wie groß sie ist.",
+        "Den Formwortschatz aufbauen, auf dem spätere Geometrie, das Sortieren und das Zeichnen aufbauen."
+      ]
+    },
+    "choice-board.flat-solid.k-g-a-3": {
+      "about": [
+        "Es erscheint immer nur eine Form, und das Kind tippt an, ob sie flach oder ein Körper ist — flache (2D-)Formen wie Kreis, Dreieck, Quadrat und Sechseck und Körper (3D) wie Würfel, Kugel, Zylinder und Kegel. Die kostenlose, interaktive Geometrie-Übung für den Kindergarten läuft direkt im Browser auf Tablet, Handy und Computer, ohne Installation und ohne Konto.",
+        "Der Kern dieser Übung ist der Unterschied zwischen einer Form, die man auf Papier zeichnen kann, und einer Form, die man in die Hand nehmen kann. Das Kind benennt die Formen hier nicht, sondern sortiert sie in zweidimensional und dreidimensional. Weil vertraute flache Formen mit ihren räumlichen Verwandten gemischt werden — ein Kreis neben einer Kugel, ein Quadrat neben einem Würfel — schaut das Kind genau darauf, ob eine Form Tiefe hat. Das ist der erste Schritt zum Verständnis von Körpern.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie für den Kindergarten ausgerichtet — Formen als zweidimensional (flach) oder dreidimensional (Körper) erkennen. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Flache (2D-)Formen von Körpern (3D) unterscheiden.",
+        "Kreis, Quadrat und Dreieck als flach und Würfel, Kugel und Kegel als Körper erkennen.",
+        "Darauf achten, ob eine Form Tiefe hat — etwas zum Festhalten oder zum Zeichnen.",
+        "Formen in zwei Gruppen einsortieren, statt sie nur zu benennen."
+      ],
+      "howToPlay": [
+        "Schau dir die Form auf dem Feld an.",
+        "Entscheide, ob sie flach oder ein Körper ist, und tippe auf das passende Feld. Tippe dann auf Prüfen.",
+        "Probiere es jederzeit erneut — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Formen als flach (zweidimensional) oder als Körper (dreidimensional) erkennen.",
+        "Eine flache Form mit ihrem räumlichen Verwandten verbinden, etwa ein Quadrat und einen Würfel.",
+        "Die Grundlage dafür legen, später 3D-Formen zu benennen und zu beschreiben."
+      ]
+    },
+    "choice-board.next-number.k-cc-a-2": {
+      "about": [
+        "Es erscheint eine Zahl von 1 bis 9, und das Kind tippt die Zahl an, die direkt danach kommt — bei einer 4 die 5, bei einer 8 die 9. Die kostenlose, interaktive Zähl-Übung für den Kindergarten läuft direkt im Browser auf Tablet, Handy und Computer, ohne Installation und ohne Konto.",
+        "Der Kern dieser Übung ist das Weiterzählen von einer vorgegebenen Zahl aus, statt immer wieder bei eins anzufangen. Die Auswahlmöglichkeiten sind Zahlen von 0 bis 10, die nah an der richtigen Antwort liegen, sodass das Kind wirklich wissen muss, was als Nächstes kommt, und nicht raten kann. Genau diese Fähigkeit — mitten in der Zahlenreihe weiterzuzählen — macht das Zählen schnell und beweglich.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zählen für den Kindergarten ausgerichtet — von einer vorgegebenen Zahl aus innerhalb der bekannten Zahlenreihe weiterzählen. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Die Zahl benennen, die direkt nach einer vorgegebenen Zahl von 1 bis 9 kommt.",
+        "Mitten in der Zahlenreihe weiterzählen, statt bei eins zu beginnen.",
+        "Die Reihenfolge der Zahlen so gut kennen, dass man die nächste sofort findet.",
+        "Bewegliches Zählen aufbauen, das nicht jedes Mal einen Neustart braucht."
+      ],
+      "howToPlay": [
+        "Schau dir die Zahl an, die auf dem Feld gezeigt wird.",
+        "Tippe auf die Zahl, die direkt danach kommt. Tippe dann auf Prüfen.",
+        "Noch nicht ganz? Probiere es so oft, wie du möchtest — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Von einer vorgegebenen Zahl aus weiterzählen.",
+        "Wissen, welche Zahl in der Zahlenreihe bis 10 als Nächstes kommt.",
+        "Die Zähl-Sicherheit aufbauen, auf der das Addieren und das Zahlenverständnis aufbauen."
+      ]
+    },
+    "choice-board.read-ruler.2-md-a-1": {
+      "about": [
+        "Ein Gegenstand liegt an einem Zentimeter-Lineal — ein Bleistift, ein Band, ein Buntstift, ein Filzstift — und das Kind liest ab, wie lang er ist, und tippt die Länge in Zentimetern an. Die Längen reichen von einem kurzen 5-cm-Buntstift bis zu einem 14-cm-Filzstift oder einem 17-cm-Stab. Die kostenlose, interaktive Mathe-Übung für die 2. Klasse läuft direkt im Browser, ohne Anmeldung.",
+        "Der Kern dieser Übung ist das richtige Ablesen eines Lineals: das linke Ende des Gegenstands genau auf die Null legen, dem Gegenstand bis zum anderen Ende folgen und dort die Markierung ablesen. Das Kind schätzt nicht, sondern liest eine genaue Länge von der Skala ab. Weil die Antwortmöglichkeiten nahe beieinander liegende Zahlen sind, fällt der klassische Mess-Fehler auf — bei der 1 statt bei der 0 anzulegen. So entsteht die Gewohnheit, jede Messung bei null zu beginnen.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Größen und Messen für die 2. Klasse ausgerichtet — die Länge eines Gegenstands mit einem passenden Werkzeug wie dem Lineal messen. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Die Länge eines Gegenstands in Zentimetern am Lineal ablesen.",
+        "Das linke Ende des Gegenstands bei der 0 anlegen, bevor man das andere Ende abliest.",
+        "Die Zentimeter-Markierung finden, bei der der Gegenstand endet.",
+        "Den häufigen Fehler vermeiden, eine Messung bei der 1 statt bei der 0 zu beginnen."
+      ],
+      "howToPlay": [
+        "Schau dir den Gegenstand auf dem Lineal an und prüfe, ob sein linkes Ende bei der 0 liegt.",
+        "Folge ihm bis zum anderen Ende, lies die Zentimeter-Markierung ab und tippe diese Zahl an. Tippe dann auf Prüfen.",
+        "Probiere es jederzeit erneut — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Längen in Zentimetern mit einem Lineal messen.",
+        "Eine Mess-Skala richtig ab der Null ablesen.",
+        "Sichere Mess-Gewohnheiten für längere Strecken und andere Werkzeuge aufbauen."
+      ]
+    },
+    "fractions.partition-equal-shares.1-g-a-3": {
+      "about": [
+        "Es erscheint eine Form — ein Kreis, Quadrat, Rechteck, Dreieck, eine Ellipse, Raute, ein Sechseck oder Fünfeck — und das Kind tippt die Schnittlinien an, um sie in 2 gleiche Teile (Hälften) oder 4 gleiche Teile (Viertel) zu teilen. Die kostenlose, interaktive Geometrie-Übung für die 1. Klasse läuft im Browser auf jedem Gerät, ohne Anmeldung.",
+        "Der Kern dieser Übung ist, dass gleiche Teile gerecht sein müssen — die Stücke müssen gleich groß sein. Weil viele verschiedene Formen geschnitten werden und nicht nur Kreise, wird klar: Bei Hälften und Vierteln geht es um gleich große Flächen und nicht um ein einziges vertrautes Bild. Ein Quadrat, das in vier Felder geteilt ist, und ein Kreis, der in vier Teile geteilt ist, zeigen beide Viertel. Weil das Kind selbst schneidet, macht es die Teile selbst gleich groß, statt nur ein fertiges Bild wiederzuerkennen.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie für die 1. Klasse ausgerichtet — Kreise und Rechtecke in zwei und vier gleiche Teile teilen und sie als Hälften und Viertel beschreiben. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Kreise, Quadrate und andere Formen in gleiche Teile schneiden.",
+        "2 gleiche Teile (Hälften) und 4 gleiche Teile (Viertel) machen.",
+        "Die Stücke gleich groß halten, damit die Teile gerecht sind.",
+        "Hälften und Viertel an vielen verschiedenen Formen sehen."
+      ],
+      "howToPlay": [
+        "Schau dir die Form an und merke dir, in wie viele gleiche Teile du sie teilen sollst.",
+        "Tippe die Schnittlinien an, um sie in Hälften oder Viertel zu teilen.",
+        "Achte darauf, dass die Stücke gleich groß sind — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Formen in zwei und vier gleiche Teile teilen.",
+        "Die gleichen Teile als Hälften und Viertel beschreiben.",
+        "Die Grundlage des gerechten Teilens aufbauen, auf der spätere Bruchrechnung aufbaut."
+      ]
+    },
+    "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
+      "about": [
+        "Kinder verbinden die Karten, die denselben Wert zeigen — die Ziffer (305), die Zahl in Worten (dreihundertfünf) und die Stellenwertschreibweise (300 + 5). Sie tippen auf eine Karte und dann auf eine Karte, die zum gleichen Wert passt, bis das Dreier-Paar verbunden ist. Das kostenlose, interaktive Mathe-Kartenspiel für die 2. Klasse läuft direkt im Browser — ohne Installation, ohne Konto.",
+        "Der Kern dieser Übung ist, dass eine Ziffer, ihr Zahlwort und ihre Stellenwertschreibweise alle dieselbe Zahl benennen — und gerade die leeren Stellen machen es spannend. Bei Zahlen wie 305 und 208 steht an der Zehnerstelle eine Null, sodass die Stellenwertschreibweise 300 + 5 lautet und nicht 300 + 0 + 5. Das Kind muss genau lesen, um „zweihundertacht“ der 208 zuzuordnen und nicht der 280. In jeder Runde gibt es drei verschiedene Zahlen gleichzeitig zu sortieren.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Stellenwert für die 2. Klasse ausgerichtet — Zahlen bis 1000 als Ziffern, als Zahlwörter und in Stellenwertschreibweise lesen und schreiben. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Eine Ziffer, ihr Zahlwort und ihre Stellenwertschreibweise verbinden.",
+        "Dreistellige Zahlwörter wie neunhundertvierzig lesen.",
+        "Die Stellenwertschreibweise richtig schreiben, wenn eine Stelle eine Null hat, etwa 600 + 5.",
+        "Nah beieinander liegende Zahlen wie 208 und 280 auseinanderhalten."
+      ],
+      "howToPlay": [
+        "Schau dir die Karten an — Ziffern wie 562, Wörter wie fünfhundertzweiundsechzig und Stellenwertschreibweisen wie 500 + 60 + 2.",
+        "Tippe auf eine Karte und dann auf eine andere Karte, die dieselbe Zahl zeigt, und sieh zu, wie sich das Paar verbindet.",
+        "Finde alle drei Zahlen der Runde — es gibt keinen Timer und keine Punkte, also lass dir Zeit."
+      ],
+      "learningGoals": [
+        "Zahlen bis 1000 als Ziffern, als Zahlwörter und in Stellenwertschreibweise lesen und schreiben.",
+        "Verstehen, dass verschiedene Schreibweisen denselben Wert benennen können.",
+        "Das Stellenwertverständnis stärken, auch bei Zahlen mit einer Null an einer Stelle."
+      ]
+    },
+    "money.count-out.2-md-c-8": {
+      "about": [
+        "Kinder bauen einen vorgegebenen Betrag Münze für Münze auf und tippen Cent- und Euro-Münzen in die Schale, bis das Geld genau stimmt — 30 Cent aus einer 20-Cent- und einer 10-Cent-Münze oder 15 Cent aus einer 10-Cent- und einer 5-Cent-Münze. Die kostenlose, interaktive Mathe-Übung für die 2. Klasse läuft direkt im Browser, ohne Installation und ohne Konto.",
+        "Der Kern dieser Übung ist, dass der Wert einer Münze nicht an ihrer Größe abzulesen ist. Das Kind muss wissen, was jede Münze wert ist, und beim Legen mitrechnen. Eine kleine Münze kann mehr wert sein als eine größere, und eine einzige große Münze kann eine ganze Handvoll kleiner Münzen aufwiegen. Jeden Betrag durch das Auswählen und Hinzufügen von Münzen zu erreichen, baut genau das fortlaufende Zusammenzählen auf, das man beim echten Umgang mit Geld braucht.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Rechnen mit Geld für die 2. Klasse ausgerichtet — Sachaufgaben mit Euro und Cent lösen und die Zeichen € und Cent verwenden. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Den Wert der Cent- und Euro-Münzen kennen.",
+        "Münzwerte zusammenzählen, um einen genauen Betrag zu erreichen.",
+        "Beim Auswählen der Münzen einen laufenden Gesamtbetrag im Kopf behalten.",
+        "Verstehen, dass der Wert einer Münze nicht von ihrer Größe abhängt."
+      ],
+      "howToPlay": [
+        "Lies den Zielbetrag der Runde, zum Beispiel 40 Cent.",
+        "Tippe Münzen in die Schale — Cent- und Euro-Münzen —, bis der Gesamtbetrag stimmt.",
+        "Noch nicht ganz? Lege Münzen dazu oder nimm welche weg und probiere es erneut — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Münzen abzählen, um einen vorgegebenen Betrag zu legen.",
+        "Die Zeichen € und Cent verwenden und den Wert jeder Münze kennen.",
+        "Das Geldverständnis aufbauen, das man beim Abzählen und Einkaufen im Alltag braucht."
+      ]
+    },
+    "numberbond.subtraction-unknown-addend.1-oa-b-4": {
+      "about": [
+        "Eine Subtraktion wie 8 − 3 erscheint als Zahlenbild — das Ganze (8) und ein Teil (3) sind vorgegeben — und das Kind ergänzt den fehlenden Teil. Die kostenlose, interaktive Mathe-Übung für die 1. Klasse läuft direkt im Browser, ohne Anmeldung.",
+        "Der Kern dieser Übung ist, Subtraktion als „Was kommt zu 3 dazu, damit 8 entsteht?“ zu lesen — als gesuchten Summanden und nicht als Wegnehmen. Das Kind füllt den leeren Teil auf, bis die beiden Teile zusammen wieder das Ganze ergeben. So tut es genau das, was den tiefen Zusammenhang zwischen Subtraktion und Addition ausmacht. Die Runden reichen bis zu einem Ganzen von 16.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Rechenoperationen für die 1. Klasse ausgerichtet — Subtraktion als Aufgabe mit gesuchtem Summanden verstehen. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Eine Subtraktion als Ganzes mit einem fehlenden Teil sehen.",
+        "Überlegen: „Was kommt zum bekannten Teil dazu, damit das Ganze entsteht?“",
+        "Den fehlenden Teil ergänzen, bis beide Teile zusammen das Ganze wieder ergeben.",
+        "Subtraktion mit Addition verbinden (3 und 5 ergeben 8)."
+      ],
+      "howToPlay": [
+        "Schau dir das Zahlenbild an — das Ganze und ein Teil sind vorgegeben, etwa 8 mit 3.",
+        "Ergänze den fehlenden Teil, bis die beiden Teile das Ganze ergeben. Tippe dann auf Prüfen.",
+        "Noch nicht ganz? Passe den Teil an und prüfe erneut — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Subtraktion als Suche nach dem gesuchten Summanden verstehen.",
+        "Den fehlenden Teil finden, wenn das Ganze und ein Teil bekannt sind.",
+        "Sehen, wie Addition und Subtraktion einander aufheben."
+      ]
+    },
+    "place-value.expanded-form.2-nbt-a-3": {
+      "about": [
+        "Kinder bauen eine dreistellige Zahl aus Zehnersystem-Blöcken — sie tippen Hunderterplatten, Zehnerstäbe und Einerwürfel hinzu — und wenn der Aufbau stimmt, zeigen die Blöcke die erweiterte Form: aus 247 wird 200 + 40 + 7. Die Zielzahlen reichen von 108 bis 974 und enthalten auch knifflige Zahlen wie 305. Die kostenlose, interaktive Mathe-Übung für die 2. Klasse läuft direkt im Browser, ohne Konto.",
+        "Der Kern dieser Übung ist, dass eine Zahl die Summe der Werte ihrer einzelnen Ziffern ist. Wenn das Kind 247 aus zwei Hundertern, vier Zehnern und sieben Einern baut, sieht es, dass die 4 für 40 steht und nicht nur für „vier“. Zahlen mit einer Null sind dabei die wichtigsten Lehrmeister: 305 zeigt, dass eine leere Zehnerstelle nichts hinzufügt, sodass die erweiterte Form nur 300 + 5 lautet. Die Blöcke verbinden die Ziffern mit ihrem echten Wert.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Stellenwert für die 2. Klasse ausgerichtet — dreistellige Zahlen in erweiterter Form lesen und schreiben. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Eine dreistellige Zahl aus Hundertern, Zehnern und Einern bauen.",
+        "Die Zahl in erweiterter Form lesen, etwa 247 = 200 + 40 + 7.",
+        "Sehen, dass der Wert jeder Ziffer von ihrer Stelle abhängt.",
+        "Zahlen mit einer Null an einer Stelle bewältigen, etwa 305 = 300 + 5."
+      ],
+      "howToPlay": [
+        "Tippe, um Hunderterplatten, Zehnerstäbe und Einerwürfel hinzuzufügen, bis du die Zielzahl gebaut hast.",
+        "Wenn der Aufbau stimmt, zeigen die Blöcke die erweiterte Form, etwa 200 + 40 + 7.",
+        "Geh weiter zur nächsten Zahl — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Dreistellige Zahlen in erweiterter Form lesen und schreiben.",
+        "Verstehen, dass eine Zahl die Summe ihrer Stellenwerte ist.",
+        "Das Stellenwertverständnis aufbauen, das das Addieren und Vergleichen von Zahlen stützt."
+      ]
+    },
+    "ten-frame.solve-the-story.k-oa-a-2": {
+      "about": [
+        "„3 Vögel sitzen auf einem Ast, 2 weitere landen — wie viele sind es jetzt?“ Eine kleine Geschichte erscheint, das Kind stellt sie mit Plättchen auf dem Zehnerfeld nach, um zu entscheiden, ob es zusammenlegt oder wegnimmt, und tippt dann die Antwort auf dem Zahlenfeld ein. Die kostenlose, interaktive Mathe-Übung für den Kindergarten behandelt Textaufgaben im Zahlenraum bis 10 und läuft im Browser, ohne Konto.",
+        "Bei Textaufgaben treffen Zahlen auf Bedeutung. Das Kind muss entscheiden, ob die Geschichte Gruppen zusammenlegt oder etwas wegnimmt — das ist schwerer, als ein fertiges Plus- oder Minuszeichen vorgesetzt zu bekommen. Das Zehnerfeld ist eine Hilfe, mit der das Kind die Geschichte nachstellen kann, doch die Antwort kommt auf das Zahlenfeld. Die eigentliche Arbeit ist also: lesen, die Rechenart erkennen und dann zur Sicherheit zählen.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Rechenoperationen für den frühen Mathematikunterricht ausgerichtet — Plus- und Minus-Textaufgaben im Zahlenraum bis 10 mit Hilfe von Gegenständen oder Zeichnungen lösen. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Eine kurze Geschichte lesen und entscheiden, ob man addiert oder subtrahiert.",
+        "Eine Textaufgabe mit Plättchen auf dem Zehnerfeld nachstellen.",
+        "Plus- und Minus-Situationen im Zahlenraum bis 10 lösen.",
+        "Die Antwort auf eine alltagsnahe Frage nach Mengen eintippen."
+      ],
+      "howToPlay": [
+        "Lies die Textaufgabe, zum Beispiel: 3 Vögel sitzen und 2 weitere landen.",
+        "Stelle sie mit Plättchen auf dem Zehnerfeld nach, tippe dann auf dem Zahlenfeld ein, wie viele es sind, und tippe auf Prüfen.",
+        "Noch nicht ganz? Lies die Geschichte noch einmal und probiere es erneut — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Plus- und Minus-Textaufgaben im Zahlenraum bis 10 lösen.",
+        "Aus der Bedeutung einer Geschichte die richtige Rechenart wählen.",
+        "Die Fähigkeit zum Problemlösen aufbauen, auf der spätere Mathematik beruht."
+      ]
+    },
+    "choice-board.count-sides.k-g-b-4": {
+      "about": [
+        "Eine einzelne Form erscheint auf dem Spielfeld, und das Kind zählt ihre geraden Seiten: ein Dreieck mit 3 Seiten, ein Quadrat mit 4, ein Fünfeck mit 5 oder ein Sechseck mit 6. Anschließend tippt es die passende Zahl an, die aus Vorschlägen zwischen 3 und 8 ausgewählt wird. Diese kostenlose, interaktive Geometrie-Übung für den Kindergarten läuft direkt im Browser auf Tablet, Handy oder Klassenraum-Computer — ohne Installation und ohne Anmeldung.",
+        "Die eigentliche Idee: Eine Form ist mehr als ihr Name — sie besteht aus Teilen, die man zählen kann. Es reicht nicht, „ein Dreieck“ zu erkennen; das Kind muss mit den Augen jede Kante einzeln nachfahren und die Seiten Stück für Stück zählen. Weil unter den Zahlen auch knappe Nachbarn wie 5 neben 6 stehen, fällt ein Verzählen um eins sofort auf — das lädt zum sorgfältigen Zählen ein, statt schnell zu raten.",
+        "Die Aktivität ist am Lehrplan im Bereich Geometrie ausgerichtet — Formen anhand ihrer Teile beschreiben und vergleichen, etwa nach der Anzahl der Seiten. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Die geraden Seiten von Dreieck, Quadrat, Fünfeck und Sechseck zählen.",
+        "Eine Form mit einer Zahl verbinden — wie viele Seiten sie hat, nicht nur ihren Namen.",
+        "Sorgfältig Seite für Seite zählen, statt die Anzahl auf einen Blick zu raten.",
+        "Formen an ihren Teilen unterscheiden, etwa fünf Seiten gegenüber sechs."
+      ],
+      "howToPlay": [
+        "Schau dir die Form auf dem Spielfeld an und zähle ihre geraden Seiten, eine nach der anderen.",
+        "Tippe die Zahl an, die zu deiner gezählten Seitenanzahl passt, und tippe dann auf Prüfen.",
+        "Stimmt es noch nicht? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Die Anzahl der Seiten gängiger Formen zählen.",
+        "Eine Form über ihre Teile beschreiben, statt sie nur zu benennen.",
+        "Die Gewohnheiten des genauen Zählens und Form-Betrachtens aufbauen, auf denen spätere Geometrie aufbaut."
+      ]
+    },
+    "choice-board.pick-smaller.k-c-c-7": {
+      "about": [
+        "Zwei geschriebene Zahlen stehen nebeneinander, und das Kind tippt die kleinere an — etwa 3 und 5 oder 8 und 9. Manche Paare liegen weit auseinander, wie 1 und 9, andere dicht beieinander, wie 5 und 6. Diese kostenlose, interaktive Zähl-Übung für den Kindergarten läuft direkt im Browser, ganz ohne Konto.",
+        "Hier geht es darum, Zahlen nach ihrem Wert zu vergleichen und dabei auf das Weniger statt auf das Mehr zu achten — eine kleine, aber wichtige Umstellung der Aufmerksamkeit. Es gibt nichts zu zählen; das Kind liest jede Ziffer und entscheidet, welche Zahl kleiner ist. Die Nachbarpaare machen die Aufgabe echt: Zu wissen, dass die 8 direkt vor der 9 kommt, verrät, dass 8 die kleinere ist.",
+        "Die Aktivität ist am Lehrplan ausgerichtet — zwei Zahlen von 1 bis 10 in geschriebener Form vergleichen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Zwei geschriebene Zahlen von 1 bis 10 vergleichen und die kleinere finden.",
+        "Ziffern lesen und ihren Wert kennen, ohne Gegenstände zu zählen.",
+        "Die Aufmerksamkeit auf das Weniger lenken statt auf das Mehr.",
+        "Auch enge Paare wie 8 und 9 sicher unterscheiden, nicht nur weit entfernte."
+      ],
+      "howToPlay": [
+        "Schau dir die beiden Zahlen auf dem Spielfeld an.",
+        "Tippe die kleinere Zahl an und tippe dann auf Prüfen.",
+        "Du kannst es jederzeit erneut versuchen — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Geschriebene Zahlen von 1 bis 10 vergleichen und die kleinere wählen.",
+        "Den Wert kennen, für den jede Ziffer steht, ohne zu zählen.",
+        "Das Vergleichsgefühl aufbauen, das später dem Kleiner-als-Denken zugrunde liegt."
+      ]
+    },
+    "choice-board.read-sight-word.rf-k-3-c": {
+      "about": [
+        "Das Kind hört ein häufiges Wort laut vorgelesen und tippt dann unter ähnlich aussehenden Auswahlmöglichkeiten das passende geschriebene Wort an — alltägliche Wörter wie und, die, ist, ein, war und sie, die in ersten Lesetexten ständig auftauchen. Diese kostenlose, interaktive Leseübung für die 1. Klasse läuft direkt im Browser auf Tablet, Handy und Computer — ohne Installation und ohne Anmeldung.",
+        "Der Kern: häufige Wörter sofort auf einen Blick wiedererkennen, damit das Lesen ins Fließen kommt. Viele dieser Wörter lassen sich nicht sauber Laut für Laut erlesen, deshalb sind die falschen Antworten nahe Verwandte — die neben der, war neben wir — und das Kind muss genau das richtige Wort kennen, nicht nur eine ähnliche Form. Das Wort zu hören und im Druck wiederzufinden verbindet Klang und Schreibweise bei den Wörtern, die Kinder am häufigsten treffen.",
+        "Die Übung ist am Lehrplan der 1. Klasse ausgerichtet — häufige Wörter sicher auf einen Blick lesen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Häufige Wörter wie und, die, ist und war auf einen Blick wiedererkennen.",
+        "Ein gehörtes Wort seiner geschriebenen Form zuordnen.",
+        "Ähnlich aussehende Wörter unterscheiden, etwa die und der oder war und wir.",
+        "Das schnelle Wiedererkennen aufbauen, das flüssiges Lesen ausmacht."
+      ],
+      "howToPlay": [
+        "Hör dir das vorgelesene Wort an — tippe darauf, um es noch einmal zu hören.",
+        "Tippe das geschriebene Wort an, das zu dem passt, was du gehört hast, und tippe dann auf Prüfen.",
+        "Stimmt es noch nicht? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Häufige Wörter sicher auf einen Blick lesen.",
+        "Ein gehörtes Wort mit seiner genauen Schreibweise unter ähnlichen Wörtern verbinden.",
+        "Den Wortschatz an Sichtwörtern aufbauen, der den Kopf frei macht, um den Sinn des Gelesenen zu erfassen."
+      ]
+    },
+    "choice-board.letter-case.rf-k-1-d": {
+      "about": [
+        "Ein Buchstabe erscheint, und das Kind tippt denselben Buchstaben in seiner anderen Form an — vom großen zum kleinen oder vom kleinen zum großen. Ein großes B sucht das kleine b, ein großes R findet r, ein großes E findet e. Diese kostenlose, interaktive Leseübung für den Kindergarten läuft direkt im Browser, ganz ohne Anmeldung.",
+        "Der Kern: Jeder Buchstabe hat zwei Gestalten, die denselben Buchstaben benennen. Die falschen Antworten liegen bewusst nah beieinander — zum B werden als kleine Buchstaben b, d, p und h angeboten — sodass das Kind die echte Form des Buchstabens kennen muss und nicht einfach etwas Rundes wählt. Gerade die Buchstaben auseinanderzuhalten, die sich spiegeln und drehen, wie b und d, ist genau das genaue Hinsehen, das sichere Buchstabenkenntnis aufbaut.",
+        "Die Aktivität ist am Lehrplan der Grundschule ausgerichtet — alle großen und kleinen Buchstaben des Alphabets erkennen und benennen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Einen großen Buchstaben seiner kleinen Form zuordnen — und umgekehrt.",
+        "Denselben Buchstaben in seiner großen und seiner kleinen Gestalt wiedererkennen.",
+        "Ähnlich aussehende Buchstaben wie b, d und p unterscheiden.",
+        "Die sichere Buchstabenkenntnis aufbauen, die flüssiges Lesen braucht."
+      ],
+      "howToPlay": [
+        "Schau dir den Buchstaben auf dem Spielfeld an.",
+        "Tippe seinen passenden Buchstaben in der anderen Form an — groß oder klein — und tippe dann auf Prüfen.",
+        "Du kannst es jederzeit erneut versuchen — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Große und kleine Buchstaben erkennen und benennen.",
+        "Die zwei Formen jedes Buchstabens als einen Buchstaben verbinden.",
+        "Die leicht zu verwechselnden Buchstaben festigen, die junge Leser oft durcheinanderbringen."
+      ]
+    },
+    "fractions.partition-thirds.2-g-a-3": {
+      "about": [
+        "Ein Kreis, ein Dreieck, ein Sechseck, ein Quadrat, ein Rechteck, eine Raute oder eine Ellipse erscheint, und das Kind tippt auf die Schnittlinien, um die Form in drei gleiche Teile zu teilen — in Drittel. Diese kostenlose, interaktive Geometrie-Übung für die 2. Klasse läuft im Browser auf jedem Gerät, ohne Installation und ohne Konto.",
+        "Der Kern: Drittel sind kniffliger als Hälften, weil drei gleiche Teile nicht auf eine offensichtliche Mittellinie fallen. Ein Kreis wird mit drei Linien aus der Mitte geteilt, ein Rechteck in drei gleich breite Streifen, ein Dreieck in drei passende Teile — so lernt das Kind, dass „Drittel“ drei gleich große Anteile bedeutet, egal wie die Form geschnitten wird. Die Schnitte selbst zu setzen baut ein Gefühl für gleiches Teilen auf, das bloßes Anschauen eines Bildes nicht vermitteln kann.",
+        "Die Aktivität ist am Lehrplan ausgerichtet — Kreise und Rechtecke in zwei, drei oder vier gleiche Anteile teilen und die Anteile mit dem Wort Drittel beschreiben. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Eine Form in 3 gleiche Teile schneiden.",
+        "Drittel bei Kreisen, Rechtecken, Dreiecken und mehr bilden.",
+        "Alle drei Teile gleich groß halten.",
+        "Das Wort Drittel für drei gleiche Anteile verwenden."
+      ],
+      "howToPlay": [
+        "Schau dir die Form an, die du in 3 gleiche Teile schneiden sollst.",
+        "Tippe auf die Schnittlinien, um Drittel zu bilden.",
+        "Prüfe, ob die drei Teile gleich groß sind — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Formen in drei gleiche Anteile teilen und sie Drittel nennen.",
+        "Verstehen, dass Drittel drei gleich große Teile sein müssen, egal wie die Form geschnitten ist.",
+        "Das Gefühl für gleiches Teilen stärken, auf dem die Bruchrechnung aufbaut."
+      ]
+    },
+    "match-pairs.find-the-missing-number.1-oa-d-8": {
+      "about": [
+        "Das Kind löst Karten wie ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 und 10 − ? = 6 und tippt dann erst die Aufgabe und danach die Zahl an, die sie vervollständigt — so verbinden sich die beiden zu einem Paar. Diese kostenlose, interaktive Mathe-Übung für die 1. Klasse läuft direkt im Browser, ohne Installation und ohne Konto.",
+        "Der Kern: Die Lücke kann an jeder Stelle stehen — ein fehlender Summand, eine fehlende abzuziehende Zahl, die Ausgangszahl oder das Ganze — deshalb muss das Kind jedes Mal die Beziehung neu durchdenken, statt immer nur „dazuzuzählen, um die Antwort zu finden“. Mal ist die Lücke das Ganze (5 + 4 = ?), mal steckt sie mitten in der Aufgabe (? − 4 = 1) — das baut echte Beweglichkeit im Umgang mit Zahlenfamilien auf.",
+        "Die Aktivität ist am Lehrplan ausgerichtet — die unbekannte Zahl in einer Plus- oder Minusaufgabe finden, an jeder beliebigen Stelle. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Einen fehlenden Summanden, eine fehlende abzuziehende Zahl, eine fehlende Ausgangszahl oder das Ganze finden.",
+        "Die Beziehung zwischen Plus und Minus nutzen, um das Unbekannte zu bestimmen.",
+        "Vorwärts- oder Rückwärtszählen, um einen fehlenden Teil zu finden.",
+        "Jede Aufgabe mit der Zahl verbinden, die sie wahr macht."
+      ],
+      "howToPlay": [
+        "Lies eine Aufgabenkarte mit einer Lücke, etwa ? + 7 = 10, und überlege dir die fehlende Zahl.",
+        "Tippe erst die Aufgabe an, dann die Zahl, die sie wahr macht, und sieh zu, wie sich das Paar verbindet.",
+        "Verbinde beide Paare in der Runde — es gibt keinen Timer und keine Punkte, also lass dir Zeit."
+      ],
+      "learningGoals": [
+        "Die unbekannte Zahl in einer Plus- oder Minusaufgabe an jeder Stelle finden.",
+        "Verstehen, wie Plus und Minus einander aufheben.",
+        "Bewegliches Denken mit Zahlenfamilien aufbauen, statt nur ein festes Verfahren."
+      ]
+    },
+    "money.make-change.2-md-c-8": {
+      "about": [
+        "Etwas kostet 70 Cent, und du bezahlst mit 1 Euro — das Kind gibt das richtige Wechselgeld heraus, hier 30 Cent, indem es passende Münzen in die Ablage tippt. Den Unterschied auszurechnen und ihn aus Münzen zusammenzustellen verbindet das Minusrechnen mit handfestem Münzenzählen. Diese kostenlose, interaktive Geld-Übung für die 2. Klasse läuft direkt im Browser, ohne Installation und ohne Konto.",
+        "Der Kern: Wechselgeld ist der Unterschied zwischen dem, was bezahlt wurde, und dem, was etwas kostet. Das Kind rechnet zuerst aus, wie viel zurückkommt, und baut diesen Betrag dann aus selbst gewählten Münzen zusammen. Weil der Wert nicht auf jeder Münze geschrieben steht, muss das Kind wissen, wie viel jede Münze wert ist, und vom Preis bis zum bezahlten Betrag hochzählen.",
+        "Die Aktivität ist am Lehrplan ausgerichtet — Sachaufgaben mit Geld lösen und mit Euro und Cent rechnen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Das fällige Wechselgeld als Unterschied zwischen bezahltem Betrag und Preis bestimmen.",
+        "Einen Wechselgeldbetrag aus einzelnen Münzen zusammenstellen.",
+        "Das Minusrechnen mit dem Zählen echter Münzen verbinden.",
+        "Vom Preis bis zum bezahlten Betrag hochzählen."
+      ],
+      "howToPlay": [
+        "Lies, was der Gegenstand kostet und womit du bezahlst, zum Beispiel: er kostet 85 Cent und du zahlst mit 1 Euro.",
+        "Rechne das Wechselgeld aus und tippe dann Münzen in die Ablage, um den richtigen Betrag herauszugeben.",
+        "Stimmt es noch nicht? Ändere die Münzen und versuch es erneut — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "In Sachaufgaben mit Münzen Wechselgeld herausgeben.",
+        "Wechselgeld als Unterschied zwischen Preis und bezahltem Betrag verstehen.",
+        "Minusrechnen und Münzenzählen mit Euro und Cent zugleich stärken."
+      ]
+    },
+    "numberbond.add-three.1-oa-a-2": {
+      "about": [
+        "Ein Zahlenbild mit drei Teilen führt drei Zahlen, etwa 3, 4 und 5, zu einem Ganzen zusammen, und das Kind addiert alle drei und tippt die Gesamtzahl auf dem Zahlenfeld ein. Diese kostenlose, interaktive Mathe-Übung für die 1. Klasse läuft direkt im Browser, ganz ohne Konto.",
+        "Wenn drei Teile zu einem Ganzen zusammenfließen, zeigt sich: Man darf Zahlen in jeder Reihenfolge und Schritt für Schritt zusammenfügen. Paare wie 4 + 4 + 5 laden leise dazu ein, zuerst eine glatte Zahl zu bilden und dann den letzten Teil dazuzulegen. Das Kind liest die drei Teile und tippt die Summe ein; die Punkte in jedem Teil sind zum Mitzählen da, wenn eine Aufgabe noch nicht automatisch sitzt.",
+        "Die Aktivität ist am Lehrplan der 1. Klasse ausgerichtet — drei Zahlen addieren, deren Summe im Zahlenraum bis 20 liegt. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Drei Teile eines Zahlenbildes lesen und sehen, wie sie zu einem Ganzen zusammenkommen.",
+        "Drei einstellige Zahlen mit einer Summe bis 20 addieren.",
+        "Eine geschickte Reihenfolge wählen — zuerst die zwei Zahlen addieren, die zehn oder eine glatte Zahl ergeben.",
+        "Die Gesamtzahl eintippen, die das Ganze benennt."
+      ],
+      "howToPlay": [
+        "Schau dir die drei Teile im Zahlenbild an, etwa 3 + 4 + 5.",
+        "Addiere alle drei Zahlen, tippe die Gesamtzahl auf dem Zahlenfeld ein und tippe dann auf Prüfen.",
+        "Stimmt es noch nicht? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Drei Zahlen im Zahlenraum bis 20 addieren.",
+        "Sehen, wie sich drei Teile in einem Zahlenbild zu einem Ganzen verbinden.",
+        "In einer geschickten Reihenfolge rechnen, indem man zuerst zehn oder eine glatte Zahl bildet."
+      ]
+    },
+    "sort-bins.sort-by-sides.2-g-a-1": {
+      "about": [
+        "In jeder Runde fällt ein Durcheinander aus Formen herunter — rechtwinklige und stumpfwinklige Dreiecke, Quadrate, Rauten, unregelmäßige Fünf- und Sechsecke —, und das Kind zählt bei jeder die Ecken und zieht sie in den passenden Korb. Diese kostenlose, interaktive Geometrie-Übung für die 2. Klasse läuft im Browser, ganz ohne Anmeldung.",
+        "Entscheidend ist, die Ecken zu zählen, statt ein eingeprägtes Bild abzugleichen — denn eine in die Länge gezogene oder gekippte Form mit fünf Ecken bleibt ein Fünfeck. Indem das Kind unregelmäßigen und gedrehten Formen neben den ordentlichen begegnet, übt es, die Anzahl der Ecken als Regel zu nutzen, die ein Vieleck benennt. Das baut die Begriffe — Viereck, Fünfeck, Sechseck — und die Gewohnheit auf, Formen nach ihren Teilen zu untersuchen.",
+        "Die Aktivität ist am Lehrplan ausgerichtet — Formen mit bestimmten Merkmalen wie einer vorgegebenen Anzahl von Ecken erkennen und Dreiecke, Vierecke, Fünfecke und Sechsecke benennen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Die Ecken einer Form zählen, um zu entscheiden, zu welcher Vielecke-Gruppe sie gehört.",
+        "Dreiecke, Vierecke, Fünfecke und Sechsecke an ihrer Eckenzahl unterscheiden.",
+        "Dasselbe Vieleck wiedererkennen, auch wenn es unregelmäßig, gestreckt oder gedreht ist.",
+        "Die Wörter Viereck, Fünfeck und Sechseck richtig verwenden."
+      ],
+      "howToPlay": [
+        "Schau dir jede Form an und zähle, wie viele Ecken sie hat.",
+        "Zieh sie in den passenden Korb — Dreiecke, Vierecke, Fünfecke oder Sechsecke.",
+        "Stimmt es noch nicht? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Dreiecke, Vierecke, Fünfecke und Sechsecke an ihren Ecken erkennen.",
+        "Verstehen, dass die Anzahl der Ecken ein Vieleck benennt, nicht sein Aussehen.",
+        "Den Form-Wortschatz und die Gewohnheit des Eckenzählens aufbauen, auf denen spätere Geometrie aufbaut."
+      ]
+    },
+    "ten-frame.quick-facts-to-5.k-oa-a-5": {
+      "about": [
+        "Eine kurze Aufgabe blitzt auf — 2 + 1, 5 − 2, 4 − 1 — und das Kind tippt aus drei eng beieinanderliegenden Zahlen die richtige Antwort an, mit einem Zehnerfeld daneben als optionalem Hilfsmittel. Das Ziel ist das schnelle, sichere Abrufen von Aufgaben bis 5. Diese kostenlose, interaktive Mathe-Übung für den Kindergarten läuft im Browser, ganz ohne Anmeldung.",
+        "Sicherheit im Zahlenraum bis 5 ist die Brücke zwischen Zählen und echtem Rechnen. Die drei Antworten liegen dicht beieinander — bei 2 + 2 stehen 3, 4 und 5 zur Wahl —, sodass das Kind nicht durch das Wählen der größten oder kleinsten Zahl gewinnen kann; es muss die Aufgabe kennen oder sie am Feld herausfinden. Über die Runden hinweg kommen Aufgaben, die das Kind zuerst abgezählt hat, allmählich sofort — und genau das bedeutet Sicherheit.",
+        "Die Aktivität ist am Lehrplan ausgerichtet — sicher im Zahlenraum bis 5 addieren und subtrahieren. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Plus- und Minusaufgaben im Zahlenraum bis 5 abrufen.",
+        "Eng beieinanderliegende Antworten unterscheiden, etwa 3, 4 und 5.",
+        "Das Zehnerfeld nutzen, um eine Aufgabe bei Unsicherheit zu überprüfen.",
+        "Tempo und Sicherheit bei Aufgaben mit kleinen Zahlen aufbauen."
+      ],
+      "howToPlay": [
+        "Lies die kurze Aufgabe, etwa 3 + 2 oder 5 − 2.",
+        "Tippe aus den drei Antworten die an, die du für richtig hältst — schau auf das Zehnerfeld, wenn du nachprüfen möchtest.",
+        "Eine freundliche Rückmeldung bestätigt die richtige Antwort und lädt bei Bedarf zu einem neuen Versuch ein."
+      ],
+      "learningGoals": [
+        "Im Zahlenraum bis 5 sicher addieren und subtrahieren.",
+        "Vom Abzählen der Aufgaben zum schnellen Abrufen kommen.",
+        "Die Rechensicherheit aufbauen, auf die das Plus- und Minusrechnen der 1. Klasse baut."
+      ]
+    },
+    "choice-board.pick-bigger.k-c-c-7": {
+      "about": [
+        "Zwei geschriebene Zahlen erscheinen nebeneinander, und das Kind tippt die größere an — zum Beispiel 7 und 6 oder 8 und 7. Manche Paare liegen weit auseinander, etwa 9 und 2, andere stehen direkt beieinander, etwa 8 und 7. Diese kostenlose, interaktive Zähl-Übung für den Kindergarten läuft im Browser auf Tablet, Handy oder Computer — ohne Installation und ohne Anmeldung.",
+        "Hier werden Zahlen als Ziffern verglichen, nicht als Gruppen von Dingen zum Abzählen. Es gibt keine Bilder, an denen sich das Kind festhalten kann — es muss allein an den geschriebenen Ziffern erkennen, dass 8 mehr ist als 7. Gerade die eng beieinanderliegenden Paare machen daraus echte Übung: Das Kind kann nicht einfach die „größer aussehende“ Zahl wählen, sondern muss den Wert kennen, für den jede Ziffer steht.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Mengen ausgerichtet — zwei Zahlen zwischen 1 und 10 in geschriebener Form vergleichen. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Zwei geschriebene Zahlen von 1 bis 10 vergleichen und die größere finden.",
+        "Ziffern lesen und ihren Wert kennen, ohne Dinge abzuzählen.",
+        "Auch eng beieinanderliegende Paare wie 8 und 7 sicher unterscheiden, nicht nur weit entfernte.",
+        "Ein Gefühl dafür entwickeln, welche Zahl die größere ist."
+      ],
+      "howToPlay": [
+        "Schau dir die beiden Zahlen auf dem Feld an.",
+        "Tippe die Zahl an, die größer ist, und tippe dann auf Prüfen.",
+        "Noch nicht ganz richtig? Probiere es einfach noch einmal, so oft du möchtest — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Geschriebene Zahlen von 1 bis 10 vergleichen und die größere auswählen.",
+        "Den Wert kennen, für den jede Ziffer steht, ohne abzuzählen.",
+        "Das Vergleichsgefühl aufbauen, das später dem Größer-als und Kleiner-als zugrunde liegt."
+      ]
+    },
+    "choice-board.how-many-group.k-c-c-b-5": {
+      "about": [
+        "Eine Gruppe freundlicher Bilder taucht auf — zum Beispiel eine Eule, vier Füchse oder acht Elefanten —, und das Kind zählt die Objekte und tippt die passende Zahl an. Diese kostenlose, interaktive Zähl-Übung für den Kindergarten läuft direkt im Browser auf Tablet, Handy oder Klassenzimmer-Computer, ganz ohne Installation und ohne Konto.",
+        "Im Mittelpunkt steht die Anzahl: Die zuletzt genannte Zahl beim Zählen sagt, wie viele es insgesamt sind. Weil die Objekte mal in einer Reihe, mal in kleinen Gittern und mal verstreut liegen, kann sich das Kind nicht auf ein auswendig gelerntes Muster verlassen — es muss jedes Bild genau einmal zählen. Die Zahlen zur Auswahl liegen dicht beieinander, etwa 7, 8 und 9, sodass ein Verzähler um eins auffällt und zum sorgfältigen Nachzählen einlädt.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Mengen ausgerichtet — durch Zählen beantworten, wie viele Objekte in einer Anordnung bis 10 zu sehen sind, ob in einer Reihe, einem Gitter oder verstreut. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Bis zu 10 Objekte zählen und sagen, wie viele es insgesamt sind.",
+        "Jedes Bild genau einmal zählen, ob in einer Reihe oder verstreut.",
+        "Eine gezählte Menge der passenden geschriebenen Zahl zuordnen.",
+        "Die Anzahl begreifen — die zuletzt gezählte Zahl ist die Gesamtmenge."
+      ],
+      "howToPlay": [
+        "Schau dir die Gruppe von Bildern an und zähle sie sorgfältig, eins nach dem anderen.",
+        "Tippe die Zahl an, die zu deiner gezählten Anzahl passt, und tippe dann auf Prüfen.",
+        "Noch nicht ganz richtig? Probiere es einfach noch einmal, so oft du möchtest — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Bis zu 10 Objekte in jeder Anordnung zählen und die Gesamtmenge benennen.",
+        "Eine Anzahl mit ihrer geschriebenen Zahl verbinden.",
+        "Das Eins-zu-eins-Zählen und das Anzahlverständnis aufbauen, auf dem jede spätere Mathematik ruht."
+      ]
+    },
+    "choice-board.tell-words-apart.rf-k-3-c": {
+      "about": [
+        "Das Kind hört ein häufiges Wort vorgelesen und tippt es dann aus drei sehr ähnlich aussehenden Wörtern heraus — „der“ neben „den“, „dem“ und „die“; „und“ neben „uns“, „um“ und „nun“; „ein“ neben „eis“, „bei“ und „nein“. Diese kostenlose, interaktive Lese-Übung für den Kindergarten und die 1. Klasse läuft im Browser mit Ton und ohne Anmeldung und schärft den Blick für die kurzen Wörter, die Kinder am häufigsten verwechseln.",
+        "Diese Sichtwörter sehen fast gleich aus, ein flüchtiger Blick reicht also nicht. Das Kind muss das gehörte Wort im Kopf behalten und die gedruckten Wörter Buchstabe für Buchstabe prüfen, um die genaue Übereinstimmung zu finden — und dabei merken, dass „der“ nicht „den“ ist und „und“ nicht „uns“. Genau dieses genaue Hinschauen macht aus unsicherem Raten das schnelle, sichere Wiedererkennen, von dem flüssiges Lesen lebt.",
+        "Die Aktivität ist an den Lehrplänen der Grundschule im Bereich Lesen ausgerichtet — häufige Sichtwörter sicher auf einen Blick erkennen. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Ein gehörtes Sichtwort im Kopf behalten, während man die gedruckten Wörter durchsieht.",
+        "Ähnlich aussehende Wörter wie „der“ und „den“ oder „und“ und „uns“ auseinanderhalten.",
+        "Jedes Wort bis zum Ende lesen, statt vom ersten Buchstaben zu raten.",
+        "Das schnelle, sichere Wiedererkennen häufiger Wörter aufbauen."
+      ],
+      "howToPlay": [
+        "Tippe an, um das Wort zu hören, und hör es dir so oft an, wie du möchtest.",
+        "Schau dir die Auswahl an, tippe das Wort an, das zu dem gehörten passt, und tippe dann auf Prüfen.",
+        "Vertan? Probiere es einfach noch einmal — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Häufige Wörter wie „der“, „und“, „ein“ und „die“ sicher auf einen Blick lesen.",
+        "Die ähnlich aussehenden Wörter unterscheiden, die Leseanfänger am häufigsten verwechseln.",
+        "Die Lesesicherheit bei Sichtwörtern aufbauen, die den Kopf frei macht für das Verstehen des Gelesenen."
+      ]
+    },
+    "choice-board.beginning-sound.rf-k-3-a": {
+      "about": [
+        "Ein einzelner Buchstabe erscheint — etwa D, F oder M —, das Kind hört den passenden Laut und tippt das Bild an, dessen Wort mit genau diesem Laut beginnt; zur Auswahl stehen vertraute Bilder aus Gruppen wie Tiere, Essen und Alltagsgegenstände (ein Hund, ein Fisch, ein Elch, ein Tiger). Diese kostenlose Anlaut-Übung für den Kindergarten läuft direkt im Browser, ohne Installation und ohne Konto.",
+        "In jeder Runde gibt es ein richtiges Bild und drei, die mit anderen Lauten beginnen, sodass Raten nicht hilft — das Kind muss jeden Bildnamen sprechen und auf den allerersten Laut hören. Den Buchstaben D mit dem /d/ am Anfang von „Dose“ zu verbinden, ist die eigentliche Buchstabe-Laut-Verknüpfung, und diesen Laut neben Fisch, Hase und Tiger herauszuhören lässt den ersten Laut deutlich hervortreten.",
+        "Die Aktivität ist an den Lehrplänen der Grundschule im Bereich Lesen ausgerichtet — den Laut kennen, für den jeder Buchstabe steht. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Einen Buchstaben mit dem Laut verbinden, für den er steht.",
+        "Den Namen eines Bildes sprechen und auf seinen ersten Laut hören.",
+        "Den Anlaut dem gezeigten Buchstaben zuordnen.",
+        "Den richtigen ersten Laut von drei anderen Anfängen unterscheiden."
+      ],
+      "howToPlay": [
+        "Schau dir den Buchstaben oben an, etwa D, und sprich seinen Laut.",
+        "Tippe aus den vier Bildern das an, dessen Name mit diesem Laut beginnt.",
+        "Noch nicht ganz richtig? Probiere es einfach noch einmal, so oft du möchtest — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Den Laut kennen, für den jeder Buchstabe steht.",
+        "Den ersten Laut in einem gesprochenen Wort heraushören und seinem Buchstaben zuordnen.",
+        "Die Buchstabe-Laut-Grundlage aufbauen, auf der das Lautieren und Lesen von Wörtern beruht."
+      ]
+    },
+    "fractions.make-and-count-squares.2-g-a-2": {
+      "about": [
+        "Das Kind tippt auf die gepunkteten Linien, um ein Rechteck in Reihen und Spalten aus gleich großen Quadraten zu teilen — 2 Reihen und 3 Spalten, 3 Reihen und 4 Spalten, bis zu 4 Reihen und 5 Spalten —, und tippt dann ein, wie viele Quadrate insgesamt entstehen. Diese kostenlose, interaktive Geometrie-Übung für die 2. Klasse läuft im Browser auf jedem Gerät, ohne Installation und ohne Konto.",
+        "Der Kerngedanke: Ein Rechteck lässt sich in gleiche Quadrate teilen, die ordentlich in Reihen und Spalten liegen, und genau diese Struktur hilft beim Zählen. Weil das Kind das Gitter selbst baut und dann zählt, beginnt es zu spüren, dass 3 Reihen mit je 4 Quadraten bedeutet, in gleichen Gruppen zu zählen — der ruhige Anfang von Punktefeldern und Multiplikation. Alle Quadrate sind absichtlich gleich groß, sodass die Antwort auf „wie viele“ eine echte Gesamtzahl gleicher Teile ist.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie ausgerichtet — ein Rechteck in Reihen und Spalten aus gleich großen Quadraten teilen und die Gesamtzahl durch Zählen finden. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Ein Rechteck in gleiche Reihen und Spalten aus gleich großen Quadraten teilen.",
+        "Ein Gitter bauen, indem man auf die Trennlinien tippt.",
+        "Die Quadrate zählen, um die Gesamtzahl im Rechteck zu finden.",
+        "Die Reihen-und-Spalten-Struktur bemerken, die zu Punktefeldern hinführt."
+      ],
+      "howToPlay": [
+        "Tippe auf die gepunkteten Linien, um Reihen und Spalten aus gleichen Quadraten zu machen.",
+        "Baue das Gitter, das die Runde verlangt, zum Beispiel 3 Reihen und 4 Spalten.",
+        "Tippe ein, wie viele Quadrate es insgesamt sind — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Ein Rechteck in gleich große Quadrate teilen und die Gesamtzahl zählen.",
+        "Ein Rechteck als Reihen und Spalten gleicher Teile sehen.",
+        "Die Grundlage für Punktefelder aufbauen, die Kinder auf die Multiplikation vorbereitet."
+      ]
+    },
+    "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
+      "about": [
+        "Das Kind liest einen Vergleich wie 247 ___ 274 oder 583 ___ 419 und verbindet ihn mit dem Symbol, das ihn wahr macht — kleiner als (<) oder größer als (>) —, indem es die Vergleichskarte und danach das richtige Symbol antippt. Dieses kostenlose, interaktive Karten-Zuordnungsspiel für die 2. Klasse läuft direkt im Browser, ohne Installation und ohne Konto.",
+        "Der Kerngedanke: nach dem Stellenwert vergleichen, die Hunderter zuerst. Die Paare sind so gewählt, dass ein flüchtiger Blick nicht reicht: Zahlen wie 655 und 658 haben gleiche Hunderter und Zehner, sodass die Einerstelle entscheidet, während 480 und 408 einen Blick auf die Zehner verlangen. Von links nach rechts arbeiten — Hunderter, dann Zehner, dann Einer — ist genau das Denken, das die Zuordnung übt.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Operationen im Dezimalsystem ausgerichtet — zwei dreistellige Zahlen mit den Symbolen >, = und < vergleichen, ausgehend vom Wert der Hunderter, Zehner und Einer. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Dreistellige Zahlen vergleichen, indem man erst die Hunderter, dann die Zehner, dann die Einer betrachtet.",
+        "Das richtige Symbol < oder > wählen, das einen Vergleich wahr macht.",
+        "Eng beieinanderliegende Zahlen wie 655 und 658 an der entscheidenden Ziffer unterscheiden.",
+        "Den Stellenwert in Zahlen bis 1000 lesen und durchdenken."
+      ],
+      "howToPlay": [
+        "Lies eine Vergleichskarte wie 406 ___ 460 und entscheide, welche Zahl größer ist.",
+        "Tippe den Vergleich an, dann das Symbol — < oder > —, das ihn wahr macht, und sieh zu, wie sich das Paar verbindet.",
+        "Verbinde beide Vergleiche der Runde — es gibt keinen Timer und keine Punkte, lass dir also Zeit."
+      ],
+      "learningGoals": [
+        "Zwei dreistellige Zahlen mit >, = und < vergleichen.",
+        "Den Stellenwert nutzen, die Hunderter zuerst, um zu entscheiden, welche Zahl größer ist.",
+        "Ein sicheres Zahlverständnis für Zahlen bis 1000 aufbauen."
+      ]
+    },
+    "numberbond.make-ten.k-oa-a-4": {
+      "about": [
+        "Das Ganze ist 10, und ein Teil des Zahlenhauses ist schon gefüllt — etwa 7 —, und das Kind tippt auf den leeren Teil, um Plättchen hinzuzufügen, bis beide Teile zusammen 10 ergeben. Diese kostenlose, interaktive Mathe-Übung für den Kindergarten läuft direkt im Browser, ohne Konto und ohne Anmeldung.",
+        "Jede Zahl von 1 bis 9 hat einen Partner, der die Zehn voll macht, und hier baut das Kind diesen Partner selbst, indem es ein Plättchen nach dem anderen hinzufügt und zusieht, wie die beiden Teile auf 10 anwachsen — nicht, indem es eine Aufgabe vom Blatt abliest. Das Zahlenhaus selbst ist die Antwortfläche; das Kind hört auf, wenn beide Teile genau zehn ergeben, sodass ein zu kleiner oder zu großer Teil leicht zu spüren und zu beheben ist.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Operationen ausgerichtet — die Zahl finden, die mit einer gegebenen Zahl zusammen 10 ergibt (die Zehnerfreunde). Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Das Ganze 10 in zwei Teile zerlegt im Zahlenhaus sehen.",
+        "Ein Plättchen nach dem anderen in den leeren Teil legen.",
+        "Den Partner finden, der die Zehn voll macht (7 und 3, 4 und 6).",
+        "Erkennen, wann beide Teile zusammen genau 10 ergeben."
+      ],
+      "howToPlay": [
+        "Schau dir das Zahlenhaus an — das Ganze ist 10 und ein Teil ist schon gefüllt.",
+        "Tippe auf den leeren Teil, um Plättchen hinzuzufügen, bis beide Teile 10 ergeben, und tippe dann auf Prüfen.",
+        "Zu viele oder zu wenige? Lege Plättchen hinzu oder nimm welche weg und prüfe erneut — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Die Zahl finden, die mit einer gegebenen Zahl zusammen 10 ergibt.",
+        "Die Zehnerfreunde durch Hinzulegen von Plättchen aufbauen, nicht durch Auswendiglernen.",
+        "Die Grundlage für die Rechenstrategie „bis zur Zehn ergänzen“ legen."
+      ]
+    },
+    "numberbond.story-problem.2-oa-a-1": {
+      "about": [
+        "Das Kind liest eine kurze Sachaufgabe — 20 rote und 30 gelbe Tulpen, ein Regal mit 45 Büchern, Enten, die an einem Teich ankommen —, sieht sie als Zahlenhaus dargestellt und tippt dann die fehlende Zahl ein. Diese kostenlose, interaktive Mathe-Übung für die 2. Klasse läuft direkt im Browser, ohne Konto.",
+        "Das Zahlenhaus verwandelt jede Geschichte in dasselbe Bild: zwei Teile und ein Ganzes. So sieht das Kind, ob das Gesuchte die Gesamtmenge, ein übrig gebliebener Teil oder eine Ausgangsmenge ist. Manche Aufgaben werden addiert (wie viele insgesamt), manche subtrahiert (wie viele bleiben übrig, wie viele kamen hinzu), und das Zahlenhaus macht diese Entscheidung klar, statt sie aus einem Signalwort zu raten.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Operationen ausgerichtet — einschrittige Plus- und Minus-Sachaufgaben bis 100 lösen. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Eine Sachaufgabe lesen und die Zahlen finden, auf die es ankommt.",
+        "Die Situation als Teil-Teil-Ganzes im Zahlenhaus darstellen.",
+        "Entscheiden, ob addiert oder subtrahiert wird, je nachdem, wo das Gesuchte steht.",
+        "Plus- und Minusaufgaben bis 100 lösen."
+      ],
+      "howToPlay": [
+        "Lies die Sachaufgabe über dem Zahlenhaus.",
+        "Finde die fehlende Zahl heraus — eine Gesamtmenge, einen Teil oder eine Ausgangsmenge —, tippe sie auf dem Zahlenfeld ein und tippe dann auf Prüfen.",
+        "Noch nicht ganz richtig? Lies noch einmal und versuche es erneut; es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Einschrittige Plus- und Minus-Sachaufgaben bis 100 lösen.",
+        "Eine Geschichte als Teil-Teil-Ganzes im Zahlenhaus darstellen.",
+        "Eine fehlende Gesamtmenge, einen fehlenden Teil oder eine fehlende Ausgangsmenge finden."
+      ]
+    },
+    "sort-bins.defining-attributes.1-g-a-1": {
+      "about": [
+        "Ist es noch ein Dreieck, wenn es rot, groß oder gekippt ist? In jeder Runde wird eine Form benannt, und das Kind zieht jede Form in den richtigen Korb, indem es entscheidet, was sie IST, nicht wie sie aussieht — echte Dreiecke werden von Vierecken, Fünfecken und Sechsecken getrennt. Diese kostenlose, interaktive Geometrie-Übung für die 1. Klasse läuft im Browser, ohne Installation.",
+        "Worum es geht, ist der Unterschied zwischen einem wesentlichen und einem unwesentlichen Merkmal. Ein Dreieck ist dadurch bestimmt, dass es drei Seiten hat — Punkt —, während rot, groß oder gekippt nur die zufällige Erscheinung genau dieses Dreiecks ist. Indem das Kind Beispiele gegen verlockende Gegenbeispiele sortiert, lernt es, die Oberfläche zu übersehen und nach der Eigenschaft zu urteilen, auf die es wirklich ankommt. Das ist der Anfang echten geometrischen Denkens.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie ausgerichtet — wesentliche von unwesentlichen Merkmalen unterscheiden und Formen daran erkennen. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+      ],
+      "practices": [
+        "Entscheiden, ob eine Form zu einer benannten Gruppe gehört, anhand ihrer Anzahl von Seiten.",
+        "Ein wesentliches Merkmal (Anzahl der Seiten) von einem unwesentlichen (Farbe, Größe, Lage) unterscheiden.",
+        "Dreiecke und Vierecke in vielen Formen erkennen, nicht nur im Schulbuch-Beispiel.",
+        "Ähnlich aussehende Formen übersehen und eine Form nach dem beurteilen, was sie zu dieser Form macht."
+      ],
+      "howToPlay": [
+        "Lies die benannte Form — zum Beispiel Dreieck — oben in der Runde.",
+        "Ziehe jede Form in den richtigen Korb, indem du entscheidest, ob sie diese Form IST, ganz gleich welche Farbe, Größe oder Lage sie hat.",
+        "Noch nicht ganz richtig? Probiere es so oft du möchtest noch einmal — es gibt keinen Timer und keine Punkte."
+      ],
+      "learningGoals": [
+        "Wesentliche von unwesentlichen Merkmalen einer Form unterscheiden.",
+        "Verstehen, dass ein Dreieck ein Dreieck bleibt, auch wenn sich Farbe, Größe oder Lage ändern.",
+        "Das merkmalsgestützte Denken aufbauen, auf dem das Einordnen und Benennen von Formen beruht."
       ]
     }
   }

@@ -1,17 +1,195 @@
 {
-  "labels": {"about":"Informazioni su questa attività","practices":"Cosa esercita tuo figlio","howToPlay":"Come si gioca","learningGoals":"Obiettivi di apprendimento","whatsInside":"Cosa contiene questa attività"},
+  "labels": {
+    "about": "Informazioni su questa attività",
+    "practices": "Cosa esercita tuo figlio",
+    "howToPlay": "Come si gioca",
+    "learningGoals": "Obiettivi di apprendimento",
+    "whatsInside": "Cosa contiene questa attività"
+  },
   "templates": {
     "byStrand": {
-      "Counting & Cardinality": {"about":["Questa è un'attività di conteggio interattiva e gratuita per i più piccoli, con numeri fino a {max}. Funziona direttamente nel browser su tablet, telefoni e computer della classe: non c'è nulla da installare, nessun account da creare e nessuna preparazione per l'insegnante.","L'attività è allineata alle Indicazioni nazionali nell'ambito dei numeri. I bambini ricevono un riscontro delicato e immediato mentre procedono, così possono continuare a provare finché la risposta non sembra giusta. Non c'è nessun timer e nessun punteggio, solo esercizio sereno e concreto."],"practices":["Contare un gruppo di oggetti uno per uno e dire quanti sono in tutto","Abbinare un numero detto o scritto alla quantità giusta","Riconoscere piccole quantità a colpo d'occhio, senza contare ogni volta","Lavorare con cura e sicurezza con numeri fino a {max}"],"howToPlay":["I bambini guardano le immagini sullo schermo e leggono o ascoltano la consegna.","Contano gli elementi, poi toccano per posizionare i gettoni o scelgono il numero che corrisponde.","Un controllo amichevole mostra quando la risposta è corretta, con un modo semplice per riprovare: qui gli errori fanno parte dell'apprendimento e non vengono mai puniti."],"learningGoals":["Contare con precisione un insieme di oggetti e dire quanti sono.","Capire che l'ultimo numero contato indica la grandezza dell'intero gruppo, l'idea fondamentale dietro le Indicazioni nazionali.","Costruire il primo senso del numero da cui nascono addizione, sottrazione e valore posizionale."]},
-      "Number & Operations in Base Ten": {"about":["Questa attività interattiva e gratuita sul valore posizionale aiuta i bambini a vedere come il nostro sistema numerico sia costruito intorno ai gruppi di dieci, con numeri fino a {max}. Funziona in qualsiasi browser moderno, su tablet, telefono o sulla lavagna interattiva della classe, senza nulla da scaricare.","È allineata alle Indicazioni nazionali nell'ambito dei numeri. I bambini lavorano al proprio ritmo con un riscontro caloroso e immediato, e non c'è nessun timer o punteggio a metterli fretta."],"practices":["Vedere un numero a due cifre come un gruppo di decine più alcune unità","Comporre numeri fino a {max} a partire da decine e unità","Leggere e scrivere i numeri e collegarli a un'immagine della quantità","Notare le regolarità che rendono più facili da capire i numeri più grandi"],"howToPlay":["I bambini leggono la consegna e guardano le tavole del dieci o i blocchi sullo schermo.","Riempiono, costruiscono o scelgono per corrispondere al numero richiesto.","Un controllo delicato conferma la risposta corretta e invita a riprovare quando serve: un esercizio sereno e senza pressioni dall'inizio alla fine."],"learningGoals":["Capire un numero da undici a diciannove o a due cifre come alcune decine e alcune unità.","Comporre e leggere con sicurezza numeri fino a {max}, il cuore delle Indicazioni nazionali.","Gettare le basi del sistema in base dieci da cui dipendono addizioni e sottrazioni a più cifre."]},
-      "Operations & Algebraic Thinking": {"about":["Questa attività interattiva e gratuita offre ai bambini un esercizio concreto sulle prime idee di addizione e sottrazione, con quantità fino a {max}. Funziona direttamente nel browser su qualsiasi dispositivo, senza nulla da installare e senza accesso.","È allineata alle Indicazioni nazionali nell'ambito dei numeri. Il riscontro è immediato e incoraggiante, e non c'è nessun timer o punteggio: i bambini possono ragionare con calma al proprio ritmo."],"practices":["Unire i gruppi e separarli per scoprire quanti sono","Vedere modi diversi per formare lo stesso numero","Risolvere semplici situazioni problematiche con immagini e gettoni","Ragionare su quantità fino a {max}"],"howToPlay":["I bambini leggono la consegna e guardano i gruppi di oggetti sullo schermo.","Uniscono, separano o scelgono per rispondere alla domanda.","Un controllo amichevole mostra quando hanno ragione, con la possibilità tranquilla di riprovare."],"learningGoals":["Addizionare e sottrarre con numeri piccoli usando oggetti e immagini.","Capire l'addizione come unire e la sottrazione come separare, l'idea dietro le Indicazioni nazionali.","Sviluppare il senso flessibile del numero su cui si costruisce il calcolo mentale fluente."]},
-      "Geometry": {"about":["Questa attività interattiva e gratuita sulle forme aiuta i bambini più piccoli a notare, nominare e confrontare le forme che li circondano. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare e senza bisogno di un account.","È allineata alle Indicazioni nazionali nell'ambito dello spazio e delle figure. I bambini esplorano al proprio ritmo con un riscontro delicato e immediato: nessun timer, nessun punteggio, solo esercizio giocoso."],"practices":["Riconoscere e nominare le forme bidimensionali e tridimensionali di ogni giorno","Notare quanti lati e angoli ha una forma","Distinguere le forme piane da quelle solide","Descrivere e confrontare le forme con parole proprie"],"howToPlay":["I bambini guardano le forme sullo schermo e leggono o ascoltano la consegna.","Toccano la forma che corrisponde, oppure ordinano le forme nel gruppo giusto.","Un controllo caloroso conferma la scelta corretta e offre un modo semplice per riprovare quando serve."],"learningGoals":["Nominare e descrivere le forme comuni con crescente sicurezza.","Distinguere le forme bidimensionali (piane) da quelle tridimensionali (solide), il focus delle Indicazioni nazionali.","Costruire il vocabolario spaziale su cui si fonderà il lavoro futuro di geometria e misura."]},
-      "Measurement & Data": {"about":["Questa attività di misura gratuita e interattiva aiuta i bambini più piccoli a confrontare gli oggetti per dimensione — più alto, più corto e più lungo — senza alcun conteggio. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare e senza bisogno di un account.","È allineata alle Indicazioni nazionali nell'ambito {strand}. I bambini confrontano al proprio ritmo con un riscontro delicato e immediato — nessun timer, nessun punteggio, solo un gioco sereno per osservare con attenzione le dimensioni delle cose."],"practices":["Confrontare direttamente due oggetti in base a una caratteristica misurabile come la lunghezza o l'altezza","Decidere quale oggetto è più alto, più corto o più lungo","Descrivere con parole proprie la differenza tra due dimensioni","Osservare con attenzione e ragionare sulle dimensioni invece di contare"],"howToPlay":["I bambini guardano due immagini dello stesso oggetto mostrato in dimensioni diverse e leggono o ascoltano la consegna.","Toccano quella che è più alta, più corta o più lunga, a seconda di ciò che chiede la consegna.","Un riscontro affettuoso conferma la scelta corretta e propone un nuovo tentativo facile quando serve."],"learningGoals":["Confrontare direttamente due oggetti in base a una caratteristica misurabile — il cuore delle Indicazioni nazionali.","Usare le parole più alto, più corto e più lungo per descrivere e confrontare le dimensioni.","Costruire il primo vocabolario della misura su cui si baseranno in seguito i lavori su lunghezza, peso e dati."]},
-      "Reading: Foundational Skills": {"about":["Questa attività di lettura interattiva e gratuita offre ai bambini un esercizio concreto per pronunciare i suoni e costruire le parole. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare e senza account da configurare.","È allineata alle Indicazioni nazionali nell'ambito della lettura. Ogni parola viene verificata per una divisione accurata e adatta ai bambini, e il riscontro è delicato e immediato: non c'è nessun timer e nessun punteggio."],"practices":["Scomporre le parole in suoni o sillabe e fonderle di nuovo insieme","Abbinare le lettere e i gruppi di lettere ai suoni che producono","Costruire passo dopo passo parole brevi e decodificabili","Sentire e pronunciare ogni parte di una parola in ordine"],"howToPlay":["I bambini guardano l'immagine o ascoltano la parola, poi leggono la consegna.","Toccano i suoni o le sillabe in ordine per costruire la parola.","Un controllo amichevole legge ad alta voce la parola completata e invita a riprovare quando serve."],"learningGoals":["Fondere suoni e sillabe per leggere e costruire parole semplici.","Collegare i suoni pronunciati alle lettere scritte, il cuore delle Indicazioni nazionali.","Far crescere le abilità di decodifica su cui si costruisce una lettura sicura e autonoma."]},
-      "Phonological Awareness": {"about":["Questa attività di ascolto interattiva e gratuita aiuta i bambini a sentire e a giocare con i suoni dentro le parole pronunciate. Funziona direttamente nel browser su qualsiasi dispositivo, senza nulla da installare e senza accesso richiesto.","È allineata alle Indicazioni nazionali nell'ambito della consapevolezza fonologica. Il riscontro è caloroso e immediato, e non c'è nessun timer o punteggio a mettere fretta a un piccolo studente."],"practices":["Sentire i suoni e le sillabe distinti nelle parole pronunciate","Fondere i suoni insieme per formare una parola","Scomporre una parola nei suoi suoni","Ascoltare le rime e i suoni iniziali"],"howToPlay":["I bambini ascoltano o guardano la parola, poi leggono la consegna.","Toccano per scegliere, fondere o scomporre i suoni richiesti.","Un controllo delicato conferma la risposta corretta con una facile possibilità di riprovare."],"learningGoals":["Sentire, fondere e separare i suoni nelle parole pronunciate.","Sviluppare le abilità di ascolto descritte nelle Indicazioni nazionali.","Costruire la consapevolezza dei suoni da cui dipendono il successo nella lettura e nella scrittura."]}
+      "Counting & Cardinality": {
+        "about": [
+          "Questa è un'attività di conteggio interattiva e gratuita per i più piccoli, con numeri fino a {max}. Funziona direttamente nel browser su tablet, telefoni e computer della classe: non c'è nulla da installare, nessun account da creare e nessuna preparazione per l'insegnante.",
+          "L'attività è allineata alle Indicazioni nazionali nell'ambito dei numeri. I bambini ricevono un riscontro delicato e immediato mentre procedono, così possono continuare a provare finché la risposta non sembra giusta. Non c'è nessun timer e nessun punteggio, solo esercizio sereno e concreto."
+        ],
+        "practices": [
+          "Contare un gruppo di oggetti uno per uno e dire quanti sono in tutto",
+          "Abbinare un numero detto o scritto alla quantità giusta",
+          "Riconoscere piccole quantità a colpo d'occhio, senza contare ogni volta",
+          "Lavorare con cura e sicurezza con numeri fino a {max}"
+        ],
+        "howToPlay": [
+          "I bambini guardano le immagini sullo schermo e leggono o ascoltano la consegna.",
+          "Contano gli elementi, poi toccano per posizionare i gettoni o scelgono il numero che corrisponde.",
+          "Un controllo amichevole mostra quando la risposta è corretta, con un modo semplice per riprovare: qui gli errori fanno parte dell'apprendimento e non vengono mai puniti."
+        ],
+        "learningGoals": [
+          "Contare con precisione un insieme di oggetti e dire quanti sono.",
+          "Capire che l'ultimo numero contato indica la grandezza dell'intero gruppo, l'idea fondamentale dietro le Indicazioni nazionali.",
+          "Costruire il primo senso del numero da cui nascono addizione, sottrazione e valore posizionale."
+        ]
+      },
+      "Number & Operations in Base Ten": {
+        "about": [
+          "Questa attività interattiva e gratuita sul valore posizionale aiuta i bambini a vedere come il nostro sistema numerico sia costruito intorno ai gruppi di dieci, con numeri fino a {max}. Funziona in qualsiasi browser moderno, su tablet, telefono o sulla lavagna interattiva della classe, senza nulla da scaricare.",
+          "È allineata alle Indicazioni nazionali nell'ambito dei numeri. I bambini lavorano al proprio ritmo con un riscontro caloroso e immediato, e non c'è nessun timer o punteggio a metterli fretta."
+        ],
+        "practices": [
+          "Vedere un numero a due cifre come un gruppo di decine più alcune unità",
+          "Comporre numeri fino a {max} a partire da decine e unità",
+          "Leggere e scrivere i numeri e collegarli a un'immagine della quantità",
+          "Notare le regolarità che rendono più facili da capire i numeri più grandi"
+        ],
+        "howToPlay": [
+          "I bambini leggono la consegna e guardano le tavole del dieci o i blocchi sullo schermo.",
+          "Riempiono, costruiscono o scelgono per corrispondere al numero richiesto.",
+          "Un controllo delicato conferma la risposta corretta e invita a riprovare quando serve: un esercizio sereno e senza pressioni dall'inizio alla fine."
+        ],
+        "learningGoals": [
+          "Capire un numero da undici a diciannove o a due cifre come alcune decine e alcune unità.",
+          "Comporre e leggere con sicurezza numeri fino a {max}, il cuore delle Indicazioni nazionali.",
+          "Gettare le basi del sistema in base dieci da cui dipendono addizioni e sottrazioni a più cifre."
+        ]
+      },
+      "Operations & Algebraic Thinking": {
+        "about": [
+          "Questa attività interattiva e gratuita offre ai bambini un esercizio concreto sulle prime idee di addizione e sottrazione, con quantità fino a {max}. Funziona direttamente nel browser su qualsiasi dispositivo, senza nulla da installare e senza accesso.",
+          "È allineata alle Indicazioni nazionali nell'ambito dei numeri. Il riscontro è immediato e incoraggiante, e non c'è nessun timer o punteggio: i bambini possono ragionare con calma al proprio ritmo."
+        ],
+        "practices": [
+          "Unire i gruppi e separarli per scoprire quanti sono",
+          "Vedere modi diversi per formare lo stesso numero",
+          "Risolvere semplici situazioni problematiche con immagini e gettoni",
+          "Ragionare su quantità fino a {max}"
+        ],
+        "howToPlay": [
+          "I bambini leggono la consegna e guardano i gruppi di oggetti sullo schermo.",
+          "Uniscono, separano o scelgono per rispondere alla domanda.",
+          "Un controllo amichevole mostra quando hanno ragione, con la possibilità tranquilla di riprovare."
+        ],
+        "learningGoals": [
+          "Addizionare e sottrarre con numeri piccoli usando oggetti e immagini.",
+          "Capire l'addizione come unire e la sottrazione come separare, l'idea dietro le Indicazioni nazionali.",
+          "Sviluppare il senso flessibile del numero su cui si costruisce il calcolo mentale fluente."
+        ]
+      },
+      "Geometry": {
+        "about": [
+          "Questa attività interattiva e gratuita sulle forme aiuta i bambini più piccoli a notare, nominare e confrontare le forme che li circondano. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare e senza bisogno di un account.",
+          "È allineata alle Indicazioni nazionali nell'ambito dello spazio e delle figure. I bambini esplorano al proprio ritmo con un riscontro delicato e immediato: nessun timer, nessun punteggio, solo esercizio giocoso."
+        ],
+        "practices": [
+          "Riconoscere e nominare le forme bidimensionali e tridimensionali di ogni giorno",
+          "Notare quanti lati e angoli ha una forma",
+          "Distinguere le forme piane da quelle solide",
+          "Descrivere e confrontare le forme con parole proprie"
+        ],
+        "howToPlay": [
+          "I bambini guardano le forme sullo schermo e leggono o ascoltano la consegna.",
+          "Toccano la forma che corrisponde, oppure ordinano le forme nel gruppo giusto.",
+          "Un controllo caloroso conferma la scelta corretta e offre un modo semplice per riprovare quando serve."
+        ],
+        "learningGoals": [
+          "Nominare e descrivere le forme comuni con crescente sicurezza.",
+          "Distinguere le forme bidimensionali (piane) da quelle tridimensionali (solide), il focus delle Indicazioni nazionali.",
+          "Costruire il vocabolario spaziale su cui si fonderà il lavoro futuro di geometria e misura."
+        ]
+      },
+      "Measurement & Data": {
+        "about": [
+          "Questa attività di misura gratuita e interattiva aiuta i bambini più piccoli a confrontare gli oggetti per dimensione — più alto, più corto e più lungo — senza alcun conteggio. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare e senza bisogno di un account.",
+          "È allineata alle Indicazioni nazionali nell'ambito {strand}. I bambini confrontano al proprio ritmo con un riscontro delicato e immediato — nessun timer, nessun punteggio, solo un gioco sereno per osservare con attenzione le dimensioni delle cose."
+        ],
+        "practices": [
+          "Confrontare direttamente due oggetti in base a una caratteristica misurabile come la lunghezza o l'altezza",
+          "Decidere quale oggetto è più alto, più corto o più lungo",
+          "Descrivere con parole proprie la differenza tra due dimensioni",
+          "Osservare con attenzione e ragionare sulle dimensioni invece di contare"
+        ],
+        "howToPlay": [
+          "I bambini guardano due immagini dello stesso oggetto mostrato in dimensioni diverse e leggono o ascoltano la consegna.",
+          "Toccano quella che è più alta, più corta o più lunga, a seconda di ciò che chiede la consegna.",
+          "Un riscontro affettuoso conferma la scelta corretta e propone un nuovo tentativo facile quando serve."
+        ],
+        "learningGoals": [
+          "Confrontare direttamente due oggetti in base a una caratteristica misurabile — il cuore delle Indicazioni nazionali.",
+          "Usare le parole più alto, più corto e più lungo per descrivere e confrontare le dimensioni.",
+          "Costruire il primo vocabolario della misura su cui si baseranno in seguito i lavori su lunghezza, peso e dati."
+        ]
+      },
+      "Reading: Foundational Skills": {
+        "about": [
+          "Questa attività di lettura interattiva e gratuita offre ai bambini un esercizio concreto per pronunciare i suoni e costruire le parole. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare e senza account da configurare.",
+          "È allineata alle Indicazioni nazionali nell'ambito della lettura. Ogni parola viene verificata per una divisione accurata e adatta ai bambini, e il riscontro è delicato e immediato: non c'è nessun timer e nessun punteggio."
+        ],
+        "practices": [
+          "Scomporre le parole in suoni o sillabe e fonderle di nuovo insieme",
+          "Abbinare le lettere e i gruppi di lettere ai suoni che producono",
+          "Costruire passo dopo passo parole brevi e decodificabili",
+          "Sentire e pronunciare ogni parte di una parola in ordine"
+        ],
+        "howToPlay": [
+          "I bambini guardano l'immagine o ascoltano la parola, poi leggono la consegna.",
+          "Toccano i suoni o le sillabe in ordine per costruire la parola.",
+          "Un controllo amichevole legge ad alta voce la parola completata e invita a riprovare quando serve."
+        ],
+        "learningGoals": [
+          "Fondere suoni e sillabe per leggere e costruire parole semplici.",
+          "Collegare i suoni pronunciati alle lettere scritte, il cuore delle Indicazioni nazionali.",
+          "Far crescere le abilità di decodifica su cui si costruisce una lettura sicura e autonoma."
+        ]
+      },
+      "Phonological Awareness": {
+        "about": [
+          "Questa attività di ascolto interattiva e gratuita aiuta i bambini a sentire e a giocare con i suoni dentro le parole pronunciate. Funziona direttamente nel browser su qualsiasi dispositivo, senza nulla da installare e senza accesso richiesto.",
+          "È allineata alle Indicazioni nazionali nell'ambito della consapevolezza fonologica. Il riscontro è caloroso e immediato, e non c'è nessun timer o punteggio a mettere fretta a un piccolo studente."
+        ],
+        "practices": [
+          "Sentire i suoni e le sillabe distinti nelle parole pronunciate",
+          "Fondere i suoni insieme per formare una parola",
+          "Scomporre una parola nei suoi suoni",
+          "Ascoltare le rime e i suoni iniziali"
+        ],
+        "howToPlay": [
+          "I bambini ascoltano o guardano la parola, poi leggono la consegna.",
+          "Toccano per scegliere, fondere o scomporre i suoni richiesti.",
+          "Un controllo delicato conferma la risposta corretta con una facile possibilità di riprovare."
+        ],
+        "learningGoals": [
+          "Sentire, fondere e separare i suoni nelle parole pronunciate.",
+          "Sviluppare le abilità di ascolto descritte nelle Indicazioni nazionali.",
+          "Costruire la consapevolezza dei suoni da cui dipendono il successo nella lettura e nella scrittura."
+        ]
+      }
     },
-    "generic": {"about":["Questa è un'attività di apprendimento interattiva e gratuita per i bambini più piccoli, che funziona direttamente nel browser su tablet, telefoni e computer della classe. Non c'è nulla da installare, nessun account da creare e nessuna preparazione per l'insegnante.","È allineata alle Indicazioni nazionali nell'ambito {strand}. I bambini lavorano al proprio ritmo con un riscontro delicato e immediato, e non c'è nessun timer e nessun punteggio, solo esercizio sereno e concreto."],"practices":["Esercitare l'abilità {strand} al centro di questa attività","Collegare immagini, numeri o parole all'idea che si sta esercitando","Provare, controllare e riprovare senza alcuna pressione","Costruire sicurezza un piccolo passo alla volta"],"howToPlay":["I bambini leggono o ascoltano la consegna e guardano ciò che viene mostrato sullo schermo.","Toccano per rispondere o per costruire la loro risposta.","Un controllo amichevole mostra quando hanno ragione, con un modo semplice per riprovare."],"learningGoals":["Esercitare e rafforzare l'abilità {strand} dietro le Indicazioni nazionali.","Acquisire dimestichezza nell'applicare l'idea in modo giocoso e senza pressioni.","Costruire una base da cui possa crescere l'apprendimento futuro."]},
-    "whatsInsideRange":"Numeri da {min} a {max}","whatsInsideTheme":"Gettoni illustrati di {theme} che i bambini sanno riconoscere","whatsInsideGrade":"Pensata per i bambini della classe {grade} (dai 5 ai 9 anni circa)","whatsInsideStrand":"Ambito Indicazioni nazionali: {strand}","whatsInsideCode":"Allineata alle Indicazioni nazionali"
+    "generic": {
+      "about": [
+        "Questa è un'attività di apprendimento interattiva e gratuita per i bambini più piccoli, che funziona direttamente nel browser su tablet, telefoni e computer della classe. Non c'è nulla da installare, nessun account da creare e nessuna preparazione per l'insegnante.",
+        "È allineata alle Indicazioni nazionali nell'ambito {strand}. I bambini lavorano al proprio ritmo con un riscontro delicato e immediato, e non c'è nessun timer e nessun punteggio, solo esercizio sereno e concreto."
+      ],
+      "practices": [
+        "Esercitare l'abilità {strand} al centro di questa attività",
+        "Collegare immagini, numeri o parole all'idea che si sta esercitando",
+        "Provare, controllare e riprovare senza alcuna pressione",
+        "Costruire sicurezza un piccolo passo alla volta"
+      ],
+      "howToPlay": [
+        "I bambini leggono o ascoltano la consegna e guardano ciò che viene mostrato sullo schermo.",
+        "Toccano per rispondere o per costruire la loro risposta.",
+        "Un controllo amichevole mostra quando hanno ragione, con un modo semplice per riprovare."
+      ],
+      "learningGoals": [
+        "Esercitare e rafforzare l'abilità {strand} dietro le Indicazioni nazionali.",
+        "Acquisire dimestichezza nell'applicare l'idea in modo giocoso e senza pressioni.",
+        "Costruire una base da cui possa crescere l'apprendimento futuro."
+      ]
+    },
+    "whatsInsideRange": "Numeri da {min} a {max}",
+    "whatsInsideTheme": "Gettoni illustrati di {theme} che i bambini sanno riconoscere",
+    "whatsInsideGrade": "Pensata per i bambini della classe {grade} (dai 5 ai 9 anni circa)",
+    "whatsInsideStrand": "Ambito Indicazioni nazionali: {strand}",
+    "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
     "choice-board.fraction-noncongruent.2-g-a-3": {
@@ -60,32 +238,1269 @@
         "Costruire le basi della condivisione equa per affrontare più avanti le frazioni"
       ]
     },
-    "ten-frame.count-to-10.make-n.animals": ["Su una sola tabella del dieci, tuo figlio costruisce ogni numero da 0 a 10 posizionando un animaletto alla volta, casella dopo casella. È un gesto semplice e concreto che aiuta a collegare il contare alla quantità reale, proprio come previsto dallo standard K.CC.B.4.", "Con i dieci spazi sempre davanti agli occhi, il bambino vede subito quanto manca per arrivare a dieci: le caselle vuote raccontano la storia del numero meglio di tante parole. Questa visione d'insieme rende il conteggio piano e sicuro.", "Qui non c'è alcun timer e non c'è alcun punteggio. I bambini possono soffermarsi, ripensare e provare di nuovo con calma, perché ciò che conta è capire i numeri, non andare di fretta."],
-    "ten-frame.count-to-20.make-n.fruits": ["Con una doppia tabella del dieci, tuo figlio conta da 0 a 20 sistemando un frutto alla volta nelle caselle. Vedere venti come \"un dieci pieno e qualcosa in più\" è il primo passo verso la comprensione del valore posizionale, in linea con lo standard K.CC.B.4.", "Quando la prima tabella si riempie completamente, il bambino capisce che è tempo di passare alla seconda: così l'idea di gruppi di dieci prende forma in modo naturale e visivo. È un'esperienza che dà solide basi alla matematica futura.", "Non ci sono né timer né punteggio. Tuo figlio può esplorare i numeri fino a venti con tutta la tranquillità di cui ha bisogno, ripetendo l'attività ogni volta che lo desidera."],
-    "ten-frame.how-many.0-10.animals": ["In questa attività i bambini osservano gli animaletti già disposti sulla tabella del dieci e rispondono alla domanda \"quanti sono?\", con quantità da 0 a 10. È un esercizio che allena lo sguardo a riconoscere i numeri a colpo d'occhio, sostenendo lo standard K.CC.B.5.", "La struttura ordinata delle dieci caselle aiuta tuo figlio a percepire la quantità senza dover contare ogni volta da capo: piano piano impara a \"vedere\" il cinque o l'otto in modo immediato. Questa abilità, chiamata subitizzazione, è preziosa per tutta la matematica.", "Qui non c'è nessun timer e nessun punteggio. Il bambino può guardare con calma, riflettere e dare la sua risposta serenamente, senza alcuna pressione."],
-    "ten-frame.write-numeral.0-20.fruits": ["Su una doppia tabella del dieci, tuo figlio conta i frutti e poi scrive il numero corrispondente, da 0 a 20. Questo collega la quantità che vede al simbolo scritto, un passaggio fondamentale descritto dallo standard K.CC.A.3.", "Vedere i frutti ben ordinati nelle caselle e poi tradurli in una cifra aiuta il bambino a dare un significato concreto ai numeri scritti. Le due tabelle rendono chiaro come si forma un numero oltre il dieci.", "Non c'è alcun timer e non c'è alcun punteggio. I bambini possono contare e scrivere con tutta la calma necessaria, ripetendo l'attività finché si sentono sicuri."],
-    "ten-frame.teen-numbers.make-n": ["Con la doppia tabella del dieci, tuo figlio costruisce i numeri da 11 a 19 come \"un dieci pieno e alcune unità in più\". Riempire prima una tabella intera e poi aggiungere i pezzi mancanti rende visibile la struttura di questi numeri, secondo lo standard K.NBT.A.1.", "Questo modo di lavorare aiuta il bambino a non vedere i numeri tra dieci e venti come simboli misteriosi, ma come dieci e qualcos'altro. È una base solida per comprendere in seguito il valore posizionale.", "Qui non ci sono né timer né punteggio. Tuo figlio può sperimentare e ricominciare quante volte vuole, con la serenità di chi impara al proprio ritmo."],
-    "choice-board.sort-count.k-md-b-3": {
+    "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "I bambini imparano a organizzare il mondo classificando in gruppi. Sullo schermo appare una pila mista di disegni amichevoli — animali, frutti, a volte veicoli — tutto mescolato insieme. Il prompt nomina UN gruppo e il bambino decide quanti ne appartengono, poi tocca il numero.",
-        "La pila è mista di proposito. Per rispondere «quanti animali?» il bambino non può semplicemente contare tutto; deve guardare ogni disegno, decidere che cosa è, mettere da parte quello che non appartiene, contare solo il gruppo nominato.",
-        "È in linea con le Indicazioni nazionali, nell'ambito {strand}. I bambini classificano e contano al loro ritmo con un feedback gentile e immediato — niente timer, niente punti, solo un ordinamento tranquillo e un conteggio consapevole."
+        "«Forma 3», «Forma 7», «Forma 10»: il bambino costruisce il numero toccando le caselle di una tabella del dieci per inserire esattamente quel numero di gettoni a forma di animale, poi preme «Controlla». È un'attività gratuita e interattiva di conteggio per la scuola dell'infanzia, per i numeri da 0 a 10, che funziona nel browser senza nulla da installare e senza account.",
+        "È la tabella del dieci a rendere tutto questo più del semplice contare a memoria. Le sue due file da cinque danno a ogni numero una forma che il bambino può riconoscere — il 4 riempie quasi tutta la fila in alto, il 10 riempie l'intera tabella — così il conteggio comincia a collegarsi a quanto è davvero un numero. Il bambino decide quanti animali mettere e può aggiungerne o toglierne prima di controllare, mantenendo l'attenzione sul conteggio uno-a-uno invece che sull'indovinare.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito del conteggio e della cardinalità: comprendere la relazione tra i numeri e le quantità e collegare il conteggio alla cardinalità. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
       ],
       "practices": [
-        "Riconoscere la categoria di ogni disegno nella pila mista.",
-        "Contare solo il gruppo nominato e ignorare il resto.",
-        "Dire il numero di un gruppo specifico dal totale di tutto.",
-        "Abituarsi a ordinare per primo, poi contare — un'abitudine utile per il lavoro con i dati più avanti."
+        "Contare esattamente il numero di animali indicato dalla consegna.",
+        "Mettere un gettone per casella con un conteggio uno-a-uno attento.",
+        "Vedere ogni numero da 0 a 10 prendere forma sulla tabella del dieci a due file.",
+        "Collegare il numero detto o scritto a una quantità reale."
       ],
       "howToPlay": [
-        "Guarda la pila mista di disegni e ascolta (o leggi) il nome del gruppo. Decidi quanti ne appartengono a quel gruppo.",
-        "Tocca il numero che corrisponde al tuo conteggio. Non c'è fretta.",
-        "Ricevi una conferma gentile e puoi riprovare tutte le volte che vuoi — niente sbagliato, solo imparare a guardare con attenzione."
+        "Leggi la consegna per vedere quale numero formare, come «Forma 7».",
+        "Tocca le caselle della tabella del dieci per inserire esattamente quel numero di gettoni-animale, poi premi «Controlla».",
+        "Non è giusto? Aggiungi o togli gettoni e riprova — non c'è timer e non c'è punteggio."
       ],
       "learningGoals": [
-        "Classificare i disegni in categorie e contare ogni gruppo.",
-        "Dire il numero di un gruppo nominato partendo dal totale misto.",
-        "Costruire le abilità di ordinamento per lavori con i dati più avanti — nell'ambito {strand}."
+        "Formare qualsiasi numero da 0 a 10 con i gettoni su una tabella del dieci.",
+        "Collegare il conteggio al «quanti sono», così che l'ultimo numero contato indichi la quantità.",
+        "Costruire il senso del numero sulla tabella del dieci su cui poggiano le prime addizioni e il valore posizionale."
+      ]
+    },
+    "ten-frame.count-to-20.make-n.fruits": {
+      "about": [
+        "La richiesta nomina un numero da formare e il bambino tocca le caselle di una doppia tabella del dieci per riempire esattamente quel numero di frutti sulle due tabelle, poi tocca Controlla. Arrivare fino a 20 significa una decina intera più qualcosa. È un'attività di conteggio per la scuola dell'infanzia, gratuita e interattiva, che si gioca nel browser senza registrazione.",
+        "La doppia tabella del dieci insegna l'idea più importante sui numeri tra dieci e venti: una decina intera più ancora qualcosa. Per formare 14, il bambino riempie la prima tabella fino a dieci e poi aggiunge quattro frutti sulla seconda — così la struttura del numero, dieci e quattro, è lì da vedere. Andare oltre il dieci è un vero passo avanti rispetto al contare fino a dieci, e le due tabelle danno al bambino un modo per tenere il conto in ordine senza perdersi.",
+        "L'attività è allineata alle Indicazioni nazionali: collegare il conteggio alla cardinalità ed estendere il senso del numero oltre il dieci. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Contare esattamente il numero di frutti che la richiesta nomina, fino a 20.",
+        "Riempire una tabella del dieci intera e poi proseguire il conteggio sulla seconda.",
+        "Vedere i numeri tra dieci e venti come una decina più qualcosa.",
+        "Tenere un conteggio attento, uno a uno, oltre il dieci."
+      ],
+      "howToPlay": [
+        "Il bambino legge la richiesta per sapere quale numero formare, fino a 20.",
+        "Tocca le caselle della doppia tabella del dieci per mettere esattamente quel numero di frutti, poi tocca Controlla.",
+        "Non torna? Aggiunge o toglie frutti e riprova: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Formare qualsiasi numero da 0 a 20 con i frutti sulla doppia tabella del dieci.",
+        "Vedere i numeri oltre il dieci come una decina intera più alcune unità.",
+        "Costruire le basi del contare-oltre e del valore posizionale per la matematica della classe prima."
+      ]
+    },
+    "ten-frame.how-many.0-10.animals": {
+      "about": [
+        "La tabella del dieci mostra un gruppo di animali e pone una sola domanda semplice: quanti? Il bambino conta gli animali — da 0 fino a 10 — e scrive la cifra corrispondente sul tastierino. È un'attività di conteggio gratuita e interattiva per la scuola dell'infanzia, che funziona direttamente nel browser, senza installare nulla e senza account.",
+        "Questo è il lato del «rispondere» nel contare. Invece di costruire un numero, il bambino legge una quantità già presente e la nomina con un numero scritto. Poiché gli animali stanno nelle due righe della tabella del dieci, il bambino può cominciare a riconoscere le quantità a colpo d'occhio — una riga in alto piena è cinque, una tabella piena è dieci — e poi verificare contando uno per uno. Questo passaggio dal contare a un unico numero scritto è il cuore della cardinalità.",
+        "L'attività è allineata alle Indicazioni nazionali: contare per rispondere alla domanda «quanti?» su oggetti disposti su una tabella. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+      ],
+      "practices": [
+        "Contare un gruppo di animali mostrato sulla tabella del dieci.",
+        "Rispondere a «quanti?» con il numero scritto corretto.",
+        "Riconoscere il cinque e il dieci dalle righe della tabella.",
+        "Abbinare una quantità contata alla sua cifra, da 0 a 10."
+      ],
+      "howToPlay": [
+        "Il bambino guarda la tabella del dieci e conta quanti animali vede.",
+        "Scrive quel numero sul tastierino e preme «Controlla».",
+        "Se non è corretto, conta di nuovo e riprova: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Contare per rispondere a «quanti?» fino a dieci oggetti.",
+        "Nominare una quantità con la cifra scritta corrispondente.",
+        "Costruire la cardinalità su cui si fondano la lettura e la scrittura dei numeri."
+      ]
+    },
+    "ten-frame.write-numeral.0-20.fruits": {
+      "about": [
+        "Una doppia tabella del dieci mostra un gruppo di pedine a forma di frutta e il bambino scrive il numero corrispondente, contando da 0 a 20 e digitando la cifra sul tastierino. Poiché una tabella piena vale dieci, il bambino può proseguire il conteggio per i numeri tra dieci e venti. È un'attività interattiva e gratuita di conteggio per la scuola dell'infanzia, da fare nel browser, senza nulla da installare e senza account.",
+        "Questa attività unisce il contare allo scrivere. Il bambino legge una quantità già disposta su due tabelle del dieci e la nomina con un numero scritto, compresi i numeri a due cifre più difficili oltre il dieci. Poiché una tabella piena vale dieci, può contare a partire da dieci invece di ricominciare ogni volta da uno, e poi registrare ciò che ha contato come numero scritto: è il legame tra la quantità e il simbolo.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: scrivere i numeri da 0 a 20 e rappresentare una quantità di oggetti con un numero scritto. Nessun timer e nessun punteggio."
+      ],
+      "practices": [
+        "Contare un gruppo di frutta mostrato su una doppia tabella del dieci.",
+        "Scrivere il numero da 0 a 20 per la quantità contata.",
+        "Proseguire il conteggio da una tabella piena per i numeri tra dieci e venti.",
+        "Collegare una quantità al suo simbolo numerico scritto."
+      ],
+      "howToPlay": [
+        "Il bambino guarda la doppia tabella del dieci e conta quanti pezzi di frutta vede.",
+        "Scrive quel numero sul tastierino, anche oltre il dieci, e preme Controlla.",
+        "Non è corretto? Conta di nuovo e riprova: non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Il bambino è in grado di rappresentare un conteggio fino a 20 oggetti con un numero scritto.",
+        "Impara a scrivere i numeri da 0 a 20, compresi quelli a due cifre.",
+        "Costruisce l'abilità di leggere e scrivere i numeri su cui si basa tutta la notazione matematica successiva."
+      ]
+    },
+    "ten-frame.teen-numbers.make-n": {
+      "about": [
+        "La consegna indica un numero tra 11 e 19, per esempio 16, e il bambino riempie la prima tabella del dieci fino a una decina completa e poi aggiunge le unità in più su una seconda tabella — così 16 appare come dieci e altri sei. Costruirlo in questo modo rende visibile la struttura nascosta. È un'attività sul valore posizionale per la scuola dell'infanzia, gratuita e interattiva, che si gioca nel browser senza registrazione.",
+        "I numeri tra 11 e 19 sono insidiosi perché il loro nome nasconde la struttura: «sedici» non dice «dieci e sei». Costruire ognuno su due tabelle rende visibile quella struttura nascosta: c'è sempre un dieci pieno e poi alcune unità. Il bambino compone il numero a partire da un dieci e da qualche unità invece di contare tutto a uno a uno: è proprio l'idea su cui si fonda il valore posizionale.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: comporre e scomporre i numeri da 11 a 19 in un dieci e alcune unità. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Riempire una tabella del dieci intera per formare una decina.",
+        "Aggiungere le unità in più sulla seconda tabella.",
+        "Costruire ogni numero da 11 a 19 come un dieci e qualche unità in più.",
+        "Vedere il dieci nascosto dentro numeri come 14 e 18."
+      ],
+      "howToPlay": [
+        "Il bambino legge la consegna per sapere quale numero tra 11 e 19 formare.",
+        "Riempie la prima tabella del dieci fino a dieci, poi mette le unità in più sulla seconda tabella e preme Conferma.",
+        "Non è giusto? Aggiusta i gettoni e riprova, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Comporre i numeri da 11 a 19 come un dieci e alcune unità.",
+        "Capire che ogni numero tra 11 e 19 contiene un dieci completo.",
+        "Costruire le basi del valore posizionale per addizionare e raggruppare in prima elementare."
+      ]
+    },
+    "choice-board.sort-count.k-md-b-3": {
+      "about": [
+        "Compare una pila di disegni simpatici tutti mescolati — animali, frutti e a volte veicoli — e la consegna nomina un solo gruppo: il bambino decide quanti disegni appartengono a quel gruppo e poi tocca il numero giusto. È un'attività di conteggio per la scuola dell'infanzia, gratuita e interattiva, che si gioca direttamente nel browser su tablet, telefono e computer di classe, senza installare nulla e senza account.",
+        "L'idea importante è che bisogna prima classificare e poi contare. Poiché la pila è mista apposta, per rispondere a «quanti animali?» il bambino non può contare tutto: deve guardare ogni disegno, decidere a quale categoria appartiene, mettere da parte ciò che non c'entra e contare solo il gruppo nominato. È proprio questo lavoro di smistamento a rendere il conteggio significativo.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei dati: classificare gli oggetti in categorie e contare quanti elementi ci sono in ciascun gruppo. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Riconoscere a quale categoria appartiene ogni disegno della pila mista.",
+        "Contare solo il gruppo nominato, ignorando tutti gli altri disegni.",
+        "Dire quanti elementi ci sono in un gruppo a partire da una pila mescolata.",
+        "Prendere l'abitudine a classificare prima e contare poi, utile per il lavoro con i dati più avanti."
+      ],
+      "howToPlay": [
+        "Il bambino guarda la pila mista di disegni e legge o ascolta il nome del gruppo da contare.",
+        "Decide quanti disegni appartengono a quel gruppo e tocca il numero corrispondente, poi preme «Controlla».",
+        "Non è giusto? Si può ricontare e riprovare quante volte si vuole, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Classificare i disegni in categorie e contare quanti elementi ci sono in ciascun gruppo.",
+        "Dire il numero di un gruppo nominato a partire da una pila mista.",
+        "Costruire le basi dello smistamento e del conteggio su cui poggerà il lavoro con i dati negli anni successivi."
+      ]
+    },
+    "array.build-array.2-oa-c-4": {
+      "about": [
+        "Toccando una casella dopo l'altra, il bambino della classe seconda riempie uno schieramento rettangolare — righe uguali ben allineate in colonne — e poi conta quanti pallini ci sono in tutto. Si gioca gratis e direttamente nel browser, senza installare nulla e senza account. Le griglie crescono pian piano: si parte da un piccolo schieramento 2 per 3 e si arriva a 3 per 4, 2 per 5, 4 per 4 e 4 per 3, così il bambino riempie griglie ordinate di forme diverse.",
+        "L'idea importante è che un rettangolo fatto di righe uguali si può contare nel modo veloce. Mentre il bambino tocca per riempire ogni riga, sotto si forma la striscia dell'addizione ripetuta — 4 + 4 + 4 — così vede il quattro contato tre volte invece di contare ogni pallino a uno a uno. Poi scrive il totale sul tastierino. Vedere le righe allinearsi come addendi uguali è proprio il ponte che porta dall'addizione alla moltiplicazione.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: usare l'addizione per trovare quanti oggetti sono disposti in righe e colonne e scrivere l'operazione come somma di addendi uguali. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Riempire una griglia rettangolare come righe e colonne uguali.",
+        "Leggere lo schieramento come addizione ripetuta, ad esempio 4 + 4 + 4 = 12.",
+        "Contare per gruppi uguali invece che a uno a uno per trovare il totale.",
+        "Scrivere il totale che corrisponde alle righe appena costruite."
+      ],
+      "howToPlay": [
+        "Il bambino guarda lo schieramento richiesto — per esempio 3 righe da 4 — e tocca per riempire ogni riga.",
+        "Osserva la striscia dell'addizione ripetuta che somma le righe uguali, poi scrive sul tastierino quanti sono in tutto.",
+        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Trovare il totale in uno schieramento rettangolare usando l'addizione ripetuta.",
+        "Vedere le righe uguali come addendi uguali e scrivere la somma corrispondente.",
+        "Costruire le basi dei gruppi uguali da cui nascerà la moltiplicazione negli anni successivi."
+      ]
+    },
+    "choice-board.which-more.k-c-c-6": {
+      "about": [
+        "Compaiono due gruppi di immagini amichevoli — gatti, cani, anatre, pesci, mele, banane, arance o fragole — e il bambino tocca il gruppo che ne ha di più. Le quantità arrivano fino a otto e il confronto si fa guardando e contando, non leggendo i numeri scritti. È un'attività di conteggio per la scuola dell'infanzia, gratuita e interattiva, che funziona nel browser su telefono, tablet e computer di classe, senza registrazione.",
+        "L'idea importante è che «di più» riguarda quanti sono, non quanto spazio occupa un gruppo. Poiché i due gruppi possono essere vicini come quantità — sette contro sei, oppure sei contro cinque — il bambino non può vincere con una semplice occhiata al mucchio più grande: deve davvero contare ogni gruppo e confrontare i totali. Così si supera il tipico inganno dell'occhio, per cui poche immagini sparpagliate sembrano più di un gruppetto fitto.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: capire se la quantità di oggetti di un gruppo è maggiore, minore o uguale a quella di un altro. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Contare quanti oggetti ci sono in ciascuno dei due gruppi.",
+        "Confrontare i due totali per decidere quale gruppo ne ha di più.",
+        "Non lasciarsi ingannare da quanto un gruppo è sparpagliato o raccolto, ma contare.",
+        "Collegare la quantità più grande all'idea di «di più»."
+      ],
+      "howToPlay": [
+        "Il bambino guarda i due gruppi di immagini e conta quanti oggetti ci sono in ognuno.",
+        "Tocca il gruppo che ne ha di più, poi conferma la scelta.",
+        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Riconoscere contando quale di due gruppi ne ha di più.",
+        "Capire che la quantità più grande significa «di più», comunque siano disposte le immagini.",
+        "Costruire le basi del confronto per il lavoro su maggiore e minore con i numeri più avanti."
+      ]
+    },
+    "choice-board.compare-length.k-md-2": {
+      "about": [
+        "Due oggetti di tutti i giorni stanno uno accanto all'altro e il bambino tocca quello più alto, più lungo o più corto — confrontando immagini reali e familiari come un pino o una palma, una matita, un pastello, un pennarello o un righello, una carota o un cetriolo, una giraffa, un girasole o una candela. È un'attività di misura per la scuola dell'infanzia, gratuita, che si gioca in qualsiasi browser senza download e senza account.",
+        "Non c'è nessun conteggio e non ci sono numeri: il bambino guarda semplicemente e confronta una caratteristica misurabile per volta. La consegna pronuncia la parola — più alto, più lungo o più corto — e il bambino decide quale dei due oggetti corrisponde. Confrontare l'altezza per «più alto» (una giraffa) e la lunghezza per «più lungo» (un cetriolo) costruisce il linguaggio della misura prima ancora di introdurre un righello o un numero.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito della misura: confrontare direttamente due oggetti rispetto a una grandezza e dire quale è più alto, più lungo o più corto. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Confrontare due oggetti per altezza o per lunghezza.",
+        "Capire le parole più alto, più lungo e più corto.",
+        "Scegliere l'oggetto che corrisponde alla parola della consegna.",
+        "Misurare con lo sguardo, senza contare e senza numeri."
+      ],
+      "howToPlay": [
+        "Il bambino guarda i due oggetti e legge o ascolta la parola — più alto, più lungo o più corto.",
+        "Tocca l'oggetto che corrisponde a quella parola.",
+        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Confrontare direttamente due oggetti e dire quale è più alto, più lungo o più corto.",
+        "Usare le parole della misura per descrivere lunghezza e altezza.",
+        "Costruire le basi del confronto per grandezza da cui nascerà la misura con le unità."
+      ]
+    },
+    "choice-board.compare-two-digit.1-nbt-b-3": {
+      "about": [
+        "Appaiono due numeri a due cifre — come 47 e 52, oppure 63 e 38 — e il bambino tocca l'affermazione vera, usando i simboli maggiore (>), minore (<) e uguale (=). Alcune coppie sono uguali, come 45 e 45 o 88 e 88, quindi anche il segno di uguale conta. È un'attività sul valore posizionale per la prima elementare, gratuita, che si gioca direttamente nel browser senza registrazione.",
+        "La strategia è guardare prima le decine e poi le unità. Con 47 e 52, le 5 decine battono le 4 decine, quindi 47 è minore di 52 — anche se 7 è più grande di 2. Le coppie insidiose come 29 e 92 usano le stesse cifre in posizioni diverse, perciò il bambino deve leggere il valore posizionale e non le cifre da sole. Scegliere il simbolo corretto trasforma quel confronto nel linguaggio formale di >, = e <.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: confrontare due numeri a due cifre basandosi sul significato delle decine e delle unità e registrare il risultato con i simboli >, = e <. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Confrontare due numeri a due cifre guardando prima le decine e poi le unità.",
+        "Scegliere il simbolo giusto — maggiore, minore o uguale.",
+        "Riconoscere quando due numeri sono uguali.",
+        "Leggere il valore posizionale in coppie insidiose come 29 e 92."
+      ],
+      "howToPlay": [
+        "Il bambino guarda i due numeri a due cifre, controllando prima la cifra delle decine e poi quella delle unità.",
+        "Tocca l'affermazione vera, usando >, = o <.",
+        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Confrontare numeri a due cifre e registrare il risultato con >, = e <.",
+        "Usare il significato delle cifre delle decine e delle unità per decidere quale numero è maggiore.",
+        "Costruire l'abilità di confronto posizionale su cui si baserà il lavoro con i numeri più grandi."
+      ]
+    },
+    "clock.set-clock.1-md-b-3": {
+      "about": [
+        "Viene indicata un'ora scritta — come le 3:00, le 7:30, le 9:00, le 6:30 oppure l'una e mezza — e il bambino trascina le lancette lunga e corta sul quadrante analogico per mostrarla, mentre un display digitale si aggiorna man mano. «Metti l'ora» è un'attività di matematica per la classe prima, gratuita, che si gioca direttamente nel browser su tablet, telefono e computer di classe, senza installare nulla e senza account.",
+        "Mettere l'ora su un orologio è più difficile che leggerla, perché il bambino deve posizionare entrambe le lancette e non solo riconoscere un'immagine. Nelle mezze ore la lancetta corta sta tra due numeri, non su uno: chi sposta l'ora soltanto fino a un numero sbaglia, perché deve metterla a metà. Vedere il display digitale cambiare mentre le lancette si muovono collega l'immagine analogica ai numeri che i bambini già conoscono, e le ore restano intere e a mezza ora, così l'attenzione è tutta sul posizionare bene le lancette.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito della misura del tempo: leggere e scrivere l'ora intera e la mezz'ora sull'orologio analogico e digitale, pensata per i bambini di classe prima (6-7 anni). Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Trascinare la lancetta delle ore e quella dei minuti per mostrare un'ora data.",
+        "Posizionare la lancetta corta a metà tra due numeri per una mezza ora.",
+        "Leggere l'ora digitale corrispondente mentre le lancette si muovono.",
+        "Distinguere le ore intere dalle mezze ore e impostarle correttamente."
+      ],
+      "howToPlay": [
+        "Il bambino legge l'ora scritta sopra l'orologio.",
+        "Trascina la lancetta lunga e quella corta per mostrare quell'ora, osservando il display digitale.",
+        "Controlla l'orologio e aggiusta le lancette quante volte vuole, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Impostare un orologio analogico all'ora intera e alla mezz'ora.",
+        "Capire che nella mezza ora la lancetta delle ore sta tra due numeri.",
+        "Collegare il quadrante analogico all'ora digitale che i bambini leggono ogni giorno."
+      ]
+    },
+    "match-pairs.make-the-number.k-oa-a-3": {
+      "about": [
+        "Appare un numero obiettivo — per esempio 5 — e il bambino trova le coppie di numeri che lo formano, come 1 e 4 oppure 2 e 3, toccando un numero e poi il suo compagno per collegare la coppia. È un gioco di abbinamento dei numeri per la scuola dell'infanzia, gratuito e interattivo, che si gioca direttamente nel browser, senza installazione e senza account.",
+        "L'idea importante è che uno stesso numero si può formare in più di un modo. Con un obiettivo di 7, il bambino può collegare 0 e 7, poi 3 e 4, scoprendo che lo stesso totale ha diverse coppie di compagni. Poiché l'attività chiede le coppie che formano l'obiettivo e non una sola risposta giusta, costruisce con calma il senso di parte-parte-tutto su cui poggerà ogni addizione successiva.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: scomporre numeri fino a 10 in coppie in più di un modo. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Trovare due numeri che insieme formano un obiettivo fino a 10.",
+        "Scoprire più di una coppia che forma lo stesso numero.",
+        "Costruire la comprensione di parte-parte-tutto dei numeri piccoli.",
+        "Abbinare un numero al compagno che completa il totale."
+      ],
+      "howToPlay": [
+        "Il bambino guarda il numero obiettivo del turno, per esempio 6.",
+        "Tocca un numero, poi tocca il compagno che insieme forma l'obiettivo, e osserva la coppia collegarsi.",
+        "Trova tutte le coppie che formano l'obiettivo: non ci sono timer né punteggio, quindi con calma."
+      ],
+      "learningGoals": [
+        "Scomporre numeri fino a 10 in coppie in più di un modo.",
+        "Capire che un numero è fatto di parti più piccole.",
+        "Gettare le basi di parte-parte-tutto per l'addizione e la sottrazione."
+      ]
+    },
+    "match-pairs.add-it-both-ways.1-oa-b-3": {
+      "about": [
+        "Il bambino vede carte con addizioni come 4 + 7 e 7 + 4, oppure 5 + 9 e 9 + 5, e collega ogni addizione agli stessi due numeri sommati al contrario — tocca una carta, poi tocca la sua gemella scambiata, e la coppia abbinata si unisce. È un gioco di abbinamento di carte per la classe prima, gratuito e interattivo, che si gioca direttamente nel browser, senza installazione e senza account.",
+        "L'idea importante è la proprietà commutativa: 4 + 7 e 7 + 4 fanno entrambe 11, quindi l'ordine degli addendi non cambia il totale. Ogni turno mostra sei carte — tre coppie scambiate mescolate tra loro — così il bambino calcola i totali e nota quali addizioni usano proprio gli stessi numeri girati. Non sta abbinando carte identiche: sta riconoscendo che due somme dall'aspetto diverso sono uguali.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: usare le proprietà delle operazioni, come la proprietà commutativa, come strategie per addizionare. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Riconoscere che gli addendi si possono sommare in qualsiasi ordine ottenendo lo stesso totale.",
+        "Sommare numeri piccoli come 6 + 9 e confermare che 9 + 6 dà lo stesso risultato.",
+        "Abbinare ogni addizione alla sua gemella scambiata tra le carte mescolate.",
+        "Usare il fatto «girato» come strategia per addizionare più facilmente."
+      ],
+      "howToPlay": [
+        "Il bambino guarda le sei carte con le addizioni e capisce quali usano gli stessi due numeri in ordine diverso.",
+        "Tocca un'addizione come 3 + 6, poi tocca la sua gemella scambiata 6 + 3, e osserva la coppia collegarsi.",
+        "Continua finché tutte e tre le coppie sono abbinate: non ci sono timer né punteggio, quindi con calma."
+      ],
+      "learningGoals": [
+        "Applicare la proprietà commutativa dell'addizione.",
+        "Capire che cambiare l'ordine degli addendi lascia uguale il totale.",
+        "Usare i fatti «girati» per addizionare entro il 20 in modo più rapido e sicuro."
+      ]
+    },
+    "numberbond.make-ten-to-add.1-oa-c-6": {
+      "about": [
+        "Per una somma come 8 + 5, il bambino spezza il secondo numero su un grafo dei numeri così che una parte completi il primo fino a dieci (8 + 2 = 10), poi aggiunge quel che resta (10 + 3 = 13). La strategia del «fare dieci» prende vita in un'attività di matematica per la classe prima, gratuita e interattiva, che si gioca direttamente nel browser senza account.",
+        "L'idea importante è trasformare un calcolo difficile in uno facile: arrivare a un dieci amico, poi aggiungere ciò che avanza. Il bambino tocca per riempire la parte che fa dieci del grafo, e il grafo mostra esattamente come si spezza il secondo numero — così la strategia è qualcosa che vede e fa, non che impara a memoria.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: addizionare entro il 20 usando la strategia del fare dieci con gli amici del 10. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Spezzare un numero in due parti su un grafo dei numeri.",
+        "Completare il primo numero fino a un dieci (8 + 2 = 10).",
+        "Aggiungere la parte che avanza al dieci per concludere (10 + 3 = 13).",
+        "Costruire un'addizione entro il 20 sicura e flessibile."
+      ],
+      "howToPlay": [
+        "Il bambino guarda una somma come 8 + 5 mostrata su un grafo dei numeri.",
+        "Tocca per riempire la parte che fa dieci con il primo numero, poi aggiunge quel che resta.",
+        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Addizionare entro il 20 usando la strategia del fare dieci.",
+        "Spezzare un numero per formare un dieci amico.",
+        "Addizionare in modo flessibile invece di contare ogni numero a uno a uno."
+      ]
+    },
+    "place-value.tens-and-ones.1-nbt-b-2": {
+      "about": [
+        "Per formare 47, il bambino posa quattro barre da dieci e sette cubetti da uno e vede il «quaranta» diventare qualcosa di concreto invece di una semplice cifra. I numeri vanno da 12 fino a 95 — comprese le decine tonde 30, 50, 70 e 90 — costruiti un tocco di blocco alla volta, in un'attività di matematica per la prima elementare, gratuita e interattiva, che si gioca nel browser senza registrazione.",
+        "L'idea importante è che un numero a due cifre è fatto di decine e unità. Per costruire 47, il bambino usa quattro barre da dieci e sette cubetti da uno, e vedere le quattro barre rende concreto il «quaranta» invece di lasciarlo una semplice cifra. I numeri tondi come 70 e 90 rinforzano che uno zero nelle unità significa che non c'è nessun cubetto sciolto: solo decine complete.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: capire che un numero a due cifre è formato da un certo numero di decine e di unità. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Costruire un numero a due cifre con il giusto numero di decine e di unità.",
+        "Collegare la cifra delle decine alle barre da dieci e quella delle unità ai cubetti da uno.",
+        "Capire i numeri tondi come 70 come un conteggio di decine complete.",
+        "Leggere e formare numeri a due cifre fino a 95."
+      ],
+      "howToPlay": [
+        "Il bambino legge il numero obiettivo, come 47.",
+        "Tocca per aggiungere barre da dieci e cubetti da uno finché i blocchi formano quel numero.",
+        "Guarda il numero crescere e prosegue, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Capire le decine e le unità nei numeri a due cifre.",
+        "Vedere che la cifra delle decine conta i gruppi di dieci e quella delle unità conta i singoli.",
+        "Costruire le basi del valore posizionale per addizionare e sottrarre entro il 100."
+      ]
+    },
+    "syllable-builder.forma-la-parola-con-le-sillabe.rf-k-2-b": {
+      "about": [
+        "Il bambino guarda un'immagine — per esempio un gatto, una mela o una farfalla — e forma la parola mettendo le sillabe in ordine. Tocca le tessere delle sillabe come GA e TTO, oppure FAR, FAL e LA, e le sistema nei posti giusti per comporre la parola intera. È un'attività di fonetica per la scuola dell'infanzia, gratuita e interattiva, che si gioca direttamente nel browser, senza download e senza account.",
+        "L'idea importante è che le parole sono fatte di pezzi più piccoli, le sillabe, che si possono separare e unire. Mettendo le sillabe nel giusto ordine il bambino fonde i suoni in una parola che corrisponde all'immagine, e a ogni tessera può ascoltarne il suono per ritrovare l'ordine. Questo lavoro di conteggio, fusione e segmentazione delle sillabe è il primo passo verso la lettura.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito della consapevolezza fonologica: contare, pronunciare, fondere e segmentare le sillabe nelle parole parlate. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Riconoscere le sillabe che compongono una parola.",
+        "Mettere le sillabe nel giusto ordine per formare la parola dell'immagine.",
+        "Fondere le sillabe in una parola intera e pronunciarla.",
+        "Collegare la parola formata all'immagine mostrata."
+      ],
+      "howToPlay": [
+        "Il bambino guarda l'immagine e ascolta o pronuncia la parola.",
+        "Tocca le tessere delle sillabe e le sistema in ordine nei posti giusti per formare la parola.",
+        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Contare, fondere e segmentare le sillabe nelle parole parlate.",
+        "Capire che una parola è formata da sillabe che si mettono in ordine.",
+        "Costruire la consapevolezza fonologica che prepara alla lettura."
+      ]
+    },
+    "array.equal-groups.2-oa-c-4": {
+      "about": [
+        "In questa attività di matematica per la classe seconda il bambino forma gruppi uguali — la stessa quantità di oggetti in ognuno — e li somma per trovare il totale. Si gioca direttamente nel browser, è gratuita e non serve alcun account. I turni vanno da 2 gruppi da 3 fino a 3 gruppi da 5, passando per 4 gruppi da 4 e 5 gruppi da 2, così il bambino incontra molte disposizioni diverse di gruppi uguali.",
+        "A differenza di uno schieramento rettangolare ordinato, qui gli oggetti stanno in gruppi separati: ed è proprio questo a rendere centrale l'idea della «stessa quantità in ognuno». Man mano che il bambino riempie ogni gruppo, accanto cresce una striscia di addizione ripetuta — 4 + 4 + 4 — che trasforma i gruppi uguali in una somma; poi si scrive quanti sono in tutto. Il bambino costruisce e somma i gruppi: non moltiplica ancora, ma incontra esattamente il ragionamento su cui si fonda la moltiplicazione.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri e delle operazioni: usare l'addizione ripetuta di addendi uguali per trovare un totale. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+      ],
+      "practices": [
+        "Formare più gruppi che contengono ciascuno la stessa quantità.",
+        "Sommare gruppi uguali come addizione ripetuta, ad esempio 4 + 4 + 4 = 12.",
+        "Distinguere i gruppi uguali da gruppi di dimensioni diverse.",
+        "Trovare un totale contando i gruppi invece di contare a uno a uno."
+      ],
+      "howToPlay": [
+        "Leggi quanti gruppi uguali formare e quanti oggetti mettere in ognuno, poi tocca per riempire i gruppi.",
+        "Guarda i gruppi uguali sommarsi sulla striscia dell'addizione ripetuta, poi scrivi il totale sul tastierino.",
+        "Non è giusto? Riprova quante volte vuoi — non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Trovare un totale a partire da gruppi uguali usando l'addizione ripetuta.",
+        "Capire che i gruppi devono essere uguali perché la somma di addendi uguali funzioni.",
+        "Costruire il senso dei gruppi uguali su cui poggia la moltiplicazione negli anni successivi."
+      ]
+    },
+    "choice-board.even-odd.2-oa-c-3": {
+      "about": [
+        "Compare un numero da 1 a 20 e il bambino decide se è pari o dispari, poi tocca la casella «Pari» oppure «Dispari». Con due sole scelte, ogni numero va valutato per quello che è: è del tipo che si accoppia in modo esatto, oppure di quello che lascia un elemento da solo? È un'attività di matematica gratuita e interattiva per la classe seconda, che funziona nel browser senza registrazione.",
+        "L'idea importante è che pari e dispari riguardano la possibilità di dividere una quantità in due gruppi uguali senza che resti nulla. Qui il bambino non addiziona né sottrae: ordina i numeri interi in base alla loro struttura. Lavorando su tutto l'intervallo da 1 a 20, con entrambe le scelte sempre presenti, si costruisce il riconoscimento rapido — e l'abitudine a guardare la cifra delle unità — che rende pari e dispari quasi automatici.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito del senso del numero: stabilire se un gruppo di oggetti ha un numero pari o dispari di elementi. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+      ],
+      "practices": [
+        "Decidere se un numero da 1 a 20 è pari o dispari.",
+        "Capire i numeri pari come coppie senza resto e i dispari come una coppia con uno in più.",
+        "Guardare la cifra delle unità come modo rapido per distinguere pari e dispari.",
+        "Ordinare i numeri interi in base alla loro struttura invece di addizionare o sottrarre."
+      ],
+      "howToPlay": [
+        "Guarda il numero mostrato sulla lavagna.",
+        "Decidi se è pari o dispari e tocca la casella giusta, poi premi «Controlla».",
+        "Non è giusto? Riprova quante volte vuoi — non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Stabilire se un numero fino a 20 è pari o dispari.",
+        "Spiegare i pari come coppie senza resto e i dispari come una coppia con uno in più.",
+        "Costruire il senso del numero che sostiene il lavoro futuro sui gruppi uguali e sulla moltiplicazione."
+      ]
+    },
+    "choice-board.describe-attribute.k-md-a-1": {
+      "about": [
+        "Sullo schermo appare un oggetto di tutti i giorni e il bambino tocca la parola che lo descrive meglio — lungo, alto o pesante. Gli oggetti sono scelti perché una caratteristica spicca con chiarezza: una matita e una carota sono lunghe, una giraffa è alta, un sasso e una zucca sono pesanti. È un'attività gratuita e interattiva di misura per la scuola dell'infanzia, che si gioca direttamente nel browser, senza account.",
+        "Lo scopo è dare un nome ai modi in cui misuriamo le cose, prima ancora di numeri e righelli. Qui il bambino non conta e non misura: osserva un oggetto reale e decide quale caratteristica misurabile gli si addice — lunghezza, altezza o peso. Poiché ogni oggetto ha una caratteristica nettamente prevalente, il bambino si esercita a notare che tipo di misura invita ciascuna cosa, e questo è il fondamento linguistico di ogni misurazione futura.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito della misura: descrivere le caratteristiche misurabili di un oggetto, come lunghezza, altezza e peso. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+      ],
+      "practices": [
+        "Abbinare un oggetto alla parola di misura che gli si addice — lungo, alto o pesante.",
+        "Distinguere lunghezza, altezza e peso come modi diversi di misurare.",
+        "Osservare un oggetto reale e decidere che tipo di misura invita.",
+        "Costruire il vocabolario della misura che precede il contare e l'uso del righello."
+      ],
+      "howToPlay": [
+        "Guarda l'oggetto sulla lavagna — una matita, una giraffa o un sasso.",
+        "Tocca la parola che lo descrive meglio — lungo, alto o pesante — poi premi «Controlla».",
+        "Riprova quando vuoi: non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Descrivere le caratteristiche misurabili di un oggetto — lunghezza, altezza, peso.",
+        "Usare correttamente le parole lungo, alto e pesante per oggetti reali.",
+        "Costruire il linguaggio della misura su cui poggiano il misurare e il confrontare futuri."
+      ]
+    },
+    "choice-board.ten-more-less.1-nbt-c-5": {
+      "about": [
+        "Appare un numero come 34, 57, 60 o 82 insieme alle parole «dieci in più» o «dieci in meno», e il bambino lo calcola a mente e tocca la risposta tra quattro scelte. È un'attività gratuita e interattiva per la classe prima, che si gioca direttamente nel browser su tablet, telefono o computer di classe: niente da installare e nessun account.",
+        "L'intuizione chiave è che trovare dieci in più o dieci in meno non richiede affatto di contare: cambia solo la cifra delle decine, mentre le unità restano identiche; così 34 con dieci in più fa 44, e 57 con dieci in meno fa 47. Le scelte sbagliate sono numeri vicini, comprese alcune che cambiano la cifra delle unità: un bambino che conta a uno a uno o aggiunge una decina nel posto sbagliato si accorge che non torna. Il punto è vedere le decine, non contare.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito del valore posizionale: trovare a mente 10 in più o 10 in meno di un numero di due cifre, senza dover contare. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+      ],
+      "practices": [
+        "Trovare a mente 10 in più o 10 in meno di un numero di due cifre.",
+        "Notare che cambia solo la cifra delle decine, mentre le unità restano uguali.",
+        "Leggere se la consegna chiede dieci in più o dieci in meno.",
+        "Costruire il senso del valore posizionale per i numeri fino a 100."
+      ],
+      "howToPlay": [
+        "Leggi il numero e se la consegna chiede dieci in più o dieci in meno.",
+        "Calcola a mente — cambia le decine, lascia le unità — poi tocca il numero che ritieni giusto.",
+        "Prenditi tutto il tempo che ti serve: non c'è timer e non c'è punteggio, e puoi riprovare."
+      ],
+      "learningGoals": [
+        "Trovare a mente 10 in più e 10 in meno di qualsiasi numero di due cifre.",
+        "Capire che aggiungere o togliere una decina cambia solo la cifra delle decine.",
+        "Costruire le basi di valore posizionale e calcolo mentale per addizionare e sottrarre entro il 100."
+      ]
+    },
+    "clock.tell-time-5-min.2-md-c-7": {
+      "about": [
+        "Appare un'ora scritta — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 o 12:25 — e il bambino trascina le lancette dell'orologio analogico fino a mostrarla, con un display digitale che si aggiorna mentre le muove. È un'attività di matematica gratuita per la classe seconda che porta la lettura dell'ora ai cinque minuti e funziona nel browser, senza account.",
+        "Leggere e impostare l'ora ai cinque minuti significa che la lancetta dei minuti conta finalmente nei dettagli: «e un quarto» la mette sul 3, «meno un quarto» la mette sul 9, «e dieci» sul 2, e il bambino conta di cinque in cinque attorno al quadrante per fermarla nel punto esatto. Le ore più insidiose — come 7:45, dove «le otto meno un quarto» si scrive 7:45 e non 8:45 — spingono a leggere la lancetta delle ore mentre avanza verso il numero successivo. Il display digitale conferma ogni posizione, così il conteggio di cinque in cinque si collega all'ora scritta.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito della misura del tempo: leggere e scrivere l'ora ai cinque minuti su orologi analogici e digitali. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+      ],
+      "practices": [
+        "Posizionare la lancetta dei minuti su un segno dei cinque minuti contando di cinque in cinque.",
+        "Collocare «e un quarto», «meno un quarto» e «e dieci» nei punti giusti.",
+        "Leggere la lancetta delle ore mentre avanza verso il numero successivo a fine ora.",
+        "Far corrispondere l'orologio analogico alla sua ora scritta in formato digitale."
+      ],
+      "howToPlay": [
+        "Leggi l'ora scritta sopra l'orologio.",
+        "Trascina le lancette dei minuti e delle ore fino a mostrarla ai cinque minuti, guardando il display digitale.",
+        "Regola le lancette quante volte vuoi — non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Leggere e impostare l'ora ai cinque minuti.",
+        "Contare di cinque in cinque attorno al quadrante per posizionare la lancetta dei minuti con precisione.",
+        "Leggere correttamente ore come «le otto meno un quarto» scritte 7:45 e non 8:45."
+      ]
+    },
+    "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
+      "about": [
+        "Il bambino calcola carte come 2 + 3 e 9 − 4 (entrambe 5), oppure 3 + 4 e 9 − 2 (entrambe 7), poi tocca un'addizione e la sottrazione con lo stesso risultato per collegare la coppia. È un'attività di matematica gratuita e interattiva per la classe prima, che funziona direttamente nel browser: niente da installare e nessun account.",
+        "L'idea importante è che un'addizione e una sottrazione possono valere la stessa quantità: il segno di uguale significa «la stessa cosa di», non «ecco la risposta». Le carte non mostrano i risultati, quindi il bambino deve davvero calcolare ciascuna e poi cercare un'espressione di aspetto diverso con lo stesso valore. Ogni turno ha due (a volte tre) valori da trovare, mescolando addizioni e sottrazioni.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito delle relazioni e del calcolo: comprendere il significato del segno di uguale e stabilire se uguaglianze con addizioni e sottrazioni sono vere. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+      ],
+      "practices": [
+        "Calcolare il valore sia di addizioni sia di sottrazioni.",
+        "Abbinare un'addizione a una sottrazione che ha lo stesso risultato.",
+        "Capire il segno di uguale come «la stessa quantità di».",
+        "Confrontare due espressioni dall'aspetto diverso per verificare se valgono uguale."
+      ],
+      "howToPlay": [
+        "Calcola ogni carta — addizioni come 4 + 5 e sottrazioni come 10 − 1.",
+        "Tocca un'addizione, poi la sottrazione con lo stesso risultato, e guarda la coppia collegarsi.",
+        "Trova entrambe le coppie uguali nel turno — non c'è timer e non c'è punteggio, quindi prenditi il tuo tempo."
+      ],
+      "learningGoals": [
+        "Capire che addizioni e sottrazioni possono essere uguali tra loro.",
+        "Leggere il segno di uguale come «la stessa cosa di» e non come «ecco la risposta».",
+        "Costruire una padronanza flessibile dei calcoli collegando addizioni e sottrazioni che condividono un valore."
+      ]
+    },
+    "match-pairs.match-facts-to-20.2-oa-b-2": {
+      "about": [
+        "Il bambino calcola carte come 8 + 5, 9 + 7, 14 − 6 e 17 − 8, poi tocca ogni operazione e il numero che è la sua risposta per collegare la coppia e rafforzare la padronanza entro il 20. È un'attività di matematica gratuita e interattiva per la scuola primaria, che funziona direttamente nel browser: niente da installare e nessun account.",
+        "L'idea importante è il richiamo rapido e sicuro dei fatti di addizione e sottrazione entro il 20. Ogni turno mescola tre operazioni — alcune addizioni, alcune sottrazioni — con le loro tre risposte mischiate, così il bambino calcola ciascuna e poi trova il valore corrispondente. L'esercizio ripetuto nei vari turni porta fatti come 9 + 9 = 18 e 16 − 9 = 7 dal contare verso la memoria.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito del calcolo: addizionare e sottrarre con sicurezza entro il 20 e conoscere a memoria le somme dei numeri a una cifra. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+      ],
+      "practices": [
+        "Addizionare e sottrarre entro il 20, con e senza il passaggio della decina.",
+        "Abbinare un'operazione come 7 + 8 alla sua carta-risposta.",
+        "Portare i fatti di addizione e sottrazione dal contare verso la memoria.",
+        "Lavorare con sicurezza sia su addizioni sia su sottrazioni nello stesso insieme."
+      ],
+      "howToPlay": [
+        "Calcola ogni carta-operazione, come 6 + 9 oppure 13 − 4.",
+        "Tocca un'operazione, poi il numero che è la sua risposta, e guarda la coppia collegarsi.",
+        "Abbina tutte e tre le coppie del turno — non c'è timer e non c'è punteggio, quindi prenditi il tuo tempo."
+      ],
+      "learningGoals": [
+        "Addizionare e sottrarre con sicurezza entro il 20.",
+        "Conoscere a memoria le somme dei numeri a una cifra.",
+        "Costruire il richiamo dei fatti numerici che rende più facili i calcoli con numeri più grandi."
+      ]
+    },
+    "numberbond.find-the-total.1-oa-a-1": {
+      "about": [
+        "Un legame tra numeri mostra due parti, come 7 e 4, e il bambino trova quanti sono in tutto — contando insieme le parti e scrivendo il totale. È un'attività di matematica gratuita e interattiva per la classe prima, che funziona direttamente nel browser senza registrazione.",
+        "L'intero sta in alto e le due parti sotto, così il «mettere insieme» diventa qualcosa che il bambino può vedere. Può contare in avanti a partire dalla parte più grande oppure conoscere già il fatto; i pallini in ogni parte sono lì da contare quando un fatto non è ancora automatico. La risposta è l'intero, in cima al legame.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito delle operazioni: usare l'addizione per mettere insieme e addizionare entro il 20. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+      ],
+      "practices": [
+        "Leggere le due parti di un legame tra numeri di tipo parte-parte-intero.",
+        "Mettere insieme le parti per trovare l'intero entro il 20.",
+        "Contare in avanti a partire dalla parte più grande per addizionare in modo più efficiente.",
+        "Scrivere il totale che nomina l'intero."
+      ],
+      "howToPlay": [
+        "Guarda le due parti nel legame tra numeri, come 7 + 4.",
+        "Conta quanti sono in tutto e scrivi il totale, poi premi «Controlla».",
+        "Non è giusto? Riprova quante volte vuoi — non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Addizionare due numeri entro il 20 mettendo insieme le parti.",
+        "Leggere un legame tra numeri parte-parte-intero e trovare l'intero mancante.",
+        "Contare in avanti a partire dal numero più grande per addizionare più rapidamente."
+      ]
+    },
+    "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
+      "about": [
+        "Tocca una piastra, una barra o un cubo e guarda crescere un numero di tre cifre man mano che si impilano i blocchi in base dieci — piastre da cento, barre da dieci e cubi da uno — costruendo numeri da 108 a 974, compresi gli zeri insidiosi come 200, 305 e 906. È un'attività di matematica gratuita e interattiva per la classe seconda, che funziona direttamente nel browser senza account.",
+        "L'idea importante è che le tre cifre di un numero rappresentano centinaia, decine e unità. Per costruire 463 servono quattro piastre da cento, sei barre da dieci e tre cubi da uno, e vedere i blocchi accumularsi lega ogni cifra a una quantità reale. Numeri come 305 e 906 insegnano in silenzio che uno zero significa nessuno di quel posto — nessuna barra da dieci — ed è proprio lì che di solito nasce la confusione sul valore posizionale.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito del valore posizionale: comprendere che le tre cifre di un numero di tre cifre rappresentano quantità di centinaia, decine e unità. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+      ],
+      "practices": [
+        "Costruire un numero di tre cifre con le giuste centinaia, decine e unità.",
+        "Collegare ogni cifra a una quantità di piastre, barre o cubi.",
+        "Capire che uno zero in un posto significa nessuno di quell'unità.",
+        "Leggere numeri di tre cifre fino alle centinaia."
+      ],
+      "howToPlay": [
+        "Leggi il numero da costruire, come 463.",
+        "Tocca per aggiungere piastre da cento, barre da dieci e cubi da uno finché i blocchi formano quel numero.",
+        "Guarda il numero crescere; vai avanti senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Comprendere centinaia, decine e unità nei numeri di tre cifre.",
+        "Collegare ogni cifra al suo valore posizionale e alla sua quantità.",
+        "Costruire le basi del valore posizionale per addizionare, sottrarre e confrontare numeri più grandi."
+      ]
+    },
+    "ten-frame.show-the-operation.k-oa-a-1": {
+      "about": [
+        "Per «3 + 2» il bambino mette 3 gettoni e poi altri 2 di un secondo colore, così le due parti sono facili da vedere; per «5 − 2» parte da 5 e tocca per toglierne 2. Il lavoro è proprio rappresentare l'operazione sulla tabella del dieci, non scrivere un numero. È un'attività di matematica gratuita e interattiva per la scuola dell'infanzia, che si gioca nel browser senza registrazione.",
+        "L'idea importante è che addizione e sottrazione sono azioni che si possono mostrare, non solo risposte da scrivere. Il secondo colore dei gettoni rende visibili i due addendi come gruppi distinti, e togliere i gettoni rende concreto il «togliere». Il bambino rappresenta l'operazione invece di digitare un numero, così il significato del mettere insieme e del separare viene prima del calcolo.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito delle operazioni: rappresentare addizioni e sottrazioni con oggetti, dita, disegni e altri strumenti. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+      ],
+      "practices": [
+        "Rappresentare l'addizione mettendo due gruppi di gettoni in due colori.",
+        "Rappresentare la sottrazione togliendo gettoni da un gruppo di partenza.",
+        "Vedere le due parti che formano un intero sulla tabella.",
+        "Rappresentare ciò che un'addizione o una sottrazione significa davvero."
+      ],
+      "howToPlay": [
+        "Leggi l'operazione, come 3 + 2 oppure 5 − 2.",
+        "Metti o togli gettoni sulla tabella del dieci così che mostri l'operazione, poi premi «Controlla».",
+        "Non è giusto? Regola i gettoni e riprova — non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Rappresentare addizioni e sottrazioni con i gettoni.",
+        "Capire l'addizione come mettere insieme e la sottrazione come separare.",
+        "Costruire l'abitudine a rappresentare su cui poggiano i problemi e le uguaglianze numeriche."
+      ]
+    },
+    "choice-board.shape-id.k-g-a-2": {
+      "about": [
+        "Ad ogni richiesta compare il nome di una forma — cerchio, quadrato, triangolo, rettangolo, esagono, ovale, stella, rombo, cuore o pentagono — e il bambino la cerca con lo sguardo, toccandola tra quattro figure proposte. È un'attività di geometria per la scuola dell'infanzia, gratuita e interattiva, che funziona nel browser su tablet, telefono o computer di classe, senza installare nulla e senza registrazione.",
+        "L'idea importante è che una forma resta la stessa forma, comunque sia girata o grande sia disegnata. Un triangolo appoggiato sulla punta o un quadrato piccolissimo sono pur sempre un triangolo e un quadrato: il bambino deve riconoscere la figura in sé, non una sola immagine «da libro». Le tre scelte sbagliate sono altre forme vere dell'insieme, così non si può vincere scegliendo l'unica forma presente: bisogna sapere quale nome appartiene a quale figura.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: nominare correttamente le forme indipendentemente dall'orientamento e dalle dimensioni. Nessun timer e nessun punteggio: il bambino osserva con calma e gioca."
+      ],
+      "practices": [
+        "Associare il nome di una forma alla sua immagine tra quattro scelte.",
+        "Riconoscere una forma anche quando è ruotata o disegnata più grande o più piccola.",
+        "Distinguere forme simili — un quadrato da un rettangolo, un ovale da un cerchio, un esagono da un pentagono.",
+        "Costruire il vocabolario delle forme: cerchio, quadrato, triangolo, rettangolo, esagono, ovale, stella, rombo, cuore e pentagono."
+      ],
+      "howToPlay": [
+        "Il bambino legge o ascolta la richiesta che nomina una forma da trovare.",
+        "Guarda le quattro forme e tocca quella che corrisponde al nome, poi conferma.",
+        "Non è giusta? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Nominare a colpo d'occhio cerchi, quadrati, triangoli, rettangoli, esagoni e altre forme.",
+        "Capire che una forma conserva il suo nome comunque sia girata o ridimensionata.",
+        "Costruire il vocabolario delle forme su cui si appoggeranno la geometria, la classificazione e il disegno più avanti."
+      ]
+    },
+    "choice-board.flat-solid.k-g-a-3": {
+      "about": [
+        "Compare una forma alla volta e il bambino tocca se è piatta o solida — forme piatte (2D) come il cerchio, il triangolo, il quadrato e l'esagono, e forme solide (3D) come il cubo, la sfera, il cilindro e il cono. È un'attività di geometria per la scuola dell'infanzia, gratuita e interattiva, che si gioca nel browser su tablet, telefono e computer, senza installare nulla e senza account.",
+        "L'idea importante è la differenza tra una forma che potresti disegnare su un foglio e una forma che potresti prendere in mano. Qui il bambino non nomina le forme: le ordina in bidimensionali e tridimensionali. Mettere vicino le forme piatte e le loro cugine solide — un cerchio accanto a una sfera, un quadrato accanto a un cubo — porta a osservare se una forma ha spessore, che è il primo passo verso i solidi.",
+        "L'attività è allineata alle Indicazioni nazionali: identificare le forme come bidimensionali (piatte) o tridimensionali (solide). Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Distinguere le forme piatte (2D) dalle forme solide (3D).",
+        "Riconoscere un cerchio, un quadrato e un triangolo come piatti, e un cubo, una sfera e un cono come solidi.",
+        "Notare se una forma ha spessore: qualcosa che potresti tenere in mano oppure soltanto disegnare.",
+        "Ordinare le forme in due gruppi, non soltanto nominarle."
+      ],
+      "howToPlay": [
+        "Il bambino guarda la forma mostrata sul tabellone.",
+        "Decide se è piatta o solida e tocca la casella giusta, poi tocca Controlla.",
+        "Si può riprovare in qualsiasi momento, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Identificare le forme come piatte (bidimensionali) o solide (tridimensionali).",
+        "Collegare una forma piatta alla sua parente solida, come il quadrato e il cubo.",
+        "Costruire le basi per nominare e descrivere le forme 3D più avanti."
+      ]
+    },
+    "choice-board.next-number.k-cc-a-2": {
+      "about": [
+        "Appare un numero da 1 a 9 e il bambino tocca quello che viene subito dopo — vede un 4 e trova il 5, vede un 8 e trova il 9. È un'attività di conteggio per la scuola dell'infanzia, gratuita e interattiva, che funziona nel browser su tablet, telefono e computer, senza installare nulla e senza account.",
+        "L'idea importante è contare in avanti a partire da un numero dato, invece di ricominciare ogni volta da uno. Le scelte sono numeri tra 0 e 10 vicini alla risposta giusta, così il bambino deve davvero sapere qual è il successivo e non tirare a indovinare. Riprendere il conteggio nel mezzo della successione è proprio ciò che rende il contare rapido e flessibile.",
+        "L'attività è allineata alle Indicazioni nazionali: contare in avanti a partire da un numero dato all'interno della successione conosciuta. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Dire qual è il numero che viene subito dopo un numero dato da 1 a 9.",
+        "Contare in avanti partendo dal centro della successione, non da uno.",
+        "Conoscere l'ordine dei numeri abbastanza bene da individuare il successivo.",
+        "Costruire un conteggio flessibile, che non richiede di ricominciare ogni volta."
+      ],
+      "howToPlay": [
+        "Il bambino guarda il numero mostrato sul tabellone.",
+        "Tocca il numero che viene subito dopo, poi tocca Controlla.",
+        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Contare in avanti a partire da un numero dato.",
+        "Sapere quale numero viene dopo nella successione fino a 10.",
+        "Costruire la sicurezza nel conteggio su cui si basano l'addizione e il senso del numero."
+      ]
+    },
+    "choice-board.read-ruler.2-md-a-1": {
+      "about": [
+        "Un oggetto è appoggiato lungo un righello in centimetri — una matita, un nastro, un pastello, un pennarello — e il bambino legge quanto è lungo e tocca la risposta in centimetri, con lunghezze che vanno da un pastello corto di 5 cm a un pennarello di 14 cm o un bastoncino di 17 cm. È un'attività di misura per la classe seconda, gratuita e interattiva, che si gioca nel browser senza account.",
+        "L'idea importante è leggere bene il righello: allineare l'estremità sinistra dell'oggetto allo zero, seguirlo fino all'altra estremità e leggere la tacca lì. Il bambino non stima: legge una lunghezza esatta sulla scala. Poiché le risposte sono numeri vicini tra loro, partire da 1 invece che da 0 — il classico errore di misura — viene allo scoperto, e così si costruisce l'abitudine di iniziare ogni misura dallo zero.",
+        "L'attività è allineata alle Indicazioni nazionali: misurare la lunghezza di un oggetto scegliendo e usando uno strumento adatto come il righello. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Leggere la lunghezza di un oggetto in centimetri sul righello.",
+        "Allineare l'estremità sinistra dell'oggetto allo 0 prima di leggere l'altra estremità.",
+        "Trovare la tacca in centimetri dove finisce l'oggetto.",
+        "Evitare l'errore comune di iniziare la misura da 1 invece che da 0."
+      ],
+      "howToPlay": [
+        "Il bambino guarda l'oggetto sul righello e controlla che l'estremità sinistra sia sullo 0.",
+        "Lo segue fino all'altra estremità, legge la tacca in centimetri e tocca quel numero, poi tocca Controlla.",
+        "Si può riprovare in qualsiasi momento, senza timer e senza punteggio."
+      ],
+      "learningGoals": [
+        "Misurare la lunghezza in centimetri con il righello.",
+        "Leggere una scala di misura partendo dallo zero.",
+        "Costruire abitudini di misura precise, utili per lunghezze maggiori e per altri strumenti."
+      ]
+    },
+    "fractions.partition-equal-shares.1-g-a-3": {
+      "about": [
+        "Compare una forma — un cerchio, un quadrato, un rettangolo, un triangolo, un'ellisse, un rombo, un esagono o un pentagono — e il bambino tocca le linee di taglio per dividerla in 2 parti uguali (metà) o in 4 parti uguali (quarti). È un'attività di geometria per la classe prima, gratuita e interattiva, che si gioca nel browser su qualsiasi dispositivo, senza registrazione.",
+        "L'idea importante è che le parti uguali devono essere giuste: i pezzi devono avere la stessa grandezza. Tagliare forme diverse, non solo cerchi, mostra che metà e quarti riguardano l'area uguale, e non una sola immagine familiare: un quadrato diviso in una griglia di quattro e un cerchio diviso in quattro fanno entrambi dei quarti. Poiché è il bambino a fare il taglio, è lui stesso a rendere le parti uguali, invece di riconoscere una figura già pronta.",
+        "L'attività è allineata alle Indicazioni nazionali: dividere cerchi e rettangoli in due e quattro parti uguali e descriverle come metà e quarti. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Dividere cerchi, quadrati e altre forme in parti uguali.",
+        "Formare 2 parti uguali (metà) e 4 parti uguali (quarti).",
+        "Mantenere i pezzi della stessa grandezza, perché le parti siano giuste.",
+        "Vedere metà e quarti in molte forme diverse."
+      ],
+      "howToPlay": [
+        "Il bambino guarda la forma e quante parti uguali deve fare.",
+        "Tocca le linee di taglio per dividerla in metà o in quarti.",
+        "Si assicura che i pezzi siano uguali: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Dividere le forme in due e quattro parti uguali.",
+        "Descrivere le parti uguali come metà e quarti.",
+        "Costruire la base delle parti giuste su cui si appoggerà il lavoro sulle frazioni."
+      ]
+    },
+    "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
+      "about": [
+        "Il bambino collega le carte che mostrano lo stesso valore — il numero in cifre (305), il numero in parole (trecentocinque) e la forma scomposta (300 + 5) — toccando una carta e poi una carta che ne ha lo stesso valore, finché il terzetto è collegato. È un gioco di abbinamento di matematica per la classe seconda, gratuito e interattivo, che si gioca nel browser, senza installare nulla e senza account.",
+        "L'idea importante è che le cifre, il nome del numero e la forma scomposta nominano un solo numero — e i «vuoti» del valore posizionale sono il punto interessante. Numeri come 305 e 208 hanno uno zero nelle decine, quindi la forma scomposta è 300 + 5 e non 300 + 0 + 5, e bisogna leggere con attenzione per abbinare «duecentootto» a 208 e non a 280. In ogni round ci sono tre numeri diversi da sistemare insieme.",
+        "L'attività è allineata alle Indicazioni nazionali: leggere e scrivere i numeri fino a 1000 in cifre, in parole e in forma scomposta. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Collegare una cifra, il suo nome in parole e la sua forma scomposta.",
+        "Leggere i nomi dei numeri di tre cifre, come novecentoquaranta.",
+        "Scrivere correttamente la forma scomposta quando una posizione ha uno zero, come 600 + 5.",
+        "Distinguere numeri vicini come 208 e 280."
+      ],
+      "howToPlay": [
+        "Il bambino guarda le carte — cifre come 562, parole come cinquecentosessantadue e forme scomposte come 500 + 60 + 2.",
+        "Tocca una carta, poi tocca un'altra carta che mostra lo stesso numero, e guarda la coppia collegarsi.",
+        "Trova tutti e tre i numeri del round: non c'è timer né punteggio, quindi con calma."
+      ],
+      "learningGoals": [
+        "Leggere e scrivere i numeri fino a 1000 in cifre, in parole e in forma scomposta.",
+        "Capire che forme diverse possono nominare lo stesso valore.",
+        "Rafforzare il senso del valore posizionale, anche con numeri che hanno uno zero in una posizione."
+      ]
+    },
+    "money.count-out.2-md-c-8": {
+      "about": [
+        "Il bambino compone un importo, moneta dopo moneta, toccando le monete in euro per metterle nel vassoio finché il totale corrisponde — per esempio 30 centesimi con una moneta da 20 e una da 10 centesimi, oppure 15 centesimi con una da 10 e una da 5. È un'attività di matematica per la classe seconda, gratuita e interattiva, che si gioca nel browser senza installare nulla e senza account.",
+        "L'idea importante è che il valore di una moneta non si vede dalla sua grandezza: bisogna sapere quanto vale ciascuna e sommare man mano. Una moneta da 5 centesimi è più grande di una da 10 ma vale meno, e una sola moneta da 50 centesimi può valere più di una manciata di monete da 1 e 2 centesimi. Raggiungere ogni importo scegliendo e aggiungendo monete costruisce il conteggio con il totale che cresce, proprio come quando si maneggiano i soldi veri.",
+        "L'attività è allineata alle Indicazioni nazionali: risolvere problemi con gli euro e i centesimi, usando il simbolo dell'euro (€). Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Conoscere il valore delle monete in euro, dai centesimi fino a 1 € e 2 €.",
+        "Sommare il valore delle monete per raggiungere un importo esatto.",
+        "Tenere il totale che cresce mentre si scelgono le monete.",
+        "Capire che il valore di una moneta non dipende dalla sua grandezza."
+      ],
+      "howToPlay": [
+        "Il bambino legge l'importo da comporre nel round, per esempio 40 centesimi.",
+        "Tocca le monete in euro per metterle nel vassoio — da 1, 2, 5, 10, 20 e 50 centesimi e da 1 € e 2 € — finché il totale corrisponde.",
+        "Non torna? Aggiunge o toglie monete e riprova: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Contare le monete per comporre un importo dato in euro.",
+        "Usare il simbolo dell'euro (€) e conoscere il valore di ogni moneta.",
+        "Costruire il senso del denaro utile per contare e fare la spesa ogni giorno."
+      ]
+    },
+    "numberbond.subtraction-unknown-addend.1-oa-b-4": {
+      "about": [
+        "Una sottrazione come 8 − 3 compare sotto forma di schema parte-parte-intero: sono dati l'intero (8) e una parte (3), e il bambino completa la parte mancante. È un'attività di matematica per la classe prima, gratuita e interattiva, che funziona nel browser senza registrazione.",
+        "L'idea importante è leggere la sottrazione come «cosa va insieme a 3 per fare 8?» — un addendo mancante, e non un conteggio del «togliere». Il bambino riempie la parte vuota finché le due parti ricostruiscono l'intero, così il legame profondo tra sottrazione e addizione è proprio ciò che fa, con round che arrivano a interi fino a 16.",
+        "L'attività è allineata alle Indicazioni nazionali: comprendere la sottrazione come la ricerca di un addendo mancante. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Vedere una sottrazione come un intero a cui manca una parte.",
+        "Pensare «cosa si aggiunge alla parte nota per fare l'intero?».",
+        "Riempire la parte mancante finché le due parti ricostruiscono l'intero.",
+        "Collegare la sottrazione all'addizione (3 e 5 fanno 8)."
+      ],
+      "howToPlay": [
+        "Il bambino guarda lo schema — l'intero e una parte sono dati, come 8 con 3.",
+        "Riempie la parte mancante finché le due parti fanno l'intero, poi tocca Controlla.",
+        "Non torna? Aggiusta la parte e controlla di nuovo: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Comprendere la sottrazione come la ricerca di un addendo mancante.",
+        "Trovare la parte mancante quando si conoscono l'intero e una parte.",
+        "Vedere come addizione e sottrazione si annullano a vicenda."
+      ]
+    },
+    "place-value.expanded-form.2-nbt-a-3": {
+      "about": [
+        "Il bambino costruisce un numero di tre cifre con i blocchi in base dieci — toccando per aggiungere piastre da cento, barre da dieci e cubetti da uno — e quando la costruzione è corretta i blocchi rivelano la forma estesa, così 247 diventa 200 + 40 + 7, con numeri da raggiungere da 108 fino a 974, compresi quelli insidiosi come 305. È un'attività di matematica per la classe seconda, gratuita e interattiva, che funziona nel browser senza account.",
+        "L'idea importante è che un numero è la somma di quanto vale ciascuna cifra. Costruendo 247 con due centinaia, quattro decine e sette unità, il bambino vede che il 4 significa 40 e non soltanto «quattro». I numeri con uno zero sono i veri maestri: 305 mostra che una decina vuota non aggiunge nulla, quindi la forma estesa è solo 300 + 5. I blocchi collegano le cifre al loro valore reale.",
+        "L'attività è allineata alle Indicazioni nazionali: leggere e scrivere i numeri di tre cifre in forma estesa. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Costruire un numero di tre cifre con centinaia, decine e unità.",
+        "Leggere il numero in forma estesa, come 247 = 200 + 40 + 7.",
+        "Vedere che il valore di ogni cifra dipende dalla sua posizione.",
+        "Gestire i numeri con una posizione a zero, come 305 = 300 + 5."
+      ],
+      "howToPlay": [
+        "Il bambino tocca per aggiungere piastre da cento, barre da dieci e cubetti da uno finché costruisce il numero richiesto.",
+        "Quando la costruzione è corretta, i blocchi rivelano la forma estesa, come 200 + 40 + 7.",
+        "Si passa al numero successivo: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Leggere e scrivere i numeri di tre cifre in forma estesa.",
+        "Capire che un numero è la somma dei suoi valori posizionali.",
+        "Costruire il senso del valore posizionale che sostiene l'addizione e il confronto tra numeri."
+      ]
+    },
+    "ten-frame.solve-the-story.k-oa-a-2": {
+      "about": [
+        "«3 uccellini sono su un ramo, ne arrivano altri 2 — quanti sono adesso?» Compare una piccola storia, il bambino la rappresenta con i gettoni sulla tabella del dieci per decidere se unire o togliere, poi scrive la risposta sul tastierino. È un'attività di matematica per la scuola dell'infanzia, gratuita e interattiva, dedicata ai problemi entro il 10, che si gioca nel browser senza account.",
+        "I problemi con le storie sono il punto in cui i numeri incontrano il significato. Il bambino deve capire se la storia unisce dei gruppi o ne toglie una parte, che è più difficile che ricevere già il segno più o meno. La tabella del dieci è un aiuto per rappresentare e «recitare» la storia, ma la risposta va scritta sul tastierino — così il lavoro è leggere, scegliere l'operazione e poi contare per essere sicuri.",
+        "L'attività è allineata alle Indicazioni nazionali: risolvere problemi di addizione e sottrazione entro il 10 usando oggetti o disegni per rappresentare la situazione. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+      ],
+      "practices": [
+        "Leggere una breve storia e decidere se aggiungere o togliere.",
+        "Rappresentare un problema con i gettoni sulla tabella del dieci.",
+        "Risolvere situazioni di addizione e sottrazione entro il 10.",
+        "Scrivere la risposta a una domanda concreta sulle quantità."
+      ],
+      "howToPlay": [
+        "Il bambino legge il problema, per esempio 3 uccellini fermi e altri 2 che arrivano.",
+        "Usa i gettoni sulla tabella del dieci per recitare la storia, poi scrive quanti sono sul tastierino e tocca Controlla.",
+        "Non torna? Rilegge la storia e riprova: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Risolvere problemi di addizione e sottrazione entro il 10.",
+        "Scegliere l'operazione giusta a partire dal significato della storia.",
+        "Costruire le abitudini di problem solving su cui si appoggerà la matematica più avanti."
+      ]
+    },
+    "choice-board.count-sides.k-g-b-4": {
+      "about": [
+        "Compare una sola forma alla volta e il bambino conta i suoi lati dritti, poi tocca il numero giusto: un triangolo con 3 lati, un quadrato con 4, un pentagono con 5 o un esagono con 6, scegliendo tra numeri che vanno dal 3 all'8. È un'attività di geometria gratuita e interattiva per la scuola dell'infanzia, che funziona direttamente nel browser su tablet, telefono o computer di classe, senza installare nulla e senza registrazione.",
+        "L'idea importante è che una forma non è soltanto il suo nome: è fatta di parti che si possono contare. Il bambino non può rispondere riconoscendo «un triangolo», ma deve seguire ogni lato con gli occhi e contarlo uno per uno. Poiché tra i numeri proposti ci sono valori vicini, come il 5 accanto al 6, un conteggio sbagliato di un'unità viene subito alla luce: così il bambino impara a contare con calma, lato per lato, invece di tirare a indovinare.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: analizzare e confrontare le forme descrivendone le parti, come il numero di lati. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+      ],
+      "practices": [
+        "Contare i lati dritti di triangolo, quadrato, pentagono ed esagono.",
+        "Collegare una forma a un numero: quanti lati ha, non solo come si chiama.",
+        "Contare con attenzione un lato alla volta invece di indovinare a colpo d'occhio.",
+        "Distinguere le forme dalle loro parti, ad esempio cinque lati rispetto a sei."
+      ],
+      "howToPlay": [
+        "Il bambino guarda la forma sul tabellone e conta i suoi lati dritti, uno alla volta.",
+        "Tocca il numero che corrisponde a quanti lati ha contato, poi preme «Controlla».",
+        "Se non è corretto, può riprovare quante volte vuole: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Contare il numero di lati delle forme più comuni.",
+        "Descrivere una forma attraverso le sue parti e non solo con il nome.",
+        "Costruire l'abitudine al conteggio attento e all'analisi delle figure su cui poggia la geometria successiva."
+      ]
+    },
+    "choice-board.pick-smaller.k-c-c-7": {
+      "about": [
+        "Sullo schermo appaiono due numeri scritti in cifre e il bambino tocca quello più piccolo: ad esempio 3 e 5, oppure 8 e 9. Alcune coppie sono molto distanti, come 1 e 9, altre sono vicinissime, come 5 e 6. È un'attività di conteggio gratuita e interattiva per la scuola dell'infanzia, che si gioca direttamente nel browser, senza account.",
+        "L'idea importante è confrontare i numeri guardando al loro valore e cercando «di meno» invece di «di più»: un piccolo ma significativo spostamento dell'attenzione. Senza oggetti da contare, il bambino legge ogni cifra e decide quale numero è minore. Le coppie vicine rendono l'esercizio autentico: sapere che l'8 viene appena prima del 9 è ciò che fa capire che 8 è il più piccolo.",
+        "L'attività è allineata alle Indicazioni nazionali: confrontare due numeri compresi tra 1 e 10 scritti in cifre. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+      ],
+      "practices": [
+        "Confrontare due numeri scritti da 1 a 10 e trovare il più piccolo.",
+        "Leggere le cifre e conoscerne il valore senza contare oggetti.",
+        "Spostare l'attenzione su «di meno» invece di «di più» quando si confronta.",
+        "Gestire le coppie vicine come 8 e 9, non solo quelle lontane."
+      ],
+      "howToPlay": [
+        "Il bambino guarda i due numeri sul tabellone.",
+        "Tocca quello più piccolo, poi preme «Controlla».",
+        "Può riprovare quando vuole: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Confrontare numeri scritti da 1 a 10 e scegliere il più piccolo.",
+        "Conoscere il valore rappresentato da ciascuna cifra, senza contare.",
+        "Costruire il senso del confronto che sta alla base del ragionamento sul «minore di»."
+      ]
+    },
+    "choice-board.read-sight-word.rf-k-3-c": {
+      "about": [
+        "Il bambino ascolta una parola ad alta frequenza pronunciata ad alta voce, poi tocca la parola scritta giusta tra quattro scelte molto simili tra loro: le parole più comuni che compaiono di continuo nei primi testi. È un'attività di lettura gratuita e interattiva per la classe prima della scuola primaria, che funziona direttamente nel browser su tablet, telefono e computer, senza installare nulla e senza registrazione.",
+        "L'idea importante è riconoscere le parole frequenti a colpo d'occhio, in modo immediato, così che la lettura possa scorrere. Poiché molte di queste parole si assomigliano, le scelte sbagliate sono parenti strette, con piccole differenze di lettere o di lunghezza, e il bambino deve riconoscere la parola esatta, non solo una forma simile. Ascoltare la parola e ritrovarla scritta collega il suono all'ortografia delle parole che i bambini incontrano più spesso.",
+        "L'attività è allineata alle Indicazioni nazionali: leggere a prima vista le parole più comuni ad alta frequenza. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+      ],
+      "practices": [
+        "Riconoscere a colpo d'occhio le parole frequenti più comuni.",
+        "Abbinare una parola ascoltata alla sua forma scritta.",
+        "Distinguere parole molto simili che differiscono per poche lettere.",
+        "Costruire il riconoscimento immediato delle parole che rende fluida la lettura."
+      ],
+      "howToPlay": [
+        "Il bambino ascolta la parola pronunciata ad alta voce e può toccare per riascoltarla.",
+        "Tocca la parola scritta che corrisponde a quella sentita, poi preme «Controlla».",
+        "Se non è corretto, può riprovare quante volte vuole: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Leggere a prima vista le parole più comuni ad alta frequenza.",
+        "Collegare una parola ascoltata alla sua esatta ortografia tra parole simili.",
+        "Costruire il bagaglio di parole riconosciute al volo che libera l'attenzione per capire ciò che si legge."
+      ]
+    },
+    "choice-board.letter-case.rf-k-1-d": {
+      "about": [
+        "Appare una lettera e il bambino tocca la stessa lettera nell'altra forma: dalla maiuscola alla minuscola, oppure dalla minuscola alla maiuscola. Compare una grande B e il bambino trova la piccola b; una grande R trova la r; una grande E trova la e. È un'attività di lettura gratuita e interattiva per la scuola dell'infanzia, che si gioca direttamente nel browser, senza registrazione.",
+        "L'idea importante è che ogni lettera ha due aspetti che indicano la stessa lettera. Le scelte sbagliate sono volutamente vicine: per la B le minuscole proposte sono b, d, p e h, così il bambino deve riconoscere la vera forma della lettera e non scegliere semplicemente qualcosa di tondeggiante. Distinguere le lettere che si girano e si specchiano, come b e d, è proprio quell'osservazione attenta che costruisce un riconoscimento sicuro delle lettere.",
+        "L'attività è allineata alle Indicazioni nazionali: riconoscere e nominare tutte le lettere dell'alfabeto, maiuscole e minuscole. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+      ],
+      "practices": [
+        "Abbinare una lettera maiuscola alla sua minuscola, e viceversa.",
+        "Riconoscere la stessa lettera nelle sue due forme, grande e piccola.",
+        "Distinguere lettere simili come b, d e p.",
+        "Costruire il riconoscimento sicuro delle lettere di cui la lettura fluente ha bisogno."
+      ],
+      "howToPlay": [
+        "Il bambino guarda la lettera mostrata sul tabellone.",
+        "Tocca la lettera corrispondente nell'altra forma, maiuscola o minuscola, poi preme «Controlla».",
+        "Può riprovare quando vuole: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Riconoscere e nominare le lettere maiuscole e minuscole.",
+        "Collegare le due forme di ogni lettera come una sola lettera.",
+        "Rendere stabili le lettere simili che i piccoli lettori confondono spesso."
+      ]
+    },
+    "fractions.partition-thirds.2-g-a-3": {
+      "about": [
+        "Compare un cerchio, un triangolo, un esagono, un quadrato, un rettangolo, un rombo o un'ellisse, e il bambino tocca le linee di taglio per dividerlo in tre parti uguali: i terzi. È un'attività di geometria gratuita e interattiva per la classe seconda della scuola primaria, che funziona nel browser su qualsiasi dispositivo, senza installare nulla e senza account.",
+        "L'idea importante è che i terzi sono più difficili delle metà, perché tre parti uguali non cadono su una linea di mezzo evidente. Un cerchio si divide con tre linee dal centro, un rettangolo in tre strisce uguali, un triangolo in tre parti corrispondenti: così il bambino impara che «terzi» significa tre parti della stessa grandezza, comunque sia tagliata la forma. Fare i tagli da sé costruisce quel senso della divisione in parti uguali che la sola osservazione di un'immagine non può dare.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: dividere cerchi e rettangoli in due, tre o quattro parti uguali e descrivere le parti con la parola terzi. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+      ],
+      "practices": [
+        "Dividere una forma in 3 parti uguali.",
+        "Realizzare i terzi su cerchi, rettangoli, triangoli e altre figure.",
+        "Mantenere i tre pezzi della stessa grandezza.",
+        "Usare la parola terzi per indicare tre parti uguali."
+      ],
+      "howToPlay": [
+        "Il bambino guarda la forma da dividere in 3 parti uguali.",
+        "Tocca le linee di taglio per ottenere i terzi.",
+        "Controlla che i tre pezzi siano uguali: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Dividere le forme in tre parti uguali e nominarle terzi.",
+        "Capire che i terzi devono essere tre parti della stessa grandezza, comunque sia tagliata la forma.",
+        "Rafforzare il senso della divisione in parti uguali su cui si costruiscono le frazioni."
+      ]
+    },
+    "match-pairs.find-the-missing-number.1-oa-d-8": {
+      "about": [
+        "Il bambino risolve carte come ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 e 10 − ? = 6, poi tocca l'operazione e il numero che la completa per collegare la coppia. È un'attività di matematica gratuita e interattiva per la classe prima della scuola primaria, che funziona direttamente nel browser, senza installare nulla e senza account.",
+        "L'idea importante è che il numero sconosciuto può trovarsi in qualsiasi posizione: un addendo mancante, un numero da togliere, il numero di partenza o il totale. Così il bambino deve ragionare ogni volta sulla relazione tra i numeri, invece di «aggiungere sempre per trovare la risposta». A volte lo spazio vuoto è il totale (5 + 4 = ?) e a volte è nascosto dentro l'operazione (? − 4 = 1): questo costruisce una vera flessibilità con le famiglie di numeri.",
+        "L'attività è allineata alle Indicazioni nazionali: trovare il numero sconosciuto in un'addizione o in una sottrazione, in qualsiasi posizione. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+      ],
+      "practices": [
+        "Trovare un addendo mancante, un sottraendo mancante, un minuendo mancante o il totale.",
+        "Usare la relazione tra addizione e sottrazione per trovare il numero sconosciuto.",
+        "Contare in avanti o all'indietro per trovare una parte mancante.",
+        "Abbinare ogni operazione al numero che la rende vera."
+      ],
+      "howToPlay": [
+        "Il bambino legge una carta con uno spazio vuoto, come ? + 7 = 10, e trova il numero mancante.",
+        "Tocca l'operazione, poi tocca il numero che la rende vera, e guarda la coppia collegarsi.",
+        "Completa entrambe le coppie del giro: non c'è timer né punteggio, quindi può prendersi il suo tempo."
+      ],
+      "learningGoals": [
+        "Trovare il numero sconosciuto in un'addizione o in una sottrazione, in qualsiasi posizione.",
+        "Capire come addizione e sottrazione si annullano a vicenda.",
+        "Costruire un pensiero flessibile con le famiglie di numeri invece di una sola procedura fissa."
+      ]
+    },
+    "money.make-change.2-md-c-8": {
+      "about": [
+        "Un oggetto costa 70 centesimi e si paga con 1 euro: il bambino deve dare il resto giusto, qui 30 centesimi, toccando le monete e mettendole nel vassoio. Calcolare la differenza e comporla con le monete in euro unisce la sottrazione al conteggio concreto del denaro, in un'attività di matematica gratuita e interattiva per la classe seconda della scuola primaria, che si gioca direttamente nel browser, senza installare nulla e senza account.",
+        "L'idea importante è che il resto è la differenza tra quanto si è pagato e quanto costa l'oggetto. Il bambino prima calcola quanto deve restituire, poi compone quella cifra scegliendo tra le monete da 1, 2, 5, 10, 20 e 50 centesimi e da 1 e 2 euro. Poiché il valore non è scritto su ogni moneta, deve conoscere quanto vale ciascuna e contare fino ad arrivare al resto dovuto.",
+        "L'attività è allineata alle Indicazioni nazionali, sul tema del denaro: risolvere problemi con gli euro e i centesimi e usare il simbolo €. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+      ],
+      "practices": [
+        "Calcolare il resto come differenza tra quanto si paga e quanto costa.",
+        "Comporre una cifra di resto con monete da 1, 2, 5, 10, 20 e 50 centesimi e da 1 e 2 euro.",
+        "Collegare la sottrazione al conteggio di monete vere.",
+        "Contare in avanti dal prezzo fino alla cifra pagata."
+      ],
+      "howToPlay": [
+        "Il bambino legge quanto costa l'oggetto e quanto paga, ad esempio costa 85 centesimi e paga con 1 euro.",
+        "Calcola il resto, poi tocca le monete e le mette nel vassoio per restituire la cifra giusta.",
+        "Se non è corretto, può sistemare le monete e riprovare: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Dare il resto con le monete in euro nei problemi sul denaro.",
+        "Capire il resto come differenza tra il costo e la cifra pagata.",
+        "Rafforzare insieme la sottrazione e il conteggio delle monete, usando euro e centesimi (€)."
+      ]
+    },
+    "numberbond.add-three.1-oa-a-2": {
+      "about": [
+        "Un grafo numerico a tre parti unisce tre numeri, come 3, 4 e 5, in un unico intero, e il bambino somma tutti e tre e scrive il totale sul tastierino. È un'attività di matematica gratuita e interattiva per la classe prima della scuola primaria, che si gioca direttamente nel browser, senza account.",
+        "Vedere tre parti confluire in un solo intero mostra che si possono combinare i numeri in qualsiasi ordine e un passo alla volta. Coppie come 4 + 4 + 5 invitano con discrezione a formare prima un numero comodo, poi ad aggiungere l'ultima parte. Il bambino legge le tre parti e scrive la somma; i puntini dentro ciascuna parte sono lì per essere contati quando un risultato non è ancora automatico.",
+        "L'attività è allineata alle Indicazioni nazionali: sommare tre numeri il cui totale rimane entro il 20. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+      ],
+      "practices": [
+        "Leggere le tre parti di un grafo numerico e vederle unirsi in un intero.",
+        "Sommare tre numeri di una cifra con un totale entro il 20.",
+        "Scegliere un ordine comodo: sommare prima le due parti che fanno dieci o un numero amico.",
+        "Scrivere il totale che dà il nome all'intero."
+      ],
+      "howToPlay": [
+        "Il bambino guarda le tre parti del grafo numerico, ad esempio 3 + 4 + 5.",
+        "Somma tutti e tre i numeri e scrive il totale sul tastierino, poi preme «Controlla».",
+        "Se non è corretto, può riprovare quante volte vuole: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Sommare tre numeri interi entro il 20.",
+        "Vedere tre parti combinarsi in un unico intero nel grafo numerico.",
+        "Sommare in un ordine intelligente, formando prima un dieci o un numero amico."
+      ]
+    },
+    "sort-bins.sort-by-sides.2-g-a-1": {
+      "about": [
+        "A ogni giro cade un insieme disordinato di figure — triangoli rettangoli e ottusangoli, quadrati, rombi, pentagoni ed esagoni irregolari — e il bambino conta i lati di ciascuna e la trascina nel contenitore giusto. È un'attività di geometria gratuita e interattiva per la classe seconda della scuola primaria, che si gioca nel browser, senza registrazione.",
+        "La mossa decisiva è contare i lati invece di abbinare un'immagine già vista, perché una figura a cinque lati allungata o inclinata è comunque un pentagono. Affrontando le forme irregolari e ruotate accanto a quelle ordinate, il bambino impara a usare il numero di lati come la regola che dà il nome a un poligono. Così costruisce il lessico — quadrilatero, pentagono, esagono — e l'abitudine ad analizzare le figure attraverso le loro parti.",
+        "L'attività è allineata alle Indicazioni nazionali: riconoscere e disegnare figure con attributi indicati, come un dato numero di lati, e identificare triangoli, quadrilateri, pentagoni ed esagoni. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+      ],
+      "practices": [
+        "Contare i lati di una figura per decidere a quale gruppo di poligoni appartiene.",
+        "Distinguere triangoli, quadrilateri, pentagoni ed esagoni dal loro numero di lati.",
+        "Riconoscere lo stesso poligono quando è irregolare, allungato o ruotato.",
+        "Usare correttamente le parole quadrilatero, pentagono ed esagono."
+      ],
+      "howToPlay": [
+        "Il bambino guarda ogni figura e conta quanti lati ha.",
+        "La trascina nel contenitore giusto: triangoli, quadrilateri, pentagoni o esagoni.",
+        "Se non è corretto, può riprovare quante volte vuole: non c'è timer né punteggio."
+      ],
+      "learningGoals": [
+        "Identificare triangoli, quadrilateri, pentagoni ed esagoni dai loro lati.",
+        "Capire che è il numero di lati, e non l'aspetto, a dare il nome a un poligono.",
+        "Costruire il lessico delle figure e l'abitudine a contare i lati su cui poggia la geometria successiva."
+      ]
+    },
+    "ten-frame.quick-facts-to-5.k-oa-a-5": {
+      "about": [
+        "Compare un calcolo rapido — 2 + 1, 5 − 2, 4 − 1 — e il bambino tocca la risposta giusta tra tre numeri vicini tra loro, con una tabella del dieci accanto da usare come aiuto facoltativo. L'obiettivo è il richiamo veloce e sicuro dei fatti numerici entro il 5. È un'attività di matematica gratuita e interattiva per la scuola dell'infanzia, che si gioca nel browser, senza registrazione.",
+        "La padronanza entro il 5 è il ponte tra il contare e il vero calcolo. Le tre risposte sono vicine tra loro — per 2 + 2 le opzioni sono 3, 4 e 5 — così il bambino non può rispondere scegliendo il più grande o il più piccolo: deve conoscere il risultato o ricavarlo sulla tabella. Giro dopo giro, i calcoli che all'inizio venivano contati cominciano ad arrivare immediatamente, ed è esattamente questo che significa padronanza.",
+        "L'attività è allineata alle Indicazioni nazionali: addizionare e sottrarre con sicurezza entro il 5. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+      ],
+      "practices": [
+        "Richiamare i risultati di addizioni e sottrazioni entro il 5.",
+        "Distinguere risposte vicine tra loro, come 3, 4 e 5.",
+        "Usare la tabella del dieci per verificare un calcolo quando si è incerti.",
+        "Costruire velocità e sicurezza con i fatti dei numeri piccoli."
+      ],
+      "howToPlay": [
+        "Il bambino legge il calcolo rapido, come 3 + 2 oppure 5 − 2.",
+        "Tocca la risposta che ritiene giusta tra le tre proposte, dando un'occhiata alla tabella del dieci se vuole verificare.",
+        "Una conferma serena segnala la risposta corretta e offre un nuovo tentativo facile quando serve."
+      ],
+      "learningGoals": [
+        "Addizionare e sottrarre con sicurezza entro il 5.",
+        "Passare dal contare i risultati al richiamarli rapidamente.",
+        "Costruire la padronanza dei fatti numerici su cui contano addizione e sottrazione della classe prima."
+      ]
+    },
+    "choice-board.pick-bigger.k-c-c-7": {
+      "about": [
+        "Sullo schermo compaiono due numeri scritti in cifre e il bambino tocca quello più grande: per esempio 7 e 6, oppure 8 e 7. Alcune coppie sono molto distanti, come 9 e 2, altre sono vicinissime, come 8 e 7. È un'attività interattiva e gratuita di matematica per la scuola dell'infanzia, da fare nel browser su tablet, telefono o computer, senza installare nulla e senza account.",
+        "L'idea importante è confrontare i numeri così come sono scritti, senza contare oggetti o immagini. Non ci sono disegni d'aiuto: il bambino deve sapere che 8 vale più di 7 semplicemente leggendo le cifre. Le coppie ravvicinate sono ciò che rende l'esercizio davvero utile, perché non basta scegliere il numero \"dall'aria più grande\": bisogna conoscere il valore di ogni cifra.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: confrontare due numeri tra 1 e 10 scritti in cifre. Nessun timer e nessun punteggio, solo un gioco tranquillo da ripetere con calma quante volte si vuole."
+      ],
+      "practices": [
+        "Confrontare due numeri scritti da 1 a 10 e trovare quello più grande.",
+        "Leggere le cifre e conoscerne il valore senza contare oggetti.",
+        "Affrontare anche coppie vicine come 8 e 7, non solo numeri molto distanti.",
+        "Sviluppare il senso di quale numero è maggiore."
+      ],
+      "howToPlay": [
+        "Il bambino guarda i due numeri sul tabellone.",
+        "Tocca quello più grande e poi preme Controlla.",
+        "Se la scelta non è giusta, può riprovare quante volte vuole: non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Il bambino è in grado di confrontare numeri scritti da 1 a 10 e scegliere il maggiore.",
+        "Impara a riconoscere il valore di ogni cifra senza bisogno di contare.",
+        "Costruisce il senso del confronto che prepara il maggiore e il minore."
+      ]
+    },
+    "choice-board.how-many-group.k-c-c-b-5": {
+      "about": [
+        "Compare un gruppo di immagini simpatiche — un gufo, quattro volpi, otto elefanti — e il bambino conta gli oggetti e tocca il numero corrispondente. È un'attività interattiva e gratuita di conteggio per la scuola dell'infanzia, da usare direttamente nel browser su tablet, telefono o computer di classe, senza nulla da installare e senza registrazione.",
+        "L'idea centrale è la cardinalità: l'ultimo numero che diciamo contando indica quanti elementi ci sono in tutto. Poiché gli oggetti appaiono in fila, in piccoli schieramenti o sparsi, il bambino non può affidarsi a uno schema imparato a memoria, ma deve contare ogni immagine una volta sola. I numeri tra cui scegliere sono vicini, come 7, 8 e 9, così un errore di uno solo si nota subito e invita a ricontare con calma.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: contare per rispondere alla domanda \"quanti ce ne sono?\" fino a 10 oggetti disposti in fila, in schieramento o sparsi. Nessun timer e nessun punteggio."
+      ],
+      "practices": [
+        "Contare fino a 10 oggetti e dire quanti sono in tutto.",
+        "Contare ogni immagine una sola volta, sia in fila sia quando è sparsa.",
+        "Far corrispondere la quantità contata al numero scritto.",
+        "Costruire la cardinalità: capire che l'ultimo numero contato è il totale."
+      ],
+      "howToPlay": [
+        "Il bambino guarda il gruppo di immagini e le conta con attenzione, una alla volta.",
+        "Tocca il numero che corrisponde a quanti ne ha contati e poi preme Controlla.",
+        "Se non è corretto, può ricontare e riprovare quante volte vuole: non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Il bambino è in grado di contare fino a 10 oggetti in qualsiasi disposizione e dire il totale.",
+        "Impara a collegare un conteggio al numero scritto corrispondente.",
+        "Costruisce la corrispondenza uno a uno e la cardinalità su cui si fonda tutta la matematica successiva."
+      ]
+    },
+    "choice-board.tell-words-apart.rf-k-3-c": {
+      "about": [
+        "Il bambino ascolta una parola di uso frequente letta ad alta voce e poi la riconosce tra tre \"gemelle\" molto somiglianti: per esempio distingue una parola dalle sue compagne che cambiano solo per una o due lettere. È un'attività interattiva e gratuita di lettura per la classe prima, con il suono e senza registrazione, da fare comodamente nel browser.",
+        "Queste parole si assomigliano moltissimo, perciò un'occhiata veloce non basta. Il bambino deve tenere a mente la parola ascoltata e controllare le scelte scritte lettera per lettera, fino a trovare quella esatta, notando le piccole differenze di ordine o di lettera che cambiano tutto. È proprio questa lettura attenta che trasforma i tentativi incerti nel riconoscimento rapido e sicuro delle parole su cui si basa una lettura scorrevole.",
+        "L'attività è allineata alle Indicazioni nazionali per la scuola primaria, nell'ambito della lettura: riconoscere a colpo d'occhio le parole più frequenti. Nessun timer e nessun punteggio, solo pratica serena."
+      ],
+      "practices": [
+        "Tenere a mente una parola ascoltata mentre si osservano le scelte scritte.",
+        "Distinguere parole quasi identiche che cambiano solo per una o due lettere.",
+        "Leggere ogni parola fino in fondo invece di indovinare dalla prima lettera.",
+        "Costruire un riconoscimento rapido e preciso delle parole ad alta frequenza."
+      ],
+      "howToPlay": [
+        "Il bambino tocca per ascoltare la parola e può riascoltarla quante volte vuole.",
+        "Osserva le scelte e tocca quella che corrisponde alla parola sentita, poi controlla.",
+        "Se le ha confuse, può riprovare: non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Il bambino è in grado di riconoscere a colpo d'occhio le parole di uso frequente.",
+        "Impara a distinguere le parole somiglianti che si confondono più spesso quando si inizia a leggere.",
+        "Costruisce la scorrevolezza che libera l'attenzione per capire ciò che legge."
+      ]
+    },
+    "choice-board.beginning-sound.rf-k-3-a": {
+      "about": [
+        "Appare una sola lettera — per esempio D, F o M — e il bambino tocca l'immagine la cui parola inizia con quel suono, scegliendo tra gruppi familiari come animali, cibi e oggetti di tutti i giorni. È un'attività di fonologia gratuita per la scuola dell'infanzia, da fare direttamente nel browser, senza nulla da installare e senza account.",
+        "Ogni turno mostra un'immagine giusta e tre che iniziano con altri suoni, così il bambino non può tirare a indovinare: deve dire il nome di ogni immagine e ascoltarne il primissimo suono. Collegare la lettera al suono con cui comincia una parola è il legame fondamentale tra segno e suono, e sentirlo a confronto con le altre immagini fa risaltare con chiarezza quel suono iniziale.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito della consapevolezza fonologica: riconoscere il suono iniziale di una parola e collegarlo alla lettera. Nessun timer e nessun punteggio, solo piccoli successi da festeggiare insieme."
+      ],
+      "practices": [
+        "Collegare una lettera al suono che rappresenta.",
+        "Dire il nome di un'immagine e ascoltarne il primo suono.",
+        "Far corrispondere il suono iniziale alla lettera mostrata.",
+        "Distinguere il suono iniziale giusto dagli altri tre inizi proposti."
+      ],
+      "howToPlay": [
+        "Il bambino guarda la lettera in alto, per esempio D, e ne pronuncia il suono.",
+        "Tocca, tra le quattro scelte, l'immagine la cui parola inizia con quel suono.",
+        "Se non è corretto, può riprovare quante volte vuole: non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Il bambino è in grado di riconoscere il suono iniziale di una parola e collegarlo alla lettera.",
+        "Impara ad ascoltare e a far corrispondere il primo suono di una parola al segno scritto.",
+        "Costruisce il legame suono-lettera su cui si basano la sillabazione e la lettura delle parole."
+      ]
+    },
+    "fractions.make-and-count-squares.2-g-a-2": {
+      "about": [
+        "Il bambino tocca le linee tratteggiate per dividere un rettangolo in righe e colonne di quadrati tutti della stessa grandezza — 2 righe e 3 colonne, 3 righe e 4 colonne, fino a 4 righe e 5 colonne — e poi scrive quanti quadrati ci sono in tutto. È un'attività interattiva e gratuita di geometria per la seconda elementare, da fare nel browser su qualsiasi dispositivo, senza installare nulla e senza account.",
+        "L'idea importante è che un rettangolo si può dividere in quadrati uguali disposti in righe e colonne ordinate, e che questa struttura aiuta a contarli. Poiché è il bambino stesso a costruire la griglia e poi a contare, comincia a sentire che 3 righe di 4 quadrati significano contare per gruppi uguali: l'inizio silenzioso degli schieramenti e della moltiplicazione. I quadrati sono tutti uguali apposta, così il \"quanti\" è davvero un totale di parti uguali.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: dividere un rettangolo in righe e colonne di quadrati uguali e contarli per trovare il totale. Nessun timer e nessun punteggio, solo gioco tranquillo."
+      ],
+      "practices": [
+        "Dividere un rettangolo in righe e colonne di quadrati della stessa grandezza.",
+        "Costruire una griglia toccando le linee di divisione.",
+        "Contare i quadrati per trovare il totale nel rettangolo.",
+        "Notare la struttura a righe e colonne che porta verso gli schieramenti."
+      ],
+      "howToPlay": [
+        "Il bambino tocca le linee tratteggiate per formare righe e colonne di quadrati uguali.",
+        "Costruisce la griglia richiesta dal turno, per esempio 3 righe e 4 colonne.",
+        "Scrive quanti quadrati ci sono in tutto: non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Il bambino è in grado di dividere un rettangolo in quadrati uguali e contarne il totale.",
+        "Impara a vedere un rettangolo come righe e colonne di parti uguali.",
+        "Costruisce la base degli schieramenti che prepara alla moltiplicazione."
+      ]
+    },
+    "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
+      "about": [
+        "Il bambino legge un confronto come 247 ___ 274 oppure 583 ___ 419 e lo collega al simbolo che lo rende vero — minore di (<) o maggiore di (>) — toccando la carta del confronto e poi il simbolo giusto. È un gioco interattivo e gratuito di abbinamento a carte per la seconda elementare, da giocare direttamente nel browser, senza installare nulla e senza account.",
+        "L'idea importante è confrontare in base al valore posizionale, partendo dalle centinaia. Le coppie sono scelte in modo che non basti uno sguardo veloce: numeri come 655 e 658 hanno le stesse centinaia e le stesse decine, quindi a decidere sono le unità, mentre 480 e 408 obbligano a guardare le decine. Procedere da sinistra a destra — prima le centinaia, poi le decine, infine le unità — è proprio il ragionamento che l'abbinamento fa esercitare.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: confrontare due numeri a tre cifre usando >, = e < in base al valore di centinaia, decine e unità. Nessun timer e nessun punteggio."
+      ],
+      "practices": [
+        "Confrontare numeri a tre cifre guardando prima le centinaia, poi le decine, infine le unità.",
+        "Scegliere il simbolo giusto, < o >, per rendere vero un confronto.",
+        "Distinguere numeri vicini come 655 e 658 dalla cifra che decide.",
+        "Leggere e ragionare sul valore posizionale dei numeri fino a 1000."
+      ],
+      "howToPlay": [
+        "Il bambino legge una carta del confronto come 406 ___ 460 e decide quale numero è maggiore.",
+        "Tocca il confronto, poi tocca il simbolo — < o > — che lo rende vero e guarda la coppia collegarsi.",
+        "Abbina entrambi i confronti del turno: non c'è timer e non c'è punteggio, quindi con tutta calma."
+      ],
+      "learningGoals": [
+        "Il bambino è in grado di confrontare due numeri a tre cifre usando >, = e <.",
+        "Impara a usare il valore posizionale, partendo dalle centinaia, per decidere quale numero è maggiore.",
+        "Costruisce un senso del numero sicuro entro il 1000."
+      ]
+    },
+    "numberbond.make-ten.k-oa-a-4": {
+      "about": [
+        "L'intero è 10 e una parte del legame tra numeri è già riempita — per esempio 7 — e il bambino tocca la parte vuota per aggiungere pedine finché le due parti insieme formano 10. È un'attività interattiva e gratuita di matematica per la scuola dell'infanzia, da fare direttamente nel browser, senza account e senza registrazione.",
+        "Ogni numero da 1 a 9 ha un compagno che completa il dieci, e qui il bambino costruisce quel compagno aggiungendo le pedine una alla volta e guardando le due parti crescere fino a 10, non leggendo un risultato su una pagina. Il legame stesso è la risposta: il bambino si ferma quando le due parti fanno esattamente dieci, così una parte troppo piccola o troppo grande è facile da sentire e da correggere.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: trovare il numero che, aggiunto a un numero dato, forma 10. Nessun timer e nessun punteggio, ogni tentativo è un piccolo passo per imparare."
+      ],
+      "practices": [
+        "Vedere l'intero 10 diviso in due parti in un legame tra numeri.",
+        "Aggiungere le pedine alla parte vuota una alla volta.",
+        "Trovare il compagno che completa il dieci (7 e 3, 4 e 6).",
+        "Capire quando le due parti insieme fanno esattamente 10."
+      ],
+      "howToPlay": [
+        "Il bambino guarda il legame tra numeri: l'intero è 10 e una parte è già riempita.",
+        "Tocca la parte vuota per aggiungere pedine finché le due parti formano 10, poi preme Controlla.",
+        "Troppe o troppo poche? Aggiunge o toglie pedine e controlla di nuovo: non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Il bambino è in grado di trovare il numero che, aggiunto a un numero dato, forma 10.",
+        "Impara a costruire gli amici del 10 aggiungendo pedine, non imparando a memoria.",
+        "Pone le basi della strategia dell'addizione che passa per il dieci."
+      ]
+    },
+    "numberbond.story-problem.2-oa-a-1": {
+      "about": [
+        "Il bambino legge un breve problema — 20 tulipani rossi e 30 gialli, uno scaffale con 45 libri, le anatre che arrivano allo stagno — lo vede rappresentato come un legame tra numeri e poi scrive il numero mancante. È un'attività interattiva e gratuita di matematica per la classe seconda, da fare direttamente nel browser, senza account.",
+        "Il legame tra numeri trasforma ogni storia nella stessa immagine: due parti e un intero. Così il bambino vede se l'incognita è il totale, una parte rimasta o una quantità di partenza. Alcuni problemi sono di addizione (quanti in tutto), altri di sottrazione (quanti ne restano, quanti ne sono arrivati), e il legame rende chiara questa scelta, invece di affidarsi a una parola chiave indovinata.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri e dei problemi: risolvere problemi a una sola operazione, di addizione e sottrazione, entro il 100. Nessun timer e nessun punteggio."
+      ],
+      "practices": [
+        "Leggere un problema e individuare i numeri che contano.",
+        "Rappresentare la situazione come un legame parte-parte-intero.",
+        "Decidere se addizionare o sottrarre in base a dove si trova l'incognita.",
+        "Risolvere problemi di addizione e sottrazione entro il 100."
+      ],
+      "howToPlay": [
+        "Il bambino legge il problema mostrato sopra il legame tra numeri.",
+        "Trova il numero mancante — un totale, una parte o una quantità di partenza — lo scrive sul tastierino e poi preme Controlla.",
+        "Non è corretto? Rilegge e riprova: non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Il bambino è in grado di risolvere problemi a una operazione, di addizione e sottrazione, entro il 100.",
+        "Impara a rappresentare una storia come un legame parte-parte-intero.",
+        "Trova un totale, una parte o una quantità di partenza sconosciuta."
+      ]
+    },
+    "sort-bins.defining-attributes.1-g-a-1": {
+      "about": [
+        "È ancora un triangolo se è rosso, grande o inclinato? Ogni turno nomina una figura e il bambino trascina ogni forma nella scatola giusta decidendo che cosa è, non come appare, separando i veri triangoli da quadrati, pentagoni ed esagoni. È un'attività interattiva e gratuita di geometria per la classe prima, da fare nel browser, senza nulla da installare.",
+        "Tutta l'idea sta nella differenza tra una caratteristica che definisce e una che no. Un triangolo è definito dall'avere tre lati — e basta — mentre essere rosso, grande o inclinato è solo l'aspetto di quel particolare triangolo. Smistando gli esempi a confronto con i \"finti amici\", il bambino impara a ignorare l'apparenza e a giudicare in base alla proprietà che conta davvero: è l'inizio del vero ragionamento geometrico.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: distinguere le caratteristiche che definiscono una figura da quelle che non la definiscono. Nessun timer e nessun punteggio."
+      ],
+      "practices": [
+        "Decidere se una figura appartiene a un gruppo dato in base al numero di lati.",
+        "Distinguere una caratteristica che definisce (il numero di lati) da una che no (colore, grandezza, orientamento).",
+        "Riconoscere triangoli e quadrilateri in tante forme, non solo nell'esempio del libro.",
+        "Ignorare le somiglianze ingannevoli e giudicare una figura da ciò che la rende tale."
+      ],
+      "howToPlay": [
+        "Il bambino legge la figura nominata — per esempio, triangolo — all'inizio del turno.",
+        "Trascina ogni forma nella scatola giusta decidendo se è davvero quella figura, a prescindere da colore, grandezza o orientamento.",
+        "Se non è corretto, può riprovare quante volte vuole: non c'è timer e non c'è punteggio."
+      ],
+      "learningGoals": [
+        "Il bambino è in grado di distinguere le caratteristiche che definiscono una figura da quelle che non la definiscono.",
+        "Capisce che un triangolo resta un triangolo anche se cambia colore, grandezza o orientamento.",
+        "Costruisce il ragionamento per caratteristiche su cui si basano la classificazione e la denominazione delle figure."
       ]
     }
   }

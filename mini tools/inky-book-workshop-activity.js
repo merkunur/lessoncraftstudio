@@ -1,0 +1,179 @@
+/* =====================================================================
+   INKY'S BOOK WORKSHOP — ACTIVITY  (inky-book-workshop-activity.js)
+   ---------------------------------------------------------------------
+   CCSS RL.K.6 — define the role of author vs illustrator. Inky the octopus
+   makes books with ink; the child sees a job being done and taps whose job it
+   is — Author (writes the words), Illustrator (draws the pictures), or Reader
+   (reads it). Validity DERIVED by author-illustrator-core.js (the card whose
+   role === the job's role). answerType:'state' tap-a-card + shell Check; cards
+   shuffle. Text + SVG art only — no image-library, no audio dependency. No
+   timer/score/streak. 0 lines to any core + lcs-shell.{js,css}.
+   ===================================================================== */
+(function (global) {
+  'use strict';
+
+  var Core = global.AuthorIllustratorCore;
+  var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', PURPLE: '#8E6FC4' };
+  var EMOJI = { author: '✍️', illustrator: '🎨', reader: '📖' };
+  var LABEL = { author: 'Author', illustrator: 'Illustrator', reader: 'Reader' };
+
+  function speak(text) {
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+  }
+  function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+
+  function octoSVG() {
+    return '<svg class="ibw-oct-svg" viewBox="0 0 100 100" role="img" aria-label="Inky the octopus">' +
+      '<circle cx="50" cy="42" r="22" fill="#8E6FC4"/>' +                          /* head */
+      '<circle cx="43" cy="40" r="3" fill="#fff"/><circle cx="57" cy="40" r="3" fill="#fff"/>' +
+      '<circle cx="43" cy="40" r="1.5" fill="#2A2A35"/><circle cx="57" cy="40" r="1.5" fill="#2A2A35"/>' +
+      '<path d="M44 50 q6 4 12 0" stroke="#5E3F94" stroke-width="2.5" fill="none" stroke-linecap="round"/>' +
+      '<path d="M30 60 q-6 14 -2 22 M40 64 q-3 16 0 24 M50 66 q0 16 0 24 M60 64 q3 16 0 24 M70 60 q6 14 2 22" stroke="#8E6FC4" stroke-width="6" fill="none" stroke-linecap="round"/>' +
+      '</svg>';
+  }
+
+  /* A book page whose drawing changes with the job: words / a picture / reading. */
+  function jobArtSVG(job) {
+    var inner;
+    if (job === 'wrote') inner = '<line x1="20" y1="22" x2="56" y2="22"/><line x1="20" y1="33" x2="60" y2="33"/><line x1="20" y1="44" x2="50" y2="44"/><line x1="20" y1="55" x2="58" y2="55"/>';
+    else if (job === 'drew') inner = '<circle cx="30" cy="30" r="8" fill="#F2C14E" stroke="none"/><path d="M18 56 l14 -16 l10 10 l12 -14 l8 20z" fill="#7FB069" stroke="none"/>';
+    else inner = '<circle cx="40" cy="26" r="7" fill="#F2C14E" stroke="none"/><path d="M28 56 q12 -16 24 0" fill="none" stroke="#F2784B" stroke-width="3"/><text x="40" y="50" font-size="13" text-anchor="middle" fill="#F2784B">★</text>';
+    return '<svg class="ibw-page-svg" viewBox="0 0 80 70" role="img" aria-hidden="true">' +
+      '<rect x="6" y="6" width="68" height="58" rx="5" fill="#fff" stroke="#C9B79A" stroke-width="2"/>' +
+      '<g stroke="#9AA0A6" stroke-width="2.4" stroke-linecap="round">' + inner + '</g></svg>';
+  }
+
+  global.InkyBookWorkshopActivity = {
+    id: 'inky-book-workshop-activity',
+
+    strings: {
+      title: { en: "Inky's Book Workshop" },
+      instruction: { en: 'Tap whose job it is: author, illustrator, or reader.' },
+      promptWrote: { en: 'Someone WROTE the words. Whose job is that?' },
+      promptDrew: { en: 'Someone DREW the pictures. Whose job is that?' },
+      promptRead: { en: 'Someone is READING the book. Whose job is that?' },
+      inkyIntro: { en: 'Every book has an author, an illustrator — and a reader!' },
+      capWrote: { en: 'Writing the words ✍️' },
+      capDrew: { en: 'Drawing the pictures 🎨' },
+      capRead: { en: 'Reading the book 📖' },
+      hintPick: { en: 'Author writes the words. Illustrator draws the pictures. Reader reads it.' },
+      hintWrong: { en: 'Look again — who WRITES, who DRAWS, who READS?' },
+      win: { en: 'Yes! You know the job. 🐙' }
+    },
+    defaults: {},
+
+    init: function (api) {
+      this.api = api;
+      this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
+      this.round = null; this.view = null; this.sel = null; this._cards = null;
+      var params = (global.location) ? new URLSearchParams(global.location.search) : null;
+      this._activityId = params ? params.get('activity') : null;
+      if (this._activityId) this._loadActivity();
+    },
+
+    setupTask: function (round) {
+      this.round = round; this.view = Core.childView(round); this.sel = null;
+      this._cards = shuffle(this.view.choices.slice());
+    },
+
+    render: function () {
+      this.injectCSS(); var api = this.api, stage = api.stage; stage.innerHTML = '';
+      var wrap = api.el('div', 'ibw-wrap'); var root = api.el('div', 'ibw-root');
+      if (!this.round) { wrap.appendChild(root); stage.appendChild(wrap); return; }
+      var self = this, r = this.round, job = r.job;
+
+      var row = api.el('div', 'ibw-row');
+      var oct = api.el('div', 'ibw-oct'); oct.innerHTML = octoSVG(); row.appendChild(oct);
+      var say = api.el('div', 'ibw-say'); say.textContent = api.t('inkyIntro'); row.appendChild(say);
+      root.appendChild(row);
+
+      var book = api.el('div', 'ibw-book');
+      var page = api.el('div', 'ibw-page'); page.innerHTML = jobArtSVG(job); book.appendChild(page);
+      var cap = api.el('div', 'ibw-cap'); cap.textContent = api.t(job === 'wrote' ? 'capWrote' : job === 'drew' ? 'capDrew' : 'capRead'); book.appendChild(cap);
+      var topic = api.el('div', 'ibw-topic'); topic.textContent = r.book; book.appendChild(topic);
+      root.appendChild(book);
+
+      var opts = api.el('div', 'ibw-opts');
+      this._cards.forEach(function (o) {
+        var b = api.el('button', 'ibw-opt' + (self.sel === o.id ? ' ibw-sel' : '')); b.type = 'button';
+        b.setAttribute('data-id', o.id); b.setAttribute('aria-label', LABEL[o.role]);
+        var em = api.el('span', 'ibw-em'); em.textContent = EMOJI[o.role]; b.appendChild(em);
+        var lb = api.el('span', 'ibw-lb'); lb.textContent = LABEL[o.role]; b.appendChild(lb);
+        b.addEventListener('click', function () { self._tap(o.id, o.role); });
+        opts.appendChild(b);
+      });
+      root.appendChild(opts);
+
+      wrap.appendChild(root); stage.appendChild(wrap);
+    },
+
+    _tap: function (id, role) {
+      if (this.sel === id) { this.sel = null; this.render(); return; }
+      this.sel = id; this.api.sound && this.api.sound(540); speak(LABEL[role]); this.render();
+    },
+
+    isCorrect: function () { return Core.grade(this.round, this.sel); },
+    reset: function () { this.setupTask(this.round); this.render(); },
+
+    nextTask: function (opts) {
+      var pool = (this._pool && this._pool.length) ? this._pool : makeTasks([]); var n = pool.length, i = (opts && opts.index) || 0;
+      if (!n) return null;
+      if (!this._order || this._orderForPool !== pool || this._order.length !== n) { this._order = bandOrder(pool, null); this._orderForPool = pool; this._curPass = 0; }
+      var pass = Math.floor(i / n); if (pass > this._curPass) { this._order = bandOrder(pool, this._order); this._curPass = pass; }
+      return pool[this._order[i % n]];
+    },
+
+    _loadActivity: function () {
+      var self = this;
+      fetch('/mini-tools/inky-book-workshop-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .catch(function (e) { if (global.console && console.warn) console.warn('[inky-book-workshop] manifest load failed:', e.message); });
+    },
+
+    injectCSS: function () {
+      if (this._cssInjected) return; this._cssInjected = true;
+      var css = ''
+        + '.ibw-wrap{display:flex;justify-content:center;width:100%;max-width:min(96vw,540px);margin:0 auto;}'
+        + '.ibw-root{position:relative;width:100%;display:flex;flex-direction:column;align-items:center;gap:clamp(8px,2vw,13px);background:linear-gradient(180deg,#FBF3E4,#EFEAF6);border-radius:20px;padding:clamp(10px,2.4vw,16px);box-shadow:inset 0 2px 0 rgba(255,255,255,.5),0 5px 0 rgba(120,100,170,.1);}'
+        + '.ibw-row{display:flex;align-items:center;gap:clamp(6px,2vw,12px);justify-content:center;}'
+        + '.ibw-oct{width:clamp(44px,9.5vw,58px);flex:0 0 auto;}.ibw-oct-svg{width:100%;height:auto;display:block;}'
+        + '.ibw-say{background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:13px 13px 13px 3px;padding:6px 11px;font:700 clamp(12px,3.1vw,15px)/1.3 "Baloo 2",sans-serif;color:' + C.T + ';max-width:74%;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}'
+        + '.ibw-book{display:flex;flex-direction:column;align-items:center;gap:4px;background:#fff;border:2px solid rgba(142,111,196,.28);border-radius:14px;padding:8px 14px;box-shadow:0 2px 0 rgba(120,100,170,.16);}'
+        + '.ibw-page{width:clamp(70px,18vw,92px);}.ibw-page-svg{width:100%;height:auto;display:block;}'
+        + '.ibw-cap{font:800 clamp(13px,3.3vw,16px)/1.1 "Baloo 2",sans-serif;color:' + C.PURPLE + ';}'
+        + '.ibw-topic{font:700 clamp(11px,2.8vw,13px)/1.25 "Nunito",sans-serif;color:' + C.INK + ';text-align:center;max-width:90%;font-style:italic;}'
+        + '.ibw-opts{display:flex;flex-wrap:wrap;gap:clamp(8px,2.4vw,12px);justify-content:center;}'
+        + '.ibw-opt{display:flex;flex-direction:column;align-items:center;gap:3px;min-width:clamp(82px,25vw,116px);min-height:62px;padding:9px 14px;border-radius:14px;border:2px solid rgba(20,107,94,.26);background:#fff;color:' + C.INK + ';cursor:pointer;box-shadow:0 2px 0 rgba(140,120,60,.16);touch-action:manipulation;}'
+        + '.ibw-em{font-size:clamp(20px,5.4vw,26px);line-height:1;}'
+        + '.ibw-lb{font:800 clamp(13px,3.4vw,16px)/1 "Baloo 2",sans-serif;}'
+        + '.ibw-opt.ibw-sel{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF6F1;color:' + C.CORAL2 + ';transform:translateY(-2px);}'
+        + '.ibw-opt:active{transform:translateY(1px);}'
+        + '.ibw-opt:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
+        + '@media (max-height:920px){.ibw-root{gap:clamp(6px,1.5vw,10px);}.ibw-oct{width:clamp(40px,8vw,50px);}.ibw-page{width:clamp(62px,15vw,80px);}.ibw-opt{min-height:58px;}}'
+        + '@media (max-height:700px){.ibw-root{gap:6px;padding:11px;}.ibw-row{display:none;}.ibw-page{width:64px;}.ibw-opt{min-height:54px;padding:8px 12px;}}'
+        + '@media (max-height:640px){.ibw-root{gap:5px;padding:9px;}.ibw-page{width:54px;}.ibw-topic{display:none;}.ibw-opt{min-height:50px;}}'
+        + '@media (max-width:380px){.ibw-opt{min-width:72px;}.ibw-lb{font-size:14px;}}';
+      var tag = document.createElement('style'); tag.setAttribute('data-inky-book-workshop', ''); tag.textContent = css; document.head.appendChild(tag);
+    }
+  };
+
+  function makeTasks(rounds) {
+    return (rounds || []).map(function (round) {
+      var pk = round.job === 'wrote' ? 'promptWrote' : round.job === 'drew' ? 'promptDrew' : 'promptRead';
+      return {
+        id: 'inky-book-workshop.' + round.id, band: round.band || 1, promptKey: pk, promptArgs: {}, answerType: 'state',
+        setup: function (tool) { tool.setupTask(round); },
+        check: function (tool) { return Core.grade(round, tool.sel); },
+        hintKey: function (tool) { return tool.sel != null ? 'hintWrong' : 'hintPick'; }
+      };
+    });
+  }
+  function bandOrder(pool, prev) {
+    var byBand = {}; pool.forEach(function (t, i) { (byBand[t.band] = byBand[t.band] || []).push(i); });
+    var bands = Object.keys(byBand).sort(function (a, b) { return a - b; }); var out, attempts = 0;
+    do { out = []; bands.forEach(function (b) { var g = byBand[b].slice(); for (var i = g.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = g[i]; g[i] = g[j]; g[j] = t; } out = out.concat(g); }); attempts++; } while (prev && out.join(',') === prev.join(',') && attempts < 12 && pool.length > 1);
+    return out;
+  }
+
+}(typeof window !== 'undefined' ? window : this));

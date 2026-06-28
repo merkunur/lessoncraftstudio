@@ -1,0 +1,26 @@
+[
+  {
+    "id": "winter-piles.draw-partition.2-oa-c-4",
+    "tool": "winter-piles-activity",
+    "task_template": "draw-partition",
+    "alignment": { "framework": "CCSS", "code": "2.OA.C.4", "grade": "2", "strand": "Operations & Algebraic Thinking" },
+    "params": {
+      "rounds": [
+        { "id": "fair-2x3", "type": "make-fair", "band": 1, "array": { "rows": 2, "cols": 3 }, "object": "acorn" },
+        { "id": "fair-3x4", "type": "make-fair", "band": 1, "array": { "rows": 3, "cols": 4 }, "object": "acorn" },
+        { "id": "fair-4x4", "type": "make-fair", "band": 1, "array": { "rows": 4, "cols": 4 }, "object": "acorn" },
+        { "id": "make2-4x3", "type": "make-n", "band": 2, "array": { "rows": 4, "cols": 3 }, "target": { "piles": 2 }, "object": "acorn" },
+        { "id": "make2-4x2", "type": "make-n", "band": 2, "array": { "rows": 4, "cols": 2 }, "target": { "piles": 2 }, "object": "acorn" },
+        { "id": "fix-4x3", "type": "fix", "band": 3, "array": { "rows": 4, "cols": 3 }, "preset": [1], "object": "acorn" },
+        { "id": "fix-4x2", "type": "fix", "band": 3, "array": { "rows": 4, "cols": 2 }, "preset": [1], "object": "acorn" },
+        { "id": "match-3x4", "type": "match", "band": 4, "array": { "rows": 3, "cols": 4 }, "target": { "addend": 4, "count": 3 }, "object": "acorn" },
+        { "id": "match-4x3", "type": "match", "band": 4, "array": { "rows": 4, "cols": 3 }, "target": { "addend": 3, "count": 4 }, "object": "acorn" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "fair-winter-piles" },
+    "page_title": { "en": "Squirrel's Fair Winter Piles — Equal Groups & Arrays (Grade 2)" },
+    "page_intro": { "en": "A free interactive Grade 2 math game for arrays and equal groups: help the squirrel sort its acorns into FAIR winter piles. Draw a line to cut the rows into piles that are all the SAME size, read how many acorns are in each pile, and tap the number in — the equal-addends equation (like 5 + 5 + 5 = 15) appears and the piles sparkle. Unfair piles can't shine together. Partitioning a rectangular array into equal rows and writing it as a sum of equal addends is the heart of Common Core 2.OA.C.4." },
+    "kid_prompt_template": "draw-partition"
+  }
+]

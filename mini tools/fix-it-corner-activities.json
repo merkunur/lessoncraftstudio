@@ -1,0 +1,28 @@
+[
+  {
+    "id": "fix-it-corner.missing-part.1-oa-d-8",
+    "tool": "fix-it-corner-activity",
+    "task_template": "missing-part",
+    "alignment": { "framework": "CCSS", "code": "1.OA.D.8", "grade": "1", "strand": "Operations & Algebraic Thinking" },
+    "params": {
+      "rounds": [
+        { "id": "m10-7", "band": 1, "experience": "make10", "a": 7, "op": "+", "b": null, "c": 10, "range": 10, "modelState": "countable" },
+        { "id": "m10-6", "band": 1, "experience": "make10", "a": 6, "op": "+", "b": null, "c": 10, "range": 10, "modelState": "countable" },
+        { "id": "sum-8-5", "band": 1, "experience": "missingSum", "a": 8, "op": "+", "b": 5, "c": null, "range": 20, "modelState": "countable" },
+        { "id": "sum-6-7", "band": 1, "experience": "missingSum", "a": 6, "op": "+", "b": 7, "c": null, "range": 20, "modelState": "countable" },
+        { "id": "ma-8-13", "band": 2, "experience": "missingAddend", "a": 8, "op": "+", "b": null, "c": 13, "range": 20, "modelState": "confirmOnly", "tool": "countOn" },
+        { "id": "ma-9-15", "band": 2, "experience": "missingAddend", "a": 9, "op": "+", "b": null, "c": 15, "range": 20, "modelState": "confirmOnly", "tool": "countOn" },
+        { "id": "ms-13-8", "band": 2, "experience": "missingSubtrahend", "a": 13, "op": "-", "b": null, "c": 8, "range": 20, "modelState": "confirmOnly", "tool": "countBack" },
+        { "id": "mfa-5-12", "band": 3, "experience": "missingFirstAddend", "a": null, "op": "+", "b": 5, "c": 12, "range": 20, "modelState": "faded", "tool": "triangle" },
+        { "id": "mm-5-8", "band": 3, "experience": "missingMinuend", "a": null, "op": "-", "b": 5, "c": 8, "range": 20, "modelState": "faded", "tool": "recombine" },
+        { "id": "bal-6-6-4", "band": 3, "experience": "balance", "kind": "balance", "a": 6, "b": 6, "c": null, "d": 4, "range": 20, "modelState": "faded" },
+        { "id": "prod-13-8-5", "band": 4, "experience": "produce", "kind": "produce", "whole": 13, "p1": 8, "p2": 5, "range": 20, "modelState": "faded", "tool": "triangle" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "fix-it-corner" },
+    "page_title": { "en": "Fixit's Fix-It Corner — Find the Missing Number (Grade 1)" },
+    "page_intro": { "en": "A free interactive Grade 1 math game for the missing number in addition and subtraction: help Fixit the near-sighted repair-mole work out the part each broken gadget needs — the missing sum, addend, subtrahend, or minuend — then pop it in and watch it whir to life. Counting-on, fact-families, and balancing all build Common Core 1.OA.D.8." },
+    "kid_prompt_template": "missing-part"
+  }
+]

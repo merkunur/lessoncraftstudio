@@ -1,0 +1,99 @@
+[
+  {
+    "id": "coin-stall.money.2-md-c-8",
+    "tool": "coin-stall-activity",
+    "task_template": "coin-stall",
+    "alignment": { "framework": "CCSS", "code": "2.MD.C.8", "grade": "2", "strand": "Measurement & Data" },
+    "params": {
+      "coinSet": [
+        { "den": "penny", "value": 1, "glyph": "P", "tint": "#C97B43", "diameter": 19 },
+        { "den": "nickel", "value": 5, "glyph": "N", "tint": "#A9A9A9", "diameter": 21 },
+        { "den": "dime", "value": 10, "glyph": "D", "tint": "#B8B8B8", "diameter": 18 },
+        { "den": "quarter", "value": 25, "glyph": "Q", "tint": "#9FA0A2", "diameter": 24 },
+        { "den": "dollar", "value": 100, "glyph": "$", "tint": "#7BA86B", "diameter": 28 }
+      ],
+      "rounds": [
+        {
+          "id": "count-set-till", "cog": "count-set", "band": 1, "legendTier": "full",
+          "scenario": "Pip counts the till. How much is this worth?",
+          "pile": [ { "den": "dime", "count": 2 }, { "den": "penny", "count": 3 } ],
+          "options": [ 20, 23, 25, 26 ]
+        },
+        {
+          "id": "make-shell-30", "cog": "make-amount", "band": 2, "legendTier": "value", "target": 30,
+          "scenario": "A shell costs 30¢. Pay Pip exactly.",
+          "purse": [ "quarter", "nickel", "dime", "dime", "penny", "penny", "nickel", "quarter" ]
+        },
+        {
+          "id": "make-starfish-41", "cog": "make-amount", "band": 3, "legendTier": "none", "target": 41,
+          "scenario": "A starfish is 41¢. Pay the exact price.",
+          "purse": [ "quarter", "dime", "dime", "nickel", "penny", "quarter", "nickel", "penny" ]
+        },
+        {
+          "id": "fewest-kite-35", "cog": "fewest", "band": 2, "legendTier": "none", "target": 35,
+          "scenario": "A kite is 35¢. Use the FEWEST coins!",
+          "purse": [ "quarter", "dime", "dime", "nickel", "penny", "quarter", "nickel", "penny" ]
+        },
+        {
+          "id": "fewest-crab-30", "cog": "fewest", "band": 2, "legendTier": "value", "target": 30,
+          "scenario": "A toy crab is 30¢. Use the fewest coins you can.",
+          "purse": [ "quarter", "nickel", "dime", "dime", "penny", "quarter", "nickel", "penny" ]
+        },
+        {
+          "id": "change-cheese-100", "cog": "change", "band": 3, "legendTier": "none", "price": 70, "paid": 100,
+          "scenario": "Cheese is 70¢. You pay $1 — give the change.",
+          "purse": [ "quarter", "nickel", "dime", "dime", "penny", "penny", "nickel", "quarter" ]
+        },
+        {
+          "id": "change-shell-50", "cog": "change", "band": 2, "legendTier": "value", "price": 30, "paid": 50,
+          "scenario": "A shell is 30¢. You pay 50¢. What is the change?",
+          "purse": [ "dime", "dime", "nickel", "nickel", "penny", "penny", "dime", "quarter" ]
+        },
+        {
+          "id": "enough-book-35", "cog": "enough", "band": 3, "legendTier": "none", "price": 35,
+          "scenario": "You have these coins. The book is 35¢. Is it enough?",
+          "pile": [ { "den": "quarter", "count": 1 }, { "den": "dime", "count": 1 } ]
+        },
+        {
+          "id": "enough-apple-40", "cog": "enough", "band": 2, "legendTier": "value", "price": 40,
+          "scenario": "You have these coins. The apple is 40¢. Enough?",
+          "pile": [ { "den": "quarter", "count": 2 } ]
+        },
+        {
+          "id": "twoways-25", "cog": "two-ways", "band": 3, "legendTier": "none", "target": 25,
+          "scenario": "A quarter is 25¢. Make 25¢ a new way!",
+          "shownSet": [ "quarter" ],
+          "purse": [ "dime", "dime", "nickel", "nickel", "penny", "quarter", "dime", "nickel" ]
+        },
+        {
+          "id": "twoways-30", "cog": "two-ways", "band": 2, "legendTier": "value", "target": 30,
+          "scenario": "Pip made 30¢ with 3 dimes. Make 30¢ a different way!",
+          "shownSet": [ "dime", "dime", "dime" ],
+          "purse": [ "quarter", "nickel", "dime", "penny", "quarter", "nickel", "dime", "nickel" ]
+        },
+        {
+          "id": "trade-quarter", "cog": "trade", "band": 3, "legendTier": "none",
+          "offer": { "den": "quarter", "count": 1 },
+          "scenario": "Out of quarters! Trade coins worth 1 quarter.",
+          "purse": [ "dime", "dime", "nickel", "nickel", "penny", "dime", "nickel", "penny" ]
+        },
+        {
+          "id": "trade-dime", "cog": "trade", "band": 2, "legendTier": "value",
+          "offer": { "den": "dime", "count": 1 },
+          "scenario": "Pip needs change for a dime. Trade coins worth 1 dime!",
+          "purse": [ "nickel", "nickel", "penny", "penny", "nickel", "penny", "nickel", "dime" ]
+        },
+        {
+          "id": "make-pebble-16", "cog": "make-amount", "band": 1, "legendTier": "full", "target": 16,
+          "scenario": "A pebble is 16¢. Pay exactly.",
+          "purse": [ "dime", "nickel", "penny", "penny", "dime", "nickel", "quarter", "penny" ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "pips-market-stall" },
+    "page_title": { "en": "Pip's Market Stall — Counting Coins & Making Change" },
+    "page_intro": { "en": "Pay at Pip the otter's seaside market stall! Read each word problem, then pick real coins — penny, nickel, dime, quarter — and pay the exact price, count a pile, make change, or trade coins of equal value. The catch: the value isn't written on the coin, so you have to KNOW what each one is worth. A warm Grade 2 money game (and yes — the tiny dime is worth more than the bigger nickel!), aligned to Common Core 2.MD.C.8." },
+    "kid_prompt_template": "coin-stall"
+  }
+]

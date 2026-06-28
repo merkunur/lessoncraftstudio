@@ -455,10 +455,11 @@ window.CvcBuilderCore = {
       '.cvc-wrap.cvc-chunks .cvc-slot{aspect-ratio:auto;min-height:clamp(56px,15vmin,84px);padding:0 clamp(8px,2.4vw,16px);font-size:clamp(24px,6.5vmin,44px);}',
       '.cvc-wrap.cvc-chunks .cvc-letter{aspect-ratio:auto;min-height:clamp(46px,12vw,62px);padding:0 clamp(6px,2vw,12px);font-size:clamp(18px,4.6vw,28px);}',
 
-      /* PREFILL/MAGIC-E MODE (gated on .cvc-prefill) — gild the magic-e tile so
-         it reads as the special letter, + dim the locked base slots slightly so
-         the empty final slot draws the eye. CVC/blends never get this class. */
-      '.cvc-wrap.cvc-prefill .cvc-letter[data-letter="e"]{background:linear-gradient(180deg,#FFF7DE 0%,#FCE9A8 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,0.9),0 4px 0 0 #E3C969,0 6px 14px rgba(214,170,40,0.28);color:#9A6B12;}',
+      /* PREFILL/MAGIC-E MODE (gated on .cvc-prefill) — dim the locked base slots
+         slightly so the empty final slot draws the eye. The answer tile is NOT
+         visually marked: all palette tiles look identical so the child must find
+         the magic e (gild removed 2026-06-27 — it gave away the answer, defeating
+         RF.1.3). CVC/blends never get this class. */
       '.cvc-wrap.cvc-prefill .cvc-slot.cvc-slot--filled{opacity:0.92;}'
     ].join('\n');
     var tag = document.createElement('style');

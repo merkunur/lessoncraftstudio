@@ -1,0 +1,30 @@
+[
+  {
+    "id": "parking-tower.place-by-relation.k-g-a-1",
+    "tool": "parking-tower-activity",
+    "task_template": "place-by-relation",
+    "alignment": { "framework": "CCSS", "code": "K.G.A.1", "grade": "K", "strand": "Geometry" },
+    "params": {
+      "rounds": [
+        { "id": "next-to-bus", "band": 1, "relation": "next-to", "experience": "adjacency", "termRef": ["bus"], "scene": { "cols": 3, "levels": 2, "mover": { "vehicle": "truck", "label": "truck" }, "landmarks": [{ "id": "bus", "vehicle": "bus", "col": 1, "level": 1, "label": "bus" }], "candidates": [{ "id": "L1C2", "col": 2, "level": 1, "kind": "bay" }, { "id": "L2C1", "col": 1, "level": 2, "kind": "bay" }, { "id": "L1C3", "col": 3, "level": 1, "kind": "bay" }] }, "targetSpotIds": ["L1C2"], "nearMiss": { "L2C1": "above" } },
+        { "id": "above-van", "band": 1, "relation": "above", "experience": "vertical", "termRef": ["van"], "scene": { "cols": 3, "levels": 2, "mover": { "vehicle": "truck", "label": "truck" }, "landmarks": [{ "id": "van", "vehicle": "van", "col": 2, "level": 1, "label": "van" }], "candidates": [{ "id": "L2C2", "col": 2, "level": 2, "kind": "bay" }, { "id": "L1C1", "col": 1, "level": 1, "kind": "bay" }, { "id": "L1C3", "col": 3, "level": 1, "kind": "bay" }] }, "targetSpotIds": ["L2C2"], "nearMiss": { "L1C1": "next-to" } },
+        { "id": "below-car", "band": 1, "relation": "below", "experience": "vertical", "termRef": ["car"], "scene": { "cols": 3, "levels": 2, "mover": { "vehicle": "truck", "label": "truck" }, "landmarks": [{ "id": "car", "vehicle": "car", "col": 2, "level": 2, "label": "car" }], "candidates": [{ "id": "L1C2", "col": 2, "level": 1, "kind": "bay" }, { "id": "L2C1", "col": 1, "level": 2, "kind": "bay" }, { "id": "L2C3", "col": 3, "level": 2, "kind": "bay" }] }, "targetSpotIds": ["L1C2"], "nearMiss": { "L2C1": "next-to" } },
+        { "id": "between-bus-van", "band": 2, "relation": "between", "experience": "between", "termRef": ["bus", "van"], "scene": { "cols": 3, "levels": 2, "mover": { "vehicle": "truck", "label": "truck" }, "landmarks": [{ "id": "bus", "vehicle": "bus", "col": 1, "level": 1, "label": "bus" }, { "id": "van", "vehicle": "van", "col": 3, "level": 1, "label": "van" }], "candidates": [{ "id": "L1C2", "col": 2, "level": 1, "kind": "bay" }, { "id": "L2C2", "col": 2, "level": 2, "kind": "bay" }, { "id": "L2C1", "col": 1, "level": 2, "kind": "bay" }] }, "targetSpotIds": ["L1C2"], "nearMiss": { "L2C2": "above" } },
+        { "id": "transfer-boat", "band": 2, "relation": "next-to", "experience": "transfer", "termRef": ["boat"], "scene": { "cols": 3, "levels": 2, "mover": { "vehicle": "truck", "label": "truck" }, "theme": "dock", "landmarks": [{ "id": "boat", "vehicle": "boat", "col": 2, "level": 1, "label": "boat" }], "candidates": [{ "id": "L1C1", "col": 1, "level": 1, "kind": "bay" }, { "id": "L1C3", "col": 3, "level": 1, "kind": "bay" }, { "id": "L2C2", "col": 2, "level": 2, "kind": "bay" }] }, "targetSpotIds": ["L1C1", "L1C3"], "nearMiss": { "L2C2": "above" } },
+        { "id": "reverse-above", "band": 3, "relation": "above", "experience": "reverse", "termRef": ["bus"], "reverse": true, "scene": { "cols": 3, "levels": 2, "landmarks": [{ "id": "bus", "vehicle": "bus", "col": 1, "level": 1, "label": "bus" }], "candidates": [{ "id": "L2C1", "col": 1, "level": 2, "kind": "truck", "vehicle": "truck" }, { "id": "L1C2", "col": 2, "level": 1, "kind": "truck", "vehicle": "truck" }, { "id": "L2C3", "col": 3, "level": 2, "kind": "truck", "vehicle": "truck" }] }, "targetSpotIds": ["L2C1"], "nearMiss": { "L1C2": "next-to" } },
+        { "id": "two-truck-between", "band": 3, "relation": "between", "experience": "two-truck", "termRef": ["tk1", "tk2"], "scene": { "cols": 3, "levels": 2, "mover": { "vehicle": "car", "label": "car" }, "landmarks": [{ "id": "tk1", "vehicle": "truck", "col": 1, "level": 1, "label": "truck" }, { "id": "tk2", "vehicle": "truck", "col": 3, "level": 1, "label": "truck" }], "candidates": [{ "id": "L1C2", "col": 2, "level": 1, "kind": "bay" }, { "id": "L2C2", "col": 2, "level": 2, "kind": "bay" }, { "id": "L2C3", "col": 3, "level": 2, "kind": "bay" }] }, "targetSpotIds": ["L1C2"], "nearMiss": { "L2C2": "above" } }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "brambles-parking-tower"
+    },
+    "page_title": {
+      "en": "Bramble's Parking Tower — Position Words: Above, Below, Between (Kindergarten)"
+    },
+    "page_intro": {
+      "en": "A free interactive Kindergarten activity for position words: help Beaver Bramble park each vehicle above, below, next to, or between the others in his side-on parking tower. The floor between levels makes \"above\" mean one level up, so children must listen to the word — not just guess the nearest spot. Describing relative positions is the heart of Common Core K.G.A.1."
+    },
+    "kid_prompt_template": "place-by-relation"
+  }
+]

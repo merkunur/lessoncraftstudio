@@ -1,0 +1,31 @@
+[
+  {
+    "id": "echo-grove.match-the-rune.3-oa-a-1",
+    "tool": "echo-grove-activity",
+    "task_template": "match-the-rune",
+    "alignment": { "framework": "CCSS", "code": "3.OA.A.1", "grade": "3", "strand": "Operations & Algebraic Thinking" },
+    "params": {
+      "rounds": [
+        { "g": 2, "s": 3, "fruit": "cherry",     "theme": "fruits", "seed": 11 },
+        { "g": 3, "s": 2, "fruit": "strawberry", "theme": "fruits", "seed": 23 },
+        { "g": 2, "s": 4, "fruit": "apple",      "theme": "fruits", "seed": 31 },
+        { "g": 4, "s": 2, "fruit": "lemon",      "theme": "fruits", "seed": 41 },
+        { "g": 2, "s": 5, "fruit": "pear",       "theme": "fruits", "seed": 53 },
+        { "g": 5, "s": 2, "fruit": "banana",     "theme": "fruits", "seed": 61 },
+        { "g": 3, "s": 4, "fruit": "orange",     "theme": "fruits", "seed": 67 },
+        { "g": 4, "s": 3, "fruit": "plum",       "theme": "fruits", "seed": 71 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "echo-grove-equal-groups"
+    },
+    "page_title": {
+      "en": "The Echo Grove — Read Multiplication as Equal Groups (Grade 3)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 3 math activity: read Pim's rune (like 3 × 4) and tap the grove that shows 3 groups of 4 — not the look-alike with the same total but a different grouping. Children interpret a product as equal groups (the first factor = number of groups, the second = the size of each group). Common Core 3.OA.A.1."
+    },
+    "kid_prompt_template": "match-the-rune"
+  }
+]

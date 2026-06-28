@@ -1,0 +1,25 @@
+[
+  {
+    "id": "jasper-just-right.real-life.l-1-5-c",
+    "tool": "jasper-just-right-activity",
+    "task_template": "real-life",
+    "alignment": { "framework": "CCSS", "code": "L.1.5.c", "grade": "1", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "drink", "band": 1, "situation": "You want a drink of water. What do you use?", "correctNoun": "cup", "choices": [ { "noun": "cup", "themeDir": "around the house" }, { "noun": "scissors", "themeDir": "around the house" }, { "noun": "apple", "themeDir": "At the Supermarket" } ] },
+        { "id": "rain", "band": 1, "situation": "It is raining outside. What do you use to stay dry?", "correctNoun": "umbrella", "choices": [ { "noun": "sock", "themeDir": "accessories" }, { "noun": "umbrella", "themeDir": "accessories" }, { "noun": "bed", "themeDir": "around the house" } ] },
+        { "id": "feet", "band": 1, "situation": "Your feet are cold. What do you put on them?", "correctNoun": "sock", "choices": [ { "noun": "fan", "themeDir": "around the house" }, { "noun": "spoon", "themeDir": "around the house" }, { "noun": "sock", "themeDir": "accessories" } ] },
+        { "id": "write", "band": 2, "situation": "You want to write your name. What do you use?", "correctNoun": "pencil", "choices": [ { "noun": "pencil", "themeDir": "around the house" }, { "noun": "cup", "themeDir": "around the house" }, { "noun": "ball", "themeDir": "toys" } ] },
+        { "id": "eat", "band": 2, "situation": "You are hungry. What can you eat?", "correctNoun": "apple", "choices": [ { "noun": "mitten", "themeDir": "accessories" }, { "noun": "apple", "themeDir": "At the Supermarket" }, { "noun": "sock", "themeDir": "accessories" } ] },
+        { "id": "hot", "band": 2, "situation": "It is a hot day. What helps you cool down?", "correctNoun": "fan", "choices": [ { "noun": "scissors", "themeDir": "around the house" }, { "noun": "shoe", "themeDir": "clothing" }, { "noun": "fan", "themeDir": "around the house" } ] },
+        { "id": "cut", "band": 3, "situation": "You want to cut the paper. What do you use?", "correctNoun": "scissors", "choices": [ { "noun": "scissors", "themeDir": "around the house" }, { "noun": "cup", "themeDir": "around the house" }, { "noun": "sock", "themeDir": "accessories" } ] },
+        { "id": "sleep", "band": 3, "situation": "It is bedtime. Where do you sleep?", "correctNoun": "bed", "choices": [ { "noun": "umbrella", "themeDir": "accessories" }, { "noun": "bed", "themeDir": "around the house" }, { "noun": "crayon", "themeDir": "classroom" } ] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "jasper-just-right" },
+    "page_title": { "en": "Jasper's Just-Right Bag — Which One Would You Use? (Grade 1)" },
+    "page_intro": { "en": "Jasper the jay packs the just-right thing for every moment! Read what is happening (it is raining…), then tap the picture of what you would use. A Grade 1 vocabulary game about real-life connections between words and how we use them, aligned to Common Core L.1.5.c." },
+    "kid_prompt_template": "Read what is happening — what would you use?"
+  }
+]

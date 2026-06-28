@@ -1,0 +1,89 @@
+[
+  {
+    "id": "marina-headline-desk.main-topic.ri-2-2",
+    "tool": "marina-headline-desk-activity",
+    "task_template": "marina-headline-desk",
+    "alignment": { "framework": "CCSS", "code": "RI.2.2", "grade": "2", "strand": "Reading: Informational Text" },
+    "params": {
+      "rounds": [
+        {
+          "id": "bees", "band": 1,
+          "story": ["Bees live together in a busy hive.", "They fly from flower to flower for nectar.", "Back home, they turn the nectar into honey."],
+          "options": [
+            { "id": "o1", "kind": "topic", "text": "How bees make their honey." },
+            { "id": "o2", "kind": "detail", "text": "They fly from flower to flower." },
+            { "id": "o3", "kind": "offtopic", "text": "Spiders spin webs." }
+          ]
+        },
+        {
+          "id": "rain", "band": 1,
+          "story": ["The sun warms the water in lakes and seas.", "The water rises up and makes clouds.", "When the clouds get heavy, rain falls down."],
+          "options": [
+            { "id": "o1", "kind": "detail", "text": "The sun warms the water in lakes." },
+            { "id": "o2", "kind": "offtopic", "text": "Camels rarely drink." },
+            { "id": "o3", "kind": "topic", "text": "Where the rain comes from." }
+          ]
+        },
+        {
+          "id": "frog", "band": 1,
+          "story": ["A frog starts life as a tiny egg.", "The egg hatches into a tadpole that swims.", "The tadpole slowly grows legs and becomes a frog."],
+          "options": [
+            { "id": "o1", "kind": "detail", "text": "The egg hatches into a swimming tadpole." },
+            { "id": "o2", "kind": "topic", "text": "How a frog grows up." },
+            { "id": "o3", "kind": "offtopic", "text": "Owls hunt mice." }
+          ]
+        },
+        {
+          "id": "teeth", "band": 2,
+          "story": ["Brushing keeps your teeth clean and strong.", "It wipes away bits of food and sugar.", "Clean teeth help you chew and smile."],
+          "options": [
+            { "id": "o1", "kind": "topic", "text": "Why we brush our teeth." },
+            { "id": "o2", "kind": "detail", "text": "It wipes away bits of food and sugar." },
+            { "id": "o3", "kind": "offtopic", "text": "Giraffes are tall." }
+          ]
+        },
+        {
+          "id": "volcano", "band": 2,
+          "story": ["Deep under a volcano, hot melted rock waits.", "Pressure builds up until it pushes upward.", "The rock bursts out as glowing hot lava."],
+          "options": [
+            { "id": "o1", "kind": "detail", "text": "Deep under a volcano, hot rock waits." },
+            { "id": "o2", "kind": "offtopic", "text": "Penguins waddle." },
+            { "id": "o3", "kind": "topic", "text": "How a volcano erupts." }
+          ]
+        },
+        {
+          "id": "library", "band": 2,
+          "story": ["A library is full of books to borrow.", "You pick a book and take it home to read.", "When you finish, you bring it back for others."],
+          "options": [
+            { "id": "o1", "kind": "detail", "text": "You pick a book and take it home." },
+            { "id": "o2", "kind": "topic", "text": "How a library lends books." },
+            { "id": "o3", "kind": "offtopic", "text": "Bats sleep all day." }
+          ]
+        },
+        {
+          "id": "wind", "band": 3,
+          "story": ["Moving air is what we call wind.", "Wind can push a sailboat across a lake.", "It can also turn the blades of a windmill."],
+          "options": [
+            { "id": "o1", "kind": "topic", "text": "What the wind can do." },
+            { "id": "o2", "kind": "detail", "text": "Wind can push a sailboat across a lake." },
+            { "id": "o3", "kind": "offtopic", "text": "Snails are slow." }
+          ]
+        },
+        {
+          "id": "seed", "band": 3,
+          "story": ["A seed needs sun, water, and soil to grow.", "Its roots reach down for a drink.", "Then a green shoot pushes up to the light."],
+          "options": [
+            { "id": "o1", "kind": "detail", "text": "Its roots reach down for a drink." },
+            { "id": "o2", "kind": "offtopic", "text": "Foxes have red fur." },
+            { "id": "o3", "kind": "topic", "text": "What a seed needs to grow." }
+          ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "marinas-headline-desk" },
+    "page_title": { "en": "Marina's Headline Desk — What's It Mostly About? (Grade 2)" },
+    "page_intro": { "en": "Marina the otter writes headlines at the news desk, and a headline has to say what a story is MOSTLY about. Read each short article, then tap the card that names its main topic — not one small detail it mentions, and not something off the page. A warm Grade 2 reading game about finding the main topic of an informational text, aligned to Common Core RI.2.2." },
+    "kid_prompt_template": "marina-headline-desk"
+  }
+]

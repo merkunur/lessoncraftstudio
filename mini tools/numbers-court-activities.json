@@ -1,0 +1,14 @@
+[
+  {
+    "id": "numbers-court.judge-balance.1-oa-d-7",
+    "tool": "numbers-court-activity",
+    "task_template": "judge-balance",
+    "alignment": { "framework": "CCSS", "code": "1.OA.D.7", "grade": "1", "strand": "Operations & Algebraic Thinking" },
+    "params": { "generate": true, "n": 12 },
+    "theme": null,
+    "slug": { "en": "numbers-court" },
+    "page_title": { "en": "Numbers Court — Is the Equation Fair? (Grade 1)" },
+    "page_intro": { "en": "A free interactive Grade 1 math game for the meaning of the equal sign: be the Judge in Numbers Court and rule each math claim TRUE or FALSE on a balance beam where “=” means both sides hold the same amount — not “the answer comes next” — then prove it, and sometimes make it fair. Reading the equal sign relationally is the heart of Common Core 1.OA.D.7." },
+    "kid_prompt_template": "judge-balance"
+  }
+]

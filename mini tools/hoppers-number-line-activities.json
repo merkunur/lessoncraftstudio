@@ -1,0 +1,26 @@
+[
+  {
+    "id": "hoppers-number-line.jump-sums.2-md-b-6",
+    "tool": "hoppers-number-line-activity",
+    "task_template": "hoppers-number-line",
+    "alignment": { "framework": "CCSS", "code": "2.MD.B.6", "grade": "2", "strand": "Measurement & Data" },
+    "params": {
+      "rounds": [
+        { "id": "fwd-6-8",   "band": 1, "max": 20,  "step": 2,  "start": 6,  "size": 8,  "dir": "fwd",  "decoys": [4, 10], "story": "Hopper sits on 6 and hops forward 8. Where does it land?" },
+        { "id": "fwd-9-12",  "band": 1, "max": 30,  "step": 3,  "start": 9,  "size": 12, "dir": "fwd",  "decoys": [6, 15], "story": "Hopper sits on 9 and hops forward 12. Where does it land?" },
+        { "id": "back-16-6", "band": 1, "max": 20,  "step": 2,  "start": 16, "size": 6,  "dir": "back", "decoys": [4, 8],  "story": "Hopper sits on 16 and hops back 6. Where does it land?" },
+        { "id": "back-24-9", "band": 1, "max": 30,  "step": 3,  "start": 24, "size": 9,  "dir": "back", "decoys": [6, 12], "story": "Hopper sits on 24 and hops back 9. Where does it land?" },
+        { "id": "fwd-15-20", "band": 2, "max": 50,  "step": 5,  "start": 15, "size": 20, "dir": "fwd",  "decoys": [10, 25], "story": "Hopper sits on 15 and hops forward 20. Where does it land?" },
+        { "id": "back-45-20","band": 2, "max": 50,  "step": 5,  "start": 45, "size": 20, "dir": "back", "decoys": [10, 30], "story": "Hopper sits on 45 and hops back 20. Where does it land?" },
+        { "id": "fwd-30-40", "band": 3, "max": 100, "step": 10, "start": 30, "size": 40, "dir": "fwd",  "decoys": [20, 50], "story": "Hopper sits on 30 and hops forward 40. Where does it land?" },
+        { "id": "back-80-50","band": 3, "max": 100, "step": 10, "start": 80, "size": 50, "dir": "back", "decoys": [20, 40], "story": "Hopper sits on 80 and hops back 50. Where does it land?" },
+        { "id": "fwd-40-30", "band": 3, "max": 100, "step": 10, "start": 40, "size": 30, "dir": "fwd",  "decoys": [10, 50], "story": "Hopper sits on 40 and hops forward 30. Where does it land?" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "hoppers-number-line" },
+    "page_title": { "en": "Hopper's Number Line — Add & Subtract by Hopping (Grade 2)" },
+    "page_intro": { "en": "Hopper the frog adds and subtracts by HOPPING along a number line of lily pads. Read each hop, then model it: put Hopper on the start, point the hop forward (to add) or back (to take away), pick the right hop size, and work out which number Hopper lands on. A warm Grade 2 game about representing sums and differences within 100 on a number-line diagram, aligned to Common Core 2.MD.B.6." },
+    "kid_prompt_template": "hoppers-number-line"
+  }
+]

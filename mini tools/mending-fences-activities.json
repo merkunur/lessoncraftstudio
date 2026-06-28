@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mending-fences.mend-board.3-md-d-8",
+    "tool": "mending-fences-activity",
+    "task_template": "perimeter",
+    "alignment": { "framework": "CCSS", "code": "3.MD.D.8", "grade": "3", "strand": "Measurement & Data" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "mf-mend-6x4",  "cog": "mend-board", "w": 6, "h": 4, "shownSide": "w", "candidates": [14, 4, 8] },
+        { "id": "mf-mend-7x3",  "cog": "mend-board", "w": 7, "h": 3, "shownSide": "h", "candidates": [17, 7, 11] },
+        { "id": "mf-mend-8x4",  "cog": "mend-board", "w": 8, "h": 4, "shownSide": "h", "candidates": [20, 8, 12] },
+
+        { "id": "mf-rank-9x2-5x5",  "cog": "more-fence-or-grass", "fields": [{ "w": 9, "h": 2 }, { "w": 5, "h": 5 }] },
+        { "id": "mf-rank-10x2-6x5", "cog": "more-fence-or-grass", "fields": [{ "w": 10, "h": 2 }, { "w": 6, "h": 5 }] },
+        { "id": "mf-rank-C-7x2",    "cog": "more-fence-or-grass", "fields": [{ "mask": ["1111", "...1", "1111"] }, { "w": 7, "h": 2 }] },
+
+        { "id": "mf-unit-fence-4x3", "cog": "fence-it-or-plant", "field": { "w": 4, "h": 3 }, "job": "fence" },
+        { "id": "mf-unit-plant-5x3", "cog": "fence-it-or-plant", "field": { "w": 5, "h": 3 }, "job": "plant" },
+
+        { "id": "mf-roll-reach-4x3", "cog": "roll-reach", "field": { "w": 4, "h": 3 }, "roll": 16 },
+        { "id": "mf-roll-short-5x4", "cog": "roll-reach", "field": { "w": 5, "h": 4 }, "roll": 14 },
+
+        { "id": "mf-samearea-6x2-4x3", "cog": "same-area-diff-perim", "sub": "fence", "fields": [{ "w": 6, "h": 2 }, { "w": 4, "h": 3 }] }
+      ]
+    },
+    "slug": {
+      "en": "the-mending-fences-perimeter"
+    },
+    "page_title": {
+      "en": "The Mending Fences — Perimeter: the Distance Around (Grade 3)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 3 math activity: help Hazel the badger mend the paddock fences and tell fencing the edge from planting the grass inside. Perimeter is the distance all the way around a shape — a length, not the space it covers. Mend a missing fence board when you know the whole fence and one side, judge which field needs more fence but grows less grass, tell the around-the-edge marks from the squares inside, and check whether a roll of fence reaches around. Common Core 3.MD.D.8."
+    },
+    "kid_prompt_template": "perimeter"
+  }
+]

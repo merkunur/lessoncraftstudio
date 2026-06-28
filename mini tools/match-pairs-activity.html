@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Match Pairs — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=17">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
   <!-- v7 cascade — activity-page parent forces iframe to 66.67vh +
        renders sage field; these rules transparent-body + cascade
        height: 100% to .lcs-app. Engine CSS injected at runtime by
@@ -12,6 +12,30 @@
   <style>
     html, body { background: transparent !important; }
     html, body, #lcs-root { height: 100% !important; }
+
+    /* Fold fix (2026-06-27): match-pairs-core is PROTECTED — these are wrapper
+       @media overrides. At desktop the hero prompt is 48px (find-the-missing-
+       number wrapped to 4 lines = ~257px) → prompt + card board + Check
+       overshot 900. Cap the prompt. At narrow phones the square `aspect-ratio:1`
+       cards (and tall mp-word/mp-expanded cards) stack too tall (three-ways
+       6-card board ~354px). `.mp-board .mp-card` (0,2,0) beats the core's
+       runtime `.mp-card`. */
+    @media (min-width: 768px) {
+      .lcs-activity-prompt { font-size: clamp(20px, 3vmin, 28px) !important; }
+    }
+    /* three-ways (2.NBT.A.3) only: its spelled-out number-word + expanded-form
+       cards wrap to ~169px on a narrow phone (3 rows → ~440px board). Shrink
+       JUST those tall card types' font + min-height so they fit 360. Specificity
+       0,4,0 beats the core's 0,3,0 `.mp-card.mp-word .mp-card-num`. Other match-
+       pairs activities have no mp-word/mp-expanded cards → unaffected. */
+    @media (max-width: 599px) {
+      /* phone prompt cap — 0,2,0 to beat the shell's mobile prompt !important rule. */
+      .lcs-app.activity .lcs-activity-prompt { font-size: clamp(15px, 3.8vw, 19px) !important; line-height: 1.2 !important; }
+      .mp-board .mp-card.mp-word .mp-card-num,
+      .mp-board .mp-card.mp-expanded .mp-card-num { font-size: clamp(0.85rem, 3vw, 1.25rem) !important; line-height: 1.12 !important; }
+      .mp-board .mp-card.mp-word,
+      .mp-board .mp-card.mp-expanded { min-height: 52px !important; padding: 0.4rem 0.45rem !important; }
+    }
   </style>
 </head>
 <body>

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "chuffer.rail-decompose.k-oa-a-3",
+    "tool": "chuffer-activity",
+    "task_template": "rail-decompose",
+    "alignment": { "framework": "CCSS", "code": "K.OA.A.3", "grade": "K", "strand": "Operations & Algebraic Thinking" },
+    "params": {
+      "rounds": [
+        { "id": "decompose-4", "actType": "decompose-record", "band": 1, "whole": 4, "context": "crates" },
+        { "id": "decompose-5", "actType": "decompose-record", "band": 1, "whole": 5, "context": "crates" },
+        { "id": "covary-6", "actType": "predict-covariation", "band": 2, "whole": 6, "context": "passengers" },
+        { "id": "hunt-7", "actType": "hunt-rung", "band": 2, "whole": 7, "context": "mail" },
+        { "id": "maketen-3", "actType": "make-ten", "band": 3, "whole": 10, "sealedCar": { "car": "a", "k": 3 }, "context": "coal" },
+        { "id": "equation-6", "actType": "equation-build", "band": 3, "whole": 6, "givenEquation": { "a": 2, "b": 4 }, "context": "crates" },
+        { "id": "mirror-5", "actType": "predict-mirror", "band": 4, "whole": 5, "context": "animals" },
+        { "id": "judge-6", "actType": "judge-route", "band": 4, "whole": 6, "proposed": [{ "a": 2, "b": 4 }, { "a": 4, "b": 2 }, { "a": 1, "b": 5 }], "context": "crates" },
+        { "id": "decompose-10", "actType": "decompose-record", "band": 4, "whole": 10, "context": "coal" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "chuffers-switchyard" },
+    "page_title": { "en": "Chuffer's Switchyard — Break a Number Apart Many Ways (Kindergarten)" },
+    "page_intro": { "en": "A free interactive Kindergarten math game: you're the switchman at Chuffer's railway yard! A load of crates rolls in and the track forks into two cars. Split the crates between the cars, read each car, say the split (5 = 2 + 3!), and pull the coupler — then find EVERY different way to share the load. Breaking a number into two parts in more than one way is the heart of Common Core K.OA.A.3." },
+    "kid_prompt_template": "rail-decompose"
+  }
+]

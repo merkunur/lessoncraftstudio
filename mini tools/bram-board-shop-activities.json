@@ -1,0 +1,72 @@
+[
+  {
+    "id": "bram-board-shop.length-word-problems.2-md-b-5",
+    "tool": "bram-board-shop-activity",
+    "task_template": "bram-board-shop",
+    "alignment": { "framework": "CCSS", "code": "2.MD.B.5", "grade": "2", "strand": "Measurement & Data" },
+    "params": {
+      "unit": "cm",
+      "rounds": [
+        {
+          "id": "takeapart-piece", "cog": "takeapart-piece", "band": 1, "diagram": "bracket", "op": "add", "unknownRole": "partB",
+          "story": "A 50 cm ribbon is cut into two pieces. The first piece is 20 cm. How long is the second piece?",
+          "tiles": [ { "id": "k1", "value": 50 }, { "id": "k2", "value": 20 }, { "id": "d", "value": 80 } ], "decoyId": "d",
+          "slots": [ { "role": "whole", "correct": "k1" }, { "role": "partA", "correct": "k2" }, { "role": "partB", "correct": null } ]
+        },
+        {
+          "id": "combine-part", "cog": "combine-part", "band": 1, "diagram": "bracket", "op": "add", "unknownRole": "partB",
+          "story": "Bram's shelf is 60 cm. The painted bit is 35 cm; the rest is plain. How long is the plain bit?",
+          "tiles": [ { "id": "k1", "value": 60 }, { "id": "k2", "value": 35 }, { "id": "d", "value": 90 } ], "decoyId": "d",
+          "slots": [ { "role": "whole", "correct": "k1" }, { "role": "partA", "correct": "k2" }, { "role": "partB", "correct": null } ]
+        },
+        {
+          "id": "addto-result", "cog": "addto-result", "band": 2, "diagram": "change", "op": "add", "unknownRole": "result",
+          "story": "Bram's rope is 45 cm. He ties on 20 cm more. How long is the rope now?",
+          "tiles": [ { "id": "k1", "value": 45 }, { "id": "k2", "value": 20 }, { "id": "d", "value": 90 } ], "decoyId": "d",
+          "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": "k2" }, { "role": "result", "correct": null } ]
+        },
+        {
+          "id": "takefrom-result", "cog": "takefrom-result", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "result",
+          "story": "A board is 40 cm. Bram cuts off 15 cm. How long is the board now?",
+          "tiles": [ { "id": "k1", "value": 40 }, { "id": "k2", "value": 15 }, { "id": "d", "value": 70 } ], "decoyId": "d",
+          "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": "k2" }, { "role": "result", "correct": null } ]
+        },
+        {
+          "id": "takefrom-change", "cog": "takefrom-change", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "change",
+          "story": "Bram has a 50 cm plank. He saws a bit off; now it is 32 cm. How long was the bit he sawed off?",
+          "tiles": [ { "id": "k1", "value": 50 }, { "id": "k2", "value": 32 }, { "id": "d", "value": 80 } ], "decoyId": "d",
+          "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": null }, { "role": "result", "correct": "k2" } ]
+        },
+        {
+          "id": "takefrom-start", "cog": "takefrom-start", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "start",
+          "story": "Bram cut 12 cm off a board. Now it is 24 cm. How long was the board before?",
+          "tiles": [ { "id": "k1", "value": 12 }, { "id": "k2", "value": 24 }, { "id": "d", "value": 48 } ], "decoyId": "d",
+          "slots": [ { "role": "start", "correct": null }, { "role": "change", "correct": "k1" }, { "role": "result", "correct": "k2" } ]
+        },
+        {
+          "id": "compare-diff", "cog": "compare-diff", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "difference",
+          "story": "Bram's shelf is 60 cm. His desk is 45 cm. How much longer is the shelf than the desk?",
+          "tiles": [ { "id": "k1", "value": 60 }, { "id": "k2", "value": 45 }, { "id": "d", "value": 90 } ], "decoyId": "d",
+          "slots": [ { "role": "bigger", "correct": "k1" }, { "role": "smaller", "correct": "k2" }, { "role": "difference", "correct": null } ]
+        },
+        {
+          "id": "compare-bigger", "cog": "compare-bigger", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "bigger",
+          "story": "Bram's desk is 45 cm. The shelf is 20 cm longer than the desk. How long is the shelf?",
+          "tiles": [ { "id": "k1", "value": 45 }, { "id": "k2", "value": 20 }, { "id": "d", "value": 90 } ], "decoyId": "d",
+          "slots": [ { "role": "bigger", "correct": null }, { "role": "smaller", "correct": "k1" }, { "role": "difference", "correct": "k2" } ]
+        },
+        {
+          "id": "compare-smaller", "cog": "compare-smaller", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "smaller",
+          "story": "Bram's board is 70 cm. It is 25 cm longer than the plank. How long is the plank?",
+          "tiles": [ { "id": "k1", "value": 70 }, { "id": "k2", "value": 25 }, { "id": "d", "value": 95 } ], "decoyId": "d",
+          "slots": [ { "role": "bigger", "correct": "k1" }, { "role": "smaller", "correct": null }, { "role": "difference", "correct": "k2" } ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "brams-board-shop" },
+    "page_title": { "en": "Bram's Board Shop — Measure & Cut Word Problems (Grade 2)" },
+    "page_intro": { "en": "Bram the beaver runs a busy board shop, and every order is a length STORY: glue two boards together, saw a piece off, or measure how much longer the shelf is than the desk. Read the order, then MODEL it on Bram's measuring tape — place each length where it belongs, mark the mystery length, and dial the answer in centimetres. A warm Grade 2 game about adding and subtracting lengths within 100 with the unknown in every position, aligned to Common Core 2.MD.B.5." },
+    "kid_prompt_template": "bram-board-shop"
+  }
+]

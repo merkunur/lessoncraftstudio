@@ -1,0 +1,53 @@
+[
+  {
+    "id": "picture-story.read.rl-k-1",
+    "tool": "picture-story-activity",
+    "task_template": "picture-story",
+    "alignment": { "framework": "CCSS", "code": "RL.K.1", "grade": "K", "strand": "Reading: Literature" },
+    "theme": null,
+    "params": {
+      "stories": {
+        "mitten": { "title": "The Lost Mitten", "panels": [
+          { "caption": "Bo the bunny hopped in the snow.", "glyphs": ["bunny", "snow"] },
+          { "caption": "A red mitten slipped off by the tree.", "glyphs": ["tree", "mitten"] },
+          { "caption": "A bird found it and called Bo back.", "glyphs": ["bird", "mitten"] }
+        ] },
+        "carrot": { "title": "The Stuck Carrot", "panels": [
+          { "caption": "Millie the mouse found a giant carrot.", "glyphs": ["mouse", "carrot"] },
+          { "caption": "She pulled and pulled, but it was stuck.", "glyphs": ["mouse", "carrot"] },
+          { "caption": "Her friend pushed, and out it popped!", "glyphs": ["friend", "carrot"] }
+        ] },
+        "picnic": { "title": "The Rainy Picnic", "panels": [
+          { "caption": "Two friends sat down for a picnic.", "glyphs": ["friend", "basket"] },
+          { "caption": "Then dark clouds came and it rained.", "glyphs": ["rain"] },
+          { "caption": "They ate under a big umbrella, still happy.", "glyphs": ["umbrella", "friend"] }
+        ] }
+      },
+      "rounds": [
+        { "id": "ps-mit-who",   "storyId": "mitten", "qtype": "who",   "prompt": "Who hopped in the snow?",            "answer": "Bo the bunny",          "options": ["Bo the bunny", "A sleepy bear", "A green frog"] },
+        { "id": "ps-mit-what",  "storyId": "mitten", "qtype": "what",  "prompt": "What slipped off in the snow?",       "answer": "a red mitten",          "options": ["a red mitten", "a blue hat", "a wool scarf"] },
+        { "id": "ps-mit-where", "storyId": "mitten", "qtype": "where", "prompt": "Where did the mitten slip off?",      "answer": "by the tree",           "options": ["by the tree", "by a pond", "on a hill"] },
+        { "id": "ps-mit-order", "storyId": "mitten", "qtype": "order", "prompt": "What happened FIRST?",                "answer": "Bo hopped in the snow", "options": ["Bo hopped in the snow", "A bird found the mitten", "The mitten slipped off"] },
+
+        { "id": "ps-car-who",   "storyId": "carrot", "qtype": "who",   "prompt": "Who found the carrot?",               "answer": "Millie the mouse",      "options": ["Millie the mouse", "Bo the bunny", "A big crow"] },
+        { "id": "ps-car-what",  "storyId": "carrot", "qtype": "what",  "prompt": "What did Millie find?",               "answer": "a giant carrot",        "options": ["a giant carrot", "a shiny rock", "a lost key"] },
+        { "id": "ps-car-why",   "storyId": "carrot", "qtype": "why",   "prompt": "Why couldn't Millie pull it out?",    "answer": "it was stuck",          "options": ["it was stuck", "it was too small", "it rolled away"] },
+        { "id": "ps-car-order", "storyId": "carrot", "qtype": "order", "prompt": "What happened LAST?",                 "answer": "the carrot popped out", "options": ["the carrot popped out", "Millie found the carrot", "Millie pulled the carrot"] },
+
+        { "id": "ps-pic-what",  "storyId": "picnic", "qtype": "what",  "prompt": "What were the friends doing?",        "answer": "having a picnic",       "options": ["having a picnic", "playing ball", "taking a nap"] },
+        { "id": "ps-pic-why",   "storyId": "picnic", "qtype": "why",   "prompt": "Why did the friends move under the umbrella?", "answer": "because it rained", "options": ["because it rained", "because it got windy", "because they were sleepy"] },
+        { "id": "ps-pic-feel",  "storyId": "picnic", "qtype": "feeling", "prompt": "How did the friends feel at the end?", "answer": "happy",              "options": ["happy", "scared", "angry"] }
+      ]
+    },
+    "slug": {
+      "en": "story-key-details"
+    },
+    "page_title": {
+      "en": "Fable's Picture Stories — Story Key Details (Kindergarten)"
+    },
+    "page_intro": {
+      "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Fable the fox, then answer questions about the key details — who is in the story, what happens, where it takes place, what happened first and last, and why. A friendly, picture-and-caption way to build early story comprehension. Common Core RL.K.1."
+    },
+    "kid_prompt_template": "picture-story"
+  }
+]

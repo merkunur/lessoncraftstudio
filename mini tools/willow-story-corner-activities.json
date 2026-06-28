@@ -1,0 +1,41 @@
+[
+  {
+    "id": "willow-story-corner.compare-tales.rl-k-9",
+    "tool": "willow-story-corner-activity",
+    "task_template": "compare-tales",
+    "alignment": { "framework": "CCSS", "code": "RL.K.9", "grade": "K", "strand": "Reading: Literature" },
+    "params": {
+      "stories": {
+        "fox":   { "name": "Fox",   "glyph": "fox",   "facts": { "lostSomething": true, "foundIt": true, "keptTrying": true },
+          "beats": [ { "panel": "fox-1", "caption": "Fox lost his red scarf." }, { "panel": "fox-2", "caption": "Fox searched and searched." }, { "panel": "fox-3", "caption": "Fox found it under the leaves." } ] },
+        "bunny": { "name": "Bunny", "glyph": "bunny", "facts": { "lostSomething": true, "foundIt": true, "gotHelp": true },
+          "beats": [ { "panel": "bunny-1", "caption": "Bunny lost her ball." }, { "panel": "bunny-2", "caption": "A friend helped her look." }, { "panel": "bunny-3", "caption": "They found the ball together." } ] },
+        "bear":  { "name": "Bear",  "glyph": "bear",  "facts": { "madeSomething": true, "gotWet": true, "keptTrying": true },
+          "beats": [ { "panel": "bear-1", "caption": "Bear built a sandcastle." }, { "panel": "bear-2", "caption": "A big wave splashed it." }, { "panel": "bear-3", "caption": "Bear built a new one." } ] },
+        "mouse": { "name": "Mouse", "glyph": "mouse", "facts": { "madeSomething": true, "sharedIt": true },
+          "beats": [ { "panel": "mouse-1", "caption": "Mouse baked little muffins." }, { "panel": "mouse-2", "caption": "Mouse shared them with friends." }, { "panel": "mouse-3", "caption": "Everyone ate happily." } ] },
+        "owl":   { "name": "Owl",   "glyph": "owl",   "facts": { "feltScared": true },
+          "beats": [ { "panel": "owl-1", "caption": "Owl heard a scary noise." }, { "panel": "owl-2", "caption": "It was just a friend!" }, { "panel": "owl-3", "caption": "Owl felt safe again." } ] },
+        "frog":  { "name": "Frog",  "glyph": "frog",  "facts": { "climbedHigh": true },
+          "beats": [ { "panel": "frog-1", "caption": "Frog climbed a tall hill." }, { "panel": "frog-2", "caption": "Frog flew a kite up high." }, { "panel": "frog-3", "caption": "Frog cheered at the top." } ] }
+      },
+      "rounds": [
+        { "id": "fb-lost",   "band": 1, "aId": "fox",  "bId": "bunny", "dim": "lostSomething", "prompt": "Who lost something?" },
+        { "id": "fb-help",   "band": 1, "aId": "fox",  "bId": "bunny", "dim": "gotHelp",       "prompt": "Who got help from a friend?" },
+        { "id": "fb-try",    "band": 1, "aId": "fox",  "bId": "bunny", "dim": "keptTrying",    "prompt": "Who kept trying until they found it?" },
+        { "id": "fb-climb",  "band": 1, "aId": "fox",  "bId": "bunny", "dim": "climbedHigh",   "prompt": "Who climbed up high?" },
+        { "id": "bm-made",   "band": 1, "aId": "bear", "bId": "mouse", "dim": "madeSomething", "prompt": "Who made something?" },
+        { "id": "bm-share",  "band": 2, "aId": "bear", "bId": "mouse", "dim": "sharedIt",      "prompt": "Who shared with friends?" },
+        { "id": "bm-wet",    "band": 2, "aId": "bear", "bId": "mouse", "dim": "gotWet",        "prompt": "Who got splashed by water?" },
+        { "id": "of-scared", "band": 2, "aId": "owl",  "bId": "frog",  "dim": "feltScared",    "prompt": "Who felt scared, then safe?" },
+        { "id": "of-climb",  "band": 2, "aId": "owl",  "bId": "frog",  "dim": "climbedHigh",   "prompt": "Who climbed up high?" },
+        { "id": "of-bake",   "band": 2, "aId": "owl",  "bId": "frog",  "dim": "madeSomething", "prompt": "Who made or baked something?" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "willows-story-corner" },
+    "page_title": { "en": "Willow's Story Corner — Two Tales, Alike or Different? (Kindergarten)" },
+    "page_intro": { "en": "A free interactive Kindergarten reading game for comparing characters across stories: Willow the tortoise reads TWO short tales about two animal friends. Listen to both, then answer how the friends' adventures are alike and different — tap WHO lost something, who got help, who kept trying, or 'Both' and 'Neither.' Comparing and contrasting what happens to characters in two stories is the heart of Common Core RL.K.9." },
+    "kid_prompt_template": "compare-tales"
+  }
+]

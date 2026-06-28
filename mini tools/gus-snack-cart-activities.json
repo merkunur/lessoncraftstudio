@@ -1,0 +1,25 @@
+[
+  {
+    "id": "gus-snack-cart.within-100.2-nbt-b-5",
+    "tool": "gus-snack-cart-activity",
+    "task_template": "within-100",
+    "alignment": { "framework": "CCSS", "code": "2.NBT.B.5", "grade": "2", "strand": "Number & Operations in Base Ten" },
+    "params": {
+      "rounds": [
+        { "id": "r1", "band": 1, "a": 45, "b": 8, "op": "-", "item": "nuts", "verb": "sold" },
+        { "id": "r2", "band": 1, "a": 23, "b": 15, "op": "+", "item": "berries", "verb": "picked" },
+        { "id": "r3", "band": 2, "a": 60, "b": 25, "op": "-", "item": "seeds", "verb": "sold" },
+        { "id": "r4", "band": 2, "a": 34, "b": 9, "op": "+", "item": "acorns", "verb": "found" },
+        { "id": "r5", "band": 1, "a": 70, "b": 40, "op": "-", "item": "carrots", "verb": "gave away" },
+        { "id": "r6", "band": 3, "a": 27, "b": 36, "op": "+", "item": "apples", "verb": "packed" },
+        { "id": "r7", "band": 2, "a": 88, "b": 16, "op": "-", "item": "plums", "verb": "sold" },
+        { "id": "r8", "band": 3, "a": 19, "b": 47, "op": "+", "item": "cherries", "verb": "added" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "gus-snack-cart" },
+    "page_title": { "en": "Gus's Snack Cart — Add & Subtract Within 100 (Grade 2)" },
+    "page_intro": { "en": "Gus the gopher runs a busy snack cart — he is always restocking and selling! Read each little story, look at the number sentence, and add or subtract within 100 to find the answer. Type it on the keypad. A Grade 2 math game about adding and subtracting two-digit numbers fluently, aligned to Common Core 2.NBT.B.5." },
+    "kid_prompt_template": "Add or subtract within 100 and type the answer."
+  }
+]

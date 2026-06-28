@@ -1,0 +1,25 @@
+[
+  {
+    "id": "hazel-word-bridge.joining-words.l-1-1-g",
+    "tool": "hazel-word-bridge-activity",
+    "task_template": "hazel-word-bridge",
+    "alignment": { "framework": "CCSS", "code": "L.1.1.g", "grade": "1", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "hatcoat",  "band": 1, "sentence": "I packed a hat ___ a coat.",         "relation": "addition" },
+        { "id": "jumpran",  "band": 1, "sentence": "We jumped ___ we ran.",              "relation": "addition" },
+        { "id": "milk",     "band": 1, "sentence": "I like milk ___ not juice.",         "relation": "contrast" },
+        { "id": "box",      "band": 2, "sentence": "The box is small ___ very heavy.",   "relation": "contrast" },
+        { "id": "boots",    "band": 2, "sentence": "I wore my boots ___ it was raining.","relation": "cause" },
+        { "id": "won",      "band": 2, "sentence": "She was happy ___ she won the game.","relation": "cause" },
+        { "id": "dark",     "band": 3, "sentence": "It got dark ___ we went inside.",    "relation": "result" },
+        { "id": "tired",    "band": 3, "sentence": "He felt tired ___ he took a rest.",  "relation": "result" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "hazel-word-bridge" },
+    "page_title": { "en": "Hazel's Word Bridge — Joining Words (Grade 1)" },
+    "page_intro": { "en": "Hazel the heron builds a little word-bridge between two ideas, and a joining word holds it together. Read each sentence, then tap the word that fills the blank — and, but, because, or so — so the two parts make sense. A warm Grade 1 grammar game about using conjunctions to join ideas, aligned to Common Core L.1.1.g." },
+    "kid_prompt_template": "hazel-word-bridge"
+  }
+]

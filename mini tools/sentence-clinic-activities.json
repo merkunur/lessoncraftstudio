@@ -1,0 +1,30 @@
+[
+  {
+    "id": "sentence-clinic.fix-it.l-2-1",
+    "tool": "sentence-clinic-activity",
+    "task_template": "fix-it",
+    "alignment": { "framework": "CCSS", "code": "L.2.1", "grade": "2", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "cap-start", "band": 1, "action": "capitalize", "tokens": ["my", "dog", "is", "happy", "."], "targetIndex": 0, "replacement": "My", "convention": "Start a sentence with a capital letter.", "clean": ["My", "dog", "is", "happy", "."] },
+        { "id": "mark-end", "band": 1, "action": "insert-punct", "tokens": ["The", "sun", "is", "hot"], "gapIndex": 4, "replacement": ".", "distractors": [",", "?"], "convention": "End a telling sentence with a period.", "clean": ["The", "sun", "is", "hot", "."] },
+        { "id": "swap-agree", "band": 2, "action": "swap", "tokens": ["She", "run", "to", "school", "."], "targetIndex": 1, "replacement": "runs", "distractors": ["running", "ran"], "convention": "A she/he/it subject takes a verb ending in -s.", "clean": ["She", "runs", "to", "school", "."] },
+        { "id": "fill-verb", "band": 2, "action": "insert-word", "tokens": ["The", "cat", "milk", "."], "gapIndex": 2, "replacement": "drinks", "distractors": ["green", "under"], "convention": "Every sentence needs an action word (a verb).", "clean": ["The", "cat", "drinks", "milk", "."] },
+        { "id": "order-svo", "band": 3, "action": "reorder", "tokens": ["fast", "runs", "dog", "The"], "correctOrder": [3, 2, 1, 0], "convention": "Words go in an order that makes sense.", "clean": ["The", "dog", "runs", "fast"] },
+        { "id": "del-double", "band": 3, "action": "delete", "tokens": ["My", "mom", "she", "cooks", "."], "targetIndex": 2, "convention": "Don't name the subject twice.", "clean": ["My", "mom", "cooks", "."] },
+        { "id": "split-runon", "band": 3, "action": "split", "tokens": ["I", "ran", "it", "was", "fun"], "seamIndex": 1, "replacement": "It", "convention": "Two ideas need two sentences.", "clean": ["I", "ran", ".", "It", "was", "fun"] }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "dr-plumes-sentence-clinic"
+    },
+    "page_title": {
+      "en": "Dr. Plume's Sentence Clinic — Fix-the-Sentence Grammar (Grade 2)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 grammar activity: help gentle Dr. Plume fix muddled sentences so they sound right again. Children find the trouble — a missing capital, the wrong verb form, a missing word, jumbled order, an extra word, or a run-on — then make the repair. Practising the conventions of standard English grammar and usage is the heart of Common Core L.2.1."
+    },
+    "kid_prompt_template": "fix-it"
+  }
+]

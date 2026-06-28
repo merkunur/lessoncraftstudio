@@ -1,0 +1,25 @@
+[
+  {
+    "id": "gauge-good-guess.estimate.2-md-a-3",
+    "tool": "gauge-good-guess-activity",
+    "task_template": "estimate",
+    "alignment": { "framework": "CCSS", "code": "2.MD.A.3", "grade": "2", "strand": "Measurement & Data" },
+    "params": {
+      "rounds": [
+        { "id": "ant", "band": 1, "object": "an ant", "question": "About how long is an ant?", "answer": "1 cm", "options": ["1 cm", "12 cm", "30 cm"] },
+        { "id": "door", "band": 1, "object": "a door", "question": "About how tall is a door?", "answer": "2 m", "options": ["1 m", "2 m", "9 m"] },
+        { "id": "train", "band": 2, "object": "a train", "question": "About how long is a train?", "answer": "200 m", "options": ["3 m", "40 m", "200 m"] },
+        { "id": "crayon", "band": 1, "object": "a crayon", "question": "About how long is a crayon?", "answer": "9 cm", "options": ["9 cm", "50 cm", "90 cm"] },
+        { "id": "bus", "band": 2, "object": "a school bus", "question": "About how long is a school bus?", "answer": "12 m", "options": ["2 m", "12 m", "90 m"] },
+        { "id": "building", "band": 3, "object": "a tall building", "question": "About how tall is a tall building?", "answer": "150 m", "options": ["5 m", "40 m", "150 m"] },
+        { "id": "spoon", "band": 2, "object": "a spoon", "question": "About how long is a spoon?", "answer": "15 cm", "options": ["15 cm", "60 cm", "150 cm"] },
+        { "id": "flagpole", "band": 3, "object": "a flagpole", "question": "About how tall is a flagpole?", "answer": "10 m", "options": ["1 m", "10 m", "80 m"] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "gauge-good-guess" },
+    "page_title": { "en": "Gauge's Good Guess — Estimate the Length (Grade 2)" },
+    "page_intro": { "en": "Gauge the goat guesses sizes just by looking! Read the question, picture how big the real thing is, and tap the estimate that makes sense — in centimeters or meters. A Grade 2 math game about estimating lengths with sensible units, aligned to Common Core 2.MD.A.3." },
+    "kid_prompt_template": "Picture the real size, then tap the estimate that makes sense."
+  }
+]

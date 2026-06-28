@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sharing-jar.make-fair.1-oa-d-8",
+    "tool": "sharing-jar-activity",
+    "task_template": "make-fair",
+    "alignment": { "framework": "CCSS", "code": "1.OA.D.8", "grade": "1", "strand": "Operations & Algebraic Thinking" },
+    "params": {
+      "rounds": [
+        { "id": "level-pim",    "schema": "equalize-add",     "tier": "floor",   "band": 1, "nums": { "a": 5, "b": 3 } },
+        { "id": "how-unfair",   "schema": "compare-diff",     "tier": "floor",   "band": 1, "nums": { "a": 6, "b": 2 } },
+        { "id": "give-it-back", "schema": "restore",          "tier": "floor",   "band": 2, "nums": { "s": 7, "r": 4 } },
+        { "id": "put-some-back","schema": "reduce-to-target", "tier": "floor",   "band": 2, "nums": { "a": 6, "T": 4 } },
+        { "id": "how-many-start","schema": "start-unknown",   "tier": "floor",   "band": 3, "nums": { "k": 3, "r": 4 } },
+        { "id": "level-hidden", "schema": "equalize-add",     "tier": "ceiling", "band": 2, "nums": { "a": 8, "b": 5 } },
+        { "id": "already-fair", "schema": "equalize-add",     "tier": "floor",   "band": 1, "nums": { "a": 4, "b": 4 } },
+        { "id": "gap-of-twelve","schema": "compare-diff",     "tier": "ceiling", "band": 2, "nums": { "a": 12, "b": 8 } },
+        { "id": "hoard-hidden", "schema": "reduce-to-target", "tier": "ceiling", "band": 3, "nums": { "a": 9, "T": 5 } }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "the-sharing-jar" },
+    "page_title": { "en": "The Sharing Jar — Make It Fair (Find the Missing Number)" },
+    "page_intro": { "en": "A jar of moon-beads spills, and Pim and Bo scoop up different amounts — one jar glows full, the other goes quiet. Help make it fair: work out how many more beads the quiet friend needs and say that number, then watch the beads float over and two friends lean their heads together. A warm Grade-1 missing-number game aligned to Common Core 1.OA.D.8." },
+    "kid_prompt_template": "make-fair"
+  }
+]

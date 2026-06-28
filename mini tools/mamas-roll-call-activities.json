@@ -1,0 +1,26 @@
+[
+  {
+    "id": "mamas-roll-call.numeral-trace.k-cc-b-5",
+    "tool": "mamas-roll-call-activity",
+    "task_template": "numeral-trace",
+    "alignment": { "framework": "CCSS", "code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality" },
+    "params": {
+      "rounds": [
+        { "id": "swim-six",     "act_type": "count-out",          "band": 1, "call": { "n": 6, "target": "numeral" }, "raft": { "total": 9,  "arrangement": "tidy" } },
+        { "id": "yellow-six",   "act_type": "count-out-distract", "band": 2, "call": { "n": 6, "kind": "yellow", "target": "numeral" }, "raft": { "arrangement": "tidy", "kinds": { "yellow": 8, "brown": 2 } } },
+        { "id": "match-seven",  "act_type": "match-set",          "band": 2, "call": { "n": 7, "target": "group" }, "groupN": 7, "raft": { "total": 10, "arrangement": "tidy" } },
+        { "id": "none-sleep",   "act_type": "zero",               "band": 1, "call": { "n": 0, "target": "numeral" }, "raft": { "total": 6,  "arrangement": "tidy" } },
+        { "id": "count-brood",  "act_type": "count-set",          "band": 2, "call": { "n": 8, "target": "numeral" }, "forwardSet": 8 },
+        { "id": "they-arrive",  "act_type": "running-total",      "band": 3, "call": { "n": 7, "target": "numeral" }, "arriving": [3, 2, 2] },
+        { "id": "scatter-six",  "act_type": "scatter-out",        "band": 3, "call": { "n": 6, "target": "numeral" }, "raft": { "total": 10, "arrangement": "scatter" } },
+        { "id": "swim-eight",   "act_type": "count-out",          "band": 1, "call": { "n": 8, "target": "numeral" }, "raft": { "total": 10, "arrangement": "tidy" } },
+        { "id": "match-nine",   "act_type": "match-set",          "band": 2, "call": { "n": 9, "target": "group" }, "groupN": 9, "raft": { "total": 10, "arrangement": "tidy" } }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "mamas-roll-call" },
+    "page_title": { "en": "Mama's Roll Call — Count Out That Many (0 to 9)" },
+    "page_intro": { "en": "Mama Duck calls the morning roll at Quack Creek: send her exactly the number of ducklings she asks for — count them out one by one from the raft — then sign the roll by writing that number in the mud. Even a quiet morning has a number: zero! A warm Kindergarten counting game aligned to Common Core K.CC.B.5." },
+    "kid_prompt_template": "numeral-trace"
+  }
+]

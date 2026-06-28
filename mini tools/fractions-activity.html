@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Make Equal Parts — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=17">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
   <!-- Activity-page parent forces the iframe height + renders the sage field;
        these rules transparent-body + cascade height: 100% to .lcs-app. Engine
        CSS is injected by fractions-core.js at runtime (those rules already use
@@ -12,6 +12,46 @@
   <style>
     html, body { background: transparent !important; }
     html, body, #lcs-root { height: 100% !important; }
+
+    /* Fold fix (2026-06-27): the partition figure is a min(82vw,360px) SQUARE
+       (aspect-ratio:1), and the shell prompt renders at 48px (the grid-count
+       prompt "Make N rows and M columns… how many in all?" wrapped to 4 lines
+       = ~257px). Figure(360) + prompt(257) + keypad + Check overshot a 900-tall
+       window (operator: "cut off, Check not visible"). Cap both (figure stays
+       big enough to tap the cut lines; prompt reads fine smaller). Cores
+       untouched — html @media override pattern. Shared by the 3 fractions
+       activities (2 partition + grid-count); all re-verified. */
+    /* NOTE: .frac-wrap .frac-svg (specificity 0,2,0) — bare .frac-svg ties the
+       core's runtime-injected .frac-svg!important and the later (core) wins
+       (§A.13.47 rule 6). Higher specificity beats it regardless of order. */
+    @media (min-width: 768px) {
+      .lcs-activity-prompt { font-size: clamp(22px, 3.4vmin, 30px) !important; }
+      /* partition activities (tap-to-cut, no keypad): the shape fills the
+         square viewBox, so this size reads well. */
+      .frac-wrap .frac-svg { width: clamp(160px, 30vmin, 224px) !important; }
+      /* grid-count ONLY (the keypad activity — :has scopes it; partition has no
+         keypad). Its figure is a WIDE rectangle centred in a square viewBox, so
+         ~half the svg box is empty top/bottom — at the partition size it read
+         small + floating (sparse). Make it big AND pull the empty bands in with
+         a negative block margin so the rectangle is prominent without pushing
+         the keypad/Check off (the margin absorbs the svg's own whitespace). */
+      .lcs-app.activity:has(.lcs-activity-keypad) .frac-wrap .frac-svg {
+        width: clamp(230px, 44vmin, 300px) !important;
+        margin-block: -42px !important;
+      }
+    }
+    @media (max-width: 599px) {
+      .lcs-activity-prompt { font-size: clamp(15px, 3.8vw, 20px) !important; }
+      /* partition (no keypad): small enough for the 320×640 floor. */
+      .frac-wrap .frac-svg { width: clamp(72px, 25vw, 132px) !important; }
+      /* grid-count (keypad): bigger figure + negative margin to absorb the
+         square viewBox's empty bands — prominent at 360+ while the margin keeps
+         the 320×640 footprint in budget (same trick as desktop). */
+      .lcs-app.activity:has(.lcs-activity-keypad) .frac-wrap .frac-svg {
+        width: clamp(120px, 42vw, 190px) !important;
+        margin-block: -22px !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -22,7 +62,7 @@
        wrapper. NOTE: bump ?v=N on EVERY change to fractions-core.js or
        fractions-activity.js (§A.13.42 cache-buster discipline). -->
   <script src="/mini-tools/lcs-shell.js?v=3"></script>
-  <script src="/mini-tools/fractions-core.js?v=7"></script>
+  <script src="/mini-tools/fractions-core.js?v=8"></script>
   <script src="/mini-tools/fractions-activity.js?v=7"></script>
   <script>
     LCS.mount(FractionsActivity, { mount: '#lcs-root' });

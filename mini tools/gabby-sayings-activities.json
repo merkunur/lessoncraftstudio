@@ -1,0 +1,33 @@
+[
+  {
+    "id": "gabby-sayings.idioms.l-3-5-a",
+    "tool": "gabby-sayings-activity",
+    "task_template": "idioms",
+    "alignment": { "framework": "CCSS", "code": "L.3.5.a", "grade": "3", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "rain", "band": 1, "idiom": "raining cats and dogs", "sentence": "Mom looked outside and said, \"It's raining cats and dogs!\"",
+          "choices": [ { "text": "It is raining very hard.", "kind": "correct" }, { "text": "Cats and dogs are falling from the sky.", "kind": "literal" }, { "text": "It is a warm, sunny day.", "kind": "off" } ] },
+        { "id": "cake", "band": 1, "idiom": "a piece of cake", "sentence": "Sam smiled and said the puzzle was a piece of cake.",
+          "choices": [ { "text": "He ate a slice of cake.", "kind": "literal" }, { "text": "It was very easy to do.", "kind": "correct" }, { "text": "It was much too hard.", "kind": "off" } ] },
+        { "id": "horses", "band": 1, "idiom": "hold your horses", "sentence": "\"Hold your horses!\" said Dad when I ran ahead.",
+          "choices": [ { "text": "Grab the horses by the rope.", "kind": "literal" }, { "text": "Run as fast as you can.", "kind": "off" }, { "text": "Wait a moment and be patient.", "kind": "correct" } ] },
+        { "id": "weather", "band": 2, "idiom": "under the weather", "sentence": "Tom stayed home because he felt under the weather.",
+          "choices": [ { "text": "He felt sick today.", "kind": "correct" }, { "text": "He stood below the rain clouds.", "kind": "literal" }, { "text": "He felt happy and full of energy.", "kind": "off" } ] },
+        { "id": "butterflies", "band": 2, "idiom": "butterflies in my stomach", "sentence": "Before the show, I had butterflies in my stomach.",
+          "choices": [ { "text": "Real butterflies were inside my stomach.", "kind": "literal" }, { "text": "I felt nervous and excited.", "kind": "correct" }, { "text": "I was very, very hungry.", "kind": "off" } ] },
+        { "id": "hay", "band": 2, "idiom": "hit the hay", "sentence": "After the long hike, we all hit the hay.",
+          "choices": [ { "text": "We punched a pile of hay.", "kind": "literal" }, { "text": "We made a big snack.", "kind": "off" }, { "text": "We went to bed to sleep.", "kind": "correct" } ] },
+        { "id": "catbag", "band": 3, "idiom": "let the cat out of the bag", "sentence": "Oops! Maya let the cat out of the bag about the surprise.",
+          "choices": [ { "text": "She told the secret.", "kind": "correct" }, { "text": "She let a cat climb out of a bag.", "kind": "literal" }, { "text": "She lost her school bag.", "kind": "off" } ] },
+        { "id": "couch", "band": 3, "idiom": "a couch potato", "sentence": "On rainy days, my brother is a couch potato.",
+          "choices": [ { "text": "He is a potato sitting on the couch.", "kind": "literal" }, { "text": "He is lazy and watches a lot of TV.", "kind": "correct" }, { "text": "He cooks potatoes all day long.", "kind": "off" } ] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "gabby-sayings" },
+    "page_title": { "en": "Gabby's Funny Sayings — What Does It Really Mean? (Grade 3)" },
+    "page_intro": { "en": "Gabby the goose loves funny sayings! When we say \"it's raining cats and dogs,\" no animals are really falling — it just means it is raining hard. Read the saying, then tap what it REALLY means, not what the words literally say. A Grade 3 vocabulary game about figurative language, aligned to Common Core L.3.5.a." },
+    "kid_prompt_template": "What does the saying really mean?"
+  }
+]

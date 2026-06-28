@@ -1,0 +1,25 @@
+[
+  {
+    "id": "wally-capital-crane.special-names.l-2-2-a",
+    "tool": "wally-capital-crane-activity",
+    "task_template": "special-names",
+    "alignment": { "framework": "CCSS", "code": "L.2.2.a", "grade": "2", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "halloween", "band": 1, "tokens": ["We", "celebrate", "halloween", "."], "proper": "halloween" },
+        { "id": "texas", "band": 2, "tokens": ["She", "lives", "in", "texas", "."], "proper": "texas" },
+        { "id": "paris", "band": 2, "tokens": ["We", "want", "to", "visit", "paris", "."], "proper": "paris" },
+        { "id": "lego", "band": 1, "tokens": ["I", "love", "lego", "blocks", "."], "proper": "lego" },
+        { "id": "canada", "band": 3, "tokens": ["My", "family", "moved", "to", "canada", "."], "proper": "canada" },
+        { "id": "oreo", "band": 2, "tokens": ["He", "wanted", "another", "oreo", "."], "proper": "oreo" },
+        { "id": "disney", "band": 3, "tokens": ["We", "really", "love", "visiting", "disney", "."], "proper": "disney" },
+        { "id": "christmas", "band": 3, "tokens": ["I", "love", "christmas", "celebrations", "."], "proper": "christmas" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "wally-capital-crane" },
+    "page_title": { "en": "Wally's Capital Crane — Capitalize Special Names (Grade 2)" },
+    "page_intro": { "en": "Wally the walrus runs a crane that lifts a little letter up into a big CAPITAL! Special names — holidays like Halloween, places like Texas, and products like Lego — always start with a capital letter. Read the sentence and tap the word that needs Wally's big letter. A Grade 2 grammar game about capitalizing holidays, places, and product names, aligned to Common Core L.2.2.a." },
+    "kid_prompt_template": "Tap the special name that needs a capital letter."
+  }
+]

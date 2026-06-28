@@ -1,0 +1,89 @@
+[
+  {
+    "id": "otto-picture-book.which-picture.rl-k-7",
+    "tool": "otto-picture-book-activity",
+    "task_template": "which-picture",
+    "alignment": { "framework": "CCSS", "code": "RL.K.7", "grade": "K", "strand": "Reading: Literature" },
+    "params": {
+      "rounds": [
+        {
+          "id": "boat", "band": 1, "target": "b3",
+          "story": { "id": "boat", "beats": [
+            { "id": "b1", "panel": "boat-1", "caption": "Finn folds a paper boat." },
+            { "id": "b2", "panel": "boat-2", "caption": "Finn sets the boat on the stream." },
+            { "id": "b3", "panel": "boat-3", "caption": "A gust of wind pushes the boat." },
+            { "id": "b4", "panel": "boat-4", "caption": "The boat reaches the other side." }
+          ] }
+        },
+        {
+          "id": "nest", "band": 1, "target": "b4",
+          "story": { "id": "nest", "beats": [
+            { "id": "b1", "panel": "nest-1", "caption": "A robin gathers little twigs." },
+            { "id": "b2", "panel": "nest-2", "caption": "The robin builds a cozy nest." },
+            { "id": "b3", "panel": "nest-3", "caption": "The robin lays one egg." },
+            { "id": "b4", "panel": "nest-4", "caption": "The egg hatches into a chick." }
+          ] }
+        },
+        {
+          "id": "sandcastle", "band": 1, "target": "b2",
+          "story": { "id": "sandcastle", "beats": [
+            { "id": "b1", "panel": "sand-1", "caption": "Mae fills her bucket with sand." },
+            { "id": "b2", "panel": "sand-2", "caption": "Mae builds a tall sand castle." },
+            { "id": "b3", "panel": "sand-3", "caption": "She puts a shell on top." },
+            { "id": "b4", "panel": "sand-4", "caption": "The castle looks beautiful." }
+          ] }
+        },
+        {
+          "id": "apple", "band": 1, "target": "b1",
+          "story": { "id": "apple", "beats": [
+            { "id": "b1", "panel": "apple-1", "caption": "A red apple hangs in the tree." },
+            { "id": "b2", "panel": "apple-2", "caption": "Theo holds out a basket." },
+            { "id": "b3", "panel": "apple-3", "caption": "The apple drops into the basket." },
+            { "id": "b4", "panel": "apple-4", "caption": "Theo takes a happy bite." }
+          ] }
+        },
+        {
+          "id": "boots", "band": 2, "target": "b4",
+          "story": { "id": "boots", "beats": [
+            { "id": "b1", "panel": "boots-1", "caption": "Rain pours down outside." },
+            { "id": "b2", "panel": "boots-2", "caption": "Sam pulls on his rain boots." },
+            { "id": "b3", "panel": "boots-3", "caption": "Sam splashes in a big puddle." },
+            { "id": "b4", "panel": "boots-4", "caption": "A rainbow fills the sky." }
+          ] }
+        },
+        {
+          "id": "bear", "band": 2, "target": "b2",
+          "story": { "id": "bear", "beats": [
+            { "id": "b1", "panel": "bear-1", "caption": "Bo cannot find his teddy bear." },
+            { "id": "b2", "panel": "bear-2", "caption": "Bo looks under the bed." },
+            { "id": "b3", "panel": "bear-3", "caption": "He shines a flashlight." },
+            { "id": "b4", "panel": "bear-4", "caption": "Bo finds his bear at last!" }
+          ] }
+        },
+        {
+          "id": "snowman", "band": 2, "target": "b3",
+          "story": { "id": "snowman", "beats": [
+            { "id": "b1", "panel": "snow-1", "caption": "Soft snow falls on the yard." },
+            { "id": "b2", "panel": "snow-2", "caption": "Lina rolls a big snowman." },
+            { "id": "b3", "panel": "snow-3", "caption": "She wraps a scarf around it." },
+            { "id": "b4", "panel": "snow-4", "caption": "Lina cheers at her snowman." }
+          ] }
+        },
+        {
+          "id": "butterfly", "band": 2, "target": "b1",
+          "story": { "id": "butterfly", "beats": [
+            { "id": "b1", "panel": "fly-1", "caption": "A caterpillar munches a leaf." },
+            { "id": "b2", "panel": "fly-2", "caption": "It curls up to rest." },
+            { "id": "b3", "panel": "fly-3", "caption": "It turns into a butterfly." },
+            { "id": "b4", "panel": "fly-4", "caption": "The butterfly visits a flower." }
+          ] }
+        }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "ottos-picture-book" },
+    "page_title": { "en": "Otto's Picture Book — Which Picture Shows It? (Kindergarten)" },
+    "page_intro": { "en": "A free interactive Kindergarten reading game about how pictures and stories go together: Otto the owl draws a picture for every part of a little story. HEAR the whole story, then Otto reads ONE part aloud — and you tap the picture that shows that exact moment. Every choice is a real picture from the SAME story, so you have to know which part each illustration shows. Matching a sentence to the moment its picture depicts is the heart of Common Core RL.K.7." },
+    "kid_prompt_template": "which-picture"
+  }
+]

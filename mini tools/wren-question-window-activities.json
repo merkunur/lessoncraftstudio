@@ -1,0 +1,25 @@
+[
+  {
+    "id": "wren-question-window.question-words.l-k-1-d",
+    "tool": "wren-question-window-activity",
+    "task_template": "wren-question-window",
+    "alignment": { "framework": "CCSS", "code": "L.K.1.d", "grade": "K", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "eat",    "band": 1, "sentence": "___ would you like to eat?",     "asks": "thing" },
+        { "id": "next",   "band": 1, "sentence": "___ is next in line?",           "asks": "person" },
+        { "id": "plate",  "band": 1, "sentence": "___ should I put your plate?",   "asks": "place" },
+        { "id": "open",   "band": 2, "sentence": "___ does the diner open?",       "asks": "time" },
+        { "id": "hungry", "band": 2, "sentence": "___ are you so hungry?",         "asks": "reason" },
+        { "id": "eggs",   "band": 2, "sentence": "___ do you like your eggs?",     "asks": "manner" },
+        { "id": "plateon","band": 3, "sentence": "___ is on your plate?",          "asks": "thing" },
+        { "id": "ordered","band": 3, "sentence": "___ ordered the pancakes?",      "asks": "person" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "wren-question-window" },
+    "page_title": { "en": "Wren's Question Window — Ask the Right Word (Kindergarten)" },
+    "page_intro": { "en": "Wren takes orders at the diner window, and every order starts with a good question. Read each question, then tap the question word that fills the blank — who, what, where, when, why, or how — so Wren can ask it just right. A warm Kindergarten language game about understanding and using question words, aligned to Common Core L.K.1.d." },
+    "kid_prompt_template": "wren-question-window"
+  }
+]

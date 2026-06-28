@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Posy's Egg Cartons — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+  <style>
+    html, body { background: transparent !important; }
+    html, body, #lcs-root { height: 100% !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, then the locale-neutral count-by-tens core, then this activity.
+       NOTE: bump ?v=N on EVERY change to posy-egg-cartons-activity.js / count-tens-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=3"></script>
+  <script src="/mini-tools/count-tens-core.js?v=1"></script>
+  <script src="/mini-tools/posy-egg-cartons-activity.js?v=1"></script>
+  <script>
+    LCS.mount(PosyEggCartonsActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

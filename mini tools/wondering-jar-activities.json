@@ -1,0 +1,24 @@
+[
+  {
+    "id": "wondering-jar.estimate-jar.k-cc-b-5",
+    "tool": "wondering-jar-activity",
+    "task_template": "estimate-jar",
+    "alignment": { "framework": "CCSS", "code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality" },
+    "params": {
+      "rounds": [
+        { "id": "line-8", "type": "line", "band": 1, "arrangement": "line", "benchmarks": [5, 10, 20], "items": [{}, {}, {}, {}, {}, {}, {}, {}] },
+        { "id": "scatter-7", "type": "scatter", "band": 1, "arrangement": "scatter", "benchmarks": [5, 10, 20], "items": [{}, {}, {}, {}, {}, {}, {}] },
+        { "id": "array-12", "type": "array", "band": 2, "arrangement": "array", "cols": 4, "benchmarks": [5, 10, 20], "items": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}] },
+        { "id": "circle-9", "type": "circle", "band": 2, "arrangement": "circle", "benchmarks": [5, 10, 20], "items": [{}, {}, {}, {}, {}, {}, {}, {}, {}] },
+        { "id": "relational-10", "type": "relational", "band": 3, "arrangement": "line", "reference": { "count": 6 }, "benchmarks": [5, 10, 20], "items": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}] },
+        { "id": "predict-11", "type": "predict-comparison", "band": 3, "arrangement": "array", "cols": 4, "judgment": "binary", "reference": { "count": 8 }, "benchmarks": [5, 10, 20], "items": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}] },
+        { "id": "compare-two", "type": "compare-two", "band": 4, "arrangement": "line", "judgment": "which-more", "jarA": [{}, {}, {}, {}, {}, {}, {}], "benchmarks": [5, 10, 20], "items": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "the-wondering-jar" },
+    "page_title": { "en": "The Wondering Jar — Guess, Then Count to Find Out (Kindergarten)" },
+    "page_intro": { "en": "A free interactive Kindergarten counting game: a wondering owl loves to guess jars — \"Hoooo many, do you think?\" Make a wish on the number line, then the jar spreads its sweets out and you count them one by one to find out the truth. Counting each thing once to answer \"how many?\" — in a line, an array, a circle, or a scattered pile — is the heart of Common Core K.CC.B.5. Your guess is never wrong; the fun is finding out!" },
+    "kid_prompt_template": "estimate-jar"
+  }
+]

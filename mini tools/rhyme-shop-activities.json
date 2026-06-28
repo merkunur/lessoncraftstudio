@@ -1,0 +1,116 @@
+[
+  {
+    "id": "rhyme-shop.rhyme.rf-k-2-a",
+    "tool": "rhyme-shop-activity",
+    "task_template": "rhyme-shop",
+    "alignment": { "framework": "CCSS", "code": "RF.K.2.a", "grade": "K", "strand": "Reading: Foundational Skills" },
+    "theme": null,
+    "params": {
+      "tokens_note": "Every token: noun (=image-vocabulary key), themeDir (color asset), category (broad group for cross-category logic), rimeKey (phonological/sound), spelledRime (vocab-phonics rime, drives the print-matcher).",
+      "rounds": [
+        { "id": "rhyme-shop.judge-snail-whale", "cog": "judge",
+          "a": { "noun": "snail", "themeDir": "insects and bugs", "category": "bug", "rimeKey": "EYL", "spelledRime": "ail" },
+          "b": { "noun": "whale", "themeDir": "ocean life", "category": "ocean", "rimeKey": "EYL", "spelledRime": "ale" } },
+        { "id": "rhyme-shop.judge-bear-ear", "cog": "judge",
+          "a": { "noun": "bear", "themeDir": "forest creatures", "category": "animal", "rimeKey": "EHR", "spelledRime": "ear" },
+          "b": { "noun": "ear", "themeDir": "body parts", "category": "body", "rimeKey": "IYR", "spelledRime": "ear" } },
+
+        { "id": "rhyme-shop.pick-snail", "cog": "pick",
+          "target": { "noun": "snail", "themeDir": "insects and bugs", "category": "bug", "rimeKey": "EYL", "spelledRime": "ail" },
+          "choices": [
+            { "noun": "bee", "themeDir": "insects and bugs", "category": "bug", "rimeKey": "IY", "spelledRime": "ee" },
+            { "noun": "whale", "themeDir": "ocean life", "category": "ocean", "rimeKey": "EYL", "spelledRime": "ale" },
+            { "noun": "key", "themeDir": "around the house", "category": "household", "rimeKey": "IY", "spelledRime": "ey" }
+          ] },
+        { "id": "rhyme-shop.pick-pear", "cog": "pick",
+          "target": { "noun": "pear", "themeDir": "fruits", "category": "food", "rimeKey": "EHR", "spelledRime": "ear" },
+          "choices": [
+            { "noun": "pie", "themeDir": "bakery", "category": "food", "rimeKey": "AY", "spelledRime": "ie" },
+            { "noun": "chair", "themeDir": "around the house", "category": "household", "rimeKey": "EHR", "spelledRime": "air" },
+            { "noun": "knee", "themeDir": "body parts", "category": "body", "rimeKey": "IY", "spelledRime": "ee" }
+          ] },
+        { "id": "rhyme-shop.pick-knee", "cog": "pick",
+          "target": { "noun": "knee", "themeDir": "body parts", "category": "body", "rimeKey": "IY", "spelledRime": "ee" },
+          "choices": [
+            { "noun": "hair", "themeDir": "body parts", "category": "body", "rimeKey": "EHR", "spelledRime": "air" },
+            { "noun": "key", "themeDir": "around the house", "category": "household", "rimeKey": "IY", "spelledRime": "ey" },
+            { "noun": "tie", "themeDir": "clothing", "category": "clothing", "rimeKey": "AY", "spelledRime": "ie" }
+          ] },
+
+        { "id": "rhyme-shop.odd-eyl", "cog": "odd",
+          "choices": [
+            { "noun": "snail", "themeDir": "insects and bugs", "category": "bug", "rimeKey": "EYL", "spelledRime": "ail" },
+            { "noun": "trail", "themeDir": "camping", "category": "nature", "rimeKey": "EYL", "spelledRime": "ail" },
+            { "noun": "whale", "themeDir": "ocean life", "category": "ocean", "rimeKey": "EYL", "spelledRime": "ale" },
+            { "noun": "bee", "themeDir": "insects and bugs", "category": "bug", "rimeKey": "IY", "spelledRime": "ee" }
+          ] },
+        { "id": "rhyme-shop.odd-ehr", "cog": "odd",
+          "choices": [
+            { "noun": "bear", "themeDir": "forest creatures", "category": "animal", "rimeKey": "EHR", "spelledRime": "ear" },
+            { "noun": "chair", "themeDir": "around the house", "category": "household", "rimeKey": "EHR", "spelledRime": "air" },
+            { "noun": "hair", "themeDir": "body parts", "category": "body", "rimeKey": "EHR", "spelledRime": "air" },
+            { "noun": "knee", "themeDir": "body parts", "category": "body", "rimeKey": "IY", "spelledRime": "ee" }
+          ] },
+
+        { "id": "rhyme-shop.sort-eyl-iy", "cog": "sort",
+          "bins": [
+            { "noun": "whale", "themeDir": "ocean life", "category": "ocean", "rimeKey": "EYL", "spelledRime": "ale" },
+            { "noun": "bee", "themeDir": "insects and bugs", "category": "bug", "rimeKey": "IY", "spelledRime": "ee" }
+          ],
+          "pile": [
+            { "noun": "snail", "themeDir": "insects and bugs", "category": "bug", "rimeKey": "EYL", "spelledRime": "ail" },
+            { "noun": "tree", "themeDir": "christmas", "category": "nature", "rimeKey": "IY", "spelledRime": "ee" },
+            { "noun": "scale", "themeDir": "post office", "category": "object", "rimeKey": "EYL", "spelledRime": "ale" },
+            { "noun": "key", "themeDir": "around the house", "category": "household", "rimeKey": "IY", "spelledRime": "ey" }
+          ] },
+
+        { "id": "rhyme-shop.chant-whale", "cog": "chant",
+          "coupletLine": "The whale will wail — it rhymes with snail and with …",
+          "target": { "noun": "whale", "themeDir": "ocean life", "category": "ocean", "rimeKey": "EYL", "spelledRime": "ale" },
+          "choices": [
+            { "noun": "key", "themeDir": "around the house", "category": "household", "rimeKey": "IY", "spelledRime": "ey" },
+            { "noun": "trail", "themeDir": "camping", "category": "nature", "rimeKey": "EYL", "spelledRime": "ail" },
+            { "noun": "pie", "themeDir": "bakery", "category": "food", "rimeKey": "AY", "spelledRime": "ie" }
+          ] },
+        { "id": "rhyme-shop.chant-key", "cog": "chant",
+          "coupletLine": "A shiny golden key — it rhymes with knee and with …",
+          "target": { "noun": "key", "themeDir": "around the house", "category": "household", "rimeKey": "IY", "spelledRime": "ey" },
+          "choices": [
+            { "noun": "bear", "themeDir": "forest creatures", "category": "animal", "rimeKey": "EHR", "spelledRime": "ear" },
+            { "noun": "bee", "themeDir": "insects and bugs", "category": "bug", "rimeKey": "IY", "spelledRime": "ee" },
+            { "noun": "tie", "themeDir": "clothing", "category": "clothing", "rimeKey": "AY", "spelledRime": "ie" }
+          ] },
+
+        { "id": "rhyme-shop.field-bee", "cog": "field",
+          "target": { "noun": "bee", "themeDir": "insects and bugs", "category": "bug", "rimeKey": "IY", "spelledRime": "ee" },
+          "choices": [
+            { "noun": "tree", "themeDir": "christmas", "category": "nature", "rimeKey": "IY", "spelledRime": "ee" },
+            { "noun": "bear", "themeDir": "forest creatures", "category": "animal", "rimeKey": "EHR", "spelledRime": "ear" },
+            { "noun": "key", "themeDir": "around the house", "category": "household", "rimeKey": "IY", "spelledRime": "ey" },
+            { "noun": "pear", "themeDir": "fruits", "category": "food", "rimeKey": "EHR", "spelledRime": "ear" }
+          ] },
+
+        { "id": "rhyme-shop.chain-eyl", "cog": "chain",
+          "anchor": { "noun": "whale", "themeDir": "ocean life", "category": "ocean", "rimeKey": "EYL", "spelledRime": "ale" },
+          "steps": [
+            { "choices": [
+              { "noun": "snail", "themeDir": "insects and bugs", "category": "bug", "rimeKey": "EYL", "spelledRime": "ail" },
+              { "noun": "bee", "themeDir": "insects and bugs", "category": "bug", "rimeKey": "IY", "spelledRime": "ee" },
+              { "noun": "tie", "themeDir": "clothing", "category": "clothing", "rimeKey": "AY", "spelledRime": "ie" }
+            ] },
+            { "choices": [
+              { "noun": "key", "themeDir": "around the house", "category": "household", "rimeKey": "IY", "spelledRime": "ey" },
+              { "noun": "scale", "themeDir": "post office", "category": "object", "rimeKey": "EYL", "spelledRime": "ale" },
+              { "noun": "pie", "themeDir": "bakery", "category": "food", "rimeKey": "AY", "spelledRime": "ie" }
+            ] }
+          ] }
+      ]
+    },
+    "slug": { "en": "rosa-raccoons-rhyme-wagon" },
+    "page_title": { "en": "Rosa Raccoon's Rhyme Wagon — Hear & Match Rhymes" },
+    "page_intro": {
+      "en": "Headphones recommended! Tap a picture to HEAR its name, then feed Rosa's wagon the words whose endings RING the same — bee and key, snail and whale. A listening game for Kindergarten rhyme, aligned to Common Core RF.K.2.a: recognize and produce rhyming words."
+    },
+    "kid_prompt_template": "Tap to hear — then feed the rhyme!"
+  }
+]

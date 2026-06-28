@@ -513,7 +513,14 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 .lcs-app.activity {
   min-height: 66.67vh;
   height: 100%;
-  padding-block: 10vh;
+  /* Fold trim (2026-06-27, operator-authorized): the 10vh "10% rule" outer
+     padding was 90px top+bottom at a 900-tall window — pure dead frame space
+     that pushed the keypad-family Check button below the §A.13.62 desktop
+     gate (1024/1366×900). This is dead outer margin (NOT the inter-section
+     "breathing-room" gaps that fixed the v7.3 flush-children complaint), so
+     trimming it has no flush-children risk. Cap the top/bottom frame to a
+     comfortable clamp so the whole keypad family clears the desktop fold. */
+  padding-block: clamp(16px, 4vh, 44px);
   padding-inline: 9.5vw;
   box-sizing: border-box;
   overflow: hidden;
@@ -663,7 +670,7 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
    slots + palette + wb-tile constraints) STAY in each wrapper's
    inline <style> — those are truly mobile-specific layout shifts,
    not vertical-spacing concerns. ===================================================================== */
-.lcs-app.activity { gap: clamp(16px, 3vh, 28px); }
+.lcs-app.activity { gap: clamp(14px, 2.4vh, 22px); }  /* fold trim 2026-06-27: 28→22 ceiling, keeps clear breathing room */
 .lcs-app.activity .lcs-activity-progress { padding-bottom: clamp(10px, 2vh, 18px); }
 .lcs-app.activity .lcs-activity-prompt { padding-bottom: clamp(14px, 2.5vh, 22px); }
 .lcs-app.activity .lcs-stage { padding-block: clamp(10px, 2vh, 18px); }
@@ -760,8 +767,8 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
    bump to 85vh on mobile, content should fit within iframe. */
 @media (max-width: 599px) {
   .lcs-app.activity {
-    padding-block: clamp(16px, 5vh, 32px);  /* was 10vh — saves ~45px on iPhone-SE */
-    gap: clamp(12px, 2.2vh, 18px);            /* was clamp(16, 3vh, 28) */
+    padding-block: clamp(10px, 3vh, 22px);  /* fold trim 2026-06-27: was clamp(16,5vh,32) — trims dead phone frame for the keypad family */
+    gap: clamp(10px, 1.8vh, 15px);            /* fold trim 2026-06-27: was clamp(12,2.2vh,18) */
   }
   .lcs-app.activity .lcs-activity-prompt { padding-bottom: clamp(10px, 1.8vh, 16px); }
   .lcs-app.activity .lcs-stage { padding-block: clamp(6px, 1.5vh, 12px); }
@@ -809,25 +816,24 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
    regardless of controls width. Scoped to ≥601px so v6.3 mobile
    header-stack (flex-column) on ≤600px stays intact. */
 @media (min-width: 1024px) {
-  /* v7.11: was @media (min-width: 601px) — tablet (768) was getting the
-     grid layout and controls overflowed into title area. Bumped to 1024+
-     so only desktop uses grid (where card-inner has room for fr+auto+fr
-     columns to balance properly). Tablet falls through to the ≤1023
-     flex-column-stack above. */
+  /* v7.11 used a 3-col grid (minmax(0,1fr) auto minmax(0,1fr)) here for
+     "true title centering" on desktop — but the controls' fr-column has a
+     0 min while the chrome buttons are a fixed ~150px, so when the title's
+     auto-column is wide (longer titles: "The Mosaic Menders", "The Echo
+     Grove") the buttons OVERFLOW LEFT into the title and clip it (visual-qa
+     HEADER-CLIP: 44px @1024 / 15px @1366, every activity — operator
+     2026-06-23). Fix: desktop uses the SAME flex-column-stack as ≤1023
+     (title centered full-width, controls centered below) — collision-proof
+     at every width AND consistent with the approved tablet/phone header.
+     The title still centers (text-align:center on full width); the only
+     change is controls sit BELOW the title instead of beside it. */
   .lcs-app.activity .lcs-header {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
-    align-items: center;
-    gap: var(--lcs-gap);
-  }
-  .lcs-app.activity .lcs-titles {
-    grid-column: 2;
-    text-align: center;
-    min-width: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
   }
   .lcs-app.activity .lcs-controls {
-    grid-column: 3;
-    justify-self: end;
+    align-self: center;
   }
 }
 .lcs-app.activity .lcs-title { text-align: center; }

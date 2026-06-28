@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Sort Shapes by Sides — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=17">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
   <!-- Activity-page parent forces the iframe height + renders the sage field;
        these rules make body transparent + cascade height: 100% to #lcs-root.
        Engine CSS is injected by sort-bins-core.js at runtime (those rules
@@ -12,6 +12,17 @@
   <style>
     html, body { background: transparent !important; }
     html, body, #lcs-root { height: 100% !important; }
+
+    /* Fold fix (2026-06-27): on the narrowest phone the long sort prompt (at the
+       shell's 18px mobile size) + the pile + drop-bins + Check overshoot 640.
+       Cap the prompt (`.lcs-app.activity .lcs-activity-prompt` 0,2,0 beats the
+       shell mobile rule) + trim the pile/drop-zone min-heights. sort-bins-core
+       untouched. */
+    @media (max-width: 599px) {
+      .lcs-app.activity .lcs-activity-prompt { font-size: clamp(15px, 3.8vw, 19px) !important; line-height: 1.2 !important; }
+      .sb-pile { min-height: 52px !important; }
+      .sb-bin-drop { min-height: 70px !important; }
+    }
   </style>
 </head>
 <body>

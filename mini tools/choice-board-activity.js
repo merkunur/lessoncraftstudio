@@ -719,7 +719,7 @@ var FRACTION_FIGURES = {
   /* RECTANGLE (x8..92, y28..72) */
   'rect-halves-v':       function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, 42, FR_RH) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(50, FR_RY, 50, FR_RB)); },
   'rect-halves-h':       function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, FR_RW, 22) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(FR_RX, 50, FR_RR, 50)); },
-  'rect-halves-diag':    function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareP('M8 28 L92 28 L92 72 Z') + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(FR_RX, FR_RY, FR_RR, FR_RB)); },
+  'rect-halves-diag':    function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareP('M13 31 L92 28 L92 72 Z') + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(13, 31, 87, 69)); },  /* diag inset from the rx6 sharp corners so the line stays inside the rounded outline */
   'rect-fourths-grid':   function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, 42, 22) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(50, FR_RY, 50, FR_RB) + _frLn(FR_RX, 50, FR_RR, 50)); },
   'rect-fourths-strips': function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, 21, FR_RH) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(29, FR_RY, 29, FR_RB) + _frLn(50, FR_RY, 50, FR_RB) + _frLn(71, FR_RY, 71, FR_RB)); },
   'rect-halves-uneq':    function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, 26, FR_RH) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(34, FR_RY, 34, FR_RB)); },
@@ -728,7 +728,7 @@ var FRACTION_FIGURES = {
   /* SQUARE (10..90) */
   'sq-halves-v':         function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 40, FR_SW) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(50, FR_SX, 50, FR_SR)); },
   'sq-halves-h':         function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, FR_SW, 40) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(FR_SX, 50, FR_SR, 50)); },
-  'sq-halves-diag':      function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareP('M10 10 L90 10 L90 90 Z') + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(FR_SX, FR_SX, FR_SR, FR_SR)); },
+  'sq-halves-diag':      function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareP('M15 15 L90 10 L90 90 Z') + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(15, 15, 85, 85)); },  /* diag inset from the rx6 sharp corners so the line stays inside the rounded outline */
   'sq-fourths-grid':     function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 40, 40) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(50, FR_SX, 50, FR_SR) + _frLn(FR_SX, 50, FR_SR, 50)); },
   'sq-halves-uneq':      function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 26, FR_SW) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(36, FR_SX, 36, FR_SR)); },
   'sq-fourths-uneq':     function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 25, 30) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(35, FR_SX, 35, FR_SR) + _frLn(FR_SX, 40, FR_SR, 40)); },
@@ -752,12 +752,24 @@ function injectFractionCSS() {
   if (_frCssInjected) return;
   _frCssInjected = true;
   var css = [
-    '.cb-board.cb-frac-board{grid-template-columns:repeat(2,1fr)!important;max-width:min(92vw,440px)!important;gap:clamp(10px,3vw,18px)!important;justify-content:center!important;}',
-    '.cb-board.cb-frac-board .cb-tile{width:auto!important;max-width:none!important;max-height:none!important;aspect-ratio:1!important;padding:clamp(10px,3vw,20px)!important;}',
+    '.cb-board.cb-frac-board{grid-template-columns:repeat(2,auto)!important;max-width:min(92vw,360px)!important;gap:clamp(8px,2.4vw,14px)!important;justify-content:center!important;}',
+    /* Fold fix (2026-06-27): fixed-square tiles (not aspect-ratio of a wide
+       column) so the 2×2 fraction board height tracks the tile size, not the
+       container — clears the §A.13.62 desktop fold. */
+    '.cb-board.cb-frac-board .cb-tile{width:clamp(92px,18vw,124px)!important;height:clamp(92px,18vw,124px)!important;max-width:none!important;max-height:none!important;aspect-ratio:auto!important;padding:clamp(7px,2vw,14px)!important;}',
     '.cb-board.cb-frac-board .cb-frac{width:100%;height:100%;display:block;pointer-events:none;user-select:none;}',
     /* E14 #2 anchor figure shown above the board (the "this shape" referent). */
-    '.cb-frac-anchor{display:flex;justify-content:center;align-items:center;margin:0 auto clamp(8px,2.5vw,16px);width:clamp(60px,16vw,92px);height:clamp(60px,16vw,92px);}',
-    '.cb-frac-anchor .cb-frac{width:100%;height:100%;display:block;pointer-events:none;user-select:none;}'
+    '.cb-frac-anchor{display:flex;justify-content:center;align-items:center;margin:0 auto clamp(6px,2vw,10px);width:clamp(48px,11vw,68px);height:clamp(48px,11vw,68px);}',
+    '.cb-frac-anchor .cb-frac{width:100%;height:100%;display:block;pointer-events:none;user-select:none;}',
+    /* Cap the (often long, multi-line) fraction prompt ONLY on fraction boards
+       (:has scopes it — other choice-board activities keep the 48px hero font).
+       The "...split into N equal parts. Tap another shape..." prompt wrapped to
+       ~5 lines at 48px (~290px) and pushed the board off a 900-tall window. */
+    '.lcs-app.activity:has(.cb-frac-board) .lcs-activity-prompt{font-size:clamp(20px,3vmin,28px)!important;}',
+    '@media (max-width:599px){',
+    '  .cb-board.cb-frac-board .cb-tile{width:clamp(76px,28vw,116px)!important;height:clamp(76px,28vw,116px)!important;}',
+    '  .lcs-app.activity:has(.cb-frac-board) .lcs-activity-prompt{font-size:clamp(16px,4.2vw,21px)!important;}',
+    '}'
   ].join('\n');
   var tag = document.createElement('style');
   tag.setAttribute('data-cb-fraction', '');

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "wobble-museum.catch-drift.w-k-2",
+    "tool": "wobble-museum-activity",
+    "task_template": "wobble-museum",
+    "alignment": { "framework": "CCSS", "code": "W.K.2", "grade": "K", "strand": "Writing" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "wm-frogs", "topic": "frogs", "topicWord": "frog", "sentences": [
+          { "text": "Frogs hop.", "about": "frogs" },
+          { "text": "They eat bugs.", "about": "frogs" },
+          { "text": "Ponds are cold.", "about": "ponds" },
+          { "text": "Frogs live in ponds.", "about": "frogs" }
+        ] },
+        { "id": "wm-moon", "topic": "the moon", "topicWord": "moon", "sentences": [
+          { "text": "Stars are far away.", "about": "stars" },
+          { "text": "The moon is round.", "about": "the moon" },
+          { "text": "It glows at night.", "about": "the moon" },
+          { "text": "The moon has craters.", "about": "the moon" }
+        ] },
+        { "id": "wm-trucks", "topic": "fire trucks", "topicWord": "truck", "sentences": [
+          { "text": "Fire trucks are red.", "about": "fire trucks" },
+          { "text": "They have a loud siren.", "about": "fire trucks" },
+          { "text": "They carry long hoses.", "about": "fire trucks" },
+          { "text": "Stop signs are red.", "about": "stop signs" }
+        ] },
+        { "id": "wm-rain", "topic": "rain", "topicWord": "rain", "sentences": [
+          { "text": "Rain falls from clouds.", "about": "rain" },
+          { "text": "Plants are green.", "about": "plants" },
+          { "text": "It makes puddles.", "about": "rain" },
+          { "text": "Rain helps plants grow.", "about": "rain" }
+        ] },
+        { "id": "wm-dogs", "topic": "dogs", "topicWord": "dog", "sentences": [
+          { "text": "Dogs bark.", "about": "dogs" },
+          { "text": "They wag their tails.", "about": "dogs" },
+          { "text": "Cats say meow.", "about": "cats" },
+          { "text": "Dogs like to fetch.", "about": "dogs" }
+        ] },
+        { "id": "wm-bees", "topic": "bees", "topicWord": "bee", "sentences": [
+          { "text": "Bees buzz.", "about": "bees" },
+          { "text": "Bees live in a hive.", "about": "bees" },
+          { "text": "They make honey.", "about": "bees" },
+          { "text": "Ants live in the dirt.", "about": "ants" }
+        ] },
+        { "id": "wm-trees", "topic": "trees", "topicWord": "tree", "sentences": [
+          { "text": "Trees have leaves.", "about": "trees" },
+          { "text": "Birds can fly.", "about": "birds" },
+          { "text": "They grow very tall.", "about": "trees" },
+          { "text": "Birds nest in trees.", "about": "trees" }
+        ] },
+        { "id": "wm-body", "topic": "the body", "topicWord": "body", "sentences": [
+          { "text": "Our body has bones.", "about": "the body" },
+          { "text": "We have two hands.", "about": "the body" },
+          { "text": "Apples are healthy.", "about": "food" },
+          { "text": "Our heart beats fast.", "about": "the body" }
+        ] }
+      ]
+    },
+    "slug": {
+      "en": "informative-writing-topic-focus"
+    },
+    "page_title": {
+      "en": "The Wobble Museum — Stick to the Topic (Kindergarten Writing)"
+    },
+    "page_intro": {
+      "en": "A free interactive Kindergarten writing activity: each room in Bram the magpie's museum is all about ONE thing, but a label keeps wandering in from another room. Read the room, then tap the fact that does not belong — it is true, but it is about something else. A friendly first look at keeping an All-About book on topic. Common Core W.K.2."
+    },
+    "kid_prompt_template": "wobble-museum"
+  }
+]

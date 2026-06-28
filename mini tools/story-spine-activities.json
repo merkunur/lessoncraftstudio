@@ -1,0 +1,51 @@
+[
+  {
+    "id": "story-spine.role.rl-k-3",
+    "tool": "story-spine-activity",
+    "task_template": "story-spine",
+    "alignment": { "framework": "CCSS", "code": "RL.K.3", "grade": "K", "strand": "Reading: Literature" },
+    "theme": null,
+    "params": {
+      "stories": {
+        "mitten": { "title": "The Lost Mitten", "panels": [
+          { "caption": "Bo the bunny hopped in the snow.", "glyphs": ["bunny", "snow"], "role": "setting" },
+          { "caption": "A red mitten slipped off by the tree.", "glyphs": ["tree", "mitten"], "role": "problem" },
+          { "caption": "A bird found it and called Bo back.", "glyphs": ["bird", "mitten"], "role": "solution" }
+        ] },
+        "carrot": { "title": "The Snatched Carrot", "panels": [
+          { "caption": "Millie the mouse had a carrot.", "glyphs": ["mouse", "carrot"], "role": "setting" },
+          { "caption": "A bird grabbed her carrot!", "glyphs": ["bird", "carrot"], "role": "problem" },
+          { "caption": "A friend got it back for her.", "glyphs": ["friend", "carrot"], "role": "solution" }
+        ] },
+        "picnic": { "title": "The Rainy Picnic", "panels": [
+          { "caption": "Two friends had a picnic.", "glyphs": ["friend", "basket"], "role": "setting" },
+          { "caption": "Then it rained on them.", "glyphs": ["rain", "friend"], "role": "problem" },
+          { "caption": "They ate under an umbrella.", "glyphs": ["umbrella", "friend"], "role": "solution" }
+        ] }
+      },
+      "rounds": [
+        { "id": "ds-mit-set",  "storyId": "mitten", "role": "setting",  "prompt": "Which part is THE START? (where the story begins)" },
+        { "id": "ds-mit-prob", "storyId": "mitten", "role": "problem",  "prompt": "Which part shows THE TROUBLE? (what goes wrong)" },
+        { "id": "ds-mit-sol",  "storyId": "mitten", "role": "solution", "prompt": "Which part is THE FIX? (how it gets better)" },
+
+        { "id": "ds-car-set",  "storyId": "carrot", "role": "setting",  "prompt": "Which part is THE START? (where the story begins)" },
+        { "id": "ds-car-prob", "storyId": "carrot", "role": "problem",  "prompt": "Which part shows THE TROUBLE? (what goes wrong)" },
+        { "id": "ds-car-sol",  "storyId": "carrot", "role": "solution", "prompt": "Which part is THE FIX? (how it gets better)" },
+
+        { "id": "ds-pic-set",  "storyId": "picnic", "role": "setting",  "prompt": "Which part is THE START? (where the story begins)" },
+        { "id": "ds-pic-prob", "storyId": "picnic", "role": "problem",  "prompt": "Which part shows THE TROUBLE? (what goes wrong)" },
+        { "id": "ds-pic-sol",  "storyId": "picnic", "role": "solution", "prompt": "Which part is THE FIX? (how it gets better)" }
+      ]
+    },
+    "slug": {
+      "en": "story-parts-setting-problem-solution"
+    },
+    "page_title": {
+      "en": "Dot's Story Spine — Story Parts: Start, Trouble & Fix (Kindergarten)"
+    },
+    "page_intro": {
+      "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Dot the dragon, then tap which part is the START (the setting), the TROUBLE (the problem), and the FIX (how it gets better). A friendly first look at how stories are built — setting, problem, and solution. Common Core RL.K.3."
+    },
+    "kid_prompt_template": "story-spine"
+  }
+]

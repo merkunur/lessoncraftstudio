@@ -1,0 +1,57 @@
+[
+  {
+    "id": "bea-two-bookshelves.story-or-fact.rl-1-5",
+    "tool": "bea-two-bookshelves-activity",
+    "task_template": "story-or-fact",
+    "alignment": { "framework": "CCSS", "code": "RL.1.5", "grade": "1", "strand": "Reading: Literature" },
+    "params": {
+      "rounds": [
+        { "id": "sf1", "band": 1, "ask": "story", "books": [
+          { "title": "The Sleepy Dragons", "blurb": "Two dragons go looking for a cozy nap.", "type": "story" },
+          { "title": "All About Real Bugs", "blurb": "Facts about bugs and where they live.", "type": "fact" },
+          { "title": "Diggers and Cranes", "blurb": "How real machines lift and dig.", "type": "fact" }
+        ] },
+        { "id": "sf2", "band": 1, "ask": "story", "books": [
+          { "title": "Bones in Your Body", "blurb": "The real bones that hold your body up.", "type": "fact" },
+          { "title": "Bunny's Lost Mitten", "blurb": "Bunny hops all over town to find it.", "type": "story" },
+          { "title": "How Tall Trees Grow", "blurb": "A seed becomes a tree over many years.", "type": "fact" }
+        ] },
+        { "id": "sf3", "band": 2, "ask": "story", "books": [
+          { "title": "How Bees Make Honey", "blurb": "Real bees turn flower nectar into honey.", "type": "fact" },
+          { "title": "Bones in Your Body", "blurb": "The real bones that hold your body up.", "type": "fact" },
+          { "title": "The Brave Red Boat", "blurb": "A little boat sails through a big storm.", "type": "story" }
+        ] },
+        { "id": "sf4", "band": 2, "ask": "story", "books": [
+          { "title": "How Tall Trees Grow", "blurb": "A seed becomes a tree over many years.", "type": "fact" },
+          { "title": "Goblin's Sock Hunt", "blurb": "A goblin sneaks around for missing socks.", "type": "story" },
+          { "title": "Diggers and Cranes", "blurb": "How real machines lift and dig.", "type": "fact" }
+        ] },
+        { "id": "sf5", "band": 1, "ask": "fact", "books": [
+          { "title": "Bunny's Lost Mitten", "blurb": "Bunny hops all over town to find it.", "type": "story" },
+          { "title": "Goblin's Sock Hunt", "blurb": "A goblin sneaks around for missing socks.", "type": "story" },
+          { "title": "How Bees Make Honey", "blurb": "Real bees turn flower nectar into honey.", "type": "fact" }
+        ] },
+        { "id": "sf6", "band": 2, "ask": "fact", "books": [
+          { "title": "Bones in Your Body", "blurb": "The real bones that hold your body up.", "type": "fact" },
+          { "title": "The Sleepy Dragons", "blurb": "Two dragons go looking for a cozy nap.", "type": "story" },
+          { "title": "Pip's Lucky Acorns", "blurb": "Pip plants acorns and makes a wish.", "type": "story" }
+        ] },
+        { "id": "sf7", "band": 3, "ask": "fact", "books": [
+          { "title": "Bunny's Lost Mitten", "blurb": "Bunny hops all over town to find it.", "type": "story" },
+          { "title": "The Brave Red Boat", "blurb": "A little boat sails through a big storm.", "type": "story" },
+          { "title": "How Tall Trees Grow", "blurb": "A seed becomes a tree over many years.", "type": "fact" }
+        ] },
+        { "id": "sf8", "band": 3, "ask": "fact", "books": [
+          { "title": "The Sleepy Dragons", "blurb": "Two dragons go looking for a cozy nap.", "type": "story" },
+          { "title": "Diggers and Cranes", "blurb": "How real machines lift and dig.", "type": "fact" },
+          { "title": "Goblin's Sock Hunt", "blurb": "A goblin sneaks around for missing socks.", "type": "story" }
+        ] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "bea-two-bookshelves" },
+    "page_title": { "en": "Bea's Two Bookshelves — Story Book or Fact Book? (Grade 1)" },
+    "page_intro": { "en": "Bea the bookworm keeps two bookshelves: one for STORY books that tell a make-believe tale, and one for FACT books that teach you about real things. Read the three book covers, then tap the one Bea asks for — a make-believe story, or a book of real facts. A Grade 1 reading game about telling story books from informational books, aligned to Common Core RL.1.5." },
+    "kid_prompt_template": "Tap the story book, or the fact book, that Bea asks for."
+  }
+]

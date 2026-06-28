@@ -1,0 +1,25 @@
+[
+  {
+    "id": "rusty-yesterday.irregular-past.l-2-1-d",
+    "tool": "rusty-yesterday-activity",
+    "task_template": "irregular-past",
+    "alignment": { "framework": "CCSS", "code": "L.2.1.d", "grade": "2", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "go", "band": 1, "present": "go", "correct": "went", "choices": [ { "word": "went" }, { "word": "go" }, { "word": "goed" } ] },
+        { "id": "run", "band": 1, "present": "run", "correct": "ran", "choices": [ { "word": "run" }, { "word": "ran" }, { "word": "runned" } ] },
+        { "id": "eat", "band": 1, "present": "eat", "correct": "ate", "choices": [ { "word": "eat" }, { "word": "eated" }, { "word": "ate" } ] },
+        { "id": "see", "band": 2, "present": "see", "correct": "saw", "choices": [ { "word": "saw" }, { "word": "see" }, { "word": "seed" } ] },
+        { "id": "give", "band": 2, "present": "give", "correct": "gave", "choices": [ { "word": "give" }, { "word": "gave" }, { "word": "gived" } ] },
+        { "id": "take", "band": 2, "present": "take", "correct": "took", "choices": [ { "word": "take" }, { "word": "taked" }, { "word": "took" } ] },
+        { "id": "come", "band": 3, "present": "come", "correct": "came", "choices": [ { "word": "came" }, { "word": "come" }, { "word": "comed" } ] },
+        { "id": "swim", "band": 3, "present": "swim", "correct": "swam", "choices": [ { "word": "swim" }, { "word": "swam" }, { "word": "swimmed" } ] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "rusty-yesterday" },
+    "page_title": { "en": "Rusty's Yesterday Machine — Irregular Past-Tense Verbs (Grade 2)" },
+    "page_intro": { "en": "Rusty the robot's machine turns today's verbs into yesterday's! Some verbs are tricky — they don't just add -ed. Today I go, but yesterday I went (not 'goed'). Read the verb, then tap the right way to say it about yesterday. A Grade 2 grammar game about irregular past-tense verbs, aligned to Common Core L.2.1.d." },
+    "kid_prompt_template": "Yesterday — which word is right?"
+  }
+]

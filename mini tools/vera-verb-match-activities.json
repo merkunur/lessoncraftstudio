@@ -1,0 +1,25 @@
+[
+  {
+    "id": "vera-verb-match.be-agreement.l-1-1-c",
+    "tool": "vera-verb-match-activity",
+    "task_template": "be-agreement",
+    "alignment": { "framework": "CCSS", "code": "L.1.1.c", "grade": "1", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "ready", "band": 1, "subject": "I", "before": "I", "after": "ready to play.", "correct": "am" },
+        { "id": "dog", "band": 1, "subject": "The dog", "before": "The dog", "after": "in the yard.", "correct": "is" },
+        { "id": "dogs", "band": 1, "subject": "The dogs", "before": "The dogs", "after": "in the yard.", "correct": "are" },
+        { "id": "friend", "band": 2, "subject": "She", "before": "She", "after": "my best friend.", "correct": "is" },
+        { "id": "park", "band": 2, "subject": "We", "before": "We", "after": "at the park.", "correct": "are" },
+        { "id": "asleep", "band": 2, "subject": "The cat", "before": "The cat", "after": "fast asleep.", "correct": "is" },
+        { "id": "happy", "band": 3, "subject": "They", "before": "They", "after": "very happy.", "correct": "are" },
+        { "id": "helper", "band": 3, "subject": "I", "before": "I", "after": "a big helper.", "correct": "am" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "vera-verb-match" },
+    "page_title": { "en": "Vera's Verb Match — Am, Is, or Are? (Grade 1)" },
+    "page_intro": { "en": "Vera the vole matches every verb to its subject! Use AM with I, IS with one (the dog, she, it), and ARE with many (the dogs, we, they). Read the sentence and tap the verb that fits. A Grade 1 grammar game about matching the verb to a singular or plural subject, aligned to Common Core L.1.1.c." },
+    "kid_prompt_template": "Tap am, is, or are to match the subject."
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "pim-comma-mail.letter-commas.l-2-2-b",
+    "tool": "pim-comma-mail-activity",
+    "task_template": "letter-commas",
+    "alignment": { "framework": "CCSS", "code": "L.2.2.b", "grade": "2", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "sam", "band": 1, "kind": "greeting", "forms": [
+          { "text": "Dear Sam,", "ok": true }, { "text": "Dear Sam" }, { "text": "Dear, Sam" }
+        ] },
+        { "id": "grandma", "band": 1, "kind": "greeting", "forms": [
+          { "text": "Dear Grandma" }, { "text": "Dear Grandma,", "ok": true }, { "text": "Dear, Grandma" }
+        ] },
+        { "id": "mrfox", "band": 2, "kind": "greeting", "forms": [
+          { "text": "Dear Mr. Fox" }, { "text": "Dear, Mr. Fox" }, { "text": "Dear Mr. Fox,", "ok": true }
+        ] },
+        { "id": "auntmia", "band": 2, "kind": "greeting", "forms": [
+          { "text": "Dear Aunt Mia,", "ok": true }, { "text": "Dear Aunt Mia" }, { "text": "Dear Aunt, Mia" }
+        ] },
+        { "id": "friend", "band": 1, "kind": "closing", "forms": [
+          { "text": "Your friend" }, { "text": "Your friend,", "ok": true }, { "text": "Your, friend" }
+        ] },
+        { "id": "love", "band": 2, "kind": "closing", "forms": [
+          { "text": "Love" }, { "text": "Love." }, { "text": "Love,", "ok": true }
+        ] },
+        { "id": "pal", "band": 3, "kind": "closing", "forms": [
+          { "text": "Your pal,", "ok": true }, { "text": "Your pal" }, { "text": "Your, pal" }
+        ] },
+        { "id": "yourstruly", "band": 3, "kind": "closing", "forms": [
+          { "text": "Yours truly" }, { "text": "Yours truly,", "ok": true }, { "text": "Yours, truly" }
+        ] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "pim-comma-mail" },
+    "page_title": { "en": "Pim's Comma Mail — Commas in Greetings & Closings (Grade 2)" },
+    "page_intro": { "en": "Pim the carrier pigeon delivers letters all day — but a letter needs its commas in the right spot! The greeting (Dear Sam,) and the closing (Your friend,) each end with a comma. Read the three choices and tap the one that is punctuated correctly. A Grade 2 grammar game about commas in the greeting and closing of a letter, aligned to Common Core L.2.2.b." },
+    "kid_prompt_template": "Tap the greeting or closing that has its comma in the right place."
+  }
+]

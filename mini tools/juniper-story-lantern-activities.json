@@ -1,0 +1,89 @@
+[
+  {
+    "id": "juniper-story-lantern.central-message.rl-1-2",
+    "tool": "juniper-story-lantern-activity",
+    "task_template": "juniper-story-lantern",
+    "alignment": { "framework": "CCSS", "code": "RL.1.2", "grade": "1", "strand": "Reading: Literature" },
+    "params": {
+      "rounds": [
+        {
+          "id": "tortoise", "band": 1,
+          "story": ["Hare laughed that he was much faster than Tortoise.", "Hare ran far ahead, then stopped for a long nap.", "Slow Tortoise kept going and going, and won the race."],
+          "options": [
+            { "id": "o1", "kind": "moral", "text": "Slow and steady can still win." },
+            { "id": "o2", "kind": "detail", "text": "Hare stopped for a long nap." },
+            { "id": "o3", "kind": "wrongmoral", "text": "The fastest runner always wins." }
+          ]
+        },
+        {
+          "id": "ant", "band": 1,
+          "story": ["All summer the Grasshopper played while the Ant stored food.", "Then winter came and cold snow fell.", "The Grasshopper was hungry, but the Ant stayed warm and fed."],
+          "options": [
+            { "id": "o1", "kind": "detail", "text": "Grasshopper played all summer long." },
+            { "id": "o2", "kind": "wrongmoral", "text": "Summer is the best time to rest." },
+            { "id": "o3", "kind": "moral", "text": "Plan ahead and be ready later." }
+          ]
+        },
+        {
+          "id": "lion", "band": 1,
+          "story": ["A tiny Mouse woke a big, sleeping Lion.", "The kind Lion smiled and let the Mouse go.", "Later the Lion was caught in a net, and the Mouse chewed it free."],
+          "options": [
+            { "id": "o1", "kind": "detail", "text": "The big Lion was caught in a net." },
+            { "id": "o2", "kind": "moral", "text": "A small friend can help a lot." },
+            { "id": "o3", "kind": "wrongmoral", "text": "Never wake a sleeping lion." }
+          ]
+        },
+        {
+          "id": "crow", "band": 2,
+          "story": ["A thirsty Crow found a pitcher with a little water at the bottom.", "She could not reach the water with her beak.", "She dropped in pebbles until the water rose, and then she drank."],
+          "options": [
+            { "id": "o1", "kind": "moral", "text": "A clever idea solves a problem." },
+            { "id": "o2", "kind": "detail", "text": "The Crow dropped in some pebbles." },
+            { "id": "o3", "kind": "wrongmoral", "text": "Always carry water when it is hot." }
+          ]
+        },
+        {
+          "id": "wolf", "band": 2,
+          "story": ["A boy yelled Wolf just for fun, and the people ran to help.", "He laughed, because there was no wolf at all.", "When a real wolf came, no one believed the boy."],
+          "options": [
+            { "id": "o1", "kind": "detail", "text": "The little boy yelled Wolf just for fun." },
+            { "id": "o2", "kind": "wrongmoral", "text": "Wolves are big and very scary." },
+            { "id": "o3", "kind": "moral", "text": "Lying makes people stop trusting you." }
+          ]
+        },
+        {
+          "id": "wind", "band": 2,
+          "story": ["The Wind and the Sun argued about who was stronger.", "The Wind blew hard, but the man held his coat tight.", "Then the Sun shone warm, and the man took his coat off."],
+          "options": [
+            { "id": "o1", "kind": "detail", "text": "The strong Wind blew hard at the man." },
+            { "id": "o2", "kind": "moral", "text": "Gentle ways work better than force." },
+            { "id": "o3", "kind": "wrongmoral", "text": "The sun is hotter than wind." }
+          ]
+        },
+        {
+          "id": "goose", "band": 3,
+          "story": ["A goose laid one shiny golden egg every single day.", "The farmer wanted all of the gold at once.", "He cut the goose open, found nothing, and the eggs stopped."],
+          "options": [
+            { "id": "o1", "kind": "moral", "text": "Wanting too much costs everything." },
+            { "id": "o2", "kind": "detail", "text": "The farmer wanted all of the gold." },
+            { "id": "o3", "kind": "wrongmoral", "text": "Geese are made of pure gold." }
+          ]
+        },
+        {
+          "id": "bear", "band": 3,
+          "story": ["Two friends were walking when a big bear appeared.", "One friend climbed a tree and left the other behind.", "The other lay still until the bear left, then walked away."],
+          "options": [
+            { "id": "o1", "kind": "detail", "text": "One friend climbed up a tall tree." },
+            { "id": "o2", "kind": "wrongmoral", "text": "Bears are easy to scare off." },
+            { "id": "o3", "kind": "moral", "text": "A true friend helps in trouble." }
+          ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "juniper-story-lantern" },
+    "page_title": { "en": "Juniper's Story Lantern — What's the Lesson? (Grade 1)" },
+    "page_intro": { "en": "By lantern-light, Juniper the hedgehog tells a tiny fable, then asks the big question: what does this story TEACH us? Listen to the tale, then tap the card that tells its lesson — not just something that happened in it, and not a lesson that sounds right but isn't. A warm Grade 1 reading game about finding a story's central message or lesson, aligned to Common Core RL.1.2." },
+    "kid_prompt_template": "juniper-story-lantern"
+  }
+]

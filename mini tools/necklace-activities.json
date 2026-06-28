@@ -1,0 +1,25 @@
+[
+  {
+    "id": "necklace.bead-string.k-cc-b-4",
+    "tool": "necklace-activity",
+    "task_template": "bead-string",
+    "alignment": { "framework": "CCSS", "code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality" },
+    "params": {
+      "rounds": [
+        { "id": "onramp-thread-4", "type": "on-ramp", "band": 1, "assessment": false, "targetCount": 4, "naiveCount": 4, "model": { "spacing": "even", "palette": ["coral", "teal"], "n": 4 }, "paletteSupply": 8 },
+        { "id": "thread-6", "type": "count-and-thread", "band": 2, "targetCount": 6, "naiveCount": 6, "model": { "spacing": "even", "palette": ["coral", "teal"], "n": 6 }, "disturbance": { "kind": "hide", "narratedBefore": true }, "paletteSupply": 10 },
+        { "id": "recount-7", "type": "recount", "band": 2, "targetCount": 7, "naiveCount": 7, "model": { "spacing": "bunched", "palette": ["coral", "gold"], "n": 7 }, "disturbance": { "kind": "bunch", "narratedBefore": true }, "paletteSupply": 11 },
+        { "id": "scatter-8", "type": "scatter", "band": 3, "targetCount": 8, "naiveCount": 7, "model": { "spacing": "scatter", "palette": ["teal", "gold"], "n": 8 }, "disturbance": { "kind": "scatter", "narratedBefore": true }, "paletteSupply": 12 },
+        { "id": "findskip-9", "type": "find-skip", "band": 3, "targetCount": 9, "naiveCount": 10, "model": { "spacing": "even", "palette": ["coral", "teal"], "n": 9 }, "error": { "kind": "double", "at": 4 }, "paletteSupply": 13 },
+        { "id": "confirm-10", "type": "cardinality-confirm", "band": 4, "targetCount": 10, "naiveCount": 10, "confirmFromCount": true, "model": { "spacing": "even", "palette": ["teal", "gold"], "n": 10 }, "paletteSupply": 13 },
+        { "id": "heard-7", "type": "thread-to-heard", "band": 4, "targetCount": 7, "naiveCount": 0, "heardTarget": true, "model": { "spacing": "even", "palette": ["coral", "teal"], "n": 7 }, "paletteSupply": 11 },
+        { "id": "repair-8", "type": "repair-other", "band": 4, "targetCount": 8, "naiveCount": 9, "model": { "spacing": "even", "palette": ["coral", "gold"], "n": 8 }, "error": { "kind": "over", "by": 1, "at": 5 }, "paletteSupply": 12 }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "the-necklace-that-wont-hold-still" },
+    "page_title": { "en": "The Necklace That Won't Hold Still — Count & Make the Same Many (Kindergarten)" },
+    "page_intro": { "en": "A free interactive Kindergarten counting game: a little fox makes a necklace to match its friend's — not the same colors, the same HOW-MANY. Count the friend's beads one by one, then thread your own to that number — even after the fox tucks it away or gives it a playful shake. The number is the one thing that doesn't change when everything else does. Counting each bead once, and knowing the last number tells how many, is the heart of Common Core K.CC.B.4." },
+    "kid_prompt_template": "bead-string"
+  }
+]

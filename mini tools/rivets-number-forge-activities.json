@@ -1,0 +1,47 @@
+[
+  {
+    "id": "rivets-number-forge.numeral-album.k-cc-a-3",
+    "tool": "rivets-number-forge-activity",
+    "task_template": "numeral-album",
+    "alignment": { "framework": "CCSS", "code": "K.CC.A.3", "grade": "K", "strand": "Counting & Cardinality" },
+    "params": {
+      "rounds": [
+        { "id": "count-acorns",   "act_type": "count-mint",  "band": 1, "page": { "frames": [
+          { "count": 5, "arrangement": "scatter", "kind": "acorn" },
+          { "count": 2, "arrangement": "row",     "kind": "acorn" },
+          { "count": 4, "arrangement": "scatter", "kind": "acorn" } ] } },
+        { "id": "count-buttons",  "act_type": "count-mint",  "band": 1, "page": { "frames": [
+          { "count": 6, "arrangement": "scatter", "kind": "button" },
+          { "count": 0, "arrangement": "empty",   "kind": "button" },
+          { "count": 3, "arrangement": "row",     "kind": "button" } ] } },
+        { "id": "count-teen",     "act_type": "count-mint",  "band": 2, "page": { "frames": [
+          { "count": 14, "arrangement": "tenframe", "kind": "firefly" },
+          { "count": 3,  "arrangement": "scatter",  "kind": "firefly" },
+          { "count": 8,  "arrangement": "row",      "kind": "firefly" } ] } },
+        { "id": "card-of-nothing","act_type": "zero",        "band": 1, "page": { "frames": [
+          { "count": 3, "arrangement": "scatter", "kind": "marble" },
+          { "count": 0, "arrangement": "empty",   "kind": "marble" } ] } },
+        { "id": "the-parade",     "act_type": "parade",      "band": 2, "page": { "frames": [
+          { "count": 6, "arrangement": "parade", "kind": "firefly" },
+          { "count": 4, "arrangement": "parade", "kind": "firefly" } ] } },
+        { "id": "only-the-acorns","act_type": "subset",      "band": 2, "page": { "frames": [
+          { "count": 5, "arrangement": "mixed", "kind": "acorn", "distractorKind": "button", "distractorCount": 3 },
+          { "count": 3, "arrangement": "mixed", "kind": "acorn", "distractorKind": "marble", "distractorCount": 2 } ] } },
+        { "id": "fix-rivets-card","act_type": "verify",      "band": 2, "page": { "frames": [
+          { "count": 5, "arrangement": "scatter", "kind": "button", "claimNumeral": 6 },
+          { "count": 4, "arrangement": "row",     "kind": "button", "claimNumeral": 3 } ] } },
+        { "id": "build-the-card", "act_type": "build-mint",  "band": 2, "page": { "frames": [
+          { "count": 6, "arrangement": "build", "kind": "acorn" },
+          { "count": 4, "arrangement": "build", "kind": "acorn" } ] } },
+        { "id": "fill-the-ticket","act_type": "reverse",     "band": 3, "page": { "frames": [
+          { "numeral": 7, "arrangement": "pouch", "kind": "marble" },
+          { "numeral": 3, "arrangement": "pouch", "kind": "marble" } ] } }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "rivets-number-forge" },
+    "page_title": { "en": "Rivet's Number Forge — Count and Write the Numeral 0 to 20" },
+    "page_intro": { "en": "Help Rivet the raccoon turn loose treasure into collector cards: count the acorns, buttons, and fireflies and forge the numeral that says how many — the numeral is built from the very things you count. Even an empty pack has a number: zero! A warm Kindergarten counting-and-writing game aligned to Common Core K.CC.A.3." },
+    "kid_prompt_template": "numeral-album"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "two-tales.compare.rl-1-9",
+    "tool": "two-tales-activity",
+    "task_template": "two-tales",
+    "alignment": { "framework": "CCSS", "code": "RL.1.9", "grade": "1", "strand": "Reading: Literature" },
+    "theme": null,
+    "params": {
+      "tagText": {
+        "LOST_FOUND": "Lost it, then found it",
+        "GOT_HELP": "A friend helped",
+        "TRIED_AGAIN": "Kept trying",
+        "SHARED": "Shared with a friend",
+        "SCARED_SAFE": "Scared, then felt safe",
+        "FIXED_IT": "Fixed what broke"
+      },
+      "stories": {
+        "fox":   { "subject": "fox",   "glyph": "fox",   "summary": "A fox lost his cap, kept trying, and found it.", "tags": ["LOST_FOUND", "TRIED_AGAIN"] },
+        "bunny": { "subject": "bunny", "glyph": "bunny", "summary": "A bunny lost her ball. A friend helped find it.", "tags": ["LOST_FOUND", "GOT_HELP"] },
+        "mouse": { "subject": "mouse", "glyph": "mouse", "summary": "A scared mouse felt safe when a friend helped.",  "tags": ["SCARED_SAFE", "GOT_HELP"] },
+        "bird":  { "subject": "bird",  "glyph": "bird",  "summary": "A bird kept trying and fixed its nest.",          "tags": ["TRIED_AGAIN", "FIXED_IT"] },
+        "frog":  { "subject": "frog",  "glyph": "frog",  "summary": "A scared frog fixed the leak and felt safe.",     "tags": ["FIXED_IT", "SCARED_SAFE"] },
+        "duck":  { "subject": "duck",  "glyph": "duck",  "summary": "A duck shared lunch. A friend helped too.",       "tags": ["SHARED", "GOT_HELP"] }
+      },
+      "rounds": [
+        { "id": "tt-s1", "mode": "same", "aId": "fox",   "bId": "bunny", "cardTags": ["LOST_FOUND", "TRIED_AGAIN", "GOT_HELP"] },
+        { "id": "tt-s2", "mode": "same", "aId": "fox",   "bId": "bird",  "cardTags": ["TRIED_AGAIN", "LOST_FOUND", "FIXED_IT"] },
+        { "id": "tt-s3", "mode": "same", "aId": "mouse", "bId": "frog",  "cardTags": ["SCARED_SAFE", "GOT_HELP", "FIXED_IT"] },
+        { "id": "tt-s4", "mode": "same", "aId": "bunny", "bId": "duck",  "cardTags": ["GOT_HELP", "LOST_FOUND", "SHARED"] },
+        { "id": "tt-s5", "mode": "same", "aId": "bird",  "bId": "frog",  "cardTags": ["FIXED_IT", "TRIED_AGAIN", "SCARED_SAFE"] },
+
+        { "id": "tt-d1", "mode": "diff", "aId": "bunny", "bId": "mouse", "cardTags": ["LOST_FOUND", "GOT_HELP", "SHARED"] },
+        { "id": "tt-d2", "mode": "diff", "aId": "mouse", "bId": "duck",  "cardTags": ["SHARED", "GOT_HELP", "TRIED_AGAIN"] },
+        { "id": "tt-d3", "mode": "diff", "aId": "fox",   "bId": "bird",  "cardTags": ["FIXED_IT", "TRIED_AGAIN", "SCARED_SAFE"] },
+        { "id": "tt-d4", "mode": "diff", "aId": "mouse", "bId": "frog",  "cardTags": ["GOT_HELP", "SCARED_SAFE", "SHARED"] }
+      ]
+    },
+    "slug": {
+      "en": "compare-two-stories-same-different"
+    },
+    "page_title": {
+      "en": "Two Moons — Compare Two Stories: Same & Different (Grade 1)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 1 reading activity: read two short tales with Mossbeard the Story-Keeper, then compare what happened to the characters across both stories — tap what is the SAME in both, or what happened in ONLY ONE. A friendly first look at comparing and contrasting characters' experiences across stories. Common Core RL.1.9."
+    },
+    "kid_prompt_template": "two-tales"
+  }
+]

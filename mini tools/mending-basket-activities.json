@@ -1,0 +1,166 @@
+[
+  {
+    "id": "mending-basket.mend-page.rf-1-4-a",
+    "tool": "mending-basket-activity",
+    "task_template": "mend-page",
+    "alignment": { "framework": "CCSS", "code": "RF.1.4.a", "grade": "1", "strand": "Reading: Foundational Skills" },
+    "params": {
+      "rounds": [
+        {
+          "id": "cloze-puppy", "type": "cloze", "band": 1,
+          "tokens": [{"t":"The"},{"t":"puppy"},{"t":"was"},{"t":"so"},{"t":"tiny"},{"t":"that"},{"t":"Granny"},{"t":"had"},{"t":"to"},{"t":"look"},{"gap":true},{"t":"to"},{"t":"find"},{"t":"him"},{"t":"in"},{"t":"the"},{"t":"tall"},{"t":"grass"}],
+          "gapIndex": 10, "keystoneIndex": 4, "answer": "carefully",
+          "pieces": [
+            {"value":"carefully","text":"carefully","pos":"ADV","freqRank":3,"localAssocScore":1,"picsTrap":false},
+            {"value":"quickly","text":"quickly","pos":"ADV","freqRank":1,"localAssocScore":3,"picsTrap":false},
+            {"value":"loudly","text":"loudly","pos":"ADV","freqRank":2,"localAssocScore":2,"picsTrap":false}
+          ],
+          "picture": {"family":"puppy-grass","visibleObjects":["puppy","grass"],"answerDetailInTornRegion":true,"aliveFx":["wag","blink"]},
+          "tts": {"prompt":"The puppy was so tiny that Granny had to look — how?","healed":"The puppy was so tiny that Granny had to look carefully to find him in the tall grass."}
+        },
+        {
+          "id": "cloze-soup-hot", "type": "cloze", "band": 1, "minimalPairId": "soup",
+          "tokens": [{"t":"The"},{"t":"soup"},{"t":"was"},{"t":"too"},{"t":"hot"},{"t":"so"},{"t":"Granny"},{"t":"let"},{"t":"it"},{"t":"get"},{"gap":true}],
+          "gapIndex": 10, "keystoneIndex": 4, "answer": "cool",
+          "pieces": [
+            {"value":"cool","text":"cool","pos":"ADJ","freqRank":2,"localAssocScore":2,"picsTrap":false},
+            {"value":"warm","text":"warm","pos":"ADJ","freqRank":1,"localAssocScore":3,"picsTrap":false},
+            {"value":"soft","text":"soft","pos":"ADJ","freqRank":3,"localAssocScore":1,"picsTrap":false}
+          ],
+          "picture": {"family":"soup-bowl","visibleObjects":["bowl","spoon"],"answerDetailInTornRegion":true,"aliveFx":["steam"]},
+          "tts": {"prompt":"The soup was too hot, so Granny let it get — what?","healed":"The soup was too hot, so Granny let it get cool."}
+        },
+        {
+          "id": "cloze-soup-cold", "type": "cloze", "band": 1, "minimalPairId": "soup",
+          "tokens": [{"t":"The"},{"t":"soup"},{"t":"was"},{"t":"too"},{"t":"cold"},{"t":"so"},{"t":"Granny"},{"t":"let"},{"t":"it"},{"t":"get"},{"gap":true}],
+          "gapIndex": 10, "keystoneIndex": 4, "answer": "warm",
+          "pieces": [
+            {"value":"warm","text":"warm","pos":"ADJ","freqRank":2,"localAssocScore":2,"picsTrap":false},
+            {"value":"cool","text":"cool","pos":"ADJ","freqRank":1,"localAssocScore":3,"picsTrap":false},
+            {"value":"soft","text":"soft","pos":"ADJ","freqRank":3,"localAssocScore":1,"picsTrap":false}
+          ],
+          "picture": {"family":"soup-bowl","visibleObjects":["bowl","spoon"],"answerDetailInTornRegion":true,"aliveFx":["steam"]},
+          "tts": {"prompt":"The soup was too cold, so Granny let it get — what?","healed":"The soup was too cold, so Granny let it get warm."}
+        },
+        {
+          "id": "contra-rain", "type": "contradiction", "band": 2, "picsTrapExpected": true,
+          "tokens": [{"t":"It"},{"t":"was"},{"t":"raining"},{"t":"so"},{"t":"Granny"},{"t":"opened"},{"t":"her"},{"t":"umbrella"},{"t":"to"},{"t":"stay"},{"t":"wet"}],
+          "gapIndex": 10, "keystoneIndex": 2, "answer": "wet",
+          "extras": {"contradictionIndex": 10},
+          "pieces": [
+            {"value":"wet","text":"wet","pos":"ADJ","freqRank":2,"localAssocScore":1,"picsTrap":false},
+            {"value":"umbrella","text":"umbrella","pos":"N","freqRank":1,"localAssocScore":3,"picsTrap":true},
+            {"value":"raining","text":"raining","pos":"V","freqRank":3,"localAssocScore":2,"picsTrap":false}
+          ],
+          "picture": {"family":"rainy-window","visibleObjects":["window","rain"],"answerDetailInTornRegion":true,"aliveFx":["drip"]},
+          "tts": {"prompt":"One word does not make sense. Tap the word that is wrong.","healed":"It was raining, so Granny opened her umbrella to stay dry."}
+        },
+        {
+          "id": "contra-fire", "type": "contradiction", "band": 2,
+          "tokens": [{"t":"The"},{"t":"fire"},{"t":"was"},{"t":"warm"},{"t":"so"},{"t":"Granny"},{"t":"felt"},{"t":"cold"},{"t":"by"},{"t":"it"}],
+          "gapIndex": 7, "keystoneIndex": 3, "answer": "cold",
+          "extras": {"contradictionIndex": 7},
+          "pieces": [
+            {"value":"cold","text":"cold","pos":"ADJ","freqRank":2,"localAssocScore":1,"picsTrap":false},
+            {"value":"fire","text":"fire","pos":"N","freqRank":1,"localAssocScore":3,"picsTrap":true},
+            {"value":"warm","text":"warm","pos":"ADJ","freqRank":3,"localAssocScore":2,"picsTrap":false}
+          ],
+          "picture": {"family":"fireside","visibleObjects":["chair","rug"],"answerDetailInTornRegion":true,"aliveFx":["flicker"]},
+          "tts": {"prompt":"One word does not make sense. Tap the word that is wrong.","healed":"The fire was warm, so Granny felt warm by it."}
+        },
+        {
+          "id": "connect-dog", "type": "connect", "band": 2,
+          "tokens": [{"t":"The"},{"t":"dog"},{"t":"chased"},{"t":"the"},{"t":"ball"},{"t":"."},{"t":"Then"},{"gap":true},{"t":"brought"},{"t":"it"},{"t":"back"},{"t":"to"},{"t":"Granny"}],
+          "gapIndex": 7, "keystoneIndex": 1, "answer": "the dog",
+          "extras": {"referentIndex": 1, "referentPrompt": "Who chased the ball?"},
+          "pieces": [
+            {"value":"the dog","text":"the dog","pos":"N","freqRank":2,"localAssocScore":2,"picsTrap":false},
+            {"value":"the ball","text":"the ball","pos":"N","freqRank":1,"localAssocScore":3,"picsTrap":false},
+            {"value":"Granny","text":"Granny","pos":"N","freqRank":3,"localAssocScore":1,"picsTrap":false}
+          ],
+          "picture": {"family":"garden","visibleObjects":["garden","fence"],"answerDetailInTornRegion":true,"aliveFx":["sway"]},
+          "tts": {"prompt":"First tap who chased the ball. Then mend the page.","healed":"The dog chased the ball. Then the dog brought it back to Granny."}
+        },
+        {
+          "id": "connect-mouse", "type": "connect", "band": 2,
+          "tokens": [{"t":"A"},{"t":"little"},{"t":"mouse"},{"t":"found"},{"t":"some"},{"t":"cheese"},{"t":"."},{"t":"Quickly"},{"gap":true},{"t":"ran"},{"t":"to"},{"t":"its"},{"t":"hole"}],
+          "gapIndex": 8, "keystoneIndex": 2, "answer": "the mouse",
+          "extras": {"referentIndex": 2, "referentPrompt": "Who found the cheese?"},
+          "pieces": [
+            {"value":"the mouse","text":"the mouse","pos":"N","freqRank":2,"localAssocScore":2,"picsTrap":false},
+            {"value":"the cheese","text":"the cheese","pos":"N","freqRank":1,"localAssocScore":3,"picsTrap":false},
+            {"value":"the hole","text":"the hole","pos":"N","freqRank":3,"localAssocScore":1,"picsTrap":false}
+          ],
+          "picture": {"family":"garden","visibleObjects":["wall","grass"],"answerDetailInTornRegion":true,"aliveFx":["sway"]},
+          "tts": {"prompt":"First tap who found the cheese. Then mend the page.","healed":"A little mouse found some cheese. Quickly the mouse ran to its hole."}
+        },
+        {
+          "id": "place-cat-under", "type": "placement", "band": 3, "minimalPairId": "cat-quilt",
+          "tokens": [{"t":"The"},{"t":"shy"},{"t":"cat"},{"t":"is"},{"t":"hiding"},{"t":"under"},{"t":"the"},{"t":"warm"},{"t":"quilt"}],
+          "gapIndex": 5, "keystoneIndex": 5, "answer": "under",
+          "extras": {"zones": ["on", "under", "beside", "in-front", "behind"], "figure": "cat"},
+          "picture": {"family":"cat-quilt","visibleObjects":["quilt","bed"],"answerDetailInTornRegion":true,"aliveFx":["purr"]},
+          "tts": {"prompt":"Read it, then put the cat where it belongs.","healed":"The shy cat is hiding under the warm quilt."}
+        },
+        {
+          "id": "place-cat-on", "type": "placement", "band": 3, "minimalPairId": "cat-quilt",
+          "tokens": [{"t":"The"},{"t":"shy"},{"t":"cat"},{"t":"is"},{"t":"hiding"},{"t":"on"},{"t":"the"},{"t":"warm"},{"t":"quilt"}],
+          "gapIndex": 5, "keystoneIndex": 5, "answer": "on",
+          "extras": {"zones": ["on", "under", "beside", "in-front", "behind"], "figure": "cat"},
+          "picture": {"family":"cat-quilt","visibleObjects":["quilt","bed"],"answerDetailInTornRegion":true,"aliveFx":["purr"]},
+          "tts": {"prompt":"Read it, then put the cat where it belongs.","healed":"The shy cat is hiding on the warm quilt."}
+        },
+        {
+          "id": "match-bow", "type": "match", "band": 3,
+          "tokens": [{"t":"By"},{"t":"the"},{"t":"old"},{"t":"door"},{"t":"sat"},{"t":"the"},{"t":"cat"},{"t":"with"},{"t":"a"},{"t":"red"},{"t":"bow"}],
+          "gapIndex": 9, "keystoneIndex": 9, "answer": 0,
+          "extras": {"pictures": 2, "matchPair": {"detail": "bow color", "a": "red bow", "b": "blue bow"}, "farWordIndex": 9},
+          "picture": {"family":"twin-cat-bow","visibleObjects":["cat","door"],"answerDetailInTornRegion":true,"aliveFx":["blink"]},
+          "tts": {"prompt":"Read it, then drop the page on the picture it matches.","healed":"By the old door sat the cat with a red bow."}
+        },
+        {
+          "id": "match-paw", "type": "match", "band": 3,
+          "tokens": [{"t":"In"},{"t":"the"},{"t":"park"},{"t":"ran"},{"t":"the"},{"t":"big"},{"t":"dog"},{"t":"with"},{"t":"one"},{"t":"white"},{"t":"paw"}],
+          "gapIndex": 9, "keystoneIndex": 9, "answer": 1,
+          "extras": {"pictures": 2, "matchPair": {"detail": "paw color", "a": "brown paws", "b": "one white paw"}, "farWordIndex": 9},
+          "picture": {"family":"twin-dog-paw","visibleObjects":["dog","park"],"answerDetailInTornRegion":true,"aliveFx":["wag"]},
+          "tts": {"prompt":"Read it, then drop the page on the picture it matches.","healed":"In the park ran the big dog with one white paw."}
+        },
+        {
+          "id": "seq-seed", "type": "sequence", "band": 4,
+          "strips": [{"id":"a","text":"Granny planted a tiny seed."},{"id":"b","text":"She watered it every day."},{"id":"c","text":"A tall flower grew up."}],
+          "answer": "seq", "extras": {"sequenceOrder": ["a", "b", "c"], "connective": "planted then watered then grew"},
+          "picture": {"family":"garden","visibleObjects":["pot","soil"],"answerDetailInTornRegion":true,"aliveFx":["bloom"]},
+          "tts": {"prompt":"Put the three strips in the right order.","healed":"Granny planted a tiny seed. She watered it every day. A tall flower grew up."}
+        },
+        {
+          "id": "seq-rain", "type": "sequence", "band": 4,
+          "strips": [{"id":"a","text":"The sky grew dark."},{"id":"b","text":"Big rain began to fall."},{"id":"c","text":"Granny opened her umbrella."}],
+          "answer": "seq", "extras": {"sequenceOrder": ["a", "b", "c"], "connective": "dark then rain then umbrella"},
+          "picture": {"family":"rainy-window","visibleObjects":["cloud","window"],"answerDetailInTornRegion":true,"aliveFx":["drip"]},
+          "tts": {"prompt":"Put the three strips in the right order.","healed":"The sky grew dark. Big rain began to fall. Granny opened her umbrella."}
+        },
+        {
+          "id": "sort-things", "type": "sort", "band": 4,
+          "items": [{"id":"i0","text":"It keeps your hands warm."},{"id":"i1","text":"It is sweet and good to bite."},{"id":"i2","text":"You put it on your head."}],
+          "answer": "sort", "extras": {"sortBins": ["wear", "eat"], "sortMap": {"i0": "wear", "i1": "eat", "i2": "wear"}},
+          "picture": {"family":"basket-sort","visibleObjects":["basket"],"answerDetailInTornRegion":true,"aliveFx":["fill"]},
+          "tts": {"prompt":"Read each one. Put it in the basket its meaning fits.","healed":"Some things you wear. Some things you eat."}
+        },
+        {
+          "id": "sort-daynight", "type": "sort", "band": 4,
+          "items": [{"id":"i0","text":"The bright sun is high up."},{"id":"i1","text":"The moon and stars are out."},{"id":"i2","text":"Birds sing in the green trees."}],
+          "answer": "sort", "extras": {"sortBins": ["day", "night"], "sortMap": {"i0": "day", "i1": "night", "i2": "day"}},
+          "picture": {"family":"garden","visibleObjects":["hill","sky"],"answerDetailInTornRegion":true,"aliveFx":["twinkle"]},
+          "tts": {"prompt":"Read each one. Put it in the basket its meaning fits.","healed":"Some things happen in the day. Some things happen at night."}
+        }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "mending-basket" },
+    "page_title": { "en": "Granny's Mending Basket — Read for Meaning (Grade 1)" },
+    "page_intro": { "en": "A free interactive Grade 1 reading game for reading with understanding: help Granny mend torn storybook pages by working out the piece the meaning needs — fill the gap, fix the word that doesn't fit, follow who the story means, or put the pictures in order — and each mended page develops from grey into colour. Reading closely for meaning is the heart of Common Core RF.1.4.a." }
+,
+    "kid_prompt_template": "mend-page"
+  }
+]

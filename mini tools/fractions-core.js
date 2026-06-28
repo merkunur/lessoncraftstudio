@@ -211,10 +211,15 @@ window.FractionsCore = {
     var midY = (box.top + box.bottom) / 2;   // 50 for both
     var w = box.right - box.left, h = box.bottom - box.top;
     if (n === 3 && cut === 'h') {
-      /* two horizontal cuts at exact thirds → 3 equal strips; distractor
-         off-position (16u above the first correct cut). */
+      /* two horizontal cuts at exact thirds → 3 equal strips. Distractor is an
+         ORTHOGONAL vertical centre cut: the short rect (h=44) can't fit a 3rd
+         HORIZONTAL ghost ≥16u from both thirds-lines AND inside the box, so the
+         old parallel offset (h1-16 = 26.67) fell ABOVE the top edge (28) — drawn
+         outside the shape. A vertical foil is fully inside, tappable (orthogonal
+         → no tap-target overlap with the horizontal lines), and a plausible
+         wrong cut for horizontal thirds. */
       var h1 = box.top + h / 3, h2 = box.top + 2 * h / 3;
-      return { correct: [this._lineH(box, h1), this._lineH(box, h2)], distractors: [this._lineH(box, h1 - 16)] };
+      return { correct: [this._lineH(box, h1), this._lineH(box, h2)], distractors: [this._lineV(box, midX)] };
     }
     if (n === 3) {
       /* two vertical cuts at exact thirds → 3 equal strips */

@@ -1,0 +1,81 @@
+[
+  {
+    "id": "pearl-opinion-page.back-it-up.ri-2-8",
+    "tool": "pearl-opinion-page-activity",
+    "task_template": "pearl-opinion-page",
+    "alignment": { "framework": "CCSS", "code": "RI.2.8", "grade": "2", "strand": "Reading: Informational Text" },
+    "params": {
+      "rounds": [
+        {
+          "id": "park", "band": 1, "point": "Our town should build a new park.",
+          "options": [
+            { "id": "o1", "kind": "reason", "text": "Children have nowhere safe to play." },
+            { "id": "o2", "kind": "restate", "text": "Our town really needs a brand-new park." },
+            { "id": "o3", "kind": "offtopic", "text": "The library closes at five o'clock." }
+          ]
+        },
+        {
+          "id": "helmet", "band": 1, "point": "Everyone should wear a helmet when biking.",
+          "options": [
+            { "id": "o1", "kind": "restate", "text": "Everyone should always wear a helmet." },
+            { "id": "o2", "kind": "reason", "text": "It protects your head in a crash." },
+            { "id": "o3", "kind": "offtopic", "text": "Red bikes look the coolest of all." }
+          ]
+        },
+        {
+          "id": "read", "band": 1, "point": "Kids should read for twenty minutes each day.",
+          "options": [
+            { "id": "o1", "kind": "restate", "text": "Kids should read a whole lot every day." },
+            { "id": "o2", "kind": "offtopic", "text": "Math class is right after lunch." },
+            { "id": "o3", "kind": "reason", "text": "Reading helps your brain grow strong." }
+          ]
+        },
+        {
+          "id": "garden", "band": 2, "point": "Our class should grow a garden.",
+          "options": [
+            { "id": "o1", "kind": "reason", "text": "Plants give us fresh food to eat." },
+            { "id": "o2", "kind": "offtopic", "text": "The bell rings at three o'clock." },
+            { "id": "o3", "kind": "restate", "text": "Our class should plant a big garden." }
+          ]
+        },
+        {
+          "id": "water", "band": 2, "point": "Students should bring water bottles to school.",
+          "options": [
+            { "id": "o1", "kind": "offtopic", "text": "Buses are painted bright yellow." },
+            { "id": "o2", "kind": "reason", "text": "Drinking keeps you healthy and awake." },
+            { "id": "o3", "kind": "restate", "text": "Students should bring water bottles daily." }
+          ]
+        },
+        {
+          "id": "lights", "band": 2, "point": "We should turn off lights to save power.",
+          "options": [
+            { "id": "o1", "kind": "restate", "text": "We should always turn the lights off." },
+            { "id": "o2", "kind": "offtopic", "text": "Fridays are pizza days at school." },
+            { "id": "o3", "kind": "reason", "text": "It is good for the whole planet." }
+          ]
+        },
+        {
+          "id": "dogs", "band": 3, "point": "Dogs should be walked every day.",
+          "options": [
+            { "id": "o1", "kind": "reason", "text": "Walking keeps a pet happy and fit." },
+            { "id": "o2", "kind": "restate", "text": "Dogs really should be walked all the time." },
+            { "id": "o3", "kind": "offtopic", "text": "Cats love to nap in the sun." }
+          ]
+        },
+        {
+          "id": "dishes", "band": 3, "point": "Children should help wash the dishes.",
+          "options": [
+            { "id": "o1", "kind": "offtopic", "text": "Spoons are smaller than forks." },
+            { "id": "o2", "kind": "reason", "text": "It teaches you to care for your home." },
+            { "id": "o3", "kind": "restate", "text": "Children should always help with the dishes." }
+          ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "pearls-opinion-page" },
+    "page_title": { "en": "Pearl's Opinion Page — Back It Up (Grade 2)" },
+    "page_intro": { "en": "Pearl the seal writes the opinion page, and every column makes a POINT — \"Our town should build a new park.\" Your job: tap the card that BACKS IT UP with a real reason, not a card that just says the same thing again or talks about something else. A warm Grade 2 reading game about how reasons support an author's point, aligned to Common Core RI.2.8." },
+    "kid_prompt_template": "pearl-opinion-page"
+  }
+]

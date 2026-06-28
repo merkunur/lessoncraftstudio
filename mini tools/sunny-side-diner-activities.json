@@ -1,0 +1,66 @@
+[
+  {
+    "id": "sunny-side-diner.compound-order.l-k-1-f",
+    "tool": "sunny-side-diner-activity",
+    "task_template": "compound-order",
+    "alignment": { "framework": "CCSS", "code": "L.K.1.F", "grade": "K", "strand": "Language" },
+    "params": {
+      "rounds": [
+        {
+          "id": "asm-pancake-milk", "type": "assemble", "band": 1, "customer": "bear",
+          "order": { "items": [{ "food": "pancake", "quantity": 2 }, { "food": "milk", "quantity": 1 }], "conjunction": { "lemma": "and" } },
+          "distractors": { "foods": ["egg", "juice"], "quantities": [1, 3] }
+        },
+        {
+          "id": "asm-egg-juice", "type": "assemble", "band": 1, "customer": "cat",
+          "order": { "items": [{ "food": "egg", "quantity": 2 }, { "food": "juice", "quantity": 1 }], "conjunction": { "lemma": "and" } },
+          "distractors": { "foods": ["waffle", "milk"], "quantities": [1, 3] }
+        },
+        {
+          "id": "asm-waffle-banana", "type": "assemble", "band": 1, "customer": "mouse",
+          "order": { "items": [{ "food": "waffle", "quantity": 1 }, { "food": "banana", "quantity": 2 }], "conjunction": { "lemma": "and" } },
+          "distractors": { "foods": ["cookie", "apple"], "quantities": [1, 3] }
+        },
+        {
+          "id": "ins-cookie-milk", "type": "insert-and", "band": 1, "customer": "bear",
+          "order": { "items": [{ "food": "cookie", "quantity": 3 }, { "food": "milk", "quantity": 1 }], "conjunction": { "lemma": "and" } },
+          "distractors": { "foods": [], "quantities": [] }
+        },
+        {
+          "id": "ins-muffin-juice", "type": "insert-and", "band": 1, "customer": "cat",
+          "order": { "items": [{ "food": "muffin", "quantity": 2 }, { "food": "juice", "quantity": 1 }], "conjunction": { "lemma": "and" } },
+          "distractors": { "foods": [], "quantities": [] }
+        },
+        {
+          "id": "rep-egg-milk", "type": "repair-item", "band": 2, "customer": "robot",
+          "order": { "items": [{ "food": "egg", "quantity": 2 }, { "food": "milk", "quantity": 1 }], "conjunction": { "lemma": "and" } },
+          "robotError": { "slot": 1, "wrongFood": "juice" },
+          "distractors": { "foods": ["juice", "waffle"], "quantities": [1, 3] }
+        },
+        {
+          "id": "rep-pancake-banana", "type": "repair-item", "band": 2, "customer": "robot",
+          "order": { "items": [{ "food": "pancake", "quantity": 1 }, { "food": "banana", "quantity": 2 }], "conjunction": { "lemma": "and" } },
+          "robotError": { "slot": 0, "wrongFood": "waffle" },
+          "distractors": { "foods": ["waffle", "apple"], "quantities": [1, 3] }
+        },
+        {
+          "id": "ext-pancake-milk-egg", "type": "extend", "band": 3, "customer": "mouse",
+          "order": { "items": [{ "food": "pancake", "quantity": 2 }, { "food": "milk", "quantity": 1 }], "conjunction": { "lemma": "and" } },
+          "extension": { "food": "egg", "quantity": 1 },
+          "distractors": { "foods": ["egg", "juice"], "quantities": [1, 3] }
+        },
+        {
+          "id": "ext-waffle-juice-banana", "type": "extend", "band": 3, "customer": "mouse",
+          "order": { "items": [{ "food": "waffle", "quantity": 1 }, { "food": "juice", "quantity": 1 }], "conjunction": { "lemma": "and" } },
+          "extension": { "food": "banana", "quantity": 2 },
+          "distractors": { "foods": ["banana", "cookie"], "quantities": [2, 3] }
+        }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "sunny-side-diner" },
+    "page_title": { "en": "Sunny-Side Diner — Say the Whole Order (Kindergarten)" },
+    "page_intro": { "en": "A free interactive Kindergarten speaking game for complete sentences: be the waiter at the Sunny-Side Diner. First LISTEN and gather the whole order on the tray; then SAY THE ORDER BACK as one complete sentence — \"two pancakes and a milk, please\" — joining the parts with the golden \"and\" coupler. That read-back is what makes the customer smile. Producing and expanding a complete compound sentence is the heart of Common Core L.K.1.F." },
+    "kid_prompt_template": "compound-order"
+  }
+]

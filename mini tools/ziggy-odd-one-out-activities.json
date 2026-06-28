@@ -1,0 +1,25 @@
+[
+  {
+    "id": "ziggy-odd-one-out.category.l-1-5-a",
+    "tool": "ziggy-odd-one-out-activity",
+    "task_template": "category",
+    "alignment": { "framework": "CCSS", "code": "L.1.5.a", "grade": "1", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "r-animals", "band": 1, "items": [ { "noun": "apple", "themeDir": "At the Supermarket", "category": "food" }, { "noun": "dog", "themeDir": "animals", "category": "animal" }, { "noun": "cat", "themeDir": "animals", "category": "animal" }, { "noun": "pig", "themeDir": "animals", "category": "animal" } ] },
+        { "id": "r-food", "band": 1, "items": [ { "noun": "banana", "themeDir": "At the Supermarket", "category": "food" }, { "noun": "grapes", "themeDir": "At the Supermarket", "category": "food" }, { "noun": "sock", "themeDir": "accessories", "category": "clothing" }, { "noun": "apple", "themeDir": "At the Supermarket", "category": "food" } ] },
+        { "id": "r-vehicles", "band": 1, "items": [ { "noun": "car", "themeDir": "toys", "category": "vehicle" }, { "noun": "train", "themeDir": "toys", "category": "vehicle" }, { "noun": "boat", "themeDir": "beach", "category": "vehicle" }, { "noun": "tree", "themeDir": "christmas", "category": "plant" } ] },
+        { "id": "r-clothing", "band": 2, "items": [ { "noun": "fish", "themeDir": "animals", "category": "animal" }, { "noun": "hat", "themeDir": "accessories", "category": "clothing" }, { "noun": "sock", "themeDir": "accessories", "category": "clothing" }, { "noun": "shoe", "themeDir": "clothing", "category": "clothing" } ] },
+        { "id": "r-plants", "band": 2, "items": [ { "noun": "rose", "themeDir": "flowers", "category": "plant" }, { "noun": "leaf", "themeDir": "miscellaneous", "category": "plant" }, { "noun": "car", "themeDir": "toys", "category": "vehicle" }, { "noun": "tree", "themeDir": "christmas", "category": "plant" } ] },
+        { "id": "r-birds", "band": 2, "items": [ { "noun": "robin", "themeDir": "birds 2", "category": "bird" }, { "noun": "duck", "themeDir": "animals", "category": "bird" }, { "noun": "owl", "themeDir": "animals", "category": "bird" }, { "noun": "cup", "themeDir": "around the house", "category": "object" } ] },
+        { "id": "r-objects", "band": 3, "items": [ { "noun": "dog", "themeDir": "animals", "category": "animal" }, { "noun": "cup", "themeDir": "around the house", "category": "object" }, { "noun": "spoon", "themeDir": "around the house", "category": "object" }, { "noun": "fork", "themeDir": "around the house", "category": "object" } ] },
+        { "id": "r-bugs", "band": 3, "items": [ { "noun": "bee", "themeDir": "farm animals", "category": "bug" }, { "noun": "ant", "themeDir": "forest creatures", "category": "bug" }, { "noun": "banana", "themeDir": "At the Supermarket", "category": "food" }, { "noun": "butterfly", "themeDir": "easter", "category": "bug" } ] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "ziggy-odd-one-out" },
+    "page_title": { "en": "Ziggy's Odd One Out — Which One Doesn't Belong? (Grade 1)" },
+    "page_intro": { "en": "Ziggy the zebra spots the one that stands out! Three of the four pictures belong to the same group — like animals, or foods. Tap the ONE that doesn't belong with the others. A Grade 1 vocabulary game about sorting things into categories, aligned to Common Core L.1.5.a." },
+    "kid_prompt_template": "Tap the one that doesn't belong!"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "booker-glossary-desk.guide-words.l-2-4-e",
+    "tool": "booker-glossary-desk-activity",
+    "task_template": "guide-words",
+    "alignment": { "framework": "CCSS", "code": "L.2.4.e", "grade": "2", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "cap-cot", "band": 1, "g1": "cap", "g2": "cot", "words": ["car", "can", "cup"] },
+        { "id": "bat-bug", "band": 1, "g1": "bat", "g2": "bug", "words": ["ant", "bee", "bun"] },
+        { "id": "dad-dog", "band": 1, "g1": "dad", "g2": "dog", "words": ["cat", "dot", "dig"] },
+        { "id": "fan-fox", "band": 2, "g1": "fan", "g2": "fox", "words": ["fig", "egg", "fun"] },
+        { "id": "map-mud", "band": 2, "g1": "map", "g2": "mud", "words": ["man", "mop", "nap"] },
+        { "id": "pat-pup", "band": 2, "g1": "pat", "g2": "pup", "words": ["pad", "rat", "pen"] },
+        { "id": "sea-sit", "band": 3, "g1": "sea", "g2": "sit", "words": ["see", "saw", "sky"] },
+        { "id": "ten-top", "band": 3, "g1": "ten", "g2": "top", "words": ["tag", "tip", "toy"] },
+        { "id": "bed-box", "band": 3, "g1": "bed", "g2": "box", "words": ["bag", "buy", "big"] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "booker-glossary-desk" },
+    "page_title": { "en": "Booker's Glossary Desk — Use Guide Words to Find the Page (Grade 2)" },
+    "page_intro": { "en": "A free interactive Grade 2 vocabulary game: Booker the bear keeps the glossary. Two guide words sit at the top of the page — tap the word that belongs ON this page, the one that comes between them in ABC order. Using guide words to find a word in a glossary or dictionary. Common Core L.2.4.e." },
+    "kid_prompt_template": "guide-words"
+  }
+]

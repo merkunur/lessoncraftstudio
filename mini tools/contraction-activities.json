@@ -1,0 +1,32 @@
+[
+  {
+    "id": "contraction.apostrophe.l-2-2-c",
+    "tool": "contraction-activity",
+    "task_template": "contraction",
+    "alignment": { "framework": "CCSS", "code": "L.2.2.c", "grade": "2", "strand": "Language" },
+    "theme": null,
+    "params": {
+      "rounds": [
+        { "id": "ct-dont",   "word1": "do",   "word2": "not",  "combined": "dont",  "apostropheIndex": 3, "wrongIndex": 2, "irregular": false, "family": "nt" },
+        { "id": "ct-isnt",   "word1": "is",   "word2": "not",  "combined": "isnt",  "apostropheIndex": 3, "wrongIndex": 2, "irregular": false, "family": "nt" },
+        { "id": "ct-didnt",  "word1": "did",  "word2": "not",  "combined": "didnt", "apostropheIndex": 4, "wrongIndex": 3, "irregular": false, "family": "nt" },
+        { "id": "ct-its",    "word1": "it",   "word2": "is",   "combined": "its",   "apostropheIndex": 2, "wrongIndex": 1, "irregular": false, "family": "s" },
+        { "id": "ct-youre",  "word1": "you",  "word2": "are",  "combined": "youre", "apostropheIndex": 3, "wrongIndex": 4, "irregular": false, "family": "re" },
+        { "id": "ct-youll",  "word1": "you",  "word2": "will", "combined": "youll", "apostropheIndex": 3, "wrongIndex": 4, "irregular": false, "family": "ll" },
+        { "id": "ct-im",     "word1": "I",    "word2": "am",   "combined": "Im",    "apostropheIndex": 1, "wrongIndex": 2, "irregular": false, "family": "m" },
+        { "id": "ct-wont",   "word1": "will", "word2": "not",  "combined": "wont",  "apostropheIndex": 3, "wrongIndex": 2, "irregular": true,  "family": "nt" },
+        { "id": "ct-cant",   "word1": "can",  "word2": "not",  "combined": "cant",  "apostropheIndex": 3, "wrongIndex": 2, "irregular": true,  "family": "nt" }
+      ]
+    },
+    "slug": {
+      "en": "contractions-with-apostrophes"
+    },
+    "page_title": {
+      "en": "Nib's Apostrophe Seat — Contractions (Grade 2)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 grammar activity: help Nib the apostrophe-spirit form contractions. Read the two words, then pick the contraction that drops the right letters and puts the apostrophe in exactly the right spot. A friendly first look at how an apostrophe marks the missing letters. Common Core L.2.2.c."
+    },
+    "kid_prompt_template": "contraction"
+  }
+]

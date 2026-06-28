@@ -1,0 +1,25 @@
+[
+  {
+    "id": "robin-mirror.reflexive.l-2-1-c",
+    "tool": "robin-mirror-activity",
+    "task_template": "robin-mirror",
+    "alignment": { "framework": "CCSS", "code": "L.2.1.c", "grade": "2", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "mia",   "band": 1, "sentence": "Mia poured the juice ___.",        "referent": "she",  "wrongA": "they", "wrongB": "i" },
+        { "id": "sam",   "band": 1, "sentence": "Sam fixed the bike ___.",          "referent": "he",   "wrongA": "she",  "wrongB": "i" },
+        { "id": "card",  "band": 1, "sentence": "I made this card all by ___.",     "referent": "i",    "wrongA": "he",   "wrongB": "they" },
+        { "id": "twins", "band": 2, "sentence": "The twins built the fort ___.",    "referent": "they", "wrongA": "she",  "wrongB": "i" },
+        { "id": "bread", "band": 2, "sentence": "We baked the bread ___.",          "referent": "we",   "wrongA": "he",   "wrongB": "they" },
+        { "id": "youcan","band": 2, "sentence": "You can tie your shoes ___!",      "referent": "you",  "wrongA": "she",  "wrongB": "we" },
+        { "id": "nan",   "band": 3, "sentence": "Nan painted the fence ___.",       "referent": "she",  "wrongA": "they", "wrongB": "i" },
+        { "id": "cat",   "band": 3, "sentence": "The cat washed ___ clean.",        "referent": "it",   "wrongA": "she",  "wrongB": "they" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "robins-mirror" },
+    "page_title": { "en": "Robin's Mirror — All By Myself (Grade 2)" },
+    "page_intro": { "en": "Robin holds up a mirror: a reflexive pronoun points right back at the one doing the action. Read each sentence, then tap the word that fills the blank and matches the subject — myself, herself, themselves, and friends. A warm Grade 2 grammar game about using reflexive pronouns correctly, aligned to Common Core L.2.1.c." },
+    "kid_prompt_template": "robin-mirror"
+  }
+]

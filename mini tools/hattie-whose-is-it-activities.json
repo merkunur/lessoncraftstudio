@@ -1,0 +1,25 @@
+[
+  {
+    "id": "hattie-whose-is-it.possessive.l-1-1-b",
+    "tool": "hattie-whose-is-it-activity",
+    "task_template": "possessive",
+    "alignment": { "framework": "CCSS", "code": "L.1.1.b", "grade": "1", "strand": "Language" },
+    "params": {
+      "rounds": [
+        { "id": "dog", "band": 1, "noun": "dog", "thing": "bone", "slot": 0 },
+        { "id": "cat", "band": 1, "noun": "cat", "thing": "ball", "slot": 1 },
+        { "id": "bird", "band": 1, "noun": "bird", "thing": "nest", "slot": 2 },
+        { "id": "girl", "band": 2, "noun": "girl", "thing": "hat", "slot": 0 },
+        { "id": "boy", "band": 2, "noun": "boy", "thing": "kite", "slot": 1 },
+        { "id": "duck", "band": 2, "noun": "duck", "thing": "egg", "slot": 2 },
+        { "id": "king", "band": 3, "noun": "king", "thing": "crown", "slot": 0 },
+        { "id": "frog", "band": 3, "noun": "frog", "thing": "log", "slot": 1 }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "hattie-whose-is-it" },
+    "page_title": { "en": "Hattie's Whose-Is-It — Possessive Nouns (Grade 1)" },
+    "page_intro": { "en": "Hattie the hedgehog runs the lost-and-found! When ONE owner owns something, we add an apostrophe and an s — the dog's bone. Read who owns it, then tap the word that shows ONE owner. A Grade 1 grammar game about possessive nouns, aligned to Common Core L.1.1.b." },
+    "kid_prompt_template": "Tap the word that shows ONE owner owns it."
+  }
+]

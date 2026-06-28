@@ -1,0 +1,25 @@
+[
+  {
+    "id": "ten-tank.ten-frame-tank.k-nbt-a-1",
+    "tool": "ten-tank-activity",
+    "task_template": "ten-frame-tank",
+    "alignment": { "framework": "CCSS", "code": "K.NBT.A.1", "grade": "K", "strand": "Number & Operations in Base Ten" },
+    "params": {
+      "rounds": [
+        { "id": "onramp-seal-10", "type": "seal", "mode": "compose", "band": 1, "assessment": false, "target": 10 },
+        { "id": "seal-13", "type": "seal", "mode": "compose", "band": 1, "target": 13 },
+        { "id": "ready-15", "type": "ready-ten", "mode": "compose", "band": 2, "target": 15 },
+        { "id": "decompose-16", "type": "decompose", "mode": "decompose", "band": 2, "target": 16 },
+        { "id": "regroup-12", "type": "regroup", "mode": "regroup", "band": 1, "target": 12 },
+        { "id": "repair-14", "type": "repair", "mode": "compose", "band": 3, "target": 14, "preset": { "ones": 2 } },
+        { "id": "audio-17", "type": "audio", "mode": "compose", "band": 3, "target": 17, "audioTarget": true },
+        { "id": "compare-13-18", "type": "compare", "mode": "compose", "band": 4, "target": 18, "comparePair": [13, 18] }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "deweys-ten-tank" },
+    "page_title": { "en": "Dewey's Ten-Tank — Make a Ten and Some Ones (Kindergarten)" },
+    "page_intro": { "en": "A free interactive Kindergarten place-value game: Dewey the duckling fills his pond-tank with glowing bubbles. When the tenth bubble drops, ten bubbles SEAL into one shimmering ten-raft — and the leftover bubbles are the \"and some more.\" Build, take apart, and compare the teen numbers 11–19 as a ten and some ones, recorded 10 + N. Understanding that a teen number is a ten and some ones is the heart of Common Core K.NBT.A.1." },
+    "kid_prompt_template": "ten-frame-tank"
+  }
+]

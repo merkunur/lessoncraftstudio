@@ -1,0 +1,31 @@
+[
+  {
+    "id": "mosaic-menders.area-match.3-md-c-6",
+    "tool": "mosaic-menders-activity",
+    "task_template": "area-match",
+    "alignment": { "framework": "CCSS", "code": "3.MD.C.6", "grade": "3", "strand": "Measurement & Data" },
+    "params": {
+      "rounds": [
+        { "target": "r2x3", "match": "bar6",  "decoys": ["r3x3", "r2x2"], "seed": 11 },
+        { "target": "r2x4", "match": "L8",    "decoys": ["r3x3", "bar4"], "seed": 23 },
+        { "target": "r3x4", "match": "r2x6",  "decoys": ["r3x5", "r3x3"], "seed": 35 },
+        { "target": "r2x5", "match": "bar10", "decoys": ["r3x4", "r2x2"], "seed": 47 },
+        { "target": "bar6", "match": "col6",  "decoys": ["r2x4", "r2x2"], "seed": 59 },
+        { "target": "r3x3", "match": "L9",    "decoys": ["r2x6", "r2x2"], "seed": 71 },
+        { "target": "r2x2", "match": "bar4",  "decoys": ["r2x3", "col6"], "seed": 83 },
+        { "target": "L8",   "match": "r2x4",  "decoys": ["r3x3", "bar6"], "seed": 95 }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "mosaic-menders-area"
+    },
+    "page_title": {
+      "en": "The Mosaic Menders — Area as Counting Unit Squares (Grade 3)"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 3 math activity: help Tessa find the mosaic that uses the same number of unit tiles. One look-alike has a bigger shape but the wrong count, so children must measure area by counting unit squares — not by which looks biggest. Area is a count of unit squares, the same no matter the shape. Common Core 3.MD.C.6."
+    },
+    "kid_prompt_template": "area-match"
+  }
+]

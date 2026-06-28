@@ -593,6 +593,7 @@ export default async function ActivitiesIndexPage({ params, searchParams }: Page
                     gradeLabel={gradeName(row.alignment.grade)}
                     code={row.alignment.code}
                     strandLabel={localizeStrand(row.alignment.strand, locale)}
+                    category={strandKey(row.alignment.strand)}
                     tryItLabel={strings.tryItLink}
                     previewUrl={previewIds.has(row.id) ? `/mini-tools/previews/${row.id}.webp` : undefined}
                   />

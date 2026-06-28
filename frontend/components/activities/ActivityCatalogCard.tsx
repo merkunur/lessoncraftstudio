@@ -23,6 +23,7 @@ export interface ActivityCatalogCardProps {
   gradeLabel: string; // localized educational level
   code: string; // CCSS code (machine anchor, stays English)
   strandLabel: string; // localized strand
+  category?: string; // strandKey() — topical glyph fallback when no preview/engine glyph
   tryItLabel: string;
   previewUrl?: string; // real rendered preview of the activity's play area
 }
@@ -35,6 +36,7 @@ export default function ActivityCatalogCard({
   gradeLabel,
   code,
   strandLabel,
+  category,
   tryItLabel,
   previewUrl,
 }: ActivityCatalogCardProps) {
@@ -64,6 +66,8 @@ export default function ActivityCatalogCard({
             <span className={`absolute w-[4.25rem] h-[4.25rem] md:w-20 md:h-20 rounded-full ${s.coin}`} aria-hidden="true" />
             <ActivityGlyph
               tool={tool}
+              category={category}
+              subject={subject}
               className={`relative w-11 h-11 md:w-12 md:h-12 ${s.glyph} transition-transform duration-300 group-hover:scale-110`}
             />
           </span>

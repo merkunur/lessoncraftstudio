@@ -3019,7 +3019,7 @@
         "q2": "¿Son gratis estos recursos de {code}?",
         "a2": "Sí. Todas las actividades y hojas de trabajo alineadas con {code} son gratis para usar en línea y para imprimir, sin registro y sin muro de pago.",
         "q3": "¿Para quién son estas actividades de {code}?",
-        "a3": "Están creadas para docentes y niños de {grade} que siguen la progresión de {strand} de Currículo LOMLOE, y sirven para práctica en clase, en grupos pequeños o en casa."
+        "a3": "Están creadas para docentes y niños de {grade} que siguen la progresión de {strand} de los planes y programas de estudio (SEP), y sirven para práctica en clase, en grupos pequeños o en casa."
       }
     }
   },
@@ -3956,10 +3956,10 @@
   "standardsPage": {
     "meta": {
       "title": "Actividades y hojas {code} gratis en 11 idiomas",
-      "description": "Actividades K-3 interactivas y hojas de trabajo imprimibles gratis alineadas al Currículo LOMLOE {code} ({strand}). Disponibles en 11 idiomas."
+      "description": "Actividades K-3 interactivas y hojas de trabajo imprimibles gratis alineadas con los planes y programas de estudio (SEP) {code} ({strand}). Disponibles en 11 idiomas."
     },
     "pageTitle": "{code} — Actividades y hojas gratis",
-    "intro": "Actividades y hojas Currículo LOMLOE {code} gratis para {grade}, alineadas al eje {strand}. Ejercicios interactivos jugables en el navegador más PDFs imprimibles, disponibles en los 11 idiomas soportados — sin registro, sin pago.",
+    "intro": "Actividades y hojas {code} gratis para {grade}, alineadas con los planes y programas de estudio (SEP) en el eje {strand}. Ejercicios interactivos jugables en el navegador más PDFs imprimibles, disponibles en los 11 idiomas soportados — sin registro, sin pago.",
     "activitiesHeading": "Actividades interactivas",
     "noActivitiesYet": "Aún no hay actividades publicadas alineadas a este estándar. Vuelve pronto.",
     "relatedStandardsHeading": "Estándares relacionados en {domain}",

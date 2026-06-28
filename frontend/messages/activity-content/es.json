@@ -1,24 +1,202 @@
 {
-  "labels": {"about":"Acerca de esta actividad","practices":"Lo que su hijo/a practica","howToPlay":"Cómo jugar","learningGoals":"Objetivos de aprendizaje","whatsInside":"Qué incluye esta actividad"},
+  "labels": {
+    "about": "Acerca de esta actividad",
+    "practices": "Lo que su hijo/a practica",
+    "howToPlay": "Cómo jugar",
+    "learningGoals": "Objetivos de aprendizaje",
+    "whatsInside": "Qué incluye esta actividad"
+  },
   "templates": {
     "byStrand": {
-      "Counting & Cardinality": {"about":["Esta es una actividad de conteo gratuita e interactiva para los más pequeños, que trabaja con números hasta {max}. Funciona directamente en el navegador en tabletas, teléfonos y computadoras del aula: no hay nada que instalar, ninguna cuenta que crear y ninguna configuración para el maestro.","La actividad está alineada con el currículo oficial, dentro del eje del sentido numérico. Los niños reciben una respuesta suave e inmediata mientras avanzan, de modo que pueden seguir intentándolo hasta que la respuesta les parezca correcta. No hay cronómetro ni puntaje: solo práctica tranquila y manipulativa."],"practices":["Contar un grupo de objetos uno por uno y decir cuántos hay en total","Relacionar un número dicho o escrito con la cantidad correcta","Reconocer cantidades pequeñas a simple vista, sin contar cada vez","Trabajar con cuidado y confianza con números hasta {max}"],"howToPlay":["Los niños observan las imágenes en la pantalla y leen o escuchan la consigna.","Cuentan los elementos y luego tocan para colocar fichas o eligen el número que coincide.","Una comprobación amable muestra cuándo la respuesta es correcta, con una manera sencilla de volver a intentarlo: aquí los errores son parte del aprendizaje y nunca se castigan."],"learningGoals":["Contar un conjunto de objetos con precisión y decir cuántos hay.","Comprender que el último número contado nombra el tamaño de todo el grupo, la idea central detrás del currículo oficial.","Desarrollar el sentido numérico temprano del que surgen la suma, la resta y el valor posicional."]},
-      "Number & Operations in Base Ten": {"about":["Esta actividad gratuita e interactiva de valor posicional ayuda a los niños a ver cómo nuestro sistema numérico se construye en torno a grupos de diez, usando números hasta {max}. Funciona en cualquier navegador moderno, en una tableta, un teléfono o la pizarra del aula, sin necesidad de descargar nada.","Está alineada con el currículo oficial, dentro del eje del sentido numérico. Los niños trabajan a su propio ritmo con una respuesta cálida e inmediata, y no hay cronómetro ni puntaje que los apure."],"practices":["Ver un número de dos cifras como un grupo de decenas más algunas unidades","Formar números hasta {max} a partir de decenas y unidades","Leer y escribir números y relacionarlos con una imagen de la cantidad","Notar los patrones que hacen que los números más grandes sean más fáciles de entender"],"howToPlay":["Los niños leen la consigna y observan los marcos de diez o los bloques en la pantalla.","Completan, forman o eligen para que coincida con el número solicitado.","Una comprobación suave confirma una respuesta correcta e invita a intentarlo de nuevo cuando hace falta: una práctica tranquila y sin presión en todo momento."],"learningGoals":["Comprender un número adolescente o de dos cifras como algunas decenas y algunas unidades.","Formar y leer números hasta {max} con confianza, el corazón del currículo oficial.","Sentar la base diez sobre la que se apoyan la suma y la resta de varias cifras."]},
-      "Operations & Algebraic Thinking": {"about":["Esta actividad gratuita e interactiva ofrece a los niños práctica manipulativa con las primeras ideas de suma y resta, trabajando con cantidades hasta {max}. Funciona directamente en el navegador en cualquier dispositivo, sin nada que instalar y sin inicio de sesión.","Está alineada con el currículo oficial, dentro del eje del sentido numérico. La respuesta es inmediata y alentadora, y no hay cronómetro ni puntaje: los niños pueden reflexionar a su propio ritmo."],"practices":["Juntar grupos y separarlos para averiguar cuántos hay","Ver distintas maneras de formar el mismo número","Resolver situaciones sencillas de problemas con imágenes y fichas","Razonar sobre cantidades hasta {max}"],"howToPlay":["Los niños leen la consigna y observan los grupos de objetos en la pantalla.","Combinan, separan o eligen para responder la pregunta.","Una comprobación amable muestra cuándo aciertan, con una oportunidad relajada de volver a intentarlo."],"learningGoals":["Sumar y restar con números pequeños usando objetos e imágenes.","Comprender la suma como juntar y la resta como separar, la idea detrás del currículo oficial.","Desarrollar el sentido numérico flexible sobre el que se construye el cálculo mental fluido."]},
-      "Geometry": {"about":["Esta actividad gratuita e interactiva de figuras ayuda a los niños pequeños a observar, nombrar y comparar las figuras que los rodean. Funciona directamente en el navegador en tabletas, teléfonos y computadoras del aula, sin nada que instalar y sin necesidad de cuenta.","Está alineada con el currículo oficial, dentro del eje del sentido espacial. Los niños exploran a su propio ritmo con una respuesta suave e inmediata: sin cronómetro, sin puntaje, solo práctica lúdica."],"practices":["Reconocer y nombrar figuras cotidianas de dos y tres dimensiones","Notar cuántos lados y vértices tiene una figura","Distinguir las figuras planas de los cuerpos sólidos","Describir y comparar figuras con sus propias palabras"],"howToPlay":["Los niños observan las figuras en la pantalla y leen o escuchan la consigna.","Tocan la figura que coincide o clasifican las figuras en el grupo correcto.","Una comprobación cálida confirma una elección correcta y ofrece un reintento sencillo cuando hace falta."],"learningGoals":["Nombrar y describir figuras comunes con creciente confianza.","Distinguir las figuras de dos dimensiones (planas) de las de tres dimensiones (sólidas), el enfoque del currículo oficial.","Desarrollar el vocabulario espacial sobre el que se apoyan más adelante la geometría y la medición."]},
-      "Measurement & Data": {"about":["Esta actividad de medición, gratuita e interactiva, ayuda a los niños pequeños a comparar objetos por su tamaño —más alto, más corto y más largo— sin necesidad de contar. Funciona directamente en el navegador en tabletas, teléfonos y computadoras del aula, sin nada que instalar y sin necesidad de cuenta.","Está alineada con el currículo oficial, en el área {strand}. Los niños comparan a su propio ritmo con una respuesta suave e inmediata: sin cronómetro, sin puntaje, solo práctica lúdica para observar con atención cómo se miden las cosas."],"practices":["Comparar dos objetos directamente según un atributo medible, como la longitud o la altura","Decidir qué objeto es más alto, más corto o más largo","Describir con sus propias palabras la diferencia entre dos tamaños","Observar con atención y razonar sobre el tamaño en lugar de contar"],"howToPlay":["Los niños observan dos imágenes del mismo objeto mostradas en tamaños diferentes y leen o escuchan la consigna.","Tocan la que es más alta, más corta o más larga, según lo que pida la consigna.","Una comprobación amable confirma el acierto y ofrece un nuevo intento sencillo cuando hace falta."],"learningGoals":["Comparar directamente dos objetos según un atributo medible: el objetivo del currículo oficial.","Usar las palabras más alto, más corto y más largo para describir y comparar tamaños.","Construir el vocabulario inicial de medición en el que después se apoya el trabajo con la longitud, el peso y los datos."]},
-      "Reading: Foundational Skills": {"about":["Esta actividad gratuita e interactiva de lectura ofrece a los niños práctica manipulativa para sonorizar y formar palabras. Funciona directamente en el navegador en tabletas, teléfonos y computadoras del aula, sin nada que instalar y sin cuenta que configurar.","Está alineada con el currículo oficial, dentro del eje de la comprensión lectora. Cada palabra se revisa para garantizar una separación precisa y segura para los niños, y la respuesta es suave e inmediata: no hay cronómetro ni puntaje."],"practices":["Separar las palabras en sonidos o sílabas y volver a unirlos","Relacionar las letras y los grupos de letras con los sonidos que producen","Formar palabras cortas y decodificables paso a paso","Escuchar y decir cada parte de una palabra en orden"],"howToPlay":["Los niños observan la imagen o escuchan la palabra y luego leen la consigna.","Tocan los sonidos o las sílabas en orden para formar la palabra.","Una comprobación amable lee en voz alta la palabra terminada e invita a intentarlo de nuevo cuando hace falta."],"learningGoals":["Unir sonidos y sílabas para leer y formar palabras sencillas.","Conectar los sonidos hablados con las letras escritas, el núcleo del currículo oficial.","Desarrollar las destrezas de decodificación sobre las que se construye una lectura segura e independiente."]},
-      "Phonological Awareness": {"about":["Esta actividad gratuita e interactiva de escucha ayuda a los niños a oír y jugar con los sonidos dentro de las palabras habladas. Funciona directamente en el navegador en cualquier dispositivo, sin nada que instalar y sin necesidad de inicio de sesión.","Está alineada con el currículo oficial, dentro del eje de la conciencia fonológica. La respuesta es cálida e inmediata, y no hay cronómetro ni puntaje que apure a los más pequeños."],"practices":["Oír los sonidos y las sílabas por separado en las palabras habladas","Unir sonidos para formar una palabra","Separar una palabra en sus sonidos","Escuchar rimas y sonidos iniciales"],"howToPlay":["Los niños escuchan u observan la palabra y luego leen la consigna.","Tocan para elegir, unir o separar los sonidos solicitados.","Una comprobación suave confirma una respuesta correcta con una oportunidad sencilla de volver a intentarlo."],"learningGoals":["Oír, unir y separar los sonidos en las palabras habladas.","Desarrollar las destrezas de escucha que describe el currículo oficial.","Desarrollar la conciencia de los sonidos de la que dependen el éxito en la lectura y la escritura."]}
+      "Counting & Cardinality": {
+        "about": [
+          "Esta es una actividad de conteo gratuita e interactiva para los más pequeños, que trabaja con números hasta {max}. Funciona directamente en el navegador en tabletas, teléfonos y computadoras del aula: no hay nada que instalar, ninguna cuenta que crear y ninguna configuración para el maestro.",
+          "La actividad está alineada con el currículo oficial, dentro del eje del sentido numérico. Los niños reciben una respuesta suave e inmediata mientras avanzan, de modo que pueden seguir intentándolo hasta que la respuesta les parezca correcta. No hay cronómetro ni puntaje: solo práctica tranquila y manipulativa."
+        ],
+        "practices": [
+          "Contar un grupo de objetos uno por uno y decir cuántos hay en total",
+          "Relacionar un número dicho o escrito con la cantidad correcta",
+          "Reconocer cantidades pequeñas a simple vista, sin contar cada vez",
+          "Trabajar con cuidado y confianza con números hasta {max}"
+        ],
+        "howToPlay": [
+          "Los niños observan las imágenes en la pantalla y leen o escuchan la consigna.",
+          "Cuentan los elementos y luego tocan para colocar fichas o eligen el número que coincide.",
+          "Una comprobación amable muestra cuándo la respuesta es correcta, con una manera sencilla de volver a intentarlo: aquí los errores son parte del aprendizaje y nunca se castigan."
+        ],
+        "learningGoals": [
+          "Contar un conjunto de objetos con precisión y decir cuántos hay.",
+          "Comprender que el último número contado nombra el tamaño de todo el grupo, la idea central detrás del currículo oficial.",
+          "Desarrollar el sentido numérico temprano del que surgen la suma, la resta y el valor posicional."
+        ]
+      },
+      "Number & Operations in Base Ten": {
+        "about": [
+          "Esta actividad gratuita e interactiva de valor posicional ayuda a los niños a ver cómo nuestro sistema numérico se construye en torno a grupos de diez, usando números hasta {max}. Funciona en cualquier navegador moderno, en una tableta, un teléfono o la pizarra del aula, sin necesidad de descargar nada.",
+          "Está alineada con el currículo oficial, dentro del eje del sentido numérico. Los niños trabajan a su propio ritmo con una respuesta cálida e inmediata, y no hay cronómetro ni puntaje que los apure."
+        ],
+        "practices": [
+          "Ver un número de dos cifras como un grupo de decenas más algunas unidades",
+          "Formar números hasta {max} a partir de decenas y unidades",
+          "Leer y escribir números y relacionarlos con una imagen de la cantidad",
+          "Notar los patrones que hacen que los números más grandes sean más fáciles de entender"
+        ],
+        "howToPlay": [
+          "Los niños leen la consigna y observan los marcos de diez o los bloques en la pantalla.",
+          "Completan, forman o eligen para que coincida con el número solicitado.",
+          "Una comprobación suave confirma una respuesta correcta e invita a intentarlo de nuevo cuando hace falta: una práctica tranquila y sin presión en todo momento."
+        ],
+        "learningGoals": [
+          "Comprender un número adolescente o de dos cifras como algunas decenas y algunas unidades.",
+          "Formar y leer números hasta {max} con confianza, el corazón del currículo oficial.",
+          "Sentar la base diez sobre la que se apoyan la suma y la resta de varias cifras."
+        ]
+      },
+      "Operations & Algebraic Thinking": {
+        "about": [
+          "Esta actividad gratuita e interactiva ofrece a los niños práctica manipulativa con las primeras ideas de suma y resta, trabajando con cantidades hasta {max}. Funciona directamente en el navegador en cualquier dispositivo, sin nada que instalar y sin inicio de sesión.",
+          "Está alineada con el currículo oficial, dentro del eje del sentido numérico. La respuesta es inmediata y alentadora, y no hay cronómetro ni puntaje: los niños pueden reflexionar a su propio ritmo."
+        ],
+        "practices": [
+          "Juntar grupos y separarlos para averiguar cuántos hay",
+          "Ver distintas maneras de formar el mismo número",
+          "Resolver situaciones sencillas de problemas con imágenes y fichas",
+          "Razonar sobre cantidades hasta {max}"
+        ],
+        "howToPlay": [
+          "Los niños leen la consigna y observan los grupos de objetos en la pantalla.",
+          "Combinan, separan o eligen para responder la pregunta.",
+          "Una comprobación amable muestra cuándo aciertan, con una oportunidad relajada de volver a intentarlo."
+        ],
+        "learningGoals": [
+          "Sumar y restar con números pequeños usando objetos e imágenes.",
+          "Comprender la suma como juntar y la resta como separar, la idea detrás del currículo oficial.",
+          "Desarrollar el sentido numérico flexible sobre el que se construye el cálculo mental fluido."
+        ]
+      },
+      "Geometry": {
+        "about": [
+          "Esta actividad gratuita e interactiva de figuras ayuda a los niños pequeños a observar, nombrar y comparar las figuras que los rodean. Funciona directamente en el navegador en tabletas, teléfonos y computadoras del aula, sin nada que instalar y sin necesidad de cuenta.",
+          "Está alineada con el currículo oficial, dentro del eje del sentido espacial. Los niños exploran a su propio ritmo con una respuesta suave e inmediata: sin cronómetro, sin puntaje, solo práctica lúdica."
+        ],
+        "practices": [
+          "Reconocer y nombrar figuras cotidianas de dos y tres dimensiones",
+          "Notar cuántos lados y vértices tiene una figura",
+          "Distinguir las figuras planas de los cuerpos sólidos",
+          "Describir y comparar figuras con sus propias palabras"
+        ],
+        "howToPlay": [
+          "Los niños observan las figuras en la pantalla y leen o escuchan la consigna.",
+          "Tocan la figura que coincide o clasifican las figuras en el grupo correcto.",
+          "Una comprobación cálida confirma una elección correcta y ofrece un reintento sencillo cuando hace falta."
+        ],
+        "learningGoals": [
+          "Nombrar y describir figuras comunes con creciente confianza.",
+          "Distinguir las figuras de dos dimensiones (planas) de las de tres dimensiones (sólidas), el enfoque del currículo oficial.",
+          "Desarrollar el vocabulario espacial sobre el que se apoyan más adelante la geometría y la medición."
+        ]
+      },
+      "Measurement & Data": {
+        "about": [
+          "Esta actividad de medición, gratuita e interactiva, ayuda a los niños pequeños a comparar objetos por su tamaño —más alto, más corto y más largo— sin necesidad de contar. Funciona directamente en el navegador en tabletas, teléfonos y computadoras del aula, sin nada que instalar y sin necesidad de cuenta.",
+          "Está alineada con el currículo oficial, en el área {strand}. Los niños comparan a su propio ritmo con una respuesta suave e inmediata: sin cronómetro, sin puntaje, solo práctica lúdica para observar con atención cómo se miden las cosas."
+        ],
+        "practices": [
+          "Comparar dos objetos directamente según un atributo medible, como la longitud o la altura",
+          "Decidir qué objeto es más alto, más corto o más largo",
+          "Describir con sus propias palabras la diferencia entre dos tamaños",
+          "Observar con atención y razonar sobre el tamaño en lugar de contar"
+        ],
+        "howToPlay": [
+          "Los niños observan dos imágenes del mismo objeto mostradas en tamaños diferentes y leen o escuchan la consigna.",
+          "Tocan la que es más alta, más corta o más larga, según lo que pida la consigna.",
+          "Una comprobación amable confirma el acierto y ofrece un nuevo intento sencillo cuando hace falta."
+        ],
+        "learningGoals": [
+          "Comparar directamente dos objetos según un atributo medible: el objetivo del currículo oficial.",
+          "Usar las palabras más alto, más corto y más largo para describir y comparar tamaños.",
+          "Construir el vocabulario inicial de medición en el que después se apoya el trabajo con la longitud, el peso y los datos."
+        ]
+      },
+      "Reading: Foundational Skills": {
+        "about": [
+          "Esta actividad gratuita e interactiva de lectura ofrece a los niños práctica manipulativa para sonorizar y formar palabras. Funciona directamente en el navegador en tabletas, teléfonos y computadoras del aula, sin nada que instalar y sin cuenta que configurar.",
+          "Está alineada con el currículo oficial, dentro del eje de la comprensión lectora. Cada palabra se revisa para garantizar una separación precisa y segura para los niños, y la respuesta es suave e inmediata: no hay cronómetro ni puntaje."
+        ],
+        "practices": [
+          "Separar las palabras en sonidos o sílabas y volver a unirlos",
+          "Relacionar las letras y los grupos de letras con los sonidos que producen",
+          "Formar palabras cortas y decodificables paso a paso",
+          "Escuchar y decir cada parte de una palabra en orden"
+        ],
+        "howToPlay": [
+          "Los niños observan la imagen o escuchan la palabra y luego leen la consigna.",
+          "Tocan los sonidos o las sílabas en orden para formar la palabra.",
+          "Una comprobación amable lee en voz alta la palabra terminada e invita a intentarlo de nuevo cuando hace falta."
+        ],
+        "learningGoals": [
+          "Unir sonidos y sílabas para leer y formar palabras sencillas.",
+          "Conectar los sonidos hablados con las letras escritas, el núcleo del currículo oficial.",
+          "Desarrollar las destrezas de decodificación sobre las que se construye una lectura segura e independiente."
+        ]
+      },
+      "Phonological Awareness": {
+        "about": [
+          "Esta actividad gratuita e interactiva de escucha ayuda a los niños a oír y jugar con los sonidos dentro de las palabras habladas. Funciona directamente en el navegador en cualquier dispositivo, sin nada que instalar y sin necesidad de inicio de sesión.",
+          "Está alineada con el currículo oficial, dentro del eje de la conciencia fonológica. La respuesta es cálida e inmediata, y no hay cronómetro ni puntaje que apure a los más pequeños."
+        ],
+        "practices": [
+          "Oír los sonidos y las sílabas por separado en las palabras habladas",
+          "Unir sonidos para formar una palabra",
+          "Separar una palabra en sus sonidos",
+          "Escuchar rimas y sonidos iniciales"
+        ],
+        "howToPlay": [
+          "Los niños escuchan u observan la palabra y luego leen la consigna.",
+          "Tocan para elegir, unir o separar los sonidos solicitados.",
+          "Una comprobación suave confirma una respuesta correcta con una oportunidad sencilla de volver a intentarlo."
+        ],
+        "learningGoals": [
+          "Oír, unir y separar los sonidos en las palabras habladas.",
+          "Desarrollar las destrezas de escucha que describe el currículo oficial.",
+          "Desarrollar la conciencia de los sonidos de la que dependen el éxito en la lectura y la escritura."
+        ]
+      }
     },
-    "generic": {"about":["Esta es una actividad de aprendizaje gratuita e interactiva para niños pequeños que funciona directamente en el navegador en tabletas, teléfonos y computadoras del aula. No hay nada que instalar, ninguna cuenta que crear y ninguna configuración para el maestro.","Está alineada con el currículo oficial, dentro del eje de {strand}. Los niños trabajan a su propio ritmo con una respuesta suave e inmediata, y no hay cronómetro ni puntaje: solo práctica tranquila y manipulativa."],"practices":["Trabajar la destreza de {strand} que está en el corazón de esta actividad","Relacionar imágenes, números o palabras con la idea que se practica","Intentar, comprobar y volver a intentar sin ninguna presión","Desarrollar la confianza paso a paso"],"howToPlay":["Los niños leen o escuchan la consigna y observan lo que se muestra en la pantalla.","Tocan para responder o construir su respuesta.","Una comprobación amable muestra cuándo aciertan, con una manera sencilla de volver a intentarlo."],"learningGoals":["Practicar y reforzar la destreza de {strand} que hay detrás del currículo oficial.","Sentirse cómodos al aplicar la idea de una manera lúdica y sin presión.","Construir una base sobre la que pueda crecer el aprendizaje posterior."]},
-    "whatsInsideRange":"Números del {min} al {max}","whatsInsideTheme":"Fichas con imágenes de {theme} que los niños pueden reconocer","whatsInsideGrade":"Diseñada para estudiantes de {grade}.º grado (de 5 a 9 años aproximadamente)","whatsInsideStrand":"Eje del currículo: {strand}","whatsInsideCode":"Alineada con el currículo oficial"
+    "generic": {
+      "about": [
+        "Esta es una actividad de aprendizaje gratuita e interactiva para niños pequeños que funciona directamente en el navegador en tabletas, teléfonos y computadoras del aula. No hay nada que instalar, ninguna cuenta que crear y ninguna configuración para el maestro.",
+        "Está alineada con el currículo oficial, dentro del eje de {strand}. Los niños trabajan a su propio ritmo con una respuesta suave e inmediata, y no hay cronómetro ni puntaje: solo práctica tranquila y manipulativa."
+      ],
+      "practices": [
+        "Trabajar la destreza de {strand} que está en el corazón de esta actividad",
+        "Relacionar imágenes, números o palabras con la idea que se practica",
+        "Intentar, comprobar y volver a intentar sin ninguna presión",
+        "Desarrollar la confianza paso a paso"
+      ],
+      "howToPlay": [
+        "Los niños leen o escuchan la consigna y observan lo que se muestra en la pantalla.",
+        "Tocan para responder o construir su respuesta.",
+        "Una comprobación amable muestra cuándo aciertan, con una manera sencilla de volver a intentarlo."
+      ],
+      "learningGoals": [
+        "Practicar y reforzar la destreza de {strand} que hay detrás del currículo oficial.",
+        "Sentirse cómodos al aplicar la idea de una manera lúdica y sin presión.",
+        "Construir una base sobre la que pueda crecer el aprendizaje posterior."
+      ]
+    },
+    "whatsInsideRange": "Números del {min} al {max}",
+    "whatsInsideTheme": "Fichas con imágenes de {theme} que los niños pueden reconocer",
+    "whatsInsideGrade": "Diseñada para estudiantes de {grade}.º grado (de 5 a 9 años aproximadamente)",
+    "whatsInsideStrand": "Eje del currículo: {strand}",
+    "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
-        "Es una actividad de geometría para que el niño o la niña explore las partes iguales en figuras como cuadrados y rectángulos. Funciona en el navegador, sin instalar nada y sin crear ninguna cuenta.",
-        "La idea nueva es sencilla y poderosa: las partes iguales no tienen por qué verse igual. Un cuadrado dividido por la mitad y un cuadrado dividido de esquina a esquina muestran las dos mitades iguales, aunque los trozos tengan formas distintas. El niño o la niña ve una figura dividida en un número de partes iguales y elige otra figura dividida en ese mismo número de partes iguales, pero de otra manera. Las opciones que no sirven tienen partes desiguales, un número de partes equivocado o no están divididas. El niño o la niña no divide la figura, sino que reconoce que las partes iguales pueden tener formas distintas.",
-        "Está alineada con el currículo oficial, en el eje Sentido espacial: reconocer figuras divididas en dos, en tres y en cuatro partes iguales y nombrarlas como mitades, tercios y cuartos. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "El niño o la niña ve una figura dividida en partes iguales —un cuadrado o un rectángulo— y elige otra figura partida en ese mismo número de partes iguales, aunque los trozos tengan otra forma. Es una actividad de geometría gratuita e interactiva para 2.º de primaria que funciona en el navegador, sin instalar nada y sin crear cuenta.",
+        "La idea nueva es sencilla y poderosa: las partes iguales no tienen por qué verse igual. Un cuadrado dividido por la mitad y un cuadrado dividido de esquina a esquina muestran las dos mitades iguales, aunque los trozos tengan formas distintas. El niño o la niña ve una figura dividida en cierto número de partes iguales y elige otra figura dividida en ese mismo número de partes iguales, pero de otra manera. Las opciones que no sirven tienen partes desiguales, un número de partes equivocado o no están divididas. Aquí no se divide la figura, sino que se reconoce que las partes iguales pueden tener formas distintas.",
+        "Está alineada con los planes y programas de estudio (SEP), en el eje de geometría: reconocer figuras divididas en dos, en tres y en cuatro partes iguales y nombrarlas como mitades, tercios y cuartos. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
       ],
       "practices": [
         "Reconocer cuándo un cuadrado o un rectángulo está dividido en partes iguales.",
@@ -39,9 +217,9 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "En esta actividad, los niños y las niñas miran cuatro figuras —círculos, cuadrados y rectángulos— y tocan la que está dividida en partes iguales. Funciona en el navegador, sin instalar nada y sin crear ninguna cuenta.",
+        "El niño o la niña mira cuatro figuras —círculos, cuadrados y rectángulos— y toca la única que está dividida en partes iguales, del mismo tamaño. Es una actividad de geometría gratuita e interactiva para 1.º de primaria que funciona en el navegador, sin instalar nada y sin crear cuenta.",
         "La idea importante es que las partes sean justas: del mismo tamaño. En las otras figuras, las partes son desiguales, hay un número equivocado de partes, o la figura está entera y sin dividir. El niño o la niña no divide la figura: reconoce cuál ya está dividida en partes iguales.",
-        "Está alineada con el currículo oficial, en el eje {strand}: reconocer figuras divididas en dos y en cuatro partes iguales y nombrarlas como mitades y cuartos. Sin temporizador y sin puntuación, para que cada niño o niña observe con calma."
+        "Está alineada con los planes y programas de estudio (SEP), en el eje de geometría: reconocer figuras divididas en dos y en cuatro partes iguales y nombrarlas como mitades y cuartos. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
       ],
       "practices": [
         "Reconocer cuándo un círculo, un cuadrado o un rectángulo está dividido en partes iguales.",
@@ -60,32 +238,1269 @@
         "Construir la base de las mitades y los cuartos para entender más adelante las fracciones."
       ]
     },
-    "ten-frame.count-to-10.make-n.animals": ["Contar del 0 al 10 cobra vida cuando su hijo/a coloca animalitos uno a uno en el marco de diez. Cada casilla que llena le ayuda a entender que el número crece de uno en uno, y que cada cantidad tiene su lugar exacto.", "El cuadro de diez muestra de un vistazo \"qué tan lejos estamos del diez\": los espacios vacíos invitan a los niños a preguntarse cuántos faltan. Así, la actividad conecta el conteo con la cardinalidad, tal como propone la norma K.CC.B.4.", "Aquí no hay cronómetro ni puntaje. Su hijo/a puede tomarse el tiempo que necesite, repetir cuando quiera y disfrutar el proceso de construir cada número con calma y confianza."],
-    "ten-frame.count-to-20.make-n.fruits": ["Con un marco de diez doble y frutas para contar, su hijo/a explora los números del 0 al 20 de una forma muy visual. Va colocando cada fruta en su casilla y descubre cómo se forman las cantidades poco a poco.", "Al llenar el primer cuadro de diez completo y empezar el segundo, los niños empiezan a ver el veinte como \"un diez entero y algunos más\". Esta experiencia siembra las primeras ideas del valor posicional y refuerza la norma K.CC.B.4.", "La actividad no tiene cronómetro ni puntaje. Su hijo/a avanza a su propio ritmo, sin presión, concentrándose en comprender cada número en lugar de apurarse."],
-    "ten-frame.how-many.0-10.animals": ["En esta actividad su hijo/a observa un marco de diez con animalitos y responde cuántos hay, en el rango del 0 al 10. Es una invitación a mirar con atención y a confiar en lo que ven sus ojos.", "El cuadro de diez favorece el subitizar: con la práctica, los niños reconocen las cantidades de un solo vistazo, sin contar uno por uno. Así se fortalece la norma K.CC.B.5 de manera natural y significativa.", "No hay cronómetro ni puntaje en ningún momento. Su hijo/a puede pensar con tranquilidad, intentarlo de nuevo y celebrar cada descubrimiento a su propio ritmo."],
-    "ten-frame.write-numeral.0-20.fruits": ["Aquí su hijo/a cuenta las frutas en un marco de diez doble y luego escribe el número que corresponde, del 0 al 20. Es un puente entre lo que ve y cuenta y el símbolo escrito de esa cantidad.", "El cuadro de diez doble organiza las frutas de forma clara, y escribir el numeral ayuda a unir la cantidad con su representación escrita. Esta conexión es justo lo que busca la norma K.CC.A.3.", "La actividad se vive sin cronómetro y sin puntaje. Los niños tienen libertad para contar, verificar y escribir con calma, disfrutando cada paso del aprendizaje."],
-    "ten-frame.teen-numbers.make-n": ["Los números del 11 al 19 suelen ser un reto, y por eso esta actividad invita a su hijo/a a construirlos en un marco de diez doble. Cada número se arma como \"un diez completo y algunas unidades más\".", "Ver primero el cuadro de diez lleno y luego las unidades sueltas ayuda a los niños a comprender la estructura de estos números. Es una base sólida para el valor posicional y conecta de forma directa con la norma K.NBT.A.1.", "Sin cronómetro y sin puntaje, su hijo/a explora cada número con tranquilidad. Puede construir, observar y volver a intentarlo todas las veces que quiera, a su propio ritmo."],
-    "choice-board.sort-count.k-md-b-3": {
+    "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "Los niños y las niñas aprenden a organizar el mundo clasificando cosas en grupos — es una habilidad fundamental del pensamiento matemático. En la pantalla aparece una pila desordenada de imágenes amigables: animales, frutas y a veces vehículos, todos mezclados. El juego nombra UN grupo (\"¿Cuántos animales hay?\") y el niño o la niña decide cuántas imágenes pertenecen a ese grupo, luego toca el número.",
-        "Las imágenes están mezcladas a propósito — para responder \"¿cuántos animales?\", el niño no puede simplemente contar todo lo que ve. Debe mirar cada imagen, decidir qué es, apartar lo que no pertenece al grupo, y contar solo las imágenes nombradas. Así practican la observación cuidadosa y el pensamiento clasificatorio que usarán toda la vida.",
-        "Está alineada con el currículo oficial, en el área {strand}. Los niños y las niñas clasifican y cuentan a su propio ritmo con una retroalimentación amable e inmediata — sin temporizador, sin puntuación, solo clasificación tranquila y conteo sereno."
+        "\"Forma 3\", \"Forma 7\", \"Forma 10\": tu hijo o hija construye el número tocando los cuadros de un marco de diez para colocar exactamente esa cantidad de fichas con forma de animal, y luego pulsa Comprobar. Es una actividad de conteo gratis e interactiva para preescolar, con números del 0 al 10, que corre en el navegador sin instalar nada y sin cuenta.",
+        "El marco de diez es lo que hace que esto sea más que contar de memoria. Sus dos filas de cinco le dan a cada número una forma que el niño o la niña puede reconocer —el 4 llena casi toda la fila de arriba, el 10 llena el marco completo—, así el conteo empieza a conectarse con cuánto es de verdad un número. El alumno decide cuántos animales colocar y puede agregar o quitar algunos antes de comprobar, lo que mantiene el foco en el conteo uno a uno y no en adivinar. Es una actividad para preescolar (kínder).",
+        "Está alineada con los planes y programas de estudio (SEP): comprender la relación entre los números y las cantidades, y conectar el conteo con la cardinalidad. Sin temporizador y sin puntuación, con práctica tranquila."
       ],
       "practices": [
-        "Reconocer cada imagen y su categoría — animal, fruta, vehículo, u otra — con atención sostenida.",
-        "Contar solo el grupo nombrado, dejando a un lado lo que no pertenece.",
-        "Separar mentalmente una categoría del total para comunicar su cantidad.",
-        "Practicar el hábito de clasificar primero, contar después — destreza que sostiene todo trabajo con datos."
+        "Contar exactamente la cantidad de animales que pide la consigna.",
+        "Colocar una ficha por cuadro con un conteo cuidadoso de uno a uno.",
+        "Ver cómo cada número del 0 al 10 toma forma en el marco de diez de dos filas.",
+        "Conectar el número dicho o escrito con una cantidad real."
       ],
       "howToPlay": [
-        "Observa la pila mezclada de imágenes, escucha o lee el nombre del grupo que buscas — por ejemplo, frutas, animales, vehículos.",
-        "Decide cuántas imágenes pertenecen a ese grupo, toca el número que representa tu respuesta.",
-        "Recibe una devolución cálida — sin presión, sin puntaje — y prueba otra ronda si deseas."
+        "Lee la consigna para ver qué número formar, por ejemplo Forma 7.",
+        "Toca los cuadros del marco de diez para colocar exactamente esa cantidad de fichas con forma de animal y pulsa Comprobar.",
+        "¿No salió a la primera? Agrega o quita fichas y vuelve a intentarlo: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede formar cualquier número del 0 al 10 con fichas en un marco de diez.",
+        "El niño o la niña aprende a conectar el conteo con el cuánto, de modo que el último número contado dice la cantidad.",
+        "Construye el sentido numérico del marco de diez del que dependen la primera suma y el valor posicional."
+      ]
+    },
+    "ten-frame.count-to-20.make-n.fruits": {
+      "about": [
+        "La indicación dice qué número formar y el niño o la niña toca las casillas de un marco de diez doble para colocar exactamente esa cantidad de frutas en los dos marcos; después pulsa Comprobar. Llegar hasta el 20 significa un diez completo y algunas más. Esta actividad de conteo para preescolar, gratis e interactiva, se juega en el navegador, sin crear cuenta.",
+        "El marco de diez doble enseña la idea más importante sobre los números del 11 al 20: un diez completo y algunas más. Para formar el 14, el niño o la niña llena el primer marco hasta diez y luego agrega cuatro en el segundo, así que la estructura del número —diez y cuatro— queda a la vista. Pasar del diez es un paso real más allá de contar hasta diez, y los dos marcos le dan una manera de mantener el conteo ordenado sin perderse.",
+        "Está pensada para el nivel de preescolar o kínder, en el eje de conteo y cardinalidad de los planes y programas de estudio (SEP): conectar el conteo con la cardinalidad y extenderla más allá del diez. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Contar exactamente la cantidad de frutas que indica la consigna, hasta 20.",
+        "Llenar un marco de diez completo y luego seguir contando en el segundo.",
+        "Ver los números del 11 al 20 como un diez y algunas más.",
+        "Mantener un conteo cuidadoso, uno a uno, después del diez."
+      ],
+      "howToPlay": [
+        "Lee la indicación para saber qué número formar, hasta 20.",
+        "Toca las casillas del marco de diez doble para colocar exactamente esa cantidad de frutas; después pulsa Comprobar.",
+        "¿No salió a la primera? Agrega o quita frutas y vuelve a intentarlo: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Formar cualquier número del 0 al 20 con fichas en un marco de diez doble.",
+        "Ver los números mayores que diez como un diez completo y algunas unidades más.",
+        "Construir la base de contar a partir de un número y del valor posicional para las matemáticas de primer grado."
+      ]
+    },
+    "ten-frame.how-many.0-10.animals": {
+      "about": [
+        "Un marco de diez muestra un grupo de fichas con animales y hace una pregunta sencilla: ¿cuántos? El niño o la niña cuenta los animales (de 0 a 10) y escribe el numeral que coincide en el teclado. Es una actividad de conteo para preescolar (kínder), gratis e interactiva, que corre directo en el navegador, sin instalar nada y sin crear cuenta.",
+        "Este es el lado de «responder» del conteo. En lugar de armar un número, el niño o la niña lee una cantidad que ya está ahí y la nombra con un número escrito. Como las fichas se acomodan en las dos filas del marco de diez, poco a poco puede reconocer cantidades de un vistazo (una fila de arriba llena son cinco, el marco completo son diez) y comprobar contando de uno en uno. Ese paso de contar a un solo numeral escrito es el corazón de la cardinalidad.",
+        "Está alineada con los planes y programas de estudio (SEP): contar para responder a la pregunta «¿cuántos?» sobre objetos acomodados en un marco. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Contar un grupo de animales mostrado en un marco de diez.",
+        "Responder «¿cuántos?» con el número escrito correcto.",
+        "Reconocer el cinco y el diez a partir de las filas del marco.",
+        "Relacionar una cantidad contada con su numeral del 0 al 10."
+      ],
+      "howToPlay": [
+        "Mira el marco de diez y cuenta cuántos animales ves.",
+        "Escribe ese número en el teclado y pulsa Comprobar.",
+        "¿No salió a la primera? Cuenta otra vez e inténtalo de nuevo: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Contar para responder «¿cuántos?» sobre hasta diez objetos.",
+        "Nombrar una cantidad con el numeral escrito que le corresponde.",
+        "Formar la cardinalidad de la que dependen la lectura y la escritura de números."
+      ]
+    },
+    "ten-frame.write-numeral.0-20.fruits": {
+      "about": [
+        "Un marco de diez doble muestra un grupo de fichas con forma de fruta, y tu hijo o hija escribe el número de cuántas hay —contando de 0 a 20 y escribiendo la cifra en el teclado numérico—. Como un marco lleno son diez, puede seguir contando a partir de diez para los números del 11 al 20. Es una actividad de conteo gratuita e interactiva para preescolar (kínder) que funciona en el navegador, sin instalar nada y sin crear cuenta.",
+        "Esta actividad une el contar con el escribir. El niño o la niña lee una cantidad ya acomodada en dos marcos de diez y la nombra con una cifra escrita, incluyendo los números de dos cifras más allá del diez. Como un marco lleno son diez, puede contar a partir de diez en vez de empezar desde uno cada vez, y luego registrar lo que contó como un número escrito: la conexión entre la cantidad y el símbolo.",
+        "Está alineada con los planes y programas de estudio (SEP): escribir números del 0 al 20 y representar una cantidad de objetos con una cifra escrita. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+      ],
+      "practices": [
+        "Contar un grupo de frutas mostradas en un marco de diez doble.",
+        "Escribir la cifra del 0 al 20 para la cantidad contada.",
+        "Seguir contando a partir de un diez lleno para los números del 11 al 20.",
+        "Conectar una cantidad con su símbolo numérico escrito."
+      ],
+      "howToPlay": [
+        "Mira el marco de diez doble y cuenta cuántas frutas ves.",
+        "Escribe ese número en el teclado numérico, incluso los mayores de diez, y pulsa Comprobar.",
+        "¿No salió a la primera? Vuelve a contar e inténtalo otra vez: no hay temporizador ni puntaje."
+      ],
+      "learningGoals": [
+        "El niño o la niña aprende a representar una cantidad de hasta 20 objetos con una cifra escrita.",
+        "Tu hijo o hija escribe los números del 0 al 20, incluidos los de dos cifras.",
+        "Se construye la destreza de leer y escribir números sobre la que se apoya toda la notación matemática posterior."
+      ]
+    },
+    "ten-frame.teen-numbers.make-n": {
+      "about": [
+        "La instrucción nombra un número del 11 al 19 —como el 16— y el niño o la niña llena el primer marco de diez hasta completarlo y luego pone las unidades adicionales en un segundo marco, de modo que el 16 aparece como un diez y seis más. Armarlo así hace visible la estructura escondida del número. Es una actividad de valor posicional gratuita e interactiva para preescolar que corre en el navegador, sin crear cuenta.",
+        "Los números del 11 al 19 son tramposos porque su nombre esconde su estructura: «dieciséis» no dice claramente «diez y seis». Construir cada uno en dos marcos vuelve visible esa estructura escondida: siempre hay un diez completo y luego algunas unidades. Tu hijo o hija compone el número a partir de un diez y unos extras, en lugar de contar todo de uno en uno, que es justo la idea sobre la que se construye el valor posicional.",
+        "Está alineada con los planes y programas de estudio (SEP): componer y descomponer los números del 11 al 19 en un diez y algunas unidades. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Llenar un marco de diez completo para formar una decena.",
+        "Agregar las unidades adicionales en el segundo marco.",
+        "Construir cada número del 11 al 19 como un diez y algunas más.",
+        "Ver la decena escondida dentro de números como 14 y 18."
+      ],
+      "howToPlay": [
+        "Lee la instrucción para saber qué número del 11 al 19 hay que formar.",
+        "Llena el primer marco de diez hasta el diez, pon las unidades adicionales en el segundo marco y pulsa Comprobar.",
+        "¿No salió a la primera? Ajusta las fichas e inténtalo de nuevo: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede componer los números del 11 al 19 como un diez y algunas unidades.",
+        "El niño o la niña aprende a entender que todo número del 11 al 19 contiene un diez completo.",
+        "Construye la base de valor posicional para sumar y agrupar en primero de primaria."
+      ]
+    },
+    "choice-board.sort-count.k-md-b-3": {
+      "about": [
+        "Aparece una pila desordenada de imágenes amigables —animales, frutas y a veces vehículos, todos mezclados— y el juego nombra un solo grupo: «¿Cuántos animales hay?». El niño o la niña decide cuántas imágenes pertenecen a ese grupo y toca el número. Es una actividad de clasificación y conteo gratuita e interactiva para preescolar (kínder) que funciona en el navegador, sin instalar nada y sin crear cuenta.",
+        "Las imágenes están mezcladas a propósito: para responder «¿cuántos animales?», el niño o la niña no puede simplemente contar todo lo que ve. Tiene que mirar cada imagen, decidir qué es, apartar lo que no pertenece al grupo y contar solo las imágenes nombradas. Así practica la observación cuidadosa y el pensamiento clasificatorio que le servirán toda la vida.",
+        "Está alineada con los planes y programas de estudio (SEP), en el eje de análisis de datos: clasificar objetos en categorías y contar cuántos hay en cada una. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Reconocer cada imagen y su categoría —animal, fruta, vehículo u otra— con atención sostenida.",
+        "Contar solo el grupo nombrado, dejando a un lado lo que no pertenece.",
+        "Separar mentalmente una categoría del total para decir su cantidad.",
+        "Practicar el hábito de clasificar primero y contar después, una destreza que sostiene todo el trabajo con datos."
+      ],
+      "howToPlay": [
+        "Observa la pila mezclada de imágenes y escucha o lee el nombre del grupo que buscas: por ejemplo, frutas, animales o vehículos.",
+        "Decide cuántas imágenes pertenecen a ese grupo y toca el número que coincide con tu respuesta.",
+        "Recibe una respuesta cálida —sin presión y sin puntuación— y prueba otra ronda si quieres."
       ],
       "learningGoals": [
         "Clasificar imágenes en categorías y contar cada grupo con precisión.",
-        "Comunicar la cantidad de un grupo nombrado dentro de una colección mezclada.",
-        "Construir la destreza de ordenar y clasificar que sostiene todo el trabajo del área {strand}."
+        "Decir cuántos hay en un grupo nombrado dentro de una colección mezclada.",
+        "Construir la destreza de ordenar y clasificar que sostiene todo el trabajo posterior con datos."
+      ]
+    },
+    "array.build-array.2-oa-c-4": {
+      "about": [
+        "Aquí el niño o la niña arma un arreglo rectangular: filas iguales acomodadas en columnas, como una cuadrícula ordenada de puntos. Empieza con un arreglo pequeño de 2 por 3 y va creciendo a 3 por 4, 2 por 5, 4 por 4 y 4 por 3, así que cada ronda llena una cuadrícula de distinta forma. Es una actividad interactiva y gratuita de matemáticas para segundo de primaria que funciona en el navegador, sin descargar nada y sin crear cuenta.",
+        "La idea clave es que un rectángulo de filas iguales se puede sumar de la manera rápida. Conforme tu hijo o hija toca para llenar cada fila, abajo se va formando una tira de suma repetida —por ejemplo 4 + 4 + 4— para que vea cuatro contado tres veces, en lugar de contar punto por punto. Después escribe el total en el teclado numérico. Ver las filas alineadas como sumandos iguales es justo el puente que lleva de la suma hacia la multiplicación, un trabajo propio de segundo grado.",
+        "Está alineada con los planes y programas de estudio (SEP), en el eje de pensamiento numérico: hallar el total de objetos en un arreglo de filas y columnas con suma repetida. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada quien avance con calma."
+      ],
+      "practices": [
+        "Llenar una cuadrícula rectangular como filas y columnas iguales.",
+        "Leer el arreglo como una suma repetida, por ejemplo 4 + 4 + 4 = 12.",
+        "Contar por grupos iguales en lugar de contar de uno en uno para hallar el total.",
+        "Escribir el total que corresponde a las filas que acabas de armar."
+      ],
+      "howToPlay": [
+        "Mira el arreglo que se pide —por ejemplo, 3 filas de 4— y toca para llenar cada fila.",
+        "Observa cómo la tira de suma repetida junta las filas iguales y luego escribe en el teclado cuántos puntos hay en total.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede hallar el total de un arreglo rectangular usando la suma repetida.",
+        "El niño o la niña aprende a ver las filas iguales como sumandos iguales y a escribir la suma que les corresponde.",
+        "Empieza a construir la base de los grupos iguales, de donde nace la multiplicación en grados posteriores."
+      ]
+    },
+    "choice-board.which-more.k-c-c-6": {
+      "about": [
+        "Aparecen dos grupos de dibujos amistosos, uno al lado del otro —gatos, perros, patos, peces, manzanas, plátanos, naranjas o fresas— y el niño o la niña toca el grupo que tiene más. Las cantidades llegan hasta ocho, y se comparan mirando y contando, no leyendo números. Es una actividad de conteo gratuita para preescolar que corre en el navegador en el celular, la tableta o la computadora del salón, sin crear cuenta.",
+        "La idea importante es que «más» se trata de cuántos hay, no del espacio que ocupa un grupo. Como los dos grupos pueden estar parejos —por ejemplo siete contra seis, o seis contra cinco— no se gana con solo echar un vistazo a la mancha más grande: hay que contar cada grupo y comparar los totales. Así se vence el truco común para los ojos, donde unos cuantos dibujos separados parecen más que un montoncito apretado.",
+        "Está alineada con los planes y programas de estudio (SEP): decir si la cantidad de objetos de un grupo es mayor, menor o igual que la de otro grupo. Sin temporizador y sin puntuación, con calma y a su propio ritmo."
+      ],
+      "practices": [
+        "Contar cuántos elementos hay en cada uno de los dos grupos.",
+        "Comparar los dos totales para decidir cuál grupo tiene más.",
+        "No dejarse engañar por lo separado o apretado que se vea un grupo y contar en su lugar.",
+        "Relacionar la cantidad mayor con la idea de «más»."
+      ],
+      "howToPlay": [
+        "Mira los dos grupos de dibujos y cuenta cuántos hay en cada uno.",
+        "Toca el grupo que tiene más y luego comprueba tu elección.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede decir cuál de dos grupos tiene más contando los elementos.",
+        "El niño o la niña aprende a entender que la cantidad mayor significa más, sin importar cómo estén acomodados los dibujos.",
+        "Construye la base de la comparación para el trabajo posterior con mayor que y menor que."
+      ]
+    },
+    "choice-board.compare-length.k-md-2": {
+      "about": [
+        "Dos objetos cotidianos se colocan lado a lado y el niño o la niña toca el más alto, el más largo o el más corto, comparando dibujos reales y conocidos: un pino o una palmera, un lápiz, un crayón, un marcador o una regla, una zanahoria o un pepino, una jirafa, un girasol o una vela. Es una actividad de medición gratuita para preescolar que se juega en cualquier navegador, sin descargar nada y sin crear cuenta.",
+        "No hay que contar ni usar números; el niño o la niña simplemente observa y compara un solo atributo a la vez. La instrucción dice la palabra —más alto, más largo o más corto— y hay que decidir cuál de los dos objetos le queda. Alinear la altura para «más alto» (una jirafa) y el largo para «más largo» (un pepino) construye el vocabulario de la medición antes de presentar cualquier regla o número.",
+        "Está alineada con los planes y programas de estudio (SEP): comparar dos objetos de manera directa por un atributo medible y describir cuál es más alto, más largo o más corto. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Comparar dos objetos por su altura o su largo.",
+        "Entender las palabras más alto, más largo y más corto.",
+        "Elegir el objeto que corresponde a la palabra de la instrucción.",
+        "Medir con la mirada, sin contar ni usar números."
+      ],
+      "howToPlay": [
+        "Mira los dos objetos y lee o escucha la palabra: más alto, más largo o más corto.",
+        "Toca el objeto que le queda a esa palabra.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede comparar dos objetos y decir cuál es más alto, más largo o más corto.",
+        "El niño o la niña aprende a usar palabras de medición para describir el largo y la altura.",
+        "Construye la base de comparar por un atributo, de donde después surge medir con unidades."
+      ]
+    },
+    "choice-board.compare-two-digit.1-nbt-b-3": {
+      "about": [
+        "Se muestran dos números de dos cifras —como 47 y 52, o 63 y 38— y el niño o la niña toca la afirmación que es verdadera, usando mayor que (>), menor que (<) e igual a (=). Algunas parejas son iguales, como 45 y 45 u 88 y 88, así que el signo de igual también cuenta. Es una actividad gratuita de valor posicional para primero de primaria que corre directo en el navegador, sin crear cuenta.",
+        "La estrategia es fijarse primero en las decenas y, después, en las unidades. Con 47 y 52, las 5 decenas le ganan a las 4 decenas, así que 47 es menor que 52, aunque el 7 sea mayor que el 2. Parejas tramposas como 29 y 92 usan las mismas cifras en distinto lugar, así que hay que leer el valor posicional y no solo los dígitos. Elegir el signo correcto convierte esa comparación en el lenguaje formal de >, = y <.",
+        "Está alineada con los planes y programas de estudio (SEP): comparar dos números de dos cifras según el significado de las decenas y las unidades, y registrar el resultado con los signos >, = y <. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Comparar dos números de dos cifras por sus decenas y luego por sus unidades.",
+        "Elegir el signo correcto: mayor que, menor que o igual a.",
+        "Reconocer cuándo dos números son iguales.",
+        "Leer el valor posicional en parejas tramposas como 29 y 92."
+      ],
+      "howToPlay": [
+        "Mira los dos números de dos cifras, fijándote primero en la cifra de las decenas y después en las unidades.",
+        "Toca la afirmación que es verdadera, usando >, = o <.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede comparar números de dos cifras y registrar el resultado con >, = y <.",
+        "El niño o la niña aprende a usar el significado de las decenas y las unidades para decidir cuál número es mayor.",
+        "Construye la comparación con valor posicional de la que dependerá después el trabajo con números más grandes."
+      ]
+    },
+    "clock.set-clock.1-md-b-3": {
+      "about": [
+        "Se da una hora escrita —como 3:00, 7:30, 9:00, 6:30 o la una y media— y el niño o la niña arrastra las manecillas larga y corta del reloj analógico para mostrarla, mientras un visor digital se actualiza al moverlas. «Pon la hora en el reloj» es una actividad de matemáticas gratuita para primero de primaria que corre directo en el navegador en tabletas, celulares y computadoras del salón, sin instalar nada y sin crear cuenta.",
+        "Poner la hora es más difícil que leerla, porque hay que producir las dos manecillas en lugar de reconocer un dibujo. En las horas y media, la manecilla corta queda entre dos números, no sobre uno, así que quien solo la acerca a un número se va a equivocar: tiene que colocarla a la mitad. Ver cómo cambia el visor digital al mover las manecillas une el dibujo analógico con los números que el niño o la niña ya conoce, y las horas se quedan en punto y media para que el foco esté en acomodar bien las manecillas.",
+        "Está alineada con los planes y programas de estudio (SEP): leer y escribir la hora en punto y la media hora en relojes analógicos y digitales. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Arrastrar la manecilla de la hora y la de los minutos para mostrar una hora dada.",
+        "Colocar la manecilla corta a la mitad entre dos números para una hora y media.",
+        "Leer la hora digital que corresponde conforme se mueven las manecillas.",
+        "Distinguir las horas en punto de las horas y media y acomodar cada una correctamente."
+      ],
+      "howToPlay": [
+        "Lee la hora escrita arriba del reloj.",
+        "Arrastra las manecillas larga y corta para mostrar esa hora, mirando el visor digital.",
+        "Revisa tu reloj y ajústalo cuantas veces quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede poner un reloj analógico en la hora en punto y en la media hora.",
+        "El niño o la niña aprende a entender que, en la hora y media, la manecilla de la hora queda entre dos números.",
+        "Conecta la carátula del reloj analógico con la hora digital que ve todos los días."
+      ]
+    },
+    "match-pairs.make-the-number.k-oa-a-3": {
+      "about": [
+        "Aparece un número objetivo —digamos 5— y el niño o la niña busca las parejas de números que suman ese total, como 1 y 4 o 2 y 3, tocando un número y luego su pareja para enlazarlos. Es un juego de relacionar números gratuito e interactivo para preescolar que corre directo en el navegador, sin instalar nada y sin crear cuenta.",
+        "La idea importante es que un mismo número se puede formar de más de una manera. Con un objetivo de 7, tu hijo o hija puede enlazar 0 y 7 y luego 3 y 4, y descubrir que el mismo total tiene varias parejas. Como la actividad pide todas las parejas que forman el objetivo, en lugar de una sola respuesta correcta, va construyendo poco a poco el sentido de parte-parte-todo en el que se apoya toda la suma posterior.",
+        "Está alineada con los planes y programas de estudio (SEP): descomponer números hasta el 10 en parejas de más de una manera. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Encontrar dos números que suman un objetivo hasta el 10.",
+        "Descubrir más de una pareja que forma el mismo número.",
+        "Construir la comprensión de parte-parte-todo de los números pequeños.",
+        "Relacionar un número con la pareja que completa el total."
+      ],
+      "howToPlay": [
+        "Mira el número objetivo de la ronda, por ejemplo 6.",
+        "Toca un número y luego toca su pareja que suma el objetivo, y observa cómo se enlazan.",
+        "Encuentra todas las parejas que forman el objetivo: no hay temporizador ni puntuación, tómate tu tiempo."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede descomponer números hasta el 10 en parejas de más de una manera.",
+        "El niño o la niña aprende a entender que un número está formado por partes más pequeñas.",
+        "Asienta la base de parte-parte-todo para la suma y la resta."
+      ]
+    },
+    "match-pairs.add-it-both-ways.1-oa-b-3": {
+      "about": [
+        "El niño o la niña ve tarjetas de suma como 4 + 7 y 7 + 4, o 5 + 9 y 9 + 5, y enlaza cada suma con la misma pareja de números sumados al revés: toca una tarjeta, luego su gemela volteada, y la pareja queda unida. Es un juego gratuito e interactivo de relacionar tarjetas de matemáticas para primero de primaria que corre directo en el navegador, sin instalar nada y sin crear cuenta.",
+        "La idea clave es la propiedad conmutativa: 4 + 7 y 7 + 4 dan los dos 11, así que el orden de los sumandos no cambia el total. Cada ronda muestra seis tarjetas —tres parejas volteadas, revueltas entre sí— para que tu hijo o hija calcule los totales y note cuáles sumas usan los mismos números, solo que al revés. No se trata de juntar tarjetas idénticas, sino de reconocer que dos sumas que se ven distintas valen lo mismo.",
+        "Está alineada con los planes y programas de estudio (SEP): usar las propiedades de las operaciones, como la conmutativa, como estrategia para sumar. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Reconocer que los sumandos se pueden sumar en cualquier orden y dar el mismo total.",
+        "Sumar números pequeños como 6 + 9 y confirmar que 9 + 6 da la misma respuesta.",
+        "Relacionar cada suma con su gemela volteada entre tarjetas revueltas.",
+        "Usar la suma «al revés» como estrategia para sumar con más facilidad."
+      ],
+      "howToPlay": [
+        "Mira las seis tarjetas de suma y averigua cuáles usan los mismos dos números en distinto orden.",
+        "Toca una suma como 3 + 6 y luego toca su gemela volteada 6 + 3, y observa cómo se enlazan.",
+        "Sigue hasta unir las tres parejas: no hay temporizador ni puntuación, tómate tu tiempo."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede aplicar la propiedad conmutativa de la suma.",
+        "El niño o la niña aprende a entender que cambiar el orden de los sumandos mantiene el mismo total.",
+        "Usa las sumas «al revés» para sumar hasta el 20 con más rapidez y confianza."
+      ]
+    },
+    "numberbond.make-ten-to-add.1-oa-c-6": {
+      "about": [
+        "Para una suma como 8 + 5, el niño o la niña separa el segundo número en un enlace numérico de modo que una parte complete el primero hasta diez (8 + 2 = 10), y luego suma lo que sobra (10 + 3 = 13). Esta estrategia de «hacer una decena» cobra vida en una actividad de matemáticas gratuita e interactiva para primero de primaria que corre directo en el navegador, sin crear cuenta.",
+        "La idea clave es convertir una suma difícil en una fácil: llegar a una decena amigable y después sumar lo que quedó. Tu hijo o hija toca para llenar la parte que hace la decena, y el enlace numérico muestra exactamente cómo se separa el segundo número, así que la estrategia es algo que ve y hace, no algo que memoriza.",
+        "Está alineada con los planes y programas de estudio (SEP): sumar hasta el 20 usando la estrategia de hacer una decena. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Separar un número en dos partes en un enlace numérico.",
+        "Completar el primer número hasta una decena (8 + 2 = 10).",
+        "Sumar la parte que sobra a la decena para terminar (10 + 3 = 13).",
+        "Desarrollar una suma fluida y flexible hasta el 20."
+      ],
+      "howToPlay": [
+        "Mira una suma como 8 + 5 mostrada en un enlace numérico.",
+        "Toca para llenar la parte que hace una decena con el primer número y luego suma lo que sobra.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede sumar hasta el 20 usando la estrategia de hacer una decena.",
+        "El niño o la niña aprende a separar un número para formar una decena amigable.",
+        "Suma con flexibilidad en lugar de contar cada número de uno en uno."
+      ]
+    },
+    "place-value.tens-and-ones.1-nbt-b-2": {
+      "about": [
+        "Para formar el 47, el niño o la niña coloca cuatro barras de diez y siete cubos de uno, y ve cómo «cuarenta» se vuelve algo real y no solo una cifra. Los números van del 12 al 95 —incluyendo las decenas exactas 30, 50, 70 y 90— construidos un toque de bloque a la vez, en una actividad de matemáticas gratuita e interactiva para primero de primaria que corre en el navegador, sin crear cuenta.",
+        "La idea clave es que un número de dos cifras está hecho de decenas y unidades. Para armar el 47, tu hijo o hija usa cuatro barras de diez y siete cubos de uno, y ver las cuatro barras hace concreto el «cuarenta», en vez de quedarse en una cifra. Los números redondos como 70 y 90 refuerzan que un cero en las unidades significa que no hay cubos sueltos: solo decenas completas.",
+        "Está alineada con los planes y programas de estudio (SEP): entender que un número de dos cifras está formado por una cantidad de decenas y unidades. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Construir un número de dos cifras con la cantidad correcta de decenas y unidades.",
+        "Relacionar la cifra de las decenas con las barras de diez y la de las unidades con los cubos de uno.",
+        "Entender números redondos como 70 como un conteo de decenas completas.",
+        "Leer y formar números de dos cifras hasta el 95."
+      ],
+      "howToPlay": [
+        "Lee el número que se pide, como 47.",
+        "Toca para agregar barras de diez y cubos de uno hasta que los bloques formen ese número.",
+        "Observa cómo crece el número y avanza: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede entender las decenas y las unidades en los números de dos cifras.",
+        "El niño o la niña aprende a ver que la cifra de las decenas cuenta grupos de diez y la de las unidades cuenta los sueltos.",
+        "Construye la base de valor posicional para sumar y restar hasta el 100."
+      ]
+    },
+    "syllable-builder.forma-las-silabas.rf-k-2-b": {
+      "about": [
+        "El niño o la niña mira una imagen —por ejemplo un gato, una mariposa o una pelota— y forma la palabra colocando sus sílabas en el orden correcto. Toca cada sílaba, la acomoda en su lugar y la escucha en voz alta; cuando la palabra queda completa y comprueba, la oye pronunciada entera. Es una actividad de conciencia fonológica gratuita e interactiva para preescolar que corre en el navegador, sin descargar nada y sin crear cuenta.",
+        "La idea clave es que las palabras se arman a partir de pedacitos de sonido: las sílabas. Al unir ga-to o ma-ri-po-sa en orden, tu hijo o hija aprende a contar, pronunciar, separar y juntar las sílabas de una palabra hablada, que es el cimiento de la lectura. Como cada sílaba se escucha al tocarla y la palabra completa suena al final, el sonido y la forma escrita se conectan de manera natural.",
+        "Está alineada con los planes y programas de estudio (SEP): contar, pronunciar, mezclar y segmentar las sílabas de palabras habladas. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Separar una palabra en sus sílabas y reconocer cuántas tiene.",
+        "Colocar las sílabas en el orden correcto para formar la palabra.",
+        "Escuchar cada sílaba al tocarla y la palabra completa al unirla.",
+        "Relacionar la imagen con la palabra que se está armando."
+      ],
+      "howToPlay": [
+        "Mira la imagen y di en voz alta el nombre de lo que ves.",
+        "Toca y arrastra cada sílaba para acomodarla en su lugar y formar la palabra.",
+        "Cuando la palabra esté completa, comprueba y escúchala pronunciada entera: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede separar una palabra hablada en sus sílabas y volver a juntarlas.",
+        "El niño o la niña aprende a contar y a ordenar las sílabas para formar una palabra.",
+        "Construye la conciencia fonológica que es la base para aprender a leer."
+      ]
+    },
+    "array.equal-groups.2-oa-c-4": {
+      "about": [
+        "Formar grupos con la misma cantidad y luego juntarlos para hallar el total: eso es lo que hace tu hijo o hija en esta actividad de matemáticas, gratis e interactiva, que funciona en el navegador sin descargar nada y sin crear cuenta. Las rondas van desde 2 grupos de 3 hasta 3 grupos de 5, pasando por 4 grupos de 4 y 5 grupos de 2, así que el niño o la niña trabaja con muchos arreglos distintos de grupos iguales.",
+        "A diferencia de un arreglo rectangular ordenado, aquí los objetos se acomodan en grupos separados, y por eso la idea de 'la misma cantidad en cada grupo' es justo el centro de todo. Mientras el niño o la niña llena cada grupo, al lado crece una tira de suma repetida —4 + 4 + 4— que convierte los grupos iguales en una suma; al final escribe cuántos hay en total. El alumno arma y suma los grupos: todavía no multiplica, pero practica exactamente el razonamiento sobre el que después se construye la multiplicación. Es una actividad para 2.º de primaria (segundo grado).",
+        "Está alineada con los planes y programas de estudio (SEP), en el eje de pensamiento aditivo: usar la suma de cantidades iguales para encontrar un total. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada quien avance con calma."
+      ],
+      "practices": [
+        "Formar varios grupos que tengan la misma cantidad de objetos cada uno.",
+        "Sumar grupos iguales como suma repetida, por ejemplo 4 + 4 + 4 = 12.",
+        "Distinguir los grupos iguales de los grupos de tamaños diferentes.",
+        "Hallar un total contando por grupos en vez de contar de uno en uno."
+      ],
+      "howToPlay": [
+        "Lee cuántos grupos iguales hay que formar y cuántos objetos van en cada uno; luego toca para llenar los grupos.",
+        "Observa cómo se suman los grupos iguales en la tira de suma repetida y escribe el total en el teclado.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "El niño o la niña aprende a hallar un total a partir de grupos iguales usando la suma repetida.",
+        "Tu hijo o hija puede entender que los grupos deben ser iguales para que funcione la suma de cantidades iguales.",
+        "El niño o la niña desarrolla el sentido de los grupos iguales del que dependerá la multiplicación en grados posteriores."
+      ]
+    },
+    "choice-board.even-odd.2-oa-c-3": {
+      "about": [
+        "Aparece un número del 1 al 20 y tu hijo o hija decide si es par o impar, y luego toca la tarjeta de Par o de Impar. Como solo hay dos opciones, el niño o la niña juzga cada número por sí mismo: ¿es de los que se acomodan en parejas exactas o de los que dejan uno suelto? Es una actividad de números gratis e interactiva para 2.º de primaria que corre en el navegador, sin registro.",
+        "La idea central es que par e impar tienen que ver con si una cantidad se puede repartir en dos grupos iguales sin que sobre nada. Aquí el niño o la niña no suma ni resta: clasifica números enteros según su estructura. Al trabajar con todo el rango del 1 al 20, y con las dos opciones siempre presentes, desarrolla el reconocimiento rápido —y la costumbre de fijarse en la cifra de las unidades— que hace que par e impar se vuelvan algo automático. Es una actividad para segundo grado.",
+        "Está alineada con los planes y programas de estudio (SEP): determinar si un grupo de objetos tiene una cantidad par o impar de elementos. Sin temporizador y sin puntuación, con práctica tranquila y juguetona."
+      ],
+      "practices": [
+        "Decidir si un número del 1 al 20 es par o impar.",
+        "Entender los números pares como parejas en las que no sobra nada, y los impares como uno de más.",
+        "Fijarse en la cifra de las unidades como pista rápida para distinguir par de impar.",
+        "Clasificar números enteros por su estructura, en vez de sumar o restar."
+      ],
+      "howToPlay": [
+        "Mira el número que aparece en el tablero.",
+        "Decide si es par o impar, toca la tarjeta que corresponde y pulsa Comprobar.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede saber si un número hasta el 20 es par o impar.",
+        "El niño o la niña aprende a explicar lo par como parejas en las que no sobra nada, y lo impar como uno de más.",
+        "Desarrolla el sentido numérico que apoya el trabajo posterior con grupos iguales y multiplicación."
+      ]
+    },
+    "choice-board.describe-attribute.k-md-a-1": {
+      "about": [
+        "Se muestra un objeto de todos los días y tu hijo o hija toca la palabra que mejor lo describe: largo, alto o pesado. Los objetos están elegidos para que una sola característica salte a la vista: un lápiz y una zanahoria son largos, una jirafa es alta, y una roca y una calabaza son pesadas. Es una actividad de medición gratis e interactiva para preescolar que se juega directamente en el navegador, sin crear cuenta.",
+        "La meta es ponerles palabras a las formas en que medimos las cosas, antes de que aparezcan números o reglas. Aquí el niño o la niña no cuenta ni mide: observa un objeto real y decide qué característica medible le queda mejor —largo, alto o pesado—. Como cada objeto que se muestra tiene una característica claramente más fuerte, practica notar qué tipo de medición pide cada cosa, que es la base de lenguaje sobre la que descansa toda la medición posterior. Es una actividad para preescolar (kínder).",
+        "Está alineada con los planes y programas de estudio (SEP): describir las características medibles de un objeto, como su largo, su alto y su peso. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Relacionar un objeto con la palabra de medición que le queda: largo, alto o pesado.",
+        "Distinguir largo, alto y peso como maneras diferentes de medir.",
+        "Observar un objeto real y decidir qué tipo de medición pide.",
+        "Construir el vocabulario de medición que va antes de contar y de usar la regla."
+      ],
+      "howToPlay": [
+        "Mira el objeto que aparece en el tablero: un lápiz, una jirafa o una roca.",
+        "Toca la palabra que mejor lo describe —largo, alto o pesado— y pulsa Comprobar.",
+        "Inténtalo cuando quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede describir las características medibles de un objeto: largo, alto y peso.",
+        "El niño o la niña aprende a usar correctamente las palabras largo, alto y pesado con objetos reales.",
+        "Desarrolla el lenguaje de medición del que dependerá medir y comparar más adelante."
+      ]
+    },
+    "choice-board.ten-more-less.1-nbt-c-5": {
+      "about": [
+        "Aparece un número de dos cifras —como 34, 57, 60 u 82— junto a las palabras diez más o diez menos, y tu hijo o hija lo resuelve de cabeza y toca la respuesta entre cuatro opciones. Es una actividad gratis e interactiva para 1.º de primaria que se juega directamente en el navegador, en tableta, celular o la computadora del salón, sin instalar nada y sin cuenta.",
+        "La clave es que hallar diez más o diez menos no necesita contar: solo cambia la cifra de las decenas, mientras las unidades quedan exactamente igual; así, 34 y diez más es 44, y 57 y diez menos es 47. Las opciones equivocadas son números cercanos, incluyendo algunos que cambian la cifra de las unidades, de modo que quien cuenta de uno en uno o suma la decena en el lugar equivocado se dará cuenta de que no encaja. La idea es ver las decenas, no contar. Es una actividad para primer grado.",
+        "Está alineada con los planes y programas de estudio (SEP): hallar mentalmente 10 más o 10 menos que un número de dos cifras, sin tener que contar. Sin temporizador y sin puntuación, con práctica tranquila."
+      ],
+      "practices": [
+        "Hallar 10 más o 10 menos que un número de dos cifras de cabeza.",
+        "Notar que solo cambia la cifra de las decenas mientras las unidades quedan igual.",
+        "Leer si la consigna pide diez más o diez menos.",
+        "Construir el sentido del valor posicional con números hasta el 100."
+      ],
+      "howToPlay": [
+        "Lee el número y fíjate si la consigna pide diez más o diez menos.",
+        "Resuélvelo de cabeza —cambia las decenas, deja igual las unidades— y toca el número que creas correcto.",
+        "Tómate el tiempo que necesites: no hay temporizador ni puntuación, y puedes volver a intentarlo."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede hallar mentalmente 10 más y 10 menos que cualquier número de dos cifras.",
+        "El niño o la niña aprende que poner o quitar una decena cambia solo la cifra de las decenas.",
+        "Construye la base de valor posicional y cálculo mental para sumar y restar hasta el 100."
+      ]
+    },
+    "clock.tell-time-5-min.2-md-c-7": {
+      "about": [
+        "Aparece una hora escrita —3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 o 12:25— y tu hijo o hija arrastra las manecillas del reloj de carátula para mostrarla, con un marcador digital que se actualiza conforme las mueve. Es una actividad de matemáticas gratis para 2.º de primaria que lleva el ajuste del reloj hasta las horas de cinco en cinco minutos, y corre en el navegador sin crear cuenta.",
+        "Leer y poner la hora a los cinco minutos hace que la manecilla larga por fin importe con detalle: cuarto de hora deja la manecilla en el 3, cuarto para la hora la deja en el 9, y diez pasados en el 2; el niño o la niña cuenta de cinco en cinco alrededor de la carátula para colocarla justo. Las horas más difíciles —como 7:45, donde 'cuarto para las ocho' se escribe 7:45 y no 8:45— invitan a leer la manecilla corta mientras avanza hacia el número siguiente. El marcador digital confirma cada colocación, así la idea de contar de cinco en cinco se conecta con la hora escrita. Es una actividad para segundo grado (7-8 años).",
+        "Está alineada con los planes y programas de estudio (SEP): leer y escribir la hora a los cinco minutos más cercanos en relojes de carátula y digitales. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Colocar la manecilla larga en una marca de cinco minutos contando de cinco en cinco.",
+        "Ubicar cuarto de hora, cuarto para la hora y diez pasados en su lugar correcto.",
+        "Leer la manecilla corta mientras avanza hacia el número siguiente al terminar la hora.",
+        "Hacer coincidir la posición del reloj de carátula con su hora digital escrita."
+      ],
+      "howToPlay": [
+        "Lee la hora escrita arriba del reloj.",
+        "Arrastra la manecilla larga y la corta para mostrarla a los cinco minutos más cercanos, mirando el marcador digital.",
+        "Ajusta las manecillas las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede leer y poner la hora a los cinco minutos más cercanos.",
+        "El niño o la niña aprende a contar de cinco en cinco alrededor del reloj para colocar la manecilla larga justo.",
+        "Lee correctamente horas como 'cuarto para las ocho' como 7:45 y no 8:45."
+      ]
+    },
+    "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
+      "about": [
+        "Tu hijo o hija calcula tarjetas como 2 + 3 y 9 − 4 (ambas dan 5), o 3 + 4 y 9 − 2 (ambas dan 7), y luego toca una suma y la resta que tiene el mismo resultado para enlazar la pareja. Es una actividad de matemáticas gratis e interactiva para 1.º de primaria que corre directamente en el navegador, sin instalar nada y sin cuenta.",
+        "La idea central es que una suma y una resta pueden valer lo mismo: el signo igual significa 'lo mismo que', no 'aquí viene el resultado'. Las tarjetas no muestran sus totales, así que el niño o la niña tiene que calcular de verdad cada una y luego buscar otra operación, de aspecto distinto, con el mismo valor. Cada ronda tiene dos (a veces tres) resultados que encontrar, mezclando operaciones de sumar y de restar. Es una actividad para primer grado.",
+        "Está alineada con los planes y programas de estudio (SEP): comprender el significado del signo igual y decidir si igualdades con sumas y restas son verdaderas. Sin temporizador y sin puntuación, con práctica tranquila."
+      ],
+      "practices": [
+        "Calcular el valor de operaciones de suma y de resta.",
+        "Relacionar una suma con una resta que tiene el mismo resultado.",
+        "Entender el signo igual como 'la misma cantidad que'.",
+        "Comparar dos operaciones de aspecto distinto para ver si valen lo mismo."
+      ],
+      "howToPlay": [
+        "Calcula cada tarjeta: sumas como 4 + 5 y restas como 10 − 1.",
+        "Toca una suma, luego toca la resta con el mismo resultado, y mira cómo se enlaza la pareja.",
+        "Encuentra las dos parejas iguales de la ronda: no hay temporizador ni puntuación, así que tómate tu tiempo."
+      ],
+      "learningGoals": [
+        "El niño o la niña aprende que las sumas y las restas pueden ser iguales.",
+        "Tu hijo o hija puede leer el signo igual como 'lo mismo que' y no como 'aquí viene el resultado'.",
+        "Desarrolla un manejo flexible de las operaciones básicas al enlazar sumas y restas que comparten un valor."
+      ]
+    },
+    "match-pairs.match-facts-to-20.2-oa-b-2": {
+      "about": [
+        "Tu hijo o hija calcula tarjetas como 8 + 5, 9 + 7, 14 − 6 y 17 − 8, y luego toca cada operación y el número que es su resultado para enlazar la pareja y ganar agilidad hasta el 20. Es una actividad de matemáticas gratis e interactiva para 2.º de primaria que corre directamente en el navegador, sin instalar nada y sin cuenta.",
+        "La idea central es el recuerdo rápido y seguro de las sumas y las restas hasta el 20. Cada ronda mezcla tres operaciones —algunas de sumar, otras de restar— con sus tres resultados revueltos, de modo que el niño o la niña calcula cada una y luego ubica su valor. La práctica repetida ronda tras ronda ayuda a que operaciones como 9 + 9 = 18 y 16 − 9 = 7 pasen de contar a saberse de memoria. Es una actividad para segundo grado.",
+        "Está alineada con los planes y programas de estudio (SEP): sumar y restar con agilidad hasta el 20 y saber de memoria las sumas de dos números de una cifra. Sin temporizador y sin puntuación, con práctica tranquila."
+      ],
+      "practices": [
+        "Sumar y restar hasta el 20, con y sin pasar la decena.",
+        "Relacionar una operación como 7 + 8 con su tarjeta de resultado.",
+        "Pasar las sumas y las restas de contar a saberse de memoria.",
+        "Trabajar con soltura sumas y restas en un mismo conjunto."
+      ],
+      "howToPlay": [
+        "Calcula cada tarjeta de operación, como 6 + 9 o 13 − 4.",
+        "Toca una operación, luego toca el número que es su resultado, y mira cómo se enlaza la pareja.",
+        "Relaciona las tres parejas de la ronda: no hay temporizador ni puntuación, así que tómate tu tiempo."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede sumar y restar con agilidad hasta el 20.",
+        "El niño o la niña aprende de memoria las sumas de números de una cifra.",
+        "Desarrolla el recuerdo de operaciones que vuelve más fácil el cálculo con números mayores."
+      ]
+    },
+    "numberbond.find-the-total.1-oa-a-1": {
+      "about": [
+        "Un diagrama de partes y todo muestra dos partes, como 7 y 4, y tu hijo o hija halla cuántos hay en total: junta las partes contando y escribe el total. Es una actividad de matemáticas gratis e interactiva para 1.º de primaria que corre directamente en el navegador, sin registro.",
+        "El todo va arriba y las dos partes abajo, así que 'juntar' se convierte en algo que el niño o la niña puede ver. Puede contar a partir de la parte más grande o simplemente saberse el resultado; los puntos de cada parte están ahí para contarlos cuando todavía no domina la operación. La respuesta es el todo, en la parte de arriba del diagrama. Es una actividad para primer grado.",
+        "Está alineada con los planes y programas de estudio (SEP): usar la suma para juntar y agregar hasta el 20. Sin temporizador y sin puntuación, con práctica tranquila."
+      ],
+      "practices": [
+        "Leer las dos partes de un diagrama de partes y todo.",
+        "Juntar las partes para hallar el todo hasta el 20.",
+        "Contar a partir de la parte más grande para sumar con más eficiencia.",
+        "Escribir el total que nombra el todo."
+      ],
+      "howToPlay": [
+        "Mira las dos partes del diagrama, como 7 + 4.",
+        "Cuenta cuántos hay en total, escribe el total y pulsa Comprobar.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede sumar dos números hasta el 20 juntando las partes.",
+        "El niño o la niña aprende a leer un diagrama de partes y todo y a hallar el todo que falta.",
+        "Aprende a contar a partir del número más grande para sumar más rápido."
+      ]
+    },
+    "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
+      "about": [
+        "Toca una placa, una barra o un cubo y observa cómo crece un número de tres dígitos mientras se apilan los bloques de base diez: placas de cien, barras de diez y cubos de uno que arman números desde 108 hasta 974, incluyendo ceros engañosos como 200, 305 y 906. Es una actividad de matemáticas gratis e interactiva para 2.º de primaria que corre directamente en el navegador, sin cuenta.",
+        "La idea central es que los tres dígitos de un número representan centenas, decenas y unidades. Para construir 463, el niño o la niña necesita cuatro placas de cien, seis barras de diez y tres cubos de uno; ver cómo se acumulan los bloques liga cada dígito con una cantidad real. Números como 305 y 906 enseñan, sin hacer ruido, que un cero significa que no hay nada de ese lugar —ninguna barra de diez—, que es justo donde suele empezar la confusión con el valor posicional. Es una actividad para segundo grado.",
+        "Está alineada con los planes y programas de estudio (SEP): comprender que los tres dígitos de un número de tres cifras representan cantidades de centenas, decenas y unidades. Sin temporizador y sin puntuación, con práctica tranquila."
+      ],
+      "practices": [
+        "Construir un número de tres dígitos con las centenas, decenas y unidades correctas.",
+        "Conectar cada dígito con una cantidad de placas, barras o cubos.",
+        "Entender que un cero en un lugar significa que no hay nada de esa unidad.",
+        "Leer números de tres dígitos hasta las centenas."
+      ],
+      "howToPlay": [
+        "Lee el número que hay que construir, como 463.",
+        "Toca para agregar placas de cien, barras de diez y cubos de uno hasta que los bloques formen ese número.",
+        "Mira cómo crece el número; avanza sin temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede comprender las centenas, decenas y unidades en los números de tres dígitos.",
+        "El niño o la niña aprende a conectar cada dígito con su valor posicional y su cantidad.",
+        "Construye la base de valor posicional para sumar, restar y comparar números más grandes."
+      ]
+    },
+    "ten-frame.show-the-operation.k-oa-a-1": {
+      "about": [
+        "Para \"3 + 2\", el niño o la niña coloca 3 fichas y luego 2 más de otro color, para que las dos partes se vean con claridad; para \"5 − 2\", empieza con 5 fichas y toca para quitar 2. El trabajo es representar la operación en el marco de diez, no escribir un número. Es una actividad de matemáticas gratis e interactiva para preescolar que se juega en el navegador, sin registro.",
+        "La idea central es que sumar y restar son acciones que se pueden mostrar, no solo resultados que se escriben. El segundo color de fichas hace visibles los dos sumandos como grupos separados, y quitar fichas hace literal el 'quitar'. Tu hijo o hija modela la operación en vez de escribir un número, así que el significado de juntar y de separar llega antes que la cuenta. Es una actividad para preescolar (kínder).",
+        "Está alineada con los planes y programas de estudio (SEP): representar sumas y restas con objetos, dedos, dibujos y otros materiales. Sin temporizador y sin puntuación, con práctica tranquila."
+      ],
+      "practices": [
+        "Mostrar la suma colocando dos grupos de fichas de dos colores.",
+        "Mostrar la resta quitando fichas de un grupo inicial.",
+        "Ver las dos partes que forman un todo en el marco.",
+        "Modelar lo que de verdad significa una suma o una resta."
+      ],
+      "howToPlay": [
+        "Lee la operación, por ejemplo 3 + 2 o 5 − 2.",
+        "Coloca o quita fichas en el marco de diez para que muestre la operación y pulsa Comprobar.",
+        "¿No salió a la primera? Ajusta las fichas y vuelve a intentarlo: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Tu hijo o hija puede representar sumas y restas con fichas.",
+        "El niño o la niña aprende a entender la suma como juntar y la resta como separar.",
+        "Desarrolla el hábito de modelar del que dependen los problemas con palabras y las operaciones escritas."
+      ]
+    },
+    "choice-board.shape-id.k-g-a-2": {
+      "about": [
+        "Una indicación nombra una figura —círculo, cuadrado, triángulo, rectángulo, hexágono, óvalo, estrella, rombo, corazón o pentágono— y el niño o la niña la encuentra con la vista y la toca entre cuatro dibujos. Es una actividad de geometría para preescolar, gratis e interactiva, que funciona directo en el navegador de una tableta, un celular o la computadora del salón, sin instalar nada y sin crear cuenta.",
+        "La idea central es que una figura sigue siendo la misma sin importar cómo esté girada ni de qué tamaño esté dibujada. Un triángulo apoyado en su punta o un cuadrado chiquito siguen siendo triángulo y cuadrado, así que el niño o la niña tiene que reconocer la forma en sí, no una sola imagen 'de libro'. Las tres opciones equivocadas son otras figuras reales del grupo, por lo que no se puede acertar eligiendo la única figura del tablero: hay que saber qué nombre corresponde a cada una.",
+        "Está pensada para el nivel de preescolar o kínder, dentro del eje de geometría de los planes y programas de estudio (SEP): nombrar figuras sin importar su orientación ni su tamaño. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Relacionar el nombre de una figura con su dibujo entre cuatro opciones.",
+        "Reconocer una figura aunque esté girada o dibujada más grande o más chica.",
+        "Distinguir figuras parecidas: un cuadrado de un rectángulo, un óvalo de un círculo, un hexágono de un pentágono.",
+        "Ampliar el vocabulario de figuras: círculo, cuadrado, triángulo, rectángulo, hexágono, óvalo, estrella, rombo, corazón y pentágono."
+      ],
+      "howToPlay": [
+        "Lee o escucha la indicación que nombra una figura para buscarla.",
+        "Mira las cuatro figuras y toca la que corresponde al nombre; después pulsa Comprobar.",
+        "¿No salió a la primera? Vuelve a intentarlo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Nombrar círculos, cuadrados, triángulos, rectángulos, hexágonos y más con solo verlos.",
+        "Entender que una figura conserva su nombre sin importar cómo se gire ni de qué tamaño sea.",
+        "Construir el vocabulario de figuras en el que después se apoyan la geometría, la clasificación y el dibujo."
+      ]
+    },
+    "choice-board.flat-solid.k-g-a-3": {
+      "about": [
+        "Aparece una figura a la vez y el niño o la niña toca si es plana o sólida: figuras planas (2D) como el círculo, el triángulo, el cuadrado y el hexágono, y cuerpos sólidos (3D) como el cubo, la esfera, el cilindro y el cono. Es una actividad de geometría para preescolar, gratis e interactiva, que se juega directo en el navegador en tabletas, celulares y computadoras, sin instalar nada y sin crear cuenta.",
+        "La idea central es la diferencia entre una figura que podrías dibujar en una hoja y un cuerpo que podrías tomar con la mano. Aquí no se trata de nombrar las figuras, sino de clasificarlas en bidimensionales y tridimensionales. Al mezclar figuras planas conocidas con sus parientes sólidos —un círculo junto a una esfera, un cuadrado junto a un cubo— el niño o la niña se fija en si la forma tiene volumen, que es el primer paso para entender los cuerpos geométricos.",
+        "Está pensada para el nivel de preescolar o kínder, en el eje de geometría de los planes y programas de estudio (SEP): identificar las formas como planas (2D) o sólidas (3D). Sin temporizador y sin puntuación, con un ritmo tranquilo para cada niño o niña."
+      ],
+      "practices": [
+        "Distinguir figuras planas (2D) de cuerpos sólidos (3D).",
+        "Reconocer el círculo, el cuadrado y el triángulo como planos, y el cubo, la esfera y el cono como sólidos.",
+        "Notar si una forma tiene volumen: algo que puedes tomar con la mano frente a algo que solo dibujas.",
+        "Clasificar las formas en dos grupos en lugar de solo nombrarlas."
+      ],
+      "howToPlay": [
+        "Mira la figura que aparece en el tablero.",
+        "Decide si es plana o sólida y toca la casilla que corresponde; después pulsa Comprobar.",
+        "Vuelve a intentarlo cuando quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Identificar las formas como planas (bidimensionales) o sólidas (tridimensionales).",
+        "Relacionar una figura plana con su cuerpo sólido pariente, como el cuadrado y el cubo.",
+        "Sentar las bases para nombrar y describir los cuerpos 3D más adelante."
+      ]
+    },
+    "choice-board.next-number.k-cc-a-2": {
+      "about": [
+        "Se muestra un número del 1 al 9 y el niño o la niña toca el número que viene justo después al contar: si ve un 4, busca el 5; si ve un 8, busca el 9. Es una actividad de conteo para preescolar, gratis e interactiva, que funciona directo en el navegador en tabletas, celulares y computadoras, sin instalar nada y sin crear cuenta.",
+        "La idea central es contar hacia adelante a partir de un número dado, en lugar de empezar siempre desde el uno. Las opciones son números del 0 al 10 cercanos a la respuesta correcta, así que el niño o la niña tiene que saber de verdad cuál sigue y no adivinar. Esa habilidad —retomar el conteo a la mitad de la serie— es la que hace que contar sea rápido y flexible.",
+        "Está pensada para el nivel de preescolar o kínder, en el eje de conteo y cardinalidad de los planes y programas de estudio (SEP): contar hacia adelante a partir de un número dado dentro de la serie conocida. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Decir qué número viene justo después de un número dado del 1 al 9.",
+        "Contar hacia adelante empezando a la mitad de la serie y no desde el uno.",
+        "Conocer el orden de los números lo suficiente para reconocer el que sigue.",
+        "Desarrollar un conteo flexible que no necesita empezar de nuevo cada vez."
+      ],
+      "howToPlay": [
+        "Mira el número que aparece en el tablero.",
+        "Toca el número que viene justo después; luego pulsa Comprobar.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Contar hacia adelante a partir de un número dado.",
+        "Saber qué número sigue en la serie hasta el 10.",
+        "Construir la fluidez de conteo en la que se apoyan la suma y el sentido numérico."
+      ]
+    },
+    "choice-board.read-ruler.2-md-a-1": {
+      "about": [
+        "Un objeto está colocado sobre una regla en centímetros —un lápiz, un listón, una crayola, un marcador— y el niño o la niña lee cuánto mide y toca la respuesta en centímetros, con longitudes que van desde una crayola corta de 5 cm hasta un marcador de 14 cm o un palito de 17 cm. Es una actividad de medición para 2.º de primaria, gratis e interactiva, que se juega directo en el navegador, sin crear cuenta.",
+        "La idea central es leer bien una regla: alinea el extremo izquierdo del objeto con el 0, síguelo hasta su otro extremo y lee la marca que cae ahí. Aquí no se estima, se lee una longitud exacta en la escala. Como las opciones son números cercanos, empezar a medir desde el 1 en lugar del 0 —un error clásico— se nota enseguida, y así se forma el hábito de iniciar toda medición en cero.",
+        "Está pensada para el nivel de 2.º de primaria, en el eje de medición de los planes y programas de estudio (SEP): medir la longitud de un objeto eligiendo y usando una herramienta adecuada, como la regla. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Leer en centímetros la longitud de un objeto sobre una regla.",
+        "Alinear el extremo izquierdo del objeto con el 0 antes de leer el otro extremo.",
+        "Encontrar la marca en centímetros donde termina el objeto.",
+        "Evitar el error común de empezar a medir desde el 1 en lugar del 0."
+      ],
+      "howToPlay": [
+        "Mira el objeto sobre la regla y comprueba que su extremo izquierdo está en el 0.",
+        "Síguelo hasta el otro extremo, lee la marca en centímetros y toca ese número; después pulsa Comprobar.",
+        "Vuelve a intentarlo cuando quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Medir longitudes en centímetros con una regla.",
+        "Leer una escala de medición empezando desde el cero.",
+        "Formar hábitos de medición precisos para longitudes más grandes y otras herramientas."
+      ]
+    },
+    "fractions.partition-equal-shares.1-g-a-3": {
+      "about": [
+        "Aparece una figura —un círculo, un cuadrado, un rectángulo, un triángulo, una elipse, un rombo, un hexágono o un pentágono— y el niño o la niña toca las líneas de corte para dividirla en 2 partes iguales (mitades) o en 4 partes iguales (cuartos). Es una actividad de geometría para 1.º de primaria, gratis e interactiva, que se juega en el navegador desde cualquier dispositivo, sin crear cuenta.",
+        "La idea central es que las partes iguales deben ser justas: los trozos tienen que ser del mismo tamaño. Al cortar figuras variadas, y no solo círculos, queda claro que las mitades y los cuartos se tratan de áreas iguales y no de una sola imagen conocida: un cuadrado dividido en una cuadrícula de cuatro y un círculo cortado en cuatro forman, ambos, cuartos. Como es el niño o la niña quien hace el corte, va igualando las partes por sí mismo en lugar de reconocer una imagen ya terminada.",
+        "Está pensada para el nivel de 1.º de primaria, en el eje de geometría de los planes y programas de estudio (SEP): dividir círculos y rectángulos en dos y cuatro partes iguales y describirlas como mitades y cuartos. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Cortar círculos, cuadrados y otras figuras en partes iguales.",
+        "Formar 2 partes iguales (mitades) y 4 partes iguales (cuartos).",
+        "Mantener los trozos del mismo tamaño para que las partes sean justas.",
+        "Ver las mitades y los cuartos en muchas figuras distintas."
+      ],
+      "howToPlay": [
+        "Mira la figura y el número de partes iguales que hay que formar.",
+        "Toca las líneas de corte para dividirla en mitades o en cuartos.",
+        "Asegúrate de que los trozos queden iguales: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Dividir figuras en dos y cuatro partes iguales.",
+        "Describir las partes iguales como mitades y cuartos.",
+        "Construir la base del reparto justo sobre la que se apoya el trabajo con fracciones más adelante."
+      ]
+    },
+    "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
+      "about": [
+        "El niño o la niña enlaza las tarjetas que muestran el mismo valor —el número en cifras (305), el número en palabras (trescientos cinco) y la forma desarrollada (300 + 5)— tocando una tarjeta y luego otra que coincida con su valor, hasta unir el trío. Es un juego de relacionar tarjetas de matemáticas para 2.º de primaria, gratis e interactivo, que se juega directo en el navegador, sin instalar nada y sin crear cuenta.",
+        "La idea central es que una cifra, su nombre en palabras y su forma desarrollada nombran un mismo número, y los huecos en el valor posicional son lo interesante. Números como 305 y 208 tienen un cero en las decenas, así que la forma desarrollada es 300 + 5 y no 300 + 0 + 5, y hay que leer con cuidado para enlazar 'doscientos ocho' con 208 y no con 280. Cada ronda tiene tres números distintos que resolver al mismo tiempo.",
+        "Está pensada para el nivel de 2.º de primaria, en el eje de número y operaciones de los planes y programas de estudio (SEP): leer y escribir números hasta 1000 en cifras, en palabras y en forma desarrollada. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Enlazar una cifra, su nombre en palabras y su forma desarrollada.",
+        "Leer nombres de números de tres dígitos, como novecientos cuarenta.",
+        "Escribir bien la forma desarrollada cuando un lugar tiene cero, como 600 + 5.",
+        "Distinguir números parecidos, como 208 y 280."
+      ],
+      "howToPlay": [
+        "Mira las tarjetas: cifras como 562, palabras como quinientos sesenta y dos, y formas desarrolladas como 500 + 60 + 2.",
+        "Toca una tarjeta y luego otra que muestre el mismo número, y observa cómo se enlaza la pareja.",
+        "Encuentra los tres números de la ronda: no hay temporizador ni puntuación, así que tómate tu tiempo."
+      ],
+      "learningGoals": [
+        "Leer y escribir números hasta 1000 en cifras, en palabras y en forma desarrollada.",
+        "Entender que distintas formas pueden nombrar el mismo valor.",
+        "Reforzar el sentido del valor posicional, incluso en números con un cero en algún lugar."
+      ]
+    },
+    "money.count-out.2-md-c-8": {
+      "about": [
+        "El niño o la niña forma una cantidad exacta moneda por moneda, tocando monedas de pesos y centavos para irlas poniendo en la charola hasta que el dinero coincida: por ejemplo, $30 con una moneda de $20 y una de $10, o $15 con una de $10 y una de $5. Es una actividad de matemáticas para 2.º de primaria, gratis e interactiva, que se juega directo en el navegador, sin instalar nada y sin crear cuenta.",
+        "La idea central es que el valor de una moneda no depende de su tamaño, así que hay que saber cuánto vale cada una e ir sumando sobre la marcha. Una moneda chiquita puede valer más que una más grande, y una sola moneda puede valer lo mismo que un puñado de monedas pequeñas. Llegar a cada cantidad eligiendo y sumando monedas construye el conteo acumulado que se necesita para manejar dinero de verdad.",
+        "Está pensada para el nivel de 2.º de primaria, en el eje de medición y manejo de dinero de los planes y programas de estudio (SEP): resolver problemas con pesos y centavos usando los símbolos $ y ¢. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Conocer el valor de las monedas de pesos y centavos.",
+        "Sumar el valor de las monedas para llegar a una cantidad exacta.",
+        "Llevar la cuenta acumulada mientras se eligen las monedas.",
+        "Entender que el valor de una moneda no se relaciona con su tamaño."
+      ],
+      "howToPlay": [
+        "Lee la cantidad de la ronda, por ejemplo $40.",
+        "Toca monedas para ponerlas en la charola —de pesos y de centavos— hasta que el total coincida.",
+        "¿No salió a la primera? Agrega o quita monedas y vuelve a intentarlo: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Contar monedas para formar una cantidad dada.",
+        "Usar los símbolos $ y ¢ y conocer el valor de cada moneda.",
+        "Desarrollar el sentido del dinero que se necesita para contar y comprar todos los días."
+      ]
+    },
+    "numberbond.subtraction-unknown-addend.1-oa-b-4": {
+      "about": [
+        "Una resta como 8 − 3 aparece como una descomposición numérica —se dan el todo (8) y una parte (3)— y el niño o la niña completa la parte que falta. Es una actividad de matemáticas para 1.º de primaria, gratis e interactiva, que funciona directo en el navegador, sin crear cuenta.",
+        "La idea central es leer la resta como '¿qué se junta con 3 para formar 8?', es decir, un sumando desconocido en lugar de un quitar. El niño o la niña completa la parte vacía hasta que las dos partes reconstruyen el todo, así que la relación profunda entre la resta y la suma es justo lo que hace, con rondas que llegan a un todo de hasta 16.",
+        "Está pensada para el nivel de 1.º de primaria, en el eje de operaciones de los planes y programas de estudio (SEP): entender la resta como un problema de sumando desconocido. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Ver una resta como un todo al que le falta una parte.",
+        "Pensar '¿qué se suma a la parte conocida para formar el todo?'.",
+        "Completar la parte que falta hasta que las dos partes reconstruyan el todo.",
+        "Relacionar la resta con la suma (3 y 5 forman 8)."
+      ],
+      "howToPlay": [
+        "Mira la descomposición numérica: se dan el todo y una parte, como 8 con 3.",
+        "Completa la parte que falta hasta que las dos partes formen el todo; después pulsa Comprobar.",
+        "¿No salió a la primera? Ajusta la parte y vuelve a comprobar: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Entender la resta como encontrar un sumando desconocido.",
+        "Encontrar la parte que falta cuando se conocen el todo y una parte.",
+        "Ver cómo la suma y la resta se deshacen una a la otra."
+      ]
+    },
+    "place-value.expanded-form.2-nbt-a-3": {
+      "about": [
+        "El niño o la niña construye un número de tres dígitos con bloques de base diez —tocando para añadir placas de cien, barras de diez y cubos de uno— y, cuando la construcción es correcta, los bloques muestran la forma desarrollada, de modo que 247 se convierte en 200 + 40 + 7, con números desde 108 hasta 974, incluyendo casos engañosos como 305. Es una actividad de matemáticas para 2.º de primaria, gratis e interactiva, que funciona directo en el navegador, sin crear cuenta.",
+        "La idea central es que un número es la suma de lo que vale cada dígito. Al armar 247 con dos cienes, cuatro dieces y siete unos, el niño o la niña ve que el 4 significa 40 y no solo 'cuatro'. Los números con cero son los grandes maestros: 305 muestra que una decena vacía no agrega nada, así que la forma desarrollada es solo 300 + 5. Los bloques conectan cada dígito con su valor real.",
+        "Está pensada para el nivel de 2.º de primaria, en el eje de número y valor posicional de los planes y programas de estudio (SEP): leer y escribir números de tres dígitos en forma desarrollada. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Construir un número de tres dígitos con centenas, decenas y unidades.",
+        "Leer el número en forma desarrollada, como 247 = 200 + 40 + 7.",
+        "Ver que el valor de cada dígito depende de su lugar.",
+        "Manejar números con un cero, como 305 = 300 + 5."
+      ],
+      "howToPlay": [
+        "Toca para añadir placas de cien, barras de diez y cubos de uno hasta construir el número indicado.",
+        "Cuando la construcción es correcta, los bloques muestran la forma desarrollada, como 200 + 40 + 7.",
+        "Pasa al siguiente número: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Leer y escribir números de tres dígitos en forma desarrollada.",
+        "Entender que un número es la suma de sus valores posicionales.",
+        "Construir el sentido del valor posicional que apoya sumar y comparar números."
+      ]
+    },
+    "ten-frame.solve-the-story.k-oa-a-2": {
+      "about": [
+        "«3 pájaros están en una rama y llegan 2 más, ¿cuántos hay ahora?» Aparece un cuento corto, el niño o la niña lo representa con fichas en un marco de diez para decidir si junta o quita, y luego escribe la respuesta en el teclado. Esta actividad de matemáticas para preescolar, gratis e interactiva, trabaja problemas verbales hasta 10 y se juega en el navegador, sin crear cuenta.",
+        "Los problemas verbales son donde los números cobran sentido. El niño o la niña tiene que decidir si el cuento junta grupos o quita algunos, lo cual es más difícil que recibir un signo de más o de menos. El marco de diez es un apoyo para representar y actuar la situación, pero la respuesta se escribe en el teclado, así que el trabajo está en leer, decidir la operación y luego contar para estar seguro.",
+        "Está pensada para el nivel de preescolar o kínder, en el eje de operaciones de los planes y programas de estudio (SEP): resolver problemas verbales de suma y resta hasta 10 usando objetos o dibujos para representar el problema. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+      ],
+      "practices": [
+        "Leer un cuento corto y decidir si hay que sumar o restar.",
+        "Representar un problema verbal con fichas en un marco de diez.",
+        "Resolver situaciones de suma y resta hasta 10.",
+        "Escribir la respuesta a una pregunta real sobre cantidades."
+      ],
+      "howToPlay": [
+        "Lee el problema, por ejemplo: 3 pájaros están en la rama y llegan 2 más.",
+        "Usa las fichas del marco de diez para representarlo, luego escribe cuántos hay en el teclado y pulsa Comprobar.",
+        "¿No salió a la primera? Vuelve a leer el cuento e inténtalo de nuevo: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Resolver problemas verbales de suma y resta hasta 10.",
+        "Elegir la operación correcta a partir del sentido del cuento.",
+        "Construir los hábitos de resolución de problemas en los que se apoyan las matemáticas posteriores."
+      ]
+    },
+    "choice-board.count-sides.k-g-b-4": {
+      "about": [
+        "Aparece una sola figura y el niño o la niña cuenta sus lados rectos, luego toca el número que coincide: un triángulo con 3 lados, un cuadrado con 4, un pentágono con 5 o un hexágono con 6, y las opciones de números van del 3 al 8. Es una actividad de geometría para preescolar (kínder), gratis e interactiva, que funciona directo en el navegador de una tableta, un celular o la computadora del salón, sin instalar nada y sin crear cuenta.",
+        "La idea importante es que una figura es mucho más que su nombre: está hecha de partes que se pueden contar. Aquí no basta con reconocer «un triángulo»; hay que seguir cada lado con la mirada y contarlos de uno en uno. Como las opciones incluyen números muy parecidos, como el 5 junto al 6, cualquier error de conteo de uno se nota enseguida, y eso anima a contar con cuidado, lado por lado, en lugar de adivinar de un vistazo.",
+        "Está alineada con los planes y programas de estudio (SEP): analizar y comparar figuras describiendo sus partes, como el número de lados. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Contar los lados rectos de un triángulo, un cuadrado, un pentágono y un hexágono.",
+        "Relacionar una figura con un número: cuántos lados tiene, no solo cómo se llama.",
+        "Contar con cuidado un lado a la vez en lugar de adivinar el total de golpe.",
+        "Distinguir figuras por sus partes, como cinco lados frente a seis."
+      ],
+      "howToPlay": [
+        "Mira la figura del tablero y cuenta sus lados rectos, uno por uno.",
+        "Toca el número que coincide con la cantidad de lados que contaste y pulsa Comprobar.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Contar el número de lados de las figuras más comunes.",
+        "Describir una figura por sus partes y no solo nombrarla.",
+        "Formar el hábito de contar con cuidado y analizar figuras, base de la geometría que viene después."
+      ]
+    },
+    "choice-board.pick-smaller.k-c-c-7": {
+      "about": [
+        "Aparecen dos números escritos y el niño o la niña toca el menor, por ejemplo 3 y 5, u 8 y 9. Algunas parejas están muy separadas, como 1 y 9, y otras quedan juntitas, como 5 y 6. Es una actividad de conteo para preescolar (kínder), gratis e interactiva, que se juega directo en el navegador, sin necesidad de crear cuenta.",
+        "Lo valioso aquí es comparar números por su valor mientras la atención busca el menor en lugar del mayor, un cambio pequeño pero importante. Como no hay objetos que contar, el niño o la niña lee cada numeral y decide cuál vale menos. Las parejas vecinas lo vuelven un reto de verdad: saber que el 8 va justo antes del 9 es lo que indica que el 8 es el menor.",
+        "Está alineada con los planes y programas de estudio (SEP): comparar dos números del 1 al 10 presentados como numerales escritos. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Comparar dos números escritos del 1 al 10 y encontrar el menor.",
+        "Leer numerales y conocer su valor sin contar objetos.",
+        "Dirigir la atención hacia «menos» en lugar de «más» al comparar.",
+        "Resolver parejas cercanas como el 8 y el 9, no solo las muy separadas."
+      ],
+      "howToPlay": [
+        "Mira los dos números del tablero.",
+        "Toca el que sea menor y pulsa Comprobar.",
+        "Inténtalo cuando quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Comparar números escritos del 1 al 10 y elegir el menor.",
+        "Conocer el valor que representa cada numeral sin necesidad de contar.",
+        "Formar el sentido de comparación que más adelante sostiene la idea de «menor que»."
+      ]
+    },
+    "choice-board.read-sight-word.rf-k-3-c": {
+      "about": [
+        "El niño o la niña escucha en voz alta una palabra de uso muy frecuente y luego toca la palabra escrita correcta entre varias opciones parecidas: palabras de todos los días como el, la, que, con, una y es, que aparecen una y otra vez en los primeros textos. Es una actividad de lectura para preescolar (kínder) y el comienzo de la primaria, gratis e interactiva, que corre directo en el navegador de tabletas, celulares y computadoras, sin instalar nada y sin crear cuenta.",
+        "La idea central es reconocer de vista, al instante, las palabras más comunes para que la lectura fluya. Como muchas de estas palabras se confunden con otras muy parecidas, las opciones equivocadas son primas cercanas (es junto a el, una junto a un), así que hay que reconocer la palabra exacta y no solo una forma similar. Escuchar la palabra y encontrarla escrita conecta el sonido con la escritura justo en las palabras que más se repiten.",
+        "Está alineada con los planes y programas de estudio (SEP): leer de vista palabras de uso frecuente. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Reconocer de vista palabras frecuentes como el, la, que y con.",
+        "Relacionar una palabra escuchada con su forma escrita.",
+        "Distinguir palabras parecidas, como es y el, o un y una.",
+        "Construir el reconocimiento instantáneo que hace fluida la lectura."
+      ],
+      "howToPlay": [
+        "Escucha la palabra en voz alta; toca para volver a oírla si lo necesitas.",
+        "Toca la palabra escrita que coincide con la que escuchaste y pulsa Comprobar.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Leer de vista palabras de uso frecuente.",
+        "Conectar una palabra escuchada con su escritura exacta entre opciones parecidas.",
+        "Formar un banco de palabras conocidas que libera la atención para entender lo que se lee."
+      ]
+    },
+    "choice-board.letter-case.rf-k-1-d": {
+      "about": [
+        "Se muestra una letra y el niño o la niña toca la misma letra en su otra forma: de mayúscula a minúscula o de minúscula a mayúscula. Aparece una B grande y hay que encontrar la b chica; una R grande lleva a la r; una E grande lleva a la e, incluida la ñ del abecedario en español. Es una actividad de lectura para preescolar (kínder), gratis e interactiva, que se juega directo en el navegador, sin crear cuenta.",
+        "La idea importante es que cada letra tiene dos formas que nombran a la misma letra. Las opciones equivocadas se eligen a propósito para que se parezcan: para la B, las minúsculas que aparecen son b, d, p y h, así que hay que reconocer la forma real de la letra y no solo elegir algo redondeado. Separar las letras que se voltean o giran, como la b y la d, es exactamente el tipo de observación cuidadosa que forma un reconocimiento seguro de las letras.",
+        "Está alineada con los planes y programas de estudio (SEP): reconocer y nombrar todas las letras del abecedario en mayúscula y en minúscula. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Relacionar una letra mayúscula con su minúscula, y al revés.",
+        "Reconocer la misma letra en su forma grande y en su forma chica.",
+        "Distinguir letras parecidas como la b, la d y la p.",
+        "Afianzar el reconocimiento seguro de letras que necesita la lectura fluida."
+      ],
+      "howToPlay": [
+        "Mira la letra que aparece en el tablero.",
+        "Toca la misma letra en su otra forma, grande o chica, y pulsa Comprobar.",
+        "Inténtalo cuando quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Reconocer y nombrar letras en mayúscula y en minúscula.",
+        "Entender que las dos formas de una letra son la misma letra.",
+        "Afianzar las letras parecidas que los primeros lectores suelen confundir."
+      ]
+    },
+    "fractions.partition-thirds.2-g-a-3": {
+      "about": [
+        "Se presenta un círculo, un triángulo, un hexágono, un cuadrado, un rectángulo, un rombo o una elipse, y el niño o la niña toca las líneas de corte para dividir la figura en tres partes iguales: los tercios. Es una actividad de geometría para 2.º de primaria, gratis e interactiva, que corre en el navegador de cualquier dispositivo, sin instalar nada y sin crear cuenta.",
+        "Lo interesante es que los tercios son más difíciles que las mitades, porque tres partes iguales no caen sobre una línea de en medio tan obvia. El círculo se parte con tres líneas desde el centro, el rectángulo en tres tiras iguales y el triángulo en tres partes que coinciden, así el niño o la niña aprende que «tercios» significa tres partes del mismo tamaño, sin importar cómo se corte la figura. Hacer los cortes con sus propias manos construye un sentido de las partes iguales que mirar un dibujo no alcanza a dar.",
+        "Está alineada con los planes y programas de estudio (SEP): dividir círculos y rectángulos en dos, tres o cuatro partes iguales y describir las partes con la palabra tercios. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Cortar una figura en 3 partes iguales.",
+        "Formar tercios en círculos, rectángulos, triángulos y más figuras.",
+        "Mantener las tres partes del mismo tamaño.",
+        "Usar la palabra tercios para nombrar tres partes iguales."
+      ],
+      "howToPlay": [
+        "Mira la figura que tienes que cortar en 3 partes iguales.",
+        "Toca las líneas de corte para formar los tercios.",
+        "Revisa que las tres partes queden iguales: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Dividir figuras en tres partes iguales y nombrarlas tercios.",
+        "Entender que los tercios deben ser tres partes del mismo tamaño, sin importar cómo se corte la figura.",
+        "Reforzar el sentido de las partes iguales sobre el que se construyen las fracciones."
+      ]
+    },
+    "match-pairs.find-the-missing-number.1-oa-d-8": {
+      "about": [
+        "El niño o la niña resuelve tarjetas como ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 y 10 − ? = 6, y luego toca la operación y el número que la completa para enlazar la pareja. Es una actividad de matemáticas para 1.º de primaria, gratis e interactiva, que corre directo en el navegador, sin instalar nada y sin crear cuenta.",
+        "La idea clave es que el número desconocido puede estar en cualquier lugar: un sumando que falta, el número que se quita, el número inicial o el total, así que cada vez hay que pensar la relación completa en lugar de «siempre sumar para encontrar la respuesta». A veces el espacio vacío es el total (5 + 4 = ?) y a veces está escondido dentro del problema (? − 4 = 1), y eso desarrolla una verdadera flexibilidad con las familias de operaciones.",
+        "Está alineada con los planes y programas de estudio (SEP): encontrar el número desconocido en una suma o una resta, con la incógnita en cualquier posición. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Encontrar un sumando, el número que se quita, el número inicial o el total que falta.",
+        "Usar la relación entre la suma y la resta para hallar el número desconocido.",
+        "Contar hacia adelante o hacia atrás para encontrar la parte que falta.",
+        "Relacionar cada operación con el número que la vuelve verdadera."
+      ],
+      "howToPlay": [
+        "Lee una tarjeta de operación con un espacio vacío, como ? + 7 = 10, y descubre el número que falta.",
+        "Toca la operación, luego toca el número que la completa y mira cómo se enlaza la pareja.",
+        "Forma las dos parejas de la ronda: no hay temporizador ni puntuación, así que tómate tu tiempo."
+      ],
+      "learningGoals": [
+        "Encontrar el número desconocido en una suma o una resta, en cualquier posición.",
+        "Entender cómo la suma y la resta se deshacen una a la otra.",
+        "Desarrollar un pensamiento flexible con las familias de operaciones en lugar de un solo procedimiento fijo."
+      ]
+    },
+    "money.make-change.2-md-c-8": {
+      "about": [
+        "Algo cuesta $0.80, pagas con $1.00 y el niño o la niña tiene que dar el cambio correcto, en este caso $0.20 con dos monedas de 10 centavos, tocando las monedas para ponerlas en la charola. Calcular la diferencia y armarla con monedas une la resta con el conteo de dinero, en una actividad de dinero para 2.º de primaria, gratis e interactiva, que se juega directo en el navegador, sin instalar nada y sin crear cuenta.",
+        "La idea central es que el cambio es la diferencia entre lo que se pagó y lo que cuesta algo. Primero el niño o la niña calcula cuánto se debe de cambio y luego lo arma con las monedas que elige (de 5, 10, 20 y 50 centavos, y de 1, 2 y 5 pesos), uniendo así la resta con el conteo de monedas mexicanas. Como cada moneda no trae escrito su valor, hay que saber cuánto vale cada una y contar hasta completar el cambio que se debe.",
+        "Está alineada con los planes y programas de estudio (SEP): resolver problemas de dinero con pesos y centavos, usando los símbolos $ y ¢. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Encontrar el cambio que se debe como la diferencia entre lo pagado y el costo.",
+        "Armar la cantidad del cambio con monedas de centavos y de pesos.",
+        "Conectar la resta con el conteo de monedas de verdad.",
+        "Contar hacia adelante desde el precio hasta la cantidad que se pagó."
+      ],
+      "howToPlay": [
+        "Lee cuánto cuesta el artículo y cuánto pagas; por ejemplo, cuesta $0.85 y pagas $1.00.",
+        "Calcula el cambio y toca las monedas para ponerlas en la charola hasta dar la cantidad correcta.",
+        "¿No salió a la primera? Ajusta las monedas e inténtalo de nuevo: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Dar el cambio con monedas en problemas de dinero.",
+        "Entender el cambio como la diferencia entre el costo y la cantidad pagada.",
+        "Reforzar al mismo tiempo la resta y el conteo de monedas con los símbolos $ y ¢."
+      ]
+    },
+    "numberbond.add-three.1-oa-a-2": {
+      "about": [
+        "Un enlace numérico de tres partes junta tres números, como 3, 4 y 5, en un solo total, y el niño o la niña suma los tres y escribe el resultado en el teclado. Es una actividad de matemáticas para 1.º de primaria, gratis e interactiva, que se juega directo en el navegador, sin necesidad de crear cuenta.",
+        "Ver tres partes que se unen en un solo total muestra que los números se pueden combinar en cualquier orden y paso a paso. Parejas como 4 + 4 + 5 invitan, sin presionar, a formar primero un número amigable y luego sumar la última parte. El niño o la niña lee las tres partes y escribe la suma; los puntitos dentro de cada parte están ahí para contar cuando un resultado todavía no sale de memoria.",
+        "Está alineada con los planes y programas de estudio (SEP): sumar tres números enteros cuyo total no pase de 20. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Leer las tres partes de un enlace numérico y verlas unirse en un solo total.",
+        "Sumar tres números de una cifra con un total hasta 20.",
+        "Elegir un orden conveniente: sumar primero las dos partes que forman un diez o un número amigable.",
+        "Escribir el total que nombra al todo."
+      ],
+      "howToPlay": [
+        "Mira las tres partes del enlace numérico, por ejemplo 3 + 4 + 5.",
+        "Suma los tres números y escribe el total en el teclado, luego pulsa Comprobar.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Sumar tres números enteros con un total hasta 20.",
+        "Ver cómo tres partes se combinan en un solo total dentro de un enlace numérico.",
+        "Sumar en un orden inteligente formando primero un diez o un número amigable."
+      ]
+    },
+    "sort-bins.sort-by-sides.2-g-a-1": {
+      "about": [
+        "En cada ronda cae un montón de figuras (triángulos rectángulos y obtusángulos, cuadrados, rombos, pentágonos y hexágonos irregulares) y el niño o la niña cuenta los lados de cada una y la arrastra a la caja que le corresponde. Es una actividad de geometría para 2.º de primaria, gratis e interactiva, que se juega en el navegador, sin crear cuenta.",
+        "Lo importante es contar los lados en lugar de comparar con una figura memorizada, porque una figura de cinco lados estirada o inclinada sigue siendo un pentágono. Al enfrentar figuras irregulares y giradas junto a las más ordenadas, el niño o la niña practica usar el número de lados como la regla que nombra a un polígono. Eso construye el vocabulario (cuadrilátero, pentágono, hexágono) y el hábito de analizar figuras por sus partes.",
+        "Está alineada con los planes y programas de estudio (SEP): reconocer y dibujar figuras con atributos dados, como un número de lados determinado, e identificar triángulos, cuadriláteros, pentágonos y hexágonos. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Contar los lados de una figura para decidir a qué grupo de polígonos pertenece.",
+        "Distinguir triángulos, cuadriláteros, pentágonos y hexágonos por su número de lados.",
+        "Reconocer el mismo polígono cuando es irregular, está estirado o girado.",
+        "Usar correctamente las palabras cuadrilátero, pentágono y hexágono."
+      ],
+      "howToPlay": [
+        "Mira cada figura y cuenta cuántos lados tiene.",
+        "Arrástrala a la caja que le corresponde: triángulos, cuadriláteros, pentágonos o hexágonos.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+      ],
+      "learningGoals": [
+        "Identificar triángulos, cuadriláteros, pentágonos y hexágonos por sus lados.",
+        "Entender que el número de lados, y no la apariencia, es lo que nombra a un polígono.",
+        "Formar el vocabulario de figuras y el hábito de contar lados que sostiene la geometría posterior."
+      ]
+    },
+    "ten-frame.quick-facts-to-5.k-oa-a-5": {
+      "about": [
+        "Aparece de golpe una operación rápida (2 + 1, 5 − 2, 4 − 1) y el niño o la niña toca la respuesta correcta entre tres números muy parecidos, con un marco de diez al lado como apoyo opcional para comprobar. La meta es recordar con rapidez y seguridad las operaciones hasta el 5. Es una actividad de matemáticas para preescolar (kínder), gratis e interactiva, que se juega en el navegador, sin crear cuenta.",
+        "La fluidez hasta el 5 es el puente entre contar y la aritmética de verdad. Las tres opciones de respuesta están muy juntas (para 2 + 2 las opciones son 3, 4 y 5), así que no se gana eligiendo el más grande ni el más chico: hay que saber el resultado o calcularlo en el marco. Ronda tras ronda, las operaciones que al principio se contaban empiezan a salir al instante, que es justo lo que significa la fluidez.",
+        "Está alineada con los planes y programas de estudio (SEP): sumar y restar con fluidez hasta el 5. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Recordar resultados de suma y resta hasta el 5.",
+        "Distinguir respuestas cercanas, como 3, 4 y 5.",
+        "Usar el marco de diez para comprobar un resultado cuando hay duda.",
+        "Ganar rapidez y seguridad con los resultados de números pequeños."
+      ],
+      "howToPlay": [
+        "Lee la operación rápida, como 3 + 2 o 5 − 2.",
+        "Toca la respuesta que creas correcta entre las tres opciones; mira el marco de diez si quieres comprobar.",
+        "Una palomita cariñosa confirma la respuesta correcta y te invita a volver a intentarlo cuando hace falta."
+      ],
+      "learningGoals": [
+        "Sumar y restar con fluidez hasta el 5.",
+        "Pasar de contar los resultados a recordarlos con rapidez.",
+        "Formar la fluidez con los resultados en la que se apoyan la suma y la resta de primer grado."
+      ]
+    },
+    "choice-board.pick-bigger.k-c-c-7": {
+      "about": [
+        "Aparecen dos números escritos y tu hijo o hija toca el mayor: por ejemplo, 7 y 6, u 8 y 7. Algunas parejas están muy separadas, como 9 y 2, y otras quedan pegaditas, como 8 y 7. Es una actividad de conteo gratuita e interactiva para preescolar (kínder) que funciona en el navegador —en tableta, celular o computadora—, sin instalar nada y sin crear cuenta.",
+        "La idea central es comparar los números tal como se escriben, no como grupos de objetos para contar. No hay dibujos en los que apoyarse: para saber que 8 es más que 7, el niño o la niña tiene que reconocer el valor de cada cifra con solo leerla. Las parejas cercanas son las que vuelven real la práctica, porque no se gana eligiendo el número que se ve “más grande”; hay que saber cuánto vale cada numeral.",
+        "Está alineada con los planes y programas de estudio (SEP): comparar dos números del 1 al 10 presentados como cifras escritas. Sin temporizador y sin puntajes, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Comparar dos números escritos del 1 al 10 y encontrar el mayor.",
+        "Leer las cifras y reconocer su valor sin contar objetos.",
+        "Resolver parejas cercanas como 8 y 7, no solo las muy separadas.",
+        "Desarrollar el sentido de qué número es más grande."
+      ],
+      "howToPlay": [
+        "Mira los dos números que aparecen en el tablero.",
+        "Toca el que es mayor y luego pulsa Comprobar.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntaje."
+      ],
+      "learningGoals": [
+        "El niño o la niña aprende a comparar números escritos del 1 al 10 y elegir el mayor.",
+        "Tu hijo o hija reconoce el valor de cada cifra sin necesidad de contar.",
+        "Se forma el sentido de comparación que más adelante sostiene el “mayor que” y el “menor que”."
+      ]
+    },
+    "choice-board.how-many-group.k-c-c-b-5": {
+      "about": [
+        "Se muestra un grupo de dibujos amigables —un búho, cuatro zorros u ocho elefantes— y tu hijo o hija cuenta los objetos y toca el número que coincide. Es una actividad de conteo gratuita e interactiva para preescolar (kínder) que funciona directamente en el navegador, en tableta, celular o la computadora del salón, sin instalar nada y sin crear cuenta.",
+        "La idea central es la cardinalidad: el último número que dices al contar te dice cuántos hay en total. Como los objetos aparecen en filas, en pequeños arreglos y también desordenados, el niño o la niña no puede apoyarse en un patrón memorizado; tiene que contar cada dibujo una sola vez. Las opciones de número están cerca entre sí, como 7, 8 y 9, así que un error de uno se nota y se invita a volver a contar con cuidado.",
+        "Está alineada con los planes y programas de estudio (SEP): contar para responder “¿cuántos hay?” con hasta 10 objetos en fila, en arreglo o desordenados. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+      ],
+      "practices": [
+        "Contar hasta 10 objetos y decir cuántos hay en total.",
+        "Contar cada dibujo exactamente una vez, ya sea en fila o desordenado.",
+        "Relacionar la cantidad contada con su número escrito.",
+        "Afianzar la cardinalidad: el último número contado es el total."
+      ],
+      "howToPlay": [
+        "Observa el grupo de dibujos y cuéntalos con cuidado, uno por uno.",
+        "Toca el número que coincide con la cantidad que contaste y pulsa Comprobar.",
+        "¿No salió a la primera? Vuelve a contar las veces que quieras: no hay temporizador ni puntaje."
+      ],
+      "learningGoals": [
+        "El niño o la niña aprende a contar hasta 10 objetos en cualquier acomodo y nombrar el total.",
+        "Tu hijo o hija conecta una cantidad con su número escrito.",
+        "Se construye el conteo uno a uno y la cardinalidad sobre los que descansan las matemáticas posteriores."
+      ]
+    },
+    "choice-board.tell-words-apart.rf-k-3-c": {
+      "about": [
+        "Tu hija o hijo escucha una palabra de uso frecuente y la toca entre otras tres muy parecidas que se escriben casi igual pero suenan distinto: was entre saw, war y wax; of entre off, for y or; were entre where, here y we; want entre went, what y wait. Es una actividad de lectura gratuita e interactiva con sonido, que funciona en el navegador, sin crear cuenta, y afina justo las palabras que más se confunden.",
+        "Estas palabras se ven casi idénticas, así que una mirada rápida no basta. El niño o la niña tiene que retener en la mente la palabra que escuchó y revisar las opciones letra por letra para encontrar la coincidencia exacta —notando que was no es saw al revés, y que of no es off con una letra de más—. Ese mirar con cuidado es lo que convierte las adivinanzas inseguras en un reconocimiento veloz y certero.",
+        "Está pensada para 1.º de primaria y alineada con los planes y programas de estudio (SEP) en el apoyo a la conciencia fonológica y al reconocimiento de palabras. Sin temporizador y sin puntajes, con un ritmo tranquilo y a tu propio paso."
+      ],
+      "practices": [
+        "Retener una palabra escuchada mientras se revisan las opciones escritas.",
+        "Distinguir palabras parecidas como was y saw, of y off, were y where.",
+        "Leer cada palabra completa en lugar de adivinar por la primera letra.",
+        "Construir un reconocimiento rápido y certero de las palabras de uso frecuente."
+      ],
+      "howToPlay": [
+        "Toca para escuchar la palabra y vuelve a oírla las veces que quieras.",
+        "Mira las opciones y toca la que coincide con la palabra que escuchaste; luego comprueba.",
+        "¿Se confundieron? Inténtalo otra vez: no hay temporizador ni puntaje."
+      ],
+      "learningGoals": [
+        "El niño o la niña aprende a reconocer de vista las palabras de uso frecuente que se confunden por su parecido.",
+        "Tu hija o hijo distingue palabras casi idénticas leyéndolas hasta el final.",
+        "Se desarrolla la fluidez que libera la atención para entender lo que se lee."
+      ]
+    },
+    "choice-board.beginning-sound.rf-k-3-a": {
+      "about": [
+        "Se muestra una sola letra —como la D, la F o la M— y tu pequeño toca el dibujo cuyo nombre empieza con ese sonido, eligiendo entre grupos conocidos como animales, comida y objetos de todos los días. Es una actividad de fonética gratuita e interactiva para preescolar (kínder) que funciona directamente en el navegador, sin instalar nada y sin crear cuenta.",
+        "Cada ronda muestra un dibujo correcto y otros tres que empiezan con sonidos distintos, así que no se puede adivinar: hay que decir el nombre de cada dibujo y escuchar con atención el primer sonido. Unir una letra con el sonido inicial de la palabra es el vínculo central entre letra y sonido, y oírlo frente a otras opciones hace que ese primer sonido resalte con claridad.",
+        "Está alineada con los planes y programas de estudio (SEP): reconocer el sonido principal que representa cada letra. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+      ],
+      "practices": [
+        "Relacionar una letra con el sonido que produce.",
+        "Decir el nombre de un dibujo y escuchar su primer sonido.",
+        "Unir el sonido inicial con la letra que se muestra.",
+        "Distinguir el sonido inicial correcto de otros tres comienzos."
+      ],
+      "howToPlay": [
+        "Mira la letra de arriba, por ejemplo la D, y di su sonido.",
+        "Toca el dibujo cuyo nombre empieza con ese sonido, entre las cuatro opciones.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntaje."
+      ],
+      "learningGoals": [
+        "El niño o la niña aprende a reconocer el sonido principal de cada letra.",
+        "Tu pequeño escucha y relaciona el primer sonido de una palabra con su letra.",
+        "Se construye la base de letra y sonido sobre la que se apoya leer y deletrear palabras."
+      ]
+    },
+    "fractions.make-and-count-squares.2-g-a-2": {
+      "about": [
+        "Tu hijo o hija toca las líneas punteadas para dividir un rectángulo en filas y columnas de cuadrados del mismo tamaño —2 filas y 3 columnas, 3 filas y 4 columnas, hasta 4 filas y 5 columnas— y luego escribe cuántos cuadrados hay en total. Es una actividad de geometría gratuita e interactiva para 2.º de primaria que funciona en el navegador, en cualquier dispositivo, sin instalar nada y sin crear cuenta.",
+        "La idea central es que un rectángulo se puede dividir en cuadrados iguales acomodados en filas y columnas ordenadas, y que esa estructura ayuda a contarlos. Como el propio niño o niña forma la cuadrícula y después cuenta, empieza a sentir que 3 filas de 4 cuadrados significa contar de grupos iguales: el inicio tranquilo de los arreglos y de la multiplicación. Los cuadrados son todos del mismo tamaño a propósito, para que “cuántos hay” sea un verdadero total de partes iguales.",
+        "Está alineada con los planes y programas de estudio (SEP): dividir un rectángulo en filas y columnas de cuadrados del mismo tamaño y contar para hallar el total. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+      ],
+      "practices": [
+        "Dividir un rectángulo en filas y columnas iguales de cuadrados del mismo tamaño.",
+        "Formar una cuadrícula tocando las líneas que dividen la figura.",
+        "Contar los cuadrados para encontrar el total en el rectángulo.",
+        "Notar la estructura de filas y columnas que lleva hacia los arreglos."
+      ],
+      "howToPlay": [
+        "Toca las líneas punteadas para formar filas y columnas de cuadrados iguales.",
+        "Arma la cuadrícula que pide la ronda, como 3 filas y 4 columnas.",
+        "Escribe cuántos cuadrados hay en total: no hay temporizador ni puntaje."
+      ],
+      "learningGoals": [
+        "El niño o la niña aprende a dividir un rectángulo en cuadrados del mismo tamaño y contar el total.",
+        "Tu hijo o hija ve un rectángulo como filas y columnas de partes iguales.",
+        "Se construye la base de los arreglos que prepara para la multiplicación."
+      ]
+    },
+    "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
+      "about": [
+        "Tu hijo o hija lee una comparación como 247 ___ 274 o 583 ___ 419 y la relaciona con el símbolo que la hace verdadera —menor que (<) o mayor que (>)— tocando la tarjeta de la comparación y luego el símbolo correcto. Es un juego de relacionar tarjetas, gratuito e interactivo, de matemáticas para 2.º de primaria que se juega directamente en el navegador, sin instalar nada y sin crear cuenta.",
+        "La idea central es comparar por el valor posicional, empezando por las centenas. Las parejas están elegidas para que no baste una mirada rápida: números como 655 y 658 comparten las mismas centenas y decenas, así que decide la cifra de las unidades, mientras que 480 y 408 obligan a fijarse en las decenas. Trabajar de izquierda a derecha —centenas, luego decenas y por último unidades— es justo el razonamiento que la actividad pone a practicar.",
+        "Está alineada con los planes y programas de estudio (SEP): comparar dos números de tres cifras usando >, = y < según el valor de las centenas, las decenas y las unidades. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+      ],
+      "practices": [
+        "Comparar números de tres cifras mirando primero las centenas, luego las decenas y por último las unidades.",
+        "Elegir el símbolo correcto, < o >, para que la comparación sea verdadera.",
+        "Distinguir números cercanos como 655 y 658 por la cifra que decide.",
+        "Leer y razonar el valor posicional en números hasta 1000."
+      ],
+      "howToPlay": [
+        "Lee una tarjeta de comparación como 406 ___ 460 y decide qué número es mayor.",
+        "Toca la comparación, luego toca el símbolo —< o >— que la hace verdadera y mira cómo se enlaza la pareja.",
+        "Relaciona las dos comparaciones de la ronda: no hay temporizador ni puntaje, tómate tu tiempo."
+      ],
+      "learningGoals": [
+        "El niño o la niña aprende a comparar dos números de tres cifras usando >, = y <.",
+        "Tu hijo o hija usa el valor posicional, empezando por las centenas, para decidir cuál es mayor.",
+        "Se desarrolla un sentido numérico seguro con números hasta 1000."
+      ]
+    },
+    "numberbond.make-ten.k-oa-a-4": {
+      "about": [
+        "El todo es 10 y una parte del diagrama parte-parte-todo ya está completa —por ejemplo, 7— y tu hijo o hija toca la parte vacía para agregar fichas hasta que las dos partes juntas formen 10. Es una actividad de matemáticas gratuita e interactiva para preescolar (kínder) que funciona directamente en el navegador, sin crear cuenta y sin registro.",
+        "Cada número del 1 al 9 tiene un compañero que completa el diez, y aquí el niño o la niña construye ese compañero agregando fichas de una en una y viendo cómo las dos partes crecen hasta 10, no leyendo un dato de una página. El propio diagrama es la superficie de la respuesta; el niño o la niña se detiene cuando ambas partes hacen exactamente diez, así que una parte demasiado pequeña o demasiado grande es fácil de sentir y corregir.",
+        "Está alineada con los planes y programas de estudio (SEP): encontrar el número que forma 10 al sumarse a un número dado, del 1 al 9. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+      ],
+      "practices": [
+        "Ver el todo 10 separado en dos partes dentro de un diagrama parte-parte-todo.",
+        "Agregar fichas a la parte vacía de una en una.",
+        "Encontrar el compañero que completa el diez (7 y 3, 4 y 6).",
+        "Saber cuándo las dos partes juntas hacen exactamente 10."
+      ],
+      "howToPlay": [
+        "Mira el diagrama: el todo es 10 y una parte ya está completa.",
+        "Toca la parte vacía para agregar fichas hasta que las dos partes hagan 10 y pulsa Comprobar.",
+        "¿Te pasaste o faltaron? Agrega o quita fichas y comprueba otra vez: no hay temporizador ni puntaje."
+      ],
+      "learningGoals": [
+        "El niño o la niña aprende a encontrar el número que forma 10 con un número dado.",
+        "Tu hijo o hija construye los amigos del diez agregando fichas, no memorizando.",
+        "Se sienta la base de la estrategia de “formar diez” para sumar más adelante."
+      ]
+    },
+    "numberbond.story-problem.2-oa-a-1": {
+      "about": [
+        "Tu hijo o hija lee un problema corto con palabras —20 tulipanes rojos y 30 tulipanes amarillos, un estante de 45 libros, patos que llegan a un estanque—, lo ve representado como un diagrama parte-parte-todo y escribe el número que falta. Es una actividad de matemáticas gratuita e interactiva para 2.º de primaria que se juega directamente en el navegador, sin instalar nada y sin crear cuenta.",
+        "El diagrama convierte cada historia en la misma imagen: dos partes y un todo. Eso le permite al niño o la niña ver si lo desconocido es el total, una parte que sobra o una cantidad inicial. Algunos problemas suman (cuántos hay en total), otros restan (cuántos quedan, cuántos llegaron), y el diagrama vuelve clara esa decisión en lugar de adivinar por una palabra clave.",
+        "Está alineada con los planes y programas de estudio (SEP): resolver problemas con palabras de un paso, de suma y de resta, hasta 100. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+      ],
+      "practices": [
+        "Leer un problema con palabras e identificar los números que importan.",
+        "Representar la situación como un diagrama parte-parte-todo.",
+        "Decidir si hay que sumar o restar según dónde está lo desconocido.",
+        "Resolver problemas de suma y resta hasta 100."
+      ],
+      "howToPlay": [
+        "Lee el problema con palabras que aparece arriba del diagrama.",
+        "Averigua el número que falta —un total, una parte o una cantidad inicial—, escríbelo en el teclado numérico y pulsa Comprobar.",
+        "¿No salió a la primera? Vuelve a leer e inténtalo otra vez: no hay temporizador ni puntaje."
+      ],
+      "learningGoals": [
+        "El niño o la niña aprende a resolver problemas de un paso, de suma y resta, hasta 100.",
+        "Tu hijo o hija representa una historia como un diagrama parte-parte-todo.",
+        "Encuentra un total, una parte o una cantidad inicial desconocida."
+      ]
+    },
+    "sort-bins.defining-attributes.1-g-a-1": {
+      "about": [
+        "¿Sigue siendo un triángulo aunque sea rojo, grande o esté inclinado? En cada ronda se nombra una figura, y tu peque arrastra cada figura a la caja correcta decidiendo lo que ES, no cómo se ve: separa los triángulos de verdad de cuadrados, pentágonos y hexágonos. Es una actividad de geometría gratuita e interactiva para 1.º de primaria que funciona en el navegador, sin instalar nada y sin crear cuenta.",
+        "Toda la idea está en la diferencia entre un atributo que define y uno que no. Un triángulo se define por tener tres lados —punto— mientras que ser rojo, grande o estar inclinado es solo cómo se ve este triángulo en particular. Al clasificar ejemplos frente a tentadores no-ejemplos, el niño o la niña aprende a ignorar la apariencia y a juzgar por la propiedad que de verdad importa. Ese es el comienzo del razonamiento geométrico.",
+        "Está alineada con los planes y programas de estudio (SEP): distinguir los atributos que definen una figura de los que no, y construir figuras que los tienen. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+      ],
+      "practices": [
+        "Decidir si una figura pertenece a un grupo nombrado según su número de lados.",
+        "Distinguir un atributo que define (número de lados) de uno que no (color, tamaño, dirección).",
+        "Reconocer triángulos y cuadriláteros en muchas formas, no solo en el ejemplo del libro.",
+        "Ignorar las apariencias y juzgar una figura por lo que la hace ser esa figura."
+      ],
+      "howToPlay": [
+        "Lee la figura nombrada —por ejemplo, triángulo— al inicio de la ronda.",
+        "Arrastra cada figura a la caja correcta decidiendo si ES esa figura, sin importar su color, tamaño o dirección.",
+        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntaje."
+      ],
+      "learningGoals": [
+        "El niño o la niña aprende a distinguir los atributos que definen una figura de los que no.",
+        "Tu peque entiende que un triángulo sigue siendo triángulo aunque cambie de color, tamaño u orientación.",
+        "Se construye el razonamiento por atributos sobre el que se apoya clasificar y nombrar figuras."
       ]
     }
   }

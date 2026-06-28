@@ -209,7 +209,7 @@ const EDUCATIONAL_FRAMEWORK_BY_LOCALE: Record<string, string> = {
   en: 'Common Core State Standards',
   de: 'Lehrplan',
   fr: 'Programmes officiels',
-  es: 'Currículo LOMLOE',
+  es: 'Planes y programas de estudio (SEP)',
   pt: 'BNCC',
   it: 'Indicazioni nazionali',
   nl: 'SLO-kerndoelen',

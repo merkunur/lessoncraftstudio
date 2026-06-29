@@ -330,6 +330,29 @@
         "Eine erste, tragfähige Vorstellung der Zahlenreihe und Ordnung aufbauen (Vorgänger, Nachfolger, „dazwischen“)."
       ]
     },
+    "span-length-gap.how-much-longer.2-md-a-4": {
+      "about": [
+        "Span ist eine neugierige kleine Spannerraupe, die für ihr Leben gern Dinge nebeneinanderlegt und vergleicht. In dieser Aufgabe zeigt dir Span zwei Streifen von unterschiedlicher Länge – zum Beispiel ein Band mit 8 cm und eine Schnur mit 5 cm. Jeder Streifen ist mit seinem Namen und seiner Länge in Zentimetern beschriftet.",
+        "Deine Aufgabe: Lies beide Längen ab und finde heraus, um wie viel länger der längere Streifen ist. Dazu ziehst du die kürzere Länge von der längeren ab – aus 8 cm und 5 cm wird so der Längenunterschied von 3 cm. Die Zahl tippst du anschließend ein. Alle Längen liegen zwischen 1 cm und 20 cm, sodass du im vertrauten Zahlenraum bis 20 rechnest.",
+        "„Wie viel länger?“ ist eine kostenlose, interaktive Übung für die 2. Klasse aus dem Bereich „Größen und Messen – Längen“ und passt zu den Inhalten des Lehrplans. Es gibt keine Zeituhr und keine Punktewertung – Span lässt dir alle Zeit, in Ruhe abzulesen, zu vergleichen und nachzudenken."
+      ],
+      "practices": [
+        "Zwei gegebene Längen in Zentimetern sicher ablesen und einander zuordnen.",
+        "Den längeren und den kürzeren Streifen erkennen und benennen.",
+        "Den Längenunterschied bestimmen, indem die kürzere Länge von der längeren abgezogen wird.",
+        "Das Ergebnis als Größe mit Einheit angeben („… cm“) und so die Größenvorstellung für Längen festigen."
+      ],
+      "howToPlay": [
+        "Schau dir Spans zwei Streifen an und lies bei jedem die Länge in cm ab.",
+        "Überlege: Welcher Streifen ist länger? Ziehe die kürzere Länge von der längeren ab.",
+        "Tippe ein, um wie viel länger der längere Streifen ist (in cm) – Span sagt dir, ob es passt."
+      ],
+      "learningGoals": [
+        "Kinder vergleichen zwei gegebene Längen und bestimmen ihren Unterschied – ein Kerninhalt aus „Größen und Messen – Längen“ der 2. Klasse.",
+        "Kinder verknüpfen das Sachthema „Länge“ mit dem Rechnen im Zahlenraum bis 20 und üben das Abziehen in einem sinnvollen Sachzusammenhang.",
+        "Kinder bauen eine tragfähige Größenvorstellung für Zentimeter auf und lernen, Ergebnisse stets mit der passenden Einheit anzugeben."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

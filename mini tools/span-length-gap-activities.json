@@ -17,9 +17,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "span-length-gap" },
-    "page_title": { "en": "Span's Length Gap — How Much Longer? (Grade 2)" },
-    "page_intro": { "en": "Span the inchworm measures the gap between two things! Read how long each bar is, then type how much LONGER the longer one is. A Grade 2 math game about finding the difference in length between two objects, aligned to Common Core 2.MD.A.4." },
+    "slug": { "en": "span-length-gap", "de": "wie-viel-laenger-laengenunterschied-klasse-2" },
+    "page_title": { "en": "Span's Length Gap — How Much Longer? (Grade 2)", "de": "Wie viel länger? — Span misst den Längenunterschied in cm (Klasse 2)" },
+    "page_intro": { "en": "Span the inchworm measures the gap between two things! Read how long each bar is, then type how much LONGER the longer one is. A Grade 2 math game about finding the difference in length between two objects, aligned to Common Core 2.MD.A.4.", "de": "Wie viel länger ist der eine Streifen? Mit Span zwei Längen vergleichen und den Längenunterschied in cm bestimmen. Interaktive Mathe-Übung für Klasse 2 – kostenlos." },
     "kid_prompt_template": "Read both lengths, then type how much longer the longer one is."
   }
 ]

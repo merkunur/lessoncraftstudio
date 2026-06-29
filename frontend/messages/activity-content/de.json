@@ -215,6 +215,52 @@
         "Es versteht den Zusammenhang zwischen Strichliste und Diagramm als zwei Darstellungen derselben Daten."
       ]
     },
+    "clock-digital.read-hour.1-md-b-3": {
+      "about": [
+        "Bei „Uhr ablesen — volle Stunden“ lesen die Kinder die analoge Uhr ab und tippen anschließend die passende digitale Uhrzeit an. Der Hahn Sprocket zeigt eine Uhr mit Stunden- und Minutenzeiger; das Kind erkennt die volle Stunde und wählt die richtige digitale Anzeige aus. So wird das Ablesen der Uhr geübt — nicht das Einstellen: Die Uhr ist bereits gestellt, und die Aufgabe besteht darin, sie richtig zu lesen.",
+        "Das Ablesen der vollen Stunde gehört zu den ersten Zielen im Bereich Größen und Messen – Zeit und ist fester Bestandteil des Lehrplans der Klasse 1. Die Kinder lernen, dass der kurze Zeiger die Stunde anzeigt und der lange Zeiger bei der vollen Stunde nach oben auf die 12 zeigt. Aus „der große Zeiger steht auf der 12, der kleine auf der 3“ wird so die Uhrzeit „3 Uhr“ beziehungsweise „3:00“.",
+        "Diese kostenlose interaktive Aktivität funktioniert direkt im Browser, ganz ohne Zeitdruck und ohne Punkte. Die Kinder können in Ruhe so oft ablesen, wie sie möchten. Eine passende Ergänzung ist die Aktivität „Stell die Uhr“, bei der die Kinder die Zeiger umgekehrt selbst einstellen — gemeinsam decken beide Aktivitäten die zwei Seiten des Umgangs mit der Uhr ab: Ablesen und Stellen."
+      ],
+      "practices": [
+        "Volle Stunden auf der analogen Uhr ablesen",
+        "Die analoge Uhr der richtigen digitalen Uhrzeit zuordnen",
+        "Die Rolle von Stundenzeiger (kurz) und Minutenzeiger (lang) unterscheiden",
+        "Uhrzeiten benennen: „3 Uhr“ / „3:00“"
+      ],
+      "howToPlay": [
+        "Schau dir Sprockets Uhr genau an: Wo steht der kurze Zeiger?",
+        "Lies die volle Stunde ab — der lange Zeiger zeigt dabei nach oben auf die 12.",
+        "Tippe die digitale Uhrzeit an, die zur Uhr passt."
+      ],
+      "learningGoals": [
+        "Die Kinder lesen volle Stunden sicher von der analogen Uhr ab.",
+        "Sie verbinden die analoge Uhrdarstellung mit der digitalen Schreibweise (z. B. 3:00).",
+        "Sie festigen das Verständnis von Stunden- und Minutenzeiger im Bereich Größen und Messen – Zeit."
+      ]
+    },
+    "clock-digital.read-half-hour.1-md-b-3": {
+      "about": [
+        "„Uhr ablesen — volle und halbe Stunden“ baut direkt auf dem Ablesen der vollen Stunde auf und nimmt nun die halbe Stunde hinzu. Der Hahn Sprocket zeigt eine analoge Uhr; das Kind liest sie ab und tippt die passende digitale Uhrzeit an. Auch hier geht es um das Ablesen der bereits gestellten Uhr, nicht um das Einstellen der Zeiger.",
+        "Bei der halben Stunde zeigt der lange Zeiger nach unten auf die 6. Wichtig ist die deutsche Sprechweise: Wir sagen „halb vier“ und meinen damit 3:30 — also eine halbe Stunde vor vier Uhr. Diese Aktivität verknüpft beide Darstellungen ausdrücklich: Auf dem Knopf steht „3:30“, und die Kinder lernen, dass das „halb vier“ heißt. Genau diese Verbindung beugt dem häufigsten Fehler vor, bei „halb“ versehentlich die gerade sichtbare Stunde zu nennen.",
+        "Das Ablesen der halben Stunde gehört zum Lehrplan der Klassen 1 und 2 im Bereich Größen und Messen – Zeit und wird in Klasse 2 gefestigt. Die Aktivität ist kostenlos, läuft direkt im Browser und kommt ohne Zeitdruck und ohne Punkte aus. Als Gegenstück zum Einstellen der Zeiger eignet sich die Aktivität „Stell die Uhr“."
+      ],
+      "practices": [
+        "Volle und halbe Stunden auf der analogen Uhr ablesen",
+        "Die Sprechweise „halb vier“ mit der digitalen Anzeige 3:30 verbinden",
+        "Erkennen, dass der lange Zeiger bei „halb“ nach unten auf die 6 zeigt",
+        "Bei der halben Stunde bereits die nächste Stunde mitdenken („halb vier“ = vor vier)"
+      ],
+      "howToPlay": [
+        "Schau dir Sprockets Uhr an: Steht der lange Zeiger oben auf der 12 oder unten auf der 6?",
+        "Steht er auf der 6, ist es eine halbe Stunde — denke an die nächste Stunde (z. B. halb vier).",
+        "Tippe die passende digitale Uhrzeit an (z. B. 3:30 für „halb vier“)."
+      ],
+      "learningGoals": [
+        "Die Kinder lesen volle und halbe Stunden von der analogen Uhr ab.",
+        "Sie verstehen und benennen die halbe Stunde in der deutschen Form „halb …“ (halb vier = 3:30).",
+        "Sie verknüpfen analoge und digitale Darstellung sicher und vermeiden die typische „halb“-Verwechslung."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

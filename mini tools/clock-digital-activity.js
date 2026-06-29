@@ -23,15 +23,38 @@
       hintMatch: 'Find the clock whose hands show this time.',
       hintMin: 'Read both hands — the long hand tells the minutes.',
       hintFive: 'Count by fives around the clock — the long hand tells the minutes.',
-      hintMinute: 'Count the little marks — each one is a minute.'
+      hintMinute: 'Count the little marks — each one is a minute.',
+      srMatchBody: ' The time is {t}. The clocks show: {cs}.',
+      srReadBody: ' The clock shows {t}. The choices are: {ds}.'
+    },
+    de: {
+      q: 'Wie spät ist es?',
+      qMatch: 'Welche Uhr zeigt diese Uhrzeit?',
+      win: 'Genau! {t}.',
+      hint: 'Schau, wohin der kleine Zeiger zeigt – das ist die Stunde.',
+      hintMatch: 'Finde die Uhr, deren Zeiger diese Uhrzeit zeigen.',
+      hintMin: 'Lies beide Zeiger – der große Zeiger zeigt die Minuten.',
+      hintFive: 'Zähl in Fünferschritten um die Uhr – der große Zeiger zeigt die Minuten.',
+      hintMinute: 'Zähl die kleinen Striche – jeder ist eine Minute.',
+      srMatchBody: ' Die Uhrzeit ist {t}. Die Uhren zeigen: {cs}.',
+      srReadBody: ' Die Uhr zeigt {t}. Zur Auswahl: {ds}.'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  var LANG = 'en';
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function elNS(tag, attrs) { var e = document.createElementNS(NS, tag); for (var k in attrs) { if (attrs.hasOwnProperty(k)) e.setAttribute(k, attrs[k]); } return e; }
-  /* a friendly o'clock phrase for the win note */
+  function wrapH(n) { return n > 12 ? n - 12 : n; }
+  /* a friendly spoken-time phrase for the win note / aria / sr (locale-aware: German uses „N Uhr" / „halb (N+1)" / „Viertel nach·vor") */
   function spoken(t) {
     var hh = t.h, mm = t.m;
+    if (LANG === 'de') {
+      if (mm === 0) return hh + ' Uhr';
+      if (mm === 30) return 'halb ' + wrapH(hh + 1);
+      if (mm === 15) return 'Viertel nach ' + hh;
+      if (mm === 45) return 'Viertel vor ' + wrapH(hh + 1);
+      return Core.digitalStr(t);
+    }
     if (mm === 0) return hh + " o'clock";
     if (mm === 30) return 'half past ' + hh;
     if (mm === 15) return 'quarter past ' + hh;
@@ -89,13 +112,14 @@
   var ClockDigitalActivity = {
     id: 'clock-digital-activity',
     strings: {
-      title: { en: "Sprocket's Clock" },
-      instruction: { en: 'Read the clock, then tap the time that matches.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr' },
+      instruction: { en: 'Read the clock, then tap the time that matches.', de: 'Lies die Uhr ab und tippe dann auf die passende Uhrzeit.' },
       q: { en: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._round = null; this._resolved = false; this._token = 0;
       this._nonAns = {}; this._lit = -1; this._optOrder = null;
@@ -254,10 +278,10 @@
       var dir = (this._activityRow && this._activityRow.params && this._activityRow.params.direction) || 'analog-to-digital';
       var cs = (round.options || []).map(function (t) { return spoken(t); }).join(', ');
       if (dir === 'digital-to-analog') {
-        wrap.innerHTML = '<p>' + txt('qMatch') + ' The time is ' + Core.digitalStr(round.target) + '. The clocks show: ' + cs + '.</p>';
+        wrap.innerHTML = '<p>' + txt('qMatch') + txt('srMatchBody', { t: Core.digitalStr(round.target), cs: cs }) + '</p>';
       } else {
         var ds = (round.options || []).map(function (t) { return Core.digitalStr(t); }).join(', ');
-        wrap.innerHTML = '<p>' + txt('q') + ' The clock shows ' + spoken(round.target) + '. The choices are: ' + ds + '.</p>';
+        wrap.innerHTML = '<p>' + txt('q') + txt('srReadBody', { t: spoken(round.target), ds: ds }) + '</p>';
       }
       return wrap;
     },

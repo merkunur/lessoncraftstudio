@@ -20,12 +20,13 @@
   var Core = global.VetDiagnosisCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A' };
   var DIAG_ICON = { change: '🐾', bracket: '🧺', compare: '🐈' };
+  var LANG = 'en';
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -34,23 +35,24 @@
     id: 'vet-diagnosis-activity',
 
     strings: {
-      title: { en: "Vet's Diagnosis Window" },
-      instruction: { en: '' },
-      prompt: { en: 'Solve the story.' },
-      diagnose: { en: 'Diagnose 🩺' },
-      replay: { en: '🔊 Read again' },
-      sayWelcome: { en: 'A patient needs you! Show me what happened.' },
-      sayModel: { en: 'Put each number where it belongs. One spot is the mystery — mark it.' },
-      sayDial: { en: 'Now — how many? Dial it in!' },
-      sayWin: { en: 'All better! Thank you! 💚' },
-      sayWait: { en: "Hmm, let's look again." },
-      pickTile: { en: 'Now tap the spot where it belongs.' },
-      hintCheck: { en: 'Place the numbers, mark the mystery, dial the answer.' }
+      title: { en: "Vet's Diagnosis Window", de: 'Beim Tierarzt' },
+      instruction: { en: '', de: '' },
+      prompt: { en: 'Solve the story.', de: 'Rechne die Geschichte aus.' },
+      diagnose: { en: 'Diagnose 🩺', de: 'Diagnose 🩺' },
+      replay: { en: '🔊 Read again', de: '🔊 Nochmal hören' },
+      sayWelcome: { en: 'A patient needs you! Show me what happened.', de: 'Ein Patient braucht dich! Zeig mir, was passiert ist.' },
+      sayModel: { en: 'Put each number where it belongs. One spot is the mystery — mark it.', de: 'Leg jede Zahl an ihren Platz. Ein Platz ist das Rätsel – markier ihn.' },
+      sayDial: { en: 'Now — how many? Dial it in!', de: 'Und jetzt – wie viele? Tipp es ein!' },
+      sayWin: { en: 'All better! Thank you! 💚', de: 'Alles wieder gut! Danke! 💚' },
+      sayWait: { en: "Hmm, let's look again.", de: 'Hmm, schauen wir nochmal.' },
+      pickTile: { en: 'Now tap the spot where it belongs.', de: 'Jetzt tipp den Platz an, wo sie hingehört.' },
+      hintCheck: { en: 'Place the numbers, mark the mystery, dial the answer.', de: 'Leg die Zahlen, markier das Rätsel, tipp die Antwort ein.' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.snap = null; this.solved = false;
       this.binding = {}; this.dialed = null; this._selected = null; this.msg = null;
@@ -159,7 +161,7 @@
         if (b === '?') slot.textContent = '?';
         else if (b) { var t = self._tileById(b); slot.textContent = t ? t.value : ''; }
         else slot.textContent = '';
-        slot.setAttribute('aria-label', b === '?' ? 'mystery spot' : (b ? 'holds ' + (self._tileById(b) || {}).value : 'empty spot — tap to place a number or mark the mystery'));
+        slot.setAttribute('aria-label', b === '?' ? (LANG === 'de' ? 'Rätselplatz' : 'mystery spot') : (b ? (LANG === 'de' ? 'enthält ' : 'holds ') + (self._tileById(b) || {}).value : (LANG === 'de' ? 'leerer Platz – tippe, um eine Zahl zu legen oder das Rätsel zu markieren' : 'empty spot — tap to place a number or mark the mystery')));
         if (!self.solved) slot.addEventListener('click', function () { self._tapSlot(role); });
         cell.appendChild(slot);
         if (opGlyph) { var g = api.el('span', 'vd-op'); g.textContent = opGlyph; g.setAttribute('aria-hidden', 'true'); cell.insertBefore(g, cell.firstChild); }
@@ -197,7 +199,7 @@
       var slot = api.el('button', 'vd-slot vd-barslot' + (b === '?' ? ' vd-unknown' : (b ? ' vd-filled' : ' vd-empty')));
       slot.type = 'button'; slot.setAttribute('data-role', role);
       slot.textContent = b === '?' ? '?' : (b ? ((this._tileById(b) || {}).value) : '');
-      slot.setAttribute('aria-label', b === '?' ? 'mystery spot' : (b ? 'holds ' + ((this._tileById(b) || {}).value) : 'empty spot'));
+      slot.setAttribute('aria-label', b === '?' ? (LANG === 'de' ? 'Rätselplatz' : 'mystery spot') : (b ? (LANG === 'de' ? 'enthält ' : 'holds ') + ((this._tileById(b) || {}).value) : (LANG === 'de' ? 'leerer Platz' : 'empty spot')));
       if (!this.solved) slot.addEventListener('click', function () { self._tapSlot(role); });
       row.appendChild(track); row.appendChild(slot);
       return row;
@@ -215,7 +217,7 @@
         var sel = (self._selected === id);
         var b = api.el('button', 'vd-tile' + (sel ? ' vd-sel' : '')); b.type = 'button'; b.setAttribute('data-id', id);
         b.textContent = t.value;
-        b.setAttribute('aria-label', 'number ' + t.value);
+        b.setAttribute('aria-label', (LANG === 'de' ? 'Zahl ' : 'number ') + t.value);
         b.addEventListener('click', function () { self._tapTile(id); });
         tray.appendChild(b);
       });
@@ -234,7 +236,7 @@
       if (r.diagram === 'change') eq = val('start') + ' ' + (r.op === 'sub' ? '−' : '+') + ' ' + val('change') + ' = ' + val('result');
       else if (r.diagram === 'bracket') eq = val('partA') + ' + ' + val('partB') + ' = ' + val('whole');
       else eq = val('smaller') + ' + ' + val('difference') + ' = ' + val('bigger');   /* compare: smaller + difference = bigger */
-      var box = api.el('div', 'vd-recap'); box.textContent = eq; box.setAttribute('aria-label', 'your model: ' + eq);
+      var box = api.el('div', 'vd-recap'); box.textContent = eq; box.setAttribute('aria-label', (LANG === 'de' ? 'dein Modell: ' : 'your model: ') + eq);
       parent.appendChild(box);
     },
 
@@ -354,7 +356,8 @@
         .then(function (rows) {
           var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return;
           self._activityRow = row;
-          self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); }));
+          var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds;
+          self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); }));
           self._order = null;
           if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
         })

@@ -15,14 +15,23 @@
 
   var Core = global.ReflexivePronounCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A' };
+  var LANG = 'en';
+
+  /* German reflexive pronouns (0 lines to reflexive-pronoun-core.js): accusative,
+     agreeing with the subject. All 3rd-person + plural collapse onto „sich". */
+  var REFL_DE = { ich: 'mich', du: 'dich', er: 'sich', sie: 'sich', es: 'sich', wir: 'uns', ihr: 'euch' };
+  function rmReflexiveOf(ref) { return LANG === 'de' ? (REFL_DE[ref] || '') : Core.reflexiveOf(ref); }
+  function rmOracle(r) { return rmReflexiveOf(r.referent); }
+  function rmChips(r) { return [rmReflexiveOf(r.referent), rmReflexiveOf(r.wrongA), rmReflexiveOf(r.wrongB)]; }
+  function rmIsAnswer(r, str) { return str === rmOracle(r); }
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function sayable(s) { return String(s || '').replace(/___/g, 'blank'); }
+  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : 'blank'); }
 
   function robinSVG(mood) {
     var happy = mood === 'happy';
@@ -41,18 +50,19 @@
     id: 'robin-mirror-activity',
 
     strings: {
-      title: { en: "Robin's Mirror" },
-      prompt: { en: 'Which word fills the blank?' },
-      robinIntro: { en: 'A reflexive word points back at who did it!' },
-      theAsk: { en: 'Which word fills the blank?' },
-      hintPick: { en: 'Tap the word that matches who did it!' },
-      hintWrong: { en: "That word doesn't match — read it again." },
-      win: { en: 'Yes! That word points right back. 🪞' }
+      title: { en: "Robin's Mirror", de: 'Robins Spiegel' },
+      prompt: { en: 'Which word fills the blank?', de: 'Welches Wort passt?' },
+      robinIntro: { en: 'A reflexive word points back at who did it!', de: 'Wie ein Spiegel zeigt das Wort zurück auf den, der etwas tut!' },
+      theAsk: { en: 'Which word fills the blank?', de: 'Welches Wort passt in die Lücke?' },
+      hintPick: { en: 'Tap the word that matches who did it!', de: 'Schau zuerst: Wer tut es? Tippe dann das passende Wort an.' },
+      hintWrong: { en: "That word doesn't match — read it again.", de: 'Fast! Schau auf das erste Wort: ich → mich, du → dich, er/sie/es → sich, wir → uns, ihr → euch.' },
+      win: { en: 'Yes! That word points right back. 🪞', de: 'Super – das Wort zeigt genau zurück! 🪞' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._chips = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -61,7 +71,7 @@
     },
 
     setupTask: function (round) {
-      this.round = round; this.view = Core.childView(round); this.sel = null; this._spoke = false;
+      this.round = round; this.view = (LANG === 'de') ? { id: round.id, sentence: round.sentence, chips: rmChips(round) } : Core.childView(round); this.sel = null; this._spoke = false;
       this._chips = shuffle(this.view.chips.slice());
     },
 
@@ -78,7 +88,7 @@
 
       var sent = api.el('div', 'rmr-sent');
       var txt = api.el('span', 'rmr-senttxt'); txt.textContent = v.sentence; sent.appendChild(txt);
-      var sp = api.el('button', 'rmr-spk'); sp.type = 'button'; sp.setAttribute('aria-label', 'hear the sentence'); sp.textContent = '🔊';
+      var sp = api.el('button', 'rmr-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : 'hear the sentence'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(sayable(v.sentence)); }); sent.appendChild(sp);
       root.appendChild(sent);
 
@@ -102,7 +112,7 @@
       this.sel = w; this.api.sound && this.api.sound(540); speak(w); this.render();
     },
 
-    isCorrect: function () { return this.sel != null && Core.isAnswer(this.round, this.sel); },
+    isCorrect: function () { return this.sel != null && rmIsAnswer(this.round, this.sel); },
     reset: function () { this.setupTask(this.round); this.render(); },
 
     nextTask: function (opts) {
@@ -116,7 +126,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/robin-mirror-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[robin-mirror] manifest load failed:', e.message); });
     },
 

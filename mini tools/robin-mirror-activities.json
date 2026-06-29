@@ -14,12 +14,24 @@
         { "id": "youcan","band": 2, "sentence": "You can tie your shoes ___!",      "referent": "you",  "wrongA": "she",  "wrongB": "we" },
         { "id": "nan",   "band": 3, "sentence": "Nan painted the fence ___.",       "referent": "she",  "wrongA": "they", "wrongB": "i" },
         { "id": "cat",   "band": 3, "sentence": "The cat washed ___ clean.",        "referent": "it",   "wrongA": "she",  "wrongB": "they" }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "wasche-ich", "band": 1, "sentence": "Ich wasche ___ jeden Morgen.", "referent": "ich", "wrongA": "du", "wrongB": "wir" },
+          { "id": "freust-du", "band": 1, "sentence": "Du freust ___ über das Geschenk.", "referent": "du", "wrongA": "ich", "wrongB": "er" },
+          { "id": "versteckt-tim", "band": 1, "sentence": "Tim versteckt ___ im Garten.", "referent": "er", "wrongA": "ich", "wrongB": "ihr" },
+          { "id": "setzen-wir", "band": 2, "sentence": "Wir setzen ___ auf die Bank.", "referent": "wir", "wrongA": "du", "wrongB": "ihr" },
+          { "id": "zieht-ihr-an", "band": 2, "sentence": "Ihr zieht ___ warm an.", "referent": "ihr", "wrongA": "ich", "wrongB": "wir" },
+          { "id": "kaemmt-mia", "band": 2, "sentence": "Mia kämmt ___ vor dem Spiegel.", "referent": "sie", "wrongA": "du", "wrongB": "wir" },
+          { "id": "ruht-ihr-aus", "band": 3, "sentence": "Ihr ruht ___ nach dem Spielen aus.", "referent": "ihr", "wrongA": "er", "wrongB": "ich" },
+          { "id": "drehen-wir-um", "band": 3, "sentence": "Wir drehen ___ schnell um.", "referent": "wir", "wrongA": "du", "wrongB": "es" }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "robins-mirror" },
-    "page_title": { "en": "Robin's Mirror — All By Myself (Grade 2)" },
-    "page_intro": { "en": "Robin holds up a mirror: a reflexive pronoun points right back at the one doing the action. Read each sentence, then tap the word that fills the blank and matches the subject — myself, herself, themselves, and friends. A warm Grade 2 grammar game about using reflexive pronouns correctly, aligned to Common Core L.2.1.c." },
+    "slug": { "en": "robins-mirror", "de": "reflexivpronomen-ueben-mich-dich-sich-klasse-3" },
+    "page_title": { "en": "Robin's Mirror — All By Myself (Grade 2)", "de": "Robins Spiegel: Reflexivpronomen üben – mich, dich, sich (Klasse 3)" },
+    "page_intro": { "en": "Robin holds up a mirror: a reflexive pronoun points right back at the one doing the action. Read each sentence, then tap the word that fills the blank and matches the subject — myself, herself, themselves, and friends. A warm Grade 2 grammar game about using reflexive pronouns correctly, aligned to Common Core L.2.1.c.", "de": "Hilf Robin dem Rotkehlchen, das passende Reflexivpronomen einzusetzen – mich, dich, sich, uns, euch – und übe reflexive Verben kostenlos und interaktiv im Browser." },
     "kid_prompt_template": "robin-mirror"
   }
 ]

@@ -33,6 +33,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'vera-verb-match.be-agreement.l-1-1-c': { de: '2' },                    // reflective Subjekt-Verb-Kongruenz (bin/ist/sind) → DE Klasse 2 (K-1 kids speak it; the grammar task is Klasse 2)
   'hazel-word-bridge.joining-words.l-1-1-g': { de: '3' },                 // selection-by-meaning across 4 Bindewörter incl. causal „denn" + Pflichtkomma → DE Klasse 3
   'cleo-packing-list.series-commas.l-1-2-b': { de: '3' },                 // Komma bei Aufzählung = first comma rule, DE Lehrplan Klasse 3 (K1/2 = only Satzschlusszeichen)
+  'robin-mirror.reflexive.l-2-1-c': { de: '3' },                          // Reflexivpronomen as a category (beuge zur Person) → DE Klasse 3 (US Grade 2 too low)
 };
 function effGrade(row: ActivityRow, locale: string): string {
   return (locale !== 'en' && GRADE_OVERRIDE[row.id] && GRADE_OVERRIDE[row.id][locale]) || row.alignment.grade;
@@ -325,7 +326,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.33';
+  const ACTIVITY_WRAPPER_VERSION = '9.34';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

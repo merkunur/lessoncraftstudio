@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "lay-units.measure.1-md-a-2": {
+      "about": [
+        "Mit Inchie, dem kleinen Spannerwürmchen, messen Kinder spielerisch Längen – ganz ohne Lineal. Inchie legt seine gleich großen Helfer Stück für Stück an einem Gartenblatt entlang. Dein Kind tippt jeden Helfer an und zählt mit: So viele Helfer lang ist das Blatt. Genauso geht es mit Würfeln und Büroklammern weiter.",
+        "Dahinter steckt eine große Idee der Klasse 1: Eine Länge ist die Anzahl gleich großer Einheiten, die man lückenlos und ohne Überlappung aneinanderlegt – immer an der Spitze begonnen. In kleinen Aufgaben entdeckt das Kind selbst, warum eine Lücke, eine Überlappung, unterschiedlich große Helfer oder ein falscher Start das Ergebnis verfälschen. Eine besondere Aufgabe zeigt: Misst man dasselbe Blatt mit kleinen statt großen Helfern, kommt eine größere Zahl heraus – je kleiner die Einheit, desto mehr braucht man.",
+        "„Inchies Gartenweg“ ist eine kostenlose, interaktive Größen-Aktivität für die Klasse 1, an den Lehrplänen der Grundschule (Bereich „Größen und Messen – Längen“) ausgerichtet. Ohne Zeitdruck, ohne Punkte – einfach in Ruhe ausprobieren, zählen und verstehen."
+      ],
+      "practices": [
+        "Gleich große Helfer lückenlos und ohne Überlappung aneinanderlegen und an der Spitze beginnen",
+        "Erkennen, dass alle Messeinheiten gleich groß sein müssen",
+        "Die Anzahl der Helfer abzählen und als Länge benennen („So viele Helfer lang …“)",
+        "Verstehen: Je kleiner die Einheit, desto größer die Anzahl"
+      ],
+      "howToPlay": [
+        "Sieh dir an, wie Inchie seine Helfer lückenlos am Blatt entlanglegt – keine Lücke, keine Überlappung.",
+        "Tippe jeden Helfer an und zähle mit. So viele Helfer lang ist das Blatt.",
+        "In manchen Runden stimmt etwas nicht: Finde den Fehler (Lücke, Überlappung, ungleiche Helfer oder falscher Start) – oder wähle die richtig gemessene Reihe."
+      ],
+      "learningGoals": [
+        "Dein Kind misst Längen mit nicht-standardisierten Einheiten und versteht: Länge ist die Anzahl gleich großer Einheiten.",
+        "Es legt lückenlos und ohne Überlappung aus, beginnt an der Spitze und zählt sicher ab.",
+        "Es erfasst den Zusammenhang: kleinere Einheit, größere Maßzahl – die Grundlage dafür, später den Sinn von cm und Lineal zu verstehen."
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "In dieser kostenlosen interaktiven Größen-Aktivität für die 1. Klasse hilfst du Tilly, der Ladenkatze, ihre bunten Bänder zu ordnen. Die Bänder liegen auf weit auseinanderliegenden Regalen – du kannst sie nicht einfach nebeneinanderlegen. Aber Tilly hat eine Schnur als Vergleich. Pro Runde tippst du auf das längste Band, das kürzeste Band oder das Band, das genauso lang ist wie die Schnur.",

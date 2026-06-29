@@ -28,17 +28,42 @@
   var TENS = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
   function enWord(n) { n = n | 0; if (n < 20) return ONES[n] || String(n); var t = Math.floor(n / 10), o = n % 10; return o ? TENS[t] + '-' + ONES[o] : TENS[t]; }
 
+  /* German number-words (Klasse 2 ZR bis 100). Compound = UNIT_C_DE[o] + 'und' + TENS_DE[t]
+     as ONE word; in a compound the unit 1 is "ein-" (einundzwanzig), standalone "eins". */
+  var ONES_DE = ['null', 'eins', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun'];
+  var TEENS_DE = ['zehn', 'elf', 'zwölf', 'dreizehn', 'vierzehn', 'fünfzehn', 'sechzehn', 'siebzehn', 'achtzehn', 'neunzehn'];
+  var TENS_DE = ['', '', 'zwanzig', 'dreißig', 'vierzig', 'fünfzig', 'sechzig', 'siebzig', 'achtzig', 'neunzig'];
+  var UNIT_C_DE = ['', 'ein', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun'];
+  function numWordDE(n) {
+    n = n | 0;
+    if (n < 10) return ONES_DE[n] || String(n);
+    if (n < 20) return TEENS_DE[n - 10];
+    var t = Math.floor(n / 10), o = n % 10;
+    if (t > 9) return String(n);
+    return o ? UNIT_C_DE[o] + 'und' + TENS_DE[t] : TENS_DE[t];
+  }
+  var LANG = 'en';
+  function numWord(n) { return LANG === 'de' ? numWordDE(n) : enWord(n); }
+  /* shelf-hoard aria — German needs singular/plural (1 Kiste / N Kisten; 1 lose Beere /
+     N lose Beeren) and drops the loose clause when ones=0. EN stays byte-identical. */
+  function hoardAria(tens, ones) {
+    if (LANG !== 'de') return tens + ' crates and ' + ones + ' loose berries';
+    var s = tens + (tens === 1 ? ' Kiste' : ' Kisten');
+    if (ones) s += ' und ' + ones + (ones === 1 ? ' lose Beere' : ' lose Beeren');
+    return s;
+  }
+
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   var REDUCED = (global.matchMedia && global.matchMedia('(prefers-reduced-motion: reduce)').matches);
 
   function boSVG(mood) {
     var happy = mood === 'happy';
-    return '<svg viewBox="0 0 100 100" role="img" aria-label="Bo the bunny">'
+    return '<svg viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Bo das Kaninchen' : 'Bo the bunny') + '">'
       + '<ellipse cx="38" cy="20" rx="6" ry="15" fill="#E9D9C6"/><ellipse cx="62" cy="20" rx="6" ry="15" fill="#E9D9C6"/>'   // ears
       + '<ellipse cx="38" cy="20" rx="3" ry="10" fill="#F4C9C0"/><ellipse cx="62" cy="20" rx="3" ry="10" fill="#F4C9C0"/>'
       + '<circle cx="50" cy="52" r="30" fill="#EFE2D2"/>'                                                                     // head
@@ -63,30 +88,31 @@
     reward: { id: 'pantry', label: "Bo's Winter Pantry", emoji: '🧺' },
 
     strings: {
-      title: { en: "Bo's Berry Pantry" },
-      instruction: { en: 'Read Bo’s berries, then sling them to the matching shelf.' },
-      prompt: { en: 'Pack Bo’s berries!' },
-      qPile: { en: 'Pack Bo’s berries — crates and loose!' },
-      qDecade: { en: 'Send Bo’s {w} — all crates, no loose!' },
-      qUnitize: { en: 'Pack {w} — use the MOST crates you can!' },
-      qCompare: { en: 'Which shelf has MORE?' },
-      qNumeral: { en: 'Send {w} home — match the shelf!' },
-      qEncode: { en: 'Which number is Bo’s hoard?' },
-      crateWord: { en: 'a crate is TEN' },
-      shelvesLab: { en: 'Pantry shelves' },
-      sling: { en: 'Sling it! 🪃' },
-      slingHint: { en: 'Tap a shelf, then sling Bo’s berries!' },
-      lockedHint: { en: 'Now sling it to that shelf!' },
-      wrongCrates: { en: 'That shelf holds {k} crates — count again for Bo!' },
-      wrongOne: { en: 'That shelf holds 1 crate — count again for Bo!' },
-      wrongNum: { en: 'That number isn’t Bo’s hoard — count again!' },
-      win: { en: '{w} — packed into tens! 🧺' },
-      tapCheck: { en: 'Tap Check! ✓' }
+      title: { en: "Bo's Berry Pantry", de: 'Bos Beerenkammer' },
+      instruction: { en: 'Read Bo’s berries, then sling them to the matching shelf.', de: 'Lies Bos Beeren und schieß sie zum passenden Regal!' },
+      prompt: { en: 'Pack Bo’s berries!', de: 'Pack Bos Beeren!' },
+      qPile: { en: 'Pack Bo’s berries — crates and loose!', de: 'Pack Bos Beeren — Kisten und lose Beeren!' },
+      qDecade: { en: 'Send Bo’s {w} — all crates, no loose!', de: 'Schick Bos {w} — nur Kisten, nichts Loses!' },
+      qUnitize: { en: 'Pack {w} — use the MOST crates you can!', de: 'Pack {w} — nimm so viele Kisten wie möglich!' },
+      qCompare: { en: 'Which shelf has MORE?', de: 'Welches Regal hat MEHR?' },
+      qNumeral: { en: 'Send {w} home — match the shelf!', de: 'Schick {w} nach Hause — finde das passende Regal!' },
+      qEncode: { en: 'Which number is Bo’s hoard?', de: 'Welche Zahl ist Bos Vorrat?' },
+      crateWord: { en: 'a crate is TEN', de: 'eine Kiste ist ZEHN' },
+      shelvesLab: { en: 'Pantry shelves', de: 'VORRATSREGALE' },
+      sling: { en: 'Sling it! 🪃', de: 'Schieß los! 🪃' },
+      slingHint: { en: 'Tap a shelf, then sling Bo’s berries!', de: 'Tipp ein Regal an und schieß Bos Beeren!' },
+      lockedHint: { en: 'Now sling it to that shelf!', de: 'Jetzt schieß sie zum Regal!' },
+      wrongCrates: { en: 'That shelf holds {k} crates — count again for Bo!', de: 'Dieses Regal hat {k} Kisten — zähl noch mal für Bo!' },
+      wrongOne: { en: 'That shelf holds 1 crate — count again for Bo!', de: 'Dieses Regal hat 1 Kiste — zähl noch mal für Bo!' },
+      wrongNum: { en: 'That number isn’t Bo’s hoard — count again!', de: 'Das ist nicht Bos Vorrat — zähl noch mal!' },
+      win: { en: '{w} — packed into tens! 🧺', de: '{w} — in Zehner gepackt! 🧺' },
+      tapCheck: { en: 'Tap Check! ✓', de: 'Tipp auf „Prüfen"! ✓' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.cstate = null; this.solved = false; this.solvedCount = 0; this.msg = null; this._flying = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -98,7 +124,7 @@
       this.round = round; this.cstate = Core.newState(round); this.solved = false; this.msg = null; this._flying = false; this.winHoard = null;
     },
     announce: function (s) { if (this.api.announce) this.api.announce(s); },
-    _word: function () { return enWord(this.round.prompt.value | 0); },
+    _word: function () { return numWord(this.round.prompt.value | 0); },
 
     /* ---------- render ---------- */
     render: function () {
@@ -171,8 +197,8 @@
       this.cstate.positions.forEach(function (key) {
         var sh = self.round.shelves[key], locked = (self.cstate.lockedKey === key);
         var btn = api.el('button', 'bp-shelf' + (locked ? ' bp-locked' : '')); btn.type = 'button'; btn.setAttribute('data-key', key);
-        if (sh.numeral != null) { var num = api.el('span', 'bp-shnum'); num.textContent = sh.numeral; btn.appendChild(num); btn.setAttribute('aria-label', 'the number ' + sh.numeral); }
-        else { btn.appendChild(self._hoard(sh.tens | 0, sh.ones | 0)); btn.setAttribute('aria-label', (sh.tens | 0) + ' crates and ' + (sh.ones | 0) + ' loose berries'); }
+        if (sh.numeral != null) { var num = api.el('span', 'bp-shnum'); num.textContent = sh.numeral; btn.appendChild(num); btn.setAttribute('aria-label', (LANG === 'de' ? 'die Zahl ' : 'the number ') + sh.numeral); }
+        else { btn.appendChild(self._hoard(sh.tens | 0, sh.ones | 0)); btn.setAttribute('aria-label', hoardAria(sh.tens | 0, sh.ones | 0)); }
         btn.addEventListener('click', function () { self._lockShelf(key); });
         self._shelfEls[key] = btn; row.appendChild(btn);
       });
@@ -221,7 +247,7 @@
       if (r === 'wrong') {
         if (shelf.numeral != null) this.msg = this.api.t('wrongNum');
         else { var k = shelf.tens | 0; this.msg = (k === 1) ? this.api.t('wrongOne') : this.api.t('wrongCrates').replace('{k}', k); }
-        this.api.sound && this.api.sound(330); speak('count again'); this.render();
+        this.api.sound && this.api.sound(330); speak(LANG === 'de' ? 'Zähl noch einmal' : 'count again'); this.render();
       } else { this.render(); }
     },
     _win: function () {
@@ -230,7 +256,7 @@
       if (Core.firstAttemptCorrect(this.cstate)) this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 9);
       this.winHoard = (shelf.numeral != null) ? (this.round.prompt.hoard || { tens: Math.floor(shelf.numeral / 10), ones: shelf.numeral % 10 }) : { tens: shelf.tens | 0, ones: shelf.ones | 0 };
       var whole = (this.winHoard.tens | 0) * 10 + (this.winHoard.ones | 0);
-      this.msg = api.t('win').replace('{w}', enWord(whole));
+      this.msg = api.t('win').replace('{w}', numWord(whole));
       this.api.sound && this.api.sound(940); this.render(); this.announce(this.msg);
       this._countByTens(whole);
     },
@@ -238,8 +264,8 @@
        conflict), then speak the whole word. de/nl/da/no ones-first = fast-follow. */
     _countByTens: function (whole) {
       var t = this.winHoard.tens | 0, parts = [];
-      for (var i = 1; i <= t; i++) parts.push(enWord(i * 10));
-      var line = parts.join(', ') + (parts.length ? ' — ' : '') + enWord(whole);
+      for (var i = 1; i <= t; i++) parts.push(numWord(i * 10));
+      var line = parts.join(', ') + (parts.length ? ' — ' : '') + numWord(whole);
       speak(line);
     },
 

@@ -13,12 +13,13 @@
 
   var Core = global.CategoryDefineCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A' };
+  var LANG = 'en';
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
   function speak(word) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -37,19 +38,20 @@
     id: 'olive-kind-of-activity',
 
     strings: {
-      title: { en: "Olive's Kind-Of Tree" },
-      prompt: { en: 'What kind of thing is it?' },
-      oliveIntro: { en: 'Read the clue — what KIND of thing is this?' },
-      clueLab: { en: 'Clue:' },
-      theAsk: { en: 'Tap the group it belongs to.' },
-      hintPick: { en: 'Read the clue, then tap a group!' },
-      hintWrong: { en: "Not that group — read the clue once more." },
-      win: { en: 'Yes! You found its group. 🦉' }
+      title: { en: "Olive's Kind-Of Tree", de: 'Olives Oberbegriff-Baum' },
+      prompt: { en: 'What kind of thing is it?', de: 'Was für ein Ding ist das?' },
+      oliveIntro: { en: 'Read the clue — what KIND of thing is this?', de: 'Lies den Tipp – was für ein Ding ist das?' },
+      clueLab: { en: 'Clue:', de: 'Tipp:' },
+      theAsk: { en: 'Tap the group it belongs to.', de: 'Tippe auf die Gruppe, zu der es gehört.' },
+      hintPick: { en: 'Read the clue, then tap a group!', de: 'Lies den Tipp und tippe dann auf eine Gruppe!' },
+      hintWrong: { en: "Not that group — read the clue once more.", de: 'Nicht diese Gruppe – lies den Tipp noch einmal.' },
+      win: { en: 'Yes! You found its group. 🦉', de: 'Ja! Du hast die richtige Gruppe gefunden. 🦉' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -67,6 +69,7 @@
       var wrap = api.el('div', 'okt-wrap'); var root = api.el('div', 'okt-root'); this._rootEl = root;
       if (!this.round) { wrap.appendChild(root); stage.appendChild(wrap); return; }
       var self = this, v = this.view;
+      var dispWord = (this.round.target && this.round.target.label) || v.target.noun;
 
       var row = api.el('div', 'okt-row');
       var owl = api.el('div', 'okt-owl'); owl.innerHTML = owlSVG(); row.appendChild(owl);
@@ -74,9 +77,9 @@
       root.appendChild(row);
 
       var mid = api.el('div', 'okt-mid');
-      var pic = api.el('button', 'okt-pic'); pic.type = 'button'; pic.setAttribute('aria-label', 'hear ' + v.target.noun);
-      pic.innerHTML = '<img class="okt-img" src="' + imgUrl(v.target) + '" alt="' + esc(v.target.noun) + '" onerror="this.style.visibility=\'hidden\'"><span class="okt-spk">🔊</span>';
-      pic.addEventListener('click', function () { speak(v.target.noun); });
+      var pic = api.el('button', 'okt-pic'); pic.type = 'button'; pic.setAttribute('aria-label', LANG === 'de' ? (dispWord + ' anhören') : ('hear ' + dispWord));
+      pic.innerHTML = '<img class="okt-img" src="' + imgUrl(v.target) + '" alt="' + esc(dispWord) + '" onerror="this.style.visibility=\'hidden\'"><span class="okt-spk">🔊</span>';
+      pic.addEventListener('click', function () { speak(dispWord); });
       mid.appendChild(pic);
       var clue = api.el('div', 'okt-clue');
       var clab = api.el('span', 'okt-cluelab'); clab.textContent = api.t('clueLab'); clue.appendChild(clab);
@@ -96,7 +99,7 @@
       root.appendChild(opts);
 
       wrap.appendChild(root); stage.appendChild(wrap);
-      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(v.target.noun); }, 320); }
+      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(dispWord); }, 320); }
     },
 
     _tap: function (id, word) {
@@ -118,7 +121,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/olive-kind-of-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[olive-kind-of] manifest load failed:', e.message); });
     },
 
@@ -146,7 +149,7 @@
         + '@media (max-height:920px){.okt-root{gap:clamp(4px,1.1vw,8px);}.okt-owl{width:clamp(40px,7vw,48px);}.okt-img{width:clamp(56px,15vw,84px);height:clamp(56px,15vw,84px);}.okt-opt{min-height:48px;}}'
         + '@media (max-height:700px){.okt-root{gap:5px;padding:10px;}.okt-owl{width:clamp(38px,6.5vw,44px);}.okt-img{width:clamp(52px,13vw,70px);height:clamp(52px,13vw,70px);}.okt-cluetxt{font-size:14px;}.okt-opt{min-height:46px;padding:8px 14px;font-size:17px;}}'
         + '@media (max-height:640px){.okt-root{gap:4px;padding:8px;}.okt-row{display:none;}.okt-img{width:clamp(48px,13vw,60px);height:clamp(48px,13vw,60px);}.okt-opt{min-height:44px;font-size:16px;}}'
-        + '@media (max-width:380px){.okt-opt{min-width:64px;font-size:16px;}.okt-img{width:56px;height:56px;}.okt-clue{max-width:170px;}}';
+        + '@media (max-width:380px){.okt-opt{min-width:64px;font-size:16px;}.okt-img{width:48px;height:48px;}.okt-clue{max-width:170px;padding:5px 9px;}.okt-cluetxt{font-size:13px;line-height:1.2;}.okt-root{gap:4px;}.okt-mid{gap:6px;}.okt-opts{gap:6px;}.okt-ask{font-size:11px;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-olive-kind-of', ''); tag.textContent = css; document.head.appendChild(tag);
     }
   };

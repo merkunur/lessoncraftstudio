@@ -29,6 +29,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'tense.past-present-future.l-1-1-e': { de: '2' },                       // Zeitformen 3-way contrast + werden-future → DE Klasse 2 (Klasse 1 = nur Gegenwart)
   'sentence-builder.build-a-sentence.l-1-1-j': { de: '2' },               // Satzbau/Wortreihenfolge reorder task → DE Klasse 2 (mastery by end of Klasse 2)
   'pronoun.case.l-1-1-d': { de: '3' },                                    // case-correct pronoun-form choice (er/ihn) → DE Klasse 3 (Fall-arbeit is Klasse 3/4)
+  'olive-kind-of.category-attribute.l-1-5-b': { de: '2' },                // Oberbegriff/Hyperonym abstraction → DE Klasse 2 (EN Grade 1 placement doesn't transfer)
 };
 function effGrade(row: ActivityRow, locale: string): string {
   return (locale !== 'en' && GRADE_OVERRIDE[row.id] && GRADE_OVERRIDE[row.id][locale]) || row.alignment.grade;
@@ -45,6 +46,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'line-plot.read.2-md-d-9': { de: 'Daten und Häufigkeit' },        // line plot of measured lengths = data, not Größen
   'hoppers-number-line.jump-sums.2-md-b-6': { de: 'Zahlen und Rechnen im Zehnersystem' }, // add/sub on a number line = arithmetic, not Größen
   'mosaic-menders.area-match.3-md-c-6': { de: 'Raum und Form' },    // Flächeninhalt = Raum und Form in KMK, not Größen und Messen
+  'olive-kind-of.category-attribute.l-1-5-b': { de: 'Wortschatz untersuchen' }, // Oberbegriffe = Wortschatzarbeit, not Grammatik („Sprache untersuchen")
 };
 function effStrand(row: ActivityRow, locale: string): string {
   return (STRAND_OVERRIDE[row.id] && STRAND_OVERRIDE[row.id][locale]) || localizeStrand(row.alignment.strand, locale);
@@ -319,7 +321,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.29';
+  const ACTIVITY_WRAPPER_VERSION = '9.30';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

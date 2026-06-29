@@ -675,6 +675,29 @@
         "Das Kind unterscheidet Wörter mit gleichem Stamm von ähnlich aussehenden Wörtern mit anderem Stamm."
       ]
     },
+    "olive-kind-of.category-attribute.l-1-5-b": {
+      "about": [
+        "Bei „Olives Oberbegriff-Baum“ ordnet dein Kind Dinge ihrem Oberbegriff zu. Es sieht ein Bild und einen kleinen Hinweis auf ein Merkmal – zum Beispiel „Es hat Federn und kann fliegen.“ – und überlegt: Zu welcher großen Gruppe gehört das? Dann tippt es den passenden Oberbegriff an, etwa „Tier“, „Essen“ oder „Fahrzeug“.",
+        "So lernt dein Kind, vom einzelnen Ding zur übergeordneten Gruppe zu denken. Aus „Rotkehlchen“, „Hund“ und „Fisch“ wird die gemeinsame Gruppe „Tier“. Dieses Bündeln nach Merkmalen ist ein wichtiger Schritt, um den eigenen Wortschatz zu ordnen und Wörter sinnvoll miteinander zu verbinden.",
+        "Die Aktivität ist frei und ohne Druck gestaltet: Es gibt keine Zeituhr, keine Punkte und keinen Wettbewerb. Dein Kind kann in seinem eigenen Tempo ausprobieren, nachdenken und so oft tippen, wie es möchte – ganz im Sinne des Bereichs „Wortschatz untersuchen“ im Lehrplan der Grundschule."
+      ],
+      "practices": [
+        "Ein einzelnes Bild seinem passenden Oberbegriff zuordnen.",
+        "Anhand eines Merkmals erkennen, zu welcher Gruppe ein Ding gehört.",
+        "Vom konkreten Beispiel zur übergeordneten Gruppe denken (zum Beispiel „Rotkehlchen“ → „Tier“).",
+        "Den eigenen Wortschatz nach Bedeutungsgruppen ordnen und festigen."
+      ],
+      "howToPlay": [
+        "Schau dir das Bild an und lies den Hinweis auf das Merkmal.",
+        "Überlege: Zu welcher großen Gruppe gehört das Ding?",
+        "Tippe den passenden Oberbegriff an – du kannst in Ruhe so oft probieren, wie du magst."
+      ],
+      "learningGoals": [
+        "Dein Kind ordnet Wörter und Dinge ihrem Oberbegriff zu.",
+        "Dein Kind erkennt gemeinsame Merkmale und bildet daraus Gruppen.",
+        "Dein Kind strukturiert und erweitert seinen Wortschatz."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

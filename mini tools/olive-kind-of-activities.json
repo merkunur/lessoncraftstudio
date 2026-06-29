@@ -14,12 +14,24 @@
         { "id": "dog", "band": 2, "target": { "noun": "dog", "themeDir": "animals" }, "clue": "It has four legs and says woof.", "category": "animal", "choices": [ { "word": "food" }, { "word": "clothing" }, { "word": "animal" } ] },
         { "id": "apple", "band": 3, "target": { "noun": "apple", "themeDir": "At the Supermarket" }, "clue": "It is sweet and crunchy, and you can eat it.", "category": "food", "choices": [ { "word": "food" }, { "word": "vehicle" }, { "word": "animal" } ] },
         { "id": "boat", "band": 3, "target": { "noun": "boat", "themeDir": "beach" }, "clue": "It floats and carries people on the water.", "category": "vehicle", "choices": [ { "word": "clothing" }, { "word": "vehicle" }, { "word": "plant" } ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "hund-tier", "band": 1, "target": { "noun": "dog", "themeDir": "animals", "label": "Hund" }, "clue": "Er hat vier Beine und bellt.", "category": "Tier", "choices": [ { "word": "Tier" }, { "word": "Essen" }, { "word": "Kleidung" } ] },
+          { "id": "banane-essen", "band": 1, "target": { "noun": "banana", "themeDir": "At the Supermarket", "label": "Banane" }, "clue": "Man kann sie essen. Sie ist gelb.", "category": "Essen", "choices": [ { "word": "Essen" }, { "word": "Tier" }, { "word": "Fahrzeug" } ] },
+          { "id": "auto-fahrzeug", "band": 1, "target": { "noun": "car", "themeDir": "vehicles", "label": "Auto" }, "clue": "Es hat Räder und fährt auf der Straße.", "category": "Fahrzeug", "choices": [ { "word": "Fahrzeug" }, { "word": "Pflanze" }, { "word": "Essen" } ] },
+          { "id": "hut-kleidung", "band": 2, "target": { "noun": "hat", "themeDir": "accessories", "label": "Hut" }, "clue": "Man trägt ihn auf dem Kopf.", "category": "Kleidung", "choices": [ { "word": "Kleidung" }, { "word": "Fahrzeug" }, { "word": "Essen" } ] },
+          { "id": "rose-pflanze", "band": 2, "target": { "noun": "rose", "themeDir": "flowers", "label": "Rose" }, "clue": "Sie wächst im Garten und blüht.", "category": "Pflanze", "choices": [ { "word": "Pflanze" }, { "word": "Tier" }, { "word": "Fahrzeug" } ] },
+          { "id": "tisch-moebel", "band": 2, "target": { "noun": "table", "themeDir": "furniture", "label": "Tisch" }, "clue": "Er steht im Zimmer. Man isst daran.", "category": "Möbel", "choices": [ { "word": "Möbel" }, { "word": "Tier" }, { "word": "Pflanze" } ] },
+          { "id": "fisch-tier", "band": 3, "target": { "noun": "fish", "themeDir": "animals", "label": "Fisch" }, "clue": "Er lebt im Wasser und schwimmt.", "category": "Tier", "choices": [ { "word": "Tier" }, { "word": "Möbel" }, { "word": "Kleidung" } ] },
+          { "id": "boot-fahrzeug", "band": 3, "target": { "noun": "boat", "themeDir": "beach", "label": "Boot" }, "clue": "Es fährt auf dem Wasser.", "category": "Fahrzeug", "choices": [ { "word": "Fahrzeug" }, { "word": "Kleidung" }, { "word": "Pflanze" } ] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "olive-kind-of" },
-    "page_title": { "en": "Olive's Kind-Of Tree — What Kind of Thing Is It? (Grade 1)" },
-    "page_intro": { "en": "Olive the owl knows what KIND of thing everything is! Look at the picture and read the clue (it flies and has feathers), then tap the group it belongs to — bird, food, or vehicle. A Grade 1 vocabulary game about putting words into categories by their key attributes, aligned to Common Core L.1.5.b." },
+    "slug": { "en": "olive-kind-of", "de": "oberbegriffe-finden-klasse-2" },
+    "page_title": { "en": "Olive's Kind-Of Tree — What Kind of Thing Is It? (Grade 1)", "de": "Mit Olive Oberbegriffe finden: Wörter Gruppen zuordnen – Klasse 2" },
+    "page_intro": { "en": "Olive the owl knows what KIND of thing everything is! Look at the picture and read the clue (it flies and has feathers), then tap the group it belongs to — bird, food, or vehicle. A Grade 1 vocabulary game about putting words into categories by their key attributes, aligned to Common Core L.1.5.b.", "de": "Olive die Eule zeigt ein Bild und ein Merkmal – finde den passenden Oberbegriff wie Tier, Pflanze oder Fahrzeug. Kostenlos, interaktiv, für Klasse 2." },
     "kid_prompt_template": "Read the clue — what kind of thing is it?"
   }
 ]

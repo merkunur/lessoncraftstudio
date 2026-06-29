@@ -27,16 +27,43 @@
         { "id": "af-which-retie", "cog": "which", "root": "tie",  "affix": "re",   "meaning": "to tie it again",  "options": ["un","re","less"] },
         { "id": "af-which-useless","cog": "which", "root": "use",  "affix": "less", "meaning": "without any use",   "options": ["re","less","ful"] },
         { "id": "af-which-careful","cog": "which", "root": "care", "affix": "ful",  "meaning": "full of care",      "options": ["un","ful","less"] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "af-mutlos",   "cog": "apply", "word": "mutlos",   "root": "Mut",   "affix": "less",
+            "options": [ {"affix":"root","text":"Mut"}, {"affix":"less","text":"ohne Mut"}, {"affix":"ful","text":"voller Mut"} ] },
+          { "id": "af-farblos",  "cog": "apply", "word": "farblos",  "root": "Farbe", "affix": "less",
+            "options": [ {"affix":"root","text":"Farbe"}, {"affix":"less","text":"ohne Farbe"}, {"affix":"ful","text":"voller Farbe"} ] },
+          { "id": "af-kraftlos", "cog": "apply", "word": "kraftlos", "root": "Kraft", "affix": "less",
+            "options": [ {"affix":"root","text":"Kraft"}, {"affix":"less","text":"ohne Kraft"}, {"affix":"ful","text":"voller Kraft"} ] },
+          { "id": "af-liebevoll", "cog": "apply", "word": "liebevoll", "root": "Liebe", "affix": "ful",
+            "options": [ {"affix":"root","text":"Liebe"}, {"affix":"ful","text":"voller Liebe"}, {"affix":"less","text":"ohne Liebe"} ] },
+          { "id": "af-hoffnungsvoll", "cog": "apply", "word": "hoffnungsvoll", "root": "Hoffnung", "affix": "ful",
+            "options": [ {"affix":"root","text":"Hoffnung"}, {"affix":"ful","text":"voller Hoffnung"}, {"affix":"less","text":"ohne Hoffnung"} ] },
+          { "id": "af-respektvoll", "cog": "apply", "word": "respektvoll", "root": "Respekt", "affix": "ful",
+            "options": [ {"affix":"root","text":"Respekt"}, {"affix":"ful","text":"voller Respekt"}, {"affix":"less","text":"ohne Respekt"} ] },
+          { "id": "af-unfreundlich", "cog": "apply", "word": "unfreundlich", "root": "freundlich", "affix": "un",
+            "options": [ {"affix":"root","text":"freundlich"}, {"affix":"un","text":"nicht freundlich"}, {"affix":"ful","text":"voller Freundlichkeit"} ] },
+          { "id": "af-ungluecklich", "cog": "apply", "word": "unglücklich", "root": "glücklich", "affix": "un",
+            "options": [ {"affix":"root","text":"glücklich"}, {"affix":"un","text":"nicht glücklich"}, {"affix":"ful","text":"voller Glück"} ] },
+
+          { "id": "af-which-farblos", "cog": "which", "root": "Farbe", "affix": "less", "meaning": "ohne Farbe", "options": ["un","ful","less"] },
+          { "id": "af-which-liebevoll", "cog": "which", "root": "Liebe", "affix": "ful", "meaning": "voller Liebe", "options": ["un","ful","less"] },
+          { "id": "af-which-unfreundlich", "cog": "which", "root": "freundlich", "affix": "un", "meaning": "nicht freundlich", "options": ["un","ful","less"] }
+        ]
+      }
     },
     "slug": {
-      "en": "prefixes-and-suffixes-word-meaning"
+      "en": "prefixes-and-suffixes-word-meaning",
+      "de": "wortbausteine-vorsilben-nachsilben-klasse-2"
     },
     "page_title": {
-      "en": "Marigold's Knowing Machine — Prefixes & Suffixes Word Meaning (Grade 2)"
+      "en": "Marigold's Knowing Machine — Prefixes & Suffixes Word Meaning (Grade 2)",
+      "de": "Marigolds Wortmaschine: Vorsilben & Nachsilben – Klasse 2"
     },
     "page_intro": {
-      "en": "A free interactive Grade 2 reading activity: help Marigold the mole work out what a new word means when a prefix or suffix is added. Drop the un-, re-, -ful, or -less cog into the Knowing Machine and read the new word — then tap what it means. A clear, friendly way to learn how prefixes and suffixes change a word's meaning. Common Core L.2.4.b and L.2.4.c."
+      "en": "A free interactive Grade 2 reading activity: help Marigold the mole work out what a new word means when a prefix or suffix is added. Drop the un-, re-, -ful, or -less cog into the Knowing Machine and read the new word — then tap what it means. A clear, friendly way to learn how prefixes and suffixes change a word's meaning. Common Core L.2.4.b and L.2.4.c.",
+      "de": "Mit Marigold un-, -voll und -los entdecken: Dein Kind verändert mit Vorsilben und Nachsilben die Wortbedeutung. Kostenlos, interaktiv üben – Deutsch Klasse 2."
     },
     "kid_prompt_template": "affix"
   }

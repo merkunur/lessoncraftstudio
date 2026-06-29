@@ -18,9 +18,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "fair-winter-piles" },
-    "page_title": { "en": "Squirrel's Fair Winter Piles — Equal Groups & Arrays (Grade 2)" },
-    "page_intro": { "en": "A free interactive Grade 2 math game for arrays and equal groups: help the squirrel sort its acorns into FAIR winter piles. Draw a line to cut the rows into piles that are all the SAME size, read how many acorns are in each pile, and tap the number in — the equal-addends equation (like 5 + 5 + 5 = 15) appears and the piles sparkle. Unfair piles can't shine together. Partitioning a rectangular array into equal rows and writing it as a sum of equal addends is the heart of Common Core 2.OA.C.4." },
+    "slug": { "en": "fair-winter-piles", "de": "wiederholte-addition-punktefeld-klasse-2" },
+    "page_title": { "en": "Squirrel's Fair Winter Piles — Equal Groups & Arrays (Grade 2)", "de": "Wiederholte Addition: Eicheln-Punktefeld – Klasse 2" },
+    "page_intro": { "en": "A free interactive Grade 2 math game for arrays and equal groups: help the squirrel sort its acorns into FAIR winter piles. Draw a line to cut the rows into piles that are all the SAME size, read how many acorns are in each pile, and tap the number in — the equal-addends equation (like 5 + 5 + 5 = 15) appears and the piles sparkle. Unfair piles can't shine together. Partitioning a rectangular array into equal rows and writing it as a sum of equal addends is the heart of Common Core 2.OA.C.4.", "de": "Teile mit dem Eichhörnchen die Eicheln in gleich große Haufen und übe wiederholte Addition – Vorbereitung aufs Einmaleins. Gratis & interaktiv für Klasse 2." },
     "kid_prompt_template": "draw-partition"
   }
 ]

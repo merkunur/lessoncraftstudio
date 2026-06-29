@@ -13,10 +13,11 @@
 
   var Core = global.WordIntensityCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A' };
+  var LANG = 'en';
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -34,19 +35,20 @@
     id: 'roary-roar-meter-activity',
 
     strings: {
-      title: { en: "Roary's Roar Meter" },
-      prompt: { en: 'Find the strongest or weakest word!' },
-      roaryIntro: { en: 'These words are alike — but how strong is each one?' },
-      askStrong: { en: 'Tap the STRONGEST word.' },
-      askWeak: { en: 'Tap the WEAKEST word.' },
-      hintPick: { en: 'Read all three, then tap a word!' },
-      hintWrong: { en: "Not quite — think about how strong each word feels." },
-      win: { en: 'Roar! You found it. 🦁' }
+      title: { en: "Roary's Roar Meter", de: 'Roarys Brüll-Meter' },
+      prompt: { en: 'Find the strongest or weakest word!', de: 'Welches Wort ist am stärksten oder schwächsten?' },
+      roaryIntro: { en: 'These words are alike — but how strong is each one?', de: 'Ich bin Roary! Diese Wörter sind sich ähnlich, aber manche brüllen lauter als andere. Hörst du den Unterschied?' },
+      askStrong: { en: 'Tap the STRONGEST word.', de: 'Tippe das STÄRKSTE Wort an.' },
+      askWeak: { en: 'Tap the WEAKEST word.', de: 'Tippe das SCHWÄCHSTE Wort an.' },
+      hintPick: { en: 'Read all three, then tap a word!', de: 'Lies alle drei Wörter. Welches passt zur Frage – das stärkste oder das schwächste?' },
+      hintWrong: { en: "Not quite — think about how strong each word feels.", de: 'Fast! Achte genau darauf, ob Roary das stärkste oder das schwächste Wort sucht. Vergleiche die drei noch einmal.' },
+      win: { en: 'Roar! You found it. 🦁', de: 'Stark gebrüllt! Du hörst die feinen Unterschiede ganz genau. 🦁' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -104,7 +106,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/roary-roar-meter-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[roary-roar-meter] manifest load failed:', e.message); });
     },
 

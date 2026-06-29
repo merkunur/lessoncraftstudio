@@ -1135,6 +1135,29 @@
         "Rechnen in kleinen Sachsituationen anwenden und festigen"
       ]
     },
+    "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
+      "about": [
+        "Bos Beerenkammer lässt Kinder mit dem Hasen Bo eine Winter-Vorratskammer füllen. Eine Kiste fasst immer genau zehn Beeren — sie ist verschlossen und muss nicht nachgezählt werden: Eine Kiste ist einfach ein Zehner. Lose Beeren sind die Einer. Bo zeigt mal einen Haufen Beeren, mal ein Zahlwort, mal eine Zahl — das Kind liest, was gemeint ist, und schleudert die Beeren auf das Regal, das die passenden Kisten und losen Beeren zeigt.",
+        "Dahinter steckt die große Idee des Stellenwerts: Eine zweistellige Zahl ist eine bestimmte Anzahl Zehner und eine bestimmte Anzahl Einer. 25 sind 2 Kisten und 5 lose Beeren — und zwar mit so vielen Kisten wie möglich, kein volles Bündel bleibt offen. So lernt das Kind, eine Zahl nicht als Ziffernreihe, sondern als gebündelte Menge zu lesen und darzustellen.",
+        "Die Übung ist kostenlos, läuft ohne Zeitdruck und ohne Punkte. Es gibt keine Uhr und keinen Wettkampf — nur Bo, die Kisten und genug Ruhe, um in Zehnern und Einern zu denken. Sie orientiert sich am Lehrplan der Grundschule, Bereich „Zahlen und Operationen“."
+      ],
+      "practices": [
+        "Zehner und Einer einer zweistelligen Zahl lesen und der richtigen Darstellung zuordnen",
+        "Eine Zahl als Zehner und Einer darstellen — mit den meisten Zehnern, kein Bündel offen lassen",
+        "Glatte Zehnerzahlen erkennen (z. B. „vierzig“ — nur Kisten, keine losen Beeren)",
+        "Die Stellenwert-Falle erkennen (85 ist nicht 805) und zwei Zahlen miteinander vergleichen"
+      ],
+      "howToPlay": [
+        "Lies, was Bo zeigt: einen Haufen Beeren, ein Zahlwort oder eine Zahl",
+        "Tippe das Regal an, das die passenden Kisten und losen Beeren zeigt",
+        "Schleudere die Beeren auf das Regal — fertig!"
+      ],
+      "learningGoals": [
+        "Ein sicheres Stellenwertverständnis im Zahlenraum bis 100 aufbauen",
+        "Eine zweistellige Zahl in Zehner und Einer zerlegen und lesen",
+        "Die Grundlage fürs Rechnen bis 100 legen"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

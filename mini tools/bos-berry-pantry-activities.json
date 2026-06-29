@@ -35,9 +35,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "bos-berry-pantry" },
-    "page_title": { "en": "Bo's Berry Pantry — Tens and Ones the Smart Way" },
-    "page_intro": { "en": "Bo the bunny is stocking his winter pantry, and a crate holds exactly ten berries — sealed up, you just KNOW it's a ten. Read Bo's pile or number, then sling his berries to the shelf that matches with the right crates and loose berries. Watch the crates crack open and count by tens! A warm Grade 1 place-value game about tens and ones, aligned to Common Core 1.NBT.B.2." },
+    "slug": { "en": "bos-berry-pantry", "de": "zweistellige-zahlen-in-zehner-und-einer-lesen-klasse-2" },
+    "page_title": { "en": "Bo's Berry Pantry — Tens and Ones the Smart Way", "de": "Zweistellige Zahlen lesen – Zehner und Einer (Klasse 2)" },
+    "page_intro": { "en": "Bo the bunny is stocking his winter pantry, and a crate holds exactly ten berries — sealed up, you just KNOW it's a ten. Read Bo's pile or number, then sling his berries to the shelf that matches with the right crates and loose berries. Watch the crates crack open and count by tens! A warm Grade 1 place-value game about tens and ones, aligned to Common Core 1.NBT.B.2.", "de": "Zweistellige Zahlen lesen und in Zehner und Einer darstellen: Hilf Bo dem Hasen, Kisten und lose Beeren ins Regal zu sortieren – kostenlos, interaktiv, Klasse 2." },
     "kid_prompt_template": "slingshot-tens"
   }
 ]

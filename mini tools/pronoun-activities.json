@@ -16,16 +16,32 @@
         { "id": "pn-they-obj", "referent": "they", "role": "object",     "wrongRole": "subject", "cap": false, "kind": "simple-object",   "sentence": "We waved at ___." },
         { "id": "pn-their",    "referent": "they", "role": "possessive", "wrongRole": "object",  "cap": false, "kind": "form-by-function","sentence": "The twins lost ___ hats." },
         { "id": "pn-we-obj",   "referent": "we",   "role": "object",     "wrongRole": "subject", "cap": false, "kind": "simple-object",   "sentence": "Grandpa helped ___." }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "de-sub-1", "role": "subject",    "sentence": "___ rennt zum Bau.",          "de": { "correct": "Er",    "wrong": "Ihn"  } },
+          { "id": "de-sub-2", "role": "subject",    "sentence": "___ male ein Bild.",           "de": { "correct": "Ich",   "wrong": "Mich" } },
+          { "id": "de-sub-3", "role": "subject",    "sentence": "___ bauen eine Burg.",         "de": { "correct": "Wir",   "wrong": "Uns"  } },
+          { "id": "de-obj-1", "role": "object",     "sentence": "Pat sah ___ im Park.",         "de": { "correct": "ihn",   "wrong": "er"   } },
+          { "id": "de-obj-2", "role": "object",     "sentence": "Mama rief ___.",               "de": { "correct": "mich",  "wrong": "ich"  } },
+          { "id": "de-obj-3", "role": "object",     "sentence": "Der Hund fand ___ im Garten.", "de": { "correct": "uns",   "wrong": "wir"  } },
+          { "id": "de-pos-1", "role": "possessive", "sentence": "Das ist ___ Ball.",            "de": { "correct": "sein",  "wrong": "ihn"  } },
+          { "id": "de-pos-2", "role": "possessive", "sentence": "Hier ist ___ Hut.",            "de": { "correct": "mein",  "wrong": "mich" } },
+          { "id": "de-pos-3", "role": "possessive", "sentence": "Das ist ___ Nest.",            "de": { "correct": "unser", "wrong": "uns"  } }
+        ]
+      }
     },
     "slug": {
-      "en": "personal-pronouns"
+      "en": "personal-pronouns",
+      "de": "personalpronomen-ueben-er-ihn-ich-mich-klasse-3"
     },
     "page_title": {
-      "en": "The Borrowed Hat — Personal Pronouns (Grade 1)"
+      "en": "The Borrowed Hat — Personal Pronouns (Grade 1)",
+      "de": "Hattie übt Personalpronomen: er/ihn, ich/mich – Klasse 3"
     },
     "page_intro": {
-      "en": "A free interactive Grade 1 grammar activity: at Hattie's Lost-and-Found Hat Shop, every character needs the right word-hat for its job in the sentence — he when doing, him when it is done to him, his when it belongs to him. Read the sentence, then pick the pronoun that fits. A friendly first look at using pronouns correctly. Common Core L.1.1.d."
+      "en": "A free interactive Grade 1 grammar activity: at Hattie's Lost-and-Found Hat Shop, every character needs the right word-hat for its job in the sentence — he when doing, him when it is done to him, his when it belongs to him. Read the sentence, then pick the pronoun that fits. A friendly first look at using pronouns correctly. Common Core L.1.1.d.",
+      "de": "Bei Hattie im Hutladen das passende Fürwort wählen: er oder ihn, ich oder mich – je nach Satzrolle. Personalpronomen kostenlos und interaktiv üben, Klasse 3."
     },
     "kid_prompt_template": "pronoun"
   }

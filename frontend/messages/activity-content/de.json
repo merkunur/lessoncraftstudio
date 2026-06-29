@@ -606,6 +606,29 @@
         "Das Kind vertieft sein Gespür für den deutschen Satzbau im Bereich „Sprache und Sprachgebrauch untersuchen“ im Lehrplan der Grundschule."
       ]
     },
+    "pronoun.case.l-1-1-d": {
+      "about": [
+        "In „Hatties Hutladen“ wählt dein Kind das passende Personalpronomen für eine Lücke im Satz — zum Beispiel „Er rennt.“ gegen „Ihn rennt.“ oder „Pat sah ___“ mit „ihn“ statt „er“. Es entscheidet nicht nach Regeln, sondern danach, welche Form sich im Satz richtig anhört und zur Rolle des Wortes passt.",
+        "Dahinter steckt eine wichtige Einsicht aus dem Bereich „Sprache und Sprachgebrauch untersuchen“: Dasselbe Pronomen verändert seine Form, je nachdem, ob es im Satz die Person ist, die etwas tut („Wer tut etwas?“), oder die Person, mit der etwas geschieht („Wen oder was?“). Auch der Besitz wird so ausgedrückt („Wem gehört etwas?“). Dein Kind übt das ganz funktional, ohne Fachbegriffe wie Nominativ oder Akkusativ benennen zu müssen.",
+        "Die Übung ist frei und vollständig kostenlos: kein Zeitdruck, keine Punkte, keine Sterne. Dein Kind kann in seinem eigenen Tempo so oft probieren, wie es möchte, und ruhig nachspüren, welche Form sich stimmig anfühlt."
+      ],
+      "practices": [
+        "Aus zwei Pronomenformen die wählen, die in die Satzlücke passt (z. B. „er“ oder „ihn“).",
+        "Erkennen, ob jemand etwas tut oder ob mit jemandem etwas geschieht.",
+        "Besitz richtig ausdrücken („mein“, „sein“, „unser“) und vom Akkusativpronomen unterscheiden.",
+        "Ein Gespür für die richtige Pronomenform entwickeln, lange bevor die Fälle benannt werden."
+      ],
+      "howToPlay": [
+        "Lies den Satz mit der Lücke und schau dir die beiden Chips an.",
+        "Tippe auf die Pronomenform, die in den Satz passt.",
+        "Hattie zeigt dir, ob es passt — probiere ruhig weiter, ganz ohne Eile."
+      ],
+      "learningGoals": [
+        "Personalpronomen je nach ihrer Rolle im Satz in der richtigen Form verwenden.",
+        "Den Unterschied zwischen handelnder Person und betroffener Person sprachlich umsetzen — funktional, über „Wer tut etwas?“ und „Wen oder was?“.",
+        "Besitz mit „mein“, „sein“, „unser“ ausdrücken und die eigene Sprachintuition für richtige Pronomenformen stärken."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

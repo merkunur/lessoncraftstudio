@@ -16,6 +16,7 @@
   'use strict';
 
   var Core = global.PronounCore;
+  var LANG = 'en';
 
   var L = {
     en: {
@@ -27,9 +28,22 @@
       nSubject: 'Who is DOING it? Use the doing-word. Look again!',
       nObject: 'The action happens TO them — use the getting-word. Look again!',
       nPossessive: 'It shows what BELONGS to them — use the owning-word. Look again!'
+    },
+    de: {
+      q: 'Welches Wort passt in den Satz?',
+      win: 'Ja! {note}', hear: '🔊 Anhören',
+      noteSubject: 'Hier TUT jemand etwas!',
+      noteObject: 'Hier passiert etwas mit jemandem!',
+      notePossessive: 'Das zeigt, wem etwas GEHÖRT!',
+      nSubject: 'Fast! Frag: Wer TUT etwas? Dann passt das andere Wort.',
+      nObject: 'Fast! Frag: Wen meint der Satz? Dann passt das andere Wort.',
+      nPossessive: 'Fast! Frag: Wem GEHÖRT das? Dann passt das andere Wort.'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  /* German rounds carry their own forms (the protected core's CASE_TABLE is EN-only) */
+  function pnChips(r) { return (LANG === 'de' && r.de) ? [r.de.correct, r.de.wrong] : Core.chipStrings(r); }
+  function pnIsAnswer(r, s) { return (LANG === 'de' && r.de) ? s === r.de.correct : Core.isAnswer(r, s); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   function hattieSVG() {
@@ -48,13 +62,14 @@
   var PronounActivity = {
     id: 'pronoun-activity',
     strings: {
-      title: { en: 'The Borrowed Hat' },
-      instruction: { en: 'Give the character the right word — the one that fits its job!' },
-      q: { en: '{q}' }
+      title: { en: 'The Borrowed Hat', de: 'Hatties Hutladen' },
+      instruction: { en: 'Give the character the right word — the one that fits its job!', de: 'Gib Hattie das richtige Wort — das, das in den Satz passt!' },
+      q: { en: '{q}', de: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._lit = null; this._chipOrder = null; this._filled = null;
@@ -100,7 +115,7 @@
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
             self._activityRow = row;
-            self._pool = (row && row.params && row.params.rounds) || [];
+            self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -131,7 +146,7 @@
 
     _beginRound: function (round) {
       this._round = round; this._resolved = false; this._token = (this._token || 0) + 1; this._nonConf = {}; this._lit = null; this._filled = null;
-      this._chipOrder = this._shuffle(Core.chipStrings(round));   /* shuffle the 2 forms; position ≠ answer */
+      this._chipOrder = this._shuffle(pnChips(round));   /* shuffle the 2 forms; position ≠ answer */
       if (this._app) this._app.classList.remove('hattie-resolved');
     },
 
@@ -160,8 +175,8 @@
       /* Hear it */
       var self = this, hear = el('button', 'pn-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = String(round.sentence).replace('___', 'blank') + ' ' + txt('q');
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: 'en', rate: 0.92 }); } catch (e) { } }
+        var t = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : 'blank') + ' ' + txt('q');
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
 
@@ -173,14 +188,14 @@
     _renderChips: function (root, round) {
       var self = this, tok = this._token;
       var strip = el('div', 'pn-strip');
-      var order = this._chipOrder || Core.chipStrings(round);
+      var order = this._chipOrder || pnChips(round);
       order.forEach(function (str) {
         var b = el('button', 'pn-cand' + (self._nonConf[str] ? ' dim' : '') + (self._lit === str ? ' lit' : ''));
         b.type = 'button'; b.setAttribute('data-str', str);
         b.textContent = str; b.setAttribute('aria-label', str);
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[str] || self._token !== tok) return;
-          if (Core.isAnswer(round, str)) { self._lit = str; self._filled = str; self._resolve(); }
+          if (pnIsAnswer(round, str)) { self._lit = str; self._filled = str; self._resolve(); }
           else { self._nonConf[str] = 1; self._nudge(round); }
         });
         strip.appendChild(b);
@@ -209,8 +224,9 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'pn-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var chips = Core.chipStrings(round).join(' or ');
-      wrap.innerHTML = '<p>' + String(round.sentence).replace('___', 'blank') + ' ' + txt('q') + ' ' + chips + '?</p>';
+      var chips = pnChips(round).join(LANG === 'de' ? ' oder ' : ' or ');
+      var sent = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : 'blank');
+      wrap.innerHTML = '<p>' + sent + ' ' + txt('q') + ' ' + chips + '?</p>';
       return wrap;
     },
 

@@ -117,14 +117,14 @@
     id: 'mosaic-menders-activity',
 
     strings: {
-      title:       { en: 'The Mosaic Menders' },
-      instruction: { en: 'Help Tessa: tap the mosaic that uses the same number of tiles. Tap Check when ready.' },
-      prompt:      { en: 'Tap the mosaic that uses {n} tiles.' },
-      hintPickOne: { en: 'Tap one of the mosaics first.' },
-      hintCount:   { en: 'Not that one — count the tiles, not the size.' },
-      targetLabel: { en: '{n} tiles' },
-      srTarget:    { en: 'Tessa needs a mosaic with {n} tiles.' },
-      srCand:      { en: 'a mosaic with {n} tiles' }
+      title:       { en: 'The Mosaic Menders', de: 'Tessas Mosaik-Werkstatt' },
+      instruction: { en: 'Help Tessa: tap the mosaic that uses the same number of tiles. Tap Check when ready.', de: 'Hilf Tessa: Tippe auf das Mosaik, das gleich viele Plättchen hat. Tippe auf „Prüfen“, wenn du fertig bist.' },
+      prompt:      { en: 'Tap the mosaic that uses {n} tiles.', de: 'Tippe auf das Mosaik mit {n} Plättchen.' },
+      hintPickOne: { en: 'Tap one of the mosaics first.', de: 'Tippe zuerst auf eines der Mosaike.' },
+      hintCount:   { en: 'Not that one — count the tiles, not the size.', de: 'Nicht dieses — zähle die Plättchen, nicht die Größe.' },
+      targetLabel: { en: '{n} tiles', de: '{n} Plättchen' },
+      srTarget:    { en: 'Tessa needs a mosaic with {n} tiles.', de: 'Tessa braucht ein Mosaik mit {n} Plättchen.' },
+      srCand:      { en: 'a mosaic with {n} tiles', de: 'ein Mosaik mit {n} Plättchen' }
     },
 
     defaults: {},

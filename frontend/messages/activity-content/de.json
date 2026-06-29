@@ -1020,6 +1020,29 @@
         "Es gewinnt ein festes Stellenwertverständnis als Grundlage für das weitere Rechnen."
       ]
     },
+    "mending-fences.mend-board.3-md-d-8": {
+      "about": [
+        "„Wie viel Zaun brauche ich rundherum — und wie viel Gras wächst eigentlich darin?“ Mit dieser Frage hilft Ihr Kind Hazel der Dachs, ihre Wiesen-Koppeln in Ordnung zu bringen. In fünf abwechslungsreichen Aufgabentypen flickt Ihr Kind eine fehlende Zaunseite, vergleicht zwei Felder („Welches braucht mehr Zaun? Welches lässt mehr Gras wachsen?“), entscheidet, ob es die Randmarken (den Umfang) oder die Innenkästchen (die Fläche) zählen muss, prüft, ob eine Zaunrolle einmal ganz herumreicht, und entdeckt schließlich, dass zwei Felder mit gleich viel Gras trotzdem verschieden viel Zaun brauchen können.",
+        "Im Herzen steckt eine der wichtigsten Ideen der Grundschul-Geometrie: der Unterschied zwischen Umfang — dem Zaun einmal ganz rundherum — und Fläche, dem Gras mitten drin. Beides gehört zum selben Feld, ist aber etwas ganz Verschiedenes. Ihr Kind erlebt das nicht über Formeln, sondern ganz anschaulich durch Abzählen und Vergleichen mit kleinen Zahlen — genau so, wie es der Lehrplan der Grundschule im Bereich „Raum und Form“ für die dritte Klasse vorsieht.",
+        "Es gibt keinen Zeitdruck, keine Punkte und keine Wertung. Ihr Kind probiert in Hazels ruhiger Wiesenwelt so lange aus, wie es mag, und darf Fehler einfach noch einmal versuchen. Das Spielen ist und bleibt kostenlos."
+      ],
+      "practices": [
+        "Umfang als „Zaun rundherum“ durch Abzählen verstehen — ganz ohne Formel",
+        "Die fehlende Seite eines Rechtecks finden, wenn der ganze Umfang und eine Seite schon bekannt sind (Umkehraufgabe)",
+        "Umfang und Fläche desselben Feldes klar voneinander unterscheiden und zielsicher das Richtige abzählen",
+        "Entdecken, dass gleich viel Gras (Fläche) nicht gleich viel Zaun (Umfang) bedeutet"
+      ],
+      "howToPlay": [
+        "Lies, was Hazel braucht — den Zaun rundherum (Umfang) oder das Gras im Feld (Fläche)",
+        "Zähle die passenden Marken ab oder tippe die fehlende Zaunseite an und gib deine Antwort ein",
+        "Vergleiche zwei Felder und wähle das richtige — bei Fehlern einfach in Ruhe noch einmal probieren"
+      ],
+      "learningGoals": [
+        "Den Umfang einer Rechteck-Figur durch Abzählen der Seiten bestimmen",
+        "Umfang und Fläche sicher als zwei verschiedene Eigenschaften derselben Figur erkennen",
+        "Anschaulich erfahren, dass Felder mit gleicher Fläche unterschiedlichen Umfang haben können"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

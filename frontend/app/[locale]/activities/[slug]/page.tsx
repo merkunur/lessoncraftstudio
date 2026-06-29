@@ -66,6 +66,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'maple-bakery.share.3-oa-a-2': { de: 'Zahlen und Operationen' },        // Division = same KMK Leitidee „Zahlen und Operationen" (pairs with multiplication)
   'winter-piles.draw-partition.2-oa-c-4': { de: 'Zahlen und Operationen' }, // Punktefeld/wiederholte Addition = foundation of multiplication, same Leitidee
   'comet-kangaroo.tens-hundreds.2-nbt-b-8': { de: 'Zahlen und Operationen' }, // Stellenwert/Orientierung im Tausenderraum lives inside KMK Leitidee „Zahlen und Operationen" (not the base-ten calque)
+  'mending-fences.mend-board.3-md-d-8': { de: 'Raum und Form' },          // Umfang+Fläche = geometric figure property (KMK „Raum und Form"), like the area activity — not the free-measured Längen of „Größen und Messen"
 };
 function effStrand(row: ActivityRow, locale: string): string {
   return (STRAND_OVERRIDE[row.id] && STRAND_OVERRIDE[row.id][locale]) || localizeStrand(row.alignment.strand, locale);
@@ -340,7 +341,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.44';
+  const ACTIVITY_WRAPPER_VERSION = '9.45';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

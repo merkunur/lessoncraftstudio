@@ -51,7 +51,47 @@
       nRankGrass: 'Which field has more squares of grass inside?',
       nUnit: 'For the fence, count the marks AROUND the edge; for grass, the squares INSIDE.',
       nRoll: 'Think how far it is all the way around first.',
-      unitEdge: 'Edge marks', unitInterior: 'Inside squares', unitBorder: 'Edge ring'
+      unitEdge: 'Edge marks', unitInterior: 'Inside squares', unitBorder: 'Edge ring',
+      ropeLabel: 'Fence rope: ', plateAria: '{n} long',
+      winMend: 'two long sides and two short sides.',
+      srMend: 'A fence of {p} goes around; one side is {s}. How long is the missing board?',
+      srRank: 'Two fields. Which needs more fence around the edge, and which grows more grass inside?',
+      srSame: 'Two fields hold the same grass. Which one needs more fence around it?',
+      srUnitFence: 'To buy fence, count the marks around the edge.',
+      srUnitPlant: 'To plant grass, count the squares inside.',
+      srRoll: 'A roll of fence {roll} long — does it reach all the way around the field?'
+    },
+    de: {
+      qmend: 'Flick den kaputten Zaun – wie lang ist das fehlende Brett?',
+      qrank: 'Brombeers zwei Felder – antworte erst zum Zaun, dann zum Gras.',
+      qunit: 'Den Rand einzäunen oder innen pflanzen – welche Marken?',
+      qroll: 'Reicht die Zaunrolle einmal ganz herum?',
+      qsame: 'Beide Felder haben gleich viel Gras – wer braucht mehr Zaun?',
+      askFence: 'Welches Feld braucht MEHR Zaun?',
+      askGrass: 'Und auf welchem Feld wächst MEHR Gras?',
+      askUnitFence: 'Für den ZAUN – welche Marken zählst du?',
+      askUnitPlant: 'Für das GRAS – welche zählst du?',
+      askRoll: 'Eine Zaunrolle, {n} lang – reicht sie rundherum?',
+      reach: 'Ja, sie reicht', short: 'Nein, zu kurz',
+      win: 'Geflickt! {note}',
+      winFence: 'der Zaun geht einmal ganz herum.',
+      winGrass: 'mehr Zaun, weniger Gras – gut geschaut!',
+      winUnit: 'das ist die richtige Marke.',
+      winRoll: 'genau die richtige Länge.',
+      nMend: 'Denk dran: zwei lange UND zwei kurze Seiten.',
+      nRankFence: 'Schau noch mal – welcher Rand ist rundherum länger?',
+      nRankGrass: 'Welches Feld hat mehr Gras-Kästchen?',
+      nUnit: 'Für den Zaun zählst du die Marken am RAND; für das Gras die Kästchen in der MITTE.',
+      nRoll: 'Überleg erst, wie weit es einmal rundherum ist.',
+      unitEdge: 'Randmarken', unitInterior: 'Kästchen in der Mitte', unitBorder: 'Randring',
+      ropeLabel: 'Zaunlänge: ', plateAria: '{n} lang',
+      winMend: 'zwei lange und zwei kurze Seiten.',
+      srMend: 'Ein Zaun von {p} geht rundherum; eine Seite ist {s}. Wie lang ist das fehlende Brett?',
+      srRank: 'Zwei Felder. Welches braucht mehr Zaun am Rand, und auf welchem wächst mehr Gras in der Mitte?',
+      srSame: 'Zwei Felder haben gleich viel Gras. Welches braucht mehr Zaun rundherum?',
+      srUnitFence: 'Für den Zaun zählst du die Marken am Rand.',
+      srUnitPlant: 'Für das Gras zählst du die Kästchen in der Mitte.',
+      srRoll: 'Eine Zaunrolle, {roll} lang – reicht sie einmal ganz um das Feld herum?'
     }
   };
   function txt(k, a) {
@@ -156,13 +196,13 @@
   var MendingFencesActivity = {
     id: 'mending-fences-activity',
     strings: {
-      title: { en: 'The Mending Fences' },
-      instruction: { en: 'Help Hazel mend the fences — perimeter is the distance all the way around!' },
-      qmend: { en: 'Mend the broken fence.' },
-      qrank: { en: "Two fields — fence, then grass." },
-      qunit: { en: 'Edge marks or inside squares?' },
-      qroll: { en: 'Does the fence reach around?' },
-      qsame: { en: 'Same grass — which needs more fence?' }
+      title: { en: 'The Mending Fences', de: 'Hazel flickt die Zäune' },
+      instruction: { en: 'Help Hazel mend the fences — perimeter is the distance all the way around!', de: 'Hilf Hazel beim Zaunflicken – der Umfang ist der Weg einmal rundherum!' },
+      qmend: { en: 'Mend the broken fence.', de: 'Flick den kaputten Zaun.' },
+      qrank: { en: "Two fields — fence, then grass.", de: 'Zwei Felder – erst Zaun, dann Gras.' },
+      qunit: { en: 'Edge marks or inside squares?', de: 'Randmarken oder Kästchen in der Mitte?' },
+      qroll: { en: 'Does the fence reach around?', de: 'Reicht der Zaun einmal herum?' },
+      qsame: { en: 'Same grass — which needs more fence?', de: 'Gleich viel Gras – wer braucht mehr Zaun?' }
     },
 
     init: function (api) {
@@ -306,7 +346,7 @@
     /* ---------- mend-board ---------- */
     _rMend: function (box) {
       var self = this, r = this._round, tok = this._token;
-      var rope = el('div', 'mf-rope'); rope.textContent = 'Fence rope: ' + Core.rectPerimeter(r); box.appendChild(rope);
+      var rope = el('div', 'mf-rope'); rope.textContent = txt('ropeLabel') + Core.rectPerimeter(r); box.appendChild(rope);
       /* pad:1.0 so the coral "?" badge (drawn ~0.84U outside the rect) fits the
          viewBox; +1 on --mf-c compensates the wider viewBox so the field keeps size. */
       var fld = el('div', 'mf-field'); fld.style.setProperty('--mf-c', this._fieldColsVar(r) + 1);
@@ -316,10 +356,10 @@
       var plates = el('div', 'mf-plates');
       this._displayOrder.forEach(function (oi) {
         var b = el('button', 'mf-cand mf-plate' + (self._nonConf[oi] ? ' dim' : ''));
-        b.type = 'button'; b.textContent = String(r.candidates[oi]); b.setAttribute('aria-label', r.candidates[oi] + ' long');
+        b.type = 'button'; b.textContent = String(r.candidates[oi]); b.setAttribute('aria-label', txt('plateAria', { n: r.candidates[oi] }));
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[oi] || self._token !== tok) return;
-          if (Core.isAnswer(r, oi)) self._resolve('win', { note: 'two long sides and two short sides.' });
+          if (Core.isAnswer(r, oi)) self._resolve('win', { note: txt('winMend') });
           else { self._nonConf[oi] = 1; self._nudge('nMend'); }
         });
         plates.appendChild(b);
@@ -422,11 +462,11 @@
     _srMirror: function () {
       var r = this._round, wrap = el('div', 'mf-sronly'); wrap.setAttribute('aria-live', 'polite');
       var msg = '';
-      if (r.cog === 'mend-board') msg = 'A fence of ' + Core.rectPerimeter(r) + ' goes around; one side is ' + Core.shownVal(r) + '. How long is the missing board?';
-      else if (r.cog === 'more-fence-or-grass') msg = 'Two fields. Which needs more fence around the edge, and which grows more grass inside?';
-      else if (r.cog === 'same-area-diff-perim') msg = 'Two fields hold the same grass. Which one needs more fence around it?';
-      else if (r.cog === 'fence-it-or-plant') msg = (r.job === 'fence' ? 'To buy fence, count the marks around the edge.' : 'To plant grass, count the squares inside.');
-      else if (r.cog === 'roll-reach') msg = 'A roll of fence ' + r.roll + ' long — does it reach all the way around the field?';
+      if (r.cog === 'mend-board') msg = txt('srMend', { p: Core.rectPerimeter(r), s: Core.shownVal(r) });
+      else if (r.cog === 'more-fence-or-grass') msg = txt('srRank');
+      else if (r.cog === 'same-area-diff-perim') msg = txt('srSame');
+      else if (r.cog === 'fence-it-or-plant') msg = (r.job === 'fence' ? txt('srUnitFence') : txt('srUnitPlant'));
+      else if (r.cog === 'roll-reach') msg = txt('srRoll', { roll: r.roll });
       wrap.innerHTML = '<p>' + esc(msg) + '</p>';
       return wrap;
     },

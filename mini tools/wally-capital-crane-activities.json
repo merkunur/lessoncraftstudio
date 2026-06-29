@@ -14,12 +14,24 @@
         { "id": "oreo", "band": 2, "tokens": ["He", "wanted", "another", "oreo", "."], "proper": "oreo" },
         { "id": "disney", "band": 3, "tokens": ["We", "really", "love", "visiting", "disney", "."], "proper": "disney" },
         { "id": "christmas", "band": 3, "tokens": ["I", "love", "christmas", "celebrations", "."], "proper": "christmas" }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "hund-schlaeft", "band": 1, "tokens": ["Der", "hund", "schläft", "tief", "."], "proper": "hund" },
+          { "id": "garten-gruen", "band": 1, "tokens": ["Der", "garten", "ist", "grün", "."], "proper": "garten" },
+          { "id": "ball-rollt", "band": 1, "tokens": ["Mein", "ball", "rollt", "schnell", "."], "proper": "ball" },
+          { "id": "bild-malen", "band": 2, "tokens": ["Ich", "male", "ein", "buntes", "bild", "."], "proper": "bild" },
+          { "id": "bruder-lacht", "band": 2, "tokens": ["Heute", "lacht", "mein", "bruder", "laut", "."], "proper": "bruder" },
+          { "id": "milch-trinken", "band": 2, "tokens": ["Wir", "trinken", "kalte", "milch", "."], "proper": "milch" },
+          { "id": "vogel-singt", "band": 3, "tokens": ["Der", "kleine", "vogel", "singt", "sehr", "laut", "."], "proper": "vogel" },
+          { "id": "auto-faehrt", "band": 3, "tokens": ["Heute", "fährt", "mein", "rotes", "auto", "schnell", "."], "proper": "auto" }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "wally-capital-crane" },
-    "page_title": { "en": "Wally's Capital Crane — Capitalize Special Names (Grade 2)" },
-    "page_intro": { "en": "Wally the walrus runs a crane that lifts a little letter up into a big CAPITAL! Special names — holidays like Halloween, places like Texas, and products like Lego — always start with a capital letter. Read the sentence and tap the word that needs Wally's big letter. A Grade 2 grammar game about capitalizing holidays, places, and product names, aligned to Common Core L.2.2.a." },
+    "slug": { "en": "wally-capital-crane", "de": "nomen-grossschreiben-ueben-klasse-2" },
+    "page_title": { "en": "Wally's Capital Crane — Capitalize Special Names (Grade 2)", "de": "Wallys Großbuchstaben-Kran: Nomen großschreiben üben (Klasse 2)" },
+    "page_intro": { "en": "Wally the walrus runs a crane that lifts a little letter up into a big CAPITAL! Special names — holidays like Halloween, places like Texas, and products like Lego — always start with a capital letter. Read the sentence and tap the word that needs Wally's big letter. A Grade 2 grammar game about capitalizing holidays, places, and product names, aligned to Common Core L.2.2.a.", "de": "Tippe das kleingeschriebene Nomen an und Wally das Walross schreibt es groß – so übst du die Großschreibung von Nomen spielerisch, passend zum Lehrplan, kostenlos und interaktiv." },
     "kid_prompt_template": "Tap the special name that needs a capital letter."
   }
 ]

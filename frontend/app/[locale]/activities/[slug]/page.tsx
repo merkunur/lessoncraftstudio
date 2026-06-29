@@ -31,6 +31,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'pronoun.case.l-1-1-d': { de: '3' },                                    // case-correct pronoun-form choice (er/ihn) → DE Klasse 3 (Fall-arbeit is Klasse 3/4)
   'olive-kind-of.category-attribute.l-1-5-b': { de: '2' },                // Oberbegriff/Hyperonym abstraction → DE Klasse 2 (EN Grade 1 placement doesn't transfer)
   'vera-verb-match.be-agreement.l-1-1-c': { de: '2' },                    // reflective Subjekt-Verb-Kongruenz (bin/ist/sind) → DE Klasse 2 (K-1 kids speak it; the grammar task is Klasse 2)
+  'hazel-word-bridge.joining-words.l-1-1-g': { de: '3' },                 // selection-by-meaning across 4 Bindewörter incl. causal „denn" + Pflichtkomma → DE Klasse 3
 };
 function effGrade(row: ActivityRow, locale: string): string {
   return (locale !== 'en' && GRADE_OVERRIDE[row.id] && GRADE_OVERRIDE[row.id][locale]) || row.alignment.grade;
@@ -322,7 +323,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.31';
+  const ACTIVITY_WRAPPER_VERSION = '9.32';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

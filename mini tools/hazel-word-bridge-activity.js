@@ -14,14 +14,19 @@
 
   var Core = global.ConjunctionCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A' };
+  var LANG = 'en';
+  var REL_CONJ_DE = { addition: 'und', alternative: 'oder', contrast: 'aber', cause: 'denn' };
+  var CHIPS_DE = ['und', 'oder', 'aber', 'denn'];
+  function hwbOracle(round) { return LANG === 'de' ? (REL_CONJ_DE[round.relation] || '') : Core.oracle(round); }
+  function hwbIsAnswer(round, str) { return str === hwbOracle(round); }
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function sayable(s) { return String(s || '').replace(/___/g, 'blank'); }
+  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : 'blank'); }
 
   function heronSVG(mood) {
     var happy = mood === 'happy';
@@ -40,18 +45,19 @@
     id: 'hazel-word-bridge-activity',
 
     strings: {
-      title: { en: "Hazel's Word Bridge" },
-      prompt: { en: 'Which joining word fits?' },
-      hazelIntro: { en: 'A joining word bridges the two ideas!' },
-      theAsk: { en: 'Which word joins the two parts?' },
-      hintPick: { en: 'Tap the joining word that makes sense!' },
-      hintWrong: { en: "That joining word doesn't fit — read it again." },
-      win: { en: 'Yes! That word bridges the two ideas. 🌉' }
+      title: { en: "Hazel's Word Bridge", de: 'Hazels Wortbrücke' },
+      prompt: { en: 'Which joining word fits?', de: 'Welches Bindewort passt?' },
+      hazelIntro: { en: 'A joining word bridges the two ideas!', de: 'Ein Bindewort schlägt eine Brücke zwischen den zwei Sätzen!' },
+      theAsk: { en: 'Which word joins the two parts?', de: 'Welches Wort verbindet die zwei Teile?' },
+      hintPick: { en: 'Tap the joining word that makes sense!', de: 'Tippe auf ein Bindewort, das in die Lücke passt.' },
+      hintWrong: { en: "That joining word doesn't fit — read it again.", de: 'Lies den ganzen Satz noch einmal. Welches Wort passt zur Bedeutung?' },
+      win: { en: 'Yes! That word bridges the two ideas. 🌉', de: 'Stark gemacht! Du hast die richtige Brücke gebaut! 🌉' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._chips = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -61,6 +67,7 @@
 
     setupTask: function (round) {
       this.round = round; this.view = Core.childView(round); this.sel = null; this._spoke = false;
+      if (LANG === 'de') this.view.chips = CHIPS_DE.slice();
       this._chips = shuffle(this.view.chips.slice());
     },
 
@@ -77,7 +84,7 @@
 
       var sent = api.el('div', 'hwb-sent');
       var txt = api.el('span', 'hwb-senttxt'); txt.textContent = v.sentence; sent.appendChild(txt);
-      var sp = api.el('button', 'hwb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', 'hear the sentence'); sp.textContent = '🔊';
+      var sp = api.el('button', 'hwb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : 'hear the sentence'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(sayable(v.sentence)); }); sent.appendChild(sp);
       root.appendChild(sent);
 
@@ -101,7 +108,7 @@
       this.sel = w; this.api.sound && this.api.sound(540); speak(w); this.render();
     },
 
-    isCorrect: function () { return this.sel != null && Core.isAnswer(this.round, this.sel); },
+    isCorrect: function () { return this.sel != null && hwbIsAnswer(this.round, this.sel); },
     reset: function () { this.setupTask(this.round); this.render(); },
 
     nextTask: function (opts) {
@@ -115,7 +122,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/hazel-word-bridge-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[hazel-word-bridge] manifest load failed:', e.message); });
     },
 

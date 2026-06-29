@@ -14,12 +14,24 @@
         { "id": "won",      "band": 2, "sentence": "She was happy ___ she won the game.","relation": "cause" },
         { "id": "dark",     "band": 3, "sentence": "It got dark ___ we went inside.",    "relation": "result" },
         { "id": "tired",    "band": 3, "sentence": "He felt tired ___ he took a rest.",  "relation": "result" }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "und-essen-tisch", "band": 1, "relation": "addition", "sentence": "Mama kocht das Essen ___ Papa deckt den Tisch." },
+          { "id": "oder-schaukeln-rutschen", "band": 1, "relation": "alternative", "sentence": "Möchtest du jetzt schaukeln ___ möchtest du lieber rutschen?" },
+          { "id": "aber-regen-draussen", "band": 1, "relation": "contrast", "sentence": "Es regnet, ___ ich gehe nach draußen." },
+          { "id": "und-sonne-voegel", "band": 2, "relation": "addition", "sentence": "Die Sonne scheint ___ die Vögel singen." },
+          { "id": "oder-fussball-verstecken", "band": 2, "relation": "alternative", "sentence": "Spielen wir Fußball ___ spielen wir lieber Verstecken?" },
+          { "id": "denn-schirm-regen", "band": 2, "relation": "cause", "sentence": "Ich nehme den Schirm mit, ___ es regnet." },
+          { "id": "aber-spiel-gewonnen", "band": 3, "relation": "contrast", "sentence": "Das Spiel war schwer, ___ wir haben gewonnen." },
+          { "id": "denn-drinnen-kalt", "band": 3, "relation": "cause", "sentence": "Wir bleiben heute drinnen, ___ es ist sehr kalt." }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "hazel-word-bridge" },
-    "page_title": { "en": "Hazel's Word Bridge — Joining Words (Grade 1)" },
-    "page_intro": { "en": "Hazel the heron builds a little word-bridge between two ideas, and a joining word holds it together. Read each sentence, then tap the word that fills the blank — and, but, because, or so — so the two parts make sense. A warm Grade 1 grammar game about using conjunctions to join ideas, aligned to Common Core L.1.1.g." },
+    "slug": { "en": "hazel-word-bridge", "de": "bindewoerter-und-oder-aber-denn-klasse-3" },
+    "page_title": { "en": "Hazel's Word Bridge — Joining Words (Grade 1)", "de": "Hazels Wortbrücke – Bindewörter üben: und, oder, aber, denn (Klasse 3)" },
+    "page_intro": { "en": "Hazel the heron builds a little word-bridge between two ideas, and a joining word holds it together. Read each sentence, then tap the word that fills the blank — and, but, because, or so — so the two parts make sense. A warm Grade 1 grammar game about using conjunctions to join ideas, aligned to Common Core L.1.1.g.", "de": "Mit Hazel dem Reiher Bindewörter üben: Setze und, oder, aber oder denn passend in den Satz ein – kostenlos und interaktiv, passend zum Lehrplan der Klasse 3." },
     "kid_prompt_template": "hazel-word-bridge"
   }
 ]

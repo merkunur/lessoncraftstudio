@@ -19,11 +19,14 @@
 
   var Core = global.DrawPartitionCore;
   var C = { T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', INK: '#2A2A35', GOLD: '#E8A53A', BAND: ['#FFF3DF', '#EAF3EF', '#F7EEF4', '#EEF4E4', '#FDEEDD'] };
+  var LANG = 'en';
   var ONES = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
-  function numWord(n) { if (n < 20) return ONES[n]; var t = ['', '', 'twenty', 'thirty', 'forty', 'fifty']; return (t[Math.floor(n / 10)] || n) + (n % 10 ? '-' + ONES[n % 10] : ''); }
+  /* German standalone number words 0–16 (arrays ≤4×4 → addends/totals ≤16): eins standalone, sechzehn (no extra s) */
+  var ONES_DE = ['null', 'eins', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn', 'elf', 'zwölf', 'dreizehn', 'vierzehn', 'fünfzehn', 'sechzehn'];
+  function numWord(n) { if (LANG === 'de') return ONES_DE[n] || String(n); if (n < 20) return ONES[n]; var t = ['', '', 'twenty', 'thirty', 'forty', 'fifty']; return (t[Math.floor(n / 10)] || n) + (n % 10 ? '-' + ONES[n % 10] : ''); }
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: text, lang: 'en', rate: 0.92 }); return; }
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: text, lang: LANG, rate: 0.92 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .92; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function svgEl(tag, attrs) { var e = document.createElementNS('http://www.w3.org/2000/svg', tag); if (attrs) for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
@@ -32,7 +35,7 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M40 44 q4 -5 8 0 M54 44 q4 -5 8 0" stroke="#2A2A35" stroke-width="2.4" fill="none" stroke-linecap="round"/>' : '<circle cx="44" cy="45" r="3" fill="#2A2A35"/><circle cx="58" cy="45" r="3" fill="#2A2A35"/>';
     var mouth = happy ? '<path d="M44 55 q7 7 14 0" stroke="#2A2A35" stroke-width="2.3" fill="none" stroke-linecap="round"/>' : '<path d="M46 55 q5 3 10 0" stroke="#2A2A35" stroke-width="2" fill="none" stroke-linecap="round"/>';
-    return '<svg class="wp-sq-svg" viewBox="0 0 100 100" role="img" aria-label="squirrel">' +
+    return '<svg class="wp-sq-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Eichhörnchen' : 'squirrel') + '">' +
       '<path d="M78 64 Q96 50 86 30 Q80 18 70 28 Q82 40 72 56 Z" fill="#B5713C"/>' + // tail
       '<ellipse cx="51" cy="58" rx="24" ry="22" fill="#C8854A"/>' +
       '<circle cx="40" cy="30" r="7" fill="#C8854A"/><circle cx="62" cy="30" r="7" fill="#C8854A"/>' +
@@ -45,22 +48,23 @@
     reward: { id: 'acorn-hoard', label: 'Acorn Hoard', emoji: '🌰' },
 
     strings: {
-      title: { en: "Squirrel's Fair Winter Piles" },
-      prompt: { en: 'Make fair piles!' },
-      promptFair: { en: 'Cut the rows into piles that are all the same size.' },
-      promptN: { en: 'Make exactly {n} fair piles.' },
-      promptFix: { en: 'These piles are unfair — re-cut them so they match!' },
-      promptMatch: { en: 'Cut and read to make {eq}.' },
-      readHint: { en: 'Read each pile and tap its number in.' },
-      lockIt: { en: 'Lock it in!' },
-      win: { en: 'Fair piles! They sparkle as one!' },
-      unfair: { en: "Those piles aren't equal yet — make them all the same." },
-      hintCheck: { en: 'Make fair piles + read each one, then lock it in.' }
+      title: { en: "Squirrel's Fair Winter Piles", de: 'Flos faire Winterhäufchen' },
+      prompt: { en: 'Make fair piles!', de: 'Mach faire Häufchen!' },
+      promptFair: { en: 'Cut the rows into piles that are all the same size.', de: 'Schneide die Reihen in Häufchen, die alle gleich groß sind.' },
+      promptN: { en: 'Make exactly {n} fair piles.', de: 'Mach genau {n} gleich große Häufchen.' },
+      promptFix: { en: 'These piles are unfair — re-cut them so they match!', de: 'Diese Häufchen sind nicht gleich groß – schneide noch mal, damit sie zusammenpassen!' },
+      promptMatch: { en: 'Cut and read to make {eq}.', de: 'Schneide und lies, um {eq} zu bauen.' },
+      readHint: { en: 'Read each pile and tap its number in.', de: 'Lies jedes Häufchen und tippe seine Zahl ein.' },
+      lockIt: { en: 'Lock it in!', de: 'Einrasten!' },
+      win: { en: 'Fair piles! They sparkle as one!', de: 'Faire Häufchen! Sie funkeln wie eins!' },
+      unfair: { en: "Those piles aren't equal yet — make them all the same.", de: 'Die Häufchen sind noch nicht gleich groß – mach sie alle gleich.' },
+      hintCheck: { en: 'Make fair piles + read each one, then lock it in.', de: 'Mach gleich große Häufchen und lies jedes, dann raste sie ein.' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.cuts = []; this.addends = []; this.stage = 'draw'; this.solved = false; this.solvedCount = 0;
       this._drag = null; this._preview = null;
@@ -226,7 +230,7 @@
     _isValid: function () { return Core.validate(this.round, this.cuts, this.addends.map(function (a) { return a == null ? -1 : a; })); },
     _onBecomeValid: function () {
       this.api.sound && this.api.sound(880);
-      var piles = Core.derivePiles(this.round, this.cuts), eq = piles.map(numWord).join(' plus ') + ' equals ' + numWord(this._R() * this._Cc());
+      var piles = Core.derivePiles(this.round, this.cuts), eq = piles.map(numWord).join(' plus ') + (LANG === 'de' ? ' ist gleich ' : ' equals ') + numWord(this._R() * this._Cc());
       this.api.announce && this.api.announce(this.api.t('win')); speak(eq);
     },
 

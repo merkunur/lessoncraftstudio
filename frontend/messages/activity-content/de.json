@@ -974,6 +974,29 @@
         "Es erlebt Division und Multiplikation als zusammengehöriges Paar und gewinnt Vertrauen in die eigene Denkweise."
       ]
     },
+    "winter-piles.draw-partition.2-oa-c-4": {
+      "about": [
+        "Flo, ein kleines Eichhörnchen, hat seine Eicheln ordentlich in Reihen und Spalten gelegt — und jetzt möchte es sie gerecht aufteilen. In dieser Aktivität zieht Ihr Kind eine Trennlinie durch das Eichelfeld und teilt es in gleich große Häufchen: Mal sollen einfach gleich große Reihen entstehen, mal genau eine bestimmte Anzahl von Häufchen, mal muss ein unfairer Schnitt entdeckt und in einen fairen verbessert werden, und manchmal baut Ihr Kind ein vorgegebenes Ziel-Ergebnis nach. Anschließend liest es ab, wie viele Eicheln in jedem Häufchen liegen, und tippt die Zahlen ein — Stück für Stück wächst die Rechnung „4 + 4 + 4 = 12“.",
+        "Dahinter steckt eine der wichtigsten Ideen der zweiten Klasse: Wenn man gleich viele Dinge mehrmals zusammenzählt, schreibt man das als Summe gleicher Summanden — die sogenannte wiederholte Addition. Genau dieses geordnete Eichelfeld (in der Schule heißt es „Punktefeld“) ist die Brücke zum Malnehmen: Aus „4 + 4 + 4“ wird später ganz natürlich „3 mal 4“. Ihr Kind erlebt das Einmaleins also nicht als auswendig zu lernende Tabelle, sondern versteht von Anfang an, warum es funktioniert.",
+        "Die Aktivität ist kostenlos und ganz ohne Druck: keine Zeit, keine Punkte, kein Wettlauf. Ihr Kind darf in Ruhe ausprobieren, einen Schnitt verschieben und neu schauen, ob die Häufchen wirklich gleich groß sind. Jeder Versuch ist erlaubt — Verstehen entsteht beim Ausprobieren, nicht beim Tempo."
+      ],
+      "practices": [
+        "Ein Punktefeld in gleich große Reihen oder Häufchen aufteilen und die Gleichheit selbst prüfen",
+        "Eine Summe gleicher Summanden lesen und schreiben (z. B. „5 + 5 + 5 = 15“)",
+        "Faire von unfairen Aufteilungen unterscheiden und einen ungleichen Schnitt verbessern",
+        "Den ersten tragfähigen Schritt zum Einmaleins gehen — Malnehmen als wiederholte Addition verstehen"
+      ],
+      "howToPlay": [
+        "Zieh eine Trennlinie durch das Eichelfeld, sodass gleich große Häufchen entstehen",
+        "Zähl, wie viele Eicheln in einem Häufchen liegen, und tippe für jedes Häufchen diese Zahl ein",
+        "Schau, ob deine Rechnung aufgeht — und probier ruhig einen anderen Schnitt, wenn die Häufchen noch nicht gleich groß sind"
+      ],
+      "learningGoals": [
+        "Ihr Kind erkennt, dass sich gleich große Mengen als Summe gleicher Summanden schreiben lassen",
+        "Es baut ein sicheres Verständnis des Punktefeldes als Grundlage des Einmaleins auf",
+        "Es festigt den Begriff „gleich groß“ und bereitet damit das Malnehmen anschaulich vor"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

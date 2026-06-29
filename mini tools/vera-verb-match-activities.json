@@ -14,12 +14,24 @@
         { "id": "asleep", "band": 2, "subject": "The cat", "before": "The cat", "after": "fast asleep.", "correct": "is" },
         { "id": "happy", "band": 3, "subject": "They", "before": "They", "after": "very happy.", "correct": "are" },
         { "id": "helper", "band": 3, "subject": "I", "before": "I", "after": "a big helper.", "correct": "am" }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "ich-garten", "band": 1, "subject": "Ich", "before": "Ich ", "after": " im Garten.", "correct": "bin" },
+          { "id": "hund-park", "band": 1, "subject": "Der Hund", "before": "Der Hund ", "after": " im Park.", "correct": "ist" },
+          { "id": "kinder-froh", "band": 1, "subject": "Die Kinder", "before": "Die Kinder ", "after": " froh.", "correct": "sind" },
+          { "id": "katze-muede", "band": 2, "subject": "Die Katze", "before": "Die Katze ", "after": " müde.", "correct": "ist" },
+          { "id": "voegel-baum", "band": 2, "subject": "Die Vögel", "before": "Die Vögel ", "after": " im Baum.", "correct": "sind" },
+          { "id": "ich-gluecklich", "band": 2, "subject": "Ich", "before": "Ich ", "after": " glücklich.", "correct": "bin" },
+          { "id": "hunde-laut", "band": 3, "subject": "Die Hunde", "before": "Die Hunde ", "after": " laut.", "correct": "sind" },
+          { "id": "freundin-da", "band": 3, "subject": "Meine Freundin", "before": "Meine Freundin ", "after": " da.", "correct": "ist" }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "vera-verb-match" },
-    "page_title": { "en": "Vera's Verb Match — Am, Is, or Are? (Grade 1)" },
-    "page_intro": { "en": "Vera the vole matches every verb to its subject! Use AM with I, IS with one (the dog, she, it), and ARE with many (the dogs, we, they). Read the sentence and tap the verb that fits. A Grade 1 grammar game about matching the verb to a singular or plural subject, aligned to Common Core L.1.1.c." },
+    "slug": { "en": "vera-verb-match", "de": "verb-sein-ueben-bin-ist-sind-klasse-2" },
+    "page_title": { "en": "Vera's Verb Match — Am, Is, or Are? (Grade 1)", "de": "Veras Verb-Werkstatt – Verb „sein“ üben: bin, ist, sind (Klasse 2)" },
+    "page_intro": { "en": "Vera the vole matches every verb to its subject! Use AM with I, IS with one (the dog, she, it), and ARE with many (the dogs, we, they). Read the sentence and tap the verb that fits. A Grade 1 grammar game about matching the verb to a singular or plural subject, aligned to Common Core L.1.1.c.", "de": "Hilf Vera der Wühlmaus, die richtige Form von „sein“ zu finden – übe bin, ist und sind und stimme Subjekt und Verb ab. Kostenlos und interaktiv für Klasse 2." },
     "kid_prompt_template": "Tap am, is, or are to match the subject."
   }
 ]

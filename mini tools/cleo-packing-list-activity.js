@@ -13,10 +13,26 @@
 
   var Core = global.SeriesCommaCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', LIME: '#7FB23A' };
+  var LANG = 'en';
+
+  /* German list-comma forms (0 lines to series-comma-core.js): comma between
+     items, none before „und". correct & misplaced both carry 1 comma (no count
+     cue); misplaced puts the comma at the forbidden spot before „und". */
+  function deCorrect(r) { var i = r.items; return r.lead + ' ' + i[0] + ', ' + i[1] + ' und ' + i[2] + '.'; }
+  function deNocomma(r) { var i = r.items; return r.lead + ' ' + i[0] + ' ' + i[1] + ' und ' + i[2] + '.'; }
+  function deMisplaced(r) { var i = r.items; return r.lead + ' ' + i[0] + ' ' + i[1] + ', und ' + i[2] + '.'; }
+  function deFormsOf(r) {
+    var correct = deCorrect(r), foils = [deNocomma(r), deMisplaced(r)];
+    var slot = (((r.slot || 0) % 3) + 3) % 3, out = [], fi = 0;
+    for (var i = 0; i < 3; i++) { if (i === slot) out.push({ text: correct, ok: true }); else out.push({ text: foils[fi++], ok: false }); }
+    return out;
+  }
+  function cplChildView(r) { if (LANG !== 'de') return Core.childView(r); return { lead: r.lead, choices: deFormsOf(r).map(function (f, i) { return { id: i, text: f.text }; }) }; }
+  function cplGrade(r, id) { if (LANG !== 'de') return Core.grade(r, id); var f = deFormsOf(r)[id]; return !!f && !!f.ok; }
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -35,18 +51,19 @@
     id: 'cleo-packing-list-activity',
 
     strings: {
-      title: { en: "Cleo's Packing List" },
-      instruction: { en: 'Tap the list that has its commas in the right places.' },
-      prompt: { en: 'Which list has the commas in the right places?' },
-      cleoIntro: { en: 'A comma goes after each thing in a list!' },
-      hintPick: { en: 'A comma comes after each item — and before the last "and".' },
-      hintWrong: { en: 'Check each comma — one after each thing in the list.' },
-      win: { en: 'Yes! The commas are just right. 🦎' }
+      title: { en: "Cleo's Packing List", de: 'Cleos Packliste' },
+      instruction: { en: 'Tap the list that has its commas in the right places.', de: 'Tippe die Liste mit den Kommas an der richtigen Stelle.' },
+      prompt: { en: 'Which list has the commas in the right places?', de: 'Welche Liste hat die Kommas an der richtigen Stelle?' },
+      cleoIntro: { en: 'A comma goes after each thing in a list!', de: 'Tipp von Cleo: Zwischen den Dingen steht ein Komma – aber nie vor „und"!' },
+      hintPick: { en: 'A comma comes after each item — and before the last "and".', de: 'Komma zwischen den Wörtern – aber KEIN Komma vor „und".' },
+      hintWrong: { en: 'Check each comma — one after each thing in the list.', de: 'Fast! Das Komma gehört zwischen die Wörter – nicht vor „und".' },
+      win: { en: 'Yes! The commas are just right. 🦎', de: 'Super – alle Kommas sitzen genau richtig! 🦎' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -55,7 +72,7 @@
     },
 
     setupTask: function (round) {
-      this.round = round; this.view = Core.childView(round); this.sel = null;
+      this.round = round; this.view = cplChildView(round); this.sel = null;
       this._cards = shuffle(this.view.choices.slice());
     },
 
@@ -88,7 +105,7 @@
       this.sel = id; this.api.sound && this.api.sound(560); speak(text); this.render();
     },
 
-    isCorrect: function () { return Core.grade(this.round, this.sel); },
+    isCorrect: function () { return cplGrade(this.round, this.sel); },
     reset: function () { this.setupTask(this.round); this.render(); },
 
     nextTask: function (opts) {
@@ -102,7 +119,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/cleo-packing-list-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[cleo-packing-list] manifest load failed:', e.message); });
     },
 
@@ -132,7 +149,7 @@
       return {
         id: 'cleo-packing-list.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
-        check: function (tool) { return Core.grade(round, tool.sel); },
+        check: function (tool) { return cplGrade(round, tool.sel); },
         hintKey: function (tool) { return tool.sel != null ? 'hintWrong' : 'hintPick'; }
       };
     });

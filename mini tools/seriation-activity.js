@@ -21,6 +21,10 @@
 
   var Core = global.SeriationCore;
 
+  /* Current content locale (from the shell's api.lang = ?lang=xx). Set in init().
+     L[LANG]/COLOR_L[LANG] fall back to en, so an unsupported locale degrades safely. */
+  var LANG = 'en';
+
   var COLORS = {
     red:    { hex: '#E0524A', label: 'Red' },
     blue:   { hex: '#3E7CB1', label: 'Blue' },
@@ -29,6 +33,14 @@
     purple: { hex: '#8C6BB1', label: 'Purple' },
     orange: { hex: '#E8833A', label: 'Orange' }
   };
+
+  /* Per-locale chip labels. EN mirrors COLORS.label; DE per the native ensemble
+     (Lila/Orange invariable). Standalone nominative labels — no inflection. */
+  var COLOR_L = {
+    en: { red: 'Red', blue: 'Blue', green: 'Green', yellow: 'Yellow', purple: 'Purple', orange: 'Orange' },
+    de: { red: 'Rot', blue: 'Blau', green: 'Grün', yellow: 'Gelb', purple: 'Lila', orange: 'Orange' }
+  };
+  function clabel(color) { return (COLOR_L[LANG] && COLOR_L[LANG][color]) || (COLORS[color] && COLORS[color].label) || color; }
 
   var L = {
     en: {
@@ -39,10 +51,34 @@
       nLongest: 'The longest ribbon goes PAST all the others. Look again!',
       nShortest: 'The shortest ribbon stops first. Look again!',
       nSamecord: 'Find the ribbon that ends right at the cord line. Look again!',
-      cord: 'the cord'
+      cord: 'the cord',
+      srRef: 'The cord is the reference.',
+      srItem: '{label} ribbon is {rel}',
+      relLonger: 'longer than the cord',
+      relShorter: 'shorter than the cord',
+      relEqual: 'as long as the cord'
+    },
+    /* DE — native ensemble (linguist + Grundschule educator). "die Schnur" (NOT
+       Maßband — that implies standardized measuring, the wrong stage); "das Band".
+       SR uses the colon form (Band {label}: {rel}) to sidestep the orange
+       adjective-inflection trap and reuse the nominative chip labels. */
+    de: {
+      qLongest: 'Tippe auf das LÄNGSTE Band.',
+      qShortest: 'Tippe auf das KÜRZESTE Band.',
+      qSamecord: 'Welches Band ist genauso lang wie die Schnur?',
+      win: 'Genau! {note}', winNote: 'Du hast die Längen verglichen!',
+      nLongest: 'Das längste Band reicht weiter als alle anderen. Schau noch mal!',
+      nShortest: 'Das kürzeste Band hört als Erstes auf. Schau noch mal!',
+      nSamecord: 'Finde das Band, das genau dort endet, wo die Schnur endet. Schau noch mal!',
+      cord: 'Schnur',
+      srRef: 'Die Schnur ist die Vergleichslänge.',
+      srItem: 'Band {label}: {rel}',
+      relLonger: 'länger als die Schnur',
+      relShorter: 'kürzer als die Schnur',
+      relEqual: 'genauso lang wie die Schnur'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function pct(v, max) { return Math.max(0, Math.min(100, (v / max) * 100)); }
 
@@ -63,13 +99,14 @@
   var SeriationActivity = {
     id: 'seriation-activity',
     strings: {
-      title: { en: 'The Faraway Shelf' },
-      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!' },
+      title: { en: 'The Faraway Shelf', de: 'Tillys fernes Regal' },
+      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!', de: 'Vergleiche die Bänder mit der Schnur und tippe dann auf deine Antwort!' },
       q: { en: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._maxUnit = 12; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._lit = null; this._chipOrder = null; this._shelfOrder = null;
@@ -207,7 +244,7 @@
         /* per-track dashed cord marker so "past / short of the cord" reads on every shelf */
         var mk = el('div'); mk.style.position = 'absolute'; mk.style.left = cordPct + '%'; mk.style.top = '-3px'; mk.style.bottom = '-3px'; mk.style.width = '0'; mk.style.borderLeft = '2px dashed rgba(20,107,94,.55)';
         track.append(bar, mk);
-        var lab = el('div', 'sr-rlabel'); lab.textContent = c.label;
+        var lab = el('div', 'sr-rlabel'); lab.textContent = clabel(rib.color);
         row.append(track, lab);
         scene.appendChild(row);
       });
@@ -221,9 +258,9 @@
       order.forEach(function (ri) {
         var rib = round.ribbons[ri], c = COLORS[rib.color] || { hex: '#999', label: rib.label };
         var b = el('button', 'sr-cand' + (self._nonConf[ri] ? ' dim' : '') + (self._lit === ri ? ' lit' : ''));
-        b.type = 'button'; b.setAttribute('data-ci', ri); b.setAttribute('aria-label', c.label);
+        b.type = 'button'; b.setAttribute('data-ci', ri); b.setAttribute('aria-label', clabel(rib.color));
         var sw = el('span', 'sr-swatch'); sw.style.background = c.hex;
-        var nm = el('span'); nm.textContent = c.label;
+        var nm = el('span'); nm.textContent = clabel(rib.color);
         b.append(sw, nm);
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[ri] || self._token !== tok) return;
@@ -254,14 +291,13 @@
     },
 
     _srMirror: function (round) {
-      var max = this._maxUnit, wrap = el('div', 'sr-sronly'); wrap.setAttribute('aria-live', 'polite');
+      var wrap = el('div', 'sr-sronly'); wrap.setAttribute('aria-live', 'polite');
       var q = round.mode === 'shortest' ? txt('qShortest') : round.mode === 'samecord' ? txt('qSamecord') : txt('qLongest');
       var parts = (round.ribbons || []).map(function (r) {
-        var c = COLORS[r.color] || { label: r.label };
-        var rel = r.len > round.cordLen ? 'longer than the cord' : r.len < round.cordLen ? 'shorter than the cord' : 'as long as the cord';
-        return c.label + ' ribbon is ' + rel;
+        var relKey = r.len > round.cordLen ? 'relLonger' : r.len < round.cordLen ? 'relShorter' : 'relEqual';
+        return txt('srItem', { label: clabel(r.color), rel: txt(relKey) });
       }).join('; ');
-      wrap.innerHTML = '<p>The cord is the reference. ' + parts + '. ' + q + '</p>';
+      wrap.innerHTML = '<p>' + txt('srRef') + ' ' + parts + '. ' + q + '</p>';
       return wrap;
     },
 

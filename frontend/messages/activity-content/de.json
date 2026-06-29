@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "seriation.compare-length.1-md-a-1": {
+      "about": [
+        "In dieser kostenlosen interaktiven Größen-Aktivität für die 1. Klasse hilfst du Tilly, der Ladenkatze, ihre bunten Bänder zu ordnen. Die Bänder liegen auf weit auseinanderliegenden Regalen – du kannst sie nicht einfach nebeneinanderlegen. Aber Tilly hat eine Schnur als Vergleich. Pro Runde tippst du auf das längste Band, das kürzeste Band oder das Band, das genauso lang ist wie die Schnur.",
+        "Dahinter steckt eine wichtige mathematische Idee: Wenn man zwei Dinge nicht direkt nebeneinanderlegen kann, vergleicht man sie indirekt mit einem dritten Gegenstand – hier mit der Schnur. So lernen Kinder, Längen sicher zu vergleichen und der Größe nach zu ordnen. Alle Bänder beginnen an derselben Kante, damit der Vergleich ehrlich und nachvollziehbar bleibt.",
+        "Die Aktivität ist an den Lehrplänen der Grundschule (Bereich „Größen und Messen“) ausgerichtet. Es gibt keinen Zeitdruck und keine Punkte – dein Kind kann in seinem eigenen Tempo ausprobieren, vergleichen und nachdenken."
+      ],
+      "practices": [
+        "Längen vergleichen: länger, kürzer, genauso lang",
+        "Indirekt vergleichen mit einem dritten Gegenstand (der Schnur)",
+        "Drei Bänder der Länge nach ordnen – vom längsten bis zum kürzesten",
+        "Genau hinschauen: Wo endet ein Band im Vergleich zur Schnur?"
+      ],
+      "howToPlay": [
+        "Schau dir die drei Bänder und die Schnur an. Alle starten an derselben Kante.",
+        "Lies, wonach gefragt wird: das längste, das kürzeste oder genauso lang wie die Schnur.",
+        "Tippe auf das passende Band. Es gibt 9 Runden – ohne Zeit und ohne Punkte."
+      ],
+      "learningGoals": [
+        "Das Kind vergleicht Längen und benennt sie als länger, kürzer oder genauso lang.",
+        "Das Kind nutzt ein drittes Objekt (die Schnur), um Längen indirekt zu vergleichen.",
+        "Das Kind ordnet drei Gegenstände sicher nach ihrer Länge."
+      ]
+    },
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
         "Zuerst erscheint eine Form, die in gleiche Teile geteilt ist, und das Kind sucht dann eine zweite Form, die in genauso viele gleiche Teile geteilt ist — auch wenn die Teile ganz anders geformt sind. Diese kostenlose, interaktive Geometrie-Übung für die 2. Klasse läuft direkt im Browser, ohne Installation und ohne Anmeldung.",

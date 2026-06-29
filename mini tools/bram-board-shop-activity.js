@@ -21,10 +21,12 @@
   var Core = global.LengthTapeCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A', WOOD: '#C9A86B' };
 
+  var LANG = 'en';
+
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
@@ -34,22 +36,29 @@
     id: 'bram-board-shop-activity',
 
     strings: {
-      title: { en: "Bram's Board Shop" },
-      prompt: { en: 'Measure the order.' },
-      measure: { en: 'Measure it 📏' },
-      replay: { en: '🔊 Read again' },
-      sayWelcome: { en: 'A new order! Show me the lengths.' },
-      sayModel: { en: 'Put each length on its piece. One piece is the mystery — mark it.' },
-      sayDial: { en: 'Now — how many centimetres? Dial it in!' },
-      sayWin: { en: 'Measured and cut! Perfect fit. 🪵' },
-      sayWait: { en: "Hmm, let's measure again." },
-      pickTile: { en: 'Now tap the piece where it belongs.' },
-      hintCheck: { en: 'Place the lengths, mark the mystery, dial the cm.' }
+      title: { en: "Bram's Board Shop", de: 'Brams Bretter-Werkstatt' },
+      prompt: { en: 'Measure the order.', de: 'Miss die Bestellung aus.' },
+      measure: { en: 'Measure it 📏', de: 'Ausmessen 📏' },
+      replay: { en: '🔊 Read again', de: '🔊 Noch einmal vorlesen' },
+      sayWelcome: { en: 'A new order! Show me the lengths.', de: 'Eine neue Bestellung! Zeig mir die Längen.' },
+      sayModel: { en: 'Put each length on its piece. One piece is the mystery — mark it.', de: 'Leg jede Länge auf ihr Stück. Ein Stück ist das Rätsel – markiere es.' },
+      sayDial: { en: 'Now — how many centimetres? Dial it in!', de: 'Und jetzt – wie viele Zentimeter? Tippe es ein!' },
+      sayWin: { en: 'Measured and cut! Perfect fit. 🪵', de: 'Gemessen und gesägt! Passt genau. 🪵' },
+      sayWait: { en: "Hmm, let's measure again.", de: 'Hmm, lass uns noch einmal messen.' },
+      pickTile: { en: 'Now tap the piece where it belongs.', de: 'Tippe nun auf das Stück, wo sie hingehört.' },
+      hintCheck: { en: 'Place the lengths, mark the mystery, dial the cm.', de: 'Leg die Längen hin, markiere das Rätsel, tippe die cm ein.' },
+      ariaMystery: { en: 'mystery length', de: 'Rätsel-Länge' },
+      ariaHolds: { en: 'holds {n} centimetres', de: 'ist {n} Zentimeter lang' },
+      ariaEmpty: { en: 'empty piece — tap to place a length or mark the mystery', de: 'leeres Stück – tippe, um eine Länge zu platzieren oder das Rätsel zu markieren' },
+      ariaTileCm: { en: '{n} centimetres', de: '{n} Zentimeter' },
+      ariaRecap: { en: 'your model: {eq} centimetres', de: 'dein Modell: {eq} Zentimeter' },
+      ariaClear: { en: 'clear', de: 'löschen' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.snap = null; this.solved = false;
       this.binding = {}; this.dialed = null; this._selected = null; this.msg = null; this._tray = null; this.cutCount = 0;
@@ -136,7 +145,7 @@
       var slot = api.el('button', 'bbs-slot bbs-' + (kind || 'seg') + (b === '?' ? ' bbs-unknown' : (b ? ' bbs-filled' : ' bbs-empty')));
       slot.type = 'button'; slot.setAttribute('data-role', role);
       slot.textContent = (b === '?') ? '?' : (b ? (this._tileById(b) || {}).value : '');
-      slot.setAttribute('aria-label', b === '?' ? 'mystery length' : (b ? 'holds ' + (this._tileById(b) || {}).value + ' centimetres' : 'empty piece — tap to place a length or mark the mystery'));
+      slot.setAttribute('aria-label', b === '?' ? this.api.t('ariaMystery') : (b ? this.api.t('ariaHolds').replace('{n}', (this._tileById(b) || {}).value) : this.api.t('ariaEmpty')));
       if (!this.solved) slot.addEventListener('click', function () { self._tapSlot(role); });
       // proportional growth for in-row segments (known → ∝ value; unknown/empty → fixed)
       if (kind === 'seg' || kind === 'bartrack') {
@@ -180,7 +189,7 @@
         var t = self._tileById(id); if (!t) return;
         var sel = (self._selected === id);
         var b = api.el('button', 'bbs-tile' + (sel ? ' bbs-sel' : '')); b.type = 'button'; b.setAttribute('data-id', id);
-        b.textContent = t.value; b.setAttribute('aria-label', t.value + ' centimetres');
+        b.textContent = t.value; b.setAttribute('aria-label', api.t('ariaTileCm').replace('{n}', t.value));
         b.addEventListener('click', function () { self._tapTile(id); });
         tray.appendChild(b);
       });
@@ -197,7 +206,7 @@
       if (r.diagram === 'change') eq = val('start') + ' ' + (r.op === 'sub' ? '−' : '+') + ' ' + val('change') + ' = ' + val('result');
       else if (r.diagram === 'bracket') eq = val('partA') + ' + ' + val('partB') + ' = ' + val('whole');
       else eq = val('smaller') + ' + ' + val('difference') + ' = ' + val('bigger');
-      var box = api.el('div', 'bbs-recap'); box.textContent = eq + ' cm'; box.setAttribute('aria-label', 'your model: ' + eq + ' centimetres');
+      var box = api.el('div', 'bbs-recap'); box.textContent = eq + ' cm'; box.setAttribute('aria-label', api.t('ariaRecap').replace('{eq}', eq));
       parent.appendChild(box);
     },
 
@@ -214,7 +223,7 @@
         key.addEventListener('click', function () { self._pushDigit(n); });
         pad.appendChild(key);
       });
-      var clr = api.el('button', 'bbs-key bbs-keyclear'); clr.type = 'button'; clr.textContent = '⌫'; clr.setAttribute('aria-label', 'clear');
+      var clr = api.el('button', 'bbs-key bbs-keyclear'); clr.type = 'button'; clr.textContent = '⌫'; clr.setAttribute('aria-label', api.t('ariaClear'));
       clr.addEventListener('click', function () { self._clearDial(); }); pad.appendChild(clr);
       parent.appendChild(pad);
       var go = api.el('button', 'bbs-measure'); go.type = 'button'; go.textContent = api.t('measure');
@@ -272,7 +281,7 @@
       fetch('/mini-tools/bram-board-shop-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
         .then(function (rows) {
           var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return;
-          self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); }));
+          self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); }));
           self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
         })
         .catch(function (e) { if (global.console && console.warn) console.warn('[bram-board-shop] manifest load failed:', e.message); });
@@ -328,7 +337,7 @@
         + '@media (max-width:480px){.bbs-root{gap:5px;padding:8px;}.bbs-storytext{font-size:12px;}.bbs-seg{height:42px;}.bbs-tile{min-height:46px;}}'
         + '@media (max-height:680px){.bbs-root{gap:3px;}.bbs-bram{font-size:20px;}.bbs-story{padding:4px 8px;}.bbs-storytext{font-size:11.5px;line-height:1.18;}.bbs-tape{padding:5px;gap:3px;}.bbs-seg{height:36px;}.bbs-bartrack{height:30px;}.bbs-trayhint{font-size:10.5px;}.bbs-tile{min-width:46px;height:46px;}.bbs-recap{font-size:19px;padding:3px;}.bbs-measure{min-height:44px;}}'
         /* very short (320×640): trim every model-phase band so the tape + tray + shell Check clear the fold */
-        + '@media (max-height:640px){.bbs-root{gap:2px;padding:5px;}.bbs-saytop{font-size:10.5px;}.bbs-bram{font-size:18px;}.bbs-story{padding:3px 7px;}.bbs-storytext{font-size:11px;line-height:1.12;}.bbs-tape{padding:4px;gap:2px;}.bbs-ruler{height:7px;}.bbs-seg{height:32px;min-width:42px;}.bbs-whole{height:32px;}.bbs-bartrack{height:27px;}.bbs-brace{height:5px;margin:1px clamp(10px,8%,40px) 1px;}.bbs-trayhint{font-size:10px;}.bbs-tray{gap:6px;}.bbs-tile{min-width:44px;height:44px;font-size:16px;}.bbs-keypad{gap:4px;}}'
+        + '@media (max-height:640px){.bbs-root{gap:2px;padding:4px;}.bbs-saytop{font-size:9.5px;}.bbs-bram{font-size:17px;}.bbs-story{padding:2px 6px;}.bbs-storytext{font-size:10px;line-height:1.06;}.bbs-cols{gap:4px;}.bbs-tape{padding:3px;gap:1px;}.bbs-ruler{height:6px;}.bbs-seg{height:30px;min-width:40px;}.bbs-whole{height:30px;}.bbs-bartrack{height:24px;}.bbs-bars{gap:4px;}.bbs-diffwrap{padding-top:3px;}.bbs-brace{height:4px;margin:1px clamp(10px,8%,40px) 1px;}.bbs-trayhint{font-size:9.5px;}.bbs-tray{gap:5px;}.bbs-tile{min-width:44px;height:44px;font-size:16px;}.bbs-keypad{gap:4px;}}'
         + '@media (prefers-reduced-motion: reduce){.bbs-bounce,.bbs-sticker{animation:none!important;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-bram-board-shop', ''); tag.textContent = css; document.head.appendChild(tag);
     }

@@ -18,9 +18,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "comet-kangaroo-tens-hundreds" },
-    "page_title": { "en": "Comet's Big Leaps — 10 & 100 More or Less (Grade 2)" },
-    "page_intro": { "en": "A free interactive Grade 2 math activity: Comet the kangaroo makes big leaps along the numbers. See a three-digit number and a leap — 10 more, 10 less, 100 more, or 100 less — work it out in your head and type where Comet lands. Mentally add or subtract 10 or 100, watching how only the tens or hundreds digit changes while the ones stay put. Common Core 2.NBT.B.8." },
+    "slug": { "en": "comet-kangaroo-tens-hundreds", "de": "10-100-mehr-weniger-zahlenraum-1000-klasse-3" },
+    "page_title": { "en": "Comet's Big Leaps — 10 & 100 More or Less (Grade 2)", "de": "10 & 100 mehr/weniger bis 1000 – Känguru Komet, Klasse 3" },
+    "page_intro": { "en": "A free interactive Grade 2 math activity: Comet the kangaroo makes big leaps along the numbers. See a three-digit number and a leap — 10 more, 10 less, 100 more, or 100 less — work it out in your head and type where Comet lands. Mentally add or subtract 10 or 100, watching how only the tens or hundreds digit changes while the ones stay put. Common Core 2.NBT.B.8.", "de": "Mit Komet dem Känguru springst du im Zahlenraum bis 1000: 10 oder 100 mehr und weniger im Kopf rechnen. Kostenloses, interaktives Stellenwert-Spiel für Klasse 3." },
     "kid_prompt_template": "tens-hundreds"
   }
 ]

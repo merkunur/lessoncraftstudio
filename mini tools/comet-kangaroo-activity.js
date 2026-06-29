@@ -19,13 +19,21 @@
   var Core = global.JumpTensCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A', SKY: '#EAF2EE' };
 
+  var LANG = 'en';
+  /* German hop rebuilt from childView's dir+deltaAbs (no core change); the core's hopWord is English */
+  function ckgHop(v) { return LANG === 'de' ? (v.deltaAbs + (v.dir === 'more' ? ' mehr' : ' weniger')) : v.hop; }
+  function ckgQuestion(v, full) {
+    var h = ckgHop(v);
+    return LANG === 'de' ? ((full ? 'Wie viel ist ' : '') + h + ' als ' + v.start + '?') : ((full ? 'What is ' : '') + v.hop + ' than ' + v.start + '?');
+  }
+
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
 
   function kangarooSVG() {
-    return '<svg class="ckg-roo-svg" viewBox="0 0 100 100" role="img" aria-label="Comet the kangaroo">' +
+    return '<svg class="ckg-roo-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Komet das Känguru' : 'Comet the kangaroo') + '">' +
       '<path d="M30 80 q-6 -2 -2 -10 q4 -2 10 2 Z" fill="#B06A38"/>' +              /* tail */
       '<ellipse cx="50" cy="64" rx="20" ry="18" fill="#C77E45"/>' +                 /* body */
       '<ellipse cx="50" cy="70" rx="12" ry="10" fill="#E6C39B"/>' +                 /* belly */
@@ -42,15 +50,16 @@
     id: 'comet-kangaroo-activity',
 
     strings: {
-      title: { en: "Comet the Kangaroo" },
-      instruction: { en: 'Comet makes a big leap of 10 or 100. Work out where she lands and type the number.' },
-      prompt: { en: 'What is {hop} than {start}?' },
-      hint: { en: 'Only the tens or hundreds change — the ones digit stays the same.' }
+      title: { en: "Comet the Kangaroo", de: 'Komet das Känguru' },
+      instruction: { en: 'Comet makes a big leap of 10 or 100. Work out where she lands and type the number.', de: 'Komet macht einen großen Sprung von 10 oder 100. Finde heraus, wo es landet, und tippe die Zahl ein.' },
+      prompt: { en: 'What is {hop} than {start}?', de: 'Wie viel ist {hop} als {start}?' },
+      hint: { en: 'Only the tens or hundreds change — the ones digit stays the same.', de: 'Nur die Zehner oder die Hunderter ändern sich – die Einer bleiben gleich.' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -80,13 +89,13 @@
       row.appendChild(line);
       root.appendChild(row);
 
-      var read = api.el('button', 'ckg-read'); read.type = 'button'; read.setAttribute('aria-label', 'hear the question');
-      read.innerHTML = '<span class="ckg-read-ic">🔊</span> ' + (v.hop) + ' than ' + v.start + '?';
-      read.addEventListener('click', function () { speak('What is ' + v.hop + ' than ' + v.start + '?'); });
+      var read = api.el('button', 'ckg-read'); read.type = 'button'; read.setAttribute('aria-label', LANG === 'de' ? 'Frage anhören' : 'hear the question');
+      read.innerHTML = '<span class="ckg-read-ic">🔊</span> ' + ckgQuestion(v, false);
+      read.addEventListener('click', function () { speak(ckgQuestion(v, true)); });
       root.appendChild(read);
 
       wrap.appendChild(root); stage.appendChild(wrap);
-      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak('What is ' + v.hop + ' than ' + v.start + '?'); }, 320); }
+      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(ckgQuestion(v, true)); }, 320); }
     },
 
     reset: function () { this.setupTask(this.round); this.render(); },
@@ -137,7 +146,7 @@
     return (rounds || []).map(function (round, i) {
       return {
         id: 'comet-kangaroo.round-' + i, band: round.band || 1,
-        promptKey: 'prompt', promptArgs: { hop: Core.hopWord(round), start: round.start },
+        promptKey: 'prompt', promptArgs: { hop: (LANG === 'de' ? (Math.abs(round.delta) + (round.delta > 0 ? ' mehr' : ' weniger')) : Core.hopWord(round)), start: round.start },
         answerType: 'number', answerMin: 0, answerMax: 1000,
         setup: function (tool) { tool.setupTask(round); },
         check: function (tool, answer) { return Core.isAnswer(round, answer); },

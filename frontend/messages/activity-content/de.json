@@ -997,6 +997,29 @@
         "Es festigt den Begriff „gleich groß“ und bereitet damit das Malnehmen anschaulich vor"
       ]
     },
+    "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
+      "about": [
+        "Komet das Känguru liebt weite Sprünge – und in diesem Spiel springt es mitten durch den Zahlenraum bis 1000. Ihr Kind sieht eine dreistellige Zahl, zum Beispiel 247, und einen Sprung: „10 mehr“, „10 weniger“, „100 mehr“ oder „100 weniger“. Im Kopf rechnet es aus, wo Komet landet, und tippt die neue Zahl ein. Mal sind es kleine Zehnersprünge, mal große Hundertersprünge.",
+        "Dahinter steckt eine wichtige Entdeckung über unsere Zahlen: Wenn man 10 dazugibt oder wegnimmt, verändert sich nur die Zehnerstelle – die Einer bleiben gleich. Bei 100 mehr oder weniger ändert sich nur die Hunderterstelle. Ihr Kind lernt so, dreistellige Zahlen nach ihren Stellen zu „lesen“ und sich sicher im Tausenderraum zu bewegen. Genau das nennt man Stellenwertverständnis – und es ist eine der wichtigsten Grundlagen des Rechnens.",
+        "Dieses Spiel ist frei und kostenlos spielbar – ganz ohne Punkte, ohne Zeitdruck und ohne Anmeldung. Ihr Kind darf in seinem eigenen Tempo überlegen, ausprobieren und Komet beim Springen begleiten. Hier zählt das Verstehen, nicht das Tempo."
+      ],
+      "practices": [
+        "Im Kopf 10 oder 100 zu einer dreistelligen Zahl dazurechnen oder wegnehmen (Kopfrechnen)",
+        "Die Stellen einer Zahl erkennen: Hunderter, Zehner und Einer auseinanderhalten",
+        "Verstehen, dass sich beim Sprung nur eine Stelle ändert – die anderen bleiben gleich",
+        "Sich sicher im Zahlenraum bis 1000 orientieren (Nachbarzehner und Nachbarhunderter finden)"
+      ],
+      "howToPlay": [
+        "Schau dir die Zahl an und lies den Sprung von Komet: „10 mehr“, „10 weniger“, „100 mehr“ oder „100 weniger“.",
+        "Überlege im Kopf, welche Stelle sich verändert, und rechne aus, wo Komet landet.",
+        "Tippe die neue Zahl ein – stimmt sie, springt Komet fröhlich weiter."
+      ],
+      "learningGoals": [
+        "Ihr Kind rechnet sicher 10 oder 100 mehr und weniger im Tausenderraum.",
+        "Es versteht, dass nur die Zehner- oder Hunderterstelle sich beim Sprung ändert.",
+        "Es gewinnt ein festes Stellenwertverständnis als Grundlage für das weitere Rechnen."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

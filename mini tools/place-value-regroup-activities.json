@@ -18,13 +18,16 @@
       ]
     },
     "slug": {
-      "en": "add-with-regrouping-make-a-ten"
+      "en": "add-with-regrouping-make-a-ten",
+      "de": "zehner-buendeln-mit-zehneruebergang-addieren-klasse-1"
     },
     "page_title": {
-      "en": "Tuck's Ten Bundles — Add with Regrouping (Grade 1)"
+      "en": "Tuck's Ten Bundles — Add with Regrouping (Grade 1)",
+      "de": "Tucks Zehnerbündel – mit Zehnerübergang addieren (Klasse 1)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 1 math activity: add a two-digit and a one-digit number when the ones make more than ten. Tuck the hamster shows the base-ten blocks; tap “Make a ten” to bundle 10 ones into one ten, then type the total. A clear, hands-on first look at carrying — composing a ten. Common Core 1.NBT.C.4."
+      "en": "A free interactive Grade 1 math activity: add a two-digit and a one-digit number when the ones make more than ten. Tuck the hamster shows the base-ten blocks; tap “Make a ten” to bundle 10 ones into one ten, then type the total. A clear, hands-on first look at carrying — composing a ten. Common Core 1.NBT.C.4.",
+      "de": "Zehn Einer zu einem Zehner bündeln und mit Zehnerübergang addieren – mit Tuck dem Hamster. Kostenlose Mathe-Übung im Zahlenraum bis 100 für Klasse 1."
     },
     "kid_prompt_template": "place-value-regroup"
   },

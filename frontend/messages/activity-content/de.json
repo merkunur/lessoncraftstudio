@@ -422,6 +422,29 @@
         "Dein Kind gewinnt Sicherheit im Kopfrechnen und Vertrauen in eigene Rechenstrategien."
       ]
     },
+    "sharing-jar.make-fair.1-oa-d-8": {
+      "about": [
+        "Pim und Bo schöpfen mit ihren Kellen bunte Perlen in zwei Gläser — mal sind es ein paar mehr, mal ein paar weniger, und manchmal ist sogar eine Handvoll danebengekullert. In dieser kostenlosen, interaktiven Mathe-Aktivität für die Klasse 1 hilfst du den beiden, die fehlende Zahl herauszufinden: Wie viele Perlen fehlen noch, wie viele sind es mehr, wie viele sind verschüttet? Du tippst einfach auf die richtige Zahl von 0 bis 10 — fertig.",
+        "Im Mittelpunkt steht eine Idee, die Kinder sofort verstehen: Es soll gerecht zugehen, beide Gläser sollen am Ende gleich viele Perlen enthalten. Aus dieser kleinen Geschichte werden ganz natürlich echte Rechenfragen: ergänzen bis zur Gleichheit, den Unterschied bestimmen, verschüttete Perlen wiederherstellen oder herausfinden, wie viele am Anfang im Glas waren. So üben Kinder das Ergänzen und die Umkehraufgaben im Zahlenraum bis 12 — eingebettet in eine Situation, die sie aus dem Alltag kennen.",
+        "Die Aktivität bringt fünf verschiedene Fragetypen mit, die sich abwechseln, damit die Kinder die fehlende Zahl aus immer neuen Blickwinkeln entdecken — nicht stur dasselbe Muster. Es gibt keine Uhr, keine Punkte und keinen Wettlauf: Kinder dürfen in Ruhe überlegen, ausprobieren und nachdenken. Die Aufgaben orientieren sich am Lehrplan der Grundschulmathematik (Zahlen und Operationen) und eignen sich für die Schule wie für zu Hause."
+      ],
+      "practices": [
+        "Die fehlende oder unbekannte Zahl in einer Plus-Minus-Beziehung bestimmen (Ergänzen).",
+        "Zwei Mengen vergleichen und den Unterschied angeben („Wie viele mehr?“).",
+        "Verschüttete Perlen wiederherstellen und herausfinden, wie viele am Anfang im Glas waren (Umkehraufgabe / Anfangszahl gesucht).",
+        "Mengen so ergänzen oder verkleinern, dass beide Gläser gleich viele Perlen enthalten."
+      ],
+      "howToPlay": [
+        "Schau dir an, wie viele Perlen Pim und Bo in ihren Gläsern haben, und lies die Frage.",
+        "Überlege, welche Zahl fehlt — wie viele noch dazu müssen, wie viele mehr es sind oder wie viele am Anfang da waren.",
+        "Tippe auf die passende Zahl von 0 bis 10. Stimmt sie, geht es weiter zur nächsten Perlen-Frage."
+      ],
+      "learningGoals": [
+        "Die Kinder bestimmen sicher die fehlende Zahl in einfachen Plus- und Minus-Beziehungen im Zahlenraum bis 12.",
+        "Die Kinder verstehen Ergänzen und Umkehraufgaben als Strategien und erkennen, dass sich Mengen vergleichen und wiederherstellen lassen.",
+        "Die Kinder erleben Mathematik in einer sinnvollen Sachsituation und gewinnen Vertrauen darin, Zahlbeziehungen selbst herauszufinden."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

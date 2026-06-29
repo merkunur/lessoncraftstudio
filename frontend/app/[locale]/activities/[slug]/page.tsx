@@ -38,6 +38,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'roary-roar-meter.shades.l-2-5-b': { de: '3' },                         // Bedeutungsnuancen (Abstufen innerhalb einer Bedeutung) → DE Klasse 3 (K2 = clear opposites)
   'wren-question-window.question-words.l-k-1-d': { de: '1' },             // Fragewörter = Anfangsunterricht Klasse 1 (de chip „Klasse 1", NOT „Kindergarten"); en stays Kindergarten
   'echo-grove.match-the-rune.3-oa-a-1': { de: '2' },                      // Multiplikation als gleiche Gruppen / kleines Einmaleins = DE Klasse 2 (US Grade 3 a year higher)
+  'maple-bakery.share.3-oa-a-2': { de: '2' },                             // Division (Verteilen/Aufteilen, ohne Rest) introduced alongside Einmaleins = DE Klasse 2
 };
 function effGrade(row: ActivityRow, locale: string): string {
   return (locale !== 'en' && GRADE_OVERRIDE[row.id] && GRADE_OVERRIDE[row.id][locale]) || row.alignment.grade;
@@ -61,6 +62,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'ziggy-odd-one-out.category.l-1-5-a': { de: 'Wortschatz untersuchen' }, // Wortfelder/Kategorien = vocabulary work, not grammar
   'halfway-harbors.nearest.3-nbt-a-1': { de: 'Zahlen und Operationen' },  // Runden = KMK Leitidee „Zahlen und Operationen", broader than the auto-localized „…Zehnersystem"
   'echo-grove.match-the-rune.3-oa-a-1': { de: 'Zahlen und Operationen' }, // Multiplikation = KMK Leitidee „Zahlen und Operationen"; literal „Rechnen und algebraisches Denken" reads wrong (Sekundarstufe term)
+  'maple-bakery.share.3-oa-a-2': { de: 'Zahlen und Operationen' },        // Division = same KMK Leitidee „Zahlen und Operationen" (pairs with multiplication)
 };
 function effStrand(row: ActivityRow, locale: string): string {
   return (STRAND_OVERRIDE[row.id] && STRAND_OVERRIDE[row.id][locale]) || localizeStrand(row.alignment.strand, locale);
@@ -335,7 +337,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.41';
+  const ACTIVITY_WRAPPER_VERSION = '9.42';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

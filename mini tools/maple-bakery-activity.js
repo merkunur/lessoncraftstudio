@@ -21,17 +21,29 @@
 
   var Core = global.MapleBakeryCore;
 
+  var LANG = 'en';
   var L = {
     en: {
       win: 'Yes — {note}',
       winShare: '{a} cookies on each plate!',
       winPack: '{a} full boxes!',
       nShare: 'Count the cookies on just ONE plate.',
-      nPack: 'Count how many boxes are full.'
+      nPack: 'Count how many boxes are full.',
+      srShare: '{d} cookies are shared equally onto {n} plates. How many cookies are on each plate? Choices: {choices}.',
+      srPack: '{d} cookies are packed into boxes that each hold {n}. How many boxes are there? Choices: {choices}.'
+    },
+    de: {
+      win: 'Ja — {note}',
+      winShare: '{a} Kekse auf jedem Teller!',
+      winPack: '{a} volle Schachteln!',
+      nShare: 'Zähl die Kekse auf nur EINEM Teller.',
+      nPack: 'Zähl, wie viele Schachteln voll sind.',
+      srShare: '{d} Kekse werden gleichmäßig auf {n} Teller verteilt. Wie viele Kekse liegen auf jedem Teller? Auswahl: {choices}.',
+      srPack: '{d} Kekse werden in Schachteln zu je {n} gepackt. Wie viele Schachteln sind es? Auswahl: {choices}.'
     }
   };
   function txt(k, a) {
-    var s = L.en[k] || k;
+    var s = (L[LANG] && L[LANG][k]) || L.en[k] || k;
     return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; });
   }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
@@ -95,14 +107,15 @@
   var MapleBakeryActivity = {
     id: 'maple-bakery-activity',
     strings: {
-      title: { en: "Maple's Bakery" },
-      instruction: { en: 'Help Maple the mouse divide the cookies fairly!' },
-      qshare: { en: 'Share {d} cookies onto {n} plates. How many on each plate?' },
-      qpack: { en: 'Pack {d} cookies into boxes of {n}. How many boxes?' }
+      title: { en: "Maple's Bakery", de: 'Maples Bäckerei' },
+      instruction: { en: 'Help Maple the mouse divide the cookies fairly!', de: 'Hilf Maple der Maus, die Kekse gerecht zu verteilen!' },
+      qshare: { en: 'Share {d} cookies onto {n} plates. How many on each plate?', de: 'Verteile {d} Kekse auf {n} Teller. Wie viele liegen auf jedem Teller?' },
+      qpack: { en: 'Pack {d} cookies into boxes of {n}. How many boxes?', de: 'Pack {d} Kekse in Schachteln zu je {n}. Wie viele Schachteln brauchst du?' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._choiceOrder = null;
@@ -255,9 +268,7 @@
     _srMirror: function () {
       var r = this._round, wrap = el('div', 'mb-sronly'); wrap.setAttribute('aria-live', 'polite');
       var ch = this._choiceOrder.join(', ');
-      var msg = r.cog === 'pack'
-        ? r.dividend + ' cookies are packed into boxes that each hold ' + r.divisor + '. How many boxes are there? Choices: ' + ch + '.'
-        : r.dividend + ' cookies are shared equally onto ' + r.divisor + ' plates. How many cookies are on each plate? Choices: ' + ch + '.';
+      var msg = txt(r.cog === 'pack' ? 'srPack' : 'srShare', { d: r.dividend, n: r.divisor, choices: ch });
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;
     },

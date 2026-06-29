@@ -13,11 +13,12 @@
 
   var Core = global.IrregularPastCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', STEEL: '#6E8FA6' };
+  var LANG = 'en';
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -35,20 +36,21 @@
     id: 'rusty-yesterday-activity',
 
     strings: {
-      title: { en: "Rusty's Yesterday Machine" },
-      prompt: { en: 'Which word is right for yesterday?' },
-      rustyIntro: { en: 'My machine turns today-verbs into yesterday-verbs!' },
-      todayTpl: { en: 'Today I {present}.' },
-      yTpl: { en: 'Yesterday I …' },
-      theAsk: { en: 'Tap the word that tells about yesterday.' },
-      hintPick: { en: 'Some verbs change in a tricky way — tap your pick!' },
-      hintWrong: { en: "Not quite — yesterday's word doesn't just add -ed." },
-      win: { en: 'Beep boop — that is yesterday’s word! 🤖' }
+      title: { en: "Rusty's Yesterday Machine", de: 'Rustys Gestern-Maschine' },
+      prompt: { en: 'Which word is right for yesterday?', de: 'Welches Wort passt zu gestern?' },
+      rustyIntro: { en: 'My machine turns today-verbs into yesterday-verbs!', de: 'Ich bin Rusty! Meine Maschine macht aus Heute-Wörtern Gestern-Wörter. Probier es aus! 🤖' },
+      todayTpl: { en: 'Today I {present}.', de: 'Heute {present} ich.' },
+      yTpl: { en: 'Yesterday I …', de: 'Gestern … ich?' },
+      theAsk: { en: 'Tap the word that tells about yesterday.', de: 'Tippe das Wort für gestern an.' },
+      hintPick: { en: 'Some verbs change in a tricky way — tap your pick!', de: 'Tippe ein Wort an, das zu gestern passt.' },
+      hintWrong: { en: "Not quite — yesterday's word doesn't just add -ed.", de: 'Fast! Starke Verben hängen kein „-te" an – sie ändern ihren Selbstlaut: gehe → ging.' },
+      win: { en: 'Beep boop — that is yesterday’s word! 🤖', de: 'Stark gemacht! Die Maschine hat es geschafft. 🤖' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -72,10 +74,10 @@
       var say = api.el('div', 'ryd-say'); say.textContent = api.t('rustyIntro'); row.appendChild(say);
       root.appendChild(row);
 
-      var panel = api.el('button', 'ryd-panel'); panel.type = 'button'; panel.setAttribute('aria-label', 'hear the sentence');
+      var panel = api.el('button', 'ryd-panel'); panel.type = 'button'; panel.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : 'hear the sentence');
       var today = api.el('div', 'ryd-today'); today.innerHTML = api.t('todayTpl').replace('{present}', '<b>' + esc(v.present) + '</b>'); panel.appendChild(today);
       var yest = api.el('div', 'ryd-yest'); yest.textContent = api.t('yTpl'); panel.appendChild(yest);
-      panel.addEventListener('click', function () { speak('Today I ' + v.present + '. Yesterday I …'); });
+      panel.addEventListener('click', function () { speak(api.t('todayTpl').replace('{present}', v.present) + ' ' + api.t('yTpl')); });
       root.appendChild(panel);
 
       var ask = api.el('div', 'ryd-ask'); ask.textContent = api.t('theAsk'); root.appendChild(ask);
@@ -90,7 +92,7 @@
       root.appendChild(opts);
 
       wrap.appendChild(root); stage.appendChild(wrap);
-      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak('Today I ' + v.present + '. Yesterday I …'); }, 320); }
+      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(api.t('todayTpl').replace('{present}', v.present) + ' ' + api.t('yTpl')); }, 320); }
     },
 
     _tap: function (id, word) {
@@ -112,7 +114,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/rusty-yesterday-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[rusty-yesterday] manifest load failed:', e.message); });
     },
 

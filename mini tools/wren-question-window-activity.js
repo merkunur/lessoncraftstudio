@@ -14,14 +14,22 @@
 
   var Core = global.QuestionWordCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A' };
+  var LANG = 'en';
+  /* German Fragewörter (0 lines to question-word-core.js). Capitalized — the
+     Fragewort is sentence-initial (Satzanfang → Großschreibung). */
+  var QWORD_DE = { person: 'Wer', thing: 'Was', place: 'Wo', time: 'Wann', reason: 'Warum', manner: 'Wie' };
+  var CHIPS_DE = ['Wer', 'Was', 'Wo', 'Wann', 'Warum', 'Wie'];
+  function wqOracle(round) { return LANG === 'de' ? (QWORD_DE[round.asks] || '') : Core.oracle(round); }
+  function wqChips() { return LANG === 'de' ? CHIPS_DE.slice() : Core.chips(); }
+  function wqIsAnswer(round, str) { return str === wqOracle(round); }
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function sayable(s) { return String(s || '').replace(/___/g, 'blank'); }
+  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : 'blank'); }
 
   function wrenSVG(mood) {
     var happy = mood === 'happy';
@@ -40,18 +48,19 @@
     id: 'wren-question-window-activity',
 
     strings: {
-      title: { en: "Wren's Question Window" },
-      prompt: { en: 'Which question word fits?' },
-      wrenIntro: { en: 'Help me ask it! Which question word fits?' },
-      theAsk: { en: 'Which word fills the blank?' },
-      hintPick: { en: 'Tap the question word that fits!' },
-      hintWrong: { en: "That word doesn't fit — read the question again." },
-      win: { en: 'Yes! That is the right question word. ❓' }
+      title: { en: "Wren's Question Window", de: 'Wrens Fragefenster' },
+      prompt: { en: 'Which question word fits?', de: 'Welches Fragewort passt?' },
+      wrenIntro: { en: 'Help me ask it! Which question word fits?', de: 'Hallo, ich bin Wren! Jede Bestellung beginnt mit einer guten Frage.' },
+      theAsk: { en: 'Which word fills the blank?', de: 'Welches Fragewort passt in die Lücke?' },
+      hintPick: { en: 'Tap the question word that fits!', de: 'Tippe ein Fragewort an: Wer, Was, Wo, Wann, Warum oder Wie.' },
+      hintWrong: { en: "That word doesn't fit — read the question again.", de: 'Fast! Überlege: Fragt der Satz nach einer Person, einem Ding, einem Ort, einer Zeit oder einem Grund? Versuch es noch einmal.' },
+      win: { en: 'Yes! That is the right question word. ❓', de: 'Stark gefragt! Wren reicht dir dein Essen durch das Fenster. 🐦' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._chips = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -61,6 +70,7 @@
 
     setupTask: function (round) {
       this.round = round; this.view = Core.childView(round); this.sel = null; this._spoke = false;
+      if (LANG === 'de') this.view.chips = CHIPS_DE.slice();
       this._chips = shuffle(this.view.chips.slice());
     },
 
@@ -77,7 +87,7 @@
 
       var sent = api.el('div', 'wqw-sent');
       var txt = api.el('span', 'wqw-senttxt'); txt.textContent = v.sentence; sent.appendChild(txt);
-      var sp = api.el('button', 'wqw-spk'); sp.type = 'button'; sp.setAttribute('aria-label', 'hear the question'); sp.textContent = '🔊';
+      var sp = api.el('button', 'wqw-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Frage anhören' : 'hear the question'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(sayable(v.sentence)); }); sent.appendChild(sp);
       root.appendChild(sent);
 
@@ -101,7 +111,7 @@
       this.sel = w; this.api.sound && this.api.sound(540); speak(w); this.render();
     },
 
-    isCorrect: function () { return this.sel != null && Core.isAnswer(this.round, this.sel); },
+    isCorrect: function () { return this.sel != null && wqIsAnswer(this.round, this.sel); },
     reset: function () { this.setupTask(this.round); this.render(); },
 
     nextTask: function (opts) {
@@ -115,7 +125,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/wren-question-window-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[wren-question-window] manifest load failed:', e.message); });
     },
 

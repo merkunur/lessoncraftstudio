@@ -58,6 +58,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'wally-capital-crane.special-names.l-2-2-a': { de: 'Richtig schreiben' }, // Nomen-Großschreibung = orthography/Rechtschreiben, not „Sprache untersuchen"
   'roary-roar-meter.shades.l-2-5-b': { de: 'Wortschatz untersuchen' },    // Bedeutungsnuancen = vocabulary work, not grammar
   'ziggy-odd-one-out.category.l-1-5-a': { de: 'Wortschatz untersuchen' }, // Wortfelder/Kategorien = vocabulary work, not grammar
+  'halfway-harbors.nearest.3-nbt-a-1': { de: 'Zahlen und Operationen' },  // Runden = KMK Leitidee „Zahlen und Operationen", broader than the auto-localized „…Zehnersystem"
 };
 function effStrand(row: ActivityRow, locale: string): string {
   return (STRAND_OVERRIDE[row.id] && STRAND_OVERRIDE[row.id][locale]) || localizeStrand(row.alignment.strand, locale);
@@ -332,7 +333,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.39';
+  const ACTIVITY_WRAPPER_VERSION = '9.40';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

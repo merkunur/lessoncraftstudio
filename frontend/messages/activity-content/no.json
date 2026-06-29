@@ -9,53 +9,181 @@
   "templates": {
     "byStrand": {
       "Counting & Cardinality": {
-        "about": ["Dette er en gratis, interaktiv telleaktivitet for de yngste, med tall opp til {max}. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet – det er ingenting å installere, ingen konto å opprette og ingen forberedelser for læreren.", "Aktiviteten følger LK20 innenfor området telling og tall. Barna får mild og umiddelbar tilbakemelding underveis, slik at de kan fortsette å prøve til svaret føles riktig. Det er ingen tidtaker og ingen poeng – bare rolig og konkret øving."],
-        "practices": ["Telle en gruppe gjenstander én for én og si hvor mange det er til sammen", "Koble et muntlig eller skriftlig tall til riktig mengde", "Kjenne igjen små mengder med et blikk, uten å telle hver gang", "Arbeide nøye og trygt med tall opp til {max}"],
-        "howToPlay": ["Barna ser på bildene på skjermen og leser eller lytter til oppgaven.", "De teller gjenstandene og trykker så for å plassere brikker eller velger tallet som passer.", "En vennlig kontroll viser når svaret er riktig, med en enkel måte å prøve igjen på – feil er en del av læringen her og blir aldri straffet."],
-        "learningGoals": ["Telle en mengde gjenstander nøyaktig og si hvor mange det er.", "Forstå at det siste tallet man teller, forteller hvor stor hele gruppen er – kjernen i LK20.", "Bygge den tidlige tallforståelsen som addisjon, subtraksjon og posisjonssystemet alle vokser ut av."]
+        "about": [
+          "Dette er en gratis, interaktiv telleaktivitet for de yngste, med tall opp til {max}. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet – det er ingenting å installere, ingen konto å opprette og ingen forberedelser for læreren.",
+          "Aktiviteten følger LK20 innenfor området telling og tall. Barna får mild og umiddelbar tilbakemelding underveis, slik at de kan fortsette å prøve til svaret føles riktig. Det er ingen tidtaker og ingen poeng – bare rolig og konkret øving."
+        ],
+        "practices": [
+          "Telle en gruppe gjenstander én for én og si hvor mange det er til sammen",
+          "Koble et muntlig eller skriftlig tall til riktig mengde",
+          "Kjenne igjen små mengder med et blikk, uten å telle hver gang",
+          "Arbeide nøye og trygt med tall opp til {max}"
+        ],
+        "howToPlay": [
+          "Barna ser på bildene på skjermen og leser eller lytter til oppgaven.",
+          "De teller gjenstandene og trykker så for å plassere brikker eller velger tallet som passer.",
+          "En vennlig kontroll viser når svaret er riktig, med en enkel måte å prøve igjen på – feil er en del av læringen her og blir aldri straffet."
+        ],
+        "learningGoals": [
+          "Telle en mengde gjenstander nøyaktig og si hvor mange det er.",
+          "Forstå at det siste tallet man teller, forteller hvor stor hele gruppen er – kjernen i LK20.",
+          "Bygge den tidlige tallforståelsen som addisjon, subtraksjon og posisjonssystemet alle vokser ut av."
+        ]
       },
       "Number & Operations in Base Ten": {
-        "about": ["Denne gratis, interaktive aktiviteten om posisjonssystemet hjelper barna med å se hvordan tallsystemet vårt er bygget opp rundt grupper av ti, med tall opp til {max}. Den fungerer i alle moderne nettlesere – på et nettbrett, en telefon eller den interaktive tavla i klasserommet – uten at noe må lastes ned.", "Den følger LK20 innenfor området tall og titallssystemet. Barna arbeider i sitt eget tempo med varm og umiddelbar tilbakemelding, og det er ingen tidtaker eller poeng som stresser dem."],
-        "practices": ["Se et tosifret tall som en gruppe tiere pluss noen enere", "Bygge tall opp til {max} av tiere og enere", "Lese og skrive tall og koble dem til et bilde av mengden", "Legge merke til mønstrene som gjør større tall lettere å forstå"],
-        "howToPlay": ["Barna leser oppgaven og ser på tierrammene eller klossene på skjermen.", "De fyller, bygger eller velger for å passe med tallet det spørres om.", "En mild kontroll bekrefter et riktig svar og inviterer til et nytt forsøk ved behov – rolig øving uten press hele veien."],
-        "learningGoals": ["Forstå et tall mellom ti og tjue eller et tosifret tall som noen tiere og noen enere.", "Sette sammen og lese tall opp til {max} med trygghet – hjertet i LK20.", "Legge grunnlaget i posisjonssystemet som addisjon og subtraksjon med flere sifre bygger på."]
+        "about": [
+          "Denne gratis, interaktive aktiviteten om posisjonssystemet hjelper barna med å se hvordan tallsystemet vårt er bygget opp rundt grupper av ti, med tall opp til {max}. Den fungerer i alle moderne nettlesere – på et nettbrett, en telefon eller den interaktive tavla i klasserommet – uten at noe må lastes ned.",
+          "Den følger LK20 innenfor området tall og titallssystemet. Barna arbeider i sitt eget tempo med varm og umiddelbar tilbakemelding, og det er ingen tidtaker eller poeng som stresser dem."
+        ],
+        "practices": [
+          "Se et tosifret tall som en gruppe tiere pluss noen enere",
+          "Bygge tall opp til {max} av tiere og enere",
+          "Lese og skrive tall og koble dem til et bilde av mengden",
+          "Legge merke til mønstrene som gjør større tall lettere å forstå"
+        ],
+        "howToPlay": [
+          "Barna leser oppgaven og ser på tierrammene eller klossene på skjermen.",
+          "De fyller, bygger eller velger for å passe med tallet det spørres om.",
+          "En mild kontroll bekrefter et riktig svar og inviterer til et nytt forsøk ved behov – rolig øving uten press hele veien."
+        ],
+        "learningGoals": [
+          "Forstå et tall mellom ti og tjue eller et tosifret tall som noen tiere og noen enere.",
+          "Sette sammen og lese tall opp til {max} med trygghet – hjertet i LK20.",
+          "Legge grunnlaget i posisjonssystemet som addisjon og subtraksjon med flere sifre bygger på."
+        ]
       },
       "Operations & Algebraic Thinking": {
-        "about": ["Denne gratis, interaktive aktiviteten gir barna konkret øving med de første idéene om addisjon og subtraksjon, med mengder opp til {max}. Den kjører rett i nettleseren på hvilken som helst enhet, uten noe å installere og uten innlogging.", "Den følger LK20 innenfor området regneoperasjoner og algebraisk tenkning. Tilbakemeldingen er umiddelbar og oppmuntrende, og det er ingen tidtaker eller poeng – barna kan tenke gjennom ting i sitt eget tempo."],
-        "practices": ["Sette grupper sammen og dele dem opp for å finne ut hvor mange det er", "Se ulike måter å lage det samme tallet på", "Løse enkle tekstoppgavesituasjoner med bilder og brikker", "Resonnere om mengder opp til {max}"],
-        "howToPlay": ["Barna leser oppgaven og ser på gruppene av gjenstander på skjermen.", "De setter sammen, deler opp eller velger for å svare på spørsmålet.", "En vennlig kontroll viser når de har rett, med en avslappet mulighet til å prøve igjen."],
-        "learningGoals": ["Addere og subtrahere innenfor små tall ved hjelp av gjenstander og bilder.", "Forstå addisjon som å sette sammen og subtraksjon som å dele opp – idéen bak LK20.", "Utvikle den fleksible tallforståelsen som flytende hoderegning bygger på."]
+        "about": [
+          "Denne gratis, interaktive aktiviteten gir barna konkret øving med de første idéene om addisjon og subtraksjon, med mengder opp til {max}. Den kjører rett i nettleseren på hvilken som helst enhet, uten noe å installere og uten innlogging.",
+          "Den følger LK20 innenfor området regneoperasjoner og algebraisk tenkning. Tilbakemeldingen er umiddelbar og oppmuntrende, og det er ingen tidtaker eller poeng – barna kan tenke gjennom ting i sitt eget tempo."
+        ],
+        "practices": [
+          "Sette grupper sammen og dele dem opp for å finne ut hvor mange det er",
+          "Se ulike måter å lage det samme tallet på",
+          "Løse enkle tekstoppgavesituasjoner med bilder og brikker",
+          "Resonnere om mengder opp til {max}"
+        ],
+        "howToPlay": [
+          "Barna leser oppgaven og ser på gruppene av gjenstander på skjermen.",
+          "De setter sammen, deler opp eller velger for å svare på spørsmålet.",
+          "En vennlig kontroll viser når de har rett, med en avslappet mulighet til å prøve igjen."
+        ],
+        "learningGoals": [
+          "Addere og subtrahere innenfor små tall ved hjelp av gjenstander og bilder.",
+          "Forstå addisjon som å sette sammen og subtraksjon som å dele opp – idéen bak LK20.",
+          "Utvikle den fleksible tallforståelsen som flytende hoderegning bygger på."
+        ]
       },
       "Geometry": {
-        "about": ["Denne gratis, interaktive aktiviteten med former hjelper små barn med å legge merke til, navngi og sammenligne formene rundt seg. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto.", "Den følger LK20 innenfor området geometri. Barna utforsker i sitt eget tempo med mild og umiddelbar tilbakemelding – ingen tidtaker, ingen poeng, bare lekende øving."],
-        "practices": ["Kjenne igjen og navngi todimensjonale og tredimensjonale former fra hverdagen", "Legge merke til hvor mange sider og hjørner en form har", "Skille flate former fra romlige figurer", "Beskrive og sammenligne former med egne ord"],
-        "howToPlay": ["Barna ser på formene på skjermen og leser eller lytter til oppgaven.", "De trykker på formen som passer, eller sorterer formene i riktig gruppe.", "En varm kontroll bekrefter et riktig valg og tilbyr et enkelt nytt forsøk ved behov."],
-        "learningGoals": ["Navngi og beskrive vanlige former med voksende trygghet.", "Skille todimensjonale (flate) former fra tredimensjonale (romlige) figurer – fokuset i LK20.", "Bygge det romlige ordforrådet som senere geometri og måling bygger på."]
+        "about": [
+          "Denne gratis, interaktive aktiviteten med former hjelper små barn med å legge merke til, navngi og sammenligne formene rundt seg. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto.",
+          "Den følger LK20 innenfor området geometri. Barna utforsker i sitt eget tempo med mild og umiddelbar tilbakemelding – ingen tidtaker, ingen poeng, bare lekende øving."
+        ],
+        "practices": [
+          "Kjenne igjen og navngi todimensjonale og tredimensjonale former fra hverdagen",
+          "Legge merke til hvor mange sider og hjørner en form har",
+          "Skille flate former fra romlige figurer",
+          "Beskrive og sammenligne former med egne ord"
+        ],
+        "howToPlay": [
+          "Barna ser på formene på skjermen og leser eller lytter til oppgaven.",
+          "De trykker på formen som passer, eller sorterer formene i riktig gruppe.",
+          "En varm kontroll bekrefter et riktig valg og tilbyr et enkelt nytt forsøk ved behov."
+        ],
+        "learningGoals": [
+          "Navngi og beskrive vanlige former med voksende trygghet.",
+          "Skille todimensjonale (flate) former fra tredimensjonale (romlige) figurer – fokuset i LK20.",
+          "Bygge det romlige ordforrådet som senere geometri og måling bygger på."
+        ]
       },
       "Measurement & Data": {
-        "about": ["Denne gratis, interaktive måleaktiviteten hjelper små barn med å sammenligne ting etter størrelse – høyere, kortere og lengre – helt uten telling. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto.", "Den følger LK20 innenfor området {strand}. Barna sammenligner i sitt eget tempo med mild og umiddelbar tilbakemelding – ingen tidtaker, ingen poeng, bare lekende øving i å se nøye på hvordan ting måler seg mot hverandre."],
-        "practices": ["Sammenligne to ting direkte etter en målbar egenskap som lengde eller høyde", "Avgjøre hvilken ting som er høyere, kortere eller lengre", "Beskrive forskjellen mellom to størrelser med egne ord", "Se nøye etter og resonnere om størrelse i stedet for å telle"],
-        "howToPlay": ["Barna ser to bilder av den samme tingen vist i ulik størrelse, og leser eller lytter til oppgaven.", "De trykker på den som er høyere, kortere eller lengre, alt etter hva oppgaven spør om.", "En varm kontroll bekrefter et riktig valg og tilbyr et enkelt nytt forsøk ved behov."],
-        "learningGoals": ["Sammenligne to ting direkte etter en målbar egenskap – fokuset i LK20.", "Bruke ordene høyere, kortere og lengre for å beskrive og sammenligne størrelser.", "Bygge det tidlige målespråket som senere arbeid med lengde, vekt og data bygger på."]
+        "about": [
+          "Denne gratis, interaktive måleaktiviteten hjelper små barn med å sammenligne ting etter størrelse – høyere, kortere og lengre – helt uten telling. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto.",
+          "Den følger LK20 innenfor området {strand}. Barna sammenligner i sitt eget tempo med mild og umiddelbar tilbakemelding – ingen tidtaker, ingen poeng, bare lekende øving i å se nøye på hvordan ting måler seg mot hverandre."
+        ],
+        "practices": [
+          "Sammenligne to ting direkte etter en målbar egenskap som lengde eller høyde",
+          "Avgjøre hvilken ting som er høyere, kortere eller lengre",
+          "Beskrive forskjellen mellom to størrelser med egne ord",
+          "Se nøye etter og resonnere om størrelse i stedet for å telle"
+        ],
+        "howToPlay": [
+          "Barna ser to bilder av den samme tingen vist i ulik størrelse, og leser eller lytter til oppgaven.",
+          "De trykker på den som er høyere, kortere eller lengre, alt etter hva oppgaven spør om.",
+          "En varm kontroll bekrefter et riktig valg og tilbyr et enkelt nytt forsøk ved behov."
+        ],
+        "learningGoals": [
+          "Sammenligne to ting direkte etter en målbar egenskap – fokuset i LK20.",
+          "Bruke ordene høyere, kortere og lengre for å beskrive og sammenligne størrelser.",
+          "Bygge det tidlige målespråket som senere arbeid med lengde, vekt og data bygger på."
+        ]
       },
       "Reading: Foundational Skills": {
-        "about": ["Denne gratis, interaktive leseaktiviteten gir barna konkret øving i å lydere og bygge ord. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto å opprette.", "Den følger LK20 innenfor området lesing: grunnleggende ferdigheter. Hvert ord kontrolleres for en riktig, barnevennlig oppdeling, og tilbakemeldingen er mild og umiddelbar – det er ingen tidtaker og ingen poeng."],
-        "practices": ["Dele ord opp i lyder eller stavelser og sette dem sammen igjen", "Koble bokstaver og bokstavgrupper til lydene de lager", "Bygge korte, lydrette ord steg for steg", "Høre og si hver del av et ord i rekkefølge"],
-        "howToPlay": ["Barna ser på bildet eller hører ordet og leser deretter oppgaven.", "De trykker på lydene eller stavelsene i rekkefølge for å bygge ordet.", "En vennlig kontroll leser det ferdige ordet høyt og inviterer til et nytt forsøk ved behov."],
-        "learningGoals": ["Smelte sammen lyder og stavelser for å lese og bygge enkle ord.", "Koble talte lyder til skrevne bokstaver – kjernen i LK20.", "Utvikle avkodingsferdighetene som trygg, selvstendig lesing bygger på."]
+        "about": [
+          "Denne gratis, interaktive leseaktiviteten gir barna konkret øving i å lydere og bygge ord. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto å opprette.",
+          "Den følger LK20 innenfor området lesing: grunnleggende ferdigheter. Hvert ord kontrolleres for en riktig, barnevennlig oppdeling, og tilbakemeldingen er mild og umiddelbar – det er ingen tidtaker og ingen poeng."
+        ],
+        "practices": [
+          "Dele ord opp i lyder eller stavelser og sette dem sammen igjen",
+          "Koble bokstaver og bokstavgrupper til lydene de lager",
+          "Bygge korte, lydrette ord steg for steg",
+          "Høre og si hver del av et ord i rekkefølge"
+        ],
+        "howToPlay": [
+          "Barna ser på bildet eller hører ordet og leser deretter oppgaven.",
+          "De trykker på lydene eller stavelsene i rekkefølge for å bygge ordet.",
+          "En vennlig kontroll leser det ferdige ordet høyt og inviterer til et nytt forsøk ved behov."
+        ],
+        "learningGoals": [
+          "Smelte sammen lyder og stavelser for å lese og bygge enkle ord.",
+          "Koble talte lyder til skrevne bokstaver – kjernen i LK20.",
+          "Utvikle avkodingsferdighetene som trygg, selvstendig lesing bygger på."
+        ]
       },
       "Phonological Awareness": {
-        "about": ["Denne gratis, interaktive lytteaktiviteten hjelper barna med å høre og leke med lydene inni talte ord. Den kjører rett i nettleseren på hvilken som helst enhet, uten noe å installere og uten krav om innlogging.", "Den følger LK20 innenfor området språklig bevissthet. Tilbakemeldingen er varm og umiddelbar, og det er ingen tidtaker eller poeng som stresser et lite barn."],
-        "practices": ["Høre de enkelte lydene og stavelsene i talte ord", "Smelte lyder sammen til et ord", "Dele et ord opp i lydene sine", "Lytte etter rim og begynnelseslyder"],
-        "howToPlay": ["Barna lytter til eller ser på ordet og leser deretter oppgaven.", "De trykker for å velge, smelte sammen eller dele opp lydene det spørres om.", "En mild kontroll bekrefter et riktig svar med en enkel mulighet til å prøve igjen."],
-        "learningGoals": ["Høre, smelte sammen og skille lydene i talte ord.", "Utvikle lytteferdighetene som beskrives i LK20.", "Bygge den lydbevisstheten som vellykket lesing og staving bygger på."]
+        "about": [
+          "Denne gratis, interaktive lytteaktiviteten hjelper barna med å høre og leke med lydene inni talte ord. Den kjører rett i nettleseren på hvilken som helst enhet, uten noe å installere og uten krav om innlogging.",
+          "Den følger LK20 innenfor området språklig bevissthet. Tilbakemeldingen er varm og umiddelbar, og det er ingen tidtaker eller poeng som stresser et lite barn."
+        ],
+        "practices": [
+          "Høre de enkelte lydene og stavelsene i talte ord",
+          "Smelte lyder sammen til et ord",
+          "Dele et ord opp i lydene sine",
+          "Lytte etter rim og begynnelseslyder"
+        ],
+        "howToPlay": [
+          "Barna lytter til eller ser på ordet og leser deretter oppgaven.",
+          "De trykker for å velge, smelte sammen eller dele opp lydene det spørres om.",
+          "En mild kontroll bekrefter et riktig svar med en enkel mulighet til å prøve igjen."
+        ],
+        "learningGoals": [
+          "Høre, smelte sammen og skille lydene i talte ord.",
+          "Utvikle lytteferdighetene som beskrives i LK20.",
+          "Bygge den lydbevisstheten som vellykket lesing og staving bygger på."
+        ]
       }
     },
     "generic": {
-      "about": ["Dette er en gratis, interaktiv læringsaktivitet for små barn som kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet. Det er ingenting å installere, ingen konto å opprette og ingen forberedelser for læreren.", "Den følger LK20 innenfor området {strand}. Barna arbeider i sitt eget tempo med mild og umiddelbar tilbakemelding, og det er ingen tidtaker og ingen poeng – bare rolig og konkret øving."],
-      "practices": ["Øve på ferdigheten {strand} som står i sentrum for denne aktiviteten", "Koble bilder, tall eller ord til idéen som øves", "Prøve, kontrollere og prøve igjen uten noe press", "Bygge selvtillit ett lite steg om gangen"],
-      "howToPlay": ["Barna leser eller lytter til oppgaven og ser på det som vises på skjermen.", "De trykker for å svare eller bygge svaret sitt.", "En vennlig kontroll viser når de har rett, med en enkel måte å prøve igjen på."],
-      "learningGoals": ["Øve på og styrke ferdigheten {strand} bak LK20.", "Bli trygg på å bruke idéen på en lekende og avslappet måte.", "Bygge et grunnlag som senere læring kan vokse ut av."]
+      "about": [
+        "Dette er en gratis, interaktiv læringsaktivitet for små barn som kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet. Det er ingenting å installere, ingen konto å opprette og ingen forberedelser for læreren.",
+        "Den følger LK20 innenfor området {strand}. Barna arbeider i sitt eget tempo med mild og umiddelbar tilbakemelding, og det er ingen tidtaker og ingen poeng – bare rolig og konkret øving."
+      ],
+      "practices": [
+        "Øve på ferdigheten {strand} som står i sentrum for denne aktiviteten",
+        "Koble bilder, tall eller ord til idéen som øves",
+        "Prøve, kontrollere og prøve igjen uten noe press",
+        "Bygge selvtillit ett lite steg om gangen"
+      ],
+      "howToPlay": [
+        "Barna leser eller lytter til oppgaven og ser på det som vises på skjermen.",
+        "De trykker for å svare eller bygge svaret sitt.",
+        "En vennlig kontroll viser når de har rett, med en enkel måte å prøve igjen på."
+      ],
+      "learningGoals": [
+        "Øve på og styrke ferdigheten {strand} bak LK20.",
+        "Bli trygg på å bruke idéen på en lekende og avslappet måte.",
+        "Bygge et grunnlag som senere læring kan vokse ut av."
+      ]
     },
     "whatsInsideRange": "Tall fra {min} til {max}",
     "whatsInsideTheme": "Bildebrikker med {theme} som barna kan kjenne igjen",
@@ -90,7 +218,7 @@
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
         "Barn legger merke til rettferdighet lenge før de kan tallene som hører til. I denne aktiviteten ser barnet fire former på skjermen — sirkler, kvadrater og rektangler — og skal trykke på den ene som er delt i like store deler. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto.",
-        "Den store idéen er at delene må være rettferdige: like store. De andre formene er delt i deler som ikke er like store, delt i feil antall deler, eller ikke delt i det hele tatt. Barnet deler ikke formen selv, men kjenner igjen hvilken form som allerede er delt i like store deler.",
+        "Den store ideen er at delene må være rettferdige: like store. De andre formene er delt i deler som ikke er like store, delt i feil antall deler, eller ikke delt i det hele tatt. Barnet deler ikke formen selv, men kjenner igjen hvilken form som allerede er delt i like store deler.",
         "Aktiviteten følger LK20 innenfor området geometri — å kjenne igjen former som er delt i to og fire like store deler, og å navngi dem som halvdeler og fjerdedeler. Barna ser og tenker i sitt eget tempo med mild og umiddelbar tilbakemelding — ingen tidtaker, ingen poeng, bare lekende øving."
       ],
       "practices": [
@@ -110,16 +238,126 @@
         "Bygge det rettferdige grunnlaget med like store deler som senere arbeid med brøk vokser ut av."
       ]
     },
-    "ten-frame.count-to-10.make-n.animals": ["I denne aktiviteten bygger barnet ditt tallene fra 0 til 10 på en tierramme, og legger ett dyr om gangen i rutene. Slik blir hvert tall noe barnet selv lager og ser, steg for steg.", "Tierrammen viser tydelig hvor langt det er igjen til ti. Når en rute står tom, ser barnet for eksempel at 7 bare mangler tre på å bli en full tier, og det knytter tellingen sammen med forståelsen av hvor mange det faktisk er (K.CC.B.4).", "Det er ingen tidtaker og ingen poeng, så barnet kan telle i sitt eget rolige tempo. Roen gir rom for å undre seg, prøve på nytt og kjenne mestring."],
-    "ten-frame.count-to-20.make-n.fruits": ["Her teller barnet ditt fra 0 til 20 på en dobbel tierramme, og fyller rutene med frukt ett stykke om gangen. Den doble rammen gjør det lett å se tjue som én full tier og litt til.", "Når den første tierrammen er full, begynner barnet på den neste. På den måten vokser forståelsen av at tjue er ti og ti, en tidlig og viktig smakebit på posisjonssystemet (K.CC.B.4).", "Det er ingen tidtaker og ingen poeng, så barnet kan utforske de større tallene uten stress. I rolig tempo blir også tallene opp til 20 trygge og forståelige."],
-    "ten-frame.how-many.0-10.animals": ["I denne aktiviteten ser barnet ditt på en tierramme med dyr og svarer på hvor mange det er, med tall fra 0 til 10. Den faste strukturen i rammen hjelper barnet å få oversikt raskt.", "Fordi rutene alltid er ordnet likt, lærer barnet å oppfatte antallet med en gang, uten å telle hvert dyr for seg. Denne evnen til å se antall i et øyeblikk er en viktig grunnstein, og den øves her gjennom K.CC.B.5.", "Det er ingen tidtaker og ingen poeng, så barnet kan se og tenke i fred og ro. Da blir det lettere å stole på sitt eget blikk og svare med trygghet."],
-    "ten-frame.write-numeral.0-20.fruits": ["Her teller barnet ditt frukten på en dobbel tierramme og skriver deretter tallet som passer, fra 0 til 20. Slik kobles mengden barnet ser, sammen med det skrevne tallet.", "Tierrammen gjør mengden tydelig og oversiktlig, og når barnet skriver tallet, knyttes antallet til selve tallsymbolet. Nettopp denne koblingen er kjernen i K.CC.A.3.", "Det er ingen tidtaker og ingen poeng, så barnet kan telle og skrive i sitt eget tempo. Roen gir rom for virkelig å forstå hva hvert tall betyr."],
-    "ten-frame.teen-numbers.make-n": ["Her bygger barnet ditt tallene fra 11 til 19 på en dobbel tierramme, som én full tier og noen enere til. Ved å sette sammen tallet selv ser barnet tydelig hvordan det er bygd opp.", "Når den første tierrammen er full, blir det klart at for eksempel 14 er ti og fire. Denne forståelsen er et sterkt grunnlag for posisjonssystemet og følger LK20.", "Det er ingen tidtaker og ingen poeng, så barnet kan utforske tallene mellom 10 og 20 i ro og mak. Det gir tid til å oppdage at hvert av disse tallene er en tier og litt mer."],
+    "ten-frame.count-to-10.make-n.animals": {
+      "about": [
+        "«Lag 3», «Lag 7», «Lag 10» — barnet bygger tallet ved å trykke på rutene i en tierramme for å legge inn akkurat så mange dyrebrikker, og trykker så på Sjekk. Det er en gratis, interaktiv telleaktivitet for skolestart og 1. trinn for tallene 0 til 10, som kjøres i nettleseren uten noe å installere og uten konto.",
+        "Tierramma er det som gjør dette til mer enn pugg. De to radene med fem gir hvert tall en form barnet kan kjenne igjen — fire fyller mesteparten av den øverste rada, ti fyller hele ramma — så telling begynner å henge sammen med hvor mye et tall egentlig er. Barnet bestemmer selv hvor mange dyr det skal plassere og kan legge til eller ta bort noen før det sjekker, og det holder fokuset på én-til-én-telling i stedet for gjetting.",
+        "Aktiviteten følger LK20 innenfor telling — å forstå sammenhengen mellom tall og mengder og knytte telling til kardinalitet. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Telle ut akkurat så mange dyr som oppgaven sier.",
+        "Plassere én brikke per rute med nøyaktig én-til-én-telling.",
+        "Se hvert tall fra 0 til 10 ta form på tierramma med to rader.",
+        "Knytte det talte eller skrevne tallet til en virkelig mengde."
+      ],
+      "howToPlay": [
+        "Les oppgaven for å se hvilket tall du skal lage, som Lag 7.",
+        "Trykk på rutene i tierramma for å plassere akkurat så mange dyrebrikker, og trykk så på Sjekk.",
+        "Ikke helt riktig? Legg til eller ta bort brikker og prøv igjen — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan lage et hvilket som helst tall fra 0 til 10 med brikker på en tierramme.",
+        "Barnet kan knytte telling til hvor mange, slik at det siste tallet som telles, forteller mengden.",
+        "Barnet bygger den tierramme-forståelsen som tidlig addisjon og plassverdi bygger på."
+      ]
+    },
+    "ten-frame.count-to-20.make-n.fruits": {
+      "about": [
+        "Oppgaven nevner et tall som skal lages, og barnet trykker på rutene i en dobbel tierramme for å fylle inn akkurat så mange frukter fordelt over de to rammene, og trykker så på Sjekk. Når man jobber helt opp til 20, blir det en full tier pluss litt til. Denne gratis, interaktive telleaktiviteten for barnehage og skolestart spilles i nettleseren — uten innlogging.",
+        "Den doble tierrammen lærer barnet det viktigste om tall i tjueårsalderen: en full tier pluss litt til. For å lage 14 fyller barnet den første rammen til ti og legger så fire til på den andre — så strukturen i tallet, ti og fire, er rett der å se. Å jobbe forbi ti er et ekte steg utover det å telle til ti, og de to rammene gir barnet en måte å holde tellingen ryddig på i stedet for å miste oversikten.",
+        "Aktiviteten følger LK20 innenfor telling og tallforståelse — å koble telling til antall og utvide tallforståelsen forbi ti. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Telle ut akkurat så mange fruktbrikker som oppgaven nevner, opp til 20.",
+        "Fylle én hel tierramme og telle videre inn i den andre.",
+        "Se tall i tjueårsalderen som en tier og litt til.",
+        "Holde en nøye én-til-én-telling forbi ti."
+      ],
+      "howToPlay": [
+        "Les oppgaven for å se hvilket tall du skal lage, opp til 20.",
+        "Trykk på rutene i den doble tierrammen for å plassere akkurat så mange fruktbrikker, og trykk så på Sjekk.",
+        "Ikke helt riktig? Legg til eller ta bort brikker og prøv igjen — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan lage hvilket som helst tall fra 0 til 20 med brikker på en dobbel tierramme.",
+        "Barnet ser tall forbi ti som en full tier og noen enere til.",
+        "Barnet bygger telle-videre- og plassverdigrunnlaget for matematikken på 1. trinn."
+      ]
+    },
+    "ten-frame.how-many.0-10.animals": {
+      "about": [
+        "En tierramme viser en gruppe dyrebrikker og stiller ett enkelt spørsmål: hvor mange? Barnet teller dyrene — alt fra 0 til 10 — og skriver tallet som passer på tastaturet. Dette er en gratis og interaktiv telleaktivitet for skolestart som spilles rett i nettleseren, uten nedlasting og uten konto.",
+        "Dette er svarsiden av telling. I stedet for å bygge et tall leser barnet en mengde som allerede er der, og navngir den med et skrevet tall. Fordi brikkene ligger i de to radene i en tierramme, kan barnet etter hvert kjenne igjen mengder med et blikk — en full øverste rad er fem, en full ramme er ti — og kontrollere ved å telle én etter én. Det steget fra telling til ett enkelt skrevet tall er selve kjernen i tallforståelse.",
+        "Aktiviteten følger LK20 innenfor tall og telling — å telle for å svare på «hvor mange?» om gjenstander som ligger ordnet i en ramme. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for skolestart og 1. trinn."
+      ],
+      "practices": [
+        "Telle en gruppe dyr som vises på en tierramme.",
+        "Svare på «hvor mange?» med det riktige skrevne tallet.",
+        "Kjenne igjen fem og ti ut fra radene i rammen.",
+        "Koble en telt mengde til tallet sitt, fra 0 til 10."
+      ],
+      "howToPlay": [
+        "Se på tierrammen og tell hvor mange dyr du ser.",
+        "Skriv det tallet på tastaturet og trykk på Sjekk.",
+        "Ikke helt riktig? Tell igjen og prøv en gang til — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan telle for å svare på hvor mange om opptil ti gjenstander.",
+        "Barnet kan navngi en mengde med tallet som passer.",
+        "Barnet bygger tallforståelsen som det å lese og skrive tall hviler på."
+      ]
+    },
+    "ten-frame.write-numeral.0-20.fruits": {
+      "about": [
+        "En dobbel tierramme viser en gruppe fruktbrikker, og barnet skriver tallet for hvor mange — og teller alt fra 0 til 20 og skriver tallet på tastaturet. Fordi en full ramme er ti, kan barnet telle videre for tallene fra elleve og opp til tjue. Denne gratis, interaktive telleaktiviteten for skolestart kjører i nettleseren, uten noe å installere og uten konto.",
+        "Denne aktiviteten kobler telling til skriving. Barnet leser et antall som allerede ligger fordelt over to tierrammer, og navngir det med et skrevet tall, også de vanskeligere tosifrede tallene over ti. Fordi en full ramme er ti, kan barnet telle videre fra ti for tallene mellom elleve og tjue i stedet for å starte på én hver gang, og deretter skrive ned det det telte som et tall — forbindelsen mellom antall og symbol.",
+        "Aktiviteten er tilpasset LK20 — å skrive tall fra 0 til 20 og representere et antall gjenstander med et skrevet tall. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Telle en gruppe frukt vist på en dobbel tierramme.",
+        "Skrive tallet 0 til 20 for antallet man telte.",
+        "Telle videre fra en full tier for tallene mellom elleve og tjue.",
+        "Koble et antall til det skrevne tallsymbolet."
+      ],
+      "howToPlay": [
+        "Se på den doble tierrammen og tell hvor mange frukter du ser.",
+        "Skriv det tallet på tastaturet, også tall over ti, og trykk på Sjekk.",
+        "Ikke helt riktig? Tell igjen og prøv én gang til — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan representere et antall på opptil 20 gjenstander med et skrevet tall.",
+        "Barnet kan skrive tallene 0 til 20, også tosifrede tall.",
+        "Barnet bygger ferdigheten å lese og skrive tall, som all senere matematisk notasjon er avhengig av."
+      ]
+    },
+    "ten-frame.teen-numbers.make-n": {
+      "about": [
+        "Oppgaven sier et tall mellom 11 og 19, som 16, og barnet fyller den første tierrammen til en hel tier og legger så de ekstra enerne på en andre ramme — slik at 16 viser seg som ti og seks til. Å bygge det på denne måten gjør den skjulte strukturen synlig. Det er en gratis, interaktiv plassverdiaktivitet for skolestart og 1. trinn som kjører i nettleseren uten konto.",
+        "Tallene mellom 11 og 19 er lure fordi navnene skjuler strukturen — «seksten» sier ikke «ti og seks». Når hvert tall bygges på to rammer, blir den skjulte strukturen synlig: det er alltid én hel tier og så noen enere. Barnet setter sammen tallet av en tier og noen til i stedet for å telle hele veien opp ett og ett, og det er nettopp ideen som plassverdi bygger på.",
+        "Aktiviteten følger LK20 innenfor tall — å sette sammen og dele opp tall fra 11 til 19 i en tier og noen enere. Den passer for skolestart og 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Fylle én hel tierramme for å lage en tier.",
+        "Legge de ekstra enerne på den andre rammen.",
+        "Bygge hvert tall fra 11 til 19 som en tier og noen til.",
+        "Se den skjulte tieren inni tall som 14 og 18."
+      ],
+      "howToPlay": [
+        "Les oppgaven for å se hvilket tall mellom 11 og 19 du skal lage.",
+        "Fyll den første tierrammen til ti, legg de ekstra enerne på den andre rammen, og trykk på Sjekk.",
+        "Ikke helt riktig? Juster brikkene og prøv igjen — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan sette sammen tall fra 11 til 19 som en tier og noen enere.",
+        "Barnet forstår at hvert tall mellom 11 og 19 inneholder én hel tier.",
+        "Barnet bygger plassverdigrunnlaget for å legge sammen og gruppere på 1. trinn."
+      ]
+    },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "Barn lærer å ordne verden rundt seg ved å samle ting i grupper. På skjermen dukker det opp en blandet haug med vennlige bilder — dyr, frukter, noen ganger kjøretøy, alt sammen blandet. Oppgaven nevner én gruppe, og barnet bestemmer hvor mange som hører med, og trykker så på tallet.",
-        "Haugen er blandet med vilje. For å svare på \"hvor mange dyr?\" kan barnet ikke bare telle alt sammen. Det må se nøye på hvert bilde, bestemme hva det er, legge til side det som ikke hører med, og bare telle den gruppen som ble nevnt.",
-        "Aktiviteten følger LK20 innenfor området {strand}. Barna sorterer og teller i sitt eget tempo med rolige tilbakemeldinger med en gang — ingen tidtaking, ingen poeng, bare stille og rolig sortering og telling."
+        "Barn lærer å ordne verden rundt seg ved å samle ting i grupper. På skjermen dukker det opp en blandet haug med vennlige bilder — dyr, frukter, noen ganger kjøretøy, alt sammen blandet. Oppgaven nevner én gruppe, barnet bestemmer hvor mange som hører med, og trykker så på tallet. Det er en gratis, interaktiv telleaktivitet for barnehage og skolestart som kjører rett i nettleseren, uten konto.",
+        "Haugen er blandet med vilje. For å svare på «hvor mange dyr?» kan barnet ikke bare telle alt sammen. Det må se nøye på hvert bilde, bestemme hva det er, legge til side det som ikke hører med, og bare telle den gruppen som ble nevnt.",
+        "Aktiviteten følger LK20 innenfor området statistikk og data — å sortere ting i grupper og telle hvor mange som hører til hver gruppe. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
       ],
       "practices": [
         "Kjenne igjen hvilken gruppe hvert bilde hører til.",
@@ -135,7 +373,1136 @@
       "learningGoals": [
         "Sortere bilder i grupper og telle hver gruppe for seg.",
         "Skille tallet for en nevnt gruppe fra antallet i hele haugen.",
-        "Bygge sorteringsferdigheter for senere arbeid innenfor området {strand}."
+        "Bygge sorteringsferdigheter for senere arbeid med data og statistikk."
+      ]
+    },
+    "array.build-array.2-oa-c-4": {
+      "about": [
+        "Her bygger barnet et rektangulært rutenett av like rader og finner ut hvor mange ruter det er til sammen ved hjelp av gjentatt addisjon. Rundene starter med et lite rutenett på 2 ganger 3 og vokser videre til 3 ganger 4, 2 ganger 5, 4 ganger 4 og 4 ganger 3, så barnet fyller ryddige rutenett av ulike størrelser. Alt skjer gratis i nettleseren — ingen nedlasting, ingen konto.",
+        "Den store ideen er at et rektangel av like rader kan legges sammen på den raske måten. Mens barnet trykker for å fylle hver rad, bygges det en stripe med gjentatt addisjon under — for eksempel 4 + 4 + 4 — slik at barnet ser fire talt tre ganger i stedet for å telle hver eneste rute for seg. Deretter skriver barnet inn summen på tastaturet. Å se radene stilt opp som like ledd er nettopp broen fra addisjon over til multiplikasjon.",
+        "Aktiviteten følger LK20 innenfor tall og algebra — å bruke addisjon til å finne det totale antallet i et rektangulært rutenett av rader og kolonner, og å skrive et regnestykke som uttrykker summen som et tillegg av like ledd. Den passer for 2. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Fylle et rektangulært rutenett som like rader og kolonner.",
+        "Lese rutenettet som gjentatt addisjon, for eksempel 4 + 4 + 4 = 12.",
+        "Telle i like grupper i stedet for én og én for å finne summen.",
+        "Skrive inn summen som stemmer med radene barnet nettopp bygde."
+      ],
+      "howToPlay": [
+        "Se på rutenettet som skal bygges — for eksempel 3 rader med 4 — og trykk for å fylle hver rad.",
+        "Følg med når stripen legger sammen de like radene, og skriv inn hvor mange det er til sammen på tastaturet.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan finne summen i et rektangulært rutenett ved hjelp av gjentatt addisjon.",
+        "Barnet ser like rader som like ledd og kan skrive den summen som passer.",
+        "Barnet bygger forståelsen av like grupper som multiplikasjon senere vokser ut av."
+      ]
+    },
+    "choice-board.which-more.k-c-c-6": {
+      "about": [
+        "To grupper med vennlige bilder vises ved siden av hverandre — katter, hunder, ender, fisker, epler, bananer, appelsiner eller jordbær — og barnet trykker på gruppen som har flest. Antallet går opp til åtte, og barnet sammenligner ved å se og telle, ikke ved å lese tall. Dette er en gratis telleaktivitet for barnehagen og skolestart som kjører i nettleseren på telefon, nettbrett og klasseromsdatamaskiner, helt uten konto.",
+        "Den store ideen er at «flest» handler om hvor mange, ikke om hvor stor plass en gruppe tar. Fordi de to gruppene kan ligge tett — som sju mot seks, eller seks mot fem — kan ikke barnet vinne ved å skotte på den største klumpen; de må faktisk telle hver gruppe og sammenligne antallet. Det slår det vanlige øyebedraget der noen få spredte bilder ser ut som flere enn en liten tett samling.",
+        "Aktiviteten er tilpasset LK20 innenfor tall og telling — å avgjøre om antallet i én gruppe er større enn, mindre enn eller likt antallet i en annen. Den passer i barnehagen og ved skolestart. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Telle hvor mange det er i hver av de to gruppene.",
+        "Sammenligne de to antallene for å avgjøre hvilken gruppe som har flest.",
+        "Se bort fra om gruppen er spredt eller tett, og heller telle.",
+        "Knytte det største antallet til ideen om «flest»."
+      ],
+      "howToPlay": [
+        "Se på de to gruppene med bilder og tell hvor mange det er i hver.",
+        "Trykk på gruppen som har flest, og sjekk deretter valget ditt.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan avgjøre hvilken av to grupper som har flest ved å telle.",
+        "Barnet forstår at det største antallet betyr flest, uansett hvordan bildene ligger.",
+        "Barnet bygger grunnlaget for å jobbe med større enn og mindre enn med tall senere."
+      ]
+    },
+    "choice-board.compare-length.k-md-2": {
+      "about": [
+        "To hverdagsting står ved siden av hverandre, og barnet trykker på den som er høyere, lengre eller kortere — og sammenligner ekte, kjente bilder som et furutre eller palmetre, en blyant, fargestift, tusj eller linjal, en gulrot eller agurk, en sjiraff, en solsikke eller et stearinlys. Det er en gratis måleaktivitet for barnehagen som kjører i alle nettlesere, uten nedlasting og uten konto.",
+        "Det er ingen telling og ingen tall; barnet ser bare og sammenligner én egenskap om gangen. Oppgaven sier ordet — høyere, lengre eller kortere — og barnet bestemmer hvilken av de to tingene som passer. Å stille opp høyde for «høyere» (en sjiraff) og lengde for «lengre» (en agurk) bygger måleordene før verken linjal eller tall er innført.",
+        "Aktiviteten følger LK20 innenfor måling — å sammenligne to ting direkte etter en egenskap og beskrive hvilken som er høyere, lengre eller kortere. Den passer i barnehagen. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Sammenligne to ting etter høyde eller lengde.",
+        "Forstå ordene høyere, lengre og kortere.",
+        "Velge den tingen som passer til ordet i oppgaven.",
+        "Måle med øynene, uten telling og uten tall."
+      ],
+      "howToPlay": [
+        "Se på de to tingene, og les eller lytt til ordet — høyere, lengre eller kortere.",
+        "Trykk på den tingen som passer til ordet.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan sammenligne to ting direkte og si hvilken som er høyere, lengre eller kortere.",
+        "Barnet kan bruke måleord for å beskrive lengde og høyde.",
+        "Barnet bygger grunnlaget for å sammenligne etter en egenskap som måling med enheter senere vokser ut av."
+      ]
+    },
+    "choice-board.compare-two-digit.1-nbt-b-3": {
+      "about": [
+        "To tosifrede tall dukker opp — som 47 og 52, eller 63 og 38 — og barnet trykker på det utsagnet som er riktig, med tegnene større enn (>), mindre enn (<) og lik (=). Noen par er like, for eksempel 45 og 45 eller 88 og 88, så likhetstegnet betyr noe det også. Det er en gratis plassverdiaktivitet for 1. trinn som kjører rett i nettleseren, uten konto.",
+        "Strategien er å se på tierne først og deretter på enerne. Med 47 og 52 slår de 5 tierne de 4 tierne, så 47 er mindre enn 52 — selv om 7 er større enn 2. Lure par som 29 og 92 bruker de samme sifrene på ulike plasser, så barnet må lese plassverdien i stedet for selve sifrene. Å velge riktig tegn gjør sammenligningen om til det formelle språket >, = og <.",
+        "Aktiviteten er tilpasset LK20 innenfor tall — å sammenligne to tosifrede tall ut fra hva tier- og enersifrene betyr, og notere svaret med tegnene >, = og <. Den passer for 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Sammenligne to tosifrede tall etter tierne først, deretter enerne.",
+        "Velge riktig tegn — større enn, mindre enn eller lik.",
+        "Kjenne igjen når to tall er like.",
+        "Lese plassverdien i lure par som 29 og 92."
+      ],
+      "howToPlay": [
+        "Se på de to tosifrede tallene, og sjekk tiersifferet først og deretter enersifferet.",
+        "Trykk på det utsagnet som er riktig, med >, = eller <.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan sammenligne tosifrede tall og notere svaret med >, = og <.",
+        "Barnet bruker betydningen av tier- og enersifrene for å avgjøre hvilket tall som er størst.",
+        "Barnet bygger ferdigheten i plassverdisammenligning som arbeid med større tall senere bygger på."
+      ]
+    },
+    "clock.set-clock.1-md-b-3": {
+      "about": [
+        "Et klokkeslett er oppgitt med tall — som 3:00, 7:30, 9:00, 6:30 eller halv to — og barnet drar den lange og den korte viseren på den analoge skiven for å vise tiden, mens et digitalt klokkeslett oppdaterer seg underveis. Still klokka er en gratis matematikkaktivitet for 1. trinn som kjører rett i nettleseren på nettbrett, telefon og klasseromsdatamaskiner, uten nedlasting og uten konto.",
+        "Å stille en klokke er vanskeligere enn å lese den, fordi barnet selv må lage begge viserne i stedet for å kjenne igjen et bilde. Ved halve timer står den korte viseren mellom to tall, ikke på ett — så et barn som bare flytter timeviseren til et tall, vil bomme; den må plasseres midt imellom. Husk at «halv 8» betyr 7:30 — halvveis mot åtte. Når det digitale klokkeslettet endrer seg mens viserne flyttes, knyttes det analoge bildet til tallene barnet allerede kjenner, og tidene holder seg til hele og halve timer slik at fokuset er på å få viserne riktig.",
+        "Aktiviteten følger LK20 innenfor måling — å lese og vise tid til hele og halve timer på analog og digital klokke. Den passer for 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Dra time- og minuttviseren for å vise et oppgitt klokkeslett.",
+        "Plassere den korte viseren midt mellom to tall ved en halv time.",
+        "Lese det digitale klokkeslettet som passer mens viserne flyttes.",
+        "Skille hele timer fra halve timer og stille begge riktig."
+      ],
+      "howToPlay": [
+        "Les klokkeslettet som står over klokka.",
+        "Dra den lange og den korte viseren for å vise den tiden, og følg med på det digitale klokkeslettet.",
+        "Sjekk klokka og juster så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan stille en analog klokke til hele og halve timer.",
+        "Barnet forstår at ved halv time står timeviseren mellom to tall.",
+        "Barnet knytter den analoge klokkeskiven til det digitale klokkeslettet barn leser hver dag."
+      ]
+    },
+    "match-pairs.make-the-number.k-oa-a-3": {
+      "about": [
+        "Et måltall dukker opp — for eksempel 5 — og barnet finner tallparene som til sammen blir tallet, som 1 og 4 eller 2 og 3. Barnet trykker på ett tall og deretter på makkeren, og paret kobles sammen. Det er et gratis, interaktivt tallspill for skolestart og 1. trinn som kjører rett i nettleseren — ingen nedlasting, ingen konto.",
+        "Den store ideen er at ett tall kan lages på mer enn én måte. Med målet 7 kan barnet koble 0 og 7, så 3 og 4, og oppdage at den samme summen har flere makkerpar. Fordi aktiviteten ber om parene som blir målet i stedet for ett enkelt riktig svar, bygger den stille forståelsen av del–del–hel som all senere addisjon hviler på.",
+        "Aktiviteten følger LK20 innenfor tall — å dele opp tall opp til 10 i par på flere ulike måter. Den passer for skolestart og 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Finne to tall som til sammen blir et måltall opp til 10.",
+        "Oppdage mer enn ett par som lager det samme tallet.",
+        "Bygge forståelse av del–del–hel for små tall.",
+        "Koble et tall til makkeren som fullfører summen."
+      ],
+      "howToPlay": [
+        "Se på måltallet for runden, for eksempel 6.",
+        "Trykk på et tall, og trykk så på makkeren som til sammen blir målet, og se paret kobles.",
+        "Finn alle parene som blir målet — det er ingen tidtaker og ingen poeng, så ta deg god tid."
+      ],
+      "learningGoals": [
+        "Barnet kan dele opp tall opp til 10 i par på flere ulike måter.",
+        "Barnet forstår at et tall er satt sammen av mindre deler.",
+        "Barnet legger grunnlaget for del–del–hel som addisjon og subtraksjon bygger på."
+      ]
+    },
+    "match-pairs.add-it-both-ways.1-oa-b-3": {
+      "about": [
+        "Barnet ser addisjonskort som 4 + 7 og 7 + 4, eller 5 + 9 og 9 + 5, og kobler hvert regnestykke til de samme to tallene lagt sammen den andre veien — trykk på ett kort, så på tvillingen med tallene snudd om, og det rette paret kobles. Det er et gratis, interaktivt matematikkspill for 1. trinn som kjører rett i nettleseren — ingen nedlasting, ingen konto.",
+        "Den store ideen er den kommutative egenskapen: 4 + 7 og 7 + 4 blir begge 11, så rekkefølgen på leddene endrer ikke summen. Hver runde viser seks kort — tre ombyttede par blandet sammen — så barnet regner ut summene og legger merke til hvilke regnestykker som bruker akkurat de samme tallene snudd om. Barnet kobler ikke like kort; det kjenner igjen at to ulike regnestykker er like store.",
+        "Aktiviteten følger LK20 innenfor tall og algebra — å bruke egenskaper ved regneartene, som den kommutative egenskapen, som strategi for å legge sammen. Den passer for 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Kjenne igjen at ledd kan legges sammen i hvilken som helst rekkefølge med samme sum.",
+        "Legge sammen små tall som 6 + 9 og bekrefte at 9 + 6 gir samme svar.",
+        "Koble hvert regnestykke til tvillingen med tallene snudd om blant blandede kort.",
+        "Bruke snu-om-fakta som strategi for å legge sammen lettere."
+      ],
+      "howToPlay": [
+        "Se på de seks addisjonskortene og finn ut hvilke som bruker de samme to tallene i ulik rekkefølge.",
+        "Trykk på et regnestykke som 3 + 6, og trykk så på tvillingen 6 + 3, og se paret kobles.",
+        "Fortsett til alle tre parene er koblet — det er ingen tidtaker og ingen poeng, så ta deg god tid."
+      ],
+      "learningGoals": [
+        "Barnet kan bruke den kommutative egenskapen ved addisjon.",
+        "Barnet forstår at rekkefølgen på leddene ikke endrer summen.",
+        "Barnet bruker snu-om-fakta til å legge sammen opp til 20 raskere og tryggere."
+      ]
+    },
+    "numberbond.make-ten-to-add.1-oa-c-6": {
+      "about": [
+        "For en sum som 8 + 5 deler barnet det andre tallet på en tallvenn slik at den ene delen fyller det første opp til ti (8 + 2 = 10), og legger så til resten (10 + 3 = 13). Denne lag-en-tier-strategien — tierovergang — kommer til live i en gratis, interaktiv matematikkaktivitet for 1. trinn som kjører rett i nettleseren, uten konto.",
+        "Den store ideen er å gjøre en vanskelig oppgave om til en lett en: kom deg fram til en grei tier, og legg så til resten. Barnet trykker for å fylle den delen som lager tieren, og tallvennen viser akkurat hvordan det andre tallet deles — så strategien er noe barnet ser og gjør, ikke noe det skal pugge.",
+        "Aktiviteten følger LK20 innenfor tall og algebra — å legge sammen opp til 20 ved hjelp av tierovergang. Den passer for 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Dele et tall i to deler på en tallvenn.",
+        "Fylle det første tallet opp til en tier (8 + 2 = 10).",
+        "Legge resten til tieren for å fullføre (10 + 3 = 13).",
+        "Bygge flytende og fleksibel addisjon opp til 20."
+      ],
+      "howToPlay": [
+        "Se på en sum som 8 + 5 vist på en tallvenn.",
+        "Trykk for å fylle den delen som lager en tier med det første tallet, og legg så til resten.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan legge sammen opp til 20 ved hjelp av tierovergang.",
+        "Barnet kan dele et tall opp for å lage en grei tier.",
+        "Barnet legger sammen fleksibelt i stedet for å telle hvert tall ett og ett."
+      ]
+    },
+    "place-value.tens-and-ones.1-nbt-b-2": {
+      "about": [
+        "For å lage 47 setter barnet ned fire tierstaver og sju enerterninger, og ser «førti» bli noe konkret i stedet for et siffer. Tallene går fra 12 opp til 95 — også de hele tierne 30, 50, 70 og 90 — bygget ett trykk om gangen, i en gratis, interaktiv matematikkaktivitet for 1. trinn som kjører i nettleseren uten konto.",
+        "Den store ideen er at et tosifret tall er satt sammen av tiere og enere. For å bygge 47 bruker barnet fire tierstaver og sju enerterninger, og synet av de fire stavene gjør «førti» konkret i stedet for bare et siffer. Hele tall som 70 og 90 forsterker at en null på enerplassen betyr at det ikke er noen løse terninger i det hele tatt — bare hele tiere.",
+        "Aktiviteten følger LK20 innenfor tall — å forstå at et tosifret tall er satt sammen av et antall tiere og enere. Den passer for 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Bygge et tosifret tall med riktig antall tiere og enere.",
+        "Knytte tiersifferet til tierstaver og enersifferet til enerterninger.",
+        "Forstå hele tall som 70 som et antall fulle tiere.",
+        "Lese og lage tosifrede tall opp til 95."
+      ],
+      "howToPlay": [
+        "Les måltallet, for eksempel 47.",
+        "Trykk for å legge til tierstaver og enerterninger til klossene blir det tallet.",
+        "Se tallet vokse, og gå videre — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan forstå tiere og enere i tosifrede tall.",
+        "Barnet ser at tiersifferet teller grupper på ti og enersifferet teller enkeltenere.",
+        "Barnet bygger plassverdigrunnlaget for å legge sammen og trekke fra opp til 100."
+      ]
+    },
+    "syllable-builder.bygg-ordet-av-stavelser.no.rf-k-2-b": {
+      "about": [
+        "Barnet ser et bilde og bygger ordet ved å legge stavelsene i riktig rekkefølge. Ordet til bildet er delt opp i stavelsesbrikker som ligger stokket om hverandre — for eksempel ka-nin eller ele-fant — og barnet setter dem på plass én etter én til hele ordet står ferdig. Det er en gratis, interaktiv fonetikkaktivitet for barnehagen og skolestart som kjører rett i nettleseren, uten konto.",
+        "Den store ideen er at talte ord kan deles opp i mindre lydbiter og settes sammen igjen. Barnet hører hver stavelse når brikken trykkes på, og hele ordet blandes sammen og leses opp når svaret er riktig — så bro mellom lyd og skrift bygges samtidig som barnet leker. Å høre stavelsene og kjenne igjen rekkefølgen styrker språklydbevisstheten som tidlig lesing hviler på.",
+        "Aktiviteten er tilpasset LK20 innenfor tidlig lesing — å telle, uttale, blande og dele stavelser i talte ord. Den passer i barnehagen og ved skolestart. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Dele et talt ord opp i stavelser.",
+        "Legge stavelsesbrikkene i riktig rekkefølge for å lage ordet til bildet.",
+        "Høre hver stavelse for seg og blande dem sammen til et helt ord.",
+        "Knytte lydene i ordet til bokstavene barnet ser."
+      ],
+      "howToPlay": [
+        "Se på bildet og lytt til ordet.",
+        "Trykk på stavelsene i riktig rekkefølge og legg en stavelse i hver rute.",
+        "Trykk på Sjekk for å høre om rekkefølgen stemmer — prøv igjen så mange ganger du vil, det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan dele et talt ord opp i stavelser og sette dem sammen igjen.",
+        "Barnet kan blande stavelser til et helt ord i riktig rekkefølge.",
+        "Barnet bygger språklydbevisstheten som tidlig lesing og staving vokser ut av."
+      ]
+    },
+    "array.equal-groups.2-oa-c-4": {
+      "about": [
+        "Her lager barnet like grupper — like mange ting i hver gruppe — og legger dem sammen for å finne hvor mange det blir til sammen. Det er en gratis matteaktivitet for 2. trinn som spilles rett i nettleseren, uten nedlasting og uten konto. Rundene går fra 2 grupper med 3 opp til 3 grupper med 5, og innom 4 grupper med 4 og 5 grupper med 2, så barnet møter mange ulike måter å lage like grupper på.",
+        "I motsetning til et ryddig rektangel med rader og kolonner ligger tingene her i adskilte grupper, og dermed blir hele poenget at det skal være like mange i hver. Etter hvert som barnet fyller gruppene, vokser en stripe med gjentatt addisjon ved siden av — 4 + 4 + 4 — slik at de like gruppene blir til et regnestykke, og så skriver barnet hvor mange det er til sammen. Barnet bygger og legger sammen gruppene; det ganger ikke ennå, men møter akkurat den tenkningen som multiplikasjon bygger på.",
+        "Aktiviteten følger LK20 innenfor tall og regning på 2. trinn — å bruke gjentatt addisjon av like store ledd for å finne et antall. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Lage flere grupper som hver inneholder like mange.",
+        "Legge sammen like grupper som gjentatt addisjon, for eksempel 4 + 4 + 4 = 12.",
+        "Skille like grupper fra grupper med ulikt antall.",
+        "Finne et antall ved å telle gruppene i stedet for å telle én og én.",
+        "Knytte gjentatt addisjon til grunnlaget for multiplikasjon."
+      ],
+      "howToPlay": [
+        "Les hvor mange like grupper du skal lage og hvor mange som skal være i hver, og trykk for å fylle gruppene.",
+        "Se de like gruppene legge seg sammen på stripa med gjentatt addisjon, og skriv så antallet på tastaturet.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan finne et antall fra like grupper ved hjelp av gjentatt addisjon.",
+        "Barnet forstår at gruppene må være like for at samme ledd kan legges sammen.",
+        "Barnet bygger den følelsen for like grupper som multiplikasjon hviler på senere."
+      ]
+    },
+    "choice-board.even-odd.2-oa-c-3": {
+      "about": [
+        "Et tall fra 1 til 20 dukker opp, og barnet avgjør om det er partall eller oddetall og trykker på riktig rute — Partall eller Oddetall. Med bare to valg må barnet vurdere hvert tall for seg: er det et tall som kan deles i to like grupper, eller et tall der det blir én til overs? Det er en gratis, interaktiv tallaktivitet for 2. trinn som kjøres i nettleseren uten registrering.",
+        "Den store ideen er at partall og oddetall handler om hvorvidt et antall kan deles i to like grupper uten at noe blir til overs. Barnet legger ikke til eller trekker fra her; det sorterer hele tall etter hvordan de er bygd opp. Når barnet jobber seg gjennom hele tallrekka fra 1 til 20, med begge valgene alltid synlige, bygges den raske gjenkjenningen — og vanen med å se på enerplassen — som gjør at partall og oddetall etter hvert sitter automatisk.",
+        "Aktiviteten følger LK20 innenfor tall og regning på 2. trinn — å avgjøre om en mengde har et partall eller oddetall av medlemmer. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Avgjøre om et tall fra 1 til 20 er partall eller oddetall.",
+        "Forstå partall som par uten noe til overs, og oddetall som én ekstra.",
+        "Se på enersifferet som en rask måte å skille partall fra oddetall.",
+        "Sortere hele tall etter strukturen i stedet for å legge til eller trekke fra."
+      ],
+      "howToPlay": [
+        "Se på tallet som vises på tavla.",
+        "Avgjør om det er partall eller oddetall, trykk på ruta som passer, og trykk så på Sjekk.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan avgjøre om et tall opp til 20 er partall eller oddetall.",
+        "Barnet kan forklare partall som par uten noe til overs, og oddetall som én ekstra.",
+        "Barnet bygger tallforståelsen som støtter senere arbeid med like grupper og multiplikasjon."
+      ]
+    },
+    "choice-board.describe-attribute.k-md-a-1": {
+      "about": [
+        "En hverdagsgjenstand vises om gangen, og barnet trykker på ordet som passer best — lang, høy eller tung. Gjenstandene er valgt slik at én egenskap tydelig skiller seg ut: en blyant og en gulrot er lange, en sjiraff er høy, og en stein og et gresskar er tunge. Det er en gratis, interaktiv måleaktivitet for barnehage og skolestart som spilles rett i nettleseren, uten konto.",
+        "Hele poenget er å sette ord på måtene vi måler ting på, før det dukker opp tall og linjaler. Barnet teller eller måler ikke her; det ser på en virkelig gjenstand og avgjør hvilken målbar egenskap som passer — lengde, høyde eller vekt. Fordi hver gjenstand på bildet har én tydeligst egenskap, øver barnet på å legge merke til hva slags måling en ting innbyr til, og det er språkgrunnlaget under all senere måling.",
+        "Aktiviteten følger LK20 innenfor måling og data — å beskrive målbare egenskaper ved en gjenstand, som lengde, høyde og vekt. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Koble en gjenstand til måleordet som passer — lang, høy eller tung.",
+        "Skille lengde, høyde og vekt som ulike måter å måle på.",
+        "Se på en virkelig gjenstand og avgjøre hva slags måling den innbyr til.",
+        "Bygge målespråket som kommer før telling og linjaler."
+      ],
+      "howToPlay": [
+        "Se på gjenstanden på tavla — en blyant, en sjiraff eller en stein.",
+        "Trykk på ordet som beskriver den best — lang, høy eller tung — og trykk så på Sjekk.",
+        "Prøv igjen når du vil; det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan beskrive en gjenstands målbare egenskaper — lengde, høyde og vekt.",
+        "Barnet kan bruke ordene lang, høy og tung riktig om virkelige gjenstander.",
+        "Barnet bygger målespråket som senere måling og sammenligning bygger på."
+      ]
+    },
+    "choice-board.ten-more-less.1-nbt-c-5": {
+      "about": [
+        "Et tosifret tall som 34, 57, 60 eller 82 dukker opp sammen med ordene ti mer eller ti mindre, og barnet regner det ut i hodet og trykker på svaret blant fire valg. Det er en gratis, interaktiv aktivitet for 1. trinn som spilles rett i nettleseren på nettbrett, telefon eller skolens datamaskin, uten noe å installere og uten konto.",
+        "Den viktige innsikten er at ti mer eller ti mindre ikke trenger telling i det hele tatt — det er bare tierplassen som endrer seg, mens enerne blir akkurat de samme. Derfor blir 34 og ti mer til 44, og 57 og ti mindre til 47. De gale valgene er tall i nærheten, blant annet noen som endrer enersifferet, så et barn som teller opp én og én eller legger til en tier på feil plass, merker at det ikke stemmer. Poenget er å se tierne, ikke å telle.",
+        "Aktiviteten følger LK20 innenfor tall og regning på 1. trinn — å finne ti mer eller ti mindre enn et tosifret tall i hodet, uten å måtte telle. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Finne ti mer eller ti mindre enn et tosifret tall i hodet.",
+        "Legge merke til at bare tierplassen endrer seg, mens enerne blir de samme.",
+        "Lese om oppgaven spør etter ti mer eller ti mindre.",
+        "Bygge plassverdiforståelse for tall opp til 100."
+      ],
+      "howToPlay": [
+        "Les tallet og om oppgaven spør etter ti mer eller ti mindre.",
+        "Regn det ut i hodet — endre tierne, behold enerne — og trykk så på tallet du tror er riktig.",
+        "Ta den tiden du trenger; det er ingen tidtaker og ingen poeng, og du kan prøve igjen."
+      ],
+      "learningGoals": [
+        "Barnet kan finne ti mer og ti mindre enn et hvilket som helst tosifret tall i hodet.",
+        "Barnet forstår at å legge til eller fjerne en tier bare endrer tierplassen.",
+        "Barnet bygger grunnlaget i plassverdi og hoderegning for å legge til og trekke fra opp til 100."
+      ]
+    },
+    "clock.tell-time-5-min.2-md-c-7": {
+      "about": [
+        "Et klokkeslett står skrevet — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 eller 12:25 — og barnet drar viserne på en analog klokke til å vise det, mens en digital visning oppdaterer seg underveis. Denne gratis matteaktiviteten for 2. trinn løfter klokkearbeidet opp til fem-minutters tider og kjøres i nettleseren uten konto.",
+        "Når man skal lese og stille klokka til fem minutter, begynner minuttviseren for alvor å bety noe: kvart over setter den på 3, kvart på setter den på 9, og ti over setter den på 2. Barnet teller med fem rundt urskiva for å lande nøyaktig. De vanskeligere tidene — som 7:45, der kvart på åtte skrives 7:45 og ikke 8:45 — får barnet til å lese timeviseren idet den sniker seg mot neste tall. Den digitale visningen bekrefter hver plassering, slik at det å telle med fem henger sammen med det skrevne klokkeslettet.",
+        "Aktiviteten følger LK20 innenfor måling og data på 2. trinn — å lese og stille klokka til nærmeste fem minutter på analog og digital klokke. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Stille minuttviseren til et fem-minutters merke ved å telle med fem.",
+        "Plassere kvart over, kvart på og ti over på riktig sted.",
+        "Lese over og på halv, som ti over halv og fem på halv.",
+        "Lese timeviseren idet den beveger seg mot neste tall på slutten av en time.",
+        "Koble den analoge innstillingen til det skrevne, digitale klokkeslettet."
+      ],
+      "howToPlay": [
+        "Les det skrevne klokkeslettet over klokka.",
+        "Dra minutt- og timeviseren slik at klokka viser det til nærmeste fem minutter, og følg med på den digitale visningen.",
+        "Finjuster viserne så ofte du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan lese og stille klokka til nærmeste fem minutter.",
+        "Barnet kan telle med fem rundt klokka for å plassere minuttviseren nøyaktig.",
+        "Barnet kan lese tider som kvart på åtte riktig som 7:45 og ikke 8:45."
+      ]
+    },
+    "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
+      "about": [
+        "Barnet regner ut kort som 2 + 3 og 9 − 4 (begge blir 5), eller 3 + 4 og 9 − 2 (begge blir 7), og trykker så på et plusstykke og minusstykket med samme svar for å koble paret. Det er en gratis, interaktiv matteaktivitet for 1. trinn som kjøres rett i nettleseren, uten noe å installere og uten konto.",
+        "Den store ideen er at et plusstykke og et minusstykke kan være verdt det samme — likhetstegnet betyr «det samme som», ikke «her kommer svaret». Kortene viser ikke svaret, så barnet må faktisk regne ut hvert av dem og deretter lete etter et stykke som ser annerledes ut, men har samme verdi. Hver runde har to (av og til tre) verdier å finne, og plusstykker og minusstykker er blandet sammen.",
+        "Aktiviteten følger LK20 innenfor tall og regning på 1. trinn — å forstå hva likhetstegnet betyr og avgjøre om regnestykker med pluss og minus har samme verdi. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Regne ut verdien av både plusstykker og minusstykker.",
+        "Koble et plusstykke til et minusstykke med samme svar.",
+        "Forstå likhetstegnet som «like mye som».",
+        "Sammenligne to regnestykker som ser ulike ut, for å se om de er like store."
+      ],
+      "howToPlay": [
+        "Regn ut hvert kort — plusstykker som 4 + 5 og minusstykker som 10 − 1.",
+        "Trykk på et plusstykke, trykk så på minusstykket med samme svar, og se paret koble seg.",
+        "Finn begge de like parene i runden — det er ingen tidtaker og ingen poeng, så ta deg god tid."
+      ],
+      "learningGoals": [
+        "Barnet forstår at plusstykker og minusstykker kan være like store.",
+        "Barnet kan lese likhetstegnet som «det samme som» i stedet for «svaret kommer nå».",
+        "Barnet bygger fleksibel tallfakta-kunnskap ved å koble pluss- og minusstykker med samme verdi."
+      ]
+    },
+    "match-pairs.match-facts-to-20.2-oa-b-2": {
+      "about": [
+        "Et stykke som 8 + 5, 9 + 7, 14 − 6 eller 17 − 8 venter på svaret sitt, og barnet trykker på stykket og tallet som er svaret for å koble paret og bygge sikkerhet opp til 20. Det er en gratis, interaktiv matteaktivitet for 2. trinn som kjøres rett i nettleseren, uten noe å installere og uten konto.",
+        "Den store ideen er rask og trygg gjenkalling av pluss- og minusstykker opp til 20. Hver runde blander tre stykker — noen pluss, noen minus — med de tre svarene stokket inn imellom, så barnet regner ut hvert stykke og finner deretter den verdien som passer. Øving runde etter runde flytter stykker som 9 + 9 = 18 og 16 − 9 = 7 fra telling og over mot hukommelse.",
+        "Aktiviteten følger LK20 innenfor tall og regning på 2. trinn — å legge til og trekke fra sikkert opp til 20 og kunne summene av ensifrede tall utenat. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Legge til og trekke fra opp til 20, med og uten tierovergang.",
+        "Koble et stykke som 7 + 8 til svarkortet sitt.",
+        "Flytte pluss- og minusstykker fra telling og over mot hukommelse.",
+        "Jobbe sikkert med både plusstykker og minusstykker i samme sett."
+      ],
+      "howToPlay": [
+        "Regn ut hvert stykkekort, som 6 + 9 eller 13 − 4.",
+        "Trykk på et stykke, trykk så på tallet som er svaret, og se paret koble seg.",
+        "Koble alle de tre parene i runden — det er ingen tidtaker og ingen poeng, så ta deg god tid."
+      ],
+      "learningGoals": [
+        "Barnet kan legge til og trekke fra sikkert opp til 20.",
+        "Barnet kan summene av ensifrede tall utenat.",
+        "Barnet bygger den tallfakta-gjenkallingen som gjør regning med større tall lettere."
+      ]
+    },
+    "numberbond.find-the-total.1-oa-a-1": {
+      "about": [
+        "Et tallvenn-bilde viser to deler, som 7 og 4, og barnet finner hvor mange det er til sammen — teller delene sammen og skriver det hele. Det er en gratis, interaktiv matteaktivitet for 1. trinn som kjøres rett i nettleseren uten registrering.",
+        "Det hele sitter øverst og de to delene under, så det å «sette sammen» blir noe barnet kan se. Barnet kan telle videre fra den største delen eller bare kunne tallfaktaet; prikkene i hver del er der til å telle når et stykke ennå ikke sitter helt. Svaret er det hele øverst i tallvennen.",
+        "Aktiviteten følger LK20 innenfor tall og regning på 1. trinn — å bruke addisjon til å sette sammen og legge til opp til 20. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Lese de to delene i en del-del-hel-tallvenn.",
+        "Sette delene sammen for å finne det hele opp til 20.",
+        "Telle videre fra den største delen for å legge sammen mer effektivt.",
+        "Skrive antallet som er det hele."
+      ],
+      "howToPlay": [
+        "Se på de to delene i tallvennen, som 7 + 4.",
+        "Tell hvor mange det er til sammen, skriv det hele, og trykk så på Sjekk.",
+        "Ikke helt riktig? Prøv igjen så ofte du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan legge sammen to tall opp til 20 ved å sette delene sammen.",
+        "Barnet kan lese en del-del-hel-tallvenn og finne det hele som mangler.",
+        "Barnet kan telle videre fra det største tallet for å legge sammen raskere."
+      ]
+    },
+    "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
+      "about": [
+        "Trykk på en plate, en stav eller en terning og se et tresifret tall vokse etter hvert som titallsblokkene stables — hundrerplater, tierstaver og enerterninger bygger tall fra 108 til 974, blant annet vanskelige nuller som 200, 305 og 906. Det er en gratis, interaktiv matteaktivitet for 2. trinn som kjøres rett i nettleseren uten konto.",
+        "Den store ideen er at de tre sifrene i et tall står for hundrere, tiere og enere. For å bygge 463 trenger barnet fire hundrerplater, seks tierstaver og tre enerterninger, og når blokkene hoper seg opp, knyttes hvert siffer til en virkelig mengde. Tall som 305 og 906 lærer stille at et null betyr ingen av den plassen — ingen tierstaver i det hele tatt — og det er nettopp der forvirringen rundt plassverdi ofte begynner.",
+        "Aktiviteten følger LK20 innenfor tall og regning på 2. trinn — å forstå at de tre sifrene i et tresifret tall står for antall hundrere, tiere og enere. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Bygge et tresifret tall med riktige hundrere, tiere og enere.",
+        "Koble hvert siffer til en mengde plater, staver eller terninger.",
+        "Forstå at et null på en plass betyr ingen av den enheten.",
+        "Lese tresifrede tall opp til hundrerne."
+      ],
+      "howToPlay": [
+        "Les måltallet, for eksempel 463.",
+        "Trykk for å legge til hundrerplater, tierstaver og enerterninger til blokkene viser det tallet.",
+        "Se tallet vokse; gå videre uten tidtaker og uten poeng."
+      ],
+      "learningGoals": [
+        "Barnet forstår hundrere, tiere og enere i tresifrede tall.",
+        "Barnet kan koble hvert siffer til plassverdien og mengden sin.",
+        "Barnet bygger plassverdigrunnlaget for å legge sammen, trekke fra og sammenligne større tall."
+      ]
+    },
+    "ten-frame.show-the-operation.k-oa-a-1": {
+      "about": [
+        "For «3 + 2» legger barnet 3 brikker og deretter 2 til i en ny farge, slik at de to delene er lette å se; for «5 − 2» starter det med 5 og trykker for å ta 2 bort. Å vise regnestykket på tierramma — ikke å skrive et tall — er selve oppgaven. Det er en gratis, interaktiv matteaktivitet for skolestart og 1. trinn som spilles i nettleseren uten registrering.",
+        "Den store ideen er at addisjon og subtraksjon er handlinger du kan vise, ikke bare svar du skriver. Den andre brikkefargen gjør de to leddene synlige som adskilte grupper, og det å fjerne brikker gjør «ta bort» helt konkret. Barnet modellerer regnestykket i stedet for å skrive et tall, så betydningen av å sette sammen og dele opp kommer før selve regningen.",
+        "Aktiviteten følger LK20 innenfor regning — å vise addisjon og subtraksjon med gjenstander, fingre, tegninger og andre hjelpemidler. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Vise addisjon ved å legge to grupper brikker i to farger.",
+        "Vise subtraksjon ved å ta brikker bort fra en startgruppe.",
+        "Se de to delene som til sammen blir det hele på ramma.",
+        "Modellere hva en plussoppgave eller minusoppgave egentlig betyr."
+      ],
+      "howToPlay": [
+        "Les oppgaven, som 3 + 2 eller 5 − 2.",
+        "Legg til eller fjern brikker på tierramma slik at den viser regnestykket, og trykk så på Sjekk.",
+        "Ikke helt riktig? Juster brikkene og prøv igjen — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan vise addisjon og subtraksjon med brikker.",
+        "Barnet forstår addisjon som å sette sammen og subtraksjon som å ta bort.",
+        "Barnet bygger den modelleringsvanen som tekstoppgaver og regnestykker bygger på."
+      ]
+    },
+    "choice-board.shape-id.k-g-a-2": {
+      "about": [
+        "I denne aktiviteten blir en form nevnt, og barnet finner den med øynene blant fire bilder. Formene er sirkel, kvadrat, trekant, rektangel, sekskant, oval, stjerne, rombe, hjerte og femkant. Det er en gratis, interaktiv geometriaktivitet for barnehage og skolestart som kjører rett i nettleseren på nettbrett, telefon eller klasserommets datamaskin — uten nedlasting og uten konto.",
+        "Den store ideen er at en form er den samme formen uansett hvordan den er snudd, og uansett hvor stor den er tegnet. En trekant som balanserer på spissen, eller et bitte lite kvadrat, er fremdeles en trekant og fremdeles et kvadrat. Derfor må barnet kjenne igjen selve formen, ikke bare ett bestemt «fasitbilde» av den. De tre gale valgene er andre ekte former fra settet, så barnet kan ikke vinne ved å trykke på den eneste formen på brettet — det må vite hvilket navn som hører til hvilken figur.",
+        "Aktiviteten følger LK20 innenfor geometri — å navngi former uavhengig av orientering og størrelse. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Koble et formnavn til riktig bilde blant fire valg.",
+        "Kjenne igjen en form selv om den er snudd eller tegnet større eller mindre.",
+        "Skille mellom former som ligner — et kvadrat fra et rektangel, en oval fra en sirkel, en sekskant fra en femkant.",
+        "Bygge opp ordforrådet for sirkel, kvadrat, trekant, rektangel, sekskant, oval, stjerne, rombe, hjerte og femkant."
+      ],
+      "howToPlay": [
+        "Les eller lytt til oppgaven som nevner én form du skal finne.",
+        "Se på de fire formene og trykk på den som passer til navnet, og trykk så på Sjekk.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan navngi sirkler, kvadrater, trekanter, rektangler, sekskanter og flere på direkten.",
+        "Barnet forstår at en form beholder navnet sitt uansett hvordan den er snudd eller hvor stor den er.",
+        "Barnet bygger formordforrådet som senere geometri, sortering og tegning bygger på."
+      ]
+    },
+    "choice-board.flat-solid.k-g-a-3": {
+      "about": [
+        "Én form vises om gangen, og barnet trykker på om den er flat (2D) eller solid (3D). De flate formene er for eksempel sirkel, trekant, kvadrat og sekskant, mens de solide er terning, kule, sylinder og kjegle. Dette er en gratis, interaktiv geometriaktivitet for barnehage og skolestart som spilles rett i nettleseren på nettbrett, telefon og datamaskin — uten nedlasting og uten konto.",
+        "Den store ideen er forskjellen mellom en form du kan tegne på et ark, og en form du kan ta opp og holde i hånda. Her navngir ikke barnet formene; det sorterer dem i todimensjonale og tredimensjonale. Når kjente flate former blandes med sine solide slektninger — en sirkel ved siden av en kule, et kvadrat ved siden av en terning — må barnet legge merke til om formen har dybde. Det er det første steget mot å forstå romfigurer.",
+        "Aktiviteten følger LK20 innenfor geometri — å beskrive former som todimensjonale eller tredimensjonale. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Skille flate (2D) former fra solide (3D) former.",
+        "Kjenne igjen sirkel, kvadrat og trekant som flate, og terning, kule og kjegle som solide.",
+        "Legge merke til om en form har dybde — noe du kan holde i hånda mot noe du kan tegne.",
+        "Sortere former i to grupper, ikke bare navngi dem."
+      ],
+      "howToPlay": [
+        "Se på formen på brettet.",
+        "Bestem om den er flat eller solid, trykk på riktig felt, og trykk så på Sjekk.",
+        "Prøv igjen når du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan beskrive former som flate (todimensjonale) eller solide (tredimensjonale).",
+        "Barnet kobler en flat form til sin solide slektning, som et kvadrat og en terning.",
+        "Barnet bygger grunnlaget for å navngi og beskrive romfigurer senere."
+      ]
+    },
+    "choice-board.next-number.k-cc-a-2": {
+      "about": [
+        "Et tall fra 1 til 9 vises, og barnet trykker på tallet som kommer rett etterpå — ser barnet en 4, finner det 5; ser det en 8, finner det 9. Dette er en gratis, interaktiv telleaktivitet for barnehage og skolestart som kjører rett i nettleseren på nettbrett, telefon og datamaskin — uten nedlasting og uten konto.",
+        "Den store ideen er å telle videre fra et tall du får oppgitt, i stedet for alltid å begynne på nytt fra én. Valgene er tall mellom 0 og 10 som ligger nær det riktige svaret, så barnet må virkelig vite hva som kommer etterpå, ikke bare gjette. Den ferdigheten — å plukke opp tellingen midt i tallrekka — er det som gjør tellingen rask og fleksibel.",
+        "Aktiviteten følger LK20 innenfor telling og tallforståelse — å telle videre fra et gitt tall i tallrekka. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Si tallet som kommer rett etter et gitt tall fra 1 til 9.",
+        "Telle videre fra et tall midt i rekka, ikke fra én.",
+        "Kunne tallrekkefølgen godt nok til å se det neste tallet.",
+        "Bygge fleksibel telling som ikke trenger en ny start hver gang."
+      ],
+      "howToPlay": [
+        "Se på tallet som vises på brettet.",
+        "Trykk på tallet som kommer rett etter det, og trykk så på Sjekk.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan telle videre fra et gitt tall.",
+        "Barnet vet hvilket tall som kommer etter i rekka opp til 10.",
+        "Barnet bygger telleferdigheten som addisjon og tallforståelse hviler på."
+      ]
+    },
+    "choice-board.read-ruler.2-md-a-1": {
+      "about": [
+        "En ting ligger langs en linjal med centimeter — en blyant, et bånd, en fargestift, en tusj — og barnet leser hvor lang den er og trykker på svaret i centimeter. Lengdene går fra en kort fargestift på 5 cm til en tusj på 14 cm eller en pinne på 17 cm. Dette er en gratis, interaktiv måleaktivitet for 2. trinn som spilles rett i nettleseren — uten konto.",
+        "Den store ideen er å lese linjalen riktig: legg venstre ende av tingen på 0, følg den til den andre enden, og les av streken der. Barnet anslår ikke; det leser av en nøyaktig lengde på skalaen. Fordi svaralternativene er nærliggende tall, blir den klassiske målefeilen — å legge starten på 1 i stedet for 0 — synlig, og det bygger vanen med å starte hver måling ved null.",
+        "Aktiviteten følger LK20 innenfor måling — å måle lengden av en ting med en passende enhet som en linjal. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Lese lengden av en ting i centimeter på en linjal.",
+        "Legge tingens venstre ende på 0 før du leser av den andre enden.",
+        "Finne centimeterstreken der tingen slutter.",
+        "Unngå den vanlige feilen med å starte målingen på 1 i stedet for 0."
+      ],
+      "howToPlay": [
+        "Se på tingen på linjalen og sjekk at venstre ende ligger på 0.",
+        "Følg den til den andre enden, les av centimeterstreken, trykk på det tallet, og trykk så på Sjekk.",
+        "Prøv igjen når du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan måle lengde i centimeter med en linjal.",
+        "Barnet kan lese av en måleskala som starter på null.",
+        "Barnet bygger nøyaktige målevaner for lengre lengder og andre måleverktøy."
+      ]
+    },
+    "fractions.partition-equal-shares.1-g-a-3": {
+      "about": [
+        "En form dukker opp — en sirkel, et kvadrat, et rektangel, en trekant, en ellipse, en rombe, en sekskant eller en femkant — og barnet trykker på dele-strekene for å dele den i 2 like store deler (halvdeler) eller 4 like store deler (firedeler). Dette er en gratis, interaktiv geometriaktivitet for 1. trinn som spilles i nettleseren på alle enheter — uten innlogging.",
+        "Den store ideen er at like store deler må være rettferdige — bitene må være like store. Når mange ulike former deles, ikke bare sirkler, ser barnet at halvdeler og firedeler handler om likt areal, ikke om ett kjent bilde: et kvadrat delt i et rutenett på fire og en sirkel delt i fire lager begge to firedeler. Fordi barnet deler selv, lager det delene like store på egen hånd i stedet for bare å kjenne igjen et ferdig bilde.",
+        "Aktiviteten følger LK20 innenfor geometri — å dele sirkler og rektangler i to og fire like store deler og kalle dem halvdeler og firedeler. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Dele sirkler, kvadrater og andre former i like store deler.",
+        "Lage 2 like store deler (halvdeler) og 4 like store deler (firedeler).",
+        "Holde bitene like store så delene blir rettferdige.",
+        "Se halvdeler og firedeler i mange forskjellige former."
+      ],
+      "howToPlay": [
+        "Se på formen og hvor mange like store deler du skal lage.",
+        "Trykk på dele-strekene for å dele den i halvdeler eller firedeler.",
+        "Pass på at bitene blir like store — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan dele former i to og fire like store deler.",
+        "Barnet kan beskrive de like store delene som halvdeler og firedeler.",
+        "Barnet bygger forståelsen av rettferdig deling som senere brøkarbeid hviler på."
+      ]
+    },
+    "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
+      "about": [
+        "Barnet kobler sammen kortene som viser samme verdi — tallet med sifre (305), tallet med ord (trehundreogfem) og den utvidede formen (300 + 5) — ved å trykke på ett kort og deretter på et kort med samme verdi, til hele trekløveret henger sammen. Dette er et gratis, interaktivt korttilkoblingsspill i matematikk for 2. trinn som spilles rett i nettleseren — uten nedlasting og uten konto.",
+        "Den store ideen er at sifrene, tallordet og den utvidede formen alle navngir ett og samme tall — og det er ved hullene i plassverdiene at det blir spennende. Tall som 305 og 208 har et null på tierplassen, så den utvidede formen er 300 + 5 og ikke 300 + 0 + 5, og barnet må lese nøye for å koble «tohundreogåtte» til 208, ikke til 280. Hver runde har tre forskjellige tall å finne ut av på én gang.",
+        "Aktiviteten følger LK20 innenfor tall og regning — å lese og skrive tall opp til 1000 med sifre, med tallord og i utvidet form. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Koble sammen sifre, tallord og utvidet form for samme tall.",
+        "Lese tresifrede tallord som nihundreogførti.",
+        "Skrive utvidet form riktig når en plass har null, som 600 + 5.",
+        "Skille tall som ligner, som 208 og 280."
+      ],
+      "howToPlay": [
+        "Se på kortene — sifre som 562, ord som femhundreogsekstito og utvidede former som 500 + 60 + 2.",
+        "Trykk på ett kort, trykk så på et annet kort som viser samme tall, og se paret koble seg sammen.",
+        "Finn alle tre tallene i runden — det er ingen tidtaker og ingen poeng, så ta den tiden du trenger."
+      ],
+      "learningGoals": [
+        "Barnet kan lese og skrive tall opp til 1000 med sifre, tallord og i utvidet form.",
+        "Barnet forstår at ulike former kan navngi samme verdi.",
+        "Barnet styrker plassverdiforståelsen, også for tall med null på en plass."
+      ]
+    },
+    "money.count-out.2-md-c-8": {
+      "about": [
+        "Barnet bygger opp et bestemt beløp mynt for mynt og trykker norske kronemynter — 1, 5, 10 og 20 kroner — ned i skålen til pengene stemmer, for eksempel 15 kr lagd av en tier og en femmer, eller 30 kr lagd av en tjuekroning og en tier. Dette er en gratis, interaktiv matteaktivitet for 2. trinn som spilles rett i nettleseren — uten nedlasting og uten konto.",
+        "Den store ideen er at verdien til en mynt ikke står å lese på størrelsen, så barnet må kunne hva hver mynt er verdt og legge sammen underveis. En liten tikrone kan være verdt mer enn en større mynt, og to femmere er det samme som en tier. Når barnet når hvert beløp ved å velge og legge til mynter, bygger det den løpende sammenleggingen som ekte pengehåndtering krever.",
+        "Aktiviteten følger LK20 innenfor måling — å løse oppgaver med penger og bruke norske kronemynter. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Kunne verdien til mynter på 1, 5, 10 og 20 kroner.",
+        "Legge sammen myntverdier for å nå et nøyaktig beløp.",
+        "Holde en løpende sum mens man velger mynter.",
+        "Forstå at verdien til en mynt ikke henger sammen med størrelsen."
+      ],
+      "howToPlay": [
+        "Les beløpet for runden, for eksempel 40 kr.",
+        "Trykk mynter ned i skålen — 1, 5, 10 og 20 kroner — til summen stemmer.",
+        "Ikke helt riktig? Legg til eller ta bort mynter og prøv igjen — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan telle ut mynter for å lage et gitt beløp i kroner.",
+        "Barnet kjenner verdien til de norske kronemyntene.",
+        "Barnet bygger pengeforståelsen som trengs i hverdagen og når man handler."
+      ]
+    },
+    "numberbond.subtraction-unknown-addend.1-oa-b-4": {
+      "about": [
+        "Et subtraksjonsstykke som 8 − 3 vises som et tallvennhus — det hele tallet (8) og den ene delen (3) er gitt — og barnet fyller inn den delen som mangler. Dette er en gratis, interaktiv matteaktivitet for 1. trinn som kjører rett i nettleseren — uten innlogging.",
+        "Den store ideen er å lese subtraksjon som «hva skal til sammen med 3 for å bli 8?» — en manglende del, ikke en ren bort-telling. Barnet fyller den tomme delen til de to delene bygger opp det hele tallet igjen, så den dype sammenhengen mellom subtraksjon og addisjon er nettopp det de gjør, med runder der det hele tallet kommer opp i 16.",
+        "Aktiviteten følger LK20 innenfor addisjon og subtraksjon innenfor tjue — å forstå subtraksjon som å finne en manglende del. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Se et subtraksjonsstykke som et helt tall med én del som mangler.",
+        "Tenke «hva skal legges til den kjente delen for å bli det hele tallet?».",
+        "Fylle den manglende delen til begge delene bygger opp det hele tallet igjen.",
+        "Koble subtraksjon til addisjon (3 og 5 blir 8)."
+      ],
+      "howToPlay": [
+        "Se på tallvennhuset — det hele tallet og den ene delen er gitt, som 8 med 3.",
+        "Fyll den manglende delen til de to delene blir det hele tallet, og trykk så på Sjekk.",
+        "Ikke helt riktig? Juster delen og sjekk på nytt — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan forstå subtraksjon som å finne en manglende del.",
+        "Barnet kan finne den delen som mangler når det hele tallet og den ene delen er kjent.",
+        "Barnet ser hvordan addisjon og subtraksjon opphever hverandre."
+      ]
+    },
+    "place-value.expanded-form.2-nbt-a-3": {
+      "about": [
+        "Barnet bygger et tresifret tall med klosser i titallssystemet — det trykker inn hundrerplater, tierstaver og enerterninger — og når byggingen er riktig, viser klossene den utvidede formen, så 247 blir 200 + 40 + 7. Tallene går fra 108 opp til 974, og noen er ekstra lure, som 305. Dette er en gratis, interaktiv matteaktivitet for 2. trinn som kjører rett i nettleseren — uten konto.",
+        "Den store ideen er at et tall er summen av det hvert siffer er verdt. Når barnet bygger 247 av to hundrere, fire tiere og sju enere, ser det at 4-tallet betyr 40, ikke bare «fire». Tall med null er de beste lærerne her: 305 viser at en tom tierplass ikke legger til noe, så den utvidede formen er bare 300 + 5. Klossene kobler sifrene til den ekte verdien sin.",
+        "Aktiviteten følger LK20 innenfor tall og regning — å lese og skrive tresifrede tall i utvidet form. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Bygge et tresifret tall av hundrere, tiere og enere.",
+        "Lese tallet i utvidet form, som 247 = 200 + 40 + 7.",
+        "Se at verdien til hvert siffer avhenger av plassen det står på.",
+        "Mestre tall med en tom plass, som 305 = 300 + 5."
+      ],
+      "howToPlay": [
+        "Trykk for å legge til hundrerplater, tierstaver og enerterninger til du bygger måltallet.",
+        "Når byggingen er riktig, viser klossene den utvidede formen, som 200 + 40 + 7.",
+        "Gå videre til neste tall — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan lese og skrive tresifrede tall i utvidet form.",
+        "Barnet forstår at et tall er summen av plassverdiene sine.",
+        "Barnet bygger plassverdiforståelsen som støtter å legge sammen og sammenligne tall."
+      ]
+    },
+    "ten-frame.solve-the-story.k-oa-a-2": {
+      "about": [
+        "«3 fugler sitter på en gren, 2 til lander — hvor mange er det nå?» En liten fortelling dukker opp, barnet viser den med brikker på en tierramme for å avgjøre om noe skal legges til eller tas bort, og taster så svaret på tastaturet. Denne gratis, interaktive matteaktiviteten for barnehage og skolestart dekker tekstoppgaver innenfor 10 og kjører i nettleseren — uten konto.",
+        "Tekstoppgaver er der tallene møter mening. Barnet må avgjøre om fortellingen legger grupper sammen eller tar noe bort, og det er vanskeligere enn å få utdelt et pluss- eller minustegn. Tierrammen er en hjelp barnet kan bruke til å spille fortellingen ut, men svaret skrives på tastaturet — så arbeidet er å lese, velge regnearten og deretter telle for å være sikker.",
+        "Aktiviteten følger LK20 innenfor addisjon og subtraksjon — å løse tekstoppgaver innenfor 10 ved å bruke ting eller tegninger til å vise oppgaven. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Lese en kort fortelling og avgjøre om man skal legge til eller trekke fra.",
+        "Vise en tekstoppgave med brikker på en tierramme.",
+        "Løse addisjons- og subtraksjonssituasjoner innenfor 10.",
+        "Taste svaret på et virkelig spørsmål om antall."
+      ],
+      "howToPlay": [
+        "Les tekstoppgaven, som at 3 fugler sitter og 2 til lander.",
+        "Bruk brikker på tierrammen til å spille den ut, tast så inn hvor mange det er på tastaturet, og trykk på Sjekk.",
+        "Ikke helt riktig? Les fortellingen på nytt og prøv igjen — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan løse tekstoppgaver med addisjon og subtraksjon innenfor 10.",
+        "Barnet kan velge riktig regneart ut fra meningen i en fortelling.",
+        "Barnet bygger problemløsningsvanene som senere matematikk hviler på."
+      ]
+    },
+    "choice-board.count-sides.k-g-b-4": {
+      "about": [
+        "Én mangekant dukker opp om gangen, og barnet teller de rette sidene og trykker på tallet som passer — en trekant med 3 sider, et kvadrat med 4, en femkant med 5 eller en sekskant med 6. Tallene barnet kan velge mellom hentes fra et utvalg fra 3 til 8. Dette er en gratis og interaktiv geometriaktivitet for skolestart som spilles rett i nettleseren på nettbrett, telefon eller skolens datamaskin — ingenting å laste ned og ingen konto.",
+        "Den store ideen er at en form er mer enn navnet sitt — den er satt sammen av deler du kan telle. Barnet kan ikke vinne ved bare å kjenne igjen «en trekant»; det må følge hver kant med øynene og telle sidene én etter én. Fordi tallene ligger tett — som 5 ved siden av 6 — kommer en telling som bommer med én tydelig fram, og det lokker fram rolig telling med fingeren på hver side i stedet for et raskt gjett.",
+        "Aktiviteten følger LK20 innenfor geometri — å undersøke former ut fra delene deres, som antall sider. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for skolestart og 1. trinn."
+      ],
+      "practices": [
+        "Telle de rette sidene på en trekant, et kvadrat, en femkant og en sekskant.",
+        "Koble en form til et tall — hvor mange sider den har, ikke bare hva den heter.",
+        "Telle nøye én side om gangen i stedet for å gjette antallet med en gang.",
+        "Skille former fra hverandre ut fra delene, som fem sider mot seks."
+      ],
+      "howToPlay": [
+        "Se på formen på brettet og tell de rette sidene, én etter én.",
+        "Trykk på tallet som passer med hvor mange sider du telte, og trykk så på Sjekk.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan telle antall sider på vanlige former.",
+        "Barnet kan beskrive en form ut fra delene, ikke bare navngi den.",
+        "Barnet bygger den nøyaktige tellevanen og formforståelsen som senere geometri hviler på."
+      ]
+    },
+    "choice-board.pick-smaller.k-c-c-7": {
+      "about": [
+        "To skrevne tall vises, og barnet trykker på det minste — for eksempel 3 og 5, eller 8 og 9. Noen par ligger langt fra hverandre, som 1 og 9, og noen ligger helt inntil hverandre, som 5 og 6. Dette er en gratis og interaktiv telleaktivitet for skolestart som spilles rett i nettleseren, uten konto og uten innlogging.",
+        "Den store ideen er å sammenligne sifre ut fra verdi mens man leter etter det som er minst i stedet for mest — en liten, men viktig vri på oppmerksomheten. Uten gjenstander å telle leser barnet hvert tall og avgjør hvilket som er færrest. Naboparene gjør det ekte: det at 8 kommer rett før 9, er nettopp det som forteller deg at 8 er det minste.",
+        "Aktiviteten følger LK20 innenfor tall og telling — å sammenligne to tall mellom 1 og 10 i sifferform. Det er ingen tidtaker og ingen poeng, bare rolig lek med tall for skolestart og 1. trinn."
+      ],
+      "practices": [
+        "Sammenligne to skrevne tall fra 1 til 10 og finne det minste.",
+        "Lese sifre og kjenne verdien deres uten å telle gjenstander.",
+        "Flytte oppmerksomheten over til det som er minst i stedet for mest.",
+        "Klare nære par som 8 og 9, ikke bare par som ligger langt fra hverandre."
+      ],
+      "howToPlay": [
+        "Se på de to tallene på brettet.",
+        "Trykk på det som er minst, og trykk så på Sjekk.",
+        "Prøv igjen når som helst — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan sammenligne skrevne tall fra 1 til 10 og velge det minste.",
+        "Barnet kjenner verdien hvert siffer står for, uten å telle.",
+        "Barnet bygger sammenligningssansen som ligger bak å tenke «mindre enn» senere."
+      ]
+    },
+    "choice-board.read-sight-word.rf-k-3-c": {
+      "about": [
+        "Barnet hører et vanlig høyfrekvent ord lest høyt, og trykker så på det skrevne ordet som passer, blant valg som ligner — hverdagsord som «og», «er», «det», «som», «på», «en», «de» og «ikke» som dukker opp hele tiden i tidlige tekster. Dette er en gratis og interaktiv leseaktivitet for 2. trinn som spilles rett i nettleseren på nettbrett, telefon og datamaskin — ingenting å laste ned og ingen konto.",
+        "Den store ideen er å kjenne igjen vanlige ord som ordbilder, med en gang, slik at lesingen kan flyte. Mange av disse ordene lar seg ikke lydere ut helt rett fram, så de gale valgene er nære slektninger — «er» ved siden av «en», «det» ved siden av «de» — og barnet må kjenne akkurat det riktige ordet, ikke bare en lignende form. Å høre ordet og finne det på trykk knytter lyd til skrift for de ordene barna møter aller mest.",
+        "Aktiviteten følger LK20 innenfor tidlig lesetrening — å lese vanlige høyfrekvente ord som ordbilder. Det er ingen tidtaker og ingen poeng, bare rolig og lekende lesetrening for 2. trinn."
+      ],
+      "practices": [
+        "Kjenne igjen vanlige ordbilder som «og», «er», «det» og «som».",
+        "Koble et ord barnet hører til den skrevne formen.",
+        "Skille ord som ligner fra hverandre, som «er» og «en», eller «det» og «de».",
+        "Bygge den raske ordgjenkjenningen som gjør lesingen flytende."
+      ],
+      "howToPlay": [
+        "Lytt til ordet som leses høyt — trykk for å høre det igjen hvis du vil.",
+        "Trykk på det skrevne ordet som passer med det du hørte, og trykk så på Sjekk.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan lese vanlige høyfrekvente ord som ordbilder.",
+        "Barnet kan koble et hørt ord til den nøyaktige skrivemåten blant ord som ligner.",
+        "Barnet bygger ordbildelageret som frigjør oppmerksomhet til å forstå det det leser."
+      ]
+    },
+    "choice-board.letter-case.rf-k-1-d": {
+      "about": [
+        "Én bokstav vises, og barnet trykker på den samme bokstaven i den andre formen — fra stor til liten, eller fra liten til stor. En stor B vises, og barnet finner den lille b; en stor R finner r; en stor E finner e. Hele det norske alfabetet er med, også æ, ø og å. Dette er en gratis og interaktiv leseaktivitet for skolestart som spilles rett i nettleseren, uten konto.",
+        "Den store ideen er at hver bokstav har to utseender som navngir den samme bokstaven. De gale valgene er bevisst nære — for B er de små bokstavene barnet kan velge mellom b, d, p og h — så barnet må kjenne den ekte formen på bokstaven, ikke bare velge noe rundt. Å sortere ut bokstavene som vender og snur seg, som b og d, er nettopp den nøyaktige kikkingen som bygger trygg bokstavkjennskap.",
+        "Aktiviteten følger LK20 innenfor bokstavkjennskap — å kjenne igjen og navngi store og små bokstaver i alfabetet. Det er ingen tidtaker og ingen poeng, bare rolig og trygg lek med bokstaver for skolestart og 1. trinn."
+      ],
+      "practices": [
+        "Koble en stor bokstav til den lille formen, og motsatt.",
+        "Kjenne igjen den samme bokstaven i både stor og liten form.",
+        "Skille bokstaver som ligner fra hverandre, som b, d og p.",
+        "Bygge den trygge bokstavkjennskapen som flytende lesing trenger."
+      ],
+      "howToPlay": [
+        "Se på bokstaven som vises på brettet.",
+        "Trykk på den bokstaven som passer i den andre formen — stor eller liten — og trykk så på Sjekk.",
+        "Prøv igjen når som helst — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan kjenne igjen og navngi store og små bokstaver.",
+        "Barnet kan koble bokstavens to former sammen som én bokstav.",
+        "Barnet får ro på bokstavene som ligner og som unge lesere ofte blander."
+      ]
+    },
+    "fractions.partition-thirds.2-g-a-3": {
+      "about": [
+        "En sirkel, trekant, sekskant, kvadrat, rektangel, rombe eller ellipse vises, og barnet trykker på snittlinjene for å dele den i tre like store deler — tredeler. Dette er en gratis og interaktiv geometriaktivitet for 1.–2. trinn som spilles i nettleseren på alle enheter, uten nedlasting og uten konto.",
+        "Den store ideen er at tredeler er vanskeligere enn halvdeler, fordi tre like store deler ikke faller på en opplagt midtlinje. En sirkel deles med tre linjer fra midten, et rektangel i tre like striper, en trekant i tre like store deler — slik lærer barnet at «tredeler» betyr tre like store deler uansett hvordan formen er delt. Å gjøre snittene selv bygger en følelse for like deling som det å bare se på et bilde ikke kan gi.",
+        "Aktiviteten følger LK20 innenfor geometri — å dele sirkler, kvadrater og rektangler i to, tre og fire like store deler og bruke ordet tredeler om delene. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for 1. og 2. trinn."
+      ],
+      "practices": [
+        "Dele en form i 3 like store deler.",
+        "Lage tredeler i sirkler, rektangler, trekanter og flere former.",
+        "Holde alle tre delene like store.",
+        "Bruke ordet tredeler om tre like store deler."
+      ],
+      "howToPlay": [
+        "Se på formen du skal dele i 3 like store deler.",
+        "Trykk på snittlinjene for å lage tredeler.",
+        "Sjekk at de tre delene er like store — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan dele former i tre like store deler og kalle dem tredeler.",
+        "Barnet forstår at tredeler må være tre like store deler, uansett hvordan formen er delt.",
+        "Barnet styrker forståelsen av like deling som brøk bygger videre på."
+      ]
+    },
+    "match-pairs.find-the-missing-number.1-oa-d-8": {
+      "about": [
+        "Barnet løser kort som ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 og 10 − ? = 6, og trykker så på regnestykket og tallet som fullfører det for å koble paret sammen. Dette er en gratis og interaktiv matteaktivitet for 1. trinn som spilles rett i nettleseren, uten nedlasting og uten konto.",
+        "Den store ideen er at det ukjente kan stå hvor som helst — et ledd som mangler, tallet som skal trekkes fra, starttallet eller helheten — så barnet må tenke gjennom sammenhengen hver gang, i stedet for alltid å «legge til for å finne svaret». Noen ganger er den tomme ruta hele svaret (5 + 4 = ?), og noen ganger er den gjemt inne i oppgaven (? − 4 = 1), og det bygger ekte fleksibilitet med tallfamilier.",
+        "Aktiviteten følger LK20 innenfor tall og regning — å finne det ukjente tallet i en pluss- eller minusoppgave, hvor som helst i oppgaven. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for 1. trinn."
+      ],
+      "practices": [
+        "Finne et ledd som mangler, tallet som skal trekkes fra, starttallet eller helheten.",
+        "Bruke sammenhengen mellom pluss og minus til å finne det ukjente.",
+        "Telle videre eller telle tilbake for å finne en del som mangler.",
+        "Koble hvert regnestykke til tallet som gjør det riktig."
+      ],
+      "howToPlay": [
+        "Les et kort med en tom rute, som ? + 7 = 10, og regn ut tallet som mangler.",
+        "Trykk på regnestykket, og trykk så på tallet som gjør det riktig, og se paret kobles sammen.",
+        "Koble begge parene i runden — det er ingen tidtaker og ingen poeng, så ta den tiden du trenger."
+      ],
+      "learningGoals": [
+        "Barnet kan finne det ukjente tallet i en pluss- eller minusoppgave, hvor som helst i oppgaven.",
+        "Barnet forstår hvordan pluss og minus opphever hverandre.",
+        "Barnet bygger fleksibel tenkning med tallfamilier i stedet for én fast fremgangsmåte."
+      ]
+    },
+    "money.make-change.2-md-c-8": {
+      "about": [
+        "Noe koster 70 kr og du betaler 100 kr — barnet gir tilbake riktige vekslepenger, her 30 kr som en 20-krone og en 10-krone, ved å trykke mynter ned i skålen. Å regne ut differansen og bygge den opp av 1-, 5-, 10- og 20-kroner kobler subtraksjon sammen med å telle ekte mynter, i en gratis og interaktiv pengeaktivitet for 2. trinn som spilles rett i nettleseren, uten nedlasting og uten konto.",
+        "Den store ideen er at vekslepenger er differansen mellom det som ble betalt og det noe koster. Barnet regner først ut hvor mye som skal tilbake, og bygger så det beløpet opp av mynter det velger selv — 1, 5, 10 og 20 kroner. Fordi verdien ikke står skrevet på hver mynt, må barnet vite hva hver enkelt er verdt og telle seg opp til vekslepengene det skylder.",
+        "Aktiviteten følger LK20 innenfor måling og praktisk pengeregning — å løse pengeoppgaver med norske kroner og mynter. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for 2. trinn."
+      ],
+      "practices": [
+        "Finne vekslepengene som differansen mellom det betalte og det noe koster.",
+        "Bygge et vekslebeløp opp av 1-, 5-, 10- og 20-kroner.",
+        "Koble subtraksjon sammen med å telle ekte mynter.",
+        "Telle seg opp fra prisen til beløpet som ble betalt."
+      ],
+      "howToPlay": [
+        "Les hva varen koster og hva du betaler, for eksempel at den koster 85 kr og du betaler 100 kr.",
+        "Regn ut vekslepengene, og trykk så mynter ned i skålen for å gi tilbake riktig beløp.",
+        "Ikke helt riktig? Juster myntene og prøv igjen — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan gi tilbake riktige vekslepenger med mynter i pengeoppgaver.",
+        "Barnet forstår vekslepenger som differansen mellom pris og beløpet som ble betalt.",
+        "Barnet styrker subtraksjon og myntelling sammen, med norske kroner."
+      ]
+    },
+    "numberbond.add-three.1-oa-a-2": {
+      "about": [
+        "En tredelt tallvenn binder tre tall sammen, som 3, 4 og 5, til én helhet, og barnet legger sammen alle tre og skriver summen på tastaturet. Dette er en gratis og interaktiv matteaktivitet for 1. trinn som spilles rett i nettleseren, uten konto.",
+        "Å se tre deler mate inn i én helhet viser at du kan slå sammen tall i hvilken som helst rekkefølge og steg for steg. Par som 4 + 4 + 5 inviterer i det stille til å lage et vennlig tall først, og så legge til den siste delen. Barnet leser de tre delene og skriver summen; prikkene inne i hver del er der å telle når et regnefakta ennå ikke sitter automatisk.",
+        "Aktiviteten følger LK20 innenfor tall og regning — å legge sammen tre tall med en sum opptil 20. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for 1. trinn."
+      ],
+      "practices": [
+        "Lese tre deler i en tallvenn og se dem bli til én helhet.",
+        "Legge sammen tre ensifrede tall med en sum opptil 20.",
+        "Velge en lur rekkefølge — legg sammen de to som blir ti eller et vennlig tall først.",
+        "Skrive summen som navngir helheten."
+      ],
+      "howToPlay": [
+        "Se på de tre delene i tallvennen, som 3 + 4 + 5.",
+        "Legg sammen alle tre tallene og skriv summen på tastaturet, og trykk så på Sjekk.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan legge sammen tre tall med en sum opptil 20.",
+        "Barnet kan se tre deler bli til én helhet i en tallvenn.",
+        "Barnet kan legge sammen i en lur rekkefølge ved å lage ti eller et vennlig tall først."
+      ]
+    },
+    "sort-bins.sort-by-sides.2-g-a-1": {
+      "about": [
+        "Hver runde slipper ned en bunke former — rette og butte trekanter, kvadrater, romber, uregelmessige femkanter og sekskanter — og barnet teller sidene på hver enkelt og drar den ned i riktig boks. Dette er en gratis og interaktiv geometriaktivitet for 2. trinn som spilles i nettleseren, uten konto.",
+        "Det viktigste grepet er å telle sidene i stedet for å kjenne igjen et bilde fra hukommelsen, for en strukket eller skråstilt femsidet form er fortsatt en femkant. Ved å møte uregelmessige og roterte former ved siden av de pene øver barnet på å bruke antall sider som regelen som navngir en mangekant. Det bygger ordforrådet — firkant, femkant, sekskant — og vanen med å undersøke former ut fra delene deres.",
+        "Aktiviteten følger LK20 innenfor geometri — å kjenne igjen og tegne former med bestemte egenskaper som et gitt antall sider, og å gjenkjenne trekanter, firkanter, femkanter og sekskanter. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for 2. trinn."
+      ],
+      "practices": [
+        "Telle sidene på en form for å avgjøre hvilken mangekantgruppe den hører til.",
+        "Skille trekanter, firkanter, femkanter og sekskanter fra hverandre ut fra antall sider.",
+        "Kjenne igjen den samme mangekanten når den er uregelmessig, strukket eller rotert.",
+        "Bruke ordene firkant, femkant og sekskant riktig."
+      ],
+      "howToPlay": [
+        "Se på hver form og tell hvor mange sider den har.",
+        "Dra den ned i riktig boks — trekanter, firkanter, femkanter eller sekskanter.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan gjenkjenne trekanter, firkanter, femkanter og sekskanter ut fra sidene.",
+        "Barnet forstår at antall sider, ikke utseendet, navngir en mangekant.",
+        "Barnet bygger formordforrådet og tellevanen som senere geometri hviler på."
+      ]
+    },
+    "ten-frame.quick-facts-to-5.k-oa-a-5": {
+      "about": [
+        "Et raskt regnefakta dukker opp — 2 + 1, 5 − 2, 4 − 1 — og barnet trykker på riktig svar blant tre tall som ligger tett, med en tierramme ved siden av som en valgfri kladdetavle. Målet er rask og trygg gjenkjenning av regnefakta innenfor 5. Denne gratis og interaktive matteaktiviteten for skolestart spilles i nettleseren, uten konto.",
+        "Sikkerhet innenfor 5 er broen mellom telling og ekte regning. De tre svaralternativene ligger tett — for 2 + 2 er valgene 3, 4 og 5 — så barnet kan ikke vinne ved å velge det største eller minste; det må kjenne regnefaktaet eller regne det ut på rammen. Gjennom rundene begynner regnefakta barnet først talte seg fram til, å komme med en gang, og det er nettopp det å være sikker betyr.",
+        "Aktiviteten følger LK20 innenfor tall og regning — å legge sammen og trekke fra med sikkerhet innenfor 5. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for skolestart og 1. trinn."
+      ],
+      "practices": [
+        "Hente fram pluss- og minusfakta innenfor 5.",
+        "Skille svar som ligger tett fra hverandre, som 3, 4 og 5.",
+        "Bruke tierrammen til å kontrollere et regnefakta når man er usikker.",
+        "Bygge fart og trygghet med regnefakta med små tall."
+      ],
+      "howToPlay": [
+        "Les det raske regnefaktaet, som 3 + 2 eller 5 − 2.",
+        "Trykk på svaret du tror er riktig blant de tre valgene — kikk på tierrammen hvis du vil kontrollere.",
+        "En varm bekreftelse viser et riktig svar og tilbyr en enkel ny sjanse når det trengs."
+      ],
+      "learningGoals": [
+        "Barnet kan legge sammen og trekke fra med sikkerhet innenfor 5.",
+        "Barnet kan gå fra å telle seg fram til regnefakta til å hente dem fram raskt.",
+        "Barnet bygger den regnesikkerheten som pluss og minus på 1. trinn hviler på."
+      ]
+    },
+    "choice-board.pick-bigger.k-c-c-7": {
+      "about": [
+        "To skrevne tall dukker opp side om side, og barnet trykker på det største — for eksempel 7 og 6, eller 8 og 7. Noen par ligger langt fra hverandre, som 9 og 2, mens andre ligger helt inntil hverandre, som 8 og 7. Det er en gratis, interaktiv telleaktivitet for barnehage og skolestart som kjører rett i nettleseren på nettbrett, telefon og datamaskin — ingen nedlasting og ingen konto.",
+        "Den store ideen er å sammenligne tall slik de er skrevet med siffer, ikke som grupper med ting man kan telle. Det finnes ingen bilder å støtte seg på — barnet må vite at 8 er mer enn 7 bare ved å lese sifrene. Det er de nære parene som gjør dette til ekte øving: barnet kan ikke vinne ved å peke på et tall som bare «ser større ut», men må kjenne verdien hvert siffer står for.",
+        "Aktiviteten er tilpasset LK20 innenfor området tall — å sammenligne to tall mellom 1 og 10 i sifferform. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Sammenligne to skrevne tall fra 1 til 10 og finne det største.",
+        "Lese siffer og kjenne verdien deres uten å telle gjenstander.",
+        "Klare nære par som 8 og 7, ikke bare tall som ligger langt fra hverandre.",
+        "Bygge en følelse for hvilket tall som er størst."
+      ],
+      "howToPlay": [
+        "Se på de to tallene på brettet.",
+        "Trykk på det som er størst, og trykk så på Sjekk.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan sammenligne skrevne tall fra 1 til 10 og velge det største.",
+        "Barnet kjenner verdien hvert siffer står for, uten å telle.",
+        "Barnet bygger den sammenligningssansen som senere ligger til grunn for større enn og mindre enn."
+      ]
+    },
+    "choice-board.how-many-group.k-c-c-b-5": {
+      "about": [
+        "En gruppe vennlige bilder dukker opp — som én ugle, fire rever eller åtte elefanter — og barnet teller gjenstandene og trykker på tallet som passer. Det er en gratis, interaktiv telleaktivitet for barnehage og skolestart som kjører rett i nettleseren på nettbrett, telefon eller en datamaskin i klasserommet — ingenting å installere og ingen konto.",
+        "Den store ideen er antallsforståelse — at det siste tallet du sier når du teller, forteller hvor mange det er til sammen. Fordi gjenstandene ligger på rekke, i små rutenett og i spredte klynger, kan ikke barnet stole på et mønster det husker, men må telle hvert bilde én og bare én gang. Tallvalgene ligger tett, som 7, 8 og 9, så en telling som bommer med én blir synlig og inviterer til en ny, nøyaktig opptelling.",
+        "Aktiviteten er tilpasset LK20 — å telle for å svare på «hvor mange er det?» for opptil 10 gjenstander på rekke, i et rutenett eller spredt utover. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Telle opptil 10 gjenstander og si hvor mange det er til sammen.",
+        "Telle hvert bilde nøyaktig én gang, enten det ligger på rekke eller spredt.",
+        "Koble et opptalt antall til det riktige skrevne tallet.",
+        "Bygge antallsforståelse — at det siste tallet man teller er totalen."
+      ],
+      "howToPlay": [
+        "Se på gruppen med bilder og tell dem nøye, ett om gangen.",
+        "Trykk på tallet som passer til hvor mange du telte, og trykk så på Sjekk.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan telle opptil 10 gjenstander uansett hvordan de ligger, og navngi totalen.",
+        "Barnet kan knytte en telling til det skrevne tallet.",
+        "Barnet bygger én-til-én-telling og antallsforståelse, som all senere matematikk hviler på."
+      ]
+    },
+    "choice-board.tell-words-apart.rf-k-3-c": {
+      "about": [
+        "Barnet hører et vanlig ord lest høyt og skal skille det fra tre ord som ser nesten like ut — for eksempel «var» blant «vår», «far» og «varm», eller «de» blant «det», «den» og «der». Det er en gratis, interaktiv leseaktivitet med lyd for 2. trinn, som kjører i nettleseren uten innlogging og uten konto, og som skjerper de høyfrekvente ordene barn oftest blander sammen.",
+        "Disse ordene ser nesten like ut, så et raskt blikk er ikke nok. Barnet må holde det hørte ordet i hodet og se gjennom de skrevne valgene bokstav for bokstav for å finne det som stemmer helt — og legge merke til at «var» ikke er «vår» med en annen vokal, og at «de» ikke er «det» uten en bokstav. Den nøyaktige lesingen er det som gjør usikker gjetting om til den raske og presise ordgjenkjenningen som flytende lesing er avhengig av.",
+        "Aktiviteten er tilpasset LK20 sitt mål om at elevene på 2. trinn skal lese og kjenne igjen høyfrekvente ord med trygghet. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Holde et hørt ord i hodet mens man ser gjennom de skrevne valgene.",
+        "Skille ord som ligner, som «var» og «vår», «de» og «det».",
+        "Lese hele ordet helt til slutt i stedet for å gjette ut fra første bokstav.",
+        "Bygge rask og nøyaktig gjenkjenning av vanlige høyfrekvente ord."
+      ],
+      "howToPlay": [
+        "Trykk for å høre ordet, og lytt så mange ganger du vil.",
+        "Se på valgene og trykk på det som passer til ordet du hørte, og trykk så på Sjekk.",
+        "Blandet du dem sammen? Prøv igjen — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan lese vanlige høyfrekvente ord med trygghet.",
+        "Barnet kan skille ord som ligner, som de tidlige leserne oftest forveksler.",
+        "Barnet bygger ordflyt som frigjør oppmerksomhet til å forstå det som leses."
+      ]
+    },
+    "choice-board.beginning-sound.rf-k-3-a": {
+      "about": [
+        "Én enkelt bokstav dukker opp — som D, F eller M — og barnet trykker på bildet hvis navn begynner med den samme lyden, og velger blant kjente grupper som dyr, mat og hverdagslige ting (en hund, en fisk, en elg, en tiger). Det er en gratis lyd- og bokstavaktivitet for skolestart som kjører rett i nettleseren, uten noe å installere og uten konto.",
+        "Hver runde viser ett riktig bilde og tre som begynner med andre lyder, så barnet kan ikke bare gjette — det må si navnet på hvert bilde og lytte etter den aller første lyden. Å koble bokstaven D til /d/-lyden først i «hund» er den grunnleggende forbindelsen mellom bokstav og lyd, og når man hører den mot fisk, kanin og tiger, blir den første lyden tydelig.",
+        "Aktiviteten støtter tidlig lese- og skriveopplæring etter LK20 — å kjenne lyden hver bokstav står for. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Koble en bokstav til lyden den lager.",
+        "Si navnet på et bilde og lytte etter den første lyden.",
+        "Koble begynnelseslyden til bokstaven som vises.",
+        "Skille den riktige første lyden fra tre andre begynnelseslyder."
+      ],
+      "howToPlay": [
+        "Se på bokstaven øverst, som D, og si lyden dens.",
+        "Trykk på bildet hvis navn begynner med den lyden, blant de fire valgene.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan kjenne lyden hver bokstav lager.",
+        "Barnet kan høre og koble den første lyden i et ord til riktig bokstav.",
+        "Barnet bygger forbindelsen mellom bokstav og lyd, som lydering og lesing er avhengig av."
+      ]
+    },
+    "fractions.make-and-count-squares.2-g-a-2": {
+      "about": [
+        "Barnet trykker på de stiplede linjene for å dele et rektangel i rader og kolonner med like store kvadrater — 2 rader og 3 kolonner, 3 rader og 4 kolonner, opp til 4 rader og 5 kolonner — og skriver deretter hvor mange kvadrater det er til sammen. Det er en gratis, interaktiv geometriaktivitet for 2. trinn som kjører i nettleseren på alle enheter, uten noe å installere og uten konto.",
+        "Den store ideen er at et rektangel kan deles i like store kvadrater som ligger i ryddige rader og kolonner, og at akkurat denne strukturen hjelper deg å telle dem. Fordi barnet lager rutenettet selv og deretter teller, begynner det å kjenne at 3 rader med 4 kvadrater betyr å telle med like store grupper — den stille starten på rutenett og multiplikasjon. Alle kvadratene er like store med vilje, så «hvor mange» blir en ekte total av like store deler.",
+        "Aktiviteten er tilpasset kompetansemålene i matematikk for 2. trinn i LK20 — å dele et rektangel i rader og kolonner med like store kvadrater og telle hvor mange det er til sammen. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Dele et rektangel i like store rader og kolonner med kvadrater.",
+        "Lage et rutenett ved å trykke på delelinjene.",
+        "Telle kvadratene for å finne totalen i rektangelet.",
+        "Legge merke til rad- og kolonnestrukturen som leder mot rutenett og multiplikasjon."
+      ],
+      "howToPlay": [
+        "Trykk på de stiplede linjene for å lage rader og kolonner med like store kvadrater.",
+        "Bygg det rutenettet runden ber om, for eksempel 3 rader og 4 kolonner.",
+        "Skriv hvor mange kvadrater det er til sammen — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan dele et rektangel i like store kvadrater og telle totalen.",
+        "Barnet kan se et rektangel som rader og kolonner med like store deler.",
+        "Barnet bygger grunnlaget for rutenett som forbereder det på multiplikasjon."
+      ]
+    },
+    "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
+      "about": [
+        "Barnet leser en sammenligning som 247 ___ 274 eller 583 ___ 419, og kobler den til symbolet som gjør den sann — mindre enn (<) eller større enn (>) — ved å trykke på sammenligningskortet og deretter på riktig symbol. Det er et gratis, interaktivt matematikkspill med kortmatching for 2. trinn, som kjører rett i nettleseren — ingen nedlasting og ingen konto.",
+        "Den store ideen er å sammenligne ut fra plassverdi, hundrerne først. Parene er valgt slik at barnet ikke kan stole på et raskt blikk: tall som 655 og 658 har samme hundrere og tiere, så det er enerne som avgjør, mens 480 og 408 tvinger fram et blikk på tierne. Å jobbe fra venstre mot høyre — hundrere, så tiere, så enere — er nettopp den tenkningen matchingen lar barnet øve på.",
+        "Aktiviteten er tilpasset LK20 — å sammenligne to tresifrede tall med symbolene >, = og < ut fra verdien av hundrerne, tierne og enerne. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Sammenligne tresifrede tall ved å se på hundrerne, så tierne, så enerne.",
+        "Velge riktig symbol, < eller >, så sammenligningen blir sann.",
+        "Skille nære tall som 655 og 658 ved hjelp av sifferet som avgjør.",
+        "Lese og resonnere om plassverdi i tall opp til 1000."
+      ],
+      "howToPlay": [
+        "Les et sammenligningskort som 406 ___ 460 og avgjør hvilket tall som er størst.",
+        "Trykk på sammenligningen, og trykk så på symbolet — < eller > — som gjør den sann, og se paret kobles.",
+        "Koble begge sammenligningene i runden — det er ingen tidtaker og ingen poeng, så ta deg god tid."
+      ],
+      "learningGoals": [
+        "Barnet kan sammenligne to tresifrede tall med symbolene >, = og <.",
+        "Barnet kan bruke plassverdi, hundrerne først, for å avgjøre hvilket tall som er størst.",
+        "Barnet bygger trygg tallforståelse med tall opp til 1000."
+      ]
+    },
+    "numberbond.make-ten.k-oa-a-4": {
+      "about": [
+        "Helheten er 10 og den ene delen av tallbindingen er allerede fylt — for eksempel 7 — og barnet trykker på den tomme delen for å legge til brikker til de to delene til sammen blir 10. Det er en gratis, interaktiv matematikkaktivitet for barnehage og skolestart som kjører rett i nettleseren, uten konto og uten innlogging.",
+        "Hvert tall fra 1 til 9 har en venn som fullfører ti, og her bygger barnet den vennen ved å legge til brikker én om gangen og se de to delene vokse til 10 — ikke ved å lese et svar fra en side. Selve tallbindingen er svarflaten; barnet stopper når begge delene blir akkurat ti, så en del som er for liten eller for stor er lett å kjenne og rette opp.",
+        "Aktiviteten er knyttet til rammeverket LK20, og passer fint for barn på 5–6 år — å finne tallet som gjør 10 når det legges til et gitt tall. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Se helheten 10 delt i to deler i en tallbinding.",
+        "Legge brikker til den tomme delen, én om gangen.",
+        "Finne tiervennen som fullfører ti (7 og 3, 4 og 6).",
+        "Vite når begge delene til sammen blir akkurat 10."
+      ],
+      "howToPlay": [
+        "Se på tallbindingen — helheten er 10 og den ene delen er fylt.",
+        "Trykk på den tomme delen for å legge til brikker til begge delene blir 10, og trykk så på Sjekk.",
+        "For mange eller for få? Legg til eller fjern brikker og sjekk igjen — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan finne tallet som gjør 10 sammen med et gitt tall.",
+        "Barnet bygger tiervennene ved å legge til brikker, ikke ved å pugge.",
+        "Barnet legger grunnlaget for strategien å lage en tier i addisjon."
+      ]
+    },
+    "numberbond.story-problem.2-oa-a-1": {
+      "about": [
+        "Barnet leser en kort tekstoppgave — 20 røde tulipaner og 30 gule tulipaner, en hylle med 45 bøker, ender som kommer til en dam — ser den satt opp som en tallbinding, og skriver deretter tallet som mangler. Det er en gratis, interaktiv matematikkaktivitet for 2. trinn som kjører rett i nettleseren, uten konto.",
+        "Tallbindingen gjør hver fortelling om til det samme bildet: to deler og en helhet. Det lar barnet se om det ukjente er totalen, en del som er igjen, eller et antall man startet med. Noen oppgaver legger sammen (hvor mange er det til sammen), noen trekker fra (hvor mange er igjen, hvor mange kom), og tallbindingen gjør det valget tydelig i stedet for å gjette ut fra et nøkkelord.",
+        "Aktiviteten følger målene i LK20 — å løse tekstoppgaver med pluss og minus i ett trinn innenfor 100. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Lese en tekstoppgave og finne tallene som betyr noe.",
+        "Sette opp situasjonen som en del–del–helhet-tallbinding.",
+        "Avgjøre om man skal legge sammen eller trekke fra ut fra hvor det ukjente sitter.",
+        "Løse pluss- og minusoppgaver innenfor 100."
+      ],
+      "howToPlay": [
+        "Les tekstoppgaven som står over tallbindingen.",
+        "Finn ut hvilket tall som mangler — en total, en del eller et starttall — skriv det på tastaturet, og trykk så på Sjekk.",
+        "Ikke helt riktig? Les igjen og prøv én gang til; det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan løse tekstoppgaver med pluss og minus i ett trinn innenfor 100.",
+        "Barnet kan sette opp en fortelling som en del–del–helhet-tallbinding.",
+        "Barnet kan finne en ukjent total, del eller et starttall."
+      ]
+    },
+    "sort-bins.defining-attributes.1-g-a-1": {
+      "about": [
+        "Er det fortsatt en trekant om den er rød, stor eller på skrå? Én form blir navngitt hver runde, og barnet drar hver form i riktig boks ved å avgjøre hva den ER, ikke hvordan den ser ut — og sorterer ekte trekanter fra firkanter, femkanter og sekskanter. Det er en gratis, interaktiv geometriaktivitet for 1. trinn som kjører i nettleseren, uten noe å installere.",
+        "Hele ideen er forskjellen på en egenskap som definerer en form og en som ikke gjør det. En trekant er definert ved at den har tre sider — punktum — mens det å være rød, stor eller på skrå bare er hvordan akkurat denne trekanten tilfeldigvis ser ut. Ved å sortere eksempler mot fristende ikke-eksempler lærer barnet å se forbi overflaten og dømme ut fra egenskapen som faktisk betyr noe. Det er starten på ekte geometrisk tenkning.",
+        "Aktiviteten følger LK20 — å skille egenskaper som definerer en form fra egenskaper som ikke gjør det, og kjenne igjen former etter antall sider. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+      ],
+      "practices": [
+        "Avgjøre om en form hører til en navngitt gruppe ut fra antall sider.",
+        "Skille en definerende egenskap (antall sider) fra en ikke-definerende (farge, størrelse, retning).",
+        "Kjenne igjen trekanter og firkanter i mange former, ikke bare lærebokeksemplet.",
+        "Se forbi former som ligner og dømme en form ut fra hva som gjør den til den formen."
+      ],
+      "howToPlay": [
+        "Les den navngitte formen — for eksempel trekant — øverst i runden.",
+        "Dra hver form i riktig boks ved å avgjøre om den ER den formen, uansett farge, størrelse eller retning.",
+        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Barnet kan skille egenskaper som definerer en form fra dem som ikke gjør det.",
+        "Barnet forstår at en trekant er en trekant selv når farge, størrelse eller retning endrer seg.",
+        "Barnet bygger den egenskapsbaserte tenkningen som det å sortere og navngi former er avhengig av."
       ]
     }
   }

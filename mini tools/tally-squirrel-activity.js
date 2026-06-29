@@ -13,14 +13,15 @@
 
   var Core = global.AddStackCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A' };
+  var LANG = 'en';
 
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
 
   function squirrelSVG() {
-    return '<svg class="tsq-sq-svg" viewBox="0 0 100 100" role="img" aria-label="Tally the squirrel">' +
+    return '<svg class="tsq-sq-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Tally, das Eichhörnchen' : 'Tally the squirrel') + '">' +
       '<path d="M30 78 q-16 -6 -14 -26 q2 -14 16 -10 q-10 8 -4 20 q4 8 6 12 Z" fill="#A65B33"/>' +   /* bushy tail */
       '<ellipse cx="52" cy="66" rx="18" ry="17" fill="#C2703F"/>' +                  /* body */
       '<ellipse cx="52" cy="72" rx="11" ry="9" fill="#E8C49C"/>' +                  /* belly */
@@ -43,15 +44,17 @@
     id: 'tally-squirrel-activity',
 
     strings: {
-      title: { en: "Tally the Squirrel" },
-      instruction: { en: 'Tally fills the baskets with acorns. Add them all up and type the total.' },
-      prompt: { en: 'How many acorns in all?' },
-      hint: { en: 'Add the baskets one at a time — tens with tens, ones with ones.' }
+      title: { en: "Tally the Squirrel", de: 'Tallys Eichelkörbe' },
+      instruction: { en: 'Tally fills the baskets with acorns. Add them all up and type the total.', de: 'Tally füllt die Körbe mit Eicheln. Zähle alle zusammen und tippe die Summe ein.' },
+      prompt: { en: 'How many acorns in all?', de: 'Wie viele Eicheln sind es zusammen?' },
+      hint: { en: 'Add the baskets one at a time — tens with tens, ones with ones.', de: 'Zähle erst alle Zehner zusammen, dann alle Einer — und dann beides.' },
+      readAria: { en: 'hear the baskets', de: 'die Körbe anhören' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -81,13 +84,14 @@
       row.appendChild(stack);
       root.appendChild(row);
 
-      var read = api.el('button', 'tsq-read'); read.type = 'button'; read.setAttribute('aria-label', 'hear the baskets');
+      var read = api.el('button', 'tsq-read'); read.type = 'button'; read.setAttribute('aria-label', api.t('readAria'));
+      var sayLine = v.addends.join(' plus ') + (LANG === 'de' ? '. Wie viele sind das zusammen?' : '. How many in all?');
       read.innerHTML = '<span class="tsq-read-ic">🔊</span> ' + v.addends.join(' + ') + ' = ?';
-      read.addEventListener('click', function () { speak(v.addends.join(' plus ') + '. How many in all?'); });
+      read.addEventListener('click', function () { speak(sayLine); });
       root.appendChild(read);
 
       wrap.appendChild(root); stage.appendChild(wrap);
-      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(v.addends.join(' plus ') + '. How many in all?'); }, 320); }
+      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(sayLine); }, 320); }
     },
 
     reset: function () { this.setupTask(this.round); this.render(); },

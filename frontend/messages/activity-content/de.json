@@ -399,6 +399,29 @@
         "Füllmengen vergleichen und die abgelesene Zahl höher gewichten als den optischen Eindruck."
       ]
     },
+    "tally-squirrel.add-four.2-nbt-b-6": {
+      "about": [
+        "„Tally“ das Eichhörnchen sammelt Eicheln und füllt damit zwei bis vier Körbe. Auf jedem Korb steht eine zweistellige Zahl — zum Beispiel 23, 14, 11 und 8. Die Aufgabe für dein Kind: alle Zahlen in den Körben zusammenzählen und die Summe eintippen. So wird aus dem Sammeln eine echte Rechengeschichte im Zahlenraum bis 100.",
+        "Beim Addieren mehrerer zweistelliger Zahlen lohnt sich eine clevere Strategie: stellenweise rechnen. Dein Kind zählt erst alle Zehner zusammen, dann alle Einer — und fügt beides zum Ergebnis zusammen. Diese halbschriftliche Vorgehensweise stärkt das Stellenwertverständnis und das flexible Kopfrechnen, lange bevor das schriftliche Rechenverfahren in Klasse 3 an die Reihe kommt.",
+        "Die Aktivität ist kostenlos und vollständig interaktiv — passend zum Lehrplan der 2. Klasse im Bereich „Zahlen und Operationen“. Es gibt keinen Zeitdruck, keine Punkte und keine Bestenliste: Dein Kind rechnet in seinem eigenen Tempo, probiert Strategien aus und erlebt das Addieren als ruhige, freundliche Aufgabe."
+      ],
+      "practices": [
+        "Mehrere zweistellige Zahlen im Zahlenraum bis 100 addieren.",
+        "Stellenweise (halbschriftlich) rechnen: erst die Zehner, dann die Einer zusammenzählen.",
+        "Zahlen geschickt bündeln und Rechenvorteile nutzen.",
+        "Das Stellenwertverständnis (Zehner und Einer) festigen."
+      ],
+      "howToPlay": [
+        "Schau dir an, wie viele Körbe Tally gefüllt hat, und lies die Zahl auf jedem Korb.",
+        "Zähle alle Zahlen zusammen — am besten erst die Zehner, dann die Einer.",
+        "Tippe das Ergebnis ein. Stimmt es nicht ganz, probiere es in Ruhe noch einmal."
+      ],
+      "learningGoals": [
+        "Dein Kind kann zwei bis vier zweistellige Zahlen sicher bis 100 addieren.",
+        "Dein Kind wendet das stellenweise Addieren an und versteht, warum Zehner und Einer getrennt zusammengezählt werden.",
+        "Dein Kind gewinnt Sicherheit im Kopfrechnen und Vertrauen in eigene Rechenstrategien."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

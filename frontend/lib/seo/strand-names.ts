@@ -143,6 +143,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   // row.en fallback covers non-EN until then, and no non-EN Language page exists yet.
   'Language': {
     en: 'Language',
+    de: 'Sprache untersuchen', // Lehrplan-Bereich "Sprache und Sprachgebrauch untersuchen" (de literacy fan-out; short chip form)
     nl: 'Taal', // SLO-kerndoelen leergebied Nederlands/taal (nl literacy fan-out)
     fi: 'Kielen rakenteet ja oikeinkirjoitus', // OPS 2014 äidinkieli: language structures & spelling
   },

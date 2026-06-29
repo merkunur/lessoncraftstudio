@@ -147,6 +147,10 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     nl: 'Taal', // SLO-kerndoelen leergebied Nederlands/taal (nl literacy fan-out)
     fi: 'Kielen rakenteet ja oikeinkirjoitus', // OPS 2014 äidinkieli: language structures & spelling
   },
+  'Vocabulary Acquisition and Use': {
+    en: 'Vocabulary Acquisition and Use',
+    de: 'Wortschatz untersuchen', // Lehrplan vocabulary sub-area (de literacy fan-out; affix/Wortbildung + L.K.5.A category-sorting)
+  },
 };
 
 /**

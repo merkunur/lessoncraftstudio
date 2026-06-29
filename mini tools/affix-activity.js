@@ -20,8 +20,17 @@
   'use strict';
 
   var Core = global.AffixCore;
-  var SENSE = { un: 'NOT', re: 'AGAIN', ful: 'FULL OF', less: 'WITHOUT' };
-  var LABEL = { un: 'un-', re: 're-', ful: '-ful', less: '-less' };
+  var LANG = 'en';
+  var SENSE = {
+    en: { un: 'NOT', re: 'AGAIN', ful: 'FULL OF', less: 'WITHOUT' },
+    de: { un: 'NICHT', ful: 'VOLLER', less: 'OHNE' }
+  };
+  var LABEL = {
+    en: { un: 'un-', re: 're-', ful: '-ful', less: '-less' },
+    de: { un: 'un-', ful: '-voll', less: '-los' }
+  };
+  function label(a) { return (LABEL[LANG] || LABEL.en)[a] || (LABEL.en[a] || a); }
+  function sense(a) { return (SENSE[LANG] || SENSE.en)[a] || (SENSE.en[a] || ''); }
 
   var L = {
     en: {
@@ -30,10 +39,17 @@
       winWhich: '“{label}” means {sense} — that makes it!',
       nApply: 'Read the word: what does the cog do to it?',
       nWhich: 'Which cog gives that meaning?'
+    },
+    de: {
+      win: 'Ja! {note}',
+      winApply: '‚{label}‘ bedeutet {sense}.',
+      winWhich: '‚{label}‘ bedeutet {sense} – so entsteht das Wort!',
+      nApply: 'Lies das Wort: Was macht das Zahnrad damit?',
+      nWhich: 'Welches Zahnrad ergibt diese Bedeutung?'
     }
   };
   function txt(k, a) {
-    var s = L.en[k] || k;
+    var s = (L[LANG] && L[LANG][k]) || L.en[k] || k;
     return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; });
   }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
@@ -72,14 +88,15 @@
   var AffixActivity = {
     id: 'affix-activity',
     strings: {
-      title: { en: "Marigold's Knowing Machine" },
-      instruction: { en: 'Help Marigold the mole figure out what the new word means!' },
-      qapply: { en: 'What does {word} mean?' },
-      qwhich: { en: 'Which cog makes a word meaning “{meaning}”?' }
+      title: { en: "Marigold's Knowing Machine", de: 'Marigolds Wortmaschine' },
+      instruction: { en: 'Help Marigold the mole figure out what the new word means!', de: 'Hilf dem Maulwurf Marigold herauszufinden, was das neue Wort bedeutet!' },
+      qapply: { en: 'What does {word} mean?', de: 'Was bedeutet ‚{word}‘?' },
+      qwhich: { en: 'Which cog makes a word meaning “{meaning}”?', de: 'Welches Zahnrad macht ein Wort, das ‚{meaning}‘ bedeutet?' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._choiceOrder = null;
@@ -129,7 +146,7 @@
         fetch(tries[i]).then(function (r) { return r.ok ? r.json() : Promise.reject(); })
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
-            self._activityRow = row; self._pool = (row && row.params && row.params.rounds) || [];
+            self._activityRow = row; self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -211,9 +228,9 @@
         this._choiceOrder.forEach(function (oi) {
           var affix = opts[oi];
           var b = el('button', 'af-cand af-cog' + (self._nonConf[affix] ? ' dim' : ''));
-          b.type = 'button'; b.setAttribute('aria-label', LABEL[affix] + ' meaning ' + SENSE[affix]);
+          b.type = 'button'; b.setAttribute('aria-label', label(affix) + (LANG === 'de' ? ' bedeutet ' : ' meaning ') + sense(affix));
           b.innerHTML = '<svg viewBox="0 0 48 48" width="78" height="78" aria-hidden="true">' + cogInner(affix, 24, 24, 19) + '</svg>' +
-            '<span class="af-cog-label">' + LABEL[affix] + '</span><span class="af-cog-sense">' + SENSE[affix] + '</span>';
+            '<span class="af-cog-label">' + label(affix) + '</span><span class="af-cog-sense">' + sense(affix) + '</span>';
           b.addEventListener('click', function () { self._pick(affix, tok); });
           rowc.appendChild(b);
         });
@@ -243,7 +260,7 @@
       this._resolved = true; this._finds += 1;
       if (this._app) this._app.classList.add('marigold-resolved');
       this.render();
-      var note = txt(r.cog === 'which' ? 'winWhich' : 'winApply', { label: LABEL[r.affix], sense: SENSE[r.affix] });
+      var note = txt(r.cog === 'which' ? 'winWhich' : 'winApply', { label: label(r.affix), sense: sense(r.affix) });
       var line = this._api.stage.querySelector('.af-line-msg');
       if (line) { line.textContent = txt('win', { note: note }); line.classList.remove('miss'); }
       this._api.sound && this._api.sound(880);
@@ -260,8 +277,17 @@
     _srMirror: function () {
       var r = this._round, snap = Core.snapshot(r), wrap = el('div', 'af-sronly'); wrap.setAttribute('aria-live', 'polite');
       var msg;
-      if (r.cog === 'which') msg = 'The root word is ' + r.root + '. Which affix makes a word meaning "' + r.meaning + '"? Choices: ' + snap.options.map(function (a) { return LABEL[a] + ' (' + SENSE[a] + ')'; }).join(', ') + '.';
-      else msg = 'The word is ' + r.word + '. What does it mean? Choices: ' + snap.options.map(function (o) { return o.text; }).join('; ') + '.';
+      if (r.cog === 'which') {
+        var opts = snap.options.map(function (a) { return label(a) + ' (' + sense(a) + ')'; }).join(', ');
+        msg = LANG === 'de'
+          ? ('Das Grundwort ist ‚' + r.root + '‘. Welcher Wortbaustein macht ein Wort, das ‚' + r.meaning + '‘ bedeutet? Auswahl: ' + opts + '.')
+          : ('The root word is ' + r.root + '. Which affix makes a word meaning "' + r.meaning + '"? Choices: ' + opts + '.');
+      } else {
+        var texts = snap.options.map(function (o) { return o.text; }).join('; ');
+        msg = LANG === 'de'
+          ? ('Das Wort ist ‚' + r.word + '‘. Was bedeutet es? Auswahl: ' + texts + '.')
+          : ('The word is ' + r.word + '. What does it mean? Choices: ' + texts + '.');
+      }
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;
     },

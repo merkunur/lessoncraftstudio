@@ -16,6 +16,7 @@
   'use strict';
 
   var Core = global.SentenceBuilderCore;
+  var LANG = 'en';
 
   var L = {
     en: {
@@ -24,9 +25,16 @@
       win: 'You built a sentence!',
       hintFill: 'Use all the words — fill every box.',
       hintOrder: 'Not a sentence yet — start with the capital word, end with the period, and make it make sense.'
+    },
+    de: {
+      q: 'Bringe die Wörter in die richtige Reihenfolge.',
+      hear: '🔊 Anhören',
+      win: 'Du hast einen Satz gebaut!',
+      hintFill: 'Nutze alle Wörter – fülle jedes Feld.',
+      hintOrder: 'Noch kein Satz – fang mit Der, Die oder Das an, setze den Punkt ans Ende und bau einen sinnvollen Satz.'
     }
   };
-  function txt(k) { return L.en[k] || k; }
+  function txt(k) { return (L[LANG] && L[LANG][k]) || L.en[k] || k; }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function imgUrl(s) { return '/image-library-webp/themes/' + s.themeDir + '/' + s.noun + '@2x.webp'; }
 
@@ -47,15 +55,16 @@
   var SentenceBuilderActivity = {
     id: 'sentence-builder-activity',
     strings: {
-      title: { en: "Wiggles' Sentence Builder" },
-      instruction: { en: 'Tap the words to put them in order and build a sentence.' },
-      q: { en: '{q}' },
-      hintFill: { en: 'Use all the words — fill every box.' },
-      hintOrder: { en: 'Not a sentence yet — start with the capital word, end with the period, and make it make sense.' }
+      title: { en: "Wiggles' Sentence Builder", de: 'Wiggles baut Sätze' },
+      instruction: { en: 'Tap the words to put them in order and build a sentence.', de: 'Tippe die Wörter an und bringe sie in die richtige Reihenfolge, um einen Satz zu bauen.' },
+      q: { en: '{q}', de: '{q}' },
+      hintFill: { en: 'Use all the words — fill every box.', de: 'Nutze alle Wörter – fülle jedes Feld.' },
+      hintOrder: { en: 'Not a sentence yet — start with the capital word, end with the period, and make it make sense.', de: 'Noch kein Satz – fang mit Der, Die oder Das an, setze den Punkt ans Ende und bau einen sinnvollen Satz.' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._round = null; this.readOnly = false;
       this._canonical = []; this._tiles = []; this._used = []; this._slots = [];
@@ -99,7 +108,7 @@
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
             self._activityRow = row;
-            self._pool = (row && row.params && row.params.rounds) || [];
+            self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -165,7 +174,7 @@
       if (ok) {
         this.readOnly = true;
         this.render();
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: this._canonical.join(' '), lang: 'en', rate: 0.85 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: this._canonical.join(' '), lang: LANG, rate: 0.85 }); } catch (e) { } }
       }
       return ok;
     },
@@ -179,7 +188,7 @@
 
       if (round.subject && round.subject.noun) {
         var subj = el('div', 'snt-subject');
-        var sim = el('img'); sim.src = imgUrl(round.subject); sim.alt = round.subject.noun; sim.setAttribute('loading', 'lazy');
+        var sim = el('img'); sim.src = imgUrl(round.subject); sim.alt = round.subject.label || round.subject.noun; sim.setAttribute('loading', 'lazy');
         subj.appendChild(sim); root.appendChild(subj);
       }
 
@@ -211,7 +220,7 @@
       var hear = el('button', 'snt-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
         var built = self._placedWords().filter(Boolean).join(' ');
-        if (built && global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: built, lang: 'en', rate: 0.85 }); } catch (e) { } }
+        if (built && global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: built, lang: LANG, rate: 0.85 }); } catch (e) { } }
       });
       say.append(wig, hear); root.appendChild(say); this._wig = wig;
 
@@ -221,7 +230,10 @@
 
     _srMirror: function () {
       var wrap = el('div', 'snt-sronly'); wrap.setAttribute('aria-live', 'polite');
-      wrap.innerHTML = '<p>Build a sentence. The words are: ' + this._tiles.join(', ') + '.</p>';
+      var msg = LANG === 'de'
+        ? ('Baue einen Satz. Die Wörter sind: ' + this._tiles.join(', ') + '.')
+        : ('Build a sentence. The words are: ' + this._tiles.join(', ') + '.');
+      wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;
     },
 

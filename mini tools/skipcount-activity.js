@@ -19,6 +19,7 @@
   'use strict';
 
   var Core = global.SkipCountCore;
+  var LANG = 'en';                               /* content locale (api.lang = ?lang=xx); set in init(). */
 
   var L = {
     en: {
@@ -27,11 +28,30 @@
       winFillMid: '{a} fills the gap!',
       winStep: 'each hop is +{a}!',
       nFill: 'Count the hops with Hopper: keep adding {s}.',
-      nStep: 'Look how much each number grows.'
+      nStep: 'Look how much each number grows.',
+      srBlank: 'blank',
+      srWhich: 'A skip-counting row: {shown}. How big is each hop? Choices: {choices}.',
+      srFillFwd: 'Skip-counting by {step}: {shown}. Which number is missing? Choices: {choices}.',
+      srFillBack: 'Skip-counting by {step}, counting down: {shown}. Which number is missing? Choices: {choices}.'
+    },
+    /* DE — native ensemble (linguist + Klasse-2 educator). „Sprung" = the frog's
+       hop (narrative); „{step}er-Schritte" = the math term (task). „rückwärts"
+       explicit on backward rounds. Digits only — no spelled-out number words. */
+    de: {
+      win: 'Genau — {note}',
+      winFill: '{a} kommt als Nächstes in der Zahlenreihe!',
+      winFillMid: '{a} füllt die Lücke!',
+      winStep: 'jeder Sprung ist +{a}!',
+      nFill: 'Zähl die Sprünge mit Hopper: immer {s} weiter.',
+      nStep: 'Schau, um wie viel sich jede Zahl verändert.',
+      srBlank: 'leere Stelle',
+      srWhich: 'Eine Zahlenreihe in Schritten: {shown}. Wie groß ist jeder Sprung? Zur Auswahl: {choices}.',
+      srFillFwd: 'Zählen in {step}er-Schritten: {shown}. Welche Zahl fehlt? Zur Auswahl: {choices}.',
+      srFillBack: 'Rückwärts zählen in {step}er-Schritten: {shown}. Welche Zahl fehlt? Zur Auswahl: {choices}.'
     }
   };
   function txt(k, a) {
-    var s = L.en[k] || k;
+    var s = (L[LANG] && L[LANG][k]) || L.en[k] || k;
     return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; });
   }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
@@ -71,15 +91,16 @@
   var SkipCountActivity = {
     id: 'skipcount-activity',
     strings: {
-      title: { en: "Hopper's Lily Hops" },
-      instruction: { en: 'Help Hopper the frog skip-count across the pond!' },
-      qfill: { en: 'Count by {step}s. Which number is missing?' },
-      qfillback: { en: 'Counting down by {step}s. Which number is missing?' },
-      qstep: { en: 'How big is each hop?' }
+      title: { en: "Hopper's Lily Hops", de: 'Hoppers Seerosen-Sprünge' },
+      instruction: { en: 'Help Hopper the frog skip-count across the pond!', de: 'Hilf dem Frosch Hopper, in Schritten über den Teich zu hüpfen!' },
+      qfill: { en: 'Count by {step}s. Which number is missing?', de: 'Zähle in {step}er-Schritten weiter. Welche Zahl fehlt?' },
+      qfillback: { en: 'Counting down by {step}s. Which number is missing?', de: 'Zähle rückwärts in {step}er-Schritten. Welche Zahl fehlt?' },
+      qstep: { en: 'How big is each hop?', de: 'Wie groß ist jeder Sprung?' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._choiceOrder = null;
@@ -238,10 +259,11 @@
     _srMirror: function () {
       var r = this._round, wrap = el('div', 'sc-sronly'); wrap.setAttribute('aria-live', 'polite');
       var snap = Core.snapshot(r);
-      var shown = snap.sequence.map(function (v) { return v === null ? 'blank' : v; }).join(', ');
-      var msg = r.cog === 'whichstep'
-        ? 'A skip-counting row: ' + shown + '. How big is each hop? Choices: ' + this._choiceOrder.map(function (v) { return '+' + v; }).join(', ') + '.'
-        : 'Skip-counting by ' + snap.step + (snap.direction === 'down' ? ', counting down' : '') + ': ' + shown + '. Which number is missing? Choices: ' + this._choiceOrder.join(', ') + '.';
+      var blank = txt('srBlank');
+      var shown = snap.sequence.map(function (v) { return v === null ? blank : v; }).join(', ');
+      var msg = (r.cog === 'whichstep')
+        ? txt('srWhich', { shown: shown, choices: this._choiceOrder.map(function (v) { return '+' + v; }).join(', ') })
+        : txt(snap.direction === 'down' ? 'srFillBack' : 'srFillFwd', { shown: shown, step: snap.step, choices: this._choiceOrder.join(', ') });
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;
     },

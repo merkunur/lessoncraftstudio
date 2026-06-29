@@ -307,6 +307,29 @@
         "Es nutzt die Waage als Modell, um Gleichheit und Ungleichheit anschaulich zu vergleichen und Fehler zu korrigieren."
       ]
     },
+    "comparison-creek.river-steer.k-cc-c-7": {
+      "about": [
+        "Käpt’n Quill, die Ente, schippert mit ihrem Floß den Vergleichsbach hinunter — und an jeder Gabelung warten zwei Flussarme mit je einer Zahl. Welcher Weg führt zur größeren Zahl, welcher zur kleineren? Die Kinder tippen den richtigen Flussarm an und steuern Quill sicher um jede Biegung. So wird das Vergleichen von Zahlen zu einer kleinen Flussfahrt, bei der jede Entscheidung sofort weitergeht.",
+        "Im Mittelpunkt steht eine Kernidee des Schulanfangs: zwei Zahlen von 1 bis 10 anschauen und entscheiden, welche größer, welche kleiner ist — oder ob beide gleich groß sind. Bei gleichen Zahlen tippen die Kinder die „=“-Boje. Mal vergleichen sie reine Ziffern, mal Punktmengen, mal kleine Summen. Wichtig dabei: Es zählt der Zahlenwert, nicht die Schriftgröße. Eine kleine Zahl kann groß gedruckt sein — darum gilt: Lies die Zahl, nicht die Schrift! Gerade dicht beieinanderliegende Paare wie 6 und 7 laden zum genauen Hinschauen ein.",
+        "„Käpt’n Quills Flussfahrt“ ist eine kostenlose, interaktive Aktivität für den Schulanfang (Vorschuljahr und Klasse 1) — passend zu den Zielen des Lehrplans zum Aufbau der Zahlvorstellung und zum Vergleichen von Zahlen. Ohne Zeitdruck, ohne Punktejagd: Die Kinder dürfen in Ruhe überlegen, ausprobieren und in ihrem eigenen Tempo den Bach hinunterfahren — und nebenbei sicher im Zahlenraum bis 10 werden."
+      ],
+      "practices": [
+        "Zwei Zahlen von 1 bis 10 vergleichen und die größere oder kleinere Zahl bestimmen.",
+        "Gleich große Zahlen erkennen und die „=“-Boje wählen.",
+        "Den Zahlenwert vom Aussehen trennen: groß gedruckte kleine Zahlen sicher lesen.",
+        "Auch dicht benachbarte Zahlen (z. B. 6 und 7) genau unterscheiden — und eine Zahl finden, die zwischen zwei anderen liegt."
+      ],
+      "howToPlay": [
+        "An jeder Gabelung erscheinen zwei Flussarme mit je einer Zahl — lies die Aufgabe: zur größeren oder zur kleineren Zahl steuern?",
+        "Tippe den richtigen Flussarm an, damit Käpt’n Quills Floß den Weg nimmt. Sind beide Zahlen gleich groß, tippe die „=“-Boje.",
+        "Stimmt es, geht die Fahrt weiter zur nächsten Biegung. Stimmt es noch nicht, probiere es in Ruhe noch einmal — ganz ohne Zeitdruck."
+      ],
+      "learningGoals": [
+        "Zahlen von 1 bis 10 sicher vergleichen und die Beziehung größer als / kleiner als / gleich groß benennen.",
+        "Die Zahl als Wert verstehen — unabhängig von Schriftgröße oder Darstellung.",
+        "Eine erste, tragfähige Vorstellung der Zahlenreihe und Ordnung aufbauen (Vorgänger, Nachfolger, „dazwischen“)."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

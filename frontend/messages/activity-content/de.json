@@ -1043,6 +1043,29 @@
         "Anschaulich erfahren, dass Felder mit gleicher Fläche unterschiedlichen Umfang haben können"
       ]
     },
+    "gauge-good-guess.estimate.2-md-a-3": {
+      "about": [
+        "Gauge die Ziege hat ein besonderes Talent: Sie schätzt Größen mit einem einzigen Blick — und Ihr Kind macht mit. „Wie lang ist ungefähr eine Ameise?“, „Wie hoch ist ungefähr eine Tür?“ Bei jeder Frage wählt Ihr Kind aus drei Möglichkeiten die Schätzung, die am besten passt, zum Beispiel „1 cm“, „12 cm“ oder „2 m“. So wird aus reinem Raten ein begründetes, sinnvolles Schätzen.",
+        "Dahinter steckt eine wichtige Idee aus dem Lehrplan der Grundschule, Bereich „Größen und Messen“: der Aufbau einer echten Größenvorstellung. Ihr Kind lernt, sich an vertrauten Stützpunkten zu orientieren — „Ein Lineal ist etwa 30 Zentimeter lang“, „Eine Tür ist ungefähr einen Meter breit“. Mit solchen Ankern im Kopf kann Ihr Kind die Größe von Dingen einschätzen, ohne nachzumessen. Diese Vorstellung von Zentimetern und Metern ist genau das, was in der zweiten Klasse beim Thema Längen aufgebaut wird.",
+        "Und das alles ganz ohne Druck: Es gibt keine Punkte, keine Zeit und keine Bestnote zu erreichen. Ihr Kind probiert aus, denkt nach und darf einfach neugierig sein. Das Angebot ist kostenlos und frei spielbar — so oft Ihr Kind möchte."
+      ],
+      "practices": [
+        "Längen sinnvoll schätzen und eine passende Größenordnung in Zentimeter oder Meter wählen",
+        "Eine tragfähige Größenvorstellung mithilfe vertrauter Stützpunkte aufbauen („so groß wie eine Tür“)",
+        "Die Einheiten Zentimeter und Meter unterscheiden und der richtigen Situation zuordnen",
+        "Alltagsgegenstände der Größe nach einschätzen und vergleichen"
+      ],
+      "howToPlay": [
+        "Lies die Frage von Gauge der Ziege, zum Beispiel „Wie lang ist ungefähr eine Ameise?“.",
+        "Schau dir die drei Schätzungen an und überlege, welche Größe wirklich passt.",
+        "Tippe auf die sinnvolle Schätzung — und schätze mit Gauge munter weiter."
+      ],
+      "learningGoals": [
+        "Ihr Kind entwickelt ein sicheres Gefühl für Längen in Zentimeter und Meter.",
+        "Ihr Kind nutzt Stützpunktvorstellungen, um Größen ohne Messen einzuschätzen.",
+        "Ihr Kind übt entspannt das Schätzen — frei, kostenlos und ganz ohne Notendruck."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

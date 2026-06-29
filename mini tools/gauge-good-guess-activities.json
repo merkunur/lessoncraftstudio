@@ -14,12 +14,24 @@
         { "id": "building", "band": 3, "object": "a tall building", "question": "About how tall is a tall building?", "answer": "150 m", "options": ["5 m", "40 m", "150 m"] },
         { "id": "spoon", "band": 2, "object": "a spoon", "question": "About how long is a spoon?", "answer": "15 cm", "options": ["15 cm", "60 cm", "150 cm"] },
         { "id": "flagpole", "band": 3, "object": "a flagpole", "question": "About how tall is a flagpole?", "answer": "10 m", "options": ["1 m", "10 m", "80 m"] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "ant", "band": 1, "object": "eine Ameise", "question": "Wie lang ist ungefähr eine Ameise?", "answer": "1 cm", "options": ["1 cm", "12 cm", "30 cm"] },
+          { "id": "door", "band": 1, "object": "eine Tür", "question": "Wie hoch ist ungefähr eine Tür?", "answer": "2 m", "options": ["1 m", "2 m", "9 m"] },
+          { "id": "train", "band": 2, "object": "ein Zug", "question": "Wie lang ist ungefähr ein Zug?", "answer": "200 m", "options": ["3 m", "40 m", "200 m"] },
+          { "id": "crayon", "band": 1, "object": "ein Wachsmalstift", "question": "Wie lang ist ungefähr ein Wachsmalstift?", "answer": "9 cm", "options": ["9 cm", "50 cm", "90 cm"] },
+          { "id": "bus", "band": 2, "object": "ein Schulbus", "question": "Wie lang ist ungefähr ein Schulbus?", "answer": "12 m", "options": ["2 m", "12 m", "90 m"] },
+          { "id": "building", "band": 3, "object": "ein Hochhaus", "question": "Wie hoch ist ungefähr ein Hochhaus?", "answer": "150 m", "options": ["5 m", "40 m", "150 m"] },
+          { "id": "spoon", "band": 2, "object": "ein Löffel", "question": "Wie lang ist ungefähr ein Löffel?", "answer": "15 cm", "options": ["15 cm", "60 cm", "150 cm"] },
+          { "id": "flagpole", "band": 3, "object": "ein Fahnenmast", "question": "Wie hoch ist ungefähr ein Fahnenmast?", "answer": "10 m", "options": ["1 m", "10 m", "80 m"] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "gauge-good-guess" },
-    "page_title": { "en": "Gauge's Good Guess — Estimate the Length (Grade 2)" },
-    "page_intro": { "en": "Gauge the goat guesses sizes just by looking! Read the question, picture how big the real thing is, and tap the estimate that makes sense — in centimeters or meters. A Grade 2 math game about estimating lengths with sensible units, aligned to Common Core 2.MD.A.3." },
+    "slug": { "en": "gauge-good-guess", "de": "laengen-schaetzen-cm-und-meter-klasse-2" },
+    "page_title": { "en": "Gauge's Good Guess — Estimate the Length (Grade 2)", "de": "Längen schätzen mit Ziege Gauge – cm und Meter, Klasse 2" },
+    "page_intro": { "en": "Gauge the goat guesses sizes just by looking! Read the question, picture how big the real thing is, and tap the estimate that makes sense — in centimeters or meters. A Grade 2 math game about estimating lengths with sensible units, aligned to Common Core 2.MD.A.3.", "de": "Schätze mit Ziege Gauge Längen von Ameise bis Tür – kostenlos und interaktiv. Größen schätzen in cm und Meter, Klasse 2: baue spielerisch deine Größenvorstellung auf." },
     "kid_prompt_template": "Picture the real size, then tap the estimate that makes sense."
   }
 ]

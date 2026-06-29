@@ -20,13 +20,16 @@
       ]
     },
     "slug": {
-      "en": "read-clock-to-the-hour"
+      "en": "read-clock-to-the-hour",
+      "de": "uhr-ablesen-volle-stunde-klasse-1"
     },
     "page_title": {
-      "en": "Sprocket's Clock — Read the Clock to the Hour (Grade 1)"
+      "en": "Sprocket's Clock — Read the Clock to the Hour (Grade 1)",
+      "de": "Sprockets Uhr — Volle Stunden ablesen (Klasse 1)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 1 time activity: read an analog clock at o'clock times and tap the matching digital time. Sprocket the rooster crows the hours while children learn to connect the clock face to the digital time (3 o'clock = 3:00). A friendly first step in telling time. Common Core 1.MD.B.3."
+      "en": "A free interactive Grade 1 time activity: read an analog clock at o'clock times and tap the matching digital time. Sprocket the rooster crows the hours while children learn to connect the clock face to the digital time (3 o'clock = 3:00). A friendly first step in telling time. Common Core 1.MD.B.3.",
+      "de": "Mit Hahn Sprocket die analoge Uhr ablesen lernen: Tippe die passende Uhrzeit zur vollen Stunde. Uhr lesen für Klasse 1 – kostenlos, interaktiv, Mathe Grundschule."
     },
     "kid_prompt_template": "clock-digital"
   },
@@ -51,13 +54,16 @@
       ]
     },
     "slug": {
-      "en": "read-clock-to-the-half-hour"
+      "en": "read-clock-to-the-half-hour",
+      "de": "uhr-ablesen-halbe-stunde-klasse-1"
     },
     "page_title": {
-      "en": "Sprocket's Clock — Read the Clock to the Half-Hour (Grade 1)"
+      "en": "Sprocket's Clock — Read the Clock to the Half-Hour (Grade 1)",
+      "de": "Sprockets Uhr — Volle und halbe Stunden ablesen (Klasse 1)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 1 time activity: read an analog clock at o'clock AND half-past times, then tap the matching digital time. Children must read BOTH hands — the long hand on 12 for o'clock or on 6 for half past — to tell 3:00 from 3:30. Sprocket the rooster cheers them on. A friendly next step in telling time after the hour. Common Core 1.MD.B.3."
+      "en": "A free interactive Grade 1 time activity: read an analog clock at o'clock AND half-past times, then tap the matching digital time. Children must read BOTH hands — the long hand on 12 for o'clock or on 6 for half past — to tell 3:00 from 3:30. Sprocket the rooster cheers them on. A friendly next step in telling time after the hour. Common Core 1.MD.B.3.",
+      "de": "Mit Hahn Sprocket die analoge Uhr ablesen üben – volle und halbe Stunden. Tippe die richtige Uhrzeit. Uhr lesen für Klasse 1, kostenlos, interaktiv, Mathe Grundschule."
     },
     "kid_prompt_template": "clock-digital"
   },

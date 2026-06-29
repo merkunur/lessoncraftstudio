@@ -25,6 +25,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'place-value-regroup.add-compose-hundred.2-nbt-b-7': { de: '3' },       // bis-1000 add (carry to hundreds) → DE Klasse 3
   'place-value-regroup.subtract-decompose-hundred.2-nbt-b-7': { de: '3' },// bis-1000 borrow across zero → DE Klasse 3
   'pond-juice.pour-measure.3-md-a-2': { de: '2' },                        // Hohlmaße/Liter (whole-l 0-10, no ml) → DE Klasse 2 (ml/Umrechnung = Klasse 3)
+  'bundle-bot.bundle-machine.1-nbt-b-2-a': { de: '2' },                   // two-digit Stellenwert (20-49, multiple tens) → DE Klasse 2 (Klasse 1 = ZR bis 20)
 };
 function effGrade(row: ActivityRow, locale: string): string {
   return (locale !== 'en' && GRADE_OVERRIDE[row.id] && GRADE_OVERRIDE[row.id][locale]) || row.alignment.grade;
@@ -313,7 +314,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.19';
+  const ACTIVITY_WRAPPER_VERSION = '9.20';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

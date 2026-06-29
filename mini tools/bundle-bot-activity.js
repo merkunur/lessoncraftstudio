@@ -22,14 +22,29 @@
 
   var Core = global.BundleMachineCore;
   var C = { T: '#146B5E', T2: '#0e4f45', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', GOLD: '#E8A53A', INK: '#2A2A35', CUBE: '#5FB3A3' };
+  var LANG = 'en';
   var ONES = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
   var TENSW = ['', '', 'twenty', 'thirty', 'forty'];
   function enWord(n) { n = n | 0; if (n < 20) return ONES[n] || String(n); var t = Math.floor(n / 10), o = n % 10; return o ? TENSW[t] + '-' + ONES[o] : TENSW[t]; }
+  /* German number-words 0-49: ones-before-tens compounds (23 = „dreiundzwanzig"); irregulars
+     dreißig (ß), sechzehn/siebzehn (teens only), eins(standalone) vs ein(compound). */
+  var ONES_DE = ['null', 'eins', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun'];
+  var TEENS_DE = ['zehn', 'elf', 'zwölf', 'dreizehn', 'vierzehn', 'fünfzehn', 'sechzehn', 'siebzehn', 'achtzehn', 'neunzehn'];
+  var TENS_DE = { 20: 'zwanzig', 30: 'dreißig', 40: 'vierzig' };
+  var UNIT_C_DE = ['', 'ein', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun'];
+  function numWordDE(n) {
+    n = n | 0;
+    if (n <= 9) return ONES_DE[n];
+    if (n <= 19) return TEENS_DE[n - 10];
+    var ten = Math.floor(n / 10) * 10, unit = n % 10, tw = TENS_DE[ten] || String(ten);
+    return unit ? (UNIT_C_DE[unit] + 'und' + tw) : tw;
+  }
+  function numWord(n) { return LANG === 'de' ? numWordDE(n) : enWord(n); }
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
 
@@ -38,7 +53,7 @@
     var mouth = happy ? '<path d="M40 60 q10 8 20 0" stroke="#3A6B63" stroke-width="3" fill="none" stroke-linecap="round"/>'
       : sheepish ? '<path d="M42 60 q8 -3 16 0" stroke="#3A6B63" stroke-width="2.6" fill="none" stroke-linecap="round"/>'
         : '<path d="M43 60 q7 4 14 0" stroke="#3A6B63" stroke-width="2.6" fill="none" stroke-linecap="round"/>';
-    return '<svg viewBox="0 0 100 100" role="img" aria-label="Bundle Bot">'
+    return '<svg viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Bündel-Bolt, der Roboter' : 'Bundle Bot') + '">'
       + '<rect x="22" y="28" width="56" height="52" rx="13" fill="#9FD3C8"/><rect x="22" y="28" width="56" height="52" rx="13" fill="none" stroke="' + C.T + '" stroke-width="3"/>'
       + '<circle cx="50" cy="18" r="4" fill="' + C.GOLD + '"/><rect x="48.5" y="18" width="3" height="10" fill="#6e8f88"/>'   // antenna
       + '<rect x="33" y="42" width="34" height="16" rx="5" fill="#EAF7F3"/>'                                                  // face panel
@@ -60,33 +75,36 @@
     reward: { id: 'tidy-shelf', label: "Bolt's Tidy Shelf", emoji: '🧰' },
 
     strings: {
-      title: { en: 'Bundle Bot' },
-      instruction: { en: 'Drop ones one at a time (tap a one to take it back). Count ten, then pull the lever to bundle a ten.' },
-      prompt: { en: 'Bundle the tens!' },
-      make: { en: 'Make {n}!' },
-      tensLab: { en: 'Tens' },
-      trayLab: { en: 'Loose ones' },
-      feed: { en: 'Drop a one' },
-      bundle: { en: 'Bundle ten! 🔧' },
-      tidy: { en: 'Tidy ⊞' },
-      untidy: { en: 'Scatter' },
-      qBuild: { en: 'Count ten ones, then bundle!' },
-      qUnbundle: { en: 'Show {n} as {t} tens and {o} ones — tap a ten to un-bundle!' },
-      qImpostor: { en: 'Is that ten? Count carefully!' },
-      qDecade: { en: 'Make {n} — all tens, no loose ones!' },
-      qReadState: { en: 'Bolt has {v} already — add ones to make {n}!' },
-      qOverfill: { en: 'Drop ones and bundle each ten!' },
-      refuse: { en: "Not ten yet — keep counting!" },
-      overfill: { en: "Whoa, more than ten — bundle a ten first!" },
-      unbundled: { en: 'Un-bundled! Ten ones again.' },
-      bundled: { en: 'Ten ones make one ten! 🔧' },
-      win: { en: '{w} — all bundled! 🧰' },
-      tapCheck: { en: 'Tap Check! ✓' }
+      title: { en: 'Bundle Bot', de: 'Bündel-Bolt' },
+      instruction: { en: 'Drop ones one at a time (tap a one to take it back). Count ten, then pull the lever to bundle a ten.', de: 'Lege die Einer einzeln hinein (tippe einen Einer an, um ihn zurückzunehmen). Zähle bis zehn und zieh dann den Hebel, um einen Zehner zu bündeln.' },
+      prompt: { en: 'Bundle the tens!', de: 'Bündle die Zehner!' },
+      make: { en: 'Make {n}!', de: 'Mach {n}!' },
+      tensLab: { en: 'Tens', de: 'Zehner' },
+      trayLab: { en: 'Loose ones', de: 'Lose Einer' },
+      feed: { en: 'Drop a one', de: 'Einer hineinlegen' },
+      bundle: { en: 'Bundle ten! 🔧', de: 'Zehn bündeln! 🔧' },
+      tidy: { en: 'Tidy ⊞', de: 'Ordnen ⊞' },
+      untidy: { en: 'Scatter', de: 'Verstreuen' },
+      qBuild: { en: 'Count ten ones, then bundle!', de: 'Zähle zehn Einer und bündle dann!' },
+      qUnbundle: { en: 'Show {n} as {t} tens and {o} ones — tap a ten to un-bundle!', de: 'Zeig {n} als {t} Zehner und {o} Einer — tippe einen Zehner an, um ihn zu entbündeln!' },
+      qImpostor: { en: 'Is that ten? Count carefully!', de: 'Sind das wirklich zehn? Zähle genau!' },
+      qDecade: { en: 'Make {n} — all tens, no loose ones!', de: 'Mach {n} — nur Zehner, keine losen Einer!' },
+      qReadState: { en: 'Bolt has {v} already — add ones to make {n}!', de: 'Bolt hat schon {v} — lege Einer dazu, um {n} zu machen!' },
+      qOverfill: { en: 'Drop ones and bundle each ten!', de: 'Lege Einer hinein und bündle jeden Zehner!' },
+      refuse: { en: "Not ten yet — keep counting!", de: 'Noch keine zehn — zähl weiter!' },
+      overfill: { en: "Whoa, more than ten — bundle a ten first!", de: 'Oha, mehr als zehn — bündle zuerst einen Zehner!' },
+      unbundled: { en: 'Un-bundled! Ten ones again.', de: 'Entbündelt! Wieder zehn Einer.' },
+      bundled: { en: 'Ten ones make one ten! 🔧', de: 'Zehn Einer ergeben einen Zehner! 🔧' },
+      win: { en: '{w} — all bundled! 🧰', de: '{w} — alles gebündelt! 🧰' },
+      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓' },
+      ariaBar: { en: 'a ten — tap to un-bundle into ten ones', de: 'ein Zehner — tippe, um ihn in zehn Einer zu zerlegen' },
+      ariaCube: { en: 'a loose one — tap to take it back', de: 'ein loser Einer — tippe, um ihn zurückzunehmen' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.cstate = null; this.solved = false; this.solvedCount = 0; this.msg = null; this._tidy = false; this._mood = 'idle';
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -147,7 +165,7 @@
       var bars = api.el('div', 'bb-bars');
       for (var i = 0; i < this.cstate.tens; i++) {
         var bar = api.el('button', 'bb-bar' + (this._newBar && i === this.cstate.tens - 1 ? ' bb-bar-new' : '')); bar.type = 'button'; bar.innerHTML = barSVG();
-        bar.setAttribute('aria-label', 'a ten — tap to un-bundle into ten ones');
+        bar.setAttribute('aria-label', api.t('ariaBar'));
         bar.addEventListener('click', function () { self._unbundle(); });
         bars.appendChild(bar);
       }
@@ -160,7 +178,7 @@
       var scat = api.el('div', 'bb-scatter');
       for (var j = 0; j < this.cstate.ones; j++) {
         var cu = api.el('button', 'bb-cube'); cu.type = 'button'; cu.innerHTML = cubeSVG();
-        cu.setAttribute('aria-label', 'a loose one — tap to take it back');
+        cu.setAttribute('aria-label', api.t('ariaCube'));
         cu.addEventListener('click', function () { self._removeOne(); });
         if (!this._tidy) { cu.style.setProperty('--jx', (((j * 37) % 11) - 5) + 'px'); cu.style.setProperty('--jy', (((j * 53) % 9) - 4) + 'px'); }
         scat.appendChild(cu);
@@ -207,10 +225,10 @@
     },
     _pull: function () {
       var r = Core.pullLever(this.cstate);
-      if (r === 'refused') { this._mood = 'sheepish'; this.msg = this.api.t('refuse'); this.api.sound && this.api.sound(330); speak('not ten yet'); this.render(); return; }
+      if (r === 'refused') { this._mood = 'sheepish'; this.msg = this.api.t('refuse'); this.api.sound && this.api.sound(330); speak(LANG === 'de' ? 'noch nicht zehn' : 'not ten yet'); this.render(); return; }
       // bundled (or overfill-bundled)
       this._newBar = true; this._mood = 'happy'; this.api.sound && this.api.sound(300); this.api.sound && setTimeout(this.api.sound.bind(null, 760), 90);
-      this.msg = this.api.t('bundled'); speak('Ten ones make one ten');
+      this.msg = this.api.t('bundled'); speak(LANG === 'de' ? 'Zehn Einer sind ein Zehner' : 'Ten ones make one ten');
       if (Core.isSolved(this.cstate)) { this._win(); return; }
       this.render();
     },
@@ -225,9 +243,9 @@
       var api = this.api, whole = Core.value(this.cstate);
       this.solved = true;
       if (Core.firstAttemptCorrect(this.cstate)) this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 9);
-      this.msg = api.t('win').replace('{w}', enWord(whole));
+      this.msg = api.t('win').replace('{w}', numWord(whole));
       this.api.sound && this.api.sound(940); this.render(); this.announce(this.msg);
-      speak(enWord(whole) + ' — all bundled');
+      speak(numWord(whole) + (LANG === 'de' ? ' — alles gebündelt' : ' — all bundled'));
     },
     _renderDone: function (root) {
       var api = this.api, n = (this._pool && this._pool.length) || 9;

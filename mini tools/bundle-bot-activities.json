@@ -18,9 +18,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "bundle-bot" },
-    "page_title": { "en": "Bundle Bot — Make a Ten from Ten Ones" },
-    "page_intro": { "en": "Bundle Bot is an eager little robot who LOVES tidying loose ones into neat tens — but he can't bundle without you! Count the loose ones, and when it's exactly ten, pull the lever to clunk them into one neat ten. Build numbers up to forty-nine the smart way. A warm Grade 1 place-value game about bundling tens, aligned to Common Core 1.NBT.B.2.a." },
+    "slug": { "en": "bundle-bot", "de": "stellenwert-zehner-und-einer-buendeln-klasse-2" },
+    "page_title": { "en": "Bundle Bot — Make a Ten from Ten Ones", "de": "Bolt bündelt Zehner — Stellenwert: Zehner und Einer (Klasse 2)" },
+    "page_intro": { "en": "Bundle Bot is an eager little robot who LOVES tidying loose ones into neat tens — but he can't bundle without you! Count the loose ones, and when it's exactly ten, pull the lever to clunk them into one neat ten. Build numbers up to forty-nine the smart way. A warm Grade 1 place-value game about bundling tens, aligned to Common Core 1.NBT.B.2.a.", "de": "Hilf Roboter Bolt, Einer zu Zehnern zu bündeln und zweistellige Zahlen aus Zehnern und Einern zu bauen. Stellenwert üben – kostenlos & interaktiv, Mathe Klasse 2." },
     "kid_prompt_template": "bundle-machine"
   }
 ]

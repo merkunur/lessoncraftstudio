@@ -445,6 +445,29 @@
         "Die Kinder erleben Mathematik in einer sinnvollen Sachsituation und gewinnen Vertrauen darin, Zahlbeziehungen selbst herauszufinden."
       ]
     },
+    "bundle-bot.bundle-machine.1-nbt-b-2-a": {
+      "about": [
+        "Bolt, der kleine Aufräum-Roboter, hat ein Problem: Auf seinem Förderband liegen lauter lose Einer kreuz und quer herum. Bolts Trick ist immer derselbe — er zählt zehn Einer ab, zieht am Hebel, und klack presst er sie zu einer Zehnerstange zusammen. Aus zehn losen Würfeln wird so ein ordentlicher Zehner. In dieser kostenlosen interaktiven Aktivität hilft dein Kind Bolt beim Bündeln und baut Schritt für Schritt zweistellige Zahlen von 20 bis 49 — ganz sauber aus Zehnern und Einern.",
+        "Genau hier steckt der mathematische Kern: das Stellenwertverständnis. Dein Kind erlebt unmittelbar, dass eine Zahl wie 34 nichts anderes ist als 3 Zehner und 4 Einer — und dass jede Zehnerstange für genau zehn Einer steht. Manchmal geht es auch andersherum: Bolt muss einen Zehner wieder entbündeln, also eine Zehnerstange in zehn lose Einer zerlegen, um eine Zahl anders darzustellen. So begreifen Kinder das Bündeln und Entbündeln als zwei Seiten derselben Idee — die Grundlage für das Rechnen im Zahlenraum bis 100.",
+        "Die verschiedenen Aufgaben halten das Denken wach: eine Zahl aufbauen, einen Zehner entbündeln, eine glatte Zehnerzahl wie 40 legen, den aktuellen Stand ablesen — oder den Schwindler entlarven, wenn ein Bündel nur aussieht wie zehn, in Wirklichkeit aber neun Einer enthält. Diese Aktivität passt zum Lehrplan der Klasse 2 (Zahlen und Operationen: Stellenwert, Bündeln im Zahlenraum bis 100). Es gibt keine Zeit, keine Punkte und keinen Wettlauf — dein Kind darf in Ruhe ausprobieren, zählen und nachbessern."
+      ],
+      "practices": [
+        "Zehn lose Einer zu einem Zehner bündeln und zweistellige Zahlen von 20 bis 49 aus Zehnern und Einern aufbauen.",
+        "Einen Zehner wieder entbündeln und eine Zahl auf eine andere Weise darstellen.",
+        "Den dargestellten Stand ablesen und als „… Zehner und … Einer“ benennen — und glatte Zehnerzahlen wie 40 legen.",
+        "Genau prüfen, ob ein Bündel wirklich zehn Einer enthält (den „Schwindler“ mit neun Einern erkennen)."
+      ],
+      "howToPlay": [
+        "Lege Bolt lose Einer aufs Förderband und zähle mit, bis zehn beisammen sind.",
+        "Zieh am Hebel — Bolt bündelt die zehn Einer zu einer Zehnerstange. Wiederhole das, bis die gesuchte Zahl an Zehnern stimmt, und lass die übrigen Einer einzeln liegen.",
+        "Lies zum Schluss vor: „… Zehner und … Einer“ — und tippe auf „Prüfen“. Bei „Entbündeln“-Aufgaben löst du stattdessen einen Zehner wieder in zehn Einer auf."
+      ],
+      "learningGoals": [
+        "Verstehen, dass zehn Einer einen Zehner ergeben — und dass eine zweistellige Zahl aus Zehnern und Einern aufgebaut ist (Stellenwertverständnis).",
+        "Zahlen bis 100 sicher bündeln und entbündeln und beide Richtungen als zusammengehörig erleben.",
+        "Eine dargestellte Zahl korrekt ablesen und benennen und Bündel auf genau zehn Einer überprüfen."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

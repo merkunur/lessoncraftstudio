@@ -32,7 +32,24 @@
       winHalf: 'right in the middle!',
       nPast: 'The boat is past the halfway buoy — it’s closer to the bigger harbor.',
       nBefore: 'The boat is before the halfway buoy — it’s closer to the smaller harbor.',
-      nHalf: 'The buoy sits the same distance from each harbor — pick the middle one.'
+      nHalf: 'The buoy sits the same distance from each harbor — pick the middle one.',
+      srNearest: 'Boat {target} on a number line. Which round number is it closest to? Harbors: {harbors}.',
+      srHalfway: 'On a number line from {a} to {b}, which number is exactly halfway? Choices: {choices}.',
+      harborAria: 'harbor {n}'
+    },
+    de: {
+      qnearest: 'Zu welchem Hafen gehört das Boot? Runde auf den nächsten Zehner.',
+      qbig: 'Zu welchem Leuchtturm gehört das Boot? Runde auf den nächsten Hunderter.',
+      qhalfway: 'Welche Zahl liegt genau in der Mitte?',
+      win: 'Sicher im Hafen! {note}',
+      winNear: 'Das ist der nächste Hafen.',
+      winHalf: 'Genau in der Mitte!',
+      nPast: 'Das Boot ist schon hinter der Boje – der größere Hafen ist näher.',
+      nBefore: 'Das Boot ist noch vor der Boje – der kleinere Hafen ist näher.',
+      nHalf: 'Die Boje liegt von beiden Häfen gleich weit weg – wähle die Zahl genau dazwischen.',
+      srNearest: 'Boot {target} auf einem Zahlenstrahl. Welcher runde Hafen ist am nächsten? Häfen: {harbors}.',
+      srHalfway: 'Auf einem Zahlenstrahl von {a} bis {b}: Welche Zahl liegt genau in der Mitte? Zur Auswahl: {choices}.',
+      harborAria: 'Hafen {n}'
     }
   };
   function txt(k, a) {
@@ -94,11 +111,11 @@
   var HalfwayHarborsActivity = {
     id: 'halfway-harbors-activity',
     strings: {
-      title: { en: 'The Halfway Harbors' },
-      instruction: { en: 'Send each boat to the round-number harbor it is closest to!' },
-      qnearest: { en: 'Which harbor is the boat closest to?' },
-      qbig: { en: 'Which lighthouse is the boat closest to?' },
-      qhalfway: { en: 'Which number is exactly halfway?' }
+      title: { en: 'The Halfway Harbors', de: 'Marinas Häfen' },
+      instruction: { en: 'Send each boat to the round-number harbor it is closest to!', de: 'Bring jedes Boot zum nächsten runden Hafen.' },
+      qnearest: { en: 'Which harbor is the boat closest to?', de: 'Zu welchem Hafen gehört das Boot? Runde auf den nächsten Zehner.' },
+      qbig: { en: 'Which lighthouse is the boat closest to?', de: 'Zu welchem Leuchtturm gehört das Boot? Runde auf den nächsten Hunderter.' },
+      qhalfway: { en: 'Which number is exactly halfway?', de: 'Welche Zahl liegt genau in der Mitte?' }
     },
 
     init: function (api) {
@@ -225,7 +242,7 @@
       var row = el('div', 'hh-row');
       hs.forEach(function (h, i) {
         var b = el('button', 'hh-cand' + (self._nonConf[i] ? ' dim' : ''));
-        b.type = 'button'; b.textContent = String(h); b.setAttribute('aria-label', 'harbor ' + h);
+        b.type = 'button'; b.textContent = String(h); b.setAttribute('aria-label', txt('harborAria', { n: h }));
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[i] || self._token !== tok) return;
           if (Core.isAnswer(r, i)) self._resolve('winNear');
@@ -288,8 +305,8 @@
     _srMirror: function () {
       var r = this._round, wrap = el('div', 'hh-sronly'); wrap.setAttribute('aria-live', 'polite');
       var msg = '';
-      if (r.cog === 'halfway') msg = 'On a number line from ' + r.harbors[0] + ' to ' + r.harbors[1] + ', which number is exactly halfway? Choices: ' + r.buoyMarkers.join(', ') + '.';
-      else msg = 'Boat ' + r.target + ' on a number line. Which round number is it closest to? Harbors: ' + r.harbors.join(', ') + '.';
+      if (r.cog === 'halfway') msg = txt('srHalfway', { a: r.harbors[0], b: r.harbors[1], choices: r.buoyMarkers.join(', ') });
+      else msg = txt('srNearest', { target: r.target, harbors: r.harbors.join(', ') });
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;
     },

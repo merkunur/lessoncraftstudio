@@ -905,6 +905,29 @@
         "Dein Kind erkennt einen Fragesatz und liest ihn aufmerksam."
       ]
     },
+    "halfway-harbors.nearest.3-nbt-a-1": {
+      "about": [
+        "Mit Marina, der Leuchtturm-Katze, segelt dein Kind eine Zahl über das Meer und sucht den passenden Hafen. Auf einem Zahlenstrahl liegen runde Zahlen als Häfen bereit — beim Runden auf Zehner sind es die Zehner-Häfen, beim Runden auf Hunderter die Leuchttürme bei den Hundertern. Das Boot trägt eine Zahl, und dein Kind tippt den runden Hafen an, der am nächsten liegt. In den „Mitte“-Runden findet es die Zahl, die genau zwischen zwei Häfen liegt.",
+        "Beim Runden schaut man, welcher Zehner oder Hunderter näher liegt — und der Zahlenstrahl macht genau das sichtbar: Liegt die Zahl näher beim kleineren Hafen, wird abgerundet, liegt sie näher beim größeren, wird aufgerundet. Die Mitte ist die entscheidende Stelle. Liegt eine Zahl genau dort, wird aufgerundet — diese Regel erlebt dein Kind hier nicht als Merksatz, sondern sieht direkt am Strahl, warum sie sinnvoll ist.",
+        "Diese Aktivität ist kostenlos, ganz ohne Zeitdruck, Punkte oder Wettbewerb — dein Kind darf in seinem eigenen Tempo ausprobieren und so oft tippen, wie es mag. Sie orientiert sich am Lehrplan der Grundschule im Bereich „Zahlen und Operationen“, wo das Runden im Zahlenraum bis 1000 zu Hause ist."
+      ],
+      "practices": [
+        "Runden auf den nächsten Zehner und auf den nächsten Hunderter",
+        "Zahlen sicher am Zahlenstrahl einordnen und Abstände vergleichen",
+        "Erkennen, welche runde Zahl näher liegt — abrunden oder aufrunden",
+        "Die Mitte zwischen zwei runden Zahlen bestimmen und ihre Rolle verstehen"
+      ],
+      "howToPlay": [
+        "Schau dir die Zahl auf Marinas Boot an und finde sie auf dem Zahlenstrahl wieder.",
+        "Überlege, welcher runde Hafen näher liegt, und tippe ihn an.",
+        "In den Mitte-Runden tippst du die Zahl an, die genau zwischen zwei Häfen liegt."
+      ],
+      "learningGoals": [
+        "Dein Kind rundet Zahlen sicher auf den nächsten Zehner und Hunderter.",
+        "Dein Kind nutzt den Zahlenstrahl, um Nähe und Abstand von Zahlen einzuschätzen.",
+        "Dein Kind versteht, warum bei der genauen Mitte aufgerundet wird."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

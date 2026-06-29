@@ -18,9 +18,14 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   var WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
+  /* German number-words for the aria-labels (note the non-native traps: 16=sechzehn, 17=siebzehn, 1=eins not ein). */
+  var WORDS_DE = ['null', 'eins', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn', 'elf', 'zwölf', 'dreizehn', 'vierzehn', 'fünfzehn', 'sechzehn', 'siebzehn', 'achtzehn', 'neunzehn', 'zwanzig'];
+  var LANG = 'en';
+  function numWord(n) { return (LANG === 'de' ? WORDS_DE : WORDS)[n]; }
+  function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
@@ -32,26 +37,28 @@
     id: 'ten-stones-activity',
 
     strings: {
-      title: { en: "Lily's Ten Stones" },
-      instruction: { en: '' },
-      prompt: { en: 'Help Lily cross.' },
-      hop: { en: 'Hop! 🐸' },
-      yes: { en: 'Yes — rest on the stone' }, no: { en: 'No — hop straight there' },
-      stand: { en: 'Stand on' },
-      sayWelcome: { en: 'Help me cross the pond — make a ten on the golden stone!' },
-      sayWin: { en: 'We made it across! 🌸' },
-      sayOnStone: { en: 'On the Ten Stone! Now hop the rest.' },
-      sayWrongTen: { en: 'That misses the golden stone — how many to make ten?' },
-      sayWrongRest: { en: 'Not quite the rest — how many more to land?' },
-      sayAgain: { en: "Let's look again." },
-      sayRelation: { en: 'The same stones, backward! 🌸' },
-      relYes: { en: 'Yes — same stones! 🌸' },
-      hintCheck: { en: 'Make a ten on the golden stone first, then hop the rest.' }
+      title: { en: "Lily's Ten Stones", de: 'Lilys Zehner-Steine' },
+      instruction: { en: '', de: '' },
+      prompt: { en: 'Help Lily cross.', de: 'Hilf Lily hinüber!' },
+      hop: { en: 'Hop! 🐸', de: 'Hüpf! 🐸' },
+      yes: { en: 'Yes — rest on the stone', de: 'Ja – auf dem Stein rasten' }, no: { en: 'No — hop straight there', de: 'Nein – direkt hinüber' },
+      stand: { en: 'Stand on', de: 'Stell dich auf' },
+      sayWelcome: { en: 'Help me cross the pond — make a ten on the golden stone!', de: 'Hilf mir über den Teich – mach auf dem goldenen Stein den Zehner voll!' },
+      sayWin: { en: 'We made it across! 🌸', de: 'Wir sind drüben! 🌸' },
+      sayOnStone: { en: 'On the Ten Stone! Now hop the rest.', de: 'Auf dem Zehner-Stein! Jetzt hüpf den Rest.' },
+      sayWrongTen: { en: 'That misses the golden stone — how many to make ten?', de: 'Das verfehlt den goldenen Stein – wie viele bis zum Zehner?' },
+      sayWrongRest: { en: 'Not quite the rest — how many more to land?', de: 'Noch nicht ganz der Rest – wie viele noch bis ans Ziel?' },
+      sayAgain: { en: "Let's look again.", de: 'Schauen wir noch mal.' },
+      sayRelation: { en: 'The same stones, backward! 🌸', de: 'Die gleichen Steine, rückwärts! 🌸' },
+      relYes: { en: 'Yes — same stones! 🌸', de: 'Ja – die gleichen Steine! 🌸' },
+      hintCheck: { en: 'Make a ten on the golden stone first, then hop the rest.', de: 'Mach erst auf dem goldenen Stein den Zehner voll, dann hüpf den Rest.' },
+      sayWinSpoken: { en: 'We made it!', de: 'Geschafft!' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.snap = null; this.solved = false;
       this.declared = []; this.pos = 0; this.phase = 'toten'; this.spin = 0; this.msg = null; this.crossed = 0; this._arcs = [];
@@ -84,9 +91,10 @@
 
       this._renderPond(root);
 
+      var pr = (r.promptL10n && r.promptL10n[LANG]) || r.prompt || api.t('prompt');
       var head = api.el('div', 'ts-head');
       head.appendChild(this._eqChip());
-      var p = api.el('p', 'ts-prompt'); p.textContent = r.prompt || api.t('prompt'); head.appendChild(p);
+      var p = api.el('p', 'ts-prompt'); p.textContent = pr; head.appendChild(p);
       root.appendChild(head);
 
       if (this.solved) { this._renderDone(root); stage.appendChild(root); return; }
@@ -98,7 +106,7 @@
       else this._renderBridge(root);
 
       stage.appendChild(root);
-      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(r.prompt || ''); }, 280); }
+      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(pr || ''); }, 280); }
     },
 
     _renderPond: function (root) {
@@ -114,7 +122,8 @@
     _eqChip: function () {
       var api = this.api, r = this.round, chip = api.el('span', 'ts-eq');
       var ans = this.solved ? r.target : '?';
-      chip.setAttribute('aria-label', WORDS[r.a] + ' ' + (r.op === '-' ? 'minus' : 'plus') + ' ' + WORDS[r.b] + (this.solved ? (' equals ' + WORDS[r.target]) : ''));
+      var eqWord = LANG === 'de' ? ' ist ' : ' equals ';
+      chip.setAttribute('aria-label', numWord(r.a) + ' ' + (r.op === '-' ? 'minus' : 'plus') + ' ' + numWord(r.b) + (this.solved ? (eqWord + numWord(r.target)) : ''));
       chip.innerHTML = '<b>' + r.a + '</b> ' + (r.op === '-' ? '−' : '+') + ' <b>' + r.b + '</b> = <b class="ts-ans">' + ans + '</b>';
       return chip;
     },
@@ -175,7 +184,7 @@
         var b = api.el('button', 'ts-opt'); b.type = 'button';
         if (r.cog === 'findten') { b.textContent = o === 'yes' ? api.t('yes') : api.t('no'); b.className = 'ts-opt ts-optword'; }
         else if (r.cog === 'equiv') { b.innerHTML = '<b>' + o + ' + ' + o + '</b>'; }
-        else { b.innerHTML = '<b>' + o + '</b>'; b.setAttribute('aria-label', api.t('stand') + ' ' + WORDS[o]); }   /* anchor */
+        else { b.innerHTML = '<b>' + o + '</b>'; b.setAttribute('aria-label', api.t('stand') + (LANG === 'de' ? ' die ' + cap(numWord(o)) : ' ' + numWord(o))); }   /* anchor */
         b.addEventListener('click', function () { self._choose(o); });
         opts.appendChild(b);
       });
@@ -242,7 +251,8 @@
       this.solved = true; this.crossed = Math.min(this.crossed + 1, (this._pool && this._pool.length) || 11);
       this.msg = api.t('sayWin');
       api.sound && api.sound(880);
-      setTimeout(function () { speak('We made it!'); }, 160);
+      var winWord = api.t('sayWinSpoken');
+      setTimeout(function () { speak(winWord); }, 160);
       this.render(); api.announce && api.announce(this.msg);
     },
 

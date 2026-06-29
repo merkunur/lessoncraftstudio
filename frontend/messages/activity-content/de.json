@@ -261,6 +261,29 @@
         "Sie verknüpfen analoge und digitale Darstellung sicher und vermeiden die typische „halb“-Verwechslung."
       ]
     },
+    "ten-stones.add-sub-within-20.1-oa-c-6": {
+      "about": [
+        "Lily, der kleine Frosch, springt über den Zahlenstrahl von 0 bis 20 — und an der 10 wartet ein goldener Stein. Statt jede Zahl einzeln abzuhüpfen, nutzt Lily eine clevere Rechenstrategie: Sie springt zuerst genau bis zum goldenen Zehner und von dort aus weiter. Aus 8 + 6 wird so 8 + 2 = 10 und dann 10 + 4 = 14. Kinder erleben den Zehnerübergang nicht als Regel zum Auswendiglernen, sondern als zwei sichtbare Sprünge auf dem Zahlenstrahl.",
+        "Diese Aktivität übt das schrittweise Rechnen über den Zehner — den zentralen Lerninhalt im Zahlenraum bis 20 nach dem Lehrplan der Grundschule. Die Kinder machen zuerst „den Zehner voll“ (8 und 2 sind Zehnerfreunde), rasten am goldenen Zehner und rechnen den Rest. Auch der umgekehrte Weg gehört dazu: Beim Subtrahieren springt Lily wieder bis zur 10 zurück, etwa bei 13 − 4 erst 13 − 3 = 10 und dann 10 − 1 = 9. Nebenbei begegnen den Kindern Tauschaufgaben (mit der größeren Zahl beginnen), Nachbaraufgaben (7 + 8 ist fast 7 + 7) und Umkehraufgaben (aus 8 + 6 = 14 wird 14 − 6 = 8).",
+        "„Lilys Zehner-Steine“ ist ein kostenloses, interaktives Angebot für Klasse 1 — ohne Zeitdruck, ohne Punkte, ohne Wettlauf. Es geht nicht um Tempo, sondern um eine tragfähige Rechenstrategie: Wer den Weg über den Zehner versteht, rechnet im gesamten Zahlenraum sicherer. Die Kinder dürfen ausprobieren, noch einmal springen und in Ruhe nachdenken — genau so, wie der Zehnerübergang im Unterricht aufgebaut wird."
+      ],
+      "practices": [
+        "Den Zehner voll machen: bis zur 10 ergänzen und den passenden Zehnerfreund finden (8 + 2, 7 + 3, 9 + 1)",
+        "Schrittweise über den Zehner rechnen: zuerst zur 10 springen, dann den Rest addieren — und beim Subtrahieren wieder zur 10 zurück",
+        "Geschickt rechnen mit Tausch-, Nachbar- und Umkehraufgaben: mit der größeren Zahl beginnen, aus Verdopplungen ableiten und Plus- und Minusaufgaben als Aufgabenfamilie erkennen",
+        "Erkennen, wann ein Zehnerübergang nötig ist: entscheiden, ob eine Aufgabe über die 10 hinausführt — und ob Lily den goldenen Zehner überhaupt braucht"
+      ],
+      "howToPlay": [
+        "Lies Lilys Aufgabe und schau auf den Zahlenstrahl von 0 bis 20 — die goldene 10 ist Lilys Rastplatz.",
+        "Hilf Lily Schritt für Schritt: Tippe zuerst den Sprung bis zur 10 an und dann den zweiten Sprung zum Ergebnis (beim Minus geht es bis zur 10 zurück).",
+        "Prüfe deine Lösung. Du kannst so oft springen und ausprobieren, wie du möchtest — ganz ohne Zeit und ohne Punkte."
+      ],
+      "learningGoals": [
+        "Den Zehnerübergang im Zahlenraum bis 20 verstehen und das schrittweise Rechnen über den Zehner als zwei Sprünge am Zahlenstrahl ausführen.",
+        "Zehnerfreunde / Partnerzahlen zur 10 sicher finden und beim Addieren wie beim Subtrahieren über die 10 rechnen.",
+        "Erste Rechenstrategien bewusst nutzen — Tauschaufgabe, Nachbaraufgabe und Umkehraufgabe — und so flexibel und verständnisorientiert statt zählend rechnen."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

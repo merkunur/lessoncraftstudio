@@ -491,6 +491,29 @@
         "Dein Kind kann den Unterschied zwischen der längsten und der kürzesten Länge bestimmen."
       ]
     },
+    "hoppers-number-line.jump-sums.2-md-b-6": {
+      "about": [
+        "Bei „Hopper am Zahlenstrahl“ wird der Zahlenstrahl zum Rechenmodell: Hopper der Frosch zeigt, wie eine Additions- oder Subtraktionsaufgabe als Sprung sichtbar wird. Dein Kind tippt die Startzahl an, wählt die Richtung — vorwärts für „plus“, rückwärts für „minus“ —, bestimmt die Sprungweite und liest ab, wo Hopper landet. So wird aus einer abstrakten Aufgabe wie 24 − 9 oder 30 + 40 eine anschauliche Bewegung im Zahlenraum bis 100.",
+        "Diese Übung ergänzt „Hoppers Seerosen-Sprünge“: Dort zählt dein Kind in gleich großen Schritten (5er-, 10er- und 100er-Schritten), hier stellt es eine einzelne Rechnung als gerichteten Sprung dar. Beide nutzen denselben Zahlenstrahl, schulen aber unterschiedliche Vorstellungen — das Zählen in Schritten und das Rechnen als Bewegung. Gemeinsam bauen sie ein tragfähiges Bild vom Zahlenraum bis 100 auf.",
+        "Die Aktivität ist kostenlos, ganz ohne Zeitdruck, Punkte oder Wettbewerb — dein Kind darf in seinem eigenen Tempo ausprobieren. Sie ist am Lehrplan der Grundschule ausgerichtet und gehört zur Leitidee „Zahlen und Rechnen im Zehnersystem“."
+      ],
+      "practices": [
+        "Addition und Subtraktion im Zahlenraum bis 100 am Zahlenstrahl darstellen.",
+        "Die Richtung eines Sprungs bewusst wählen: vorwärts beim Addieren, rückwärts beim Subtrahieren.",
+        "Zehnersprünge sicher ausführen (z. B. 45 − 20, 80 − 50, 30 + 40) und das Stellenwertdenken festigen.",
+        "Das Ergebnis einer Rechnung als Zielzahl am Zahlenstrahl ablesen und überprüfen."
+      ],
+      "howToPlay": [
+        "Tippe die Startzahl auf dem Zahlenstrahl an.",
+        "Wähle die Richtung — vorwärts (plus) oder rückwärts (minus) — und die Sprungweite.",
+        "Gib ein, wo Hopper landet, und schau, ob es passt."
+      ],
+      "learningGoals": [
+        "Dein Kind versteht den Zahlenstrahl als Modell zum Rechnen — nicht nur zum Zählen.",
+        "Es verbindet Addition und Subtraktion mit einer klaren Richtung und Bewegung im Zahlenraum bis 100.",
+        "Es gewinnt Sicherheit beim Rechnen mit vollen Zehnern und festigt sein Verständnis des Zehnersystems."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

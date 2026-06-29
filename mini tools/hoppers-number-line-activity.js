@@ -18,14 +18,15 @@
   'use strict';
 
   var Core = global.NumberlineJumpCore;
+  var LANG = 'en';
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A', POND: '#2E8C7E' };
   var PAD = 7;   /* % padding at each end of the line */
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -34,23 +35,28 @@
     id: 'hoppers-number-line-activity',
 
     strings: {
-      title: { en: "Hopper's Number Line" },
-      prompt: { en: 'Hop to the answer.' },
-      hop: { en: 'Hop! 🐸' },
-      replay: { en: '🔊 Read again' },
-      fwd: { en: '▶ Forward' },
-      back: { en: '◀ Back' },
-      sizeHint: { en: 'How big is the hop?' },
-      sayWelcome: { en: 'Read the hop, then show me on the line!' },
-      sayDial: { en: 'Where does Hopper land? Dial it!' },
-      sayWin: { en: 'Splash! Right on the lily. 🪷' },
-      sayWait: { en: "Hmm, let's hop again." },
-      hintCheck: { en: 'Set the start, the way, and the hop size — then dial the landing.' }
+      title: { en: "Hopper's Number Line", de: 'Hopper am Zahlenstrahl' },
+      prompt: { en: 'Hop to the answer.', de: 'Hüpf zur Lösung.' },
+      hop: { en: 'Hop! 🐸', de: 'Hüpf! 🐸' },
+      replay: { en: '🔊 Read again', de: '🔊 Nochmal vorlesen' },
+      fwd: { en: '▶ Forward', de: '▶ Nach vorne' },
+      back: { en: '◀ Back', de: '◀ Zurück' },
+      sizeHint: { en: 'How big is the hop?', de: 'Wie weit geht der Sprung?' },
+      sayWelcome: { en: 'Read the hop, then show me on the line!', de: 'Lies den Sprung und zeig ihn mir am Zahlenstrahl!' },
+      sayDial: { en: 'Where does Hopper land? Dial it!', de: 'Wo landet Hopper? Tipp die Zahl ein!' },
+      sayWin: { en: 'Splash! Right on the lily. 🪷', de: 'Platsch! Genau auf der Seerose. 🪷' },
+      sayWait: { en: "Hmm, let's hop again.", de: 'Hmm, lass uns nochmal hüpfen.' },
+      hintCheck: { en: 'Set the start, the way, and the hop size — then dial the landing.', de: 'Stell den Start, die Richtung und die Sprungweite ein – dann tipp die Landung ein.' },
+      ariaStart: { en: 'start at {v}', de: 'Start bei {v}' },
+      ariaHop: { en: 'hop {sz}', de: 'Sprung {sz}' },
+      ariaEdit: { en: 'change the hop', de: 'Sprung ändern' },
+      ariaClear: { en: 'clear', de: 'löschen' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.snap = null; this.solved = false;
       this.startV = null; this.dir = null; this.sizeV = null; this.dialed = null; this.msg = null; this._chips = null; this.landedCount = 0;
@@ -71,6 +77,7 @@
     },
     _pct: function (v) { return PAD + (v / this.snap.max) * (100 - 2 * PAD); },
     _modelReady: function () { return this.startV != null && this.dir != null && this.sizeV != null; },
+    _story: function () { return (this.round.storyL10n && this.round.storyL10n[LANG]) || this.round.story; },
 
     /* ---------- render ---------- */
     render: function () {
@@ -89,9 +96,9 @@
       // story shows only while MODELLING (in the dial phase the hop is on the line)
       if (!this.solved && !ready) {
         var story = api.el('div', 'hnl-story');
-        var stext = api.el('p', 'hnl-storytext'); stext.textContent = this.round.story; story.appendChild(stext);
+        var stext = api.el('p', 'hnl-storytext'); stext.textContent = this._story(); story.appendChild(stext);
         var rep = api.el('button', 'hnl-replay'); rep.type = 'button'; rep.textContent = api.t('replay');
-        rep.addEventListener('click', function () { speak(self.round.story); }); story.appendChild(rep);
+        rep.addEventListener('click', function () { speak(self._story()); }); story.appendChild(rep);
         root.appendChild(story);
       }
 
@@ -111,7 +118,7 @@
         var sizes = api.el('div', 'hnl-sizes');
         this._chips.forEach(function (sz) {
           var b = api.el('button', 'hnl-size' + (self.sizeV === sz ? ' hnl-on' : '')); b.type = 'button'; b.textContent = sz;
-          b.setAttribute('aria-label', 'hop ' + sz); b.addEventListener('click', function () { self._setSize(sz); }); sizes.appendChild(b);
+          b.setAttribute('aria-label', api.t('ariaHop').replace('{sz}', sz)); b.addEventListener('click', function () { self._setSize(sz); }); sizes.appendChild(b);
         });
         ctrls.appendChild(sizes);
         root.appendChild(ctrls);
@@ -120,7 +127,7 @@
         // DIAL phase: a compact recap of the hop + the dial (story + controls collapsed → clears the fold)
         var recap = api.el('div', 'hnl-recap');
         recap.textContent = this.startV + ' ' + (this.dir === 'back' ? '−' : '+') + ' ' + this.sizeV + ' = ?';
-        var edit = api.el('button', 'hnl-edit'); edit.type = 'button'; edit.textContent = '↺'; edit.setAttribute('aria-label', 'change the hop');
+        var edit = api.el('button', 'hnl-edit'); edit.type = 'button'; edit.textContent = '↺'; edit.setAttribute('aria-label', api.t('ariaEdit'));
         edit.addEventListener('click', function () { self.sizeV = null; self.dialed = null; self.render(); });   /* back to model phase to re-pick */
         recap.appendChild(edit);
         root.appendChild(recap);
@@ -129,14 +136,14 @@
         root.appendChild(disprow);
         var pad = api.el('div', 'hnl-keypad');
         [1, 2, 3, 4, 5, 6, 7, 8, 9, 0].forEach(function (n) { var k = api.el('button', 'hnl-key'); k.type = 'button'; k.textContent = n; k.setAttribute('aria-label', String(n)); k.addEventListener('click', function () { self._pushDigit(n); }); pad.appendChild(k); });
-        var clr = api.el('button', 'hnl-key hnl-keyclear'); clr.type = 'button'; clr.textContent = '⌫'; clr.setAttribute('aria-label', 'clear'); clr.addEventListener('click', function () { self._clearDial(); }); pad.appendChild(clr);
+        var clr = api.el('button', 'hnl-key hnl-keyclear'); clr.type = 'button'; clr.textContent = '⌫'; clr.setAttribute('aria-label', api.t('ariaClear')); clr.addEventListener('click', function () { self._clearDial(); }); pad.appendChild(clr);
         root.appendChild(pad);
         var hop = api.el('button', 'hnl-hop'); hop.type = 'button'; hop.textContent = api.t('hop'); hop.disabled = (this.dialed == null);
         hop.addEventListener('click', function () { self._commit(); }); root.appendChild(hop);
       }
 
       stage.appendChild(root);
-      if (!this._spoke && !this.solved) { this._spoke = true; setTimeout(function () { speak(self.round.story); }, 260); }
+      if (!this._spoke && !this.solved) { this._spoke = true; setTimeout(function () { speak(self._story()); }, 260); }
     },
 
     _renderLine: function (parent) {
@@ -148,7 +155,7 @@
         var x = self._pct(v);
         var tk = api.el('span', 'hnl-tick'); tk.style.left = x + '%'; wrap.appendChild(tk);
         var lab = api.el('span', 'hnl-ticklab'); lab.style.left = x + '%'; lab.textContent = v; wrap.appendChild(lab);
-        if (!self.solved) { var hit = api.el('button', 'hnl-tickhit'); hit.type = 'button'; hit.style.left = x + '%'; hit.setAttribute('aria-label', 'start at ' + v); hit.addEventListener('click', function () { self._setStart(v); }); wrap.appendChild(hit); }
+        if (!self.solved) { var hit = api.el('button', 'hnl-tickhit'); hit.type = 'button'; hit.style.left = x + '%'; hit.setAttribute('aria-label', api.t('ariaStart').replace('{v}', v)); hit.addEventListener('click', function () { self._setStart(v); }); wrap.appendChild(hit); }
       });
       // the hop span (start → landing) once the model is set
       var land = this._landing();

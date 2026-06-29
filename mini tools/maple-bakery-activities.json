@@ -21,13 +21,16 @@
       ]
     },
     "slug": {
-      "en": "maple-bakery-division"
+      "en": "maple-bakery-division",
+      "de": "division-teilen-verteilen-aufteilen-klasse-2"
     },
     "page_title": {
-      "en": "Maple's Bakery — Division: Sharing & Grouping (Grade 3)"
+      "en": "Maple's Bakery — Division: Sharing & Grouping (Grade 3)",
+      "de": "Division Klasse 2: Teilen üben mit Maple der Maus"
     },
     "page_intro": {
-      "en": "A free interactive Grade 3 math activity: help Maple the mouse divide the cookies. Share the cookies equally onto the plates and find how many go on each plate, or pack the cookies into boxes that each hold the same number and find how many boxes you need. A friendly, picture-first way to understand what a division answer means. Common Core 3.OA.A.2."
+      "en": "A free interactive Grade 3 math activity: help Maple the mouse divide the cookies. Share the cookies equally onto the plates and find how many go on each plate, or pack the cookies into boxes that each hold the same number and find how many boxes you need. A friendly, picture-first way to understand what a division answer means. Common Core 3.OA.A.2.",
+      "de": "Maple die Maus teilt Kekse gerecht auf! Dein Kind übt spielerisch Dividieren und Geteiltaufgaben für Klasse 2 – kostenlos, interaktiv und ohne Anmeldung."
     },
     "kid_prompt_template": "division"
   }

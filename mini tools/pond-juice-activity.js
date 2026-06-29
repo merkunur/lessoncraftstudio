@@ -22,19 +22,26 @@
 
   var Core = global.PourMeasureCore;
   var C = { T: '#146B5E', T2: '#0e4f45', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', GOLD: '#E8A53A', INK: '#2A2A35' };
+  var LANG = 'en';
   var WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
+  /* German cardinals for {w}: ATTRIBUTIVE before „Liter" → 1 = „ein" (never „eins"). */
+  var WORDS_DE = ['null', 'ein', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn'];
   function enWord(n) { return WORDS[n | 0] || String(n); }
+  function numWord(n) { return LANG === 'de' ? (WORDS_DE[n | 0] || String(n)) : enWord(n); }
+  /* customer animals as full article-baked subject phrases (m→Ein, f→Eine). EN → raw name. */
+  var CUST_L10N = { dragonfly: 'Eine Libelle', frog: 'Ein Frosch', snail: 'Eine Schnecke', newt: 'Ein Molch', beetle: 'Ein Käfer', turtle: 'Eine Schildkröte', fish: 'Ein Fisch', duck: 'Eine Ente', bee: 'Eine Biene' };
+  function custName(c) { return LANG === 'de' ? (CUST_L10N[c] || c) : c; }
   var JUICE = ['#8FD3A8', '#F4A6C0', '#9FC8F0', '#F6C97A', '#C7A8E8', '#7FCFC2'];
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function pippaSVG(mood) {
     var happy = mood === 'happy';
-    return '<svg viewBox="0 0 100 100" role="img" aria-label="Pippa the frog">'
+    return '<svg viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Pippa, der Frosch' : 'Pippa the frog') + '">'
       + '<ellipse cx="50" cy="58" rx="32" ry="28" fill="#7FB069"/>'
       + '<circle cx="34" cy="32" r="12" fill="#7FB069"/><circle cx="66" cy="32" r="12" fill="#7FB069"/>'
       + '<circle cx="34" cy="30" r="6" fill="#fff"/><circle cx="66" cy="30" r="6" fill="#fff"/>'
@@ -79,25 +86,26 @@
     reward: { id: 'served-tray', label: "Pippa's Served Glasses", emoji: '🥤' },
 
     strings: {
-      title: { en: "Pippa's Pond-Juice Lab" },
-      instruction: { en: 'Pour the juice, then read how much you made off the scale.' },
-      prompt: { en: 'Pour and read!' },
-      orderEst: { en: 'A {cust} wants about {w} cups!' },
-      orderRead: { en: 'Pippa poured some juice — how much?' },
-      orderCompare: { en: 'Which cup has MORE?' },
-      pour: { en: 'Pour 🫗' },
-      look: { en: 'Look! 👀' },
-      readHint: { en: 'Read the scale — tap how much!' },
-      pickThis: { en: 'This one!' },
-      wrong: { en: "Hmm — what does it say where the juice reaches?" },
-      win: { en: '{w} cups — just right! 🥤' },
-      winCompare: { en: 'That one has more — nice reading! 🥤' },
-      tapCheck: { en: 'Tap Check! ✓' }
+      title: { en: "Pippa's Pond-Juice Lab", de: 'Pippas Saftstand' },
+      instruction: { en: 'Pour the juice, then read how much you made off the scale.', de: 'Gieß den Saft ein und lies dann an der Skala ab, wie viel du gemacht hast.' },
+      prompt: { en: 'Pour and read!', de: 'Eingießen und ablesen!' },
+      orderEst: { en: 'A {cust} wants about {w} cups!', de: '{cust} möchte etwa {w} Liter!' },
+      orderRead: { en: 'Pippa poured some juice — how much?', de: 'Pippa hat Saft eingegossen – wie viel ist das?' },
+      orderCompare: { en: 'Which cup has MORE?', de: 'Welcher Messbecher hat MEHR?' },
+      pour: { en: 'Pour 🫗', de: 'Eingießen 🫗' },
+      look: { en: 'Look! 👀', de: 'Schau! 👀' },
+      readHint: { en: 'Read the scale — tap how much!', de: 'Lies die Skala ab – tippe an, wie viel!' },
+      pickThis: { en: 'This one!', de: 'Der hier!' },
+      wrong: { en: "Hmm — what does it say where the juice reaches?", de: 'Hmm – bis zu welcher Zahl reicht der Saft?' },
+      win: { en: '{w} cups — just right! 🥤', de: '{w} Liter – genau richtig! 🥤' },
+      winCompare: { en: 'That one has more — nice reading! 🥤', de: 'Der hat mehr – gut abgelesen! 🥤' },
+      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.cstate = null; this.solved = false; this.solvedCount = 0; this.msg = null; this._mood = 'idle'; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -130,11 +138,11 @@
 
       wrap.appendChild(root); stage.appendChild(wrap);
       // speak the order once
-      if (!this._spoke) { this._spoke = true; var self = this; setTimeout(function () { if (self.round.cog === 'estimate-pour') speak('about ' + enWord(self.round.order) + ' cups'); else if (self.round.cog === 'read-level') speak('how much juice?'); else speak('which has more?'); }, 250); }
+      if (!this._spoke) { this._spoke = true; var self = this; setTimeout(function () { speak(self._question()); }, 250); }
     },
     _question: function () {
       var api = this.api, r = this.round;
-      if (r.cog === 'estimate-pour') return api.t('orderEst').replace('{cust}', r.customer).replace('{w}', enWord(r.order));
+      if (r.cog === 'estimate-pour') return api.t('orderEst').replace('{cust}', custName(r.customer)).replace('{w}', numWord(r.order));
       if (r.cog === 'read-level') return api.t('orderRead');
       return api.t('orderCompare');
     },
@@ -164,7 +172,7 @@
       for (var v = this.round.scale.min; v <= this.round.scale.max; v++) {
         (function (val) {
           var b = api.el('button', 'pj-num'); b.type = 'button'; b.textContent = val;
-          b.setAttribute('aria-label', val + ' cups');
+          b.setAttribute('aria-label', val + (LANG === 'de' ? ' Liter' : ' cups'));
           b.addEventListener('click', function () { self._report(val); });
           strip.appendChild(b);
         })(v);
@@ -174,8 +182,8 @@
     _report: function (value) {
       if (this.solved) return;
       var r = Core.report(this.cstate, value);
-      if (r.correct) { this._win(enWord(value) + ' cups — just right'); this.msg = this.api.t('win').replace('{w}', enWord(value)); this.render(); this.announce(this.msg); }
-      else { this._mood = 'idle'; this.msg = this.api.t('wrong'); this.api.sound && this.api.sound(330); speak('what does it say?'); this.render(); }
+      if (r.correct) { this._win(numWord(value) + (LANG === 'de' ? ' Liter, genau richtig' : ' cups, just right')); this.msg = this.api.t('win').replace('{w}', numWord(value)); this.render(); this.announce(this.msg); }
+      else { this._mood = 'idle'; this.msg = this.api.t('wrong'); this.api.sound && this.api.sound(330); speak(LANG === 'de' ? 'Was steht da, wo der Saft ist?' : 'what does it say?'); this.render(); }
     },
 
     /* ----- two cups (compare / diff-scale): read both scales, pick the more ----- */
@@ -196,8 +204,8 @@
     _pick: function (i) {
       if (this.solved) return;
       var r = Core.pick(this.cstate, i);
-      if (r.correct) { this._win('that one has more'); this.msg = this.api.t('winCompare'); this.render(); this.announce(this.msg); }
-      else { this._mood = 'idle'; this.msg = this.api.t('wrong'); this.api.sound && this.api.sound(330); speak('read both scales'); this.render(); }
+      if (r.correct) { this._win(LANG === 'de' ? 'Der hat mehr' : 'that one has more'); this.msg = this.api.t('winCompare'); this.render(); this.announce(this.msg); }
+      else { this._mood = 'idle'; this.msg = this.api.t('wrong'); this.api.sound && this.api.sound(330); speak(LANG === 'de' ? 'Lies beide Skalen ab' : 'read both scales'); this.render(); }
     },
 
     _win: function (spokenText) {

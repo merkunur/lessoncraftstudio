@@ -21,7 +21,8 @@
           "unitWidth": 8,
           "trackSteps": 40,
           "supplyCount": 5,
-          "prompt": "Lay helpers along the pencil, then count them."
+          "prompt": "Lay helpers along the pencil, then count them.",
+          "promptL10n": { "de": "Leg die Helfer am Bleistift entlang und zähl sie dann." }
         },
         {
           "id": "span-leaf",
@@ -33,7 +34,8 @@
           "unitWidth": 8,
           "trackSteps": 32,
           "supplyCount": 4,
-          "prompt": "How many helpers long is the leaf?"
+          "prompt": "How many helpers long is the leaf?",
+          "promptL10n": { "de": "Wie viele Helfer lang ist das Blatt?" }
         },
         {
           "id": "gaps-ribbon",
@@ -63,7 +65,8 @@
               "w": 8
             }
           ],
-          "prompt": "A gap snuck in! Scootch them together, then count."
+          "prompt": "A gap snuck in! Scootch them together, then count.",
+          "promptL10n": { "de": "Da ist eine Lücke! Schieb sie zusammen und zähl dann." }
         },
         {
           "id": "overlaps-crayon",
@@ -93,7 +96,8 @@
               "w": 8
             }
           ],
-          "prompt": "Two helpers are on top — give them room, then count."
+          "prompt": "Two helpers are on top — give them room, then count.",
+          "promptL10n": { "de": "Zwei Helfer liegen übereinander – gib ihnen Platz und zähl dann." }
         },
         {
           "id": "samesize-carrot",
@@ -106,7 +110,8 @@
           "trackSteps": 40,
           "supplyCount": 5,
           "decoyWidth": 12,
-          "prompt": "Use only the SAME helpers — then count."
+          "prompt": "Use only the SAME helpers — then count.",
+          "promptL10n": { "de": "Nimm nur die GLEICHEN Helfer – dann zähl." }
         },
         {
           "id": "start-stick",
@@ -124,7 +129,8 @@
               "w": 8
             }
           ],
-          "prompt": "Start the first helper right at the tip!"
+          "prompt": "Start the first helper right at the tip!",
+          "promptL10n": { "de": "Fang mit dem ersten Helfer genau an der Spitze an!" }
         },
         {
           "id": "judge-ribbon",
@@ -137,6 +143,7 @@
           "trackSteps": 40,
           "supplyCount": 5,
           "prompt": "Which one is measured the right way?",
+          "promptL10n": { "de": "Welches ist richtig gemessen?" },
           "judgeRows": [
             {
               "helpers": [
@@ -217,7 +224,8 @@
           "unitWidth": 8,
           "trackSteps": 44,
           "supplyCount": 6,
-          "prompt": "Lay cubes along the ribbon, then count."
+          "prompt": "Lay cubes along the ribbon, then count.",
+          "promptL10n": { "de": "Leg die Würfel am Band entlang und zähl sie dann." }
         },
         {
           "id": "gaps-leaf",
@@ -243,7 +251,8 @@
               "w": 8
             }
           ],
-          "prompt": "Close the gap, then count the clips."
+          "prompt": "Close the gap, then count the clips.",
+          "promptL10n": { "de": "Schließ die Lücke und zähl dann die Büroklammern." }
         },
         {
           "id": "inverse-leaf",
@@ -258,19 +267,23 @@
           "inverse": {
             "smallWidth": 4
           },
-          "prompt": "Measure the leaf with big helpers, then little ones — what changes?"
+          "prompt": "Measure the leaf with big helpers, then little ones — what changes?",
+          "promptL10n": { "de": "Miss das Blatt erst mit großen Helfern, dann mit kleinen – was ändert sich?" }
         }
       ]
     },
     "theme": null,
     "slug": {
-      "en": "inchies-garden-path"
+      "en": "inchies-garden-path",
+      "de": "laengen-messen-mit-einheiten"
     },
     "page_title": {
-      "en": "Inchie's Garden Path — Measuring by Laying Units"
+      "en": "Inchie's Garden Path — Measuring by Laying Units",
+      "de": "Inchies Gartenweg – Längen messen durch Auslegen (Klasse 1)"
     },
     "page_intro": {
-      "en": "Help Inchie the inchworm measure the garden! Lay identical helper-worms end to end along each object — no gaps, no overlaps, all the same size — then tap each helper to count how many long it is. A warm Grade 1 measurement game about laying length units and discovering that length is the number of units, aligned to Common Core 1.MD.A.2."
+      "en": "Help Inchie the inchworm measure the garden! Lay identical helper-worms end to end along each object — no gaps, no overlaps, all the same size — then tap each helper to count how many long it is. A warm Grade 1 measurement game about laying length units and discovering that length is the number of units, aligned to Common Core 1.MD.A.2.",
+      "de": "Mit Inchie Längen messen: gleich große Einheiten lückenlos aneinanderlegen und zählen. Kostenlose, interaktive Mathe-Übung für Klasse 1 – Größen und Messen."
     },
     "kid_prompt_template": "lay-units"
   }

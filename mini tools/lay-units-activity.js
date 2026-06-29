@@ -13,6 +13,7 @@
   'use strict';
 
   var Core = global.LayUnitsCore;
+  var LANG = 'en';                               /* content locale (api.lang = ?lang=xx); set in init(). */
   var SVGNS = 'http://www.w3.org/2000/svg';
   var RH = 11;                                   /* SVG viewBox height in lattice-step units — kept low so the
                                                     aspect (steps/RH) is wide → a SHORT rail that fits the vertical
@@ -21,10 +22,22 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   var WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+  /* Locale number words. DE needs two forms: the standalone tap-count register
+     ("eins, zwei, …") and the before-noun win form where 1 → "Ein Helfer"
+     (not "Eins Helfer"). EN reuses WORDS for both. */
+  var NUMW = {
+    de: {
+      count: ['null', 'eins', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn'],
+      win:   ['Null', 'Ein', 'Zwei', 'Drei', 'Vier', 'Fünf', 'Sechs', 'Sieben', 'Acht', 'Neun', 'Zehn']
+    }
+  };
+  function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
+  function numCount(n) { return (LANG === 'de' && NUMW.de.count[n]) || WORDS[n] || String(n); }   /* spoken/tap counting */
+  function numWin(n) { return (LANG === 'de' && NUMW.de.win[n]) || (WORDS[n] ? cap(WORDS[n]) : String(n)); }   /* sentence-start before the noun */
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG; u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function svg(tag, attrs) { var e = document.createElementNS(SVGNS, tag); for (var k in attrs) if (attrs.hasOwnProperty(k)) e.setAttribute(k, attrs[k]); return e; }
@@ -33,29 +46,36 @@
     id: 'lay-units-activity',
 
     strings: {
-      title: { en: "Inchie's Garden Path" },
-      instruction: { en: '' },
-      prompt: { en: 'Lay the helpers, then count.' },
-      add: { en: '+ Add a helper' },
-      addBig: { en: '+ Big helper' },
-      nudgeL: { en: '◀' }, nudgeR: { en: '▶' }, take: { en: 'Take back' },
-      count: { en: 'Count them! Tap each helper.' },
-      sayWelcome: { en: 'Lay my helpers nose-to-tail to measure it!' },
-      sayWin: { en: 'helpers long! 🌸' },
-      sayGap: { en: 'A little gap snuck in — scootch them together!' },
-      sayOverlap: { en: 'Two helpers are on top — give them room!' },
-      sayShort: { en: 'Not all the way yet — add more helpers!' },
-      sayOverhang: { en: "That's past the end — take one back." },
-      sayStart: { en: 'Start the first helper right at the tip!' },
-      sayMixed: { en: 'Only the SAME helpers — they must match!' },
-      saySnug: { en: 'All snug, no holes! Now count them.' },
-      sayInverse: { en: 'Smaller helpers, more of them!' },
-      hintCheck: { en: 'No gaps, no overlaps, all the same — then count.' }
+      title: { en: "Inchie's Garden Path", de: 'Inchies Gartenweg' },
+      instruction: { en: '', de: '' },
+      prompt: { en: 'Lay the helpers, then count.', de: 'Leg die Helfer aus und zähl sie dann.' },
+      add: { en: '+ Add a helper', de: '+ Helfer dazu' },
+      addBig: { en: '+ Big helper', de: '+ Großer Helfer' },
+      nudgeL: { en: '◀' }, nudgeR: { en: '▶' }, take: { en: 'Take back', de: 'Zurücknehmen' },
+      count: { en: 'Count them! Tap each helper.', de: 'Zähl sie! Tipp jeden Helfer an.' },
+      sayWelcome: { en: 'Lay my helpers nose-to-tail to measure it!', de: 'Leg meine Helfer dicht hintereinander, dann messen wir zusammen!' },
+      sayWin: { en: 'helpers long! 🌸', de: 'Helfer lang! 🌸' },
+      sayWinSpoken: { en: 'helpers long', de: 'Helfer lang' },
+      sayGap: { en: 'A little gap snuck in — scootch them together!', de: 'Da hat sich eine Lücke eingeschlichen – schieb sie zusammen!' },
+      sayOverlap: { en: 'Two helpers are on top — give them room!', de: 'Zwei Helfer liegen übereinander – gib ihnen Platz!' },
+      sayShort: { en: 'Not all the way yet — add more helpers!', de: 'Noch nicht ganz bis zum Ende – leg noch ein paar Helfer dazu!' },
+      sayOverhang: { en: "That's past the end — take one back.", de: 'Das ragt über das Ende hinaus – nimm einen weg.' },
+      sayStart: { en: 'Start the first helper right at the tip!', de: 'Fang mit dem ersten Helfer genau an der Spitze an!' },
+      sayMixed: { en: 'Only the SAME helpers — they must match!', de: 'Nur die GLEICHEN Helfer – sie müssen alle gleich groß sein!' },
+      saySnug: { en: 'All snug, no holes! Now count them.', de: 'Schön lückenlos, keine Lücke! Jetzt zähl sie.' },
+      sayInverse: { en: 'Smaller helpers, more of them!', de: 'Kleinere Helfer – mehr davon!' },
+      hintCheck: { en: 'No gaps, no overlaps, all the same — then count.', de: 'Keine Lücken, nichts übereinander, alle gleich groß – dann zähl.' },
+      countBig: { en: 'Count the BIG helpers.', de: 'Zähl die GROSSEN Helfer.' },
+      countLittle: { en: 'Now count the LITTLE helpers!', de: 'Jetzt zähl die KLEINEN Helfer!' },
+      judgeMiss: { en: 'Look closely — same size, no gaps, no overhang?', de: 'Schau genau hin – gleich groß, keine Lücke, nichts steht über?' },
+      invMidA: { en: '{n} big helpers! Now the little ones.', de: '{n} große Helfer! Jetzt die kleinen.' },
+      invDone: { en: '{a} big, {b} little — smaller helpers, more of them! 🌸', de: '{a} große, {b} kleine – kleinere Helfer, mehr davon! 🌸' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.snap = null; this.solved = false;
       this.phase = 'lay'; this.helpers = []; this.selected = null; this.counted = {}; this.addWidth = 8;
@@ -81,6 +101,9 @@
       } else this._inv = null;
     },
 
+    /* localized per-round prompt: manifest promptL10n[LANG] → EN prompt → generic */
+    _pPrompt: function (r) { return (r && r.promptL10n && r.promptL10n[LANG]) || (r && r.prompt) || this.api.t('prompt'); },
+
     /* ---------- render ---------- */
     render: function () {
       this.injectCSS();
@@ -94,7 +117,7 @@
       root.appendChild(say);
 
       this._renderGarden(root);
-      var prompt = api.el('p', 'lu-prompt'); prompt.textContent = r.prompt || api.t('prompt'); root.appendChild(prompt);
+      var prompt = api.el('p', 'lu-prompt'); prompt.textContent = this._pPrompt(r); root.appendChild(prompt);
 
       if (this.solved) { this._renderDone(root); stage.appendChild(root); return; }
 
@@ -103,7 +126,7 @@
       else this._renderLay(root);
 
       stage.appendChild(root);
-      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(r.prompt || ''); }, 260); }
+      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(self._pPrompt(r)); }, 260); }
     },
 
     _renderGarden: function (root) {
@@ -202,7 +225,7 @@
     _renderInverse: function (root) {
       var self = this, api = this.api, r = this.round, inv = this._inv;
       var which = inv.stage === 'A' ? 'rowA' : 'rowB', countMap = inv.stage === 'A' ? inv.countedA : inv.countedB;
-      var lab = api.el('div', 'lu-counthint'); lab.textContent = inv.stage === 'A' ? 'Count the BIG helpers.' : 'Now count the LITTLE helpers!'; root.appendChild(lab);
+      var lab = api.el('div', 'lu-counthint'); lab.textContent = inv.stage === 'A' ? api.t('countBig') : api.t('countLittle'); root.appendChild(lab);
       var forge = api.el('div', 'lu-forge');
       forge.appendChild(this._rowSvg(inv[which], r.L, { counted: countMap, onTap: function (i) { self._invCount(i); } }));
       root.appendChild(forge);
@@ -253,7 +276,7 @@
       if (this.counted[i]) return;                       /* already counted — no double-count */
       this.counted[i] = Object.keys(this.counted).length + 1;
       var n = this.counted[i];
-      speak(WORDS[n] || String(n));
+      speak(numCount(n));
       this.api.sound && this.api.sound(640 + n * 20);
       if (Object.keys(this.counted).length >= this.helpers.length) { this._bloom(this.helpers.length); return; }
       this.render();
@@ -263,19 +286,19 @@
       var r = this.round, api = this.api;
       this._judgePick = i;
       if (r.judgeRows[i].correct) { this._bloom(r.L); return; }
-      this.msg = 'Look closely — same size, no gaps, no overhang?'; this.api.sound && this.api.sound(360); api.announce && api.announce(this.msg); this.render();
+      this.msg = api.t('judgeMiss'); this.api.sound && this.api.sound(360); api.announce && api.announce(this.msg); this.render();
     },
 
     _invCount: function (i) {
       var inv = this._inv, map = inv.stage === 'A' ? inv.countedA : inv.countedB, row = inv.stage === 'A' ? inv.rowA : inv.rowB;
       if (map[i]) return;
       map[i] = Object.keys(map).length + 1; var n = map[i];
-      speak(WORDS[n] || String(n)); this.api.sound && this.api.sound(640 + n * 12);
+      speak(numCount(n)); this.api.sound && this.api.sound(640 + n * 12);
       if (Object.keys(map).length >= row.length) {
-        if (inv.stage === 'A') { inv.stage = 'B'; this.msg = inv.rowA.length + ' big helpers! Now the little ones.'; this.render(); return; }
+        if (inv.stage === 'A') { inv.stage = 'B'; this.msg = this.api.t('invMidA').replace('{n}', inv.rowA.length); this.render(); return; }
         /* both counted — neutral advance (observational, no verdict) */
         this.solved = true; this.bloomCount = Math.min(this.bloomCount + 1, (this._pool && this._pool.length) || 10);
-        this.msg = inv.rowA.length + ' big, ' + inv.rowB.length + ' little — smaller helpers, more of them! 🌸';
+        this.msg = this.api.t('invDone').replace('{a}', inv.rowA.length).replace('{b}', inv.rowB.length);
         this.api.sound && this.api.sound(880); this.api.announce && this.api.announce(this.msg); this.render(); return;
       }
       this.render();
@@ -284,9 +307,9 @@
     _bloom: function (len) {
       var api = this.api;
       this.solved = true; this.bloomCount = Math.min(this.bloomCount + 1, (this._pool && this._pool.length) || 10);
-      this.msg = (WORDS[len] ? (WORDS[len].charAt(0).toUpperCase() + WORDS[len].slice(1)) : len) + ' ' + api.t('sayWin');
+      this.msg = numWin(len) + ' ' + api.t('sayWin');
       api.sound && api.sound(880);
-      setTimeout(function () { speak((WORDS[len] || len) + ' helpers long!'); }, 200);
+      setTimeout(function () { speak(numWin(len) + ' ' + api.t('sayWinSpoken')); }, 200);
       api.announce && api.announce(this.msg);
       this.render();
     },

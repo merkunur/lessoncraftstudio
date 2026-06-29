@@ -9,54 +9,63 @@
         {
           "id": "onramp-rhombus", "cog": "build", "band": 1, "onRamp": true,
           "prompt": "Forge a rhombus.", "namedTarget": "rhombus",
+          "promptL10n": { "de": "Bau eine Raute." },
           "target": { "cells": [ [0, 0], [0, 1] ], "seams": null },
           "palette": [ { "pieceId": "triangle", "count": 2 }, { "pieceId": "rhombus", "count": 2 } ]
         },
         {
           "id": "onramp-trapezoid", "cog": "build", "band": 1, "onRamp": true,
           "prompt": "Forge a trapezoid.", "namedTarget": "trapezoid",
+          "promptL10n": { "de": "Bau ein Dach." },
           "target": { "cells": [ [0, 0], [0, 1], [0, 2] ], "seams": null },
           "palette": [ { "pieceId": "triangle", "count": 3 }, { "pieceId": "rhombus", "count": 2 } ]
         },
         {
           "id": "build-bigtriangle", "cog": "build", "band": 2,
           "prompt": "Forge a big triangle.", "namedTarget": "triangle",
+          "promptL10n": { "de": "Bau ein großes Dreieck." },
           "target": { "cells": [ [0, 2], [1, 1], [1, 2], [1, 3] ], "seams": null },
           "palette": [ { "pieceId": "triangle", "count": 3 }, { "pieceId": "rhombus", "count": 2 } ]
         },
         {
           "id": "build-parallelogram", "cog": "build", "band": 2,
           "prompt": "Forge this lantern.", "namedTarget": null,
+          "promptL10n": { "de": "Bau diese Laterne." },
           "target": { "cells": [ [0, 0], [0, 1], [0, 2], [0, 3] ], "seams": null },
           "palette": [ { "pieceId": "triangle", "count": 2 }, { "pieceId": "rhombus", "count": 3 } ]
         },
         {
           "id": "build-hexagon", "cog": "build", "band": 3,
           "prompt": "Forge a hexagon.", "namedTarget": "hexagon",
+          "promptL10n": { "de": "Bau ein Sechseck." },
           "target": { "cells": [ [0, 0], [0, 1], [0, 2], [1, 0], [1, 1], [1, 2] ], "seams": null },
           "palette": [ { "pieceId": "triangle", "count": 4 }, { "pieceId": "rhombus", "count": 3 } ]
         },
         {
           "id": "reway-hexagon", "cog": "reway", "band": 3,
           "prompt": "Forge the SAME hexagon a NEW way!", "namedTarget": "hexagon",
+          "promptL10n": { "de": "Bau dasselbe Sechseck auf eine NEUE Art!" },
           "target": { "cells": [ [0, 0], [0, 1], [0, 2], [1, 0], [1, 1], [1, 2] ], "seams": null },
           "palette": [ { "pieceId": "triangle", "count": 6 }, { "pieceId": "rhombus", "count": 3 } ]
         },
         {
           "id": "reway-parallelogram", "cog": "reway", "band": 2,
           "prompt": "Make this lantern another way.", "namedTarget": null,
+          "promptL10n": { "de": "Bau diese Laterne auf eine andere Art." },
           "target": { "cells": [ [0, 0], [0, 1], [0, 2], [0, 3] ], "seams": null },
           "palette": [ { "pieceId": "triangle", "count": 4 }, { "pieceId": "rhombus", "count": 2 } ]
         },
         {
           "id": "recompose-strip", "cog": "recompose", "band": 3,
           "prompt": "Re-forge it into a long bar.", "namedTarget": null,
+          "promptL10n": { "de": "Bau es zu einem langen Balken um." },
           "target": { "cells": [ [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5] ], "seams": null },
           "palette": [ { "pieceId": "triangle", "count": 4 }, { "pieceId": "rhombus", "count": 3 } ]
         },
         {
           "id": "substitute-tri", "cog": "substitute", "band": 2,
           "prompt": "Cover this space with TRIANGLES.", "namedTarget": null,
+          "promptL10n": { "de": "Bedeck diese Fläche nur mit Dreiecken." },
           "target": { "cells": [ [0, 0], [0, 1], [0, 2], [0, 3] ], "seams": null },
           "prePlaced": [ { "pieceId": "rhombus", "orient": 0, "dr": 0, "dc": 2 } ],
           "palette": [ { "pieceId": "triangle", "count": 3 } ]
@@ -64,6 +73,7 @@
         {
           "id": "extend-hexagon", "cog": "extend", "band": 3,
           "prompt": "Grow this into a hexagon!", "namedTarget": "hexagon",
+          "promptL10n": { "de": "Mach daraus ein Sechseck!" },
           "target": { "cells": [ [0, 0], [0, 1], [0, 2], [1, 0], [1, 1], [1, 2] ], "seams": null },
           "prePlaced": [ { "pieceId": "rhombus", "orient": 0, "dr": 0, "dc": 0 }, { "pieceId": "triangle", "orient": 0, "dr": 0, "dc": 2 } ],
           "palette": [ { "pieceId": "triangle", "count": 4 }, { "pieceId": "rhombus", "count": 3 } ]
@@ -71,15 +81,16 @@
         {
           "id": "named-hexagon", "cog": "named", "band": 3,
           "prompt": "Forge a hexagon.", "namedTarget": "hexagon",
+          "promptL10n": { "de": "Bau ein Sechseck." },
           "target": { "cells": [ [0, 0], [0, 1], [0, 2], [1, 0], [1, 1], [1, 2] ], "seams": null },
           "palette": [ { "pieceId": "triangle", "count": 4 }, { "pieceId": "rhombus", "count": 3 } ]
         }
       ]
     },
     "theme": null,
-    "slug": { "en": "mims-glow-workshop" },
-    "page_title": { "en": "Mim's Glow Workshop — Compose Shapes from Pattern Blocks" },
-    "page_intro": { "en": "Help Mim the glow-smith forge light! Fuse little glowing glass shards — triangles and rhombi — to fill each blank lantern shape, then forge the SAME shape a new way, or re-forge it into something new. A warm Grade 1 geometry game about composing 2D shapes into bigger shapes (and back), aligned to Common Core 1.G.A.2 and K.G.B.6." },
+    "slug": { "en": "mims-glow-workshop", "de": "formen-zusammensetzen" },
+    "page_title": { "en": "Mim's Glow Workshop — Compose Shapes from Pattern Blocks", "de": "Mims Glühwerkstatt – Formen aus Musterplättchen zusammensetzen (Klasse 1)" },
+    "page_intro": { "en": "Help Mim the glow-smith forge light! Fuse little glowing glass shards — triangles and rhombi — to fill each blank lantern shape, then forge the SAME shape a new way, or re-forge it into something new. A warm Grade 1 geometry game about composing 2D shapes into bigger shapes (and back), aligned to Common Core 1.G.A.2 and K.G.B.6.", "de": "Mit Mim aus Dreiecken und Rauten ein Sechseck und größere Formen bauen – auf verschiedene Arten. Formen zusammensetzen: Geometrie Klasse 1, kostenlos und interaktiv." },
     "kid_prompt_template": "shapeforge"
   }
 ]

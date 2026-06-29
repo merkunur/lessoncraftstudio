@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "shapeforge.compose.1-g-a-2": {
+      "about": [
+        "In Mims Glühwerkstatt baut dein Kind aus kleinen Formen größere Formen. Aus Dreiecken und Rauten entstehen ein Sechseck, eine Raute, ein großes Dreieck oder ein langer Balken. Dein Kind wählt eine Form aus, dreht sie passend und legt sie so ein, dass der Umriss ganz ausgefüllt ist – ohne Lücken und ohne Überlappungen.",
+        "Dabei entdeckt es eine wichtige Idee der Geometrie: Große Formen sind aus kleineren zusammengesetzt – und dieselbe Form lässt sich oft auf mehrere Arten legen. Ein Sechseck kann aus sechs Dreiecken bestehen, aber genauso aus drei Rauten. So lernt dein Kind, Formen zu vergleichen, passende Teile auszuwählen und flexibel zu denken.",
+        "Diese kostenlose interaktive Geometrie-Aktivität für die 1. Klasse orientiert sich am Lehrplan der Grundschule (Bereich „Raum und Form“). Es gibt keine Zeitvorgabe und keine Punkte – dein Kind probiert in Ruhe aus, legt um und findet eigene Lösungswege."
+      ],
+      "practices": [
+        "Ebene Formen zusammenlegen: aus Dreiecken und Rauten eine größere Form bauen.",
+        "Formen drehen und passend einsetzen: ein Gefühl für Lage und Ausrichtung entwickeln.",
+        "Verschiedene Lösungswege finden: dieselbe Form auf mehr als eine Art zusammensetzen.",
+        "Genau füllen: einen Umriss vollständig auslegen – ohne Lücken, ohne Überlappung."
+      ],
+      "howToPlay": [
+        "Wähle eine Form aus – ein Dreieck oder eine Raute.",
+        "Drehe sie so, dass sie passt, und lege sie in den Umriss.",
+        "Füll die ganze Form aus – ist alles lückenlos bedeckt, ist die Form fertig!"
+      ],
+      "learningGoals": [
+        "Dein Kind versteht, dass größere Formen aus kleineren Formen zusammengesetzt sind.",
+        "Es erkennt, dass dieselbe Form auf mehrere Arten gebaut werden kann.",
+        "Es schult das räumliche Vorstellungsvermögen und benennt die Formen Dreieck, Raute und Sechseck."
+      ]
+    },
     "skipcount.fill.2-nbt-a-2": {
       "about": [
         "Hüpf mit Hopper über den Teich! Hopper, der Frosch, springt von Seerosenblatt zu Seerosenblatt – und jedes Blatt trägt eine Zahl. Bei jedem Sprung kommt immer gleich viel dazu: mal 5, mal 10, mal 100. Ein Blatt ist leer. Dein Kind findet heraus, welche Zahl darauf gehört – oder wie weit Hopper bei jedem Sprung springt.",

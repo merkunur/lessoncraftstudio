@@ -353,6 +353,29 @@
         "Kinder bauen eine tragfähige Größenvorstellung für Zentimeter auf und lernen, Ergebnisse stets mit der passenden Einheit anzugeben."
       ]
     },
+    "mosaic-menders.area-match.3-md-c-6": {
+      "about": [
+        "Tessa ist Mosaiklegerin. In ihrer Werkstatt setzt sie aus lauter gleich großen Plättchen bunte Mosaike zusammen. Für ihren neuen Auftrag braucht sie ein Mosaik, das aus genau so vielen Plättchen besteht wie ihre Vorlage — ganz gleich, welche Form am Ende dabei herauskommt. Die Kinder helfen ihr: Sie betrachten die Vorlage und tippen unter drei Mosaiken dasjenige an, das den gleichen Flächeninhalt hat, also aus gleich vielen Plättchen gelegt ist.",
+        "Der Knackpunkt: Eines der falschen Mosaike sieht auf den ersten Blick größer aus, weil sein Umriss mehr Platz einnimmt — es hat aber die falsche Anzahl Plättchen. Ein anderes hat mehr Plättchen als die Vorlage. Wer einfach „das Größte“ oder „das Vollste“ wählt, liegt daneben. Nur wer die einzelnen Plättchen (die Kästchen) zählt, findet die richtige Lösung. So erfahren die Kinder eine wichtige Einsicht: Der Flächeninhalt ist die Anzahl der Einheitsquadrate, aus denen eine Figur besteht — und er bleibt gleich, auch wenn die Figuren ganz unterschiedlich aussehen.",
+        "„Tessas Mosaik-Werkstatt“ ist eine kostenlose, interaktive Übung für die 3. Klasse, passend zur Leitidee „Raum und Form“ des Lehrplans (Flächen vergleichen und messen durch Auslegen und Zählen von Einheitsquadraten). Es gibt keine Zeitnahme und keine Punkte — die Kinder können in Ruhe ausprobieren, zählen und vergleichen, so oft sie möchten."
+      ],
+      "practices": [
+        "Flächen durch Auslegen mit gleich großen Einheitsquadraten (Kästchen) bestimmen.",
+        "Den Flächeninhalt zweier Figuren durch Abzählen der Plättchen vergleichen.",
+        "Erkennen, dass der Flächeninhalt unabhängig von der Form ist: gleich viele Plättchen bedeuten gleichen Flächeninhalt.",
+        "Die typische Fehlvorstellung überwinden, dass eine größere Umrissform automatisch mehr Fläche bedeutet."
+      ],
+      "howToPlay": [
+        "Schau dir Tessas Vorlage an und zähle, aus wie vielen Plättchen sie besteht.",
+        "Vergleiche die drei Mosaike darunter und zähle jeweils ihre Plättchen — lass dich nicht von Größe oder Form täuschen.",
+        "Tippe das Mosaik an, das gleich viele Plättchen und damit den gleichen Flächeninhalt hat wie die Vorlage."
+      ],
+      "learningGoals": [
+        "Die Kinder verstehen den Flächeninhalt als Anzahl gleich großer Einheitsquadrate.",
+        "Die Kinder begreifen, dass zwei verschieden geformte Figuren denselben Flächeninhalt haben können (Flächeninhalt ist unabhängig von der Form).",
+        "Die Kinder vergleichen Flächen sicher durch Zählen statt nach dem optischen Gesamteindruck."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

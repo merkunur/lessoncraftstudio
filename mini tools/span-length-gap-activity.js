@@ -15,9 +15,34 @@
   var Core = global.LengthGapCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GREEN: '#2FA56A' };
   var MAXLEN = 20;
+  var LANG = 'en';
+  function interp(t, args) { return String(t || '').replace(/\{(\w+)\}/g, function (m, k) { return (args && k in args) ? args[k] : m; }); }
+  function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
+  /* per-noun German label forms (the labels render as bar names AND inside the
+     question, so German needs the definite-article nominative per noun). EN → bare label. */
+  var LABEL_L10N = {
+    'ribbon': { name: 'Band', nom: 'das Band' },
+    'string': { name: 'Schnur', nom: 'die Schnur' },
+    'snake': { name: 'Schlange', nom: 'die Schlange' },
+    'worm': { name: 'Wurm', nom: 'der Wurm' },
+    'pencil': { name: 'Bleistift', nom: 'der Bleistift' },
+    'crayon': { name: 'Buntstift', nom: 'der Buntstift' },
+    'rope': { name: 'Seil', nom: 'das Seil' },
+    'cord': { name: 'Kordel', nom: 'die Kordel' },
+    'scarf': { name: 'Schal', nom: 'der Schal' },
+    'belt': { name: 'Gürtel', nom: 'der Gürtel' },
+    'leaf': { name: 'Blatt', nom: 'das Blatt' },
+    'seed': { name: 'Samen', nom: 'der Samen' },
+    'blue bar': { name: 'blauer Balken', nom: 'der blaue Balken' },
+    'red bar': { name: 'roter Balken', nom: 'der rote Balken' },
+    'branch': { name: 'Ast', nom: 'der Ast' },
+    'twig': { name: 'Zweig', nom: 'der Zweig' }
+  };
+  function lblName(label) { return (LANG === 'de' && LABEL_L10N[label]) ? LABEL_L10N[label].name : label; }
+  function lblNom(label) { return (LANG === 'de' && LABEL_L10N[label]) ? LABEL_L10N[label].nom : label; }
 
-  function inchwormSVG() {
-    return '<svg class="slg-worm-svg" viewBox="0 0 100 100" role="img" aria-label="Span the inchworm">' +
+  function inchwormSVG(api) {
+    return '<svg class="slg-worm-svg" viewBox="0 0 100 100" role="img" aria-label="' + (api && api.t ? api.t('spanName') : 'Span the inchworm') + '">' +
       '<path d="M18 66 q8 -16 16 0 q8 16 16 0 q8 -16 16 0" fill="none" stroke="#9ACD5E" stroke-width="11" stroke-linecap="round"/>' +
       '<circle cx="72" cy="58" r="10" fill="#B6E081"/>' +
       '<circle cx="75" cy="56" r="2.2" fill="#2A2A35"/>' +
@@ -30,17 +55,21 @@
     id: 'span-length-gap-activity',
 
     strings: {
-      title: { en: "Span's Length Gap" },
-      instruction: { en: 'Read both lengths, then type how much longer the longer one is.' },
-      prompt: { en: 'Type how much longer it is.' },
-      spanIntro: { en: 'I measure the gap — how much longer is the long one?' },
-      hintAdd: { en: 'Find the difference: take the shorter length from the longer one.' },
-      win: { en: 'Yes! That is the length gap. 🐛' }
+      title: { en: "Span's Length Gap", de: 'Wie viel länger?' },
+      instruction: { en: 'Read both lengths, then type how much longer the longer one is.', de: 'Lies beide Längen und tippe dann ein, wie viel länger die längere ist.' },
+      prompt: { en: 'Type how much longer it is.', de: 'Tippe ein, wie viel länger die längere ist.' },
+      spanIntro: { en: 'I measure the gap — how much longer is the long one?', de: 'Ich messe den Unterschied – wie viel länger ist der längere?' },
+      hintAdd: { en: 'Find the difference: take the shorter length from the longer one.', de: 'Finde den Unterschied: Ziehe die kürzere Länge von der längeren ab.' },
+      win: { en: 'Yes! That is the length gap. 🐛', de: 'Ja! Das ist der Längenunterschied. 🐛' },
+      spanName: { en: 'Span the inchworm', de: 'Span, die Spannerraupe' },
+      qAsk: { en: 'How much longer is the {a} than the {b}?', de: 'Wie viel länger ist {a} als {b}?' },
+      qSolved: { en: 'The {a} is {n} {unit} longer! ✓', de: '{a} ist {n} {unit} länger! ✓' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.solved = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -52,7 +81,7 @@
 
     _barRow: function (label, len, unit, cls) {
       var api = this.api, row = api.el('div', 'slg-barrow');
-      var nm = api.el('div', 'slg-name'); nm.textContent = label; row.appendChild(nm);
+      var nm = api.el('div', 'slg-name'); nm.textContent = lblName(label); row.appendChild(nm);
       var track = api.el('div', 'slg-track');
       var bar = api.el('div', 'slg-bar ' + cls); bar.style.width = Math.max(12, (len / MAXLEN) * 100) + '%';
       var val = api.el('span', 'slg-val'); val.textContent = len + ' ' + unit; bar.appendChild(val);
@@ -67,7 +96,7 @@
       var v = this.view;
 
       var row = api.el('div', 'slg-row');
-      var worm = api.el('div', 'slg-worm'); worm.innerHTML = inchwormSVG(); row.appendChild(worm);
+      var worm = api.el('div', 'slg-worm'); worm.innerHTML = inchwormSVG(api); row.appendChild(worm);
       var say = api.el('div', 'slg-say'); say.textContent = api.t('spanIntro'); row.appendChild(say);
       root.appendChild(row);
 
@@ -78,8 +107,8 @@
 
       var q = api.el('div', 'slg-q' + (this.solved ? ' slg-solved' : ''));
       q.textContent = this.solved
-        ? ('The ' + v.aLabel + ' is ' + Core.answerValue(this.round) + ' ' + v.unit + ' longer! ✓')
-        : ('How much longer is the ' + v.aLabel + ' than the ' + v.bLabel + '?');
+        ? interp(api.t('qSolved'), { a: (LANG === 'de' ? cap(lblNom(v.aLabel)) : v.aLabel), n: Core.answerValue(this.round), unit: v.unit })
+        : interp(api.t('qAsk'), { a: (LANG === 'de' ? lblNom(v.aLabel) : v.aLabel), b: (LANG === 'de' ? lblNom(v.bLabel) : v.bLabel) });
       root.appendChild(q);
 
       wrap.appendChild(root); stage.appendChild(wrap);
@@ -122,8 +151,8 @@
         + '.slg-q.slg-solved{color:' + C.GREEN + ';}'
         + '@media (max-height:920px){.slg-row{display:none;}.slg-root{gap:clamp(7px,1.7vw,11px);padding:clamp(10px,2.2vw,14px);}.slg-bar{height:clamp(24px,5vw,30px);}}'
         + '@media (max-height:700px){.slg-root{gap:7px;padding:11px;}.slg-bars{gap:8px;}.slg-bar{height:26px;}.slg-q{font-size:15px;}}'
-        + '@media (max-height:640px){.slg-root{gap:6px;padding:9px;}.slg-bar{height:24px;}.slg-q{font-size:14px;}.slg-name{font-size:12px;}}'
-        + '@media (max-width:380px){.slg-name{width:54px;font-size:12px;}.slg-q{font-size:14px;}}';
+        + '@media (max-height:640px){.slg-root{gap:5px;padding:8px;}.slg-bars{gap:6px;}.slg-bar{height:21px;}.slg-q{font-size:13px;line-height:1.12;}.slg-name{font-size:11px;}}'
+        + '@media (max-width:380px){.slg-name{width:52px;font-size:11px;}.slg-q{font-size:13px;line-height:1.12;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-span-length-gap', ''); tag.textContent = css; document.head.appendChild(tag);
     }
   };

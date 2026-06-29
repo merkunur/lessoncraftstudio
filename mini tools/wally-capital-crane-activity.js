@@ -15,6 +15,7 @@
 
   var Core = global.CapitalNameCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', BLUE: '#3F7CAC' };
+  var LANG = 'en';   /* used only for the roundsL10n pick; strings localize via api.t */
 
   function isWord(t) { return /[A-Za-z]/.test(t); }
 
@@ -33,18 +34,19 @@
     id: 'wally-capital-crane-activity',
 
     strings: {
-      title: { en: "Wally's Capital Crane" },
-      instruction: { en: 'Tap the special name that needs a capital letter.' },
-      prompt: { en: 'Tap the word that needs a capital letter.' },
-      wallyIntro: { en: 'Special names get a BIG letter — lift it up with the crane!' },
-      hintPick: { en: 'Holidays, places, and products are special names — they need a capital.' },
-      hintWrong: { en: 'That one is fine. Find the special name (a holiday, place, or product).' },
-      win: { en: 'Yes! That special name gets a big capital letter. 🏗️' }
+      title: { en: "Wally's Capital Crane", de: 'Wallys Großbuchstaben-Kran' },
+      instruction: { en: 'Tap the special name that needs a capital letter.', de: 'Tippe das Nomen an, das großgeschrieben wird.' },
+      prompt: { en: 'Tap the word that needs a capital letter.', de: 'Welches Wort ist ein Nomen und wird großgeschrieben?' },
+      wallyIntro: { en: 'Special names get a BIG letter — lift it up with the crane!', de: 'Nomen schreibt man groß — mein Kran hebt den Buchstaben hoch!' },
+      hintPick: { en: 'Holidays, places, and products are special names — they need a capital.', de: 'Nomen (Namenwörter für Menschen, Tiere und Dinge) schreibt man immer groß. Welches Wort ist ein Nomen?' },
+      hintWrong: { en: 'That one is fine. Find the special name (a holiday, place, or product).', de: 'Fast! Das ist kein Nomen. Suche das Wort für einen Menschen, ein Tier oder ein Ding.' },
+      win: { en: 'Yes! That special name gets a big capital letter. 🏗️', de: 'Stark! Du hast das Nomen großgeschrieben! 🏗️' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -99,7 +101,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/wally-capital-crane-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[wally-capital-crane] manifest load failed:', e.message); });
     },
 

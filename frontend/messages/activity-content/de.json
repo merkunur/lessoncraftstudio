@@ -790,6 +790,29 @@
         "Dein Kind liest kurze Sätze genau und achtet auf den Rückbezug zur handelnden Person."
       ]
     },
+    "wally-capital-crane.special-names.l-2-2-a": {
+      "about": [
+        "Aus einem kleinen „h“ wird ein großes „H“ — und Wally das Walross hebt den Buchstaben mit seinem Kran genau an die richtige Stelle. Dein Kind sieht einen Satz, in dem ein Wort kleingeschrieben ist, zum Beispiel „Der hund schläft tief.“ Es tippt das Wort an, das großgeschrieben gehört, und der Kran verwandelt es: aus „hund“ wird „Hund“ — „Der Hund schläft tief.“",
+        "Dahinter steckt eine der ersten und wichtigsten Rechtschreibregeln: Nomen — also Namenwörter für Menschen, Tiere und Dinge wie Hund, Kind oder Tisch — schreibt man immer groß. Das gilt nicht nur am Satzanfang, sondern auch mitten im Satz. Genau das übt dein Kind hier: Es sucht in jedem Satz das eine Nomen und macht aus dem kleinen Anfangsbuchstaben einen großen.",
+        "Es gibt keine Zeit, keine Punkte und keinen Druck — dein Kind probiert in seinem eigenen Tempo, und nach jedem Satz kommt eine kleine Ermutigung. Die Übung folgt dem Bereich „Richtig schreiben“ aus dem Lehrplan der Grundschule und stärkt ein Können, das dein Kind beim eigenen Schreiben täglich braucht."
+      ],
+      "practices": [
+        "Nomen im Satz erkennen — Namenwörter für Menschen, Tiere und Dinge sicher heraushören.",
+        "Nomen großschreiben, auch wenn sie mitten im Satz stehen.",
+        "Den Unterschied zwischen einem Nomen und anderen Wörtern wie Verben oder Adjektiven entdecken.",
+        "Sätze aufmerksam lesen und das eine kleingeschriebene Wort finden, das großgeschrieben gehört."
+      ],
+      "howToPlay": [
+        "Lies den Satz und suche das Wort, das ein Nomen ist und kleingeschrieben wurde.",
+        "Tippe dieses Wort an — Wallys Kran macht aus dem kleinen Buchstaben einen großen.",
+        "Stimmt es, geht es weiter zum nächsten Satz; sonst kannst du in Ruhe noch einmal schauen."
+      ],
+      "learningGoals": [
+        "Dein Kind erkennt Nomen — Menschen, Tiere und Dinge — sicher im Satz.",
+        "Dein Kind weiß, dass man Nomen großschreibt, auch mitten im Satz.",
+        "Dein Kind wendet diese Regel beim eigenen Schreiben bewusster an."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

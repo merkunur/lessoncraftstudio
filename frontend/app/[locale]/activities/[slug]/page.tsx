@@ -52,6 +52,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'mosaic-menders.area-match.3-md-c-6': { de: 'Raum und Form' },    // Flächeninhalt = Raum und Form in KMK, not Größen und Messen
   'olive-kind-of.category-attribute.l-1-5-b': { de: 'Wortschatz untersuchen' }, // Oberbegriffe = Wortschatzarbeit, not Grammatik („Sprache untersuchen")
   'cleo-packing-list.series-commas.l-1-2-b': { de: 'Richtig schreiben' }, // Zeichensetzung = orthography/Rechtschreiben, not „Sprache untersuchen"
+  'wally-capital-crane.special-names.l-2-2-a': { de: 'Richtig schreiben' }, // Nomen-Großschreibung = orthography/Rechtschreiben, not „Sprache untersuchen"
 };
 function effStrand(row: ActivityRow, locale: string): string {
   return (STRAND_OVERRIDE[row.id] && STRAND_OVERRIDE[row.id][locale]) || localizeStrand(row.alignment.strand, locale);
@@ -326,7 +327,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.34';
+  const ACTIVITY_WRAPPER_VERSION = '9.35';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

@@ -1112,6 +1112,29 @@
         "In 5er- und 10er-Schritten zählen und Zahlenreihen sicher fortsetzen"
       ]
     },
+    "gus-snack-cart.within-100.2-nbt-b-5": {
+      "about": [
+        "Gus das Erdhörnchen hat einen kleinen Snackwagen, und an seinem Verkaufsfenster ist immer etwas los: Mal füllt er frische Vorräte nach, mal verkauft er Leckereien an seine Kundschaft. In jeder Runde liest Ihr Kind eine kurze Geschichte vom Snackwagen und sieht dazu die passende Rechenaufgabe.",
+        "Bekommt Gus etwas dazu, wird dazugezählt — Ihr Kind rechnet plus. Verkauft er etwas, wird abgezogen — Ihr Kind nimmt weg. Anschließend tippt Ihr Kind das Ergebnis ein. So wird das Addieren und Subtrahieren im Zahlenraum bis 100 geübt, ganz selbstverständlich auch dann, wenn beim Rechnen ein Zehnerübergang nötig ist (zum Beispiel 27 + 36 oder 45 − 8).",
+        "Diese Aktivität orientiert sich am Lehrplan der Grundschule, Bereich „Zahlen und Operationen“. Sie ist kostenlos, ohne Zeitdruck und ohne Punkte — Ihr Kind darf in seinem eigenen Tempo rechnen, ausprobieren und Gus an seinem Snackwagen helfen."
+      ],
+      "practices": [
+        "Plus rechnen und dazuzählen im Zahlenraum bis 100",
+        "Abziehen und wegnehmen im Zahlenraum bis 100",
+        "Zweistellig rechnen, auch mit Zehnerübergang",
+        "Sachaufgaben verstehen: aus der Geschichte erkennen, ob man dazuzählt oder abzieht"
+      ],
+      "howToPlay": [
+        "Lies die kurze Geschichte von Gus und seinem Snackwagen",
+        "Schau dir die Rechenaufgabe an und rechne plus oder minus",
+        "Tippe dein Ergebnis ein — und weiter geht's zur nächsten Runde"
+      ],
+      "learningGoals": [
+        "Sicher addieren und subtrahieren im Zahlenraum bis 100",
+        "Den Zehnerübergang beim Plus- und Minusrechnen meistern",
+        "Rechnen in kleinen Sachsituationen anwenden und festigen"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

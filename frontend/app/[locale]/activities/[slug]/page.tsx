@@ -13,6 +13,21 @@ const GRADE_KEY_MAP: Record<string, string> = {
   '2': 'grade_2',
   '3': 'grade_3',
 };
+
+/* Per-locale grade override — the visible grade chip + JSON-LD level normally come
+   from the shared `alignment.grade` (= the US CCSS grade). Where a national curriculum
+   places the content in a DIFFERENT grade (e.g. German grades by Zahlenraum: bis-1000
+   arithmetic is Klasse 3, not the CCSS-Grade-2 of 2.NBT.B.7), map activity-id → locale →
+   grade here. EN + any locale/activity without an entry are unaffected. Sits beside the
+   route's other localization maps (EDUCATIONAL_FRAMEWORK_BY_LOCALE, strand-names). */
+const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
+  'place-value-regroup.subtract-decompose.2-nbt-b-7': { de: '3' },        // bis-1000 subtraction (borrow) → DE Klasse 3
+  'place-value-regroup.add-compose-hundred.2-nbt-b-7': { de: '3' },       // bis-1000 add (carry to hundreds) → DE Klasse 3
+  'place-value-regroup.subtract-decompose-hundred.2-nbt-b-7': { de: '3' },// bis-1000 borrow across zero → DE Klasse 3
+};
+function effGrade(row: ActivityRow, locale: string): string {
+  return (locale !== 'en' && GRADE_OVERRIDE[row.id] && GRADE_OVERRIDE[row.id][locale]) || row.alignment.grade;
+}
 import {
   resolveActivitySlug,
   listActivitySitemapEntries,
@@ -221,7 +236,8 @@ const EDUCATIONAL_FRAMEWORK_BY_LOCALE: Record<string, string> = {
 
 function jsonLdFor(row: ActivityRow, locale: string): string {
   const canonical = canonicalUrl(localePath(locale, 'activities', row.slug[locale]));
-  const ageRange = gradeToAgeRange(row.alignment.grade);
+  const grade = effGrade(row, locale);
+  const ageRange = gradeToAgeRange(grade);
   const data: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'LearningResource',
@@ -230,7 +246,7 @@ function jsonLdFor(row: ActivityRow, locale: string): string {
     inLanguage: locale,
     learningResourceType: 'Interactive activity',
     educationalUse: 'interactive activity',
-    educationalLevel: row.alignment.grade,
+    educationalLevel: grade,
     teaches: localizeStrand(row.alignment.strand, locale),
     isAccessibleForFree: true,
     image: `${CANONICAL_HOST}/og-homepage.png`,
@@ -268,10 +284,11 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
      identifier; the strand NAME is localized via localizeStrand (below,
      §A.13.56 / curriculum-domain fix). */
   const tSeo = await getTranslations({ locale: params.locale, namespace: 'seo' });
-  const gradeKey = GRADE_KEY_MAP[row.alignment.grade];
+  const effectiveGrade = effGrade(row, params.locale);
+  const gradeKey = GRADE_KEY_MAP[effectiveGrade];
   const localizedGrade = gradeKey
     ? tSeo(`educational_level.${gradeKey}`)
-    : `Grade ${row.alignment.grade}`;
+    : `Grade ${effectiveGrade}`;
 
   // v7.5 cache buster: bump on any mini tools/*-activity.html change so
   // browsers fetch fresh wrapper HTML on every navigation. Defends
@@ -281,7 +298,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.08';
+  const ACTIVITY_WRAPPER_VERSION = '9.09';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

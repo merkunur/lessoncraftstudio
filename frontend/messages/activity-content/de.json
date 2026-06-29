@@ -192,6 +192,75 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "place-value-regroup.subtract-decompose.2-nbt-b-7": {
+      "about": [
+        "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",
+        "Die Aufgabe zeigt zum Beispiel 342 − 5. Das Kind sieht, dass zwei Einer nicht ausreichen, tippt auf „Zehner entbündeln“ und erhält zehn zusätzliche Einer. Nun können fünf Einer weggenommen und das Ergebnis eingegeben werden.",
+        "Die Übung ist kostenlos und ohne Anmeldung spielbar und an den Lehrplänen der Grundschule ausgerichtet. Ohne Zeitdruck und ohne Punkte begreifen die Kinder mit den Mehrsystemblöcken, warum und wie beim Subtrahieren entbündelt wird."
+      ],
+      "practices": [
+        "Subtrahieren mit Entbündeln (Zehnerübergang) im Zahlenraum bis 1000",
+        "Entbündeln: einen Zehner in zehn Einer zerlegen",
+        "Stellenwertverständnis bei dreistelligen Zahlen festigen",
+        "Die Grundlage für das schriftliche Subtrahieren („Borgen“) legen"
+      ],
+      "howToPlay": [
+        "Schau dir die Aufgabe an und lege die größere Zahl mit den Blöcken.",
+        "Reichen die Einer nicht aus? Tippe auf „Zehner entbündeln“ – eine Zehnerstange wird zu zehn Einern.",
+        "Nimm die geforderten Einer weg und gib das Ergebnis ein."
+      ],
+      "learningGoals": [
+        "Verstehen, wann und warum beim Subtrahieren entbündelt werden muss",
+        "Einen Zehner sicher in zehn Einer zerlegen",
+        "Das Stellenwertverständnis im Zahlenraum bis 1000 vertiefen"
+      ]
+    },
+    "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
+      "about": [
+        "In dieser interaktiven Übung lernen Kinder den Hunderterübergang beim Addieren im Zahlenraum bis 1000. Wenn beim Zusammenzählen mehr als zehn Zehner entstehen, werden zehn Zehnerstangen zu einer Hunderterplatte gebündelt – das Bündeln aus der ersten Klasse wird auf die nächste Stelle übertragen.",
+        "Die Aufgabe zeigt zum Beispiel 160 + 50. Das Kind legt die Zehner, erkennt, dass mehr als zehn Zehner zusammenkommen, und tippt auf „Hunderter bündeln“: Zehn Zehnerstangen werden zu einer Hunderterplatte. Danach gibt das Kind das Ergebnis ein.",
+        "Die Übung ist kostenlos und ohne Anmeldung spielbar und an den Lehrplänen der Grundschule ausgerichtet. Es gibt keine Zeitmessung und keine Punkte – mit den Mehrsystemblöcken erleben die Kinder, dass das Bündeln auf jeder Stelle nach demselben Prinzip funktioniert."
+      ],
+      "practices": [
+        "Hunderterübergang beim Addieren im Zahlenraum bis 1000",
+        "Bündeln: zehn Zehner zu einem Hunderter zusammenfassen",
+        "Das Bündelungsprinzip von der Zehner- auf die Hunderterstelle übertragen",
+        "Zehner und Hunderter sicher unterscheiden (Stellenwertverständnis)"
+      ],
+      "howToPlay": [
+        "Schau dir die Aufgabe an und lege beide Zahlen mit den Zehnerstangen.",
+        "Tippe auf „Hunderter bündeln“, wenn zehn Zehner zusammengekommen sind – sie werden zu einer Hunderterplatte.",
+        "Gib zum Schluss das Ergebnis ein."
+      ],
+      "learningGoals": [
+        "Den Hunderterübergang beim Addieren verstehen und anwenden",
+        "Zehn Zehner sicher zu einem Hunderter bündeln",
+        "Erkennen, dass das Bündeln im Zehnersystem auf jeder Stelle gleich funktioniert"
+      ]
+    },
+    "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
+      "about": [
+        "In dieser interaktiven Übung üben Kinder das Subtrahieren mit doppeltem Entbündeln im Zahlenraum bis 1000 – den anspruchsvollen Übergang über die Null. Wenn von einer dreistelligen Zahl Einer abgezogen werden sollen, aber weder genügend Einer noch Zehner vorhanden sind, muss zuerst ein Hunderter entbündelt werden: aus einer Hunderterplatte werden zehn Zehnerstangen. Anschließend wird ein Zehner in zehn Einer entbündelt.",
+        "Die Aufgabe zeigt zum Beispiel 302 − 5. Das Kind sieht, dass keine Zehner zum Entbündeln da sind, tippt zuerst auf „Hunderter entbündeln“ und dann auf „Zehner entbündeln“. Jetzt sind genug Einer vorhanden, um wegzunehmen und das Ergebnis einzugeben.",
+        "Die Übung ist kostenlos und ohne Anmeldung spielbar und an den Lehrplänen der Grundschule ausgerichtet. Ohne Zeitdruck und ohne Punkte machen die Mehrsystemblöcke den schwierigen Übergang über die Null Schritt für Schritt sichtbar und verständlich."
+      ],
+      "practices": [
+        "Subtrahieren mit Entbündeln über die Null im Zahlenraum bis 1000",
+        "Über zwei Stellen entbündeln: erst einen Hunderter, dann einen Zehner zerlegen",
+        "Den anspruchsvollsten Fall des schriftlichen Subtrahierens handelnd vorbereiten",
+        "Stellenwertverständnis bei dreistelligen Zahlen mit einer Null"
+      ],
+      "howToPlay": [
+        "Schau dir die Aufgabe an und lege die größere Zahl mit den Blöcken.",
+        "Keine Zehner da? Tippe zuerst auf „Hunderter entbündeln“ – aus einer Hunderterplatte werden zehn Zehner.",
+        "Tippe dann auf „Zehner entbündeln“, nimm die Einer weg und gib das Ergebnis ein."
+      ],
+      "learningGoals": [
+        "Den Übergang über die Null beim Subtrahieren verstehen",
+        "Über mehrere Stellen hinweg sicher entbündeln (Hunderter, Zehner, Einer)",
+        "Sich gründlich auf das schriftliche Subtrahieren in schwierigen Fällen vorbereiten"
+      ]
+    },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
         "In dieser interaktiven Übung für die 1. Klasse lernen Kinder den Zehnerübergang beim Addieren – einen der wichtigsten Schritte im Zahlenraum bis 100. Wenn beim Zusammenzählen mehr als zehn Einer entstehen, werden zehn Einerwürfel zu einer Zehnerstange gebündelt. So erleben die Kinder ganz handelnd, was später beim schriftlichen Übertrag passiert.",

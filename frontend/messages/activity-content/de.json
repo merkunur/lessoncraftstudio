@@ -1158,6 +1158,29 @@
         "Die Grundlage fürs Rechnen bis 100 legen"
       ]
     },
+    "vet-diagnosis.word-problems.1-oa-a-1": {
+      "about": [
+        "Im Behandlungszimmer wartet schon der nächste tierische Patient – und sein „Symptom“ ist eine kleine Zahlengeschichte. Im Röntgenfenster erscheint das passende Bild dazu: Was war am Anfang da? Was hat sich verändert? Was kommt am Ende heraus? Das Kind liest die Geschichte, legt die Zahlen an ihren Platz auf dem Diagramm und markiert die Stelle, an der das Geheimnis steckt.",
+        "Darum geht es: eine Sachaufgabe wirklich verstehen und sie als Bild aus Zahlen nachbauen – also modellieren. Das Spannende dabei ist, dass die gesuchte Zahl überall stecken kann: am Ende, in der Mitte, sogar ganz am Anfang („? + 5 = 12“). Und manchmal werden zwei Mengen verglichen – „Wie viele mehr?“ oder „Wie viele sind es dann?“. Eine zu große Zahl liegt absichtlich als Köder bereit, und die gesuchte Zahl lässt sich nicht einfach abzählen – das Kind muss sie herausdenken.",
+        "Geübt wird im Zahlenraum bis 20, passend zum „Lehrplan der Grundschule“ im Bereich „Zahlen und Operationen“. Die Übung ist kostenlos, ganz ohne Zeitdruck, ohne Punkte und ohne Wettbewerb – es zählt nur das ruhige Verstehen und Ausprobieren."
+      ],
+      "practices": [
+        "Sachaufgaben aufmerksam lesen und in eigenen Worten verstehen, worum es geht.",
+        "Die Geschichte mit Zahlen modellieren: Was ist der Anfang, was die Veränderung, was das Ergebnis?",
+        "Im Zahlenraum bis 20 sicher addieren und subtrahieren.",
+        "Die unbekannte Zahl an jeder Stelle finden – auch durch Umkehren und beim Vergleichen zweier Mengen."
+      ],
+      "howToPlay": [
+        "Lies die Geschichte im Behandlungsfenster – oder hör sie dir an.",
+        "Leg die Zahlen an ihren Platz und markiere mit „?“, wo das Geheimnis steckt.",
+        "Dreh die passende Antwort ein und tippe auf „Diagnose“."
+      ],
+      "learningGoals": [
+        "Ich kann eine Sachaufgabe verstehen und mit einem Diagramm nachbauen.",
+        "Ich kann die gesuchte Zahl finden, egal ob sie am Anfang, in der Mitte oder am Ende steckt.",
+        "Ich kann erkennen, wann ich addieren und wann ich subtrahieren muss – auch beim Vergleichen."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

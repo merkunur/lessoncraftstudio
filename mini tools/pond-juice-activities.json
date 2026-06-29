@@ -18,9 +18,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "pippas-pond-juice-lab" },
-    "page_title": { "en": "Pippa's Pond-Juice Lab — Pour and Read the Measure" },
-    "page_intro": { "en": "Pippa the frog runs a cozy pond-juice stand, but she can't read the fancy numbers — only you can! Pour the juice by feel into the frosted beaker, then watch it turn clear and READ how much you made off the scale. A warm Grade 3 measurement game about reading and estimating liquid volume, aligned to Common Core 3.MD.A.2." },
+    "slug": { "en": "pippas-pond-juice-lab", "de": "messbecher-ablesen-liter-schaetzen-klasse-2" },
+    "page_title": { "en": "Pippa's Pond-Juice Lab — Pour and Read the Measure", "de": "Pippas Saftstand — Liter am Messbecher ablesen & schätzen (Klasse 2)" },
+    "page_intro": { "en": "Pippa the frog runs a cozy pond-juice stand, but she can't read the fancy numbers — only you can! Pour the juice by feel into the frosted beaker, then watch it turn clear and READ how much you made off the scale. A warm Grade 3 measurement game about reading and estimating liquid volume, aligned to Common Core 3.MD.A.2.", "de": "Pippas Saftstand: Fülle den Messbecher und lies die Füllmenge an der Skala ab – Liter schätzen und Mengen vergleichen. Mathe Klasse 2, kostenlos & interaktiv." },
     "kid_prompt_template": "pour-measure"
   }
 ]

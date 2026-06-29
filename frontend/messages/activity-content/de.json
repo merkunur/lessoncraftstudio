@@ -376,6 +376,29 @@
         "Die Kinder vergleichen Flächen sicher durch Zählen statt nach dem optischen Gesamteindruck."
       ]
     },
+    "pond-juice.pour-measure.3-md-a-2": {
+      "about": [
+        "An Pippas Teich ist heute Markttag: Die kleine Fröschin verkauft frisch gepressten Saft an ihrem Stand. Jeder Gast nennt seinen Wunsch — „Ich hätte gern ungefähr sechs Liter Saft.“ — und Pippa füllt den Saft in einen Messbecher mit einer Skala von 0 bis 10 Litern.",
+        "Beim Einschenken ist der Messbecher zunächst mattiert, sodass man den Saftstand noch nicht sieht — es gibt also nichts hektisch zu „treffen“. Erst wenn Pippa loslässt, wird das Glas klar und die Füllmenge erscheint an der Skala. Jetzt ist dein Kind an der Reihe: Es liest die Füllmenge an der Skala ab und tippt den richtigen Wert an. Das genaue Ablesen ist die eigentliche Aufgabe, nicht das Gießen.",
+        "In weiteren Runden wird zuerst geschätzt und dann abgelesen, und es werden zwei Messbecher verglichen: Welches Gefäß ist voller? Manchmal haben die beiden Becher unterschiedliche Skalen — dann kann der höher gefüllt wirkende Becher trotzdem weniger enthalten, denn es zählt die abgelesene Zahl, nicht die Höhe des Saftes. Die Aktivität lässt sich frei und interaktiv spielen, ganz ohne Zeitdruck, Punkte oder Wertung, und übt eine Kernkompetenz aus dem Bereich „Größen und Messen – Hohlmaße“ des Lehrplans."
+      ],
+      "practices": [
+        "Füllmengen an einer Skala (0–10 Liter) genau ablesen",
+        "Füllmengen zuerst schätzen und die Schätzung anschließend mit dem abgelesenen Wert vergleichen",
+        "Zwei Gefäße vergleichen und entscheiden, welches voller ist",
+        "Erkennen, dass bei unterschiedlichen Skalen die abgelesene Zahl entscheidet – nicht die sichtbare Höhe des Saftes"
+      ],
+      "howToPlay": [
+        "Ein Gast nennt seinen Wunsch, zum Beispiel „ungefähr sechs Liter“. Pippa füllt den mattierten Messbecher.",
+        "Lass los – der Becher wird klar und zeigt die Füllmenge an der Skala. Lies den Wert ab.",
+        "Tippe die abgelesene Füllmenge an. In anderen Runden vergleichst du zwei Becher: Tippe den volleren an."
+      ],
+      "learningGoals": [
+        "Eine Füllmenge an einer Messskala sicher ablesen (Hohlmaße: Liter).",
+        "Mengen schätzen und dabei zwischen Schätzung und genauem Ergebnis unterscheiden.",
+        "Füllmengen vergleichen und die abgelesene Zahl höher gewichten als den optischen Eindruck."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

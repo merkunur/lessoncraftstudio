@@ -33,6 +33,14 @@
 
   var Core = global.EchoGroveCore;
 
+  var LANG = 'en';
+  /* German fruit plurals for the aria cardLabel ("{s} {fruit}", e.g. "3 Kirschen");
+     factors are 2..5 so the singular never fires. Image keys stay English. */
+  var FRUIT_DE = {
+    cherry: 'Kirschen', strawberry: 'Erdbeeren', apple: 'Äpfel', lemon: 'Zitronen',
+    pear: 'Birnen', banana: 'Bananen', orange: 'Orangen', plum: 'Pflaumen'
+  };
+
   var C = {
     T: '#146B5E', BODY: '#E2F0EC', BOWL: '#EAF7EF', BOWL2: '#DCEFE9',
     CORAL: '#F2784B', INK: '#2A2A35', RIM: '#FFFFFF', GOOD: '#2FA56A'
@@ -187,20 +195,22 @@
     id: 'echo-grove-activity',
 
     strings: {
-      title:       { en: 'The Echo Grove' },
-      instruction: { en: "Read Pim's rune, then tap the grove that matches it. Tap Check when you're ready." },
+      title:       { en: 'The Echo Grove', de: 'Pims Echo-Hain' },
+      instruction: { en: "Read Pim's rune, then tap the grove that matches it. Tap Check when you're ready.", de: 'Lies Pims Rune und tippe dann den Hain, der dazu passt. Tippe auf „Prüfen“, wenn du bereit bist.' },
       /* {g} groups of {s} — the structure, the only numerals besides the rune */
-      prompt:      { en: 'Tap the grove with {g} groups of {s}.' },
-      hintPickOne: { en: 'Tap one of the groves first.' },
-      hintCount:   { en: 'Same fruit, different shape — count the groups.' },
-      runeGloss:   { en: '{g} groups of {s}' },
-      srRune:      { en: 'The rune says {g} groups of {s}.' }
+      prompt:      { en: 'Tap the grove with {g} groups of {s}.', de: 'Tippe den Hain mit {g} Gruppen mit je {s}.' },
+      hintPickOne: { en: 'Tap one of the groves first.', de: 'Tippe zuerst auf einen der Haine.' },
+      hintCount:   { en: 'Same fruit, different shape — count the groups.', de: 'Gleiche Früchte, andere Form – zähl die Gruppen.' },
+      runeGloss:   { en: '{g} groups of {s}', de: '{g} Gruppen mit je {s}' },
+      srRune:      { en: 'The rune says {g} groups of {s}.', de: 'Die Rune zeigt {g} Gruppen mit je {s}.' },
+      cardLabel:   { en: 'A grove with {g} baskets, {s} {fruit} in each basket.', de: 'Ein Hain mit {g} Gruppen, in jeder Gruppe {s} {fruit}.' }
     },
 
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this.g = 3; this.s = 4; this.fruit = 'cherry'; this.theme = 'fruits'; this.seed = 1;
       this.cands = []; this.picked = null; this.readOnly = false; this._heartsSpawned = false;
       this._pool = null; this._order = null; this._curPass = 0; this._orderForPool = null;
@@ -427,7 +437,8 @@
   var CHECK_SVG = '<svg viewBox="0 0 24 24" width="100%" height="100%" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="' + C.GOOD + '"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   /* structure + fruit, ANSWER WITHHELD (identical phrasing for correct + decoys) */
   function cardLabel(api, c, fruit) {
-    return 'A grove with ' + c.g + ' baskets, ' + c.s + ' ' + fruit + ' in each basket.';
+    var fl = (LANG === 'de' && FRUIT_DE[fruit]) ? FRUIT_DE[fruit] : fruit;
+    return interp(api.t('cardLabel'), { g: c.g, s: c.s, fruit: fl });
   }
 
   /* ---- tasks (manifest rounds → shell tasks) ---- */

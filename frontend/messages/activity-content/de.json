@@ -928,6 +928,29 @@
         "Dein Kind versteht, warum bei der genauen Mitte aufgerundet wird."
       ]
     },
+    "echo-grove.match-the-rune.3-oa-a-1": {
+      "about": [
+        "Pim die Eule deckt heute Teller mit Obst — und jeder Teller bekommt gleich viele Früchte. Auf dem Bild erscheint ein kurzes Zeichen wie „3 · 4“, und Ihr Kind sucht das Foto, das wirklich dazu passt: drei Teller mit je vier Früchten. Daneben gibt es Bilder, die zwar dieselbe Gesamtzahl zeigen, aber anders gruppiert sind — zum Beispiel vier Teller mit je drei Früchten. Ihr Kind schaut genau hin und tippt das richtige an.",
+        "Dahinter steckt die große Idee des Malnehmens: „3 · 4“ heißt „3-mal die 4“, also drei gleich große Gruppen mit je vier Dingen. Der erste Faktor sagt, wie viele Gruppen es gibt, der zweite, wie groß jede Gruppe ist. Genau dieses Lesen der Malaufgabe als „gleich große Gruppen“ ist der erste Schritt zum kleinen Einmaleins — und es zeigt ganz nebenbei, warum „3 · 4“ und „4 · 3“ zwar dasselbe Ergebnis haben, aber unterschiedlich zusammengelegt sind (die spätere Tauschaufgabe).",
+        "Es gibt keine Uhr, keine Punkte und keinen Wettbewerb. Ihr Kind darf in Ruhe ausprobieren, vergleichen und auch einmal danebentippen — jede Runde ist eine neue kleine Entdeckung mit Pim. Diese Aktivität ist kostenlos und orientiert sich am Lehrplan der Grundschule im Bereich „Zahlen und Operationen“."
+      ],
+      "practices": [
+        "Liest die Malaufgabe als gleich große Gruppen: erster Faktor = Anzahl der Gruppen, zweiter = Größe jeder Gruppe",
+        "Unterscheidet „3 Gruppen mit je 4“ von „4 Gruppen mit je 3“, auch wenn das Ergebnis gleich ist",
+        "Verbindet das Malzeichen mit der wiederholten Addition (4 + 4 + 4)",
+        "Schaut genau hin und vergleicht mehrere Bilder mit gleicher Gesamtzahl"
+      ],
+      "howToPlay": [
+        "Pim zeigt eine Malaufgabe wie „3 · 4“ oben am Bildschirm",
+        "Ihr Kind tippt das Bild an, das genau diese Gruppen zeigt — drei Teller mit je vier Früchten",
+        "Stimmt es, freut sich Pim; sonst darf Ihr Kind in aller Ruhe noch einmal vergleichen und neu tippen"
+      ],
+      "learningGoals": [
+        "Versteht Malnehmen als „gleich große Gruppen“ statt nur als auswendig gelerntes Ergebnis",
+        "Erkennt die Bedeutung der beiden Faktoren (wie viele Gruppen, wie groß jede Gruppe)",
+        "Legt die Grundlage für das kleine Einmaleins und die spätere Tauschaufgabe"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

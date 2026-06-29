@@ -18,13 +18,16 @@
     },
     "theme": null,
     "slug": {
-      "en": "echo-grove-equal-groups"
+      "en": "echo-grove-equal-groups",
+      "de": "multiplikation-als-gruppen-einmaleins-klasse-2"
     },
     "page_title": {
-      "en": "The Echo Grove — Read Multiplication as Equal Groups (Grade 3)"
+      "en": "The Echo Grove — Read Multiplication as Equal Groups (Grade 3)",
+      "de": "Multiplikation als Gruppen üben – Pim die Eule | Klasse 2"
     },
     "page_intro": {
-      "en": "A free interactive Grade 3 math activity: read Pim's rune (like 3 × 4) and tap the grove that shows 3 groups of 4 — not the look-alike with the same total but a different grouping. Children interpret a product as equal groups (the first factor = number of groups, the second = the size of each group). Common Core 3.OA.A.1."
+      "en": "A free interactive Grade 3 math activity: read Pim's rune (like 3 × 4) and tap the grove that shows 3 groups of 4 — not the look-alike with the same total but a different grouping. Children interpret a product as equal groups (the first factor = number of groups, the second = the size of each group). Common Core 3.OA.A.1.",
+      "de": "Multiplikation als gleiche Gruppen verstehen mit Pim, der Eule: Lies 3×4 als 3 Gruppen mit je 4. Einmaleins & Malnehmen für Klasse 2 – kostenlos & interaktiv."
     },
     "kid_prompt_template": "match-the-rune"
   }

@@ -12,11 +12,12 @@
   'use strict';
 
   var Core = global.RootWordCore;
+  var LANG = 'en';
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A', GREEN: '#2FA56A' };
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -35,19 +36,20 @@
     id: 'sage-root-garden-activity',
 
     strings: {
-      title: { en: "Sage's Root Garden" },
-      prompt: { en: 'Which word grows from the root?' },
-      sageIntro: { en: 'Big words grow from little root words — find the family!' },
-      rootLab: { en: 'Root word:' },
-      theAsk: { en: 'Tap the word that grows from this root.' },
-      hintPick: { en: 'Find the root hiding inside one of the words!' },
-      hintWrong: { en: "That one just looks alike — look for the root inside." },
-      win: { en: 'Yes! That word grew from the root. 🌱' }
+      title: { en: "Sage's Root Garden", de: 'Sages Wortgarten' },
+      prompt: { en: 'Which word grows from the root?', de: 'Welches Wort wächst aus dem Wortstamm?' },
+      sageIntro: { en: 'Big words grow from little root words — find the family!', de: 'Aus kleinen Wortstämmen wachsen große Wörter – finde die Wortfamilie!' },
+      rootLab: { en: 'Root word:', de: 'Wortstamm:' },
+      theAsk: { en: 'Tap the word that grows from this root.', de: 'Tippe das Wort an, das aus diesem Wortstamm wächst.' },
+      hintPick: { en: 'Find the root hiding inside one of the words!', de: 'Finde den Wortstamm, der sich in einem der Wörter versteckt!' },
+      hintWrong: { en: "That one just looks alike — look for the root inside.", de: 'Das sieht nur ähnlich aus – suche den Wortstamm darin.' },
+      win: { en: 'Yes! That word grew from the root. 🌱', de: 'Ja! Dieses Wort ist aus dem Wortstamm gewachsen. 🌱' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -71,7 +73,7 @@
       var say = api.el('div', 'srg-say'); say.textContent = api.t('sageIntro'); row.appendChild(say);
       root.appendChild(row);
 
-      var rootBox = api.el('button', 'srg-rootbox'); rootBox.type = 'button'; rootBox.setAttribute('aria-label', 'hear the root ' + v.root);
+      var rootBox = api.el('button', 'srg-rootbox'); rootBox.type = 'button'; rootBox.setAttribute('aria-label', LANG === 'de' ? ('Wortstamm ' + v.root + ' anhören') : ('hear the root ' + v.root));
       var rl = api.el('span', 'srg-rootlab'); rl.textContent = api.t('rootLab'); rootBox.appendChild(rl);
       var rw = api.el('span', 'srg-rootword'); rw.textContent = v.root; rootBox.appendChild(rw);
       rootBox.addEventListener('click', function () { speak(v.root); });
@@ -111,7 +113,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/sage-root-garden-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[sage-root-garden] manifest load failed:', e.message); });
     },
 

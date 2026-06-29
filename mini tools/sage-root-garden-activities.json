@@ -14,12 +14,24 @@
         { "id": "teach", "band": 2, "root": "teach", "correct": "teacher", "choices": [ { "word": "feather" }, { "word": "beacon" }, { "word": "teacher" } ] },
         { "id": "sun", "band": 3, "root": "sun", "correct": "sunny", "choices": [ { "word": "sunny" }, { "word": "funny" }, { "word": "bunny" } ] },
         { "id": "jump", "band": 3, "root": "jump", "correct": "jumping", "choices": [ { "word": "jumbo" }, { "word": "jumping" }, { "word": "bumping" } ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "spiel", "band": 1, "root": "spiel", "correct": "Spieler", "choices": [ { "word": "Spieler" }, { "word": "Spiegel" }, { "word": "Spinne" } ] },
+          { "id": "roll", "band": 1, "root": "roll", "correct": "Roller", "choices": [ { "word": "Roller" }, { "word": "Koffer" }, { "word": "Hammer" } ] },
+          { "id": "lach", "band": 1, "root": "lach", "correct": "lachen", "choices": [ { "word": "lachen" }, { "word": "machen" }, { "word": "Sachen" } ] },
+          { "id": "sing", "band": 2, "root": "sing", "correct": "singen", "choices": [ { "word": "singen" }, { "word": "Finger" }, { "word": "Ringe" } ] },
+          { "id": "fahr", "band": 2, "root": "fahr", "correct": "Fahrrad", "choices": [ { "word": "Fahrrad" }, { "word": "Fahne" }, { "word": "Faden" } ] },
+          { "id": "back", "band": 2, "root": "back", "correct": "backen", "choices": [ { "word": "backen" }, { "word": "packen" }, { "word": "Jacke" } ] },
+          { "id": "tanz", "band": 3, "root": "tanz", "correct": "tanzen", "choices": [ { "word": "tanzen" }, { "word": "Tante" }, { "word": "Tanne" } ] },
+          { "id": "wasch", "band": 3, "root": "wasch", "correct": "waschen", "choices": [ { "word": "waschen" }, { "word": "Wasser" }, { "word": "Tasche" } ] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "sage-root-garden" },
-    "page_title": { "en": "Sage's Root Garden — Find the Root Word Family (Grade 2)" },
-    "page_intro": { "en": "Sage the tortoise grows word families from a single root! Big words often grow from a smaller root word you already know — farm grows into farmer. Read the root, then tap the word that GROWS from it (watch out for words that just look alike). A Grade 2 vocabulary game about using root words as a clue to meaning, aligned to Common Core L.2.4.c." },
+    "slug": { "en": "sage-root-garden", "de": "wortfamilien-wortstamm-erkennen-klasse-2" },
+    "page_title": { "en": "Sage's Root Garden — Find the Root Word Family (Grade 2)", "de": "Sages Wortgarten: Wortfamilien & Wortstamm – Klasse 2" },
+    "page_intro": { "en": "Sage the tortoise grows word families from a single root! Big words often grow from a smaller root word you already know — farm grows into farmer. Read the root, then tap the word that GROWS from it (watch out for words that just look alike). A Grade 2 vocabulary game about using root words as a clue to meaning, aligned to Common Core L.2.4.c.", "de": "Mit Sage der Schildkröte den Wortstamm in einem Wort wiedererkennen und das passende Wort der Wortfamilie wählen. Kostenlos, interaktiv und ideal für Klasse 2." },
     "kid_prompt_template": "Tap the word that grows from the root."
   }
 ]

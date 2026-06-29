@@ -36,6 +36,14 @@
   };
   function cdef(k) { return CAT[k] || { label: k, color: '#146B5E', shape: 'circle' }; }
 
+  /* Per-locale category labels (plural nouns). EN mirrors CAT.label; DE per the
+     native ensemble. clabel() reads the shell's current locale (like txt). */
+  var CAT_L = {
+    en: { leaf: 'Leaves', berry: 'Berries', acorn: 'Acorns', pinecone: 'Pinecones', mushroom: 'Mushrooms', flower: 'Flowers' },
+    de: { leaf: 'Blätter', berry: 'Beeren', acorn: 'Eicheln', pinecone: 'Tannenzapfen', mushroom: 'Pilze', flower: 'Blumen' }
+  };
+  function clabel(k) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (CAT_L[lang] && CAT_L[lang][k]) || (CAT_L.en && CAT_L.en[k]) || cdef(k).label; }
+
   /* EN pilot strings. The relational phrasings are a §A.13.48 native-ensemble
      table-fill at fan-out (the §A.13.56 comparative-agreement trap). */
   var L = {
@@ -52,7 +60,30 @@
       missTotal: '{A} has {ca} and {B} has {cb} — put them together.',
       missVerify: '{A} has {ca}, {B} has {cb}. Look again!',
       missMatch: 'Not quite — check each bar against the tally.',
-      tru: 'True', fls: 'False'
+      tru: 'True', fls: 'False',
+      announceBar: '{label} bar is now {n}',
+      srCaption: 'Bar graph data'
+    },
+    /* DE — native ensemble (linguist + Klasse-2 educator). Math vocab clean
+       (Säulendiagramm/Säule/Strichliste/ablesen); „Zaun" flavour stays in the title
+       only. Comparative qMore/qFewer use article-less plural labels (agreement-proof);
+       miss-lines and qVerify use „Es gibt"/colon-count to dodge the plural-verb trap. */
+    de: {
+      buildLine: 'Lies die Strichliste – tipp auf jede Säule, um sie aufzustapeln!',
+      fixLine: 'Eine Säule ist falsch. Verbessere sie, damit sie zur Strichliste passt!',
+      matchLine: 'Welches Säulendiagramm passt zur Strichliste?',
+      readLine: 'Lies Pips Säulendiagramm und wähle die Antwort.',
+      undo: 'Zurück',
+      commit: 'Das ist meine Antwort!',
+      yes: 'Ja – du hast richtig abgelesen!',
+      buildDone: 'Das Säulendiagramm ist fertig – super gestapelt!',
+      missMore: '{A}: {ca}, {B}: {cb} – zähl von {cb} aus weiter.',
+      missTotal: '{A}: {ca} und {B}: {cb} – zähl sie zusammen.',
+      missVerify: '{A}: {ca}, {B}: {cb}. Schau noch mal genau hin!',
+      missMatch: 'Noch nicht ganz – vergleiche jede Säule mit der Strichliste.',
+      tru: 'Richtig', fls: 'Falsch',
+      announceBar: 'Die {label}-Säule ist jetzt {n}',
+      srCaption: 'Daten des Säulendiagramms'
     }
   };
   function txt(key) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (L[lang] || L.en)[key] || L.en[key] || key; }
@@ -121,15 +152,15 @@
   var GraphItActivity = {
     id: 'graph-it',
     strings: {
-      title: { en: "Pip's Stacking Fence" },
-      instruction: { en: 'Build a bar graph, then read how many more!' },
-      qBuild: { en: 'Build the fence to match the tally.' },
-      qFix: { en: 'One fence bar is wrong — fix it!' },
-      qMatch: { en: 'Which fence matches the tally?' },
-      qMore: { en: 'How many MORE {a} than {b}?' },
-      qFewer: { en: 'How many FEWER {a} than {b}?' },
-      qTotal: { en: 'How many {a} and {b} TOGETHER?' },
-      qVerify: { en: '{x} beat {y} by {by}. True or false?' }
+      title: { en: "Pip's Stacking Fence", de: 'Pips Stapelzaun' },
+      instruction: { en: 'Build a bar graph, then read how many more!', de: 'Baue ein Säulendiagramm und lies dann ab, wie viele mehr!' },
+      qBuild: { en: 'Build the fence to match the tally.', de: 'Baue das Säulendiagramm nach der Strichliste.' },
+      qFix: { en: 'One fence bar is wrong — fix it!', de: 'Eine Säule ist falsch – verbessere sie!' },
+      qMatch: { en: 'Which fence matches the tally?', de: 'Welches Säulendiagramm passt zur Strichliste?' },
+      qMore: { en: 'How many MORE {a} than {b}?', de: 'Wie viele {a} mehr als {b}?' },
+      qFewer: { en: 'How many FEWER {a} than {b}?', de: 'Wie viele {a} weniger als {b}?' },
+      qTotal: { en: 'How many {a} and {b} TOGETHER?', de: 'Wie viele {a} und {b} zusammen?' },
+      qVerify: { en: '{x} beat {y} by {by}. True or false?', de: 'Es gibt {by} {x} mehr als {y}. Stimmt das?' }
     },
 
     init: function (api) {
@@ -221,10 +252,10 @@
       if (round.cog === 'fix') promptKey = 'qFix';
       else if (round.cog === 'match') promptKey = 'qMatch';
       else if (round.kind === 'build') promptKey = 'qBuild';
-      else if (q.type === 'more') { promptKey = 'qMore'; promptArgs = { a: cdef(q.a).label, b: cdef(q.b).label }; }
-      else if (q.type === 'fewer') { promptKey = 'qFewer'; promptArgs = { a: cdef(q.a).label, b: cdef(q.b).label }; }
-      else if (q.type === 'total') { promptKey = 'qTotal'; promptArgs = { a: cdef(q.a).label, b: cdef(q.b).label }; }
-      else if (q.type === 'verify') { promptKey = 'qVerify'; promptArgs = { x: cdef(q.x).label, y: cdef(q.y).label, by: q.by }; }
+      else if (q.type === 'more') { promptKey = 'qMore'; promptArgs = { a: clabel(q.a), b: clabel(q.b) }; }
+      else if (q.type === 'fewer') { promptKey = 'qFewer'; promptArgs = { a: clabel(q.a), b: clabel(q.b) }; }
+      else if (q.type === 'total') { promptKey = 'qTotal'; promptArgs = { a: clabel(q.a), b: clabel(q.b) }; }
+      else if (q.type === 'verify') { promptKey = 'qVerify'; promptArgs = { x: clabel(q.x), y: clabel(q.y), by: q.by }; }
       return {
         id: round.id, promptKey: promptKey, promptArgs: promptArgs, answerType: 'state', round: round,
         setup: function (tool) { tool._beginRound(round); },
@@ -292,7 +323,7 @@
         var marks = round.source === 'icons'
           ? '<span class="gi-tmarks">' + Array.apply(null, { length: goal }).map(function () { return shapeIcon(d.shape, d.color, 12); }).join('') + '</span>'
           : '<span class="gi-tmarks">' + tallyMarks(goal) + '</span>';
-        row.innerHTML = shapeIcon(d.shape, d.color, 16) + '<span>' + d.label + '</span>' + marks;
+        row.innerHTML = shapeIcon(d.shape, d.color, 16) + '<span>' + clabel(k) + '</span>' + marks;
         tally.appendChild(row);
       });
       root.appendChild(tally);
@@ -315,7 +346,7 @@
     },
     _afterBuildChange: function (cat) {
       this.render();
-      this._api.announce && this._api.announce(cdef(cat).label + ' bar is now ' + (this._built[cat] || 0));
+      this._api.announce && this._api.announce(fill(txt('announceBar'), { label: clabel(cat), n: (this._built[cat] || 0) }));
       if (Core.builtMatchesData(this._round, this._built)) {
         if (this._line) this._line.textContent = txt('buildDone');
         this._resolve();
@@ -386,9 +417,9 @@
       var a = q.a || q.x, b = q.b || q.y;
       this._highlight = [a, b];
       var msg;
-      if (q.type === 'total') msg = fill(txt('missTotal'), { A: cdef(a).label, B: cdef(b).label, ca: d[a], cb: d[b] });
-      else if (q.type === 'verify') msg = fill(txt('missVerify'), { A: cdef(a).label, B: cdef(b).label, ca: d[a], cb: d[b] });
-      else msg = fill(txt('missMore'), { A: cdef(a).label, B: cdef(b).label, ca: d[a], cb: d[b] });
+      if (q.type === 'total') msg = fill(txt('missTotal'), { A: clabel(a), B: clabel(b), ca: d[a], cb: d[b] });
+      else if (q.type === 'verify') msg = fill(txt('missVerify'), { A: clabel(a), B: clabel(b), ca: d[a], cb: d[b] });
+      else msg = fill(txt('missMore'), { A: clabel(a), B: clabel(b), ca: d[a], cb: d[b] });
       this._selected = null;
       this._rail = null;   /* reshuffle on next render */
       this.render();       /* re-renders with the two bars highlighted (this._highlight) */
@@ -404,7 +435,7 @@
       var tally = el('div', 'gi-tally');
       cats.forEach(function (k) {
         var d = cdef(k), row = el('div', 'gi-trow');
-        row.innerHTML = shapeIcon(d.shape, d.color, 16) + '<span>' + d.label + '</span><span class="gi-tmarks">' + tallyMarks(round.data[k] || 0) + '</span>';
+        row.innerHTML = shapeIcon(d.shape, d.color, 16) + '<span>' + clabel(k) + '</span><span class="gi-tmarks">' + tallyMarks(round.data[k] || 0) + '</span>';
         tally.appendChild(row);
       });
       root.appendChild(tally);
@@ -432,8 +463,8 @@
       var round = this._round, cats = Core.catKeys(round);
       var src = (round.kind === 'interpret' || round.cog === 'match') ? round.data : this._built;
       var wrap = el('div', 'gi-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var rows = cats.map(function (k) { return '<tr><th>' + cdef(k).label + '</th><td>' + (src[k] || 0) + '</td></tr>'; }).join('');
-      wrap.innerHTML = '<table><caption>Bar graph data</caption><tbody>' + rows + '</tbody></table>';
+      var rows = cats.map(function (k) { return '<tr><th>' + clabel(k) + '</th><td>' + (src[k] || 0) + '</td></tr>'; }).join('');
+      wrap.innerHTML = '<table><caption>' + txt('srCaption') + '</caption><tbody>' + rows + '</tbody></table>';
       return wrap;
     },
 

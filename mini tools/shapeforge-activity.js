@@ -15,16 +15,23 @@
   'use strict';
 
   var Core = global.ShapeForgeCore;
+  var LANG = 'en';                               /* content locale (api.lang = ?lang=xx); set in init(). */
   var SVGNS = 'http://www.w3.org/2000/svg';
   var S = 10;                                   /* unit-triangle side (SVG units; CSS scales it) */
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', DARK: '#243B36' };
   var SHARD = { triangle: '#5BB5A6', rhombus: '#E89A5B' };   /* lit tints (stub; CA5 = stained glass) */
+  /* Per-locale piece names — formal Klasse-1 curriculum terms (educator). */
+  var PIECE_L = {
+    en: { triangle: 'triangle', rhombus: 'rhombus' },
+    de: { triangle: 'Dreieck', rhombus: 'Raute' }
+  };
+  function pname(id) { return (PIECE_L[LANG] && PIECE_L[LANG][id]) || (PIECE_L.en && PIECE_L.en[id]) || id; }
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG; u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function svg(tag, attrs) { var e = document.createElementNS(SVGNS, tag); for (var k in attrs) if (attrs.hasOwnProperty(k)) e.setAttribute(k, attrs[k]); return e; }
@@ -34,21 +41,28 @@
     id: 'shapeforge-activity',
 
     strings: {
-      title: { en: "Mim's Glow Workshop" },
-      instruction: { en: '' },
-      prompt: { en: 'Forge the shape.' },
-      rotate: { en: '↻ Turn' },
-      sayWelcome: { en: 'Pick a shard, turn it, and fuse the light!' },
-      sayWin: { en: 'You forged it! ✨' },
-      sayIllegal: { en: "Try turning it, or pick another shard." },
-      sayReway: { en: "That's the first way — now find a NEW way!" },
-      pickFirst: { en: 'Tap a shard below to begin.' },
-      hintCheck: { en: 'Fill every part of the blank shape.' }
+      title: { en: "Mim's Glow Workshop", de: 'Mims Glühwerkstatt' },
+      instruction: { en: '', de: '' },
+      prompt: { en: 'Forge the shape.', de: 'Bau die Form.' },
+      rotate: { en: '↻ Turn', de: '↻ Drehen' },
+      sayWelcome: { en: 'Pick a shard, turn it, and fuse the light!', de: 'Such dir ein Leuchtplättchen aus, dreh es und setz das Licht zusammen!' },
+      sayWin: { en: 'You forged it! ✨', de: 'Du hast es gebaut! ✨' },
+      sayIllegal: { en: "Try turning it, or pick another shard.", de: 'Dreh es mal, oder nimm ein anderes Plättchen.' },
+      sayReway: { en: "That's the first way — now find a NEW way!", de: 'Das war der erste Weg – jetzt finde einen NEUEN Weg!' },
+      pickFirst: { en: 'Tap a shard below to begin.', de: 'Tipp unten auf ein Plättchen, um loszulegen.' },
+      hintCheck: { en: 'Fill every part of the blank shape.', de: 'Füll jeden Teil der leeren Form aus.' },
+      shardLabel: { en: 'shard: ', de: 'Plättchen: ' },
+      paletteLeft: { en: '{piece}, {n} left', de: '{piece}, noch {n}' },
+      ariaShards: { en: 'glowing shards', de: 'leuchtende Plättchen' },
+      ariaForge: { en: 'the blank lantern — fuse shards to fill it', de: 'die leere Laterne – setz Plättchen zusammen, um sie zu füllen' },
+      ariaPlace: { en: 'place here', de: 'hier einsetzen' },
+      ariaRemovable: { en: '{piece}, placed — tap to take it back', de: '{piece}, eingesetzt – tipp drauf, um es zurückzunehmen' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.snap = null; this.solved = false;
       this.placements = []; this.remaining = {}; this.selected = null; this.orient = 0; this.msg = null;
@@ -65,6 +79,9 @@
       this._avoid = (round.cog === 'reway') ? (Core.audit(round).solutionMultiset) : null;
     },
 
+    /* localized per-round prompt: manifest promptL10n[LANG] → EN prompt → generic */
+    _pPrompt: function (r) { return (r && r.promptL10n && r.promptL10n[LANG]) || (r && r.prompt) || this.api.t('prompt'); },
+
     /* ---------- render ---------- */
     render: function () {
       this.injectCSS();
@@ -79,7 +96,7 @@
 
       this._renderShelf(root);
 
-      var prompt = api.el('p', 'sf-prompt'); prompt.textContent = r.prompt || api.t('prompt'); root.appendChild(prompt);
+      var prompt = api.el('p', 'sf-prompt'); prompt.textContent = this._pPrompt(r); root.appendChild(prompt);
 
       /* the forge (SVG build area) */
       root.appendChild(this._buildSvg());
@@ -91,16 +108,16 @@
         rot.disabled = !this.selected;
         rot.addEventListener('click', function () { self._rotate(); });
         ctr.appendChild(rot);
-        var hint = api.el('span', 'sf-hint'); hint.textContent = this.selected ? ('shard: ' + this.selected) : api.t('pickFirst'); ctr.appendChild(hint);
+        var hint = api.el('span', 'sf-hint'); hint.textContent = this.selected ? (api.t('shardLabel') + pname(this.selected)) : api.t('pickFirst'); ctr.appendChild(hint);
         root.appendChild(ctr);
 
         /* palette — one button per TYPE + an abundance count */
-        var pal = api.el('div', 'sf-palette'); pal.setAttribute('role', 'group'); pal.setAttribute('aria-label', 'glowing shards');
+        var pal = api.el('div', 'sf-palette'); pal.setAttribute('role', 'group'); pal.setAttribute('aria-label', api.t('ariaShards'));
         (r.palette || []).forEach(function (p) {
           var left = self.remaining[p.pieceId] || 0;
           var b = api.el('button', 'sf-shard' + (self.selected === p.pieceId ? ' sf-sel' : '')); b.type = 'button';
           b.disabled = left <= 0;
-          b.setAttribute('aria-label', p.pieceId + ', ' + left + ' left');
+          b.setAttribute('aria-label', api.t('paletteLeft').replace('{piece}', pname(p.pieceId)).replace('{n}', left));
           b.appendChild(self._pieceMini(p.pieceId));
           var n = api.el('span', 'sf-count'); n.textContent = '×' + left; b.appendChild(n);
           b.addEventListener('click', function () { self._select(p.pieceId); });
@@ -112,7 +129,7 @@
       }
 
       stage.appendChild(root);
-      if (!this._spoke) { this._spoke = true; if (r.namedTarget) setTimeout(function () { speak(r.prompt || r.namedTarget); }, 260); }
+      if (!this._spoke) { this._spoke = true; if (r.namedTarget) setTimeout(function () { speak(self._pPrompt(r)); }, 260); }
     },
 
     _renderShelf: function (root) {
@@ -129,7 +146,7 @@
       var wrap = api.el('div', 'sf-forge');
       var b = Core.bounds(r.target.cells, S), pad = S * 0.6;
       var vb = (b.minX - pad) + ' ' + (b.minY - pad) + ' ' + (b.w + 2 * pad) + ' ' + (b.h + 2 * pad);
-      var sv = svg('svg', { viewBox: vb, class: 'sf-svg', 'aria-label': 'the blank lantern — fuse shards to fill it' });
+      var sv = svg('svg', { viewBox: vb, class: 'sf-svg', 'aria-label': api.t('ariaForge') });
       sv.style.aspectRatio = ((b.w + 2 * pad) / (b.h + 2 * pad)).toFixed(3);
 
       /* the BLANK silhouette — every target cell, ONE dark fill, NO internal
@@ -152,7 +169,7 @@
             var cx = 0, cy = 0; cells.forEach(function (rc) { var c2 = Core.centroid(rc[0], rc[1], S); cx += c2[0]; cy += c2[1]; }); cx /= cells.length; cy /= cells.length;
             ptsOf(cells).forEach(function (pts) { sv.appendChild(svg('polygon', { points: pts, fill: SHARD[self.selected], 'fill-opacity': '0.28', stroke: SHARD[self.selected], 'stroke-opacity': '0.7', 'stroke-width': '0.4', class: 'sf-ghost' })); });
             var dot = svg('circle', { cx: cx, cy: cy, r: S * 0.68, fill: 'rgba(255,255,255,.14)', class: 'sf-anchor', tabindex: '0', role: 'button' });
-            dot.setAttribute('aria-label', 'place here');
+            dot.setAttribute('aria-label', api.t('ariaPlace'));
             dot.addEventListener('click', function () { self._placeAt(oFix, a.dr, a.dc); });
             dot.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); self._placeAt(oFix, a.dr, a.dc); } });
             sv.appendChild(dot);
@@ -171,7 +188,7 @@
       ptsOf(cells).forEach(function (pts) { grp.appendChild(svg('polygon', { points: pts, fill: tint, 'fill-opacity': self.solved ? '0.82' : '0.5', stroke: '#fff', 'stroke-opacity': '0.7', 'stroke-width': '0.35' })); });
       if (!fixed && !this.solved) {
         grp.setAttribute('class', grp.getAttribute('class') + ' sf-removable');
-        grp.setAttribute('tabindex', '0'); grp.setAttribute('role', 'button'); grp.setAttribute('aria-label', pl.pieceId + ', placed — tap to take it back');
+        grp.setAttribute('tabindex', '0'); grp.setAttribute('role', 'button'); grp.setAttribute('aria-label', self.api.t('ariaRemovable').replace('{piece}', pname(pl.pieceId)));
         grp.addEventListener('click', function () { self._remove(idx); });
         grp.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); self._remove(idx); } });
       }

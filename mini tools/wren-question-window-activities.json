@@ -14,12 +14,24 @@
         { "id": "eggs",   "band": 2, "sentence": "___ do you like your eggs?",     "asks": "manner" },
         { "id": "plateon","band": 3, "sentence": "___ is on your plate?",          "asks": "thing" },
         { "id": "ordered","band": 3, "sentence": "___ ordered the pancakes?",      "asks": "person" }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "wren-was-essen", "band": 1, "sentence": "___ möchtest du essen?", "asks": "thing" },
+          { "id": "wren-wer-bestellen", "band": 1, "sentence": "___ möchte als Nächstes bestellen?", "asks": "person" },
+          { "id": "wren-wo-tisch", "band": 1, "sentence": "___ ist dein Tisch?", "asks": "place" },
+          { "id": "wren-wann-fruehstueck", "band": 2, "sentence": "___ beginnt das Frühstück?", "asks": "time" },
+          { "id": "wren-wie-suppe", "band": 2, "sentence": "___ schmeckt dir die Suppe?", "asks": "manner" },
+          { "id": "wren-was-trinken", "band": 2, "sentence": "___ trinkst du dazu?", "asks": "thing" },
+          { "id": "wren-warum-hunger", "band": 3, "sentence": "___ hast du so großen Hunger?", "asks": "reason" },
+          { "id": "wren-wer-bezahlen", "band": 3, "sentence": "___ bezahlt die Rechnung?", "asks": "person" }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "wren-question-window" },
-    "page_title": { "en": "Wren's Question Window — Ask the Right Word (Kindergarten)" },
-    "page_intro": { "en": "Wren takes orders at the diner window, and every order starts with a good question. Read each question, then tap the question word that fills the blank — who, what, where, when, why, or how — so Wren can ask it just right. A warm Kindergarten language game about understanding and using question words, aligned to Common Core L.K.1.d." },
+    "slug": { "en": "wren-question-window", "de": "fragewoerter-ueben-wer-was-wo-wann-klasse-1" },
+    "page_title": { "en": "Wren's Question Window — Ask the Right Word (Kindergarten)", "de": "Wrens Fragefenster: W-Fragen üben – Fragewörter, Klasse 1" },
+    "page_intro": { "en": "Wren takes orders at the diner window, and every order starts with a good question. Read each question, then tap the question word that fills the blank — who, what, where, when, why, or how — so Wren can ask it just right. A warm Kindergarten language game about understanding and using question words, aligned to Common Core L.K.1.d.", "de": "Hilf dem Vögelchen Wren am Bestellfenster: Lies die Frage, tippe das richtige Fragewort – wer, was, wo oder wann? W-Fragen üben für Klasse 1, kostenlos und interaktiv." },
     "kid_prompt_template": "wren-question-window"
   }
 ]

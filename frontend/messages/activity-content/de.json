@@ -882,6 +882,29 @@
         "Dein Kind festigt seinen Wortschatz und bereitet sich auf das Arbeiten mit Oberbegriffen vor."
       ]
     },
+    "wren-question-window.question-words.l-k-1-d": {
+      "about": [
+        "Am Bestellfenster von Wren fehlt in jeder Frage das erste Wort. Dein Kind liest die Frage – zum Beispiel „___ möchtest du essen?“ – und tippt aus sechs Wörtern das Fragewort an, das in die Lücke passt: hier „Was“. Mal fehlt „wer“, mal „wo“, mal „wann“, „warum“ oder „wie“.",
+        "Dahinter steckt eine wichtige Einsicht: Jedes Fragewort fragt nach etwas Bestimmtem. „Wer“ fragt nach einer Person, „was“ nach einer Sache, „wo“ nach dem Ort, „wann“ nach der Zeit, „warum“ nach dem Grund und „wie“ nach der Art und Weise. Wenn dein Kind die Frage genau liest, merkt es, welche Antwort gesucht ist – und findet so das passende Fragewort.",
+        "Es gibt keine Zeit, keine Punkte und keinen Druck – dein Kind probiert in Ruhe und so oft es mag. Die Übung gehört zum Bereich „Sprache und Sprachgebrauch untersuchen“ und folgt dem Lehrplan der Grundschule, in dem Kinder in Klasse 1 lernen, Fragesätze zu erkennen und das passende Fragewort einzusetzen."
+      ],
+      "practices": [
+        "Fragewörter erkennen und richtig einsetzen: wer, was, wo, wann, warum, wie.",
+        "Genau lesen, worauf eine Frage zielt – nach einer Person, einer Sache, dem Ort, der Zeit, dem Grund oder der Art.",
+        "Den Fragesatz als eigene Satzart wahrnehmen.",
+        "Zuhören und mitlesen, wie eine Frage klingt und aufgebaut ist."
+      ],
+      "howToPlay": [
+        "Lies die Frage am Fenster und überlege, welches erste Wort fehlt.",
+        "Tippe das Fragewort an, das in die Lücke passt.",
+        "Stimmt es, ist die Frage vollständig – sonst probierst du einfach das nächste Fragewort."
+      ],
+      "learningGoals": [
+        "Dein Kind wählt zu einer Frage das passende Fragewort aus.",
+        "Dein Kind weiß, dass jedes Fragewort nach etwas Bestimmtem fragt.",
+        "Dein Kind erkennt einen Fragesatz und liest ihn aufmerksam."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

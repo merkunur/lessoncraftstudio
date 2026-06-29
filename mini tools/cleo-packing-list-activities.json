@@ -14,12 +14,24 @@
         { "id": "winter", "band": 2, "lead": "We have", "items": ["hats", "mittens", "boots"], "slot": 2 },
         { "id": "lunch", "band": 3, "lead": "I want", "items": ["milk", "bread", "jam"], "slot": 0 },
         { "id": "field", "band": 3, "lead": "We grow", "items": ["corn", "beans", "peas"], "slot": 1 }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "packen-obst", "band": 1, "lead": "Ich packe", "items": ["Äpfel", "Birnen", "Pflaumen"], "slot": 0 },
+          { "id": "sehen-tiere", "band": 1, "lead": "Wir sehen", "items": ["Katzen", "Hunde", "Schweine"], "slot": 1 },
+          { "id": "mag-farben", "band": 1, "lead": "Ich mag", "items": ["Rot", "Blau", "Grün"], "slot": 2 },
+          { "id": "brauchen-geschirr", "band": 2, "lead": "Wir brauchen", "items": ["Tassen", "Teller", "Gabeln"], "slot": 0 },
+          { "id": "packen-kleidung", "band": 2, "lead": "Ich packe", "items": ["Mützen", "Schals", "Stiefel"], "slot": 1 },
+          { "id": "malen-himmel", "band": 2, "lead": "Wir malen", "items": ["Sterne", "Monde", "Wolken"], "slot": 2 },
+          { "id": "sehen-insekten", "band": 3, "lead": "Ich sehe", "items": ["Vögel", "Bienen", "Schmetterlinge"], "slot": 0 },
+          { "id": "brauchen-basteln", "band": 3, "lead": "Wir brauchen", "items": ["Pinsel", "Scheren", "Stifte"], "slot": 1 }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "cleo-packing-list" },
-    "page_title": { "en": "Cleo's Packing List — Commas in a List (Grade 1)" },
-    "page_intro": { "en": "Cleo the chameleon makes lists all day! When you list three or more things, a comma goes after each one — apples, pears, and plums. Read the three sentences and tap the one with the commas in the right places. A Grade 1 grammar game about using commas in a series, aligned to Common Core L.1.2.b." },
+    "slug": { "en": "cleo-packing-list", "de": "komma-bei-aufzaehlung-ueben-klasse-3" },
+    "page_title": { "en": "Cleo's Packing List — Commas in a List (Grade 1)", "de": "Cleo das Chamäleon: Komma bei Aufzählung üben – Klasse 3" },
+    "page_intro": { "en": "Cleo the chameleon makes lists all day! When you list three or more things, a comma goes after each one — apples, pears, and plums. Read the three sentences and tap the one with the commas in the right places. A Grade 1 grammar game about using commas in a series, aligned to Common Core L.1.2.b.", "de": "Mit Cleo dem Chamäleon das Komma bei Aufzählung üben: Tippe die Liste mit den Kommas an der richtigen Stelle an – kostenlos und interaktiv für Klasse 3." },
     "kid_prompt_template": "Tap the list that has its commas in the right places."
   }
 ]

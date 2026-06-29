@@ -18,6 +18,12 @@
   'use strict';
 
   var Core = global.TenseCore;
+  var LANG = 'en';
+  /* window labels per locale (the WINDOWS array `label` stays the EN fallback) */
+  var WIN_LABELS = {
+    en: { past: 'Before', present: 'Now', future: 'Soon' },
+    de: { past: 'Vergangenheit', present: 'Gegenwart', future: 'Zukunft' }
+  };
 
   /* time-window meta: which window each tense lights, its label + glyph */
   var WINDOWS = [
@@ -35,9 +41,17 @@
       nPast: '"Yesterday" already happened — pick the PAST word.',
       nPresent: '"Right now" is happening — pick the word for NOW.',
       nFuture: '"Tomorrow" has not happened yet — pick the word with "will".'
+    },
+    de: {
+      q: '{subj} — was passt zu ‚{tw}‘?',
+      win: 'Ja! {note}', winNote: 'Diese Form passt zur Zeit!',
+      hear: '🔊 Vorlesen',
+      nPast: '‚Gestern‘ ist schon vorbei – wähle die Vergangenheit.',
+      nPresent: '‚Jetzt‘ passiert gerade – wähle die Gegenwart.',
+      nFuture: '‚Morgen‘ ist noch nicht da – wähle die Form mit ‚werden‘.'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   function juniperSVG() {
@@ -56,13 +70,14 @@
   var TenseActivity = {
     id: 'tense-activity',
     strings: {
-      title: { en: 'The Clock Tower' },
-      instruction: { en: 'Read the time, then tap the verb that fits!' },
-      q: { en: '{q}' }
+      title: { en: 'The Clock Tower', de: 'Junipers Uhrturm' },
+      instruction: { en: 'Read the time, then tap the verb that fits!', de: 'Schau auf die Zeit und tippe die passende Zeitform!' },
+      q: { en: '{q}', de: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._lit = null; this._chipOrder = null;
@@ -111,7 +126,7 @@
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
             self._activityRow = row;
-            self._pool = (row && row.params && row.params.rounds) || [];
+            self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -158,7 +173,7 @@
       WINDOWS.forEach(function (w) {
         var c = el('div', 'tn-win' + (w.tense === round.time ? ' on' : ''));
         var g = el('div'); g.innerHTML = '<svg viewBox="0 0 40 40" aria-hidden="true">' + w.glyph + '</svg>';
-        var lab = el('div', 'tn-wlab'); lab.textContent = w.label;
+        var lab = el('div', 'tn-wlab'); lab.textContent = (WIN_LABELS[LANG] && WIN_LABELS[LANG][w.tense]) || w.label;
         c.append(g, lab); wins.appendChild(c);
       });
       root.appendChild(wins);
@@ -172,8 +187,10 @@
       var self = this, hear = el('button', 'tn-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
         var f = round.verb.forms;
-        var t = round.timeWord + ', ' + round.subject + '. Which word fits? ' + f.present + ', ' + f.past + ', or ' + f.future + '?';
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: 'en', rate: 0.9 }); } catch (e) { } }
+        var t = LANG === 'de'
+          ? (round.subject + '. Was passt zu ‚' + round.timeWord + '‘?')
+          : (round.timeWord + ', ' + round.subject + '. Which word fits? ' + f.present + ', ' + f.past + ', or ' + f.future + '?');
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.9 }); } catch (e) { } }
       });
       root.appendChild(hear);
 
@@ -222,7 +239,10 @@
     _srMirror: function (round) {
       var f = round.verb.forms, wrap = el('div', 'tn-sronly'); wrap.setAttribute('aria-live', 'polite');
       var w = winFor(round.time);
-      wrap.innerHTML = '<p>The "' + w.label + '" window is lit. ' + round.timeWord + ', ' + round.subject + ' blank. Which word fits? Choices: ' + f.present + ', ' + f.past + ', ' + f.future + '.</p>';
+      var msg = LANG === 'de'
+        ? ('Zeitformen-Übung: ' + round.subject + '. Wähle die Zeitform, die zu ‚' + round.timeWord + '‘ passt. Zur Auswahl: ' + f.present + ', ' + f.past + ', ' + f.future + '.')
+        : ('The "' + w.label + '" window is lit. ' + round.timeWord + ', ' + round.subject + ' blank. Which word fits? Choices: ' + f.present + ', ' + f.past + ', ' + f.future + '.');
+      wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;
     },
 

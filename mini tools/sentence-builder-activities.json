@@ -16,16 +16,32 @@
         { "id": "snt-pig", "seed": 67, "canonical": ["The", "wet", "pig", "digs."], "subject": { "noun": "pig", "themeDir": "animals" } },
         { "id": "snt-bat", "seed": 71, "canonical": ["Two", "black", "bats", "fly."], "subject": { "noun": "bat", "themeDir": "animals" } },
         { "id": "snt-van", "seed": 83, "canonical": ["The", "old", "van", "honks."], "subject": { "noun": "van", "themeDir": "vehicles" } }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "snt-dog", "seed": 11, "canonical": ["Der", "große", "Hund", "bellt."], "subject": { "noun": "dog", "themeDir": "animals", "label": "der Hund" } },
+          { "id": "snt-cat", "seed": 23, "canonical": ["Die", "kleine", "Katze", "schläft."], "subject": { "noun": "cat", "themeDir": "animals", "label": "die Katze" } },
+          { "id": "snt-sun", "seed": 31, "canonical": ["Die", "gelbe", "Sonne", "scheint."], "subject": { "noun": "sun", "themeDir": "beach", "label": "die Sonne" } },
+          { "id": "snt-bus", "seed": 53, "canonical": ["Der", "gelbe", "Bus", "fährt."], "subject": { "noun": "bus", "themeDir": "vehicles", "label": "der Bus" } },
+          { "id": "snt-frog", "seed": 61, "canonical": ["Der", "grüne", "Frosch", "hüpft."], "subject": { "noun": "frog", "themeDir": "camping", "label": "der Frosch" } },
+          { "id": "snt-pig", "seed": 67, "canonical": ["Das", "kleine", "Schwein", "grunzt."], "subject": { "noun": "pig", "themeDir": "animals", "label": "das Schwein" } },
+          { "id": "snt-hen", "seed": 41, "canonical": ["Die", "braune", "Henne", "pickt."], "subject": { "noun": "hen", "themeDir": "birds 2", "label": "die Henne" } },
+          { "id": "snt-fish", "seed": 71, "canonical": ["Der", "bunte", "Fisch", "schwimmt."], "subject": { "noun": "fish", "themeDir": "animals", "label": "der Fisch" } },
+          { "id": "snt-flower", "seed": 83, "canonical": ["Die", "rote", "Blume", "blüht."], "subject": { "noun": "flower", "themeDir": "spring", "label": "die Blume" } }
+        ]
+      }
     },
     "slug": {
-      "en": "build-a-sentence-word-order"
+      "en": "build-a-sentence-word-order",
+      "de": "saetze-bauen-klasse-2"
     },
     "page_title": {
-      "en": "Wiggles' Sentence Builder — Build a Sentence (Grade 1)"
+      "en": "Wiggles' Sentence Builder — Build a Sentence (Grade 1)",
+      "de": "Wiggles baut Sätze: Wörter ordnen und Satzbau üben (Klasse 2)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 1 grammar activity: put the scrambled words in the right order to build a complete sentence — a capital letter to start, a noun and a verb in the middle, and a period at the end. Wiggles the caterpillar helps children produce simple, complete sentences. Common Core L.1.1.j (and L.K.1.b nouns and verbs)."
+      "en": "A free interactive Grade 1 grammar activity: put the scrambled words in the right order to build a complete sentence — a capital letter to start, a noun and a verb in the middle, and a period at the end. Wiggles the caterpillar helps children produce simple, complete sentences. Common Core L.1.1.j (and L.K.1.b nouns and verbs).",
+      "de": "Bringe mit Wiggles die Wörter in die richtige Reihenfolge und baue einen vollständigen Satz – mit Großbuchstabe, Wortreihenfolge und Punkt. Kostenlose, interaktive Übung für Klasse 2."
     },
     "kid_prompt_template": "sentence-builder"
   }

@@ -284,6 +284,29 @@
         "Erste Rechenstrategien bewusst nutzen — Tauschaufgabe, Nachbaraufgabe und Umkehraufgabe — und so flexibel und verständnisorientiert statt zählend rechnen."
       ]
     },
+    "numbers-court.judge-balance.1-oa-d-7": {
+      "about": [
+        "Im Gerichtssaal von Richterin Tess, einer bedächtigen Schildkröte, wird heute über Zahlen verhandelt. Ein Zeuge tritt vor und stellt eine Behauptung auf — zum Beispiel „5 + 3 = 8“, „6 + 1 = 9“ oder auch „3 + 2 = 2 + 3“. Dein Kind sitzt auf der Richterbank und muss urteilen: Stimmt diese Aussage, oder stimmt sie nicht?",
+        "Um das zu entscheiden, schaut dein Kind nicht einfach nach, „was hinten herauskommt“. Stattdessen legt es beide Seiten der Aufgabe auf eine Balkenwaage: In jede Waagschale kommen so viele Punkte, wie die jeweilige Seite angibt. Sind beide Seiten gleich viel, steht die Waage im Gleichgewicht — die Behauptung stimmt. Kippt die Waage zu einer Seite, stimmt sie nicht. Dann zeigt dein Kind die schwerere Waagschale oder repariert die falsche Aufgabe so lange, bis beide Seiten wieder gleich viel sind.",
+        "So erlebt dein Kind das Gleichheitszeichen von Anfang an richtig: Es bedeutet „auf beiden Seiten gleich viel“ — und gerade nicht „jetzt kommt das Ergebnis“. Genau dieses Verständnis ist ein wichtiges Ziel des Mathematikunterrichts und beugt einer verbreiteten Fehlvorstellung vor. Die Aktivität ist kostenlos, läuft direkt im Browser, kommt ganz ohne Zeitdruck, ohne Punkte und ohne Wettbewerb aus und orientiert sich am Lehrplan der Grundschule."
+      ],
+      "practices": [
+        "Das Gleichheitszeichen relational verstehen: „auf beiden Seiten gleich viel“.",
+        "Aussagen prüfen und beurteilen: stimmt oder stimmt nicht.",
+        "Mit dem Waagemodell vergleichen, welche Seite gleich schwer ist oder überwiegt.",
+        "Falsche Aufgaben reparieren, bis die Waage im Gleichgewicht steht."
+      ],
+      "howToPlay": [
+        "Lies die Behauptung des Zeugen, zum Beispiel „4 + 3 = 7“.",
+        "Fälle dein Urteil: Tippe auf „Stimmt“ oder „Stimmt nicht“ — die Waage zeigt dir, ob beide Seiten gleich viel sind.",
+        "Begründe es: Zeige die schwerere Waagschale oder fülle beide Schalen — und repariere bei Bedarf die Aufgabe, bis die Waage im Gleichgewicht steht."
+      ],
+      "learningGoals": [
+        "Dein Kind versteht das Gleichheitszeichen als Zeichen für „gleich viel“ und nicht als Aufforderung zum Ausrechnen.",
+        "Es prüft Aufgaben unterschiedlicher Form — auch „4 = 4“ oder „3 + 2 = 2 + 3“ — und begründet, ob sie stimmen.",
+        "Es nutzt die Waage als Modell, um Gleichheit und Ungleichheit anschaulich zu vergleichen und Fehler zu korrigieren."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

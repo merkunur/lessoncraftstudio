@@ -32,19 +32,20 @@
     CREAM: '#FBF3E4', INK: '#2A2A35', GOOD: '#2FA56A', BRASS: '#C79A3E', STEEL: '#9FB0B8', SHELL: '#8FB89C'
   };
 
+  var LANG = 'en';
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak(text); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function mulberry32(a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; var t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
   function shuffle(a, rng) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(rng() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   /* Judge Tess — ancient kind tortoise in an oversized powdered wig (SVG PLACEHOLDER). */
-  function tessSVG() {
-    return '<svg class="nc-tess-svg" viewBox="0 0 100 100" role="img" aria-label="Judge Tess">' +
+  function tessSVG(api) {
+    return '<svg class="nc-tess-svg" viewBox="0 0 100 100" role="img" aria-label="' + esc(api && api.t ? api.t('judgeName') : 'Judge Tess') + '">' +
       '<ellipse cx="50" cy="92" rx="22" ry="5" fill="rgba(0,0,0,.08)"/>' +
       '<path d="M22 40 Q22 22 50 22 Q78 22 78 40 Q78 30 50 30 Q22 30 22 40 Z" fill="#EDEDF2"/>' +   /* wig */
       '<ellipse cx="30" cy="44" rx="9" ry="13" fill="#EDEDF2"/><ellipse cx="70" cy="44" rx="9" ry="13" fill="#EDEDF2"/>' +
@@ -64,25 +65,27 @@
     id: 'numbers-court-activity',
 
     strings: {
-      title: { en: 'Numbers Court' },
-      prompt: { en: 'Is it fair, Judge?' },
-      vTrue: { en: "It's fair!" }, vFalse: { en: 'Catch it!' },
-      jFalse: { en: 'Tap the heavier side.' },
-      jTrue: { en: 'Tap each number to fill both pans.' },
-      repair: { en: 'Make it fair — tap a tile for the slot.' },
-      sure: { en: 'Are you sure, Judge? Look again.' },
-      reteach: { en: 'This much AND this much — are they the same amount?' },
-      winTrue: { en: 'Fair! Both sides are the same amount.' },
-      winFalse: { en: 'Caught it! The sides are not the same.' },
-      winRepair: { en: 'Now it balances — fair, Judge!' },
-      regen: { en: 'Still not level — here is a fresh one, Judge.' },
-      hintCheck: { en: 'Give your verdict, then tap Check.' }
+      title: { en: 'Numbers Court', de: 'Das Zahlengericht' },
+      prompt: { en: 'Is it fair, Judge?', de: 'Stimmt das?' },
+      vTrue: { en: "It's fair!", de: 'Stimmt!' }, vFalse: { en: 'Catch it!', de: 'Stimmt nicht!' },
+      jFalse: { en: 'Tap the heavier side.', de: 'Tippe auf die schwerere Seite.' },
+      jTrue: { en: 'Tap each number to fill both pans.', de: 'Tippe jede Zahl an, um beide Waagschalen zu füllen.' },
+      repair: { en: 'Make it fair — tap a tile for the slot.', de: 'Mach beide Seiten gleich viel — tippe ein Plättchen in die Lücke.' },
+      sure: { en: 'Are you sure, Judge? Look again.', de: 'Bist du sicher? Schau noch mal.' },
+      reteach: { en: 'This much AND this much — are they the same amount?', de: 'So viel und so viel — ist das auf beiden Seiten gleich viel?' },
+      winTrue: { en: 'Fair! Both sides are the same amount.', de: 'Stimmt! Beide Seiten sind gleich viel.' },
+      winFalse: { en: 'Caught it! The sides are not the same.', de: 'Erwischt! Die Seiten sind nicht gleich viel.' },
+      winRepair: { en: 'Now it balances — fair, Judge!', de: 'Jetzt ist die Waage im Gleichgewicht — gleich viel!' },
+      regen: { en: 'Still not level — here is a fresh one, Judge.', de: 'Immer noch nicht im Gleichgewicht — hier ist eine neue Aufgabe.' },
+      hintCheck: { en: 'Give your verdict, then tap Check.', de: 'Fäll dein Urteil, dann tippe auf „Prüfen".' },
+      judgeName: { en: 'Judge Tess', de: 'Richterin Tess' }
     },
 
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._rng = mulberry32((Date && false) ? 1 : ((Math.floor((global.performance && global.performance.now ? global.performance.now() : 1) * 1000) % 90000) + 1));
       this._pool = makeTasks(Core.buildPool(this._rng, 12));
       this._order = null; this._curPass = 0; this._orderForPool = null;
@@ -111,7 +114,7 @@
 
       /* cast row: Tess + the witness */
       var cast = api.el('div', 'nc-cast');
-      var tess = api.el('div', 'nc-tess'); tess.setAttribute('data-pose', this.readOnly ? 'happy' : 'idle'); tess.innerHTML = tessSVG(); this._tessEl = tess;
+      var tess = api.el('div', 'nc-tess'); tess.setAttribute('data-pose', this.readOnly ? 'happy' : 'idle'); tess.innerHTML = tessSVG(api); this._tessEl = tess;
       var wit = api.el('div', 'nc-witness'); wit.textContent = WITNESS[this.round.witness] || '🐰';
       cast.append(tess, wit); court.appendChild(cast);
 

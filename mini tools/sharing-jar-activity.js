@@ -24,11 +24,15 @@
   var Core = global.MakeFairCore;
   var C = { T: '#146B5E', T2: '#0e4f45', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', GOLD: '#E8A53A', INK: '#2A2A35', GLOW: '#7FD1C0' };
   var WORDS = { 0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight', 9: 'nine', 10: 'ten', 11: 'eleven', 12: 'twelve' };
+  /* German cardinals 0-12, STANDALONE form (the reveal speaks the bare number → 1 = „eins", not „ein"). */
+  var WORDS_DE = { 0: 'null', 1: 'eins', 2: 'zwei', 3: 'drei', 4: 'vier', 5: 'fünf', 6: 'sechs', 7: 'sieben', 8: 'acht', 9: 'neun', 10: 'zehn', 11: 'elf', 12: 'zwölf' };
+  var LANG = 'en';
+  function numWord(n) { var w = (LANG === 'de' ? WORDS_DE : WORDS)[n]; return (w != null) ? w : String(n); }
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function friendSVG(which, mood) {
@@ -50,34 +54,35 @@
     reward: { id: 'friendship-string', label: 'Friendship String', emoji: '💛' },
 
     strings: {
-      title: { en: 'The Sharing Jar' },
-      instruction: { en: 'Make it fair — say the kind number.' },
-      prompt: { en: 'Make it fair!' },
-      qEqualize: { en: 'How many MORE beads does Pim need to match Bo?' },
-      qCompare: { en: "How many MORE beads does Bo's jar have?" },
-      qRestore: { en: 'Some got knocked into the spill! How many to give Pim back?' },
-      qReduce: { en: 'Pim scooped too many! How many to put back so each has {T}?' },
-      qStart: { en: 'Bo gave {k} away and now has {r}. How many did Bo START with?' },
-      qZero: { en: 'How many more does Pim need to match Bo?' },
-      hint: { en: 'Work it out, then tap that number.' },
-      hintZero: { en: 'Look closely — maybe it is already fair!' },
-      had: { en: 'had {n}' },
-      fairIs: { en: 'fair = {n}' },
-      gaveAway: { en: 'gave {k} away' },
-      lookAgain: { en: 'Look again — how many more does Pim need?' },
-      revealEqualize: { en: 'Yes! Now both have {n} — fair! 💛' },
-      revealCompare: { en: "Right! Bo's jar has {u} more. That's the gap." },
-      revealRestore: { en: 'Restored to {n} — Pim is happy again! 💛' },
-      revealReduce: { en: 'Now each can have {n} — fair! 💛' },
-      revealStart: { en: 'Yes! Bo started with {u} beads.' },
-      revealZero: { en: "They're already the SAME — that's fair! Give none. 💛" },
-      tapCheck: { en: 'Tap Check! ✓' },
-      pim: { en: 'Pim' }, bo: { en: 'Bo' }, fairBridge: { en: 'fair' }
+      title: { en: 'The Sharing Jar', de: 'Das faire Perlenglas' },
+      instruction: { en: 'Make it fair — say the kind number.', de: 'Mach es fair – sag die richtige Zahl.' },
+      prompt: { en: 'Make it fair!', de: 'Mach es fair!' },
+      qEqualize: { en: 'How many MORE beads does Pim need to match Bo?', de: 'Wie viele Perlen braucht Pim NOCH, um genauso viele wie Bo zu haben?' },
+      qCompare: { en: "How many MORE beads does Bo's jar have?", de: 'Wie viele Perlen hat Bos Glas MEHR?' },
+      qRestore: { en: 'Some got knocked into the spill! How many to give Pim back?', de: 'Ein paar sind verschüttet! Wie viele bekommt Pim zurück?' },
+      qReduce: { en: 'Pim scooped too many! How many to put back so each has {T}?', de: 'Pim hat zu viele Perlen genommen! Wie viele müssen zurück, damit jeder {T} hat?' },
+      qStart: { en: 'Bo gave {k} away and now has {r}. How many did Bo START with?', de: 'Bo hat {k} verschenkt und hat jetzt {r}. Wie viele hatte Bo am ANFANG?' },
+      qZero: { en: 'How many more does Pim need to match Bo?', de: 'Wie viele braucht Pim noch, um genauso viele wie Bo zu haben?' },
+      hint: { en: 'Work it out, then tap that number.', de: 'Rechne es aus und tippe dann auf die Zahl.' },
+      hintZero: { en: 'Look closely — maybe it is already fair!', de: 'Schau genau hin – vielleicht ist es schon fair!' },
+      had: { en: 'had {n}', de: 'hatte {n}' },
+      fairIs: { en: 'fair = {n}', de: 'fair = {n}' },
+      gaveAway: { en: 'gave {k} away', de: '{k} verschenkt' },
+      lookAgain: { en: 'Look again — how many more does Pim need?', de: 'Schau noch mal – wie viele braucht Pim noch?' },
+      revealEqualize: { en: 'Yes! Now both have {n} — fair! 💛', de: 'Ja! Jetzt haben beide {n} – fair! 💛' },
+      revealCompare: { en: "Right! Bo's jar has {u} more. That's the gap.", de: 'Richtig! Bos Glas hat {u} mehr. Das ist der Unterschied.' },
+      revealRestore: { en: 'Restored to {n} — Pim is happy again! 💛', de: 'Wieder bei {n} – Pim freut sich! 💛' },
+      revealReduce: { en: 'Now each can have {n} — fair! 💛', de: 'Jetzt hat jeder {n} – fair! 💛' },
+      revealStart: { en: 'Yes! Bo started with {u} beads.', de: 'Ja! Bo hatte am Anfang {u} Perlen.' },
+      revealZero: { en: "They're already the SAME — that's fair! Give none. 💛", de: 'Sie haben schon GLEICH viele – das ist fair! Gib keine. 💛' },
+      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓' },
+      pim: { en: 'Pim', de: 'Pim' }, bo: { en: 'Bo', de: 'Bo' }, fairBridge: { en: 'fair', de: 'fair' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.solved = false; this.solvedCount = 0; this.msg = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -171,7 +176,7 @@
       Core.produceNumeral(this.cstate, n);
       var r = Core.commit(this.cstate);
       if (r === 'sealed') { this._reconcile(); }
-      else { this.api.sound && this.api.sound(330); this.msg = this.api.t('lookAgain'); speak('look again'); this.render(); }
+      else { this.api.sound && this.api.sound(330); this.msg = this.api.t('lookAgain'); speak(LANG === 'de' ? 'schau noch mal' : 'look again'); this.render(); }
     },
     _reconcile: function () {
       var api = this.api, u = this._u();
@@ -186,7 +191,7 @@
         default: this.msg = api.t('revealEqualize').replace('{n}', n.a);
       }
       this.api.sound && this.api.sound(940); this.render(); this.announce(this.msg);
-      speak((WORDS[u] || u) + (u === 0 ? '' : ''));
+      speak(numWord(u));
     },
     _renderReconcile: function (root) {
       root.appendChild(this._scene(true));

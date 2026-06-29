@@ -18,9 +18,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "the-sharing-jar" },
-    "page_title": { "en": "The Sharing Jar — Make It Fair (Find the Missing Number)" },
-    "page_intro": { "en": "A jar of moon-beads spills, and Pim and Bo scoop up different amounts — one jar glows full, the other goes quiet. Help make it fair: work out how many more beads the quiet friend needs and say that number, then watch the beads float over and two friends lean their heads together. A warm Grade-1 missing-number game aligned to Common Core 1.OA.D.8." },
+    "slug": { "en": "the-sharing-jar", "de": "fehlende-zahl-finden-ergaenzen-klasse-1" },
+    "page_title": { "en": "The Sharing Jar — Make It Fair (Find the Missing Number)", "de": "Pim und Bo teilen Perlen — die fehlende Zahl finden (Klasse 1)" },
+    "page_intro": { "en": "A jar of moon-beads spills, and Pim and Bo scoop up different amounts — one jar glows full, the other goes quiet. Help make it fair: work out how many more beads the quiet friend needs and say that number, then watch the beads float over and two friends lean their heads together. A warm Grade-1 missing-number game aligned to Common Core 1.OA.D.8.", "de": "Wie viele Perlen fehlen? Pim und Bo teilen gerecht – dein Kind ergänzt die fehlende Zahl bis 20. Kostenlose, interaktive Mathe-Übung für Klasse 1." },
     "kid_prompt_template": "make-fair"
   }
 ]

@@ -767,6 +767,29 @@
         "Dein Kind vergleicht Sätze aufmerksam und entscheidet sich für die richtige Schreibweise."
       ]
     },
+    "robin-mirror.reflexive.l-2-1-c": {
+      "about": [
+        "Robin das Rotkehlchen hält einen kleinen Spiegel — und genau darum geht es in diesem Spiel. Dein Kind liest einen Satz mit einer Lücke, zum Beispiel „Ich wasche ___.“ oder „Wir setzen ___ auf die Bank.“, und tippt das kleine Wort an, das zur handelnden Person passt: mich, dich, sich, uns oder euch.",
+        "Bei manchen Verben — sich waschen, sich freuen, sich setzen — gehört ein kleines Wort dazu, das sich nach der Person richtet, die etwas tut. Man kann es sich wie Robins Spiegel vorstellen: Das Wort zeigt auf die Person zurück. Heißt es „ich“, passt „mich“; bei „du“ passt „dich“; bei „er“, „sie“ oder „es“ passt „sich“; bei „wir“ passt „uns“ und bei „ihr“ passt „euch“. So lernt dein Kind, dass dieses kleine Wort mitwandert, wenn die Person wechselt.",
+        "Es gibt keine Zeit, keine Punkte und keinen Druck — dein Kind darf in Ruhe ausprobieren, vorlesen und noch einmal anschauen. Die Aktivität folgt dem Bereich „Sprache und Sprachgebrauch untersuchen“ aus dem Lehrplan der Grundschule und passt zur Wortarten-Arbeit der dritten Klasse."
+      ],
+      "practices": [
+        "Reflexivpronomen passend zum Satzsubjekt wählen: mich, dich, sich, uns, euch",
+        "Erkennen, dass „sich“ zu „er“, „sie“ und „es“ gehört",
+        "Den Zusammenhang zwischen Person und Pronomen aufmerksam prüfen",
+        "Sätze sinnerfassend lesen und das passende kleine Wort einsetzen"
+      ],
+      "howToPlay": [
+        "Lies den Satz mit der Lücke laut vor und schau, wer etwas tut.",
+        "Tippe das Wort an, das zur Person passt.",
+        "Robin zeigt dir, ob es passt — danach kommt der nächste Satz."
+      ],
+      "learningGoals": [
+        "Dein Kind wählt das Reflexivpronomen, das zum Subjekt des Satzes passt.",
+        "Dein Kind erkennt, dass sich das kleine Wort mit der Person verändert (ich–mich, wir–uns).",
+        "Dein Kind liest kurze Sätze genau und achtet auf den Rückbezug zur handelnden Person."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

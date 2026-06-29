@@ -629,6 +629,29 @@
         "Besitz mit „mein“, „sein“, „unser“ ausdrücken und die eigene Sprachintuition für richtige Pronomenformen stärken."
       ]
     },
+    "sentence-clinic.fix-it.l-2-1": {
+      "about": [
+        "In „Dr. Plumes Satzklinik“ sind die Sätze ein bisschen durcheinandergeraten — und dein Kind hilft Dr. Plume, sie wieder gesund zu machen. Mal fehlt der große Buchstabe am Satzanfang, mal der Punkt am Ende, mal das passende Tunwort, mal stimmt die Reihenfolge der Wörter nicht. Dein Kind findet den einen Fehler und macht den Satz wieder richtig.",
+        "Jeder Satz hat genau einen Fehler zum Verbessern. So kann sich dein Kind in Ruhe auf eine Sache nach der anderen konzentrieren: Großschreibung am Satzanfang, Satzschlusspunkt, die Übereinstimmung von Person und Tunwort (das Kind rennt – nicht „rennen“) und die richtige Wortreihenfolge. Genau das übt der Lehrplan der Grundschule im Bereich „Sprache und Sprachgebrauch untersuchen“.",
+        "Die Übung ist kostenlos und ganz ohne Stress: keine Uhr, keine Punkte, kein Wettlauf. Wenn etwas noch nicht stimmt, darf dein Kind es einfach noch einmal versuchen. So wird das Überarbeiten von Sätzen zu etwas Ruhigem und Freundlichem – Schritt für Schritt, in deinem Tempo."
+      ],
+      "practices": [
+        "Sätze überarbeiten: einen Fehler im Satz erkennen und verbessern.",
+        "Großschreibung am Satzanfang und den Satzschlusspunkt richtig setzen.",
+        "Person und Tunwort passend zueinander wählen (Einzahl: das Kind rennt).",
+        "Die Wörter eines Satzes in die richtige Reihenfolge bringen."
+      ],
+      "howToPlay": [
+        "Dein Kind liest den Satz und sucht die eine Stelle, an der etwas nicht stimmt.",
+        "Dann verbessert es den Satz – zum Beispiel mit einem großen Buchstaben, einem Punkt, dem passenden Tunwort oder der richtigen Reihenfolge.",
+        "Stimmt der Satz, geht es weiter zum nächsten. Stimmt noch etwas nicht, probiert dein Kind es einfach noch einmal."
+      ],
+      "learningGoals": [
+        "Dein Kind erkennt einfache Fehler in einem Satz und verbessert sie selbstständig.",
+        "Es festigt Großschreibung am Satzanfang, den Satzschlusspunkt und die Übereinstimmung von Person und Tunwort.",
+        "Es lernt, auf die Wortreihenfolge zu achten, damit ein Satz vollständig und gut verständlich ist."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

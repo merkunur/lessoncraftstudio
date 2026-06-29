@@ -24,6 +24,7 @@
   'use strict';
 
   var Core = global.FixItCore;
+  var LANG = 'en';
 
   var C = {
     T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F',
@@ -45,9 +46,9 @@
   }
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak(text); return; }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'ui', text: text, lang: LANG, rate: 0.92 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) {
-        var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.92; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u);
+        var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; u.rate = 0.92; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u);
       }
     } catch (e) { /* audio is a scaffold; visual is the spine */ }
   }
@@ -90,25 +91,26 @@
     id: 'sentence-clinic-activity',
 
     strings: {
-      title:        { en: "Dr. Plume's Sentence Clinic" },
-      instruction:  { en: 'Help each muddled sentence sound right again. Tap Check when it sounds good.' },
-      promptCap:    { en: 'Tap the word that needs a capital letter.' },
-      promptPunct:  { en: 'Tap the mark that finishes the sentence.' },
-      promptSwap:   { en: "Tap the word that sounds wrong, then pick the right one." },
-      promptInsert: { en: 'Tap the word that fills the gap.' },
-      promptReorder:{ en: 'Tap the words in order to build the sentence.' },
-      promptDelete: { en: "Tap the word that doesn't belong." },
-      promptSplit:  { en: 'Tap where two sentences bump together.' },
-      alright:      { en: "That one's alright — look again!" },
-      giggle:       { en: 'Hee hee — not quite. Listen again!' },
-      soundsRight:  { en: 'Yes! Now it sounds right.' },
-      hintCheck:    { en: "Keep helping the sentence — then tap Check." }
+      title:        { en: "Dr. Plume's Sentence Clinic", de: 'Dr. Plumes Satzklinik' },
+      instruction:  { en: 'Help each muddled sentence sound right again. Tap Check when it sounds good.', de: 'Hilf jedem verdrehten Satz, wieder richtig zu klingen. Tippe auf Prüfen, wenn er gut klingt.' },
+      promptCap:    { en: 'Tap the word that needs a capital letter.', de: 'Tippe das Wort an, das einen großen Buchstaben braucht.' },
+      promptPunct:  { en: 'Tap the mark that finishes the sentence.', de: 'Tippe das Satzzeichen an, das den Satz beendet.' },
+      promptSwap:   { en: "Tap the word that sounds wrong, then pick the right one.", de: 'Tippe das falsche Wort an und wähle das richtige.' },
+      promptInsert: { en: 'Tap the word that fills the gap.', de: 'Wähle das Wort, das in die Lücke passt.' },
+      promptReorder:{ en: 'Tap the words in order to build the sentence.', de: 'Tippe die Wörter der Reihe nach an, um den Satz zu bauen.' },
+      promptDelete: { en: "Tap the word that doesn't belong.", de: 'Tippe das Wort an, das zu viel ist.' },
+      promptSplit:  { en: 'Tap where two sentences bump together.', de: 'Tippe dort, wo zwei Sätze zusammenstoßen.' },
+      alright:      { en: "That one's alright — look again!", de: 'Der ist schon richtig — schau noch mal!' },
+      giggle:       { en: 'Hee hee — not quite. Listen again!', de: 'Hi hi — nicht ganz. Hör noch mal hin!' },
+      soundsRight:  { en: 'Yes! Now it sounds right.', de: 'Ja! Jetzt klingt er richtig.' },
+      hintCheck:    { en: "Keep helping the sentence — then tap Check.", de: 'Hilf dem Satz weiter — tippe dann auf Prüfen.' }
     },
 
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks(Core.buildRounds()); this._order = null; this._curPass = 0; this._orderForPool = null;
       this.round = null; this.phase = 'diagnose'; this.tokens = []; this.placed = []; this.diagnosed = -1;
       this.readOnly = false; this.solved = 0;
@@ -337,7 +339,10 @@
     },
 
     _buildTasksFromRow: function (row) {
-      if (row.params && Array.isArray(row.params.rounds)) return makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); }));
+      if (row.params && Array.isArray(row.params.rounds)) {
+        var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds;
+        return makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); }));
+      }
       return makeTasks(Core.buildRounds());
     },
 

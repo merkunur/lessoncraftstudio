@@ -14,12 +14,24 @@
         { "id": "cold", "band": 2, "setId": "cold", "ask": "weakest", "words": [ { "word": "cold", "rank": 2 }, { "word": "freezing", "rank": 3 }, { "word": "cool", "rank": 1 } ] },
         { "id": "love", "band": 3, "setId": "love", "ask": "strongest", "words": [ { "word": "adore", "rank": 3 }, { "word": "like", "rank": 1 }, { "word": "love", "rank": 2 } ] },
         { "id": "sad", "band": 3, "setId": "sad", "ask": "weakest", "words": [ { "word": "upset", "rank": 2 }, { "word": "sad", "rank": 1 }, { "word": "miserable", "rank": 3 } ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "lautstaerke-stark", "band": 1, "setId": "volume", "ask": "strongest", "words": [ { "word": "flüstern", "rank": 1 }, { "word": "sprechen", "rank": 2 }, { "word": "schreien", "rank": 3 } ] },
+          { "id": "hitze-schwach", "band": 1, "setId": "heat", "ask": "weakest", "words": [ { "word": "warm", "rank": 1 }, { "word": "heiß", "rank": 2 }, { "word": "glühend", "rank": 3 } ] },
+          { "id": "tempo-stark", "band": 1, "setId": "speed", "ask": "strongest", "words": [ { "word": "gehen", "rank": 1 }, { "word": "laufen", "rank": 2 }, { "word": "rennen", "rank": 3 } ] },
+          { "id": "kaelte-schwach", "band": 2, "setId": "cold", "ask": "weakest", "words": [ { "word": "kühl", "rank": 1 }, { "word": "kalt", "rank": 2 }, { "word": "eiskalt", "rank": 3 } ] },
+          { "id": "wut-stark", "band": 2, "setId": "anger", "ask": "strongest", "words": [ { "word": "sauer", "rank": 1 }, { "word": "wütend", "rank": 2 }, { "word": "rasend", "rank": 3 } ] },
+          { "id": "nass-schwach", "band": 2, "setId": "wet", "ask": "weakest", "words": [ { "word": "feucht", "rank": 1 }, { "word": "nass", "rank": 2 }, { "word": "klatschnass", "rank": 3 } ] },
+          { "id": "lachen-stark", "band": 3, "setId": "laugh", "ask": "strongest", "words": [ { "word": "lächeln", "rank": 1 }, { "word": "lachen", "rank": 2 }, { "word": "brüllen", "rank": 3 } ] },
+          { "id": "regen-schwach", "band": 3, "setId": "rain", "ask": "weakest", "words": [ { "word": "nieseln", "rank": 1 }, { "word": "regnen", "rank": 2 }, { "word": "gießen", "rank": 3 } ] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "roary-roar-meter" },
-    "page_title": { "en": "Roary's Roar Meter — Strongest & Weakest Words (Grade 2)" },
-    "page_intro": { "en": "Roary the lion's roar can be soft or mighty! These words are all alike, but some are stronger than others — big, large, huge. Read the three words, then tap the STRONGEST one (or the WEAKEST one). A Grade 2 vocabulary game about shades of meaning, aligned to Common Core L.2.5.b." },
+    "slug": { "en": "roary-roar-meter", "de": "woerter-steigern-stark-schwach-klasse-3" },
+    "page_title": { "en": "Roary's Roar Meter — Strongest & Weakest Words (Grade 2)", "de": "Roarys Brüll-Meter: Wörter steigern – stark oder schwach? (Klasse 3)" },
+    "page_intro": { "en": "Roary the lion's roar can be soft or mighty! These words are all alike, but some are stronger than others — big, large, huge. Read the three words, then tap the STRONGEST one (or the WEAKEST one). A Grade 2 vocabulary game about shades of meaning, aligned to Common Core L.2.5.b.", "de": "Mit Roary dem Löwen ähnliche Wörter nach ihrer Stärke unterscheiden: Finde das stärkste oder schwächste Wort – kostenlos, interaktiv und passend zum Lehrplan." },
     "kid_prompt_template": "Read the words — tap the strongest or weakest!"
   }
 ]

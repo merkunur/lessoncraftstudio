@@ -13,10 +13,14 @@
 
   var Core = global.BeAgreementCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', PLUM: '#9B6FB0' };
+  var LANG = 'en';
+  var FORMS_DE = ['bin', 'ist', 'sind'];
+  function vvmForms() { return LANG === 'de' ? FORMS_DE : Core.FORMS; }
+  function vvmGrade(round, id) { return vvmForms()[id] === round.correct; }
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -36,18 +40,19 @@
     id: 'vera-verb-match-activity',
 
     strings: {
-      title: { en: "Vera's Verb Match" },
-      instruction: { en: 'Tap am, is, or are to match the subject.' },
-      prompt: { en: 'Tap the verb that matches the subject.' },
-      veraIntro: { en: 'AM goes with I, IS with one, ARE with many!' },
-      hintPick: { en: 'Is the subject I, one, or many? Pick am, is, or are.' },
-      hintWrong: { en: 'Read the subject again — I → am, one → is, many → are.' },
-      win: { en: 'Yes! The verb matches the subject. 🌿' }
+      title: { en: "Vera's Verb Match", de: 'Veras Verb-Werkstatt' },
+      instruction: { en: 'Tap am, is, or are to match the subject.', de: 'Tippe die richtige Form: bin, ist oder sind.' },
+      prompt: { en: 'Tap the verb that matches the subject.', de: 'Welche Form passt in den Satz?' },
+      veraIntro: { en: 'AM goes with I, IS with one, ARE with many!', de: 'Merke: „bin" bei ich, „ist" bei einem, „sind" bei vielen!' },
+      hintPick: { en: 'Is the subject I, one, or many? Pick am, is, or are.', de: 'Tippe zuerst auf bin, ist oder sind.' },
+      hintWrong: { en: 'Read the subject again — I → am, one → is, many → are.', de: 'Schau aufs Subjekt: einer oder viele? Probier es noch einmal!' },
+      win: { en: 'Yes! The verb matches the subject. 🌿', de: 'Super gemacht! Alle Sätze sind richtig. 🌿' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -57,6 +62,7 @@
 
     setupTask: function (round) {
       this.round = round; this.view = Core.childView(round); this.sel = null;
+      if (LANG === 'de') this.view.choices = FORMS_DE.map(function (f, i) { return { id: i, word: f }; });
       this._cards = shuffle(this.view.choices.slice());
     },
 
@@ -96,7 +102,7 @@
       this.sel = id; this.api.sound && this.api.sound(560); speak(word); this.render();
     },
 
-    isCorrect: function () { return Core.grade(this.round, this.sel); },
+    isCorrect: function () { return vvmGrade(this.round, this.sel); },
     reset: function () { this.setupTask(this.round); this.render(); },
 
     nextTask: function (opts) {
@@ -110,7 +116,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/vera-verb-match-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[vera-verb-match] manifest load failed:', e.message); });
     },
 
@@ -143,7 +149,7 @@
       return {
         id: 'vera-verb-match.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
-        check: function (tool) { return Core.grade(round, tool.sel); },
+        check: function (tool) { return vvmGrade(round, tool.sel); },
         hintKey: function (tool) { return tool.sel != null ? 'hintWrong' : 'hintPick'; }
       };
     });

@@ -28,6 +28,19 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
 function effGrade(row: ActivityRow, locale: string): string {
   return (locale !== 'en' && GRADE_OVERRIDE[row.id] && GRADE_OVERRIDE[row.id][locale]) || row.alignment.grade;
 }
+
+/* Per-activity strand/domain override — the shared `localizeStrand` maps the CCSS
+   strand, but where a national curriculum files the content under a DIFFERENT domain
+   (e.g. German splits CCSS "Measurement & Data": a bar-graph is „Daten und Häufigkeit",
+   NOT „Größen und Messen"), map activity-id → locale → domain name here. Other locales/
+   activities fall through to localizeStrand unchanged. Display-only (chip + JSON-LD
+   teaches/targetDescription); related-activity matching keeps the raw alignment.strand. */
+const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
+  'graph-it.bar-graph.2-md-d-10': { de: 'Daten und Häufigkeit' },   // bar graph = data, not Größen
+};
+function effStrand(row: ActivityRow, locale: string): string {
+  return (STRAND_OVERRIDE[row.id] && STRAND_OVERRIDE[row.id][locale]) || localizeStrand(row.alignment.strand, locale);
+}
 import {
   resolveActivitySlug,
   listActivitySitemapEntries,
@@ -247,14 +260,14 @@ function jsonLdFor(row: ActivityRow, locale: string): string {
     learningResourceType: 'Interactive activity',
     educationalUse: 'interactive activity',
     educationalLevel: grade,
-    teaches: localizeStrand(row.alignment.strand, locale),
+    teaches: effStrand(row, locale),
     isAccessibleForFree: true,
     image: `${CANONICAL_HOST}/og-homepage.png`,
     educationalAlignment: {
       '@type': 'AlignmentObject',
       alignmentType: 'educationalSubject',
       targetName: row.alignment.code,
-      targetDescription: localizeStrand(row.alignment.strand, locale),
+      targetDescription: effStrand(row, locale),
       educationalFramework: EDUCATIONAL_FRAMEWORK_BY_LOCALE[locale] || 'Common Core State Standards',
     },
     audience: {
@@ -298,7 +311,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.09';
+  const ACTIVITY_WRAPPER_VERSION = '9.10';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +
@@ -323,7 +336,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // Localized CCSS strand name (R4 / §20.8) — the raw English domain name
   // (e.g. "Counting & Cardinality") was leaking into the chip + FAQ on non-EN
   // pages. Feeds the visible chip + TopicFaq (FAQPage JSON-LD) below.
-  const localizedStrand = localizeStrand(row.alignment.strand, params.locale);
+  const localizedStrand = effStrand(row, params.locale);
 
   // BreadcrumbList JSON-LD (R12) — mirrors the visible BreadcrumbTrail
   // (Home › Activities › title).

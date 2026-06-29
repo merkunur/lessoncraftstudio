@@ -26,12 +26,13 @@
     WATER: '#8FCFE0', WATER2: '#5FB3CC', BANK: '#9CCB8E', WOOD: '#C7956A', DUCK: '#F6C743'
   };
 
+  var LANG = 'en';
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function interp(t, args) { return String(t || '').replace(/\{(\w+)\}/g, function (m, k) { return (k in args) ? args[k] : m; }); }
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak(text); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffledOrder(n, prev) {
@@ -42,8 +43,8 @@
   }
 
   /* Captain Quill — duckling in a captain's cap (SVG PLACEHOLDER). */
-  function quillSVG() {
-    return '<svg class="cc-quill-svg" viewBox="0 0 100 100" role="img" aria-label="Captain Quill">' +
+  function quillSVG(api) {
+    return '<svg class="cc-quill-svg" viewBox="0 0 100 100" role="img" aria-label="' + esc(api && api.t ? api.t('quillName') : 'Captain Quill') + '">' +
       '<ellipse cx="50" cy="90" rx="26" ry="6" fill="rgba(0,0,0,.08)"/>' +
       '<ellipse cx="50" cy="62" rx="26" ry="24" fill="' + C.DUCK + '"/>' +   /* body */
       '<circle cx="50" cy="36" r="19" fill="' + C.DUCK + '"/>' +              /* head */
@@ -79,29 +80,36 @@
     id: 'comparison-creek-activity',
 
     strings: {
-      title:         { en: 'Comparison Creek' },
-      instruction:   { en: 'Steer Captain Quill down the right channel at each bend. Tap a channel, then tap Check.' },
-      promptBigger:  { en: 'Steer to the BIGGER number!' },
-      promptSmaller: { en: 'Steer to the SMALLER number!' },
-      promptMoreDots:{ en: 'Steer to the side with MORE!' },
-      promptBiggerOne:{ en: 'Steer to the BIGGER one!' },
-      promptSum:     { en: 'Add them up — steer to the BIGGER sum!' },
-      promptSize:    { en: 'Bigger NUMBER, not bigger size!' },
-      promptTie:     { en: 'Same number? Steer to the = sign!' },
-      promptName:    { en: 'Is {a} more or less than {b}?' },
-      promptBetween: { en: 'Which number is BETWEEN {lo} and {hi}?' },
-      readback:      { en: 'You picked {n}.' },
-      reBig:         { en: '{a} is more than {b}. Look again — which channel has {a} now?' },
-      reSmall:       { en: '{a} is less than {b}. Look again — which channel has {a} now?' },
-      reEqual:       { en: "They're the same — tap the equal sign!" },
-      win:           { en: 'Smooth sailing!' },
-      hintCheck:     { en: 'Steer down a channel, then tap Check.' }
+      title:         { en: 'Comparison Creek', de: 'Käpt’n Quills Flussfahrt' },
+      instruction:   { en: 'Steer Captain Quill down the right channel at each bend. Tap a channel, then tap Check.', de: 'Steuere Käpt’n Quill an jeder Gabelung in den richtigen Flussarm. Tippe einen Flussarm an und dann auf Prüfen.' },
+      promptBigger:  { en: 'Steer to the BIGGER number!', de: 'Steuere zur GRÖSSEREN Zahl!' },
+      promptSmaller: { en: 'Steer to the SMALLER number!', de: 'Steuere zur KLEINEREN Zahl!' },
+      promptMoreDots:{ en: 'Steer to the side with MORE!', de: 'Steuere zur Seite mit MEHR!' },
+      promptBiggerOne:{ en: 'Steer to the BIGGER one!', de: 'Steuere zur GRÖSSEREN!' },
+      promptSum:     { en: 'Add them up — steer to the BIGGER sum!', de: 'Zähl zusammen — steuere zur GRÖSSEREN Summe!' },
+      promptSize:    { en: 'Bigger NUMBER, not bigger size!', de: 'Die größere ZAHL zählt — nicht die größere Schrift!' },
+      promptTie:     { en: 'Same number? Steer to the = sign!', de: 'Gleiche Zahl? Steuere zum Gleichheitszeichen =!' },
+      promptName:    { en: 'Is {a} more or less than {b}?', de: 'Ist {a} mehr oder weniger als {b}?' },
+      promptBetween: { en: 'Which number is BETWEEN {lo} and {hi}?', de: 'Welche Zahl liegt ZWISCHEN {lo} und {hi}?' },
+      readback:      { en: 'You picked {n}.', de: 'Du hast {n} gewählt.' },
+      reBig:         { en: '{a} is more than {b}. Look again — which channel has {a} now?', de: '{a} ist mehr als {b}. Schau noch mal — in welchem Flussarm ist jetzt {a}?' },
+      reSmall:       { en: '{a} is less than {b}. Look again — which channel has {a} now?', de: '{a} ist weniger als {b}. Schau noch mal — in welchem Flussarm ist jetzt {a}?' },
+      reEqual:       { en: "They're the same — tap the equal sign!", de: 'Sie sind gleich — tippe auf das Gleichheitszeichen!' },
+      win:           { en: 'Smooth sailing!', de: 'Super gesteuert!' },
+      hintCheck:     { en: 'Steer down a channel, then tap Check.', de: 'Steuere in einen Flussarm und tippe dann auf Prüfen.' },
+      relMore:       { en: 'MORE', de: 'MEHR' },
+      relLess:       { en: 'LESS', de: 'WENIGER' },
+      ariaSteerLeft: { en: 'steer left', de: 'nach links steuern' },
+      ariaSteerRight:{ en: 'steer right', de: 'nach rechts steuern' },
+      ariaEqual:     { en: 'they are equal', de: 'sie sind gleich' },
+      quillName:     { en: 'Captain Quill', de: 'Käpt’n Quill' }
     },
 
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks(Core.buildRounds()); this._order = null; this._curPass = 0; this._orderForPool = null;
       this.fork = null; this.phase = 'steer'; this.committed = null; this.swap = false; this.misses = 0; this.readOnly = false; this.solved = 0;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -151,7 +159,7 @@
         river.appendChild(rel);
         var btns = api.el('div', 'cc-relbtns');
         ['more', 'less'].forEach(function (w) {
-          var btn = api.el('button', 'cc-relbtn'); btn.type = 'button'; btn.textContent = (w === 'more' ? 'MORE' : 'LESS');
+          var btn = api.el('button', 'cc-relbtn'); btn.type = 'button'; btn.textContent = self.api.t(w === 'more' ? 'relMore' : 'relLess');
           if (self.readOnly) btn.disabled = true; else btn.addEventListener('click', function () { self._answer(w); });
           if (self.readOnly && Core.isCorrect(self.fork, w)) btn.classList.add('cc-win');
           btns.appendChild(btn);
@@ -168,7 +176,7 @@
           var side = self.slotChannel(slot);
           var chn = self.chan(side);
           var lane = api.el('button', 'cc-channel cc-' + slot); lane.type = 'button'; lane.setAttribute('data-side', side);
-          lane.setAttribute('aria-label', 'steer ' + slot);
+          lane.setAttribute('aria-label', self.api.t(slot === 'left' ? 'ariaSteerLeft' : 'ariaSteerRight'));
           lane.innerHTML = '<span class="cc-buoy">' + buoyInner(chn) + '</span>';
           if (self.readOnly) lane.disabled = true; else lane.addEventListener('click', function () { self._answer(side); });
           if (self.readOnly && self.committed === side && mode !== 'equal') lane.classList.add('cc-win');
@@ -176,7 +184,7 @@
         });
         river.appendChild(forkEl);
         if (mode === 'equal') {
-          var beacon = api.el('button', 'cc-beacon'); beacon.type = 'button'; beacon.textContent = '='; beacon.setAttribute('aria-label', 'they are equal');
+          var beacon = api.el('button', 'cc-beacon'); beacon.type = 'button'; beacon.textContent = '='; beacon.setAttribute('aria-label', self.api.t('ariaEqual'));
           if (self.readOnly) { beacon.disabled = true; beacon.classList.add('cc-win'); } else beacon.addEventListener('click', function () { self._answer('equal'); });
           river.appendChild(beacon);
         }
@@ -184,7 +192,7 @@
 
       /* the raft + Captain Quill at the trunk mouth (bottom-centre, clear of controls) */
       var boat = api.el('div', 'cc-boat' + (mode === 'relation' ? ' cc-boat--rel' : '') + (this.readOnly ? ' cc-glide' : ''));
-      var quill = api.el('div', 'cc-quill'); quill.setAttribute('data-pose', 'idle'); quill.innerHTML = quillSVG(); this._quillEl = quill;
+      var quill = api.el('div', 'cc-quill'); quill.setAttribute('data-pose', 'idle'); quill.innerHTML = quillSVG(this.api); this._quillEl = quill;
       boat.innerHTML = '<span class="cc-raft"></span>'; boat.appendChild(quill);
       river.appendChild(boat);
     },

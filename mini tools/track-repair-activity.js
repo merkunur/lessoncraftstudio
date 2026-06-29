@@ -21,10 +21,12 @@
   var Core = global.TrackRepairCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A' };
 
+  var LANG = 'en';
+
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
@@ -34,20 +36,23 @@
     id: 'track-repair-activity',
 
     strings: {
-      title: { en: 'Whistle Valley' },
-      instruction: { en: '' },
-      prompt: { en: 'Lay the track to scale!' },
-      send: { en: 'Send the train! 🚂' },
-      engineListen: { en: 'A tie goes where its number belongs.' },
-      engineWin: { en: 'All aboard! ' },
-      engineWait: { en: "Not yet — the train's still waiting." },
-      tapToPlace: { en: 'Tap a tie, then tap the track where it belongs.' },
-      hintCheck: { en: 'Lay every tie, then send the train!' }
+      title: { en: 'Whistle Valley', de: 'Pfeiftal' },
+      instruction: { en: '', de: '' },
+      prompt: { en: 'Lay the track to scale!', de: 'Leg jede Schwelle an die richtige Stelle!' },
+      send: { en: 'Send the train! 🚂', de: 'Schick den Zug los! 🚂' },
+      engineListen: { en: 'A tie goes where its number belongs.', de: 'Jede Schwelle gehört dorthin, wo ihre Zahl steht.' },
+      engineWin: { en: 'All aboard! ', de: 'Alle einsteigen! ' },
+      engineWait: { en: "Not yet — the train's still waiting.", de: 'Noch nicht – der Zug wartet noch.' },
+      tapToPlace: { en: 'Tap a tie, then tap the track where it belongs.', de: 'Tippe auf eine Schwelle und dann auf die Stelle, wo sie hingehört.' },
+      hintCheck: { en: 'Lay every tie, then send the train!', de: 'Leg alle Schwellen, dann schick den Zug los!' },
+      ariaTie: { en: 'tie {n}', de: 'Schwelle {n}' },
+      ariaPlaced: { en: '{n}, placed — tap to pick up again', de: '{n}, gelegt – zum Aufheben tippen' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.solved = false; this.placements = {}; this._trolley = null;
       this._selected = null; this.msg = null; this.solvedCount = 0; this._preview = null;
@@ -95,7 +100,7 @@
         var v = Number(val), pct = self.placements[val];
         var pt = api.el('button', 'tr-placed'); pt.type = 'button'; pt.style.left = pct + '%'; pt.setAttribute('data-val', v);
         pt.textContent = v;
-        pt.setAttribute('aria-label', v + ', placed — tap to pick up again');
+        pt.setAttribute('aria-label', self.api.t('ariaPlaced').replace('{n}', v));
         if (!self.solved) pt.addEventListener('click', function (e) { e.stopPropagation(); self._unplace(v); });
         rail.appendChild(pt);
       });
@@ -112,7 +117,7 @@
           var sel = (self._selected === v);
           var b = api.el('button', 'tr-tie' + (sel ? ' tr-sel' : '')); b.type = 'button'; b.setAttribute('data-val', v);
           b.textContent = v;
-          b.setAttribute('aria-label', 'tie ' + v);
+          b.setAttribute('aria-label', self.api.t('ariaTie').replace('{n}', v));
           b.addEventListener('click', function () { self._tapTie(v); });
           trolley.appendChild(b);
         });

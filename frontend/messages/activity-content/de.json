@@ -1089,6 +1089,29 @@
         "Ein tragfähiges Größenverständnis für Längen im Zahlenraum bis 100 aufbauen"
       ]
     },
+    "track-repair.count-to-120.1-nbt-a-1": {
+      "about": [
+        "Ein heftiger Sturm hat ein Stück der Bahnstrecke fortgerissen — und die kleine Lok kommt nur weiter, wenn die Schwellen wieder genau an der richtigen Stelle liegen. Diese Strecke ist in Wirklichkeit ein Zahlenstrahl: Zwischen zwei beschrifteten Bahnhöfen setzt Ihr Kind nummerierte Schwellen dorthin, wo die Zahl auf dem Strahl wirklich hingehört.",
+        "Dabei zählt Ihr Kind von einem Bahnhof aus weiter — mal Schritt für Schritt vorwärts, mal rückwärts — und merkt ganz nebenbei: Je größer die Zahl, desto weiter rechts liegt ihr Platz. Es zählt auch in Schritten weiter (in 5er- und in 10er-Schritten, also 10, 15, 20, 25, 30 … oder 40, 50, 60, 70 …) und sucht die Mitte zwischen zwei Stationen — zum Beispiel die 60, die genau zwischen der 40 und der 80 liegt. Einmal rollt die Lok sogar über die große 100 hinaus. So baut Ihr Kind eine sichere Vorstellung von den Zahlen und ihrer Reihenfolge auf — die Orientierung am Zahlenstrahl im Zahlenraum bis 100.",
+        "Es gibt dabei keine Uhr, keine Punkte und keinen Druck. Ihr Kind darf in seinem eigenen Tempo probieren, eine Schwelle wieder umsetzen und so lange tüfteln, bis die Strecke steht. Diese Aktivität ist frei für alle nutzbar und folgt den Zielen des Lehrplans der Grundschule im Bereich „Zahlen und Operationen“."
+      ],
+      "practices": [
+        "Orientierung am Zahlenstrahl: erkennen, wo eine Zahl ihren Platz hat (Position = Größe der Zahl)",
+        "Weiterzählen und Rückwärtszählen von einem Bahnhof aus, auch über einen Zehner und über die 100 hinaus",
+        "In Schritten zählen — in 5er- und 10er-Schritten — und so Zahlenreihen fortsetzen",
+        "Zahlbeziehungen erkennen: die Mitte zwischen zwei Stationen finden"
+      ],
+      "howToPlay": [
+        "Schau dir die beiden beschrifteten Bahnhöfe am Anfang und Ende der Strecke an.",
+        "Setze jede nummerierte Schwelle genau an die Stelle, wo ihre Zahl auf dem Zahlenstrahl hingehört — zähl vom Bahnhof aus weiter, wenn du unsicher bist.",
+        "Liegen alle Schwellen richtig, ist die Strecke repariert und die kleine Lok fährt weiter."
+      ],
+      "learningGoals": [
+        "Eine sichere Zahlvorstellung im Zahlenraum bis 100 aufbauen",
+        "Zahlen am Zahlenstrahl ordnen und ihre Reihenfolge verstehen",
+        "In 5er- und 10er-Schritten zählen und Zahlenreihen sicher fortsetzen"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

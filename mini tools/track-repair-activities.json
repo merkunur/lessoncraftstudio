@@ -25,9 +25,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "whistle-valley-track-repair" },
-    "page_title": { "en": "Whistle Valley — Number-Line Track Repair" },
-    "page_intro": { "en": "A storm tore out the train track in Whistle Valley, and the track is a NUMBER LINE! Read each numbered tie and drag it to the exact spot its number belongs — count on from the anchor stations — then send the singing engine chugging across the repaired track. A warm Grade 1 game about counting to 120 on the number line, aligned to Common Core 1.NBT.A.1." },
+    "slug": { "en": "whistle-valley-track-repair", "de": "zahlen-am-zahlenstrahl-bis-100-klasse-2" },
+    "page_title": { "en": "Whistle Valley — Number-Line Track Repair", "de": "Zahlenstrahl bis 100 – Pfeiftal, Klasse 2" },
+    "page_intro": { "en": "A storm tore out the train track in Whistle Valley, and the track is a NUMBER LINE! Read each numbered tie and drag it to the exact spot its number belongs — count on from the anchor stations — then send the singing engine chugging across the repaired track. A warm Grade 1 game about counting to 120 on the number line, aligned to Common Core 1.NBT.A.1.", "de": "Zahlen am Zahlenstrahl bis 100 üben: Leg die Schwellen an die richtige Stelle, zähle weiter und in Schritten. Kostenloses, interaktives Mathespiel für Klasse 2." },
     "kid_prompt_template": "track-repair"
   }
 ]

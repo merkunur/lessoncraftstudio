@@ -813,6 +813,29 @@
         "Dein Kind wendet diese Regel beim eigenen Schreiben bewusster an."
       ]
     },
+    "rusty-yesterday.irregular-past.l-2-1-d": {
+      "about": [
+        "Rusty der Roboter hat eine Zeitmaschine gebaut – und dein Kind hilft ihm, Wörter in die Vergangenheit zu schicken. Auf dem Bildschirm steht ein Verb in der Gegenwart, zum Beispiel „Heute gehe ich“. Darunter fragt Rusty: „Und gestern …?“ Dein Kind tippt aus drei Wörtern die richtige Gestern-Form an – aus „gehe“ wird „ging“.",
+        "Dabei entdeckt dein Kind eine wichtige Regel: Manche Verben – die starken oder unregelmäßigen Verben – hängen für die Vergangenheit nicht einfach „-te“ an, sondern ändern ihren Selbstlaut. Aus „gehen“ wird „ging“, aus „laufen“ wird „lief“, aus „sehen“ wird „sah“. Genau hier passiert der typische Fehler, den viele Kinder machen: Sie sagen „gehte“ statt „ging“. In diesem Spiel steht dieser Fehler bewusst als falsche Antwort mit zur Auswahl, damit dein Kind lernt, die echte Gestern-Form sicher herauszuhören.",
+        "Es gibt keine Zeit, keine Punkte und keinen Druck – dein Kind darf in seinem eigenen Tempo probieren und so oft tippen, wie es mag. Die Übung folgt dem Lehrplan der Grundschule im Bereich „Sprache und Sprachgebrauch untersuchen“ und passt zu dem, was Kinder in der Klasse 3 über Verben und Zeitformen lernen."
+      ],
+      "practices": [
+        "Die Gestern-Form (Vergangenheit) von häufigen Verben erkennen.",
+        "Verstehen, dass starke Verben ihren Selbstlaut ändern: gehen → ging, sehen → sah.",
+        "Den typischen „-te“-Fehler („gehte“) als falsch erkennen.",
+        "Gegenwart und Vergangenheit eines Verbs sicher unterscheiden."
+      ],
+      "howToPlay": [
+        "Lies das Verb in der Gegenwart, das Rusty zeigt: „Heute … gehe“.",
+        "Überlege, wie das Wort gestern heißt.",
+        "Tippe aus den drei Wörtern die richtige Gestern-Form an."
+      ],
+      "learningGoals": [
+        "Dein Kind bildet die Vergangenheit starker Verben mit dem richtigen Selbstlaut.",
+        "Dein Kind erkennt und vermeidet den häufigen Fehler „gehte“ statt „ging“.",
+        "Dein Kind unterscheidet sicher zwischen der Heute-Form und der Gestern-Form eines Verbs."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

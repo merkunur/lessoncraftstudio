@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "skipcount.fill.2-nbt-a-2": {
+      "about": [
+        "Hüpf mit Hopper über den Teich! Hopper, der Frosch, springt von Seerosenblatt zu Seerosenblatt – und jedes Blatt trägt eine Zahl. Bei jedem Sprung kommt immer gleich viel dazu: mal 5, mal 10, mal 100. Ein Blatt ist leer. Dein Kind findet heraus, welche Zahl darauf gehört – oder wie weit Hopper bei jedem Sprung springt.",
+        "Dahinter steckt eine große Idee: Zählen in Schritten heißt, einen gleichmäßigen Rhythmus zu entdecken und damit weiterzudenken, ohne jede Zahl einzeln abzuzählen. Wichtig ist, dass dein Kind die Zahlen auf den Blättern wirklich liest und das Muster erkennt – und nicht bloß eine auswendig gelernte Reihe wie „10, 20, 30“ aufsagt. Deshalb beginnen manche Zahlenreihen mitten in der Folge, etwa bei 3 oder 8: So zeigt sich, ob dein Kind die Struktur verstanden hat (die Einerstelle bleibt gleich, der Zehner wächst). Auch das Rückwärtszählen gehört dazu.",
+        "Das Zählen in Fünfer-, Zehner- und Hunderterschritten stärkt das Stellenwertverständnis im Zahlenraum bis 1000 und legt zugleich das Fundament für das kleine Einmaleins. „Hoppers Seerosen-Sprünge“ ist eine kostenlose interaktive Aktivität für die 2. Klasse, ausgerichtet an den Lehrplänen der Grundschule – ohne Zeitdruck und ohne Punktewertung, damit dein Kind in seinem eigenen Tempo entdecken und nachdenken kann."
+      ],
+      "practices": [
+        "In 5er-, 10er- und 100er-Schritten vorwärts und rückwärts zählen – im Zahlenraum bis 1000.",
+        "Zahlenfolgen fortsetzen und eine fehlende Zahl in der Reihe bestimmen.",
+        "Die Schrittweite erkennen („Wie groß ist jeder Sprung?“) und so das zugrunde liegende Muster analysieren.",
+        "Auch von „krummen“ Startzahlen aus zählen (z. B. 8, 18, 28 …) und dabei die Stellenwert-Struktur nutzen statt auswendig gelernter Reihen."
+      ],
+      "howToPlay": [
+        "Schau dir Hoppers Weg über die Seerosenblätter an und lies die Zahlen.",
+        "Finde heraus, wie viel bei jedem Sprung dazukommt (oder weggeht).",
+        "Tippe die fehlende Zahl an – oder tippe an, wie groß jeder Sprung ist."
+      ],
+      "learningGoals": [
+        "Dein Kind kann im Zahlenraum bis 1000 in Schritten vorwärts und rückwärts zählen.",
+        "Es erkennt das Muster einer Zahlenfolge und kann sie sicher fortsetzen.",
+        "Es versteht das Zählen in Schritten als Vorbereitung auf Stellenwert und das kleine Einmaleins."
+      ]
+    },
     "lay-units.measure.1-md-a-2": {
       "about": [
         "Mit Inchie, dem kleinen Spannerwürmchen, messen Kinder spielerisch Längen – ganz ohne Lineal. Inchie legt seine gleich großen Helfer Stück für Stück an einem Gartenblatt entlang. Dein Kind tippt jeden Helfer an und zählt mit: So viele Helfer lang ist das Blatt. Genauso geht es mit Würfeln und Büroklammern weiter.",

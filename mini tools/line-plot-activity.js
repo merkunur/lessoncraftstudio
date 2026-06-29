@@ -19,6 +19,7 @@
   'use strict';
 
   var Core = global.LinePlotCore;
+  var LANG = 'en';
 
   var L = {
     en: {
@@ -28,10 +29,25 @@
       winMode: '{a} is the most common length!',
       winNum: 'the answer is {a}!',
       nPlot: 'Look where the shell ends on the scale.',
-      nRead: 'Look again at the X’s over each number.'
+      nRead: 'Look again at the X’s over each number.',
+      srJoin: '{c} at {v}',
+      srPlot: 'A new shell measures {len} on a scale of 1 to {max}. Tap its length to plot it. Choices: {choices}.',
+      srRead: 'A line plot, scale 1 to {max}: {dist}. {q} Choices: {choices}.'
+    },
+    de: {
+      win: 'Genau — {note}!',
+      winPlot: 'bei {a} cm eingetragen',
+      winAt: '{a} Muscheln',
+      winMode: '{a} cm ist die häufigste Länge',
+      winNum: 'die Lösung ist {a}',
+      nPlot: 'Schau, wo die Muschel auf dem Zahlenstrahl endet.',
+      nRead: 'Schau dir die Kreuze über jeder Zahl noch einmal an.',
+      srJoin: '{c} bei {v} cm',
+      srPlot: 'Eine neue Muschel ist {len} cm lang. Häufigkeitsdiagramm, Zahlenstrahl 1 bis {max}. Tippe auf ihre Länge, um sie einzutragen. Zur Auswahl: {choices}.',
+      srRead: 'Ein Häufigkeitsdiagramm, Zahlenstrahl 1 bis {max}: {dist}. {q} Zur Auswahl: {choices}.'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   var C = { T: '#146B5E', INK: '#0F4A40', CORAL: '#F2784B', LIT: '#F2C14E', LINE: '#146B5E' };
@@ -49,18 +65,19 @@
   var LinePlotActivity = {
     id: 'line-plot-activity',
     strings: {
-      title: { en: "Shelly's Tide-Line" },
-      instruction: { en: 'Help Shelly the hermit crab measure shells and read the tide-line plot!' },
-      qplot: { en: 'How long is this shell? Tap its length to plot it.' },
-      qAt: { en: 'How many shells are {n} cm long?' },
-      qLonger: { en: 'How many shells are longer than {n} cm?' },
-      qMode: { en: 'Which length is the most common?' },
-      qDiff: { en: 'How much longer is the longest shell than the shortest?' },
-      qMore: { en: 'How many more shells are {a} cm than {b} cm?' }
+      title: { en: "Shelly's Tide-Line", de: 'Shellys Gezeitenlinie' },
+      instruction: { en: 'Help Shelly the hermit crab measure shells and read the tide-line plot!', de: 'Hilf Shelly, dem Einsiedlerkrebs, Muscheln zu messen und die Gezeitenlinie zu lesen!' },
+      qplot: { en: 'How long is this shell? Tap its length to plot it.', de: 'Wie lang ist diese Muschel? Tippe auf ihre Länge, um sie einzutragen.' },
+      qAt: { en: 'How many shells are {n} cm long?', de: 'Wie viele Muscheln sind {n} cm lang?' },
+      qLonger: { en: 'How many shells are longer than {n} cm?', de: 'Wie viele Muscheln sind länger als {n} cm?' },
+      qMode: { en: 'Which length is the most common?', de: 'Welche Länge kommt am häufigsten vor?' },
+      qDiff: { en: 'How much longer is the longest shell than the shortest?', de: 'Wie viel länger ist die längste Muschel als die kürzeste?' },
+      qMore: { en: 'How many more shells are {a} cm than {b} cm?', de: 'Wie viele Muscheln mehr sind {a} cm lang als {b} cm lang?' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._choiceOrder = null;
@@ -220,7 +237,7 @@
       this.render();
       var note;
       if (r.cog === 'plot') note = txt('winPlot', { a: a });
-      else if (r.question.type === 'atN') note = txt('winAt', { a: a });
+      else if (r.question.type === 'atN') note = (LANG === 'de' && a === 1) ? 'eine Muschel' : txt('winAt', { a: a });
       else if (r.question.type === 'mode') note = txt('winMode', { a: a });
       else note = txt('winNum', { a: a });
       var line = this._api.stage.querySelector('.tl-line-msg');
@@ -239,10 +256,14 @@
     _srMirror: function () {
       var r = this._round, snap = Core.snapshot(r), wrap = el('div', 'tl-sronly'); wrap.setAttribute('aria-live', 'polite');
       var cnt = {}; (r.marks || []).forEach(function (m) { cnt[m] = (cnt[m] || 0) + 1; });
-      var dist = []; for (var v = 1; v <= r.scale.max; v++) if (cnt[v]) dist.push(cnt[v] + ' at ' + v);
-      var msg;
-      if (r.cog === 'plot') msg = 'A new shell measures ' + r.placeLength + ' on a scale of 1 to ' + r.scale.max + '. Tap its length to plot it. Choices: ' + this._choiceOrder.join(', ') + '.';
-      else msg = 'A line plot, scale 1 to ' + r.scale.max + ': ' + dist.join(', ') + '. ' + this.strings[{ atN: 'qAt', longerN: 'qLonger', mode: 'qMode', maxMinusMin: 'qDiff', moreAB: 'qMore' }[r.question.type]].en.replace('{n}', r.question.n).replace('{a}', r.question.a).replace('{b}', r.question.b) + ' Choices: ' + this._choiceOrder.join(', ') + '.';
+      var dist = []; for (var v = 1; v <= r.scale.max; v++) if (cnt[v]) dist.push(txt('srJoin', { c: cnt[v], v: v }));
+      var choices = this._choiceOrder.join(', '), msg;
+      if (r.cog === 'plot') msg = txt('srPlot', { len: r.placeLength, max: r.scale.max, choices: choices });
+      else {
+        var pk = { atN: 'qAt', longerN: 'qLonger', mode: 'qMode', maxMinusMin: 'qDiff', moreAB: 'qMore' }[r.question.type];
+        var qs = this.strings[pk], qt = (qs[LANG] || qs.en).replace('{n}', r.question.n).replace('{a}', r.question.a).replace('{b}', r.question.b);
+        msg = txt('srRead', { max: r.scale.max, dist: dist.join(', '), q: qt, choices: choices });
+      }
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;
     },

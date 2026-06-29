@@ -468,6 +468,29 @@
         "Eine dargestellte Zahl korrekt ablesen und benennen und Bündel auf genau zehn Einer überprüfen."
       ]
     },
+    "line-plot.read.2-md-d-9": {
+      "about": [
+        "Bei „Shellys Gezeitenlinie“ lernen die Kinder, Daten zu ordnen und abzulesen. Jede gemessene Muschel wird mit einem X über der passenden Zahl eingetragen – so entsteht ein einfaches Häufigkeitsdiagramm. Die Kinder erkennen auf einen Blick, welche Länge am häufigsten vorkommt, wie viele Muscheln länger als eine bestimmte Länge sind und wie groß der Unterschied zwischen der längsten und der kürzesten Muschel ist.",
+        "Bevor gezählt und verglichen wird, wird gemessen: Jede Muschel hat eine Länge in Zentimetern. Die Kinder lesen die Länge ab und tragen sie an der richtigen Stelle des Zahlenstrahls ein. So verbinden sie das Messen mit dem Darstellen von Daten – zwei Fähigkeiten, die im Alltag immer zusammengehören.",
+        "Die Aktivität ist kostenlos, ohne Zeitdruck und ohne Punkte. Kein Timer, keine Wertung – die Kinder dürfen in Ruhe ausprobieren, ablesen und vergleichen. „Shellys Gezeitenlinie“ orientiert sich am Lehrplan der Grundschule und gehört zur Leitidee „Daten und Häufigkeit“."
+      ],
+      "practices": [
+        "Muschellängen in Zentimetern messen und ablesen.",
+        "Daten in einem Häufigkeitsdiagramm darstellen.",
+        "Häufigkeiten ablesen: Wie viele? Wie viele mehr?",
+        "Längen vergleichen – länger als, kürzer als, der Unterschied."
+      ],
+      "howToPlay": [
+        "Schau dir die Muschel an und lies ihre Länge ab. Tippe dann auf die passende Zahl – dort erscheint ein X.",
+        "Im Lese-Modus beantwortest du Fragen zum fertigen Diagramm, zum Beispiel: Welche Länge kommt am häufigsten vor?",
+        "Nimm dir Zeit. Es gibt keinen Timer und keine Punkte – du kannst alles in Ruhe ausprobieren."
+      ],
+      "learningGoals": [
+        "Dein Kind kann gemessene Längen in einem Häufigkeitsdiagramm darstellen.",
+        "Dein Kind kann ablesen, welche Länge am häufigsten vorkommt und wie viele Muscheln länger als eine bestimmte Länge sind.",
+        "Dein Kind kann den Unterschied zwischen der längsten und der kürzesten Länge bestimmen."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

@@ -721,6 +721,29 @@
         "Dein Kind liest kurze Sätze genau und ergänzt sie zu vollständigen, richtigen Sätzen."
       ]
     },
+    "hazel-word-bridge.joining-words.l-1-1-g": {
+      "about": [
+        "Zwei kurze Sätze, ein winziges Wort dazwischen — und auf einmal passen sie zusammen. Genau dieses kleine Wort sucht dein Kind hier. Es liest einen Satz mit einer Lücke, zum Beispiel „Ich nehme den Schirm mit, ___ es regnet.“, und tippt aus vier Karten das Bindewort an, das wirklich zum Satz passt: und, oder, aber oder denn.",
+        "Dabei entdeckt dein Kind eine wichtige Idee: Ein Bindewort verknüpft zwei Teile eines Satzes — und je nach Bindewort entsteht eine andere Bedeutung. „und“ fügt etwas hinzu, „oder“ stellt eine Auswahl vor, „aber“ zeigt einen Gegensatz, und „denn“ nennt einen Grund. Derselbe Satzanfang kann sich also völlig verändern, nur weil ein anderes Bindewort in der Lücke steht. Dein Kind lernt, nicht zu raten, sondern auf den Sinn zu hören.",
+        "Hier gibt es keine Zeit, keine Punkte und keinen Druck — dein Kind darf in Ruhe ausprobieren, noch einmal tippen und einfach Sprache untersuchen. Die Aufgabe folgt dem Lehrplan der Grundschule im Bereich „Sprache und Sprachgebrauch untersuchen“ und übt das sinnvolle Verbinden von Sätzen."
+      ],
+      "practices": [
+        "Bindewörter nach ihrer Bedeutung unterscheiden: Hinzufügung, Auswahl, Gegensatz und Begründung",
+        "Zwei Satzteile zu einem sinnvollen Ganzen verbinden",
+        "Genau lesen und auf den Sinn des ganzen Satzes achten, statt zu raten",
+        "Erkennen, dass ein anderes Bindewort die Aussage eines Satzes verändert"
+      ],
+      "howToPlay": [
+        "Lies den Satz und schau dir die Lücke an.",
+        "Überlege, wie die beiden Satzteile zusammengehören, und tippe das passende Bindewort an.",
+        "Probiere ruhig noch einmal — du darfst so oft tippen, bis der Satz Sinn ergibt."
+      ],
+      "learningGoals": [
+        "Dein Kind erkennt, dass ein Bindewort zwei Satzteile verbindet.",
+        "Dein Kind wählt zwischen und, oder, aber und denn nach der Bedeutung aus.",
+        "Dein Kind versteht, dass das passende Bindewort dem Satz seinen Sinn gibt."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

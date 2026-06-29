@@ -17,6 +17,7 @@
   'use strict';
 
   var Core = global.PluralCore;
+  var LANG = 'en';
 
   var L = {
     en: {
@@ -24,10 +25,19 @@
       win: 'Yes! {note}', winNote: 'a special word, not the lazy +s!',
       hear: '🔊 Hear it',
       nChange: '"{sing}" is a special word — it changes, and it does NOT just add an s. Look again!',
-      nNoChange: '"{sing}" stays the SAME for many — don\'t add an s! Look again!'
+      nNoChange: '"{sing}" stays the SAME for many — don\'t add an s! Look again!',
+      srMirror: '{q} The word is {sing}. Choices: {chips}.'
+    },
+    de: {
+      q: '{q}',
+      win: 'Ja! {note}', winNote: 'ein Umlaut-Wort – nicht unverändert und nicht einfach mit -s!',
+      hear: '🔊 Anhören',
+      nChange: '‚{sing}‘ ist ein besonderes Wort – es bekommt einen Umlaut. Schau noch mal!',
+      nNoChange: '‚{sing}‘ bleibt gleich – häng kein -s an! Schau noch mal!',
+      srMirror: '{q} Das Wort ist ‚{sing}‘. Auswahl: {chips}.'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   function pearlSVG() {
@@ -45,13 +55,14 @@
   var PluralActivity = {
     id: 'plural-activity',
     strings: {
-      title: { en: 'The Doubling Pond' },
-      instruction: { en: 'Pick the right plural — the special word, not the lazy +s!' },
-      q: { en: '{q}' }
+      title: { en: 'The Doubling Pond', de: 'Pearls Mehrzahl-Teich' },
+      instruction: { en: 'Pick the right plural — the special word, not the lazy +s!', de: 'Tippe die richtige Mehrzahl – das besondere Wort mit Umlaut, nicht einfach mit -s!' },
+      q: { en: '{q}', de: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._lit = null; this._chipOrder = null;
@@ -97,7 +108,7 @@
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
             self._activityRow = row;
-            self._pool = (row && row.params && row.params.rounds) || [];
+            self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -158,8 +169,8 @@
       /* Hear it */
       var self = this, hear = el('button', 'pl-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = 'More than one ' + round.singular + '. Which one is right?';
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: 'en', rate: 0.92 }); } catch (e) { } }
+        var t = LANG === 'de' ? ('Mehr als ein ‚' + round.singular + '‘. Welche Mehrzahl ist richtig?') : ('More than one ' + round.singular + '. Which one is right?');
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
 
@@ -191,7 +202,7 @@
       this._resolved = true; this._finds += 1;
       if (this._app) this._app.classList.add('pearl-resolved');
       this.render();
-      var note = this._round.rule === 'no-change' ? (this._round.singular + ' stays the same — already many!') : txt('winNote');
+      var note = this._round.rule === 'no-change' ? (LANG === 'de' ? ('‚' + this._round.singular + '‘ bleibt gleich – schon viele!') : (this._round.singular + ' stays the same — already many!')) : txt('winNote');
       var line = this._api.stage.querySelector('.pl-line-msg');
       if (line) { line.textContent = txt('win', { note: note }); line.classList.remove('miss'); }
       this._api.sound && this._api.sound(880);
@@ -209,7 +220,7 @@
     _srMirror: function (round) {
       var wrap = el('div', 'pl-sronly'); wrap.setAttribute('aria-live', 'polite');
       var chips = Core.chipStrings(round).join(', ');
-      wrap.innerHTML = '<p>' + round.q + ' The word is ' + round.singular + '. Choices: ' + chips + '.</p>';
+      wrap.innerHTML = '<p>' + txt('srMirror', { q: round.q, sing: round.singular, chips: chips }) + '</p>';
       return wrap;
     },
 

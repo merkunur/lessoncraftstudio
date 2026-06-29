@@ -514,6 +514,29 @@
         "Es gewinnt Sicherheit beim Rechnen mit vollen Zehnern und festigt sein Verständnis des Zehnersystems."
       ]
     },
+    "plural.irregular.l-2-1-b": {
+      "about": [
+        "Bei „Pearls Mehrzahl-Teich“ lernt dein Kind, die Mehrzahl mit einem Umlaut zu bilden: Aus „Mann“ wird „Männer“, aus „Baum“ wird „Bäume“, aus „Buch“ wird „Bücher“. Ein Hauptwort wird in der Einzahl gezeigt, und dein Kind sucht die richtige Mehrzahlform aus drei Möglichkeiten aus.",
+        "Im Deutschen gibt es mehrere Wege, die Mehrzahl zu bilden. Die besonderen Formen sind die mit Umlaut, bei denen sich a, o oder u zu ä, ö oder ü verwandeln. Dein Kind übt zu erkennen, dass das Wort sich verändert – es bleibt nicht gleich, und man hängt auch nicht einfach ein „-s“ an.",
+        "Die Aktivität ist kostenlos und ohne Zeitdruck. Es gibt keine Punkte und keine Uhr – dein Kind kann in seinem eigenen Tempo ausprobieren, vergleichen und entdecken, wie aus einem Ding viele werden."
+      ],
+      "practices": [
+        "Die Mehrzahl von Hauptwörtern mit Umlaut bilden (Hand → Hände, Stuhl → Stühle).",
+        "Erkennen, dass a, o, u in der Mehrzahl oft zu ä, ö, ü werden.",
+        "Falsche Mehrzahlformen unterscheiden – das unveränderte Wort und die „-s“-Form aussortieren.",
+        "Einzahl und Mehrzahl bewusst vergleichen und benennen."
+      ],
+      "howToPlay": [
+        "Schau dir das Hauptwort in der Einzahl an, das Pearl dir zeigt.",
+        "Lies die drei Möglichkeiten und überlege: Welche Form hat die richtige Mehrzahl mit Umlaut?",
+        "Tippe die richtige Mehrzahlform an. Du kannst so oft ausprobieren, wie du möchtest."
+      ],
+      "learningGoals": [
+        "Dein Kind bildet die Mehrzahl mit Umlaut sicher und richtig.",
+        "Dein Kind versteht, dass sich das Wort verändert und nicht einfach ein „-s“ bekommt.",
+        "Dein Kind betrachtet Sprache genauer und unterscheidet Einzahl und Mehrzahl bewusst – ein Schritt aus dem Bereich „Sprache und Sprachgebrauch untersuchen“ im Lehrplan der Grundschule."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

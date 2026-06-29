@@ -15,6 +15,8 @@
   var Core = global.AddSub100Core;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A', GREEN: '#2FA56A' };
 
+  var LANG = 'en';
+
   function gopherSVG() {
     return '<svg class="gsc-go-svg" viewBox="0 0 100 100" role="img" aria-label="Gus the gopher">' +
       '<ellipse cx="50" cy="64" rx="22" ry="22" fill="#B98A5E"/>' +                /* body */
@@ -31,18 +33,19 @@
     id: 'gus-snack-cart-activity',
 
     strings: {
-      title: { en: "Gus's Snack Cart" },
-      instruction: { en: 'Add or subtract within 100 and type the answer.' },
-      prompt: { en: 'Add or subtract. Type the answer below.' },
-      gusIntro: { en: 'Help Gus count his snacks — add what he gets, take away what he sells!' },
-      hintAdd: { en: 'He got MORE — add the two numbers together.' },
-      hintSub: { en: 'Some are gone — take the second number away.' },
-      win: { en: 'Yes! That adds up. 🥜' }
+      title: { en: "Gus's Snack Cart", de: "Gus' Snackwagen" },
+      instruction: { en: 'Add or subtract within 100 and type the answer.', de: 'Rechne plus oder minus bis 100 und tippe die Antwort ein.' },
+      prompt: { en: 'Add or subtract. Type the answer below.', de: 'Rechne plus oder minus. Tippe die Antwort unten ein.' },
+      gusIntro: { en: 'Help Gus count his snacks — add what he gets, take away what he sells!', de: 'Hilf Gus, seine Snacks zu zählen – rechne dazu, was er bekommt, und weg, was er verkauft!' },
+      hintAdd: { en: 'He got MORE — add the two numbers together.', de: 'Er hat MEHR bekommen – zähle die beiden Zahlen zusammen.' },
+      hintSub: { en: 'Some are gone — take the second number away.', de: 'Einige sind weg – ziehe die zweite Zahl ab.' },
+      win: { en: 'Yes! That adds up. 🥜', de: 'Stimmt genau! 🥜' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.solved = false; this._ans = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -64,9 +67,11 @@
       root.appendChild(row);
 
       var story = api.el('div', 'gsc-story');
-      story.textContent = r.op === '+'
+      var st = r.story;   /* localized full sentence (e.g. de) if present; else build the EN template */
+      if (!st) st = r.op === '+'
         ? 'Gus had ' + r.a + ' ' + r.item + '. He ' + r.verb + ' ' + r.b + ' more.'
         : 'Gus had ' + r.a + ' ' + r.item + '. He ' + r.verb + ' ' + r.b + '.';
+      story.textContent = st;
       root.appendChild(story);
 
       var eq = api.el('div', 'gsc-eq' + (this.solved ? ' gsc-solved' : ''));
@@ -94,7 +99,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/gus-snack-cart-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[gus-snack-cart] manifest load failed:', e.message); });
     },
 
@@ -112,6 +117,8 @@
         + '.gsc-op{font:800 clamp(24px,6vw,36px)/1 "Baloo 2",sans-serif;color:' + C.CORAL2 + ';}'
         + '.gsc-ans{min-width:clamp(38px,10vw,58px);text-align:center;font:800 clamp(30px,8vw,46px)/1 "Baloo 2",sans-serif;color:' + C.GOLD + ';border-bottom:4px solid rgba(232,165,58,.5);}'
         + '.gsc-eq.gsc-solved .gsc-ans{color:' + C.GREEN + ';border-bottom-color:' + C.GREEN + ';}'
+        /* the 921–1024 height band (e.g. portrait tablet 768×1000) keeps the gopher row but trims the story/equation so the longer German stories clear the fold (§A.13.62) */
+        + '@media (min-height:921px) and (max-height:1024px){.gsc-root{gap:11px;}.gsc-story{font-size:15px;line-height:1.3;padding:7px 12px;}.gsc-eq{padding:12px 20px;}}'
         + '@media (max-height:920px){.gsc-row{display:none;}.gsc-root{gap:clamp(7px,1.7vw,12px);padding:clamp(10px,2.2vw,14px);}.gsc-story{font-size:clamp(13px,3vw,15px);padding:7px 12px;}.gsc-eq{padding:clamp(8px,2vw,12px) clamp(12px,3.4vw,20px);}.gsc-num,.gsc-ans{font-size:clamp(26px,6.4vw,34px);}.gsc-op{font-size:clamp(20px,5vw,28px);}}'
         + '@media (max-height:700px){.gsc-root{gap:7px;padding:11px;}.gsc-story{font-size:12.5px;padding:6px 10px;}.gsc-num,.gsc-ans{font-size:29px;}.gsc-op{font-size:23px;}}'
         + '@media (max-height:640px){.gsc-root{gap:4px;padding:7px;}.gsc-story{font-size:11px;padding:5px 9px;}.gsc-eq{padding:5px 11px;}.gsc-num,.gsc-ans{font-size:22px;}.gsc-op{font-size:17px;}}'

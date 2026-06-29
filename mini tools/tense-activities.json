@@ -18,16 +18,32 @@
         { "id": "tn-p3", "time": "past",    "timeWord": "Yesterday", "subject": "the cats",   "verb": { "lemma": "ride",  "forms": { "present": "ride",  "past": "rode",   "future": "will ride"  }, "regular": false } },
         { "id": "tn-n3", "time": "present", "timeWord": "Right now", "subject": "the gulls",  "verb": { "lemma": "look",  "forms": { "present": "look",  "past": "looked", "future": "will look"  }, "regular": true  } },
         { "id": "tn-f3", "time": "future",  "timeWord": "Tomorrow",  "subject": "the kids",   "verb": { "lemma": "play",  "forms": { "present": "play",  "past": "played", "future": "will play"  }, "regular": true  } }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "tn-p1", "time": "past",    "timeWord": "Gestern", "subject": "Die Boote",   "verb": { "lemma": "segeln",  "forms": { "present": "segeln",  "past": "segelten", "future": "werden segeln"  }, "regular": true  } },
+          { "id": "tn-p2", "time": "past",    "timeWord": "Gestern", "subject": "Die Kinder",  "verb": { "lemma": "spielen", "forms": { "present": "spielen", "past": "spielten", "future": "werden spielen" }, "regular": true  } },
+          { "id": "tn-p3", "time": "past",    "timeWord": "Gestern", "subject": "Die Hunde",   "verb": { "lemma": "laufen",  "forms": { "present": "laufen",  "past": "liefen",   "future": "werden laufen"  }, "regular": false } },
+          { "id": "tn-n1", "time": "present", "timeWord": "Jetzt",   "subject": "Die Frösche", "verb": { "lemma": "hüpfen",  "forms": { "present": "hüpfen",  "past": "hüpften",  "future": "werden hüpfen"  }, "regular": true  } },
+          { "id": "tn-n2", "time": "present", "timeWord": "Jetzt",   "subject": "Die Enten",   "verb": { "lemma": "baden",   "forms": { "present": "baden",   "past": "badeten",  "future": "werden baden"   }, "regular": true  } },
+          { "id": "tn-n3", "time": "present", "timeWord": "Jetzt",   "subject": "Die Katzen",  "verb": { "lemma": "schlafen","forms": { "present": "schlafen","past": "schliefen","future": "werden schlafen"}, "regular": false } },
+          { "id": "tn-f1", "time": "future",  "timeWord": "Morgen",  "subject": "Die Mädchen", "verb": { "lemma": "malen",   "forms": { "present": "malen",   "past": "malten",   "future": "werden malen"   }, "regular": true  } },
+          { "id": "tn-f2", "time": "future",  "timeWord": "Morgen",  "subject": "Die Jungen",  "verb": { "lemma": "tanzen",  "forms": { "present": "tanzen",  "past": "tanzten",  "future": "werden tanzen"  }, "regular": true  } },
+          { "id": "tn-f3", "time": "future",  "timeWord": "Morgen",  "subject": "Die Mäuse",   "verb": { "lemma": "sammeln", "forms": { "present": "sammeln", "past": "sammelten","future": "werden sammeln" }, "regular": true  } }
+        ]
+      }
     },
     "slug": {
-      "en": "verb-tense-past-present-future"
+      "en": "verb-tense-past-present-future",
+      "de": "zeitformen-ueben-gegenwart-vergangenheit-zukunft-klasse-2"
     },
     "page_title": {
-      "en": "The Clock Tower — Verb Tense: Past, Present & Future (Grade 1)"
+      "en": "The Clock Tower — Verb Tense: Past, Present & Future (Grade 1)",
+      "de": "Junipers Uhrturm: Zeitformen üben – Verben, Klasse 2"
     },
     "page_intro": {
-      "en": "A free interactive Grade 1 grammar activity: help Juniper the robin keep the clock tower's three time-windows — Before, Now, and Soon. Read the time word in each sentence, then tap the verb that fits the past, present, or future. A friendly first look at using verbs to tell when something happens. Common Core L.1.1.e."
+      "en": "A free interactive Grade 1 grammar activity: help Juniper the robin keep the clock tower's three time-windows — Before, Now, and Soon. Read the time word in each sentence, then tap the verb that fits the past, present, or future. A friendly first look at using verbs to tell when something happens. Common Core L.1.1.e.",
+      "de": "In Junipers Uhrturm wählst du die passende Verbform zur Zeit: Gegenwart, Vergangenheit oder Zukunft. Verben und Zeitformen üben – kostenlos, interaktiv, Klasse 2."
     },
     "kid_prompt_template": "tense"
   }

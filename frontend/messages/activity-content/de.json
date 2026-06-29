@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "place-value-regroup.add-compose-ten.1-nbt-c-4": {
+      "about": [
+        "In dieser interaktiven Übung für die 1. Klasse lernen Kinder den Zehnerübergang beim Addieren – einen der wichtigsten Schritte im Zahlenraum bis 100. Wenn beim Zusammenzählen mehr als zehn Einer entstehen, werden zehn Einerwürfel zu einer Zehnerstange gebündelt. So erleben die Kinder ganz handelnd, was später beim schriftlichen Übertrag passiert.",
+        "Die Aufgabe zeigt eine zweistellige und eine einstellige Zahl, zum Beispiel 27 + 5. Das Kind legt die Mengen mit Mehrsystemblöcken (Dienes-Material), erkennt, dass zwölf Einer zusammenkommen, und tippt auf „Zehner bündeln“: Zehn Einer verwandeln sich in eine Zehnerstange. Anschließend gibt das Kind das Ergebnis ein.",
+        "Die Übung ist kostenlos und ohne Anmeldung spielbar und an den Lehrplänen der Grundschule ausgerichtet. Es gibt keine Zeitmessung und keine Punkte – die Kinder arbeiten in ihrem eigenen Tempo und begreifen das Bündeln im wahrsten Sinne des Wortes."
+      ],
+      "practices": [
+        "Zehnerübergang beim Addieren im Zahlenraum bis 100",
+        "Bündeln: zehn Einer zu einem Zehner zusammenfassen",
+        "Einer und Zehner sicher unterscheiden (Stellenwertverständnis)",
+        "Die Brücke vom handelnden Bündeln zum späteren schriftlichen Übertrag bauen"
+      ],
+      "howToPlay": [
+        "Schau dir die Aufgabe an und lege beide Zahlen mit den Blöcken.",
+        "Tippe auf „Zehner bündeln“, wenn zehn Einer zusammengekommen sind – sie werden zu einer Zehnerstange.",
+        "Gib zum Schluss das Ergebnis ein."
+      ],
+      "learningGoals": [
+        "Den Zehnerübergang beim Addieren verstehen und sicher anwenden",
+        "Das Bündeln von zehn Einern zu einem Zehner handelnd nachvollziehen",
+        "Ein tragfähiges Stellenwertverständnis im Zehnersystem aufbauen"
+      ]
+    },
     "shapeforge.compose.1-g-a-2": {
       "about": [
         "In Mims Glühwerkstatt baut dein Kind aus kleinen Formen größere Formen. Aus Dreiecken und Rauten entstehen ein Sechseck, eine Raute, ein großes Dreieck oder ein langer Balken. Dein Kind wählt eine Form aus, dreht sie passend und legt sie so ein, dass der Umriss ganz ausgefüllt ist – ohne Lücken und ohne Überlappungen.",

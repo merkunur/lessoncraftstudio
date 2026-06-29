@@ -131,12 +131,35 @@
   var _PVR_ID = (typeof window !== 'undefined' && window.location) ? (new URLSearchParams(window.location.search)).get('activity') : null;
   function _pvrTitle(id) {
     id = id || '';
-    if (/add-compose-hundred/.test(id)) return { title: { en: 'Tuck Makes a Hundred' }, instruction: { en: 'Tap “Make a hundred” to bundle 10 tens, then type the total.' } };
-    if (/subtract-decompose-hundred/.test(id)) return { title: { en: 'Tuck Breaks a Hundred' }, instruction: { en: 'Break a hundred, then a ten — then take some away and type the answer.' } };
-    if (/subtract/.test(id)) return { title: { en: 'Tuck Breaks a Ten' }, instruction: { en: 'Tap “Break a ten”, then take some away and type the answer.' } };
-    return {};   /* add-compose-ten → core default "Tuck's Ten Bundles" */
+    if (/add-compose-hundred/.test(id)) return { title: { en: 'Tuck Makes a Hundred', de: 'Tuck bündelt einen Hunderter' }, instruction: { en: 'Tap “Make a hundred” to bundle 10 tens, then type the total.', de: 'Tippe auf „Hunderter bündeln", um 10 Zehner zu bündeln, und tippe dann das Ergebnis ein.' } };
+    if (/subtract-decompose-hundred/.test(id)) return { title: { en: 'Tuck Breaks a Hundred', de: 'Tuck entbündelt einen Hunderter' }, instruction: { en: 'Break a hundred, then a ten — then take some away and type the answer.', de: 'Entbündle einen Hunderter, dann einen Zehner – nimm dann welche weg und tippe das Ergebnis ein.' } };
+    if (/subtract/.test(id)) return { title: { en: 'Tuck Breaks a Ten', de: 'Tuck entbündelt einen Zehner' }, instruction: { en: 'Tap “Break a ten”, then take some away and type the answer.', de: 'Tippe auf „Zehner entbündeln", nimm dann welche weg und tippe das Ergebnis ein.' } };
+    return {};   /* add-compose-ten → strings.title/instruction (en+de below) */
   }
   var _PVR_TITLE = _pvrTitle(_PVR_ID);
+
+  /* DE engine-string overrides (native ensemble: linguist + Klasse-1/2 educator).
+     Merged over Core.strings in the activity below → 0 lines to the core. Verb pair
+     bündeln/entbündeln (educator's Lehrplan term). compose-ten exercises these this
+     round; the break/hundred keys are authored ready for the deferred 3 variants. */
+  var _PVR_DE = {
+    title:        { en: "Tuck's Ten Bundles", de: 'Tuck bündelt einen Zehner' },
+    instruction:  { en: 'Tap “Make a ten” to bundle 10 ones, then type the total.', de: 'Tippe auf „Zehner bündeln", um 10 Einer zu bündeln, und tippe dann das Ergebnis ein.' },
+    colHundreds:  { en: 'hundreds', de: 'Hunderter' },
+    colTens:      { en: 'tens', de: 'Zehner' },
+    colOnes:      { en: 'ones', de: 'Einer' },
+    makeTen:      { en: '🔁 Make a ten', de: '🔁 Zehner bündeln' },
+    makeHundred:  { en: '🔁 Make a hundred', de: '🔁 Hunderter bündeln' },
+    breakTen:     { en: '🔁 Break a ten', de: '🔁 Zehner entbündeln' },
+    breakHundred: { en: '🔁 Break a hundred', de: '🔁 Hunderter entbündeln' },
+    hintBundleFirst:       { en: 'First tap “Make a ten” to bundle 10 ones!', de: 'Tippe zuerst auf „Zehner bündeln", um 10 Einer zu bündeln!' },
+    hintMakeHundredFirst:  { en: 'First tap “Make a hundred” to bundle 10 tens!', de: 'Tippe zuerst auf „Hunderter bündeln", um 10 Zehner zu bündeln!' },
+    hintBreakFirst:        { en: 'Break a ten first — there aren’t enough ones to take away.', de: 'Entbündle zuerst einen Zehner – es sind nicht genug Einer zum Wegnehmen da.' },
+    hintBreakHundredFirst: { en: 'No tens to break — tap “Break a hundred” first.', de: 'Hier gibt es keine Zehner – tippe zuerst auf „Hunderter entbündeln".' },
+    hintBreakTenNext:      { en: 'Now tap “Break a ten” to get enough ones.', de: 'Tippe jetzt auf „Zehner entbündeln", damit du genug Einer hast.' },
+    hintReadTotal:         { en: 'Now count the blocks and type the total.', de: 'Zähle jetzt alle Blöcke und tippe das Ergebnis ein.' },
+    srMat:        { en: '{t} tens and {o} ones', de: '{t} Zehner und {o} Einer' }
+  };
 
   /* order-only Fisher–Yates (array-activity contract): guaranteed ≠ prev when n≥2 */
   function _sameOrder(a, b) { if (!b || a.length !== b.length) return false; for (var i = 0; i < a.length; i++) if (a[i] !== b[i]) return false; return true; }
@@ -150,10 +173,36 @@
   global.PlaceValueRegroupActivity = Object.assign({}, Core, {
     id: 'place-value-regroup-activity',
 
-    strings: Object.assign({}, Core.strings, {
+    strings: Object.assign({}, Core.strings, _PVR_DE, {
       taskAdd: { en: '{a} + {b} = ?' },
       taskSub: { en: '{a} − {b} = ?' }
     }, _PVR_TITLE),
+
+    /* Locale-aware string lookup — OVERRIDES the core's `_t` (which read the
+       nonexistent `api.locale`; the shell exposes `api.lang`). 0 core lines. */
+    _t: function (key) {
+      var loc = (this.api && this.api.lang) || 'en';
+      var s = this.strings[key];
+      return (s && (s[loc] || s.en)) || key;
+    },
+
+    /* OVERRIDES the core's lockAndCaption to localize the SPOKEN result (the core
+       hardcoded English „… makes …" + lang:'en'). The on-screen caption stays the
+       language-neutral symbol form. 0 core lines. */
+    lockAndCaption: function () {
+      this.readOnly = true;
+      this.render();
+      var sub = this.operation === 'subtract';
+      var loc = (this.api && this.api.lang) || 'en';
+      var stage = this.api && this.api.stage;
+      var wrap = stage && stage.querySelector('.pvr-cap');
+      if (wrap) wrap.textContent = this.a + (sub ? ' − ' : ' + ') + this.b + ' = ' + this._target;
+      if (global.LCSAudio && global.LCSAudio.speak) {
+        var op = sub ? ' minus ' : ' plus ';                 /* „plus"/„minus" read correctly by de + en TTS */
+        var verb = loc === 'de' ? ' macht ' : ' makes ';
+        try { global.LCSAudio.speak({ type: 'number', text: this.a + op + this.b + verb + this._target, lang: loc, rate: 0.95 }); } catch (e) {}
+      }
+    },
 
     /* NO `tasks` property → shell calls nextTask() → we own the per-pass reshuffle. */
     init: function (api) {

@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "tempo-day-plan.time-prepositions.l-1-1-i": {
+      "about": [
+        "Tempo, die kleine Schildkröte, erzählt von ihrem Tag — vom Aufwachen am Morgen bis zum Gutenachtgruß am Abend. In jedem Satz fehlt aber ein winziges Wort, das die Zeit ordnet. Dein Kind liest den Satz und tippt auf das Wörtchen, das genau passt: „vor“, „während“ oder „nach“. Schon wird aus Tempos Satz ein runder, klarer Gedanke.",
+        "Die kleinen Wörter „vor“, „während“ und „nach“ sind richtige Zeit-Wegweiser: „vor“ zeigt auf das, was vorher geschieht, „während“ auf das, was gleichzeitig passiert, und „nach“ auf das, was danach kommt. Dein Kind lernt sie nicht auswendig, sondern hört auf den Sinn des Satzes — „Wir packen den Koffer ___ der Reise“ kann nur mit „vor“ stimmen, denn gepackt wird ja vorher. So verbindet die Übung das Sprachgefühl mit dem Nachdenken über die zeitliche Reihenfolge im Alltag: vorher, gleichzeitig, danach.",
+        "Diese Übung folgt dem Lehrplan der Grundschule und gehört zum Bereich „Sprache und Sprachgebrauch untersuchen“ — hier schauen Kinder genau hin, wie Wörter einen Satz sinnvoll verbinden. Sie ist kostenlos, läuft ganz ohne Zeitdruck und ganz ohne Punkte. Tempo lässt sich Zeit, und dein Kind darf das auch: Jeder Versuch ist willkommen, und sich einmal zu vertippen gehört zum Lernen einfach dazu."
+      ],
+      "practices": [
+        "Die Zeit-Wörter „vor“, „während“ und „nach“ nach ihrem Sinn auswählen.",
+        "Die zeitliche Reihenfolge in einem Satz erkennen: vorher, gleichzeitig, danach.",
+        "Sätze aus dem Alltag sinnvoll und vollständig zu Ende denken.",
+        "Genau lesen und auf den Zusammenhang im ganzen Satz achten."
+      ],
+      "howToPlay": [
+        "Lies Tempos Satz mit der Lücke — zum Beispiel „Wir packen den Koffer ___ der Reise“.",
+        "Überlege in Ruhe: Passt hier „vor“, „während“ oder „nach“? Tippe das Wort an.",
+        "Tempo zeigt dir freundlich, ob der Satz nun stimmt. Es warten acht Sätze auf dich — ganz ohne Eile."
+      ],
+      "learningGoals": [
+        "Das Kind setzt die Zeit-Wörter „vor“, „während“ und „nach“ sinngemäß in einen Satz ein.",
+        "Das Kind ordnet Ereignisse aus seinem Alltag zeitlich: was vorher, gleichzeitig oder danach geschieht.",
+        "Das Kind stärkt sein Sprachgefühl und denkt bewusst über Sprache nach."
+      ]
+    },
     "graph-it.bar-graph.2-md-d-10": {
       "about": [
         "Bei „Pips Stapelzaun“ baut dein Kind ein Säulendiagramm Schritt für Schritt selbst auf: Aus einer Strichliste der Waldfunde – Blätter, Beeren, Eicheln, Tannenzapfen und Pilze – stapelt es jede Säule genau so hoch, wie die Anzahl es vorgibt. So erlebt es ganz konkret, wie aus gesammelten Daten ein Diagramm entsteht.",

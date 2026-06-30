@@ -14,12 +14,24 @@
         { "id": "party", "band": 2, "before": "We clean up", "after": "the party.", "correct": "after" },
         { "id": "bed", "band": 3, "before": "We brush our teeth", "after": "bed.", "correct": "before" },
         { "id": "photo", "band": 3, "before": "We hold still", "after": "the photo.", "correct": "during" }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "run", "band": 1, "before": "Wir dehnen uns", "after": "der Wanderung.", "correct": "vor" },
+          { "id": "show", "band": 1, "before": "Wir sind leise", "after": "der Vorstellung.", "correct": "während" },
+          { "id": "lunch", "band": 1, "before": "Wir ruhen uns", "after": "der Turnstunde aus.", "correct": "nach" },
+          { "id": "trip", "band": 2, "before": "Wir packen den Koffer", "after": "der Reise.", "correct": "vor" },
+          { "id": "song", "band": 2, "before": "Wir klatschen", "after": "der Musik.", "correct": "während" },
+          { "id": "party", "band": 2, "before": "Wir räumen", "after": "der Feier auf.", "correct": "nach" },
+          { "id": "bed", "band": 3, "before": "Wir waschen die Hände", "after": "der Mahlzeit.", "correct": "vor" },
+          { "id": "photo", "band": 3, "before": "Wir singen", "after": "der Fahrt.", "correct": "während" }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "tempo-day-plan" },
-    "page_title": { "en": "Tempo's Day Plan — Before, During, or After? (Grade 1)" },
-    "page_intro": { "en": "Tempo the turtle plans the whole day in order! Some things happen BEFORE, some DURING, and some AFTER. Read the sentence and tap the time word that fits. A Grade 1 grammar game about using time prepositions (before, during, after), aligned to Common Core L.1.1.i." },
+    "slug": { "en": "tempo-day-plan", "de": "temporale-praepositionen-vor-waehrend-nach-klasse-1" },
+    "page_title": { "en": "Tempo's Day Plan — Before, During, or After? (Grade 1)", "de": "Präpositionen vor, während, nach – üben in Klasse 1" },
+    "page_intro": { "en": "Tempo the turtle plans the whole day in order! Some things happen BEFORE, some DURING, and some AFTER. Read the sentence and tap the time word that fits. A Grade 1 grammar game about using time prepositions (before, during, after), aligned to Common Core L.1.1.i.", "de": "Temporale Präpositionen vor, während und nach üben: Setze in Klasse 1 das richtige Zeitwort in den Satz ein. Kostenlos, interaktiv und sofort startklar!" },
     "kid_prompt_template": "Tap before, during, or after to fit the sentence."
   }
 ]

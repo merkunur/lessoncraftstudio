@@ -40,16 +40,17 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function interp(t, a) { return String(t || '').replace(/\{(\w+)\}/g, function (m, k) { return (k in a) ? a[k] : m; }); }
+  var LANG = 'en';
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak(text); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
 
   /* Fixit — a near-sighted repair-mole who holds things close (SVG PLACEHOLDER). */
   function fixitSVG() {
-    return '<svg class="fic-mole-svg" viewBox="0 0 100 100" role="img" aria-label="Fixit the repair-mole">' +
+    return '<svg class="fic-mole-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Fixit, der Reparatur-Maulwurf' : 'Fixit the repair-mole') + '">' +
       '<ellipse cx="50" cy="92" rx="24" ry="5" fill="rgba(0,0,0,.08)"/>' +
       '<ellipse cx="50" cy="64" rx="25" ry="23" fill="' + C.MOLE + '"/>' +            /* body */
       '<ellipse cx="34" cy="70" rx="8" ry="10" fill="' + C.MOLE2 + '"/><ellipse cx="66" cy="70" rx="8" ry="10" fill="' + C.MOLE2 + '"/>' + /* arms holding close */
@@ -71,40 +72,41 @@
     id: 'fix-it-corner-activity',
 
     strings: {
-      title: { en: "Fixit's Fix-It Corner" },
-      instruction: { en: 'Fixit can\'t read the tiny number — you\'re his sharp-eyed helper. Work out the part each gadget needs, pop it in, then tap Check.' },
-      promptMake10: { en: 'Fill it up to exactly 10!' },
-      promptMissingSum: { en: '{a} and {b} — how many in all?' },
-      promptMissingAddend: { en: '{a} and how many more make {c}?' },
-      promptMissingSubtrahend: { en: '{a} take away how many leaves {b}?' },
-      promptMissingFirstAddend: { en: 'What plus {b} makes {c}?' },
-      promptMissingMinuend: { en: 'Take away {b}, leaves {c} — start with what?' },
-      promptBalance: { en: 'Make both sides match.' },
-      promptProduce: { en: 'Tap a number to hide — make the next puzzle!' },
-      hop: { en: 'Hop' },
-      slide: { en: 'Slide together' },
-      whole: { en: 'the whole' },
-      winMake10: { en: 'Ten! It whirs to life — it can butter ten slices of toast at once!' },
-      winSum: { en: 'That\'s the whole! POP — it clicks awake!' },
-      winAddend: { en: '{x} more! It catches, clicks, and whirs to life!' },
-      winSubtrahend: { en: '{x}! It catches, clicks, and whirs to life!' },
-      winFirstAddend: { en: '{x}! The fact-family fits — it springs alive!' },
-      winMinuend: { en: 'You started with {x}! Slid back together — it hums awake!' },
-      winBalance: { en: 'Level! Both sides match — it balances and dings!' },
-      winProduce: { en: 'A new puzzle! Fixit fixes it right up.' },
-      missOver: { en: 'Whoa — it over-revs! That\'s too many. {a} is a part of {c}, not all of it.' },
-      missCopy: { en: 'Clunk — it stalls. That\'s the whole, not the missing part.' },
-      missOne: { en: 'Half a turn… so close! Count once more.' },
-      missGeneric: { en: 'Not yet — let\'s check it together.' },
-      model: { en: '{a} plus {x} is {c}… or {c} take away {a} is {x}.' },
-      escalate: { en: 'Fixit slides over the counting-rail — let\'s build it together!' },
-      hintCheck: { en: 'Pop a part into the gadget, then tap Check.' }
+      title: { en: "Fixit's Fix-It Corner", de: 'Fixits Reparatur-Ecke' },
+      instruction: { en: 'Fixit can\'t read the tiny number — you\'re his sharp-eyed helper. Work out the part each gadget needs, pop it in, then tap Check.', de: 'Fixit kann die winzige Zahl nicht lesen – du bist sein scharfäugiger Helfer. Finde heraus, welchen Teil jedes Gerät braucht, setz ihn ein und tippe dann auf Prüfen.' },
+      promptMake10: { en: 'Fill it up to exactly 10!', de: 'Füll es genau bis 10 auf!' },
+      promptMissingSum: { en: '{a} and {b} — how many in all?', de: '{a} und {b} – wie viele sind das zusammen?' },
+      promptMissingAddend: { en: '{a} and how many more make {c}?', de: '{a} und wie viele mehr ergeben {c}?' },
+      promptMissingSubtrahend: { en: '{a} take away how many leaves {b}?', de: 'Von {a} wie viele weg, dann bleibt {b}?' },
+      promptMissingFirstAddend: { en: 'What plus {b} makes {c}?', de: 'Was plus {b} ergibt {c}?' },
+      promptMissingMinuend: { en: 'Take away {b}, leaves {c} — start with what?', de: 'Nimm {b} weg, dann bleibt {c} – womit hast du angefangen?' },
+      promptBalance: { en: 'Make both sides match.', de: 'Mach beide Seiten gleich.' },
+      promptProduce: { en: 'Tap a number to hide — make the next puzzle!', de: 'Tippe eine Zahl an, um sie zu verstecken – mach das nächste Rätsel!' },
+      hop: { en: 'Hop', de: 'Hüpf' },
+      slide: { en: 'Slide together', de: 'Zusammenschieben' },
+      whole: { en: 'the whole', de: 'das Ganze' },
+      winMake10: { en: 'Ten! It whirs to life — it can butter ten slices of toast at once!', de: 'Zehn! Es surrt los – es kann zehn Scheiben Toast auf einmal buttern!' },
+      winSum: { en: 'That\'s the whole! POP — it clicks awake!', de: 'Das ist das Ganze! KLACK – es springt an!' },
+      winAddend: { en: '{x} more! It catches, clicks, and whirs to life!', de: '{x} mehr! Es greift, klickt und surrt los!' },
+      winSubtrahend: { en: '{x}! It catches, clicks, and whirs to life!', de: '{x}! Es greift, klickt und surrt los!' },
+      winFirstAddend: { en: '{x}! The fact-family fits — it springs alive!', de: '{x}! Die Aufgabenfamilie passt – es springt an!' },
+      winMinuend: { en: 'You started with {x}! Slid back together — it hums awake!', de: 'Du hast mit {x} angefangen! Wieder zusammengeschoben – es brummt los!' },
+      winBalance: { en: 'Level! Both sides match — it balances and dings!', de: 'Im Gleichgewicht! Beide Seiten sind gleich – es pendelt sich ein und klingelt!' },
+      winProduce: { en: 'A new puzzle! Fixit fixes it right up.', de: 'Ein neues Rätsel! Fixit repariert es im Nu.' },
+      missOver: { en: 'Whoa — it over-revs! That\'s too many. {a} is a part of {c}, not all of it.', de: 'Hoppla – es dreht über! Das sind zu viele. {a} ist ein Teil von {c}, nicht das Ganze.' },
+      missCopy: { en: 'Clunk — it stalls. That\'s the whole, not the missing part.', de: 'Klonk – es stockt. Das ist das Ganze, nicht der fehlende Teil.' },
+      missOne: { en: 'Half a turn… so close! Count once more.', de: 'Eine halbe Umdrehung … fast! Zähl noch einmal.' },
+      missGeneric: { en: 'Not yet — let\'s check it together.', de: 'Noch nicht – lass es uns zusammen prüfen.' },
+      model: { en: '{a} plus {x} is {c}… or {c} take away {a} is {x}.', de: '{a} plus {x} ist {c} … oder {c} minus {a} ist {x}.' },
+      escalate: { en: 'Fixit slides over the counting-rail — let\'s build it together!', de: 'Fixit schiebt die Zählschiene herüber – lass es uns zusammen bauen!' },
+      hintCheck: { en: 'Pop a part into the gadget, then tap Check.', de: 'Setz einen Teil in das Gerät ein und tippe dann auf Prüfen.' }
     },
 
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks(Core.buildRounds());
       this._order = null; this._curPass = 0; this._orderForPool = null;
       this.round = null; this.phase = 'work'; this.committed = null; this.misses = 0;

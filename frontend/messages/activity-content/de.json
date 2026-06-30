@@ -1227,6 +1227,29 @@
         "erkennen, dass sich jeder Anteil immer auf sein Ganzes bezieht"
       ]
     },
+    "bramble.holds-more.k-md-a-2": {
+      "about": [
+        "An Brambles Saftstand stehen immer zwei Gefäße nebeneinander — vielleicht ein hoher Becher und eine breite Schale, ein Krug und ein Glas oder eine Flasche und eine Tasse. Dein Kind überlegt zuerst: In welches Gefäß passt mehr Beerensaft? Dann wird eingegossen, und beim Umschütten zeigt sich, ob die Vermutung gestimmt hat.",
+        "Darum geht es: Zwei Gefäße werden direkt nach ihrem Fassungsvermögen verglichen — ganz ohne Zahlen und ohne Messen. Spannend wird es, weil die Form täuschen kann. Ein hohes, schmales Glas sieht oft nach „mehr“ aus, obwohl eine niedrige, breite Schale in Wirklichkeit mehr Saft fasst. Dass die Höhe allein nichts über das Fassungsvermögen verrät, entdeckt dein Kind hier Schritt für Schritt selbst.",
+        "Die Aufgaben gehören zum Bereich „Größen und Messen“ des Lehrplans der Grundschule. Es gibt keine Zeit, keine Punkte und nichts zu zählen — und wenn eine Vermutung einmal danebenliegt, ist das kein Fehler, sondern eine kleine Entdeckung: „Mein Auge hat mich getäuscht!“ Das Üben ist kostenlos."
+      ],
+      "practices": [
+        "Vorhersagen, welches Gefäß mehr Saft fasst",
+        "Durch Umgießen prüfen, ob die Vermutung stimmt",
+        "Erkennen, dass die Form täuschen kann — hoch und schmal ist nicht automatisch mehr als niedrig und breit",
+        "Mit den Wörtern „fasst mehr“, „fasst weniger“ und „fasst gleich viel“ beschreiben"
+      ],
+      "howToPlay": [
+        "Schau dir die beiden Gefäße genau an",
+        "Sag voraus, welches mehr fasst — links, rechts oder beide gleich viel",
+        "Schau beim Eingießen zu und prüfe, ob du recht hattest"
+      ],
+      "learningGoals": [
+        "Zwei Gefäße direkt nach ihrem Fassungsvermögen vergleichen",
+        "Verstehen, dass ein Gefäß auch dann mehr fassen kann, wenn es niedriger aussieht",
+        "Ein erstes Größenverständnis aufbauen — als Vorbereitung auf das spätere Messen mit Litern"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

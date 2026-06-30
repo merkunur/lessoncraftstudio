@@ -26,11 +26,12 @@
   var C = { T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', INK: '#2A2A35', GOLD: '#E8A53A' };
   var HUES = ['#F2784B', '#2E9C88', '#E8A53A', '#E96AA0', '#7C6FE0'];
   var HUES2 = ['#D9572F', '#146B5E', '#C8841F', '#C84B83', '#5B4FC0'];
+  var LANG = 'en';
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function candySVG(i, counted) {
@@ -87,37 +88,40 @@
     reward: { id: 'wish-wall', label: 'Wish Wall', emoji: '🫙' },
 
     strings: {
-      title: { en: 'The Wondering Jar' },
-      prompt: { en: 'Guess how many — then count to find out!' },
-      estimateHint: { en: 'How many do you think? Slide your wish, then lock it.' },
-      estimateRefHint: { en: 'This jar had {n}. How many in the new one?' },
-      binaryHint: { en: 'More or fewer than {n}? Take a guess!' },
-      whichHint: { en: 'Which jar has more — A or B?' },
-      countHint: { en: 'Tap each sweet to count them, one by one.' },
-      countAHint: { en: 'Count jar A — tap each sweet.' },
-      countBHint: { en: 'Now count jar B — tap each sweet.' },
-      compareHint: { en: 'Let\'s see how many there really were!' },
-      lock: { en: 'Lock my wish 🌟' },
-      moreBtn: { en: 'More' },
-      fewerBtn: { en: 'Fewer' },
-      jarABtn: { en: 'Jar A' },
-      jarBBtn: { en: 'Jar B' },
-      wish: { en: 'Wish' },
-      counted: { en: 'Counted' },
-      revealSlider: { en: 'You wondered {g} — it was {a}!' },
-      dirSame: { en: 'Just what you thought! 🎉' },
-      dirMore: { en: 'More than you thought — jars surprise us!' },
-      dirFewer: { en: 'Fewer than you thought — now we know!' },
-      revealWhich: { en: 'Jar A had {a}, Jar B had {b}.' },
-      whichMore: { en: 'Jar {j} had more!' },
-      whichSame: { en: 'They had the same — twins!' },
-      win: { en: 'Now we know! 🦉' },
-      hintCheck: { en: 'Make a wish, count the jar, then see!' }
+      title: { en: 'The Wondering Jar', de: 'Eulchens Rätselglas' },
+      prompt: { en: 'Guess how many — then count to find out!', de: 'Schätz mal, wie viele – dann zähl nach!' },
+      estimateHint: { en: 'How many do you think? Slide your wish, then lock it.', de: 'Wie viele sind es wohl? Schieb deinen Wunsch hin und halt ihn fest.' },
+      estimateRefHint: { en: 'This jar had {n}. How many in the new one?', de: 'In diesem Glas waren {n}. Wie viele sind wohl im neuen?' },
+      binaryHint: { en: 'More or fewer than {n}? Take a guess!', de: 'Mehr oder weniger als {n}? Schätz mal!' },
+      whichHint: { en: 'Which jar has more — A or B?', de: 'In welchem Glas sind mehr – A oder B?' },
+      countHint: { en: 'Tap each sweet to count them, one by one.', de: 'Tippe jedes Bonbon an und zähl eins nach dem anderen.' },
+      countAHint: { en: 'Count jar A — tap each sweet.', de: 'Zähl Glas A – tippe jedes Bonbon an.' },
+      countBHint: { en: 'Now count jar B — tap each sweet.', de: 'Jetzt zähl Glas B – tippe jedes Bonbon an.' },
+      compareHint: { en: 'Let\'s see how many there really were!', de: 'Mal sehen, wie viele es wirklich waren!' },
+      lock: { en: 'Lock my wish 🌟', de: 'Mein Wunsch steht 🌟' },
+      moreBtn: { en: 'More', de: 'Mehr' },
+      fewerBtn: { en: 'Fewer', de: 'Weniger' },
+      jarABtn: { en: 'Jar A', de: 'Glas A' },
+      jarBBtn: { en: 'Jar B', de: 'Glas B' },
+      wish: { en: 'Wish', de: 'Wunsch' },
+      counted: { en: 'Counted', de: 'Gezählt' },
+      revealSlider: { en: 'You wondered {g} — it was {a}!', de: 'Dein Wunsch war {g} – es waren {a}!' },
+      dirSame: { en: 'Just what you thought! 🎉', de: 'Genau wie gedacht! 🎉' },
+      dirMore: { en: 'More than you thought — jars surprise us!', de: 'Mehr als gedacht – Gläser überraschen uns!' },
+      dirFewer: { en: 'Fewer than you thought — now we know!', de: 'Weniger als gedacht – jetzt wissen wir\'s!' },
+      revealWhich: { en: 'Jar A had {a}, Jar B had {b}.', de: 'In Glas A waren {a}, in Glas B waren {b}.' },
+      whichMore: { en: 'Jar {j} had more!', de: 'In Glas {j} waren mehr!' },
+      whichSame: { en: 'They had the same — twins!', de: 'Gleich viele – wie Zwillinge!' },
+      win: { en: 'Now we know! 🦉', de: 'Jetzt wissen wir\'s! 🦉' },
+      hintCheck: { en: 'Make a wish, count the jar, then see!', de: 'Wünsch dir was, zähl das Glas, dann schau!' },
+      jarN: { en: 'Jar {n}', de: 'Glas {n}' },
+      vsLabel: { en: 'vs', de: 'gegen' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.stage = 'estimate'; this.guess = 5; this.prediction = null;
       this.cstate = null; this.cstateA = null; this.jarPhase = 'A'; this.solved = false; this.solvedCount = 0;
@@ -208,7 +212,7 @@
       var api = this.api, box = api.el('div', 'wj-jarchip');
       var j = api.el('div', 'wj-jar wj-jar-sm'); j.innerHTML = jarSVG(clumped, fill); box.appendChild(j);
       var cap = api.el('div', 'wj-jarcap');
-      cap.textContent = (num != null) ? (label + ': ' + num) : label ? ('Jar ' + label) : '';
+      cap.textContent = (num != null) ? (label + ': ' + num) : label ? api.t('jarN').replace('{n}', label) : '';
       box.appendChild(cap); return box;
     },
     _sliderEl: function () {
@@ -281,7 +285,7 @@
       }
       main.appendChild(spread);
       var side = api.el('div', 'wj-side');
-      if (two) { var ph = api.el('div', 'wj-phase'); ph.textContent = 'Jar ' + this.jarPhase; side.appendChild(ph); }
+      if (two) { var ph = api.el('div', 'wj-phase'); ph.textContent = api.t('jarN').replace('{n}', this.jarPhase); side.appendChild(ph); }
       side.appendChild(this._readout(Core.countOf(state)));
       main.appendChild(side); root.appendChild(main);
     },
@@ -318,12 +322,12 @@
       var box = api.el('div', 'wj-compare');
       if (r.type === 'compare-two') {
         var a = r.jarA.length, b = actual;
-        var nums = api.el('div', 'wj-twonums'); nums.innerHTML = '<span class="wj-num">A<b>' + a + '</b></span><span class="wj-vs">vs</span><span class="wj-num">B<b>' + b + '</b></span>';
+        var nums = api.el('div', 'wj-twonums'); nums.innerHTML = '<span class="wj-num">A<b>' + a + '</b></span><span class="wj-vs">' + api.t('vsLabel') + '</span><span class="wj-num">B<b>' + b + '</b></span>';
         box.appendChild(nums);
         var verdict = api.el('div', 'wj-verdict'); verdict.textContent = (a === b) ? api.t('whichSame') : api.t('whichMore').replace('{j}', a > b ? 'A' : 'B'); box.appendChild(verdict);
       } else if (r.judgment === 'binary') {
         var ref = r.reference.count;
-        var nums2 = api.el('div', 'wj-twonums'); nums2.innerHTML = '<span class="wj-num">A<b>' + ref + '</b></span><span class="wj-vs">vs</span><span class="wj-num">B<b>' + actual + '</b></span>';
+        var nums2 = api.el('div', 'wj-twonums'); nums2.innerHTML = '<span class="wj-num">A<b>' + ref + '</b></span><span class="wj-vs">' + api.t('vsLabel') + '</span><span class="wj-num">B<b>' + actual + '</b></span>';
         box.appendChild(nums2);
         var dir = Core.compareDir(ref, actual); // actual relative to A
         var v2 = api.el('div', 'wj-verdict'); v2.textContent = api.t(dir === 'same' ? 'dirSame' : dir === 'more' ? 'dirMore' : 'dirFewer'); box.appendChild(v2);
@@ -341,7 +345,7 @@
       var track = api.el('div', 'wj-track wj-track-cmp');
       track.innerHTML = '<svg class="wj-line" viewBox="0 0 1000 80" preserveAspectRatio="none" aria-hidden="true"><line class="wj-axis" x1="0" y1="40" x2="1000" y2="40"/>'
         + '<line class="wj-tick bench" x1="250" y1="18" x2="250" y2="54"/><line class="wj-tick bench" x1="500" y1="18" x2="500" y2="54"/><line class="wj-tick bench" x1="1000" y1="18" x2="1000" y2="54"/></svg>';
-      var pin = api.el('div', 'wj-wishpin'); pin.style.left = (guess / 20 * 100) + '%'; pin.innerHTML = '⭐'; pin.title = 'wish'; track.appendChild(pin);
+      var pin = api.el('div', 'wj-wishpin'); pin.style.left = (guess / 20 * 100) + '%'; pin.innerHTML = '⭐'; pin.title = api.t('wish'); track.appendChild(pin);
       var star = api.el('div', 'wj-actualstar'); star.style.left = (actual / 20 * 100) + '%'; star.innerHTML = '<b>' + actual + '</b>'; track.appendChild(star);
       box.appendChild(track); return box;
     },

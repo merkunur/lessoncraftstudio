@@ -1411,6 +1411,29 @@
         "Die Stellenwert-Vorstufe für das Rechnen bis 100 aufbauen"
       ]
     },
+    "wondering-jar.estimate-jar.k-cc-b-5": {
+      "about": [
+        "„Wie viele sind wohl im Glas?“ — die kleine Eule staunt über jedes Bonbonglas und tippt erst einmal: Das Kind macht einen Wunsch, schiebt einen Stern auf den Zahlenstrahl oder wählt „mehr“ oder „weniger“, und drückt auf los. Dieser Wunsch wird festgehalten und immer geehrt — er kann nie falsch sein.",
+        "Dann öffnet sich das Glas und die Bonbons breiten sich aus: mal in einer Reihe, mal im Kreis, mal bunt verstreut. Jetzt zählt das Kind nach — jedes Bonbon genau einmal — und findet heraus, wie viele es wirklich sind. Zum Schluss sieht es, ob der Wunsch gleich, mehr oder weniger war. Es geht nie darum, „richtig geraten“ zu haben, sondern darum, durch Zählen sicher zu werden. Genau das beschreibt der Lehrplan der Grundschule im Bereich „Zählen und Mengen“: Anzahlen schätzen und durch Zählen überprüfen.",
+        "Weil die Anordnung wechselt, lernt das Kind nebenbei die wichtigste Einsicht des Anfangsunterrichts: Die Anzahl bleibt gleich, egal wie die Dinge liegen. Die Übung ist kostenlos, ganz ohne Zeitdruck und ohne Punkte — nur Staunen, Schätzen und Zählen."
+      ],
+      "practices": [
+        "Eine Menge schätzen, bevor man sie zählt (Mengenvorstellung anbahnen)",
+        "Die Anzahl durch sorgfältiges Zählen bestimmen — jedes Ding genau einmal",
+        "Mengen vergleichen und „mehr“ oder „weniger“ einschätzen",
+        "Erkennen, dass die Anzahl gleich bleibt, auch wenn die Dinge anders angeordnet sind"
+      ],
+      "howToPlay": [
+        "Mach deinen Wunsch: Schieb den Stern auf den Zahlenstrahl oder tippe auf „mehr“ oder „weniger“.",
+        "Das Glas öffnet sich und die Bonbons breiten sich aus.",
+        "Zähl jedes Bonbon genau einmal nach und finde heraus, wie viele es wirklich sind."
+      ],
+      "learningGoals": [
+        "Anzahlen bis 20 schätzen und anschließend durch Zählen überprüfen",
+        "Jedes Element genau einmal zählen und die Anzahl sicher bestimmen",
+        "Verstehen, dass die Anzahl unabhängig von der Anordnung gleich bleibt"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

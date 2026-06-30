@@ -61,6 +61,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'twinsies.count-twin.k-cc-b-5': { de: '1' },                            // K count + make a gleich-große Menge (Anzahlinvarianz, ZR bis 12) → Klasse 1; en stays Kindergarten (K-cluster pattern)
   'rivets-number-forge.numeral-album.k-cc-a-3': { de: '1' },              // K count-enacted numeral production (Anzahl bis 20 + passende Ziffer) → Klasse 1 (ZR bis 20); en stays Kindergarten (K-cluster; digby/pips siblings precedent)
   'mamas-roll-call.numeral-trace.k-cc-b-5': { de: '1' },                  // K count-out (self-stop) + Ziffer formen (Anzahl bis 9) → Klasse 1; en stays Kindergarten (K-cluster; mochi/twinsies K.CC.B.5 precedent)
+  'parking-tower.place-by-relation.k-g-a-1': { de: '1' },                 // K Lagebeziehungen über/unter/neben/zwischen → Klasse 1 Geometrie; en stays Kindergarten (K-cluster)
 };
 function effGrade(row: ActivityRow, locale: string): string {
   return (locale !== 'en' && GRADE_OVERRIDE[row.id] && GRADE_OVERRIDE[row.id][locale]) || row.alignment.grade;
@@ -372,7 +373,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.74';
+  const ACTIVITY_WRAPPER_VERSION = '9.75';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

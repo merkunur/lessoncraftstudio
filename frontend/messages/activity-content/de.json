@@ -1733,6 +1733,29 @@
         "Dein Kind verbindet die Anzahl mit der zugehörigen Ziffer und formt sie nach."
       ]
     },
+    "parking-tower.place-by-relation.k-g-a-1": {
+      "about": [
+        "Hoch über der Stadt steht ein gläsernes Parkhaus, und Benno der Biber trägt die rote Mütze des Parkwächters. Von der Seite kannst du in jede Etage hineinsehen — und in jeder Etage wartet schon ein Fahrzeug. Benno flüstert dir ein Wort zu: über, unter, neben oder zwischen. Hörst du genau hin? Dann parkst du das neue Fahrzeug genau dort, wo das Wort es verlangt — eine Etage über dem Bus, gleich unter dem Lastwagen oder neben dem Auto.",
+        "Das Besondere ist die durchgehende Decke zwischen den Etagen. „Über dem Bus“ bedeutet hier wirklich eine Etage höher — nicht einfach die nächste freie Lücke. So kannst du nicht raten, sondern musst dem Wort vertrauen: Das Wort sagt dir den Platz. Bei „zwischen“ suchst du die Etage genau in der Mitte zwischen zwei Fahrzeugen, und in der Umkehrrunde nennt Benno dir eine Lage, und du tippst das Fahrzeug an, das schon dort steht. So lernst du die Lagebeziehungen von beiden Seiten kennen — sie selbst herstellen und sie wiedererkennen.",
+        "Hier gibt es keine Uhr, keine Punkte und keine Eile. Du darfst so lange überlegen und ausprobieren, wie du magst. Parkst du einmal daneben, erklärt dir Benno der Biber das Wort freundlich noch einmal, und du versuchst es in Ruhe erneut. Diese Aktivität folgt der Leitidee „Raum und Form“ aus dem Lehrplan der Grundschule und übt das genaue Beschreiben und Zuordnen räumlicher Lagebeziehungen."
+      ],
+      "practices": [
+        "Lagebeziehungen mit über, unter, neben und zwischen erkennen und zuordnen",
+        "genau zuhören und das Positionswort in eine räumliche Lage übersetzen",
+        "die Mitte zwischen zwei Bezugsfahrzeugen bestimmen („zwischen“)",
+        "eine genannte Lage wiedererkennen und das passende Fahrzeug finden"
+      ],
+      "howToPlay": [
+        "Höre auf Bennos Wort: über, unter, neben oder zwischen.",
+        "Parke das Fahrzeug in der Etage, die zum Wort und zum Bezugsfahrzeug passt.",
+        "In der Umkehrrunde tippst du das Fahrzeug an, das schon an der genannten Stelle steht."
+      ],
+      "learningGoals": [
+        "Das Kind beschreibt und nutzt die Lagebeziehungen über, unter, neben und zwischen sicher.",
+        "Das Kind ordnet ein Fahrzeug einer Lage relativ zu einem Bezugsobjekt korrekt zu.",
+        "Das Kind erkennt eine genannte räumliche Lage wieder und findet den passenden Platz."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

@@ -131,6 +131,16 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     en: 'Reading: Informational Text',
     de: 'Sachtexte verstehen',
   },
+  // Reading: Literature (RL — answer key-detail questions about an erzählende Geschichte). de literacy
+  // fan-out opener (picture-story RL.K.1); literary COMPREHENSION — the distinct literary Bereich
+  // „mit literarischen Texten umgehen / literarische Texte erschließen", chip-form „Literarische Texte
+  // verstehen". NOT the broad text-awareness Bereich (that's where the Textsorten activity bea-two-
+  // bookshelves lives via STRAND_OVERRIDE). Opens the RL strand for future story-comprehension
+  // activities (Nacherzählen, zentrale Aussage, Figureneigenschaften). de-only this wave; en fallback.
+  'Reading: Literature': {
+    en: 'Reading: Literature',
+    de: 'Literarische Texte verstehen',
+  },
   // Phonological Awareness (pre-reading sound awareness; literacy). No deployed
   // activity uses this strand yet (forward-looking); all 11 locales curriculum-reviewed.
   'Phonological Awareness': {

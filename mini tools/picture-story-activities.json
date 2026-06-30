@@ -37,16 +37,55 @@
         { "id": "ps-pic-what",  "storyId": "picnic", "qtype": "what",  "prompt": "What were the friends doing?",        "answer": "having a picnic",       "options": ["having a picnic", "playing ball", "taking a nap"] },
         { "id": "ps-pic-why",   "storyId": "picnic", "qtype": "why",   "prompt": "Why did the friends move under the umbrella?", "answer": "because it rained", "options": ["because it rained", "because it got windy", "because they were sleepy"] },
         { "id": "ps-pic-feel",  "storyId": "picnic", "qtype": "feeling", "prompt": "How did the friends feel at the end?", "answer": "happy",              "options": ["happy", "scared", "angry"] }
-      ]
+      ],
+      "storiesL10n": {
+        "de": {
+          "mitten": { "title": "Der rote Handschuh", "panels": [
+            { "caption": "Bo das Häschen hüpfte durch den Schnee.", "glyphs": ["bunny", "snow"] },
+            { "caption": "Am Baum rutschte ein roter Handschuh herunter.", "glyphs": ["tree", "mitten"] },
+            { "caption": "Ein Vogel fand ihn und rief Bo zurück.", "glyphs": ["bird", "mitten"] }
+          ] },
+          "carrot": { "title": "Die riesige Möhre", "panels": [
+            { "caption": "Millie die Maus fand eine riesige Möhre.", "glyphs": ["mouse", "carrot"] },
+            { "caption": "Sie zog und zog, doch die Möhre steckte fest.", "glyphs": ["mouse", "carrot"] },
+            { "caption": "Ihr Freund schob, und schwupp — heraus kam sie!", "glyphs": ["friend", "carrot"] }
+          ] },
+          "picnic": { "title": "Das Picknick im Regen", "panels": [
+            { "caption": "Zwei Freunde machten ein Picknick.", "glyphs": ["friend", "basket"] },
+            { "caption": "Dann kamen dunkle Wolken und es regnete.", "glyphs": ["rain"] },
+            { "caption": "Unter einem großen Schirm waren sie froh.", "glyphs": ["umbrella", "friend"] }
+          ] }
+        }
+      },
+      "roundsL10n": {
+        "de": [
+          { "id": "ps-mit-who",   "storyId": "mitten", "qtype": "who",   "prompt": "Wer ist durch den Schnee gehüpft?",         "answer": "Bo das Häschen",        "options": ["Bo das Häschen", "ein müder Bär", "ein grüner Frosch"] },
+          { "id": "ps-mit-what",  "storyId": "mitten", "qtype": "what",  "prompt": "Was ist am Baum heruntergerutscht?",        "answer": "ein roter Handschuh",   "options": ["ein roter Handschuh", "eine blaue Mütze", "ein Wollschal"] },
+          { "id": "ps-mit-where", "storyId": "mitten", "qtype": "where", "prompt": "Wo ist der Handschuh heruntergerutscht?",   "answer": "am Baum",               "options": ["am Baum", "am Teich", "auf dem Hügel"] },
+          { "id": "ps-mit-order", "storyId": "mitten", "qtype": "order", "prompt": "Was ist ZUERST passiert?",                  "answer": "Bo ist im Schnee gehüpft", "options": ["Bo ist im Schnee gehüpft", "Ein Vogel hat den Handschuh gefunden", "Der Handschuh ist heruntergerutscht"] },
+
+          { "id": "ps-car-who",   "storyId": "carrot", "qtype": "who",   "prompt": "Wer hat die Möhre gefunden?",               "answer": "Millie die Maus",       "options": ["Millie die Maus", "Bo das Häschen", "eine große Krähe"] },
+          { "id": "ps-car-what",  "storyId": "carrot", "qtype": "what",  "prompt": "Was hat Millie gefunden?",                  "answer": "eine riesige Möhre",    "options": ["eine riesige Möhre", "einen glänzenden Stein", "einen verlorenen Schlüssel"] },
+          { "id": "ps-car-why",   "storyId": "carrot", "qtype": "why",   "prompt": "Warum konnte Millie sie nicht herausziehen?", "answer": "sie steckte fest",     "options": ["sie steckte fest", "sie war zu klein", "sie rollte weg"] },
+          { "id": "ps-car-order", "storyId": "carrot", "qtype": "order", "prompt": "Was ist ZULETZT passiert?",                 "answer": "Die Möhre ist herausgekommen", "options": ["Die Möhre ist herausgekommen", "Millie hat die Möhre gefunden", "Millie hat an der Möhre gezogen"] },
+
+          { "id": "ps-pic-what",  "storyId": "picnic", "qtype": "what",  "prompt": "Was haben die zwei Freunde gemacht?",       "answer": "ein Picknick gemacht",  "options": ["ein Picknick gemacht", "Ball gespielt", "geschlafen"] },
+          { "id": "ps-pic-why",   "storyId": "picnic", "qtype": "why",   "prompt": "Warum sind die Freunde unter den Schirm gegangen?", "answer": "weil es regnete", "options": ["weil es regnete", "weil es windig wurde", "weil sie müde waren"] },
+          { "id": "ps-pic-feel",  "storyId": "picnic", "qtype": "feeling", "prompt": "Wie haben sich die Freunde am Ende gefühlt?", "answer": "froh",               "options": ["froh", "ängstlich", "wütend"] }
+        ]
+      }
     },
     "slug": {
-      "en": "story-key-details"
+      "en": "story-key-details",
+      "de": "leseverstaendnis-geschichte-fragen-beantworten-klasse-1"
     },
     "page_title": {
-      "en": "Fable's Picture Stories — Story Key Details (Kindergarten)"
+      "en": "Fable's Picture Stories — Story Key Details (Kindergarten)",
+      "de": "Leseverständnis Klasse 1: Geschichte verstehen mit Fabel"
     },
     "page_intro": {
-      "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Fable the fox, then answer questions about the key details — who is in the story, what happens, where it takes place, what happened first and last, and why. A friendly, picture-and-caption way to build early story comprehension. Common Core RL.K.1."
+      "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Fable the fox, then answer questions about the key details — who is in the story, what happens, where it takes place, what happened first and last, and why. A friendly, picture-and-caption way to build early story comprehension. Common Core RL.K.1.",
+      "de": "Leseverständnis Klasse 1: Lies oder höre eine kurze Bildergeschichte und beantworte Fragen dazu – Wer, Was, Wo, Warum. Kostenlos und interaktiv. Jetzt entdecken!"
     },
     "kid_prompt_template": "picture-story"
   }

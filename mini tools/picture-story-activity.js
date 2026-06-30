@@ -16,15 +16,21 @@
   'use strict';
 
   var Core = global.PictureStoryCore;
+  var LANG = 'en';
 
   var L = {
     en: {
       win: 'Yes! {note}', winNote: 'You remembered the story!',
       nudge: 'Look at the pictures again — the answer is in the story.',
       hear: '🔊 Hear the story'
+    },
+    de: {
+      win: 'Ja! {note}', winNote: 'Du hast dir die Geschichte gut gemerkt!',
+      nudge: 'Schau dir die Bilder noch einmal an — die Antwort steckt in der Geschichte.',
+      hear: '🔊 Geschichte vorlesen'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   /* ---- simple SVG scene-glyphs (each drawn centered ~ (18,18) in a 36 box) ---- */
@@ -64,13 +70,13 @@
   var PictureStoryActivity = {
     id: 'picture-story-activity',
     strings: {
-      title: { en: "Fable's Picture Stories" },
-      instruction: { en: 'Read the little story with Fable the fox, then answer about it!' },
+      title: { en: "Fable's Picture Stories", de: 'Fabels Bildergeschichten' },
+      instruction: { en: 'Read the little story with Fable the fox, then answer about it!', de: 'Lies die kleine Geschichte mit Fabel dem Fuchs und beantworte dann die Frage!' },
       q: { en: '{q}' }
     },
 
     init: function (api) {
-      this._api = api;
+      this._api = api; LANG = (api && api.lang) || 'en';
       this._pool = []; this._stories = {}; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._choiceOrder = null;
@@ -117,7 +123,9 @@
         fetch(tries[i]).then(function (r) { return r.ok ? r.json() : Promise.reject(); })
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
-            self._activityRow = row; self._pool = (row && row.params && row.params.rounds) || []; self._stories = (row && row.params && row.params.stories) || {};
+            self._activityRow = row;
+            self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
+            self._stories = (row && row.params && ((row.params.storiesL10n && row.params.storiesL10n[LANG]) || row.params.stories)) || {};
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -184,7 +192,7 @@
       var hear = el('button', 'ps-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
         var t = (story.panels || []).map(function (p) { return p.caption; }).join('. ');
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: 'en', rate: 0.9 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.9 }); } catch (e) { } }
       });
       root.appendChild(hear);
     },
@@ -227,7 +235,9 @@
     _srMirror: function () {
       var r = this._round, story = this._story(), wrap = el('div', 'ps-sronly'); wrap.setAttribute('aria-live', 'polite');
       var caps = (story.panels || []).map(function (p) { return p.caption; }).join(' ');
-      wrap.innerHTML = '<p>Story: ' + caps + ' Question: ' + r.prompt + ' Choices: ' + this._choiceOrder.join('; ') + '.</p>';
+      wrap.innerHTML = LANG === 'de'
+        ? '<p>Geschichte: ' + caps + ' Frage: ' + r.prompt + ' Auswahl: ' + this._choiceOrder.join('; ') + '.</p>'
+        : '<p>Story: ' + caps + ' Question: ' + r.prompt + ' Choices: ' + this._choiceOrder.join('; ') + '.</p>';
       return wrap;
     },
 

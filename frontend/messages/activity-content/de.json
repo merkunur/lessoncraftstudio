@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "picture-story.read.rl-k-1": {
+      "about": [
+        "Fabel der Fuchs hat eine kleine Geschichte in drei Bildern dabei und liest sie deinem Kind vor. Anschließend darf dein Kind zeigen, dass es die Geschichte wirklich verstanden hat: Es tippt die Antwort auf eine Frage zu den wichtigen Einzelheiten an. Wer ist dabei? Was passiert? Wo spielt die Geschichte? Was ist zuerst und was zuletzt passiert? Warum geschieht das? Und wie haben sich die Figuren am Ende gefühlt?",
+        "Hier geht es nicht um einen Sachtext, sondern um eine echte, erzählende Geschichte — mit Figuren, einer Handlung und Gefühlen. In der Geschichte vom verlorenen Handschuh sieht dein Kind zum Beispiel, wie ein Häschen seinen Handschuh verliert, ein Vogel ihn findet und zurückbringt — und kann dann beantworten: Wer hat geholfen? (der Vogel) und Wie hat sich Bo am Ende gefühlt? (froh). Weil Fabel jede Geschichte vorlesen kann, machen auch Kinder mit, die noch nicht selbst lesen — sie erschließen die Geschichte über das Zuhören und die Bilder.",
+        "Die große Idee dahinter: eine Geschichte genau verstehen — die wichtigen Einzelheiten erfassen. Das ist der erste, grundlegende Schritt des literarischen Leseverstehens und richtet sich nach dem Bereich „Literarische Texte verstehen“ im Lehrplan der Grundschule. Alles ist kostenlos, ganz ohne Zeitdruck, ohne Punkte und ohne Wettbewerb — dein Kind darf in seinem eigenen Tempo zuhören, schauen und nachdenken."
+      ],
+      "practices": [
+        "Einer kurzen Geschichte aufmerksam zuhören und sie genau anschauen.",
+        "Die wichtigen Einzelheiten erfassen — Wer, Was und Wo.",
+        "Die Reihenfolge der Handlung erkennen — was zuerst und was zuletzt passiert.",
+        "Erkennen, warum etwas geschieht und wie sich die Figuren fühlen."
+      ],
+      "howToPlay": [
+        "Hör Fabel zu und schau dir die drei Bilder der Geschichte genau an.",
+        "Lies die Frage zur Geschichte — zum Beispiel „Wer hat geholfen?“ oder „Was ist zuletzt passiert?“.",
+        "Tippe die richtige Antwort an. Du kannst die Geschichte so oft anhören, wie du möchtest."
+      ],
+      "learningGoals": [
+        "Dein Kind kann die wichtigen Einzelheiten einer kurzen Geschichte benennen (Wer, Was, Wo).",
+        "Dein Kind kann die Reihenfolge der Handlung wiedergeben — was zuerst und was zuletzt geschah.",
+        "Dein Kind kann erkennen, warum etwas passiert und wie sich eine Figur am Ende fühlt."
+      ]
+    },
     "bea-two-bookshelves.story-or-fact.rl-1-5": {
       "about": [
         "Bea, die Bücherraupe, liebt jedes Buch — aber sie weiß auch: Es gibt zwei ganz verschiedene Arten davon. In dieser Aktivität sieht dein Kind drei Buchdeckel mit Titel und einem kurzen Satz dazu. Bea fragt: „Welches ist eine Geschichte?“ oder „Welches ist ein Sachbuch?“ Dein Kind liest die Hinweise und tippt das passende Buch an.",

@@ -1296,6 +1296,29 @@
         "Es entdeckt die Partnerzahlen zur 10 und erste Tauschaufgaben (2 und 3 / 3 und 2)."
       ]
     },
+    "friendship-bridge.compare-balance.k-cc-c-6": {
+      "about": [
+        "Big und Bit treffen sich auf der Freundschaftsbrücke — und jeder bringt eine Handvoll runder „Freunde“ mit. Aber wer hat mehr dabei? Statt einfach zu raten, gibst du jedem Freund von Big einen Partner auf Bits Seite: immer einer zu einem, über die Brücke hinweg. Wer am Ende noch einen Freund ohne Partner übrig hat, hat mehr.",
+        "Genau das ist der Kniff dieser Aufgabe: Mengen vergleichen durch Zuordnung — und dabei merken, dass das Auge oft täuscht. Eine lang ausgebreitete Reihe sieht schnell nach „mehr“ aus, auch wenn ein dichtes Häufchen daneben in Wahrheit gleich viele oder sogar mehr enthält. Erst das Zuordnen Paar für Paar zeigt sicher, ob es mehr, weniger oder gleich viel sind. So wird aus einem Gefühl ein verlässliches Ergebnis.",
+        "„Die Freundschaftsbrücke“ ist eine kostenlose, interaktive Aktivität für Klasse 1 — passend zu den Zielen des Lehrplans der Grundschule im Bereich „Zählen und Mengen“. Es gibt keine Zeituhr und keine Punktejagd: Die Kinder dürfen in Ruhe zuordnen, zählen und ausprobieren, ganz in ihrem eigenen Tempo, im Zahlenraum bis 10."
+      ],
+      "practices": [
+        "Zwei Mengen durch Eins-zu-eins-Zuordnung miteinander vergleichen.",
+        "Bestimmen und benennen, welche Menge mehr, weniger oder gleich viel hat.",
+        "Erkennen, dass eine lang ausgebreitete Reihe nicht automatisch mehr ist (Mengeninvarianz).",
+        "Eine kleinere Menge ergänzen, bis beide Seiten gleich viele Freunde haben."
+      ],
+      "howToPlay": [
+        "Gib jedem Freund einen Partner auf der anderen Seite der Brücke — immer einer zu einem.",
+        "Schau, ob ein Freund ohne Partner übrig bleibt: Dann hat diese Seite mehr.",
+        "Sag, wie die Mengen zueinander stehen: mehr, weniger oder gleich viel."
+      ],
+      "learningGoals": [
+        "Anzahlen sicher durch Zuordnung vergleichen und die Beziehung mehr / weniger / gleich viel benennen.",
+        "Verstehen, dass die Anzahl gleich bleibt, egal ob die Freunde eng beieinander oder weit auseinander liegen.",
+        "Eine kleinere Menge gezielt ergänzen, bis beide Mengen gleich viele sind — eine erste Grundlage für das Ergänzen und Rechnen."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

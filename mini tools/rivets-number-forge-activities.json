@@ -39,9 +39,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "rivets-number-forge" },
-    "page_title": { "en": "Rivet's Number Forge — Count and Write the Numeral 0 to 20" },
-    "page_intro": { "en": "Help Rivet the raccoon turn loose treasure into collector cards: count the acorns, buttons, and fireflies and forge the numeral that says how many — the numeral is built from the very things you count. Even an empty pack has a number: zero! A warm Kindergarten counting-and-writing game aligned to Common Core K.CC.A.3." },
+    "slug": { "en": "rivets-number-forge", "de": "anzahl-zaehlen-und-passende-ziffer-bis-20-klasse-1" },
+    "page_title": { "en": "Rivet's Number Forge — Count and Write the Numeral 0 to 20", "de": "Anzahl zählen & passende Ziffer bis 20 – Klasse 1" },
+    "page_intro": { "en": "Help Rivet the raccoon turn loose treasure into collector cards: count the acorns, buttons, and fireflies and forge the numeral that says how many — the numeral is built from the very things you count. Even an empty pack has a number: zero! A warm Kindergarten counting-and-writing game aligned to Common Core K.CC.A.3.", "de": "Zähle die Schätze und finde die passende Ziffer dazu – Mengen und Zahlen bis 20 verbinden, auch die Null. Kostenlose, interaktive Matheübung für Klasse 1. Jetzt zählen!" },
     "kid_prompt_template": "numeral-album"
   }
 ]

@@ -1273,6 +1273,29 @@
         "Ähnliche Formen wie Quadrat und Rechteck oder Quadrat und Raute genau unterscheiden."
       ]
     },
+    "chuffer.rail-decompose.k-oa-a-3": {
+      "about": [
+        "Auf Chuffers Rangierbahnhof rollt eine Ladung Kisten heran – und sie muss auf zwei Wagen verteilt werden: einen blauen und einen roten. Dein Kind schiebt die Kisten von einem Wagen zum anderen, sagt laut, wie viele in jedem Wagen stehen (zum Beispiel „5 ist 2 und 3“), und zieht dann an der Kupplung. Jede gefundene Aufteilung wird ins Fahrtenbuch eingetragen.",
+        "Dahinter steckt eine der wichtigsten Ideen am Anfang der Grundschule: Eine Zahl lässt sich auf ganz verschiedene Arten in zwei Teile zerlegen. Die 5 ist 1 und 4, sie ist 2 und 3, sie ist 0 und 5 – und doch bleibt es immer dieselbe 5. So entdeckt dein Kind das Teil-Teil-Ganzes und baut Schritt für Schritt sein eigenes „Zahlenhaus“: Oben wohnt die ganze Zahl, in jedem Stockwerk eine andere Zerlegung. Wer alle Wege findet, versteht, wie Zahlen aufgebaut sind – die Grundlage für das spätere Rechnen. Im Lehrplan der Grundschule gehört das zum Bereich „Zahlen und Operationen“.",
+        "Chuffers Rangierbahnhof ist kostenlos und lädt einfach zum Ausprobieren ein. Es gibt keine Uhr, keine Punkte und keinen Wettlauf – nur Zeit zum Schieben, Sagen und Entdecken. Verschätzt sich dein Kind, fährt der Zug einfach noch einmal vor."
+      ],
+      "practices": [
+        "eine Zahl in zwei Teile zerlegen",
+        "alle möglichen Zerlegungen einer Zahl finden",
+        "jede Zerlegung benennen („5 ist 2 und 3“)",
+        "erkennen, dass 2 und 3 dieselben Teile sind wie 3 und 2 (Tauschaufgabe)"
+      ],
+      "howToPlay": [
+        "Schiebe die Kisten zwischen den beiden Wagen hin und her.",
+        "Sag, wie viele Kisten in jedem Wagen stehen.",
+        "Finde jeden anderen Weg, die Ladung aufzuteilen."
+      ],
+      "learningGoals": [
+        "Dein Kind zerlegt Zahlen bis 10 in zwei Teile und versteht das Teil-Teil-Ganzes.",
+        "Es findet nach und nach alle Zerlegungen einer Zahl und benennt sie.",
+        "Es entdeckt die Partnerzahlen zur 10 und erste Tauschaufgaben (2 und 3 / 3 und 2)."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

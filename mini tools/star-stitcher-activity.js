@@ -20,10 +20,13 @@
   var Core = global.ConnectSequenceCore;
   var C = { T: '#146B5E', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', INK: '#2A2A35', GOLD: '#E8A53A', NIGHT: '#0E4A40' };
   var CREATURE = { fox: ['🦊', 'fox'], owl: ['🦉', 'owl'], whale: ['🐳', 'whale'], deer: ['🦌', 'deer'], bear: ['🐻', 'bear'], cat: ['🐱', 'cat'], bird: ['🐦', 'bird'] };
+  var CREATURE_DE = { fox: 'einen Fuchs', owl: 'eine Eule', whale: 'einen Wal', deer: 'ein Reh', bear: 'einen Bären', cat: 'eine Katze', bird: 'einen Vogel' };
+  var LANG = 'en';
+  function creaturePhrase(reveal) { return LANG === 'de' ? (CREATURE_DE[reveal] || 'einen Stern') : (CREATURE[reveal] || ['⭐', 'star'])[1]; }
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function svgEl(tag, attrs) { var e = document.createElementNS('http://www.w3.org/2000/svg', tag); if (attrs) for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
 
@@ -32,21 +35,24 @@
     reward: { id: 'night-sky', label: 'Night Sky', emoji: '🌌' },
 
     strings: {
-      title: { en: 'Count the Stars Awake' },
-      prompt: { en: 'Count the firefly forward!' },
-      countOn: { en: 'Count on' },
-      wake: { en: 'Wake it!' },
-      countHint: { en: 'Tap Count on to fly her to the next star, then Wake it!' },
-      pickHint: { en: 'Tap the glowing star to start counting from there.' },
-      setHint: { en: 'Tap each dot to count them — that is where she starts!' },
-      overshoot: { en: 'Not yet — count on again from the lit star.' },
-      win: { en: 'You woke a {c}!' },
-      hintCheck: { en: 'Count the firefly to each star and Wake it.' }
+      title: { en: 'Count the Stars Awake', de: 'Zähl die Sterne wach!' },
+      prompt: { en: 'Count the firefly forward!', de: 'Zähl das Glühwürmchen weiter!' },
+      countOn: { en: 'Count on', de: 'Weiterzählen' },
+      wake: { en: 'Wake it!', de: 'Wecken!' },
+      countHint: { en: 'Tap Count on to fly her to the next star, then Wake it!', de: 'Tippe auf „Weiterzählen", damit es zum nächsten Stern fliegt – dann auf „Wecken"!' },
+      pickHint: { en: 'Tap the glowing star to start counting from there.', de: 'Tippe auf den leuchtenden Stern, um von dort weiterzuzählen.' },
+      setHint: { en: 'Tap each dot to count them — that is where she starts!', de: 'Tippe jeden Punkt an und zähle mit – dort fängt es an!' },
+      overshoot: { en: 'Not yet — count on again from the lit star.', de: 'Noch nicht – zähl vom leuchtenden Stern noch einmal weiter.' },
+      win: { en: 'You woke a {c}!', de: 'Du hast {c} geweckt!' },
+      hintCheck: { en: 'Count the firefly to each star and Wake it.', de: 'Zähl das Glühwürmchen zu jedem Stern und wecke ihn.' },
+      startHere: { en: 'Start here', de: 'Hier starten' },
+      countSetGo: { en: "That's {n} — count on!", de: 'Das sind {n} – weiterzählen!' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.stage = 'count-on'; this.cstate = null; this.solved = false; this.overshootFlash = false; this.setCount = 0; this.solvedCount = 0;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -83,10 +89,10 @@
       if (this.stage === 'done') {
         var cr = CREATURE[this.round.reveal] || ['⭐', 'star'];
         var big = api.el('div', 'ss-creature'); big.textContent = cr[0]; side.appendChild(big);
-        var won = api.el('div', 'ss-won'); won.textContent = api.t('win').replace('{c}', cr[1]); side.appendChild(won);
+        var won = api.el('div', 'ss-won'); won.textContent = api.t('win').replace('{c}', creaturePhrase(this.round.reveal)); side.appendChild(won);
       } else if (this.stage === 'pick-anchor') {
         var tip = api.el('div', 'ss-numeral'); tip.textContent = this.round.start; side.appendChild(tip);
-        var go = api.el('button', 'ss-beat'); go.type = 'button'; go.textContent = 'Start here';
+        var go = api.el('button', 'ss-beat'); go.type = 'button'; go.textContent = api.t('startHere');
         go.addEventListener('click', function () { self.stage = 'count-on'; self.api.sound && self.api.sound(600); self.render(); }); side.appendChild(go);
       } else {
         var num = api.el('div', 'ss-numeral' + (this.overshootFlash ? ' ss-num-bad' : '')); num.textContent = this.cstate.count; num.setAttribute('aria-live', 'polite'); side.appendChild(num);
@@ -151,7 +157,7 @@
       this.solved = true; this.stage = 'done'; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 7);
       this.api.sound && this.api.sound(920); this.render();
       var cr = CREATURE[this.round.reveal] || ['⭐', 'star'];
-      this.api.announce && this.api.announce(this.api.t('win').replace('{c}', cr[1])); speak('You woke a ' + cr[1] + '!');
+      this.api.announce && this.api.announce(this.api.t('win').replace('{c}', creaturePhrase(this.round.reveal))); speak(this.api.t('win').replace('{c}', creaturePhrase(this.round.reveal)));
     },
 
     /* ----- count-set pre-stage (quantity-start, exp 6) ----- */
@@ -164,7 +170,7 @@
       main.appendChild(pips);
       var side = api.el('div', 'ss-side');
       var num = api.el('div', 'ss-numeral'); num.textContent = this.setCount; side.appendChild(num);
-      if (this.setCount === n) { var go = api.el('button', 'ss-beat'); go.type = 'button'; go.textContent = "That's " + n + " — count on!";
+      if (this.setCount === n) { var go = api.el('button', 'ss-beat'); go.type = 'button'; go.textContent = api.t('countSetGo').replace('{n}', n);
         go.addEventListener('click', function () { self.stage = 'count-on'; self.api.sound && self.api.sound(640); self.render(); }); side.appendChild(go); }
       main.appendChild(side); root.appendChild(main);
     },

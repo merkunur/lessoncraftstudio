@@ -1342,6 +1342,29 @@
         "Eine genannte oder gehörte Zahl in die passende Menge umsetzen"
       ]
     },
+    "star-stitcher.connect-sequence.k-cc-a-2": {
+      "about": [
+        "Ein Glühwürmchen fliegt durch den Nachthimmel und weckt schlafende Sterne — aber immer nur den nächsten in der Reihe. Dein Kind tippt auf „Weiterzählen“, das Glühwürmchen fliegt einen Stern weiter, die nächste Zahl wird gesagt — und beim richtigen Stern weckt es ihn mit „Wecken!“. So leuchtet nach und nach ein ganzes Sternbild auf.",
+        "Das Besondere: Gezählt wird nicht von 1 an, sondern ab einer gegebenen Zahl. Steht das Glühwürmchen bei der 7, geht es weiter mit 8, 9, 10 … Die dunklen Sterne tragen keine Ziffer — die nächste Zahl bekommt das Kind nur durchs Weiterzählen heraus, nicht durchs Ablesen. Genau das ist der Kern: die Zahlwortreihe ab einer beliebigen Stelle sicher fortsetzen. Diese Fähigkeit ist die Grundlage für das spätere Weiterzählen beim Addieren („weiterzählen statt alles neu zählen“) und folgt dem Bereich „Zählen und Mengen“ im Lehrplan der Grundschule.",
+        "Die Übung ist kostenlos, ganz ohne Zeitdruck und ohne Punkte. Verzählt sich dein Kind und fliegt über das Ziel hinaus, gleitet das Glühwürmchen einfach sanft zurück — in Ruhe ausprobieren ist ausdrücklich erlaubt."
+      ],
+      "practices": [
+        "Die Zahlwortreihe ab einer beliebigen Startzahl vorwärts fortsetzen.",
+        "Weiterzählen, statt jedes Mal von 1 neu zu beginnen.",
+        "Fehlende Zahlen zwischen zwei bekannten Zahlen ergänzen.",
+        "Eine Menge abzählen, um die Startzahl zu bestimmen, und von dort weiterzählen."
+      ],
+      "howToPlay": [
+        "Schau, bei welchem leuchtenden Stern das Glühwürmchen startet.",
+        "Tippe auf „Weiterzählen“ — das Glühwürmchen fliegt zum nächsten Stern und zählt eine Zahl weiter.",
+        "Tippe beim richtigen Stern auf „Wecken!“, um ihn zum Leuchten zu bringen."
+      ],
+      "learningGoals": [
+        "Sicher ab einer gegebenen Zahl weiterzählen (auch ab „krummen“ Zahlen).",
+        "Die Reihenfolge der Zahlwörter bis etwa 18 festigen.",
+        "Das Weiterzählen als Vorstufe zum Rechnen anbahnen."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

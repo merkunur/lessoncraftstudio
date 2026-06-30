@@ -16,9 +16,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "count-the-stars-awake" },
-    "page_title": { "en": "Count the Stars Awake — Counting On from a Number (Kindergarten)" },
-    "page_intro": { "en": "A free interactive Kindergarten counting game: a little firefly is stuck — she can only fly where you have already counted. Start at the one lit star and count her FORWARD, one dark star at a time (eight… nine… ten…), waking each star as you go. When the last star lights, the sleeping constellation wakes up. Counting forward from a given number — not always starting at one — is the heart of Common Core K.CC.A.2." },
+    "slug": { "en": "count-the-stars-awake", "de": "weiterzaehlen-ab-einer-zahl-zahlenreihe-klasse-1" },
+    "page_title": { "en": "Count the Stars Awake — Counting On from a Number (Kindergarten)", "de": "Weiterzählen ab einer Zahl: Sterne wecken – Klasse 1" },
+    "page_intro": { "en": "A free interactive Kindergarten counting game: a little firefly is stuck — she can only fly where you have already counted. Start at the one lit star and count her FORWARD, one dark star at a time (eight… nine… ten…), waking each star as you go. When the last star lights, the sleeping constellation wakes up. Counting forward from a given number — not always starting at one — is the heart of Common Core K.CC.A.2.", "de": "Weiterzählen ab einer Zahl üben: In diesem kostenlosen, interaktiven Spiel für Klasse 1 zählst du vorwärts und weckst Stern für Stern – jetzt loslegen!" },
     "kid_prompt_template": "connect-sequence"
   }
 ]

@@ -17,9 +17,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "deweys-ten-tank" },
-    "page_title": { "en": "Dewey's Ten-Tank — Make a Ten and Some Ones (Kindergarten)" },
-    "page_intro": { "en": "A free interactive Kindergarten place-value game: Dewey the duckling fills his pond-tank with glowing bubbles. When the tenth bubble drops, ten bubbles SEAL into one shimmering ten-raft — and the leftover bubbles are the \"and some more.\" Build, take apart, and compare the teen numbers 11–19 as a ten and some ones, recorded 10 + N. Understanding that a teen number is a ten and some ones is the heart of Common Core K.NBT.A.1." },
+    "slug": { "en": "deweys-ten-tank", "de": "zahlen-11-bis-19-als-zehner-und-einer-klasse-1" },
+    "page_title": { "en": "Dewey's Ten-Tank — Make a Ten and Some Ones (Kindergarten)", "de": "Zahlen 11–19 als Zehner und Einer – Klasse 1 | gratis üben" },
+    "page_intro": { "en": "A free interactive Kindergarten place-value game: Dewey the duckling fills his pond-tank with glowing bubbles. When the tenth bubble drops, ten bubbles SEAL into one shimmering ten-raft — and the leftover bubbles are the \"and some more.\" Build, take apart, and compare the teen numbers 11–19 as a ten and some ones, recorded 10 + N. Understanding that a teen number is a ten and some ones is the heart of Common Core K.NBT.A.1.", "de": "Zahlen 11 bis 19 als ein Zehner und einige Einer verstehen: Deweys Zehner-Tank macht Bündeln in Klasse 1 kostenlos und interaktiv erlebbar. Jetzt ausprobieren!" },
     "kid_prompt_template": "ten-frame-tank"
   }
 ]

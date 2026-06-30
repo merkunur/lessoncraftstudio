@@ -1664,6 +1664,29 @@
         "Ich verstehe, dass beide Seiten einer Aufgabe gleich viel sein müssen — wie eine Waage im Gleichgewicht."
       ]
     },
+    "twinsies.count-twin.k-cc-b-5": {
+      "about": [
+        "Zwicke, der Zwillings-Wicht, sammelt im Wald die schönsten Eicheln und legt sie zu einem kleinen Haufen zusammen. Aber Zwicke möchte etwas ganz Besonderes: einen Zwilling für seinen Haufen. „Zwilling“ heißt nicht dasselbe Bild — es heißt gleich viele! Genau wie zwei Zwillingskinder verschiedene Kinder sind und trotzdem gleich viele Jahre haben.",
+        "Zuerst zählt das Kind Zwickes Eicheln ab, indem es jede einzelne antippt — eine Eichel, ein Tipp, eine Zahl. So findet es heraus, wie viele es sind. Dann legt das Kind auf seinen eigenen Teller genau so viele Eicheln — aber in einer anderen Form: mal in einer Reihe, mal verstreut, mal als Feld, mal nach einer geschriebenen Zahl. Die Anordnung darf ganz anders aussehen, nur die Anzahl muss stimmen. Und wenn beide gleich viele haben, ruft Zwicke fröhlich: „Wir sind Zwillinge!“",
+        "Die große Idee dahinter: Es sind gleich viele — egal, wie es liegt. Eine Anzahl bleibt dieselbe, ob die Eicheln in einer Reihe liegen, durcheinanderpurzeln oder ordentlich nebeneinander stehen. Es gibt hier keine Uhr, die tickt, und keine Punkte zu gewinnen. Kein Kind muss sich beeilen, niemand wird verglichen — Zwicke hat einfach Freude daran, in seinem eigenen Tempo Zwillinge zu finden, so oft es mag. Orientiert am Lehrplan der Grundschule, Leitidee „Zählen und Mengen“."
+      ],
+      "practices": [
+        "Eine sichtbare Menge sorgfältig abzählen — jedes Ding einmal antippen.",
+        "Die gefundene Anzahl auf dem eigenen Teller selbst herstellen.",
+        "Erkennen: gleich viele bleibt gleich viele, auch in anderer Anordnung.",
+        "Über Reihe, Streuung, Feld und geschriebene Zahl hinweg vergleichen."
+      ],
+      "howToPlay": [
+        "Tippe Zwickes Eicheln nacheinander an und zähle sie ab.",
+        "Lege auf deinen Teller genau gleich viele — die Form darf anders sein.",
+        "Stimmt die Anzahl, ruft ihr zusammen: „Wir sind Zwillinge!“"
+      ],
+      "learningGoals": [
+        "Das Kind bestimmt die Anzahl einer Menge bis 12 durch zählendes Abzählen.",
+        "Das Kind stellt eine gleich große Menge in einer anderen Anordnung her.",
+        "Das Kind versteht: Die Anzahl bleibt gleich, unabhängig von der Anordnung (Anzahlinvarianz)."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

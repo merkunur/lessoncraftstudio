@@ -16,9 +16,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "twinsies" },
-    "page_title": { "en": "Twinsies — Count How Many & Count Out That Many (Kindergarten)" },
-    "page_intro": { "en": "A free interactive Kindergarten counting game: the Twin-Sprite made something and wants a TWIN — not the same picture, the same MANY. Count what it made by tapping each one, then build a twin with the same number on your own plate (a different shape, so only the number matches). Tap \"We're twins!\" when you have just enough. Counting how many, and counting out that many, is the heart of Common Core K.CC.B.5." },
+    "slug": { "en": "twinsies", "de": "gleich-viele-legen-zwillingsmenge-klasse-1" },
+    "page_title": { "en": "Twinsies — Count How Many & Count Out That Many (Kindergarten)", "de": "Gleich viele legen: Zwillingsmenge bilden – Klasse 1" },
+    "page_intro": { "en": "A free interactive Kindergarten counting game: the Twin-Sprite made something and wants a TWIN — not the same picture, the same MANY. Count what it made by tapping each one, then build a twin with the same number on your own plate (a different shape, so only the number matches). Tap \"We're twins!\" when you have just enough. Counting how many, and counting out that many, is the heart of Common Core K.CC.B.5.", "de": "Zähle die Menge und lege eine gleich große Zwillingsmenge – gleich viele, nur anders angeordnet. Kostenlose, interaktive Mathe-Übung für Klasse 1. Jetzt üben!" },
     "kid_prompt_template": "count-twin"
   }
 ]

@@ -14,14 +14,20 @@
   var Core = global.TimePrepositionCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', LEAF: '#4E9E5E' };
 
+  /* English-locked core (FORMS/childView/grade) → German via an activity-layer
+     FORMS_DE + tdpGrade wrapper; setupTask swaps the de view's choices. 0 core. */
+  var LANG = 'en';
+  var FORMS_DE = ['vor', 'während', 'nach'];
+  function tdpGrade(round, id) { return (LANG === 'de' ? FORMS_DE : Core.FORMS)[id] === round.correct; }
+
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function turtleSVG() {
-    return '<svg class="tdp-turtle-svg" viewBox="0 0 100 100" role="img" aria-label="Tempo the turtle">' +
+    return '<svg class="tdp-turtle-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Tempo, die Schildkröte' : 'Tempo the turtle') + '">' +
       '<ellipse cx="48" cy="60" rx="26" ry="20" fill="#4E9E5E"/>' +               /* shell */
       '<path d="M48 40 v40 M24 54 l48 12 M24 66 l48 -12" stroke="#377544" stroke-width="3" fill="none"/>' +
       '<ellipse cx="48" cy="60" rx="26" ry="20" fill="none" stroke="#377544" stroke-width="3"/>' +
@@ -35,18 +41,18 @@
     id: 'tempo-day-plan-activity',
 
     strings: {
-      title: { en: "Tempo's Day Plan" },
-      instruction: { en: 'Tap before, during, or after to fit the sentence.' },
-      prompt: { en: 'Tap the time word that fits.' },
-      tempoIntro: { en: 'Some things come before, some during, and some after!' },
-      hintPick: { en: 'Does it happen first, in the middle, or at the end?' },
-      hintWrong: { en: 'Think about the order — before, during, or after?' },
-      win: { en: 'Yes! That fits the time. 🐢' }
+      title: { en: "Tempo's Day Plan", de: 'Tempos Tagesplan' },
+      instruction: { en: 'Tap before, during, or after to fit the sentence.', de: 'Tippe auf vor, während oder nach, damit es in den Satz passt.' },
+      prompt: { en: 'Tap the time word that fits.', de: 'Tippe auf das richtige Zeitwort.' },
+      tempoIntro: { en: 'Some things come before, some during, and some after!', de: 'Manches kommt vorher, manches mittendrin und manches danach!' },
+      hintPick: { en: 'Does it happen first, in the middle, or at the end?', de: 'Passiert es zuerst, in der Mitte oder am Ende?' },
+      hintWrong: { en: 'Think about the order — before, during, or after?', de: 'Denk an die Reihenfolge: vor, während oder nach?' },
+      win: { en: 'Yes! That fits the time. 🐢', de: 'Ja! Genau zur richtigen Zeit! 🐢' }
     },
     defaults: {},
 
     init: function (api) {
-      this.api = api;
+      this.api = api; LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -56,6 +62,7 @@
 
     setupTask: function (round) {
       this.round = round; this.view = Core.childView(round); this.sel = null;
+      if (LANG === 'de') this.view.choices = FORMS_DE.map(function (f, i) { return { id: i, word: f }; });
       this._cards = shuffle(this.view.choices.slice());
     },
 
@@ -95,7 +102,7 @@
       this.sel = id; this.api.sound && this.api.sound(560); speak(word); this.render();
     },
 
-    isCorrect: function () { return Core.grade(this.round, this.sel); },
+    isCorrect: function () { return tdpGrade(this.round, this.sel); },
     reset: function () { this.setupTask(this.round); this.render(); },
 
     nextTask: function (opts) {
@@ -109,7 +116,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/tempo-day-plan-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[tempo-day-plan] manifest load failed:', e.message); });
     },
 
@@ -142,7 +149,7 @@
       return {
         id: 'tempo-day-plan.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
-        check: function (tool) { return Core.grade(round, tool.sel); },
+        check: function (tool) { return tdpGrade(round, tool.sel); },
         hintKey: function (tool) { return tool.sel != null ? 'hintWrong' : 'hintPick'; }
       };
     });

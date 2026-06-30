@@ -15,14 +15,18 @@
   var Core = global.ContextClueCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A' };
 
+  /* The core grades by choices[id].kind === 'correct' (locale-neutral) → German
+     is a pure data port (German Teekessel rounds via roundsL10n.de). 0 core. */
+  var LANG = 'en';
+
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function fawnSVG() {
-    return '<svg class="fcg-fawn-svg" viewBox="0 0 100 100" role="img" aria-label="Fern the fawn">' +
+    return '<svg class="fcg-fawn-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Fern, das Rehkitz' : 'Fern the fawn') + '">' +
       '<ellipse cx="50" cy="62" rx="22" ry="19" fill="#C98A4B"/>' +                /* body */
       '<ellipse cx="50" cy="68" rx="13" ry="11" fill="#EACBA0"/>' +               /* belly */
       '<circle cx="58" cy="42" r="11" fill="#C98A4B"/>' +                          /* head */
@@ -39,18 +43,18 @@
     id: 'fern-clue-garden-activity',
 
     strings: {
-      title: { en: "Fern's Clue Garden" },
-      prompt: { en: 'What does the word mean here?' },
-      fernIntro: { en: 'Read the whole sentence — the clues are around the word!' },
-      theAsk: { en: 'What does "{word}" mean in this sentence?' },
-      hintPick: { en: 'Tap the meaning that fits the sentence!' },
-      hintWrong: { en: "That can be a meaning, but not here — read the sentence again." },
-      win: { en: 'Yes! The sentence shows what it means. 🌿' }
+      title: { en: "Fern's Clue Garden", de: 'Ferns Rätselgarten' },
+      prompt: { en: 'What does the word mean here?', de: 'Was bedeutet das Wort hier?' },
+      fernIntro: { en: 'Read the whole sentence — the clues are around the word!', de: 'Hallo, ich bin Fern! Lies den ganzen Satz – er verrät dir wie ein kleines Rätsel, welche Bedeutung gemeint ist.' },
+      theAsk: { en: 'What does "{word}" mean in this sentence?', de: 'Was bedeutet „{word}“ in diesem Satz?' },
+      hintPick: { en: 'Tap the meaning that fits the sentence!', de: 'Lies den Satz ganz genau und tippe dann die passende Bedeutung an.' },
+      hintWrong: { en: "That can be a meaning, but not here — read the sentence again.", de: 'Das kann das Wort zwar auch bedeuten – aber hier nicht. Lies den Satz noch einmal in Ruhe.' },
+      win: { en: 'Yes! The sentence shows what it means. 🌿', de: 'Ja! Genau diese Bedeutung zeigt der Satz.' }
     },
     defaults: {},
 
     init: function (api) {
-      this.api = api;
+      this.api = api; LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -76,7 +80,7 @@
 
       var sent = api.el('div', 'fcg-sent');
       var txt = api.el('span', 'fcg-senttxt'); txt.innerHTML = highlight(v.sentence, v.word); sent.appendChild(txt);
-      var sp = api.el('button', 'fcg-spk'); sp.type = 'button'; sp.setAttribute('aria-label', 'hear the sentence'); sp.textContent = '🔊';
+      var sp = api.el('button', 'fcg-spk'); sp.type = 'button'; sp.setAttribute('aria-label', (LANG === 'de' ? 'Satz anhören' : 'hear the sentence')); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(v.sentence); }); sent.appendChild(sp);
       root.appendChild(sent);
 
@@ -114,7 +118,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/fern-clue-garden-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[fern-clue-garden] manifest load failed:', e.message); });
     },
 

@@ -24,12 +24,34 @@
           "choices": [ { "text": "a grassy place to play outside", "kind": "no-context" }, { "text": "to stop and leave a car somewhere", "kind": "correct" }, { "text": "a bowl of warm soup", "kind": "off" } ] },
         { "id": "duck", "band": 3, "word": "duck", "sentence": "Duck quickly so the branch misses your head!",
           "choices": [ { "text": "a tall stone tower", "kind": "off" }, { "text": "a bird that swims on a pond", "kind": "no-context" }, { "text": "to bend down low and fast", "kind": "correct" } ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "ball", "band": 1, "word": "Ball", "sentence": "Im Garten wirft Max den Ball über den Zaun.",
+            "choices": [ { "text": "ein rundes Ding zum Spielen, das man rollen oder fangen kann", "kind": "correct" }, { "text": "ein großes Tanzfest, bei dem man in feiner Kleidung tanzt", "kind": "no-context" }, { "text": "ein süßer Saft, den man aus Früchten presst", "kind": "off" } ] },
+          { "id": "maus", "band": 1, "word": "Maus", "sentence": "Die kleine Maus versteckt sich hinter dem Käse.",
+            "choices": [ { "text": "ein Gerät, mit dem man auf dem Bildschirm etwas anklickt", "kind": "no-context" }, { "text": "ein kleines Tier mit Fell und einem langen Schwanz", "kind": "correct" }, { "text": "ein Werkzeug, mit dem man Schrauben eindreht", "kind": "off" } ] },
+          { "id": "bank", "band": 1, "word": "Bank", "sentence": "Im Park setzen wir uns auf die Bank und ruhen aus.",
+            "choices": [ { "text": "ein Ort, an dem man sein Geld einzahlt und aufbewahrt", "kind": "no-context" }, { "text": "ein Tier, das im Wasser lebt und schwimmen kann", "kind": "off" }, { "text": "ein langes Sitzmöbel, auf dem mehrere Leute Platz haben", "kind": "correct" } ] },
+          { "id": "schloss", "band": 2, "word": "Schloss", "sentence": "Der Schlüssel passt genau in das Schloss an der Tür.",
+            "choices": [ { "text": "eine Vorrichtung zum Absperren, die man auf- und zumacht", "kind": "correct" }, { "text": "ein großes, altes Gebäude, in dem früher Könige gewohnt haben", "kind": "no-context" }, { "text": "ein weiches Kissen, auf das man nachts den Kopf legt", "kind": "off" } ] },
+          { "id": "hahn", "band": 2, "word": "Hahn", "sentence": "Aus dem Hahn tropft den ganzen Tag das Wasser.",
+            "choices": [ { "text": "ein männliches Huhn, das am Morgen laut kräht", "kind": "no-context" }, { "text": "ein Teil an der Leitung, das man auf- und zudreht", "kind": "correct" }, { "text": "ein Fahrzeug, das auf Schienen durch das Land fährt", "kind": "off" } ] },
+          { "id": "birne", "band": 2, "word": "Birne", "sentence": "Im Flur ist die Birne kaputt, jetzt bleibt es ganz dunkel.",
+            "choices": [ { "text": "eine süße Frucht, die am Baum wächst und gelb wird", "kind": "no-context" }, { "text": "ein fester Schuh, den man bei Schnee anzieht", "kind": "off" }, { "text": "ein Gegenstand, der hell leuchtet, wenn man ihn einschaltet", "kind": "correct" } ] },
+          { "id": "blatt", "band": 3, "word": "Blatt", "sentence": "Ich schreibe meinen Namen auf ein leeres Blatt.",
+            "choices": [ { "text": "ein dünnes Stück Papier zum Zeichnen oder Beschriften", "kind": "correct" }, { "text": "der grüne Teil einer Pflanze, der am Zweig wächst", "kind": "no-context" }, { "text": "ein lautes Krachen, das man bei einem Gewitter hört", "kind": "off" } ] },
+          { "id": "note", "band": 3, "word": "Note", "sentence": "Für den Test bekam Lena eine sehr gute Note.",
+            "choices": [ { "text": "ein Zeichen, das angibt, welcher Ton gespielt werden soll", "kind": "no-context" }, { "text": "die Bewertung, die zeigt, wie gut eine Leistung in der Schule war", "kind": "correct" }, { "text": "ein kleines Tier mit Flügeln, das nachts unterwegs ist", "kind": "off" } ] },
+          { "id": "kiefer", "band": 3, "word": "Kiefer", "sentence": "Beim Gähnen tut mir der Kiefer richtig weh.",
+            "choices": [ { "text": "ein hoher Nadelbaum, der im Wald wächst", "kind": "no-context" }, { "text": "ein Gefäß aus Metall, in dem man Suppe kocht", "kind": "off" }, { "text": "der Knochen im Gesicht, an dem die Zähne sitzen", "kind": "correct" } ] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "fern-clue-garden" },
-    "page_title": { "en": "Fern's Clue Garden — Find a Word's Meaning from the Sentence (Grade 2)" },
-    "page_intro": { "en": "A free interactive Grade 2 vocabulary game: Fern the fawn reads the words around a tricky word to figure out what it means. Some words have more than one meaning — read the whole sentence, use the context clues, and tap the meaning that fits. Using sentence-level context as a clue to a word's meaning. Common Core L.2.4.a." },
+    "slug": { "en": "fern-clue-garden", "de": "teekesselwoerter-mehrere-bedeutungen-klasse-2" },
+    "page_title": { "en": "Fern's Clue Garden — Find a Word's Meaning from the Sentence (Grade 2)", "de": "Teekesselwörter Klasse 2 – Wörter mit 2 Bedeutungen" },
+    "page_intro": { "en": "A free interactive Grade 2 vocabulary game: Fern the fawn reads the words around a tricky word to figure out what it means. Some words have more than one meaning — read the whole sentence, use the context clues, and tap the meaning that fits. Using sentence-level context as a clue to a word's meaning. Common Core L.2.4.a.", "de": "Teekesselwörter für Klasse 2 spielerisch üben: Lies den Satz und tipp die passende Bedeutung an. Kostenlos & interaktiv – jetzt mit Fern entdecken!" },
     "kid_prompt_template": "context-clues"
   }
 ]

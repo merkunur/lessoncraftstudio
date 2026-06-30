@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "fern-clue-garden.context-clues.l-2-4-a": {
+      "about": [
+        "Im Rätselgarten ist das kleine Rehkitz Fern auf ein Wort gestoßen, das gleich mehrere Dinge bedeuten kann – und es weiß nicht, welche Bedeutung diesmal gemeint ist. Hilf Fern weiter: Lies den ganzen Satz in Ruhe durch. Ein Wort ist darin farbig hervorgehoben. Darunter stehen drei Karten mit drei verschiedenen Bedeutungen. Tippe die Karte an, die zu dem Satz passt. Sagt der Satz „Im Park setzen wir uns auf die Bank und ruhen aus.“, dann ist die Sitzbank gemeint – und nicht die Bank, bei der man Geld abholt.",
+        "Das ist der große Gedanke dahinter: Manche Wörter haben mehr als eine Bedeutung. Man nennt sie „Teekesselwörter“. „Maus“ kann ein kleines Tier sein oder die Maus am Computer. „Schloss“ kann ein großes Gebäude sein oder das Schloss an der Tür. Welche Bedeutung gerade gemeint ist, verrät dir nicht das eine Wort allein – das verraten dir die Wörter drumherum und der ganze Satz. Darum gilt im Rätselgarten: Lies immer den Zusammenhang, nicht nur das eine Wort. Der Satz ist dein bester Hinweis.",
+        "Diese Übung gehört im Lehrplan der Grundschule zum Bereich „Wortschatz untersuchen“: Kinder lernen, dass Wörter mehrere Bedeutungen haben können, und üben, die passende Bedeutung aus dem Satzzusammenhang zu erschließen. Du kannst hier in deinem eigenen Tempo knobeln – es ist kostenlos, ganz ohne Zeitdruck und ohne Punkte. Niemand wird gehetzt, und falsch tippen ist kein Problem: Du darfst es einfach noch einmal versuchen."
+      ],
+      "practices": [
+        "Du erkennst, dass ein Teekesselwort mehrere Bedeutungen haben kann.",
+        "Du liest den ganzen Satz und achtest auf die Wörter, die rund um das Teekesselwort stehen.",
+        "Du wählst aus drei Bedeutungen genau die aus, die zum Satz passt.",
+        "Du übst, Hinweise im Satz zu nutzen, statt nur auf das einzelne Wort zu schauen."
+      ],
+      "howToPlay": [
+        "Lies den Satz vollständig durch und finde das farbig hervorgehobene Teekesselwort.",
+        "Schau dir die drei Bedeutungskarten an und überlege, welche Bedeutung der Satz meint.",
+        "Tippe die passende Karte an – stimmt sie nicht, versuch es in Ruhe noch einmal."
+      ],
+      "learningGoals": [
+        "Ich weiß, dass manche Wörter mehrere Bedeutungen haben („Teekesselwörter“).",
+        "Ich kann aus dem ganzen Satz erschließen, welche Bedeutung hier gemeint ist.",
+        "Ich nutze die Wörter im Satz als Hinweis auf die richtige Bedeutung."
+      ]
+    },
     "booker-glossary-desk.guide-words.l-2-4-e": {
       "about": [
         "Booker, der Bär, sitzt an seinem Nachschlage-Pult und blättert in einem dicken Wörterbuch. Ganz oben auf jeder Seite stehen zwei Leitwörter — das erste und das letzte Wort der Seite. Dein Kind liest diese beiden Leitwörter und tippt dann von drei Wortkarten genau die eine an, die nach dem ABC dazwischengehört. So lernt es Schritt für Schritt, wie man ein Wort im Wörterbuch findet, ohne jede Seite einzeln durchsuchen zu müssen.",

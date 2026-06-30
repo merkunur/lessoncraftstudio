@@ -19,10 +19,11 @@
 
   var Core = global.CountTwinCore;
   var C = { T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', INK: '#2A2A35', GOLD: '#E8A53A' };
+  var LANG = 'en';
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function acornHTML() { return '<svg viewBox="0 0 100 100" class="tw-acorn-svg" aria-hidden="true"><ellipse cx="50" cy="60" rx="30" ry="32" fill="#B5713C"/><path d="M22 40 Q50 16 78 40 Q70 48 50 48 Q30 48 22 40 Z" fill="#7A4A28"/><rect x="47" y="16" width="6" height="10" rx="3" fill="#5C3A22"/><ellipse cx="40" cy="56" rx="7" ry="10" fill="#fff" opacity="0.18"/></svg>'; }
@@ -30,30 +31,33 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M36 46 q5 -5 10 0 M54 46 q5 -5 10 0" stroke="#2A2A35" stroke-width="2.6" fill="none" stroke-linecap="round"/>' : '<circle cx="41" cy="47" r="3.4" fill="#2A2A35"/><circle cx="59" cy="47" r="3.4" fill="#2A2A35"/>';
     var mouth = happy ? '<path d="M42 58 q8 9 16 0" stroke="#2A2A35" stroke-width="2.6" fill="none" stroke-linecap="round"/>' : '<path d="M45 58 q5 4 10 0" stroke="#2A2A35" stroke-width="2.2" fill="none" stroke-linecap="round"/>';
-    return '<svg class="tw-sprite-svg" viewBox="0 0 100 100" role="img" aria-label="Twin-Sprite"><ellipse cx="50" cy="54" rx="30" ry="30" fill="#9ED2C6"/><ellipse cx="30" cy="32" rx="7" ry="10" fill="#9ED2C6"/><ellipse cx="70" cy="32" rx="7" ry="10" fill="#9ED2C6"/>' + eyes + mouth + '</svg>'; }
+    return '<svg class="tw-sprite-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Zwillings-Wicht' : 'Twin-Sprite') + '"><ellipse cx="50" cy="54" rx="30" ry="30" fill="#9ED2C6"/><ellipse cx="30" cy="32" rx="7" ry="10" fill="#9ED2C6"/><ellipse cx="70" cy="32" rx="7" ry="10" fill="#9ED2C6"/>' + eyes + mouth + '</svg>'; }
 
   global.TwinsiesActivity = {
     id: 'twinsies-activity',
     reward: { id: 'friendship-shelf', label: 'Friendship Shelf', emoji: '🫶' },
 
     strings: {
-      title: { en: 'Twinsies' },
-      prompt: { en: 'Make a twin with the same many!' },
-      countHint: { en: 'Tap each one to count the Twin-Sprite\'s pile.' },
-      buildHint: { en: 'Build a twin with the same number.' },
-      numeralHint: { en: 'Count out this many on your plate.' },
-      countOnHint: { en: 'Almost a twin — add one more!' },
-      commit: { en: 'I counted {n} — build the twin! →' },
-      peek: { en: '👀 Peek' },
-      twinsBtn: { en: "We're twins!" },
-      win: { en: 'Twins! Same many!' },
-      notyet: { en: 'Not twins yet — let\'s count again.' },
-      hintCheck: { en: 'Make a matching twin, then tap We\'re twins!' }
+      title: { en: 'Twinsies', de: 'Zwillinge — gleich viele!' },
+      prompt: { en: 'Make a twin with the same many!', de: 'Bau einen Zwilling mit gleich vielen!' },
+      countHint: { en: 'Tap each one to count the Twin-Sprite\'s pile.', de: 'Tippe jede Eichel an und zähle den Haufen vom Zwillings-Wicht.' },
+      buildHint: { en: 'Build a twin with the same number.', de: 'Bau einen Zwilling mit gleich vielen.' },
+      numeralHint: { en: 'Count out this many on your plate.', de: 'Zähle so viele auf deinen Teller.' },
+      countOnHint: { en: 'Almost a twin — add one more!', de: 'Fast ein Zwilling — leg noch eine dazu!' },
+      commit: { en: 'I counted {n} — build the twin! →', de: 'Ich habe {n} gezählt — bau den Zwilling! →' },
+      peek: { en: '👀 Peek', de: '👀 Gucken' },
+      twinsBtn: { en: "We're twins!", de: 'Wir sind Zwillinge!' },
+      win: { en: 'Twins! Same many!', de: 'Zwillinge! Gleich viele!' },
+      notyet: { en: 'Not twins yet — let\'s count again.', de: 'Noch keine Zwillinge — zählen wir noch mal.' },
+      hintCheck: { en: 'Make a matching twin, then tap We\'re twins!', de: 'Bau einen passenden Zwilling und tippe dann auf „Wir sind Zwillinge!“' },
+      readCounted: { en: 'Counted', de: 'Gezählt' },
+      readTwin: { en: 'Twin', de: 'Zwilling' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.stage = 'count'; this.caught = {}; this.committed = false; this.placed = 0; this.solved = false;
       this.peekOpen = false; this.declareFail = false; this.solvedCount = 0;
@@ -188,7 +192,7 @@
 
     _readout: function (val, kind) {
       var api = this.api, row = api.el('div', 'tw-readout');
-      var lab = api.el('span', 'tw-readout-lab'); lab.textContent = kind === 'caught' ? 'Counted' : 'Twin';
+      var lab = api.el('span', 'tw-readout-lab'); lab.textContent = api.t(kind === 'caught' ? 'readCounted' : 'readTwin');
       var num = api.el('span', 'tw-readout-num'); num.textContent = val; num.setAttribute('aria-live', 'polite');
       row.appendChild(lab); row.appendChild(num); return row;
     },
@@ -199,7 +203,7 @@
       if (res.twins) {
         this.solved = true; this.stage = 'done'; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 7);
         this.api.sound && this.api.sound(900); this.render();
-        var n = this._n(); api.announce && api.announce(api.t('win')); speak(n + ' and ' + n + ' — twins!');
+        var n = this._n(); api.announce && api.announce(api.t('win')); speak(n + (LANG === 'de' ? ' und ' : ' and ') + n + (LANG === 'de' ? ' — Zwillinge!' : ' — twins!'));
       } else {
         this.declareFail = true; this.api.sound && this.api.sound(330); this.render();
         api.announce && api.announce(api.t('notyet'));    // undirected — NO count, NO direction
@@ -209,7 +213,7 @@
     _renderDone: function (root) {
       var api = this.api;
       var thread = api.el('div', 'tw-thread'); thread.innerHTML = '<span class="tw-pair">' + acornHTML() + '</span><span class="tw-link"></span><span class="tw-pair">' + acornHTML() + '</span>'; root.appendChild(thread);
-      var eq = api.el('div', 'tw-eq'); eq.textContent = this._n() + ' & ' + this._n() + ' — twins!'; root.appendChild(eq);
+      var eq = api.el('div', 'tw-eq'); eq.textContent = this._n() + ' & ' + this._n() + (LANG === 'de' ? ' — Zwillinge!' : ' — twins!'); root.appendChild(eq);
       var shelf = api.el('div', 'tw-shelf');
       for (var i = 0; i < ((this._pool && this._pool.length) || 7); i++) { var s = api.el('span', 'tw-pairdot' + (i < this.solvedCount ? ' tw-pairdot-on' : '')); s.textContent = '🫶'; shelf.appendChild(s); }
       root.appendChild(shelf);

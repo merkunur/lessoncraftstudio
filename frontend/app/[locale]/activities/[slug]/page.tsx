@@ -58,6 +58,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'nesting-pots.seriate.k-cc-c-7': { de: '1' },                           // K seriate/order numbers → Klasse 1; en stays Kindergarten (K-cluster pattern)
   'clunks-lost-lunch.make-total.k-oa-a-3': { de: '1' },                   // K make-a-total-many-ways (Zahlen zusammensetzen) → Klasse 1; en stays Kindergarten (chuffer precedent)
   'posy-egg-cartons.count-tens.k-cc-a-1': { de: '2' },                    // K count-by-tens but CONTENT bis 100 → Klasse 2 (ZR bis 100 = Klasse 2; content drives the grade, the pond-juice/bundle-bot precedent); en stays Kindergarten
+  'twinsies.count-twin.k-cc-b-5': { de: '1' },                            // K count + make a gleich-große Menge (Anzahlinvarianz, ZR bis 12) → Klasse 1; en stays Kindergarten (K-cluster pattern)
 };
 function effGrade(row: ActivityRow, locale: string): string {
   return (locale !== 'en' && GRADE_OVERRIDE[row.id] && GRADE_OVERRIDE[row.id][locale]) || row.alignment.grade;
@@ -369,7 +370,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.71';
+  const ACTIVITY_WRAPPER_VERSION = '9.72';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

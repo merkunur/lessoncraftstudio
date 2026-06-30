@@ -13,15 +13,16 @@
 
   var Core = global.IdiomMeaningCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A' };
+  var LANG = 'en';
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function gooseSVG() {
-    return '<svg class="gfs-goose-svg" viewBox="0 0 100 100" role="img" aria-label="Gabby the goose">' +
+    return '<svg class="gfs-goose-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Gabby die Gans' : 'Gabby the goose') + '">' +
       '<ellipse cx="46" cy="64" rx="22" ry="18" fill="#FFFDF6"/>' +                /* body */
       '<path d="M62 60 q18 -2 14 -22 q-2 -16 -14 -10 q6 8 0 18 q-3 8 0 14 Z" fill="#FFFDF6"/>' + /* long neck */
       '<circle cx="70" cy="32" r="9" fill="#FFFDF6"/>' +                            /* head */
@@ -35,18 +36,18 @@
     id: 'gabby-sayings-activity',
 
     strings: {
-      title: { en: "Gabby's Funny Sayings" },
-      prompt: { en: 'What does the saying really mean?' },
-      gabbyIntro: { en: 'Sayings are tricky — what does this one REALLY mean?' },
-      theAsk: { en: 'Tap the real meaning.' },
-      hintPick: { en: 'It does not mean the words exactly — tap the real meaning!' },
-      hintWrong: { en: "That is what the words say, but not what it means — think again." },
-      win: { en: 'Yes! That is what it really means. 🪿' }
+      title: { en: "Gabby's Funny Sayings", de: 'Gabbys Redewendungen' },
+      prompt: { en: 'What does the saying really mean?', de: 'Was bedeutet die Redewendung wirklich?' },
+      gabbyIntro: { en: 'Sayings are tricky — what does this one REALLY mean?', de: 'Schnatter! Manche Sätze meinen etwas ganz anderes, als sie sagen.' },
+      theAsk: { en: 'Tap the real meaning.', de: 'Tippe die echte Bedeutung an.' },
+      hintPick: { en: 'It does not mean the words exactly — tap the real meaning!', de: 'Es meint nicht genau die Wörter – tippe die echte Bedeutung an!' },
+      hintWrong: { en: "That is what the words say, but not what it means — think again.", de: 'Das sagen die Wörter, aber so ist es nicht gemeint – denk noch mal nach.' },
+      win: { en: 'Yes! That is what it really means. 🪿', de: 'Ja! Genau das bedeutet es wirklich. 🪿' }
     },
     defaults: {},
 
     init: function (api) {
-      this.api = api;
+      this.api = api; LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -72,7 +73,7 @@
 
       var sent = api.el('div', 'gfs-sent');
       var txt = api.el('span', 'gfs-senttxt'); txt.textContent = v.sentence; sent.appendChild(txt);
-      var sp = api.el('button', 'gfs-spk'); sp.type = 'button'; sp.setAttribute('aria-label', 'hear the saying'); sp.textContent = '🔊';
+      var sp = api.el('button', 'gfs-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'die Redewendung anhören' : 'hear the saying'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(v.sentence); }); sent.appendChild(sp);
       root.appendChild(sent);
 
@@ -110,7 +111,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/gabby-sayings-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[gabby-sayings] manifest load failed:', e.message); });
     },
 

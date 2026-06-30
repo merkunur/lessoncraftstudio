@@ -22,12 +22,32 @@
           "choices": [ { "text": "She told the secret.", "kind": "correct" }, { "text": "She let a cat climb out of a bag.", "kind": "literal" }, { "text": "She lost her school bag.", "kind": "off" } ] },
         { "id": "couch", "band": 3, "idiom": "a couch potato", "sentence": "On rainy days, my brother is a couch potato.",
           "choices": [ { "text": "He is a potato sitting on the couch.", "kind": "literal" }, { "text": "He is lazy and watches a lot of TV.", "kind": "correct" }, { "text": "He cooks potatoes all day long.", "kind": "off" } ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "daumen", "band": 1, "idiom": "die Daumen drücken", "sentence": "Morgen schreibe ich einen Test. Drückst du mir die Daumen?",
+            "choices": [ { "text": "Man wünscht jemandem viel Glück.", "kind": "correct" }, { "text": "Man drückt fest auf seine Daumen.", "kind": "literal" }, { "text": "Man muss ganz leise sein.", "kind": "off" } ] },
+          { "id": "schwein", "band": 1, "idiom": "Schwein haben", "sentence": "Der Ball flog knapp am Fenster vorbei – da hast du Schwein gehabt!",
+            "choices": [ { "text": "Man besitzt ein echtes Schwein.", "kind": "literal" }, { "text": "Man hat großes Glück gehabt.", "kind": "correct" }, { "text": "Man hat sich sehr geärgert.", "kind": "off" } ] },
+          { "id": "nase-voll", "band": 1, "idiom": "die Nase voll haben", "sentence": "Ich habe die Nase voll vom Aufräumen!",
+            "choices": [ { "text": "Die Nase ist voll Schnupfen.", "kind": "literal" }, { "text": "Man freut sich sehr darauf.", "kind": "off" }, { "text": "Man hat keine Lust mehr darauf.", "kind": "correct" } ] },
+          { "id": "tomaten", "band": 2, "idiom": "Tomaten auf den Augen haben", "sentence": "Die Schlüssel lagen direkt vor dir! Hast du Tomaten auf den Augen?",
+            "choices": [ { "text": "Man übersieht etwas ganz Offensichtliches.", "kind": "correct" }, { "text": "Auf den Augen liegen rote Tomaten.", "kind": "literal" }, { "text": "Man hat geweint und rote Augen.", "kind": "off" } ] },
+          { "id": "katze-sack", "band": 2, "idiom": "die Katze aus dem Sack lassen", "sentence": "Lange war es geheim, doch dann ließ Tom die Katze aus dem Sack.",
+            "choices": [ { "text": "Man lässt eine Katze aus dem Sack.", "kind": "literal" }, { "text": "Man verrät endlich ein Geheimnis.", "kind": "correct" }, { "text": "Man rennt schnell nach Hause.", "kind": "off" } ] },
+          { "id": "ohren-spitzen", "band": 2, "idiom": "die Ohren spitzen", "sentence": "Als die Lehrerin „Ausflug“ sagte, spitzten alle Kinder die Ohren.",
+            "choices": [ { "text": "Man macht seine Ohren spitz.", "kind": "literal" }, { "text": "Man hält sich die Ohren zu.", "kind": "off" }, { "text": "Man hört ganz aufmerksam zu.", "kind": "correct" } ] },
+          { "id": "muecke-elefant", "band": 3, "idiom": "aus einer Mücke einen Elefanten machen", "sentence": "Es war nur ein kleiner Kratzer – mach aus einer Mücke keinen Elefanten!",
+            "choices": [ { "text": "Man macht aus etwas Kleinem etwas Großes.", "kind": "correct" }, { "text": "Aus einer Mücke wird ein Elefant.", "kind": "literal" }, { "text": "Man vergisst eine Sache ganz schnell wieder.", "kind": "off" } ] },
+          { "id": "baer-aufbinden", "band": 3, "idiom": "jemandem einen Bären aufbinden", "sentence": "Du warst gar nicht beim Zirkus – du willst mir einen Bären aufbinden!",
+            "choices": [ { "text": "Man bindet jemandem einen Bären fest.", "kind": "literal" }, { "text": "Man erzählt jemandem etwas Erfundenes.", "kind": "correct" }, { "text": "Man hilft jemandem beim Tragen.", "kind": "off" } ] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "gabby-sayings" },
-    "page_title": { "en": "Gabby's Funny Sayings — What Does It Really Mean? (Grade 3)" },
-    "page_intro": { "en": "Gabby the goose loves funny sayings! When we say \"it's raining cats and dogs,\" no animals are really falling — it just means it is raining hard. Read the saying, then tap what it REALLY means, not what the words literally say. A Grade 3 vocabulary game about figurative language, aligned to Common Core L.3.5.a." },
+    "slug": { "en": "gabby-sayings", "de": "redewendungen-verstehen-uebertragene-bedeutung-klasse-3" },
+    "page_title": { "en": "Gabby's Funny Sayings — What Does It Really Mean? (Grade 3)", "de": "Redewendungen Klasse 3: übertragene Bedeutung üben" },
+    "page_intro": { "en": "Gabby the goose loves funny sayings! When we say \"it's raining cats and dogs,\" no animals are really falling — it just means it is raining hard. Read the saying, then tap what it REALLY means, not what the words literally say. A Grade 3 vocabulary game about figurative language, aligned to Common Core L.3.5.a.", "de": "Redewendungen verstehen: Was bedeutet „Daumen drücken“ wirklich? Tippe die übertragene Bedeutung an statt der wörtlichen Falle. Kostenlos, interaktiv, für Klasse 3 – jetzt mitraten!" },
     "kid_prompt_template": "What does the saying really mean?"
   }
 ]

@@ -27,9 +27,18 @@
       nInform: 'This note tells TRUE FACTS about real things — send it to "To tell facts".',
       nEntertain: 'This note is a FUN STORY with a silly surprise — send it to "To tell a fun story".',
       nInstruct: 'This note shows you HOW — look for "first… next… then" steps.'
+    },
+    de: {
+      q: 'Warum hat der Autor diese Notiz geschrieben?',
+      win: 'Ja! {note}', winNote: 'Du hast die Absicht des Autors gefunden!',
+      hear: '🔊 Hör zu',
+      nInform: 'Diese Notiz nennt echte Fakten – sie will informieren.',
+      nEntertain: 'Diese Notiz erzählt eine lustige Geschichte – sie will unterhalten.',
+      nInstruct: 'Diese Notiz zeigt Schritt für Schritt, wie es geht – sie will anleiten.'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  var LANG = 'en';
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   function marlowSVG() {
@@ -48,13 +57,14 @@
   var AuthorPurposeActivity = {
     id: 'author-purpose-activity',
     strings: {
-      title: { en: 'The Harbor Post' },
-      instruction: { en: 'Read the note, then send it to the bin that tells WHY the author wrote it!' },
+      title: { en: 'The Harbor Post', de: 'Marlows Hafenpost' },
+      instruction: { en: 'Read the note, then send it to the bin that tells WHY the author wrote it!', de: 'Lies die Notiz und tippe an, warum der Autor sie geschrieben hat.' },
       q: { en: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._binLabels = {}; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._lit = null; this._binOrder = null;
@@ -99,8 +109,8 @@
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
             self._activityRow = row;
-            self._pool = (row && row.params && row.params.rounds) || [];
-            self._binLabels = (row && row.params && row.params.binLabels) || {};
+            self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
+            self._binLabels = (row && row.params && ((row.params.binLabelsL10n && row.params.binLabelsL10n[LANG]) || row.params.binLabels)) || {};
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -147,7 +157,7 @@
       /* Hear it */
       var self = this, hear = el('button', 'ap-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: round.note.text, lang: 'en', rate: 0.92 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: round.note.text, lang: LANG, rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
 
@@ -203,7 +213,9 @@
     _srMirror: function (round) {
       var self = this, wrap = el('div', 'ap-sronly'); wrap.setAttribute('aria-live', 'polite');
       var bins = Core.PURPOSES.map(function (p) { return self._binLabels[p] || p; }).join(', ');
-      wrap.innerHTML = '<p>Note: ' + round.note.text + ' ' + txt('q') + ' Bins: ' + bins + '.</p>';
+      wrap.innerHTML = LANG === 'de'
+        ? '<p>Notiz: ' + round.note.text + ' ' + txt('q') + ' Zur Auswahl: ' + bins + '.</p>'
+        : '<p>Note: ' + round.note.text + ' ' + txt('q') + ' Bins: ' + bins + '.</p>';
       return wrap;
     },
 

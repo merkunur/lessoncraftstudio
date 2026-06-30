@@ -11,6 +11,28 @@
         "entertain": "To tell a fun story",
         "instruct": "To show how to do it"
       },
+      "binLabelsL10n": {
+        "de": {
+          "inform": "Es nennt Fakten",
+          "entertain": "Es erzählt eine Geschichte",
+          "instruct": "Es zeigt, wie es geht"
+        }
+      },
+      "roundsL10n": {
+        "de": [
+          { "id": "ap-i1", "note": { "purpose": "inform",    "text": "Eulen schlafen am Tag und jagen in der Nacht. Ihre weichen Federn helfen ihnen, ganz leise zu fliegen." } },
+          { "id": "ap-i2", "note": { "purpose": "inform",    "text": "Bienen sammeln süßen Nektar aus den Blüten. Aus dem Nektar machen sie später im Stock den Honig." } },
+          { "id": "ap-i3", "note": { "purpose": "inform",    "text": "Die Sonne ist ein riesiger, heißer Stern. Sie gibt uns jeden Tag Licht und Wärme." } },
+
+          { "id": "ap-e1", "note": { "purpose": "entertain", "text": "Pip der Hund jagte seinen Schwanz im Kreis herum. Er drehte sich so schnell, dass er kichernd in die Blätter plumpste!" } },
+          { "id": "ap-e2", "note": { "purpose": "entertain", "text": "Der kleine Frosch wollte bis zum Mond hüpfen. Er sprang so hoch, dass er auf einer weichen Wolke landete!" } },
+          { "id": "ap-e3", "note": { "purpose": "entertain", "text": "Mira die Katze kletterte in den großen Wäschekorb. Als die Socken flogen, kullerte sie lachend wieder heraus!" } },
+
+          { "id": "ap-s1", "note": { "purpose": "instruct",  "text": "So faltest du ein Papierboot: Zuerst faltest du das Papier in der Mitte. Dann klappst du die Ecken nach unten. Zuletzt formst du das Boot." } },
+          { "id": "ap-s2", "note": { "purpose": "instruct",  "text": "So pflanzt du eine Bohne ein: Zuerst füllst du Erde in den Topf. Dann legst du die Bohne hinein. Zuletzt gießt du sie mit Wasser." } },
+          { "id": "ap-s3", "note": { "purpose": "instruct",  "text": "So wäschst du deine Hände: Zuerst machst du sie mit Wasser nass. Dann reibst du sie mit Seife ein. Zuletzt spülst du alles wieder ab." } }
+        ]
+      },
       "rounds": [
         { "id": "ap-i1", "note": { "purpose": "inform",    "text": "Owls sleep in the daytime and hunt at night. Their soft feathers help them fly without making a sound." } },
         { "id": "ap-i2", "note": { "purpose": "inform",    "text": "The sun is a giant ball of hot, glowing gas. It gives our planet light and warmth every day." } },
@@ -26,13 +48,16 @@
       ]
     },
     "slug": {
-      "en": "authors-purpose-inform-entertain-instruct"
+      "en": "authors-purpose-inform-entertain-instruct",
+      "de": "textabsicht-informieren-unterhalten-anleiten-klasse-3"
     },
     "page_title": {
-      "en": "The Harbor Post — Author's Purpose: Inform, Entertain & Instruct (Grade 2)"
+      "en": "The Harbor Post — Author's Purpose: Inform, Entertain & Instruct (Grade 2)",
+      "de": "Warum schreibt der Autor? Textabsicht – Klasse 3"
     },
     "page_intro": {
-      "en": "A free interactive Grade 2 reading activity: help Marlow the pelican sort harbor notes by why the author wrote them. Read each short note, then send it to the right bin — to tell facts, to tell a fun story, or to show you how to do something. A friendly first look at the author's purpose. Common Core RI.2.6."
+      "en": "A free interactive Grade 2 reading activity: help Marlow the pelican sort harbor notes by why the author wrote them. Read each short note, then send it to the right bin — to tell facts, to tell a fun story, or to show you how to do something. A friendly first look at the author's purpose. Common Core RI.2.6.",
+      "de": "Warum schreibt der Autor? Dein Kind erkennt die Textabsicht – informieren, unterhalten oder anleiten – und sortiert die Post. Kostenlos und interaktiv für Klasse 3."
     },
     "kid_prompt_template": "author-purpose"
   }

@@ -1618,6 +1618,29 @@
         "Ich kann Zahlen vergleichen und sagen, welche größer und welche kleiner ist."
       ]
     },
+    "clunks-lost-lunch.make-total.k-oa-a-3": {
+      "about": [
+        "Der kleine Snack-Roboter Clunk hat ein verbeultes Bäuchlein und einen riesigen Hunger – aber nur auf eine ganz bestimmte Menge: Heute möchte er genau so viele Knusper, wie auf seiner Anzeige steht. An der Wand hängen viele Snacks mit Zahlen darauf. Du tippst Snacks in die Lunchbox und setzt so eine Zahl Stück für Stück zusammen, bis sie genau passt. Dann darf Clunk futtern.",
+        "Dahinter steckt eine große mathematische Idee aus dem Lehrplan der Grundschule (Leitidee „Zahlen und Operationen“): Eine Zahl lässt sich auf viele verschiedene Arten zusammensetzen. 11 kann 5 und 6 sein – oder 4 und 3 und 4 – oder 9 und 2. Mal suchst du einen ganz neuen Weg, mal ergänzt du, wie viel Clunk noch fehlt, mal darfst du nur zwei Snacks nehmen, und wenn die Dose zu voll ist, legst du wieder etwas zurück. Wichtig ist: Die Dose zeigt dir nie die Summe – du rechnest selbst im Kopf zusammen und prüfst beim Füttern, ob es gestimmt hat.",
+        "Es gibt keine Uhr, keine Punkte und kein Richtig-oder-falsch-Drängeln. Du probierst in deinem Tempo, findest immer mehr Wege und merkst nebenbei, wie geschickt sich Zahlen aus kleineren Zahlen bauen lassen. Geht etwas daneben, ist das völlig in Ordnung – Clunk wartet geduldig und freut sich auf den nächsten Versuch."
+      ],
+      "practices": [
+        "Eine Zielzahl aus mehreren Snacks selbst zusammenrechnen – ganz im Kopf, ohne abzulesen",
+        "Verschiedene Wege zur selben Zahl entdecken und vergleichen",
+        "Ergänzen üben: „Wie viel fehlt noch bis zur Zielzahl?“",
+        "Mengen anpassen – dazugeben oder wieder wegnehmen, bis es genau passt"
+      ],
+      "howToPlay": [
+        "Schau, wie viele Knusper Clunk haben möchte.",
+        "Tippe Snacks von der Wand in die Lunchbox und setze die Zahl im Kopf zusammen.",
+        "Wenn du glaubst, es passt genau, füttere Clunk – stimmt es, ist er rundum satt und zufrieden."
+      ],
+      "learningGoals": [
+        "Das Kind setzt Zahlen bis in den Zahlenraum 20 auf verschiedene Arten zusammen.",
+        "Das Kind ergänzt zu einer Zielzahl und findet die fehlende Menge.",
+        "Das Kind rechnet kleine Summen sicher im Kopf, ohne Zwischenergebnis abzulesen."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

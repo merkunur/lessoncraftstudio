@@ -39,7 +39,36 @@
       win: 'Lovely! Area: {area}.',
       gapLeft: 'A little ground still needs a patch.',
       overLeft: "That bit's already covered — lift the extra.",
-      nudgeArea: 'Those corners are empty — count only the moss.'
+      nudgeArea: 'Those corners are empty — count only the moss.',
+      ariaBed: 'flower bed',
+      ariaEmptyBed: 'an empty flower bed to measure',
+      cellCovered: 'row {r}, column {c}, covered',
+      cellNot: 'row {r}, column {c}, not covered',
+      cellDouble: 'row {r}, column {c}, double patch, tap to lift one',
+      choiceUnits: '{value} square units',
+      srEstimate: 'Predict how many unit squares cover this bed.',
+      srResolved: 'The whole bed is covered — area {area}.',
+      srProgress: 'Bed covered: {covered} of {total} square units.'
+    },
+    de: {
+      tile: 'Bedecke das ganze Beet mit Moos-Kästchen.',
+      repair: 'Bessere das Beet aus – keine kahlen Stellen, keine doppelten Kästchen.',
+      estimate: 'Wie viele Kästchen bedecken dieses Beet?',
+      finish: 'Belege das Beet fertig.',
+      build: 'Baue ein Beet aus genau {n} Kästchen.',
+      win: 'Schön! Fläche: {area}.',
+      gapLeft: 'Ein Stück Boden braucht noch ein Kästchen.',
+      overLeft: 'Diese Stelle ist schon bedeckt – heb das zusätzliche Kästchen ab.',
+      nudgeArea: 'Diese Ecken sind leer – zähle nur das Moos.',
+      ariaBed: 'Blumenbeet',
+      ariaEmptyBed: 'ein leeres Blumenbeet zum Ausmessen',
+      cellCovered: 'Reihe {r}, Spalte {c}, bedeckt',
+      cellNot: 'Reihe {r}, Spalte {c}, nicht bedeckt',
+      cellDouble: 'Reihe {r}, Spalte {c}, doppelt belegt, tippe, um ein Kästchen abzuheben',
+      choiceUnits: '{value} Kästchen',
+      srEstimate: 'Schätze, wie viele Kästchen dieses Beet bedecken.',
+      srResolved: 'Das ganze Beet ist bedeckt – Fläche {area}.',
+      srProgress: 'Beet bedeckt: {covered} von {total} Kästchen.'
     }
   };
   function txt(k, args) {
@@ -47,8 +76,12 @@
     var s = (L[lang] || L.en)[k] || L.en[k] || k;
     return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (args && key in args) ? args[key] : m; });
   }
-  /* per-locale inflected unit phrase (F-9 / §A.13.56). EN pilot. */
-  function areaUnitPhrase(n) { return n === 1 ? '1 square unit' : n + ' square units'; }
+  /* per-locale inflected unit phrase (F-9 / §A.13.56). de: „Kästchen" is invariant sg=pl. */
+  function areaUnitPhrase(n) {
+    var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en';
+    if (lang === 'de') return n + ' Kästchen';
+    return n === 1 ? '1 square unit' : n + ' square units';
+  }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 
@@ -86,13 +119,13 @@
   var PatchworkMeadowActivity = {
     id: 'patchwork-meadow-activity',
     strings: {
-      title: { en: "Sprout's Patchwork Meadow" },
-      instruction: { en: 'Cover Sprout’s flower beds with moss-patch squares — the area is how many squares cover the space!' },
-      qtile: { en: 'Cover the whole bed with moss patches.' },
-      qrepair: { en: 'Fix the bed — no bare spots, no double patches.' },
-      qestimate: { en: 'How many square units will cover this bed?' },
-      qfinish: { en: 'Finish covering the bed.' },
-      qbuild: { en: 'Build a bed of exactly {n} square units for {n} carrots.' }
+      title: { en: "Sprout's Patchwork Meadow", de: 'Sprouts Flickenwiese' },
+      instruction: { en: 'Cover Sprout’s flower beds with moss-patch squares — the area is how many squares cover the space!', de: 'Belege Sprouts Beete mit Moos-Kästchen – die Fläche ist die Anzahl der Kästchen, die den Platz bedecken!' },
+      qtile: { en: 'Cover the whole bed with moss patches.', de: 'Bedecke das ganze Beet mit Moos-Kästchen.' },
+      qrepair: { en: 'Fix the bed — no bare spots, no double patches.', de: 'Bessere das Beet aus – keine kahlen Stellen, keine doppelten Kästchen.' },
+      qestimate: { en: 'How many square units will cover this bed?', de: 'Wie viele Kästchen bedecken dieses Beet?' },
+      qfinish: { en: 'Finish covering the bed.', de: 'Belege das Beet fertig.' },
+      qbuild: { en: 'Build a bed of exactly {n} square units for {n} carrots.', de: 'Baue ein Beet aus genau {n} Kästchen für {n} Karotten.' }
     },
 
     init: function (api) {
@@ -228,7 +261,7 @@
       var b = Core.bbox(round), rows = (round.region || round.frame), region = Core.regionSet(round);
       var grid = el('div', 'pm-grid' + (this._resolved ? ' bloomed' : ''));
       grid.style.gridTemplateColumns = 'repeat(' + b.cols + ',var(--pm-cell))';
-      grid.setAttribute('role', 'grid'); grid.setAttribute('aria-label', 'flower bed');
+      grid.setAttribute('role', 'grid'); grid.setAttribute('aria-label', txt('ariaBed'));
       for (var r = 0; r < b.rows; r++) {
         for (var c = 0; c < b.cols; c++) {
           var key = c + ',' + r;
@@ -242,7 +275,7 @@
           }
           var cell = el('button', 'pm-cand' + (count === 1 ? ' patch' : count >= 2 ? ' over' : ''));
           cell.type = 'button'; cell.setAttribute('role', 'gridcell');
-          cell.setAttribute('aria-label', 'row ' + (r + 1) + ', column ' + (c + 1) + ', ' + (count >= 2 ? 'double patch, tap to lift one' : count === 1 ? 'covered' : 'not covered'));
+          cell.setAttribute('aria-label', txt(count >= 2 ? 'cellDouble' : count === 1 ? 'cellCovered' : 'cellNot', { r: r + 1, c: c + 1 }));
           if (count >= 2) { var x2 = el('span', 'pm-x2'); x2.textContent = '×2'; cell.appendChild(x2); }
           (function (k, tok) {
             cell.addEventListener('click', function () { if (self._token === tok) self._tapCell(k); });
@@ -268,7 +301,7 @@
       var b = Core.bbox(round), region = Core.regionSet(round);
       var grid = el('div', 'pm-grid');
       grid.style.gridTemplateColumns = 'repeat(' + b.cols + ',var(--pm-cell))';
-      grid.setAttribute('role', 'img'); grid.setAttribute('aria-label', 'an empty flower bed to measure');
+      grid.setAttribute('role', 'img'); grid.setAttribute('aria-label', txt('ariaEmptyBed'));
       for (var r = 0; r < b.rows; r++) for (var c = 0; c < b.cols; c++) {
         if (region[c + ',' + r]) { var e = el('div', 'pm-cell'); e.style.cursor = 'default'; grid.appendChild(e); }
         else grid.appendChild(el('span', 'pm-gap'));
@@ -279,7 +312,7 @@
       this._displayOrder.forEach(function (oi) {
         var c = round.choices[oi];
         var btn = el('button', 'pm-choice' + (self._nonConf[oi] ? ' dim' : ''));
-        btn.type = 'button'; btn.textContent = String(c.value); btn.setAttribute('aria-label', c.value + ' square units');
+        btn.type = 'button'; btn.textContent = String(c.value); btn.setAttribute('aria-label', txt('choiceUnits', { value: c.value }));
         btn.addEventListener('click', function () {
           if (self._resolved || self._nonConf[oi] || self._token !== tok) return;
           if (Core.isChoiceAnswer(round, oi)) self._resolve();
@@ -311,9 +344,9 @@
       var round = this._round, wrap = el('div', 'pm-sronly'); wrap.setAttribute('aria-live', 'polite');
       var covered = Core.coverageSize(this._pl), total = round.cog === 'build' ? round.target : Core.regionArea(round);
       var msg = round.cog === 'estimate'
-        ? 'Predict how many unit squares cover this bed.'
-        : (this._resolved ? ('The whole bed is covered — area ' + areaUnitPhrase(total) + '.')
-          : ('Bed covered: ' + covered + ' of ' + total + ' square units.'));
+        ? txt('srEstimate')
+        : (this._resolved ? txt('srResolved', { area: areaUnitPhrase(total) })
+          : txt('srProgress', { covered: covered, total: total }));
       wrap.innerHTML = '<p>' + esc(msg) + '</p>';
       return wrap;
     },

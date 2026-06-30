@@ -25,13 +25,16 @@
       ]
     },
     "slug": {
-      "en": "sprouts-patchwork-meadow-area"
+      "en": "sprouts-patchwork-meadow-area",
+      "de": "flaeche-auslegen-einheitsquadrate-klasse-3"
     },
     "page_title": {
-      "en": "Sprout's Patchwork Meadow — Measure Area by Covering with Unit Squares (Grade 3)"
+      "en": "Sprout's Patchwork Meadow — Measure Area by Covering with Unit Squares (Grade 3)",
+      "de": "Flächeninhalt durch Auslegen – Klasse 3 | mit Sprout"
     },
     "page_intro": {
-      "en": "A free interactive Grade 3 math activity: help Sprout the gardener carpet irregular flower beds completely with moss-patch unit squares — no gaps, no overlaps — and the area is the count of squares it takes to cover the space. The beds are L-shapes and staircases, so there is no length to multiply by a width: children measure area the real way, by covering the space with unit squares and counting them. Cover from empty, fix a covering with a gap and an overlap, predict an area, finish a partial bed, and build a bed of an exact size. Common Core 3.MD.C.6 (also 3.MD.C.5)."
+      "en": "A free interactive Grade 3 math activity: help Sprout the gardener carpet irregular flower beds completely with moss-patch unit squares — no gaps, no overlaps — and the area is the count of squares it takes to cover the space. The beds are L-shapes and staircases, so there is no length to multiply by a width: children measure area the real way, by covering the space with unit squares and counting them. Cover from empty, fix a covering with a gap and an overlap, predict an area, finish a partial bed, and build a bed of an exact size. Common Core 3.MD.C.6 (also 3.MD.C.5).",
+      "de": "Miss den Flächeninhalt, indem du Blumenbeete mit Einheitsquadraten auslegst – kostenlos & interaktiv für Klasse 3. Hilf dem Hasen Sprout beim Auslegen!"
     },
     "kid_prompt_template": "area-cover"
   }

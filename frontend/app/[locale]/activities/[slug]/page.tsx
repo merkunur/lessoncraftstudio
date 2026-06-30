@@ -21,6 +21,7 @@ const GRADE_KEY_MAP: Record<string, string> = {
    grade here. EN + any locale/activity without an entry are unaffected. Sits beside the
    route's other localization maps (EDUCATIONAL_FRAMEWORK_BY_LOCALE, strand-names). */
 const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
+  'inky-book-workshop.author-illustrator.rl-k-6': { de: '1' },            // Buchrollen Autor/Illustrator (Klasse-1 Buch-/Medienkunde) → DE Klasse 1 (en Kindergarten); K-cluster K-label
   'field-guide.text-features.1-ri-5': { de: '2' },                        // USE text features (Inhaltsverzeichnis/Glossar nutzen) presupposes automatized reading → DE Klasse 2 (en Grade 1; also_teaches 2.RI.5)
   'picture-story.read.rl-k-1': { de: '1' },                               // story key-detail comprehension w/ read-aloud support → DE Klasse 1 (en Kindergarten); K-cluster K-label
   'atlas-fact-files.key-detail.ri-k-1': { de: '1' },                      // Sachtext-Leseverständnis (late-Klasse-1 Erstleser) → DE Klasse 1 (en Kindergarten); K-cluster K-label
@@ -81,6 +82,7 @@ function effGrade(row: ActivityRow, locale: string): string {
    activities fall through to localizeStrand unchanged. Display-only (chip + JSON-LD
    teaches/targetDescription); related-activity matching keeps the raw alignment.strand. */
 const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
+  'inky-book-workshop.author-illustrator.rl-k-6': { de: 'Lesen – mit Texten und Medien umgehen' }, // who MAKES a book (Autor/Illustrator) = Buch-/Medienkunde, NOT literary comprehension → overrides the „Reading: Literature"→„Literarische Texte verstehen" auto-map (field-guide/bea/author-purpose precedent)
   'jasper-just-right.real-life.l-1-5-c': { de: 'Wortschatz untersuchen' }, // real-life word use = vocabulary, not the grammar Bereich (fern/olive precedent)
   'fern-clue-garden.context-clues.l-2-4-a': { de: 'Wortschatz untersuchen' }, // Teekesselwörter/Wortbedeutung = vocabulary, not the grammar Bereich (affix/olive/roary/ziggy precedent)
   'booker-glossary-desk.guide-words.l-2-4-e': { de: 'Richtig schreiben' }, // Wörterbuch nachschlagen = Rechtschreib-Arbeitstechnik, not Sprache untersuchen (cleo/wally precedent)
@@ -388,7 +390,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.88';
+  const ACTIVITY_WRAPPER_VERSION = '9.89';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

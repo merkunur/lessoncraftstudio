@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "inky-book-workshop.author-illustrator.rl-k-6": {
+      "about": [
+        "Tauch ein in „Inkys Buchwerkstatt“: Inky, der Tintenfisch, macht Bücher mit Tinte – und dein Kind packt mit an. Auf dem Tisch wird gerade gearbeitet: Mal werden die Wörter geschrieben, mal die Bilder gezeichnet, mal wird vorgelesen. Dein Kind schaut hin und tippt, wessen Aufgabe das ist – Autor, Illustrator oder Leser.",
+        "So lernt dein Kind ganz nebenbei, wie ein Buch entsteht: Jedes Buch hat einen Autor, der die Wörter und die Geschichte schreibt, und einen Illustrator, der die Bilder dazu zeichnet. Und dein Kind selbst ist der Leser, der das fertige Buch genießt. Diese Rollen zu kennen, ist ein erster Schritt in die Buch- und Medienkunde – dein Kind versteht, dass hinter jedem Buch echte Menschen mit unterschiedlichen Aufgaben stecken.",
+        "„Inkys Buchwerkstatt“ ist kostenlos und ganz ohne Zeitdruck oder Punkte – dein Kind darf in seinem eigenen Tempo entdecken und so oft tippen, wie es mag. Die Aktivität passt zum Lehrplan der Grundschule im Bereich „Lesen – mit Texten und Medien umgehen“, in dem Kinder Bücher kennenlernen und verstehen, wie sie gemacht sind."
+      ],
+      "practices": [
+        "Die Buchrollen Autor, Illustrator und Leser unterscheiden",
+        "Erkennen, wer die Wörter schreibt und wer die Bilder zeichnet",
+        "Verstehen, wie ein Buch gemacht wird",
+        "Erste Begriffe der Buch- und Medienkunde aufbauen"
+      ],
+      "howToPlay": [
+        "Schau dir an, welche Arbeit gerade am Buch gemacht wird.",
+        "Überlege: Werden Wörter geschrieben, Bilder gezeichnet oder wird gelesen?",
+        "Tippe auf Autor, Illustrator oder Leser – wessen Aufgabe ist das?"
+      ],
+      "learningGoals": [
+        "Dein Kind benennt die Rollen Autor, Illustrator und Leser sicher.",
+        "Dein Kind erkennt, dass der Autor die Wörter schreibt und der Illustrator die Bilder zeichnet.",
+        "Dein Kind versteht, dass ein Buch von verschiedenen Menschen gemacht wird."
+      ]
+    },
     "juniper-story-lantern.central-message.rl-1-2": {
       "about": [
         "Bei Lampenschein erzählt Juniper der Igel eine Geschichte nach der anderen – das ist „Junipers Geschichten-Laterne“. Dein Kind hört oder liest eine kurze, klassische Fabel, zum Beispiel von der Schildkröte und dem Hasen, vom Löwen und der Maus oder vom Nordwind und der Sonne. Danach tippt es die Karte an, die sagt, was uns die Fabel lehren will.",

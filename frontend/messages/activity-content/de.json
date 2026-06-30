@@ -1181,6 +1181,29 @@
         "Ich kann erkennen, wann ich addieren und wann ich subtrahieren muss – auch beim Vergleichen."
       ]
     },
+    "tildy.measure-ruler.2-md-a-1": {
+      "about": [
+        "Willkommen in Tildys Schneiderei! Tildy braucht für jedes Kleidungsstück genau das richtige Stück Band, Schnur, Garn oder Leder – und dafür misst sie mit dem Lineal. Du hilfst ihr: Schieb das Lineal so, dass die Null genau am Anfang des Streifens liegt, und lies dann am anderen Ende ab, wie viele Zentimeter es sind.",
+        "Der wichtigste Trick beim Messen ist das richtige Anlegen: Die Null muss an den Anfang – nicht die Eins! Wer beim Einer beginnt, misst immer einen Zentimeter zu wenig. Genau dieser kleine Anlegefehler passiert ganz vielen Kindern. Hier darfst du ihn erkennen, verstehen und vermeiden. Und Vorsicht: Tildys Katze stupst das Lineal gerne mal an, dann musst du noch einmal genau hinschauen.",
+        "Diese Übung ist kostenlos und gehört zum Bereich „Größen und Messen“ des Lehrplans der Grundschule. Es gibt keine Zeit, die läuft, und keine Punkte – du kannst in Ruhe so oft messen, wie du möchtest."
+      ],
+      "practices": [
+        "das Lineal richtig anlegen – die Null an den Anfang des Streifens",
+        "am anderen Ende in Zentimetern ablesen",
+        "den Anlegefehler erkennen und vermeiden (nicht bei der Eins beginnen)",
+        "eine Länge auch mit einem verschobenen oder „kaputten“ Lineal bestimmen – die Zentimeter zwischen Anfang und Ende zählen – und ein passend langes Lineal auswählen"
+      ],
+      "howToPlay": [
+        "Schieb das Lineal, bis die Null genau am Anfang des Streifens liegt",
+        "Tippe auf „Messen“",
+        "Lies die Zahl am anderen Ende ab und tippe sie an"
+      ],
+      "learningGoals": [
+        "mit dem Lineal sicher in Zentimetern messen",
+        "verstehen, dass die Länge die Anzahl der Zentimeter zwischen Anfang und Ende ist",
+        "typische Messfehler erkennen und das passende Lineal wählen"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

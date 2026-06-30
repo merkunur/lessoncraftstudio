@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "author-purpose.why-wrote.ri-2-6": {
+      "about": [
+        "Am Hafen klappert der Briefkasten und Marlow der Pelikan hat alle Pfoten voll zu tun: In „Marlows Hafenpost“ liest dein Kind eine kurze Notiz, überlegt, warum sie geschrieben wurde, und schickt sie in den richtigen Korb – zu den Fakten, zur lustigen Geschichte oder zur Anleitung.",
+        "Jeder Text hat eine Absicht: Er will informieren, unterhalten oder anleiten. Dein Kind findet sie heraus, indem es genau liest. Nennt der Text nüchtern Fakten, ohne Ausrufezeichen? Dann will er informieren. Steckt eine Überraschung darin und bringt er zum Schmunzeln? Dann will er unterhalten. Und sagt er mit „zuerst, dann, zuletzt“, wie etwas geht? Dann will er anleiten.",
+        "Hier gibt es keine Uhr, die tickt, und keine Punkte – dein Kind darf in Ruhe lesen, überlegen und so oft sortieren, wie es mag. Die Übung greift einen Schwerpunkt aus dem Lehrplan der Grundschule auf: Lesen – mit Texten und Medien umgehen, also Texte verstehen und ihre Absicht erkennen."
+      ],
+      "practices": [
+        "Die Absicht eines kurzen Textes erkennen",
+        "Zwischen informieren, unterhalten und anleiten unterscheiden",
+        "Auf Hinweise wie Fakten, Überraschung oder Reihenfolge achten",
+        "Einen Text genau und aufmerksam lesen"
+      ],
+      "howToPlay": [
+        "Lies die kurze Notiz aus Marlows Hafenpost.",
+        "Überlege: Will der Text informieren, unterhalten oder anleiten?",
+        "Schicke die Notiz in den passenden Korb."
+      ],
+      "learningGoals": [
+        "Dein Kind erkennt, warum ein Text geschrieben wurde.",
+        "Dein Kind unterscheidet sicher zwischen Sachinformation, Geschichte und Anleitung.",
+        "Dein Kind liest genauer und achtet auf sprachliche Hinweise im Text."
+      ]
+    },
     "opposites.antonyms.k-l-5-b": {
       "about": [
         "Auf Quills Spiegelmarkt wird nur getauscht, wenn du das Spiegelbild mitbringst. Quill, der kleine Igel, zeigt deinem Kind ein Wort – und am Marktstand muss es darauf tippen, was genau das Gegenteil davon ist: zu oben gehört unten, zu drücken gehört ziehen, zu heiß gehört kalt. Stimmt das Paar, klingelt die Kasse und der Tausch ist perfekt.",

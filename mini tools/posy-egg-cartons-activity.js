@@ -15,10 +15,11 @@
   var Core = global.CountTensCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A', EGG: '#FFF4DC', SHELL: '#F2C879' };
 
+  var LANG = 'en';
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function henSVG() {
-    return '<svg class="pec-hen-svg" viewBox="0 0 100 100" role="img" aria-label="Posy the hen">' +
+    return '<svg class="pec-hen-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Posy die Henne' : 'Posy the hen') + '">' +
       '<ellipse cx="50" cy="62" rx="26" ry="24" fill="#F6E7C8"/>' +                /* body */
       '<circle cx="50" cy="34" r="15" fill="#FBF1DA"/>' +                          /* head */
       '<path d="M50 19 q4 -8 8 -2 q6 -1 2 6" fill="#E5453B"/>' +                   /* comb */
@@ -33,26 +34,27 @@
   function cartonHTML(n) {
     var eggs = '';
     for (var i = 0; i < 10; i++) eggs += '<span class="pec-egg"></span>';
-    return '<div class="pec-carton" aria-label="a carton of ten eggs"><div class="pec-eggs">' + eggs + '</div><span class="pec-ten">10</span></div>';
+    return '<div class="pec-carton" aria-label="' + (LANG === 'de' ? 'eine Schachtel mit zehn Eiern' : 'a carton of ten eggs') + '"><div class="pec-eggs">' + eggs + '</div><span class="pec-ten">10</span></div>';
   }
 
   global.PosyEggCartonsActivity = {
     id: 'posy-egg-cartons-activity',
 
     strings: {
-      title: { en: "Posy's Egg Cartons" },
-      instruction: { en: 'Count the full cartons by tens and tap the total.' },
-      prompt: { en: 'Count by tens. How many eggs?' },
-      posyIntro: { en: 'Each carton holds ten eggs — count them by tens!' },
-      ask: { en: 'Tap the total number of eggs.' },
-      hintPick: { en: 'Count by tens: 10, 20, 30… one carton at a time.' },
-      hintWrong: { en: "Each carton is TEN, not one — count 10, 20, 30…" },
-      win: { en: 'Yes! You counted by tens. 🥚' }
+      title: { en: "Posy's Egg Cartons", de: 'Posys Eierschachteln' },
+      instruction: { en: 'Count the full cartons by tens and tap the total.', de: 'Zähle die vollen Schachteln in Zehnerschritten und tippe auf die Gesamtzahl.' },
+      prompt: { en: 'Count by tens. How many eggs?', de: 'Zähle in Zehnerschritten. Wie viele Eier?' },
+      posyIntro: { en: 'Each carton holds ten eggs — count them by tens!', de: 'In jede Schachtel passen zehn Eier!' },
+      ask: { en: 'Tap the total number of eggs.', de: 'Tippe auf die Gesamtzahl.' },
+      hintPick: { en: 'Count by tens: 10, 20, 30… one carton at a time.', de: 'Zähle in Zehnerschritten: 10, 20, 30 … immer eine Schachtel nach der anderen.' },
+      hintWrong: { en: "Each carton is TEN, not one — count 10, 20, 30…", de: 'Jede Schachtel sind ZEHN Eier, nicht eins — zähle 10, 20, 30 …' },
+      win: { en: 'Yes! You counted by tens. 🥚', de: 'Ja! Du hast in Zehnerschritten gezählt. 🥚' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -139,7 +141,7 @@
         + '.pec-opt:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
         + '@media (max-height:920px){.pec-root{gap:clamp(5px,1.4vw,10px);}.pec-hen{width:clamp(40px,8vw,50px);}.pec-opt{min-height:52px;}}'
         + '@media (max-height:700px){.pec-root{gap:6px;padding:11px;}.pec-hen{width:clamp(38px,7vw,44px);}.pec-egg{width:8px;height:10px;}.pec-opt{min-height:48px;padding:8px 15px;font-size:24px;}}'
-        + '@media (max-height:640px){.pec-root{gap:5px;padding:9px;}.pec-row{display:none;}.pec-egg{width:7px;height:9px;}.pec-opt{min-height:46px;font-size:22px;}}'
+        + '@media (max-height:640px){.pec-root{gap:4px;padding:8px;}.pec-row{display:none;}.pec-egg{width:6px;height:8px;}.pec-cartons{gap:4px;}.pec-carton{padding:3px 4px 2px;}.pec-ten{padding:1px 6px;}.pec-ask{font-size:11px;}.pec-opt{min-height:46px;font-size:22px;}}'
         + '@media (max-width:380px){.pec-opt{min-width:64px;font-size:22px;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-posy-egg-cartons', ''); tag.textContent = css; document.head.appendChild(tag);
     }

@@ -46,12 +46,56 @@
           { "title": "Diggers and Cranes", "blurb": "How real machines lift and dig.", "type": "fact" },
           { "title": "Goblin's Sock Hunt", "blurb": "A goblin sneaks around for missing socks.", "type": "story" }
         ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "sf1", "band": 1, "ask": "story", "books": [
+            { "title": "Die schläfrigen Drachen", "blurb": "Zwei Drachen suchen ein gemütliches Nickerchen.", "type": "story" },
+            { "title": "Alles über echte Käfer", "blurb": "Fakten über Käfer und wo sie leben.", "type": "fact" },
+            { "title": "Bagger und Kräne", "blurb": "So arbeiten echte Bagger und Kräne.", "type": "fact" }
+          ] },
+          { "id": "sf2", "band": 1, "ask": "story", "books": [
+            { "title": "Die Knochen in deinem Körper", "blurb": "Wie viele Knochen hast du wirklich?", "type": "fact" },
+            { "title": "Hoppels verlorener Fäustling", "blurb": "Hoppel sucht seinen warmen Fäustling im Schnee.", "type": "story" },
+            { "title": "Wie Bäume so hoch wachsen", "blurb": "Echte Fakten, wie Bäume groß werden.", "type": "fact" }
+          ] },
+          { "id": "sf3", "band": 2, "ask": "story", "books": [
+            { "title": "Wie Bienen Honig machen", "blurb": "So machen echte Bienen ihren Honig.", "type": "fact" },
+            { "title": "Das mutige rote Boot", "blurb": "Ein kleines Boot segelt mutig durch den Sturm.", "type": "story" },
+            { "title": "Alles über echte Käfer", "blurb": "Fakten über Käfer und wo sie leben.", "type": "fact" }
+          ] },
+          { "id": "sf4", "band": 2, "ask": "story", "books": [
+            { "title": "Bagger und Kräne", "blurb": "So arbeiten echte Bagger und Kräne.", "type": "fact" },
+            { "title": "Die Knochen in deinem Körper", "blurb": "Wie viele Knochen hast du wirklich?", "type": "fact" },
+            { "title": "Der Kobold sucht seine Socke", "blurb": "Ein Kobold jagt seiner verlorenen Socke nach.", "type": "story" }
+          ] },
+          { "id": "sf5", "band": 1, "ask": "fact", "books": [
+            { "title": "Die schläfrigen Drachen", "blurb": "Zwei Drachen suchen ein gemütliches Nickerchen.", "type": "story" },
+            { "title": "Alles über echte Käfer", "blurb": "Fakten über Käfer und wo sie leben.", "type": "fact" },
+            { "title": "Pips Glückseicheln", "blurb": "Eichhörnchen Pip sammelt drei Glückseicheln.", "type": "story" }
+          ] },
+          { "id": "sf6", "band": 2, "ask": "fact", "books": [
+            { "title": "Hoppels verlorener Fäustling", "blurb": "Hoppel sucht seinen warmen Fäustling im Schnee.", "type": "story" },
+            { "title": "Bagger und Kräne", "blurb": "So arbeiten echte Bagger und Kräne.", "type": "fact" },
+            { "title": "Das mutige rote Boot", "blurb": "Ein kleines Boot segelt mutig durch den Sturm.", "type": "story" }
+          ] },
+          { "id": "sf7", "band": 3, "ask": "fact", "books": [
+            { "title": "Der Kobold sucht seine Socke", "blurb": "Ein Kobold jagt seiner verlorenen Socke nach.", "type": "story" },
+            { "title": "Die Knochen in deinem Körper", "blurb": "Wie viele Knochen hast du wirklich?", "type": "fact" },
+            { "title": "Pips Glückseicheln", "blurb": "Eichhörnchen Pip sammelt drei Glückseicheln.", "type": "story" }
+          ] },
+          { "id": "sf8", "band": 3, "ask": "fact", "books": [
+            { "title": "Die schläfrigen Drachen", "blurb": "Zwei Drachen suchen ein gemütliches Nickerchen.", "type": "story" },
+            { "title": "Wie Bäume so hoch wachsen", "blurb": "Echte Fakten, wie Bäume groß werden.", "type": "fact" },
+            { "title": "Das mutige rote Boot", "blurb": "Ein kleines Boot segelt mutig durch den Sturm.", "type": "story" }
+          ] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "bea-two-bookshelves" },
-    "page_title": { "en": "Bea's Two Bookshelves — Story Book or Fact Book? (Grade 1)" },
-    "page_intro": { "en": "Bea the bookworm keeps two bookshelves: one for STORY books that tell a make-believe tale, and one for FACT books that teach you about real things. Read the three book covers, then tap the one Bea asks for — a make-believe story, or a book of real facts. A Grade 1 reading game about telling story books from informational books, aligned to Common Core RL.1.5." },
+    "slug": { "en": "bea-two-bookshelves", "de": "geschichte-oder-sachbuch-textsorten-unterscheiden-klasse-1" },
+    "page_title": { "en": "Bea's Two Bookshelves — Story Book or Fact Book? (Grade 1)", "de": "Geschichte oder Sachbuch? Textsorten unterscheiden" },
+    "page_intro": { "en": "Bea the bookworm keeps two bookshelves: one for STORY books that tell a make-believe tale, and one for FACT books that teach you about real things. Read the three book covers, then tap the one Bea asks for — a make-believe story, or a book of real facts. A Grade 1 reading game about telling story books from informational books, aligned to Common Core RL.1.5.", "de": "Geschichte oder Sachbuch? Erkenne am Buchdeckel, ob ein Buch eine erfundene Geschichte erzählt oder als Sachbuch echte Infos zeigt. Kostenlos und interaktiv für Klasse 1 – jetzt mit Bea üben!" },
     "kid_prompt_template": "Tap the story book, or the fact book, that Bea asks for."
   }
 ]

@@ -1526,6 +1526,29 @@
         "Es meistert Zeitspannen über die volle Stunde und über die 12 hinaus."
       ]
     },
+    "patchwork-meadow.tile.3-md-c-6": {
+      "about": [
+        "Im Beet von Häschen Sprout ist heute Auslegetag: Die Blumenbeete sind krumm und eckig — mal wie ein L, mal wie eine kleine Treppe — und sollen mit weichen Moos-Kästchen ausgelegt werden. Dein Kind bedeckt jedes Beet vollständig: kein Fleckchen Erde bleibt frei, und kein Kästchen liegt doppelt. Am Ende wird einfach gezählt: So viele Kästchen passen hinein — so groß ist die Fläche.",
+        "Dahinter steckt eine der wichtigsten Ideen der Grundschul-Geometrie: Der Flächeninhalt ist die Anzahl der Einheitsquadrate, die eine Fläche bedecken — und das gilt auch für unregelmäßige Formen, bei denen man gar nicht „Länge mal Breite“ rechnen kann. Genau dafür sind Sprouts Beete krumm gewählt: Dein Kind misst die Fläche so, wie es sie wirklich begreift — durch Auslegen, Lückenschließen und Zählen, nicht durch eine Formel. Mal repariert es eine versteckte Lücke oder ein doppelt gelegtes Kästchen, mal schätzt es vorher, mal baut es selbst ein Beet aus genau so vielen Kästchen, wie gefragt sind.",
+        "Diese Aufgabe folgt dem Lehrplan der Grundschule und der Leitidee „Raum und Form“. Es gibt keine Uhr, keine Punkte und keinen Wettbewerb — und das Spielen ist frei. Dein Kind darf Kästchen verschieben, ausprobieren und in Ruhe nachzählen. Sprout freut sich über jedes ausgelegte Beet, ganz ohne Eile."
+      ],
+      "practices": [
+        "Eine Fläche lückenlos und ohne Überlappung mit gleichen Kästchen auslegen",
+        "Den Flächeninhalt durch Zählen der Einheitsquadrate bestimmen",
+        "Auch bei unregelmäßigen Formen sicher messen — ganz ohne Länge × Breite",
+        "Lücken und doppelt gelegte Kästchen erkennen und richtig stellen"
+      ],
+      "howToPlay": [
+        "Lege das Blumenbeet vollständig mit Moos-Kästchen aus — keine Lücke, keine Überlappung.",
+        "Zähle, wie viele Kästchen das Beet bedecken.",
+        "Schau, wie viele Kästchen es geworden sind — das ist der Flächeninhalt: „Fläche: N Kästchen“."
+      ],
+      "learningGoals": [
+        "Ich verstehe: Der Flächeninhalt ist die Anzahl der Kästchen, die eine Fläche bedecken.",
+        "Ich kann auch krumme, unregelmäßige Beete durch Auslegen und Zählen messen.",
+        "Ich weiß, dass beim Auslegen keine Lücken bleiben und sich nichts überlappen darf."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

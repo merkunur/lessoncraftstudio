@@ -14,12 +14,24 @@
         { "id": "hot", "band": 2, "situation": "It is a hot day. What helps you cool down?", "correctNoun": "fan", "choices": [ { "noun": "scissors", "themeDir": "around the house" }, { "noun": "shoe", "themeDir": "clothing" }, { "noun": "fan", "themeDir": "around the house" } ] },
         { "id": "cut", "band": 3, "situation": "You want to cut the paper. What do you use?", "correctNoun": "scissors", "choices": [ { "noun": "scissors", "themeDir": "around the house" }, { "noun": "cup", "themeDir": "around the house" }, { "noun": "sock", "themeDir": "accessories" } ] },
         { "id": "sleep", "band": 3, "situation": "It is bedtime. Where do you sleep?", "correctNoun": "bed", "choices": [ { "noun": "umbrella", "themeDir": "accessories" }, { "noun": "bed", "themeDir": "around the house" }, { "noun": "crayon", "themeDir": "classroom" } ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "drink", "band": 1, "situation": "Du möchtest Wasser trinken. Was benutzt du?", "correctNoun": "cup", "choices": [ { "noun": "cup", "themeDir": "around the house", "label": "die Tasse" }, { "noun": "scissors", "themeDir": "around the house", "label": "die Schere" }, { "noun": "apple", "themeDir": "At the Supermarket", "label": "der Apfel" } ] },
+          { "id": "rain", "band": 1, "situation": "Draußen regnet es. Was benutzt du, um trocken zu bleiben?", "correctNoun": "umbrella", "choices": [ { "noun": "sock", "themeDir": "accessories", "label": "die Socke" }, { "noun": "umbrella", "themeDir": "accessories", "label": "der Regenschirm" }, { "noun": "bed", "themeDir": "around the house", "label": "das Bett" } ] },
+          { "id": "feet", "band": 1, "situation": "Deine Füße sind kalt. Was ziehst du an deine Füße?", "correctNoun": "sock", "choices": [ { "noun": "fan", "themeDir": "around the house", "label": "der Ventilator" }, { "noun": "spoon", "themeDir": "around the house", "label": "der Löffel" }, { "noun": "sock", "themeDir": "accessories", "label": "die Socke" } ] },
+          { "id": "write", "band": 2, "situation": "Du möchtest deinen Namen schreiben. Was benutzt du?", "correctNoun": "pencil", "choices": [ { "noun": "pencil", "themeDir": "around the house", "label": "der Bleistift" }, { "noun": "cup", "themeDir": "around the house", "label": "die Tasse" }, { "noun": "ball", "themeDir": "toys", "label": "der Ball" } ] },
+          { "id": "eat", "band": 2, "situation": "Du hast Hunger. Was kannst du essen?", "correctNoun": "apple", "choices": [ { "noun": "mitten", "themeDir": "accessories", "label": "der Handschuh" }, { "noun": "apple", "themeDir": "At the Supermarket", "label": "der Apfel" }, { "noun": "sock", "themeDir": "accessories", "label": "die Socke" } ] },
+          { "id": "hot", "band": 2, "situation": "Es ist ein heißer Tag. Was hilft dir, dich abzukühlen?", "correctNoun": "fan", "choices": [ { "noun": "scissors", "themeDir": "around the house", "label": "die Schere" }, { "noun": "shoe", "themeDir": "clothing", "label": "der Schuh" }, { "noun": "fan", "themeDir": "around the house", "label": "der Ventilator" } ] },
+          { "id": "cut", "band": 3, "situation": "Du möchtest das Papier schneiden. Was benutzt du?", "correctNoun": "scissors", "choices": [ { "noun": "scissors", "themeDir": "around the house", "label": "die Schere" }, { "noun": "cup", "themeDir": "around the house", "label": "die Tasse" }, { "noun": "sock", "themeDir": "accessories", "label": "die Socke" } ] },
+          { "id": "sleep", "band": 3, "situation": "Es ist Schlafenszeit. Wo schläfst du?", "correctNoun": "bed", "choices": [ { "noun": "umbrella", "themeDir": "accessories", "label": "der Regenschirm" }, { "noun": "bed", "themeDir": "around the house", "label": "das Bett" }, { "noun": "crayon", "themeDir": "classroom", "label": "der Wachsmalstift" } ] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "jasper-just-right" },
-    "page_title": { "en": "Jasper's Just-Right Bag — Which One Would You Use? (Grade 1)" },
-    "page_intro": { "en": "Jasper the jay packs the just-right thing for every moment! Read what is happening (it is raining…), then tap the picture of what you would use. A Grade 1 vocabulary game about real-life connections between words and how we use them, aligned to Common Core L.1.5.c." },
+    "slug": { "en": "jasper-just-right", "de": "wozu-benutzt-man-das-klasse-1" },
+    "page_title": { "en": "Jasper's Just-Right Bag — Which One Would You Use? (Grade 1)", "de": "Wozu benutzt man das? Wortschatz-Spiel Klasse 1" },
+    "page_intro": { "en": "Jasper the jay packs the just-right thing for every moment! Read what is happening (it is raining…), then tap the picture of what you would use. A Grade 1 vocabulary game about real-life connections between words and how we use them, aligned to Common Core L.1.5.c.", "de": "Wozu benutzt man eine Tasse? In diesem kostenlosen, interaktiven Spiel für Klasse 1 verbinden Kinder Alltagswörter mit ihrer Verwendung – einfach tippen und üben!" },
     "kid_prompt_template": "Read what is happening — what would you use?"
   }
 ]

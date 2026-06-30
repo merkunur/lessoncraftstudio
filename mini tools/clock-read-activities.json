@@ -34,9 +34,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "owls-cuckoo-cottage" },
-    "page_title": { "en": "Owl's Cuckoo Cottage — Read and Set the Clock" },
-    "page_intro": { "en": "Owl's whole cozy day unfolds in the cuckoo cottage, and you are the timekeeper! Read the wall clock to find out what Owl is doing now — breakfast, garden time, bedtime — and set the hands so the cuckoo can pop out and act it out. A warm Grade 1 game about telling time to the hour and half-hour, aligned to Common Core 1.MD.B.3." },
+    "slug": { "en": "owls-cuckoo-cottage", "de": "uhr-lesen-und-stellen-tagesablauf-klasse-1" },
+    "page_title": { "en": "Owl's Cuckoo Cottage — Read and Set the Clock", "de": "Uhr lesen & stellen: Eulen-Tagesablauf | Klasse 1" },
+    "page_intro": { "en": "Owl's whole cozy day unfolds in the cuckoo cottage, and you are the timekeeper! Read the wall clock to find out what Owl is doing now — breakfast, garden time, bedtime — and set the hands so the cuckoo can pop out and act it out. A warm Grade 1 game about telling time to the hour and half-hour, aligned to Common Core 1.MD.B.3.", "de": "Lies und stelle die Uhr – volle und halbe Stunden – im Tagesablauf der Eule und weck den Kuckuck! Kostenlose interaktive Übung für Klasse 1. Jetzt starten!" },
     "kid_prompt_template": "clock-read"
   }
 ]

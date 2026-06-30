@@ -1756,6 +1756,29 @@
         "Das Kind erkennt eine genannte räumliche Lage wieder und findet den passenden Platz."
       ]
     },
+    "clock-read.tell-time.1-md-b-3": {
+      "about": [
+        "In einem kleinen Häuschen mit einer großen Kuckucksuhr wohnt die Eule und passt auf die Zeit auf. Ihr ganzer Tag steckt in dieser Uhr — und dein Kind darf der Zeitwächter sein. Es liest die Zeiger der alten Holzuhr ab und findet heraus, was die Eule gerade macht: Ist es Zeit zum Frühstücken? Geht es in den Garten? Oder wird es schon dunkel und Zeit zum Schlafen? So wird aus dem Ablesen der Uhr eine kleine Geschichte über den Tagesablauf.",
+        "Mal liest dein Kind eine fertig eingestellte Uhr und tippt das passende Ereignis an, mal stellt es selbst die Zeiger auf eine gesuchte Uhrzeit — und wenn es stimmt, springt der Kuckuck heraus und ruft die Zeit laut aus. So schließt sich der Kreis zwischen der Uhr und den Worten. In weiteren Runden ordnet dein Kind drei Uhren nach dem Tagesablauf oder deutet einen Himmels-Hinweis (Morgenrot, Mittagssonne) und stellt die passende Zeit ein. Geübt werden die volle Stunde und die halbe Stunde — also auch das deutsche „halb 9“ für 8:30 —, und eine Extra-Runde zeigt schon „Viertel nach“ und „Viertel vor“.",
+        "Es gibt keine Uhr, die abläuft, keine Punkte und keinen Wettlauf. Dein Kind darf in seinem eigenen Tempo schauen, drehen und ausprobieren, so oft es mag. Diese Aufgaben folgen dem Lehrplan der Grundschule, Leitidee „Größen und Messen“ (Zeit), für Klasse 1."
+      ],
+      "practices": [
+        "Volle und halbe Stunden auf der analogen Uhr sicher ablesen",
+        "Die Zeiger der Uhr selbst auf eine gesuchte Uhrzeit stellen",
+        "Uhrzeiten mit Ereignissen aus dem eigenen Tagesablauf verknüpfen",
+        "Die deutsche „halb“-Sprechweise verstehen — „halb 9“ bedeutet 8:30"
+      ],
+      "howToPlay": [
+        "Schau dir die Zeiger der Kuckucksuhr an und lies die Uhrzeit ab.",
+        "Tippe das Ereignis an, das gerade passt — oder stelle die Zeiger selbst auf die gesuchte Zeit.",
+        "Stimmt es, springt der Kuckuck heraus, spielt den Moment nach und ruft die Zeit laut aus."
+      ],
+      "learningGoals": [
+        "Ich kann die volle und die halbe Stunde auf einer analogen Uhr ablesen.",
+        "Ich kann die Zeiger der Uhr auf eine genannte Uhrzeit stellen.",
+        "Ich verstehe „halb 9“ als 8:30 und ordne Uhrzeiten meinem Tagesablauf zu."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

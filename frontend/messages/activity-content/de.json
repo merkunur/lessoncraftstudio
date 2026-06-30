@@ -1319,6 +1319,29 @@
         "Eine kleinere Menge gezielt ergänzen, bis beide Mengen gleich viele sind — eine erste Grundlage für das Ergänzen und Rechnen."
       ]
     },
+    "necklace.bead-string.k-cc-b-4": {
+      "about": [
+        "Ein kleiner Fuchs hat eine Freundin mit einer wunderschönen Perlenkette — und möchte sich genau so eine fädeln. Aber Achtung: Es kommt nicht auf die Farben an, sondern nur darauf, WIE VIELE Perlen es sind. Dein Kind zählt die Perlen der Freundin, eine nach der anderen, und fädelt dann dem Fuchs genauso viele auf.",
+        "Dahinter steckt eine der wichtigsten Ideen am Schulanfang: Man bestimmt eine Anzahl durch Zählen, und die zuletzt genannte Zahl sagt, wie viele es insgesamt sind. Und das Beste: Diese Anzahl bleibt gleich, egal ob der Fuchs die Kette versteckt, schüttelt, zusammenschiebt oder die Perlen verstreut — es sind immer noch genauso viele. Diese Mengenkonstanz ist für viele Erstklässler eine echte Aha-Erkenntnis.",
+        "Die Übung ist kostenlos, ganz ohne Zeitdruck und ohne Punkte — dein Kind darf in Ruhe zählen, ausprobieren und sich selbst verbessern. Sie orientiert sich am Lehrplan der Grundschule, Bereich „Zählen und Mengen“."
+      ],
+      "practices": [
+        "Zählt jede Perle genau einmal und ordnet beim Zählen eins zu eins zu",
+        "Erkennt, dass die letzte Zählzahl die gesamte Anzahl angibt (Kardinalzahlprinzip)",
+        "Erlebt, dass die Anzahl gleich bleibt, auch wenn die Perlen versteckt, geschüttelt oder verstreut werden",
+        "Findet und korrigiert Zählfehler — etwa eine Perle zu viel"
+      ],
+      "howToPlay": [
+        "Zähle die Perlen der Freundin laut mit, eine nach der anderen",
+        "Merke dir, wie viele es sind — die letzte Zahl ist die Anzahl",
+        "Fädle dem Fuchs genauso viele Perlen auf und mach den Verschluss zu"
+      ],
+      "learningGoals": [
+        "Anzahlen bis 10 sicher durch Zählen bestimmen und benennen",
+        "Verstehen, dass eine Anzahl gleich bleibt, wenn sich nur die Anordnung ändert (Anzahlinvarianz)",
+        "Eine genannte oder gehörte Zahl in die passende Menge umsetzen"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

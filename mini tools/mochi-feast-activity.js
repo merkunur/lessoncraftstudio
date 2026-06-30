@@ -96,9 +96,28 @@ function shuffledOrder(n, prev) {
 window.MochiFeastActivity = Object.assign({}, MochiFeastCore, {
   id: 'mochi-feast-activity',
 
-  /* Inherit the core's strings (title / instruction / per-treat prompts /
-     hints / tray label / sr nouns). */
-  strings: Object.assign({}, MochiFeastCore.strings),
+  /* Core strings (EN copied verbatim) + de added in the wrapper — 0 lines to
+     mochi-feast-core.js. All chrome is api.t-resolved (content-locale aware);
+     the German treat PLURAL rides each per-treat prompt (no separate noun map).
+     Teller = the dish you tap; Schüssel = the bowl treats land in. */
+  strings: {
+    title:        { en: "Mochi's Counting Feast", de: 'Mochis Zählfest' },
+    instruction:  { en: "Tap the dish to feed Mochi the right number of treats, then tap Check.", de: 'Tippe auf den Teller, um Mochi die richtige Anzahl Leckereien zu geben, und tippe dann auf „Prüfen".' },
+    promptStrawberry: { en: "Feed Mochi {n} strawberries!", de: 'Gib Mochi {n} Erdbeeren!' },
+    promptCookie:     { en: "Feed Mochi {n} cookies!",      de: 'Gib Mochi {n} Kekse!' },
+    promptCherry:     { en: "Feed Mochi {n} cherries!",     de: 'Gib Mochi {n} Kirschen!' },
+    promptCupcake:    { en: "Feed Mochi {n} cupcakes!",     de: 'Gib Mochi {n} Cupcakes!' },
+    promptBanana:     { en: "Feed Mochi {n} bananas!",      de: 'Gib Mochi {n} Bananen!' },
+    promptApple:      { en: "Feed Mochi {n} apples!",       de: 'Gib Mochi {n} Äpfel!' },
+    promptDonut:      { en: "Feed Mochi {n} donuts!",       de: 'Gib Mochi {n} Donuts!' },
+    promptMuffin:     { en: "Feed Mochi {n} muffins!",      de: 'Gib Mochi {n} Muffins!' },
+    hintAddSome: { en: "Tap the dish to give Mochi a treat.", de: 'Tippe auf den Teller, um Mochi eine Leckerei zu geben.' },
+    hintMore:    { en: "Mochi is still a little hungry — add a few more.", de: 'Mochi hat noch ein bisschen Hunger – leg noch ein paar dazu.' },
+    hintTooMany: { en: "Ooh, that's a lot! Tap a treat in the bowl to take one back.", de: 'Oh, das sind zu viele! Tippe auf eine Leckerei in der Schüssel, um eine zurückzunehmen.' },
+    trayLabel:  { en: "Tap to feed", de: 'Zum Füttern tippen' },
+    srAddTreat: { en: "Give Mochi a treat", de: 'Mochi eine Leckerei geben' },
+    srTakeBack: { en: "Take this treat back", de: 'Diese Leckerei zurücknehmen' }
+  },
 
   /* NO `tasks` property → the shell calls our nextTask() for ordering, so
      we own the per-pass reshuffle (§A.13.60). Pool resolved lazily: by

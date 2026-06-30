@@ -16,11 +16,12 @@
 
   var Core = global.CentralMessageCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A' };
+  var LANG = 'en';
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -30,7 +31,7 @@
       : '<circle cx="43" cy="48" r="2.6" fill="#2A2A35"/><circle cx="57" cy="48" r="2.6" fill="#2A2A35"/>';
     var spikes = '';
     for (var i = 0; i < 9; i++) { var ang = Math.PI * (0.08 + 0.84 * (i / 8)); var cx = 50 - Math.cos(ang) * 30, cy = 52 - Math.sin(ang) * 30; var tx = 50 - Math.cos(ang) * 44, ty = 52 - Math.sin(ang) * 44; spikes += '<line x1="' + cx.toFixed(1) + '" y1="' + cy.toFixed(1) + '" x2="' + tx.toFixed(1) + '" y2="' + ty.toFixed(1) + '" stroke="#8A6D4B" stroke-width="3" stroke-linecap="round"/>'; }
-    return '<svg class="jsl-hog-svg" viewBox="0 0 100 100" role="img" aria-label="Juniper the hedgehog">' + spikes +
+    return '<svg class="jsl-hog-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Juniper, der Igel' : 'Juniper the hedgehog') + '">' + spikes +
       '<ellipse cx="50" cy="54" rx="30" ry="26" fill="#C9A877"/>' +
       '<ellipse cx="62" cy="56" rx="16" ry="14" fill="#F0DEC2"/>' +   /* face */
       eyes + '<circle cx="70" cy="56" r="2.4" fill="#2A2A35"/>' +     /* nose */
@@ -41,20 +42,21 @@
     id: 'juniper-story-lantern-activity',
 
     strings: {
-      title: { en: "Juniper's Story Lantern" },
-      prompt: { en: 'What does this story teach us?' },
-      juniperIntro: { en: 'Here is a little tale. What does it teach us?' },
-      readStory: { en: '📖 Read the story' },
-      readAgain: { en: '📖 Read it again' },
-      theAsk: { en: 'What is the lesson?' },
-      hintPick: { en: 'Tap the lesson the story teaches!' },
-      hintWrong: { en: "That's not the lesson — listen to the tale again." },
-      win: { en: 'Yes! That is the lesson of the tale. 🏮' }
+      title: { en: "Juniper's Story Lantern", de: 'Junipers Geschichten-Laterne' },
+      prompt: { en: 'What does this story teach us?', de: 'Was lehrt uns diese Fabel?' },
+      juniperIntro: { en: 'Here is a little tale. What does it teach us?', de: 'Hier ist eine kleine Fabel. Was lehrt sie uns?' },
+      readStory: { en: '📖 Read the story', de: '📖 Fabel lesen' },
+      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal lesen' },
+      theAsk: { en: 'What is the lesson?', de: 'Was ist die Lehre?' },
+      hintPick: { en: 'Tap the lesson the story teaches!', de: 'Tippe auf die Lehre, die die Fabel uns zeigt!' },
+      hintWrong: { en: "That's not the lesson — listen to the tale again.", de: 'Das ist nicht die Lehre – hör dir die Fabel noch einmal an.' },
+      win: { en: 'Yes! That is the lesson of the tale. 🏮', de: 'Ja! Das ist die Lehre der Fabel. 🏮' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._opts = null; this._narrToken = 0; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -139,7 +141,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/juniper-story-lantern-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[juniper-story-lantern] manifest load failed:', e.message); });
     },
 
@@ -161,8 +163,8 @@
         + '.jsl-opt.jsl-sel{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF6F1;}'
         + '.jsl-opt:active{transform:translateY(1px);}'
         + '.jsl-read:focus-visible,.jsl-opt:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
-        + '@media (max-height:700px){.jsl-root{gap:3px;}.jsl-hog{width:clamp(38px,8vw,46px);}.jsl-say{-webkit-line-clamp:2;line-clamp:2;}.jsl-story{padding:5px 9px;gap:2px;}.jsl-line{font-size:12px;line-height:1.2;}.jsl-read{min-height:34px;}.jsl-opt{min-height:44px;padding:7px 11px;font-size:12.5px;}}'
-        + '@media (max-height:640px){.jsl-root{gap:2px;padding:6px;}.jsl-row{display:none;}.jsl-ask{display:none;}.jsl-line{font-size:11.5px;}.jsl-opt{min-height:44px;padding:6px 10px;font-size:12px;}}'
+        + '@media (max-height:760px){.jsl-root{gap:3px;}.jsl-hog{width:clamp(38px,8vw,46px);}.jsl-say{-webkit-line-clamp:2;line-clamp:2;}.jsl-story{padding:5px 9px;gap:2px;}.jsl-line{font-size:12px;line-height:1.18;}.jsl-read{min-height:34px;}.jsl-opt{min-height:44px;padding:6px 11px;font-size:12px;line-height:1.18;}}'
+        + '@media (max-height:660px){.jsl-root{gap:0;padding:4px;}.jsl-row{display:none;}.jsl-ask{display:none;}.jsl-read{min-height:26px;padding:0 12px;font-size:12px;}.jsl-story{padding:3px 8px;gap:0;}.jsl-line{font-size:10.5px;line-height:1.1;}.jsl-opts{gap:1px;}.jsl-opt{min-height:44px;padding:3px 9px;font-size:11.5px;line-height:1.13;}}'
         + '@media (max-width:380px){.jsl-root{gap:3px;padding:7px;}.jsl-line{font-size:12px;}.jsl-opt{font-size:12.5px;}}'
         + '@media (prefers-reduced-motion: reduce){.jsl-line{transition:none!important;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-juniper-story-lantern', ''); tag.textContent = css; document.head.appendChild(tag);

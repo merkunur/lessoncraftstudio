@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "atlas-fact-files.key-detail.ri-k-1": {
+      "about": [
+        "Atlas, das Gürteltier, hat sein kleines Forscherheft dabei und zeigt deinem Kind eine winzige Geschichte aus nur zwei Sätzen — zum Beispiel: „Bienen leben in einem Stock. Sie machen süßen Honig.“ Darunter stellt Atlas eine Frage, etwa „Wo leben Bienen?“. Dein Kind liest die beiden Sätze in Ruhe, denkt kurz nach und tippt dann aus drei Möglichkeiten die richtige Antwort an: „in einem Stock“. Die Antwort ist kein Geheimnis — sie steckt schon im Text, man muss sie nur wiederfinden.",
+        "Darum geht es: genau lesen und die Antwort wirklich im Text suchen, statt zu raten. Wenn eine Frage mit Wo, Was oder Wie viele kommt, schaut dein Kind noch einmal in die beiden Sätze und holt sich dort die wichtige Information heraus. Genau das ist der erste Schritt des Leseverstehens — ein Kind merkt, dass in einem kurzen Text echte Antworten stehen und dass es sie ganz allein herausfinden kann. Jede Runde wird ein kleines bisschen kniffliger, aber die Antwort lässt sich immer schwarz auf weiß im Text wiederfinden.",
+        "Diese Übung gehört zum Bereich „Lesen – mit Texten und Medien umgehen“ aus dem Lehrplan der Grundschule, in dem Kinder lernen, kurzen Sachtexten gezielt Informationen zu entnehmen und Fragen dazu zu beantworten. Sie ist kostenlos, läuft ganz ohne Zeitdruck und ohne Punkte — dein Kind darf so oft und so ruhig lesen, wie es möchte."
+      ],
+      "practices": [
+        "Einem kurzen Sachtext aus zwei Sätzen die wichtige Information entnehmen.",
+        "Eine Frage mit Wo, Was oder Wie viele beantworten, indem man die passende Stelle im Text wiederfindet.",
+        "Genau lesen statt raten — die Antwort steht schon im Text.",
+        "Aus drei Möglichkeiten die eine Antwort auswählen, die wirklich im Text steht."
+      ],
+      "howToPlay": [
+        "Lies die beiden Sätze, die Atlas dir zeigt, in Ruhe durch.",
+        "Lies dann die Frage darunter und überlege: Wo steht die Antwort im Text?",
+        "Tippe von den drei Möglichkeiten die richtige Antwort an — wenn etwas nicht stimmt, darfst du in Ruhe noch einmal nachlesen."
+      ],
+      "learningGoals": [
+        "Dein Kind kann einem kurzen Sachtext gezielt eine Information entnehmen.",
+        "Dein Kind beantwortet eine einfache Frage, indem es die Antwort im Text wiederfindet.",
+        "Dein Kind erlebt den ersten Schritt des Leseverstehens: Antworten stehen im Text und man kann sie selbst finden."
+      ]
+    },
     "jasper-just-right.real-life.l-1-5-c": {
       "about": [
         "Jasper, der Eichelhäher, hat für jede kleine Aufgabe genau das passende Ding griffbereit. In dieser Übung liest dein Kind eine kurze Alltagssituation – zum Beispiel: ‚Du möchtest Wasser trinken. Was benutzt du?' – und tippt dann auf das Bild von dem Ding, das wirklich dazu passt. Aus drei Bildern wählt es das eine aus, das man in dieser Situation benutzt.",

@@ -123,6 +123,14 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     no: 'Lesing: grunnleggende ferdigheter',
     fi: 'Lukemisen perustaidot',
   },
+  // Reading: Informational Text (RI — answer key-detail questions about a Sachtext). de literacy
+  // fan-out opener (atlas-fact-files RI.K.1); chip-short for the KMK Bereich „Lesen – mit Texten
+  // und Medien umgehen". de-only this wave; en fallback for other locales until their reading fan-out.
+  // NOTE: a future literary-text (RL) strand maps separately (e.g. „Geschichten verstehen") — do not let RI absorb it.
+  'Reading: Informational Text': {
+    en: 'Reading: Informational Text',
+    de: 'Sachtexte verstehen',
+  },
   // Phonological Awareness (pre-reading sound awareness; literacy). No deployed
   // activity uses this strand yet (forward-looking); all 11 locales curriculum-reviewed.
   'Phonological Awareness': {

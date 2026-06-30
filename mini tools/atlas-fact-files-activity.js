@@ -15,14 +15,18 @@
   var Core = global.FactDetailCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', BROWN: '#B07A48' };
 
+  /* The core grades by exact string match (locale-neutral). German = a data port:
+     German Sachtext rounds via roundsL10n.de (answer===one option, answer⊂fact). 0 core. */
+  var LANG = 'en';
+
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function armadilloSVG() {
-    return '<svg class="aff-arm-svg" viewBox="0 0 100 100" role="img" aria-label="Atlas the armadillo">' +
+    return '<svg class="aff-arm-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Atlas, das Gürteltier' : 'Atlas the armadillo') + '">' +
       '<ellipse cx="48" cy="60" rx="26" ry="20" fill="#C79B6E"/>' +                /* shell */
       '<path d="M30 50 q18 -10 36 0 M28 60 q20 -8 40 0 M30 70 q18 8 36 0" stroke="#9A6E42" stroke-width="3" fill="none"/>' + /* bands */
       '<ellipse cx="48" cy="60" rx="26" ry="20" fill="none" stroke="#9A6E42" stroke-width="2.5"/>' +
@@ -37,18 +41,18 @@
     id: 'atlas-fact-files-activity',
 
     strings: {
-      title: { en: "Atlas's Fact Files" },
-      instruction: { en: 'Read the facts, then tap the answer to the question.' },
-      prompt: { en: 'Read the facts, then tap the answer.' },
-      atlasIntro: { en: 'Read my fact, then find the answer hiding inside it!' },
-      hintPick: { en: 'The answer is right there in the facts — read them again.' },
-      hintWrong: { en: 'Look back at the facts and find the part that answers it.' },
-      win: { en: 'Yes! You found the key detail. 📁' }
+      title: { en: "Atlas's Fact Files", de: 'Atlas\' Fakten-Kartei' },
+      instruction: { en: 'Read the facts, then tap the answer to the question.', de: 'Lies den Sachtext und tippe dann auf die Antwort zur Frage.' },
+      prompt: { en: 'Read the facts, then tap the answer.', de: 'Lies den Sachtext und tippe auf die Antwort.' },
+      atlasIntro: { en: 'Read my fact, then find the answer hiding inside it!', de: 'Hallo, ich bin Atlas! Lies meinen kleinen Sachtext ganz genau – die Antwort steckt mitten im Text.' },
+      hintPick: { en: 'The answer is right there in the facts — read them again.', de: 'Die Antwort steht schon im Text. Lies sie dort noch einmal nach!' },
+      hintWrong: { en: 'Look back at the facts and find the part that answers it.', de: 'Schau noch einmal in den Text. Dort steht die richtige Antwort!' },
+      win: { en: 'Yes! You found the key detail. 📁', de: 'Super! Du hast die wichtige Information gefunden. 📁' }
     },
     defaults: {},
 
     init: function (api) {
-      this.api = api;
+      this.api = api; LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -69,7 +73,7 @@
 
       var row = api.el('div', 'aff-row');
       var arm = api.el('div', 'aff-arm'); arm.innerHTML = armadilloSVG(); row.appendChild(arm);
-      var fileb = api.el('button', 'aff-fact'); fileb.type = 'button'; fileb.setAttribute('aria-label', 'hear the facts');
+      var fileb = api.el('button', 'aff-fact'); fileb.type = 'button'; fileb.setAttribute('aria-label', (LANG === 'de' ? 'Den Sachtext anhören' : 'hear the facts'));
       fileb.textContent = v.fact;
       fileb.addEventListener('click', function () { speak(v.fact); });
       row.appendChild(fileb);
@@ -109,7 +113,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/atlas-fact-files-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[atlas-fact-files] manifest load failed:', e.message); });
     },
 

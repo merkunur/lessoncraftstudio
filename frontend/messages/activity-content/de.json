@@ -1457,6 +1457,29 @@
         "Ich kann den Zahlendreher 13/31 sicher unterscheiden."
       ]
     },
+    "posy-egg-cartons.count-tens.k-cc-a-1": {
+      "about": [
+        "Posy die Henne sortiert ihre Eier — immer zehn Stück in eine Schachtel. Jede volle Schachtel trägt die Zahl „10“, denn darin steckt genau ein Zehner. Dein Kind zählt nun nicht jedes einzelne Ei, sondern die vollen Schachteln in Zehnerschritten: 10, 20, 30 … und tippt am Ende die Gesamtzahl an.",
+        "Dahinter steckt eine wichtige Idee aus dem Bereich „Zählen und Mengen“ des Lehrplans der Grundschule: das Bündeln. Wer erkennt, dass eine Schachtel für einen ganzen Zehner steht, muss nicht mühsam Ei für Ei zählen, sondern springt in Zehnerschritten voran. So entsteht die Zehnerreihe — die schnelle, sichere Art, Mengen bis 100 zu bestimmen, und zugleich eine wichtige Grundlage für das Rechnen in Klasse 2.",
+        "Die Übung ist kostenlos und lädt zum ruhigen Ausprobieren ein. Es gibt keine Zeituhr, keine Punkte und keinen Wettlauf — nur Posy, ihre Eierschachteln und so viele Versuche, wie dein Kind möchte."
+      ],
+      "practices": [
+        "In Zehnerschritten zählen: 10, 20, 30 …",
+        "Bündeln verstehen — jede Schachtel ist ein Zehner",
+        "Mengen bis 100 schnell bestimmen, ohne einzeln zu zählen",
+        "Die Zehnerreihe sicher aufsagen und anwenden"
+      ],
+      "howToPlay": [
+        "In jeder Schachtel liegen genau zehn Eier.",
+        "Zähle die vollen Schachteln in Zehnerschritten: 10, 20, 30 …",
+        "Tippe die Gesamtzahl an."
+      ],
+      "learningGoals": [
+        "Die Zehnerreihe bis 100 sicher zählen",
+        "Verstehen, dass zehn Eier einen Zehner bilden (Bündeln)",
+        "Den schnellen Weg vom Bündel zur Gesamtzahl gehen"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

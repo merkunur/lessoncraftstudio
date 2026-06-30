@@ -25,11 +25,19 @@
   var C = { T: '#146B5E', BODY: '#E2F0EC', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', GOLD: '#E8A53A', INK: '#2A2A35' };
   var NAME = { circle: 'circle', triangle: 'triangle', square: 'square', rectangle: 'rectangle', hexagon: 'hexagon', mystery: 'Mystery Gallery' };
   var TINT = { circle: '#EAD6A8', triangle: '#F6CDBC', square: '#CFE6DF', rectangle: '#D9D2EC', hexagon: '#CFE7C8', mystery: '#E5E0D6' };
+  var LANG = 'en';
+  /* German shape names (§ naming-standard formal Klasse-1 terms). Gender varies
+     (der Kreis / das Quadrat / die Raute) + plurals differ → all hint frames are
+     article-free and use {n} (bare nominative sing) / {np} (plural). */
+  var GNAME = { circle: 'Kreis', triangle: 'Dreieck', square: 'Quadrat', rectangle: 'Rechteck', hexagon: 'Sechseck', rhombus: 'Raute', oval: 'Oval', mystery: 'Rätsel-Galerie' };
+  var GNAME_PL = { circle: 'Kreise', triangle: 'Dreiecke', square: 'Quadrate', rectangle: 'Rechtecke', hexagon: 'Sechsecke', rhombus: 'Rauten', oval: 'Ovale' };
+  function gname(t) { return LANG === 'de' ? (GNAME[t] || t) : (NAME[t] || t); }
+  function gnamePl(t) { return LANG === 'de' ? (GNAME_PL[t] || GNAME[t] || t) : ((NAME[t] || t) + 's'); }
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shapeSVG(geom) {
@@ -53,27 +61,28 @@
     reward: { id: 'pip-museum', label: "Pip's Museum", emoji: '🏛️' },
 
     strings: {
-      title: { en: "Professor Pip's Museum" },
-      prompt: { en: 'Name each treasure — any way it turns!' },
-      routeHint: { en: 'What is this? Tap its pedestal to name it.' },
-      excludeHint: { en: 'Name it — or send it to the Mystery Gallery!' },
-      fineHint: { en: 'Square or rectangle? Look closely!' },
-      nameHint: { en: 'Pip wants a {n}! Tap the {n}.' },
-      matchHint: { en: 'Find the TWO {n}s — even if they look different!' },
-      confirmHint: { en: 'Pip says it is a {n}. Is that right?' },
-      capstoneHint: { en: 'Name every treasure and open the hall!' },
-      mystery: { en: 'Mystery Gallery' },
-      agree: { en: 'Yes!' },
-      disagree: { en: 'No!' },
-      win: { en: 'The hall is open! 🎀' },
-      revealTilted: { en: '{n}! Even turned — you knew.' },
-      misroute: { en: "Hmm — that's a {n}. It goes over here." },
-      hintCheck: { en: 'Name each treasure by its pedestal.' }
+      title: { en: "Professor Pip's Museum", de: 'Professor Pips Museum' },
+      prompt: { en: 'Name each treasure — any way it turns!', de: 'Benenne jeden Schatz — egal, wie er sich dreht!' },
+      routeHint: { en: 'What is this? Tap its pedestal to name it.', de: 'Was ist das? Tippe auf den richtigen Sockel.' },
+      excludeHint: { en: 'Name it — or send it to the Mystery Gallery!', de: 'Benenne es — oder schick es in die Rätsel-Galerie!' },
+      fineHint: { en: 'Square or rectangle? Look closely!', de: 'Quadrat oder Rechteck? Schau genau hin!' },
+      nameHint: { en: 'Pip wants a {n}! Tap the {n}.', de: 'Pip sucht diese Form: {n}. Tippe darauf!' },
+      matchHint: { en: 'Find the TWO {n}s — even if they look different!', de: 'Finde die ZWEI {np} — auch wenn sie anders aussehen!' },
+      confirmHint: { en: 'Pip says it is a {n}. Is that right?', de: 'Pip nennt es {n}. Stimmt das?' },
+      capstoneHint: { en: 'Name every treasure and open the hall!', de: 'Benenne jeden Schatz und öffne den Saal!' },
+      mystery: { en: 'Mystery Gallery', de: 'Rätsel-Galerie' },
+      agree: { en: 'Yes!', de: 'Ja!' },
+      disagree: { en: 'No!', de: 'Nein!' },
+      win: { en: 'The hall is open! 🎀', de: 'Der Saal ist offen! 🎀' },
+      revealTilted: { en: '{n}! Even turned — you knew.', de: '{n}! Auch gedreht — du hast’s gewusst.' },
+      misroute: { en: "Hmm — that's a {n}. It goes over here.", de: 'Hmm — {n} gehört dorthin!' },
+      hintCheck: { en: 'Name each treasure by its pedestal.', de: 'Benenne jeden Schatz an seinem Sockel.' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.solved = false; this.solvedCount = 0; this.msg = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -118,9 +127,9 @@
       if (this.facet === 'exclude-route') return api.t('excludeHint');
       if (this.facet === 'fine-discriminate') return api.t('fineHint');
       if (this.facet === 'capstone') return api.t('capstoneHint');
-      if (this.facet === 'name-to-shape') return api.t('nameHint').replace(/\{n\}/g, this.target);
-      if (this.facet === 'match-pair') return api.t('matchHint').replace('{n}', this.matchName);
-      if (this.facet === 'confirm-correct') { var c = this.claims[this.claimIdx]; return api.t('confirmHint').replace('{n}', c ? c.claim : ''); }
+      if (this.facet === 'name-to-shape') return api.t('nameHint').replace(/\{n\}/g, gname(this.target));
+      if (this.facet === 'match-pair') { var mh = api.t('matchHint'); return (LANG === 'de') ? mh.replace('{np}', gnamePl(this.matchName)) : mh.replace('{n}', this.matchName); }
+      if (this.facet === 'confirm-correct') { var c = this.claims[this.claimIdx]; return api.t('confirmHint').replace('{n}', gname(c ? c.claim : '')); }
       return api.t('routeHint');
     },
 
@@ -138,10 +147,10 @@
     },
     _pedestalEl: function (type, onTap) {
       var self = this, api = this.api;
-      var ped = api.el('button', 'pip-pedestal'); ped.type = 'button'; ped.style.background = TINT[type] || '#eee'; ped.setAttribute('aria-label', NAME[type]);
+      var ped = api.el('button', 'pip-pedestal'); ped.type = 'button'; ped.style.background = TINT[type] || '#eee'; ped.setAttribute('aria-label', gname(type));
       if (type === 'mystery') { var q = api.el('div', 'pip-mystery'); q.textContent = '?'; ped.appendChild(q); }
       else ped.appendChild(this._pedestalTrio(type));
-      var plate = api.el('div', 'pip-plate'); plate.textContent = (type === 'mystery') ? api.t('mystery') : NAME[type]; ped.appendChild(plate);
+      var plate = api.el('div', 'pip-plate'); plate.textContent = (type === 'mystery') ? api.t('mystery') : gname(type); ped.appendChild(plate);
       ped.addEventListener('click', function () { onTap(type); });
       return ped;
     },
@@ -166,15 +175,15 @@
       if (this._spinning) return;
       var self = this, idx = this._activeBeltIdx(); if (idx < 0) return;
       var ex = this.belt[idx], truth = Core.classifyInvariant(ex.geom);
-      speak(NAME[type] === 'Mystery Gallery' ? 'Mystery' : NAME[type]);
+      speak(type === 'mystery' ? (LANG === 'de' ? 'Rätselform' : 'Mystery') : gname(type));
       if (truth === type) {
         this._spinning = true; this.msg = null;
         if (this._activeEl) this._activeEl.style.transform = 'rotate(0deg) scale(1)';   // SPIN-TO-UPRIGHT (commit-only)
-        if (type !== 'mystery') { var nm = truth.charAt(0).toUpperCase() + truth.slice(1); this.announce(this.api.t('revealTilted').replace('{n}', nm)); setTimeout(function () { speak(nm + '! Even turned, you knew'); }, 180); }
+        if (type !== 'mystery') { var nm = gname(truth); this.announce(this.api.t('revealTilted').replace('{n}', nm)); setTimeout(function () { speak(LANG === 'de' ? (nm + '! Auch gedreht hast du es gewusst.') : (nm + '! Even turned, you knew')); }, 180); }
         this.api.sound && this.api.sound(880);
         setTimeout(function () { self._spinning = false; ex.routed = true; if (self._activeBeltIdx() < 0) self._win(); else self.render(); }, 440);
       } else {
-        var nm2 = truth === 'mystery' ? 'mystery shape' : truth;
+        var nm2 = truth === 'mystery' ? (LANG === 'de' ? 'Rätselform' : 'mystery shape') : gname(truth);
         this.msg = this.api.t('misroute').replace('{n}', nm2); this.api.sound && this.api.sound(330);
         ex.geom = Core.genGeometryFor(ex.src.type, Core.reseed(ex.geom.rot * 131 + ex.src.seed), ex.src.assessed);   // RE-SEED on return
         this.announce(this.msg); this.render();
@@ -195,8 +204,8 @@
     },
     _pickNamed: function (i, card) {
       var self = this, c = this.choices[i], truth = Core.classifyInvariant(c.geom);
-      if (truth === this.target) { c.routed = true; card.querySelector('.pip-exhibit').style.transform = 'rotate(0deg) scale(1)'; speak(this.target + '!'); this.api.sound && this.api.sound(880); setTimeout(function () { self._win(); }, 440); }
-      else { this.msg = this.api.t('misroute').replace('{n}', truth === 'mystery' ? 'mystery shape' : truth); speak("That's a " + truth); this.api.sound && this.api.sound(330); this.render(); }
+      if (truth === this.target) { c.routed = true; card.querySelector('.pip-exhibit').style.transform = 'rotate(0deg) scale(1)'; speak(gname(this.target) + '!'); this.api.sound && this.api.sound(880); setTimeout(function () { self._win(); }, 440); }
+      else { this.msg = this.api.t('misroute').replace('{n}', truth === 'mystery' ? (LANG === 'de' ? 'Rätselform' : 'mystery shape') : gname(truth)); speak(LANG === 'de' ? ('Richtig wäre ' + gname(truth)) : ("That's a " + truth)); this.api.sound && this.api.sound(330); this.render(); }
     },
 
     /* ----- match-pair: tap the two same-named exhibits ----- */
@@ -217,8 +226,8 @@
       this.selected.push(i); this.api.sound && this.api.sound(640);
       if (this.selected.length === 2) {
         var ok = this.selected.every(function (j) { return Core.classifyInvariant(self.set[j].geom) === self.matchName; });
-        if (ok) { this.api.sound && this.api.sound(880); speak('Both ' + this.matchName + 's!'); setTimeout(function () { self._win(); }, 300); return; }
-        this.msg = "Not both " + this.matchName + "s — look again!"; this.selected = []; this.api.sound && this.api.sound(330);
+        if (ok) { this.api.sound && this.api.sound(880); speak(LANG === 'de' ? ('Beide sind ' + gnamePl(this.matchName) + '!') : ('Both ' + this.matchName + 's!')); setTimeout(function () { self._win(); }, 300); return; }
+        this.msg = (LANG === 'de') ? ('Das sind nicht beide ' + gnamePl(this.matchName) + ' — schau nochmal!') : ("Not both " + this.matchName + "s — look again!"); this.selected = []; this.api.sound && this.api.sound(330);
       }
       this.render();
     },
@@ -237,15 +246,15 @@
       var self = this, c = this.claims[this.claimIdx], truth = Core.classifyInvariant(c.geom);
       var claimTrue = (truth === c.claim);
       if (agree === claimTrue) {
-        this.api.sound && this.api.sound(820); speak(truth === 'mystery' ? 'A mystery shape' : truth);
+        this.api.sound && this.api.sound(820); speak(truth === 'mystery' ? (LANG === 'de' ? 'Rätselform' : 'A mystery shape') : gname(truth));
         this.claimIdx++; this.msg = null;
         if (this.claimIdx >= this.claims.length) { setTimeout(function () { self._win(); }, 200); } else this.render();
-      } else { this.msg = "Look again — what shape IS it?"; this.api.sound && this.api.sound(330); this.render(); }
+      } else { this.msg = (LANG === 'de') ? 'Schau nochmal — welche Form ist das?' : "Look again — what shape IS it?"; this.api.sound && this.api.sound(330); this.render(); }
     },
 
     _win: function () {
       this.solved = true; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 8);
-      this.api.sound && this.api.sound(920); this.render(); this.announce(this.api.t('win')); speak('The hall is open');
+      this.api.sound && this.api.sound(920); this.render(); this.announce(this.api.t('win')); speak(LANG === 'de' ? 'Der Saal ist offen.' : 'The hall is open');
     },
     _renderDone: function (root) {
       var api = this.api;

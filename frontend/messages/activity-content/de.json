@@ -1250,6 +1250,29 @@
         "Ein erstes Größenverständnis aufbauen — als Vorbereitung auf das spätere Messen mit Litern"
       ]
     },
+    "pip-museum.curate-wing.k-g-a-2": {
+      "about": [
+        "Professor Pip sammelt Formen für sein kleines Museum — und jede einzelne braucht den richtigen Platz. Die Formen treffen schräg, winzig oder in die Länge gezogen ein, manche stehen sogar Kopf. Dein Kind schaut genau hin und bringt jede Form zu dem Podest, auf dem ihr Name steht: Kreis, Dreieck, Quadrat, Rechteck oder Sechseck.",
+        "Dahinter steckt eine wichtige Idee aus der Geometrie: Eine Form behält ihren Namen, egal wie sie gedreht ist oder wie groß sie ist. Ein Quadrat, das auf der Spitze steht, ist immer noch ein Quadrat — auch wenn es im ersten Moment wie eine Raute aussieht. Eine echte Raute dagegen ist kein Quadrat, denn ihre Ecken sind anders. Genau dieses „auch gedreht — du hast es trotzdem erkannt!“ macht aus dem bloßen Ansehen ein echtes Benennen.",
+        "Die Übung ist kostenlos und kommt ganz ohne Druck aus: keine Zeituhr, keine Punkte, kein Zählen. Dein Kind kann in Ruhe ausprobieren, vergleichen und Formen auch wieder umräumen. So sammelt es spielerisch erste Erfahrungen aus dem Bereich Geometrie des Lehrplans der Grundschule, Leitidee „Raum und Form“."
+      ],
+      "practices": [
+        "Ebene Formen benennen: Kreis, Dreieck, Quadrat, Rechteck und Sechseck.",
+        "Eine Form wiedererkennen, egal wie sie gedreht oder wie groß sie ist.",
+        "Quadrat und Rechteck voneinander unterscheiden.",
+        "Eine Raute von einem Quadrat unterscheiden."
+      ],
+      "howToPlay": [
+        "Schau dir die Form genau an — auch wenn sie schräg liegt oder ganz klein ist.",
+        "Bringe sie zum Podest mit dem passenden Namen.",
+        "Eine Form, die zu keinem Namen passt, schickst du in die Rätsel-Galerie."
+      ],
+      "learningGoals": [
+        "Ebene Formen sicher erkennen und mit ihrem richtigen Namen benennen.",
+        "Verstehen, dass Drehen und Größe den Namen einer Form nicht verändern.",
+        "Ähnliche Formen wie Quadrat und Rechteck oder Quadrat und Raute genau unterscheiden."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

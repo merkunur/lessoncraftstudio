@@ -36,6 +36,21 @@
       nudgeSibling: 'That’s the same KIND — but the OTHER end?',
       nudgeRelated: 'That’s a friend — find its opposite!',
       nudgeUnrelated: 'Not the opposite — look for the other end!'
+    },
+    de: {
+      pick: 'Tipp das Gegenteil an – das andere Ende!',
+      generate: 'Tipp das Gegenteil an. Das andere Ende!',
+      balance: 'Finde das Gegenteil und bring die Waage ins Gleichgewicht.',
+      verb: 'Welche Bewegung ist das Gegenteil?',
+      route: 'Schick jedes Wort zur richtigen Tür.',
+      oddpair: 'Welches Paar ist KEIN Gegensatz?',
+      scene: 'Tippe alles an, was verkehrt herum ist!',
+      doorOpp: 'Gegenteil', doorSame: 'Gleiche Art', trade: 'Tausch es!',
+      win: 'Genau – das ist das Gegenteil! 🎉',
+      winScene: 'Jetzt ist alles richtig herum. Schlaf gut! 🌙',
+      nudgeSibling: 'Fast! Das ist die gleiche Art – aber such das andere Ende.',
+      nudgeRelated: 'Das ist ein Freund davon. Wo ist sein Gegenteil?',
+      nudgeUnrelated: 'Das passt nicht dazu. Schau noch mal!'
     }
   };
   function txt(k, a) {
@@ -169,15 +184,15 @@
   var OppositesActivity = {
     id: 'opposites',
     strings: {
-      title: { en: "Quill's Mirror Market" },
-      instruction: { en: 'Bring Quill the OPPOSITE — the other end, not just a friend!' },
-      qPick: { en: 'Find the opposite!' },
-      qGenerate: { en: 'What is the opposite?' },
-      qBalance: { en: 'Balance the scale!' },
-      qVerb: { en: 'Do the opposite action!' },
-      qRoute: { en: 'Opposite, or just the same kind?' },
-      qOddpair: { en: 'Which pair is NOT opposites?' },
-      qScene: { en: 'Flip the backwards world!' }
+      title: { en: "Quill's Mirror Market", de: 'Quills Spiegelmarkt' },
+      instruction: { en: 'Bring Quill the OPPOSITE — the other end, not just a friend!', de: 'Finde immer das Gegenteil – wie im Spiegel!' },
+      qPick: { en: 'Find the opposite!', de: 'Tipp das Gegenteil an.' },
+      qGenerate: { en: 'What is the opposite?', de: 'Was ist das Gegenteil?' },
+      qBalance: { en: 'Balance the scale!', de: 'Finde das Gegenteil und bring die Waage ins Gleichgewicht.' },
+      qVerb: { en: 'Do the opposite action!', de: 'Welche Bewegung ist das Gegenteil?' },
+      qRoute: { en: 'Opposite, or just the same kind?', de: 'Schick jedes Wort zur richtigen Tür.' },
+      qOddpair: { en: 'Which pair is NOT opposites?', de: 'Welches Paar ist KEIN Gegensatz?' },
+      qScene: { en: 'Flip the backwards world!', de: 'Tippe alles an, was verkehrt herum ist!' }
     },
 
     init: function (api) {
@@ -256,7 +271,9 @@
         fetch(tries[i]).then(function (r) { return r.ok ? r.json() : Promise.reject(); })
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
-            self._activityRow = row; self._pool = (row && row.params && row.params.rounds) || [];
+            var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en';
+            self._activityRow = row;
+            self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[lang]) || row.params.rounds)) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -297,7 +314,8 @@
 
     _speak: function (token) {
       if (!global.LCSAudio || !global.LCSAudio.speak || !token || !token.word) return;
-      global.LCSAudio.speak({ type: 'word', text: String(token.word), lang: 'en', rate: 0.95 });
+      var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en';
+      global.LCSAudio.speak({ type: 'word', text: String(token.word), lang: lang, rate: 0.95 });
     },
 
     _card: function (token, opts) {
@@ -353,7 +371,11 @@
     _renderSelect: function (root) {
       var self = this, r = this._round, tok = this._token;
       if (r.cog === 'generate') {
-        var pr = el('div', 'op-prompt'); pr.textContent = 'Opposite of ' + cap(r.target.word) + '?'; root.appendChild(pr);
+        var gLang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en';
+        var pr = el('div', 'op-prompt');
+        /* DE: adjective/adverb targets stay LOWERCASE mid-sentence → no cap() */
+        pr.textContent = gLang === 'de' ? ('Gegenteil von ' + r.target.word + '?') : ('Opposite of ' + cap(r.target.word) + '?');
+        root.appendChild(pr);
       } else {
         var tg = el('div', 'op-target'); tg.innerHTML = gly(r.target.glyph, 50) + '<span class="op-w">' + esc(cap(r.target.word)) + (r.cog === 'verb' ? ' …?' : '') + '</span>'; root.appendChild(tg);
       }
@@ -457,7 +479,8 @@
            keys on a `-card` substring + role=button); op-pair carries styling */
         var card = el('div', 'op-pair op-pair-card' + (self._nonConf[pi] ? ' dim' : ''));
         card.setAttribute('role', 'button'); card.tabIndex = 0;
-        card.setAttribute('aria-label', cap(pr.a.word) + ' and ' + cap(pr.b.word));
+        var opLang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en';
+        card.setAttribute('aria-label', cap(pr.a.word) + (opLang === 'de' ? ' und ' : ' and ') + cap(pr.b.word));
         card.innerHTML = gly(pr.a.glyph, 46) + '<span class="op-x">↔</span>' + gly(pr.b.glyph, 46);
         card.addEventListener('click', function () {
           if (self._resolved || self._nonConf[pi] || self._token !== tok) return;
@@ -477,7 +500,9 @@
         var flipped = !!self._sceneFlipped[k];
         var cur = flipped ? e.flipGlyph : e.glyph, word = flipped ? e.flipWord : e.word;
         var card = el('button', 'op-card' + (flipped ? ' flip' : ''));
-        card.type = 'button'; card.setAttribute('aria-label', cap(word) + (flipped ? ' (fixed)' : ' — tap to flip'));
+        var scLang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en';
+        var scAria = scLang === 'de' ? (flipped ? ' (richtig)' : ' – zum Umdrehen tippen') : (flipped ? ' (fixed)' : ' — tap to flip');
+        card.type = 'button'; card.setAttribute('aria-label', cap(word) + scAria);
         card.innerHTML = gly(cur, 50) + '<span class="op-w">' + esc(cap(word)) + '</span>';
         card.addEventListener('click', function () {
           if (self._resolved || self._token !== tok) return;

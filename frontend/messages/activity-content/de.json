@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "opposites.antonyms.k-l-5-b": {
+      "about": [
+        "Auf Quills Spiegelmarkt wird nur getauscht, wenn du das Spiegelbild mitbringst. Quill, der kleine Igel, zeigt deinem Kind ein Wort – und am Marktstand muss es darauf tippen, was genau das Gegenteil davon ist: zu oben gehört unten, zu drücken gehört ziehen, zu heiß gehört kalt. Stimmt das Paar, klingelt die Kasse und der Tausch ist perfekt.",
+        "Hinter dem Spiel steckt eine wichtige Idee: Wörter haben oft ein Gegenstück, ein Gegenteil. Schwarz und weiß gehören zusammen, weil das eine das andere umkehrt – schwarz und rot sind dagegen nur zwei Farben und keine Gegensätze. Genau diese Falle übt dein Kind hier: Es lernt, das andere Ende eines Wortes zu suchen und nicht einfach ein ähnliches Wort zu nehmen. So wächst der Wortschatz, und dein Kind beschreibt Dinge bald genauer.",
+        "Der Spiegelmarkt ist kostenlos und ganz ohne Druck: keine Zeit, keine Punkte, kein Verlieren. Dein Kind darf so oft tippen und ausprobieren, wie es mag. Die Aufgabe orientiert sich am Lehrplan der Grundschule, am Bereich „Wortschatz untersuchen“, in dem Kinder Wörter ordnen, vergleichen und ihre Bedeutung erkunden."
+      ],
+      "practices": [
+        "Gegensatzpaare erkennen (groß – klein, heiß – kalt, oben – unten)",
+        "Das echte Gegenteil von einem nur ähnlichen Wort unterscheiden",
+        "Den Wortschatz rund um Eigenschaften und Bewegungen erweitern",
+        "Wörter bewusst vergleichen und ihre Bedeutung gegenüberstellen"
+      ],
+      "howToPlay": [
+        "Quill zeigt dir ein Wort, zum Beispiel schwarz.",
+        "Tippe auf die Karte mit dem Gegenteil – also weiß, nicht rot.",
+        "Passt das Paar, ist der Tausch perfekt und das nächste Wort kommt."
+      ],
+      "learningGoals": [
+        "Dein Kind findet zu einem Wort das passende Gegenteil.",
+        "Dein Kind merkt, dass ein ähnliches Wort noch kein Gegensatz ist.",
+        "Dein Kind baut seinen Wortschatz aus und beschreibt Dinge genauer."
+      ]
+    },
     "picture-story.read.rl-k-1": {
       "about": [
         "Fabel der Fuchs hat eine kleine Geschichte in drei Bildern dabei und liest sie deinem Kind vor. Anschließend darf dein Kind zeigen, dass es die Geschichte wirklich verstanden hat: Es tippt die Antwort auf eine Frage zu den wichtigen Einzelheiten an. Wer ist dabei? Was passiert? Wo spielt die Geschichte? Was ist zuerst und was zuletzt passiert? Warum geschieht das? Und wie haben sich die Figuren am Ende gefühlt?",

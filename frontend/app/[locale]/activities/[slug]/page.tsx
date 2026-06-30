@@ -66,6 +66,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'rivets-number-forge.numeral-album.k-cc-a-3': { de: '1' },              // K count-enacted numeral production (Anzahl bis 20 + passende Ziffer) → Klasse 1 (ZR bis 20); en stays Kindergarten (K-cluster; digby/pips siblings precedent)
   'mamas-roll-call.numeral-trace.k-cc-b-5': { de: '1' },                  // K count-out (self-stop) + Ziffer formen (Anzahl bis 9) → Klasse 1; en stays Kindergarten (K-cluster; mochi/twinsies K.CC.B.5 precedent)
   'parking-tower.place-by-relation.k-g-a-1': { de: '1' },                 // K Lagebeziehungen über/unter/neben/zwischen → Klasse 1 Geometrie; en stays Kindergarten (K-cluster)
+  'opposites.antonyms.k-l-5-b': { de: '1' },                              // K antonyms (Gegensätze/Gegenteile) = foundational Klasse-1 Wortschatzarbeit; en stays Kindergarten (K-cluster K-label)
 };
 function effGrade(row: ActivityRow, locale: string): string {
   return (locale !== 'en' && GRADE_OVERRIDE[row.id] && GRADE_OVERRIDE[row.id][locale]) || row.alignment.grade;
@@ -82,6 +83,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'fern-clue-garden.context-clues.l-2-4-a': { de: 'Wortschatz untersuchen' }, // Teekesselwörter/Wortbedeutung = vocabulary, not the grammar Bereich (affix/olive/roary/ziggy precedent)
   'booker-glossary-desk.guide-words.l-2-4-e': { de: 'Richtig schreiben' }, // Wörterbuch nachschlagen = Rechtschreib-Arbeitstechnik, not Sprache untersuchen (cleo/wally precedent)
   'gabby-sayings.idioms.l-3-5-a': { de: 'Wortschatz untersuchen' }, // Redewendungen = feste Bedeutungseinheit / Wortbedeutung = vocabulary (roary/fern/olive L.5 precedent), not the grammar Bereich
+  'opposites.antonyms.k-l-5-b': { de: 'Wortschatz untersuchen' }, // Gegensätze/Antonyme = Wortbedeutung/semantic relation = vocabulary (olive/roary/fern/gabby/ziggy/jasper precedent), not the grammar Bereich
   'field-guide.text-features.1-ri-5': { de: 'Lesen – mit Texten und Medien umgehen' }, // USING the book's tools to navigate = Lesestrategie/Texterschließung (the KMK Bereich), NOT comprehension (#78's „Sachtexte verstehen")
   'bea-two-bookshelves.story-or-fact.rl-1-5': { de: 'Lesen – mit Texten und Medien umgehen' }, // Geschichte-vs-Sachbuch = Textsortenbewusstheit (Umgang-mit-Texten), NOT literary comprehension; CCSS „Reading: Literature" auto-map absent → override sets the chip (a future story-comprehension RL activity opens its own literary Bereich)
   'graph-it.bar-graph.2-md-d-10': { de: 'Daten und Häufigkeit' },   // bar graph = data, not Größen
@@ -383,7 +385,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.85';
+  const ACTIVITY_WRAPPER_VERSION = '9.86';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

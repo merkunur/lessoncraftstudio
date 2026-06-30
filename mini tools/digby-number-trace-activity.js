@@ -17,11 +17,12 @@
   var Core = global.NumberTraceCore;
   var SVGNS = 'http://www.w3.org/2000/svg';
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', FAINT: 'rgba(20,107,94,.22)' };
+  var LANG = 'en';
 
   function svg(tag, attrs) { var e = document.createElementNS(SVGNS, tag); for (var k in attrs) if (attrs.hasOwnProperty(k)) e.setAttribute(k, attrs[k]); return e; }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   /* Catmull-Rom → cubic-Bézier spline that PASSES THROUGH every point. <3 → line. */
   function splinePath(pts) {
@@ -38,7 +39,7 @@
   }
 
   function dogSVG() {
-    return '<svg class="dnt-dog-svg" viewBox="0 0 100 100" role="img" aria-label="Digby the dog">' +
+    return '<svg class="dnt-dog-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Digby der Hund' : 'Digby the dog') + '">' +
       '<ellipse cx="50" cy="58" rx="22" ry="20" fill="#C79B6E"/>' +                /* head */
       '<path d="M30 40 q-10 -4 -8 16 q8 6 14 -2z" fill="#A77B4E"/>' +              /* left ear */
       '<path d="M70 40 q10 -4 8 16 q-8 6 -14 -2z" fill="#A77B4E"/>' +             /* right ear */
@@ -53,19 +54,25 @@
     id: 'digby-number-trace-activity',
 
     strings: {
-      title: { en: "Digby's Number Trace" },
-      instruction: { en: 'Start on the dot and trace the number.' },
-      prompt: { en: 'Start on the dot and trace the number.' },
-      digbyIntro: { en: "Start on the dot and trace each stroke in order!" },
-      sayStroke: { en: 'Nice — next stroke!' },
-      sayOff: { en: 'Follow the shape — start on the dot.' },
-      sayWin: { en: 'Great number! ✏️' },
-      hintCheck: { en: 'Trace each stroke in order, starting on the dot.' }
+      title: { en: "Digby's Number Trace", de: 'Digbys Zahlen-Spur' },
+      instruction: { en: 'Start on the dot and trace the number.', de: 'Beginne am Punkt und spure die Zahl nach.' },
+      prompt: { en: 'Start on the dot and trace the number.', de: 'Beginne am Punkt und spure die Zahl nach.' },
+      digbyIntro: { en: "Start on the dot and trace each stroke in order!", de: 'Starte am Punkt und fahre jeden Strich der Reihe nach!' },
+      sayStroke: { en: 'Nice — next stroke!', de: 'Super – nächster Strich!' },
+      sayOff: { en: 'Follow the shape — start on the dot.', de: 'Bleib auf der Linie – starte am Punkt.' },
+      sayWin: { en: 'Great number! ✏️', de: 'Tolle Zahl! ✏️' },
+      hintCheck: { en: 'Trace each stroke in order, starting on the dot.', de: 'Spure jeden Strich in der richtigen Reihenfolge nach – beginne am Punkt.' },
+      sayWinSpoken: { en: 'Great!', de: 'Super!' },
+      numlab: { en: 'Trace {d}', de: 'Schreibe die {d}' },
+      numlabAria: { en: 'trace the number {n}', de: 'die Zahl {n} nachspuren' },
+      svgAria: { en: 'trace {n}', de: 'die {n} nachspuren' },
+      doneAria: { en: 'the number you wrote: {n}', de: 'die Zahl, die du geschrieben hast: {n}' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.solved = false; this.cs = null; this.ink = []; this.cur = null; this.dragging = false; this.msg = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -89,8 +96,8 @@
       root.appendChild(say);
 
       var head = api.el('div', 'dnt-head');
-      var chip = api.el('span', 'dnt-numlab'); chip.innerHTML = 'Trace <b class="dnt-num">' + String(r.digit) + '</b>';
-      chip.setAttribute('aria-label', 'trace the number ' + r.digit);
+      var chip = api.el('span', 'dnt-numlab'); chip.innerHTML = api.t('numlab').replace('{d}', '<b class="dnt-num">' + String(r.digit) + '</b>');
+      chip.setAttribute('aria-label', api.t('numlabAria').replace('{n}', r.digit));
       head.appendChild(chip);
       root.appendChild(head);
 
@@ -102,7 +109,7 @@
     _renderPaper: function (root) {
       var self = this, api = this.api, r = this.round, g = Core.glyphOf(r.digit), done = this.cs.strokesDone;
       var wrap = api.el('div', 'dnt-paper');
-      var sv = svg('svg', { viewBox: '0 0 100 100', class: 'dnt-svg', 'aria-label': 'trace ' + r.digit });
+      var sv = svg('svg', { viewBox: '0 0 100 100', class: 'dnt-svg', 'aria-label': api.t('svgAria').replace('{n}', r.digit) });
       sv.style.touchAction = 'none';
       sv.appendChild(svg('line', { x1: 4, y1: 86, x2: 96, y2: 86, stroke: 'rgba(20,107,94,.16)', 'stroke-width': 1 }));
       sv.appendChild(svg('line', { x1: 4, y1: 14, x2: 96, y2: 14, stroke: 'rgba(20,107,94,.10)', 'stroke-width': 1, 'stroke-dasharray': '2 4' }));
@@ -132,7 +139,7 @@
       var api = this.api, d = api.el('div', 'dnt-done');
       if (this.ink && this.ink.length) {
         var paper = api.el('div', 'dnt-donepaper');
-        var sv = svg('svg', { viewBox: '0 0 100 100', class: 'dnt-donesvg', 'aria-label': 'the number you wrote: ' + this.round.digit });
+        var sv = svg('svg', { viewBox: '0 0 100 100', class: 'dnt-donesvg', 'aria-label': api.t('doneAria').replace('{n}', this.round.digit) });
         this.ink.forEach(function (p) { if (p && p.length > 1) sv.appendChild(svg('path', { d: p.map(function (q, i) { return (i ? 'L' : 'M') + q.x.toFixed(1) + ',' + q.y.toFixed(1); }).join(' '), fill: 'none', stroke: C.T, 'stroke-width': 8, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' })); });
         paper.appendChild(sv); d.appendChild(paper);
       }
@@ -155,7 +162,8 @@
 
     _correct: function () {
       var api = this.api; this.solved = true; this.msg = api.t('sayWin'); api.sound && api.sound(880);
-      setTimeout(function () { speak('Great!'); }, 150);
+      var _win = api.t('sayWinSpoken');
+      setTimeout(function () { speak(_win); }, 150);
       this.render(); api.announce && api.announce(this.msg);
     },
 

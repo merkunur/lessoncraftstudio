@@ -1687,6 +1687,29 @@
         "Das Kind versteht: Die Anzahl bleibt gleich, unabhängig von der Anordnung (Anzahlinvarianz)."
       ]
     },
+    "rivets-number-forge.numeral-album.k-cc-a-3": {
+      "about": [
+        "Rivet, der Waschbär, hat in seiner kleinen Werkstatt eine glänzende Zähl-Schmiede gebaut. Hier wird keine Zahl ausgesucht — hier wird sie geschmiedet! Du reißt ein Päckchen auf, und heraus purzeln kleine Schätze: Eicheln, Knöpfe, Glühwürmchen oder Murmeln. Du tippst jeden Schatz genau einmal an und zählst ihn ab, eins nach dem anderen. Dann ziehst du am Hebel — und die Presse prägt aus deiner Anzahl die passende Zahl. Die „3“ entsteht, weil du drei Dinge gezählt hast. Die Zahl wird von deinem Zählen gemacht.",
+        "Manchmal ist das Päckchen leer — dann prägt die Presse die Null, denn die Null ist auch eine Zahl und sagt: „hier ist nichts.“ Mal ziehen die Schätze in einer Parade an dir vorbei und du zählst beim Vorbeimarschieren mit. Mal liegen verschiedene Dinge durcheinander und du zählst nur eine Sorte. Und manchmal hat Rivet selbst schon eine Zahl geprägt — dann zählst du nach und sagst, ob sie stimmt oder nicht. So lernst du, deinem eigenen Zählen zu vertrauen und nachzuprüfen.",
+        "Es gibt auch Runden, in denen du andersherum arbeitest: Ein Zettel zeigt eine Zahl, und du legst genau so viele Schätze in den Beutel. Bei dieser Zähl-Schmiede gibt es keine Uhr, keine Punkte und keinen Wettlauf — du darfst in deinem eigenen Tempo zählen, prägen und so oft ausprobieren, wie du magst. Alles ist frei zugänglich, ganz ohne Druck. Orientiert am Lehrplan der Grundschule, Leitidee „Zählen und Mengen“."
+      ],
+      "practices": [
+        "Jeden Gegenstand genau einmal abzählen — eins-zu-eins, ohne Auslassen oder Doppeltzählen.",
+        "Verstehen, dass das letzte Zählwort die ganze Anzahl angibt (Kardinalzahlprinzip).",
+        "Eine gezählte Menge mit der richtigen Zahl darstellen — auch die Null für die leere Menge.",
+        "Die eigene Zahl prüfen, nachzählen und die Zahl-Menge-Zuordnung in beide Richtungen erfassen."
+      ],
+      "howToPlay": [
+        "Reiße das Päckchen auf und tippe jeden Schatz einmal an, während du laut mitzählst.",
+        "Ziehe am Hebel — die Presse prägt aus deiner Anzahl die passende Zahl.",
+        "Bei Umkehr-Runden liest du die Zahl auf dem Zettel und legst genau so viele Schätze in den Beutel."
+      ],
+      "learningGoals": [
+        "Ich kann eine Menge bis 20 sicher abzählen und mit der richtigen Zahl darstellen — auch die Null.",
+        "Ich kann unter verschiedenen Dingen nur eine Sorte zählen und eine fertige Zahl durch Nachzählen prüfen.",
+        "Ich verstehe, dass jede Zahl genau einer Anzahl entspricht — und kann aus einer Zahl wieder die passende Menge legen."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

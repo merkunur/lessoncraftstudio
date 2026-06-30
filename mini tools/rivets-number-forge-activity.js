@@ -23,11 +23,20 @@
   var Core = global.NumeralAlbumCore;
   var C = { T: '#146B5E', T2: '#0e4f45', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', GOLD: '#E8A53A', GOLD2: '#c8841f', INK: '#2A2A35', BROWN: '#9A6B3F' };
   var WORDS = { 0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight', 9: 'nine', 10: 'ten', 11: 'eleven', 12: 'twelve', 13: 'thirteen', 14: 'fourteen', 15: 'fifteen', 16: 'sixteen', 17: 'seventeen', 18: 'eighteen', 19: 'nineteen', 20: 'twenty' };
+  var WORDS_DE = { 0: 'null', 1: 'eins', 2: 'zwei', 3: 'drei', 4: 'vier', 5: 'fünf', 6: 'sechs', 7: 'sieben', 8: 'acht', 9: 'neun', 10: 'zehn', 11: 'elf', 12: 'zwölf', 13: 'dreizehn', 14: 'vierzehn', 15: 'fünfzehn', 16: 'sechzehn', 17: 'siebzehn', 18: 'achtzehn', 19: 'neunzehn', 20: 'zwanzig' };
+  var KIND_DE = {
+    acorn:   { art: 'eine Eichel',        bare: 'Eichel',        pl: 'Eicheln' },
+    button:  { art: 'ein Knopf',          bare: 'Knopf',         pl: 'Knöpfe' },
+    firefly: { art: 'ein Glühwürmchen',   bare: 'Glühwürmchen',  pl: 'Glühwürmchen' },
+    marble:  { art: 'eine Murmel',        bare: 'Murmel',        pl: 'Murmeln' }
+  };
+  var LANG = 'en';
+  function numWord(n) { return (LANG === 'de' ? WORDS_DE : WORDS)[n] || n; }
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function rivetSVG(mood) {
@@ -57,37 +66,39 @@
 
     /* child-facing copy below — MORE/FEWER not relevant; numerals are produced, never selected */
     strings: {
-      title: { en: "Rivet's Number Forge" },
-      instruction: { en: 'Count the treasure and forge its number.' },
-      prompt: { en: 'Count it, then forge!' },
-      promptZero: { en: 'Empty pack — what number is that?' },
-      promptParade: { en: 'Count them as they march past!' },
-      promptSubset: { en: 'Count only the {kind}s!' },
-      promptVerify: { en: 'Rivet wrote {claim}. Count again — is it right?' },
-      promptBuild: { en: 'Fill the pack to match the dots, then forge!' },
-      promptReverse: { en: 'The ticket says {n} — pouch up that many!' },
-      hintIdle: { en: 'Tap each treasure to count it, then pull the lever.' },
-      hintParade: { en: 'Tap the one on the forge — here comes the next!' },
-      hintBuild: { en: 'Tap +Add until the pack matches the dots.' },
-      hintReverse: { en: 'Tap +Add until the pouch holds that many.' },
-      hintCheck: { en: 'Count every treasure, then pull the lever to forge!' },
-      lever: { en: 'Forge it! 🔨' },
-      add: { en: '＋ Add' },
-      undo: { en: '－ Take one' },
-      forging: { en: 'Forging…' },
-      made: { en: 'made of {n}' },
-      minted: { en: 'Forged a {numeral}! 🪙' },
-      mintedZero: { en: 'No treasure at all — that is ZERO! Zero is a number too. 🪙' },
-      wheeze: { en: "Not hot enough — let's count them again!" },
-      pageDone: { en: 'Page complete — gilded! 📒✨' },
-      countOnly: { en: 'only count the {kind}s' },
-      ticket: { en: 'Ticket' },
-      rivetClaim: { en: 'Rivet says' }
+      title: { en: "Rivet's Number Forge", de: 'Rivets Zahlen-Schmiede' },
+      instruction: { en: 'Count the treasure and forge its number.', de: 'Zähle die Schätze und schmiede ihre Zahl.' },
+      prompt: { en: 'Count it, then forge!', de: 'Zähl sie, dann schmiede!' },
+      promptZero: { en: 'Empty pack — what number is that?', de: 'Leeres Päckchen — welche Zahl ist das?' },
+      promptParade: { en: 'Count them as they march past!', de: 'Zähle sie, während sie vorbeiziehen!' },
+      promptSubset: { en: 'Count only the {kind}s!', de: 'Zähle nur die {kind}!' },
+      promptVerify: { en: 'Rivet wrote {claim}. Count again — is it right?', de: 'Rivet hat {claim} geschrieben. Zähl noch einmal — stimmt das?' },
+      promptBuild: { en: 'Fill the pack to match the dots, then forge!', de: 'Fülle das Päckchen, bis es zu den Punkten passt, dann schmiede!' },
+      promptReverse: { en: 'The ticket says {n} — pouch up that many!', de: 'Auf dem Zettel steht {n} — fülle so viele in den Beutel!' },
+      hintIdle: { en: 'Tap each treasure to count it, then pull the lever.', de: 'Tippe jeden Schatz an, um ihn zu zählen, dann zieh am Hebel.' },
+      hintParade: { en: 'Tap the one on the forge — here comes the next!', de: 'Tippe den auf dem Amboss an — der nächste kommt schon!' },
+      hintBuild: { en: 'Tap +Add until the pack matches the dots.', de: 'Tippe auf ＋Hinzufügen, bis das Päckchen zu den Punkten passt.' },
+      hintReverse: { en: 'Tap +Add until the pouch holds that many.', de: 'Tippe auf ＋Hinzufügen, bis der Beutel so viele hält.' },
+      hintCheck: { en: 'Count every treasure, then pull the lever to forge!', de: 'Zähle jeden Schatz, dann zieh am Hebel zum Schmieden!' },
+      lever: { en: 'Forge it! 🔨', de: 'Schmiede sie! 🔨' },
+      add: { en: '＋ Add', de: '＋ Hinzufügen' },
+      undo: { en: '－ Take one', de: '－ Eins wegnehmen' },
+      forging: { en: 'Forging…', de: 'Wird geschmiedet …' },
+      made: { en: 'made of {n}', de: 'aus {n} gemacht' },
+      minted: { en: 'Forged a {numeral}! 🪙', de: 'Eine {numeral} geschmiedet! 🪙' },
+      mintedZero: { en: 'No treasure at all — that is ZERO! Zero is a number too. 🪙', de: 'Gar kein Schatz — das ist die NULL! Null ist auch eine Zahl. 🪙' },
+      wheeze: { en: "Not hot enough — let's count them again!", de: 'Nicht heiß genug — zählen wir noch einmal!' },
+      pageDone: { en: 'Page complete — gilded! 📒✨', de: 'Seite geschafft — vergoldet! 📒✨' },
+      countOnly: { en: 'only count the {kind}s', de: 'zähle nur die {kind}' },
+      ticket: { en: 'Ticket', de: 'Zettel' },
+      rivetClaim: { en: 'Rivet says', de: 'Rivet sagt' },
+      nextNudge: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.solved = false; this.solvedCount = 0; this.msg = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -124,7 +135,7 @@
       var api = this.api, f = this._frame();
       if (this.act === 'zero' && (f.count | 0) === 0) return api.t('promptZero');
       if (this.act === 'parade') return api.t('promptParade');
-      if (this.act === 'subset') return api.t('promptSubset').replace('{kind}', f.kind);
+      if (this.act === 'subset') return api.t('promptSubset').replace('{kind}', LANG === 'de' ? (KIND_DE[f.kind] && KIND_DE[f.kind].pl) || f.kind : f.kind);
       if (this.act === 'verify') return api.t('promptVerify').replace('{claim}', f.claimNumeral);
       if (this.act === 'build-mint') return api.t('promptBuild');
       if (this.act === 'reverse') return api.t('promptReverse').replace('{n}', f.numeral);
@@ -172,7 +183,7 @@
         (function (base) {
           var on = true; for (var k = 0; k < 10; k++) if (!s.counted['t' + (base + k)]) on = false;
           var blk = api.el('button', 'nf-tenblock' + (on ? ' nf-tenblock-on' : '')); blk.type = 'button';
-          blk.setAttribute('aria-label', 'a full ten — tap to count all ten');
+          blk.setAttribute('aria-label', LANG === 'de' ? 'ein voller Zehner — tippe, um alle zehn zu zählen' : 'a full ten — tap to count all ten');
           for (var d = 0; d < 10; d++) { var dot = api.el('span', 'nf-tendot' + (s.counted['t' + (base + d)] ? ' nf-tendot-on' : '')); dot.innerHTML = treasureSVG(f.kind); blk.appendChild(dot); }
           if (on) { var ck = api.el('span', 'nf-check'); ck.textContent = '✓'; blk.appendChild(ck); }
           blk.addEventListener('click', function () { self._tapBlock(base); });
@@ -183,7 +194,7 @@
         (function (id) {
           var counted = !!s.counted[id];
           var ob = api.el('button', 'nf-obj' + (counted ? ' nf-counted' : '')); ob.type = 'button'; ob.innerHTML = treasureSVG(f.kind);
-          ob.setAttribute('aria-label', f.kind + (counted ? ', counted' : ''));
+          ob.setAttribute('aria-label', (LANG === 'de' ? ((KIND_DE[f.kind] && KIND_DE[f.kind].art) || f.kind) + (counted ? ', gezählt' : '') : f.kind + (counted ? ', counted' : '')));
           ob.addEventListener('click', function () { self._tap(id, true); });
           if (counted) { var c2 = api.el('span', 'nf-check'); c2.textContent = '✓'; ob.appendChild(c2); }
           box.appendChild(ob);
@@ -206,7 +217,7 @@
         var counted = !!s.counted[o.id];
         var b = api.el('button', 'nf-obj' + (counted ? ' nf-counted' : '') + (o.target ? '' : ' nf-decoy'));
         b.type = 'button'; b.innerHTML = treasureSVG(o.kind);
-        b.setAttribute('aria-label', o.kind + (counted ? ', counted' : ''));
+        b.setAttribute('aria-label', (LANG === 'de' ? ((KIND_DE[o.kind] && KIND_DE[o.kind].art) || o.kind) + (counted ? ', gezählt' : '') : o.kind + (counted ? ', counted' : '')));
         b.addEventListener('click', function () { self._tap(o.id, o.target); });
         if (counted) { var ck = api.el('span', 'nf-check'); ck.textContent = '✓'; b.appendChild(ck); }
         box.appendChild(b);
@@ -218,7 +229,7 @@
       if (this.paradeIdx < n) {
         var lab = api.el('div', 'nf-paradelab'); lab.textContent = (this.paradeIdx + 1) + ''; lab.setAttribute('aria-hidden', 'true'); // running position
         var b = api.el('button', 'nf-obj nf-obj-big'); b.type = 'button'; b.innerHTML = treasureSVG(f.kind);
-        b.setAttribute('aria-label', f.kind + ' marching past — tap to count');
+        b.setAttribute('aria-label', LANG === 'de' ? ((KIND_DE[f.kind] && KIND_DE[f.kind].bare) || f.kind) + ' zieht vorbei — tippe zum Zählen' : f.kind + ' marching past — tap to count');
         b.addEventListener('click', function () { self._tapParade(); });
         box.appendChild(b);
         var hint = api.el('div', 'nf-paradehint'); hint.textContent = '➡'; box.appendChild(hint);
@@ -267,7 +278,7 @@
       var s = this.cstate;
       if (s.counted[id]) return;                                  // re-tap inert
       if (Core.tapObject(s, id)) { this.api.sound && this.api.sound(540 + Core.countedSize(s) * 22); speak(Core.countedSize(s)); this.msg = null; this.render(); }
-      else { this.api.sound && this.api.sound(300); this.msg = this.api.t('promptSubset').replace('{kind}', this._frame().kind); this.render(); } // a decoy tap
+      else { this.api.sound && this.api.sound(300); var dk = this._frame().kind; this.msg = this.api.t('promptSubset').replace('{kind}', LANG === 'de' ? ((KIND_DE[dk] && KIND_DE[dk].pl) || dk) : dk); this.render(); } // a decoy tap
     },
     _tapParade: function () {
       var s = this.cstate, id = 't' + this.paradeIdx;
@@ -281,9 +292,9 @@
       if (r === 'minted') {
         var m = this.cstate.minted[this.cstate.minted.length - 1];
         this.api.sound && this.api.sound(900);
-        if (m.numeral === '0') { this.msg = api.t('mintedZero'); speak('zero'); }
-        else if (m.numeral != null) { this.msg = api.t('minted').replace('{numeral}', m.numeral); speak((WORDS[m.count] || m.count) + (this.act === 'verify' ? '' : '')); }
-        else { this.msg = api.t('pageDone'); speak(WORDS[m.count] || m.count); }
+        if (m.numeral === '0') { this.msg = api.t('mintedZero'); speak(LANG === 'de' ? 'null' : 'zero'); }
+        else if (m.numeral != null) { this.msg = api.t('minted').replace('{numeral}', m.numeral); speak(numWord(m.count)); }
+        else { this.msg = api.t('pageDone'); speak(numWord(m.count)); }
         this.paradeIdx = 0;
         if (Core.isComplete(this.round, this.cstate)) this._win(); else this.render();
       } else {
@@ -292,13 +303,13 @@
         this.render();
       }
     },
-    _win: function () { this.solved = true; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 9); this.api.sound && this.api.sound(960); this.msg = api_t(this, 'pageDone'); this.render(); this.announce(this.msg); speak('page complete'); },
+    _win: function () { this.solved = true; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 9); this.api.sound && this.api.sound(960); this.msg = api_t(this, 'pageDone'); this.render(); this.announce(this.msg); speak(LANG === 'de' ? 'Seite geschafft' : 'page complete'); },
 
     _renderDone: function (root) {
       var api = this.api, n = (this._pool && this._pool.length) || 9, album = api.el('div', 'nf-album');
       for (var i = 0; i < n; i++) { var sp = api.el('span', 'nf-spine' + (i < this.solvedCount ? ' nf-spine-on' : '')); sp.textContent = '📒'; album.appendChild(sp); }
       root.appendChild(album);
-      var nudge = api.el('div', 'nf-nextnudge'); nudge.textContent = 'Tap Check! ✓'; root.appendChild(nudge);
+      var nudge = api.el('div', 'nf-nextnudge'); nudge.textContent = api.t('nextNudge'); root.appendChild(nudge);
     },
 
     isCorrect: function () { return this.solved; },

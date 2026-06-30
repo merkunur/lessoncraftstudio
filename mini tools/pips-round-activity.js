@@ -24,19 +24,24 @@
   var Core = global.MailRouteCore;
   var C = { T: '#146B5E', T2: '#0e4f45', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', GOLD: '#E8A53A', INK: '#2A2A35' };
   var WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
+  var WORDS_DE = ['null', 'eins', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn', 'elf', 'zwölf', 'dreizehn', 'vierzehn', 'fünfzehn', 'sechzehn', 'siebzehn', 'achtzehn', 'neunzehn', 'zwanzig'];
+  var LANG = 'en';
   function enWord(n) { return WORDS[n | 0] || String(n); }
+  function numWord(n) { return (LANG === 'de' ? WORDS_DE : WORDS)[n | 0] || String(n); }
+  /* resident names → German, nominative WITH article (the win line „das ist {name}" is gender-safe because the article is baked in). */
+  var RESIDENT_DE = { Snail: 'die Schnecke', Fox: 'der Fuchs', Frog: 'der Frosch', Bun: 'das Häschen', Wren: 'der Zaunkönig', Mole: 'der Maulwurf', Hen: 'die Henne', Owl: 'die Eule', Cat: 'die Katze', Duck: 'die Ente', Bee: 'die Biene', Ant: 'die Ameise', Newt: 'der Molch', Toad: 'die Kröte', Pig: 'das Schweinchen' };
   var HOUSECOL = ['#9CC9E8', '#F4C77E', '#B7DDA8', '#E8A9C0', '#C9B6E8', '#9FD9CE'];
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
 
   function pipSVG(mood) {
     var happy = mood === 'happy';
-    return '<svg viewBox="0 0 100 100" role="img" aria-label="Pip the mouse">'
+    return '<svg viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Pip die Maus' : 'Pip the mouse') + '">'
       + '<circle cx="32" cy="30" r="11" fill="#CDBBA8"/><circle cx="68" cy="30" r="11" fill="#CDBBA8"/>'   // ears
       + '<circle cx="32" cy="30" r="6" fill="#E9CFC0"/><circle cx="68" cy="30" r="6" fill="#E9CFC0"/>'
       + '<circle cx="50" cy="54" r="30" fill="#BBA890"/>'                                                   // head
@@ -55,23 +60,24 @@
     reward: { id: 'satchel', label: "Pip's Satchel", emoji: '📬' },
 
     strings: {
-      title: { en: "Pip's Round" },
-      instruction: { en: 'Read the number on the letter, then tap the matching house.' },
-      prompt: { en: 'Deliver the letter!' },
-      readIt: { en: 'A letter for…' },
-      hearIt: { en: '🔊 Hear the number' },
-      qRead: { en: 'Read the number — tap that house!' },
-      qHear: { en: 'Listen, then tap that house!' },
-      hint: { en: 'Read the house numbers and find the match.' },
-      wrong: { en: "That's house {r} — let's find {t}!" },
-      wrongNoRead: { en: "Not that one — let's find {t}!" },
-      win: { en: '{w} — that\'s {name}! Delivered 📬' },
-      tapCheck: { en: 'Tap Check! ✓' }
+      title: { en: "Pip's Round", de: 'Pip bringt die Post' },
+      instruction: { en: 'Read the number on the letter, then tap the matching house.', de: 'Lies die Zahl auf dem Brief und tippe dann auf das passende Haus.' },
+      prompt: { en: 'Deliver the letter!', de: 'Bring den Brief!' },
+      readIt: { en: 'A letter for…', de: 'Ein Brief für …' },
+      hearIt: { en: '🔊 Hear the number', de: '🔊 Hör die Zahl' },
+      qRead: { en: 'Read the number — tap that house!', de: 'Lies die Zahl – tippe auf das Haus!' },
+      qHear: { en: 'Listen, then tap that house!', de: 'Hör zu und tippe auf das Haus!' },
+      hint: { en: 'Read the house numbers and find the match.', de: 'Lies die Hausnummern und finde die passende Zahl.' },
+      wrong: { en: "That's house {r} — let's find {t}!", de: 'Das ist Haus {r} – wir suchen die {t}!' },
+      wrongNoRead: { en: "Not that one — let's find {t}!", de: 'Das ist es nicht – wir suchen die {t}!' },
+      win: { en: '{w} — that\'s {name}! Delivered 📬', de: '{w} – das ist {name}! Zugestellt 📬' },
+      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.cstate = null; this.solved = false; this.solvedCount = 0; this.msg = null; this._seed = 0; this._miss = 0; this._spoken = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -102,7 +108,7 @@
       root.appendChild(this._map());
 
       wrap.appendChild(root); stage.appendChild(wrap);
-      if (this.round.present === 'audio' && !this._spoken) { this._spoken = true; var self = this; setTimeout(function () { speak('A letter for number ' + enWord(self.round.targetValue)); }, 260); }
+      if (this.round.present === 'audio' && !this._spoken) { this._spoken = true; var self = this; setTimeout(function () { speak(LANG === 'de' ? ('Ein Brief für die ' + numWord(self.round.targetValue)) : ('A letter for number ' + numWord(self.round.targetValue))); }, 260); }
     },
     _question: function () { return this.api.t(this.round.present === 'audio' ? 'qHear' : 'qRead'); },
 
@@ -114,7 +120,7 @@
       var glyph = api.el('span', 'pr-target'); glyph.textContent = (this.round.targetValue | 0); env.appendChild(glyph);   // targetFont (cross-font) via CSS
       if (this.round.present === 'audio') {
         var hear = api.el('button', 'pr-hear'); hear.type = 'button'; hear.textContent = api.t('hearIt');
-        hear.addEventListener('click', function () { speak('A letter for number ' + enWord(self.round.targetValue)); });
+        hear.addEventListener('click', function () { speak(LANG === 'de' ? ('Ein Brief für die ' + numWord(self.round.targetValue)) : ('A letter for number ' + numWord(self.round.targetValue))); });
         env.appendChild(hear);
       }
       return env;
@@ -133,7 +139,7 @@
         var p = self._pos[i], col = HOUSECOL[i % HOUSECOL.length];
         var btn = api.el('button', 'pr-house' + (self._miss >= 3 && (h.numeral | 0) === (self.round.targetValue | 0) ? ' pr-pulse' : '')); btn.type = 'button';
         btn.style.left = (p.gx * 100) + '%'; btn.style.top = (p.gy * 100) + '%';
-        btn.setAttribute('data-hid', h.hid); btn.setAttribute('aria-label', 'house number ' + h.numeral);
+        btn.setAttribute('data-hid', h.hid); btn.setAttribute('aria-label', (LANG === 'de' ? 'Hausnummer ' : 'house number ') + h.numeral);
         btn.innerHTML = '<span class="pr-roof" style="border-bottom-color:' + col + '"></span>'
           + '<span class="pr-body" style="background:' + col + '"><span class="pr-window"><span class="pr-curtain"></span></span></span>'
           + '<span class="pr-plate">' + h.numeral + '</span>';
@@ -152,7 +158,7 @@
       if (btn) { btn.classList.remove('pr-shake'); void btn.offsetWidth; btn.classList.add('pr-shake'); }
       var t = this.round.targetValue | 0;
       this.msg = (r.readNumeral != null) ? this.api.t('wrong').replace('{r}', r.readNumeral).replace('{t}', t) : this.api.t('wrongNoRead').replace('{t}', t);
-      this.api.sound && this.api.sound(330); speak("let's find " + enWord(t));
+      this.api.sound && this.api.sound(330); speak(LANG === 'de' ? ('Such die ' + numWord(t)) : ("let's find " + numWord(t)));
       this.render();
     },
     _win: function (hid) {
@@ -161,9 +167,10 @@
       this.solved = true;
       if (Core.firstAttemptCorrect(this.cstate)) this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 9);
       var n = house.numeral | 0;
-      this.msg = api.t('win').replace('{w}', enWord(n).charAt(0).toUpperCase() + enWord(n).slice(1)).replace('{name}', house.resident || 'a friend');
+      var nm = (LANG === 'de') ? (RESIDENT_DE[house.resident] || 'ein Freund') : (house.resident || 'a friend');
+      this.msg = api.t('win').replace('{w}', numWord(n).charAt(0).toUpperCase() + numWord(n).slice(1)).replace('{name}', nm);
       this.api.sound && this.api.sound(880); this.render(); this.announce(this.msg);
-      speak(enWord(n) + ' — delivered');
+      speak(numWord(n) + (LANG === 'de' ? ' – zugestellt' : ' — delivered'));
     },
 
     _renderDone: function (root) {

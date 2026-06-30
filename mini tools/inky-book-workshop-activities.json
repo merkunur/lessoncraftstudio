@@ -14,12 +14,24 @@
         { "id": "w3", "band": 2, "job": "wrote", "book": "a story about a singing whale" },
         { "id": "d3", "band": 3, "job": "drew", "book": "a picture book of a rainbow garden" },
         { "id": "r2", "band": 3, "job": "read", "book": "a story about a kite that flew away" }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "w1", "band": 1, "job": "wrote", "book": "eine Geschichte über ein mutiges kleines Boot" },
+          { "id": "d1", "band": 1, "job": "drew", "book": "ein Bilderbuch über einen schläfrigen Drachen" },
+          { "id": "w2", "band": 1, "job": "wrote", "book": "eine Geschichte von einem verlorenen roten Luftballon" },
+          { "id": "r1", "band": 2, "job": "read", "book": "eine Gute-Nacht-Geschichte über den Mond" },
+          { "id": "d2", "band": 2, "job": "drew", "book": "ein Buch mit lustigen Bauernhoftieren" },
+          { "id": "w3", "band": 2, "job": "wrote", "book": "eine Geschichte über einen singenden Wal" },
+          { "id": "d3", "band": 3, "job": "drew", "book": "ein Bilderbuch von einem Regenbogengarten" },
+          { "id": "r2", "band": 3, "job": "read", "book": "eine Geschichte über einen Papierdrachen, der wegflog" }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "inky-book-workshop" },
-    "page_title": { "en": "Inky's Book Workshop — Author or Illustrator? (Kindergarten)" },
-    "page_intro": { "en": "Inky the octopus makes books with ink — words AND pictures! Every book has an author (the person who WRITES the words) and an illustrator (the person who DRAWS the pictures) — and you are the reader who enjoys it. Look at the job Inky is doing and tap whose job it is. A Kindergarten reading game about the roles of the author and illustrator, aligned to Common Core RL.K.6." },
+    "slug": { "en": "inky-book-workshop", "de": "autor-und-illustrator-buchrollen-unterscheiden-klasse-1" },
+    "page_title": { "en": "Inky's Book Workshop — Author or Illustrator? (Kindergarten)", "de": "Autor und Illustrator: Buchrollen, Klasse 1" },
+    "page_intro": { "en": "Inky the octopus makes books with ink — words AND pictures! Every book has an author (the person who WRITES the words) and an illustrator (the person who DRAWS the pictures) — and you are the reader who enjoys it. Look at the job Inky is doing and tap whose job it is. A Kindergarten reading game about the roles of the author and illustrator, aligned to Common Core RL.K.6.", "de": "Wer schreibt, wer malt? Dein Kind ordnet die Buchrollen Autor und Illustrator zu – kostenlos und interaktiv für die Klasse 1." },
     "kid_prompt_template": "Tap whose job it is: author, illustrator, or reader."
   }
 ]

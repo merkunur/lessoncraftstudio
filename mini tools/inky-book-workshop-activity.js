@@ -15,16 +15,18 @@
   var Core = global.AuthorIllustratorCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', PURPLE: '#8E6FC4' };
   var EMOJI = { author: '✍️', illustrator: '🎨', reader: '📖' };
-  var LABEL = { author: 'Author', illustrator: 'Illustrator', reader: 'Reader' };
+  var LABEL = { en: { author: 'Author', illustrator: 'Illustrator', reader: 'Reader' }, de: { author: 'Autor', illustrator: 'Illustrator', reader: 'Leser' } };
+  var LANG = 'en';
+  function label(role) { return (LABEL[LANG] && LABEL[LANG][role]) || LABEL.en[role]; }
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function octoSVG() {
-    return '<svg class="ibw-oct-svg" viewBox="0 0 100 100" role="img" aria-label="Inky the octopus">' +
+    return '<svg class="ibw-oct-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Inky, der Tintenfisch' : 'Inky the octopus') + '">' +
       '<circle cx="50" cy="42" r="22" fill="#8E6FC4"/>' +                          /* head */
       '<circle cx="43" cy="40" r="3" fill="#fff"/><circle cx="57" cy="40" r="3" fill="#fff"/>' +
       '<circle cx="43" cy="40" r="1.5" fill="#2A2A35"/><circle cx="57" cy="40" r="1.5" fill="#2A2A35"/>' +
@@ -48,23 +50,24 @@
     id: 'inky-book-workshop-activity',
 
     strings: {
-      title: { en: "Inky's Book Workshop" },
-      instruction: { en: 'Tap whose job it is: author, illustrator, or reader.' },
-      promptWrote: { en: 'Someone WROTE the words. Whose job is that?' },
-      promptDrew: { en: 'Someone DREW the pictures. Whose job is that?' },
-      promptRead: { en: 'Someone is READING the book. Whose job is that?' },
-      inkyIntro: { en: 'Every book has an author, an illustrator — and a reader!' },
-      capWrote: { en: 'Writing the words ✍️' },
-      capDrew: { en: 'Drawing the pictures 🎨' },
-      capRead: { en: 'Reading the book 📖' },
-      hintPick: { en: 'Author writes the words. Illustrator draws the pictures. Reader reads it.' },
-      hintWrong: { en: 'Look again — who WRITES, who DRAWS, who READS?' },
-      win: { en: 'Yes! You know the job. 🐙' }
+      title: { en: "Inky's Book Workshop", de: 'Inkys Buchwerkstatt' },
+      instruction: { en: 'Tap whose job it is: author, illustrator, or reader.', de: 'Tippe, wessen Aufgabe das ist: Autor, Illustrator oder Leser.' },
+      promptWrote: { en: 'Someone WROTE the words. Whose job is that?', de: 'Jemand hat die Wörter GESCHRIEBEN. Wessen Aufgabe ist das?' },
+      promptDrew: { en: 'Someone DREW the pictures. Whose job is that?', de: 'Jemand hat die Bilder GEZEICHNET. Wessen Aufgabe ist das?' },
+      promptRead: { en: 'Someone is READING the book. Whose job is that?', de: 'Jemand LIEST das Buch. Wessen Aufgabe ist das?' },
+      inkyIntro: { en: 'Every book has an author, an illustrator — and a reader!', de: 'Jedes Buch hat einen Autor, einen Illustrator – und einen Leser!' },
+      capWrote: { en: 'Writing the words ✍️', de: 'Die Wörter schreiben ✍️' },
+      capDrew: { en: 'Drawing the pictures 🎨', de: 'Die Bilder zeichnen 🎨' },
+      capRead: { en: 'Reading the book 📖', de: 'Das Buch lesen 📖' },
+      hintPick: { en: 'Author writes the words. Illustrator draws the pictures. Reader reads it.', de: 'Der Autor schreibt die Wörter. Der Illustrator zeichnet die Bilder. Der Leser liest es.' },
+      hintWrong: { en: 'Look again — who WRITES, who DRAWS, who READS?', de: 'Schau noch mal – wer SCHREIBT, wer ZEICHNET, wer LIEST?' },
+      win: { en: 'Yes! You know the job. 🐙', de: 'Ja! Du kennst die Aufgabe. 🐙' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -97,9 +100,9 @@
       var opts = api.el('div', 'ibw-opts');
       this._cards.forEach(function (o) {
         var b = api.el('button', 'ibw-opt' + (self.sel === o.id ? ' ibw-sel' : '')); b.type = 'button';
-        b.setAttribute('data-id', o.id); b.setAttribute('aria-label', LABEL[o.role]);
+        b.setAttribute('data-id', o.id); b.setAttribute('aria-label', label(o.role));
         var em = api.el('span', 'ibw-em'); em.textContent = EMOJI[o.role]; b.appendChild(em);
-        var lb = api.el('span', 'ibw-lb'); lb.textContent = LABEL[o.role]; b.appendChild(lb);
+        var lb = api.el('span', 'ibw-lb'); lb.textContent = label(o.role); b.appendChild(lb);
         b.addEventListener('click', function () { self._tap(o.id, o.role); });
         opts.appendChild(b);
       });
@@ -110,7 +113,7 @@
 
     _tap: function (id, role) {
       if (this.sel === id) { this.sel = null; this.render(); return; }
-      this.sel = id; this.api.sound && this.api.sound(540); speak(LABEL[role]); this.render();
+      this.sel = id; this.api.sound && this.api.sound(540); speak(label(role)); this.render();
     },
 
     isCorrect: function () { return Core.grade(this.round, this.sel); },
@@ -127,7 +130,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/inky-book-workshop-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[inky-book-workshop] manifest load failed:', e.message); });
     },
 

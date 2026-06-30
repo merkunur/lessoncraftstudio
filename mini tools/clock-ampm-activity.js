@@ -11,6 +11,7 @@
   'use strict';
 
   var Core = global.ClockAmpmCore;
+  var LANG = 'en';
 
   var L = {
     en: {
@@ -19,9 +20,16 @@
       winAM: 'Yes! That is the morning — a.m.',
       winPM: 'Yes! That is the afternoon or evening — p.m.',
       hint: 'Morning is a.m. Afternoon and night are p.m.'
+    },
+    de: {
+      q: 'Ist das am Vormittag oder am Nachmittag und Abend?',
+      am: 'Vormittag', pm: 'Nachmittag & Abend',
+      winAM: 'Ja! Das ist am Vormittag.',
+      winPM: 'Ja! Das ist am Nachmittag oder am Abend.',
+      hint: 'Vor dem Mittag ist es Vormittag. Nach dem Mittag kommen Nachmittag und Abend.'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   function sprocketSVG() {
@@ -48,13 +56,14 @@
   var ClockAmpmActivity = {
     id: 'clock-ampm-activity',
     strings: {
-      title: { en: "Sprocket's Clock" },
-      instruction: { en: 'Read what you are doing, then choose a.m. or p.m.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Tageszeiten' },
+      instruction: { en: 'Read what you are doing, then choose a.m. or p.m.', de: 'Lies, was du gerade tust, und wähle dann die richtige Tageszeit.' },
       q: { en: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._round = null; this._resolved = false; this._token = 0;
       this._nonAns = {}; this._lit = null;
@@ -84,6 +93,10 @@
         '.ap-sprocket-svg .ap-eyes-happy{display:none;}.ap-sprocket[data-pose=happy] .ap-eyes-open{display:none;}.ap-sprocket[data-pose=happy] .ap-eyes-happy{display:block;}',
         '.ap-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',
         '@media (max-width:380px){.ap-root{gap:8px;}.ap-activity{font-size:1.12rem;}.ap-time{font-size:1.6rem;}.ap-row{gap:8px;}.ap-choice{font-size:1.15rem;min-height:92px;}}',
+        /* de: the dual label „Nachmittag & Abend" is longer → shrink the label + tighten the card + enlarge the icon so the buttons fill their area (not-sparse) and the short „Vormittag" sun button isn't stretched empty (§A.13.62 fix-layout). de-scoped → EN untouched. */
+        '.ap-de .ap-choice{font-size:1.05rem;max-width:128px;}',
+        '.ap-de .ap-icon{width:88px;height:88px;}',
+        '@media (max-width:380px){.ap-de .ap-choice{font-size:.92rem;}}',
         '.lcs-app:not(.sprocket-resolved) .lcs-activity-check{display:none !important;}'
       ].join('');
       document.head.appendChild(s);
@@ -139,11 +152,11 @@
       var stage = api.stage; stage.innerHTML = '';
       var round = this._round; if (!round) return;
       var self = this, tok = this._token;
-      var root = el('div', 'ap-root');
+      var root = el('div', 'ap-root' + (LANG === 'de' ? ' ap-de' : ''));
 
       var scene = el('div', 'ap-scene');
-      var act = el('p', 'ap-activity'); act.textContent = round.activity; scene.appendChild(act);
-      var tm = el('div', 'ap-time'); tm.textContent = round.time; scene.appendChild(tm);
+      var act = el('p', 'ap-activity'); act.textContent = (LANG === 'de' && round.activityL10n && round.activityL10n.de) || round.activity; scene.appendChild(act);
+      var tm = el('div', 'ap-time'); tm.textContent = (LANG === 'de' ? round.time.split(':')[0] + ' Uhr' : round.time); scene.appendChild(tm);
       root.appendChild(scene);
 
       var row = el('div', 'ap-row');
@@ -193,7 +206,13 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'ap-sronly'); wrap.setAttribute('aria-live', 'polite');
-      wrap.innerHTML = '<p>' + round.activity + ' at ' + round.time + '. ' + txt('q') + ' The choices are: a.m. (morning), p.m. (afternoon or evening).</p>';
+      if (LANG === 'de') {
+        var deAct = (round.activityL10n && round.activityL10n.de) || round.activity;
+        var deTime = round.time.split(':')[0] + ' Uhr';
+        wrap.innerHTML = '<p>' + deAct + ' Um ' + deTime + '. ' + txt('q') + ' Zur Auswahl stehen: Vormittag (vor dem Mittag), Nachmittag und Abend (nach dem Mittag).</p>';
+      } else {
+        wrap.innerHTML = '<p>' + round.activity + ' at ' + round.time + '. ' + txt('q') + ' The choices are: a.m. (morning), p.m. (afternoon or evening).</p>';
+      }
       return wrap;
     },
 

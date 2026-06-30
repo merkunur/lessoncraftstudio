@@ -30,6 +30,15 @@
       found: 'FOUND IT! Nice reading, detective.',
       wordsToKnow: 'Words to Know',
       contents: 'Contents'
+    },
+    de: {
+      readLine: 'Lies die Seite und tippe dann auf die Antwort.',
+      diagramLine: 'Lies die Beschriftung und tippe auf den richtigen Teil.',
+      whichLine: 'Überlege, wofür jedes Buch-Werkzeug da ist.',
+      reread: 'Hmm – lies noch einmal nach, was auf der Seite steht. Probier es noch mal!',
+      found: 'Gefunden! Gut gelesen, Spürnase!',
+      wordsToKnow: 'Wichtige Wörter',
+      contents: 'Inhalt'
     }
   };
   function txt(k) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (L[lang] || L.en)[k] || L.en[k] || k; }
@@ -64,16 +73,16 @@
   var FieldGuideActivity = {
     id: 'field-guide',
     strings: {
-      title: { en: "Detective Dewey's Field Guide" },
-      instruction: { en: 'Read the book’s tools to find the fact!' },
-      qDiagram: { en: 'Which part helps it {fn}?' },
-      qGlossary: { en: 'Which word means the part that can {fn}?' },
-      qToc: { en: 'Which chapter is about how it can {fn}?' },
-      qHeading: { en: 'Which heading tells how it can {fn}?' },
-      qMenu: { en: 'Which button helps you {fn}?' },
-      qIndex: { en: 'Which line leads to the part that can {fn}?' },
-      qWhichMeaning: { en: 'To find what a WORD means, which tool do you open?' },
-      qWhichTopic: { en: 'To find which chapter a TOPIC is in, which tool do you open?' }
+      title: { en: "Detective Dewey's Field Guide", de: 'Detektiv Deweys Forscherheft' },
+      instruction: { en: 'Read the book’s tools to find the fact!', de: 'Lies die Werkzeuge des Buches, um die Information zu finden!' },
+      qDiagram: { en: 'Which part helps it {fn}?', de: 'Welcher Teil hilft ihm beim {fn}?' },
+      qGlossary: { en: 'Which word means the part that can {fn}?', de: 'Welches Wort beschreibt den Teil zum {fn}?' },
+      qToc: { en: 'Which chapter is about how it can {fn}?', de: 'In welchem Kapitel geht es ums {fn}?' },
+      qHeading: { en: 'Which heading tells how it can {fn}?', de: 'Welche Überschrift handelt vom {fn}?' },
+      qMenu: { en: 'Which button helps you {fn}?', de: 'Welcher Knopf hilft dir beim {fn}?' },
+      qIndex: { en: 'Which line leads to the part that can {fn}?', de: 'Welche Zeile führt zur Stelle übers {fn}?' },
+      qWhichMeaning: { en: 'To find what a WORD means, which tool do you open?', de: 'Um herauszufinden, was ein WORT bedeutet — welches Buch-Werkzeug öffnest du?' },
+      qWhichTopic: { en: 'To find which chapter a TOPIC is in, which tool do you open?', de: 'Um herauszufinden, in welchem KAPITEL ein Thema steht — welches Buch-Werkzeug nimmst du?' }
     },
 
     init: function (api) {
@@ -126,7 +135,8 @@
         fetch(tries[i]).then(function (r) { return r.ok ? r.json() : Promise.reject(); })
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
-            self._activityRow = row; self._pool = (row && row.params && row.params.rounds) || [];
+            var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en';
+            self._activityRow = row; self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[lang]) || row.params.rounds)) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });

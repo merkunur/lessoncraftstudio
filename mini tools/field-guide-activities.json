@@ -105,12 +105,108 @@
             { "id": "contents", "label": "Contents", "functions": ["section", "topic"], "affordance": "neutral" },
             { "id": "index", "label": "Index", "functions": ["page"], "affordance": "neutral" }
           ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "r1", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
+            "question": { "functionPhrase": "Leuchten" },
+            "items": [
+              { "id": "snood", "label": "Snood", "gloss": "Der Snood hilft ihm beim Schwimmen.", "functions": ["Schwimmen"], "affordance": "neutral" },
+              { "id": "frell", "label": "Frell", "gloss": "Der Frell hilft ihm beim Leuchten.", "functions": ["Leuchten"], "affordance": "neutral" },
+              { "id": "tarn", "label": "Tarn", "gloss": "Der Tarn hilft ihm beim Graben.", "functions": ["Graben"], "affordance": "neutral" }
+            ] },
+          { "id": "r2", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
+            "question": { "functionPhrase": "Klettern" },
+            "items": [
+              { "id": "blorp", "label": "Blorp", "gloss": "Der Blorp hilft ihm beim Schweben.", "functions": ["Schweben"], "affordance": "neutral" },
+              { "id": "gleen", "label": "Gleen", "gloss": "Der Gleen hilft ihm beim Stechen.", "functions": ["Stechen"], "affordance": "neutral" },
+              { "id": "fid", "label": "Fid", "gloss": "Der Fid hilft ihm beim Klettern.", "functions": ["Klettern"], "affordance": "neutral" }
+            ] },
+          { "id": "r3", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
+            "question": { "functionPhrase": "Funkeln" },
+            "items": [
+              { "id": "quib", "label": "Quib", "gloss": "Der Quib hilft ihm beim Springen.", "functions": ["Springen"], "affordance": "neutral" },
+              { "id": "sten", "label": "Sten", "gloss": "Der Sten hilft ihm beim Verstecken.", "functions": ["Verstecken"], "affordance": "neutral" },
+              { "id": "vorl", "label": "Vorl", "gloss": "Der Vorl hilft ihm beim Funkeln.", "functions": ["Funkeln"], "affordance": "neutral" }
+            ] },
+          { "id": "r4", "cog": "glossary", "skin": "page", "featureType": "glossary", "fictional": true,
+            "question": { "functionPhrase": "Leuchten" },
+            "items": [
+              { "id": "snood", "label": "Snood", "gloss": "ein Teil zum Schwimmen", "functions": ["Schwimmen"], "affordance": "neutral" },
+              { "id": "frell", "label": "Frell", "gloss": "ein Teil, der leuchtet", "functions": ["Leuchten"], "affordance": "neutral" },
+              { "id": "tarn", "label": "Tarn", "gloss": "ein Teil zum Graben", "functions": ["Graben"], "affordance": "neutral" }
+            ] },
+          { "id": "r5", "cog": "glossary", "skin": "page", "featureType": "glossary", "fictional": true,
+            "question": { "functionPhrase": "Stechen" },
+            "items": [
+              { "id": "blorp", "label": "Blorp", "gloss": "ein Teil zum Schweben", "functions": ["Schweben"], "affordance": "neutral" },
+              { "id": "gleen", "label": "Gleen", "gloss": "ein Teil, der sticht", "functions": ["Stechen"], "affordance": "neutral" },
+              { "id": "fid", "label": "Fid", "gloss": "ein Teil zum Klettern", "functions": ["Klettern"], "affordance": "neutral" }
+            ] },
+          { "id": "r6", "cog": "toc", "skin": "page", "featureType": "toc", "fictional": true,
+            "question": { "functionPhrase": "Leuchten" },
+            "items": [
+              { "id": "ch1", "label": "Kapitel 1: Snoods", "gloss": "alles übers Schwimmen", "functions": ["Schwimmen"], "affordance": "neutral", "page": 4 },
+              { "id": "ch2", "label": "Kapitel 2: Frells", "gloss": "alles übers Leuchten", "functions": ["Leuchten"], "affordance": "neutral", "page": 9 },
+              { "id": "ch3", "label": "Kapitel 3: Tarns", "gloss": "alles übers Graben", "functions": ["Graben"], "affordance": "neutral", "page": 14 }
+            ] },
+          { "id": "r7", "cog": "toc", "skin": "page", "featureType": "toc", "fictional": true,
+            "question": { "functionPhrase": "Verstecken" },
+            "items": [
+              { "id": "ch1", "label": "Kapitel 1: Quibs", "gloss": "alles übers Springen", "functions": ["Springen"], "affordance": "neutral", "page": 3 },
+              { "id": "ch2", "label": "Kapitel 2: Stens", "gloss": "alles übers Verstecken", "functions": ["Verstecken"], "affordance": "neutral", "page": 8 },
+              { "id": "ch3", "label": "Kapitel 3: Vorls", "gloss": "alles übers Funkeln", "functions": ["Funkeln"], "affordance": "neutral", "page": 12 }
+            ] },
+          { "id": "r8", "cog": "heading", "skin": "page", "featureType": "heading", "fictional": true,
+            "question": { "functionPhrase": "Graben" },
+            "items": [
+              { "id": "h1", "label": "Alles über Snoods", "gloss": "wie er schwimmt", "functions": ["Schwimmen"], "affordance": "neutral" },
+              { "id": "h2", "label": "Alles über Frells", "gloss": "wie er leuchtet", "functions": ["Leuchten"], "affordance": "neutral" },
+              { "id": "h3", "label": "Alles über Tarns", "gloss": "wie er gräbt", "functions": ["Graben"], "affordance": "neutral" }
+            ] },
+          { "id": "r9", "cog": "heading", "skin": "page", "featureType": "heading", "fictional": true,
+            "question": { "functionPhrase": "Schweben" },
+            "items": [
+              { "id": "h1", "label": "Alles über Gleens", "gloss": "wie er sticht", "functions": ["Stechen"], "affordance": "neutral" },
+              { "id": "h2", "label": "Alles über Fids", "gloss": "wie er klettert", "functions": ["Klettern"], "affordance": "neutral" },
+              { "id": "h3", "label": "Alles über Blorps", "gloss": "wie er schwebt", "functions": ["Schweben"], "affordance": "neutral" }
+            ] },
+          { "id": "r10", "cog": "menu", "skin": "page", "featureType": "menu", "fictional": true,
+            "question": { "functionPhrase": "Suchen" },
+            "items": [
+              { "id": "drext", "label": "Drext", "gloss": "blättert die Seite um", "functions": ["Umblättern"], "affordance": "neutral" },
+              { "id": "glarn", "label": "Glarn", "gloss": "findet verlorene Fakten", "functions": ["Suchen"], "affordance": "neutral" },
+              { "id": "pled", "label": "Pled", "gloss": "liest laut vor", "functions": ["Vorlesen"], "affordance": "neutral" }
+            ] },
+          { "id": "r11", "cog": "index", "skin": "page", "featureType": "index", "fictional": true,
+            "question": { "functionPhrase": "Leuchten" },
+            "items": [
+              { "id": "idx1", "label": "Snood … Seite 4", "gloss": "Auf Seite 4 geht es ums Schwimmen.", "functions": ["Schwimmen"], "affordance": "neutral", "page": 4 },
+              { "id": "idx2", "label": "Frell … Seite 9", "gloss": "Auf Seite 9 geht es ums Leuchten.", "functions": ["Leuchten"], "affordance": "neutral", "page": 9 },
+              { "id": "idx3", "label": "Tarn … Seite 14", "gloss": "Auf Seite 14 geht es ums Graben.", "functions": ["Graben"], "affordance": "neutral", "page": 14 }
+            ] },
+          { "id": "r12", "cog": "which-feature", "skin": "page", "featureType": "which-feature", "fictional": false,
+            "question": { "functionPhrase": "meaning" },
+            "items": [
+              { "id": "toc", "label": "Inhaltsverzeichnis", "gloss": "zeigt, in welchem Kapitel ein Thema steht", "functions": ["topic"], "affordance": "neutral" },
+              { "id": "glossary", "label": "Glossar", "gloss": "erklärt, was ein Wort bedeutet", "functions": ["meaning"], "affordance": "neutral" },
+              { "id": "index", "label": "Register", "gloss": "zeigt, auf welcher Seite ein Wort steht", "functions": ["page"], "affordance": "neutral" }
+            ] },
+          { "id": "r13", "cog": "which-feature", "skin": "page", "featureType": "which-feature", "fictional": false,
+            "question": { "functionPhrase": "topic" },
+            "items": [
+              { "id": "glossary", "label": "Glossar", "gloss": "erklärt, was ein Wort bedeutet", "functions": ["meaning"], "affordance": "neutral" },
+              { "id": "toc", "label": "Inhaltsverzeichnis", "gloss": "zeigt, in welchem Kapitel ein Thema steht", "functions": ["topic"], "affordance": "neutral" },
+              { "id": "index", "label": "Register", "gloss": "zeigt, auf welcher Seite ein Wort steht", "functions": ["page"], "affordance": "neutral" }
+            ] }
+        ]
+      }
     },
-    "slug": { "en": "detective-deweys-field-guide" },
-    "page_title": { "en": "Detective Dewey's Field Guide — Find Facts with Text Features" },
+    "slug": { "en": "detective-deweys-field-guide", "de": "textmerkmale-sachtext-informationen-finden-klasse-2" },
+    "page_title": { "en": "Detective Dewey's Field Guide — Find Facts with Text Features", "de": "Textmerkmale nutzen – Sachbuch lesen, Klasse 2" },
     "page_intro": {
-      "en": "Help Detective Dewey find lost facts! Read the book's own tools — the table of contents, headings, glossary, and labeled pictures — to locate the answer, never by guessing. A Grade 1 reading activity aligned to Common Core 1.RI.5: know and use text features to locate key facts."
+      "en": "Help Detective Dewey find lost facts! Read the book's own tools — the table of contents, headings, glossary, and labeled pictures — to locate the answer, never by guessing. A Grade 1 reading activity aligned to Common Core 1.RI.5: know and use text features to locate key facts.",
+      "de": "Textmerkmale nutzen: Hilf Detektiv Dewey, im Sachbuch Informationen zu finden – mit Inhaltsverzeichnis, Glossar und Überschrift. Kostenlos und interaktiv, Klasse 2."
     },
     "kid_prompt_template": "Read the feature to find the fact!"
   }

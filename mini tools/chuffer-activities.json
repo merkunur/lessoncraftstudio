@@ -18,9 +18,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "chuffers-switchyard" },
-    "page_title": { "en": "Chuffer's Switchyard — Break a Number Apart Many Ways (Kindergarten)" },
-    "page_intro": { "en": "A free interactive Kindergarten math game: you're the switchman at Chuffer's railway yard! A load of crates rolls in and the track forks into two cars. Split the crates between the cars, read each car, say the split (5 = 2 + 3!), and pull the coupler — then find EVERY different way to share the load. Breaking a number into two parts in more than one way is the heart of Common Core K.OA.A.3." },
+    "slug": { "en": "chuffers-switchyard", "de": "zahlen-zerlegen-bis-10-zahlenhaus-klasse-1" },
+    "page_title": { "en": "Chuffer's Switchyard — Break a Number Apart Many Ways (Kindergarten)", "de": "Zahlen zerlegen bis 10: Chuffers Rangierbahnhof | Klasse 1" },
+    "page_intro": { "en": "A free interactive Kindergarten math game: you're the switchman at Chuffer's railway yard! A load of crates rolls in and the track forks into two cars. Split the crates between the cars, read each car, say the split (5 = 2 + 3!), and pull the coupler — then find EVERY different way to share the load. Breaking a number into two parts in more than one way is the heart of Common Core K.OA.A.3.", "de": "Zahlen zerlegen bis 10: Verteile die Kisten auf zwei Wagen und finde alle Zerlegungen einer Zahl. Kostenlos, interaktiv und ideal für Klasse 1 – jetzt spielen!" },
     "kid_prompt_template": "rail-decompose"
   }
 ]

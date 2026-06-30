@@ -45,7 +45,28 @@
       describeYes: 'You remembered! Nice one.',
       describeNo: 'Look again — it was the other one. Now you know!',
       pouring: 'Pouring… let’s see!',
-      poured: 'Tap Check to serve the next friend!'
+      poured: 'Tap Check to serve the next friend!',
+      ariaStage: 'Two containers to compare'
+    },
+    de: {
+      leftMore: 'Links', rightMore: 'Rechts', same: 'Gleich',
+      fits: 'Es passt!', overflows: 'Es läuft über!',
+      brambleClear: 'Sieht leicht aus — aber du entscheidest!',
+      brambleTricky: 'Knifflige Becher! Was sagst DU?',
+      brambleFit: 'Passt es rein oder läuft es über? Entscheide du!',
+      rightYes: 'Ja — genau richtig, mein Freund!',
+      rightSame: 'Sie sehen so verschieden aus — aber sie fassen GLEICH viel!',
+      missWide: 'Meine Augen haben mich getäuscht — das BREITE Gefäß fasst mehr! Jetzt wissen wir es!',
+      missTall: 'Meine Augen haben mich getäuscht — das HOHE Gefäß fasst mehr! Jetzt wissen wir es!',
+      missSame: 'Überraschung — sie fassen GLEICH viel! Knifflige Formen!',
+      missFit: 'Hoppla — es ist übergelaufen! Es fasst weniger. Jetzt wissen wir es!',
+      missFitOver: 'Schau — es hat reingepasst! Es fasst mehr. Jetzt wissen wir es!',
+      describe: 'Jetzt sagst DU es — welches hat mehr gefasst?',
+      describeYes: 'Du hast es dir gemerkt! Super gemacht.',
+      describeNo: 'Schau noch mal — es war das andere. Jetzt weißt du es!',
+      pouring: 'Ich gieße ein … mal sehen!',
+      poured: 'Tippe auf „Prüfen", um den nächsten Gast zu bedienen!',
+      ariaStage: 'Zwei Gefäße zum Vergleichen'
     }
   };
 
@@ -133,10 +154,10 @@
     id: 'bramble',
 
     strings: {
-      title: { en: "Bramble's Berry-Juice Stand" },
-      instruction: { en: 'Guess which holds more, then pour!' },
-      promptPredict: { en: 'Which cup holds more? Call it!' },
-      promptFit: { en: 'Will the juice fit, or spill over?' }
+      title: { en: "Bramble's Berry-Juice Stand", de: 'Brambles Beerensaft-Stand' },
+      instruction: { en: 'Guess which holds more, then pour!', de: 'Rate, welches mehr fasst — dann gießen wir ein!' },
+      promptPredict: { en: 'Which cup holds more? Call it!', de: 'Welcher Becher fasst mehr? Entscheide du!' },
+      promptFit: { en: 'Will the juice fit, or spill over?', de: 'Passt der Saft rein oder läuft er über?' }
     },
 
     init: function (api) {
@@ -301,7 +322,7 @@
       var vA = vesselSVG('A', round.A, '#1E9E86');
       var vB = vesselSVG('B', round.B, '#37B79E');
       svgWrap.innerHTML =
-        '<svg class="bb-stage-svg" viewBox="0 0 ' + VW + ' ' + VH + '" role="img" aria-label="Two containers to compare">' +
+        '<svg class="bb-stage-svg" viewBox="0 0 ' + VW + ' ' + VH + '" role="img" aria-label="' + txt('ariaStage') + '">' +
         '<line x1="6" y1="' + BASE + '" x2="' + (VW - 6) + '" y2="' + BASE + '" stroke="#D8C7A8" stroke-width="3"/>' +
         vA.markup + vB.markup + spillSVG('A') + spillSVG('B') + sparkleSVG('B') +
         '</svg>';

@@ -90,10 +90,11 @@
         }
       ]
     },
-    "slug": { "en": "brambles-berry-juice-stand" },
-    "page_title": { "en": "Which Holds More? — Bramble's Berry-Juice Stand" },
+    "slug": { "en": "brambles-berry-juice-stand", "de": "fassungsvermoegen-vergleichen-welches-gefaess-fasst-mehr-klasse-1" },
+    "page_title": { "en": "Which Holds More? — Bramble's Berry-Juice Stand", "de": "Fassungsvermögen vergleichen: welches fasst mehr? – Klasse 1" },
     "page_intro": {
-      "en": "Predict which cup holds more berry juice, then pour to find out — a tall, skinny glass can fool your eyes! A no-counting Kindergarten capacity activity aligned to Common Core K.MD.A.2: directly compare two containers and tell which holds more, less, or the same."
+      "en": "Predict which cup holds more berry juice, then pour to find out — a tall, skinny glass can fool your eyes! A no-counting Kindergarten capacity activity aligned to Common Core K.MD.A.2: directly compare two containers and tell which holds more, less, or the same.",
+      "de": "Fassungsvermögen vergleichen in Klasse 1: Schätze, welches Gefäß mehr fasst, und gieße die Becher aus, um es zu prüfen – kostenlos, interaktiv. Jetzt ausprobieren!"
     },
     "kid_prompt_template": "Call it before Bramble pours — which cup holds more?"
   }

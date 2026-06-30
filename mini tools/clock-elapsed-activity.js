@@ -14,6 +14,7 @@
   var NS = 'http://www.w3.org/2000/svg';
   var C = { FACE: '#FFFDF6', RIM: '#146B5E', TICK: '#0F4A40', HOUR: '#146B5E', MIN: '#F2784B', NUM: '#0F4A40' };
 
+  var LANG = 'en';
   var L = {
     en: {
       q: 'What time will it be in {n} minutes?',
@@ -22,14 +23,30 @@
       winBack: 'Yes! {start} − {n} min = {end}.',
       hint: 'Start at the clock, then count on the minutes.',
       hintBack: 'Start at the clock, then count back the minutes.'
+    },
+    de: {
+      q: 'Wie spät ist es in {n} Minuten?',
+      qBack: 'Wie spät war es vor {n} Minuten?',
+      win: 'Genau! {start} + {n} Min = {end}.',
+      winBack: 'Genau! {start} − {n} Min = {end}.',
+      hint: 'Beginne bei der Uhr und zähle dann die Minuten weiter.',
+      hintBack: 'Beginne bei der Uhr und zähle dann die Minuten zurück.'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function elNS(tag, attrs) { var e = document.createElementNS(NS, tag); for (var k in attrs) { if (attrs.hasOwnProperty(k)) e.setAttribute(k, attrs[k]); } return e; }
-  /* a friendly o'clock phrase for the win note */
+  function wrapH(n) { return n > 12 ? n - 12 : n; }
+  /* a friendly spoken-time phrase for the aria / sr (locale-aware: German „N Uhr" / „halb (N+1)" / „Viertel nach·vor" — reused from clock-digital #8) */
   function spoken(t) {
     var hh = t.h, mm = t.m;
+    if (LANG === 'de') {
+      if (mm === 0) return hh + ' Uhr';
+      if (mm === 30) return 'halb ' + wrapH(hh + 1);
+      if (mm === 15) return 'Viertel nach ' + hh;
+      if (mm === 45) return 'Viertel vor ' + wrapH(hh + 1);
+      return Core.digitalStr(t);
+    }
     if (mm === 0) return hh + " o'clock";
     if (mm === 30) return 'half past ' + hh;
     if (mm === 15) return 'quarter past ' + hh;
@@ -38,7 +55,7 @@
   }
 
   function clockSVG(h, m) {
-    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'ce-clock', role: 'img', 'aria-label': 'clock face' });
+    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'ce-clock', role: 'img', 'aria-label': (LANG === 'de' ? 'Zifferblatt' : 'clock face') });
     svg.appendChild(elNS('circle', { cx: 50, cy: 50, r: 46, fill: C.FACE, stroke: C.RIM, 'stroke-width': 3.5 }));
     for (var n = 1; n <= 12; n++) {
       var a = n * 30 * Math.PI / 180;
@@ -74,13 +91,14 @@
   var ClockElapsedActivity = {
     id: 'clock-elapsed-activity',
     strings: {
-      title: { en: "Sprocket's Clock" },
-      instruction: { en: 'Read the start time, then count on the minutes.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Zeitspannen' },
+      instruction: { en: 'Read the start time, then count on the minutes.', de: 'Lies die Startzeit ab und zähle dann die Minuten weiter.' },
       q: { en: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._round = null; this._resolved = false; this._token = 0;
       this._nonAns = {}; this._lit = -1; this._optOrder = null;
@@ -223,7 +241,9 @@
       var cs = (round.options || []).map(function (t) { return Core.digitalStr(t); }).join(', ');
       var n = Math.abs(round.deltaMin);
       var qText = round.deltaMin < 0 ? txt('qBack', { n: n }) : txt('q', { n: n });
-      wrap.innerHTML = '<p>The clock shows ' + spoken(round.start) + '. ' + qText + ' The choices are: ' + cs + '.</p>';
+      wrap.innerHTML = (LANG === 'de')
+        ? '<p>Die Uhr zeigt ' + spoken(round.start) + '. ' + qText + ' Zur Auswahl stehen: ' + cs + '.</p>'
+        : '<p>The clock shows ' + spoken(round.start) + '. ' + qText + ' The choices are: ' + cs + '.</p>';
       return wrap;
     },
 

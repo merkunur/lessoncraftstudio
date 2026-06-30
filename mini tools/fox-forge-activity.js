@@ -16,17 +16,27 @@
   var C = { T: '#146B5E', T2: '#0E5247', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', BAR: '#6B4A2B', PIECE: '#5A3A1E' };
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  var LANG = 'en';
   var NUM = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight'];
   var UNIT = { 2: 'half', 3: 'third', 4: 'fourth', 6: 'sixth', 8: 'eighth' };
+  /* German fraction nouns are neuter + invariant in the plural (no -s); the
+     attributive number word is „ein" (not „eins"). */
+  var NUM_DE = ['', 'ein', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht'];
+  var UNIT_DE = { 2: 'Halb', 3: 'Drittel', 4: 'Viertel', 6: 'Sechstel', 8: 'Achtel' };
+  function fracWordDE(a, b) {
+    var u = UNIT_DE[b] || (b + 'tel');
+    return (a === 1 ? 'ein' : (NUM_DE[a] || a)) + ' ' + u;
+  }
   function fracWord(a, b) {
+    if (LANG === 'de') return fracWordDE(a, b);
     var u = UNIT[b] || (b + 'th');
     if (a === 1) return 'one ' + u;
     return (NUM[a] || a) + ' ' + u + 's';
   }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -36,27 +46,28 @@
     id: 'fox-forge-activity',
 
     strings: {
-      title: { en: "Pip's Chocolate Forge" },
-      instruction: { en: '' },
-      prompt: { en: 'Forge the order.' },
-      handOver: { en: 'Hand it over 🍫' },
-      tapToForge: { en: 'tap the bar to forge a piece' },
-      sayWelcome: { en: 'A new order! Pick the right piece by its SIZE.' },
-      sayWin: { en: 'Perfect order — thank you! 🍫' },
-      sayPickMold: { en: 'Pick a piece-mold first.' },
-      sayUnequal: { en: "Those aren't equal — pick the fair mold!" },
-      sayShort: { en: 'Not enough yet — forge more pieces.' },
-      sayOver: { en: "That's too much — tap a piece to take it back." },
-      sayWrongSize: { en: 'Hmm — those are the wrong size. Try another mold.' },
-      sayAgain: { en: "Let's look again." },
-      sayCross: { en: 'Yes — the same share, on a different shape!' },
-      crossYes: { en: 'Yes — same share! 🍕' },
-      hintCheck: { en: 'Pick the piece that fits the bar, forge it the right number of times, then hand it over.' }
+      title: { en: "Pip's Chocolate Forge", de: 'Pips Schokoladen-Werkstatt' },
+      instruction: { en: '', de: '' },
+      prompt: { en: 'Forge the order.', de: 'Gieße die Bestellung.' },
+      handOver: { en: 'Hand it over 🍫', de: 'Abgeben 🍫' },
+      tapToForge: { en: 'tap the bar to forge a piece', de: 'tippe auf die Tafel, um ein Stück zu gießen' },
+      sayWelcome: { en: 'A new order! Pick the right piece by its SIZE.', de: 'Eine neue Bestellung! Wähle das richtige Stück nach seiner GRÖSSE.' },
+      sayWin: { en: 'Perfect order — thank you! 🍫', de: 'Perfekte Bestellung – danke! 🍫' },
+      sayPickMold: { en: 'Pick a piece-mold first.', de: 'Wähle zuerst eine Form.' },
+      sayUnequal: { en: "Those aren't equal — pick the fair mold!", de: 'Die sind nicht gleich groß – wähle die faire Form!' },
+      sayShort: { en: 'Not enough yet — forge more pieces.', de: 'Noch nicht genug – gieße mehr Stücke.' },
+      sayOver: { en: "That's too much — tap a piece to take it back.", de: 'Das ist zu viel – tippe auf ein Stück, um es zurückzunehmen.' },
+      sayWrongSize: { en: 'Hmm — those are the wrong size. Try another mold.', de: 'Hmm – das ist die falsche Größe. Probier eine andere Form.' },
+      sayAgain: { en: "Let's look again.", de: 'Schauen wir noch mal.' },
+      sayCross: { en: 'Yes — the same share, on a different shape!', de: 'Ja – der gleiche Anteil, nur in einer anderen Form!' },
+      crossYes: { en: 'Yes — same share! 🍕', de: 'Ja – gleicher Anteil! 🍕' },
+      hintCheck: { en: 'Pick the piece that fits the bar, forge it the right number of times, then hand it over.', de: 'Wähle das Stück, das zur Tafel passt, gieße es so oft wie nötig und gib sie dann ab.' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.snap = null; this.solved = false;
       this.placed = []; this.activeMold = null; this._molds = []; this.msg = null; this.servedCount = 0;
@@ -71,6 +82,8 @@
       this.placed = []; this.activeMold = null;
       this._molds = round.molds ? shuffle(round.molds.slice()) : [];   /* randomize mold positions */
     },
+
+    _pPrompt: function (r) { return (r && r.promptL10n && r.promptL10n[LANG]) || (r && r.prompt) || this.api.t('prompt'); },
 
     /* ---------- render ---------- */
     render: function () {
@@ -89,7 +102,7 @@
       /* order head: the a/b notation + the kid prompt */
       var head = api.el('div', 'ff-head');
       if (s.isBuild || s.isNonscored) head.appendChild(this._fracChip(r.a, r.b));
-      var p = api.el('p', 'ff-prompt'); p.textContent = r.prompt || api.t('prompt'); head.appendChild(p);
+      var p = api.el('p', 'ff-prompt'); p.textContent = this._pPrompt(r); head.appendChild(p);
       root.appendChild(head);
 
       if (this.solved) { this._renderDone(root); stage.appendChild(root); return; }
@@ -99,7 +112,7 @@
       else this._renderBuild(root);
 
       stage.appendChild(root);
-      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak((r.prompt || '') + ''); }, 280); }
+      if (!this._spoke) { this._spoke = true; var _pp = this._pPrompt(r); setTimeout(function () { speak((_pp || '') + ''); }, 280); }
     },
 
     _renderShelf: function (root) {
@@ -125,7 +138,7 @@
       var self = this, r = this.round, W = r.wholeLen, refW = r.refWhole || 0;
       var VW = Math.max(W, refW) + 6, BH = 13, GAP = 5, twoBar = refW > 0;
       var VH = twoBar ? (BH * 2 + GAP + 4) : (BH + 4);
-      var sv = svg('svg', { viewBox: '0 0 ' + VW + ' ' + VH, class: 'ff-svg' + (twoBar ? ' ff-svg2' : ''), 'aria-label': 'chocolate order bar' });
+      var sv = svg('svg', { viewBox: '0 0 ' + VW + ' ' + VH, class: 'ff-svg' + (twoBar ? ' ff-svg2' : ''), 'aria-label': (LANG === 'de' ? 'Schokoladen-Bestellung' : 'chocolate order bar') });
       sv.style.aspectRatio = (VW / VH).toFixed(2);
 
       /* the reference bar (the-whole): a smaller bar already filled to a/b, faint. */
@@ -159,7 +172,7 @@
         /* seam ridge for chocolate look */
         g.appendChild(svg('line', { x1: k * pw + pw - 0.5, y1: by + 1.4, x2: k * pw + pw - 0.5, y2: by + BH - 1.4, stroke: 'rgba(255,255,255,.25)', 'stroke-width': 0.4 }));
         if (opts.interactive) {
-          g.setAttribute('role', 'button'); g.setAttribute('tabindex', '0'); g.setAttribute('aria-label', 'take this piece back'); g.style.cursor = 'pointer';
+          g.setAttribute('role', 'button'); g.setAttribute('tabindex', '0'); g.setAttribute('aria-label', (LANG === 'de' ? 'dieses Stück zurücknehmen' : 'take this piece back')); g.style.cursor = 'pointer';
           (function (idx) { g.addEventListener('click', function () { self._unforge(idx); }); g.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); self._unforge(idx); } }); })(k);
         }
         sv.appendChild(g);
@@ -175,7 +188,7 @@
       var btn = api.el('button', 'ff-mold' + (sel ? ' ff-msel' : ''));
       btn.type = 'button';
       var unequal = (moldB === 'unequal');
-      btn.setAttribute('aria-label', unequal ? 'an uneven mold' : 'a piece mold');
+      btn.setAttribute('aria-label', LANG === 'de' ? (unequal ? 'eine ungleiche Form' : 'eine Stück-Form') : (unequal ? 'an uneven mold' : 'a piece mold'));
       var MW = 64, MH = 18;
       var s = svg('svg', { viewBox: '0 0 ' + (MW + 2) + ' ' + MH, class: 'ff-moldsvg' });
       s.appendChild(svg('rect', { x: 1, y: 2, width: MW, height: MH - 4, rx: 1.8, fill: 'none', stroke: 'rgba(107,74,43,.45)', 'stroke-width': 0.9 }));
@@ -201,7 +214,7 @@
       stageWrap.appendChild(this._orderSvg({ interactive: true }));
       root.appendChild(stageWrap);
 
-      var wall = api.el('div', 'ff-moldwall'); wall.setAttribute('role', 'group'); wall.setAttribute('aria-label', 'piece molds — pick one by its size');
+      var wall = api.el('div', 'ff-moldwall'); wall.setAttribute('role', 'group'); wall.setAttribute('aria-label', (LANG === 'de' ? 'Stück-Formen – wähle eine nach ihrer Größe' : 'piece molds — pick one by its size'));
       this._molds.forEach(function (m, i) { wall.appendChild(self._moldButton(m.b, i)); });
       root.appendChild(wall);
 
@@ -215,7 +228,7 @@
     _renderNameUnit: function (root) {
       var self = this, api = this.api, r = this.round, W = r.wholeLen, BH = 16, VW = W + 4;
       var wrap = api.el('div', 'ff-forge');
-      var sv = svg('svg', { viewBox: '0 0 ' + VW + ' ' + (BH + 4), class: 'ff-svg', 'aria-label': 'a bar in ' + r.b + ' equal parts, one shaded' });
+      var sv = svg('svg', { viewBox: '0 0 ' + VW + ' ' + (BH + 4), class: 'ff-svg', 'aria-label': (LANG === 'de' ? ('eine Tafel in ' + r.b + ' gleiche Teile geteilt, ein Teil gefärbt') : ('a bar in ' + r.b + ' equal parts, one shaded')) });
       sv.style.aspectRatio = (VW / (BH + 4)).toFixed(2);
       sv.appendChild(svg('rect', { x: 0, y: 2, width: W, height: BH, rx: 1.8, fill: '#fff', stroke: C.BAR, 'stroke-width': 0.9 }));
       var unit = W / r.b;
@@ -239,13 +252,14 @@
     _renderCrossShape: function (root) {
       var self = this, api = this.api, r = this.round, W = r.wholeLen, BH = 14;
       var wrap = api.el('div', 'ff-forge ff-cross');
-      var sv = svg('svg', { viewBox: '0 0 ' + (W + 4) + ' ' + (BH + 4), class: 'ff-svg ff-svgbar', 'aria-label': 'a bar with one half shaded' });
+      var sv = svg('svg', { viewBox: '0 0 ' + (W + 4) + ' ' + (BH + 4), class: 'ff-svg ff-svgbar', 'aria-label': (LANG === 'de' ? 'eine Tafel, bei der eine Hälfte gefärbt ist' : 'a bar with one half shaded') });
       sv.style.aspectRatio = ((W + 4) / (BH + 4)).toFixed(2);
       sv.appendChild(svg('rect', { x: 0, y: 2, width: W, height: BH, rx: 1.8, fill: '#fff', stroke: C.BAR, 'stroke-width': 0.9 }));
       sv.appendChild(svg('rect', { x: 0.5, y: 2.7, width: W / r.b - 1, height: BH - 1.4, rx: 1.2, fill: C.PIECE }));
       wrap.appendChild(sv);
       /* the pizza: a circle split in b, one wedge filled */
-      var pz = svg('svg', { viewBox: '0 0 40 40', class: 'ff-pizza', 'aria-label': 'a round pizza with one ' + UNIT[r.b] + ' shaded' });
+      var UNIT_ART_DE = { 2: 'eine Hälfte', 3: 'ein Drittel', 4: 'ein Viertel', 6: 'ein Sechstel', 8: 'ein Achtel' };
+      var pz = svg('svg', { viewBox: '0 0 40 40', class: 'ff-pizza', 'aria-label': (LANG === 'de' ? ('eine runde Pizza, bei der ' + (UNIT_ART_DE[r.b] || 'ein Teil') + ' gefärbt ist') : ('a round pizza with one ' + UNIT[r.b] + ' shaded')) });
       pz.appendChild(svg('circle', { cx: 20, cy: 20, r: 17, fill: '#fff', stroke: C.BAR, 'stroke-width': 1.2 }));
       pz.appendChild(this._wedge(20, 20, 17, -90, -90 + 360 / r.b, C.PIECE));
       for (var i = 0; i < r.b; i++) { var ang = (-90 + i * 360 / r.b) * Math.PI / 180; pz.appendChild(svg('line', { x1: 20, y1: 20, x2: 20 + 17 * Math.cos(ang), y2: 20 + 17 * Math.sin(ang), stroke: 'rgba(107,74,43,.4)', 'stroke-width': 0.7 })); }
@@ -269,7 +283,7 @@
       /* the finished order — the completed a/b bar fills the card (not sparse) */
       if (r && s && (s.isBuild || s.isNonscored)) {
         var wrap = api.el('div', 'ff-doneforge'), W = r.wholeLen, BH = 15;
-        var sv = svg('svg', { viewBox: '0 0 ' + (W + 4) + ' ' + (BH + 4), class: 'ff-svg ff-donesvg', 'aria-label': 'the finished ' + fracWord(r.a, r.b) + ' bar' });
+        var sv = svg('svg', { viewBox: '0 0 ' + (W + 4) + ' ' + (BH + 4), class: 'ff-svg ff-donesvg', 'aria-label': (LANG === 'de' ? ('die fertige ' + fracWord(r.a, r.b) + '-Tafel') : ('the finished ' + fracWord(r.a, r.b) + ' bar')) });
         sv.style.aspectRatio = ((W + 4) / (BH + 4)).toFixed(2);
         sv.appendChild(svg('rect', { x: 0, y: 2, width: W, height: BH, rx: 1.8, fill: '#fff', stroke: C.BAR, 'stroke-width': 0.9 }));
         var unit = W / r.b;
@@ -334,7 +348,7 @@
       this.solved = true; this.servedCount = Math.min(this.servedCount + 1, (this._pool && this._pool.length) || 11);
       this.msg = api.t('sayWin');
       api.sound && api.sound(880);
-      setTimeout(function () { speak('Perfect!'); }, 160);
+      setTimeout(function () { speak(LANG === 'de' ? 'Perfekt!' : 'Perfect!'); }, 160);
       this.render(); api.announce && api.announce(this.msg);
     },
 

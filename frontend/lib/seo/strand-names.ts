@@ -151,6 +151,10 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     en: 'Vocabulary Acquisition and Use',
     de: 'Wortschatz untersuchen', // Lehrplan vocabulary sub-area (de literacy fan-out; affix/Wortbildung + L.K.5.A category-sorting)
   },
+  'Number & Operations—Fractions': {
+    en: 'Number & Operations—Fractions',
+    de: 'Zahlen und Operationen', // KMK Primarstufe has no separate „Brüche" Leitidee — basic Bruchteile sit under „Zahlen und Operationen" (de fan-out; fox-forge 3.NF.A.1)
+  },
 };
 
 /**

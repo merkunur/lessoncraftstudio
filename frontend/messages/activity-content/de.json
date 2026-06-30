@@ -1204,6 +1204,29 @@
         "typische Messfehler erkennen und das passende Lineal wählen"
       ]
     },
+    "fox-forge.fraction.3-nf-a-1": {
+      "about": [
+        "Pip der Fuchs hat eine kleine Schokoladen-Werkstatt — und heute kommen Bestellungen wie „¾“ oder „⅚“ herein. Statt die Bruchzahl nur abzulesen, baut dein Kind sie selbst: Es sucht das richtig große Schokoladenstück aus und gießt es so oft in die Form, bis die Bestellung stimmt. So wird aus einem Bruch etwas zum Anfassen.",
+        "Dahinter steckt eine große Idee aus dem Lehrplan der Grundschule, Bereich „Zahlen und Operationen“: Ein Bruch wie ¾ bedeutet drei von den Viertel-Stücken — ein Anteil eines Ganzen, das in gleich große Teile geteilt wurde. Dein Kind lernt, das Stück nach seiner Größe zu erkennen, auf gleiche Teile zu achten und zu verstehen, dass derselbe Bruch von einem größeren Ganzen auch mehr Schokolade bedeutet.",
+        "Die Werkstatt ist kostenlos und in deinem eigenen Tempo spielbar. Es gibt keine Uhr, keine Punkte und keinen Wettbewerb — nur Ausprobieren, Bauen und das gute Gefühl, wenn die Bestellung passt."
+      ],
+      "practices": [
+        "Stammbrüche wie ½, ⅓ und ¼ als Anteil eines Ganzen erkennen und benennen",
+        "einen Bruch a/b bauen, indem man a gleich große Teile zusammensetzt (¾ = drei Viertel)",
+        "darauf achten, dass die Teile gleich groß sind — sonst ist es kein echter Bruchteil",
+        "verstehen, dass derselbe Bruch von einem größeren Ganzen mehr ist und dass ein Anteil auf verschiedenen Formen (Streifen oder Pizza) gleich sein kann"
+      ],
+      "howToPlay": [
+        "Wähle das richtige Schokoladenstück nach seiner Größe aus",
+        "Gieße es so oft in die Form, wie die Bestellung es braucht",
+        "Gib die fertige Bestellung bei Pip ab"
+      ],
+      "learningGoals": [
+        "Bruchteile als Anteile eines in gleiche Teile geteilten Ganzen verstehen",
+        "einen Bruch a/b handelnd als a Kopien des Stückchens 1/b aufbauen",
+        "erkennen, dass sich jeder Anteil immer auf sein Ganzes bezieht"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

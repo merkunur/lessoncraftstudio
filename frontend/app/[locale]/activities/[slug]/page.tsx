@@ -21,6 +21,7 @@ const GRADE_KEY_MAP: Record<string, string> = {
    grade here. EN + any locale/activity without an entry are unaffected. Sits beside the
    route's other localization maps (EDUCATIONAL_FRAMEWORK_BY_LOCALE, strand-names). */
 const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
+  'atlas-fact-files.key-detail.ri-k-1': { de: '1' },                      // Sachtext-Leseverständnis (late-Klasse-1 Erstleser) → DE Klasse 1 (en Kindergarten); K-cluster K-label
   'booker-glossary-desk.guide-words.l-2-4-e': { de: '3' },                // systematische Wörterbucharbeit (Leitwörter, 2nd/3rd-letter) → DE Klasse 3 (en Grade 2)
   'place-value-regroup.subtract-decompose.2-nbt-b-7': { de: '3' },        // bis-1000 subtraction (borrow) → DE Klasse 3
   'place-value-regroup.add-compose-hundred.2-nbt-b-7': { de: '3' },       // bis-1000 add (carry to hundreds) → DE Klasse 3
@@ -377,7 +378,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.80';
+  const ACTIVITY_WRAPPER_VERSION = '9.81';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

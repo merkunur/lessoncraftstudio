@@ -82,6 +82,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'booker-glossary-desk.guide-words.l-2-4-e': { de: 'Richtig schreiben' }, // Wörterbuch nachschlagen = Rechtschreib-Arbeitstechnik, not Sprache untersuchen (cleo/wally precedent)
   'gabby-sayings.idioms.l-3-5-a': { de: 'Wortschatz untersuchen' }, // Redewendungen = feste Bedeutungseinheit / Wortbedeutung = vocabulary (roary/fern/olive L.5 precedent), not the grammar Bereich
   'field-guide.text-features.1-ri-5': { de: 'Lesen – mit Texten und Medien umgehen' }, // USING the book's tools to navigate = Lesestrategie/Texterschließung (the KMK Bereich), NOT comprehension (#78's „Sachtexte verstehen")
+  'bea-two-bookshelves.story-or-fact.rl-1-5': { de: 'Lesen – mit Texten und Medien umgehen' }, // Geschichte-vs-Sachbuch = Textsortenbewusstheit (Umgang-mit-Texten), NOT literary comprehension; CCSS „Reading: Literature" auto-map absent → override sets the chip (a future story-comprehension RL activity opens its own literary Bereich)
   'graph-it.bar-graph.2-md-d-10': { de: 'Daten und Häufigkeit' },   // bar graph = data, not Größen
   'line-plot.read.2-md-d-9': { de: 'Daten und Häufigkeit' },        // line plot of measured lengths = data, not Größen
   'hoppers-number-line.jump-sums.2-md-b-6': { de: 'Zahlen und Rechnen im Zehnersystem' }, // add/sub on a number line = arithmetic, not Größen
@@ -381,7 +382,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.83';
+  const ACTIVITY_WRAPPER_VERSION = '9.84';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

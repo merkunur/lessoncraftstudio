@@ -14,15 +14,16 @@
   var Core = global.StoryFactCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GREEN: '#2FA56A' };
   var COVERS = ['#EAD7AE', '#CDE3D6', '#E6D2E8', '#F6D9C8', '#D7E2F0', '#F3E6B8'];
+  var LANG = 'en';
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function wormSVG() {
-    return '<svg class="btb-worm-svg" viewBox="0 0 100 100" role="img" aria-label="Bea the bookworm">' +
+    return '<svg class="btb-worm-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Bea, die Bücherraupe' : 'Bea the bookworm') + '">' +
       '<path d="M24 70 q8 -14 20 -8 q12 6 22 -2 q12 -8 12 6" fill="none" stroke="#7FB069" stroke-width="11" stroke-linecap="round"/>' +
       '<circle cx="78" cy="58" r="11" fill="#9ACD7A"/>' +
       '<circle cx="75" cy="56" r="2.4" fill="#2A2A35"/><circle cx="82" cy="56" r="2.4" fill="#2A2A35"/>' +
@@ -36,19 +37,19 @@
     id: 'bea-two-bookshelves-activity',
 
     strings: {
-      title: { en: "Bea's Two Bookshelves" },
-      instruction: { en: 'Tap the story book, or the fact book, that Bea asks for.' },
-      promptStory: { en: 'Which book tells a make-believe STORY?' },
-      promptFact: { en: 'Which book gives you real FACTS?' },
-      beaIntro: { en: 'Story books tell a tale. Fact books teach real things!' },
-      hintStory: { en: 'A story has made-up characters and a tale. Read the covers!' },
-      hintFact: { en: 'A fact book teaches you about real things. Read the covers!' },
-      win: { en: 'Yes! You found the right kind of book. 🐛' }
+      title: { en: "Bea's Two Bookshelves", de: 'Beas zwei Bücherregale' },
+      instruction: { en: 'Tap the story book, or the fact book, that Bea asks for.', de: 'Tippe das Geschichtenbuch oder das Sachbuch an, das Bea sucht.' },
+      promptStory: { en: 'Which book tells a make-believe STORY?', de: 'Welches Buch erzählt eine ausgedachte Geschichte?' },
+      promptFact: { en: 'Which book gives you real FACTS?', de: 'Welches Buch erklärt dir echte Dinge?' },
+      beaIntro: { en: 'Story books tell a tale. Fact books teach real things!', de: 'Geschichten sind ausgedacht. Sachbücher erklären echte Dinge!' },
+      hintStory: { en: 'A story has made-up characters and a tale. Read the covers!', de: 'Eine Geschichte ist ausgedacht und hat erfundene Figuren. Lies die Buchdeckel genau!' },
+      hintFact: { en: 'A fact book teaches you about real things. Read the covers!', de: 'Ein Sachbuch erklärt dir echte Dinge. Lies die Buchdeckel genau!' },
+      win: { en: 'Yes! You found the right kind of book. 🐛', de: 'Ja! Du hast das richtige Buch gefunden. 🐛' }
     },
     defaults: {},
 
     init: function (api) {
-      this.api = api;
+      this.api = api; LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -107,7 +108,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/bea-two-bookshelves-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[bea-two-bookshelves] manifest load failed:', e.message); });
     },
 
@@ -128,8 +129,8 @@
         + '.btb-opt:active{transform:translateY(1px);}'
         + '.btb-opt:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
         + '@media (max-height:920px){.btb-root{gap:clamp(6px,1.5vw,10px);}.btb-worm{width:clamp(42px,8vw,52px);}.btb-opt{min-height:98px;}}'
-        + '@media (max-height:700px){.btb-root{gap:6px;padding:11px;}.btb-row{display:none;}.btb-opt{min-height:92px;padding:9px 10px 9px 16px;}}'
-        + '@media (max-height:640px){.btb-root{gap:4px;padding:8px;}.btb-opts{gap:6px;}.btb-opt{min-height:60px;padding:7px 9px 7px 14px;gap:3px;}.btb-title{font-size:12.5px;}.btb-blurb{font-size:10px;line-height:1.2;}}'
+        + '@media (max-height:760px){.btb-root{gap:6px;padding:11px;}.btb-row{display:none;}.btb-opt{min-height:88px;padding:9px 10px 9px 16px;}}'
+        + '@media (max-height:660px){.btb-root{gap:3px;padding:6px;}.btb-opts{gap:5px;}.btb-opt{min-height:46px;padding:5px 8px 5px 13px;gap:2px;}.btb-title{font-size:11.5px;line-height:1.1;}.btb-blurb{font-size:9px;line-height:1.12;}}'
         + '@media (max-width:380px){.btb-opt{width:clamp(120px,42vw,150px);}}';
       var tag = document.createElement('style'); tag.setAttribute('data-bea-two-bookshelves', ''); tag.textContent = css; document.head.appendChild(tag);
     }

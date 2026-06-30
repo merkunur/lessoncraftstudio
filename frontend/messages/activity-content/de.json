@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "bea-two-bookshelves.story-or-fact.rl-1-5": {
+      "about": [
+        "Bea, die Bücherraupe, liebt jedes Buch — aber sie weiß auch: Es gibt zwei ganz verschiedene Arten davon. In dieser Aktivität sieht dein Kind drei Buchdeckel mit Titel und einem kurzen Satz dazu. Bea fragt: „Welches ist eine Geschichte?“ oder „Welches ist ein Sachbuch?“ Dein Kind liest die Hinweise und tippt das passende Buch an.",
+        "Die große Idee dahinter: Es gibt erzählende Bücher — das sind erfundene Geschichten mit Abenteuern, Drachen, Zauberei oder sprechenden Tieren — und es gibt Sachbücher, die uns echtes Wissen über die wirkliche Welt erklären. Und man erkennt schon am Buchdeckel, welche Art man vor sich hat. „Der mutige Drache rettet das verzauberte Schloss“ ist eine Geschichte — so etwas ist ausgedacht. „Alles über echte Igel: Was sie fressen und wo sie schlafen“ ist ein Sachbuch — hier lernt man Tatsachen. An genau diesen Hinweisen wird dein Kind zum kleinen Buch-Detektiv.",
+        "Hier geht es nicht darum, worum es in einem Buch geht, sondern welche Art von Buch es ist — die Textsorte. Das Spiel ist kostenlos, ganz ohne Zeitdruck, ohne Punkte und ohne Sterne. Kein Kind wird gehetzt oder bewertet; es darf in Ruhe lesen, überlegen und ausprobieren. Die Aufgabe ist am Lehrplan der Grundschule ausgerichtet und gehört zum Bereich „Lesen – mit Texten und Medien umgehen“."
+      ],
+      "practices": [
+        "Erzählende Geschichten von echten Sachbüchern unterscheiden.",
+        "Hinweise auf dem Buchdeckel — Titel und kurzen Satz — genau lesen.",
+        "Fantasie-Wörter (Drache, Zauber, Abenteuer) als Zeichen für eine Geschichte erkennen.",
+        "Sach-Wörter („Alles über echte …“, „So lebt …“) als Zeichen für ein Sachbuch erkennen."
+      ],
+      "howToPlay": [
+        "Lies die drei Buchdeckel mit Titel und Satz.",
+        "Überlege: Ist das ausgedacht (Geschichte) oder echtes Wissen (Sachbuch)?",
+        "Tippe das Buch an, nach dem Bea gefragt hat."
+      ],
+      "learningGoals": [
+        "Dein Kind kann eine erfundene Geschichte von einem Sachbuch unterscheiden.",
+        "Dein Kind kann am Titel und am kurzen Satz erkennen, welche Art Buch es ist.",
+        "Dein Kind kann erklären, dass Geschichten ausgedacht sind und Sachbücher echtes Wissen erklären."
+      ]
+    },
     "field-guide.text-features.1-ri-5": {
       "about": [
         "Detektiv Dewey steht vor einem dicken Sachbuch und sucht eine ganz bestimmte Information — und er rät nicht einfach drauflos. Er benutzt die Werkzeuge, die das Buch selbst mitbringt: das Inhaltsverzeichnis, die Überschriften, die Bildunterschriften und die Seite mit den wichtigen Wörtern. Dein Kind hilft ihm dabei, mit genau diesen Werkzeugen die richtige Stelle zu finden.",

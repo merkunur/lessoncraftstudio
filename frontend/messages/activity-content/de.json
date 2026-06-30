@@ -1480,6 +1480,52 @@
         "Den schnellen Weg vom Bündel zur Gesamtzahl gehen"
       ]
     },
+    "clock-elapsed.what-time.3-md-a-1": {
+      "about": [
+        "Der Hahn Sprocket möchte wissen, wie spät es später ist. In „Sprockets Uhr“ liest dein Kind zuerst die Startzeit auf einer analogen Uhr ab und zählt dann in 5-Minuten-Schritten weiter: „Wenn es jetzt so spät ist und N Minuten vergehen — wie spät ist es dann?“ Aus drei digitalen Zeitkarten tippt es die richtige Endzeit an.",
+        "Dahinter steckt eine wichtige mathematische Idee der Grundschule: das Berechnen von Zeitspannen. Zeit ist eine Größe, und beim Weiterzählen über die volle Stunde hinaus lernt dein Kind, den vertrauten 5er-Takt des Zifferblatts zu nutzen und den Stundenübergang sicher zu meistern. So wird aus dem reinen Ablesen ein echtes Rechnen mit der Uhr.",
+        "Es gibt keine Uhr, die tickt, keine Punkte und keine Bestenliste. Dein Kind probiert in seinem eigenen Tempo, darf in Ruhe nachdenken und so oft schauen, wie es mag. Die Aktivität ist frei und kostenlos zugänglich. Diese ruhige, druckfreie Übung passt zur Leitidee „Größen und Messen“ im Lehrplan der Grundschule und begleitet den Mathematikunterricht der Klasse 3."
+      ],
+      "practices": [
+        "Eine Startzeit auf der analogen Uhr ablesen",
+        "In 5-Minuten-Schritten weiterzählen",
+        "Zeitspannen über die volle Stunde hinaus berechnen",
+        "Die passende Endzeit auf der digitalen Uhr erkennen"
+      ],
+      "howToPlay": [
+        "Schau dir die Startzeit auf Sprockets Uhr an.",
+        "Zähle die angegebenen Minuten Schritt für Schritt weiter.",
+        "Tippe die Karte mit der richtigen Endzeit an."
+      ],
+      "learningGoals": [
+        "Dein Kind kann eine Uhrzeit ablesen und in 5er-Schritten weiterzählen.",
+        "Es berechnet Zeitspannen sicher über die volle Stunde hinaus.",
+        "Es verbindet die analoge und die digitale Darstellung der Uhrzeit."
+      ]
+    },
+    "clock-elapsed.add-subtract.3-md-a-1": {
+      "about": [
+        "Mal vorwärts, mal rückwärts — bei Sprocket geht es in beide Richtungen. In dieser Übung von „Sprockets Uhr“ liest dein Kind die Startzeit ab und überlegt dann: Bei „in N Minuten“ zählt es weiter, bei „vor N Minuten“ rechnet es zurück. Aus drei digitalen Zeitkarten wählt es die passende Uhrzeit aus.",
+        "Das Besondere ist der Wechsel der Richtung: Mal vergeht Zeit nach vorne, mal blickt dein Kind in die Vergangenheit und zählt zurück — sogar über die 12 hinaus. So lernt es, bewusst zwischen weiterzählen und zurückrechnen zu unterscheiden und beide Wege mit dem 5-Minuten-Takt der Uhr zu gehen. Das vertieft das Verständnis von Zeitspannen als Größe spürbar.",
+        "Auch hier gibt es keinen Zeitdruck, keine Punkte und keinen Wettbewerb — nur Sprocket, die Uhr und dein Kind, das in Ruhe ausprobieren darf. Die Aktivität ist frei und kostenlos. Sie gehört zur Leitidee „Größen und Messen“ im Lehrplan der Grundschule und unterstützt den Mathematikunterricht der Klasse 3."
+      ],
+      "practices": [
+        "Vorwärts weiterzählen und rückwärts zurückrechnen",
+        "Die Richtung am Wort erkennen: „in“ oder „vor“ N Minuten",
+        "Über die volle Stunde und über die 12 hinaus rechnen",
+        "Start- und Endzeit zwischen analoger und digitaler Uhr verbinden"
+      ],
+      "howToPlay": [
+        "Lies die Startzeit auf Sprockets Uhr ab.",
+        "Achte darauf: Sollst du weiterzählen oder zurückrechnen?",
+        "Tippe die Karte mit der richtigen Uhrzeit an."
+      ],
+      "learningGoals": [
+        "Dein Kind kann Uhrzeiten sowohl vorwärts als auch rückwärts berechnen.",
+        "Es unterscheidet sicher zwischen weiterzählen und zurückrechnen.",
+        "Es meistert Zeitspannen über die volle Stunde und über die 12 hinaus."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

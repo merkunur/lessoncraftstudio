@@ -7,25 +7,28 @@
     "theme": null,
     "params": {
       "rounds": [
-        { "id": "ap-breakfast", "activity": "You eat breakfast.", "time": "7:00", "ampm": "AM" },
-        { "id": "ap-wakeup", "activity": "You wake up.", "time": "6:00", "ampm": "AM" },
-        { "id": "ap-school", "activity": "School starts.", "time": "8:00", "ampm": "AM" },
-        { "id": "ap-sunrise", "activity": "The sun comes up.", "time": "6:00", "ampm": "AM" },
-        { "id": "ap-dinner", "activity": "You eat dinner.", "time": "6:00", "ampm": "PM" },
-        { "id": "ap-sleep", "activity": "You go to sleep.", "time": "8:00", "ampm": "PM" },
-        { "id": "ap-stars", "activity": "You look at the stars.", "time": "9:00", "ampm": "PM" },
-        { "id": "ap-play", "activity": "You play after school.", "time": "4:00", "ampm": "PM" },
-        { "id": "ap-brush", "activity": "You brush your teeth before bed.", "time": "9:00", "ampm": "PM" }
+        { "id": "ap-breakfast", "activity": "You eat breakfast.", "activityL10n": { "de": "Du frühstückst." }, "time": "7:00", "ampm": "AM" },
+        { "id": "ap-wakeup", "activity": "You wake up.", "activityL10n": { "de": "Du wachst auf." }, "time": "6:00", "ampm": "AM" },
+        { "id": "ap-school", "activity": "School starts.", "activityL10n": { "de": "Die Schule beginnt." }, "time": "8:00", "ampm": "AM" },
+        { "id": "ap-sunrise", "activity": "The sun comes up.", "activityL10n": { "de": "Die Sonne geht auf." }, "time": "6:00", "ampm": "AM" },
+        { "id": "ap-dinner", "activity": "You eat dinner.", "activityL10n": { "de": "Du isst zu Abend." }, "time": "6:00", "ampm": "PM" },
+        { "id": "ap-sleep", "activity": "You go to sleep.", "activityL10n": { "de": "Du gehst schlafen." }, "time": "8:00", "ampm": "PM" },
+        { "id": "ap-stars", "activity": "You look at the stars.", "activityL10n": { "de": "Du schaust die Sterne an." }, "time": "9:00", "ampm": "PM" },
+        { "id": "ap-play", "activity": "You play after school.", "activityL10n": { "de": "Du spielst nach der Schule." }, "time": "4:00", "ampm": "PM" },
+        { "id": "ap-brush", "activity": "You brush your teeth before bed.", "activityL10n": { "de": "Du putzt vor dem Schlafen die Zähne." }, "time": "9:00", "ampm": "PM" }
       ]
     },
     "slug": {
-      "en": "am-or-pm-morning-or-night"
+      "en": "am-or-pm-morning-or-night",
+      "de": "tageszeiten-zuordnen-vormittags-nachmittags-klasse-1"
     },
     "page_title": {
-      "en": "Sprocket's Clock — A.M. or P.M.? (Grade 2)"
+      "en": "Sprocket's Clock — A.M. or P.M.? (Grade 2)",
+      "de": "Tageszeiten zuordnen – Klasse 1 | Sprockets Uhr"
     },
     "page_intro": {
-      "en": "A free interactive Grade 2 time activity: decide whether an everyday thing happens in the a.m. (morning) or p.m. (afternoon or evening). Children learn that breakfast is a.m. and dinner is p.m. — using a.m. and p.m. with the time of day. Sprocket the rooster cheers them on. Common Core 2.MD.C.7."
+      "en": "A free interactive Grade 2 time activity: decide whether an everyday thing happens in the a.m. (morning) or p.m. (afternoon or evening). Children learn that breakfast is a.m. and dinner is p.m. — using a.m. and p.m. with the time of day. Sprocket the rooster cheers them on. Common Core 2.MD.C.7.",
+      "de": "Tageszeiten zuordnen üben: morgens & vormittags oder nachmittags & abends? Ordne Alltagstätigkeiten der richtigen Tageszeit zu – kostenlos & interaktiv, Klasse 1."
     },
     "kid_prompt_template": "clock-ampm"
   }

@@ -1572,6 +1572,29 @@
         "Es gewinnt Sicherheit darin, Zahlen selbstständig und gut lesbar aufzuschreiben."
       ]
     },
+    "clock-ampm.morning-or-night.2-md-c-7": {
+      "about": [
+        "Der Hahn Sprocket kennt sich mit dem ganzen Tag aus: Am Morgen kräht er, wenn die Sonne aufgeht, und am Abend macht er die Augen zu, wenn der Mond am Himmel steht. In dieser Aktivität zeigt dir Sprocket eine Sache aus dem Tag – zum Beispiel „frühstücken um 7 Uhr“ oder „die Sterne anschauen um 9 Uhr“ – und du überlegst gemeinsam mit ihm: Passt das eher in den Vormittag, wenn der Tag beginnt, oder in den Nachmittag und Abend, wenn es später wird?",
+        "So lernst du ganz nebenbei, Uhrzeiten und alltägliche Dinge einer Tageszeit zuzuordnen. Du spürst den Unterschied zwischen „vor dem Mittag“ und „nach dem Mittag“ und merkst, wie dein eigener Tagesablauf aufgebaut ist – vom Aufstehen über die Schule bis zum Zähneputzen vor dem Schlafengehen. Du tippst einfach auf die Sonne für den Vormittag oder auf den Mond für den Nachmittag und Abend.",
+        "Hier tickt keine Uhr, es gibt keine Punkte und keinen Wettkampf. Du darfst in deinem eigenen Tempo überlegen, ruhig noch einmal nachdenken und so oft probieren, wie du magst. Diese Aktivität orientiert sich am Lehrplan der Grundschule und an der Leitidee „Größen und Messen“. Sprocket freut sich über jede Runde mit dir – ganz ohne Eile."
+      ],
+      "practices": [
+        "Tageszeiten unterscheiden: Vormittag, Nachmittag und Abend",
+        "Alltägliche Tätigkeiten einer passenden Tageszeit zuordnen",
+        "Volle Uhrzeiten lesen und in den Tag einordnen",
+        "Den eigenen Tagesablauf von morgens bis abends bewusst wahrnehmen"
+      ],
+      "howToPlay": [
+        "Lies, was Sprocket gerade tut, und schau dir die Uhrzeit dazu an.",
+        "Überlege: Ist das am Vormittag oder am Nachmittag und Abend?",
+        "Tippe auf die Sonne (Vormittag) oder auf den Mond (Nachmittag und Abend)."
+      ],
+      "learningGoals": [
+        "Ich kann Tätigkeiten dem Vormittag oder dem Nachmittag und Abend zuordnen.",
+        "Ich kann volle Uhrzeiten einer Tageszeit zuordnen.",
+        "Ich verstehe, wie mein Tag von morgens bis abends verläuft."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

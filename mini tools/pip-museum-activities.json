@@ -25,9 +25,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "professor-pips-museum" },
-    "page_title": { "en": "Professor Pip's Museum — Name Shapes Any Way They Turn (Kindergarten)" },
-    "page_intro": { "en": "A free interactive Kindergarten geometry game: Professor Pip the penguin trusts you to NAME every new museum acquisition. Treasures ride up the conveyor tilted, tiny, stretched, or upside-down — and you route each to the pedestal that names it. A square is a square even when it's turned like a diamond! Naming circles, triangles, squares, rectangles, and hexagons no matter how they're turned or sized is the heart of Common Core K.G.A.2." },
+    "slug": { "en": "professor-pips-museum", "de": "formen-erkennen-und-benennen-klasse-1" },
+    "page_title": { "en": "Professor Pip's Museum — Name Shapes Any Way They Turn (Kindergarten)", "de": "Formen erkennen & benennen: Kreis, Dreieck & Co. – Klasse 1" },
+    "page_intro": { "en": "A free interactive Kindergarten geometry game: Professor Pip the penguin trusts you to NAME every new museum acquisition. Treasures ride up the conveyor tilted, tiny, stretched, or upside-down — and you route each to the pedestal that names it. A square is a square even when it's turned like a diamond! Naming circles, triangles, squares, rectangles, and hexagons no matter how they're turned or sized is the heart of Common Core K.G.A.2.", "de": "Formen erkennen und benennen – egal, wie gedreht oder groß! In Pips Museum ordnen Kinder Kreis, Dreieck & Quadrat zu. Kostenlos & interaktiv, Klasse 1." },
     "kid_prompt_template": "curate-wing"
   }
 ]

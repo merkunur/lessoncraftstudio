@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "juniper-story-lantern.central-message.rl-1-2": {
+      "about": [
+        "Bei Lampenschein erzählt Juniper der Igel eine Geschichte nach der anderen – das ist „Junipers Geschichten-Laterne“. Dein Kind hört oder liest eine kurze, klassische Fabel, zum Beispiel von der Schildkröte und dem Hasen, vom Löwen und der Maus oder vom Nordwind und der Sonne. Danach tippt es die Karte an, die sagt, was uns die Fabel lehren will.",
+        "Jede Fabel hat eine Lehre – eine kleine Botschaft, die über die Geschichte selbst hinausgeht. Und genau hier wird es spannend: Eine Karte nennt nur ein Detail, das in der Geschichte passiert ist („Der Hase machte ein langes Schläfchen“). Eine andere klingt zwar klug, passt aber nicht wirklich zu dieser Fabel. Nur eine einzige sagt die echte Lehre („Langsam, aber stetig kommt man auch ans Ziel“). Die Lehre zu finden – und nicht bloß ein Detail – ist echtes Textverständnis: Dein Kind muss die ganze Geschichte überblicken und ihren Sinn in eigene Worte fassen.",
+        "Hier gibt es keine Uhr, die tickt, und keine Punkte zu sammeln – nur Zeit zum Nachdenken und Wiederhören. Die Aufgabe begleitet den Lehrplan der Grundschule im Lesebereich „Literarische Texte verstehen“, in dem Kinder Fabeln kennenlernen und die Lehre einer Geschichte herausarbeiten."
+      ],
+      "practices": [
+        "Die zentrale Lehre einer Fabel erkennen",
+        "Zwischen einem Detail und der eigentlichen Botschaft unterscheiden",
+        "Eine passende von einer nur scheinbar richtigen Aussage trennen",
+        "Den Sinn einer Geschichte in eigenen Worten erfassen"
+      ],
+      "howToPlay": [
+        "Hört euch bei Junipers Laterne eine kurze Fabel an oder lest sie gemeinsam.",
+        "Lest die Karten und überlegt: Welche sagt, was die Fabel uns lehren will?",
+        "Tippt die Karte mit der echten Lehre an – ohne Zeitdruck, so oft ihr mögt."
+      ],
+      "learningGoals": [
+        "Dein Kind erkennt die Lehre einer Fabel und unterscheidet sie von einem bloßen Detail.",
+        "Dein Kind begründet, warum eine Aussage zur Geschichte passt und eine andere nur richtig klingt.",
+        "Dein Kind fasst die Botschaft einer Geschichte sicher in eigenen Worten zusammen."
+      ]
+    },
     "author-purpose.why-wrote.ri-2-6": {
       "about": [
         "Am Hafen klappert der Briefkasten und Marlow der Pelikan hat alle Pfoten voll zu tun: In „Marlows Hafenpost“ liest dein Kind eine kurze Notiz, überlegt, warum sie geschrieben wurde, und schickt sie in den richtigen Korb – zu den Fakten, zur lustigen Geschichte oder zur Anleitung.",

@@ -78,12 +78,88 @@
             { "id": "o3", "kind": "moral", "text": "A true friend helps in trouble." }
           ]
         }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          {
+            "id": "tortoise", "band": 1,
+            "story": ["Der Hase lachte und prahlte, er sei viel schneller als die Schildkröte.", "Der Hase rannte weit voraus und machte dann ein langes Schläfchen.", "Die langsame Schildkröte ging immer weiter und gewann das Rennen."],
+            "options": [
+              { "id": "o1", "kind": "moral", "text": "Langsam, aber stetig kommt man auch ans Ziel." },
+              { "id": "o2", "kind": "detail", "text": "Der Hase machte ein langes Schläfchen." },
+              { "id": "o3", "kind": "wrongmoral", "text": "Der schnellste Läufer gewinnt immer." }
+            ]
+          },
+          {
+            "id": "ant", "band": 1,
+            "story": ["Den ganzen Sommer spielte die Grille, während die Ameise Futter sammelte.", "Dann kam der Winter und kalter Schnee fiel.", "Die Grille hatte Hunger, doch die Ameise blieb warm und satt."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Die Grille spielte den ganzen Sommer lang." },
+              { "id": "o2", "kind": "wrongmoral", "text": "Der Sommer ist die beste Zeit zum Ausruhen." },
+              { "id": "o3", "kind": "moral", "text": "Wer vorausdenkt, ist später gut vorbereitet." }
+            ]
+          },
+          {
+            "id": "lion", "band": 1,
+            "story": ["Eine winzige Maus weckte einen großen, schlafenden Löwen.", "Der gütige Löwe lächelte und ließ die Maus laufen.", "Später hing der Löwe in einem Netz fest, und die Maus nagte ihn frei."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Der große Löwe hing in einem Netz fest." },
+              { "id": "o2", "kind": "moral", "text": "Auch ein kleiner Freund kann viel helfen." },
+              { "id": "o3", "kind": "wrongmoral", "text": "Einen schlafenden Löwen soll man nie wecken." }
+            ]
+          },
+          {
+            "id": "crow", "band": 2,
+            "story": ["Eine durstige Krähe fand einen Krug mit etwas Wasser am Boden.", "Mit ihrem Schnabel kam sie nicht an das Wasser heran.", "Sie warf Steinchen hinein, bis das Wasser stieg, und dann trank sie."],
+            "options": [
+              { "id": "o1", "kind": "moral", "text": "Mit einer klugen Idee löst man ein Problem." },
+              { "id": "o2", "kind": "detail", "text": "Die Krähe warf Steinchen in den Krug." },
+              { "id": "o3", "kind": "wrongmoral", "text": "Bei Hitze soll man immer Wasser dabeihaben." }
+            ]
+          },
+          {
+            "id": "wolf", "band": 2,
+            "story": ["Ein Junge rief aus Spaß „Wolf!“, und die Leute liefen ihm zu Hilfe.", "Er lachte, denn es gab gar keinen Wolf.", "Als ein echter Wolf kam, glaubte ihm niemand mehr."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Der Junge rief nur aus Spaß „Wolf!“." },
+              { "id": "o2", "kind": "wrongmoral", "text": "Wölfe sind groß und sehr gefährlich." },
+              { "id": "o3", "kind": "moral", "text": "Wer lügt, dem glaubt man bald nicht mehr." }
+            ]
+          },
+          {
+            "id": "wind", "band": 2,
+            "story": ["Der Wind und die Sonne stritten, wer von ihnen stärker sei.", "Der Wind blies kräftig, doch der Mann hielt seinen Mantel fest.", "Dann schien die Sonne warm, und der Mann zog den Mantel aus."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Der starke Wind blies kräftig gegen den Mann." },
+              { "id": "o2", "kind": "moral", "text": "Mit Freundlichkeit erreicht man mehr als mit Gewalt." },
+              { "id": "o3", "kind": "wrongmoral", "text": "Die Sonne ist heißer als der Wind." }
+            ]
+          },
+          {
+            "id": "goose", "band": 3,
+            "story": ["Eine Gans legte jeden Tag ein einziges glänzendes goldenes Ei.", "Der Bauer wollte das ganze Gold auf einmal haben.", "Er schnitt die Gans auf, fand nichts, und die Eier blieben aus."],
+            "options": [
+              { "id": "o1", "kind": "moral", "text": "Wer zu viel will, verliert am Ende alles." },
+              { "id": "o2", "kind": "detail", "text": "Der Bauer wollte das ganze Gold haben." },
+              { "id": "o3", "kind": "wrongmoral", "text": "Gänse sind aus reinem Gold." }
+            ]
+          },
+          {
+            "id": "bear", "band": 3,
+            "story": ["Zwei Freunde gingen spazieren, als ein großer Bär auftauchte.", "Ein Freund kletterte auf einen Baum und ließ den anderen allein.", "Der andere blieb ganz still liegen, bis der Bär ging, und stand dann auf."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Ein Freund kletterte auf einen hohen Baum." },
+              { "id": "o2", "kind": "wrongmoral", "text": "Bären kann man leicht verscheuchen." },
+              { "id": "o3", "kind": "moral", "text": "Ein echter Freund hilft in der Not." }
+            ]
+          }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "juniper-story-lantern" },
-    "page_title": { "en": "Juniper's Story Lantern — What's the Lesson? (Grade 1)" },
-    "page_intro": { "en": "By lantern-light, Juniper the hedgehog tells a tiny fable, then asks the big question: what does this story TEACH us? Listen to the tale, then tap the card that tells its lesson — not just something that happened in it, and not a lesson that sounds right but isn't. A warm Grade 1 reading game about finding a story's central message or lesson, aligned to Common Core RL.1.2." },
+    "slug": { "en": "juniper-story-lantern", "de": "die-lehre-einer-fabel-erkennen-klasse-3" },
+    "page_title": { "en": "Juniper's Story Lantern — What's the Lesson? (Grade 1)", "de": "Die Lehre einer Fabel erkennen – Klasse 3" },
+    "page_intro": { "en": "By lantern-light, Juniper the hedgehog tells a tiny fable, then asks the big question: what does this story TEACH us? Listen to the tale, then tap the card that tells its lesson — not just something that happened in it, and not a lesson that sounds right but isn't. A warm Grade 1 reading game about finding a story's central message or lesson, aligned to Common Core RL.1.2.", "de": "Dein Kind hört eine kurze Fabel – etwa von Hase und Schildkröte – und tippt bei Junipers Laterne die Karte mit der echten Lehre. Kostenlos und interaktiv, Klasse 3." },
     "kid_prompt_template": "juniper-story-lantern"
   }
 ]

@@ -20,9 +20,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "fix-it-corner" },
-    "page_title": { "en": "Fixit's Fix-It Corner — Find the Missing Number (Grade 1)" },
-    "page_intro": { "en": "A free interactive Grade 1 math game for the missing number in addition and subtraction: help Fixit the near-sighted repair-mole work out the part each broken gadget needs — the missing sum, addend, subtrahend, or minuend — then pop it in and watch it whir to life. Counting-on, fact-families, and balancing all build Common Core 1.OA.D.8." },
+    "slug": { "en": "fix-it-corner", "de": "platzhalteraufgaben-plus-minus-fehlende-zahl-klasse-1" },
+    "page_title": { "en": "Fixit's Fix-It Corner — Find the Missing Number (Grade 1)", "de": "Platzhalteraufgaben Plus & Minus – Fehlende Zahl Klasse 1" },
+    "page_intro": { "en": "A free interactive Grade 1 math game for the missing number in addition and subtraction: help Fixit the near-sighted repair-mole work out the part each broken gadget needs — the missing sum, addend, subtrahend, or minuend — then pop it in and watch it whir to life. Counting-on, fact-families, and balancing all build Common Core 1.OA.D.8.", "de": "Hilf Fixit, kaputte Geräte zu reparieren: Finde die fehlende Zahl in Plus- und Minusaufgaben – an jeder Stelle. Kostenlos & interaktiv für Klasse 1. Jetzt knobeln!" },
     "kid_prompt_template": "missing-part"
   }
 ]

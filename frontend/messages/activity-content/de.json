@@ -1641,6 +1641,29 @@
         "Das Kind rechnet kleine Summen sicher im Kopf, ohne Zwischenergebnis abzulesen."
       ]
     },
+    "fix-it-corner.missing-part.1-oa-d-8": {
+      "about": [
+        "In „Fixits Reparatur-Ecke“ hilfst du dem kurzsichtigen Reparatur-Maulwurf Fixit, kaputte Geräte wieder zum Laufen zu bringen. Jedes Gerät zeigt eine Plus- oder Minusaufgabe, bei der genau ein Teil leuchtet wie eine leere Steckdose — das ist die fehlende Zahl. Steckst du die richtige Zahl hinein, surrt das Gerät zufrieden los. Mal füllst du ein Zehnerfeld bis zur 10, mal zählst du am Zahlenstrahl vorwärts oder rückwärts, mal bringst du eine Balkenwaage ins Gleichgewicht.",
+        "Dahinter steckt eine der wichtigsten Ideen des ersten Schuljahres: Die fehlende Zahl in einer Plus- oder Minusaufgabe kann an jeder Stelle stehen — sie kann die Summe sein, ein Summand, oder die Zahl, von der man wegnimmt. Mit den anschaulichen Geräten entdeckst du Umkehraufgaben und ganze Aufgabenfamilien, du lernst zu ergänzen („Wie viele fehlen noch?“) und du erlebst das Gleichheitszeichen als echtes Gleichgewicht — links muss genauso viel sein wie rechts.",
+        "Hier gibt es keine Uhr, die tickt, keine Punkte und keine Sterne — und alles ist frei zugänglich. Wenn du eine Zahl wählst, die noch nicht passt, zeigt dir das Gerät ganz ruhig, was dann passiert, und Fixit rechnet es gemütlich mit dir gemeinsam vor. So darfst du in deinem eigenen Tempo ausprobieren, nachdenken und die fehlende Zahl finden. Diese Aktivität orientiert sich am Lehrplan der Grundschule, Leitidee „Zahlen und Operationen“."
+      ],
+      "practices": [
+        "Die fehlende Zahl in Plus- und Minusaufgaben an jeder Stelle bestimmen",
+        "Umkehraufgaben und Aufgabenfamilien nutzen, um geschickt zu rechnen",
+        "Mit Zehnerfeld, Zahlenstrahl und Punktmengen anschaulich denken",
+        "Das Gleichheitszeichen als Gleichgewicht verstehen und Aufgaben überprüfen"
+      ],
+      "howToPlay": [
+        "Schau dir das kaputte Gerät an und finde die leuchtende, leere Stelle — dort fehlt eine Zahl.",
+        "Überlege mit dem Zehnerfeld, dem Zahlenstrahl oder der Waage, welche Zahl passt, und setze sie ein.",
+        "Passt sie, surrt das Gerät los. Passt sie noch nicht, schau dir an, was Fixit dir vorrechnet, und versuch es in Ruhe noch einmal."
+      ],
+      "learningGoals": [
+        "Ich kann die fehlende Zahl in einer Plus- oder Minusaufgabe finden, egal an welcher Stelle sie steht.",
+        "Ich kann Umkehraufgaben und Aufgabenfamilien verwenden, um eine Minusaufgabe über die passende Plusaufgabe zu lösen.",
+        "Ich verstehe, dass beide Seiten einer Aufgabe gleich viel sein müssen — wie eine Waage im Gleichgewicht."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

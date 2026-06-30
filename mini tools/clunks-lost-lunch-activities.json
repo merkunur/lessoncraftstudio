@@ -18,9 +18,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "clunks-lost-lunch" },
-    "page_title": { "en": "Clunk's Lost Lunch — Make the Number Many Ways" },
-    "page_intro": { "en": "Clunk the snack-robot is hungry for an exact number of crunch-units, but his adding chip cracked — so you're his helper! Pick snacks off the wall into his lunchbox to make his number any way you like, then feed him to find out. Then make it again a whole new way! A warm Kindergarten decompose-a-number game aligned to Common Core K.OA.A.3." },
+    "slug": { "en": "clunks-lost-lunch", "de": "zahlen-zusammensetzen-auf-verschiedene-arten-klasse-1" },
+    "page_title": { "en": "Clunk's Lost Lunch — Make the Number Many Ways", "de": "Zahlen zusammensetzen – viele Wege | Klasse 1 mit Clunk" },
+    "page_intro": { "en": "Clunk the snack-robot is hungry for an exact number of crunch-units, but his adding chip cracked — so you're his helper! Pick snacks off the wall into his lunchbox to make his number any way you like, then feed him to find out. Then make it again a whole new way! A warm Kindergarten decompose-a-number game aligned to Common Core K.OA.A.3.", "de": "Setze eine Zahl mit Clunks Snacks auf viele verschiedene Arten zusammen – Zahlzerlegung interaktiv & kostenlos üben. Perfekt für Klasse 1. Jetzt loslegen!" },
     "kid_prompt_template": "make-total"
   }
 ]

@@ -56,6 +56,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'digby-number-trace.numeral-formation.k-cc-a-3': { de: '1' },           // K numeral WRITING (Ziffern schreiben) → Klasse 1; en stays Kindergarten (K-cluster pattern)
   'clock-ampm.morning-or-night.2-md-c-7': { de: '1' },                    // a.m./p.m.→Tageszeit rebuild: Tageszeiten zuordnen = Klasse 1 (simpler than the Klasse-2 elapsed sibling); en stays Grade 2
   'nesting-pots.seriate.k-cc-c-7': { de: '1' },                           // K seriate/order numbers → Klasse 1; en stays Kindergarten (K-cluster pattern)
+  'clunks-lost-lunch.make-total.k-oa-a-3': { de: '1' },                   // K make-a-total-many-ways (Zahlen zusammensetzen) → Klasse 1; en stays Kindergarten (chuffer precedent)
   'posy-egg-cartons.count-tens.k-cc-a-1': { de: '2' },                    // K count-by-tens but CONTENT bis 100 → Klasse 2 (ZR bis 100 = Klasse 2; content drives the grade, the pond-juice/bundle-bot precedent); en stays Kindergarten
 };
 function effGrade(row: ActivityRow, locale: string): string {
@@ -91,6 +92,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'bos-berry-pantry.slingshot-tens.1-nbt-b-2': { de: 'Zahlen und Operationen' }, // Stellenwert (Zehner+Einer lesen) lives inside KMK Leitidee „Zahlen und Operationen" (not the base-ten calque)
   'vet-diagnosis.word-problems.1-oa-a-1': { de: 'Zahlen und Operationen' }, // Sachaufgaben add/sub = KMK Leitidee „Zahlen und Operationen"; „algebraisches Denken" is Sek-I framing, not a Primarstufe Leitidee
   'chuffer.rail-decompose.k-oa-a-3': { de: 'Zahlen und Operationen' }, // Zahlzerlegung = KMK Leitidee „Zahlen und Operationen" (OA calque „algebraisches Denken" is Sek-I)
+  'clunks-lost-lunch.make-total.k-oa-a-3': { de: 'Zahlen und Operationen' }, // make-a-total = same KMK Leitidee (mirrors chuffer; OA calque is Sek-I)
   'ten-tank.ten-frame-tank.k-nbt-a-1': { de: 'Zahlen und Operationen' }, // teen numbers as Zehner+Einer (Bündeln) lives inside KMK Leitidee „Zahlen und Operationen" (not the base-ten calque)
 };
 function effStrand(row: ActivityRow, locale: string): string {
@@ -366,7 +368,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.69';
+  const ACTIVITY_WRAPPER_VERSION = '9.70';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

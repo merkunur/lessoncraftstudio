@@ -1549,6 +1549,29 @@
         "Ich weiß, dass beim Auslegen keine Lücken bleiben und sich nichts überlappen darf."
       ]
     },
+    "digby-number-trace.numeral-formation.k-cc-a-3": {
+      "about": [
+        "Der Hund Digby lernt gerade, wie man die Zahlen schreibt — und dein Kind hilft ihm dabei. Auf dem Bildschirm erscheint eine gepunktete Zahl mit einem kleinen Startpunkt. Genau dort beginnt dein Kind und fährt die Zahl Strich für Strich nach, in der richtigen Reihenfolge. Ist der letzte Strich geschafft, wird die Zahl fertig ausgemalt — und Digby freut sich. So entstehen nacheinander alle Zahlen von 0 bis 9.",
+        "Beim Zahlenschreiben geht es um mehr als nur ums Malen: Dein Kind übt die richtige Schreibrichtung und die richtige Strichführung. Der Startpunkt und die vorgegebene Reihenfolge der Striche helfen dabei, jede Ziffer von Anfang an sauber und ohne Spiegelschrift zu formen. Genau diese geführte Strichfolge ist die Grundlage für eine sichere, gut lesbare Zahlschrift — eine der ersten schriftlichen Aufgaben im Mathematikunterricht der Grundschule.",
+        "Es gibt keine Uhr, keine Punkte und keinen Wettbewerb. Dein Kind darf jede Zahl so oft nachspuren, wie es möchte, in seinem eigenen Tempo. Diese Aktivität orientiert sich am Lehrplan der Grundschule und an der Leitidee „Zahlen und Operationen“ — und sie ist frei zugänglich, ganz ohne Anmeldung. Ein ruhiges, freundliches Üben, bei dem Schreibenlernen Freude macht."
+      ],
+      "practices": [
+        "Den Startpunkt finden und dort mit dem Schreiben beginnen",
+        "Jede Zahl Strich für Strich in der richtigen Reihenfolge nachspuren",
+        "Die richtige Schreibrichtung und Strichführung einüben",
+        "Die Ziffern 0 bis 9 sicher und gut lesbar formen"
+      ],
+      "howToPlay": [
+        "Schau dir die gepunktete Zahl an und suche den kleinen Startpunkt.",
+        "Spure die Zahl vom Startpunkt aus Strich für Strich nach.",
+        "Ist der letzte Strich fertig, wird die Zahl ausgemalt — weiter geht es mit Digby zur nächsten Zahl."
+      ],
+      "learningGoals": [
+        "Dein Kind schreibt die Zahlen 0 bis 9 in der richtigen Schreibrichtung.",
+        "Es lernt die korrekte Strichführung und Reihenfolge beim Formen jeder Ziffer.",
+        "Es gewinnt Sicherheit darin, Zahlen selbstständig und gut lesbar aufzuschreiben."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

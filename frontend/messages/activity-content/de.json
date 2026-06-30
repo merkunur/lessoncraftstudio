@@ -1434,6 +1434,29 @@
         "Verstehen, dass die Anzahl unabhängig von der Anordnung gleich bleibt"
       ]
     },
+    "pips-round.mail-route.k-cc-a-3": {
+      "about": [
+        "Pip, die kleine Postmaus, hat heute einen ganzen Sack voller Briefe zu verteilen. Auf jedem Umschlag steht eine Zahl – und genau dieses Haus muss Pip finden. Mal ist die Zahl auf dem Brief in einer anderen Schrift gedruckt als auf den Hausschildern, mal flüstert Pip die Zahl nur ins Ohr. Das Kind liest oder hört die Zahl und tippt auf das Haus mit der passenden Hausnummer, damit der Brief sicher ankommt.",
+        "Dahinter steckt eine wichtige Idee: Kinder sollen Zahlen bis 20 sicher lesen und wiedererkennen – ganz gleich, in welcher Schriftart sie geschrieben sind, und auch dann, wenn sie das Zahlwort nur hören. Besonders knifflig sind die „Zahlendreher“: Die 13 und die 31 bestehen aus denselben Ziffern, meinen aber ganz verschiedene Zahlen. Wer genau hinschaut, welche Ziffer vorne und welche hinten steht, liefert den Brief richtig aus.",
+        "Die Übung ist kostenlos und lädt zum entspannten Ausprobieren ein – ohne Zeitdruck, ohne Punkte und ohne Stoppuhr. Sie passt zum Bereich „Zählen und Mengen“ des Lehrplans der Grundschule, in dem Kinder lernen, Zahlen zu lesen, zu erkennen und voneinander zu unterscheiden."
+      ],
+      "practices": [
+        "Zahlen von 0 bis 20 lesen und in verschiedenen Schriftarten wiedererkennen",
+        "Das gehörte Zahlwort der richtigen geschriebenen Zahl zuordnen",
+        "Zahlendreher wie 13 und 31 bewusst auseinanderhalten",
+        "Ähnliche Zahlen wie 13, 14, 15 und 17 genau vergleichen, bevor man tippt"
+      ],
+      "howToPlay": [
+        "Lies die Zahl auf dem Brief – oder höre zu, wenn Pip sie vorliest.",
+        "Suche das Haus, dessen Hausnummer zu dieser Zahl passt.",
+        "Tippe auf das richtige Haus, damit Pip den Brief zustellen kann."
+      ],
+      "learningGoals": [
+        "Ich kann Zahlen bis 20 lesen, auch wenn sie anders geschrieben sind.",
+        "Ich kann eine Zahl erkennen, wenn ich nur ihr Zahlwort höre.",
+        "Ich kann den Zahlendreher 13/31 sicher unterscheiden."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

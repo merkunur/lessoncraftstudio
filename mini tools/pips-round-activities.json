@@ -35,9 +35,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "pips-round" },
-    "page_title": { "en": "Pip's Round — Read the House Numbers" },
-    "page_intro": { "en": "Pip the postal mouse is on her morning round, and someone is waiting for their letter! Read the number on the envelope — or listen for it — then tap the matching house to deliver. The curtains fly open and a happy neighbor waves. A warm Kindergarten number-reading game aligned to Common Core K.CC.A.3." },
+    "slug": { "en": "pips-round", "de": "zahlen-lesen-ziffern-erkennen-bis-20-klasse-1" },
+    "page_title": { "en": "Pip's Round — Read the House Numbers", "de": "Zahlen lesen bis 20 – Ziffern erkennen mit Pip | Klasse 1" },
+    "page_intro": { "en": "Pip the postal mouse is on her morning round, and someone is waiting for their letter! Read the number on the envelope — or listen for it — then tap the matching house to deliver. The curtains fly open and a happy neighbor waves. A warm Kindergarten number-reading game aligned to Common Core K.CC.A.3.", "de": "Zahlen lesen und Ziffern bis 20 erkennen: Beim kostenlosen, interaktiven Postspiel mit Pip liest dein Kind Hausnummern und übt Zahlen für Klasse 1 – jetzt spielen!" },
     "kid_prompt_template": "mail-route"
   }
 ]

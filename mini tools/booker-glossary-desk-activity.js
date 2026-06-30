@@ -15,14 +15,18 @@
   var Core = global.GlossaryGuideCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A' };
 
+  /* The core grades by a locale-neutral alphabetical compare → German is a pure
+     data port (umlaut/ß-free word set via roundsL10n.de). 0 core lines. */
+  var LANG = 'en';
+
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function bearSVG() {
-    return '<svg class="bgd-bear-svg" viewBox="0 0 100 100" role="img" aria-label="Booker the bear">' +
+    return '<svg class="bgd-bear-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Booker, der Bär' : 'Booker the bear') + '">' +
       '<circle cx="32" cy="32" r="9" fill="#8A6A4A"/><circle cx="68" cy="32" r="9" fill="#8A6A4A"/>' +   /* ears */
       '<circle cx="32" cy="32" r="4" fill="#B89A78"/><circle cx="68" cy="32" r="4" fill="#B89A78"/>' +
       '<circle cx="50" cy="52" r="27" fill="#9A7A56"/>' +                          /* head */
@@ -37,18 +41,18 @@
     id: 'booker-glossary-desk-activity',
 
     strings: {
-      title: { en: "Booker's Glossary Desk" },
-      prompt: { en: 'Which word is on this page?' },
-      bookerIntro: { en: 'Use the guide words! Which word comes between them?' },
-      theAsk: { en: 'Tap the word that belongs on this page.' },
-      hintPick: { en: 'Tap the word that comes between the guide words in ABC order!' },
-      hintWrong: { en: "Not on this page — check the guide words again, letter by letter." },
-      win: { en: 'Yes! That word is on this page. 📖' }
+      title: { en: "Booker's Glossary Desk", de: 'Bookers Wörterbuch-Pult' },
+      prompt: { en: 'Which word is on this page?', de: 'Tippe das Wort an, das im ABC zwischen den beiden Leitwörtern steht.' },
+      bookerIntro: { en: 'Use the guide words! Which word comes between them?', de: 'Hallo, ich bin Booker! Im Wörterbuch stehen alle Wörter in der ABC-Reihenfolge — so finde ich jedes Wort ganz schnell.' },
+      theAsk: { en: 'Tap the word that belongs on this page.', de: 'Welches Wort steht im ABC zwischen den beiden Leitwörtern?' },
+      hintPick: { en: 'Tap the word that comes between the guide words in ABC order!', de: 'Schau dir die beiden Leitwörter ganz oben an. Welches Wort kommt im ABC dazwischen?' },
+      hintWrong: { en: "Not on this page — check the guide words again, letter by letter.", de: 'Fast! Vergleiche die Wörter Buchstabe für Buchstabe — erst der erste Buchstabe, dann der zweite. Welches liegt im ABC zwischen den Leitwörtern?' },
+      win: { en: 'Yes! That word is on this page. 📖', de: 'Ja, super! Dieses Wort steht im ABC genau zwischen den beiden Leitwörtern.' }
     },
     defaults: {},
 
     init: function (api) {
-      this.api = api;
+      this.api = api; LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -91,7 +95,7 @@
       root.appendChild(opts);
 
       wrap.appendChild(root); stage.appendChild(wrap);
-      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(v.g1 + ' to ' + v.g2); }, 320); }
+      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(v.g1 + (LANG === 'de' ? ' bis ' : ' to ') + v.g2); }, 320); }
     },
 
     _tap: function (id, text) {
@@ -113,7 +117,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/booker-glossary-desk-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[booker-glossary-desk] manifest load failed:', e.message); });
     },
 

@@ -14,16 +14,21 @@
   var Core = global.RealLifeUseCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A' };
 
+  /* The core grades by noun-match (locale-neutral). German = a data port: EN image
+     keys stay, the situation is translated + each choice gets a German `label`.
+     childView strips label → the render reads it from this.round.choices[id]. 0 core. */
+  var LANG = 'en';
+
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
   function speak(word) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function jaySVG() {
-    return '<svg class="jjr-jay-svg" viewBox="0 0 100 100" role="img" aria-label="Jasper the jay">' +
+    return '<svg class="jjr-jay-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Jasper, der Häher' : 'Jasper the jay') + '">' +
       '<path d="M30 80 q-14 -8 -8 -30 q4 -14 16 -12 q-10 12 -4 28 q3 10 6 16 Z" fill="#3B7DD8"/>' +    /* blue tail/wing */
       '<ellipse cx="52" cy="56" rx="20" ry="22" fill="#4F92E8"/>' +                 /* body */
       '<ellipse cx="52" cy="64" rx="12" ry="13" fill="#DCEBFB"/>' +                /* belly */
@@ -38,18 +43,18 @@
     id: 'jasper-just-right-activity',
 
     strings: {
-      title: { en: "Jasper's Just-Right Bag" },
-      prompt: { en: 'Which one would you use?' },
-      jasperIntro: { en: 'Read what is happening — what would you use?' },
-      theAsk: { en: 'Tap the picture of what you would use.' },
-      hintPick: { en: 'Think about what fits — tap a picture, then Check!' },
-      hintWrong: { en: "That one doesn't quite fit — read it again." },
-      win: { en: 'Yes! That is just right. 🐦' }
+      title: { en: "Jasper's Just-Right Bag", de: 'Jaspers Genau-richtig-Tasche' },
+      prompt: { en: 'Which one would you use?', de: 'Welches würdest du benutzen?' },
+      jasperIntro: { en: 'Read what is happening — what would you use?', de: 'Hallo, ich bin Jasper! Lies die Situation und tippe das Bild an, das am besten dazu passt.' },
+      theAsk: { en: 'Tap the picture of what you would use.', de: 'Tippe das Bild von dem an, was du benutzen würdest.' },
+      hintPick: { en: 'Think about what fits — tap a picture, then Check!', de: 'Lies die Situation und überlege: Was würdest du dafür benutzen?' },
+      hintWrong: { en: "That one doesn't quite fit — read it again.", de: 'Das passt noch nicht ganz – lies die Situation noch einmal.' },
+      win: { en: 'Yes! That is just right. 🐦', de: 'Ja! Das passt genau richtig. 🐦' }
     },
     defaults: {},
 
     init: function (api) {
-      this.api = api;
+      this.api = api; LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -79,9 +84,10 @@
 
       var opts = api.el('div', 'jjr-opts');
       this._cards.forEach(function (o) {
-        var b = api.el('button', 'jjr-tile jjr-opt' + (self.sel === o.id ? ' jjr-sel' : '')); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', o.noun);
-        b.innerHTML = '<img class="jjr-img" src="' + imgUrl(o) + '" alt="' + esc(o.noun) + '" onerror="this.style.visibility=\'hidden\'"><span class="jjr-word">' + esc(o.noun) + '</span>';
-        b.addEventListener('click', function () { self._tap(o.id, o.noun); });
+        var disp = (self.round.choices[o.id] && self.round.choices[o.id].label) || o.noun;
+        var b = api.el('button', 'jjr-tile jjr-opt' + (self.sel === o.id ? ' jjr-sel' : '')); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', disp);
+        b.innerHTML = '<img class="jjr-img" src="' + imgUrl(o) + '" alt="' + esc(disp) + '" onerror="this.style.visibility=\'hidden\'"><span class="jjr-word">' + esc(disp) + '</span>';
+        b.addEventListener('click', function () { self._tap(o.id, disp); });
         opts.appendChild(b);
       });
       root.appendChild(opts);
@@ -109,7 +115,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/jasper-just-right-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[jasper-just-right] manifest load failed:', e.message); });
     },
 
@@ -133,7 +139,9 @@
         + '@media (max-height:920px){.jjr-root{gap:clamp(4px,1.1vw,8px);}.jjr-jay{width:clamp(40px,7vw,48px);}.jjr-img{width:clamp(52px,14vw,74px);height:clamp(52px,14vw,74px);}}'
         + '@media (max-height:700px){.jjr-root{gap:6px;padding:10px;}.jjr-jay{width:clamp(38px,6.5vw,44px);}.jjr-sit{padding:7px 12px;font-size:15px;}.jjr-img{width:clamp(48px,12vw,62px);height:clamp(48px,12vw,62px);}.jjr-word{font-size:13px;}}'
         + '@media (max-height:640px){.jjr-root{gap:5px;padding:8px;}.jjr-row{display:none;}.jjr-sit{padding:6px 11px;font-size:14px;}.jjr-img{width:clamp(46px,12vw,56px);height:clamp(46px,12vw,56px);}}'
-        + '@media (max-width:380px){.jjr-img{width:52px;height:52px;}.jjr-sit{font-size:14px;}}';
+        + '@media (max-width:380px){.jjr-img{width:52px;height:52px;}.jjr-sit{font-size:14px;}}'
+        /* narrowest + shortest phone: longer German situations wrap more lines → claw back the fold (tiles stay ≥44px tap) */
+        + '@media (max-width:380px) and (max-height:680px){.jjr-root{gap:4px;padding:7px;}.jjr-sit{font-size:13px;line-height:1.2;padding:5px 10px;}.jjr-ask{font-size:11px;}.jjr-img{width:44px;height:44px;}.jjr-word{font-size:12px;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-jasper-just-right', ''); tag.textContent = css; document.head.appendChild(tag);
     }
   };

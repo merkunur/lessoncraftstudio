@@ -75,6 +75,7 @@ function effGrade(row: ActivityRow, locale: string): string {
    activities fall through to localizeStrand unchanged. Display-only (chip + JSON-LD
    teaches/targetDescription); related-activity matching keeps the raw alignment.strand. */
 const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
+  'jasper-just-right.real-life.l-1-5-c': { de: 'Wortschatz untersuchen' }, // real-life word use = vocabulary, not the grammar Bereich (fern/olive precedent)
   'fern-clue-garden.context-clues.l-2-4-a': { de: 'Wortschatz untersuchen' }, // Teekesselwörter/Wortbedeutung = vocabulary, not the grammar Bereich (affix/olive/roary/ziggy precedent)
   'booker-glossary-desk.guide-words.l-2-4-e': { de: 'Richtig schreiben' }, // Wörterbuch nachschlagen = Rechtschreib-Arbeitstechnik, not Sprache untersuchen (cleo/wally precedent)
   'graph-it.bar-graph.2-md-d-10': { de: 'Daten und Häufigkeit' },   // bar graph = data, not Größen
@@ -376,7 +377,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.79';
+  const ACTIVITY_WRAPPER_VERSION = '9.80';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

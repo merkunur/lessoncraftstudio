@@ -1388,6 +1388,29 @@
         "Es verbindet die Zahl mit einer Menge und festigt so seine Mengenvorstellung."
       ]
     },
+    "ten-tank.ten-frame-tank.k-nbt-a-1": {
+      "about": [
+        "Dewey das Entenküken taucht gern — und sein Sprudeltank füllt sich Blase für Blase. Tipp die Bubbles ins doppelte Zehnerfeld und schau zu, wie sich der Tank langsam füllt.",
+        "Sobald zehn Bubbles drin sind, passiert das Wichtige: Sie rasten mit einem Klick zu einem Zehner zusammen — aus zehn losen Einern wird ein einziges, kompaktes Bündel. Die Bubbles, die danach noch übrig sind, bleiben lose: das sind die Einer. So entsteht ganz natürlich der Aufschrieb 10 + N, zum Beispiel „ein Zehner und vier Einer“ für die 14.",
+        "Das ist die große Idee dahinter: Jede Zahl von 11 bis 19 ist ein Zehner und einige Einer — Bündeln zum Zehner. Dieses Verständnis trägt später den ganzen Zahlenraum bis 100. Die Übung folgt dem Lehrplan der Grundschule im Bereich „Zahlen und Operationen“, ist kostenlos und kommt ganz ohne Zeitdruck, ohne Punkte und ohne Wettbewerb aus."
+      ],
+      "practices": [
+        "Zehn Einer zu einem Zehner bündeln und als eine Einheit denken",
+        "Zahlen von 11 bis 19 als „ein Zehner und N Einer“ lesen und aufschreiben (10 + N)",
+        "Eine Teenzahl wieder in Zehner und Einer zerlegen",
+        "Zwei Zahlen bis 20 über ihre Struktur (Zehner und Einer) vergleichen"
+      ],
+      "howToPlay": [
+        "Tippe Bubbles in den Tank, bis zehn zu einem Zehner zusammenrasten.",
+        "Füge die übrigen losen Bubbles als Einer dazu.",
+        "Lies die Zahl als „ein Zehner und … Einer“ — also 10 + N."
+      ],
+      "learningGoals": [
+        "Den Zehner als gebündelte Einheit aus zehn Einern verstehen",
+        "Zahlen bis 20 sicher in Zehner und Einer gliedern",
+        "Die Stellenwert-Vorstufe für das Rechnen bis 100 aufbauen"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

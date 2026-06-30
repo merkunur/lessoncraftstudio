@@ -19,11 +19,14 @@
   var Core = global.TenFrameTankCore;
   var C = { T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', INK: '#2A2A35', GOLD: '#E8A53A' };
   var WORDS = { 10: 'ten', 11: 'eleven', 12: 'twelve', 13: 'thirteen', 14: 'fourteen', 15: 'fifteen', 16: 'sixteen', 17: 'seventeen', 18: 'eighteen', 19: 'nineteen' };
+  var WORDS_DE = { 10: 'zehn', 11: 'elf', 12: 'zwölf', 13: 'dreizehn', 14: 'vierzehn', 15: 'fünfzehn', 16: 'sechzehn', 17: 'siebzehn', 18: 'achtzehn', 19: 'neunzehn' };
+  var LANG = 'en';
+  function numWord(n) { return (LANG === 'de' ? WORDS_DE : WORDS)[n]; }
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function bubbleSVG(kind) {
@@ -44,32 +47,41 @@
     reward: { id: 'lily-pond', label: 'Lily Pond', emoji: '🪷' },
 
     strings: {
-      title: { en: "Dewey's Ten-Tank" },
-      prompt: { en: 'Make a ten and some ones!' },
-      buildTenHint: { en: 'Tap the tank to drop bubbles — fill it to ten!' },
-      placeTenHint: { en: 'Pop the ready-made ten into the tank!' },
-      placeOnesHint: { en: 'Now add the ones — tap to drop them in.' },
-      regroupHint: { en: 'Drop ones — ten ones will make a ten!' },
-      decomposeHint: { en: 'Take it apart: the ten in one tray, the ones in the other.' },
-      repairHint: { en: 'Dewey needs {n} — how many more ones?' },
-      audioHint: { en: '🔊 Make the number Dewey said!' },
-      compareHint: { en: 'Peek at both, then tap which has more!' },
-      makeOrder: { en: 'Make {n}!' },
-      hearAgain: { en: '🔊 Hear it again' },
-      tensTray: { en: 'Tens' },
-      onesTray: { en: 'Ones' },
-      moreMore: { en: '+{k} more' },
-      peek: { en: 'Peek' },
-      seal: { en: 'Ten! A ten and…' },
-      refuseSingle: { en: 'That\'s a ten-spot — singles go in the pond!' },
-      refuseTenth: { en: 'That\'d make a whole new ten — we just need a ten and some!' },
-      win: { en: 'A ten and some — you made it! 🦆' },
-      hintCheck: { en: 'Make a ten and some ones!' }
+      title: { en: "Dewey's Ten-Tank", de: 'Deweys Zehner-Tank' },
+      prompt: { en: 'Make a ten and some ones!', de: 'Mach einen Zehner und ein paar Einer!' },
+      buildTenHint: { en: 'Tap the tank to drop bubbles — fill it to ten!', de: 'Tippe auf den Tank und lass Blasen hinein – füll ihn bis zehn!' },
+      placeTenHint: { en: 'Pop the ready-made ten into the tank!', de: 'Setz den fertigen Zehner in den Tank!' },
+      placeOnesHint: { en: 'Now add the ones — tap to drop them in.', de: 'Jetzt die Einer dazu – tippe und lass sie hineinfallen.' },
+      regroupHint: { en: 'Drop ones — ten ones will make a ten!', de: 'Lass Einer hineinfallen – zehn Einer werden zu einem Zehner!' },
+      decomposeHint: { en: 'Take it apart: the ten in one tray, the ones in the other.', de: 'Nimm die Zahl auseinander: den Zehner in das eine Fach, die Einer in das andere.' },
+      repairHint: { en: 'Dewey needs {n} — how many more ones?', de: 'Dewey braucht {n} – wie viele Einer fehlen noch?' },
+      audioHint: { en: '🔊 Make the number Dewey said!', de: '🔊 Mach die Zahl, die Dewey gesagt hat!' },
+      compareHint: { en: 'Peek at both, then tap which has more!', de: 'Guck bei beiden kurz und tippe dann auf die, die mehr hat!' },
+      makeOrder: { en: 'Make {n}!', de: 'Mach {n}!' },
+      hearAgain: { en: '🔊 Hear it again', de: '🔊 Nochmal hören' },
+      tensTray: { en: 'Tens', de: 'Zehner' },
+      onesTray: { en: 'Ones', de: 'Einer' },
+      moreMore: { en: '+{k} more', de: '+{k} mehr' },
+      peek: { en: 'Peek', de: 'Gucken' },
+      seal: { en: 'Ten! A ten and…', de: 'Zehn! Ein Zehner und …' },
+      refuseSingle: { en: 'That\'s a ten-spot — singles go in the pond!', de: 'Das ist ein Zehner-Platz – einzelne Blasen kommen in den Teich!' },
+      refuseTenth: { en: 'That\'d make a whole new ten — we just need a ten and some!', de: 'Das gäbe einen ganz neuen Zehner – wir brauchen nur einen Zehner und ein paar Einer!' },
+      win: { en: 'A ten and some — you made it! 🦆', de: 'Ein Zehner und ein paar Einer – geschafft! 🦆' },
+      hintCheck: { en: 'Make a ten and some ones!', de: 'Mach einen Zehner und ein paar Einer!' },
+      srcLabelTen: { en: 'a ten — ten ones together', de: 'ein Zehner – zehn Einer zusammen' },
+      rejectSealFirst: { en: 'Seal a ten yourself first!', de: 'Bündle erst selbst einen Zehner!' },
+      snapAnnounce: { en: 'Ten ones make a ten!', de: 'Zehn Einer werden zu einem Zehner!' },
+      rejectFix: { en: "Not quite — count what's missing!", de: 'Fast – zähl, was noch fehlt!' },
+      rejectJudge: { en: 'Look again — count the ones!', de: 'Schau nochmal – zähl die Einer!' },
+      isMore: { en: '{n} is more!', de: '{n} ist mehr!' },
+      tenAria: { en: 'a ten', de: 'ein Zehner' },
+      judgeThis: { en: 'This one!', de: 'Das hier!' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.stage = 'build-ten'; this.cstate = null; this.sessionSealed = false;
       this.solved = false; this.solvedCount = 0; this.msg = null; this._heardSpoken = false;
@@ -113,7 +125,7 @@
       else if (this.stage === 'compare') this._renderCompare(root);
 
       wrap.appendChild(root); stage.appendChild(wrap);
-      if (this.round.type === 'audio' && !this._heardSpoken) { this._heardSpoken = true; var self = this; setTimeout(function () { speak('Make ' + WORDS[self.round.target]); }, 250); }
+      if (this.round.type === 'audio' && !this._heardSpoken) { this._heardSpoken = true; var self = this; setTimeout(function () { speak((LANG === 'de' ? 'Mach ' : 'Make ') + numWord(self.round.target)); }, 250); }
     },
     _hint: function () {
       var r = this.round, api = this.api;
@@ -143,7 +155,7 @@
       return fr;
     },
     _tenChip: function (onTap) {
-      var api = this.api, chip = api.el('button', 'tt-tenchip'); chip.type = 'button'; chip.setAttribute('aria-label', 'a ten');
+      var api = this.api, chip = api.el('button', 'tt-tenchip'); chip.type = 'button'; chip.setAttribute('aria-label', api.t('tenAria'));
       var grid = api.el('div', 'tt-chipgrid');
       for (var i = 0; i < 10; i++) { var d = api.el('span', 'tt-chipdot'); grid.appendChild(d); }
       chip.appendChild(grid); var badge = api.el('span', 'tt-chipbadge'); badge.textContent = '10'; chip.appendChild(badge);
@@ -164,14 +176,14 @@
       var fr = this._frame(this.cstate.tenInProgress, 10, 'ten', function () { self._tapTen(); }, function () { self._removeTenDot(); }, true);
       main.appendChild(fr);
       var side = api.el('div', 'tt-side');
-      if (this.round.type === 'audio') { var hb = api.el('button', 'tt-peekbtn'); hb.type = 'button'; hb.textContent = api.t('hearAgain'); hb.addEventListener('click', function () { speak('Make ' + WORDS[self.round.target]); }); side.appendChild(hb); }
+      if (this.round.type === 'audio') { var hb = api.el('button', 'tt-peekbtn'); hb.type = 'button'; hb.textContent = api.t('hearAgain'); hb.addEventListener('click', function () { speak((LANG === 'de' ? 'Mach ' : 'Make ') + numWord(self.round.target)); }); side.appendChild(hb); }
       else { var lbl = api.el('div', 'tt-bignum'); lbl.textContent = api.t('makeOrder').replace('{n}', this.round.target); side.appendChild(lbl); }
       main.appendChild(side); root.appendChild(main);
     },
     _tapTen: function () {
       var res = Core.addToTen(this.round, this.cstate); if (!res.changed) return;
       this.api.sound && this.api.sound(540 + this.cstate.tenInProgress * 12); this.msg = null;
-      if (res.sealed) { this.sessionSealed = true; this.api.sound && this.api.sound(880); this.announce(this.api.t('seal')); speak('Ten'); this._afterTen(); }
+      if (res.sealed) { this.sessionSealed = true; this.api.sound && this.api.sound(880); this.announce(this.api.t('seal')); speak(LANG === 'de' ? 'Zehn' : 'Ten'); this._afterTen(); }
       else this.render();
     },
     _removeTenDot: function () { /* during build, tapping a bubble removes the last (correctable) */ if (this.cstate.tenInProgress > 0 && !this.cstate.sealedTenPlaced) { this.cstate.tenInProgress--; this.api.sound && this.api.sound(360); this.render(); } },
@@ -189,12 +201,12 @@
       var side = api.el('div', 'tt-side');
       var src = this._tenChip(function () { self._placeReadyTen(); });
       src.classList.add('tt-tensource'); side.appendChild(src);
-      var hint = api.el('div', 'tt-srclabel'); hint.textContent = 'a ten — ten ones together'; side.appendChild(hint);
+      var hint = api.el('div', 'tt-srclabel'); hint.textContent = api.t('srcLabelTen'); side.appendChild(hint);
       main.appendChild(side); root.appendChild(main);
     },
     _placeReadyTen: function () {
       var res = Core.placeReadyTen(this.round, this.cstate);
-      if (res.rejected) { this.msg = 'Seal a ten yourself first!'; this.render(); return; }
+      if (res.rejected) { this.msg = this.api.t('rejectSealFirst'); this.render(); return; }
       this.sessionSealed = true; this.api.sound && this.api.sound(820); this.announce(this.api.t('seal'));
       this.stage = 'place-ones'; this.render();
     },
@@ -233,7 +245,7 @@
     _tapLoose: function () {
       var res = Core.placeOne(this.round, this.cstate); if (!res.changed) return;
       this.api.sound && this.api.sound(540 + this.cstate.looseOnes * 12);
-      if (res.snapped) { this.sessionSealed = true; this.api.sound && this.api.sound(880); this.announce('Ten ones make a ten!'); speak('Ten'); if (this._onesTarget() === 0) { this._win(); return; } this.stage = 'place-ones'; this.render(); return; }
+      if (res.snapped) { this.sessionSealed = true; this.api.sound && this.api.sound(880); this.announce(this.api.t('snapAnnounce')); speak(LANG === 'de' ? 'Zehn' : 'Ten'); if (this._onesTarget() === 0) { this._win(); return; } this.stage = 'place-ones'; this.render(); return; }
       this.render();
     },
     _removeLoose: function () { if (this.cstate.looseOnes > 0) { this.cstate.looseOnes--; this.api.sound && this.api.sound(360); this.render(); } },
@@ -285,7 +297,7 @@
     _pickFix: function (k) {
       Core.commitFix(this.round, this.cstate, k);
       if (Core.validate(this.round, this.cstate)) this._win();
-      else { this.msg = 'Not quite — count what\'s missing!'; this.cstate.fixCommitted = false; this.api.sound && this.api.sound(330); this.render(); }
+      else { this.msg = this.api.t('rejectFix'); this.cstate.fixCommitted = false; this.api.sound && this.api.sound(330); this.render(); }
     },
 
     /* ----- compare (#7): reveal BOTH structures, then judge by the ones ----- */
@@ -304,7 +316,7 @@
         } else { card.innerHTML = '<span class="tt-cmpq">?</span>'; }
         card.addEventListener('click', function () { if (!revealed) { Core.reveal(self.cstate, which); self.api.sound && self.api.sound(640); self.render(); } });
         col.appendChild(card);
-        var jb = api.el('button', 'tt-judge'); jb.type = 'button'; jb.textContent = 'This one!'; jb.disabled = !Core.canJudge(self.cstate);
+        var jb = api.el('button', 'tt-judge'); jb.type = 'button'; jb.textContent = api.t('judgeThis'); jb.disabled = !Core.canJudge(self.cstate);
         if (Core.canJudge(self.cstate)) jb.addEventListener('click', function () { self._judge(which); });
         col.appendChild(jb); main.appendChild(col);
       });
@@ -313,7 +325,7 @@
     _judge: function (which) {
       var res = Core.judge(this.round, this.cstate, which); if (res.rejected) return;
       if (Core.validate(this.round, this.cstate)) this._win();
-      else { this.msg = 'Look again — count the ones!'; this.cstate.picked = null; this.api.sound && this.api.sound(330); this.render(); }
+      else { this.msg = this.api.t('rejectJudge'); this.cstate.picked = null; this.api.sound && this.api.sound(330); this.render(); }
     },
 
     _win: function () {
@@ -321,14 +333,14 @@
       this.api.sound && this.api.sound(920); this.render();
       var n = this.round.type === 'compare' ? this.round.comparePair[this.cstate.picked === 'A' ? 0 : 1] : this.round.target;
       this.announce(this.api.t('win'));
-      if (this.round.mode === 'compose' && this.round.type !== 'compare' && this.round.target >= 11) speak('a ten and ' + this._onesTarget() + ' — ' + WORDS[this.round.target]);
-      else speak(WORDS[n] || n);
+      if (this.round.mode === 'compose' && this.round.type !== 'compare' && this.round.target >= 11) speak((LANG === 'de' ? 'ein Zehner und ' : 'a ten and ') + this._onesTarget() + ' — ' + numWord(this.round.target));
+      else speak(numWord(n) || n);
     },
 
     _renderDone: function (root) {
       var api = this.api, r = this.round;
       if (r.type !== 'compare' && r.target >= 11) { var eq = this._equation(); eq.classList.add('tt-eq-done', 'tt-eq-big'); root.appendChild(eq); }
-      else { var big = api.el('div', 'tt-bignum'); big.textContent = (r.type === 'compare') ? (r.comparePair[this.cstate.picked === 'A' ? 0 : 1] + ' is more!') : r.target; root.appendChild(big); }
+      else { var big = api.el('div', 'tt-bignum'); big.textContent = (r.type === 'compare') ? api.t('isMore').replace('{n}', r.comparePair[this.cstate.picked === 'A' ? 0 : 1]) : r.target; root.appendChild(big); }
       var pond = api.el('div', 'tt-pond');
       for (var i = 0; i < ((this._pool && this._pool.length) || 8); i++) { var s = api.el('span', 'tt-lily' + (i < this.solvedCount ? ' tt-lily-on' : '')); s.textContent = '🪷'; pond.appendChild(s); }
       root.appendChild(pond);

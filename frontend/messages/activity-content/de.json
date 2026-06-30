@@ -1595,6 +1595,29 @@
         "Ich verstehe, wie mein Tag von morgens bis abends verläuft."
       ]
     },
+    "nesting-pots.seriate.k-cc-c-7": {
+      "about": [
+        "Opa Pip schnitzt aus Holz wunderschöne Töpfe, die ineinanderpassen — einer in den anderen, immer kleiner werdend. Auf jeden Topf hat er eine Zahl gemalt. Das Baby Wee Olen soll ganz nach innen, in den allerkleinsten Topf, und Doot die Ente schaut dabei zu. Deine Aufgabe: Du stapelst die Töpfe von der größten Zahl bis zur kleinsten ineinander. Jeder nächste Topf muss eine kleinere Zahl tragen als der, der gerade innen liegt — dann passt er hinein und das Baby kommt am Ende sicher in die Mitte.",
+        "Das Spannende dabei: Die Töpfe sind in allen Größen, kreuz und quer. Ein dicker Topf kann eine kleine Zahl tragen, ein schmaler eine große. Darum darfst du dich nie von der Topfgröße täuschen lassen — du liest die aufgemalte Zahl und ordnest die Zahlen der Größe nach. So lernst du, Zahlen zu vergleichen und zu sortieren: Welche ist die größte, welche die kleinste, was kommt dazwischen? Manchmal fehlt ein Topf in der Reihe und du suchst die passende Lücke, und manchmal tragen zwei Töpfe dieselbe Zahl — die stehen dann einfach nebeneinander, denn keiner passt in den anderen.",
+        "Hier gibt es keine Uhr, keine Punkte und keinen Wettlauf. Du darfst in aller Ruhe überlegen, ausprobieren und noch einmal von vorn beginnen. Alles ist frei und kostenlos. Die Aktivität orientiert sich am Lehrplan der Grundschule und der Leitidee „Zählen und Mengen“ — niemand drängelt, Opa Pip, Wee Olen und Doot haben alle Zeit der Welt, und du auch."
+      ],
+      "practices": [
+        "Zahlen der Größe nach ordnen — von der größten bis zur kleinsten",
+        "Die aufgemalte Zahl lesen, statt nach der Topfgröße zu raten",
+        "Zahlen vergleichen: größer als, kleiner als, die größte und die kleinste finden",
+        "Erkennen, dass gleiche Zahlen nebeneinander stehen — keiner passt in den anderen"
+      ],
+      "howToPlay": [
+        "Schau dir die Zahlen auf den Töpfen an und suche die größte Zahl zuerst.",
+        "Lege immer den Topf mit der nächstkleineren Zahl hinein — Schritt für Schritt nach innen.",
+        "Ganz zum Schluss kommt das Baby Wee Olen in den kleinsten Topf in der Mitte."
+      ],
+      "learningGoals": [
+        "Ich kann eine Reihe von Zahlen von der größten bis zur kleinsten ordnen.",
+        "Ich lese die Zahl und lasse mich nicht von der Größe der Töpfe täuschen.",
+        "Ich kann Zahlen vergleichen und sagen, welche größer und welche kleiner ist."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",

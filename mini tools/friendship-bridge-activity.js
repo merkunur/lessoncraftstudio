@@ -28,11 +28,14 @@
   var Core = global.CompareBalanceCore;
   var C = { T: '#146B5E', T2: '#0e4f45', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', GOLD: '#E8A53A', INK: '#2A2A35' };
   var WORDS = { 0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight', 9: 'nine', 10: 'ten' };
+  var WORDS_DE = { 0: 'null', 1: 'eins', 2: 'zwei', 3: 'drei', 4: 'vier', 5: 'fünf', 6: 'sechs', 7: 'sieben', 8: 'acht', 9: 'neun', 10: 'zehn' };
+  var LANG = 'en';
+  function numWord(n) { return (LANG === 'de' ? WORDS_DE : WORDS)[n]; }
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   /* Big & Bit — round fuzzball CHARACTERS (SVG stub for CA5). Big = teal, Bit = coral. */
@@ -62,46 +65,47 @@
     /* child-facing copy below uses MORE / FEWER / SAME words only — no inequality symbols */
     /* RELATION-WORDS-ONLY:strings */
     strings: {
-      title: { en: 'The Friendship Bridge' },
-      instruction: { en: 'Compare two groups — more, fewer, or same.' },
-      prompt: { en: 'Who has more?' },
-      promptMoreQ: { en: 'Who has MORE?' },
-      promptFewerQ: { en: 'Who has FEWER?' },
-      promptHowMany: { en: 'How many MORE?' },
-      promptMakeEqual: { en: 'Make them the SAME!' },
-      promptBuildEqual: { en: 'Build a matching bunch!' },
-      promptPredict: { en: 'Guess: who has more?' },
-      bigName: { en: 'Big' },
-      bitName: { en: 'Bit' },
-      same: { en: 'Same' },
-      hintIdle: { en: 'Tap one friend, then a friend on the other side, to make a pair!' },
-      hintPredict: { en: 'No counting yet — what does your eye say?' },
-      hintCount: { en: 'Tap each friend to count them — then say who has more!' },
-      hintBuild: { en: 'Add a friend to the lonely bunch until everyone has a buddy.' },
-      hintHowMany: { en: 'How many friends are left with no buddy?' },
-      hintCheck: { en: 'Pair up the friends, then say MORE, FEWER, or SAME!' },
-      buddy: { en: 'buddies!' },
-      addFriend: { en: 'Add a friend' },
-      takeBack: { en: 'Undo' },
-      countTally: { en: '{name}: {n}' },
-      askHowManyMore: { en: 'How many MORE does {name} have?' },
-      revealMore: { en: 'Yes! {big} has MORE — {bigN} is more than {smallN}!' },
-      revealFewer: { en: 'Yes! {small} has FEWER — {smallN} is fewer than {bigN}!' },
-      revealSame: { en: 'They are the SAME — both have {n}! The bunch just looked different.' },
-      revealHowMany: { en: 'Right! {big} has {d} more — {d} friend(s) with no buddy.' },
-      revealBust: { en: 'Surprise! The short little bunch had more. ' },
-      reSpread: { en: "Tricky! It LOOKED like more — let's give everyone a buddy and see." },
-      reJudge: { en: "Let's pair them up first — then we will know for sure!" },
-      reBuild: { en: 'Not the same yet — keep adding until everyone has a buddy.' },
-      reHowMany: { en: 'Count again — how many friends have no buddy?' },
-      tapCheck: { en: 'Tap Check! ✓' },
-      guessLead: { en: 'Your guess:' }
+      title: { en: 'The Friendship Bridge', de: 'Die Freundschaftsbrücke' },
+      instruction: { en: 'Compare two groups — more, fewer, or same.', de: 'Vergleiche zwei Gruppen — mehr, weniger oder gleich viel.' },
+      prompt: { en: 'Who has more?', de: 'Wer hat mehr?' },
+      promptMoreQ: { en: 'Who has MORE?', de: 'Wer hat MEHR?' },
+      promptFewerQ: { en: 'Who has FEWER?', de: 'Wer hat WENIGER?' },
+      promptHowMany: { en: 'How many MORE?', de: 'Wie viele MEHR?' },
+      promptMakeEqual: { en: 'Make them the SAME!', de: 'Mach beide GLEICH VIEL!' },
+      promptBuildEqual: { en: 'Build a matching bunch!', de: 'Bau ein gleich großes Häufchen!' },
+      promptPredict: { en: 'Guess: who has more?', de: 'Schätze: Wer hat mehr?' },
+      bigName: { en: 'Big', de: 'Big' },
+      bitName: { en: 'Bit', de: 'Bit' },
+      same: { en: 'Same', de: 'Gleich viel' },
+      hintIdle: { en: 'Tap one friend, then a friend on the other side, to make a pair!', de: 'Tippe einen Freund an, dann einen auf der anderen Seite, um ein Paar zu bilden!' },
+      hintPredict: { en: 'No counting yet — what does your eye say?', de: 'Noch nicht zählen — was sagt dein Auge?' },
+      hintCount: { en: 'Tap each friend to count them — then say who has more!', de: 'Tippe jeden Freund an, um zu zählen — dann sag, wer mehr hat!' },
+      hintBuild: { en: 'Add a friend to the lonely bunch until everyone has a buddy.', de: 'Gib dem einsamen Häufchen Freunde dazu, bis jeder einen Partner hat.' },
+      hintHowMany: { en: 'How many friends are left with no buddy?', de: 'Wie viele Freunde haben keinen Partner?' },
+      hintCheck: { en: 'Pair up the friends, then say MORE, FEWER, or SAME!', de: 'Finde die Partner, dann sag MEHR, WENIGER oder GLEICH VIEL!' },
+      buddy: { en: 'buddies!', de: 'Partner!' },
+      addFriend: { en: 'Add a friend', de: 'Freund dazu' },
+      takeBack: { en: 'Undo', de: 'Zurück' },
+      countTally: { en: '{name}: {n}', de: '{name}: {n}' },
+      askHowManyMore: { en: 'How many MORE does {name} have?', de: 'Wie viele MEHR hat {name}?' },
+      revealMore: { en: 'Yes! {big} has MORE — {bigN} is more than {smallN}!', de: 'Ja! {big} hat MEHR — {bigN} ist mehr als {smallN}!' },
+      revealFewer: { en: 'Yes! {small} has FEWER — {smallN} is fewer than {bigN}!', de: 'Ja! {small} hat WENIGER — {smallN} ist weniger als {bigN}!' },
+      revealSame: { en: 'They are the SAME — both have {n}! The bunch just looked different.', de: 'Gleich viel! Beide haben {n}. Die Häufchen sahen nur anders aus.' },
+      revealHowMany: { en: 'Right! {big} has {d} more — {d} friend(s) with no buddy.', de: 'Richtig! {big} hat {d} mehr — {d} ohne Partner.' },
+      revealBust: { en: 'Surprise! The short little bunch had more. ', de: 'Überraschung! Das kleine Häufchen hatte mehr. ' },
+      reSpread: { en: "Tricky! It LOOKED like more — let's give everyone a buddy and see.", de: 'Knifflig! Das SAH nach mehr aus — geben wir jedem einen Partner und schauen nach!' },
+      reJudge: { en: "Let's pair them up first — then we will know for sure!", de: 'Finde erst die Partner — dann wissen wir es ganz sicher!' },
+      reBuild: { en: 'Not the same yet — keep adding until everyone has a buddy.', de: 'Noch nicht gleich viel — leg noch dazu, bis jeder einen Partner hat.' },
+      reHowMany: { en: 'Count again — how many friends have no buddy?', de: 'Zähl noch mal — wie viele Freunde haben keinen Partner?' },
+      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf „Prüfen"! ✓' },
+      guessLead: { en: 'Your guess:', de: 'Deine Schätzung:' }
     },
     /* :strings */
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.solved = false; this.solvedCount = 0; this.msg = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -187,7 +191,9 @@
       else if (this.mode === 'count' && counted) { var cn = api.el('span', 'fb-badge fb-badge-count'); cn.textContent = this._countIndex(side, id); b.appendChild(cn); }
       var interactive = (this.phase !== 'predict') && !this.solved;
       b.disabled = !interactive;
-      b.setAttribute('aria-label', (side === 'left' ? 'Big' : 'Bit') + ' friend' + (paired ? ', has a buddy' : ''));
+      b.setAttribute('aria-label', LANG === 'de'
+        ? ('Freund von ' + (side === 'left' ? 'Big' : 'Bit') + (paired ? ', hat einen Partner' : ''))
+        : ((side === 'left' ? 'Big' : 'Bit') + ' friend' + (paired ? ', has a buddy' : '')));
       if (interactive) b.addEventListener('click', function () { self._tapDisc(side, id); });
       return b;
     },
@@ -197,7 +203,7 @@
     _tapDisc: function (side, id) {
       var s = this.cstate;
       if (this.mode === 'count') {
-        if (!s.counted[id]) { Core.markCounted(s, id); this.api.sound && this.api.sound(560 + Core.countedOn(s, side) * 30); speak(WORDS[Core.countedOn(s, side)]); }
+        if (!s.counted[id]) { Core.markCounted(s, id); this.api.sound && this.api.sound(560 + Core.countedOn(s, side) * 30); speak(numWord(Core.countedOn(s, side))); }
         this.msg = null; this.render(); return;
       }
       // pair mode: tap a paired disc to unpair; else select / complete a pair
@@ -290,9 +296,13 @@
     },
     _revealSpeech: function () {
       var s = this.cstate, rel = Core.relation(s);
-      if (rel === 'same') return WORDS[s.L.length] + ' and ' + WORDS[s.R.length] + ' is the same';
+      if (rel === 'same') return LANG === 'de'
+        ? (numWord(s.L.length) + ' und ' + numWord(s.R.length) + ' sind gleich viel')
+        : (WORDS[s.L.length] + ' and ' + WORDS[s.R.length] + ' is the same');
       var big = rel === 'left' ? s.L.length : s.R.length, small = rel === 'left' ? s.R.length : s.L.length;
-      return WORDS[big] + ' is more than ' + WORDS[small];
+      return LANG === 'de'
+        ? (numWord(big) + ' ist mehr als ' + numWord(small))
+        : (WORDS[big] + ' is more than ' + WORDS[small]);
     },
 
     /* ----- the see-saw beam: LOCKED FLAT (data-tip='') until solved ----- */

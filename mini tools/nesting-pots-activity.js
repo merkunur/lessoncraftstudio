@@ -30,6 +30,7 @@
   'use strict';
 
   var Core = global.OrderingCore;
+  var LANG = 'en';
 
   var C = {
     T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F',
@@ -81,7 +82,7 @@
 
   /* ---- characters — SVG PLACEHOLDERS via [data-pose] (CA5 swaps in later) ---- */
   function grandpaSVG() {
-    return '<svg class="np-grandpa-svg" viewBox="0 0 120 120" role="img" aria-label="Grandpa Pip">' +
+    return '<svg class="np-grandpa-svg" viewBox="0 0 120 120" role="img" aria-label="' + (LANG === 'de' ? 'Opa Pip' : 'Grandpa Pip') + '">' +
       '<ellipse cx="60" cy="108" rx="34" ry="8" fill="rgba(0,0,0,.08)"/>' +
       '<path d="M34 70 Q34 44 60 44 Q86 44 86 70 L84 96 Q82 104 60 104 Q38 104 36 96 Z" fill="' + C.T + '"/>' +
       '<circle cx="60" cy="40" r="22" fill="#F3D8B8"/>' +
@@ -95,7 +96,7 @@
       '</svg>';
   }
   function weeOlenSVG() {
-    return '<svg class="np-olen-svg" viewBox="0 0 60 60" role="img" aria-label="Wee Olen the baby">' +
+    return '<svg class="np-olen-svg" viewBox="0 0 60 60" role="img" aria-label="' + (LANG === 'de' ? 'Baby Wee Olen' : 'Wee Olen the baby') + '">' +
       /* two little hands gripping the pot rim (reads as a baby peeking OUT) */
       '<ellipse cx="17" cy="49" rx="5" ry="4" fill="#F3D8B8" stroke="' + C.CORAL2 + '" stroke-width="1"/>' +
       '<ellipse cx="43" cy="49" rx="5" ry="4" fill="#F3D8B8" stroke="' + C.CORAL2 + '" stroke-width="1"/>' +
@@ -110,7 +111,7 @@
       '</svg>';
   }
   function dootSVG() {
-    return '<svg class="np-doot-svg" viewBox="0 0 70 70" role="img" aria-label="Doot the Duck">' +
+    return '<svg class="np-doot-svg" viewBox="0 0 70 70" role="img" aria-label="' + (LANG === 'de' ? 'Doot die Ente' : 'Doot the Duck') + '">' +
       '<ellipse cx="35" cy="46" rx="20" ry="16" fill="#F4E04D"/>' +
       '<circle cx="35" cy="26" r="13" fill="#F4E04D"/>' +
       '<path d="M22 26 Q12 28 16 33 Q22 33 24 30 Z" fill="' + C.CORAL + '"/>' +
@@ -124,25 +125,26 @@
     id: 'nesting-pots-activity',
 
     strings: {
-      title:        { en: "Grandpa Pip's Nesting Pots" },
-      instruction:  { en: 'Tuck the pots away biggest number first, so little Wee Olen is safe in the middle. Tap Check when the family is all tucked in.' },
-      prompt:       { en: 'Pack the pots — biggest number first.' },
-      promptGap:    { en: 'Which pot fills the gap?' },
-      hintPick:     { en: 'Tap a pot first, then tap the glowing pot.' },
-      hintBigger:   { en: 'Start with the BIGGEST number — read the numbers, not the pot size.' },
-      hintRelation: { en: '{a} is more than {b}, so {b} tucks inside {a}.' },
-      hintGap:      { en: 'The missing pot is more than {b} and less than {a}.' },
-      twin:         { en: '{a} and {a} are the same — neither fits inside, so they rest side by side.' },
-      relateOk:     { en: '{b} tucks inside {a} — {b} is less than {a}.' },
-      sr:           { en: 'A pot holding {n} friends.' },
-      srTarget:     { en: 'Tuck a smaller-number pot in here.' },
-      srGap:        { en: 'A missing pot — tuck the right number in here.' }
+      title:        { en: "Grandpa Pip's Nesting Pots", de: 'Opa Pips Stapeltöpfe' },
+      instruction:  { en: 'Tuck the pots away biggest number first, so little Wee Olen is safe in the middle. Tap Check when the family is all tucked in.', de: 'Räum die Töpfe weg – die größte Zahl zuerst, damit das kleine Wee Olen sicher in der Mitte sitzt. Tipp auf Prüfen, wenn die ganze Familie eingeräumt ist.' },
+      prompt:       { en: 'Pack the pots — biggest number first.', de: 'Räum die Töpfe ein – die größte Zahl zuerst.' },
+      promptGap:    { en: 'Which pot fills the gap?', de: 'Welcher Topf passt in die Lücke?' },
+      hintPick:     { en: 'Tap a pot first, then tap the glowing pot.', de: 'Tipp zuerst auf einen Topf, dann auf den leuchtenden Topf.' },
+      hintBigger:   { en: 'Start with the BIGGEST number — read the numbers, not the pot size.', de: 'Fang mit der GRÖSSTEN Zahl an – lies die Zahlen, nicht die Topfgröße.' },
+      hintRelation: { en: '{a} is more than {b}, so {b} tucks inside {a}.', de: '{a} ist größer als {b}, also passt {b} in {a}.' },
+      hintGap:      { en: 'The missing pot is more than {b} and less than {a}.', de: 'Der fehlende Topf ist größer als {b} und kleiner als {a}.' },
+      twin:         { en: '{a} and {a} are the same — neither fits inside, so they rest side by side.', de: '{a} und {a} sind gleich – keiner passt in den anderen, also stehen sie nebeneinander.' },
+      relateOk:     { en: '{b} tucks inside {a} — {b} is less than {a}.', de: '{b} passt in {a} – {b} ist kleiner als {a}.' },
+      sr:           { en: 'A pot holding {n} friends.', de: 'Ein Topf mit {n} Freunden.' },
+      srTarget:     { en: 'Tuck a smaller-number pot in here.', de: 'Hier kommt ein Topf mit einer kleineren Zahl hinein.' },
+      srGap:        { en: 'A missing pot — tuck the right number in here.', de: 'Ein fehlender Topf – hier kommt die richtige Zahl hinein.' }
     },
 
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks(Core.buildRounds()); this._order = null; this._curPass = 0; this._orderForPool = null;
       /* safe defaults so the shell's mount-time render() (which runs BEFORE the
          first task's setup) does not crash on undefined state (mosaic pattern). */

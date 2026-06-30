@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "booker-glossary-desk.guide-words.l-2-4-e": {
+      "about": [
+        "Booker, der Bär, sitzt an seinem Nachschlage-Pult und blättert in einem dicken Wörterbuch. Ganz oben auf jeder Seite stehen zwei Leitwörter — das erste und das letzte Wort der Seite. Dein Kind liest diese beiden Leitwörter und tippt dann von drei Wortkarten genau die eine an, die nach dem ABC dazwischengehört. So lernt es Schritt für Schritt, wie man ein Wort im Wörterbuch findet, ohne jede Seite einzeln durchsuchen zu müssen.",
+        "Dahinter steckt die alphabetische Ordnung: Im Wörterbuch stehen alle Wörter nach dem ABC geordnet. Die beiden Leitwörter oben auf der Seite verraten, welche Wörter man hier findet — nämlich alles, was im ABC zwischen ihnen liegt. Oft reicht schon der erste Buchstabe, um sich zu entscheiden. Manchmal beginnen die Wörter aber mit demselben Buchstaben — dann schaut man genau hin und vergleicht den zweiten oder sogar den dritten Buchstaben. Genau das wird von Runde zu Runde ein kleines bisschen kniffliger, damit dein Kind immer sicherer wird.",
+        "Diese Übung gehört zum Lehrplan der Grundschule und zum Bereich „Richtig schreiben“: Das Nachschlagen im Wörterbuch ist eine wichtige Arbeitstechnik, mit der Kinder selbst überprüfen können, wie ein Wort geschrieben wird. Sie ist kostenlos, ohne Zeitdruck und ohne Punkte — Booker lässt deinem Kind alle Zeit der Welt, und niemand wird gehetzt oder bewertet."
+      ],
+      "practices": [
+        "Wörter nach dem ABC ordnen — zuerst nach dem ersten Buchstaben, später auch nach dem zweiten und dritten.",
+        "Die Leitwörter oben auf einer Wörterbuchseite lesen und verstehen, welche Wörter dazwischenliegen.",
+        "Schnell entscheiden, ob ein Wort vor, zwischen oder hinter den beiden Leitwörtern steht.",
+        "Das Wörterbuch als Hilfe beim richtigen Schreiben kennenlernen und sicher benutzen."
+      ],
+      "howToPlay": [
+        "Lies die beiden Leitwörter ganz oben auf der Seite — links das erste, rechts das letzte Wort.",
+        "Schau dir die drei Wortkarten an und überlege bei jedem Wort: Steht es im ABC zwischen den beiden Leitwörtern?",
+        "Tippe die eine Karte an, die dazwischengehört. Liegst du einmal daneben, probierst du es in Ruhe noch einmal."
+      ],
+      "learningGoals": [
+        "Dein Kind versteht die alphabetische Ordnung und kann Wörter sicher nach dem ABC einsortieren.",
+        "Es kann mithilfe der Leitwörter zielsicher die richtige Seite im Wörterbuch ansteuern.",
+        "Es vergleicht Wörter Buchstabe für Buchstabe und nutzt das Wörterbuch selbstständig als Rechtschreibhilfe."
+      ]
+    },
     "tempo-day-plan.time-prepositions.l-1-1-i": {
       "about": [
         "Tempo, die kleine Schildkröte, erzählt von ihrem Tag — vom Aufwachen am Morgen bis zum Gutenachtgruß am Abend. In jedem Satz fehlt aber ein winziges Wort, das die Zeit ordnet. Dein Kind liest den Satz und tippt auf das Wörtchen, das genau passt: „vor“, „während“ oder „nach“. Schon wird aus Tempos Satz ein runder, klarer Gedanke.",

@@ -15,12 +15,25 @@
         { "id": "sea-sit", "band": 3, "g1": "sea", "g2": "sit", "words": ["see", "saw", "sky"] },
         { "id": "ten-top", "band": 3, "g1": "ten", "g2": "top", "words": ["tag", "tip", "toy"] },
         { "id": "bed-box", "band": 3, "g1": "bed", "g2": "box", "words": ["bag", "buy", "big"] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "ball-dose", "band": 1, "g1": "Ball", "g2": "Dose", "words": ["Apfel", "Baum", "Ente"] },
+          { "id": "fisch-hund", "band": 1, "g1": "Fisch", "g2": "Hund", "words": ["Gabel", "Ente", "Igel"] },
+          { "id": "katze-ofen", "band": 1, "g1": "Katze", "g2": "Ofen", "words": ["Hund", "Pinsel", "Lampe"] },
+          { "id": "ast-auto", "band": 2, "g1": "Ast", "g2": "Auto", "words": ["Affe", "Auge", "Baum"] },
+          { "id": "berg-boot", "band": 2, "g1": "Berg", "g2": "Boot", "words": ["Banane", "Brot", "Birne"] },
+          { "id": "see-sofa", "band": 2, "g1": "See", "g2": "Sofa", "words": ["Socke", "Sand", "Suppe"] },
+          { "id": "stein-stuhl", "band": 3, "g1": "Stein", "g2": "Stuhl", "words": ["Stadt", "Stern", "Stunde"] },
+          { "id": "blatt-blume", "band": 3, "g1": "Blatt", "g2": "Blume", "words": ["Blitz", "Blase", "Dose"] },
+          { "id": "tanne-tasse", "band": 3, "g1": "Tanne", "g2": "Tasse", "words": ["Tafel", "Taste", "Tasche"] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "booker-glossary-desk" },
-    "page_title": { "en": "Booker's Glossary Desk — Use Guide Words to Find the Page (Grade 2)" },
-    "page_intro": { "en": "A free interactive Grade 2 vocabulary game: Booker the bear keeps the glossary. Two guide words sit at the top of the page — tap the word that belongs ON this page, the one that comes between them in ABC order. Using guide words to find a word in a glossary or dictionary. Common Core L.2.4.e." },
+    "slug": { "en": "booker-glossary-desk", "de": "alphabetisch-ordnen-woerterbuch-nachschlagen-klasse-3" },
+    "page_title": { "en": "Booker's Glossary Desk — Use Guide Words to Find the Page (Grade 2)", "de": "Alphabetisch ordnen üben – Klasse 3 mit Bär Booker" },
+    "page_intro": { "en": "A free interactive Grade 2 vocabulary game: Booker the bear keeps the glossary. Two guide words sit at the top of the page — tap the word that belongs ON this page, the one that comes between them in ABC order. Using guide words to find a word in a glossary or dictionary. Common Core L.2.4.e.", "de": "Alphabetisch ordnen üben: Hilf Bär Booker beim Nachschlagen! Tippe das Wort, das zwischen den beiden Leitwörtern steht. Kostenlos & interaktiv für Klasse 3." },
     "kid_prompt_template": "guide-words"
   }
 ]

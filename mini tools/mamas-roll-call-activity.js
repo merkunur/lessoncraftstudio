@@ -25,11 +25,15 @@
   var Core = global.NumeralTraceCore;
   var C = { T: '#146B5E', T2: '#0e4f45', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', GOLD: '#E8A53A', INK: '#2A2A35', PAD: '#7FB069' };
   var WORDS = { 0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight', 9: 'nine' };
+  var WORDS_DE = { 0: 'null', 1: 'eins', 2: 'zwei', 3: 'drei', 4: 'vier', 5: 'fünf', 6: 'sechs', 7: 'sieben', 8: 'acht', 9: 'neun' };
+  var COLOR_DE = { yellow: { adj: 'gelbe', sg: 'gelbes' }, brown: { adj: 'braune', sg: 'braunes' } };
+  var LANG = 'en';
+  function numWord(n) { return (LANG === 'de' ? WORDS_DE : WORDS)[n] || n; }
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function duckSVG(kind, mama) {
@@ -50,35 +54,36 @@
     reward: { id: 'rollbook', label: "Mama's Roll-Book", emoji: '🦆' },
 
     strings: {
-      title: { en: "Mama's Roll Call" },
-      instruction: { en: 'Send Mama the number she calls, then write it.' },
-      prompt: { en: 'Send the number!' },
-      callNumeral: { en: 'Mama needs {n}!' },
-      callZero: { en: 'Mama needs NONE — let them sleep!' },
-      callGroup: { en: 'Send a duckling for each lily-pad!' },
-      callKind: { en: 'Send {n} {kind} ducklings!' },
-      countBrood: { en: 'How many came to Mama? Tap each to count.' },
-      arriveLab: { en: 'More keep arriving — count them all!' },
-      hintSend: { en: 'Tap a duckling to send it across to Mama.' },
-      hintCount: { en: 'Tap each duckling once to count it.' },
-      signNav: { en: 'Sign the roll ✍' },
-      moreArrive: { en: 'More arrive ▶' },
-      backRaft: { en: '← send more' },
-      signHint: { en: 'Write the number in the mud to call the roll!' },
-      traceIt: { en: 'Write the {n}' },
-      strokeN: { en: 'Stroke {k}' },
-      thisWay: { en: 'Start that stroke first — this way!' },
-      sealed: { en: 'The roll is true — Mama gathers her brood! 🦆' },
-      sealedZero: { en: 'Zero ducklings — and you wrote the zero! The raft sleeps in. 🌙' },
-      redo: { en: "Let's call that roll again." },
-      tapCheck: { en: 'Tap Check! ✓' },
-      sentLab: { en: 'With Mama' },
-      raftLab: { en: 'The raft' }
+      title: { en: "Mama's Roll Call", de: 'Mamas Morgenappell' },
+      instruction: { en: 'Send Mama the number she calls, then write it.', de: 'Schick Mama die Zahl, die sie ruft – dann schreib sie auf.' },
+      prompt: { en: 'Send the number!', de: 'Schick die Zahl!' },
+      callNumeral: { en: 'Mama needs {n}!', de: 'Mama braucht {n}!' },
+      callZero: { en: 'Mama needs NONE — let them sleep!', de: 'Mama braucht KEINS – lass sie schlafen!' },
+      callGroup: { en: 'Send a duckling for each lily-pad!', de: 'Schick für jedes Seerosenblatt ein Entenküken!' },
+      callKind: { en: 'Send {n} {kind} ducklings!', de: 'Schick {n} {kind} Entenküken!' },
+      countBrood: { en: 'How many came to Mama? Tap each to count.', de: 'Wie viele sind zu Mama gekommen? Tippe jedes an, um zu zählen.' },
+      arriveLab: { en: 'More keep arriving — count them all!', de: 'Es kommen noch mehr – zähl sie alle!' },
+      hintSend: { en: 'Tap a duckling to send it across to Mama.', de: 'Tippe ein Entenküken an, um es zu Mama hinüberzuschicken.' },
+      hintCount: { en: 'Tap each duckling once to count it.', de: 'Tippe jedes Entenküken einmal an, um es zu zählen.' },
+      signNav: { en: 'Sign the roll ✍', de: 'Appell unterschreiben ✍' },
+      moreArrive: { en: 'More arrive ▶', de: 'Es kommen mehr ▶' },
+      backRaft: { en: '← send more', de: '← mehr schicken' },
+      signHint: { en: 'Write the number in the mud to call the roll!', de: 'Schreib die Zahl in den Schlamm, um den Appell aufzurufen!' },
+      traceIt: { en: 'Write the {n}', de: 'Schreib die {n}' },
+      strokeN: { en: 'Stroke {k}', de: 'Strich {k}' },
+      thisWay: { en: 'Start that stroke first — this way!', de: 'Fang mit diesem Strich an – so herum!' },
+      sealed: { en: 'The roll is true — Mama gathers her brood! 🦆', de: 'Der Appell stimmt – Mama sammelt ihre Schar! 🦆' },
+      sealedZero: { en: 'Zero ducklings — and you wrote the zero! The raft sleeps in. 🌙', de: 'Null Entenküken – und du hast die Null geschrieben! Das Floß schläft weiter. 🌙' },
+      redo: { en: "Let's call that roll again.", de: 'Lass uns den Appell noch einmal aufrufen.' },
+      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓' },
+      sentLab: { en: 'With Mama', de: 'Bei Mama' },
+      raftLab: { en: 'The raft', de: 'Das Floß' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.solved = false; this.solvedCount = 0; this.msg = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -131,7 +136,12 @@
       // numeral target (count-out / distract / scatter) — the numeral INLINE (one line)
       var n = this._n(), bign = '<span class="rc-call-big">' + n + '</span>';
       var t = api.el('div', 'rc-call-text');
-      t.innerHTML = (this.act === 'count-out-distract') ? ('Send ' + bign + ' ' + this.round.call.kind + ' ducklings!') : ('Mama needs ' + bign + '!');
+      if (this.act === 'count-out-distract') {
+        var k = this.round.call.kind, kindWord = (LANG === 'de' && COLOR_DE[k]) ? COLOR_DE[k].adj : k;
+        t.innerHTML = api.t('callKind').replace('{n}', bign).replace('{kind}', kindWord);
+      } else {
+        t.innerHTML = api.t('callNumeral').replace('{n}', bign);
+      }
       card.appendChild(t);
       return card;
     },
@@ -153,13 +163,13 @@
       s.sent.forEach(function (d) { var m = api.el('span', 'rc-sentmini'); m.innerHTML = duckSVG(d.kind); srow.appendChild(m); });
       if (!s.sent.length) { var e = api.el('span', 'rc-emptyz'); e.textContent = '🪺'; srow.appendChild(e); }
       sent.appendChild(srow);
-      if (s.sent.length) { var rb = api.el('button', 'rc-recall'); rb.type = 'button'; rb.textContent = '↩'; rb.setAttribute('aria-label', 'call one back'); rb.addEventListener('click', function () { Core.recallDuck(s, s.sent[s.sent.length - 1].id); self.msg = null; self.api.sound && self.api.sound(360); self.render(); }); sent.appendChild(rb); }
+      if (s.sent.length) { var rb = api.el('button', 'rc-recall'); rb.type = 'button'; rb.textContent = '↩'; rb.setAttribute('aria-label', LANG === 'de' ? 'eins zurückrufen' : 'call one back'); rb.addEventListener('click', function () { Core.recallDuck(s, s.sent[s.sent.length - 1].id); self.msg = null; self.api.sound && self.api.sound(360); self.render(); }); sent.appendChild(rb); }
       col.appendChild(sent);
       // the raft (remaining) — tap to send (no label; the ducks obviously are the raft)
       var raft = api.el('div', 'rc-raft');
       var remaining = s.raft.filter(function (d) { return !s.sent.some(function (x) { return x.id === d.id; }); });
       var rrow = api.el('div', 'rc-ducks rc-lay-' + (this.round.raft.arrangement || 'tidy'));
-      remaining.forEach(function (d) { var b = api.el('button', 'rc-duck'); b.type = 'button'; b.innerHTML = duckSVG(d.kind); b.setAttribute('aria-label', d.kind + ' duckling — tap to send'); b.addEventListener('click', function () { Core.sendDuck(s, d.id); self.msg = null; self.api.sound && self.api.sound(520); self.render(); }); rrow.appendChild(b); });
+      remaining.forEach(function (d) { var b = api.el('button', 'rc-duck'); b.type = 'button'; b.innerHTML = duckSVG(d.kind); b.setAttribute('aria-label', LANG === 'de' ? ((COLOR_DE[d.kind] ? COLOR_DE[d.kind].sg + ' ' : '') + 'Entenküken — zum Schicken tippen') : (d.kind + ' duckling — tap to send')); b.addEventListener('click', function () { Core.sendDuck(s, d.id); self.msg = null; self.api.sound && self.api.sound(520); self.render(); }); rrow.appendChild(b); });
       raft.appendChild(rrow); col.appendChild(raft);
       return col;
     },
@@ -168,7 +178,7 @@
       var brood = s.brood;
       var shown = (this.act === 'running-total') ? brood.slice(0, this._revealedCount()) : brood;
       var row = api.el('div', 'rc-ducks rc-lay-tidy');
-      shown.forEach(function (d) { var counted = !!s.counted[d.id]; var b = api.el('button', 'rc-duck' + (counted ? ' rc-counted' : '')); b.type = 'button'; b.innerHTML = duckSVG('duck'); b.setAttribute('aria-label', 'duckling' + (counted ? ', counted' : '')); b.addEventListener('click', function () { if (!s.counted[d.id]) { Core.countDuck(s, d.id); self.api.sound && self.api.sound(540 + Core.countedSize(s) * 20); speak(Core.countedSize(s)); self.msg = null; self.render(); } }); if (counted) { var ck = api.el('span', 'rc-check'); ck.textContent = '✓'; b.appendChild(ck); } row.appendChild(b); });
+      shown.forEach(function (d) { var counted = !!s.counted[d.id]; var b = api.el('button', 'rc-duck' + (counted ? ' rc-counted' : '')); b.type = 'button'; b.innerHTML = duckSVG('duck'); b.setAttribute('aria-label', LANG === 'de' ? ('Entenküken' + (counted ? ', gezählt' : '')) : ('duckling' + (counted ? ', counted' : ''))); b.addEventListener('click', function () { if (!s.counted[d.id]) { Core.countDuck(s, d.id); self.api.sound && self.api.sound(540 + Core.countedSize(s) * 20); speak(Core.countedSize(s)); self.msg = null; self.render(); } }); if (counted) { var ck = api.el('span', 'rc-check'); ck.textContent = '✓'; b.appendChild(ck); } row.appendChild(b); });
       col.appendChild(row);
       if (this.act === 'running-total' && this.batchIdx < (this.round.arriving.length - 1)) {
         var more = api.el('button', 'rc-more'); more.type = 'button'; more.textContent = api.t('moreArrive'); more.addEventListener('click', function () { self.batchIdx++; self.api.sound && self.api.sound(480); self.render(); }); col.appendChild(more);
@@ -275,7 +285,7 @@
       if (r === 'sealed') {
         this.api.sound && this.api.sound(940);
         this.msg = (this._n() === 0) ? api.t('sealedZero') : api.t('sealed');
-        speak(this._n() === 0 ? 'zero' : (WORDS[this._n()] || this._n()));
+        speak(this._n() === 0 ? (LANG === 'de' ? 'null' : 'zero') : numWord(this._n()));
         this._win();
       } else {
         this.api.sound && this.api.sound(320); this.msg = api.t('redo');

@@ -18,9 +18,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "mamas-roll-call" },
-    "page_title": { "en": "Mama's Roll Call — Count Out That Many (0 to 9)" },
-    "page_intro": { "en": "Mama Duck calls the morning roll at Quack Creek: send her exactly the number of ducklings she asks for — count them out one by one from the raft — then sign the roll by writing that number in the mud. Even a quiet morning has a number: zero! A warm Kindergarten counting game aligned to Common Core K.CC.B.5." },
+    "slug": { "en": "mamas-roll-call", "de": "mama-ente-appell-richtige-anzahl-schicken-und-ziffer-schreiben-klasse-1" },
+    "page_title": { "en": "Mama's Roll Call — Count Out That Many (0 to 9)", "de": "Mama Entes Appell: Anzahl abzählen & Ziffer schreiben – Klasse 1" },
+    "page_intro": { "en": "Mama Duck calls the morning roll at Quack Creek: send her exactly the number of ducklings she asks for — count them out one by one from the raft — then sign the roll by writing that number in the mud. Even a quiet morning has a number: zero! A warm Kindergarten counting game aligned to Common Core K.CC.B.5.", "de": "Schick Mama Ente genau so viele Küken, wie sie verlangt – selbst abzählen, auch die Null, und die richtige Zahl in den Schlamm schreiben. Kostenlos & interaktiv, Klasse 1. Jetzt mitmachen!" },
     "kid_prompt_template": "numeral-trace"
   }
 ]

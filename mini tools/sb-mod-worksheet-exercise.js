@@ -70,6 +70,29 @@
       '  filter:drop-shadow(0 6px 10px rgba(0,0,0,.35));}',
       '.sbwe-ghost img{width:100%;height:100%;object-fit:contain;}',
       '.sbwe-loading{color:#146B5E;font-weight:800;padding:20px;}',
+      /* Family E — connect */
+      '.sbwe-eitem{border:3px solid rgba(20,107,94,.5);border-radius:10px;background:rgba(255,255,255,.6);cursor:pointer;}',
+      '.sbwe-eitem.sbwe-sel{border-color:#F2784B;box-shadow:0 0 0 3px rgba(242,120,75,.35);}',
+      '.sbwe-eitem.sbwe-ok{border-color:#146B5E;cursor:default;}',
+      '.sbwe-eitem.sbwe-bad{border-color:#D64541;}',
+      '.sbwe-esvg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;}',
+      '.sbwe-esvg line{pointer-events:none;}',
+      '.sbwe-esvg line.sbwe-live{pointer-events:auto;cursor:pointer;}',
+      /* Family C — tap-to-mark + count blanks */
+      '.sbwe-target{border:none;background:transparent;border-radius:10px;cursor:pointer;}',
+      '.sbwe-target.sbwe-marked::after{content:"✓";position:absolute;right:-4px;top:-4px;width:28px;height:28px;',
+      '  border-radius:50%;background:#146B5E;color:#fff;font-weight:900;font-size:16px;',
+      '  display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgba(0,0,0,.3);}',
+      '.sbwe-target.sbwe-marked{outline:4px solid #146B5E;outline-offset:-2px;}',
+      '@keyframes sbwe-cshake{0%,100%{transform:translateX(0);}25%{transform:translateX(-4px);}75%{transform:translateX(4px);}}',
+      '.sbwe-target.sbwe-noflash{animation:sbwe-cshake .3s ease 2;}',
+      '@media (prefers-reduced-motion: reduce){.sbwe-target.sbwe-noflash{animation:none;}}',
+      '.sbwe-blank{border:3px dashed rgba(20,107,94,.65);border-radius:8px;background:rgba(255,255,255,.6);',
+      '  color:#1c1a17;font-weight:900;display:flex;align-items:center;justify-content:center;cursor:pointer;',
+      '  padding:0;font-family:inherit;}',
+      '.sbwe-blank.sbwe-sel{border-style:solid;border-color:#F2784B;box-shadow:0 0 0 3px rgba(242,120,75,.35);}',
+      '.sbwe-blank.sbwe-ok{border-style:solid;border-color:#146B5E;background:rgba(20,107,94,.18);cursor:default;}',
+      '.sbwe-blank.sbwe-bad{border-style:solid;border-color:#D64541;background:rgba(214,69,65,.16);}',
       '@media (prefers-reduced-motion: reduce){.sbwe-key:active{transform:none;}}'
     ].join('\n');
     var st = global.document.createElement('style');
@@ -400,6 +423,334 @@
   }
 
   /* ---------------------------------------------------------------------- */
+  /* Family E — tap-to-connect (matching/shadow-match; deck semantics)       */
+  /* ---------------------------------------------------------------------- */
+  function familyE(ctx, desc, boardEl, paletteHost, api) {
+    var SVGNS = 'http://www.w3.org/2000/svg';
+    var left = (desc.elements && desc.elements.leftItems) || [];
+    var right = (desc.elements && desc.elements.rightItems) || [];
+    var pairs = (desc.elements && desc.elements.pairs) || [];
+    var pairByLeft = {};
+    pairs.forEach(function (p) { pairByLeft[p.leftIndex] = p; });
+
+    var connections = {};        /* leftIndex -> rightIndex */
+    var lockedLeft = {};         /* leftIndex -> true (correct after a check) */
+    var selectedLeft = -1;
+    var leftEls = {}, rightEls = {};
+
+    var svg = global.document.createElementNS(SVGNS, 'svg');
+    svg.setAttribute('class', 'sbwe-esvg');
+    svg.setAttribute('viewBox', '0 0 ' + desc.crop.w + ' ' + desc.crop.h);
+    svg.setAttribute('preserveAspectRatio', 'none');
+    boardEl.appendChild(svg);
+
+    function itemBtn(it, side) {
+      var b = ctx.el('button', 'sbwe-el sbwe-eitem sbwe-hit');
+      b.type = 'button';
+      b.style.left = pct(it.rect.x, desc.crop.w);
+      b.style.top = pct(it.rect.y, desc.crop.h);
+      b.style.width = pct(it.rect.w, desc.crop.w);
+      b.style.height = pct(it.rect.h, desc.crop.h);
+      b.setAttribute('aria-label', side + ' ' + (it.index + 1));
+      return b;
+    }
+    function select(li) {
+      selectedLeft = li;
+      left.forEach(function (it) {
+        leftEls[it.index].classList.toggle('sbwe-sel', it.index === selectedLeft);
+      });
+    }
+    function redraw(review) {
+      while (svg.firstChild) svg.removeChild(svg.firstChild);
+      Object.keys(connections).forEach(function (liS) {
+        var li = Number(liS), ri = connections[li];
+        var L = left.filter(function (x) { return x.index === li; })[0];
+        var R = right.filter(function (x) { return x.index === ri; })[0];
+        if (!L || !R) return;
+        var line = global.document.createElementNS(SVGNS, 'line');
+        line.setAttribute('x1', L.anchor.x); line.setAttribute('y1', L.anchor.y);
+        line.setAttribute('x2', R.anchor.x); line.setAttribute('y2', R.anchor.y);
+        line.setAttribute('stroke-width', '5');
+        line.setAttribute('stroke-linecap', 'round');
+        if (review) {
+          line.setAttribute('stroke', review[li] ? '#146B5E' : '#D64541');
+        } else {
+          line.setAttribute('stroke', lockedLeft[li] ? '#146B5E' : '#4E5FE8');
+          if (!lockedLeft[li]) {
+            line.setAttribute('class', 'sbwe-live');
+            line.addEventListener('click', function () {      /* tap-line-to-undo */
+              if (!api.enabled() || lockedLeft[li]) return;
+              delete connections[li];
+              redraw();
+              paintAnswer();
+            });
+          }
+        }
+        svg.appendChild(line);
+      });
+    }
+    function drawHint(li) {
+      var p = pairByLeft[li];
+      var L = left.filter(function (x) { return x.index === li; })[0];
+      var R = p && right.filter(function (x) { return x.index === p.correctRightIndex; })[0];
+      if (!L || !R) return null;
+      var line = global.document.createElementNS(SVGNS, 'line');
+      line.setAttribute('x1', L.anchor.x); line.setAttribute('y1', L.anchor.y);
+      line.setAttribute('x2', R.anchor.x); line.setAttribute('y2', R.anchor.y);
+      line.setAttribute('stroke', '#4CAF50');
+      line.setAttribute('stroke-width', '3');
+      line.setAttribute('stroke-dasharray', '8 6');
+      svg.appendChild(line);
+      return line;
+    }
+    function paintAnswer() {
+      /* deck semantics: Check enables once EVERY left is connected */
+      var all = left.every(function (it) {
+        return lockedLeft[it.index] || connections[it.index] !== undefined;
+      });
+      api.answerChanged(all);
+    }
+
+    left.forEach(function (it) {
+      var b = itemBtn(it, 'left');
+      b.addEventListener('click', function () {
+        if (!api.enabled() || lockedLeft[it.index]) return;
+        if (connections[it.index] !== undefined) {
+          delete connections[it.index];                       /* erase + re-arm */
+          redraw(); paintAnswer();
+        }
+        select(selectedLeft === it.index ? -1 : it.index);
+      });
+      boardEl.appendChild(b);
+      leftEls[it.index] = b;
+    });
+    right.forEach(function (it) {
+      var b = itemBtn(it, 'right');
+      b.addEventListener('click', function () {
+        if (!api.enabled() || selectedLeft < 0) return;
+        /* 1-to-1: free any other left already using this right */
+        Object.keys(connections).forEach(function (liS) {
+          if (connections[liS] === it.index && !lockedLeft[liS]) delete connections[liS];
+        });
+        connections[selectedLeft] = it.index;
+        select(-1);
+        redraw();
+        paintAnswer();
+      });
+      boardEl.appendChild(b);
+      rightEls[it.index] = b;
+    });
+
+    return {
+      check: function () {
+        var review = {};
+        var allOk = true;
+        var hints = [];
+        left.forEach(function (it) {
+          if (lockedLeft[it.index]) { review[it.index] = true; return; }
+          var p = pairByLeft[it.index];
+          var ri = connections[it.index];
+          var ok = false;
+          if (ri !== undefined && p) {
+            ok = (p.acceptableRightIndices && p.acceptableRightIndices.length)
+              ? p.acceptableRightIndices.indexOf(ri) >= 0
+              : p.correctRightIndex === ri;
+          }
+          review[it.index] = ok;
+          if (ok) lockedLeft[it.index] = true;
+          else {
+            allOk = false;
+            var h = drawHint(it.index);
+            if (h) hints.push(h);
+          }
+        });
+        redraw(review);
+        hints.forEach(function (h) { svg.appendChild(h); });   /* hints on top */
+        if (!allOk) {
+          setTimeout(function () {
+            left.forEach(function (it) {
+              if (!lockedLeft[it.index]) delete connections[it.index];
+            });
+            hints.forEach(function (h) { if (h.parentNode) h.parentNode.removeChild(h); });
+            redraw();
+            paintAnswer();
+          }, 1400);
+        } else {
+          redraw();
+        }
+        return allOk;
+      },
+      showHint: function () {
+        var open = left.filter(function (it) { return !lockedLeft[it.index]; })[0];
+        if (!open) return;
+        var h = drawHint(open.index);
+        if (h) setTimeout(function () { if (h.parentNode) h.parentNode.removeChild(h); }, 1600);
+      },
+      autoSolve: function () {
+        left.forEach(function (it) {
+          var p = pairByLeft[it.index];
+          if (p) connections[it.index] = p.correctRightIndex;
+        });
+        redraw();
+        paintAnswer();
+      },
+      fontResize: function () {},
+      cleanup: function () {}
+    };
+  }
+
+  /* ---------------------------------------------------------------------- */
+  /* Family C — tap-to-mark + count blanks (find-and-count/find-objects)     */
+  /* ---------------------------------------------------------------------- */
+  function familyC(ctx, desc, boardEl, paletteHost, api) {
+    var targets = (desc.elements && desc.elements.targets) || [];
+    var blanks = (desc.elements && desc.elements.countBlanks) || [];
+    var pal = (desc.input && desc.input.numberPalette) || { min: 0, max: 10 };
+    var marked = {};             /* target index -> true */
+    var values = {};             /* blank key -> number */
+    var lockedBlanks = {};
+    var targetEls = {}, blankEls = {};
+    var selectedBlank = blanks.length ? blanks[0].key : null;
+
+    function paintAnswer() {
+      var full = blanks.every(function (b) { return lockedBlanks[b.key] || values[b.key] !== undefined; });
+      api.answerChanged(full);
+    }
+    function selectBlank(key) {
+      selectedBlank = key;
+      blanks.forEach(function (b) {
+        blankEls[b.key].classList.toggle('sbwe-sel', b.key === selectedBlank && !lockedBlanks[b.key]);
+      });
+    }
+
+    targets.forEach(function (t) {
+      var b = ctx.el('button', 'sbwe-el sbwe-target sbwe-hit');
+      b.type = 'button';
+      b.style.left = pct(t.rect.x, desc.crop.w);
+      b.style.top = pct(t.rect.y, desc.crop.h);
+      b.style.width = pct(t.rect.w, desc.crop.w);
+      b.style.height = pct(t.rect.h, desc.crop.h);
+      b.setAttribute('aria-label', 'item ' + (t.index + 1));
+      b.addEventListener('click', function () {
+        if (!api.enabled()) return;
+        if (t.isTarget) {
+          marked[t.index] = !marked[t.index];
+          b.classList.toggle('sbwe-marked', !!marked[t.index]);
+          global.SBAudio.pop(marked[t.index] ? 720 : 420);
+        } else {
+          b.classList.remove('sbwe-noflash'); void b.offsetWidth;
+          b.classList.add('sbwe-noflash');
+          global.SBAudio.pop(360);
+        }
+      });
+      boardEl.appendChild(b);
+      targetEls[t.index] = b;
+    });
+
+    blanks.forEach(function (bl) {
+      var b = ctx.el('button', 'sbwe-el sbwe-blank sbwe-hit');
+      b.type = 'button';
+      b.style.left = pct(bl.rect.x, desc.crop.w);
+      b.style.top = pct(bl.rect.y, desc.crop.h);
+      b.style.width = pct(bl.rect.w, desc.crop.w);
+      b.style.height = pct(bl.rect.h, desc.crop.h);
+      b.setAttribute('aria-label', 'count ' + bl.key);
+      b.addEventListener('click', function () {
+        if (!api.enabled() || lockedBlanks[bl.key]) return;
+        selectBlank(bl.key);
+      });
+      boardEl.appendChild(b);
+      blankEls[bl.key] = b;
+    });
+    if (selectedBlank) selectBlank(selectedBlank);
+
+    /* tap-NUMBER palette */
+    if (blanks.length) {
+      var strip = ctx.el('div', 'sbwe-palette');
+      for (var n = pal.min; n <= pal.max; n++) {
+        (function (num) {
+          var k = ctx.el('button', 'sbwe-key');
+          k.type = 'button';
+          k.textContent = String(num);
+          k.addEventListener('click', function () {
+            if (!api.enabled() || !selectedBlank || lockedBlanks[selectedBlank]) return;
+            values[selectedBlank] = num;
+            blankEls[selectedBlank].textContent = String(num);
+            ctx.audio.speak({ type: 'number', text: String(num) });
+            /* auto-advance to the next empty blank */
+            var nxt = blanks.filter(function (b2) {
+              return !lockedBlanks[b2.key] && values[b2.key] === undefined;
+            })[0];
+            selectBlank(nxt ? nxt.key : selectedBlank);
+            paintAnswer();
+          });
+          strip.appendChild(k);
+        }(n));
+      }
+      paletteHost.appendChild(strip);
+    }
+    paintAnswer();
+
+    return {
+      check: function () {
+        var allOk = true;
+        targets.forEach(function (t) {
+          if (t.isTarget && !marked[t.index]) allOk = false;
+          if (!t.isTarget && marked[t.index]) allOk = false;
+        });
+        blanks.forEach(function (bl) {
+          if (lockedBlanks[bl.key]) return;
+          var ok = values[bl.key] === bl.expected;
+          blankEls[bl.key].classList.toggle('sbwe-ok', ok);
+          blankEls[bl.key].classList.toggle('sbwe-bad', !ok);
+          if (ok) lockedBlanks[bl.key] = true;
+          else allOk = false;
+        });
+        if (!allOk) {
+          setTimeout(function () {
+            blanks.forEach(function (bl) {
+              if (!lockedBlanks[bl.key]) {
+                delete values[bl.key];
+                blankEls[bl.key].textContent = '';
+                blankEls[bl.key].classList.remove('sbwe-bad');
+              }
+            });
+            var firstOpen = blanks.filter(function (b2) { return !lockedBlanks[b2.key]; })[0];
+            if (firstOpen) selectBlank(firstOpen.key);
+            paintAnswer();
+          }, 1100);
+        }
+        return allOk;
+      },
+      showHint: function () {
+        var open = targets.filter(function (t) { return t.isTarget && !marked[t.index]; })[0];
+        if (!open) return;
+        var el = targetEls[open.index];
+        el.style.outline = '5px dashed #F2784B';
+        setTimeout(function () { el.style.outline = ''; }, 1600);
+      },
+      autoSolve: function () {
+        targets.forEach(function (t) {
+          marked[t.index] = !!t.isTarget;
+          targetEls[t.index].classList.toggle('sbwe-marked', !!t.isTarget);
+        });
+        blanks.forEach(function (bl) {
+          values[bl.key] = bl.expected;
+          blankEls[bl.key].textContent = String(bl.expected);
+        });
+        paintAnswer();
+      },
+      fontResize: function (boardPx) {
+        var scale = boardPx.w / desc.crop.w;
+        blanks.forEach(function (bl) {
+          blankEls[bl.key].style.fontSize = Math.max(14, Math.round(bl.rect.h * scale * 0.6)) + 'px';
+        });
+      },
+      cleanup: function () {}
+    };
+  }
+
+  /* ---------------------------------------------------------------------- */
   /* the module                                                              */
   /* ---------------------------------------------------------------------- */
   global.SBModules.register({
@@ -479,7 +830,9 @@
 
         if (d.family === 'A') family = familyA(ctx, d, boardEl, paletteHost, api);
         else if (d.family === 'F') family = familyF(ctx, d, boardEl, paletteHost, api, packageBase());
-        else throw new Error('[sbwe] family not supported in v1: ' + d.family);
+        else if (d.family === 'E') family = familyE(ctx, d, boardEl, paletteHost, api);
+        else if (d.family === 'C') family = familyC(ctx, d, boardEl, paletteHost, api);
+        else throw new Error('[sbwe] family not supported: ' + d.family);
 
         /* prompt: announce + optionally speak (module utterance channel) */
         var loc = localesBlock(d, ctx.locale);

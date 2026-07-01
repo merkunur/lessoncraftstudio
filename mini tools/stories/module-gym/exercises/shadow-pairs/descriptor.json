@@ -1,0 +1,157 @@
+{
+  "formatVersion": "sep-1",
+  "appType": "shadow-match",
+  "family": "E",
+  "sourceBundleVersion": "fixture-hand-authored",
+  "createdAt": "2026-07-02T00:00:00Z",
+  "meta": {
+    "exerciseTypeSlug": "shadow-match",
+    "exerciseMode": null,
+    "theme": "animals",
+    "ageBand": "4-6",
+    "contentLanguage": "en"
+  },
+  "page": {
+    "width": 640,
+    "height": 470
+  },
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 470,
+    "pad": 0
+  },
+  "visual": {
+    "file": "visual@2x.webp",
+    "format": "webp",
+    "scale": 2,
+    "width": 1280,
+    "height": 940
+  },
+  "input": {
+    "policy": "connect"
+  },
+  "elements": {
+    "mode": "shadow",
+    "leftItems": [
+      {
+        "index": 0,
+        "rect": {
+          "x": 40,
+          "y": 20,
+          "w": 140,
+          "h": 140
+        },
+        "anchor": {
+          "x": 185,
+          "y": 90
+        }
+      },
+      {
+        "index": 1,
+        "rect": {
+          "x": 40,
+          "y": 170,
+          "w": 140,
+          "h": 140
+        },
+        "anchor": {
+          "x": 185,
+          "y": 240
+        }
+      },
+      {
+        "index": 2,
+        "rect": {
+          "x": 40,
+          "y": 320,
+          "w": 140,
+          "h": 140
+        },
+        "anchor": {
+          "x": 185,
+          "y": 390
+        }
+      }
+    ],
+    "rightItems": [
+      {
+        "index": 0,
+        "rect": {
+          "x": 460,
+          "y": 20,
+          "w": 140,
+          "h": 140
+        },
+        "anchor": {
+          "x": 455,
+          "y": 90
+        }
+      },
+      {
+        "index": 1,
+        "rect": {
+          "x": 460,
+          "y": 170,
+          "w": 140,
+          "h": 140
+        },
+        "anchor": {
+          "x": 455,
+          "y": 240
+        }
+      },
+      {
+        "index": 2,
+        "rect": {
+          "x": 460,
+          "y": 320,
+          "w": 140,
+          "h": 140
+        },
+        "anchor": {
+          "x": 455,
+          "y": 390
+        }
+      }
+    ],
+    "pairs": [
+      {
+        "leftIndex": 0,
+        "correctRightIndex": 1,
+        "acceptableRightIndices": [
+          1
+        ]
+      },
+      {
+        "leftIndex": 1,
+        "correctRightIndex": 2,
+        "acceptableRightIndices": [
+          2
+        ]
+      },
+      {
+        "leftIndex": 2,
+        "correctRightIndex": 0,
+        "acceptableRightIndices": [
+          0
+        ]
+      }
+    ]
+  },
+  "imageRefs": {},
+  "loadingMode": "reference",
+  "locales": {
+    "en": {
+      "prompt": "Match each animal to its shadow!",
+      "success": "Every shadow found!",
+      "tryAgain": "Try again!",
+      "hint": null
+    }
+  },
+  "audio": {
+    "speakPromptOnMount": false,
+    "perElement": null
+  }
+}

@@ -42,6 +42,16 @@
     return entry[locale] || entry.en || key;
   }
 
+  var _cssDone = false;
+  function injectAdapterCSS() {
+    if (_cssDone) return;
+    _cssDone = true;
+    var st = global.document.createElement('style');
+    st.id = 'sb-legacy-fit-css';
+    st.textContent = '.sb-legacy-fit{width:100%;}';
+    global.document.head.appendChild(st);
+  }
+
   function wrap(w) {
     if (!w || !w.type || !w.core || !w.buildTask) {
       throw new Error('[SBLegacyAdapter] wrap needs {type, core, buildTask}');
@@ -52,6 +62,9 @@
       var task = null;
       var ctx = null;
       var stageEl = null;
+      var fitOuter = null;
+      var fitRO = null;
+      var fitResizeHandler = null;
       var innerBlocker = null;
       var recordedWinListeners = [];
       var recordedBodyNodes = [];
@@ -59,6 +72,28 @@
       var pointerHandler = null;
       var destroyed = false;
       var succeeded = false;
+
+      /* Scale-to-fit containment: cores authored against full-page stages
+         (vw/vmin sizing — clock's min(78vw,300px) etc.) can render taller
+         than a story zone. Uniformly downscale the stage so content always
+         fits the zone box; pointer math (getBoundingClientRect) stays
+         consistent because everything scales together. */
+      function fitToZone() {
+        if (destroyed || !stageEl || !fitOuter) return;
+        stageEl.style.transform = '';
+        fitOuter.style.height = '';
+        fitOuter.style.overflow = '';
+        var cw = stageEl.scrollWidth, chh = stageEl.scrollHeight;
+        var zw = ctx.surface.el.clientWidth, zhh = ctx.surface.el.clientHeight;
+        if (!cw || !chh || !zw || !zhh) return;
+        var k = Math.min(1, zw / cw, zhh / chh);
+        if (k < 0.995) {
+          stageEl.style.transformOrigin = 'top center';
+          stageEl.style.transform = 'scale(' + k + ')';
+          fitOuter.style.height = Math.floor(chh * k) + 'px';
+          fitOuter.style.overflow = 'hidden';
+        }
+      }
 
       function recordDuring(fn) {
         var origAdd = global.addEventListener;
@@ -103,8 +138,11 @@
       return {
         mount: function (c) {
           ctx = c;
+          injectAdapterCSS();
+          fitOuter = ctx.el('div', 'sb-legacy-fit');
           stageEl = ctx.el('div', 'sb-legacy-stage');
-          ctx.surface.el.appendChild(stageEl);
+          fitOuter.appendChild(stageEl);
+          ctx.surface.el.appendChild(fitOuter);
 
           tool = Object.assign({}, w.core());
           if (!tool || typeof tool.init !== 'function') {
@@ -137,6 +175,16 @@
             if (task.setup) task.setup(tool);
             tool.render();
           });
+
+          /* keep the stage fitted: after first paint, on zone/content resize */
+          global.requestAnimationFrame(fitToZone);
+          setTimeout(fitToZone, 150);                 /* post image/font settle */
+          if (global.ResizeObserver) {
+            fitRO = new global.ResizeObserver(function () { fitToZone(); });
+            fitRO.observe(ctx.surface.el);
+          }
+          fitResizeHandler = function () { setTimeout(fitToZone, 0); };
+          global.addEventListener('resize', fitResizeHandler);
         },
 
         start: function () {
@@ -185,6 +233,8 @@
         destroy: function () {
           if (destroyed) return;
           destroyed = true;
+          if (fitRO) { try { fitRO.disconnect(); } catch (e) {} fitRO = null; }
+          if (fitResizeHandler) { global.removeEventListener('resize', fitResizeHandler); fitResizeHandler = null; }
           if (pollTimer) clearInterval(pollTimer);
           if (pointerHandler && stageEl) {
             stageEl.removeEventListener('pointerup', pointerHandler, true);

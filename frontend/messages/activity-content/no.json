@@ -187,7 +187,7 @@
     },
     "whatsInsideRange": "Tall fra {min} til {max}",
     "whatsInsideTheme": "Bildebrikker med {theme} som barna kan kjenne igjen",
-    "whatsInsideGrade": "Laget for elever på trinn {grade} (omtrent 5 til 9 år)",
+    "whatsInsideGrade": "Laget for elever på trinn {grade} (omtrent {ageRange} år)",
     "whatsInsideStrand": "LK20-område: {strand}",
     "whatsInsideCode": "Følger LK20"
   },

@@ -209,6 +209,10 @@ export async function getActivityContent(
     theme,
     min: range ? String(range.min) : '',
     max: range ? String(range.max) : '',
+    // Digit age span for the whatsInsideGrade template ("5–6" for K etc.),
+    // derived from the same per-grade map JSON-LD typicalAgeRange uses —
+    // replaces the former hard-coded "5 to 9" literal (all grades, all locales).
+    ageRange: (gradeToAgeRange(grade) ?? '5-9').replace('-', '–'),
   };
 
   const byStrandTmpl = file.templates.byStrand[strand] ?? file.templates.generic;

@@ -187,7 +187,7 @@
     },
     "whatsInsideRange": "Getallen van {min} tot {max}",
     "whatsInsideTheme": "Plaatjesfiches met {theme} die kinderen kunnen herkennen",
-    "whatsInsideGrade": "Ontworpen voor leerlingen van groep {grade} (ongeveer 5 tot 9 jaar)",
+    "whatsInsideGrade": "Ontworpen voor leerlingen van groep {grade} (ongeveer {ageRange} jaar)",
     "whatsInsideStrand": "Kerndoelen-domein: {strand}",
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },

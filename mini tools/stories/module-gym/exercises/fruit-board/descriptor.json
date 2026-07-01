@@ -1,0 +1,145 @@
+{
+  "formatVersion": "sep-1",
+  "appType": "grid-match",
+  "family": "F",
+  "sourceBundleVersion": "fixture-hand-authored",
+  "createdAt": "2026-07-01T00:00:00Z",
+  "meta": {
+    "exerciseTypeSlug": "grid-match",
+    "exerciseMode": null,
+    "theme": "fruits",
+    "ageBand": "5-7",
+    "contentLanguage": "en"
+  },
+  "page": {
+    "width": 640,
+    "height": 460
+  },
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 460,
+    "pad": 0
+  },
+  "visual": {
+    "file": "visual@2x.webp",
+    "format": "webp",
+    "scale": 2,
+    "width": 1280,
+    "height": 920
+  },
+  "input": {
+    "policy": "drag"
+  },
+  "elements": {
+    "gridDims": {
+      "rows": 2,
+      "cols": 2
+    },
+    "gridCells": [
+      {
+        "index": 0,
+        "row": 0,
+        "col": 0,
+        "isClue": true,
+        "rect": {
+          "x": 40,
+          "y": 40,
+          "w": 150,
+          "h": 150
+        }
+      },
+      {
+        "index": 1,
+        "row": 0,
+        "col": 1,
+        "isClue": false,
+        "rect": {
+          "x": 210,
+          "y": 40,
+          "w": 150,
+          "h": 150
+        }
+      },
+      {
+        "index": 2,
+        "row": 1,
+        "col": 0,
+        "isClue": false,
+        "rect": {
+          "x": 40,
+          "y": 210,
+          "w": 150,
+          "h": 150
+        }
+      },
+      {
+        "index": 3,
+        "row": 1,
+        "col": 1,
+        "isClue": false,
+        "rect": {
+          "x": 210,
+          "y": 210,
+          "w": 150,
+          "h": 150
+        }
+      }
+    ],
+    "paletteTiles": [
+      {
+        "paletteNumber": 1,
+        "originalCellIndex": 1,
+        "rect": {
+          "x": 460,
+          "y": 20,
+          "w": 130,
+          "h": 130
+        },
+        "revealFile": "assets/reveal-1.webp"
+      },
+      {
+        "paletteNumber": 2,
+        "originalCellIndex": 2,
+        "rect": {
+          "x": 460,
+          "y": 165,
+          "w": 130,
+          "h": 130
+        },
+        "revealFile": "assets/reveal-2.webp"
+      },
+      {
+        "paletteNumber": 3,
+        "originalCellIndex": 3,
+        "rect": {
+          "x": 460,
+          "y": 310,
+          "w": 130,
+          "h": 130
+        },
+        "revealFile": "assets/reveal-3.webp"
+      }
+    ],
+    "solutionLabels": {
+      "1": 1,
+      "2": 2,
+      "3": 3
+    }
+  },
+  "imageRefs": {},
+  "loadingMode": "reference",
+  "locales": {
+    "en": {
+      "prompt": "Drag each fruit to its shadow!",
+      "success": "The board is full!",
+      "tryAgain": "Try again!",
+      "hint": null
+    }
+  },
+  "audio": {
+    "speakPromptOnMount": false,
+    "perElement": null
+  }
+}

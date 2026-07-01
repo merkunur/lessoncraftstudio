@@ -72,18 +72,51 @@ mini tools/stories/<storyId>/
   - `success`: `{ celebration:"burst"|"quiet", sticker?: assetId,
     narrationKey?, holdMs, clip?:{characterId,name} }`.
 
-## 4. The interaction-module palette (grows forever)
+## 4. The interaction-module palette (17 modules; grows forever)
 
-| moduleType | Mechanic | Modes | minZone (du) | taskData |
+Worked examples for every row: `mini tools/stories/pips-picnic/` (the first
+four) and `mini tools/stories/module-gym/` (one page per newer module).
+
+### Wrapped legacy cores (SBLegacyAdapter — hardened engines, 0 core edits)
+
+| moduleType | Thinking type | Modes | minZone (du) | taskData |
 |---|---|---|---|---|
-| `sb-choice-board` | tap the answer tile (image / text / label / count-group) | check | 560×420 | `{targetKey, options:[{key, image\|text\|label\|group:{image,count}}], subject?}` |
-| `sb-sort-bins` | drag shape tiles into labeled bins | auto, check | 680×500 | `{bins:[familyKey], items:[shapeId], seed}` |
-| `sb-find-object` | tap the named objects hidden in the scene | auto | 480×360 | `{find:[keys], targets:[{key, image, rect(zone-relative, ≥112du), word:"@key"}], hideVisuals?}` |
-| `sb-worksheet-exercise` | an embedded worksheet-generator exercise (SEP) | check | 640×520 | `{package: "exercises/<exId>"}` |
+| `sb-choice-board` | tap-the-answer (image / text / label / count-group) | check | 560×420 | `{targetKey, options:[{key, image\|text\|label\|group:{image,count}}], subject?}` |
+| `sb-sort-bins` | classify-and-place (drag shapes to bins) | auto, check | 680×500 | `{bins:[familyKey], items:[shapeId], seed}` |
+| `sb-fractions` | part-whole partition (tap cut lines) | check | 480×420 | `{shape, n:2\|3\|4, cut:'v'\|'h', seed}` |
+| `sb-clock` | time (drag analog hands) | check | 440×420 | `{hour:1-12, minute, minuteStep:30\|5, seed}` — the NARRATION says the target time |
+| `sb-match-pairs` | composition / equivalence (tap two cards) | check | 560×480 | `{template:'make-n'\|'equal-value', target?, cards:[num\|{display,value}]}` — a perfect matching must exist |
+| `sb-number-bond` | part-part-whole (fill the bond) | check | 480×420 | `{whole, given, seed}` or `{mode:'make-ten-to-add', first, second}` (keypad modes rejected) |
+| `sb-cvc-builder` | letter knowledge (tap letters, no typing) | check | 560×460 | `{targetWord, palette:[letters + distractors], subject:{image, alt:'@key', hearItWord?}}` |
+| `sb-word-builder` | syllable construction (tap chunks) | check | 600×460 | `{targetWord, targetTiles:[chunks], palette, subject?, language:'en-US'}` |
+
+### Native modules (zero new art — image library + generated SVG)
+
+| moduleType | Thinking type | Modes | minZone (du) | taskData |
+|---|---|---|---|---|
+| `sb-find-object` | visual search in the scene | auto | 480×360 | `{find:[keys], targets:[{key, image, rect(zone-relative ≥112du), word:'@key'}], hideVisuals?}` |
+| `sb-sequence` | seriation / ordering (tap in order) | auto | 560×360 | `{items:[{key, image\|bar:true\|label:'@k', value}], direction:'asc'\|'desc', sizeByValue?, seed}` |
+| `sb-pattern` | pattern completion (AB/ABC strip) | auto | 560×360 | `{tiles:{key:assetId}, sequence:[key\|null ×1], choices:[keys], answerKey}` |
+| `sb-memory` | working memory (pair flip) | auto | 520×420 | `{pairs:[assetIds ×2-4], cols?, seed}` — mismatches are exploration, never a miss |
+| `sb-listen` | listening comprehension (audio-only prompt) | auto | 520×420 | `{word:'@key', correct, options:[{key,image}]}` — word TEXT appears when muted / after 2 misses |
+| `sb-connect-dots` | numeral order / path-following (tap 1..N) | auto | 520×420 | `{points:[{x,y} zone-relative, ≥120du apart], closePath?, fill?}` — the outline is the reveal |
+| `sb-spot-diff` | visual discrimination (two panels) | auto | 640×400 | `{tiles, grid:{rows,cols}, cells:[keys], diffs:[{index, rightKey\|null} ×1-4]}` |
+| `sb-count-tap` | cardinality / count-out-N | check | 520×420 | `{item:{key,image,word:'@key'}, total:3-10, target:2..total-1, seed}` |
+
+### The bridge
+
+| moduleType | Thinking type | Modes | minZone (du) | taskData |
+|---|---|---|---|---|
+| `sb-worksheet-exercise` | an embedded worksheet-generator exercise (SEP families A, F, E, C) | check | 640×520 | `{package: "exercises/<exId>"}` |
 
 **Tap floor:** interactive rects ≥ **112 design units** (≈44 real px at the
 560px minimum stage). Below 480px stage width the player shows a
-rotate-device hint; portrait phones are degraded-by-design territory.
+rotate-device hint; portrait phones are degraded-by-design territory
+(sub-480 spills/small-taps are QA WARNINGS, not failures).
+
+**Wrapped-core containment:** the adapter scale-to-fits a core's stage into
+the zone automatically (cores authored with viewport-relative sizing can
+never spill a zone) — no per-story tuning needed.
 
 ## 5. Writing a NEW interaction module (copy-the-pattern)
 

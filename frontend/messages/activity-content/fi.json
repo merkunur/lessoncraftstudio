@@ -187,7 +187,7 @@
     },
     "whatsInsideRange": "Luvut {min}–{max}",
     "whatsInsideTheme": "{theme}-aiheisia kuvamerkkejä, jotka lapset tunnistavat",
-    "whatsInsideGrade": "Suunniteltu luokka-asteen {grade} oppijoille (noin 5–9-vuotiaille)",
+    "whatsInsideGrade": "Suunniteltu luokka-asteen {grade} oppijoille (noin {ageRange}-vuotiaille)",
     "whatsInsideStrand": "OPS 2014 -osa-alue: {strand}",
     "whatsInsideCode": "Linjassa OPS 2014:n kanssa"
   },

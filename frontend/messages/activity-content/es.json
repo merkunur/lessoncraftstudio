@@ -187,7 +187,7 @@
     },
     "whatsInsideRange": "Números del {min} al {max}",
     "whatsInsideTheme": "Fichas con imágenes de {theme} que los niños pueden reconocer",
-    "whatsInsideGrade": "Diseñada para estudiantes de {grade}.º grado (de 5 a 9 años aproximadamente)",
+    "whatsInsideGrade": "Diseñada para estudiantes de {grade}.º grado ({ageRange} años aproximadamente)",
     "whatsInsideStrand": "Eje del currículo: {strand}",
     "whatsInsideCode": "Alineada con el currículo oficial"
   },

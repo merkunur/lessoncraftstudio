@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "pim-comma-mail.letter-commas.l-2-2-b": {
+      "about": [
+        "Pim, die Taube, bringt einen Brief – aber wie fängt er richtig an? Dein Kind liest drei Möglichkeiten, wie die Anrede geschrieben sein könnte, und tippt die Zeile an, bei der das Komma an der richtigen Stelle steht.",
+        "Die große Idee: Beim Briefeschreiben gehört ein Komma nach der Anrede – „Liebe Oma,“ –, aber die Grußformel am Ende bekommt kein Komma – „Viele Grüße“. Genau dieses Gespür für das Komma im Brief übt dein Kind hier Schritt für Schritt.",
+        "Alles ist kostenlos und ohne Zeitdruck – kein Countdown, keine Punkte, nur ruhiges Ausprobieren. So passt die Übung gut zum Bereich „Richtig schreiben“ im Lehrplan der Grundschule und macht Lust aufs eigene Briefeschreiben."
+      ],
+      "practices": [
+        "Das Komma nach der Anrede richtig setzen („Liebe Oma,“)",
+        "Erkennen, dass die Grußformel am Ende kein Komma braucht („Viele Grüße“)",
+        "Anrede und Gruß in einem Brief unterscheiden",
+        "Genau hinschauen und Schreibweisen aufmerksam vergleichen"
+      ],
+      "howToPlay": [
+        "Pim zeigt dir eine Anrede in drei Schreibweisen.",
+        "Lies alle drei Zeilen in Ruhe durch und achte auf das Komma.",
+        "Tippe die Zeile an, bei der das Komma richtig gesetzt ist."
+      ],
+      "learningGoals": [
+        "Dein Kind setzt das Komma nach der Anrede im Brief sicher.",
+        "Dein Kind weiß, dass die Grußformel am Ende ohne Komma steht.",
+        "Dein Kind schaut beim Schreiben genauer hin und prüft seine Zeichensetzung."
+      ]
+    },
     "compound-meaning.predict.l-2-4-d": {
       "about": [
         "In Skips Wortwerkstatt setzt ein freches Eichhörnchen zwei Wort-Bausteine zu einem neuen Wort zusammen. Dein Kind sieht beide Teile als Bild – zum Beispiel eine Hand und einen Schuh – und überlegt dann in Ruhe: Was bedeutet wohl ein „Handschuh“? Es liest die zwei Teile, schaut sich das zusammengesetzte Wort an und wählt die passende Bedeutung aus.",

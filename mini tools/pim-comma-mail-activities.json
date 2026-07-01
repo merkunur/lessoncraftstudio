@@ -30,12 +30,43 @@
         { "id": "yourstruly", "band": 3, "kind": "closing", "forms": [
           { "text": "Yours truly" }, { "text": "Yours truly,", "ok": true }, { "text": "Yours, truly" }
         ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "oma", "band": 1, "kind": "greeting", "forms": [
+            { "text": "Liebe Oma,", "ok": true }, { "text": "Liebe Oma" }, { "text": "Liebe, Oma" }
+          ] },
+          { "id": "papa", "band": 1, "kind": "greeting", "forms": [
+            { "text": "Lieber Papa" }, { "text": "Lieber Papa,", "ok": true }, { "text": "Lieber, Papa" }
+          ] },
+          { "id": "mama", "band": 1, "kind": "greeting", "forms": [
+            { "text": "Liebe, Mama" }, { "text": "Liebe Mama" }, { "text": "Liebe Mama,", "ok": true }
+          ] },
+          { "id": "opa", "band": 1, "kind": "greeting", "forms": [
+            { "text": "Lieber Opa" }, { "text": "Lieber Opa,", "ok": true }, { "text": "Lieber, Opa" }
+          ] },
+          { "id": "anna", "band": 2, "kind": "greeting", "forms": [
+            { "text": "Liebe Anna,", "ok": true }, { "text": "Liebe, Anna" }, { "text": "Liebe Anna" }
+          ] },
+          { "id": "ben", "band": 2, "kind": "greeting", "forms": [
+            { "text": "Hallo, Ben" }, { "text": "Hallo Ben,", "ok": true }, { "text": "Hallo Ben" }
+          ] },
+          { "id": "tantemia", "band": 2, "kind": "greeting", "forms": [
+            { "text": "Liebe Tante Mia,", "ok": true }, { "text": "Liebe Tante Mia" }, { "text": "Liebe, Tante Mia" }
+          ] },
+          { "id": "herrfuchs", "band": 3, "kind": "greeting", "forms": [
+            { "text": "Lieber Herr Fuchs" }, { "text": "Lieber, Herr Fuchs" }, { "text": "Lieber Herr Fuchs,", "ok": true }
+          ] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "pim-comma-mail" },
-    "page_title": { "en": "Pim's Comma Mail — Commas in Greetings & Closings (Grade 2)" },
-    "page_intro": { "en": "Pim the carrier pigeon delivers letters all day — but a letter needs its commas in the right spot! The greeting (Dear Sam,) and the closing (Your friend,) each end with a comma. Read the three choices and tap the one that is punctuated correctly. A Grade 2 grammar game about commas in the greeting and closing of a letter, aligned to Common Core L.2.2.b." },
+    "slug": { "en": "pim-comma-mail", "de": "komma-im-brief-anrede-ueben-klasse-3" },
+    "page_title": { "en": "Pim's Comma Mail — Commas in Greetings & Closings (Grade 2)", "de": "Komma im Brief mit Pim üben – Klasse 3" },
+    "page_intro": {
+      "en": "Pim the carrier pigeon delivers letters all day — but a letter needs its commas in the right spot! The greeting (Dear Sam,) and the closing (Your friend,) each end with a comma. Read the three choices and tap the one that is punctuated correctly. A Grade 2 grammar game about commas in the greeting and closing of a letter, aligned to Common Core L.2.2.b.",
+      "de": "Übe kostenlos & interaktiv das Komma im Brief: Wo steht das Komma nach der Anrede – und wo nicht? Ein Brief-Spiel für Klasse 3 mit Pim, der Taube."
+    },
     "kid_prompt_template": "Tap the greeting or closing that has its comma in the right place."
   }
 ]

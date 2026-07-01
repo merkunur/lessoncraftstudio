@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "point-of-view.who-told.rl-1-6": {
+      "about": [
+        "Hoch oben im Leuchtturm wohnt Lumen, die Eule. In den Fenstern des Turms sitzen kleine Tiere – manche ganz oben unter den Wolken, manche unten dicht am Wasser. Dein Kind liest eine Zeile wie „Das Boot war nur ein winziger Punkt, weit weg.“ und tippt dann das Fenster mit dem Tier an, aus dessen Blick die Zeile erzählt wird.",
+        "Wer weit oben sitzt, sieht alles winzig und weit entfernt; wer unten am Wasser hockt, sieht dieselben Dinge riesig und ganz nah. Genau das verrät die Zeile: An den Wörtern erkennt dein Kind, von welchem Standpunkt aus erzählt wird – aus wessen Sicht die Geschichte gerade geschaut wird. So wird die abstrakte Idee der Erzählperspektive zu etwas, das man buchstäblich sehen kann.",
+        "Es gibt keine Zeit, keine Punkte und keinen Druck – dein Kind kann in Ruhe lesen, ausprobieren und jederzeit noch einmal von vorn beginnen. Die Aufgabe gehört zum Lehrplan-Bereich „Literarische Texte verstehen“ und übt einen ersten, ganz konkreten Blick auf Standpunkt und Perspektive in Geschichten."
+      ],
+      "practices": [
+        "Aus wessen Sicht wird erzählt?",
+        "Hinweiswörter wie „winzig“, „weit weg“, „riesig“ oder „ganz nah“ deuten",
+        "Den Standpunkt und Blickwinkel einer Figur erkennen",
+        "Genau lesen und aufmerksam auf Details achten"
+      ],
+      "howToPlay": [
+        "Lies die Zeile im Leuchtturm – laut oder leise.",
+        "Überlege: Sieht diese Figur alles winzig und weit – oder riesig und nah?",
+        "Tippe das Fenster mit dem passenden Tier an."
+      ],
+      "learningGoals": [
+        "Dein Kind erkennt, aus wessen Sicht eine Zeile erzählt wird.",
+        "Dein Kind verbindet Beschreibungen wie „winzig und weit weg“ mit einem hohen oder niedrigen Standpunkt.",
+        "Dein Kind sammelt erste Erfahrungen mit Erzählperspektive und Blickwinkel in literarischen Texten."
+      ]
+    },
     "pim-comma-mail.letter-commas.l-2-2-b": {
       "about": [
         "Pim, die Taube, bringt einen Brief – aber wie fängt er richtig an? Dein Kind liest drei Möglichkeiten, wie die Anrede geschrieben sein könnte, und tippt die Zeile an, bei der das Komma an der richtigen Stelle steht.",

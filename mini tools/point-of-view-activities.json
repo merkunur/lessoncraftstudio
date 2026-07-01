@@ -25,16 +25,41 @@
           "chars": [ {"id":"a","name":"Bru","glyph":"friend","pos":"high"}, {"id":"b","name":"Gull","glyph":"bird","pos":"mid"}, {"id":"c","name":"Hop","glyph":"bunny","pos":"low"} ] },
         { "id": "pv-ship",  "event": "A big ship crossed the sea.", "line": "The ship was so small, way out far.", "view": "high",
           "chars": [ {"id":"a","name":"Mim","glyph":"mouse","pos":"high"}, {"id":"b","name":"Hop","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Gull","glyph":"bird","pos":"low"} ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "pv-boat",  "event": "Ein rotes Boot fuhr in den Hafen.", "line": "Das Boot war nur ein winziger Punkt, weit weg.", "view": "high",
+            "chars": [ {"id":"a","name":"Pip","glyph":"bird","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Ben","glyph":"friend","pos":"low"} ] },
+          { "id": "pv-wave",  "event": "Eine große Welle rollte heran.", "line": "Die Welle spritzte direkt über mich!", "view": "low",
+            "chars": [ {"id":"a","name":"Ben","glyph":"friend","pos":"high"}, {"id":"b","name":"Hoppel","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Mimi","glyph":"mouse","pos":"low"} ] },
+          { "id": "pv-fish",  "event": "Ein Fisch sprang in der Bucht.", "line": "Der Fisch war nur ein winziger Fleck, tief unten.", "view": "high",
+            "chars": [ {"id":"a","name":"Mimi","glyph":"mouse","pos":"high"}, {"id":"b","name":"Ben","glyph":"friend","pos":"mid"}, {"id":"c","name":"Pip","glyph":"bird","pos":"low"} ] },
+          { "id": "pv-gull",  "event": "Eine Möwe flog vorbei.", "line": "Sie sauste direkt an meiner Nase vorbei!", "view": "low",
+            "chars": [ {"id":"a","name":"Pip","glyph":"bird","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Hoppel","glyph":"bunny","pos":"low"} ] },
+          { "id": "pv-town",  "event": "Nachts leuchtete die ganze Stadt.", "line": "Ich sah die ganze Stadt, winzig klein, tief unten.", "view": "high",
+            "chars": [ {"id":"a","name":"Ben","glyph":"friend","pos":"high"}, {"id":"b","name":"Pip","glyph":"bird","pos":"mid"}, {"id":"c","name":"Mimi","glyph":"mouse","pos":"low"} ] },
+          { "id": "pv-crab",  "event": "Eine Krabbe krabbelte vorbei.", "line": "Die Krabbe war riesig, direkt neben mir.", "view": "low",
+            "chars": [ {"id":"a","name":"Hoppel","glyph":"bunny","pos":"high"}, {"id":"b","name":"Ben","glyph":"friend","pos":"mid"}, {"id":"c","name":"Pip","glyph":"bird","pos":"low"} ] },
+          { "id": "pv-sail",  "event": "Ein Segelboot flitzte vorbei.", "line": "Das Segelboot war winzig klein, weit weg.", "view": "high",
+            "chars": [ {"id":"a","name":"Hoppel","glyph":"bunny","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Ben","glyph":"friend","pos":"low"} ] },
+          { "id": "pv-jelly", "event": "Eine Qualle trieb vorbei.", "line": "Die Qualle war direkt unter mir, groß und ganz nah.", "view": "low",
+            "chars": [ {"id":"a","name":"Ben","glyph":"friend","pos":"high"}, {"id":"b","name":"Pip","glyph":"bird","pos":"mid"}, {"id":"c","name":"Hoppel","glyph":"bunny","pos":"low"} ] },
+          { "id": "pv-ship",  "event": "Ein großes Schiff fuhr über das Meer.", "line": "Das Schiff war so klein, ganz weit draußen.", "view": "high",
+            "chars": [ {"id":"a","name":"Mimi","glyph":"mouse","pos":"high"}, {"id":"b","name":"Hoppel","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Pip","glyph":"bird","pos":"low"} ] }
+        ]
+      }
     },
     "slug": {
-      "en": "point-of-view-who-is-telling"
+      "en": "point-of-view-who-is-telling",
+      "de": "aus-wessen-sicht-erzaehlperspektive-erkennen-klasse-2"
     },
     "page_title": {
-      "en": "Lumen's Lighthouse Windows — Point of View (Grade 1)"
+      "en": "Lumen's Lighthouse Windows — Point of View (Grade 1)",
+      "de": "Aus wessen Sicht? Erzählperspektive erkennen"
     },
     "page_intro": {
-      "en": "A free interactive Grade 1 reading activity: help Lumen the owl figure out who is telling the story. Each creature watches the harbor from a window at a different height — high up, things look tiny and far; down low, they look big and close. Read what the storyteller saw, then tap the window it was told from. A friendly first look at point of view. Common Core RL.1.6."
+      "en": "A free interactive Grade 1 reading activity: help Lumen the owl figure out who is telling the story. Each creature watches the harbor from a window at a different height — high up, things look tiny and far; down low, they look big and close. Read what the storyteller saw, then tap the window it was told from. A friendly first look at point of view. Common Core RL.1.6.",
+      "de": "Lies die Zeile, tippe das richtige Fenster & entdecke, aus wessen Sicht erzählt wird – ein kostenloses, interaktives Leseabenteuer für Klasse 2."
     },
     "kid_prompt_template": "point-of-view"
   }

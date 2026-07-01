@@ -70,3 +70,22 @@ For every edit to a `mini tools/` file:
 - **Same serving model**: Next.js statically serves anything under `frontend/public/` (no Next.js route, no SSR).
 - **Same edit cadence**: local sync, push, server pull, manual cp.
 - **Same embed surface**: served from a stable predictable URL; iframes work out of the box.
+
+## Storybook stories (added 2026-07-01)
+
+Stories add ONE nested subtree to the mini-tools flow:
+
+- **In git:** `mini tools/stories/<id>/{story.json, strings.json, manifest.json}` +
+  the pilot's generated placeholder atlases/scenes/exercises. master-sync
+  STEP 4 now copies the `stories/` subtree recursively.
+- **Server-only binaries** (real art, narration mp3s — like the image
+  library): pscp the whole story folder to
+  `/var/www/lcs-media/mini-tools/stories/<id>/` BEFORE `deploy.sh` builds
+  (the §20.4 cp-before-build rule):
+  `pscp -r -pw <pw> "mini tools\stories\<id>" root@65.108.5.250:/var/www/lcs-media/mini-tools/stories/`
+- Everything under `/mini-tools/` inherits the middleware carve-out — atlas
+  `.json` and narration `.mp3` serve untouched, no config changes.
+- Vendored runtime: `vendor-pixi.min.js` (PixiJS 7.4.3 legacy UMD, pinned)
+  ships like any other mini-tools JS file.
+- QA before deploy: `node scripts/storybook/validate-story.js <id>` +
+  `node scripts/storybook/qa-storybook.js --story=<id>` (both must be green).

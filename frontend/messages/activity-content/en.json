@@ -4653,6 +4653,29 @@
         "Recognize that each item in a list of three or more needs a comma before the last one.",
         "Build the punctuation awareness that clearer writing depends on."
       ]
+    },
+    "storybook.pips-picnic": {
+      "about": [
+        "Pip’s Picnic is an interactive storybook for ages 4–6: a short, narrated picnic adventure where every page wraps one hands-on task. Pip the fox asks for help packing apples, finding things the wind blew away, spelling a new friend’s name, setting the picnic blanket, and sorting shape cookies — and the story only moves forward when the child solves the page. It plays free in the browser with no sign-up.",
+        "Each page is a different kind of thinking: counting a small set (tap the basket with three apples), visual search (find the apple and the boots in the meadow), letter knowledge (tap letters to spell CAT — no keyboard typing needed), matching (drag each fruit onto its pale shadow), and sorting flat shapes by their number of sides. A friendly voice reads every line aloud, and a speaker button repeats the instructions as often as the child likes, so pre-readers can play independently.",
+        "The counting page practices Common Core K.CC.B.4 — understanding that the last number counted tells how many — and the closing sort touches early geometry ideas. Feedback is warm and pressure-free: a wrong tap simply invites another try, there are no timers or scores, and finishing the story earns a small picnic-basket keepsake."
+      ],
+      "practices": [
+        "Count small groups and connect the count to “how many”",
+        "Search a scene systematically and name everyday objects",
+        "Build a word letter by letter by its sounds",
+        "Match and sort by shape — triangles versus four-sided shapes"
+      ],
+      "howToPlay": [
+        "Listen to Pip — the speaker button repeats the instructions any time.",
+        "Solve the page: tap, drag, or spell what Pip asks for, then press Check when the page shows a Check button.",
+        "Watch the story move to the next page, collect stickers along the way, and finish the picnic to earn the keepsake."
+      ],
+      "learningGoals": [
+        "Count sets of 2–5 objects and pick the set that matches a spoken number",
+        "Recognize and name common objects and their beginning letters",
+        "Sort flat shapes by a defining attribute (number of sides)"
+      ]
     }
   }
 }

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "storybook.pips-picnic",
+    "tool": "storybook",
+    "task_template": "storybook",
+    "alignment": { "framework": "CCSS", "code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality" },
+    "params": { "story": "pips-picnic", "pages": 5 },
+    "theme": "fruits",
+    "slug": { "en": "pips-picnic-interactive-storybook" },
+    "page_title": { "en": "Pip's Picnic — Interactive Storybook for Kindergarten" },
+    "page_intro": { "en": "Join Pip the fox on a picnic adventure! An interactive storybook where every page holds a hands-on task: count the apples, find hidden objects, spell a word, match fruit, and sort shape cookies. Narrated, tap-friendly, and made for ages 4-6." },
+    "kid_prompt_template": "storybook"
+  }
+]

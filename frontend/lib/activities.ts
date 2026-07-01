@@ -179,6 +179,7 @@ const MANIFEST_FILES = [
   'cleo-packing-list-activities.json',
   'penny-alphabet-trace-activities.json',
   'digby-number-trace-activities.json',
+  'storybook-activities.json',
   // future: 'number-line-activities.json', 'ruler-activities.json', …
 ];
 

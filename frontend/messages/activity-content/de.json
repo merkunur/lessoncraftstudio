@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "wobble-museum.catch-drift.w-k-2": {
+      "about": [
+        "Bram, die Elster, sammelt für ihr kleines Museum alles, was glänzt – vor allem aber gute Sätze. In jedem Raum geht es um genau ein Thema, und ein Schild verrät welches: „Thema: Frösche“. Darunter hängen vier kurze, wahre Sätze. Doch ein Satz ist aus einem anderen Raum „hereingewandert“: Er stimmt zwar, gehört aber nicht hierher. Steht im Froschraum plötzlich „Teiche sind kalt.“, dann merkt dein Kind: Dieser Satz handelt vom Teich, nicht vom Frosch – und tippt ihn an.",
+        "Dahinter steckt eine der wichtigsten Schreibfähigkeiten: beim Thema bleiben. Ein guter Sachtext handelt von einem Thema, und alle Sätze ziehen an einem Strang. Der hereingewanderte Satz ist eine besonders lehrreiche Falle, denn er ist wahr – falsch ist nur, dass er hier nicht hingehört. So lernt dein Kind, nicht bloß auf „richtig oder falsch“ zu achten, sondern zu fragen: „Worum geht es in diesem Text eigentlich?“ Genau dieser Blick ist die Grundlage dafür, später selbst einen Text zu schreiben, der beim Thema bleibt.",
+        "Die Aktivität ist kostenlos und ganz ohne Stress: keine Zeit, keine Punkte, kein Verlieren. Wer noch nicht sicher liest, tippt einfach auf den „🔊 Vorlesen“-Knopf und lässt sich den ganzen Raum vorlesen. So können auch die Jüngsten mitmachen und in Ruhe überlegen. Die Aufgabe passt zum Lehrplan-Bereich „Texte verfassen“ und bereitet spielerisch das eigene, themenbezogene Schreiben vor."
+      ],
+      "practices": [
+        "Beim Thema bleiben und Textfokus erkennen",
+        "Herausfinden, worum es in einem Text geht",
+        "Sätze einem gemeinsamen Thema zuordnen",
+        "Genau lesen und zuhören – erste Schritte zum Schreiben"
+      ],
+      "howToPlay": [
+        "Lies das Themenschild und dann die vier Sätze im Raum (oder tippe auf „🔊 Vorlesen“).",
+        "Überlege: Welcher Satz gehört zu einem anderen Thema?",
+        "Tippe den Satz an, der hier nicht hingehört – fertig!"
+      ],
+      "learningGoals": [
+        "Dein Kind erkennt, worum es in einem Text geht, und bleibt beim Thema.",
+        "Dein Kind unterscheidet, welche Sätze zusammengehören und welcher hereingewandert ist.",
+        "Dein Kind sammelt erste Erfahrungen fürs eigene, themenbezogene Schreiben."
+      ]
+    },
     "point-of-view.who-told.rl-1-6": {
       "about": [
         "Hoch oben im Leuchtturm wohnt Lumen, die Eule. In den Fenstern des Turms sitzen kleine Tiere – manche ganz oben unter den Wolken, manche unten dicht am Wasser. Dein Kind liest eine Zeile wie „Das Boot war nur ein winziger Punkt, weit weg.“ und tippt dann das Fenster mit dem Tier an, aus dessen Blick die Zeile erzählt wird.",

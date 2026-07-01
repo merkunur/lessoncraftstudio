@@ -141,6 +141,12 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     en: 'Reading: Literature',
     de: 'Literarische Texte verstehen',
   },
+  // Writing (composing texts). KMK Bereich „Texte verfassen"; opens the Writing
+  // strand — the platform's first W activity (wobble-museum, beim Thema bleiben).
+  'Writing': {
+    en: 'Writing',
+    de: 'Texte verfassen',
+  },
   // Phonological Awareness (pre-reading sound awareness; literacy). No deployed
   // activity uses this strand yet (forward-looking); all 11 locales curriculum-reviewed.
   'Phonological Awareness': {

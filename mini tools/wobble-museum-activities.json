@@ -55,16 +55,71 @@
           { "text": "Apples are healthy.", "about": "food" },
           { "text": "Our heart beats fast.", "about": "the body" }
         ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "wm-frogs", "topic": "Frösche", "topicWord": "frösch", "sentences": [
+            { "text": "Frösche hüpfen.", "about": "Frösche" },
+            { "text": "Sie fressen Insekten.", "about": "Frösche" },
+            { "text": "Frösche leben im Teich.", "about": "Frösche" },
+            { "text": "Teiche sind kalt.", "about": "Teiche" }
+          ] },
+          { "id": "wm-moon", "topic": "Mond", "topicWord": "mond", "sentences": [
+            { "text": "Der Mond ist rund.", "about": "Mond" },
+            { "text": "Er leuchtet nachts.", "about": "Mond" },
+            { "text": "Der Mond hat Krater.", "about": "Mond" },
+            { "text": "Sterne leuchten auch.", "about": "Sterne" }
+          ] },
+          { "id": "wm-trucks", "topic": "Feuerwehrautos", "topicWord": "feuerwehr", "sentences": [
+            { "text": "Feuerwehrautos sind rot.", "about": "Feuerwehrautos" },
+            { "text": "Sie haben eine laute Sirene.", "about": "Feuerwehrautos" },
+            { "text": "Sie tragen lange Schläuche.", "about": "Feuerwehrautos" },
+            { "text": "Stoppschilder sind rot.", "about": "Stoppschilder" }
+          ] },
+          { "id": "wm-rain", "topic": "Regen", "topicWord": "regen", "sentences": [
+            { "text": "Regen fällt aus Wolken.", "about": "Regen" },
+            { "text": "Er macht Pfützen.", "about": "Regen" },
+            { "text": "Regen hilft den Pflanzen.", "about": "Regen" },
+            { "text": "Pflanzen sind grün.", "about": "Pflanzen" }
+          ] },
+          { "id": "wm-dogs", "topic": "Hunde", "topicWord": "hund", "sentences": [
+            { "text": "Hunde bellen.", "about": "Hunde" },
+            { "text": "Sie wedeln mit dem Schwanz.", "about": "Hunde" },
+            { "text": "Hunde holen den Ball.", "about": "Hunde" },
+            { "text": "Katzen haben einen Schwanz.", "about": "Katzen" }
+          ] },
+          { "id": "wm-bees", "topic": "Bienen", "topicWord": "biene", "sentences": [
+            { "text": "Bienen summen.", "about": "Bienen" },
+            { "text": "Bienen leben im Bienenstock.", "about": "Bienen" },
+            { "text": "Sie machen Honig.", "about": "Bienen" },
+            { "text": "Ameisen leben in der Erde.", "about": "Ameisen" }
+          ] },
+          { "id": "wm-trees", "topic": "Bäume", "topicWord": "bäum", "sentences": [
+            { "text": "Bäume haben Blätter.", "about": "Bäume" },
+            { "text": "Sie werden sehr hoch.", "about": "Bäume" },
+            { "text": "Vögel nisten in Bäumen.", "about": "Bäume" },
+            { "text": "Vögel können fliegen.", "about": "Vögel" }
+          ] },
+          { "id": "wm-body", "topic": "Körper", "topicWord": "körper", "sentences": [
+            { "text": "Unser Körper hat Knochen.", "about": "Körper" },
+            { "text": "Wir haben zwei Hände.", "about": "Körper" },
+            { "text": "Unser Herz schlägt schnell.", "about": "Körper" },
+            { "text": "Äpfel sind gesund.", "about": "Äpfel" }
+          ] }
+        ]
+      }
     },
     "slug": {
-      "en": "informative-writing-topic-focus"
+      "en": "informative-writing-topic-focus",
+      "de": "beim-thema-bleiben-welcher-satz-passt-nicht-klasse-2"
     },
     "page_title": {
-      "en": "The Wobble Museum — Stick to the Topic (Kindergarten Writing)"
+      "en": "The Wobble Museum — Stick to the Topic (Kindergarten Writing)",
+      "de": "Beim Thema bleiben: Welcher Satz passt nicht? Klasse 2"
     },
     "page_intro": {
-      "en": "A free interactive Kindergarten writing activity: each room in Bram the magpie's museum is all about ONE thing, but a label keeps wandering in from another room. Read the room, then tap the fact that does not belong — it is true, but it is about something else. A friendly first look at keeping an All-About book on topic. Common Core W.K.2."
+      "en": "A free interactive Kindergarten writing activity: each room in Bram the magpie's museum is all about ONE thing, but a label keeps wandering in from another room. Read the room, then tap the fact that does not belong — it is true, but it is about something else. A friendly first look at keeping an All-About book on topic. Common Core W.K.2.",
+      "de": "Beim Thema bleiben leicht gemacht: Dein Kind findet den Satz, der nicht zum Thema passt – kostenlos & interaktiv für die Klasse 2."
     },
     "kid_prompt_template": "wobble-museum"
   }

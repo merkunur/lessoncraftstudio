@@ -17,6 +17,7 @@
   'use strict';
 
   var Core = global.WobbleMuseumCore;
+  var LANG = 'en';
 
   var L = {
     en: {
@@ -25,9 +26,16 @@
       win: 'Yes! That is true — but it is a {about} fact. It wandered in!',
       hear: '🔊 Hear',
       nudge: 'That one IS about {topic} — it belongs here! Find the label that wandered in.'
+    },
+    de: {
+      q: 'Welcher Satz passt nicht zum Thema?',
+      sign: 'Thema: {topic}',
+      win: 'Richtig! Der Satz stimmt zwar, aber er gehört zum Thema {about}. Er ist hier reingewandert!',
+      hear: '🔊 Vorlesen',
+      nudge: 'Der Satz gehört zum Thema {topic} – er passt hierher. Suche den Satz, der reingewandert ist!'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   function bramSVG() {
@@ -47,13 +55,14 @@
   var WobbleMuseumActivity = {
     id: 'wobble-museum-activity',
     strings: {
-      title: { en: 'The Wobble Museum' },
-      instruction: { en: 'Every room is about ONE thing. Tap the fact that wandered in!' },
+      title: { en: 'The Wobble Museum', de: 'Brams Themen-Museum' },
+      instruction: { en: 'Every room is about ONE thing. Tap the fact that wandered in!', de: 'In jedem Raum geht es um EIN Thema. Ein Satz ist reingewandert und passt nicht dazu. Tippe ihn an!' },
       q: { en: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._lit = -1; this._lineOrder = null;
@@ -98,7 +107,7 @@
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
             self._activityRow = row;
-            self._pool = (row && row.params && row.params.rounds) || [];
+            self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -164,7 +173,7 @@
       var hear = el('button', 'wm-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
         var t = txt('sign', { topic: round.topic }) + ' ' + (round.sentences || []).map(function (x) { return x.text; }).join(' ');
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: 'en', rate: 0.92 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.92 }); } catch (e) { } }
       });
       say.append(br, msg, hear); root.appendChild(say); this._bram = br;
 

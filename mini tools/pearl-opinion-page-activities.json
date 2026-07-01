@@ -70,12 +70,89 @@
             { "id": "o3", "kind": "restate", "text": "Children should always help with the dishes." }
           ]
         }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          {
+            "id": "park", "band": 1, "point": "Unsere Stadt sollte einen neuen Park bauen.",
+            "options": [
+              { "id": "o1", "kind": "reason", "text": "Kinder haben keinen sicheren Platz zum Spielen." },
+              { "id": "o2", "kind": "restate", "text": "Unsere Stadt braucht wirklich einen neuen Park." },
+              { "id": "o3", "kind": "offtopic", "text": "Die Bücherei schließt um fünf Uhr." }
+            ]
+          },
+          {
+            "id": "helmet", "band": 1, "point": "Beim Radfahren sollte man einen Helm tragen.",
+            "options": [
+              { "id": "o1", "kind": "restate", "text": "Man sollte beim Radfahren immer einen Helm tragen." },
+              { "id": "o2", "kind": "reason", "text": "Er schützt den Kopf bei einem Sturz." },
+              { "id": "o3", "kind": "offtopic", "text": "Rote Fahrräder sehen am schönsten aus." }
+            ]
+          },
+          {
+            "id": "read", "band": 1, "point": "Kinder sollten jeden Tag zwanzig Minuten lesen.",
+            "options": [
+              { "id": "o1", "kind": "restate", "text": "Kinder sollten jeden Tag ganz viel lesen." },
+              { "id": "o2", "kind": "offtopic", "text": "Die Mathestunde ist gleich nach dem Essen." },
+              { "id": "o3", "kind": "reason", "text": "Davon wird der Kopf richtig schlau." }
+            ]
+          },
+          {
+            "id": "garden", "band": 2, "point": "Unsere Klasse sollte einen Garten anlegen.",
+            "options": [
+              { "id": "o1", "kind": "reason", "text": "Pflanzen schenken uns frisches Gemüse." },
+              { "id": "o2", "kind": "offtopic", "text": "Die Schulglocke klingelt um drei Uhr." },
+              { "id": "o3", "kind": "restate", "text": "Unsere Klasse sollte einen großen Garten pflanzen." }
+            ]
+          },
+          {
+            "id": "water", "band": 2, "point": "Kinder sollten eine Trinkflasche mit zur Schule bringen.",
+            "options": [
+              { "id": "o1", "kind": "offtopic", "text": "Schulbusse sind meistens ganz gelb angemalt." },
+              { "id": "o2", "kind": "reason", "text": "Wasser hält dich gesund und wach." },
+              { "id": "o3", "kind": "restate", "text": "Kinder sollten jeden Tag eine Trinkflasche mitbringen." }
+            ]
+          },
+          {
+            "id": "lights", "band": 2, "point": "Wir sollten das Licht immer ausschalten.",
+            "options": [
+              { "id": "o1", "kind": "restate", "text": "Wir sollten das Licht öfter ausmachen." },
+              { "id": "o2", "kind": "offtopic", "text": "Freitags gibt es Pizza in der Schule." },
+              { "id": "o3", "kind": "reason", "text": "Das ist gut für unsere ganze Erde." }
+            ]
+          },
+          {
+            "id": "dogs", "band": 3, "point": "Ein Hund sollte jeden Tag Gassi gehen.",
+            "options": [
+              { "id": "o1", "kind": "reason", "text": "So bleibt ein Tier froh und fit." },
+              { "id": "o2", "kind": "restate", "text": "Ein Hund sollte echt jeden Tag Gassi gehen." },
+              { "id": "o3", "kind": "offtopic", "text": "Katzen schlafen gern in der Sonne." }
+            ]
+          },
+          {
+            "id": "dishes", "band": 3, "point": "Kinder sollten beim Abwaschen helfen.",
+            "options": [
+              { "id": "o1", "kind": "offtopic", "text": "Löffel sind kleiner als Gabeln." },
+              { "id": "o2", "kind": "reason", "text": "So lernt man, für sein Zuhause zu sorgen." },
+              { "id": "o3", "kind": "restate", "text": "Kinder sollten immer beim Abwaschen helfen." }
+            ]
+          }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "pearls-opinion-page" },
-    "page_title": { "en": "Pearl's Opinion Page — Back It Up (Grade 2)" },
-    "page_intro": { "en": "Pearl the seal writes the opinion page, and every column makes a POINT — \"Our town should build a new park.\" Your job: tap the card that BACKS IT UP with a real reason, not a card that just says the same thing again or talks about something else. A warm Grade 2 reading game about how reasons support an author's point, aligned to Common Core RI.2.8." },
+    "slug": {
+      "en": "pearls-opinion-page",
+      "de": "behauptung-und-begruendung-den-passenden-grund-finden-klasse-3"
+    },
+    "page_title": {
+      "en": "Pearl's Opinion Page — Back It Up (Grade 2)",
+      "de": "Behauptung begründen: den passenden Grund finden – Klasse 3"
+    },
+    "page_intro": {
+      "en": "Pearl the seal writes the opinion page, and every column makes a POINT — \"Our town should build a new park.\" Your job: tap the card that BACKS IT UP with a real reason, not a card that just says the same thing again or talks about something else. A warm Grade 2 reading game about how reasons support an author's point, aligned to Common Core RI.2.8.",
+      "de": "Meinung begründen leicht gemacht: Finde mit Pearl den echten Grund, der eine Behauptung stützt – nicht nur die Wiederholung. Kostenlos & interaktiv, Klasse 3. Jetzt üben!"
+    },
     "kid_prompt_template": "pearl-opinion-page"
   }
 ]

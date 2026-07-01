@@ -15,12 +15,13 @@
   'use strict';
 
   var Core = global.ReasonSupportCore;
+  var LANG = 'en';
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A' };
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -28,7 +29,7 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M40 46 q3 -4 6 0 M54 46 q3 -4 6 0" stroke="#2A2A35" stroke-width="2.4" fill="none" stroke-linecap="round"/>'
       : '<circle cx="43" cy="47" r="2.8" fill="#2A2A35"/><circle cx="57" cy="47" r="2.8" fill="#2A2A35"/>';
-    return '<svg class="pop-seal-svg" viewBox="0 0 100 100" role="img" aria-label="Pearl the seal">' +
+    return '<svg class="pop-seal-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Pearl, die Robbe' : 'Pearl the seal') + '">' +
       '<ellipse cx="50" cy="58" rx="28" ry="26" fill="#8FA3B0"/>' +
       '<ellipse cx="24" cy="74" rx="9" ry="5" fill="#7B8E9B" transform="rotate(20 24 74)"/>' +   /* flipper */
       '<ellipse cx="76" cy="74" rx="9" ry="5" fill="#7B8E9B" transform="rotate(-20 76 74)"/>' +
@@ -43,19 +44,20 @@
     id: 'pearl-opinion-page-activity',
 
     strings: {
-      title: { en: "Pearl's Opinion Page" },
-      prompt: { en: 'Which reason backs up the point?' },
-      pearlIntro: { en: 'I made a point! Which card backs it up?' },
-      thePoint: { en: 'POINT:' },
-      theAsk: { en: 'Which reason backs it up?' },
-      hintPick: { en: 'Tap the reason that backs up the point!' },
-      hintWrong: { en: "That doesn't back it up — read the point again." },
-      win: { en: 'Yes! That reason backs up the point. 📰' }
+      title: { en: "Pearl's Opinion Page", de: 'Pearls Meinungsseite' },
+      prompt: { en: 'Which reason backs up the point?', de: 'Welcher Grund stützt die Meinung?' },
+      pearlIntro: { en: 'I made a point! Which card backs it up?', de: 'Ich habe eine Meinung! Welche Karte stützt sie?' },
+      thePoint: { en: 'POINT:', de: 'MEINUNG:' },
+      theAsk: { en: 'Which reason backs it up?', de: 'Welcher Grund stützt sie?' },
+      hintPick: { en: 'Tap the reason that backs up the point!', de: 'Tippe auf den Grund, der die Meinung stützt!' },
+      hintWrong: { en: "That doesn't back it up — read the point again.", de: 'Das stützt sie nicht – lies die Meinung noch einmal.' },
+      win: { en: 'Yes! That reason backs up the point. 📰', de: 'Ja! Dieser Grund stützt die Meinung. 📰' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._opts = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -83,7 +85,7 @@
       var pt = api.el('div', 'pop-point');
       var lab = api.el('span', 'pop-ptlab'); lab.textContent = api.t('thePoint'); pt.appendChild(lab);
       var txt = api.el('span', 'pop-pttxt'); txt.textContent = v.point; pt.appendChild(txt);
-      var sp = api.el('button', 'pop-spk'); sp.type = 'button'; sp.setAttribute('aria-label', 'hear the point'); sp.textContent = '🔊';
+      var sp = api.el('button', 'pop-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Meinung vorlesen' : 'hear the point'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(v.point); }); pt.appendChild(sp);
       root.appendChild(pt);
 
@@ -121,7 +123,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/pearl-opinion-page-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[pearl-opinion-page] manifest load failed:', e.message); });
     },
 

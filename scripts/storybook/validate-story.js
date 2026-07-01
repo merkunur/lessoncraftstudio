@@ -58,7 +58,11 @@ function loadModulesSandbox() {
   sandbox.document = { createElement: () => ({ style: {}, classList: { add() {}, remove() {} } }), head: { appendChild() {} } };
   vm.createContext(sandbox);
   const files = ['storybook-interaction.js', 'sb-legacy-adapter.js',
-    'sb-mod-choice-board.js', 'sb-mod-sort-bins.js', 'sb-mod-find-object.js', 'sb-mod-worksheet-exercise.js'];
+    'sb-mod-choice-board.js', 'sb-mod-sort-bins.js', 'sb-mod-find-object.js', 'sb-mod-worksheet-exercise.js',
+    'sb-mod-fractions.js', 'sb-mod-clock.js', 'sb-mod-match-pairs.js', 'sb-mod-number-bond.js',
+    'sb-mod-cvc-builder.js', 'sb-mod-word-builder.js',
+    'sb-mod-sequence.js', 'sb-mod-pattern.js', 'sb-mod-memory.js', 'sb-mod-listen.js',
+    'sb-mod-connect-dots.js', 'sb-mod-spot-diff.js', 'sb-mod-count-tap.js'];
   for (const f of files) {
     const p = path.join(MINI, f);
     if (!fs.existsSync(p)) { err(`module file missing: mini tools/${f}`); continue; }
@@ -233,7 +237,7 @@ function validateSep(pkg, pageId, zone) {
   let d;
   try { d = JSON.parse(fs.readFileSync(dPath, 'utf8')); } catch (e) { err(`page ${pageId}: SEP descriptor parse: ${e.message}`); return; }
   if (d.formatVersion !== 'sep-1') err(`page ${pageId}: SEP formatVersion "${d.formatVersion}" unsupported`);
-  if (['A', 'F'].indexOf(d.family) < 0) err(`page ${pageId}: SEP family "${d.family}" not supported (v1: A, F)`);
+  if (['A', 'F', 'E', 'C'].indexOf(d.family) < 0) err(`page ${pageId}: SEP family "${d.family}" not supported (A, F, E, C)`);
   const visPath = path.join(dir, (d.visual && d.visual.file) || 'visual@2x.webp');
   if (!fs.existsSync(visPath)) err(`page ${pageId}: SEP visual missing: ${d.visual && d.visual.file}`);
   else if (sharp && d.visual) {
@@ -277,6 +281,54 @@ function validateSep(pkg, pageId, zone) {
     });
     cells.filter(c => !c.isClue).forEach(c => {
       if (sol[c.index] === undefined) err(`page ${pageId}: SEP solutionLabels missing cell ${c.index}`);
+    });
+  } else if (d.family === 'E') {
+    const lefts = (d.elements && d.elements.leftItems) || [];
+    const rights = (d.elements && d.elements.rightItems) || [];
+    const pairs = (d.elements && d.elements.pairs) || [];
+    if (lefts.length < 2 || rights.length < 2) err(`page ${pageId}: SEP E needs >= 2 leftItems + rightItems`);
+    const rIdx = {}, lIdx = {};
+    lefts.forEach((it, i) => {
+      inCrop(it.rect, `leftItems[${i}]`);
+      if (!it.anchor || typeof it.anchor.x !== 'number') err(`page ${pageId}: SEP leftItems[${i}] missing anchor {x,y}`);
+      lIdx[it.index] = 1;
+      if (it.rect) smallest = Math.min(smallest, it.rect.w, it.rect.h);
+    });
+    rights.forEach((it, i) => {
+      inCrop(it.rect, `rightItems[${i}]`);
+      if (!it.anchor || typeof it.anchor.x !== 'number') err(`page ${pageId}: SEP rightItems[${i}] missing anchor {x,y}`);
+      rIdx[it.index] = 1;
+      if (it.rect) smallest = Math.min(smallest, it.rect.w, it.rect.h);
+    });
+    if (pairs.length !== lefts.length) err(`page ${pageId}: SEP E pairs must cover every leftItem`);
+    pairs.forEach((p, i) => {
+      if (!lIdx[p.leftIndex]) err(`page ${pageId}: SEP pairs[${i}] leftIndex unknown`);
+      if (!rIdx[p.correctRightIndex]) err(`page ${pageId}: SEP pairs[${i}] correctRightIndex unknown`);
+      (p.acceptableRightIndices || []).forEach(ri => {
+        if (!rIdx[ri]) err(`page ${pageId}: SEP pairs[${i}] acceptable index ${ri} unknown`);
+      });
+      if (p.acceptableRightIndices && p.acceptableRightIndices.indexOf(p.correctRightIndex) < 0) {
+        err(`page ${pageId}: SEP pairs[${i}] acceptable set must contain correctRightIndex`);
+      }
+    });
+  } else if (d.family === 'C') {
+    const targets = (d.elements && d.elements.targets) || [];
+    const blanks = (d.elements && d.elements.countBlanks) || [];
+    const np = (d.input && d.input.numberPalette) || { min: 0, max: 10 };
+    if (targets.length < 2) err(`page ${pageId}: SEP C needs >= 2 targets`);
+    if (!targets.some(t => t.isTarget)) err(`page ${pageId}: SEP C needs at least one isTarget target`);
+    targets.forEach((t, i) => {
+      inCrop(t.rect, `targets[${i}]`);
+      if (t.rect) smallest = Math.min(smallest, t.rect.w, t.rect.h);
+    });
+    blanks.forEach((b, i) => {
+      inCrop(b.rect, `countBlanks[${i}]`);
+      if (!b.key) err(`page ${pageId}: SEP countBlanks[${i}] missing key`);
+      if (typeof b.expected !== 'number') err(`page ${pageId}: SEP countBlanks[${i}] missing numeric expected`);
+      else if (b.expected < np.min || b.expected > np.max) {
+        err(`page ${pageId}: SEP countBlanks[${i}] expected ${b.expected} outside numberPalette ${np.min}..${np.max}`);
+      }
+      if (b.rect) smallest = Math.min(smallest, b.rect.w, b.rect.h);
     });
   }
   /* locale coverage per the STORY's shipped locales */

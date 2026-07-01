@@ -178,8 +178,127 @@ async function familyF() {
   console.log('[sep] fruit-board (Family F) written');
 }
 
+/* -------- Fixture 3: Family E — connect animals to shadows (crop 640×470) */
+async function familyE() {
+  const dir = OUT('shadow-pairs');
+  fs.mkdirSync(dir, { recursive: true });
+  const W = 640, H = 470;
+  const ROW = 150, IW = 120;
+  const animals = ['animals/cat@2x.webp', 'animals/dog@2x.webp', 'animals/rabbit@2x.webp'];
+  /* rights shuffled: cat→row1, dog→row2, bird→row0 */
+  const rightOrder = [2, 0, 1];
+
+  async function silhouette(rel, size) {
+    const img = await libPng(rel, size);
+    /* keep alpha, paint all pixels dark: blend a solid over via 'in' */
+    return sharp({ create: { width: size, height: size, channels: 4, background: { r: 60, g: 52, b: 46, alpha: 1 } } })
+      .composite([{ input: img, blend: 'dest-in' }]).png().toBuffer();
+  }
+
+  const comps = [];
+  const leftItems = [], rightItems = [];
+  for (let i = 0; i < 3; i++) {
+    const ly = 20 + i * ROW;
+    const img = await libPng(animals[i], IW);
+    const m = await sharp(img).metadata();
+    comps.push({ input: img, left: 50, top: ly + Math.round((IW - m.height) / 2) });
+    leftItems.push({
+      index: i, rect: { x: 40, y: ly, w: 140, h: 140 },
+      anchor: { x: 185, y: ly + 70 }
+    });
+    const sil = await silhouette(animals[rightOrder[i]], IW);
+    const m2 = await sharp(sil).metadata();
+    comps.push({ input: sil, left: 470, top: ly + Math.round((IW - m2.height) / 2) });
+    rightItems.push({
+      index: i, rect: { x: 460, y: ly, w: 140, h: 140 },
+      anchor: { x: 455, y: ly + 70 }
+    });
+  }
+  /* pairs: left i connects to the right row holding its silhouette */
+  const pairs = [0, 1, 2].map(li => ({
+    leftIndex: li,
+    correctRightIndex: rightOrder.indexOf(li),
+    acceptableRightIndices: [rightOrder.indexOf(li)]
+  }));
+
+  await sharp({ create: { width: W * 2, height: H * 2, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
+    .composite(await Promise.all(comps.map(async c => ({
+      input: await sharp(c.input).metadata().then(m => sharp(c.input).resize(m.width * 2).png().toBuffer()),
+      left: c.left * 2, top: c.top * 2
+    }))))
+    .webp({ quality: 88, alphaQuality: 100 })
+    .toFile(path.join(dir, 'visual@2x.webp'));
+
+  fs.writeFileSync(path.join(dir, 'descriptor.json'), JSON.stringify({
+    formatVersion: 'sep-1', appType: 'shadow-match', family: 'E',
+    sourceBundleVersion: 'fixture-hand-authored', createdAt: '2026-07-02T00:00:00Z',
+    meta: { exerciseTypeSlug: 'shadow-match', exerciseMode: null, theme: 'animals', ageBand: '4-6', contentLanguage: 'en' },
+    page: { width: W, height: H },
+    crop: { x: 0, y: 0, w: W, h: H, pad: 0 },
+    visual: { file: 'visual@2x.webp', format: 'webp', scale: 2, width: W * 2, height: H * 2 },
+    input: { policy: 'connect' },
+    elements: { mode: 'shadow', leftItems, rightItems, pairs },
+    imageRefs: {}, loadingMode: 'reference',
+    locales: { en: { prompt: 'Match each animal to its shadow!', success: 'Every shadow found!', tryAgain: 'Try again!', hint: null } },
+    audio: { speakPromptOnMount: false, perElement: null }
+  }, null, 2));
+  console.log('[sep] shadow-pairs (Family E) written');
+}
+
+/* -------- Fixture 4: Family C — find and count the apples (crop 640×430) */
+async function familyC() {
+  const dir = OUT('count-apples');
+  fs.mkdirSync(dir, { recursive: true });
+  const W = 640, H = 430;
+  const CELL = 120, GAP = 14;
+  const gridKeys = ['fruits/apple@2x.webp', 'fruits/banana@2x.webp', 'fruits/apple@2x.webp',
+                    'clothing/hat@2x.webp', 'fruits/apple@2x.webp', 'fruits/banana@2x.webp',
+                    'fruits/apple@2x.webp', 'clothing/hat@2x.webp', 'fruits/banana@2x.webp'];
+  const isApple = gridKeys.map(k => k.includes('apple'));
+  const comps = [];
+  const targets = [];
+  for (let i = 0; i < 9; i++) {
+    const r = Math.floor(i / 3), c = i % 3;
+    const x = 20 + c * (CELL + GAP), y = 20 + r * (CELL + GAP);
+    const img = await libPng(gridKeys[i], CELL - 16);
+    const m = await sharp(img).metadata();
+    comps.push({ input: img, left: x + Math.round((CELL - m.width) / 2), top: y + Math.round((CELL - m.height) / 2) });
+    targets.push({ index: i, rect: { x, y, w: CELL, h: CELL }, isTarget: isApple[i] });
+  }
+  /* legend: apple icon + blank box at the right */
+  const legendApple = await libPng('fruits/apple@2x.webp', 90);
+  comps.push({ input: legendApple, left: 470, top: 90 });
+  comps.push({ input: box(130, 110, 12, '#146B5E', true), left: 452, top: 210 });
+  const blanks = [{ key: 'apple', rect: { x: 452, y: 210, w: 130, h: 110 }, expected: isApple.filter(Boolean).length }];
+
+  await sharp({ create: { width: W * 2, height: H * 2, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
+    .composite(await Promise.all(comps.map(async c => ({
+      input: await sharp(c.input).metadata().then(m => sharp(c.input).resize(m.width * 2).png().toBuffer()),
+      left: c.left * 2, top: c.top * 2
+    }))))
+    .webp({ quality: 88, alphaQuality: 100 })
+    .toFile(path.join(dir, 'visual@2x.webp'));
+
+  fs.writeFileSync(path.join(dir, 'descriptor.json'), JSON.stringify({
+    formatVersion: 'sep-1', appType: 'find-and-count', family: 'C',
+    sourceBundleVersion: 'fixture-hand-authored', createdAt: '2026-07-02T00:00:00Z',
+    meta: { exerciseTypeSlug: 'find-and-count', exerciseMode: null, theme: 'fruits', ageBand: '4-6', contentLanguage: 'en' },
+    page: { width: W, height: H },
+    crop: { x: 0, y: 0, w: W, h: H, pad: 0 },
+    visual: { file: 'visual@2x.webp', format: 'webp', scale: 2, width: W * 2, height: H * 2 },
+    input: { policy: 'tap', numberPalette: { min: 0, max: 9 } },
+    elements: { targets, countBlanks: blanks },
+    imageRefs: {}, loadingMode: 'reference',
+    locales: { en: { prompt: 'Tap every apple, then count them!', success: 'You found and counted them all!', tryAgain: 'Try again!', hint: 'Look for the red fruit.' } },
+    audio: { speakPromptOnMount: false, perElement: null }
+  }, null, 2));
+  console.log('[sep] count-apples (Family C) written');
+}
+
 (async () => {
   await familyA();
   await familyF();
+  await familyE();
+  await familyC();
   console.log('[sep] fixtures at mini tools/stories/' + STORY + '/exercises/');
 })().catch(e => { console.error('[sep] FAIL: ' + e.message); process.exit(1); });

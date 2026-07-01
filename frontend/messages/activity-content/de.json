@@ -187,7 +187,7 @@
     },
     "whatsInsideRange": "Zahlen von {min} bis {max}",
     "whatsInsideTheme": "{theme}-Bildchips, die Kinder wiedererkennen können",
-    "whatsInsideGrade": "Konzipiert für Lernende der Klasse {grade} (etwa 5 bis 9 Jahre)",
+    "whatsInsideGrade": "Konzipiert für Lernende der Klasse {grade} (etwa {ageRange} Jahre)",
     "whatsInsideStrand": "Lehrplanbereich: {strand}",
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },

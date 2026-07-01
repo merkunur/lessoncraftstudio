@@ -187,7 +187,7 @@
     },
     "whatsInsideRange": "Tal fra {min} til {max}",
     "whatsInsideTheme": "Billedbrikker med {theme}, som børnene kan genkende",
-    "whatsInsideGrade": "Udviklet til elever på klassetrin {grade} (cirka 5 til 9 år)",
+    "whatsInsideGrade": "Udviklet til elever på klassetrin {grade} (cirka {ageRange} år)",
     "whatsInsideStrand": "Fælles Mål-område: {strand}",
     "whatsInsideCode": "Følger Fælles Mål"
   },

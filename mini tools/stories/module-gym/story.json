@@ -1,0 +1,306 @@
+{
+  "schemaVersion": "sb-1",
+  "id": "module-gym",
+  "title": "@story.title",
+  "locales": ["en"],
+  "theme": { "letterboxColor": "#FBF3E4", "transition": "crossfade" },
+
+  "cast": [
+    {
+      "id": "pip",
+      "name": "@cast.pip.name",
+      "role": "guide",
+      "atlasBase": "atlas.pip.base",
+      "poses": ["neutral", "talk", "happy", "point"]
+    }
+  ],
+
+  "assets": {
+    "atlas.pip.base": { "kind": "atlas", "src": "/mini-tools/stories/pips-picnic/cast/pip/pip.base.json" },
+    "scene.meadow":  { "kind": "image", "src": "/mini-tools/stories/pips-picnic/scenes/page-01.webp", "size": { "w": 1600, "h": 1000 } },
+    "scene.blanket": { "kind": "image", "src": "/mini-tools/stories/pips-picnic/scenes/page-02.webp", "size": { "w": 1600, "h": 1000 } },
+    "scene.stream":  { "kind": "image", "src": "/mini-tools/stories/pips-picnic/scenes/page-03.webp", "size": { "w": 1600, "h": 1000 } },
+    "scene.sunset":  { "kind": "image", "src": "/mini-tools/stories/pips-picnic/scenes/page-04.webp", "size": { "w": 1600, "h": 1000 } },
+    "img.apple":  { "kind": "image", "src": "/image-library-webp/themes/fruits/apple@2x.webp", "vocab": "apple" },
+    "img.banana": { "kind": "image", "src": "/image-library-webp/themes/fruits/banana@2x.webp", "vocab": "banana" },
+    "img.hat":    { "kind": "image", "src": "/image-library-webp/themes/clothing/hat@2x.webp", "vocab": "hat" },
+    "img.cat":    { "kind": "image", "src": "/image-library-webp/themes/animals/cat@2x.webp", "vocab": "cat" },
+    "img.dog":    { "kind": "image", "src": "/image-library-webp/themes/animals/dog@2x.webp", "vocab": "dog" },
+    "img.rabbit": { "kind": "image", "src": "/image-library-webp/themes/animals/rabbit@2x.webp", "vocab": "rabbit" }
+  },
+
+  "reward": {
+    "id": "story.module-gym",
+    "label": { "en": "Module gym medal" },
+    "emoji": "🎖️"
+  },
+
+  "pages": [
+    {
+      "id": "g01",
+      "scene": { "image": "scene.meadow" },
+      "characters": [{ "characterId": "pip", "pose": "point", "anchor": { "x": 220, "y": 890 }, "scale": 0.85, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g01-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-fractions",
+        "zone": { "x": 480, "y": 170, "w": 640, "h": 620 },
+        "completionMode": "check",
+        "hintKey": "g01-hint",
+        "taskData": { "shape": "circle", "n": 2, "cut": "v", "seed": 11 }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g02",
+      "scene": { "image": "scene.blanket" },
+      "characters": [{ "characterId": "pip", "pose": "talk", "anchor": { "x": 220, "y": 890 }, "scale": 0.85, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g02-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-clock",
+        "zone": { "x": 500, "y": 170, "w": 600, "h": 620 },
+        "completionMode": "check",
+        "hintKey": "g02-hint",
+        "taskData": { "hour": 3, "minute": 30, "minuteStep": 30, "seed": 2 }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g03",
+      "scene": { "image": "scene.stream" },
+      "characters": [{ "characterId": "pip", "pose": "point", "anchor": { "x": 180, "y": 900 }, "scale": 0.75, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g03-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-match-pairs",
+        "zone": { "x": 420, "y": 150, "w": 760, "h": 660 },
+        "completionMode": "check",
+        "hintKey": "g03-hint",
+        "taskData": { "template": "make-n", "target": 10, "cards": [3, 7, 1, 9, 4, 6] }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g04",
+      "scene": { "image": "scene.sunset" },
+      "characters": [{ "characterId": "pip", "pose": "talk", "anchor": { "x": 220, "y": 890 }, "scale": 0.85, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g04-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-number-bond",
+        "zone": { "x": 480, "y": 170, "w": 640, "h": 620 },
+        "completionMode": "check",
+        "hintKey": "g04-hint",
+        "taskData": { "whole": 10, "given": 7, "seed": 3 }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g05",
+      "scene": { "image": "scene.meadow" },
+      "characters": [{ "characterId": "pip", "pose": "point", "anchor": { "x": 200, "y": 895 }, "scale": 0.8, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g05-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-cvc-builder",
+        "zone": { "x": 440, "y": 150, "w": 720, "h": 660 },
+        "completionMode": "check",
+        "hintKey": "g05-hint",
+        "taskData": {
+          "targetWord": "dog",
+          "palette": ["d", "o", "g", "m", "s", "a"],
+          "subject": { "image": "img.dog", "alt": "@g05.word.dog", "hearItWord": "dog" }
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g06",
+      "scene": { "image": "scene.blanket" },
+      "characters": [{ "characterId": "pip", "pose": "talk", "anchor": { "x": 190, "y": 900 }, "scale": 0.75, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g06-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-word-builder",
+        "zone": { "x": 420, "y": 150, "w": 760, "h": 660 },
+        "completionMode": "check",
+        "hintKey": "g06-hint",
+        "taskData": {
+          "targetWord": "rabbit",
+          "targetTiles": ["rab", "bit"],
+          "palette": ["rab", "bit", "mon", "tur"],
+          "subject": { "image": "img.rabbit", "alt": "@g06.word.rabbit", "hearItWord": "rabbit" },
+          "language": "en-US"
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g07",
+      "scene": { "image": "scene.stream" },
+      "characters": [{ "characterId": "pip", "pose": "point", "anchor": { "x": 170, "y": 900 }, "scale": 0.7, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g07-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-sequence",
+        "zone": { "x": 400, "y": 200, "w": 800, "h": 520 },
+        "completionMode": "auto",
+        "hintKey": "g07-hint",
+        "taskData": {
+          "items": [
+            { "key": "s1", "image": "img.apple", "value": 1 },
+            { "key": "s2", "image": "img.apple", "value": 2 },
+            { "key": "s3", "image": "img.apple", "value": 3 },
+            { "key": "s4", "image": "img.apple", "value": 4 }
+          ],
+          "direction": "asc",
+          "sizeByValue": true,
+          "seed": 5
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g08",
+      "scene": { "image": "scene.sunset" },
+      "characters": [{ "characterId": "pip", "pose": "talk", "anchor": { "x": 150, "y": 905 }, "scale": 0.65, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g08-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-pattern",
+        "zone": { "x": 380, "y": 180, "w": 840, "h": 560 },
+        "completionMode": "auto",
+        "hintKey": "g08-hint",
+        "taskData": {
+          "tiles": { "a": "img.apple", "b": "img.banana" },
+          "sequence": ["a", "b", "a", "b", "a", null],
+          "choices": ["a", "b"],
+          "answerKey": "b"
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g09",
+      "scene": { "image": "scene.meadow" },
+      "characters": [{ "characterId": "pip", "pose": "point", "anchor": { "x": 200, "y": 895 }, "scale": 0.8, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g09-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-memory",
+        "zone": { "x": 440, "y": 150, "w": 720, "h": 660 },
+        "completionMode": "auto",
+        "hintKey": "g09-hint",
+        "taskData": { "pairs": ["img.apple", "img.banana", "img.cat"], "cols": 3, "seed": 5 }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g10",
+      "scene": { "image": "scene.blanket" },
+      "characters": [{ "characterId": "pip", "pose": "talk", "anchor": { "x": 200, "y": 895 }, "scale": 0.8, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g10-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-listen",
+        "zone": { "x": 460, "y": 150, "w": 680, "h": 660 },
+        "completionMode": "auto",
+        "hintKey": "g10-hint",
+        "taskData": {
+          "word": "@g10.word.banana",
+          "correct": "banana",
+          "options": [
+            { "key": "apple", "image": "img.apple" },
+            { "key": "banana", "image": "img.banana" },
+            { "key": "hat", "image": "img.hat" }
+          ]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g11",
+      "scene": { "image": "scene.stream" },
+      "characters": [{ "characterId": "pip", "pose": "point", "anchor": { "x": 190, "y": 900 }, "scale": 0.75, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g11-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-connect-dots",
+        "zone": { "x": 450, "y": 160, "w": 700, "h": 640 },
+        "completionMode": "auto",
+        "hintKey": "g11-hint",
+        "taskData": {
+          "points": [
+            { "x": 170, "y": 560 },
+            { "x": 170, "y": 240 },
+            { "x": 350, "y": 70 },
+            { "x": 530, "y": 240 },
+            { "x": 530, "y": 560 }
+          ],
+          "closePath": true,
+          "fill": "#F7C948"
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g12",
+      "scene": { "image": "scene.sunset" },
+      "characters": [{ "characterId": "pip", "pose": "talk", "anchor": { "x": 140, "y": 905 }, "scale": 0.6, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g12-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-spot-diff",
+        "zone": { "x": 330, "y": 190, "w": 940, "h": 540 },
+        "completionMode": "auto",
+        "hintKey": "g12-hint",
+        "taskData": {
+          "tiles": { "a": "img.apple", "b": "img.banana", "h": "img.hat", "c": "img.cat" },
+          "grid": { "rows": 2, "cols": 3 },
+          "cells": ["a", "b", "h", "c", "a", "b"],
+          "diffs": [
+            { "index": 1, "rightKey": "h" },
+            { "index": 4, "rightKey": null }
+          ]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g13",
+      "scene": { "image": "scene.meadow" },
+      "characters": [{ "characterId": "pip", "pose": "point", "anchor": { "x": 200, "y": 895 }, "scale": 0.8, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g13-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-count-tap",
+        "zone": { "x": 460, "y": 150, "w": 680, "h": 660 },
+        "completionMode": "check",
+        "hintKey": "g13-hint",
+        "taskData": {
+          "item": { "key": "apple", "image": "img.apple", "word": "@g13.word.apple" },
+          "total": 7,
+          "target": 5,
+          "seed": 9
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g14",
+      "scene": { "image": "scene.blanket" },
+      "characters": [{ "characterId": "pip", "pose": "talk", "anchor": { "x": 190, "y": 900 }, "scale": 0.75, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g14-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-worksheet-exercise",
+        "zone": { "x": 430, "y": 140, "w": 740, "h": 690 },
+        "completionMode": "check",
+        "hintKey": "g14-hint",
+        "taskData": { "package": "exercises/shadow-pairs" }
+      },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g15",
+      "scene": { "image": "scene.sunset" },
+      "characters": [{ "characterId": "pip", "pose": "point", "anchor": { "x": 190, "y": 900 }, "scale": 0.75, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g15-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-worksheet-exercise",
+        "zone": { "x": 430, "y": 140, "w": 740, "h": 690 },
+        "completionMode": "check",
+        "hintKey": "g15-hint",
+        "taskData": { "package": "exercises/count-apples" }
+      },
+      "success": { "celebration": "burst", "holdMs": 1200 }
+    }
+  ]
+}

@@ -187,7 +187,7 @@
     },
     "whatsInsideRange": "Les nombres de {min} à {max}",
     "whatsInsideTheme": "Des jetons-images sur le thème {theme} que les enfants peuvent reconnaître",
-    "whatsInsideGrade": "Conçu pour les élèves de la classe {grade} (de 5 à 9 ans environ)",
+    "whatsInsideGrade": "Conçu pour les élèves de la classe {grade} ({ageRange} ans environ)",
     "whatsInsideStrand": "Domaine des programmes officiels : {strand}",
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },

@@ -187,7 +187,7 @@
     },
     "whatsInsideRange": "Tal från {min} till {max}",
     "whatsInsideTheme": "Bildmarkörer med {theme} som barnen känner igen",
-    "whatsInsideGrade": "Utformad för elever i årskurs {grade} (ungefär 5 till 9 år)",
+    "whatsInsideGrade": "Utformad för elever i årskurs {grade} (ungefär {ageRange} år)",
     "whatsInsideStrand": "Lgr22-område: {strand}",
     "whatsInsideCode": "Följer Lgr22"
   },

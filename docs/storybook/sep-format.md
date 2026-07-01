@@ -135,11 +135,47 @@ exist · locale coverage per the host story's locales · density (smallest
 element at the 560px stage: <16px real = error "enlarge zone or regenerate",
 <44px = warn — inflated hit areas cover it).
 
-## 5. Roadmap
+## 5. Families E and C (SHIPPED 2026-07-02)
 
-Family E (tap-to-connect: `leftItems/rightItems` + rebased `anchor` points +
-`pairs.acceptableRightIndices`, SVG viewBox = crop) is the next cheapest —
-the descriptor block is already designed; add `families/e-connect` handling
-in `sb-mod-worksheet-exercise.js`. Family C (tap-count) needs a tap-NUMBER
-palette (`input.numberPalette {min,max}`). B (puzzle-drag grids) and D
-(bar-chart) deferred — they don't miniaturize into a story zone well.
+### Family E — tap-to-connect (matching / shadow-match)
+```jsonc
+"input": { "policy": "connect" },
+"elements": {
+  "mode": "imgname",                                  // provenance
+  "leftItems":  [{ "index", "rect", "anchor": {"x","y"} }],   // crop-space
+  "rightItems": [{ "index", "rect", "anchor": {"x","y"} }],
+  "pairs": [{ "leftIndex", "correctRightIndex", "acceptableRightIndices"? }]
+}
+```
+Ingestion preserves the deck semantics verbatim: tap-left-arm → tap-right
+connect; 1-to-1 replacement (the previous left is freed); tap-line-to-undo;
+Check enables when EVERY left is connected; grading uses the acceptable-set
+(fallback `correctRightIndex`); wrong/missed get the green dashed hint line
+to the correct right, then wrong connections clear for retry.
+**shadow-match normalization (mapper concern):** its bundle differs
+(`topItems/bottomItems`, `rect` only, center-to-center lines, single
+`correctBottomIndex`) — the EXPORT mapper renames to leftItems/rightItems,
+derives `anchor` = rect center, and wraps `correctBottomIndex` as
+`correctRightIndex` (+ a singleton acceptable set). One descriptor shape.
+Fixture: `stories/module-gym/exercises/shadow-pairs`.
+
+### Family C — tap-to-mark + count blanks (find-and-count / find-objects)
+```jsonc
+"input": { "policy": "tap", "numberPalette": { "min": 0, "max": 9 } },
+"elements": {
+  "targets":     [{ "index", "rect", "isTarget": bool }],
+  "countBlanks": [{ "key", "rect", "expected": int }]     // may be empty (tap-only)
+}
+```
+Tap-to-mark toggles a ✓ (non-targets wrong-flash immediately, no-shame);
+counts entered via the tap-NUMBER palette (min..max — the no-typing rule);
+Check = all targets marked ∧ no non-targets marked ∧ every blank equals its
+expected count. Export mapping: find-and-count `cells[]`→targets (grid) +
+`inputSlots[]`+`targets[].totalCount`→countBlanks; find-objects `items[]`→
+targets + `legend.items[].correctCount`→countBlanks.
+Fixture: `stories/module-gym/exercises/count-apples`.
+
+## 6. Roadmap
+
+B (puzzle-drag letter grids) and D (bar-chart) stay deferred — they don't
+miniaturize into a story zone well (500px+ letter grids; a single app).

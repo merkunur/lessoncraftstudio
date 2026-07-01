@@ -59,15 +59,16 @@ async function runPass(browser, port, width, reduced) {
   const label = `${width}px${reduced ? ' (reduced-motion)' : ''}`;
   const page = await browser.newPage();
   const consoleErrors = [];
+  const BENIGN_404 = /favicon\.ico$|\/audio\/inventory\.json$/;  /* LCSAudio's designed lazy-inventory miss */
   page.on('console', m => {
     if (m.type() !== 'error') return;
     const loc = (m.location() && m.location().url) || '';
-    if (/favicon\.ico$/.test(loc)) return;                  /* benign */
+    if (BENIGN_404.test(loc)) return;
     consoleErrors.push(m.text() + (loc ? ' [' + loc + ']' : ''));
   });
   page.on('pageerror', e => consoleErrors.push(String(e)));
   page.on('response', r => {
-    if (r.status() === 404 && !/favicon\.ico$/.test(r.url())) {
+    if (r.status() === 404 && !BENIGN_404.test(r.url())) {
       consoleErrors.push('404: ' + r.url());
     }
   });

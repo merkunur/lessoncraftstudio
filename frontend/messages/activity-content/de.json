@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "pearl-opinion-page.back-it-up.ri-2-8": {
+      "about": [
+        "Pearl die Robbe blättert ihre Meinungsseite auf: Auf jeder Seite steht eine Meinung, zum Beispiel „Unsere Stadt sollte einen neuen Park bauen.“ — und darunter liegen drei Karten. Dein Kind hört den Text vorgelesen und tippt die Karte an, die die Meinung wirklich mit einem Grund stützt.",
+        "Die Aktivität gehört zum Bereich „Sachtexte verstehen“. Sie übt, Begründungen und Argumente zu erkennen: Welcher Grund sagt, WARUM die Meinung stimmt? Eine der drei Karten nennt einen echten Grund („Kinder haben keinen sicheren Platz zum Spielen.“), eine wiederholt die Meinung nur mit anderen Worten, und eine erzählt etwas Wahres, aber Themenfremdes.",
+        "So lernt dein Kind den feinen Unterschied, auf den es beim Lesen argumentativer Texte ankommt: Ein Grund liefert eine neue Erklärung — er sagt nicht einfach dasselbe noch einmal. Genau dieses Unterscheiden bereitet auf das eigene Begründen und Argumentieren in der Grundschule vor. Es gibt keine Zeit und keine Punkte — dein Kind darf in Ruhe überlegen."
+      ],
+      "practices": [
+        "Zu einer Meinung den passenden Grund heraushören",
+        "Eine echte Begründung von einer bloßen Wiederholung unterscheiden",
+        "Themenfremde, aber wahre Aussagen aussortieren",
+        "Vorgelesene Sachtexte aufmerksam verfolgen und belegen"
+      ],
+      "howToPlay": [
+        "Höre dir mit dem 🔊-Knopf die Meinung an und lies sie mit",
+        "Lies die drei Karten und überlege: Welche sagt, WARUM?",
+        "Tippe die Karte an, die die Meinung mit einem echten Grund stützt"
+      ],
+      "learningGoals": [
+        "Dein Kind erkennt, welcher Grund eine Meinung stützt",
+        "Dein Kind unterscheidet einen echten Grund von einer bloßen Wiederholung",
+        "Dein Kind übt, Aussagen in Sachtexten zu belegen und zu begründen"
+      ]
+    },
     "story-spine.role.rl-k-3": {
       "about": [
         "Dot der kleine Drache zeigt dir in jeder Runde eine winzige Geschichte — mal verliert Bo das Häschen seinen Handschuh, mal schnappt ein Vogel Milli die Möhre weg, mal wird ein Regen-Picknick doch noch schön. Dein Kind schaut sich drei kurze Bildkarten mit Sätzen an und findet heraus, welcher Teil der Anfang, welcher das Problem und welcher die Lösung ist.",

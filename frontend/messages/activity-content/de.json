@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "marina-headline-desk.main-topic.ri-2-2": {
+      "about": [
+        "Marina, der Otter, sitzt an ihrem Nachrichtentisch und schreibt Schlagzeilen. Dein Kind liest – oder hört über den Knopf „📖 Vorlesen“ – einen kurzen Sachtext aus drei Sätzen und tippt dann auf die Karte, die sagt, worum es in dem Text geht. Bei einem kleinen Text über Bienen wäre das zum Beispiel „Wie Bienen Honig machen.“ – und nicht die Karte, auf der nur ein einzelner Nebensatz oder ein fremder Fakt steht.",
+        "Das Hauptthema ist das, worum es in einem Sachtext HAUPTSÄCHLICH geht – der rote Faden, der alle Sätze zusammenhält. Es ist NICHT ein einzelnes Detail, das nur einen kleinen Teil des Textes ausmacht, und auch NICHT ein Fakt, der gar nicht dazugehört. Wenn dein Kind lernt, das Hauptthema vom Detail zu unterscheiden, lernt es, das Wesentliche eines Sachtexts zu erfassen – eine Fähigkeit, die es beim Lesen ein Leben lang braucht.",
+        "Diese Aktivität ist völlig kostenlos, ohne Zeitdruck und ohne Punkte – dein Kind kann in Ruhe lesen, überlegen und ausprobieren. Mit dem Knopf „📖 Vorlesen“ wird jeder Text vorgelesen, sodass auch Kinder mitmachen können, die noch nicht flüssig lesen. Die Aktivität gehört zum Lehrplan-Bereich „Sachtexte verstehen“ (Teil von „Lesen“)."
+      ],
+      "practices": [
+        "Das Hauptthema eines kurzen Sachtexts erkennen",
+        "Hauptthema und einzelnes Detail unterscheiden",
+        "Fremde, unpassende Fakten aussortieren",
+        "Das Wesentliche eines Textes in Worte fassen"
+      ],
+      "howToPlay": [
+        "Lies den kurzen Sachtext – oder tippe auf „📖 Vorlesen“.",
+        "Überlege: Worum geht es HAUPTSÄCHLICH?",
+        "Tippe auf die Karte mit dem passenden Hauptthema."
+      ],
+      "learningGoals": [
+        "Dein Kind erkennt, worum es in einem kurzen Sachtext hauptsächlich geht.",
+        "Dein Kind unterscheidet das Hauptthema von einem kleinen Detail und von einem fremden Fakt.",
+        "Dein Kind erfasst nach und nach sicherer das Wesentliche von Sachtexten."
+      ]
+    },
     "wobble-museum.catch-drift.w-k-2": {
       "about": [
         "Bram, die Elster, sammelt für ihr kleines Museum alles, was glänzt – vor allem aber gute Sätze. In jedem Raum geht es um genau ein Thema, und ein Schild verrät welches: „Thema: Frösche“. Darunter hängen vier kurze, wahre Sätze. Doch ein Satz ist aus einem anderen Raum „hereingewandert“: Er stimmt zwar, gehört aber nicht hierher. Steht im Froschraum plötzlich „Teiche sind kalt.“, dann merkt dein Kind: Dieser Satz handelt vom Teich, nicht vom Frosch – und tippt ihn an.",

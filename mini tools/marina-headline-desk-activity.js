@@ -15,11 +15,12 @@
   'use strict';
 
   var Core = global.MainTopicCore;
+  var LANG = 'en';
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A' };
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -28,7 +29,7 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M40 46 q3 -4 6 0 M54 46 q3 -4 6 0" stroke="#2A2A35" stroke-width="2.4" fill="none" stroke-linecap="round"/>'
       : '<circle cx="43" cy="47" r="2.6" fill="#2A2A35"/><circle cx="57" cy="47" r="2.6" fill="#2A2A35"/>';
-    return '<svg class="mhd-otter-svg" viewBox="0 0 100 100" role="img" aria-label="Marina the otter">' +
+    return '<svg class="mhd-otter-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Marina, der Otter' : 'Marina the otter') + '">' +
       '<circle cx="32" cy="30" r="7" fill="#A07A52"/><circle cx="68" cy="30" r="7" fill="#A07A52"/>' +   /* ears */
       '<ellipse cx="50" cy="54" rx="28" ry="26" fill="#B68C5E"/>' +
       '<ellipse cx="50" cy="60" rx="16" ry="14" fill="#E7D2B5"/>' +   /* muzzle */
@@ -42,20 +43,21 @@
     id: 'marina-headline-desk-activity',
 
     strings: {
-      title: { en: "Marina's Headline Desk" },
-      prompt: { en: 'What is this mostly about?' },
-      marinaIntro: { en: 'A new story! What is it mostly about?' },
-      readStory: { en: '📖 Read the story' },
-      readAgain: { en: '📖 Read it again' },
-      theAsk: { en: 'What is the main topic?' },
-      hintPick: { en: 'Tap what the story is mostly about!' },
-      hintWrong: { en: "That's just one small part — read it again." },
-      win: { en: 'Yes! That is the main topic. 📰' }
+      title: { en: "Marina's Headline Desk", de: 'Marinas Schlagzeilen-Tisch' },
+      prompt: { en: 'What is this mostly about?', de: 'Worum geht es hauptsächlich?' },
+      marinaIntro: { en: 'A new story! What is it mostly about?', de: 'Eine neue Geschichte! Worum geht es wohl?' },
+      readStory: { en: '📖 Read the story', de: '📖 Vorlesen' },
+      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal vorlesen' },
+      theAsk: { en: 'What is the main topic?', de: 'Worum geht es in dem ganzen Text – nicht nur in einem Satz?' },
+      hintPick: { en: 'Tap what the story is mostly about!', de: 'Tippe an, worum es hauptsächlich geht!' },
+      hintWrong: { en: "That's just one small part — read it again.", de: 'Das ist nur ein kleiner Teil – lies oder hör noch einmal.' },
+      win: { en: 'Yes! That is the main topic. 📰', de: 'Ja! Das ist das Hauptthema. 📰' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._opts = null; this._narrToken = 0; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -136,7 +138,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/marina-headline-desk-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[marina-headline-desk] manifest load failed:', e.message); });
     },
 

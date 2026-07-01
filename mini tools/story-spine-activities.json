@@ -35,16 +35,53 @@
         { "id": "ds-pic-set",  "storyId": "picnic", "role": "setting",  "prompt": "Which part is THE START? (where the story begins)" },
         { "id": "ds-pic-prob", "storyId": "picnic", "role": "problem",  "prompt": "Which part shows THE TROUBLE? (what goes wrong)" },
         { "id": "ds-pic-sol",  "storyId": "picnic", "role": "solution", "prompt": "Which part is THE FIX? (how it gets better)" }
-      ]
+      ],
+      "storiesL10n": {
+        "de": {
+          "mitten": { "title": "Der verlorene Handschuh", "panels": [
+            { "caption": "Bo das Häschen spielte im Schnee.", "glyphs": ["bunny", "snow"], "role": "setting" },
+            { "caption": "Am Baum verlor Bo einen Handschuh.", "glyphs": ["tree", "mitten"], "role": "problem" },
+            { "caption": "Ein Vogel brachte den Handschuh zurück.", "glyphs": ["bird", "mitten"], "role": "solution" }
+          ] },
+          "carrot": { "title": "Die gestohlene Möhre", "panels": [
+            { "caption": "Milli die Maus hatte eine Möhre.", "glyphs": ["mouse", "carrot"], "role": "setting" },
+            { "caption": "Ein Vogel schnappte sich die Möhre!", "glyphs": ["bird", "carrot"], "role": "problem" },
+            { "caption": "Ein Freund holte die Möhre zurück.", "glyphs": ["friend", "carrot"], "role": "solution" }
+          ] },
+          "picnic": { "title": "Das Picknick im Regen", "panels": [
+            { "caption": "Zwei Freunde packten den Picknickkorb.", "glyphs": ["friend", "basket"], "role": "setting" },
+            { "caption": "Plötzlich regnete es auf sie.", "glyphs": ["rain", "friend"], "role": "problem" },
+            { "caption": "Sie aßen unter einem Regenschirm.", "glyphs": ["umbrella", "friend"], "role": "solution" }
+          ] }
+        }
+      },
+      "roundsL10n": {
+        "de": [
+          { "id": "ds-mit-set",  "storyId": "mitten", "role": "setting",  "prompt": "Welcher Teil ist der ANFANG? (wo die Geschichte beginnt)" },
+          { "id": "ds-mit-prob", "storyId": "mitten", "role": "problem",  "prompt": "Welcher Teil zeigt das PROBLEM? (was schiefgeht)" },
+          { "id": "ds-mit-sol",  "storyId": "mitten", "role": "solution", "prompt": "Welcher Teil ist die LÖSUNG? (wie es wieder gut wird)" },
+
+          { "id": "ds-car-set",  "storyId": "carrot", "role": "setting",  "prompt": "Welcher Teil ist der ANFANG? (wo die Geschichte beginnt)" },
+          { "id": "ds-car-prob", "storyId": "carrot", "role": "problem",  "prompt": "Welcher Teil zeigt das PROBLEM? (was schiefgeht)" },
+          { "id": "ds-car-sol",  "storyId": "carrot", "role": "solution", "prompt": "Welcher Teil ist die LÖSUNG? (wie es wieder gut wird)" },
+
+          { "id": "ds-pic-set",  "storyId": "picnic", "role": "setting",  "prompt": "Welcher Teil ist der ANFANG? (wo die Geschichte beginnt)" },
+          { "id": "ds-pic-prob", "storyId": "picnic", "role": "problem",  "prompt": "Welcher Teil zeigt das PROBLEM? (was schiefgeht)" },
+          { "id": "ds-pic-sol",  "storyId": "picnic", "role": "solution", "prompt": "Welcher Teil ist die LÖSUNG? (wie es wieder gut wird)" }
+        ]
+      }
     },
     "slug": {
-      "en": "story-parts-setting-problem-solution"
+      "en": "story-parts-setting-problem-solution",
+      "de": "aufbau-einer-geschichte-anfang-problem-loesung-klasse-1"
     },
     "page_title": {
-      "en": "Dot's Story Spine — Story Parts: Start, Trouble & Fix (Kindergarten)"
+      "en": "Dot's Story Spine — Story Parts: Start, Trouble & Fix (Kindergarten)",
+      "de": "Aufbau einer Geschichte: Anfang, Problem, Lösung – Klasse 1"
     },
     "page_intro": {
-      "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Dot the dragon, then tap which part is the START (the setting), the TROUBLE (the problem), and the FIX (how it gets better). A friendly first look at how stories are built — setting, problem, and solution. Common Core RL.K.3."
+      "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Dot the dragon, then tap which part is the START (the setting), the TROUBLE (the problem), and the FIX (how it gets better). A friendly first look at how stories are built — setting, problem, and solution. Common Core RL.K.3.",
+      "de": "Übe kostenlos und interaktiv den Aufbau einer Geschichte: Ordne mit dem Drachen Dot Anfang, Problem & Lösung richtig zu. Erzählstruktur für Klasse 1 – jetzt starten!"
     },
     "kid_prompt_template": "story-spine"
   }

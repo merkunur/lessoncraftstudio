@@ -14,11 +14,12 @@
 
   var Core = global.LetterCommaCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', SKY: '#6FA8DC' };
+  var LANG = 'en';
 
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function pigeonSVG() {
-    return '<svg class="pcm-pig-svg" viewBox="0 0 100 100" role="img" aria-label="Pim the pigeon">' +
+    return '<svg class="pcm-pig-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Pim, die Taube' : 'Pim the pigeon') + '">' +
       '<ellipse cx="48" cy="58" rx="22" ry="18" fill="#A9C0D8"/>' +                /* body */
       '<circle cx="70" cy="44" r="12" fill="#BBD0E4"/>' +                          /* head */
       '<circle cx="73" cy="42" r="2.3" fill="#2A2A35"/>' +                         /* eye */
@@ -34,21 +35,22 @@
     id: 'pim-comma-mail-activity',
 
     strings: {
-      title: { en: "Pim's Comma Mail" },
-      instruction: { en: 'Tap the greeting or closing that has its comma in the right place.' },
-      promptGreeting: { en: 'Which is the right way to START the letter?' },
-      promptClosing: { en: 'Which is the right way to END the letter?' },
-      pimIntro: { en: 'A letter needs its comma in just the right spot!' },
-      labelGreeting: { en: '✉️ The greeting' },
-      labelClosing: { en: '✉️ The closing' },
-      hintPick: { en: 'The greeting and the closing each end with a comma.' },
-      hintWrong: { en: 'Look at where the comma sits — it goes at the end.' },
-      win: { en: 'Yes! The comma is in the right spot. 🕊️' }
+      title: { en: "Pim's Comma Mail", de: 'Pims Komma-Post' },
+      instruction: { en: 'Tap the greeting or closing that has its comma in the right place.', de: 'Tipp die Karte an, bei der das Komma richtig steht.' },
+      promptGreeting: { en: 'Which is the right way to START the letter?', de: 'Wie beginnt der Brief richtig?' },
+      promptClosing: { en: 'Which is the right way to END the letter?', de: 'Wie endet der Brief richtig?' },
+      pimIntro: { en: 'A letter needs its comma in just the right spot!', de: 'Ich bin Pim, die Taube! Hilf mir, die Briefe richtig zuzustellen.' },
+      labelGreeting: { en: '✉️ The greeting', de: '✉️ Die Anrede' },
+      labelClosing: { en: '✉️ The closing', de: '✉️ Der Gruß' },
+      hintPick: { en: 'The greeting and the closing each end with a comma.', de: 'Schau genau hin, wo das Komma bei der Anrede steht.' },
+      hintWrong: { en: 'Look at where the comma sits — it goes at the end.', de: 'Fast! Das Komma steht ganz am Ende der Anrede, nicht mittendrin.' },
+      win: { en: 'Yes! The comma is in the right spot. 🕊️', de: 'Super! Du weißt genau, wo das Komma hingehört. Pim ist stolz auf dich!' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -106,7 +108,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/pim-comma-mail-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[pim-comma-mail] manifest load failed:', e.message); });
     },
 

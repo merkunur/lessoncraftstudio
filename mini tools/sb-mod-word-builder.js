@@ -41,6 +41,22 @@
     completionModes: ['check'],
     minZone: { w: 600, h: 460 },
 
+    studio: {
+      label: 'Build the word (chunks)', group: 'Letters & words', icon: '🧩',
+      blurb: 'The child taps syllable chunks in order to build a word.',
+      defaults: { targetWord: 'rabbit', targetTiles: ['rab', 'bit'], palette: ['rab', 'bit', 'mon', 'tur'], subject: null, language: 'en-US' },
+      fields: [
+        { key: 'targetTiles', kind: 'chips', label: 'The word in chunks (in order)', min: 2, max: 5 },
+        { key: 'targetWord', kind: 'text', label: 'The whole word', derived: 'joinTiles' },
+        { key: 'palette', kind: 'chips', label: 'Chunk tiles (word chunks + extras)', min: 3, max: 8 },
+        { key: 'language', kind: 'enum', label: 'Spoken language', from: ['en-US', 'de-DE', 'es-ES', 'fr-FR', 'it-IT', 'pt-BR', 'nl-NL', 'sv-SE', 'da-DK', 'nb-NO', 'fi-FI'] },
+        { key: 'subject', kind: 'group', label: 'Picture above the word', optional: true, fields: [
+          { key: 'image', kind: 'image', label: 'Picture' },
+          { key: 'alt', kind: 'stringRef', label: 'What it is', keyHint: 'word' }
+        ] }
+      ]
+    },
+
     buildTask: function (taskData, ctx) {
       return {
         setup: function (tool) {

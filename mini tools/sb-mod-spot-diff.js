@@ -46,7 +46,13 @@
   global.SBModules.register({
     meta: {
       type: 'sb-spot-diff', version: 1, surfaces: ['dom'],
-      completionModes: ['auto'], minZone: { w: 640, h: 400 }
+      completionModes: ['auto'], minZone: { w: 640, h: 400 },
+      studio: {
+        label: 'Spot the difference', group: 'Look & find', icon: '👀',
+        blurb: 'Two almost-identical picture panels — the child taps what changed.',
+        defaults: { tiles: {}, grid: { rows: 2, cols: 3 }, cells: [], diffs: [] },
+        spotDiff: true   /* bespoke grid editor in the inspector */
+      }
     },
 
     validateTask: function (taskData, v) {

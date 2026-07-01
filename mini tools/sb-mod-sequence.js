@@ -62,7 +62,22 @@
   global.SBModules.register({
     meta: {
       type: 'sb-sequence', version: 1, surfaces: ['dom'],
-      completionModes: ['auto'], minZone: { w: 560, h: 360 }
+      completionModes: ['auto'], minZone: { w: 560, h: 360 },
+      studio: {
+        label: 'Tap in order', group: 'Numbers & shapes', icon: '📶',
+        blurb: 'The child taps items from smallest to biggest (or the other way).',
+        defaults: { items: [{ key: 's1', bar: true, value: 1 }, { key: 's2', bar: true, value: 2 }, { key: 's3', bar: true, value: 3 }], direction: 'asc', seed: 1 },
+        fields: [
+          { key: 'items', kind: 'list', label: 'The items (value sets the order)', min: 3, max: 6, keyField: 'key', itemFields: [
+            { key: 'value', kind: 'number', label: 'Order value', min: 1, max: 99 },
+            { key: 'image', kind: 'image', label: 'Picture', optional: true },
+            { key: 'bar', kind: 'boolean', label: '…or a simple bar', optional: true }
+          ] },
+          { key: 'direction', kind: 'enum', label: 'Order', from: ['asc', 'desc'], labels: ['Smallest first', 'Biggest first'] },
+          { key: 'sizeByValue', kind: 'boolean', label: 'Scale pictures by value', optional: true },
+          { key: 'seed', kind: 'seed', label: 'Shuffle' }
+        ]
+      }
     },
 
     validateTask: function (taskData, v) {

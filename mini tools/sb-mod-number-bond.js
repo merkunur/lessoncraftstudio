@@ -21,6 +21,17 @@
     completionModes: ['check'],
     minZone: { w: 480, h: 420 },
 
+    studio: {
+      label: 'Number bond', group: 'Numbers & shapes', icon: '🔗',
+      blurb: 'The child fills the empty part of a number bond until the parts make the whole.',
+      defaults: { whole: 10, given: 7, seed: 1 },
+      fields: [
+        { key: 'whole', kind: 'number', label: 'The whole number', min: 2, max: 20 },
+        { key: 'given', kind: 'number', label: 'Part already shown', min: 0, max: 19 },
+        { key: 'seed', kind: 'seed', label: 'Shuffle' }
+      ]
+    },
+
     buildTask: function (taskData) {
       return {
         setup: function (tool) { tool.setupTask(taskData); },

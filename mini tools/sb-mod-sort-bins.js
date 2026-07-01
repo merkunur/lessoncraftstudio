@@ -29,6 +29,17 @@
     completionModes: ['auto', 'check'],
     minZone: { w: 680, h: 500 },
 
+    studio: {
+      label: 'Sort the shapes', group: 'Numbers & shapes', icon: '🗃️',
+      blurb: 'The child drags shape tiles into the right bins.',
+      defaults: { bins: ['triangle', 'quadrilateral'], items: ['tri_equi', 'quad_square', 'tri_right', 'quad_rect'], seed: 1 },
+      fields: [
+        { key: 'bins', kind: 'chips', label: 'Bins', from: ['triangle', 'quadrilateral', 'pentagon', 'hexagon'], min: 2, max: 4 },
+        { key: 'items', kind: 'chips', label: 'Shape tiles', from: ['tri_equi', 'tri_right', 'tri_iso', 'quad_square', 'quad_rect', 'quad_para', 'penta_reg', 'hexa_reg'], min: 2, max: 8 },
+        { key: 'seed', kind: 'seed', label: 'Shuffle' }
+      ]
+    },
+
     buildTask: function (taskData) {
       return {
         setup: function (tool) {

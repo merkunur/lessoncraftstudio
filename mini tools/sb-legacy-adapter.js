@@ -260,7 +260,8 @@
         version: 1,
         surfaces: ['dom'],
         completionModes: w.completionModes || ['check'],
-        minZone: w.minZone || { w: 560, h: 420 }
+        minZone: w.minZone || { w: 560, h: 420 },
+        studio: w.studio || null      /* declarative Studio spec (additive) */
       },
       validateTask: w.validateTask || function () {},
       create: createInstance

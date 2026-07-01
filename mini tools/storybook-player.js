@@ -905,7 +905,13 @@
       });
     }).then(function () {
       if (loading.parentNode) loading.parentNode.removeChild(loading);
-      return runPage(0);
+      /* debug-gated start page (?page=N, 1-based) — the Studio's preview seam */
+      var startAt = 0;
+      if (debug) {
+        var pp = parseInt(params.get('page'), 10);
+        if (pp >= 1 && pp <= story.pages.length) startAt = pp - 1;
+      }
+      return runPage(startAt);
     }).catch(function (err) {
       try { console.error(err); } catch (e) {}
       var msg = doc.createElement('div');

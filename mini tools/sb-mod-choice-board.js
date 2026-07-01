@@ -32,6 +32,20 @@
     completionModes: ['check'],
     minZone: { w: 560, h: 420 },
 
+    studio: {
+      label: 'Tap the answer', group: 'Look & find', icon: '👆',
+      blurb: 'A few tiles — the child taps the right one.',
+      defaults: { targetKey: 'one', options: [{ key: 'one', label: '1' }, { key: 'two', label: '2' }, { key: 'three', label: '3' }] },
+      fields: [
+        { key: 'options', kind: 'list', label: 'The tiles', min: 2, max: 10, keyField: 'key', itemFields: [
+          { key: 'image', kind: 'image', label: 'Picture', optional: true },
+          { key: 'label', kind: 'text', label: '…or text on the tile', optional: true },
+          { key: 'groupCount', kind: 'number', label: 'Show picture × N (counting)', optional: true, min: 1, max: 8, mapsTo: 'group' }
+        ] },
+        { key: 'targetKey', kind: 'correctPick', label: 'The right answer', of: 'options', by: 'key' }
+      ]
+    },
+
     buildTask: function (taskData, ctx) {
       return {
         setup: function (tool) {

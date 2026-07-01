@@ -75,7 +75,22 @@
   global.SBModules.register({
     meta: {
       type: 'sb-count-tap', version: 1, surfaces: ['dom'],
-      completionModes: ['check'], minZone: { w: 520, h: 420 }
+      completionModes: ['check'], minZone: { w: 520, h: 420 },
+      studio: {
+        label: 'Count out N', group: 'Numbers & shapes', icon: '🔢',
+        blurb: 'Scattered items — the child taps exactly the number you ask for.',
+        defaults: { item: { key: 'apple', image: '', word: '' }, total: 7, target: 5, seed: 1 },
+        fields: [
+          { key: 'item', kind: 'group', label: 'The item', fields: [
+            { key: 'image', kind: 'image', label: 'Picture', vocabAutofill: true },
+            { key: 'key', kind: 'text', label: 'Name', lowercase: true },
+            { key: 'word', kind: 'stringRef', label: 'Spoken word', keyHint: 'word', optional: true }
+          ] },
+          { key: 'total', kind: 'number', label: 'How many appear', min: 3, max: 10 },
+          { key: 'target', kind: 'number', label: 'How many to tap', min: 2, max: 9 },
+          { key: 'seed', kind: 'seed', label: 'Shuffle positions' }
+        ]
+      }
     },
 
     validateTask: function (taskData, v) {

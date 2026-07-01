@@ -35,6 +35,21 @@
     completionModes: ['check'],
     minZone: { w: 560, h: 460 },
 
+    studio: {
+      label: 'Spell the word (letters)', group: 'Letters & words', icon: '🔤',
+      blurb: 'The child taps letter tiles to spell a word under a picture.',
+      defaults: { targetWord: 'cat', palette: ['c', 'a', 't', 'm', 's', 'o'], subject: null },
+      fields: [
+        { key: 'targetWord', kind: 'text', label: 'The word', lowercase: true, maxLen: 8 },
+        { key: 'palette', kind: 'chips', label: 'Letter tiles (word letters + extras)', singleChar: true, min: 3, max: 10 },
+        { key: 'subject', kind: 'group', label: 'Picture above the word', optional: true, fields: [
+          { key: 'image', kind: 'image', label: 'Picture' },
+          { key: 'alt', kind: 'stringRef', label: 'What it is (spoken name)', keyHint: 'word' },
+          { key: 'hearItWord', kind: 'text', label: 'Hear-it word', optional: true }
+        ] }
+      ]
+    },
+
     buildTask: function (taskData, ctx) {
       return {
         setup: function (tool) {

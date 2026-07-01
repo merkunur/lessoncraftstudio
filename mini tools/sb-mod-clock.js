@@ -23,6 +23,19 @@
     completionModes: ['check'],
     minZone: { w: 440, h: 420 },
 
+    studio: {
+      label: 'Set the clock', group: 'Numbers & shapes', icon: '🕒',
+      blurb: 'The child drags the clock hands to the time your story asks for.',
+      note: 'Say the target time in the story line, e.g. "Set the clock to half past three."',
+      defaults: { hour: 3, minute: 0, minuteStep: 30, seed: 1 },
+      fields: [
+        { key: 'hour', kind: 'number', label: 'Hour', min: 1, max: 12 },
+        { key: 'minuteStep', kind: 'enum', label: 'Precision', from: [30, 5], labels: ['Hours & half hours', 'To 5 minutes'] },
+        { key: 'minute', kind: 'number', label: 'Minutes', min: 0, max: 55, step: 5 },
+        { key: 'seed', kind: 'seed', label: 'Shuffle' }
+      ]
+    },
+
     buildTask: function (taskData) {
       var startH = null, startM = null;
       return {

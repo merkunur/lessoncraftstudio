@@ -177,6 +177,13 @@ for %%f in ("mini tools\*.js") do (
     )
 )
 echo   Copied %COPIED% files to frontend\public\mini-tools
+
+REM Storybook stories: recursive subtree (story.json/strings.json + packed
+REM assets live under "mini tools\stories\<id>\" - the one nested dir we ship)
+if exist "mini tools\stories" (
+    xcopy /E /I /Y /Q "mini tools\stories" "frontend\public\mini-tools\stories" >nul 2>&1
+    echo   Synced mini tools\stories\ subtree
+)
 echo.
 
 :skip_mini_tools

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="robots" content="noindex">
+<title>LessonCraftStudio — Interactive Storybook</title>
+<style>
+  html, body { margin: 0; padding: 0; background: transparent; }
+  #sb-root { width: 100%; }
+</style>
+</head>
+<body>
+<div id="sb-root"></div>
+
+<!-- Sibling-runtime load order (game-shell precedent):
+     lcs-shell provides LCS.i18n / LCSAudio / LCS.drag / LCS.token globals
+     (never LCS.mount here); game-collection provides the keepsake envelope;
+     vendor-pixi is the pinned PixiJS 7.4.3 legacy UMD. -->
+<script src="/mini-tools/lcs-shell.js?v=3"></script>
+<script src="/mini-tools/game-collection.js?v=1"></script>
+<script src="/mini-tools/vendor-pixi.min.js?v=1"></script>
+
+<script src="/mini-tools/storybook-audio.js?v=1"></script>
+<script src="/mini-tools/storybook-loader.js?v=1"></script>
+<script src="/mini-tools/storybook-cast.js?v=1"></script>
+<script src="/mini-tools/storybook-interaction.js?v=1"></script>
+<script src="/mini-tools/sb-legacy-adapter.js?v=1"></script>
+
+<!-- interaction modules (the reference set; grows forever) -->
+<script src="/mini-tools/choice-board-core.js?v=8"></script>
+<script src="/mini-tools/sort-bins-core.js?v=4"></script>
+<script src="/mini-tools/sb-mod-choice-board.js?v=1"></script>
+<script src="/mini-tools/sb-mod-sort-bins.js?v=1"></script>
+<script src="/mini-tools/sb-mod-find-object.js?v=1"></script>
+<script src="/mini-tools/sb-mod-worksheet-exercise.js?v=1"></script>
+
+<script src="/mini-tools/storybook-player.js?v=1"></script>
+<script>
+  Storybook.mount({ mount: '#sb-root' });
+</script>
+</body>
+</html>

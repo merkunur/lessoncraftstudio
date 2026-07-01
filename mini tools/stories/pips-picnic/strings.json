@@ -1,0 +1,32 @@
+{
+  "story.title":    { "en": "Pip's Picnic" },
+  "cast.pip.name":  { "en": "Pip" },
+
+  "p01-l01": { "en": "Good morning! I'm Pip, and today we're going on a picnic." },
+  "p01-l02": { "en": "First, let's pack apples. Tap the basket with three apples!" },
+  "p01-hint": { "en": "Count them one by one. One, two, three!" },
+  "p01-bravo": { "en": "Yes! Three juicy apples. Into the basket they go!" },
+
+  "p02-l01": { "en": "Oh no, the wind blew our things all over the meadow!" },
+  "p02-l02": { "en": "Can you find the apple and the boots?" },
+  "p02-hint": { "en": "Look carefully around the whole meadow." },
+  "p02-bravo": { "en": "You found them all! You have sharp eyes." },
+  "p02.word.apple": { "en": "Apple" },
+  "p02.word.boots": { "en": "Boots" },
+  "p02.word.hat":   { "en": "Hat" },
+  "p02.word.ball":  { "en": "Ball" },
+
+  "p03-l01": { "en": "A furry friend followed us to the stream!" },
+  "p03-l02": { "en": "Tap the letters to spell its name." },
+  "p03-hint": { "en": "It says meow. C — A — T." },
+  "p03-bravo": { "en": "C-A-T spells cat! Welcome to the picnic, little cat." },
+
+  "p04-l01": { "en": "Time to set the picnic blanket. Drag each fruit onto its shadow!" },
+  "p04-hint": { "en": "Match each fruit to the pale picture that looks the same." },
+  "p04-bravo": { "en": "The blanket looks delicious. Well done!" },
+
+  "p05-l01": { "en": "For dessert, I baked shape cookies!" },
+  "p05-l02": { "en": "Sort the cookies: triangles in one tin, shapes with four sides in the other." },
+  "p05-hint": { "en": "Count the sides of each cookie. Three sides means triangle." },
+  "p05-bravo": { "en": "Every cookie is in the right tin. What a perfect picnic!" }
+}

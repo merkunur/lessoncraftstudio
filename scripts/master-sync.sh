@@ -132,6 +132,14 @@ else
         esac
     done
     echo "  Copied $COPIED files to frontend/public/mini-tools"
+
+    # Storybook stories: recursive subtree (story.json/strings.json + packed
+    # assets live under mini tools/stories/<id>/ — the one nested dir we ship)
+    if [ -d "mini tools/stories" ]; then
+        mkdir -p "frontend/public/mini-tools/stories"
+        cp -r "mini tools/stories/." "frontend/public/mini-tools/stories/"
+        echo "  Synced mini tools/stories/ subtree"
+    fi
     echo ""
 fi
 

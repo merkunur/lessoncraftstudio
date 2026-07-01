@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "compound-meaning.predict.l-2-4-d": {
+      "about": [
+        "In Skips Wortwerkstatt setzt ein freches Eichhörnchen zwei Wort-Bausteine zu einem neuen Wort zusammen. Dein Kind sieht beide Teile als Bild – zum Beispiel eine Hand und einen Schuh – und überlegt dann in Ruhe: Was bedeutet wohl ein „Handschuh“? Es liest die zwei Teile, schaut sich das zusammengesetzte Wort an und wählt die passende Bedeutung aus.",
+        "Dahinter steckt eine richtig schlaue Idee über unsere Sprache: Bei einem zusammengesetzten Wort (man sagt auch „Komposita“) steckt die Bedeutung in seinen Teilen – und der LETZTE Teil sagt, was die Sache eigentlich ist. Ein Handschuh ist also eine Art Schuh, eine Zahnbürste ist eine Bürste und ein Eierbecher ist ein Becher. Wer das einmal entdeckt hat, kann plötzlich unzählige lange Wörter selbst entschlüsseln.",
+        "Es gibt keine Punkte, keine Uhr und keinen Zeitdruck – dein Kind darf so lange tüfteln, wie es mag, und Skip freut sich über jeden Versuch. Die Übung gehört zum Bereich „Wortschatz untersuchen“ im Lehrplan der Grundschule und ist für dich und dein Kind kostenlos."
+      ],
+      "practices": [
+        "Zusammengesetzte Wörter in ihre zwei Bausteine zerlegen",
+        "Die Bedeutung eines zusammengesetzten Wortes aus seinen Teilen erschließen",
+        "Erkennen, dass der letzte Wortteil bestimmt, was die Sache ist",
+        "Den eigenen Wortschatz spielerisch erweitern und Wörter genau betrachten"
+      ],
+      "howToPlay": [
+        "Schau dir die zwei Bild-Bausteine an, die Skip zusammensetzt – zum Beispiel Hand + Schuh.",
+        "Lies das neue, zusammengesetzte Wort, das daraus entsteht: Handschuh.",
+        "Tippe die Bedeutung an, die am besten passt – ganz ohne Zeitdruck."
+      ],
+      "learningGoals": [
+        "Dein Kind versteht, dass sich lange Wörter aus zwei kleineren Wörtern zusammensetzen.",
+        "Dein Kind erkennt, dass der letzte Wortteil sagt, was die Sache wirklich ist (ein Handschuh ist ein Schuh).",
+        "Dein Kind kann die Bedeutung neuer zusammengesetzter Wörter selbst erschließen."
+      ]
+    },
     "inky-book-workshop.author-illustrator.rl-k-6": {
       "about": [
         "Tauch ein in „Inkys Buchwerkstatt“: Inky, der Tintenfisch, macht Bücher mit Tinte – und dein Kind packt mit an. Auf dem Tisch wird gerade gearbeitet: Mal werden die Wörter geschrieben, mal die Bilder gezeichnet, mal wird vorgelesen. Dein Kind schaut hin und tippt, wessen Aufgabe das ist – Autor, Illustrator oder Leser.",

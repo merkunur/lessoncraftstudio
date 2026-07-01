@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "story-spine.role.rl-k-3": {
+      "about": [
+        "Dot der kleine Drache zeigt dir in jeder Runde eine winzige Geschichte — mal verliert Bo das Häschen seinen Handschuh, mal schnappt ein Vogel Milli die Möhre weg, mal wird ein Regen-Picknick doch noch schön. Dein Kind schaut sich drei kurze Bildkarten mit Sätzen an und findet heraus, welcher Teil der Anfang, welcher das Problem und welcher die Lösung ist.",
+        "Die Aufgabe gehört zum Bereich „Literarische Texte verstehen“: Dein Kind lernt, den roten Faden einer Erzählung zu erkennen — wie eine Geschichte beginnt, was schiefgeht und wie am Ende alles gut wird. Weil die Bildkarten durcheinander gezeigt werden, muss dein Kind wirklich lesen und mitdenken, statt nur zu raten.",
+        "So wird aus dem Zuhören und Lesen ein bewusstes Verstehen von Erzählstruktur und Handlungsverlauf — eine wichtige Grundlage fürs spätere eigene Erzählen und Schreiben. Ein Vorlese-Knopf hilft, wenn dein Kind einen Satz noch nicht allein lesen kann. Es gibt keine Zeit und keine Punkte — dein Kind darf in Ruhe ausprobieren."
+      ],
+      "practices": [
+        "Den Handlungsverlauf einer kurzen Geschichte in Anfang, Problem und Lösung gliedern",
+        "Bildkarten und kurze Sätze aufmerksam lesen und einander zuordnen",
+        "Erkennen, an welcher Stelle in einer Erzählung eine Schwierigkeit entsteht",
+        "Verstehen, wie eine Lösung das Problem der Geschichte auflöst"
+      ],
+      "howToPlay": [
+        "Sieh dir die drei durcheinander gezeigten Bildkarten mit ihren Sätzen an (bei Bedarf auf „Vorlesen“ tippen)",
+        "Lies, welcher Teil gerade gesucht wird — der Anfang, das Problem oder die Lösung",
+        "Tippe die passende Bildkarte an; Dot freut sich, wenn du richtig liegst"
+      ],
+      "learningGoals": [
+        "Dein Kind erkennt den roten Faden einer Geschichte: Anfang, Problem und Lösung",
+        "Dein Kind liest kurze Sätze genau und ordnet sie der richtigen Rolle in der Erzählung zu",
+        "Dein Kind versteht, wie in einer Erzählung ein Problem entsteht und wieder gelöst wird"
+      ]
+    },
     "marina-headline-desk.main-topic.ri-2-2": {
       "about": [
         "Marina, der Otter, sitzt an ihrem Nachrichtentisch und schreibt Schlagzeilen. Dein Kind liest – oder hört über den Knopf „📖 Vorlesen“ – einen kurzen Sachtext aus drei Sätzen und tippt dann auf die Karte, die sagt, worum es in dem Text geht. Bei einem kleinen Text über Bienen wäre das zum Beispiel „Wie Bienen Honig machen.“ – und nicht die Karte, auf der nur ein einzelner Nebensatz oder ein fremder Fakt steht.",

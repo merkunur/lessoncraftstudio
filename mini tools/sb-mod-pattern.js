@@ -46,7 +46,13 @@
   global.SBModules.register({
     meta: {
       type: 'sb-pattern', version: 1, surfaces: ['dom'],
-      completionModes: ['auto'], minZone: { w: 560, h: 360 }
+      completionModes: ['auto'], minZone: { w: 560, h: 360 },
+      studio: {
+        label: 'What comes next?', group: 'Look & find', icon: '🔁',
+        blurb: 'A picture pattern with one gap — the child taps what fills it.',
+        defaults: { tiles: {}, sequence: [], choices: [], answerKey: '' },
+        pattern: true   /* bespoke pattern editor in the inspector */
+      }
     },
 
     validateTask: function (taskData, v) {

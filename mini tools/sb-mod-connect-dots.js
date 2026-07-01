@@ -44,7 +44,20 @@
   global.SBModules.register({
     meta: {
       type: 'sb-connect-dots', version: 1, surfaces: ['dom'],
-      completionModes: ['auto'], minZone: { w: 520, h: 420 }
+      completionModes: ['auto'], minZone: { w: 520, h: 420 },
+      studio: {
+        label: 'Connect the dots', group: 'Look & find', icon: '✏️',
+        blurb: 'Numbered dots — tapping them in order draws a shape.',
+        defaults: { points: [], closePath: true, fill: '#F7C948' },
+        fields: [
+          { key: 'closePath', kind: 'boolean', label: 'Close the shape at the end' },
+          { key: 'fill', kind: 'enum', label: 'Fill color', from: ['#F7C948', '#F2784B', '#8FBF6C', '#7FC4D8', '#E86A5A', '#FBF3E4'] }
+        ],
+        drawables: [{
+          kind: 'point', bind: 'points', ordered: true, min: 3, max: 12,
+          minSpacing: 120, addLabel: 'Add a dot'
+        }]
+      }
     },
 
     validateTask: function (taskData, v) {

@@ -29,6 +29,17 @@
     completionModes: ['check'],
     minZone: { w: 560, h: 480 },
 
+    studio: {
+      label: 'Match the pairs', group: 'Numbers & shapes', icon: '🃏',
+      blurb: 'The child taps two number cards that belong together (e.g. that make ten).',
+      defaults: { template: 'make-n', target: 10, cards: [3, 7, 1, 9, 4, 6] },
+      fields: [
+        { key: 'template', kind: 'enum', label: 'Pair rule', from: ['make-n', 'equal-value'], labels: ['Cards that make the target', 'Cards with equal value'] },
+        { key: 'target', kind: 'number', label: 'Target number', min: 2, max: 100, showIf: { template: 'make-n' } },
+        { key: 'cards', kind: 'chips', label: 'The cards (numbers)', numeric: true, min: 4, max: 12 }
+      ]
+    },
+
     buildTask: function (taskData) {
       return {
         setup: function (tool) {

@@ -39,8 +39,9 @@ const warns = [];
 function err(m) { errors.push(m); }
 function warn(m) { warns.push(m); }
 
-/* ---- URL → local file resolution ---- */
+/* ---- URL → local file resolution (decode %20 etc. — themes have spaces) ---- */
 function urlToLocal(src) {
+  try { src = decodeURIComponent(src); } catch (e) {}
   if (src.startsWith('/mini-tools/')) return path.join(MINI, src.replace('/mini-tools/', ''));
   if (src.startsWith('/image-library-webp/')) return path.join(REPO, src.replace(/^\//, ''));
   if (src.startsWith('/')) return path.join(REPO, 'frontend', 'public', src.replace(/^\//, ''));

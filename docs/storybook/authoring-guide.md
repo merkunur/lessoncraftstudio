@@ -118,6 +118,53 @@ rotate-device hint; portrait phones are degraded-by-design territory
 the zone automatically (cores authored with viewport-relative sizing can
 never spill a zone) — no per-story tuning needed.
 
+## 4b. Making a module appear in the Studio (`meta.studio`)
+
+The **Storybook Studio** (`docs/storybook/studio-quickstart.md`) generates its
+per-mechanic form and canvas drawables from an optional `studio` block on the
+module's `meta`. Add it and your module shows up in the mechanic picker with a
+form automatically — no Studio code changes (the open-socket principle).
+
+```js
+meta: {
+  type, version, surfaces, completionModes, minZone,
+  studio: {
+    label: 'Tap the answer',          // picker card + zone label
+    group: 'Look & find',             // picker category
+    icon: '👆', blurb: 'one sentence',
+    defaults: { … },                  // a VALID starter taskData (born ready)
+    fields: [ { key, kind, label, … } ],   // generates the inspector form
+    drawables: [ { kind:'rect'|'point', bind, … } ]   // canvas geometry (optional)
+  }
+}
+```
+
+**Field kinds:** `text` (`lowercase`,`maxLen`) · `number` (`min/max/step`) ·
+`boolean` (`memberOf:'arr'` = truth ⇒ key ∈ sibling array) · `enum`
+(`from:[…]`+`labels`, or `from:'endpoint:/studio/…'`) · `seed` (a Shuffle
+button — never shows a number) · `stringRef` (edits strings.json; the Studio
+generates + owns an immutable key `<page>.<hint>.<n>`) · `image` (library
+picker → creates/reuses an `img.*` asset; `vocabAutofill:true` fills sibling
+key+word) · `chips` (token row; `singleChar`, `numeric`, or `from` catalog) ·
+`group` (`optional`→nullable sub-object) · `list` (`itemFields`, `keyField`,
+`selfList` for bare-value lists) · `correctPick` (radio over a sibling list:
+`of:'options', by:'key'`).
+
+**Drawables** put geometry on the canvas: `rect` (a `list` whose items carry a
+`rect`; `fields` render in the object-detail panel; `badge` labels it;
+`minSize`, `defaultSize`) and `point` (`ordered`, `min/max`, `minSpacing`).
+Rect/point coordinates are stored **zone-relative**; the Studio converts to
+absolute only at render + edit, and re-encodes them if the zone moves (so
+objects stay put on the art).
+
+**No `studio` block?** The Studio still lists the module and gives a guarded
+raw-JSON editor for its `taskData`, with live `validateTask` and commit
+disabled while invalid. Nothing breaks; the form is just manual.
+
+Bespoke editors (`studio.pattern`, `studio.spotDiff`) exist for the two
+modules whose stored shape is a normalized encoding — they get hand-built
+inspector widgets instead of generated fields.
+
 ## 5. Writing a NEW interaction module (copy-the-pattern)
 
 Register into the socket (`mini tools/storybook-interaction.js` header

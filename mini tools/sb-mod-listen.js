@@ -52,7 +52,20 @@
   global.SBModules.register({
     meta: {
       type: 'sb-listen', version: 1, surfaces: ['dom'],
-      completionModes: ['auto'], minZone: { w: 520, h: 420 }
+      completionModes: ['auto'], minZone: { w: 520, h: 420 },
+      studio: {
+        label: 'Listen and tap', group: 'Letters & words', icon: '🔊',
+        blurb: 'A word is spoken out loud — the child taps the matching picture.',
+        defaults: { word: '', correct: '', options: [] },
+        fields: [
+          { key: 'word', kind: 'stringRef', label: 'The spoken word', keyHint: 'listen' },
+          { key: 'options', kind: 'list', label: 'The pictures', min: 2, max: 4, keyField: 'key', itemFields: [
+            { key: 'image', kind: 'image', label: 'Picture', vocabAutofill: true },
+            { key: 'key', kind: 'text', label: 'Name (unique)', lowercase: true }
+          ] },
+          { key: 'correct', kind: 'correctPick', label: 'The right picture', of: 'options', by: 'key' }
+        ]
+      }
     },
 
     validateTask: function (taskData, v) {

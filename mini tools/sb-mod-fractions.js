@@ -26,6 +26,18 @@
     completionModes: ['check'],
     minZone: { w: 480, h: 420 },
 
+    studio: {
+      label: 'Cut into equal parts', group: 'Numbers & shapes', icon: '◐',
+      blurb: 'The child taps cut lines to split a shape into equal parts.',
+      defaults: { shape: 'circle', n: 2, cut: 'v', seed: 1 },
+      fields: [
+        { key: 'shape', kind: 'enum', label: 'Shape', from: ['circle', 'square', 'rect', 'triangle', 'diamond', 'pentagon', 'hexagon', 'ellipse'] },
+        { key: 'n', kind: 'enum', label: 'How many parts', from: [2, 3, 4] },
+        { key: 'cut', kind: 'enum', label: 'Cut direction', from: ['v', 'h'] },
+        { key: 'seed', kind: 'seed', label: 'Shuffle' }
+      ]
+    },
+
     buildTask: function (taskData) {
       return {
         setup: function (tool) {

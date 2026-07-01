@@ -65,7 +65,22 @@
       version: 1,
       surfaces: ['dom'],
       completionModes: ['auto'],
-      minZone: { w: 480, h: 360 }
+      minZone: { w: 480, h: 360 },
+      studio: {
+        label: 'Find the objects', group: 'Look & find', icon: '🔍',
+        blurb: 'Objects hide in the scene — the child taps the ones you name.',
+        defaults: { find: [], targets: [] },
+        drawables: [{
+          kind: 'rect', bind: 'targets', badge: 'key', minSize: 112, defaultSize: 140,
+          addLabel: 'Add an object',
+          fields: [
+            { key: 'image', kind: 'image', label: 'Picture', vocabAutofill: true },
+            { key: 'key', kind: 'text', label: 'Name (unique)', lowercase: true },
+            { key: 'word', kind: 'stringRef', label: 'Spoken word', keyHint: 'word' },
+            { key: 'mustFind', kind: 'boolean', label: 'Must find this one', memberOf: 'find' }
+          ]
+        }]
+      }
     },
 
     validateTask: function (taskData, v) {

@@ -759,7 +759,15 @@
       version: 1,
       surfaces: ['dom'],
       completionModes: ['check'],
-      minZone: { w: 640, h: 520 }
+      minZone: { w: 640, h: 520 },
+      studio: {
+        label: 'Worksheet exercise', group: 'Worksheet', icon: '📄',
+        blurb: 'A ready-made worksheet exercise (spelled words, drag boards, connect, count).',
+        defaults: { package: '' },
+        fields: [
+          { key: 'package', kind: 'enum', label: 'The exercise', from: 'endpoint:/studio/exercises' }
+        ]
+      }
     },
 
     /* Author-time validation of the taskData itself; the referenced package's

@@ -50,7 +50,18 @@
   global.SBModules.register({
     meta: {
       type: 'sb-memory', version: 1, surfaces: ['dom'],
-      completionModes: ['auto'], minZone: { w: 520, h: 420 }
+      completionModes: ['auto'], minZone: { w: 520, h: 420 },
+      studio: {
+        label: 'Memory pairs', group: 'Look & find', icon: '🎴',
+        blurb: 'Face-down cards — the child flips two at a time to find the pairs.',
+        defaults: { pairs: [], cols: 3, seed: 1 },
+        fields: [
+          { key: 'pairs', kind: 'list', label: 'The pictures (each becomes a pair)', min: 2, max: 4, itemFields: [
+            { key: '__self', kind: 'image', label: 'Picture' }
+          ], selfList: true },
+          { key: 'seed', kind: 'seed', label: 'Shuffle' }
+        ]
+      }
     },
 
     validateTask: function (taskData, v) {

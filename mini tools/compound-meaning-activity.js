@@ -34,9 +34,37 @@
       nudgeReversed: 'Which word is it really a kind of?',
       nudgeWrong: 'Not quite — what do the two parts make?',
       nudgeHead: 'Think: what KIND of thing is it?'
+    },
+    de: {
+      predict: 'Was bedeutet dieses Wort?',
+      ticket: 'Welches Wort passt zu dieser Bedeutung?',
+      supply: 'Welches Bild fehlt?',
+      head: 'Was für ein Ding ist es?',
+      build: 'Setz die zwei Wörter zusammen!',
+      buildMean: 'Und jetzt — was bedeutet es?',
+      weld: 'Zusammensetzen!',
+      win: 'Super! Das hast du geknackt!',
+      nudgeMadeOf: 'Schau noch mal — ist es daraus gemacht oder dafür da?',
+      nudgeReversed: 'Achtung: Welches Wort steht hinten? Das sagt, was es ist.',
+      nudgeWrong: 'Fast! Welches Wort passt wirklich dazu?',
+      nudgeHead: 'Denk dran: Das letzte Wort sagt, was es ist.'
     }
   };
-  function txt(k) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (L[lang] || L.en)[k] || L.en[k] || k; }
+  /* image-key -> German display word (the parts are language-neutral images; only the shown word localizes) */
+  var PART_DE = {
+    hand: 'Hand', shoe: 'Schuh', tooth: 'Zahn', brush: 'Bürste', bag: 'Tasche', milk: 'Milch', jug: 'Kanne',
+    dog: 'Hund', bed: 'Bett', book: 'Buch', foot: 'Fuß', ball: 'Ball', egg: 'Ei', cup: 'Becher',
+    apple: 'Apfel', cake: 'Kuchen', rain: 'Regen', umbrella: 'Schirm'
+  };
+  function lang() { return (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; }
+  function txt(k) { var lg = lang(); return (L[lg] || L.en)[k] || L.en[k] || k; }
+  function partWord(noun) { return lang() === 'de' ? (PART_DE[noun] || cap(noun)) : cap(noun); }
+  /* grade by the stored `kind` tag for de (bypasses the EN composeMeaning string-match); EN stays on Core.isAnswer */
+  function cmIsAnswer(round, oi) {
+    if (lang() !== 'de') return Core.isAnswer(round, oi);
+    var c = round.choices[oi];
+    return round.cog === 'head' ? c.kind === 'head' : c.kind === 'correct';
+  }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function cap(s) { s = String(s || ''); return s.charAt(0).toUpperCase() + s.slice(1); }
   function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
@@ -67,21 +95,24 @@
   /* the welded compound as inline text — the HEAD (what it IS) tinted teal */
   function weldedHTML(entry) {
     var headIs2 = entry.head === 'part2';
-    var a = '<span class="cm-blk' + (headIs2 ? '' : ' cm-head') + '">' + esc(cap(entry.part1.noun)) + '</span>';
-    var b = '<span class="cm-blk' + (headIs2 ? ' cm-head' : '') + '">' + esc(entry.part2.noun) + '</span>';
+    var de = lang() === 'de';
+    var p1 = de ? partWord(entry.part1.noun) : cap(entry.part1.noun);
+    var p2 = de ? partWord(entry.part2.noun) : entry.part2.noun;
+    var a = '<span class="cm-blk' + (headIs2 ? '' : ' cm-head') + '">' + esc(p1) + '</span>';
+    var b = '<span class="cm-blk' + (headIs2 ? ' cm-head' : '') + '">' + esc(p2) + '</span>';
     return a + '<span class="cm-seam">·</span>' + b;
   }
 
   var CompoundMeaningActivity = {
     id: 'compound-meaning',
     strings: {
-      title: { en: "Skip's Word-Welding Yard" },
-      instruction: { en: 'Bring Skip two words — then figure out what the new word MEANS!' },
-      qpredict: { en: 'What does it mean?' },
-      qticket: { en: 'Which word means this?' },
-      qsupply: { en: 'Which part finishes it?' },
-      qhead: { en: 'What KIND of thing is it?' },
-      qbuild: { en: 'Weld it — then what does it mean?' }
+      title: { en: "Skip's Word-Welding Yard", de: 'Skips Wortwerkstatt' },
+      instruction: { en: 'Bring Skip two words — then figure out what the new word MEANS!', de: 'Skip setzt zwei Wörter zu einem zusammen. Finde heraus, was das neue Wort bedeutet!' },
+      qpredict: { en: 'What does it mean?', de: 'Was bedeutet dieses Wort?' },
+      qticket: { en: 'Which word means this?', de: 'Welches Wort passt zu dieser Bedeutung?' },
+      qsupply: { en: 'Which part finishes it?', de: 'Welches Bild fehlt?' },
+      qhead: { en: 'What KIND of thing is it?', de: 'Was für ein Ding ist es?' },
+      qbuild: { en: 'Weld it — then what does it mean?', de: 'Setz die zwei Wörter zusammen!' }
     },
 
     init: function (api) {
@@ -153,7 +184,9 @@
         fetch(tries[i]).then(function (r) { return r.ok ? r.json() : Promise.reject(); })
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
-            self._activityRow = row; self._pool = (row && row.params && row.params.rounds) || [];
+            self._activityRow = row;
+            var rp = (row && row.params) || {};
+            self._pool = ((rp.roundsL10n && rp.roundsL10n[lang()]) || rp.rounds) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -216,7 +249,7 @@
       var strip = el('div', 'cm-parts');
       [e.part1, e.part2].forEach(function (p, i) {
         var pc = el('div', 'cm-part' + (litWhich === i + 1 ? ' lit' : ''));
-        pc.innerHTML = '<img src="' + imgUrl(p) + '" alt="' + esc(cap(p.noun)) + '" onerror="this.style.visibility=\'hidden\'"><span class="cm-pw">' + esc(cap(p.noun)) + '</span>';
+        pc.innerHTML = '<img src="' + imgUrl(p) + '" alt="' + esc(partWord(p.noun)) + '" onerror="this.style.visibility=\'hidden\'"><span class="cm-pw">' + esc(partWord(p.noun)) + '</span>';
         strip.appendChild(pc);
       });
       root.appendChild(strip);
@@ -244,13 +277,13 @@
       var box = el('div', 'cm-choices' + (opts.two ? ' two' : ''));
       this._displayOrder.forEach(function (oi) {
         var c = r.choices[oi];
-        var label = c.text || c.word;
+        var label = c.text || (lang() === 'de' ? partWord(c.word) : c.word);
         var b = el('button', 'cm-card cm-card' + (opts.form ? ' form' : '') + (self._nonConf[oi] ? ' dim' : ''));
         b.type = 'button'; b.textContent = label; b.setAttribute('aria-label', label);
         if (opts.form) b.classList.add('form');
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[oi] || self._token !== tok) return;
-          if (Core.isAnswer(r, oi)) self._resolve();
+          if (cmIsAnswer(r, oi)) self._resolve();
           else { self._nonConf[oi] = 1; self._nudge(c.kind); }
         });
         box.appendChild(b);
@@ -264,14 +297,18 @@
       this._choiceList(root, {});
     },
     _renderTicket: function (root) {
-      var m = el('div', 'cm-mean'); m.textContent = Core.composeMeaning(this._round.entry); root.appendChild(m);
+      var e = this._round.entry;
+      var m = el('div', 'cm-mean'); m.textContent = (lang() === 'de' && e.meaningDE) ? e.meaningDE : Core.composeMeaning(e); root.appendChild(m);
       this._partsStrip(root);
       this._choiceList(root, { form: true });
     },
     _renderHead: function (root) {
-      var w = el('div', 'cm-word'); w.innerHTML = weldedHTML(this._round.entry); root.appendChild(w);
+      var e = this._round.entry, ch = this._round.choices;
+      var w = el('div', 'cm-word'); w.innerHTML = weldedHTML(e); root.appendChild(w);
       var q = el('div', 'cm-line'); q.style.color = '#0F4A40'; q.style.font = '700 .92rem/1.2 Nunito,sans-serif';
-      q.textContent = 'Is a ' + this._round.entry.compound + ' a kind of ' + this._round.choices[0].word + ' or a kind of ' + this._round.choices[1].word + '?';
+      q.textContent = lang() === 'de'
+        ? 'Ist ' + (e.artikel || 'ein') + ' ' + e.compound + ' eine Art ' + partWord(ch[0].word) + ' oder eine Art ' + partWord(ch[1].word) + '?'
+        : 'Is a ' + e.compound + ' a kind of ' + ch[0].word + ' or a kind of ' + ch[1].word + '?';
       root.appendChild(q);
       this._choiceList(root, { two: true });
     },
@@ -284,11 +321,11 @@
       this._displayOrder.forEach(function (oi) {
         var c = r.choices[oi];
         var b = el('button', 'cm-tile cm-img-card' + (self._nonConf[oi] ? ' dim' : ''));
-        b.type = 'button'; b.setAttribute('aria-label', cap(c.noun));
-        b.innerHTML = '<img src="' + imgUrl(c) + '" alt="' + esc(cap(c.noun)) + '" onerror="this.style.visibility=\'hidden\'"><span class="cm-pw">' + esc(cap(c.noun)) + '</span>';
+        b.type = 'button'; b.setAttribute('aria-label', partWord(c.noun));
+        b.innerHTML = '<img src="' + imgUrl(c) + '" alt="' + esc(partWord(c.noun)) + '" onerror="this.style.visibility=\'hidden\'"><span class="cm-pw">' + esc(partWord(c.noun)) + '</span>';
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[oi] || self._token !== tok) return;
-          if (Core.isAnswer(r, oi)) self._resolve();
+          if (cmIsAnswer(r, oi)) self._resolve();
           else { self._nonConf[oi] = 1; self._nudge(c.kind); }
         });
         grid.appendChild(b);
@@ -302,7 +339,7 @@
         var pz = el('div', 'cm-parts');
         [r.entry.part1, r.entry.part2].forEach(function (p, i) {
           var pc = el('div', 'cm-part');
-          pc.innerHTML = '<img src="' + imgUrl(p) + '" alt="' + esc(cap(p.noun)) + '" onerror="this.style.visibility=\'hidden\'"><span class="cm-pw">' + esc(cap(p.noun)) + '</span>';
+          pc.innerHTML = '<img src="' + imgUrl(p) + '" alt="' + esc(partWord(p.noun)) + '" onerror="this.style.visibility=\'hidden\'"><span class="cm-pw">' + esc(partWord(p.noun)) + '</span>';
           pz.appendChild(pc);
           if (i === 0) { var plus = el('div', 'cm-plus'); plus.textContent = '+'; pz.appendChild(plus); }
         });
@@ -323,7 +360,7 @@
     _srMirror: function () {
       var r = this._round, e = r.entry;
       var wrap = el('div', 'cm-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var parts = cap(e.part1.noun) + ' and ' + cap(e.part2.noun);
+      var parts = partWord(e.part1.noun) + (lang() === 'de' ? ' und ' : ' and ') + partWord(e.part2.noun);
       wrap.innerHTML = '<p>' + esc(e.compound) + ' — ' + esc(parts) + '</p>';
       return wrap;
     },

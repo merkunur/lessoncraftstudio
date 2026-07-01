@@ -82,12 +82,85 @@
             { "text": "a bed for dogs", "kind": "correct" },
             { "text": "a dog for beds", "kind": "reversed" }
           ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "compound.de-handschuh", "cog": "predict",
+            "entry": { "part1": { "noun": "hand", "themeDir": "body parts" }, "part2": { "noun": "shoe", "themeDir": "clothing" }, "head": "part2", "compound": "Handschuh" },
+            "choices": [
+              { "text": "ein Schuh aus Händen", "kind": "made-of" },
+              { "text": "ein Schuh für die Hand", "kind": "correct" },
+              { "text": "eine Hand für Schuhe", "kind": "reversed" }
+            ] },
+          { "id": "compound.de-zahnbuerste", "cog": "predict",
+            "entry": { "part1": { "noun": "tooth", "themeDir": "body parts" }, "part2": { "noun": "brush", "themeDir": "around the house" }, "head": "part2", "compound": "Zahnbürste" },
+            "choices": [
+              { "text": "eine Bürste aus Zähnen", "kind": "made-of" },
+              { "text": "eine Bürste für die Zähne", "kind": "correct" },
+              { "text": "ein Zahn für Bürsten", "kind": "reversed" }
+            ] },
+          { "id": "compound.de-handtasche", "cog": "predict",
+            "entry": { "part1": { "noun": "hand", "themeDir": "body parts" }, "part2": { "noun": "bag", "themeDir": "At the Supermarket" }, "head": "part2", "compound": "Handtasche" },
+            "choices": [
+              { "text": "eine Tasche aus Händen", "kind": "made-of" },
+              { "text": "eine Hand für Taschen", "kind": "reversed" },
+              { "text": "eine Tasche für die Hand", "kind": "correct" }
+            ] },
+          { "id": "compound.de-milchkanne", "cog": "build",
+            "entry": { "part1": { "noun": "milk", "themeDir": "At the Supermarket" }, "part2": { "noun": "jug", "themeDir": "kitchen tools" }, "head": "part2", "compound": "Milchkanne" },
+            "choices": [
+              { "text": "eine Kanne aus Milch", "kind": "made-of" },
+              { "text": "eine Kanne für Milch", "kind": "correct" },
+              { "text": "eine Kanne für Wasser", "kind": "wrong-mod" }
+            ] },
+          { "id": "compound.de-hundebett", "cog": "ticket",
+            "entry": { "part1": { "noun": "dog", "themeDir": "animals" }, "part2": { "noun": "bed", "themeDir": "around the house" }, "head": "part2", "compound": "Hundebett", "meaningDE": "ein Bett für Hunde" },
+            "choices": [
+              { "text": "Betthund", "kind": "reversed" },
+              { "text": "Hundebett", "kind": "correct" },
+              { "text": "Kinderbett", "kind": "wrong-mod" }
+            ] },
+          { "id": "compound.de-buechertasche", "cog": "ticket",
+            "entry": { "part1": { "noun": "book", "themeDir": "classroom" }, "part2": { "noun": "bag", "themeDir": "At the Supermarket" }, "head": "part2", "compound": "Büchertasche", "meaningDE": "eine Tasche für Bücher" },
+            "choices": [
+              { "text": "Schultasche", "kind": "wrong-mod" },
+              { "text": "Büchertasche", "kind": "correct" },
+              { "text": "Reisetasche", "kind": "wrong-mod" }
+            ] },
+          { "id": "compound.de-fussball", "cog": "supply", "missing": "modifier", "frame": "ein Ball für den ___",
+            "entry": { "part1": { "noun": "foot", "themeDir": "body parts" }, "part2": { "noun": "ball", "themeDir": "toys" }, "head": "part2", "compound": "Fußball" },
+            "choices": [
+              { "noun": "hand", "themeDir": "body parts", "kind": "wrong" },
+              { "noun": "foot", "themeDir": "body parts", "kind": "correct" },
+              { "noun": "tooth", "themeDir": "body parts", "kind": "wrong" }
+            ] },
+          { "id": "compound.de-eierbecher", "cog": "supply", "missing": "modifier", "frame": "ein Becher für ___",
+            "entry": { "part1": { "noun": "egg", "themeDir": "At the Supermarket" }, "part2": { "noun": "cup", "themeDir": "around the house" }, "head": "part2", "compound": "Eierbecher" },
+            "choices": [
+              { "noun": "apple", "themeDir": "At the Supermarket", "kind": "wrong" },
+              { "noun": "egg", "themeDir": "At the Supermarket", "kind": "correct" },
+              { "noun": "ball", "themeDir": "toys", "kind": "wrong" }
+            ] },
+          { "id": "compound.de-apfelkuchen", "cog": "head",
+            "entry": { "part1": { "noun": "apple", "themeDir": "At the Supermarket" }, "part2": { "noun": "cake", "themeDir": "4th of July" }, "head": "part2", "compound": "Apfelkuchen", "artikel": "ein" },
+            "choices": [
+              { "word": "apple", "kind": "mod" },
+              { "word": "cake", "kind": "head" }
+            ] },
+          { "id": "compound.de-regenschirm", "cog": "head",
+            "entry": { "part1": { "noun": "rain", "themeDir": "spring" }, "part2": { "noun": "umbrella", "themeDir": "accessories" }, "head": "part2", "compound": "Regenschirm", "artikel": "ein" },
+            "choices": [
+              { "word": "rain", "kind": "mod" },
+              { "word": "umbrella", "kind": "head" }
+            ] }
+        ]
+      }
     },
-    "slug": { "en": "skips-word-welding-yard" },
-    "page_title": { "en": "Skip's Word-Welding Yard — Build & Mean Compound Words" },
+    "slug": { "en": "skips-word-welding-yard", "de": "zusammengesetzte-woerter-komposita-erkennen-klasse-2" },
+    "page_title": { "en": "Skip's Word-Welding Yard — Build & Mean Compound Words", "de": "Zusammengesetzte Wörter: Was bedeuten Komposita? Klasse 2" },
     "page_intro": {
-      "en": "Skip the squirrel welds word-blocks together! Bring two words and figure out what the NEW compound word means — a fishbowl is a bowl FOR fish, not a bowl made OF fish. A Grade 2 vocabulary game aligned to Common Core L.2.4.d: use the meaning of the parts to predict the meaning of compound words."
+      "en": "Skip the squirrel welds word-blocks together! Bring two words and figure out what the NEW compound word means — a fishbowl is a bowl FOR fish, not a bowl made OF fish. A Grade 2 vocabulary game aligned to Common Core L.2.4.d: use the meaning of the parts to predict the meaning of compound words.",
+      "de": "Zusammengesetzte Wörter verstehen: Skip setzt zwei Bausteine zusammen, dein Kind findet die Bedeutung. Kostenlos & interaktiv für Klasse 1 und 2."
     },
     "kid_prompt_template": "What does the new word MEAN?"
   }

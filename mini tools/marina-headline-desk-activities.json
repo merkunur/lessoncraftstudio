@@ -78,12 +78,72 @@
             { "id": "o3", "kind": "topic", "text": "What a seed needs to grow." }
           ]
         }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "bees", "band": 1,
+            "story": ["Bienen leben zusammen in einem Bienenstock.", "Sie fliegen von Blüte zu Blüte.", "Zu Hause machen sie aus dem Nektar Honig."],
+            "options": [
+              { "id": "o1", "kind": "topic", "text": "Wie Bienen Honig machen." },
+              { "id": "o2", "kind": "detail", "text": "Bienen fliegen von Blüte zu Blüte." },
+              { "id": "o3", "kind": "offtopic", "text": "Spinnen weben Netze." }
+            ] },
+          { "id": "rain", "band": 1,
+            "story": ["Die Sonne wärmt das Wasser in den Seen.", "Das Wasser steigt hoch und wird zu Wolken.", "Sind die Wolken schwer, fällt der Regen."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Die Sonne wärmt das Wasser in den Seen." },
+              { "id": "o2", "kind": "offtopic", "text": "Kamele trinken selten." },
+              { "id": "o3", "kind": "topic", "text": "Woher der Regen kommt." }
+            ] },
+          { "id": "frog", "band": 1,
+            "story": ["Ein Frosch beginnt als kleines Ei.", "Aus dem Ei schlüpft eine Kaulquappe, die schwimmt.", "Die Kaulquappe bekommt Beine und wird ein Frosch."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Aus dem Ei schlüpft eine Kaulquappe." },
+              { "id": "o2", "kind": "topic", "text": "Wie ein Frosch groß wird." },
+              { "id": "o3", "kind": "offtopic", "text": "Eulen jagen Mäuse." }
+            ] },
+          { "id": "teeth", "band": 2,
+            "story": ["Zähneputzen hält die Zähne sauber und stark.", "Es wischt Reste von Essen und Zucker weg.", "Saubere Zähne helfen beim Kauen und Lächeln."],
+            "options": [
+              { "id": "o1", "kind": "topic", "text": "Warum wir die Zähne putzen." },
+              { "id": "o2", "kind": "detail", "text": "Es wischt Essen und Zucker weg." },
+              { "id": "o3", "kind": "offtopic", "text": "Giraffen sind groß." }
+            ] },
+          { "id": "volcano", "band": 2,
+            "story": ["Tief unter dem Vulkan wartet heißes Gestein.", "Der Druck steigt und drückt es nach oben.", "Das Gestein bricht als glühende Lava heraus."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Tief unter dem Vulkan wartet heißes Gestein." },
+              { "id": "o2", "kind": "offtopic", "text": "Pinguine watscheln." },
+              { "id": "o3", "kind": "topic", "text": "Wie ein Vulkan ausbricht." }
+            ] },
+          { "id": "library", "band": 2,
+            "story": ["Eine Bücherei ist voll mit Büchern.", "Du suchst ein Buch aus und nimmst es mit.", "Bist du fertig, bringst du es zurück."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Du suchst ein Buch aus und nimmst es mit." },
+              { "id": "o2", "kind": "topic", "text": "Wie eine Bücherei Bücher verleiht." },
+              { "id": "o3", "kind": "offtopic", "text": "Fledermäuse schlafen tagsüber." }
+            ] },
+          { "id": "wind", "band": 3,
+            "story": ["Bewegte Luft nennen wir Wind.", "Wind kann ein Segelboot über den See schieben.", "Er kann auch die Flügel einer Windmühle drehen."],
+            "options": [
+              { "id": "o1", "kind": "topic", "text": "Was der Wind kann." },
+              { "id": "o2", "kind": "detail", "text": "Wind kann ein Segelboot über den See schieben." },
+              { "id": "o3", "kind": "offtopic", "text": "Schnecken sind langsam." }
+            ] },
+          { "id": "seed", "band": 3,
+            "story": ["Ein Samen braucht Sonne, Wasser und Erde.", "Seine Wurzeln reichen nach unten zum Trinken.", "Dann wächst ein grüner Trieb nach oben."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Seine Wurzeln reichen nach unten zum Trinken." },
+              { "id": "o2", "kind": "offtopic", "text": "Füchse haben rotes Fell." },
+              { "id": "o3", "kind": "topic", "text": "Was ein Samen zum Wachsen braucht." }
+            ] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "marinas-headline-desk" },
-    "page_title": { "en": "Marina's Headline Desk — What's It Mostly About? (Grade 2)" },
-    "page_intro": { "en": "Marina the otter writes headlines at the news desk, and a headline has to say what a story is MOSTLY about. Read each short article, then tap the card that names its main topic — not one small detail it mentions, and not something off the page. A warm Grade 2 reading game about finding the main topic of an informational text, aligned to Common Core RI.2.2." },
+    "slug": { "en": "marinas-headline-desk", "de": "hauptthema-eines-sachtexts-erkennen-klasse-3" },
+    "page_title": { "en": "Marina's Headline Desk — What's It Mostly About? (Grade 2)", "de": "Das Hauptthema eines Sachtexts erkennen" },
+    "page_intro": { "en": "Marina the otter writes headlines at the news desk, and a headline has to say what a story is MOSTLY about. Read each short article, then tap the card that names its main topic — not one small detail it mentions, and not something off the page. A warm Grade 2 reading game about finding the main topic of an informational text, aligned to Common Core RI.2.2.", "de": "Erkenne das Hauptthema eines kurzen Sachtexts & unterscheide es vom kleinen Detail – kostenlos & interaktiv für Klasse 3." },
     "kid_prompt_template": "marina-headline-desk"
   }
 ]

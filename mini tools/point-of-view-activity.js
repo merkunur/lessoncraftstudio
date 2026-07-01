@@ -16,16 +16,26 @@
   'use strict';
 
   var Core = global.PointOfViewCore;
+  var LANG = 'en';
 
   var L = {
     en: {
       win: 'Yes! {note}', winNote: 'That window has just the right view!',
       nHigh: 'Who is way up HIGH? Up high, things look tiny and far.',
       nLow: 'Who is down LOW by the water? Down low, things look big and close.'
+    },
+    de: {
+      win: 'Richtig! {note}', winNote: 'Genau aus diesem Fenster wurde es gesehen!',
+      nHigh: 'Wer sitzt ganz oben? Von ganz oben sieht alles winzig und weit weg aus.',
+      nLow: 'Wer ist ganz unten am Wasser? Von ganz unten sieht alles riesig und ganz nah aus.'
     }
   };
-  var POSLABEL = { high: 'Up high', mid: 'Middle', low: 'Down low' };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  var POSLABEL = {
+    en: { high: 'Up high', mid: 'Middle', low: 'Down low' },
+    de: { high: 'Ganz oben', mid: 'In der Mitte', low: 'Ganz unten' }
+  };
+  function poslabel(pos) { return (POSLABEL[LANG] && POSLABEL[LANG][pos]) || POSLABEL.en[pos]; }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   /* fixed creature glyphs (centered ~(18,18) in a 36 box) */
@@ -69,13 +79,14 @@
   var PointOfViewActivity = {
     id: 'point-of-view-activity',
     strings: {
-      title: { en: "Lumen's Lighthouse Windows" },
-      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?' },
-      q: { en: '“{line}” Who said it?' }
+      title: { en: "Lumen's Lighthouse Windows", de: 'Lumens Leuchtturm' },
+      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?', de: 'Lies den Satz. Von ganz oben sieht alles winzig und weit weg aus. Von ganz unten sieht alles riesig und ganz nah aus. Tippe auf das Fenster, aus dem der Satz erzählt wird.' },
+      q: { en: '“{line}” Who said it?', de: '„{line}“ Wer erzählt das?' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._lit = -1; this._charOrder = null;
@@ -121,7 +132,7 @@
         fetch(tries[i]).then(function (r) { return r.ok ? r.json() : Promise.reject(); })
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
-            self._activityRow = row; self._pool = (row && row.params && row.params.rounds) || [];
+            self._activityRow = row; self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -179,10 +190,10 @@
       (this._charOrder || chars.map(function (_, i) { return i; })).forEach(function (ci) {
         var c = chars[ci];
         var b = el('button', 'lw-cand' + (self._nonConf[ci] ? ' dim' : '') + (self._lit === ci ? ' lit' : ''));
-        b.type = 'button'; b.setAttribute('aria-label', c.name + ', ' + POSLABEL[c.pos]); b.setAttribute('data-ci', ci);
+        b.type = 'button'; b.setAttribute('aria-label', c.name + ', ' + poslabel(c.pos)); b.setAttribute('data-ci', ci);
         var tw = el('div'); tw.style.width = '100%'; tw.style.display = 'flex'; tw.style.justifyContent = 'center'; tw.innerHTML = windowSVG(c.pos, c.glyph);
         var nm = el('div', 'lw-name'); nm.textContent = c.name;
-        var ps = el('div', 'lw-pos'); ps.textContent = POSLABEL[c.pos];
+        var ps = el('div', 'lw-pos'); ps.textContent = poslabel(c.pos);
         b.append(tw, nm, ps);
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[ci] || self._token !== tok) return;
@@ -212,7 +223,12 @@
 
     _srMirror: function () {
       var r = this._round, wrap = el('div', 'lw-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var who = (r.chars || []).map(function (c) { return c.name + ' is ' + POSLABEL[c.pos].toLowerCase(); }).join('; ');
+      if (LANG === 'de') {
+        var whoDe = (r.chars || []).map(function (c) { return c.name + ' ist ' + poslabel(c.pos); }).join(', ');
+        wrap.innerHTML = '<p>' + (r.event || '') + ' Der Satz „' + r.line + '“ wird aus einem Fenster erzählt. ' + whoDe + '. Wer erzählt ihn?</p>';
+        return wrap;
+      }
+      var who = (r.chars || []).map(function (c) { return c.name + ' is ' + poslabel(c.pos).toLowerCase(); }).join('; ');
       wrap.innerHTML = '<p>' + (r.event || '') + ' The line "' + r.line + '" is told from one window. ' + who + '. Who is telling it?</p>';
       return wrap;
     },

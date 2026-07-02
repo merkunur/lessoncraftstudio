@@ -1,0 +1,17 @@
+{
+  "app": "big-small",
+  "family": "C",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "2f3e573129d0bde6ecd6696aa9ce21beccfde549",
+  "visualSha1": "d238f67fadd0e48f9b0bebde5ece81a330567ef7",
+  "elementCounts": {
+    "targets": 2,
+    "countBlanks": 0
+  }
+}

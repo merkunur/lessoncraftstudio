@@ -1,0 +1,17 @@
+{
+  "app": "chart-count",
+  "family": "D",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "30fc53c5b6bb0dba661c180c9d4b65d656587244",
+  "visualSha1": "82a20b90eb974b701a96d0d477ca8db886b44b4d",
+  "elementCounts": {
+    "chartDims": 1,
+    "columns": 6
+  }
+}

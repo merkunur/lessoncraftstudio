@@ -53,6 +53,11 @@ const APP_PARAMS = {
   'shadow-match': { theme: 'animals' },
   'pattern-worksheet': { theme: 'animals' },
   'bingo': { theme: 'alphabet' },
+  'picture-sort': { theme: 'animals' },
+  'chart-count': { theme: 'animals' },
+  'wordsearch': { theme: 'animals', vocabKeys: ['cat'] },
+  'picture-path': { theme: 'animals' },
+  'treasure-hunt': { theme: 'animals' },
 };
 const SECOND_LOCALE = 'es';
 

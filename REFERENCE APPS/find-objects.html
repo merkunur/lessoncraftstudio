@@ -1516,6 +1516,10 @@ function updateTranslations() {
 
             // Generate initial worksheet with default settings
             async function generateInitialWorksheet() {
+                // Headless SEP isolation: __sepGenerate drives its own seeded generateWorksheet();
+                // the auto-run initial generate would race it + consume the seeded Math.random.
+                // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+                if (/[?&]__sbHeadless=1/.test(location.search)) return;
                 try {
                     console.log('Starting initial worksheet generation...');
 
@@ -1685,6 +1689,56 @@ function updateTranslations() {
                     downloadInteractiveHtml(worksheetCanvas, 'find_objects_interactive.html', { loadingMode: 'inline' }));
             }
             exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
+
+            // --- SEP hook — Family C choice-tap (Odd One Out mode). Scene items ->
+            //     choiceOptions; tap the odd one (isTarget). rects are world TOP-LEFT.
+            //     cropExerciseBBox spans the scene. Additive headless-only globals;
+            //     operator/browser path untouched. ---
+            (function () {
+                function _sbSepOpts(cropRect, returnPackage) {
+                    return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                        exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isFindObjectsItem === true; }); },
+                        family: 'C', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+                }
+                var _b = document.getElementById('sepExportBtn');
+                if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+                window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+                window.__sepGenerate = async function (spec) {
+                    spec = spec || {};
+                    var loc = spec.locale || 'en';
+                    window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                    var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                    try { if (activityModeSelect) activityModeSelect.value = 'oddoneout'; activityModeSelect.dispatchEvent(new Event('change')); } catch (e) {}
+                    try {
+                        if (themeSelect) {
+                            var _has = Array.prototype.some.call(themeSelect.options, function (o) { return o.value === theme; });
+                            if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; themeSelect.add(_o); }
+                            themeSelect.value = theme;
+                        }
+                    } catch (e) {}
+                    try { await loadDictionary(); } catch (e) {}
+                    try {
+                        if (document.fonts && document.fonts.load) {
+                            await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                            await document.fonts.ready;
+                        }
+                    } catch (e) {}
+                    var _r = Math.random;
+                    try {
+                        for (var _att = 0; _att < 3; _att++) {
+                            Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                            try { await generateWorksheet(); } catch (e) {}
+                            var _ok = false;
+                            for (var _i = 0; _i < 300; _i++) {
+                                if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isFindObjectsItem === true; }) && worksheetCanvas.getObjects().some(function (o) { return o.isTargetItem === true; })) { _ok = true; break; }
+                                await new Promise(function (r) { setTimeout(r, 50); });
+                            }
+                            if (_ok) break;
+                        }
+                    } finally { Math.random = _r; }
+                    return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+                };
+            }());
             downloadPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
             downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
 
@@ -4694,6 +4748,11 @@ function showMessage(msg, type = 'info', duration = 3000) {
                 scoring: 'strict',
                 mode: pd.mode,
                 items: items,
+                // SEP Family-C choice-tap emission (Edit-2): scene items -> choiceOptions;
+                // tap the item(s) flagged isTarget. In oddoneout mode exactly one item is
+                // the target (tap the odd one out); rects are already world TOP-LEFT. The
+                // familyC player flashes-and-ignores wrong taps. Emit-only.
+                choiceOptions: items.map(function (it) { return { rect: it.rect, isCorrect: !!it.isTarget }; }),
                 legend: legendBundle,
                 imageRefs: {},
                 seoMeta: seoMeta,

@@ -49,6 +49,7 @@ const APP_PARAMS = {
   'alphabet-train': { theme: 'alphabet' },
   'pattern-train': { theme: 'animals' },
   'crossword': { theme: 'animals' },
+  'find-objects': { theme: 'animals' },
 };
 const SECOND_LOCALE = 'es';
 

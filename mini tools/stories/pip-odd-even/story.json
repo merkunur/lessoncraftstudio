@@ -1,0 +1,478 @@
+{
+  "schemaVersion": "sb-1",
+  "id": "pip-odd-even",
+  "title": "@story.title",
+  "locales": [
+    "en"
+  ],
+  "theme": {
+    "letterboxColor": "#FBF3E4",
+    "transition": "crossfade"
+  },
+  "cast": [
+    {
+      "id": "pip",
+      "name": "@cast.pip.name",
+      "role": "guide",
+      "atlasBase": "pip",
+      "poses": [
+        "neutral"
+      ]
+    }
+  ],
+  "assets": {
+    "scene1": {
+      "kind": "image",
+      "src": "/mini-tools/stories/pips-picnic/scenes/page-01.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "pip": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/pips-picnic/cast/pip/pip.base.json"
+    }
+  },
+  "reward": {
+    "id": "story.pip-odd-even",
+    "label": {
+      "en": "Number Discovery"
+    },
+    "emoji": "🔢"
+  },
+  "pages": [
+    {
+      "id": "p01",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p01-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 520,
+          "y": 200,
+          "w": 560,
+          "h": 420
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "even",
+          "options": [
+            {
+              "key": "odd",
+              "text": "3"
+            },
+            {
+              "key": "even",
+              "text": "2"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    },
+    {
+      "id": "p02",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p02-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 520,
+          "y": 200,
+          "w": 560,
+          "h": 420
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "odd",
+          "options": [
+            {
+              "key": "even",
+              "text": "4"
+            },
+            {
+              "key": "odd",
+              "text": "5"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    },
+    {
+      "id": "p03",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p03-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 520,
+          "y": 200,
+          "w": 560,
+          "h": 420
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "even",
+          "options": [
+            {
+              "key": "odd",
+              "text": "7"
+            },
+            {
+              "key": "even",
+              "text": "6"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    },
+    {
+      "id": "p04",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p04-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 520,
+          "y": 200,
+          "w": 560,
+          "h": 420
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "odd",
+          "options": [
+            {
+              "key": "even",
+              "text": "8"
+            },
+            {
+              "key": "odd",
+              "text": "9"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    },
+    {
+      "id": "p05",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p05-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 520,
+          "y": 200,
+          "w": 560,
+          "h": 420
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "even",
+          "options": [
+            {
+              "key": "odd",
+              "text": "11"
+            },
+            {
+              "key": "even",
+              "text": "10"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    },
+    {
+      "id": "p06",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p06-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 520,
+          "y": 200,
+          "w": 560,
+          "h": 420
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "odd",
+          "options": [
+            {
+              "key": "even",
+              "text": "12"
+            },
+            {
+              "key": "odd",
+              "text": "13"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    },
+    {
+      "id": "p07",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p07-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 520,
+          "y": 200,
+          "w": 560,
+          "h": 420
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "even",
+          "options": [
+            {
+              "key": "odd",
+              "text": "15"
+            },
+            {
+              "key": "even",
+              "text": "14"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    },
+    {
+      "id": "p08",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p08-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 520,
+          "y": 200,
+          "w": 560,
+          "h": 420
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "even",
+          "options": [
+            {
+              "key": "odd",
+              "text": "17"
+            },
+            {
+              "key": "even",
+              "text": "16"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    }
+  ]
+}

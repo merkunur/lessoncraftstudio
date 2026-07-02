@@ -70,7 +70,11 @@ blueprint  --gate-->  (fix per playbook)  --blueprint-to-skeleton-->  story.json
 - **`assets`** is the worklist. `placeholder:true` = art not yet final (gen-placeholder-art fills it);
   the gate only requires the asset be DECLARED, not that final art exists. Every asset a page references
   must appear here (asset-gap gate).
-- **`reward`** becomes the story's completion keepsake.
+- **`interaction.zone`** is a PROVISIONAL starting rectangle. Use the module's `minZone`
+  (authoring-guide §4) or copy the zone from the nearest exemplar for that module — final coordinates
+  are tuned visually in the Studio (step 5). The design gate only needs a sane rect; don't agonize over
+  exact pixels in the blueprint.
+- **`reward`** becomes the story's completion keepsake. Any thematic emoji is fine (cosmetic).
 
 ## How it's gated + expanded
 

@@ -1,0 +1,291 @@
+{
+  "$schema": "blueprint-1",
+  "id": "pip-odd-even",
+  "grade": "2",
+  "arc": "discovery",
+  "teachingPoint": {
+    "id": "g2-odd-even",
+    "grade": "2",
+    "cssCode": "2.OA.C.3",
+    "strand": "Operations & Algebraic Thinking",
+    "label": "Odd and even"
+  },
+  "guide": "pip",
+  "reward": {
+    "id": "story.pip-odd-even",
+    "emoji": "🔢",
+    "label": "Number Discovery"
+  },
+  "assets": [
+    {
+      "id": "scene1",
+      "kind": "image",
+      "src": "/mini-tools/stories/pips-picnic/scenes/page-01.webp",
+      "size": { "w": 1600, "h": 1000 },
+      "placeholder": true
+    },
+    {
+      "id": "pip",
+      "kind": "atlas",
+      "src": "/mini-tools/stories/pips-picnic/cast/pip/pip.base.json"
+    }
+  ],
+  "pages": [
+    {
+      "scene": { "image": "scene1" },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "pip",
+          "pose": "neutral",
+          "anchor": { "x": 200, "y": 880 },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": [
+        {
+          "id": "p01-l01",
+          "text": "Let's discover what odd and even means! Which is even?"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": { "x": 520, "y": 200, "w": 560, "h": 420 },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "even",
+          "options": [
+            { "key": "odd", "text": "3" },
+            { "key": "even", "text": "2" }
+          ]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 800 }
+    },
+    {
+      "scene": { "image": "scene1" },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "pip",
+          "pose": "neutral",
+          "anchor": { "x": 200, "y": 880 },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": [
+        {
+          "id": "p02-l01",
+          "text": "Which one is odd? Tap it!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": { "x": 520, "y": 200, "w": 560, "h": 420 },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "odd",
+          "options": [
+            { "key": "even", "text": "4" },
+            { "key": "odd", "text": "5" }
+          ]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 800 }
+    },
+    {
+      "scene": { "image": "scene1" },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "pip",
+          "pose": "neutral",
+          "anchor": { "x": 200, "y": 880 },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": [
+        {
+          "id": "p03-l01",
+          "text": "Can you find the even number?"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": { "x": 520, "y": 200, "w": 560, "h": 420 },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "even",
+          "options": [
+            { "key": "odd", "text": "7" },
+            { "key": "even", "text": "6" }
+          ]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 800 }
+    },
+    {
+      "scene": { "image": "scene1" },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "pip",
+          "pose": "neutral",
+          "anchor": { "x": 200, "y": 880 },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": [
+        {
+          "id": "p04-l01",
+          "text": "Which is odd?"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": { "x": 520, "y": 200, "w": 560, "h": 420 },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "odd",
+          "options": [
+            { "key": "even", "text": "8" },
+            { "key": "odd", "text": "9" }
+          ]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 800 }
+    },
+    {
+      "scene": { "image": "scene1" },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "pip",
+          "pose": "neutral",
+          "anchor": { "x": 200, "y": 880 },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": [
+        {
+          "id": "p05-l01",
+          "text": "Tap the even number."
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": { "x": 520, "y": 200, "w": 560, "h": 420 },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "even",
+          "options": [
+            { "key": "odd", "text": "11" },
+            { "key": "even", "text": "10" }
+          ]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 800 }
+    },
+    {
+      "scene": { "image": "scene1" },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "pip",
+          "pose": "neutral",
+          "anchor": { "x": 200, "y": 880 },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": [
+        {
+          "id": "p06-l01",
+          "text": "Which one is odd?"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": { "x": 520, "y": 200, "w": 560, "h": 420 },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "odd",
+          "options": [
+            { "key": "even", "text": "12" },
+            { "key": "odd", "text": "13" }
+          ]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 800 }
+    },
+    {
+      "scene": { "image": "scene1" },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "pip",
+          "pose": "neutral",
+          "anchor": { "x": 200, "y": 880 },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": [
+        {
+          "id": "p07-l01",
+          "text": "Can you find the even one?"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": { "x": 520, "y": 200, "w": 560, "h": 420 },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "even",
+          "options": [
+            { "key": "odd", "text": "15" },
+            { "key": "even", "text": "14" }
+          ]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 800 }
+    },
+    {
+      "scene": { "image": "scene1" },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "pip",
+          "pose": "neutral",
+          "anchor": { "x": 200, "y": 880 },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": [
+        {
+          "id": "p08-l01",
+          "text": "You found them all! You discovered odd and even!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": { "x": 520, "y": 200, "w": 560, "h": 420 },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "even",
+          "options": [
+            { "key": "odd", "text": "17" },
+            { "key": "even", "text": "16" }
+          ]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 800 }
+    }
+  ]
+}

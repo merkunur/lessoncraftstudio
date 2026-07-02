@@ -69,6 +69,7 @@ const nunito = Nunito({
 
 // Grade key → seo.educational_level.* (the SoT the detail-page chip uses; 11/11).
 const GRADE_KEY_MAP: Record<string, string> = {
+  PK: "preschool",
   K: "kindergarten",
   "1": "grade_1",
   "2": "grade_2",
@@ -86,7 +87,7 @@ const SKILL_ORDER: Record<string, number> = {
   language: 7,
   other: 99,
 };
-const GRADE_ORDER = ["K", "1", "2", "3"];
+const GRADE_ORDER = ["PK", "K", "1", "2", "3"];
 
 interface LandingStrings {
   pageTitle: string;

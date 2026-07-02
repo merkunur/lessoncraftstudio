@@ -1746,6 +1746,61 @@
       generateAnswerKeyBtn.addEventListener("click", () => { closeAllDropdowns(); generateAnswerKey(); });
       downloadInteractiveHtmlBtn.addEventListener("click", () => { closeAllDropdowns(); downloadInteractiveHtml(worksheetCanvas, 'shadow_match_interactive.html', { loadingMode: 'inline' }); });
       exportToCatalogBtn.addEventListener("click", () => { closeAllDropdowns(); handleExportToCatalog(); });
+
+      // --- SEP hook — Family E tap-to-connect (top/bottom orientation). Top row =
+      //     leftItems, bottom row (shadows) = rightItems; connect each image to its
+      //     shadow. cropExerciseBBox spans both rows. Additive headless-only globals;
+      //     operator/browser path untouched. ---
+      (function () {
+          function _sbSepOpts(cropRect, returnPackage) {
+              return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                  exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
+                  family: 'E', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+          }
+          var _b = document.getElementById('sepExportBtn');
+          if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+          window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+          window.__sepGenerate = async function (spec) {
+              spec = spec || {};
+              var loc = spec.locale || 'en';
+              window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+              var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+              try {
+                  if (themeSelect) {
+                      var _has = Array.prototype.some.call(themeSelect.options, function (o) { return o.value === theme; });
+                      if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; themeSelect.add(_o); }
+                      themeSelect.value = theme;
+                  }
+              } catch (e) {}
+              // Seed allImages directly (generateWorksheet consumes allImages; headless init
+              // may not have preloaded the theme yet).
+              try {
+                  var _res = await fetch('/api/images?theme=' + encodeURIComponent(theme) + '&locale=' + loc);
+                  var _d = await _res.json();
+                  allImages = (_d.images || _d || []);
+              } catch (e) {}
+              try {
+                  if (document.fonts && document.fonts.load) {
+                      await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                      await document.fonts.ready;
+                  }
+              } catch (e) {}
+              var _r = Math.random;
+              try {
+                  for (var _att = 0; _att < 3; _att++) {
+                      Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                      try { await generateWorksheet(); } catch (e) {}
+                      var _ok = false;
+                      for (var _i = 0; _i < 300; _i++) {
+                          if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isGeneratedItem === true && /^prob_/.test(String(o.originalIndex || '')); })) { _ok = true; break; }
+                          await new Promise(function (r) { setTimeout(r, 50); });
+                      }
+                      if (_ok) break;
+                  }
+              } finally { Math.random = _r; }
+              return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+          };
+      }());
       downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas));
       downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas));
 
@@ -2639,6 +2694,14 @@
               cutDirection: (canvas.worksheetData && canvas.worksheetData.cutDirection) || null,
               topItems: topItems,
               bottomItems: bottomItems,
+              // SEP Family-E emission (Edit-2): the E mapper reads leftItems/rightItems as
+              // flat {index,x,y,w,h}. shadow-match's top row -> leftItems, bottom row ->
+              // rightItems; connectOrientation:'vertical' makes the connect anchors attach
+              // to the top/bottom edges (not side edges). The existing pairs[] (topIndex/
+              // correctBottomIndex shape) is normalized by the E mapper. rects are TOP-LEFT.
+              connectOrientation: 'vertical',
+              leftItems: topItems.map(function (t) { return { index: t.index, x: t.rect.x, y: t.rect.y, w: t.rect.w, h: t.rect.h }; }),
+              rightItems: bottomItems.map(function (t) { return { index: t.index, x: t.rect.x, y: t.rect.y, w: t.rect.w, h: t.rect.h }; }),
               // Brief A 5A.2 redo: augment pairs[] with topImageKey by reading
               // canvas.worksheetData.problems[i].image at extract time. Pure
               // bundle-side extension — pd.pairs is not mutated. Field shape
@@ -5176,6 +5239,10 @@ async function downloadPDF(canvasToExport, opts) {
 
       // PERFORMANCE FIX: Simplified initial worksheet generation (no polling needed)
       async function generateInitialWorksheet() {
+          // Headless SEP isolation: __sepGenerate drives its own seeded generateWorksheet();
+          // the auto-run initial generate would race it + consume the seeded Math.random.
+          // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+          if (/[?&]__sbHeadless=1/.test(location.search)) return;
           try {
               console.log('Starting initial worksheet generation...');
 

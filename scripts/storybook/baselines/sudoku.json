@@ -1,0 +1,19 @@
+{
+  "app": "sudoku",
+  "family": "F",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "21dbf021bf693486f92dd760637fe2cdb5747505",
+  "visualSha1": "376b99db37bde96477cf1ffebe30805f7c2e47d1",
+  "elementCounts": {
+    "gridDims": 1,
+    "gridCells": 4,
+    "paletteTiles": 4,
+    "solutionLabels": 1
+  }
+}

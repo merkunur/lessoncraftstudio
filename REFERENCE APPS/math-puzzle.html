@@ -1592,6 +1592,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // --- INITIAL WORKSHEET GENERATION ---
     async function generateInitialWorksheet() {
+        // Headless SEP isolation: __sepGenerate drives its own seeded handleGenerate();
+        // the auto-run initial generate would race it + consume the seeded Math.random.
+        // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+        if (/[?&]__sbHeadless=1/.test(location.search)) return;
         try {
             console.log('Starting initial worksheet generation...');
 
@@ -1880,6 +1884,75 @@ document.addEventListener("DOMContentLoaded", function() {
         
         elements.downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'math-puzzle_interactive.html', { loadingMode: 'inline' }));
         elements.exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
+
+        // --- SEP hook — Family F (drag-place). Each grid cell shows an operation;
+        //     each numbered picture-fragment tile is dragged to the cell its answer
+        //     solves (extractDeckBundle emits the grid-match F shape). Additive,
+        //     headless-only globals; operator/browser path untouched. ---
+        (function () {
+            function _sbSepOpts(cropRect, returnPackage) {
+                return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
+                    family: 'F', exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+            }
+            var _b = document.getElementById('sepExportBtn');
+            if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+            window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+            window.__sepGenerate = async function (spec) {
+                spec = spec || {};
+                var loc = spec.locale || 'en';
+                window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                try {
+                    var _res = await fetch('/api/images?theme=' + encodeURIComponent(theme) + '&locale=' + loc);
+                    var _d = await _res.json();
+                    currentThemeImages = _d.images || _d || [];
+                } catch (e) {}
+                // Small grid for a storybook micro-exercise (2x2 = 4 pieces).
+                try { if (elements.rowInput) elements.rowInput.value = 2; } catch (e) {}
+                try { if (elements.colInput) elements.colInput.value = 2; } catch (e) {}
+                try { if (elements.opSelect) elements.opSelect.value = 'addition'; } catch (e) {}
+                try {
+                    if (elements.themeSelect) {
+                        var _has = Array.prototype.some.call(elements.themeSelect.options, function (o) { return o.value === theme; });
+                        if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; elements.themeSelect.add(_o); }
+                        elements.themeSelect.value = theme;
+                    }
+                } catch (e) {}
+                try {
+                    if (document.fonts && document.fonts.load) {
+                        await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                        await document.fonts.ready;
+                    }
+                } catch (e) {}
+                var _r = Math.random;
+                try {
+                    for (var _att = 0; _att < 3; _att++) {
+                        Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                        // Deterministic single-image pick for the puzzle picture.
+                        selectedImage = null;
+                        try {
+                            var pool = (currentThemeImages || []).slice();
+                            var chosen = null;
+                            if (spec.vocabKeys && spec.vocabKeys.length) {
+                                var k = String(spec.vocabKeys[0]).toLowerCase();
+                                chosen = pool.filter(function (i) { return (i.word || '').toLowerCase() === k || (i.path || '').toLowerCase().indexOf('/' + k + '.') >= 0 || (i.path || '').toLowerCase().indexOf('/' + k + '@') >= 0; })[0];
+                            }
+                            if (!chosen && pool.length) chosen = pool[Math.floor(Math.random() * pool.length)];
+                            if (chosen) toggleImageSelection({ path: chosen.path, word: chosen.word || chosen.name, name: chosen.word || chosen.name }, true);
+                        } catch (e) {}
+                        try { await handleGenerate(); } catch (e) {}
+                        var _ok = false;
+                        for (var _i = 0; _i < 300; _i++) {
+                            if (worksheetCanvas && worksheetCanvas.problemsData && worksheetCanvas.problemsData.operations && worksheetCanvas.problemsData.operations.length && worksheetCanvas.getObjects().some(function (o) { return o.isGeneratedItem === true; })) { _ok = true; break; }
+                            await new Promise(function (r) { setTimeout(r, 50); });
+                        }
+                        if (_ok) break;
+                    }
+                } finally { Math.random = _r; }
+                return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+            };
+        }());
         elements.downloadPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
         elements.downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
 
@@ -4352,6 +4425,45 @@ async function downloadPDF(canvasToExport, filename, opts) {
             score: _rt("runtimeScore", "{n} of {total} correct"),
             allCorrect: _rt("runtimeAllCorrect", "All correct!")
         };
+        // SEP Family-F emission (Edit-2): math-puzzle is a drag-place puzzle — each
+        // grid cell shows an operation ("1 + 1"), each scrambled piece shows a picture
+        // fragment + its answer number; the child drags the piece whose number solves
+        // the cell's operation, assembling the picture. Map onto the grid-match F shape
+        // the SEP mapper reads. Solutions are 2..N+1 and UNIQUE per generateData(), so
+        // number -> cell is an unambiguous bijection. cells/pieces rects are CENTER-based
+        // (_worldRectBounds/_pieceImageWorldRect); the SEP F mapper's _sepInCrop/_sepRebase
+        // expect TOP-LEFT — convert here. Emit-only: nothing but the SEP F mapper reads
+        // these; the interactive/PDF/catalog output is unchanged.
+        function _sepC2TL(r) { return { x: r.x - r.w / 2, y: r.y - r.h / 2, w: r.w, h: r.h }; }
+        var _sepCols = Math.max(cols, 1);
+        var _sepGridCells = cells.map(function (c) {
+            return { index: c.cellIndex, row: Math.floor(c.cellIndex / _sepCols),
+                col: c.cellIndex % _sepCols, isClue: false, rect: _sepC2TL(c.rect) };
+        });
+        var _sepNumToCell = {};
+        cells.forEach(function (c) {
+            if (typeof c.expectedNumber === 'number' && _sepNumToCell[c.expectedNumber] == null) {
+                _sepNumToCell[c.expectedNumber] = c.cellIndex;
+            }
+        });
+        var _sepPaletteTiles = pieces.map(function (p) {
+            return { paletteNumber: p.pieceIndex + 1,
+                originalCellIndex: (_sepNumToCell[p.number] != null ? _sepNumToCell[p.number] : -1),
+                rect: _sepC2TL(p.initialRect) };
+        });
+        var _sepPaletteReveals = pieces.map(function (p) {
+            return { paletteNumber: p.pieceIndex + 1, imgDataUrl: p.imgDataUrl };
+        });
+        var _sepNumToPalette = {};
+        pieces.forEach(function (p) { if (_sepNumToPalette[p.number] == null) _sepNumToPalette[p.number] = p.pieceIndex + 1; });
+        var _sepSolutionLabels = {};
+        cells.forEach(function (c) {
+            if (typeof c.expectedNumber === 'number' && _sepNumToPalette[c.expectedNumber] != null) {
+                _sepSolutionLabels[c.cellIndex] = _sepNumToPalette[c.expectedNumber];
+            }
+        });
+        var _sepGridDims = { rows: rows, cols: cols };
+
         return {
             bundleVersion: '8.3.0',
             schemaFormat: 'image-references-v3',
@@ -4373,6 +4485,11 @@ async function downloadPDF(canvasToExport, filename, opts) {
                 cells: cells
             },
             pieces: pieces,
+            gridDims: _sepGridDims,
+            gridCells: _sepGridCells,
+            paletteTiles: _sepPaletteTiles,
+            paletteReveals: _sepPaletteReveals,
+            solutionLabels: _sepSolutionLabels,
             seoMeta: seoMeta,
             seoTrace: seoTrace,
             attribution: attributionRect ? {

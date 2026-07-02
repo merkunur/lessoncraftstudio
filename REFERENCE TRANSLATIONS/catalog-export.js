@@ -2609,6 +2609,9 @@
         return cropPromise.then(function (crop) {
           if (!crop) return null;  /* cancelled */
           crop = { x: Math.round(crop.x), y: Math.round(crop.y), w: Math.round(crop.w), h: Math.round(crop.h) };
+          /* forgiving: auto-pull the answer boxes into the crop so a slightly-off
+             crop still yields a playable exercise (no more "no answer" dead-ends) */
+          crop = _sepExpandCropToAnswers(crop, _sepAnswerRects(bundle, opts.family), pageW, pageH);
           return _sepBuildPackage(opts, bundle, crop, pageW, pageH);
         });
       });
@@ -2634,13 +2637,39 @@
     bundle = bundle || {};
     var out = [];
     function push(r) { if (r && isFinite(r.x) && isFinite(r.y) && r.w > 0 && r.h > 0) out.push({ x: r.x, y: r.y, w: r.w, h: r.h }); }
-    if (family === 'A') (bundle.slots || []).forEach(function (s) { push(_sepCenterToTopLeft(s.rect)); });
-    else if (family === 'F') (bundle.gridCells || []).forEach(function (c) { push(c.rect); });
-    else if (family === 'C') { (bundle.choiceOptions || []).forEach(function (o) { push(o.rect); }); (bundle.inputSlots || []).forEach(function (s) { push(s.rect); }); }
-    else if (family === 'E') (bundle.leftItems || []).concat(bundle.rightItems || []).forEach(function (it) { push({ x: it.x, y: it.y, w: it.w, h: it.h }); });
-    else if (family === 'B') (bundle.sepCells || bundle.gridCells || []).forEach(function (c) { if (c.rect) push(c.rect); });
-    else if (family === 'D') (bundle.chartCells || []).forEach(function (c) { push({ x: c.x, y: c.y, w: c.w, h: c.h }); });
+    try {
+      if (family === 'A') (bundle.slots || []).forEach(function (s) { if (s && s.rect) push(_sepCenterToTopLeft(s.rect)); });
+      else if (family === 'F') (bundle.gridCells || []).forEach(function (c) { if (c && c.rect) push(c.rect); });
+      else if (family === 'C') { (bundle.choiceOptions || []).forEach(function (o) { if (o) push(o.rect); }); (bundle.inputSlots || []).forEach(function (s) { if (s) push(s.rect); }); }
+      else if (family === 'E') (bundle.leftItems || []).concat(bundle.rightItems || []).forEach(function (it) { if (it) push({ x: it.x, y: it.y, w: it.w, h: it.h }); });
+      else if (family === 'B') (bundle.sepCells || bundle.gridCells || []).forEach(function (c) { if (c && c.rect) push(c.rect); });
+      else if (family === 'D') (bundle.chartCells || []).forEach(function (c) { if (c) push({ x: c.x, y: c.y, w: c.w, h: c.h }); });
+    } catch (e) { /* markers are best-effort; never block the export */ }
     return out;
+  }
+
+  /* Forgiving crop: pull the answer boxes into the operator's crop. Answers sit
+     in the SAME horizontal band (rows) as what they crop (question on the left,
+     answer blank/box on the right), so expand the crop to union every answer box
+     whose Y-range overlaps the crop's Y-range. Stacked problems live in OTHER
+     rows, so this pulls in only the cropped exercise's answer — not the page. */
+  function _sepExpandCropToAnswers(crop, ansRects, pageW, pageH) {
+    if (!ansRects || !ansRects.length) return crop;
+    var cy1 = crop.y - 24, cy2 = crop.y + crop.h + 24;
+    var x1 = crop.x, y1 = crop.y, x2 = crop.x + crop.w, y2 = crop.y + crop.h, grew = false;
+    ansRects.forEach(function (r) {
+      if (r.y + r.h > cy1 && r.y < cy2) {           /* shares the crop's horizontal band */
+        if (r.x < x1) { x1 = r.x; grew = true; }
+        if (r.y < y1) { y1 = r.y; grew = true; }
+        if (r.x + r.w > x2) { x2 = r.x + r.w; grew = true; }
+        if (r.y + r.h > y2) { y2 = r.y + r.h; grew = true; }
+      }
+    });
+    if (!grew) return crop;
+    var pad = 14;
+    x1 = Math.max(0, x1 - pad); y1 = Math.max(0, y1 - pad);
+    x2 = Math.min(pageW, x2 + pad); y2 = Math.min(pageH, y2 + pad);
+    return { x: Math.round(x1), y: Math.round(y1), w: Math.round(x2 - x1), h: Math.round(y2 - y1) };
   }
 
   function _sepBuildPackage(opts, bundle, crop, pageW, pageH) {

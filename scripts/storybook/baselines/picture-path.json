@@ -1,0 +1,18 @@
+{
+  "app": "picture-path",
+  "family": "B",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "b2f28d997ff9bf0bcf80677bbbe774608d1b7fa7",
+  "visualSha1": "698785667bd226bd2a6bfb9571a14f1767cf4b61",
+  "elementCounts": {
+    "gridDims": 1,
+    "cells": 36,
+    "paths": 1
+  }
+}

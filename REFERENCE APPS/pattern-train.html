@@ -1704,6 +1704,61 @@
         // New Download Listeners
         downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-train_interactive.html', { loadingMode: 'inline' }));
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+
+        // --- SEP hook — Family F drag-place (same shape as math-puzzle/alphabet-train).
+        //     Empty wagons = drop cells; element cutouts = tiles; drag each cutout to the
+        //     wagon completing the pattern. cropExerciseBBox spans the whole train.
+        //     Additive headless-only globals; operator/browser path untouched. ---
+        (function () {
+            function _sbSepOpts(cropRect, returnPackage) {
+                return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isTrainGeneratedItem === true; }); },
+                    family: 'F', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+            }
+            var _b = document.getElementById('sepExportBtn');
+            if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+            window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+            window.__sepGenerate = async function (spec) {
+                spec = spec || {};
+                var loc = spec.locale || 'en';
+                window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                try {
+                    if (worksheetThemeSelect) {
+                        var _has = Array.prototype.some.call(worksheetThemeSelect.options, function (o) { return o.value === theme; });
+                        if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; worksheetThemeSelect.add(_o); }
+                        worksheetThemeSelect.value = theme; worksheetThemeSelect.dispatchEvent(new Event('change'));
+                    }
+                } catch (e) {}
+                try {
+                    if (typeof patternSelect !== 'undefined' && patternSelect) {
+                        var _po = Array.prototype.filter.call(patternSelect.options, function (o) { return o.value !== ''; });
+                        if (_po.length) { patternSelect.value = _po[0].value; patternSelect.dispatchEvent(new Event('change')); }
+                    }
+                } catch (e) {}
+                try { var _cc = document.getElementById('clueCount'); if (_cc) _cc.value = 8; } catch (e) {}
+                try {
+                    if (document.fonts && document.fonts.load) {
+                        await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                        await document.fonts.ready;
+                    }
+                } catch (e) {}
+                var _r = Math.random;
+                try {
+                    for (var _att = 0; _att < 3; _att++) {
+                        Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                        try { if (!generateWorksheetBtn.disabled) generateWorksheetBtn.click(); } catch (e) {}
+                        var _ok = false;
+                        for (var _i = 0; _i < 400; _i++) {
+                            if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isTrainGeneratedItem === true; }) && worksheetCanvas.getObjects().some(function (o) { return o.isAlphabetCutout === true; })) { _ok = true; break; }
+                            await new Promise(function (r) { setTimeout(r, 50); });
+                        }
+                        if (_ok) break;
+                    }
+                } finally { Math.random = _r; }
+                return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+            };
+        }());
         downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet'));
         downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key'));
     }
@@ -4216,6 +4271,37 @@ async function downloadPDF(canvasToExport, baseFilename, opts) {
             score: _rt("runtimeScore", "{n} of {total} correct"),
             allCorrect: _rt("runtimeAllCorrect", "All correct!")
         };
+
+        // SEP Family-F emission (Edit-2): pattern-train is a drag-place puzzle IDENTICAL
+        // in shape to math-puzzle / alphabet-train — empty wagons (cells) are drop targets;
+        // element cutouts (pieces) are dragged to the wagon whose identity matches, completing
+        // the pattern. Map onto the grid-match F shape; piece.number / cell.expectedNumber are
+        // identity strings (match may be many-to-one since a pattern repeats elements — pick
+        // the first unused matching piece per cell for a valid 1:1 solution). Rects CENTER ->
+        // TOP-LEFT. Emit-only: nothing but the SEP F mapper reads these; app output unchanged.
+        var _sepC2TL = function (r) { return { x: r.x - r.w / 2, y: r.y - r.h / 2, w: r.w, h: r.h }; };
+        var _sepGridCells = cells.map(function (c) {
+            return { index: c.cellIndex, row: 0, col: c.cellIndex, isClue: false, rect: _sepC2TL(c.rect) };
+        });
+        var _sepPaletteTiles = pieces.map(function (p) {
+            return { paletteNumber: p.pieceIndex + 1, originalCellIndex: -1, rect: _sepC2TL(p.initialRect) };
+        });
+        var _sepPaletteReveals = pieces.map(function (p) {
+            return { paletteNumber: p.pieceIndex + 1, imgDataUrl: p.imgDataUrl };
+        });
+        var _sepUsedPiece = {};
+        var _sepSolutionLabels = {};
+        cells.forEach(function (c) {
+            if (!c.expectedNumber) return;
+            for (var _pi = 0; _pi < pieces.length; _pi++) {
+                if (!_sepUsedPiece[_pi] && pieces[_pi].number === c.expectedNumber) {
+                    _sepSolutionLabels[c.cellIndex] = pieces[_pi].pieceIndex + 1;
+                    _sepUsedPiece[_pi] = true;
+                    break;
+                }
+            }
+        });
+
         return {
             bundleVersion: '11.8.0',
             schemaFormat: 'image-references-v3',
@@ -4233,6 +4319,11 @@ async function downloadPDF(canvasToExport, baseFilename, opts) {
             worksheetImage: worksheetImage,
             grid: { rows: 1, cols: cells.length, cells: cells },
             pieces: pieces,
+            gridDims: { rows: 1, cols: cells.length },
+            gridCells: _sepGridCells,
+            paletteTiles: _sepPaletteTiles,
+            paletteReveals: _sepPaletteReveals,
+            solutionLabels: _sepSolutionLabels,
             clueBadges: clueBadges,
             imagePlacements: imagePlacements,
             imageRefs: imageRefs,
@@ -5321,6 +5412,10 @@ async function downloadPDF(canvasToExport, baseFilename, opts) {
 
     // --- INITIAL WORKSHEET GENERATION ---
     async function generateInitialWorksheet() {
+        // Headless SEP isolation: __sepGenerate drives its own seeded generate; the
+        // auto-run initial generate would race it + consume the seeded Math.random.
+        // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+        if (/[?&]__sbHeadless=1/.test(location.search)) return;
         try {
             console.log('Starting initial worksheet generation...');
 

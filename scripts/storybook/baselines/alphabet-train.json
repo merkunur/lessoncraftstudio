@@ -1,0 +1,19 @@
+{
+  "app": "alphabet-train",
+  "family": "F",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "94d7aaadf99db42ef4d80e3c96a0e32ec9c3f21a",
+  "visualSha1": "dc54435a81111f0054d438d2e394ff1a72d2e73d",
+  "elementCounts": {
+    "gridDims": 1,
+    "gridCells": 0,
+    "paletteTiles": 0,
+    "solutionLabels": 1
+  }
+}

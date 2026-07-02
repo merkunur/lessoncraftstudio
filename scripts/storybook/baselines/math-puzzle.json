@@ -1,0 +1,19 @@
+{
+  "app": "math-puzzle",
+  "family": "F",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "59362a71eeb8c4068ec9b167ed75a068a3545cfc",
+  "visualSha1": "1337f4d2fbc80239ad90865e5ccdcb0d08e4ef98",
+  "elementCounts": {
+    "gridDims": 1,
+    "gridCells": 4,
+    "paletteTiles": 4,
+    "solutionLabels": 1
+  }
+}

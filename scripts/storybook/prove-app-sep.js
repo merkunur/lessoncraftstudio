@@ -40,6 +40,8 @@ const APP_PARAMS = {
   'addition': { theme: 'animals' },
   'subtraction': { theme: 'animals' },
   'cryptogram': { theme: 'animals', vocabKeys: ['cat'] },
+  'code-addition': { theme: 'animals', secretWord: 'CAT' },
+  'math-puzzle': { theme: 'animals' },
 };
 const SECOND_LOCALE = 'es';
 

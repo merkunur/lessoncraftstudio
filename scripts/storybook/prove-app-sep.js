@@ -52,6 +52,7 @@ const APP_PARAMS = {
   'find-objects': { theme: 'animals' },
   'shadow-match': { theme: 'animals' },
   'pattern-worksheet': { theme: 'animals' },
+  'bingo': { theme: 'alphabet' },
 };
 const SECOND_LOCALE = 'es';
 
@@ -216,4 +217,4 @@ if (require.main === module) {
     .catch(e => { console.error('[prove-app-sep] crashed: ' + e.stack); process.exit(1); });
 }
 
-module.exports = { proveApp };
+module.exports = { proveApp, APP_PARAMS };

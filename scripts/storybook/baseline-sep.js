@@ -24,19 +24,10 @@ const STORIES = path.join(REPO, 'mini tools', 'stories');
 const MATRIX = path.join(REPO, 'docs', 'storybook', 'app-coverage-matrix.json');
 const BASE_DIR = path.join(__dirname, 'baselines');
 
-/* canonical spec per app — MUST match prove-app-sep's params for a stable golden */
-const APP_PARAMS = {
-  'word-guess': { theme: 'animals', vocabKeys: ['cat'] },
-  'word-scramble': { theme: 'animals', vocabKeys: ['cat'] },
-  'grid-match': { theme: 'animals' },
-  'matching': { theme: 'animals' },
-  'find-and-count': { theme: 'animals' },
-  'missing-pieces': { theme: 'animals' },
-  'math-worksheet': { theme: 'animals' },
-  'addition': { theme: 'animals' },
-  'subtraction': { theme: 'animals' },
-  'cryptogram': { theme: 'animals', vocabKeys: ['cat'] },
-};
+/* canonical spec per app — imported from prove-app-sep so the golden capture uses the
+   EXACT same params as the prove/run-all run (a divergent duplicate silently captured
+   e.g. bingo/alphabet-train with the wrong 'animals' default → SKIP; single source now). */
+const { APP_PARAMS } = require('./prove-app-sep.js');
 const SEED = 7;
 
 function sha1(b) { return crypto.createHash('sha1').update(b).digest('hex'); }

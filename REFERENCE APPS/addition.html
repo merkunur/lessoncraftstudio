@@ -4464,6 +4464,19 @@
             };
         }).filter(function (p) { return p.inputRect !== null; });
 
+        // SEP Family-A (digit) slots — derived from the already-computed per-problem inputRect (world
+        // center x/y + line width) + operands. slotType 'symbol'/kind 'number' → the SEP-A mapper's
+        // DIGIT palette. expected = the answer for the mode (sum for image-*; the missing addend for
+        // find-addend), single-digit when maxOperand keeps sums 0-9 (set by __sepGenerate). Center-based
+        // rect (matches _worldLineRect/_worldRectBounds). Emit-only: read only by SEP_FAMILY_MAPPERS.A.
+        var _sepSlots = problems.map(function (p) {
+            var exp = (p.resolvedMode === 'find-addend') ? p.operandB : (p.operandA + p.operandB);
+            var r = p.inputRect;
+            var h = Math.max(28, r.w);
+            return { problemIndex: p.index, slotType: 'symbol', kind: 'number',
+                expected: String(exp), rect: { x: r.x, y: r.y, w: r.w, h: h } };
+        });
+
         // Dedupe (theme, key) pairs across all problems. For each unique
         // pair, build the variants map according to loadingMode:
         //   inline    — base64 data URLs (offline-capable, larger bundle)
@@ -4613,6 +4626,7 @@
             worksheetImage: worksheetImage,
             imageRefs: imageRefs,
             problems: problems,
+            slots: _sepSlots,   // SEP Family-A digit slots (emit-only; read by SEP_FAMILY_MAPPERS.A)
             attribution: attributionRect ? {
                 text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                 url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
@@ -5652,6 +5666,54 @@
       downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'addition_interactive.html', { loadingMode: 'inline' }));
       downloadPdfBtn.addEventListener("click", () => downloadPdfFile(worksheetCanvas, 'worksheet.pdf'));
       downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPdfFile(answerKeyCanvas, 'answer-key.pdf'));
+      // --- SEP hook — Family A NUMERIC (digit palette; extractDeckBundle now emits slots{slotType:'symbol'}
+      // from the per-problem inputRect + operands). image-number mode → answer = sum; maxOperand=4 keeps
+      // sums single-digit. Additive headless-only globals; operator path untouched. ---
+      (function () {
+        function _sbSepOpts(cropRect, returnPackage) {
+          return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+            exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
+            family: 'A', numeric: true, exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+        }
+        var _b = document.getElementById('sepExportBtn');
+        if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+        window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+        window.__sepGenerate = async function (spec) {
+          spec = spec || {};
+          var loc = spec.locale || 'en';
+          window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+          var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+          try {
+            var _res = await fetch('/api/images?theme=' + encodeURIComponent(theme) + '&locale=' + loc);
+            var _d = await _res.json();
+            selectedImages = (_d.images || _d || []).slice(0, 3);
+          } catch (e) {}
+          try { if (exerciseModeSelect) exerciseModeSelect.value = 'image-number'; } catch (e) {}  // answer = sum
+          try { if (typeof minOperandInput !== 'undefined' && minOperandInput) minOperandInput.value = 1; } catch (e) {}
+          try { if (typeof maxOperandInput !== 'undefined' && maxOperandInput) maxOperandInput.value = 4; } catch (e) {}  // single-digit sums (≤8)
+          try { if (typeof problemCountInput !== 'undefined' && problemCountInput) problemCountInput.value = 1; } catch (e) {}
+          try {
+            if (document.fonts && document.fonts.load) {
+              await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+              await document.fonts.ready;
+            }
+          } catch (e) {}
+          var _r = Math.random;
+          try {
+            for (var _att = 0; _att < 3; _att++) {
+              Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+              try { await generateWorksheet(); } catch (e) {}
+              var _ok = false;
+              for (var _i = 0; _i < 300; _i++) {
+                if (worksheetCanvas && worksheetCanvas.problemsData && worksheetCanvas.problemsData.length && worksheetCanvas.getObjects().some(function (o) { return o.isGeneratedItem === true; })) { _ok = true; break; }
+                await new Promise(function (r) { setTimeout(r, 50); });
+              }
+              if (_ok) break;
+            }
+          } finally { Math.random = _r; }
+          return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+        };
+      }());
 
       // Export to catalog — bundles manifest + deck.html + printable.pdf +
       // answer-key.pdf + thumbnail.png into <deck_id>.zip per CLAUDE.md §15.

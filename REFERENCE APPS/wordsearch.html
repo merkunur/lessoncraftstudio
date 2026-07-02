@@ -1201,6 +1201,10 @@
                                 <label for="cols" data-translate="columns">Columns:</label>
                                 <input type="number" id="cols" min="5" max="30" value="12" />
                             </div>
+                            <div>
+                                <label for="numWords" data-translate="numWords">Number of Words:</label>
+                                <input type="number" id="numWords" min="1" max="6" value="6" />
+                            </div>
                         </div>
 
                         <h4 data-translate="puzzleOptions">Puzzle Options</h4>
@@ -1561,6 +1565,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Puzzle Settings
     const rowsInput = getEl('rows');
     const colsInput = getEl('cols');
+    const numWordsInput = getEl('numWords');
     const allowDiagonalInput = getEl('allowDiagonal');
     const allowReverseWordsInput = getEl('allowReverseWords');
     const showWordListInput = getEl('showWordList');
@@ -2423,6 +2428,7 @@ document.addEventListener("DOMContentLoaded", function() {
             worksheetThemeSelect.value = defaultInitTheme;
             rowsInput.value = 10;
             colsInput.value = 12;
+            numWordsInput.value = 6;
             allowDiagonalInput.checked = true;
             allowReverseWordsInput.checked = false;
             showWordListInput.checked = true;
@@ -2541,7 +2547,12 @@ document.addEventListener("DOMContentLoaded", function() {
     async function generatePuzzleData() {
         let sourceImages = [];
         const selectedWorksheetTheme = worksheetThemeSelect.value;
-        const numWords = getRandomInt(MIN_THEME_IMAGES, MAX_WORDS);
+        // Operator-selected word count (1..6, default 6). Drives all THEME-based
+        // count paths ('all', random-auto, and the specific-theme target). Does NOT
+        // override custom-word-list / manual-edit / userSelectedImages counts, which
+        // derive from operator-entered data below.
+        const selectedWordCount = Math.max(1, Math.min(6, parseInt(numWordsInput.value) || 6));
+        const numWords = selectedWordCount;
 
         // Check custom word list mode first
         if (customWordListMode && customWordListInput && customWordListInput.value.trim()) {
@@ -2607,7 +2618,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // placement stop after 6 succeed. settings.targetWordCount caps the
             // placement loop in generateGridData.
             const isSpecificTheme = selectedWorksheetTheme !== 'all';
-            const SELECTED_THEME_TARGET = 6;
+            const SELECTED_THEME_TARGET = selectedWordCount;
             const SELECTED_THEME_OVERHEAD = 6;  // 12 candidates → 6 placed even if some fail
             const sliceCount = isSpecificTheme
                 ? Math.min(themeImages.length, SELECTED_THEME_TARGET + SELECTED_THEME_OVERHEAD)
@@ -2676,7 +2687,7 @@ document.addEventListener("DOMContentLoaded", function() {
             showWordList: showWordListInput.checked,
             showOnlyImages: showOnlyImagesInput.checked,
             showOnlyWords: showOnlyWordsInput.checked,
-            targetWordCount: isSelectedSpecificTheme ? 6 : null
+            targetWordCount: isSelectedSpecificTheme ? selectedWordCount : null
         };
         
         const gridData = generateGridData(settings);
@@ -3128,6 +3139,24 @@ document.addEventListener("DOMContentLoaded", function() {
         // 30%-bigger baseline (operator: "increase the size of the grid by 50 percent"
         // referring to current size, not original).
         const wordsCount = placedWordsInfo.length;
+
+        // --- Fixed word-list image sizing (operator request 2026-07): clue images
+        // must stay a CONSTANT readable size regardless of grid rows/cols and word
+        // count. Strategy (portrait only): reserve a vertical band for the word list
+        // sized for FIXED_IMAGE_HEIGHT, then cap the grid to fit above it so nothing
+        // runs off the page. Landscape (right-hand list column) keeps its existing
+        // fit-to-column behavior (see the imageHeight branch below).
+        const FIXED_IMAGE_HEIGHT = 46;   // ≈ today's default (12x10 grid, 6 words)
+        // Portrait word-list column layout, computed early (mirror of the
+        // itemsPerRow/itemsPerCol math further down). wordsCount == wordsToDisplay
+        // length, so the reserved band matches the actual rendered stack. Constants
+        // below MUST MATCH FONT_SIZE(24)/IMAGE_TEXT_GAP(8)/ROW_GAP(8) declared later.
+        const wlItemsPerRow = Math.min(4, Math.ceil(Math.sqrt(wordsCount)));
+        const wlItemsPerCol = Math.ceil(wordsCount / wlItemsPerRow);
+        const reservedListHeight = wlItemsPerCol * FIXED_IMAGE_HEIGHT
+            + wlItemsPerCol * (8 + 24)
+            + (wlItemsPerCol - 1) * 8;
+
         let gridTargetSize;
 
         if (isLandscape) {
@@ -3151,7 +3180,21 @@ document.addEventListener("DOMContentLoaded", function() {
             totalGridWidth = gridTargetSize;
             totalGridHeight = gridTargetSize * gridAspectRatio;
         }
-        
+
+        // Cap grid height (portrait only) so the reserved word-list band fits on page,
+        // keeping the clue images a fixed size. Budget = maxBottom - gridTop - gap -
+        // reservedListHeight. Literals mirror the later constants (TDZ prevents
+        // referencing them here): maxWordListBottomY = pageHeight - 38 - 3 (~3316),
+        // PORTRAIT_GRID_TOP_Y = 219 (~3308), GRID_LIST_GAP_PX = 8 (~3311).
+        if (!isLandscape) {
+            const gridHeightBudget = (pageHeight - 38 - 3) - 219 - 8 - reservedListHeight;
+            if (totalGridHeight > gridHeightBudget && gridHeightBudget > 0) {
+                const _gridScale = gridHeightBudget / totalGridHeight;
+                totalGridHeight *= _gridScale;
+                totalGridWidth *= _gridScale;   // preserve aspect ratio
+            }
+        }
+
         const cellSize = totalGridWidth / cols;
         
         // Create grid using Fabric.js objects (like Image Crossword does)
@@ -3359,7 +3402,15 @@ document.addEventListener("DOMContentLoaded", function() {
         const _totalFixed = itemsPerCol * (IMAGE_TEXT_GAP + FONT_SIZE) + (itemsPerCol - 1) * ROW_GAP;
         const _itemHeightHeightBound = Math.max(0, (listHeight - _totalFixed) / (itemsPerCol * IMAGE_MULTIPLIER));
         const _itemHeightWidthBound = itemWidth / IMAGE_MULTIPLIER;
-        const itemHeight = Math.max(10, Math.min(_itemHeightHeightBound, _itemHeightWidthBound));
+        // Portrait: FIXED image size (vertical space reserved above via the grid cap),
+        // keeping only a WIDTH safety so a very narrow column still fits, plus a small
+        // floor. Landscape: unchanged fit-to-column (right-hand list column).
+        let itemHeight;
+        if (!isLandscape) {
+            itemHeight = Math.max(10, Math.min(FIXED_IMAGE_HEIGHT / IMAGE_MULTIPLIER, _itemHeightWidthBound));
+        } else {
+            itemHeight = Math.max(10, Math.min(_itemHeightHeightBound, _itemHeightWidthBound));
+        }
         const imageHeight = itemHeight * IMAGE_MULTIPLIER;
         const ROW_SPACING_PX = imageHeight + IMAGE_TEXT_GAP + FONT_SIZE + ROW_GAP;
 

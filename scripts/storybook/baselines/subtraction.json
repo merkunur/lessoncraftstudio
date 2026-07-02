@@ -1,0 +1,16 @@
+{
+  "app": "subtraction",
+  "family": "A",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "9af65ba9bc4df2eab5a038346007b9dd14538deb",
+  "visualSha1": "3328360f5b02fe10db2ad190bd7a82242859c067",
+  "elementCounts": {
+    "slots": 1
+  }
+}

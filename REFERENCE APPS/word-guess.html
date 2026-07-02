@@ -6,7 +6,7 @@
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
-    <script src="/worksheet-generators/js/catalog-export.js?v=35"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=36"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1549,7 +1549,7 @@
                         returnPackage: returnPackage, noDownload: returnPackage };
                 }
                 var b = document.getElementById('sepExportBtn');
-                if (b) b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookForced(b); });
+                if (b) b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(sepOpts(null, false)); });
                 window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(sepOpts(cropRect, true)); };
                 /* headless programmatic generation: spec {theme, count, vocabKeys?, seed, locale}
                    → seeded + locale-parameterized single exercise → SEP package (returned) */

@@ -3479,6 +3479,22 @@
 
           var solutionPath = computeSolutionPath(pd.startPos, pd.moves);
 
+          // SEP Family-B emission (Edit-2): per-cell TOP-LEFT rects (uniform stride, no
+          // spacing) + a single trace path from the treasure route (start->end, not
+          // reversible). The route is baked into the transparent visual; the SEP overlays
+          // invisible drag-select cells.
+          var _sepCells = [];
+          for (var _sr = 0; _sr < rows; _sr++) {
+              for (var _sc = 0; _sc < cols; _sc++) {
+                  _sepCells.push({ index: _sr * cols + _sc, row: _sr, col: _sc,
+                      rect: { x: gridBbox.x + _sc * strideX, y: gridBbox.y + _sr * strideY, w: strideX, h: strideY } });
+              }
+          }
+          var _sepPaths = [];
+          if (Array.isArray(solutionPath) && solutionPath.length >= 2) {
+              _sepPaths.push({ id: 0, sequence: solutionPath.map(function (p) { return p.r * cols + p.c; }), reversible: false });
+          }
+
           var worksheetImage = await _captureWorksheetImage(canvas);
           var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
               ? LCSAttribution.getRectFromCanvas(canvas) : null;
@@ -3591,6 +3607,8 @@
               gridPadding: { x: 0, y: 0 },
               gridStride: { x: strideX, y: strideY },
               cellSize: { w: strideX, h: strideY },
+              sepCells: _sepCells,
+              sepPaths: _sepPaths,
               startCell: { r: pd.startPos.row, c: pd.startPos.col },
               endCell: null,
               solutionPath: solutionPath,
@@ -4249,6 +4267,54 @@
               downloadInteractiveHtml(worksheetCanvas, 'treasure_hunt_interactive.html'));
       }
       exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+
+      // --- SEP hook — Family B puzzle-drag (5x5 treasure route). Trace the route
+      //     start->end by dragging across grid cells (not reversible). Edit-2 emits
+      //     sepCells + sepPaths. Additive headless-only globals; operator/browser path
+      //     untouched. ---
+      (function () {
+          function _sbSepOpts(cropRect, returnPackage) {
+              return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                  exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isTreasureHuntGrid === true; }); },
+                  family: 'B', exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+          }
+          var _bb = document.getElementById('sepExportBtn');
+          if (_bb) _bb.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+          window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+          window.__sepGenerate = async function (spec) {
+              spec = spec || {};
+              var loc = spec.locale || 'en';
+              window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+              var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+              try {
+                  if (worksheetThemeSelect) {
+                      var _has = Array.prototype.some.call(worksheetThemeSelect.options, function (o) { return o.value === theme; });
+                      if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; worksheetThemeSelect.add(_o); }
+                      worksheetThemeSelect.value = theme; worksheetThemeSelect.dispatchEvent(new Event('change'));
+                  }
+              } catch (e) {}
+              try {
+                  if (document.fonts && document.fonts.load) {
+                      await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                      await document.fonts.ready;
+                  }
+              } catch (e) {}
+              var _r = Math.random;
+              try {
+                  for (var _att = 0; _att < 3; _att++) {
+                      Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                      try { lastGeneratedData = await generatePuzzleData(); if (lastGeneratedData) await renderWorksheet(); } catch (e) {}
+                      var _ok = false;
+                      for (var _i = 0; _i < 400; _i++) {
+                          if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isTreasureHuntGrid === true; })) { _ok = true; break; }
+                          await new Promise(function (r) { setTimeout(r, 50); });
+                      }
+                      if (_ok) break;
+                  }
+              } finally { Math.random = _r; }
+              return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+          };
+      }());
       if (downloadPdfBtn) {
           downloadPdfBtn.addEventListener("click", () => downloadCanvasAsPdf(worksheetCanvas, 'worksheet.pdf'));
       }
@@ -4365,6 +4431,10 @@
       handleSelectionCleared(null, getActiveCanvas());
 
       async function generateInitialWorksheet() {
+          // Headless SEP isolation: __sepGenerate drives its own seeded generate; the
+          // auto-run initial generate would race it + consume the seeded Math.random.
+          // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+          if (/[?&]__sbHeadless=1/.test(location.search)) return;
           try {
               console.log('Starting initial worksheet generation...');
 

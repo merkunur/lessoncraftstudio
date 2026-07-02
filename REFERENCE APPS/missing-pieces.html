@@ -3444,6 +3444,28 @@
             if (holes.length === 0) throw new Error('No holes detected.');
             if (optionsData.length === 0) throw new Error('No option pieces detected.');
 
+            // SEP Family-F emission (Edit-2): map the already-computed holes + optionsData (world
+            // top-left rects) onto the grid-match F shape the SEP mapper reads. gridCells = the gaps
+            // (nominal 1×N row), paletteTiles = option pieces (paletteNumber = optionIndex+1), reveals
+            // = the option images, solutionLabels = {holeIndex -> correct paletteNumber}. Emit-only:
+            // nothing but the SEP F mapper reads these; the interactive/PDF/catalog output is unchanged.
+            var _sepGridCells = holes.map(function (h) {
+                return { index: h.index, row: 0, col: h.index, isClue: false, rect: h.rect };
+            });
+            var _sepOptToHole = {};
+            holes.forEach(function (h) { _sepOptToHole[h.correctOptionIndex] = h.index; });
+            var _sepPaletteTiles = optionsData.map(function (o) {
+                return { paletteNumber: o.index + 1,
+                    originalCellIndex: (_sepOptToHole[o.index] != null ? _sepOptToHole[o.index] : -1),
+                    rect: o.rect };
+            });
+            var _sepPaletteReveals = optionsData.map(function (o) {
+                return { paletteNumber: o.index + 1, imgDataUrl: o.imgDataUrl };
+            });
+            var _sepSolutionLabels = {};
+            holes.forEach(function (h) { _sepSolutionLabels[h.index] = h.correctOptionIndex + 1; });
+            var _sepGridDims = { rows: 1, cols: holes.length };
+
             var worksheetImage = await _captureWorksheetImage(canvas);
             var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
@@ -3535,6 +3557,12 @@
                 pieceShape: shape,
                 holes: holes,
                 optionsData: optionsData,
+                // SEP Family-F fields (Edit-2; read only by SEP_FAMILY_MAPPERS.F)
+                gridDims: _sepGridDims,
+                gridCells: _sepGridCells,
+                paletteTiles: _sepPaletteTiles,
+                paletteReveals: _sepPaletteReveals,
+                solutionLabels: _sepSolutionLabels,
                 imageRefs: {},
                 seoMeta: seoMeta,
                 seoTrace: seoTrace,
@@ -4682,6 +4710,49 @@ async function downloadPDF(canvasToExport, filename, opts) {
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
         downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
         downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
+        // --- SEP hook — Family F (drag-piece-into-gap). extractDeckBundle now emits the F shape
+        // (gridCells/paletteTiles/paletteReveals/solutionLabels) from holes+optionsData. Additive
+        // headless-only globals; operator path untouched. See docs/storybook/sep-rollout-recipe.md. ---
+        (function () {
+            function sepOpts(cropRect, returnPackage) {
+                return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isMainPuzzle || o.isOptionPiece; }); },
+                    family: 'F', exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+            }
+            var _b = document.getElementById('sepExportBtn');
+            if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(sepOpts(null, false)); });
+            window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(sepOpts(cropRect, true)); };
+            window.__sepGenerate = async function (spec) {
+                spec = spec || {};
+                var loc = spec.locale || 'en';
+                window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                try {
+                    var _res = await fetch('/api/images?theme=' + encodeURIComponent(theme) + '&locale=' + loc);
+                    var _d = await _res.json();
+                    availableImages = _d.images || _d || [];
+                } catch (e) {}
+                var pickRng = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                var pool = (availableImages || []).slice();
+                if (pool.length) { selectedImages = [pool[Math.floor(pickRng() * pool.length)]]; isManualSelection = true; }
+                var mc = document.getElementById('missingCountInput'); if (mc) mc.value = 1;
+                var so = document.getElementById('solutionOptionsInput'); if (so) so.value = 3;
+                var _r = Math.random;
+                try {
+                    for (var _att = 0; _att < 3; _att++) {
+                        Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                        try { await handleGenerateWorksheet(); } catch (e) {}
+                        var _ok = false;
+                        for (var _i = 0; _i < 300; _i++) {
+                            if (worksheetCanvas && worksheetCanvas.problemsData && worksheetCanvas.getObjects().some(function (o) { return o.isMainPuzzle; })) { _ok = true; break; }
+                            await new Promise(function (r) { setTimeout(r, 50); });
+                        }
+                        if (_ok) break;
+                    }
+                } finally { Math.random = _r; }
+                return window.LCSCatalogExport.exportStorybookExercise(sepOpts(null, true));
+            };
+        }());
 
         themeSelect.addEventListener("change", loadDictionary);
         searchInput.addEventListener("input", () => { if (this.searchTimeout) clearTimeout(this.searchTimeout); this.searchTimeout = setTimeout(loadDictionary, 300); });

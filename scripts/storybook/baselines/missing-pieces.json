@@ -1,0 +1,19 @@
+{
+  "app": "missing-pieces",
+  "family": "F",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "d8a003c424fd7ef218d1c744115878e74607c26b",
+  "visualSha1": "736c71b6badf8e8565d027bb2afa48fd48b2c830",
+  "elementCounts": {
+    "gridDims": 1,
+    "gridCells": 1,
+    "paletteTiles": 3,
+    "solutionLabels": 1
+  }
+}

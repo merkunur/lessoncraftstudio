@@ -1605,6 +1605,10 @@
 
       // --- INITIAL WORKSHEET GENERATION ---
       async function generateInitialWorksheet() {
+          // Headless SEP isolation: __sepGenerate drives its own seeded generateWorksheet();
+          // the auto-run initial generate would race it + consume the seeded Math.random.
+          // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+          if (/[?&]__sbHeadless=1/.test(location.search)) return;
           try {
               console.log('Starting initial worksheet generation...');
 
@@ -5123,6 +5127,11 @@ async function downloadPDF(canvasToExport, filename, opts) {
         }
 
         var slots = [];
+        // SEP Family-C choice-tap: "tap the group with MORE" (built from the FIRST
+        // problem's two visible image clusters). The relation slot's 3 stacked >/</=
+        // symbols are overlay-only in the runtime and print-compressed, so they are not
+        // a reliable SEP tap surface — the always-visible image clusters are. Emit-only.
+        var _sepChoiceOptions = [];
         problems.forEach(function (row, i) {
             var card = cardByIndex[i];
             if (!card) return;
@@ -5224,6 +5233,33 @@ async function downloadPDF(canvasToExport, filename, opts) {
                         h: Math.max(cardBounds.h - 2 * innerMargin, 40)
                     }
                 });
+
+                // SEP choice-tap targets for the FIRST problem only: the two image
+                // clusters split by the symbol-area x (left=A, right=B), tap the one
+                // with the higher count. image-to-image only (image-to-number has one
+                // cluster); eq excluded by the SEP hook (relationCheckboxes minus eq).
+                if (i === 0 && row.comparisonMode !== 'image-to-number') {
+                    var _mlImgs = _collectImagesDeepWithSrc(card, []);
+                    var _symX = symBounds.x;
+                    var _acc = function (bb, r) {
+                        var t = { x1: r.x - r.w / 2, y1: r.y - r.h / 2, x2: r.x + r.w / 2, y2: r.y + r.h / 2 };
+                        if (!bb) return t;
+                        return { x1: Math.min(bb.x1, t.x1), y1: Math.min(bb.y1, t.y1), x2: Math.max(bb.x2, t.x2), y2: Math.max(bb.y2, t.y2) };
+                    };
+                    var _lb = null, _rb = null;
+                    _mlImgs.forEach(function (it) {
+                        if (it.rect.x < _symX) _lb = _acc(_lb, it.rect); else _rb = _acc(_rb, it.rect);
+                    });
+                    var _toRect = function (b) { return { x: b.x1, y: b.y1, w: b.x2 - b.x1, h: b.y2 - b.y1 }; };
+                    var _nL = (typeof row.nL === 'number') ? row.nL : row.countA;
+                    var _nR = (typeof row.nR === 'number') ? row.nR : row.countB;
+                    if (_lb && _rb && typeof _nL === 'number' && typeof _nR === 'number' && _nL !== _nR) {
+                        _sepChoiceOptions = [
+                            { rect: _toRect(_lb), isCorrect: _nL > _nR },
+                            { rect: _toRect(_rb), isCorrect: _nR > _nL }
+                        ];
+                    }
+                }
             }
         });
 
@@ -5339,6 +5375,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
             },
             worksheetImage: worksheetImage,
             slots: slots,
+            choiceOptions: _sepChoiceOptions,
             // Brief A 5A.2 redo: expose per-row data normalized across the two
             // mode-divergent source shapes (comparison mode emits {L,R,nL,nR};
             // check-cross emits {imageA,imageB,countA,countB}). Bundle-side
@@ -6378,6 +6415,60 @@ async function downloadPDF(canvasToExport, filename, opts) {
         
         downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'more-less_interactive.html', { loadingMode: 'inline' }));
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+
+        // --- SEP hook — Family C choice-tap ("tap the group with MORE"). image-to-image
+        //     mode, eq excluded, exercise count 1: the two image clusters become
+        //     choiceOptions; tap the one with the higher count. cropExerciseBBox spans
+        //     the card. Additive headless-only globals; operator/browser path untouched. ---
+        (function () {
+            function _sbSepOpts(cropRect, returnPackage) {
+                return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isExerciseCard === true; }); },
+                    family: 'C', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+            }
+            var _b = document.getElementById('sepExportBtn');
+            if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+            window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+            window.__sepGenerate = async function (spec) {
+                spec = spec || {};
+                var loc = spec.locale || 'en';
+                window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                try { if (comparisonModeSelect) comparisonModeSelect.value = 'image-to-image'; } catch (e) {}
+                try { if (problemCountInput) problemCountInput.value = 1; } catch (e) {}
+                try { if (imageSelectionModeSelect) { imageSelectionModeSelect.value = 'theme'; imageSelectionModeSelect.dispatchEvent(new Event('change')); } } catch (e) {}
+                try {
+                    if (themeWorksheetSelect) {
+                        var _has = Array.prototype.some.call(themeWorksheetSelect.options, function (o) { return o.value === theme; });
+                        if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; themeWorksheetSelect.add(_o); }
+                        themeWorksheetSelect.value = theme;
+                    }
+                } catch (e) {}
+                // Exclude '=' so the "tap the group with more" always has a definite answer.
+                try { relationCheckboxes.forEach(function (cb) { cb.checked = (cb.value === 'gt' || cb.value === 'lt'); }); } catch (e) {}
+                // (theme mode self-fetches /api/images?theme=<theme> inside generateWorksheet)
+                try {
+                    if (document.fonts && document.fonts.load) {
+                        await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                        await document.fonts.ready;
+                    }
+                } catch (e) {}
+                var _r = Math.random;
+                try {
+                    for (var _att = 0; _att < 3; _att++) {
+                        Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                        try { await generateWorksheetFunc(); } catch (e) {}
+                        var _ok = false;
+                        for (var _i = 0; _i < 300; _i++) {
+                            if (worksheetCanvas && Array.isArray(worksheetCanvas.problemsData) && worksheetCanvas.problemsData.length && worksheetCanvas.getObjects().some(function (o) { return o.isExerciseCard === true; })) { _ok = true; break; }
+                            await new Promise(function (r) { setTimeout(r, 50); });
+                        }
+                        if (_ok) break;
+                    }
+                } finally { Math.random = _r; }
+                return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+            };
+        }());
         downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
         downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
 

@@ -44,6 +44,8 @@ const APP_PARAMS = {
   'math-puzzle': { theme: 'animals' },
   'odd-one-out': { theme: 'animals' },
   'prepositions': { theme: 'animals' },
+  'big-small': { theme: 'animals' },
+  'more-less': { theme: 'animals' },
 };
 const SECOND_LOCALE = 'es';
 

@@ -3456,6 +3456,10 @@
 
       // --- Initial Worksheet Generation ---
       async function generateInitialWorksheet() {
+          // Headless SEP isolation: __sepGenerate drives its own seeded generateWorksheet();
+          // the auto-run initial generate would race it + consume the seeded Math.random.
+          // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+          if (/[?&]__sbHeadless=1/.test(location.search)) return;
           try {
               // Wait for themes to be loaded
               await new Promise(resolve => {
@@ -4157,6 +4161,66 @@ async function downloadPDF(canvasInstance, fileName, opts) {
         downloadPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
         downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
         exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
+
+        // --- SEP hook — Family C choice-tap. findBig mode: the first problem's
+        //     choice images become choiceOptions; tap the BIG one (answerIdx).
+        //     cropExerciseBBox spans the exercise card. Additive headless-only
+        //     globals; operator/browser path untouched. ---
+        (function () {
+            function _sbSepOpts(cropRect, returnPackage) {
+                return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isBigSmallExercise === true; }); },
+                    family: 'C', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+            }
+            var _b = document.getElementById('sepExportBtn');
+            if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+            window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+            window.__sepGenerate = async function (spec) {
+                spec = spec || {};
+                var loc = spec.locale || 'en';
+                window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                try { if (qTypeSelect) qTypeSelect.value = 'findBig'; } catch (e) {}   // tap the big one
+                try { if (problemCountInput) problemCountInput.value = 1; } catch (e) {}
+                try { if (imgCountSelect) imgCountSelect.value = '2'; } catch (e) {}
+                try { if (modeSelect) modeSelect.value = 'different'; } catch (e) {}
+                try {
+                    if (worksheetThemeSelect) {
+                        var _has = Array.prototype.some.call(worksheetThemeSelect.options, function (o) { return o.value === theme; });
+                        if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; worksheetThemeSelect.add(_o); }
+                        worksheetThemeSelect.value = theme;
+                    }
+                } catch (e) {}
+                // Seed selectedImages directly: headless, allThemes may be unpopulated so
+                // buildCells' theme path is skipped and its empty-search fallback returns
+                // nothing — feeding the pool explicitly takes buildCells' selectedImages path.
+                try {
+                    var _res = await fetch('/api/images?theme=' + encodeURIComponent(theme) + '&locale=' + loc);
+                    var _d = await _res.json();
+                    selectedImages = (_d.images || _d || []).slice(0, 6);
+                } catch (e) {}
+                try {
+                    if (document.fonts && document.fonts.load) {
+                        await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                        await document.fonts.ready;
+                    }
+                } catch (e) {}
+                var _r = Math.random;
+                try {
+                    for (var _att = 0; _att < 3; _att++) {
+                        Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                        try { await generateWorksheet(); } catch (e) {}
+                        var _ok = false;
+                        for (var _i = 0; _i < 300; _i++) {
+                            if (worksheetCanvas && worksheetCanvas.problemsData && Array.isArray(worksheetCanvas.problemsData.problems) && worksheetCanvas.problemsData.problems.length && worksheetCanvas.getObjects().some(function (o) { return o.isBigSmallChoice === true; })) { _ok = true; break; }
+                            await new Promise(function (r) { setTimeout(r, 50); });
+                        }
+                        if (_ok) break;
+                    }
+                } finally { Math.random = _r; }
+                return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+            };
+        }());
         dictionaryThemeSelect.addEventListener("change", loadDictionary);
         includeNameDateCheckbox.addEventListener('change', addOrRemoveNameDateFields);
         searchInput.addEventListener("input", loadDictionary);
@@ -4544,6 +4608,20 @@ async function downloadPDF(canvasInstance, fileName, opts) {
               return out;
           });
 
+          // SEP Family-C choice-tap emission (Edit-2): find-* modes are tap-the-correct-
+          // image (findBig/findSmall/findMed). choiceOptions from the FIRST problem's
+          // tagged choice images; isCorrect = choiceIndex === that problem's answerIdx.
+          // (order modes are a ranking mechanic — not emitted; the SEP hook forces a
+          // find-* qType.) slots rects are CENTER-based -> convert to TOP-LEFT. Emit-only.
+          var _sepChoiceOptions = [];
+          if (!isOrder && bundledProblems.length) {
+              var _p0i = bundledProblems[0].index;
+              var _ans = (typeof bundledProblems[0].answerIdx === 'number') ? bundledProblems[0].answerIdx : -1;
+              slots.filter(function (s) { return s.problemIndex === _p0i; }).forEach(function (s) {
+                  _sepChoiceOptions.push({ rect: { x: s.rect.x - s.rect.w / 2, y: s.rect.y - s.rect.h / 2, w: s.rect.w, h: s.rect.h }, isCorrect: (s.choiceIndex === _ans) });
+              });
+          }
+
           var worksheetImage = await _captureWorksheetImage(canvas);
 
           var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
@@ -4645,6 +4723,7 @@ async function downloadPDF(canvasInstance, fileName, opts) {
               slots: slots,
               indicators: indicators,
               problems: bundledProblems,
+              choiceOptions: _sepChoiceOptions,
               seoMeta: seoMeta,
               seoTrace: seoTrace,
               attribution: attributionRect ? {

@@ -1,0 +1,17 @@
+{
+  "app": "more-less",
+  "family": "C",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "6d1da4ed41e5492f63f790d3fbe49041ec6b7e31",
+  "visualSha1": "39df8b175dce2f9330c7bf7a729385025db28855",
+  "elementCounts": {
+    "targets": 2,
+    "countBlanks": 0
+  }
+}

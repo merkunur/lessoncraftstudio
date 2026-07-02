@@ -2264,17 +2264,24 @@
     /* A — tap-letter fill-in */
     A: function (bundle, crop, ctx) {
       var slots = (bundle.slots || []).filter(function (s) {
-        // 'letter' (word-guess/word-scramble) + 'grid' (cryptogram decode cells) — both are tap-a-letter
-        // fill-in slots with a single-char `expected` and a center-based rect (_worldRectBounds/center).
-        return s.slotType === 'letter' || s.slotType === 'grid';
+        // 'letter' (word-guess/word-scramble) + 'grid' (cryptogram decode cells) + 'symbol'/kind:'number'
+        // (math apps — addition/subtraction/math-worksheet/…): all tap-a-single-char fill-in slots with a
+        // center-based rect (_worldRectBounds/center). Numeric slots use a DIGIT palette (below).
+        return s.slotType === 'letter' || s.slotType === 'grid' || s.slotType === 'symbol';
       }).map(function (s, i) {
         var tl = _sepCenterToTopLeft(s.rect);
         return { keep: _sepInCrop(tl, crop), s: s, tl: tl, i: i };
       }).filter(function (x) { return x.keep; });
       var expected = slots.map(function (x) { return String(x.s.expected || '').toUpperCase(); });
+      // Numeric (digit) apps → 0-9 palette (+ '-' if any answer is negative); NOT the letter alphabet.
+      // Answers MUST be single-digit here (the tap-palette is one char/slot); __sepGenerate constrains
+      // math operands so sums/diffs are 0-9. (A multi-char expected is caught by the validator.)
+      var isNumeric = (ctx && ctx.numeric) || slots.some(function (x) { return x.s.kind === 'number' || x.s.slotType === 'symbol'; });
       var caseMode = (bundle.caseValue === 'lower') ? 'lower' : 'upper';
       var lang = (bundle.contentLanguage || 'en').slice(0, 2);
-      var alpha = (SEP_ALPHABETS[lang] || SEP_ALPHABETS.en).split('');
+      var alpha = isNumeric
+        ? ('0123456789' + (expected.indexOf('-') >= 0 ? '-' : '')).split('')
+        : (SEP_ALPHABETS[lang] || SEP_ALPHABETS.en).split('');
       var uniq = {}; expected.forEach(function (c) { uniq[c] = true; });
       var letters = Object.keys(uniq);
       var pool = alpha.filter(function (c) { return !uniq[c]; });
@@ -2443,7 +2450,7 @@
     var mapper = SEP_FAMILY_MAPPERS[opts.family];
     if (!mapper) return Promise.reject(new Error('SEP: unsupported family ' + opts.family));
     return _sepRenderTransparent(opts.canvas, pageW, pageH, crop).then(function (visual) {
-      var mapped = mapper(bundle, crop, { visual: visual, tapOnly: opts.tapOnly });
+      var mapped = mapper(bundle, crop, { visual: visual, tapOnly: opts.tapOnly, numeric: opts.numeric });
       var files = {};        /* relative path -> Blob */
       var visualName = 'visual@2x.' + visual.format;
       files[visualName] = _sepDataUrlToBlob(visual.dataUrl);

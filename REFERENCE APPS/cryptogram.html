@@ -1321,6 +1321,7 @@
             <button id="downloadDropdownBtn" class="action-button download-btn" disabled><span data-translate="cryptogram.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
             <div id="downloadDropdownContent" class="dropdown-content">
               <button id="exportToCatalogBtn" class="lcs-admin-only" disabled data-translate="exportToCatalog">Export to catalog</button>
+              <button id="sepExportBtn" class="lcs-admin-only">Export for Storybook</button>
               <hr style="margin: 6px 0; border-color: #eee;">
               <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
               <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
@@ -1609,6 +1610,8 @@
                         exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
                         family: 'A', exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
                 }
+                var _b = document.getElementById('sepExportBtn');
+                if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
                 window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
                 window.__sepGenerate = async function (spec) {
                     spec = spec || {};

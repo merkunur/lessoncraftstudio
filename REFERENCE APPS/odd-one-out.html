@@ -1688,6 +1688,10 @@
 
       // --- INITIAL WORKSHEET GENERATION ---
       async function generateInitialWorksheet() {
+          // Headless SEP isolation: __sepGenerate drives its own seeded renderWorksheet();
+          // the auto-run initial generate would race it + consume the seeded Math.random.
+          // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+          if (/[?&]__sbHeadless=1/.test(location.search)) return;
           try {
               console.log('Starting initial worksheet generation...');
 
@@ -3958,6 +3962,18 @@
               youDidIt: _rt("runtimeYouDidIt", "You did it!"),
               progressLabel: _rt("runtimeProgressLabel", "{n} / {total}")
           };
+          // SEP Family-C choice-tap emission (Edit-2): the first problem's image
+          // options become a flat choiceOptions list; the odd one (correctOptionIndex)
+          // is the target. options[].rect are already world TOP-LEFT. The SEP-C mapper
+          // reads choiceOptions -> tap-the-odd-one; the player flashes-and-ignores wrong
+          // taps. Emit-only; interactive/PDF/catalog output unchanged.
+          var _sepChoiceOptions = [];
+          if (problems.length) {
+              var _p0 = problems[0];
+              (_p0.options || []).forEach(function (o) {
+                  _sepChoiceOptions.push({ rect: o.rect, isCorrect: (o.index === _p0.correctOptionIndex) });
+              });
+          }
           return {
               bundleVersion: '27.2.0',
               schemaFormat: 'image-references-v3',
@@ -3971,6 +3987,7 @@
               worksheetImage: worksheetImage,
               scoring: 'strict',
               problems: problems,
+              choiceOptions: _sepChoiceOptions,
               imageRefs: {},
               seoMeta: seoMeta,
               seoTrace: seoTrace,
@@ -4736,6 +4753,60 @@
         // START OF CHANGES
         if (ui.downloadInteractiveHtmlBtn) ui.downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'odd_one_out_interactive.html', { loadingMode: 'inline' }));
         if (ui.exportToCatalogBtn) ui.exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
+
+        // --- SEP hook — Family C choice-tap. The first problem's image options become
+        //     choiceOptions; tap the ODD one (correctOptionIndex). cropExerciseBBox spans
+        //     the problem card so the 4 options + prompt are visible. Additive,
+        //     headless-only globals; operator/browser path untouched. ---
+        (function () {
+            function _sbSepOpts(cropRect, returnPackage) {
+                return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isProblemCard === true; }); },
+                    family: 'C', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+            }
+            var _b = document.getElementById('sepExportBtn');
+            if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+            window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+            window.__sepGenerate = async function (spec) {
+                spec = spec || {};
+                var loc = spec.locale || 'en';
+                window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                try { if (ui.modeSelect) ui.modeSelect.value = 'similar'; } catch (e) {}
+                try {
+                    [ui.themeSelect, ui.themeBSelect].forEach(function (sel) {
+                        if (!sel) return;
+                        var _has = Array.prototype.some.call(sel.options, function (o) { return o.value === theme; });
+                        if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; sel.add(_o); }
+                    });
+                    if (ui.themeSelect) ui.themeSelect.value = theme;
+                    if (ui.themeBSelect) ui.themeBSelect.value = (theme === 'food' ? 'animals' : 'food');
+                } catch (e) {}
+                EXERCISE_COUNT = 1;                       // single storybook exercise (bypasses the min-5 select)
+                try { await loadDictionary(); } catch (e) {}
+                try {
+                    if (document.fonts && document.fonts.load) {
+                        await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                        await document.fonts.ready;
+                    }
+                } catch (e) {}
+                var _r = Math.random;
+                try {
+                    for (var _att = 0; _att < 3; _att++) {
+                        Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                        EXERCISE_COUNT = 1;
+                        try { await renderWorksheet(); } catch (e) {}
+                        var _ok = false;
+                        for (var _i = 0; _i < 300; _i++) {
+                            if (worksheetCanvas && worksheetCanvas.problemsData && worksheetCanvas.problemsData.hasGeneration && worksheetCanvas.getObjects().some(function (o) { return o.isProblemCard === true; })) { _ok = true; break; }
+                            await new Promise(function (r) { setTimeout(r, 50); });
+                        }
+                        if (_ok) break;
+                    }
+                } finally { Math.random = _r; }
+                return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+            };
+        }());
         ui.downloadPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
         ui.downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
         // END OF CHANGES

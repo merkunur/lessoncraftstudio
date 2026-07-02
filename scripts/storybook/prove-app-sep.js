@@ -42,6 +42,8 @@ const APP_PARAMS = {
   'cryptogram': { theme: 'animals', vocabKeys: ['cat'] },
   'code-addition': { theme: 'animals', secretWord: 'CAT' },
   'math-puzzle': { theme: 'animals' },
+  'odd-one-out': { theme: 'animals' },
+  'prepositions': { theme: 'animals' },
 };
 const SECOND_LOCALE = 'es';
 

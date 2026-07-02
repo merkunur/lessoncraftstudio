@@ -1,0 +1,19 @@
+{
+  "app": "grid-match",
+  "family": "F",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "0d4cc44fe8b3af44f62d4234e0b4ef093b837739",
+  "visualSha1": "86ce9752b10fea74421298f22f9be9f74507094a",
+  "elementCounts": {
+    "gridDims": 1,
+    "gridCells": 9,
+    "paletteTiles": 9,
+    "solutionLabels": 1
+  }
+}

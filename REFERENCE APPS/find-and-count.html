@@ -2950,7 +2950,11 @@ document.addEventListener("DOMContentLoaded", function() {
         // --- Shared grid dimensions validation ---
         const rows = parseInt(document.getElementById('gridRows').value, 10);
         const cols = parseInt(document.getElementById('gridCols').value, 10);
-        if (isNaN(rows) || isNaN(cols) || rows < 5 || rows > 10 || cols < 5 || cols > 10) {
+        // Storybook-scale bypass: the headless __sepGenerate path sets window.__sbAllowSmall to allow a
+        // smaller grid (zone-scale, so the SEP density gate passes). The operator UI never sets it → the
+        // normal floor of 5 (the day-job worksheet) is unchanged.
+        const _sbFloor = window.__sbAllowSmall ? 2 : 5;
+        if (isNaN(rows) || isNaN(cols) || rows < _sbFloor || rows > 10 || cols < _sbFloor || cols > 10) {
             showMessage(t('gridDimensionsRange'), 'error'); isGenerating = false; return;
         }
 
@@ -5937,7 +5941,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
         function sepOpts(cropRect, returnPackage) {
             return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
                 exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return (o.isGeneratedItem && o.originalIndex === 'grid') || o.isLegendBlank; }); },
-                family: 'C', exerciseMode: null, cropRect: cropRect,
+                family: 'C', exerciseMode: null, cropRect: cropRect, tapOnly: true,
                 returnPackage: returnPackage, noDownload: returnPackage };
         }
         var b = document.getElementById('sepExportBtn');
@@ -5960,7 +5964,11 @@ async function downloadPDF(canvasToExport, filename, opts) {
             if (themeSelect) { try { themeSelect.value = theme; } catch (e) {} }
             var rng = window.LCSCatalogExport._sepRng(spec.seed || 1);
             var pool = (currentThemeImages || []).slice();
-            var taskTypes = ['circle', 'square', 'cross', 'count'];
+            // TAP-MARK task types only (no 'count'): the 'count' type emits a tiny ~22px legend
+            // count-blank that can't clear the SEP density gate (16px) in any valid zone (crop-height
+            // bound). SEP family C fully supports tap-only (targets + empty countBlanks), so a
+            // find-and-mark exercise is a clean zone-scale storybook exercise.
+            var taskTypes = ['circle', 'square', 'cross'];
             selectedImages = [];
             for (var k = 0; k < 4 && pool.length; k++) {
                 var img = pool.splice(Math.floor(rng() * pool.length), 1)[0];
@@ -5968,8 +5976,10 @@ async function downloadPDF(canvasToExport, filename, opts) {
                 selectedImages.push(img);
             }
             if (typeof renderSelectedObjectConfig === 'function') { try { renderSelectedObjectConfig(); } catch (e) {} }
+            // storybook-scale: 3x3 grid (zone-scale, clears the SEP density gate) via the additive floor bypass
+            window.__sbAllowSmall = true;
             var gr = document.getElementById('gridRows'), gc = document.getElementById('gridCols');
-            if (gr) gr.value = 5; if (gc) gc.value = 5;
+            if (gr) gr.value = 3; if (gc) gc.value = 3;
             var _r = Math.random; Math.random = rng;
             try {
                 try { await generateWorksheet(); } catch (e) {}

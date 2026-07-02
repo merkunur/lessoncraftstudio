@@ -1,0 +1,17 @@
+{
+  "app": "find-and-count",
+  "family": "C",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "fe8b3ee2ff3b873691607ba01ea25413c9c7e4fc",
+  "visualSha1": "d148f8af677c27aa08e890d120de775067ed6d59",
+  "elementCounts": {
+    "targets": 9,
+    "countBlanks": 0
+  }
+}

@@ -96,7 +96,9 @@ async function generateOne(browser, base, spec, storyDir) {
   const errs = [];
   page.on('pageerror', e => errs.push(String(e).slice(0, 160)));
   await page.setViewport({ width: 1400, height: 1000 });
-  await page.goto(base + '/worksheet-generators/' + spec.app + '.html', { waitUntil: 'networkidle2', timeout: 60000 });
+  // ?__sbHeadless=1 → apps that support it skip their concurrent init tail so __sepGenerate runs in
+  // isolation (no concurrent Math.random consumption → seed-reproducible). Apps without the flag ignore it.
+  await page.goto(base + '/worksheet-generators/' + spec.app + '.html?__sbHeadless=1', { waitUntil: 'networkidle2', timeout: 60000 });
   await page.waitForFunction('typeof window.__sepGenerate === "function"', { timeout: 30000 });
   const got = await page.evaluate(async (s) => {
     try {

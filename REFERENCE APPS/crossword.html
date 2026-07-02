@@ -1656,6 +1656,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Generate initial worksheet with default settings
         async function generateInitialWorksheet() {
+            // Headless SEP isolation: __sepGenerate drives its own seeded generate; the
+            // auto-run initial generate would race it + consume the seeded Math.random.
+            // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+            if (/[?&]__sbHeadless=1/.test(location.search)) return;
             try {
                 console.log('Starting initial worksheet generation...');
 
@@ -1802,6 +1806,59 @@ document.addEventListener("DOMContentLoaded", function() {
         downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
         downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+
+        // --- SEP hook — Family A 2D-grid letter fill. cells -> slots{slotType:'grid'};
+        //     the child taps letters into the crossword cells. cropExerciseBBox spans the
+        //     grid + picture clues (the clues ARE the hints). Additive headless-only
+        //     globals; operator/browser path untouched. ---
+        (function () {
+            function _sbSepOpts(cropRect, returnPackage) {
+                // No cropExerciseBBox: the A default crop = the grid-cell slots bbox (tight
+                // to the crossword grid). Including the picture-clue column would enlarge the
+                // crop and shrink the cells below the 16px density floor (8 interlocking
+                // words). The grid carries baked cell-numbers; the clue pictures sit outside
+                // the cropped SEP (the standalone deck page still shows them).
+                return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true || o.isCrosswordGrid === true; }); },
+                    family: 'A', exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+            }
+            var _b = document.getElementById('sepExportBtn');
+            if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+            window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+            window.__sepGenerate = async function (spec) {
+                spec = spec || {};
+                var loc = spec.locale || 'en';
+                window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                try {
+                    if (worksheetThemeSelect) {
+                        var _has = Array.prototype.some.call(worksheetThemeSelect.options, function (o) { return o.value === theme; });
+                        if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; worksheetThemeSelect.add(_o); }
+                        worksheetThemeSelect.value = theme;
+                    }
+                } catch (e) {}
+                try {
+                    if (document.fonts && document.fonts.load) {
+                        await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                        await document.fonts.ready;
+                    }
+                } catch (e) {}
+                var _r = Math.random;
+                try {
+                    for (var _att = 0; _att < 3; _att++) {
+                        Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                        try { await handleGenerateWorksheet(); } catch (e) {}
+                        var _ok = false;
+                        for (var _i = 0; _i < 400; _i++) {
+                            if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isCrosswordGrid === true; })) { _ok = true; break; }
+                            await new Promise(function (r) { setTimeout(r, 50); });
+                        }
+                        if (_ok) break;
+                    }
+                } finally { Math.random = _r; }
+                return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+            };
+        }());
 
         // Zoom Controls (from wordsearch lines 1520-1522)
         zoomInBtn.addEventListener('click', zoomIn);
@@ -3915,6 +3972,20 @@ document.addEventListener("DOMContentLoaded", function() {
             youDidIt: _rt("runtimeYouDidIt", "You did it!"),
             progressLabel: _rt("runtimeProgressLabel", "{n} / {total}")
         };
+        // SEP Family-A emission (Edit-2): crossword is a 2D-grid letter fill — each blank
+        // cell takes one letter. Map cells -> A slots (slotType:'grid' -> the A letter
+        // palette). worldRectOf is TOP-LEFT; the A mapper's _sepCenterToTopLeft expects a
+        // CENTER-based rect -> convert. One puzzle -> problemIndex 0. Emit-only.
+        var _sepSlots = cells.map(function (c) {
+            return {
+                problemIndex: 0,
+                slotType: 'grid',
+                kind: 'letter',
+                expected: c.correctLetter,
+                rect: { x: c.rect.x + c.rect.w / 2, y: c.rect.y + c.rect.h / 2, w: c.rect.w, h: c.rect.h }
+            };
+        }).filter(function (s) { return s.expected; });
+
         return {
             bundleVersion: '31.1.0',
             schemaFormat: 'image-references-v3',
@@ -3927,6 +3998,7 @@ document.addEventListener("DOMContentLoaded", function() {
             page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
             worksheetImage: worksheetImage,
             scoring: 'strict-per-cell',
+            slots: _sepSlots,
             gridDims: meta.gridDims,
             cells: cells,
             words: words,

@@ -4836,14 +4836,21 @@
                             letterThemeEl.value = theme;
                         }
                     } catch (e) {}
-                    var rng = window.LCSCatalogExport._sepRng(spec.seed || 1);
-                    var _r = Math.random; Math.random = rng;
+                    var _r = Math.random;
+                    var _pairsOf = function () { return worksheetCanvas ? worksheetCanvas.getObjects().filter(function (o) { return o.isGeneratedItem && typeof o.originalIndex === 'number' && (o.position === 'left' || o.position === 'right'); }).length : 0; };
                     try {
-                        try { await generateWorksheet(); } catch (e) {}
-                        for (var _i = 0; _i < 200; _i++) {
-                            var _n = worksheetCanvas ? worksheetCanvas.getObjects().filter(function (o) { return o.isGeneratedItem && typeof o.originalIndex === 'number' && (o.position === 'left' || o.position === 'right'); }).length : 0;
-                            if (_n >= 2) break;
-                            await new Promise(function (r) { setTimeout(r, 50); });
+                        // Re-seeded retry: the concurrent (hanging) page-load init can occasionally starve
+                        // one generate pass; retry (up to 3×) gated on problemsData. A FRESH seed each
+                        // attempt keeps the result deterministic regardless of which attempt succeeds.
+                        for (var _att = 0; _att < 3; _att++) {
+                            Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                            try { await generateWorksheet(); } catch (e) {}
+                            var _ok = false;
+                            for (var _i = 0; _i < 300; _i++) {
+                                if (_pairsOf() >= 2 && worksheetCanvas && worksheetCanvas.problemsData) { _ok = true; break; }
+                                await new Promise(function (r) { setTimeout(r, 50); });
+                            }
+                            if (_ok) break;
                         }
                     } finally { Math.random = _r; }
                     return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));

@@ -2168,6 +2168,14 @@
                     }
                     while (selectedImages.length < want && pool.length) { selectedImages.push(pool.splice(Math.floor(rng() * pool.length), 1)[0]); }
                     if (typeof updateSelectedImagesUI === 'function') updateSelectedImagesUI();
+                    // DETERMINISM: force difficulty=0 (no revealed clue letters → ALL letters blank →
+                    // stable slot count = full word length). Otherwise clueIndices (shuffleArray of clues,
+                    // difficulty>0) makes the blank count drift with the app's init difficulty state
+                    // (3-slot CAT vs 2-slot AT across runs). All-blank is also the cleanest full exercise.
+                    try {
+                        var _d0 = document.querySelector('input[name="difficulty"][value="0"]') || document.querySelector('input[name="difficulty"]');
+                        if (_d0) { _d0.checked = true; }
+                    } catch (e) {}
                     // force-load fonts (scrambled-letter tiles are live-measured text → metric jitter → non-repro)
                     try {
                         if (document.fonts && document.fonts.load) {

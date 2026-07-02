@@ -124,7 +124,18 @@ async function proveApp(app, opts) {
       if (textFamily) {
         const enExp = JSON.stringify((prim.elements.slots || []).map(s => s.expected));
         const locExp = JSON.stringify((loc.elements.slots || []).map(s => s.expected));
-        ok(enExp !== locExp, 'locale changes the exercise word (en ' + enExp + ' != ' + SECOND_LOCALE + ' ' + locExp + ')');
+        // A blanked SUBSET can coincide across locales even when the words differ (CAT blanks A,T ~
+        // GATO blanks A,T). Accept expected-differs OR the rendered visual differs (the localized word
+        // renders differently) — a reliable locale signal for subset-blanking A apps.
+        let differs = enExp !== locExp;
+        if (!differs) {
+          try {
+            const enVis = fs.readFileSync(path.join(STORIES, story, 'exercises', 'p-en', prim.visual.file));
+            const locVis = fs.readFileSync(path.join(STORIES, story, 'exercises', 'p-loc', loc.visual.file));
+            differs = sha1(enVis) !== sha1(locVis);
+          } catch (e) {}
+        }
+        ok(differs, 'locale changes the exercise (expected ' + enExp + ' vs ' + locExp + ', or visual)');
       } else {
         ok(true, '2 locales both generate a valid exercise (content is language-neutral: images/numbers)');
         try {

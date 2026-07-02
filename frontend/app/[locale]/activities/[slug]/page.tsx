@@ -8,6 +8,7 @@ import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locale
 /* Map manifest `alignment.grade` ("K"/"1"/"2"/"3") to the localized
    `seo.educational_level.*` key. Reused across activities of all engines. */
 const GRADE_KEY_MAP: Record<string, string> = {
+  'PK': 'preschool',
   'K': 'kindergarten',
   '1': 'grade_1',
   '2': 'grade_2',

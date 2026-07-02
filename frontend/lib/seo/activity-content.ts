@@ -153,9 +153,13 @@ async function loadLocaleContent(locale: string): Promise<ActivityContentFile | 
   }
 }
 
-/** Map the manifest grade literal ("K"/"1"/"2"/"3") to a child age range. */
+/** Map the manifest grade literal ("PK"/"K"/"1"/"2"/"3") to a child age range.
+    PK (pre-school) = ages 3-4, the band below Kindergarten — matches the platform's
+    established preschool ladder (Preschool 3-4 → K 5-6 → Gr1 6-7 …, per the SEO
+    landing LEVELS map + §17.8.6 educational-level axis). */
 export function gradeToAgeRange(grade: string): string | null {
   const map: Record<string, string> = {
+    PK: '3-4',
     K: '5-6',
     '1': '6-7',
     '2': '7-8',

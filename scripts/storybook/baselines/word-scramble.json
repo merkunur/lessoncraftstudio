@@ -1,0 +1,19 @@
+{
+  "app": "word-scramble",
+  "family": "A",
+  "spec": {
+    "params": {
+      "theme": "animals",
+      "vocabKeys": [
+        "cat"
+      ]
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "50ec6c4e5b14e0b21daf9681aa3c429c1a19bc7c",
+  "visualSha1": "22d9d018ace8a922639e754e8bb9737b4e2ea1ff",
+  "elementCounts": {
+    "slots": 3
+  }
+}

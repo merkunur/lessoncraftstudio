@@ -31,6 +31,7 @@ const MATRIX = path.join(REPO, 'docs', 'storybook', 'app-coverage-matrix.json');
 /* per-app generation params (theme etc.). Default = animals theme; extend as apps wire. */
 const APP_PARAMS = {
   'word-guess': { theme: 'animals', vocabKeys: ['cat'] },
+  'word-scramble': { theme: 'animals', vocabKeys: ['cat'] },
   'grid-match': { theme: 'animals' },
   'matching': { theme: 'animals' },
   'find-and-count': { theme: 'animals' },

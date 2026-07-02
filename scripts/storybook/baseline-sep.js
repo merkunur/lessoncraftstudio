@@ -27,6 +27,7 @@ const BASE_DIR = path.join(__dirname, 'baselines');
 /* canonical spec per app — MUST match prove-app-sep's params for a stable golden */
 const APP_PARAMS = {
   'word-guess': { theme: 'animals', vocabKeys: ['cat'] },
+  'word-scramble': { theme: 'animals', vocabKeys: ['cat'] },
   'grid-match': { theme: 'animals' },
   'matching': { theme: 'animals' },
   'find-and-count': { theme: 'animals' },

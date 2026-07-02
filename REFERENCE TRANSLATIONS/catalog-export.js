@@ -2605,7 +2605,7 @@
            union-bbox default (== the operator's pre-filled box); else the UI */
         var cropPromise = opts.cropRect ? Promise.resolve(opts.cropRect)
           : (opts.returnPackage ? Promise.resolve(defaultCrop)
-            : _sepCropUI(canvas, pageW, pageH, defaultCrop));
+            : _sepCropUI(canvas, pageW, pageH, defaultCrop, _sepAnswerRects(bundle, opts.family)));
         return cropPromise.then(function (crop) {
           if (!crop) return null;  /* cancelled */
           crop = { x: Math.round(crop.x), y: Math.round(crop.y), w: Math.round(crop.w), h: Math.round(crop.h) };
@@ -2614,11 +2614,48 @@
       });
   }
 
+  /* Does the mapped exercise carry a solvable answer? Used to warn the operator
+     when their crop excludes the answer box (→ an unplayable, dead export). */
+  function _sepHasAnswer(family, el) {
+    el = el || {};
+    if (family === 'A') return (el.slots || []).length > 0;
+    if (family === 'C') return (el.targets || []).some(function (t) { return t.isTarget; }) || (el.countBlanks || []).length > 0;
+    if (family === 'F') { var sol = (el.answers && el.answers.solutionLabels) || el.solutionLabels; return !!sol && Object.keys(sol).length > 0; }
+    if (family === 'E') return (el.pairs || []).length > 0;
+    if (family === 'B') return (el.paths || []).length > 0;
+    if (family === 'D') return (el.columns || []).some(function (c) { return typeof c.target === 'number'; });
+    return true;
+  }
+
+  /* PAGE-space top-left rects of the answer boxes the child fills — drawn as
+     markers in the crop UI so the operator knows to include them. Best-effort
+     per family; unknown fields just yield no markers (harmless). */
+  function _sepAnswerRects(bundle, family) {
+    bundle = bundle || {};
+    var out = [];
+    function push(r) { if (r && isFinite(r.x) && isFinite(r.y) && r.w > 0 && r.h > 0) out.push({ x: r.x, y: r.y, w: r.w, h: r.h }); }
+    if (family === 'A') (bundle.slots || []).forEach(function (s) { push(_sepCenterToTopLeft(s.rect)); });
+    else if (family === 'F') (bundle.gridCells || []).forEach(function (c) { push(c.rect); });
+    else if (family === 'C') { (bundle.choiceOptions || []).forEach(function (o) { push(o.rect); }); (bundle.inputSlots || []).forEach(function (s) { push(s.rect); }); }
+    else if (family === 'E') (bundle.leftItems || []).concat(bundle.rightItems || []).forEach(function (it) { push({ x: it.x, y: it.y, w: it.w, h: it.h }); });
+    else if (family === 'B') (bundle.sepCells || bundle.gridCells || []).forEach(function (c) { if (c.rect) push(c.rect); });
+    else if (family === 'D') (bundle.chartCells || []).forEach(function (c) { push({ x: c.x, y: c.y, w: c.w, h: c.h }); });
+    return out;
+  }
+
   function _sepBuildPackage(opts, bundle, crop, pageW, pageH) {
     var mapper = SEP_FAMILY_MAPPERS[opts.family];
     if (!mapper) return Promise.reject(new Error('SEP: unsupported family ' + opts.family));
     return _sepRenderTransparent(opts.canvas, pageW, pageH, crop).then(function (visual) {
       var mapped = mapper(bundle, crop, { visual: visual, tapOnly: opts.tapOnly, numeric: opts.numeric });
+      /* Operator crop-UI export (not the headless returnPackage path): if the crop
+         caught no answer, the exercise is unplayable — warn + abort rather than
+         download a dead ZIP. This is the #1 cause of "empty" exports (crop excludes
+         the answer box). */
+      if (!opts.returnPackage && !opts.noDownload && !_sepHasAnswer(opts.family, mapped.elements)) {
+        if (global.alert) global.alert('Your crop doesn\'t include an answer box, so this exercise wouldn\'t be playable.\n\nDrag the box so it covers the ANSWER (the blank or box the child fills in) together with the picture/question, then click "Export for Storybook" again.');
+        return null;
+      }
       var files = {};        /* relative path -> Blob */
       var visualName = 'visual@2x.' + visual.format;
       files[visualName] = _sepDataUrlToBlob(visual.dataUrl);
@@ -2717,7 +2754,7 @@
 
   /* interactive crop overlay: a draggable/resizable rectangle over the live
      canvas; resolves the chosen rect in PAGE units, or null on cancel */
-  function _sepCropUI(canvas, pageW, pageH, defaultCrop) {
+  function _sepCropUI(canvas, pageW, pageH, defaultCrop, answerRects) {
     return new Promise(function (resolve) {
       var doc = global.document;
       var canvasEl = canvas.getElement ? canvas.getElement() : canvas.lowerCanvasEl;
@@ -2732,7 +2769,7 @@
       panel.style.cssText = 'position:fixed;left:50%;top:14px;transform:translateX(-50%);z-index:100000;' +
         'background:#146B5E;color:#fff;padding:10px 16px;border-radius:12px;font:700 14px system-ui;' +
         'box-shadow:0 6px 20px rgba(0,0,0,.3);display:flex;gap:10px;align-items:center;';
-      panel.innerHTML = '<span>Drag the box around the ONE exercise, then Export.</span>';
+      panel.innerHTML = '<span>Drag the box around ONE exercise — keep the <b style="color:#B6F0D8">green answer box</b> inside — then Export.</span>';
       var okBtn = doc.createElement('button');
       okBtn.textContent = 'Export this';
       okBtn.style.cssText = 'border:none;border-radius:8px;background:#F2784B;color:#fff;font-weight:800;padding:7px 14px;cursor:pointer;';
@@ -2749,6 +2786,14 @@
         'background:#fff;border:3px solid #F2784B;cursor:nwse-resize;';
       rect.appendChild(handle);
 
+      /* green dashed markers over the answer boxes — so the operator keeps them in the crop */
+      var markers = (answerRects || []).map(function () {
+        var m = doc.createElement('div');
+        m.style.cssText = 'position:absolute;border:2px dashed #1FA97F;background:rgba(31,169,127,.16);' +
+          'border-radius:4px;z-index:99999;box-sizing:border-box;pointer-events:none;';
+        return m;
+      });
+
       var cur = { x: defaultCrop.x, y: defaultCrop.y, w: defaultCrop.w, h: defaultCrop.h };
       function place() {
         var hostRect = host.getBoundingClientRect();
@@ -2758,8 +2803,16 @@
         rect.style.top = (offY + cur.y * sy) + 'px';
         rect.style.width = (cur.w * sx) + 'px';
         rect.style.height = (cur.h * sy) + 'px';
+        (answerRects || []).forEach(function (r, i) {
+          var m = markers[i]; if (!m) return;
+          m.style.left = (offX + r.x * sx) + 'px';
+          m.style.top = (offY + r.y * sy) + 'px';
+          m.style.width = (r.w * sx) + 'px';
+          m.style.height = (r.h * sy) + 'px';
+        });
       }
       if (getComputedStyle(host).position === 'static') host.style.position = 'relative';
+      markers.forEach(function (m) { host.appendChild(m); });
       host.appendChild(rect); place();
       doc.body.appendChild(scrim); doc.body.appendChild(panel);
 
@@ -2785,7 +2838,7 @@
       function cleanup() {
         global.removeEventListener('pointermove', move);
         global.removeEventListener('pointerup', up);
-        [scrim, panel, rect].forEach(function (n) { if (n.parentNode) n.parentNode.removeChild(n); });
+        [scrim, panel, rect].concat(markers).forEach(function (n) { if (n && n.parentNode) n.parentNode.removeChild(n); });
       }
       okBtn.addEventListener('click', function () { cleanup(); resolve({ x: cur.x, y: cur.y, w: cur.w, h: cur.h }); });
       cancelBtn.addEventListener('click', function () { cleanup(); resolve(null); });

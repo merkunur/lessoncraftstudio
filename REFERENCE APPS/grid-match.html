@@ -6,7 +6,7 @@
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
-    <script src="/worksheet-generators/js/catalog-export.js?v=30"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=31"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -4900,6 +4900,40 @@ async function downloadPDF(canvasToExport, filename, opts) {
             var b = document.getElementById('sepExportBtn');
             if (b) b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(sepOpts(null, false)); });
             window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(sepOpts(cropRect, true)); };
+            // Headless programmatic generation (seed-reproducible, locale-parameterized) — beside __sepExport, 0-line to generation logic.
+            window.__sepGenerate = async function (spec) {
+                spec = spec || {};
+                window.currentLocale = spec.locale || 'en';
+                var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                if (themeSelect) themeSelect.value = theme;
+                if (!appState.imageCache || !appState.imageCache.length) { try { await preloadDefaultTheme(); } catch (e) {} }
+                var rng = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                var cache = appState.imageCache || [];
+                var pick = null;
+                if (spec.vocabKeys && spec.vocabKeys.length) {
+                    var k = spec.vocabKeys[0].toLowerCase();
+                    pick = cache.filter(function (i) { return ((i.word || i.name || '').toLowerCase() === k) || ((i.path || '').toLowerCase().indexOf('/' + k + '.') >= 0) || ((i.path || '').toLowerCase().indexOf('/' + k + '@') >= 0); })[0];
+                }
+                if (!pick && cache.length) pick = cache[Math.floor(rng() * cache.length)];
+                if (pick) { appState.config.selectedImage = { word: pick.name || pick.word, path: pick.path }; if (typeof renderSelectedImagePreview === 'function') renderSelectedImagePreview(); if (typeof renderDictionary === 'function') renderDictionary(); }
+                var p = (spec.params) || {};
+                if (rowInput) rowInput.value = p.rows || 3;
+                if (colInput) colInput.value = p.cols || 3;
+                if (clueCountInput) clueCountInput.value = p.clues || 1;
+                var want = (p.rows || 3) * (p.cols || 3);
+                var _r = Math.random; Math.random = rng;
+                try {
+                    // handleWorksheetGeneration builds cells inside an async Image.onload it does NOT await —
+                    // poll until the grid is present (seeded RNG stays live so the in-callback shuffle is deterministic).
+                    await handleWorksheetGeneration(false);
+                    for (var _i = 0; _i < 300; _i++) {
+                        var _n = wsCanvas.getObjects().filter(function (o) { return o.isGridMatchCell; }).length;
+                        if (_n >= want) break;
+                        await new Promise(function (r) { setTimeout(r, 50); });
+                    }
+                } finally { Math.random = _r; }
+                return window.LCSCatalogExport.exportStorybookExercise(sepOpts(null, true));
+            };
         }());
         downloadPdfBtn.addEventListener('click', () => downloadPDF(wsCanvas, 'worksheet.pdf'));
         downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(akCanvas, 'answer-key.pdf'));

@@ -6,7 +6,7 @@
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
-    <script src="/worksheet-generators/js/catalog-export.js?v=32"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=33"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <title>MatchUp Maker</title>
@@ -4965,6 +4965,23 @@
                 var b = document.getElementById('sepExportBtn');
                 if (b) b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(sepOpts(null, false)); });
                 window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(sepOpts(cropRect, true)); };
+                // Headless programmatic generation (seed-reproducible, locale-parameterized) — reuses the app's own
+                // initial generator under a seeded RNG; polls for the pair objects (built inside async image loads).
+                window.__sepGenerate = async function (spec) {
+                    spec = spec || {};
+                    window.currentLocale = spec.locale || 'en';
+                    var rng = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                    var _r = Math.random; Math.random = rng;
+                    try {
+                        await generateInitialWorksheet();
+                        for (var _i = 0; _i < 400; _i++) {
+                            var _n = worksheetCanvas.getObjects().filter(function (o) { return o.isGeneratedItem && typeof o.originalIndex === 'number' && (o.position === 'left' || o.position === 'right'); }).length;
+                            if (_n >= 2) break;
+                            await new Promise(function (r) { setTimeout(r, 50); });
+                        }
+                    } finally { Math.random = _r; }
+                    return window.LCSCatalogExport.exportStorybookExercise(sepOpts(null, true));
+                };
             }());
             downloadPdfBtn.onclick = () => downloadPDF(worksheetCanvas, 'worksheet.pdf');
             downloadAnswerKeyPdfBtn.onclick = () => downloadPDF(answerKeyCanvas, 'answer-key.pdf');

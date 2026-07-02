@@ -1730,6 +1730,56 @@ document.addEventListener("DOMContentLoaded", function() {
                 downloadInteractiveHtml(worksheetCanvas, 'sudoku_interactive.html', { loadingMode: 'inline' }));
         }
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+
+        // --- SEP hook — Family F drag-place (4x4 picture-sudoku). Drag each cutout card
+        //     into the blank cell needing its image. Edit-2 maps holes+cutouts onto the F
+        //     shape. cropExerciseBBox spans the whole grid (clue cells the child deduces
+        //     from) + cutouts. Additive headless-only globals; operator/browser path
+        //     untouched. ---
+        (function () {
+            function _sbSepOpts(cropRect, returnPackage) {
+                return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isSudokuGrid === true || o.isCutOut === true; }); },
+                    family: 'F', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+            }
+            var _bb = document.getElementById('sepExportBtn');
+            if (_bb) _bb.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+            window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+            window.__sepGenerate = async function (spec) {
+                spec = spec || {};
+                var loc = spec.locale || 'en';
+                window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                try {
+                    if (worksheetThemeSelect) {
+                        var _has = Array.prototype.some.call(worksheetThemeSelect.options, function (o) { return o.value === theme; });
+                        if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; worksheetThemeSelect.add(_o); }
+                        worksheetThemeSelect.value = theme;
+                    }
+                } catch (e) {}
+                try { if (typeof difficultySelect !== 'undefined' && difficultySelect) difficultySelect.value = '4'; } catch (e) {}   // Easy: 4 blanks
+                try {
+                    if (document.fonts && document.fonts.load) {
+                        await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                        await document.fonts.ready;
+                    }
+                } catch (e) {}
+                var _r = Math.random;
+                try {
+                    for (var _att = 0; _att < 3; _att++) {
+                        Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                        try { await handleGenerateWorksheet(); } catch (e) {}
+                        var _ok = false;
+                        for (var _i = 0; _i < 400; _i++) {
+                            if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isSudokuGrid === true; }) && worksheetCanvas.getObjects().some(function (o) { return o.isCutOut === true; })) { _ok = true; break; }
+                            await new Promise(function (r) { setTimeout(r, 50); });
+                        }
+                        if (_ok) break;
+                    }
+                } finally { Math.random = _r; }
+                return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+            };
+        }());
         if (downloadPdfBtn) {
             downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
         }
@@ -2182,6 +2232,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // --- Initial Worksheet Generation ---
     async function generateInitialWorksheet() {
+        // Headless SEP isolation: __sepGenerate drives its own seeded handleGenerateWorksheet();
+        // the auto-run initial generate would race it + consume the seeded Math.random.
+        // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+        if (/[?&]__sbHeadless=1/.test(location.search)) return;
         try {
             // Wait for themes to be loaded (reduced polling interval for faster initialization)
             await new Promise(resolve => {
@@ -3808,6 +3862,35 @@ document.addEventListener("DOMContentLoaded", function() {
             youDidIt: _rt("runtimeYouDidIt", "You did it!"),
             progressLabel: _rt("runtimeProgressLabel", "{n} / {total}")
         };
+
+        // SEP Family-F emission (Edit-2): 4x4 picture-sudoku — drag each cutout card into
+        // the blank cell needing its image. Map onto the grid-match F shape. gridCells =
+        // holes; paletteTiles/reveals = cutout cards (paletteNumber = cutout.index);
+        // solutionLabels = each hole -> an UNUSED cutout whose imageIndex ===
+        // hole.correctImageIndex (first-unused, since several holes share an image and
+        // each needs its own card). rects are TOP-LEFT. Emit-only.
+        var _sepGridCells = holes.map(function (h) {
+            return { index: h.index, row: h.row, col: h.col, isClue: false, rect: h.rect };
+        });
+        var _sepPaletteTiles = cutoutsWithImages.map(function (co) {
+            return { paletteNumber: co.index, originalCellIndex: -1, rect: co.rect };
+        });
+        var _sepPaletteReveals = cutoutsWithImages.map(function (co) {
+            return { paletteNumber: co.index, imgDataUrl: co.imgDataUrl || '' };
+        });
+        var _sepUsedCut = {};
+        var _sepSolutionLabels = {};
+        holes.forEach(function (h) {
+            for (var _k = 0; _k < cutoutsWithImages.length; _k++) {
+                var co = cutoutsWithImages[_k];
+                if (!_sepUsedCut[co.index] && co.imageIndex === h.correctImageIndex) {
+                    _sepSolutionLabels[h.index] = co.index;
+                    _sepUsedCut[co.index] = true;
+                    break;
+                }
+            }
+        });
+
         return {
             bundleVersion: '28.4.0',
             schemaFormat: 'image-references-v3',
@@ -3823,6 +3906,10 @@ document.addEventListener("DOMContentLoaded", function() {
             gridDims: { rows: 4, cols: 4 },
             holes: holes,
             cutoutsData: cutoutsWithImages,
+            gridCells: _sepGridCells,
+            paletteTiles: _sepPaletteTiles,
+            paletteReveals: _sepPaletteReveals,
+            solutionLabels: _sepSolutionLabels,
             uniqueImageKeys: uniqueImageKeys,
             imageRefs: {},
             seoMeta: seoMeta,

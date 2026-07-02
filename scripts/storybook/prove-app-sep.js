@@ -58,6 +58,7 @@ const APP_PARAMS = {
   'wordsearch': { theme: 'animals', vocabKeys: ['cat'] },
   'picture-path': { theme: 'animals' },
   'treasure-hunt': { theme: 'animals' },
+  'sudoku': { theme: 'animals' },
 };
 const SECOND_LOCALE = 'es';
 

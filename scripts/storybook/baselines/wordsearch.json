@@ -1,0 +1,21 @@
+{
+  "app": "wordsearch",
+  "family": "B",
+  "spec": {
+    "params": {
+      "theme": "animals",
+      "vocabKeys": [
+        "cat"
+      ]
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "3a8304caea7fc79985baa490039578d2175292a2",
+  "visualSha1": "4a9b4ac248285851cbc978d40914939e00fcfd64",
+  "elementCounts": {
+    "gridDims": 1,
+    "cells": 25,
+    "paths": 1
+  }
+}

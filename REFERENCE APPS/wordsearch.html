@@ -2023,6 +2023,59 @@ document.addEventListener("DOMContentLoaded", function() {
         // Downloads
         downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'wordsearch_interactive.html', { loadingMode: 'inline' }));
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+
+        // --- SEP hook — Family B puzzle-drag. Trace the FIRST hidden word by dragging
+        //     across the letter-grid cells (8-dir, reversible). Edit-2 emits sepCells +
+        //     sepPaths. Additive headless-only globals; operator/browser path untouched. ---
+        (function () {
+            function _sbSepOpts(cropRect, returnPackage) {
+                return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isWordsearchGrid === true; }); },
+                    family: 'B', exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+            }
+            var _bb = document.getElementById('sepExportBtn');
+            if (_bb) _bb.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+            window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+            window.__sepGenerate = async function (spec) {
+                spec = spec || {};
+                var loc = spec.locale || 'en';
+                window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                try {
+                    if (worksheetThemeSelect) {
+                        var _has = Array.prototype.some.call(worksheetThemeSelect.options, function (o) { return o.value === theme; });
+                        if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; worksheetThemeSelect.add(_o); }
+                        worksheetThemeSelect.value = theme;
+                    }
+                } catch (e) {}
+                try { if (rowsInput) rowsInput.value = 5; } catch (e) {}
+                try { if (colsInput) colsInput.value = 5; } catch (e) {}
+                try { if (allowDiagonalInput) allowDiagonalInput.checked = false; } catch (e) {}   // H/V words only: clean traces
+                try { if (allowReverseWordsInput) allowReverseWordsInput.checked = false; } catch (e) {}
+                try { if (showWordListInput) showWordListInput.checked = true; } catch (e) {}
+                try { if (typeof customWordListMode !== 'undefined') customWordListMode = false; } catch (e) {}
+                try {
+                    if (document.fonts && document.fonts.load) {
+                        await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                        await document.fonts.ready;
+                    }
+                } catch (e) {}
+                var _r = Math.random;
+                try {
+                    for (var _att = 0; _att < 3; _att++) {
+                        Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                        try { await handleGenerateWorksheet(); } catch (e) {}
+                        var _ok = false;
+                        for (var _i = 0; _i < 400; _i++) {
+                            if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isWordsearchGrid === true; })) { _ok = true; break; }
+                            await new Promise(function (r) { setTimeout(r, 50); });
+                        }
+                        if (_ok) break;
+                    }
+                } finally { Math.random = _r; }
+                return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+            };
+        }());
         downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
         downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
         grayscaleLabel.addEventListener('click', (e) => e.stopPropagation());
@@ -2356,6 +2409,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     async function generateInitialWorksheet() {
+        // Headless SEP isolation: __sepGenerate drives its own seeded handleGenerateWorksheet();
+        // the auto-run initial generate would race it + consume the seeded Math.random.
+        // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+        if (/[?&]__sbHeadless=1/.test(location.search)) return;
         try {
             // Set default settings for initial worksheet
             const defaultInitTheme = (dbThemeWhitelist && dbThemeWhitelist.length > 0) ? dbThemeWhitelist[0] : 'animals';
@@ -4695,6 +4752,32 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             allCorrect: _rt("runtimeAllCorrect", "All found!"),
             correct: _rt("runtimeCorrect", "correct")
         };
+
+        // SEP Family-B emission (Edit-2): derive per-cell TOP-LEFT rects by tiling the
+        // grid's world bbox (gridRect) rows×cols, and a single trace path from the FIRST
+        // visible word's straight run (8-dir, reversible). The letters are baked into the
+        // transparent visual; the SEP overlays invisible drag-select cells. Emit-only.
+        var _sepRows = gridGroup.wsRows || (data.settings && data.settings.rows) || 0;
+        var _sepCols = gridGroup.wsCols || (data.settings && data.settings.cols) || 0;
+        var _sepCells = [];
+        if (_sepRows && _sepCols && gridRect) {
+            var _cw = gridRect.w / _sepCols, _ch = gridRect.h / _sepRows;
+            for (var _sr = 0; _sr < _sepRows; _sr++) {
+                for (var _sc = 0; _sc < _sepCols; _sc++) {
+                    _sepCells.push({ index: _sr * _sepCols + _sc, row: _sr, col: _sc,
+                        rect: { x: gridRect.x + _sc * _cw, y: gridRect.y + _sr * _ch, w: _cw, h: _ch } });
+                }
+            }
+        }
+        var _sepPaths = [];
+        if (words.length && _sepCols) {
+            var _w0 = words[0], _seq = [];
+            for (var _wk = 0; _wk < _w0.len; _wk++) {
+                _seq.push((_w0.r + _wk * _w0.dr) * _sepCols + (_w0.c + _wk * _w0.dc));
+            }
+            _sepPaths.push({ id: 0, sequence: _seq, reversible: true });
+        }
+
         return {
             bundleVersion: '15.2.0',
             schemaFormat: 'image-references-v2',
@@ -4714,6 +4797,9 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             rows: gridGroup.wsRows || data.settings.rows,
             cols: gridGroup.wsCols || data.settings.cols,
             gridRect: gridRect,
+            gridDims: { rows: _sepRows, cols: _sepCols },
+            sepCells: _sepCells,
+            sepPaths: _sepPaths,
             words: words,
             worksheetImage: worksheetImage,
             imagePlacements: imagePlacements,

@@ -7359,6 +7359,25 @@ document.addEventListener("DOMContentLoaded", function() {
           youDidIt: _rt("runtimeYouDidIt", "You did it!"),
           progressLabel: _rt("runtimeProgressLabel", "{n} / {total}")
       };
+      // SEP Family-B emission (Edit-2): derive per-cell TOP-LEFT rects from the grid
+      // geometry (gridBbox + gridPadding + gridStride + cellSize) and a single trace
+      // path from the maze solutionPath (start->end, not reversible). The path is baked
+      // into the transparent visual; the SEP overlays invisible drag-select cells.
+      var _sepPad = { x: meta.gridPadding * sx, y: meta.gridPadding * sy };
+      var _sepStride = { x: (meta.cellSize + meta.cellSpacing) * sx, y: (meta.cellSize + meta.cellSpacing) * sy };
+      var _sepCell = { w: meta.cellSize * sx, h: meta.cellSize * sy };
+      var _sepCells = [];
+      for (var _sr = 0; _sr < meta.rows; _sr++) {
+          for (var _sc = 0; _sc < meta.cols; _sc++) {
+              _sepCells.push({ index: _sr * meta.cols + _sc, row: _sr, col: _sc,
+                  rect: { x: gridLeft + _sepPad.x + _sc * _sepStride.x, y: gridTop + _sepPad.y + _sr * _sepStride.y, w: _sepCell.w, h: _sepCell.h } });
+          }
+      }
+      var _sepPaths = [];
+      if (Array.isArray(meta.solutionPath) && meta.solutionPath.length >= 2) {
+          _sepPaths.push({ id: 0, sequence: meta.solutionPath.map(function (p) { return p.r * meta.cols + p.c; }), reversible: false });
+      }
+
       return {
           bundleVersion: '29.5.0',
           schemaFormat: 'image-references-v3',
@@ -7377,6 +7396,8 @@ document.addEventListener("DOMContentLoaded", function() {
           gridPadding: { x: meta.gridPadding * sx, y: meta.gridPadding * sy },
           gridStride:  { x: (meta.cellSize + meta.cellSpacing) * sx, y: (meta.cellSize + meta.cellSpacing) * sy },
           cellSize:    { w: meta.cellSize * sx, h: meta.cellSize * sy },
+          sepCells: _sepCells,
+          sepPaths: _sepPaths,
           solutionPath: meta.solutionPath,
           startCell: meta.startCell,
           endCell: meta.endCell,
@@ -8807,6 +8828,61 @@ async function downloadPDF(canvasToExport, fileName, opts) {
           downloadInteractiveHtml(worksheetCanvas, 'picture_path_interactive.html', { loadingMode: 'inline' }));
   }
   exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+
+  // --- SEP hook — Family B puzzle-drag (pathway mode, 6x6). Trace the maze path
+  //     start->end by dragging across grid cells (4-dir, not reversible). Edit-2 emits
+  //     sepCells + sepPaths. Additive headless-only globals; operator/browser path
+  //     untouched. ---
+  (function () {
+      function _sbSepOpts(cropRect, returnPackage) {
+          return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+              exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isPicturePathGrid === true; }); },
+              family: 'B', exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+      }
+      var _bb = document.getElementById('sepExportBtn');
+      if (_bb) _bb.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+      window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+      window.__sepGenerate = async function (spec) {
+          spec = spec || {};
+          var loc = spec.locale || 'en';
+          window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+          var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+          try { var _gm = document.getElementById('gameModeSelect'); if (_gm) _gm.value = 'pathway'; } catch (e) {}
+          // Assign the pathway image globals directly from a stub theme — the browser
+          // path fetches fruits/vegetables/farm_animals themes the harness stub lacks.
+          try {
+              var _res = await fetch('/api/images?theme=' + encodeURIComponent(theme) + '&locale=' + loc);
+              var _d = await _res.json();
+              var _imgs = (_d.images || _d || []);
+              if (_imgs.length >= 4) {
+                  selectedStartImage = _imgs[0];
+                  selectedEndImage = _imgs[1];
+                  selectedPathImages = _imgs.slice(2, 6);
+                  selectedDistractorImages = _imgs.slice(6, 8).length ? _imgs.slice(6, 8) : [_imgs[2]];
+              }
+          } catch (e) {}
+          try {
+              if (document.fonts && document.fonts.load) {
+                  await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                  await document.fonts.ready;
+              }
+          } catch (e) {}
+          var _r = Math.random;
+          try {
+              for (var _att = 0; _att < 3; _att++) {
+                  Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                  try { await generatePathway(); } catch (e) {}
+                  var _ok = false;
+                  for (var _i = 0; _i < 400; _i++) {
+                      if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isPicturePathGrid === true; })) { _ok = true; break; }
+                      await new Promise(function (r) { setTimeout(r, 50); });
+                  }
+                  if (_ok) break;
+              }
+          } finally { Math.random = _r; }
+          return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+      };
+  }());
   downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
   downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
 
@@ -9290,6 +9366,10 @@ async function downloadPDF(canvasToExport, fileName, opts) {
   }
 
   async function generateInitialWorksheet() {
+    // Headless SEP isolation: __sepGenerate drives its own seeded generatePathway();
+    // the auto-run initial generate would race it + consume the seeded Math.random.
+    // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+    if (/[?&]__sbHeadless=1/.test(location.search)) return;
     try {
       console.log('Starting initial worksheet generation...');
 

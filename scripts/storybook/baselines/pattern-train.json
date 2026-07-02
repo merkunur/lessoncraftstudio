@@ -1,0 +1,19 @@
+{
+  "app": "pattern-train",
+  "family": "F",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "e2e9c7a6f39804d04a913749885cafe21d209271",
+  "visualSha1": "892e6a379d11059c09532fe5a218429c9dcab3f1",
+  "elementCounts": {
+    "gridDims": 1,
+    "gridCells": 3,
+    "paletteTiles": 3,
+    "solutionLabels": 1
+  }
+}

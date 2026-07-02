@@ -46,6 +46,8 @@ const APP_PARAMS = {
   'prepositions': { theme: 'animals' },
   'big-small': { theme: 'animals' },
   'more-less': { theme: 'animals' },
+  'alphabet-train': { theme: 'alphabet' },
+  'pattern-train': { theme: 'animals' },
 };
 const SECOND_LOCALE = 'es';
 

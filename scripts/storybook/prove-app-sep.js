@@ -35,6 +35,7 @@ const APP_PARAMS = {
   'grid-match': { theme: 'animals' },
   'matching': { theme: 'animals' },
   'find-and-count': { theme: 'animals' },
+  'missing-pieces': { theme: 'animals' },
 };
 const SECOND_LOCALE = 'es';
 

@@ -2264,7 +2264,9 @@
     /* A — tap-letter fill-in */
     A: function (bundle, crop, ctx) {
       var slots = (bundle.slots || []).filter(function (s) {
-        return s.slotType === 'letter';
+        // 'letter' (word-guess/word-scramble) + 'grid' (cryptogram decode cells) — both are tap-a-letter
+        // fill-in slots with a single-char `expected` and a center-based rect (_worldRectBounds/center).
+        return s.slotType === 'letter' || s.slotType === 'grid';
       }).map(function (s, i) {
         var tl = _sepCenterToTopLeft(s.rect);
         return { keep: _sepInCrop(tl, crop), s: s, tl: tl, i: i };

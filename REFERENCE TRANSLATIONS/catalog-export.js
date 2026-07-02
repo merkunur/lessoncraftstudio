@@ -2365,14 +2365,20 @@
 
     /* E — tap-to-connect (matching) */
     E: function (bundle, crop, ctx) {
-      function mapItem(it) {
+      function mapItem(it, side) {
         var rect = { x: it.x, y: it.y, w: it.w, h: it.h };
-        return { index: it.index, rect: _sepRebase(rect, crop),
-          anchor: { x: Math.round(it.anchorX - crop.x), y: Math.round(it.anchorY - crop.y) },
-          _in: _sepInCrop(rect, crop) };
+        var rb = _sepRebase(rect, crop);
+        // Anchor DERIVED from the (stable) rebased rect — its inner edge, vertically centered —
+        // NOT the fabric it.anchorX/anchorY, which carries sub-pixel text-metric jitter (±~0.5px at
+        // a .5 boundary → Math.round flips 150↔151 → non-reproducible SEP output; see the matching
+        // seed-repro flake). Left column connects from its RIGHT edge, right column from its LEFT.
+        // (Matching's left/right layout; shadow-match's top/bottom orientation is handled when it wires.)
+        var ax = side === 'right' ? rb.x : rb.x + rb.w;
+        var anchor = { x: Math.round(ax), y: Math.round(rb.y + rb.h / 2) };
+        return { index: it.index, rect: rb, anchor: anchor, _in: _sepInCrop(rect, crop) };
       }
-      var left = (bundle.leftItems || []).map(mapItem).filter(function (x) { return x._in; });
-      var right = (bundle.rightItems || []).map(mapItem).filter(function (x) { return x._in; });
+      var left = (bundle.leftItems || []).map(function (it) { return mapItem(it, 'left'); }).filter(function (x) { return x._in; });
+      var right = (bundle.rightItems || []).map(function (it) { return mapItem(it, 'right'); }).filter(function (x) { return x._in; });
       var leftIdx = {}, rightIdx = {};
       left.forEach(function (x) { leftIdx[x.index] = true; });
       right.forEach(function (x) { rightIdx[x.index] = true; });

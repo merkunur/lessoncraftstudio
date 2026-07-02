@@ -1596,6 +1596,63 @@
             if (typeof translatePage !== 'undefined') translatePage();
             
             updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+
+            // --- SEP hook — Family A (cryptogram decode cells = slots{slotType:'grid'}, single-char
+            // expected; the SEP-A mapper accepts 'grid'). Defined HERE (canvas sized, BEFORE loadThemes/
+            // auto-generate) + ?__sbHeadless isolation so __sepGenerate runs alone. Direct-seed a SHORT
+            // localized word as the cipher phrase (density + locale-bearing) + autoAssignImages (cipher
+            // symbols from the alphabet theme) + handleGenerate. Additive; operator path untouched. ---
+            var __sbHeadless = (typeof location !== 'undefined') && /[?&]__sbHeadless/.test(location.search || '');
+            (function () {
+                function _sbSepOpts(cropRect, returnPackage) {
+                    return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                        exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
+                        family: 'A', exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+                }
+                window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+                window.__sepGenerate = async function (spec) {
+                    spec = spec || {};
+                    var loc = spec.locale || 'en';
+                    window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                    var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                    var word = 'CAT';
+                    try {
+                        var _res = await fetch('/api/images?theme=' + encodeURIComponent(theme) + '&locale=' + loc);
+                        var _d = await _res.json();
+                        var imgs = _d.images || _d || [];
+                        var key = (spec.vocabKeys && spec.vocabKeys[0]) || null;
+                        var m = key ? imgs.filter(function (i) { return (i.word || '').toLowerCase() === key.toLowerCase() || (i.path || '').toLowerCase().indexOf('/' + key.toLowerCase() + '.') >= 0; })[0] : null;
+                        word = String((m && m.word) || (imgs[0] && imgs[0].word) || 'CAT').toUpperCase();
+                    } catch (e) {}
+                    phrasesInput.value = word;
+                    try {
+                        if (themeSelect) {
+                            if (![].some.call(themeSelect.options, function (o) { return o.value === 'alphabet'; })) { var op = document.createElement('option'); op.value = 'alphabet'; op.text = 'Alphabet'; themeSelect.appendChild(op); }
+                            themeSelect.value = 'alphabet';
+                        }
+                    } catch (e) {}
+                    if (typeof revealCountSelect !== 'undefined' && revealCountSelect) revealCountSelect.value = 1;
+                    if (typeof autoAssignCheckbox !== 'undefined' && autoAssignCheckbox) autoAssignCheckbox.checked = true;
+                    var _r = Math.random;
+                    try {
+                        try { if (typeof renderDictionary === 'function') await renderDictionary(); } catch (e) {}
+                        for (var _att = 0; _att < 3; _att++) {
+                            Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                            try { if (typeof autoAssignImages === 'function') await autoAssignImages(); } catch (e) {}
+                            try { await handleGenerate(); } catch (e) {}
+                            var _ok = false;
+                            for (var _i = 0; _i < 400; _i++) {
+                                if (worksheetCanvas && worksheetCanvas.problemsData && worksheetCanvas.getObjects().some(function (o) { return o.isGeneratedItem === true; })) { _ok = true; break; }
+                                await new Promise(function (r) { setTimeout(r, 50); });
+                            }
+                            if (_ok) break;
+                        }
+                    } finally { Math.random = _r; }
+                    return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+                };
+            }());
+            if (__sbHeadless) return;
+
             loadThemes().then(() => {
                 handleThemeChange(); // Load images after themes are loaded
             });

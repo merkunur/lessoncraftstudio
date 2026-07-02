@@ -2609,10 +2609,12 @@
         return cropPromise.then(function (crop) {
           if (!crop) return null;  /* cancelled */
           crop = { x: Math.round(crop.x), y: Math.round(crop.y), w: Math.round(crop.w), h: Math.round(crop.h) };
-          /* forgiving: auto-pull the answer boxes into the crop so a slightly-off
-             crop still yields a playable exercise (no more "no answer" dead-ends) */
+          /* forgiving: auto-pull answer boxes in the crop's rows into the crop; then,
+             if the crop is STILL entirely off the answer (a wildly-off crop), fall back
+             to the full-exercise default crop (always contains the answer) so the export
+             NEVER dead-ends into a warn. */
           crop = _sepExpandCropToAnswers(crop, _sepAnswerRects(bundle, opts.family), pageW, pageH);
-          return _sepBuildPackage(opts, bundle, crop, pageW, pageH);
+          return _sepBuildPackage(opts, bundle, crop, pageW, pageH, defaultCrop);
         });
       });
   }
@@ -2671,19 +2673,25 @@
     x2 = Math.min(pageW, x2 + pad); y2 = Math.min(pageH, y2 + pad);
     return { x: Math.round(x1), y: Math.round(y1), w: Math.round(x2 - x1), h: Math.round(y2 - y1) };
   }
+  function _sepAnyRectOverlaps(rects, crop) {
+    for (var i = 0; i < rects.length; i++) {
+      var r = rects[i];
+      if (r.x + r.w > crop.x && r.x < crop.x + crop.w && r.y + r.h > crop.y && r.y < crop.y + crop.h) return true;
+    }
+    return false;
+  }
 
-  function _sepBuildPackage(opts, bundle, crop, pageW, pageH) {
+  function _sepBuildPackage(opts, bundle, crop, pageW, pageH, fullCrop) {
     var mapper = SEP_FAMILY_MAPPERS[opts.family];
     if (!mapper) return Promise.reject(new Error('SEP: unsupported family ' + opts.family));
     return _sepRenderTransparent(opts.canvas, pageW, pageH, crop).then(function (visual) {
       var mapped = mapper(bundle, crop, { visual: visual, tapOnly: opts.tapOnly, numeric: opts.numeric });
-      /* Operator crop-UI export (not the headless returnPackage path): if the crop
-         caught no answer, the exercise is unplayable — warn + abort rather than
-         download a dead ZIP. This is the #1 cause of "empty" exports (crop excludes
-         the answer box). */
-      if (!opts.returnPackage && !opts.noDownload && !_sepHasAnswer(opts.family, mapped.elements)) {
-        if (global.alert) global.alert('Your crop doesn\'t include an answer box, so this exercise wouldn\'t be playable.\n\nDrag the box so it covers the ANSWER (the blank or box the child fills in) together with the picture/question, then click "Export for Storybook" again.');
-        return null;
+      /* Bulletproof fallback: if this crop caught NO answer (checked on the actual
+         mapped result — pairs need both rows, etc.), re-build ONCE with the full-
+         exercise crop (always contains the answer). So the export never dead-ends. */
+      if (fullCrop && !_sepHasAnswer(opts.family, mapped.elements) &&
+          (crop.x !== fullCrop.x || crop.y !== fullCrop.y || crop.w !== fullCrop.w || crop.h !== fullCrop.h)) {
+        return _sepBuildPackage(opts, bundle, fullCrop, pageW, pageH, null);
       }
       var files = {};        /* relative path -> Blob */
       var visualName = 'visual@2x.' + visual.format;

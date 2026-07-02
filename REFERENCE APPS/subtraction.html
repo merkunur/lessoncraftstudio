@@ -4287,6 +4287,17 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             return out;
         }).filter(function (p) { return p.inputRect !== null; });
 
+        // SEP Family-A (digit) slots — mirrors addition. expected = the difference (minuend−subtrahend)
+        // for image-* modes, or the missing subtrahend for find-subtrahend. Center-based rect from the
+        // already-computed inputRect. Emit-only: read only by SEP_FAMILY_MAPPERS.A.
+        var _sepSlots = problems.map(function (p) {
+            var exp = (p.resolvedMode === 'find-subtrahend') ? p.operandB : (p.operandA - p.operandB);
+            var r = p.inputRect;
+            var h = Math.max(28, r.w);
+            return { problemIndex: p.index, slotType: 'symbol', kind: 'number',
+                expected: String(exp), rect: { x: r.x, y: r.y, w: r.w, h: h } };
+        });
+
         // Dedupe (theme, key) pairs and embed variants per loadingMode.
         var imageRefs = {};
         if (window.LCSImageRef) {
@@ -4416,6 +4427,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             },
             worksheetImage: worksheetImage,
             problems: problems,
+            slots: _sepSlots,   // SEP Family-A digit slots (emit-only; read by SEP_FAMILY_MAPPERS.A)
             seoMeta: seoMeta,
             seoTrace: seoTrace,
             attribution: attributionRect ? {
@@ -5469,6 +5481,53 @@ async function downloadPDF(canvasToExport, fileName, opts) {
       exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
       downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
       downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
+      // --- SEP hook — Family A NUMERIC (digit palette; extractDeckBundle emits slots{slotType:'symbol'}
+      // from inputRect + minuend/subtrahend). image-number → answer = difference; maxMinuend=9 keeps it
+      // single-digit. Additive headless-only globals; operator path untouched. Mirrors addition. ---
+      (function () {
+        function _sbSepOpts(cropRect, returnPackage) {
+          return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+            exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
+            family: 'A', numeric: true, exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+        }
+        var _b = document.getElementById('sepExportBtn');
+        if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+        window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+        window.__sepGenerate = async function (spec) {
+          spec = spec || {};
+          var loc = spec.locale || 'en';
+          window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+          var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+          try {
+            var _res = await fetch('/api/images?theme=' + encodeURIComponent(theme) + '&locale=' + loc);
+            var _d = await _res.json();
+            selectedImages = (_d.images || _d || []).slice(0, 3);
+          } catch (e) {}
+          try { if (exerciseModeSelect) exerciseModeSelect.value = 'image-number'; } catch (e) {}  // answer = difference
+          try { if (typeof maxMinuendInput !== 'undefined' && maxMinuendInput) maxMinuendInput.value = 9; } catch (e) {}  // single-digit diff
+          try { if (typeof problemCountInput !== 'undefined' && problemCountInput) problemCountInput.value = 1; } catch (e) {}
+          try {
+            if (document.fonts && document.fonts.load) {
+              await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+              await document.fonts.ready;
+            }
+          } catch (e) {}
+          var _r = Math.random;
+          try {
+            for (var _att = 0; _att < 3; _att++) {
+              Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+              try { await generateWorksheet(); } catch (e) {}
+              var _ok = false;
+              for (var _i = 0; _i < 300; _i++) {
+                if (worksheetCanvas && worksheetCanvas.problemsData && worksheetCanvas.problemsData.length && worksheetCanvas.getObjects().some(function (o) { return o.isGeneratedItem === true; })) { _ok = true; break; }
+                await new Promise(function (r) { setTimeout(r, 50); });
+              }
+              if (_ok) break;
+            }
+          } finally { Math.random = _r; }
+          return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+        };
+      }());
 
       themeSelect.addEventListener("change", loadDictionary);
       searchInput.addEventListener("input", () => { if(this.searchTimeout) clearTimeout(this.searchTimeout); this.searchTimeout = setTimeout(loadDictionary, 300); });

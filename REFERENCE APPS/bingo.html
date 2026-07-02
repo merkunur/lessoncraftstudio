@@ -3176,6 +3176,33 @@
               callerLabel: _rt("runtimeCallerLabel", "Find:"),
               allDone: _rt("runtimeAllDone", "All called!")
           };
+
+          // SEP Family-F emission (Edit-2): bingo places word/image chips onto matching
+          // grid cells. Map onto the grid-match F shape. gridCells already carry rect+word
+          // (the F mapper defaults isClue:false); paletteTiles = chips (paletteNumber=
+          // chip.index); reveals = chip crops; solutionLabels by WORD match (cell.word ->
+          // a chip with the same word; first-unused for a valid 1:1 assignment, since the
+          // palette is 2x the grid with distractors). rects are TOP-LEFT (worldRectOf).
+          var _sepPaletteTiles = chipsWithImages.map(function (ch) {
+              return { paletteNumber: ch.index, originalCellIndex: -1, rect: ch.rect };
+          });
+          var _sepPaletteReveals = chipsWithImages.map(function (ch) {
+              return { paletteNumber: ch.index, imgDataUrl: ch.imgDataUrl || '' };
+          });
+          var _sepUsedChip = {};
+          var _sepSolutionLabels = {};
+          gridCells.forEach(function (c) {
+              if (!c.word) return;
+              for (var _k = 0; _k < chipsWithImages.length; _k++) {
+                  var ch = chipsWithImages[_k];
+                  if (!_sepUsedChip[ch.index] && ch.word === c.word) {
+                      _sepSolutionLabels[c.index] = ch.index;
+                      _sepUsedChip[ch.index] = true;
+                      break;
+                  }
+              }
+          });
+
           return {
               bundleVersion: '24.5.0',
               schemaFormat: 'image-references-v3',
@@ -3190,6 +3217,9 @@
               gridDims: pd.gridDims,
               gridCells: gridCells,
               chips: chipsWithImages,
+              paletteTiles: _sepPaletteTiles,
+              paletteReveals: _sepPaletteReveals,
+              solutionLabels: _sepSolutionLabels,
               imageRefs: {},
               seoMeta: seoMeta,
               seoTrace: seoTrace,
@@ -4008,6 +4038,10 @@
 
       // --- Initial Worksheet Generation ---
       async function generateInitialWorksheet() {
+          // Headless SEP isolation: __sepGenerate drives its own seeded generateWorksheet();
+          // the auto-run initial generate would race it + consume the seeded Math.random.
+          // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+          if (/[?&]__sbHeadless=1/.test(location.search)) return;
           try {
               // Wait for themes to be loaded (optimized - no polling delay)
               await new Promise(resolve => {
@@ -4427,6 +4461,59 @@
       downloadPdfBtn.addEventListener("click", () => downloadPdfFile(null, 'worksheet.pdf', true));
       downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPdfFile(calloutsCanvas, 'answer-key.pdf', false));
       exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+
+      // --- SEP hook — Family F drag-place. Drag each word/image chip onto its matching
+      //     grid cell (word-match). 3x3 board (min). cropExerciseBBox spans board+chips.
+      //     Additive headless-only globals; operator/browser path untouched. ---
+      (function () {
+          function _sbSepOpts(cropRect, returnPackage) {
+              return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                  exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isBingoElement === true || o.isBingoCardCell === true || (typeof o.chipIndex === 'number'); }); },
+                  family: 'F', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+          }
+          var _b = document.getElementById('sepExportBtn');
+          if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+          window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+          window.__sepGenerate = async function (spec) {
+              spec = spec || {};
+              var loc = spec.locale || 'en';
+              window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+              var theme = spec.theme || (spec.params && spec.params.theme) || 'alphabet';
+              try {
+                  if (themeSelect) {
+                      var _has = Array.prototype.some.call(themeSelect.options, function (o) { return o.value === theme; });
+                      if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; themeSelect.add(_o); }
+                      themeSelect.value = theme;
+                  }
+              } catch (e) {}
+              try { if (bingoRowsInput) bingoRowsInput.value = 3; } catch (e) {}
+              try { if (bingoColsInput) bingoColsInput.value = 3; } catch (e) {}
+              try { if (bingoCardCountInput) bingoCardCountInput.value = 1; } catch (e) {}
+              try { if (typeof cardFillSelect !== 'undefined' && cardFillSelect) cardFillSelect.value = 'image'; } catch (e) {}
+              try { if (typeof chipFillSelect !== 'undefined' && chipFillSelect) chipFillSelect.value = 'image'; } catch (e) {}
+              try { await loadDictionary(); } catch (e) {}
+              try {
+                  if (document.fonts && document.fonts.load) {
+                      await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                      await document.fonts.ready;
+                  }
+              } catch (e) {}
+              var _r = Math.random;
+              try {
+                  for (var _att = 0; _att < 3; _att++) {
+                      Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                      try { await generateWorksheet(); } catch (e) {}
+                      var _ok = false;
+                      for (var _i = 0; _i < 400; _i++) {
+                          if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return typeof o.chipIndex === 'number'; })) { _ok = true; break; }
+                          await new Promise(function (r) { setTimeout(r, 50); });
+                      }
+                      if (_ok) break;
+                  }
+              } finally { Math.random = _r; }
+              return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+          };
+      }());
 
       clearBtn.addEventListener("click", clearAll);
 

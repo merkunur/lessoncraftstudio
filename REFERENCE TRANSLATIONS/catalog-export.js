@@ -2110,6 +2110,19 @@
      deriveExerciseModeName.
      ===================================================================== */
   var SEP_FORMAT = 'sep-1';
+  /* seeded PRNG (mulberry32) — lets a headless __sepGenerate override
+     Math.random around a generate() call so a story's exercise regenerates
+     IDENTICALLY every build (the apps shuffle with bare Math.random). */
+  function _sepRng(seed) {
+    var s = (seed | 0) || 1;
+    return function () {
+      s = (s + 0x6D2B79F5) | 0;
+      var t = s;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
   /* per-content-locale distractor alphabets for Family A tap-palettes */
   var SEP_ALPHABETS = {
     en: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', de: 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ',
@@ -2578,6 +2591,7 @@
     HREFLANG_MARKER: HREFLANG_MARKER,
     export: exportCatalog,
     exportStorybookExercise: exportStorybookExercise,
+    _sepRng: _sepRng,
     /* test seam: run a family mapper on a bundle+crop with no DOM/render
        (the mappers are pure; used by scripts/storybook/prove-sep-mappers.js) */
     _sepMapForTest: function (family, bundle, crop) {

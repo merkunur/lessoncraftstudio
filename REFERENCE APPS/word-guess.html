@@ -6,7 +6,7 @@
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
-    <script src="/worksheet-generators/js/catalog-export.js?v=30"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=31"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1550,6 +1550,45 @@
                 var b = document.getElementById('sepExportBtn');
                 if (b) b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(sepOpts(null, false)); });
                 window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(sepOpts(cropRect, true)); };
+                /* headless programmatic generation: spec {theme, count, vocabKeys?, seed, locale}
+                   → seeded + locale-parameterized single exercise → SEP package (returned) */
+                window.__sepGenerate = async function (spec) {
+                    spec = spec || {};
+                    var loc = spec.locale || 'en';
+                    window.currentLocale = loc; currentLocale = loc;
+                    var theme = spec.theme || 'animals';
+                    if (ui.themeSelect) ui.themeSelect.value = theme;
+                    var want = spec.count || 1;
+                    if (ui.puzzleCount) ui.puzzleCount.value = want;
+                    /* fetch the theme pool directly — headless init may not have
+                       populated the themeSelect options yet, so loadDictionary's
+                       value-based fetch can miss */
+                    try {
+                        var _res = await fetch('/api/images?theme=' + encodeURIComponent(theme) + '&locale=' + loc);
+                        var _d = await _res.json();
+                        currentThemeImages = _d.images || _d || [];
+                    } catch (e) { await loadDictionary(); }
+                    var rng = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                    var pool = (currentThemeImages || []).slice();
+                    selectedImages = [];
+                    if (spec.vocabKeys && spec.vocabKeys.length) {
+                        spec.vocabKeys.forEach(function (k) {
+                            var m = pool.filter(function (i) {
+                                return (i.word || '').toLowerCase() === k.toLowerCase() ||
+                                       (i.path || '').toLowerCase().indexOf('/' + k.toLowerCase() + '.') >= 0 ||
+                                       (i.path || '').toLowerCase().indexOf('/' + k.toLowerCase() + '@') >= 0;
+                            })[0];
+                            if (m) selectedImages.push(m);
+                        });
+                    }
+                    while (selectedImages.length < want && pool.length) {
+                        selectedImages.push(pool.splice(Math.floor(rng() * pool.length), 1)[0]);
+                    }
+                    if (typeof updateSelectedImagesUI === 'function') updateSelectedImagesUI();
+                    var _r = Math.random; Math.random = rng;
+                    try { await generateWorksheet(); } finally { Math.random = _r; }
+                    return window.LCSCatalogExport.exportStorybookExercise(sepOpts(null, true));
+                };
             }());
             ui.downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet'));
             ui.downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key'));

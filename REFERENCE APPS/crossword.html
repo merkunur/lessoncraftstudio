@@ -1182,6 +1182,9 @@
                             <option value="" data-translate="crossword.select.individual">-- Or Select Individual Images Below --</option>
                         </select>
 
+                        <label for="numWords" data-translate="crossword.numWords" style="margin-top:10px;">Number of words:</label>
+                        <input type="number" id="numWords" min="2" max="8" value="8" />
+
                         <h4 style="margin-top: 20px;" data-translate="crossword.individual.image.selection">Individual Image Selection</h4>
                         <label for="themeSelect" data-translate="crossword.select.theme">Select theme:</label>
                         <select id="themeSelect"></select>
@@ -1409,7 +1412,7 @@ window.formatTranslation = formatTranslation;
 
 document.addEventListener("DOMContentLoaded", function() {
     // --- CONSTANTS AND STATE ---
-    const PUZZLE_IMAGE_COUNT = 8;
+    let PUZZLE_IMAGE_COUNT = 8;  // default; operator-selectable 2..8 via #numWords
     const downloadMultiplier = 4;
 
     let allImagesCache = {};
@@ -1464,6 +1467,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const themeSelect = getEl('themeSelect');
     const languageSelect = getEl('languageSelect');
     const worksheetThemeSelect = getEl('worksheetThemeSelect');
+    const numWordsInput = getEl('numWords');
     const searchInput = getEl('searchInput');
     const dictionaryDiv = getEl('dictionary');
     const selectedImagesPreviewDiv = getEl('selectedImagesPreview');
@@ -1679,6 +1683,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 // Set theme to animals
                 worksheetThemeSelect.value = 'animals';
+                if (numWordsInput) numWordsInput.value = 8;
 
                 console.log('Configuration complete, generating worksheet...');
 
@@ -1797,6 +1802,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
         generateWorksheetBtn.addEventListener('click', handleGenerateWorksheet);
         generateAnswerKeyBtn.addEventListener('click', handleGenerateAnswerKey);
+
+        // Keep the shared word-count lever in sync so the manual-selection cap
+        // reflects the operator's choice before generate (generatePuzzleData also
+        // re-reads it defensively).
+        if (numWordsInput) numWordsInput.addEventListener('change', function () {
+            PUZZLE_IMAGE_COUNT = Math.max(2, Math.min(8, parseInt(numWordsInput.value) || 8));
+        });
 
         clearBtn.addEventListener('click', clearAll);
         
@@ -2526,6 +2538,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     async function generatePuzzleData() {
         let sourceImages = [];
+        // Operator-selected word count (2..8, default 8). Drives the min-required
+        // guards + slice caps in every source path below (custom-list / manual /
+        // theme / individual) via the shared PUZZLE_IMAGE_COUNT lever.
+        PUZZLE_IMAGE_COUNT = Math.max(2, Math.min(8, parseInt(numWordsInput.value) || 8));
         const selectedWorksheetTheme = worksheetThemeSelect.value;
 
         // Check custom word list mode first

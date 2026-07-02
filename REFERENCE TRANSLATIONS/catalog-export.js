@@ -2090,6 +2090,468 @@
     });
   }
 
+  /* =====================================================================
+     STORYBOOK EXERCISE PACKAGE (SEP) export — the producing side of the
+     storybook worksheet-exercise bridge (docs/storybook/sep-format.md).
+
+     exportStorybookExercise(opts) renders ONE cropped, transparent-alpha
+     exercise + a crop-space sep-1 descriptor the storybook player ingests
+     with zero bespoke code. opts:
+       canvas          the app's live Fabric worksheet canvas
+       extractBundle   the app's extractDeckBundle fn (consumed, not re-derived)
+       exerciseObjects (canvas)->[fabric objs]  the exercise stimulus set
+       family          'A' | 'F' | 'E' | 'C'
+       exerciseMode    passed through to the bundle + descriptor meta
+       cropRect?       {x,y,w,h} in PAGE units — absent => interactive crop UI
+       returnPackage?  true => resolve {descriptor, files} (+ still downloads
+                       unless noDownload); used by the headless __sepExport hook
+       noDownload?     true => skip triggerDownload (harness)
+     Returns a Promise. Reuses in-module slugify / triggerDownload / JSZip /
+     deriveExerciseModeName.
+     ===================================================================== */
+  var SEP_FORMAT = 'sep-1';
+  /* per-content-locale distractor alphabets for Family A tap-palettes */
+  var SEP_ALPHABETS = {
+    en: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', de: 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ',
+    es: 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ', fr: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+    it: 'ABCDEFGHILMNOPQRSTUVZ', pt: 'ABCDEFGHIJKLMNOPQRSTUVXZ',
+    nl: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', sv: 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ',
+    da: 'ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ', no: 'ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ',
+    fi: 'ABCDEFGHIJKLMNOPQRSTUVWYÄÖ'
+  };
+  var SEP_DECOR_TAGS = ['isBorder', 'isBackground', 'isPageBorder', 'isHeaderElement',
+    'isHeaderDesc', 'isAnswerKeyItem', 'isAttribution', 'isAnswerKey'];
+
+  function _sepIsDecor(o) {
+    for (var i = 0; i < SEP_DECOR_TAGS.length; i++) if (o[SEP_DECOR_TAGS[i]]) return true;
+    return false;
+  }
+  /* default crop = union of the bundle's PAGE-SPACE element rects (NOT Fabric
+     getBoundingRect, which is viewport/zoom-transformed and in a different
+     space than the bundle rects the mapper filters against) */
+  function _sepUnionRects(rects) {
+    if (!rects.length) return null;
+    var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    rects.forEach(function (r) {
+      minX = Math.min(minX, r.x); minY = Math.min(minY, r.y);
+      maxX = Math.max(maxX, r.x + r.w); maxY = Math.max(maxY, r.y + r.h);
+    });
+    return { x: minX, y: minY, w: maxX - minX, h: maxY - minY };
+  }
+  function _sepDefaultCrop(bundle, family) {
+    var rects = [];
+    if (family === 'A') {
+      (bundle.slots || []).forEach(function (s) { rects.push(_sepCenterToTopLeft(s.rect)); });
+      (bundle.imagePlacements || []).forEach(function (p) { if (p.rect) rects.push(p.rect); });
+    } else if (family === 'F') {
+      (bundle.gridCells || []).forEach(function (c) { rects.push(c.rect); });
+      (bundle.paletteTiles || []).forEach(function (t) { rects.push(t.rect); });
+    } else if (family === 'E') {
+      (bundle.leftItems || []).concat(bundle.rightItems || []).forEach(function (it) {
+        rects.push({ x: it.x, y: it.y, w: it.w, h: it.h });
+      });
+    } else if (family === 'C') {
+      if (bundle.gridRect) rects.push(bundle.gridRect);
+      (bundle.inputSlots || []).forEach(function (s) { rects.push(s.rect); });
+    }
+    return _sepUnionRects(rects);
+  }
+  function _sepInCrop(rect, crop, tol) {
+    tol = tol || 4;
+    return rect.x + rect.w > crop.x - tol && rect.x < crop.x + crop.w + tol &&
+           rect.y + rect.h > crop.y - tol && rect.y < crop.y + crop.h + tol;
+  }
+  function _sepRebase(rect, crop) {
+    return { x: Math.round(rect.x - crop.x), y: Math.round(rect.y - crop.y),
+             w: Math.round(rect.w), h: Math.round(rect.h) };
+  }
+  /* word-guess rects are CENTER-based; normalize to top-left */
+  function _sepCenterToTopLeft(rect) {
+    return { x: rect.x - rect.w / 2, y: rect.y - rect.h / 2, w: rect.w, h: rect.h };
+  }
+
+  /* --- transparent cropped render of the canvas (inverts _captureWorksheetImage) --- */
+  function _sepRenderTransparent(canvas, pageW, pageH, crop) {
+    var fabric = global.fabric;
+    var savedZoom = canvas.getZoom(), savedW = canvas.getWidth(), savedH = canvas.getHeight();
+    var savedBg = canvas.backgroundColor;
+    var hidden = [];
+    canvas.discardActiveObject();
+    canvas.getObjects().forEach(function (o) {
+      if (_sepIsDecor(o) && o.visible !== false) { hidden.push(o); o.visible = false; }
+    });
+    canvas.setZoom(1);
+    canvas.setDimensions({ width: pageW, height: pageH });
+    canvas.backgroundColor = null;
+    canvas.renderAll();
+    var pngUrl;
+    try {
+      pngUrl = canvas.toDataURL({ format: 'png', left: crop.x, top: crop.y,
+        width: crop.w, height: crop.h, multiplier: 2 });
+    } finally {
+      hidden.forEach(function (o) { o.visible = true; });
+      canvas.backgroundColor = savedBg;
+      canvas.setZoom(savedZoom);
+      canvas.setDimensions({ width: savedW, height: savedH });
+      canvas.renderAll();
+    }
+    /* transcode PNG → alpha WebP; keep PNG if the browser hands back PNG (Safari) */
+    return new Promise(function (resolve) {
+      var img = new global.Image();
+      img.onload = function () {
+        var c = global.document.createElement('canvas');
+        c.width = img.width; c.height = img.height;
+        var ctx = c.getContext('2d');
+        ctx.drawImage(img, 0, 0);
+        var webp = c.toDataURL('image/webp', 0.9);
+        if (webp.indexOf('data:image/webp') === 0) resolve({ dataUrl: webp, format: 'webp', w: img.width, h: img.height });
+        else resolve({ dataUrl: pngUrl, format: 'png', w: img.width, h: img.height });
+      };
+      img.onerror = function () { resolve({ dataUrl: pngUrl, format: 'png', w: crop.w * 2, h: crop.h * 2 }); };
+      img.src = pngUrl;
+    });
+  }
+
+  function _sepDataUrlToBlob(dataUrl) {
+    var parts = dataUrl.split(',');
+    var mime = parts[0].match(/:(.*?);/)[1];
+    var bin = atob(parts[1]);
+    var arr = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i);
+    return new global.Blob([arr], { type: mime });
+  }
+
+  /* per-content-locale strings block seeded from the app's window.translations */
+  function _sepLocales(runtimeStrings, family) {
+    var t = global.translations || {};
+    var out = {};
+    var LOCS = ['en', 'de', 'fr', 'it', 'es', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+    function pick(loc, key, fallback) {
+      var e = t[key];
+      return (e && (e[loc] || e.en)) || fallback;
+    }
+    var promptDefault = {
+      A: 'Spell the word!', F: 'Drag each tile into place!',
+      E: 'Match each pair!', C: 'Find and count!'
+    }[family] || 'Solve the puzzle!';
+    LOCS.forEach(function (loc) {
+      out[loc] = {
+        prompt: pick(loc, 'runtimeInstruction', promptDefault),
+        success: pick(loc, 'runtimeSuccess', 'You did it!'),
+        tryAgain: pick(loc, 'runtimeTryAgain', 'Try again!'),
+        hint: null
+      };
+    });
+    return out;
+  }
+
+  /* =============== FAMILY MAPPERS: bundle -> sep-1 descriptor =============== */
+  var SEP_FAMILY_MAPPERS = {
+    /* A — tap-letter fill-in */
+    A: function (bundle, crop, ctx) {
+      var slots = (bundle.slots || []).filter(function (s) {
+        return s.slotType === 'letter';
+      }).map(function (s, i) {
+        var tl = _sepCenterToTopLeft(s.rect);
+        return { keep: _sepInCrop(tl, crop), s: s, tl: tl, i: i };
+      }).filter(function (x) { return x.keep; });
+      var expected = slots.map(function (x) { return String(x.s.expected || '').toUpperCase(); });
+      var caseMode = (bundle.caseValue === 'lower') ? 'lower' : 'upper';
+      var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+      var alpha = (SEP_ALPHABETS[lang] || SEP_ALPHABETS.en).split('');
+      var uniq = {}; expected.forEach(function (c) { uniq[c] = true; });
+      var letters = Object.keys(uniq);
+      var pool = alpha.filter(function (c) { return !uniq[c]; });
+      var want = Math.min(5, Math.max(3, letters.length));  /* distractor count */
+      for (var k = 0; k < want && pool.length; k++) {
+        var pick = pool.splice(Math.floor((k * 7 + 3) % pool.length), 1)[0];
+        letters.push(pick);
+      }
+      letters.sort();
+      return {
+        family: 'A',
+        input: { policy: 'tap-palette', tapPalette: { case: caseMode, letters: letters, distractorCount: want } },
+        elements: {
+          slots: slots.map(function (x, idx) {
+            return { id: 's' + idx, problemIndex: x.s.problemIndex, wordIndex: x.s.wordIndex,
+              letterIndex: x.s.letterIndex, expected: String(x.s.expected || '').charAt(0),
+              rect: _sepRebase(x.tl, crop) };
+          })
+        }
+      };
+    },
+
+    /* C — tap-to-mark + count blanks (find-and-count) */
+    C: function (bundle, crop, ctx) {
+      var gd = bundle.gridDims || {};
+      var gr = bundle.gridRect || { x: 0, y: 0, w: 0, h: 0 };
+      var rows = gd.rows || 0, cols = gd.cols || 0;
+      var cellSize = gd.cellSize || 0, gap = gd.cellGap || 0;
+      var byRC = {};
+      (bundle.cells || []).forEach(function (c) { byRC[c.row + ',' + c.col] = c; });
+      var targets = [];
+      var idx = 0;
+      for (var r = 0; r < rows; r++) {
+        for (var c2 = 0; c2 < cols; c2++) {
+          var cell = byRC[r + ',' + c2];
+          if (!cell) { idx++; continue; }
+          var rect = { x: gr.x + c2 * (cellSize + gap), y: gr.y + r * (cellSize + gap),
+                       w: cellSize, h: cellSize };
+          if (_sepInCrop(rect, crop)) {
+            targets.push({ index: idx, rect: _sepRebase(rect, crop), isTarget: !!cell.isTarget });
+          }
+          idx++;
+        }
+      }
+      var maxCount = 0;
+      (bundle.targets || []).forEach(function (t) { maxCount = Math.max(maxCount, t.totalCount || 0); });
+      var countBlanks = (bundle.inputSlots || []).filter(function (s) {
+        return _sepInCrop(s.rect, crop);
+      }).map(function (s) {
+        var tt = (bundle.targets || []).filter(function (t) { return t.key === s.key; })[0];
+        return { key: s.key, rect: _sepRebase(s.rect, crop), expected: (tt && tt.totalCount) || 0 };
+      });
+      return {
+        family: 'C',
+        input: { policy: 'tap', numberPalette: { min: 0, max: Math.max(9, maxCount) } },
+        elements: { targets: targets, countBlanks: countBlanks }
+      };
+    },
+
+    /* F — drag-and-drop (grid-match) */
+    F: function (bundle, crop, ctx) {
+      var cells = (bundle.gridCells || []).filter(function (c) { return _sepInCrop(c.rect, crop); });
+      var keepIdx = {}; cells.forEach(function (c) { keepIdx[c.index] = true; });
+      var tiles = (bundle.paletteTiles || []).filter(function (t) { return _sepInCrop(t.rect, crop); });
+      var revealByNum = {};
+      (bundle.paletteReveals || []).forEach(function (r) { revealByNum[r.paletteNumber] = r.imgDataUrl; });
+      var assets = {};
+      var outTiles = tiles.map(function (t) {
+        var rel = 'assets/reveal-' + t.paletteNumber + '.webp';
+        if (revealByNum[t.paletteNumber]) assets[rel] = revealByNum[t.paletteNumber];
+        return { paletteNumber: t.paletteNumber, originalCellIndex: t.originalCellIndex,
+          rect: _sepRebase(t.rect, crop), revealFile: rel };
+      });
+      var sol = {};
+      var sl = bundle.solutionLabels || {};
+      Object.keys(sl).forEach(function (ci) { if (keepIdx[ci]) sol[ci] = sl[ci]; });
+      return {
+        family: 'F',
+        input: { policy: 'drag' },
+        elements: {
+          gridDims: bundle.gridDims,
+          gridCells: cells.map(function (c) {
+            return { index: c.index, row: c.row, col: c.col, isClue: !!c.isClue, rect: _sepRebase(c.rect, crop) };
+          }),
+          paletteTiles: outTiles,
+          solutionLabels: sol
+        },
+        assets: assets
+      };
+    },
+
+    /* E — tap-to-connect (matching) */
+    E: function (bundle, crop, ctx) {
+      function mapItem(it) {
+        var rect = { x: it.x, y: it.y, w: it.w, h: it.h };
+        return { index: it.index, rect: _sepRebase(rect, crop),
+          anchor: { x: Math.round(it.anchorX - crop.x), y: Math.round(it.anchorY - crop.y) },
+          _in: _sepInCrop(rect, crop) };
+      }
+      var left = (bundle.leftItems || []).map(mapItem).filter(function (x) { return x._in; });
+      var right = (bundle.rightItems || []).map(mapItem).filter(function (x) { return x._in; });
+      var leftIdx = {}, rightIdx = {};
+      left.forEach(function (x) { leftIdx[x.index] = true; });
+      right.forEach(function (x) { rightIdx[x.index] = true; });
+      var pairs = (bundle.pairs || []).filter(function (p) {
+        return leftIdx[p.leftIndex] && rightIdx[p.correctRightIndex];
+      }).map(function (p) {
+        var acc = (p.acceptableRightIndices && p.acceptableRightIndices.length)
+          ? p.acceptableRightIndices.filter(function (ri) { return rightIdx[ri]; })
+          : [p.correctRightIndex];
+        if (acc.indexOf(p.correctRightIndex) < 0) acc.push(p.correctRightIndex);
+        return { leftIndex: p.leftIndex, correctRightIndex: p.correctRightIndex, acceptableRightIndices: acc };
+      });
+      function strip(x) { delete x._in; return x; }
+      return {
+        family: 'E',
+        input: { policy: 'connect' },
+        elements: { mode: bundle.mode || 'imgname', leftItems: left.map(strip), rightItems: right.map(strip), pairs: pairs }
+      };
+    }
+  };
+
+  function exportStorybookExercise(opts) {
+    opts = opts || {};
+    var canvas = opts.canvas;
+    if (!canvas) return Promise.reject(new Error('exportStorybookExercise: canvas required'));
+    if (typeof global.JSZip !== 'function') return Promise.reject(new Error('JSZip missing'));
+
+    return Promise.resolve(opts.extractBundle(canvas, { loadingMode: 'inline', exerciseMode: opts.exerciseMode }))
+      .then(function (bundle) {
+        var pageW = bundle.page.width, pageH = bundle.page.height;
+        var defaultCrop = _sepDefaultCrop(bundle, opts.family) || { x: 0, y: 0, w: pageW, h: pageH };
+        var pad = (opts.cropPad != null) ? opts.cropPad : 16;
+        defaultCrop = {
+          x: Math.max(0, Math.round(defaultCrop.x - pad)),
+          y: Math.max(0, Math.round(defaultCrop.y - pad)),
+          w: Math.min(pageW, Math.round(defaultCrop.w + pad * 2)),
+          h: Math.min(pageH, Math.round(defaultCrop.h + pad * 2))
+        };
+        defaultCrop.w = Math.min(defaultCrop.w, pageW - defaultCrop.x);
+        defaultCrop.h = Math.min(defaultCrop.h, pageH - defaultCrop.y);
+
+        /* explicit crop → use it; headless (returnPackage, no crop) → the auto
+           union-bbox default (== the operator's pre-filled box); else the UI */
+        var cropPromise = opts.cropRect ? Promise.resolve(opts.cropRect)
+          : (opts.returnPackage ? Promise.resolve(defaultCrop)
+            : _sepCropUI(canvas, pageW, pageH, defaultCrop));
+        return cropPromise.then(function (crop) {
+          if (!crop) return null;  /* cancelled */
+          crop = { x: Math.round(crop.x), y: Math.round(crop.y), w: Math.round(crop.w), h: Math.round(crop.h) };
+          return _sepBuildPackage(opts, bundle, crop, pageW, pageH);
+        });
+      });
+  }
+
+  function _sepBuildPackage(opts, bundle, crop, pageW, pageH) {
+    var mapper = SEP_FAMILY_MAPPERS[opts.family];
+    if (!mapper) return Promise.reject(new Error('SEP: unsupported family ' + opts.family));
+    return _sepRenderTransparent(opts.canvas, pageW, pageH, crop).then(function (visual) {
+      var mapped = mapper(bundle, crop, { visual: visual });
+      var files = {};        /* relative path -> Blob */
+      var visualName = 'visual@2x.' + visual.format;
+      files[visualName] = _sepDataUrlToBlob(visual.dataUrl);
+      /* Family F reveal assets */
+      if (mapped.assets) {
+        Object.keys(mapped.assets).forEach(function (rel) {
+          files[rel] = _sepDataUrlToBlob(mapped.assets[rel]);
+        });
+        delete mapped.assets;
+      }
+      var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+      var descriptor = {
+        formatVersion: SEP_FORMAT,
+        appType: bundle.appType,
+        family: opts.family,
+        sourceBundleVersion: bundle.bundleVersion || '',
+        createdAt: isoUtc(),
+        meta: {
+          exerciseTypeSlug: bundle.appType,
+          exerciseMode: opts.exerciseMode || null,
+          theme: (bundle.seoMeta && bundle.seoMeta.themeName) || null,
+          ageBand: '5-7',
+          contentLanguage: lang
+        },
+        page: { width: pageW, height: pageH },
+        crop: { x: crop.x, y: crop.y, w: crop.w, h: crop.h, pad: opts.cropPad != null ? opts.cropPad : 16 },
+        visual: { file: visualName, format: visual.format, scale: 2, width: visual.w, height: visual.h },
+        input: mapped.input,
+        elements: mapped.elements,
+        imageRefs: {},
+        loadingMode: 'reference',
+        locales: _sepLocales(bundle.runtimeStrings, opts.family),
+        audio: { speakPromptOnMount: false, perElement: opts.family === 'A' ? 'letter' : null }
+      };
+      var pkg = { descriptor: descriptor, files: files };
+      if (opts.noDownload || opts.returnPackage) {
+        if (!opts.noDownload) _sepDownloadZip(descriptor, files, bundle);
+        return pkg;
+      }
+      return _sepDownloadZip(descriptor, files, bundle).then(function () { return pkg; });
+    });
+  }
+
+  function _sepDownloadZip(descriptor, files, bundle) {
+    var zip = new global.JSZip();
+    zip.file('descriptor.json', JSON.stringify(descriptor, null, 2));
+    Object.keys(files).forEach(function (rel) { zip.file(rel, files[rel]); });
+    return zip.generateAsync({ type: 'blob' }).then(function (blob) {
+      var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+      var name = 'sep_' + slugify(bundle.appType) + '_' +
+        slugify(descriptor.meta.exerciseMode || 'default') + '_' + lang + '_' + utcStamp() + '.zip';
+      triggerDownload(blob, name);
+    });
+  }
+
+  /* interactive crop overlay: a draggable/resizable rectangle over the live
+     canvas; resolves the chosen rect in PAGE units, or null on cancel */
+  function _sepCropUI(canvas, pageW, pageH, defaultCrop) {
+    return new Promise(function (resolve) {
+      var doc = global.document;
+      var canvasEl = canvas.getElement ? canvas.getElement() : canvas.lowerCanvasEl;
+      var host = canvasEl.parentNode;
+      var dispW = canvasEl.clientWidth || canvasEl.width;
+      var dispH = canvasEl.clientHeight || canvasEl.height;
+      var sx = dispW / pageW, sy = dispH / pageH;   /* page -> display px */
+
+      var scrim = doc.createElement('div');
+      scrim.style.cssText = 'position:fixed;inset:0;background:rgba(20,16,12,.35);z-index:99998;';
+      var panel = doc.createElement('div');
+      panel.style.cssText = 'position:fixed;left:50%;top:14px;transform:translateX(-50%);z-index:100000;' +
+        'background:#146B5E;color:#fff;padding:10px 16px;border-radius:12px;font:700 14px system-ui;' +
+        'box-shadow:0 6px 20px rgba(0,0,0,.3);display:flex;gap:10px;align-items:center;';
+      panel.innerHTML = '<span>Drag the box around the ONE exercise, then Export.</span>';
+      var okBtn = doc.createElement('button');
+      okBtn.textContent = 'Export this';
+      okBtn.style.cssText = 'border:none;border-radius:8px;background:#F2784B;color:#fff;font-weight:800;padding:7px 14px;cursor:pointer;';
+      var cancelBtn = doc.createElement('button');
+      cancelBtn.textContent = 'Cancel';
+      cancelBtn.style.cssText = 'border:none;border-radius:8px;background:#e8dfc9;color:#2b241d;font-weight:800;padding:7px 14px;cursor:pointer;';
+      panel.appendChild(okBtn); panel.appendChild(cancelBtn);
+
+      var rect = doc.createElement('div');
+      rect.style.cssText = 'position:absolute;border:3px solid #F2784B;background:rgba(242,120,75,.12);' +
+        'z-index:99999;box-sizing:border-box;cursor:move;';
+      var handle = doc.createElement('div');
+      handle.style.cssText = 'position:absolute;right:-9px;bottom:-9px;width:18px;height:18px;border-radius:50%;' +
+        'background:#fff;border:3px solid #F2784B;cursor:nwse-resize;';
+      rect.appendChild(handle);
+
+      var cur = { x: defaultCrop.x, y: defaultCrop.y, w: defaultCrop.w, h: defaultCrop.h };
+      function place() {
+        var hostRect = host.getBoundingClientRect();
+        var cRect = canvasEl.getBoundingClientRect();
+        var offX = cRect.left - hostRect.left, offY = cRect.top - hostRect.top;
+        rect.style.left = (offX + cur.x * sx) + 'px';
+        rect.style.top = (offY + cur.y * sy) + 'px';
+        rect.style.width = (cur.w * sx) + 'px';
+        rect.style.height = (cur.h * sy) + 'px';
+      }
+      if (getComputedStyle(host).position === 'static') host.style.position = 'relative';
+      host.appendChild(rect); place();
+      doc.body.appendChild(scrim); doc.body.appendChild(panel);
+
+      var drag = null;
+      function down(ev, mode) { drag = { mode: mode, x: ev.clientX, y: ev.clientY, c: { x: cur.x, y: cur.y, w: cur.w, h: cur.h } }; ev.preventDefault(); ev.stopPropagation(); }
+      rect.addEventListener('pointerdown', function (e) { if (e.target === handle) return; down(e, 'move'); });
+      handle.addEventListener('pointerdown', function (e) { down(e, 'resize'); });
+      function move(ev) {
+        if (!drag) return;
+        var ddx = (ev.clientX - drag.x) / sx, ddy = (ev.clientY - drag.y) / sy;
+        if (drag.mode === 'move') {
+          cur.x = Math.max(0, Math.min(pageW - cur.w, drag.c.x + ddx));
+          cur.y = Math.max(0, Math.min(pageH - cur.h, drag.c.y + ddy));
+        } else {
+          cur.w = Math.max(40, Math.min(pageW - cur.x, drag.c.w + ddx));
+          cur.h = Math.max(40, Math.min(pageH - cur.y, drag.c.h + ddy));
+        }
+        place();
+      }
+      function up() { drag = null; }
+      global.addEventListener('pointermove', move);
+      global.addEventListener('pointerup', up);
+      function cleanup() {
+        global.removeEventListener('pointermove', move);
+        global.removeEventListener('pointerup', up);
+        [scrim, panel, rect].forEach(function (n) { if (n.parentNode) n.parentNode.removeChild(n); });
+      }
+      okBtn.addEventListener('click', function () { cleanup(); resolve({ x: cur.x, y: cur.y, w: cur.w, h: cur.h }); });
+      cancelBtn.addEventListener('click', function () { cleanup(); resolve(null); });
+      scrim.addEventListener('click', function () { cleanup(); resolve(null); });
+    });
+  }
+
   global.LCSCatalogExport = {
     SCHEMA_VERSION: SCHEMA_VERSION,
     THUMB_WIDTH: THUMB_WIDTH,
@@ -2114,6 +2576,13 @@
     languageName: languageName,
     deriveVariantId: deriveVariantId,
     HREFLANG_MARKER: HREFLANG_MARKER,
-    export: exportCatalog
+    export: exportCatalog,
+    exportStorybookExercise: exportStorybookExercise,
+    /* test seam: run a family mapper on a bundle+crop with no DOM/render
+       (the mappers are pure; used by scripts/storybook/prove-sep-mappers.js) */
+    _sepMapForTest: function (family, bundle, crop) {
+      return SEP_FAMILY_MAPPERS[family](bundle, crop, {});
+    },
+    _sepDefaultCropForTest: _sepDefaultCrop
   };
 }(typeof window !== 'undefined' ? window : this));

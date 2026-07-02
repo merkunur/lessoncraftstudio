@@ -2294,7 +2294,7 @@
   }
 
   /* per-content-locale strings block seeded from the app's window.translations */
-  function _sepLocales(runtimeStrings, family) {
+  function _sepLocales(runtimeStrings, family, numeric) {
     var t = global.translations || {};
     var out = {};
     var LOCS = ['en', 'de', 'fr', 'it', 'es', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
@@ -2302,11 +2302,13 @@
       var e = t[key];
       return (e && (e[loc] || e.en)) || fallback;
     }
-    var promptDefault = {
+    /* numeric Family-A apps (addition/subtraction/math-worksheet/code-addition)
+       are math, NOT spelling — the letter-family "Spell the word!" default is wrong. */
+    var promptDefault = (family === 'A' && numeric) ? 'Tap the answer!' : ({
       A: 'Spell the word!', F: 'Drag each tile into place!',
       E: 'Match each pair!', C: 'Find and count!',
       B: 'Trace the path!', D: 'Fill each bar!'
-    }[family] || 'Solve the puzzle!';
+    }[family] || 'Solve the puzzle!');
     LOCS.forEach(function (loc) {
       out[loc] = {
         prompt: pick(loc, 'runtimeInstruction', promptDefault),
@@ -2648,7 +2650,7 @@
         elements: mapped.elements,
         imageRefs: {},
         loadingMode: 'reference',
-        locales: _sepLocales(bundle.runtimeStrings, opts.family),
+        locales: _sepLocales(bundle.runtimeStrings, opts.family, opts.numeric),
         audio: { speakPromptOnMount: false, perElement: opts.family === 'A' ? 'letter' : null }
       };
       var pkg = { descriptor: descriptor, files: files };
@@ -2670,6 +2672,47 @@
         slugify(descriptor.meta.exerciseMode || 'default') + '_' + lang + '_' + utcStamp() + '.zip';
       triggerDownload(blob, name);
     });
+  }
+
+  /* Download an already-built {descriptor, files} package as the SEP ZIP.
+     appType + content-locale come off the descriptor, so no bundle needed. */
+  function downloadPackage(descriptor, files) {
+    return _sepDownloadZip(descriptor, files, {
+      appType: descriptor.appType,
+      contentLanguage: (descriptor.meta && descriptor.meta.contentLanguage) || 'en'
+    });
+  }
+
+  var _sepForcedSeq = 0;
+  /* The "Export for Storybook" button behavior (reliable path). Instead of
+     exporting the operator's ARBITRARY current worksheet (whose mode/state may
+     carry no answer — e.g. addition in image-image, subtraction cross-out), it
+     runs the app's __sepGenerate, which FORCES a SEP-compatible mode and builds
+     ONE clean, answer-bearing exercise on the operator's chosen theme (visually
+     clean per the SEP render), then downloads it. So every click yields a
+     playable, self-grading exercise regardless of the current worksheet. */
+  function exportStorybookForced(btnEl) {
+    var doc = global.document;
+    if (typeof global.__sepGenerate !== 'function') {
+      global.alert('This worksheet cannot be exported as a storybook exercise.');
+      return;
+    }
+    var orig = btnEl ? btnEl.textContent : null;
+    if (btnEl) { btnEl.disabled = true; btnEl.textContent = 'Preparing…'; }
+    function restore() { if (btnEl) { btnEl.disabled = false; btnEl.textContent = orig; } }
+    var te = doc.getElementById('themeSelect') || doc.getElementById('worksheetThemeSelect') ||
+      doc.querySelector('select[id*="heme"], select[id*="Theme"]');
+    var theme = (te && te.value) || 'animals';
+    var loc = global.currentLocale || 'en';
+    var seed = (((typeof Date !== 'undefined' && Date.now) ? Date.now() : (++_sepForcedSeq * 7919)) % 900000) + 1;
+    return Promise.resolve()
+      .then(function () { return global.__sepGenerate({ theme: theme, locale: loc, seed: seed }); })
+      .then(function (pkg) {
+        if (pkg && pkg.descriptor) return downloadPackage(pkg.descriptor, pkg.files);
+        global.alert('Could not prepare the exercise. Please click Generate first, then try Export again.');
+      })
+      .catch(function (e) { global.alert('Export failed: ' + (e && e.message ? e.message : e)); })
+      .then(restore, restore);
   }
 
   /* interactive crop overlay: a draggable/resizable rectangle over the live
@@ -2776,6 +2819,8 @@
     HREFLANG_MARKER: HREFLANG_MARKER,
     export: exportCatalog,
     exportStorybookExercise: exportStorybookExercise,
+    exportStorybookForced: exportStorybookForced,
+    downloadPackage: downloadPackage,
     _sepRng: _sepRng,
     /* test seam: run a family mapper on a bundle+crop with no DOM/render
        (the mappers are pure; used by scripts/storybook/prove-sep-mappers.js) */

@@ -2406,18 +2406,25 @@
       };
     },
 
-    /* E — tap-to-connect (matching) */
+    /* E — tap-to-connect (matching = left/right; shadow-match = top/bottom) */
     E: function (bundle, crop, ctx) {
+      // Orientation: 'vertical' (shadow-match: left=TOP row connects from its BOTTOM edge,
+      // right=BOTTOM row from its TOP edge) vs default 'horizontal' (matching: left connects
+      // from RIGHT edge, right from LEFT edge). Backward-compatible: absent → horizontal.
+      var vertical = bundle.connectOrientation === 'vertical';
       function mapItem(it, side) {
         var rect = { x: it.x, y: it.y, w: it.w, h: it.h };
         var rb = _sepRebase(rect, crop);
-        // Anchor DERIVED from the (stable) rebased rect — its inner edge, vertically centered —
-        // NOT the fabric it.anchorX/anchorY, which carries sub-pixel text-metric jitter (±~0.5px at
-        // a .5 boundary → Math.round flips 150↔151 → non-reproducible SEP output; see the matching
-        // seed-repro flake). Left column connects from its RIGHT edge, right column from its LEFT.
-        // (Matching's left/right layout; shadow-match's top/bottom orientation is handled when it wires.)
-        var ax = side === 'right' ? rb.x : rb.x + rb.w;
-        var anchor = { x: Math.round(ax), y: Math.round(rb.y + rb.h / 2) };
+        // Anchor DERIVED from the (stable) rebased rect — its inner edge — NOT the fabric
+        // it.anchorX/anchorY, which carries sub-pixel text-metric jitter (non-reproducible).
+        var anchor;
+        if (vertical) {
+          var ay = side === 'right' ? rb.y : rb.y + rb.h;   // right=bottom row: top edge; left=top row: bottom edge
+          anchor = { x: Math.round(rb.x + rb.w / 2), y: Math.round(ay) };
+        } else {
+          var ax = side === 'right' ? rb.x : rb.x + rb.w;
+          anchor = { x: Math.round(ax), y: Math.round(rb.y + rb.h / 2) };
+        }
         return { index: it.index, rect: rb, anchor: anchor, _in: _sepInCrop(rect, crop) };
       }
       var left = (bundle.leftItems || []).map(function (it) { return mapItem(it, 'left'); }).filter(function (x) { return x._in; });
@@ -2425,7 +2432,15 @@
       var leftIdx = {}, rightIdx = {};
       left.forEach(function (x) { leftIdx[x.index] = true; });
       right.forEach(function (x) { rightIdx[x.index] = true; });
-      var pairs = (bundle.pairs || []).filter(function (p) {
+      // Normalize pair field names: matching emits {leftIndex,correctRightIndex}; shadow-match
+      // emits {topIndex,correctBottomIndex} (kept as-is for its interactive runtime). Accept both.
+      var pairs = (bundle.pairs || []).map(function (p) {
+        return {
+          leftIndex: (p.leftIndex != null) ? p.leftIndex : p.topIndex,
+          correctRightIndex: (p.correctRightIndex != null) ? p.correctRightIndex : p.correctBottomIndex,
+          acceptableRightIndices: p.acceptableRightIndices
+        };
+      }).filter(function (p) {
         return leftIdx[p.leftIndex] && rightIdx[p.correctRightIndex];
       }).map(function (p) {
         var acc = (p.acceptableRightIndices && p.acceptableRightIndices.length)

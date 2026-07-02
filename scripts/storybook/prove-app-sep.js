@@ -50,6 +50,7 @@ const APP_PARAMS = {
   'pattern-train': { theme: 'animals' },
   'crossword': { theme: 'animals' },
   'find-objects': { theme: 'animals' },
+  'shadow-match': { theme: 'animals' },
 };
 const SECOND_LOCALE = 'es';
 

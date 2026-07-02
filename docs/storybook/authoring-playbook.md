@@ -81,7 +81,10 @@ The narration *sets up* the interaction; the interaction is the "your turn". Nev
 
 Same teaching point, gently rising load across pages. Concrete recipes:
 - **Counting/cardinality:** page 1 small set (≤3) → later pages larger set, then count-out-N, then a
-  compare/which-more. Never exceed the grade number ceiling (K ≤10, 1 ≤20, 2 ≤100, PK ≤5).
+  compare/which-more. Keep the child-facing quantity within the grade ceiling (PK ≤5, K ≤10, 1 ≤20,
+  2 ≤100). The gate treats PK as a HARD cap and K–3 as a **WARN** — because place-value/teen standards
+  (K.NBT teens, 1.NBT tens-and-ones, 2.NBT three-digit) legitimately exceed the *operation* ceiling; a
+  larger quantity there is reviewable, not automatically wrong.
 - **Letters/sounds:** recognize → match → build (chunks/letters). PK: recognize only.
 - **Sorting/patterns:** 2 categories / AB pattern → 3 categories / ABC → add a distractor.
 - **Distractor plausibility (gate-checked):** wrong options must be *reasonable* (same category, near

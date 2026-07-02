@@ -1,0 +1,23 @@
+{
+  "storyId": "pip-counts-along",
+  "generatedAt": "2026-07-02T01:49:57.461Z",
+  "pageCount": 3,
+  "totalBytes": 7096,
+  "files": [
+    {
+      "path": "blueprint.json",
+      "bytes": 2742,
+      "sha1": "dbb8474d904ce3fabe3239e0ce733b84f2f571b5"
+    },
+    {
+      "path": "story.json",
+      "bytes": 3996,
+      "sha1": "aab389478540487285d22f6609049d03cc778767"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 358,
+      "sha1": "73318ad2c9eff9224fe7524a0c96ae840a5c0593"
+    }
+  ]
+}

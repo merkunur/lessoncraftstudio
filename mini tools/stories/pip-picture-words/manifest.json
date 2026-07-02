@@ -1,0 +1,63 @@
+{
+  "storyId": "pip-picture-words",
+  "generatedAt": "2026-07-02T01:49:57.241Z",
+  "pageCount": 4,
+  "totalBytes": 24810,
+  "files": [
+    {
+      "path": "blueprint.json",
+      "bytes": 3376,
+      "sha1": "0b41477ae51e0fb990617ef8e611d37b38efa6a4"
+    },
+    {
+      "path": "exercises/ex-p01/descriptor.json",
+      "bytes": 2954,
+      "sha1": "7dd80bd6d4f963ab904fe0e41f49fc8de88ef514"
+    },
+    {
+      "path": "exercises/ex-p01/visual@2x.webp",
+      "bytes": 1442,
+      "sha1": "6a57c0f26e049711f2a8b5d1a3772e51559dca2f"
+    },
+    {
+      "path": "exercises/ex-p02/descriptor.json",
+      "bytes": 2953,
+      "sha1": "d51c31466bd0d786fb8aed48f8880ee11b30d76d"
+    },
+    {
+      "path": "exercises/ex-p02/visual@2x.webp",
+      "bytes": 1026,
+      "sha1": "d2f0b3bf1d938760c6b7b55f5a5581b4c45c164d"
+    },
+    {
+      "path": "exercises/ex-p03/descriptor.json",
+      "bytes": 2953,
+      "sha1": "13c15d9360458b04775e9757cf9f9e0c75480812"
+    },
+    {
+      "path": "exercises/ex-p03/visual@2x.webp",
+      "bytes": 1044,
+      "sha1": "7b80f88284c03ec1ff4faaa38422702530e53db6"
+    },
+    {
+      "path": "exercises/ex-p04/descriptor.json",
+      "bytes": 2954,
+      "sha1": "bb33a016580a6317735a19cb0952d48e3f323bf9"
+    },
+    {
+      "path": "exercises/ex-p04/visual@2x.webp",
+      "bytes": 1436,
+      "sha1": "5a447f43ec538e9d46da26a2521576bd5809327f"
+    },
+    {
+      "path": "story.json",
+      "bytes": 4268,
+      "sha1": "49e5891c6d05f3fcf74c2a3eb76c9dc0053b8848"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 404,
+      "sha1": "a8137f2908a0434117a51df539f890a589abd017"
+    }
+  ]
+}

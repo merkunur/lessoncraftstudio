@@ -1545,6 +1545,7 @@
                     return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
                         exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
                         family: 'A', exerciseMode: null, cropRect: cropRect,
+                        cropExerciseBBox: true,  /* default crop spans the picture clue + full word row, not just the blank slots */
                         returnPackage: returnPackage, noDownload: returnPackage };
                 }
                 var b = document.getElementById('sepExportBtn');

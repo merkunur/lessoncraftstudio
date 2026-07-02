@@ -760,22 +760,52 @@
     };
   }
 
-  /* B — puzzle-drag: trace a path/word by dragging across adjacent grid cells.
-     The letters/path are baked into the transparent visual; cells are invisible
-     overlay hit-targets. check compares the drawn run to a path sequence (forward,
-     or reversed when reversible). */
+  /* B — puzzle-drag: trace each hidden path/word by dragging across adjacent grid
+     cells. MULTI-PATH: a wordsearch has several words + a maze has one route; each
+     path is found independently. On release a run is matched against every UNFOUND
+     path (forward, or reversed when reversible) — a hit locks those cells GREEN and
+     stays; a miss flashes red then clears. The child keeps finding until every path
+     is found (that is when Check enables / the page completes). The letters/route are
+     baked into the transparent visual; cells are invisible overlay hit-targets. */
   function familyB(ctx, desc, boardEl, paletteHost, api) {
     var cells = (desc.elements && desc.elements.cells) || [];
     var paths = (desc.elements && desc.elements.paths) || [];
     var cellEls = {};
     var byIndex = {}; cells.forEach(function (c) { byIndex[c.index] = c; });
-    var run = [], runSet = {}, locked = false, dragging = false;
+    var run = [], runSet = {}, dragging = false;
+    var foundPath = {};   /* path index -> true */
+    var foundCell = {};   /* cell index -> true (part of a found path; stays green) */
+    var foundCount = 0;
 
+    function seqEq(a, b) {
+      if (a.length !== b.length) return false;
+      for (var i = 0; i < a.length; i++) if (a[i] !== b[i]) return false;
+      return true;
+    }
+    function matchPath(r) {
+      for (var i = 0; i < paths.length; i++) {
+        if (foundPath[i]) continue;
+        var seq = paths[i].sequence || [];
+        if (seqEq(r, seq) || (paths[i].reversible && seqEq(r, seq.slice().reverse()))) return i;
+      }
+      return -1;
+    }
+    function paintAnswer() { api.answerChanged(paths.length > 0 && foundCount >= paths.length); }
+    /* clear only the in-progress run's transient marks — never a found (green) cell */
     function clearRun() {
-      run.forEach(function (ci) { if (cellEls[ci]) cellEls[ci].classList.remove('sbwe-sel', 'sbwe-bad'); });
+      run.forEach(function (ci) { if (cellEls[ci] && !foundCell[ci]) cellEls[ci].classList.remove('sbwe-sel', 'sbwe-bad'); });
       run = []; runSet = {};
     }
-    function paintRun(cls) { run.forEach(function (ci) { if (cellEls[ci]) cellEls[ci].classList.add(cls); }); }
+    function markFound(pi) {
+      foundPath[pi] = true; foundCount++;
+      (paths[pi].sequence || []).forEach(function (ci) {
+        foundCell[ci] = true;
+        if (cellEls[ci]) { cellEls[ci].classList.remove('sbwe-sel', 'sbwe-bad'); cellEls[ci].classList.add('sbwe-ok'); }
+      });
+      run = []; runSet = {};
+      global.SBAudio.pop(760);
+      paintAnswer();
+    }
     function addCell(ci) {
       if (runSet[ci]) return;
       if (run.length) {   /* only append a cell 8-neighbouring the last */
@@ -783,9 +813,8 @@
         if (!last || !cur || Math.abs(last.row - cur.row) > 1 || Math.abs(last.col - cur.col) > 1) return;
       }
       run.push(ci); runSet[ci] = true;
-      if (cellEls[ci]) cellEls[ci].classList.add('sbwe-sel');
+      if (cellEls[ci] && !foundCell[ci]) cellEls[ci].classList.add('sbwe-sel');
       global.SBAudio.pop(560);
-      api.answerChanged(run.length >= 2);
     }
     function cellAt(clientX, clientY) {
       var r = boardEl.getBoundingClientRect();
@@ -802,18 +831,19 @@
       dragging = false;
       global.removeEventListener('pointermove', onMove);
       global.removeEventListener('pointerup', onUp);
+      if (run.length >= 2) {
+        var pi = matchPath(run);
+        if (pi >= 0) { markFound(pi); return; }
+        run.forEach(function (ci) { if (cellEls[ci] && !foundCell[ci]) cellEls[ci].classList.add('sbwe-bad'); });
+        setTimeout(clearRun, 650);   /* wrong: flash then clear */
+      } else { clearRun(); }
     }
     function startDrag(ev, cell) {
-      if (!api.enabled() || locked) return;
+      if (!api.enabled()) return;
       clearRun(); dragging = true; addCell(cell.index);
       global.addEventListener('pointermove', onMove);
       global.addEventListener('pointerup', onUp);
       ev.preventDefault();
-    }
-    function seqEq(a, b) {
-      if (a.length !== b.length) return false;
-      for (var i = 0; i < a.length; i++) if (a[i] !== b[i]) return false;
-      return true;
     }
 
     cells.forEach(function (c) {
@@ -827,28 +857,19 @@
       boardEl.appendChild(d);
       cellEls[c.index] = d;
     });
-    api.answerChanged(false);
+    paintAnswer();
 
     return {
-      check: function () {
-        var ok = paths.some(function (p) {
-          var seq = p.sequence || [];
-          return seqEq(run, seq) || (p.reversible && seqEq(run, seq.slice().reverse()));
-        });
-        if (ok) { locked = true; paintRun('sbwe-ok'); }
-        else { paintRun('sbwe-bad'); setTimeout(function () { clearRun(); api.answerChanged(false); }, 1100); }
-        return ok;
-      },
+      check: function () { return paths.length > 0 && foundCount >= paths.length; },
       showHint: function () {
-        var seq = (paths[0] && paths[0].sequence) || [];
-        var el = cellEls[seq[0]];
+        var first = null;
+        for (var i = 0; i < paths.length && !first; i++) if (!foundPath[i]) first = paths[i];
+        var el = first && cellEls[(first.sequence || [])[0]];
         if (el) { el.style.boxShadow = '0 0 0 5px #F2784B'; setTimeout(function () { el.style.boxShadow = ''; }, 1500); }
       },
       autoSolve: function () {
         clearRun();
-        var seq = (paths[0] && paths[0].sequence) || [];
-        seq.forEach(function (ci) { run.push(ci); runSet[ci] = true; if (cellEls[ci]) cellEls[ci].classList.add('sbwe-sel'); });
-        api.answerChanged(run.length >= 2);
+        for (var i = 0; i < paths.length; i++) if (!foundPath[i]) markFound(i);
       },
       fontResize: function () {},
       cleanup: function () {

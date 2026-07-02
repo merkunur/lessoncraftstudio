@@ -3,7 +3,8 @@
   "family": "A",
   "spec": {
     "params": {
-      "theme": "animals"
+      "theme": "animals",
+      "secretWord": "CAT"
     },
     "seed": 7,
     "locale": "en"

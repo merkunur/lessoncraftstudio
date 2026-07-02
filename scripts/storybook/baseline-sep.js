@@ -32,6 +32,7 @@ const APP_PARAMS = {
   'matching': { theme: 'animals' },
   'find-and-count': { theme: 'animals' },
   'missing-pieces': { theme: 'animals' },
+  'cryptogram': { theme: 'animals', vocabKeys: ['cat'] },
 };
 const SEED = 7;
 

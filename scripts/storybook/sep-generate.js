@@ -79,6 +79,12 @@ function serve() {
     const srv = http.createServer((req, res) => {
       const u = new URL(req.url, 'http://127.0.0.1'); let p = decodeURIComponent(u.pathname);
       if (p === '/api/images') return apiImages(u, res);
+      // cryptogram's autoAssignImages fetches this + pulls the pool for its cipher symbols; return a
+      // SMALL set (alphabet only — 34 imgs, enough for 26 letters) so headless assign is fast.
+      if (p === '/api/themes-translated') {
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        return res.end(JSON.stringify([{ value: 'alphabet', id: 'alphabet', name: 'alphabet', displayName: 'Alphabet', translatedName: 'Alphabet', theme: 'alphabet', folderName: 'alphabet', count: 34 }]));
+      }
       if (/\/themes$/.test(p)) return apiThemes(res, p.split('/')[2]);
       if (p.startsWith('/api/')) { res.writeHead(200, { 'Content-Type': 'application/json' }); return res.end(p.indexOf('verify') >= 0 ? '{"hasAccess":true}' : '[]'); }
       if (p === '/') p = '/index.html';

@@ -1,0 +1,16 @@
+{
+  "app": "math-worksheet",
+  "family": "A",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "c0e9cc2aadb8e6a74712046926218ce1130eac6e",
+  "visualSha1": "f55e0bf814d47633bee2f0e22915700edbb011af",
+  "elementCounts": {
+    "slots": 2
+  }
+}

@@ -5715,6 +5715,66 @@
       
       downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'math-worksheet_interactive.html', { loadingMode: 'inline' }));
       exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+
+      // --- SEP hook — Family A NUMERIC (digit palette). math-worksheet is a
+      //     find-the-value puzzle: each pictured symbol has a value; the answer
+      //     boxes ("A = _") emit slots{slotType:'symbol',kind:'number'}. easy
+      //     difficulty (2 symbols) + maxValue 9 keeps every value single-digit.
+      //     cropExerciseBBox spans the equations + boxes (not just the blank).
+      //     Additive headless-only globals; operator/browser path untouched. ---
+      (function () {
+          function _sbSepOpts(cropRect, returnPackage) {
+              return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                  exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
+                  family: 'A', numeric: true, exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+          }
+          var _b = document.getElementById('sepExportBtn');
+          if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+          window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+          window.__sepGenerate = async function (spec) {
+              spec = spec || {};
+              var loc = spec.locale || 'en';
+              window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+              var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+              // Theme image mode (avoids the empty individual-pool path).
+              try {
+                  var _st = document.getElementById('selectTheme');
+                  if (_st) { _st.checked = true; if (typeof updateImageSelectionUI === 'function') updateImageSelectionUI(); }
+              } catch (e) {}
+              try {
+                  if (worksheetImageThemeEl) {
+                      var _has = Array.prototype.some.call(worksheetImageThemeEl.options, function (o) { return o.value === theme; });
+                      if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; worksheetImageThemeEl.add(_o); }
+                      worksheetImageThemeEl.value = theme;
+                  }
+              } catch (e) {}
+              try { if (difficultySelect) difficultySelect.value = 'easy'; } catch (e) {}   // 2 symbols -> 2 answer boxes
+              try { if (numExercisesEl) numExercisesEl.value = 1; } catch (e) {}
+              try { if (operationsSelect) operationsSelect.value = 'add'; } catch (e) {}
+              try { if (minValueEl) minValueEl.value = 1; } catch (e) {}
+              try { if (maxValueEl) maxValueEl.value = 9; } catch (e) {}                    // single-digit values
+              try {
+                  if (document.fonts && document.fonts.load) {
+                      await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                      await document.fonts.ready;
+                  }
+              } catch (e) {}
+              var _r = Math.random;
+              try {
+                  for (var _att = 0; _att < 3; _att++) {
+                      Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                      try { await generatePuzzlesLogic(); } catch (e) {}
+                      var _ok = false;
+                      for (var _i = 0; _i < 300; _i++) {
+                          if (worksheetCanvas && worksheetCanvas.problemsData && worksheetCanvas.problemsData.length && worksheetCanvas.getObjects().some(function (o) { return o.isGeneratedItem === true; })) { _ok = true; break; }
+                          await new Promise(function (r) { setTimeout(r, 50); });
+                      }
+                      if (_ok) break;
+                  }
+              } finally { Math.random = _r; }
+              return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+          };
+      }());
       downloadPdfBtn.addEventListener("click", () => downloadAsPdf(worksheetCanvas, 'worksheet.pdf'));
       downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadAsPdf(answerKeyCanvas, 'answer-key.pdf'));
 
@@ -5808,6 +5868,11 @@
 
       // Generate initial default worksheet function
       async function generateInitialWorksheet() {
+          // Headless SEP isolation: __sepGenerate drives its own seeded
+          // generatePuzzlesLogic(); the auto-run initial generate would race it +
+          // consume the seeded Math.random. Skip under ?__sbHeadless=1 (additive;
+          // operator/browser path unaffected).
+          if (/[?&]__sbHeadless=1/.test(location.search)) return;
           try {
               // Wait for themes to be loaded
               await new Promise(resolve => {

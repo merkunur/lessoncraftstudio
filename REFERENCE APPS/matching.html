@@ -6,7 +6,7 @@
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
-    <script src="/worksheet-generators/js/catalog-export.js?v=31"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=32"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <title>MatchUp Maker</title>
@@ -1212,6 +1212,7 @@
                         <button id="downloadDropdownBtn" class="action-button download-btn" disabled><span data-translate="download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="exportToCatalogBtn" class="lcs-admin-only" disabled data-translate="exportToCatalog">Export to catalog</button>
+                            <button id="sepExportBtn" class="lcs-admin-only">Export for Storybook</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
                             <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
@@ -4954,6 +4955,17 @@
             // New Download Listeners
             downloadInteractiveHtmlBtn.onclick = () => downloadInteractiveHtml(worksheetCanvas, 'matching_interactive.html', { loadingMode: 'inline' });
             exportToCatalogBtn.onclick = handleExportToCatalog;
+            (function () {
+                function sepOpts(cropRect, returnPackage) {
+                    return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                        exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem && typeof o.originalIndex === 'number' && (o.position === 'left' || o.position === 'right'); }); },
+                        family: 'E', exerciseMode: null, cropRect: cropRect,
+                        returnPackage: returnPackage, noDownload: returnPackage };
+                }
+                var b = document.getElementById('sepExportBtn');
+                if (b) b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(sepOpts(null, false)); });
+                window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(sepOpts(cropRect, true)); };
+            }());
             downloadPdfBtn.onclick = () => downloadPDF(worksheetCanvas, 'worksheet.pdf');
             downloadAnswerKeyPdfBtn.onclick = () => downloadPDF(answerKeyCanvas, 'answer-key.pdf');
             

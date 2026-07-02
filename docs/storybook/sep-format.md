@@ -84,7 +84,66 @@ when all non-clue cells filled → correct cells lock green, wrong unlock after
 a beat. `paletteReveals` data URLs become `assets/*.webp` FILES (cacheable,
 small descriptor).
 
-## 3. Generator-side target (the operator's build; this section IS the spec)
+## 3. Generator-side export — SHIPPED (`LCSCatalogExport.exportStorybookExercise`)
+
+Built into `REFERENCE TRANSLATIONS/catalog-export.js` (loaded by every app) +
+a thin per-app adapter. Live on word-guess (A), grid-match (F), matching (E),
+find-and-count (C). Operator flow: generate a worksheet → click **Export for
+Storybook** (admin-only) → drag the crop box around ONE exercise (pre-filled
+to the exercise's bounding box) → **Export this** → a `sep_<app>_<mode>_<lang>_<stamp>.zip`
+downloads → unzip into a story's `exercises/<id>/` (the Studio then lists it).
+
+**The helper** `exportStorybookExercise({canvas, extractBundle, exerciseObjects,
+family, exerciseMode, cropRect?, returnPackage?, noDownload?})`:
+1. `await extractBundle(canvas, {loadingMode:'inline'})` — consumes the app's
+   existing bundle (no re-derivation).
+2. Default crop = union of the bundle's **page-space element rects** + pad
+   (NOT Fabric `getBoundingRect`, which is viewport/zoom-transformed — a
+   different space; that mismatch = empty exports). `cropRect` given → skip
+   the UI; `returnPackage` + no `cropRect` → use the auto crop headlessly.
+3. Transparent render: invert `_captureWorksheetImage` — hide decoration tags
+   (`isBorder/isBackground/isPageBorder/isHeader*/isAnswerKeyItem/isAttribution`),
+   `backgroundColor=null`, `toDataURL({format:'png', left,top,width,height,
+   multiplier:2})` (Fabric-5 crop), transcode → alpha WebP (PNG-sniff fallback).
+4. `SEP_FAMILY_MAPPERS[family]` → rects normalized (word-guess center→top-left)
+   + **rebased to crop space** + in-crop filtered → sep-1 `elements`; A derives
+   `tapPalette.letters` (expected + distractors from a per-locale alphabet); F
+   splits `paletteReveals` → `assets/reveal-NN.webp`; E rebases anchors +
+   guards missing `acceptableRightIndices`; C derives per-cell rects from
+   `gridRect`+`gridDims`, `countBlanks` from `inputSlots`+`targets[].totalCount`.
+5. `locales` seeded from `window.translations`; ZIP via JSZip + `triggerDownload`.
+
+**Per-app adapter (≈ 1 button + 1 predicate + 1 hook — estimate HELD):**
+```html
+<button id="sepExportBtn" class="lcs-admin-only">Export for Storybook</button>
+```
+```js
+(function () {
+  function sepOpts(cropRect, returnPackage) {
+    return { canvas: <lexicalCanvas>, extractBundle: extractDeckBundle,
+      exerciseObjects: c => c.getObjects().filter(<family predicate>),
+      family: '<A|F|E|C>', exerciseMode: null,
+      cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+  }
+  var b = document.getElementById('sepExportBtn');
+  if (b) b.addEventListener('click', function () { LCSCatalogExport.exportStorybookExercise(sepOpts(null, false)); });
+  window.__sepExport = function (r) { return LCSCatalogExport.exportStorybookExercise(sepOpts(r, true)); };
+}());
+```
+Predicates: A `o.isGeneratedItem` · F `o.isGridMatchCell||o.isGridMatchPaletteTile`
+· E `o.isGeneratedItem && (o.position==='left'||o.position==='right')`
+· C `(o.isGeneratedItem && o.originalIndex==='grid')||o.isLegendBlank`.
+Bump the catalog-export `?v=N` in the app HTML. **New app:** add the button +
+these ~12 lines; the mapper is centralized (add a `SEP_FAMILY_MAPPERS` entry
+only for a genuinely new family). Canvas globals are script-lexical — the
+handler MUST live in the app (a `page.evaluate` can't reach them); the
+`__sepExport` hook is the headless/proof entry.
+
+**Proofs:** `scripts/storybook/prove-sep-export.js` (grid-match/F full LIVE
+chain: generate→export→place→validate→qa-play) + `prove-sep-mappers.js` (all
+four A/F/E/C mappers vs real bundle shapes → real validator 0 errors).
+
+## 3b. Original generator-side target spec (historical — the above is the built version)
 
 ONE shared helper in `REFERENCE TRANSLATIONS/catalog-export.js`:
 

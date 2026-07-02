@@ -37,6 +37,7 @@ const APP_PARAMS = {
   'find-and-count': { theme: 'animals' },
   'missing-pieces': { theme: 'animals' },
   'math-worksheet': { theme: 'animals' },
+  'addition': { theme: 'animals' },
   'cryptogram': { theme: 'animals', vocabKeys: ['cat'] },
 };
 const SECOND_LOCALE = 'es';

@@ -5673,7 +5673,7 @@
         function _sbSepOpts(cropRect, returnPackage) {
           return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
             exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
-            family: 'A', numeric: true, exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+            family: 'A', numeric: true, exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
         }
         var _b = document.getElementById('sepExportBtn');
         if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });

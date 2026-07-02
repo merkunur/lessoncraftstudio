@@ -2157,6 +2157,16 @@
     if (family === 'A') {
       (bundle.slots || []).forEach(function (s) { rects.push(_sepCenterToTopLeft(s.rect)); });
       (bundle.imagePlacements || []).forEach(function (p) { if (p.rect) rects.push(p.rect); });
+      /* number-fill apps carry operand-image rects under problems[].imageRefs
+         (addition/subtraction), and the blank is spatially SEPARATE from the
+         images — a slots-only crop would omit what the child adds. Include those
+         image rects, and (opt-in) the full exercise-objects world bbox computed
+         upstream (image-ref-independent — covers apps whose imagePlacements are
+         empty when the harness's stub image paths don't parse). */
+      (bundle.problems || []).forEach(function (p) {
+        (p.imageRefs || []).forEach(function (ir) { if (ir && ir.rect) rects.push(ir.rect); });
+      });
+      if (opts._exerciseBBox) rects.push(opts._exerciseBBox);
     } else if (family === 'F') {
       (bundle.gridCells || []).forEach(function (c) { rects.push(c.rect); });
       (bundle.paletteTiles || []).forEach(function (t) { rects.push(t.rect); });
@@ -2422,6 +2432,27 @@
     return Promise.resolve(opts.extractBundle(canvas, { loadingMode: 'inline', exerciseMode: opts.exerciseMode }))
       .then(function (bundle) {
         var pageW = bundle.page.width, pageH = bundle.page.height;
+        /* Opt-in (number-fill apps): a fill-in exercise is coherent only if the
+           crop shows the content the child fills against (operand images, the
+           legend, operators) — not just the blank. Derive that from the exercise
+           objects' world bounding box straight off the canvas, so it is robust to
+           whichever bundle field (or none) carries the image rects. */
+        if (opts.cropExerciseBBox && typeof opts.exerciseObjects === 'function') {
+          try {
+            var _exObjs = opts.exerciseObjects(canvas) || [];
+            var _bb = null;
+            _exObjs.forEach(function (o) {
+              if (!o || o.visible === false) return;
+              if (typeof o.setCoords === 'function') o.setCoords();
+              var r = o.getBoundingRect(true, true);
+              if (!r || !isFinite(r.width) || !isFinite(r.height) || r.width <= 0 || r.height <= 0) return;
+              var x2 = r.left + r.width, y2 = r.top + r.height;
+              if (!_bb) _bb = { x1: r.left, y1: r.top, x2: x2, y2: y2 };
+              else { _bb.x1 = Math.min(_bb.x1, r.left); _bb.y1 = Math.min(_bb.y1, r.top); _bb.x2 = Math.max(_bb.x2, x2); _bb.y2 = Math.max(_bb.y2, y2); }
+            });
+            if (_bb) opts._exerciseBBox = { x: _bb.x1, y: _bb.y1, w: _bb.x2 - _bb.x1, h: _bb.y2 - _bb.y1 };
+          } catch (e) {}
+        }
         var defaultCrop = _sepDefaultCrop(bundle, opts.family, opts) || { x: 0, y: 0, w: pageW, h: pageH };
         var pad = (opts.cropPad != null) ? opts.cropPad : 16;
         defaultCrop = {

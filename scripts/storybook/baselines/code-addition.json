@@ -1,0 +1,16 @@
+{
+  "app": "code-addition",
+  "family": "A",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "a6d50a6b685fef65433e0cbb7b3b316ba70fb8bc",
+  "visualSha1": "8936bd59d189e3d5cf85945671fd8df6933f98e8",
+  "elementCounts": {
+    "slots": 3
+  }
+}

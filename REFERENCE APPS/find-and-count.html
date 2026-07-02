@@ -5947,12 +5947,33 @@ async function downloadPDF(canvasToExport, filename, opts) {
         // initial generator under a seeded RNG; polls for the grid + legend objects (built inside async image loads).
         window.__sepGenerate = async function (spec) {
             spec = spec || {};
-            window.currentLocale = spec.locale || 'en';
+            var loc = spec.locale || 'en';
+            window.currentLocale = loc; currentLocale = loc;
+            var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+            // DIRECT-SEED (bypass generateInitialWorksheet, whose checkThemes waits on the UI theme
+            // dropdown that isn't populated headless): fetch images, pick targets, call the core generate.
+            try {
+                var _res = await fetch('/api/images?theme=' + encodeURIComponent(theme) + '&locale=' + loc);
+                var _d = await _res.json();
+                currentThemeImages = _d.images || _d || [];
+            } catch (e) {}
+            if (themeSelect) { try { themeSelect.value = theme; } catch (e) {} }
             var rng = window.LCSCatalogExport._sepRng(spec.seed || 1);
+            var pool = (currentThemeImages || []).slice();
+            var taskTypes = ['circle', 'square', 'cross', 'count'];
+            selectedImages = [];
+            for (var k = 0; k < 4 && pool.length; k++) {
+                var img = pool.splice(Math.floor(rng() * pool.length), 1)[0];
+                img.type = taskTypes[k % taskTypes.length];
+                selectedImages.push(img);
+            }
+            if (typeof renderSelectedObjectConfig === 'function') { try { renderSelectedObjectConfig(); } catch (e) {} }
+            var gr = document.getElementById('gridRows'), gc = document.getElementById('gridCols');
+            if (gr) gr.value = 5; if (gc) gc.value = 5;
             var _r = Math.random; Math.random = rng;
             try {
-                await generateInitialWorksheet();
-                for (var _i = 0; _i < 400; _i++) {
+                try { await generateWorksheet(); } catch (e) {}
+                for (var _i = 0; _i < 200; _i++) {
                     var _n = worksheetCanvas.getObjects().filter(function (o) { return (o.isGeneratedItem && o.originalIndex === 'grid') || o.isLegendBlank; }).length;
                     if (_n >= 1) break;
                     await new Promise(function (r) { setTimeout(r, 50); });

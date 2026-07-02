@@ -1795,6 +1795,60 @@ document.addEventListener('DOMContentLoaded', () => {
                 downloadInteractiveHtml(worksheetCanvas, 'picture_sort_interactive.html', { loadingMode: 'inline' }));
         }
         exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
+
+        // --- SEP hook — Family C choice-tap ("tap all items in the LEFT category").
+        //     picture-sort's 2-bin sort doesn't fit the F 1:1 model; the SEP frames it as
+        //     multi-target tap-the-category. cropExerciseBBox spans the labeled bins +
+        //     items. Additive headless-only globals; operator/browser path untouched. ---
+        (function () {
+            function _sbSepOpts(cropRect, returnPackage) {
+                return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isImageToSort === true || o.isCategoryFrame === true; }); },
+                    family: 'C', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+            }
+            var _b = document.getElementById('sepExportBtn');
+            if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+            window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+            window.__sepGenerate = async function (spec) {
+                spec = spec || {};
+                var loc = spec.locale || 'en';
+                window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                try {
+                    if (leftCategoryThemeSelect) {
+                        var _hasL = Array.prototype.some.call(leftCategoryThemeSelect.options, function (o) { return o.value === theme; });
+                        if (!_hasL) { var _ol = document.createElement('option'); _ol.value = theme; _ol.textContent = theme; leftCategoryThemeSelect.add(_ol); }
+                        leftCategoryThemeSelect.value = theme; leftCategoryThemeSelect.dispatchEvent(new Event('change'));
+                    }
+                    if (rightCategoryThemeSelect) {
+                        var _rt = (theme === 'food') ? 'animals' : 'food';
+                        var _hasR = Array.prototype.some.call(rightCategoryThemeSelect.options, function (o) { return o.value === _rt; });
+                        if (!_hasR) { var _or = document.createElement('option'); _or.value = _rt; _or.textContent = _rt; rightCategoryThemeSelect.add(_or); }
+                        rightCategoryThemeSelect.value = _rt; rightCategoryThemeSelect.dispatchEvent(new Event('change'));
+                    }
+                } catch (e) {}
+                try {
+                    if (document.fonts && document.fonts.load) {
+                        await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                        await document.fonts.ready;
+                    }
+                } catch (e) {}
+                var _r = Math.random;
+                try {
+                    for (var _att = 0; _att < 3; _att++) {
+                        Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                        try { await handleGenerateWorksheet(); } catch (e) {}
+                        var _ok = false;
+                        for (var _i = 0; _i < 400; _i++) {
+                            if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isImageToSort === true; }) && worksheetCanvas.getObjects().some(function (o) { return o.isCategoryFrame === true; })) { _ok = true; break; }
+                            await new Promise(function (r) { setTimeout(r, 50); });
+                        }
+                        if (_ok) break;
+                    }
+                } finally { Math.random = _r; }
+                return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+            };
+        }());
         downloadPdfBtn.addEventListener('click', () => downloadPDF('worksheet.pdf', worksheetCanvas));
         downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF('answer-key.pdf', solutionCanvas));
 
@@ -3714,6 +3768,13 @@ document.addEventListener('DOMContentLoaded', () => {
             scoring: 'strict',
             items: itemsWithImages,
             bins: bins,
+            // SEP Family-C choice-tap emission (Edit-2): picture-sort is a 2-bin sort
+            // (N items per bin) — which does NOT fit the F 1-tile-per-cell model. Frame it
+            // as "tap all the items that belong to the LEFT category" (the labeled left bin
+            // is the visible cue): choiceOptions = items, isCorrect = correctCategory==='left'
+            // (multi-target; the familyC player supports tapping several targets). rects are
+            // world TOP-LEFT (_worldRectBounds). Emit-only.
+            choiceOptions: itemsWithImages.map(function (it) { return { rect: it.rect, isCorrect: it.correctCategory === 'left' }; }),
             imageRefs: {},
             seoMeta: seoMeta,
             seoTrace: seoTrace,
@@ -4689,6 +4750,10 @@ async function downloadPDF(name, canvasToExport, opts) {
     }
 
     async function generateInitialWorksheet() {
+        // Headless SEP isolation: __sepGenerate drives its own seeded handleGenerateWorksheet();
+        // the auto-run initial generate would race it + consume the seeded Math.random.
+        // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+        if (/[?&]__sbHeadless=1/.test(location.search)) return;
         try {
             console.log('Starting initial worksheet generation...');
 

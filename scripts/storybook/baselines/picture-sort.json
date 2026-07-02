@@ -1,0 +1,17 @@
+{
+  "app": "picture-sort",
+  "family": "C",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "16f9f7ded2951d5d206ac4fa6fa9de600407d434",
+  "visualSha1": "2e3ac850bbce74ccbac873e90447da46d8723acb",
+  "elementCounts": {
+    "targets": 9,
+    "countBlanks": 0
+  }
+}

@@ -1578,6 +1578,59 @@
             if (dom.exportToCatalogBtn) {
                 dom.exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
             }
+
+            // --- SEP hook — Family C choice-tap. Multiple-choice mode: the first
+            //     problem's 3 option circles become choiceOptions; tap the option
+            //     showing the correct preposition. cropExerciseBBox spans the row so
+            //     the shape + 3 options are visible. Additive headless-only globals;
+            //     operator/browser path untouched. ---
+            (function () {
+                function _sbSepOpts(cropRect, returnPackage) {
+                    return { canvas: worksheetCanvas, extractBundle: extractDeckBundle_v12,
+                        exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
+                        family: 'C', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+                }
+                var _b = document.getElementById('sepExportBtn');
+                if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+                window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+                window.__sepGenerate = async function (spec) {
+                    spec = spec || {};
+                    var loc = spec.locale || 'en';
+                    window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                    var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                    try { if (dom.exerciseModeSelect) dom.exerciseModeSelect.value = 'multiplechoice'; } catch (e) {}
+                    try { if (dom.exerciseCount) dom.exerciseCount.value = 1; } catch (e) {}   // floor is already 1
+                    try {
+                        if (dom.itemThemeSelect) {
+                            var _has = Array.prototype.some.call(dom.itemThemeSelect.options, function (o) { return o.value === theme; });
+                            if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; dom.itemThemeSelect.add(_o); }
+                            dom.itemThemeSelect.value = theme;
+                        }
+                    } catch (e) {}
+                    try { if (dom.shapeThemeSelect) dom.shapeThemeSelect.value = 'manual'; } catch (e) {}   // default shapes, no fetch
+                    try { dom.prepositionsGrid.querySelectorAll('input[type="checkbox"]').forEach(function (cb) { cb.checked = true; }); } catch (e) {}
+                    try {
+                        if (document.fonts && document.fonts.load) {
+                            await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                            await document.fonts.ready;
+                        }
+                    } catch (e) {}
+                    var _r = Math.random;
+                    try {
+                        for (var _att = 0; _att < 3; _att++) {
+                            Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                            try { await generateWorksheet(false); } catch (e) {}
+                            var _ok = false;
+                            for (var _i = 0; _i < 300; _i++) {
+                                if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isMultipleChoiceCircle === true; })) { _ok = true; break; }
+                                await new Promise(function (r) { setTimeout(r, 50); });
+                            }
+                            if (_ok) break;
+                        }
+                    } finally { Math.random = _r; }
+                    return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+                };
+            }());
             if (dom.downloadPdfBtn) {
                 dom.downloadPdfBtn.addEventListener("click", () => window.downloadPDF(worksheetCanvas, 'worksheet.pdf'));
             }
@@ -4297,6 +4350,15 @@
                 }
             });
             bundle.problems = problems;
+            // SEP Family-C choice-tap emission (Edit-2): the FIRST problem's 3 option
+            // circles become a flat choiceOptions list; the correct preposition-option
+            // is the target. _worldRectBounds_v12 is CENTER-based -> convert to TOP-LEFT
+            // (the SEP-C mapper's _sepInCrop/_sepRebase expect top-left). Emit-only.
+            if (problems.length) {
+                bundle.choiceOptions = (problems[0].options || []).map(function (o) {
+                    return { rect: { x: o.rect.x - o.rect.w / 2, y: o.rect.y - o.rect.h / 2, w: o.rect.w, h: o.rect.h }, isCorrect: !!o.isCorrect };
+                });
+            }
         } else {
             // Fill-in-the-blank mode: walk fill-in textboxes, find the
             // "____" run via __charBounds, emit a typed slot per problem.
@@ -5093,6 +5155,10 @@
         }
 
         async function generateInitialWorksheet() {
+            // Headless SEP isolation: __sepGenerate drives its own seeded generateWorksheet();
+            // the auto-run initial generate would race it + consume the seeded Math.random.
+            // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+            if (/[?&]__sbHeadless=1/.test(location.search)) return;
             try {
                 console.log('Starting initial worksheet generation...');
 

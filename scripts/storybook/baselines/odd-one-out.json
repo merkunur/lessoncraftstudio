@@ -1,0 +1,17 @@
+{
+  "app": "odd-one-out",
+  "family": "C",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "d3ee87b9aace3061af64bb1cd9aaa8b2b5e9f02a",
+  "visualSha1": "a28390a306ff9a2e4800a60823e24106362d8576",
+  "elementCounts": {
+    "targets": 4,
+    "countBlanks": 0
+  }
+}

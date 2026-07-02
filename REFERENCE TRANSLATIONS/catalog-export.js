@@ -2166,7 +2166,7 @@
       (bundle.problems || []).forEach(function (p) {
         (p.imageRefs || []).forEach(function (ir) { if (ir && ir.rect) rects.push(ir.rect); });
       });
-      if (opts._exerciseBBox) rects.push(opts._exerciseBBox);
+      /* opts._exerciseBBox (opt-in, image-ref-independent) is unioned globally below. */
     } else if (family === 'F') {
       (bundle.gridCells || []).forEach(function (c) { rects.push(c.rect); });
       (bundle.paletteTiles || []).forEach(function (t) { rects.push(t.rect); });
@@ -2177,7 +2177,9 @@
     } else if (family === 'C') {
       if (bundle.gridRect) rects.push(bundle.gridRect);
       if (!opts.tapOnly) (bundle.inputSlots || []).forEach(function (s) { rects.push(s.rect); });
+      (bundle.choiceOptions || []).forEach(function (o) { if (o.rect) rects.push(o.rect); });
     }
+    if (opts._exerciseBBox) rects.push(opts._exerciseBBox);
     return _sepUnionRects(rects);
   }
   function _sepInCrop(rect, crop, tol) {
@@ -2314,8 +2316,26 @@
       };
     },
 
-    /* C — tap-to-mark + count blanks (find-and-count) */
+    /* C — tap-to-mark + count blanks (find-and-count) OR tap-the-correct-option
+       (choice-tap: odd-one-out / prepositions / more-less / big-small). The familyC
+       player flashes-and-ignores wrong taps (no penalty) and passes when every
+       isTarget is marked — so a choice exercise is just targets with isTarget on the
+       correct option(s) and no count blanks. */
     C: function (bundle, crop, ctx) {
+      if (bundle.choiceOptions && bundle.choiceOptions.length) {
+        var opts = bundle.choiceOptions
+          .filter(function (o) { return o && o.rect && _sepInCrop(o.rect, crop); });
+        return {
+          family: 'C',
+          input: { policy: 'tap' },
+          elements: {
+            targets: opts.map(function (o, idx) {
+              return { index: idx, rect: _sepRebase(o.rect, crop), isTarget: !!o.isCorrect };
+            }),
+            countBlanks: []
+          }
+        };
+      }
       var gd = bundle.gridDims || {};
       var gr = bundle.gridRect || { x: 0, y: 0, w: 0, h: 0 };
       var rows = gd.rows || 0, cols = gd.cols || 0;
@@ -2432,11 +2452,12 @@
     return Promise.resolve(opts.extractBundle(canvas, { loadingMode: 'inline', exerciseMode: opts.exerciseMode }))
       .then(function (bundle) {
         var pageW = bundle.page.width, pageH = bundle.page.height;
-        /* Opt-in (number-fill apps): a fill-in exercise is coherent only if the
-           crop shows the content the child fills against (operand images, the
-           legend, operators) — not just the blank. Derive that from the exercise
-           objects' world bounding box straight off the canvas, so it is robust to
-           whichever bundle field (or none) carries the image rects. */
+        /* Opt-in: an exercise is coherent only if the crop shows the content the
+           child works against — operand images / legend / operators (number-fill),
+           or the question stem / scene (choice-tap) — not just the blanks or option
+           rects. Derive that from the exercise objects' world bounding box straight
+           off the canvas, so it is robust to whichever bundle field (or none) carries
+           the rects. Family-agnostic; only apps that pass cropExerciseBBox opt in. */
         if (opts.cropExerciseBBox && typeof opts.exerciseObjects === 'function') {
           try {
             var _exObjs = opts.exerciseObjects(canvas) || [];

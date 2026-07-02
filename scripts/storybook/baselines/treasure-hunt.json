@@ -1,0 +1,18 @@
+{
+  "app": "treasure-hunt",
+  "family": "B",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "f31ce7aef8233f36f0394ed4c3082eb870cdf4c8",
+  "visualSha1": "57ec710ad5eb5446d5e2f6e802783a1f6222eda5",
+  "elementCounts": {
+    "gridDims": 1,
+    "cells": 25,
+    "paths": 1
+  }
+}

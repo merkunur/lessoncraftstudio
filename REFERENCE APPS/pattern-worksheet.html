@@ -1626,6 +1626,73 @@
             // New Download Listeners
             ui.downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-worksheet_interactive.html', { loadingMode: 'inline' }));
             ui.exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+
+            // --- SEP hook — Family C choice-tap ('options' question type). The first
+            //     puzzle's option cells become choiceOptions; tap the shape that completes
+            //     the pattern. cropExerciseBBox spans the pattern row + options. Additive
+            //     headless-only globals; operator/browser path untouched. ---
+            (function () {
+                function _sbSepOpts(cropRect, returnPackage) {
+                    return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                        // Pattern elements (sequence images + blank + option cells) are NESTED
+                        // inside puzzle groups — recurse so cropExerciseBBox spans the whole
+                        // pattern row, not just the opaque option card (a card-only crop is
+                        // fully opaque -> fails the SEP alpha-channel check; the wider crop
+                        // has transparent page margins).
+                        exerciseObjects: function (c) {
+                            var out = [];
+                            (function walk(objs) { (objs || []).forEach(function (o) { if (!o) return; if (o.isPatternChoice === true || o.isPatternBlank === true || o.isPatternSource === true) { o.setCoords && o.setCoords(); out.push(o); } if (o._objects) walk(o._objects); }); })(c.getObjects());
+                            return out;
+                        },
+                        family: 'C', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+                }
+                var _b = document.getElementById('sepExportBtn');
+                if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+                window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+                window.__sepGenerate = async function (spec) {
+                    spec = spec || {};
+                    var loc = spec.locale || 'en';
+                    window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                    var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                    try { if (ui.exerciseCount) { ui.exerciseCount.value = 1; ui.exerciseCount.dispatchEvent(new Event('change')); } } catch (e) {}
+                    try { if (ui.useWorksheetThemeCheckbox) { ui.useWorksheetThemeCheckbox.checked = true; ui.useWorksheetThemeCheckbox.dispatchEvent(new Event('change')); } } catch (e) {}
+                    try {
+                        if (ui.worksheetThemeSelect) {
+                            var _has = Array.prototype.some.call(ui.worksheetThemeSelect.options, function (o) { return o.value === theme; });
+                            if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; ui.worksheetThemeSelect.add(_o); }
+                            ui.worksheetThemeSelect.value = theme; ui.worksheetThemeSelect.dispatchEvent(new Event('change'));
+                        }
+                    } catch (e) {}
+                    // Worksheet-wide 'options' override -> every puzzle is a tap-the-option (choice) puzzle.
+                    try { if (ui.globalQuestionTypeSelect) ui.globalQuestionTypeSelect.value = 'options'; } catch (e) {}
+                    try {
+                        if (ui.patternSelect) {
+                            var _po = Array.prototype.filter.call(ui.patternSelect.options, function (o) { return o.value !== ''; });
+                            if (_po.length) { ui.patternSelect.value = _po[0].value; ui.patternSelect.dispatchEvent(new Event('change')); }
+                        }
+                    } catch (e) {}
+                    try {
+                        if (document.fonts && document.fonts.load) {
+                            await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                            await document.fonts.ready;
+                        }
+                    } catch (e) {}
+                    var _r = Math.random;
+                    try {
+                        for (var _att = 0; _att < 3; _att++) {
+                            Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                            try { if (!ui.generateWorksheetBtn.disabled) ui.generateWorksheetBtn.click(); } catch (e) {}
+                            var _ok = false;
+                            for (var _i = 0; _i < 400; _i++) {
+                                if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isPatternChoice === true; })) { _ok = true; break; }
+                                await new Promise(function (r) { setTimeout(r, 50); });
+                            }
+                            if (_ok) break;
+                        }
+                    } finally { Math.random = _r; }
+                    return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+                };
+            }());
             ui.downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
             ui.downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
 
@@ -4208,6 +4275,10 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
         }
 
         async function generateInitialWorksheet() {
+            // Headless SEP isolation: __sepGenerate drives its own seeded generate; the
+            // auto-run initial generate would race it + consume the seeded Math.random.
+            // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+            if (/[?&]__sbHeadless=1/.test(location.search)) return;
             try {
                 console.log('Starting initial worksheet generation...');
 
@@ -4719,6 +4790,22 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
                 blankSlots: blankSlots,
                 sourceSlots: sourceSlots,
                 problems: rewrittenPuzzles,
+                // SEP Family-C choice-tap emission (Edit-2, 'options' question type): the
+                // FIRST problem's option cells -> choiceOptions; isCorrect = choiceIndex ===
+                // correctOptionIdx. _worldRectBounds is CENTER-based -> TOP-LEFT. The 'blank'
+                // question type is a drag mechanic (not emitted; the SEP hook forces the
+                // worksheet-wide 'options' override). Emit-only.
+                choiceOptions: (function () {
+                    var out = [];
+                    var p0 = rewrittenPuzzles[0];
+                    if (!p0 || typeof p0.correctOptionIdx !== 'number') return out;
+                    optionSlots.filter(function (s) { return s.problemIndex === p0.index; })
+                        .sort(function (a, b) { return a.choiceIndex - b.choiceIndex; })
+                        .forEach(function (s) {
+                            out.push({ rect: { x: s.rect.x - s.rect.w / 2, y: s.rect.y - s.rect.h / 2, w: s.rect.w, h: s.rect.h }, isCorrect: (s.choiceIndex === p0.correctOptionIdx) });
+                        });
+                    return out;
+                })(),
                 imageRefs: imageRefs,
                 seoMeta: seoMeta,
                 seoTrace: seoTrace,

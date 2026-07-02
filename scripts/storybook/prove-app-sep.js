@@ -51,6 +51,7 @@ const APP_PARAMS = {
   'crossword': { theme: 'animals' },
   'find-objects': { theme: 'animals' },
   'shadow-match': { theme: 'animals' },
+  'pattern-worksheet': { theme: 'animals' },
 };
 const SECOND_LOCALE = 'es';
 

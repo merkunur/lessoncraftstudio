@@ -1,0 +1,16 @@
+{
+  "app": "crossword",
+  "family": "A",
+  "spec": {
+    "params": {
+      "theme": "animals"
+    },
+    "seed": 7,
+    "locale": "en"
+  },
+  "descriptorSha1": "41e4499d2ba12a16b2763b89b593317334d0ba22",
+  "visualSha1": "19da50c2e06d503fb149325f6fc61238155727fb",
+  "elementCounts": {
+    "slots": 21
+  }
+}

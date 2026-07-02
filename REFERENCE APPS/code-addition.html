@@ -3163,6 +3163,11 @@
 
         // --- Initial Worksheet Generation ---
         async function generateInitialWorksheet() {
+            // Headless SEP isolation: the programmatic __sepGenerate path drives its
+            // own seeded generateWorksheet(); the auto-run initial generate would race
+            // it and consume the seeded Math.random. Skip it under ?__sbHeadless=1.
+            // (Additive; the operator/browser path is unaffected.)
+            if (/[?&]__sbHeadless=1/.test(location.search)) return;
             try {
                 // Wait for themes to be loaded
                 await new Promise(resolve => {
@@ -5608,6 +5613,61 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
             handleExportToCatalog();
             downloadDropdownContent.style.display = 'none';
         });
+
+        // --- SEP hook — Family A letter-decode. Word Reveal mode makes every answer
+        //     blank a LETTER (extractDeckBundle emits slots{slotType:'letter'}); the
+        //     A mapper's letter palette handles it verbatim (single-char expected).
+        //     Additive headless-only globals; operator/browser path untouched. ---
+        (function () {
+            function _sbSepOpts(cropRect, returnPackage) {
+                return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
+                    family: 'A', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+            }
+            var _b = document.getElementById('sepExportBtn');
+            if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+            window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+            window.__sepGenerate = async function (spec) {
+                spec = spec || {};
+                var loc = spec.locale || 'en';
+                window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                var word = String(spec.secretWord || (spec.params && spec.params.secretWord) || 'CAT').toUpperCase();
+                // Word Reveal mode → per-row letter blanks (slotType:'letter').
+                try { var _wr = document.getElementById('wordRevealMode'); if (_wr) _wr.checked = true; } catch (e) {}
+                try { var _sw = document.getElementById('secretWord'); if (_sw) _sw.value = word; } catch (e) {}
+                // Ensure the worksheet-theme select carries the requested theme — the
+                // headless init is skipped (?__sbHeadless), so the option may be absent.
+                try {
+                    var _wt = document.getElementById('worksheetThemeSelect');
+                    if (_wt) {
+                        var _has = Array.prototype.some.call(_wt.options, function (o) { return o.value === theme; });
+                        if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; _wt.add(_o); }
+                        _wt.value = theme;
+                    }
+                } catch (e) {}
+                try {
+                    if (document.fonts && document.fonts.load) {
+                        await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                        await document.fonts.ready;
+                    }
+                } catch (e) {}
+                var _r = Math.random;
+                try {
+                    for (var _att = 0; _att < 3; _att++) {
+                        Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                        try { await generateWorksheet(); } catch (e) {}
+                        var _ok = false;
+                        for (var _i = 0; _i < 300; _i++) {
+                            if (worksheetCanvas && worksheetCanvas.problemsData && worksheetCanvas.problemsData.problems && worksheetCanvas.getObjects().some(function (o) { return o.isGeneratedItem === true; })) { _ok = true; break; }
+                            await new Promise(function (r) { setTimeout(r, 50); });
+                        }
+                        if (_ok) break;
+                    }
+                } finally { Math.random = _r; }
+                return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+            };
+        }());
 
         generateWorksheetBtn.addEventListener("click", generateWorksheet);
         generateAnswerKeyBtn.addEventListener("click", generateAnswerKey);

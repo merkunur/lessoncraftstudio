@@ -2133,7 +2133,7 @@
     fi: 'ABCDEFGHIJKLMNOPQRSTUVWYÄÖ'
   };
   var SEP_DECOR_TAGS = ['isBorder', 'isBackground', 'isPageBorder', 'isHeaderElement',
-    'isHeaderDesc', 'isAnswerKeyItem', 'isAttribution', 'isAnswerKey'];
+    'isHeaderDesc', 'isAnswerKeyItem', 'isAttribution', 'isAnswerKey', 'isSepHidden'];
 
   function _sepIsDecor(o) {
     for (var i = 0; i < SEP_DECOR_TAGS.length; i++) if (o[SEP_DECOR_TAGS[i]]) return true;
@@ -2207,9 +2207,51 @@
     var savedBg = canvas.backgroundColor;
     var hidden = [];
     canvas.discardActiveObject();
-    canvas.getObjects().forEach(function (o) {
-      if (_sepIsDecor(o) && o.visible !== false) { hidden.push(o); o.visible = false; }
-    });
+    /* Universal background-panel suppression: an exercise's stimulus is images /
+       cells / text — never a giant filled rectangle. So any FILLED rect whose
+       bounding box covers >=80% of the crop is a background card/panel/scene
+       fill (the pale "Puzzle 1" card, the blue I-Spy panel, etc.) — hide it so
+       the exercise floats on true alpha. Stroke-only rects (dashed drop-zones,
+       grid/equation cells, the missing-piece hole) have no fill => untouched;
+       small content boxes never approach 80% of the crop => untouched. We RECURSE
+       into groups because the app that builds its exercise as an isGeneratedItem
+       group nests the card rect as a child (getBoundingRect on a grouped child is
+       GROUP-LOCAL, so absolute coords come from calcTransformMatrix per §14.7). */
+    var _cropArea = Math.max(1, crop.w * crop.h);
+    function _sepAbsRect(o) {
+      if (typeof o.calcTransformMatrix !== 'function') {
+        var r0 = o.getBoundingRect(true, true);
+        return { x: r0.left, y: r0.top, w: r0.width, h: r0.height };
+      }
+      var m = o.calcTransformMatrix();  /* skipGroup=false => absolute canvas space */
+      var hw = (o.width || 0) / 2, hh = (o.height || 0) / 2;
+      var pts = [[-hw, -hh], [hw, -hh], [hw, hh], [-hw, hh]].map(function (p) {
+        return fabric.util.transformPoint({ x: p[0], y: p[1] }, m);
+      });
+      var xs = pts.map(function (p) { return p.x; }), ys = pts.map(function (p) { return p.y; });
+      var minx = Math.min.apply(null, xs), miny = Math.min.apply(null, ys);
+      return { x: minx, y: miny, w: Math.max.apply(null, xs) - minx, h: Math.max.apply(null, ys) - miny };
+    }
+    function _isBgPanel(o) {
+      if (o.type !== 'rect') return false;
+      var f = o.fill;
+      if (!f || f === 'transparent') return false;
+      if (typeof f === 'string' && /rgba\([^)]*,\s*0(\.0+)?\s*\)/.test(f)) return false; /* fully transparent */
+      var r = _sepAbsRect(o);
+      var ix = Math.min(r.x + r.w, crop.x + crop.w) - Math.max(r.x, crop.x);
+      var iy = Math.min(r.y + r.h, crop.y + crop.h) - Math.max(r.y, crop.y);
+      if (ix <= 0 || iy <= 0) return false;
+      return (ix * iy) >= 0.8 * _cropArea;
+    }
+    function _sepScan(objs) {
+      objs.forEach(function (o) {
+        if (o.visible === false) return;
+        if (_sepIsDecor(o) || _isBgPanel(o)) { hidden.push(o); }        /* hide (don't recurse into) */
+        else if (o._objects && o._objects.length) { _sepScan(o._objects); }  /* recurse into content groups */
+      });
+    }
+    _sepScan(canvas.getObjects());
+    hidden.forEach(function (o) { o.visible = false; var g = o.group; while (g) { g.dirty = true; g = g.group; } });
     canvas.setZoom(1);
     canvas.setDimensions({ width: pageW, height: pageH });
     canvas.backgroundColor = null;
@@ -2219,7 +2261,7 @@
       pngUrl = canvas.toDataURL({ format: 'png', left: crop.x, top: crop.y,
         width: crop.w, height: crop.h, multiplier: 2 });
     } finally {
-      hidden.forEach(function (o) { o.visible = true; });
+      hidden.forEach(function (o) { o.visible = true; var g = o.group; while (g) { g.dirty = true; g = g.group; } });
       canvas.backgroundColor = savedBg;
       canvas.setZoom(savedZoom);
       canvas.setDimensions({ width: savedW, height: savedH });

@@ -2139,7 +2139,9 @@
                 function sepOpts(cropRect, returnPackage) {
                     return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
                         exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
-                        family: 'A', exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+                        family: 'A', exerciseMode: null, cropRect: cropRect,
+                        cropExerciseBBox: true,  /* default crop spans the answer row + the scrambled source letters, not just the blanks */
+                        returnPackage: returnPackage, noDownload: returnPackage };
                 }
                 var _b = document.getElementById('sepExportBtn');
                 if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(sepOpts(null, false)); });

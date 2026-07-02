@@ -165,4 +165,4 @@ if (require.main === module) {
     console.log('[sep-generate] done → mini tools/stories/' + (story || bp) + '/exercises/');
   })().catch(e => { console.error('[sep-generate] FAIL: ' + e.message); process.exit(1); });
 }
-module.exports = { run };
+module.exports = { run, serve, generateOne };

@@ -1615,8 +1615,10 @@ document.addEventListener('DOMContentLoaded', function() {
         (function () {
             function _sbSepOpts(cropRect, returnPackage) {
                 return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
-                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isChartCell === true; }); },
-                    family: 'D', exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isWorksheetExercise === true; }); },
+                    family: 'D', exerciseMode: null, cropRect: cropRect,
+                    cropExerciseBBox: true,  /* crop the whole chart group so the bottom column-key animals + y-axis numbers are included, not just the grid cells */
+                    returnPackage: returnPackage, noDownload: returnPackage };
             }
             var _b = document.getElementById('sepExportBtn');
             if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });

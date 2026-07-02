@@ -2029,9 +2029,12 @@ document.addEventListener("DOMContentLoaded", function() {
         //     sepPaths. Additive headless-only globals; operator/browser path untouched. ---
         (function () {
             function _sbSepOpts(cropRect, returnPackage) {
+                // cropExerciseBBox spans the grid + the word-list picture clues (isPuzzleElement)
+                // so the child can see WHICH words to find — a grid-only crop clipped the clue
+                // row to unusable slivers.
                 return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
-                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isWordsearchGrid === true; }); },
-                    family: 'B', exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isWordsearchGrid === true || o.isPuzzleElement === true; }); },
+                    family: 'B', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
             }
             var _bb = document.getElementById('sepExportBtn');
             if (_bb) _bb.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
@@ -4769,13 +4772,17 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                 }
             }
         }
+        // ALL visible words become findable paths (a wordsearch is "find them all"),
+        // each a straight run derived from its start + direction; 8-dir, reversible.
         var _sepPaths = [];
-        if (words.length && _sepCols) {
-            var _w0 = words[0], _seq = [];
-            for (var _wk = 0; _wk < _w0.len; _wk++) {
-                _seq.push((_w0.r + _wk * _w0.dr) * _sepCols + (_w0.c + _wk * _w0.dc));
-            }
-            _sepPaths.push({ id: 0, sequence: _seq, reversible: true });
+        if (_sepCols) {
+            words.forEach(function (_w, _wi) {
+                var _seq = [];
+                for (var _wk = 0; _wk < _w.len; _wk++) {
+                    _seq.push((_w.r + _wk * _w.dr) * _sepCols + (_w.c + _wk * _w.dc));
+                }
+                if (_seq.length >= 2) _sepPaths.push({ id: _wi, sequence: _seq, reversible: true });
+            });
         }
 
         return {

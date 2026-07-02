@@ -1,0 +1,222 @@
+{
+  "schemaVersion": "sb-1",
+  "id": "pip-picture-words",
+  "title": "@story.title",
+  "locales": [
+    "en"
+  ],
+  "theme": {
+    "letterboxColor": "#FBF3E4",
+    "transition": "crossfade"
+  },
+  "cast": [
+    {
+      "id": "pip",
+      "name": "@cast.pip.name",
+      "role": "guide",
+      "atlasBase": "pip",
+      "poses": [
+        "neutral"
+      ]
+    }
+  ],
+  "assets": {
+    "scene1": {
+      "kind": "image",
+      "src": "/mini-tools/stories/pips-picnic/scenes/page-01.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "pip": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/pips-picnic/cast/pip/pip.base.json"
+    }
+  },
+  "reward": {
+    "id": "story.pip-picture-words",
+    "label": {
+      "en": "Word Card"
+    },
+    "emoji": "🔤"
+  },
+  "pages": [
+    {
+      "id": "p01",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p01-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-worksheet-exercise",
+        "zone": {
+          "x": 430,
+          "y": 150,
+          "w": 740,
+          "h": 680
+        },
+        "completionMode": "check",
+        "taskData": {
+          "package": "exercises/ex-p01"
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    },
+    {
+      "id": "p02",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p02-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-worksheet-exercise",
+        "zone": {
+          "x": 430,
+          "y": 150,
+          "w": 740,
+          "h": 680
+        },
+        "completionMode": "check",
+        "taskData": {
+          "package": "exercises/ex-p02"
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    },
+    {
+      "id": "p03",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p03-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-worksheet-exercise",
+        "zone": {
+          "x": 430,
+          "y": 150,
+          "w": 740,
+          "h": 680
+        },
+        "completionMode": "check",
+        "taskData": {
+          "package": "exercises/ex-p03"
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    },
+    {
+      "id": "p04",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p04-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-worksheet-exercise",
+        "zone": {
+          "x": 430,
+          "y": 150,
+          "w": 740,
+          "h": 680
+        },
+        "completionMode": "check",
+        "taskData": {
+          "package": "exercises/ex-p04"
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    }
+  ]
+}

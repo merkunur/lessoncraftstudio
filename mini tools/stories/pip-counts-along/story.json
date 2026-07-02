@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "sb-1",
+  "id": "pip-counts-along",
+  "title": "@story.title",
+  "locales": [
+    "en"
+  ],
+  "theme": {
+    "letterboxColor": "#FBF3E4",
+    "transition": "crossfade"
+  },
+  "cast": [
+    {
+      "id": "pip",
+      "name": "@cast.pip.name",
+      "role": "guide",
+      "atlasBase": "pip",
+      "poses": [
+        "neutral"
+      ]
+    }
+  ],
+  "assets": {
+    "scene1": {
+      "kind": "image",
+      "src": "/mini-tools/stories/pips-picnic/scenes/page-01.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "pip": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/pips-picnic/cast/pip/pip.base.json"
+    },
+    "img.apple": {
+      "kind": "image",
+      "src": "/image-library-webp/themes/fruits/apple@2x.webp",
+      "vocab": "apple"
+    }
+  },
+  "reward": {
+    "id": "story.pip-counts-along",
+    "label": {
+      "en": "Apple Basket"
+    },
+    "emoji": "🍎"
+  },
+  "pages": [
+    {
+      "id": "p01",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p01-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-count-tap",
+        "zone": {
+          "x": 540,
+          "y": 250,
+          "w": 540,
+          "h": 500
+        },
+        "completionMode": "check",
+        "taskData": {
+          "item": {
+            "key": "apple",
+            "image": "img.apple",
+            "word": "@count.word.apple"
+          },
+          "total": 3,
+          "target": 2,
+          "seed": 4
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    },
+    {
+      "id": "p02",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p02-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-count-tap",
+        "zone": {
+          "x": 540,
+          "y": 250,
+          "w": 540,
+          "h": 500
+        },
+        "completionMode": "check",
+        "taskData": {
+          "item": {
+            "key": "apple",
+            "image": "img.apple",
+            "word": "@count.word.apple"
+          },
+          "total": 4,
+          "target": 3,
+          "seed": 11
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    },
+    {
+      "id": "p03",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "neutral",
+          "anchor": {
+            "x": 200,
+            "y": 880
+          },
+          "scale": 0.7,
+          "flip": false
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p03-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-count-tap",
+        "zone": {
+          "x": 540,
+          "y": 250,
+          "w": 540,
+          "h": 500
+        },
+        "completionMode": "check",
+        "taskData": {
+          "item": {
+            "key": "apple",
+            "image": "img.apple",
+            "word": "@count.word.apple"
+          },
+          "total": 5,
+          "target": 4,
+          "seed": 17
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 800
+      }
+    }
+  ]
+}

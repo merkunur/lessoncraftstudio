@@ -26,7 +26,7 @@
   "p04-bravo": { "en": "The blanket looks delicious. Well done!" },
 
   "p05-l01": { "en": "For dessert, I baked shape cookies!" },
-  "p05-l02": { "en": "Sort the cookies: triangles in one tin, shapes with four sides in the other." },
+  "p05-l02": { "en": "Sort the cookies: triangles in one tin, four-sided shapes in the other." },
   "p05-hint": { "en": "Count the sides of each cookie. Three sides means triangle." },
   "p05-bravo": { "en": "Every cookie is in the right tin. What a perfect picnic!" }
 }

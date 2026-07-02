@@ -146,7 +146,12 @@ if (require.main === module) {
     if (specArg) specs = [JSON.parse(specArg)];
     else if (bp) {
       const b = JSON.parse(fs.readFileSync(path.join(STORIES, bp, 'blueprint.json'), 'utf8'));
-      (b.pages || []).forEach((pg, i) => { if (pg.exerciseSpec) specs.push(Object.assign({ exId: 'ex-p' + (i + 1) }, pg.exerciseSpec)); });
+      (b.pages || []).forEach((pg, i) => {
+        // exerciseSpec lives on the page's interaction (blueprint-1); exId matches
+        // blueprint-to-skeleton's taskData.package "exercises/ex-p<NN>" (NN zero-padded).
+        const spec = (pg.interaction && pg.interaction.exerciseSpec) || pg.exerciseSpec;
+        if (spec) specs.push(Object.assign({ exId: 'ex-p' + String(i + 1).padStart(2, '0') }, spec));
+      });
     } else { console.error('need --spec <json> --story <id>  OR  --from-blueprint <id>'); process.exit(1); }
     await run(specs, story || bp);
     console.log('[sep-generate] done → mini tools/stories/' + (story || bp) + '/exercises/');

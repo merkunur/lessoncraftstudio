@@ -1,0 +1,23 @@
+{
+  "storyId": "pip-odd-even",
+  "generatedAt": "2026-07-02T01:54:32.793Z",
+  "pageCount": 8,
+  "totalBytes": 17193,
+  "files": [
+    {
+      "path": "blueprint.json",
+      "bytes": 7329,
+      "sha1": "270f08e574fd802381bb4fe9f4f7b3a210fced99"
+    },
+    {
+      "path": "story.json",
+      "bytes": 9214,
+      "sha1": "647a56c018cf83619e93bd881497dd412d05aba8"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 650,
+      "sha1": "f2ab9bd335e0b9cddcd57877bda8f6d61f5a5b30"
+    }
+  ]
+}

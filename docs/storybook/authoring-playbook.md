@@ -33,6 +33,12 @@ motivation are handled by structure, not invented per story. Fill in the blanks.
 *promise* is set on page 1 and *paid off* on the last page (completion keepsake = the payoff object).
 No villains, no peril, no loss — stakes are gentle ("the picnic needs plates", not "or else").
 
+**Guide-only vs companion arcs.** **Discovery** and **Quest** work with just the guide (Pip
+explores/journeys *with the child* — no companion needed). **Help-a-friend**, **Fix-a-mess**, and
+**Collect-and-sort** usually introduce ONE companion (the friend, the owner of the mess) — a per-story
+cast member. If your story has no companion, prefer Discovery or Quest rather than bending
+Help-a-friend around an absent friend.
+
 ## 2. Per-grade envelope (hard numbers — the gate enforces these)
 
 | Grade | Age | Pages | Narration: max words/line · max lines/page | Sentence shape | Vocab ceiling |
@@ -57,7 +63,9 @@ No villains, no peril, no loss — stakes are gentle ("the picnic needs plates",
 Voice = warm adult reading to a small child on a lap. Second person, invitational, never quizzing.
 The narration *sets up* the interaction; the interaction is the "your turn". Never state the answer.
 
-**Prompt patterns by mechanic** (fill `{…}`; keep within the grade word ceiling):
+**Prompt patterns by mechanic** (fill `{…}`; keep within the grade word ceiling). These are
+PATTERNS, not literals — **vary the exact wording across pages** so the story reads like Pip talking,
+not a repeated quiz; each still within the ceiling.
 - tap-the-answer (`sb-choice-board`, `sb-listen`, `sb-count-tap`): *"Which one is {target}? Tap it!"* /
   *"Can you find {target}?"*
 - find in scene (`sb-find-object`): *"{Guide} lost the {items}. Can you spot them?"*

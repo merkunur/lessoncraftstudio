@@ -2132,6 +2132,54 @@
             // Download Listeners
             ui.downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'word-scramble_interactive.html', { loadingMode: 'inline' }));
             ui.exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+            // --- Storybook Exercise Package (SEP) hook — Family A (letter-fill; extractDeckBundle emits
+            // slots{slotType:'letter'}). Headless-only window globals + optional admin button; additive,
+            // operator path untouched. See docs/storybook/sep-rollout-recipe.md. ---
+            (function () {
+                function sepOpts(cropRect, returnPackage) {
+                    return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                        exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
+                        family: 'A', exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+                }
+                var _b = document.getElementById('sepExportBtn');
+                if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(sepOpts(null, false)); });
+                window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(sepOpts(cropRect, true)); };
+                window.__sepGenerate = async function (spec) {
+                    spec = spec || {};
+                    var loc = spec.locale || 'en';
+                    window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                    var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                    if (ui.themeSelect) ui.themeSelect.value = theme;
+                    var want = (spec.params && spec.params.count) || spec.count || 1;
+                    if (ui.puzzleCount) ui.puzzleCount.value = want;
+                    try {
+                        var _res = await fetch('/api/images?theme=' + encodeURIComponent(theme) + '&locale=' + loc);
+                        var _d = await _res.json();
+                        currentThemeImages = _d.images || _d || [];
+                    } catch (e) { try { await loadDictionary(); } catch (e2) {} }
+                    var rng = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                    var pool = (currentThemeImages || []).slice();
+                    selectedImages = [];
+                    if (spec.vocabKeys && spec.vocabKeys.length) {
+                        spec.vocabKeys.forEach(function (k) {
+                            var m = pool.filter(function (i) { return (i.word || '').toLowerCase() === k.toLowerCase() || (i.path || '').toLowerCase().indexOf('/' + k.toLowerCase() + '.') >= 0 || (i.path || '').toLowerCase().indexOf('/' + k.toLowerCase() + '@') >= 0; })[0];
+                            if (m) selectedImages.push(m);
+                        });
+                    }
+                    while (selectedImages.length < want && pool.length) { selectedImages.push(pool.splice(Math.floor(rng() * pool.length), 1)[0]); }
+                    if (typeof updateSelectedImagesUI === 'function') updateSelectedImagesUI();
+                    // force-load fonts (scrambled-letter tiles are live-measured text → metric jitter → non-repro)
+                    try {
+                        if (document.fonts && document.fonts.load) {
+                            await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                            await document.fonts.ready;
+                        }
+                    } catch (e) {}
+                    var _r = Math.random; Math.random = rng;
+                    try { await generateWorksheet(); } finally { Math.random = _r; }
+                    return window.LCSCatalogExport.exportStorybookExercise(sepOpts(null, true));
+                };
+            }());
             ui.downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas));
             ui.downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas));
 

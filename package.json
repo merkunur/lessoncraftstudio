@@ -1,7 +1,13 @@
 {
   "scripts": {
     "audit:activity-mobile": "node scripts/audit-activity-mobile.js",
-    "audit:activity-pages": "node scripts/audit-activity-pages.js"
+    "audit:activity-pages": "node scripts/audit-activity-pages.js",
+    "games:serve": "node scripts/games/serve.js",
+    "games:sprites": "node scripts/games/build-sprites.js",
+    "games:assets": "node scripts/games/asset-manifest.js",
+    "games:audit": "node scripts/games/audit-game-variety.js && node scripts/games/audit-game-mobile.js && node scripts/games/audit-no-competition.js",
+    "test:storybook": "node scripts/storybook/run-all-sep.js",
+    "test:storybook:baseline": "node scripts/storybook/baseline-sep.js --capture all"
   },
   "dependencies": {
     "adm-zip": "^0.5.17",

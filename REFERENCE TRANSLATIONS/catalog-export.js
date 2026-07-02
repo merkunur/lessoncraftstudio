@@ -2151,7 +2151,8 @@
     });
     return { x: minX, y: minY, w: maxX - minX, h: maxY - minY };
   }
-  function _sepDefaultCrop(bundle, family) {
+  function _sepDefaultCrop(bundle, family, opts) {
+    opts = opts || {};
     var rects = [];
     if (family === 'A') {
       (bundle.slots || []).forEach(function (s) { rects.push(_sepCenterToTopLeft(s.rect)); });
@@ -2165,7 +2166,7 @@
       });
     } else if (family === 'C') {
       if (bundle.gridRect) rects.push(bundle.gridRect);
-      (bundle.inputSlots || []).forEach(function (s) { rects.push(s.rect); });
+      if (!opts.tapOnly) (bundle.inputSlots || []).forEach(function (s) { rects.push(s.rect); });
     }
     return _sepUnionRects(rects);
   }
@@ -2318,7 +2319,10 @@
       }
       var maxCount = 0;
       (bundle.targets || []).forEach(function (t) { maxCount = Math.max(maxCount, t.totalCount || 0); });
-      var countBlanks = (bundle.inputSlots || []).filter(function (s) {
+      // tapOnly (opts.tapOnly via ctx): omit the legend count-blanks — used when the blanks are too
+      // small to clear the SEP density gate at zone scale (find-and-count). Yields a pure tap-to-find
+      // exercise (SEP-C fully supports targets with empty countBlanks). Crop drops inputSlots too.
+      var countBlanks = (ctx && ctx.tapOnly) ? [] : (bundle.inputSlots || []).filter(function (s) {
         return _sepInCrop(s.rect, crop);
       }).map(function (s) {
         var tt = (bundle.targets || []).filter(function (t) { return t.key === s.key; })[0];
@@ -2409,7 +2413,7 @@
     return Promise.resolve(opts.extractBundle(canvas, { loadingMode: 'inline', exerciseMode: opts.exerciseMode }))
       .then(function (bundle) {
         var pageW = bundle.page.width, pageH = bundle.page.height;
-        var defaultCrop = _sepDefaultCrop(bundle, opts.family) || { x: 0, y: 0, w: pageW, h: pageH };
+        var defaultCrop = _sepDefaultCrop(bundle, opts.family, opts) || { x: 0, y: 0, w: pageW, h: pageH };
         var pad = (opts.cropPad != null) ? opts.cropPad : 16;
         defaultCrop = {
           x: Math.max(0, Math.round(defaultCrop.x - pad)),
@@ -2437,7 +2441,7 @@
     var mapper = SEP_FAMILY_MAPPERS[opts.family];
     if (!mapper) return Promise.reject(new Error('SEP: unsupported family ' + opts.family));
     return _sepRenderTransparent(opts.canvas, pageW, pageH, crop).then(function (visual) {
-      var mapped = mapper(bundle, crop, { visual: visual });
+      var mapped = mapper(bundle, crop, { visual: visual, tapOnly: opts.tapOnly });
       var files = {};        /* relative path -> Blob */
       var visualName = 'visual@2x.' + visual.format;
       files[visualName] = _sepDataUrlToBlob(visual.dataUrl);

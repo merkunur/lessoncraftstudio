@@ -4808,6 +4808,7 @@
             // always defined even when init stalls. Direct-seed the theme + call the core
             // generateWorksheet (bypasses the UI theme-dropdown checkThemes wait). Additive: these are
             // headless-only globals; the operator path (the in-flow hook + the buttons) is untouched.
+            var __sbHeadless = (typeof location !== 'undefined') && /[?&]__sbHeadless/.test(location.search || '');
             (function () {
                 function _sbSepOpts(cropRect, returnPackage) {
                     return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
@@ -4838,6 +4839,23 @@
                     } catch (e) {}
                     var _r = Math.random;
                     var _pairsOf = function () { return worksheetCanvas ? worksheetCanvas.getObjects().filter(function (o) { return o.isGeneratedItem && typeof o.originalIndex === 'number' && (o.position === 'left' || o.position === 'right'); }).length : 0; };
+                    // FORCE-LOAD the worksheet web fonts BEFORE generating: matching lays out image+word /
+                    // letter items whose rect widths come from LIVE text measurement. The fonts load from
+                    // Google Fonts with variable network timing → measuring before vs after a lazy font load
+                    // gives fallback-vs-webfont metrics (±10px width jitter → non-reproducible). document.fonts.ready
+                    // alone is insufficient (fonts load lazily on first render); explicitly load + await each family
+                    // so metrics are settled (loaded, or definitively fallback) before measurement → deterministic.
+                    try {
+                        if (document.fonts && document.fonts.load) {
+                            var _ff = ['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'];
+                            await Promise.all(_ff.reduce(function (acc, f) {
+                                acc.push(document.fonts.load('400 24px "' + f + '"').catch(function () {}));
+                                acc.push(document.fonts.load('700 24px "' + f + '"').catch(function () {}));
+                                return acc;
+                            }, []));
+                            await document.fonts.ready;
+                        }
+                    } catch (e) {}
                     try {
                         // Re-seeded retry: the concurrent (hanging) page-load init can occasionally starve
                         // one generate pass; retry (up to 3×) gated on problemsData. A FRESH seed each
@@ -4856,6 +4874,14 @@
                     return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
                 };
             }());
+
+            // Headless (SEP) path: skip the rest of init — loadThemes / BulletproofLoader /
+            // generateInitialWorksheet — so __sepGenerate generates in ISOLATION. Otherwise the init's
+            // own concurrent generateInitialWorksheet consumes the shared seeded Math.random during
+            // __sepGenerate's async gaps → perturbed sequence → different image selection → non-repro.
+            // __sepGenerate direct-seeds its own theme, so none of the skipped init is needed headless.
+            // Operator path (no ?__sbHeadless) runs init fully — untouched.
+            if (__sbHeadless) return;
 
             // Expose active canvas to the Design Elements library.
             Object.defineProperty(window, 'canvas', {

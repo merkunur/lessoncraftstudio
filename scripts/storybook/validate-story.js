@@ -238,7 +238,7 @@ function validateSep(pkg, pageId, zone) {
   let d;
   try { d = JSON.parse(fs.readFileSync(dPath, 'utf8')); } catch (e) { err(`page ${pageId}: SEP descriptor parse: ${e.message}`); return; }
   if (d.formatVersion !== 'sep-1') err(`page ${pageId}: SEP formatVersion "${d.formatVersion}" unsupported`);
-  if (['A', 'F', 'E', 'C'].indexOf(d.family) < 0) err(`page ${pageId}: SEP family "${d.family}" not supported (A, F, E, C)`);
+  if (['A', 'F', 'E', 'C', 'B', 'D'].indexOf(d.family) < 0) err(`page ${pageId}: SEP family "${d.family}" not supported (A, F, E, C, B, D)`);
   const visPath = path.join(dir, (d.visual && d.visual.file) || 'visual@2x.webp');
   if (!fs.existsSync(visPath)) err(`page ${pageId}: SEP visual missing: ${d.visual && d.visual.file}`);
   else if (sharp && d.visual) {
@@ -330,6 +330,35 @@ function validateSep(pkg, pageId, zone) {
         err(`page ${pageId}: SEP countBlanks[${i}] expected ${b.expected} outside numberPalette ${np.min}..${np.max}`);
       }
       if (b.rect) smallest = Math.min(smallest, b.rect.w, b.rect.h);
+    });
+  } else if (d.family === 'B') {
+    const cells = (d.elements && d.elements.cells) || [];
+    const paths = (d.elements && d.elements.paths) || [];
+    if (!cells.length) err(`page ${pageId}: SEP B has no cells`);
+    if (!paths.length) err(`page ${pageId}: SEP B has no paths`);
+    const cIdx = {};
+    cells.forEach((c, i) => {
+      inCrop(c.rect, `cells[${i}]`);
+      cIdx[c.index] = 1;
+      if (c.rect) smallest = Math.min(smallest, c.rect.w, c.rect.h);
+    });
+    paths.forEach((p, i) => {
+      const seq = p.sequence || [];
+      if (seq.length < 2) err(`page ${pageId}: SEP paths[${i}] sequence must have >= 2 cells`);
+      seq.forEach(ci => { if (!cIdx[ci]) err(`page ${pageId}: SEP paths[${i}] cell ${ci} not in cells`); });
+    });
+  } else if (d.family === 'D') {
+    const dims = (d.elements && d.elements.chartDims) || {};
+    const columns = (d.elements && d.elements.columns) || [];
+    if (!columns.length) err(`page ${pageId}: SEP D has no columns`);
+    columns.forEach((col, i) => {
+      if (typeof col.target !== 'number' || col.target < 0 || col.target > (dims.rows || 99)) {
+        err(`page ${pageId}: SEP columns[${i}] target ${col.target} out of 0..${dims.rows}`);
+      }
+      (col.cells || []).forEach((c, j) => {
+        inCrop(c.rect, `columns[${i}].cells[${j}]`);
+        if (c.rect) smallest = Math.min(smallest, c.rect.w, c.rect.h);
+      });
     });
   }
   /* locale coverage per the STORY's shipped locales */

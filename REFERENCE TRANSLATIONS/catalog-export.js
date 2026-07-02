@@ -2178,6 +2178,10 @@
       if (bundle.gridRect) rects.push(bundle.gridRect);
       if (!opts.tapOnly) (bundle.inputSlots || []).forEach(function (s) { rects.push(s.rect); });
       (bundle.choiceOptions || []).forEach(function (o) { if (o.rect) rects.push(o.rect); });
+    } else if (family === 'B') {
+      (bundle.sepCells || []).forEach(function (c) { if (c.rect) rects.push(c.rect); });
+    } else if (family === 'D') {
+      (bundle.chartCells || []).forEach(function (c) { rects.push({ x: c.x, y: c.y, w: c.w, h: c.h }); });
     }
     if (opts._exerciseBBox) rects.push(opts._exerciseBBox);
     return _sepUnionRects(rects);
@@ -2258,7 +2262,8 @@
     }
     var promptDefault = {
       A: 'Spell the word!', F: 'Drag each tile into place!',
-      E: 'Match each pair!', C: 'Find and count!'
+      E: 'Match each pair!', C: 'Find and count!',
+      B: 'Trace the path!', D: 'Fill each bar!'
     }[family] || 'Solve the puzzle!';
     LOCS.forEach(function (loc) {
       out[loc] = {
@@ -2454,6 +2459,58 @@
         family: 'E',
         input: { policy: 'connect' },
         elements: { mode: bundle.mode || 'imgname', leftItems: left.map(strip), rightItems: right.map(strip), pairs: pairs }
+      };
+    },
+
+    /* B — puzzle-drag: trace a path/word across a grid (wordsearch / picture-path /
+       treasure-hunt). Each app's Edit-2 emits a uniform bundle.sepCells (per-cell
+       world TOP-LEFT rects) + bundle.sepPaths (ordered cell-index sequences). The child
+       drags across adjacent cells; check compares the drawn run to a path's sequence
+       (forward, or reversed when reversible). The letters/path are baked into the
+       transparent visual — no reveal assets. */
+    B: function (bundle, crop, ctx) {
+      var cells = (bundle.sepCells || [])
+        .filter(function (c) { return c.rect && _sepInCrop(c.rect, crop); })
+        .map(function (c) { return { index: c.index, row: c.row, col: c.col, rect: _sepRebase(c.rect, crop) }; });
+      var keep = {}; cells.forEach(function (c) { keep[c.index] = true; });
+      var paths = (bundle.sepPaths || [])
+        .filter(function (p) { return (p.sequence || []).every(function (i) { return keep[i]; }); })
+        .map(function (p, i) { return { id: (p.id != null ? p.id : i), sequence: p.sequence.slice(), reversible: !!p.reversible }; });
+      return {
+        family: 'B',
+        input: { policy: 'drag-path' },
+        elements: { gridDims: bundle.gridDims || null, cells: cells, paths: paths }
+      };
+    },
+
+    /* D — bar-chart tap-to-fill (chart-count). Reads the app's already-emitted
+       bundle.chartCells [{row,col,x,y,w,h} world TOP-LEFT] + bundle.targets
+       [{col,totalCount}]; groups cells by column, attaches each column's target bar
+       height. The child taps a cell to fill that column bottom-up to that row. */
+    D: function (bundle, crop, ctx) {
+      var dims = bundle.chartDims || { rows: 5, cols: 6 };
+      var targetByCol = {};
+      (bundle.targets || []).forEach(function (t) { targetByCol[t.col] = t; });
+      var byCol = {};
+      (bundle.chartCells || []).forEach(function (c) {
+        var rect = { x: c.x, y: c.y, w: c.w, h: c.h };
+        if (!_sepInCrop(rect, crop)) return;
+        if (!byCol[c.col]) byCol[c.col] = [];
+        byCol[c.col].push({ index: c.row * dims.cols + c.col, row: c.row, rect: _sepRebase(rect, crop) });
+      });
+      var columns = Object.keys(byCol).map(function (col) {
+        var t = targetByCol[col] || {};
+        return {
+          col: parseInt(col, 10),
+          key: t.key || t.word || String(col),
+          target: (typeof t.totalCount === 'number') ? t.totalCount : 0,
+          cells: byCol[col].sort(function (a, b) { return a.row - b.row; })
+        };
+      }).sort(function (a, b) { return a.col - b.col; });
+      return {
+        family: 'D',
+        input: { policy: 'tap-fill' },
+        elements: { chartDims: dims, columns: columns }
       };
     }
   };

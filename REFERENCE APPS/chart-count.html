@@ -1607,6 +1607,55 @@ document.addEventListener('DOMContentLoaded', function() {
         imageUploadInput.addEventListener('change', handleImageUpload);
 
         exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
+
+        // --- SEP hook — Family D bar-chart. The bundle already emits chartCells + targets +
+        //     chartDims; the D mapper groups them into fillable columns. Tap to fill each bar
+        //     to its count. cropExerciseBBox not needed (D crop = the chart cells). Additive
+        //     headless-only globals; operator/browser path untouched. ---
+        (function () {
+            function _sbSepOpts(cropRect, returnPackage) {
+                return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
+                    exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isChartCell === true; }); },
+                    family: 'D', exerciseMode: null, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+            }
+            var _b = document.getElementById('sepExportBtn');
+            if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
+            window.__sepExport = function (cropRect) { return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(cropRect, true)); };
+            window.__sepGenerate = async function (spec) {
+                spec = spec || {};
+                var loc = spec.locale || 'en';
+                window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
+                var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
+                try {
+                    if (worksheetThemeSelect) {
+                        var _has = Array.prototype.some.call(worksheetThemeSelect.options, function (o) { return o.value === theme; });
+                        if (!_has) { var _o = document.createElement('option'); _o.value = theme; _o.textContent = theme; worksheetThemeSelect.add(_o); }
+                        worksheetThemeSelect.value = theme;
+                    }
+                } catch (e) {}
+                try { selectedImages = []; } catch (e) {}
+                try {
+                    if (document.fonts && document.fonts.load) {
+                        await Promise.all(['Baloo 2', 'Fredoka', 'Nunito', 'Lexend Deca', 'Quicksand'].reduce(function (a, f) { a.push(document.fonts.load('400 24px "' + f + '"').catch(function () {})); a.push(document.fonts.load('700 24px "' + f + '"').catch(function () {})); return a; }, []));
+                        await document.fonts.ready;
+                    }
+                } catch (e) {}
+                var _r = Math.random;
+                try {
+                    for (var _att = 0; _att < 3; _att++) {
+                        Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
+                        try { await handleGenerateWorksheet(); } catch (e) {}
+                        var _ok = false;
+                        for (var _i = 0; _i < 400; _i++) {
+                            if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isChartCell === true; })) { _ok = true; break; }
+                            await new Promise(function (r) { setTimeout(r, 50); });
+                        }
+                        if (_ok) break;
+                    }
+                } finally { Math.random = _r; }
+                return window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, true));
+            };
+        }());
         downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'chart_count_interactive.html', { loadingMode: 'inline' }));
         downloadPdfBtn.addEventListener('click', () => downloadCanvasAsPDF(worksheetCanvas, 'worksheet.pdf'));
         downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadCanvasAsPDF(solutionCanvas, 'answer-key.pdf'));
@@ -2085,6 +2134,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // --- Initial Worksheet Generation ---
     async function generateInitialWorksheet() {
+        // Headless SEP isolation: __sepGenerate drives its own seeded handleGenerateWorksheet();
+        // the auto-run initial generate would race it + consume the seeded Math.random.
+        // Skip under ?__sbHeadless=1 (additive; operator/browser path unaffected).
+        if (/[?&]__sbHeadless=1/.test(location.search)) return;
         try {
             // FIXED: Themes are now properly awaited in initializeApp(), no need for polling
             // Safety check: themes should already be loaded

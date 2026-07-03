@@ -12,5 +12,8 @@
 
   "p03-l01":  { "en": "Follow the whole path!" },
   "p03-hint": { "en": "Down into the valley, then back up the other side." },
-  "p03.word.hill": { "en": "Valley" }
+  "p03.word.hill": { "en": "Valley" },
+
+  "p04-l01":  { "en": "Slide to the star!" },
+  "p04-hint": { "en": "Stay on the path between the walls." }
 }

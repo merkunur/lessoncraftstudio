@@ -1,18 +1,18 @@
 {
   "storyId": "pk-trace",
-  "generatedAt": "2026-07-03T02:59:44.894Z",
-  "pageCount": 3,
-  "totalBytes": 3693,
+  "generatedAt": "2026-07-03T04:07:32.216Z",
+  "pageCount": 4,
+  "totalBytes": 4689,
   "files": [
     {
       "path": "story.json",
-      "bytes": 3086,
-      "sha1": "4d18d942d9998c046b4e1c0f76b2176995089e1b"
+      "bytes": 3972,
+      "sha1": "15a28f8c00faa0e73b303240ce82402c2592a047"
     },
     {
       "path": "strings.json",
-      "bytes": 607,
-      "sha1": "9b9094e87afc910c20b89109d1f323d1fe867281"
+      "bytes": 717,
+      "sha1": "51d483f6fd7e8db878b21cddab9c555bc277cf2b"
     }
   ]
 }

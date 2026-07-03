@@ -419,6 +419,28 @@
         }
       },
       "success": { "celebration": "burst", "holdMs": 1200 }
+    },
+    {
+      "id": "g22",
+      "scene": { "image": "scene.stream" },
+      "characters": [{ "characterId": "pip", "pose": "point", "anchor": { "x": 190, "y": 900 }, "scale": 0.7, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g22-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-maze",
+        "zone": { "x": 200, "y": 240, "w": 1200, "h": 560 },
+        "completionMode": "auto",
+        "hintKey": "g22-hint",
+        "taskData": {
+          "start": { "x": 120, "y": 280 },
+          "end": { "x": 1080, "y": 280 },
+          "walls": [
+            { "x1": 0, "y1": 110, "x2": 1200, "y2": 110 },
+            { "x1": 0, "y1": 450, "x2": 1200, "y2": 450 }
+          ],
+          "solution": [{ "x": 120, "y": 280 }, { "x": 1080, "y": 280 }]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 1400 }
     }
   ]
 }

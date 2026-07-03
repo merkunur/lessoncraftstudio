@@ -54,8 +54,11 @@ async function drivePath(page, gesture, zoneRect, opts) {
   const fail = opts.mode === 'fail';
   const amp = fail ? 1.6 * tolPx : 0.55 * tolPx;
 
-  const screen = dense.map((pt) => {
+  const screen = dense.map((pt, i) => {
     const base = toPx(pt);
+    /* press DOWN cleanly on the exact first point — a drag-follow module (maze) grabs
+       the handle here, and a jittered press would offset the whole drag into a wall. */
+    if (i === 0) return { x: base.x, y: base.y };
     const off = fail ? amp : (rng() * 2 - 1) * amp;         /* perpendicular */
     const jx = (rng() * 2 - 1) * Math.min(4, tolPx * 0.1);  /* small tremor, both axes */
     const jy = (rng() * 2 - 1) * Math.min(4, tolPx * 0.1);

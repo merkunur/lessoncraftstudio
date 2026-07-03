@@ -510,6 +510,28 @@
   /* ================= mechanic picker + form host ================= */
   function openMechanicPicker() {
     openDrawer('Choose an activity', function (body) {
+      /* two tabs: the story-activity modules, and the 29 worksheet makers
+         (designed inside the Studio via the generator bridge — no zips) */
+      var tabs = el('div', 'stu-tabs');
+      var tabStory = el('button', 'stu-tab stu-tab-on', 'Story activities');
+      var tabWs = el('button', 'stu-tab', 'Worksheet activities');
+      tabs.appendChild(tabStory); tabs.appendChild(tabWs);
+      body.appendChild(tabs);
+      var paneStory = el('div');
+      var paneWs = el('div');
+      paneWs.style.display = 'none';
+      body.appendChild(paneStory);
+      body.appendChild(paneWs);
+      function switchTab(ws) {
+        paneStory.style.display = ws ? 'none' : '';
+        paneWs.style.display = ws ? '' : 'none';
+        tabStory.className = 'stu-tab' + (ws ? '' : ' stu-tab-on');
+        tabWs.className = 'stu-tab' + (ws ? ' stu-tab-on' : '');
+      }
+      tabStory.addEventListener('click', function () { switchTab(false); });
+      tabWs.addEventListener('click', function () { switchTab(true); });
+
+      /* ---- tab 1: the interaction modules ---- */
       var groups = {};
       global.SBModules.types().forEach(function (t) {
         var m = global.SBModules.get(t).meta;
@@ -517,7 +539,7 @@
         (groups[stu.group] = groups[stu.group] || []).push({ type: t, meta: m, stu: stu });
       });
       Object.keys(groups).sort().forEach(function (g) {
-        body.appendChild(el('h3', 'stu-h3', g));
+        paneStory.appendChild(el('h3', 'stu-h3', g));
         var row = el('div', 'stu-cards');
         groups[g].forEach(function (entry) {
           var c = el('button', 'stu-card');
@@ -531,9 +553,74 @@
           });
           row.appendChild(c);
         });
-        body.appendChild(row);
+        paneStory.appendChild(row);
       });
+
+      /* ---- tab 2: the worksheet makers (studio-generators.json) ---- */
+      if (global.StudioGeneratorBridge) {
+        global.StudioGeneratorBridge.fetchGenerators().then(function (man) {
+          var loc = S().storyLocale || 'en';
+          var band = S().gradeBand;
+          var groupsDef = man.groups || {};
+          var byGroup = {};
+          (man.apps || []).forEach(function (a) {
+            (byGroup[a.skillGroup] = byGroup[a.skillGroup] || []).push(a);
+          });
+          paneWs.appendChild(el('div', 'stu-note',
+            'Design a worksheet in any maker — it becomes a playable activity on this page.'));
+          Object.keys(byGroup).forEach(function (g) {
+            var gd = groupsDef[g] || {};
+            paneWs.appendChild(el('h3', 'stu-h3',
+              ((gd.icon || '') + ' ' + ((gd[loc] || gd.en) || g)).trim()));
+            var row = el('div', 'stu-cards');
+            var apps = byGroup[g].slice();
+            if (band) {
+              /* soft grade-band recommendation: matching makers sort first */
+              apps.sort(function (a, b) {
+                var am = (a.gradeBands || []).indexOf(band) >= 0 ? 0 : 1;
+                var bm = (b.gradeBands || []).indexOf(band) >= 0 ? 0 : 1;
+                return am - bm;
+              });
+            }
+            apps.forEach(function (a) {
+              var c = el('button', 'stu-card');
+              c.appendChild(el('div', 'stu-card-icon', gd.icon || '📝'));
+              c.appendChild(el('div', 'stu-card-label', (a.title && (a.title[loc] || a.title.en)) || a.id));
+              c.appendChild(el('div', 'stu-card-blurb', (a.blurb && (a.blurb[loc] || a.blurb.en)) || ''));
+              if (band && (a.gradeBands || []).indexOf(band) >= 0) {
+                c.appendChild(el('div', 'stu-card-min stu-card-fit', '★ fits this story\'s grade'));
+              }
+              c.addEventListener('click', function () {
+                closeDrawer();
+                global.StudioGeneratorBridge.open(a, {
+                  onAdded: function (res) { applyWorksheetExercise(res.package); }
+                });
+              });
+              row.appendChild(c);
+            });
+            paneWs.appendChild(row);
+          });
+        }).catch(function () {
+          paneWs.appendChild(el('div', 'stu-empty', 'The worksheet-maker list could not be loaded.'));
+        });
+      } else {
+        paneWs.appendChild(el('div', 'stu-empty', 'The worksheet-maker bridge is not loaded.'));
+      }
     }, true);
+  }
+
+  /* a freshly imported SEP package becomes THE page activity. Worksheet
+     exports are the densest module (a whole generated sheet in one board),
+     so claim the LARGE default zone — the validator's 16px density floor
+     fails full worksheets in the standard minZone-derived box. */
+  function applyWorksheetExercise(pkg) {
+    applyMechanic('sb-worksheet-exercise');
+    mutate('set worksheet exercise', function (draft) {
+      var inter = draft.story.pages[pgIdx()].interaction;
+      if (!inter) return;
+      inter.taskData.package = pkg;
+      inter.zone = { x: 100, y: 110, w: 1400, h: 840 };
+    });
   }
 
   function applyMechanic(type) {
@@ -687,6 +774,14 @@
     head.appendChild(rm);
     box.appendChild(head);
     if (stu && stu.note) box.appendChild(el('div', 'stu-note', stu.note));
+
+    /* a placed worksheet exercise: Replace (from a maker) beats Edit —
+       generators can't round-trip their state, so re-design + re-export */
+    if (inter.moduleType === 'sb-worksheet-exercise' && global.StudioGeneratorBridge) {
+      var rep = el('button', 'stu-btn stu-btn-small', '↻ Replace from a worksheet maker…');
+      rep.addEventListener('click', openMechanicPicker);
+      box.appendChild(rep);
+    }
 
     var commit = function (fn) {
       mutate('edit activity', function (draft) {

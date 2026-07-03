@@ -109,6 +109,8 @@
       S.previewLinkId = j.previewLinkId || null;
       S.storyLocale = j.locale ||
         (j.story && j.story.locales && j.story.locales[0]) || 'en';
+      S.gradeBand = j.gradeBand ||
+        (j.story && j.story.alignment && j.story.alignment.grade) || null;
       S.pageIndex = 0;
       S.selection = null;
       S.undoStack = []; S.redoStack = [];

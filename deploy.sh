@@ -171,31 +171,40 @@ echo "🔧 Generating Prisma client..."
 npx prisma generate || { echo "ERROR: prisma generate failed"; exit 1; }
 echo "✅ Prisma client regenerated"
 
-# 4. Build the application
-# NOTE: Samples are in /var/www/lcs-media/samples/ - completely isolated
-# No symlinks needed - nginx serves samples directly
-# CRITICAL: Remove stale .next/standalone BEFORE building.
-# The postbuild script uses cp -a (preserves symlinks), but if someone reverts
-# to cp -r, it would follow symlinks at public/worksheet-generators and public/admin,
-# copying ~25MB of HTML apps into standalone/public/. Cleaning first is a safety net.
+# 4. Build the application — ZERO-DOWNTIME releases/current model (commission #1, 2026-07-03)
+# The live server serves frontend/releases/current/server.js (symlink → releases/<BUILD_ID>/).
+# It NEVER serves from .next/, so the build can wipe/rewrite .next/ freely while the site
+# stays up — no pm2 stop, no ISR-writer-vs-rm race (ISR cache is written inside the release
+# dir the worker realpathed at spawn, not .next/standalone).
+# One-time migration: server-scripts/migrate-to-releases.sh (guard below enforces it ran).
 echo ""
-echo "🛑 Stopping live server before destructive clean — eliminates the ISR-writer-vs-rm race"
-echo "   (cluster workers write ISR cache into .next/standalone; rm racing them = 'Directory not empty' + set -e abort)."
-echo "   Site is briefly down during the build window; the post-swap pm2 restart relaunches it."
-pm2 stop lessoncraftstudio || true
+if [ ! -L releases/current ]; then
+    echo "FATAL: frontend/releases/current symlink missing — the pm2 process still serves .next/standalone."
+    echo "       Run server-scripts/migrate-to-releases.sh once, then re-run deploy.sh."
+    exit 1
+fi
+
+# Guard: hreflang CJS mirror must match the TS SoT (drift breaks deck hreflang emission)
+echo "🔎 hreflang mirror parity check..."
+node /opt/lessoncraftstudio/scripts/publish-cli/hreflang-codes.test.js || { echo "ERROR: hreflang-codes.js has drifted from frontend/lib/seo/hreflang.ts — fix before deploying"; exit 1; }
+
 echo ""
 echo "🧹 Cleaning stale build output to force full regeneration..."
+echo "   (safe while live: the running server serves releases/current/, not .next/)"
 rm -rf .next/server .next/standalone
-echo "🔨 Building Next.js application..."
+echo "🔨 Building Next.js application (nice -n 10 so the live server keeps CPU)..."
 export BUILD_DATE=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 echo "   BUILD_DATE=${BUILD_DATE}"
-timeout 900 npm run build || { echo "BUILD TIMED OUT after 15 minutes — likely symlink bloat. Aborting."; exit 1; }
+nice -n 10 timeout 900 npm run build || { echo "BUILD TIMED OUT after 15 minutes — likely symlink bloat. Aborting."; exit 1; }
 
-# 4. CRITICAL: Stage new release in separate directory (zero-downtime)
-# The running server continues serving from .next/standalone/ while we prepare
+# 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
+# The running server continues serving from releases/current/ while we prepare
 echo ""
 echo "📂 Staging new release..."
-RELEASE_DIR=".next-release-$(date +%s)"
+NEW_BUILD_ID="$(cat .next/BUILD_ID 2>/dev/null || echo "unknown-$(date +%s)")"
+mkdir -p releases
+RELEASE_DIR="releases/${NEW_BUILD_ID}"
+rm -rf "$RELEASE_DIR"
 cp -a .next/standalone "$RELEASE_DIR"
 echo "   → Copying .next/static to staged release"
 cp -r .next/static "$RELEASE_DIR/.next/static"
@@ -228,18 +237,44 @@ cp .env.production "$RELEASE_DIR/.env.production"
 # NOTE: No symlinks needed! Samples are served directly by nginx from
 # /var/www/lcs-media/samples/ - this deployment CANNOT affect them
 
-# 5. Atomic swap: replace active standalone with new release
-echo ""
-echo "🔄 Swapping to new release..."
-rm -rf .next-old
-mv .next/standalone .next-old 2>/dev/null || true
-mv "$RELEASE_DIR" .next/standalone
-echo "   ✅ Swap complete"
+# 5. Static chunk retention BEFORE the flip: merge previous builds' hashed chunks
+#    into the STAGED release so clients/Cloudflare holding pre-deploy HTML never 404
+#    on old chunk names (§A.14.11; the nginx no-store-on-404 layer stays as backstop).
+#    Done pre-flip so old chunks are servable the instant the symlink swaps. KEEP=5.
+ARCHIVE=".next-static-archive"   # SIBLING of .next/ — survives cleanDistDir; gitignored; never served
+KEEP=5
+STAGED_STATIC="$RELEASE_DIR/.next/static"
+echo "🧩 Static chunk retention (build ${NEW_BUILD_ID}, keep ${KEEP})..."
+mkdir -p "$ARCHIVE"
+rm -rf "${ARCHIVE:?}/${NEW_BUILD_ID}"
+cp -r "$STAGED_STATIC" "$ARCHIVE/$NEW_BUILD_ID"          # snapshot THIS build PRISTINE, before any merge
+RETAINED=0
+for prev in $(ls -1dt "$ARCHIVE"/*/ 2>/dev/null); do
+  prev="${prev%/}"
+  [ "$(basename "$prev")" = "$NEW_BUILD_ID" ] && continue   # never merge self (mtime-tie safe)
+  [ "$RETAINED" -ge "$((KEEP-1))" ] && break
+  cp -rn "$prev/." "$STAGED_STATIC/" 2>/dev/null || true     # -n: current build wins
+  RETAINED=$((RETAINED+1)); echo "   ↩︎ merged previous build $(basename "$prev")"
+done
+for old in $(ls -1dt "$ARCHIVE"/*/ 2>/dev/null | tail -n +$((KEEP+1))); do rm -rf "${old%/}"; done
+echo "   ✅ staged static = current + ${RETAINED} previous build(s)"
 
-# 6. Graceful restart (pm2 restart instead of delete+start to minimize downtime)
+# 6. Atomic flip: releases/current → the new release (symlink+rename, kernel-atomic —
+#    the §15.5 pattern; NOT ln -sfn). Old pm2 workers keep serving the old realpath
+#    until reload replaces them, so there is no window with mismatched files.
 echo ""
-echo "🔄 Restarting PM2 application (graceful)..."
-pm2 restart lessoncraftstudio --update-env --kill-timeout 3000
+echo "🔄 Flipping releases/current → ${NEW_BUILD_ID}..."
+RELEASE_ABS="$(cd "$RELEASE_DIR" && pwd)"
+ln -s "$RELEASE_ABS" releases/current.tmp
+mv -T releases/current.tmp releases/current
+echo "   ✅ Flip complete"
+
+# 6b. Graceful zero-downtime reload: cluster-mode reload starts a new worker (which
+#     realpaths releases/current to the NEW release), waits for it to listen, then
+#     kills the old worker. No stop window.
+echo ""
+echo "🔄 Reloading PM2 application (graceful, zero-downtime)..."
+pm2 reload lessoncraftstudio --update-env --kill-timeout 3000
 pm2 save
 
 # 7. Health check with retry loop
@@ -260,32 +295,22 @@ if [ "$SERVER_UP" = false ]; then
     pm2 status lessoncraftstudio
 fi
 
-# 8. Static chunk retention: keep recent builds' chunks live so pre-deploy HTML
-#    (held by clients/Cloudflare) can still fetch old hashed chunks → no 404.
-#    The atomic swap above deletes the previous .next/static wholesale; without
-#    this, any client holding pre-deploy HTML 404s on now-missing chunk hashes,
-#    which (before the nginx no-store fix) Cloudflare cached and served stale,
-#    breaking page JS (e.g. the sign-in page → "cannot log in"). KEEP=5.
-ARCHIVE=".next-static-archive"   # SIBLING of .next/ — survives next build's cleanDistDir wipe (default true); gitignored; never served
-KEEP=5
-LIVE_STATIC=".next/standalone/.next/static"
-NEW_BUILD_ID="$(cat .next/standalone/.next/BUILD_ID 2>/dev/null || echo "unknown-$(date +%s)")"
-echo "🧩 Static chunk retention (build ${NEW_BUILD_ID}, keep ${KEEP})..."
-mkdir -p "$ARCHIVE"
-rm -rf "${ARCHIVE:?}/${NEW_BUILD_ID}"
-cp -r "$LIVE_STATIC" "$ARCHIVE/$NEW_BUILD_ID"          # snapshot THIS build PRISTINE, before any merge
-RETAINED=0
-for prev in $(ls -1dt "$ARCHIVE"/*/ 2>/dev/null); do
-  prev="${prev%/}"
-  [ "$(basename "$prev")" = "$NEW_BUILD_ID" ] && continue   # never merge self (mtime-tie safe)
-  [ "$RETAINED" -ge "$((KEEP-1))" ] && break
-  cp -rn "$prev/." "$LIVE_STATIC/" 2>/dev/null || true       # -n: current build wins
-  RETAINED=$((RETAINED+1)); echo "   ↩︎ merged previous build $(basename "$prev")"
+# 8. Prune old releases: keep the current release + 2 previous (KEEP_RELEASES=3).
+#    Never deletes the release `current` points at (compared by realpath).
+KEEP_RELEASES=3
+CURRENT_TARGET="$(readlink -f releases/current 2>/dev/null || true)"
+PRUNED=0
+KEPT=0
+for rel in $(ls -1dt releases/*/ 2>/dev/null); do
+  rel="${rel%/}"
+  [ "$(basename "$rel")" = "current" ] && continue
+  if [ "$(readlink -f "$rel")" = "$CURRENT_TARGET" ]; then KEPT=$((KEPT+1)); continue; fi
+  KEPT=$((KEPT+1))
+  if [ "$KEPT" -gt "$KEEP_RELEASES" ]; then rm -rf "$rel"; PRUNED=$((PRUNED+1)); fi
 done
-for old in $(ls -1dt "$ARCHIVE"/*/ 2>/dev/null | tail -n +$((KEEP+1))); do rm -rf "${old%/}"; done
-echo "   ✅ live = current + ${RETAINED} previous build(s)"
+echo "🧹 Release pruning: kept $((KEPT - PRUNED)), pruned ${PRUNED}"
 
-# 8b. Cleanup old release
+# 8b. Cleanup legacy pre-releases-model dirs if still present
 rm -rf .next-old
 
 # 9. Verify application is running

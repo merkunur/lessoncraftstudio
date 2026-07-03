@@ -1,0 +1,18 @@
+{
+  "storyId": "pk-trial",
+  "generatedAt": "2026-07-03T04:46:34.352Z",
+  "pageCount": 3,
+  "totalBytes": 4337,
+  "files": [
+    {
+      "path": "story.json",
+      "bytes": 3921,
+      "sha1": "b1ef114fcc03e4adc34482f4336ea83bb9ec8df0"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 416,
+      "sha1": "504cfd6e904eff215850405f59b9a671ad363728"
+    }
+  ]
+}

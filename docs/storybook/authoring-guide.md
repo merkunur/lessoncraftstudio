@@ -114,6 +114,12 @@ story (`"alignment": { "grade": "PK" }`) to get the pre-school tolerances +
 | moduleType | Thinking type | Modes | minZone (du) | taskData |
 |---|---|---|---|---|
 | `sb-trace` | finger-tracing a path/letter/shape (forgiving band, forward-arc ink, never resets) | auto | 480×360 | `{path:[{x,y} zone-relative ×≥2, total ≥80du], tolDu?(≥PK floor 110), glyph?, word?:'@key'}` |
+| `sb-dot-stamp` | tap-to-stamp dots filling a form (wide snap; stray tap = no-op) | auto | 480×360 | `{dots:[{x,y} ×1-4, ≥180du apart], snapDu?(default 220), stampColor?, subject?:{image,alt:'@key'}}` |
+| `sb-color-code` | tap a legend colour, then the big regions it fills | auto | 560×460 | `{legend:[{key,color}], regions:[{rect:{x,y,w,h≥260du}, correct:legendKey, symbol?}] ×≤4}` |
+| `sb-shape-fit` | drag each big shape into its matching hole (match by shape) | auto | 560×480 | `{slots:[{shape:'circle'\|'square'\|'triangle'\|'star', color, at:{x,y}} ×≤3 distinct], snapDu?}` |
+| `sb-complete-picture` | drag the missing picture tile into its gap | auto | 560×480 | `{cells:[{image,at:{x,y}} ×≥2], missing:[idx…] (distinct images), snapDu?}` |
+| `sb-listen-place` | hear where the object goes, drag it to the spot (audio-first; muted reveals) | auto | 560×480 | `{object:{image,alt:'@key'}, reference?:{image,at:{x,y}}, slots:[{key,at:{x,y}} ×≥2, exactly ONE correct:true]}` |
+| `sb-maze` | drag a token through a wide corridor to the goal (walls soft-stop, never reset) | auto | 640×480 | `{start:{x,y}, end:{x,y}, walls:[{x1,y1,x2,y2} ×≥1], solution:[{x,y} ×≥2 route centreline], corridorWidth?}` |
 
 **Failure model (all PK modules):** progress = the artifact visibly grows;
 miss = a soft wordless-then-narrated redirect (the correct path stays open,

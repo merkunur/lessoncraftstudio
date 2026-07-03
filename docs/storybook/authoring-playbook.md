@@ -158,6 +158,33 @@ Design these OUT. Each maps to a `gate-story.js` (C2) check; a gate failure = fi
 | **Asset-gap** | a referenced pose/scene/word/exercise is missing | asset worklist complete before authoring (see blueprint) | `asset-worklist-complete` |
 | **Standard-overreach** | CCSS code assigned but interaction only *touches* the topic; or a PK activity carries a code | §20.8 "demonstrate not touch"; PK = readiness, no code | `alignment-honesty` |
 
+### 6.1 Pre-school fine-motor traps (the 13 — "the hard part is the fingers")
+
+For PK the tolerance IS the design. Each trap is a way a 3–5-yo finger fails an
+otherwise-fine activity; each countermeasure is built into `sb-bands.js PK` + the
+module + a gate (validator FATAL, or the `qa-storybook.js` imprecise-touch pass).
+
+| # | Trap | What it looks like | Countermeasure (band / module) | Gate |
+|---|---|---|---|---|
+| 1 | **Tap target too small** | a 3-5yo can't land on it | `fatal.minTapTarget ≥200du` (≈70px); CSS inflate to ≥44px | validateTask FATAL (dot-stamp / color-code) |
+| 2 | **Drag handle too small** | piece too small to grab | `fatal.minDragHandle ≥240du` | validateTask FATAL (shape-fit / complete-picture / listen-place) |
+| 3 | **Snap radius too tight** | a near-enough drop/tap doesn't take | wide `nearFitSnapRadius` (220) | qa touch-PASS: wobbly-correct (0.55×tol) must complete |
+| 4 | **Path band too narrow** | a wobbly trace falls off | `fatal.pathBandHalfWidth ≥110du`; forward-arc ink | validateTask FATAL + qa path-PASS |
+| 5 | **Reset on miss** | a wrong move wipes progress → gives up | soft guide-back / drift-home, NEVER reset | qa touch-FAIL: page stays answerable (no dead state) |
+| 6 | **Reset on lift** | a mid-drag finger lift restarts | progress persists across pointerup/cancel | qa touch-PASS runs a mid-drag lift and still completes |
+| 7 | **Too many targets** | cognitive overload | `maxTaps ≤4` / `maxDrags ≤3` | validateTask FATAL |
+| 8 | **All-or-nothing finish** | one missed spot blocks completion | `coverageCompletionThreshold ≤0.75` (a missed spot still finishes) | module completion math |
+| 9 | **Text-only prompt** | a non-reader can't even start | audio narration REQUIRED per page | gate-story PK narration present |
+| 10 | **Colour-only encoding** | meaning carried only by colour | never encode by colour alone (shape/position/label too) | design rule (author check) |
+| 11 | **Motion carries the info** | reduced-motion child misses it | motion decorative only; static fallback declared | qa reduced-motion pass |
+| 12 | **Muted lockout** | an audio-first task is unsolvable muted | audio-equity: muted OR ≥2 misses reveals the visual tell (`SBKit.equity`) | qa runs with `sound=off` and still passes |
+| 13 | **Corridor/gap too tight** | the token can't fit through the maze | `fatal.mazeCorridorWidth ≥300du` sampled along the WHOLE route | validateTask FATAL (sb-maze) |
+
+Feedback vocabulary (all PK modules): **progress** = the artifact visibly grows ·
+**miss** = a soft wordless-then-narrated redirect, correct path stays open, never
+resets · **success** = warm chime + settle-once (reduced-motion: final state +
+audio only).
+
 ## 7. The one-page authoring loop (what you actually do)
 
 1. Choose grade + teaching point (from the **curriculum ledger**, a `status:"open"` slot).

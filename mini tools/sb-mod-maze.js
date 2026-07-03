@@ -52,7 +52,7 @@
           walls: [{ x1: 460, y1: 0, x2: 460, y2: 400 }],
           solution: [{ x: 160, y: 520 }, { x: 160, y: 240 }, { x: 1120, y: 240 }]
         },
-        drawables: [{ kind: 'maze', bind: 'walls', authorable: 'data', addLabel: 'Draw the walls' }],
+        drawables: [{ kind: 'maze', bind: 'walls', authorable: 'studio', addLabel: 'Draw the walls' }],
         fields: []
       }
     },

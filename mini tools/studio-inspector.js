@@ -627,9 +627,19 @@
               });
             }
           });
+        } else if (dr.kind === 'path') {
+          global.StudioCanvas.startPlacePath(dr);
+        } else if (dr.kind === 'maze') {
+          global.StudioCanvas.startPlaceMaze(dr);
         } else global.StudioCanvas.startPlacePoint(dr);
       });
       box.appendChild(b);
+      /* path/maze are multi-click — offer an explicit Finish (also Enter / double-click) */
+      if (dr.kind === 'path' || dr.kind === 'maze') {
+        var fin = el('button', 'stu-btn', (dr.kind === 'path' ? 'Finish path' : 'Done drawing walls') + ' (or press Enter)');
+        fin.addEventListener('click', function () { global.StudioCanvas.finishPlace(); });
+        box.appendChild(fin);
+      }
     });
 
     /* advanced JSON + inline validation */

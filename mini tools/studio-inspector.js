@@ -1145,6 +1145,30 @@
        function is a swap callback; otherwise this is the Add flow (place on the canvas). */
     var pick = (typeof onPick === 'function') ? onPick : null;
     openDrawer(pick ? 'Change to which character?' : 'Add a character', function (body) {
+      if (!pick) {
+        /* upload YOUR OWN character (an image → a one-pose character) */
+        var upBtn = el('button', 'stu-btn', '⬆ Upload a character (image)');
+        var upInp = el('input'); upInp.type = 'file'; upInp.accept = 'image/*'; upInp.style.display = 'none';
+        upBtn.addEventListener('click', function () {
+          var nm = prompt('Name this character (e.g. bunny):', '');
+          if (nm === null) return;
+          upInp._name = nm; upInp.click();
+        });
+        upInp.addEventListener('change', function () {
+          var file = upInp.files && upInp.files[0]; if (!file) return;
+          upBtn.textContent = 'Uploading ' + file.name + '…';
+          file.arrayBuffer().then(function (arrbuf) {
+            return fetch('/studio/import-character/' + S().id + '?name=' + encodeURIComponent(upInp._name || file.name), { method: 'POST', headers: { 'Content-Type': 'application/octet-stream' }, body: arrbuf })
+              .then(function (r) { return r.json().then(function (j) { j.__status = r.status; return j; }); });
+          }).then(function (j) {
+            if (j.__status !== 200 || !j.characterId) { upBtn.textContent = '✗ ' + (j.error || 'upload failed'); return; }
+            closeDrawer();
+            addCharacterHere({ characterId: j.characterId, atlasBase: j.atlasBase, poses: j.poses || ['neutral'] });
+          }).catch(function () { upBtn.textContent = '✗ couldn\'t reach the Studio server'; });
+        });
+        body.appendChild(upBtn); body.appendChild(upInp);
+        body.appendChild(el('div', 'stu-note', 'or tap a ready-made character below:'));
+      }
       global.Studio.api('/studio/cast').then(function (j) {
         var row = el('div', 'stu-cards');
         (j.cast || []).forEach(function (c) {

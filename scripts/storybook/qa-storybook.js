@@ -22,7 +22,8 @@ const fs = require('fs');
 const path = require('path');
 const http = require('http');
 const puppeteer = require('puppeteer');
-const { drivePath } = require('./lib/touch-driver.js');
+const { driveGesture } = require('./lib/touch-driver.js');
+const TOUCH_KINDS = ['path', 'taps', 'drops'];
 
 const REPO = path.join(__dirname, '..', '..');
 const MINI = path.join(REPO, 'mini tools');
@@ -214,7 +215,7 @@ async function runTouchPass(browser, port, mode) {
     } catch (e) { failures.push(`[${label}] page ${i + 1}: never mounted its interaction host`); break; }
 
     const gesture = await page.evaluate('window.SB_PLAYER.qaGesture ? window.SB_PLAYER.qaGesture() : null');
-    if (!gesture || gesture.kind !== 'path') {
+    if (!gesture || TOUCH_KINDS.indexOf(gesture.kind) < 0) {
       /* non-touch page — advance so the traversal reaches the touch pages */
       const solved = await page.evaluate('window.SB_PLAYER.solve()');
       if (!solved) { failures.push(`[${label}] page ${i + 1}: could not advance a non-touch page`); break; }
@@ -230,7 +231,7 @@ async function runTouchPass(browser, port, mode) {
     const zoneRect = await page.evaluate(() => { const z = document.querySelector('.sb-zone'); if (!z) return null; const r = z.getBoundingClientRect(); return { left: r.left, top: r.top, width: r.width, height: r.height }; });
     if (!zoneRect) { failures.push(`[${label}] page ${i + 1}: no .sb-zone to drive`); break; }
 
-    await drivePath(page, gesture, zoneRect, { mode, seed: 7 + i, lift: mode === 'pass' });
+    await driveGesture(page, gesture, zoneRect, { mode, seed: 7 + i, lift: mode === 'pass' });
 
     if (mode === 'pass') {
       try {

@@ -77,4 +77,67 @@ async function drivePath(page, gesture, zoneRect, opts) {
   await page.mouse.up();
 }
 
-module.exports = { drivePath };
+/* centroid of a point list (in du) — fail-misses are pushed radially OUTWARD from
+   it so they land in the empty margin, never on a neighbouring target/slot */
+function centroid(pts) {
+  let x = 0, y = 0; for (const p of pts) { x += p.x; y += p.y; } return { x: x / pts.length, y: y / pts.length };
+}
+function outwardUnit(p, c) { let dx = p.x - c.x, dy = p.y - c.y; const L = Math.hypot(dx, dy) || 1; return { x: dx / L, y: dy / L }; }
+
+/* gesture.kind==='taps' — tap each target in order with a scattered finger.
+   pass → scatter within 0.5*tol (lands on-target); fail → 1.6*tol OUTWARD (clean miss). */
+async function driveTaps(page, gesture, zoneRect, opts) {
+  const { pointsDu, tol, zone } = gesture;
+  const sx = zoneRect.width / zone.w, sy = zoneRect.height / zone.h, tolPx = tol * sx;
+  const rng = lcg(opts.seed || 7); const fail = opts.mode === 'fail';
+  const c = centroid(pointsDu);
+  for (const p of pointsDu) {
+    const bx = zoneRect.left + p.x * sx, by = zoneRect.top + p.y * sy;
+    let x, y;
+    if (fail) { const u = outwardUnit(p, c); x = bx + u.x * 1.6 * tolPx; y = by + u.y * 1.6 * tolPx; }
+    else { const ang = rng() * Math.PI * 2, rad = rng() * 0.5 * tolPx; x = bx + Math.cos(ang) * rad; y = by + Math.sin(ang) * rad; }
+    await page.mouse.move(x, y);
+    await page.mouse.down();
+    await new Promise(r => setTimeout(r, 60));               /* dwell — a slow finger */
+    await page.mouse.up();
+    await new Promise(r => setTimeout(r, 120));
+  }
+}
+
+/* gesture.kind==='drops' — drag each piece from→to with a wobbly path.
+   pass → released within 0.5*tol of the goal; fail → released 1.6*tol away (won't snap). */
+async function driveDrops(page, gesture, zoneRect, opts) {
+  const { pairs, tol, zone } = gesture;
+  const sx = zoneRect.width / zone.w, sy = zoneRect.height / zone.h, tolPx = tol * sx;
+  const rng = lcg(opts.seed || 7); const fail = opts.mode === 'fail';
+  const c = centroid(pairs.map(pr => pr.to));
+  for (const pr of pairs) {
+    const fx = zoneRect.left + pr.from.x * sx, fy = zoneRect.top + pr.from.y * sy;
+    const gx = zoneRect.left + pr.to.x * sx, gy = zoneRect.top + pr.to.y * sy;
+    let tx, ty;
+    if (fail) { const u = outwardUnit(pr.to, c); tx = gx + u.x * 1.6 * tolPx; ty = gy + u.y * 1.6 * tolPx; }
+    else { const ang = rng() * Math.PI * 2, rad = rng() * 0.5 * tolPx; tx = gx + Math.cos(ang) * rad; ty = gy + Math.sin(ang) * rad; }
+    await page.mouse.move(fx, fy);
+    await page.mouse.down();
+    const N = 12;
+    for (let i = 1; i <= N; i++) {
+      const t = i / N;
+      const jx = (rng() * 2 - 1) * Math.min(4, tolPx * 0.1);
+      const jy = (rng() * 2 - 1) * Math.min(4, tolPx * 0.1);
+      await page.mouse.move(fx + (tx - fx) * t + jx, fy + (ty - fy) * t + jy, { steps: 2 });
+    }
+    await page.mouse.up();
+    await new Promise(r => setTimeout(r, 160));
+  }
+}
+
+/* generic dispatch — the QA harness calls this; each module's qaGesture() names its kind */
+async function driveGesture(page, gesture, zoneRect, opts) {
+  if (!gesture) return;
+  if (gesture.kind === 'path') return drivePath(page, gesture, zoneRect, opts);
+  if (gesture.kind === 'taps') return driveTaps(page, gesture, zoneRect, opts);
+  if (gesture.kind === 'drops') return driveDrops(page, gesture, zoneRect, opts);
+  throw new Error('touch-driver: unknown gesture kind ' + gesture.kind);
+}
+
+module.exports = { drivePath, driveTaps, driveDrops, driveGesture };

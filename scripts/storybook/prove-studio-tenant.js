@@ -51,16 +51,24 @@ async function j(method, path, { token, body, raw, form } = {}) {
 }
 
 (async () => {
-  if (!EMAIL || !PASSWORD) {
-    console.error('Set LCS_TEST_EMAIL + LCS_TEST_PASSWORD (a subscriber or admin account).');
+  /* LCS_TEST_TOKEN: a pre-minted Bearer token (server-side session mint) —
+     skips the password signin, for environments where no test password
+     exists. Otherwise LCS_TEST_EMAIL + LCS_TEST_PASSWORD sign in normally. */
+  let token = process.env.LCS_TEST_TOKEN || null;
+  if (!token && (!EMAIL || !PASSWORD)) {
+    console.error('Set LCS_TEST_TOKEN, or LCS_TEST_EMAIL + LCS_TEST_PASSWORD (a subscriber or admin account).');
     process.exit(2);
   }
 
   /* ---- 0. sign in ---- */
-  const login = await j('POST', '/api/auth/signin', { body: { email: EMAIL, password: PASSWORD } });
-  const token = login.data && login.data.accessToken;
-  check('signin yields accessToken', !!token, 'status ' + login.status);
-  if (!token) return finish();
+  if (!token) {
+    const login = await j('POST', '/api/auth/signin', { body: { email: EMAIL, password: PASSWORD } });
+    token = login.data && login.data.accessToken;
+    check('signin yields accessToken', !!token, 'status ' + login.status);
+    if (!token) return finish();
+  } else {
+    check('using pre-minted LCS_TEST_TOKEN', true);
+  }
 
   const ping = await j('GET', '/api/studio/ping', { token });
   check('studio ping (auth + tier)', ping.status === 200 && ping.data && ping.data.tenant === true,
@@ -160,6 +168,10 @@ async function j(method, path, { token, body, raw, form } = {}) {
     const sLink = shareMake.data.share.linkId;
     const sPlay = await j('GET', '/api/play/' + sLink + '/story.json', {});
     check('share link plays accountless', sPlay.status === 200);
+    const qr = await j('GET', '/api/play/' + sLink + '/qr.png', {});
+    check('QR image serves accountless PNG', qr.status === 200 &&
+      (qr.headers.get('content-type') || '') === 'image/png' &&
+      qr.data && qr.data.byteLength > 300, 'status ' + qr.status);
     const shareGet = await j('GET', '/api/studio/stories/' + sid + '/share', { token });
     check('share GET returns the live link', shareGet.status === 200 && shareGet.data.share && shareGet.data.share.linkId === sLink);
     const rot = await j('POST', '/api/studio/stories/' + sid + '/share', { token });

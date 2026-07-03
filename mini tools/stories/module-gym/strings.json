@@ -49,5 +49,7 @@
   "g20-hint": { "en": "The dog belongs in the empty gap." },
   "g21-l01":  { "en": "Put the cat under the table!" },
   "g21-hint": { "en": "Drag the cat to the spot below the table." },
-  "g21.obj.cat": { "en": "Cat" }
+  "g21.obj.cat": { "en": "Cat" },
+  "g22-l01":  { "en": "Slide the dot along the path to the goal!" },
+  "g22-hint": { "en": "Keep the dot between the walls all the way across." }
 }

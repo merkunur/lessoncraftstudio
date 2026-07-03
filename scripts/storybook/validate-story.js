@@ -65,7 +65,7 @@ function loadModulesSandbox() {
     'sb-mod-sequence.js', 'sb-mod-pattern.js', 'sb-mod-memory.js', 'sb-mod-listen.js',
     'sb-mod-connect-dots.js', 'sb-mod-spot-diff.js', 'sb-mod-count-tap.js',
     'sb-preschool-kit.js', 'sb-mod-trace.js', 'sb-mod-dot-stamp.js', 'sb-mod-color-code.js', 'sb-mod-shape-fit.js',
-    'sb-mod-complete-picture.js', 'sb-mod-listen-place.js'];
+    'sb-mod-complete-picture.js', 'sb-mod-listen-place.js', 'sb-mod-maze.js'];
   for (const f of files) {
     const p = path.join(MINI, f);
     if (!fs.existsSync(p)) { err(`module file missing: mini tools/${f}`); continue; }

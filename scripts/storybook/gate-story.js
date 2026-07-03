@@ -58,6 +58,10 @@ const FORBIDDEN = [
 const NON_QUANTITY_KEYS = new Set([
   'seed', 'x', 'y', 'w', 'h', 'rect', 'cols', 'rows', 'index', 'scale', 'angle',
   'pauseAfterMs', 'holdMs', 'minute', 'minuteStep', 'hour', 'version', 'cut', 'n',
+  /* pre-school spatial modules — geometry endpoints, tolerance/size config, and
+     picture labels are NOT child-facing quantities (sb-maze/trace/shape-fit/…). */
+  'x1', 'y1', 'x2', 'y2', 'snapDu', 'tolDu', 'corridorWidth', 'pathBandHalfWidth',
+  'missing', 'symbol', 'glyph',
 ]);
 
 function readJson(p) { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch (e) { return null; } }

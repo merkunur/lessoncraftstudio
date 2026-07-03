@@ -2,5 +2,11 @@
   "sunny-meadow": { "name": { "en": "Sunny meadow", "de": "Sonnige Wiese" }, "theme": "outdoors" },
   "picnic-blanket": { "name": { "en": "Picnic blanket", "de": "Picknickdecke" }, "theme": "outdoors" },
   "lakeside": { "name": { "en": "Lakeside", "de": "Am See" }, "theme": "outdoors" },
-  "sunset-hill": { "name": { "en": "Sunset hill", "de": "Hügel im Abendrot" }, "theme": "outdoors" }
+  "sunset-hill": { "name": { "en": "Sunset hill", "de": "Hügel im Abendrot" }, "theme": "outdoors" },
+  "classroom": { "name": { "en": "Classroom", "de": "Klassenzimmer" }, "theme": "school" },
+  "forest-path": { "name": { "en": "Forest path", "de": "Waldweg" }, "theme": "outdoors" },
+  "beach": { "name": { "en": "Beach", "de": "Strand" }, "theme": "outdoors" },
+  "night-sky": { "name": { "en": "Night sky", "de": "Sternenhimmel" }, "theme": "night" },
+  "winter-hill": { "name": { "en": "Winter hill", "de": "Winterhügel" }, "theme": "winter" },
+  "farm": { "name": { "en": "Farm", "de": "Bauernhof" }, "theme": "outdoors" }
 }

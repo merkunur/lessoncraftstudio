@@ -1,6 +1,6 @@
 {
   "schemaVersion": "sblib-1",
-  "generatedAt": "2026-07-03T21:35:37.129Z",
+  "generatedAt": "2026-07-03T22:19:50.894Z",
   "characters": [
     {
       "id": "pip",
@@ -28,6 +28,62 @@
   ],
   "backgrounds": [
     {
+      "id": "beach",
+      "name": {
+        "en": "Beach",
+        "de": "Strand"
+      },
+      "theme": "outdoors",
+      "src": "/mini-tools/storybook-library/backgrounds/beach@2x.webp",
+      "thumb": "/mini-tools/storybook-library/backgrounds/thumbs/beach.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "classroom",
+      "name": {
+        "en": "Classroom",
+        "de": "Klassenzimmer"
+      },
+      "theme": "school",
+      "src": "/mini-tools/storybook-library/backgrounds/classroom@2x.webp",
+      "thumb": "/mini-tools/storybook-library/backgrounds/thumbs/classroom.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "farm",
+      "name": {
+        "en": "Farm",
+        "de": "Bauernhof"
+      },
+      "theme": "outdoors",
+      "src": "/mini-tools/storybook-library/backgrounds/farm@2x.webp",
+      "thumb": "/mini-tools/storybook-library/backgrounds/thumbs/farm.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "forest-path",
+      "name": {
+        "en": "Forest path",
+        "de": "Waldweg"
+      },
+      "theme": "outdoors",
+      "src": "/mini-tools/storybook-library/backgrounds/forest-path@2x.webp",
+      "thumb": "/mini-tools/storybook-library/backgrounds/thumbs/forest-path.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
       "id": "lakeside",
       "name": {
         "en": "Lakeside",
@@ -36,6 +92,20 @@
       "theme": "outdoors",
       "src": "/mini-tools/storybook-library/backgrounds/lakeside@2x.webp",
       "thumb": "/mini-tools/storybook-library/backgrounds/thumbs/lakeside.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "night-sky",
+      "name": {
+        "en": "Night sky",
+        "de": "Sternenhimmel"
+      },
+      "theme": "night",
+      "src": "/mini-tools/storybook-library/backgrounds/night-sky@2x.webp",
+      "thumb": "/mini-tools/storybook-library/backgrounds/thumbs/night-sky.webp",
       "size": {
         "w": 1600,
         "h": 1000
@@ -78,6 +148,20 @@
       "theme": "outdoors",
       "src": "/mini-tools/storybook-library/backgrounds/sunset-hill@2x.webp",
       "thumb": "/mini-tools/storybook-library/backgrounds/thumbs/sunset-hill.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "winter-hill",
+      "name": {
+        "en": "Winter hill",
+        "de": "Winterhügel"
+      },
+      "theme": "winter",
+      "src": "/mini-tools/storybook-library/backgrounds/winter-hill@2x.webp",
+      "thumb": "/mini-tools/storybook-library/backgrounds/thumbs/winter-hill.webp",
       "size": {
         "w": 1600,
         "h": 1000

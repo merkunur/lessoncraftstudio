@@ -7,6 +7,9 @@
 <title>Storybook Studio — LessonCraftStudio</title>
 <style>
   :root { --teal:#146B5E; --coral:#F2784B; --cream:#FBF3E4; --ink:#2b241d; }
+  /* Direction A display type (Baloo 2 headings + Nunito body) */
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&display=swap');
+  .stu-h2, .stu-h3, .stu-drawer-title, .stu-launcher h1, .stu-genname { font-family:"Baloo 2","Nunito","Segoe UI",system-ui,sans-serif; }
   * { box-sizing: border-box; }
   html, body { margin:0; height:100%; font-family:"Nunito","Segoe UI",system-ui,sans-serif; color:var(--ink); background:#efe7d8; }
   #stu-banner { display:none; background:#7A3016; color:#fff; padding:14px 18px; font-weight:700; }
@@ -164,6 +167,13 @@
   .stu-tab { padding:7px 14px; border:2px solid #d8cdb6; border-radius:999px; background:#fff; font-weight:700; color:#6b6154; cursor:pointer; }
   .stu-tab-on { background:var(--teal); border-color:var(--teal); color:#fff; }
   .stu-card-fit { color:var(--coral); font-weight:800; }
+  /* ---- first-run tour (studio-tour.js, teacher mode) ---- */
+  .stu-tour-scrim { position:fixed; inset:0; z-index:100001; background:rgba(30,26,18,.35); }
+  .stu-tour-bubble { position:fixed; z-index:100002; width:320px; background:#fff; border:3px solid var(--teal); border-radius:14px; padding:14px 16px; box-shadow:0 14px 40px rgba(0,0,0,.3); }
+  .stu-tour-bubble h4 { margin:0 0 6px; color:var(--teal); font-family:"Baloo 2","Nunito",sans-serif; font-size:16px; }
+  .stu-tour-bubble p { margin:0 0 12px; font-size:13.5px; line-height:1.45; color:#4c443a; }
+  .stu-tour-row { display:flex; justify-content:flex-end; gap:8px; }
+  .stu-tour-count { position:absolute; left:14px; bottom:12px; font-size:11.5px; color:#a99e8c; font-weight:700; }
 </style>
 </head>
 <body>
@@ -210,6 +220,7 @@
 <script src="/mini-tools/studio-core.js?v=2"></script>
 <script src="/mini-tools/studio-canvas.js?v=1"></script>
 <script src="/mini-tools/studio-generator-bridge.js?v=1"></script>
+<script src="/mini-tools/studio-tour.js?v=1"></script>
 <script src="/mini-tools/studio-inspector.js?v=2"></script>
 <script>
   (function () {

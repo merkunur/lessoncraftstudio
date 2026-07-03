@@ -50,6 +50,24 @@
     drawer = null;
   }
 
+  /* ================= teacher mode =================
+     TEACHER (== tenant mode, ?mode=teacher) hides operator-only affordances
+     (raw JSON, zip uploads, cross-story pools, tech copy) and swaps chrome
+     to teacher language. T(en, de) picks German for German-authoring
+     teachers; the full 11-locale chrome extraction is a fast-follow. */
+  var TEACHER = false;
+  try { TEACHER = new URLSearchParams(global.location.search).get('mode') === 'teacher'; } catch (e) {}
+  function T(en, de) {
+    return (TEACHER && (global.Studio.state.storyLocale === 'de') && de) ? de : en;
+  }
+  /* minZone → a teacher-readable size word (du² thresholds) */
+  function sizeWord(minZone) {
+    var a = (minZone.w || 0) * (minZone.h || 0);
+    if (a <= 700 * 560) return T('small', 'klein');
+    if (a <= 1000 * 720) return T('medium', 'mittelgroß');
+    return T('large', 'groß');
+  }
+
   /* ================= library picker ================= */
   var _lib = null;
   function openLibrary(onPick) {
@@ -167,6 +185,13 @@
   /* Renders meta.studio.fields for taskData; commits via one mutate per change. */
   function renderFields(host, fields, getObj, commit, opts) {
     fields.forEach(function (f) {
+      /* teacher mode: no zip uploads, no cross-story exercise pool, no raw
+         JSON — worksheet exercises come from the in-studio generator bridge */
+      if (TEACHER) {
+        if (f.kind === 'json') return;
+        if (f.kind === 'upload' && /zip/i.test(f.accept || '')) return;
+        if (typeof f.from === 'string' && f.from.indexOf('endpoint:/studio/exercises') === 0) return;
+      }
       if (f.showIf) {
         var cur = getObj();
         for (var k in f.showIf) if (cur[k] !== f.showIf[k]) return;
@@ -546,7 +571,9 @@
           c.appendChild(el('div', 'stu-card-icon', entry.stu.icon || '⬜'));
           c.appendChild(el('div', 'stu-card-label', entry.stu.label));
           c.appendChild(el('div', 'stu-card-blurb', entry.stu.blurb));
-          c.appendChild(el('div', 'stu-card-min', 'needs space: ' + entry.meta.minZone.w + '×' + entry.meta.minZone.h));
+          c.appendChild(el('div', 'stu-card-min', TEACHER
+            ? T('Needs a ' + sizeWord(entry.meta.minZone) + ' area', 'Braucht einen ' + sizeWord(entry.meta.minZone) + 'en Bereich')
+            : 'needs space: ' + entry.meta.minZone.w + '×' + entry.meta.minZone.h));
           c.addEventListener('click', function () {
             closeDrawer();
             applyMechanic(entry.type);
@@ -657,29 +684,44 @@
     p.appendChild(el('h2', 'stu-h2', 'Page ' + (pgIdx() + 1)));
     p.appendChild(checklist(pg));
 
+    /* THE PAGE RECIPE — picture → characters → story lines → activity →
+       hint & cheer (story first, task second: the order teachers think in).
+       Teacher mode numbers the steps. */
+    var stepNo = 0;
+    var step = function (title, de) {
+      stepNo++;
+      return TEACHER ? (stepNo + ' · ' + T(title, de)) : title;
+    };
+
     /* picture */
-    section(p, 'Picture', function (box) {
-      var btn = el('button', 'stu-btn', pg.scene && pg.scene.image ? 'Change the picture' : 'Pick a picture');
+    section(p, step('Picture', 'Bild'), function (box) {
+      var btn = el('button', 'stu-btn', pg.scene && pg.scene.image
+        ? T('Change the picture', 'Bild ändern') : T('Pick a picture', 'Bild auswählen'));
       btn.addEventListener('click', openScenePicker);
       box.appendChild(btn);
     });
 
     /* characters */
-    section(p, 'Characters', function (box) {
+    section(p, step('Characters', 'Figuren'), function (box) {
       (pg.characters || []).forEach(function (pl, i) {
         var chip = el('button', 'stu-chip stu-chip-btn', pl.characterId + ' · ' + pl.pose);
         chip.addEventListener('click', function () { global.StudioCanvas.select({ kind: 'character', index: i }); });
         box.appendChild(chip);
       });
-      var add = el('button', 'stu-btn', '+ Add a character');
+      var add = el('button', 'stu-btn', T('+ Add a character', '+ Figur hinzufügen'));
       add.addEventListener('click', function () { openCastPicker(); });
       box.appendChild(add);
     });
 
+    /* story lines */
+    section(p, step('Story lines (what ' + guideName() + ' says)', 'Erzähltext (was ' + guideName() + ' sagt)'), function (box) {
+      renderNarration(box, pg);
+    });
+
     /* activity */
-    section(p, 'Activity', function (box) {
+    section(p, step('Activity', 'Aufgabe'), function (box) {
       if (!pg.interaction) {
-        var b = el('button', 'stu-btn stu-btn-primary', 'Choose an activity');
+        var b = el('button', 'stu-btn stu-btn-primary', T('Choose an activity', 'Aufgabe auswählen'));
         b.addEventListener('click', openMechanicPicker);
         box.appendChild(b);
         return;
@@ -687,13 +729,8 @@
       renderMechanicForm(box, pg.interaction);
     });
 
-    /* story lines */
-    section(p, 'Story lines (what ' + guideName() + ' says)', function (box) {
-      renderNarration(box, pg);
-    });
-
     /* hint + cheer */
-    section(p, 'Hint & cheer', function (box) {
+    section(p, step('Hint & cheer', 'Tipp & Lob'), function (box) {
       box.appendChild(labeledStringBox('Hint — when the child is stuck',
         pg.interaction && pg.interaction.hintKey,
         function (draft, key) { draft.story.pages[pgIdx()].interaction.hintKey = key; },
@@ -718,7 +755,7 @@
     });
 
     /* tidy up */
-    var unused = global.Studio.unusedKeys();
+    var unused = TEACHER ? [] : global.Studio.unusedKeys();
     if (unused.length) {
       section(p, 'Tidy up', function (box) {
         box.appendChild(el('div', 'stu-note', unused.length + ' unused line(s) of text are kept safe. Remove them when you are sure.'));
@@ -844,22 +881,24 @@
       }
     });
 
-    /* advanced JSON + inline validation */
-    var adv = el('details', 'stu-adv');
-    adv.appendChild(el('summary', null, 'Advanced (raw settings)'));
-    var ta = el('textarea', 'stu-json');
-    ta.value = JSON.stringify(getTd(), null, 2);
-    var apply = el('button', 'stu-btn stu-btn-small', 'Apply');
-    apply.addEventListener('click', function () {
-      try {
-        var parsed = JSON.parse(ta.value);
-        mutate('edit activity (advanced)', function (draft) {
-          draft.story.pages[pgIdx()].interaction.taskData = parsed;
-        });
-      } catch (e) { alert('That is not valid JSON yet: ' + e.message); }
-    });
-    adv.appendChild(ta); adv.appendChild(apply);
-    box.appendChild(adv);
+    /* advanced JSON + inline validation (operator-only) */
+    if (!TEACHER) {
+      var adv = el('details', 'stu-adv');
+      adv.appendChild(el('summary', null, 'Advanced (raw settings)'));
+      var ta = el('textarea', 'stu-json');
+      ta.value = JSON.stringify(getTd(), null, 2);
+      var apply = el('button', 'stu-btn stu-btn-small', 'Apply');
+      apply.addEventListener('click', function () {
+        try {
+          var parsed = JSON.parse(ta.value);
+          mutate('edit activity (advanced)', function (draft) {
+            draft.story.pages[pgIdx()].interaction.taskData = parsed;
+          });
+        } catch (e) { alert('That is not valid JSON yet: ' + e.message); }
+      });
+      adv.appendChild(ta); adv.appendChild(apply);
+      box.appendChild(adv);
+    }
 
     var errs = global.Studio.validateInteraction(inter);
     if (errs.length) {
@@ -1221,9 +1260,26 @@
       });
       row.appendChild(txt);
       var meta = el('div', 'stu-cue-meta');
-      var dot = el('span', 'stu-audiodot' + (S().audioHave[(S().storyLocale || 'en') + '/' + cue.id] ? ' stu-have' : ''),
-        S().audioHave['en/' + cue.id] ? '● recorded' : '○ no recording yet (fine for testing)');
-      meta.appendChild(dot);
+      /* ▶ hear the line the way students will (the player's TTS voice) */
+      var say = el('button', 'stu-btn stu-btn-small', '▶ ' + T('Hear it', 'Anhören'));
+      say.title = T('Students hear these lines read aloud automatically.',
+        'Ihre Schüler hören diese Zeilen automatisch vorgelesen.');
+      say.addEventListener('click', function () {
+        try {
+          global.speechSynthesis.cancel();
+          var u2 = new SpeechSynthesisUtterance(global.Studio.str(cue.id));
+          u2.lang = S().storyLocale || 'en';
+          u2.rate = 0.95;
+          global.speechSynthesis.speak(u2);
+        } catch (e) {}
+      });
+      meta.appendChild(say);
+      /* recording state: operator concern — teacher stories are TTS-first */
+      if (!TEACHER) {
+        var dot = el('span', 'stu-audiodot' + (S().audioHave[(S().storyLocale || 'en') + '/' + cue.id] ? ' stu-have' : ''),
+          S().audioHave[(S().storyLocale || 'en') + '/' + cue.id] ? '● recorded' : '○ no recording yet (fine for testing)');
+        meta.appendChild(dot);
+      }
       /* animation-while-speaking: only when this line's speaker has clips */
       var speaker = (S().doc.story.cast || []).filter(function (c) { return c.id === cue.characterId; })[0];
       var speakerClips = Object.keys((speaker && speaker.clips) || {});
@@ -1637,19 +1693,24 @@
     redo.addEventListener('click', global.Studio.redo);
     t.appendChild(redo);
 
-    var prev = el('button', 'stu-btn stu-btn-primary', '▶ Try it');
+    var prev = el('button', 'stu-btn stu-btn-primary',
+      TEACHER ? '▶ ' + T('Preview as a student', 'Als Schüler ansehen') : '▶ Try it');
     prev.addEventListener('click', openPreview);
     t.appendChild(prev);
-    var check = el('button', 'stu-btn', '✔ Check my story');
+    var check = el('button', 'stu-btn', '✔ ' + T('Check my story', 'Geschichte prüfen'));
     check.addEventListener('click', runCheck);
     t.appendChild(check);
 
     var save = el('span', 'stu-savestate');
     var st = S().saveState;
-    save.textContent = st === 'saving' ? 'Saving…'
-      : st === 'saved' ? 'All changes saved' + (S().savedAt ? ' · ' + S().savedAt.toLocaleTimeString().slice(0, 5) : '')
-      : st === 'conflict' ? '⚠ This story also changed on disk — reload to get the latest version before editing more'
-      : st === 'error' ? '⚠ Could not save — is the Studio server running?'
+    save.textContent = st === 'saving' ? T('Saving…', 'Wird gespeichert…')
+      : st === 'saved' ? T('All changes saved', 'Alles gespeichert') + (S().savedAt ? ' · ' + S().savedAt.toLocaleTimeString().slice(0, 5) : '')
+      : st === 'conflict' ? (TEACHER
+          ? '⚠ ' + T('This story was edited somewhere else — reload to see the latest.', 'Diese Geschichte wurde woanders bearbeitet — bitte neu laden.')
+          : '⚠ This story also changed on disk — reload to get the latest version before editing more')
+      : st === 'error' ? (TEACHER
+          ? '⚠ ' + T('Could not save — check your connection.', 'Speichern fehlgeschlagen — bitte Verbindung prüfen.')
+          : '⚠ Could not save — is the Studio server running?')
       : '';
     if (st === 'conflict' || st === 'error') save.classList.add('stu-savebad');
     t.appendChild(save);
@@ -1657,7 +1718,7 @@
 
   function openPreview() {
     global.Studio.saveNow();
-    openDrawer('Try it — the real player', function (body) {
+    openDrawer(TEACHER ? T('Preview — exactly what your students see', 'Vorschau — genau das sehen Ihre Schüler') : 'Try it — the real player', function (body) {
       var bar = el('div', 'stu-libbar');
       var widths = [['Phone', 700], ['Tablet', 900], ['Big', 1180]];
       var iframe = el('iframe', 'stu-preview');
@@ -1690,6 +1751,38 @@
     }, true);
   }
 
+  /* validator ERROR → teacher language. The raw message survives as the
+     fallback (it is already fairly readable); page ids become page numbers. */
+  function friendlyError(msg) {
+    var out = String(msg);
+    var pm = out.match(/^page ([a-z0-9-]+): ?/);
+    var pageNo = null;
+    if (pm) {
+      var idx = S().doc.story.pages.findIndex(function (p) { return p.id === pm[1]; });
+      if (idx >= 0) pageNo = idx + 1;
+      out = out.slice(pm[0].length);
+    }
+    var MAP = [
+      [/SEP too dense/i, T('The worksheet is too crowded — make its box bigger, or design it with fewer problems.',
+        'Die Aufgabe ist zu voll — machen Sie den Bereich größer oder erstellen Sie das Arbeitsblatt mit weniger Aufgaben.')],
+      [/zone .* < .* minZone/i, T('The activity box is too small — drag its corner to make it bigger.',
+        'Der Aufgabenbereich ist zu klein — ziehen Sie an der Ecke, um ihn zu vergrößern.')],
+      [/strings\.json missing key|missing locale/i, T('Some words are missing — check the text boxes on this page.',
+        'Hier fehlt noch Text — prüfen Sie die Textfelder auf dieser Seite.')],
+      [/scene\.image or scene\.layers required/i, T('This page needs a picture.', 'Diese Seite braucht noch ein Bild.')],
+      [/no slots|has no (cells|columns|choices|paths)|needs >= 2/i, T('The activity is empty — open it and finish setting it up.',
+        'Die Aufgabe ist leer — bitte öffnen und fertig einrichten.')],
+      [/SEP (descriptor|visual) missing/i, T('The worksheet activity is broken — replace it from a worksheet maker.',
+        'Die Arbeitsblatt-Aufgabe ist beschädigt — bitte neu aus einem Generator übernehmen.')],
+      [/anchor out of bounds|outside the .* design space/i, T('Something is placed outside the page — drag it back in.',
+        'Etwas liegt außerhalb der Seite — bitte zurückziehen.')]
+    ];
+    for (var i = 0; i < MAP.length; i++) {
+      if (MAP[i][0].test(out)) { out = MAP[i][1]; break; }
+    }
+    return (pageNo ? T('Page ', 'Seite ') + pageNo + ' — ' : '') + out;
+  }
+
   function runCheck() {
     global.Studio.saveNow();
     setTimeout(function () {
@@ -1699,15 +1792,20 @@
           body.innerHTML = '';
           if (j.ok) {
             var ok = el('div', 'stu-ready');
-            ok.appendChild(el('h3', null, '✓ Ready!'));
-            ok.appendChild(el('p', null, 'Your story is saved and checked. It lives in its story folder — nothing else to export.'));
-            ok.appendChild(el('p', 'stu-note', 'Next (for the tech side): node scripts/storybook/qa-storybook.js --story=' + S().id));
+            ok.appendChild(el('h3', null, '✓ ' + T('Ready!', 'Fertig!')));
+            ok.appendChild(el('p', null, TEACHER
+              ? T('Your story is saved and checked — it is ready to share with your class.',
+                  'Ihre Geschichte ist gespeichert und geprüft — bereit zum Teilen mit Ihrer Klasse.')
+              : 'Your story is saved and checked. It lives in its story folder — nothing else to export.'));
+            if (!TEACHER) ok.appendChild(el('p', 'stu-note', 'Next (for the tech side): node scripts/storybook/qa-storybook.js --story=' + S().id));
             body.appendChild(ok);
           } else {
-            body.appendChild(el('h3', null, j.errors.length + ' thing(s) to fix'));
+            body.appendChild(el('h3', null, TEACHER
+              ? T('Almost ready — ' + j.errors.length + ' thing(s) to fix', 'Fast fertig — noch ' + j.errors.length + ' Punkt(e)')
+              : j.errors.length + ' thing(s) to fix'));
             j.errors.forEach(function (e2) {
               var card = el('div', 'stu-vcard');
-              card.appendChild(el('div', null, e2));
+              card.appendChild(el('div', null, TEACHER ? friendlyError(e2) : e2));
               var m = e2.match(/page ([a-z0-9-]+):/);
               if (m) {
                 var go = el('button', 'stu-btn stu-btn-small', 'Show me');
@@ -1722,7 +1820,7 @@
           }
           if (j.warns && j.warns.length) {
             var det = el('details');
-            det.appendChild(el('summary', null, j.warns.length + ' small note(s) — fine to ship'));
+            det.appendChild(el('summary', null, TEACHER ? T(j.warns.length + ' small note(s) — fine to share', j.warns.length + ' kleine Hinweise — Teilen ist trotzdem ok') : j.warns.length + ' small note(s) — fine to ship'));
             j.warns.forEach(function (w) { det.appendChild(el('div', 'stu-note', w)); });
             body.appendChild(det);
           }
@@ -1781,8 +1879,13 @@
     refs.canvasHost.innerHTML = '';
     global.StudioCanvas.mount(refs.canvasHost);
     global.Studio.load(id).then(function () {
-      history.replaceState(null, '', '?story=' + id);
-    }).catch(function (e) { alert('Could not open: ' + e.message); });
+      /* keep &mode=teacher — a refresh must stay in tenant mode */
+      history.replaceState(null, '', '?story=' + id + (TEACHER ? '&mode=teacher' : ''));
+    }).catch(function (e) {
+      alert(TEACHER
+        ? T('Could not open this story — please refresh the page.', 'Die Geschichte konnte nicht geöffnet werden — bitte Seite neu laden.')
+        : 'Could not open: ' + e.message);
+    });
   }
 
   /* ---- boot ---- */
@@ -1791,14 +1894,17 @@
     global.Studio.on(function (ev) {
       if (ev === 'change' || ev === 'loaded' || ev === 'savestate' || ev === 'audio') render();
     });
-    /* local-server check */
+    /* server check (local studio-server / the authenticated tenant API) */
     global.Studio.api('/studio/ping').then(function (j) {
       if (!j || !j.studio) throw new Error();
       var q = new URLSearchParams(location.search);
       var sid = q.get('story');
       if (sid) openStory(sid); else launcher();
     }).catch(function () {
-      refs.banner.textContent = 'This is the Storybook Studio — it runs on your computer. Open a terminal and run:  node scripts/storybook/studio-server.js   then open the address it prints.';
+      refs.banner.textContent = TEACHER
+        ? T('The Studio could not connect. Please refresh the page — if it keeps happening, sign in again.',
+            'Das Studio konnte keine Verbindung herstellen. Bitte Seite neu laden — falls es weiter auftritt, bitte neu anmelden.')
+        : 'This is the Storybook Studio — it runs on your computer. Open a terminal and run:  node scripts/storybook/studio-server.js   then open the address it prints.';
       refs.banner.style.display = 'block';
     });
   }

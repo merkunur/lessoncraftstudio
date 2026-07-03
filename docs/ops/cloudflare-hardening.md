@@ -24,17 +24,19 @@ are governed by robots.txt, not by this toggle — GPTBot etc. remain allowed.
 
 **Security → WAF → Custom rules → Create rule:**
 - **Name:** `Challenge stale-Chrome scraper fleet`
-- **Expression** (paste in the Expression Editor):
-  ```
-  (http.user_agent matches "Chrome/(9[0-9]|10[0-9]|11[0-9]|12[0-9]|13[0-8])\." and not cf.client.bot)
-  ```
+- **Expression** — click **Edit expression** (the raw editor) and paste ONE line,
+  WITHOUT any backticks/code-fence characters. The `matches` regex operator is
+  Business-plan-only, so this is the Free-plan enumerated form (Chrome majors
+  90–138, each with a trailing dot so e.g. "Chrome/13" can never match Chrome/139):
+
+  (http.user_agent contains "Chrome/9" or http.user_agent contains "Chrome/100." or http.user_agent contains "Chrome/101." or http.user_agent contains "Chrome/102." or http.user_agent contains "Chrome/103." or http.user_agent contains "Chrome/104." or http.user_agent contains "Chrome/105." or http.user_agent contains "Chrome/106." or http.user_agent contains "Chrome/107." or http.user_agent contains "Chrome/108." or http.user_agent contains "Chrome/109." or http.user_agent contains "Chrome/110." or http.user_agent contains "Chrome/111." or http.user_agent contains "Chrome/112." or http.user_agent contains "Chrome/113." or http.user_agent contains "Chrome/114." or http.user_agent contains "Chrome/115." or http.user_agent contains "Chrome/116." or http.user_agent contains "Chrome/117." or http.user_agent contains "Chrome/118." or http.user_agent contains "Chrome/119." or http.user_agent contains "Chrome/120." or http.user_agent contains "Chrome/121." or http.user_agent contains "Chrome/122." or http.user_agent contains "Chrome/123." or http.user_agent contains "Chrome/124." or http.user_agent contains "Chrome/125." or http.user_agent contains "Chrome/126." or http.user_agent contains "Chrome/127." or http.user_agent contains "Chrome/128." or http.user_agent contains "Chrome/129." or http.user_agent contains "Chrome/130." or http.user_agent contains "Chrome/131." or http.user_agent contains "Chrome/132." or http.user_agent contains "Chrome/133." or http.user_agent contains "Chrome/134." or http.user_agent contains "Chrome/135." or http.user_agent contains "Chrome/136." or http.user_agent contains "Chrome/137." or http.user_agent contains "Chrome/138.") and not cf.client.bot
+
 - **Action:** Managed Challenge
 - Notes: `cf.client.bot` exempts all *verified* bots (incl. evergreen Googlebot,
   whose UA carries a Chrome token — this is why the raw UA match alone would be
-  wrong). Chrome ≤138 is years old in mid-2026; real humans on such versions are
-  a rounding error and see one interstitial challenge, not a block. If the
-  `matches` operator is unavailable on the plan, use the fallback expression with
-  `contains` per major: `(http.user_agent contains "Chrome/1" and not cf.client.bot and (http.user_agent contains "Chrome/10" or http.user_agent contains "Chrome/11" or http.user_agent contains "Chrome/12" or http.user_agent contains "Chrome/13"))` — coarser; prefer `matches` if accepted.
+  wrong). "Chrome/9" safely covers 90–99 (Chrome 139+ starts "Chrome/1", never
+  "Chrome/9"). Real humans on ≤138 are a rounding error in mid-2026 and see one
+  interstitial challenge, not a block.
 
 ## 3. Cache Rules (10 minutes) — Caching → Cache Rules → Create rule
 
@@ -42,10 +44,11 @@ Create the three rules below IN THIS ORDER (first match wins top-down; use
 "Place at: Last" default order as listed).
 
 ### Rule 1 — `Cache deck pages`
-- **If:** Custom filter expression:
-  ```
-  (http.request.uri.path matches "^/[a-z]{2}/decks/")
-  ```
+- **If:** Custom filter expression — use **Edit expression** and paste the bare
+  line (no backticks; `matches` is Business-only, these are Free-plan forms):
+
+  http.request.uri.path contains "/decks/"
+
 - **Then:** Eligible for cache · Edge TTL: **Use cache-control header if present,
   bypass cache if not** · Browser TTL: Respect origin.
 - Origin already sends `Cache-Control: public, max-age=300` on deck pages/assets
@@ -53,10 +56,10 @@ Create the three rules below IN THIS ORDER (first match wins top-down; use
   extension-less deck HTML actually eligible at the edge.
 
 ### Rule 2 — `Cache anonymous SSR HTML`
-- **If:** Custom filter expression:
-  ```
-  (http.request.uri.path matches "^/[a-z]{2}(/(worksheets|topic|activities|learn|standards|tools|worksheet-makers)(/|$)|$)") and not http.cookie contains "refreshToken"
-  ```
+- **If:** Custom filter expression (Edit expression, paste as one line):
+
+  (http.request.uri.path contains "/worksheets" or http.request.uri.path contains "/topic" or http.request.uri.path contains "/activities" or http.request.uri.path contains "/learn" or http.request.uri.path contains "/standards" or http.request.uri.path contains "/tools" or http.request.uri.path contains "/worksheet-makers" or http.request.uri.path in {"/en" "/de" "/fr" "/es" "/pt" "/it" "/nl" "/sv" "/da" "/no" "/fi"}) and not http.cookie contains "refreshToken" and not http.request.uri.path contains "/api/"
+
 - **Then:** Eligible for cache · Edge TTL: **Use cache-control header if present,
   bypass cache if not** · Browser TTL: Respect origin.
 - Why safe: `refreshToken` is the session cookie (httpOnly, set at signin) — any
@@ -66,10 +69,10 @@ Create the three rules below IN THIS ORDER (first match wins top-down; use
   `/admin`, `/workspace`, `/collections` are NOT in the path allowlist.
 
 ### Rule 3 — `Cache static long-tail`
-- **If:** Custom filter expression:
-  ```
-  (http.request.uri.path matches "^/(image-library-webp|image-library|mini-tools|audio|design-elements|worksheet-samples)/")
-  ```
+- **If:** Custom filter expression (Edit expression, one line):
+
+  http.request.uri.path contains "/image-library" or http.request.uri.path contains "/mini-tools/" or http.request.uri.path contains "/audio/" or http.request.uri.path contains "/design-elements/" or http.request.uri.path contains "/worksheet-samples/"
+
 - **Then:** Eligible for cache · Edge TTL: Use cache-control header if present,
   bypass if not · Browser TTL: Respect origin.
 - Origin sends long/immutable TTLs on these already; `/audio/inventory.json`

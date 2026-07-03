@@ -1146,27 +1146,47 @@
     var pick = (typeof onPick === 'function') ? onPick : null;
     openDrawer(pick ? 'Change to which character?' : 'Add a character', function (body) {
       if (!pick) {
-        /* upload YOUR OWN character (an image → a one-pose character) */
-        var upBtn = el('button', 'stu-btn', '⬆ Upload a character (image)');
-        var upInp = el('input'); upInp.type = 'file'; upInp.accept = 'image/*'; upInp.style.display = 'none';
-        /* one action: click → OS file picker opens directly (NO name prompt).
-           the character's name is taken from the file's own name. */
+        /* upload YOUR OWN character — a single image (one pose) OR a TexturePacker sheet
+           (its image + .json = many poses/emotions). Select BOTH files for multiple poses. */
+        var upBtn = el('button', 'stu-btn', '⬆ Upload a character (image, or TexturePacker sheet + .json)');
+        var upInp = el('input'); upInp.type = 'file'; upInp.accept = 'image/*,.json,application/json'; upInp.multiple = true; upInp.style.display = 'none';
+        var isImg = function (f) { return /^image\//.test(f.type) || /\.(png|jpe?g|webp|gif)$/i.test(f.name); };
+        var isJson = function (f) { return f.type === 'application/json' || /\.json$/i.test(f.name); };
+        var readText = function (f) { return new Promise(function (rs, rj) { var r = new FileReader(); r.onload = function () { rs(r.result); }; r.onerror = rj; r.readAsText(f); }); };
+        var readB64 = function (f) { return new Promise(function (rs, rj) { var r = new FileReader(); r.onload = function () { rs(String(r.result).split(',')[1] || ''); }; r.onerror = rj; r.readAsDataURL(f); }); };
+        var done = function (j) {
+          if (!j || j.__status !== 200 || !j.characterId) { upBtn.textContent = '✗ ' + ((j && j.error) || 'upload failed'); return; }
+          closeDrawer();
+          addCharacterHere({ characterId: j.characterId, atlasBase: j.atlasBase, poses: j.poses || ['neutral'] });
+        };
+        var fail = function () { upBtn.textContent = '✗ couldn\'t reach the Studio server'; };
         upBtn.addEventListener('click', function () { upInp.click(); });
         upInp.addEventListener('change', function () {
-          var file = upInp.files && upInp.files[0]; if (!file) return;
-          var nm = String(file.name || 'character').replace(/\.[^.]+$/, '').trim() || 'character';
-          upBtn.textContent = 'Uploading ' + file.name + '…';
-          file.arrayBuffer().then(function (arrbuf) {
-            return fetch('/studio/import-character/' + S().id + '?name=' + encodeURIComponent(nm), { method: 'POST', headers: { 'Content-Type': 'application/octet-stream' }, body: arrbuf })
-              .then(function (r) { return r.json().then(function (j) { j.__status = r.status; return j; }); });
-          }).then(function (j) {
-            if (j.__status !== 200 || !j.characterId) { upBtn.textContent = '✗ ' + (j.error || 'upload failed'); return; }
-            closeDrawer();
-            addCharacterHere({ characterId: j.characterId, atlasBase: j.atlasBase, poses: j.poses || ['neutral'] });
-          }).catch(function () { upBtn.textContent = '✗ couldn\'t reach the Studio server'; });
+          var files = [].slice.call(upInp.files || []);
+          var img = files.filter(isImg)[0], jsn = files.filter(isJson)[0];
+          if (!img && jsn) { upBtn.textContent = '✗ also select the sheet image (.webp/.png), not just the .json'; return; }
+          if (!img) return;
+          var nm = String(img.name || 'character').replace(/\.[^.]+$/, '').trim() || 'character';
+          if (jsn) {
+            /* TexturePacker sheet: image + atlas .json → a multi-pose character */
+            upBtn.textContent = 'Uploading ' + img.name + ' + ' + jsn.name + '…';
+            Promise.all([readB64(img), readText(jsn)]).then(function (r) {
+              var atlas; try { atlas = JSON.parse(r[1]); } catch (e) { upBtn.textContent = '✗ that .json is not valid JSON'; return null; }
+              return fetch('/studio/import-character-sheet/' + S().id, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: nm, atlas: atlas, imageBase64: r[0], imageExt: (String(img.name).split('.').pop() || '').toLowerCase() }) })
+                .then(function (rp) { return rp.json().then(function (j) { j.__status = rp.status; return j; }); });
+            }).then(function (j) { if (j) done(j); }).catch(fail);
+          } else {
+            /* single image → a one-pose character */
+            upBtn.textContent = 'Uploading ' + img.name + '…';
+            img.arrayBuffer().then(function (arrbuf) {
+              return fetch('/studio/import-character/' + S().id + '?name=' + encodeURIComponent(nm), { method: 'POST', headers: { 'Content-Type': 'application/octet-stream' }, body: arrbuf })
+                .then(function (rp) { return rp.json().then(function (j) { j.__status = rp.status; return j; }); });
+            }).then(done).catch(fail);
+          }
         });
         body.appendChild(upBtn); body.appendChild(upInp);
-        body.appendChild(el('div', 'stu-note', 'or tap a ready-made character below:'));
+        body.appendChild(el('div', 'stu-note', 'Tip: for many poses/emotions, select BOTH the TexturePacker sheet image and its .json. Or tap a ready-made character below.'));
       }
       global.Studio.api('/studio/cast').then(function (j) {
         var row = el('div', 'stu-cards');

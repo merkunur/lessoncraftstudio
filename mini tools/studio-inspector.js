@@ -1157,11 +1157,11 @@
           }).catch(function () {});
           card.addEventListener('click', function () {
             closeDrawer();
-            if (pick) pick(c); else global.StudioCanvas.startPlaceCharacter(c);
+            if (pick) pick(c); else addCharacterHere(c);
           });
           row.appendChild(card);
         });
-        if (!pick) body.appendChild(el('div', 'stu-note', 'Then click the spot on the picture where their feet should stand.'));
+        if (!pick) body.appendChild(el('div', 'stu-note', 'Tap a character — they appear on the picture right away; then drag them where you want.'));
         body.appendChild(row);
       }).catch(function () {
         body.appendChild(el('div', 'stu-empty', 'Couldn\'t reach the Studio server — is it running? (node scripts/storybook/studio-server.js)'));
@@ -1181,6 +1181,24 @@
       draft.strings['cast.' + cid + '.name'] = draft.strings['cast.' + cid + '.name'] || { en: cid.charAt(0).toUpperCase() + cid.slice(1) };
     }
     return cid;
+  }
+
+  /* Add flow — place the picked character immediately (no hidden "click the canvas" step);
+     it lands centre-bottom, offset per existing count, and is selected so it can be dragged. */
+  function addCharacterHere(castDef) {
+    mutate('add character', function (draft) {
+      ensureCastEntry(draft, castDef);
+      var dpg = draft.story.pages[pgIdx()];
+      dpg.characters = dpg.characters || [];
+      var n = dpg.characters.length;
+      dpg.characters.push({
+        characterId: castDef.characterId,
+        pose: (castDef.poses && castDef.poses[0]) || 'neutral',
+        anchor: { x: Math.min(1400, 500 + n * 120), y: 880 }, scale: 1, flip: false
+      });
+    });
+    var pg = pageObj();
+    if (pg && pg.characters) global.StudioCanvas.select({ kind: 'character', index: pg.characters.length - 1 });
   }
 
   function openLedger() {

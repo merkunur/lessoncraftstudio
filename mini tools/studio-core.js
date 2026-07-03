@@ -26,26 +26,89 @@
     saveState: 'idle',    /* idle | saving | saved | conflict | error */
     audioHave: {},        /* '<loc>/<lineId>' -> true */
     undoStack: [],
-    redoStack: []
+    redoStack: [],
+    previewLinkId: null,  /* tenant mode: the story's preview play link */
+    storyLocale: 'en'     /* the story's single authoring language */
   };
 
   function emit(ev) { listeners.forEach(function (fn) { try { fn(ev || 'change'); } catch (e) { console.error(e); } }); }
   function clone(o) { return JSON.parse(JSON.stringify(o)); }
 
-  /* ---------------- API ---------------- */
+  /* ---------------- API ----------------
+     Dual-mode: operator mode talks to the local studio-server's /studio/*
+     endpoints (unchanged); tenant mode (?mode=teacher on the studio URL —
+     the hosted, subscriber-gated Studio) translates each call onto the
+     authenticated /api/studio/* routes and adds the Bearer header from
+     localStorage.accessToken (same-origin iframe shares localStorage with
+     the Next app). The rest of the client keeps speaking the local dialect. */
+  var TENANT = false;
+  try {
+    TENANT = new URLSearchParams(global.location.search).get('mode') === 'teacher';
+  } catch (e) {}
+
+  function tenantRoute(pathname, opts) {
+    var q = '';
+    var qi = pathname.indexOf('?');
+    if (qi >= 0) { q = pathname.slice(qi); pathname = pathname.slice(0, qi); }
+    var m;
+    var url = null;
+    if (pathname === '/studio/ping') url = '/api/studio/ping';
+    else if (pathname === '/studio/stories') url = '/api/studio/stories';
+    else if (pathname === '/studio/library') url = '/api/studio/library';
+    else if (pathname === '/studio/cast') url = '/api/studio/stories/' + S.id + '/cast';
+    else if (pathname === '/studio/exercises') url = '/api/studio/stories/' + S.id + '/exercises';
+    else if ((m = pathname.match(/^\/studio\/story\/([A-Za-z0-9-]+)$/))) {
+      url = '/api/studio/stories/' + m[1];
+      if (opts && opts.method === 'POST') { opts = Object.assign({}, opts, { method: 'PUT' }); }
+    }
+    else if ((m = pathname.match(/^\/studio\/(scenes|audio|validate)\/([A-Za-z0-9-]+)$/))) {
+      url = '/api/studio/stories/' + m[2] + '/' + m[1];
+    }
+    else if ((m = pathname.match(/^\/studio\/import-image\/([A-Za-z0-9-]+)$/))) {
+      url = '/api/studio/stories/' + m[1] + '/images';
+    }
+    else if ((m = pathname.match(/^\/studio\/import-character\/([A-Za-z0-9-]+)$/))) {
+      url = '/api/studio/stories/' + m[1] + '/characters';
+    }
+    else if ((m = pathname.match(/^\/studio\/import-exercise\/([A-Za-z0-9-]+)$/))) {
+      url = '/api/studio/stories/' + m[1] + '/exercises';
+    }
+    /* scaffold / reveal / import-character-sheet / import-character-clips are
+       operator-only affordances — unmapped by design (hidden in teacher mode). */
+    return { url: url || pathname, opts: opts };
+  }
+
   function api(pathname, opts) {
+    if (TENANT) {
+      var mapped = tenantRoute(pathname, opts);
+      pathname = mapped.url;
+      opts = mapped.opts || {};
+      var token = null;
+      try { token = localStorage.getItem('accessToken'); } catch (e) {}
+      opts = Object.assign({}, opts);
+      opts.headers = Object.assign({}, opts.headers || {},
+        token ? { Authorization: 'Bearer ' + token } : {});
+    }
     return fetch(pathname, opts).then(function (r) {
+      if (TENANT && r.status === 401) {
+        /* signed out / expired: tell the wrapper page (it owns re-auth UX).
+           The debounced-autosave localStorage backup protects unsaved work. */
+        try { global.parent.postMessage({ type: 'lcs-studio-auth', status: 401 }, location.origin); } catch (e) {}
+      }
       return r.json().then(function (j) { j.__status = r.status; return j; });
     });
   }
 
   /* ---------------- document ---------------- */
   function load(id) {
+    S.id = id;   /* set BEFORE the call — tenant route mapping needs it */
     return api('/studio/story/' + id).then(function (j) {
       if (j.__status !== 200) throw new Error(j.error || 'load failed');
-      S.id = id;
       S.doc = { story: j.story, strings: j.strings };
       S.etag = j.etag;
+      S.previewLinkId = j.previewLinkId || null;
+      S.storyLocale = j.locale ||
+        (j.story && j.story.locales && j.story.locales[0]) || 'en';
       S.pageIndex = 0;
       S.selection = null;
       S.undoStack = []; S.redoStack = [];
@@ -129,14 +192,16 @@
 
   /* ---------------- accessors ---------------- */
   function page() { return S.doc.story.pages[S.pageIndex] || null; }
+  /* Text reads/writes go through the story's authoring locale (S.storyLocale;
+     'en' for operator stories, the teacher's language for tenant stories). */
   function str(key) {
     var e = S.doc.strings[key];
-    return (e && e.en) || '';
+    return (e && (e[S.storyLocale] || e.en)) || '';
   }
   function setStr(key, value) {
     return mutate('edit text', function (d) {
       d.strings[key] = d.strings[key] || {};
-      d.strings[key].en = value;
+      d.strings[key][S.storyLocale] = value;
     });
   }
 
@@ -266,7 +331,7 @@
       },
       stringExists: function (key) {
         var e = S.doc.strings[key];
-        if (!e || !e.en) errors.push('Missing words for: ' + key);
+        if (!e || !(e[S.storyLocale] || e.en)) errors.push('Missing words for: ' + key);
       },
       vocab: function () {},
       sepPackage: function () {}
@@ -283,6 +348,7 @@
 
   global.Studio = {
     state: S,
+    tenant: TENANT,
     on: function (fn) { listeners.push(fn); },
     api: api,
     load: load,

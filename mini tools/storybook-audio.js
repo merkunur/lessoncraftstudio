@@ -132,8 +132,12 @@
         return;
       }
 
-      var url = '/mini-tools/stories/' + encodeURIComponent(opts.storyId) +
-                '/audio/' + encodeURIComponent(opts.locale) + '/' +
+      /* opts.base (additive) — tenant stories play from the tokened
+         /api/play/<linkId>/ base; absent = the static operator-story path. */
+      var url = (opts.base
+                  ? opts.base + 'audio/'
+                  : '/mini-tools/stories/' + encodeURIComponent(opts.storyId) + '/audio/') +
+                encodeURIComponent(opts.locale) + '/' +
                 encodeURIComponent(opts.lineId) + '.mp3';
 
       function fallback() {

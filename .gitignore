@@ -207,3 +207,6 @@ docs/audit-results/mobile*/screens/
 docs/audit-results/mobile-local/
 docs/audit-results/mobile-livecheck/
 .deploy-env
+
+# Story Studio tenancy — local dev media root (production: /var/www/lcs-media/studio/stories)
+frontend/.studio-stories/

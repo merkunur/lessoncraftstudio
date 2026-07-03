@@ -411,6 +411,93 @@ const srv = http.createServer(async (req, res) => {
       return json(res, 200, { ok: true, characterId: slug, atlasBase: '/mini-tools/stories/' + storyId + '/cast/' + slug + '/' + slug + '.base.json', poses: ['neutral'] });
     }
 
+    /* upload a CHARACTER SHEET (TexturePacker JSON-Hash: one image + one atlas .json with N poses).
+       Re-bakes with sharp into a fully-NORMALIZED atlas (rotated:false, trimmed:false, frames named
+       pose_<slug>) so it renders identically in BOTH the Studio canvas (which ignores `rotated`) and
+       the PIXI player. Body = application/json { name, atlas, imageBase64, imageExt }. */
+    if ((m = p.match(/^\/studio\/import-character-sheet\/([a-z0-9-]+)$/)) && req.method === 'POST') {
+      const storyId = m[1];
+      const storyDir = path.join(STORIES, storyId);
+      if (!fs.existsSync(storyDir)) return json(res, 404, { error: 'story not found' });
+      const raw = await readRawBody(req);
+      if (!raw || !raw.length) return json(res, 400, { error: 'empty upload' });
+      let body; try { body = JSON.parse(raw.toString('utf8')); } catch (e) { return json(res, 400, { error: 'the request body is not valid JSON' }); }
+      const atlas = body && body.atlas;
+      if (!atlas || typeof atlas !== 'object' || !atlas.frames || typeof atlas.frames !== 'object')
+        return json(res, 400, { error: 'that .json is not a TexturePacker atlas (no "frames") — export "JSON (Hash)" from TexturePacker' });
+      const frameNames = Object.keys(atlas.frames);
+      if (!frameNames.length) return json(res, 400, { error: 'the atlas has no frames' });
+      const imgBuf = Buffer.from(String(body.imageBase64 || ''), 'base64');
+      if (!imgBuf.length) return json(res, 400, { error: 'no sheet image was sent — also select the .webp/.png, not just the .json' });
+      let ext = null;
+      if (imgBuf.length > 8 && imgBuf[0] === 0x89 && imgBuf[1] === 0x50 && imgBuf[2] === 0x4E && imgBuf[3] === 0x47) ext = 'png';
+      else if (imgBuf.length > 3 && imgBuf[0] === 0xFF && imgBuf[1] === 0xD8 && imgBuf[2] === 0xFF) ext = 'jpg';
+      else if (imgBuf.length > 12 && imgBuf.toString('ascii', 0, 4) === 'RIFF' && imgBuf.toString('ascii', 8, 12) === 'WEBP') ext = 'webp';
+      else if (imgBuf.length > 6 && imgBuf.toString('ascii', 0, 3) === 'GIF') ext = 'gif';
+      if (!ext) return json(res, 400, { error: 'the sheet is not a PNG, JPG, WEBP, or GIF image' });
+      let sharp; try { sharp = require('sharp'); } catch (e) { return json(res, 500, { error: 'sharp not available on the server' }); }
+      let sheetW = 0, sheetH = 0;
+      try { const meta = await sharp(imgBuf).metadata(); sheetW = meta.width || 0; sheetH = meta.height || 0; }
+      catch (e) { return json(res, 500, { error: 'could not read the sheet image (' + e.message + ')' }); }
+      if (!sheetW || !sheetH) return json(res, 400, { error: 'could not read the sheet dimensions' });
+      const declared = atlas.meta && atlas.meta.size;
+      if (declared && (declared.w !== sheetW || declared.h !== sheetH))
+        return json(res, 400, { error: 'the image (' + sheetW + '×' + sheetH + ') does not match this atlas (expected ' + declared.w + '×' + declared.h + ') — did you pick the matching pair?' });
+
+      const UNROTATE_DEG = 270; /* undo TexturePacker's 90-deg clockwise packing rotation (verified against a rotated frame) */
+      const usedSlugs = {}, poses = [], cells = [];
+      try {
+        for (const fname of frameNames) {
+          const f = atlas.frames[fname] || {};
+          const frame = f.frame || {};
+          const rotated = !!f.rotated;
+          const src = (f.sourceSize && f.sourceSize.w) ? f.sourceSize : { w: frame.w, h: frame.h };
+          const sss = (f.spriteSourceSize && typeof f.spriteSourceSize.x === 'number') ? f.spriteSourceSize : { x: 0, y: 0, w: frame.w, h: frame.h };
+          /* a rotated frame occupies (h x w) in the sheet — the stated w/h are the UNROTATED dims */
+          const rw = rotated ? frame.h : frame.w;
+          const rh = rotated ? frame.w : frame.h;
+          if (!(rw > 0) || !(rh > 0) || frame.x < 0 || frame.y < 0 || frame.x + rw > sheetW || frame.y + rh > sheetH)
+            return json(res, 400, { error: 'frame "' + fname + '" falls outside the sheet — the image and .json do not match' });
+          const cropBuf = await sharp(imgBuf).extract({ left: frame.x | 0, top: frame.y | 0, width: rw | 0, height: rh | 0 }).png().toBuffer();
+          let sprite = sharp(cropBuf);
+          if (rotated) sprite = sprite.rotate(UNROTATE_DEG); /* separate pipeline so extract happens first */
+          const spriteBuf = await sprite.png().toBuffer(); /* now upright, frame.w x frame.h */
+          const cellBuf = await sharp({ create: { width: src.w | 0, height: src.h | 0, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
+            .composite([{ input: spriteBuf, left: Math.max(0, sss.x | 0), top: Math.max(0, sss.y | 0) }]).png().toBuffer();
+          let slug = String(fname).replace(/\.[a-z0-9]+$/i, '').replace(/[^a-z0-9]+/gi, '-').replace(/^-+|-+$/g, '').toLowerCase() || 'pose';
+          const base = slug; let k = 2; while (usedSlugs[slug]) slug = base + '-' + (k++);
+          usedSlugs[slug] = 1; poses.push(slug);
+          cells.push({ slug: slug, buf: cellBuf, w: src.w | 0, h: src.h | 0 });
+        }
+      } catch (e) { return json(res, 500, { error: 'could not process a frame (' + e.message + ')' }); }
+
+      /* lay the normalized pose cells into a uniform grid */
+      const cellW = cells.reduce((mx, c) => Math.max(mx, c.w), 1);
+      const cellH = cells.reduce((mx, c) => Math.max(mx, c.h), 1);
+      const cols = Math.ceil(Math.sqrt(cells.length)), rows = Math.ceil(cells.length / cols);
+      const outFrames = {}, composites = [];
+      cells.forEach((c, i) => {
+        const x = (i % cols) * cellW, y = Math.floor(i / cols) * cellH;
+        outFrames['pose_' + c.slug] = { frame: { x: x, y: y, w: c.w, h: c.h }, rotated: false, trimmed: false, spriteSourceSize: { x: 0, y: 0, w: c.w, h: c.h }, sourceSize: { w: c.w, h: c.h } };
+        composites.push({ input: c.buf, left: x, top: y });
+      });
+      let sheetBuf;
+      try {
+        sheetBuf = await sharp({ create: { width: cols * cellW, height: rows * cellH, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
+          .composite(composites).webp().toBuffer();
+      } catch (e) { return json(res, 500, { error: 'could not build the sheet (' + e.message + ')' }); }
+
+      let slug = String(body.name || '').replace(/[^a-z0-9]+/gi, '-').replace(/^-+|-+$/g, '').toLowerCase() || 'character';
+      if (fs.existsSync(path.join(storyDir, 'cast', slug))) slug = slug + '-' + crypto.createHash('sha1').update(sheetBuf).digest('hex').slice(0, 4);
+      const dir = path.join(storyDir, 'cast', slug);
+      fs.mkdirSync(dir, { recursive: true });
+      const imgName = slug + '.base.webp';
+      fs.writeFileSync(path.join(dir, imgName), sheetBuf);
+      const outAtlas = { frames: outFrames, meta: { app: 'lcs-sheet', version: '1.0', image: imgName, format: 'RGBA8888', size: { w: cols * cellW, h: rows * cellH }, scale: '1' } };
+      fs.writeFileSync(path.join(dir, slug + '.base.json'), JSON.stringify(outAtlas));
+      return json(res, 200, { ok: true, characterId: slug, atlasBase: '/mini-tools/stories/' + storyId + '/cast/' + slug + '/' + slug + '.base.json', poses: poses });
+    }
+
     /* ---------- static mounts ---------- */
     let file = null;
     if (p === '/' ) { res.writeHead(302, { Location: '/mini-tools/storybook-studio.html' }); return res.end(); }

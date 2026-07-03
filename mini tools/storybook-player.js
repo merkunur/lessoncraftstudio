@@ -526,12 +526,17 @@
           setCaption(who ? refStr(who.name) : '', text);
           announce(text);
           var perf = cue.characterId && performers[cue.characterId];
-          if (perf) perf.setTalking(true);
+          if (perf) {
+            /* a per-line clip is the speaker's gesture WHILE saying this line — it replaces
+               the generic talk garnish for that line (playClip hides the pose the garnish toggles) */
+            if (cue.clip && perf.playClip) perf.playClip(cue.clip, {});
+            else perf.setTalking(true);
+          }
           if (onLine) onLine(cue);
           return global.SBAudio.playLine({
             storyId: storyId, locale: _locale, lineId: cue.id, text: text
           }).then(function () {
-            if (perf) perf.setTalking(false);
+            if (perf && !cue.clip) perf.setTalking(false);
             if (cue.pauseAfterMs) {
               return new Promise(function (res) { setTimeout(res, cue.pauseAfterMs); });
             }
@@ -783,6 +788,12 @@
 
         return transitionIn(pageContainer, oldCont).then(function () {
           global.SBLoader.releaseExcept([i, i + 1]);
+          /* entrance animations: a placed character plays its clip as the page opens */
+          (page.characters || []).forEach(function (pl) {
+            if (pl.entranceClip && performers[pl.characterId] && performers[pl.characterId].playClip) {
+              performers[pl.characterId].playClip(pl.entranceClip, {});
+            }
+          });
           lastCues = (page.narration && page.narration.cues) || [];
           var gate = (page.narration && page.narration.gate) || 'end';
           if (gate === 'immediate' && host) host.start();

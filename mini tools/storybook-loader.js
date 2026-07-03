@@ -59,6 +59,10 @@
     var chars = page.characters || [];
     var needClips = {};
     if (page.success && page.success.clip) needClips[page.success.clip.characterId] = true;
+    /* per-line narration gestures + per-character entrance clips also need the clips atlas */
+    var cues = (page.narration && page.narration.cues) || [];
+    for (var q = 0; q < cues.length; q++) { if (cues[q].clip && cues[q].characterId) needClips[cues[q].characterId] = true; }
+    for (var e = 0; e < chars.length; e++) { if (chars[e].entranceClip) needClips[chars[e].characterId] = true; }
     for (var c = 0; c < chars.length; c++) {
       var def = castById[chars[c].characterId];
       if (!def) continue;

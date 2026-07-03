@@ -2078,6 +2078,9 @@
       "errorGeneric": "Something went wrong. Please try again."
     },
     "gate": {
+      "subscriberTitle": "Dette området er en del av LessonCraftStudio-abonnementet",
+      "subscriberBody": "Samlinger og verktøyene i arbeidsområdet er abonnentfunksjoner. Alt annet på LessonCraftStudio — oppgaveark, aktiviteter og utskriftsmateriell — forblir gratis.",
+      "subscriberCta": "Se abonnementer",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -2110,6 +2113,7 @@
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
   },
   "workspace": {
+    "billing": { "line": "Lærerabonnement — aktivt", "renewsOn": "fornyes den", "manage": "Administrer betaling" },
     "metadata": {
       "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
@@ -2119,6 +2123,9 @@
       "welcomeLine": "Your collections and recent activity, all in one place."
     },
     "gate": {
+      "subscriberTitle": "Dette området er en del av LessonCraftStudio-abonnementet",
+      "subscriberBody": "Samlinger og verktøyene i arbeidsområdet er abonnentfunksjoner. Alt annet på LessonCraftStudio — oppgaveark, aktiviteter og utskriftsmateriell — forblir gratis.",
+      "subscriberCta": "Se abonnementer",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -2404,5 +2411,58 @@
     "themesWord": "temaer",
     "allFormats": "Alle formater",
     "breadcrumb": "Språk"
+  },
+  "pricingPage": {
+    "meta": {
+      "title": "Priser og abonnement — LessonCraftStudio",
+      "description": "Ett enkelt lærerabonnement: interaktivt fortellingsbibliotek, hele verktøykassen og deling med klassen. Alt annet på LessonCraftStudio er gratis for alltid."
+    },
+    "hero": {
+      "title": "Enkle priser, laget for lærere",
+      "subtitle": "Alt du bruker i dag, forblir gratis — oppgaveark, aktiviteter, interaktiv øving og PDF-er. Abonnementet legger til dybden: fortellingsbiblioteket, hele verktøykassen og verktøy for å dele med klassen."
+    },
+    "free": {
+      "title": "Gratis for alltid",
+      "blurb": "Ingen konto nødvendig. Ingen begrensninger. Dette er det LessonCraftStudio du allerede kjenner.",
+      "item1": "45 000+ utskriftsklare oppgaveark med fasit",
+      "item2": "Spill alle interaktive oppgaveark — uten innlogging, uten tak",
+      "item3": "200+ læreplanforankrede aktiviteter for de laveste trinnene",
+      "item4": "Alle 29 oppgavearkgeneratorene med PDF-utskrift",
+      "item5": "Bygg inn oppgaveark på klassebloggen eller skolens nettside",
+      "item6": "Alt på 11 språk"
+    },
+    "tier": {
+      "name": "Lærer",
+      "priceSuffix": "per år",
+      "includedTitle": "Alt som er gratis, pluss",
+      "item1": "Hele det interaktive fortellingsbiblioteket — hver fortelling, hver side, med opplesing",
+      "item2": "Verktøykassen: ubegrenset med interaktive oppgaveark fra alle 29 generatorene, uten vannmerke",
+      "item3": "Legg dine egne oppgaver på nett og del dem med klassen via lenke",
+      "item4": "Samlinger og arbeidsromverktøy som holder orden på alt",
+      "item5": "Først i køen til nye premiumslipp — fortellingsstudioet og læreplanpakkene",
+      "ctaAnnual": "Abonner — $69/år",
+      "ctaMonthly": "Eller $8.99/mnd.",
+      "microcopy": "Ingen prøveperiode-triks med kort — den gratis katalogen er prøveperioden. Avslutt fornyelsen når som helst. Mva. er inkludert der det gjelder.",
+      "familyTeaser": "En familieplan for hjemmebruk kommer snart."
+    },
+    "faq": {
+      "title": "Spørsmål og svar",
+      "q1": "Forblir gratisinnholdet gratis?",
+      "a1": "Ja — for alltid. Oppgaveark, aktiviteter, interaktiv øving, PDF-er og generatorenes grunnfunksjoner er gratis for alltid. Abonnementet legger bare til nytt og dypere materiale på toppen.",
+      "q2": "Finnes det en gratis prøveperiode?",
+      "a2": "Den gratis katalogen er prøveperioden — tusenvis av oppgaveark og aktiviteter du kan bruke for alltid uten å betale eller oppgi et kort. Abonner først når premiumhyllen er verdt det for deg.",
+      "q3": "Hvordan sier jeg opp?",
+      "a3": "Med ett klikk fra betalingssiden din — ingen e-poster, ingen telefonsamtaler. Abonnementet fornyes rett og slett ikke, og du beholder tilgangen til perioden er over.",
+      "q4": "Trenger elevene mine kontoer?",
+      "a4": "Aldri. Barn logger aldri inn på LessonCraftStudio. Du deler en lenke; de spiller. Vi samler ikke inn elevdata i det hele tatt.",
+      "q5": "Hvilke betalingsmåter og hvilken valuta bruker dere?",
+      "a5": "Betalingen håndteres av Lemon Squeezy (kort, PayPal i mange land) og belastes i amerikanske dollar — banken din veksler til dagens kurs. Priser vist i € eller kr er omtrentlige."
+    }
+  },
+  "subscribeThanks": {
+    "title": "Velkommen om bord!",
+    "body": "Abonnementet ditt er aktivt. Det kan ta noen sekunder før kontoen henger med — last inn arbeidsrommet på nytt hvis det ikke vises ennå.",
+    "emailNote": "Ny her? Vi har sendt deg en e-post med en lenke for å velge passord.",
+    "cta": "Gå til arbeidsrommet ditt"
   }
 }

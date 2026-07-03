@@ -3,6 +3,8 @@
 import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast } from 'react-hot-toast';
+import { SUPPORTED_LOCALES } from '@/config/locales';
+import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 
 interface User {
   id: string;
@@ -65,9 +67,9 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 function getCurrentLocale(): string {
   if (typeof window === 'undefined') return 'en';
   const pathParts = window.location.pathname.split('/');
-  const locales = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'pl', 'sv', 'da', 'fi'];
+  // SUPPORTED_LOCALES is the SoT (the old inline list wrongly included 'pl' and omitted 'no')
   const pathLocale = pathParts[1];
-  return locales.includes(pathLocale) ? pathLocale : 'en';
+  return (SUPPORTED_LOCALES as readonly string[]).includes(pathLocale) ? pathLocale : 'en';
 }
 
 // Retry configuration for network resilience
@@ -293,7 +295,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           } else {
             // Q-l Option III: subscriber-conditional redirect.
             router.push(
-              !!userWithSubscription
+              isLcsSubscriptionActive(userWithSubscription)
                 ? `/${locale}/workspace`
                 : `/${locale}/dashboard`
             );
@@ -358,7 +360,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       } else {
         const locale = getCurrentLocale();
         router.push(
-          !!userWithSubscription
+          isLcsSubscriptionActive(userWithSubscription)
             ? `/${locale}/workspace`
             : `/${locale}/dashboard`
         );
@@ -584,7 +586,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       // Q-l Option III: subscriber-conditional redirect.
       const locale = getCurrentLocale();
       router.push(
-        !!userWithSubscription
+        isLcsSubscriptionActive(userWithSubscription)
           ? `/${locale}/workspace`
           : `/${locale}/dashboard`
       );

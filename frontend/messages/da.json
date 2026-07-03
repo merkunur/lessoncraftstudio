@@ -2071,6 +2071,9 @@
       "errorGeneric": "Something went wrong. Please try again."
     },
     "gate": {
+      "subscriberTitle": "Dette område er en del af LessonCraftStudio-abonnementet",
+      "subscriberBody": "Samlinger og arbejdsområdets værktøjer er abonnentfunktioner. Alt andet på LessonCraftStudio — opgaveark, aktiviteter og printbart materiale — forbliver gratis.",
+      "subscriberCta": "Se abonnementer",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -2103,6 +2106,7 @@
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
   },
   "workspace": {
+    "billing": { "line": "Lærerabonnement — aktivt", "renewsOn": "fornys den", "manage": "Administrér betaling" },
     "metadata": {
       "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
@@ -2112,6 +2116,9 @@
       "welcomeLine": "Your collections and recent activity, all in one place."
     },
     "gate": {
+      "subscriberTitle": "Dette område er en del af LessonCraftStudio-abonnementet",
+      "subscriberBody": "Samlinger og arbejdsområdets værktøjer er abonnentfunktioner. Alt andet på LessonCraftStudio — opgaveark, aktiviteter og printbart materiale — forbliver gratis.",
+      "subscriberCta": "Se abonnementer",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -2397,5 +2404,58 @@
     "themesWord": "temaer",
     "allFormats": "Alle formater",
     "breadcrumb": "Sprog"
+  },
+  "pricingPage": {
+    "meta": {
+      "title": "Priser og abonnement — LessonCraftStudio",
+      "description": "Ét enkelt lærerabonnement: det interaktive historiebibliotek, hele værktøjspakken og deling med klassen. Alt andet på LessonCraftStudio er gratis for altid."
+    },
+    "hero": {
+      "title": "Enkle priser, lavet til lærere",
+      "subtitle": "Alt det, du bruger i dag, forbliver gratis — opgaveark, aktiviteter, interaktiv leg og PDF'er. Abonnementet tilføjer det ekstra lag: historiebiblioteket, hele værktøjspakken og redskaber til at dele med klassen."
+    },
+    "free": {
+      "title": "Gratis for altid",
+      "blurb": "Ingen konto. Ingen begrænsninger. Det er det LessonCraftStudio, du allerede kender.",
+      "item1": "45.000+ printklare opgaveark med facitlister",
+      "item2": "Spil alle interaktive opgaveark — uden login, uden loft",
+      "item3": "200+ læringsaktiviteter, der følger målene fra børnehaveklassen og frem",
+      "item4": "Alle 29 opgaveark-generatorer med PDF-output",
+      "item5": "Indlejr opgaveark på klassens blog eller skolens hjemmeside",
+      "item6": "Det hele på 11 sprog"
+    },
+    "tier": {
+      "name": "Lærer",
+      "priceSuffix": "pr. år",
+      "includedTitle": "Alt det gratis indhold, plus",
+      "item1": "Hele det interaktive historiebibliotek — hver historie, hver side, med oplæsning",
+      "item2": "Værktøjspakken: ubegrænsede interaktive opgaveark fra alle 29 generatorer, uden vandmærke",
+      "item3": "Læg dine egne opgaver online, og del dem med klassen via et link",
+      "item4": "Samlinger og arbejdsrum, der holder styr på det hele",
+      "item5": "Først i køen til nye premium-udgivelser — historiestudiet og læreplanspakkerne",
+      "ctaAnnual": "Tegn abonnement — $69/år",
+      "ctaMonthly": "Eller $8.99/md.",
+      "microcopy": "Ingen kort-tricks med prøveperioder — det gratis katalog er prøveperioden. Opsig fornyelsen når som helst. Moms er inkluderet, hvor det er relevant.",
+      "familyTeaser": "En familieplan til derhjemme er på vej."
+    },
+    "faq": {
+      "title": "Spørgsmål og svar",
+      "q1": "Forbliver det gratis indhold gratis?",
+      "a1": "Ja — permanent. Opgaveark, aktiviteter, interaktiv leg, PDF'er og generatorernes grundfunktioner er gratis for altid. Abonnementet tilføjer kun nyt og dybere materiale ovenpå.",
+      "q2": "Er der en gratis prøveperiode?",
+      "a2": "Det gratis katalog er prøveperioden — tusindvis af opgaveark og aktiviteter, du kan bruge for altid uden at betale eller indtaste et kort. Tegn først abonnement, når premium-hylden er det værd for dig.",
+      "q3": "Hvordan opsiger jeg?",
+      "a3": "Med ét klik fra din betalingsside — ingen mails, ingen telefonopkald. Abonnementet fornys bare ikke, og du beholder adgangen, indtil perioden udløber.",
+      "q4": "Skal mine elever have en konto?",
+      "a4": "Aldrig. Børn logger aldrig ind på LessonCraftStudio. Du deler et link; de spiller. Vi indsamler slet ingen elevdata.",
+      "q5": "Hvilke betalingsmetoder og hvilken valuta bruger I?",
+      "a5": "Betalingen håndteres af Lemon Squeezy (kort, PayPal i mange lande) og trækkes i amerikanske dollars — din bank omregner til dagens kurs. Priser vist i € eller kr er omtrentlige."
+    }
+  },
+  "subscribeThanks": {
+    "title": "Velkommen om bord!",
+    "body": "Dit abonnement er aktivt. Det kan tage et par sekunder, før din konto følger med — genindlæs arbejdsrummet, hvis det ikke vises endnu.",
+    "emailNote": "Ny her? Vi har sendt dig en mail med et link til at vælge din adgangskode.",
+    "cta": "Gå til dit arbejdsrum"
   }
 }

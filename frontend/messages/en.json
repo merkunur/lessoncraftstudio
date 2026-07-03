@@ -917,6 +917,9 @@
       "errorGeneric": "Something went wrong. Please try again."
     },
     "gate": {
+      "subscriberTitle": "This area is part of the LessonCraftStudio subscription",
+      "subscriberBody": "Collections and workspace tools are subscriber features. Everything else on LessonCraftStudio — worksheets, activities, and printables — stays free.",
+      "subscriberCta": "See plans",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -3643,6 +3646,7 @@
     "hospital__kindergarten": "Hospital worksheets for kindergarten turn a place five- to seven-year-olds have visited into practice and reassuring role-play. The picture set — doctor, nurse, bed, ambulance, and bandage — carries children through counting and early addition, sorting and matching, odd-one-out, and first words, so caring-role vocabulary doubles as real skill work. Talking through a hospital visit also helps young children feel calmer about one, and the clear pictures welcome children still building the classroom language. This page gathers the hospital-themed worksheets pitched at the kindergarten stage. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in."
   },
   "workspace": {
+    "billing": { "line": "Teacher subscription — active", "renewsOn": "renews", "manage": "Manage billing" },
     "metadata": {
       "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
@@ -3652,6 +3656,9 @@
       "welcomeLine": "Your collections and recent activity, all in one place."
     },
     "gate": {
+      "subscriberTitle": "This area is part of the LessonCraftStudio subscription",
+      "subscriberBody": "Collections and workspace tools are subscriber features. Everything else on LessonCraftStudio — worksheets, activities, and printables — stays free.",
+      "subscriberCta": "See plans",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -3979,5 +3986,58 @@
     "themesWord": "themes",
     "allFormats": "All formats",
     "breadcrumb": "Languages"
+  },
+  "pricingPage": {
+    "meta": {
+      "title": "Plans & Pricing — LessonCraftStudio",
+      "description": "One simple teacher subscription: the interactive storybook library, the full creation suite, and classroom sharing tools. Everything else on LessonCraftStudio stays free forever."
+    },
+    "hero": {
+      "title": "Simple pricing, built for teachers",
+      "subtitle": "Everything you use today stays free — worksheets, activities, interactive play, and PDFs. The subscription adds the deep shelf: the storybook library, the full creation suite, and classroom sharing tools."
+    },
+    "free": {
+      "title": "Free forever",
+      "blurb": "No account needed. No limits. This is the LessonCraftStudio you already know.",
+      "item1": "45,000+ printable worksheets with answer keys",
+      "item2": "Play every interactive worksheet — no login, no caps",
+      "item3": "200+ curriculum-aligned learning activities",
+      "item4": "All 29 worksheet makers with PDF output",
+      "item5": "Embed worksheets on your class blog or school site",
+      "item6": "Everything in 11 languages"
+    },
+    "tier": {
+      "name": "Teacher",
+      "priceSuffix": "per year",
+      "includedTitle": "Everything free, plus",
+      "item1": "The full interactive storybook library — every story, every page, with narration",
+      "item2": "The creation suite: unlimited interactive worksheets from all 29 makers, watermark-free",
+      "item3": "Host your creations online and share them with your class by link",
+      "item4": "Collections and workspace tools to organize everything",
+      "item5": "First access to new premium releases — the story studio and curriculum packs",
+      "ctaAnnual": "Subscribe — $69/year",
+      "ctaMonthly": "Or $8.99/month",
+      "microcopy": "No trial card tricks — the free catalog is the trial. Cancel renewal anytime. VAT included where applicable.",
+      "familyTeaser": "A Family plan for home use is coming soon."
+    },
+    "faq": {
+      "title": "Questions & answers",
+      "q1": "Will the free content stay free?",
+      "a1": "Yes — permanently. Worksheets, activities, interactive play, PDFs, and the makers' basic use are free forever. The subscription only adds new, deeper material on top.",
+      "q2": "Is there a free trial?",
+      "a2": "The free catalog is the trial — thousands of worksheets and activities you can use forever without paying or entering a card. Subscribe only when the premium shelf is worth it to you.",
+      "q3": "How do I cancel?",
+      "a3": "In one click from your billing page — no emails, no phone calls. Your subscription simply doesn't renew, and you keep access until the period ends.",
+      "q4": "Do my students need accounts?",
+      "a4": "Never. Children never sign in on LessonCraftStudio. You share a link; they play. We collect no student data at all.",
+      "q5": "What payment methods and currency do you use?",
+      "a5": "Payment is handled by Lemon Squeezy (cards, PayPal in many regions) and charged in US dollars — your bank converts at the day's rate. Prices shown in € or kr are approximate."
+    }
+  },
+  "subscribeThanks": {
+    "title": "Welcome aboard!",
+    "body": "Your subscription is active. It can take a few seconds for your account to catch up — refresh the workspace if it doesn't show yet.",
+    "emailNote": "New here? We've emailed you a link to set your password.",
+    "cta": "Go to your workspace"
   }
 }

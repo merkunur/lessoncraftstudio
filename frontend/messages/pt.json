@@ -3657,6 +3657,9 @@
       "errorGeneric": "Something went wrong. Please try again."
     },
     "gate": {
+      "subscriberTitle": "Esta área faz parte da assinatura do LessonCraftStudio",
+      "subscriberBody": "As coleções e as ferramentas do espaço de trabalho são recursos para assinantes. Todo o resto no LessonCraftStudio — atividades, exercícios e materiais para imprimir — continua gratuito.",
+      "subscriberCta": "Ver planos",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -3689,6 +3692,7 @@
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
   },
   "workspace": {
+    "billing": { "line": "Assinatura Professor — ativa", "renewsOn": "renova em", "manage": "Gerenciar cobrança" },
     "metadata": {
       "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
@@ -3698,6 +3702,9 @@
       "welcomeLine": "Your collections and recent activity, all in one place."
     },
     "gate": {
+      "subscriberTitle": "Esta área faz parte da assinatura do LessonCraftStudio",
+      "subscriberBody": "As coleções e as ferramentas do espaço de trabalho são recursos para assinantes. Todo o resto no LessonCraftStudio — atividades, exercícios e materiais para imprimir — continua gratuito.",
+      "subscriberCta": "Ver planos",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -3983,5 +3990,58 @@
     "themesWord": "temas",
     "allFormats": "Todos os formatos",
     "breadcrumb": "Idiomas"
+  },
+  "pricingPage": {
+    "meta": {
+      "title": "Planos e preços — LessonCraftStudio",
+      "description": "Uma assinatura para professores: histórias interativas, ferramentas de criação e compartilhamento com a turma. Todo o resto continua grátis para sempre."
+    },
+    "hero": {
+      "title": "Preço simples, feito para professores",
+      "subtitle": "Tudo o que você usa hoje continua grátis — atividades para imprimir, jogos interativos e PDFs. A assinatura adiciona a prateleira premium: a biblioteca de histórias interativas, o pacote completo de criação e as ferramentas para compartilhar com a turma."
+    },
+    "free": {
+      "title": "Grátis para sempre",
+      "blurb": "Sem cadastro. Sem limites. É o LessonCraftStudio que você já conhece.",
+      "item1": "Mais de 45.000 atividades para imprimir com gabarito",
+      "item2": "Jogue todas as atividades interativas — sem login, sem limite",
+      "item3": "Mais de 200 atividades de aprendizagem alinhadas ao currículo",
+      "item4": "Todos os 29 geradores de atividades com saída em PDF",
+      "item5": "Incorpore atividades no blog da turma ou no site da escola",
+      "item6": "Tudo em 11 idiomas"
+    },
+    "tier": {
+      "name": "Professor",
+      "priceSuffix": "por ano",
+      "includedTitle": "Tudo do grátis, e mais",
+      "item1": "A biblioteca completa de histórias interativas — cada história, cada página, com narração",
+      "item2": "O pacote de criação: atividades interativas ilimitadas nos 29 geradores, sem marca-d'água",
+      "item3": "Hospede suas criações online e compartilhe com a turma por link",
+      "item4": "Coleções e espaço de trabalho para organizar tudo",
+      "item5": "Acesso antecipado aos novos lançamentos premium — o estúdio de histórias e os pacotes curriculares",
+      "ctaAnnual": "Assinar — $69/ano",
+      "ctaMonthly": "Ou $8.99/mês",
+      "microcopy": "Sem pegadinha de cartão no teste — o catálogo gratuito é o teste. Cancele a renovação quando quiser. Impostos incluídos quando aplicável.",
+      "familyTeaser": "Um plano Família para usar em casa está chegando."
+    },
+    "faq": {
+      "title": "Perguntas e respostas",
+      "q1": "O conteúdo gratuito vai continuar grátis?",
+      "a1": "Sim — para sempre. As atividades para imprimir, os jogos interativos, os PDFs e o uso básico dos geradores continuam gratuitos para sempre. A assinatura só adiciona material novo e mais completo por cima.",
+      "q2": "Tem teste grátis?",
+      "a2": "O catálogo gratuito é o teste — milhares de atividades que você pode usar para sempre sem pagar nem cadastrar cartão. Assine só quando a prateleira premium valer a pena para você.",
+      "q3": "Como faço para cancelar?",
+      "a3": "Com um clique na sua página de cobrança — sem e-mails, sem telefonemas. Sua assinatura simplesmente não renova, e você mantém o acesso até o fim do período.",
+      "q4": "Meus alunos precisam de conta?",
+      "a4": "Nunca. As crianças nunca fazem login no LessonCraftStudio. Você compartilha um link; elas jogam. Não coletamos nenhum dado dos alunos.",
+      "q5": "Quais formas de pagamento e qual moeda vocês usam?",
+      "a5": "O pagamento é processado pela Lemon Squeezy (cartões, PayPal em várias regiões) e cobrado em dólares americanos — seu banco converte pelo câmbio do dia. Os preços exibidos em € ou kr são aproximados."
+    }
+  },
+  "subscribeThanks": {
+    "title": "Boas-vindas!",
+    "body": "Sua assinatura está ativa. Sua conta pode levar alguns segundos para atualizar — recarregue o espaço de trabalho se ainda não aparecer.",
+    "emailNote": "É novo por aqui? Enviamos por e-mail um link para você criar sua senha.",
+    "cta": "Ir para o espaço de trabalho"
   }
 }

@@ -3672,6 +3672,9 @@
       "errorGeneric": "Something went wrong. Please try again."
     },
     "gate": {
+      "subscriberTitle": "Quest'area fa parte dell'abbonamento LessonCraftStudio",
+      "subscriberBody": "Le raccolte e gli strumenti dell'area di lavoro sono funzioni per abbonati. Tutto il resto su LessonCraftStudio — schede, attività e materiali da stampare — resta gratuito.",
+      "subscriberCta": "Vedi i piani",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -3704,6 +3707,7 @@
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
   },
   "workspace": {
+    "billing": { "line": "Abbonamento Insegnante — attivo", "renewsOn": "si rinnova il", "manage": "Gestisci fatturazione" },
     "metadata": {
       "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
@@ -3713,6 +3717,9 @@
       "welcomeLine": "Your collections and recent activity, all in one place."
     },
     "gate": {
+      "subscriberTitle": "Quest'area fa parte dell'abbonamento LessonCraftStudio",
+      "subscriberBody": "Le raccolte e gli strumenti dell'area di lavoro sono funzioni per abbonati. Tutto il resto su LessonCraftStudio — schede, attività e materiali da stampare — resta gratuito.",
+      "subscriberCta": "Vedi i piani",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -3998,5 +4005,58 @@
     "themesWord": "temi",
     "allFormats": "Tutti i formati",
     "breadcrumb": "Lingue"
+  },
+  "pricingPage": {
+    "meta": {
+      "title": "Piani e prezzi — LessonCraftStudio",
+      "description": "Un unico abbonamento per insegnanti: storie interattive, suite di creazione e condivisione con la classe. Tutto il resto resta gratuito per sempre."
+    },
+    "hero": {
+      "title": "Prezzi semplici, pensati per gli insegnanti",
+      "subtitle": "Tutto ciò che usi oggi resta gratuito — schede, attività, gioco interattivo e PDF. L'abbonamento aggiunge il ripiano premium: la biblioteca di storie interattive, la suite di creazione completa e gli strumenti per condividere con la classe."
+    },
+    "free": {
+      "title": "Gratis per sempre",
+      "blurb": "Nessun account. Nessun limite. È il LessonCraftStudio che già conosci.",
+      "item1": "Oltre 45.000 schede stampabili con soluzioni",
+      "item2": "Gioca con tutte le schede interattive — senza login, senza limiti",
+      "item3": "Oltre 200 attività allineate ai programmi scolastici",
+      "item4": "Tutti i 29 generatori di schede con esportazione in PDF",
+      "item5": "Incorpora le schede nel blog di classe o nel sito della scuola",
+      "item6": "Tutto in 11 lingue"
+    },
+    "tier": {
+      "name": "Insegnante",
+      "priceSuffix": "all'anno",
+      "includedTitle": "Tutto il gratis, e in più",
+      "item1": "L'intera biblioteca di storie interattive — ogni storia, ogni pagina, con narrazione",
+      "item2": "La suite di creazione: schede interattive illimitate da tutti i 29 generatori, senza filigrana",
+      "item3": "Pubblica online le tue creazioni e condividile con la classe tramite link",
+      "item4": "Raccolte e area di lavoro per organizzare tutto",
+      "item5": "Accesso in anteprima alle novità premium — lo studio delle storie e i pacchetti didattici",
+      "ctaAnnual": "Abbonati — $69/anno",
+      "ctaMonthly": "Oppure $8.99/mese",
+      "microcopy": "Nessuna prova con carta a trabocchetto: il catalogo gratuito è la prova. Annulla il rinnovo quando vuoi. IVA inclusa dove applicabile.",
+      "familyTeaser": "Presto in arrivo un piano Famiglia per l'uso a casa."
+    },
+    "faq": {
+      "title": "Domande e risposte",
+      "q1": "I contenuti gratuiti resteranno gratuiti?",
+      "a1": "Sì — per sempre. Schede, attività, gioco interattivo, PDF e l'uso di base dei generatori restano gratuiti per sempre. L'abbonamento aggiunge soltanto materiale nuovo e più approfondito.",
+      "q2": "C'è una prova gratuita?",
+      "a2": "Il catalogo gratuito è la prova — migliaia di schede e attività da usare per sempre, senza pagare né inserire una carta. Abbonati solo quando il ripiano premium vale davvero la pena per te.",
+      "q3": "Come si annulla?",
+      "a3": "Con un clic dalla pagina di fatturazione — niente email, niente telefonate. L'abbonamento semplicemente non si rinnova e mantieni l'accesso fino alla fine del periodo.",
+      "q4": "I miei alunni hanno bisogno di un account?",
+      "a4": "Mai. I bambini non accedono mai a LessonCraftStudio. Tu condividi un link; loro giocano. Non raccogliamo alcun dato sugli alunni.",
+      "q5": "Quali metodi di pagamento e quale valuta usate?",
+      "a5": "Il pagamento è gestito da Lemon Squeezy (carte, PayPal in molti Paesi) e addebitato in dollari USA — la tua banca converte al cambio del giorno. I prezzi mostrati in € o kr sono indicativi."
+    }
+  },
+  "subscribeThanks": {
+    "title": "Ti diamo il benvenuto!",
+    "body": "Il tuo abbonamento è attivo. L'account può impiegare qualche secondo ad aggiornarsi — ricarica l'area di lavoro se non compare ancora.",
+    "emailNote": "Sei nuovo qui? Ti abbiamo inviato per email un link per impostare la password.",
+    "cta": "Vai alla tua area di lavoro"
   }
 }

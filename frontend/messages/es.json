@@ -880,6 +880,9 @@
       "errorGeneric": "Algo salió mal. Por favor, inténtelo de nuevo."
     },
     "gate": {
+      "subscriberTitle": "Esta sección forma parte de la suscripción de LessonCraftStudio",
+      "subscriberBody": "Las colecciones y las herramientas del espacio de trabajo son funciones para suscriptores. Todo lo demás en LessonCraftStudio — hojas de trabajo, actividades e imprimibles — sigue siendo gratis.",
+      "subscriberCta": "Ver planes",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -3335,6 +3338,7 @@
     "camping__kindergarten": "Las fichas con tema de campamento para preescolar llevan el conteo, la clasificación, el emparejado y las primeras letras al aire libre, con tiendas de campaña, mochilas, fogatas y linternas. A los cinco a siete años los niños reconocen estas imágenes al instante, así que la imagen sostiene la tarea mientras la mente trabaja: cuentan cuántas tiendas hay, agrupan lo que se lleva de acampada, emparejan cada objeto con su pareja o reconocen la letra inicial de cada palabra. El tema de la aventura mantiene la atención y abre conversación sobre la naturaleza. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que encajan en cualquier aula."
   },
   "workspace": {
+    "billing": { "line": "Suscripción Docente — activa", "renewsOn": "se renueva el", "manage": "Administrar facturación" },
     "metadata": {
       "title": "Su espacio de trabajo",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
@@ -3344,6 +3348,9 @@
       "welcomeLine": "Sus colecciones y su actividad reciente, todo en un solo lugar."
     },
     "gate": {
+      "subscriberTitle": "Esta sección forma parte de la suscripción de LessonCraftStudio",
+      "subscriberBody": "Las colecciones y las herramientas del espacio de trabajo son funciones para suscriptores. Todo lo demás en LessonCraftStudio — hojas de trabajo, actividades e imprimibles — sigue siendo gratis.",
+      "subscriberCta": "Ver planes",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -3995,5 +4002,58 @@
     "themesWord": "temas",
     "allFormats": "Todos los formatos",
     "breadcrumb": "Idiomas"
+  },
+  "pricingPage": {
+    "meta": {
+      "title": "Planes y precios — LessonCraftStudio",
+      "description": "Una suscripción para maestros: cuentos interactivos, herramientas de creación y compartir en clase. Todo lo demás sigue gratis para siempre."
+    },
+    "hero": {
+      "title": "Precios simples, pensados para maestros",
+      "subtitle": "Todo lo que usas hoy sigue gratis — hojas de trabajo, actividades, juego interactivo y PDFs. La suscripción agrega el nivel premium: la biblioteca de cuentos interactivos, las herramientas de creación completas y las opciones para compartir con tu grupo."
+    },
+    "free": {
+      "title": "Gratis para siempre",
+      "blurb": "Sin cuenta. Sin límites. Es el LessonCraftStudio que ya conoces.",
+      "item1": "Más de 45,000 hojas de trabajo para imprimir con respuestas",
+      "item2": "Juega todas las hojas de trabajo interactivas — sin registro, sin topes",
+      "item3": "Más de 200 actividades alineadas al plan de estudios",
+      "item4": "Los 29 generadores de hojas de trabajo con salida en PDF",
+      "item5": "Inserta hojas de trabajo en el blog de tu clase o el sitio de tu escuela",
+      "item6": "Todo en 11 idiomas"
+    },
+    "tier": {
+      "name": "Docente",
+      "priceSuffix": "al año",
+      "includedTitle": "Todo lo gratis, y además",
+      "item1": "La biblioteca completa de cuentos interactivos — cada cuento, cada página, con narración",
+      "item2": "Las herramientas de creación: hojas de trabajo interactivas ilimitadas con los 29 generadores, sin marca de agua",
+      "item3": "Aloja tus creaciones en línea y compártelas con tu grupo con un enlace",
+      "item4": "Colecciones y espacio de trabajo para organizarlo todo",
+      "item5": "Acceso anticipado a los nuevos lanzamientos premium — el estudio de cuentos y los paquetes curriculares",
+      "ctaAnnual": "Suscríbete — $69/año",
+      "ctaMonthly": "O $8.99/mes",
+      "microcopy": "Sin trucos de tarjeta en la prueba — el catálogo gratuito es la prueba. Cancela la renovación cuando quieras. IVA incluido donde aplica.",
+      "familyTeaser": "Muy pronto: un plan Familiar para usar en casa."
+    },
+    "faq": {
+      "title": "Preguntas y respuestas",
+      "q1": "¿El contenido gratuito seguirá siendo gratis?",
+      "a1": "Sí — para siempre. Las hojas de trabajo, las actividades, el juego interactivo, los PDFs y el uso básico de los generadores son gratis para siempre. La suscripción solo agrega material nuevo y más profundo encima.",
+      "q2": "¿Hay una prueba gratis?",
+      "a2": "El catálogo gratuito es la prueba — miles de hojas de trabajo y actividades que puedes usar para siempre sin pagar ni registrar una tarjeta. Suscríbete solo cuando el nivel premium valga la pena para ti.",
+      "q3": "¿Cómo cancelo?",
+      "a3": "Con un clic desde tu página de facturación — sin correos ni llamadas. Tu suscripción simplemente no se renueva y conservas el acceso hasta que termine el periodo.",
+      "q4": "¿Mis alumnos necesitan cuenta?",
+      "a4": "Nunca. Los niños nunca inician sesión en LessonCraftStudio. Tú compartes un enlace; ellos juegan. No recopilamos ningún dato de los alumnos.",
+      "q5": "¿Qué métodos de pago y qué moneda usan?",
+      "a5": "El pago lo procesa Lemon Squeezy (tarjetas, PayPal en muchas regiones) y se cobra en dólares estadounidenses — tu banco convierte al tipo de cambio del día. Los precios mostrados en € o kr son aproximados."
+    }
+  },
+  "subscribeThanks": {
+    "title": "¡Te damos la bienvenida!",
+    "body": "Tu suscripción está activa. Tu cuenta puede tardar unos segundos en actualizarse — recarga el espacio de trabajo si aún no aparece.",
+    "emailNote": "¿Eres nuevo por aquí? Te enviamos por correo un enlace para crear tu contraseña.",
+    "cta": "Ir a tu espacio de trabajo"
   }
 }

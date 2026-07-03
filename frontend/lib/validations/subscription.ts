@@ -13,12 +13,6 @@ export const revokeSessionSchema = z.object({
   sessionId: z.string().cuid('Invalid session ID format'),
 });
 
-export const createCheckoutSchema = z.object({
-  priceId: z.string().startsWith('price_', 'Invalid Stripe price ID'),
-  successUrl: z.string().url('Invalid success URL').optional(),
-  cancelUrl: z.string().url('Invalid cancel URL').optional(),
-});
-
 export const upgradeUserSchema = z.object({
   userId: z.string().cuid('Invalid user ID format'),
   tier: z.enum(['free', 'core', 'full'], {

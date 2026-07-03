@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useAuth } from '@/contexts/auth-context';
 import { Button } from '@/components/ui/Button';
 
@@ -14,6 +14,7 @@ import { Button } from '@/components/ui/Button';
 
 export default function SubscribeCTA() {
   const t = useTranslations('homepage.subscription');
+  const locale = useLocale();
   const { user } = useAuth();
 
   const homepageButtonOverride =
@@ -26,7 +27,7 @@ export default function SubscribeCTA() {
       <Button
         variant="ghost"
         size="lg"
-        href="/workspace"
+        href={`/${locale}/workspace`}
         className={homepageGhostOverride}
       >
         {t('alreadySubscribedCta')}
@@ -39,7 +40,7 @@ export default function SubscribeCTA() {
       <Button
         variant="primary"
         size="lg"
-        href="/en/auth/signup"
+        href={`/${locale}/auth/signup`}
         className={homepageButtonOverride}
       >
         {t('subscribeCta')}

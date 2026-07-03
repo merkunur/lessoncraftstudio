@@ -2074,6 +2074,9 @@
       "errorGeneric": "Something went wrong. Please try again."
     },
     "gate": {
+      "subscriberTitle": "Det här området ingår i LessonCraftStudio-prenumerationen",
+      "subscriberBody": "Samlingar och arbetsytans verktyg är prenumerationsfunktioner. Allt annat på LessonCraftStudio — arbetsblad, aktiviteter och utskrivbart material — förblir gratis.",
+      "subscriberCta": "Se prenumerationer",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -2106,6 +2109,7 @@
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
   },
   "workspace": {
+    "billing": { "line": "Lärarprenumeration — aktiv", "renewsOn": "förnyas den", "manage": "Hantera fakturering" },
     "metadata": {
       "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
@@ -2115,6 +2119,9 @@
       "welcomeLine": "Your collections and recent activity, all in one place."
     },
     "gate": {
+      "subscriberTitle": "Det här området ingår i LessonCraftStudio-prenumerationen",
+      "subscriberBody": "Samlingar och arbetsytans verktyg är prenumerationsfunktioner. Allt annat på LessonCraftStudio — arbetsblad, aktiviteter och utskrivbart material — förblir gratis.",
+      "subscriberCta": "Se prenumerationer",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -2400,5 +2407,58 @@
     "themesWord": "teman",
     "allFormats": "Alla format",
     "breadcrumb": "Språk"
+  },
+  "pricingPage": {
+    "meta": {
+      "title": "Priser och abonnemang — LessonCraftStudio",
+      "description": "Ett enkelt lärarabonnemang: interaktivt sagobibliotek, hela skaparsviten och delning med klassen. Allt annat på LessonCraftStudio förblir gratis — för alltid."
+    },
+    "hero": {
+      "title": "Enkla priser, gjorda för lärare",
+      "subtitle": "Allt du använder i dag förblir gratis — arbetsblad, aktiviteter, interaktiv träning och PDF:er. Abonnemanget lägger till djupet: sagobiblioteket, hela skaparsviten och verktyg för att dela med klassen."
+    },
+    "free": {
+      "title": "Gratis för alltid",
+      "blurb": "Inget konto behövs. Inga begränsningar. Det här är det LessonCraftStudio du redan känner.",
+      "item1": "Över 45 000 utskrivbara arbetsblad med facit",
+      "item2": "Spela alla interaktiva arbetsblad — utan inloggning, utan tak",
+      "item3": "200+ läroplansanknutna aktiviteter från förskoleklass till årskurs 2",
+      "item4": "Alla 29 arbetsbladsgeneratorer med PDF-utskrift",
+      "item5": "Bädda in arbetsblad på klassbloggen eller skolans webbplats",
+      "item6": "Allt på 11 språk"
+    },
+    "tier": {
+      "name": "Lärare",
+      "priceSuffix": "per år",
+      "includedTitle": "Allt som är gratis, plus",
+      "item1": "Hela det interaktiva sagobiblioteket — varje bok, varje sida, med uppläsning",
+      "item2": "Skaparsviten: obegränsat med interaktiva arbetsblad från alla 29 generatorer, utan vattenstämpel",
+      "item3": "Publicera dina egna arbetsblad online och dela dem med klassen via länk",
+      "item4": "Samlingar och arbetsyteverktyg som håller ordning på allt",
+      "item5": "Först i kön till nya premiumsläpp — sagostudion och läroplanspaketen",
+      "ctaAnnual": "Prenumerera — $69/år",
+      "ctaMonthly": "Eller $8.99/månad",
+      "microcopy": "Inga provperiodstrick med kort — gratiskatalogen är din provperiod. Avsluta förnyelsen när du vill. Moms ingår där det är tillämpligt.",
+      "familyTeaser": "En familjeplan för hemmabruk kommer snart."
+    },
+    "faq": {
+      "title": "Frågor och svar",
+      "q1": "Förblir gratisinnehållet gratis?",
+      "a1": "Ja — för alltid. Arbetsblad, aktiviteter, interaktiv träning, PDF:er och generatorernas grundfunktioner är gratis för alltid. Abonnemanget lägger bara till nytt, djupare material ovanpå.",
+      "q2": "Finns det en gratis provperiod?",
+      "a2": "Gratiskatalogen är provperioden — tusentals arbetsblad och aktiviteter som du kan använda för alltid utan att betala eller ange ett kort. Prenumerera först när premiumhyllan är värd det för dig.",
+      "q3": "Hur säger jag upp abonnemanget?",
+      "a3": "Med ett klick från din betalningssida — inga mejl, inga telefonsamtal. Abonnemanget förnyas helt enkelt inte, och du behåller åtkomsten tills perioden tar slut.",
+      "q4": "Behöver mina elever konton?",
+      "a4": "Aldrig. Barn loggar aldrig in på LessonCraftStudio. Du delar en länk; de spelar. Vi samlar inte in några elevdata alls.",
+      "q5": "Vilka betalsätt och vilken valuta använder ni?",
+      "a5": "Betalningen hanteras av Lemon Squeezy (kort, PayPal i många länder) och dras i amerikanska dollar — din bank växlar till dagskursen. Priser som visas i kr (t.ex. ≈ 499 kr) är ungefärliga."
+    }
+  },
+  "subscribeThanks": {
+    "title": "Välkommen ombord!",
+    "body": "Ditt abonnemang är aktivt. Det kan ta några sekunder innan kontot hinner ikapp — ladda om arbetsytan om det inte syns än.",
+    "emailNote": "Ny här? Vi har mejlat dig en länk för att välja lösenord.",
+    "cta": "Till din arbetsyta"
   }
 }

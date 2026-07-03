@@ -12,9 +12,9 @@
     return de ? [
       { sel: '#stu-rail', title: 'Ihre Seiten', body: 'Jede Geschichte besteht aus Seiten. Hier fügen Sie Seiten hinzu und wechseln zwischen ihnen.' },
       { sel: '#stu-canvas-host', title: 'Die Bühne', body: 'Ziehen Sie Figuren dorthin, wo sie stehen sollen. Mit dem runden Griff ändern Sie ihre Größe.' },
-      { sel: '#stu-panel', title: 'Das Seiten-Rezept', body: 'Arbeiten Sie die Schritte durch: Bild → Figuren → Erzähltext → Aufgabe. Alles wird automatisch gespeichert.' },
-      { sel: null, title: 'Arbeitsblatt-Aufgaben', body: 'Bei „Aufgabe auswählen" finden Sie auch alle Arbeitsblatt-Generatoren — gestalten Sie ein Arbeitsblatt, es wird eine spielbare Aufgabe.' },
-      { sel: '#stu-topbar', title: 'Vorschau', body: 'Mit „Als Schüler ansehen" erleben Sie die Geschichte genau wie Ihre Klasse. Viel Freude!' }
+      { sel: '#stu-panel', title: 'Schritt für Schritt zur Seite', body: 'Arbeiten Sie die Schritte durch: Bild → Figuren → Erzähltext → Aufgabe. Alles wird automatisch gespeichert.' },
+      { sel: null, title: 'Arbeitsblatt-Aufgaben', body: 'Unter „Aufgabe auswählen“ finden Sie auch alle Arbeitsblatt-Generatoren – gestalten Sie ein Arbeitsblatt, und daraus wird eine spielbare Aufgabe.' },
+      { sel: '#stu-topbar', title: 'Vorschau', body: 'Mit „Aus Schülersicht ansehen“ erleben Sie die Geschichte genau wie Ihre Klasse. Viel Freude!' }
     ] : [
       { sel: '#stu-rail', title: 'Your pages', body: 'A story is a stack of pages. Add pages and hop between them here.' },
       { sel: '#stu-canvas-host', title: 'The stage', body: 'Drag characters where you want them. The round handle changes their size.' },
@@ -56,7 +56,7 @@
       skip.textContent = de ? 'Überspringen' : 'Skip';
       skip.addEventListener('click', done);
       var next = document.createElement('button'); next.className = 'stu-btn stu-btn-small stu-btn-primary';
-      next.textContent = idx === steps.length - 1 ? (de ? 'Los geht\'s!' : 'Let\'s go!') : (de ? 'Weiter' : 'Next');
+      next.textContent = idx === steps.length - 1 ? (de ? 'Los geht’s!' : 'Let\'s go!') : (de ? 'Weiter' : 'Next');
       next.addEventListener('click', function () {
         idx++;
         if (idx >= steps.length) done(); else show();

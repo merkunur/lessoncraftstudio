@@ -2094,6 +2094,9 @@
       "errorGeneric": "Something went wrong. Please try again."
     },
     "gate": {
+      "subscriberTitle": "Cet espace fait partie de l'abonnement LessonCraftStudio",
+      "subscriberBody": "Les collections et les outils de l'espace de travail sont réservés aux abonnés. Tout le reste sur LessonCraftStudio — fiches, activités et supports à imprimer — reste gratuit.",
+      "subscriberCta": "Voir les formules",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -2126,6 +2129,7 @@
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
   },
   "workspace": {
+    "billing": { "line": "Abonnement Enseignant — actif", "renewsOn": "renouvellement le", "manage": "Gérer la facturation" },
     "metadata": {
       "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
@@ -2135,6 +2139,9 @@
       "welcomeLine": "Your collections and recent activity, all in one place."
     },
     "gate": {
+      "subscriberTitle": "Cet espace fait partie de l'abonnement LessonCraftStudio",
+      "subscriberBody": "Les collections et les outils de l'espace de travail sont réservés aux abonnés. Tout le reste sur LessonCraftStudio — fiches, activités et supports à imprimer — reste gratuit.",
+      "subscriberCta": "Voir les formules",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -2420,5 +2427,58 @@
     "themesWord": "thèmes",
     "allFormats": "Tous les formats",
     "breadcrumb": "Langues"
+  },
+  "pricingPage": {
+    "meta": {
+      "title": "Offres et tarifs — LessonCraftStudio",
+      "description": "Un abonnement enseignant unique : histoires interactives, ateliers de création et partage en classe. Tout le reste demeure gratuit, pour toujours."
+    },
+    "hero": {
+      "title": "Un tarif simple, pensé pour les enseignants",
+      "subtitle": "Tout ce que vous utilisez aujourd'hui reste gratuit — fiches, activités, jeu interactif et PDF. L'abonnement ajoute le rayon premium : la bibliothèque d'histoires interactives, les ateliers de création au complet et les outils de partage avec la classe."
+    },
+    "free": {
+      "title": "Gratuit pour toujours",
+      "blurb": "Sans compte. Sans limite. C'est le LessonCraftStudio que vous connaissez déjà.",
+      "item1": "Plus de 45 000 fiches à imprimer avec corrigés",
+      "item2": "Jouez à toutes les fiches interactives — sans connexion, sans quota",
+      "item3": "Plus de 200 activités alignées sur les programmes",
+      "item4": "Les 29 ateliers de création de fiches, avec export PDF",
+      "item5": "Intégrez vos fiches sur le blog de la classe ou le site de l'école",
+      "item6": "Le tout en 11 langues"
+    },
+    "tier": {
+      "name": "Enseignant",
+      "priceSuffix": "par an",
+      "includedTitle": "Tout le gratuit, plus",
+      "item1": "La bibliothèque d'histoires interactives au complet — chaque histoire, chaque page, avec narration",
+      "item2": "La suite de création : fiches interactives illimitées depuis les 29 ateliers, sans filigrane",
+      "item3": "Hébergez vos créations en ligne et partagez-les avec votre classe d'un simple lien",
+      "item4": "Collections et espace de travail pour tout organiser",
+      "item5": "Accès en avant-première aux nouveautés premium — le studio d'histoires et les packs pédagogiques",
+      "ctaAnnual": "S'abonner — $69/an",
+      "ctaMonthly": "Ou $8.99/mois",
+      "microcopy": "Pas d'essai piégé par carte bancaire — le catalogue gratuit fait office d'essai. Résiliez le renouvellement à tout moment. TVA incluse le cas échéant.",
+      "familyTeaser": "Une offre Famille pour la maison arrive bientôt."
+    },
+    "faq": {
+      "title": "Questions et réponses",
+      "q1": "Le contenu gratuit restera-t-il gratuit ?",
+      "a1": "Oui — définitivement. Les fiches, les activités, le jeu interactif, les PDF et l'usage de base des ateliers restent gratuits pour toujours. L'abonnement ne fait qu'ajouter du contenu inédit, plus approfondi.",
+      "q2": "Y a-t-il un essai gratuit ?",
+      "a2": "Le catalogue gratuit est l'essai — des milliers de fiches et d'activités à utiliser pour toujours, sans payer ni saisir de carte. Abonnez-vous seulement quand le rayon premium en vaut la peine pour vous.",
+      "q3": "Comment résilier ?",
+      "a3": "En un clic depuis votre page de facturation — sans e-mail ni appel téléphonique. Votre abonnement ne se renouvelle simplement pas, et vous conservez l'accès jusqu'à la fin de la période.",
+      "q4": "Mes élèves ont-ils besoin d'un compte ?",
+      "a4": "Jamais. Les enfants ne se connectent jamais sur LessonCraftStudio. Vous partagez un lien ; ils jouent. Nous ne collectons aucune donnée sur les élèves.",
+      "q5": "Quels moyens de paiement et quelle devise utilisez-vous ?",
+      "a5": "Le paiement est géré par Lemon Squeezy (cartes, PayPal dans de nombreux pays) et facturé en dollars US — votre banque convertit au taux du jour. Les prix affichés en € ou en kr sont approximatifs."
+    }
+  },
+  "subscribeThanks": {
+    "title": "Bienvenue à bord !",
+    "body": "Votre abonnement est actif. Votre compte peut mettre quelques secondes à se mettre à jour — actualisez l'espace de travail s'il n'apparaît pas encore.",
+    "emailNote": "Nouveau ici ? Nous vous avons envoyé par e-mail un lien pour définir votre mot de passe.",
+    "cta": "Ouvrir mon espace de travail"
   }
 }

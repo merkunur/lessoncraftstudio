@@ -4,6 +4,8 @@ import { useEffect, useState, useCallback } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { useAuth } from '@/contexts/auth-context';
+import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
+import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import CollectionsWidget, { CollectionSummary } from './CollectionsWidget';
 import RecentActivityWidget, { Activity } from './RecentActivityWidget';
 
@@ -69,19 +71,21 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
     );
   }
 
-  if (!user) {
+  if (!isLcsSubscriptionActive(user)) {
     return (
       <main className="container mx-auto px-4 max-w-3xl py-16">
         <h1 className="font-display text-3xl font-semibold text-ink-900 mb-4">
-          {t('gate.signInPromptTitle')}
+          {t('gate.subscriberTitle')}
         </h1>
-        <p className="text-ink-700 mb-8">{t('gate.signInPromptBody')}</p>
-        <Link
-          href={`/${locale}/auth/signup`}
-          className="inline-flex items-center px-6 py-3 rounded-md bg-terracotta-400 text-cream-50 font-semibold hover:bg-terracotta-500 transition"
-        >
-          {t('gate.signInCta')}
-        </Link>
+        <p className="text-ink-700 mb-8">{t('gate.subscriberBody')}</p>
+        {PRICING_PUBLIC && (
+          <Link
+            href={`/${locale}/pricing`}
+            className="inline-flex items-center px-6 py-3 rounded-md bg-terracotta-400 text-cream-50 font-semibold hover:bg-terracotta-500 transition"
+          >
+            {t('gate.subscriberCta')}
+          </Link>
+        )}
       </main>
     );
   }
@@ -95,6 +99,29 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
         </h1>
         <p className="text-ink-700">{t('header.welcomeLine')}</p>
       </header>
+
+      {/* Billing strip — real LS subscribers only (admin bypass has no LS row). */}
+      {user.subscription?.lsSubscriptionId && user.subscription?.status === 'active' && (
+        <section className="mb-10 rounded-lg border border-cream-300 bg-cream-50 px-6 py-4 flex flex-wrap items-center justify-between gap-3">
+          <p className="text-ink-700">
+            {t('billing.line')}
+            {user.subscription?.currentPeriodEnd && (
+              <span className="text-ink-500">
+                {' '}· {t('billing.renewsOn')}{' '}
+                {new Date(user.subscription.currentPeriodEnd).toLocaleDateString(locale)}
+              </span>
+            )}
+          </p>
+          <a
+            href="https://lessoncraftstudio-com.lemonsqueezy.com/billing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-terracotta-500 font-semibold hover:underline"
+          >
+            {t('billing.manage')}
+          </a>
+        </section>
+      )}
 
       {error && <p className="text-terracotta-500 mb-4">{error}</p>}
 

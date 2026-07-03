@@ -2063,6 +2063,9 @@
       "errorGeneric": "Something went wrong. Please try again."
     },
     "gate": {
+      "subscriberTitle": "Tämä osio kuuluu LessonCraftStudio-tilaukseen",
+      "subscriberBody": "Kokoelmat ja työtilan työkalut ovat tilaajien ominaisuuksia. Kaikki muu LessonCraftStudiossa — tehtävät, aktiviteetit ja tulostettavat materiaalit — pysyy ilmaisena.",
+      "subscriberCta": "Katso tilausvaihtoehdot",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -2095,6 +2098,7 @@
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
   },
   "workspace": {
+    "billing": { "line": "Opettajatilaus — aktiivinen", "renewsOn": "uusiutuu", "manage": "Hallinnoi laskutusta" },
     "metadata": {
       "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
@@ -2104,6 +2108,9 @@
       "welcomeLine": "Your collections and recent activity, all in one place."
     },
     "gate": {
+      "subscriberTitle": "Tämä osio kuuluu LessonCraftStudio-tilaukseen",
+      "subscriberBody": "Kokoelmat ja työtilan työkalut ovat tilaajien ominaisuuksia. Kaikki muu LessonCraftStudiossa — tehtävät, aktiviteetit ja tulostettavat materiaalit — pysyy ilmaisena.",
+      "subscriberCta": "Katso tilausvaihtoehdot",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -2389,5 +2396,58 @@
     "themesWord": "aihetta",
     "allFormats": "Kaikki muodot",
     "breadcrumb": "Kielet"
+  },
+  "pricingPage": {
+    "meta": {
+      "title": "Hinnat ja tilaus — LessonCraftStudio",
+      "description": "Yksi selkeä opettajatilaus: interaktiivinen satukirjasto, luontityökalut ja jakaminen luokalle. Kaikki muu LessonCraftStudiossa pysyy ilmaisena — ikuisesti."
+    },
+    "hero": {
+      "title": "Selkeä hinnoittelu opettajille",
+      "subtitle": "Kaikki, mitä käytät nyt, pysyy ilmaisena — tehtävät, aktiviteetit, interaktiivinen harjoittelu ja PDF-tiedostot. Tilaus tuo lisää syvyyttä: satukirjaston, kaikki luontityökalut ja välineet jakamiseen luokan kanssa."
+    },
+    "free": {
+      "title": "Ilmainen ikuisesti",
+      "blurb": "Ei tiliä, ei rajoituksia. Tämä on se LessonCraftStudio, jonka jo tunnet.",
+      "item1": "Yli 45 000 tulostettavaa tehtävää vastauksineen",
+      "item2": "Pelaa kaikkia interaktiivisia tehtäviä — ilman kirjautumista, ilman rajoja",
+      "item3": "200+ opetussuunnitelman mukaista aktiviteettia esiopetuksesta alkuopetukseen",
+      "item4": "Kaikki 29 tehtävägeneraattoria PDF-tulostuksella",
+      "item5": "Upota tehtäviä luokan blogiin tai koulun sivuille",
+      "item6": "Kaikki 11 kielellä"
+    },
+    "tier": {
+      "name": "Opettaja",
+      "priceSuffix": "vuodessa",
+      "includedTitle": "Kaikki ilmainen — ja lisäksi",
+      "item1": "Koko interaktiivinen satukirjasto — jokainen satu ja jokainen sivu ääneen luettuna",
+      "item2": "Luontityökalut: rajattomasti interaktiivisia tehtäviä kaikista 29 generaattorista, ilman vesileimaa",
+      "item3": "Julkaise omat tehtäväsi verkossa ja jaa ne luokalle linkillä",
+      "item4": "Kokoelmat ja työtilan välineet pitävät kaiken järjestyksessä",
+      "item5": "Ensimmäisenä uusiin premium-julkaisuihin — satustudioon ja opetussuunnitelmapaketteihin",
+      "ctaAnnual": "Tilaa — $69/vuosi",
+      "ctaMonthly": "Tai $8.99/kk",
+      "microcopy": "Ei korttitemppuja kokeilujaksolla — ilmainen kirjasto on kokeilujakso. Peru uusiminen milloin tahansa. Alv sisältyy hintaan soveltuvin osin.",
+      "familyTeaser": "Perhetilaus kotikäyttöön on tulossa pian."
+    },
+    "faq": {
+      "title": "Kysymyksiä ja vastauksia",
+      "q1": "Pysyykö ilmainen sisältö ilmaisena?",
+      "a1": "Kyllä — pysyvästi. Tehtävät, aktiviteetit, interaktiivinen harjoittelu, PDF-tiedostot ja generaattoreiden perustoiminnot ovat ilmaisia ikuisesti. Tilaus tuo vain uutta, syvempää materiaalia niiden rinnalle.",
+      "q2": "Onko ilmaista kokeilujaksoa?",
+      "a2": "Ilmainen kirjasto on kokeilujakso — tuhansia tehtäviä ja aktiviteetteja, joita voit käyttää ikuisesti maksamatta ja korttia antamatta. Tilaa vasta, kun premium-sisältö on sinulle sen arvoista.",
+      "q3": "Miten perun tilauksen?",
+      "a3": "Yhdellä klikkauksella laskutussivultasi — ei sähköposteja, ei puheluita. Tilaus ei yksinkertaisesti uusiudu, ja käyttöoikeus säilyy jakson loppuun asti.",
+      "q4": "Tarvitsevatko oppilaani tilit?",
+      "a4": "Eivät koskaan. Lapset eivät kirjaudu LessonCraftStudioon. Sinä jaat linkin; he pelaavat. Emme kerää oppilaista mitään tietoja.",
+      "q5": "Mitä maksutapoja ja valuuttaa käytätte?",
+      "a5": "Maksun käsittelee Lemon Squeezy (kortit, monissa maissa myös PayPal), ja veloitus tapahtuu Yhdysvaltain dollareina — pankkisi muuntaa summan päivän kurssiin. Euroina tai kruunuina (kr) näytetyt hinnat ovat suuntaa-antavia."
+    }
+  },
+  "subscribeThanks": {
+    "title": "Tervetuloa mukaan!",
+    "body": "Tilauksesi on aktiivinen. Tilin päivittyminen voi kestää muutaman sekunnin — päivitä työtila, jos tilaus ei vielä näy.",
+    "emailNote": "Uusi täällä? Lähetimme sähköpostiisi linkin salasanan asettamista varten.",
+    "cta": "Siirry työtilaan"
   }
 }

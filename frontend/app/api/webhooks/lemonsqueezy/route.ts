@@ -212,6 +212,10 @@ async function handleSubscriptionCreated(payload: any, eventId: string) {
     const buyerEmail = (attrs.customer_email || attrs.user_email || '').toLowerCase().trim();
     const buyerName = attrs.user_name || null;
     const lsStatus = String(attrs.status || 'active');
+    // Buyer locale rides in checkout custom data (the pricing page appends
+    // checkout[custom][locale]=<locale> to the buy link); fallback en.
+    const rawLocale = String(payload.meta?.custom_data?.locale || '').toLowerCase();
+    const buyerLocale = ['en','de','fr','es','it','pt','nl','sv','da','no','fi'].includes(rawLocale) ? rawLocale : 'en';
     const renewsAt = attrs.renews_at ? new Date(attrs.renews_at) : null;
     const trialEndsAt = attrs.trial_ends_at ? new Date(attrs.trial_ends_at) : null;
 
@@ -277,7 +281,7 @@ async function handleSubscriptionCreated(payload: any, eventId: string) {
           email: buyerEmail,
           firstName: user.firstName || 'there',
           token: resetToken,
-          language: 'en',
+          language: buyerLocale,
         });
 
         console.log(`LS subscription webhook: sent password setup email to ${buyerEmail}`);

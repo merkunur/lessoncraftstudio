@@ -4,6 +4,8 @@ import { useEffect, useState, useCallback } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { useAuth } from '@/contexts/auth-context';
+import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
+import { PRICING_PUBLIC } from '@/config/subscription-launch';
 
 interface CollectionSummary {
   id: string;
@@ -77,19 +79,21 @@ export default function CollectionsListClient({ locale }: { locale: string }) {
     );
   }
 
-  if (!user) {
+  if (!isLcsSubscriptionActive(user)) {
     return (
       <main className="container mx-auto px-4 max-w-3xl py-16">
         <h1 className="font-display text-3xl font-semibold text-ink-900 mb-4">
-          {t('gate.signInPromptTitle')}
+          {t('gate.subscriberTitle')}
         </h1>
-        <p className="text-ink-700 mb-8">{t('gate.signInPromptBody')}</p>
-        <Link
-          href={`/${locale}/auth/signup`}
-          className="inline-flex items-center px-6 py-3 rounded-md bg-terracotta-400 text-cream-50 font-semibold hover:bg-terracotta-500 transition"
-        >
-          {t('gate.signInCta')}
-        </Link>
+        <p className="text-ink-700 mb-8">{t('gate.subscriberBody')}</p>
+        {PRICING_PUBLIC && (
+          <Link
+            href={`/${locale}/pricing`}
+            className="inline-flex items-center px-6 py-3 rounded-md bg-terracotta-400 text-cream-50 font-semibold hover:bg-terracotta-500 transition"
+          >
+            {t('gate.subscriberCta')}
+          </Link>
+        )}
       </main>
     );
   }

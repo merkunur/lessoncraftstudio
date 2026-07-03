@@ -38,6 +38,13 @@ export const SUBSCRIPTION_PRODUCT = {
   // (numeric IDs are operationally fragile across Lemon Squeezy environments).
   slug: "lcs-subscription",
 
+  // Monthly variant (commission #2, roadmap pricing ruling: $8.99/mo).
+  // null until the operator creates the variant in the LS dashboard (B3 guided
+  // step) — the pricing page hides the monthly button while this is null.
+  monthlyPriceUsd: 8.99,
+  monthlyVariantId: null as number | null,
+  monthlyBuyNowUrl: null as string | null,
+
   // Lemon Squeezy checkout URL.
   //
   // Uses the variant SLUG (UUID) form rather than the numeric-variant-id form.

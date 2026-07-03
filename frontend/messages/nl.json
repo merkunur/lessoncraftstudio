@@ -867,6 +867,9 @@
       "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw."
     },
     "gate": {
+      "subscriberTitle": "Dit onderdeel hoort bij het LessonCraftStudio-abonnement",
+      "subscriberBody": "Collecties en werkruimte-tools zijn functies voor abonnees. Al het andere op LessonCraftStudio — werkbladen, activiteiten en printables — blijft gratis.",
+      "subscriberCta": "Bekijk abonnementen",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -1737,6 +1740,7 @@
     "find-objects": "Bekijk hier de objecten zoeken werkbladen, waarin kinderen verstopte voorwerpen in een drukke scene zoeken en markeren. Voor jonge kinderen oefen je visuele discriminatie en goed kijken, met plaatjes ondersteund die de scene rijk maken. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als speelse opdracht of in een rustige hoek. De objecten zoeken werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
   },
   "workspace": {
+    "billing": { "line": "Leraren-abonnement — actief", "renewsOn": "verlengt op", "manage": "Facturering beheren" },
     "metadata": {
       "title": "Uw werkruimte",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
@@ -1746,6 +1750,9 @@
       "welcomeLine": "Uw verzamelingen en recente activiteit, alles op één plek."
     },
     "gate": {
+      "subscriberTitle": "Dit onderdeel hoort bij het LessonCraftStudio-abonnement",
+      "subscriberBody": "Collecties en werkruimte-tools zijn functies voor abonnees. Al het andere op LessonCraftStudio — werkbladen, activiteiten en printables — blijft gratis.",
+      "subscriberCta": "Bekijk abonnementen",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
@@ -2400,5 +2407,58 @@
     "themesWord": "thema’s",
     "allFormats": "Alle formats",
     "breadcrumb": "Talen"
+  },
+  "pricingPage": {
+    "meta": {
+      "title": "Prijzen & abonnement — LessonCraftStudio",
+      "description": "Eén abonnement voor leerkrachten: de interactieve voorleesboeken-bibliotheek, alle maaktools en delen met je klas. Al het andere blijft voor altijd gratis."
+    },
+    "hero": {
+      "title": "Eenvoudige prijzen, gemaakt voor leerkrachten",
+      "subtitle": "Alles wat je nu gebruikt, blijft gratis — werkbladen, activiteiten, interactief spelen en pdf's. Het abonnement opent de diepe plank erachter: de bibliotheek met interactieve voorleesboeken, alle maaktools en delen met je klas."
+    },
+    "free": {
+      "title": "Voor altijd gratis",
+      "blurb": "Geen account nodig. Geen limieten. Dit is het LessonCraftStudio dat je al kent.",
+      "item1": "45.000+ printbare werkbladen met antwoordbladen",
+      "item2": "Speel elk interactief werkblad — zonder inloggen, zonder plafond",
+      "item3": "200+ leeractiviteiten, afgestemd op de kerndoelen",
+      "item4": "Alle 29 werkbladmakers met pdf-uitvoer",
+      "item5": "Werkbladen insluiten op je klassenblog of schoolwebsite",
+      "item6": "Alles in 11 talen"
+    },
+    "tier": {
+      "name": "Leerkracht",
+      "priceSuffix": "per jaar",
+      "includedTitle": "Alles wat gratis is, plus",
+      "item1": "De volledige bibliotheek met interactieve voorleesboeken — elk verhaal, elke pagina, met voorleesstem",
+      "item2": "De maaktools: onbeperkt interactieve werkbladen uit alle 29 makers, zonder watermerk",
+      "item3": "Host je creaties online en deel ze via een link met je klas",
+      "item4": "Collecties en werkruimte-tools om alles te organiseren",
+      "item5": "Als eerste toegang tot nieuwe premium releases — de verhalenstudio en lespakketten",
+      "ctaAnnual": "Abonneren — $69/jaar",
+      "ctaMonthly": "Of $8.99/maand",
+      "microcopy": "Geen trucjes met proefkaarten — de gratis catalogus ís de proefperiode. Verlenging altijd opzegbaar. Inclusief btw waar van toepassing.",
+      "familyTeaser": "Een gezinsabonnement voor thuis komt binnenkort."
+    },
+    "faq": {
+      "title": "Vragen & antwoorden",
+      "q1": "Blijft de gratis content gratis?",
+      "a1": "Ja — permanent. Werkbladen, activiteiten, interactief spelen, pdf's en het basisgebruik van de makers blijven voor altijd gratis. Het abonnement voegt alleen nieuw, dieper materiaal toe.",
+      "q2": "Is er een gratis proefperiode?",
+      "a2": "De gratis catalogus ís de proefperiode — duizenden werkbladen en activiteiten die je voor altijd kunt gebruiken, zonder te betalen of een kaart in te voeren. Abonneer pas wanneer de premium plank het jou waard is.",
+      "q3": "Hoe zeg ik op?",
+      "a3": "Met één klik vanaf je factuurpagina — geen e-mails, geen telefoontjes. Je abonnement wordt simpelweg niet verlengd en je houdt toegang tot het einde van de periode.",
+      "q4": "Hebben mijn leerlingen accounts nodig?",
+      "a4": "Nooit. Kinderen loggen nooit in op LessonCraftStudio. Jij deelt een link; zij spelen. We verzamelen helemaal geen leerlinggegevens.",
+      "q5": "Welke betaalmethoden en valuta gebruiken jullie?",
+      "a5": "De betaling loopt via Lemon Squeezy (kaarten, in veel regio's PayPal) en wordt afgeschreven in Amerikaanse dollars — je bank rekent om tegen de dagkoers. Prijzen in € of kr zijn indicatief."
+    }
+  },
+  "subscribeThanks": {
+    "title": "Welkom aan boord!",
+    "body": "Je abonnement is actief. Het kan een paar seconden duren voordat je account is bijgewerkt — ververs de werkruimte als het nog niet zichtbaar is.",
+    "emailNote": "Nieuw hier? We hebben je een link gemaild om je wachtwoord in te stellen.",
+    "cta": "Naar je werkruimte"
   }
 }

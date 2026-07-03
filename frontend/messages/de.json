@@ -1010,6 +1010,9 @@
       "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
     },
     "gate": {
+      "subscriberTitle": "Dieser Bereich gehört zum LessonCraftStudio-Abo",
+      "subscriberBody": "Sammlungen und Arbeitsbereich-Werkzeuge sind Abo-Funktionen. Alles andere auf LessonCraftStudio — Arbeitsblätter, Aktivitäten und Druckvorlagen — bleibt kostenlos.",
+      "subscriberCta": "Tarife ansehen",
       "signInPromptTitle": "Anmeldung erforderlich",
       "signInPromptBody": "Eine kostenlose Registrierung ist erforderlich. Dauert einen Moment.",
       "signInCta": "Kostenlos registrieren"
@@ -3465,6 +3468,7 @@
     "kindergarten__kitchen_tools": "Küchenwerkzeuge-Arbeitsblätter für den Kindergarten zeigen die Utensilien, die Fünf- bis Siebenjährige zu Hause sehen — Löffel, Topf, Schneebesen und Tasse — und setzen sie quer durch die Übung ein. Das Bilderset trägt die Kinder durch Zählen und erstes Zusammenzählen, Sortieren und Zuordnen, Was passt nicht und erste Laute und Anfangsbuchstaben, sodass der Küchenwortschatz zugleich echte Übung wird und sich gut mit Koch- und Backspielen verbinden lässt — spielerisch und vorbereitend. Die klaren Bilder holen auch Kinder ab, die die Sprache der Gruppe noch aufbauen. Diese Seite bündelt die Küchenwerkzeug-Arbeitsblätter, die zum Kindergartenalter passen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version und einen Lösungsbogen — verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung."
   },
   "workspace": {
+    "billing": { "line": "Lehrer-Abo — aktiv", "renewsOn": "verlängert sich am", "manage": "Abrechnung verwalten" },
     "metadata": {
       "title": "Ihr Arbeitsbereich",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
@@ -3474,6 +3478,9 @@
       "welcomeLine": "Ihre Sammlungen und letzten Aktivitäten — alles an einem Ort."
     },
     "gate": {
+      "subscriberTitle": "Dieser Bereich gehört zum LessonCraftStudio-Abo",
+      "subscriberBody": "Sammlungen und Arbeitsbereich-Werkzeuge sind Abo-Funktionen. Alles andere auf LessonCraftStudio — Arbeitsblätter, Aktivitäten und Druckvorlagen — bleibt kostenlos.",
+      "subscriberCta": "Tarife ansehen",
       "signInPromptTitle": "Anmeldung erforderlich",
       "signInPromptBody": "Eine kostenlose Registrierung ist erforderlich. Dauert einen Moment.",
       "signInCta": "Kostenlos registrieren"
@@ -3798,5 +3805,58 @@
     "themesWord": "Themen",
     "allFormats": "Alle Formate",
     "breadcrumb": "Sprachen"
+  },
+  "pricingPage": {
+    "meta": {
+      "title": "Preise & Abo — LessonCraftStudio",
+      "description": "Ein Abo für Lehrkräfte: die interaktive Bilderbuch-Bibliothek, die komplette Werkstatt und Teilen mit der Klasse. Alles andere bleibt für immer kostenlos."
+    },
+    "hero": {
+      "title": "Einfache Preise, gemacht für Lehrkräfte",
+      "subtitle": "Alles, was du heute nutzt, bleibt kostenlos — Arbeitsblätter, Aktivitäten, interaktives Üben und PDFs. Das Abo schaltet das tiefe Regal frei: die interaktive Bilderbuch-Bibliothek, die komplette Werkstatt und Tools zum Teilen mit deiner Klasse."
+    },
+    "free": {
+      "title": "Für immer kostenlos",
+      "blurb": "Kein Konto nötig. Keine Limits. Das ist das LessonCraftStudio, das du schon kennst.",
+      "item1": "45.000+ druckbare Arbeitsblätter mit Lösungsblättern",
+      "item2": "Jedes interaktive Arbeitsblatt spielen — ohne Login, ohne Obergrenze",
+      "item3": "200+ Lernaktivitäten, ausgerichtet am Lehrplan",
+      "item4": "Alle 29 Arbeitsblatt-Generatoren mit PDF-Ausgabe",
+      "item5": "Arbeitsblätter in deinen Klassenblog oder die Schulwebsite einbetten",
+      "item6": "Alles in 11 Sprachen"
+    },
+    "tier": {
+      "name": "Lehrkraft",
+      "priceSuffix": "pro Jahr",
+      "includedTitle": "Alles Kostenlose, und dazu",
+      "item1": "Die komplette interaktive Bilderbuch-Bibliothek — jede Geschichte, jede Seite, mit Vorlesestimme",
+      "item2": "Die Werkstatt: unbegrenzt interaktive Arbeitsblätter aus allen 29 Generatoren, ohne Wasserzeichen",
+      "item3": "Deine Kreationen online hosten und per Link mit deiner Klasse teilen",
+      "item4": "Sammlungen und Arbeitsbereich-Tools, die alles ordnen",
+      "item5": "Früher Zugang zu neuen Premium-Inhalten — Story-Studio und Lehrplan-Pakete",
+      "ctaAnnual": "Abonnieren — $69/Jahr",
+      "ctaMonthly": "Oder $8.99/Monat",
+      "microcopy": "Keine Testphasen-Tricks — der kostenlose Katalog ist die Testphase. Verlängerung jederzeit kündbar. MwSt. inklusive, wo anwendbar.",
+      "familyTeaser": "Ein Familien-Tarif für zu Hause kommt bald."
+    },
+    "faq": {
+      "title": "Fragen & Antworten",
+      "q1": "Bleiben die kostenlosen Inhalte kostenlos?",
+      "a1": "Ja — dauerhaft. Arbeitsblätter, Aktivitäten, interaktives Üben, PDFs und die Basisnutzung der Generatoren bleiben für immer kostenlos. Das Abo legt nur neues, tieferes Material obendrauf.",
+      "q2": "Gibt es eine kostenlose Testphase?",
+      "a2": "Der kostenlose Katalog ist die Testphase — tausende Arbeitsblätter und Aktivitäten, die du für immer nutzen kannst, ohne zu zahlen oder eine Karte einzugeben. Abonniere erst, wenn dir das Premium-Regal den Preis wert ist.",
+      "q3": "Wie kündige ich?",
+      "a3": "Mit einem Klick auf deiner Abrechnungsseite — keine E-Mails, keine Anrufe. Dein Abo verlängert sich einfach nicht, und du behältst den Zugang bis zum Ende der Laufzeit.",
+      "q4": "Brauchen meine Schülerinnen und Schüler Konten?",
+      "a4": "Nie. Kinder melden sich auf LessonCraftStudio nie an. Du teilst einen Link, sie spielen los. Wir erheben keinerlei Schülerdaten.",
+      "q5": "Welche Zahlungsmethoden und welche Währung nutzt ihr?",
+      "a5": "Die Zahlung läuft über Lemon Squeezy (Karten, in vielen Regionen PayPal) und wird in US-Dollar abgebucht — deine Bank rechnet zum Tageskurs um. Preise in € oder kr sind Näherungswerte."
+    }
+  },
+  "subscribeThanks": {
+    "title": "Willkommen an Bord!",
+    "body": "Dein Abo ist aktiv. Es kann ein paar Sekunden dauern, bis dein Konto nachzieht — lade den Arbeitsbereich neu, falls es noch nicht angezeigt wird.",
+    "emailNote": "Neu hier? Wir haben dir einen Link gemailt, mit dem du dein Passwort festlegst.",
+    "cta": "Zum Arbeitsbereich"
   }
 }

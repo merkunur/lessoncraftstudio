@@ -75,7 +75,7 @@
     }
     /* scaffold / reveal / import-character-sheet / import-character-clips are
        operator-only affordances — unmapped by design (hidden in teacher mode). */
-    return { url: url || pathname, opts: opts };
+    return { url: (url || pathname) + q, opts: opts };
   }
 
   function api(pathname, opts) {

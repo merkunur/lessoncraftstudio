@@ -1,0 +1,6 @@
+{
+  "sunny-meadow": { "name": { "en": "Sunny meadow", "de": "Sonnige Wiese" }, "theme": "outdoors" },
+  "picnic-blanket": { "name": { "en": "Picnic blanket", "de": "Picknickdecke" }, "theme": "outdoors" },
+  "lakeside": { "name": { "en": "Lakeside", "de": "Am See" }, "theme": "outdoors" },
+  "sunset-hill": { "name": { "en": "Sunset hill", "de": "Hügel im Abendrot" }, "theme": "outdoors" }
+}

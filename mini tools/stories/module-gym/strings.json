@@ -51,5 +51,18 @@
   "g21-hint": { "en": "Drag the cat to the spot below the table." },
   "g21.obj.cat": { "en": "Cat" },
   "g22-l01":  { "en": "Slide the dot along the path to the goal!" },
-  "g22-hint": { "en": "Keep the dot between the walls all the way across." }
+  "g22-hint": { "en": "Keep the dot between the walls all the way across." },
+
+  "g23-l01":  { "en": "Peekaboo! Remember where the cat is, then tap it!" },
+  "g23-hint": { "en": "The pictures hid — tap where you last saw the cat." },
+  "g23.word.cat": { "en": "Cat" },
+  "g23.word.dog": { "en": "Dog" },
+  "g23.word.rabbit": { "en": "Rabbit" },
+
+  "g24-l01":  { "en": "One is different! Tap the odd one out." },
+  "g24-hint": { "en": "Two are the same fruit — tap the other one." },
+
+  "g25-l01":  { "en": "Feed three apples to the bunny!" },
+  "g25-hint": { "en": "Tap apples until you have counted three." },
+  "g25.word.apple": { "en": "Apple" }
 }

@@ -123,6 +123,9 @@ Pick the module whose *thinking type* matches the teaching point. When two fit, 
 | discriminate two scenes | `sb-spot-diff` | |
 | solve a real worksheet exercise | `sb-worksheet-exercise` | SEP families A/F/E/C; use `sep-generate.js` or manual export |
 | **trace a line/letter/shape with a finger** (PK) | **`sb-trace`** | PK fine-motor; forgiving band (`ctx.band`), forward-arc ink, never resets; author under `alignment.grade:"PK"` |
+| **find the way / route a token** (PK) | **`sb-maze`** | drag through a wide corridor; walls soft-stop, never reset |
+| **stamp / colour / fit / complete / place** (PK) | `sb-dot-stamp` · `sb-color-code` · `sb-shape-fit` · `sb-complete-picture` · `sb-listen-place` | the PK tap/drag cluster — wide targets, drift-home-on-miss (guide §4) |
+| **PK variant** (size-order · peekaboo · odd-one-out · feed-the-animal · shadow-match) | recompose `sb-sequence`/`sb-find-object`/`sb-choice-board`/`sb-count-tap`/`sb-worksheet-exercise` | config-only, no new code — see guide §4 "Pre-school VARIANTS" |
 
 **No free keyboard typing anywhere** (tap/drag only — hard platform rule; keypad number-bond modes are
 rejected by the module). All taps ≥112 design units.

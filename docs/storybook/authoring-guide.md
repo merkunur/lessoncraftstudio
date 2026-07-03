@@ -120,6 +120,23 @@ miss = a soft wordless-then-narrated redirect (the correct path stays open,
 NEVER resets); success = warm chime + settle-once. A mid-gesture finger *lift*
 never resets progress. No color-only encoding; audio-narration prompt required.
 
+### Pre-school VARIANTS (recompose an existing module — no new module code)
+
+Five PK-friendly activities are **near-free**: they are an existing module driven
+with a specific config + PK narration, not a new engine. Worked fixtures live in
+`module-gym` (page in parens).
+
+| Variant | Reuses | Config that makes it | Fixture |
+|---|---|---|---|
+| **Size ordering** (smallest→biggest) | `sb-sequence` | `sizeByValue: true` (items sized by `value`; child taps in order) | g07 |
+| **Peekaboo** (remember then tap) | `sb-find-object` | `hideVisuals: true` (targets flash, then hide; tap from memory) | g23 |
+| **Odd one out** (tap the different one) | `sb-choice-board` | `options` where one differs; `targetKey` = the odd option | g24 |
+| **Feed the animal** (count out N) | `sb-count-tap` | themed narration ("feed 3 to the bunny"); `target` = how many | g25 |
+| **Shadow match** (object ↔ silhouette) | `sb-worksheet-exercise` (`shadow-pairs`) · or `sb-find-object` with silhouette target art | the existing `shadow-pairs` SEP package (g14) is the ready path; a native find-object needs silhouette images (asset work) | g14 |
+
+Keep these inside the PK narration envelope (§2 of the playbook) even though the
+underlying module is K-3 — the *authoring* is what makes them pre-school.
+
 ### The bridge
 
 | moduleType | Thinking type | Modes | minZone (du) | taskData |

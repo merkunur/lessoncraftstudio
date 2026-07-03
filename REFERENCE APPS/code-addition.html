@@ -5634,8 +5634,9 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
                 window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
                 var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
                 var word = String(spec.secretWord || (spec.params && spec.params.secretWord) || 'CAT').toUpperCase();
-                // Word Reveal mode → per-row letter blanks (slotType:'letter').
-                try { var _wr = document.getElementById('wordRevealMode'); if (_wr) _wr.checked = true; } catch (e) {}
+                // Word Reveal mode (default) → per-row letter blanks (slotType:'letter').
+                // spec.mode==='standard' → sum-decode mode (slotType:'sum', multi-digit via the mapper).
+                try { var _wr = document.getElementById('wordRevealMode'); if (_wr) _wr.checked = (spec.mode !== 'standard'); } catch (e) {}
                 try { var _sw = document.getElementById('secretWord'); if (_sw) _sw.value = word; } catch (e) {}
                 // Ensure the worksheet-theme select carries the requested theme — the
                 // headless init is skipped (?__sbHeadless), so the option may be absent.

@@ -5377,6 +5377,15 @@ async function downloadPDF(canvasToExport, filename, opts) {
             worksheetImage: worksheetImage,
             slots: slots,
             choiceOptions: _sepChoiceOptions,
+            // SEP family S (synthetic tap-option): every choice slot (relation < = >, or check/cross)
+            // → an optionChoice the player renders as tap-buttons. isCorrect = the option matching the
+            // row's expected value. Covers ALL comparison modes (the relation is always the answer).
+            optionChoices: (slots || []).filter(function (s) { return s.kind === 'choice'; }).map(function (s) {
+                return {
+                    rect: s.rect,
+                    options: (s.options || []).map(function (o) { return { label: o.label, isCorrect: (o.value === s.expected) }; })
+                };
+            }),
             // Brief A 5A.2 redo: expose per-row data normalized across the two
             // mode-divergent source shapes (comparison mode emits {L,R,nL,nR};
             // check-cross emits {imageA,imageB,countA,countB}). Bundle-side
@@ -6425,7 +6434,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
             function _sbSepOpts(cropRect, returnPackage) {
                 return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
                     exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isExerciseCard === true; }); },
-                    family: 'C', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+                    family: 'S', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
             }
             var _b = document.getElementById('sepExportBtn');
             if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
@@ -6445,8 +6454,8 @@ async function downloadPDF(canvasToExport, filename, opts) {
                         themeWorksheetSelect.value = theme;
                     }
                 } catch (e) {}
-                // Exclude '=' so the "tap the group with more" always has a definite answer.
-                try { relationCheckboxes.forEach(function (cb) { cb.checked = (cb.value === 'gt' || cb.value === 'lt'); }); } catch (e) {}
+                // Family S handles the '=' case (an equals button), so keep all relations available.
+                try { relationCheckboxes.forEach(function (cb) { cb.checked = true; }); } catch (e) {}
                 // (theme mode self-fetches /api/images?theme=<theme> inside generateWorksheet)
                 try {
                     if (document.fonts && document.fonts.load) {

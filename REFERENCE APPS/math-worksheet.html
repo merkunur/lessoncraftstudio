@@ -3790,7 +3790,9 @@
               const startNumber = parseInt(puzzleStartNumberInput.value, 10) || 1;
               const puzzleNumber = startNumber + idx;
               const titleText = new fabric.Text(`${puzzleLabel} ${puzzleNumber}`, { fontSize: 20, fontWeight: '600', fill: 'var(--app-accent-primary)', fontFamily: 'Fredoka' });
-              rowElements.push(new fabric.Group([titleText], { isGeneratedItem: true, objectCaching: false }));
+              // isSepHidden → the storybook transparent render suppresses the "Puzzle 1" label (decoration,
+              // not part of the exercise). Printable/interactive output is unaffected (only SEP reads it).
+              rowElements.push(new fabric.Group([titleText], { isGeneratedItem: true, isSepHidden: true, objectCaching: false }));
 
               for (const eq of puzzle.equations) {
                   const eqObjects = []; let currentXInRow = 0;

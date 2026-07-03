@@ -103,7 +103,23 @@
       '.sbwe-bar.sbwe-filled{background:#146B5E;border-color:#0f5347;}',
       '.sbwe-bar.sbwe-ok{background:#146B5E;border-color:#0f5347;}',
       '.sbwe-bar.sbwe-bad{background:#D64541;border-color:#a83531;}',
-      '@media (prefers-reduced-motion: reduce){.sbwe-key:active{transform:none;}}'
+      /* Family S — synthetic tap-option (symbol / word choice buttons in the palette) */
+      '.sbwe-schoice{border:3px dashed rgba(242,120,75,.7);border-radius:8px;background:rgba(242,120,75,.10);}',
+      '.sbwe-schoice.sbwe-ok{border-style:solid;border-color:#146B5E;background:rgba(20,107,94,.16);}',
+      '.sbwe-schoice.sbwe-bad{border-style:solid;border-color:#D64541;background:rgba(214,69,65,.14);}',
+      '.sbwe-optrow{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;align-items:center;margin:3px 0;}',
+      '.sbwe-optnum{font-weight:900;color:#146B5E;min-width:22px;text-align:right;font-size:18px;}',
+      '.sbwe-snum{position:absolute;left:-6px;top:-6px;min-width:24px;height:24px;border-radius:50%;',
+      '  background:#F2784B;color:#fff;font-weight:900;font-size:14px;display:flex;align-items:center;',
+      '  justify-content:center;box-shadow:0 2px 4px rgba(0,0,0,.3);padding:0 4px;}',
+      '.sbwe-opt{position:relative;min-width:48px;min-height:48px;border:none;border-radius:12px;background:#146B5E;',
+      '  color:#fff;font-size:22px;font-weight:900;cursor:pointer;box-shadow:0 3px 8px rgba(0,0,0,.25);',
+      '  font-family:inherit;padding:0 12px;}',
+      '.sbwe-opt.sbwe-sel{background:#F2784B;}',
+      '.sbwe-opt.sbwe-ok{background:#146B5E;outline:3px solid #0f5347;outline-offset:2px;}',
+      '.sbwe-opt.sbwe-bad{background:#D64541;}',
+      '.sbwe-opt:active{transform:scale(.94);}',
+      '@media (prefers-reduced-motion: reduce){.sbwe-key:active{transform:none;}.sbwe-opt:active{transform:none;}}'
     ].join('\n');
     var st = global.document.createElement('style');
     st.id = 'sbwe-css';
@@ -144,19 +160,24 @@
       selected = i;
       slotEls.forEach(function (el, k) { el.classList.toggle('sbwe-sel', k === selected && !locked[k]); });
     }
+    /* multi-digit boxes (numeric answers >1 digit, e.g. "13"): one full-size box the child taps
+       digits INTO to build the number; single-char boxes (letters/1-digit) behave as before. */
+    function maxLen(i) { return slots[i] && slots[i].multi ? String(slots[i].expected).length : 1; }
+    function filled(i) { return slots[i] && slots[i].multi ? values[i].length >= maxLen(i) : !!values[i]; }
     function paint() {
       slotEls.forEach(function (el, k) { el.textContent = values[k] ? displayCase(values[k]) : ''; });
-      api.answerChanged(values.every(function (v, k) { return locked[k] || !!v; }));
+      api.answerChanged(values.every(function (v, k) { return locked[k] || filled(k); }));
     }
     function writeLetter(ch) {
       if (selected < 0 || locked[selected]) return;
-      values[selected] = ch;
+      var mx = maxLen(selected);
+      if (mx > 1) { values[selected] = (values[selected].length >= mx) ? ch : (values[selected] + ch); }
+      else { values[selected] = ch; }
       if (desc.audio && desc.audio.perElement === 'letter') {
         ctx.audio.speak({ type: 'word', text: displayCase(ch) });
       }
       paint();
-      var nxt = firstEmpty(selected + 1);
-      select(nxt);
+      if (values[selected].length >= mx) { var nxt = firstEmpty(selected + 1); select(nxt); }
     }
     function backspace() {
       var target = selected >= 0 && values[selected] && !locked[selected] ? selected : -1;
@@ -166,7 +187,7 @@
         }
       }
       if (target < 0) return;
-      values[target] = '';
+      values[target] = (slots[target].multi && values[target].length > 1) ? values[target].slice(0, -1) : '';
       paint();
       select(target);
     }
@@ -237,9 +258,108 @@
       fontResize: function (boardPx) {
         var scale = boardPx.w / desc.crop.w;
         slots.forEach(function (s, i) {
-          slotEls[i].style.fontSize = Math.max(14, Math.round(s.rect.h * scale * 0.62)) + 'px';
+          var n = s.multi ? String(s.expected).length : 1;    // multi-digit: shrink to fit N chars in the box width
+          var byH = s.rect.h * scale * 0.62;
+          var byW = s.rect.w * scale * 0.8 / Math.max(1, n);
+          slotEls[i].style.fontSize = Math.max(14, Math.round(Math.min(byH, byW))) + 'px';
         });
       }
+    };
+  }
+
+  /* ---------------------------------------------------------------------- */
+  /* Family S — synthetic tap-option (pick one symbol/word per choice)       */
+  /* The player RENDERS the answer options (not baked into the visual): a    */
+  /* palette row of buttons per choice. Covers more-less (< = >), prepositions*/
+  /* fill-in (a word per sentence), etc. N independent single-choices.        */
+  /* ---------------------------------------------------------------------- */
+  function familyS(ctx, desc, boardEl, paletteHost, api) {
+    var choices = (desc.elements && desc.elements.choices) || [];
+    var sel = choices.map(function () { return -1; });
+    var locked = choices.map(function () { return false; });
+    var markers = [];      // per-choice board highlight (where the answer goes on the visual)
+    var optBtns = [];       // optBtns[ci] = [buttonEls]
+    var multi = choices.length > 1;
+
+    /* board markers — show WHERE on the visual each choice belongs; when there are
+       several choices, a numbered badge ties each marker to its palette row (1., 2., …) */
+    choices.forEach(function (c, ci) {
+      if (!c.rect) { markers.push(null); return; }
+      var m = ctx.el('div', 'sbwe-el sbwe-schoice');
+      m.style.left = pct(c.rect.x, desc.crop.w);
+      m.style.top = pct(c.rect.y, desc.crop.h);
+      m.style.width = pct(c.rect.w, desc.crop.w);
+      m.style.height = pct(c.rect.h, desc.crop.h);
+      if (multi) { var badge = ctx.el('div', 'sbwe-snum'); badge.textContent = String(ci + 1); m.appendChild(badge); }
+      boardEl.appendChild(m);
+      markers.push(m);
+    });
+
+    /* option rows in the palette (fixed-size buttons — always >=48px, no density issue) */
+    var pal = ctx.el('div', 'sbwe-palette');
+    pal.style.flexDirection = 'column';
+    choices.forEach(function (c, ci) {
+      var row = ctx.el('div', 'sbwe-optrow');
+      if (multi) { var num = ctx.el('div', 'sbwe-optnum'); num.textContent = (ci + 1) + '.'; row.appendChild(num); }
+      var btns = [];
+      (c.options || []).forEach(function (o, oi) {
+        var b = ctx.el('button', 'sbwe-opt');
+        b.type = 'button';
+        b.textContent = String(o.label);
+        b.addEventListener('click', function () {
+          if (!api.enabled() || locked[ci]) return;
+          sel[ci] = oi;
+          btns.forEach(function (bb, k) { bb.classList.toggle('sbwe-sel', k === oi); bb.classList.remove('sbwe-bad'); });
+          api.answerChanged(sel.every(function (s, k) { return locked[k] || s >= 0; }));
+        });
+        row.appendChild(b);
+        btns.push(b);
+      });
+      optBtns.push(btns);
+      pal.appendChild(row);
+    });
+    paletteHost.appendChild(pal);
+
+    function correctIndex(c) {
+      var opts = c.options || [];
+      for (var k = 0; k < opts.length; k++) if (opts[k].isCorrect) return k;
+      return -1;
+    }
+
+    return {
+      check: function () {
+        var allOk = true;
+        choices.forEach(function (c, ci) {
+          if (locked[ci]) return;
+          var ok = sel[ci] >= 0 && (c.options[sel[ci]] || {}).isCorrect;
+          optBtns[ci].forEach(function (bb, k) {
+            bb.classList.toggle('sbwe-ok', !!ok && k === sel[ci]);
+            bb.classList.toggle('sbwe-bad', !ok && k === sel[ci]);
+          });
+          if (markers[ci]) { markers[ci].classList.toggle('sbwe-ok', !!ok); markers[ci].classList.toggle('sbwe-bad', !ok); }
+          if (ok) locked[ci] = true; else allOk = false;
+        });
+        if (!allOk) {
+          setTimeout(function () {
+            choices.forEach(function (c, ci) {
+              if (locked[ci]) return;
+              sel[ci] = -1;
+              optBtns[ci].forEach(function (bb) { bb.classList.remove('sbwe-bad', 'sbwe-sel'); });
+              if (markers[ci]) markers[ci].classList.remove('sbwe-bad');
+            });
+          }, 1100);
+        }
+        return allOk;
+      },
+      showHint: function () { },
+      autoSolve: function () {
+        choices.forEach(function (c, ci) {
+          var ok = correctIndex(c);
+          if (ok >= 0) { sel[ci] = ok; optBtns[ci].forEach(function (bb, k) { bb.classList.toggle('sbwe-sel', k === ok); }); }
+        });
+        api.answerChanged(true);
+      },
+      fontResize: function () { }
     };
   }
 
@@ -1051,6 +1171,7 @@
         else if (d.family === 'C') family = familyC(ctx, d, boardEl, paletteHost, api);
         else if (d.family === 'B') family = familyB(ctx, d, boardEl, paletteHost, api);
         else if (d.family === 'D') family = familyD(ctx, d, boardEl, paletteHost, api);
+        else if (d.family === 'S') family = familyS(ctx, d, boardEl, paletteHost, api);
         else throw new Error('[sbwe] family not supported: ' + d.family);
 
         /* prompt: announce + optionally speak (module utterance channel) */

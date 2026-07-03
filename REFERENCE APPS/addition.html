@@ -5689,9 +5689,9 @@
             var _d = await _res.json();
             selectedImages = (_d.images || _d || []).slice(0, 3);
           } catch (e) {}
-          try { if (exerciseModeSelect) exerciseModeSelect.value = 'image-number'; } catch (e) {}  // answer = sum
-          try { if (typeof minOperandInput !== 'undefined' && minOperandInput) minOperandInput.value = 1; } catch (e) {}
-          try { if (typeof maxOperandInput !== 'undefined' && maxOperandInput) maxOperandInput.value = 4; } catch (e) {}  // single-digit sums (≤8)
+          try { if (exerciseModeSelect) exerciseModeSelect.value = spec.mode || 'image-number'; } catch (e) {}  // spec.mode → any of the 4 modes (sweep)
+          try { if (typeof minOperandInput !== 'undefined' && minOperandInput) minOperandInput.value = spec.minOperand || 1; } catch (e) {}
+          try { if (typeof maxOperandInput !== 'undefined' && maxOperandInput) maxOperandInput.value = spec.maxOperand || 4; } catch (e) {}  // spec.maxOperand → multi-digit sums (mapper splits per digit)
           try { if (typeof problemCountInput !== 'undefined' && problemCountInput) problemCountInput.value = 1; } catch (e) {}
           try {
             if (document.fonts && document.fonts.load) {

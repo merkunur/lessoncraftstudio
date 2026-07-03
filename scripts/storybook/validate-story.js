@@ -238,7 +238,7 @@ function validateSep(pkg, pageId, zone) {
   let d;
   try { d = JSON.parse(fs.readFileSync(dPath, 'utf8')); } catch (e) { err(`page ${pageId}: SEP descriptor parse: ${e.message}`); return; }
   if (d.formatVersion !== 'sep-1') err(`page ${pageId}: SEP formatVersion "${d.formatVersion}" unsupported`);
-  if (['A', 'F', 'E', 'C', 'B', 'D'].indexOf(d.family) < 0) err(`page ${pageId}: SEP family "${d.family}" not supported (A, F, E, C, B, D)`);
+  if (['A', 'F', 'E', 'C', 'B', 'D', 'S'].indexOf(d.family) < 0) err(`page ${pageId}: SEP family "${d.family}" not supported (A, F, E, C, B, D, S)`);
   const visPath = path.join(dir, (d.visual && d.visual.file) || 'visual@2x.webp');
   if (!fs.existsSync(visPath)) err(`page ${pageId}: SEP visual missing: ${d.visual && d.visual.file}`);
   else if (sharp && d.visual) {
@@ -261,11 +261,19 @@ function validateSep(pkg, pageId, zone) {
     const slots = (d.elements && d.elements.slots) || [];
     if (!slots.length) err(`page ${pageId}: SEP A has no slots`);
     const letters = ((d.input || {}).tapPalette || {}).letters || [];
+    const palLc = letters.map(x => String(x).toLowerCase());
     slots.forEach((s, i) => {
       inCrop(s.rect, `slots[${i}]`);
-      if (!s.expected || String(s.expected).length !== 1) err(`page ${pageId}: SEP slots[${i}].expected must be a single char`);
-      else if (letters.map(x => String(x).toLowerCase()).indexOf(String(s.expected).toLowerCase()) < 0) {
-        err(`page ${pageId}: SEP tapPalette.letters missing expected "${s.expected}"`);
+      const exp = String(s.expected == null ? '' : s.expected);
+      // multi:true = a multi-digit numeric answer built in ONE box (tap digits); every char must be in the
+      // palette. Otherwise a slot holds exactly one char.
+      if (s.multi) {
+        if (exp.length < 2) err(`page ${pageId}: SEP slots[${i}].multi but expected "${exp}" is not multi-char`);
+        exp.split('').forEach(c => { if (palLc.indexOf(c.toLowerCase()) < 0) err(`page ${pageId}: SEP tapPalette.letters missing digit "${c}" of "${exp}"`); });
+      } else if (!exp || exp.length !== 1) {
+        err(`page ${pageId}: SEP slots[${i}].expected must be a single char`);
+      } else if (palLc.indexOf(exp.toLowerCase()) < 0) {
+        err(`page ${pageId}: SEP tapPalette.letters missing expected "${exp}"`);
       }
       if (s.rect) smallest = Math.min(smallest, s.rect.w, s.rect.h);
     });
@@ -360,6 +368,16 @@ function validateSep(pkg, pageId, zone) {
         if (c.rect) smallest = Math.min(smallest, c.rect.w, c.rect.h);
       });
     });
+  } else if (d.family === 'S') {
+    const choices = (d.elements && d.elements.choices) || [];
+    if (!choices.length) err(`page ${pageId}: SEP S has no choices`);
+    choices.forEach((c, i) => {
+      if (c.rect) inCrop(c.rect, `choices[${i}]`);
+      const opts = c.options || [];
+      if (opts.length < 2) err(`page ${pageId}: SEP choices[${i}] needs >=2 options`);
+      if (!opts.some(o => o.isCorrect)) err(`page ${pageId}: SEP choices[${i}] has no correct option`);
+    });
+    /* tap targets are fixed-size palette buttons (>=48px) → no crop-space density constraint */
   }
   /* locale coverage per the STORY's shipped locales */
   for (const loc of locales) {

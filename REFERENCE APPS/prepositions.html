@@ -1587,9 +1587,13 @@
             //     operator/browser path untouched. ---
             (function () {
                 function _sbSepOpts(cropRect, returnPackage) {
+                    // fill-in mode has NO baked option circles → SEP family S (synthetic word buttons);
+                    // multiple-choice bakes the circles → family C (tap the baked option). Mode-conditional.
+                    var _mode = (worksheetCanvas.problemsData && worksheetCanvas.problemsData.mode) ||
+                        (dom.exerciseModeSelect && dom.exerciseModeSelect.value) || 'multiplechoice';
                     return { canvas: worksheetCanvas, extractBundle: extractDeckBundle_v12,
                         exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isGeneratedItem === true; }); },
-                        family: 'C', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+                        family: (_mode === 'fillin' ? 'S' : 'C'), exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
                 }
                 var _b = document.getElementById('sepExportBtn');
                 if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
@@ -1599,7 +1603,7 @@
                     var loc = spec.locale || 'en';
                     window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
                     var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
-                    try { if (dom.exerciseModeSelect) dom.exerciseModeSelect.value = 'multiplechoice'; } catch (e) {}
+                    try { if (dom.exerciseModeSelect) dom.exerciseModeSelect.value = spec.mode || 'multiplechoice'; } catch (e) {}  // spec.mode: 'fillin' | 'multiplechoice'
                     try { if (dom.exerciseCount) dom.exerciseCount.value = 1; } catch (e) {}   // floor is already 1
                     try {
                         if (dom.itemThemeSelect) {
@@ -1622,8 +1626,9 @@
                             Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
                             try { await generateWorksheet(false); } catch (e) {}
                             var _ok = false;
+                            var _wantFill = (spec.mode === 'fillin');
                             for (var _i = 0; _i < 300; _i++) {
-                                if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isMultipleChoiceCircle === true; })) { _ok = true; break; }
+                                if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return _wantFill ? o.isFillinExerciseText === true : o.isMultipleChoiceCircle === true; })) { _ok = true; break; }
                                 await new Promise(function (r) { setTimeout(r, 50); });
                             }
                             if (_ok) break;
@@ -4389,6 +4394,36 @@
             });
             slots.sort(function (a, b) { return a.problemIndex - b.problemIndex; });
             bundle.slots = slots;
+            // SEP Family-S: fill-in has NO baked options → synthesize a localized tap-choice per blank
+            // (correct preposition + 2 DETERMINISTIC distractors — next-in-PREPOSITIONS, rotated by
+            // originalIndex; no Math.random → seed-reproducible). Localized via PREPOSITION_TRANSLATIONS.
+            function _locPrep(key) {
+                if (typeof PREPOSITION_TRANSLATIONS !== 'undefined' && PREPOSITION_TRANSLATIONS[key] && PREPOSITION_TRANSLATIONS[key][loc]) return PREPOSITION_TRANSLATIONS[key][loc];
+                return key;
+            }
+            var _fillObjs = canvas.getObjects().filter(function (o) { return o && o.isFillinExerciseText === true && typeof o.originalIndex === 'number'; });
+            _fillObjs.sort(function (a, b) { return a.originalIndex - b.originalIndex; });
+            var optionChoices = [];
+            _fillObjs.forEach(function (o) {
+                var blankRect = _findBlankRectInTextbox(o);
+                var assignment = assignments[o.originalIndex];
+                if (!blankRect || !assignment) return;
+                var correctKey = assignment.preposition;
+                var cidx = Math.max(0, PREPOSITIONS.indexOf(correctKey));
+                var pool = [];
+                for (var _k = 1; pool.length < 2 && _k < PREPOSITIONS.length; _k++) {
+                    var cand = PREPOSITIONS[(cidx + _k) % PREPOSITIONS.length];
+                    if (cand !== correctKey && pool.indexOf(cand) < 0) pool.push(cand);
+                }
+                var keys = [correctKey].concat(pool);
+                var rot = keys.length ? (o.originalIndex % keys.length) : 0;   // vary correct's position deterministically
+                keys = keys.slice(rot).concat(keys.slice(0, rot));
+                optionChoices.push({
+                    rect: blankRect,
+                    options: keys.map(function (kk) { return { label: _locPrep(kk), isCorrect: kk === correctKey }; })
+                });
+            });
+            bundle.optionChoices = optionChoices;
         }
 
         return bundle;

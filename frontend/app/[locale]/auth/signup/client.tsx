@@ -118,6 +118,7 @@ function SignUpPageContent() {
 
       // Track successful signup for Pinterest ads conversion
       pinterestEvents.signup(formData.email);
+      (window as any).umami?.track('signup');
 
       // Redirect to sign in with plan parameter if provided
       const signInUrl = plan

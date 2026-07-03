@@ -7,6 +7,7 @@ import { Providers } from './providers';
 import { SUPPORTED_LOCALES, DEFAULT_LOCALE, isValidLocale } from '@/config/locales';
 import { getHreflangCode } from '@/lib/schema-generator';
 import { PinterestTag } from '@/components/tracking';
+import UmamiBeacon from '@/components/tracking/UmamiBeacon';
 import { NavigationProgress } from '@/components/NavigationProgress';
 
 const inter = Inter({
@@ -132,6 +133,7 @@ export default async function RootLayout({
         </Providers>
         {/* Conversion tracking */}
         <PinterestTag />
+        <UmamiBeacon />
       </body>
     </html>
   );

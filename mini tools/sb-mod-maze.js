@@ -52,7 +52,12 @@
           walls: [{ x1: 460, y1: 0, x2: 460, y2: 400 }],
           solution: [{ x: 160, y: 520 }, { x: 160, y: 240 }, { x: 1120, y: 240 }]
         },
-        drawables: [{ kind: 'maze', bind: 'walls', authorable: 'studio', addLabel: 'Draw the walls' }],
+        drawables: [
+          { kind: 'maze', bind: 'walls', authorable: 'studio', addLabel: 'Draw the walls' },
+          { kind: 'scalarPoint', bind: 'start', authorable: 'studio', addLabel: 'Place the START dot' },
+          { kind: 'scalarPoint', bind: 'end', authorable: 'studio', addLabel: 'Place the GOAL' },
+          { kind: 'path', bind: 'solution', authorable: 'studio', addLabel: 'Draw the route (start → goal)' }
+        ],
         fields: []
       }
     },

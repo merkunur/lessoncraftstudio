@@ -59,7 +59,13 @@
           reference: { image: 'img.table', at: { x: 500, y: 340 } },
           slots: [{ key: 'under', at: { x: 500, y: 560 }, correct: true }, { key: 'above', at: { x: 500, y: 150 } }]
         },
-        drawables: [{ kind: 'point', bind: 'slots', authorable: 'studio', min: 2, addLabel: 'Add a spot' }],
+        drawables: [{
+          kind: 'point', bind: 'slots', authorable: 'studio', min: 2, addLabel: 'Add a spot', badge: 'key',
+          fields: [
+            { key: 'key', kind: 'text', label: 'Spot name (under / above / beside)' },
+            { key: 'correct', kind: 'boolean', label: 'This is the RIGHT spot (exactly one)' }
+          ]
+        }],
         fields: [{ key: 'object', kind: 'assetRef', label: 'Object image' }, { key: 'reference', kind: 'assetRef', label: 'Reference image' }]
       }
     },

@@ -50,8 +50,11 @@
         label: 'Complete the picture', group: 'Drag & place', icon: '🖼️',
         blurb: 'Drag the missing tile back into the picture — wide snap, drifts home if missed.',
         defaults: { cells: [{ image: 'img.cat', at: { x: 240, y: 300 } }, { image: 'img.dog', at: { x: 560, y: 300 } }], missing: [1] },
-        drawables: [{ kind: 'point', bind: 'cells', authorable: 'studio', min: 2, addLabel: 'Add a picture tile' }],
-        fields: [{ key: 'missing', kind: 'json', label: 'Missing tile indices', optional: false }]
+        drawables: [{
+          kind: 'point', bind: 'cells', authorable: 'studio', min: 2, addLabel: 'Add a picture tile',
+          fields: [{ key: 'image', kind: 'image', label: 'Picture' }]
+        }],
+        fields: [{ key: 'missing', kind: 'json', label: 'Missing tile indices (e.g. [1])', 'default': [1] }]
       }
     },
 

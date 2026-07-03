@@ -232,6 +232,11 @@
       } else if (f.kind === 'correctPick') {
         row.appendChild(el('label', 'stu-flabel', f.label));
         var listArr = getObj()[f.of] || [];
+        if (!listArr.length) {
+          var ph = el('select'); ph.disabled = true;
+          var o0 = el('option'); o0.textContent = '— add the pictures above first —'; ph.appendChild(o0);
+          row.appendChild(ph);
+        } else {
         var rad = el('div', 'stu-radios');
         listArr.forEach(function (it) {
           var lab = el('label', 'stu-radio');
@@ -245,6 +250,39 @@
           rad.appendChild(lab);
         });
         row.appendChild(rad);
+        }
+      } else if (f.kind === 'assetRef') {
+        /* a field whose value is an OBJECT holding an .image assetId (+ maybe alt/at) —
+           e.g. listen-place object/reference, dot-stamp subject. Pick sets .image, keeps the rest. */
+        var wrapA = el('div', 'stu-imgpick');
+        var curA = getObj()[f.key] || {};
+        var assetA = curA.image && S().doc.story.assets[curA.image];
+        if (assetA) { var thA = el('img'); thA.src = assetA.src; wrapA.appendChild(thA); }
+        var pickA = el('button', 'stu-btn', assetA ? 'Change picture' : 'Pick a picture');
+        pickA.addEventListener('click', function () {
+          openLibrary(function (src, vocabKey, word) {
+            commit(function (o, draft) {
+              var id = global.Studio.ensureImageAsset(draft, src, vocabKey);
+              if (!o[f.key] || typeof o[f.key] !== 'object') o[f.key] = {};
+              o[f.key].image = id;
+              if (f.vocabAutofill) applyVocabAutofill(o[f.key], draft, vocabKey, word, opts);
+            });
+          });
+        });
+        wrapA.appendChild(pickA);
+        row.appendChild(wrapA);
+      } else if (f.kind === 'json') {
+        /* any structured value with no bespoke control — an editable JSON box, never a dead label */
+        var wrapJ = el('div', 'stu-jsonfield');
+        var taJ = el('textarea', 'stu-json stu-json-small');
+        taJ.value = JSON.stringify(val === undefined ? (f['default'] !== undefined ? f['default'] : null) : val);
+        var applyJ = el('button', 'stu-btn stu-btn-small', 'Apply');
+        applyJ.addEventListener('click', function () {
+          try { var parsed = JSON.parse(taJ.value); commit(function (o) { o[f.key] = parsed; }); }
+          catch (e) { alert('That is not valid yet: ' + e.message); }
+        });
+        wrapJ.appendChild(taJ); wrapJ.appendChild(applyJ);
+        row.appendChild(wrapJ);
       }
       if (f.note) row.appendChild(el('div', 'stu-note', f.note));
       host.appendChild(row);
@@ -631,6 +669,8 @@
           global.StudioCanvas.startPlacePath(dr);
         } else if (dr.kind === 'maze') {
           global.StudioCanvas.startPlaceMaze(dr);
+        } else if (dr.kind === 'scalarPoint') {
+          global.StudioCanvas.startPlaceScalarPoint(dr);
         } else global.StudioCanvas.startPlacePoint(dr);
       });
       box.appendChild(b);

@@ -49,8 +49,19 @@
           legend: [{ key: 'red', color: '#F2784B' }, { key: 'teal', color: '#146B5E' }],
           regions: [{ rect: { x: 120, y: 300, w: 300, h: 300 }, correct: 'red', symbol: '1' }, { rect: { x: 460, y: 300, w: 300, h: 300 }, correct: 'teal', symbol: '2' }]
         },
-        drawables: [{ kind: 'rect', bind: 'regions', authorable: 'studio', min: 1, addLabel: 'Add a region' }],
-        fields: []
+        drawables: [{
+          kind: 'rect', bind: 'regions', authorable: 'studio', min: 1, addLabel: 'Add a region', badge: 'symbol',
+          fields: [
+            { key: 'correct', kind: 'text', label: 'Colour key (matches a legend name)' },
+            { key: 'symbol', kind: 'text', label: 'Symbol shown in the box', optional: true }
+          ]
+        }],
+        fields: [
+          { key: 'legend', kind: 'list', label: 'Colours (the legend)', min: 1, max: 4, keyField: 'key', itemFields: [
+            { key: 'key', kind: 'text', label: 'Name (e.g. red)', lowercase: true },
+            { key: 'color', kind: 'text', label: 'Colour (hex, e.g. #F2784B)' }
+          ] }
+        ]
       }
     },
 

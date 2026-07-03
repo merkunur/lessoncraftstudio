@@ -62,7 +62,13 @@
         label: 'Fit the shapes', group: 'Drag & place', icon: '🧩',
         blurb: 'Drag each big shape into its matching hole — wide snap, drifts home if missed.',
         defaults: { slots: [{ shape: 'circle', color: '#F2784B', at: { x: 260, y: 240 } }, { shape: 'square', color: '#146B5E', at: { x: 560, y: 240 } }] },
-        drawables: [{ kind: 'point', bind: 'slots', authorable: 'studio', min: 1, addLabel: 'Add a shape hole' }],
+        drawables: [{
+          kind: 'point', bind: 'slots', authorable: 'studio', min: 1, addLabel: 'Add a shape hole',
+          fields: [
+            { key: 'shape', kind: 'enum', from: ['circle', 'square', 'triangle', 'star'], label: 'Shape' },
+            { key: 'color', kind: 'text', label: 'Colour (hex, e.g. #F2784B)' }
+          ]
+        }],
         fields: []
       }
     },

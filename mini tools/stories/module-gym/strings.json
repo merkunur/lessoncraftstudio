@@ -35,5 +35,8 @@
   "g14-l01":  { "en": "Match each animal to its shadow, then press Check." },
   "g14-hint": { "en": "Look at the ears — they give the shadow away." },
   "g15-l01":  { "en": "Tap every apple, count them, and tap the number, then press Check." },
-  "g15-hint": { "en": "Mark each apple first, then count your check marks." }
+  "g15-hint": { "en": "Mark each apple first, then count your check marks." },
+  "g16-l01":  { "en": "Put your finger on the orange dot and trace along the line!" },
+  "g16-hint": { "en": "Follow the line up and down — you don't have to be perfect." },
+  "g16.word.mountain": { "en": "Mountain" }
 }

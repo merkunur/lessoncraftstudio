@@ -1,0 +1,16 @@
+{
+  "story.title":   { "en": "Trace with Pip" },
+  "cast.pip.name": { "en": "Pip" },
+
+  "p01-l01":  { "en": "Slide along the line!" },
+  "p01-hint": { "en": "Start on the orange dot and slide straight across — slow is fine." },
+  "p01.word.line": { "en": "Line" },
+
+  "p02-l01":  { "en": "Trace down, then across!" },
+  "p02-hint": { "en": "Start at the dot, go down, then along the bottom." },
+  "p02.word.corner": { "en": "Corner" },
+
+  "p03-l01":  { "en": "Follow the whole path!" },
+  "p03-hint": { "en": "Down into the valley, then back up the other side." },
+  "p03.word.hill": { "en": "Valley" }
+}

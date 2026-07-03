@@ -22,9 +22,14 @@ const fs = require('fs');
 const path = require('path');
 const http = require('http');
 const puppeteer = require('puppeteer');
+const { drivePath } = require('./lib/touch-driver.js');
 
 const REPO = path.join(__dirname, '..', '..');
 const MINI = path.join(REPO, 'mini tools');
+
+/* modules that opt into the imprecise-touch QA seam (qaGesture) — the pre-school
+   fine-motor family. A story using any of these gets the extra Gate-4 touch passes. */
+const TOUCH_MODULES = ['sb-trace', 'sb-maze'];
 const arg = (k, d) => {
   const eq = process.argv.find(a => a.startsWith('--' + k + '='));
   return eq ? eq.split('=').slice(1).join('=') : d;
@@ -182,6 +187,70 @@ async function runPass(browser, port, width, reduced) {
   await page.close();
 }
 
+/* ---- Gate 4: imprecise-touch pass (pre-school fine-motor modules) ----
+   Drives a REAL jittered pointer gesture per touch-page.
+   mode 'pass'  → wobbly-but-correct trace (0.55*tol jitter + a mid-drag lift) MUST complete.
+   mode 'fail'  → off-band trace (1.6*tol) must NOT falsely complete AND must leave the
+                  page answerable (a follow-up solve still succeeds → no dead state). */
+async function runTouchPass(browser, port, mode) {
+  const label = `touch-${mode}`;
+  const page = await browser.newPage();
+  const consoleErrors = [];
+  const BENIGN_404 = /favicon\.ico$|\/audio\/inventory\.json$/;
+  page.on('console', m => { if (m.type() === 'error') { const loc = (m.location() && m.location().url) || ''; if (!BENIGN_404.test(loc)) consoleErrors.push(m.text()); } });
+  page.on('pageerror', e => consoleErrors.push(String(e)));
+  await page.setViewport({ width: 768, height: 900 });
+  const url = `http://127.0.0.1:${port}/mini-tools/storybook.html?activity=storybook.${STORY}&lang=en&embed=1&debug=1&sound=off`;
+  await page.goto(url, { waitUntil: 'domcontentloaded' });
+  await page.waitForFunction('window.SB_PLAYER && window.SB_PLAYER.pageCount() > 0', { timeout: 20000 });
+  const pageCount = await page.evaluate('window.SB_PLAYER.pageCount()');
+  const skipper = setInterval(() => { page.evaluate('window.SB_PLAYER.skipNarration && window.SB_PLAYER.skipNarration()').catch(() => {}); }, 300);
+
+  for (let i = 0; i < pageCount; i++) {
+    try {
+      await page.waitForFunction(
+        `window.SB_PLAYER.pageIndex() === ${i} && window.SB_PLAYER.host && window.SB_PLAYER.host() !== null`,
+        { timeout: 30000 });
+    } catch (e) { failures.push(`[${label}] page ${i + 1}: never mounted its interaction host`); break; }
+
+    const gesture = await page.evaluate('window.SB_PLAYER.qaGesture ? window.SB_PLAYER.qaGesture() : null');
+    if (!gesture || gesture.kind !== 'path') {
+      /* non-touch page — advance so the traversal reaches the touch pages */
+      const solved = await page.evaluate('window.SB_PLAYER.solve()');
+      if (!solved) { failures.push(`[${label}] page ${i + 1}: could not advance a non-touch page`); break; }
+      if (i + 1 < pageCount) { try { await page.waitForFunction(`window.SB_PLAYER.pageIndex() >= ${i + 1}`, { timeout: 25000 }); } catch (e) { failures.push(`[${label}] page ${i + 1}: did not advance`); break; } }
+      continue;
+    }
+
+    /* wait for start(): the inert pointer-blocker is removed + the module enabled */
+    try { await page.waitForFunction(() => !document.querySelector('.sb-zone-blocker'), { timeout: 15000 }); }
+    catch (e) { failures.push(`[${label}] page ${i + 1}: interaction never started (blocker stayed)`); break; }
+    await new Promise(r => setTimeout(r, 250));
+
+    const zoneRect = await page.evaluate(() => { const z = document.querySelector('.sb-zone'); if (!z) return null; const r = z.getBoundingClientRect(); return { left: r.left, top: r.top, width: r.width, height: r.height }; });
+    if (!zoneRect) { failures.push(`[${label}] page ${i + 1}: no .sb-zone to drive`); break; }
+
+    await drivePath(page, gesture, zoneRect, { mode, seed: 7 + i, lift: mode === 'pass' });
+
+    if (mode === 'pass') {
+      try {
+        await page.waitForFunction(`window.SB_PLAYER.pageIndex() >= ${i + 1} || !!document.querySelector('.sb-complete')`, { timeout: 9000 });
+      } catch (e) { failures.push(`[${label}] page ${i + 1}: wobbly-but-correct trace did NOT complete (band too tight or gate too strict for a 3-5yo)`); break; }
+    } else {
+      await new Promise(r => setTimeout(r, 1400));
+      const state = await page.evaluate('({ idx: window.SB_PLAYER.pageIndex(), done: !!document.querySelector(".sb-complete") })');
+      if (state.idx > i || state.done) { failures.push(`[${label}] page ${i + 1}: OFF-band trace FALSELY completed`); break; }
+      const solved = await page.evaluate('window.SB_PLAYER.solve()');
+      if (!solved) { failures.push(`[${label}] page ${i + 1}: DEAD STATE — not answerable after a bad trace`); break; }
+      if (i + 1 < pageCount) { try { await page.waitForFunction(`window.SB_PLAYER.pageIndex() >= ${i + 1}`, { timeout: 25000 }); } catch (e) { failures.push(`[${label}] page ${i + 1}: did not recover-advance after a bad trace`); break; } }
+    }
+  }
+
+  clearInterval(skipper);
+  if (consoleErrors.length) for (const c of consoleErrors.slice(0, 4)) failures.push(`[${label}] console error: ${c.slice(0, 200)}`);
+  await page.close();
+}
+
 (async () => {
   fs.mkdirSync(OUTDIR, { recursive: true });
   const srv = await serve();
@@ -190,6 +259,17 @@ async function runPass(browser, port, width, reduced) {
 
   for (const w of VIEWPORTS) await runPass(browser, port, w, false);
   await runPass(browser, port, 768, true);           /* reduced-motion pass */
+
+  /* Gate 4 — imprecise-touch, only when the story uses a fine-motor touch module */
+  let touchStory = false;
+  try {
+    const sj = fs.readFileSync(path.join(MINI, 'stories', STORY, 'story.json'), 'utf8');
+    touchStory = TOUCH_MODULES.some(m => sj.includes('"' + m + '"'));
+  } catch (e) {}
+  if (touchStory) {
+    await runTouchPass(browser, port, 'pass');
+    await runTouchPass(browser, port, 'fail');
+  }
 
   await browser.close();
   srv.close();

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "sblib-1",
+  "generatedAt": "2026-07-03T21:35:37.129Z",
+  "characters": [
+    {
+      "id": "pip",
+      "name": {
+        "en": "Pip",
+        "de": "Pip"
+      },
+      "tags": [
+        "bird",
+        "guide"
+      ],
+      "poses": [
+        "happy",
+        "neutral",
+        "point",
+        "talk"
+      ],
+      "clips": [
+        "celebrate"
+      ],
+      "atlasBase": "/mini-tools/storybook-library/characters/pip/pip.base.json",
+      "atlasClips": "/mini-tools/storybook-library/characters/pip/pip.clips.json",
+      "card": "/mini-tools/storybook-library/characters/pip/card.webp"
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "lakeside",
+      "name": {
+        "en": "Lakeside",
+        "de": "Am See"
+      },
+      "theme": "outdoors",
+      "src": "/mini-tools/storybook-library/backgrounds/lakeside@2x.webp",
+      "thumb": "/mini-tools/storybook-library/backgrounds/thumbs/lakeside.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "picnic-blanket",
+      "name": {
+        "en": "Picnic blanket",
+        "de": "Picknickdecke"
+      },
+      "theme": "outdoors",
+      "src": "/mini-tools/storybook-library/backgrounds/picnic-blanket@2x.webp",
+      "thumb": "/mini-tools/storybook-library/backgrounds/thumbs/picnic-blanket.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "sunny-meadow",
+      "name": {
+        "en": "Sunny meadow",
+        "de": "Sonnige Wiese"
+      },
+      "theme": "outdoors",
+      "src": "/mini-tools/storybook-library/backgrounds/sunny-meadow@2x.webp",
+      "thumb": "/mini-tools/storybook-library/backgrounds/thumbs/sunny-meadow.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "sunset-hill",
+      "name": {
+        "en": "Sunset hill",
+        "de": "Hügel im Abendrot"
+      },
+      "theme": "outdoors",
+      "src": "/mini-tools/storybook-library/backgrounds/sunset-hill@2x.webp",
+      "thumb": "/mini-tools/storybook-library/backgrounds/thumbs/sunset-hill.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    }
+  ]
+}

@@ -253,6 +253,60 @@ function scaffoldStory(body) {
   return { id, etag: storyEtag(id) };
 }
 
+/* ---- /api stubs for the embedded worksheet-maker overlay (the generator
+   bridge iframes /worksheet-generators/<app>.html; the apps call /api/images
+   + theme lists). Same shapes as sep-generate.js's harness stubs; images are
+   served from frontend/public/images. Production uses the REAL /api. ---- */
+let _VOCAB = null;
+function loadVocabStub() {
+  if (_VOCAB) return _VOCAB;
+  try {
+    const vm = require('vm');
+    const src = fs.readFileSync(path.join(REPO, 'REFERENCE TRANSLATIONS', 'image-vocabulary.js'), 'utf8');
+    const sb = {}; sb.window = sb; vm.createContext(sb);
+    vm.runInContext(src + '\n;globalThis.__VOCAB = (typeof IMAGE_VOCABULARY !== "undefined") ? IMAGE_VOCABULARY : (this.ImageVocab && this.ImageVocab.DATA) || {};', sb, { filename: 'image-vocabulary.js' });
+    _VOCAB = sb.__VOCAB || {};
+  } catch (e) { _VOCAB = {}; }
+  return _VOCAB;
+}
+function stubApi(u, p, res) {
+  const PUB = path.join(REPO, 'frontend', 'public');
+  const localized = (fileKey, locale) => {
+    const e = loadVocabStub()[String(fileKey).toLowerCase()];
+    return (e && e[locale] && e[locale][0]) || fileKey;
+  };
+  if (p === '/api/images') {
+    const theme = u.searchParams.get('theme') || '';
+    const locale = u.searchParams.get('locale') || 'en';
+    const d = path.join(PUB, 'images', theme);
+    let images = [];
+    if (theme && fs.existsSync(d)) {
+      images = fs.readdirSync(d).filter(f => /\.(png|webp|jpg)$/i.test(f)).map(f => {
+        const key = f.replace(/\.\w+$/, '').replace(/\s*\d+$/, '');
+        const nm = localized(key, locale);
+        return { path: '/images/' + theme + '/' + f, name: nm, word: nm, theme };
+      });
+    }
+    return json(res, 200, { images, hasMore: false, total: images.length });
+  }
+  if (p === '/api/themes-translated' || /\/themes$/.test(p)) {
+    const sub = p === '/api/themes-translated' ? 'images' : p.split('/')[2];
+    const r = path.join(PUB, sub);
+    let th = [];
+    if (fs.existsSync(r)) {
+      th = fs.readdirSync(r)
+        .filter(f => { try { return fs.statSync(path.join(r, f)).isDirectory(); } catch (e) { return false; } })
+        .map(t => ({ value: t, id: t, name: t, displayName: t, translatedName: t, theme: t, folderName: t, count: 1 }));
+    }
+    return json(res, 200, th);
+  }
+  if (p.startsWith('/api/')) {
+    if (p.indexOf('verify') >= 0) return json(res, 200, { hasAccess: true });
+    return json(res, 200, []);
+  }
+  return false;
+}
+
 function runValidator(id) {
   return new Promise(resolve => {
     execFile(process.execPath, [path.join(__dirname, 'validate-story.js'), id],
@@ -369,6 +423,39 @@ const srv = http.createServer(async (req, res) => {
         fs.writeFileSync(dest, e.getData());
       });
       return json(res, 200, { ok: true, exId, package: 'exercises/' + exId });
+    }
+    /* import an SEP package IN-MEMORY (the Studio's embedded-generator bridge):
+       JSON { descriptor, filesBase64: { '<relpath>': '<base64>' } }. The zip
+       route above stays for the manual sep_*.zip path. */
+    if ((m = p.match(/^\/studio\/import-exercise-package\/([a-z0-9-]+)$/)) && req.method === 'POST') {
+      const storyId = m[1];
+      const storyDir = path.join(STORIES, storyId);
+      if (!fs.existsSync(storyDir)) return json(res, 404, { error: 'story not found' });
+      const raw = await readRawBody(req);
+      let body; try { body = JSON.parse(raw.toString('utf8')); } catch (e) { return json(res, 400, { error: 'the request body is not valid JSON' }); }
+      const desc = body && body.descriptor;
+      if (!desc || desc.formatVersion !== 'sep-1') return json(res, 400, { error: 'not a sep-1 package (formatVersion=' + (desc && desc.formatVersion) + ')' });
+      const files64 = body.filesBase64 || {};
+      const appType = String(desc.appType || 'worksheet').replace(/[^a-z0-9]+/gi, '-').toLowerCase();
+      const bufs = [Buffer.from(JSON.stringify(desc))];
+      const entries = [];
+      for (const nameRaw of Object.keys(files64)) {
+        const safe = nameRaw.replace(/\\/g, '/').split('/').filter(s => s && s !== '..' && s !== '.').join('/');
+        if (!safe) continue;
+        const data = Buffer.from(String(files64[nameRaw] || ''), 'base64');
+        bufs.push(data);
+        entries.push({ rel: safe, data });
+      }
+      const exId = appType + '-' + crypto.createHash('sha1').update(Buffer.concat(bufs)).digest('hex').slice(0, 6);
+      const outDir = path.join(storyDir, 'exercises', exId);
+      fs.mkdirSync(outDir, { recursive: true });
+      fs.writeFileSync(path.join(outDir, 'descriptor.json'), JSON.stringify(desc, null, 2));
+      for (const e of entries) {
+        const dest = path.join(outDir, ...e.rel.split('/'));
+        fs.mkdirSync(path.dirname(dest), { recursive: true });
+        fs.writeFileSync(dest, e.data);
+      }
+      return json(res, 200, { ok: true, exId, package: 'exercises/' + exId, appType: desc.appType, family: desc.family });
     }
     /* upload a picture from the operator's computer into a story's uploads/ folder */
     if ((m = p.match(/^\/studio\/import-image\/([a-z0-9-]+)$/)) && req.method === 'POST') {
@@ -586,6 +673,12 @@ const srv = http.createServer(async (req, res) => {
         atlasClips: '/mini-tools/stories/' + storyId + '/cast/' + charSlug + '/' + charSlug + '.clips.json', clips: groupNames });
     }
 
+    /* ---------- /api stubs (embedded worksheet-maker overlay) ---------- */
+    if (p.startsWith('/api/')) {
+      const handled = stubApi(u, p, res);
+      if (handled !== false) return handled;
+    }
+
     /* ---------- static mounts ---------- */
     let file = null;
     if (p === '/' ) { res.writeHead(302, { Location: '/mini-tools/storybook-studio.html' }); return res.end(); }
@@ -593,6 +686,7 @@ const srv = http.createServer(async (req, res) => {
     else if (p.startsWith('/image-library-webp/')) file = path.join(REPO, p.replace(/^\//, ''));
     else if (p.startsWith('/audio/')) file = path.join(REPO, 'frontend', 'public', p.replace(/^\//, ''));
     else if (p.startsWith('/worksheet-generators/')) file = path.join(REPO, 'frontend', 'public', p.replace(/^\//, ''));
+    else if (p.startsWith('/images/')) file = path.join(REPO, 'frontend', 'public', p.replace(/^\//, ''));
     if (file && fs.existsSync(file) && fs.statSync(file).isFile()) {
       res.writeHead(200, { 'Content-Type': MIME[path.extname(file).toLowerCase()] || 'application/octet-stream', 'Cache-Control': 'no-store' });
       return fs.createReadStream(file).pipe(res);

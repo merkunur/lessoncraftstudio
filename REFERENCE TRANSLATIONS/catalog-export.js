@@ -2636,9 +2636,13 @@
         defaultCrop.h = Math.min(defaultCrop.h, pageH - defaultCrop.y);
 
         /* explicit crop → use it; headless (returnPackage, no crop) → the auto
-           union-bbox default (== the operator's pre-filled box); else the UI */
-        var cropPromise = opts.cropRect ? Promise.resolve(opts.cropRect)
-          : (opts.returnPackage ? Promise.resolve(defaultCrop)
+           union-bbox default (== the operator's pre-filled box); else the UI.
+           cropRect === 'ui' forces the interactive crop UI even on the
+           in-memory returnPackage path (the Studio's embedded-generator
+           "Choose a part…" flow calls __sepExport('ui')). */
+        var wantCropUI = opts.cropRect === 'ui';
+        var cropPromise = (opts.cropRect && !wantCropUI) ? Promise.resolve(opts.cropRect)
+          : ((opts.returnPackage && !wantCropUI) ? Promise.resolve(defaultCrop)
             : _sepCropUI(canvas, pageW, pageH, defaultCrop, _sepAnswerRects(bundle, opts.family)));
         return cropPromise.then(function (crop) {
           if (!crop) return null;  /* cancelled */

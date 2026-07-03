@@ -36,7 +36,6 @@ export const webhookEventSchema = z.object({
 // Type exports for TypeScript
 export type SessionCheckInput = z.infer<typeof sessionCheckSchema>;
 export type RevokeSessionInput = z.infer<typeof revokeSessionSchema>;
-export type CreateCheckoutInput = z.infer<typeof createCheckoutSchema>;
 export type UpgradeUserInput = z.infer<typeof upgradeUserSchema>;
 export type CancelSubscriptionInput = z.infer<typeof cancelSubscriptionSchema>;
 export type WebhookEventInput = z.infer<typeof webhookEventSchema>;

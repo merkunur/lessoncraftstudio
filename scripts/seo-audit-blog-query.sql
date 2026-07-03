@@ -2,7 +2,7 @@
 -- Part 1 of ONE CLICK A DAY SEO Plan
 --
 -- Run on server:
--- PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod \
+-- PGPASSWORD='REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env' psql -U lcs_user -d lessoncraftstudio_prod \
 --   -t -A -f /opt/lessoncraftstudio/scripts/seo-audit-blog-query.sql \
 --   -o /tmp/blog-seo-data.json
 --

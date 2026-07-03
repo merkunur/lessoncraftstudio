@@ -171,7 +171,7 @@ The email campaign system has been successfully integrated with your existing em
 This creates the new email tables in your database:
 
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && npx prisma generate && npx prisma db push"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && npx prisma generate && npx prisma db push"
 ```
 
 **Expected Output:**
@@ -210,17 +210,17 @@ git push
 ### 3. Deploy to Production
 
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && cp -r messages .next/standalone/messages && pm2 restart lessoncraftstudio && echo '✅ Email campaign system deployed!'"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && cp -r messages .next/standalone/messages && pm2 restart lessoncraftstudio && echo '✅ Email campaign system deployed!'"
 ```
 
 ### 4. Verify Deployment
 
 ```bash
 # Check PM2 status
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "pm2 list"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "pm2 list"
 
 # Check for errors
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "pm2 logs lessoncraftstudio --lines 20 --nostream"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "pm2 logs lessoncraftstudio --lines 20 --nostream"
 ```
 
 ### 5. Test the System

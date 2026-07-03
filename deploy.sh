@@ -19,6 +19,25 @@
 
 set -e  # Exit on any error
 
+# ============================================
+# SECRETS — server-side env include (NOT in git)
+# ============================================
+# Credential rotation 2026-07-03: DB credentials live in
+# /opt/lessoncraftstudio/.deploy-env (root:root 600, gitignored), created by
+# the rotation runbook. This script and the cron jobs source it; no secret is
+# hardcoded in the repo anymore.
+DEPLOY_ENV="/opt/lessoncraftstudio/.deploy-env"
+if [ ! -f "$DEPLOY_ENV" ]; then
+    echo "FATAL: $DEPLOY_ENV missing — create it (export LCS_DB_PASSWORD='...') before deploying."
+    exit 1
+fi
+# shellcheck disable=SC1090
+source "$DEPLOY_ENV"
+if [ -z "${LCS_DB_PASSWORD:-}" ]; then
+    echo "FATAL: LCS_DB_PASSWORD not set by $DEPLOY_ENV."
+    exit 1
+fi
+
 echo "=========================================="
 echo "LessonCraftStudio Deployment Script"
 echo "=========================================="
@@ -122,14 +141,14 @@ echo "🗄️  Checking database and creating backup..."
 mkdir -p /opt/lessoncraftstudio/backups
 
 # Get pre-deployment database counts
-PRE_DB_PRODUCT_SAMPLES=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c "SELECT COUNT(*) FROM product_samples;" 2>/dev/null | tr -d ' ' || echo "0")
-PRE_DB_SAMPLE_WORKSHEETS=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c "SELECT COUNT(*) FROM sample_worksheets;" 2>/dev/null | tr -d ' ' || echo "0")
+PRE_DB_PRODUCT_SAMPLES=$(PGPASSWORD="${LCS_DB_PASSWORD}" psql -U lcs_user -d lessoncraftstudio_prod -t -c "SELECT COUNT(*) FROM product_samples;" 2>/dev/null | tr -d ' ' || echo "0")
+PRE_DB_SAMPLE_WORKSHEETS=$(PGPASSWORD="${LCS_DB_PASSWORD}" psql -U lcs_user -d lessoncraftstudio_prod -t -c "SELECT COUNT(*) FROM sample_worksheets;" 2>/dev/null | tr -d ' ' || echo "0")
 
 echo "   Pre-deployment database: $PRE_DB_PRODUCT_SAMPLES product samples, $PRE_DB_SAMPLE_WORKSHEETS sample worksheets"
 
 # Create database backup before deployment
 BACKUP_FILE="/opt/lessoncraftstudio/backups/pre-deploy-$(date +%Y%m%d-%H%M%S).sql.gz"
-PGPASSWORD=LcS2025SecureDBPass pg_dump -U lcs_user lessoncraftstudio_prod 2>/dev/null | gzip > "$BACKUP_FILE"
+PGPASSWORD="${LCS_DB_PASSWORD}" pg_dump -U lcs_user lessoncraftstudio_prod 2>/dev/null | gzip > "$BACKUP_FILE"
 if [ -f "$BACKUP_FILE" ] && [ -s "$BACKUP_FILE" ]; then
     echo "   Database backup created: $BACKUP_FILE"
 else
@@ -405,8 +424,8 @@ fi
 # ============================================
 echo ""
 echo "🗄️  Verifying database after deployment..."
-POST_DB_PRODUCT_SAMPLES=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c "SELECT COUNT(*) FROM product_samples;" 2>/dev/null | tr -d ' ' || echo "0")
-POST_DB_SAMPLE_WORKSHEETS=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c "SELECT COUNT(*) FROM sample_worksheets;" 2>/dev/null | tr -d ' ' || echo "0")
+POST_DB_PRODUCT_SAMPLES=$(PGPASSWORD="${LCS_DB_PASSWORD}" psql -U lcs_user -d lessoncraftstudio_prod -t -c "SELECT COUNT(*) FROM product_samples;" 2>/dev/null | tr -d ' ' || echo "0")
+POST_DB_SAMPLE_WORKSHEETS=$(PGPASSWORD="${LCS_DB_PASSWORD}" psql -U lcs_user -d lessoncraftstudio_prod -t -c "SELECT COUNT(*) FROM sample_worksheets;" 2>/dev/null | tr -d ' ' || echo "0")
 
 echo "   Post-deployment database: $POST_DB_PRODUCT_SAMPLES product samples, $POST_DB_SAMPLE_WORKSHEETS sample worksheets"
 
@@ -448,7 +467,7 @@ fi
 # ============================================
 echo ""
 echo "🔤 Checking image translation diacritics..."
-BROKEN=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c \
+BROKEN=$(PGPASSWORD="${LCS_DB_PASSWORD}" psql -U lcs_user -d lessoncraftstudio_prod -t -c \
   "SELECT COUNT(*) FROM image_library_items WHERE
    translations->>'sv' IN ('Bjorn','Dorr','Fonster','Kylskap','Sang') OR
    translations->>'de' IN ('Bar','Tur','Kuhlschrank','Lowe','Schildkrote') OR

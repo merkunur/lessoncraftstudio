@@ -1,4 +1,13 @@
 #!/bin/bash
+
+# Secrets: source the server-side env include when present (rotation 2026-07-03).
+# When invoked from deploy.sh the variable is already exported; this guard covers
+# standalone runs.
+if [ -z "${LCS_DB_PASSWORD:-}" ] && [ -f /opt/lessoncraftstudio/.deploy-env ]; then
+    # shellcheck disable=SC1091
+    source /opt/lessoncraftstudio/.deploy-env
+fi
+
 #
 # Post-Deployment Smoke Tests
 # Runs automatically after every deployment to catch broken functionality immediately
@@ -323,7 +332,7 @@ fi
 # Test 13: Image translation diacritics (Swedish bear = Björn, not Bjorn)
 echo ""
 echo "Testing image translation diacritics..."
-BROKEN_DIACRITICS=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c \
+BROKEN_DIACRITICS=$(PGPASSWORD="${LCS_DB_PASSWORD}" psql -U lcs_user -d lessoncraftstudio_prod -t -c \
   "SELECT COUNT(*) FROM image_library_items WHERE
    translations->>'sv' IN ('Bjorn','Dorr','Fonster','Kylskap','Sang') OR
    translations->>'de' IN ('Bar','Tur','Kuhlschrank','Lowe','Schildkrote') OR

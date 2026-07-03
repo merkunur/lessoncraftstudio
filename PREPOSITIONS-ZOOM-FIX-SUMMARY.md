@@ -101,10 +101,10 @@ Applied to:
 ### Commands Used
 ```bash
 # Upload to production
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\prepositions-ZOOM-FIX.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/prepositions.html"
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\prepositions-ZOOM-FIX.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/prepositions.html"
 
 # Copy to standalone and restart
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/prepositions.html' '.next/standalone/public/worksheet-generators/prepositions.html' && pm2 restart lessoncraftstudio"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/prepositions.html' '.next/standalone/public/worksheet-generators/prepositions.html' && pm2 restart lessoncraftstudio"
 
 # Update REFERENCE APPS (MANDATORY)
 cp "C:\Users\rkgen\lessoncraftstudio\prepositions-ZOOM-FIX.html" "C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\prepositions.html"

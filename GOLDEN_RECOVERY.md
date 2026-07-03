@@ -204,7 +204,7 @@ Use the golden backup when:
 pm2 status lessoncraftstudio
 
 # Check if database is accessible
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM users;"
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM users;"
 
 # Check if files exist
 ls -lh /opt/lessoncraftstudio/frontend/public/worksheet-generators/addition.html
@@ -238,14 +238,14 @@ git describe --tags
 
 ```bash
 # 1. Drop and recreate the database
-PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env dropdb -U lcs_user lessoncraftstudio_prod
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env createdb -U lcs_user lessoncraftstudio_prod
 
 # 2. Restore from backup
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/database_GOLDEN_2025-10-22.backup
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/database_GOLDEN_2025-10-22.backup
 
 # 3. Verify restoration
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM users;"
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM users;"
 ```
 
 ### Step 5: Restore Public Files (if needed)
@@ -313,9 +313,9 @@ cd /opt/lessoncraftstudio
 git checkout v2.2.0-GOLDEN
 
 # Restore database
-PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/database_GOLDEN_2025-10-22.backup
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env dropdb -U lcs_user lessoncraftstudio_prod
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env createdb -U lcs_user lessoncraftstudio_prod
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/database_GOLDEN_2025-10-22.backup
 
 # Restore files
 cd /opt/lessoncraftstudio/frontend

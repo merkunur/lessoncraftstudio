@@ -400,17 +400,17 @@ The key in IMAGE_TRANSLATIONS must be the EXACT filename including extension:
 
 ### 4.1 Upload the Script
 ```bash
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" "C:\Users\rkgen\lessoncraftstudio\scripts\import-{theme-name}-images.js" root@65.108.5.250:"/opt/lessoncraftstudio/scripts/"
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" "C:\Users\rkgen\lessoncraftstudio\scripts\import-{theme-name}-images.js" root@65.108.5.250:"/opt/lessoncraftstudio/scripts/"
 ```
 
 ### 4.2 Create Image Folder on Server
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "mkdir -p '/opt/lessoncraftstudio/image library/{Theme Display Name}'"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "mkdir -p '/opt/lessoncraftstudio/image library/{Theme Display Name}'"
 ```
 
 ### 4.3 Upload Images
 ```bash
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" "C:\Users\rkgen\lessoncraftstudio\image library\{Theme Display Name}\*.png" "root@65.108.5.250:/opt/lessoncraftstudio/image library/{Theme Display Name}/"
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" "C:\Users\rkgen\lessoncraftstudio\image library\{Theme Display Name}\*.png" "root@65.108.5.250:/opt/lessoncraftstudio/image library/{Theme Display Name}/"
 ```
 
 ---
@@ -418,7 +418,7 @@ The key in IMAGE_TRANSLATIONS must be the EXACT filename including extension:
 ## Step 5: Run the Import
 
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cd /opt/lessoncraftstudio && node scripts/import-{theme-name}-images.js"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cd /opt/lessoncraftstudio && node scripts/import-{theme-name}-images.js"
 ```
 
 ### Expected Output
@@ -454,7 +454,7 @@ Success: X | Skipped: 0 | Errors: 0
 ## Step 6: Restart Server
 
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "pm2 restart lessoncraftstudio"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "pm2 restart lessoncraftstudio"
 ```
 
 ---
@@ -463,12 +463,12 @@ Success: X | Skipped: 0 | Errors: 0
 
 ### Check files exist
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "ls -la /opt/lessoncraftstudio/frontend/public/images/{theme_id}/"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "ls -la /opt/lessoncraftstudio/frontend/public/images/{theme_id}/"
 ```
 
 ### Check standalone sync
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "ls /opt/lessoncraftstudio/frontend/.next/standalone/public/images/{theme_id}/ | wc -l"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "ls /opt/lessoncraftstudio/frontend/.next/standalone/public/images/{theme_id}/ | wc -l"
 ```
 
 ---
@@ -1042,17 +1042,17 @@ displayNames: {
 
 ### 4.1 Upload the Script
 ```bash
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" "C:\Users\rkgen\lessoncraftstudio\scripts\import-{theme-name}-backgrounds.js" root@65.108.5.250:"/opt/lessoncraftstudio/scripts/"
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" "C:\Users\rkgen\lessoncraftstudio\scripts\import-{theme-name}-backgrounds.js" root@65.108.5.250:"/opt/lessoncraftstudio/scripts/"
 ```
 
 ### 4.2 Create Background Folder on Server
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "mkdir -p '/opt/lessoncraftstudio/image library/BACKGROUNDS/{Theme Folder Name}'"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "mkdir -p '/opt/lessoncraftstudio/image library/BACKGROUNDS/{Theme Folder Name}'"
 ```
 
 ### 4.3 Upload Background Images
 ```bash
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" "C:\Users\rkgen\lessoncraftstudio\image library\BACKGROUNDS\{Theme Folder Name}\*.png" "root@65.108.5.250:/opt/lessoncraftstudio/image library/BACKGROUNDS/{Theme Folder Name}/"
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" "C:\Users\rkgen\lessoncraftstudio\image library\BACKGROUNDS\{Theme Folder Name}\*.png" "root@65.108.5.250:/opt/lessoncraftstudio/image library/BACKGROUNDS/{Theme Folder Name}/"
 ```
 
 ---
@@ -1061,7 +1061,7 @@ displayNames: {
 
 **IMPORTANT**: Run from the frontend directory with NODE_PATH set:
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && NODE_PATH=./node_modules node ../scripts/import-{theme-name}-backgrounds.js"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && NODE_PATH=./node_modules node ../scripts/import-{theme-name}-backgrounds.js"
 ```
 
 ### Expected Output
@@ -1098,7 +1098,7 @@ Success: X | Skipped: 0 | Errors: 0
 ## Step 6: Restart Server
 
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "pm2 restart lessoncraftstudio"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "pm2 restart lessoncraftstudio"
 ```
 
 ---
@@ -1107,12 +1107,12 @@ Success: X | Skipped: 0 | Errors: 0
 
 ### Check files exist (note /backgrounds/ subdirectory)
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "ls -la /opt/lessoncraftstudio/frontend/public/images/backgrounds/{theme_id_bg}/"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "ls -la /opt/lessoncraftstudio/frontend/public/images/backgrounds/{theme_id_bg}/"
 ```
 
 ### Check standalone sync
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "ls /opt/lessoncraftstudio/frontend/.next/standalone/public/images/backgrounds/{theme_id_bg}/ | wc -l"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "ls /opt/lessoncraftstudio/frontend/.next/standalone/public/images/backgrounds/{theme_id_bg}/ | wc -l"
 ```
 
 ---

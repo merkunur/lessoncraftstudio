@@ -183,7 +183,7 @@ const translation = translations[locale] || translations['en'] || {};
 3. Push to GitHub
 4. Deploy to production using Scenario 1 from DEPLOYMENT.md:
    ```bash
-   "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
+   "C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
    ```
 
 ---

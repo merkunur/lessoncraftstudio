@@ -735,17 +735,17 @@ powershell -Command "Copy-Item 'C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\
 
 ### Step 3: Upload HTML File to Production
 ```bash
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\[app-name]-LOCK-FEATURE.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/[app-name].html"
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\[app-name]-LOCK-FEATURE.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/[app-name].html"
 ```
 
 ### Step 4: Upload Translation File to Production (if applicable)
 ```bash
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-[app-name]-complete.js" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/js/translations-[app-name]-complete.js"
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-[app-name]-complete.js" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/js/translations-[app-name]-complete.js"
 ```
 
 ### Step 5: Copy to Standalone and Restart PM2
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/[app-name].html' '.next/standalone/public/worksheet-generators/[app-name].html' && cp 'public/worksheet-generators/js/translations-[app-name]-complete.js' '.next/standalone/public/worksheet-generators/js/translations-[app-name]-complete.js' && pm2 restart lessoncraftstudio"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/[app-name].html' '.next/standalone/public/worksheet-generators/[app-name].html' && cp 'public/worksheet-generators/js/translations-[app-name]-complete.js' '.next/standalone/public/worksheet-generators/js/translations-[app-name]-complete.js' && pm2 restart lessoncraftstudio"
 ```
 
 ### Step 6: Update REFERENCE APPS Folder (MANDATORY)
@@ -890,37 +890,37 @@ After implementing the lock feature, test the following:
 
 ### Check lock button is deployed correctly (Basic Feature):
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "grep -n 'toolbarLockBtn' /opt/lessoncraftstudio/frontend/public/worksheet-generators/[app-name].html | head -5"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "grep -n 'toolbarLockBtn' /opt/lessoncraftstudio/frontend/public/worksheet-generators/[app-name].html | head -5"
 ```
 
 ### Check unlock all button is deployed correctly (Enhanced Feature - Step 7):
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "grep -n 'unlockAllBtn' /opt/lessoncraftstudio/frontend/public/worksheet-generators/[app-name].html | head -5"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "grep -n 'unlockAllBtn' /opt/lessoncraftstudio/frontend/public/worksheet-generators/[app-name].html | head -5"
 ```
 
 ### Check lockUnlock translations are deployed correctly:
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "grep 'lockUnlock' /opt/lessoncraftstudio/frontend/public/worksheet-generators/js/translations-[app-name]-complete.js | head -11"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "grep 'lockUnlock' /opt/lessoncraftstudio/frontend/public/worksheet-generators/js/translations-[app-name]-complete.js | head -11"
 ```
 
 ### Check unlockAll translations are deployed correctly (Step 7):
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "grep 'unlockAll' /opt/lessoncraftstudio/frontend/public/worksheet-generators/js/translations-[app-name]-complete.js | head -11"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "grep 'unlockAll' /opt/lessoncraftstudio/frontend/public/worksheet-generators/js/translations-[app-name]-complete.js | head -11"
 ```
 
 ### Check unlockAllObjects function exists (Step 7):
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "grep -n 'function unlockAllObjects' /opt/lessoncraftstudio/frontend/public/worksheet-generators/[app-name].html"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "grep -n 'function unlockAllObjects' /opt/lessoncraftstudio/frontend/public/worksheet-generators/[app-name].html"
 ```
 
 ### Check updateUnlockAllButtonVisibility function exists (Step 7):
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "grep -n 'function updateUnlockAllButtonVisibility' /opt/lessoncraftstudio/frontend/public/worksheet-generators/[app-name].html"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "grep -n 'function updateUnlockAllButtonVisibility' /opt/lessoncraftstudio/frontend/public/worksheet-generators/[app-name].html"
 ```
 
 ### Check PM2 is running:
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "pm2 logs lessoncraftstudio --lines 10 --nostream"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "pm2 logs lessoncraftstudio --lines 10 --nostream"
 ```
 
 ---

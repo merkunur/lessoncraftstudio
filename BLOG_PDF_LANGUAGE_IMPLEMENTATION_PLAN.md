@@ -632,7 +632,7 @@ async function generateStaticHTML(data: any, locale: string): Promise<string> {
 
 ```bash
 # SSH to production server
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250
 
 # Navigate to frontend directory
 cd /opt/lessoncraftstudio/frontend
@@ -659,7 +659,7 @@ pm2 restart lessoncraftstudio
 3. Push to GitHub
 4. Deploy to production:
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
 ```
 
 ### Phase 3: Blog Content Manager Deployment
@@ -680,12 +680,12 @@ pm2 restart lessoncraftstudio
 
 3. **Upload to production:**
    ```bash
-   "C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\blog-content-manager-LANGUAGE-PDFS.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/blog-content-manager.html"
+   "C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\blog-content-manager-LANGUAGE-PDFS.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/blog-content-manager.html"
    ```
 
 4. **Copy to standalone and restart:**
    ```bash
-   "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/blog-content-manager.html' '.next/standalone/public/worksheet-generators/blog-content-manager.html' && pm2 restart lessoncraftstudio"
+   "C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/blog-content-manager.html' '.next/standalone/public/worksheet-generators/blog-content-manager.html' && pm2 restart lessoncraftstudio"
    ```
 
 5. **✅ MANDATORY: Update REFERENCE folder:**

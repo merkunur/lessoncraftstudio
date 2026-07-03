@@ -1,4 +1,6 @@
 #!/bin/bash
+# Secrets (rotation 2026-07-03): source /opt/lessoncraftstudio/.deploy-env for LCS_DB_PASSWORD.
+[ -z "${LCS_DB_PASSWORD:-}" ] && [ -f /opt/lessoncraftstudio/.deploy-env ] && source /opt/lessoncraftstudio/.deploy-env
 echo "================================================================"
 echo "  PART 33: FINAL REGRESSION AUDIT — ALL PAGES × ALL LOCALES"
 echo "================================================================"
@@ -143,7 +145,7 @@ echo "=== C. BLOG META QUALITY (1,232 posts via DB) ==="
 C_START_PASS=$TOTAL_PASS
 C_START_FAIL=$TOTAL_FAIL
 
-PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -t -A -c "
+PGPASSWORD="${LCS_DB_PASSWORD}" psql -U lcs_user -d lessoncraftstudio_prod -t -A -c "
 SELECT 'total_posts', COUNT(*) FROM blog_posts WHERE status = 'published'
 UNION ALL
 SELECT 'locales_checked', 11
@@ -152,7 +154,7 @@ SELECT 'locales_checked', 11
 done
 
 for locale in en de fr es pt it nl sv da no fi; do
-  result=$(PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -t -A -c "
+  result=$(PGPASSWORD="${LCS_DB_PASSWORD}" psql -U lcs_user -d lessoncraftstudio_prod -t -A -c "
   SELECT
     COUNT(*) AS total,
     SUM(CASE WHEN length(translations->'${locale}'->>'metaTitle') BETWEEN 50 AND 60 THEN 1 ELSE 0 END) AS title_ok,

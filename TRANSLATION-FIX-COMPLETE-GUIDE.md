@@ -495,7 +495,7 @@ Edit: C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-{APP}
 
 ```bash
 # Upload from REFERENCE TRANSLATIONS folder to production server
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-{APP}-complete.js" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/js/translations-{APP}-complete.js"
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-{APP}-complete.js" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/js/translations-{APP}-complete.js"
 ```
 
 **Verify the command includes full path starting with "REFERENCE TRANSLATIONS"!**
@@ -504,14 +504,14 @@ Edit: C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-{APP}
 
 ```bash
 # Copy to standalone directory and restart PM2
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp public/worksheet-generators/js/translations-{APP}-complete.js .next/standalone/public/worksheet-generators/js/translations-{APP}-complete.js && pm2 restart lessoncraftstudio"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp public/worksheet-generators/js/translations-{APP}-complete.js .next/standalone/public/worksheet-generators/js/translations-{APP}-complete.js && pm2 restart lessoncraftstudio"
 ```
 
 #### ✅ STEP 6.5: VERIFY DEPLOYMENT (MANDATORY)
 
 ```bash
 # Check PM2 logs for errors
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "pm2 logs lessoncraftstudio --lines 20 --nostream"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "pm2 logs lessoncraftstudio --lines 20 --nostream"
 ```
 
 #### ✅ STEP 6.6: REFERENCE FOLDER IS ALREADY UPDATED (AUTOMATIC)

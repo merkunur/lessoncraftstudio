@@ -142,7 +142,7 @@ C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-draw-and-co
 
 ### Step 1: Upload to Production Server
 ```bash
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm \
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth \
   -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU \
   "C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-draw-and-color.js" \
   root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/js/translations-draw-and-color.js"
@@ -151,7 +151,7 @@ C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-draw-and-co
 
 ### Step 2: Copy to Standalone & Restart PM2
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm \
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth \
   -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU \
   root@65.108.5.250 \
   "cd /opt/lessoncraftstudio/frontend && \

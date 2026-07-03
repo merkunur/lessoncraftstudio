@@ -318,7 +318,7 @@ If you GUESS a filename like `crossword_worksheet.jpeg` and it doesn't exist, yo
 
 ```bash
 # MANDATORY: List actual files in the product's sample folder
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /var/www/lcs-media/samples/english/[product-slug]/"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /var/www/lcs-media/samples/english/[product-slug]/"
 ```
 
 **Then use ONLY the filenames that appear in the output.**
@@ -327,7 +327,7 @@ If you GUESS a filename like `crossword_worksheet.jpeg` and it doesn't exist, yo
 
 ```bash
 # Step 1: LIST what actually exists
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /var/www/lcs-media/samples/english/crossword/"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /var/www/lcs-media/samples/english/crossword/"
 
 # Output might show:
 # sample-1.jpeg
@@ -392,7 +392,7 @@ If you ASSUME a folder is named `math-worksheet` when it's actually `math worksh
 
 1. **List the parent directory to see the actual folder name:**
    ```bash
-   "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /var/www/lcs-media/samples/english/"
+   "C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /var/www/lcs-media/samples/english/"
    ```
 
 2. **Use the EXACT folder name from the output** (copy-paste, don't type it)
@@ -415,7 +415,7 @@ If you ASSUME a folder is named `math-worksheet` when it's actually `math worksh
 
 ```bash
 # Step 1: LIST the parent directory to see actual folder names
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /var/www/lcs-media/samples/english/"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /var/www/lcs-media/samples/english/"
 
 # Output shows: "math worksheet" (with SPACE, not hyphen)
 
@@ -483,7 +483,7 @@ Run this command to get the pixel dimensions of sample images:
 
 ```bash
 # Check dimensions of sample images for a product
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "identify /var/www/lcs-media/samples/english/[product-slug]/sample-1.jpeg"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "identify /var/www/lcs-media/samples/english/[product-slug]/sample-1.jpeg"
 ```
 
 **Example output:**
@@ -686,7 +686,7 @@ Simply removing the rotation fixed the wavy grid lines.
 
 ```bash
 # MANDATORY: List actual files before writing any image URLs
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /var/www/lcs-media/samples/english/[product-slug]/"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /var/www/lcs-media/samples/english/[product-slug]/"
 ```
 
 Use the filenames from the output. Common patterns include:

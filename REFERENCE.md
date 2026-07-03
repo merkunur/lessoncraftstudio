@@ -685,7 +685,7 @@ Before including ANY image path in a content file, verify it exists using one of
 
 2. **Server check:**
    ```bash
-   "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /var/www/lcs-media/samples/{language}/{app}/"
+   "C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /var/www/lcs-media/samples/{language}/{app}/"
    ```
 
 3. **Copy from existing verified file:** If another locale's content file for the same app already has verified paths, reuse the same sample paths. Sample folder names use the same English names across ALL locales.

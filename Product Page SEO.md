@@ -179,7 +179,7 @@ Record the English sample count as baseline reference.
 **MANDATORY: Always list the directory FIRST before trying specific file searches:**
 
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /opt/lessoncraftstudio/samples/{language}/"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /opt/lessoncraftstudio/samples/{language}/"
 ```
 
 **Then identify the exact folder name from the list and use it.**
@@ -223,7 +223,7 @@ Record the English sample count as baseline reference.
 | fi | finnish |
 
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /opt/lessoncraftstudio/samples/{LANGUAGE}/{app}/sample-*.jpeg 2>/dev/null | grep -v answer | grep -v bak | wc -l"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /opt/lessoncraftstudio/samples/{LANGUAGE}/{app}/sample-*.jpeg 2>/dev/null | grep -v answer | grep -v bak | wc -l"
 ```
 
 **Replace `{LANGUAGE}` with:** Use the locale-to-folder mapping table above. For Spanish pages use `spanish`, for German use `german`, etc.
@@ -243,7 +243,7 @@ File naming conventions vary between apps. Some use `sample-1.jpeg`, others use 
 
 **Run this command to see ACTUAL file names:**
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /opt/lessoncraftstudio/samples/{LANGUAGE}/{app}/"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /opt/lessoncraftstudio/samples/{LANGUAGE}/{app}/"
 ```
 
 **Record the EXACT file naming pattern:**
@@ -855,7 +855,7 @@ git log origin/main..HEAD --oneline
 ### Step 5.4: Deploy
 
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/deploy.sh"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/deploy.sh"
 ```
 
 - [ ] Deploy succeeded
@@ -976,7 +976,7 @@ samples: {
 ## Sample Count (GATE 0)
 
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /opt/lessoncraftstudio/samples/{language}/{app}/sample-*.jpeg 2>/dev/null | grep -v answer | grep -v bak | wc -l"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /opt/lessoncraftstudio/samples/{language}/{app}/sample-*.jpeg 2>/dev/null | grep -v answer | grep -v bak | wc -l"
 ```
 
 ## Keyword Count (GATE 1 - Whole File)
@@ -1035,7 +1035,7 @@ git log origin/main..HEAD --oneline
 ## Deploy
 
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/deploy.sh"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/deploy.sh"
 ```
 
 ## Schema Verification

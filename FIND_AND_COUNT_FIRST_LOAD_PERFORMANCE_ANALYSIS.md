@@ -319,9 +319,9 @@ item.innerHTML = `<div class="sprite" style="background-position: -${img.spriteX
 
 5. ✅ **Deploy to production** (per DEPLOYMENT.md Section 2)
    ```bash
-   "C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\find-and-count-PERFORMANCE-FIX.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/find and count.html"
+   "C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\find-and-count-PERFORMANCE-FIX.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/find and count.html"
 
-   "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/find and count.html' '.next/standalone/public/worksheet-generators/find and count.html' && pm2 restart lessoncraftstudio"
+   "C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/find and count.html' '.next/standalone/public/worksheet-generators/find and count.html' && pm2 restart lessoncraftstudio"
    ```
 
 6. ✅ **MANDATORY: Update REFERENCE APPS** (per DEPLOYMENT.md)

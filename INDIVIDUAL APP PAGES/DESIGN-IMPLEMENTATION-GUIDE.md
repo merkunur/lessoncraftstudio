@@ -55,7 +55,7 @@
 ║   🟢 THE COMPLETE DEPLOYMENT COMMAND (COPY-PASTE THIS EXACTLY):                   ║
 ║   ═══════════════════════════════════════════════════════════════════════════     ║
 ║                                                                                   ║
-║   "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm \                  ║
+║   "C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth \                  ║
 ║     -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" \               ║
 ║     root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && \                 ║
 ║     cd frontend && npm run build && cp -r .next/static \                          ║
@@ -602,7 +602,7 @@ const secondPart = titleWords.slice(Math.ceil(titleWords.length / 2)).join(' ');
 ║                                                                                   ║
 ║   IP ADDRESS:   65.108.5.250                                                      ║
 ║   USER:         root                                                              ║
-║   PASSWORD:     JfmiPF_QW4_Nhm                                                    ║
+║   PASSWORD:     REDACTED-ROTATED-20260703-use-ssh-key-auth                                                    ║
 ║   HOSTKEY:      SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU                ║
 ║   APP PATH:     /opt/lessoncraftstudio                                            ║
 ║                                                                                   ║
@@ -620,7 +620,7 @@ const secondPart = titleWords.slice(Math.ceil(titleWords.length / 2)).join(' ');
 ║   ✅ CORRECT METHOD (WINDOWS - COPY THIS EXACT COMMAND):                          ║
 ║   ═══════════════════════════════════════════════════════════════════════════     ║
 ║                                                                                   ║
-║   "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm \                  ║
+║   "C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth \                  ║
 ║     -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" \               ║
 ║     root@65.108.5.250 "YOUR COMMAND HERE"                                         ║
 ║                                                                                   ║
@@ -681,17 +681,17 @@ git commit -m "feat: Add {App Name} product page (English)"
 git push origin main
 
 # Step 2: Deploy to server
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
 
 # Step 3: Copy samples to standalone (CRITICAL - samples won't load without this!)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cp -r '/opt/lessoncraftstudio/frontend/public/samples/english/{app-name}' '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/' && pm2 restart lessoncraftstudio"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cp -r '/opt/lessoncraftstudio/frontend/public/samples/english/{app-name}' '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/' && pm2 restart lessoncraftstudio"
 
 # Step 4: VERIFY LIVE URL (MUST return 200!)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "curl -s -o /dev/null -w '%{http_code}' 'https://www.lessoncraftstudio.com/en/apps/{app-slug}'"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "curl -s -o /dev/null -w '%{http_code}' 'https://www.lessoncraftstudio.com/en/apps/{app-slug}'"
 # Expected output: 200
 
 # Step 5: VERIFY SAMPLE IMAGE (MUST return 200!)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "curl -s -o /dev/null -w '%{http_code}' 'https://www.lessoncraftstudio.com/samples/english/{app-name}/{filename}.jpeg'"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "curl -s -o /dev/null -w '%{http_code}' 'https://www.lessoncraftstudio.com/samples/english/{app-name}/{filename}.jpeg'"
 # Expected output: 200
 ```
 
@@ -1731,7 +1731,7 @@ git push origin main
 
 ```bash
 # Full deployment command (copy-paste this EXACTLY):
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
 ```
 
 ### Step 9: Copy Samples to Standalone Directory
@@ -1740,7 +1740,7 @@ git push origin main
 
 ```bash
 # Copy samples to standalone (replace {app-name} with actual folder name, e.g., "word scramble"):
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "mkdir -p '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/{app-name}' && cp -r '/opt/lessoncraftstudio/samples/english/{app-name}/'* '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/{app-name}/'"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "mkdir -p '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/{app-name}' && cp -r '/opt/lessoncraftstudio/samples/english/{app-name}/'* '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/{app-name}/'"
 ```
 
 ### Step 10: Verify Everything Works
@@ -1933,7 +1933,7 @@ export const config = {
 ```
 Server: 65.108.5.250
 User: root
-Password: JfmiPF_QW4_Nhm
+Password: REDACTED-ROTATED-20260703-use-ssh-key-auth
 Hostkey: SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU
 ```
 
@@ -1953,10 +1953,10 @@ plink -batch -pw PASSWORD -hostkey "HOSTKEY" root@65.108.5.250 "command here"
 
 ```bash
 # 1. Pull, build, deploy static files, restart (copy-paste this EXACTLY):
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
 
 # 2. Copy samples to standalone (replace {app-name} with actual folder name):
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "mkdir -p '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/{app-name}' && cp -r '/opt/lessoncraftstudio/samples/english/{app-name}/'* '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/{app-name}/'"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "mkdir -p '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/{app-name}' && cp -r '/opt/lessoncraftstudio/samples/english/{app-name}/'* '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/{app-name}/'"
 
 # 3. Verify (run from local machine):
 curl -s -o /dev/null -w "%{http_code}" "https://www.lessoncraftstudio.com/{locale}/apps/{app-slug}"

@@ -461,7 +461,7 @@ This guide documents SIX major modifications to worksheet generator apps:
 
 ```bash
 # On server - create backup
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm \
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth \
   -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 \
   "cp /opt/lessoncraftstudio/frontend/.next/standalone/public/worksheet-generators/[APP_NAME].html \
       /opt/lessoncraftstudio/frontend/.next/standalone/public/worksheet-generators/[APP_NAME].html.backup_$(date +%Y%m%d_%H%M%S)"
@@ -470,7 +470,7 @@ This guide documents SIX major modifications to worksheet generator apps:
 **VERIFICATION**:
 ```bash
 # Verify backup created
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm \
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth \
   -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 \
   "ls -lh /opt/lessoncraftstudio/frontend/.next/standalone/public/worksheet-generators/[APP_NAME].html*"
 # Should show both original and .backup file
@@ -479,7 +479,7 @@ This guide documents SIX major modifications to worksheet generator apps:
 ### STEP 2: Download Local Copy for Editing
 
 ```bash
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm \
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth \
   -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU \
   root@65.108.5.250:/opt/lessoncraftstudio/frontend/.next/standalone/public/worksheet-generators/[APP_NAME].html \
   "C:\Users\rkgen\lessoncraftstudio\[APP_NAME].html"
@@ -2111,13 +2111,13 @@ All in setupEventListeners():
 
 ```bash
 # Step 1: Upload modified file
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm \
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth \
   -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU \
   "C:\Users\rkgen\lessoncraftstudio\[APP_NAME].html" \
   root@65.108.5.250:/opt/lessoncraftstudio/frontend/.next/standalone/public/worksheet-generators/[APP_NAME].html
 
 # Step 2: Restart PM2
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm \
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth \
   -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 \
   "pm2 restart lessoncraftstudio && echo 'Deployed successfully'"
 
@@ -2129,7 +2129,7 @@ All in setupEventListeners():
 ### Rollback if Needed
 
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm \
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth \
   -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 \
   "cp /opt/lessoncraftstudio/frontend/.next/standalone/public/worksheet-generators/[APP_NAME].html.backup_* \
       /opt/lessoncraftstudio/frontend/.next/standalone/public/worksheet-generators/[APP_NAME].html && \

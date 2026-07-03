@@ -57,7 +57,7 @@ This backup was created as a safe restore point before implementing new features
 - **Type**: PostgreSQL
 - **Name**: lessoncraftstudio_prod
 - **User**: lcs_user
-- **Password**: LcS2025SecureDBPass
+- **Password**: REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env
 
 ### Features Included in This Version
 - Homepage with dynamic rendering (unstable_noStore)
@@ -89,11 +89,11 @@ git checkout tags/v1.0.0-stable-2025-10-12 -b restore-v1.0.0
 ```bash
 # On production server
 # This will DROP the existing database and restore from backup
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -c -v /opt/lessoncraftstudio/backups/lessoncraftstudio_prod_2025-10-12_v1.0.0.backup
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env pg_restore -U lcs_user -d lessoncraftstudio_prod -c -v /opt/lessoncraftstudio/backups/lessoncraftstudio_prod_2025-10-12_v1.0.0.backup
 
 # Alternative: Create new database if needed
 # createdb -U lcs_user lessoncraftstudio_prod
-# PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/lessoncraftstudio_prod_2025-10-12_v1.0.0.backup
+# PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/lessoncraftstudio_prod_2025-10-12_v1.0.0.backup
 ```
 
 #### Step 3: Restore Uploaded Files
@@ -141,7 +141,7 @@ If you only need to restore the database:
 pm2 stop lessoncraftstudio
 
 # Restore database
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -c -v /opt/lessoncraftstudio/backups/lessoncraftstudio_prod_2025-10-12_v1.0.0.backup
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env pg_restore -U lcs_user -d lessoncraftstudio_prod -c -v /opt/lessoncraftstudio/backups/lessoncraftstudio_prod_2025-10-12_v1.0.0.backup
 
 # Restart application
 pm2 start lessoncraftstudio
@@ -175,13 +175,13 @@ git checkout tags/v1.0.0-stable-2025-10-12
 # 2. Create database
 sudo -u postgres createuser lcs_user
 sudo -u postgres createdb -O lcs_user lessoncraftstudio_prod
-sudo -u postgres psql -c "ALTER USER lcs_user WITH PASSWORD 'LcS2025SecureDBPass';"
+sudo -u postgres psql -c "ALTER USER lcs_user WITH PASSWORD 'REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env';"
 
 # 3. Copy backup files to server (use scp, rsync, or download)
 # scp from old server to new server or upload from local machine
 
 # 4. Restore database
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /path/to/lessoncraftstudio_prod_2025-10-12_v1.0.0.backup
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env pg_restore -U lcs_user -d lessoncraftstudio_prod -v /path/to/lessoncraftstudio_prod_2025-10-12_v1.0.0.backup
 
 # 5. Extract uploaded files
 cd /opt/lessoncraftstudio/frontend
@@ -226,10 +226,10 @@ All backup files are stored on the production server:
 ### Using PuTTY pscp (Windows)
 ```cmd
 # Download database backup
-"C:\Program Files\PuTTY\pscp.exe" -pw JfmiPF_QW4_Nhm root@65.108.5.250:/opt/lessoncraftstudio/backups/lessoncraftstudio_prod_2025-10-12_v1.0.0.backup C:\Users\YourUsername\backups\
+"C:\Program Files\PuTTY\pscp.exe" -pw REDACTED-ROTATED-20260703-use-ssh-key-auth root@65.108.5.250:/opt/lessoncraftstudio/backups/lessoncraftstudio_prod_2025-10-12_v1.0.0.backup C:\Users\YourUsername\backups\
 
 # Download files backup
-"C:\Program Files\PuTTY\pscp.exe" -pw JfmiPF_QW4_Nhm root@65.108.5.250:/opt/lessoncraftstudio/backups/public_files_2025-10-12_v1.0.0.tar.gz C:\Users\YourUsername\backups\
+"C:\Program Files\PuTTY\pscp.exe" -pw REDACTED-ROTATED-20260703-use-ssh-key-auth root@65.108.5.250:/opt/lessoncraftstudio/backups/public_files_2025-10-12_v1.0.0.tar.gz C:\Users\YourUsername\backups\
 ```
 
 ### Using scp (Linux/Mac)
@@ -248,7 +248,7 @@ scp root@65.108.5.250:/opt/lessoncraftstudio/backups/public_files_2025-10-12_v1.
 ### Verify Database Backup
 ```bash
 # Check backup file integrity
-PGPASSWORD=LcS2025SecureDBPass pg_restore -l /opt/lessoncraftstudio/backups/lessoncraftstudio_prod_2025-10-12_v1.0.0.backup | head -20
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env pg_restore -l /opt/lessoncraftstudio/backups/lessoncraftstudio_prod_2025-10-12_v1.0.0.backup | head -20
 ```
 
 ### Verify Files Backup
@@ -275,7 +275,7 @@ mkdir -p ${BACKUP_DIR}
 
 # Database backup
 echo "Backing up database..."
-PGPASSWORD=LcS2025SecureDBPass pg_dump -U lcs_user -d lessoncraftstudio_prod -F c -b -v -f ${BACKUP_DIR}/lessoncraftstudio_prod_${DATE}.backup
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env pg_dump -U lcs_user -d lessoncraftstudio_prod -F c -b -v -f ${BACKUP_DIR}/lessoncraftstudio_prod_${DATE}.backup
 
 # Files backup
 echo "Backing up files..."

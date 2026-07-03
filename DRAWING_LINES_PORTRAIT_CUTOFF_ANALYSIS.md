@@ -231,10 +231,10 @@ copy "C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\drawing lines.html" "C:\Us
 # - Optionally change line 2803 for width
 
 # 3. Upload to production server
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\drawing-lines-PORTRAIT-FIX.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/drawing lines.html"
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\drawing-lines-PORTRAIT-FIX.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/drawing lines.html"
 
 # 4. Copy to standalone and restart
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/drawing lines.html' '.next/standalone/public/worksheet-generators/drawing lines.html' && pm2 restart lessoncraftstudio"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/drawing lines.html' '.next/standalone/public/worksheet-generators/drawing lines.html' && pm2 restart lessoncraftstudio"
 
 # 5. MANDATORY: Update REFERENCE APPS folder
 copy "C:\Users\rkgen\lessoncraftstudio\drawing-lines-PORTRAIT-FIX.html" "C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\drawing lines.html"

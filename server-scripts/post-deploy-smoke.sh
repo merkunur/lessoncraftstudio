@@ -40,6 +40,12 @@ check_local_status() {
 # Status check against the public CDN edge. On a non-matching status, surfaces the
 # cache-state headers so a stale edge or unexpected hit/miss is diagnosable from the log.
 # Args: <path> <expected_status>. Returns 0 if match, 1 otherwise.
+# Bot-Fight-Mode note (2026-07-03, commission #8 CF hardening): Cloudflare BFM
+# challenges non-browser clients from datacenter IPs — which includes THIS
+# server's own curl going out to the edge. A challenged response (403 +
+# cf-mitigated: challenge) says nothing about site health; external requests
+# pass. Count those as a distinct BFM-SKIP outcome, not a FAIL.
+BFM_SKIPPED=0
 check_edge_status() {
     local path="$1"
     local expected="$2"
@@ -47,6 +53,10 @@ check_edge_status() {
     headers=$(curl -sI "$EDGE_URL$path" 2>/dev/null)
     status=$(echo "$headers" | head -1 | awk '{print $2}')
     if [ "$status" = "$expected" ]; then
+        return 0
+    fi
+    if echo "$headers" | grep -qi '^cf-mitigated: challenge'; then
+        BFM_SKIPPED=$((BFM_SKIPPED+1))
         return 0
     fi
     local cf_cache cf_ray cache_ctl age
@@ -353,13 +363,13 @@ echo "=========================================="
 
 # Summary
 if [ $FAILURES -gt 0 ]; then
-    echo "SMOKE TESTS: $FAILURES FAILURE(S), $WARNINGS WARNING(S)"
+    echo "SMOKE TESTS: $FAILURES FAILURE(S), $WARNINGS WARNING(S), $BFM_SKIPPED edge check(s) skipped (Bot Fight Mode challenge — verify externally)"
     echo "=========================================="
     echo ""
     echo "DEPLOYMENT MAY HAVE ISSUES - CHECK LOGS ABOVE!"
     exit 1
 elif [ $WARNINGS -gt 0 ]; then
-    echo "SMOKE TESTS: ALL PASSED with $WARNINGS WARNING(S)"
+    echo "SMOKE TESTS: ALL PASSED with $WARNINGS WARNING(S), $BFM_SKIPPED BFM-skipped edge check(s)"
     echo "=========================================="
     exit 0
 else

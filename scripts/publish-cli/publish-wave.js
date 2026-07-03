@@ -347,6 +347,13 @@ function main() {
     runStep(`EMBED-HIDE — inject-embed-hide-style (${loc})`, 'inject-embed-hide-style.js', [`--locale=${loc}`, ...scopeArg]);
   }
 
+  // STEP 6b — ANALYTICS BEACON: first-party Umami tracker into each new deck.html
+  // (commission #8; deck pages bypass Next so the root-layout beacon never reaches
+  // them). Idempotent (marker-guarded); inserts at the top of <head>.
+  for (const loc of args.locales) {
+    runStep(`ANALYTICS — inject-analytics-beacon (${loc})`, 'inject-analytics-beacon.js', [`--locale=${loc}`, ...scopeArg]);
+  }
+
   // STEP 7 — HREFLANG cross-locale sibling injection. ALWAYS the full 11-locale
   // set (siblings span every locale; passing only the wave locale is a no-op).
   runStep('HREFLANG — populate-and-inject-hreflang (all 11 locales)', 'populate-and-inject-hreflang.js', ['--confirm', `--locales=${HREFLANG_LOCALES.join(',')}`, `--decks-root=${args.decksRoot}`, ...scopeArg]);

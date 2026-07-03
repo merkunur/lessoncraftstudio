@@ -65,6 +65,15 @@ function readBody(req) {
     req.on('error', reject);
   });
 }
+/* raw BINARY body (for the worksheet-import ZIP — readBody's string concat corrupts bytes) */
+function readRawBody(req) {
+  return new Promise((resolve, reject) => {
+    const chunks = []; let n = 0;
+    req.on('data', c => { n += c.length; if (n > 40 * 1024 * 1024) return reject(new Error('too large')); chunks.push(c); });
+    req.on('end', () => resolve(Buffer.concat(chunks)));
+    req.on('error', reject);
+  });
+}
 
 /* B&W theme filter: EN marker per CLAUDE.md §20.5 (locale-aware markers exist,
    but the on-disk folder names use the EN convention 'bw' / 'BW' suffixes). */
@@ -318,9 +327,40 @@ const srv = http.createServer(async (req, res) => {
       catch (e) { return json(res, e.code === 409 ? 409 : 500, { error: e.code === 409 ? 'That name is taken' : String(e.message) }); }
     }
     if ((m = p.match(/^\/studio\/reveal\/([a-z0-9-]+)$/)) && req.method === 'POST') {
-      const dir = path.join(STORIES, m[1]);
-      if (fs.existsSync(dir) && process.platform === 'win32') exec('explorer "' + dir + '"');
-      return json(res, 200, { ok: true });
+      const dir = path.join(STORIES, m[1], 'scenes');   /* the scenes/ subfolder, where the message says to drop files */
+      try { fs.mkdirSync(dir, { recursive: true }); } catch (e) {}
+      if (fs.existsSync(dir)) {
+        if (process.platform === 'win32') exec('explorer "' + dir + '"');
+        else if (process.platform === 'darwin') exec('open "' + dir + '"');
+        else exec('xdg-open "' + dir + '"');
+      }
+      return json(res, 200, { ok: true, dir });
+    }
+    /* import an SEP worksheet export (ZIP: descriptor.json + visual@2x.webp [+ assets/]) into a story */
+    if ((m = p.match(/^\/studio\/import-exercise\/([a-z0-9-]+)$/)) && req.method === 'POST') {
+      const storyId = m[1];
+      const storyDir = path.join(STORIES, storyId);
+      if (!fs.existsSync(storyDir)) return json(res, 404, { error: 'story not found' });
+      let AdmZip; try { AdmZip = require('adm-zip'); } catch (e) { return json(res, 500, { error: 'adm-zip not available on the server' }); }
+      const buf = await readRawBody(req);
+      let zip; try { zip = new AdmZip(buf); } catch (e) { return json(res, 400, { error: 'that file is not a valid .zip' }); }
+      const dEntry = zip.getEntry('descriptor.json');
+      if (!dEntry) return json(res, 400, { error: 'the zip has no descriptor.json — is it a "Export for Storybook" file?' });
+      let desc; try { desc = JSON.parse(zip.readAsText(dEntry)); } catch (e) { return json(res, 400, { error: 'descriptor.json is not valid JSON' }); }
+      if (desc.formatVersion !== 'sep-1') return json(res, 400, { error: 'not a sep-1 worksheet export (formatVersion=' + desc.formatVersion + ')' });
+      const appType = String(desc.appType || 'worksheet').replace(/[^a-z0-9]+/gi, '-').toLowerCase();
+      const exId = appType + '-' + crypto.createHash('sha1').update(buf).digest('hex').slice(0, 6);
+      const outDir = path.join(storyDir, 'exercises', exId);
+      fs.mkdirSync(outDir, { recursive: true });
+      zip.getEntries().forEach(e => {
+        if (e.isDirectory) return;
+        const safe = e.entryName.replace(/\\/g, '/').split('/').filter(s => s && s !== '..').join('/');   /* path-traversal guard */
+        if (!safe) return;
+        const dest = path.join(outDir, safe);
+        fs.mkdirSync(path.dirname(dest), { recursive: true });
+        fs.writeFileSync(dest, e.getData());
+      });
+      return json(res, 200, { ok: true, exId, package: 'exercises/' + exId });
     }
 
     /* ---------- static mounts ---------- */

@@ -441,6 +441,68 @@
         }
       },
       "success": { "celebration": "burst", "holdMs": 1400 }
+    },
+    {
+      "id": "g23",
+      "scene": { "image": "scene.meadow" },
+      "characters": [{ "characterId": "pip", "pose": "point", "anchor": { "x": 200, "y": 895 }, "scale": 0.75, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g23-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": { "x": 430, "y": 160, "w": 740, "h": 640 },
+        "completionMode": "auto",
+        "hintKey": "g23-hint",
+        "taskData": {
+          "find": ["cat"],
+          "targets": [
+            { "key": "cat", "image": "img.cat", "rect": { "x": 130, "y": 210, "w": 170, "h": 170 }, "word": "@g23.word.cat" },
+            { "key": "dog", "image": "img.dog", "rect": { "x": 440, "y": 210, "w": 170, "h": 170 }, "word": "@g23.word.dog" },
+            { "key": "rabbit", "image": "img.rabbit", "rect": { "x": 285, "y": 430, "w": 170, "h": 170 }, "word": "@g23.word.rabbit" }
+          ],
+          "hideVisuals": true
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 1200 }
+    },
+    {
+      "id": "g24",
+      "scene": { "image": "scene.blanket" },
+      "characters": [{ "characterId": "pip", "pose": "talk", "anchor": { "x": 200, "y": 895 }, "scale": 0.75, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g24-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": { "x": 430, "y": 200, "w": 740, "h": 520 },
+        "completionMode": "check",
+        "hintKey": "g24-hint",
+        "taskData": {
+          "targetKey": "odd",
+          "options": [
+            { "key": "a1", "image": "img.apple" },
+            { "key": "a2", "image": "img.apple" },
+            { "key": "odd", "image": "img.banana" }
+          ]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 1200 }
+    },
+    {
+      "id": "g25",
+      "scene": { "image": "scene.meadow" },
+      "characters": [{ "characterId": "pip", "pose": "happy", "anchor": { "x": 200, "y": 895 }, "scale": 0.75, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g25-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-count-tap",
+        "zone": { "x": 430, "y": 180, "w": 740, "h": 560 },
+        "completionMode": "check",
+        "hintKey": "g25-hint",
+        "taskData": {
+          "item": { "key": "apple", "image": "img.apple", "word": "@g25.word.apple" },
+          "total": 6,
+          "target": 3,
+          "seed": 4
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 1200 }
     }
   ]
 }

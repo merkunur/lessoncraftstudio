@@ -382,6 +382,34 @@ const srv = http.createServer(async (req, res) => {
       fs.writeFileSync(path.join(upDir, name), buf);
       return json(res, 200, { ok: true, src: '/mini-tools/stories/' + storyId + '/uploads/' + name });
     }
+    /* upload a CHARACTER from the operator's computer: an image → a single-frame atlas
+       (pose_neutral = the whole image) that renders through the existing atlas pipeline */
+    if ((m = p.match(/^\/studio\/import-character\/([a-z0-9-]+)$/)) && req.method === 'POST') {
+      const storyId = m[1];
+      const storyDir = path.join(STORIES, storyId);
+      if (!fs.existsSync(storyDir)) return json(res, 404, { error: 'story not found' });
+      const buf = await readRawBody(req);
+      if (!buf || !buf.length) return json(res, 400, { error: 'empty upload' });
+      let ext = null;
+      if (buf.length > 8 && buf[0] === 0x89 && buf[1] === 0x50 && buf[2] === 0x4E && buf[3] === 0x47) ext = 'png';
+      else if (buf.length > 3 && buf[0] === 0xFF && buf[1] === 0xD8 && buf[2] === 0xFF) ext = 'jpg';
+      else if (buf.length > 12 && buf.toString('ascii', 0, 4) === 'RIFF' && buf.toString('ascii', 8, 12) === 'WEBP') ext = 'webp';
+      else if (buf.length > 6 && buf.toString('ascii', 0, 3) === 'GIF') ext = 'gif';
+      if (!ext) return json(res, 400, { error: 'that file is not a PNG, JPG, WEBP, or GIF image' });
+      let W = 0, H = 0;
+      try { const meta = await require('sharp')(buf).metadata(); W = meta.width || 0; H = meta.height || 0; }
+      catch (e) { return json(res, 500, { error: 'could not read the image (' + e.message + ')' }); }
+      if (!W || !H) return json(res, 400, { error: 'could not read the image dimensions' });
+      let slug = String(u.searchParams.get('name') || '').replace(/[^a-z0-9]+/gi, '-').replace(/^-+|-+$/g, '').toLowerCase() || 'character';
+      if (fs.existsSync(path.join(storyDir, 'cast', slug))) slug = slug + '-' + crypto.createHash('sha1').update(buf).digest('hex').slice(0, 4);
+      const dir = path.join(storyDir, 'cast', slug);
+      fs.mkdirSync(dir, { recursive: true });
+      const imgName = slug + '.base.' + ext;
+      fs.writeFileSync(path.join(dir, imgName), buf);
+      const atlas = { frames: { pose_neutral: { frame: { x: 0, y: 0, w: W, h: H }, rotated: false, trimmed: false, spriteSourceSize: { x: 0, y: 0, w: W, h: H }, sourceSize: { w: W, h: H } } }, meta: { app: 'lcs-upload', version: '1.0', image: imgName, format: 'RGBA8888', size: { w: W, h: H }, scale: '1' } };
+      fs.writeFileSync(path.join(dir, slug + '.base.json'), JSON.stringify(atlas));
+      return json(res, 200, { ok: true, characterId: slug, atlasBase: '/mini-tools/stories/' + storyId + '/cast/' + slug + '/' + slug + '.base.json', poses: ['neutral'] });
+    }
 
     /* ---------- static mounts ---------- */
     let file = null;

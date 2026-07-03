@@ -1,6 +1,6 @@
 {
   "app": "more-less",
-  "family": "C",
+  "family": "S",
   "spec": {
     "params": {
       "theme": "animals"
@@ -8,10 +8,9 @@
     "seed": 7,
     "locale": "en"
   },
-  "descriptorSha1": "6d1da4ed41e5492f63f790d3fbe49041ec6b7e31",
-  "visualSha1": "39df8b175dce2f9330c7bf7a729385025db28855",
+  "descriptorSha1": "4fcc750bc2eba2b27dee904b1448268d95c1a389",
+  "visualSha1": "13d4b8038becd30f275a36c568dc0522d1fd53a3",
   "elementCounts": {
-    "targets": 2,
-    "countBlanks": 0
+    "choices": 1
   }
 }

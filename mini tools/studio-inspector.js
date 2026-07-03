@@ -1458,8 +1458,14 @@
       var widths = [['Phone', 700], ['Tablet', 900], ['Big', 1180]];
       var iframe = el('iframe', 'stu-preview');
       var makeSrc = function () {
-        return '/mini-tools/storybook.html?story=' + S().id +
-          '&lang=en&embed=1&debug=1&sound=off&page=' + (pgIdx() + 1) + '&r=' + Date.now();
+        /* tenant mode: the player reads the story through its preview play
+           link (?src=), not the static /mini-tools/stories/ tree */
+        var ident = (global.Studio.tenant && S().previewLinkId)
+          ? '?src=' + encodeURIComponent('/api/play/' + S().previewLinkId + '/')
+          : '?story=' + S().id;
+        return '/mini-tools/storybook.html' + ident +
+          '&lang=' + (S().storyLocale || 'en') +
+          '&embed=1&debug=1&sound=off&page=' + (pgIdx() + 1) + '&r=' + Date.now();
       };
       widths.forEach(function (wdef) {
         var b = el('button', 'stu-btn stu-btn-small', wdef[0]);

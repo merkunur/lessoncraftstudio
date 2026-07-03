@@ -355,7 +355,18 @@
 
     var activityId = params.get('activity') || '';
     var storyId = params.get('story') || activityId.replace(/^storybook\./, '');
-    if (!storyId) { throw new Error('[Storybook] no story id (?story= or ?activity=storybook.<id>)'); }
+    /* ?src= — tenant story base override (the Studio's teacher stories are
+       served by the tokened /api/play/<linkId>/ routes, not the static
+       /mini-tools/stories/ tree). Prefix-validated; the link id doubles as
+       the story identity for tracking/audio when ?story= is absent. */
+    var srcBase = params.get('src') || '';
+    if (srcBase && !/^\/(api\/play\/[A-Za-z0-9]+|mini-tools\/stories\/[a-z0-9-]+)\/$/.test(srcBase)) {
+      srcBase = '';
+    }
+    if (!storyId && srcBase) {
+      storyId = (srcBase.match(/^\/api\/play\/([A-Za-z0-9]+)\//) || [])[1] || 'tenant';
+    }
+    if (!storyId) { throw new Error('[Storybook] no story id (?story= or ?src= or ?activity=storybook.<id>)'); }
 
     var lang = params.get('lang') || opts.lang ||
                (doc.documentElement.getAttribute('lang')) || 'en';
@@ -371,7 +382,7 @@
     rootEl.innerHTML = '';
 
     var policy = detectPolicy();
-    var base = '/mini-tools/stories/' + storyId + '/';
+    var base = srcBase || ('/mini-tools/stories/' + storyId + '/');
 
     var stage = null;
     var story = null;
@@ -534,7 +545,7 @@
           }
           if (onLine) onLine(cue);
           return global.SBAudio.playLine({
-            storyId: storyId, locale: _locale, lineId: cue.id, text: text
+            storyId: storyId, base: base, locale: _locale, lineId: cue.id, text: text
           }).then(function () {
             if (perf && !cue.clip) perf.setTalking(false);
             if (cue.pauseAfterMs) {
@@ -766,7 +777,7 @@
               },
               replayNarration: replayNarration,
               speakHint: function (text) {
-                global.SBAudio.playLine({ storyId: storyId, locale: _locale, lineId: '__hint__', text: text });
+                global.SBAudio.playLine({ storyId: storyId, base: base, locale: _locale, lineId: '__hint__', text: text });
               },
               announce: announce,
               reducedMotion: policy.reduced,
@@ -811,7 +822,7 @@
             p = p.then(function () {
               var text = str(sn);
               setCaption('', text);
-              return global.SBAudio.playLine({ storyId: storyId, locale: _locale, lineId: sn, text: text });
+              return global.SBAudio.playLine({ storyId: storyId, base: base, locale: _locale, lineId: sn, text: text });
             });
           }
           var hold = (page.success && page.success.holdMs) || 1200;

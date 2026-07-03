@@ -25,7 +25,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import crypto from 'crypto';
 import bcrypt from 'bcryptjs';
 import { prisma } from '@/lib/prisma';
-import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
+import { SUBSCRIPTION_PRODUCT, isLcsSubscriptionProduct } from '@/config/lemonsqueezy-product-config';
 import { generatePasswordResetToken, hashToken } from '@/lib/auth-utils';
 import { sendPasswordResetEmail } from '@/lib/email';
 
@@ -223,12 +223,14 @@ async function handleSubscriptionCreated(payload: any, eventId: string) {
       throw new Error(`Missing data: subId=${lsSubscriptionId}, productId=${lsProductId}, email=${buyerEmail}`);
     }
 
-    // Verify this is OUR LCS subscription product, not some unrelated LS subscription.
-    if (Number(lsProductId) !== SUBSCRIPTION_PRODUCT.productId) {
-      console.warn(`LS subscription_created: ignoring non-LCS product ${lsProductId} (expected ${SUBSCRIPTION_PRODUCT.productId})`);
+    // Verify this is one of OUR LCS subscription products (yearly OR monthly).
+    if (!isLcsSubscriptionProduct({ productId: lsProductId })) {
+      console.warn(`LS subscription_created: ignoring non-LCS product ${lsProductId}`);
       await prisma.lSWebhookEvent.update({ where: { eventId }, data: { status: 'processed' } });
       return;
     }
+    // Interval from which product fired (separate monthly + yearly products).
+    const billingInterval = Number(lsProductId) === SUBSCRIPTION_PRODUCT.monthlyProductId ? 'monthly' : 'yearly';
 
     const { user, isNewAccount } = await resolveOrCreateUserByEmail(buyerEmail, buyerName);
 
@@ -244,7 +246,7 @@ async function handleSubscriptionCreated(payload: any, eventId: string) {
         lsVariantId,
         planName: SUBSCRIPTION_PRODUCT.slug,
         status: mapLsStatusToSchemaStatus(lsStatus),
-        billingInterval: 'yearly',
+        billingInterval,
         currentPeriodStart: new Date(),
         currentPeriodEnd: renewsAt,
         trialEnd: trialEndsAt,
@@ -254,7 +256,7 @@ async function handleSubscriptionCreated(payload: any, eventId: string) {
         lsVariantId,
         planName: SUBSCRIPTION_PRODUCT.slug,
         status: mapLsStatusToSchemaStatus(lsStatus),
-        billingInterval: 'yearly',
+        billingInterval,
         currentPeriodEnd: renewsAt,
         trialEnd: trialEndsAt,
         canceledAt: null,

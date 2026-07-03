@@ -124,7 +124,7 @@ export default function StudioEditorClient({
         </div>
       )}
       <iframe
-        src={`/mini-tools/storybook-studio.html?story=${encodeURIComponent(storyId)}&mode=teacher&v=${STUDIO_CLIENT_VERSION}`}
+        src={`/mini-tools/storybook-studio.html?story=${encodeURIComponent(storyId)}&mode=teacher${user.isAdmin ? '&admin=1' : ''}&v=${STUDIO_CLIENT_VERSION}`}
         title="Story Studio"
         className="flex-1 w-full border-0"
       />

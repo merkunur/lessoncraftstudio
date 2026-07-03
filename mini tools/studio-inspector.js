@@ -60,6 +60,12 @@
   function T(en, de) {
     return (TEACHER && (global.Studio.state.storyLocale === 'de') && de) ? de : en;
   }
+  /* POWER: operator-grade affordances — the local operator studio always,
+     and ADMINS in the hosted teacher studio (server-confirmed via ping;
+     every operator endpoint re-enforces isAdmin server-side). */
+  function POWER() {
+    return !TEACHER || !!global.Studio.state.isAdmin;
+  }
   /* minZone → a teacher-readable size word (du² thresholds) */
   function sizeWord(minZone) {
     var a = (minZone.w || 0) * (minZone.h || 0);
@@ -185,9 +191,10 @@
   /* Renders meta.studio.fields for taskData; commits via one mutate per change. */
   function renderFields(host, fields, getObj, commit, opts) {
     fields.forEach(function (f) {
-      /* teacher mode: no zip uploads, no cross-story exercise pool, no raw
-         JSON — worksheet exercises come from the in-studio generator bridge */
-      if (TEACHER) {
+      /* teacher mode (non-admin): no zip uploads, no cross-story exercise
+         pool, no raw JSON — worksheet exercises come from the generator
+         bridge. Admins get everything. */
+      if (!POWER()) {
         if (f.kind === 'json') return;
         if (f.kind === 'upload' && /zip/i.test(f.accept || '')) return;
         if (typeof f.from === 'string' && f.from.indexOf('endpoint:/studio/exercises') === 0) return;
@@ -755,7 +762,7 @@
     });
 
     /* tidy up */
-    var unused = TEACHER ? [] : global.Studio.unusedKeys();
+    var unused = POWER() ? global.Studio.unusedKeys() : [];
     if (unused.length) {
       section(p, 'Tidy up', function (box) {
         box.appendChild(el('div', 'stu-note', unused.length + ' unused line(s) of text are kept safe. Remove them when you are sure.'));
@@ -881,8 +888,8 @@
       }
     });
 
-    /* advanced JSON + inline validation (operator-only) */
-    if (!TEACHER) {
+    /* advanced JSON + inline validation (operator/admin) */
+    if (POWER()) {
       var adv = el('details', 'stu-adv');
       adv.appendChild(el('summary', null, 'Advanced (raw settings)'));
       var ta = el('textarea', 'stu-json');
@@ -1116,6 +1123,9 @@
       } else {
         box.appendChild(el('div', 'stu-note', 'No animations yet. Upload a TexturePacker animation sheet (name its frames wave_0001, nod_0001, …) to give this character gestures you can play on any spoken line.'));
       }
+      /* clips upload = operator/admin (TexturePacker); teachers use the
+         platform library's pre-animated characters */
+      if (!POWER()) return;
       var addBtn = el('button', 'stu-btn', '⬆ Add animations (sheet + .json)');
       var addInp = el('input'); addInp.type = 'file'; addInp.accept = 'image/*,.json,application/json'; addInp.multiple = true; addInp.style.display = 'none';
       addBtn.addEventListener('click', function () { addInp.click(); });
@@ -1129,10 +1139,9 @@
         var rTxt = function (f) { return new Promise(function (rs, rj) { var r = new FileReader(); r.onload = function () { rs(r.result); }; r.onerror = rj; r.readAsText(f); }); };
         Promise.all([rB64(img), rTxt(jsn)]).then(function (r) {
           var atlas; try { atlas = JSON.parse(r[1]); } catch (e) { addBtn.textContent = '✗ that .json is not valid JSON'; return null; }
-          return fetch('/studio/import-character-clips/' + S().id + '?character=' + encodeURIComponent(pl.characterId), {
+          return global.Studio.api('/studio/import-character-clips/' + S().id + '?character=' + encodeURIComponent(pl.characterId), {
             method: 'POST', headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ atlas: atlas, imageBase64: r[0], imageExt: (String(img.name).split('.').pop() || '').toLowerCase() }) })
-            .then(function (rp) { return rp.json().then(function (j) { j.__status = rp.status; return j; }); });
+            body: JSON.stringify({ atlas: atlas, imageBase64: r[0], imageExt: (String(img.name).split('.').pop() || '').toLowerCase() }) });
         }).then(function (j) {
           if (!j) return;
           if (j.__status !== 200 || !(j.clips || []).length) { addBtn.textContent = '✗ ' + (j.error || 'upload failed'); return; }
@@ -1274,8 +1283,8 @@
         } catch (e) {}
       });
       meta.appendChild(say);
-      /* recording state: operator concern — teacher stories are TTS-first */
-      if (!TEACHER) {
+      /* recording state: operator/admin concern — teacher stories are TTS-first */
+      if (POWER()) {
         var dot = el('span', 'stu-audiodot' + (S().audioHave[(S().storyLocale || 'en') + '/' + cue.id] ? ' stu-have' : ''),
           S().audioHave[(S().storyLocale || 'en') + '/' + cue.id] ? '● recorded' : '○ no recording yet (fine for testing)');
         meta.appendChild(dot);
@@ -1458,13 +1467,13 @@
       if (!pick) {
         /* upload YOUR OWN character — a single image (one pose); operator mode
            additionally accepts a TexturePacker sheet + .json (many poses). */
-        var tenant = !!global.Studio.tenant;
-        var upBtn = el('button', 'stu-btn', tenant
+        var basic = !POWER();   /* teachers: single picture; operator/admin: + TexturePacker */
+        var upBtn = el('button', 'stu-btn', basic
           ? '⬆ Upload my own character (a single picture)'
           : '⬆ Upload a character (image, or TexturePacker sheet + .json)');
         var upInp = el('input'); upInp.type = 'file';
-        upInp.accept = tenant ? 'image/*' : 'image/*,.json,application/json';
-        upInp.multiple = !tenant; upInp.style.display = 'none';
+        upInp.accept = basic ? 'image/*' : 'image/*,.json,application/json';
+        upInp.multiple = !basic; upInp.style.display = 'none';
         var isImg = function (f) { return /^image\//.test(f.type) || /\.(png|jpe?g|webp|gif)$/i.test(f.name); };
         var isJson = function (f) { return f.type === 'application/json' || /\.json$/i.test(f.name); };
         var readText = function (f) { return new Promise(function (rs, rj) { var r = new FileReader(); r.onload = function () { rs(r.result); }; r.onerror = rj; r.readAsText(f); }); };
@@ -1478,7 +1487,7 @@
         upBtn.addEventListener('click', function () { upInp.click(); });
         upInp.addEventListener('change', function () {
           var files = [].slice.call(upInp.files || []);
-          var img = files.filter(isImg)[0], jsn = tenant ? null : files.filter(isJson)[0];
+          var img = files.filter(isImg)[0], jsn = basic ? null : files.filter(isJson)[0];
           if (!img && jsn) { upBtn.textContent = '✗ also select the sheet image (.webp/.png), not just the .json'; return; }
           if (!img) return;
           var nm = String(img.name || 'character').replace(/\.[^.]+$/, '').trim() || 'character';
@@ -1487,9 +1496,8 @@
             upBtn.textContent = 'Uploading ' + img.name + ' + ' + jsn.name + '…';
             Promise.all([readB64(img), readText(jsn)]).then(function (r) {
               var atlas; try { atlas = JSON.parse(r[1]); } catch (e) { upBtn.textContent = '✗ that .json is not valid JSON'; return null; }
-              return fetch('/studio/import-character-sheet/' + S().id, { method: 'POST', headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ name: nm, atlas: atlas, imageBase64: r[0], imageExt: (String(img.name).split('.').pop() || '').toLowerCase() }) })
-                .then(function (rp) { return rp.json().then(function (j) { j.__status = rp.status; return j; }); });
+              return global.Studio.api('/studio/import-character-sheet/' + S().id, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: nm, atlas: atlas, imageBase64: r[0], imageExt: (String(img.name).split('.').pop() || '').toLowerCase() }) });
             }).then(function (j) { if (j) done(j); }).catch(fail);
           } else {
             /* single image → a one-pose character (Studio.api: tenant mapping + Bearer) */
@@ -1501,7 +1509,7 @@
           }
         });
         body.appendChild(upBtn); body.appendChild(upInp);
-        body.appendChild(el('div', 'stu-note', tenant
+        body.appendChild(el('div', 'stu-note', basic
           ? 'Your picture becomes a character with one pose — great for a class mascot or a photo cut-out.'
           : 'Tip: for many poses/emotions, select BOTH the TexturePacker sheet image and its .json. Or tap a ready-made character below.'));
       }
@@ -1802,7 +1810,7 @@
               ? T('Your story is saved and checked — it is ready to share with your class.',
                   'Ihre Geschichte ist gespeichert und geprüft — bereit zum Teilen mit Ihrer Klasse.')
               : 'Your story is saved and checked. It lives in its story folder — nothing else to export.'));
-            if (!TEACHER) ok.appendChild(el('p', 'stu-note', 'Next (for the tech side): node scripts/storybook/qa-storybook.js --story=' + S().id));
+            if (POWER()) ok.appendChild(el('p', 'stu-note', 'Next (for the tech side): node scripts/storybook/qa-storybook.js --story=' + S().id));
             body.appendChild(ok);
           } else {
             var en1 = j.errors.length;
@@ -2040,6 +2048,7 @@
     /* server check (local studio-server / the authenticated tenant API) */
     global.Studio.api('/studio/ping').then(function (j) {
       if (!j || !j.studio) throw new Error();
+      if (global.Studio.setAdmin) global.Studio.setAdmin(!!j.isAdmin);
       var q = new URLSearchParams(location.search);
       var sid = q.get('story');
       if (sid) openStory(sid); else launcher();

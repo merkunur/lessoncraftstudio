@@ -28,7 +28,8 @@
     undoStack: [],
     redoStack: [],
     previewLinkId: null,  /* tenant mode: the story's preview play link */
-    storyLocale: 'en'     /* the story's single authoring language */
+    storyLocale: 'en',    /* the story's single authoring language */
+    isAdmin: false        /* server-confirmed via /studio/ping (see setAdmin) */
   };
 
   function emit(ev) { listeners.forEach(function (fn) { try { fn(ev || 'change'); } catch (e) { console.error(e); } }); }
@@ -42,8 +43,14 @@
      localStorage.accessToken (same-origin iframe shares localStorage with
      the Next app). The rest of the client keeps speaking the local dialect. */
   var TENANT = false;
+  var ADMIN_HINT = false;   /* UI hint from the wrapper (&admin=1); the ping
+                               response's isAdmin is the confirmed flag —
+                               every operator endpoint re-enforces on the
+                               server regardless. */
   try {
-    TENANT = new URLSearchParams(global.location.search).get('mode') === 'teacher';
+    var _q = new URLSearchParams(global.location.search);
+    TENANT = _q.get('mode') === 'teacher';
+    ADMIN_HINT = _q.get('admin') === '1';
   } catch (e) {}
 
   function tenantRoute(pathname, opts) {
@@ -73,8 +80,18 @@
     else if ((m = pathname.match(/^\/studio\/import-exercise\/([A-Za-z0-9-]+)$/))) {
       url = '/api/studio/stories/' + m[1] + '/exercises';
     }
-    /* scaffold / reveal / import-character-sheet / import-character-clips are
-       operator-only affordances — unmapped by design (hidden in teacher mode). */
+    else if ((m = pathname.match(/^\/studio\/import-character-sheet\/([A-Za-z0-9-]+)$/))) {
+      /* ADMIN-only server-side (requireStudioAdmin) */
+      url = '/api/studio/stories/' + m[1] + '/characters/sheet';
+    }
+    else if ((m = pathname.match(/^\/studio\/import-character-clips\/([A-Za-z0-9-]+)$/))) {
+      /* ?character=<slug> becomes the path segment; ADMIN-only server-side */
+      var _cs = '';
+      try { _cs = new URLSearchParams(q).get('character') || ''; } catch (e) {}
+      url = '/api/studio/stories/' + m[1] + '/characters/' + encodeURIComponent(_cs) + '/clips';
+      q = '';
+    }
+    /* scaffold / reveal are local-operator affordances — unmapped by design. */
     return { url: (url || pathname) + q, opts: opts };
   }
 
@@ -353,6 +370,9 @@
   global.Studio = {
     state: S,
     tenant: TENANT,
+    adminHint: ADMIN_HINT,
+    /* the inspector's mount() ping confirms admin server-side and calls this */
+    setAdmin: function (v) { S.isAdmin = !!v; emit('change'); },
     on: function (fn) { listeners.push(fn); },
     api: api,
     load: load,

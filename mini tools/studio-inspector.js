@@ -1700,6 +1700,11 @@
     var check = el('button', 'stu-btn', '✔ ' + T('Check my story', 'Geschichte prüfen'));
     check.addEventListener('click', runCheck);
     t.appendChild(check);
+    if (TEACHER) {
+      var share = el('button', 'stu-btn', '🔗 ' + T('Share with your class', 'Mit der Klasse teilen'));
+      share.addEventListener('click', openShare);
+      t.appendChild(share);
+    }
 
     var save = el('span', 'stu-savestate');
     var st = S().saveState;
@@ -1830,6 +1835,101 @@
         });
       }, true);
     }, 1000);
+  }
+
+  /* ---- share with your class (teacher mode) ----
+     Private-by-default: one live class link per story. Creating/rotating is
+     server-gated on the story validating clean — sharing a broken story is
+     impossible; the 409 brings back the teacher-language fix list. */
+  function openShare() {
+    global.Studio.saveNow();
+    openDrawer(T('Share with your class', 'Mit der Klasse teilen'), function (body) {
+      var box = el('div');
+      body.appendChild(box);
+
+      function linkUrl(share) { return location.origin + share.path; }
+
+      function renderState(share) {
+        box.innerHTML = '';
+        if (!share) {
+          box.appendChild(el('p', 'stu-note', T(
+            'Your story gets one private link. Anyone with the link can play it — no accounts, on any device. Students always see your latest saved version.',
+            'Ihre Geschichte bekommt einen privaten Link. Jeder mit dem Link kann sie spielen — ohne Konto, auf jedem Gerät. Ihre Schüler sehen immer die zuletzt gespeicherte Version.')));
+          var make = el('button', 'stu-btn stu-btn-primary', T('Create the class link', 'Klassen-Link erstellen'));
+          make.addEventListener('click', function () { createOrRotate(); });
+          box.appendChild(make);
+          return;
+        }
+        box.appendChild(el('p', 'stu-note', T('Your class link:', 'Ihr Klassen-Link:')));
+        var urlRow = el('div', 'stu-sharerow');
+        var inp = el('input');
+        inp.value = linkUrl(share);
+        inp.readOnly = true;
+        inp.addEventListener('focus', function () { inp.select(); });
+        var copy = el('button', 'stu-btn stu-btn-primary', T('Copy', 'Kopieren'));
+        copy.addEventListener('click', function () {
+          try { navigator.clipboard.writeText(inp.value); copy.textContent = '✓ ' + T('Copied', 'Kopiert'); }
+          catch (e) { inp.select(); document.execCommand('copy'); copy.textContent = '✓ ' + T('Copied', 'Kopiert'); }
+        });
+        urlRow.appendChild(inp); urlRow.appendChild(copy);
+        box.appendChild(urlRow);
+        box.appendChild(el('p', 'stu-note', T(
+          'Tip: project it, put it on the class blog, or send it home.',
+          'Tipp: an die Tafel projizieren, in den Klassenblog stellen oder mit nach Hause geben.')));
+        var row = el('div', 'stu-sharerow');
+        var rotate = el('button', 'stu-btn stu-btn-small', T('Get a new link', 'Neuen Link erstellen'));
+        rotate.addEventListener('click', function () { createOrRotate(); });
+        var stop = el('button', 'stu-btn stu-btn-small stu-btn-danger', T('Stop sharing', 'Nicht mehr teilen'));
+        stop.addEventListener('click', function () {
+          global.Studio.api('/studio/share/' + S().id, { method: 'DELETE' }).then(function () { renderState(null); });
+        });
+        row.appendChild(rotate); row.appendChild(stop);
+        box.appendChild(row);
+      }
+
+      function createOrRotate() {
+        box.innerHTML = '';
+        box.appendChild(el('div', 'stu-note', T('Checking your story first…', 'Ihre Geschichte wird zuerst geprüft…')));
+        global.Studio.api('/studio/share/' + S().id, { method: 'POST' }).then(function (j) {
+          if (j.__status === 409 && j.errors) {
+            box.innerHTML = '';
+            box.appendChild(el('h3', null, T('Almost ready — ' + j.errors.length + ' thing(s) to fix first',
+              'Fast fertig — vorher noch ' + j.errors.length + ' Punkt(e)')));
+            j.errors.forEach(function (e2) {
+              var card = el('div', 'stu-vcard');
+              card.appendChild(el('div', null, friendlyError(e2)));
+              var m = String(e2).match(/page ([a-z0-9-]+):/);
+              if (m) {
+                var go = el('button', 'stu-btn stu-btn-small', T('Show me', 'Zeigen'));
+                go.addEventListener('click', function () {
+                  var i = S().doc.story.pages.findIndex(function (p) { return p.id === m[1]; });
+                  if (i >= 0) { S().pageIndex = i; closeDrawer(); global.StudioCanvas.select(null); }
+                });
+                card.appendChild(go);
+              }
+              box.appendChild(card);
+            });
+            return;
+          }
+          if (j.__status !== 200 || !j.share) {
+            box.innerHTML = '';
+            box.appendChild(el('div', 'stu-empty', T('Sharing did not go through — please try again.',
+              'Das Teilen hat nicht geklappt — bitte erneut versuchen.')));
+            return;
+          }
+          renderState(j.share);
+        });
+      }
+
+      box.appendChild(el('div', 'stu-note', T('One moment…', 'Einen Moment…')));
+      global.Studio.api('/studio/share/' + S().id).then(function (j) {
+        renderState(j.share || null);
+      }).catch(function () {
+        box.innerHTML = '';
+        box.appendChild(el('div', 'stu-empty', T('Could not load the sharing state — please try again.',
+          'Der Teilen-Status konnte nicht geladen werden — bitte erneut versuchen.')));
+      });
+    }, true);
   }
 
   /* ---- launcher ---- */

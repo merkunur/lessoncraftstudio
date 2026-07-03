@@ -362,6 +362,26 @@ const srv = http.createServer(async (req, res) => {
       });
       return json(res, 200, { ok: true, exId, package: 'exercises/' + exId });
     }
+    /* upload a picture from the operator's computer into a story's uploads/ folder */
+    if ((m = p.match(/^\/studio\/import-image\/([a-z0-9-]+)$/)) && req.method === 'POST') {
+      const storyId = m[1];
+      const storyDir = path.join(STORIES, storyId);
+      if (!fs.existsSync(storyDir)) return json(res, 404, { error: 'story not found' });
+      const buf = await readRawBody(req);
+      if (!buf || !buf.length) return json(res, 400, { error: 'empty upload' });
+      /* sniff the image type by magic bytes */
+      let ext = null;
+      if (buf.length > 8 && buf[0] === 0x89 && buf[1] === 0x50 && buf[2] === 0x4E && buf[3] === 0x47) ext = 'png';
+      else if (buf.length > 3 && buf[0] === 0xFF && buf[1] === 0xD8 && buf[2] === 0xFF) ext = 'jpg';
+      else if (buf.length > 12 && buf.toString('ascii', 0, 4) === 'RIFF' && buf.toString('ascii', 8, 12) === 'WEBP') ext = 'webp';
+      else if (buf.length > 6 && buf.toString('ascii', 0, 3) === 'GIF') ext = 'gif';
+      if (!ext) return json(res, 400, { error: 'that file is not a PNG, JPG, WEBP, or GIF image' });
+      const name = crypto.createHash('sha1').update(buf).digest('hex').slice(0, 12) + '.' + ext;
+      const upDir = path.join(storyDir, 'uploads');
+      fs.mkdirSync(upDir, { recursive: true });
+      fs.writeFileSync(path.join(upDir, name), buf);
+      return json(res, 200, { ok: true, src: '/mini-tools/stories/' + storyId + '/uploads/' + name });
+    }
 
     /* ---------- static mounts ---------- */
     let file = null;

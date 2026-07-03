@@ -13,7 +13,7 @@ const fs = require('fs');
 
 const PLINK = path.join('C:', 'Program Files', 'PuTTY', 'plink.exe');
 const SERVER = 'root@65.108.5.250';
-const PW = 'JfmiPF_QW4_Nhm';
+const PW = process.env.LCS_SSH_PASSWORD || (() => { throw new Error('LCS_SSH_PASSWORD not set — prefer key auth (docs/ops/server-access.md); password rotated 2026-07-03'); })();
 const HOSTKEY = 'SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU';
 const SAMPLES_PATH = '/var/www/lcs-media/samples';
 

@@ -297,10 +297,10 @@ cd "C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS"
 # (e.g., add a comment or test key)
 
 # 3. Upload to production using new documented commands
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "REFERENCE TRANSLATIONS\translations-writing.js" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/js/translations-writing.js"
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "REFERENCE TRANSLATIONS\translations-writing.js" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/js/translations-writing.js"
 
 # 4. Deploy to standalone
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/js/translations-writing.js' '.next/standalone/public/worksheet-generators/js/translations-writing.js' && pm2 restart lessoncraftstudio"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/js/translations-writing.js' '.next/standalone/public/worksheet-generators/js/translations-writing.js' && pm2 restart lessoncraftstudio"
 
 # 5. Verify deployment
 # Visit a writing app worksheet and confirm it still works

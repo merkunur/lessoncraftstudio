@@ -160,12 +160,12 @@ According to DEPLOYMENT.md:
 
 1. **Upload the optimized file from REFERENCE APPS:**
    ```bash
-   "C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\picture sort.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/picture sort.html"
+   "C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\picture sort.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/picture sort.html"
    ```
 
 2. **Copy to standalone and restart:**
    ```bash
-   "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/picture sort.html' '.next/standalone/public/worksheet-generators/picture sort.html' && pm2 restart lessoncraftstudio"
+   "C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/picture sort.html' '.next/standalone/public/worksheet-generators/picture sort.html' && pm2 restart lessoncraftstudio"
    ```
 
 3. **✅ MANDATORY: REFERENCE APPS already updated** - The file was modified in place in REFERENCE APPS folder

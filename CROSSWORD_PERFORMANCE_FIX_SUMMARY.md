@@ -201,12 +201,12 @@ When ready to deploy, follow these steps:
 
 ### Step 1: Upload to Production
 ```bash
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\crossword-PERFORMANCE-FIX.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/crossword.html"
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\crossword-PERFORMANCE-FIX.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/crossword.html"
 ```
 
 ### Step 2: Copy to Standalone and Restart
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/crossword.html' '.next/standalone/public/worksheet-generators/crossword.html' && pm2 restart lessoncraftstudio"
+"C:\Program Files\PuTTY\plink.exe" -batch -pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/crossword.html' '.next/standalone/public/worksheet-generators/crossword.html' && pm2 restart lessoncraftstudio"
 ```
 
 ### Step 3: **MANDATORY** - Update REFERENCE APPS Folder

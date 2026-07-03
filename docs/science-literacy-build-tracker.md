@@ -167,6 +167,6 @@ Each literacy type's WORD CONTENT is authored NATIVELY per locale from that loca
 9. **difficulty [2] only** per type/locale (one difficulty avoids TITLE_NON_UNIQUE).
 
 ### Credentials/paths
-Hetzner root@65.108.5.250 (plink/pscp `-pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU`). Repo /opt/lessoncraftstudio (branch pivot/printable-business-toolkit). Local cache: 52 themes pulled; `out/noun-inventory.txt` = curation ground truth. Phonics pools: `scripts/v2-data/verify-syllable-boundaries/output/approved-words-<locale>.json`.
+Hetzner root@65.108.5.250 (plink/pscp `-pw REDACTED-ROTATED-20260703-use-ssh-key-auth -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU`). Repo /opt/lessoncraftstudio (branch pivot/printable-business-toolkit). Local cache: 52 themes pulled; `out/noun-inventory.txt` = curation ground truth. Phonics pools: `scripts/v2-data/verify-syllable-boundaries/output/approved-words-<locale>.json`.
 
 ### Sequence within Literacy: EN phonics pool FIRST (unblocks EN gated types) → then per-type Gate-2 exemplar (hardest-phonics locale: de Anlaut / fi agglutinative) → native ×11 fan.

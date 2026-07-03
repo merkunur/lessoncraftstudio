@@ -111,11 +111,11 @@ git log --oneline -1
 pm2 stop lessoncraftstudio
 
 # Restore database (this will drop and recreate all tables)
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -c -v \
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env pg_restore -U lcs_user -d lessoncraftstudio_prod -c -v \
   /opt/lessoncraftstudio/backups/GOLDEN_v1.0.2/database_GOLDEN_2025-10-12.backup
 
 # Verify database restoration
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c \
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env psql -U lcs_user -d lessoncraftstudio_prod -c \
   "SELECT COUNT(*) FROM image_library_items WHERE theme_id IN (SELECT id FROM image_themes WHERE type = 'images');"
 # Should return: 149
 ```
@@ -180,7 +180,7 @@ curl -I http://localhost:3000/worksheet-generators/content-manager-v2.html
 # Should return: HTTP/1.1 200 OK
 
 # Verify database images count
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c \
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env psql -U lcs_user -d lessoncraftstudio_prod -c \
   "SELECT type, COUNT(*) as theme_count FROM image_themes GROUP BY type ORDER BY type;"
 ```
 
@@ -241,17 +241,17 @@ pm2 restart lessoncraftstudio
 ### Database Health Check:
 ```bash
 # Count total images
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c \
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env psql -U lcs_user -d lessoncraftstudio_prod -c \
   "SELECT COUNT(*) FROM image_library_items WHERE theme_id IN (SELECT id FROM image_themes WHERE type = 'images');"
 # Expected: 149
 
 # List all theme types
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c \
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env psql -U lcs_user -d lessoncraftstudio_prod -c \
   "SELECT type, COUNT(*) as theme_count FROM image_themes GROUP BY type ORDER BY type;"
 # Expected: 5 types (backgrounds, borders, images, train, worksheet)
 
 # Count all tables
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c \
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env psql -U lcs_user -d lessoncraftstudio_prod -c \
   "SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = 'public';"
 # Expected: 60
 ```
@@ -288,7 +288,7 @@ curl -I http://localhost:3000/worksheet-generators/prepositions.html
 
 **Database**: lessoncraftstudio_prod
 **DB User**: lcs_user
-**DB Password**: LcS2025SecureDBPass
+**DB Password**: REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env
 
 **PM2 Process**: lessoncraftstudio
 **Application Port**: 3000
@@ -403,7 +403,7 @@ git checkout tags/v1.0.2-stable-2025-10-12 -b recovery
 ls -lh /opt/lessoncraftstudio/backups/GOLDEN_v1.0.2/
 
 # Restore database
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -c -v \
+PGPASSWORD=REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env pg_restore -U lcs_user -d lessoncraftstudio_prod -c -v \
   /opt/lessoncraftstudio/backups/GOLDEN_v1.0.2/database_GOLDEN_2025-10-12.backup
 
 # Restore files

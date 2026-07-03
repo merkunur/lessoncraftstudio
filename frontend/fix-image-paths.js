@@ -7,7 +7,7 @@ const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient({
   datasources: {
     db: {
-      url: process.env.DATABASE_URL || 'postgresql://lcs_user:LcS2025SecureDBPass@localhost:5432/lessoncraftstudio_prod'
+      url: process.env.DATABASE_URL || (() => { throw new Error('DATABASE_URL not set (secrets rotated 2026-07-03 — no hardcoded fallback)'); })()
     }
   }
 });

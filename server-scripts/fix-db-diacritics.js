@@ -16,7 +16,9 @@ const DB_CONFIG = {
   port: 5432,
   database: 'lessoncraftstudio_prod',
   user: 'lcs_user',
-  password: 'LcS2025SecureDBPass',
+  // Rotation 2026-07-03: no hardcoded secret. Run with the env include sourced:
+  //   source /opt/lessoncraftstudio/.deploy-env && node <this-script>
+  password: process.env.LCS_DB_PASSWORD || (() => { throw new Error('LCS_DB_PASSWORD not set — source /opt/lessoncraftstudio/.deploy-env first'); })(),
 };
 
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];

@@ -206,3 +206,4 @@ scripts/v2-data/verify-syllable-boundaries/.cache/
 docs/audit-results/mobile*/screens/
 docs/audit-results/mobile-local/
 docs/audit-results/mobile-livecheck/
+.deploy-env

@@ -205,7 +205,7 @@ Three actionable strategic questions surface from this audit:
 ## 13. Audit-trail footnotes
 
 - All measurements via `plink ... ssh root@65.108.5.250` against live production state at 2026-05-05.
-- DB cross-reference via `psql 'postgresql://lcs_user:LcS2025SecureDBPass@localhost:5432/lessoncraftstudio_prod'`.
+- DB cross-reference via `psql 'postgresql://lcs_user:REDACTED-ROTATED-20260703-see-/opt/lessoncraftstudio/.deploy-env@localhost:5432/lessoncraftstudio_prod'`.
 - No production state modified during audit.
 - Sample deck IDs not preserved in this report (PII-adjacent; deck IDs identify content authoring); aggregate counts only.
 

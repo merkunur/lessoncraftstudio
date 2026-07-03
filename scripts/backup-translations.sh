@@ -21,7 +21,7 @@ KEEP_DAYS=30
 
 # Server details (optional - uncomment to enable server backups)
 # SERVER_HOST="root@65.108.5.250"
-# SERVER_PASSWORD="JfmiPF_QW4_Nhm"
+# SERVER_PASSWORD="REDACTED-ROTATED-20260703-use-ssh-key-auth"
 # SERVER_HOSTKEY="SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU"
 # SERVER_BACKUP_PATH="/opt/lessoncraftstudio/backups/translations"
 

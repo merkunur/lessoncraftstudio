@@ -254,7 +254,7 @@
         var td = inter.taskData; var wallArr = td[dr.bind] || [];
         var svgM = overlaySvg('stu-dmaze');
         wallArr.forEach(function (w) { var a = global.Studio.toAbsPt(z, { x: w.x1, y: w.y1 }), b = global.Studio.toAbsPt(z, { x: w.x2, y: w.y2 }); svgM.appendChild(svgEl('line', { x1: a.x, y1: a.y, x2: b.x, y2: b.y, stroke: '#8a6a4a', 'stroke-width': 16, 'stroke-linecap': 'round' })); });
-        if (td.solution && td.solution.length) { var sp = td.solution.map(function (p) { return global.Studio.toAbsPt(z, p); }); var sd = ''; sp.forEach(function (p, k) { sd += (k ? 'L' : 'M') + p.x + ',' + p.y + ' '; }); svgM.appendChild(svgEl('path', { d: sd.trim(), fill: 'none', stroke: 'rgba(20,107,94,.35)', 'stroke-width': 8, 'stroke-dasharray': '12 12' })); }
+        /* solution route is rendered by the 'path' drawable (bind:solution); start/end below */
         if (td.start) { var sa = global.Studio.toAbsPt(z, td.start); svgM.appendChild(svgEl('circle', { cx: sa.x, cy: sa.y, r: 16, fill: '#146B5E' })); }
         if (td.end) { var ea = global.Studio.toAbsPt(z, td.end); svgM.appendChild(svgEl('circle', { cx: ea.x, cy: ea.y, r: 20, fill: 'none', stroke: '#F2784B', 'stroke-width': 5, 'stroke-dasharray': '10 8' })); }
         stage.appendChild(svgM);
@@ -497,6 +497,11 @@
     placeMode = { kind: 'point', drawable: drawable };
     host.classList.add('stu-placing');
   }
+  /* single-click SCALAR point (sb-maze start/end): one click sets taskData[bind]={x,y}. */
+  function startPlaceScalarPoint(drawable) {
+    placeMode = { kind: 'scalarPoint', drawable: drawable };
+    host.classList.add('stu-placing');
+  }
   /* multi-click PATH builder (sb-trace): each click adds a vertex; double-click or
      "Finish" commits taskData[bind] = [{x,y}...]; Escape cancels. */
   function startPlacePath(drawable) {
@@ -598,6 +603,15 @@
         abs.y = Math.max(z.y + 56, Math.min(abs.y, z.y + z.h - 56));
         inter.taskData[pm.drawable.bind] = inter.taskData[pm.drawable.bind] || [];
         inter.taskData[pm.drawable.bind].push(global.Studio.toZoneRelPt(z, abs));
+      });
+    } else if (pm.kind === 'scalarPoint') {
+      global.Studio.mutate('set ' + pm.drawable.bind, function (draft) {
+        var inter = draft.story.pages[S().pageIndex].interaction;
+        var z = inter.zone;
+        var abs = { x: snap(pt.x), y: snap(pt.y) };
+        abs.x = Math.max(z.x, Math.min(abs.x, z.x + z.w));
+        abs.y = Math.max(z.y, Math.min(abs.y, z.y + z.h));
+        inter.taskData[pm.drawable.bind] = global.Studio.toZoneRelPt(z, abs);   /* a single {x,y}, not an array */
       });
     }
   }
@@ -710,6 +724,7 @@
     startPlaceCharacter: startPlaceCharacter,
     startPlaceRect: startPlaceRect,
     startPlacePoint: startPlacePoint,
+    startPlaceScalarPoint: startPlaceScalarPoint,
     startPlacePath: startPlacePath,
     startPlaceMaze: startPlaceMaze,
     finishPlace: finishPlace,

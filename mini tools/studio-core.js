@@ -342,8 +342,10 @@
     catch (e) { errors.push('Form error: ' + e.message); }
     if (inter.zone && def.meta.minZone &&
         (inter.zone.w < def.meta.minZone.w || inter.zone.h < def.meta.minZone.h)) {
-      errors.push('The activity area is too small — needs at least ' +
-        def.meta.minZone.w + '×' + def.meta.minZone.h);
+      errors.push(TENANT
+        ? 'Make the activity box a bit bigger — drag its corner.'
+        : 'The activity area is too small — needs at least ' +
+          def.meta.minZone.w + '×' + def.meta.minZone.h);
     }
     return errors;
   }

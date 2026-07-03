@@ -236,6 +236,10 @@
       }),
       announce: opts.announce,
       reducedMotion: !!opts.reducedMotion,
+      /* band: the resolved grade-band INTERACTION profile (tolerances, tap sizes, a11y knobs) —
+         additive, frozen, mirrors reducedMotion. Legacy/K-3 modules never read it (zero change);
+         pre-school modules read ctx.band.<knob>. Defaults to the K-3 profile when no grade. */
+      band: Object.freeze(opts.band || (global.SB_BANDS && global.SB_BANDS.defaults) || {}),
       report: Object.freeze(report),
       el: el,
       drag: (global.LCS && global.LCS.drag) || null,

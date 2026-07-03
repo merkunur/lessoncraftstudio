@@ -58,7 +58,23 @@
       var sel = el('select');
       var search = el('input');
       search.placeholder = 'Search…';
-      bar.appendChild(sel); bar.appendChild(search);
+      /* upload a picture from the operator's own computer */
+      var upBtn = el('button', 'stu-btn', '⬆ Upload from my computer');
+      var upInp = el('input'); upInp.type = 'file'; upInp.accept = 'image/*'; upInp.style.display = 'none';
+      upBtn.addEventListener('click', function () { upInp.click(); });
+      upInp.addEventListener('change', function () {
+        var file = upInp.files && upInp.files[0]; if (!file) return;
+        upBtn.textContent = 'Uploading ' + file.name + '…';
+        file.arrayBuffer().then(function (arrbuf) {
+          return fetch('/studio/import-image/' + S().id, { method: 'POST', headers: { 'Content-Type': 'application/octet-stream' }, body: arrbuf })
+            .then(function (r) { return r.json().then(function (j) { j.__status = r.status; return j; }); });
+        }).then(function (j) {
+          if (j.__status !== 200 || !j.src) { upBtn.textContent = '✗ ' + (j.error || 'upload failed'); return; }
+          closeDrawer();
+          if (typeof onPick === 'function') onPick(j.src, null, null);
+        }).catch(function () { upBtn.textContent = '✗ couldn\'t reach the Studio server'; });
+      });
+      bar.appendChild(sel); bar.appendChild(search); bar.appendChild(upBtn); bar.appendChild(upInp);
       body.appendChild(bar);
       var grid = el('div', 'stu-libgrid');
       body.appendChild(grid);
@@ -542,7 +558,7 @@
         box.appendChild(chip);
       });
       var add = el('button', 'stu-btn', '+ Add a character');
-      add.addEventListener('click', openCastPicker);
+      add.addEventListener('click', function () { openCastPicker(); });
       box.appendChild(add);
     });
 
@@ -1125,7 +1141,10 @@
 
   /* onPick(castDef) optional — when given (Change character), swap in place; else Add + place. */
   function openCastPicker(onPick) {
-    openDrawer(onPick ? 'Change to which character?' : 'Add a character', function (body) {
+    /* a DOM Event may arrive here (when used directly as a click listener) — only a real
+       function is a swap callback; otherwise this is the Add flow (place on the canvas). */
+    var pick = (typeof onPick === 'function') ? onPick : null;
+    openDrawer(pick ? 'Change to which character?' : 'Add a character', function (body) {
       global.Studio.api('/studio/cast').then(function (j) {
         var row = el('div', 'stu-cards');
         (j.cast || []).forEach(function (c) {
@@ -1138,11 +1157,11 @@
           }).catch(function () {});
           card.addEventListener('click', function () {
             closeDrawer();
-            if (onPick) onPick(c); else global.StudioCanvas.startPlaceCharacter(c);
+            if (pick) pick(c); else global.StudioCanvas.startPlaceCharacter(c);
           });
           row.appendChild(card);
         });
-        if (!onPick) body.appendChild(el('div', 'stu-note', 'Then click the spot on the picture where their feet should stand.'));
+        if (!pick) body.appendChild(el('div', 'stu-note', 'Then click the spot on the picture where their feet should stand.'));
         body.appendChild(row);
       }).catch(function () {
         body.appendChild(el('div', 'stu-empty', 'Couldn\'t reach the Studio server — is it running? (node scripts/storybook/studio-server.js)'));

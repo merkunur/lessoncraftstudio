@@ -1,0 +1,18 @@
+{
+  "storyId": "pk-drag",
+  "generatedAt": "2026-07-03T03:37:35.690Z",
+  "pageCount": 3,
+  "totalBytes": 3942,
+  "files": [
+    {
+      "path": "story.json",
+      "bytes": 3495,
+      "sha1": "49afd53ffc1f0962a4f99519af480c2c9427b07f"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 447,
+      "sha1": "a358026ad3988288718fd4e9143d15c6c4585071"
+    }
+  ]
+}

@@ -26,7 +26,8 @@
     "img.hat":    { "kind": "image", "src": "/image-library-webp/themes/clothing/hat@2x.webp", "vocab": "hat" },
     "img.cat":    { "kind": "image", "src": "/image-library-webp/themes/animals/cat@2x.webp", "vocab": "cat" },
     "img.dog":    { "kind": "image", "src": "/image-library-webp/themes/animals/dog@2x.webp", "vocab": "dog" },
-    "img.rabbit": { "kind": "image", "src": "/image-library-webp/themes/animals/rabbit@2x.webp", "vocab": "rabbit" }
+    "img.rabbit": { "kind": "image", "src": "/image-library-webp/themes/animals/rabbit@2x.webp", "vocab": "rabbit" },
+    "img.table": { "kind": "image", "src": "/image-library-webp/themes/furniture/table@2x.webp", "vocab": "table" }
   },
 
   "reward": {
@@ -372,6 +373,48 @@
           "slots": [
             { "shape": "circle", "color": "#F2784B", "at": { "x": 230, "y": 240 } },
             { "shape": "square", "color": "#146B5E", "at": { "x": 570, "y": 240 } }
+          ]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 1200 }
+    },
+    {
+      "id": "g20",
+      "scene": { "image": "scene.blanket" },
+      "characters": [{ "characterId": "pip", "pose": "talk", "anchor": { "x": 200, "y": 895 }, "scale": 0.75, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g20-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-complete-picture",
+        "zone": { "x": 340, "y": 150, "w": 920, "h": 700 },
+        "completionMode": "auto",
+        "hintKey": "g20-hint",
+        "taskData": {
+          "cells": [
+            { "image": "img.cat", "at": { "x": 200, "y": 260 } },
+            { "image": "img.dog", "at": { "x": 480, "y": 260 } },
+            { "image": "img.rabbit", "at": { "x": 760, "y": 260 } }
+          ],
+          "missing": [1]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 1200 }
+    },
+    {
+      "id": "g21",
+      "scene": { "image": "scene.meadow" },
+      "characters": [{ "characterId": "pip", "pose": "point", "anchor": { "x": 200, "y": 895 }, "scale": 0.75, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g21-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": { "x": 380, "y": 140, "w": 840, "h": 720 },
+        "completionMode": "auto",
+        "hintKey": "g21-hint",
+        "taskData": {
+          "object": { "image": "img.cat", "alt": "@g21.obj.cat" },
+          "reference": { "image": "img.table", "at": { "x": 500, "y": 340 } },
+          "slots": [
+            { "key": "under", "at": { "x": 500, "y": 560 }, "correct": true },
+            { "key": "above", "at": { "x": 500, "y": 180 } }
           ]
         }
       },

@@ -1,18 +1,18 @@
 {
   "storyId": "pk-drag",
-  "generatedAt": "2026-07-03T03:37:35.690Z",
+  "generatedAt": "2026-07-03T03:46:44.775Z",
   "pageCount": 3,
-  "totalBytes": 3942,
+  "totalBytes": 4515,
   "files": [
     {
       "path": "story.json",
-      "bytes": 3495,
-      "sha1": "49afd53ffc1f0962a4f99519af480c2c9427b07f"
+      "bytes": 4047,
+      "sha1": "23292967863948f58609cd42b66cc72b10731abb"
     },
     {
       "path": "strings.json",
-      "bytes": 447,
-      "sha1": "a358026ad3988288718fd4e9143d15c6c4585071"
+      "bytes": 468,
+      "sha1": "9dfd2fe3bddfbf9f9d3f546413d564c920db350d"
     }
   ]
 }

@@ -83,6 +83,16 @@ function centroid(pts) {
   let x = 0, y = 0; for (const p of pts) { x += p.x; y += p.y; } return { x: x / pts.length, y: y / pts.length };
 }
 function outwardUnit(p, c) { let dx = p.x - c.x, dy = p.y - c.y; const L = Math.hypot(dx, dy) || 1; return { x: dx / L, y: dy / L }; }
+/* a robust "miss" direction (du): primarily AWAY from the zone centre (works even
+   for a single target, where away-from-centroid degenerates), then away from the
+   targets' centroid, then an arbitrary diagonal — always non-zero. */
+function failDir(p, zone, c) {
+  let v = outwardUnit(p, { x: zone.w / 2, y: zone.h / 2 });
+  if (Math.abs(v.x) + Math.abs(v.y) > 0.15) return v;
+  v = outwardUnit(p, c);
+  if (Math.abs(v.x) + Math.abs(v.y) > 0.15) return v;
+  return { x: 0.6, y: -0.8 };
+}
 
 /* gesture.kind==='taps' — tap each target in order with a scattered finger.
    pass → scatter within 0.5*tol (lands on-target); fail → 1.6*tol OUTWARD (clean miss). */
@@ -94,7 +104,7 @@ async function driveTaps(page, gesture, zoneRect, opts) {
   for (const p of pointsDu) {
     const bx = zoneRect.left + p.x * sx, by = zoneRect.top + p.y * sy;
     let x, y;
-    if (fail) { const u = outwardUnit(p, c); x = bx + u.x * 1.6 * tolPx; y = by + u.y * 1.6 * tolPx; }
+    if (fail) { const u = failDir(p, zone, c); x = bx + u.x * 1.6 * tolPx; y = by + u.y * 1.6 * tolPx; }
     else { const ang = rng() * Math.PI * 2, rad = rng() * 0.5 * tolPx; x = bx + Math.cos(ang) * rad; y = by + Math.sin(ang) * rad; }
     await page.mouse.move(x, y);
     await page.mouse.down();
@@ -115,7 +125,7 @@ async function driveDrops(page, gesture, zoneRect, opts) {
     const fx = zoneRect.left + pr.from.x * sx, fy = zoneRect.top + pr.from.y * sy;
     const gx = zoneRect.left + pr.to.x * sx, gy = zoneRect.top + pr.to.y * sy;
     let tx, ty;
-    if (fail) { const u = outwardUnit(pr.to, c); tx = gx + u.x * 1.6 * tolPx; ty = gy + u.y * 1.6 * tolPx; }
+    if (fail) { const u = failDir(pr.to, zone, c); tx = gx + u.x * 1.6 * tolPx; ty = gy + u.y * 1.6 * tolPx; }
     else { const ang = rng() * Math.PI * 2, rad = rng() * 0.5 * tolPx; tx = gx + Math.cos(ang) * rad; ty = gy + Math.sin(ang) * rad; }
     await page.mouse.move(fx, fy);
     await page.mouse.down();

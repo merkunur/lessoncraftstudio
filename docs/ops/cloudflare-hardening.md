@@ -65,13 +65,19 @@ Create the three rules below IN THIS ORDER (first match wins top-down; use
 
   (http.request.uri.path contains "/worksheets" or http.request.uri.path contains "/topic" or http.request.uri.path contains "/activities" or http.request.uri.path contains "/learn" or http.request.uri.path contains "/standards" or http.request.uri.path contains "/tools" or http.request.uri.path contains "/worksheet-makers" or http.request.uri.path in {"/en" "/de" "/fr" "/es" "/pt" "/it" "/nl" "/sv" "/da" "/no" "/fi"}) and not http.cookie contains "refreshToken" and not http.request.uri.path contains "/api/"
 
-- **Then:** Eligible for cache · Edge TTL: **Use cache-control header if present,
-  bypass cache if not** · Browser TTL: Respect origin.
+- **Then:** Eligible for cache · Edge TTL: **Ignore cache-control header and use
+  this TTL → 10 minutes** · Browser TTL: Respect origin.
+  (CORRECTED after live verification 2026-07-03: the origin sends
+  `private, no-cache, no-store` on these SSR routes — they render dynamically,
+  not ISR — so "respect origin" yields permanent BYPASS. The explicit 10-minute
+  edge TTL override is required; it applies ONLY to cookie-less requests per the
+  expression, and Cloudflare still never caches responses that carry Set-Cookie.)
 - Why safe: `refreshToken` is the session cookie (httpOnly, set at signin) — any
-  signed-in browser bypasses the cache entirely; responses carrying `Set-Cookie`
-  are never cached by Cloudflare; auth state on these pages renders client-side
-  anyway. Next/ISR emits `s-maxage` freshness the edge respects. `/api`, `/auth`,
-  `/admin`, `/workspace`, `/collections` are NOT in the path allowlist.
+  signed-in browser bypasses the cache entirely via the expression; responses
+  carrying `Set-Cookie` are never cached; auth state on these pages renders
+  client-side anyway; the pages contain no per-visitor server-rendered content.
+  `/api`, `/auth`, `/admin`, `/workspace`, `/collections` are NOT in the path
+  allowlist.
 
 ### Rule 3 — `Cache static long-tail`
 - **If:** Custom filter expression (Edit expression, one line):

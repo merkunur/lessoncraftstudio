@@ -110,3 +110,22 @@ export function resolveTopicSlug(
   }
   return null;
 }
+
+/**
+ * Axis-key alias: when a URL uses the raw axis KEY instead of the locale's
+ * slug (e.g. /en/topic/sudoku where the en slug is `picture-sudoku`, or any
+ * non-EN locale hit with the English key), return the canonical localized slug
+ * to redirect to. Returns null when the slug isn't an axis key or already IS
+ * the localized slug (then resolveTopicSlug matched and no alias is needed).
+ * Fixes the whole §22.2 `/en/topic/sudoku` 404 class across all 11 locales.
+ */
+export function resolveAxisKeyAlias(slug: string, locale: string): string | null {
+  for (const axis of ALL_AXES) {
+    const entry = taxonomy.axes[axis]?.[slug];
+    const localized = entry?.slug?.[locale];
+    if (localized && localized !== slug) {
+      return localized;
+    }
+  }
+  return null;
+}

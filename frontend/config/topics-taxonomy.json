@@ -4909,7 +4909,7 @@
       }
     },
     "exercise-mode": {
-      "$comment": "Per CLAUDE.md §17.8.5 native-language slug derivation: slug.js localizes manifest.exercise_mode via this axis at publish-cli boundary. Authored coverage scope (initial commission 2026-05-11 native-language-slug ES wave): en + es full. Other 9 locales placeholder per §16.6.1 substrate-honesty discipline; slug.js falls back to English-canonical when locale slug missing. Future taxonomy-expansion commission authors per-locale slugs when each locale's Track C wave stages.",
+      "$comment": "Per CLAUDE.md §17.8.5 native-language slug derivation: slug.js localizes manifest.exercise_mode via this axis at publish-cli boundary. Coverage: ALL 11 locales fully authored (audit-R7 fill, commit 2211eaeb, 2026-06; published-deck retrofit via migrate-native-mode-slugs.js). slug.js still falls back to English-canonical if a locale slug were ever missing.",
       "find-addend": {
         "slug": {
           "en": "find-addend",

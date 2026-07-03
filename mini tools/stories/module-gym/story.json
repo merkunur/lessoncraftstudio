@@ -300,6 +300,25 @@
         "hintKey": "g15-hint",
         "taskData": { "package": "exercises/count-apples" }
       },
+      "success": { "celebration": "burst", "holdMs": 900 }
+    },
+    {
+      "id": "g16",
+      "scene": { "image": "scene.meadow" },
+      "characters": [{ "characterId": "pip", "pose": "point", "anchor": { "x": 190, "y": 900 }, "scale": 0.75, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g16-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-trace",
+        "zone": { "x": 430, "y": 180, "w": 740, "h": 600 },
+        "completionMode": "auto",
+        "hintKey": "g16-hint",
+        "taskData": {
+          "path": [{ "x": 110, "y": 470 }, { "x": 300, "y": 180 }, { "x": 490, "y": 470 }, { "x": 660, "y": 200 }],
+          "tolDu": 200,
+          "glyph": "M",
+          "word": "@g16.word.mountain"
+        }
+      },
       "success": { "celebration": "burst", "holdMs": 1200 }
     }
   ]

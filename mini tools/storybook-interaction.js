@@ -321,6 +321,15 @@
           if (res && res.ok) onSuccessInternal();
         }
         return true;
+      },
+      /* dev-only QA seam — the imprecise-touch driver asks the module for its
+         gesture geometry (path/drop/taps in design units + tolerance) so the
+         harness can drive REAL jittered pointer input. Null for modules that
+         don't opt in (all legacy/K-3 modules). Mirrors the autoSolve guard. */
+      qaGesture: function () {
+        if (!opts.debug) return null;
+        if (typeof instance.qaGesture !== 'function') return null;
+        try { return instance.qaGesture(); } catch (e) { return null; }
       }
     };
     return host;

@@ -938,6 +938,8 @@
       api.skipNarration = function () { global.SBAudio.stop(); };
       api.host = function () { return host; };
       api.stage = function () { return stage; };
+      /* imprecise-touch QA seam: the module's gesture geometry (or null) */
+      api.qaGesture = function () { return host && host.qaGesture ? host.qaGesture() : null; };
     }
     global.SB_PLAYER = api;
     return api;

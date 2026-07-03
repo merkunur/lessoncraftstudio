@@ -122,9 +122,21 @@ Pick the module whose *thinking type* matches the teaching point. When two fit, 
 | build a word (no typing) | `sb-cvc-builder` (letters) · `sb-word-builder` (syllables) | phonics-safe words only (§20.7) |
 | discriminate two scenes | `sb-spot-diff` | |
 | solve a real worksheet exercise | `sb-worksheet-exercise` | SEP families A/F/E/C; use `sep-generate.js` or manual export |
+| **trace a line/letter/shape with a finger** (PK) | **`sb-trace`** | PK fine-motor; forgiving band (`ctx.band`), forward-arc ink, never resets; author under `alignment.grade:"PK"` |
 
 **No free keyboard typing anywhere** (tap/drag only — hard platform rule; keypad number-bond modes are
 rejected by the module). All taps ≥112 design units.
+
+**Pre-school (PK) tolerance rule.** PK fine-motor modules (`sb-trace`, and the
+Phase-2+ drag/tap cluster) read a wide tolerance band from `sb-bands.js` via
+`ctx.band` (resolved from `story.alignment.grade`). The band's `fatal.*`
+minimums (tap ≥200du, drag-handle ≥240du, path-band ≥110du, corridor ≥300du,
+≤4 taps / ≤3 drags) are **HARD validator checks** — a too-precise PK task fails
+`validate-story`. QA proves the tolerance on the real artifact: an imprecise-but-
+correct gesture (0.55×band jitter + a mid-drag lift) MUST complete, an off-band
+gesture must NOT falsely complete and must stay answerable (the imprecise-touch
+pass in `qa-storybook.js`, driven by `lib/touch-driver.js` via each module's
+`qaGesture()` seam).
 
 ## 6. The failure-mode catalog → countermeasure → gate
 

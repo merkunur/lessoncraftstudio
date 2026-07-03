@@ -1,8 +1,8 @@
 {
   "storyId": "module-gym",
-  "generatedAt": "2026-07-01T22:37:21.421Z",
-  "pageCount": 15,
-  "totalBytes": 257520,
+  "generatedAt": "2026-07-03T02:58:55.038Z",
+  "pageCount": 16,
+  "totalBytes": 258522,
   "files": [
     {
       "path": "exercises/count-apples/descriptor.json",
@@ -61,13 +61,13 @@
     },
     {
       "path": "story.json",
-      "bytes": 12865,
-      "sha1": "9011359b6546b62b45f98a7f24d1584261bfa32b"
+      "bytes": 13646,
+      "sha1": "dd52f20d8b603fdbe44c381bfaf591720a02cb69"
     },
     {
       "path": "strings.json",
-      "bytes": 2642,
-      "sha1": "144e4f14c1ebf37261548ebdbea2eb615cd537aa"
+      "bytes": 2863,
+      "sha1": "d2d40d7fdd2b7284707e75e4c510d4862a1e0e6b"
     }
   ]
 }

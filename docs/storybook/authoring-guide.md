@@ -72,7 +72,7 @@ mini tools/stories/<storyId>/
   - `success`: `{ celebration:"burst"|"quiet", sticker?: assetId,
     narrationKey?, holdMs, clip?:{characterId,name} }`.
 
-## 4. The interaction-module palette (17 modules; grows forever)
+## 4. The interaction-module palette (18 modules; grows forever)
 
 Worked examples for every row: `mini tools/stories/pips-picnic/` (the first
 four) and `mini tools/stories/module-gym/` (one page per newer module).
@@ -102,6 +102,23 @@ four) and `mini tools/stories/module-gym/` (one page per newer module).
 | `sb-connect-dots` | numeral order / path-following (tap 1..N) | auto | 520×420 | `{points:[{x,y} zone-relative, ≥120du apart], closePath?, fill?}` — the outline is the reveal |
 | `sb-spot-diff` | visual discrimination (two panels) | auto | 640×400 | `{tiles, grid:{rows,cols}, cells:[keys], diffs:[{index, rightKey\|null} ×1-4]}` |
 | `sb-count-tap` | cardinality / count-out-N | check | 520×420 | `{item:{key,image,word:'@key'}, total:3-10, target:2..total-1, seed}` |
+
+### Pre-school (PK) fine-motor modules (ages 3–5 · opt into `ctx.band` + `sb-preschool-kit.js`)
+
+Tolerance-engineered for imprecise 3–5-yo fingers. These read the story's
+grade-band profile (`sb-bands.js`, resolved from `story.alignment.grade`; PK =
+wide/forgiving, K-3 = defaults) via the frozen `ctx.band` field. Author a **PK**
+story (`"alignment": { "grade": "PK" }`) to get the pre-school tolerances +
+`gate-story --grade PK` narrative gates (3–4 pages, ≤6-word audio-first lines).
+
+| moduleType | Thinking type | Modes | minZone (du) | taskData |
+|---|---|---|---|---|
+| `sb-trace` | finger-tracing a path/letter/shape (forgiving band, forward-arc ink, never resets) | auto | 480×360 | `{path:[{x,y} zone-relative ×≥2, total ≥80du], tolDu?(≥PK floor 110), glyph?, word?:'@key'}` |
+
+**Failure model (all PK modules):** progress = the artifact visibly grows;
+miss = a soft wordless-then-narrated redirect (the correct path stays open,
+NEVER resets); success = warm chime + settle-once. A mid-gesture finger *lift*
+never resets progress. No color-only encoding; audio-narration prompt required.
 
 ### The bridge
 

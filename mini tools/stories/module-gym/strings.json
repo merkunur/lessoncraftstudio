@@ -44,5 +44,10 @@
   "g18-l01":  { "en": "Tap a colour, then tap the matching boxes!" },
   "g18-hint": { "en": "Pick colour 1, colour box 1; pick colour 2, colour box 2." },
   "g19-l01":  { "en": "Drag each shape into its hole!" },
-  "g19-hint": { "en": "The round piece goes in the round hole." }
+  "g19-hint": { "en": "The round piece goes in the round hole." },
+  "g20-l01":  { "en": "Drag the missing animal back into the row!" },
+  "g20-hint": { "en": "The dog belongs in the empty gap." },
+  "g21-l01":  { "en": "Put the cat under the table!" },
+  "g21-hint": { "en": "Drag the cat to the spot below the table." },
+  "g21.obj.cat": { "en": "Cat" }
 }

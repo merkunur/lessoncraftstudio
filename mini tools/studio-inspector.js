@@ -1873,6 +1873,41 @@
         });
         urlRow.appendChild(inp); urlRow.appendChild(copy);
         box.appendChild(urlRow);
+
+        /* QR — students scan it from the board or a printed poster */
+        var qrWrap = el('div', 'stu-qrwrap');
+        var qr = el('img', 'stu-qr');
+        qr.alt = 'QR';
+        qr.src = '/api/play/' + share.linkId + '/qr.png';
+        qrWrap.appendChild(qr);
+        var poster = el('button', 'stu-btn stu-btn-small', '🖨 ' + T('Print QR poster', 'QR-Poster drucken'));
+        poster.addEventListener('click', function () {
+          var title = global.Studio.str(String(S().doc.story.title || '').replace(/^@/, '')) || '';
+          var w = window.open('', '_blank');
+          if (!w) return;
+          w.document.write(
+            '<!DOCTYPE html><html><head><meta charset="utf-8"><title>' +
+            title.replace(/</g, '&lt;') + '</title>' +
+            '<style>body{font-family:"Nunito","Segoe UI",sans-serif;background:#FBF3E4;margin:0;' +
+            'display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;text-align:center}' +
+            'h1{color:#146B5E;font-size:44px;margin:0 0 12px;padding:0 40px}' +
+            'p{color:#6b6154;font-size:20px;margin:6px 0}' +
+            'img{width:420px;height:420px;margin:26px 0;background:#fff;padding:18px;border-radius:24px}' +
+            'code{font-size:17px;color:#146B5E;word-break:break-all;padding:0 40px}' +
+            '@media print{body{background:#fff}}</style></head><body>' +
+            '<h1>' + title.replace(/</g, '&lt;') + '</h1>' +
+            '<p>' + T('Scan to play our story!', 'Scannen und unsere Geschichte spielen!') + '</p>' +
+            '<img src="' + location.origin + '/api/play/' + share.linkId + '/qr.png">' +
+            '<code>' + linkUrl(share) + '</code>' +
+            '</body></html>');
+          w.document.close();
+          var img = w.document.querySelector('img');
+          var doPrint = function () { try { w.focus(); w.print(); } catch (e) {} };
+          if (img && !img.complete) img.onload = doPrint; else setTimeout(doPrint, 300);
+        });
+        qrWrap.appendChild(poster);
+        box.appendChild(qrWrap);
+
         box.appendChild(el('p', 'stu-note', T(
           'Tip: project it, put it on the class blog, or send it home.',
           'Tipp: an die Tafel projizieren, in den Klassenblog stellen oder mit nach Hause geben.')));

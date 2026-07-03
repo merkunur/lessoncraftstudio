@@ -1,0 +1,13 @@
+{
+  "story.title":   { "en": "Stamp with Pip" },
+  "cast.pip.name": { "en": "Pip" },
+
+  "t01-l01":  { "en": "Tap each ring to stamp!" },
+  "t01-hint": { "en": "Aim near a dotted ring — close enough counts." },
+
+  "t02-l01":  { "en": "Stamp a dot in each corner!" },
+  "t02-hint": { "en": "Four rings, one tap each." },
+
+  "t03-l01":  { "en": "Tap a colour, then a box!" },
+  "t03-hint": { "en": "Colour box one, then box two." }
+}

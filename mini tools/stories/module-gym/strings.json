@@ -38,5 +38,9 @@
   "g15-hint": { "en": "Mark each apple first, then count your check marks." },
   "g16-l01":  { "en": "Put your finger on the orange dot and trace along the line!" },
   "g16-hint": { "en": "Follow the line up and down — you don't have to be perfect." },
-  "g16.word.mountain": { "en": "Mountain" }
+  "g16.word.mountain": { "en": "Mountain" },
+  "g17-l01":  { "en": "Tap inside each circle to stamp a dot!" },
+  "g17-hint": { "en": "Aim for the dotted rings — close enough counts." },
+  "g18-l01":  { "en": "Tap a colour, then tap the matching boxes!" },
+  "g18-hint": { "en": "Pick colour 1, colour box 1; pick colour 2, colour box 2." }
 }

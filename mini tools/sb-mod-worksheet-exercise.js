@@ -1094,7 +1094,9 @@
         blurb: 'A ready-made worksheet exercise (spelled words, drag boards, connect, count).',
         defaults: { package: '' },
         fields: [
-          { key: 'package', kind: 'enum', label: 'The exercise', from: 'endpoint:/studio/exercises' }
+          { key: 'package', kind: 'enum', label: 'The exercise', from: 'endpoint:/studio/exercises' },
+          { key: 'package', kind: 'upload', label: '⬆ Upload a worksheet (.zip)', accept: '.zip', endpoint: '/studio/import-exercise',
+            note: 'Export a worksheet from any generator ("Export for Storybook"), then upload the .zip here — it becomes selectable above.' }
         ]
       }
     },

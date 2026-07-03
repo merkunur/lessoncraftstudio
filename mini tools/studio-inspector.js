@@ -109,7 +109,8 @@
       sel.addEventListener('change', renderGrid);
       search.addEventListener('input', renderGrid);
       if (_lib) boot();
-      else global.Studio.api('/studio/library').then(function (j) { _lib = j; boot(); });
+      else global.Studio.api('/studio/library').then(function (j) { _lib = j; boot(); })
+        .catch(function () { body.appendChild(el('div', 'stu-empty', 'Couldn\'t reach the Studio server — is it running? (node scripts/storybook/studio-server.js)')); });
     }, true);
   }
   function vocabWord(key) {
@@ -173,7 +174,7 @@
             var xs = (j.exercises || []).map(function (e2) { return e2.fromStory === S().id ? e2.package : e2.absolute; });
             var ls = (j.exercises || []).map(function (e2) { return e2.appType + ' — ' + (e2.prompt || e2.package); });
             fill(xs, ls);
-          });
+          }).catch(function () { var o = el('option'); o.textContent = '(server unreachable)'; s2.appendChild(o); });
         } else fill(f.from, f.labels);
         s2.addEventListener('change', function () {
           var raw = s2.value;
@@ -283,6 +284,29 @@
         });
         wrapJ.appendChild(taJ); wrapJ.appendChild(applyJ);
         row.appendChild(wrapJ);
+      } else if (f.kind === 'upload') {
+        /* upload a file to an endpoint, then set a key from the response. Used to import
+           an SEP worksheet export (ZIP) into the story and select it as the exercise. */
+        var upWrap = el('div', 'stu-upload');
+        var fileInp = el('input'); fileInp.type = 'file'; if (f.accept) fileInp.accept = f.accept; fileInp.style.display = 'none';
+        var upBtn = el('button', 'stu-btn', f.label || 'Upload…');
+        var upStatus = el('span', 'stu-note', '');
+        upBtn.addEventListener('click', function () { fileInp.click(); });
+        fileInp.addEventListener('change', function () {
+          var file = fileInp.files && fileInp.files[0]; if (!file) return;
+          upStatus.textContent = 'Uploading ' + file.name + '…';
+          file.arrayBuffer().then(function (arrbuf) {
+            return fetch(f.endpoint + '/' + S().id, { method: 'POST', headers: { 'Content-Type': 'application/zip' }, body: arrbuf })
+              .then(function (r) { return r.json().then(function (j) { j.__status = r.status; return j; }); });
+          }).then(function (j) {
+            if (j.__status !== 200) { upStatus.textContent = '✗ ' + (j.error || ('failed (' + j.__status + ')')); return; }
+            commit(function (o) { o[f.setKey || f.key] = j.package || ('exercises/' + j.exId); });
+            upStatus.textContent = '✓ added ' + j.exId;
+            if (global.StudioInspector) global.StudioInspector.render();
+          }).catch(function () { upStatus.textContent = '✗ couldn\'t reach the Studio server'; });
+        });
+        upWrap.appendChild(upBtn); upWrap.appendChild(fileInp); upWrap.appendChild(upStatus);
+        row.appendChild(upWrap);
       }
       if (f.note) row.appendChild(el('div', 'stu-note', f.note));
       host.appendChild(row);
@@ -497,7 +521,7 @@
     if (!pg) return;
 
     if (sel && sel.kind === 'character') { renderCharPanel(p, sel); return; }
-    if (sel && sel.kind === 'drawable') { renderDrawablePanel(p, sel); return; }
+    if (sel && (sel.kind === 'drawable' || sel.kind === 'point')) { renderDrawablePanel(p, sel); return; }
 
     /* -------- page panel -------- */
     p.appendChild(el('h2', 'stu-h2', 'Page ' + (pgIdx() + 1)));
@@ -872,8 +896,23 @@
     if (!pl) { global.StudioCanvas.select(null); return; }
     p.appendChild(el('h2', 'stu-h2', pl.characterId));
     var castDef = (S().doc.story.cast || []).filter(function (c) { return c.id === pl.characterId; })[0];
+    var chg = el('button', 'stu-btn', 'Change character…');
+    chg.addEventListener('click', function () {
+      openCastPicker(function (newCast) {
+        mutate('change character', function (draft) {
+          ensureCastEntry(draft, newCast);
+          var c = draft.story.pages[pgIdx()].characters[sel.index];
+          c.characterId = newCast.characterId;
+          c.pose = (newCast.poses && newCast.poses[0]) || 'neutral';
+        });
+        global.StudioCanvas.select({ kind: 'character', index: sel.index });
+      });
+    });
+    p.appendChild(chg);
+    var poses = (castDef && castDef.poses) || [];
     section(p, 'Pose', function (box) {
-      (castDef.poses || []).forEach(function (pose) {
+      if (!poses.length) { box.appendChild(el('div', 'stu-note', 'This character has no named poses.')); return; }
+      poses.forEach(function (pose) {
         var b = el('button', 'stu-chip stu-chip-btn' + (pl.pose === pose ? ' stu-on' : ''), pose);
         b.addEventListener('click', function () {
           mutate('change pose', function (draft) { draft.story.pages[pgIdx()].characters[sel.index].pose = pose; });
@@ -914,9 +953,12 @@
 
   function renderDrawablePanel(p, sel) {
     var inter = pageObj().interaction;
-    var stu = global.SBModules.get(inter.moduleType).meta.studio;
+    var mod = inter && global.SBModules.get(inter.moduleType);
+    var stu = mod && mod.meta && mod.meta.studio;
+    if (!stu) { global.StudioCanvas.select(null); return; }
     var dr = (stu.drawables || []).filter(function (d) { return d.bind === sel.bind; })[0];
-    var item = inter.taskData[sel.bind][sel.index];
+    var bindArr = inter.taskData && inter.taskData[sel.bind];
+    var item = bindArr && bindArr[sel.index];
     if (!dr || !item) { global.StudioCanvas.select(null); return; }
     p.appendChild(el('h2', 'stu-h2', 'Object ' + (sel.index + 1)));
     renderFields(p, dr.fields || [], function () { return pageObj().interaction.taskData[sel.bind][sel.index]; },
@@ -1039,42 +1081,51 @@
   }
 
   /* ---- scene / cast pickers ---- */
+  function setSceneFromSrc(src, slugSrc) {
+    mutate('set picture', function (draft) {
+      var slug = String(slugSrc || src).replace(/^.*[\/]/, '').replace(/@2x\.webp$/i, '').replace(/\.webp$/i, '').replace(/[^a-z0-9]+/gi, '-').toLowerCase();
+      var id = 'scene.' + (slug || 'bg');
+      draft.story.assets[id] = draft.story.assets[id] || { kind: 'image', src: src, size: { w: 1600, h: 1000 } };
+      draft.story.pages[pgIdx()].scene = { image: id };
+    });
+  }
   function openScenePicker() {
     openDrawer('Pick the picture for this page', function (body) {
+      /* the library option — always here, so a story with no on-disk scenes still gets a background */
+      var libBtn = el('button', 'stu-btn', '🖼️  Use a picture from the library');
+      libBtn.addEventListener('click', function () {
+        closeDrawer();
+        openLibrary(function (src, vocabKey) { setSceneFromSrc(src, vocabKey || src); });
+      });
+      body.appendChild(libBtn);
+      body.appendChild(el('div', 'stu-note', 'or pick one of this story\'s own scene pictures:'));
+      var grid = el('div', 'stu-libgrid');
+      body.appendChild(grid);
       global.Studio.api('/studio/scenes/' + S().id).then(function (j) {
-        var grid = el('div', 'stu-libgrid');
         (j.scenes || []).forEach(function (sc) {
           var c = el('button', 'stu-libcard stu-scenecard');
           var im = el('img'); im.src = sc.src;
           c.appendChild(im);
           c.appendChild(el('div', 'stu-libname', sc.file));
-          c.addEventListener('click', function () {
-            closeDrawer();
-            mutate('set picture', function (draft) {
-              var id = 'scene.' + sc.file.replace(/\.webp$/i, '').replace(/[^a-z0-9]+/gi, '-').toLowerCase();
-              draft.story.assets[id] = draft.story.assets[id] ||
-                { kind: 'image', src: sc.src, size: { w: 1600, h: 1000 } };
-              draft.story.pages[pgIdx()].scene = { image: id };
-            });
-          });
+          c.addEventListener('click', function () { closeDrawer(); setSceneFromSrc(sc.src, sc.file); });
           grid.appendChild(c);
         });
         if (!(j.scenes || []).length) {
-          body.appendChild(el('div', 'stu-empty',
-            'No pictures yet. Drop your 1600×1000 pictures into this story\'s scenes folder, then reopen this.'));
-          var open = el('button', 'stu-btn', 'Open the folder');
-          open.addEventListener('click', function () {
-            global.Studio.api('/studio/reveal/' + S().id, { method: 'POST' });
-          });
-          body.appendChild(open);
+          grid.appendChild(el('div', 'stu-note',
+            'This story has no picture files yet — use the library button above, or drop 1600×1000 .webp files into its scenes folder.'));
+          var open = el('button', 'stu-btn stu-btn-small', 'Open the scenes folder (Windows)');
+          open.addEventListener('click', function () { global.Studio.api('/studio/reveal/' + S().id, { method: 'POST' }).catch(function () {}); });
+          grid.appendChild(open);
         }
-        body.appendChild(grid);
+      }).catch(function () {
+        grid.appendChild(el('div', 'stu-empty', 'Couldn\'t reach the Studio server — is it running? (node scripts/storybook/studio-server.js)'));
       });
     }, true);
   }
 
-  function openCastPicker() {
-    openDrawer('Add a character', function (body) {
+  /* onPick(castDef) optional — when given (Change character), swap in place; else Add + place. */
+  function openCastPicker(onPick) {
+    openDrawer(onPick ? 'Change to which character?' : 'Add a character', function (body) {
       global.Studio.api('/studio/cast').then(function (j) {
         var row = el('div', 'stu-cards');
         (j.cast || []).forEach(function (c) {
@@ -1087,14 +1138,30 @@
           }).catch(function () {});
           card.addEventListener('click', function () {
             closeDrawer();
-            global.StudioCanvas.startPlaceCharacter(c);
+            if (onPick) onPick(c); else global.StudioCanvas.startPlaceCharacter(c);
           });
           row.appendChild(card);
         });
-        body.appendChild(el('div', 'stu-note', 'Then click the spot on the picture where their feet should stand.'));
+        if (!onPick) body.appendChild(el('div', 'stu-note', 'Then click the spot on the picture where their feet should stand.'));
         body.appendChild(row);
+      }).catch(function () {
+        body.appendChild(el('div', 'stu-empty', 'Couldn\'t reach the Studio server — is it running? (node scripts/storybook/studio-server.js)'));
       });
     });
+  }
+
+  /* ensure a story has a cast entry + atlas asset for a picked character (mirrors the Add flow) */
+  function ensureCastEntry(draft, castDef) {
+    var cid = castDef.characterId;
+    if (!(draft.story.cast || []).some(function (c) { return c.id === cid; })) {
+      var atlasId = 'atlas.' + cid + '.base';
+      draft.story.assets[atlasId] = draft.story.assets[atlasId] || { kind: 'atlas', src: castDef.atlasBase };
+      draft.story.cast = draft.story.cast || [];
+      draft.story.cast.push({ id: cid, name: '@cast.' + cid + '.name',
+        role: (draft.story.cast.length ? 'companion' : 'guide'), atlasBase: atlasId, poses: castDef.poses });
+      draft.strings['cast.' + cid + '.name'] = draft.strings['cast.' + cid + '.name'] || { en: cid.charAt(0).toUpperCase() + cid.slice(1) };
+    }
+    return cid;
   }
 
   function openLedger() {
@@ -1214,7 +1281,7 @@
     var st = S().saveState;
     save.textContent = st === 'saving' ? 'Saving…'
       : st === 'saved' ? 'All changes saved' + (S().savedAt ? ' · ' + S().savedAt.toLocaleTimeString().slice(0, 5) : '')
-      : st === 'conflict' ? '⚠ This story changed outside the Studio — reload the page (your version is backed up)'
+      : st === 'conflict' ? '⚠ This story also changed on disk — reload to get the latest version before editing more'
       : st === 'error' ? '⚠ Could not save — is the Studio server running?'
       : '';
     if (st === 'conflict' || st === 'error') save.classList.add('stu-savebad');
@@ -1286,6 +1353,9 @@
             j.warns.forEach(function (w) { det.appendChild(el('div', 'stu-note', w)); });
             body.appendChild(det);
           }
+        }).catch(function () {
+          body.innerHTML = '';
+          body.appendChild(el('div', 'stu-empty', 'Couldn\'t reach the Studio server to check — is it running? (node scripts/storybook/studio-server.js)'));
         });
       }, true);
     }, 1000);
@@ -1313,6 +1383,8 @@
       var nw = el('button', 'stu-card stu-card-new', '+ New story');
       nw.addEventListener('click', newStoryDialog);
       cards.appendChild(nw);
+    }).catch(function () {
+      cards.appendChild(el('div', 'stu-empty', 'Couldn\'t reach the Studio server — start it with: node scripts/storybook/studio-server.js'));
     });
     box.appendChild(cards);
     host.appendChild(box);
@@ -1329,7 +1401,7 @@
       if (j.__status === 409) { alert('That name is taken — try another.'); return; }
       if (j.__status !== 200) { alert(j.error || 'Could not create'); return; }
       openStory(id);
-    });
+    }).catch(function () { alert('Couldn\'t reach the Studio server — is it running?'); });
   }
 
   function openStory(id) {

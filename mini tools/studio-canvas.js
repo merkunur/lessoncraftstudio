@@ -135,7 +135,10 @@
     if (isSel) wrap.classList.add('stu-selected');
 
     var atlas = loadedAtlases[castDef.atlasBase];
-    var sc = (pl.scale || 1) * (castDef.scale || 1);
+    /* live scale preview: while dragging THIS character's scale handle, size from the
+       in-progress drag.curScale instead of the (not-yet-committed) document value */
+    var liveScale = (drag && drag.mode === 'char-scale' && drag.ci === ci && drag.curScale) ? drag.curScale : (pl.scale || 1);
+    var sc = liveScale * (castDef.scale || 1);
     function place(w, h) {
       wrap.style.width = (w * sc) + 'px';
       wrap.style.height = (h * sc) + 'px';

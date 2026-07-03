@@ -1,80 +1,54 @@
 /**
- * Lemon Squeezy product config — LessonCraftStudio Subscription
+ * Lemon Squeezy product config — LessonCraftStudio Teacher subscription.
  *
- * Created on Lemon Squeezy 2026-04-30 as a hard pre-handoff prerequisite per
- * HOMEPAGE-IMPLEMENTATION-PROMPT.md §3 and §5.5.
+ * Two separate products (created 2026-07-03, commission #2 B3): a Yearly and a
+ * Monthly product rather than one product with two variants (LS's multi-variant
+ * checkout UX was awkward; two products give each interval its own clean
+ * checkout link and price). Tax category: Software as a Service (SaaS).
+ * Storefront display OFF (conversion happens at lessoncraftstudio.com); no
+ * license keys (account-bound).
  *
- * Operator integration: this snippet replaces the previous per-app product
- * configuration in frontend/config/lemonsqueezy-products.ts (33 individual app
- * products at $49 + 6 category bundles at $149 — all being deleted per
- * CLAUDE.md §1 / §11 / §17 seller-era teardown scope). Whether to delete the
- * old config wholesale or migrate it incrementally is a separate scope decision;
- * this file just registers the new subscription product so the implementer has
- * the slug and IDs available for §5.5 auth-state branching.
- *
- * The product is configured as:
- *   - Subscription, $69 USD per year, auto-renewing
- *   - Tax category: On Demand Online Courses
- *   - Storefront display: OFF (conversion happens at lessoncraftstudio.com)
- *   - License keys: not generated (account-bound, not key-bound)
+ * Both product IDs must be recognized by the webhook (a purchase of either is a
+ * valid LCS subscription) — see isLcsSubscriptionProduct + the webhook handler.
  */
 
 export const SUBSCRIPTION_PRODUCT = {
-  // Lemon Squeezy product identifiers — used by:
-  //   1. Checkout URL construction
-  //   2. Webhook payload matching (frontend/app/api/webhooks/lemonsqueezy/route.ts)
-  //   3. Active-subscription detection in §5.5 auth-state branch 3
-  productId: 1016671,
-  variantId: 1595188,
+  // Canonical (yearly) identifiers — the primary tier + the display defaults.
+  productId: 1194166,
+  variantId: 1866999,
 
-  // Display name + price for any home-page or checkout-context surface.
-  // Keep in sync with HOMEPAGE-COPY.md Section 5 price line ("$69 per year. Cancel renewal anytime.").
-  name: "LessonCraftStudio Subscription",
+  name: "LessonCraftStudio Teacher",
   priceUsd: 69,
   billingPeriod: "year" as const,
 
-  // Stable internal slug — use this for feature-flag checks, analytics events,
-  // and the "is the user subscribed" predicate. Do not derive from productId
-  // (numeric IDs are operationally fragile across Lemon Squeezy environments).
+  // Stable internal slug — feature flags, analytics events, the subscribed
+  // predicate. Do NOT derive from productId (numeric IDs are fragile across LS
+  // environments).
   slug: "lcs-subscription",
 
-  // Monthly variant (commission #2, roadmap pricing ruling: $8.99/mo).
-  // null until the operator creates the variant in the LS dashboard (B3 guided
-  // step) — the pricing page hides the monthly button while this is null.
+  // Monthly product ($8.99/mo). Its own LS product, not a variant.
   monthlyPriceUsd: 8.99,
-  monthlyVariantId: null as number | null,
-  monthlyBuyNowUrl: null as string | null,
+  monthlyProductId: 1194171,
+  monthlyVariantId: 1867004,
 
-  // Lemon Squeezy checkout URL.
-  //
-  // Uses the variant SLUG (UUID) form rather than the numeric-variant-id form.
-  // The variant-id form `https://lessoncraftstudio-com.lemonsqueezy.com/buy/1595188`
-  // returns HTTP 404 when the variant is in "pending" status (the variant is
-  // currently pending — operator publishes in LS dashboard for the numeric
-  // form to also resolve). The UUID form (this URL) is what LS itself returns
-  // via `GET /v1/stores/{id}/products` `buy_now_url` field and resolves
-  // regardless of variant status.
-  //
-  // `?checkout[redirect_url]=...` (URL-encoded `[` and `]` per LS hosted-checkout
-  // query-param convention) sends the visitor to /member after a successful
-  // purchase — the sign-in page that redirects authenticated users to
-  // /member/dashboard. This is where fresh subscribers land after the webhook
-  // auto-creates their account and emails them a password-reset link.
-  //
-  // To rediscover the UUID if it changes, query the LS API:
-  //   curl -H "Authorization: Bearer $LEMONSQUEEZY_API_KEY" \
-  //     "https://api.lemonsqueezy.com/v1/stores/$LEMONSQUEEZY_STORE_ID/products"
-  // and read the `buy_now_url` attribute on product id 1016671.
-  buyNowUrl: "https://lessoncraftstudio-com.lemonsqueezy.com/checkout/buy/4c08cb24-0aee-486e-ae01-1f77259a031d?checkout%5Bredirect_url%5D=https%3A%2F%2Fwww.lessoncraftstudio.com%2Fmember",
+  // Hosted checkout links (UUID form — resolves regardless of variant status,
+  // and is what LS returns as `buy_now_url`). lib/checkout.ts decorates these
+  // per-request with email prefill + custom[locale] + per-locale redirect_url;
+  // the bare links here are the base.
+  buyNowUrl: "https://lessoncraftstudio-com.lemonsqueezy.com/checkout/buy/2863e2e7-62eb-43aa-a647-43a29895f030",
+  monthlyBuyNowUrl: "https://lessoncraftstudio-com.lemonsqueezy.com/checkout/buy/edf54b11-7801-4197-915e-e631219505c0",
 } as const;
 
+/** Every product id that counts as an LCS subscription (yearly + monthly). */
+export const LCS_SUBSCRIPTION_PRODUCT_IDS: number[] = [
+  SUBSCRIPTION_PRODUCT.productId,
+  SUBSCRIPTION_PRODUCT.monthlyProductId,
+];
+
 /**
- * Helper for §5.5 auth-state branch 3:
- * "Logged-in user with an active $69 subscription → an 'already subscribed' page."
- *
- * Match webhook payloads / stored subscription records against productId.
- * Do not match by name (mutable) or by price (mutable).
+ * True if a webhook payload / stored record belongs to EITHER LCS subscription
+ * product. Match by product id (name + price are mutable).
  */
 export function isLcsSubscriptionProduct(record: { productId: number | string }): boolean {
-  return Number(record.productId) === SUBSCRIPTION_PRODUCT.productId;
+  return LCS_SUBSCRIPTION_PRODUCT_IDS.includes(Number(record.productId));
 }

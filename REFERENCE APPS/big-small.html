@@ -4169,9 +4169,12 @@ async function downloadPDF(canvasInstance, fileName, opts) {
         //     globals; operator/browser path untouched. ---
         (function () {
             function _sbSepOpts(cropRect, returnPackage) {
+                // order modes (rank 1-2-3) → SEP family S (per-item number choice); find modes → family C
+                // (tap the big/small/medium baked image).
+                var _q = (qTypeSelect && qTypeSelect.value) || 'findBig';
                 return { canvas: worksheetCanvas, extractBundle: extractDeckBundle,
                     exerciseObjects: function (c) { return c.getObjects().filter(function (o) { return o.isBigSmallExercise === true; }); },
-                    family: 'C', exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
+                    family: (_q.indexOf('order') === 0 ? 'S' : 'C'), exerciseMode: null, cropExerciseBBox: true, cropRect: cropRect, returnPackage: returnPackage, noDownload: returnPackage };
             }
             var _b = document.getElementById('sepExportBtn');
             if (_b) _b.addEventListener('click', function () { window.LCSCatalogExport.exportStorybookExercise(_sbSepOpts(null, false)); });
@@ -4181,9 +4184,10 @@ async function downloadPDF(canvasInstance, fileName, opts) {
                 var loc = spec.locale || 'en';
                 window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
                 var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
-                try { if (qTypeSelect) qTypeSelect.value = 'findBig'; } catch (e) {}   // tap the big one
+                try { if (qTypeSelect) qTypeSelect.value = spec.mode || 'findBig'; } catch (e) {}   // spec.mode: findBig/findSmall/findMed/orderAsc/orderDesc
                 try { if (problemCountInput) problemCountInput.value = 1; } catch (e) {}
-                try { if (imgCountSelect) imgCountSelect.value = '2'; } catch (e) {}
+                var _isOrderMode = (spec.mode && spec.mode.indexOf('order') === 0);
+                try { if (imgCountSelect) imgCountSelect.value = _isOrderMode ? '3' : '2'; } catch (e) {}  // order needs >=3 items to rank
                 try { if (modeSelect) modeSelect.value = 'different'; } catch (e) {}
                 try {
                     if (worksheetThemeSelect) {
@@ -4622,6 +4626,23 @@ async function downloadPDF(canvasInstance, fileName, opts) {
                   _sepChoiceOptions.push({ rect: { x: s.rect.x - s.rect.w / 2, y: s.rect.y - s.rect.h / 2, w: s.rect.w, h: s.rect.h }, isCorrect: (s.choiceIndex === _ans) });
               });
           }
+          // SEP Family-S: order modes (orderAsc/orderDesc) → each choice image gets a RANK-number choice
+          // (options 1..N, isCorrect = its orderRank). First problem only; left-to-right by x so the
+          // numbered palette rows match the items. slots rects are CENTER-based -> TOP-LEFT.
+          var _sepOptionChoices = [];
+          if (isOrder && bundledProblems.length) {
+              var _op0i = bundledProblems[0].index;
+              var _oRanks = bundledProblems[0].orderRanks || [];
+              var _oN = _oRanks.length || 3;
+              slots.filter(function (s) { return s.problemIndex === _op0i; })
+                   .sort(function (a, b) { return a.rect.x - b.rect.x; })
+                   .forEach(function (s) {
+                  var _rank = _oRanks[s.choiceIndex];
+                  var _opts = [];
+                  for (var _r2 = 1; _r2 <= _oN; _r2++) _opts.push({ label: String(_r2), isCorrect: (_r2 === _rank) });
+                  _sepOptionChoices.push({ rect: { x: s.rect.x - s.rect.w / 2, y: s.rect.y - s.rect.h / 2, w: s.rect.w, h: s.rect.h }, options: _opts });
+              });
+          }
 
           var worksheetImage = await _captureWorksheetImage(canvas);
 
@@ -4725,6 +4746,7 @@ async function downloadPDF(canvasInstance, fileName, opts) {
               indicators: indicators,
               problems: bundledProblems,
               choiceOptions: _sepChoiceOptions,
+              optionChoices: _sepOptionChoices,
               seoMeta: seoMeta,
               seoTrace: seoTrace,
               attribution: attributionRect ? {

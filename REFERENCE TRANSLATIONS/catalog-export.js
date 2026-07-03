@@ -2182,6 +2182,10 @@
       (bundle.sepCells || []).forEach(function (c) { if (c.rect) rects.push(c.rect); });
     } else if (family === 'D') {
       (bundle.chartCells || []).forEach(function (c) { rects.push({ x: c.x, y: c.y, w: c.w, h: c.h }); });
+    } else if (family === 'S') {
+      (bundle.optionChoices || []).forEach(function (c) { if (c.rect) rects.push(c.rect); });
+      /* the exercise-objects bbox (opts._exerciseBBox, opt-in via cropExerciseBBox) spans the full
+         comparison/sentences — unioned globally below — so the crop shows the context, not just the box. */
     }
     if (opts._exerciseBBox) rects.push(opts._exerciseBBox);
     return _sepUnionRects(rects);
@@ -2294,7 +2298,7 @@
   }
 
   /* per-content-locale strings block seeded from the app's window.translations */
-  function _sepLocales(runtimeStrings, family, numeric) {
+  function _sepLocales(runtimeStrings, family, numeric, promptOpts) {
     var t = global.translations || {};
     var out = {};
     var LOCS = ['en', 'de', 'fr', 'it', 'es', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
@@ -2307,7 +2311,7 @@
     var promptDefault = (family === 'A' && numeric) ? 'Tap the answer!' : ({
       A: 'Spell the word!', F: 'Drag each tile into place!',
       E: 'Match each pair!', C: 'Find and count!',
-      B: 'Trace the path!', D: 'Fill each bar!'
+      B: 'Trace the path!', D: 'Fill each bar!', S: 'Tap the correct answer!'
     }[family] || 'Solve the puzzle!');
     LOCS.forEach(function (loc) {
       out[loc] = {
@@ -2317,6 +2321,13 @@
         hint: null
       };
     });
+    // Per-task prompt: reuse the app's OWN localized worksheet instruction (already translated +
+    // per-mode-correct, e.g. odd-one-out "Which is different?", big-small "Number 1-2-3 small to big")
+    // for the content locale — replaces the generic family default ("Find and count!") on choice apps.
+    if (promptOpts && promptOpts.instruction && promptOpts.contentLoc && out[promptOpts.contentLoc]) {
+      var _instr = String(promptOpts.instruction).trim();
+      if (_instr) out[promptOpts.contentLoc].prompt = _instr;
+    }
     return out;
   }
 
@@ -2324,26 +2335,31 @@
   var SEP_FAMILY_MAPPERS = {
     /* A — tap-letter fill-in */
     A: function (bundle, crop, ctx) {
-      var slots = (bundle.slots || []).filter(function (s) {
+      var raw = (bundle.slots || []).filter(function (s) {
         // 'letter' (word-guess/word-scramble) + 'grid' (cryptogram decode cells) + 'symbol'/kind:'number'
-        // (math apps — addition/subtraction/math-worksheet/…): all tap-a-single-char fill-in slots with a
-        // center-based rect (_worldRectBounds/center). Numeric slots use a DIGIT palette (below).
-        return s.slotType === 'letter' || s.slotType === 'grid' || s.slotType === 'symbol';
+        // (addition/subtraction/math-worksheet) + 'sum' (code-addition standard mode = decode to a SUM):
+        // all fill-in answer slots with a center-based rect. Numeric slots use a DIGIT palette + multi-digit
+        // build (below).
+        return s.slotType === 'letter' || s.slotType === 'grid' || s.slotType === 'symbol' || s.slotType === 'sum';
       }).map(function (s, i) {
         var tl = _sepCenterToTopLeft(s.rect);
         return { keep: _sepInCrop(tl, crop), s: s, tl: tl, i: i };
       }).filter(function (x) { return x.keep; });
-      var expected = slots.map(function (x) { return String(x.s.expected || '').toUpperCase(); });
       // Numeric (digit) apps → 0-9 palette (+ '-' if any answer is negative); NOT the letter alphabet.
-      // Answers MUST be single-digit here (the tap-palette is one char/slot); __sepGenerate constrains
-      // math operands so sums/diffs are 0-9. (A multi-char expected is caught by the validator.)
-      var isNumeric = (ctx && ctx.numeric) || slots.some(function (x) { return x.s.kind === 'number' || x.s.slotType === 'symbol'; });
+      var isNumeric = (ctx && ctx.numeric) || raw.some(function (x) { return x.s.kind === 'number' || x.s.slotType === 'symbol'; });
+      // MULTI-DIGIT: the palette is one char/tap, but a numeric answer with >1 digit ("13") stays ONE
+      // full-size box (splitting it makes each digit sub-16px → density-gate fail). Such a slot is flagged
+      // `multi:true`; the player lets the child tap digits to BUILD the number (backspace to fix) and grades
+      // the whole string. Letter/single-digit slots are unchanged (one char per box).
       var caseMode = (bundle.caseValue === 'lower') ? 'lower' : 'upper';
       var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+      // Palette = every distinct CHARACTER across the answers (each digit of a multi-digit answer counts).
+      var allChars = [];
+      raw.forEach(function (x) { String(x.s.expected == null ? '' : x.s.expected).split('').forEach(function (c) { allChars.push(c.toUpperCase()); }); });
       var alpha = isNumeric
-        ? ('0123456789' + (expected.indexOf('-') >= 0 ? '-' : '')).split('')
+        ? ('0123456789' + (allChars.indexOf('-') >= 0 ? '-' : '')).split('')
         : (SEP_ALPHABETS[lang] || SEP_ALPHABETS.en).split('');
-      var uniq = {}; expected.forEach(function (c) { uniq[c] = true; });
+      var uniq = {}; allChars.forEach(function (c) { uniq[c] = true; });
       var letters = Object.keys(uniq);
       var pool = alpha.filter(function (c) { return !uniq[c]; });
       var want = Math.min(5, Math.max(3, letters.length));  /* distractor count */
@@ -2356,9 +2372,11 @@
         family: 'A',
         input: { policy: 'tap-palette', tapPalette: { case: caseMode, letters: letters, distractorCount: want } },
         elements: {
-          slots: slots.map(function (x, idx) {
+          slots: raw.map(function (x, idx) {
+            var exp = String(x.s.expected == null ? '' : x.s.expected);
+            var mult = isNumeric && exp.length > 1;
             return { id: 's' + idx, problemIndex: x.s.problemIndex, wordIndex: x.s.wordIndex,
-              letterIndex: x.s.letterIndex, expected: String(x.s.expected || '').charAt(0),
+              letterIndex: x.s.letterIndex, expected: (mult ? exp : exp.charAt(0)), multi: (mult || undefined),
               rect: _sepRebase(x.tl, crop) };
           })
         }
@@ -2556,6 +2574,22 @@
         input: { policy: 'tap-fill' },
         elements: { chartDims: dims, columns: columns }
       };
+    },
+
+    /* S — synthetic tap-option: the PLAYER renders the answer options (symbols/words) as buttons
+       (not baked into the visual). Carries per-choice labels + which is correct + an optional rect
+       (where on the visual the answer belongs). Covers more-less (< = >), prepositions fill-in, etc. */
+    S: function (bundle, crop, ctx) {
+      var choices = (bundle.optionChoices || []).filter(function (c) {
+        return !c.rect || _sepInCrop(c.rect, crop);
+      }).map(function (c, idx) {
+        var out = { id: 'c' + idx, options: (c.options || []).map(function (o) {
+          return { label: String(o.label == null ? '' : o.label), isCorrect: !!o.isCorrect };
+        }) };
+        if (c.rect) out.rect = _sepRebase(c.rect, crop);
+        return out;
+      });
+      return { family: 'S', input: { policy: 'tap-option' }, elements: { choices: choices } };
     }
   };
 
@@ -2629,6 +2663,7 @@
     if (family === 'E') return (el.pairs || []).length > 0;
     if (family === 'B') return (el.paths || []).length > 0;
     if (family === 'D') return (el.columns || []).some(function (c) { return typeof c.target === 'number'; });
+    if (family === 'S') return (el.choices || []).some(function (c) { return (c.options || []).some(function (o) { return o.isCorrect; }); });
     return true;
   }
 
@@ -2646,6 +2681,7 @@
       else if (family === 'E') (bundle.leftItems || []).concat(bundle.rightItems || []).forEach(function (it) { if (it) push({ x: it.x, y: it.y, w: it.w, h: it.h }); });
       else if (family === 'B') (bundle.sepCells || bundle.gridCells || []).forEach(function (c) { if (c && c.rect) push(c.rect); });
       else if (family === 'D') (bundle.chartCells || []).forEach(function (c) { if (c) push({ x: c.x, y: c.y, w: c.w, h: c.h }); });
+      else if (family === 'S') (bundle.optionChoices || []).forEach(function (c) { if (c && c.rect) push(c.rect); });
     } catch (e) { /* markers are best-effort; never block the export */ }
     return out;
   }
@@ -2724,7 +2760,10 @@
         elements: mapped.elements,
         imageRefs: {},
         loadingMode: 'reference',
-        locales: _sepLocales(bundle.runtimeStrings, opts.family, opts.numeric),
+        locales: _sepLocales(bundle.runtimeStrings, opts.family, opts.numeric, {
+          instruction: (bundle.seoMeta && bundle.seoMeta.instruction) || '',
+          contentLoc: lang
+        }),
         audio: { speakPromptOnMount: false, perElement: opts.family === 'A' ? 'letter' : null }
       };
       var pkg = { descriptor: descriptor, files: files };

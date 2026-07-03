@@ -1664,8 +1664,9 @@
                             ui.worksheetThemeSelect.value = theme; ui.worksheetThemeSelect.dispatchEvent(new Event('change'));
                         }
                     } catch (e) {}
-                    // Worksheet-wide 'options' override -> every puzzle is a tap-the-option (choice) puzzle.
-                    try { if (ui.globalQuestionTypeSelect) ui.globalQuestionTypeSelect.value = 'options'; } catch (e) {}
+                    // Worksheet-wide question-type override. Default 'options' (tap the option cell);
+                    // spec.mode==='blank' → 'blank' (tap the source image that completes the pattern).
+                    try { if (ui.globalQuestionTypeSelect) ui.globalQuestionTypeSelect.value = (spec.mode === 'blank' ? 'blank' : 'options'); } catch (e) {}
                     try {
                         if (ui.patternSelect) {
                             var _po = Array.prototype.filter.call(ui.patternSelect.options, function (o) { return o.value !== ''; });
@@ -1684,8 +1685,9 @@
                             Math.random = window.LCSCatalogExport._sepRng(spec.seed || 1);
                             try { if (!ui.generateWorksheetBtn.disabled) ui.generateWorksheetBtn.click(); } catch (e) {}
                             var _ok = false;
+                            var _wantBlank = (spec.mode === 'blank');
                             for (var _i = 0; _i < 400; _i++) {
-                                if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return o.isPatternChoice === true; })) { _ok = true; break; }
+                                if (worksheetCanvas && worksheetCanvas.getObjects().some(function (o) { return _wantBlank ? o.isPatternBlank === true : o.isPatternChoice === true; })) { _ok = true; break; }
                                 await new Promise(function (r) { setTimeout(r, 50); });
                             }
                             if (_ok) break;
@@ -4799,12 +4801,29 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
                 choiceOptions: (function () {
                     var out = [];
                     var p0 = rewrittenPuzzles[0];
-                    if (!p0 || typeof p0.correctOptionIdx !== 'number') return out;
-                    optionSlots.filter(function (s) { return s.problemIndex === p0.index; })
-                        .sort(function (a, b) { return a.choiceIndex - b.choiceIndex; })
-                        .forEach(function (s) {
-                            out.push({ rect: { x: s.rect.x - s.rect.w / 2, y: s.rect.y - s.rect.h / 2, w: s.rect.w, h: s.rect.h }, isCorrect: (s.choiceIndex === p0.correctOptionIdx) });
-                        });
+                    if (!p0) return out;
+                    // 'options' question type: the option cells -> tap the correct one.
+                    if (typeof p0.correctOptionIdx === 'number') {
+                        optionSlots.filter(function (s) { return s.problemIndex === p0.index; })
+                            .sort(function (a, b) { return a.choiceIndex - b.choiceIndex; })
+                            .forEach(function (s) {
+                                out.push({ rect: { x: s.rect.x - s.rect.w / 2, y: s.rect.y - s.rect.h / 2, w: s.rect.w, h: s.rect.h }, isCorrect: (s.choiceIndex === p0.correctOptionIdx) });
+                            });
+                        return out;
+                    }
+                    // 'blank' question type: no option cells — the answer is the missing pattern image,
+                    // which is one of the DISTINCT source images visible in the sequence. Options = the
+                    // distinct source images (first instance of each); tap the one that completes the
+                    // pattern (match on canonical theme/key, else raw path). Reuses family C. Emit-only.
+                    var rawP0 = puzzles[0] || {};
+                    var ansT = rawP0.answerTheme, ansK = rawP0.answerKey, ansPath = rawP0.answerPath;
+                    var seenP = {};
+                    sourceSlots.filter(function (s) { return s.problemIndex === (p0.index != null ? p0.index : 0); }).forEach(function (s) {
+                        if (!s.path || seenP[s.path]) return;
+                        seenP[s.path] = true;
+                        var ok = (ansK && s.key === ansK && s.theme === ansT) || (!!ansPath && s.path === ansPath);
+                        out.push({ rect: { x: s.rect.x - s.rect.w / 2, y: s.rect.y - s.rect.h / 2, w: s.rect.w, h: s.rect.h }, isCorrect: ok });
+                    });
                     return out;
                 })(),
                 imageRefs: imageRefs,

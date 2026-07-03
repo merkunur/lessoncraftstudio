@@ -936,6 +936,53 @@
         box.appendChild(b);
       });
     });
+    var clipNames = Object.keys((castDef && castDef.clips) || {});
+    section(p, 'Animations', function (box) {
+      if (clipNames.length) {
+        box.appendChild(el('div', 'stu-flabel', 'Entrance (plays when the page opens)'));
+        var esel = el('select');
+        var none = el('option'); none.value = ''; none.textContent = '— none —'; esel.appendChild(none);
+        clipNames.forEach(function (nm) { var o = el('option'); o.value = nm; o.textContent = nm; esel.appendChild(o); });
+        esel.value = pl.entranceClip || '';
+        esel.addEventListener('change', function () {
+          mutate('entrance animation', function (draft) {
+            var c = draft.story.pages[pgIdx()].characters[sel.index];
+            if (esel.value) c.entranceClip = esel.value; else delete c.entranceClip;
+          });
+        });
+        box.appendChild(esel);
+        box.appendChild(el('div', 'stu-note', clipNames.length + ' animation' + (clipNames.length > 1 ? 's' : '') + ': ' + clipNames.join(', ') + '. Attach one to a spoken line in the Narration panel.'));
+      } else {
+        box.appendChild(el('div', 'stu-note', 'No animations yet. Upload a TexturePacker animation sheet (name its frames wave_0001, nod_0001, …) to give this character gestures you can play on any spoken line.'));
+      }
+      var addBtn = el('button', 'stu-btn', '⬆ Add animations (sheet + .json)');
+      var addInp = el('input'); addInp.type = 'file'; addInp.accept = 'image/*,.json,application/json'; addInp.multiple = true; addInp.style.display = 'none';
+      addBtn.addEventListener('click', function () { addInp.click(); });
+      addInp.addEventListener('change', function () {
+        var files = [].slice.call(addInp.files || []);
+        var img = files.filter(function (f) { return /^image\//.test(f.type) || /\.(png|jpe?g|webp|gif)$/i.test(f.name); })[0];
+        var jsn = files.filter(function (f) { return f.type === 'application/json' || /\.json$/i.test(f.name); })[0];
+        if (!img || !jsn) { addBtn.textContent = '✗ select BOTH the animation sheet image and its .json'; return; }
+        addBtn.textContent = 'Uploading ' + img.name + '…';
+        var rB64 = function (f) { return new Promise(function (rs, rj) { var r = new FileReader(); r.onload = function () { rs(String(r.result).split(',')[1] || ''); }; r.onerror = rj; r.readAsDataURL(f); }); };
+        var rTxt = function (f) { return new Promise(function (rs, rj) { var r = new FileReader(); r.onload = function () { rs(r.result); }; r.onerror = rj; r.readAsText(f); }); };
+        Promise.all([rB64(img), rTxt(jsn)]).then(function (r) {
+          var atlas; try { atlas = JSON.parse(r[1]); } catch (e) { addBtn.textContent = '✗ that .json is not valid JSON'; return null; }
+          return fetch('/studio/import-character-clips/' + S().id + '?character=' + encodeURIComponent(pl.characterId), {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ atlas: atlas, imageBase64: r[0], imageExt: (String(img.name).split('.').pop() || '').toLowerCase() }) })
+            .then(function (rp) { return rp.json().then(function (j) { j.__status = rp.status; return j; }); });
+        }).then(function (j) {
+          if (!j) return;
+          if (j.__status !== 200 || !(j.clips || []).length) { addBtn.textContent = '✗ ' + (j.error || 'upload failed'); return; }
+          mutate('add animations', function (draft) {
+            var entry = (draft.story.cast || []).filter(function (c) { return c.id === pl.characterId; })[0];
+            applyCastClips(draft, entry, pl.characterId, j.atlasClips, j.clips, entry && entry.poses);
+          });
+        }).catch(function () { addBtn.textContent = '✗ couldn\'t reach the Studio server'; });
+      });
+      box.appendChild(addBtn); box.appendChild(addInp);
+    });
     section(p, 'Facing', function (box) {
       var b = el('button', 'stu-btn', pl.flip ? '↩ Face left (flipped)' : '↪ Face right (normal)');
       b.addEventListener('click', function () {
@@ -1035,7 +1082,9 @@
       who.value = cue.characterId || '';
       who.addEventListener('change', function () {
         mutate('change speaker', function (draft) {
-          draft.story.pages[pgIdx()].narration.cues[i].characterId = who.value;
+          var c = draft.story.pages[pgIdx()].narration.cues[i];
+          c.characterId = who.value;
+          delete c.clip; /* the animation belonged to the previous speaker */
         });
       });
       row.appendChild(who);
@@ -1053,6 +1102,23 @@
       var dot = el('span', 'stu-audiodot' + (S().audioHave['en/' + cue.id] ? ' stu-have' : ''),
         S().audioHave['en/' + cue.id] ? '● recorded' : '○ no recording yet (fine for testing)');
       meta.appendChild(dot);
+      /* animation-while-speaking: only when this line's speaker has clips */
+      var speaker = (S().doc.story.cast || []).filter(function (c) { return c.id === cue.characterId; })[0];
+      var speakerClips = Object.keys((speaker && speaker.clips) || {});
+      if (speakerClips.length) {
+        var asel = el('select', 'stu-cue-anim');
+        var an = el('option'); an.value = ''; an.textContent = '🎬 no animation'; asel.appendChild(an);
+        speakerClips.forEach(function (nm) { var o = el('option'); o.value = nm; o.textContent = '🎬 ' + nm; asel.appendChild(o); });
+        asel.value = cue.clip || '';
+        asel.title = 'Play this animation while ' + (global.Studio.str('cast.' + cue.characterId + '.name') || cue.characterId) + ' says this line';
+        asel.addEventListener('change', function () {
+          mutate('line animation', function (draft) {
+            var c = draft.story.pages[pgIdx()].narration.cues[i];
+            if (asel.value) c.clip = asel.value; else delete c.clip;
+          });
+        });
+        meta.appendChild(asel);
+      }
       var del = el('button', 'stu-x', '✕');
       del.addEventListener('click', function () {
         mutate('remove line', function (draft) {
@@ -1212,17 +1278,34 @@
     });
   }
 
+  /* record a character's animation clips onto its cast entry (from the picker OR a later
+     clips upload) — atlasClips asset + a clips map { <name>: { fallbackPose } } as the
+     runtime + validate-story.js expect. fallbackPose is a real declared pose. */
+  function applyCastClips(draft, entry, cid, atlasClipsUrl, clipNames, poses) {
+    if (!entry || !atlasClipsUrl || !(clipNames || []).length) return;
+    var clipsAssetId = 'atlas.' + cid + '.clips';
+    draft.story.assets[clipsAssetId] = { kind: 'atlas', src: atlasClipsUrl };
+    entry.atlasClips = clipsAssetId;
+    var fallback = (poses && poses[0]) || (entry.poses && entry.poses[0]) || 'neutral';
+    entry.clips = entry.clips || {};
+    clipNames.forEach(function (nm) { entry.clips[nm] = entry.clips[nm] || { fallbackPose: fallback }; });
+  }
+
   /* ensure a story has a cast entry + atlas asset for a picked character (mirrors the Add flow) */
   function ensureCastEntry(draft, castDef) {
     var cid = castDef.characterId;
-    if (!(draft.story.cast || []).some(function (c) { return c.id === cid; })) {
+    var entry = (draft.story.cast || []).filter(function (c) { return c.id === cid; })[0];
+    if (!entry) {
       var atlasId = 'atlas.' + cid + '.base';
       draft.story.assets[atlasId] = draft.story.assets[atlasId] || { kind: 'atlas', src: castDef.atlasBase };
       draft.story.cast = draft.story.cast || [];
-      draft.story.cast.push({ id: cid, name: '@cast.' + cid + '.name',
-        role: (draft.story.cast.length ? 'companion' : 'guide'), atlasBase: atlasId, poses: castDef.poses });
+      entry = { id: cid, name: '@cast.' + cid + '.name',
+        role: (draft.story.cast.length ? 'companion' : 'guide'), atlasBase: atlasId, poses: castDef.poses };
+      draft.story.cast.push(entry);
       draft.strings['cast.' + cid + '.name'] = draft.strings['cast.' + cid + '.name'] || { en: cid.charAt(0).toUpperCase() + cid.slice(1) };
     }
+    /* carry clips through if the picked castDef already has them */
+    if (castDef.atlasClips && (castDef.clips || []).length) applyCastClips(draft, entry, cid, castDef.atlasClips, castDef.clips, castDef.poses || entry.poses);
     return cid;
   }
 

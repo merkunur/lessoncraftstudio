@@ -140,11 +140,19 @@ function listCast() {
         const j = JSON.parse(fs.readFileSync(baseJson, 'utf8'));
         poses = Object.keys(j.frames).filter(n => n.startsWith('pose_')).map(n => n.slice(5));
       } catch (e) {}
-      const clips = fs.existsSync(path.join(castDir, ch, ch + '.clips.json'));
+      const clipsJson = path.join(castDir, ch, ch + '.clips.json');
+      const hasClips = fs.existsSync(clipsJson);
+      let clipNames = [];
+      if (hasClips) {
+        try {
+          const cj = JSON.parse(fs.readFileSync(clipsJson, 'utf8'));
+          clipNames = Object.keys(cj.animations || {}).filter(n => n.startsWith('clip_')).map(n => n.slice(5));
+        } catch (e) {}
+      }
       cast.push({
-        characterId: ch, fromStory: sid, poses: poses,
+        characterId: ch, fromStory: sid, poses: poses, clips: clipNames,
         atlasBase: '/mini-tools/stories/' + sid + '/cast/' + ch + '/' + ch + '.base.json',
-        atlasClips: clips ? '/mini-tools/stories/' + sid + '/cast/' + ch + '/' + ch + '.clips.json' : null
+        atlasClips: hasClips ? '/mini-tools/stories/' + sid + '/cast/' + ch + '/' + ch + '.clips.json' : null
       });
     }
   }
@@ -496,6 +504,86 @@ const srv = http.createServer(async (req, res) => {
       const outAtlas = { frames: outFrames, meta: { app: 'lcs-sheet', version: '1.0', image: imgName, format: 'RGBA8888', size: { w: cols * cellW, h: rows * cellH }, scale: '1' } };
       fs.writeFileSync(path.join(dir, slug + '.base.json'), JSON.stringify(outAtlas));
       return json(res, 200, { ok: true, characterId: slug, atlasBase: '/mini-tools/stories/' + storyId + '/cast/' + slug + '/' + slug + '.base.json', poses: poses });
+    }
+
+    /* add ANIMATIONS to an existing character: a TexturePacker sheet whose frames are named
+       <name>_<NNNN> (e.g. wave_0001) becomes named clips clip_<name>. Clips are player-only
+       (the Studio canvas never renders them) and the player's PIXI parser honors rotated/trimmed,
+       so — unlike the base sheet — no sharp re-bake is needed; the sheet is copied as-is and the
+       .clips.json regroups the frames + builds the `animations` map the runtime + validator expect.
+       Body = application/json { atlas, imageBase64, imageExt }. ?character=<existing slug>. */
+    if ((m = p.match(/^\/studio\/import-character-clips\/([a-z0-9-]+)$/)) && req.method === 'POST') {
+      const storyId = m[1];
+      const storyDir = path.join(STORIES, storyId);
+      if (!fs.existsSync(storyDir)) return json(res, 404, { error: 'story not found' });
+      const charSlug = String(u.searchParams.get('character') || '').replace(/[^a-z0-9-]/gi, '').toLowerCase();
+      const dir = charSlug && path.join(storyDir, 'cast', charSlug);
+      if (!charSlug || !fs.existsSync(dir)) return json(res, 400, { error: 'unknown character "' + charSlug + '" — upload the character first' });
+      const raw = await readRawBody(req);
+      if (!raw || !raw.length) return json(res, 400, { error: 'empty upload' });
+      let body; try { body = JSON.parse(raw.toString('utf8')); } catch (e) { return json(res, 400, { error: 'the request body is not valid JSON' }); }
+      const atlas = body && body.atlas;
+      if (!atlas || typeof atlas !== 'object' || !atlas.frames || typeof atlas.frames !== 'object')
+        return json(res, 400, { error: 'that .json is not a TexturePacker atlas (no "frames")' });
+      const imgBuf = Buffer.from(String(body.imageBase64 || ''), 'base64');
+      if (!imgBuf.length) return json(res, 400, { error: 'no animation sheet image was sent — also select the .webp/.png, not just the .json' });
+      let ext = null;
+      if (imgBuf.length > 8 && imgBuf[0] === 0x89 && imgBuf[1] === 0x50 && imgBuf[2] === 0x4E && imgBuf[3] === 0x47) ext = 'png';
+      else if (imgBuf.length > 3 && imgBuf[0] === 0xFF && imgBuf[1] === 0xD8 && imgBuf[2] === 0xFF) ext = 'jpg';
+      else if (imgBuf.length > 12 && imgBuf.toString('ascii', 0, 4) === 'RIFF' && imgBuf.toString('ascii', 8, 12) === 'WEBP') ext = 'webp';
+      else if (imgBuf.length > 6 && imgBuf.toString('ascii', 0, 3) === 'GIF') ext = 'gif';
+      if (!ext) return json(res, 400, { error: 'the animation sheet is not a PNG, JPG, WEBP, or GIF image' });
+      /* best-effort dims guard (the pass-through relies on the image matching the atlas rects) */
+      try { const meta = await require('sharp')(imgBuf).metadata(); const d = atlas.meta && atlas.meta.size;
+        if (d && (d.w !== (meta.width || 0) || d.h !== (meta.height || 0)))
+          return json(res, 400, { error: 'the sheet (' + meta.width + '×' + meta.height + ') does not match this atlas (expected ' + d.w + '×' + d.h + ') — did you pick the matching pair?' }); }
+      catch (e) { /* sharp optional here — pass-through does not crop */ }
+
+      /* group frames into animations: prefer the atlas's own `animations` map, else group by
+         base name (strip a trailing _NNNN / digits). Each group -> one clip, frames in order. */
+      const stripExt = function (n) { return String(n).replace(/\.[a-z0-9]+$/i, ''); };
+      const slugify = function (s) { return String(s).replace(/[^a-z0-9]+/gi, '-').replace(/^-+|-+$/g, '').toLowerCase(); };
+      const groups = {}; /* groupSlug -> [ {origName, num} ] */
+      if (atlas.animations && typeof atlas.animations === 'object' && Object.keys(atlas.animations).length) {
+        Object.keys(atlas.animations).forEach(function (anim) {
+          const gs = slugify(anim) || 'clip';
+          groups[gs] = (atlas.animations[anim] || []).filter(function (fn) { return atlas.frames[fn]; })
+            .map(function (fn, i) { return { origName: fn, num: i }; });
+        });
+      } else {
+        Object.keys(atlas.frames).forEach(function (fn) {
+          const bareBase = stripExt(fn);
+          const mm = bareBase.match(/^(.*?)[ _\-]?(\d+)$/);
+          const base = slugify(mm ? mm[1] : bareBase) || 'clip';
+          const num = mm ? parseInt(mm[2], 10) : 0;
+          (groups[base] = groups[base] || []).push({ origName: fn, num: num });
+        });
+        Object.keys(groups).forEach(function (g) { groups[g].sort(function (a, b) { return a.num - b.num; }); });
+      }
+      const groupNames = Object.keys(groups).filter(function (g) { return groups[g].length; });
+      if (!groupNames.length) return json(res, 400, { error: 'no animation frames found in that sheet' });
+
+      const outFrames = {}, outAnims = {};
+      groupNames.forEach(function (g) {
+        const keys = [];
+        groups[g].forEach(function (fr, i) {
+          const src = atlas.frames[fr.origName];
+          const key = 'clip_' + g + '_' + String(i + 1).padStart(4, '0');
+          /* pass frame geometry through untouched — PIXI honors rotated/trimmed */
+          outFrames[key] = { frame: src.frame, rotated: !!src.rotated, trimmed: !!src.trimmed,
+            spriteSourceSize: src.spriteSourceSize || { x: 0, y: 0, w: src.frame.w, h: src.frame.h },
+            sourceSize: src.sourceSize || { w: src.frame.w, h: src.frame.h } };
+          keys.push(key);
+        });
+        outAnims['clip_' + g] = keys;
+      });
+      const imgName = charSlug + '.clips.' + ext;
+      const outAtlas = { frames: outFrames, animations: outAnims,
+        meta: { app: 'lcs-sheet', version: '1.0', image: imgName, format: 'RGBA8888', size: (atlas.meta && atlas.meta.size) || { w: 0, h: 0 }, scale: '1' } };
+      fs.writeFileSync(path.join(dir, imgName), imgBuf);
+      fs.writeFileSync(path.join(dir, charSlug + '.clips.json'), JSON.stringify(outAtlas));
+      return json(res, 200, { ok: true, characterId: charSlug,
+        atlasClips: '/mini-tools/stories/' + storyId + '/cast/' + charSlug + '/' + charSlug + '.clips.json', clips: groupNames });
     }
 
     /* ---------- static mounts ---------- */

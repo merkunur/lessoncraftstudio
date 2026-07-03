@@ -445,6 +445,9 @@ for (const page of story.pages || []) {
     if (pl.pose && (def.poses || []).indexOf(pl.pose) < 0) {
       err(`page ${pid}: character ${pl.characterId} pose "${pl.pose}" not declared in cast.poses`);
     }
+    if (pl.entranceClip && !((def.clips || {})[pl.entranceClip])) {
+      err(`page ${pid}: character ${pl.characterId} entranceClip "${pl.entranceClip}" not declared on ${def.id}.clips`);
+    }
   }
 
   /* narration */
@@ -453,6 +456,11 @@ for (const page of story.pages || []) {
     requireStringKey(cue.id, `page ${pid} narration`);
     if (cue.characterId && !(story.cast || []).some(c => c.id === cue.characterId)) {
       err(`page ${pid}: narration cue ${cue.id} unknown characterId`);
+    }
+    if (cue.clip) {
+      const cd = (story.cast || []).find(c => c.id === cue.characterId);
+      if (!cd) err(`page ${pid}: narration cue ${cue.id} has a clip but no valid speaker`);
+      else if (!((cd.clips || {})[cue.clip])) err(`page ${pid}: narration cue ${cue.id} clip "${cue.clip}" not declared on ${cd.id}.clips`);
     }
     /* audio coverage (line-ID mp3s) — warn pre-launch, error with --strict-audio */
     for (const loc of locales) {

@@ -36,16 +36,16 @@
       genFirst: 'Generate a worksheet first, then press "Add to my story".'
     },
     de: {
-      add: 'In meine Geschichte übernehmen',
+      add: 'In meine Geschichte einfügen',
       part: 'Einen Teil auswählen…',
       cancel: 'Schließen',
       loading: 'Der Arbeitsblatt-Generator öffnet sich…',
       exporting: 'Ihre Aufgabe wird vorbereitet…',
-      cropHint: 'Ziehen Sie den Rahmen um den gewünschten Teil und drücken Sie „Export this".',
-      cancelled: 'Kein Problem — passen Sie das Arbeitsblatt an und versuchen Sie es erneut.',
-      failed: 'Das hat nicht geklappt — erst „Generate" drücken, dann erneut versuchen.',
+      cropHint: 'Ziehen Sie den Rahmen um den gewünschten Teil und tippen Sie dann auf „Export this“.',
+      cancelled: 'Kein Problem – passen Sie das Arbeitsblatt an und versuchen Sie es erneut.',
+      failed: 'Das hat nicht geklappt – bitte erst auf „Generate“ klicken und dann noch einmal versuchen.',
       saving: 'Wird zu Ihrer Geschichte hinzugefügt…',
-      genFirst: 'Erst ein Arbeitsblatt erzeugen, dann „In meine Geschichte übernehmen" drücken.'
+      genFirst: 'Erstellen Sie zuerst ein Arbeitsblatt und tippen Sie dann auf „In meine Geschichte einfügen“.'
     }
   };
   function t(k) {

@@ -99,7 +99,7 @@ const de: StudioStrings = {
   metaTitle: 'Geschichten-Studio',
   dashTitle: 'Geschichten-Studio',
   dashIntro:
-    'Erstellen Sie interaktive Vorlesegeschichten für Ihre Klasse — mit Figuren, Erzählstimme und Aufgaben aus allen Arbeitsblatt-Generatoren.',
+    'Erstellen Sie interaktive Vorlesegeschichten für Ihre Klasse – mit Figuren, Erzählstimme und Aufgaben aus allen Arbeitsblatt-Generatoren.',
   newStory: 'Neue Geschichte beginnen',
   startBlank: 'Leere Geschichte',
   startBlankBlurb: 'Mit einer leeren ersten Seite beginnen.',
@@ -119,8 +119,8 @@ const de: StudioStrings = {
   creating: 'Wird erstellt…',
   cancel: 'Abbrechen',
   myStories: 'Meine Geschichten',
-  emptyTitle: 'Ihre erste Geschichte dauert etwa 10 Minuten.',
-  emptyBody: 'Beginnen Sie mit einer Vorlage — alles darin lässt sich ändern.',
+  emptyTitle: 'Ihre erste Geschichte ist in etwa 10 Minuten fertig.',
+  emptyBody: 'Beginnen Sie mit einer Vorlage – alles darin lässt sich ändern.',
   open: 'Öffnen',
   play: 'Vorschau',
   delete_: 'Löschen',
@@ -132,18 +132,18 @@ const de: StudioStrings = {
   loading: 'Wird geladen…',
   errorGeneric: 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.',
   signInTitle: 'Melden Sie sich an, um das Geschichten-Studio zu öffnen',
-  signInBody: 'Das Geschichten-Studio gehört zu Ihrem LessonCraftStudio-Konto.',
+  signInBody: 'Das Geschichten-Studio ist Teil Ihres LessonCraftStudio-Kontos.',
   signInCta: 'Anmelden',
-  subscriberTitle: 'Das Geschichten-Studio gehört zum Teacher-Tarif',
+  subscriberTitle: 'Das Geschichten-Studio ist im Teacher-Tarif enthalten',
   subscriberBody:
-    'Gestalten Sie erzählte, spielbare Geschichten mit Figuren, Hintergründen und echten Arbeitsblatt-Aufgaben — und teilen Sie sie mit einem Link mit Ihrer Klasse.',
+    'Erstellen Sie vertonte, interaktive Geschichten mit Figuren, Hintergründen und echten Arbeitsblatt-Aufgaben – und teilen Sie sie per Link mit Ihrer Klasse.',
   subscriberCta: 'Tarife ansehen',
   backToStories: 'Meine Geschichten',
   editorAuthLost: 'Sie wurden abgemeldet. Ihre letzten Änderungen sind auf diesem Gerät gesichert.',
   editorAuthCta: 'Erneut anmelden',
   smallScreenTitle: 'Das Geschichten-Studio braucht einen größeren Bildschirm',
   smallScreenBody:
-    'Das Bearbeiten funktioniert am besten am Computer oder am Tablet im Querformat. Ihre Geschichten warten dort auf Sie — abspielen können Ihre Schüler sie auf jedem Gerät.',
+    'Das Bearbeiten funktioniert am besten am Computer oder am Tablet im Querformat. Ihre Geschichten warten dort auf Sie – abspielen können die Kinder sie auf jedem Gerät.',
 };
 
 export function studioStrings(locale: string): StudioStrings {

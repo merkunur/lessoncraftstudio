@@ -71,7 +71,7 @@
   /* ================= library picker ================= */
   var _lib = null;
   function openLibrary(onPick) {
-    openDrawer('Pick a picture', function (body) {
+    openDrawer(T('Pick a picture', 'Bild auswählen'), function (body) {
       var bar = el('div', 'stu-libbar');
       var sel = el('select');
       var search = el('input');
@@ -534,12 +534,12 @@
 
   /* ================= mechanic picker + form host ================= */
   function openMechanicPicker() {
-    openDrawer('Choose an activity', function (body) {
+    openDrawer(T('Choose an activity', 'Aufgabe auswählen'), function (body) {
       /* two tabs: the story-activity modules, and the 29 worksheet makers
          (designed inside the Studio via the generator bridge — no zips) */
       var tabs = el('div', 'stu-tabs');
-      var tabStory = el('button', 'stu-tab stu-tab-on', 'Story activities');
-      var tabWs = el('button', 'stu-tab', 'Worksheet activities');
+      var tabStory = el('button', 'stu-tab stu-tab-on', T('Story activities', 'Geschichten-Aufgaben'));
+      var tabWs = el('button', 'stu-tab', T('Worksheet activities', 'Arbeitsblatt-Aufgaben'));
       tabs.appendChild(tabStory); tabs.appendChild(tabWs);
       body.appendChild(tabs);
       var paneStory = el('div');
@@ -594,7 +594,7 @@
             (byGroup[a.skillGroup] = byGroup[a.skillGroup] || []).push(a);
           });
           paneWs.appendChild(el('div', 'stu-note',
-            'Design a worksheet in any maker — it becomes a playable activity on this page.'));
+            T('Design a worksheet in any maker — it becomes a playable activity on this page.', 'Gestalten Sie ein Arbeitsblatt in einem Generator – es wird eine spielbare Aufgabe auf dieser Seite.')));
           Object.keys(byGroup).forEach(function (g) {
             var gd = groupsDef[g] || {};
             paneWs.appendChild(el('h3', 'stu-h3',
@@ -615,7 +615,7 @@
               c.appendChild(el('div', 'stu-card-label', (a.title && (a.title[loc] || a.title.en)) || a.id));
               c.appendChild(el('div', 'stu-card-blurb', (a.blurb && (a.blurb[loc] || a.blurb.en)) || ''));
               if (band && (a.gradeBands || []).indexOf(band) >= 0) {
-                c.appendChild(el('div', 'stu-card-min stu-card-fit', '★ fits this story\'s grade'));
+                c.appendChild(el('div', 'stu-card-min stu-card-fit', T('★ fits this story\'s grade', '★ passt zur Klassenstufe')));
               }
               c.addEventListener('click', function () {
                 closeDrawer();
@@ -681,7 +681,7 @@
     if (sel && (sel.kind === 'drawable' || sel.kind === 'point')) { renderDrawablePanel(p, sel); return; }
 
     /* -------- page panel -------- */
-    p.appendChild(el('h2', 'stu-h2', 'Page ' + (pgIdx() + 1)));
+    p.appendChild(el('h2', 'stu-h2', T('Page ', 'Seite ') + (pgIdx() + 1)));
     p.appendChild(checklist(pg));
 
     /* THE PAGE RECIPE — picture → characters → story lines → activity →
@@ -731,11 +731,11 @@
 
     /* hint + cheer */
     section(p, step('Hint & cheer', 'Tipp & Lob'), function (box) {
-      box.appendChild(labeledStringBox('Hint — when the child is stuck',
+      box.appendChild(labeledStringBox(T('Hint — when the child is stuck', 'Tipp – wenn das Kind nicht weiterkommt'),
         pg.interaction && pg.interaction.hintKey,
         function (draft, key) { draft.story.pages[pgIdx()].interaction.hintKey = key; },
         pg.id + '-hint', !pg.interaction));
-      box.appendChild(labeledStringBox('Cheer — after they succeed',
+      box.appendChild(labeledStringBox(T('Cheer — after they succeed', 'Lob – wenn es geschafft ist'),
         pg.success && pg.success.narrationKey,
         function (draft, key) {
           var dpg = draft.story.pages[pgIdx()];
@@ -746,10 +746,10 @@
     });
 
     /* page actions */
-    section(p, 'This page', function (box) {
-      var dup = el('button', 'stu-btn', 'Duplicate page');
+    section(p, T('This page', 'Diese Seite'), function (box) {
+      var dup = el('button', 'stu-btn', T('Duplicate page', 'Seite duplizieren'));
       dup.addEventListener('click', duplicatePage);
-      var del = el('button', 'stu-btn stu-btn-danger', 'Remove page…');
+      var del = el('button', 'stu-btn stu-btn-danger', T('Remove page…', 'Seite entfernen…'));
       del.addEventListener('click', deletePageConfirm);
       box.appendChild(dup); box.appendChild(del);
     });
@@ -768,7 +768,7 @@
 
   function guideName() {
     var g = (S().doc.story.cast || []).filter(function (c) { return c.role === 'guide'; })[0];
-    return g ? global.Studio.str('cast.' + g.id + '.name') || g.id : 'the helper';
+    return g ? global.Studio.str('cast.' + g.id + '.name') || g.id : T('the helper', 'die Erzählfigur');
   }
 
   function section(p, title, fn) {
@@ -783,11 +783,11 @@
   function checklist(pg) {
     var c = el('div', 'stu-checklist');
     var items = [
-      ['Picture', !!(pg.scene && pg.scene.image)],
-      ['Character', (pg.characters || []).length > 0],
-      ['Story lines', ((pg.narration && pg.narration.cues) || []).length > 0],
-      ['Activity', !!pg.interaction],
-      ['Cheer', !!(pg.success && pg.success.narrationKey)]
+      [T('Picture', 'Bild'), !!(pg.scene && pg.scene.image)],
+      [T('Character', 'Figur'), (pg.characters || []).length > 0],
+      [T('Story lines', 'Erzähltext'), ((pg.narration && pg.narration.cues) || []).length > 0],
+      [T('Activity', 'Aufgabe'), !!pg.interaction],
+      [T('Cheer', 'Lob'), !!(pg.success && pg.success.narrationKey)]
     ];
     items.forEach(function (it) {
       var d = el('span', 'stu-checkitem' + (it[1] ? ' stu-ok' : ''), (it[1] ? '✓ ' : '· ') + it[0]);
@@ -801,10 +801,10 @@
     var stu = m && m.meta.studio;
     var head = el('div', 'stu-mech-head');
     head.appendChild(el('strong', null, (stu && stu.label) || inter.moduleType));
-    var change = el('button', 'stu-btn stu-btn-small', 'Change…');
+    var change = el('button', 'stu-btn stu-btn-small', T('Change…', 'Ändern…'));
     change.addEventListener('click', openMechanicPicker);
     head.appendChild(change);
-    var rm = el('button', 'stu-btn stu-btn-small stu-btn-danger', 'Remove');
+    var rm = el('button', 'stu-btn stu-btn-small stu-btn-danger', T('Remove', 'Entfernen'));
     rm.addEventListener('click', function () {
       mutate('remove activity', function (draft) { draft.story.pages[pgIdx()].interaction = null; });
     });
@@ -815,7 +815,7 @@
     /* a placed worksheet exercise: Replace (from a maker) beats Edit —
        generators can't round-trip their state, so re-design + re-export */
     if (inter.moduleType === 'sb-worksheet-exercise' && global.StudioGeneratorBridge) {
-      var rep = el('button', 'stu-btn stu-btn-small', '↻ Replace from a worksheet maker…');
+      var rep = el('button', 'stu-btn stu-btn-small', T('↻ Replace from a worksheet maker…', '↻ Neu aus einem Generator einfügen…'));
       rep.addEventListener('click', openMechanicPicker);
       box.appendChild(rep);
     }
@@ -1263,7 +1263,7 @@
       /* ▶ hear the line the way students will (the player's TTS voice) */
       var say = el('button', 'stu-btn stu-btn-small', '▶ ' + T('Hear it', 'Anhören'));
       say.title = T('Students hear these lines read aloud automatically.',
-        'Ihre Schüler hören diese Zeilen automatisch vorgelesen.');
+        'Diese Zeilen werden den Kindern automatisch vorgelesen.');
       say.addEventListener('click', function () {
         try {
           global.speechSynthesis.cancel();
@@ -1350,9 +1350,9 @@
     });
   }
   function openScenePicker() {
-    openDrawer('Pick the picture for this page', function (body) {
+    openDrawer(T('Pick the picture for this page', 'Bild für diese Seite auswählen'), function (body) {
       /* 1. the PLATFORM background library — the curated first choice */
-      var bgHead = el('div', 'stu-note', 'Backgrounds:');
+      var bgHead = el('div', 'stu-note', T('Backgrounds:', 'Hintergründe:'));
       var bgGrid = el('div', 'stu-libgrid');
       body.appendChild(bgHead);
       body.appendChild(bgGrid);
@@ -1430,9 +1430,9 @@
     /* a DOM Event may arrive here (when used directly as a click listener) — only a real
        function is a swap callback; otherwise this is the Add flow (place on the canvas). */
     var pick = (typeof onPick === 'function') ? onPick : null;
-    openDrawer(pick ? 'Change to which character?' : 'Add a character', function (body) {
+    openDrawer(pick ? T('Change to which character?', 'Zu welcher Figur wechseln?') : T('Add a character', 'Figur hinzufügen'), function (body) {
       /* the PLATFORM character library — ready-made, multi-pose, animated */
-      var platHead = el('div', 'stu-note', 'Ready-made characters:');
+      var platHead = el('div', 'stu-note', T('Ready-made characters:', 'Fertige Figuren:'));
       var platRow = el('div', 'stu-cards');
       body.appendChild(platHead);
       body.appendChild(platRow);
@@ -1694,7 +1694,7 @@
     t.appendChild(redo);
 
     var prev = el('button', 'stu-btn stu-btn-primary',
-      TEACHER ? '▶ ' + T('Preview as a student', 'Als Schüler ansehen') : '▶ Try it');
+      TEACHER ? '▶ ' + T('Preview as a student', 'Aus Schülersicht ansehen') : '▶ Try it');
     prev.addEventListener('click', openPreview);
     t.appendChild(prev);
     var check = el('button', 'stu-btn', '✔ ' + T('Check my story', 'Geschichte prüfen'));
@@ -1725,7 +1725,7 @@
     global.Studio.saveNow();
     openDrawer(TEACHER ? T('Preview — exactly what your students see', 'Vorschau — genau das sehen Ihre Schüler') : 'Try it — the real player', function (body) {
       var bar = el('div', 'stu-libbar');
-      var widths = [['Phone', 700], ['Tablet', 900], ['Big', 1180]];
+      var widths = [[T('Phone', 'Handy'), 700], ['Tablet', 900], [T('Big', 'Groß'), 1180]];
       var iframe = el('iframe', 'stu-preview');
       var makeSrc = function () {
         /* tenant mode: the player reads the story through its preview play
@@ -1742,7 +1742,7 @@
         b.addEventListener('click', function () { iframe.style.width = wdef[1] + 'px'; });
         bar.appendChild(b);
       });
-      var fromStart = el('button', 'stu-btn stu-btn-small', 'From the start');
+      var fromStart = el('button', 'stu-btn stu-btn-small', T('From the start', 'Von Anfang an'));
       fromStart.addEventListener('click', function () {
         iframe.src = makeSrc().replace(/&page=\d+/, '&page=1');
       });
@@ -1769,18 +1769,18 @@
     }
     var MAP = [
       [/SEP too dense/i, T('The worksheet is too crowded — make its box bigger, or design it with fewer problems.',
-        'Die Aufgabe ist zu voll — machen Sie den Bereich größer oder erstellen Sie das Arbeitsblatt mit weniger Aufgaben.')],
+        'Das Arbeitsblatt ist zu voll – machen Sie den Bereich größer oder wählen Sie weniger Aufgaben.')],
       [/zone .* < .* minZone/i, T('The activity box is too small — drag its corner to make it bigger.',
-        'Der Aufgabenbereich ist zu klein — ziehen Sie an der Ecke, um ihn zu vergrößern.')],
+        'Der Aufgabenbereich ist zu klein – ziehen Sie an der Ecke, um ihn zu vergrößern.')],
       [/strings\.json missing key|missing locale/i, T('Some words are missing — check the text boxes on this page.',
-        'Hier fehlt noch Text — prüfen Sie die Textfelder auf dieser Seite.')],
+        'Hier fehlt noch Text – prüfen Sie die Textfelder auf dieser Seite.')],
       [/scene\.image or scene\.layers required/i, T('This page needs a picture.', 'Diese Seite braucht noch ein Bild.')],
       [/no slots|has no (cells|columns|choices|paths)|needs >= 2/i, T('The activity is empty — open it and finish setting it up.',
-        'Die Aufgabe ist leer — bitte öffnen und fertig einrichten.')],
+        'Die Aufgabe ist leer – bitte öffnen und fertig einrichten.')],
       [/SEP (descriptor|visual) missing/i, T('The worksheet activity is broken — replace it from a worksheet maker.',
-        'Die Arbeitsblatt-Aufgabe ist beschädigt — bitte neu aus einem Generator übernehmen.')],
+        'Die Arbeitsblatt-Aufgabe ist beschädigt – bitte neu aus einem Generator einfügen.')],
       [/anchor out of bounds|outside the .* design space/i, T('Something is placed outside the page — drag it back in.',
-        'Etwas liegt außerhalb der Seite — bitte zurückziehen.')]
+        'Etwas liegt außerhalb der Seite – ziehen Sie es zurück auf die Seite.')]
     ];
     for (var i = 0; i < MAP.length; i++) {
       if (MAP[i][0].test(out)) { out = MAP[i][1]; break; }
@@ -1791,8 +1791,8 @@
   function runCheck() {
     global.Studio.saveNow();
     setTimeout(function () {
-      openDrawer('Checking your story…', function (body) {
-        body.appendChild(el('div', 'stu-note', 'One moment…'));
+      openDrawer(T('Checking your story…', 'Ihre Geschichte wird geprüft…'), function (body) {
+        body.appendChild(el('div', 'stu-note', T('One moment…', 'Einen Moment…')));
         global.Studio.api('/studio/validate/' + S().id, { method: 'POST' }).then(function (j) {
           body.innerHTML = '';
           if (j.ok) {
@@ -1805,15 +1805,17 @@
             if (!TEACHER) ok.appendChild(el('p', 'stu-note', 'Next (for the tech side): node scripts/storybook/qa-storybook.js --story=' + S().id));
             body.appendChild(ok);
           } else {
+            var en1 = j.errors.length;
             body.appendChild(el('h3', null, TEACHER
-              ? T('Almost ready — ' + j.errors.length + ' thing(s) to fix', 'Fast fertig — noch ' + j.errors.length + ' Punkt(e)')
-              : j.errors.length + ' thing(s) to fix'));
+              ? (en1 === 1 ? T('Almost ready — 1 thing to fix', 'Fast fertig – noch 1 Punkt')
+                           : T('Almost ready — ' + en1 + ' things to fix', 'Fast fertig – noch ' + en1 + ' Punkte'))
+              : en1 + ' thing(s) to fix'));
             j.errors.forEach(function (e2) {
               var card = el('div', 'stu-vcard');
               card.appendChild(el('div', null, TEACHER ? friendlyError(e2) : e2));
               var m = e2.match(/page ([a-z0-9-]+):/);
               if (m) {
-                var go = el('button', 'stu-btn stu-btn-small', 'Show me');
+                var go = el('button', 'stu-btn stu-btn-small', T('Show me', 'Zeigen'));
                 go.addEventListener('click', function () {
                   var i = S().doc.story.pages.findIndex(function (p) { return p.id === m[1]; });
                   if (i >= 0) { S().pageIndex = i; closeDrawer(); global.StudioCanvas.select(null); }
@@ -1825,7 +1827,11 @@
           }
           if (j.warns && j.warns.length) {
             var det = el('details');
-            det.appendChild(el('summary', null, TEACHER ? T(j.warns.length + ' small note(s) — fine to share', j.warns.length + ' kleine Hinweise — Teilen ist trotzdem ok') : j.warns.length + ' small note(s) — fine to ship'));
+            var wn = j.warns.length;
+            det.appendChild(el('summary', null, TEACHER
+              ? (wn === 1 ? T('1 small note — fine to share', '1 kleiner Hinweis – Teilen ist trotzdem möglich')
+                          : T(wn + ' small notes — fine to share', wn + ' kleine Hinweise – Teilen ist trotzdem möglich'))
+              : wn + ' small note(s) — fine to ship'));
             j.warns.forEach(function (w) { det.appendChild(el('div', 'stu-note', w)); });
             body.appendChild(det);
           }
@@ -1928,8 +1934,10 @@
         global.Studio.api('/studio/share/' + S().id, { method: 'POST' }).then(function (j) {
           if (j.__status === 409 && j.errors) {
             box.innerHTML = '';
-            box.appendChild(el('h3', null, T('Almost ready — ' + j.errors.length + ' thing(s) to fix first',
-              'Fast fertig — vorher noch ' + j.errors.length + ' Punkt(e)')));
+            var en2 = j.errors.length;
+            box.appendChild(el('h3', null, en2 === 1
+              ? T('Almost ready — 1 thing to fix first', 'Fast fertig – vorher noch 1 Punkt')
+              : T('Almost ready — ' + en2 + ' things to fix first', 'Fast fertig – vorher noch ' + en2 + ' Punkte')));
             j.errors.forEach(function (e2) {
               var card = el('div', 'stu-vcard');
               card.appendChild(el('div', null, friendlyError(e2)));
@@ -1962,7 +1970,7 @@
       }).catch(function () {
         box.innerHTML = '';
         box.appendChild(el('div', 'stu-empty', T('Could not load the sharing state — please try again.',
-          'Der Teilen-Status konnte nicht geladen werden — bitte erneut versuchen.')));
+          'Der Freigabestatus konnte nicht geladen werden – bitte erneut versuchen.')));
       });
     }, true);
   }
@@ -2038,7 +2046,7 @@
     }).catch(function () {
       refs.banner.textContent = TEACHER
         ? T('The Studio could not connect. Please refresh the page — if it keeps happening, sign in again.',
-            'Das Studio konnte keine Verbindung herstellen. Bitte Seite neu laden — falls es weiter auftritt, bitte neu anmelden.')
+            'Das Studio konnte keine Verbindung herstellen. Bitte laden Sie die Seite neu – wenn das Problem weiterhin auftritt, melden Sie sich bitte erneut an.')
         : 'This is the Storybook Studio — it runs on your computer. Open a terminal and run:  node scripts/storybook/studio-server.js   then open the address it prints.';
       refs.banner.style.display = 'block';
     });

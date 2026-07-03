@@ -25,7 +25,7 @@ const { srv } = require('./studio-server.js');
 const REPO = path.join(__dirname, '..', '..');
 const STORIES = path.join(REPO, 'mini tools', 'stories');
 const STAGE = (process.argv.find(a => a.startsWith('--stage=')) || '--stage=m2').split('=')[1];
-const ORDER = ['m1', 'm2', 'm4', 'm5'];
+const ORDER = ['m1', 'm2', 'm4', 'm5', 'm8'];
 const upTo = ORDER.indexOf(STAGE);
 
 const fails = [];
@@ -220,6 +220,63 @@ function assert(ok, msg) {
       'm5: zone-relative x re-encoded (' + placed.rel.x + ' → ' + after.rel.x + ')');
     assert(after.abs.x === placed.abs.x && after.abs.y === placed.abs.y,
       'm5: ABSOLUTE position unchanged (' + placed.abs.x + ',' + placed.abs.y + ')');
+  }
+  if (upTo < 4) return finish(browser);
+
+  /* ---------------- M8: the sb-trace PATH editor (multi-click + re-encode) ---------------- */
+  {
+    /* clear the drawable selection so the panel shows the mechanic-level view */
+    await page.evaluate(() => StudioCanvas.select(null));
+    await new Promise(r => setTimeout(r, 150));
+    /* switch the page's mechanic to sb-trace */
+    await page.evaluate(() => {
+      [...document.querySelectorAll('#stu-panel .stu-btn')].find(b => b.textContent === 'Change…').click();
+    });
+    await page.waitForSelector('.stu-card', { timeout: 8000 });
+    await page.evaluate(() => {
+      [...document.querySelectorAll('.stu-card')].find(c => c.textContent.indexOf('Trace the path') >= 0).click();
+    });
+    await new Promise(r => setTimeout(r, 300));
+    /* pin a known zone so the re-encode clamp can't interfere */
+    await page.evaluate(() => {
+      Studio.mutate('pin zone', function (draft) {
+        draft.story.pages[Studio.state.pageIndex].interaction.zone = { x: 300, y: 200, w: 1000, h: 600 };
+      });
+    });
+    /* enter path-draw mode and click three vertices */
+    await page.evaluate(() => { StudioCanvas.startPlacePath(SBModules.get('sb-trace').meta.studio.drawables[0]); });
+    const dpts = [{ x: 600, y: 400 }, { x: 800, y: 500 }, { x: 1000, y: 400 }];
+    for (const dp of dpts) {
+      const sp = await page.evaluate((d) => {
+        const st = document.querySelector('.stu-stage'); const r = st.getBoundingClientRect();
+        const s = parseFloat(getComputedStyle(st).transform.split('(')[1]);
+        return { x: r.left + d.x * s, y: r.top + d.y * s };
+      }, dp);
+      await page.mouse.click(sp.x, sp.y);
+      await new Promise(r => setTimeout(r, 120));
+    }
+    await page.evaluate(() => StudioCanvas.finishPlace());
+    await new Promise(r => setTimeout(r, 200));
+    const built = await page.evaluate(() => {
+      const inter = Studio.page().interaction;
+      return { n: (inter.taskData.path || []).length, path: inter.taskData.path, zone: inter.zone };
+    });
+    assert(built.n === 3, 'm8: path editor built a 3-point path (got ' + built.n + ')');
+    const abs0 = { x: built.zone.x + built.path[0].x, y: built.zone.y + built.path[0].y };
+    /* move the zone +200,-40 and assert the path re-encodes (rel changes, abs holds) */
+    await page.evaluate(() => {
+      Studio.mutate('test zone move (path)', function (draft) {
+        const inter = draft.story.pages[Studio.state.pageIndex].interaction;
+        const oldZone = JSON.parse(JSON.stringify(inter.zone));
+        inter.zone = { x: oldZone.x + 200, y: oldZone.y - 40, w: oldZone.w, h: oldZone.h };
+        Studio.reencodeZoneChildren(inter, oldZone, inter.zone);
+      });
+    });
+    const aft = await page.evaluate(() => { const inter = Studio.page().interaction; return { path: inter.taskData.path, zone: inter.zone }; });
+    const absA = { x: aft.zone.x + aft.path[0].x, y: aft.zone.y + aft.path[0].y };
+    assert(aft.path[0].x !== built.path[0].x, 'm8: path vertex zone-relative re-encoded on zone move (' + built.path[0].x + ' → ' + aft.path[0].x + ')');
+    assert(Math.abs(absA.x - abs0.x) < 2 && Math.abs(absA.y - abs0.y) < 2, 'm8: path vertex ABSOLUTE position unchanged (' + abs0.x + ',' + abs0.y + ')');
+    await page.screenshot({ path: path.join(REPO, 'docs', 'audit-results', 'storybook', 'studio-m8-path.png') });
   }
 
   return finish(browser);

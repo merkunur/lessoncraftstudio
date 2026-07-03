@@ -72,7 +72,7 @@
         label: 'Trace the path', group: 'Write & trace', icon: '✏️',
         blurb: 'A line/letter/shape the child follows with a finger — wide, forgiving band.',
         defaults: { path: [{ x: 120, y: 240 }, { x: 360, y: 240 }], glyph: '', word: '' },
-        drawables: [{ kind: 'path', bind: 'path', authorable: 'data', minPoints: 2, addLabel: 'Draw the path' }],
+        drawables: [{ kind: 'path', bind: 'path', authorable: 'studio', minPoints: 2, addLabel: 'Draw the path' }],
         fields: [
           { key: 'glyph', kind: 'text', label: 'Label (optional)', optional: true },
           { key: 'word', kind: 'stringRef', label: 'Spoken word', keyHint: 'word', optional: true }

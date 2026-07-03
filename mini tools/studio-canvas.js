@@ -65,6 +65,14 @@
 
   function snap(v, alt) { return alt ? Math.round(v) : Math.round(v / SNAP) * SNAP; }
   function el(tag, cls) { var d = doc.createElement(tag); if (cls) d.className = cls; return d; }
+  var SVGNS = 'http://www.w3.org/2000/svg';
+  function svgEl(tag, attrs) { var e = doc.createElementNS(SVGNS, tag); if (attrs) for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
+  /* a stage-covering SVG overlay in DU coords (pointer-events off so clicks reach the zone) */
+  function overlaySvg(cls) {
+    var s = svgEl('svg', { class: cls, viewBox: '0 0 ' + DESIGN_W + ' ' + DESIGN_H, width: DESIGN_W, height: DESIGN_H });
+    s.style.position = 'absolute'; s.style.left = '0'; s.style.top = '0'; s.style.pointerEvents = 'none'; s.style.overflow = 'visible';
+    return s;
+  }
 
   /* ---------------- rendering ---------------- */
   function fit() {
@@ -229,7 +237,47 @@
           stage.appendChild(pEl);
         }
       });
+      /* sb-trace path — a dashed centreline + numbered vertex dots (start = coral) */
+      if (dr.kind === 'path') {
+        var pathArr = inter.taskData[dr.bind] || [];
+        if (pathArr.length) {
+          var svgP = overlaySvg('stu-dpath');
+          var absPts = pathArr.map(function (p) { return global.Studio.toAbsPt(z, p); });
+          var d = ''; absPts.forEach(function (p, k) { d += (k ? 'L' : 'M') + p.x + ',' + p.y + ' '; });
+          svgP.appendChild(svgEl('path', { d: d.trim(), fill: 'none', stroke: '#146B5E', 'stroke-width': 10, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'stroke-dasharray': '4 20' }));
+          absPts.forEach(function (p, k) { svgP.appendChild(svgEl('circle', { cx: p.x, cy: p.y, r: 15, fill: k === 0 ? '#F2784B' : '#146B5E', stroke: '#fff', 'stroke-width': 3 })); });
+          stage.appendChild(svgP);
+        }
+      }
+      /* sb-maze walls (+ start/end/solution if present) */
+      if (dr.kind === 'maze') {
+        var td = inter.taskData; var wallArr = td[dr.bind] || [];
+        var svgM = overlaySvg('stu-dmaze');
+        wallArr.forEach(function (w) { var a = global.Studio.toAbsPt(z, { x: w.x1, y: w.y1 }), b = global.Studio.toAbsPt(z, { x: w.x2, y: w.y2 }); svgM.appendChild(svgEl('line', { x1: a.x, y1: a.y, x2: b.x, y2: b.y, stroke: '#8a6a4a', 'stroke-width': 16, 'stroke-linecap': 'round' })); });
+        if (td.solution && td.solution.length) { var sp = td.solution.map(function (p) { return global.Studio.toAbsPt(z, p); }); var sd = ''; sp.forEach(function (p, k) { sd += (k ? 'L' : 'M') + p.x + ',' + p.y + ' '; }); svgM.appendChild(svgEl('path', { d: sd.trim(), fill: 'none', stroke: 'rgba(20,107,94,.35)', 'stroke-width': 8, 'stroke-dasharray': '12 12' })); }
+        if (td.start) { var sa = global.Studio.toAbsPt(z, td.start); svgM.appendChild(svgEl('circle', { cx: sa.x, cy: sa.y, r: 16, fill: '#146B5E' })); }
+        if (td.end) { var ea = global.Studio.toAbsPt(z, td.end); svgM.appendChild(svgEl('circle', { cx: ea.x, cy: ea.y, r: 20, fill: 'none', stroke: '#F2784B', 'stroke-width': 5, 'stroke-dasharray': '10 8' })); }
+        stage.appendChild(svgM);
+      }
     });
+    renderPlacing(z);
+  }
+
+  /* the in-progress path vertices / pending maze-wall endpoint while placing */
+  function renderPlacing(z) {
+    if (!placeMode || (placeMode.kind !== 'path' && placeMode.kind !== 'maze')) return;
+    var s = overlaySvg('stu-placing-ov');
+    if (placeMode.kind === 'path') {
+      var pts = placeMode.pts || [];
+      if (pts.length) {
+        var d = ''; pts.forEach(function (p, k) { d += (k ? 'L' : 'M') + p.x + ',' + p.y + ' '; });
+        s.appendChild(svgEl('path', { d: d.trim(), fill: 'none', stroke: '#F2784B', 'stroke-width': 8, 'stroke-linecap': 'round', 'stroke-dasharray': '6 10' }));
+        pts.forEach(function (p, k) { s.appendChild(svgEl('circle', { cx: p.x, cy: p.y, r: 13, fill: k === 0 ? '#F2784B' : '#146B5E', stroke: '#fff', 'stroke-width': 3 })); });
+      }
+    } else if (placeMode.kind === 'maze' && placeMode.pending) {
+      s.appendChild(svgEl('circle', { cx: placeMode.pending.x, cy: placeMode.pending.y, r: 13, fill: '#F2784B', stroke: '#fff', 'stroke-width': 3 }));
+    }
+    stage.appendChild(s);
   }
 
   function fitBadges() {
@@ -260,7 +308,11 @@
     if (!pg) return;
 
     /* place-mode click */
-    if (placeMode) { commitPlace(pt); ev.preventDefault(); return; }
+    if (placeMode) {
+      if (placeMode.kind === 'path' || placeMode.kind === 'maze') placeClick(pt);
+      else commitPlace(pt);
+      ev.preventDefault(); return;
+    }
 
     var t = ev.target;
     var role = t.dataset && t.dataset.role;
@@ -445,6 +497,52 @@
     placeMode = { kind: 'point', drawable: drawable };
     host.classList.add('stu-placing');
   }
+  /* multi-click PATH builder (sb-trace): each click adds a vertex; double-click or
+     "Finish" commits taskData[bind] = [{x,y}...]; Escape cancels. */
+  function startPlacePath(drawable) {
+    placeMode = { kind: 'path', drawable: drawable, pts: [] };
+    host.classList.add('stu-placing');
+    render();
+  }
+  /* MAZE wall drawer (sb-maze): click A then B adds a wall {x1,y1,x2,y2}; repeat;
+     Escape/Finish exits. start/end/solution stay in the raw-JSON panel. */
+  function startPlaceMaze(drawable) {
+    placeMode = { kind: 'maze', drawable: drawable, pending: null };
+    host.classList.add('stu-placing');
+    render();
+  }
+  /* accumulate a click in path/maze mode (called from onPointerDown) */
+  function placeClick(pt) {
+    var pg = pageObj(); if (!pg) return;
+    var sp = { x: snap(pt.x), y: snap(pt.y) };
+    if (placeMode.kind === 'path') { placeMode.pts.push(sp); render(); return; }
+    if (placeMode.kind === 'maze') {
+      if (!placeMode.pending) { placeMode.pending = sp; render(); return; }
+      var a = placeMode.pending, b = sp; placeMode.pending = null;
+      global.Studio.mutate('add wall', function (draft) {
+        var inter = draft.story.pages[S().pageIndex].interaction; var z = inter.zone;
+        var ra = global.Studio.toZoneRelPt(z, a), rb = global.Studio.toZoneRelPt(z, b);
+        inter.taskData[placeMode.drawable.bind] = inter.taskData[placeMode.drawable.bind] || [];
+        inter.taskData[placeMode.drawable.bind].push({ x1: ra.x, y1: ra.y, x2: rb.x, y2: rb.y });
+      });
+      render();
+    }
+  }
+  /* commit a path being built (double-click / Finish). Needs >= 2 points. */
+  function finishPlace() {
+    if (!placeMode) return;
+    if (placeMode.kind === 'path') {
+      var pts = placeMode.pts || [];
+      if (pts.length < 2) { cancelPlace(); render(); return; }
+      var bind = placeMode.drawable.bind;
+      cancelPlace();
+      global.Studio.mutate('draw path', function (draft) {
+        var inter = draft.story.pages[S().pageIndex].interaction; var z = inter.zone;
+        inter.taskData[bind] = pts.map(function (p) { return global.Studio.toZoneRelPt(z, p); });
+      });
+      render();
+    } else { cancelPlace(); render(); }   /* maze: Finish just exits */
+  }
   function cancelPlace() { placeMode = null; host.classList.remove('stu-placing'); }
 
   function commitPlace(pt) {
@@ -515,6 +613,11 @@
   function onKeyDown(ev) {
     var tag = (doc.activeElement && doc.activeElement.tagName) || '';
     if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+    /* while drawing a path/maze: Enter/Escape finish/cancel (works with no selection) */
+    if (placeMode && (placeMode.kind === 'path' || placeMode.kind === 'maze')) {
+      if (ev.key === 'Enter') { ev.preventDefault(); finishPlace(); return; }
+      if (ev.key === 'Escape') { ev.preventDefault(); cancelPlace(); render(); return; }
+    }
     if ((ev.ctrlKey || ev.metaKey) && ev.key.toLowerCase() === 'z') {
       ev.preventDefault();
       if (ev.shiftKey) global.Studio.redo(); else global.Studio.undo();
@@ -575,6 +678,7 @@
     stage.addEventListener('pointerdown', onPointerDown);
     stage.addEventListener('pointermove', onPointerMove);
     stage.addEventListener('pointerup', onPointerUp);
+    stage.addEventListener('dblclick', function (ev) { if (placeMode && placeMode.kind === 'path') { ev.preventDefault(); finishPlace(); } });
     doc.addEventListener('keydown', onKeyDown);
     global.addEventListener('resize', fit);
     global.Studio.on(function (ev) {
@@ -606,6 +710,9 @@
     startPlaceCharacter: startPlaceCharacter,
     startPlaceRect: startPlaceRect,
     startPlacePoint: startPlacePoint,
+    startPlacePath: startPlacePath,
+    startPlaceMaze: startPlaceMaze,
+    finishPlace: finishPlace,
     cancelPlace: cancelPlace,
     loadedAtlases: loadedAtlases
   };

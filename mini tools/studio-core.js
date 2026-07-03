@@ -225,9 +225,30 @@
             clamped.push(dr.bind + '[' + i + ']');
           }
           item.x = Math.round(relP.x); item.y = Math.round(relP.y);
+        } else if (dr.kind === 'path' && item && typeof item.x === 'number') {
+          /* sb-trace path vertex — keep it fixed in ABSOLUTE space on a zone move */
+          var relV = toZoneRelPt(newZone, toAbsPt(oldZone, item));
+          item.x = Math.round(Math.max(0, Math.min(relV.x, newZone.w)));
+          item.y = Math.round(Math.max(0, Math.min(relV.y, newZone.h)));
+        } else if (dr.kind === 'maze' && item && typeof item.x1 === 'number') {
+          /* sb-maze wall — re-encode both endpoints (abs-fixed) */
+          var a1 = toZoneRelPt(newZone, toAbsPt(oldZone, { x: item.x1, y: item.y1 }));
+          var b1 = toZoneRelPt(newZone, toAbsPt(oldZone, { x: item.x2, y: item.y2 }));
+          item.x1 = Math.round(a1.x); item.y1 = Math.round(a1.y);
+          item.x2 = Math.round(b1.x); item.y2 = Math.round(b1.y);
         }
       });
     });
+    /* sb-maze start/end/solution live outside a drawable-bound array — re-encode too */
+    if (studio.drawables.some(function (dr) { return dr.kind === 'maze'; })) {
+      ['start', 'end'].forEach(function (k) {
+        var p = inter.taskData[k];
+        if (p && typeof p.x === 'number') { var r = toZoneRelPt(newZone, toAbsPt(oldZone, p)); inter.taskData[k] = { x: Math.round(r.x), y: Math.round(r.y) }; }
+      });
+      if (Array.isArray(inter.taskData.solution)) {
+        inter.taskData.solution = inter.taskData.solution.map(function (p) { var r = toZoneRelPt(newZone, toAbsPt(oldZone, p)); return { x: Math.round(r.x), y: Math.round(r.y) }; });
+      }
+    }
     return clamped;
   }
 

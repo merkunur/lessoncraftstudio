@@ -199,6 +199,24 @@ Bespoke editors (`studio.pattern`, `studio.spotDiff`) exist for the two
 modules whose stored shape is a normalized encoding — they get hand-built
 inspector widgets instead of generated fields.
 
+**Drawable-kind editors (what the operator can DRAW vs must type).** Every
+drawable declares `kind` + `authorable`. The canvas has a visual editor for
+`rect` / `point` / `path` / `maze`; anything else is raw-JSON. On a zone move,
+`reencodeZoneChildren` keeps ALL four kinds fixed in absolute space.
+
+| kind | Editor | Draw gesture | Used by |
+|---|---|---|---|
+| `rect` | click to drop a box | single click + drag-resize | color-code, choice-board, find-object |
+| `point` | click to drop a dot | single click | dot-stamp, shape-fit, complete-picture, listen-place |
+| `path` | multi-click polyline | click each vertex → **double-click / Enter** to finish | **sb-trace** |
+| `maze` | wall drawer | click A → click B per wall → **Enter** when done | **sb-maze** (walls) |
+
+**Report — what still needs raw JSON:** every PK module's PRIMARY geometry is
+now Studio-drawable. The only remainder is **sb-maze's `start` / `end` /
+`solution`** (route scalars): draw the walls visually, then set those three in
+the Advanced (raw settings) panel. (A future `region` kind + a maze start/end/
+route picker are the next Studio increments.)
+
 ## 5. Writing a NEW interaction module (copy-the-pattern)
 
 Register into the socket (`mini tools/storybook-interaction.js` header

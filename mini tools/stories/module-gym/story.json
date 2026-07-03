@@ -357,6 +357,25 @@
         }
       },
       "success": { "celebration": "burst", "holdMs": 1200 }
+    },
+    {
+      "id": "g19",
+      "scene": { "image": "scene.meadow" },
+      "characters": [{ "characterId": "pip", "pose": "point", "anchor": { "x": 200, "y": 895 }, "scale": 0.75, "flip": false }],
+      "narration": { "gate": "end", "cues": [{ "id": "g19-l01", "characterId": "pip" }] },
+      "interaction": {
+        "moduleType": "sb-shape-fit",
+        "zone": { "x": 400, "y": 150, "w": 800, "h": 700 },
+        "completionMode": "auto",
+        "hintKey": "g19-hint",
+        "taskData": {
+          "slots": [
+            { "shape": "circle", "color": "#F2784B", "at": { "x": 230, "y": 240 } },
+            { "shape": "square", "color": "#146B5E", "at": { "x": 570, "y": 240 } }
+          ]
+        }
+      },
+      "success": { "celebration": "burst", "holdMs": 1200 }
     }
   ]
 }

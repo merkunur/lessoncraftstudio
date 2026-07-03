@@ -1,0 +1,13 @@
+{
+  "story.title":   { "en": "Fit with Pip" },
+  "cast.pip.name": { "en": "Pip" },
+
+  "d01-l01":  { "en": "Drag each shape to its hole!" },
+  "d01-hint": { "en": "The round piece goes in the round hole." },
+
+  "d02-l01":  { "en": "Slide the shapes home!" },
+  "d02-hint": { "en": "Match the pointy one to the pointy hole." },
+
+  "d03-l01":  { "en": "Fit all three shapes!" },
+  "d03-hint": { "en": "Circle, square, and star each have a hole." }
+}

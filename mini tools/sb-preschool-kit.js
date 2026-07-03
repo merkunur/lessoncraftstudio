@@ -149,6 +149,42 @@
     return { cancel: cleanup };
   }
 
+  /* ---- 2-D drag lifecycle (pointer capture; mouse+touch parity) ----
+     A thin, coordinate-agnostic wrapper (the module does its own viewBox/px math
+     in the callbacks). Born for sb-shape-fit; reused by every PK drag module.
+     opts: { canStart(ev)?:bool, onStart(ev), onMove(ev), onEnd(ev) }.
+     A mid-drag pointercancel is treated as an onEnd (release where we are) so a
+     lifted finger never leaves a piece stuck. Returns { destroy }. ---- */
+  function drag2d(handleEl, opts) {
+    opts = opts || {};
+    var dragging = false, id = null;
+    function down(ev) {
+      if (opts.canStart && !opts.canStart(ev)) return;
+      dragging = true; id = ev.pointerId;
+      try { handleEl.setPointerCapture(id); } catch (e) {}
+      if (ev.preventDefault) ev.preventDefault();
+      if (opts.onStart) opts.onStart(ev);
+    }
+    function move(ev) { if (dragging && ev.pointerId === id && opts.onMove) opts.onMove(ev); }
+    function end(ev) {
+      if (!dragging || ev.pointerId !== id) return;
+      dragging = false; id = null;
+      if (opts.onEnd) opts.onEnd(ev);
+    }
+    handleEl.addEventListener('pointerdown', down);
+    handleEl.addEventListener('pointermove', move);
+    handleEl.addEventListener('pointerup', end);
+    handleEl.addEventListener('pointercancel', end);
+    return {
+      destroy: function () {
+        handleEl.removeEventListener('pointerdown', down);
+        handleEl.removeEventListener('pointermove', move);
+        handleEl.removeEventListener('pointerup', end);
+        handleEl.removeEventListener('pointercancel', end);
+      }
+    };
+  }
+
   /* ---- reduced-motion helpers ---- */
   function rm(ctx) {
     return {
@@ -178,6 +214,7 @@
            nearestOnPath: nearestOnPath, pathLength: pathLength, segIntersect: segIntersect },
     equity: equity,
     ghostHand: ghostHand,
+    drag2d: drag2d,
     rm: rm,
     inflate: inflate
   };

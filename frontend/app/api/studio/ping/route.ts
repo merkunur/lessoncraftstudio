@@ -16,5 +16,6 @@ export async function GET(request: NextRequest) {
     studio: true,
     tenant: true,
     subscribed: isLcsSubscriptionActive(gate.user as any),
+    isAdmin: !!gate.user.isAdmin,
   });
 }

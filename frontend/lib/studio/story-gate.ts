@@ -27,6 +27,23 @@ export async function requireStudioSubscriber(request: NextRequest) {
   return gate;
 }
 
+/**
+ * Operator-grade endpoints (TexturePacker sheet/clips import) require an
+ * ADMIN on top of the studio gate — teachers get the curated library +
+ * single-image uploads only (operator ruling).
+ */
+export async function requireStudioAdmin(request: NextRequest) {
+  const gate = await requireStudioSubscriber(request);
+  if (gate instanceof NextResponse) return gate;
+  if (!gate.user.isAdmin) {
+    return NextResponse.json(
+      { error: 'admin_required', message: 'This is an operator feature.' },
+      { status: 403 }
+    );
+  }
+  return gate;
+}
+
 export async function getOwnedStudioStoryOrFail(storyId: string, userId: string) {
   const story = await prisma.studioStory.findFirst({
     where: { id: storyId, teacherId: userId, status: { not: 'deleted' } },

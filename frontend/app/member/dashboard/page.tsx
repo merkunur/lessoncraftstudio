@@ -207,6 +207,8 @@ export default function MemberDashboard() {
             <div className="hidden lg:flex items-center space-x-8">
               <a href="/" className="text-gray-600 hover:text-primary transition-colors">Home</a>
               <span className="text-primary font-medium border-b-2 border-primary pb-0.5">My Apps</span>
+              {/* Admin-only surface (this page is admin-gated since Pass 8) */}
+              <a href="/en/studio" className="text-gray-600 hover:text-primary transition-colors">Story Studio</a>
             </div>
 
             {/* Desktop Actions */}

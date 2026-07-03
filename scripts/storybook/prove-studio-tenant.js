@@ -160,6 +160,41 @@ async function j(method, path, { token, body, raw, form } = {}) {
     check('exercise descriptor serves via play media', desc.status === 200 && desc.data.formatVersion === 'sep-1');
   }
 
+  /* ---- 8a2. ADMIN: TexturePacker sheet + clips import (operator endpoints
+     on the tenant API — requireStudioAdmin; the admin test token passes) ---- */
+  const tinyFrame = {
+    frame: { x: 0, y: 0, w: 1, h: 1 }, rotated: false, trimmed: false,
+    spriteSourceSize: { x: 0, y: 0, w: 1, h: 1 }, sourceSize: { w: 1, h: 1 },
+  };
+  const sheetRes = await j('POST', '/api/studio/stories/' + sid + '/characters/sheet', {
+    token,
+    body: {
+      name: 'prove-char',
+      atlas: { frames: { neutral: tinyFrame, happy: tinyFrame }, meta: { size: { w: 1, h: 1 }, image: 'x.png' } },
+      imageBase64: TINY_PNG.toString('base64'),
+      imageExt: 'png',
+    },
+  });
+  check('ADMIN sheet import 200 + poses', sheetRes.status === 200 &&
+    (sheetRes.data.poses || []).includes('neutral') && String(sheetRes.data.atlasBase || '').includes('/m/cast/'),
+    'status ' + sheetRes.status + ' ' + JSON.stringify(sheetRes.data));
+  if (sheetRes.data && sheetRes.data.characterId) {
+    const atlasGet = await j('GET', sheetRes.data.atlasBase, {});
+    check('re-baked atlas serves via play media (pose_ frames)', atlasGet.status === 200 &&
+      atlasGet.data && atlasGet.data.frames && !!atlasGet.data.frames['pose_neutral']);
+    const clipsRes = await j('POST', '/api/studio/stories/' + sid + '/characters/' + sheetRes.data.characterId + '/clips', {
+      token,
+      body: {
+        atlas: { frames: { wave_0001: tinyFrame, wave_0002: tinyFrame }, meta: { size: { w: 1, h: 1 }, image: 'x.png' } },
+        imageBase64: TINY_PNG.toString('base64'),
+        imageExt: 'png',
+      },
+    });
+    check('ADMIN clips import 200 + clip names', clipsRes.status === 200 &&
+      (clipsRes.data.clips || []).includes('wave'),
+      'status ' + clipsRes.status + ' ' + JSON.stringify(clipsRes.data));
+  }
+
   /* ---- 8b. class share links (validation-gated create → play → revoke) ---- */
   const shareMake = await j('POST', '/api/studio/stories/' + sid + '/share', { token });
   check('share create 200 (blank story validates clean)', shareMake.status === 200 && shareMake.data.share,

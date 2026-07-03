@@ -765,6 +765,11 @@
               },
               announce: announce,
               reducedMotion: policy.reduced,
+              /* resolve the grade-band interaction profile from the story's grade
+                 (story.alignment.grade); absent → K-3 defaults. Frozen onto ctx.band by the host. */
+              band: (global.SB_BANDS
+                ? (global.SB_BANDS[(story && story.alignment && story.alignment.grade)] || global.SB_BANDS.defaults)
+                : null),
               track: track,
               debug: debug,
               onSuccess: resolveSuccess

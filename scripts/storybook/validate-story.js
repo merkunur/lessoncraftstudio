@@ -87,6 +87,11 @@ function loadVocab() {
 const target = process.argv[2];
 if (!target) { console.error('Usage: validate-story.js <storyId|path> [--strict-audio]'); process.exit(1); }
 const strictAudio = process.argv.includes('--strict-audio');
+/* grade-band tolerance profile: story.alignment.grade (or --grade=PK override) → SB_BANDS[grade].
+   Threaded into each module's validateTask via v.band so PK modules can enforce band.fatal.* minimums.
+   No grade → band=null → K-3 and legacy modules unaffected (backward-compatible). */
+const gradeArg = (process.argv.find(a => a.startsWith('--grade=')) || '').split('=')[1] || null;
+let SB_BANDS = {}; try { SB_BANDS = require(path.join(MINI, 'sb-bands.js')); } catch (e) { /* pre-band repos: no bands */ }
 const storyDir = fs.existsSync(target) ? target : path.join(MINI, 'stories', target);
 const storyPath = path.join(storyDir, 'story.json');
 const stringsPath = path.join(storyDir, 'strings.json');
@@ -95,6 +100,8 @@ if (!fs.existsSync(storyPath)) { console.error('story.json not found at ' + stor
 
 let story, strings;
 try { story = JSON.parse(fs.readFileSync(storyPath, 'utf8')); } catch (e) { console.error('story.json parse: ' + e.message); process.exit(1); }
+const _grade = gradeArg || (story.alignment && story.alignment.grade) || null;
+const band = (_grade && SB_BANDS[_grade]) ? SB_BANDS[_grade] : null;
 try { strings = JSON.parse(fs.readFileSync(stringsPath, 'utf8')); } catch (e) { console.error('strings.json parse: ' + e.message); process.exit(1); }
 
 const referencedStrings = new Set();
@@ -223,6 +230,7 @@ function checkRectInDesign(r, where) {
 function makeV(pageId, zone) {
   return {
     zone: zone ? { w: zone.w, h: zone.h } : null,
+    band: band,   /* grade-band tolerance profile (null unless a PK/graded story); PK modules enforce band.fatal.* */
     error: m => err(`page ${pageId}: ${m}`),
     assetExists: id => { requireAsset(id, `page ${pageId} taskData`, null); },
     stringExists: key => { requireStringKey(key, `page ${pageId} taskData`); },

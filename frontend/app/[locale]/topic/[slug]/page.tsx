@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { notFound, redirect } from 'next/navigation';
+import { notFound, permanentRedirect, redirect } from 'next/navigation';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { renderTopicTitle } from '@/lib/seo/topic-title-format';
@@ -11,6 +11,7 @@ import {
   getAxisSlug,
   getExerciseModeName,
   listAxisKeys,
+  resolveAxisKeyAlias,
   resolveTopicSlug,
 } from '@/lib/taxonomy';
 import {
@@ -126,7 +127,13 @@ export async function generateStaticParams(): Promise<TopicParams[]> {
 async function resolveOrNotFound(params: TopicParams): Promise<TopicResolution> {
   if (!isTopicLocale(params.locale)) notFound();
   const resolved = resolveTopicSlug(params.slug, params.locale);
-  if (!resolved) notFound();
+  if (!resolved) {
+    // Axis-key alias (§22.2): /en/topic/sudoku → /en/topic/picture-sudoku etc.
+    // Raw axis KEYS reach us from old links/index residue; canonicalize with a 308.
+    const aliasSlug = resolveAxisKeyAlias(params.slug, params.locale);
+    if (aliasSlug) permanentRedirect(`/${params.locale}/topic/${aliasSlug}`);
+    notFound();
+  }
   // Confirm the axis actually has decks for this locale — guard against
   // direct hits to a slug that exists in taxonomy but has no catalog content.
   const decks = await fetchDecksForAxis(resolved.axis, resolved.axisKey, params.locale);

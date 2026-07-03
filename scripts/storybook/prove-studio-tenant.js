@@ -152,6 +152,26 @@ async function j(method, path, { token, body, raw, form } = {}) {
     check('exercise descriptor serves via play media', desc.status === 200 && desc.data.formatVersion === 'sep-1');
   }
 
+  /* ---- 8b. class share links (validation-gated create → play → revoke) ---- */
+  const shareMake = await j('POST', '/api/studio/stories/' + sid + '/share', { token });
+  check('share create 200 (blank story validates clean)', shareMake.status === 200 && shareMake.data.share,
+    'status ' + shareMake.status + ' ' + JSON.stringify(shareMake.data));
+  if (shareMake.data && shareMake.data.share) {
+    const sLink = shareMake.data.share.linkId;
+    const sPlay = await j('GET', '/api/play/' + sLink + '/story.json', {});
+    check('share link plays accountless', sPlay.status === 200);
+    const shareGet = await j('GET', '/api/studio/stories/' + sid + '/share', { token });
+    check('share GET returns the live link', shareGet.status === 200 && shareGet.data.share && shareGet.data.share.linkId === sLink);
+    const rot = await j('POST', '/api/studio/stories/' + sid + '/share', { token });
+    check('rotate yields a NEW link', rot.status === 200 && rot.data.share.linkId !== sLink);
+    const oldPlay = await j('GET', '/api/play/' + sLink + '/story.json', {});
+    check('rotated-away link is dead', oldPlay.status === 404);
+    const off = await j('DELETE', '/api/studio/stories/' + sid + '/share', { token });
+    check('stop sharing 200', off.status === 200);
+    const offPlay = await j('GET', '/api/play/' + rot.data.share.linkId + '/story.json', {});
+    check('revoked link is dead', offPlay.status === 404);
+  }
+
   /* ---- 9. auth walls ---- */
   const noTok = await j('GET', '/api/studio/stories/' + sid, {});
   check('studio API without token 401', noTok.status === 401);

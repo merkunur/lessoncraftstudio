@@ -61,7 +61,7 @@
       url = '/api/studio/stories/' + m[1];
       if (opts && opts.method === 'POST') { opts = Object.assign({}, opts, { method: 'PUT' }); }
     }
-    else if ((m = pathname.match(/^\/studio\/(scenes|audio|validate)\/([A-Za-z0-9-]+)$/))) {
+    else if ((m = pathname.match(/^\/studio\/(scenes|audio|validate|share)\/([A-Za-z0-9-]+)$/))) {
       url = '/api/studio/stories/' + m[2] + '/' + m[1];
     }
     else if ((m = pathname.match(/^\/studio\/import-image\/([A-Za-z0-9-]+)$/))) {

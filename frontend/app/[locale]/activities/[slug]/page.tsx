@@ -111,6 +111,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'choice-board.onset-rime-blend.rf-k-2-c': { de: 'Lesen – mit Texten und Medien umgehen' }, // Lautsynthese = graphem-gestuetzte Leseanbahnung (Vorstufe von #108); nicht #102 auditives „Zuhören" noch #106/#107 „untersuchen"; RF hat keinen de-Eintrag in strand-names.ts -> Override setzt den Chip
   'fraction-equiv.same-amount.3-nf-a-3': { de: 'Zahlen und Operationen' }, // KMK Mathematik Kompetenzbereich — Bruchteile = Zahlvorstellung; Number&Operations—Fractions hat keinen de-Eintrag in strand-names.ts -> Override setzt den Chip
   'daisy-plate-stack.plurals.l-k-1-c': { de: 'Sprache und Sprachgebrauch untersuchen' }, // Numerus/Pluralbildung = grammatisch-morphologisch (nicht olive „Wortschatz"=semantisch); Language hat keinen de-Eintrag in strand-names.ts -> Override setzt den Chip
+  'coin-stall.money.2-md-c-8': { de: 'Größen und Messen' }, // Geld = KMK-Standardgröße (Rechnen mit Euro und Cent); Measurement&Data hat keinen de-Eintrag in strand-names.ts -> Override setzt den Chip
   'clock-convert.12-24.2-md-c-7': { de: 'Größen und Messen' },          // Zeit ist eine Größe — KMK-Leitidee „Größen und Messen"; „Measurement & Data" auto-map is wrong
   'penny-alphabet-trace.letter-formation.l-k-1-a': { de: 'Schreiben – Schreibfertigkeiten' }, // Handwriting/letter formation = KMK „Schreiben" (über Schreibfertigkeiten verfügen), NOT Rechtschreibung („Richtig schreiben") and NOT the grammar Bereich
   'mango-animal-groups.collective-nouns.l-2-1-a': { de: 'Wortschatz untersuchen und erweitern' }, // Sammelnamen = Wortschatzarbeit, not the grammar Bereich (olive/roary/ziggy precedent); „Language" auto-map would read as „Sprache untersuchen"
@@ -427,7 +428,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.114';
+  const ACTIVITY_WRAPPER_VERSION = '9.115';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

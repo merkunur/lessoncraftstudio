@@ -15,38 +15,46 @@
 
   var Core = global.CoinStallCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A' };
+  var LANG = 'en';
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de') ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function fmt(c) { if (c == null) return ''; if (c % 100 === 0) return '$' + (c / 100); if (c < 100) return c + '¢'; return '$' + (c / 100).toFixed(2); }
+  /* Klasse-2 German money notation uses NO comma-decimal (that's Kl.3/4): "30 Cent" / "1 Euro" / "1 Euro 50 Cent". */
+  function fmt(c) {
+    if (c == null) return '';
+    if (LANG === 'de') { if (c < 100) return c + ' Cent'; var e = Math.floor(c / 100), ct = c % 100; return ct === 0 ? (e + ' Euro') : (e + ' Euro ' + ct + ' Cent'); }
+    if (c % 100 === 0) return '$' + (c / 100); if (c < 100) return c + '¢'; return '$' + (c / 100).toFixed(2);
+  }
 
   global.CoinStallActivity = {
     id: 'coin-stall-activity',
 
     strings: {
-      title: { en: "Pip's Market Stall" },
-      instruction: { en: '' },
-      prompt: { en: 'Pay Pip.' },
-      pay: { en: 'Pay Pip 🐚' },
-      sayWelcome: { en: 'Welcome to the stall! What can I get you?' },
-      sayWin: { en: 'Exact change — thank you! 🐚' },
-      sayUnder: { en: 'Not quite enough yet.' },
-      sayOver: { en: 'Take one back!' },
-      sayFewer: { en: 'That works — but use FEWER coins?' },
-      sayAgain: { en: "Hmm — let's try again." },
-      tapToRemove: { en: 'tap a coin in the tray to take it back' },
-      hintCheck: { en: 'Pick coins by what they are WORTH, then pay.' }
+      title: { en: "Pip's Market Stall", de: "Otto der Otter" },
+      instruction: { en: '', de: '' },
+      prompt: { en: 'Pay Pip.', de: "Bezahle Otto." },
+      pay: { en: 'Pay Pip 🐚', de: "Bezahlen 🪙" },
+      sayWelcome: { en: 'Welcome to the stall! What can I get you?', de: "Willkommen an meinem Marktstand! Was möchtest du bezahlen?" },
+      sayWin: { en: 'Exact change — thank you! 🐚', de: "Genau passend – danke dir!" },
+      sayUnder: { en: 'Not quite enough yet.', de: "Das reicht noch nicht ganz – leg noch etwas dazu." },
+      sayOver: { en: 'Take one back!', de: "Das ist ein bisschen zu viel – nimm eine Münze zurück!" },
+      sayFewer: { en: 'That works — but use FEWER coins?', de: "Schaffst du es auch mit weniger Münzen?" },
+      sayAgain: { en: "Hmm — let's try again.", de: "Kein Problem – probier es ruhig noch einmal!" },
+      tapToRemove: { en: 'tap a coin in the tray to take it back', de: "Tippe auf eine Münze, um sie zurückzunehmen." },
+      trayPh: { en: '🪙 tap coins below to pay', de: "🪙 Lege hier deine Münzen ab" },
+      hintCheck: { en: 'Pick coins by what they are WORTH, then pay.', de: "Wähle Münzen nach ihrem Wert und bezahle dann." }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.snap = null; this.solved = false;
       this.tray = []; this._purse = []; this.choice = null; this.msg = null; this.servedCount = 0;
@@ -75,7 +83,7 @@
       var btn = api.el('button', 'cs-coin' + (opts.cls || ''));
       btn.type = 'button'; btn.setAttribute('data-den', den);
       var val = Core.valueOf(this.round.coinSet, den);   /* the REAL value — for a11y ONLY, never on the face */
-      btn.setAttribute('aria-label', den + ', ' + val + (val === 1 ? ' cent' : ' cents'));
+      btn.setAttribute('aria-label', LANG === 'de' ? (den + ', ' + fmt(val)) : (den + ', ' + val + (val === 1 ? ' cent' : ' cents')));
       var disc = api.el('span', 'cs-disc');
       disc.style.width = px + 'px'; disc.style.height = px + 'px';
       disc.style.background = 'radial-gradient(circle at 38% 32%, #fff5, ' + info.tint + ')';
@@ -88,11 +96,11 @@
       return btn;
     },
     _goalChip: function () {
-      var r = this.round;
-      if (r.cog === 'make-amount' || r.cog === 'fewest') return 'Pay ' + fmt(r.target);
-      if (r.cog === 'change') return 'Change from ' + fmt(r.paid);
-      if (r.cog === 'two-ways') return 'Make ' + fmt(r.target);
-      if (r.cog === 'trade') return 'Trade for 1 ' + r.offer.den;
+      var r = this.round, de = (LANG === 'de');
+      if (r.cog === 'make-amount' || r.cog === 'fewest') return (de ? 'Bezahle ' : 'Pay ') + fmt(r.target);
+      if (r.cog === 'change') return (de ? 'Wechselgeld aus ' : 'Change from ') + fmt(r.paid);
+      if (r.cog === 'two-ways') return (de ? 'Mache ' : 'Make ') + fmt(r.target);
+      if (r.cog === 'trade') return de ? ('Tausche für ' + fmt(Core.valueOf(this.round.coinSet, r.offer.den) * (r.offer.count || 1))) : ('Trade for 1 ' + r.offer.den);
       return '';
     },
 
@@ -156,7 +164,7 @@
     _renderCompose: function (root) {
       var api = this.api, self = this;
       var tray = api.el('div', 'cs-tray'); tray.setAttribute('role', 'group'); tray.setAttribute('aria-label', api.t('tapToRemove'));
-      if (!this.tray.length) { var ph = api.el('span', 'cs-trayph'); ph.textContent = '🪙 tap coins below to pay'; tray.appendChild(ph); }
+      if (!this.tray.length) { var ph = api.el('span', 'cs-trayph'); ph.textContent = api.t('trayPh'); tray.appendChild(ph); }
       this.tray.forEach(function (den, idx) {
         tray.appendChild(self._coin(den, { cls: ' cs-in', onTap: function () { self._take(idx); } }));
       });
@@ -191,7 +199,8 @@
           opts.appendChild(b);
         });
       } else {   /* enough */
-        [['short', 'Not enough'], ['enough', 'Just enough'], ['over', 'Too much']].forEach(function (o) {
+        var eo = (LANG === 'de') ? [['short', 'Zu wenig'], ['enough', 'Genau genug'], ['over', 'Zu viel']] : [['short', 'Not enough'], ['enough', 'Just enough'], ['over', 'Too much']];
+        eo.forEach(function (o) {
           var b = api.el('button', 'cs-opt cs-optword'); b.type = 'button'; b.textContent = o[1];
           b.addEventListener('click', function () { self._choose(o[0]); });
           opts.appendChild(b);
@@ -293,8 +302,9 @@
         .then(function (rows) {
           var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return;
           self._activityRow = row;
-          var cs = row.params.coinSet;
-          self._pool = makeTasks(row.params.rounds.map(function (r) { var c = JSON.parse(JSON.stringify(r)); c.coinSet = cs; return c; }));
+          var cs = (row.params.coinSetL10n && row.params.coinSetL10n[LANG]) || row.params.coinSet;
+          var rds = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds;
+          self._pool = makeTasks(rds.map(function (r) { var c = JSON.parse(JSON.stringify(r)); c.coinSet = cs; return c; }));
           self._order = null;
           if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
         })

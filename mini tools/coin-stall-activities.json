@@ -88,12 +88,51 @@
           "scenario": "A pebble is 16¢. Pay exactly.",
           "purse": [ "dime", "nickel", "penny", "penny", "dime", "nickel", "quarter", "penny" ]
         }
-      ]
+      ],
+      "coinSetL10n": {
+        "de": [
+          { "den": "1c", "value": 1, "glyph": "1", "tint": "#C97B43", "diameter": 16 },
+          { "den": "2c", "value": 2, "glyph": "2", "tint": "#C97B43", "diameter": 19 },
+          { "den": "5c", "value": 5, "glyph": "5", "tint": "#B87333", "diameter": 21 },
+          { "den": "10c", "value": 10, "glyph": "10", "tint": "#D4AF37", "diameter": 20 },
+          { "den": "20c", "value": 20, "glyph": "20", "tint": "#D4AF37", "diameter": 22 },
+          { "den": "50c", "value": 50, "glyph": "50", "tint": "#C9A227", "diameter": 24 },
+          { "den": "1e", "value": 100, "glyph": "1€", "tint": "#C9CBD4", "diameter": 23 },
+          { "den": "2e", "value": 200, "glyph": "2€", "tint": "#B8B8B8", "diameter": 26 }
+        ]
+      },
+      "roundsL10n": {
+        "de": [
+          { "id": "count-euro", "cog": "count-set", "band": 1, "legendTier": "none", "scenario": "Otto zählt die Kasse. Wie viel ist das wert?", "pile": [ { "den": "10c", "count": 2 }, { "den": "1c", "count": 3 } ], "options": [ 20, 23, 25, 26 ] },
+          { "id": "make-30", "cog": "make-amount", "band": 2, "legendTier": "none", "target": 30, "scenario": "Eine Muschel kostet 30 Cent. Bezahle Otto genau.", "purse": [ "20c", "5c", "10c", "10c", "1c", "1c", "5c", "20c" ] },
+          { "id": "make-41", "cog": "make-amount", "band": 3, "legendTier": "none", "target": 41, "scenario": "Ein Krebs kostet 41 Cent. Bezahle den genauen Preis.", "purse": [ "20c", "10c", "10c", "5c", "1c", "20c", "5c", "1c" ] },
+          { "id": "fewest-35", "cog": "fewest", "band": 2, "legendTier": "none", "target": 35, "scenario": "Der Drachen kostet 35 Cent – nimm die wenigsten Münzen.", "purse": [ "20c", "10c", "10c", "5c", "1c", "20c", "5c", "1c" ] },
+          { "id": "fewest-30", "cog": "fewest", "band": 2, "legendTier": "none", "target": 30, "scenario": "Ein Apfel kostet 30 Cent – nimm so wenige Münzen wie möglich.", "purse": [ "20c", "5c", "10c", "10c", "1c", "20c", "5c", "1c" ] },
+          { "id": "change-70", "cog": "change", "band": 3, "legendTier": "none", "price": 70, "paid": 100, "scenario": "Ein Buch kostet 70 Cent. Du zahlst 1 Euro. Gib das Wechselgeld.", "purse": [ "20c", "5c", "10c", "10c", "1c", "1c", "5c", "20c" ] },
+          { "id": "change-30", "cog": "change", "band": 2, "legendTier": "none", "price": 30, "paid": 50, "scenario": "Ein Kieselstein kostet 30 Cent. Du zahlst 50 Cent. Wie viel Wechselgeld?", "purse": [ "10c", "10c", "5c", "5c", "1c", "1c", "10c", "20c" ] },
+          { "id": "enough-35", "cog": "enough", "band": 3, "legendTier": "none", "price": 35, "scenario": "Du hast diese Münzen. Der Käse kostet 35 Cent. Reicht das?", "pile": [ { "den": "20c", "count": 1 }, { "den": "10c", "count": 1 } ] },
+          { "id": "enough-40", "cog": "enough", "band": 2, "legendTier": "none", "price": 40, "scenario": "Du hast diese Münzen. Der Stern kostet 40 Cent. Reicht das?", "pile": [ { "den": "20c", "count": 2 } ] },
+          { "id": "twoways-20", "cog": "two-ways", "band": 3, "legendTier": "none", "target": 20, "scenario": "20 Cent sind ein 20-Cent-Stück. Mache 20 Cent auf eine neue Weise!", "shownSet": [ "20c" ], "purse": [ "10c", "10c", "5c", "5c", "1c", "20c", "10c", "5c" ] },
+          { "id": "twoways-30", "cog": "two-ways", "band": 2, "legendTier": "none", "target": 30, "scenario": "Otto hat 30 Cent aus drei 10-Cent-Stücken gelegt. Mache 30 Cent anders!", "shownSet": [ "10c", "10c", "10c" ], "purse": [ "20c", "5c", "10c", "1c", "20c", "5c", "10c", "5c" ] },
+          { "id": "trade-50", "cog": "trade", "band": 3, "legendTier": "none", "offer": { "den": "50c", "count": 1 }, "scenario": "Keine 50-Cent-Stücke mehr! Tausche Münzen im Wert von 50 Cent.", "purse": [ "20c", "20c", "10c", "5c", "5c", "20c", "10c", "5c" ] },
+          { "id": "trade-10", "cog": "trade", "band": 2, "legendTier": "none", "offer": { "den": "10c", "count": 1 }, "scenario": "Otto braucht Wechselgeld für ein 10-Cent-Stück. Tausche Münzen im Wert von 10 Cent!", "purse": [ "5c", "5c", "2c", "2c", "5c", "1c", "5c", "10c" ] },
+          { "id": "make-16", "cog": "make-amount", "band": 1, "legendTier": "none", "target": 16, "scenario": "Eine Nuss kostet 16 Cent. Bezahle genau.", "purse": [ "10c", "5c", "1c", "1c", "10c", "5c", "20c", "1c" ] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "pips-market-stall" },
-    "page_title": { "en": "Pip's Market Stall — Counting Coins & Making Change" },
-    "page_intro": { "en": "Pay at Pip the otter's seaside market stall! Read each word problem, then pick real coins — penny, nickel, dime, quarter — and pay the exact price, count a pile, make change, or trade coins of equal value. The catch: the value isn't written on the coin, so you have to KNOW what each one is worth. A warm Grade 2 money game (and yes — the tiny dime is worth more than the bigger nickel!), aligned to Common Core 2.MD.C.8." },
+    "slug": {
+      "en": "pips-market-stall",
+      "de": "rechnen-mit-euro-und-cent-klasse-2"
+    },
+    "page_title": {
+      "en": "Pip's Market Stall — Counting Coins & Making Change",
+      "de": "Otto der Otter: Rechnen mit Euro und Cent (Klasse 2)"
+    },
+    "page_intro": {
+      "en": "Pay at Pip the otter's seaside market stall! Read each word problem, then pick real coins — penny, nickel, dime, quarter — and pay the exact price, count a pile, make change, or trade coins of equal value. The catch: the value isn't written on the coin, so you have to KNOW what each one is worth. A warm Grade 2 money game (and yes — the tiny dime is worth more than the bigger nickel!), aligned to Common Core 2.MD.C.8.",
+      "de": "Otto der Otter hat einen kleinen Marktstand, und dein Kind darf bei ihm einkaufen. Es liest eine kurze Sachaufgabe, legt echte Euro-Münzen hin, um genau zu bezahlen, zählt Münzhaufen zusammen oder gibt Wechselgeld heraus. Alles ist kostenlos, ganz ohne Zeitdruck und ohne Punkte – dein Kind darf so lange überlegen und Münzen umlegen, wie es möchte."
+    },
     "kid_prompt_template": "coin-stall"
   }
 ]

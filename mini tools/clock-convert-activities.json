@@ -19,13 +19,16 @@
       ]
     },
     "slug": {
-      "en": "convert-12-hour-and-24-hour-time"
+      "en": "convert-12-hour-and-24-hour-time",
+      "de": "24-stunden-zeit-lesen-klasse-2"
     },
     "page_title": {
-      "en": "Sprocket's Clock — 12-Hour & 24-Hour Time Conversion (Grade 2)"
+      "en": "Sprocket's Clock — 12-Hour & 24-Hour Time Conversion (Grade 2)",
+      "de": "Kiko der Hahn – die 24-Stunden-Zeit lesen (Klasse 2)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 2 time activity: convert times between 12-hour (a.m./p.m.) and 24-hour notation. Children read a time in one way of writing it and tap the same time in the other — learning that after noon, 24-hour time keeps counting (3:00 PM is 15:00). Sprocket the rooster cheers them on. Builds on Common Core 2.MD.C.7 (telling time using a.m. and p.m.), extended to 24-hour time."
+      "en": "A free interactive Grade 2 time activity: convert times between 12-hour (a.m./p.m.) and 24-hour notation. Children read a time in one way of writing it and tap the same time in the other — learning that after noon, 24-hour time keeps counting (3:00 PM is 15:00). Sprocket the rooster cheers them on. Builds on Common Core 2.MD.C.7 (telling time using a.m. and p.m.), extended to 24-hour time.",
+      "de": "Mit Kiko dem Hahn übt dein Kind spielerisch die 24-Stunden-Zeit und lernt, Uhrzeiten umzurechnen – aus „15:00“ wird „3:00 nachmittags“. Alles ist kostenlos, wird vorgelesen und läuft ganz ohne Zeitdruck oder Punkte."
     },
     "kid_prompt_template": "clock-convert"
   }

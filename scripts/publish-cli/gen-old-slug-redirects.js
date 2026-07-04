@@ -9,6 +9,14 @@
  * whose name !== its target's `-vN`-stripped slug AND whose new slug resolves,
  * emits a 301 mapping old→new (both trailing-slash and no-slash key forms).
  *
+ * ALSO emits PDF asset redirects (printable + answer-key) for each old→new pair,
+ * so legacy English-slug PDF URLs still in Google's index / backlinks / embeds
+ * 301 to the canonical native-slug PDF instead of looping / 404ing. Two filename
+ * forms are covered per PDF: `<alias>-printable.pdf` (current slug-prefixed) and
+ * bare `printable.pdf` (pre-2026-06-20). answer-key is emitted only when the file
+ * exists on disk (many decks have none) — verify-before-point. The nginx PDF
+ * location blocks must honor `$deck_redirect` (see patch-nginx-pdf-deck-redirect.py).
+ *
  * Read-only against the catalog; writes only the two artifact files below.
  *   /opt/lessoncraftstudio/old-slug-redirects.map   (nginx `map $uri` body)
  *   /opt/lessoncraftstudio/old-slug-pairs.txt        (loc|old|new, for sampling)
@@ -31,6 +39,8 @@ const mapLines = [];
 const pairs = [];
 const perLocale = {};
 let dangling = 0;
+let pageLineCount = 0;
+let assetLineCount = 0;
 
 locales.forEach(function (loc) {
   const dir = path.join(ROOT, loc);
@@ -51,6 +61,22 @@ locales.forEach(function (loc) {
     const newUrl = HOST + '/' + loc + '/decks/' + newSlug + '/';
     mapLines.push('"/' + loc + '/decks/' + name + '/" "' + newUrl + '";');
     mapLines.push('"/' + loc + '/decks/' + name + '" "' + newUrl + '";');
+    pageLineCount += 2;
+
+    // PDF asset redirects: legacy alias PDF URLs -> canonical native PDF URLs.
+    // Both filename forms indexed over time: `<alias>-<kind>.pdf` (slug-prefixed)
+    // and bare `<kind>.pdf` (pre-2026-06-20). printable always exists; answer-key
+    // only when present on disk (verify-before-point).
+    const nativeDir = path.join(dir, newSlug);
+    ['printable', 'answer-key'].forEach(function (kind) {
+      const canonName = newSlug + '-' + kind + '.pdf';
+      if (kind === 'answer-key' && !fs.existsSync(path.join(nativeDir, canonName))) return;
+      const canonUrl = HOST + '/' + loc + '/decks/' + newSlug + '/' + canonName;
+      mapLines.push('"/' + loc + '/decks/' + name + '/' + name + '-' + kind + '.pdf" "' + canonUrl + '";');
+      mapLines.push('"/' + loc + '/decks/' + name + '/' + kind + '.pdf" "' + canonUrl + '";');
+      assetLineCount += 2;
+    });
+
     pairs.push(loc + '|' + name + '|' + newSlug);
     n++;
   });
@@ -60,5 +86,6 @@ locales.forEach(function (loc) {
 fs.writeFileSync(MAP_OUT, mapLines.join('\n') + '\n');
 fs.writeFileSync(PAIRS_OUT, pairs.join('\n') + '\n');
 console.log('per-locale old-slug count: ' + JSON.stringify(perLocale));
-console.log('total old slugs: ' + pairs.length + ' | map lines: ' + mapLines.length + ' | skipped dangling: ' + dangling);
+console.log('total old slugs: ' + pairs.length + ' | map lines: ' + mapLines.length +
+  ' (page: ' + pageLineCount + ', asset: ' + assetLineCount + ') | skipped dangling: ' + dangling);
 console.log('wrote: ' + MAP_OUT + ' , ' + PAIRS_OUT);

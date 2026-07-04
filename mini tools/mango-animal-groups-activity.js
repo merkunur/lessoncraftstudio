@@ -12,12 +12,14 @@
   'use strict';
 
   var Core = global.CollectiveNounCore;
+  var LANG = 'en';   // #103 — set in init from api.lang
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A' };
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
+  function groupPhrase(v) { return LANG === 'de' ? ('viele ' + v.plural) : ('a group of ' + v.plural); }
   function speak(word) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: 'en', rate: 0.95 }); return; }
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: LANG, rate: 0.95 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -38,19 +40,20 @@
     id: 'mango-animal-groups-activity',
 
     strings: {
-      title: { en: "Mango's Animal Groups" },
-      prompt: { en: 'What do we call a group of them?' },
-      mangoIntro: { en: 'Lots of animals together make a group — what is it called?' },
-      askTpl: { en: 'A group of {plural} is a …' },
-      theAsk: { en: 'Tap the word for the group.' },
-      hintPick: { en: 'Each animal has its own group word — tap your pick!' },
-      hintWrong: { en: "Not that one — think of the special word for this group." },
-      win: { en: 'Yes! That is the group word. 🐒' }
+      title: { en: "Mango's Animal Groups", de: 'Mango der Affe' },
+      prompt: { en: 'What do we call a group of them?', de: 'Wie heißt die Gruppe?' },
+      mangoIntro: { en: 'Lots of animals together make a group — what is it called?', de: 'Viele Tiere zusammen sind eine Gruppe – wie heißt sie?' },
+      askTpl: { en: 'A group of {plural} is a …', de: 'Wie nennt man viele {plural}?' },
+      theAsk: { en: 'Tap the word for the group.', de: 'Tipp den Sammelnamen.' },
+      hintPick: { en: 'Each animal has its own group word — tap your pick!', de: 'Jedes Tier hat sein eigenes Gruppenwort – tipp deine Wahl!' },
+      hintWrong: { en: "Not that one — think of the special word for this group.", de: 'Nicht ganz – denk an das besondere Wort für diese Gruppe.' },
+      win: { en: 'Yes! That is the group word. 🐒', de: 'Genau! Das ist der Sammelname. 🐒' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -75,9 +78,9 @@
       root.appendChild(row);
 
       var mid = api.el('div', 'mag-mid');
-      var pic = api.el('button', 'mag-pic'); pic.type = 'button'; pic.setAttribute('aria-label', 'hear ' + v.subject.noun);
+      var pic = api.el('button', 'mag-pic'); pic.type = 'button'; pic.setAttribute('aria-label', LANG === 'de' ? ('anhören: ' + v.plural) : ('hear ' + v.subject.noun));
       pic.innerHTML = '<img class="mag-img" src="' + imgUrl(v.subject) + '" alt="' + esc(v.subject.noun) + '" onerror="this.style.visibility=\'hidden\'"><span class="mag-spk">🔊</span>';
-      pic.addEventListener('click', function () { speak('a group of ' + v.plural); });
+      pic.addEventListener('click', function () { speak(groupPhrase(v)); });
       mid.appendChild(pic);
       var q = api.el('div', 'mag-q'); q.textContent = api.t('askTpl').replace('{plural}', v.plural); mid.appendChild(q);
       root.appendChild(mid);
@@ -94,7 +97,7 @@
       root.appendChild(opts);
 
       wrap.appendChild(root); stage.appendChild(wrap);
-      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak('a group of ' + v.plural); }, 320); }
+      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(groupPhrase(v)); }, 320); }
     },
 
     _tap: function (id, word) {
@@ -116,7 +119,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/mango-animal-groups-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var src = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(src.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[mango-animal-groups] manifest load failed:', e.message); });
     },
 

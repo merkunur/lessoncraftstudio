@@ -14,12 +14,24 @@
         { "id": "duck", "band": 2, "noun": "duck", "thing": "egg", "slot": 2 },
         { "id": "king", "band": 3, "noun": "king", "thing": "crown", "slot": 0 },
         { "id": "frog", "band": 3, "noun": "frog", "thing": "log", "slot": 1 }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "anna", "band": 1, "noun": "Anna", "thing": "Ball",        "slot": 0 },
+          { "id": "ben",  "band": 1, "noun": "Ben",  "thing": "Roller",      "slot": 1 },
+          { "id": "papa", "band": 1, "noun": "Papa", "thing": "Auto",        "slot": 2 },
+          { "id": "mia",  "band": 2, "noun": "Mia",  "thing": "Buch",        "slot": 0 },
+          { "id": "tom",  "band": 2, "noun": "Tom",  "thing": "Mütze",       "slot": 1 },
+          { "id": "oma",  "band": 2, "noun": "Oma",  "thing": "Brille",      "slot": 2 },
+          { "id": "lina", "band": 3, "noun": "Lina", "thing": "Schultasche", "slot": 0 },
+          { "id": "emil", "band": 3, "noun": "Emil", "thing": "Fahrrad",     "slot": 1 }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "hattie-whose-is-it" },
-    "page_title": { "en": "Hattie's Whose-Is-It — Possessive Nouns (Grade 1)" },
-    "page_intro": { "en": "Hattie the hedgehog runs the lost-and-found! When ONE owner owns something, we add an apostrophe and an s — the dog's bone. Read who owns it, then tap the word that shows ONE owner. A Grade 1 grammar game about possessive nouns, aligned to Common Core L.1.1.b." },
+    "slug": { "en": "hattie-whose-is-it", "de": "genitiv-s-bei-namen-apostroph" },
+    "page_title": { "en": "Hattie's Whose-Is-It — Possessive Nouns (Grade 1)", "de": "Genitiv-s bei Namen richtig schreiben – Annas oder Anna's?" },
+    "page_intro": { "en": "Hattie the hedgehog runs the lost-and-found! When ONE owner owns something, we add an apostrophe and an s — the dog's bone. Read who owns it, then tap the word that shows ONE owner. A Grade 1 grammar game about possessive nouns, aligned to Common Core L.1.1.b.", "de": "Kostenlos & interaktiv: Dein Kind übt in der Grundschule das Genitiv-s bei Namen – „Annas Ball“, nicht „Anna's“. Ohne Zeitdruck, ohne Punkte, zum Vorlesen." },
     "kid_prompt_template": "Tap the word that shows ONE owner owns it."
   }
 ]

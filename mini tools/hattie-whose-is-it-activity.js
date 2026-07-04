@@ -12,16 +12,29 @@
   'use strict';
 
   var Core = global.PossessiveNounCore;
+  var LANG = 'en';   // content locale; set in init from api.lang (de fan-out §A.13.54)
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', RUST: '#B0613A' };
 
+  /* German NAMEN-GENITIV wrapper (activity-layer; 0 lines to possessive-noun-core.js).
+     Correct = Name+s (Annas); foils = Name+'s (Deppenapostroph) + Name (missing -s).
+     Answer at round.slot (mirrors the core's slot logic); the render then shuffles. */
+  function deAnswer(round) { return round.noun + 's'; }
+  function deForms(round) {
+    var a = round.noun + 's', foils = [round.noun + "'s", round.noun];
+    var slot = (((round.slot || 0) % 3) + 3) % 3, out = [], fi = 0;
+    for (var i = 0; i < 3; i++) { if (i === slot) out.push(a); else out.push(foils[fi++]); }
+    return out;
+  }
+  function deChildView(round) { return { noun: round.noun, thing: round.thing, choices: deForms(round).map(function (w, i) { return { id: i, word: w }; }) }; }
+
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function hedgehogSVG() {
-    return '<svg class="hwi-hog-svg" viewBox="0 0 100 100" role="img" aria-label="Hattie the hedgehog">' +
+    return '<svg class="hwi-hog-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Hattie, der Igel' : 'Hattie the hedgehog') + '">' +
       '<path d="M22 64 q4 -26 28 -28 q24 2 28 28z" fill="#9A6B47"/>' +              /* spiky back */
       '<path d="M30 44 l-4 -10 M42 38 l-2 -11 M54 37 l2 -11 M66 42 l5 -10" stroke="#7A5238" stroke-width="3" stroke-linecap="round"/>' +
       '<ellipse cx="50" cy="64" rx="28" ry="14" fill="#E0C49E"/>' +                /* face/belly */
@@ -36,18 +49,19 @@
     id: 'hattie-whose-is-it-activity',
 
     strings: {
-      title: { en: "Hattie's Whose-Is-It" },
-      instruction: { en: 'Tap the word that shows ONE owner owns it.' },
-      prompt: { en: 'Tap the word that shows ONE owner.' },
-      hattieIntro: { en: "Add an apostrophe + s to show ONE owner: the dog's bone!" },
-      hintPick: { en: "One owner gets an apostrophe and an s — like cat's." },
-      hintWrong: { en: "Look for the apostrophe before the s (one owner = 's)." },
-      win: { en: "Yes! That shows who owns it. 🦔" }
+      title: { en: "Hattie's Whose-Is-It", de: 'Hatties Fundkiste' },
+      instruction: { en: 'Tap the word that shows ONE owner owns it.', de: 'Tippe das Wort, das zeigt, wem es gehört – Name und s, kein Apostroph.' },
+      prompt: { en: 'Tap the word that shows ONE owner.', de: 'Wem gehört es? Tippe: Name + s – kein Apostroph.' },
+      hattieIntro: { en: "Add an apostrophe + s to show ONE owner: the dog's bone!", de: 'Ein Name bekommt nur ein s – keinen Apostroph: Annas Ball!' },
+      hintPick: { en: "One owner gets an apostrophe and an s — like cat's.", de: 'Beim Namen hängst du nur ein s an – wie Annas Ball. Kein Apostroph!' },
+      hintWrong: { en: "Look for the apostrophe before the s (one owner = 's).", de: 'Beim Namen kommt NUR ein s dran – kein Apostroph.' },
+      win: { en: "Yes! That shows who owns it. 🦔", de: 'Ja! Das zeigt, wem es gehört. 🦔' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -56,7 +70,7 @@
     },
 
     setupTask: function (round) {
-      this.round = round; this.view = Core.childView(round); this.sel = null;
+      this.round = round; this.view = (LANG === 'de' ? deChildView(round) : Core.childView(round)); this.sel = null;
       this._cards = shuffle(this.view.choices.slice());
     },
 
@@ -71,8 +85,8 @@
       var say = api.el('div', 'hwi-say'); say.textContent = api.t('hattieIntro'); row.appendChild(say);
       root.appendChild(row);
 
-      var tell = api.el('div', 'hwi-tell'); tell.textContent = 'This ' + v.thing + ' belongs to the ' + v.noun + '.'; root.appendChild(tell);
-      var ask = api.el('div', 'hwi-ask'); ask.textContent = 'Whose ' + v.thing + ' is it?'; root.appendChild(ask);
+      var tell = api.el('div', 'hwi-tell'); tell.textContent = (LANG === 'de' ? ('Das gehört ' + v.noun + '.') : ('This ' + v.thing + ' belongs to the ' + v.noun + '.')); root.appendChild(tell);
+      var ask = api.el('div', 'hwi-ask'); ask.textContent = (LANG === 'de' ? ('Wessen ' + v.thing + ' ist das?') : ('Whose ' + v.thing + ' is it?')); root.appendChild(ask);
 
       var opts = api.el('div', 'hwi-opts');
       this._cards.forEach(function (o) {
@@ -93,7 +107,7 @@
       this.sel = id; this.api.sound && this.api.sound(560); speak(word); this.render();
     },
 
-    isCorrect: function () { return Core.grade(this.round, this.sel); },
+    isCorrect: function () { return (LANG === 'de' ? (this.sel != null && deForms(this.round)[this.sel] === deAnswer(this.round)) : Core.grade(this.round, this.sel)); },
     reset: function () { this.setupTask(this.round); this.render(); },
 
     nextTask: function (opts) {
@@ -107,7 +121,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/hattie-whose-is-it-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var pool = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(pool.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[hattie-whose-is-it] manifest load failed:', e.message); });
     },
 
@@ -142,7 +156,7 @@
       return {
         id: 'hattie-whose-is-it.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
-        check: function (tool) { return Core.grade(round, tool.sel); },
+        check: function (tool) { return (LANG === 'de' ? (tool.sel != null && deForms(round)[tool.sel] === deAnswer(round)) : Core.grade(round, tool.sel)); },
         hintKey: function (tool) { return tool.sel != null ? 'hintWrong' : 'hintPick'; }
       };
     });

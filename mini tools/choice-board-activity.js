@@ -188,7 +188,7 @@ var ACTIVITY_STRINGS = {
      unreliable) → the child blends → taps the picture; a same-rime distractor makes
      the onset load-bearing. Only the fan locales have a string; excluded locales never
      load this template (404 by design). */
-  promptBlend: {"en":"Blend the parts. Which picture do they make?","nl":"Plak de delen aan elkaar. Welk plaatje is het?","da":"Sæt forlyd og resten af ordet sammen. Hvilket billede passer?"},
+  promptBlend: {"en":"Blend the parts. Which picture do they make?","de":"Schleif den Anlaut und den Rest zusammen. Welches Bild ist es?","nl":"Plak de delen aan elkaar. Welk plaatje is het?","da":"Sæt forlyd og resten af ordet sammen. Hvilket billede passer?"},
   /* Batch 2 K.G.A.3 — Flat or solid (2D vs 3D) */
   promptFlatOrSolid: {
     en: 'Is this shape flat or solid?',
@@ -498,6 +498,11 @@ var ACTIVITY_STRINGS = {
   hintReadWhole: {
     en: 'Read the whole word again — letter by letter. Which picture fits?',
     de: 'Lies das ganze Wort noch einmal – Buchstabe für Buchstabe. Welches Bild passt?'
+  },
+  /* onset-rime-blend (Lautsynthese) — blend-appropriate wrong-answer hint */
+  hintBlend: {
+    en: 'Blend the first sound with the rest — which word do they make?',
+    de: 'Schleif den ersten Laut und den Reim ganz langsam zusammen – welches Wort entsteht?'
   }
 };
 
@@ -1533,7 +1538,8 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
             return ok;
           },
           hintKey: function (tool) {
-            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+            /* blend-appropriate hints (not the generic „shape" ones) */
+            return tool.answer == null ? 'hintPickPicture' : 'hintBlend';
           }
         };
       });

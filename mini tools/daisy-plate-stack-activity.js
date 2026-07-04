@@ -14,13 +14,14 @@
 
   var Core = global.PluralNounCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A' };
+  var LANG = 'en';
 
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de') ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function sayable(s) { return String(s || '').replace(/___/g, 'more than one'); }
+  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'mehr als eins' : 'more than one'); }
 
   function duckSVG(mood) {
     var happy = mood === 'happy';
@@ -39,18 +40,19 @@
     id: 'daisy-plate-stack-activity',
 
     strings: {
-      title: { en: "Daisy's Plate Stack" },
-      prompt: { en: 'Which word means more than one?' },
-      duckIntro: { en: 'More than one, please! Which word is right?' },
-      theAsk: { en: 'Tap the word that means more than one.' },
-      hintPick: { en: 'Tap the word that means more than one!' },
-      hintWrong: { en: "Not quite — does it add s or es? Read it again." },
-      win: { en: 'Yes! That word means more than one. 🍽️' }
+      title: { en: "Daisy's Plate Stack", de: "Ella die Ente" },
+      prompt: { en: 'Which word means more than one?', de: "Welches Wort ist die Mehrzahl?" },
+      duckIntro: { en: 'More than one, please! Which word is right?', de: "Mehr als eins, bitte! Welches Wort ist richtig?" },
+      theAsk: { en: 'Tap the word that means more than one.', de: "Tippe das Wort für die Mehrzahl." },
+      hintPick: { en: 'Tap the word that means more than one!', de: "Tippe die Mehrzahl an!" },
+      hintWrong: { en: "Not quite — does it add s or es? Read it again.", de: "Wir wollen mehr als eins. Welches Wort ist die Mehrzahl?" },
+      win: { en: 'Yes! That word means more than one. 🍽️', de: "Klasse! Genau die Mehrzahl — quak! 🦆" }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._chips = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -59,7 +61,11 @@
     },
 
     setupTask: function (round) {
-      this.round = round; this.view = Core.childView(round); this.sel = null; this._spoke = false;
+      this.round = round;
+      /* de rounds carry explicit {sentence, chips, answer} (German plural can't
+         be rule-derived); en uses the core's +s/+es childView. */
+      this.view = (LANG === 'de' && round.chips) ? { id: round.id, sentence: round.sentence, chips: round.chips.slice() } : Core.childView(round);
+      this.sel = null; this._spoke = false;
       this._chips = shuffle(this.view.chips.slice());
     },
 
@@ -100,7 +106,7 @@
       this.sel = w; this.api.sound && this.api.sound(540); speak(w); this.render();
     },
 
-    isCorrect: function () { return this.sel != null && Core.isAnswer(this.round, this.sel); },
+    isCorrect: function () { return this.sel != null && ((LANG === 'de' && this.round.answer) ? (this.sel === this.round.answer) : Core.isAnswer(this.round, this.sel)); },
     reset: function () { this.setupTask(this.round); this.render(); },
 
     nextTask: function (opts) {
@@ -114,7 +120,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/daisy-plate-stack-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds).map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[daisy-plate-stack] manifest load failed:', e.message); });
     },
 

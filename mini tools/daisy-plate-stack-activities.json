@@ -15,12 +15,35 @@
         { "id": "spoon", "band": 3, "sentence": "Set out five ___.",       "noun": "spoon" },
         { "id": "apple", "band": 3, "sentence": "I want three ___.",       "noun": "apple" },
         { "id": "peach", "band": 3, "sentence": "I'll take four ___.",     "noun": "peach" }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "tasse", "band": 1, "sentence": "Ich möchte zwei ___.",           "chips": ["Tassen", "Tasses", "Tasse"], "answer": "Tassen" },
+          { "id": "hund",  "band": 1, "sentence": "Auf der Wiese laufen drei ___.",  "chips": ["Hunde", "Hunds", "Hund"],    "answer": "Hunde" },
+          { "id": "tisch", "band": 1, "sentence": "In der Klasse stehen vier ___.",  "chips": ["Tische", "Tischs", "Tisch"], "answer": "Tische" },
+          { "id": "blume", "band": 1, "sentence": "Sie pflückt fünf ___.",           "chips": ["Blumen", "Blumes", "Blume"], "answer": "Blumen" },
+          { "id": "gabel", "band": 2, "sentence": "Zum Essen brauchen wir drei ___.","chips": ["Gabeln", "Gabels", "Gabel"], "answer": "Gabeln" },
+          { "id": "auto",  "band": 2, "sentence": "Vor dem Haus parken zwei ___.",   "chips": ["Autos", "Autoen", "Auto"],   "answer": "Autos" },
+          { "id": "ei",    "band": 2, "sentence": "Die Henne legt vier ___.",        "chips": ["Eier", "Eien", "Ei"],        "answer": "Eier" },
+          { "id": "apfel", "band": 3, "sentence": "Im Korb liegen fünf ___.",        "chips": ["Äpfel", "Apfeln", "Apfel"],  "answer": "Äpfel" },
+          { "id": "ball",  "band": 3, "sentence": "Im Sportraum liegen vier ___.",   "chips": ["Bälle", "Balle", "Ball"],    "answer": "Bälle" },
+          { "id": "buch",  "band": 3, "sentence": "Auf dem Tisch liegen zwei ___.",  "chips": ["Bücher", "Bucher", "Buch"],  "answer": "Bücher" }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "daisy-plate-stack" },
-    "page_title": { "en": "Daisy's Plate Stack — More Than One (Kindergarten)" },
-    "page_intro": { "en": "Daisy the duck plates up the orders, and every order is for more than one. Read each request, then tap the word that names more than one — adding s or es the right way (cups, dishes, boxes). A warm Kindergarten language game about forming regular plural nouns, aligned to Common Core L.K.1.c." },
+    "slug": {
+      "en": "daisy-plate-stack",
+      "de": "einzahl-und-mehrzahl-klasse-2"
+    },
+    "page_title": {
+      "en": "Daisy's Plate Stack — More Than One (Kindergarten)",
+      "de": "Ella die Ente: Einzahl und Mehrzahl üben (Klasse 2)"
+    },
+    "page_intro": {
+      "en": "Daisy the duck plates up the orders, and every order is for more than one. Read each request, then tap the word that names more than one — adding s or es the right way (cups, dishes, boxes). A warm Kindergarten language game about forming regular plural nouns, aligned to Common Core L.K.1.c.",
+      "de": "Bei „Ella die Ente“ liest dein Kind einen kurzen Satz mit einer Zahl – zum Beispiel „Ich möchte zwei ___.“ – und tippt aus drei Wörtern die richtige Mehrzahl an. Dabei lernt es ganz nebenbei, dass die Mehrzahl im Deutschen nicht immer nur ein -s bekommt: aus „Tasse“ wird „Tassen“, aus „Ei“ wird „Eier“, aus „Apfel“ wird „Äpfel“. Ella serviert die Bestellungen, freut sich über jede Antwort – und das Ganze ist kostenlos, ohne Zeitdruck und ohne Punkte."
+    },
     "kid_prompt_template": "daisy-plate-stack"
   }
 ]

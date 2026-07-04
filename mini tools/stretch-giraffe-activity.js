@@ -15,12 +15,15 @@
 
   var Core = global.VowelLengthCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A' };
+  var LANG = 'en';
+  /* per-locale display word (German rounds carry `word`; EN falls back to the image key). */
+  function wordOf(o) { return (LANG === 'de' && o && o.word) ? o.word : (o && o.noun); }
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
   function speak(word) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = (LANG === 'de') ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -40,19 +43,22 @@
     id: 'stretch-giraffe-activity',
 
     strings: {
-      title: { en: "Stretch the Giraffe" },
-      prompt: { en: 'Find the vowel sound!' },
-      stretchIntro: { en: 'Tap to hear. A long vowel says its NAME — like a in cake.' },
-      askLong: { en: 'Tap the word with a LONG vowel sound.' },
-      askShort: { en: 'Tap the word with a SHORT vowel sound.' },
-      hintPick: { en: 'Tap a picture, then tap Check!' },
+      title: { en: "Stretch the Giraffe", de: "Gina die Giraffe" },
+      prompt: { en: 'Find the vowel sound!', de: "Hör genau auf den Vokal!" },
+      stretchIntro: { en: 'Tap to hear. A long vowel says its NAME — like a in cake.', de: "Ein langer Vokal klingt gedehnt – wie das o in Boot." },
+      askLong: { en: 'Tap the word with a LONG vowel sound.', de: "Tippe das Wort mit dem langen Vokal." },
+      askShort: { en: 'Tap the word with a SHORT vowel sound.', de: "Tippe das Wort mit dem kurzen Vokal." },
+      hintPick: { en: 'Tap a picture, then tap Check!', de: "Tippe ein Bild an und dann auf Prüfen." },
       hintWrong: { en: "Not quite — say each word slowly and listen to the vowel." },
-      win: { en: 'Yes! You heard the vowel. 🦒' }
+      hintWrongLong: { en: "Not quite — listen again: which vowel can you s-t-r-e-t-c-h out?", de: "Fast! Hör noch einmal genau hin: Welchen Vokal kann man ganz lang ziehen – wie Ginas Hals? Tippe ihn an." },
+      hintWrongShort: { en: "Not quite — listen again: which word has a short, quick vowel?", de: "Fast! Hör noch einmal genau hin: Bei welchem Wort ist der Vokal ganz kurz und schnell? Probier es noch einmal." },
+      win: { en: 'Yes! You heard the vowel. 🦒', de: "Super gehört! Deine Ohren sind so fein wie Ginas langer Hals. 🦒" }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -62,6 +68,7 @@
 
     setupTask: function (round) {
       this.round = round; this.view = Core.childView(round); this.sel = null; this._spoke = false;
+      this.view.choices.forEach(function (c) { c.word = round.choices[c.id] && round.choices[c.id].word; });
       this._cards = shuffle(this.view.choices.slice());
     },
 
@@ -81,15 +88,15 @@
 
       var opts = api.el('div', 'stg-opts');
       this._cards.forEach(function (o) {
-        var b = api.el('button', 'stg-tile stg-opt' + (self.sel === o.id ? ' stg-sel' : '')); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', o.noun);
-        b.innerHTML = '<img class="stg-img" src="' + imgUrl(o) + '" alt="' + esc(o.noun) + '" onerror="this.style.visibility=\'hidden\'"><span class="stg-word">' + esc(o.noun) + '</span>';
-        b.addEventListener('click', function () { self._tap(o.id, o.noun); });
+        var b = api.el('button', 'stg-tile stg-opt' + (self.sel === o.id ? ' stg-sel' : '')); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', wordOf(o));
+        b.innerHTML = '<img class="stg-img" src="' + imgUrl(o) + '" alt="' + esc(wordOf(o)) + '" onerror="this.style.visibility=\'hidden\'"><span class="stg-word">' + esc(wordOf(o)) + '</span>';
+        b.addEventListener('click', function () { self._tap(o.id, wordOf(o)); });
         opts.appendChild(b);
       });
       root.appendChild(opts);
 
       wrap.appendChild(root); stage.appendChild(wrap);
-      if (!this._spoke) { this._spoke = true; setTimeout(function () { self._cards.forEach(function (o, i) { setTimeout(function () { speak(o.noun); }, i * 700); }); }, 320); }
+      if (!this._spoke) { this._spoke = true; setTimeout(function () { self._cards.forEach(function (o, i) { setTimeout(function () { speak(wordOf(o)); }, i * 700); }); }, 320); }
     },
 
     _tap: function (id, noun) {
@@ -111,7 +118,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/stretch-giraffe-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds).map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[stretch-giraffe] manifest load failed:', e.message); });
     },
 
@@ -147,7 +154,7 @@
         id: 'stretch-giraffe.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
         check: function (tool) { return Core.grade(round, tool.sel); },
-        hintKey: function (tool) { return tool.sel != null ? 'hintWrong' : 'hintPick'; }
+        hintKey: function (tool) { return tool.sel != null ? (round.ask === 'long' ? 'hintWrongLong' : 'hintWrongShort') : 'hintPick'; }
       };
     });
   }

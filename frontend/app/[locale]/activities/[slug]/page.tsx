@@ -101,6 +101,7 @@ function effGrade(row: ActivityRow, locale: string): string {
    teaches/targetDescription); related-activity matching keeps the raw alignment.strand. */
 const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'sound-boxes.phoneme-position.rf-k-2-d': { de: 'Sprache und Sprachgebrauch untersuchen' }, // Lautanalyse = metalinguistische Analyse der Lautstruktur (KMK); distinct from #102 Reime „Sprechen und Zuhören" (holistic listening)
+  'stretch-giraffe.long-short-vowel.rf-1-2-a': { de: 'Sprache und Sprachgebrauch untersuchen' }, // Vokallaenge = analytische Isolation+Klassifikation des betonten Selbstlauts nach dem Merkmal Quantitaet (metasprachlich, wie #106); NOT #102 „Sprechen und Zuhören"; RF hat keinen de-Eintrag in strand-names.ts -> Override setzt den Chip
   'clock-convert.12-24.2-md-c-7': { de: 'Größen und Messen' },          // Zeit ist eine Größe — KMK-Leitidee „Größen und Messen"; „Measurement & Data" auto-map is wrong
   'penny-alphabet-trace.letter-formation.l-k-1-a': { de: 'Schreiben – Schreibfertigkeiten' }, // Handwriting/letter formation = KMK „Schreiben" (über Schreibfertigkeiten verfügen), NOT Rechtschreibung („Richtig schreiben") and NOT the grammar Bereich
   'mango-animal-groups.collective-nouns.l-2-1-a': { de: 'Wortschatz untersuchen und erweitern' }, // Sammelnamen = Wortschatzarbeit, not the grammar Bereich (olive/roary/ziggy precedent); „Language" auto-map would read as „Sprache untersuchen"
@@ -417,7 +418,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.109';
+  const ACTIVITY_WRAPPER_VERSION = '9.110';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

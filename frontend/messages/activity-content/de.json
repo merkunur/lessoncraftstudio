@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "sound-boxes.phoneme-position.rf-k-2-d": {
+      "about": [
+        "Coco der Koala hat große runde Ohren – und die braucht er, denn hier geht es ums Zuhören. Coco spricht ein kurzes Wort, zum Beispiel „Fisch“, und eines der drei kleinen Kästchen leuchtet auf: diesmal das erste, für den Anlaut /f/. Nun sucht dein Kind aus den Bildern jenes aus, das mit demselben Laut beginnt – „Fuß“ – und tippt es an. Mal ist der erste Laut gefragt, mal der mittlere, mal der letzte.",
+        "Einzelne Laute aus einem Wort herauszuhören – den Anlaut, den Inlaut in der Mitte und den Auslaut am Ende – ist eine der wichtigsten Grundlagen fürs spätere Lesen und Schreiben. Genau das übt dieses Spiel: die phonologische Bewusstheit. Wichtig dabei ist, dass es um den Klang geht, nicht um die Schrift. Die Kästchen bleiben leer; kein Buchstabe hilft. Es zählt allein, was dein Kind hört.",
+        "Das Spiel passt zur phonologischen Bewusstheit in Klasse 1 und lässt sich schon davor liebevoll ausprobieren. Wenn ein Bild einmal nicht passt, sagt Coco nie „falsch“ – er hört einfach in Ruhe noch einmal mit, und dein Kind darf es gleich noch einmal versuchen. Weil alles gesprochen wird, sind Kopfhörer empfohlen: So kann dein Kind jeden Laut ganz genau erkennen."
+      ],
+      "practices": [
+        "den Anlaut heraushören",
+        "den mittleren Laut (Inlaut) hören",
+        "den Auslaut am Wortende hören",
+        "genau auf einzelne Laute achten"
+      ],
+      "howToPlay": [
+        "Hör dir das Wort gut an, das Coco vorliest.",
+        "Schau, welches Kästchen leuchtet – der erste, mittlere oder letzte Laut.",
+        "Tippe das Bild an, das an dieser Stelle denselben Laut hat."
+      ],
+      "learningGoals": [
+        "Anlaut, Inlaut und Auslaut sicher heraushören",
+        "Laute mit dem Gehör statt mit der Schrift erkennen",
+        "phonologische Bewusstheit für Lesen und Schreiben stärken"
+      ]
+    },
     "clock-convert.12-24.2-md-c-7": {
       "about": [
         "Kiko der Hahn kräht nicht nur morgens – er kennt die Uhr rund um die Uhr! Dein Kind liest eine Zeit wie „15:00“ und sucht dann unter drei Karten die passende Uhrzeit mit Tageszeit: „3:00 nachmittags“. Tippt es die richtige Karte an, freut sich Kiko lautstark – ein kleines Kikeriki für jede erkannte Zeit.",

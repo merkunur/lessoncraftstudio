@@ -22,6 +22,26 @@
         "frog":  { "subject": "frog",  "glyph": "frog",  "summary": "A scared frog fixed the leak and felt safe.",     "tags": ["FIXED_IT", "SCARED_SAFE"] },
         "duck":  { "subject": "duck",  "glyph": "duck",  "summary": "A duck shared lunch. A friend helped too.",       "tags": ["SHARED", "GOT_HELP"] }
       },
+      "tagTextL10n": {
+        "de": {
+          "LOST_FOUND": "Verloren und wiedergefunden",
+          "GOT_HELP": "Ein Freund hat geholfen",
+          "TRIED_AGAIN": "Nicht aufgegeben",
+          "SHARED": "Etwas geteilt",
+          "SCARED_SAFE": "Angst, dann sicher",
+          "FIXED_IT": "Etwas repariert"
+        }
+      },
+      "storiesL10n": {
+        "de": {
+          "fox":   { "subject": "fox",   "glyph": "fox",   "summary": "Der Fuchs verlor seine Mütze, gab nicht auf und fand sie wieder.", "tags": ["LOST_FOUND", "TRIED_AGAIN"] },
+          "bunny": { "subject": "bunny", "glyph": "bunny", "summary": "Das Häschen verlor seinen Ball. Ein Freund half ihm, ihn wiederzufinden.", "tags": ["LOST_FOUND", "GOT_HELP"] },
+          "mouse": { "subject": "mouse", "glyph": "mouse", "summary": "Die Maus hatte Angst. Ein Freund half ihr, und sie fühlte sich sicher.", "tags": ["SCARED_SAFE", "GOT_HELP"] },
+          "bird":  { "subject": "bird",  "glyph": "bird",  "summary": "Der Vogel gab nicht auf und reparierte sein Nest.", "tags": ["TRIED_AGAIN", "FIXED_IT"] },
+          "frog":  { "subject": "frog",  "glyph": "frog",  "summary": "Der Frosch hatte Angst, reparierte das Loch und fühlte sich dann sicher.", "tags": ["FIXED_IT", "SCARED_SAFE"] },
+          "duck":  { "subject": "duck",  "glyph": "duck",  "summary": "Die Ente teilte ihr Essen. Ein Freund half ihr auch.", "tags": ["SHARED", "GOT_HELP"] }
+        }
+      },
       "rounds": [
         { "id": "tt-s1", "mode": "same", "aId": "fox",   "bId": "bunny", "cardTags": ["LOST_FOUND", "TRIED_AGAIN", "GOT_HELP"] },
         { "id": "tt-s2", "mode": "same", "aId": "fox",   "bId": "bird",  "cardTags": ["TRIED_AGAIN", "LOST_FOUND", "FIXED_IT"] },
@@ -36,13 +56,16 @@
       ]
     },
     "slug": {
-      "en": "compare-two-stories-same-different"
+      "en": "compare-two-stories-same-different",
+      "de": "zwei-geschichten-vergleichen-gleich-und-anders-klasse-2"
     },
     "page_title": {
-      "en": "Two Moons — Compare Two Stories: Same & Different (Grade 1)"
+      "en": "Two Moons — Compare Two Stories: Same & Different (Grade 1)",
+      "de": "Zwei Geschichten vergleichen: Gleich & Anders finden"
     },
     "page_intro": {
-      "en": "A free interactive Grade 1 reading activity: read two short tales with Mossbeard the Story-Keeper, then compare what happened to the characters across both stories — tap what is the SAME in both, or what happened in ONLY ONE. A friendly first look at comparing and contrasting characters' experiences across stories. Common Core RL.1.9."
+      "en": "A free interactive Grade 1 reading activity: read two short tales with Mossbeard the Story-Keeper, then compare what happened to the characters across both stories — tap what is the SAME in both, or what happened in ONLY ONE. A friendly first look at comparing and contrasting characters' experiences across stories. Common Core RL.1.9.",
+      "de": "Vergleiche zwei kurze Geschichten und erkenne, was gleich ist und was anders: kostenlos, interaktiv und ohne Zeitdruck – Lesen üben in der Grundschule."
     },
     "kid_prompt_template": "two-tales"
   }

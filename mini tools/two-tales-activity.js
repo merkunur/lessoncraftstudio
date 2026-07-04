@@ -21,6 +21,7 @@
   'use strict';
 
   var Core = global.TwoTalesCore;
+  var LANG = 'en';   // content locale; set in init from api.lang (de fan-out §A.13.54)
 
   var L = {
     en: {
@@ -30,10 +31,21 @@
       hear: '🔊 Hear both tales',
       gold: 'Gold moon', silver: 'Silver moon',
       reSame: 'Look again — read both tales. What is the SAME in both?',
-      reDiff: 'Look again — read both tales. What happened in only ONE?'
+      reDiff: 'Look again — read both tales. What happened in only ONE?',
+      choices: 'Choices:'
+    },
+    de: {
+      qSame: 'Was ist in BEIDEN Geschichten gleich?',
+      qDiff: 'Was passiert nur in EINER Geschichte?',
+      win: 'Ja! {note}', winNote: 'Du hast beide Geschichten verglichen!',
+      hear: '🔊 Beide Geschichten vorlesen',
+      gold: 'Goldene Geschichte', silver: 'Silberne Geschichte',
+      reSame: 'Schau noch einmal – lies beide Geschichten. Was ist in BEIDEN gleich?',
+      reDiff: 'Schau noch einmal – lies beide Geschichten. Was passiert nur in EINER?',
+      choices: 'Auswahl:'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   /* ---- scene-glyphs (each centered ~(18,18) in a 36 box) ----
@@ -70,13 +82,14 @@
   var TwoTalesActivity = {
     id: 'two-tales-activity',
     strings: {
-      title: { en: 'Two Moons' },
-      instruction: { en: 'Read both tales with Mossbeard, then compare what happened to the characters!' },
-      q: { en: '{q}' }
+      title: { en: 'Two Moons', de: 'Zwei Monde, zwei Geschichten' },
+      instruction: { en: 'Read both tales with Mossbeard, then compare what happened to the characters!', de: 'Lies beide Geschichten mit Moosbart und vergleiche, was den Figuren passiert!' },
+      q: { en: '{q}', de: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._stories = {}; this._tagText = {}; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._lit = -1; this._cardOrder = null;
@@ -132,8 +145,8 @@
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
             self._activityRow = row;
             self._pool = (row && row.params && row.params.rounds) || [];
-            self._stories = (row && row.params && row.params.stories) || {};
-            self._tagText = (row && row.params && row.params.tagText) || {};
+            self._stories = (row && row.params && ((row.params.storiesL10n && row.params.storiesL10n[LANG]) || row.params.stories)) || {};
+            self._tagText = (row && row.params && ((row.params.tagTextL10n && row.params.tagTextL10n[LANG]) || row.params.tagText)) || {};
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -194,7 +207,7 @@
       hear.addEventListener('click', function () {
         var a = self._stories[round.aId] || {}, b = self._stories[round.bId] || {};
         var t = txt('gold') + '. ' + (a.summary || '') + ' ' + txt('silver') + '. ' + (b.summary || '');
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: 'en', rate: 0.9 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.9 }); } catch (e) { } }
       });
       root.appendChild(hear);
 
@@ -259,7 +272,7 @@
       var self = this, wrap = el('div', 'tt-sronly'); wrap.setAttribute('aria-live', 'polite');
       var q = r.mode === 'diff' ? txt('qDiff') : txt('qSame');
       var cards = (r.cardTags || []).map(function (t) { return self._tagText[t] || t; }).join('; ');
-      wrap.innerHTML = '<p>Gold moon: ' + (a.summary || '') + ' Silver moon: ' + (b.summary || '') + ' ' + q + ' Choices: ' + cards + '.</p>';
+      wrap.innerHTML = '<p>' + txt('gold') + ': ' + (a.summary || '') + ' ' + txt('silver') + ': ' + (b.summary || '') + ' ' + q + ' ' + txt('choices') + ' ' + cards + '.</p>';
       return wrap;
     },
 

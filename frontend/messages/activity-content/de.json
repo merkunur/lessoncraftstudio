@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "two-tales.compare.rl-1-9": {
+      "about": [
+        "Zwei Monde leuchten über dem Panzer von Moosbart, dem Geschichtenhüter – einer ruhigen, moosbedeckten Schildkröte. Der goldene Mond erzählt die eine Geschichte, der silberne die andere. In der goldenen Geschichte heißt es: „Der Fuchs verlor seine Mütze, gab nicht auf und fand sie wieder.“ In der silbernen: „Das Häschen verlor seinen Ball. Ein Freund half ihm, ihn wiederzufinden.“ Zwei ganz verschiedene Figuren – und doch ist etwas gleich: Beide haben etwas verloren und wiedergefunden. Genau das übt dein Kind hier: zwei Geschichten nebeneinander lesen und erkennen, was den Figuren gleich passiert und was nur in einer Geschichte geschieht. Das gehört zum Lehrplan-Bereich „Literarische Texte verstehen“.",
+        "Bei jeder Runde stehen die goldene und die silberne Geschichte nebeneinander. In der einen Spielweise sucht dein Kind, was in beiden Geschichten gleich ist – die Gemeinsamkeit. In der anderen findet es, was nur in einer der beiden Geschichten passiert – den Unterschied. So lernt dein Kind, genau hinzuschauen, die Erlebnisse der Figuren zu vergleichen und nicht bei einem einzigen Wort hängen zu bleiben, sondern die ganze kleine Geschichte zu verstehen.",
+        "Diese Aktivität ist völlig kostenlos und ohne Zeitdruck – es gibt keine Punkte, keine Sterne und keinen Countdown. Dein Kind darf in Ruhe überlegen und so oft vergleichen, wie es möchte. Wer noch nicht sicher liest, tippt einfach auf „🔊 Beide Geschichten vorlesen“ und hört sich beide an. So ist die Übung schon in der Grundschule ab Klasse 2 gut geeignet."
+      ],
+      "practices": [
+        "Zwei kurze Geschichten in Ruhe miteinander vergleichen",
+        "Gemeinsamkeiten zweier Geschichten erkennen – was ist gleich?",
+        "Unterschiede zwischen zwei Geschichten finden – was passiert nur in einer?",
+        "Genau lesen und die Erlebnisse der Figuren aufmerksam vergleichen"
+      ],
+      "howToPlay": [
+        "Lies oder höre beide Geschichten – die goldene und die silberne – aufmerksam an.",
+        "Überlege: Was ist in beiden gleich? Oder: Was passiert nur in einer der beiden Geschichten?",
+        "Tippe auf die Karte, die das passende Erlebnis beschreibt – zum Beispiel „Verloren und wiedergefunden“."
+      ],
+      "learningGoals": [
+        "Dein Kind kann zwei Geschichten vergleichen und Gemeinsamkeiten benennen.",
+        "Dein Kind erkennt, was in nur einer der beiden Geschichten passiert.",
+        "Dein Kind liest genauer und versteht kurze literarische Texte besser."
+      ]
+    },
     "linc-fact-chain.connect.ri-k-3": {
       "about": [
         "Kettenglied für Kettenglied hakt Ketti, die neugierige Eidechse, Fakten zusammen – und dein Kind hilft ihr dabei. Ketti zeigt einen kurzen Satz, zum Beispiel „Ein Samen liegt in der Erde.“, und stellt eine Frage: Welcher Fakt gehört dazu? Aus drei Karten sucht dein Kind die eine passende heraus – hier „Aus dem Samen wächst eine Pflanze.“ – und lässt sich von unpassenden Karten wie „Der Vogel sitzt auf dem Ast.“ nicht austricksen. So lernt es, zwei Sachverhalte sinnvoll zu verknüpfen: zu erkennen, was als Nächstes geschieht (Reihenfolge) und was etwas bewirkt (Ursache und Wirkung). Das gehört zum Lehrplan-Bereich „Sachtexte verstehen“. Alles ist kostenlos, ganz ohne Zeitdruck und Punkte, und ein „📖 Vorlesen“-Knopf liest jüngeren Kindern jeden Satz vor.",

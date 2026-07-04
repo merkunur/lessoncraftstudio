@@ -21,6 +21,32 @@
 
   var Core = global.PuppetSpeakCore;
 
+  /* ---- German surface (0 lines to puppet-speak-core.js; the rounds are locale-neutral
+     enum keys, so the whole DE surface lives here in label maps + deUtter). #101. ---- */
+  var LANG = 'en';                                  // set in init from api.lang
+  var ART_DE   = { cup: 'Die', ball: 'Der', hat: 'Der', teddy: 'Der', car: 'Das', block: 'Der', blocks: 'Die', stool: 'Der' };
+  var NOUN_DE  = { cup: 'Tasse', ball: 'Ball', hat: 'Hut', teddy: 'Teddy', car: 'Auto', block: 'Baustein', blocks: 'Bausteine', stool: 'Stuhl' };
+  var CHIP_DE  = { red: 'rot', blue: 'blau', green: 'grün', brown: 'braun', white: 'weiß', big: 'groß', small: 'klein' };   // BASE (chip tiles)
+  var POS_DE   = { top: 'oben', bottom: 'unten' };
+  var FEEL_DE  = { sad: 'traurig', mad: 'wütend' };
+  var REASON_DE       = { 'tower-fell': 'mein Turm umgefallen ist', 'lost-teddy': 'ich meinen Teddy verloren habe', 'cant-reach': 'ich nicht rankomme' };
+  var SHORT_REASON_DE = { 'tower-fell': 'Turm umgefallen', 'lost-teddy': 'Teddy weg', 'cant-reach': 'nicht ran' };   // short tap-labels; full clause in deUtter
+  function infl(k) { return CHIP_DE[k] + 'e'; }     // uniform -e after the definite article (nominative sing.), all genders
+  function deUtter(round, turn) {
+    var t = turn, a = t.attrs || {};
+    if (round.listenerAction === 'mood') return 'Ich bin ' + (FEEL_DE[t.feeling] || '…') + (t.reason ? ', weil ' + (REASON_DE[t.reason] || '') : '') + '.';
+    var parts = [ART_DE[t.object] || 'Das'];
+    if (a.size) parts.push(infl(a.size));
+    if (a.color) parts.push(infl(a.color));
+    parts.push(NOUN_DE[t.object] || '…');
+    if (a.position) parts.push(POS_DE[a.position]);
+    return parts.join(' ') + '.';
+  }
+  function deObjAria(o) {                            // objSVG aria — grammatical + plural-safe
+    if (o.object === 'blocks') return 'Die Bausteine';
+    return [ART_DE[o.object], (o.size ? infl(o.size) : ''), (o.color ? infl(o.color) : ''), NOUN_DE[o.object]].filter(Boolean).join(' ');
+  }
+
   var C = {
     T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F',
     CREAM: '#FBF3E4', INK: '#2A2A35', GOOD: '#2FA56A', CURTAIN: '#185E54'
@@ -30,10 +56,11 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function posRank(p) { return p === 'top' ? 0 : (p === 'bottom' ? 2 : 1); }   // stack order top→bottom (§101 truthful oben/unten)
 
   /* a bin object — a simple SVG noun-shape tinted by colour + scaled by size. */
   function objSVG(o, opts) {
@@ -51,7 +78,8 @@
       case 'stool': body = '<rect x="26" y="40" width="48" height="12" rx="4" fill="' + tint + '"/><rect x="30" y="52" width="7" height="30" fill="' + tint + '"/><rect x="63" y="52" width="7" height="30" fill="' + tint + '"/>'; break;
       default: body = '<circle cx="50" cy="55" r="28" fill="' + tint + '"/>';
     }
-    return '<svg class="ss-obj-svg" viewBox="0 0 100 100" role="img" aria-label="' + esc((o.size ? o.size + ' ' : '') + (o.color ? o.color + ' ' : '') + o.object) + '" style="transform:scale(' + sc + ')"><g stroke="' + stroke + '" stroke-width="1.5">' + body + '</g></svg>';
+    var aria = LANG === 'de' ? deObjAria(o) : ((o.size ? o.size + ' ' : '') + (o.color ? o.color + ' ' : '') + o.object);
+    return '<svg class="ss-obj-svg" viewBox="0 0 100 100" role="img" aria-label="' + esc(aria) + '" style="transform:scale(' + sc + ')"><g stroke="' + stroke + '" stroke-width="1.5">' + body + '</g></svg>';
   }
 
   function puppet(kind, pose) {
@@ -65,25 +93,26 @@
     id: 'sock-and-shadow-activity',
 
     strings: {
-      title: { en: 'Sock & Shadow' },
-      prompt: { en: "Tell Shadow which one." },
-      tellFetch: { en: 'The kid lost this one. Tell Shadow which to fetch.' },
-      tellMood: { en: 'Tell Shadow how the kid feels — and why.' },
-      tell: { en: 'Tell Shadow' },
-      needObject: { en: 'Pick what it is first.' },
-      again: { en: 'Tell Shadow again' },
-      ambiguous: { en: "I can't tell from back here — which {cat}?" },
-      overwhelmed: { en: 'Too many words — I forgot half! Just what I need?' },
-      wrong: { en: "Hmm, I don't see that one. Tell me again?" },
-      clear: { en: 'Got it! Here you go.' },
-      catColor: { en: 'colour' }, catSize: { en: 'size' }, catPosition: { en: 'spot' }, catReason: { en: 'reason' },
-      hintCheck: { en: 'Tell Shadow, then tap Check.' }
+      title: { en: 'Sock & Shadow', de: 'Socke & Schatten' },
+      prompt: { en: "Tell Shadow which one.", de: 'Sag Schatten, was es ist.' },
+      tellFetch: { en: 'The kid lost this one. Tell Shadow which to fetch.', de: 'Das Kind hat das hier verloren. Sag Schatten, was er holen soll.' },
+      tellMood: { en: 'Tell Shadow how the kid feels — and why.', de: 'Sag Schatten, wie sich das Kind fühlt – und warum.' },
+      tell: { en: 'Tell Shadow', de: 'Sag es Schatten' },
+      needObject: { en: 'Pick what it is first.', de: 'Sag zuerst, was es ist.' },
+      again: { en: 'Tell Shadow again', de: 'Sag es Schatten nochmal' },
+      ambiguous: { en: "I can't tell from back here — which {cat}?", de: "Ich seh's von hier hinten nicht – welche {cat}?" },
+      overwhelmed: { en: 'Too many words — I forgot half! Just what I need?', de: 'Zu viele Wörter – die Hälfte hab ich vergessen! Nur das Nötigste?' },
+      wrong: { en: "Hmm, I don't see that one. Tell me again?", de: "Hmm, das seh ich hier nicht. Sag's nochmal?" },
+      clear: { en: 'Got it! Here you go.', de: 'Hab ich! Hier, bitte.' },
+      catColor: { en: 'colour', de: 'Farbe' }, catSize: { en: 'size', de: 'Größe' }, catPosition: { en: 'spot', de: 'Stelle' }, catReason: { en: 'reason', de: 'Grund' },
+      hintCheck: { en: 'Tell Shadow, then tap Check.', de: 'Sag es Schatten, dann tipp auf Prüfen.' }
     },
 
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._curPass = 0; this._orderForPool = null;
       this.round = null; this.phase = 'compose'; this.turn = null; this.outcome = null; this.misses = 0;
       this.readOnly = false; this.solved = 0; this.glowCat = null;
@@ -134,13 +163,25 @@
       // stage row: Sock (sees the bin) + the greyed curtain with Shadow ducked
       var top = api.el('div', 'ss-stagerow');
       var sock = api.el('div', 'ss-sock'); sock.innerHTML = puppet('sock'); top.appendChild(sock);
-      var curtain = api.el('div', 'ss-curtain ss-curtain-closed'); curtain.innerHTML = '<span class="ss-duck">' + puppet('shadow') + '</span><span class="ss-nopeek">no peeking!</span>'; top.appendChild(curtain);
+      var curtain = api.el('div', 'ss-curtain ss-curtain-closed'); curtain.innerHTML = '<span class="ss-duck">' + puppet('shadow') + '</span><span class="ss-nopeek">' + (LANG === 'de' ? 'Nicht gucken!' : 'no peeking!') + '</span>'; top.appendChild(curtain);
       theater.appendChild(top);
 
-      // the bin (Sock can see; the target glows) — fetch only
+      // the bin (Sock can see; the target glows) — fetch only. When a round varies by
+      // position (top/bottom), stack the bin VERTICALLY so "oben"/"unten" is visually
+      // truthful (the described spot is real, not glow-only). Both locales benefit. #101.
       if (r.listenerAction !== 'mood') {
-        var bin = api.el('div', 'ss-bin');
-        r.tray.forEach(function (o, i) { var cell = api.el('div', 'ss-binobj' + (i === r.target ? ' ss-target' : '')); cell.innerHTML = objSVG(o); bin.appendChild(cell); });
+        // stack vertically ONLY when position is the genuine distinguisher — every object
+        // carries a position AND they're otherwise identical (same object + same colour),
+        // so oben/unten is the real difference (round pos-top-ball). Rounds where position is
+        // redundant (different objects/colours, e.g. overspec-red-car) stay horizontal.
+        var allPos = r.tray.every(function (o) { return o.position != null; });
+        var oneObj = r.tray.reduce(function (s, o) { return (s.indexOf(o.object) < 0 ? s.concat([o.object]) : s); }, []).length === 1;
+        var oneCol = r.tray.reduce(function (s, o) { return (s.indexOf(o.color) < 0 ? s.concat([o.color]) : s); }, []).length === 1;
+        var hasPos = allPos && oneObj && oneCol;
+        var bin = api.el('div', 'ss-bin' + (hasPos ? ' ss-bin-vert' : ''));
+        var cells = r.tray.map(function (o, i) { return { o: o, i: i }; });
+        if (hasPos) cells.sort(function (x, y) { return posRank(x.o.position) - posRank(y.o.position); });
+        cells.forEach(function (c) { var cell = api.el('div', 'ss-binobj' + (c.i === r.target ? ' ss-target' : '')); cell.innerHTML = objSVG(c.o); bin.appendChild(cell); });
         theater.appendChild(bin);
       } else {
         var kid = api.el('div', 'ss-kid'); kid.innerHTML = '<span class="ss-kid-face">😢</span><span class="ss-kid-say">' + api.t('tellMood') + '</span>'; theater.appendChild(kid);
@@ -194,7 +235,9 @@
       theater.appendChild(top);
 
       // the spoken bubble
-      var bubble = api.el('div', 'ss-bubble'); bubble.textContent = '“' + Core.utter(r, this.turn, 'en') + '”'; theater.appendChild(bubble);
+      var bubble = api.el('div', 'ss-bubble');
+      bubble.textContent = LANG === 'de' ? ('„' + deUtter(r, this.turn) + '“') : ('“' + Core.utter(r, this.turn, 'en') + '”');
+      theater.appendChild(bubble);
 
       // Shadow's line
       var line = api.el('div', 'ss-line');
@@ -212,6 +255,14 @@
     },
 
     _chipLabel: function (c) {
+      if (LANG === 'de') {
+        if (c.slot === 'object') return NOUN_DE[c.value] || c.value;
+        if (c.slot === 'politeness') return 'bitte';
+        if (c.slot === 'reason') return SHORT_REASON_DE[c.value] || c.value;   // short on the chip; full clause in deUtter()
+        if (c.slot === 'position') return POS_DE[c.value] || c.value;
+        if (c.slot === 'feeling') return FEEL_DE[c.value] || c.value;
+        return CHIP_DE[c.value] || c.value;   // color / size (base form)
+      }
       if (c.slot === 'object') return c.value;
       if (c.slot === 'politeness') return 'please';
       if (c.slot === 'reason') return SHORT_REASON[c.value] || c.value;   // short on the chip; full text in utter()
@@ -244,7 +295,7 @@
     _tellShadow: function () {
       if (this.readOnly) return;
       if (!Core.coherent(this.round, this.turn)) { this.api.announce && this.api.announce(this.api.t('needObject')); return; }
-      speak(Core.utter(this.round, this.turn, 'en'));
+      speak(LANG === 'de' ? deUtter(this.round, this.turn) : Core.utter(this.round, this.turn, 'en'));
       this._res = Core.resolve(this.round, this.turn);
       this.phase = 'resolve';
       if (this._res.outcome === 'clear') { this._win(); return; }
@@ -301,6 +352,7 @@
         + '.ss-nopeek{position:absolute;top:11px;font:800 9px/1 "Baloo 2",sans-serif;color:#cfeee6;opacity:.9;}'
         /* the bin */
         + '.ss-bin{display:flex;flex-wrap:wrap;gap:clamp(4px,1.4vw,8px);justify-content:center;padding:clamp(4px,1.4vw,8px);background:#E7D9BD;border-radius:12px;box-shadow:inset 0 2px 6px rgba(120,90,40,.18);}'
+        + '.ss-bin-vert{flex-direction:column;flex-wrap:nowrap;align-items:center;}'   /* position rounds: stack top→bottom so oben/unten is real */
         + '.ss-binobj{width:clamp(36px,9.5vw,48px);height:clamp(36px,9.5vw,48px);border-radius:9px;background:#FCF6EA;display:flex;align-items:center;justify-content:center;}.ss-obj-svg{width:86%;height:86%;}'
         + '.ss-target{box-shadow:0 0 0 3px ' + C.CORAL + ';background:#FFF1E8;}'
         + '.ss-kid{display:flex;flex-direction:column;align-items:center;gap:1px;}.ss-kid-face{font-size:clamp(24px,6vw,32px);}.ss-kid-say{font:700 clamp(11px,2.8vw,13px)/1.2 "Baloo 2",sans-serif;color:' + C.T + ';text-align:center;}'

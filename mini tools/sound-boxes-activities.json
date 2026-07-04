@@ -70,16 +70,86 @@
             { "noun": "bed", "themeDir": "around the house", "b": "b", "m": "e", "e": "d" },
             { "noun": "cap", "themeDir": "accessories", "b": "k", "m": "a", "e": "p" }
           ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "sb-de-fisch-first", "position": "b",
+            "target": { "noun": "fish", "themeDir": "ocean life", "word": "Fisch", "b": "f", "m": "i-kurz", "e": "sch" },
+            "options": [
+              { "noun": "foot", "themeDir": "body parts", "word": "Fuß", "b": "f", "m": "u-lang", "e": "s" },
+              { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" },
+              { "noun": "mouse", "themeDir": "pets", "word": "Maus", "b": "m", "m": "au", "e": "s" }
+            ] },
+          { "id": "sb-de-haus-first", "position": "b",
+            "target": { "noun": "house", "themeDir": "miscellaneous", "word": "Haus", "b": "h", "m": "au", "e": "s" },
+            "options": [
+              { "noun": "hat", "themeDir": "accessories", "word": "Hut", "b": "h", "m": "u-lang", "e": "t" },
+              { "noun": "boat", "themeDir": "vehicles", "word": "Boot", "b": "b", "m": "o-lang", "e": "t" },
+              { "noun": "tooth", "themeDir": "body parts", "word": "Zahn", "b": "ts", "m": "a-lang", "e": "n" }
+            ] },
+          { "id": "sb-de-ball-first", "position": "b",
+            "target": { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" },
+            "options": [
+              { "noun": "boat", "themeDir": "vehicles", "word": "Boot", "b": "b", "m": "o-lang", "e": "t" },
+              { "noun": "fish", "themeDir": "ocean life", "word": "Fisch", "b": "f", "m": "i-kurz", "e": "sch" },
+              { "noun": "house", "themeDir": "miscellaneous", "word": "Haus", "b": "h", "m": "au", "e": "s" }
+            ] },
+          { "id": "sb-de-bein-first", "position": "b",
+            "target": { "noun": "leg", "themeDir": "body parts", "word": "Bein", "b": "b", "m": "ei", "e": "n" },
+            "options": [
+              { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" },
+              { "noun": "mouse", "themeDir": "pets", "word": "Maus", "b": "m", "m": "au", "e": "s" },
+              { "noun": "fish", "themeDir": "ocean life", "word": "Fisch", "b": "f", "m": "i-kurz", "e": "sch" }
+            ] },
+          { "id": "sb-de-hut-last", "position": "e",
+            "target": { "noun": "hat", "themeDir": "accessories", "word": "Hut", "b": "h", "m": "u-lang", "e": "t" },
+            "options": [
+              { "noun": "boat", "themeDir": "vehicles", "word": "Boot", "b": "b", "m": "o-lang", "e": "t" },
+              { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" },
+              { "noun": "fish", "themeDir": "ocean life", "word": "Fisch", "b": "f", "m": "i-kurz", "e": "sch" }
+            ] },
+          { "id": "sb-de-maus-last", "position": "e",
+            "target": { "noun": "mouse", "themeDir": "pets", "word": "Maus", "b": "m", "m": "au", "e": "s" },
+            "options": [
+              { "noun": "foot", "themeDir": "body parts", "word": "Fuß", "b": "f", "m": "u-lang", "e": "s" },
+              { "noun": "tooth", "themeDir": "body parts", "word": "Zahn", "b": "ts", "m": "a-lang", "e": "n" },
+              { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" }
+            ] },
+          { "id": "sb-de-bein-last", "position": "e",
+            "target": { "noun": "leg", "themeDir": "body parts", "word": "Bein", "b": "b", "m": "ei", "e": "n" },
+            "options": [
+              { "noun": "tooth", "themeDir": "body parts", "word": "Zahn", "b": "ts", "m": "a-lang", "e": "n" },
+              { "noun": "hat", "themeDir": "accessories", "word": "Hut", "b": "h", "m": "u-lang", "e": "t" },
+              { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" }
+            ] },
+          { "id": "sb-de-maus-mid", "position": "m",
+            "target": { "noun": "mouse", "themeDir": "pets", "word": "Maus", "b": "m", "m": "au", "e": "s" },
+            "options": [
+              { "noun": "house", "themeDir": "miscellaneous", "word": "Haus", "b": "h", "m": "au", "e": "s" },
+              { "noun": "hat", "themeDir": "accessories", "word": "Hut", "b": "h", "m": "u-lang", "e": "t" },
+              { "noun": "fish", "themeDir": "ocean life", "word": "Fisch", "b": "f", "m": "i-kurz", "e": "sch" }
+            ] },
+          { "id": "sb-de-hut-mid", "position": "m",
+            "target": { "noun": "hat", "themeDir": "accessories", "word": "Hut", "b": "h", "m": "u-lang", "e": "t" },
+            "options": [
+              { "noun": "foot", "themeDir": "body parts", "word": "Fuß", "b": "f", "m": "u-lang", "e": "s" },
+              { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" },
+              { "noun": "boat", "themeDir": "vehicles", "word": "Boot", "b": "b", "m": "o-lang", "e": "t" }
+            ] }
+        ]
+      }
     },
     "slug": {
-      "en": "sound-boxes-first-middle-last"
+      "en": "sound-boxes-first-middle-last",
+      "de": "anlaut-inlaut-auslaut-laute-hoeren-klasse-1"
     },
     "page_title": {
-      "en": "Coco's Sound Boxes — First, Middle & Last Sounds (Kindergarten)"
+      "en": "Coco's Sound Boxes — First, Middle & Last Sounds (Kindergarten)",
+      "de": "Coco der Koala – Laute hören: Anlaut, Inlaut, Auslaut (Klasse 1)"
     },
     "page_intro": {
-      "en": "A free interactive Kindergarten phonics activity: hear a short word in its sound boxes, then find another picture with the same first, middle, or last sound. Coco the koala helps children listen for the beginning, middle-vowel, and ending sounds in three-sound (CVC) words. A friendly first step in phonemic awareness. Common Core RF.K.2.d."
+      "en": "A free interactive Kindergarten phonics activity: hear a short word in its sound boxes, then find another picture with the same first, middle, or last sound. Coco the koala helps children listen for the beginning, middle-vowel, and ending sounds in three-sound (CVC) words. A friendly first step in phonemic awareness. Common Core RF.K.2.d.",
+      "de": "Mit Coco dem Koala hört dein Kind ganz genau hin: Es soll Anlaut, Inlaut und Auslaut aus kurzen Wörtern heraushören – welcher Laut steckt am Anfang, in der Mitte oder am Ende? Jedes Wort wird vorgelesen, Kopfhörer sind empfohlen. Kostenlos, ohne Zeitdruck und ohne Punkte."
     },
     "kid_prompt_template": "sound-boxes"
   }

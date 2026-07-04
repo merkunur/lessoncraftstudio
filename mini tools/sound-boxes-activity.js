@@ -16,7 +16,8 @@
   'use strict';
 
   var Core = global.SoundBoxesCore;
-  var POS_WORD = { b: 'first', m: 'middle', e: 'last' };
+  var LANG = 'en';   // #106 — set in init from api.lang
+  var POS_WORD = { en: { b: 'first', m: 'middle', e: 'last' }, de: { b: 'ersten', m: 'mittleren', e: 'letzten' } };
   var BOX_INDEX = { b: 0, m: 1, e: 2 };
 
   var L = {
@@ -29,11 +30,22 @@
       nudgeFirst: 'Not quite — that starts with a different sound. Which starts like {t}?',
       nudgeMid: 'Listen again — that middle sound is different. Which has the same middle sound as {t}?',
       nudgeLast: 'Not quite — that ends with a different sound. Which ends like {t}?'
+    },
+    de: {
+      qFirst: 'Welches beginnt wie {t}?',
+      qMid: 'Welches klingt in der Mitte wie {t}?',
+      qLast: 'Welches endet wie {t}?',
+      win: 'Genau hingehört! {t} und {m} haben denselben {pos} Laut! 🐨',
+      hear: '🔊 Anhören',
+      nudgeFirst: 'Fast! Hör nochmal genau hin – welches beginnt mit demselben Laut wie {t}?',
+      nudgeMid: 'Beinah! Hör in die Mitte – welches hat denselben mittleren Laut wie {t}?',
+      nudgeLast: 'Noch nicht ganz – hör auf das Ende. Welches endet wie {t}?'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
+  function wordOf(w) { return (LANG === 'de' && w && w.word) ? w.word : cap(w && w.noun); }
   function imgUrl(w) { return '/image-library-webp/themes/' + w.themeDir + '/' + w.noun + '@2x.webp'; }
 
   function cocoSVG() {
@@ -51,13 +63,14 @@
   var SoundBoxesActivity = {
     id: 'sound-boxes-activity',
     strings: {
-      title: { en: "Coco's Sound Boxes" },
-      instruction: { en: 'Listen for the first, middle, and last sound. Tap the word that matches!' },
+      title: { en: "Coco's Sound Boxes", de: 'Coco der Koala' },
+      instruction: { en: 'Listen for the first, middle, and last sound. Tap the word that matches!', de: 'Hör auf den ersten, mittleren und letzten Laut. Tippe das Bild, das denselben Laut hat!' },
       q: { en: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._round = null; this._resolved = false; this._token = 0;
       this._nonAns = {}; this._lit = -1; this._optOrder = null;
@@ -108,7 +121,7 @@
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
             self._activityRow = row;
-            self._pool = (row && row.params && row.params.rounds) || [];
+            self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -132,7 +145,7 @@
     _qKey: function (pos) { return pos === 'b' ? 'qFirst' : (pos === 'e' ? 'qLast' : 'qMid'); },
 
     _makeTask: function (round) {
-      var q = txt(this._qKey(round.position), { t: cap(round.target.noun) });
+      var q = txt(this._qKey(round.position), { t: wordOf(round.target) });
       return {
         id: round.id, promptKey: 'q', promptArgs: { q: q }, answerType: 'state', round: round,
         setup: function (tool) { tool._beginRound(round); },
@@ -162,7 +175,7 @@
       for (var bi = 0; bi < 3; bi++) { var bx = el('div', 'sb-box' + (BOX_INDEX[round.position] === bi ? ' is-target' : '')); boxes.appendChild(bx); }
       var hear = el('button', 'sb-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'word', text: round.target.noun, lang: 'en', rate: 0.8 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'word', text: wordOf(round.target), lang: LANG, rate: 0.8 }); } catch (e) { } }
       });
       boxrow.append(boxes, hear);   /* boxes + Hear-it on ONE row → shorter stimulus (fold-critical: the shell prompt is ~200px tall at desktop) */
       stim.append(tgt, boxrow); root.appendChild(stim);
@@ -173,7 +186,7 @@
       order.forEach(function (oi) {
         var w = round.options[oi];
         var b = el('button', 'sb-choice' + (self._nonAns[oi] ? ' dim' : '') + (self._lit === oi ? ' lit' : ''));
-        b.type = 'button'; b.setAttribute('data-oi', oi); b.setAttribute('aria-label', w.noun);
+        b.type = 'button'; b.setAttribute('data-oi', oi); b.setAttribute('aria-label', wordOf(w));
         var im = el('img'); im.src = imgUrl(w); im.alt = ''; im.setAttribute('loading', 'lazy'); b.appendChild(im);
         b.addEventListener('click', function () {
           if (self._resolved || self._nonAns[oi] || self._token !== tok) return;
@@ -200,14 +213,14 @@
       var round = this._round, m = round.options[oi];
       this.render();
       var line = this._api.stage.querySelector('.sb-msg');
-      var note = txt('win', { t: cap(round.target.noun), m: cap(m.noun), pos: POS_WORD[round.position] });
+      var note = txt('win', { t: wordOf(round.target), m: wordOf(m), pos: (POS_WORD[LANG] || POS_WORD.en)[round.position] });
       if (line) { line.textContent = note; line.classList.remove('miss'); }
       this._api.sound && this._api.sound(880);
       this._api.announce && this._api.announce(note);
     },
     _nudge: function (round) {
       var nk = round.position === 'b' ? 'nudgeFirst' : (round.position === 'e' ? 'nudgeLast' : 'nudgeMid');
-      var msgText = txt(nk, { t: cap(round.target.noun) });
+      var msgText = txt(nk, { t: wordOf(round.target) });
       this._api.sound && this._api.sound(440);
       this.render();
       var line = this._api.stage.querySelector('.sb-msg');
@@ -217,8 +230,9 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'sb-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var cs = (round.options || []).map(function (x) { return x.noun; }).join(', ');
-      wrap.innerHTML = '<p>' + txt(this._qKey(round.position), { t: cap(round.target.noun) }) + ' The choices are: ' + cs + '.</p>';
+      var cs = (round.options || []).map(function (x) { return wordOf(x); }).join(', ');
+      var q = txt(this._qKey(round.position), { t: wordOf(round.target) });
+      wrap.innerHTML = LANG === 'de' ? ('<p>' + q + ' Zur Auswahl: ' + cs + '.</p>') : ('<p>' + q + ' The choices are: ' + cs + '.</p>');
       return wrap;
     },
 

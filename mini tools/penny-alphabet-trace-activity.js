@@ -15,12 +15,13 @@
   'use strict';
 
   var Core = global.AlphabetTraceCore;
+  var LANG = 'en';   // #104 — set in init from api.lang
   var SVGNS = 'http://www.w3.org/2000/svg';
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', FAINT: 'rgba(20,107,94,.22)' };
 
   function svg(tag, attrs) { var e = document.createElementNS(SVGNS, tag); for (var k in attrs) if (attrs.hasOwnProperty(k)) e.setAttribute(k, attrs[k]); return e; }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   /* Catmull-Rom → cubic-Bézier spline that PASSES THROUGH every point. <3 → line. */
@@ -51,20 +52,21 @@
     id: 'penny-alphabet-trace-activity',
 
     strings: {
-      title: { en: "Penny's Alphabet Trace" },
-      instruction: { en: 'Start on the dot and trace the letter.' },
-      prompt: { en: 'Start on the dot and trace the letter.' },
-      pennyIntro: { en: "Start on the dot and trace each stroke in order!" },
-      capBadge: { en: 'CAPITAL' }, lowBadge: { en: 'lowercase' },
-      sayStroke: { en: 'Nice — next stroke!' },
-      sayOff: { en: 'Follow the shape — start on the dot.' },
-      sayWin: { en: 'Beautiful letter! ✏️' },
-      hintCheck: { en: 'Trace each stroke in order, starting on the dot.' }
+      title: { en: "Penny's Alphabet Trace", de: 'Pennys Buchstaben nachspuren' },
+      instruction: { en: 'Start on the dot and trace the letter.', de: 'Am Punkt starten und nachspuren.' },
+      prompt: { en: 'Start on the dot and trace the letter.', de: 'Am Punkt starten und nachspuren.' },
+      pennyIntro: { en: "Start on the dot and trace each stroke in order!", de: 'Starte am Punkt und spure Strich für Strich nach.' },
+      capBadge: { en: 'CAPITAL', de: 'GROSS' }, lowBadge: { en: 'lowercase', de: 'klein' },
+      sayStroke: { en: 'Nice — next stroke!', de: 'Toll — der nächste Strich!' },
+      sayOff: { en: 'Follow the shape — start on the dot.', de: 'Fahr der Form nach — starte auf dem Punkt.' },
+      sayWin: { en: 'Beautiful letter! ✏️', de: 'Wunderschöner Buchstabe! ✏️' },
+      hintCheck: { en: 'Trace each stroke in order, starting on the dot.', de: 'Spure jeden Strich der Reihe nach — starte auf dem Punkt.' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.solved = false; this.cs = null; this.ink = []; this.cur = null; this.dragging = false; this.msg = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -88,8 +90,8 @@
       root.appendChild(say);
 
       var head = api.el('div', 'pat-head');
-      var chip = api.el('span', 'pat-letterlab'); chip.innerHTML = 'Trace <b class="pat-letter">' + r.letter + '</b>';
-      chip.setAttribute('aria-label', 'trace the ' + (r.case === 'upper' ? 'capital' : 'lowercase') + ' letter ' + r.letter);
+      var chip = api.el('span', 'pat-letterlab'); chip.innerHTML = (LANG === 'de' ? 'Spur nach: ' : 'Trace ') + '<b class="pat-letter">' + r.letter + '</b>';
+      chip.setAttribute('aria-label', LANG === 'de' ? ('den ' + (r.case === 'upper' ? 'großen' : 'kleinen') + ' Buchstaben ' + r.letter + ' nachspuren') : ('trace the ' + (r.case === 'upper' ? 'capital' : 'lowercase') + ' letter ' + r.letter));
       head.appendChild(chip);
       var badge = api.el('span', 'pat-badge pat-' + (r.case || 'upper')); badge.textContent = api.t(r.case === 'lower' ? 'lowBadge' : 'capBadge'); head.appendChild(badge);
       root.appendChild(head);
@@ -159,7 +161,7 @@
 
     _correct: function () {
       var api = this.api; this.solved = true; this.msg = api.t('sayWin'); api.sound && api.sound(880);
-      setTimeout(function () { speak('Beautiful!'); }, 150);
+      setTimeout(function () { speak(LANG === 'de' ? 'Wunderschön!' : 'Beautiful!'); }, 150);
       this.render(); api.announce && api.announce(this.msg);
     },
 

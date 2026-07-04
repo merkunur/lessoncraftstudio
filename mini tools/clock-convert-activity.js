@@ -10,6 +10,7 @@
   'use strict';
 
   var Core = global.ClockConvertCore;
+  var LANG = 'en';   // #105 — set in init from api.lang
 
   var L = {
     en: {
@@ -18,10 +19,28 @@
       win12to24: 'Yes! {given} is {answer}.',
       win24to12: 'Yes! {given} is {answer}.',
       hint: 'After noon, 24-hour time keeps counting: 1 PM is 13:00.'
+    },
+    de: {
+      q12to24: 'Wie schreibt man das in der 24-Stunden-Zeit?',
+      q24to12: 'Wie sagt man das mit der Tageszeit?',
+      win12to24: 'Genau! {given} ist {answer}.',
+      win24to12: 'Genau! {given} ist {answer}.',
+      hint: 'Nach dem Mittag zählt die 24-Stunden-Zeit weiter: Aus 1 Uhr nachmittags wird 13:00.'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
+
+  /* German time display: 24h side is universal („15:00"); the 12h side becomes the
+     umgangssprachliche form „{h12}:{mm} {Tageszeit}" („3:00 nachmittags"). Shadows the
+     core's to12str for de. Tageszeit table 0..23 (educator, Klasse-2 convention). */
+  var pad2 = function (n) { return (n < 10 ? '0' : '') + n; };
+  var TAGESZEIT = ['nachts', 'nachts', 'nachts', 'nachts', 'nachts', 'morgens', 'morgens', 'morgens', 'morgens', 'vormittags', 'vormittags', 'vormittags', 'mittags', 'nachmittags', 'nachmittags', 'nachmittags', 'nachmittags', 'nachmittags', 'abends', 'abends', 'abends', 'abends', 'nachts', 'nachts'];
+  function de12str(h24, m) { return Core.to12(h24).h12 + ':' + pad2(m) + ' ' + TAGESZEIT[h24]; }
+  function deGivenStr(round) { return round.dir === '12to24' ? de12str(round.h24, round.m) : Core.to24str(round.h24, round.m); }
+  function deOptionStr(round, oh) { return round.dir === '12to24' ? Core.to24str(oh, round.m) : de12str(oh, round.m); }
+  function givenStr(round) { return LANG === 'de' ? deGivenStr(round) : Core.givenStr(round); }
+  function optionStr(round, oh) { return LANG === 'de' ? deOptionStr(round, oh) : Core.optionStr(round, oh); }
 
   function sprocketSVG() {
     /* Sprocket — a rooster (red comb + wattle, orange beak), the time mascot */
@@ -40,13 +59,14 @@
   var ClockConvertActivity = {
     id: 'clock-convert-activity',
     strings: {
-      title: { en: "Sprocket's Clock" },
-      instruction: { en: 'Read the time, then tap the same time in the other way of writing it.' },
+      title: { en: "Sprocket's Clock", de: 'Kikos Uhr' },
+      instruction: { en: 'Read the time, then tap the same time in the other way of writing it.', de: 'Lies die Uhrzeit. Tippe dann dieselbe Uhrzeit in der anderen Schreibweise an.' },
       q: { en: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._round = null; this._resolved = false; this._token = 0;
       this._nonAns = {}; this._lit = -1; this._optOrder = null;
@@ -63,7 +83,7 @@
         '.cv-root{display:flex;flex-direction:column;align-items:center;gap:14px;width:100%;max-width:min(96vw,480px);margin:0 auto;}',
         '.cv-readout{font:800 3rem/1 "Baloo 2",Nunito,system-ui,sans-serif;color:#146B5E;letter-spacing:.5px;text-align:center;}',
         '.cv-row{display:flex;gap:9px;width:100%;justify-content:center;}',
-        '.cv-choice{flex:1 1 0;min-width:0;max-width:150px;min-height:54px;border:3px solid #C9B98E;border-radius:14px;background:#FFFDF6;cursor:pointer;display:flex;align-items:center;justify-content:center;font:800 1.2rem/1 "Baloo 2",Nunito,system-ui,sans-serif;color:#146B5E;padding:8px 6px;white-space:nowrap;}',
+        '.cv-choice{flex:1 1 0;min-width:0;max-width:150px;min-height:54px;border:3px solid #C9B98E;border-radius:14px;background:#FFFDF6;cursor:pointer;display:flex;align-items:center;justify-content:center;text-align:center;font:800 1.2rem/1.12 "Baloo 2",Nunito,system-ui,sans-serif;color:#146B5E;padding:8px 6px;overflow-wrap:break-word;}',
         '.cv-choice.dim{opacity:.4;}',
         '.cv-choice.lit{border-color:#F2784B;box-shadow:0 0 0 3px #F2C14E;background:#FFFBEF;}',
         '.cv-say{display:flex;align-items:center;gap:8px;width:100%;justify-content:center;min-height:34px;}',
@@ -131,7 +151,7 @@
       var self = this, tok = this._token;
       var root = el('div', 'cv-root');
 
-      var ro = el('div', 'cv-readout'); ro.textContent = Core.givenStr(round); root.appendChild(ro);
+      var ro = el('div', 'cv-readout'); ro.textContent = givenStr(round); root.appendChild(ro);
 
       var row = el('div', 'cv-row');
       var order = this._optOrder || (round.options || []).map(function (_, i) { return i; });
@@ -139,8 +159,8 @@
         var oh = round.options[oi];
         var b = el('button', 'cv-choice' + (self._nonAns[oi] ? ' dim' : '') + (self._lit === oi ? ' lit' : ''));
         b.type = 'button'; b.setAttribute('data-oi', oi);
-        b.textContent = Core.optionStr(round, oh);
-        b.setAttribute('aria-label', Core.optionStr(round, oh));
+        b.textContent = optionStr(round, oh);
+        b.setAttribute('aria-label', optionStr(round, oh));
         b.addEventListener('click', function () {
           if (self._resolved || self._nonAns[oi] || self._token !== tok) return;
           if (Core.isAnswer(round, oi)) { self._lit = oi; self._resolve(); }
@@ -165,7 +185,7 @@
       var round = this._round;
       this.render();
       var line = this._api.stage.querySelector('.cv-msg');
-      var args = { given: Core.givenStr(round), answer: Core.optionStr(round, round.h24) };
+      var args = { given: givenStr(round), answer: optionStr(round, round.h24) };
       var note = txt(round.dir === '12to24' ? 'win12to24' : 'win24to12', args);
       if (line) { line.textContent = note; line.classList.remove('miss'); }
       this._api.sound && this._api.sound(880);
@@ -182,8 +202,10 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'cv-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var cs = (round.options || []).map(function (oh) { return Core.optionStr(round, oh); }).join(', ');
-      wrap.innerHTML = '<p>The time is ' + Core.givenStr(round) + '. ' + promptFor(round) + ' The choices are: ' + cs + '.</p>';
+      var cs = (round.options || []).map(function (oh) { return optionStr(round, oh); }).join(', ');
+      wrap.innerHTML = LANG === 'de'
+        ? '<p>Die Uhrzeit ist ' + givenStr(round) + '. ' + promptFor(round) + ' Zur Auswahl: ' + cs + '.</p>'
+        : '<p>The time is ' + givenStr(round) + '. ' + promptFor(round) + ' The choices are: ' + cs + '.</p>';
       return wrap;
     },
 

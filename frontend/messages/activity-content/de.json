@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "clock-convert.12-24.2-md-c-7": {
+      "about": [
+        "Kiko der Hahn kräht nicht nur morgens – er kennt die Uhr rund um die Uhr! Dein Kind liest eine Zeit wie „15:00“ und sucht dann unter drei Karten die passende Uhrzeit mit Tageszeit: „3:00 nachmittags“. Tippt es die richtige Karte an, freut sich Kiko lautstark – ein kleines Kikeriki für jede erkannte Zeit.",
+        "Die 24-Stunden-Zeit begegnet Kindern in Deutschland überall: auf dem Busfahrplan, im Fernsehprogramm und auf jeder digitalen Uhr. Der Knackpunkt ist, dass die Uhr nach dem Mittag einfach weiterzählt – 13, 14, 15 Uhr statt wieder von vorne bei 1. Wer das einmal verstanden hat, liest „18:00“ ganz selbstverständlich als „6:00 abends“.",
+        "Diese Übung gehört in die Klasse 2, in den Bereich „Größen und Messen“ rund um die Zeit. Kiko sagt dabei nie „falsch“ – wenn eine Karte nicht passt, gibt er einen kleinen Tipp und dein Kind darf in Ruhe noch einmal überlegen. Jede Aufgabe wird vorgelesen, sodass auch Kinder mitmachen können, die noch nicht sicher lesen."
+      ],
+      "practices": [
+        "Die 24-Stunden-Zeit lesen",
+        "Uhrzeiten in beide Formen umrechnen",
+        "Tageszeiten zuordnen: vormittags, nachmittags und abends",
+        "Verstehen, dass die Uhr nach Mittag weiterzählt"
+      ],
+      "howToPlay": [
+        "Lies die vorgegebene Zeit, zum Beispiel „15:00“.",
+        "Suche dieselbe Zeit in der anderen Form – „3:00 nachmittags“.",
+        "Tippe die passende Karte an – Kiko kräht bei jeder richtigen Zeit."
+      ],
+      "learningGoals": [
+        "Die 24-Stunden-Zeit sicher lesen und verstehen",
+        "Zwischen „15:00“ und „3:00 nachmittags“ umrechnen",
+        "Die Tageszeit einer Uhrzeit richtig zuordnen"
+      ]
+    },
     "penny-alphabet-trace.letter-formation.l-k-1-a": {
       "about": [
         "Penny der Stift ist ein fröhlicher gelber Bleistift, der jeden Buchstaben gemeinsam mit deinem Kind schreibt. Zu jedem Buchstaben leuchtet zuerst ein Startpunkt auf – dort setzt Penny an, und dann zieht dein Kind Strich für Strich in der richtigen Reihenfolge nach. Beim großen „A“ geht es zuerst den linken Strich hinunter, dann den rechten, und zum Schluss kommt der Querstrich in die Mitte – und schon steht der Buchstabe fertig auf dem Blatt. So wird aus einzelnen Strichen ganz von selbst ein echter Buchstabe.",

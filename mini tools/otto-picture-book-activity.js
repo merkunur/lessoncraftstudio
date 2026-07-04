@@ -21,6 +21,7 @@
   'use strict';
 
   var Core = global.PictureMomentCore;
+  var LANG = 'en';   // content locale; set in init from api.lang (de fan-out §A.13.54)
 
   var C = { T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A' };
   // panel emoji = STUB art (CA5 hand-illustrated dioramas replace these later)
@@ -39,8 +40,8 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
 
   function ottoSVG(mood) {
@@ -48,7 +49,7 @@
     var eyes = happy
       ? '<path d="M30 44 q6 -6 12 0 M58 44 q6 -6 12 0" stroke="#2A2A35" stroke-width="3" fill="none" stroke-linecap="round"/>'
       : '<circle cx="36" cy="45" r="9" fill="#fff" stroke="#2A2A35" stroke-width="2"/><circle cx="64" cy="45" r="9" fill="#fff" stroke="#2A2A35" stroke-width="2"/><circle cx="36" cy="45" r="3.6" fill="#2A2A35"/><circle cx="64" cy="45" r="3.6" fill="#2A2A35"/>';
-    return '<svg class="opb-owl-svg" viewBox="0 0 100 100" role="img" aria-label="Otto the owl">' +
+    return '<svg class="opb-owl-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Otto, die Eule' : 'Otto the owl') + '">' +
       '<path d="M22 22 L36 36 L18 38 Z" fill="#9D7BC8"/><path d="M78 22 L64 36 L82 38 Z" fill="#9D7BC8"/>' +   /* ear tufts */
       '<ellipse cx="50" cy="56" rx="32" ry="30" fill="#B79BE0"/>' +
       '<ellipse cx="50" cy="64" rx="20" ry="18" fill="#EBDFF8"/>' +   /* belly */
@@ -61,20 +62,21 @@
     id: 'otto-picture-book-activity',
 
     strings: {
-      title: { en: "Otto's Picture Book" },
-      prompt: { en: 'Which picture shows this part?' },
-      ottoIntro: { en: 'I drew this story! Which picture shows the part I read?' },
-      hearStory: { en: '📖 Hear the story' },
-      hearAgain: { en: '📖 Hear it again' },
-      thePart: { en: 'Otto reads:' },
-      hintPick: { en: 'Tap the picture that shows this part!' },
-      hintWrong: { en: 'That picture shows a different part — listen again.' },
-      ottoWin: { en: 'Yes! That picture shows it exactly!' }
+      title: { en: "Otto's Picture Book", de: 'Ottos Bilderbuch' },
+      prompt: { en: 'Which picture shows this part?', de: 'Welches Bild zeigt diesen Teil?' },
+      ottoIntro: { en: 'I drew this story! Which picture shows the part I read?', de: 'Ich habe diese Geschichte gemalt! Welches Bild zeigt den Teil, den ich vorlese?' },
+      hearStory: { en: '📖 Hear the story', de: '📖 Geschichte anhören' },
+      hearAgain: { en: '📖 Hear it again', de: '📖 Noch einmal anhören' },
+      thePart: { en: 'Otto reads:', de: 'Otto liest vor:' },
+      hintPick: { en: 'Tap the picture that shows this part!', de: 'Tippe auf das Bild, das diesen Teil zeigt!' },
+      hintWrong: { en: 'That picture shows a different part — listen again.', de: 'Dieses Bild zeigt einen anderen Teil – hör noch einmal zu.' },
+      ottoWin: { en: 'Yes! That picture shows it exactly!', de: 'Ja! Genau dieses Bild zeigt es!' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.film = null; this.sel = null; this._playedOnce = false; this._narrToken = 0;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -104,7 +106,7 @@
       var part = api.el('div', 'opb-part');
       var lab = api.el('span', 'opb-partlab'); lab.textContent = api.t('thePart'); part.appendChild(lab);
       var txt = api.el('span', 'opb-parttxt'); txt.textContent = this.view.prompt; part.appendChild(txt);
-      var sp = api.el('button', 'opb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', 'Read the part'); sp.textContent = '🔊';
+      var sp = api.el('button', 'opb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Den Teil vorlesen' : 'Read the part'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(self.view.prompt); }); part.appendChild(sp);
       root.appendChild(part);
 
@@ -118,7 +120,7 @@
       this.view.choices.forEach(function (ch, i) {
         var card = api.el('button', 'opb-card' + (self.sel === ch.panel ? ' opb-sel' : '')); card.type = 'button';
         card.setAttribute('data-i', i); card.style.background = tintFor(ch.panel);
-        card.setAttribute('aria-label', 'Picture ' + (i + 1));
+        card.setAttribute('aria-label', (LANG === 'de' ? 'Bild ' : 'Picture ') + (i + 1));
         var num = api.el('span', 'opb-cnum'); num.textContent = (i + 1); card.appendChild(num);
         var em = api.el('span', 'opb-cemoji'); em.setAttribute('aria-hidden', 'true'); em.textContent = EMOJI[ch.panel] || '❓'; card.appendChild(em);
         card.addEventListener('click', function () { self._tapCard(ch.panel); });
@@ -167,7 +169,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/otto-picture-book-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var pool = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(pool.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[otto-picture-book] manifest load failed:', e.message); });
     },
 

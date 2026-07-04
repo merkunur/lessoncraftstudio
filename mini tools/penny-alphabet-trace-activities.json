@@ -61,9 +61,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "penny-alphabet-trace" },
-    "page_title": { "en": "Penny's Alphabet Trace — Write Every Letter A to Z (Kindergarten)" },
-    "page_intro": { "en": "Penny the pencil helps you write every letter of the alphabet — all 26 capital letters AND all 26 lowercase letters! Start on the dot and trace each stroke in order to form the letter neatly. A Kindergarten handwriting activity for printing upper- and lowercase letters, aligned to Common Core L.K.1.a." },
+    "slug": { "en": "penny-alphabet-trace", "de": "buchstaben-schreiben-lernen-klasse-1" },
+    "page_title": { "en": "Penny's Alphabet Trace — Write Every Letter A to Z (Kindergarten)", "de": "Penny der Stift – Buchstaben schreiben (Klasse 1)" },
+    "page_intro": { "en": "Penny the pencil helps you write every letter of the alphabet — all 26 capital letters AND all 26 lowercase letters! Start on the dot and trace each stroke in order to form the letter neatly. A Kindergarten handwriting activity for printing upper- and lowercase letters, aligned to Common Core L.K.1.a.", "de": "Mit Penny dem Stift üben Kinder das Buchstaben schreiben ganz in Ruhe: Penny zeigt zu jedem Buchstaben den Startpunkt und führt deine Hand Strich für Strich, bis der Buchstabe fertig ist. Geführt, kostenlos und ganz ohne Zeitdruck oder Punkte." },
     "kid_prompt_template": "Start on the dot and trace the letter."
   }
 ]

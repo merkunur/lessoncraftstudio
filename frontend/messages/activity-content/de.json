@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "penny-alphabet-trace.letter-formation.l-k-1-a": {
+      "about": [
+        "Penny der Stift ist ein fröhlicher gelber Bleistift, der jeden Buchstaben gemeinsam mit deinem Kind schreibt. Zu jedem Buchstaben leuchtet zuerst ein Startpunkt auf – dort setzt Penny an, und dann zieht dein Kind Strich für Strich in der richtigen Reihenfolge nach. Beim großen „A“ geht es zuerst den linken Strich hinunter, dann den rechten, und zum Schluss kommt der Querstrich in die Mitte – und schon steht der Buchstabe fertig auf dem Blatt. So wird aus einzelnen Strichen ganz von selbst ein echter Buchstabe.",
+        "Beim Schreibenlernen kommt es nicht nur darauf an, dass ein Buchstabe am Ende richtig aussieht, sondern auch darauf, wie er entsteht. Wenn Kinder jeden Strich in der richtigen Bewegungsrichtung und Reihenfolge ziehen, schreiben sie formklarer, flüssiger und mit weniger Verkrampfung – das ist die Grundlage für eine gut lesbare Handschrift. Penny übt darum alle Buchstaben des Alphabets, die großen Groß- und die kleinen Kleinbuchstaben von A bis Z, immer Schritt für Schritt.",
+        "Diese Übung passt in die Klasse 1 in den Bereich „Schreiben“, genau dann, wenn Kinder ihre ersten Buchstaben zu Papier bringen. Und wenn einmal ein Strich verrutscht, ist das überhaupt kein Problem: Penny sagt nie „falsch“, sondern zeigt einfach noch einmal freundlich den Startpunkt, und dein Kind darf den Buchstaben in aller Ruhe noch einmal schreiben. Geführt, geduldig und ganz ohne Druck – ein Strich nach dem anderen."
+      ],
+      "practices": [
+        "Buchstaben formklar schreiben",
+        "die richtige Strichreihenfolge üben",
+        "Groß- und Kleinbuchstaben schreiben",
+        "die richtige Bewegungsrichtung lernen"
+      ],
+      "howToPlay": [
+        "Setz mit Penny am leuchtenden Startpunkt an.",
+        "Spur jeden Strich der Reihe nach mit dem Finger nach.",
+        "Zieh alle Striche nach – und der Buchstabe ist fertig geschrieben."
+      ],
+      "learningGoals": [
+        "Alle Groß- und Kleinbuchstaben von A bis Z sicher schreiben",
+        "Die richtige Strichreihenfolge und Bewegungsrichtung verinnerlichen",
+        "Formklar und flüssig für eine gut lesbare Handschrift schreiben"
+      ]
+    },
     "mango-animal-groups.collective-nouns.l-2-1-a": {
       "about": [
         "Mango der Affe zeigt deinem Kind ein Tier und stellt eine kleine Frage: Wie heißt eine ganze Gruppe davon? Auf dem Bild steht zum Beispiel eine Kuh, dazu hört dein Kind „viele Kühe“ und die Frage „Wie nennt man viele Kühe?“ – und tippt auf das Wort „Herde“. So wird aus vielen einzelnen Tieren mit einem einzigen Wort eine Gruppe, und dein Kind entdeckt Schritt für Schritt, wie Sammelnamen funktionieren.",

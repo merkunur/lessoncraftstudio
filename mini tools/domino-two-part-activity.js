@@ -14,12 +14,14 @@
 
   var Core = global.ReadBisyllableCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A' };
+  var LANG = 'en';  // set from api.lang in init(); drives TTS + de display overlay
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
-  function speak(word) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+  function speak(word, lang) {
+    var lg = lang || LANG;
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: lg, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.lang = lg; u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -39,18 +41,18 @@
     id: 'domino-two-part-activity',
 
     strings: {
-      title: { en: "Domino's Two-Part Words" },
-      prompt: { en: 'Read both parts — which picture?' },
-      dominoIntro: { en: 'Read each part, then blend them — which picture is it?' },
-      theAsk: { en: 'Tap the picture this word names.' },
-      hintPick: { en: 'Say the first part, then the second — tap a picture!' },
-      hintWrong: { en: "Blend the two parts slowly and try once more." },
-      win: { en: 'Yes! You read both parts. 🐧' }
+      title: { en: "Domino's Two-Part Words", de: 'Silben lesen' },
+      prompt: { en: 'Read both parts — which picture?', de: 'Lies beide Silben – welches Bild?' },
+      dominoIntro: { en: 'Read each part, then blend them — which picture is it?', de: 'Hallo, ich bin Pauli! Lies jede Silbe – dann tippe das passende Bild an.' },
+      theAsk: { en: 'Tap the picture this word names.', de: 'Tippe das Bild an, das dieses Wort zeigt.' },
+      hintPick: { en: 'Say the first part, then the second — tap a picture!', de: 'Lies das Wort ruhig: erst die erste Silbe, dann die zweite – tippe ein Bild an.' },
+      hintWrong: { en: "Blend the two parts slowly and try once more.", de: 'Fast! Lies noch einmal beide Silben und hör genau hin.' },
+      win: { en: 'Yes! You read both parts. 🐧', de: 'Super gelesen! Du hast jede Silbe erkannt. 🐧' }
     },
     defaults: {},
 
     init: function (api) {
-      this.api = api;
+      this.api = api; LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null; this._spoke = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -60,6 +62,11 @@
 
     setupTask: function (round) {
       this.round = round; this.view = Core.childView(round); this.sel = null; this._spoke = false;
+      // de (or any non-en): overlay the German display word/split + tile labels from the round.
+      // Core still grades by choice.noun===round.word (round.word = EN image-key). 0-core.
+      if (round.displayWord) this.view.word = round.displayWord;
+      if (round.displaySyl) this.view.syl = round.displaySyl.slice();
+      this.view.choices.forEach(function (c, i) { var s = (round.choices || [])[i]; if (s && s.de) c.de = s.de; });
       this._cards = shuffle(this.view.choices.slice());
     },
 
@@ -75,7 +82,7 @@
       root.appendChild(row);
 
       // the split word
-      var wordBox = api.el('button', 'dtp-word'); wordBox.type = 'button'; wordBox.setAttribute('aria-label', 'hear ' + v.word);
+      var wordBox = api.el('button', 'dtp-word'); wordBox.type = 'button'; wordBox.setAttribute('aria-label', (LANG === 'de' ? 'anhören: ' : 'hear ') + v.word);
       var inner = '';
       v.syl.forEach(function (s, i) {
         if (i > 0) inner += '<span class="dtp-dot">·</span>';
@@ -90,9 +97,10 @@
 
       var opts = api.el('div', 'dtp-opts');
       this._cards.forEach(function (o) {
-        var b = api.el('button', 'dtp-tile dtp-opt' + (self.sel === o.id ? ' dtp-sel' : '')); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', o.noun);
-        b.innerHTML = '<img class="dtp-img" src="' + imgUrl(o) + '" alt="' + esc(o.noun) + '" onerror="this.style.visibility=\'hidden\'"><span class="dtp-word-lab">' + esc(o.noun) + '</span>';
-        b.addEventListener('click', function () { self._tap(o.id, o.noun); });
+        var lab = o.de || o.noun;
+        var b = api.el('button', 'dtp-tile dtp-opt' + (self.sel === o.id ? ' dtp-sel' : '')); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', lab);
+        b.innerHTML = '<img class="dtp-img" src="' + imgUrl(o) + '" alt="' + esc(lab) + '" onerror="this.style.visibility=\'hidden\'"><span class="dtp-word-lab">' + esc(lab) + '</span>';
+        b.addEventListener('click', function () { self._tap(o.id, lab); });
         opts.appendChild(b);
       });
       root.appendChild(opts);
@@ -101,9 +109,9 @@
       if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(v.word); }, 320); }
     },
 
-    _tap: function (id, noun) {
+    _tap: function (id, label) {
       if (this.sel === id) { this.sel = null; this.render(); return; }
-      this.sel = id; this.api.sound && this.api.sound(540); speak(noun); this.render();
+      this.sel = id; this.api.sound && this.api.sound(540); speak(label); this.render();
     },
 
     isCorrect: function () { return Core.grade(this.round, this.sel); },
@@ -120,7 +128,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/domino-two-part-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rds = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[domino-two-part] manifest load failed:', e.message); });
     },
 

@@ -8042,6 +8042,26 @@
               ]
             }
           ]
+        },
+        "de": {
+          "rounds": [
+            { "onset": "H", "rime": "aus", "correct": { "noun": "house", "themeDir": "miscellaneous", "word": "Haus" },
+              "distractors": [ { "noun": "mouse", "themeDir": "forest creatures", "word": "Maus" }, { "noun": "ball", "themeDir": "toys", "word": "Ball" }, { "noun": "fish", "themeDir": "animals", "word": "Fisch" } ] },
+            { "onset": "M", "rime": "aus", "correct": { "noun": "mouse", "themeDir": "forest creatures", "word": "Maus" },
+              "distractors": [ { "noun": "house", "themeDir": "miscellaneous", "word": "Haus" }, { "noun": "boat", "themeDir": "beach", "word": "Boot" }, { "noun": "cat", "themeDir": "pets", "word": "Katze" } ] },
+            { "onset": "H", "rime": "und", "correct": { "noun": "dog", "themeDir": "animals", "word": "Hund" },
+              "distractors": [ { "noun": "mouth", "themeDir": "body parts", "word": "Mund" }, { "noun": "apple", "themeDir": "fruits", "word": "Apfel" }, { "noun": "tooth", "themeDir": "body parts", "word": "Zahn" } ] },
+            { "onset": "M", "rime": "und", "correct": { "noun": "mouth", "themeDir": "body parts", "word": "Mund" },
+              "distractors": [ { "noun": "dog", "themeDir": "animals", "word": "Hund" }, { "noun": "flower", "themeDir": "spring", "word": "Blume" }, { "noun": "fish", "themeDir": "animals", "word": "Fisch" } ] },
+            { "onset": "B", "rime": "ein", "correct": { "noun": "leg", "themeDir": "body parts", "word": "Bein" },
+              "distractors": [ { "noun": "pig", "themeDir": "animals", "word": "Schwein" }, { "noun": "sun", "themeDir": "weather", "word": "Sonne" }, { "noun": "ball", "themeDir": "toys", "word": "Ball" } ] },
+            { "onset": "Z", "rime": "ahn", "correct": { "noun": "tooth", "themeDir": "body parts", "word": "Zahn" },
+              "distractors": [ { "noun": "rooster", "themeDir": "birds 2", "word": "Hahn" }, { "noun": "duck", "themeDir": "farm animals", "word": "Ente" }, { "noun": "boat", "themeDir": "beach", "word": "Boot" } ] },
+            { "onset": "F", "rime": "isch", "correct": { "noun": "fish", "themeDir": "animals", "word": "Fisch" },
+              "distractors": [ { "noun": "table", "themeDir": "around the house", "word": "Tisch" }, { "noun": "fox", "themeDir": "animals", "word": "Fuchs" }, { "noun": "apple", "themeDir": "fruits", "word": "Apfel" } ] },
+            { "onset": "Schw", "rime": "ein", "correct": { "noun": "pig", "themeDir": "animals", "word": "Schwein" },
+              "distractors": [ { "noun": "leg", "themeDir": "body parts", "word": "Bein" }, { "noun": "cat", "themeDir": "pets", "word": "Katze" }, { "noun": "sun", "themeDir": "weather", "word": "Sonne" } ] }
+          ]
         }
       }
     },
@@ -8049,15 +8069,18 @@
     "slug": {
       "en": "blend-onset-and-rime",
       "nl": "plak-de-klanken-samen",
-      "da": "saet-lydene-sammen"
+      "da": "saet-lydene-sammen",
+      "de": "laute-zusammenschleifen-klasse-1"
     },
     "page_title": {
       "en": "Blend Onset and Rime — Listen and Find the Word",
       "nl": "Plak de Klanken Samen",
-      "da": "Sæt Lydene Sammen"
+      "da": "Sæt Lydene Sammen",
+      "de": "Suse die Schnecke: Laute zusammenschleifen (Klasse 1)"
     },
     "page_intro": {
       "en": "Hear the ending sound, see the first letter, and blend them into a word — then tap its picture. One of the pictures rhymes, so the first letter is the clue that finds the right word. Take your time; there is no timer and no score. Aligned to Common Core RF.K.2.c — blending and segmenting onsets and rimes of single-syllable spoken words.",
+      "de": "Bei diesem kostenlosen Spiel verbindet dein Kind den ersten Laut mit dem Rest des Wortes und tippt das passende Bild an. Suse die Schnecke zieht die Laute ganz langsam zusammen — zum Beispiel „H“ und „aus“ zu „Haus“. Weil unter den Bildern auch ein Reimwort wie „Maus“ versteckt ist, achtet dein Kind genau auf den ersten Laut — ganz ohne Zeitdruck und ohne Punkte.",
       "nl": "Welkom bij deze rustige luister- en kijkoefening voor jonge lezers. Je kind ziet de eerste letter en hoort het laatste stukje van het woord. Door die delen samen te plakken — net als hakken en plakken in de klas — ontdekt je kind welk plaatje erbij hoort. Een woordje met dezelfde klank zit er telkens tussen, zodat de eerste letter er echt toe doet. Geen klok, geen punten: gewoon ontdekken en oefenen, in lijn met de SLO-kerndoelen voor groep 3.",
       "da": "Her hører dit barn slutningen af et ord og ser den første lyd. Sammen smelter I lydene til ét ord og finder det rigtige billede. Der er ingen tid og ingen point – kun roen til at lytte, prøve og opdage, hvordan lyde bliver til ord. En blid og legende start på at læse, helt i tråd med Fælles Mål for dansk i 0.-1. klasse."
     },

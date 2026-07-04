@@ -24,6 +24,7 @@ const GRADE_KEY_MAP: Record<string, string> = {
 const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'sound-boxes.phoneme-position.rf-k-2-d': { de: '1' },                  // Klasse 1 (Schuleingangsphase): Lautanalyse (An-/In-/Auslaut heraushören) = Kern der phonologischen Bewusstheit (US RF.K.2.d; K-cluster → Klasse 1)
   'choice-board.read-cvc-word.rf-k-3': { de: '1' },                      // Klasse 1 — Erstlesen: Wörter erlesen (synthetisierendes Lesen) = Kern des Anfangsunterrichts (US RF.K.3; K-cluster → Klasse 1)
+  'choice-board.onset-rime-blend.rf-k-2-c': { de: '1' },                 // Klasse 1 — Lautsynthese (Anlaut + Reim zusammenschleifen) = Vorstufe des Erlesens, Anfangsunterricht (US RF.K.2.c; K-cluster → Klasse 1)
   'penny-alphabet-trace.letter-formation.l-k-1-a': { de: '1' },          // Klasse 1 — Erstschreiben: formgerechtes Nachspuren der Druckbuchstaben = Kern des Anfangsunterrichts (US L.K.1.a; K-cluster → Klasse 1)
   'rhyme-shop.rhyme.rf-k-2-a': { de: '1' },                              // Klasse 1 — Reime/phonologische Bewusstheit = Kernkompetenz des Anfangsunterrichts (US RF.K.2.a; K-cluster → Klasse 1)
   'sock-and-shadow.puppet-speak.sl-k-6': { de: '1' },                    // Klasse 1 — KMK Sprechen und Zuhören: verständlich/adressatenbezogen beschreiben (US SL.K.6; K-cluster → Klasse 1)
@@ -104,6 +105,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'sound-boxes.phoneme-position.rf-k-2-d': { de: 'Sprache und Sprachgebrauch untersuchen' }, // Lautanalyse = metalinguistische Analyse der Lautstruktur (KMK); distinct from #102 Reime „Sprechen und Zuhören" (holistic listening)
   'stretch-giraffe.long-short-vowel.rf-1-2-a': { de: 'Sprache und Sprachgebrauch untersuchen' }, // Vokallaenge = analytische Isolation+Klassifikation des betonten Selbstlauts nach dem Merkmal Quantitaet (metasprachlich, wie #106); NOT #102 „Sprechen und Zuhören"; RF hat keinen de-Eintrag in strand-names.ts -> Override setzt den Chip
   'choice-board.read-cvc-word.rf-k-3': { de: 'Lesen – mit Texten und Medien umgehen' }, // Erstlesen = rezeptiv-lesende Kompetenz (KMK Kompetenzbereich Lesen, „über Lesefaehigkeiten verfuegen"); distinct from #106/#107 „untersuchen"; RF hat keinen de-Eintrag in strand-names.ts -> Override setzt den Chip
+  'choice-board.onset-rime-blend.rf-k-2-c': { de: 'Lesen – mit Texten und Medien umgehen' }, // Lautsynthese = graphem-gestuetzte Leseanbahnung (Vorstufe von #108); nicht #102 auditives „Zuhören" noch #106/#107 „untersuchen"; RF hat keinen de-Eintrag in strand-names.ts -> Override setzt den Chip
   'clock-convert.12-24.2-md-c-7': { de: 'Größen und Messen' },          // Zeit ist eine Größe — KMK-Leitidee „Größen und Messen"; „Measurement & Data" auto-map is wrong
   'penny-alphabet-trace.letter-formation.l-k-1-a': { de: 'Schreiben – Schreibfertigkeiten' }, // Handwriting/letter formation = KMK „Schreiben" (über Schreibfertigkeiten verfügen), NOT Rechtschreibung („Richtig schreiben") and NOT the grammar Bereich
   'mango-animal-groups.collective-nouns.l-2-1-a': { de: 'Wortschatz untersuchen und erweitern' }, // Sammelnamen = Wortschatzarbeit, not the grammar Bereich (olive/roary/ziggy precedent); „Language" auto-map would read as „Sprache untersuchen"
@@ -420,7 +422,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.111';
+  const ACTIVITY_WRAPPER_VERSION = '9.112';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

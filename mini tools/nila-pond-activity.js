@@ -26,6 +26,7 @@
   'use strict';
 
   var Core = global.MainIdeaCore;
+  var LANG = 'en';  // set from api.lang in init(); drives TTS + de round-bank + strings
 
   var C = { T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', INK: '#2A2A35', GOLD: '#E8A53A', GOOD: '#2FA56A', POND: '#9FD8E6' };
   var FISH_TINTS = ['#F2784B', '#5BBE9E', '#E8A53A', '#7FA8E0', '#C58BD8'];
@@ -33,8 +34,8 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG; u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -48,7 +49,7 @@
       : hmm ? '<path d="M48 58 q6 -3 12 1" stroke="#2A2A35" stroke-width="2.2" fill="none" stroke-linecap="round"/>'
         : '<path d="M48 57 q6 4 12 0" stroke="#2A2A35" stroke-width="2.2" fill="none" stroke-linecap="round"/>';
     var ear = listen ? '<path d="M30 30 q-7 -3 -4 6" stroke="#2A2A35" stroke-width="2" fill="none"/>' : '';
-    return '<svg class="np-nila-svg" viewBox="0 0 108 100" role="img" aria-label="Nila the otter">'
+    return '<svg class="np-nila-svg" viewBox="0 0 108 100" role="img" aria-label="' + (LANG === 'de' ? 'Nila die Otterdame' : 'Nila the otter') + '">'
       + '<ellipse cx="54" cy="58" rx="32" ry="30" fill="#B98A5E"/>'
       + '<ellipse cx="54" cy="66" rx="20" ry="18" fill="#E9D6BE"/>'
       + '<circle cx="33" cy="34" r="9" fill="#B98A5E"/><circle cx="75" cy="34" r="9" fill="#B98A5E"/>'
@@ -80,26 +81,27 @@
     id: 'nila-pond-activity',
 
     strings: {
-      title: { en: "Nila's Idea Pond" },
-      instruction: { en: '' },
-      prompt: { en: "What's the big idea?" },
-      readAgain: { en: '🔊 Read again' },
-      commit: { en: "That's the big idea!" },
-      schoolHint: { en: 'Bring the true details home. Send back the one that was NOT in the story.' },
-      supplyHint: { en: 'Which one was in the story?' },
-      pondLabel: { en: 'Back to the pond' },
-      slotLabel: { en: 'Detail' },
-      nilaListen: { en: 'Listen to the little story…' },
-      nilaPickFirst: { en: 'Tap a fish, then tell me the big idea!' },
-      nilaWrong: { en: "Hmm — let's listen again." },
-      nilaSchool: { en: 'Now bring the true details home!' },
-      nilaWin: { en: 'You found the big idea!' },
-      hintCheck: { en: 'Find the big idea first, then tap Check!' }
+      title: { en: "Nila's Idea Pond", de: 'Nilas Ideen-Teich' },
+      instruction: { en: '', de: '' },
+      prompt: { en: "What's the big idea?", de: 'Worum geht es?' },
+      readAgain: { en: '🔊 Read again', de: '🔊 Nochmal vorlesen' },
+      commit: { en: "That's the big idea!", de: 'Das ist die Hauptsache!' },
+      schoolHint: { en: 'Bring the true details home. Send back the one that was NOT in the story.', de: 'Bring die echten Details nach Hause – und schick den Fisch zurück, der nicht in der Geschichte war.' },
+      supplyHint: { en: 'Which one was in the story?', de: 'Welcher von diesen zwei kam in der Geschichte vor?' },
+      pondLabel: { en: 'Back to the pond', de: 'Zurück in den Teich' },
+      slotLabel: { en: 'Detail', de: 'Detail' },
+      nilaListen: { en: 'Listen to the little story…', de: 'Hör dir die kleine Geschichte an …' },
+      nilaPickFirst: { en: 'Tap a fish, then tell me the big idea!', de: 'Tipp einen Fisch an und sag mir, worum es geht.' },
+      nilaWrong: { en: "Hmm — let's listen again.", de: 'Hmm – hören wir noch einmal zu.' },
+      nilaSchool: { en: 'Now bring the true details home!', de: 'Jetzt bring die echten Details nach Hause.' },
+      nilaWin: { en: 'You found the big idea!', de: 'Du hast die Hauptsache gefunden!' },
+      hintCheck: { en: 'Find the big idea first, then tap Check!', de: 'Finde zuerst die Hauptsache, dann tippe auf „Prüfen".' },
+      retellPrefix: { en: 'So it was all about this. ', de: 'Es ging also die ganze Zeit um das hier: ' }
     },
     defaults: {},
 
     init: function (api) {
-      this.api = api;
+      this.api = api; LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this._rawRounds = [];
       this.round = null; this.stage = 'hear';
@@ -383,7 +385,7 @@
       this.msg = api.t('nilaWin');
       this.api.sound && this.api.sound(900);
       this.render();
-      var retell = 'So it was all about this. ' + (topicF ? topicF.phrase : '');
+      var retell = api.t('retellPrefix') + (topicF ? topicF.phrase : '');
       api.announce && api.announce(api.t('nilaWin'));
       speak(retell);
     },
@@ -422,7 +424,8 @@
         .then(function (rows) {
           var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return;
           self._activityRow = row;
-          self._rawRounds = (row.params.rounds || []).map(function (r) { return JSON.parse(JSON.stringify(r)); });
+          var rds = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds || [];
+          self._rawRounds = rds.map(function (r) { return JSON.parse(JSON.stringify(r)); });
           self._pool = makeTasks(self._rawRounds);
           self._order = null;
           if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();

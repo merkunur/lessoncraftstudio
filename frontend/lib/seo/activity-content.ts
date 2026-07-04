@@ -164,6 +164,7 @@ export function gradeToAgeRange(grade: string): string | null {
     '1': '6-7',
     '2': '7-8',
     '3': '8-9',
+    '4': '9-10',
   };
   return map[grade] ?? null;
 }

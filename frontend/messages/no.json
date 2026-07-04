@@ -1108,7 +1108,8 @@
       "kindergarten": "Skolestart",
       "grade_1": "1. trinn",
       "grade_2": "2. trinn",
-      "grade_3": "3. trinn"
+      "grade_3": "3. trinn",
+      "grade_4": "4. trinn"
     },
     "words": {
       "worksheet": "Arbeidsark",

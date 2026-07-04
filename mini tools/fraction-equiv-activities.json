@@ -50,13 +50,16 @@
       ]
     },
     "slug": {
-      "en": "equivalent-fractions-same-amount"
+      "en": "equivalent-fractions-same-amount",
+      "de": "gleichwertige-brueche-gleich-viel-klasse-4"
     },
     "page_title": {
-      "en": "Crumb's Same-Amount Bakery — Equivalent Fractions (Grade 3)"
+      "en": "Crumb's Same-Amount Bakery — Equivalent Fractions (Grade 3)",
+      "de": "Krümel die Maus: gleichwertige Brüche – gleich viel (Klasse 4)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 3 fractions activity: Crumb the mouse shows a piece cut one way, then three pieces cut into more or fewer slices. Tap the one that is the SAME amount — the equivalent fraction (like 1/2 and 3/6). Shaded bars plus the fraction numbers let children see that different fractions can name the same amount. Common Core 3.NF.A.3."
+      "en": "A free interactive Grade 3 fractions activity: Crumb the mouse shows a piece cut one way, then three pieces cut into more or fewer slices. Tap the one that is the SAME amount — the equivalent fraction (like 1/2 and 3/6). Shaded bars plus the fraction numbers let children see that different fractions can name the same amount. Common Core 3.NF.A.3.",
+      "de": "Dein Kind schaut sich einen Bruch an – zum Beispiel 1/2 – und sucht darunter den Bruch, der genau gleich viel zeigt. Die farbig gefüllten Balken machen es sichtbar: 1/2 und 2/4 sind gleich voll, nur anders geschnitten. Krümel die Maus backt in ihrer kleinen Bäckerei und schneidet die Stücke – dein Kind tippt das gleich große an. Kostenlos, ohne Zeitdruck und ganz ohne Punkte."
     },
     "kid_prompt_template": "fraction-equiv"
   }

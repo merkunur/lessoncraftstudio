@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "marlo-magnifier.trait-evidence.rl-1-3": {
+      "about": [
+        "Durch Marlos große Lupe wird jedes Wort zum Hinweis: Dein Kind liest eine kurze Geschichte und bekommt eine Behauptung über eine Figur – zum Beispiel „Mira ist mutig.“ Jetzt heißt es, genau hinzuschauen. Drei Details stehen zur Auswahl, aber nur eines beweist die Eigenschaft wirklich: „Sie ging in die dunkle Höhle hinein.“ belegt Miras Mut, während „Sie trug ihre roten Gummistiefel.“ zwar stimmt, aber nichts über ihren Mut verrät. Dein Kind tippt auf das Beweis-Detail – und Marlo der Waschbär nickt anerkennend.",
+        "Dahinter steckt eine wichtige Lesefähigkeit: eine Charaktereigenschaft nicht einfach zu glauben, sondern sie mit einer konkreten Textstelle zu belegen. Dein Kind lernt, ein passendes Beweis-Detail von einem wahren, aber unpassenden Detail zu unterscheiden – und aus dem, was eine Figur tut, auf ihre Eigenschaft zu schließen. Das gehört im Lehrplan der Grundschule zum Bereich „Literarische Texte verstehen“ und ist ein wichtiger Schritt zum sinnverstehenden Lesen in Klasse 3.",
+        "„Marlos Lupe“ ist komplett kostenlos und ohne Anmeldung spielbar. Es gibt keine Uhr, keinen Countdown und keine Punkte – dein Kind darf in seinem eigenen Tempo lesen und in Ruhe überlegen. Wer noch nicht sicher liest, tippt einfach auf „📖 Vorlesen“ und lässt sich die Geschichte und die Behauptung vorlesen. So können auch Leseanfänger mitdetektivieren und jeden Beleg selbst entdecken."
+      ],
+      "practices": [
+        "Eine Charaktereigenschaft mit einer passenden Textstelle belegen",
+        "Ein Beweis-Detail von einem wahren, aber unpassenden Detail unterscheiden",
+        "Aus dem, was eine Figur tut, auf ihre Eigenschaft schließen",
+        "Genau lesen und den passenden Beleg im Text finden"
+      ],
+      "howToPlay": [
+        "Lies die kurze Geschichte und die Behauptung über die Figur – oder tippe auf „📖 Vorlesen“.",
+        "Überlege, welches der drei Details die genannte Eigenschaft wirklich zeigt.",
+        "Tippe auf das Beweis-Detail, das die Eigenschaft belegt."
+      ],
+      "learningGoals": [
+        "Dein Kind belegt Charaktereigenschaften einer Figur sicher mit einer Textstelle.",
+        "Dein Kind unterscheidet ein echtes Beweis-Detail von einem wahren, aber unpassenden Detail.",
+        "Dein Kind liest genauer und schließt aus Handlungen auf Eigenschaften einer Figur."
+      ]
+    },
     "pearl-opinion-page.back-it-up.ri-2-8": {
       "about": [
         "Pearl die Robbe blättert ihre Meinungsseite auf: Auf jeder Seite steht eine Meinung, zum Beispiel „Unsere Stadt sollte einen neuen Park bauen.“ — und darunter liegen drei Karten. Dein Kind hört den Text vorgelesen und tippt die Karte an, die die Meinung wirklich mit einem Grund stützt.",

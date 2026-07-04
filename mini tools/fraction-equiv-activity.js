@@ -18,6 +18,7 @@
   var Core = global.FractionEquivCore;
   var C = { T: '#146B5E', BODY: '#EAF4F1', SH: '#F2784B', TX: '#0F4A40' };
 
+  var LANG = 'en';
   var L = {
     en: {
       q: 'Which one is the same amount?',
@@ -25,10 +26,22 @@
       winSame: 'Yes! {ref} and {cand} — the same amount, cut a different way!',
       hear: '🔊 Hear',
       nudge: 'Not quite — that bar is a little {rel}. Find the one just as full as {ref}.',
-      more: 'more', fewer: 'fewer'
+      more: 'more', fewer: 'fewer', less: 'less'
+    },
+    de: {
+      q: 'Welcher Bruch zeigt gleich viel?',
+      win: 'Ja! {ref} und {cand} — gleich viel, nur {dir} Stücke!',
+      winSame: 'Ja! {ref} und {cand} — gleich viel, nur anders geteilt!',
+      hear: '🔊 Hören',
+      nudge: 'Nicht ganz — dieser Balken zeigt etwas {rel}. Finde den, der genauso voll ist wie {ref}.',
+      more: 'mehr', fewer: 'weniger', less: 'weniger'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  /* spoken German fraction word: "ein Halb", "zwei Viertel" (denoms 2/3/4/6/8) */
+  var NUMCARD = { 1: 'ein', 2: 'zwei', 3: 'drei', 4: 'vier', 5: 'fünf', 6: 'sechs', 7: 'sieben' };
+  var FRACNOUN = { 2: 'Halb', 3: 'Drittel', 4: 'Viertel', 5: 'Fünftel', 6: 'Sechstel', 8: 'Achtel' };
+  function bruchwort(num, den) { return (NUMCARD[num] || num) + ' ' + (FRACNOUN[den] || (den + 'tel')); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function fracStr(f) { return f.num + '/' + f.den; }
 
@@ -80,13 +93,14 @@
   var FractionEquivActivity = {
     id: 'fraction-equiv-activity',
     strings: {
-      title: { en: "Crumb's Same-Amount Bakery" },
-      instruction: { en: 'Find the fraction that shows the same amount as Crumb’s piece.' },
-      q: { en: '{q}' }
+      title: { en: "Crumb's Same-Amount Bakery", de: "Krümels Gleich-viel-Bäckerei" },
+      instruction: { en: 'Find the fraction that shows the same amount as Crumb’s piece.', de: 'Finde den Bruch, der gleich viel zeigt wie Krümels Stück.' },
+      q: { en: '{q}', de: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._round = null; this._resolved = false; this._token = 0;
       this._nonAns = {}; this._lit = -1; this._candOrder = null;
@@ -183,7 +197,7 @@
         var f = round.candidates[ci];
         var b = el('button', 'fe-cand' + (self._nonAns[ci] ? ' dim' : '') + (self._lit === ci ? ' lit' : ''));
         b.type = 'button'; b.setAttribute('data-ci', ci);
-        b.setAttribute('aria-label', f.num + ' over ' + f.den);
+        b.setAttribute('aria-label', LANG === 'de' ? (f.num + ' von ' + f.den) : (f.num + ' over ' + f.den));
         b.innerHTML = candSVG(f);
         b.addEventListener('click', function () {
           if (self._resolved || self._nonAns[ci] || self._token !== tok) return;
@@ -200,8 +214,10 @@
       var msg = el('p', 'fe-msg'); msg.setAttribute('aria-live', 'polite');
       var hear = el('button', 'fe-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = 'Crumb made ' + round.ref.num + ' out of ' + round.ref.den + '. ' + txt('q');
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: 'en', rate: 0.92 }); } catch (e) { } }
+        var t = (LANG === 'de')
+          ? 'Krümel hat ' + bruchwort(round.ref.num, round.ref.den) + ' gebacken. ' + txt('q')
+          : 'Crumb made ' + round.ref.num + ' out of ' + round.ref.den + '. ' + txt('q');
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.92 }); } catch (e) { } }
       });
       say.append(cr, msg, hear); root.appendChild(say); this._crumb = cr;
 
@@ -224,7 +240,7 @@
     },
     _nudge: function (round, ci) {
       var rel = Core.relation(round, ci);
-      var msgText = txt('nudge', { rel: rel === 'more' ? txt('more') : 'less', ref: fracStr(round.ref) });
+      var msgText = txt('nudge', { rel: rel === 'more' ? txt('more') : txt('less'), ref: fracStr(round.ref) });
       this._api.sound && this._api.sound(440);
       this.render();
       var line = this._api.stage.querySelector('.fe-msg');
@@ -234,8 +250,11 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'fe-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var cs = (round.candidates || []).map(function (x) { return x.num + ' over ' + x.den; }).join(', ');
-      wrap.innerHTML = '<p>Crumb’s piece is ' + round.ref.num + ' over ' + round.ref.den + '. ' + txt('q') + ' The choices are: ' + cs + '.</p>';
+      var sep = LANG === 'de' ? ' von ' : ' over ';
+      var cs = (round.candidates || []).map(function (x) { return x.num + sep + x.den; }).join(', ');
+      wrap.innerHTML = (LANG === 'de')
+        ? '<p>Krümels Stück ist ' + round.ref.num + ' von ' + round.ref.den + '. ' + txt('q') + ' Die Auswahl: ' + cs + '.</p>'
+        : '<p>Crumb’s piece is ' + round.ref.num + ' over ' + round.ref.den + '. ' + txt('q') + ' The choices are: ' + cs + '.</p>';
       return wrap;
     },
 

@@ -284,6 +284,29 @@
         "erste Wörter selbstständig erlesen"
       ]
     },
+    "fraction-equiv.same-amount.3-nf-a-3": {
+      "about": [
+        "Krümel die Maus zeigt deinem Kind ein Stück Kuchen: die Hälfte, also 1/2 – der Balken ist bis zur Mitte gefüllt. Darunter liegen drei weitere Stücke, jedes anders geschnitten. Dein Kind vergleicht die gefüllten Balken und tippt „2/4“ an, weil dieser Balken genauso voll ist wie 1/2 – gleich viel, nur in vier Teile statt in zwei geschnitten. So merkt dein Kind: Es ist dieselbe Menge, auch wenn die Zahlen anders aussehen.",
+        "Zu verstehen, dass verschiedene Brüche gleich viel bedeuten können, ist einer der wichtigsten Schritte beim Bruchrechnen. 1/2, 2/4 und 3/6 sehen unterschiedlich aus, meinen aber dieselbe Menge – das nennt man gleichwertige Brüche. Die farbig gefüllten Balken machen das nicht zu einer Regel zum Auswendiglernen, sondern zu etwas, das dein Kind mit eigenen Augen sieht. Wer einmal erkannt hat, dass gleich volle Balken gleich viel bedeuten, versteht später auch das Kürzen und Erweitern viel leichter.",
+        "Die Aufgabe ist für die Klasse 4 gemacht und lässt deinem Kind alle Zeit der Welt – es gibt keinen Zeitdruck und keine Punkte. Krümel sagt nie „falsch“: Passt ein Stück noch nicht, darf dein Kind es einfach noch einmal versuchen. Mit dem „Hören“-Knopf liest Krümel die Aufgabe laut vor, sodass auch Kinder mitmachen können, die noch nicht sicher lesen."
+      ],
+      "practices": [
+        "gleichwertige Brüche erkennen",
+        "Bruchteile vergleichen",
+        "sehen, dass verschiedene Brüche gleich viel sein können",
+        "Bruch und Bild miteinander verbinden"
+      ],
+      "howToPlay": [
+        "Schau dir den Bruch oben an – zum Beispiel 1/2 – und wie voll sein Balken ist.",
+        "Vergleiche die drei Stücke darunter und finde den gleich vollen Balken.",
+        "Tippe den Bruch an, der gleich viel zeigt."
+      ],
+      "learningGoals": [
+        "verstehen, dass verschiedene Brüche dieselbe Menge zeigen können",
+        "Bruchteile über die gefüllten Balken vergleichen",
+        "ein sicheres Gefühl für gleichwertige Brüche aufbauen"
+      ]
+    },
     "clock-convert.12-24.2-md-c-7": {
       "about": [
         "Kiko der Hahn kräht nicht nur morgens – er kennt die Uhr rund um die Uhr! Dein Kind liest eine Zeit wie „15:00“ und sucht dann unter drei Karten die passende Uhrzeit mit Tageszeit: „3:00 nachmittags“. Tippt es die richtige Karte an, freut sich Kiko lautstark – ein kleines Kikeriki für jede erkannte Zeit.",

@@ -1124,7 +1124,8 @@
       "kindergarten": "Grande section",
       "grade_1": "CP",
       "grade_2": "CE1",
-      "grade_3": "CE2"
+      "grade_3": "CE2",
+      "grade_4": "CM1"
     },
     "words": {
       "worksheet": "Fiche d'exercices",

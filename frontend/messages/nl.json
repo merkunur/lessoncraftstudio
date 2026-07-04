@@ -774,7 +774,8 @@
       "kindergarten": "Kleuters",
       "grade_1": "Groep 3",
       "grade_2": "Groep 4",
-      "grade_3": "Groep 5"
+      "grade_3": "Groep 5",
+      "grade_4": "Groep 6"
     },
     "words": {
       "worksheet": "Werkblad",

@@ -1093,7 +1093,8 @@
       "kindergarten": "Esiopetus",
       "grade_1": "1. luokka",
       "grade_2": "2. luokka",
-      "grade_3": "3. luokka"
+      "grade_3": "3. luokka",
+      "grade_4": "4. luokka"
     },
     "words": {
       "worksheet": "Tehtävämoniste",

@@ -14,12 +14,24 @@
         { "id": "lions", "band": 2, "subject": { "noun": "lion", "themeDir": "zoo animals" }, "plural": "lions", "correct": "pride", "choices": [ { "word": "herd" }, { "word": "swarm" }, { "word": "pride" } ] },
         { "id": "grapes", "band": 3, "subject": { "noun": "grapes", "themeDir": "At the Supermarket" }, "plural": "grapes", "correct": "bunch", "choices": [ { "word": "bunch" }, { "word": "flock" }, { "word": "pack" } ] },
         { "id": "sheep", "band": 3, "subject": { "noun": "sheep", "themeDir": "animals" }, "plural": "sheep", "correct": "flock", "choices": [ { "word": "school" }, { "word": "flock" }, { "word": "herd" } ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "kuehe", "band": 1, "subject": { "noun": "cow", "themeDir": "farm animals" }, "plural": "Kühe", "correct": "Herde", "choices": [ { "word": "Herde" }, { "word": "Rudel" }, { "word": "Schwarm" } ] },
+          { "id": "schafe", "band": 2, "subject": { "noun": "sheep", "themeDir": "farm animals" }, "plural": "Schafe", "correct": "Herde", "choices": [ { "word": "Herde" }, { "word": "Schwarm" }, { "word": "Volk" } ] },
+          { "id": "elefanten", "band": 3, "subject": { "noun": "elephant", "themeDir": "zoo animals" }, "plural": "Elefanten", "correct": "Herde", "choices": [ { "word": "Herde" }, { "word": "Rudel" }, { "word": "Volk" } ] },
+          { "id": "woelfe", "band": 1, "subject": { "noun": "wolf", "themeDir": "animals" }, "plural": "Wölfe", "correct": "Rudel", "choices": [ { "word": "Rudel" }, { "word": "Herde" }, { "word": "Schwarm" } ] },
+          { "id": "loewen", "band": 2, "subject": { "noun": "lion", "themeDir": "zoo animals" }, "plural": "Löwen", "correct": "Rudel", "choices": [ { "word": "Rudel" }, { "word": "Schwarm" }, { "word": "Volk" } ] },
+          { "id": "fische", "band": 1, "subject": { "noun": "fish", "themeDir": "animals" }, "plural": "Fische", "correct": "Schwarm", "choices": [ { "word": "Schwarm" }, { "word": "Herde" }, { "word": "Rudel" } ] },
+          { "id": "voegel", "band": 2, "subject": { "noun": "bird", "themeDir": "spring" }, "plural": "Vögel", "correct": "Schwarm", "choices": [ { "word": "Schwarm" }, { "word": "Volk" }, { "word": "Herde" } ] },
+          { "id": "bienen", "band": 3, "subject": { "noun": "bee", "themeDir": "farm animals" }, "plural": "Bienen", "correct": "Volk", "choices": [ { "word": "Volk" }, { "word": "Schwarm" }, { "word": "Rudel" } ] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "mango-animal-groups" },
-    "page_title": { "en": "Mango's Animal Groups — Name the Group (Grade 2)" },
-    "page_intro": { "en": "Mango the monkey knows what to call a group of animals! A group of cows is a herd, a group of fish is a school. Look at the animal, then tap the word that names a whole group of them. A Grade 2 grammar game about collective nouns, aligned to Common Core L.2.1.a." },
+    "slug": { "en": "mango-animal-groups", "de": "sammelnamen-fuer-tiere" },
+    "page_title": { "en": "Mango's Animal Groups — Name the Group (Grade 2)", "de": "Mango der Affe – Sammelnamen für Tiere (Klasse 2)" },
+    "page_intro": { "en": "Mango the monkey knows what to call a group of animals! A group of cows is a herd, a group of fish is a school. Look at the animal, then tap the word that names a whole group of them. A Grade 2 grammar game about collective nouns, aligned to Common Core L.2.1.a.", "de": "Mit Mango dem Affen lernt dein Kind Sammelnamen für Tiere kennen – ein Wort für eine ganze Gruppe: viele Kühe sind eine Herde, viele Fische ein Schwarm. So wächst der Wortschatz ganz nebenbei. Kostenlos, ohne Zeitdruck und ohne Punkte, und alles wird vorgelesen." },
     "kid_prompt_template": "What do we call a group of them?"
   }
 ]

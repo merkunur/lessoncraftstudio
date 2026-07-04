@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "linc-fact-chain.connect.ri-k-3": {
+      "about": [
+        "Kettenglied für Kettenglied hakt Ketti, die neugierige Eidechse, Fakten zusammen – und dein Kind hilft ihr dabei. Ketti zeigt einen kurzen Satz, zum Beispiel „Ein Samen liegt in der Erde.“, und stellt eine Frage: Welcher Fakt gehört dazu? Aus drei Karten sucht dein Kind die eine passende heraus – hier „Aus dem Samen wächst eine Pflanze.“ – und lässt sich von unpassenden Karten wie „Der Vogel sitzt auf dem Ast.“ nicht austricksen. So lernt es, zwei Sachverhalte sinnvoll zu verknüpfen: zu erkennen, was als Nächstes geschieht (Reihenfolge) und was etwas bewirkt (Ursache und Wirkung). Das gehört zum Lehrplan-Bereich „Sachtexte verstehen“. Alles ist kostenlos, ganz ohne Zeitdruck und Punkte, und ein „📖 Vorlesen“-Knopf liest jüngeren Kindern jeden Satz vor.",
+        "Manchmal geht es um die Reihenfolge, manchmal um die Wirkung. Scheint zum Beispiel „Die Sonne scheint auf den Schnee.“, dann folgt daraus „Der Schnee schmilzt.“ – und nicht irgendein anderer hübscher, aber unpassender Satz. Genau dieses Nachdenken – Was hängt hier wirklich zusammen? – ist der Kern des Lesens von Sachtexten. Kinder, die Ursache und Wirkung erkennen, verstehen später Anleitungen, Tierbücher und Erklärtexte viel leichter, weil sie den roten Faden zwischen den Sätzen sehen.",
+        "In der Grundschule, etwa ab Klasse 2, wächst diese Fähigkeit Schritt für Schritt. Deshalb bleibt Ketti geduldig: Dein Kind darf in Ruhe überlegen, ausprobieren und noch einmal hören. Es gibt kein Richtig-oder-raus, keine Uhr und keine Bestenliste – nur den kleinen, feinen Aha-Moment, wenn zwei Fakten hörbar einrasten und die Kette ein Glied länger wird."
+      ],
+      "practices": [
+        "Erkennen, was als Nächstes passiert",
+        "Ursache und Wirkung miteinander verbinden",
+        "Einen passenden Fakt von einem unpassenden unterscheiden",
+        "Zwei Sachverhalte logisch verknüpfen"
+      ],
+      "howToPlay": [
+        "Lies den ersten Fakt und die Frage – oder tippe auf „📖 Vorlesen“, um beides zu hören.",
+        "Überlege: Welcher Satz gehört dazu? Was folgt daraus oder was bewirkt er?",
+        "Tippe die Karte mit dem passenden Fakt an – Ketti hakt sie sofort in die Kette ein."
+      ],
+      "learningGoals": [
+        "Dein Kind verknüpft zwei Fakten aus einem Sachtext zu einer sinnvollen Kette.",
+        "Dein Kind erkennt Reihenfolge sowie Ursache und Wirkung zwischen zwei Aussagen.",
+        "Dein Kind unterscheidet sicher zwischen einem verbundenen und einem nicht verbundenen Fakt."
+      ]
+    },
     "marlo-magnifier.trait-evidence.rl-1-3": {
       "about": [
         "Durch Marlos große Lupe wird jedes Wort zum Hinweis: Dein Kind liest eine kurze Geschichte und bekommt eine Behauptung über eine Figur – zum Beispiel „Mira ist mutig.“ Jetzt heißt es, genau hinzuschauen. Drei Details stehen zur Auswahl, aber nur eines beweist die Eigenschaft wirklich: „Sie ging in die dunkle Höhle hinein.“ belegt Miras Mut, während „Sie trug ihre roten Gummistiefel.“ zwar stimmt, aber nichts über ihren Mut verrät. Dein Kind tippt auf das Beweis-Detail – und Marlo der Waschbär nickt anerkennend.",

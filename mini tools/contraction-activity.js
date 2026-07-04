@@ -17,6 +17,7 @@
   'use strict';
 
   var Core = global.ContractionCore;
+  var LANG = 'en';   // content locale; set in init from api.lang (de fan-out §A.13.54)
 
   var L = {
     en: {
@@ -24,10 +25,21 @@
       win: 'Yes! {note}', winNote: 'The apostrophe stands right where the missing letters were!',
       hear: '🔊 Hear it',
       nudge: 'The apostrophe stands EXACTLY where the missing letters were — look for that spot!'
+    },
+    de: {
+      q: 'Setze die Wörter zusammen – welche Kurzform ist richtig?',
+      win: 'Genau! {note}', winNote: 'Aus zwei Wörtern wird ein kurzes Wort!',
+      hear: '🔊 Anhören',
+      nudge: 'Nicht ganz – welche Kurzform passt zu diesen zwei Wörtern?'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
+
+  /* German PRÄPOSITION-ARTIKEL-VERSCHMELZUNG wrapper (activity-layer; 0 lines to contraction-core.js).
+     The core's apostrophe chip/grade path is bypassed for de: chips = [fusion, ...foils]; correct = round.fusion. */
+  function deChips(round) { return [round.fusion].concat(round.foils || []); }
+  function deIsAnswer(round, str) { return str === round.fusion; }
 
   function nibSVG() {
     /* Nib — a coral apostrophe-spirit (a comma-curl with a little face) */
@@ -43,13 +55,14 @@
   var ContractionActivity = {
     id: 'contraction-activity',
     strings: {
-      title: { en: "Nib's Apostrophe Seat" },
-      instruction: { en: 'Pick the contraction with the apostrophe in exactly the right spot!' },
-      q: { en: '{q}' }
+      title: { en: "Nib's Apostrophe Seat", de: 'Zwirbels Kurzform-Wirbel' },
+      instruction: { en: 'Pick the contraction with the apostrophe in exactly the right spot!', de: 'Tippe die richtige Kurzform an!' },
+      q: { en: '{q}', de: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._lit = null; this._chipOrder = null;
@@ -96,7 +109,7 @@
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
             self._activityRow = row;
-            self._pool = (row && row.params && row.params.rounds) || [];
+            self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -127,7 +140,7 @@
 
     _beginRound: function (round) {
       this._round = round; this._resolved = false; this._token = (this._token || 0) + 1; this._nonConf = {}; this._lit = null;
-      this._chipOrder = this._shuffle(Core.chipStrings(round));   /* shuffle the 3 derived strings; position ≠ answer */
+      this._chipOrder = this._shuffle(LANG === 'de' ? deChips(round) : Core.chipStrings(round));   /* shuffle the 3 chips; position ≠ answer */
       if (this._app) this._app.classList.remove('nib-resolved');
     },
 
@@ -143,7 +156,7 @@
       var plus = el('span', 'ct-plus'); plus.textContent = '+';
       var w2 = el('span'); w2.textContent = round.word2;
       words.append(w1, plus, w2);
-      if (this._resolved) { var ar = el('span', 'ct-arrow'); ar.textContent = '→'; var res = el('span', 'ct-result'); res.textContent = Core.deriveCorrect(round); words.append(ar, res); }
+      if (this._resolved) { var ar = el('span', 'ct-arrow'); ar.textContent = '→'; var res = el('span', 'ct-result'); res.textContent = (LANG === 'de' ? round.fusion : Core.deriveCorrect(round)); words.append(ar, res); }
       root.appendChild(words);
 
       /* Nib + live line */
@@ -155,8 +168,8 @@
       /* Hear it */
       var self = this, hear = el('button', 'ct-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = round.word1 + ' ' + round.word2 + ' makes a contraction.';
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: 'en', rate: 0.92 }); } catch (e) { } }
+        var t = (LANG === 'de' ? (round.word1 + ' ' + round.word2 + ' wird zu ' + round.fusion + '.') : (round.word1 + ' ' + round.word2 + ' makes a contraction.'));
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
 
@@ -168,15 +181,15 @@
     _renderChips: function (root, round) {
       var self = this, tok = this._token;
       var strip = el('div', 'ct-strip');
-      var order = this._chipOrder || Core.chipStrings(round);
+      var order = this._chipOrder || (LANG === 'de' ? deChips(round) : Core.chipStrings(round));
       order.forEach(function (str) {
         var b = el('button', 'ct-cand' + (self._nonConf[str] ? ' dim' : '') + (self._lit === str ? ' lit' : ''));
         b.type = 'button'; b.setAttribute('data-str', str);
         b.textContent = str;
-        b.setAttribute('aria-label', str.split('').join(' '));   /* spell it out for SR (apostrophe position is the point) */
+        b.setAttribute('aria-label', LANG === 'de' ? str : str.split('').join(' '));   /* en: spell out (apostrophe position is the point); de: the bare short form */
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[str] || self._token !== tok) return;
-          if (Core.isAnswer(round, str)) { self._lit = str; self._resolve(); }
+          if (LANG === 'de' ? deIsAnswer(round, str) : Core.isAnswer(round, str)) { self._lit = str; self._resolve(); }
           else { self._nonConf[str] = 1; self._nudge(); }
         });
         strip.appendChild(b);
@@ -203,6 +216,11 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'ct-sronly'); wrap.setAttribute('aria-live', 'polite');
+      if (LANG === 'de') {
+        var deC = deChips(round).join('; ');
+        wrap.innerHTML = '<p>' + round.word1 + ' ' + round.word2 + '. ' + txt('q') + ' Zur Auswahl: ' + deC + '.</p>';
+        return wrap;
+      }
       var chips = Core.chipStrings(round).map(function (s) { return s.split('').join(' '); }).join('; ');
       wrap.innerHTML = '<p>' + round.word1 + ' plus ' + round.word2 + '. ' + txt('q') + ' Choices spelled out: ' + chips + '.</p>';
       return wrap;

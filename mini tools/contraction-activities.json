@@ -16,16 +16,31 @@
         { "id": "ct-im",     "word1": "I",    "word2": "am",   "combined": "Im",    "apostropheIndex": 1, "wrongIndex": 2, "irregular": false, "family": "m" },
         { "id": "ct-wont",   "word1": "will", "word2": "not",  "combined": "wont",  "apostropheIndex": 3, "wrongIndex": 2, "irregular": true,  "family": "nt" },
         { "id": "ct-cant",   "word1": "can",  "word2": "not",  "combined": "cant",  "apostropheIndex": 3, "wrongIndex": 2, "irregular": true,  "family": "nt" }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "in-dem",  "band": 1, "word1": "in",  "word2": "dem", "fusion": "im",   "foils": ["ins", "am"] },
+          { "id": "an-dem",  "band": 1, "word1": "an",  "word2": "dem", "fusion": "am",   "foils": ["ans", "im"] },
+          { "id": "zu-dem",  "band": 1, "word1": "zu",  "word2": "dem", "fusion": "zum",  "foils": ["zur", "vom"] },
+          { "id": "zu-der",  "band": 2, "word1": "zu",  "word2": "der", "fusion": "zur",  "foils": ["zum", "beim"] },
+          { "id": "in-das",  "band": 2, "word1": "in",  "word2": "das", "fusion": "ins",  "foils": ["im", "ans"] },
+          { "id": "bei-dem", "band": 2, "word1": "bei", "word2": "dem", "fusion": "beim", "foils": ["vom", "zum"] },
+          { "id": "von-dem", "band": 3, "word1": "von", "word2": "dem", "fusion": "vom",  "foils": ["beim", "zum"] },
+          { "id": "an-das",  "band": 3, "word1": "an",  "word2": "das", "fusion": "ans",  "foils": ["am", "ins"] }
+        ]
+      }
     },
     "slug": {
-      "en": "contractions-with-apostrophes"
+      "en": "contractions-with-apostrophes",
+      "de": "im-am-zum-praeposition-artikel-verschmelzung"
     },
     "page_title": {
-      "en": "Nib's Apostrophe Seat — Contractions (Grade 2)"
+      "en": "Nib's Apostrophe Seat — Contractions (Grade 2)",
+      "de": "Kurzformen: im, am, zum – Präposition & Artikel verbinden"
     },
     "page_intro": {
-      "en": "A free interactive Grade 2 grammar activity: help Nib the apostrophe-spirit form contractions. Read the two words, then pick the contraction that drops the right letters and puts the apostrophe in exactly the right spot. A friendly first look at how an apostrophe marks the missing letters. Common Core L.2.2.c."
+      "en": "A free interactive Grade 2 grammar activity: help Nib the apostrophe-spirit form contractions. Read the two words, then pick the contraction that drops the right letters and puts the apostrophe in exactly the right spot. A friendly first look at how an apostrophe marks the missing letters. Common Core L.2.2.c.",
+      "de": "Kostenlose interaktive Übung: „in dem“ wird „im“. Dein Kind verschmilzt Präposition & Artikel zu im, am, zum, ins – spielerisch, ohne Zeitdruck, ohne Punkte."
     },
     "kid_prompt_template": "contraction"
   }

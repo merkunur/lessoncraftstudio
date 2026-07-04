@@ -104,12 +104,97 @@
               { "noun": "pie", "themeDir": "bakery", "category": "food", "rimeKey": "AY", "spelledRime": "ie" }
             ] }
           ] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "rhyme-shop.de.judge-maus-haus", "cog": "judge",
+            "a": { "word": "Maus", "noun": "mouse", "themeDir": "pets", "category": "animal", "rimeKey": "AUS", "spelledRime": "aus" },
+            "b": { "word": "Haus", "noun": "house", "themeDir": "miscellaneous", "category": "object", "rimeKey": "AUS", "spelledRime": "aus" } },
+          { "id": "rhyme-shop.de.judge-fisch-hund", "cog": "judge",
+            "a": { "word": "Fisch", "noun": "fish", "themeDir": "ocean life", "category": "animal", "rimeKey": "ISCH", "spelledRime": "isch" },
+            "b": { "word": "Hund", "noun": "dog", "themeDir": "pets", "category": "animal", "rimeKey": "UND", "spelledRime": "und" } },
+
+          { "id": "rhyme-shop.de.pick-fisch", "cog": "pick",
+            "target": { "word": "Fisch", "noun": "fish", "themeDir": "ocean life", "category": "animal", "rimeKey": "ISCH", "spelledRime": "isch" },
+            "choices": [
+              { "word": "Tisch", "noun": "table", "themeDir": "around the house", "category": "object", "rimeKey": "ISCH", "spelledRime": "isch" },
+              { "word": "Hund", "noun": "dog", "themeDir": "pets", "category": "animal", "rimeKey": "UND", "spelledRime": "und" },
+              { "word": "Rose", "noun": "rose", "themeDir": "flowers", "category": "plant", "rimeKey": "OSE", "spelledRime": "ose" }
+            ] },
+          { "id": "rhyme-shop.de.pick-hose", "cog": "pick",
+            "target": { "word": "Hose", "noun": "pants", "themeDir": "clothing", "category": "clothing", "rimeKey": "OSE", "spelledRime": "ose" },
+            "choices": [
+              { "word": "Rose", "noun": "rose", "themeDir": "flowers", "category": "plant", "rimeKey": "OSE", "spelledRime": "ose" },
+              { "word": "Schwein", "noun": "pig", "themeDir": "farm animals", "category": "animal", "rimeKey": "EIN", "spelledRime": "ein" },
+              { "word": "Boot", "noun": "boat", "themeDir": "vehicles", "category": "vehicle", "rimeKey": "OT", "spelledRime": "oot" }
+            ] },
+          { "id": "rhyme-shop.de.pick-hahn", "cog": "pick",
+            "target": { "word": "Hahn", "noun": "rooster", "themeDir": "farm animals", "category": "animal", "rimeKey": "AHN", "spelledRime": "ahn" },
+            "choices": [
+              { "word": "Zahn", "noun": "tooth", "themeDir": "body parts", "category": "body", "rimeKey": "AHN", "spelledRime": "ahn" },
+              { "word": "Glocke", "noun": "bell", "themeDir": "christmas", "category": "object", "rimeKey": "OCKE", "spelledRime": "ocke" },
+              { "word": "Maus", "noun": "mouse", "themeDir": "pets", "category": "animal", "rimeKey": "AUS", "spelledRime": "aus" }
+            ] },
+
+          { "id": "rhyme-shop.de.odd-anne", "cog": "odd",
+            "choices": [
+              { "word": "Pfanne", "noun": "pan", "themeDir": "kitchen tools", "category": "object", "rimeKey": "ANNE", "spelledRime": "anne" },
+              { "word": "Tanne", "noun": "fir", "themeDir": "tree", "category": "plant", "rimeKey": "ANNE", "spelledRime": "anne" },
+              { "word": "Kanne", "noun": "teapot", "themeDir": "kitchen tools", "category": "object", "rimeKey": "ANNE", "spelledRime": "anne" },
+              { "word": "Socke", "noun": "sock", "themeDir": "accessories", "category": "clothing", "rimeKey": "OCKE", "spelledRime": "ocke" }
+            ] },
+
+          { "id": "rhyme-shop.de.sort-aus-anne", "cog": "sort",
+            "bins": [
+              { "word": "Maus", "noun": "mouse", "themeDir": "pets", "category": "animal", "rimeKey": "AUS", "spelledRime": "aus" },
+              { "word": "Pfanne", "noun": "pan", "themeDir": "kitchen tools", "category": "object", "rimeKey": "ANNE", "spelledRime": "anne" }
+            ],
+            "pile": [
+              { "word": "Haus", "noun": "house", "themeDir": "miscellaneous", "category": "object", "rimeKey": "AUS", "spelledRime": "aus" },
+              { "word": "Tanne", "noun": "fir", "themeDir": "tree", "category": "plant", "rimeKey": "ANNE", "spelledRime": "anne" },
+              { "word": "Kanne", "noun": "teapot", "themeDir": "kitchen tools", "category": "object", "rimeKey": "ANNE", "spelledRime": "anne" }
+            ] },
+
+          { "id": "rhyme-shop.de.chant-maus", "cog": "chant",
+            "coupletLine": "Da läuft die kleine graue Maus – schnell rennt sie in ihr …",
+            "target": { "word": "Maus", "noun": "mouse", "themeDir": "pets", "category": "animal", "rimeKey": "AUS", "spelledRime": "aus" },
+            "choices": [
+              { "word": "Haus", "noun": "house", "themeDir": "miscellaneous", "category": "object", "rimeKey": "AUS", "spelledRime": "aus" },
+              { "word": "Fisch", "noun": "fish", "themeDir": "ocean life", "category": "animal", "rimeKey": "ISCH", "spelledRime": "isch" },
+              { "word": "Socke", "noun": "sock", "themeDir": "accessories", "category": "clothing", "rimeKey": "OCKE", "spelledRime": "ocke" }
+            ] },
+
+          { "id": "rhyme-shop.de.field-anne", "cog": "field",
+            "target": { "word": "Pfanne", "noun": "pan", "themeDir": "kitchen tools", "category": "object", "rimeKey": "ANNE", "spelledRime": "anne" },
+            "choices": [
+              { "word": "Tanne", "noun": "fir", "themeDir": "tree", "category": "plant", "rimeKey": "ANNE", "spelledRime": "anne" },
+              { "word": "Kanne", "noun": "teapot", "themeDir": "kitchen tools", "category": "object", "rimeKey": "ANNE", "spelledRime": "anne" },
+              { "word": "Maus", "noun": "mouse", "themeDir": "pets", "category": "animal", "rimeKey": "AUS", "spelledRime": "aus" },
+              { "word": "Fisch", "noun": "fish", "themeDir": "ocean life", "category": "animal", "rimeKey": "ISCH", "spelledRime": "isch" }
+            ] },
+
+          { "id": "rhyme-shop.de.chain-anne", "cog": "chain",
+            "anchor": { "word": "Pfanne", "noun": "pan", "themeDir": "kitchen tools", "category": "object", "rimeKey": "ANNE", "spelledRime": "anne" },
+            "steps": [
+              { "choices": [
+                { "word": "Tanne", "noun": "fir", "themeDir": "tree", "category": "plant", "rimeKey": "ANNE", "spelledRime": "anne" },
+                { "word": "Maus", "noun": "mouse", "themeDir": "pets", "category": "animal", "rimeKey": "AUS", "spelledRime": "aus" },
+                { "word": "Boot", "noun": "boat", "themeDir": "vehicles", "category": "vehicle", "rimeKey": "OT", "spelledRime": "oot" }
+              ] },
+              { "choices": [
+                { "word": "Kanne", "noun": "teapot", "themeDir": "kitchen tools", "category": "object", "rimeKey": "ANNE", "spelledRime": "anne" },
+                { "word": "Fisch", "noun": "fish", "themeDir": "ocean life", "category": "animal", "rimeKey": "ISCH", "spelledRime": "isch" },
+                { "word": "Hund", "noun": "dog", "themeDir": "pets", "category": "animal", "rimeKey": "UND", "spelledRime": "und" }
+              ] }
+            ] }
+        ]
+      }
     },
-    "slug": { "en": "rosa-raccoons-rhyme-wagon" },
-    "page_title": { "en": "Rosa Raccoon's Rhyme Wagon — Hear & Match Rhymes" },
+    "slug": { "en": "rosa-raccoons-rhyme-wagon", "de": "reime-hoeren-und-finden-klasse-1" },
+    "page_title": { "en": "Rosa Raccoon's Rhyme Wagon — Hear & Match Rhymes", "de": "Rudi Reimbär – Reime hören und finden (Klasse 1)" },
     "page_intro": {
-      "en": "Headphones recommended! Tap a picture to HEAR its name, then feed Rosa's wagon the words whose endings RING the same — bee and key, snail and whale. A listening game for Kindergarten rhyme, aligned to Common Core RF.K.2.a: recognize and produce rhyming words."
+      "en": "Headphones recommended! Tap a picture to HEAR its name, then feed Rosa's wagon the words whose endings RING the same — bee and key, snail and whale. A listening game for Kindergarten rhyme, aligned to Common Core RF.K.2.a: recognize and produce rhyming words.",
+      "de": "Bei Rudi Reimbär hört dein Kind echte Reime und sammelt die Wörter, die gleich klingen – ganz im Kompetenzbereich „Sprechen und Zuhören“. Alles wird vorgelesen, Kopfhörer sind empfohlen. Kostenlos, ohne Zeitdruck und ohne Punkte – einfach in Ruhe zuhören und Reime finden."
     },
     "kid_prompt_template": "Tap to hear — then feed the rhyme!"
   }

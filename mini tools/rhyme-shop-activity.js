@@ -20,6 +20,7 @@
   'use strict';
 
   var Core = global.RhymeShopCore;
+  var LANG = 'en';   // #102 — set in init from api.lang; the whole DE surface rides on LANG
 
   var L = {
     en: {
@@ -36,13 +37,28 @@
       ring: 'They RING the same! Into the globe it goes.',
       reread: 'Listen again — those tails don’t ring the same. Try another!',
       oral: 'Can you SAY another word that rhymes? Say it out loud!'
+    },
+    de: {
+      tapHear: 'Tipp auf ein Bild, um es zu HÖREN!',
+      judge: 'Klingen diese zwei am Ende gleich?',
+      pick: 'Tipp das Bild, das sich reimt – dann füttere es!',
+      odd: 'Eines klingt NICHT gleich – tipp es an, dann füttere es!',
+      sort: 'Tipp ein Bild, dann tipp den Wagen, mit dem es sich reimt.',
+      chant: 'Vervollständige Rudis Reim – tipp das Wort, das passt!',
+      field: 'Tipp JEDES Bild, das sich reimt, dann drück Fertig!',
+      chain: 'Füg ein Bild dazu, das sich reimt – bau die Kette weiter!',
+      yes: 'Ja, gleich!', no: 'Nein, anders',
+      feed: 'Füttern!', done: 'Fertig!', add: 'Dazu!',
+      ring: 'Die klingen gleich! Ab in die Reimkugel.',
+      reread: 'Hör nochmal – die Enden klingen anders. Versuch ein anderes!',
+      oral: 'Fällt dir noch ein Reimwort ein? Sag es laut!'
     }
   };
-  function txt(k) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (L[lang] || L.en)[k] || L.en[k] || k; }
+  function txt(k) { return (L[LANG] || L.en)[k] || L.en[k] || k; }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function cap(s) { s = String(s || ''); return s.charAt(0).toUpperCase() + s.slice(1); }
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
-  function wordOf(t) { return cap(t.noun); }
+  function wordOf(t) { return (LANG === 'de' && t.word) ? t.word : cap(t.noun); }
 
   function rosaSVG() {
     return '<svg class="rs-rosa" viewBox="0 0 48 48" width="30" height="30" aria-hidden="true">' +
@@ -67,19 +83,20 @@
   var RhymeShopActivity = {
     id: 'rhyme-shop',
     strings: {
-      title: { en: "Rosa Raccoon's Rhyme Wagon" },
-      instruction: { en: 'Headphones on! Tap to hear, then feed the rhymes.' },
-      qJudge: { en: 'Do these two RING the same?' },
-      qPick: { en: 'Which picture RHYMES with {w}?' },
-      qOdd: { en: 'Which one does NOT ring the same?' },
-      qSort: { en: 'Sort each picture into the wagon it rings with.' },
-      qChant: { en: "Finish Rosa's rhyme!" },
-      qField: { en: 'Find EVERY picture that rhymes with {w}.' },
-      qChain: { en: 'Build a rhyme chain!' }
+      title: { en: "Rosa Raccoon's Rhyme Wagon", de: 'Rudi Reimbär' },
+      instruction: { en: 'Headphones on! Tap to hear, then feed the rhymes.', de: 'Kopfhörer auf! Tipp zum Hören, dann füttere die Reime.' },
+      qJudge: { en: 'Do these two RING the same?', de: 'Klingen diese zwei am Ende gleich?' },
+      qPick: { en: 'Which picture RHYMES with {w}?', de: 'Welches Bild reimt sich auf {w}?' },
+      qOdd: { en: 'Which one does NOT ring the same?', de: 'Welches klingt NICHT gleich?' },
+      qSort: { en: 'Sort each picture into the wagon it rings with.', de: 'Sortiere jedes Bild in den Wagen, mit dem es sich reimt.' },
+      qChant: { en: "Finish Rosa's rhyme!", de: 'Vervollständige Rudis Reim!' },
+      qField: { en: 'Find EVERY picture that rhymes with {w}.', de: 'Finde JEDES Bild, das sich auf {w} reimt.' },
+      qChain: { en: 'Build a rhyme chain!', de: 'Bau eine Reimkette!' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._pending = null; this._fieldSel = {}; this._nonConf = {};
@@ -142,7 +159,7 @@
         fetch(tries[i]).then(function (r) { return r.ok ? r.json() : Promise.reject(); })
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
-            self._activityRow = row; self._pool = (row && row.params && row.params.rounds) || [];
+            self._activityRow = row; self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -195,7 +212,7 @@
 
     _speak: function (token) {
       if (!global.LCSAudio || !global.LCSAudio.speak) return;
-      global.LCSAudio.speak({ type: 'word', text: wordOf(token), lang: 'en', rate: 0.95 });
+      global.LCSAudio.speak({ type: 'word', text: wordOf(token), lang: LANG, rate: 0.95 });
     },
 
     /* a tappable picture tile */

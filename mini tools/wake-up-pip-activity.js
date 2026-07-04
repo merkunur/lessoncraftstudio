@@ -21,6 +21,7 @@
   'use strict';
 
   var Core = global.RetellStoryCore;
+  var LANG = 'en';   // content locale; set in init from api.lang (de fan-out §A.13.54)
 
   var C = { T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A' };
   // panel emoji = STUB art (CA5 hand-illustrated dioramas replace these later)
@@ -39,8 +40,8 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
 
   function pipSVG(mood) {
@@ -63,28 +64,30 @@
     id: 'wake-up-pip-activity',
 
     strings: {
-      title: { en: 'Wake Up, Pip!' },
-      prompt: { en: 'Tell Pip the story!' },
-      watchHint: { en: 'Watch the story. Then tell it to Pip!' },
-      play: { en: '🔊 Play the story' },
-      replay: { en: '🔊 Watch again' },
-      toRetell: { en: 'Tell my friend! →' },
-      retellHint: { en: 'Put it back in order, then tell it!' },
-      tellIt: { en: 'Tell it!' },
-      pipAsleep: { en: 'Zzz… what did I miss? You saw it — tell me!' },
-      pipListen: { en: 'I am listening! Tell me the whole story…' },
-      pipWin: { en: 'Yes! I feel like I was THERE — you told it so I could see it!' },
-      breakEBC: { en: 'Hmm — a part came before what caused it. Can you find it?' },
-      breakMP: { en: 'Wait — a piece is missing. What did I miss?' },
-      breakFDF: { en: "Hmm — something doesn't belong here. Can you spot it?" },
-      reteach: { en: 'Remember — a story starts with the problem, and each part makes the next one happen.' },
-      coStart: { en: "Let's put this part where it belongs — see how it makes the next part happen?" },
-      hintCheck: { en: 'Fill every spot, then tap Tell it!' }
+      title: { en: 'Wake Up, Pip!', de: 'Wach auf, Pip!' },
+      instruction: { en: 'Watch the story, then retell it to Pip.', de: 'Schau die Geschichte an und erzähl sie Pip nach.' },
+      prompt: { en: 'Tell Pip the story!', de: 'Erzähl Pip die Geschichte!' },
+      watchHint: { en: 'Watch the story. Then tell it to Pip!', de: 'Schau dir die Geschichte an. Dann erzähl sie Pip!' },
+      play: { en: '🔊 Play the story', de: '🔊 Geschichte abspielen' },
+      replay: { en: '🔊 Watch again', de: '🔊 Nochmal ansehen' },
+      toRetell: { en: 'Tell my friend! →', de: 'Erzähl es Pip! →' },
+      retellHint: { en: 'Put it back in order, then tell it!', de: 'Bring alles in die richtige Reihenfolge, dann erzähl es!' },
+      tellIt: { en: 'Tell it!', de: 'Erzähl es!' },
+      pipAsleep: { en: 'Zzz… what did I miss? You saw it — tell me!', de: 'Zzz… was habe ich verpasst? Du hast alles gesehen – erzähl es mir!' },
+      pipListen: { en: 'I am listening! Tell me the whole story…', de: 'Ich höre zu! Erzähl mir die ganze Geschichte…' },
+      pipWin: { en: 'Yes! I feel like I was THERE — you told it so I could see it!', de: 'Ja! Ich fühle mich, als wäre ich DABEI gewesen – so gut hast du es erzählt!' },
+      breakEBC: { en: 'Hmm — a part came before what caused it. Can you find it?', de: 'Hmm – ein Teil kommt vor dem, was ihn auslöst. Findest du ihn?' },
+      breakMP: { en: 'Wait — a piece is missing. What did I miss?', de: 'Moment – ein Teil fehlt. Was habe ich verpasst?' },
+      breakFDF: { en: "Hmm — something doesn't belong here. Can you spot it?", de: 'Hmm – etwas gehört hier nicht dazu. Entdeckst du es?' },
+      reteach: { en: 'Remember — a story starts with the problem, and each part makes the next one happen.', de: 'Denk dran: Eine Geschichte beginnt mit dem Problem, und jeder Teil bringt den nächsten in Gang.' },
+      coStart: { en: "Let's put this part where it belongs — see how it makes the next part happen?", de: 'Legen wir diesen Teil an die richtige Stelle – siehst du, wie er den nächsten in Gang bringt?' },
+      hintCheck: { en: 'Fill every spot, then tap Tell it!', de: 'Füll jeden Platz aus, dann tippe auf „Erzähl es!“' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.film = null; this.stage = 'watch';
       this.placed = []; this.tray = []; this.lockedSet = {}; this.sel = null;
@@ -283,7 +286,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/wake-up-pip-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var pool = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(pool.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[wake-up-pip] manifest load failed:', e.message); });
     },
 

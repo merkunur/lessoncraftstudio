@@ -192,6 +192,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "wake-up-pip.retell-story.rl-k-2": {
+      "about": [
+        "Pip ist ein kleiner Schlafmützen-Freund – und Pip verschläft einfach jede Geschichte! In diesem kostenlosen Spiel schaut dein Kind zuerst einen kurzen Film aus vier Bildern: Pip schläft tief im Gras, die Sonne steigt am Himmel hoch, warmes Sonnenlicht kitzelt Pips Nase, und Pip wacht auf und streckt sich. Dann ist der Film weg – und Pip möchte unbedingt wissen, was passiert ist. Dein Kind bringt die Geschichte wieder in die richtige Reihenfolge und erzählt sie Pip nach, mit den wichtigen Details: Wer kommt vor, was ist das Problem, und wie geht es aus? So übt dein Kind spielerisch das Nacherzählen aus dem Lehrplan-Bereich „Literarische Texte verstehen“ – ganz ohne Zeitdruck und ohne Punkte. Die Geschichte wird laut vorgelesen, damit auch Kinder mitmachen können, die noch nicht selbst lesen.",
+        "Eine Geschichte in der richtigen Reihenfolge nacherzählen ist eine der wichtigsten Lesekompetenzen in der Grundschule. Dein Kind lernt dabei, die Ereignisse einer Geschichte zu ordnen, sich die wichtigen Details zu merken und Ursache und Wirkung zu erkennen – warum wacht Pip auf? Weil die Sonnenstrahlen die Nase kitzeln. Genau dieses „Erst … dann … deshalb“ ist die Grundlage für gutes Textverständnis und späteres freies Erzählen und Schreiben.",
+        "Das Spiel eignet sich wunderbar für zu Hause und für den Unterricht in Klasse 2. Weil es keine Uhr und keine Wertung gibt, kann dein Kind so oft üben, wie es mag, und dabei in aller Ruhe seine eigenen Worte finden. Setzt euch gemeinsam davor: Frag ruhig nach – „Und was passiert dann?“ – und freu dich, wenn dein Kind Pip stolz die ganze Geschichte erzählt."
+      ],
+      "practices": [
+        "Eine Geschichte in der richtigen Reihenfolge nacherzählen",
+        "Die wichtigen Details behalten – wer, das Problem und wie es ausgeht",
+        "Ursache und Wirkung in einer Geschichte erkennen",
+        "Wichtige von unwichtigen Details unterscheiden"
+      ],
+      "howToPlay": [
+        "Schau und hör dir den kurzen Geschichten-Film an – vier Bilder erzählen, was mit Pip passiert.",
+        "Wenn der Film verschwindet, bringe die Teile wieder in die richtige Reihenfolge.",
+        "Tippe auf „Erzähl es!“ und erzähle Pip die ganze Geschichte nach."
+      ],
+      "learningGoals": [
+        "Dein Kind erzählt eine kurze Geschichte in der richtigen Reihenfolge nach.",
+        "Dein Kind merkt sich die wichtigen Details einer Geschichte – wer, Problem und Ende.",
+        "Dein Kind versteht, wie Ereignisse zusammenhängen, und erkennt Ursache und Wirkung."
+      ]
+    },
     "two-tales.compare.rl-1-9": {
       "about": [
         "Zwei Monde leuchten über dem Panzer von Moosbart, dem Geschichtenhüter – einer ruhigen, moosbedeckten Schildkröte. Der goldene Mond erzählt die eine Geschichte, der silberne die andere. In der goldenen Geschichte heißt es: „Der Fuchs verlor seine Mütze, gab nicht auf und fand sie wieder.“ In der silbernen: „Das Häschen verlor seinen Ball. Ein Freund half ihm, ihn wiederzufinden.“ Zwei ganz verschiedene Figuren – und doch ist etwas gleich: Beide haben etwas verloren und wiedergefunden. Genau das übt dein Kind hier: zwei Geschichten nebeneinander lesen und erkennen, was den Figuren gleich passiert und was nur in einer Geschichte geschieht. Das gehört zum Lehrplan-Bereich „Literarische Texte verstehen“.",

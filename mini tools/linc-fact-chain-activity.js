@@ -14,15 +14,16 @@
 
   var Core = global.FactConnectCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GREEN: '#5E9E4E' };
+  var LANG = 'en';   // content locale; set in init from api.lang (de fan-out §A.13.54)
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function lizardSVG() {
-    return '<svg class="lfc-liz-svg" viewBox="0 0 100 100" role="img" aria-label="Linc the lizard">' +
+    return '<svg class="lfc-liz-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Ketti, die Eidechse' : 'Linc the lizard') + '">' +
       '<path d="M20 64 q14 -10 30 -6 q16 4 30 -8" fill="none" stroke="#5E9E4E" stroke-width="12" stroke-linecap="round"/>' +
       '<circle cx="80" cy="50" r="11" fill="#73B85F"/>' +
       '<circle cx="83" cy="48" r="2.3" fill="#2A2A35"/>' +
@@ -35,18 +36,19 @@
     id: 'linc-fact-chain-activity',
 
     strings: {
-      title: { en: "Linc's Fact Chain" },
-      instruction: { en: 'Read the first fact, then tap the one that connects to it.' },
-      prompt: { en: 'Read it, then tap the fact that connects.' },
-      lincIntro: { en: 'Facts link together like a chain — find the next link!' },
-      hintPick: { en: 'Think: what would really happen after the first fact?' },
-      hintWrong: { en: 'That one does not fit. What follows from the first fact?' },
-      win: { en: 'Yes! Those two facts connect. 🔗' }
+      title: { en: "Linc's Fact Chain", de: 'Kettis Faktenkette' },
+      instruction: { en: 'Read the first fact, then tap the one that connects to it.', de: 'Lies den ersten Fakt und tippe dann auf den Fakt, der dazu passt.' },
+      prompt: { en: 'Read it, then tap the fact that connects.', de: 'Lies den Fakt. Tippe dann auf das, was dazu passt.' },
+      lincIntro: { en: 'Facts link together like a chain — find the next link!', de: 'Fakten hängen zusammen wie eine Kette – finde das nächste Glied!' },
+      hintPick: { en: 'Think: what would really happen after the first fact?', de: 'Überlege: Was passiert nach dem ersten Fakt wirklich?' },
+      hintWrong: { en: 'That one does not fit. What follows from the first fact?', de: 'Der passt nicht. Was folgt aus dem ersten Fakt?' },
+      win: { en: 'Yes! Those two facts connect. 🔗', de: 'Ja! Diese zwei Fakten gehören zusammen. 🔗' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -67,7 +69,7 @@
 
       var row = api.el('div', 'lfc-row');
       var liz = api.el('div', 'lfc-liz'); liz.innerHTML = lizardSVG(); row.appendChild(liz);
-      var stem = api.el('button', 'lfc-stem'); stem.type = 'button'; stem.setAttribute('aria-label', 'hear the first fact');
+      var stem = api.el('button', 'lfc-stem'); stem.type = 'button'; stem.setAttribute('aria-label', LANG === 'de' ? 'den ersten Fakt anhören' : 'hear the first fact');
       stem.textContent = v.stem;
       stem.addEventListener('click', function () { speak(v.stem); });
       row.appendChild(stem);
@@ -107,7 +109,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/linc-fact-chain-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var pool = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(pool.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[linc-fact-chain] manifest load failed:', e.message); });
     },
 

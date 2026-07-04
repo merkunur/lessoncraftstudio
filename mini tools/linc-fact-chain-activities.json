@@ -14,12 +14,24 @@
         { "id": "rain", "band": 2, "mode": "cause", "stem": "It rains on the dry grass.", "question": "So what happens?", "answer": "The grass gets wet.", "options": ["The grass gets dry.", "The bell gets loud.", "The grass gets wet."] },
         { "id": "swing", "band": 3, "mode": "cause", "stem": "You push the swing hard.", "question": "So what happens?", "answer": "The swing goes high.", "options": ["The swing goes high.", "The swing stays still.", "The lamp turns on."] },
         { "id": "freeze", "band": 3, "mode": "cause", "stem": "You leave juice in the freezer.", "question": "So what happens?", "answer": "The juice freezes.", "options": ["The juice gets warm.", "The juice freezes.", "A dog runs fast."] }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "id": "samen", "band": 1, "mode": "sequence", "stem": "Ein Samen liegt in der Erde.", "question": "Was passiert als Nächstes?", "answer": "Aus dem Samen wächst eine Pflanze.", "options": ["Aus dem Samen wächst eine Pflanze.", "Der Vogel sitzt auf dem Ast.", "Der Wind weht über das Feld."] },
+          { "id": "ei", "band": 1, "mode": "sequence", "stem": "Ein Huhn sitzt auf seinem Ei.", "question": "Was passiert als Nächstes?", "answer": "Aus dem Ei schlüpft ein Küken.", "options": ["Aus dem Ei schlüpft ein Küken.", "Die Katze trinkt ihre Milch.", "Der Hund läuft durch den Garten."] },
+          { "id": "raupe", "band": 2, "mode": "sequence", "stem": "Eine Raupe frisst viele Blätter.", "question": "Was passiert als Nächstes?", "answer": "Die Raupe wird zu einem Schmetterling.", "options": ["Die Raupe wird zu einem Schmetterling.", "Der Fisch schwimmt im kühlen Teich.", "Die Sonne geht am Abend unter."] },
+          { "id": "teig-ofen", "band": 3, "mode": "sequence", "stem": "Der Teig ist fertig geknetet.", "question": "Was passiert als Nächstes?", "answer": "Der Teig kommt in den Ofen.", "options": ["Der Teig kommt in den Ofen.", "Das Mehl steht im Regal.", "Der Löffel liegt auf dem Tisch."] },
+          { "id": "sonne-schnee", "band": 1, "mode": "cause", "stem": "Die Sonne scheint auf den Schnee.", "question": "Was passiert deshalb?", "answer": "Der Schnee schmilzt.", "options": ["Der Schnee schmilzt.", "Die Vögel singen laut.", "Die Blätter fallen vom Baum."] },
+          { "id": "feuer", "band": 2, "mode": "cause", "stem": "Ein Feuer brennt im Kamin.", "question": "Was passiert deshalb?", "answer": "Der Raum wird warm.", "options": ["Der Raum wird warm.", "Die Uhr tickt an der Wand.", "Das Buch liegt auf dem Stuhl."] },
+          { "id": "saft-gefrierfach", "band": 2, "mode": "cause", "stem": "Der Saft steht im Gefrierfach.", "question": "Was passiert deshalb?", "answer": "Der Saft wird zu Eis.", "options": ["Der Saft wird zu Eis.", "Das Glas steht auf dem Tisch.", "Die Flasche ist ganz leer."] },
+          { "id": "wind", "band": 3, "mode": "cause", "stem": "Der Wind weht sehr stark.", "question": "Was passiert deshalb?", "answer": "Die Blätter fliegen durch die Luft.", "options": ["Die Blätter fliegen durch die Luft.", "Die Sonne scheint am Himmel.", "Der Schnee liegt auf der Wiese."] }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "linc-fact-chain" },
-    "page_title": { "en": "Linc's Fact Chain — How Two Facts Connect (Kindergarten)" },
-    "page_intro": { "en": "Linc the lizard links facts into a chain! Read the first fact, then tap the fact that connects to it — what happens NEXT, or what it makes happen. A Kindergarten reading game about describing the connection between two events or ideas in an informational text, aligned to Common Core RI.K.3." },
+    "slug": { "en": "linc-fact-chain", "de": "ursache-und-wirkung-reihenfolge-sachtexte-verstehen-klasse-2" },
+    "page_title": { "en": "Linc's Fact Chain — How Two Facts Connect (Kindergarten)", "de": "Ursache & Wirkung, Reihenfolge – Sachtexte, Klasse 2" },
+    "page_intro": { "en": "Linc the lizard links facts into a chain! Read the first fact, then tap the fact that connects to it — what happens NEXT, or what it makes happen. A Kindergarten reading game about describing the connection between two events or ideas in an informational text, aligned to Common Core RI.K.3.", "de": "Kostenlos & interaktiv: Dein Kind verknüpft zwei Fakten, erkennt Ursache und Wirkung und übt, was als Nächstes passiert – Sachtexte verstehen, Grundschule." },
     "kid_prompt_template": "Read the first fact, then tap the one that connects to it."
   }
 ]

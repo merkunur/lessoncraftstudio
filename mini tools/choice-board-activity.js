@@ -181,7 +181,7 @@ var ACTIVITY_STRINGS = {
   /* RF.K.3 — read a whole printed CVC word + tap its picture (decode-to-meaning).
      EN-only (the cvc/decode exception); slug.en-only → 404 non-EN. The 10 non-EN
      entries are EN fallbacks that never route. */
-  promptReadWord: {"en":"Read the word. Tap the picture that matches it.","de":"Read the word. Tap the picture that matches it.","es":"Read the word. Tap the picture that matches it.","it":"Read the word. Tap the picture that matches it.","pt":"Read the word. Tap the picture that matches it.","fr":"Read the word. Tap the picture that matches it.","nl":"Read the word. Tap the picture that matches it.","sv":"Read the word. Tap the picture that matches it.","da":"Read the word. Tap the picture that matches it.","no":"Read the word. Tap the picture that matches it.","fi":"Read the word. Tap the picture that matches it."},
+  promptReadWord: {"en":"Read the word. Tap the picture that matches it.","de":"Lies das Wort. Tippe das Bild, das dazu passt.","es":"Read the word. Tap the picture that matches it.","it":"Read the word. Tap the picture that matches it.","pt":"Read the word. Tap the picture that matches it.","fr":"Read the word. Tap the picture that matches it.","nl":"Read the word. Tap the picture that matches it.","sv":"Read the word. Tap the picture that matches it.","da":"Read the word. Tap the picture that matches it.","no":"Read the word. Tap the picture that matches it.","fi":"Read the word. Tap the picture that matches it."},
   /* RF.K.2.c — blend onset + rime (REDUCED FAN: en/nl/da native-confirmed; de/no/sv
      excluded their language uses syllable not onset-rime). The onset is shown as a
      letter-chunk + the rime is SPOKEN (TTS-safe syllable; isolated-onset TTS is
@@ -488,6 +488,16 @@ var ACTIVITY_STRINGS = {
     da: 'Prøv en anden form',
     no: 'Prøv en annen form',
     fi: 'Kokeile toista muotoa'
+  },
+  /* read-cvc-word (Erstlesen) — reading-appropriate hints (the generic
+     hintPickOne/hintTryAgain say „shape"; wrong for a word-reading task). */
+  hintPickPicture: {
+    en: 'Pick a picture first.',
+    de: 'Tippe zuerst ein Bild an.'
+  },
+  hintReadWhole: {
+    en: 'Read the whole word again — letter by letter. Which picture fits?',
+    de: 'Lies das ganze Wort noch einmal – Buchstabe für Buchstabe. Welches Bild passt?'
   }
 };
 
@@ -1450,9 +1460,12 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
        beginning-sound image-option + text-subject precedent). Each round =
        { word, correct:{noun,themeDir}, distractors:[{noun,themeDir}×3] }. */
     if (row.task_template === 'read-cvc-word') {
-      var rwRounds = (row.params && row.params.rounds) || [];
+      /* per-locale content (de fan-out via roundsL10n; EN falls back to rounds).
+         content locale via window.LCS.i18n.current, like onset-rime-blend. */
+      var rwLoc = (window.LCS && window.LCS.i18n && window.LCS.i18n.current) || 'en';
+      var rwRounds = (row.params && ((row.params.roundsL10n && row.params.roundsL10n[rwLoc]) || row.params.rounds)) || [];
       function _rwTile(o) {
-        return { key: o.noun, imgUrl: '/image-library-webp/themes/' + o.themeDir + '/' + o.noun + '@2x.webp', label: o.noun };
+        return { key: o.noun, imgUrl: '/image-library-webp/themes/' + o.themeDir + '/' + o.noun + '@2x.webp', label: o.word || o.noun };
       }
       return rwRounds.map(function (r, i) {
         var word = r.word, correct = r.correct, distractors = r.distractors || [];
@@ -1473,7 +1486,8 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
             return ok;
           },
           hintKey: function (tool) {
-            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+            /* reading-appropriate hints (not the generic „shape" ones) */
+            return tool.answer == null ? 'hintPickPicture' : 'hintReadWhole';
           }
         };
       });

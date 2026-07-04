@@ -8264,17 +8264,42 @@
             }
           ]
         }
-      ]
+      ],
+      "roundsL10n": {
+        "de": [
+          { "word": "Ball", "correct": { "noun": "ball", "themeDir": "toys", "word": "Ball" },
+            "distractors": [ { "noun": "banana", "themeDir": "fruits", "word": "Banane" }, { "noun": "excavator", "themeDir": "vehicles", "word": "Bagger" }, { "noun": "fish", "themeDir": "ocean life", "word": "Fisch" } ] },
+          { "word": "Hut", "correct": { "noun": "hat", "themeDir": "accessories", "word": "Hut" },
+            "distractors": [ { "noun": "dog", "themeDir": "pets", "word": "Hund" }, { "noun": "chicken", "themeDir": "farm animals", "word": "Huhn" }, { "noun": "mouse", "themeDir": "pets", "word": "Maus" } ] },
+          { "word": "Sonne", "correct": { "noun": "sun", "themeDir": "weather", "word": "Sonne" },
+            "distractors": [ { "noun": "sock", "themeDir": "accessories", "word": "Socke" }, { "noun": "sofa", "themeDir": "furniture", "word": "Sofa" }, { "noun": "rose", "themeDir": "flowers", "word": "Rose" } ] },
+          { "word": "Hand", "correct": { "noun": "hand", "themeDir": "body parts", "word": "Hand" },
+            "distractors": [ { "noun": "house", "themeDir": "miscellaneous", "word": "Haus" }, { "noun": "rabbit", "themeDir": "animals", "word": "Hase" }, { "noun": "fish", "themeDir": "ocean life", "word": "Fisch" } ] },
+          { "word": "Nase", "correct": { "noun": "nose", "themeDir": "body parts", "word": "Nase" },
+            "distractors": [ { "noun": "nail", "themeDir": "tools", "word": "Nagel" }, { "noun": "pants", "themeDir": "clothing", "word": "Hose" }, { "noun": "boat", "themeDir": "vehicles", "word": "Boot" } ] },
+          { "word": "Katze", "correct": { "noun": "cat", "themeDir": "pets", "word": "Katze" },
+            "distractors": [ { "noun": "comb", "themeDir": "around the house", "word": "Kamm" }, { "noun": "lamp", "themeDir": "furniture", "word": "Lampe" }, { "noun": "apple", "themeDir": "fruits", "word": "Apfel" } ] },
+          { "word": "Maus", "correct": { "noun": "mouse", "themeDir": "pets", "word": "Maus" },
+            "distractors": [ { "noun": "coat", "themeDir": "clothing", "word": "Mantel" }, { "noun": "mouth", "themeDir": "body parts", "word": "Mund" }, { "noun": "bed", "themeDir": "furniture", "word": "Bett" } ] },
+          { "word": "Auto", "correct": { "noun": "car", "themeDir": "vehicles", "word": "Auto" },
+            "distractors": [ { "noun": "eye", "themeDir": "body parts", "word": "Auge" }, { "noun": "apple", "themeDir": "fruits", "word": "Apfel" }, { "noun": "flower", "themeDir": "spring", "word": "Blume" } ] },
+          { "word": "Fuß", "correct": { "noun": "foot", "themeDir": "body parts", "word": "Fuß" },
+            "distractors": [ { "noun": "fox", "themeDir": "animals", "word": "Fuchs" }, { "noun": "frog", "themeDir": "reptiles and Amphibians", "word": "Frosch" }, { "noun": "duck", "themeDir": "farm animals", "word": "Ente" } ] }
+        ]
+      }
     },
     "theme": null,
     "slug": {
-      "en": "read-the-word-tap-the-picture"
+      "en": "read-the-word-tap-the-picture",
+      "de": "erste-woerter-lesen-klasse-1"
     },
     "page_title": {
-      "en": "Read the Word, Tap the Picture — Decoding CVC Words"
+      "en": "Read the Word, Tap the Picture — Decoding CVC Words",
+      "de": "Emil die Eule: erste Wörter lesen üben (Klasse 1)"
     },
     "page_intro": {
-      "en": "Reading starts with decoding — sounding out each letter and blending the sounds into a word. Here the child reads a short printed word like cat, can, or bus, then taps the picture it names. The picture choices share beginnings on purpose (cat, cap, can), so the only way to find the right one is to read the whole word, all the way to the last sound. Take your time; there is no timer and no score. Aligned to Common Core RF.K.3 — knowing and applying grade-level phonics to decode words."
+      "en": "Reading starts with decoding — sounding out each letter and blending the sounds into a word. Here the child reads a short printed word like cat, can, or bus, then taps the picture it names. The picture choices share beginnings on purpose (cat, cap, can), so the only way to find the right one is to read the whole word, all the way to the last sound. Take your time; there is no timer and no score. Aligned to Common Core RF.K.3 — knowing and applying grade-level phonics to decode words.",
+      "de": "Dein Kind liest ein Wort und tippt aus vier Bildern das passende an – ganz ohne Zeitdruck und ohne Punkte. Weil einige Bilder gleich anfangen (etwa Hut, Hund und Huhn), muss dein Kind das ganze Wort genau lesen und nicht nur beim ersten Buchstaben raten. Emil die Eule schaut mit großen Augen mit und freut sich über jedes Wort, das dein Kind selbst erliest. Kostenlos, ohne Anmeldung."
     },
     "kid_prompt_template": "promptReadWord"
   }

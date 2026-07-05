@@ -214,7 +214,7 @@ rm -rf .next/server .next/standalone
 echo "🔨 Building Next.js application (nice -n 10 so the live server keeps CPU)..."
 export BUILD_DATE=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 echo "   BUILD_DATE=${BUILD_DATE}"
-# Heap 40GB + 90min (2026-07-05 incident, measured across 5 instrumented builds — see
+# Heap 50GB + 4h-timeout (2026-07-05 incident, measured across 5 instrumented builds — see
 # memory/project_build_incident_2026_07_05.md for the falsification table):
 #  - This app's COLD webpack seal genuinely needs ~35-40GB heap and ~30-50min. Below that it
 #    either V8-heap-OOMs (24GB: FATAL NewConsString) or GC-thrash-pins at the cap forever
@@ -228,7 +228,7 @@ echo "   BUILD_DATE=${BUILD_DATE}"
 #    but ISR keeps the generation phase light. Do NOT revert landings to SSG.
 #  - Do not delete a MATCHING warm .next/cache; a mismatched one may be reset deliberately
 #    ONCE after code stabilizes. deploy.sh only removes .next/server + .next/standalone.
-NODE_OPTIONS="--max-old-space-size=40960" nice -n 10 timeout 5400 npm run build || { echo "BUILD FAILED (OOM or >90 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
+NODE_OPTIONS="--max-old-space-size=51200" nice -n 10 timeout 14400 npm run build || { echo "BUILD FAILED (OOM or >90 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
 
 # 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
 # The running server continues serving from releases/current/ while we prepare

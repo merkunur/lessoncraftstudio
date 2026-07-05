@@ -219,7 +219,7 @@ echo "   BUILD_DATE=${BUILD_DATE}"
 # mislabeled this as a timeout). Observed peak ~7.7GB → 12GB gives headroom. The
 # box has 62GB RAM. Timeout raised 900→1800s for the growing build. If this OOMs
 # again, raise max-old-space-size further (12288→16384).
-# Heap 12GB + 30min timeout (2026-07-05, box has 62GB). Both the compile AND the
+# Heap 20GB + 30min timeout (2026-07-05, box has 62GB). Both the compile AND the
 # generation are now LIGHT: lib/seo/landing-content.ts loads the 11 seo-landing/*.json
 # (~93MB) at RUNTIME via fs instead of static import, so webpack no longer bundles them
 # (that JSON AST was the whole compile explosion — 16GB death-spiral / 32GB std::bad_alloc),
@@ -227,7 +227,7 @@ echo "   BUILD_DATE=${BUILD_DATE}"
 # is counterproductive (starves the native SWC compiler → std::bad_alloc). On "BUILD
 # FAILED": 'heap out of memory' = a JSON re-bundled (a new static import crept in) or a
 # page regressed to SSG; else a genuine hang.
-NODE_OPTIONS="--max-old-space-size=12288" nice -n 10 timeout 1800 npm run build || { echo "BUILD FAILED (OOM or >30 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
+NODE_OPTIONS="--max-old-space-size=20480" nice -n 10 timeout 1800 npm run build || { echo "BUILD FAILED (OOM or >30 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
 
 # 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
 # The running server continues serving from releases/current/ while we prepare

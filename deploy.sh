@@ -219,15 +219,15 @@ echo "   BUILD_DATE=${BUILD_DATE}"
 # mislabeled this as a timeout). Observed peak ~7.7GB → 12GB gives headroom. The
 # box has 62GB RAM. Timeout raised 900→1800s for the growing build. If this OOMs
 # again, raise max-old-space-size further (12288→16384).
-# Heap 32GB + 30min timeout (2026-07-05, box has 62GB). The COMPILE phase ("Creating
-# an optimized production build") has a large cold working set because lib/seo/
-# landing-content.ts statically imports all 11 seo-landing/*.json (~93MB) into the
-# webpack bundle. 8GB and 16GB death-spiralled at the cap (mu→0.001); 32GB gives the
-# cold compile real headroom to finish without GC-thrash. GENERATION is now LIGHT
-# (landings → on-demand ISR, ~4.6k pages not 34.6k), so a big heap no longer slows it.
-# DURABLE FOLLOW-UP: unbundle that JSON (import as raw string + JSON.parse at runtime,
-# or fs load) → compile drops to ~4GB and this heap can come back down.
-NODE_OPTIONS="--max-old-space-size=32768" nice -n 10 timeout 1800 npm run build || { echo "BUILD FAILED (OOM or >30 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
+# Heap 12GB + 30min timeout (2026-07-05, box has 62GB). Both the compile AND the
+# generation are now LIGHT: lib/seo/landing-content.ts loads the 11 seo-landing/*.json
+# (~93MB) at RUNTIME via fs instead of static import, so webpack no longer bundles them
+# (that JSON AST was the whole compile explosion — 16GB death-spiral / 32GB std::bad_alloc),
+# and landings are on-demand ISR (~4.6k pages, not 34.6k). 12GB is ample; a LARGER heap
+# is counterproductive (starves the native SWC compiler → std::bad_alloc). On "BUILD
+# FAILED": 'heap out of memory' = a JSON re-bundled (a new static import crept in) or a
+# page regressed to SSG; else a genuine hang.
+NODE_OPTIONS="--max-old-space-size=12288" nice -n 10 timeout 1800 npm run build || { echo "BUILD FAILED (OOM or >30 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
 
 # 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
 # The running server continues serving from releases/current/ while we prepare

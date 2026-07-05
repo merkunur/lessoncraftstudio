@@ -77,12 +77,41 @@ const SUBJECT_COPY: Record<string, Record<string, SubjectCopy>> = {
     logic: { worksheets: 'Ejercicios de razonamiento lógico', angle: 'el razonamiento lógico, la atención y la clasificación' },
     'spatial-reasoning': { worksheets: 'Fichas de percepción visual', angle: 'la percepción visual y la orientación espacial' },
   },
+  // Native French / France (§A.13.48 ensemble + operator sign-off). Head noun by
+  // band: "Fiches de …" at maternelle → "Exercices de …" at élémentaire (CP+); CP
+  // boundary flips literacy (lecture→Français) + science (Explorer→Questionner le
+  // monde). Search-register "maths"/"lecture". Adjective agreement dodged via the
+  // adverb "gratuitement" in the templates.
+  fr: {
+    math: {
+      worksheets: 'Exercices de maths',
+      worksheetsByLevel: { preschool: 'Fiches de maths', kindergarten: 'Fiches de maths' },
+      angle: 'développer le sens des nombres, le calcul et le raisonnement',
+      angleByLevel: { preschool: 'découvrir les nombres, les formes et les quantités', kindergarten: 'construire le nombre et préparer l’entrée au CP' },
+    },
+    letters: {
+      worksheets: 'Exercices de français',
+      worksheetsByLevel: { preschool: 'Fiches de lecture', kindergarten: 'Fiches de lecture', 'grade-1': 'Fiches de lecture' },
+      angle: 'renforcer la lecture, l’écriture et la maîtrise du français',
+      angleByLevel: { preschool: 'préparer la lecture et l’écriture : les sons, les lettres et les premiers mots', kindergarten: 'renforcer la phonologie et préparer la lecture', 'grade-1': 'accompagner l’apprentissage de la lecture, le grand objectif du CP' },
+    },
+    science: {
+      worksheets: 'Fiches de sciences',
+      worksheetsByLevel: { kindergarten: 'Fiches Explorer le monde', 'grade-1': 'Fiches Questionner le monde' },
+      angle: 'observer et comprendre le monde qui nous entoure',
+      angleByLevel: { kindergarten: 'explorer le monde : le vivant, les objets, le temps et l’espace', 'grade-1': 'questionner le monde : le vivant, la matière, le temps et l’espace' },
+    },
+    logic: { worksheets: 'Fiches de logique', angle: 'développer le raisonnement, l’observation et la logique' },
+    'spatial-reasoning': { worksheets: 'Fiches de repérage dans l’espace', angle: 'travailler le repérage dans l’espace et l’attention visuelle' },
+  },
 };
 
 // Per-(locale, level): a clean label (for titles/H1) + a phrase with the correct
 // article/preposition form (for prose) — German article agreement is a trap
 // (§A.13.56), so the grammatical form is authored, not templated.
-interface GradeCopy { label: string; phrase: string }
+// `label` = compact title form; `phrase` = prose form; `display` = clean breadcrumb/
+// sibling label when it differs from capFirst(label) (fr: "GS"→"Grande section (GS)").
+interface GradeCopy { label: string; phrase: string; display?: string }
 const GRADE_COPY: Record<string, Record<string, GradeCopy>> = {
   de: {
     preschool: { label: 'Vorschule', phrase: 'die Vorschule' },
@@ -120,6 +149,16 @@ const GRADE_COPY: Record<string, Record<string, GradeCopy>> = {
     'grade-2': { label: 'segundo grado', phrase: 'segundo grado de primaria' },
     'grade-3': { label: 'tercer grado', phrase: 'tercer grado de primaria' },
   },
+  // fr (France). label = title grade code ("GS", "CP"); phrase = prose ("la grande
+  // section (GS)", "le CP"); display = breadcrumb clean label. preschool→"maternelle"
+  // (the huge umbrella term) vs kindergarten→"GS" resolves the two-maternelle collision.
+  fr: {
+    preschool: { label: 'maternelle', phrase: 'la maternelle', display: 'Maternelle' },
+    kindergarten: { label: 'GS', phrase: 'la grande section (GS)', display: 'Grande section (GS)' },
+    'grade-1': { label: 'CP', phrase: 'le CP', display: 'CP' },
+    'grade-2': { label: 'CE1', phrase: 'le CE1', display: 'CE1' },
+    'grade-3': { label: 'CE2', phrase: 'le CE2', display: 'CE2' },
+  },
 };
 
 // Per-locale authenticity rules beyond the deck-count gate. Default (de/en) =
@@ -130,6 +169,9 @@ const GRADE_COPY: Record<string, Record<string, GradeCopy>> = {
 const HUB_RULES: Record<string, { dropLevels?: string[]; subjectAllowedLevels?: Record<string, string[]> }> = {
   nl: { dropLevels: ['preschool'], subjectAllowedLevels: { logic: ['kindergarten'], 'spatial-reasoning': ['kindergarten'] } },
   es: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
+  // fr (France educator): KEEP maternelle (fiches-maternelle flagship market); logic +
+  // spatial are activity families, standalone only at maternelle, folded into maths at CP+.
+  fr: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
 };
 
 /** Whether a subject×grade hub should exist at all for this locale (authenticity gate). */
@@ -198,6 +240,10 @@ export function subjectHubGradeLabel(locale: string, levelKey: string): string {
     const l = GRADE_COPY.es?.[levelKey]?.label;
     if (l) return capFirst(l);
   }
+  if (locale === 'fr') {
+    const gc = GRADE_COPY.fr?.[levelKey];
+    if (gc) return gc.display ?? capFirst(gc.label);
+  }
   return getAxisName('educational-level', levelKey, locale) ?? levelKey;
 }
 
@@ -247,6 +293,13 @@ const LOCALE_TEMPLATES: Record<string, LocaleTemplate> = {
     desc: (c, w, wl, gp, a) => `${c} ${wl} gratis para ${gp}, para imprimir en PDF (con respuestas) o para resolver en línea, sin registro. Refuerza ${a}.`,
     intro: (c, w, wl, gp, a) => `Aquí encontrarás ${c} ${wl} gratis para ${gp}, cuidadosamente seleccionadas para esta edad. Los ejercicios refuerzan ${a}. Cada ficha se puede imprimir en PDF con respuestas — o resolver en línea al instante, sin necesidad de registrarse.`,
     heading: 'Por materia y grado',
+  },
+  fr: {
+    title: (w, g) => `${w} ${g} à imprimer – gratuit (PDF)`,
+    h1: (w, g) => `${w} ${g}`,
+    desc: (c, w, wl, gp, a) => `${c} ${wl} pour ${gp}, à imprimer gratuitement au format PDF (avec corrigés) ou à faire en ligne, sans inscription. De quoi ${a}.`,
+    intro: (c, w, wl, gp, a) => `Retrouvez ${c} ${wl} pour ${gp}. Tout est à imprimer gratuitement au format PDF (avec corrigé) ou à faire directement en ligne, sans inscription — de quoi ${a}.`,
+    heading: 'Par matière et niveau',
   },
   en: {
     title: (w, g) => `Free ${w} for ${g} – Printable PDF`,

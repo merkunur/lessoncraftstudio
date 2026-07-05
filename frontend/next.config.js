@@ -5,6 +5,16 @@ const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 const nextConfig = {
   // Enable standalone output for Docker deployment
   output: 'standalone',
+  // 2026-07-06 TERMINAL FIX for the build-killer: nft file-tracing OFF entirely.
+  // Three bounding attempts (excludes → tracingRoot → archive-move) all died with
+  // "RangeError: Too many elements passed to Promise.all" in @vercel/nft — the
+  // compiled server chunks' cwd-relative fs calls defeat nft's static analysis and
+  // wildcard the whole frontend/ tree (releases/, .next/, node_modules → millions of
+  // trace jobs → 50GB/40-90min → the 2026-07-05 all-day outage). With tracing off,
+  // the standalone output no longer bundles a traced node_modules subset; deploy.sh
+  // symlinks the release's node_modules to the full checkout instead (same box, same
+  // files — tracing only ever existed to slim containerized deploys we don't do).
+  outputFileTracing: false,
 
   // Increase static-page generation timeout. Default 60s is insufficient for
   // sitemap/2.xml (2-axis intersection shard) at non-trivial catalog scale —

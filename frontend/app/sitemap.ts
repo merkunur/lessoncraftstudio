@@ -1,14 +1,16 @@
 import { MetadataRoute } from 'next';
 import { getHreflangCode } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES, NSR_PENDING_LOCALES } from '@/config/locales';
-import { Axis, getAxisSlug } from '@/lib/taxonomy';
+import { Axis, getAxisSlug, listSubjectKeys, getSubjectSlugStrict } from '@/lib/taxonomy';
 import { prisma } from '@/lib/prisma';
 import {
   listNonEmptyAxisKeys,
   topicLastModified,
   listNonEmptyIntersections,
   intersectionLastModified,
+  countDecksForSubjectLevel,
 } from '@/lib/topic-decks';
+import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS } from '@/lib/subject-hub';
 // SEO RESCUE Part 2 W1: only authored (genuinely-unique) 2-axis intersections
 // belong in the sitemap; thin generic-template pairs are noindex'd in the route
 // and omitted here (single SoT shared with the [secondary] route).
@@ -278,6 +280,54 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       }
     } catch (err) {
       console.warn('[sitemap] shard 3 (topic) DB unreachable; skipping topic URLs:', (err as Error).message);
+    }
+
+    // Subject×grade hub pages (/[locale]/topic/<subject>/<grade>) — indexable
+    // aggregate hubs matching Fach×Klasse search intent. Count-gated on
+    // MIN_INDEXABLE_SUBJECT_HUB_DECKS; hreflang spans locales that define the
+    // subject AND clear the floor. Priority 0.6 (above single-axis 0.5 — these
+    // are the demand-aligned money hubs).
+    try {
+      for (const subjectKey of listSubjectKeys()) {
+        for (const levelKey of HUB_GRADE_KEYS) {
+          const sibs: TopicLocale[] = [];
+          for (const loc of TOPIC_LOCALES) {
+            const subjSlug = getSubjectSlugStrict(subjectKey, loc);
+            const gradeSlug = getAxisSlug('educational-level', levelKey, loc);
+            if (!subjSlug || !gradeSlug) continue;
+            const c = await countDecksForSubjectLevel(subjectKey, levelKey, loc);
+            if (c >= MIN_INDEXABLE_SUBJECT_HUB_DECKS) sibs.push(loc);
+          }
+          if (sibs.length === 0) continue;
+
+          const alternates: Record<string, string> = {};
+          for (const sib of sibs) {
+            const ss = getSubjectSlugStrict(subjectKey, sib);
+            const gs = getAxisSlug('educational-level', levelKey, sib);
+            if (ss && gs) alternates[getHreflangCode(sib)] = `${baseUrl}/${sib}/topic/${ss}/${gs}`;
+          }
+          if (sibs.includes('en')) {
+            const ess = getSubjectSlugStrict(subjectKey, 'en');
+            const egs = getAxisSlug('educational-level', levelKey, 'en');
+            if (ess && egs) alternates['x-default'] = `${baseUrl}/en/topic/${ess}/${egs}`;
+          }
+
+          for (const loc of sibs) {
+            const ss = getSubjectSlugStrict(subjectKey, loc);
+            const gs = getAxisSlug('educational-level', levelKey, loc);
+            if (!ss || !gs) continue;
+            routes.push({
+              url: `${baseUrl}/${loc}/topic/${ss}/${gs}`,
+              lastModified: STATIC_CONTENT_DATE,
+              changeFrequency: 'weekly',
+              priority: 0.6,
+              alternates: { languages: alternates },
+            });
+          }
+        }
+      }
+    } catch (err) {
+      console.warn('[sitemap] shard 3 (subject×grade) skipped:', (err as Error).message);
     }
 
     // CC-pinned activity landing pages — one URL per (manifest row × locale).

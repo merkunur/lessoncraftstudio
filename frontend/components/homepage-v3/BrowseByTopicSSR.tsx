@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
-import { listNonEmptyAxisKeys } from '@/lib/topic-decks';
+import { listNonEmptyAxisKeys, countDecksForSubjectLevel } from '@/lib/topic-decks';
 import { resolveAxisSlug, resolveAxisName, LABELS } from '@/lib/category-nav-data';
+import { listSubjectKeys, getSubjectSlugStrict, getSubjectName, getAxisSlug, getAxisName } from '@/lib/taxonomy';
+import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS } from '@/lib/subject-hub';
 
 // SSR crawl-bait section (Remediation Part 2 / R2c). The homepage-v3 promotion
 // (bc215a5c) dropped the BreadthGrid, collapsing above-fold internal links from
@@ -30,10 +32,31 @@ export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
     label: resolveAxisName(k, locale, 'exercise-type'),
   }));
 
+  // Subject×grade hub links (Fach×Klasse) — only for locales that define subjects
+  // (de/en at MVP). The getSubjectSlugStrict null-check short-circuits the other
+  // 9 locales to zero DB queries. Count-gated so we never link a thin/404 hub.
+  const subjectGradeLinks: Array<{ href: string; label: string }> = [];
+  try {
+    const combos = listSubjectKeys().flatMap(s => HUB_GRADE_KEYS.map(g => ({ s, g })));
+    const resolved = await Promise.all(
+      combos.map(async ({ s, g }) => {
+        const ss = getSubjectSlugStrict(s, locale);
+        const gs = getAxisSlug('educational-level', g, locale);
+        if (!ss || !gs) return null;
+        const c = await countDecksForSubjectLevel(s, g, locale);
+        if (c < MIN_INDEXABLE_SUBJECT_HUB_DECKS) return null;
+        const gradeLabel = (getAxisName('educational-level', g, locale) ?? g).replace(/\s*\([^)]*\)\s*$/, '');
+        return { href: `/${locale}/topic/${ss}/${gs}`, label: `${getSubjectName(s, locale) ?? s} · ${gradeLabel}` };
+      }),
+    );
+    for (const r of resolved) if (r) subjectGradeLinks.push(r);
+  } catch { /* DB unreachable — omit the group, honesty */ }
+
   // Nothing to show for a substrate-empty locale — render nothing (honesty).
-  if (themeLinks.length === 0 && typeLinks.length === 0) return null;
+  if (themeLinks.length === 0 && typeLinks.length === 0 && subjectGradeLinks.length === 0) return null;
 
   const labels = LABELS[locale] ?? LABELS.en;
+  const subjectGradeHeading = locale === 'de' ? 'Nach Fach & Klassenstufe' : 'By subject & grade';
 
   const group = (heading: string, links: Array<{ href: string; label: string }>, browseHref: string, browseLabel: string) => {
     if (links.length === 0) return null;
@@ -65,6 +88,7 @@ export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
   return (
     <section id="browse-by-topic" className="hv3-section-cream py-16 md:py-20">
       <div className="container mx-auto px-4 max-w-6xl grid gap-6 md:grid-cols-2">
+        {group(subjectGradeHeading, subjectGradeLinks, `/${locale}/worksheets/`, labels.browseAllTopics)}
         {group(tFooter('byTopic'), themeLinks, `/${locale}/topic/`, labels.browseAllTopics)}
         {group(tFooter('byExerciseType'), typeLinks, `/${locale}/worksheets/`, labels.browseAllTopics)}
       </div>

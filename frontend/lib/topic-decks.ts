@@ -1,5 +1,5 @@
 import { prisma } from './prisma';
-import { Axis, levelKeyToAgeRanges, listAxisKeys, listExerciseModeKeys } from './taxonomy';
+import { Axis, levelKeyToAgeRanges, listAxisKeys, listExerciseModeKeys, exerciseTypeKeysForSubject } from './taxonomy';
 
 export interface TopicDeckSummary {
   id: string;
@@ -249,6 +249,53 @@ export async function countDecksForIntersection(
   if (!w1 || !w2) return 0;
   return prisma.deck.count({
     where: { language: locale, status: 'published', contentLanguage: null, ...w1, ...w2 },
+  });
+}
+
+/**
+ * Build the WHERE fragment for a subject×grade hub: decks whose exercise_type is
+ * in the subject bucket AND whose age_range is in the grade level. `subject` is a
+ * bucket over exercise-types (NOT a per-deck column, NOT a formal Axis), so unlike
+ * buildAxisWhere this expands to an `exerciseType IN (...)` set. Powers the
+ * /<locale>/topic/<subject-slug>/<grade-slug> hubs (e.g. /de/topic/mathe/1-klasse).
+ */
+function buildSubjectLevelWhere(
+  subjectKey: string,
+  levelKey: string
+): Record<string, unknown> | null {
+  const types = exerciseTypeKeysForSubject(subjectKey);
+  const ageRanges = levelKeyToAgeRanges(levelKey);
+  if (types.length === 0 || ageRanges.length === 0) return null;
+  return { exerciseType: { in: types }, ageRange: { in: ageRanges } };
+}
+
+/** Fetch published decks for a subject×grade hub (subject bucket × level), monolingual. */
+export async function fetchDecksForSubjectLevel(
+  subjectKey: string,
+  levelKey: string,
+  locale: string,
+  options?: { take?: number }
+): Promise<TopicDeckSummary[]> {
+  const w = buildSubjectLevelWhere(subjectKey, levelKey);
+  if (!w) return [];
+  return prisma.deck.findMany({
+    where: { language: locale, status: 'published', contentLanguage: null, ...w },
+    select: DECK_SELECT,
+    orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
+    take: options?.take ?? 24,
+  }) as unknown as Promise<TopicDeckSummary[]>;
+}
+
+/** Count published decks for a subject×grade hub — empty-guard + header count. */
+export async function countDecksForSubjectLevel(
+  subjectKey: string,
+  levelKey: string,
+  locale: string
+): Promise<number> {
+  const w = buildSubjectLevelWhere(subjectKey, levelKey);
+  if (!w) return 0;
+  return prisma.deck.count({
+    where: { language: locale, status: 'published', contentLanguage: null, ...w },
   });
 }
 

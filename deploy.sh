@@ -214,7 +214,12 @@ rm -rf .next/server .next/standalone
 echo "🔨 Building Next.js application (nice -n 10 so the live server keeps CPU)..."
 export BUILD_DATE=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 echo "   BUILD_DATE=${BUILD_DATE}"
-nice -n 10 timeout 900 npm run build || { echo "BUILD TIMED OUT after 15 minutes — likely symlink bloat. Aborting."; exit 1; }
+# NODE_OPTIONS heap raised 2026-07-05: the ~33k-page build outgrew Node's default
+# ~4GB old-space heap and began OOM-ing ("heap out of memory"; deploy.sh formerly
+# mislabeled this as a timeout). Observed peak ~7.7GB → 12GB gives headroom. The
+# box has 62GB RAM. Timeout raised 900→1800s for the growing build. If this OOMs
+# again, raise max-old-space-size further (12288→16384).
+NODE_OPTIONS="--max-old-space-size=12288" nice -n 10 timeout 1800 npm run build || { echo "BUILD FAILED (OOM or >30 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
 
 # 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
 # The running server continues serving from releases/current/ while we prepare

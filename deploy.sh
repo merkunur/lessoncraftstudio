@@ -225,7 +225,7 @@ echo "   BUILD_DATE=${BUILD_DATE}"
 # fs change reshaped landing-content.ts's graph across its 16 route importers and blew up the
 # single-threaded webpack seal). Once this build writes a clean cache MATCHING the deployed code,
 # subsequent deploys are warm/fast — REVERT this back to 20480/3600 after a green build.
-NODE_OPTIONS="--max-old-space-size=24576" nice -n 10 timeout 5400 npm run build || { echo "BUILD FAILED (OOM or >90 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
+NODE_OPTIONS="--max-old-space-size=20480" nice -n 10 timeout 5400 npm run build || { echo "BUILD FAILED (OOM or >90 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
 
 # 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
 # The running server continues serving from releases/current/ while we prepare

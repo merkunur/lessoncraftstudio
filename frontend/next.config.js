@@ -3,8 +3,11 @@ const createNextIntlPlugin = require('next-intl/plugin');
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 const nextConfig = {
-  // Enable standalone output for Docker deployment
-  output: 'standalone',
+  // 2026-07-06: `output: 'standalone'` REMOVED together with outputFileTracing:false
+  // below — standalone's node_modules subset is produced BY the tracer, so without
+  // tracing Next emits no standalone dir at all (build #14 proved it). The app now
+  // serves via `next start` from a per-release .next copy + symlinked node_modules
+  // (deploy.sh next-start release model).
   // 2026-07-06 TERMINAL FIX for the build-killer: nft file-tracing OFF entirely.
   // Three bounding attempts (excludes → tracingRoot → archive-move) all died with
   // "RangeError: Too many elements passed to Promise.all" in @vercel/nft — the

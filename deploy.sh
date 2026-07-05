@@ -249,45 +249,31 @@ NEW_BUILD_ID="$(cat .next/BUILD_ID 2>/dev/null || echo "unknown-$(date +%s)")"
 mkdir -p releases
 RELEASE_DIR="releases/${NEW_BUILD_ID}"
 rm -rf "$RELEASE_DIR"
-if [ ! -d .next/standalone ] || [ ! -f .next/standalone/server.js ]; then
-    echo "FATAL: .next/standalone/server.js missing — with outputFileTracing:false the"
-    echo "       standalone dir must still be emitted by the build. Investigate before flip."
+# 2026-07-06 NEXT-START RELEASE MODEL (replaces standalone — outputFileTracing is off,
+# so Next emits no standalone dir; build #14 proved compile drops 90min/50GB → 4min/2.3GB
+# without the tracer). A release = a full .next copy + symlinks to the shared checkout
+# (node_modules, public) + its own config/env copies. pm2 runs `next start` with
+# cwd=releases/current; the symlink flip keeps the same zero-downtime semantics.
+if [ ! -f .next/BUILD_ID ]; then
+    echo "FATAL: .next/BUILD_ID missing — build did not produce output. Aborting."
     exit 1
 fi
-cp -a .next/standalone "$RELEASE_DIR"
-# 2026-07-06 outputFileTracing:false (the nft build-killer fix): the standalone output
-# no longer contains a traced node_modules subset. The release resolves its runtime
-# deps from the FULL checkout instead — same box, same files, superset of any trace.
-echo "   → Linking full node_modules into staged release (tracing disabled)"
-rm -rf "$RELEASE_DIR/node_modules"
+mkdir -p "$RELEASE_DIR"
+echo "   → Copying .next into staged release (next-start model)"
+cp -a .next "$RELEASE_DIR/.next"
+rm -rf "$RELEASE_DIR/.next/cache"   # build cache stays in frontend/.next only; releases stay slim
+echo "   → Linking shared node_modules + public into staged release"
 ln -s /opt/lessoncraftstudio/frontend/node_modules "$RELEASE_DIR/node_modules"
-echo "   → Copying .next/static to staged release"
-cp -r .next/static "$RELEASE_DIR/.next/static"
-echo "   → Copying public to staged release"
-cp -a public "$RELEASE_DIR/public"
-
-# Validate symlinks survived the copy (cp -a preserves them, cp -r would not)
-echo "   → Validating symlinks in staged release..."
-if [ -d "$RELEASE_DIR/public/worksheet-generators" ] && [ ! -L "$RELEASE_DIR/public/worksheet-generators" ]; then
-    echo "FATAL: public/worksheet-generators is a directory, not a symlink!"
-    echo "       Someone changed cp -a back to cp -r. Fix package.json and deploy.sh."
-    rm -rf "$RELEASE_DIR"
-    exit 1
-fi
-if [ -d "$RELEASE_DIR/public/admin" ] && [ ! -L "$RELEASE_DIR/public/admin" ]; then
-    echo "FATAL: public/admin is a directory, not a symlink!"
-    rm -rf "$RELEASE_DIR"
-    exit 1
-fi
-if [ -d "$RELEASE_DIR/public/mini-tools" ] && [ ! -L "$RELEASE_DIR/public/mini-tools" ]; then
-    echo "FATAL: public/mini-tools is a directory, not a symlink!"
-    rm -rf "$RELEASE_DIR"
-    exit 1
-fi
-echo "   ✅ Symlinks preserved correctly"
-
-echo "   → Copying .env.production to staged release"
+ln -s /opt/lessoncraftstudio/frontend/public "$RELEASE_DIR/public"
+echo "   → Copying config + env into staged release"
+cp package.json "$RELEASE_DIR/package.json"
+cp next.config.js "$RELEASE_DIR/next.config.js"
 cp .env.production "$RELEASE_DIR/.env.production"
+[ -f .env ] && cp .env "$RELEASE_DIR/.env"
+if [ ! -L "$RELEASE_DIR/public" ] || [ ! -L "$RELEASE_DIR/node_modules" ]; then
+    echo "FATAL: release symlinks missing"; rm -rf "$RELEASE_DIR"; exit 1
+fi
+echo "   ✅ Release staged (next-start model)"
 
 # NOTE: No symlinks needed! Samples are served directly by nginx from
 # /var/www/lcs-media/samples/ - this deployment CANNOT affect them
@@ -329,7 +315,16 @@ echo "   ✅ Flip complete"
 #     kills the old worker. No stop window.
 echo ""
 echo "🔄 Reloading PM2 application (graceful, zero-downtime)..."
-pm2 reload lessoncraftstudio --update-env --kill-timeout 3000
+# 2026-07-06 next-start model: the pm2 process must run `next start` (cwd=releases/current),
+# not the old standalone server.js. One-time migration path below; thereafter plain reload.
+if pm2 describe lessoncraftstudio 2>/dev/null | grep -q "dist/bin/next"; then
+    pm2 reload lessoncraftstudio --update-env --kill-timeout 3000
+else
+    echo "   → One-time migration: standalone server.js → next start (cluster x1)"
+    pm2 delete lessoncraftstudio 2>/dev/null || true
+    PORT=3000 NODE_ENV=production pm2 start /opt/lessoncraftstudio/frontend/releases/current/node_modules/next/dist/bin/next \
+        --name lessoncraftstudio -i 1 --cwd /opt/lessoncraftstudio/frontend/releases/current -- start -p 3000
+fi
 pm2 save
 
 # 7. Health check with retry loop

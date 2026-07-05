@@ -22,10 +22,10 @@ import { EmbedWorksheet } from '@/components/worksheets/EmbedWorksheet';
 import { ogLocaleMap } from '@/lib/schema-generator';
 import { buildHreflangAlternates } from '@/lib/seo/hreflang';
 import { getAxisSlug } from '@/lib/taxonomy';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { targetLangName, targetLangSlug } from '@/lib/target-language';
 import {
-  getLandingLocales, getLandingSlugs, getLandingBySlug, deckAssets, getSiblingLandingsByCoordinate,
+  getLandingLocales, getLandingBySlug, deckAssets, getSiblingLandingsByCoordinate,
   getRelatedLandings, Landing,
 } from '@/lib/seo/landing-content';
 import { getMakerContent, MAKER_KEYS, MakerKey } from '@/lib/seo/maker-content';
@@ -173,19 +173,17 @@ const UI_STRINGS: Record<string, {
 
 export const revalidate = 3600;
 
-// SSG: pre-render every landing at build time. (An on-demand-ISR variant — returning []
-// here — was tried 2026-07-05 to shrink the build, but the landing render calls headers()
-// [via next-intl], which under on-demand render throws "Page changed from static to dynamic
-// … reason: headers" → 500 on every landing. SSG tolerates headers() at build time, so this
-// is the correct, proven-working shape. The build-memory problem was NOT the page count — it
-// was vm.max_map_count=65530 (raised to 1048576) + a deleted webpack cache; both fixed.)
-export function generateStaticParams() {
-  const out: { locale: string; slug: string }[] = [];
-  for (const locale of getLandingLocales()) {
-    for (const slug of getLandingSlugs(locale)) out.push({ locale, slug });
-  }
-  return out;
+export function generateStaticParams(): { locale: string; slug: string }[] {
+  // On-demand ISR: prerender NOTHING at build. Enumerating ~30k landings (11 locales) made
+  // `next build` choke 60-90min in the compile/collection phase and never reach generation
+  // (verified live 2026-07-05 across every heap/JSON config). Each landing renders on first
+  // request, then caches per `revalidate` (3600) -> 200 + fully indexable. setRequestLocale()
+  // in the page + generateMetadata below stops next-intl from calling headers(), so the
+  // on-demand render stays static-cacheable (returning [] WITHOUT setRequestLocale is exactly
+  // what 500'd the 2026-07-05 ISR attempt: "Page changed from static to dynamic ... headers").
+  return [];
 }
+export const dynamicParams = true;
 
 function metaDescription(l: Landing): string {
   // First sentence(s) of P1, trimmed to ~155 chars on a word boundary.
@@ -204,6 +202,7 @@ function themeHubSlug(l: Landing, locale: string): string {
 export async function generateMetadata(
   { params }: { params: { locale: string; slug: string } },
 ): Promise<Metadata> {
+  setRequestLocale(params.locale);
   const l = getLandingBySlug(params.locale, params.slug);
   if (!l) return {};
   const canonical = canonicalUrl(localePath(params.locale, 'worksheets', l.slug));
@@ -247,6 +246,7 @@ export default async function WorksheetLandingPage(
   { params }: { params: { locale: string; slug: string } },
 ) {
   const { locale } = params;
+  setRequestLocale(locale);
   const l = getLandingBySlug(locale, params.slug);
   if (!l) notFound();
   const ui = UI_STRINGS[locale] || UI_STRINGS.en;

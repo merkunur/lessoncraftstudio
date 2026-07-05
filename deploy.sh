@@ -219,7 +219,7 @@ echo "   BUILD_DATE=${BUILD_DATE}"
 # mislabeled this as a timeout). Observed peak ~7.7GB → 12GB gives headroom. The
 # box has 62GB RAM. Timeout raised 900→1800s for the growing build. If this OOMs
 # again, raise max-old-space-size further (12288→16384).
-NODE_OPTIONS="--max-old-space-size=12288" nice -n 10 timeout 1800 npm run build || { echo "BUILD FAILED (OOM or >30 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
+NODE_OPTIONS="--max-old-space-size=16384" nice -n 10 timeout 1800 npm run build || { echo "BUILD FAILED (OOM or >30 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
 
 # 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
 # The running server continues serving from releases/current/ while we prepare

@@ -249,7 +249,18 @@ NEW_BUILD_ID="$(cat .next/BUILD_ID 2>/dev/null || echo "unknown-$(date +%s)")"
 mkdir -p releases
 RELEASE_DIR="releases/${NEW_BUILD_ID}"
 rm -rf "$RELEASE_DIR"
+if [ ! -d .next/standalone ] || [ ! -f .next/standalone/server.js ]; then
+    echo "FATAL: .next/standalone/server.js missing — with outputFileTracing:false the"
+    echo "       standalone dir must still be emitted by the build. Investigate before flip."
+    exit 1
+fi
 cp -a .next/standalone "$RELEASE_DIR"
+# 2026-07-06 outputFileTracing:false (the nft build-killer fix): the standalone output
+# no longer contains a traced node_modules subset. The release resolves its runtime
+# deps from the FULL checkout instead — same box, same files, superset of any trace.
+echo "   → Linking full node_modules into staged release (tracing disabled)"
+rm -rf "$RELEASE_DIR/node_modules"
+ln -s /opt/lessoncraftstudio/frontend/node_modules "$RELEASE_DIR/node_modules"
 echo "   → Copying .next/static to staged release"
 cp -r .next/static "$RELEASE_DIR/.next/static"
 echo "   → Copying public to staged release"

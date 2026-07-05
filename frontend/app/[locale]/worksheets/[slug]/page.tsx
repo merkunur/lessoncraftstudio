@@ -173,12 +173,16 @@ const UI_STRINGS: Record<string, {
 
 export const revalidate = 3600;
 
+// On-demand ISR (2026-07-05): return [] instead of enumerating all ~30k landing
+// {locale, slug} pairs. Pre-rendering 30k landings at build time made `next build`
+// generate 34,666 pages and drove peak heap to ~12-16GB (dominant build-memory cost;
+// bigger --max-old-space-size only made V8's GC slower/OOM-prone, not the fix).
+// With dynamicParams=true (the App Router default) + revalidate=3600, each landing
+// renders SSR on first request and caches for 1h — fully indexable (200 + head/JSON-LD/
+// hreflang identical to the old SSG output), still listed in the sitemap (JSON-driven,
+// independent of this fn), and invalid slugs still notFound() at runtime.
 export function generateStaticParams() {
-  const out: { locale: string; slug: string }[] = [];
-  for (const locale of getLandingLocales()) {
-    for (const slug of getLandingSlugs(locale)) out.push({ locale, slug });
-  }
-  return out;
+  return [] as { locale: string; slug: string }[];
 }
 
 function metaDescription(l: Landing): string {

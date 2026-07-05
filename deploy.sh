@@ -219,10 +219,12 @@ echo "   BUILD_DATE=${BUILD_DATE}"
 # mislabeled this as a timeout). Observed peak ~7.7GB → 12GB gives headroom. The
 # box has 62GB RAM. Timeout raised 900→1800s for the growing build. If this OOMs
 # again, raise max-old-space-size further (12288→16384).
-# timeout 3600 (60min): the ~33k-page SSG at a 16GB heap does slow major-GCs and
-# now exceeds 30min. TECH-DEBT: the static-generation set is too large/heavy —
-# reduce SSG (move more page types to on-demand ISR) or cap build worker concurrency.
-NODE_OPTIONS="--max-old-space-size=20480" nice -n 10 timeout 3600 npm run build || { echo "BUILD FAILED (OOM or >60 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
+# Heap 8GB + 30min timeout (2026-07-05): the landing pages moved to on-demand ISR
+# (generateStaticParams → []), so the build now generates ~4.6k pages, not 34.6k.
+# 8GB is ample headroom; a LARGER heap is counterproductive (V8 defers major GC →
+# RSS balloons + slow GC → timeout/OOM). On "BUILD FAILED", read the log: 'heap out
+# of memory' = OOM (a page regressed to build-time SSG?), else a genuine hang.
+NODE_OPTIONS="--max-old-space-size=8192" nice -n 10 timeout 1800 npm run build || { echo "BUILD FAILED (OOM or >30 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
 
 # 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
 # The running server continues serving from releases/current/ while we prepare

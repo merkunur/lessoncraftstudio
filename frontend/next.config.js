@@ -37,6 +37,14 @@ const nextConfig = {
     serverActions: {
       bodySizeLimit: '10mb',
     },
+    // 2026-07-05 build incident (plan rev 4): a truly-cold `next build` of this app
+    // exceeded even a 51GB heap (RSS 53GB at 98min, single-threaded webpack seal).
+    // webpackMemoryOptimizations trades some build speed for a much smaller webpack
+    // working set; webpackBuildWorker runs the compile in a worker thread. Both are
+    // the Next-14.2-intended remedies for exactly this failure class. Do NOT remove
+    // without a measured cold-build comparison.
+    webpackMemoryOptimizations: true,
+    webpackBuildWorker: true,
   },
 
   // Security Headers for Production

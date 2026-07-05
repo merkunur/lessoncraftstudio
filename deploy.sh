@@ -220,10 +220,12 @@ echo "   BUILD_DATE=${BUILD_DATE}"
 #  (2) The warm .next/cache/webpack (993MB) is now rebuilt, so builds are warm-incremental again.
 # >>> NEVER `rm -rf .next/cache` — that is what turned cheap warm builds into a 40GB cold-compile
 #     OOM loop. deploy.sh only removes .next/server + .next/standalone, which is safe. <<<
-# 20GB comfortably covers a warm compile + the ~34k-page static generation (es peaked 12.5GB).
-# DURABLE FOLLOW-UP (if a future cache-loss forces a cold build): the cold compile is ~40GB —
-# add experimental.webpackBuildWorker or find the bloat so it can't hit the old ceiling again.
-NODE_OPTIONS="--max-old-space-size=20480" nice -n 10 timeout 3600 npm run build || { echo "BUILD FAILED (OOM or >60 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
+# 24GB + 90min for the ONE recovery build onto a partly-mismatched cache after reverting the
+# fs-unbundle back to the es static-JSON-import config (the config every FAST build used — the
+# fs change reshaped landing-content.ts's graph across its 16 route importers and blew up the
+# single-threaded webpack seal). Once this build writes a clean cache MATCHING the deployed code,
+# subsequent deploys are warm/fast — REVERT this back to 20480/3600 after a green build.
+NODE_OPTIONS="--max-old-space-size=24576" nice -n 10 timeout 5400 npm run build || { echo "BUILD FAILED (OOM or >90 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
 
 # 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
 # The running server continues serving from releases/current/ while we prepare

@@ -44,6 +44,24 @@ const nextConfig = {
     // (webpackMemoryOptimizations was tried and REMOVED — not supported by Next 14.2.18,
     // "Unrecognized key"; it exists only in later Next versions.)
     webpackBuildWorker: true,
+    // 2026-07-06 THE named build-killer: @vercel/nft output-file-tracing died with
+    // "RangeError: Too many elements passed to Promise.all" (build #11, Node 22 — the
+    // first build to SURFACE the error instead of silently OOMing). nft statically
+    // follows landing-content.ts's fs.readFileSync candidates (incl. the absolute
+    // /opt/lessoncraftstudio fallback) and tries to inventory the 93MB seo-landing JSON
+    // + the symlinked media trees (image library, 28k deck dirs, 30k static landings)
+    // → millions of trace jobs → 50GB/hours/OOM. Standalone does NOT need any of these
+    // traced: the runtime fs-loader reads from the git checkout via its absolute path,
+    // and nginx serves all media/public trees directly (deploy.sh copies public/ itself).
+    outputFileTracingExcludes: {
+      '*': [
+        'content/seo-landing/**',
+        'public/**',
+        '.next/**',
+        'node_modules/@swc/core-linux-x64-gnu/**',
+        'node_modules/@swc/core-linux-x64-musl/**',
+      ],
+    },
   },
 
   // Security Headers for Production

@@ -214,20 +214,16 @@ rm -rf .next/server .next/standalone
 echo "🔨 Building Next.js application (nice -n 10 so the live server keeps CPU)..."
 export BUILD_DATE=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 echo "   BUILD_DATE=${BUILD_DATE}"
-# NODE_OPTIONS heap raised 2026-07-05: the ~33k-page build outgrew Node's default
-# ~4GB old-space heap and began OOM-ing ("heap out of memory"; deploy.sh formerly
-# mislabeled this as a timeout). Observed peak ~7.7GB → 12GB gives headroom. The
-# box has 62GB RAM. Timeout raised 900→1800s for the growing build. If this OOMs
-# again, raise max-old-space-size further (12288→16384).
-# Heap 20GB + 30min timeout (2026-07-05, box has 62GB). Both the compile AND the
-# generation are now LIGHT: lib/seo/landing-content.ts loads the 11 seo-landing/*.json
-# (~93MB) at RUNTIME via fs instead of static import, so webpack no longer bundles them
-# (that JSON AST was the whole compile explosion — 16GB death-spiral / 32GB std::bad_alloc),
-# and landings are on-demand ISR (~4.6k pages, not 34.6k). 12GB is ample; a LARGER heap
-# is counterproductive (starves the native SWC compiler → std::bad_alloc). On "BUILD
-# FAILED": 'heap out of memory' = a JSON re-bundled (a new static import crept in) or a
-# page regressed to SSG; else a genuine hang.
-NODE_OPTIONS="--max-old-space-size=20480" nice -n 10 timeout 1800 npm run build || { echo "BUILD FAILED (OOM or >30 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
+# Heap 40GB — ONE-TIME cache-recovery build (2026-07-05, ROOT CAUSE found).
+# The warm .next/cache/webpack was deleted during heap-thrashing, so every build became a
+# full COLD ~19GB compile (vs the normal ~4-12GB warm-incremental) that hit the heap-cap
+# edge → OOM/std::bad_alloc, and since it failed it never rewrote the cache → stuck loop.
+# The box has 62GB RAM + 31GB swap + NO cgroup ceiling, so the ONLY failure mode was the
+# cap sitting AT the working-set edge. 40GB removes the edge → this cold build COMPLETES
+# and REWRITES the warm cache. Timeout 3600 (cold build is slow, ~20-30min).
+# >>> AFTER a green build, REVERT this to 12288 (warm builds are ~4-12GB/fast). <<<
+# >>> NEVER `rm -rf .next/cache` again — that is what broke it. <<<
+NODE_OPTIONS="--max-old-space-size=40960" nice -n 10 timeout 3600 npm run build || { echo "BUILD FAILED (OOM or >60 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
 
 # 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
 # The running server continues serving from releases/current/ while we prepare

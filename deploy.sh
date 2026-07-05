@@ -214,18 +214,21 @@ rm -rf .next/server .next/standalone
 echo "🔨 Building Next.js application (nice -n 10 so the live server keeps CPU)..."
 export BUILD_DATE=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 echo "   BUILD_DATE=${BUILD_DATE}"
-# Heap 20GB + 60min (2026-07-05, steady-state). Memory was NEVER the real build blocker:
-#  (1) vm.max_map_count=65530 (default) capped cold compiles → std::bad_alloc regardless of
-#      RAM/heap. FIXED: raised to 1048576 (persisted in /etc/sysctl.conf on this box).
-#  (2) The warm .next/cache/webpack (993MB) is now rebuilt, so builds are warm-incremental again.
-# >>> NEVER `rm -rf .next/cache` — that is what turned cheap warm builds into a 40GB cold-compile
-#     OOM loop. deploy.sh only removes .next/server + .next/standalone, which is safe. <<<
-# 24GB + 90min for the ONE recovery build onto a partly-mismatched cache after reverting the
-# fs-unbundle back to the es static-JSON-import config (the config every FAST build used — the
-# fs change reshaped landing-content.ts's graph across its 16 route importers and blew up the
-# single-threaded webpack seal). Once this build writes a clean cache MATCHING the deployed code,
-# subsequent deploys are warm/fast — REVERT this back to 20480/3600 after a green build.
-NODE_OPTIONS="--max-old-space-size=20480" nice -n 10 timeout 5400 npm run build || { echo "BUILD FAILED (OOM or >90 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
+# Heap 40GB + 90min (2026-07-05 incident, measured across 5 instrumented builds — see
+# memory/project_build_incident_2026_07_05.md for the falsification table):
+#  - This app's COLD webpack seal genuinely needs ~35-40GB heap and ~30-50min. Below that it
+#    either V8-heap-OOMs (24GB: FATAL NewConsString) or GC-thrash-pins at the cap forever
+#    (20/32GB: RSS pinned, mu→0.04, zero progress). The ONLY builds that ever completed on
+#    2026-07-05 ran at 40-50GB. WARM builds need far less, but the cap must cover the cold
+#    case or the first invalidating commit (taxonomy/topic/sitemap touch) bricks deploys.
+#  - vm.max_map_count=65530 (default) was a SECOND independent killer (std::bad_alloc at
+#    ~17-19GB RSS regardless of heap). FIXED: 1048576, persisted in /etc/sysctl.conf.
+#  - Landings are on-demand ISR (generateStaticParams → [], setRequestLocale in the page);
+#    SSG-enumerating the ~30k landings is NOT the compile cost (compile runs before params),
+#    but ISR keeps the generation phase light. Do NOT revert landings to SSG.
+#  - Do not delete a MATCHING warm .next/cache; a mismatched one may be reset deliberately
+#    ONCE after code stabilizes. deploy.sh only removes .next/server + .next/standalone.
+NODE_OPTIONS="--max-old-space-size=40960" nice -n 10 timeout 5400 npm run build || { echo "BUILD FAILED (OOM or >90 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
 
 # 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
 # The running server continues serving from releases/current/ while we prepare

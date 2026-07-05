@@ -10,7 +10,7 @@ import {
   intersectionLastModified,
   countDecksForSubjectLevel,
 } from '@/lib/topic-decks';
-import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS } from '@/lib/subject-hub';
+import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS, isSubjectHubAllowed } from '@/lib/subject-hub';
 // SEO RESCUE Part 2 W1: only authored (genuinely-unique) 2-axis intersections
 // belong in the sitemap; thin generic-template pairs are noindex'd in the route
 // and omitted here (single SoT shared with the [secondary] route).
@@ -292,6 +292,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
         for (const levelKey of HUB_GRADE_KEYS) {
           const sibs: TopicLocale[] = [];
           for (const loc of TOPIC_LOCALES) {
+            if (!isSubjectHubAllowed(loc, subjectKey, levelKey)) continue;
             const subjSlug = getSubjectSlugStrict(subjectKey, loc);
             const gradeSlug = getAxisSlug('educational-level', levelKey, loc);
             if (!subjSlug || !gradeSlug) continue;

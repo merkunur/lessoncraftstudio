@@ -3,7 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { listNonEmptyAxisKeys, countDecksForSubjectLevel } from '@/lib/topic-decks';
 import { resolveAxisSlug, resolveAxisName, LABELS } from '@/lib/category-nav-data';
 import { listSubjectKeys, getSubjectSlugStrict, getSubjectName, getAxisSlug, getAxisName } from '@/lib/taxonomy';
-import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS } from '@/lib/subject-hub';
+import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS, isSubjectHubAllowed } from '@/lib/subject-hub';
 
 // SSR crawl-bait section (Remediation Part 2 / R2c). The homepage-v3 promotion
 // (bc215a5c) dropped the BreadthGrid, collapsing above-fold internal links from
@@ -40,6 +40,7 @@ export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
     const combos = listSubjectKeys().flatMap(s => HUB_GRADE_KEYS.map(g => ({ s, g })));
     const resolved = await Promise.all(
       combos.map(async ({ s, g }) => {
+        if (!isSubjectHubAllowed(locale, s, g)) return null;
         const ss = getSubjectSlugStrict(s, locale);
         const gs = getAxisSlug('educational-level', g, locale);
         if (!ss || !gs) return null;
@@ -56,7 +57,8 @@ export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
   if (themeLinks.length === 0 && typeLinks.length === 0 && subjectGradeLinks.length === 0) return null;
 
   const labels = LABELS[locale] ?? LABELS.en;
-  const subjectGradeHeading = locale === 'de' ? 'Nach Fach & Klassenstufe' : 'By subject & grade';
+  const subjectGradeHeading =
+    locale === 'de' ? 'Nach Fach & Klassenstufe' : locale === 'nl' ? 'Op vak & groep' : 'By subject & grade';
 
   const group = (heading: string, links: Array<{ href: string; label: string }>, browseHref: string, browseLabel: string) => {
     if (links.length === 0) return null;

@@ -239,7 +239,7 @@ echo "   BUILD_DATE=${BUILD_DATE}"
 #    but ISR keeps the generation phase light. Do NOT revert landings to SSG.
 #  - Do not delete a MATCHING warm .next/cache; a mismatched one may be reset deliberately
 #    ONCE after code stabilizes. deploy.sh only removes .next/server + .next/standalone.
-NODE_OPTIONS="--max-old-space-size=51200" nice -n 10 timeout 14400 npm run build || { echo "BUILD FAILED (OOM or >90 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
+NODE_OPTIONS="--max-old-space-size=8192" nice -n 10 timeout 1800 npm run build || { echo "BUILD FAILED (OOM or >90 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
 
 # 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
 # The running server continues serving from releases/current/ while we prepare

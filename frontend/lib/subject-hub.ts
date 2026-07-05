@@ -17,14 +17,15 @@ export const MIN_INDEXABLE_SUBJECT_HUB_DECKS = 12;
 // Per-(locale, subject) copy. `worksheets` = the natural "<subject> worksheets"
 // noun phrase (native compounding baked in); `angle` = the skills this subject
 // builds (for a non-duplicate intro that varies meaningfully by subject).
-// `worksheets`/`angle` are the default (formal-grade) forms; the optional
-// *Kleuter variants override at the kindergarten level, where a formal vak name
-// reads wrong (nl: "lezen" isn't taught yet → "Letters"; "voorbereidend" framing).
+// `worksheets`/`angle` are the default forms; `worksheetsByLevel`/`angleByLevel`
+// override for specific grade levels where a formal subject label reads wrong
+// (nl: "Taal"→"Letters" at kindergarten; es: "Español"→"lectoescritura" at
+// preescolar/kínder, "Ciencias"→"Exploración del Mundo"/"Conocimiento del Medio").
 interface SubjectCopy {
   worksheets: string; // e.g. de "Mathe-Arbeitsblätter", en "Math worksheets"
   angle: string;
-  worksheetsKleuter?: string;
-  angleKleuter?: string;
+  worksheetsByLevel?: Record<string, string>;
+  angleByLevel?: Record<string, string>;
 }
 const SUBJECT_COPY: Record<string, Record<string, SubjectCopy>> = {
   de: {
@@ -42,14 +43,39 @@ const SUBJECT_COPY: Record<string, Record<string, SubjectCopy>> = {
     'spatial-reasoning': { worksheets: 'Visual & Spatial worksheets', angle: 'close looking, focus, and visual perception' },
   },
   // Native Dutch (§A.13.48 ensemble + operator sign-off). Formal-grade titles use
-  // the searched form ("{Vak} werkbladen"); the kleuter overrides give "Letters"
-  // (formal reading starts groep 3) + voorbereidend framing.
+  // the searched form ("{Vak} werkbladen"); the kindergarten override gives
+  // "Letters" (formal reading starts groep 3) + voorbereidend framing.
   nl: {
-    math: { worksheets: 'Rekenen werkbladen', angle: 'tellen, rekenen en getalbegrip', angleKleuter: 'tellen, getalbegrip en voorbereidend rekenen' },
-    letters: { worksheets: 'Taal werkbladen', worksheetsKleuter: 'Letters werkbladen', angle: 'lezen, spelling en woordenschat', angleKleuter: 'letters, klanken en voorbereidend lezen' },
+    math: { worksheets: 'Rekenen werkbladen', angle: 'tellen, rekenen en getalbegrip', angleByLevel: { kindergarten: 'tellen, getalbegrip en voorbereidend rekenen' } },
+    letters: { worksheets: 'Taal werkbladen', worksheetsByLevel: { kindergarten: 'Letters werkbladen' }, angle: 'lezen, spelling en woordenschat', angleByLevel: { kindergarten: 'letters, klanken en voorbereidend lezen' } },
     science: { worksheets: 'Natuur werkbladen', angle: 'dieren, natuur en de wereld om je heen ontdekken' },
     logic: { worksheets: 'Puzzelwerkbladen', angle: 'redeneren, patronen herkennen en logisch nadenken' },
     'spatial-reasoning': { worksheets: 'Werkbladen waarnemen', angle: 'goed kijken, verschillen zien en ruimtelijk inzicht' },
+  },
+  // Native Mexican Spanish (§A.13.48 ensemble + operator sign-off). Head noun by
+  // intent (Ejercicios/Fichas); labels vary by grade-band: literacy Español→
+  // lectoescritura at preescolar/kínder; science Exploración del Mundo (kínder)→
+  // Conocimiento del Medio (1°). NEM/campos-formativos cited in body, not as hub names.
+  es: {
+    math: {
+      worksheets: 'Ejercicios de matemáticas',
+      angle: 'el conteo, la suma y la resta y el reconocimiento de números y figuras',
+      angleByLevel: { preschool: 'el conteo, la clasificación y el reconocimiento de números y formas', kindergarten: 'el conteo, la clasificación y el reconocimiento de números y formas' },
+    },
+    letters: {
+      worksheets: 'Fichas de español',
+      worksheetsByLevel: { preschool: 'Actividades de lectoescritura', kindergarten: 'Actividades de lectoescritura' },
+      angle: 'la lectoescritura: las letras, las sílabas y la formación de palabras',
+      angleByLevel: { preschool: 'la iniciación a la lectoescritura: los sonidos, los trazos y las primeras letras', kindergarten: 'la iniciación a la lectoescritura: los sonidos, los trazos y las primeras letras' },
+    },
+    science: {
+      worksheets: 'Fichas de ciencias',
+      worksheetsByLevel: { kindergarten: 'Fichas de exploración del mundo', 'grade-1': 'Fichas de conocimiento del medio' },
+      angle: 'el conocimiento del medio natural y social',
+      angleByLevel: { kindergarten: 'la exploración del mundo natural: los seres vivos y la naturaleza' },
+    },
+    logic: { worksheets: 'Ejercicios de razonamiento lógico', angle: 'el razonamiento lógico, la atención y la clasificación' },
+    'spatial-reasoning': { worksheets: 'Fichas de percepción visual', angle: 'la percepción visual y la orientación espacial' },
   },
 };
 
@@ -84,14 +110,26 @@ const GRADE_COPY: Record<string, Record<string, GradeCopy>> = {
     'grade-2': { label: 'groep 4', phrase: 'voor groep 4' },
     'grade-3': { label: 'groep 5', phrase: 'voor groep 5' },
   },
+  // es (Mexican). `label` = compact title form (used as "para {label}"); `phrase`
+  // = fuller prose form. Kínder fixes the non-Mexican "jardín infantil" es axis
+  // name (display only; the URL slug jardin-infantil is unchanged, shared es data).
+  es: {
+    preschool: { label: 'preescolar', phrase: 'preescolar' },
+    kindergarten: { label: 'kínder', phrase: 'kínder' },
+    'grade-1': { label: 'primer grado', phrase: 'primer grado de primaria' },
+    'grade-2': { label: 'segundo grado', phrase: 'segundo grado de primaria' },
+    'grade-3': { label: 'tercer grado', phrase: 'tercer grado de primaria' },
+  },
 };
 
 // Per-locale authenticity rules beyond the deck-count gate. Default (de/en) =
-// allow all. nl (§A.13.48 Dutch educator + operator sign-off): peuters aren't
-// basisschool → drop the preschool tier; logic+spatial aren't standalone Dutch
-// vakken above the kleuter level → restrict them to kindergarten.
-const HUB_RULES: Record<string, { dropLevels?: string[]; kleuterOnlySubjects?: string[] }> = {
-  nl: { dropLevels: ['preschool'], kleuterOnlySubjects: ['logic', 'spatial-reasoning'] },
+// allow all. `dropLevels` = levels removed for ALL subjects; `subjectAllowedLevels`
+// = a subject may ONLY appear at the listed levels. nl: drop peuters + logic/spatial
+// kleuter-only. es (Mexican educator): KEEP preescolar (fichas culture) but logic/
+// spatial aren't standalone asignaturas above preescolar/kínder (folded into math).
+const HUB_RULES: Record<string, { dropLevels?: string[]; subjectAllowedLevels?: Record<string, string[]> }> = {
+  nl: { dropLevels: ['preschool'], subjectAllowedLevels: { logic: ['kindergarten'], 'spatial-reasoning': ['kindergarten'] } },
+  es: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
 };
 
 /** Whether a subject×grade hub should exist at all for this locale (authenticity gate). */
@@ -99,7 +137,8 @@ export function isSubjectHubAllowed(locale: string, subjectKey: string, levelKey
   const r = HUB_RULES[locale];
   if (!r) return true;
   if (r.dropLevels?.includes(levelKey)) return false;
-  if (r.kleuterOnlySubjects?.includes(subjectKey) && levelKey !== 'kindergarten') return false;
+  const allowed = r.subjectAllowedLevels?.[subjectKey];
+  if (allowed && !allowed.includes(levelKey)) return false;
   return true;
 }
 
@@ -136,6 +175,11 @@ export function resolveSubjectGrade(slug: string, secondary: string, locale: str
   return null;
 }
 
+// Unicode-aware capitalize-first (for grade labels in breadcrumb/sibling links).
+function capFirst(s: string): string {
+  return s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+}
+
 function gradeLabel(locale: string, levelKey: string): string {
   return GRADE_COPY[locale]?.[levelKey]?.label
     ?? (getAxisName('educational-level', levelKey, locale) ?? levelKey).replace(/\s*\([^)]*\)\s*$/, '');
@@ -143,8 +187,22 @@ function gradeLabel(locale: string, levelKey: string): string {
 function gradePhrase(locale: string, levelKey: string): string {
   return GRADE_COPY[locale]?.[levelKey]?.phrase ?? gradeLabel(locale, levelKey);
 }
-// Grade-aware: at the kindergarten (kleuter) level, use the *Kleuter overrides
-// when present (nl "Letters" instead of "Taal"; voorbereidend angle).
+
+/**
+ * Clean grade label for breadcrumbs + sibling-grade links. es returns the Mexican
+ * label ("Kínder", "Primer grado"); every other locale keeps the axis name so
+ * live de/nl output is byte-unchanged.
+ */
+export function subjectHubGradeLabel(locale: string, levelKey: string): string {
+  if (locale === 'es') {
+    const l = GRADE_COPY.es?.[levelKey]?.label;
+    if (l) return capFirst(l);
+  }
+  return getAxisName('educational-level', levelKey, locale) ?? levelKey;
+}
+
+// Grade-aware: resolve per-level overrides (nl "Letters" at kindergarten; es
+// lectoescritura at preescolar/kínder; es science labels per grade).
 function subjectCopy(locale: string, subjectKey: string, levelKey: string): { worksheets: string; angle: string } {
   const base: SubjectCopy =
     SUBJECT_COPY[locale]?.[subjectKey] ??
@@ -152,52 +210,81 @@ function subjectCopy(locale: string, subjectKey: string, levelKey: string): { wo
       worksheets: `${getSubjectName(subjectKey, locale) ?? subjectKey} worksheets`,
       angle: 'core early-learning skills',
     };
-  const isKleuter = levelKey === 'kindergarten';
   return {
-    worksheets: isKleuter && base.worksheetsKleuter ? base.worksheetsKleuter : base.worksheets,
-    angle: isKleuter && base.angleKleuter ? base.angleKleuter : base.angle,
+    worksheets: base.worksheetsByLevel?.[levelKey] ?? base.worksheets,
+    angle: base.angleByLevel?.[levelKey] ?? base.angle,
   };
+}
+
+// Per-locale copy templates. `w`=worksheets phrase, `g`=grade label, `wl`=lowercased
+// worksheets, `gp`=grade prose phrase, `a`=angle. Adding a locale = one entry here +
+// its SUBJECT_COPY/GRADE_COPY rows (no if-else fan-out).
+interface LocaleTemplate {
+  title: (w: string, g: string) => string;
+  h1: (w: string, g: string) => string;
+  desc: (c: number, w: string, wl: string, gp: string, a: string) => string;
+  intro: (c: number, w: string, wl: string, gp: string, a: string) => string;
+  heading: string;
+}
+const LOCALE_TEMPLATES: Record<string, LocaleTemplate> = {
+  de: {
+    title: (w, g) => `${w} ${g} – kostenlos zum Ausdrucken`,
+    h1: (w, g) => `${w} – ${g}`,
+    desc: (c, w, wl, gp, a) => `${c} kostenlose ${w} für ${gp} zum Ausdrucken – jedes als PDF mit Lösungen und direkt online spielbar, ganz ohne Anmeldung. Übungen zu ${a}.`,
+    intro: (c, w, wl, gp, a) => `Hier findest du ${c} kostenlose ${w} für ${gp}, sorgfältig für diese Altersstufe zusammengestellt. Die Übungen fördern ${a}; jedes Arbeitsblatt gibt es als PDF mit Lösungen zum Ausdrucken – oder direkt online zum Ausprobieren, ganz ohne Anmeldung.`,
+    heading: 'Nach Fach & Klassenstufe',
+  },
+  nl: {
+    title: (w, g) => `${w} ${g} – gratis om uit te printen (PDF)`,
+    h1: (w, g) => `${w} ${g}`,
+    desc: (c, w, wl, gp, a) => `${c} gratis ${wl} ${gp}: printen als PDF met antwoorden of direct online oefenen, zonder account. Oefen ${a}.`,
+    intro: (c, w, wl, gp, a) => `Hier vind je ${c} gratis ${wl} (oefenbladen) ${gp}, zorgvuldig samengesteld voor deze leeftijd. De oefeningen versterken ${a}. Elk werkblad kun je gratis printen als PDF met antwoorden — of meteen online spelen, zonder account.`,
+    heading: 'Op vak & groep',
+  },
+  es: {
+    title: (w, g) => `${w} para ${g} – para imprimir gratis (PDF)`,
+    h1: (w, g) => `${w} para ${g}`,
+    desc: (c, w, wl, gp, a) => `${c} ${wl} gratis para ${gp}, para imprimir en PDF (con respuestas) o para resolver en línea, sin registro. Refuerza ${a}.`,
+    intro: (c, w, wl, gp, a) => `Aquí encontrarás ${c} ${wl} gratis para ${gp}, cuidadosamente seleccionadas para esta edad. Los ejercicios refuerzan ${a}. Cada ficha se puede imprimir en PDF con respuestas — o resolver en línea al instante, sin necesidad de registrarse.`,
+    heading: 'Por materia y grado',
+  },
+  en: {
+    title: (w, g) => `Free ${w} for ${g} – Printable PDF`,
+    h1: (w, g) => `${w} – ${g}`,
+    desc: (c, w, wl, gp, a) => `${c} free ${wl} for ${gp}, printable as PDF with answer keys and playable online — no sign-up. Practice ${a}.`,
+    intro: (c, w, wl, gp, a) => `Here are ${c} free ${wl} for ${gp}, curated for this age group. The exercises build ${a}; every worksheet is available as a printable PDF with an answer key — or playable online right away, no sign-up required.`,
+    heading: 'By subject & grade',
+  },
+};
+function tpl(locale: string): LocaleTemplate {
+  return LOCALE_TEMPLATES[locale] ?? LOCALE_TEMPLATES.en;
 }
 
 /** SEO <title> (brand suffix appended by the root layout template). */
 export function subjectHubTitle(locale: string, subjectKey: string, levelKey: string): string {
   const { worksheets } = subjectCopy(locale, subjectKey, levelKey);
-  const g = gradeLabel(locale, levelKey);
-  if (locale === 'de') return `${worksheets} ${g} – kostenlos zum Ausdrucken`;
-  if (locale === 'nl') return `${worksheets} ${g} – gratis om uit te printen (PDF)`;
-  return `Free ${worksheets} for ${g} – Printable PDF`;
+  return tpl(locale).title(worksheets, gradeLabel(locale, levelKey));
 }
 
 /** Visible H1. */
 export function subjectHubH1(locale: string, subjectKey: string, levelKey: string): string {
   const { worksheets } = subjectCopy(locale, subjectKey, levelKey);
-  const g = gradeLabel(locale, levelKey);
-  if (locale === 'nl') return `${worksheets} ${g}`;
-  return `${worksheets} – ${g}`;
+  return tpl(locale).h1(worksheets, gradeLabel(locale, levelKey));
 }
 
 /** Unique meta description (varies by subject angle + grade + count → non-duplicate). */
 export function subjectHubDescription(locale: string, subjectKey: string, levelKey: string, count: number): string {
   const { worksheets, angle } = subjectCopy(locale, subjectKey, levelKey);
-  const gp = gradePhrase(locale, levelKey);
-  if (locale === 'de') {
-    return `${count} kostenlose ${worksheets} für ${gp} zum Ausdrucken – jedes als PDF mit Lösungen und direkt online spielbar, ganz ohne Anmeldung. Übungen zu ${angle}.`;
-  }
-  if (locale === 'nl') {
-    return `${count} gratis ${worksheets.toLowerCase()} ${gp}: printen als PDF met antwoorden of direct online oefenen, zonder account. Oefen ${angle}.`;
-  }
-  return `${count} free ${worksheets.toLowerCase()} for ${gp}, printable as PDF with answer keys and playable online — no sign-up. Practice ${angle}.`;
+  return tpl(locale).desc(count, worksheets, worksheets.toLowerCase(), gradePhrase(locale, levelKey), angle);
 }
 
 /** Longer intro prose for the page body (2 sentences; subject-specific → non-duplicate). */
 export function subjectHubIntro(locale: string, subjectKey: string, levelKey: string, count: number): string {
   const { worksheets, angle } = subjectCopy(locale, subjectKey, levelKey);
-  const gp = gradePhrase(locale, levelKey);
-  if (locale === 'de') {
-    return `Hier findest du ${count} kostenlose ${worksheets} für ${gp}, sorgfältig für diese Altersstufe zusammengestellt. Die Übungen fördern ${angle}; jedes Arbeitsblatt gibt es als PDF mit Lösungen zum Ausdrucken – oder direkt online zum Ausprobieren, ganz ohne Anmeldung.`;
-  }
-  if (locale === 'nl') {
-    return `Hier vind je ${count} gratis ${worksheets.toLowerCase()} (oefenbladen) ${gp}, zorgvuldig samengesteld voor deze leeftijd. De oefeningen versterken ${angle}. Elk werkblad kun je gratis printen als PDF met antwoorden — of meteen online spelen, zonder account.`;
-  }
-  return `Here are ${count} free ${worksheets.toLowerCase()} for ${gp}, curated for this age group. The exercises build ${angle}; every worksheet is available as a printable PDF with an answer key — or playable online right away, no sign-up required.`;
+  return tpl(locale).intro(count, worksheets, worksheets.toLowerCase(), gradePhrase(locale, levelKey), angle);
+}
+
+/** Homepage "by subject & grade" grid heading. */
+export function subjectHubHeading(locale: string): string {
+  return tpl(locale).heading;
 }

@@ -36,6 +36,7 @@ import {
   subjectHubIntro,
   MIN_INDEXABLE_SUBJECT_HUB_DECKS,
   HUB_GRADE_KEYS,
+  isSubjectHubAllowed,
 } from '@/lib/subject-hub';
 import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
@@ -660,6 +661,7 @@ async function renderSubjectGradeHub(
   const otherGrades: Array<{ label: string; href: string }> = [];
   for (const g of HUB_GRADE_KEYS) {
     if (g === levelKey) continue;
+    if (!isSubjectHubAllowed(locale, subjectKey, g)) continue;
     const gSlug = getAxisSlug('educational-level', g, locale);
     if (!gSlug) continue;
     const c = await countDecksForSubjectLevel(subjectKey, g, locale);
@@ -669,6 +671,7 @@ async function renderSubjectGradeHub(
   const otherSubjects: Array<{ label: string; href: string }> = [];
   for (const s of listSubjectKeys()) {
     if (s === subjectKey) continue;
+    if (!isSubjectHubAllowed(locale, s, levelKey)) continue;
     const sSlug = getSubjectSlugStrict(s, locale);
     if (!sSlug || !gradeLevelSlug) continue;
     const c = await countDecksForSubjectLevel(s, levelKey, locale);

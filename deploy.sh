@@ -214,20 +214,16 @@ rm -rf .next/server .next/standalone
 echo "🔨 Building Next.js application (nice -n 10 so the live server keeps CPU)..."
 export BUILD_DATE=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 echo "   BUILD_DATE=${BUILD_DATE}"
-# Heap 50GB + 90min — ONE-TIME cache-recovery build (2026-07-05). TWO real causes found:
-#  (1) vm.max_map_count was the DEFAULT 65530 → a cold full compile exceeds ~65k memory
-#      mappings → std::bad_alloc REGARDLESS of free RAM/heap (that's why 8-40GB all died at
-#      ~17-19GB RSS = exactly where maps hit 65530). FIXED: raised to 1048576 (persisted in
-#      /etc/sysctl.conf). Confirmed: the build now sails past 65k maps (peak 78k) without crash.
-#  (2) The warm .next/cache/webpack was deleted (rm -rf) during the panic → every build is now
-#      a full COLD compile whose live working set is MEASURED at ~40GB (GC can't reclaim below
-#      ~39GB), ~10x a normal Next compile (a pre-existing pathology the warm cache always hid).
-# 50GB clears the measured ~40GB working set with headroom (box 62GB RAM + 31GB swap). This one
-# cold build COMPLETES and rewrites the warm cache; thereafter builds are warm-incremental (~4-12GB).
-# >>> AFTER a green build, REVERT to 12288 / timeout 1800. NEVER `rm -rf .next/cache` again. <<<
-# >>> DURABLE FOLLOW-UP: the ~40GB cold compile is pathological — add experimental.webpackBuildWorker
-#     or find the bloat so a future cold build (config/node change) can't hit this again. <<<
-NODE_OPTIONS="--max-old-space-size=51200" nice -n 10 timeout 5400 npm run build || { echo "BUILD FAILED (OOM or >90 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
+# Heap 20GB + 60min (2026-07-05, steady-state). Memory was NEVER the real build blocker:
+#  (1) vm.max_map_count=65530 (default) capped cold compiles → std::bad_alloc regardless of
+#      RAM/heap. FIXED: raised to 1048576 (persisted in /etc/sysctl.conf on this box).
+#  (2) The warm .next/cache/webpack (993MB) is now rebuilt, so builds are warm-incremental again.
+# >>> NEVER `rm -rf .next/cache` — that is what turned cheap warm builds into a 40GB cold-compile
+#     OOM loop. deploy.sh only removes .next/server + .next/standalone, which is safe. <<<
+# 20GB comfortably covers a warm compile + the ~34k-page static generation (es peaked 12.5GB).
+# DURABLE FOLLOW-UP (if a future cache-loss forces a cold build): the cold compile is ~40GB —
+# add experimental.webpackBuildWorker or find the bloat so it can't hit the old ceiling again.
+NODE_OPTIONS="--max-old-space-size=20480" nice -n 10 timeout 3600 npm run build || { echo "BUILD FAILED (OOM or >60 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
 
 # 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
 # The running server continues serving from releases/current/ while we prepare

@@ -173,16 +173,18 @@ const UI_STRINGS: Record<string, {
 
 export const revalidate = 3600;
 
-// On-demand ISR (2026-07-05): return [] instead of enumerating all ~30k landing
-// {locale, slug} pairs. Pre-rendering 30k landings at build time made `next build`
-// generate 34,666 pages and drove peak heap to ~12-16GB (dominant build-memory cost;
-// bigger --max-old-space-size only made V8's GC slower/OOM-prone, not the fix).
-// With dynamicParams=true (the App Router default) + revalidate=3600, each landing
-// renders SSR on first request and caches for 1h — fully indexable (200 + head/JSON-LD/
-// hreflang identical to the old SSG output), still listed in the sitemap (JSON-driven,
-// independent of this fn), and invalid slugs still notFound() at runtime.
+// SSG: pre-render every landing at build time. (An on-demand-ISR variant — returning []
+// here — was tried 2026-07-05 to shrink the build, but the landing render calls headers()
+// [via next-intl], which under on-demand render throws "Page changed from static to dynamic
+// … reason: headers" → 500 on every landing. SSG tolerates headers() at build time, so this
+// is the correct, proven-working shape. The build-memory problem was NOT the page count — it
+// was vm.max_map_count=65530 (raised to 1048576) + a deleted webpack cache; both fixed.)
 export function generateStaticParams() {
-  return [] as { locale: string; slug: string }[];
+  const out: { locale: string; slug: string }[] = [];
+  for (const locale of getLandingLocales()) {
+    for (const slug of getLandingSlugs(locale)) out.push({ locale, slug });
+  }
+  return out;
 }
 
 function metaDescription(l: Landing): string {

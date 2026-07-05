@@ -62,6 +62,16 @@ const nextConfig = {
         'node_modules/@swc/core-linux-x64-musl/**',
       ],
     },
+    // 2026-07-06 the excludes above filter AFTER nft's walk — they cannot stop the walk
+    // itself from exploding. outputFileTracingRoot DOES bound the walk: any file whose
+    // real path resolves OUTSIDE this root is pruned. This cuts (a) the public/ symlinks
+    // that resolve into /var/www/lcs-media on the server (~300k files: 28k deck dirs,
+    // 30k static landings, image libraries — broken symlinks on the PC, which is exactly
+    // why the PC traced fine), and (b) the repo-root fs candidates in lib/studio
+    // (process.cwd()/.. -> /opt/lessoncraftstudio/**). Runtime is unaffected: those
+    // paths are read via fs at request time from the live filesystem, never from the
+    // standalone bundle.
+    outputFileTracingRoot: __dirname,
   },
 
   // Security Headers for Production

@@ -285,7 +285,7 @@ cp .env.production "$RELEASE_DIR/.env.production"
 #    into the STAGED release so clients/Cloudflare holding pre-deploy HTML never 404
 #    on old chunk names (§A.14.11; the nginx no-store-on-404 layer stays as backstop).
 #    Done pre-flip so old chunks are servable the instant the symlink swaps. KEEP=5.
-ARCHIVE=".next-static-archive"   # SIBLING of .next/ — survives cleanDistDir; gitignored; never served
+ARCHIVE="/opt/lcs-static-archive"   # OUT of frontend/ (2026-07-06): keeps the retained-chunks tree out of the nft trace walk; survives cleanDistDir; never served
 KEEP=5
 STAGED_STATIC="$RELEASE_DIR/.next/static"
 echo "🧩 Static chunk retention (build ${NEW_BUILD_ID}, keep ${KEEP})..."

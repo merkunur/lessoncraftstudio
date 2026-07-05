@@ -11,15 +11,17 @@
  * nginx deck-asset path convention (§15.7 / §15.14): trailing-slash dir, slug-prefixed PDFs.
  * Landing self-URL uses the no-trailing-slash Next convention (§A.10 / next.config).
  */
-// Landing content is loaded at RUNTIME via fs (below), NOT statically imported.
-// Static `import xData from '@/content/seo-landing/xx.json'` bundled all 11 files
-// (~93MB) into the webpack module graph, which made the COLD `next build` compile
-// explode (16GB death-spiral / 32GB std::bad_alloc — the JSON AST dwarfs everything
-// else). Reading them with fs keeps them out of the bundle → compile drops to ~4GB.
-// This lib is server-only (no 'use client' importer), so fs is safe; landings render
-// on-demand ISR (build-time sitemap also reads via fs, cwd=frontend/ during build).
-import * as fs from 'fs';
-import * as path from 'path';
+import enData from '@/content/seo-landing/en.json';
+import deData from '@/content/seo-landing/de.json';
+import esData from '@/content/seo-landing/es.json';
+import svData from '@/content/seo-landing/sv.json';
+import nlData from '@/content/seo-landing/nl.json';
+import daData from '@/content/seo-landing/da.json';
+import itData from '@/content/seo-landing/it.json';
+import noData from '@/content/seo-landing/no.json';
+import frData from '@/content/seo-landing/fr.json';
+import ptData from '@/content/seo-landing/pt.json';
+import fiData from '@/content/seo-landing/fi.json';
 import { CANONICAL_HOST } from '@/lib/seo/url';
 
 export interface LandingCarouselItem { label: string; href: string }
@@ -74,50 +76,37 @@ export interface Landing {
 
 interface LandingFile { landings: Landing[] }
 
-const LANDING_LOCALES = ['en', 'de', 'es', 'sv', 'nl', 'da', 'it', 'no', 'fr', 'pt', 'fi'];
-
-// Candidate dirs for the seo-landing JSON, tried in order. cwd-relative covers the
-// build (cwd=frontend/) and any release whose cwd is set right; the absolute path is
-// the guaranteed fallback — the git checkout at /opt/lessoncraftstudio is THE code
-// path (§A.1, stable) and always contains these committed files at runtime.
-const _LANDING_DIRS = [
-  path.join(process.cwd(), 'content', 'seo-landing'),
-  path.join(process.cwd(), 'frontend', 'content', 'seo-landing'),
-  '/opt/lessoncraftstudio/frontend/content/seo-landing',
-];
-const _fileCache: Record<string, LandingFile | null> = {};
-function loadFile(locale: string): LandingFile | null {
-  if (locale in _fileCache) return _fileCache[locale];
-  let data: LandingFile | null = null;
-  if (LANDING_LOCALES.includes(locale)) {
-    for (const dir of _LANDING_DIRS) {
-      const p = path.join(dir, `${locale}.json`);
-      try {
-        if (fs.existsSync(p)) { data = JSON.parse(fs.readFileSync(p, 'utf8')) as LandingFile; break; }
-      } catch { /* try next candidate */ }
-    }
-  }
-  _fileCache[locale] = data;
-  return data;
-}
+const FILES: Record<string, LandingFile> = {
+  en: enData as unknown as LandingFile,
+  de: deData as unknown as LandingFile,
+  es: esData as unknown as LandingFile,
+  sv: svData as unknown as LandingFile,
+  nl: nlData as unknown as LandingFile,
+  da: daData as unknown as LandingFile,
+  it: itData as unknown as LandingFile,
+  no: noData as unknown as LandingFile,
+  fr: frData as unknown as LandingFile,
+  pt: ptData as unknown as LandingFile,
+  fi: fiData as unknown as LandingFile,
+};
 
 export function getLandingLocales(): string[] {
-  return LANDING_LOCALES.slice();
+  return Object.keys(FILES);
 }
 
 export function getLandingSlugs(locale: string): string[] {
-  const f = loadFile(locale);
+  const f = FILES[locale];
   return f ? f.landings.map((l) => l.slug) : [];
 }
 
 export function getLandingBySlug(locale: string, slug: string): Landing | null {
-  const f = loadFile(locale);
+  const f = FILES[locale];
   if (!f) return null;
   return f.landings.find((l) => l.slug === slug) || null;
 }
 
 export function getAllLandings(locale: string): Landing[] {
-  const f = loadFile(locale);
+  const f = FILES[locale];
   return f ? f.landings : [];
 }
 
@@ -149,7 +138,7 @@ const _deckToLanding: Record<string, Record<string, string>> = {};
 function deckMap(locale: string): Record<string, string> {
   if (_deckToLanding[locale]) return _deckToLanding[locale];
   const m: Record<string, string> = {};
-  const f = loadFile(locale);
+  const f = FILES[locale];
   if (f) {
     for (const l of f.landings) {
       const decks = l.collapseSiblings && l.collapseSiblings.length ? l.collapseSiblings : [l.canonicalDeckSlug];
@@ -176,7 +165,7 @@ function coordKey(c: LandingCoordinate): string {
 function coordIndex(locale: string): Map<string, Landing> {
   if (_coordIndex[locale]) return _coordIndex[locale];
   const m = new Map<string, Landing>();
-  const f = loadFile(locale);
+  const f = FILES[locale];
   if (f) for (const l of f.landings) m.set(coordKey(l.coordinate), l);
   _coordIndex[locale] = m;
   return m;
@@ -195,7 +184,7 @@ export function getSiblingLandingsByCoordinate(
 ): Array<{ locale: string; slug: string }> {
   const out: Array<{ locale: string; slug: string }> = [];
   const key = coordKey(coordinate);
-  for (const loc of LANDING_LOCALES) {
+  for (const loc of Object.keys(FILES)) {
     if (loc === excludeLocale) continue;
     const m = coordIndex(loc).get(key);
     if (m) out.push({ locale: loc, slug: m.slug });
@@ -229,7 +218,7 @@ function facets(locale: string): FacetIndexes {
     if (arr) arr.push(l);
     else m.set(k, [l]);
   };
-  const f = loadFile(locale);
+  const f = FILES[locale];
   if (f) {
     for (const l of f.landings) {
       push(fx.byType, l.coordinate.type, l);

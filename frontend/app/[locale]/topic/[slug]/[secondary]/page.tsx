@@ -11,11 +11,16 @@ import {
   getExerciseModeName,
   listAxisKeys,
   resolveTopicSlug,
+  getSubjectName,
+  getSubjectSlugStrict,
+  listSubjectKeys,
 } from '@/lib/taxonomy';
 import {
   fetchDecksForIntersection,
   countDecksForIntersection,
   fetchDecksForTopicWithFilters,
+  fetchDecksForSubjectLevel,
+  countDecksForSubjectLevel,
   getExerciseModeCountsForType,
   getFacetCounts,
   listAllNonEmptyThemesWithCounts,
@@ -23,6 +28,15 @@ import {
   TOPIC_PAGE_SIZE,
   TopicSortKey,
 } from '@/lib/topic-decks';
+import {
+  resolveSubjectGrade,
+  subjectHubTitle,
+  subjectHubH1,
+  subjectHubDescription,
+  subjectHubIntro,
+  MIN_INDEXABLE_SUBJECT_HUB_DECKS,
+  HUB_GRADE_KEYS,
+} from '@/lib/subject-hub';
 import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
@@ -410,11 +424,68 @@ function capFirst(s: string): string {
   return s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
 }
 
+// Subject×grade hub metadata (e.g. /de/topic/mathe/1-klasse). Genuinely-unique
+// aggregate pages → indexable when they clear the deck-count floor.
+async function subjectHubMetadata(
+  locale: TopicLocale,
+  slug: string,
+  secondary: string,
+  subjectKey: string,
+  levelKey: string,
+): Promise<Metadata> {
+  const count = await countDecksForSubjectLevel(subjectKey, levelKey, locale);
+  const title = subjectHubTitle(locale, subjectKey, levelKey);
+  const description = subjectHubDescription(locale, subjectKey, levelKey, count);
+  const canonical = canonicalUrl(localePath(locale, 'topic', slug, secondary));
+
+  // Honest hreflang: only locales that define the subject AND have an indexable
+  // hub for it at this level (native slugs differ per §17.4).
+  const hreflangAlternates: Record<string, string> = {};
+  for (const sib of TOPIC_LOCALES) {
+    const subjSlug = getSubjectSlugStrict(subjectKey, sib);
+    const gradeSlug = getAxisSlug('educational-level', levelKey, sib);
+    if (!subjSlug || !gradeSlug) continue;
+    const c = await countDecksForSubjectLevel(subjectKey, levelKey, sib);
+    if (c < MIN_INDEXABLE_SUBJECT_HUB_DECKS) continue;
+    hreflangAlternates[getHreflangCode(sib)] = canonicalUrl(localePath(sib, 'topic', subjSlug, gradeSlug));
+  }
+  const enHref = hreflangAlternates[getHreflangCode('en')];
+  if (enHref) hreflangAlternates['x-default'] = enHref;
+
+  const indexable = count >= MIN_INDEXABLE_SUBJECT_HUB_DECKS;
+  return {
+    title,
+    description,
+    ...(indexable ? {} : { robots: { index: false, follow: true } }),
+    alternates: { canonical, languages: hreflangAlternates },
+    openGraph: {
+      title, description, type: 'website', url: canonical, siteName: 'LessonCraftStudio',
+      locale: ogLocaleMap[locale] || locale,
+      images: [{ url: `${CANONICAL_HOST}/og-homepage.png`, width: 1200, height: 630, type: 'image/png', alt: 'LessonCraftStudio — K-3 worksheets in 11 languages' }],
+    },
+    twitter: { card: 'summary_large_image', title, description, images: [`${CANONICAL_HOST}/og-homepage.png`] },
+  };
+}
+
 export async function generateMetadata({
   params,
 }: {
   params: IntersectionParams;
 }): Promise<Metadata> {
+  // Subject×grade hub branch — MUST run before resolveOrThrow (which would 404
+  // a subject slug). Subject slugs are disjoint from all axis slugs, so real
+  // intersection URLs never enter here.
+  if (isTopicLocale(params.locale)) {
+    const sg = resolveSubjectGrade(params.slug, params.secondary, params.locale);
+    if (sg?.kind === 'ok') {
+      return subjectHubMetadata(params.locale, params.slug, params.secondary, sg.subjectKey, sg.levelKey);
+    }
+    if (sg?.kind === 'redirect') {
+      const target = canonicalUrl(localePath(params.locale, 'topic', sg.subjectSlug, sg.gradeSlug));
+      return { alternates: { canonical: target }, robots: { index: false, follow: true } };
+    }
+  }
+
   const resolution = await resolveOrThrow(params);
   const { axis1, axisKey1, axis2, axisKey2, locale } = resolution;
 
@@ -560,6 +631,139 @@ function buildCollectionSchema(
   };
 }
 
+// Subject×grade hub render (e.g. /de/topic/mathe/1-klasse). A curated aggregate
+// of every deck in the subject bucket at the grade level, with an internal-link
+// mesh to sibling hubs (other grades of the subject; other subjects at the grade).
+async function renderSubjectGradeHub(
+  locale: TopicLocale,
+  slug: string,
+  secondary: string,
+  subjectKey: string,
+  levelKey: string,
+) {
+  const count = await countDecksForSubjectLevel(subjectKey, levelKey, locale);
+  if (count === 0) notFound();
+  const decks = await fetchDecksForSubjectLevel(subjectKey, levelKey, locale, { take: 24 });
+
+  const t = await getTranslations({ locale, namespace: 'topicPage' });
+  const tDeckAlt = await getTranslations({ locale, namespace: 'seo.deckCardAlt' });
+  const tBreadcrumb = await getTranslations({ locale, namespace: 'topicPage.breadcrumb' });
+
+  const h1 = subjectHubH1(locale, subjectKey, levelKey);
+  const intro = subjectHubIntro(locale, subjectKey, levelKey, count);
+  const canonical = canonicalUrl(localePath(locale, 'topic', slug, secondary));
+  const gradeLevelSlug = getAxisSlug('educational-level', levelKey, locale);
+  const gradeName = getAxisName('educational-level', levelKey, locale) ?? levelKey;
+  const subjectName = getSubjectName(subjectKey, locale) ?? subjectKey;
+
+  // Internal-link mesh — the money links that concentrate PageRank on the hubs.
+  const otherGrades: Array<{ label: string; href: string }> = [];
+  for (const g of HUB_GRADE_KEYS) {
+    if (g === levelKey) continue;
+    const gSlug = getAxisSlug('educational-level', g, locale);
+    if (!gSlug) continue;
+    const c = await countDecksForSubjectLevel(subjectKey, g, locale);
+    if (c < MIN_INDEXABLE_SUBJECT_HUB_DECKS) continue;
+    otherGrades.push({ label: getAxisName('educational-level', g, locale) ?? g, href: `/${locale}/topic/${slug}/${gSlug}` });
+  }
+  const otherSubjects: Array<{ label: string; href: string }> = [];
+  for (const s of listSubjectKeys()) {
+    if (s === subjectKey) continue;
+    const sSlug = getSubjectSlugStrict(s, locale);
+    if (!sSlug || !gradeLevelSlug) continue;
+    const c = await countDecksForSubjectLevel(s, levelKey, locale);
+    if (c < MIN_INDEXABLE_SUBJECT_HUB_DECKS) continue;
+    otherSubjects.push({ label: getSubjectName(s, locale) ?? s, href: `/${locale}/topic/${sSlug}/${gradeLevelSlug}` });
+  }
+
+  const schema = buildCollectionSchema(locale, h1, canonical, decks, intro);
+  const breadcrumbTrail: BreadcrumbCrumb[] = [
+    { name: tBreadcrumb('home'), path: localePath(locale) },
+    ...(gradeLevelSlug ? [{ name: gradeName, path: localePath(locale, 'topic', gradeLevelSlug) }] : []),
+    { name: h1, path: localePath(locale, 'topic', slug, secondary) },
+  ];
+  const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbTrail);
+
+  const moreSubjectsLabel = locale === 'de' ? `Weitere Fächer für ${gradeName}` : `More subjects for ${gradeName}`;
+  const otherGradesLabel = locale === 'de' ? `${subjectName} für andere Klassenstufen` : `${subjectName} for other grades`;
+  const showAllLabel = locale === 'de' ? `Alle Arbeitsblätter für ${gradeName} ansehen →` : `Browse all worksheets for ${gradeName} →`;
+  const linkCls = 'text-ink-900 underline underline-offset-2 hover:no-underline';
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <main className="container mx-auto px-4 max-w-6xl py-12">
+        <nav className="text-sm text-ink-500 mb-4" aria-label="Breadcrumb">
+          {breadcrumbTrail.map((c, i) => (
+            <span key={c.path}>
+              {i > 0 && <span className="mx-1">›</span>}
+              {i < breadcrumbTrail.length - 1
+                ? <a href={c.path} className="hover:underline">{c.name}</a>
+                : <span aria-current="page">{c.name}</span>}
+            </span>
+          ))}
+        </nav>
+
+        <header className="mb-6">
+          <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink-900 mb-3">{h1}</h1>
+          <ResultCount locale={locale} count={count} />
+          <p className="mt-3 text-ink-700 max-w-3xl leading-relaxed">{intro}</p>
+        </header>
+
+        {decks.length > 0 && (
+          <DeckGridClient
+            decks={decks.map<TopicDeckCardData>(deck => {
+              const title = deckTitleFor(deck, locale);
+              return {
+                id: deck.id,
+                slug: deck.slug,
+                language: deck.language,
+                title,
+                richAlt: buildDeckRichAlt(
+                  { exerciseType: deck.exerciseType, subjectTags: deck.subjectTags, ageRange: deck.ageRange, title },
+                  locale,
+                  (key, p) => tDeckAlt(key, p),
+                ),
+                href: deckLinkFor(deck),
+                ...canonicalDeckAssets(deck),
+              };
+            })}
+            labels={{ playLink: t('deckCard.playLink'), pdfLink: t('deckCard.pdfLink'), answerKeyLink: t('deckCard.answerKeyLink') }}
+          />
+        )}
+
+        {count > decks.length && gradeLevelSlug && (
+          <p className="mt-6">
+            <a href={`/${locale}/topic/${gradeLevelSlug}`} className={`font-medium ${linkCls}`}>{showAllLabel}</a>
+          </p>
+        )}
+
+        {(otherSubjects.length > 0 || otherGrades.length > 0) && (
+          <div className="mt-12 grid gap-8 sm:grid-cols-2">
+            {otherSubjects.length > 0 && (
+              <section>
+                <h2 className="font-display text-lg font-semibold text-ink-900 mb-3">{moreSubjectsLabel}</h2>
+                <ul className="space-y-1">
+                  {otherSubjects.map(l => <li key={l.href}><a href={l.href} className={linkCls}>{l.label}</a></li>)}
+                </ul>
+              </section>
+            )}
+            {otherGrades.length > 0 && (
+              <section>
+                <h2 className="font-display text-lg font-semibold text-ink-900 mb-3">{otherGradesLabel}</h2>
+                <ul className="space-y-1">
+                  {otherGrades.map(l => <li key={l.href}><a href={l.href} className={linkCls}>{l.label}</a></li>)}
+                </ul>
+              </section>
+            )}
+          </div>
+        )}
+      </main>
+    </>
+  );
+}
+
 export default async function IntersectionPage({
   params,
   searchParams,
@@ -567,6 +771,13 @@ export default async function IntersectionPage({
   params: IntersectionParams;
   searchParams: { [key: string]: string | string[] | undefined };
 }) {
+  // Subject×grade hub branch — before resolveOrThrow (which 404s a subject slug).
+  if (isTopicLocale(params.locale)) {
+    const sg = resolveSubjectGrade(params.slug, params.secondary, params.locale);
+    if (sg?.kind === 'redirect') redirect(localePath(params.locale, 'topic', sg.subjectSlug, sg.gradeSlug));
+    if (sg?.kind === 'ok') return renderSubjectGradeHub(params.locale, params.slug, params.secondary, sg.subjectKey, sg.levelKey);
+  }
+
   const resolution = await resolveOrThrow(params);
   const { axis1, axisKey1, axis2, axisKey2, locale } = resolution;
 

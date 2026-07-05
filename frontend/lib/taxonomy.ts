@@ -21,8 +21,19 @@ interface ExerciseModeEntry {
   name: Record<string, string | null>;
 }
 
+// Subject = a discovery BUCKET over exercise-types (math/letters/science/logic/
+// spatial-reasoning). NOT a per-deck column and NOT a formal Axis — it powers the
+// subject×grade hub pages (e.g. /de/topic/mathe/1-klasse) that match how teachers
+// actually search (Fach×Klasse). slug+name per locale; the bucket→exercise-type
+// mapping is derived from apps.*.default_subject (see exerciseTypeKeysForSubject).
+interface SubjectEntry {
+  slug: Record<string, string>;
+  name: Record<string, string>;
+}
+
 interface Taxonomy {
   apps: Record<string, AppEntry>;
+  subjects?: Record<string, SubjectEntry>;
   axes: {
     'exercise-type': Record<string, AxisEntry>;
     theme: Record<string, AxisEntry>;
@@ -128,4 +139,51 @@ export function resolveAxisKeyAlias(slug: string, locale: string): string | null
     }
   }
   return null;
+}
+
+// ── Subject helpers (subject×grade hub pages) ───────────────────────────────
+
+// Manual assignment for exercise-type axis-keys with NO apps.* entry. Only
+// `picture-trail` today: the en-alias of picture-path (spatial-reasoning), a
+// 60th exercise-type key not covered by the apps.*.default_subject derivation.
+const SUBJECT_EXTRA_EXERCISE_TYPES: Record<string, string[]> = {
+  'spatial-reasoning': ['picture-trail'],
+};
+
+export function listSubjectKeys(): string[] {
+  return Object.keys(taxonomy.subjects ?? {});
+}
+
+/** URL/display slug for a subject, falling back to en (used to BUILD urls for the current locale). */
+export function getSubjectSlug(subjectKey: string, locale: string): string | null {
+  const e = taxonomy.subjects?.[subjectKey];
+  return e?.slug?.[locale] ?? e?.slug?.en ?? null;
+}
+
+/** STRICT slug — only the locale's own entry, no en fallback (for honest hreflang + route resolution). */
+export function getSubjectSlugStrict(subjectKey: string, locale: string): string | null {
+  return taxonomy.subjects?.[subjectKey]?.slug?.[locale] ?? null;
+}
+
+export function getSubjectName(subjectKey: string, locale: string): string | null {
+  const e = taxonomy.subjects?.[subjectKey];
+  return e?.name?.[locale] ?? e?.name?.en ?? null;
+}
+
+/** Reverse-lookup: does this slug (in this locale) name a subject? Strict — no en fallback. */
+export function resolveSubjectSlug(slug: string, locale: string): { subjectKey: string } | null {
+  const subjects = taxonomy.subjects ?? {};
+  for (const [subjectKey, entry] of Object.entries(subjects)) {
+    if (entry.slug?.[locale] === slug) return { subjectKey };
+  }
+  return null;
+}
+
+/** The set of exercise-type axis-keys that make up a subject bucket. */
+export function exerciseTypeKeysForSubject(subjectKey: string): string[] {
+  const fromApps = Object.values(taxonomy.apps)
+    .filter((a) => a.default_subject === subjectKey)
+    .map((a) => a.exercise_type_axis_key);
+  const extra = SUBJECT_EXTRA_EXERCISE_TYPES[subjectKey] ?? [];
+  return Array.from(new Set([...fromApps, ...extra]));
 }

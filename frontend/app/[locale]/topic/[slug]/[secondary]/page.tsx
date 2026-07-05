@@ -37,6 +37,7 @@ import {
   MIN_INDEXABLE_SUBJECT_HUB_DECKS,
   HUB_GRADE_KEYS,
   isSubjectHubAllowed,
+  subjectHubGradeLabel,
 } from '@/lib/subject-hub';
 import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
@@ -654,7 +655,7 @@ async function renderSubjectGradeHub(
   const intro = subjectHubIntro(locale, subjectKey, levelKey, count);
   const canonical = canonicalUrl(localePath(locale, 'topic', slug, secondary));
   const gradeLevelSlug = getAxisSlug('educational-level', levelKey, locale);
-  const gradeName = getAxisName('educational-level', levelKey, locale) ?? levelKey;
+  const gradeName = subjectHubGradeLabel(locale, levelKey);
   const subjectName = getSubjectName(subjectKey, locale) ?? subjectKey;
 
   // Internal-link mesh — the money links that concentrate PageRank on the hubs.
@@ -666,7 +667,7 @@ async function renderSubjectGradeHub(
     if (!gSlug) continue;
     const c = await countDecksForSubjectLevel(subjectKey, g, locale);
     if (c < MIN_INDEXABLE_SUBJECT_HUB_DECKS) continue;
-    otherGrades.push({ label: getAxisName('educational-level', g, locale) ?? g, href: `/${locale}/topic/${slug}/${gSlug}` });
+    otherGrades.push({ label: subjectHubGradeLabel(locale, g), href: `/${locale}/topic/${slug}/${gSlug}` });
   }
   const otherSubjects: Array<{ label: string; href: string }> = [];
   for (const s of listSubjectKeys()) {

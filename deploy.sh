@@ -163,6 +163,17 @@ cd /opt/lessoncraftstudio
 echo "📥 Pulling latest code from repository..."
 git pull
 
+# 1b. Regenerate the static worksheet LANDINGS (plan rev 4, 2026-07-05): the ~30k
+# /[locale]/worksheets/[slug] pages are nginx-served static HTML generated from
+# content/seo-landing/*.json — NOT part of the Next build (content stays out of the
+# webpack graph; a full regeneration is ~13s). Runs after git pull so landing-content
+# commits deploy through the same command. Non-fatal on error (landings already on
+# disk keep serving; the build below is independent).
+echo "📄 Regenerating static worksheet landings..."
+node scripts/seo-landing/render-landing-html.js --out=/var/www/lcs-media/landings \
+  && echo "   ✅ static landings regenerated" \
+  || echo "   ⚠️  landing regeneration failed (existing static landings keep serving)"
+
 # 2. Navigate to frontend
 cd frontend
 

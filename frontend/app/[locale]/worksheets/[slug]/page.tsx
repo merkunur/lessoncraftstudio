@@ -171,19 +171,16 @@ const UI_STRINGS: Record<string, {
   },
 };
 
-export const revalidate = 3600;
-
-export function generateStaticParams(): { locale: string; slug: string }[] {
-  // On-demand ISR: prerender NOTHING at build. Enumerating ~30k landings (11 locales) made
-  // `next build` choke 60-90min in the compile/collection phase and never reach generation
-  // (verified live 2026-07-05 across every heap/JSON config). Each landing renders on first
-  // request, then caches per `revalidate` (3600) -> 200 + fully indexable. setRequestLocale()
-  // in the page + generateMetadata below stops next-intl from calling headers(), so the
-  // on-demand render stays static-cacheable (returning [] WITHOUT setRequestLocale is exactly
-  // what 500'd the 2026-07-05 ISR attempt: "Page changed from static to dynamic ... headers").
-  return [];
-}
-export const dynamicParams = true;
+// FALLBACK-ONLY route (2026-07-06). Every published landing is served as STATIC HTML by
+// nginx from /var/www/lcs-media/landings/ (scripts/seo-landing/render-landing-html.js —
+// the terminal fix for the 2026-07-05 build catastrophe; ~30k pages regenerate in ~13s
+// on every deploy). Next only ever sees slugs WITHOUT a static file: dead/mutated URLs
+// (→ notFound 404) and transient gaps. force-dynamic makes that honest — dynamic APIs
+// (headers() via next-intl anywhere in the tree, incl. not-found.tsx) are legal, killing
+// the "Page changed from static to dynamic" 500 class on this route for good. Do NOT
+// re-add generateStaticParams/ISR here: enumerating ~30k landings made `next build`
+// choke (60-90min), and prerendering is the nginx layer's job now.
+export const dynamic = 'force-dynamic';
 
 function metaDescription(l: Landing): string {
   // First sentence(s) of P1, trimmed to ~155 chars on a word boundary.

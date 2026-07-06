@@ -425,6 +425,7 @@ const AUG_STRINGS = {
     whatsInside: "What's inside", words: (n) => `The ${n} words in this worksheet`, nouns: 'Pictures on this worksheet',
     problems: 'Sample problems from this worksheet', statProblems: (n) => `${n} exercises`, statWords: (n) => `${n} words`,
     statImages: (n) => `${n} pictures`, answerKeyIncluded: 'Answer key included',
+    statGrid: (g) => `${g} grid`,
     printPlay: 'Print as PDF or play online — free, no sign-up', updated: (d) => `Updated ${d}`,
     moreVersions: 'More versions of this worksheet',
   },
@@ -432,6 +433,7 @@ const AUG_STRINGS = {
     whatsInside: 'Das steckt im Arbeitsblatt', words: (n) => `Die ${n} Wörter in diesem Arbeitsblatt`, nouns: 'Bilder auf diesem Arbeitsblatt',
     problems: 'Beispielaufgaben aus diesem Arbeitsblatt', statProblems: (n) => `${n} Aufgaben`, statWords: (n) => `${n} Wörter`,
     statImages: (n) => `${n} Bilder`, answerKeyIncluded: 'Mit Lösungen',
+    statGrid: (g) => `${g}-Gitter`,
     printPlay: 'Als PDF drucken oder online spielen — kostenlos, ohne Anmeldung', updated: (d) => `Aktualisiert am ${d}`,
     moreVersions: 'Weitere Versionen dieses Arbeitsblatts',
   },
@@ -439,6 +441,7 @@ const AUG_STRINGS = {
     whatsInside: 'Qué contiene esta ficha', words: (n) => `Las ${n} palabras de esta ficha`, nouns: 'Imágenes de esta ficha',
     problems: 'Ejercicios de ejemplo de esta ficha', statProblems: (n) => `${n} ejercicios`, statWords: (n) => `${n} palabras`,
     statImages: (n) => `${n} imágenes`, answerKeyIncluded: 'Incluye solución',
+    statGrid: (g) => `cuadrícula de ${g}`,
     printPlay: 'Imprime el PDF o juega en línea — gratis y sin registro', updated: (d) => `Actualizado el ${d}`,
     moreVersions: 'Más versiones de esta ficha',
   },
@@ -446,6 +449,7 @@ const AUG_STRINGS = {
     whatsInside: 'Det här ingår i arbetsbladet', words: (n) => `De ${n} orden i det här arbetsbladet`, nouns: 'Bilder i arbetsbladet',
     problems: 'Exempeluppgifter från arbetsbladet', statProblems: (n) => `${n} uppgifter`, statWords: (n) => `${n} ord`,
     statImages: (n) => `${n} bilder`, answerKeyIncluded: 'Facit ingår',
+    statGrid: (g) => `${g}-rutnät`,
     printPlay: 'Skriv ut som PDF eller spela online — gratis, utan konto', updated: (d) => `Uppdaterad ${d}`,
     moreVersions: 'Fler versioner av det här arbetsbladet',
   },
@@ -453,6 +457,7 @@ const AUG_STRINGS = {
     whatsInside: 'Dit zit er in het werkblad', words: (n) => `De ${n} woorden in dit werkblad`, nouns: 'Afbeeldingen op dit werkblad',
     problems: 'Voorbeeldopgaven uit dit werkblad', statProblems: (n) => `${n} opgaven`, statWords: (n) => `${n} woorden`,
     statImages: (n) => `${n} afbeeldingen`, answerKeyIncluded: 'Met antwoorden',
+    statGrid: (g) => `${g}-raster`,
     printPlay: 'Print als PDF of speel online — gratis, zonder account', updated: (d) => `Bijgewerkt op ${d}`,
     moreVersions: 'Meer versies van dit werkblad',
   },
@@ -460,6 +465,7 @@ const AUG_STRINGS = {
     whatsInside: 'Det indeholder opgavearket', words: (n) => `De ${n} ord i dette opgaveark`, nouns: 'Billeder på opgavearket',
     problems: 'Eksempelopgaver fra opgavearket', statProblems: (n) => `${n} opgaver`, statWords: (n) => `${n} ord`,
     statImages: (n) => `${n} billeder`, answerKeyIncluded: 'Facitliste medfølger',
+    statGrid: (g) => `${g}-gitter`,
     printPlay: 'Print som PDF eller spil online — gratis, uden konto', updated: (d) => `Opdateret ${d}`,
     moreVersions: 'Flere versioner af dette opgaveark',
   },
@@ -467,6 +473,7 @@ const AUG_STRINGS = {
     whatsInside: 'Cosa contiene questa scheda', words: (n) => `Le ${n} parole di questa scheda`, nouns: 'Immagini della scheda',
     problems: 'Esercizi di esempio dalla scheda', statProblems: (n) => `${n} esercizi`, statWords: (n) => `${n} parole`,
     statImages: (n) => `${n} immagini`, answerKeyIncluded: 'Con soluzioni',
+    statGrid: (g) => `griglia ${g}`,
     printPlay: 'Stampa il PDF o gioca online — gratis, senza registrazione', updated: (d) => `Aggiornata il ${d}`,
     moreVersions: 'Altre versioni di questa scheda',
   },
@@ -474,6 +481,7 @@ const AUG_STRINGS = {
     whatsInside: 'Dette inneholder arbeidsarket', words: (n) => `De ${n} ordene i dette arbeidsarket`, nouns: 'Bilder på arbeidsarket',
     problems: 'Eksempeloppgaver fra arbeidsarket', statProblems: (n) => `${n} oppgaver`, statWords: (n) => `${n} ord`,
     statImages: (n) => `${n} bilder`, answerKeyIncluded: 'Fasit følger med',
+    statGrid: (g) => `${g}-rutenett`,
     printPlay: 'Skriv ut som PDF eller spill online — gratis, uten konto', updated: (d) => `Oppdatert ${d}`,
     moreVersions: 'Flere versjoner av dette arbeidsarket',
   },
@@ -481,6 +489,7 @@ const AUG_STRINGS = {
     whatsInside: 'Ce que contient cette fiche', words: (n) => `Les ${n} mots de cette fiche`, nouns: 'Images de la fiche',
     problems: "Exemples d'exercices de la fiche", statProblems: (n) => `${n} exercices`, statWords: (n) => `${n} mots`,
     statImages: (n) => `${n} images`, answerKeyIncluded: 'Corrigé inclus',
+    statGrid: (g) => `grille ${g}`,
     printPlay: 'Imprimez le PDF ou jouez en ligne — gratuit, sans inscription', updated: (d) => `Mise à jour le ${d}`,
     moreVersions: "D'autres versions de cette fiche",
   },
@@ -488,6 +497,7 @@ const AUG_STRINGS = {
     whatsInside: 'O que tem nesta atividade', words: (n) => `As ${n} palavras desta atividade`, nouns: 'Imagens desta atividade',
     problems: 'Exemplos de exercícios desta atividade', statProblems: (n) => `${n} exercícios`, statWords: (n) => `${n} palavras`,
     statImages: (n) => `${n} imagens`, answerKeyIncluded: 'Com gabarito',
+    statGrid: (g) => `grade ${g}`,
     printPlay: 'Imprima o PDF ou jogue online — grátis, sem cadastro', updated: (d) => `Atualizado em ${d}`,
     moreVersions: 'Mais versões desta atividade',
   },
@@ -495,6 +505,7 @@ const AUG_STRINGS = {
     whatsInside: 'Tehtäväpaperin sisältö', words: (n) => `Tehtävän ${n} sanaa`, nouns: 'Tehtävän kuvat',
     problems: 'Esimerkkitehtäviä tästä tehtävästä', statProblems: (n) => `${n} tehtävää`, statWords: (n) => `${n} sanaa`,
     statImages: (n) => `${n} kuvaa`, answerKeyIncluded: 'Vastaukset mukana',
+    statGrid: (g) => `${g}-ruudukko`,
     printPlay: 'Tulosta PDF tai pelaa verkossa — ilmainen, ei rekisteröitymistä', updated: (d) => `Päivitetty ${d}`,
     moreVersions: 'Muita versioita tästä tehtävästä',
   },
@@ -848,6 +859,7 @@ ${l.carousel.map((c) => {
     if (st.problems) factItems.push(au.statProblems(st.problems));
     if (st.words) factItems.push(au.statWords(st.words));
     if (st.images && !st.words) factItems.push(au.statImages(st.images));
+    if (st.grid && au.statGrid) factItems.push(au.statGrid(st.grid));
     factItems.push(au.answerKeyIncluded);
     factItems.push(au.printPlay);
     factsHtml = `

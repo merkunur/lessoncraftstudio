@@ -164,6 +164,88 @@ function manifestPath(locale, deckSlug) {
   return path.join(DECKS_DIR, locale, deckSlug, 'manifest.json');
 }
 
+/* --------------- Unit 3b: DECK_BUNDLE fallback (2026-07-06) ---------------
+ * The crossword/sudoku/treasure-hunt/picture-path/find-objects/math-puzzle
+ * class ships EMPTY manifests (exercises/vocabulary/images_used all []), but
+ * the deck.html DECK_BUNDLE carries real content. Extract only the SAFE parts:
+ *   - sudoku uniqueImageKeys → localized nouns (pictures are visible; the
+ *     answer is their PLACEMENT, never revealed).
+ *   - find-objects / picture-path legend imgPath → localized nouns (the legend
+ *     is the printed instruction; correctCount stays hidden — answer-bearing).
+ *   - crossword → word COUNT only (the words are the answers).
+ *   - treasure-hunt / picture-path / sudoku gridDims → "5×5" stat.
+ * Localization via REFERENCE TRANSLATIONS/image-vocabulary.js (read-only). */
+
+let _VOCAB = null;
+function loadVocab() {
+  if (_VOCAB !== null) return _VOCAB;
+  _VOCAB = {};
+  try {
+    const raw = fs.readFileSync(path.join(ROOT, 'REFERENCE TRANSLATIONS', 'image-vocabulary.js'), 'utf8');
+    const start = raw.indexOf('const IMAGE_VOCABULARY = {');
+    if (start !== -1) {
+      const from = raw.indexOf('{', start);
+      const end = raw.indexOf('\n};', from);
+      if (end !== -1) _VOCAB = JSON.parse(raw.slice(from, end + 2));
+    }
+  } catch (e) { /* vocab optional — falls back to filename nouns for en only */ }
+  return _VOCAB;
+}
+
+function vocabNoun(key, locale) {
+  const entry = loadVocab()[key];
+  if (entry) {
+    const arr = entry[locale] || entry.en;
+    if (Array.isArray(arr) && typeof arr[0] === 'string') return arr[0];
+  }
+  // Non-EN pages must not show English filename nouns.
+  return locale === 'en' ? nounFromFilename(key + '.webp') : null;
+}
+
+function keyFromImgPath(p) {
+  const base = String(p).split('/').pop() || '';
+  return base.replace(/\.(webp|png|jpg|jpeg)$/i, '').replace(/-\d{10,}-[0-9a-f]{6,}$/i, '');
+}
+
+const BUNDLE_RE = /var\s+DECK_BUNDLE\s*=\s*(\{[\s\S]*?\});\s*<\/script>/;
+function readBundle(locale, deckSlug) {
+  try {
+    const html = fs.readFileSync(path.join(DECKS_DIR, locale, deckSlug, 'deck.html'), 'utf8');
+    const m = BUNDLE_RE.exec(html);
+    return m ? JSON.parse(m[1]) : null;
+  } catch (e) { return null; }
+}
+
+/** Fallback extraction for empty-manifest types; returns partial augment fields. */
+function bundleFallback(locale, l) {
+  const type = l.coordinate && l.coordinate.type;
+  const wantsBundle = ['sudoku', 'find-objects', 'picture-trail', 'crossword', 'treasure-hunt'].includes(type);
+  if (!wantsBundle) return {};
+  const b = readBundle(locale, l.canonicalDeckSlug);
+  if (!b) return {};
+  const out = {};
+  const stats = {};
+
+  if (type === 'sudoku' && Array.isArray(b.uniqueImageKeys)) {
+    const nouns = uniq(b.uniqueImageKeys.map((k) => vocabNoun(k, locale)).filter(Boolean));
+    if (nouns.length >= 3) out.imageNouns = nouns;
+  }
+  if ((type === 'find-objects' || type === 'picture-trail') && b.legend && Array.isArray(b.legend.items)) {
+    const nouns = uniq(b.legend.items
+      .map((it) => (it && it.imgPath ? vocabNoun(keyFromImgPath(it.imgPath), locale) : null))
+      .filter(Boolean));
+    if (nouns.length >= 2) out.imageNouns = nouns; // legend is the printed instruction; counts stay hidden
+  }
+  if (type === 'crossword' && Array.isArray(b.words) && b.words.length) {
+    stats.words = b.words.length; // count only — the words ARE the answers
+  }
+  if (b.gridDims && b.gridDims.rows && b.gridDims.cols) {
+    stats.grid = `${b.gridDims.rows}×${b.gridDims.cols}`;
+  }
+  if (Object.keys(stats).length) out.bundleStats = stats;
+  return out;
+}
+
 function augmentForLanding(locale, l) {
   const type = l.coordinate && l.coordinate.type;
   const manifest = readJsonSafe(manifestPath(locale, l.canonicalDeckSlug));
@@ -193,6 +275,19 @@ function augmentForLanding(locale, l) {
     if (Object.keys(stats).length) out.deckStats = stats;
     if (manifest.generated_at && /^\d{4}-\d{2}-\d{2}/.test(manifest.generated_at)) {
       out.contentDate = manifest.generated_at.slice(0, 10);
+    }
+  }
+
+  // Unit 3b: DECK_BUNDLE fallback for the empty-manifest class — only fills
+  // gaps (never overrides manifest-derived fields).
+  const manifestEmpty = !out.realWords && !out.imageNouns && !out.sampleProblems;
+  if (manifestEmpty) {
+    const fb = bundleFallback(locale, l);
+    if (fb.imageNouns && !HIDE_WORD_TYPES.has(l.coordinate && l.coordinate.type)) out.imageNouns = fb.imageNouns;
+    if (fb.bundleStats) {
+      out.deckStats = out.deckStats || {};
+      if (fb.bundleStats.words && !out.deckStats.words) out.deckStats.words = fb.bundleStats.words;
+      if (fb.bundleStats.grid) out.deckStats.grid = fb.bundleStats.grid;
     }
   }
 

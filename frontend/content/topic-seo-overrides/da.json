@@ -1,0 +1,441 @@
+{
+  "$comment": "Demand-keyed SEO overrides authored from docs/SEO/demand-map-da.md (+ demand-terms-da.json). Validated by scripts/seo/validate-topic-overrides.js.",
+  "singleAxis": {
+    "addition": {
+      "title": "Additionsopgaver – plus til print (PDF)",
+      "h1": "Additionsopgaver: første plusstykker med billeder",
+      "metaDescription": "Næsten 200 additionsopgaver med billeder: barnet tæller motiverne og lægger sammen. Hvert ark følges af et facitark – gratis at printe eller løse online."
+    },
+    "subtraction": {
+      "title": "Subtraktionsopgaver – minus til print",
+      "h1": "Subtraktionsopgaver: første minusstykker med billeder",
+      "metaDescription": "Knap 200 subtraktionsopgaver til de yngste: træk fra med billeder som støtte og skriv resultatet. Facit følger med – gratis som PDF eller direkte online."
+    },
+    "code-addition": {
+      "title": "Kodeaddition – regn med symboler (PDF)",
+      "h1": "Kodeaddition: knæk koden og regn",
+      "metaDescription": "Billeder står for tal: barnet knækker koden og regner stykket. 150 knivskarpe kode-regneark med facit – gratis at printe eller spille online."
+    },
+    "more-less": {
+      "title": "Mere eller mindre – opgaver til print",
+      "h1": "Mere eller mindre? Sammenlign mængder",
+      "metaDescription": "Hvor er der flest æbler, hvor er der færrest? 148 opgaver til førskolebørn, der lærer at sammenligne mængder uden at tælle – gratis som PDF eller online."
+    },
+    "math-puzzle": {
+      "title": "Matematikpuslespil for børn (PDF)",
+      "h1": "Matematikpuslespil: knæk tal-gåderne",
+      "metaDescription": "Regne-gåder børn faktisk gider knække: 140 talpuslespil med symbol-ligninger og facit til 1. klasse – gratis at printe eller løse online."
+    },
+    "math-worksheet": {
+      "title": "Blandede matematikopgaver – til print",
+      "h1": "Blandede matematikopgaver til print",
+      "metaDescription": "Plus og minus i skøn forening: blandede regneark til at gentage og træne. Cirka 100 matematikark med facit – gratis at printe som PDF."
+    },
+    "big-small": {
+      "title": "Stor eller lille – opgaver til børnehaven",
+      "h1": "Stor eller lille? Sammenlign størrelser",
+      "metaDescription": "Hvad er størst, hvad er mindst? 93 børnehaveopgaver, hvor barnet sammenligner størrelser på hverdagsting og skærper blikket – gratis til print."
+    },
+    "chart-count": {
+      "title": "Tæl og tegn diagram – opgaver (PDF)",
+      "h1": "Tæl og tegn: første søjlediagrammer",
+      "metaDescription": "Tæl motiverne og fyld søjlerne: 50 opgaver, hvor barnet fører sit tælleresultat ind i et diagram – første dataforståelse, gratis som PDF."
+    },
+    "pattern-train": {
+      "title": "Mønstertoget – fortsæt mønsteret (PDF)",
+      "h1": "Mønstertoget: se mønsteret og fortsæt det",
+      "metaDescription": "Hvilken vogn kommer nu? 248 mønstertog-opgaver, hvor barnet fortsætter mønsteret – logisk tænkning for børnehaveklassen, gratis at printe eller spille online."
+    },
+    "pattern-worksheet": {
+      "title": "Mønsterark – fortsæt rækken (PDF)",
+      "h1": "Mønsterark: fortsæt rækker og figurfølger",
+      "metaDescription": "Former, farver, følger: 50 mønsterark til 1. klasse, hvor barnet fortsætter rækken – koncentration og matematiske forudsætninger, gratis som PDF."
+    },
+    "bingo": {
+      "title": "Billedbingo til børn – print gratis",
+      "h1": "Billedbingo: bingoplader med billeder",
+      "metaDescription": "Bingo med billeder i stedet for tal: 77 færdige spilleplader til børnehave og indskoling – print pladerne gratis og spil med det samme i gruppen."
+    },
+    "grid-match": {
+      "title": "Gittermatch – sæt billedbrikker på plads",
+      "h1": "Gittermatch: sæt billedbrikkerne på rette plads",
+      "metaDescription": "Læs række og søjle, sæt brikken ind: 49 gitter-opgaver til børnehaveklassen – rumlig orientering uden læsning eller tal, gratis at printe eller løse online."
+    },
+    "matching": {
+      "title": "Forbind billeder – matchopgaver (PDF)",
+      "h1": "Forbind billeder: hvad hører sammen?",
+      "metaDescription": "Find par og forbind: 93 matchopgaver med billeder til børnehave og børnehaveklasse – styrk ordforråd og logik, gratis som PDF at printe."
+    },
+    "picture-sort": {
+      "title": "Sortér billeder i grupper – opgaver",
+      "h1": "Sortér billeder: ordn efter kategori",
+      "metaDescription": "Dyr til dyr, køretøjer til køretøjer: 213 sorteringsopgaver, hvor barnet ordner billeder i grupper – at tænke i kategorier, gratis at printe."
+    },
+    "shadow-match": {
+      "title": "Find skyggen – match skygger (PDF)",
+      "h1": "Find skyggen: hvilken skygge hører til?",
+      "metaDescription": "95 skyggegåder: barnet forbinder billedet med den rigtige skygge og træner visuel opmærksomhed – til børnehave og børnehaveklasse, PDF og online."
+    },
+    "alphabet-train": {
+      "title": "Alfabettoget – øv alfabetet (PDF)",
+      "h1": "Alfabettoget: bogstaverne i rigtig rækkefølge",
+      "metaDescription": "Sæt de manglende bogstaver ind i toget: 74 ABC-opgaver til børnehavebørn, der lærer alfabetet og bogstavrækken – gratis at printe eller løse online."
+    },
+    "prepositions": {
+      "title": "Forholdsord – præpositioner til print",
+      "h1": "Forholdsord: i, på, under, ved siden af",
+      "metaDescription": "Hvor er bolden? 99 billedopgaver med forholdsord som i, på, under og ved siden af – ideelt til børnehaveklasse og sprogstøtte, gratis som PDF."
+    },
+    "word-guess": {
+      "title": "Gæt ordet – billedgåder for børn",
+      "h1": "Gæt ordet: bogstav for bogstav til løsningen",
+      "metaDescription": "Se billedet, gæt ordet, skriv bogstaverne: 97 gætteark til læsestartere, der øver ordforråd og stavning legende – gratis at printe eller spille online."
+    },
+    "word-scramble": {
+      "title": "Bogstavpuslespil – stav ordet (PDF)",
+      "h1": "Bogstavpuslespil: sæt bogstaverne i rækkefølge",
+      "metaDescription": "Forvirrede bogstaver, der skal sættes rigtigt: 97 bogstavpuslespil med billedhjælp til 1. klasse – lesetræning med sjov, gratis PDF og online."
+    },
+    "wordsearch": {
+      "title": "Ordsøgning – find ord til print (PDF)",
+      "h1": "Ordsøgning: find ordene i bogstavfeltet",
+      "metaDescription": "Find ordene i bogstavfeltet: 49 ordsøgninger med børnevenlige temaord til 1. klasse – hvert bogstavgitter gratis som PDF eller spilbart online."
+    },
+    "crossword": {
+      "title": "Kryds og tværs for børn – til print",
+      "h1": "Billed-kryds-og-tværs for børn",
+      "metaDescription": "Kryds og tværs med billeder i stedet for spørgsmål: barnet navngiver motivet og skriver ordet. Til læsestartere – gratis som PDF med facit."
+    },
+    "find-and-count": {
+      "title": "Find og tæl – tælleopgaver (PDF)",
+      "h1": "Find og tæl: kig, find og tæl motiverne",
+      "metaDescription": "Find motiverne i billedet og tæl dem: 93 find-og-tæl-opgaver til børnehaven – mængdeforståelse og koncentration i ét, gratis at printe."
+    },
+    "find-objects": {
+      "title": "Find tingene – kig og find (PDF)",
+      "h1": "Find tingene: spot de skjulte genstande",
+      "metaDescription": "Spot de skjulte ting i billedet: 96 find-opgaver til børnehave og børnehaveklasse – træn det nøjagtige blik, gratis som PDF eller online."
+    },
+    "treasure-hunt": {
+      "title": "Skattejagt-opgaver for børn (PDF)",
+      "h1": "Skattejagt: følg ruten frem til skatten",
+      "metaDescription": "Følg stien over spillepladen frem til skatten: 99 skattejagt-gåder til 1. klasse – orientering og logik, gratis at printe eller spille online."
+    },
+    "missing-pieces": {
+      "title": "Hvad mangler? – billedgåder (PDF)",
+      "h1": "Hvad mangler? Find den manglende del",
+      "metaDescription": "Hvilken del mangler i billedet? 93 søgegåder til børnehaveklassen: genkend det manglende udsnit og sæt det på plads – visuel opmærksomhed, gratis PDF."
+    },
+    "odd-one-out": {
+      "title": "Hvilken passer ikke? – opgaver (PDF)",
+      "h1": "Hvilken passer ikke? Logik med billeder",
+      "metaDescription": "Fire billeder, ét passer ikke: 103 opgaver i logisk tænkning til børnehave og børnehaveklasse – genkend kategorier, gratis som PDF at printe."
+    },
+    "counting-pictures": {
+      "title": "Tæl billederne – tælleopgaver (PDF)",
+      "h1": "Tæl billederne og skriv tallet",
+      "metaDescription": "Først tælle, så skrive tallet: 27 tælleark med glade motiver til børnehaveklassen – sikker omgang med mængder op til 10, gratis at printe."
+    },
+    "counting-frames": {
+      "title": "Tierramme – opgaver til print (PDF)",
+      "h1": "Tierramme: fang mængder i tierrammen",
+      "metaDescription": "Aflæs prikker i tierrammen på et blik: opgaver til tal-nedbrydning op til 10 for begynderundervisningen – gratis som PDF, med facit."
+    },
+    "tally-counting": {
+      "title": "Tællestreger – tæl og notér (PDF)",
+      "h1": "Tællestreger: tæl, bundt og aflæs",
+      "metaDescription": "Før tællestreger som de store: tæl, bundt i femmere og aflæs. Opgaver til 1. og 2. klasse – dataindsamling fra starten, gratis som PDF."
+    },
+    "number-charts": {
+      "title": "Hundredfelt – taltavle til print (PDF)",
+      "h1": "Hundredfelt: øvelser i talrummet op til 100",
+      "metaDescription": "Find tal, udfyld udsnit, opdag mønstre: 34 hundredfelt-opgaver i talrummet op til 100 – taltavle til 1. klasse, gratis som PDF med facit."
+    },
+    "comparing-numbers": {
+      "title": "Sammenlign tal – større end, mindre end",
+      "h1": "Sammenlign tal med <, > og =",
+      "metaDescription": "Hvilket tal er størst? Opgaver til at sammenligne tal med tegnene <, > og = – til 1. og 2. klasse, gratis at printe eller løse online."
+    },
+    "comparing-groups": {
+      "title": "Flest og færrest – opgaver til print",
+      "h1": "Flest og færrest: hvor er der flest?",
+      "metaDescription": "To grupper, ét blik: barnet finder hvor der er flest og hvor der er færrest og markerer den største – matematisk opmærksomhed i børnehaveklassen, gratis PDF."
+    },
+    "comparing-sizes": {
+      "title": "Størst og mindst – sortér efter størrelse",
+      "h1": "Størst og mindst: ordn efter størrelse",
+      "metaDescription": "Fra mindst til størst: 15 opgaver, hvor barnet ordner motiver efter størrelse – første målingsforestillinger i børnehaveklassen, gratis at printe."
+    },
+    "number-lines": {
+      "title": "Tallinje – opgaver til print (PDF)",
+      "h1": "Tallinje: placer tal på tallinjen",
+      "metaDescription": "Find og markér tal på tallinjen: opgaver i talrummet 0-20 for begynderundervisningen – gratis som PDF med facit, eller løs online."
+    },
+    "base-ten": {
+      "title": "Tiere og enere – opgaver til print",
+      "h1": "Tiere og enere: forstå positionssystemet",
+      "metaDescription": "Del tal op i tiere og enere: opgaver med anskuelsesmateriale til 1. og 2. klasse – grundlaget for at regne op til 100, gratis som PDF."
+    },
+    "telling-time": {
+      "title": "Lær klokken – opgaver til print (PDF)",
+      "h1": "Lær klokken: aflæs uret trin for trin",
+      "metaDescription": "Hele timer, halve timer, minutter: 81 opgaver i at aflæse viserur – fra 1. til 3. klasse, gratis som PDF og øvbart online."
+    },
+    "fractions": {
+      "title": "Brøker for begyndere – opgaver (PDF)",
+      "h1": "Første brøker: halve, kvarte, hele",
+      "metaDescription": "Halv, kvart, tredjedel anskueligt: 68 brøkopgaver med billeder til at farve og forbinde – første brøkforestilling, gratis at printe."
+    },
+    "graphing-data": {
+      "title": "Diagrammer og data – opgaver (PDF)",
+      "h1": "Diagrammer og data: aflæs, tæl, indfør",
+      "metaDescription": "Aflæs søjlediagrammer og fyld dem selv: 28 opgaver i diagrammer og data til indskolingen – gratis som PDF, facit inklusive."
+    },
+    "arrays-multiplication": {
+      "title": "Gange med rækker – første gangestykker",
+      "h1": "Første gange: gangestykker med rækker",
+      "metaDescription": "Rækker og felter i stedet for udenadslære: 31 gange-opgaver med prikbilleder til indgangen til multiplikation – gratis at printe."
+    },
+    "geometry": {
+      "title": "Geometri – former og figurer (PDF)",
+      "h1": "Geometri: genkend former og figurer",
+      "metaDescription": "Genkend former, skeln flader fra figurer: 37 geometri-opgaver fra børnehaveklasse til 3. klasse – gratis som PDF med facit."
+    },
+    "measurement": {
+      "title": "Måling – mål og sammenlign længder",
+      "h1": "Måling: sammenlign og mål længder",
+      "metaDescription": "Med lineal og øjemål: 35 opgaver i at måle og sammenligne længder – fra børnehaveklasse til 2. klasse, gratis som PDF at printe."
+    },
+    "visual-logic": {
+      "title": "Logiske opgaver for børn (PDF)",
+      "h1": "Logiske opgaver: knæk og kombinér",
+      "metaDescription": "Kombinér frem for at gætte: 14 logiske opgaver til børn med billeder frem for tekst – tænketræning fra børnehaveklasse til 3. klasse, gratis PDF."
+    },
+    "visual-discrimination": {
+      "title": "Find forskellen – kigge-opgaver (PDF)",
+      "h1": "Find forskellen: spot de små forskelle",
+      "metaDescription": "Find de skjulte forskelle mellem to billeder: 15 kigge-opgaver til børnehave og børnehaveklasse – træn det nøjagtige blik, gratis PDF."
+    },
+    "visual-matching": {
+      "title": "Find magen til – paropgaver (PDF)",
+      "h1": "Find magen til: hvilke billeder er ens?",
+      "metaDescription": "Hvilket billede er magen til? 5 paropgaver til børnehave og børnehaveklasse med hverdagsmotiver – skærp opmærksomheden, gratis at printe."
+    },
+    "patterns": {
+      "title": "Mønstre – fortsæt mønsteret (PDF)",
+      "h1": "Mønstre: se rækken og fortsæt den",
+      "metaDescription": "Hvordan fortsætter rækken? Opgaver i at fortsætte mønstre med former og billeder til børnehaveklasse og 1. klasse – gratis at printe."
+    },
+    "position-words": {
+      "title": "Placering og retning – opgaver (PDF)",
+      "h1": "Placering og retning: foran, bagved, over, under",
+      "metaDescription": "Hvor ligger bolden – over, under eller ved siden af? 8 opgaver i placering og retning til børnehaveklassen – rumlig orientering, gratis PDF."
+    },
+    "sorting-categories": {
+      "title": "Sortér i grupper – kategoriopgaver",
+      "h1": "Sortér i grupper: del ting i kategorier",
+      "metaDescription": "Sortér efter farve, form eller slags: kategori-opgaver til børnehave og børnehaveklasse – læg tænke-grundlaget, gratis at printe."
+    },
+    "picture-arithmetic": {
+      "title": "Regn med billeder – plus og minus (PDF)",
+      "h1": "Regn med billeder: første plus og minus",
+      "metaDescription": "Først tælle billederne, så regne: 14 opgaver med billedstykker i plus og minus til 1. klasse – anskuelig regnestart, gratis som PDF."
+    },
+    "science-sort": {
+      "title": "Sortér i naturen – natur/teknologi (PDF)",
+      "h1": "Sortér i naturen: ordn og opdag",
+      "metaDescription": "Levesteder, årstider, natur: 90 sorteringsopgaver til natur/teknologi i børnehave og 1. klasse – ordn viden, gratis som PDF at printe."
+    },
+    "science-match": {
+      "title": "Find par i naturen – natur og teknologi",
+      "h1": "Find par i naturen: hvad hører sammen?",
+      "metaDescription": "Dyr til levested, redskab til fag: 10 forbindeopgaver med naturtemaer for nysgerrige børn – knyt viden sammen, gratis at printe."
+    },
+    "science-sequence": {
+      "title": "Rækkefølge i naturen – livscyklusser",
+      "h1": "Livscyklusser: ordn naturens rækkefølger",
+      "metaDescription": "Fra æg til larve til sommerfugl: opgaver i livscyklusser og rækkefølger til natur/teknologi – ordn naturens forløb legende, gratis PDF."
+    },
+    "beginning-sounds": {
+      "title": "Forlyd – hør den første lyd (PDF)",
+      "h1": "Forlyd: hør ordets første lyd",
+      "metaDescription": "Hvilken lyd starter ordet med? Forlyd-opgaver med billeder til børnehaveklassen – sproglig opmærksomhed før læsestart, gratis at printe."
+    },
+    "letter-knowledge": {
+      "title": "Bogstavkendskab – kend bogstaverne (PDF)",
+      "h1": "Bogstavkendskab: genkend og skeln bogstaver",
+      "metaDescription": "Find det søgte bogstav i rækken: 20 opgaver i bogstavkendskab til børnehaveklasse og skolestart – bogstavsikkerhed, gratis som PDF."
+    },
+    "word-building": {
+      "title": "Byg ord af bogstaver – opgaver (PDF)",
+      "h1": "Byg ord: læg bogstaver til hele ord",
+      "metaDescription": "Bogstav for bogstav til et helt ord: 10 ordbygningsopgaver til læsestartere – styrk lyd-bogstav-forbindelsen, gratis at printe."
+    },
+    "picture-vocabulary": {
+      "title": "Ordforråd med billeder – til print (PDF)",
+      "h1": "Ordforråd med billeder: se ordet, lær ordet",
+      "metaDescription": "Se billedet, lær ordet: ordforråds-opgaver med billeder til hverdagstemaer – ideelt til sprogstøtte og børnehaveklasse, gratis som PDF."
+    },
+    "phonological-awareness": {
+      "title": "Sproglig opmærksomhed – opgaver (PDF)",
+      "h1": "Sproglig opmærksomhed: hør lyde og stavelser",
+      "metaDescription": "Klap stavelser og hør lyde: 25 opgaver i sproglig opmærksomhed til børnehaveklassen – grundlaget for at lære at læse, gratis som PDF."
+    },
+    "preschool": {
+      "title": "Opgaver til børnehaven – gratis til print",
+      "h1": "Børnehave: opgaver til de 3-5-årige",
+      "metaDescription": "Opgaver til børnehavebørn: sammenlign mængder, mønstre, opmærksomhed og de første bogstaver – alt gratis som PDF at printe eller spille online."
+    },
+    "kindergarten": {
+      "title": "Opgaver til børnehaveklassen – gratis (PDF)",
+      "h1": "Børnehaveklasse: opgaver til 0. klasse",
+      "metaDescription": "Det største område: opgaver til børnehaveklassen fra find skyggen til de første plusstykker – gratis at printe eller øve direkte online."
+    },
+    "grade-1": {
+      "title": "Opgaver til 1. klasse – gratis til print",
+      "h1": "1. klasse: opgaver til dansk, matematik og logik",
+      "metaDescription": "Opgaver til 1. klasse: regn op til 20, ordsøgning, bogstavpuslespil og lær klokken – med facit, gratis som PDF eller spilbart online."
+    },
+    "grade-2": {
+      "title": "Opgaver til 2. klasse – gratis til print",
+      "h1": "2. klasse: opgaver til matematik, dansk og gåder",
+      "metaDescription": "Opgaver til 2. klasse: kryds og tværs, lær klokken, geometri og regn op til 100 – hvert ark med facit, gratis som PDF eller online."
+    },
+    "grade-3": {
+      "title": "Opgaver til 3. klasse – gratis til print",
+      "h1": "3. klasse: opgaver til at øve og knække",
+      "metaDescription": "Opgaver til 3. klasse: klokken på minuttet, første brøker, gangestykker og geometri – hvert ark med facit, gratis som PDF at printe eller løse online."
+    },
+    "animals": {
+      "title": "Opgaver Dyr – gratis til print",
+      "h1": "Dyr: opgaver om dyreverdenen",
+      "metaDescription": "156 dyre-opgaver: tæl dyr, forbind billeder, gæt dyreord – til børnehave og indskoling, hvert ark gratis som PDF eller spilbart online."
+    },
+    "fruits": {
+      "title": "Opgaver Frugter – gratis til print",
+      "h1": "Frugter: opgaver til at tælle og forbinde",
+      "metaDescription": "Tæl æbler, forbind frugter, gæt frugtord: 116 opgaver om frugt til børnehave og børnehaveklasse – gratis som PDF at printe."
+    },
+    "vehicles": {
+      "title": "Opgaver Køretøjer – gratis til print",
+      "h1": "Køretøjer: opgaver fra bil til gravemaskine",
+      "metaDescription": "Biler, gravemaskiner, brandbiler: 111 køretøjs-opgaver til at tælle, forbinde og gætte – mange børns yndlingstema, gratis som PDF."
+    },
+    "toys": {
+      "title": "Opgaver Legetøj – gratis til print",
+      "h1": "Legetøj: opgaver om børns yndlingsting",
+      "metaDescription": "Bolde, bamser, byggeklodser: 107 legetøjs-opgaver til at tælle, sortere og forbinde – til børnehave og børnehaveklasse, gratis som PDF."
+    },
+    "shapes": {
+      "title": "Opgaver Former – børnehave & 0. klasse",
+      "h1": "Former: cirkel, trekant, firkant",
+      "metaDescription": "Cirkel, trekant, firkant: 95 opgaver om former til at genkende, forbinde og sortere for børnehave og børnehaveklasse – gratis som PDF."
+    },
+    "flowers": {
+      "title": "Opgaver Blomster – gratis til print",
+      "h1": "Blomster: opgaver om havens farver",
+      "metaDescription": "Tulipaner, solsikker, forglemmigej: 69 blomster-opgaver til at tælle, forbinde og sortere for børnehave og indskoling – gratis som PDF."
+    },
+    "clothing": {
+      "title": "Opgaver Tøj – gratis til print",
+      "h1": "Tøj: opgaver om det vi tager på",
+      "metaDescription": "Bukser, hue, støvler: 58 tøj-opgaver til at tælle, forbinde og navngive for børnehave og børnehaveklasse – ordforråd og logik, gratis PDF."
+    },
+    "vegetables": {
+      "title": "Opgaver Grøntsager – gratis til print",
+      "h1": "Grøntsager: opgaver om det grønne",
+      "metaDescription": "Gulerødder, tomater, agurker: 58 grøntsags-opgaver til at tælle, sortere og forbinde for børnehave og indskoling – gratis som PDF."
+    },
+    "pets": {
+      "title": "Opgaver Kæledyr – gratis til print",
+      "h1": "Kæledyr: opgaver om vores dyrevenner",
+      "metaDescription": "Hund, kat, kanin, marsvin: 58 kæledyrs-opgaver til at tælle, forbinde og gætte for børnehave og børnehaveklasse – gratis som PDF."
+    },
+    "body_parts": {
+      "title": "Opgaver Kroppen – gratis til print",
+      "h1": "Kroppen: opgaver om kropsdele",
+      "metaDescription": "Hoved, skulder, knæ og tå: 58 opgaver om kroppens dele til at navngive og forbinde for børnehave og børnehaveklasse – gratis som PDF."
+    },
+    "space": {
+      "title": "Opgaver Rummet – gratis til print",
+      "h1": "Rummet: opgaver om planeter og raketter",
+      "metaDescription": "Planeter, raketter, astronauter: 58 rum-opgaver til at tælle, forbinde og gætte for børnehave og indskoling – gratis som PDF at printe."
+    },
+    "occupations": {
+      "title": "Opgaver Erhverv – gratis til print",
+      "h1": "Erhverv: opgaver om job og fag",
+      "metaDescription": "Læge, brandmand, bager: 57 opgaver om erhverv til at forbinde og navngive for børnehave og børnehaveklasse – ordforråd, gratis som PDF."
+    },
+    "zoo_animals": {
+      "title": "Opgaver Zoo-dyr – gratis til print",
+      "h1": "Zoo-dyr: opgaver om løver og elefanter",
+      "metaDescription": "Elefanter, løver, giraffer: 57 zoo-opgaver til at tælle, forbinde og gætte for børnehave og indskoling – gratis som PDF at printe."
+    },
+    "forest_creatures": {
+      "title": "Opgaver Skovdyr – gratis til print",
+      "h1": "Skovdyr: opgaver om skovens dyr",
+      "metaDescription": "Ræv, egern, hjort, pindsvin: 57 skovdyrs-opgaver til at tælle, forbinde og sortere for børnehave og indskoling – gratis som PDF."
+    },
+    "ocean_life": {
+      "title": "Opgaver Havliv – gratis til print",
+      "h1": "Havliv: opgaver om havets dyr",
+      "metaDescription": "Fisk, krabber, blæksprutter: 57 havlivs-opgaver til at tælle, forbinde og gætte for børnehave og indskoling – gratis som PDF at printe."
+    },
+    "farm_animals": {
+      "title": "Opgaver Bondegårdsdyr – gratis til print",
+      "h1": "Bondegårdsdyr: opgaver fra ko til høne",
+      "metaDescription": "Ko, gris, høne, får: 56 bondegårds-opgaver til at tælle, forbinde og navngive for børnehave og børnehaveklasse – gratis som PDF."
+    },
+    "music": {
+      "title": "Opgaver Musik – gratis til print",
+      "h1": "Musik: opgaver om instrumenter og lyd",
+      "metaDescription": "Trommer, guitar, klaver: 54 musik-opgaver til at tælle, forbinde og navngive instrumenter for børnehave og indskoling – gratis som PDF."
+    },
+    "dinosaurs": {
+      "title": "Opgaver Dinosaurer – gratis til print",
+      "h1": "Dinosaurer: opgaver om fortidens kæmper",
+      "metaDescription": "T-rex, triceratops, brachiosaurus: 45 dino-opgaver til at tælle, forbinde og gætte for børnehave og indskoling – gratis som PDF at printe."
+    },
+    "colors": {
+      "title": "Opgaver Farver – gratis til print",
+      "h1": "Farver: opgaver om at genkende farver",
+      "metaDescription": "Rød, blå, gul, grøn: 50 farve-opgaver til at genkende, sortere og forbinde farver for børnehave og børnehaveklasse – gratis som PDF."
+    },
+    "emotions": {
+      "title": "Opgaver Følelser – gratis til print",
+      "h1": "Følelser: opgaver om glad, ked og vred",
+      "metaDescription": "Glad, ked af det, vred, bange: 52 følelses-opgaver til at genkende og navngive følelser for børnehave og børnehaveklasse – gratis som PDF."
+    },
+    "insects_and_bugs": {
+      "title": "Opgaver Insekter – gratis til print",
+      "h1": "Insekter og kryb: opgaver om de små dyr",
+      "metaDescription": "Mariehøns, sommerfugle, myrer: 52 insekt-opgaver til at tælle, forbinde og sortere for børnehave og indskoling – gratis som PDF at printe."
+    },
+    "tools": {
+      "title": "Opgaver Værktøj – gratis til print",
+      "h1": "Værktøj: opgaver om hammer og sav",
+      "metaDescription": "Hammer, sav, skruetrækker: 53 værktøjs-opgaver til at tælle, forbinde og navngive for børnehave og indskoling – gratis som PDF."
+    },
+    "birds": {
+      "title": "Opgaver Fugle – gratis til print",
+      "h1": "Fugle: opgaver om fjer og næb",
+      "metaDescription": "Spurve, ugler, ænder: 47 fugle-opgaver til at tælle, forbinde og gætte for børnehave og indskoling – gratis som PDF at printe eller spille online."
+    },
+    "bakery": {
+      "title": "Opgaver Bageri – gratis til print",
+      "h1": "Bageri: opgaver om brød og kager",
+      "metaDescription": "Boller, kager, brød: 69 bageri-opgaver til at tælle, forbinde og navngive for børnehave og børnehaveklasse – ordforråd, gratis som PDF."
+    },
+    "kitchen_tools": {
+      "title": "Opgaver Køkkenredskaber – til print",
+      "h1": "Køkkenredskaber: opgaver om ske og gaffel",
+      "metaDescription": "Ske, gaffel, gryde, pisker: 59 opgaver om køkkenredskaber til at forbinde og navngive for børnehave og indskoling – gratis som PDF."
+    },
+    "weather": {
+      "title": "Opgaver Vejr – gratis til print",
+      "h1": "Vejr: opgaver om sol, regn og sne",
+      "metaDescription": "Sol, regn, sne, vind: 56 vejr-opgaver til at forbinde, sortere og navngive vejrtyper for børnehave og børnehaveklasse – gratis som PDF."
+    }
+  },
+  "intersection": {}
+}

@@ -362,6 +362,63 @@ const SUBJECT_COPY: Record<string, Record<string, SubjectCopy>> = {
       online: 'Visuell trening online',
     },
   },
+  // Native Finnish (§A.13.48 ensemble, 2026-07-06, [NSR-FLAG][fi]). Agglutinative
+  // composition strategy: grade labels/phrases are pre-inflected allative literals
+  // ("1. luokalle"); angles authored in partitive so "Harjoittele {a}" composes;
+  // desc avoids {wl} entirely (the fixed partitive head "ilmaista tehtävää" dodges
+  // the numeral-agreement trap). Science = ympäristöoppi from 1. lk (OPS 2014),
+  // Luontotehtävät at eskari; letters = kirjain/äänne honesty below 1. lk.
+  fi: {
+    math: {
+      worksheets: 'Matematiikan tehtävät',
+      angle: 'laskemista, laskutoimituksia ja lukukäsitettä',
+      angleByLevel: {
+        preschool: 'lukumäärien vertailua (enemmän ja vähemmän) ja kuvista laskemista',
+        kindergarten: 'laskemista, plus- ja miinuslaskuja ja diagrammien lukemista',
+        'grade-1': 'kuvalaskentaa, matematiikkapulmia ja kellonaikoja',
+        'grade-2': 'murtolukuja, geometriaa, mittaamista ja kertolaskun alkeita',
+        'grade-3': 'kertolaskua, murtolukuja, geometriaa ja kellonaikoja',
+      },
+      online: 'Matematiikkaa netissä',
+    },
+    letters: {
+      worksheets: 'Äidinkielen tehtävät',
+      worksheetsByLevel: { preschool: 'Kirjaintehtävät', kindergarten: 'Kirjain- ja äännetehtävät' },
+      angle: 'lukemista, oikeinkirjoitusta ja sanavarastoa',
+      angleByLevel: {
+        preschool: 'kirjainten tunnistamista ja aakkosjärjestystä',
+        kindergarten: 'äänteiden tunnistamista, kirjaimia ja ensimmäisiä sanoja',
+        'grade-1': 'sanahakuja, kirjainsekoituksia ja oikeinkirjoitusta',
+        'grade-2': 'sanavarastoa ja oikeinkirjoitusta kuvasanaristikoiden avulla',
+      },
+      online: 'Äidinkieltä netissä',
+    },
+    science: {
+      worksheets: 'Ympäristöopin tehtävät',
+      worksheetsByLevel: { kindergarten: 'Luontotehtävät' },
+      angle: 'eläinten, kasvien ja esineiden lajittelua ja luokittelua',
+      angleByLevel: {
+        kindergarten: 'luonnon havainnointia sekä eläinten ja esineiden lajittelua',
+        'grade-1': 'lajittelua ja luokittelua – ympäristöopin ensiaskeleita',
+      },
+      online: 'Ympäristöoppia netissä',
+    },
+    logic: {
+      worksheets: 'Logiikkatehtävät',
+      angle: 'loogista päättelyä, vertailua ja luokittelua',
+      angleByLevel: {
+        preschool: 'koon vertailua (iso ja pieni) ja loogista päättelyä',
+        kindergarten: 'loogista päättelyä, parien yhdistämistä ja lasten sudokua',
+      },
+      online: 'Logiikkapelejä netissä',
+    },
+    'spatial-reasoning': {
+      worksheets: 'Hahmotustehtävät',
+      angle: 'tarkkaa katsomista, keskittymistä ja visuaalista hahmottamista',
+      angleByLevel: { kindergarten: 'tarkkaa katsomista kuviojunien, varjokuvien ja kuvapolkujen avulla' },
+      online: 'Hahmotustehtäviä netissä',
+    },
+  },
 };
 
 // Per-(locale, level): a clean label (for titles/H1) + a phrase with the correct
@@ -460,6 +517,15 @@ const GRADE_COPY: Record<string, Record<string, GradeCopy>> = {
     'grade-2': { label: '2. trinn', phrase: '2. trinn', display: '2. trinn' },
     'grade-3': { label: '3. trinn', phrase: '3. trinn', display: '3. trinn' },
   },
+  // fi: pre-inflected allative literals (never concatenate Finnish case endings);
+  // display = clean breadcrumb nominative.
+  fi: {
+    preschool: { label: '3-5-vuotiaille', phrase: '3-5-vuotiaille lapsille', display: 'Varhaiskasvatus (3-5 v)' },
+    kindergarten: { label: 'esikoululaisille', phrase: 'esikoululaisille', display: 'Esiopetus (eskari)' },
+    'grade-1': { label: '1. luokalle', phrase: '1. luokalle', display: '1. luokka' },
+    'grade-2': { label: '2. luokalle', phrase: '2. luokalle', display: '2. luokka' },
+    'grade-3': { label: '3. luokalle', phrase: '3. luokalle', display: '3. luokka' },
+  },
 };
 
 // Per-locale authenticity rules beyond the deck-count gate. Default (de/en) =
@@ -482,6 +548,8 @@ const HUB_RULES: Record<string, { dropLevels?: string[]; subjectAllowedLevels?: 
   sv: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
   da: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
   no: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
+  // fi (OPS 2014 has no standalone logiikka/hahmottaminen oppiaine).
+  fi: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
 };
 
 /** Whether a subject×grade hub should exist at all for this locale (authenticity gate). */
@@ -550,7 +618,7 @@ export function subjectHubGradeLabel(locale: string, levelKey: string): string {
     const l = GRADE_COPY.es?.[levelKey]?.label;
     if (l) return capFirst(l);
   }
-  if (locale === 'fr' || locale === 'pt' || locale === 'it' || locale === 'sv' || locale === 'da' || locale === 'no') {
+  if (locale === 'fr' || locale === 'pt' || locale === 'it' || locale === 'sv' || locale === 'da' || locale === 'no' || locale === 'fi') {
     const gc = GRADE_COPY[locale]?.[levelKey];
     if (gc) return gc.display ?? capFirst(gc.label);
   }
@@ -708,6 +776,19 @@ const LOCALE_TEMPLATES: Record<string, LocaleTemplate> = {
     onlineIntro: (c, o, gp, a) => `Her øver du rett i nettleseren: ${c} gratis interaktive oppgaver for ${gp}, uten konto og uten app. Oppgavene øver på ${a}, med tilbakemelding straks svaret sjekkes. Hver oppgave finnes også som arbeidsark (PDF med fasit) som kan skrives ut.`,
     onlineLinkLabel: 'Øv online – interaktive oppgaver →',
     printLinkLabel: (w, g) => `${w} ${g} – skriv ut som PDF →`,
+  },
+  fi: {
+    title: (w, g) => `${w} ${g} – tulosta ilmaiseksi (PDF)`,
+    h1: (w, g) => `${w} ${g}`,
+    desc: (c, w, wl, gp, a) => `${c} ilmaista tulostettavaa tehtävää ${gp}: PDF vastauksineen – tai tee netissä ilman tiliä. Harjoittele ${a}.`,
+    intro: (c, w, wl, gp, a) => `Tältä sivulta löydät ${c} ilmaista tehtävää ${gp} – kaikki ${wl} on koottu huolella juuri tälle ikäryhmälle. Tehtävät harjoittavat ${a}. Jokaisen tehtäväpaperin voit tulostaa ilmaiseksi PDF:nä vastauksineen – tai tehdä suoraan netissä, kokonaan ilman tiliä.`,
+    heading: 'Oppiaineen ja luokka-asteen mukaan',
+    onlineTitle: (o, g) => `${o} ${g} – pelaa ilmaiseksi selaimessa`,
+    onlineH1: (o, g) => `${o} ${g}`,
+    onlineDesc: (c, o, gp, a) => `${c} ilmaista interaktiivista tehtävää ${gp} – tee suoraan selaimessa, ilman tiliä ja sovellusta. Harjoittele ${a}. Kaikki myös PDF:nä vastauksineen.`,
+    onlineIntro: (c, o, gp, a) => `Harjoittele suoraan selaimessa: ${c} ilmaista interaktiivista tehtävää ${gp}, ilman tiliä ja ilman sovellusta. Tehtävät harjoittavat ${a}, ja näet heti, mikä meni oikein. Jokaisen tehtävän voit myös tulostaa tehtäväpaperina – PDF vastauksineen.`,
+    onlineLinkLabel: 'Harjoittele netissä – interaktiiviset tehtävät →',
+    printLinkLabel: (w, g) => `${w} ${g} – tulosta PDF →`,
   },
   en: {
     title: (w, g) => `Free ${w} for ${g} – Printable PDF`,

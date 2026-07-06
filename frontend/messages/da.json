@@ -1725,6 +1725,76 @@
           "q": "Egner de sig til klasser med blandede sprog?",
           "a": "Ja, de samme opgaver findes på de 11 sprog vi udgiver på, med billed-ledetråde hvor de hjælper."
         }
+      ],
+      "christmas": [
+        {
+          "q": "Er juleopgaverne gratis at printe?",
+          "a": "Ja. Alle juleopgaver kan hentes gratis som PDF med facitliste og printes til en hel klasse eller derhjemme – uden konto og uden betaling."
+        },
+        {
+          "q": "Hvilken alder passer juleopgaverne til?",
+          "a": "Opgaverne spænder fra cirka 3 til 9 år. Størstedelen ligger på børnehaveklasse-niveau (5-7 år) med tælleopgaver, par og enkle mønstre, mens de sværeste ark også udfordrer 1. og 2. klasse."
+        },
+        {
+          "q": "Kan opgaverne løses online i stedet for på papir?",
+          "a": "Ja. Hver juleopgave findes også som interaktiv udgave, der løses direkte i browseren – uden konto og uden app. Børnene får svar med det samme, når de tjekker."
+        }
+      ],
+      "easter": [
+        {
+          "q": "Hvad indeholder påskeopgaverne?",
+          "a": "Opgaveark med æg, kyllinger, harer og forårsblomster: tælleopgaver, små plusstykker, sortering, mønstre, par-øvelser og bogstavopgaver. Alle typer bruger det samme påskeunivers, så de er nemme at kombinere til en temadag."
+        },
+        {
+          "q": "Må jeg bruge opgavearkene i min undervisning?",
+          "a": "Ja. Arkene er gratis til brug i skole, SFO og derhjemme. Du må printe så mange kopier, du har brug for, til din egen klasse."
+        },
+        {
+          "q": "Er der facitliste med?",
+          "a": "Ja. Hver PDF indeholder en facitliste, så både lærere og forældre hurtigt kan rette – eller lade barnet tjekke sine egne svar."
+        }
+      ],
+      "winter": [
+        {
+          "q": "Kan vinteropgaverne bruges efter jul?",
+          "a": "Ja, det er netop pointen. Motiverne er snemænd, kælke og vintertøj – uden juletræer og nisser – så arkene fungerer hele vinterhalvåret, fra november til vinterferien."
+        },
+        {
+          "q": "Skal jeg oprette en konto for at hente opgaverne?",
+          "a": "Nej. Alle vinteropgaver kan printes som PDF eller løses online uden konto, uden login og uden app."
+        },
+        {
+          "q": "Findes vinteropgaverne på andre sprog?",
+          "a": "Ja, opgaverne findes på op til 11 sprog, blandt andet engelsk, tysk og svensk. Det samme motiv kan derfor bruges på tværs af sprogene i en flersproget klasse eller familie."
+        }
+      ],
+      "spring": [
+        {
+          "q": "Hvilke færdigheder træner forårsopgaverne?",
+          "a": "Tælling og antal, de første plusstykker, sortering og sammenligning, mønstre, par-øvelser samt bogstaver og små ord – alt sammen med forårsmotiver som lam, sommerfugle og blomster."
+        },
+        {
+          "q": "Kan mit barn bruge opgaverne derhjemme?",
+          "a": "Ja. Print arkene gratis som PDF med facitliste, eller lad barnet løse dem direkte i browseren – begge dele uden konto. Sværhedsgraderne er markeret, så det er nemt at vælge det rette niveau."
+        },
+        {
+          "q": "Passer opgaverne til børnehaveklassen?",
+          "a": "Ja, en stor del af forårsopgaverne er lavet til børnehaveklassen (5-7 år), og der er en egen side med netop det udvalg. Resten spænder fra børnehave til 2. klasse."
+        }
+      ],
+      "summer": [
+        {
+          "q": "Er sommeropgaverne gode til sommerferien?",
+          "a": "Ja. De er tænkt som let ferietræning: kendte opgavetyper i sommerudgave, som holder tal og bogstaver ved lige hen over den lange ferie – uden at det føles som lektier."
+        },
+        {
+          "q": "Hvor svære er opgaverne?",
+          "a": "Udvalget spænder fra enkle tælleopgaver for de yngste til plusstykker og ordopgaver, der passer til 1. og 2. klasse. Hovedparten ligger på børnehaveklasse-niveau (5-7 år)."
+        },
+        {
+          "q": "Virker opgaverne på tablet?",
+          "a": "Ja. De interaktive udgaver løses direkte i browseren og fungerer på både tablet, telefon og computer – uden app og uden konto. Vil du hellere have papir, printer du bare PDF'en."
+        }
       ]
     },
     "fallback": {
@@ -1998,7 +2068,17 @@
     "word-guess": "Gæt ordet arbejdsark giver de tidlige stavere en venlig måde at bygge ord på. Et billede viser ordet, og barnet udfylder de tomme bogstaver for at stave det, lydering, kobling af bogstaver til lyde og bekræftelse via billedet. Det er fonik- og staveøvelse, der føles som et lille puslespil, med ordlængde og støtte tilpasset indskolingen. Hvert gæt ordet-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive tager imod indtastede bogstaver og kontrollerer stavningen, den printbare passer til en læsestation eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på.",
     "word-scramble": "Bogstavpuslespil arbejdsark gør stavning til en tilfredsstillende ordnen. Bogstaverne i et ord er blandet ved siden af dets billede, og barnet stiller dem i den rigtige rækkefølge og øver bogstavgenkendelse, stavemønstre og de lyde, der holder et ord sammen, med billedet som ledetråd. Ordlængden er tilpasset indskolingens læsere. Hvert bogstavpuslespil-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive lader børnene ordne bogstaverne og kontrollerer ordet, den printbare passer til en læsestation eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på.",
     "crossword": "Krydsord arbejdsark giver tidlige læsere en blid og belønnende måde at forbinde billeder, lyde og stavning på. I stedet for tekst-ledetråde bruger hvert puslespil billed-ledetråde: et barn ser et billede, siger ordet og skriver dets bogstaver ind i det krydsende gitter, hvor de krydsende bogstaver giver en hjælpsom kontrol undervejs. Det er stave- og ordforrådsøvelse, der føles som at løse frem for at blive testet, og det passer til indskolingen, fordi ordene holdes korte og velkendte. Hvert krydsord-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive lader børnene skrive i gitteret og bekræfter hver indtastning, mens den printbare virker til en læsestation, pararbejde eller lektier, og en facitliste følger altid med. Hele sættet findes på de 11 sprog vi udgiver på, så børnene kan bygge stavning og ordforråd på det sprog, de lærer at læse på.",
-    "find-objects": "Find genstandene arbejdsark er en kig-og-find-jagt: et barn gennemsøger en detaljeret scene for de oplistede genstande og markerer hver enkelt, efterhånden som det får øje på den. Det er fokuseret øvelse i visuel skelnen, opmærksomhed på detaljer og at matche et mål til det, der er på siden, og fordi målene er billeder, kan hvert barn deltage uanset læseniveau. Scenerne passer til indskolingen og belønner et omhyggeligt, roligt blik. Hvert find genstandene-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive registrerer hvert tryk på en fundet genstand, den printbare er klar til en station eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på."
+    "find-objects": "Find genstandene arbejdsark er en kig-og-find-jagt: et barn gennemsøger en detaljeret scene for de oplistede genstande og markerer hver enkelt, efterhånden som det får øje på den. Det er fokuseret øvelse i visuel skelnen, opmærksomhed på detaljer og at matche et mål til det, der er på siden, og fordi målene er billeder, kan hvert barn deltage uanset læseniveau. Scenerne passer til indskolingen og belønner et omhyggeligt, roligt blik. Hvert find genstandene-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive registrerer hvert tryk på en fundet genstand, den printbare er klar til en station eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på.",
+    "christmas": "December i børnehaveklassen og indskolingen kalder på opgaver, der dufter lidt af jul. Her finder du over 50 gratis juleopgaver med juletræer, gaver, nisser og julemænd – billeder, børnene i forvejen er omgivet af hele måneden. Opgaverne spænder bredt: De yngste tæller julekugler og finder par af julemotiver, mens de lidt større øver små plusstykker, sorterer, fortsætter mønstre og arbejder med bogstaver og ord. Hvert opgaveark kan printes gratis som PDF med facitliste, så det er hurtigt at rette – eller løses direkte online i browseren, helt uden konto. Brug dem i ugerne op til juleferien, som ekstraopgaver til de hurtige eller ved køkkenbordet derhjemme. Alle opgaver findes desuden på op til 11 sprog, så de også fungerer i flersprogede klasser og familier.",
+    "easter": "Op til påskeferien får klasseværelset besøg af æg, kyllinger, harer og forårsblomster – og her er over 50 gratis påskeopgaver bygget over netop det billedunivers. Udvalget dækker det, børn i børnehaveklassen og indskolingen alligevel skal øve: at tælle sikkert, lægge de første plusstykker, sortere og sammenligne, fortsætte mønstre og genkende bogstaver og små ord. Fordi motiverne er de samme på tværs af opgavetyperne, kan du sammensætte en hel påsketemadag uden at samle materialer fra ti forskellige steder. Alle opgaveark printes gratis som PDF med facitliste – eller løses direkte online, uden konto og uden app. De fleste opgaver findes på op til 11 sprog, så tosprogede børn kan få det samme ark på begge deres sprog.",
+    "winter": "Vinteren er lang i et klasseværelse, og her er over 50 gratis vinteropgaver til at fylde den med: snemænd, kælke, vanter og huer på opgaveark, der træner tælling og antal, tidlige plusstykker, sortering, mønstre, par og bogstaver. Motiverne er vinter uden jul, så arkene fungerer lige godt i november, i januar efter juleferien og hele vejen frem mod vinterferien. Sværhedsgraden spænder fra de første tælleopgaver i børnehaveklassen til opgaver, der også udfordrer 1. og 2. klasse. Hvert ark kan printes gratis som PDF med facitliste – praktisk, når en hel klasse skal rettes – eller løses direkte online i browseren uden konto. Opgaverne findes på op til 11 sprog, så det samme motiv kan bruges på tværs af sprogene i klassen.",
+    "spring": "Når foråret melder sig med lam, sommerfugle og forårsblomster, følger opgaverne med: her er over 50 gratis forårsopgaver til børnehaveklassen og indskolingen. Foråret er der, hvor mange børn for alvor rykker sig, og udvalget er derfor bredt – fra at tælle blomster og finde par til små plusstykker, sortering, mønstre og de første bogstav- og ordopgaver. Det gør det nemt at differentiere: alle arbejder i samme billedunivers, men på hver sit niveau. Hvert opgaveark hentes gratis som PDF med facitliste, klar til print – eller løses direkte online, uden konto og uden app. Brug dem i ugerne mellem vinterferie og påske, som station i værkstedstimerne eller derhjemme. Alle opgaver findes på op til 11 sprog.",
+    "summer": "De sidste skoleuger før sommerferien skal helst være lette og lyse – og det samme skal opgaverne. Her er over 50 gratis sommeropgaver med is, badebolde, badedyr og sol: tælleopgaver, små plusstykker, sortering, mønstre, par og bogstavopgaver i ren sommerstemning. De egner sig både til de varme timer sidst på skoleåret og til at holde tal og bogstaver ved lige hen over selve ferien, uden at det føles som lektier. Alt printes gratis som PDF med facitliste – eller løses direkte online i browseren, uden konto, også på tablet i sommerhuset. Sværhedsgraden spænder fra børnehaveklassens første tælleark til opgaver for 1. og 2. klasse, og alle opgaver findes på op til 11 sprog.",
+    "christmas__kindergarten": "Til børnehaveklassen (5-7 år) er der knap 40 juleopgaver i et niveau, der passer til årets første skoleår: tælle julekugler og pakker op til 10 og 20, finde to ens nisser, sortere julemotiver, fortsætte enkle mønstre og møde de første bogstaver i juleord. Opgaverne kræver ingen læsefærdighed – billederne bærer instruktionen. Print dem gratis som PDF med facitliste til de sidste uger før juleferien, eller lad børnene løse dem online uden konto.",
+    "easter__kindergarten": "Knap 40 af påskeopgaverne er udvalgt til børnehaveklassen (5-7 år): børnene tæller æg og kyllinger, parrer harer to og to, sorterer efter størrelse og farve, lægger de allerførste plusstykker og sporer bogstaver i små påskeord. Alt bygger på billeder frem for tekst, så også børn, der endnu ikke læser, kan arbejde selvstændigt. Hvert ark printes gratis som PDF med facitliste – oplagt til påskeværkstedet eller som lille opgavepose med hjem i påskeferien.",
+    "kindergarten__winter": "Vinterudvalget til børnehaveklassen (5-7 år) rummer knap 40 opgaveark med snemænd, kælke og vintertøj. Niveauet er lagt efter årgangen: tælle til 10 og 20, sammenligne antal, finde par af vanter, fortsætte enkle mønstre og genkende de første bogstaver. Motiverne er bevidst uden jul, så arkene holder hele vinterhalvåret – fra november til vinterferien. Print dem gratis som PDF med facitliste, eller lad børnene løse dem direkte i browseren, helt uden konto.",
+    "kindergarten__spring": "Til børnehaveklassen (5-7 år) er der knap 40 forårsopgaver med lam, sommerfugle og forårsblomster. Foråret er der, hvor mange fem- til syvårige rykker sig mest, og arkene følger med: fra trygge tælleopgaver og par-øvelser til små plusstykker, sortering, mønstre og de første bogstaver. Fordi alle opgaver deler samme billedunivers, kan børnene arbejde på hver sit niveau uden at det ses på arket. Gratis PDF med facitliste – eller online uden konto.",
+    "kindergarten__summer": "Sommerudvalget til børnehaveklassen (5-7 år) består af knap 40 opgaveark med is, badebolde og strandmotiver. Opgaverne samler op på året: tælle sikkert til 20, sammenligne antal, finde par, fortsætte mønstre, lægge små plusstykker og genkende bogstaver. Det gør dem oplagte både til de sidste, varme skoleuger og som let ferietræning – ét ark ad gangen ved sommerhusbordet. Alt er gratis: print som PDF med facitliste, eller løs opgaverne online uden konto."
   },
   "bulk": {
     "toggleSelect": "Select",
@@ -2107,7 +2187,11 @@
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
   },
   "workspace": {
-    "billing": { "line": "Lærerabonnement — aktivt", "renewsOn": "fornys den", "manage": "Administrér betaling" },
+    "billing": {
+      "line": "Lærerabonnement — aktivt",
+      "renewsOn": "fornys den",
+      "manage": "Administrér betaling"
+    },
     "metadata": {
       "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."

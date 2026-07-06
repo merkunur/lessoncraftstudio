@@ -1,0 +1,32 @@
+{
+  "christmas": {
+    "paragraphs": [
+      "En décembre, ces fiches trouvent naturellement leur place dans les ateliers autonomes ou en accompagnement du calendrier de l'avent : une fiche par jour à glisser dans une pochette surprise, un jeu d'association au coin regroupement, une grille de comptage pour le rituel du matin. À la maison, elles occupent joliment les après-midis d'attente avant le réveillon, sans écran et sans préparation — on imprime, on découpe si besoin, et c'est parti. Le corrigé fourni permet aux enfants de vérifier seuls leur travail, un vrai plus pour l'autonomie.",
+      "Les activités s'échelonnent de la petite section au CP : les plus jeunes trient les images du sapin et suivent des algorithmes simples, les grands comptent les cadeaux, résolvent de petites additions et recomposent leurs premiers mots de Noël. De quoi différencier facilement au sein d'une même classe."
+    ]
+  },
+  "easter": {
+    "paragraphs": [
+      "Autour des vacances de printemps, ces fiches prolongent la chasse aux œufs en classe : on peut cacher les fiches plastifiées dans la cour comme des œufs à retrouver, monter un plan de travail spécial Pâques, ou proposer les versions en ligne sur les tablettes de la classe pendant les ateliers tournants. À la maison, elles font une pause calme entre deux chocolats — et le corrigé permet aux enfants de se corriger tout seuls, comme des grands.",
+      "Du tri d'images pour les petites sections aux additions et premiers mots pour les GS et le CP, chaque niveau y trouve son compte. Les images de Pâques — œufs, lapins, poussins, paniers — restent les mêmes d'une activité à l'autre, ce qui aide les plus jeunes à entrer sereinement dans la consigne."
+    ]
+  },
+  "winter": {
+    "paragraphs": [
+      "Tout au long de janvier et février, ces fiches alimentent le plan de travail et les coins autonomie : suites d'algorithmes avec bonnets et moufles, comptage de flocons pour le rituel du matin, jeux d'association à plastifier pour en faire des ateliers réutilisables. Les jours de pluie ou de neige où la récréation se passe à l'intérieur, la version en ligne dépanne bien : les enfants jouent directement dans le navigateur, sans inscription.",
+      "Le thème couvre toute la maternelle et déborde sur le CP : tri et repérage pour les plus petits, additions simples et travail des lettres pour les plus grands. Un même univers d'images — neige, luge, flocons, bonhomme de neige — pour des niveaux d'exigence bien distincts."
+    ]
+  },
+  "spring": {
+    "paragraphs": [
+      "Le printemps est la saison idéale pour relier ces fiches à un vrai projet de classe : semis sur le rebord de la fenêtre, élevage de papillons, sortie nature. On observe le matin, on compte et on trie l'après-midi — fleurs, papillons, bourgeons et gouttes de pluie servent de matériel de manipulation sur papier. Les fiches plastifiées se transforment en ateliers permanents jusqu'aux beaux jours.",
+      "De la petite section au CP, la progression est douce : association et algorithmes pour commencer, puis comptage, petites additions et premiers mots du jardin pour les plus avancés. Les images restent les mêmes d'un niveau à l'autre, ce qui rassure les plus jeunes, et le corrigé fourni facilite le travail en autonomie comme la correction rapide à la maison."
+    ]
+  },
+  "summer": {
+    "paragraphs": [
+      "En fin d'année, ces fiches accompagnent les dernières semaines de classe — quand les cahiers sont rangés mais qu'on veut encore apprendre en douceur. Et pendant les grandes vacances, elles composent un petit cahier de vacances maison, gratuit et sur mesure : quelques fiches de comptage à la plage, un jeu d'association les jours de canicule, des mots à recomposer avant la rentrée. La version en ligne se joue même sur la tablette, sans inscription.",
+      "Soleil, glaces, plage et maillots : un univers que les enfants adorent, décliné du tri simple pour les petits aux additions et au travail des lettres pour les futurs élèves de CP. Dix minutes par jour suffisent largement — l'idée est de garder le rythme et le plaisir d'apprendre, sans jamais transformer les vacances en devoirs."
+    ]
+  }
+}

@@ -1465,6 +1465,76 @@
           "q": "In welke talen zijn de werkbladen met dieren beschikbaar?",
           "a": "De werkbladen met dieren zijn beschikbaar in de 11 talen waarin we publiceren."
         }
+      ],
+      "christmas": [
+        {
+          "q": "Wat voor kerstwerkbladen staan er op deze pagina?",
+          "a": "Ruim 50 werkbladen rond het kerstthema: tellen en eerste sommen met kerstballen en cadeautjes, sorteer- en patroonopdrachten en oefeningen met letters en woorden bij de kerstplaatjes. Er is materiaal voor peuters, kleuters en groep 3, dus voor de hele onderbouw."
+        },
+        {
+          "q": "Zijn de kerstwerkbladen echt gratis te printen?",
+          "a": "Ja. Elk werkblad download je gratis als PDF, inclusief antwoordblad — zonder account en zonder verborgen kosten. Je mag zoveel printen als je voor je klas of gezin nodig hebt, en elke oefening is ook direct online te spelen."
+        },
+        {
+          "q": "In welke talen zijn de kerstwerkbladen beschikbaar?",
+          "a": "In 11 talen, waaronder Nederlands, Engels, Duits, Frans en Spaans. Dezelfde oefening bestaat in elke taal — handig voor meertalige klassen, of om thuis spelenderwijs een andere taal te proeven."
+        }
+      ],
+      "easter": [
+        {
+          "q": "Welke oefeningen zitten er in de paaswerkbladen?",
+          "a": "Paaseieren tellen en vergelijken, sorteren op kleur, patronen met kuikens en eieren voortzetten, verbindopdrachten en letters en woorden bij de paasplaatjes. In totaal ruim 50 werkbladen, van peuterniveau tot groep 3."
+        },
+        {
+          "q": "Kan ik de paaswerkbladen gratis gebruiken in mijn klas?",
+          "a": "Ja, alles op deze pagina is gratis. Je print elk werkblad als PDF met antwoordblad, zonder account, en je mag setjes maken voor de hele klas. Liever digitaal? Elke oefening is ook direct online speelbaar, bijvoorbeeld op het digibord."
+        },
+        {
+          "q": "Zijn de paaswerkbladen er ook in andere talen?",
+          "a": "Zeker: dezelfde paaswerkbladen bestaan in 11 talen, van Nederlands en Engels tot Zweeds en Fins. Fijn voor tweetalige gezinnen, internationale scholen of een vleugje Engels in de kleuterklas."
+        }
+      ],
+      "winter": [
+        {
+          "q": "Wat vind ik op deze pagina met winterwerkbladen?",
+          "a": "Ruim 50 gratis werkbladen rond het winterthema: tellen met wanten en ijspegels, eerste sommen, sorteren van winterkleren, patronen van sjaals en mutsen en woordoefeningen bij de winterplaatjes — voor peuters, kleuters en groep 3."
+        },
+        {
+          "q": "Zijn de winterwerkbladen gratis, ook mét antwoorden?",
+          "a": "Ja. Ieder werkblad is gratis te downloaden als PDF en het antwoordblad zit er altijd bij, zodat nakijken snel gaat. Een account is niet nodig, en elke oefening heeft ook een gratis online versie voor in de browser."
+        },
+        {
+          "q": "In welke talen bestaan de winterwerkbladen?",
+          "a": "De hele winterreeks is beschikbaar in 11 talen, waaronder Nederlands, Engels, Duits en Zweeds. Je kunt hetzelfde werkblad dus in meerdere talen printen — handig voor meertalige klassen en nieuwkomers."
+        }
+      ],
+      "spring": [
+        {
+          "q": "Welke lentewerkbladen staan er op deze pagina?",
+          "a": "Ruim 50 gratis werkbladen vol bloemen, kuikens, vlinders en regenbogen. Kinderen oefenen ermee in tellen, eerste sommen, sorteren, patronen en letters en woorden — er is materiaal voor peuters, kleuters en groep 3."
+        },
+        {
+          "q": "Kost het gebruik van de lentewerkbladen iets?",
+          "a": "Nee, alles is gratis. Je print elk werkblad als PDF met antwoordblad, zonder account of registratie, en je speelt dezelfde oefening desgewenst direct online. Printen voor de hele klas of een oefenmapje voor thuis mag gewoon."
+        },
+        {
+          "q": "Zijn de lentewerkbladen ook in andere talen beschikbaar?",
+          "a": "Ja, in 11 talen: naast Nederlands onder meer Engels, Frans, Duits en Spaans. Dezelfde lente-oefening bestaat in elke taal, wat goed uitkomt voor tweetalig onderwijs en internationale klassen."
+        }
+      ],
+      "summer": [
+        {
+          "q": "Wat voor zomerwerkbladen vind ik hier?",
+          "a": "Ruim 50 gratis werkbladen rond zon, ijsjes, strand en zwembad: telopdrachten, eerste sommen, sorteer- en patroonoefeningen en woorden bij de zomerplaatjes. Geschikt voor peuters, kleuters en groep 3 — ook als oefenbundel voor de zomervakantie."
+        },
+        {
+          "q": "Zijn de zomerwerkbladen gratis te downloaden?",
+          "a": "Ja. Elk werkblad print je gratis als PDF, altijd met antwoordblad erbij, zonder account. Wil je liever niet printen op vakantie, dan speel je dezelfde oefeningen gewoon online in de browser."
+        },
+        {
+          "q": "In welke talen zijn de zomerwerkbladen er?",
+          "a": "In 11 talen, waaronder Nederlands, Engels, Duits en Frans. Leuk voor onderweg: op vakantie kan je kind dezelfde oefening eens in de taal van het vakantieland proberen."
+        }
       ]
     },
     "fallback": {
@@ -1738,10 +1808,24 @@
     "word-guess": "Bekijk hier de woord raden werkbladen, waarin kinderen de ontbrekende letters invullen om het woord bij een plaatje te schrijven. Voor jonge kinderen oefen je eerste letters en klanken en beginnend schrijven, met plaatjes ondersteund die het woord helpen raden. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte schrijfoefening of als huiswerk. De woord raden werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
     "word-scramble": "Bekijk hier de woordpuzzel werkbladen, waarin kinderen door elkaar gegooide letters in de goede volgorde zetten om het woord bij een plaatje te schrijven. Voor jonge kinderen oefen je spelling en het herkennen van letters, met plaatjes ondersteund die het woord aangeven. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als spelletje of als huiswerk. De woordpuzzel werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
     "crossword": "Bekijk hier de kruiswoordraadsel werkbladen, waarin kinderen met plaatjesaanwijzingen letters in het kruisende rooster schrijven. Voor kinderen die al wat lezen oefen je spelling en woordenschat, met plaatjes ondersteund zodat elk woord herkenbaar blijft. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als rustige opdracht voor zelfstandig werken. De kruiswoordraadsel werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
-    "find-objects": "Bekijk hier de objecten zoeken werkbladen, waarin kinderen verstopte voorwerpen in een drukke scene zoeken en markeren. Voor jonge kinderen oefen je visuele discriminatie en goed kijken, met plaatjes ondersteund die de scene rijk maken. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als speelse opdracht of in een rustige hoek. De objecten zoeken werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+    "find-objects": "Bekijk hier de objecten zoeken werkbladen, waarin kinderen verstopte voorwerpen in een drukke scene zoeken en markeren. Voor jonge kinderen oefen je visuele discriminatie en goed kijken, met plaatjes ondersteund die de scene rijk maken. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als speelse opdracht of in een rustige hoek. De objecten zoeken werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "christmas": "Hier vind je ruim 50 gratis kerstwerkbladen voor peuters, kleuters en groep 3. Alle oefeningen zijn opgebouwd rond dezelfde vrolijke kerstplaatjes — kerstbomen, kerstballen, cadeautjes en sneeuwpoppen — zodat het thema in de hele klas doorloopt. Kinderen tellen kerstballen, maken eerste sommen, sorteren cadeautjes op kleur en grootte, leggen patronen en oefenen letters en woorden bij de plaatjes. Elk werkblad print je gratis als PDF, altijd met antwoordblad — of je speelt de oefening direct online, zonder account. Zo gebruik je hetzelfde materiaal in de kleuterklas én thuis aan de keukentafel. De kerstwerkbladen bestaan bovendien in 11 talen, waaronder Engels en Duits: handig voor meertalige klassen of om spelenderwijs een woordje over de grens te kijken.",
+    "easter": "Op deze pagina staan ruim 50 gratis paaswerkbladen voor de onderbouw. De paasplaatjes — beschilderde eieren, konijntjes en kuikens — komen op elk blad terug, telkens in een andere oefening: eieren tellen en vergelijken, eerste sommen maken, sorteren op kleur, patronen voortzetten en letters en woorden oefenen bij de plaatjes. Je kiest zelf hoe je het gebruikt: printen als PDF met antwoordblad, of direct online spelen zonder account en zonder installatie. Dat maakt de paaswerkbladen net zo geschikt voor de kleuterklas als voor thuis in de dagen rond Pasen. Wil je een oefening in een andere taal aanbieden? Dezelfde paasbladen bestaan in 11 talen, van Nederlands en Engels tot Fins — leuk voor meertalige gezinnen en internationale klassen.",
+    "winter": "De winter is een dankbaar thema in de onderbouw, en deze pagina bundelt ruim 50 gratis winterwerkbladen (oefenbladen) rond sneeuwpoppen, wanten, sjaals en ijspegels. De oefeningen dekken precies wat kleuters en beginnende rekenaars nodig hebben: tellen, eerste sommen erbij en eraf, sorteren op groot en klein, patronen afmaken en letters en woorden bij de winterplaatjes. Ieder werkblad is gratis te printen als PDF, inclusief antwoordblad voor snel nakijken — en elke oefening is er ook als online variant die direct in de browser werkt, zonder account. Handig voor het winterthema in de klas, maar net zo goed voor een oefenmomentje thuis op een koude middag. De hele winterreeks is beschikbaar in 11 talen, waaronder Nederlands, Engels, Duits en Zweeds.",
+    "spring": "Bloemen, kuikens, vlinders en regenbogen: de lenteplaatjes op deze pagina vrolijken elk werkblad op. Je vindt hier ruim 50 gratis lentewerkbladen voor peuters, kleuters en groep 3, met oefeningen in tellen, eerste sommen, sorteren, patronen en letters en woorden — allemaal binnen hetzelfde lentethema, zodat je er wekenlang mee vooruit kunt. Printen gaat gratis als PDF, met antwoordblad erbij; liever digitaal, dan speel je dezelfde oefening online in de browser, zonder account. Zo past het materiaal bij de themahoek in de kleuterklas, het digibord én de keukentafel thuis. Alle lentewerkbladen zijn er in 11 talen: naast Nederlands bijvoorbeeld ook Engels, Frans en Spaans — fijn voor tweetalige kinderen en internationale scholen.",
+    "summer": "Zomer in de klas of thuis? Deze pagina verzamelt ruim 50 gratis zomerwerkbladen vol zon, ijsjes, strandspullen en zwembadplezier. Rond die zomerplaatjes oefenen kinderen alles wat bij de onderbouw hoort: tellen, eerste sommen, sorteren op kleur en grootte, patronen doorzetten en letters en woorden herkennen. Elk blad download je gratis als PDF met antwoordblad — ideaal om te printen voor de laatste schoolweken of als vakantiebundel — en elke oefening kan ook direct online gespeeld worden, zonder account. Zo blijven tellen en letters ook in de zomervakantie spelenderwijs bij. De zomerwerkbladen zijn beschikbaar in 11 talen, waaronder Engels, Duits en Frans: wie op vakantie is, probeert meteen een paar woordjes in een andere taal.",
+    "christmas__kindergarten": "Speciaal voor kleuters (5-7 jaar) staan hier ruim 35 kerstwerkbladen op precies het goede niveau: kerstballen tellen tot tien, cadeautjes sorteren, een patroon van kerstbomen afmaken en de eerste letters herkennen bij de kerstplaatjes. De opdrachten zijn kort en visueel, zodat kleuters er zelfstandig mee aan de slag kunnen — in de kleuterklas of thuis in december. Print de bladen gratis als PDF met antwoordblad, of laat je kind de oefening online spelen, zonder account.",
+    "easter__kindergarten": "Deze paaswerkbladen zijn gemaakt voor kleuters van 5 tot 7 jaar: ruim 35 opdrachten waarin ze paaseieren tellen, kuikens en konijntjes verbinden, sorteren op kleur en de eerste letters en woorden bij de paasplaatjes oefenen. Alles is groot en duidelijk vormgegeven, met weinig tekst en veel plaatjes — precies passend bij hoe kleuters leren. Handig rond Pasen in de klas, of thuis als rustig werkje tussen het eieren zoeken door. Gratis printen als PDF met antwoordblad, of direct online spelen zonder account.",
+    "kindergarten__spring": "Deze selectie bevat ruim 35 lentewerkbladen voor kleuters van 5 tot 7 jaar. Ze tellen bloemen en kuikens, sorteren op groot en klein, maken patronen van vlinders af en verbinden woorden met de juiste lenteplaatjes — zo oefenen ze spelenderwijs tellen, goed kijken en eerste letters. Het materiaal past mooi bij het lentethema in de kleuterklas, maar werkt net zo goed thuis. Elk blad is gratis te printen als PDF met antwoordblad; dezelfde oefening is er ook om direct online te spelen, zonder account.",
+    "kindergarten__summer": "Voor kleuters (5-7 jaar) staan hier ruim 35 zomerwerkbladen klaar: ijsjes tellen, strandspullen sorteren, zomerse patronen afmaken en woorden bij de plaatjes zoeken. De opdrachten zijn luchtig en visueel — precies goed voor de laatste schoolweken of voor tussendoor in de zomervakantie, zodat tellen en letters spelenderwijs onderhouden blijven. Print de bladen gratis als PDF met antwoordblad voor onderweg of op de camping, of laat je kleuter de oefeningen online spelen, zonder account en zonder app.",
+    "kindergarten__winter": "Voor kleuters (5-7 jaar) zijn er ruim 35 winterwerkbladen die aansluiten bij wat zij nu leren: wanten en sneeuwpoppen tellen, winterkleren sorteren, patronen van sjaals en mutsen doorzetten en eerste letters herkennen bij de winterplaatjes. De opdrachten zijn kort, speels en zelfstandig te maken — fijn voor de themahoek of de weektaak in januari, en net zo goed voor thuis op een koude middag. Je print alles gratis als PDF met antwoordblad, of je kiest de online versie, zonder account."
   },
   "workspace": {
-    "billing": { "line": "Leraren-abonnement — actief", "renewsOn": "verlengt op", "manage": "Facturering beheren" },
+    "billing": {
+      "line": "Leraren-abonnement — actief",
+      "renewsOn": "verlengt op",
+      "manage": "Facturering beheren"
+    },
     "metadata": {
       "title": "Uw werkruimte",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."

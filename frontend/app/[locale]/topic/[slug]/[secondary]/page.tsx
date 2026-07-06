@@ -44,6 +44,7 @@ import {
   getSubjectHubDeepCopy,
 } from '@/lib/subject-hub';
 import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
+import { isSeasonalHubUpgraded, seasonalGradeTitle, SeasonalKey } from '@/lib/seasonal-hub';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
 import TopicProseContainer, { intentForAxis } from '@/components/catalog/TopicProseContainer';
@@ -511,7 +512,22 @@ export async function generateMetadata({
   const withSecondary = `${primaryTitle} — ${secondaryName}`;
   // Keep the full rendered title (incl. root brand " · LessonCraftStudio" ≈ 19 chars)
   // ≤ 70; on overflow drop the secondary segment (rare; long type+theme in a verbose locale).
-  const pageTitle = withSecondary.length + 19 <= 70 ? withSecondary : primaryTitle;
+  let pageTitle = withSecondary.length + 19 <= 70 ? withSecondary : primaryTitle;
+
+  // Seasonal-hub override (2026-07-06): season×grade children of an upgraded
+  // seasonal theme page carry the demand-keyed title (native query composition
+  // incl. the kostenlos/para-imprimir modifiers the auto-composed title lacks).
+  // Indexability/sitemap/hreflang are untouched — they ride intersectionIsAuthored.
+  // Canonical ordering puts theme first, but handle both orders defensively.
+  {
+    const themeFirst = axis1 === 'theme' && axis2 === 'educational-level';
+    const levelFirst = axis1 === 'educational-level' && axis2 === 'theme';
+    const themeKey = themeFirst ? axisKey1 : levelFirst ? axisKey2 : null;
+    const levelKey = themeFirst ? axisKey2 : levelFirst ? axisKey1 : null;
+    if (themeKey && levelKey && isSeasonalHubUpgraded(locale, themeKey)) {
+      pageTitle = seasonalGradeTitle(locale, themeKey as SeasonalKey, levelKey);
+    }
+  }
 
   // Hreflang alternates: only the locales where the same intersection exists.
   // Each sibling-locale's slugs differ per §17.4 native-language doctrine.

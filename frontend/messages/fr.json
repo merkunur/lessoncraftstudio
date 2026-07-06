@@ -1748,6 +1748,76 @@
           "q": "Dans quelles langues sont-elles proposees ?",
           "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
         }
+      ],
+      "christmas": [
+        {
+          "q": "Que trouve-t-on dans ces fiches de Noël ?",
+          "a": "Environ 55 activités sur le thème de Noël pour la maternelle et le CP : comptage, petites additions, tri et classement, algorithmes, jeux d'association et travail des lettres, le tout illustré de sapins, cadeaux, étoiles et bonshommes de neige."
+        },
+        {
+          "q": "Les fiches de Noël sont-elles vraiment gratuites ?",
+          "a": "Oui, entièrement. Chaque fiche se télécharge gratuitement en PDF avec son corrigé, sans inscription ni compte à créer. On peut aussi faire chaque exercice directement en ligne, dans le navigateur."
+        },
+        {
+          "q": "Dans quelles langues ces activités existent-elles ?",
+          "a": "Chaque activité existe en 11 langues, dont le français, l'anglais, l'allemand et l'espagnol. Pratique pour travailler le vocabulaire de Noël dans une autre langue ou pour les classes bilingues."
+        }
+      ],
+      "easter": [
+        {
+          "q": "Que contiennent ces fiches de Pâques ?",
+          "a": "Une cinquantaine d'activités pour la maternelle et le CP autour des œufs, lapins, poussins et paniers : comptage, additions simples, tri, algorithmes, jeux d'association et reconnaissance des lettres."
+        },
+        {
+          "q": "Faut-il s'inscrire ou payer pour les utiliser ?",
+          "a": "Non. Toutes les fiches de Pâques sont gratuites : PDF à imprimer avec corrigé inclus, ou version à jouer directement en ligne, sans inscription ni téléchargement d'application."
+        },
+        {
+          "q": "Ces activités de Pâques existent-elles dans d'autres langues ?",
+          "a": "Oui, chaque exercice est disponible en 11 langues. On peut donc retrouver la même chasse aux œufs en anglais, en espagnol, en allemand ou en italien, par exemple."
+        }
+      ],
+      "winter": [
+        {
+          "q": "Quelles activités trouve-t-on sur ce thème de l'hiver ?",
+          "a": "Environ 55 fiches pour la maternelle et le CP, illustrées de flocons, bonnets, luges et bonshommes de neige : comptage, petites additions, tri et classement, algorithmes, jeux d'association et travail des lettres."
+        },
+        {
+          "q": "Peut-on imprimer les fiches d'hiver gratuitement ?",
+          "a": "Oui, chaque fiche se télécharge gratuitement au format PDF, corrigé compris, sans créer de compte. Et chaque exercice se joue aussi directement en ligne, dans le navigateur."
+        },
+        {
+          "q": "Les exercices d'hiver existent-ils en plusieurs langues ?",
+          "a": "Oui, chaque activité existe en 11 langues. De quoi enrichir le vocabulaire de l'hiver en anglais, en allemand, en espagnol ou dans une autre langue de la classe."
+        }
+      ],
+      "spring": [
+        {
+          "q": "Que proposent ces fiches de printemps ?",
+          "a": "Environ 55 activités pour la maternelle et le CP autour des fleurs, papillons et bourgeons : comptage, additions simples, tri et classement, algorithmes, jeux d'association et reconnaissance des lettres."
+        },
+        {
+          "q": "Ces activités de printemps sont-elles gratuites ?",
+          "a": "Oui, toutes. Chaque fiche s'imprime gratuitement en PDF avec son corrigé, sans inscription. On peut aussi faire chaque exercice directement en ligne, y compris sur tablette."
+        },
+        {
+          "q": "Dans quelles langues les fiches sont-elles disponibles ?",
+          "a": "Chaque exercice existe en 11 langues, dont le français, l'anglais, l'allemand et l'espagnol — idéal pour découvrir le vocabulaire du printemps dans une autre langue."
+        }
+      ],
+      "summer": [
+        {
+          "q": "Que trouve-t-on dans ces fiches d'été ?",
+          "a": "Environ 55 activités pour la maternelle et le CP sur le thème des vacances : comptage, petites additions, tri, algorithmes, jeux d'association et travail des lettres, avec le soleil, la plage et les glaces en toile de fond."
+        },
+        {
+          "q": "Peut-on utiliser ces fiches comme cahier de vacances ?",
+          "a": "Oui, c'est même une très bonne idée : toutes les fiches sont gratuites, s'impriment en PDF avec corrigé et se jouent aussi en ligne sans inscription. On compose ainsi un cahier de vacances maison, à son rythme."
+        },
+        {
+          "q": "Les exercices d'été existent-ils dans d'autres langues ?",
+          "a": "Oui, chaque activité est proposée en 11 langues. Parfait pour réviser en français ou découvrir le vocabulaire de l'été en anglais, en espagnol ou en allemand pendant les vacances."
+        }
       ]
     },
     "fallback": {
@@ -2021,7 +2091,17 @@
     "word-guess": "Parcourez ici les fiches de devine le mot, ou les enfants completent les lettres manquantes pour ecrire le mot d'une image. En observant le dessin, ils retrouvent les sons et placent les bonnes lettres, une a une. L'activite travaille la reconnaissance des lettres, le dechiffrage et l'ecriture emergente, avec un support visuel rassurant. Elle convient aux jeunes lecteurs qui consolident le lien entre lettres et sons. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs mots pour enrichir le vocabulaire. Disponible dans les 11 langues que nous publions, cette serie accompagne les premiers pas vers l'ecriture.",
     "word-scramble": "Parcourez ici les fiches de lettres melangees, ou les enfants remettent dans l'ordre les lettres d'un mot illustre. En s'appuyant sur l'image, ils reconstituent le mot en plaçant chaque lettre a sa place. L'activite developpe l'orthographe emergente, le dechiffrage et l'attention aux sons, avec un support visuel motivant. Elle convient aux jeunes lecteurs qui s'entrainent a ecrire des mots simples. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs mots autour d'un meme theme pour varier l'entrainement. Disponible dans les 11 langues que nous publions, cette serie rend l'orthographe ludique.",
     "crossword": "Parcourez ici les fiches de mots croises, ou les enfants ecrivent les lettres dans une grille qui se croise a partir d'indices illustres. Chaque image guide vers un mot a placer horizontalement ou verticalement, en partageant des lettres communes. L'activite travaille l'orthographe, le vocabulaire et le raisonnement, avec un support visuel clair. Elle convient aux jeunes lecteurs qui consolident la lecture et l'ecriture des mots. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Combinez plusieurs grilles pour enrichir le lexique en classe ou pour les devoirs. Disponible dans les 11 langues que nous publions, cette serie exerce l'esprit des mots croises.",
-    "find-objects": "Parcourez ici les fiches de trouve les objets, ou les enfants cherchent des objets caches dans une scene et les marquent. En explorant l'image du regard, ils reperent chaque element de la liste et le pointent. L'activite developpe la discrimination visuelle, l'attention et la patience, avec un support visuel riche et amusant. Elle convient aux jeunes enfants comme aux premiers lecteurs. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les en ateliers calmes ou en autonomie. Disponible dans les 11 langues que nous publions, cette serie transforme l'observation en jeu."
+    "find-objects": "Parcourez ici les fiches de trouve les objets, ou les enfants cherchent des objets caches dans une scene et les marquent. En explorant l'image du regard, ils reperent chaque element de la liste et le pointent. L'activite developpe la discrimination visuelle, l'attention et la patience, avec un support visuel riche et amusant. Elle convient aux jeunes enfants comme aux premiers lecteurs. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les en ateliers calmes ou en autonomie. Disponible dans les 11 langues que nous publions, cette serie transforme l'observation en jeu.",
+    "christmas": "Retrouvez ici toutes nos fiches de Noël à imprimer pour la maternelle et le CP : environ 55 activités gratuites autour du sapin, des cadeaux, des étoiles et des bonshommes de neige. Au programme : comptage et petites additions, tri et classement, algorithmes et suites logiques, jeux d'association, sans oublier la reconnaissance des lettres et les premiers mots à recomposer. Chaque fiche se télécharge en PDF avec son corrigé — pratique pour préparer les ateliers de décembre ou la dernière semaine avant les vacances — ou se joue directement en ligne, sans inscription. Les exercices existent en 11 langues, ce qui permet aussi de découvrir le vocabulaire de Noël dans une autre langue. En classe comme à la maison, il y a de quoi occuper joliment tout le mois de décembre.",
+    "easter": "Œufs décorés, lapins, poussins et paniers garnis : nos fiches de Pâques réunissent une cinquantaine d'activités gratuites pour la maternelle et le CP. Les enfants comptent les œufs, résolvent de petites additions, trient et classent les images, poursuivent des algorithmes, associent les paires et travaillent les lettres à travers un vocabulaire tout en couleurs. Chaque fiche est disponible en PDF à imprimer, corrigé inclus, et peut aussi se faire en ligne, sans inscription ni téléchargement. C'est une manière toute simple de prolonger la chasse aux œufs en classe ou à la maison, pendant la période de Pâques comme au retour des vacances. Et comme les exercices existent en 11 langues, on peut même retrouver le lapin et ses œufs en anglais, en espagnol ou en allemand.",
+    "winter": "Bonnets, moufles, luges et flocons de neige : cette page rassemble environ 55 fiches d'hiver gratuites pour la maternelle et le CP. Les images de la saison froide servent de support à toutes les activités classiques du niveau : comptage et additions simples, tri et classement, algorithmes à poursuivre, jeux d'association, reconnaissance des lettres et premiers mots de l'hiver. Chaque fiche se télécharge gratuitement en PDF avec son corrigé — idéal pour nourrir le plan de travail de janvier ou les ateliers autonomes — et se joue aussi directement en ligne, sans inscription. Les exercices sont proposés en 11 langues, de quoi enrichir le vocabulaire de l'hiver au-delà du français. Un thème qui accompagne naturellement la classe de la première neige jusqu'aux vacances de février.",
+    "spring": "Fleurs, papillons, bourgeons et petites pluies : voici nos fiches de printemps à imprimer pour la maternelle et le CP — environ 55 activités gratuites pour accompagner le retour des beaux jours. Les enfants comptent les fleurs, résolvent de petites additions, trient et classent les images du jardin, complètent des algorithmes, associent les paires et découvrent les lettres avec le vocabulaire de la saison. Chaque fiche existe en PDF à imprimer avec corrigé, ou en version à jouer directement en ligne, sans inscription. C'est le complément parfait d'un projet jardinage ou d'une sortie nature : on observe dehors, on s'exerce en classe. Les exercices sont disponibles en 11 langues, pour faire fleurir aussi le vocabulaire dans d'autres langues.",
+    "summer": "Soleil, plage, glaces et maillots de bain : nos fiches d'été réunissent environ 55 activités gratuites pour la maternelle et le CP. On y retrouve tous les grands classiques du niveau, habillés aux couleurs des vacances : comptage et additions simples, tri et classement, algorithmes, jeux d'association, reconnaissance des lettres et premiers mots de l'été. Chaque fiche se télécharge en PDF avec son corrigé — parfait pour composer un petit cahier de vacances maison — ou se joue directement en ligne, sans inscription, même sur tablette. En fin d'année scolaire comme pendant les grandes vacances, ces activités permettent de garder le rythme en douceur, sans jamais transformer l'été en devoirs. Les exercices existent en 11 langues, pour réviser ou découvrir en s'amusant.",
+    "christmas__kindergarten": "Pour la grande section, nous avons réuni une quarantaine de fiches de Noël adaptées aux enfants de 5 à 7 ans. À cet âge, on compte les cadeaux jusqu'à dix et au-delà, on aborde les toutes premières additions, on poursuit des algorithmes de boules et d'étoiles et on commence à reconnaître les lettres dans les mots de Noël. Chaque fiche s'imprime gratuitement en PDF avec son corrigé, ou se joue en ligne sans inscription — de quoi préparer sereinement le passage au CP, même en décembre.",
+    "easter__kindergarten": "Cette sélection regroupe une quarantaine de fiches de Pâques pensées pour la grande section (5-7 ans). Les enfants dénombrent les œufs de la chasse, découvrent les premières additions, trient les images, complètent des suites logiques de lapins et de poussins et s'entraînent à reconnaître les lettres dans le vocabulaire de Pâques. Tout est gratuit : chaque fiche existe en PDF à imprimer avec corrigé, et en version à jouer directement en ligne, sans inscription. Un joli moyen de consolider les acquis avant l'entrée au CP.",
+    "kindergarten__winter": "Voici une quarantaine de fiches d'hiver choisies pour la grande section, autour de 5 à 7 ans. Bonnets, flocons et bonshommes de neige servent de support pour compter, calculer ses premières additions, poursuivre des algorithmes, associer les paires et repérer les lettres dans les mots de l'hiver. Chaque fiche s'imprime gratuitement en PDF, corrigé compris, ou se fait en ligne sans inscription. De quoi nourrir le plan de travail de janvier et février avec des exercices au bon niveau d'exigence.",
+    "kindergarten__spring": "Pour la grande section (5-7 ans), cette page propose une quarantaine de fiches de printemps : compter les fleurs et les papillons, résoudre de petites additions, trier les images du jardin, compléter des algorithmes et reconnaître les lettres dans le vocabulaire de la saison. Chaque fiche est gratuite, à imprimer en PDF avec son corrigé ou à jouer directement en ligne, sans inscription. Idéal en accompagnement d'un projet jardinage ou pour consolider les apprentissages du dernier trimestre avant le CP.",
+    "kindergarten__summer": "Une quarantaine de fiches d'été attendent ici les enfants de grande section, entre 5 et 7 ans. Sous le soleil, à la plage ou autour d'une glace, on compte, on calcule ses premières additions, on poursuit des algorithmes, on associe les paires et on repère les lettres dans les mots des vacances. Chaque fiche s'imprime gratuitement en PDF avec corrigé, ou se joue en ligne sans inscription — parfait pour un cahier de vacances maison qui prépare l'entrée au CP tout en douceur."
   },
   "bulk": {
     "toggleSelect": "Select",
@@ -2130,7 +2210,11 @@
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
   },
   "workspace": {
-    "billing": { "line": "Abonnement Enseignant — actif", "renewsOn": "renouvellement le", "manage": "Gérer la facturation" },
+    "billing": {
+      "line": "Abonnement Enseignant — actif",
+      "renewsOn": "renouvellement le",
+      "manage": "Gérer la facturation"
+    },
     "metadata": {
       "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."

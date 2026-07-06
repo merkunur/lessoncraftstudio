@@ -1,0 +1,103 @@
+{
+ "locale": "fi",
+ "market": {
+  "hl": "fi",
+  "gl": "fi"
+ },
+ "generatedAt": "2026-07-06T16:35:08.213Z",
+ "requestCount": 40,
+ "seedCounts": {
+  "core": 4,
+  "types": 177,
+  "typeGrade": 295,
+  "themes": 73,
+  "subjects": 40,
+  "online": 8,
+  "alphabet": 56
+ },
+ "errorCount": 41,
+ "errors": [
+  {
+   "seed": "tulostettavat tehtävät",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "tehtäviä lapsille",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "tulostettavia tehtäviä",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "tehtävämonisteet",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "yhteenlasku",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "yhteenlasku tehtäviä",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "yhteenlasku ilmaiseksi",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kuvasudoku",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kuvasudoku tehtäviä",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kuvasudoku ilmaiseksi",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kryptogrammi",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kryptogrammi tehtäviä",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kryptogrammi ilmaiseksi",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kuvapolku",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kuvapolku tehtäviä",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kuvapolku ilmaiseksi",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "vähennyslasku",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "vähennyslasku tehtäviä",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "vähennyslasku ilmaiseksi",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "koodattu yhteenlasku",
+   "err": "HTTP 403"
+  }
+ ],
+ "suggestions": {},
+ "unique": []
+}

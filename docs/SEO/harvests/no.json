@@ -1,0 +1,103 @@
+{
+ "locale": "no",
+ "market": {
+  "hl": "no",
+  "gl": "no"
+ },
+ "generatedAt": "2026-07-06T16:33:44.798Z",
+ "requestCount": 40,
+ "seedCounts": {
+  "core": 4,
+  "types": 177,
+  "typeGrade": 236,
+  "themes": 73,
+  "subjects": 32,
+  "online": 8,
+  "alphabet": 58
+ },
+ "errorCount": 41,
+ "errors": [
+  {
+   "seed": "oppgaver til utskrift",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "arbeidsark",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "gratis oppgaver",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "oppgaver for barn",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "addisjon",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "addisjon oppgaver",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "addisjon gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "bildesudoku",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "bildesudoku oppgaver",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "bildesudoku gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kryptogram",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kryptogram oppgaver",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kryptogram gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "bildevei",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "bildevei oppgaver",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "bildevei gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "subtraksjon",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "subtraksjon oppgaver",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "subtraksjon gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kodeaddisjon",
+   "err": "HTTP 403"
+  }
+ ],
+ "suggestions": {},
+ "unique": []
+}

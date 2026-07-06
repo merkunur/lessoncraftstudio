@@ -1,0 +1,103 @@
+{
+ "locale": "nl",
+ "market": {
+  "hl": "nl",
+  "gl": "nl"
+ },
+ "generatedAt": "2026-07-06T16:29:36.158Z",
+ "requestCount": 40,
+ "seedCounts": {
+  "core": 4,
+  "types": 177,
+  "typeGrade": 295,
+  "themes": 73,
+  "subjects": 40,
+  "online": 8,
+  "alphabet": 52
+ },
+ "errorCount": 41,
+ "errors": [
+  {
+   "seed": "werkbladen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "werkbladen printen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "oefenbladen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "werkbladen gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "optellen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "optellen werkbladen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "optellen printen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "foto-sudoku",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "foto-sudoku werkbladen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "foto-sudoku printen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "cryptogram",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "cryptogram werkbladen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "cryptogram printen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "beeldpad",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "beeldpad werkbladen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "beeldpad printen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "aftrekken",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "aftrekken werkbladen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "aftrekken printen",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "code-optellen",
+   "err": "HTTP 403"
+  }
+ ],
+ "suggestions": {},
+ "unique": []
+}

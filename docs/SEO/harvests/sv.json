@@ -1,0 +1,103 @@
+{
+ "locale": "sv",
+ "market": {
+  "hl": "sv",
+  "gl": "se"
+ },
+ "generatedAt": "2026-07-06T16:30:58.472Z",
+ "requestCount": 40,
+ "seedCounts": {
+  "core": 4,
+  "types": 177,
+  "typeGrade": 295,
+  "themes": 73,
+  "subjects": 40,
+  "online": 8,
+  "alphabet": 58
+ },
+ "errorCount": 41,
+ "errors": [
+  {
+   "seed": "arbetsblad",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "arbetsblad att skriva ut",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "övningsblad",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "arbetsblad gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "addition",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "addition arbetsblad",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "addition gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "bildsudoku",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "bildsudoku arbetsblad",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "bildsudoku gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kryptogram",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kryptogram arbetsblad",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kryptogram gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "bildväg",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "bildväg arbetsblad",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "bildväg gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "subtraktion",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "subtraktion arbetsblad",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "subtraktion gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kodaddition",
+   "err": "HTTP 403"
+  }
+ ],
+ "suggestions": {},
+ "unique": []
+}

@@ -1,0 +1,5528 @@
+{
+ "locale": "pt",
+ "market": {
+  "hl": "pt",
+  "gl": "br"
+ },
+ "generatedAt": "2026-07-06T16:25:22.035Z",
+ "requestCount": 657,
+ "seedCounts": {
+  "core": 4,
+  "types": 177,
+  "typeGrade": 295,
+  "themes": 73,
+  "subjects": 40,
+  "online": 12,
+  "alphabet": 56
+ },
+ "errorCount": 0,
+ "errors": [],
+ "suggestions": {
+  "atividades para imprimir": {
+   "cls": "core",
+   "s": [
+    "atividades para imprimir",
+    "atividades para imprimir pdf",
+    "atividades para imprimir educação infantil",
+    "atividades para imprimir alfabetização",
+    "atividades para imprimir 3 ano",
+    "atividades para imprimir 1 ano",
+    "atividades para imprimir 2 ano",
+    "atividades para imprimir 4 ano",
+    "atividades para imprimir escuta fala pensamento e imaginação na educação infantil",
+    "atividades para imprimir 5 ano"
+   ]
+  },
+  "atividades de alfabetização": {
+   "cls": "core",
+   "s": [
+    "atividades de alfabetização",
+    "atividades de alfabetização 1 ano",
+    "atividades de alfabetização 2 ano",
+    "atividades de alfabetização para imprimir",
+    "atividades de alfabetização e letramento",
+    "atividades de alfabetização 3 ano",
+    "atividades de alfabetização 1 ano para imprimir",
+    "atividades de alfabetização em pdf",
+    "atividades de alfabetização para autistas",
+    "atividades de alfabetização matemática"
+   ]
+  },
+  "atividades educativas": {
+   "cls": "core",
+   "s": [
+    "atividades educativas",
+    "atividades educativas para crianças de 4 anos",
+    "atividades educativas para criança de 3 anos",
+    "atividades educativas para crianças de 2 anos",
+    "atividades educativas para imprimir",
+    "atividades educativas jogos educativos",
+    "atividades educativas para crianças de 5 anos",
+    "atividades educativas para crianças",
+    "atividades educativas online",
+    "atividades educativas online gratis"
+   ]
+  },
+  "exercícios para imprimir": {
+   "cls": "core",
+   "s": [
+    "exercícios para imprimir",
+    "exercícios para imprimir educação infantil",
+    "exercicios para imprimir de alfabetização",
+    "exercicios para imprimir 2 ano",
+    "exercicios para imprimir 4 ano",
+    "exercicios para imprimir 3 ano",
+    "exercicios para imprimir 1 ano",
+    "exercicios para imprimir 5 ano",
+    "exercicios para imprimir de equação do 1 grau",
+    "exercicios para imprimir pré escola"
+   ]
+  },
+  "adição": {
+   "cls": "types",
+   "s": [
+    "adição",
+    "adição e subtração",
+    "adição com reserva",
+    "adição com reagrupamento",
+    "adição e subtração 2 ano",
+    "adição de categoria",
+    "adição e subtração de frações",
+    "adição e subtração 3 ano",
+    "adição de fração",
+    "adição 1 ano"
+   ]
+  },
+  "adição atividades": {
+   "cls": "types",
+   "s": [
+    "adição atividades",
+    "adição atividades 2 ano",
+    "adição atividades 3 ano",
+    "adição atividades 1 ano",
+    "adição atividades 4 ano",
+    "adição atividades 5 ano",
+    "adição atividades de matemática 2 ano para imprimir",
+    "adição atividades de matematica 1 ano",
+    "adição atividades 6 ano",
+    "adição atividades de matematica 2 ano"
+   ]
+  },
+  "adição para imprimir": {
+   "cls": "types",
+   "s": [
+    "adição para imprimir",
+    "adição para imprimir 3 ano",
+    "tabuada adição para imprimir",
+    "tabuada adição para imprimir pdf",
+    "adição simples para imprimir",
+    "bingo adição para imprimir",
+    "atividade adição para imprimir",
+    "calcular adição para imprimir",
+    "palavra adição para imprimir",
+    "tabuada adição para imprimir tamanho a4 pdf"
+   ]
+  },
+  "sudoku ilustrado": {
+   "cls": "types",
+   "s": [
+    "sudoku ilustrado"
+   ]
+  },
+  "criptograma": {
+   "cls": "types",
+   "s": [
+    "criptograma",
+    "criptogramas",
+    "criptograma coquetel",
+    "criptograma para imprimir",
+    "criptograma online",
+    "criptograma racha cuca",
+    "criptograma jogo",
+    "criptograma para imprimir pdf",
+    "criptograma o que é",
+    "criptograma pdf"
+   ]
+  },
+  "criptograma para imprimir": {
+   "cls": "types",
+   "s": [
+    "criptograma para imprimir",
+    "criptograma para imprimir pdf",
+    "criptograma para imprimir grátis",
+    "criptograma para imprimir facil",
+    "criptograma coquetel para imprimir",
+    "criar criptograma para imprimir",
+    "criptograma infantil para imprimir",
+    "criptograma matematico para imprimir",
+    "passatempo criptograma para imprimir",
+    "jogo criptograma para imprimir"
+   ]
+  },
+  "caminho ilustrado": {
+   "cls": "types",
+   "s": [
+    "caminho ilustrado",
+    "caminho a cristo ilustrado",
+    "caminho a cristo ilustrado pdf"
+   ]
+  },
+  "subtração": {
+   "cls": "types",
+   "s": [
+    "subtração",
+    "subtração de fração",
+    "subtração com reserva",
+    "subtração excel",
+    "subtração com reagrupamento",
+    "subtração de frações com denominadores diferentes",
+    "subtração com reserva 3 ano",
+    "subtração 2 ano",
+    "subtração 3 ano",
+    "subtração com reserva 4 ano"
+   ]
+  },
+  "subtração atividades": {
+   "cls": "types",
+   "s": [
+    "subtração atividades",
+    "subtração atividades 2 ano",
+    "subtração atividades 1 ano",
+    "subtração atividades 4 ano",
+    "subtração atividades 5 ano",
+    "subtração atividades 3 ano",
+    "subtração atividades 6 ano",
+    "subtração atividades de matemática 5 ano",
+    "subtração atividades de matematica 2 ano fundamental",
+    "subtração atividades de matemática 3 ano"
+   ]
+  },
+  "subtração para imprimir": {
+   "cls": "types",
+   "s": [
+    "subtração para imprimir",
+    "tabuada subtração para imprimir",
+    "tabuada subtração para imprimir pdf",
+    "subtração simples para imprimir",
+    "atividade subtração para imprimir",
+    "contas subtração para imprimir",
+    "jogo subtração para imprimir",
+    "bingo da subtração para imprimir",
+    "dominó da subtração para imprimir",
+    "tabuada de subtração para imprimir e completar"
+   ]
+  },
+  "adição com código": {
+   "cls": "types",
+   "s": [
+    "adição código bncc"
+   ]
+  },
+  "mais ou menos": {
+   "cls": "types",
+   "s": [
+    "mais ou menos",
+    "mais ou menos em ingles",
+    "mais ou menos simbolo",
+    "mais ou menos meme",
+    "mais ou menos em espanhol",
+    "mais ou menos sinonimo",
+    "mais ou menos sinal",
+    "mais ou menos em frances",
+    "mais ou menos ou mas ou menos",
+    "mais ou menos em italiano"
+   ]
+  },
+  "mais ou menos atividades": {
+   "cls": "types",
+   "s": [
+    "atividades mais ou menos educação infantil",
+    "atividades mais ou menos"
+   ]
+  },
+  "mais ou menos para imprimir": {
+   "cls": "types",
+   "s": [
+    "quanto custa mais ou menos para imprimir uma foto"
+   ]
+  },
+  "quebra-cabeça matemático": {
+   "cls": "types",
+   "s": [
+    "quebra-cabeça matemático",
+    "quebra-cabeça matemático para imprimir 6 ano",
+    "quebra-cabeça matemático para imprimir",
+    "quebra-cabeça matemático pdf",
+    "quebra cabeça matemático de sudoku",
+    "quebra cabeça matemático online",
+    "quebra cabeça matemático 1 ano",
+    "quebra cabeça matemático 4 ano",
+    "quebra-cabeça matemático de sudoku nível 3",
+    "quebra cabeça matemático 2 ano"
+   ]
+  },
+  "quebra-cabeça matemático para imprimir": {
+   "cls": "types",
+   "s": [
+    "quebra-cabeça matemático para imprimir 6 ano",
+    "quebra-cabeça matemático para imprimir",
+    "quebra cabeça matemático para imprimir 4 ano"
+   ]
+  },
+  "atividade de matemática": {
+   "cls": "types",
+   "s": [
+    "atividade de matemática",
+    "atividade de matemática 2 ano",
+    "atividade de matemática 3 ano",
+    "atividade de matemática 1 ano",
+    "atividade de matemática 4 ano",
+    "atividade de matemática 5 ano",
+    "atividade de matemática 6 ano",
+    "atividade de matemática para o 1o ano",
+    "atividade de matemática para educação infantil",
+    "atividade de matemática 7 ano"
+   ]
+  },
+  "atividade de matemática atividades": {
+   "cls": "types",
+   "s": [
+    "atividade atividades de matemática"
+   ]
+  },
+  "atividade de matemática para imprimir": {
+   "cls": "types",
+   "s": [
+    "atividade de matemática para imprimir",
+    "atividade de matemática para imprimir 1o ano",
+    "atividade de matemática para imprimir 4 ano",
+    "atividade de matemática para imprimir 5 ano",
+    "atividade de matemática para imprimir 2o ano",
+    "atividade de matemática para imprimir educação infantil",
+    "atividade de matemática para imprimir 6 ano",
+    "atividade de matemática para imprimir pré 2",
+    "atividade de matemática para imprimir adição e subtração",
+    "atividade de matemática para imprimir 3o ano"
+   ]
+  },
+  "grande ou pequeno": {
+   "cls": "types",
+   "s": [
+    "grande ou pequeno",
+    "grande ou pequeno beatriz meirelles pdf",
+    "grande ou pequeno em inglês",
+    "grande ou pequeno tem sempre o tamanho de um pé",
+    "grande ou pequeno em italiano",
+    "grande ou pequeno livro",
+    "grande ou pequeno educação infantil",
+    "grande ou pequeno beatriz meirelles",
+    "grande ou pequeno pedro bandeira",
+    "grande ou pequeno atividade"
+   ]
+  },
+  "grande ou pequeno atividades": {
+   "cls": "types",
+   "s": [
+    "atividades grande ou pequeno"
+   ]
+  },
+  "atividade de padrões": {
+   "cls": "types",
+   "s": [
+    "atividade de padrões",
+    "atividade reconhecimento de padrões",
+    "atividade sequência de padrões",
+    "atividade padrões silábicos",
+    "atividade ́padrões 1 ano",
+    "atividade sobre padrões de beleza",
+    "ficha de atividade padrões e regularidades"
+   ]
+  },
+  "bingo": {
+   "cls": "types",
+   "s": [
+    "bingo lotto",
+    "bingo",
+    "bingo filme",
+    "bingo e bluey",
+    "bingo futebol",
+    "bingo o rei das manhãs",
+    "bingo ao vivo",
+    "bingo das letras",
+    "bingo football",
+    "bingo de palavras"
+   ]
+  },
+  "bingo atividades": {
+   "cls": "types",
+   "s": [
+    "bingo atividades escolares",
+    "bingo atividades",
+    "atividades bingo de palavras",
+    "atividades bingo de numeros",
+    "atividades bingo de letras",
+    "atividades bingo das silabas",
+    "atividades bingo das vogais",
+    "atividades bingo do alfabeto",
+    "bluey e bingo atividades"
+   ]
+  },
+  "bingo para imprimir": {
+   "cls": "types",
+   "s": [
+    "bingo para imprimir",
+    "bingo para imprimir pdf",
+    "bingo para imprimir cha de bebe",
+    "bingo para imprimir educação infantil",
+    "bingo para imprimir infantil",
+    "bingo para imprimir numeros",
+    "bingo para imprimir gratis",
+    "bingo para imprimir cartelas",
+    "bingo para imprimir em branco",
+    "bingo para imprimir de palavras"
+   ]
+  },
+  "pareamento": {
+   "cls": "types",
+   "s": [
+    "pareamento",
+    "pareamento de cores",
+    "pareamento das vogais",
+    "pareamento de cores educação infantil",
+    "pareamento de numeros",
+    "pareamento do alfabeto",
+    "pareamento wordwall",
+    "pareamento de cores para imprimir",
+    "pareamento de letras",
+    "pareamento de animais"
+   ]
+  },
+  "pareamento atividades": {
+   "cls": "types",
+   "s": [
+    "pareamento atividades",
+    "pareamento atividades ludicas cores educação infantil",
+    "atividades pareamento de cores",
+    "atividades pareamento autismo",
+    "atividades pareamento educação infantil",
+    "atividades pareamento de cores educação infantil",
+    "atividades pareamento de letras",
+    "atividades pareamento das vogais",
+    "atividades pareamento para imprimir",
+    "atividades pareamento de sombras"
+   ]
+  },
+  "pareamento para imprimir": {
+   "cls": "types",
+   "s": [
+    "pareamento para imprimir",
+    "pareamento alfabeto para imprimir",
+    "atividades pareamento para imprimir",
+    "pareamento vogais para imprimir",
+    "jogo pareamento para imprimir",
+    "pareamento imprimir",
+    "pareamento de cores para imprimir",
+    "pareamento de animais para imprimir",
+    "pareamento de sombras para imprimir",
+    "pareamento de frutas para imprimir"
+   ]
+  },
+  "ordenar imagens": {
+   "cls": "types",
+   "s": [
+    "ordenar imagens de uma história",
+    "ordenar imagens",
+    "ordenar imagens wordwall"
+   ]
+  },
+  "pareamento de sombras": {
+   "cls": "types",
+   "s": [
+    "pareamento de sombras",
+    "pareamento de sombras para imprimir",
+    "pareamento de sombras pdf",
+    "pareamento de sombras animais",
+    "pareamento de sombras educação infantil",
+    "pareamento de sombras objetivos",
+    "pareamento de sombras frutas",
+    "pareamento de sombras trabalha o que",
+    "pareamento de sombras festa junina",
+    "atividade pareamento de sombras"
+   ]
+  },
+  "pareamento de sombras atividades": {
+   "cls": "types",
+   "s": [
+    "atividades pareamento de sombras"
+   ]
+  },
+  "pareamento de sombras para imprimir": {
+   "cls": "types",
+   "s": [
+    "pareamento de sombras para imprimir"
+   ]
+  },
+  "trem do alfabeto": {
+   "cls": "types",
+   "s": [
+    "trem do alfabeto",
+    "trem do alfabeto para imprimir",
+    "trem do alfabeto video",
+    "trem do alfabeto brinquedo",
+    "trem do alfabeto em eva",
+    "trem do alfabeto fisher price",
+    "trem do alfabeto para colorir",
+    "trem do alfabeto musica",
+    "trem do alfabeto desenho",
+    "atividade trem do alfabeto"
+   ]
+  },
+  "trem do alfabeto para imprimir": {
+   "cls": "types",
+   "s": [
+    "trem do alfabeto para imprimir"
+   ]
+  },
+  "preposições": {
+   "cls": "types",
+   "s": [
+    "preposições",
+    "preposições em inglês",
+    "preposições essenciais",
+    "preposições exemplos",
+    "preposições acidentais",
+    "preposições de lugar em inglês",
+    "preposições portugues",
+    "preposições de tempo em inglês",
+    "preposições essenciais e acidentais",
+    "preposições e conjunções"
+   ]
+  },
+  "preposições atividades": {
+   "cls": "types",
+   "s": [
+    "preposições atividades",
+    "preposições atividades 7 ano",
+    "preposições atividades 4 ano",
+    "preposições atividades 5 ano",
+    "preposições atividades 6 ano",
+    "preposições atividades com gabarito",
+    "preposições atividades pdf",
+    "atividades preposições em ingles",
+    "atividades preposições de lugar em inglês",
+    "atividades preposições de tempo em ingles"
+   ]
+  },
+  "preposições para imprimir": {
+   "cls": "types",
+   "s": [
+    "preposições para imprimir",
+    "jogo das preposições para imprimir",
+    "lista de preposições para imprimir",
+    "preposições em inglês para imprimir",
+    "tabela de preposições para imprimir"
+   ]
+  },
+  "adivinhe a palavra": {
+   "cls": "types",
+   "s": [
+    "adivinhe a palavra",
+    "adivinhe a palavra do dia",
+    "adivinhe a palavra jogo",
+    "adivinhe a palavra 5 letras",
+    "adivinhe a palavra pelo emoji",
+    "adivinhe a palavra secreta",
+    "adivinhe a palavra em ingles",
+    "adivinhe a palavra online",
+    "adivinhe a palavra jogo online",
+    "adivinhe a palavra site"
+   ]
+  },
+  "letras embaralhadas": {
+   "cls": "types",
+   "s": [
+    "letras embaralhadas",
+    "letras embaralhadas para formar palavras",
+    "letras embaralhadas wordwall",
+    "letras embaralhadas jogo",
+    "letras embaralhadas visão",
+    "letras embaralhadas que formam palavras",
+    "letras embaralhadas para imprimir",
+    "letras embaralhadas leitura",
+    "letras embaralhadas atividades",
+    "letras embaralhadas de perto"
+   ]
+  },
+  "letras embaralhadas atividades": {
+   "cls": "types",
+   "s": [
+    "letras embaralhadas atividades"
+   ]
+  },
+  "letras embaralhadas para imprimir": {
+   "cls": "types",
+   "s": [
+    "letras embaralhadas para imprimir",
+    "letras do alfabeto embaralhadas para imprimir",
+    "jogo de formar palavras com letras embaralhadas para imprimir"
+   ]
+  },
+  "caça-palavras": {
+   "cls": "types",
+   "s": [
+    "caça-palavras",
+    "caça-palavras copa do mundo 2026",
+    "caça-palavras para imprimir",
+    "caça-palavras fácil",
+    "caça-palavras difícil",
+    "caça-palavras países da copa",
+    "caça-palavras online",
+    "caça-palavras para imprimir infantil",
+    "caça-palavras grátis",
+    "caça-palavras gerador"
+   ]
+  },
+  "caça-palavras atividades": {
+   "cls": "types",
+   "s": [
+    "caça-palavras atividades",
+    "caça palavras atividades sobre separação de misturas 4 ano",
+    "caça palavras atividades para imprimir",
+    "caça palavras atividades 2 ano",
+    "caça palavras atividades de ensino religioso 9 ano valores",
+    "caça palavras atividades economicas",
+    "caça palavras atividades sobre fontes históricas 2 ano fundamental",
+    "caça palavras atividades 4 ano",
+    "caça palavras atividades dos dez mandamentos para imprimir",
+    "caça palavras atividades educativas"
+   ]
+  },
+  "caça-palavras para imprimir": {
+   "cls": "types",
+   "s": [
+    "caça-palavras para imprimir",
+    "caça-palavras para imprimir infantil",
+    "caça-palavras para imprimir infantil pdf",
+    "caça-palavras para imprimir adulto",
+    "caça-palavras para imprimir pdf",
+    "caça-palavras para imprimir grande",
+    "caça-palavras para imprimir 7 ano",
+    "caça-palavras para imprimir word",
+    "caça-palavras para imprimir difícil",
+    "caça-palavras para imprimir 3o ano"
+   ]
+  },
+  "palavras cruzadas": {
+   "cls": "types",
+   "s": [
+    "palavras cruzadas",
+    "palavras cruzadas para imprimir",
+    "palavras cruzadas coquetel",
+    "palavras cruzadas g1",
+    "palavras cruzadas online",
+    "palavras cruzadas diretas",
+    "palavras cruzadas fácil",
+    "palavras cruzadas pdf",
+    "palavras cruzadas online grátis",
+    "palavras cruzadas geniol"
+   ]
+  },
+  "palavras cruzadas atividades": {
+   "cls": "types",
+   "s": [
+    "palavras cruzadas atividades",
+    "atividades palavras cruzadas 2 ano",
+    "atividades palavras cruzadas 4 ano",
+    "atividades palavras cruzadas 5 ano",
+    "atividades palavras cruzadas 3 ano",
+    "atividades palavras cruzadas 1 ano",
+    "atividades palavras cruzadas 6 ano",
+    "atividades palavras cruzadas para imprimir",
+    "atividades palavras cruzadas para alfabetização"
+   ]
+  },
+  "palavras cruzadas para imprimir": {
+   "cls": "types",
+   "s": [
+    "palavras cruzadas para imprimir",
+    "palavras cruzadas para imprimir pdf",
+    "palavras cruzadas para imprimir pdf grátis",
+    "palavras cruzadas para imprimir coquetel pdf",
+    "palavras cruzadas para imprimir adulto",
+    "palavras cruzadas para imprimir grátis",
+    "palavras cruzadas para imprimir nível difícil",
+    "palavras cruzadas para imprimir nível fácil",
+    "palavras cruzadas para imprimir adulto pdf",
+    "palavras cruzadas para imprimir infantil"
+   ]
+  },
+  "encontre e conte": {
+   "cls": "types",
+   "s": [
+    "encontre e conte",
+    "encontre e conte animais do mar",
+    "atividade encontre e conte"
+   ]
+  },
+  "encontre os objetos": {
+   "cls": "types",
+   "s": [
+    "encontre os objetos escondidos",
+    "encontre os objetos",
+    "encontre os objetos escondidos na imagem",
+    "encontre os objetos escondidos para imprimir",
+    "encontre os objetos roblox",
+    "encontre os objetos perdidos",
+    "encontre os objetos na imagem",
+    "encontre os objetos escondidos educação infantil",
+    "encontre os objetos escondidos difícil",
+    "encontre os objetos na cena"
+   ]
+  },
+  "encontre os objetos atividades": {
+   "cls": "types",
+   "s": [
+    "atividades encontre os objetos escondidos"
+   ]
+  },
+  "encontre os objetos para imprimir": {
+   "cls": "types",
+   "s": [
+    "encontre os objetos para imprimir",
+    "encontre os objetos escondidos para imprimir"
+   ]
+  },
+  "caça ao tesouro": {
+   "cls": "types",
+   "s": [
+    "caça ao tesouro",
+    "caça ao tesouro forza horizon 6",
+    "caça ao tesouro bíblico",
+    "caça ao tesouro pascoa",
+    "caça ao tesouro decorativo wow",
+    "caça ao tesouro infantil",
+    "caça ao tesouro para imprimir",
+    "caça ao tesouro pistas",
+    "caça ao tesouro filme",
+    "caça ao tesouro educação infantil"
+   ]
+  },
+  "caça ao tesouro atividades": {
+   "cls": "types",
+   "s": [
+    "caça ao tesouro atividades",
+    "atividades caça ao tesouro na escola",
+    "atividades de caça ao tesouro educação infantil",
+    "atividades de caça ao tesouro para crianças"
+   ]
+  },
+  "caça ao tesouro para imprimir": {
+   "cls": "types",
+   "s": [
+    "caça ao tesouro para imprimir",
+    "caça ao tesouro para imprimir gratis",
+    "caça ao tesouro para imprimir pdf",
+    "caça ao tesouro infantil para imprimir",
+    "caça ao tesouro matemático para imprimir",
+    "caça ao tesouro bíblico para imprimir",
+    "caça ao tesouro pronto para imprimir grátis",
+    "pistas caça ao tesouro para imprimir",
+    "caça ao tesouro pronto para imprimir",
+    "caça ao tesouro pascoa para imprimir"
+   ]
+  },
+  "peças faltantes": {
+   "cls": "types",
+   "s": [
+    "peças faltantes lego",
+    "peças faltantes",
+    "peças faltantes quebra cabeça grow",
+    "peças faltantes quebra cabeça game office",
+    "pecas faltantes grow",
+    "comprar pecas faltantes lego",
+    "lego pedir peças faltantes",
+    "site lego peças faltantes"
+   ]
+  },
+  "qual é diferente": {
+   "cls": "types",
+   "s": [
+    "qual é diferente",
+    "qual é diferente livro",
+    "qual nome é diferente joe john jacob mike",
+    "qual organela é diferente entre as células animais e vegetais",
+    "qual figura é diferente",
+    "qual é o diferente wordwall",
+    "qual é as diferentes formas da superfície terrestre",
+    "qual urso é diferente",
+    "qual imagem é diferente",
+    "qual opção é diferente das demais banana maçã uva cenoura"
+   ]
+  },
+  "contar figuras": {
+   "cls": "types",
+   "s": [
+    "contar figuras geometricas",
+    "contar figuras",
+    "contar figuras geometricas para niños",
+    "contar figuras para niños",
+    "contar figuras en autocad",
+    "atividade de contar figuras",
+    "contar las figuras de cada dibujo y completar",
+    "wordwall contar figuras",
+    "como contar figuras musicales",
+    "ecognitiva contar figuras"
+   ]
+  },
+  "quadro de dez": {
+   "cls": "types",
+   "s": [
+    "quadro de dezena e unidade",
+    "quadro de dezena centena e unidade",
+    "quadro de dezenas",
+    "quadro de dez",
+    "quadro dezena de milhar",
+    "quadro de ordens dezena e unidade",
+    "quadro de valor dezena e unidade",
+    "quadro de unidade dezena centena e milhar",
+    "quadro dez mandamentos",
+    "quadro dez ou mil do programa do ratinho"
+   ]
+  },
+  "marcas de contagem": {
+   "cls": "types",
+   "s": [
+    "marcas de contagem",
+    "marcas de contagem na parede",
+    "só marcas de contagem",
+    "outlet de marcas contagem",
+    "o que são marcas de contagem riscos",
+    "o que são marcas de contagem",
+    "só marcas outlet de contagem"
+   ]
+  },
+  "quadro numérico": {
+   "cls": "types",
+   "s": [
+    "quadro numérico",
+    "quadro numérico de 0 a 100",
+    "quadro numérico de 1 a 100",
+    "quadro numérico para imprimir",
+    "quadro numérico até 100 para imprimir",
+    "quadro numérico para completar até 100",
+    "quadro numérico até 100",
+    "quadro numérico de 0 a 100 para imprimir",
+    "quadro numérico até 1000 para imprimir",
+    "quadro numérico para preencher"
+   ]
+  },
+  "quadro numérico atividades": {
+   "cls": "types",
+   "s": [
+    "quadro numérico atividades",
+    "quadro numerico ate 100 atividades",
+    "atividades quadro numerico ate 50"
+   ]
+  },
+  "quadro numérico para imprimir": {
+   "cls": "types",
+   "s": [
+    "quadro numérico para imprimir",
+    "quadro numérico para imprimir pdf",
+    "quadro numérico para imprimir colorido",
+    "quadro numerico grande para imprimir",
+    "quadro numerico stitch para imprimir",
+    "quadro numérico até 100 para imprimir",
+    "quadro numérico até 1000 para imprimir",
+    "quadro numerico ate 50 para imprimir",
+    "quadro numerico 0 a 100 para imprimir",
+    "quadro numérico 1 a 100 para imprimir"
+   ]
+  },
+  "comparar números": {
+   "cls": "types",
+   "s": [
+    "comparar números naturais de até duas ordens em situações cotidianas",
+    "comparar números",
+    "comparar números naturais",
+    "comparar números racionais entre si",
+    "comparar números naturais de até duas ordens",
+    "comparar números decimais",
+    "comparar números inteiros",
+    "comparar números racionais",
+    "comparar números decimais 5 ano",
+    "comparar números naturais até a ordem das centenas"
+   ]
+  },
+  "comparar grupos": {
+   "cls": "types",
+   "s": [
+    "comparar grupos",
+    "comparar grupos spss",
+    "comparar dos grupos estadisticamente",
+    "comparar dos grupos",
+    "comparar dos grupos en spss",
+    "cómo comparar grupos de zoom con google meet webex"
+   ]
+  },
+  "comparar tamanhos": {
+   "cls": "types",
+   "s": [
+    "comparar tamanhos",
+    "comparar tamanhos de paises",
+    "comparar tamanhos de pessoas",
+    "comparar tamanhos de tv",
+    "comparar tamanhos de pneus",
+    "comparar tamanhos iphone",
+    "comparar tamanhos de cidades",
+    "comparar tamanhos de mouse",
+    "comparar tamanhos de celular",
+    "comparar tamanhos de tenis"
+   ]
+  },
+  "reta numérica": {
+   "cls": "types",
+   "s": [
+    "reta numérica",
+    "reta numérica 5 ano",
+    "reta numérica 3 ano",
+    "reta numérica 7 ano",
+    "reta numérica dos números inteiros",
+    "reta numérica 6 ano",
+    "reta numérica 4 ano",
+    "reta numérica para imprimir",
+    "reta numérica 9 ano",
+    "reta numérica 1 ano"
+   ]
+  },
+  "reta numérica atividades": {
+   "cls": "types",
+   "s": [
+    "reta numérica atividades",
+    "reta numérica atividades 5 ano",
+    "reta numérica atividades 4 ano",
+    "reta numérica atividades 7 ano",
+    "reta numérica atividades 3 ano",
+    "reta numérica atividades para imprimir",
+    "reta numerica atividades 2 ano",
+    "reta numerica atividades 1 ano",
+    "reta numerica atividades 6 ano",
+    "reta numerica atividades 9 ano"
+   ]
+  },
+  "reta numérica para imprimir": {
+   "cls": "types",
+   "s": [
+    "reta numérica para imprimir",
+    "reta numérica para imprimir pdf",
+    "reta numérica para imprimir educação infantil",
+    "reta numérica grande para imprimir",
+    "reta numérica atividades para imprimir",
+    "reta numerica colorida para imprimir",
+    "reta numérica até 100 para imprimir",
+    "reta numérica 1 ano para imprimir",
+    "reta numérica 3 ano para imprimir",
+    "reta numérica 2 ano para imprimir"
+   ]
+  },
+  "valor posicional": {
+   "cls": "types",
+   "s": [
+    "valor posicional",
+    "valor posicional de um número",
+    "valor posicional do algarismo",
+    "valor posicional 4 ano",
+    "valor posicional 3 ano",
+    "valor posicional e valor absoluto",
+    "valor posicional 5 ano",
+    "valor posicional 2 ano",
+    "valor posicional e valor relativo",
+    "valor posicional atividades"
+   ]
+  },
+  "valor posicional atividades": {
+   "cls": "types",
+   "s": [
+    "valor posicional atividades",
+    "valor posicional atividades 3 ano",
+    "valor posicional atividades 4 ano",
+    "valor posicional atividades 2 ano",
+    "valor posicional atividades 5 ano",
+    "valor posicional atividades 6 ano",
+    "valor posicional do algarismo atividades",
+    "valor posicional dos números atividades",
+    "quadro de valor posicional atividades",
+    "valor posicional do algarismo atividades 5 ano"
+   ]
+  },
+  "valor posicional para imprimir": {
+   "cls": "types",
+   "s": [
+    "valor posicional para imprimir",
+    "valor posicional para imprimir pdf",
+    "quadro valor posicional para imprimir",
+    "cartaz valor posicional para imprimir",
+    "tabela de valor posicional para imprimir",
+    "quadro de valor posicional para imprimir grátis",
+    "jogo do valor posicional para imprimir",
+    "atividade de valor posicional para imprimir",
+    "valor posicional material para imprimir",
+    "valor posicional fichas para imprimir"
+   ]
+  },
+  "ver as horas": {
+   "cls": "types",
+   "s": [
+    "ver as horas iguais",
+    "ver as horas",
+    "ver as horas 2222",
+    "ver as horas 1111",
+    "ver as horas 2323",
+    "ver as horas iguais com frequencia",
+    "ver as horas 1717",
+    "ver as horas 2121",
+    "ver as horas 1414",
+    "ver as horas 0000"
+   ]
+  },
+  "ver as horas atividades": {
+   "cls": "types",
+   "s": [
+    "aprendendo a ver as horas atividades",
+    "atividades para ver as horas",
+    "atividades para aprender ver as horas"
+   ]
+  },
+  "ver as horas para imprimir": {
+   "cls": "types",
+   "s": [
+    "estava contando as horas para te ver imprimir"
+   ]
+  },
+  "frações": {
+   "cls": "types",
+   "s": [
+    "frações",
+    "frações equivalentes",
+    "frações 5 ano",
+    "frações equivalentes 5 ano",
+    "frações impróprias",
+    "frações decimais",
+    "frações algébricas",
+    "frações parciais",
+    "frações 6 ano",
+    "frações equivalentes exercícios"
+   ]
+  },
+  "frações atividades": {
+   "cls": "types",
+   "s": [
+    "frações atividades",
+    "frações atividades 5 ano",
+    "frações atividades 6 ano",
+    "frações atividades 7 ano",
+    "frações atividades 4 ano",
+    "frações atividades pdf",
+    "frações atividades adaptadas",
+    "frações atividades para imprimir",
+    "frações atividades 3 ano",
+    "frações atividades ludicas"
+   ]
+  },
+  "frações para imprimir": {
+   "cls": "types",
+   "s": [
+    "frações para imprimir",
+    "jogos frações para imprimir",
+    "frações equivalentes para imprimir",
+    "cartaz frações para imprimir",
+    "atividade frações para imprimir",
+    "banner frações para imprimir",
+    "jogos com frações para imprimir pdf",
+    "dominó de frações para imprimir pdf",
+    "bingo das frações para imprimir",
+    "dominó de frações para imprimir"
+   ]
+  },
+  "gráficos e dados": {
+   "cls": "types",
+   "s": [
+    "graficos de dados",
+    "graficos e representação de dados",
+    "gráficos e interpretação de dados",
+    "análise de gráficos e dados",
+    "estatística análise de gráficos e dados",
+    "dados gráficos e tabelas"
+   ]
+  },
+  "multiplicação": {
+   "cls": "types",
+   "s": [
+    "multiplicação",
+    "multiplicação de fração",
+    "multiplicação de matrizes",
+    "multiplicação 4 ano",
+    "multiplicação dos pães",
+    "multiplicação dos pães e peixes",
+    "multiplicação com dois algarismos",
+    "multiplicação de raizes",
+    "multiplicação 5 ano",
+    "multiplicação 3 ano"
+   ]
+  },
+  "multiplicação atividades": {
+   "cls": "types",
+   "s": [
+    "multiplicação atividades",
+    "multiplicação atividades 4 ano",
+    "multiplicação atividades 3 ano",
+    "multiplicação atividades 5 ano",
+    "multiplicação atividades de matemática 3 ano",
+    "multiplicação atividades de matemática 4 ano",
+    "multiplicação atividades de matemática 5 ano",
+    "multiplicação atividades 2 ano",
+    "multiplicação atividades 6 ano",
+    "multiplicação atividades adaptadas"
+   ]
+  },
+  "multiplicação para imprimir": {
+   "cls": "types",
+   "s": [
+    "multiplicação para imprimir",
+    "multiplicação para imprimir 5o ano",
+    "multiplicação para imprimir 4 ano",
+    "multiplicação para imprimir 3 ano",
+    "tabuada multiplicação para imprimir",
+    "tabuada multiplicação para imprimir pdf",
+    "tabela multiplicação para imprimir",
+    "bingo multiplicação para imprimir pdf",
+    "multiplicação divertida para imprimir",
+    "tabuada multiplicação para imprimir pdf completa"
+   ]
+  },
+  "geometria": {
+   "cls": "types",
+   "s": [
+    "geometria",
+    "geometria molecular",
+    "geometria analítica",
+    "geometria plana",
+    "geometria espacial",
+    "geometria sagrada",
+    "geometria e balanceamento",
+    "geometria euclidiana",
+    "geometria descritiva",
+    "geometria plana exercícios"
+   ]
+  },
+  "geometria atividades": {
+   "cls": "types",
+   "s": [
+    "geometria atividades",
+    "geometria atividades 5 ano",
+    "geometria atividades 4 ano",
+    "geometria atividades 6 ano",
+    "geometria atividades 3 ano",
+    "geometria atividades 2 ano",
+    "geometria atividades 1 ano",
+    "geometria atividades 8 ano",
+    "geometria atividades adaptadas",
+    "atividades geometria plana"
+   ]
+  },
+  "geometria para imprimir": {
+   "cls": "types",
+   "s": [
+    "geometria para imprimir",
+    "formas geometria para imprimir",
+    "geometria espacial para imprimir",
+    "atividade geometria para imprimir",
+    "figuras geometria para imprimir",
+    "geometria plana para imprimir",
+    "cone geometria para imprimir",
+    "solido geométrico para imprimir",
+    "cilindro geometria para imprimir",
+    "jogo da geometria para imprimir"
+   ]
+  },
+  "medidas": {
+   "cls": "types",
+   "s": [
+    "medidas cama queen",
+    "medidas cama de casal",
+    "medidas",
+    "medidas de cama",
+    "medidas mala de bordo",
+    "medidas de comprimento",
+    "medidas cama king",
+    "medidas cama de solteiro",
+    "medidas antropométricas",
+    "medidas colchão solteiro"
+   ]
+  },
+  "medidas atividades": {
+   "cls": "types",
+   "s": [
+    "medidas atividades",
+    "medidas atividades 4 ano",
+    "medidas atividades 3 ano",
+    "medidas atividades 2 ano",
+    "medidas atividades 5 ano",
+    "medidas atividades 1 ano",
+    "atividades medidas de comprimento 4 ano",
+    "atividades medidas de comprimento",
+    "atividades medidas de tempo",
+    "atividades medidas de comprimento 3 ano"
+   ]
+  },
+  "medidas para imprimir": {
+   "cls": "types",
+   "s": [
+    "medidas para imprimir fotos",
+    "medidas para imprimir",
+    "medidas para imprimir dtf",
+    "medidas para imprimir imagens",
+    "medidas para imprimir en a5",
+    "medidas para imprimir tamaño poster",
+    "medidas para imprimir fotos polaroid",
+    "medidas para imprimir a4",
+    "poster para imprimir medidas",
+    "medidas para imprimir dtf textil"
+   ]
+  },
+  "lógica visual": {
+   "cls": "types",
+   "s": [
+    "lógica visual",
+    "logica visualg",
+    "logica visual beghelli",
+    "logica visual diseño grafico",
+    "logica visual software download",
+    "logica visual software",
+    "visualg logica de programação",
+    "variáveis logica visualg",
+    "logica ordem visualizacao stories",
+    "lógica programação visualg c ++ python c# java projetos"
+   ]
+  },
+  "discriminação visual": {
+   "cls": "types",
+   "s": [
+    "discriminação visual",
+    "discriminação visual atividades",
+    "discriminação visual wordwall",
+    "discriminação visual e auditiva",
+    "discriminação visual na educação infantil",
+    "discriminação visual de formas diferenciar parear e classificar formas geométricas figuras e objetos",
+    "discriminação visual auditiva tátil",
+    "discriminação visual e percepção visual",
+    "discriminação visual atividades de atenção e concentração para imprimir",
+    "discriminação visual e auditiva na educação infantil"
+   ]
+  },
+  "discriminação visual atividades": {
+   "cls": "types",
+   "s": [
+    "discriminação visual atividades",
+    "discriminação visual atividades de atenção e concentração para imprimir",
+    "atividades cognitivas discriminação visual atividades de atenção e concentração para imprimir",
+    "atividades discriminação visual educação infantil"
+   ]
+  },
+  "discriminação visual para imprimir": {
+   "cls": "types",
+   "s": [
+    "atividades de discriminação visual para imprimir",
+    "discriminação visual atividades de atenção e concentração para imprimir",
+    "discriminação visual jogos de atenção e concentração para imprimir"
+   ]
+  },
+  "associação visual": {
+   "cls": "types",
+   "s": [
+    "associação visual",
+    "associação deficiente visual",
+    "associação comunicação visual",
+    "cortex de associação visual",
+    "área de associação visual função",
+    "jogos de associação visual",
+    "associação professores educação visual"
+   ]
+  },
+  "padrões": {
+   "cls": "types",
+   "s": [
+    "padrões",
+    "padrões respiratórios",
+    "padrões de beleza",
+    "padrões de projeto",
+    "padrões de comportamento",
+    "padrões geométricos",
+    "padrões sinonimo",
+    "padrões de herança genética",
+    "padrões de candlestick",
+    "padrões de beleza impostos pela sociedade"
+   ]
+  },
+  "padrões atividades": {
+   "cls": "types",
+   "s": [
+    "atividades padrões e sequências",
+    "atividades padrões geométricos",
+    "atividades padrões",
+    "padrões de atividades escoteiras",
+    "padrões de atividades escoteiras pdf",
+    "padrões silábicos atividades"
+   ]
+  },
+  "padrões para imprimir": {
+   "cls": "types",
+   "s": [
+    "padrões para imprimir",
+    "padrões silábicos para imprimir",
+    "padrões africanos para imprimir",
+    "padrões de candlestick para imprimir",
+    "padrões silabicos complexos para imprimir"
+   ]
+  },
+  "palavras de posição": {
+   "cls": "types",
+   "s": [
+    "palavras de posição",
+    "palavras posição da sílaba tônica",
+    "palavras de justaposição"
+   ]
+  },
+  "classificar por categorias": {
+   "cls": "types",
+   "s": [
+    "classificar significa organizar por categorias usando determinados critérios"
+   ]
+  },
+  "associação em ciências": {
+   "cls": "types",
+   "s": [
+    "associação internacional de estudantes em ciências econômicas e comerciais"
+   ]
+  },
+  "sons iniciais": {
+   "cls": "types",
+   "s": [
+    "sons iniciais das palavras",
+    "sons iniciais",
+    "sons iniciais wordwall",
+    "sons iniciais mediais e finais",
+    "sons iniciais e finais",
+    "atividade sons iniciais",
+    "bingo sons iniciais",
+    "atividade sons iniciais das palavras",
+    "bingo dos sons iniciais para imprimir",
+    "bingo dos sons iniciais pdf"
+   ]
+  },
+  "sons iniciais atividades": {
+   "cls": "types",
+   "s": [
+    "atividades sons iniciais",
+    "atividades sons iniciais das palavras"
+   ]
+  },
+  "sons iniciais para imprimir": {
+   "cls": "types",
+   "s": [
+    "bingo dos sons iniciais para imprimir"
+   ]
+  },
+  "conhecimento das letras": {
+   "cls": "types",
+   "s": [
+    "conhecimento das letras",
+    "conhecimento das letras do alfabeto",
+    "alfaletrar conhecimento das letras",
+    "conhecimento letras e fonemas",
+    "video alfaletrar conhecimento das letras",
+    "consciência fonológica e conhecimento das letras",
+    "três desenvolvimento psicogenético conhecimento das letras e consciência fonológica"
+   ]
+  },
+  "montagem de palavras": {
+   "cls": "types",
+   "s": [
+    "montagem de palavras",
+    "montagem de palavras para alfabetização",
+    "montagem de palavras com silabas",
+    "montagem de palavras com letras móveis",
+    "montagem de palavras cruzadas",
+    "montagem de palavras com letras",
+    "montagem de palavras simples",
+    "montagem de caça palavras",
+    "atividade montagem de palavras",
+    "wordwall montagem de palavras"
+   ]
+  },
+  "montagem de palavras atividades": {
+   "cls": "types",
+   "s": [
+    "atividades montagem de palavras"
+   ]
+  },
+  "vocabulário com figuras": {
+   "cls": "types",
+   "s": [
+    "vocabulario figuras",
+    "vocabulario figuras geometricas",
+    "vocabulario figuras geometricas en ingles"
+   ]
+  },
+  "consciência fonológica": {
+   "cls": "types",
+   "s": [
+    "consciência fonológica",
+    "consciência fonológica atividades",
+    "consciência fonológica educação infantil",
+    "consciência fonológica na alfabetização",
+    "consciência fonológica em crianças pequenas",
+    "consciência fonológica na educação infantil e no ciclo de alfabetização",
+    "consciência fonológica wordwall",
+    "consciência fonológica exemplos",
+    "consciência fonológica e fonêmica",
+    "consciência fonológica pdf"
+   ]
+  },
+  "consciência fonológica atividades": {
+   "cls": "types",
+   "s": [
+    "consciência fonológica atividades",
+    "consciência fonológica atividades pdf",
+    "consciência fonológica atividades 1 ano",
+    "consciência fonológica atividades práticas download",
+    "consciência fonológica atividades educação infantil",
+    "consciência fonológica atividades 2 ano",
+    "consciência fonológica atividades práticas",
+    "consciência fonológica atividades vogais",
+    "consciência fonologica atividades para imprimir",
+    "consciência fonológica atividades de aliteração"
+   ]
+  },
+  "consciência fonológica para imprimir": {
+   "cls": "types",
+   "s": [
+    "consciência fonológica para imprimir",
+    "alfabeto consciência fonológica para imprimir",
+    "consciência fonologica atividades para imprimir",
+    "jogo consciência fonológica para imprimir",
+    "fichas consciência fonologica para imprimir",
+    "apostila de consciência fonológica para imprimir grátis",
+    "apostila de consciência fonológica para imprimir",
+    "teste de consciência fonológica para imprimir",
+    "atividades de consciência fonológica para imprimir pdf",
+    "consciência fonológica alfabeto fonico para imprimir"
+   ]
+  },
+  "adição educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "adição educação infantil",
+    "adição educação infantil atividades",
+    "adição educação infantil para imprimir",
+    "adição educação infantil bncc",
+    "adição educação infantil objetivo",
+    "adição educação infantil plano de aula",
+    "adição simples educação infantil",
+    "atividade adição educação infantil 5 anos",
+    "wordwall adição educação infantil",
+    "adição ilustrada educação infantil"
+   ]
+  },
+  "adição pré-escola": {
+   "cls": "typeGrade",
+   "s": [
+    "adição pre escola",
+    "atividade adição pre escola",
+    "adição e subtração pre escola"
+   ]
+  },
+  "adição 1º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "adição 1o ano",
+    "adição 1o ano fundamental",
+    "adição 1o ano atividades"
+   ]
+  },
+  "adição 2º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "adição 2o ano",
+    "adição 2o ano fundamental",
+    "adição 2o ano atividades"
+   ]
+  },
+  "adição anos iniciais": {
+   "cls": "typeGrade",
+   "s": [
+    "adição anos iniciais",
+    "adição e subtração anos iniciais",
+    "adição com reserva anos iniciais",
+    "atividade de adição anos iniciais"
+   ]
+  },
+  "subtração educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "subtração educação infantil",
+    "subtração educação infantil 5 anos",
+    "subtração educação infantil atividades",
+    "atividade subtração educação infantil 5 anos",
+    "subtração simples educação infantil",
+    "musica subtração educação infantil",
+    "subtração ilustrada educação infantil",
+    "wordwall subtração educação infantil",
+    "continhas subtração educação infantil",
+    "jogo subtração educação infantil"
+   ]
+  },
+  "subtração pré-escola": {
+   "cls": "typeGrade",
+   "s": [
+    "subtração pre escolar",
+    "atividade subtração pre escola",
+    "adição e subtração pre escola"
+   ]
+  },
+  "subtração 1º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "subtração 1o ano",
+    "subtração 1o ano fundamental"
+   ]
+  },
+  "subtração 2º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "subtração 2o ano",
+    "subtração 2o ano fundamental",
+    "subtração 2o ano sem reserva"
+   ]
+  },
+  "subtração anos iniciais": {
+   "cls": "typeGrade",
+   "s": [
+    "subtração anos iniciais",
+    "adição e subtração anos iniciais"
+   ]
+  },
+  "mais ou menos educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "atividades mais ou menos educação infantil",
+    "mais menos educação infantil"
+   ]
+  },
+  "atividade de matemática educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "atividade de matematica educação infantil",
+    "atividade de matemática educação infantil 5",
+    "atividade de matemática educação infantil 4 anos",
+    "atividade de matematica educação infantil 5 anos",
+    "atividade de matemática educação infantil pré 1",
+    "atividade de matemática educação infantil 2 anos",
+    "atividade de matemática educação infantil números e quantidades",
+    "atividade de matemática educação infantil para imprimir",
+    "atividade de matemática educação infantil números",
+    "atividade de matemática educação infantil pré 2"
+   ]
+  },
+  "atividade de matemática pré-escola": {
+   "cls": "typeGrade",
+   "s": [
+    "atividade de matemática pré-escolar",
+    "atividade de matemática pré escola",
+    "atividade de matemática para pré escola 2",
+    "pré escolar atividade de matematica educação infantil sequencia numerica",
+    "pré escolar atividade de matemática para educação infantil 5 anos"
+   ]
+  },
+  "atividade de matemática 1º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "atividade de matemática 1o ano",
+    "atividade de matemática 1o ano ensino fundamental",
+    "atividade de matemática 1o ano adição",
+    "atividade de matemática 1o ano para imprimir",
+    "atividade de matemática 1o ano adição e subtração",
+    "atividade de matemática 1o ano números",
+    "atividade de matemática 1o ano sequência numérica",
+    "atividade de matemática 1o ano subtração",
+    "atividade de matemática 1o ano tudo sala de aula",
+    "atividade de matemática 1o ano alfabetização"
+   ]
+  },
+  "atividade de matemática 2º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "atividade de matemática 2o ano",
+    "atividade de matemática 2o ano fundamental",
+    "atividade de matemática 2o ano adição e subtração",
+    "atividade de matemática 2o ano adição",
+    "atividade de matemática 2o ano tudo sala de aula",
+    "atividade de matemática 2o ano subtração",
+    "atividade de matemática 2o ano para imprimir",
+    "atividade de matemática 2o ano fundamental 1",
+    "atividade de matemática 2o ano ordem crescente e decrescente",
+    "atividade de matemática 2o ano números ordinais"
+   ]
+  },
+  "atividade de matemática anos iniciais": {
+   "cls": "typeGrade",
+   "s": [
+    "atividade de matemática anos iniciais",
+    "atividade de matemática anos iniciais tudo sala de aula",
+    "atividade de matematica eja anos iniciais",
+    "atividade de matematica 1 ano anos iniciais",
+    "atividade de matematica 2 ano anos iniciais",
+    "atividade de matemática 3 ano anos iniciais"
+   ]
+  },
+  "grande ou pequeno educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "grande ou pequeno educação infantil",
+    "atividade grande ou pequeno educação infantil",
+    "grande pequeno educação infantil"
+   ]
+  },
+  "bingo educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo educação infantil",
+    "bingo educação infantil para imprimir",
+    "bingo educação infantil numeros",
+    "bingo educação infantil objetivos",
+    "bingo educação infantil pdf",
+    "bingo educação infantil 4 anos",
+    "bingo junino educação infantil",
+    "bingo alfabeto educação infantil",
+    "bingo natalino educação infantil",
+    "bingo letras educação infantil"
+   ]
+  },
+  "bingo pré-escola": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo pre escolar"
+   ]
+  },
+  "bingo anos iniciais": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo anos iniciais"
+   ]
+  },
+  "pareamento educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "pareamento educação infantil",
+    "pareamento educação infantil bncc",
+    "atividade pareamento educação infantil",
+    "pareamento significado educação infantil",
+    "objetivo pareamento educação infantil",
+    "wordwall pareamento educação infantil",
+    "pareamento de cores educação infantil",
+    "pareamento de letras educação infantil",
+    "pareamento de números educação infantil",
+    "pareamento de sombras educação infantil"
+   ]
+  },
+  "pareamento de sombras educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "pareamento de sombras educação infantil",
+    "atividade pareamento de sombras educação infantil",
+    "objetivo de trabalhar pareamento de sombras na educação infantil"
+   ]
+  },
+  "caça-palavras educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "caça-palavras educação infantil",
+    "caça palavras educação infantil para imprimir",
+    "atividade caça palavras educação infantil",
+    "objetivo caça palavras educação infantil",
+    "caça palavras folclore educação infantil",
+    "caça palavras facil educação infantil",
+    "caça palavras junino educação infantil",
+    "caça palavras pascoa educação infantil",
+    "caça palavras primavera educação infantil",
+    "caça palavras natal educação infantil"
+   ]
+  },
+  "caça-palavras pré-escola": {
+   "cls": "typeGrade",
+   "s": [
+    "caça palavras pre escola"
+   ]
+  },
+  "caça-palavras 1º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "caça-palavras 1o ano"
+   ]
+  },
+  "caça-palavras 2º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "caça-palavras 2o ano"
+   ]
+  },
+  "caça-palavras anos iniciais": {
+   "cls": "typeGrade",
+   "s": [
+    "caça palavras anos iniciais",
+    "caça palavras para imprimir anos iniciais"
+   ]
+  },
+  "palavras cruzadas educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "palavras cruzadas educação infantil",
+    "palavras cruzadas para imprimir educação infantil"
+   ]
+  },
+  "palavras cruzadas 1º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "palavras cruzadas 1o ano"
+   ]
+  },
+  "palavras cruzadas 2º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "palavras cruzadas 2o ano"
+   ]
+  },
+  "encontre os objetos educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "encontre os objetos escondidos educação infantil"
+   ]
+  },
+  "caça ao tesouro educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "caça ao tesouro educação infantil",
+    "caça ao tesouro educação infantil bncc",
+    "caça ao tesouro educação infantil para imprimir",
+    "caça ao tesouro educação infantil objetivo",
+    "caça ao tesouro educação infantil 5 anos",
+    "caça ao tesouro educação infantil pdf",
+    "caça ao tesouro educação infantil pistas",
+    "atividade caça ao tesouro educação infantil",
+    "brincadeira caça ao tesouro educação infantil",
+    "caça ao tesouro literário educação infantil"
+   ]
+  },
+  "caça ao tesouro pré-escola": {
+   "cls": "typeGrade",
+   "s": [
+    "caça ao tesouro pré escolar"
+   ]
+  },
+  "quadro de dez educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "quadro de educação infantil"
+   ]
+  },
+  "quadro numérico educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "quadro numérico educação infantil",
+    "atividades com quadro numérico educação infantil"
+   ]
+  },
+  "reta numérica educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "reta numérica educação infantil",
+    "atividade reta numerica educação infantil",
+    "reta numérica para imprimir educação infantil",
+    "reta numérica 3 ano educação infantil",
+    "reta numérica 2 ano educação infantil"
+   ]
+  },
+  "reta numérica 1º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "reta numérica 1o ano"
+   ]
+  },
+  "reta numérica 2º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "reta numérica 2o ano",
+    "reta numérica 2o ano fundamental"
+   ]
+  },
+  "valor posicional educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "valor posicional educação infantil"
+   ]
+  },
+  "valor posicional 1º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "valor posicional 1o ano"
+   ]
+  },
+  "valor posicional 2º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "valor posicional 2o ano"
+   ]
+  },
+  "ver as horas educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "as horas educação infantil"
+   ]
+  },
+  "frações educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "frações educação infantil"
+   ]
+  },
+  "frações 2º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "frações 2o ano"
+   ]
+  },
+  "frações anos iniciais": {
+   "cls": "typeGrade",
+   "s": [
+    "frações anos iniciais ensino fundamental",
+    "frações anos iniciais"
+   ]
+  },
+  "multiplicação educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "multiplicação educação infantil",
+    "multiplicação educação infantil atividades",
+    "atividade multiplicação para educação infantil",
+    "multiplicação por 2 para educação infantil",
+    "plano de aula multiplicação educação infantil"
+   ]
+  },
+  "multiplicação 1º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "multiplicação 1o ano"
+   ]
+  },
+  "multiplicação 2º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "multiplicação 2o ano",
+    "multiplicação 2o ano fundamental"
+   ]
+  },
+  "multiplicação anos iniciais": {
+   "cls": "typeGrade",
+   "s": [
+    "multiplicação anos iniciais",
+    "atividades multiplicação anos iniciais"
+   ]
+  },
+  "geometria educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "geometria educação infantil",
+    "geometria educação infantil atividades",
+    "formas geometria educação infantil",
+    "geometria espacial educação infantil",
+    "geometria plana educação infantil",
+    "atividade formas geometria educação infantil",
+    "noções de geometria educação infantil",
+    "atividade sobre geometria educação infantil",
+    "objetivo geometria na educação infantil",
+    "plano de aula geometria educação infantil"
+   ]
+  },
+  "geometria pré-escola": {
+   "cls": "typeGrade",
+   "s": [
+    "geometria pre escolar"
+   ]
+  },
+  "geometria 1º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "geometria 1o ano"
+   ]
+  },
+  "geometria 2º ano": {
+   "cls": "typeGrade",
+   "s": [
+    "geometria 2o ano",
+    "geometria 2o ano fundamental"
+   ]
+  },
+  "geometria anos iniciais": {
+   "cls": "typeGrade",
+   "s": [
+    "geometria anos iniciais",
+    "geometria anos iniciais atividades",
+    "bncc geometria anos iniciais",
+    "geometria nos anos iniciais do ensino fundamental",
+    "geometria nos anos iniciais possíveis conexões teóricas e práticas"
+   ]
+  },
+  "medidas educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "medidas educação infantil",
+    "atividade medidas educação infantil",
+    "medidas comprimento educação infantil",
+    "medidas arbitrárias educação infantil",
+    "projeto medidas educação infantil",
+    "minhas medidas educação infantil",
+    "grandezas e medidas educação infantil",
+    "medidas de tempo educação infantil",
+    "medidas de capacidade educação infantil",
+    "medidas de massa educação infantil"
+   ]
+  },
+  "medidas pré-escola": {
+   "cls": "typeGrade",
+   "s": [
+    "medidas universais pré escolar",
+    "medidas seletivas pre escolar"
+   ]
+  },
+  "medidas anos iniciais": {
+   "cls": "typeGrade",
+   "s": [
+    "grandezas e medidas anos iniciais",
+    "medidas de comprimento anos iniciais"
+   ]
+  },
+  "discriminação visual educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "discriminação visual educação infantil",
+    "atividades discriminação visual educação infantil",
+    "discriminação visual e auditiva na educação infantil",
+    "plano de aula discriminação visual educação infantil",
+    "como trabalhar discriminação visual na educação infantil",
+    "objetivo de trabalhar discriminação visual na educação infantil"
+   ]
+  },
+  "padrões educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "padrões de qualidade da educação infantil paulistana",
+    "padrões de qualidade da educação infantil"
+   ]
+  },
+  "padrões pré-escola": {
+   "cls": "typeGrade",
+   "s": [
+    "padrões pre escolar",
+    "padrões matemáticos no pré escolar"
+   ]
+  },
+  "palavras de posição educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "palavras de educação infantil"
+   ]
+  },
+  "sons iniciais educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "atividades de sons iniciais educação infantil"
+   ]
+  },
+  "consciência fonológica educação infantil": {
+   "cls": "typeGrade",
+   "s": [
+    "consciência fonológica educação infantil",
+    "consciência fonológica educação infantil atividades",
+    "consciência fonológica educação infantil 5 anos",
+    "consciência fonológica educação infantil pdf",
+    "consciência fonológica educação infantil livro",
+    "consciência fonológica na educação infantil e no ciclo de alfabetização",
+    "consciência fonológica na educação infantil bncc",
+    "brincadeiras consciência fonológica educação infantil",
+    "jogo consciência fonológica educação infantil",
+    "consciência fonológica na educação infantil artur gomes de morais pdf"
+   ]
+  },
+  "consciência fonológica pré-escola": {
+   "cls": "typeGrade",
+   "s": [
+    "consciência fonológica na pré escola",
+    "consciência fonológica e linguagem escrita em pré escolares",
+    "atividades consciência fonológica pré escolar",
+    "wordwall consciencia fonologica pre escolar"
+   ]
+  },
+  "4 de julho atividades": {
+   "cls": "themes",
+   "s": [
+    "4 de julho atividades",
+    "atividades sobre 4 de julho"
+   ]
+  },
+  "acessórios atividades": {
+   "cls": "themes",
+   "s": [
+    "termos acessórios atividades",
+    "acessorios para atividades físicas"
+   ]
+  },
+  "atividades atividades": {
+   "cls": "themes",
+   "s": [
+    "atividades atividades",
+    "atividades atividades de matemática",
+    "atividades atividades de alfabetização",
+    "atividades atividades de português",
+    "atividades atividades para imprimir",
+    "atividades atividades econômicas",
+    "atividades atividades sobre",
+    "atividades atividades para",
+    "atividades atividades para crianças",
+    "atividades minhas atividades"
+   ]
+  },
+  "animais atividades": {
+   "cls": "themes",
+   "s": [
+    "animais atividades",
+    "animais atividades 3 ano",
+    "animais atividades educação infantil",
+    "animais atividades em ingles",
+    "animais atividades 2 ano",
+    "animais atividades 1 ano",
+    "animais atividades 4 ano",
+    "animais atividades ludicas",
+    "atividades animais vertebrados e invertebrados",
+    "atividades animais vertebrados e invertebrados 3 ano"
+   ]
+  },
+  "padaria atividades": {
+   "cls": "themes",
+   "s": [
+    "atividades padaria",
+    "atendente de padaria atividades",
+    "padaria marengo encerra atividades",
+    "auxiliar de padaria atividades",
+    "balconista de padaria atividades"
+   ]
+  },
+  "praia atividades": {
+   "cls": "themes",
+   "s": [
+    "praia atividades",
+    "atividades praia grande",
+    "atividades praia do forte",
+    "atividades praia do rosa",
+    "atividades praia de icarai",
+    "atividades praia do gunga",
+    "atividades praia educação infantil",
+    "volei de praia atividades",
+    "praia do frances atividades",
+    "atividades praia da rocha"
+   ]
+  },
+  "pássaros atividades": {
+   "cls": "themes",
+   "s": [
+    "atividades passaros educação infantil",
+    "atividades passaros"
+   ]
+  },
+  "partes do corpo atividades": {
+   "cls": "themes",
+   "s": [
+    "partes do corpo atividades",
+    "partes do corpo atividades 1 ano",
+    "partes do corpo atividades educação infantil",
+    "partes do corpo atividades 2 ano",
+    "partes do corpo humano atividades",
+    "partes do corpo humano atividades 1 ano",
+    "partes do corpo ingles atividades",
+    "partes do corpo humano atividades 2 ano",
+    "partes do corpo humano atividades 5 ano",
+    "partes do corpo humano atividades para educação infantil"
+   ]
+  },
+  "café da manhã atividades": {
+   "cls": "themes",
+   "s": [
+    "café da manhã em inglês atividades"
+   ]
+  },
+  "acampamento atividades": {
+   "cls": "themes",
+   "s": [
+    "acampamento atividades",
+    "atividades acampamento meio sangue",
+    "acampamento desbravadores atividades"
+   ]
+  },
+  "natal atividades": {
+   "cls": "themes",
+   "s": [
+    "natal atividades educação infantil",
+    "natal atividades",
+    "natal atividades 1 ano",
+    "natal atividades 3 ano",
+    "natal atividades para imprimir",
+    "natal atividades 4 ano",
+    "natal atividades 2 ano",
+    "natal atividades 5 ano",
+    "natal atividades maternal",
+    "natal atividades ludicas"
+   ]
+  },
+  "sala de aula atividades": {
+   "cls": "themes",
+   "s": [
+    "sala de aula atividades",
+    "sala de aula atividades 4 ano",
+    "sala de aula atividades 1 ano",
+    "sala de aula atividades 2 ano",
+    "sala de aula atividades 3 ano",
+    "sala de aula atividades 5 ano",
+    "tudo sala de aula atividades",
+    "tudo sala de aula atividades adaptadas para alunos especiais",
+    "site sala de aula atividades",
+    "tudo sala de aula atividades sobre"
+   ]
+  },
+  "roupas atividades": {
+   "cls": "themes",
+   "s": [
+    "roupas atividades fisicas",
+    "roupas atividades",
+    "atividades roupas em ingles",
+    "atividades roupas de inverno educação infantil",
+    "atividades roupas e acessorios em ingles",
+    "atividades roupas em espanhol",
+    "atividades roupas educação infantil",
+    "atividades roupas de inverno",
+    "roupas para atividades ao ar livre"
+   ]
+  },
+  "cores atividades": {
+   "cls": "themes",
+   "s": [
+    "cores atividades",
+    "cores atividades educação infantil",
+    "cores atividades em ingles",
+    "cores atividades de arte",
+    "atividades cores primárias educação infantil",
+    "atividades cores maternal 2",
+    "atividades cores primarias",
+    "atividades cores primárias e secundárias 6o ano com gabarito",
+    "atividades cores primárias e secundárias 6o ano",
+    "atividades cores maternal 1"
+   ]
+  },
+  "dinossauros atividades": {
+   "cls": "themes",
+   "s": [
+    "dinossauros atividades",
+    "dinossauros atividades educação infantil",
+    "atividades dinossauros alfabetização",
+    "atividades dinossauros para imprimir",
+    "atividades dinossauros 1 ano",
+    "atividades dinossauros 2 ano",
+    "atividades dinossauros 5o ano",
+    "365 atividades dinossauros",
+    "dinossauros livro com atividades e desenhos para colorir",
+    "dinossauros livro de atividades"
+   ]
+  },
+  "páscoa atividades": {
+   "cls": "themes",
+   "s": [
+    "páscoa atividades",
+    "páscoa atividades para imprimir",
+    "pascoa atividades educação infantil",
+    "páscoa atividades 3 ano",
+    "páscoa atividades 1 ano",
+    "páscoa atividades lúdicas",
+    "pascoa atividades 2 ano",
+    "pascoa atividades 5 ano",
+    "pascoa atividades 4 ano",
+    "pascoa atividades on line"
+   ]
+  },
+  "emoções atividades": {
+   "cls": "themes",
+   "s": [
+    "emoções atividades",
+    "emoções atividades educação infantil",
+    "emoções atividades 1 ano",
+    "emoções atividades pdf",
+    "atividades emoções e sentimentos",
+    "atividades emoções psicologia",
+    "atividades emoções divertidamente",
+    "atividades emoções wordwall",
+    "atividades emoções e sentimentos educação infantil",
+    "atividades emoções 3 ano fundamental"
+   ]
+  },
+  "animais da fazenda atividades": {
+   "cls": "themes",
+   "s": [
+    "animais da fazenda atividades",
+    "animais da fazenda em inglês atividades",
+    "atividades animais da fazenda educação infantil",
+    "atividades animais da fazenda educação infantil 4 anos",
+    "atividades animais da fazenda para berçário",
+    "atividades animais da fazenda 3 ano",
+    "atividades animais da fazenda 1 ano",
+    "atividades animais da fazenda maternal",
+    "atividades projeto animais da fazenda educação infantil",
+    "atividades ludicas animais da fazenda"
+   ]
+  },
+  "flores atividades": {
+   "cls": "themes",
+   "s": [
+    "flores atividades",
+    "atividades flores educação infantil",
+    "atividades flores da primavera",
+    "atividades flores e frutos",
+    "atividades flores para colorir",
+    "ilha das flores atividades"
+   ]
+  },
+  "frutas atividades": {
+   "cls": "themes",
+   "s": [
+    "frutas atividades",
+    "frutas atividades educação infantil",
+    "frutas atividades em ingles",
+    "frutas atividades infantil",
+    "atividades frutas em inglês para imprimir",
+    "atividades frutas em inglês 2 ano",
+    "atividades frutas em ingles 1 ano fundamental",
+    "atividades frutas em ingles 3 ano",
+    "atividades frutas em ingles educação infantil",
+    "atividades frutas e verduras educação infantil"
+   ]
+  },
+  "móveis atividades": {
+   "cls": "themes",
+   "s": [
+    "atividades moveis em ingles",
+    "letras moveis atividades",
+    "montador de moveis atividades"
+   ]
+  },
+  "hospital atividades": {
+   "cls": "themes",
+   "s": [
+    "hospital das palavras atividades"
+   ]
+  },
+  "utensílios de cozinha atividades": {
+   "cls": "themes",
+   "s": [
+    "atividades sobre utensílios de cozinha em inglês",
+    "atividades com utensilios de cozinha"
+   ]
+  },
+  "diversos atividades": {
+   "cls": "themes",
+   "s": [
+    "atividades diversos"
+   ]
+  },
+  "música atividades": {
+   "cls": "themes",
+   "s": [
+    "musica atividades",
+    "musica atividades de arte",
+    "musica atividades educação infantil",
+    "atividades musica dona aranha educação infantil",
+    "atividades musica borboletinha educação infantil",
+    "atividades musica aquarela",
+    "atividades música índios legião urbana",
+    "atividades musica peixe vivo educação infantil",
+    "atividades música cai cai balão educação infantil",
+    "atividades música aquarela educação infantil"
+   ]
+  },
+  "profissões atividades": {
+   "cls": "themes",
+   "s": [
+    "profissões atividades",
+    "profissões atividades educação infantil",
+    "profissões atividades 2 ano",
+    "profissões atividades 3 ano",
+    "profissões atividades 4 ano",
+    "profissoes atividades 1 ano",
+    "atividades profissões antigas e atuais",
+    "atividades profissoes ed infantil",
+    "atividades profissões em inglês 8o ano",
+    "atividades profissões em inglês"
+   ]
+  },
+  "vida marinha atividades": {
+   "cls": "themes",
+   "s": [
+    "atividades vida marinha"
+   ]
+  },
+  "animais de estimação atividades": {
+   "cls": "themes",
+   "s": [
+    "animais de estimação atividades",
+    "animais de estimação em inglês atividades",
+    "atividades animais de estimação educação infantil",
+    "atividades animais de estimação 1 ano",
+    "atividades sobre animais de estimação",
+    "atividades sobre animais de estimação 2o ano",
+    "atividades sobre animais de estimação 3 ano"
+   ]
+  },
+  "correios atividades": {
+   "cls": "themes",
+   "s": [
+    "atividades correios",
+    "correios encerra atividades",
+    "correios gerência de atividades externas"
+   ]
+  },
+  "répteis e anfíbios atividades": {
+   "cls": "themes",
+   "s": [
+    "atividades repteis e anfibios"
+   ]
+  },
+  "formas atividades": {
+   "cls": "themes",
+   "s": [
+    "formas atividades",
+    "atividades formas geométricas educação infantil",
+    "atividades formas geométricas",
+    "atividades formas geométricas educação infantil 4 anos",
+    "atividades formas nominais do verbo infinitivo gerúndio e particípio",
+    "atividades formas geometricas 1 ano",
+    "atividades formas geométricas 2 ano",
+    "atividades formas geométricas 3 ano",
+    "atividades formas geométricas 2 ano fundamental acessaber",
+    "atividades formas geométricas educação infantil pdf"
+   ]
+  },
+  "espaço atividades": {
+   "cls": "themes",
+   "s": [
+    "espaço atividades educação infantil",
+    "espaço atividades",
+    "atividades espaço tempo quantidade relações e transformações na educação infantil",
+    "atividades espaço infantil ccb",
+    "atividades espaço tempo quantidade relações e transformações",
+    "atividades espaço publico e privado 3 ano fundamental",
+    "atividades espaço publico e privado",
+    "atividades espaço geografico 6 ano",
+    "atividades espaço rural e urbano",
+    "atividades espaço público e privado 1 ano"
+   ]
+  },
+  "primavera atividades": {
+   "cls": "themes",
+   "s": [
+    "primavera atividades",
+    "primavera atividades para educação infantil",
+    "primavera atividades 2 ano",
+    "primavera atividades 1 ano",
+    "primavera atividades 3 ano",
+    "primavera atividades ludicas",
+    "primavera atividades 4 ano",
+    "primavera atividades maternal",
+    "primavera atividades para imprimir",
+    "primavera atividades infantil"
+   ]
+  },
+  "verão atividades": {
+   "cls": "themes",
+   "s": [
+    "verão atividades para educação infantil",
+    "verão atividades",
+    "atividades verão educação infantil",
+    "atividades verao 2025",
+    "atividades verão crianças",
+    "atividades verão pré escolar",
+    "atividades verão creche",
+    "atividades verão lisboa",
+    "atividades verao norte portugal",
+    "ferias de verao atividades"
+   ]
+  },
+  "dia de ação de graças atividades": {
+   "cls": "themes",
+   "s": [
+    "dia de ação de graças atividades escolares",
+    "dia de ação de graças atividades",
+    "atividades dia de ação de graças para imprimir",
+    "gratidão atividades dia de ação de graças para imprimir",
+    "atividades para o dia de ação de graças na escola",
+    "atividades para o dia de ação de graças educação infantil",
+    "sugestão de atividades para o dia de ação de graças"
+   ]
+  },
+  "ferramentas atividades": {
+   "cls": "themes",
+   "s": [
+    "atividades ferramentas para mundo do trabalho",
+    "ferramentas para gerenciar atividades",
+    "ferramentas para criar atividades"
+   ]
+  },
+  "brinquedos atividades": {
+   "cls": "themes",
+   "s": [
+    "brinquedos atividades",
+    "brinquedos atividades para bebês",
+    "brinquedos atividades sensoriais",
+    "brinquedos atividades 1 ano",
+    "atividades brinquedos e brincadeiras",
+    "atividades brinquedos e brincadeiras 1 ano",
+    "atividades brinquedos e brincadeiras educação infantil",
+    "atividades brinquedos em ingles",
+    "atividades brinquedos antigos e atuais",
+    "atividades brinquedos e brincadeiras 2 ano"
+   ]
+  },
+  "árvores atividades": {
+   "cls": "themes",
+   "s": [
+    "árvores atividades meio ambiente educação infantil colagem",
+    "arvores atividades",
+    "atividades arvores educação infantil",
+    "atividades arvores frutiferas",
+    "árvores filogenéticas atividades",
+    "atividades dia da árvore"
+   ]
+  },
+  "vegetais atividades": {
+   "cls": "themes",
+   "s": [
+    "vegetais atividades",
+    "atividades vegetais educação infantil",
+    "atividades vegetais em ingles",
+    "atividades vegetais 3 ano fundamental",
+    "atividades vegetais na alimentação",
+    "atividades vegetais 2 ano"
+   ]
+  },
+  "clima atividades": {
+   "cls": "themes",
+   "s": [
+    "clima atividades",
+    "clima atividades 4 ano",
+    "clima atividades 3 ano",
+    "clima atividades 6 ano",
+    "atividades clima e tempo",
+    "atividades clima do brasil",
+    "atividades clima e tempo 8 ano",
+    "atividades clima do brasil 4 ano",
+    "atividades clima e vegetação 4 ano",
+    "atividades clima e tempo 6 ano"
+   ]
+  },
+  "inverno atividades": {
+   "cls": "themes",
+   "s": [
+    "inverno atividades educação infantil",
+    "inverno atividades",
+    "inverno atividades creche",
+    "inverno atividades pré escolar",
+    "atividades inverno 2 ano",
+    "atividades inverno 1 ano",
+    "atividades inverno maternal",
+    "atividades inverno berçário",
+    "atividades inverno maternal 2",
+    "atividades inverno maternal 1"
+   ]
+  },
+  "animais do zoológico atividades": {
+   "cls": "themes",
+   "s": [
+    "animais do zoológico em inglês atividades",
+    "atividades animais do zoologico educação infantil",
+    "atividades sobre animais do zoológico"
+   ]
+  },
+  "matemática educação infantil atividades": {
+   "cls": "subjects",
+   "s": [
+    "matematica educação infantil atividades",
+    "matematica educação infantil atividades de alfabetização",
+    "atividades matematica educação infantil 5 anos",
+    "atividades matematica educação infantil 4 anos",
+    "atividades matematica educação infantil sequencia numerica ate 20",
+    "atividades matematica educação infantil para imprimir",
+    "linguagem matemática na educação infantil atividades",
+    "atividades matematica educação infantil 5 anos para imprimir",
+    "atividades matematica educação infantil sequencia numerica ate 30",
+    "atividades matematica educação infantil 3 anos"
+   ]
+  },
+  "matemática pré-escola atividades": {
+   "cls": "subjects",
+   "s": [
+    "atividades matemática pré escola para imprimir",
+    "atividades matematica pre escola"
+   ]
+  },
+  "matemática 1º ano atividades": {
+   "cls": "subjects",
+   "s": [
+    "matemática 1o ano atividades"
+   ]
+  },
+  "matemática 2º ano atividades": {
+   "cls": "subjects",
+   "s": [
+    "matemática 2o ano atividades"
+   ]
+  },
+  "matemática anos iniciais atividades": {
+   "cls": "subjects",
+   "s": [
+    "matemática anos iniciais atividades",
+    "atividades de matematica anos iniciais para imprimir",
+    "atividades de matemática anos iniciais tudosaladeaula"
+   ]
+  },
+  "português educação infantil atividades": {
+   "cls": "subjects",
+   "s": [
+    "portugues educação infantil atividades"
+   ]
+  },
+  "português pré-escola atividades": {
+   "cls": "subjects",
+   "s": [
+    "atividades portugues pre escola",
+    "atividades de portugues pré escola para imprimir"
+   ]
+  },
+  "português anos iniciais atividades": {
+   "cls": "subjects",
+   "s": [
+    "atividades portugues anos iniciais",
+    "atividades de portugues anos iniciais do ensino fundamental"
+   ]
+  },
+  "ciências educação infantil atividades": {
+   "cls": "subjects",
+   "s": [
+    "ciencias educação infantil atividades",
+    "atividades ciencias educação infantil para imprimir",
+    "atividades de ciencias educação infantil 5 anos",
+    "atividades de ciencias educação infantil alimentação saudavel",
+    "atividades feira de ciencias educação infantil",
+    "atividades ciências humanas educação infantil",
+    "atividades educação infantil ciencias da natureza",
+    "atividades laboratorio de ciencias educação infantil",
+    "atividades ciencias sociais educação infantil"
+   ]
+  },
+  "ciências pré-escola atividades": {
+   "cls": "subjects",
+   "s": [
+    "atividades de ciencias pre escola"
+   ]
+  },
+  "ciências anos iniciais atividades": {
+   "cls": "subjects",
+   "s": [
+    "atividades ciencias anos iniciais"
+   ]
+  },
+  "raciocínio lógico educação infantil atividades": {
+   "cls": "subjects",
+   "s": [
+    "atividades raciocinio logico educação infantil",
+    "psicopedagogia atividades raciocinio logico educação infantil",
+    "atividades raciocinio logico matematica educação infantil",
+    "atividades de raciocinio logico para educação infantil para imprimir",
+    "atividades para trabalhar raciocinio logico na educação infantil"
+   ]
+  },
+  "percepção visual educação infantil atividades": {
+   "cls": "subjects",
+   "s": [
+    "percepção visual na educação infantil atividades",
+    "atividades percepção visual educação infantil wordwall",
+    "atividades de percepção visual para educação infantil para imprimir"
+   ]
+  },
+  "atividades de matemática educação infantil": {
+   "cls": "subjects",
+   "s": [
+    "atividades de matematica educação infantil",
+    "atividades de matemática educação infantil 5 anos",
+    "atividades de matemática educação infantil 4 anos",
+    "atividades de matemática educação infantil para imprimir",
+    "atividades de matemática educação infantil 3 anos",
+    "atividades de matemática educação infantil pdf",
+    "atividades de matemática educação infantil 5 anos para imprimir",
+    "atividades de matemática educação infantil festa junina",
+    "atividades de matemática educação infantil 2 anos",
+    "atividades de matemática educação infantil 5 anos pdf"
+   ]
+  },
+  "atividades de matemática pré-escola": {
+   "cls": "subjects",
+   "s": [
+    "atividades de matematica pre escolar",
+    "atividades de matematica pré escola para imprimir"
+   ]
+  },
+  "atividades de matemática 1º ano": {
+   "cls": "subjects",
+   "s": [
+    "atividades de matemática 1o ano",
+    "atividades de matemática 1o ano fundamental",
+    "atividades de matemática 1o ano para imprimir",
+    "atividades de matemática 1o ano do ensino fundamental",
+    "atividades de matemática 1o ano adição",
+    "atividades de matemática 1o ano subtração",
+    "atividades de matemática 1o ano adição e subtração",
+    "atividades de matemática 1o ano ordem crescente e decrescente"
+   ]
+  },
+  "atividades de matemática 2º ano": {
+   "cls": "subjects",
+   "s": [
+    "atividades de matemática 2o ano",
+    "atividades de matemática 2o ano fundamental",
+    "atividades de matemática 2o ano para imprimir",
+    "atividades de matemática 2o ano fundamental para imprimir",
+    "atividades de matemática 2o ano adição e subtração",
+    "atividades de matemática 2o ano tudo sala de aula",
+    "atividades de matemática 2o ano adição",
+    "atividades de matemática 2o ano ordem crescente e decrescente"
+   ]
+  },
+  "atividades de matemática anos iniciais": {
+   "cls": "subjects",
+   "s": [
+    "atividades de matemática anos iniciais",
+    "atividades de matematica anos iniciais para imprimir",
+    "atividades de matemática anos iniciais tudosaladeaula",
+    "atividades de matematica eja anos iniciais",
+    "atividades de matemática para anos iniciais do ensino fundamental",
+    "atividades de matemática 2 ano anos iniciais",
+    "atividades de matemática 1 ano anos iniciais"
+   ]
+  },
+  "atividades de português educação infantil": {
+   "cls": "subjects",
+   "s": [
+    "atividades de portugues educação infantil",
+    "atividades de educação infantil",
+    "atividades de educação infantil para imprimir",
+    "atividades de educação infantil 5 anos",
+    "atividades de educação infantil 4 anos",
+    "atividades de educação infantil festa junina",
+    "atividades de educação infantil matemática",
+    "atividades de educação infantil coordenação motora",
+    "atividades de educação infantil alfabeto",
+    "atividades de educação infantil vogais"
+   ]
+  },
+  "atividades de português pré-escola": {
+   "cls": "subjects",
+   "s": [
+    "atividades de portugues pre escolar",
+    "atividades de portugues pré escola para imprimir",
+    "atividades de pre escolar",
+    "atividades de pré escola para imprimir",
+    "atividades de pré escola 5 anos",
+    "atividades de pré escola 4 anos"
+   ]
+  },
+  "atividades de português 1º ano": {
+   "cls": "subjects",
+   "s": [
+    "atividades de português 1o ano",
+    "atividades de português 1o ano fundamental",
+    "atividades de português 1o ano para imprimir"
+   ]
+  },
+  "atividades de português 2º ano": {
+   "cls": "subjects",
+   "s": [
+    "atividades de português 2o ano",
+    "atividades de português 2o ano fundamental"
+   ]
+  },
+  "atividades de português anos iniciais": {
+   "cls": "subjects",
+   "s": [
+    "atividades de português anos iniciais",
+    "atividades de portugues anos iniciais do ensino fundamental",
+    "atividades de portugues eja anos iniciais",
+    "atividades de anos iniciais"
+   ]
+  },
+  "exercícios de educação infantil": {
+   "cls": "subjects",
+   "s": [
+    "exercícios de educação infantil",
+    "exercícios de psicomotricidade educação infantil",
+    "exercícios de educação física infantil",
+    "exercicios de matematica educação infantil para imprimir",
+    "exercícios de matemática educação infantil",
+    "exercicios de portugues educação infantil para imprimir",
+    "exercícios de português educação infantil",
+    "exercícios educação infantil 4 anos",
+    "exercícios educação infantil 5 anos",
+    "exercicios educação infantil para imprimir"
+   ]
+  },
+  "exercícios de pré-escola": {
+   "cls": "subjects",
+   "s": [
+    "exercícios de pré escolar",
+    "exercicios de matemática pré escolar",
+    "exercicios pré escolar 5 anos",
+    "exercicios pré escola imprimir",
+    "exercícios pré escolar 4 anos",
+    "exercícios pré escolar 5 anos para imprimir",
+    "exercícios pré escolar 6 anos",
+    "exercícios pré escolar 3 anos",
+    "exercícios de educação física pré escolar"
+   ]
+  },
+  "exercícios de 1º ano": {
+   "cls": "subjects",
+   "s": [
+    "exercícios de 1o ano"
+   ]
+  },
+  "exercícios de 2º ano": {
+   "cls": "subjects",
+   "s": [
+    "exercícios de 2o ano"
+   ]
+  },
+  "exercícios de anos iniciais": {
+   "cls": "subjects",
+   "s": [
+    "exercicios de matematica anos iniciais",
+    "exercicios anos iniciais"
+   ]
+  },
+  "jogos online": {
+   "cls": "online",
+   "s": [
+    "jogos online",
+    "jogos online grátis",
+    "jogos online poki",
+    "jogos online para pc",
+    "jogos online infantil",
+    "jogos online grátis poki",
+    "jogos online gratis pc",
+    "jogos online do google",
+    "jogos online para jogar com amigos",
+    "jogos online para meninas"
+   ]
+  },
+  "jogos online educação infantil": {
+   "cls": "online",
+   "s": [
+    "jogos online educação infantil",
+    "jogos online educação infantil gratis",
+    "jogos online educação infantil wordwall",
+    "jogos online educação infantil 4 anos",
+    "jogos online vogais educação infantil",
+    "jogos online alfabetização educação infantil",
+    "jogos educativos online educação infantil",
+    "jogos online folclore educação infantil",
+    "jogos online numeros educação infantil",
+    "jogos online educação financeira infantil"
+   ]
+  },
+  "jogos online pré-escola": {
+   "cls": "online",
+   "s": [
+    "jogos online pre escola",
+    "jogos educativos online pré escolar",
+    "jogos online gratis pre escolar"
+   ]
+  },
+  "jogos online 1º ano": {
+   "cls": "online",
+   "s": [
+    "jogos online 1o ano"
+   ]
+  },
+  "atividades online": {
+   "cls": "online",
+   "s": [
+    "atividades online",
+    "atividades online de alfabetização",
+    "atividades online grátis",
+    "atividades online de matemática",
+    "atividades online wordwall",
+    "atividades online para ganhar dinheiro",
+    "atividades online para autistas",
+    "atividades online 4 ano",
+    "atividades online para crianças",
+    "atividades online remuneradas"
+   ]
+  },
+  "atividades online pré-escola": {
+   "cls": "online",
+   "s": [
+    "atividades online pré escolar"
+   ]
+  },
+  "atividades online 1º ano": {
+   "cls": "online",
+   "s": [
+    "atividades online 1o ano"
+   ]
+  },
+  "exercícios online": {
+   "cls": "online",
+   "s": [
+    "exercícios online",
+    "exercícios online de português",
+    "exercícios online de inglês",
+    "exercícios online verbo to be",
+    "exercícios online de matemática",
+    "exercicios online simple present",
+    "exercicios online de excel",
+    "exercicios online simple past",
+    "exercicios online present continuous",
+    "exercicios online figuras de linguagem"
+   ]
+  },
+  "atividades para imprimir a": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir alfabetização",
+    "atividades para imprimir autismo",
+    "atividades para imprimir alfabeto",
+    "atividades para imprimir alfabetização e letramento",
+    "atividades para imprimir alimentação saudável",
+    "atividades para imprimir adulto",
+    "atividades para imprimir adição e subtração",
+    "atividades para imprimir antecessor e sucessor",
+    "atividades para imprimir alfabeto educação infantil",
+    "atividades para imprimir anos iniciais"
+   ]
+  },
+  "atividades para imprimir b": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir berçário",
+    "atividades para imprimir bullying",
+    "atividades para imprimir berçario 2",
+    "atividades para imprimir bebe 2 anos",
+    "atividades para imprimir ba be bi bo bu",
+    "atividades para imprimir biblicas",
+    "atividades para imprimir bobbie goods",
+    "atividades para imprimir brinquedos e brincadeiras",
+    "atividades para imprimir bob good",
+    "atividades para imprimir brincadeiras"
+   ]
+  },
+  "atividades para imprimir c": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir crianças de 4 anos",
+    "atividades para imprimir criança de 3 anos",
+    "atividades para imprimir copa do mundo",
+    "atividades para imprimir criança de 2 anos",
+    "atividades para imprimir coordenação motora",
+    "atividades para imprimir crianças de 5 anos",
+    "atividades para imprimir com as vogais",
+    "atividades para imprimir com a letra a",
+    "atividades para imprimir coordenação motora fina",
+    "atividades para imprimir com a letra c"
+   ]
+  },
+  "atividades para imprimir d": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir dia das mães educação infantil",
+    "atividades para imprimir de alfabetização",
+    "atividades para imprimir dia das mães",
+    "atividades para imprimir de matemática",
+    "atividades para imprimir dia do circo",
+    "atividades para imprimir dia do livro infantil",
+    "atividades para imprimir dia do livro",
+    "atividades para imprimir da páscoa",
+    "atividades para imprimir de matematica 4 ano",
+    "atividades para imprimir dia do trabalho educação infantil"
+   ]
+  },
+  "atividades para imprimir e": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir educação infantil",
+    "atividades para imprimir escuta fala pensamento e imaginação na educação infantil",
+    "atividades para imprimir educação infantil 5 anos",
+    "atividades para imprimir e colorir",
+    "atividades para imprimir educação infantil 3 anos",
+    "atividades para imprimir e plastificar",
+    "atividades para imprimir encontros vocalicos",
+    "atividades para imprimir educação infantil pdf",
+    "atividades para imprimir educação infantil 4 anos",
+    "atividades para imprimir educação especial"
+   ]
+  },
+  "atividades para imprimir f": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir festa junina",
+    "atividades para imprimir festa junina educação infantil",
+    "atividades para imprimir formas geométricas",
+    "atividades para imprimir formação de palavras",
+    "atividades para imprimir formação de frases",
+    "atividades para imprimir formas geometricas educação infantil",
+    "atividades para imprimir familia silabica",
+    "atividades para imprimir festa junina alfabetização",
+    "atividades para imprimir frações 5o ano",
+    "atividades para imprimir familia silabica b"
+   ]
+  },
+  "atividades para imprimir g": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir grátis",
+    "atividades para imprimir grupo 5",
+    "atividades para imprimir grupo 4",
+    "atividades para imprimir gratis de educação infantil",
+    "atividades para imprimir grande e pequeno",
+    "atividades para imprimir geografia",
+    "atividades para imprimir gospel",
+    "atividades para imprimir grupo 3",
+    "atividades para imprimir g3",
+    "atividades para imprimir grupo 2"
+   ]
+  },
+  "atividades para imprimir h": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir higiene educação infantil",
+    "atividades para imprimir hábitos de higiene",
+    "atividades para imprimir halloween",
+    "atividades para imprimir higiene pessoal",
+    "atividades para imprimir homem aranha",
+    "atividades para imprimir história",
+    "atividades para imprimir higiene bucal",
+    "atividades para imprimir horas",
+    "atividades para imprimir higiene",
+    "atividades para imprimir corpo humano educação infantil"
+   ]
+  },
+  "atividades para imprimir i": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir infantil",
+    "atividades para imprimir infantil 4",
+    "atividades para imprimir infantil 3",
+    "atividades para imprimir idosos",
+    "atividades para imprimir infantil 5",
+    "atividades para imprimir interpretação de texto 5o ano",
+    "atividades para imprimir interpretação de texto 3o ano",
+    "atividades para imprimir interpretação de texto 4o ano",
+    "atividades para imprimir infantil 2",
+    "atividades para imprimir infantil 3 anos"
+   ]
+  },
+  "atividades para imprimir j": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir jogos e brincadeiras",
+    "atividades para imprimir jardim 2",
+    "atividades para imprimir joão e o pé de feijão",
+    "atividades para imprimir jardim 1",
+    "atividades para imprimir jogo dos 7 erros",
+    "atividades para imprimir jardim",
+    "atividades para imprimir jogos",
+    "atividades bíblicas para imprimir juniores",
+    "atividades para imprimir festa junina",
+    "atividades para imprimir festa junina educação infantil"
+   ]
+  },
+  "atividades para imprimir k": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir letra k",
+    "atividades kids para imprimir",
+    "atividades kumon para imprimir",
+    "atividades kátia teixeira para imprimir",
+    "kit de atividades para imprimir",
+    "atividades de matematica kumon para imprimir",
+    "atividades guerreiras do kpop para imprimir"
+   ]
+  },
+  "atividades para imprimir l": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir letra cursiva",
+    "atividades para imprimir letra a",
+    "atividades para imprimir letra b",
+    "atividades para imprimir letra f",
+    "atividades para imprimir letras do alfabeto",
+    "atividades para imprimir letra d",
+    "atividades para imprimir letra l",
+    "atividades para imprimir letra m",
+    "atividades para imprimir labirinto",
+    "atividades para imprimir letra g"
+   ]
+  },
+  "atividades para imprimir m": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir maio laranja",
+    "atividades para imprimir meio ambiente educação infantil",
+    "atividades para imprimir maternal",
+    "atividades para imprimir maternal 2",
+    "atividades para imprimir maternal 1",
+    "atividades para imprimir matematica 1 ano",
+    "atividades para imprimir matemática",
+    "atividades para imprimir matematica 2 ano",
+    "atividades para imprimir meio ambiente",
+    "atividades para imprimir matematica 3 ano"
+   ]
+  },
+  "atividades para imprimir n": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir numeros educação infantil",
+    "atividades para imprimir numeros",
+    "atividades para imprimir na impressora",
+    "atividades para imprimir numeros ordinais",
+    "atividades para imprimir na educação infantil",
+    "atividades para imprimir numeros e quantidades",
+    "atividades para imprimir numeros pontilhados",
+    "atividades para imprimir natal",
+    "atividades para imprimir natal educação infantil",
+    "atividades para imprimir números de 0 a 9"
+   ]
+  },
+  "atividades para imprimir o": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir oxitona paroxitona e proparoxitona",
+    "atividades para imprimir ordem crescente e decrescente",
+    "atividades para imprimir outubro rosa",
+    "atividades para imprimir o monstro das cores",
+    "atividades para imprimir sobre o dia das mães",
+    "atividades para imprimir sobre o meio ambiente",
+    "atividades para imprimir sobre o dia da mulher",
+    "atividades para imprimir sobre o dia do estudante",
+    "atividades para imprimir terapia ocupacional",
+    "atividades para imprimir com o alfabeto"
+   ]
+  },
+  "atividades para imprimir p": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir pdf",
+    "atividades para imprimir para criança de 2 anos",
+    "atividades para imprimir para crianças de 3 anos",
+    "atividades para imprimir para crianças de 4 anos",
+    "atividades para imprimir primeiro ano",
+    "atividades para imprimir para criança de 5 anos",
+    "atividades para imprimir pascoa",
+    "atividades para imprimir pré 1",
+    "atividades para imprimir para autistas",
+    "atividades para imprimir pré 2"
+   ]
+  },
+  "atividades para imprimir q": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir quem sou eu",
+    "atividades para imprimir quarto ano ensino fundamental",
+    "atividades para imprimir quarto ano",
+    "atividades para imprimir quinto ano",
+    "atividades para imprimir quebra cabeça",
+    "atividades para imprimir letra q",
+    "atividades para imprimir numeros e quantidades",
+    "atividades para imprimir espaços tempos quantidades relações e transformações",
+    "atividades para imprimir sobre a quaresma",
+    "atividades para imprimir sobre as quatro estações do ano"
+   ]
+  },
+  "atividades para imprimir r": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir recorte e colagem",
+    "atividades para imprimir rimas",
+    "atividades para imprimir raciocinio logico",
+    "atividades para imprimir regras de convivencia",
+    "atividades para imprimir relogio",
+    "atividades para imprimir romero britto",
+    "atividades para recortar imprimir",
+    "atividades para imprimir ensino religioso",
+    "atividades para imprimir sobre reciclagem de lixo",
+    "atividades para imprimir sobre reciclagem"
+   ]
+  },
+  "atividades para imprimir s": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir sobre o meio ambiente",
+    "atividades para imprimir sobre maio laranja",
+    "atividades para imprimir sobre",
+    "atividades para imprimir sobre a páscoa",
+    "atividades para imprimir sobre o autismo",
+    "atividades para imprimir sobre bullying",
+    "atividades para imprimir sobre o dia das mães",
+    "atividades para imprimir sobre alimentação saudável",
+    "atividades para imprimir sobre o dia do livro",
+    "atividades para imprimir sobre a água"
+   ]
+  },
+  "atividades para imprimir t": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir tea",
+    "atividades para imprimir terapia ocupacional",
+    "atividades para imprimir terceiro ano",
+    "atividades para imprimir tdah",
+    "atividades para imprimir traços sons cores e formas educação infantil",
+    "atividades para imprimir tiradentes",
+    "atividades para imprimir t e d",
+    "atividades para imprimir tabuada",
+    "atividades para imprimir tudo sala de aula",
+    "atividades para imprimir terceiro ano fundamental"
+   ]
+  },
+  "atividades para imprimir u": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir vogal u",
+    "atividades para imprimir dezenas e unidades",
+    "atividades para imprimir com a letra u",
+    "atividades de unicórnio para imprimir",
+    "atividades sobre união para imprimir",
+    "atividades masha e urso para imprimir",
+    "uso dos porques atividades para imprimir",
+    "atividades para imprimir com ar er ir or ur"
+   ]
+  },
+  "atividades para imprimir v": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir vogais",
+    "atividades para imprimir vogais educação infantil",
+    "atividades para imprimir vogal e",
+    "atividades para imprimir volta as aulas",
+    "atividades para imprimir vogais e consoantes",
+    "atividades para imprimir verbos",
+    "atividades para imprimir vogais pontilhadas",
+    "atividades para imprimir vogal u",
+    "atividades para imprimir encontros vocalicos",
+    "atividades para imprimir chapeuzinho vermelho"
+   ]
+  },
+  "atividades para imprimir w": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de coordenação motora para imprimir word",
+    "atividades word para imprimir",
+    "wordwall atividades para imprimir",
+    "atividades com letra cursiva para imprimir word",
+    "www atividades para imprimir",
+    "atividades para imprimir com a letra w",
+    "atividades hot wheels para imprimir",
+    "atividades de matematica 5 ano para imprimir word",
+    "atividades de alfabetização 2 ano para imprimir word",
+    "atividades prontas no word para imprimir alfabetização"
+   ]
+  },
+  "atividades para imprimir x": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir letra x",
+    "atividades xadrez imprimir",
+    "atividades gato xadrez para imprimir",
+    "atividades com xe ch para imprimir",
+    "sons do x atividades para imprimir"
+   ]
+  },
+  "atividades para imprimir z": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir letra z",
+    "atividades sobre zaqueu para imprimir"
+   ]
+  },
+  "atividades para imprimir ç": {
+   "cls": "alphabet",
+   "s": [
+    "atividades com ç para imprimir"
+   ]
+  },
+  "atividades para imprimir ã": {
+   "cls": "alphabet",
+   "s": [
+    "atividades para imprimir com ão"
+   ]
+  },
+  "atividades de alfabetização a": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização autista",
+    "atividades de alfabetização alfabeto",
+    "atividades de alfabetização adaptadas",
+    "atividades de alfabetização alfabeto para imprimir",
+    "atividades de alfabetização a e i o u",
+    "atividades de alfabetização adultos",
+    "atividades de alfabetização apostila",
+    "atividades de alfabetização aee",
+    "atividades de alfabetização aluno autista",
+    "atividades de alfabetização alfabeto pontilhado"
+   ]
+  },
+  "atividades de alfabetização b": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização ba be bi bo bu",
+    "atividades de alfabetização b",
+    "atividades de alfabetização bob esponja",
+    "atividades de alfabetização bra bre bri bro bru",
+    "atividades de alfabetização biblica",
+    "atividades de alfabetização ba be bi bo bu bão",
+    "atividades de alfabetização borboleta kids",
+    "atividades de alfabetização bncc",
+    "atividades de alfabetização brinquedos",
+    "atividades de alfabetização bilhete"
+   ]
+  },
+  "atividades de alfabetização c": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização com a letra b",
+    "atividades de alfabetização com as vogais",
+    "atividades de alfabetização com a letra c",
+    "atividades de alfabetização copa do mundo",
+    "atividades de alfabetização com a letra d",
+    "atividades de alfabetização com a letra f",
+    "atividades de alfabetização com letra cursiva",
+    "atividades de alfabetização com alfabeto",
+    "atividades de alfabetização com a letra m",
+    "atividades de alfabetização com a letra a"
+   ]
+  },
+  "atividades de alfabetização d": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização de matematica",
+    "atividades de alfabetização de português",
+    "atividades de alfabetização de matematica 1 ano",
+    "atividades de alfabetização de matematica para imprimir",
+    "atividades de alfabetização de adultos para imprimir",
+    "atividades de alfabetização de adultos",
+    "atividades de alfabetização do 1o ano",
+    "atividades de alfabetização dia das mães",
+    "atividades de alfabetização da copa",
+    "atividades de alfabetização de matematica 2 ano"
+   ]
+  },
+  "atividades de alfabetização e": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização e letramento",
+    "atividades de alfabetização em pdf",
+    "atividades de alfabetização e letramento para imprimir",
+    "atividades de alfabetização educação infantil",
+    "atividades de alfabetização eja",
+    "atividades de alfabetização e letramento pdf",
+    "atividades de alfabetização e letramento tudo sala de aula",
+    "atividades de alfabetização encontros vocalicos",
+    "atividades de alfabetização e letramento 2 ano",
+    "atividades de alfabetização eja para imprimir"
+   ]
+  },
+  "atividades de alfabetização f": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização formar palavras",
+    "atividades de alfabetização frases",
+    "atividades de alfabetização festa junina",
+    "atividades de alfabetização familia silabicas",
+    "atividades de alfabetização familia do b",
+    "atividades de alfabetização familia silabica do b",
+    "atividades de alfabetização fonetica",
+    "atividades de alfabetização familia do c",
+    "atividades de alfabetização formando palavras",
+    "atividades de alfabetização frases simples"
+   ]
+  },
+  "atividades de alfabetização g": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização gratis",
+    "atividades de alfabetização geografia",
+    "atividades de alfabetização gratuitas para imprimir",
+    "atividades de alfabetização g5",
+    "atividades de alfabetização geografia para imprimir",
+    "atividades de alfabetização g",
+    "atividades de alfabetização ga ge gi go gu",
+    "atividades de alfabetização grupo 5",
+    "atividades de alfabetização ga go gu",
+    "atividades de alfabetização ga go gu gão"
+   ]
+  },
+  "atividades de alfabetização h": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização história",
+    "atividades de alfabetização história do brasil",
+    "atividades de alfabetização homem aranha",
+    "atividades de alfabetização historia e geografia",
+    "atividades de alfabetização halloween",
+    "atividades de alfabetização h",
+    "atividades de alfabetização hotmart",
+    "atividades de alfabetização higiene",
+    "atividades de alfabetização higiene e saude",
+    "atividades de alfabetização higiene pessoal"
+   ]
+  },
+  "atividades de alfabetização i": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização inicial",
+    "atividades de alfabetização infantil",
+    "atividades de alfabetização infantil 5 anos",
+    "atividades de alfabetização infantil 5",
+    "atividades de alfabetização imprimir",
+    "atividades de alfabetização interpretação de texto",
+    "atividades de alfabetização infantil 4",
+    "atividades de alfabetização ingles",
+    "atividades de alfabetização israela kotona",
+    "atividades de alfabetização interativa"
+   ]
+  },
+  "atividades de alfabetização j": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização jardim 2",
+    "atividades de alfabetização jogos",
+    "atividades de alfabetização jardim 1",
+    "atividades de alfabetização junina",
+    "atividades de alfabetização junção das vogais",
+    "atividades de alfabetização jovens e adultos",
+    "atividades de alfabetização junte as silabas",
+    "atividades de alfabetização j",
+    "atividades de alfabetização jardim 3",
+    "atividades de alfabetização jardim"
+   ]
+  },
+  "atividades de alfabetização k": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização katia teixeira",
+    "atividades de alfabetização kumon",
+    "atividades de alfabetização k",
+    "atividades de alfabetização israela kotona",
+    "atividades de alfabetização letra k para imprimir",
+    "atividades de alfabetização borboleta kids",
+    "atividades de alfabetização 1 ano katia teixeira",
+    "atividades de alfabetização 1 ano letra k",
+    "kit atividades de alfabetização",
+    "atividades de alfabetização com as letras kwy"
+   ]
+  },
+  "atividades de alfabetização l": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização letra b",
+    "atividades de alfabetização letra cursiva",
+    "atividades de alfabetização letra c",
+    "atividades de alfabetização letra a",
+    "atividades de alfabetização letra d",
+    "atividades de alfabetização letra f",
+    "atividades de alfabetização letra l",
+    "atividades de alfabetização leitura",
+    "atividades de alfabetização letra g",
+    "atividades de alfabetização letra m"
+   ]
+  },
+  "atividades de alfabetização m": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização matemática",
+    "atividades de alfabetização matemática 2 ano",
+    "atividades de alfabetização matematica 1 ano",
+    "atividades de alfabetização método fônico para imprimir",
+    "atividades de alfabetização matematica 1 ano para imprimir",
+    "atividades de alfabetização matemática 4 ano",
+    "atividades de alfabetização metodo fonico",
+    "atividades de alfabetização matemática para imprimir",
+    "atividades de alfabetização matematica 2 ano para imprimir",
+    "atividades de alfabetização matemática pdf"
+   ]
+  },
+  "atividades de alfabetização n": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização numeros",
+    "atividades de alfabetização no caderno",
+    "atividades de alfabetização numeros para imprimir",
+    "atividades de alfabetização numeros ate 10",
+    "atividades de alfabetização nha nhe nhi nho nhu",
+    "atividades de alfabetização no wordwall",
+    "atividades de alfabetização nivel pre silabico",
+    "atividades de alfabetização numeros e quantidades",
+    "atividades de alfabetização nome",
+    "atividades de alfabetização nome proprio"
+   ]
+  },
+  "atividades de alfabetização o": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização online",
+    "atividades de alfabetização online grátis",
+    "atividades de alfabetização ordem alfabetica",
+    "atividades de alfabetização ortografia",
+    "atividades de alfabetização o alfabeto",
+    "atividades de alfabetização objetivos",
+    "atividades de alfabetização online wordwall",
+    "atividades de alfabetização online 1 ano",
+    "atividades de alfabetização online iara medeiros"
+   ]
+  },
+  "atividades de alfabetização p": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização para imprimir",
+    "atividades de alfabetização para 2 ano",
+    "atividades de alfabetização para autistas",
+    "atividades de alfabetização para 1 ano",
+    "atividades de alfabetização para autismo pdf grátis",
+    "atividades de alfabetização pdf",
+    "atividades de alfabetização para adultos para imprimir",
+    "atividades de alfabetização para copiar no caderno",
+    "atividades de alfabetização pré 2",
+    "atividades de alfabetização para 4 anos"
+   ]
+  },
+  "atividades de alfabetização q": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização quinto ano",
+    "atividades de alfabetização qua que qui quo",
+    "atividades de alfabetização quarto ano",
+    "atividades de alfabetização quebra cabeça",
+    "atividades de alfabetização que qui",
+    "atividades de alfabetização quem sou eu",
+    "atividades de alfabetização quiz",
+    "atividades de alfabetização que",
+    "atividades de quantidades alfabetização",
+    "atividades de alfabetização letra q"
+   ]
+  },
+  "atividades de alfabetização r": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização recorte e colagem",
+    "atividades de alfabetização recorte e cole",
+    "atividades de alfabetização rimas",
+    "atividades de alfabetização reforço",
+    "atividades de alfabetização reforço escolar",
+    "atividades de alfabetização recorte",
+    "atividades de alfabetização r",
+    "atividades de alfabetização receita",
+    "atividades de alfabetização reconhecimento de letras",
+    "atividades de alfabetização reforço 1o ano"
+   ]
+  },
+  "atividades de alfabetização s": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização silabas",
+    "atividades de alfabetização silabas complexas",
+    "atividades de alfabetização silabas simples",
+    "atividades de alfabetização segundo ano",
+    "atividades de alfabetização sobre a copa do mundo",
+    "atividades de alfabetização silabas complexas para imprimir",
+    "atividades de alfabetização sobre a páscoa",
+    "atividades de alfabetização silabico alfabetico",
+    "atividades de alfabetização som das letras",
+    "atividades de alfabetização sitio do picapau amarelo"
+   ]
+  },
+  "atividades de alfabetização t": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização tudo sala de aula",
+    "atividades de alfabetização tea",
+    "atividades de alfabetização texto",
+    "atividades de alfabetização textos curtos",
+    "atividades de alfabetização texto pequeno",
+    "atividades de alfabetização tdah",
+    "atividades de alfabetização troca letras",
+    "atividades de alfabetização terceiro ano",
+    "atividades de alfabetização texto e interpretação",
+    "atividades de alfabetização tema pascoa"
+   ]
+  },
+  "atividades de alfabetização u": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização usando o alfabeto",
+    "atividades de alfabetização letra u",
+    "atividades de alfabetização vogal.u",
+    "atividades de alfabetização matematica unidade e dezena",
+    "atividades de alfabetização dezena e unidade",
+    "atividades de alfabetização com a letra u para imprimir",
+    "atividades de alfabetização an en in on un",
+    "atividades de alfabetização ar er ir or ur",
+    "atividades de alfabetização al el il ol ul",
+    "atividades de alfabetização as es is os us"
+   ]
+  },
+  "atividades de alfabetização v": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização vogais",
+    "atividades de alfabetização vogais para imprimir",
+    "atividades de alfabetização vogais e consoantes",
+    "atividades de alfabetização vogais 1 ano",
+    "atividades de alfabetização vogais e encontros vocalicos",
+    "atividades de alfabetização vogais e alfabeto",
+    "atividades de alfabetização v",
+    "atividades de alfabetização vogal a",
+    "atividades de alfabetização vogais 1 ano para imprimir",
+    "atividades de alfabetização va ve vi vo vu vão"
+   ]
+  },
+  "atividades de alfabetização w": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização wordwall",
+    "atividades de alfabetização word",
+    "atividades de alfabetização w",
+    "atividades de alfabetização waldorf",
+    "atividades de alfabetização online wordwall",
+    "atividades de alfabetização letra w",
+    "atividades de alfabetização em word para imprimir",
+    "wordwall atividades de alfabetização 3 ano",
+    "atividades de alfabetização com a letra w para imprimir",
+    "wordwall atividades de alfabetização vogais"
+   ]
+  },
+  "atividades de alfabetização x": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização xa xe xi xo xu",
+    "atividades de alfabetização x",
+    "atividades de alfabetização letra x",
+    "atividades de alfabetização letra x para imprimir",
+    "atividades de alfabetização gato xadrez",
+    "atividades de alfabetização com x e ch",
+    "atividades de alfabetização 1 ano letra x"
+   ]
+  },
+  "atividades de alfabetização y": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização letra y",
+    "youtube atividades de alfabetização",
+    "atividades de alfabetização com a letra y para imprimir"
+   ]
+  },
+  "atividades de alfabetização z": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização z",
+    "atividades de alfabetização za ze zi zo zu",
+    "atividades de alfabetização letra z",
+    "atividades de alfabetização letra z para imprimir",
+    "atividades de alfabetização do zero",
+    "atividades de alfabetização 1 ano letra z",
+    "atividades s com som de z alfabetização"
+   ]
+  },
+  "atividades de alfabetização ç": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização ça ço çu",
+    "atividades de alfabetização ç"
+   ]
+  },
+  "atividades de alfabetização ã": {
+   "cls": "alphabet",
+   "s": [
+    "atividades de alfabetização ão",
+    "atividades de alfabetização palavras com ão",
+    "atividades de alfabetização com palavras terminadas em ão"
+   ]
+  }
+ },
+ "unique": [
+  "365 atividades dinossauros",
+  "4 de julho atividades",
+  "acampamento atividades",
+  "acampamento desbravadores atividades",
+  "acessorios para atividades físicas",
+  "adivinhe a palavra",
+  "adivinhe a palavra 5 letras",
+  "adivinhe a palavra do dia",
+  "adivinhe a palavra em ingles",
+  "adivinhe a palavra jogo",
+  "adivinhe a palavra jogo online",
+  "adivinhe a palavra online",
+  "adivinhe a palavra pelo emoji",
+  "adivinhe a palavra secreta",
+  "adivinhe a palavra site",
+  "adição",
+  "adição 1 ano",
+  "adição 1o ano",
+  "adição 1o ano atividades",
+  "adição 1o ano fundamental",
+  "adição 2o ano",
+  "adição 2o ano atividades",
+  "adição 2o ano fundamental",
+  "adição anos iniciais",
+  "adição atividades",
+  "adição atividades 1 ano",
+  "adição atividades 2 ano",
+  "adição atividades 3 ano",
+  "adição atividades 4 ano",
+  "adição atividades 5 ano",
+  "adição atividades 6 ano",
+  "adição atividades de matematica 1 ano",
+  "adição atividades de matematica 2 ano",
+  "adição atividades de matemática 2 ano para imprimir",
+  "adição com reagrupamento",
+  "adição com reserva",
+  "adição com reserva anos iniciais",
+  "adição código bncc",
+  "adição de categoria",
+  "adição de fração",
+  "adição e subtração",
+  "adição e subtração 2 ano",
+  "adição e subtração 3 ano",
+  "adição e subtração anos iniciais",
+  "adição e subtração de frações",
+  "adição e subtração pre escola",
+  "adição educação infantil",
+  "adição educação infantil atividades",
+  "adição educação infantil bncc",
+  "adição educação infantil objetivo",
+  "adição educação infantil para imprimir",
+  "adição educação infantil plano de aula",
+  "adição ilustrada educação infantil",
+  "adição para imprimir",
+  "adição para imprimir 3 ano",
+  "adição pre escola",
+  "adição simples educação infantil",
+  "adição simples para imprimir",
+  "alfabeto consciência fonológica para imprimir",
+  "alfaletrar conhecimento das letras",
+  "animais atividades",
+  "animais atividades 1 ano",
+  "animais atividades 2 ano",
+  "animais atividades 3 ano",
+  "animais atividades 4 ano",
+  "animais atividades educação infantil",
+  "animais atividades em ingles",
+  "animais atividades ludicas",
+  "animais da fazenda atividades",
+  "animais da fazenda em inglês atividades",
+  "animais de estimação atividades",
+  "animais de estimação em inglês atividades",
+  "animais do zoológico em inglês atividades",
+  "análise de gráficos e dados",
+  "apostila de consciência fonológica para imprimir",
+  "apostila de consciência fonológica para imprimir grátis",
+  "aprendendo a ver as horas atividades",
+  "arvores atividades",
+  "as horas educação infantil",
+  "associação comunicação visual",
+  "associação deficiente visual",
+  "associação internacional de estudantes em ciências econômicas e comerciais",
+  "associação professores educação visual",
+  "associação visual",
+  "atendente de padaria atividades",
+  "atividade adição educação infantil 5 anos",
+  "atividade adição para imprimir",
+  "atividade adição pre escola",
+  "atividade atividades de matemática",
+  "atividade caça ao tesouro educação infantil",
+  "atividade caça palavras educação infantil",
+  "atividade de adição anos iniciais",
+  "atividade de contar figuras",
+  "atividade de matematica 1 ano anos iniciais",
+  "atividade de matematica 2 ano anos iniciais",
+  "atividade de matematica educação infantil",
+  "atividade de matematica educação infantil 5 anos",
+  "atividade de matematica eja anos iniciais",
+  "atividade de matemática",
+  "atividade de matemática 1 ano",
+  "atividade de matemática 1o ano",
+  "atividade de matemática 1o ano adição",
+  "atividade de matemática 1o ano adição e subtração",
+  "atividade de matemática 1o ano alfabetização",
+  "atividade de matemática 1o ano ensino fundamental",
+  "atividade de matemática 1o ano números",
+  "atividade de matemática 1o ano para imprimir",
+  "atividade de matemática 1o ano sequência numérica",
+  "atividade de matemática 1o ano subtração",
+  "atividade de matemática 1o ano tudo sala de aula",
+  "atividade de matemática 2 ano",
+  "atividade de matemática 2o ano",
+  "atividade de matemática 2o ano adição",
+  "atividade de matemática 2o ano adição e subtração",
+  "atividade de matemática 2o ano fundamental",
+  "atividade de matemática 2o ano fundamental 1",
+  "atividade de matemática 2o ano números ordinais",
+  "atividade de matemática 2o ano ordem crescente e decrescente",
+  "atividade de matemática 2o ano para imprimir",
+  "atividade de matemática 2o ano subtração",
+  "atividade de matemática 2o ano tudo sala de aula",
+  "atividade de matemática 3 ano",
+  "atividade de matemática 3 ano anos iniciais",
+  "atividade de matemática 4 ano",
+  "atividade de matemática 5 ano",
+  "atividade de matemática 6 ano",
+  "atividade de matemática 7 ano",
+  "atividade de matemática anos iniciais",
+  "atividade de matemática anos iniciais tudo sala de aula",
+  "atividade de matemática educação infantil 2 anos",
+  "atividade de matemática educação infantil 4 anos",
+  "atividade de matemática educação infantil 5",
+  "atividade de matemática educação infantil números",
+  "atividade de matemática educação infantil números e quantidades",
+  "atividade de matemática educação infantil para imprimir",
+  "atividade de matemática educação infantil pré 1",
+  "atividade de matemática educação infantil pré 2",
+  "atividade de matemática para educação infantil",
+  "atividade de matemática para imprimir",
+  "atividade de matemática para imprimir 1o ano",
+  "atividade de matemática para imprimir 2o ano",
+  "atividade de matemática para imprimir 3o ano",
+  "atividade de matemática para imprimir 4 ano",
+  "atividade de matemática para imprimir 5 ano",
+  "atividade de matemática para imprimir 6 ano",
+  "atividade de matemática para imprimir adição e subtração",
+  "atividade de matemática para imprimir educação infantil",
+  "atividade de matemática para imprimir pré 2",
+  "atividade de matemática para o 1o ano",
+  "atividade de matemática para pré escola 2",
+  "atividade de matemática pré escola",
+  "atividade de matemática pré-escolar",
+  "atividade de padrões",
+  "atividade de valor posicional para imprimir",
+  "atividade encontre e conte",
+  "atividade formas geometria educação infantil",
+  "atividade frações para imprimir",
+  "atividade geometria para imprimir",
+  "atividade grande ou pequeno educação infantil",
+  "atividade medidas educação infantil",
+  "atividade montagem de palavras",
+  "atividade multiplicação para educação infantil",
+  "atividade padrões silábicos",
+  "atividade pareamento de sombras",
+  "atividade pareamento de sombras educação infantil",
+  "atividade pareamento educação infantil",
+  "atividade reconhecimento de padrões",
+  "atividade reta numerica educação infantil",
+  "atividade sequência de padrões",
+  "atividade sobre geometria educação infantil",
+  "atividade sobre padrões de beleza",
+  "atividade sons iniciais",
+  "atividade sons iniciais das palavras",
+  "atividade subtração educação infantil 5 anos",
+  "atividade subtração para imprimir",
+  "atividade subtração pre escola",
+  "atividade trem do alfabeto",
+  "atividade ́padrões 1 ano",
+  "atividades acampamento meio sangue",
+  "atividades animais da fazenda 1 ano",
+  "atividades animais da fazenda 3 ano",
+  "atividades animais da fazenda educação infantil",
+  "atividades animais da fazenda educação infantil 4 anos",
+  "atividades animais da fazenda maternal",
+  "atividades animais da fazenda para berçário",
+  "atividades animais de estimação 1 ano",
+  "atividades animais de estimação educação infantil",
+  "atividades animais do zoologico educação infantil",
+  "atividades animais vertebrados e invertebrados",
+  "atividades animais vertebrados e invertebrados 3 ano",
+  "atividades arvores educação infantil",
+  "atividades arvores frutiferas",
+  "atividades atividades",
+  "atividades atividades de alfabetização",
+  "atividades atividades de matemática",
+  "atividades atividades de português",
+  "atividades atividades econômicas",
+  "atividades atividades para",
+  "atividades atividades para crianças",
+  "atividades atividades para imprimir",
+  "atividades atividades sobre",
+  "atividades bingo das silabas",
+  "atividades bingo das vogais",
+  "atividades bingo de letras",
+  "atividades bingo de numeros",
+  "atividades bingo de palavras",
+  "atividades bingo do alfabeto",
+  "atividades brinquedos antigos e atuais",
+  "atividades brinquedos e brincadeiras",
+  "atividades brinquedos e brincadeiras 1 ano",
+  "atividades brinquedos e brincadeiras 2 ano",
+  "atividades brinquedos e brincadeiras educação infantil",
+  "atividades brinquedos em ingles",
+  "atividades bíblicas para imprimir juniores",
+  "atividades caça ao tesouro na escola",
+  "atividades ciencias anos iniciais",
+  "atividades ciencias educação infantil para imprimir",
+  "atividades ciencias sociais educação infantil",
+  "atividades ciências humanas educação infantil",
+  "atividades clima do brasil",
+  "atividades clima do brasil 4 ano",
+  "atividades clima e tempo",
+  "atividades clima e tempo 6 ano",
+  "atividades clima e tempo 8 ano",
+  "atividades clima e vegetação 4 ano",
+  "atividades cognitivas discriminação visual atividades de atenção e concentração para imprimir",
+  "atividades com letra cursiva para imprimir word",
+  "atividades com quadro numérico educação infantil",
+  "atividades com utensilios de cozinha",
+  "atividades com xe ch para imprimir",
+  "atividades com ç para imprimir",
+  "atividades consciência fonológica pré escolar",
+  "atividades cores maternal 1",
+  "atividades cores maternal 2",
+  "atividades cores primarias",
+  "atividades cores primárias e secundárias 6o ano",
+  "atividades cores primárias e secundárias 6o ano com gabarito",
+  "atividades cores primárias educação infantil",
+  "atividades correios",
+  "atividades de alfabetização",
+  "atividades de alfabetização 1 ano",
+  "atividades de alfabetização 1 ano katia teixeira",
+  "atividades de alfabetização 1 ano letra k",
+  "atividades de alfabetização 1 ano letra x",
+  "atividades de alfabetização 1 ano letra z",
+  "atividades de alfabetização 1 ano para imprimir",
+  "atividades de alfabetização 2 ano",
+  "atividades de alfabetização 2 ano para imprimir word",
+  "atividades de alfabetização 3 ano",
+  "atividades de alfabetização a e i o u",
+  "atividades de alfabetização adaptadas",
+  "atividades de alfabetização adultos",
+  "atividades de alfabetização aee",
+  "atividades de alfabetização al el il ol ul",
+  "atividades de alfabetização alfabeto",
+  "atividades de alfabetização alfabeto para imprimir",
+  "atividades de alfabetização alfabeto pontilhado",
+  "atividades de alfabetização aluno autista",
+  "atividades de alfabetização an en in on un",
+  "atividades de alfabetização apostila",
+  "atividades de alfabetização ar er ir or ur",
+  "atividades de alfabetização as es is os us",
+  "atividades de alfabetização autista",
+  "atividades de alfabetização b",
+  "atividades de alfabetização ba be bi bo bu",
+  "atividades de alfabetização ba be bi bo bu bão",
+  "atividades de alfabetização biblica",
+  "atividades de alfabetização bilhete",
+  "atividades de alfabetização bncc",
+  "atividades de alfabetização bob esponja",
+  "atividades de alfabetização borboleta kids",
+  "atividades de alfabetização bra bre bri bro bru",
+  "atividades de alfabetização brinquedos",
+  "atividades de alfabetização com a letra a",
+  "atividades de alfabetização com a letra b",
+  "atividades de alfabetização com a letra c",
+  "atividades de alfabetização com a letra d",
+  "atividades de alfabetização com a letra f",
+  "atividades de alfabetização com a letra m",
+  "atividades de alfabetização com a letra u para imprimir",
+  "atividades de alfabetização com a letra w para imprimir",
+  "atividades de alfabetização com a letra y para imprimir",
+  "atividades de alfabetização com alfabeto",
+  "atividades de alfabetização com as letras kwy",
+  "atividades de alfabetização com as vogais",
+  "atividades de alfabetização com letra cursiva",
+  "atividades de alfabetização com palavras terminadas em ão",
+  "atividades de alfabetização com x e ch",
+  "atividades de alfabetização copa do mundo",
+  "atividades de alfabetização da copa",
+  "atividades de alfabetização de adultos",
+  "atividades de alfabetização de adultos para imprimir",
+  "atividades de alfabetização de matematica",
+  "atividades de alfabetização de matematica 1 ano",
+  "atividades de alfabetização de matematica 2 ano",
+  "atividades de alfabetização de matematica para imprimir",
+  "atividades de alfabetização de português",
+  "atividades de alfabetização dezena e unidade",
+  "atividades de alfabetização dia das mães",
+  "atividades de alfabetização do 1o ano",
+  "atividades de alfabetização do zero",
+  "atividades de alfabetização e letramento",
+  "atividades de alfabetização e letramento 2 ano",
+  "atividades de alfabetização e letramento para imprimir",
+  "atividades de alfabetização e letramento pdf",
+  "atividades de alfabetização e letramento tudo sala de aula",
+  "atividades de alfabetização educação infantil",
+  "atividades de alfabetização eja",
+  "atividades de alfabetização eja para imprimir",
+  "atividades de alfabetização em pdf",
+  "atividades de alfabetização em word para imprimir",
+  "atividades de alfabetização encontros vocalicos",
+  "atividades de alfabetização familia do b",
+  "atividades de alfabetização familia do c",
+  "atividades de alfabetização familia silabica do b",
+  "atividades de alfabetização familia silabicas",
+  "atividades de alfabetização festa junina",
+  "atividades de alfabetização fonetica",
+  "atividades de alfabetização formando palavras",
+  "atividades de alfabetização formar palavras",
+  "atividades de alfabetização frases",
+  "atividades de alfabetização frases simples",
+  "atividades de alfabetização g",
+  "atividades de alfabetização g5",
+  "atividades de alfabetização ga ge gi go gu",
+  "atividades de alfabetização ga go gu",
+  "atividades de alfabetização ga go gu gão",
+  "atividades de alfabetização gato xadrez",
+  "atividades de alfabetização geografia",
+  "atividades de alfabetização geografia para imprimir",
+  "atividades de alfabetização gratis",
+  "atividades de alfabetização gratuitas para imprimir",
+  "atividades de alfabetização grupo 5",
+  "atividades de alfabetização h",
+  "atividades de alfabetização halloween",
+  "atividades de alfabetização higiene",
+  "atividades de alfabetização higiene e saude",
+  "atividades de alfabetização higiene pessoal",
+  "atividades de alfabetização historia e geografia",
+  "atividades de alfabetização história",
+  "atividades de alfabetização história do brasil",
+  "atividades de alfabetização homem aranha",
+  "atividades de alfabetização hotmart",
+  "atividades de alfabetização imprimir",
+  "atividades de alfabetização infantil",
+  "atividades de alfabetização infantil 4",
+  "atividades de alfabetização infantil 5",
+  "atividades de alfabetização infantil 5 anos",
+  "atividades de alfabetização ingles",
+  "atividades de alfabetização inicial",
+  "atividades de alfabetização interativa",
+  "atividades de alfabetização interpretação de texto",
+  "atividades de alfabetização israela kotona",
+  "atividades de alfabetização j",
+  "atividades de alfabetização jardim",
+  "atividades de alfabetização jardim 1",
+  "atividades de alfabetização jardim 2",
+  "atividades de alfabetização jardim 3",
+  "atividades de alfabetização jogos",
+  "atividades de alfabetização jovens e adultos",
+  "atividades de alfabetização junina",
+  "atividades de alfabetização junte as silabas",
+  "atividades de alfabetização junção das vogais",
+  "atividades de alfabetização k",
+  "atividades de alfabetização katia teixeira",
+  "atividades de alfabetização kumon",
+  "atividades de alfabetização leitura",
+  "atividades de alfabetização letra a",
+  "atividades de alfabetização letra b",
+  "atividades de alfabetização letra c",
+  "atividades de alfabetização letra cursiva",
+  "atividades de alfabetização letra d",
+  "atividades de alfabetização letra f",
+  "atividades de alfabetização letra g",
+  "atividades de alfabetização letra k para imprimir",
+  "atividades de alfabetização letra l",
+  "atividades de alfabetização letra m",
+  "atividades de alfabetização letra q",
+  "atividades de alfabetização letra u",
+  "atividades de alfabetização letra w",
+  "atividades de alfabetização letra x",
+  "atividades de alfabetização letra x para imprimir",
+  "atividades de alfabetização letra y",
+  "atividades de alfabetização letra z",
+  "atividades de alfabetização letra z para imprimir",
+  "atividades de alfabetização matematica 1 ano",
+  "atividades de alfabetização matematica 1 ano para imprimir",
+  "atividades de alfabetização matematica 2 ano para imprimir",
+  "atividades de alfabetização matematica unidade e dezena",
+  "atividades de alfabetização matemática",
+  "atividades de alfabetização matemática 2 ano",
+  "atividades de alfabetização matemática 4 ano",
+  "atividades de alfabetização matemática para imprimir",
+  "atividades de alfabetização matemática pdf",
+  "atividades de alfabetização metodo fonico",
+  "atividades de alfabetização método fônico para imprimir",
+  "atividades de alfabetização nha nhe nhi nho nhu",
+  "atividades de alfabetização nivel pre silabico",
+  "atividades de alfabetização no caderno",
+  "atividades de alfabetização no wordwall",
+  "atividades de alfabetização nome",
+  "atividades de alfabetização nome proprio",
+  "atividades de alfabetização numeros",
+  "atividades de alfabetização numeros ate 10",
+  "atividades de alfabetização numeros e quantidades",
+  "atividades de alfabetização numeros para imprimir",
+  "atividades de alfabetização o alfabeto",
+  "atividades de alfabetização objetivos",
+  "atividades de alfabetização online",
+  "atividades de alfabetização online 1 ano",
+  "atividades de alfabetização online grátis",
+  "atividades de alfabetização online iara medeiros",
+  "atividades de alfabetização online wordwall",
+  "atividades de alfabetização ordem alfabetica",
+  "atividades de alfabetização ortografia",
+  "atividades de alfabetização palavras com ão",
+  "atividades de alfabetização para 1 ano",
+  "atividades de alfabetização para 2 ano",
+  "atividades de alfabetização para 4 anos",
+  "atividades de alfabetização para adultos para imprimir",
+  "atividades de alfabetização para autismo pdf grátis",
+  "atividades de alfabetização para autistas",
+  "atividades de alfabetização para copiar no caderno",
+  "atividades de alfabetização para imprimir",
+  "atividades de alfabetização pdf",
+  "atividades de alfabetização pré 2",
+  "atividades de alfabetização qua que qui quo",
+  "atividades de alfabetização quarto ano",
+  "atividades de alfabetização que",
+  "atividades de alfabetização que qui",
+  "atividades de alfabetização quebra cabeça",
+  "atividades de alfabetização quem sou eu",
+  "atividades de alfabetização quinto ano",
+  "atividades de alfabetização quiz",
+  "atividades de alfabetização r",
+  "atividades de alfabetização receita",
+  "atividades de alfabetização reconhecimento de letras",
+  "atividades de alfabetização recorte",
+  "atividades de alfabetização recorte e colagem",
+  "atividades de alfabetização recorte e cole",
+  "atividades de alfabetização reforço",
+  "atividades de alfabetização reforço 1o ano",
+  "atividades de alfabetização reforço escolar",
+  "atividades de alfabetização rimas",
+  "atividades de alfabetização segundo ano",
+  "atividades de alfabetização silabas",
+  "atividades de alfabetização silabas complexas",
+  "atividades de alfabetização silabas complexas para imprimir",
+  "atividades de alfabetização silabas simples",
+  "atividades de alfabetização silabico alfabetico",
+  "atividades de alfabetização sitio do picapau amarelo",
+  "atividades de alfabetização sobre a copa do mundo",
+  "atividades de alfabetização sobre a páscoa",
+  "atividades de alfabetização som das letras",
+  "atividades de alfabetização tdah",
+  "atividades de alfabetização tea",
+  "atividades de alfabetização tema pascoa",
+  "atividades de alfabetização terceiro ano",
+  "atividades de alfabetização texto",
+  "atividades de alfabetização texto e interpretação",
+  "atividades de alfabetização texto pequeno",
+  "atividades de alfabetização textos curtos",
+  "atividades de alfabetização troca letras",
+  "atividades de alfabetização tudo sala de aula",
+  "atividades de alfabetização usando o alfabeto",
+  "atividades de alfabetização v",
+  "atividades de alfabetização va ve vi vo vu vão",
+  "atividades de alfabetização vogais",
+  "atividades de alfabetização vogais 1 ano",
+  "atividades de alfabetização vogais 1 ano para imprimir",
+  "atividades de alfabetização vogais e alfabeto",
+  "atividades de alfabetização vogais e consoantes",
+  "atividades de alfabetização vogais e encontros vocalicos",
+  "atividades de alfabetização vogais para imprimir",
+  "atividades de alfabetização vogal a",
+  "atividades de alfabetização vogal.u",
+  "atividades de alfabetização w",
+  "atividades de alfabetização waldorf",
+  "atividades de alfabetização word",
+  "atividades de alfabetização wordwall",
+  "atividades de alfabetização x",
+  "atividades de alfabetização xa xe xi xo xu",
+  "atividades de alfabetização z",
+  "atividades de alfabetização za ze zi zo zu",
+  "atividades de alfabetização ão",
+  "atividades de alfabetização ç",
+  "atividades de alfabetização ça ço çu",
+  "atividades de anos iniciais",
+  "atividades de caça ao tesouro educação infantil",
+  "atividades de caça ao tesouro para crianças",
+  "atividades de ciencias educação infantil 5 anos",
+  "atividades de ciencias educação infantil alimentação saudavel",
+  "atividades de ciencias pre escola",
+  "atividades de consciência fonológica para imprimir pdf",
+  "atividades de coordenação motora para imprimir word",
+  "atividades de discriminação visual para imprimir",
+  "atividades de educação infantil",
+  "atividades de educação infantil 4 anos",
+  "atividades de educação infantil 5 anos",
+  "atividades de educação infantil alfabeto",
+  "atividades de educação infantil coordenação motora",
+  "atividades de educação infantil festa junina",
+  "atividades de educação infantil matemática",
+  "atividades de educação infantil para imprimir",
+  "atividades de educação infantil vogais",
+  "atividades de matematica 5 ano para imprimir word",
+  "atividades de matematica anos iniciais para imprimir",
+  "atividades de matematica educação infantil",
+  "atividades de matematica eja anos iniciais",
+  "atividades de matematica kumon para imprimir",
+  "atividades de matematica pre escolar",
+  "atividades de matematica pré escola para imprimir",
+  "atividades de matemática 1 ano anos iniciais",
+  "atividades de matemática 1o ano",
+  "atividades de matemática 1o ano adição",
+  "atividades de matemática 1o ano adição e subtração",
+  "atividades de matemática 1o ano do ensino fundamental",
+  "atividades de matemática 1o ano fundamental",
+  "atividades de matemática 1o ano ordem crescente e decrescente",
+  "atividades de matemática 1o ano para imprimir",
+  "atividades de matemática 1o ano subtração",
+  "atividades de matemática 2 ano anos iniciais",
+  "atividades de matemática 2o ano",
+  "atividades de matemática 2o ano adição",
+  "atividades de matemática 2o ano adição e subtração",
+  "atividades de matemática 2o ano fundamental",
+  "atividades de matemática 2o ano fundamental para imprimir",
+  "atividades de matemática 2o ano ordem crescente e decrescente",
+  "atividades de matemática 2o ano para imprimir",
+  "atividades de matemática 2o ano tudo sala de aula",
+  "atividades de matemática anos iniciais",
+  "atividades de matemática anos iniciais tudosaladeaula",
+  "atividades de matemática educação infantil 2 anos",
+  "atividades de matemática educação infantil 3 anos",
+  "atividades de matemática educação infantil 4 anos",
+  "atividades de matemática educação infantil 5 anos",
+  "atividades de matemática educação infantil 5 anos para imprimir",
+  "atividades de matemática educação infantil 5 anos pdf",
+  "atividades de matemática educação infantil festa junina",
+  "atividades de matemática educação infantil para imprimir",
+  "atividades de matemática educação infantil pdf",
+  "atividades de matemática para anos iniciais do ensino fundamental",
+  "atividades de percepção visual para educação infantil para imprimir",
+  "atividades de portugues anos iniciais do ensino fundamental",
+  "atividades de portugues educação infantil",
+  "atividades de portugues eja anos iniciais",
+  "atividades de portugues pre escolar",
+  "atividades de portugues pré escola para imprimir",
+  "atividades de português 1o ano",
+  "atividades de português 1o ano fundamental",
+  "atividades de português 1o ano para imprimir",
+  "atividades de português 2o ano",
+  "atividades de português 2o ano fundamental",
+  "atividades de português anos iniciais",
+  "atividades de pre escolar",
+  "atividades de pré escola 4 anos",
+  "atividades de pré escola 5 anos",
+  "atividades de pré escola para imprimir",
+  "atividades de quantidades alfabetização",
+  "atividades de raciocinio logico para educação infantil para imprimir",
+  "atividades de sons iniciais educação infantil",
+  "atividades de unicórnio para imprimir",
+  "atividades dia da árvore",
+  "atividades dia de ação de graças para imprimir",
+  "atividades dinossauros 1 ano",
+  "atividades dinossauros 2 ano",
+  "atividades dinossauros 5o ano",
+  "atividades dinossauros alfabetização",
+  "atividades dinossauros para imprimir",
+  "atividades discriminação visual educação infantil",
+  "atividades diversos",
+  "atividades educativas",
+  "atividades educativas jogos educativos",
+  "atividades educativas online",
+  "atividades educativas online gratis",
+  "atividades educativas para criança de 3 anos",
+  "atividades educativas para crianças",
+  "atividades educativas para crianças de 2 anos",
+  "atividades educativas para crianças de 4 anos",
+  "atividades educativas para crianças de 5 anos",
+  "atividades educativas para imprimir",
+  "atividades educação infantil ciencias da natureza",
+  "atividades emoções 3 ano fundamental",
+  "atividades emoções divertidamente",
+  "atividades emoções e sentimentos",
+  "atividades emoções e sentimentos educação infantil",
+  "atividades emoções psicologia",
+  "atividades emoções wordwall",
+  "atividades encontre os objetos escondidos",
+  "atividades espaço geografico 6 ano",
+  "atividades espaço infantil ccb",
+  "atividades espaço publico e privado",
+  "atividades espaço publico e privado 3 ano fundamental",
+  "atividades espaço público e privado 1 ano",
+  "atividades espaço rural e urbano",
+  "atividades espaço tempo quantidade relações e transformações",
+  "atividades espaço tempo quantidade relações e transformações na educação infantil",
+  "atividades feira de ciencias educação infantil",
+  "atividades ferramentas para mundo do trabalho",
+  "atividades flores da primavera",
+  "atividades flores e frutos",
+  "atividades flores educação infantil",
+  "atividades flores para colorir",
+  "atividades formas geometricas 1 ano",
+  "atividades formas geométricas",
+  "atividades formas geométricas 2 ano",
+  "atividades formas geométricas 2 ano fundamental acessaber",
+  "atividades formas geométricas 3 ano",
+  "atividades formas geométricas educação infantil",
+  "atividades formas geométricas educação infantil 4 anos",
+  "atividades formas geométricas educação infantil pdf",
+  "atividades formas nominais do verbo infinitivo gerúndio e particípio",
+  "atividades frutas e verduras educação infantil",
+  "atividades frutas em ingles 1 ano fundamental",
+  "atividades frutas em ingles 3 ano",
+  "atividades frutas em ingles educação infantil",
+  "atividades frutas em inglês 2 ano",
+  "atividades frutas em inglês para imprimir",
+  "atividades gato xadrez para imprimir",
+  "atividades geometria plana",
+  "atividades grande ou pequeno",
+  "atividades guerreiras do kpop para imprimir",
+  "atividades hot wheels para imprimir",
+  "atividades inverno 1 ano",
+  "atividades inverno 2 ano",
+  "atividades inverno berçário",
+  "atividades inverno maternal",
+  "atividades inverno maternal 1",
+  "atividades inverno maternal 2",
+  "atividades kids para imprimir",
+  "atividades kumon para imprimir",
+  "atividades kátia teixeira para imprimir",
+  "atividades laboratorio de ciencias educação infantil",
+  "atividades ludicas animais da fazenda",
+  "atividades mais ou menos",
+  "atividades mais ou menos educação infantil",
+  "atividades masha e urso para imprimir",
+  "atividades matematica educação infantil 3 anos",
+  "atividades matematica educação infantil 4 anos",
+  "atividades matematica educação infantil 5 anos",
+  "atividades matematica educação infantil 5 anos para imprimir",
+  "atividades matematica educação infantil para imprimir",
+  "atividades matematica educação infantil sequencia numerica ate 20",
+  "atividades matematica educação infantil sequencia numerica ate 30",
+  "atividades matematica pre escola",
+  "atividades matemática pré escola para imprimir",
+  "atividades medidas de comprimento",
+  "atividades medidas de comprimento 3 ano",
+  "atividades medidas de comprimento 4 ano",
+  "atividades medidas de tempo",
+  "atividades minhas atividades",
+  "atividades montagem de palavras",
+  "atividades moveis em ingles",
+  "atividades multiplicação anos iniciais",
+  "atividades musica aquarela",
+  "atividades musica borboletinha educação infantil",
+  "atividades musica dona aranha educação infantil",
+  "atividades musica peixe vivo educação infantil",
+  "atividades música aquarela educação infantil",
+  "atividades música cai cai balão educação infantil",
+  "atividades música índios legião urbana",
+  "atividades online",
+  "atividades online 1o ano",
+  "atividades online 4 ano",
+  "atividades online de alfabetização",
+  "atividades online de matemática",
+  "atividades online grátis",
+  "atividades online para autistas",
+  "atividades online para crianças",
+  "atividades online para ganhar dinheiro",
+  "atividades online pré escolar",
+  "atividades online remuneradas",
+  "atividades online wordwall",
+  "atividades padaria",
+  "atividades padrões",
+  "atividades padrões e sequências",
+  "atividades padrões geométricos",
+  "atividades palavras cruzadas 1 ano",
+  "atividades palavras cruzadas 2 ano",
+  "atividades palavras cruzadas 3 ano",
+  "atividades palavras cruzadas 4 ano",
+  "atividades palavras cruzadas 5 ano",
+  "atividades palavras cruzadas 6 ano",
+  "atividades palavras cruzadas para alfabetização",
+  "atividades palavras cruzadas para imprimir",
+  "atividades para aprender ver as horas",
+  "atividades para imprimir",
+  "atividades para imprimir 1 ano",
+  "atividades para imprimir 2 ano",
+  "atividades para imprimir 3 ano",
+  "atividades para imprimir 4 ano",
+  "atividades para imprimir 5 ano",
+  "atividades para imprimir adição e subtração",
+  "atividades para imprimir adulto",
+  "atividades para imprimir alfabetização",
+  "atividades para imprimir alfabetização e letramento",
+  "atividades para imprimir alfabeto",
+  "atividades para imprimir alfabeto educação infantil",
+  "atividades para imprimir alimentação saudável",
+  "atividades para imprimir anos iniciais",
+  "atividades para imprimir antecessor e sucessor",
+  "atividades para imprimir autismo",
+  "atividades para imprimir ba be bi bo bu",
+  "atividades para imprimir bebe 2 anos",
+  "atividades para imprimir berçario 2",
+  "atividades para imprimir berçário",
+  "atividades para imprimir biblicas",
+  "atividades para imprimir bob good",
+  "atividades para imprimir bobbie goods",
+  "atividades para imprimir brincadeiras",
+  "atividades para imprimir brinquedos e brincadeiras",
+  "atividades para imprimir bullying",
+  "atividades para imprimir chapeuzinho vermelho",
+  "atividades para imprimir com a letra a",
+  "atividades para imprimir com a letra c",
+  "atividades para imprimir com a letra u",
+  "atividades para imprimir com a letra w",
+  "atividades para imprimir com ar er ir or ur",
+  "atividades para imprimir com as vogais",
+  "atividades para imprimir com o alfabeto",
+  "atividades para imprimir com ão",
+  "atividades para imprimir coordenação motora",
+  "atividades para imprimir coordenação motora fina",
+  "atividades para imprimir copa do mundo",
+  "atividades para imprimir corpo humano educação infantil",
+  "atividades para imprimir criança de 2 anos",
+  "atividades para imprimir criança de 3 anos",
+  "atividades para imprimir crianças de 4 anos",
+  "atividades para imprimir crianças de 5 anos",
+  "atividades para imprimir da páscoa",
+  "atividades para imprimir de alfabetização",
+  "atividades para imprimir de matematica 4 ano",
+  "atividades para imprimir de matemática",
+  "atividades para imprimir dezenas e unidades",
+  "atividades para imprimir dia das mães",
+  "atividades para imprimir dia das mães educação infantil",
+  "atividades para imprimir dia do circo",
+  "atividades para imprimir dia do livro",
+  "atividades para imprimir dia do livro infantil",
+  "atividades para imprimir dia do trabalho educação infantil",
+  "atividades para imprimir e colorir",
+  "atividades para imprimir e plastificar",
+  "atividades para imprimir educação especial",
+  "atividades para imprimir educação infantil",
+  "atividades para imprimir educação infantil 3 anos",
+  "atividades para imprimir educação infantil 4 anos",
+  "atividades para imprimir educação infantil 5 anos",
+  "atividades para imprimir educação infantil pdf",
+  "atividades para imprimir encontros vocalicos",
+  "atividades para imprimir ensino religioso",
+  "atividades para imprimir escuta fala pensamento e imaginação na educação infantil",
+  "atividades para imprimir espaços tempos quantidades relações e transformações",
+  "atividades para imprimir familia silabica",
+  "atividades para imprimir familia silabica b",
+  "atividades para imprimir festa junina",
+  "atividades para imprimir festa junina alfabetização",
+  "atividades para imprimir festa junina educação infantil",
+  "atividades para imprimir formas geometricas educação infantil",
+  "atividades para imprimir formas geométricas",
+  "atividades para imprimir formação de frases",
+  "atividades para imprimir formação de palavras",
+  "atividades para imprimir frações 5o ano",
+  "atividades para imprimir g3",
+  "atividades para imprimir geografia",
+  "atividades para imprimir gospel",
+  "atividades para imprimir grande e pequeno",
+  "atividades para imprimir gratis de educação infantil",
+  "atividades para imprimir grupo 2",
+  "atividades para imprimir grupo 3",
+  "atividades para imprimir grupo 4",
+  "atividades para imprimir grupo 5",
+  "atividades para imprimir grátis",
+  "atividades para imprimir halloween",
+  "atividades para imprimir higiene",
+  "atividades para imprimir higiene bucal",
+  "atividades para imprimir higiene educação infantil",
+  "atividades para imprimir higiene pessoal",
+  "atividades para imprimir história",
+  "atividades para imprimir homem aranha",
+  "atividades para imprimir horas",
+  "atividades para imprimir hábitos de higiene",
+  "atividades para imprimir idosos",
+  "atividades para imprimir infantil",
+  "atividades para imprimir infantil 2",
+  "atividades para imprimir infantil 3",
+  "atividades para imprimir infantil 3 anos",
+  "atividades para imprimir infantil 4",
+  "atividades para imprimir infantil 5",
+  "atividades para imprimir interpretação de texto 3o ano",
+  "atividades para imprimir interpretação de texto 4o ano",
+  "atividades para imprimir interpretação de texto 5o ano",
+  "atividades para imprimir jardim",
+  "atividades para imprimir jardim 1",
+  "atividades para imprimir jardim 2",
+  "atividades para imprimir jogo dos 7 erros",
+  "atividades para imprimir jogos",
+  "atividades para imprimir jogos e brincadeiras",
+  "atividades para imprimir joão e o pé de feijão",
+  "atividades para imprimir labirinto",
+  "atividades para imprimir letra a",
+  "atividades para imprimir letra b",
+  "atividades para imprimir letra cursiva",
+  "atividades para imprimir letra d",
+  "atividades para imprimir letra f",
+  "atividades para imprimir letra g",
+  "atividades para imprimir letra k",
+  "atividades para imprimir letra l",
+  "atividades para imprimir letra m",
+  "atividades para imprimir letra q",
+  "atividades para imprimir letra x",
+  "atividades para imprimir letra z",
+  "atividades para imprimir letras do alfabeto",
+  "atividades para imprimir maio laranja",
+  "atividades para imprimir matematica 1 ano",
+  "atividades para imprimir matematica 2 ano",
+  "atividades para imprimir matematica 3 ano",
+  "atividades para imprimir matemática",
+  "atividades para imprimir maternal",
+  "atividades para imprimir maternal 1",
+  "atividades para imprimir maternal 2",
+  "atividades para imprimir meio ambiente",
+  "atividades para imprimir meio ambiente educação infantil",
+  "atividades para imprimir na educação infantil",
+  "atividades para imprimir na impressora",
+  "atividades para imprimir natal",
+  "atividades para imprimir natal educação infantil",
+  "atividades para imprimir numeros",
+  "atividades para imprimir numeros e quantidades",
+  "atividades para imprimir numeros educação infantil",
+  "atividades para imprimir numeros ordinais",
+  "atividades para imprimir numeros pontilhados",
+  "atividades para imprimir números de 0 a 9",
+  "atividades para imprimir o monstro das cores",
+  "atividades para imprimir ordem crescente e decrescente",
+  "atividades para imprimir outubro rosa",
+  "atividades para imprimir oxitona paroxitona e proparoxitona",
+  "atividades para imprimir para autistas",
+  "atividades para imprimir para criança de 2 anos",
+  "atividades para imprimir para criança de 5 anos",
+  "atividades para imprimir para crianças de 3 anos",
+  "atividades para imprimir para crianças de 4 anos",
+  "atividades para imprimir pascoa",
+  "atividades para imprimir pdf",
+  "atividades para imprimir primeiro ano",
+  "atividades para imprimir pré 1",
+  "atividades para imprimir pré 2",
+  "atividades para imprimir quarto ano",
+  "atividades para imprimir quarto ano ensino fundamental",
+  "atividades para imprimir quebra cabeça",
+  "atividades para imprimir quem sou eu",
+  "atividades para imprimir quinto ano",
+  "atividades para imprimir raciocinio logico",
+  "atividades para imprimir recorte e colagem",
+  "atividades para imprimir regras de convivencia",
+  "atividades para imprimir relogio",
+  "atividades para imprimir rimas",
+  "atividades para imprimir romero britto",
+  "atividades para imprimir sobre",
+  "atividades para imprimir sobre a páscoa",
+  "atividades para imprimir sobre a quaresma",
+  "atividades para imprimir sobre a água",
+  "atividades para imprimir sobre alimentação saudável",
+  "atividades para imprimir sobre as quatro estações do ano",
+  "atividades para imprimir sobre bullying",
+  "atividades para imprimir sobre maio laranja",
+  "atividades para imprimir sobre o autismo",
+  "atividades para imprimir sobre o dia da mulher",
+  "atividades para imprimir sobre o dia das mães",
+  "atividades para imprimir sobre o dia do estudante",
+  "atividades para imprimir sobre o dia do livro",
+  "atividades para imprimir sobre o meio ambiente",
+  "atividades para imprimir sobre reciclagem",
+  "atividades para imprimir sobre reciclagem de lixo",
+  "atividades para imprimir t e d",
+  "atividades para imprimir tabuada",
+  "atividades para imprimir tdah",
+  "atividades para imprimir tea",
+  "atividades para imprimir terapia ocupacional",
+  "atividades para imprimir terceiro ano",
+  "atividades para imprimir terceiro ano fundamental",
+  "atividades para imprimir tiradentes",
+  "atividades para imprimir traços sons cores e formas educação infantil",
+  "atividades para imprimir tudo sala de aula",
+  "atividades para imprimir verbos",
+  "atividades para imprimir vogais",
+  "atividades para imprimir vogais e consoantes",
+  "atividades para imprimir vogais educação infantil",
+  "atividades para imprimir vogais pontilhadas",
+  "atividades para imprimir vogal e",
+  "atividades para imprimir vogal u",
+  "atividades para imprimir volta as aulas",
+  "atividades para o dia de ação de graças educação infantil",
+  "atividades para o dia de ação de graças na escola",
+  "atividades para recortar imprimir",
+  "atividades para trabalhar raciocinio logico na educação infantil",
+  "atividades para ver as horas",
+  "atividades pareamento autismo",
+  "atividades pareamento das vogais",
+  "atividades pareamento de cores",
+  "atividades pareamento de cores educação infantil",
+  "atividades pareamento de letras",
+  "atividades pareamento de sombras",
+  "atividades pareamento educação infantil",
+  "atividades pareamento para imprimir",
+  "atividades passaros",
+  "atividades passaros educação infantil",
+  "atividades percepção visual educação infantil wordwall",
+  "atividades portugues anos iniciais",
+  "atividades portugues pre escola",
+  "atividades praia da rocha",
+  "atividades praia de icarai",
+  "atividades praia do forte",
+  "atividades praia do gunga",
+  "atividades praia do rosa",
+  "atividades praia educação infantil",
+  "atividades praia grande",
+  "atividades preposições de lugar em inglês",
+  "atividades preposições de tempo em ingles",
+  "atividades preposições em ingles",
+  "atividades profissoes ed infantil",
+  "atividades profissões antigas e atuais",
+  "atividades profissões em inglês",
+  "atividades profissões em inglês 8o ano",
+  "atividades projeto animais da fazenda educação infantil",
+  "atividades prontas no word para imprimir alfabetização",
+  "atividades quadro numerico ate 50",
+  "atividades raciocinio logico educação infantil",
+  "atividades raciocinio logico matematica educação infantil",
+  "atividades repteis e anfibios",
+  "atividades roupas de inverno",
+  "atividades roupas de inverno educação infantil",
+  "atividades roupas e acessorios em ingles",
+  "atividades roupas educação infantil",
+  "atividades roupas em espanhol",
+  "atividades roupas em ingles",
+  "atividades s com som de z alfabetização",
+  "atividades sobre 4 de julho",
+  "atividades sobre animais de estimação",
+  "atividades sobre animais de estimação 2o ano",
+  "atividades sobre animais de estimação 3 ano",
+  "atividades sobre animais do zoológico",
+  "atividades sobre união para imprimir",
+  "atividades sobre utensílios de cozinha em inglês",
+  "atividades sobre zaqueu para imprimir",
+  "atividades sons iniciais",
+  "atividades sons iniciais das palavras",
+  "atividades vegetais 2 ano",
+  "atividades vegetais 3 ano fundamental",
+  "atividades vegetais educação infantil",
+  "atividades vegetais em ingles",
+  "atividades vegetais na alimentação",
+  "atividades verao 2025",
+  "atividades verao norte portugal",
+  "atividades verão creche",
+  "atividades verão crianças",
+  "atividades verão educação infantil",
+  "atividades verão lisboa",
+  "atividades verão pré escolar",
+  "atividades vida marinha",
+  "atividades word para imprimir",
+  "atividades xadrez imprimir",
+  "auxiliar de padaria atividades",
+  "balconista de padaria atividades",
+  "banner frações para imprimir",
+  "bingo",
+  "bingo adição para imprimir",
+  "bingo alfabeto educação infantil",
+  "bingo anos iniciais",
+  "bingo ao vivo",
+  "bingo atividades",
+  "bingo atividades escolares",
+  "bingo da subtração para imprimir",
+  "bingo das frações para imprimir",
+  "bingo das letras",
+  "bingo de palavras",
+  "bingo dos sons iniciais para imprimir",
+  "bingo dos sons iniciais pdf",
+  "bingo e bluey",
+  "bingo educação infantil",
+  "bingo educação infantil 4 anos",
+  "bingo educação infantil numeros",
+  "bingo educação infantil objetivos",
+  "bingo educação infantil para imprimir",
+  "bingo educação infantil pdf",
+  "bingo filme",
+  "bingo football",
+  "bingo futebol",
+  "bingo junino educação infantil",
+  "bingo letras educação infantil",
+  "bingo lotto",
+  "bingo multiplicação para imprimir pdf",
+  "bingo natalino educação infantil",
+  "bingo o rei das manhãs",
+  "bingo para imprimir",
+  "bingo para imprimir cartelas",
+  "bingo para imprimir cha de bebe",
+  "bingo para imprimir de palavras",
+  "bingo para imprimir educação infantil",
+  "bingo para imprimir em branco",
+  "bingo para imprimir gratis",
+  "bingo para imprimir infantil",
+  "bingo para imprimir numeros",
+  "bingo para imprimir pdf",
+  "bingo pre escolar",
+  "bingo sons iniciais",
+  "bluey e bingo atividades",
+  "bncc geometria anos iniciais",
+  "brincadeira caça ao tesouro educação infantil",
+  "brincadeiras consciência fonológica educação infantil",
+  "brinquedos atividades",
+  "brinquedos atividades 1 ano",
+  "brinquedos atividades para bebês",
+  "brinquedos atividades sensoriais",
+  "café da manhã em inglês atividades",
+  "calcular adição para imprimir",
+  "caminho a cristo ilustrado",
+  "caminho a cristo ilustrado pdf",
+  "caminho ilustrado",
+  "cartaz frações para imprimir",
+  "cartaz valor posicional para imprimir",
+  "caça ao tesouro",
+  "caça ao tesouro atividades",
+  "caça ao tesouro bíblico",
+  "caça ao tesouro bíblico para imprimir",
+  "caça ao tesouro decorativo wow",
+  "caça ao tesouro educação infantil",
+  "caça ao tesouro educação infantil 5 anos",
+  "caça ao tesouro educação infantil bncc",
+  "caça ao tesouro educação infantil objetivo",
+  "caça ao tesouro educação infantil para imprimir",
+  "caça ao tesouro educação infantil pdf",
+  "caça ao tesouro educação infantil pistas",
+  "caça ao tesouro filme",
+  "caça ao tesouro forza horizon 6",
+  "caça ao tesouro infantil",
+  "caça ao tesouro infantil para imprimir",
+  "caça ao tesouro literário educação infantil",
+  "caça ao tesouro matemático para imprimir",
+  "caça ao tesouro para imprimir",
+  "caça ao tesouro para imprimir gratis",
+  "caça ao tesouro para imprimir pdf",
+  "caça ao tesouro pascoa",
+  "caça ao tesouro pascoa para imprimir",
+  "caça ao tesouro pistas",
+  "caça ao tesouro pronto para imprimir",
+  "caça ao tesouro pronto para imprimir grátis",
+  "caça ao tesouro pré escolar",
+  "caça palavras anos iniciais",
+  "caça palavras atividades 2 ano",
+  "caça palavras atividades 4 ano",
+  "caça palavras atividades de ensino religioso 9 ano valores",
+  "caça palavras atividades dos dez mandamentos para imprimir",
+  "caça palavras atividades economicas",
+  "caça palavras atividades educativas",
+  "caça palavras atividades para imprimir",
+  "caça palavras atividades sobre fontes históricas 2 ano fundamental",
+  "caça palavras atividades sobre separação de misturas 4 ano",
+  "caça palavras educação infantil para imprimir",
+  "caça palavras facil educação infantil",
+  "caça palavras folclore educação infantil",
+  "caça palavras junino educação infantil",
+  "caça palavras natal educação infantil",
+  "caça palavras para imprimir anos iniciais",
+  "caça palavras pascoa educação infantil",
+  "caça palavras pre escola",
+  "caça palavras primavera educação infantil",
+  "caça-palavras",
+  "caça-palavras 1o ano",
+  "caça-palavras 2o ano",
+  "caça-palavras atividades",
+  "caça-palavras copa do mundo 2026",
+  "caça-palavras difícil",
+  "caça-palavras educação infantil",
+  "caça-palavras fácil",
+  "caça-palavras gerador",
+  "caça-palavras grátis",
+  "caça-palavras online",
+  "caça-palavras para imprimir",
+  "caça-palavras para imprimir 3o ano",
+  "caça-palavras para imprimir 7 ano",
+  "caça-palavras para imprimir adulto",
+  "caça-palavras para imprimir difícil",
+  "caça-palavras para imprimir grande",
+  "caça-palavras para imprimir infantil",
+  "caça-palavras para imprimir infantil pdf",
+  "caça-palavras para imprimir pdf",
+  "caça-palavras para imprimir word",
+  "caça-palavras países da copa",
+  "ciencias educação infantil atividades",
+  "cilindro geometria para imprimir",
+  "classificar significa organizar por categorias usando determinados critérios",
+  "clima atividades",
+  "clima atividades 3 ano",
+  "clima atividades 4 ano",
+  "clima atividades 6 ano",
+  "como contar figuras musicales",
+  "como trabalhar discriminação visual na educação infantil",
+  "comparar dos grupos",
+  "comparar dos grupos en spss",
+  "comparar dos grupos estadisticamente",
+  "comparar grupos",
+  "comparar grupos spss",
+  "comparar números",
+  "comparar números decimais",
+  "comparar números decimais 5 ano",
+  "comparar números inteiros",
+  "comparar números naturais",
+  "comparar números naturais até a ordem das centenas",
+  "comparar números naturais de até duas ordens",
+  "comparar números naturais de até duas ordens em situações cotidianas",
+  "comparar números racionais",
+  "comparar números racionais entre si",
+  "comparar tamanhos",
+  "comparar tamanhos de celular",
+  "comparar tamanhos de cidades",
+  "comparar tamanhos de mouse",
+  "comparar tamanhos de paises",
+  "comparar tamanhos de pessoas",
+  "comparar tamanhos de pneus",
+  "comparar tamanhos de tenis",
+  "comparar tamanhos de tv",
+  "comparar tamanhos iphone",
+  "comprar pecas faltantes lego",
+  "cone geometria para imprimir",
+  "conhecimento das letras",
+  "conhecimento das letras do alfabeto",
+  "conhecimento letras e fonemas",
+  "consciência fonologica atividades para imprimir",
+  "consciência fonológica",
+  "consciência fonológica alfabeto fonico para imprimir",
+  "consciência fonológica atividades",
+  "consciência fonológica atividades 1 ano",
+  "consciência fonológica atividades 2 ano",
+  "consciência fonológica atividades de aliteração",
+  "consciência fonológica atividades educação infantil",
+  "consciência fonológica atividades pdf",
+  "consciência fonológica atividades práticas",
+  "consciência fonológica atividades práticas download",
+  "consciência fonológica atividades vogais",
+  "consciência fonológica e conhecimento das letras",
+  "consciência fonológica e fonêmica",
+  "consciência fonológica e linguagem escrita em pré escolares",
+  "consciência fonológica educação infantil",
+  "consciência fonológica educação infantil 5 anos",
+  "consciência fonológica educação infantil atividades",
+  "consciência fonológica educação infantil livro",
+  "consciência fonológica educação infantil pdf",
+  "consciência fonológica em crianças pequenas",
+  "consciência fonológica exemplos",
+  "consciência fonológica na alfabetização",
+  "consciência fonológica na educação infantil artur gomes de morais pdf",
+  "consciência fonológica na educação infantil bncc",
+  "consciência fonológica na educação infantil e no ciclo de alfabetização",
+  "consciência fonológica na pré escola",
+  "consciência fonológica para imprimir",
+  "consciência fonológica pdf",
+  "consciência fonológica wordwall",
+  "contar figuras",
+  "contar figuras en autocad",
+  "contar figuras geometricas",
+  "contar figuras geometricas para niños",
+  "contar figuras para niños",
+  "contar las figuras de cada dibujo y completar",
+  "contas subtração para imprimir",
+  "continhas subtração educação infantil",
+  "cores atividades",
+  "cores atividades de arte",
+  "cores atividades educação infantil",
+  "cores atividades em ingles",
+  "correios encerra atividades",
+  "correios gerência de atividades externas",
+  "cortex de associação visual",
+  "criar criptograma para imprimir",
+  "criptograma",
+  "criptograma coquetel",
+  "criptograma coquetel para imprimir",
+  "criptograma infantil para imprimir",
+  "criptograma jogo",
+  "criptograma matematico para imprimir",
+  "criptograma o que é",
+  "criptograma online",
+  "criptograma para imprimir",
+  "criptograma para imprimir facil",
+  "criptograma para imprimir grátis",
+  "criptograma para imprimir pdf",
+  "criptograma pdf",
+  "criptograma racha cuca",
+  "criptogramas",
+  "cómo comparar grupos de zoom con google meet webex",
+  "dados gráficos e tabelas",
+  "dia de ação de graças atividades",
+  "dia de ação de graças atividades escolares",
+  "dinossauros atividades",
+  "dinossauros atividades educação infantil",
+  "dinossauros livro com atividades e desenhos para colorir",
+  "dinossauros livro de atividades",
+  "discriminação visual",
+  "discriminação visual atividades",
+  "discriminação visual atividades de atenção e concentração para imprimir",
+  "discriminação visual auditiva tátil",
+  "discriminação visual de formas diferenciar parear e classificar formas geométricas figuras e objetos",
+  "discriminação visual e auditiva",
+  "discriminação visual e auditiva na educação infantil",
+  "discriminação visual e percepção visual",
+  "discriminação visual educação infantil",
+  "discriminação visual jogos de atenção e concentração para imprimir",
+  "discriminação visual na educação infantil",
+  "discriminação visual wordwall",
+  "dominó da subtração para imprimir",
+  "dominó de frações para imprimir",
+  "dominó de frações para imprimir pdf",
+  "ecognitiva contar figuras",
+  "emoções atividades",
+  "emoções atividades 1 ano",
+  "emoções atividades educação infantil",
+  "emoções atividades pdf",
+  "encontre e conte",
+  "encontre e conte animais do mar",
+  "encontre os objetos",
+  "encontre os objetos escondidos",
+  "encontre os objetos escondidos difícil",
+  "encontre os objetos escondidos educação infantil",
+  "encontre os objetos escondidos na imagem",
+  "encontre os objetos escondidos para imprimir",
+  "encontre os objetos na cena",
+  "encontre os objetos na imagem",
+  "encontre os objetos para imprimir",
+  "encontre os objetos perdidos",
+  "encontre os objetos roblox",
+  "espaço atividades",
+  "espaço atividades educação infantil",
+  "estatística análise de gráficos e dados",
+  "estava contando as horas para te ver imprimir",
+  "exercicios anos iniciais",
+  "exercicios de matematica anos iniciais",
+  "exercicios de matematica educação infantil para imprimir",
+  "exercicios de matemática pré escolar",
+  "exercicios de portugues educação infantil para imprimir",
+  "exercicios educação infantil para imprimir",
+  "exercicios online de excel",
+  "exercicios online figuras de linguagem",
+  "exercicios online present continuous",
+  "exercicios online simple past",
+  "exercicios online simple present",
+  "exercicios para imprimir 1 ano",
+  "exercicios para imprimir 2 ano",
+  "exercicios para imprimir 3 ano",
+  "exercicios para imprimir 4 ano",
+  "exercicios para imprimir 5 ano",
+  "exercicios para imprimir de alfabetização",
+  "exercicios para imprimir de equação do 1 grau",
+  "exercicios para imprimir pré escola",
+  "exercicios pré escola imprimir",
+  "exercicios pré escolar 5 anos",
+  "exercícios de 1o ano",
+  "exercícios de 2o ano",
+  "exercícios de educação física infantil",
+  "exercícios de educação física pré escolar",
+  "exercícios de educação infantil",
+  "exercícios de matemática educação infantil",
+  "exercícios de português educação infantil",
+  "exercícios de pré escolar",
+  "exercícios de psicomotricidade educação infantil",
+  "exercícios educação infantil 4 anos",
+  "exercícios educação infantil 5 anos",
+  "exercícios online",
+  "exercícios online de inglês",
+  "exercícios online de matemática",
+  "exercícios online de português",
+  "exercícios online verbo to be",
+  "exercícios para imprimir",
+  "exercícios para imprimir educação infantil",
+  "exercícios pré escolar 3 anos",
+  "exercícios pré escolar 4 anos",
+  "exercícios pré escolar 5 anos para imprimir",
+  "exercícios pré escolar 6 anos",
+  "ferias de verao atividades",
+  "ferramentas para criar atividades",
+  "ferramentas para gerenciar atividades",
+  "ficha de atividade padrões e regularidades",
+  "fichas consciência fonologica para imprimir",
+  "figuras geometria para imprimir",
+  "flores atividades",
+  "formas atividades",
+  "formas geometria educação infantil",
+  "formas geometria para imprimir",
+  "frações",
+  "frações 2o ano",
+  "frações 5 ano",
+  "frações 6 ano",
+  "frações algébricas",
+  "frações anos iniciais",
+  "frações anos iniciais ensino fundamental",
+  "frações atividades",
+  "frações atividades 3 ano",
+  "frações atividades 4 ano",
+  "frações atividades 5 ano",
+  "frações atividades 6 ano",
+  "frações atividades 7 ano",
+  "frações atividades adaptadas",
+  "frações atividades ludicas",
+  "frações atividades para imprimir",
+  "frações atividades pdf",
+  "frações decimais",
+  "frações educação infantil",
+  "frações equivalentes",
+  "frações equivalentes 5 ano",
+  "frações equivalentes exercícios",
+  "frações equivalentes para imprimir",
+  "frações impróprias",
+  "frações para imprimir",
+  "frações parciais",
+  "frutas atividades",
+  "frutas atividades educação infantil",
+  "frutas atividades em ingles",
+  "frutas atividades infantil",
+  "geometria",
+  "geometria 1o ano",
+  "geometria 2o ano",
+  "geometria 2o ano fundamental",
+  "geometria analítica",
+  "geometria anos iniciais",
+  "geometria anos iniciais atividades",
+  "geometria atividades",
+  "geometria atividades 1 ano",
+  "geometria atividades 2 ano",
+  "geometria atividades 3 ano",
+  "geometria atividades 4 ano",
+  "geometria atividades 5 ano",
+  "geometria atividades 6 ano",
+  "geometria atividades 8 ano",
+  "geometria atividades adaptadas",
+  "geometria descritiva",
+  "geometria e balanceamento",
+  "geometria educação infantil",
+  "geometria educação infantil atividades",
+  "geometria espacial",
+  "geometria espacial educação infantil",
+  "geometria espacial para imprimir",
+  "geometria euclidiana",
+  "geometria molecular",
+  "geometria nos anos iniciais do ensino fundamental",
+  "geometria nos anos iniciais possíveis conexões teóricas e práticas",
+  "geometria para imprimir",
+  "geometria plana",
+  "geometria plana educação infantil",
+  "geometria plana exercícios",
+  "geometria plana para imprimir",
+  "geometria pre escolar",
+  "geometria sagrada",
+  "graficos de dados",
+  "graficos e representação de dados",
+  "grande ou pequeno",
+  "grande ou pequeno atividade",
+  "grande ou pequeno beatriz meirelles",
+  "grande ou pequeno beatriz meirelles pdf",
+  "grande ou pequeno educação infantil",
+  "grande ou pequeno em inglês",
+  "grande ou pequeno em italiano",
+  "grande ou pequeno livro",
+  "grande ou pequeno pedro bandeira",
+  "grande ou pequeno tem sempre o tamanho de um pé",
+  "grande pequeno educação infantil",
+  "grandezas e medidas anos iniciais",
+  "grandezas e medidas educação infantil",
+  "gratidão atividades dia de ação de graças para imprimir",
+  "gráficos e interpretação de dados",
+  "hospital das palavras atividades",
+  "ilha das flores atividades",
+  "inverno atividades",
+  "inverno atividades creche",
+  "inverno atividades educação infantil",
+  "inverno atividades pré escolar",
+  "jogo consciência fonológica educação infantil",
+  "jogo consciência fonológica para imprimir",
+  "jogo criptograma para imprimir",
+  "jogo da geometria para imprimir",
+  "jogo das preposições para imprimir",
+  "jogo de formar palavras com letras embaralhadas para imprimir",
+  "jogo do valor posicional para imprimir",
+  "jogo pareamento para imprimir",
+  "jogo subtração educação infantil",
+  "jogo subtração para imprimir",
+  "jogos com frações para imprimir pdf",
+  "jogos de associação visual",
+  "jogos educativos online educação infantil",
+  "jogos educativos online pré escolar",
+  "jogos frações para imprimir",
+  "jogos online",
+  "jogos online 1o ano",
+  "jogos online alfabetização educação infantil",
+  "jogos online do google",
+  "jogos online educação financeira infantil",
+  "jogos online educação infantil",
+  "jogos online educação infantil 4 anos",
+  "jogos online educação infantil gratis",
+  "jogos online educação infantil wordwall",
+  "jogos online folclore educação infantil",
+  "jogos online gratis pc",
+  "jogos online gratis pre escolar",
+  "jogos online grátis",
+  "jogos online grátis poki",
+  "jogos online infantil",
+  "jogos online numeros educação infantil",
+  "jogos online para jogar com amigos",
+  "jogos online para meninas",
+  "jogos online para pc",
+  "jogos online poki",
+  "jogos online pre escola",
+  "jogos online vogais educação infantil",
+  "kit atividades de alfabetização",
+  "kit de atividades para imprimir",
+  "lego pedir peças faltantes",
+  "letras do alfabeto embaralhadas para imprimir",
+  "letras embaralhadas",
+  "letras embaralhadas atividades",
+  "letras embaralhadas de perto",
+  "letras embaralhadas jogo",
+  "letras embaralhadas leitura",
+  "letras embaralhadas para formar palavras",
+  "letras embaralhadas para imprimir",
+  "letras embaralhadas que formam palavras",
+  "letras embaralhadas visão",
+  "letras embaralhadas wordwall",
+  "letras moveis atividades",
+  "linguagem matemática na educação infantil atividades",
+  "lista de preposições para imprimir",
+  "logica ordem visualizacao stories",
+  "logica visual beghelli",
+  "logica visual diseño grafico",
+  "logica visual software",
+  "logica visual software download",
+  "logica visualg",
+  "lógica programação visualg c ++ python c# java projetos",
+  "lógica visual",
+  "mais menos educação infantil",
+  "mais ou menos",
+  "mais ou menos em espanhol",
+  "mais ou menos em frances",
+  "mais ou menos em ingles",
+  "mais ou menos em italiano",
+  "mais ou menos meme",
+  "mais ou menos ou mas ou menos",
+  "mais ou menos simbolo",
+  "mais ou menos sinal",
+  "mais ou menos sinonimo",
+  "marcas de contagem",
+  "marcas de contagem na parede",
+  "matematica educação infantil atividades",
+  "matematica educação infantil atividades de alfabetização",
+  "matemática 1o ano atividades",
+  "matemática 2o ano atividades",
+  "matemática anos iniciais atividades",
+  "medidas",
+  "medidas antropométricas",
+  "medidas arbitrárias educação infantil",
+  "medidas atividades",
+  "medidas atividades 1 ano",
+  "medidas atividades 2 ano",
+  "medidas atividades 3 ano",
+  "medidas atividades 4 ano",
+  "medidas atividades 5 ano",
+  "medidas cama de casal",
+  "medidas cama de solteiro",
+  "medidas cama king",
+  "medidas cama queen",
+  "medidas colchão solteiro",
+  "medidas comprimento educação infantil",
+  "medidas de cama",
+  "medidas de capacidade educação infantil",
+  "medidas de comprimento",
+  "medidas de comprimento anos iniciais",
+  "medidas de massa educação infantil",
+  "medidas de tempo educação infantil",
+  "medidas educação infantil",
+  "medidas mala de bordo",
+  "medidas para imprimir",
+  "medidas para imprimir a4",
+  "medidas para imprimir dtf",
+  "medidas para imprimir dtf textil",
+  "medidas para imprimir en a5",
+  "medidas para imprimir fotos",
+  "medidas para imprimir fotos polaroid",
+  "medidas para imprimir imagens",
+  "medidas para imprimir tamaño poster",
+  "medidas seletivas pre escolar",
+  "medidas universais pré escolar",
+  "minhas medidas educação infantil",
+  "montador de moveis atividades",
+  "montagem de caça palavras",
+  "montagem de palavras",
+  "montagem de palavras com letras",
+  "montagem de palavras com letras móveis",
+  "montagem de palavras com silabas",
+  "montagem de palavras cruzadas",
+  "montagem de palavras para alfabetização",
+  "montagem de palavras simples",
+  "multiplicação",
+  "multiplicação 1o ano",
+  "multiplicação 2o ano",
+  "multiplicação 2o ano fundamental",
+  "multiplicação 3 ano",
+  "multiplicação 4 ano",
+  "multiplicação 5 ano",
+  "multiplicação anos iniciais",
+  "multiplicação atividades",
+  "multiplicação atividades 2 ano",
+  "multiplicação atividades 3 ano",
+  "multiplicação atividades 4 ano",
+  "multiplicação atividades 5 ano",
+  "multiplicação atividades 6 ano",
+  "multiplicação atividades adaptadas",
+  "multiplicação atividades de matemática 3 ano",
+  "multiplicação atividades de matemática 4 ano",
+  "multiplicação atividades de matemática 5 ano",
+  "multiplicação com dois algarismos",
+  "multiplicação de fração",
+  "multiplicação de matrizes",
+  "multiplicação de raizes",
+  "multiplicação divertida para imprimir",
+  "multiplicação dos pães",
+  "multiplicação dos pães e peixes",
+  "multiplicação educação infantil",
+  "multiplicação educação infantil atividades",
+  "multiplicação para imprimir",
+  "multiplicação para imprimir 3 ano",
+  "multiplicação para imprimir 4 ano",
+  "multiplicação para imprimir 5o ano",
+  "multiplicação por 2 para educação infantil",
+  "musica atividades",
+  "musica atividades de arte",
+  "musica atividades educação infantil",
+  "musica subtração educação infantil",
+  "natal atividades",
+  "natal atividades 1 ano",
+  "natal atividades 2 ano",
+  "natal atividades 3 ano",
+  "natal atividades 4 ano",
+  "natal atividades 5 ano",
+  "natal atividades educação infantil",
+  "natal atividades ludicas",
+  "natal atividades maternal",
+  "natal atividades para imprimir",
+  "noções de geometria educação infantil",
+  "o que são marcas de contagem",
+  "o que são marcas de contagem riscos",
+  "objetivo caça palavras educação infantil",
+  "objetivo de trabalhar discriminação visual na educação infantil",
+  "objetivo de trabalhar pareamento de sombras na educação infantil",
+  "objetivo geometria na educação infantil",
+  "objetivo pareamento educação infantil",
+  "ordenar imagens",
+  "ordenar imagens de uma história",
+  "ordenar imagens wordwall",
+  "outlet de marcas contagem",
+  "padaria marengo encerra atividades",
+  "padrões",
+  "padrões africanos para imprimir",
+  "padrões de atividades escoteiras",
+  "padrões de atividades escoteiras pdf",
+  "padrões de beleza",
+  "padrões de beleza impostos pela sociedade",
+  "padrões de candlestick",
+  "padrões de candlestick para imprimir",
+  "padrões de comportamento",
+  "padrões de herança genética",
+  "padrões de projeto",
+  "padrões de qualidade da educação infantil",
+  "padrões de qualidade da educação infantil paulistana",
+  "padrões geométricos",
+  "padrões matemáticos no pré escolar",
+  "padrões para imprimir",
+  "padrões pre escolar",
+  "padrões respiratórios",
+  "padrões silabicos complexos para imprimir",
+  "padrões silábicos atividades",
+  "padrões silábicos para imprimir",
+  "padrões sinonimo",
+  "palavra adição para imprimir",
+  "palavras cruzadas",
+  "palavras cruzadas 1o ano",
+  "palavras cruzadas 2o ano",
+  "palavras cruzadas atividades",
+  "palavras cruzadas coquetel",
+  "palavras cruzadas diretas",
+  "palavras cruzadas educação infantil",
+  "palavras cruzadas fácil",
+  "palavras cruzadas g1",
+  "palavras cruzadas geniol",
+  "palavras cruzadas online",
+  "palavras cruzadas online grátis",
+  "palavras cruzadas para imprimir",
+  "palavras cruzadas para imprimir adulto",
+  "palavras cruzadas para imprimir adulto pdf",
+  "palavras cruzadas para imprimir coquetel pdf",
+  "palavras cruzadas para imprimir educação infantil",
+  "palavras cruzadas para imprimir grátis",
+  "palavras cruzadas para imprimir infantil",
+  "palavras cruzadas para imprimir nível difícil",
+  "palavras cruzadas para imprimir nível fácil",
+  "palavras cruzadas para imprimir pdf",
+  "palavras cruzadas para imprimir pdf grátis",
+  "palavras cruzadas pdf",
+  "palavras de educação infantil",
+  "palavras de justaposição",
+  "palavras de posição",
+  "palavras posição da sílaba tônica",
+  "pareamento",
+  "pareamento alfabeto para imprimir",
+  "pareamento atividades",
+  "pareamento atividades ludicas cores educação infantil",
+  "pareamento das vogais",
+  "pareamento de animais",
+  "pareamento de animais para imprimir",
+  "pareamento de cores",
+  "pareamento de cores educação infantil",
+  "pareamento de cores para imprimir",
+  "pareamento de frutas para imprimir",
+  "pareamento de letras",
+  "pareamento de letras educação infantil",
+  "pareamento de numeros",
+  "pareamento de números educação infantil",
+  "pareamento de sombras",
+  "pareamento de sombras animais",
+  "pareamento de sombras educação infantil",
+  "pareamento de sombras festa junina",
+  "pareamento de sombras frutas",
+  "pareamento de sombras objetivos",
+  "pareamento de sombras para imprimir",
+  "pareamento de sombras pdf",
+  "pareamento de sombras trabalha o que",
+  "pareamento do alfabeto",
+  "pareamento educação infantil",
+  "pareamento educação infantil bncc",
+  "pareamento imprimir",
+  "pareamento para imprimir",
+  "pareamento significado educação infantil",
+  "pareamento vogais para imprimir",
+  "pareamento wordwall",
+  "partes do corpo atividades",
+  "partes do corpo atividades 1 ano",
+  "partes do corpo atividades 2 ano",
+  "partes do corpo atividades educação infantil",
+  "partes do corpo humano atividades",
+  "partes do corpo humano atividades 1 ano",
+  "partes do corpo humano atividades 2 ano",
+  "partes do corpo humano atividades 5 ano",
+  "partes do corpo humano atividades para educação infantil",
+  "partes do corpo ingles atividades",
+  "pascoa atividades 2 ano",
+  "pascoa atividades 4 ano",
+  "pascoa atividades 5 ano",
+  "pascoa atividades educação infantil",
+  "pascoa atividades on line",
+  "passatempo criptograma para imprimir",
+  "pecas faltantes grow",
+  "percepção visual na educação infantil atividades",
+  "peças faltantes",
+  "peças faltantes lego",
+  "peças faltantes quebra cabeça game office",
+  "peças faltantes quebra cabeça grow",
+  "pistas caça ao tesouro para imprimir",
+  "plano de aula discriminação visual educação infantil",
+  "plano de aula geometria educação infantil",
+  "plano de aula multiplicação educação infantil",
+  "portugues educação infantil atividades",
+  "poster para imprimir medidas",
+  "praia atividades",
+  "praia do frances atividades",
+  "preposições",
+  "preposições acidentais",
+  "preposições atividades",
+  "preposições atividades 4 ano",
+  "preposições atividades 5 ano",
+  "preposições atividades 6 ano",
+  "preposições atividades 7 ano",
+  "preposições atividades com gabarito",
+  "preposições atividades pdf",
+  "preposições de lugar em inglês",
+  "preposições de tempo em inglês",
+  "preposições e conjunções",
+  "preposições em inglês",
+  "preposições em inglês para imprimir",
+  "preposições essenciais",
+  "preposições essenciais e acidentais",
+  "preposições exemplos",
+  "preposições para imprimir",
+  "preposições portugues",
+  "primavera atividades",
+  "primavera atividades 1 ano",
+  "primavera atividades 2 ano",
+  "primavera atividades 3 ano",
+  "primavera atividades 4 ano",
+  "primavera atividades infantil",
+  "primavera atividades ludicas",
+  "primavera atividades maternal",
+  "primavera atividades para educação infantil",
+  "primavera atividades para imprimir",
+  "profissoes atividades 1 ano",
+  "profissões atividades",
+  "profissões atividades 2 ano",
+  "profissões atividades 3 ano",
+  "profissões atividades 4 ano",
+  "profissões atividades educação infantil",
+  "projeto medidas educação infantil",
+  "pré escolar atividade de matematica educação infantil sequencia numerica",
+  "pré escolar atividade de matemática para educação infantil 5 anos",
+  "psicopedagogia atividades raciocinio logico educação infantil",
+  "páscoa atividades",
+  "páscoa atividades 1 ano",
+  "páscoa atividades 3 ano",
+  "páscoa atividades lúdicas",
+  "páscoa atividades para imprimir",
+  "quadro de dez",
+  "quadro de dezena centena e unidade",
+  "quadro de dezena e unidade",
+  "quadro de dezenas",
+  "quadro de educação infantil",
+  "quadro de ordens dezena e unidade",
+  "quadro de unidade dezena centena e milhar",
+  "quadro de valor dezena e unidade",
+  "quadro de valor posicional atividades",
+  "quadro de valor posicional para imprimir grátis",
+  "quadro dez mandamentos",
+  "quadro dez ou mil do programa do ratinho",
+  "quadro dezena de milhar",
+  "quadro numerico 0 a 100 para imprimir",
+  "quadro numerico ate 100 atividades",
+  "quadro numerico ate 50 para imprimir",
+  "quadro numerico grande para imprimir",
+  "quadro numerico stitch para imprimir",
+  "quadro numérico",
+  "quadro numérico 1 a 100 para imprimir",
+  "quadro numérico atividades",
+  "quadro numérico até 100",
+  "quadro numérico até 100 para imprimir",
+  "quadro numérico até 1000 para imprimir",
+  "quadro numérico de 0 a 100",
+  "quadro numérico de 0 a 100 para imprimir",
+  "quadro numérico de 1 a 100",
+  "quadro numérico educação infantil",
+  "quadro numérico para completar até 100",
+  "quadro numérico para imprimir",
+  "quadro numérico para imprimir colorido",
+  "quadro numérico para imprimir pdf",
+  "quadro numérico para preencher",
+  "quadro valor posicional para imprimir",
+  "qual figura é diferente",
+  "qual imagem é diferente",
+  "qual nome é diferente joe john jacob mike",
+  "qual opção é diferente das demais banana maçã uva cenoura",
+  "qual organela é diferente entre as células animais e vegetais",
+  "qual urso é diferente",
+  "qual é as diferentes formas da superfície terrestre",
+  "qual é diferente",
+  "qual é diferente livro",
+  "qual é o diferente wordwall",
+  "quanto custa mais ou menos para imprimir uma foto",
+  "quebra cabeça matemático 1 ano",
+  "quebra cabeça matemático 2 ano",
+  "quebra cabeça matemático 4 ano",
+  "quebra cabeça matemático de sudoku",
+  "quebra cabeça matemático online",
+  "quebra cabeça matemático para imprimir 4 ano",
+  "quebra-cabeça matemático",
+  "quebra-cabeça matemático de sudoku nível 3",
+  "quebra-cabeça matemático para imprimir",
+  "quebra-cabeça matemático para imprimir 6 ano",
+  "quebra-cabeça matemático pdf",
+  "reta numerica atividades 1 ano",
+  "reta numerica atividades 2 ano",
+  "reta numerica atividades 6 ano",
+  "reta numerica atividades 9 ano",
+  "reta numerica colorida para imprimir",
+  "reta numérica",
+  "reta numérica 1 ano",
+  "reta numérica 1 ano para imprimir",
+  "reta numérica 1o ano",
+  "reta numérica 2 ano educação infantil",
+  "reta numérica 2 ano para imprimir",
+  "reta numérica 2o ano",
+  "reta numérica 2o ano fundamental",
+  "reta numérica 3 ano",
+  "reta numérica 3 ano educação infantil",
+  "reta numérica 3 ano para imprimir",
+  "reta numérica 4 ano",
+  "reta numérica 5 ano",
+  "reta numérica 6 ano",
+  "reta numérica 7 ano",
+  "reta numérica 9 ano",
+  "reta numérica atividades",
+  "reta numérica atividades 3 ano",
+  "reta numérica atividades 4 ano",
+  "reta numérica atividades 5 ano",
+  "reta numérica atividades 7 ano",
+  "reta numérica atividades para imprimir",
+  "reta numérica até 100 para imprimir",
+  "reta numérica dos números inteiros",
+  "reta numérica educação infantil",
+  "reta numérica grande para imprimir",
+  "reta numérica para imprimir",
+  "reta numérica para imprimir educação infantil",
+  "reta numérica para imprimir pdf",
+  "roupas atividades",
+  "roupas atividades fisicas",
+  "roupas para atividades ao ar livre",
+  "sala de aula atividades",
+  "sala de aula atividades 1 ano",
+  "sala de aula atividades 2 ano",
+  "sala de aula atividades 3 ano",
+  "sala de aula atividades 4 ano",
+  "sala de aula atividades 5 ano",
+  "site lego peças faltantes",
+  "site sala de aula atividades",
+  "solido geométrico para imprimir",
+  "sons do x atividades para imprimir",
+  "sons iniciais",
+  "sons iniciais das palavras",
+  "sons iniciais e finais",
+  "sons iniciais mediais e finais",
+  "sons iniciais wordwall",
+  "subtração",
+  "subtração 1o ano",
+  "subtração 1o ano fundamental",
+  "subtração 2 ano",
+  "subtração 2o ano",
+  "subtração 2o ano fundamental",
+  "subtração 2o ano sem reserva",
+  "subtração 3 ano",
+  "subtração anos iniciais",
+  "subtração atividades",
+  "subtração atividades 1 ano",
+  "subtração atividades 2 ano",
+  "subtração atividades 3 ano",
+  "subtração atividades 4 ano",
+  "subtração atividades 5 ano",
+  "subtração atividades 6 ano",
+  "subtração atividades de matematica 2 ano fundamental",
+  "subtração atividades de matemática 3 ano",
+  "subtração atividades de matemática 5 ano",
+  "subtração com reagrupamento",
+  "subtração com reserva",
+  "subtração com reserva 3 ano",
+  "subtração com reserva 4 ano",
+  "subtração de fração",
+  "subtração de frações com denominadores diferentes",
+  "subtração educação infantil",
+  "subtração educação infantil 5 anos",
+  "subtração educação infantil atividades",
+  "subtração excel",
+  "subtração ilustrada educação infantil",
+  "subtração para imprimir",
+  "subtração pre escolar",
+  "subtração simples educação infantil",
+  "subtração simples para imprimir",
+  "sudoku ilustrado",
+  "sugestão de atividades para o dia de ação de graças",
+  "só marcas de contagem",
+  "só marcas outlet de contagem",
+  "tabela de preposições para imprimir",
+  "tabela de valor posicional para imprimir",
+  "tabela multiplicação para imprimir",
+  "tabuada adição para imprimir",
+  "tabuada adição para imprimir pdf",
+  "tabuada adição para imprimir tamanho a4 pdf",
+  "tabuada de subtração para imprimir e completar",
+  "tabuada multiplicação para imprimir",
+  "tabuada multiplicação para imprimir pdf",
+  "tabuada multiplicação para imprimir pdf completa",
+  "tabuada subtração para imprimir",
+  "tabuada subtração para imprimir pdf",
+  "termos acessórios atividades",
+  "teste de consciência fonológica para imprimir",
+  "trem do alfabeto",
+  "trem do alfabeto brinquedo",
+  "trem do alfabeto desenho",
+  "trem do alfabeto em eva",
+  "trem do alfabeto fisher price",
+  "trem do alfabeto musica",
+  "trem do alfabeto para colorir",
+  "trem do alfabeto para imprimir",
+  "trem do alfabeto video",
+  "três desenvolvimento psicogenético conhecimento das letras e consciência fonológica",
+  "tudo sala de aula atividades",
+  "tudo sala de aula atividades adaptadas para alunos especiais",
+  "tudo sala de aula atividades sobre",
+  "uso dos porques atividades para imprimir",
+  "valor posicional",
+  "valor posicional 1o ano",
+  "valor posicional 2 ano",
+  "valor posicional 2o ano",
+  "valor posicional 3 ano",
+  "valor posicional 4 ano",
+  "valor posicional 5 ano",
+  "valor posicional atividades",
+  "valor posicional atividades 2 ano",
+  "valor posicional atividades 3 ano",
+  "valor posicional atividades 4 ano",
+  "valor posicional atividades 5 ano",
+  "valor posicional atividades 6 ano",
+  "valor posicional de um número",
+  "valor posicional do algarismo",
+  "valor posicional do algarismo atividades",
+  "valor posicional do algarismo atividades 5 ano",
+  "valor posicional dos números atividades",
+  "valor posicional e valor absoluto",
+  "valor posicional e valor relativo",
+  "valor posicional educação infantil",
+  "valor posicional fichas para imprimir",
+  "valor posicional material para imprimir",
+  "valor posicional para imprimir",
+  "valor posicional para imprimir pdf",
+  "variáveis logica visualg",
+  "vegetais atividades",
+  "ver as horas",
+  "ver as horas 0000",
+  "ver as horas 1111",
+  "ver as horas 1414",
+  "ver as horas 1717",
+  "ver as horas 2121",
+  "ver as horas 2222",
+  "ver as horas 2323",
+  "ver as horas iguais",
+  "ver as horas iguais com frequencia",
+  "verão atividades",
+  "verão atividades para educação infantil",
+  "video alfaletrar conhecimento das letras",
+  "visualg logica de programação",
+  "vocabulario figuras",
+  "vocabulario figuras geometricas",
+  "vocabulario figuras geometricas en ingles",
+  "volei de praia atividades",
+  "wordwall adição educação infantil",
+  "wordwall atividades de alfabetização 3 ano",
+  "wordwall atividades de alfabetização vogais",
+  "wordwall atividades para imprimir",
+  "wordwall consciencia fonologica pre escolar",
+  "wordwall contar figuras",
+  "wordwall montagem de palavras",
+  "wordwall pareamento educação infantil",
+  "wordwall subtração educação infantil",
+  "www atividades para imprimir",
+  "youtube atividades de alfabetização",
+  "área de associação visual função",
+  "árvores atividades meio ambiente educação infantil colagem",
+  "árvores filogenéticas atividades"
+ ]
+}

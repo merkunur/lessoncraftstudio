@@ -1,0 +1,2501 @@
+{
+ "locale": "it",
+ "market": {
+  "hl": "it",
+  "gl": "it"
+ },
+ "generatedAt": "2026-07-06T16:28:12.831Z",
+ "requestCount": 412,
+ "seedCounts": {
+  "core": 4,
+  "types": 177,
+  "typeGrade": 236,
+  "themes": 73,
+  "subjects": 32,
+  "online": 8,
+  "alphabet": 52
+ },
+ "errorCount": 41,
+ "errors": [
+  {
+   "seed": "sequenze e ritmi prima elementare",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "indicatori spaziali scuola dell’infanzia",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "indicatori spaziali classe prima",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "indicatori spaziali classe seconda",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "indicatori spaziali prima elementare",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "classificare per categorie scuola dell’infanzia",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "classificare per categorie classe prima",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "classificare per categorie classe seconda",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "classificare per categorie prima elementare",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "calcolo con le immagini scuola dell’infanzia",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "calcolo con le immagini classe prima",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "calcolo con le immagini classe seconda",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "calcolo con le immagini prima elementare",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "classifichiamo le scienze scuola dell’infanzia",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "classifichiamo le scienze classe prima",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "classifichiamo le scienze classe seconda",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "classifichiamo le scienze prima elementare",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "sequenze e cicli di vita scuola dell’infanzia",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "sequenze e cicli di vita classe prima",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "sequenze e cicli di vita classe seconda",
+   "err": "HTTP 403"
+  }
+ ],
+ "suggestions": {
+  "schede didattiche": {
+   "cls": "core",
+   "s": [
+    "schede didattiche",
+    "schede didattiche prima elementare",
+    "schede didattiche da stampare pdf",
+    "schede didattiche di francese per sostegno pdf",
+    "schede didattiche primavera scuola infanzia",
+    "schede didattiche orologio maestra mary",
+    "schede didattiche italiano",
+    "schede didattiche infanzia da stampare",
+    "schede didattiche matematica",
+    "schede didattiche matematica classe prima"
+   ]
+  },
+  "schede da stampare": {
+   "cls": "core",
+   "s": [
+    "schede da stampare",
+    "schede da stampare e colorare",
+    "schede da stampare prima elementare",
+    "schede da stampare lettura parole bisillabe e trisillabe",
+    "schede da stampare festa della mamma",
+    "schede da stampare sulla primavera",
+    "schede da stampare matematica prima elementare",
+    "schede da stampare di italiano",
+    "schede da stampare pasqua",
+    "schede da stampare primavera infanzia"
+   ]
+  },
+  "esercizi da stampare": {
+   "cls": "core",
+   "s": [
+    "esercizi da stampare",
+    "esercizi da stampare prima elementare",
+    "esercizi da stampare per bambini di 5 anni",
+    "esercizi da stampare per bambini",
+    "esercizi da stampare inglese",
+    "esercizi da stampare per bambini di 3 anni",
+    "esercizi da stampare present simple",
+    "esercizi da stampare per anziani",
+    "esercizi da stampare tabelline",
+    "esercizi da stampare seconda elementare"
+   ]
+  },
+  "schede didattiche da stampare": {
+   "cls": "core",
+   "s": [
+    "schede didattiche da stampare pdf",
+    "schede didattiche da stampare gratis",
+    "schede didattiche da stampare",
+    "schede didattiche da stampare autismo",
+    "schede didattiche da stampare infanzia",
+    "schede didattiche da stampare 5 elementare",
+    "schede didattiche da stampare prima elementare",
+    "schede didattiche da stampare matematica",
+    "schede didattiche da stampare seconda elementare",
+    "schede didattiche da stampare italiano"
+   ]
+  },
+  "addizione": {
+   "cls": "types",
+   "s": [
+    "addizione",
+    "addizione erculea",
+    "addizione elettrofila",
+    "addizione nucleofila",
+    "addizione e sottrazione",
+    "addizione tra frazioni",
+    "addizione con la prova",
+    "addizione di frazioni",
+    "addizione nucleofila aldeidi e chetoni",
+    "addizione in inglese"
+   ]
+  },
+  "addizione schede": {
+   "cls": "types",
+   "s": [
+    "addizione schede",
+    "addizione schede matematica prima elementare",
+    "addizione schede didattiche",
+    "schede addizione ripetuta classe seconda",
+    "schede addizione prima elementare",
+    "schede addizione ripetuta",
+    "schede addizione e sottrazione",
+    "schede addizione e sottrazione prima elementare",
+    "schede addizione seconda elementare",
+    "schede addizione e sottrazione operazioni inverse"
+   ]
+  },
+  "addizione da stampare": {
+   "cls": "types",
+   "s": [
+    "addizione da stampare",
+    "tabella dell'addizione da stampare",
+    "tabella addizione vuota da stampare"
+   ]
+  },
+  "crittogramma": {
+   "cls": "types",
+   "s": [
+    "crittogramma",
+    "crittogramma significato",
+    "crittogramma esempio",
+    "crittogramma gioco",
+    "crittogramma online",
+    "crittogramma musicale",
+    "crittogramma olivier levasseur",
+    "crittogramma visivo",
+    "crittogramma di san nicola",
+    "crittogramma levasseur"
+   ]
+  },
+  "sottrazione": {
+   "cls": "types",
+   "s": [
+    "sottrazione su excel",
+    "sottrazione",
+    "sottrazione in colonna",
+    "sottrazione in inglese",
+    "sottrazione fraudolenta al pagamento delle imposte",
+    "sottrazione excel formula",
+    "sottrazione con la prova",
+    "sottrazione punti patente",
+    "sottrazione tra frazioni",
+    "sottrazione sinonimo"
+   ]
+  },
+  "sottrazione schede": {
+   "cls": "types",
+   "s": [
+    "sottrazione schede",
+    "sottrazione schede didattiche classe prima",
+    "schede sottrazione autismo",
+    "schede sottrazione prima elementare",
+    "schede sottrazione come resto e differenza",
+    "schede sottrazione classe seconda",
+    "schede sottrazione come differenza classe prima",
+    "schede sottrazione seconda elementare",
+    "proprietà invariantiva sottrazione schede",
+    "addizione e sottrazione schede"
+   ]
+  },
+  "sottrazione da stampare": {
+   "cls": "types",
+   "s": [
+    "tabella della sottrazione da stampare"
+   ]
+  },
+  "più o meno": {
+   "cls": "types",
+   "s": [
+    "più o meno simbolo",
+    "più o meno",
+    "più o meno in inglese",
+    "più o meno sinonimo",
+    "più o meno in francese",
+    "più o meno 30 giorni",
+    "più o meno in spagnolo",
+    "più o meno latex",
+    "più o meno come fa un piccione",
+    "più o meno analisi grammaticale"
+   ]
+  },
+  "più o meno schede": {
+   "cls": "types",
+   "s": [
+    "di più o di meno schede didattiche",
+    "schede più o meno classe prima"
+   ]
+  },
+  "puzzle matematico": {
+   "cls": "types",
+   "s": [
+    "puzzle matematico",
+    "puzzle matematico giornata della terra",
+    "puzzle matematico gratis",
+    "puzzle matematico classe prima",
+    "puzzle matematico pdf",
+    "puzzle matematico halloween",
+    "puzzle matematico gioco",
+    "puzzle matematico online",
+    "puzzle matematico classe seconda",
+    "puzzle matematico dea scuola"
+   ]
+  },
+  "scheda di matematica": {
+   "cls": "types",
+   "s": [
+    "scheda di matematica",
+    "scheda di matematica prima elementare",
+    "scheda di matematica seconda elementare",
+    "scheda di matematica 5 elementare",
+    "scheda di matematica 4 elementare",
+    "scheda di matematica classe prima",
+    "scheda di matematica classe seconda",
+    "scheda di matematica da colorare",
+    "scheda di matematica terza elementare",
+    "scheda di matematica sulla giornata della terra"
+   ]
+  },
+  "scheda di matematica da stampare": {
+   "cls": "types",
+   "s": [
+    "scheda di matematica da stampare"
+   ]
+  },
+  "grande o piccolo": {
+   "cls": "types",
+   "s": [
+    "grande o piccolo nel bridge",
+    "grande o piccolo",
+    "grande o piccolo libro",
+    "grande o piccolo pevero",
+    "grande o piccolo baby montessori",
+    "grande o piccolo in inglese",
+    "grande o piccolo nel bridge cruciverba",
+    "bicchiere grande o piccolo per il vino",
+    "calice grande o piccolo per il vino",
+    "seno grande o piccolo da cosa dipende"
+   ]
+  },
+  "bingo": {
+   "cls": "types",
+   "s": [
+    "bingo",
+    "bingo online",
+    "bingo bongo",
+    "bingo vicino a me",
+    "bingo snai",
+    "bingo fontanafredda",
+    "bingo eurobet",
+    "bingo re di roma",
+    "bingo football",
+    "bingo sisal"
+   ]
+  },
+  "bingo schede": {
+   "cls": "types",
+   "s": [
+    "bingo schede",
+    "schede bingo da stampare"
+   ]
+  },
+  "bingo da stampare": {
+   "cls": "types",
+   "s": [
+    "bingo da stampare",
+    "bingo da stampare e colorare",
+    "cartelle bingo da stampare",
+    "cartelle bingo da stampare pdf",
+    "cartelle bingo da stampare gratis",
+    "schede bingo da stampare",
+    "bingo halloween da stampare",
+    "bingo bluey da stampare e colorare",
+    "bingo natale da stampare",
+    "christmas bingo da stampare"
+   ]
+  },
+  "abbinamento a griglia": {
+   "cls": "types",
+   "s": [
+    "abbinamento griglia portieri",
+    "abbinamento grigliata di carne"
+   ]
+  },
+  "abbinamento": {
+   "cls": "types",
+   "s": [
+    "abbinamento colori",
+    "abbinamento basato sui colori",
+    "abbinamento nero e marrone",
+    "abbinamento marrone",
+    "abbinamento colori vestiti uomo",
+    "abbinamento in inglese",
+    "abbinamento tortora e grigio",
+    "abbinamento blu e marrone",
+    "abbinamento cibo vino",
+    "abbinamento asparagi e pesce"
+   ]
+  },
+  "abbinamento schede": {
+   "cls": "types",
+   "s": [
+    "schede abbinamento numero quantità",
+    "schede abbinamento autismo",
+    "schede abbinamento colori",
+    "schede abbinamento cibo vino",
+    "schede abbinamento"
+   ]
+  },
+  "ordina le immagini": {
+   "cls": "types",
+   "s": [
+    "ordina le immagini",
+    "ordina cronologicamente le immagini"
+   ]
+  },
+  "abbina le ombre": {
+   "cls": "types",
+   "s": [
+    "abbina le ombre",
+    "abbina le ombre montessori",
+    "abbina le ombre gioco"
+   ]
+  },
+  "treno dell'alfabeto": {
+   "cls": "types",
+   "s": [
+    "treno dell'alfabeto",
+    "il treno dell alfabeto canzone",
+    "bob il treno dell alfabeto"
+   ]
+  },
+  "preposizioni": {
+   "cls": "types",
+   "s": [
+    "preposizioni articolate",
+    "preposizioni semplici",
+    "preposizioni",
+    "preposizioni in inglese",
+    "preposizioni di luogo in inglese",
+    "preposizioni semplici e articolate",
+    "preposizioni improprie",
+    "preposizioni di tempo in inglese",
+    "preposizioni articolate in francese",
+    "preposizioni articolate quali sono"
+   ]
+  },
+  "preposizioni schede": {
+   "cls": "types",
+   "s": [
+    "preposizioni schede didattiche",
+    "preposizioni schede",
+    "schede preposizioni semplici",
+    "schede preposizioni semplici e articolate",
+    "schede preposizioni di luogo in inglese",
+    "schede preposizioni articolate",
+    "schede preposizioni di luogo in inglese esercizi pdf scuola primaria",
+    "schede preposizioni di tempo in inglese",
+    "schede preposizioni semplici scuola primaria",
+    "schede preposizioni inglese"
+   ]
+  },
+  "preposizioni da stampare": {
+   "cls": "types",
+   "s": [
+    "preposizioni da stampare",
+    "preposizioni articolate da stampare",
+    "preposizioni semplici da stampare",
+    "preposizioni in inglese da stampare",
+    "tabella preposizioni articolate da stampare",
+    "preposizioni semplici e articolate da stampare",
+    "schema preposizioni articolate da stampare"
+   ]
+  },
+  "indovina la parola": {
+   "cls": "types",
+   "s": [
+    "indovina la parola",
+    "indovina la parola proverbi",
+    "indovina la parola film",
+    "indovina la parola cucina",
+    "indovina la parola geografia",
+    "indovina la parola animali",
+    "indovina la parola movies",
+    "indovina la parola arte",
+    "indovina la parola scienza",
+    "indovina la parola storia"
+   ]
+  },
+  "indovina la parola da stampare": {
+   "cls": "types",
+   "s": [
+    "indovina la parola da stampare"
+   ]
+  },
+  "anagrammi": {
+   "cls": "types",
+   "s": [
+    "anagrammi",
+    "anagrammi online",
+    "anagrammi parole",
+    "anagrammi dizy",
+    "anagrammi significato",
+    "anagrammi di acropoli",
+    "anagrammi esempi",
+    "anagrammi wordwall",
+    "anagrammi di nuotatore",
+    "anagrammi inglese"
+   ]
+  },
+  "anagrammi schede": {
+   "cls": "types",
+   "s": [
+    "anagrammi schede didattiche",
+    "anagrammi schede"
+   ]
+  },
+  "anagrammi da stampare": {
+   "cls": "types",
+   "s": [
+    "anagrammi da stampare"
+   ]
+  },
+  "cerca parole": {
+   "cls": "types",
+   "s": [
+    "cerca parole",
+    "cerca parole con lettere",
+    "cerca parole con lettere disordinate",
+    "cerca parole gioco",
+    "cerca parole dizy",
+    "cerca parole word",
+    "cerca parole per bambini",
+    "cerca parole cruciverba",
+    "cerca parole in inglese",
+    "cerca parole online"
+   ]
+  },
+  "cerca parole da stampare": {
+   "cls": "types",
+   "s": [
+    "cerca parole da stampare",
+    "cruciverba cerca parole da stampare"
+   ]
+  },
+  "cruciverba": {
+   "cls": "types",
+   "s": [
+    "cruciverba online",
+    "cruciverba",
+    "cruciverba online gratis",
+    "cruciverba gratis",
+    "cruciverba per bambini",
+    "cruciverba devarai",
+    "cruciverba laurea",
+    "cruciverba da stampare",
+    "cruciverba treccani",
+    "cruciverba corriere della sera"
+   ]
+  },
+  "cruciverba schede": {
+   "cls": "types",
+   "s": [
+    "cruciverba schede",
+    "cruciverba schede didattiche",
+    "schede cruciverba per bambini",
+    "schede cruciverba scuola primaria",
+    "schede cruciverba con le doppie"
+   ]
+  },
+  "cruciverba da stampare": {
+   "cls": "types",
+   "s": [
+    "cruciverba da stampare",
+    "cruciverba da stampare pdf",
+    "cruciverba da stampare per bambini",
+    "cruciverba da stampare con soluzioni",
+    "cruciverba da stampare per anziani",
+    "cruciverba da stampare facili",
+    "cruciverba da stampare gratis",
+    "cruciverba da stampare per ragazzi",
+    "cruciverba da stampare per adulti",
+    "cruciverba da stampare settimana enigmistica"
+   ]
+  },
+  "trova e conta": {
+   "cls": "types",
+   "s": [
+    "trova e conta",
+    "gioco trova e conta",
+    "trova e reis contabilidade"
+   ]
+  },
+  "trova gli oggetti": {
+   "cls": "types",
+   "s": [
+    "trova gli oggetti nascosti",
+    "trova gli oggetti nascosti del fetido",
+    "trova gli oggetti",
+    "trova gli oggetti nascosti pdf",
+    "trova gli oggetti nascosti bambini",
+    "trova gli oggetti nascosti da stampare",
+    "trova gli oggetti nascosti online",
+    "trova gli oggetti gioco",
+    "trova gli oggetti menzionati da ariel",
+    "trova gli oggetti per bambini"
+   ]
+  },
+  "trova gli oggetti schede": {
+   "cls": "types",
+   "s": [
+    "schede trova gli oggetti"
+   ]
+  },
+  "trova gli oggetti da stampare": {
+   "cls": "types",
+   "s": [
+    "trova gli oggetti nascosti da stampare"
+   ]
+  },
+  "caccia al tesoro": {
+   "cls": "types",
+   "s": [
+    "caccia al tesoro per bambini",
+    "caccia al tesoro",
+    "caccia al tesoro in inglese",
+    "caccia al tesoro già pronta pdf gratis",
+    "caccia al tesoro pasqua",
+    "caccia al tesoro in casa",
+    "caccia al tesoro forza horizon 6",
+    "caccia al tesoro addio al nubilato",
+    "caccia al tesoro per bambini in casa",
+    "caccia al tesoro già pronta indovinelli"
+   ]
+  },
+  "caccia al tesoro schede": {
+   "cls": "types",
+   "s": [
+    "schede caccia al tesoro"
+   ]
+  },
+  "caccia al tesoro da stampare": {
+   "cls": "types",
+   "s": [
+    "caccia al tesoro da stampare",
+    "caccia al tesoro da stampare gratis",
+    "caccia al tesoro da stampare per bambini",
+    "caccia al tesoro da stampare pdf",
+    "caccia al tesoro pronta da stampare gratis",
+    "caccia al tesoro natalizia da stampare",
+    "caccia al tesoro elfo da stampare",
+    "caccia al tesoro halloween da stampare",
+    "mappa caccia al tesoro da stampare",
+    "biglietti caccia al tesoro da stampare"
+   ]
+  },
+  "pezzi mancanti": {
+   "cls": "types",
+   "s": [
+    "pezzi mancanti lego",
+    "pezzi mancanti ikea",
+    "pezzi mancanti puzzle ravensburger",
+    "pezzi mancanti",
+    "pezzi mancanti puzzle",
+    "pezzi mancanti set lego",
+    "pezzi mancanti puzzle stranger things",
+    "pezzi mancanti puzzle clementoni",
+    "pezzi mancanti lego set vecchi",
+    "pezzi mancanti lego cosa fare"
+   ]
+  },
+  "l'intruso": {
+   "cls": "types",
+   "s": [
+    "l'intruso",
+    "l'intruso film",
+    "l'intruso libro",
+    "l'intruso film 2017",
+    "l'intruso cast",
+    "l'intruso 2017",
+    "l'intruso trailer ita",
+    "l'intruso gioco",
+    "l'intruso 1989",
+    "l'intruso netflix"
+   ]
+  },
+  "l'intruso schede": {
+   "cls": "types",
+   "s": [
+    "trova l intruso schede didattiche",
+    "trova l intruso schede"
+   ]
+  },
+  "l'intruso da stampare": {
+   "cls": "types",
+   "s": [
+    "trova l'intruso da stampare",
+    "trova l intruso per bambini da stampare"
+   ]
+  },
+  "contare con le immagini": {
+   "cls": "types",
+   "s": [
+    "contare con le immagini",
+    "contare con le dita immagini"
+   ]
+  },
+  "tabella del dieci": {
+   "cls": "types",
+   "s": [
+    "tabella del dieci e lotto",
+    "tabella vincite del dieci e lotto"
+   ]
+  },
+  "tabella dei numeri": {
+   "cls": "types",
+   "s": [
+    "tabella dei numeri primi",
+    "tabella dei numeri primi fino a 1000",
+    "tabella dei numeri",
+    "tabella dei numeri decimali",
+    "tabella dei numeri romani",
+    "tabella dei numeri primi fino a 100",
+    "tabella dei numeri primi da 1 a 1000",
+    "tabella dei numeri fino a 100",
+    "tabella dei numeri primi da 1 a 100",
+    "tabella dei numeri primi fino a 10000"
+   ]
+  },
+  "tabella dei numeri da stampare": {
+   "cls": "types",
+   "s": [
+    "tabella dei numeri da stampare",
+    "tabella dei numeri primi da stampare",
+    "tabella dei numeri decimali da stampare",
+    "tabella dei numeri romani da stampare",
+    "tabella dei grandi numeri da stampare",
+    "tabella dei primi 100 numeri da stampare",
+    "tabella dei numeri fino a 1000 da stampare",
+    "tabella dei grandi numeri scuola primaria da stampare",
+    "tabella dei numeri primi fino a 1000 da stampare",
+    "tabella dei numeri da 1 a 100 da stampare"
+   ]
+  },
+  "confronto tra numeri": {
+   "cls": "types",
+   "s": [
+    "confronto tra numeri decimali",
+    "confronto tra numeri decimali scuola primaria",
+    "confronto tra numeri decimali esercizi",
+    "confronto tra numeri decimali classe terza",
+    "confronto tra numeri scuola primaria",
+    "confronto tra numeri classe prima",
+    "confronto tra numeri relativi",
+    "confronto tra numeri",
+    "confronto tra numeri entro il 20",
+    "confronto tra numeri decimali classe quarta"
+   ]
+  },
+  "confronto tra numeri schede": {
+   "cls": "types",
+   "s": [
+    "confronto tra numeri schede didattiche",
+    "confronto tra numeri decimali schede didattiche",
+    "schede confronto tra numeri"
+   ]
+  },
+  "confronto tra quantità": {
+   "cls": "types",
+   "s": [
+    "confronto tra quantità classe prima",
+    "confronto tra quantità"
+   ]
+  },
+  "confronto di grandezze": {
+   "cls": "types",
+   "s": [
+    "confronto di grandezze"
+   ]
+  },
+  "linea dei numeri": {
+   "cls": "types",
+   "s": [
+    "linea dei numeri fino a 20",
+    "linea dei numeri",
+    "linea dei numeri fino a 20 da stampare",
+    "linea dei numeri fino a 100",
+    "linea dei numeri decimali",
+    "linea dei numeri fino a 20 pdf",
+    "linea dei numeri da stampare",
+    "linea dei numeri decimali da stampare",
+    "linea dei numeri fino a 30",
+    "linea dei numeri fino a 10"
+   ]
+  },
+  "linea dei numeri schede": {
+   "cls": "types",
+   "s": [
+    "linea dei numeri schede didattiche",
+    "la linea dei numeri schede",
+    "moltiplicazioni sulla linea dei numeri schede",
+    "frazioni sulla linea dei numeri schede",
+    "addizioni sulla linea dei numeri schede",
+    "schede linea dei numeri classe prima",
+    "schede linea dei numeri fino a 20",
+    "linea dei numeri fino a 20 schede didattiche",
+    "schede matematica linea dei numeri",
+    "schede sottrazioni linea dei numeri"
+   ]
+  },
+  "linea dei numeri da stampare": {
+   "cls": "types",
+   "s": [
+    "linea dei numeri da stampare",
+    "linea dei numeri da stampare fino a 20",
+    "linea dei numeri da stampare fino a 100",
+    "linea dei numeri da stampare e plastificare",
+    "linea dei numeri da stampare fino a 10",
+    "linea dei numeri da stampare fino a 30",
+    "linea dei numeri da stampare pdf",
+    "linea dei numeri da stampare e plastificare fino a 30",
+    "linea dei numeri da stampare e plastificare fino a 100",
+    "linea dei numeri da stampare da 0 a 20"
+   ]
+  },
+  "decine e unità": {
+   "cls": "types",
+   "s": [
+    "decine e unità",
+    "decine e unità classe prima",
+    "decine e unità scuola primaria",
+    "decine e unità wordwall",
+    "decine e unità schede didattiche",
+    "decine e unità esercizi",
+    "decine e unità classe prima wordwall",
+    "decine e unità classe seconda",
+    "decine e unità tabella",
+    "decine e unità prima elementare"
+   ]
+  },
+  "decine e unità schede": {
+   "cls": "types",
+   "s": [
+    "decine e unità schede didattiche",
+    "decine e unità schede",
+    "centinaia decine e unità schede didattiche",
+    "centinaia decine e unità schede",
+    "decine e unità scuola primaria schede",
+    "decine e unità classe prima schede",
+    "schede decine e unità classe seconda",
+    "schede decine e unità prima elementare",
+    "schede matematica decine e unità"
+   ]
+  },
+  "decine e unità da stampare": {
+   "cls": "types",
+   "s": [
+    "decine e unità da stampare",
+    "esercizi decine e unità da stampare",
+    "abaco decine e unità da stampare",
+    "casa delle decine e unità da stampare",
+    "schede la casa delle decine e delle unità da stampare"
+   ]
+  },
+  "leggere l'orologio": {
+   "cls": "types",
+   "s": [
+    "leggere l'orologio classe seconda",
+    "leggere l'orologio",
+    "leggere l'orologio in inglese",
+    "leggere l'orologio esercizi",
+    "leggere l'orologio scuola primaria",
+    "leggere l'orologio wordwall",
+    "leggere l'orologio maestra tra le nuvole",
+    "leggere l orologio classe seconda primaria",
+    "leggere l orologio in francese",
+    "leggere l'orologio e gestire il tempo erickson"
+   ]
+  },
+  "leggere l'orologio schede": {
+   "cls": "types",
+   "s": [
+    "leggere l orologio schede didattiche",
+    "leggere l orologio classe seconda schede didattiche",
+    "leggere l orologio in inglese schede didattiche",
+    "schede per leggere l'orologio",
+    "insegnare a leggere l orologio ai bambini schede"
+   ]
+  },
+  "leggere l'orologio da stampare": {
+   "cls": "types",
+   "s": [
+    "orologio per imparare a leggere l ora da stampare"
+   ]
+  },
+  "frazioni": {
+   "cls": "types",
+   "s": [
+    "frazioni equivalenti",
+    "frazioni",
+    "frazioni algebriche",
+    "frazioni complementari",
+    "frazioni apparenti",
+    "frazioni decimali",
+    "frazioni proprie improprie apparenti",
+    "frazioni improprie",
+    "frazioni algebriche esercizi",
+    "frazioni decimali scuola primaria"
+   ]
+  },
+  "frazioni schede": {
+   "cls": "types",
+   "s": [
+    "frazioni schede didattiche",
+    "frazioni schede semplificate",
+    "frazioni schede",
+    "frazioni schede primaria",
+    "frazioni schede didattiche scuola primaria",
+    "frazioni schede didattiche classe terza",
+    "frazioni schede classe quarta",
+    "frazioni schede classe terza",
+    "frazioni schede terza elementare",
+    "frazioni schede facili"
+   ]
+  },
+  "frazioni da stampare": {
+   "cls": "types",
+   "s": [
+    "frazioni da stampare",
+    "pizza frazioni da stampare",
+    "lapbook frazioni da stampare",
+    "domino frazioni da stampare",
+    "schede frazioni da stampare",
+    "giochi frazioni da stampare",
+    "frazioni decimali da stampare",
+    "carte frazioni da stampare",
+    "esercizi frazioni da stampare",
+    "muretto delle frazioni da stampare"
+   ]
+  },
+  "grafici e dati": {
+   "cls": "types",
+   "s": [
+    "grafici e dati",
+    "wordwall grafici e dati",
+    "dati grafici e tabelle"
+   ]
+  },
+  "schieramenti e moltiplicazione": {
+   "cls": "types",
+   "s": [
+    "schieramenti e moltiplicazione"
+   ]
+  },
+  "forme geometriche": {
+   "cls": "types",
+   "s": [
+    "forme geometriche",
+    "forme geometriche nomi",
+    "forme geometriche in inglese",
+    "forme geometriche per bambini",
+    "forme geometriche 3d",
+    "forme geometriche da colorare pdf",
+    "forme geometriche da stampare e ritagliare",
+    "forme geometriche scuola infanzia",
+    "forme geometriche da colorare",
+    "forme geometriche solide"
+   ]
+  },
+  "forme geometriche schede": {
+   "cls": "types",
+   "s": [
+    "forme geometriche schede infanzia",
+    "forme geometriche schede didattiche",
+    "forme geometriche schede",
+    "forme geometriche schede didattiche infanzia",
+    "forme geometriche schede didattiche scuola primaria",
+    "forme geometriche in inglese schede",
+    "schede forme geometriche classe prima",
+    "schede forme geometriche 3 anni",
+    "schede forme geometriche autismo",
+    "schede forme geometriche 5 anni"
+   ]
+  },
+  "forme geometriche da stampare": {
+   "cls": "types",
+   "s": [
+    "forme geometriche da stampare e ritagliare",
+    "forme geometriche da stampare",
+    "forme geometriche da stampare e colorare",
+    "forme geometriche da stampare infanzia",
+    "puzzle forme geometriche da stampare",
+    "memory forme geometriche da stampare",
+    "forme geometriche colorate da stampare",
+    "forme geometriche 3d da stampare",
+    "forme geometriche solide da stampare",
+    "forme geometriche animate da stampare"
+   ]
+  },
+  "misurazione": {
+   "cls": "types",
+   "s": [
+    "misurazione pressione",
+    "misurazione glicemia",
+    "misurazione pressione arteriosa",
+    "misurazione ufficiale",
+    "misurazione ossigeno",
+    "misurazione decibel",
+    "misurazione pressione oculare",
+    "misurazione glicemia senza puntura",
+    "misurazione",
+    "misurazione velocità internet"
+   ]
+  },
+  "misurazione schede": {
+   "cls": "types",
+   "s": [
+    "schede misurazione angoli scuola primaria",
+    "schede misurazione angoli",
+    "schede misurazione pressione"
+   ]
+  },
+  "misurazione da stampare": {
+   "cls": "types",
+   "s": [
+    "tabella misurazione glicemia da stampare",
+    "tabella misurazione vista da stampare",
+    "tabella misurazione pressione da stampare",
+    "diario misurazione pressione da stampare",
+    "tabella misurazione glicemia da stampare gratis"
+   ]
+  },
+  "logica visiva": {
+   "cls": "types",
+   "s": [
+    "logica visiva",
+    "logica visiva test",
+    "logica visiva mininterno",
+    "test logica visiva figura nascosta",
+    "esercizi logica visiva",
+    "giochi di logica visiva",
+    "test di logica visiva polizia di stato",
+    "test di logica visiva figura nascosta polizia"
+   ]
+  },
+  "discriminazione visiva": {
+   "cls": "types",
+   "s": [
+    "discriminazione visiva",
+    "discriminazione visiva wordwall",
+    "discriminazione visiva schede",
+    "discriminazione visiva cos'è",
+    "discriminazione visiva lettere",
+    "discriminazione visiva bd",
+    "discriminazione visiva autismo",
+    "discriminazione visiva upbility",
+    "discriminazione visiva e uditiva",
+    "discriminazione visiva ae"
+   ]
+  },
+  "discriminazione visiva schede": {
+   "cls": "types",
+   "s": [
+    "discriminazione visiva schede"
+   ]
+  },
+  "sequenze e ritmi": {
+   "cls": "types",
+   "s": [
+    "sequenze e ritmi classe prima",
+    "sequenze e ritmi"
+   ]
+  },
+  "indicatori spaziali": {
+   "cls": "types",
+   "s": [
+    "indicatori spaziali",
+    "indicatori spaziali esempi",
+    "indicatori spaziali classe prima",
+    "indicatori spaziali scuola primaria",
+    "indicatori spaziali cosa sono",
+    "indicatori spaziali quali sono",
+    "indicatori spaziali schede didattiche",
+    "indicatori spaziali in inglese",
+    "indicatori spaziali testo descrittivo",
+    "indicatori spaziali primaria"
+   ]
+  },
+  "indicatori spaziali schede": {
+   "cls": "types",
+   "s": [
+    "indicatori spaziali schede didattiche",
+    "indicatori spaziali schede",
+    "indicatori spaziali classe prima schede",
+    "schede indicatori spaziali classe seconda"
+   ]
+  },
+  "classificare per categorie": {
+   "cls": "types",
+   "s": [
+    "classificare per categorie"
+   ]
+  },
+  "costruzione di parole": {
+   "cls": "types",
+   "s": [
+    "costruzione di parole",
+    "costruzione di patrimoni le parole degli oggetti e delle convenzioni"
+   ]
+  },
+  "vocabolario illustrato": {
+   "cls": "types",
+   "s": [
+    "vocabolario illustrato",
+    "vocabolario illustrato inglese pdf",
+    "vocabolario illustrato pdf",
+    "vocabolario illustrato le parole per imparare",
+    "vocabolario illustrato per bambini",
+    "vocabolario illustrato della lingua italiana devoto oli",
+    "vocabolario illustrato italiano",
+    "vocabolario illustrato erickson",
+    "vocabolario illustrato inglese",
+    "vocabolario illustrato italiano per stranieri pdf"
+   ]
+  },
+  "consapevolezza fonologica": {
+   "cls": "types",
+   "s": [
+    "consapevolezza fonologica",
+    "consapevolezza fonologica significato",
+    "consapevolezza fonologica e metafonologica",
+    "consapevolezza fonologica esercizi",
+    "consapevolezza fonologica esempi",
+    "consapevolezza fonologica globale e analitica",
+    "consapevolezza fonologica globale",
+    "consapevolezza fonologica analitica",
+    "consapevolezza fonologica wordwall",
+    "la consapevolezza fonologica indica la capacità di"
+   ]
+  },
+  "addizione classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "addizione classe prima",
+    "addizione classe prima quaderno",
+    "addizione classe prima spiegazione",
+    "addizione classe prima maestra mile",
+    "addizione classe prima wordwall",
+    "addizione classe prima elementare",
+    "addizione classe prima video",
+    "addizione classe prima pianetabambini",
+    "problemi addizione classe prima",
+    "l addizione classe prima elementare"
+   ]
+  },
+  "addizione classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "addizione classe seconda",
+    "addizione classe seconda primaria",
+    "addizione ripetuta classe seconda",
+    "problemi addizione classe seconda",
+    "addizione ripetuta classe seconda primaria",
+    "spiegazione addizione classe seconda",
+    "cartellone addizione classe seconda",
+    "prova addizione classe seconda",
+    "problemi addizione classe seconda primaria",
+    "addizione ripetuta classe seconda schede"
+   ]
+  },
+  "addizione prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "addizione prima elementare",
+    "addizione prima elementare maestra anita",
+    "addizione prima elementare quaderno",
+    "addizione prima elementare spiegazione",
+    "schede addizione prima elementare",
+    "l addizione prima elementare",
+    "problemi addizione prima elementare",
+    "esercizi addizione prima elementare",
+    "wordwall addizione prima elementare",
+    "spiegare addizione prima elementare"
+   ]
+  },
+  "sottrazione classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "sottrazione classe prima",
+    "sottrazione classe prima primaria",
+    "sottrazione classe prima wordwall",
+    "sottrazione classe prima quaderno",
+    "sottrazione classe prima schede",
+    "sottrazione classe prima maestra anita",
+    "sottrazione classe prima entro il 10",
+    "sottrazione classe prima video",
+    "problemi sottrazione classe prima",
+    "la sottrazione classe prima maestra mile"
+   ]
+  },
+  "sottrazione classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "sottrazione classe seconda",
+    "sottrazione classe seconda primaria",
+    "problema sottrazione classe seconda",
+    "la sottrazione classe seconda spiegazione",
+    "la sottrazione classe seconda maestra anita",
+    "wordwall sottrazione classe seconda",
+    "prova sottrazione classe seconda",
+    "giochi sottrazione classe seconda",
+    "schede sottrazione classe seconda",
+    "sottrazione come differenza classe seconda"
+   ]
+  },
+  "sottrazione prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "sottrazione prima elementare",
+    "sottrazione prima elementare spiegazione",
+    "sottrazione prima elementare quaderno",
+    "problemi sottrazione prima elementare",
+    "scheda sottrazione prima elementare",
+    "esercizi sottrazione prima elementare",
+    "wordwall sottrazione prima elementare",
+    "video sottrazione prima elementare",
+    "addizione e sottrazione prima elementare",
+    "regola della sottrazione prima elementare"
+   ]
+  },
+  "più o meno classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "schede più o meno classe prima"
+   ]
+  },
+  "puzzle matematico classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "puzzle matematico classe prima"
+   ]
+  },
+  "puzzle matematico classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "puzzle matematico classe seconda"
+   ]
+  },
+  "scheda di matematica scuola dell’infanzia": {
+   "cls": "typeGrade",
+   "s": [
+    "schede di matematica scuola dell infanzia",
+    "attività di matematica scuola dell infanzia"
+   ]
+  },
+  "scheda di matematica classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "scheda di matematica classe prima",
+    "scheda di verifica matematica classe prima",
+    "scheda didattica di matematica classe prima",
+    "di matematica classe prima"
+   ]
+  },
+  "scheda di matematica classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "scheda di matematica classe seconda",
+    "scheda didattica di matematica classe seconda",
+    "di matematica classe seconda"
+   ]
+  },
+  "scheda di matematica prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "scheda di matematica prima elementare",
+    "di matematica prima elementare"
+   ]
+  },
+  "grande o piccolo prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "prima elementare quadretto grande o piccolo"
+   ]
+  },
+  "scheda di modelli scuola dell’infanzia": {
+   "cls": "typeGrade",
+   "s": [
+    "scheda di valutazione scuola dell infanzia",
+    "scheda di logica scuola dell infanzia"
+   ]
+  },
+  "bingo classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo classe prima"
+   ]
+  },
+  "bingo classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo classe seconda inglese"
+   ]
+  },
+  "ordina le immagini scuola dell’infanzia": {
+   "cls": "typeGrade",
+   "s": [
+    "immagini scuola dell infanzia",
+    "immagini scuola dell infanzia per powerpoint",
+    "immagini scuola dell infanzia bambini",
+    "immagini scuola dell infanzia da colorare"
+   ]
+  },
+  "preposizioni classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "preposizioni classe terza primaria",
+    "preposizioni scuola primaria classe quarta",
+    "preposizioni semplici scuola primaria classe terza",
+    "preposizioni articolate classe terza primaria",
+    "preposizioni semplici classe seconda primaria",
+    "le preposizioni classe quinta primaria"
+   ]
+  },
+  "preposizioni classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "preposizioni classe seconda",
+    "preposizioni semplici classe seconda",
+    "preposizioni inglese classe seconda",
+    "preposizioni semplici classe seconda primaria",
+    "preposizioni articolate classe seconda",
+    "preposizioni di luogo classe seconda",
+    "preposizioni di luogo inglese classe seconda"
+   ]
+  },
+  "anagrammi classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "anagrammi classe prima",
+    "anagrammi classe prima wordwall",
+    "anagrammi parole prima classe"
+   ]
+  },
+  "anagrammi classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "anagrammi classe seconda",
+    "wordwall anagrammi classe seconda"
+   ]
+  },
+  "anagrammi prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "anagrammi prima elementare",
+    "wordwall anagrammi prima elementare"
+   ]
+  },
+  "cruciverba scuola dell’infanzia": {
+   "cls": "typeGrade",
+   "s": [
+    "scuola dell infanzia cruciverba"
+   ]
+  },
+  "cruciverba classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "cruciverba classe prima",
+    "cruciverba classe prima primaria",
+    "cruciverba classe prima da stampare",
+    "cruciverba classe prima wordwall",
+    "cruciverba classe prima elementare",
+    "cruciverba classe prima media",
+    "cruciverba matematico classe prima",
+    "cruciverba classe quinta primaria",
+    "cruciverba classe seconda primaria",
+    "cruciverba classe terza primaria"
+   ]
+  },
+  "cruciverba classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "cruciverba classe seconda",
+    "cruciverba classe seconda primaria",
+    "cruciverba classe seconda italiano",
+    "cruciverba classe seconda wordwall",
+    "cruciverba matematico classe seconda",
+    "cruciverba sillabico classe seconda",
+    "cruciverba ortografico classe seconda",
+    "cruciverba doppie classe seconda",
+    "cruciverba geografia classe seconda",
+    "cruciverba natale classe seconda"
+   ]
+  },
+  "cruciverba prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "cruciverba prima elementare",
+    "cruciverba prima elementare da stampare",
+    "cruciverba prima elementare wordwall",
+    "cruciverba bambini prima elementare",
+    "cruciverba matematica prima elementare",
+    "cruciverba italiano prima elementare",
+    "cruciverba inglese prima elementare",
+    "cruciverba facile prima elementare",
+    "cruciverba parole prima elementare"
+   ]
+  },
+  "trova gli oggetti scuola dell’infanzia": {
+   "cls": "typeGrade",
+   "s": [
+    "oggetti scuola dell'infanzia"
+   ]
+  },
+  "trova gli oggetti classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "gli oggetti classe prima"
+   ]
+  },
+  "trova gli oggetti prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "gli oggetti prima elementare"
+   ]
+  },
+  "caccia al tesoro scuola dell’infanzia": {
+   "cls": "typeGrade",
+   "s": [
+    "caccia al tesoro scuola dell infanzia",
+    "caccia al tesoro per bambini scuola dell infanzia"
+   ]
+  },
+  "caccia al tesoro classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "caccia al tesoro classe prima",
+    "caccia al tesoro classe prima primaria",
+    "caccia al tesoro matematica classe prima",
+    "caccia al tesoro classe quarta primaria",
+    "caccia al tesoro classe seconda primaria"
+   ]
+  },
+  "caccia al tesoro classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "caccia al tesoro classe seconda",
+    "caccia al tesoro classe seconda primaria",
+    "caccia al tesoro matematica classe seconda"
+   ]
+  },
+  "caccia al tesoro prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "caccia al tesoro prima elementare",
+    "caccia al tesoro matematica prima elementare"
+   ]
+  },
+  "l'intruso classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "l intruso classe prima",
+    "trova l'intruso classe prima",
+    "wordwall trova l'intruso classe prima",
+    "trova l intruso matematica classe prima",
+    "trova l intruso insiemi classe prima",
+    "trova l'intruso nell'insieme classe prima"
+   ]
+  },
+  "l'intruso prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "trova l'intruso prima elementare"
+   ]
+  },
+  "tabella dei numeri classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "classe quinta tabella dei grandi numeri scuola primaria"
+   ]
+  },
+  "tabella dei numeri prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "tabella dei numeri prima elementare"
+   ]
+  },
+  "confronto tra numeri classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "confronto tra numeri classe prima"
+   ]
+  },
+  "confronto tra numeri classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "confronto tra numeri classe seconda"
+   ]
+  },
+  "confronto tra numeri prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "confronto tra numeri prima elementare"
+   ]
+  },
+  "confronto tra quantità classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "confronto tra quantità classe prima"
+   ]
+  },
+  "linea dei numeri classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "linea dei numeri classe prima",
+    "linea dei numeri classe prima da stampare",
+    "linea dei numeri classe prima wordwall",
+    "sottrazioni linea dei numeri classe prima",
+    "addizioni linea dei numeri classe prima",
+    "linea dei numeri murale classe prima",
+    "schede linea dei numeri classe prima",
+    "cartellone linea dei numeri classe prima",
+    "salti sulla linea dei numeri classe prima",
+    "esercizi sulla linea dei numeri classe prima"
+   ]
+  },
+  "linea dei numeri classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "linea dei numeri classe seconda",
+    "la linea dei numeri classe seconda da stampare",
+    "moltiplicazioni sulla linea dei numeri classe seconda",
+    "divisioni sulla linea dei numeri classe seconda",
+    "esercizi sulla linea dei numeri classe seconda",
+    "addizioni sulla linea dei numeri classe seconda"
+   ]
+  },
+  "linea dei numeri prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "linea dei numeri prima elementare",
+    "linea dei numeri prima elementare da stampare",
+    "esercizi linea dei numeri prima elementare",
+    "schede linea dei numeri prima elementare",
+    "addizioni sulla linea dei numeri prima elementare",
+    "sottrazioni sulla linea dei numeri prima elementare",
+    "linea dei numeri fino a 20 prima elementare",
+    "come spiegare la linea dei numeri in prima elementare",
+    "come presentare la linea dei numeri in prima elementare",
+    "prima elementare linea dei numeri da costruire"
+   ]
+  },
+  "decine e unità classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "decine e unità classe prima",
+    "decine e unità classe prima wordwall",
+    "decine e unità classe prima quaderno",
+    "decine e unità classe prima schede",
+    "decine e unità classe prima video",
+    "decine e unità classe prima pdf",
+    "decine e unità classe prima esercizi",
+    "spiegazione decine e unità classe prima",
+    "wordwall decine e unità classe prima entro il 20",
+    "scomposizione decine e unità classe prima"
+   ]
+  },
+  "decine e unità classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "decine e unità classe seconda",
+    "decine e unità classe seconda wordwall",
+    "esercizi decine e unità classe seconda",
+    "schede decine e unità classe seconda",
+    "ripasso decine e unità classe seconda",
+    "scomposizione decine e unità classe seconda",
+    "spiegazione decine e unità classe seconda",
+    "verifica decine e unità classe seconda",
+    "centinaia decine e unità classe seconda",
+    "wordwall matematica decine e unità classe seconda"
+   ]
+  },
+  "decine e unità prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "decine e unità prima elementare",
+    "esercizi decine e unità prima elementare",
+    "schede decine e unità prima elementare",
+    "wordwall decine e unità prima elementare",
+    "video su decine e unità prima elementare"
+   ]
+  },
+  "leggere l'orologio classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "leggere l orologio classe seconda primaria"
+   ]
+  },
+  "leggere l'orologio classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "leggere l'orologio classe seconda",
+    "leggere l orologio classe seconda primaria",
+    "leggere l orologio classe seconda wordwall",
+    "leggere l orologio classe seconda schede didattiche",
+    "insegnare a leggere l orologio classe seconda",
+    "imparare a leggere l orologio classe seconda"
+   ]
+  },
+  "frazioni classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "frazioni primaria classe terza",
+    "frazioni classe quinta primaria",
+    "frazioni classe quarta primaria",
+    "wordwall frazioni classe prima media",
+    "le frazioni classe prima media",
+    "frazioni classe terza primaria schede",
+    "wordwall frazioni classe prima",
+    "frazioni classe terza primaria wordwall",
+    "verifica frazioni classe prima media",
+    "frazioni classe quarta primaria wordwall"
+   ]
+  },
+  "frazioni classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "frazioni classe seconda",
+    "wordwall frazioni classe seconda",
+    "wordwall frazioni classe seconda media",
+    "espressioni con frazioni classe seconda media"
+   ]
+  },
+  "frazioni prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "frazioni prima elementare"
+   ]
+  },
+  "forme geometriche scuola dell’infanzia": {
+   "cls": "typeGrade",
+   "s": [
+    "forme geometriche scuola dell infanzia",
+    "laboratorio forme geometriche scuola dell infanzia",
+    "attività forme geometriche scuola dell infanzia",
+    "programmazione forme geometriche scuola dell'infanzia",
+    "schede forme.geometriche scuola dell'infanzia",
+    "storia sulle forme geometriche scuola dell infanzia",
+    "lavori sulle forme geometriche scuola dell infanzia",
+    "uda sulle forme geometriche scuola dell infanzia",
+    "racconto sulle forme geometriche scuola dell infanzia",
+    "schede didattiche sulle forme geometriche scuola dell infanzia"
+   ]
+  },
+  "forme geometriche classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "forme geometriche classe prima",
+    "forme geometriche classe prima wordwall",
+    "forme geometriche classe prima primaria",
+    "forme geometriche classe prima elementare",
+    "le forme geometriche classe prima maestra mihaela",
+    "schede forme geometriche classe prima",
+    "uda forme geometriche classe prima",
+    "video forme geometriche classe prima",
+    "filastrocca forme geometriche classe prima",
+    "verifica forme geometriche classe prima"
+   ]
+  },
+  "forme geometriche classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "forme geometriche classe seconda",
+    "forme geometriche classe seconda primaria",
+    "wordwall forme geometriche classe seconda",
+    "schede forme geometriche classe seconda",
+    "verifica forme geometriche classe seconda"
+   ]
+  },
+  "forme geometriche prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "forme geometriche prima elementare",
+    "forme geometriche prima elementare wordwall",
+    "schede forme geometriche prima elementare",
+    "esercizi forme geometriche prima elementare",
+    "forme geometriche classe prima elementare",
+    "forme geometriche in inglese prima elementare"
+   ]
+  },
+  "misurazione classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "misurazione del tempo classe seconda"
+   ]
+  },
+  "sequenze e ritmi classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "sequenze e ritmi classe prima"
+   ]
+  }
+ },
+ "unique": [
+  "abaco decine e unità da stampare",
+  "abbina le ombre",
+  "abbina le ombre gioco",
+  "abbina le ombre montessori",
+  "abbinamento asparagi e pesce",
+  "abbinamento basato sui colori",
+  "abbinamento blu e marrone",
+  "abbinamento cibo vino",
+  "abbinamento colori",
+  "abbinamento colori vestiti uomo",
+  "abbinamento griglia portieri",
+  "abbinamento grigliata di carne",
+  "abbinamento in inglese",
+  "abbinamento marrone",
+  "abbinamento nero e marrone",
+  "abbinamento tortora e grigio",
+  "addizione",
+  "addizione classe prima",
+  "addizione classe prima elementare",
+  "addizione classe prima maestra mile",
+  "addizione classe prima pianetabambini",
+  "addizione classe prima quaderno",
+  "addizione classe prima spiegazione",
+  "addizione classe prima video",
+  "addizione classe prima wordwall",
+  "addizione classe seconda",
+  "addizione classe seconda primaria",
+  "addizione con la prova",
+  "addizione da stampare",
+  "addizione di frazioni",
+  "addizione e sottrazione",
+  "addizione e sottrazione prima elementare",
+  "addizione e sottrazione schede",
+  "addizione elettrofila",
+  "addizione erculea",
+  "addizione in inglese",
+  "addizione nucleofila",
+  "addizione nucleofila aldeidi e chetoni",
+  "addizione prima elementare",
+  "addizione prima elementare maestra anita",
+  "addizione prima elementare quaderno",
+  "addizione prima elementare spiegazione",
+  "addizione ripetuta classe seconda",
+  "addizione ripetuta classe seconda primaria",
+  "addizione ripetuta classe seconda schede",
+  "addizione schede",
+  "addizione schede didattiche",
+  "addizione schede matematica prima elementare",
+  "addizione tra frazioni",
+  "addizioni linea dei numeri classe prima",
+  "addizioni sulla linea dei numeri classe seconda",
+  "addizioni sulla linea dei numeri prima elementare",
+  "addizioni sulla linea dei numeri schede",
+  "anagrammi",
+  "anagrammi classe prima",
+  "anagrammi classe prima wordwall",
+  "anagrammi classe seconda",
+  "anagrammi da stampare",
+  "anagrammi di acropoli",
+  "anagrammi di nuotatore",
+  "anagrammi dizy",
+  "anagrammi esempi",
+  "anagrammi inglese",
+  "anagrammi online",
+  "anagrammi parole",
+  "anagrammi parole prima classe",
+  "anagrammi prima elementare",
+  "anagrammi schede",
+  "anagrammi schede didattiche",
+  "anagrammi significato",
+  "anagrammi wordwall",
+  "attività di matematica scuola dell infanzia",
+  "attività forme geometriche scuola dell infanzia",
+  "bicchiere grande o piccolo per il vino",
+  "biglietti caccia al tesoro da stampare",
+  "bingo",
+  "bingo bluey da stampare e colorare",
+  "bingo bongo",
+  "bingo classe prima",
+  "bingo classe seconda inglese",
+  "bingo da stampare",
+  "bingo da stampare e colorare",
+  "bingo eurobet",
+  "bingo fontanafredda",
+  "bingo football",
+  "bingo halloween da stampare",
+  "bingo natale da stampare",
+  "bingo online",
+  "bingo re di roma",
+  "bingo schede",
+  "bingo sisal",
+  "bingo snai",
+  "bingo vicino a me",
+  "bob il treno dell alfabeto",
+  "caccia al tesoro",
+  "caccia al tesoro addio al nubilato",
+  "caccia al tesoro classe prima",
+  "caccia al tesoro classe prima primaria",
+  "caccia al tesoro classe quarta primaria",
+  "caccia al tesoro classe seconda",
+  "caccia al tesoro classe seconda primaria",
+  "caccia al tesoro da stampare",
+  "caccia al tesoro da stampare gratis",
+  "caccia al tesoro da stampare pdf",
+  "caccia al tesoro da stampare per bambini",
+  "caccia al tesoro elfo da stampare",
+  "caccia al tesoro forza horizon 6",
+  "caccia al tesoro già pronta indovinelli",
+  "caccia al tesoro già pronta pdf gratis",
+  "caccia al tesoro halloween da stampare",
+  "caccia al tesoro in casa",
+  "caccia al tesoro in inglese",
+  "caccia al tesoro matematica classe prima",
+  "caccia al tesoro matematica classe seconda",
+  "caccia al tesoro matematica prima elementare",
+  "caccia al tesoro natalizia da stampare",
+  "caccia al tesoro pasqua",
+  "caccia al tesoro per bambini",
+  "caccia al tesoro per bambini in casa",
+  "caccia al tesoro per bambini scuola dell infanzia",
+  "caccia al tesoro prima elementare",
+  "caccia al tesoro pronta da stampare gratis",
+  "caccia al tesoro scuola dell infanzia",
+  "calice grande o piccolo per il vino",
+  "carte frazioni da stampare",
+  "cartelle bingo da stampare",
+  "cartelle bingo da stampare gratis",
+  "cartelle bingo da stampare pdf",
+  "cartellone addizione classe seconda",
+  "cartellone linea dei numeri classe prima",
+  "casa delle decine e unità da stampare",
+  "centinaia decine e unità classe seconda",
+  "centinaia decine e unità schede",
+  "centinaia decine e unità schede didattiche",
+  "cerca parole",
+  "cerca parole con lettere",
+  "cerca parole con lettere disordinate",
+  "cerca parole cruciverba",
+  "cerca parole da stampare",
+  "cerca parole dizy",
+  "cerca parole gioco",
+  "cerca parole in inglese",
+  "cerca parole online",
+  "cerca parole per bambini",
+  "cerca parole word",
+  "christmas bingo da stampare",
+  "classe quinta tabella dei grandi numeri scuola primaria",
+  "classificare per categorie",
+  "come presentare la linea dei numeri in prima elementare",
+  "come spiegare la linea dei numeri in prima elementare",
+  "confronto di grandezze",
+  "confronto tra numeri",
+  "confronto tra numeri classe prima",
+  "confronto tra numeri classe seconda",
+  "confronto tra numeri decimali",
+  "confronto tra numeri decimali classe quarta",
+  "confronto tra numeri decimali classe terza",
+  "confronto tra numeri decimali esercizi",
+  "confronto tra numeri decimali schede didattiche",
+  "confronto tra numeri decimali scuola primaria",
+  "confronto tra numeri entro il 20",
+  "confronto tra numeri prima elementare",
+  "confronto tra numeri relativi",
+  "confronto tra numeri schede didattiche",
+  "confronto tra numeri scuola primaria",
+  "confronto tra quantità",
+  "confronto tra quantità classe prima",
+  "consapevolezza fonologica",
+  "consapevolezza fonologica analitica",
+  "consapevolezza fonologica e metafonologica",
+  "consapevolezza fonologica esempi",
+  "consapevolezza fonologica esercizi",
+  "consapevolezza fonologica globale",
+  "consapevolezza fonologica globale e analitica",
+  "consapevolezza fonologica significato",
+  "consapevolezza fonologica wordwall",
+  "contare con le dita immagini",
+  "contare con le immagini",
+  "costruzione di parole",
+  "costruzione di patrimoni le parole degli oggetti e delle convenzioni",
+  "crittogramma",
+  "crittogramma di san nicola",
+  "crittogramma esempio",
+  "crittogramma gioco",
+  "crittogramma levasseur",
+  "crittogramma musicale",
+  "crittogramma olivier levasseur",
+  "crittogramma online",
+  "crittogramma significato",
+  "crittogramma visivo",
+  "cruciverba",
+  "cruciverba bambini prima elementare",
+  "cruciverba cerca parole da stampare",
+  "cruciverba classe prima",
+  "cruciverba classe prima da stampare",
+  "cruciverba classe prima elementare",
+  "cruciverba classe prima media",
+  "cruciverba classe prima primaria",
+  "cruciverba classe prima wordwall",
+  "cruciverba classe quinta primaria",
+  "cruciverba classe seconda",
+  "cruciverba classe seconda italiano",
+  "cruciverba classe seconda primaria",
+  "cruciverba classe seconda wordwall",
+  "cruciverba classe terza primaria",
+  "cruciverba corriere della sera",
+  "cruciverba da stampare",
+  "cruciverba da stampare con soluzioni",
+  "cruciverba da stampare facili",
+  "cruciverba da stampare gratis",
+  "cruciverba da stampare pdf",
+  "cruciverba da stampare per adulti",
+  "cruciverba da stampare per anziani",
+  "cruciverba da stampare per bambini",
+  "cruciverba da stampare per ragazzi",
+  "cruciverba da stampare settimana enigmistica",
+  "cruciverba devarai",
+  "cruciverba doppie classe seconda",
+  "cruciverba facile prima elementare",
+  "cruciverba geografia classe seconda",
+  "cruciverba gratis",
+  "cruciverba inglese prima elementare",
+  "cruciverba italiano prima elementare",
+  "cruciverba laurea",
+  "cruciverba matematica prima elementare",
+  "cruciverba matematico classe prima",
+  "cruciverba matematico classe seconda",
+  "cruciverba natale classe seconda",
+  "cruciverba online",
+  "cruciverba online gratis",
+  "cruciverba ortografico classe seconda",
+  "cruciverba parole prima elementare",
+  "cruciverba per bambini",
+  "cruciverba prima elementare",
+  "cruciverba prima elementare da stampare",
+  "cruciverba prima elementare wordwall",
+  "cruciverba schede",
+  "cruciverba schede didattiche",
+  "cruciverba sillabico classe seconda",
+  "cruciverba treccani",
+  "dati grafici e tabelle",
+  "decine e unità",
+  "decine e unità classe prima",
+  "decine e unità classe prima esercizi",
+  "decine e unità classe prima pdf",
+  "decine e unità classe prima quaderno",
+  "decine e unità classe prima schede",
+  "decine e unità classe prima video",
+  "decine e unità classe prima wordwall",
+  "decine e unità classe seconda",
+  "decine e unità classe seconda wordwall",
+  "decine e unità da stampare",
+  "decine e unità esercizi",
+  "decine e unità prima elementare",
+  "decine e unità schede",
+  "decine e unità schede didattiche",
+  "decine e unità scuola primaria",
+  "decine e unità scuola primaria schede",
+  "decine e unità tabella",
+  "decine e unità wordwall",
+  "di matematica classe prima",
+  "di matematica classe seconda",
+  "di matematica prima elementare",
+  "di più o di meno schede didattiche",
+  "diario misurazione pressione da stampare",
+  "discriminazione visiva",
+  "discriminazione visiva ae",
+  "discriminazione visiva autismo",
+  "discriminazione visiva bd",
+  "discriminazione visiva cos'è",
+  "discriminazione visiva e uditiva",
+  "discriminazione visiva lettere",
+  "discriminazione visiva schede",
+  "discriminazione visiva upbility",
+  "discriminazione visiva wordwall",
+  "divisioni sulla linea dei numeri classe seconda",
+  "domino frazioni da stampare",
+  "esercizi addizione prima elementare",
+  "esercizi da stampare",
+  "esercizi da stampare inglese",
+  "esercizi da stampare per anziani",
+  "esercizi da stampare per bambini",
+  "esercizi da stampare per bambini di 3 anni",
+  "esercizi da stampare per bambini di 5 anni",
+  "esercizi da stampare present simple",
+  "esercizi da stampare prima elementare",
+  "esercizi da stampare seconda elementare",
+  "esercizi da stampare tabelline",
+  "esercizi decine e unità classe seconda",
+  "esercizi decine e unità da stampare",
+  "esercizi decine e unità prima elementare",
+  "esercizi forme geometriche prima elementare",
+  "esercizi frazioni da stampare",
+  "esercizi linea dei numeri prima elementare",
+  "esercizi logica visiva",
+  "esercizi sottrazione prima elementare",
+  "esercizi sulla linea dei numeri classe prima",
+  "esercizi sulla linea dei numeri classe seconda",
+  "espressioni con frazioni classe seconda media",
+  "filastrocca forme geometriche classe prima",
+  "forme geometriche",
+  "forme geometriche 3d",
+  "forme geometriche 3d da stampare",
+  "forme geometriche animate da stampare",
+  "forme geometriche classe prima",
+  "forme geometriche classe prima elementare",
+  "forme geometriche classe prima primaria",
+  "forme geometriche classe prima wordwall",
+  "forme geometriche classe seconda",
+  "forme geometriche classe seconda primaria",
+  "forme geometriche colorate da stampare",
+  "forme geometriche da colorare",
+  "forme geometriche da colorare pdf",
+  "forme geometriche da stampare",
+  "forme geometriche da stampare e colorare",
+  "forme geometriche da stampare e ritagliare",
+  "forme geometriche da stampare infanzia",
+  "forme geometriche in inglese",
+  "forme geometriche in inglese prima elementare",
+  "forme geometriche in inglese schede",
+  "forme geometriche nomi",
+  "forme geometriche per bambini",
+  "forme geometriche prima elementare",
+  "forme geometriche prima elementare wordwall",
+  "forme geometriche schede",
+  "forme geometriche schede didattiche",
+  "forme geometriche schede didattiche infanzia",
+  "forme geometriche schede didattiche scuola primaria",
+  "forme geometriche schede infanzia",
+  "forme geometriche scuola dell infanzia",
+  "forme geometriche scuola infanzia",
+  "forme geometriche solide",
+  "forme geometriche solide da stampare",
+  "frazioni",
+  "frazioni algebriche",
+  "frazioni algebriche esercizi",
+  "frazioni apparenti",
+  "frazioni classe quarta primaria",
+  "frazioni classe quarta primaria wordwall",
+  "frazioni classe quinta primaria",
+  "frazioni classe seconda",
+  "frazioni classe terza primaria schede",
+  "frazioni classe terza primaria wordwall",
+  "frazioni complementari",
+  "frazioni da stampare",
+  "frazioni decimali",
+  "frazioni decimali da stampare",
+  "frazioni decimali scuola primaria",
+  "frazioni equivalenti",
+  "frazioni improprie",
+  "frazioni prima elementare",
+  "frazioni primaria classe terza",
+  "frazioni proprie improprie apparenti",
+  "frazioni schede",
+  "frazioni schede classe quarta",
+  "frazioni schede classe terza",
+  "frazioni schede didattiche",
+  "frazioni schede didattiche classe terza",
+  "frazioni schede didattiche scuola primaria",
+  "frazioni schede facili",
+  "frazioni schede primaria",
+  "frazioni schede semplificate",
+  "frazioni schede terza elementare",
+  "frazioni sulla linea dei numeri schede",
+  "giochi di logica visiva",
+  "giochi frazioni da stampare",
+  "giochi sottrazione classe seconda",
+  "gioco trova e conta",
+  "gli oggetti classe prima",
+  "gli oggetti prima elementare",
+  "grafici e dati",
+  "grande o piccolo",
+  "grande o piccolo baby montessori",
+  "grande o piccolo in inglese",
+  "grande o piccolo libro",
+  "grande o piccolo nel bridge",
+  "grande o piccolo nel bridge cruciverba",
+  "grande o piccolo pevero",
+  "il treno dell alfabeto canzone",
+  "immagini scuola dell infanzia",
+  "immagini scuola dell infanzia bambini",
+  "immagini scuola dell infanzia da colorare",
+  "immagini scuola dell infanzia per powerpoint",
+  "imparare a leggere l orologio classe seconda",
+  "indicatori spaziali",
+  "indicatori spaziali classe prima",
+  "indicatori spaziali classe prima schede",
+  "indicatori spaziali cosa sono",
+  "indicatori spaziali esempi",
+  "indicatori spaziali in inglese",
+  "indicatori spaziali primaria",
+  "indicatori spaziali quali sono",
+  "indicatori spaziali schede",
+  "indicatori spaziali schede didattiche",
+  "indicatori spaziali scuola primaria",
+  "indicatori spaziali testo descrittivo",
+  "indovina la parola",
+  "indovina la parola animali",
+  "indovina la parola arte",
+  "indovina la parola cucina",
+  "indovina la parola da stampare",
+  "indovina la parola film",
+  "indovina la parola geografia",
+  "indovina la parola movies",
+  "indovina la parola proverbi",
+  "indovina la parola scienza",
+  "indovina la parola storia",
+  "insegnare a leggere l orologio ai bambini schede",
+  "insegnare a leggere l orologio classe seconda",
+  "l addizione classe prima elementare",
+  "l addizione prima elementare",
+  "l intruso classe prima",
+  "l'intruso",
+  "l'intruso 1989",
+  "l'intruso 2017",
+  "l'intruso cast",
+  "l'intruso film",
+  "l'intruso film 2017",
+  "l'intruso gioco",
+  "l'intruso libro",
+  "l'intruso netflix",
+  "l'intruso trailer ita",
+  "la consapevolezza fonologica indica la capacità di",
+  "la linea dei numeri classe seconda da stampare",
+  "la linea dei numeri schede",
+  "la sottrazione classe prima maestra mile",
+  "la sottrazione classe seconda maestra anita",
+  "la sottrazione classe seconda spiegazione",
+  "laboratorio forme geometriche scuola dell infanzia",
+  "lapbook frazioni da stampare",
+  "lavori sulle forme geometriche scuola dell infanzia",
+  "le forme geometriche classe prima maestra mihaela",
+  "le frazioni classe prima media",
+  "le preposizioni classe quinta primaria",
+  "leggere l orologio classe seconda primaria",
+  "leggere l orologio classe seconda schede didattiche",
+  "leggere l orologio classe seconda wordwall",
+  "leggere l orologio in francese",
+  "leggere l orologio in inglese schede didattiche",
+  "leggere l orologio schede didattiche",
+  "leggere l'orologio",
+  "leggere l'orologio classe seconda",
+  "leggere l'orologio e gestire il tempo erickson",
+  "leggere l'orologio esercizi",
+  "leggere l'orologio in inglese",
+  "leggere l'orologio maestra tra le nuvole",
+  "leggere l'orologio scuola primaria",
+  "leggere l'orologio wordwall",
+  "linea dei numeri",
+  "linea dei numeri classe prima",
+  "linea dei numeri classe prima da stampare",
+  "linea dei numeri classe prima wordwall",
+  "linea dei numeri classe seconda",
+  "linea dei numeri da stampare",
+  "linea dei numeri da stampare da 0 a 20",
+  "linea dei numeri da stampare e plastificare",
+  "linea dei numeri da stampare e plastificare fino a 100",
+  "linea dei numeri da stampare e plastificare fino a 30",
+  "linea dei numeri da stampare fino a 10",
+  "linea dei numeri da stampare fino a 100",
+  "linea dei numeri da stampare fino a 20",
+  "linea dei numeri da stampare fino a 30",
+  "linea dei numeri da stampare pdf",
+  "linea dei numeri decimali",
+  "linea dei numeri decimali da stampare",
+  "linea dei numeri fino a 10",
+  "linea dei numeri fino a 100",
+  "linea dei numeri fino a 20",
+  "linea dei numeri fino a 20 da stampare",
+  "linea dei numeri fino a 20 pdf",
+  "linea dei numeri fino a 20 prima elementare",
+  "linea dei numeri fino a 20 schede didattiche",
+  "linea dei numeri fino a 30",
+  "linea dei numeri murale classe prima",
+  "linea dei numeri prima elementare",
+  "linea dei numeri prima elementare da stampare",
+  "linea dei numeri schede didattiche",
+  "logica visiva",
+  "logica visiva mininterno",
+  "logica visiva test",
+  "mappa caccia al tesoro da stampare",
+  "memory forme geometriche da stampare",
+  "misurazione",
+  "misurazione decibel",
+  "misurazione del tempo classe seconda",
+  "misurazione glicemia",
+  "misurazione glicemia senza puntura",
+  "misurazione ossigeno",
+  "misurazione pressione",
+  "misurazione pressione arteriosa",
+  "misurazione pressione oculare",
+  "misurazione ufficiale",
+  "misurazione velocità internet",
+  "moltiplicazioni sulla linea dei numeri classe seconda",
+  "moltiplicazioni sulla linea dei numeri schede",
+  "muretto delle frazioni da stampare",
+  "oggetti scuola dell'infanzia",
+  "ordina cronologicamente le immagini",
+  "ordina le immagini",
+  "orologio per imparare a leggere l ora da stampare",
+  "pezzi mancanti",
+  "pezzi mancanti ikea",
+  "pezzi mancanti lego",
+  "pezzi mancanti lego cosa fare",
+  "pezzi mancanti lego set vecchi",
+  "pezzi mancanti puzzle",
+  "pezzi mancanti puzzle clementoni",
+  "pezzi mancanti puzzle ravensburger",
+  "pezzi mancanti puzzle stranger things",
+  "pezzi mancanti set lego",
+  "pizza frazioni da stampare",
+  "più o meno",
+  "più o meno 30 giorni",
+  "più o meno analisi grammaticale",
+  "più o meno come fa un piccione",
+  "più o meno in francese",
+  "più o meno in inglese",
+  "più o meno in spagnolo",
+  "più o meno latex",
+  "più o meno simbolo",
+  "più o meno sinonimo",
+  "preposizioni",
+  "preposizioni articolate",
+  "preposizioni articolate classe seconda",
+  "preposizioni articolate classe terza primaria",
+  "preposizioni articolate da stampare",
+  "preposizioni articolate in francese",
+  "preposizioni articolate quali sono",
+  "preposizioni classe seconda",
+  "preposizioni classe terza primaria",
+  "preposizioni da stampare",
+  "preposizioni di luogo classe seconda",
+  "preposizioni di luogo in inglese",
+  "preposizioni di luogo inglese classe seconda",
+  "preposizioni di tempo in inglese",
+  "preposizioni improprie",
+  "preposizioni in inglese",
+  "preposizioni in inglese da stampare",
+  "preposizioni inglese classe seconda",
+  "preposizioni schede",
+  "preposizioni schede didattiche",
+  "preposizioni scuola primaria classe quarta",
+  "preposizioni semplici",
+  "preposizioni semplici classe seconda",
+  "preposizioni semplici classe seconda primaria",
+  "preposizioni semplici da stampare",
+  "preposizioni semplici e articolate",
+  "preposizioni semplici e articolate da stampare",
+  "preposizioni semplici scuola primaria classe terza",
+  "prima elementare linea dei numeri da costruire",
+  "prima elementare quadretto grande o piccolo",
+  "problema sottrazione classe seconda",
+  "problemi addizione classe prima",
+  "problemi addizione classe seconda",
+  "problemi addizione classe seconda primaria",
+  "problemi addizione prima elementare",
+  "problemi sottrazione classe prima",
+  "problemi sottrazione prima elementare",
+  "programmazione forme geometriche scuola dell'infanzia",
+  "proprietà invariantiva sottrazione schede",
+  "prova addizione classe seconda",
+  "prova sottrazione classe seconda",
+  "puzzle forme geometriche da stampare",
+  "puzzle matematico",
+  "puzzle matematico classe prima",
+  "puzzle matematico classe seconda",
+  "puzzle matematico dea scuola",
+  "puzzle matematico gioco",
+  "puzzle matematico giornata della terra",
+  "puzzle matematico gratis",
+  "puzzle matematico halloween",
+  "puzzle matematico online",
+  "puzzle matematico pdf",
+  "racconto sulle forme geometriche scuola dell infanzia",
+  "regola della sottrazione prima elementare",
+  "ripasso decine e unità classe seconda",
+  "salti sulla linea dei numeri classe prima",
+  "scheda di logica scuola dell infanzia",
+  "scheda di matematica",
+  "scheda di matematica 4 elementare",
+  "scheda di matematica 5 elementare",
+  "scheda di matematica classe prima",
+  "scheda di matematica classe seconda",
+  "scheda di matematica da colorare",
+  "scheda di matematica da stampare",
+  "scheda di matematica prima elementare",
+  "scheda di matematica seconda elementare",
+  "scheda di matematica sulla giornata della terra",
+  "scheda di matematica terza elementare",
+  "scheda di valutazione scuola dell infanzia",
+  "scheda di verifica matematica classe prima",
+  "scheda didattica di matematica classe prima",
+  "scheda didattica di matematica classe seconda",
+  "scheda sottrazione prima elementare",
+  "schede abbinamento",
+  "schede abbinamento autismo",
+  "schede abbinamento cibo vino",
+  "schede abbinamento colori",
+  "schede abbinamento numero quantità",
+  "schede addizione e sottrazione",
+  "schede addizione e sottrazione operazioni inverse",
+  "schede addizione e sottrazione prima elementare",
+  "schede addizione prima elementare",
+  "schede addizione ripetuta",
+  "schede addizione ripetuta classe seconda",
+  "schede addizione seconda elementare",
+  "schede bingo da stampare",
+  "schede caccia al tesoro",
+  "schede confronto tra numeri",
+  "schede cruciverba con le doppie",
+  "schede cruciverba per bambini",
+  "schede cruciverba scuola primaria",
+  "schede da stampare",
+  "schede da stampare di italiano",
+  "schede da stampare e colorare",
+  "schede da stampare festa della mamma",
+  "schede da stampare lettura parole bisillabe e trisillabe",
+  "schede da stampare matematica prima elementare",
+  "schede da stampare pasqua",
+  "schede da stampare prima elementare",
+  "schede da stampare primavera infanzia",
+  "schede da stampare sulla primavera",
+  "schede decine e unità classe seconda",
+  "schede decine e unità prima elementare",
+  "schede di matematica scuola dell infanzia",
+  "schede didattiche",
+  "schede didattiche da stampare",
+  "schede didattiche da stampare 5 elementare",
+  "schede didattiche da stampare autismo",
+  "schede didattiche da stampare gratis",
+  "schede didattiche da stampare infanzia",
+  "schede didattiche da stampare italiano",
+  "schede didattiche da stampare matematica",
+  "schede didattiche da stampare pdf",
+  "schede didattiche da stampare prima elementare",
+  "schede didattiche da stampare seconda elementare",
+  "schede didattiche di francese per sostegno pdf",
+  "schede didattiche infanzia da stampare",
+  "schede didattiche italiano",
+  "schede didattiche matematica",
+  "schede didattiche matematica classe prima",
+  "schede didattiche orologio maestra mary",
+  "schede didattiche prima elementare",
+  "schede didattiche primavera scuola infanzia",
+  "schede didattiche sulle forme geometriche scuola dell infanzia",
+  "schede forme geometriche 3 anni",
+  "schede forme geometriche 5 anni",
+  "schede forme geometriche autismo",
+  "schede forme geometriche classe prima",
+  "schede forme geometriche classe seconda",
+  "schede forme geometriche prima elementare",
+  "schede forme.geometriche scuola dell'infanzia",
+  "schede frazioni da stampare",
+  "schede indicatori spaziali classe seconda",
+  "schede la casa delle decine e delle unità da stampare",
+  "schede linea dei numeri classe prima",
+  "schede linea dei numeri fino a 20",
+  "schede linea dei numeri prima elementare",
+  "schede matematica decine e unità",
+  "schede matematica linea dei numeri",
+  "schede misurazione angoli",
+  "schede misurazione angoli scuola primaria",
+  "schede misurazione pressione",
+  "schede per leggere l'orologio",
+  "schede più o meno classe prima",
+  "schede preposizioni articolate",
+  "schede preposizioni di luogo in inglese",
+  "schede preposizioni di luogo in inglese esercizi pdf scuola primaria",
+  "schede preposizioni di tempo in inglese",
+  "schede preposizioni inglese",
+  "schede preposizioni semplici",
+  "schede preposizioni semplici e articolate",
+  "schede preposizioni semplici scuola primaria",
+  "schede sottrazione autismo",
+  "schede sottrazione classe seconda",
+  "schede sottrazione come differenza classe prima",
+  "schede sottrazione come resto e differenza",
+  "schede sottrazione prima elementare",
+  "schede sottrazione seconda elementare",
+  "schede sottrazioni linea dei numeri",
+  "schede trova gli oggetti",
+  "schema preposizioni articolate da stampare",
+  "schieramenti e moltiplicazione",
+  "scomposizione decine e unità classe prima",
+  "scomposizione decine e unità classe seconda",
+  "scuola dell infanzia cruciverba",
+  "seno grande o piccolo da cosa dipende",
+  "sequenze e ritmi",
+  "sequenze e ritmi classe prima",
+  "sottrazione",
+  "sottrazione classe prima",
+  "sottrazione classe prima entro il 10",
+  "sottrazione classe prima maestra anita",
+  "sottrazione classe prima primaria",
+  "sottrazione classe prima quaderno",
+  "sottrazione classe prima schede",
+  "sottrazione classe prima video",
+  "sottrazione classe prima wordwall",
+  "sottrazione classe seconda",
+  "sottrazione classe seconda primaria",
+  "sottrazione come differenza classe seconda",
+  "sottrazione con la prova",
+  "sottrazione excel formula",
+  "sottrazione fraudolenta al pagamento delle imposte",
+  "sottrazione in colonna",
+  "sottrazione in inglese",
+  "sottrazione prima elementare",
+  "sottrazione prima elementare quaderno",
+  "sottrazione prima elementare spiegazione",
+  "sottrazione punti patente",
+  "sottrazione schede",
+  "sottrazione schede didattiche classe prima",
+  "sottrazione sinonimo",
+  "sottrazione su excel",
+  "sottrazione tra frazioni",
+  "sottrazioni linea dei numeri classe prima",
+  "sottrazioni sulla linea dei numeri prima elementare",
+  "spiegare addizione prima elementare",
+  "spiegazione addizione classe seconda",
+  "spiegazione decine e unità classe prima",
+  "spiegazione decine e unità classe seconda",
+  "storia sulle forme geometriche scuola dell infanzia",
+  "tabella addizione vuota da stampare",
+  "tabella dei grandi numeri da stampare",
+  "tabella dei grandi numeri scuola primaria da stampare",
+  "tabella dei numeri",
+  "tabella dei numeri da 1 a 100 da stampare",
+  "tabella dei numeri da stampare",
+  "tabella dei numeri decimali",
+  "tabella dei numeri decimali da stampare",
+  "tabella dei numeri fino a 100",
+  "tabella dei numeri fino a 1000 da stampare",
+  "tabella dei numeri prima elementare",
+  "tabella dei numeri primi",
+  "tabella dei numeri primi da 1 a 100",
+  "tabella dei numeri primi da 1 a 1000",
+  "tabella dei numeri primi da stampare",
+  "tabella dei numeri primi fino a 100",
+  "tabella dei numeri primi fino a 1000",
+  "tabella dei numeri primi fino a 1000 da stampare",
+  "tabella dei numeri primi fino a 10000",
+  "tabella dei numeri romani",
+  "tabella dei numeri romani da stampare",
+  "tabella dei primi 100 numeri da stampare",
+  "tabella del dieci e lotto",
+  "tabella dell'addizione da stampare",
+  "tabella della sottrazione da stampare",
+  "tabella misurazione glicemia da stampare",
+  "tabella misurazione glicemia da stampare gratis",
+  "tabella misurazione pressione da stampare",
+  "tabella misurazione vista da stampare",
+  "tabella preposizioni articolate da stampare",
+  "tabella vincite del dieci e lotto",
+  "test di logica visiva figura nascosta polizia",
+  "test di logica visiva polizia di stato",
+  "test logica visiva figura nascosta",
+  "treno dell'alfabeto",
+  "trova e conta",
+  "trova e reis contabilidade",
+  "trova gli oggetti",
+  "trova gli oggetti gioco",
+  "trova gli oggetti menzionati da ariel",
+  "trova gli oggetti nascosti",
+  "trova gli oggetti nascosti bambini",
+  "trova gli oggetti nascosti da stampare",
+  "trova gli oggetti nascosti del fetido",
+  "trova gli oggetti nascosti online",
+  "trova gli oggetti nascosti pdf",
+  "trova gli oggetti per bambini",
+  "trova l intruso insiemi classe prima",
+  "trova l intruso matematica classe prima",
+  "trova l intruso per bambini da stampare",
+  "trova l intruso schede",
+  "trova l intruso schede didattiche",
+  "trova l'intruso classe prima",
+  "trova l'intruso da stampare",
+  "trova l'intruso nell'insieme classe prima",
+  "trova l'intruso prima elementare",
+  "uda forme geometriche classe prima",
+  "uda sulle forme geometriche scuola dell infanzia",
+  "verifica decine e unità classe seconda",
+  "verifica forme geometriche classe prima",
+  "verifica forme geometriche classe seconda",
+  "verifica frazioni classe prima media",
+  "video forme geometriche classe prima",
+  "video sottrazione prima elementare",
+  "video su decine e unità prima elementare",
+  "vocabolario illustrato",
+  "vocabolario illustrato della lingua italiana devoto oli",
+  "vocabolario illustrato erickson",
+  "vocabolario illustrato inglese",
+  "vocabolario illustrato inglese pdf",
+  "vocabolario illustrato italiano",
+  "vocabolario illustrato italiano per stranieri pdf",
+  "vocabolario illustrato le parole per imparare",
+  "vocabolario illustrato pdf",
+  "vocabolario illustrato per bambini",
+  "wordwall addizione prima elementare",
+  "wordwall anagrammi classe seconda",
+  "wordwall anagrammi prima elementare",
+  "wordwall decine e unità classe prima entro il 20",
+  "wordwall decine e unità prima elementare",
+  "wordwall forme geometriche classe seconda",
+  "wordwall frazioni classe prima",
+  "wordwall frazioni classe prima media",
+  "wordwall frazioni classe seconda",
+  "wordwall frazioni classe seconda media",
+  "wordwall grafici e dati",
+  "wordwall matematica decine e unità classe seconda",
+  "wordwall sottrazione classe seconda",
+  "wordwall sottrazione prima elementare",
+  "wordwall trova l'intruso classe prima"
+ ]
+}

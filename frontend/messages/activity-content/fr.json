@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "shapeforge.compose.1-g-a-2": {
+      "about": [
+        "Mim, le petit renard forgeron de lumière, invite votre enfant à composer de grandes formes à partir de petites pièces. L'enfant choisit une pièce — un triangle ou un losange —, la fait tourner, puis la pose pour remplir un contour vide, sans laisser de trou ni de chevauchement. Chaque pièce trouve sa place, tranquillement, jusqu'à ce que la forme soit entièrement couverte.",
+        "C'est l'idée centrale de la géométrie au CP : les grandes formes sont composées de plus petites, et une même forme peut s'assembler de plusieurs façons. Un hexagone, par exemple, se construit avec 6 triangles ou bien avec 3 losanges. En cherchant, votre enfant apprend à comparer, à choisir la bonne pièce et à penser avec souplesse. Il découvre aussi qu'on peut recomposer une forme en une autre, comme transformer un assemblage en une longue barre.",
+        "L'activité est entièrement gratuite, sans compte, sans minuteur et sans points. Elle suit les « programmes officiels » pour le domaine « Espace et géométrie ». Votre enfant avance à son rythme et cherche ses propres solutions, en toute confiance."
+      ],
+      "practices": [
+        "Assembler des figures planes : d'un triangle et d'un losange, faire une plus grande forme.",
+        "Faire tourner une pièce et la poser au bon endroit : travailler le sens de l'orientation.",
+        "Trouver plusieurs façons d'assembler la même forme.",
+        "Remplir un contour entièrement, sans trou ni chevauchement."
+      ],
+      "howToPlay": [
+        "Choisir une pièce : un triangle ou un losange.",
+        "La faire tourner pour qu'elle rentre, puis la poser dans le contour.",
+        "Remplir toute la forme : quand tout est couvert, sans trou, c'est réussi."
+      ],
+      "learningGoals": [
+        "Votre enfant comprend qu'une grande forme est composée de plus petites.",
+        "Il découvre qu'une même forme peut se construire de plusieurs façons.",
+        "Il développe le sens de l'espace et nomme les formes : triangle, losange, hexagone."
+      ]
+    },
     "skipcount.fill.2-nbt-a-2": {
       "about": [
         "Hopper est une petite grenouille qui traverse un étang en sautant d'un nénuphar à l'autre, tous numérotés. À chaque bond, elle avance ou recule toujours du même pas : de 5 en 5, de 10 en 10 ou de 100 en 100. Sur son chemin, un nénuphar reste vide. Votre enfant tape alors le nombre manquant pour que la suite continue, ou indique de combien chaque bond avance ou recule.",

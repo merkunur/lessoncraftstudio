@@ -1,0 +1,1364 @@
+{
+  "locale": "it",
+  "generatedAt": "2026-07-06",
+  "market": "google.it (hl=it, gl=it)",
+  "sources": {
+    "harvest": "docs/SEO/harvests/it.json (147 seeds, 849 suggestions, 812 unique, 2026-07-06)",
+    "inventory": "docs/SEO/deck-inventory-type-level.json + deck-inventory-themes.json (it = 3,774 decks)",
+    "serpSamples": 18,
+    "demandMap": "docs/SEO/demand-map-it.md"
+  },
+  "titlePattern": {
+    "singleAxisType": "<Termine di genere> per bambini/classe prima – da stampare gratis",
+    "singleAxisTheme": "Schede su <tema> – giochi da stampare",
+    "singleAxisLevel": "Schede didattiche <livello> da stampare",
+    "intersection": "<Genere> <classe> – schede",
+    "notes": "Head-noun 'schede (didattiche)' + near-mandatory 'da stampare'; honest qualifiers only (gratis, PDF, online — decks play in the browser). Grade register uses 'classe prima/seconda/terza' in titles (harvest: classe prima 100 vs prima elementare 78; classe seconda 94 vs 5); metas weave 'prima elementare' once for the parent register. Demand-true synonyms replace calques: crucipuzzle/parole intrecciate (not 'ricerca parole'), labirinti (not 'percorso illustrato'), sequenze e ritmi (not 'modelli'), concetti topologici/indicatori spaziali (not bare 'preposizioni' = grammar intent), trova l'intruso, abbina le ombre, anagrammi. Symbolic within-10/20 arithmetic keys to 'classe prima' on the type head though decks are tagged 5-7 (regradeFlag; sv åk-1 CARRIES analog, demand-map finding #3). <=51 chars ideal / 65 hard max; all titles unique across singleAxis+intersections."
+  },
+  "singleAxis": {
+    "addition": {
+      "primaryQuery": "addizione classe prima",
+      "evidence": "harvest",
+      "title": "Addizioni per la classe prima da stampare e online",
+      "h1": "Addizioni per la classe prima",
+      "metaDescription": "Schede di addizioni entro il 10 e il 20: calcoli illustrati da stampare gratis in PDF, con soluzioni e versione interattiva online per la prima elementare.",
+      "winnability": "winnable",
+      "notes": "Head 'addizione' is chemistry-noisy; grade-keyed formulation is the demand center. Maestra-ecosystem competition strong: win on interactive + breadth."
+    },
+    "subtraction": {
+      "primaryQuery": "sottrazione classe prima",
+      "evidence": "harvest",
+      "title": "Sottrazioni per la classe prima – schede gratis",
+      "h1": "Sottrazioni per la classe prima",
+      "metaDescription": "Sottrazioni illustrate entro il 10 e il 20: schede gratuite da stampare in PDF con soluzioni, più esercizi interattivi online per i primi calcoli in prima.",
+      "winnability": "winnable",
+      "notes": "Same pattern as addition; 'sottrazione' bare head is noisy (excel, patente)."
+    },
+    "code-addition": {
+      "primaryQuery": "puzzle matematico gioco",
+      "evidence": "serp",
+      "title": "Addizioni con il codice segreto – da stampare",
+      "h1": "Addizioni con il codice segreto",
+      "metaDescription": "Ogni simbolo nasconde un numero: il bambino decifra il codice e risolve l'addizione. Schede gioco da stampare gratis in PDF o da svolgere online.",
+      "winnability": "hard",
+      "notes": "'Addizione codificata' is a calque with zero demand; no harvested query owns this mechanic — ride the addizioni cluster."
+    },
+    "more-less": {
+      "primaryQuery": "di più o di meno schede didattiche",
+      "evidence": "harvest",
+      "title": "Di più o di meno – schede per l'infanzia",
+      "h1": "Di più o di meno",
+      "metaDescription": "Dov'è di più? Dov'è di meno? Schede illustrate per confrontare le quantità alla scuola dell'infanzia, da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": "'Di più o di meno' is the real teacher phrase (harvested); bare 'più o meno' is idiom-noisy."
+    },
+    "math-puzzle": {
+      "primaryQuery": "puzzle matematico gratis",
+      "evidence": "harvest",
+      "title": "Puzzle matematici per bambini – gratis in PDF",
+      "h1": "Puzzle matematici per bambini",
+      "metaDescription": "Risolvi i calcoli e ricomponi l'immagine: puzzle matematici da stampare gratis in PDF o da giocare online, per allenare la matematica divertendosi.",
+      "winnability": "winnable",
+      "notes": "Harvest shows pdf/gratis/online/classe prima-seconda qualifiers all live — a well-shaped niche."
+    },
+    "math-worksheet": {
+      "primaryQuery": "scheda di matematica da stampare",
+      "evidence": "harvest",
+      "title": "Schede di matematica miste da stampare (PDF)",
+      "h1": "Schede di matematica miste",
+      "metaDescription": "Esercizi di matematica misti e illustrati: numeri, calcoli e quantità in schede da stampare gratis in PDF o da svolgere online, con soluzioni incluse.",
+      "winnability": "hard",
+      "notes": "Careful: the subject×grade hubs own 'schede didattiche di matematica per la classe N' — this head stays on the 'esercizi misti' face."
+    },
+    "big-small": {
+      "primaryQuery": "grande o piccolo",
+      "evidence": "harvest",
+      "title": "Grande o piccolo – schede per bambini 3-5 anni",
+      "h1": "Grande o piccolo",
+      "metaDescription": "Grande o piccolo? Schede illustrate per confrontare le grandezze, pensate per bambini di 3-5 anni: osserva, confronta e tocca la risposta giusta.",
+      "winnability": "winnable",
+      "notes": "Bare head is noisy (bridge, vino); the age qualifier disambiguates."
+    },
+    "chart-count": {
+      "primaryQuery": "grafici per bambini scuola infanzia",
+      "evidence": "serp",
+      "title": "Conta e completa il grafico – schede infanzia",
+      "h1": "Conta e completa il grafico",
+      "metaDescription": "Il bambino conta gli oggetti e colora le colonne del grafico: schede di prima statistica per la scuola dell'infanzia, da stampare gratis o usare online.",
+      "winnability": "hard",
+      "notes": "'Conteggio grafico' is a calque; no direct demand — long-tail only."
+    },
+    "pattern-train": {
+      "primaryQuery": "sequenze e ritmi",
+      "evidence": "harvest",
+      "title": "Il trenino delle sequenze – ritmi da completare",
+      "h1": "Il trenino delle sequenze",
+      "metaDescription": "Osserva i vagoni del trenino e completa la sequenza: schede su ritmi e sequenze per la scuola dell'infanzia, da stampare gratis o da giocare online.",
+      "winnability": "winnable",
+      "notes": "Kill the 'Treno Dei Modelli' calque; the demand term is 'sequenze e ritmi'."
+    },
+    "pattern-worksheet": {
+      "primaryQuery": "sequenze e ritmi classe prima",
+      "evidence": "harvest",
+      "title": "Sequenze e ritmi – schede da completare",
+      "h1": "Sequenze e ritmi",
+      "metaDescription": "Quale elemento continua la serie? Schede su sequenze e ritmi con figure e colori, da stampare gratis in PDF o da risolvere online con autocorrezione.",
+      "winnability": "winnable",
+      "notes": "The harvested grade query goes to the intersection; this head owns the bare genre."
+    },
+    "patterns": {
+      "primaryQuery": "sequenze scuola infanzia",
+      "evidence": "serp",
+      "title": "Sequenze illustrate per i più piccoli",
+      "h1": "Sequenze illustrate",
+      "metaDescription": "Sequenze illustrate da completare per i più piccoli: riconoscere il ritmo e scegliere l'elemento che continua la serie. Schede gratuite, anche online.",
+      "winnability": "winnable",
+      "notes": "Thin (17); rides the sequenze cluster."
+    },
+    "bingo": {
+      "primaryQuery": "schede bingo da stampare",
+      "evidence": "harvest",
+      "title": "Bingo per bambini – cartelle da stampare gratis",
+      "h1": "Bingo illustrato per bambini",
+      "metaDescription": "Cartelle del bingo illustrate da stampare gratis: immagini al posto dei numeri, perfette per giocare in classe o a casa con i bambini più piccoli.",
+      "winnability": "winnable",
+      "notes": "Bare 'bingo' = gambling halls; always qualify with cartelle/per bambini/da stampare."
+    },
+    "grid-match": {
+      "primaryQuery": "giochi di abbinamento per bambini da stampare",
+      "evidence": "serp",
+      "title": "Abbina le immagini nella griglia – da stampare",
+      "h1": "Abbina le immagini nella griglia",
+      "metaDescription": "Osserva la griglia e trascina ogni immagine nella casella giusta: un gioco di attenzione visiva da stampare gratis o da giocare online, per 5-6 anni.",
+      "winnability": "hard",
+      "notes": "'Abbinamento a griglia' calque returned only grigliate/portieri in the harvest — retitle."
+    },
+    "matching": {
+      "primaryQuery": "schede abbinamento numero quantità",
+      "evidence": "harvest",
+      "title": "Giochi di abbinamento per bambini – schede PDF",
+      "h1": "Giochi di abbinamento",
+      "metaDescription": "Collega ogni elemento alla sua coppia: abbinamenti numero-quantità e immagine-immagine in schede da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": "Fashion-intent on the bare head; the numero-quantità face is the harvested teacher demand."
+    },
+    "picture-sort": {
+      "primaryQuery": "ordina le immagini",
+      "evidence": "harvest",
+      "title": "Ordina e classifica le immagini – gioco PDF",
+      "h1": "Ordina e classifica le immagini",
+      "metaDescription": "Quale immagine appartiene al gruppo? Schede per osservare, ordinare e classificare le figure per categoria, da stampare gratis o da giocare online.",
+      "winnability": "hard",
+      "notes": "Weak head ('ordina cronologicamente' = story sequencing, different task); classification face is honest."
+    },
+    "shadow-match": {
+      "primaryQuery": "abbina le ombre",
+      "evidence": "harvest",
+      "title": "Abbina le ombre – gioco da stampare e online",
+      "h1": "Abbina le ombre",
+      "metaDescription": "Collega ogni figura alla sua ombra: un classico gioco di osservazione per la scuola dell'infanzia, da stampare gratis in PDF o da giocare subito online.",
+      "winnability": "winnable",
+      "notes": "Weakest SERP sampled (etsy/amazon/wordwall) vs 144 decks — the best-ratio P0 in the set."
+    },
+    "alphabet-train": {
+      "primaryQuery": "treno dell'alfabeto",
+      "evidence": "harvest",
+      "title": "Il treno dell'alfabeto – ordina le lettere",
+      "h1": "Il treno dell'alfabeto",
+      "metaDescription": "Rimetti in fila le lettere sui vagoni del treno dell'alfabeto: schede illustrate per imparare l'ordine alfabetico, da stampare gratis o giocare online.",
+      "winnability": "hard",
+      "notes": "Head is song-intent (canzone, Bob il treno); lead on the task, keep the train as hook."
+    },
+    "prepositions": {
+      "primaryQuery": "indicatori spaziali schede didattiche",
+      "evidence": "harvest",
+      "title": "Concetti topologici e indicatori spaziali – schede",
+      "h1": "Concetti topologici e indicatori spaziali",
+      "metaDescription": "Sopra, sotto, dentro, fuori: scenette illustrate sui concetti topologici e gli indicatori spaziali, da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": "Do NOT chase bare 'preposizioni' (grammar intent: semplici/articolate/inglese). 'Concetti topologici' is the real infanzia/prima genre term."
+    },
+    "word-guess": {
+      "primaryQuery": "indovina la parola",
+      "evidence": "harvest",
+      "title": "Indovina la parola dalle immagini – gioco",
+      "h1": "Indovina la parola dalle immagini",
+      "metaDescription": "Osserva l'immagine e completa la parola lettera per lettera: schede illustrate per le prime letture, da stampare gratis in PDF o da giocare online.",
+      "winnability": "hard",
+      "notes": "Head is TV/party-game intent; the dalle-immagini qualifier carries the honest face."
+    },
+    "word-scramble": {
+      "primaryQuery": "anagrammi da stampare",
+      "evidence": "harvest",
+      "title": "Anagrammi per bambini da stampare gratis",
+      "h1": "Anagrammi per bambini",
+      "metaDescription": "Lettere in disordine: riordina l'anagramma e scrivi la parola giusta guardando l'immagine. Schede da stampare gratis in PDF o da risolvere online.",
+      "winnability": "winnable",
+      "notes": "Weak fragmented SERP; exact-match 95 decks."
+    },
+    "wordsearch": {
+      "primaryQuery": "cerca parole per bambini",
+      "evidence": "harvest",
+      "title": "Crucipuzzle per bambini – parole intrecciate",
+      "h1": "Crucipuzzle e parole intrecciate",
+      "metaDescription": "Trova le parole nascoste nello schema: crucipuzzle e parole intrecciate illustrati per bambini, da stampare gratis in PDF o da giocare subito online.",
+      "winnability": "hard",
+      "notes": "Triple synonym (crucipuzzle / parole intrecciate / cerca parole) — title carries the first two, body the third. pianetabambini owns the head."
+    },
+    "crossword": {
+      "primaryQuery": "cruciverba per bambini",
+      "evidence": "harvest",
+      "title": "Cruciverba per bambini da stampare gratis",
+      "h1": "Cruciverba per bambini",
+      "metaDescription": "Cruciverba illustrati per bambini: le immagini fanno da definizione, si scrive una lettera per casella. Schemi facili in PDF con soluzioni, anche online.",
+      "winnability": "hard",
+      "notes": "Head very competitive; the classe-seconda intersection is the wedge (richest typeGrade cluster in the harvest)."
+    },
+    "find-and-count": {
+      "primaryQuery": "trova e conta",
+      "evidence": "harvest",
+      "title": "Trova e conta – schede per contare 3-5 anni",
+      "h1": "Trova e conta",
+      "metaDescription": "Cerca gli elementi nell'immagine e conta quanti sono: schede illustrate per bambini di 3-5 anni, da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": "Seed returned itself + 'gioco trova e conta' — small but exact niche."
+    },
+    "find-objects": {
+      "primaryQuery": "trova gli oggetti nascosti da stampare",
+      "evidence": "harvest",
+      "title": "Trova gli oggetti nascosti – da stampare",
+      "h1": "Trova gli oggetti nascosti",
+      "metaDescription": "Quanti oggetti nascosti riesci a scovare nella scena? Schede di osservazione in stile cerca e trova, da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": "Harvest shows the exact printable intent; fragmented SERP."
+    },
+    "treasure-hunt": {
+      "primaryQuery": "caccia al tesoro da stampare",
+      "evidence": "harvest",
+      "title": "Caccia al tesoro nel labirinto – da stampare",
+      "h1": "Caccia al tesoro nel labirinto",
+      "metaDescription": "Segui il percorso tra le caselle, evita i vicoli ciechi e raggiungi il tesoro: schede labirinto da stampare gratis in PDF o da giocare online.",
+      "winnability": "hard",
+      "notes": "Intent trap: the big head wants ready-made party kits with riddles. Qualified 'nel labirinto' title keeps it honest."
+    },
+    "missing-pieces": {
+      "primaryQuery": "completa l'immagine schede",
+      "evidence": "serp",
+      "title": "Trova i pezzi mancanti – completa l'immagine",
+      "h1": "Trova i pezzi mancanti",
+      "metaDescription": "Quale pezzo completa il disegno? Un gioco di osservazione e logica visiva da stampare gratis in PDF o da giocare online, per bambini di 5-6 anni.",
+      "winnability": "hard",
+      "notes": "'Pezzi mancanti' head = LEGO/puzzle spare parts intent; reframed on the task."
+    },
+    "odd-one-out": {
+      "primaryQuery": "trova l'intruso da stampare",
+      "evidence": "harvest",
+      "title": "Trova l'intruso – schede didattiche gratis",
+      "h1": "Trova l'intruso",
+      "metaDescription": "Quale elemento non c'entra con gli altri? Schede trova l'intruso di difficoltà crescente, da stampare gratis in PDF o da giocare online in autonomia.",
+      "winnability": "winnable",
+      "notes": "Two mid owners (pianetabambini 57, sostegno20 90); exact-match content + autocorrezione online."
+    },
+    "sudoku": {
+      "primaryQuery": "sudoku per bambini",
+      "evidence": "serp",
+      "title": "Sudoku illustrati per bambini – facili 4×4",
+      "h1": "Sudoku illustrati per bambini",
+      "metaDescription": "Sudoku 4×4 con immagini al posto dei numeri: schemi facili pensati per i più piccoli, da stampare gratis in PDF o da risolvere online trascinando le figure.",
+      "winnability": "winnable",
+      "notes": "No sudoku seed existed in the harvest (gap in the seed list). pianetabambini owns numeric sudoku; the picture-sudoku face is un-owned."
+    },
+    "cryptogram": {
+      "primaryQuery": "crittogramma gioco",
+      "evidence": "harvest",
+      "title": "Crittogrammi per bambini – decifra la parola",
+      "h1": "Crittogrammi per bambini",
+      "metaDescription": "Ogni simbolo corrisponde a una lettera: decifra il codice e scopri la parola nascosta. Crittogrammi illustrati da stampare gratis o risolvere online.",
+      "winnability": "skip",
+      "notes": "Head is adult enigmistica/crypto intent; kid demand thin. Keep the page, spend nothing."
+    },
+    "picture-path": {
+      "primaryQuery": "labirinti per bambini da stampare",
+      "evidence": "serp",
+      "title": "Labirinti per bambini da stampare gratis (PDF)",
+      "h1": "Labirinti per bambini",
+      "metaDescription": "Labirinti illustrati di difficoltà crescente: trova la strada giusta tra i muri del percorso. Da stampare gratis in PDF o da giocare online, dai 4 anni.",
+      "winnability": "winnable",
+      "notes": "Kill the 'Percorso Illustrato' calque. Fragmented mid-authority SERP; 89+97 maze decks with treasure-hunt. Honest adjacency: 'avviamento al pregrafismo' allowed in body."
+    },
+    "counting-pictures": {
+      "primaryQuery": "contare con le immagini",
+      "evidence": "harvest",
+      "title": "Contare con le immagini – schede 1-10",
+      "h1": "Contare con le immagini",
+      "metaDescription": "Conta gli oggetti nelle immagini e scrivi il numero giusto: schede per imparare a contare da 1 a 10, da stampare gratis o per esercitarsi online.",
+      "winnability": "winnable",
+      "notes": "Seed returned itself; modest but exact."
+    },
+    "counting-frames": {
+      "primaryQuery": "la decina schede didattiche",
+      "evidence": "serp",
+      "title": "La decina – contare con la tabella del 10",
+      "h1": "La decina e la tabella del 10",
+      "metaDescription": "La tabella del 10 rende visibili le quantità: conta i pallini, completa la decina e scrivi il numero. Schede da stampare gratis o da usare online.",
+      "winnability": "hard",
+      "notes": "'Tabella del dieci' harvest = lotto intent; 'la decina' is the real classe-prima genre (pianetabambini owns it). Thin (9)."
+    },
+    "tally-counting": {
+      "primaryQuery": "contare con le stanghette",
+      "evidence": "serp",
+      "title": "Contare con le stanghette – schede",
+      "h1": "Contare con le stanghette",
+      "metaDescription": "Conta con le stanghette e registra le quantità come in un vero sondaggio: schede sul conteggio con le tacche da stampare gratis o da provare online.",
+      "winnability": "skip",
+      "notes": "4 decks — below any push threshold."
+    },
+    "number-charts": {
+      "primaryQuery": "tabella dei numeri da stampare",
+      "evidence": "harvest",
+      "title": "Tabella dei numeri da stampare – fino a 100",
+      "h1": "La tabella dei numeri",
+      "metaDescription": "Tabelle dei numeri con caselle vuote da completare: orientarsi tra i numeri fino a 100 riga per riga. Da stampare gratis in PDF o da riempire online.",
+      "winnability": "winnable",
+      "notes": "Strong harvested printable intent ('da 1 a 100', 'fino a 1000'); ours honest to 100."
+    },
+    "comparing-numbers": {
+      "primaryQuery": "confronto tra numeri classe prima",
+      "evidence": "harvest",
+      "title": "Confronto tra numeri – maggiore o minore",
+      "h1": "Confronto tra numeri",
+      "metaDescription": "Maggiore, minore o uguale? Schede per confrontare i numeri e scegliere il simbolo giusto, da stampare gratis in PDF o per esercitarsi online.",
+      "winnability": "hard",
+      "notes": "Real demand, 6 decks — production gap recorded in the map."
+    },
+    "comparing-groups": {
+      "primaryQuery": "confronto tra quantità classe prima",
+      "evidence": "harvest",
+      "title": "Confronto tra quantità – schede illustrate",
+      "h1": "Confronto tra quantità",
+      "metaDescription": "Quale gruppo ha più elementi? Conta, confronta le quantità e indica la risposta: schede illustrate da stampare gratis o da svolgere online.",
+      "winnability": "hard",
+      "notes": "The demand also lands on more-less (150 decks) — route the query cluster there."
+    },
+    "comparing-sizes": {
+      "primaryQuery": "confronto di grandezze",
+      "evidence": "harvest",
+      "title": "Confronto di grandezze – lungo, corto, alto",
+      "h1": "Confronto di grandezze",
+      "metaDescription": "Lungo o corto, alto o basso, largo o stretto? Schede illustrate sul confronto di grandezze per i più piccoli, da stampare gratis o giocare online.",
+      "winnability": "winnable",
+      "notes": "Seed returned itself — tiny exact niche."
+    },
+    "number-lines": {
+      "primaryQuery": "linea dei numeri da stampare",
+      "evidence": "harvest",
+      "title": "La linea dei numeri da stampare – fino a 20",
+      "h1": "La linea dei numeri",
+      "metaDescription": "Salta avanti e indietro sulla linea dei numeri: schede per contare e calcolare fino a 20, da stampare gratis in PDF o per esercitarsi online.",
+      "winnability": "hard",
+      "notes": "Rich harvested demand vs 9 decks — top production gap; page still worth its exact face."
+    },
+    "base-ten": {
+      "primaryQuery": "decine e unità schede didattiche",
+      "evidence": "harvest",
+      "title": "Decine e unità – schede da stampare gratis",
+      "h1": "Decine e unità",
+      "metaDescription": "Da decine e unità al numero e ritorno: schede per comporre e scomporre i numeri, da stampare gratis in PDF o per esercitarsi online con soluzioni.",
+      "winnability": "hard",
+      "notes": "Huge harvested demand ('decine e unità classe prima' cluster) vs 12 decks — production gap; strong incumbents."
+    },
+    "telling-time": {
+      "primaryQuery": "leggere l orologio schede didattiche",
+      "evidence": "harvest",
+      "title": "Leggere l'orologio – schede ed esercizi",
+      "h1": "Leggere l'orologio",
+      "metaDescription": "Che ore sono? Schede sull'orologio analogico con ore intere, mezze ore e minuti: da stampare gratis in PDF o per esercitarsi online con le lancette.",
+      "winnability": "winnable",
+      "notes": "Demand center = classe seconda (intersection); maestra blogs but no dominant owner."
+    },
+    "fractions": {
+      "primaryQuery": "frazioni schede didattiche",
+      "evidence": "harvest",
+      "title": "Frazioni – schede didattiche da stampare",
+      "h1": "Le frazioni",
+      "metaDescription": "Metà, terzi e quarti spiegati con le figure: riconosci la frazione colorata e completa gli esercizi. Schede gratis in PDF, anche online con soluzioni.",
+      "winnability": "winnable",
+      "notes": "Demand skews classe terza ('frazioni schede didattiche classe terza'); we cover seconda+terza."
+    },
+    "graphing-data": {
+      "primaryQuery": "grafici e dati",
+      "evidence": "harvest",
+      "title": "Grafici e dati – schede per la scuola primaria",
+      "h1": "Grafici e dati",
+      "metaDescription": "Leggi il grafico, confronta le colonne e rispondi alle domande: schede su grafici e dati per la scuola primaria, da stampare gratis o svolgere online.",
+      "winnability": "hard",
+      "notes": "Wordwall-flavored demand; modest."
+    },
+    "arrays-multiplication": {
+      "primaryQuery": "schieramenti e moltiplicazione",
+      "evidence": "harvest",
+      "title": "Schieramenti e moltiplicazione – schede",
+      "h1": "Schieramenti e moltiplicazione",
+      "metaDescription": "Righe per colonne: osserva lo schieramento, conta e scrivi la moltiplicazione. Schede per avvicinarsi alle tabelline, gratis in PDF e online.",
+      "winnability": "winnable",
+      "notes": "'Schieramenti' is the exact Italian classe-seconda curriculum term; pianetabambini+sostegno20 own it — mid competition."
+    },
+    "geometry": {
+      "primaryQuery": "forme geometriche schede didattiche",
+      "evidence": "harvest",
+      "title": "Forme geometriche – schede da stampare (PDF)",
+      "h1": "Le forme geometriche",
+      "metaDescription": "Cerchio, quadrato, triangolo e rettangolo: riconosci le forme geometriche, abbinale e classificale. Schede gratis in PDF, anche da giocare online.",
+      "winnability": "winnable",
+      "notes": "Big demand at infanzia AND classe prima; grade-1 has 0 decks — the shapes THEME page absorbs the infanzia face."
+    },
+    "measurement": {
+      "primaryQuery": "misure schede didattiche scuola primaria",
+      "evidence": "serp",
+      "title": "Misurare: schede di misure per la primaria",
+      "h1": "Le misure",
+      "metaDescription": "Misura con il righello, confronta le lunghezze e ordina gli oggetti: schede sulle misure per la scuola primaria, da stampare gratis o usare online.",
+      "winnability": "hard",
+      "notes": "'Misurazione' head = pressione/glicemia intent; always school-qualified."
+    },
+    "visual-logic": {
+      "primaryQuery": "giochi di logica visiva",
+      "evidence": "harvest",
+      "title": "Giochi di logica visiva per bambini",
+      "h1": "Giochi di logica visiva",
+      "metaDescription": "Rompicapi visivi che allenano ragionamento, attenzione e memoria: giochi di logica per bambini da stampare gratis in PDF o da risolvere online.",
+      "winnability": "hard",
+      "notes": "Bare head = police/aptitude tests; the per-bambini qualifier is load-bearing."
+    },
+    "visual-discrimination": {
+      "primaryQuery": "discriminazione visiva schede",
+      "evidence": "harvest",
+      "title": "Discriminazione visiva – schede da stampare",
+      "h1": "Discriminazione visiva",
+      "metaDescription": "Trova la figura identica al modello tra tante quasi uguali: schede di discriminazione visiva da stampare gratis, usate anche nel sostegno e per i DSA.",
+      "winnability": "winnable",
+      "notes": "Professional/special-ed niche (autismo, DSA collocations harvested); no commercial owner."
+    },
+    "visual-matching": {
+      "primaryQuery": "trova le coppie uguali gioco",
+      "evidence": "serp",
+      "title": "Abbinamenti visivi – trova le coppie",
+      "h1": "Abbinamenti visivi",
+      "metaDescription": "Osserva bene e trova le coppie di immagini identiche: schede di abbinamento visivo da stampare gratis in PDF o da giocare direttamente online.",
+      "winnability": "skip",
+      "notes": "5 decks."
+    },
+    "position-words": {
+      "primaryQuery": "indicatori spaziali classe prima",
+      "evidence": "harvest",
+      "title": "Indicatori spaziali per la classe prima",
+      "h1": "Indicatori spaziali",
+      "metaDescription": "Davanti o dietro, vicino o lontano, destra o sinistra? Schede sugli indicatori spaziali per orientarsi nello spazio, da stampare gratis o online.",
+      "winnability": "winnable",
+      "notes": "Real geografia-classe-prima demand; only 8 decks — prepositions (101) carries the bulk under 'concetti topologici'."
+    },
+    "sorting-categories": {
+      "primaryQuery": "classificare per categorie",
+      "evidence": "harvest",
+      "title": "Classificare per categorie – schede infanzia",
+      "h1": "Classificare per categorie",
+      "metaDescription": "Cosa va con cosa? Metti ogni immagine nella categoria giusta: cibi, animali, vestiti. Schede per classificare da stampare gratis o giocare online.",
+      "winnability": "skip",
+      "notes": "4 decks; picture-sort covers the skill."
+    },
+    "picture-arithmetic": {
+      "primaryQuery": "addizioni con i disegni",
+      "evidence": "serp",
+      "title": "Calcoli con le immagini – addizioni illustrate",
+      "h1": "Calcoli con le immagini",
+      "metaDescription": "Le immagini raccontano il calcolo: conta gli elementi, scrivi i numeri e il risultato. Schede illustrate da stampare gratis o da svolgere online.",
+      "winnability": "hard",
+      "notes": "Rides the addizioni cluster."
+    },
+    "science-sort": {
+      "primaryQuery": "classificazione degli animali schede didattiche",
+      "evidence": "serp",
+      "title": "Classificazione degli animali e scienze – schede",
+      "h1": "Classificazione di scienze",
+      "metaDescription": "Chi vive nella fattoria? Chi vola, chi nuota? Schede di scienze per classificare animali e oggetti, da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": "pianetabambini owns 'classificazione degli animali' (classe seconda) — mid competition, honest match."
+    },
+    "science-match": {
+      "primaryQuery": "abbinamenti di scienze schede",
+      "evidence": "serp",
+      "title": "Abbinamenti di scienze – schede illustrate",
+      "h1": "Abbinamenti di scienze",
+      "metaDescription": "Abbina ogni animale al suo habitat, al suo verso o al suo cibo: schede di scienze illustrate da stampare gratis in PDF o da giocare online.",
+      "winnability": "skip",
+      "notes": "10 decks."
+    },
+    "science-sequence": {
+      "primaryQuery": "ciclo di vita della farfalla schede",
+      "evidence": "serp",
+      "title": "Cicli di vita – sequenze di scienze",
+      "h1": "Cicli di vita",
+      "metaDescription": "Rimetti in ordine le fasi del ciclo di vita: dalla crisalide alla farfalla, dal seme alla pianta. Schede di scienze da stampare o riordinare online.",
+      "winnability": "skip",
+      "notes": "1 deck — placeholder only."
+    },
+    "beginning-sounds": {
+      "primaryQuery": "suono iniziale delle parole schede",
+      "evidence": "serp",
+      "title": "Suoni iniziali – giochi fonologici da stampare",
+      "h1": "I suoni iniziali",
+      "metaDescription": "Con quale suono inizia la parola? Giochi fonologici sui suoni iniziali per la scuola dell'infanzia, da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": "Metafonologia genre (laboratorio fonologico SERP); 10 decks."
+    },
+    "letter-knowledge": {
+      "primaryQuery": "riconoscimento lettere scuola infanzia",
+      "evidence": "serp",
+      "title": "Conoscere le lettere – schede per l'infanzia",
+      "h1": "Conoscere le lettere",
+      "metaDescription": "Riconoscere le lettere dell'alfabeto tra forme simili e primi suoni: schede illustrate per la scuola dell'infanzia, da stampare gratis o online.",
+      "winnability": "winnable",
+      "notes": "20 decks; pairs with beginning-sounds."
+    },
+    "word-building": {
+      "primaryQuery": "costruzione di parole",
+      "evidence": "harvest",
+      "title": "Costruzione di parole – componi le sillabe",
+      "h1": "Costruzione di parole",
+      "metaDescription": "Unisci le sillabe giuste e componi la parola dell'immagine: schede illustrate di costruzione di parole, da stampare gratis o da giocare online.",
+      "winnability": "skip",
+      "notes": "10 decks."
+    },
+    "picture-vocabulary": {
+      "primaryQuery": "vocabolario illustrato per bambini",
+      "evidence": "harvest",
+      "title": "Vocabolario illustrato per bambini – schede",
+      "h1": "Vocabolario illustrato",
+      "metaDescription": "Impara parole nuove con le immagini, tema per tema: schede di vocabolario illustrato per bambini, da stampare gratis in PDF o da ripassare online.",
+      "winnability": "hard",
+      "notes": "Head is dictionary-book intent; 10 decks."
+    },
+    "phonological-awareness": {
+      "primaryQuery": "consapevolezza fonologica esercizi",
+      "evidence": "harvest",
+      "title": "Consapevolezza fonologica – esercizi e schede",
+      "h1": "Consapevolezza fonologica",
+      "metaDescription": "Sillabe, suoni e rime: esercizi di consapevolezza fonologica che preparano alla letto-scrittura. Schede da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": "Professional term, real demand (insegnanti/logopedisti), no commercial SERP owner."
+    },
+    "preschool": {
+      "primaryQuery": "esercizi da stampare per bambini di 3 anni",
+      "evidence": "harvest",
+      "title": "Schede per bambini di 3-4 anni da stampare",
+      "h1": "Schede per bambini di 3-4 anni",
+      "metaDescription": "Schede didattiche per bambini di 3 e 4 anni: prime quantità, grandezze e giochi di osservazione. Da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": "Age-formed to avoid colliding with the 5-7 infanzia head (both platform levels are 'scuola dell'infanzia' in it)."
+    },
+    "kindergarten": {
+      "primaryQuery": "schede didattiche infanzia da stampare",
+      "evidence": "harvest",
+      "title": "Schede didattiche scuola infanzia da stampare",
+      "h1": "Schede per la scuola dell'infanzia",
+      "metaDescription": "Centinaia di schede didattiche per la scuola dell'infanzia: logica, prime quantità, lettere e giochi illustrati. Gratis, in PDF e giocabili online.",
+      "winnability": "hard",
+      "notes": "The flagship level head (2,516 decks); competes with established portals on breadth + interactivity."
+    },
+    "grade-1": {
+      "primaryQuery": "schede didattiche prima elementare",
+      "evidence": "harvest",
+      "title": "Schede didattiche classe prima da stampare",
+      "h1": "Schede per la classe prima",
+      "metaDescription": "Schede didattiche per la classe prima (prima elementare): matematica, prime letture e giochi educativi da stampare gratis in PDF o svolgere online.",
+      "winnability": "hard",
+      "notes": "Title in teacher register, meta carries the parent register once."
+    },
+    "grade-2": {
+      "primaryQuery": "schede didattiche da stampare seconda elementare",
+      "evidence": "harvest",
+      "title": "Schede didattiche classe seconda da stampare",
+      "h1": "Schede per la classe seconda",
+      "metaDescription": "Schede didattiche per la classe seconda: orologio, frazioni, cruciverba e schieramenti. Da stampare gratis in PDF o per esercitarsi online.",
+      "winnability": "winnable",
+      "notes": "'Classe seconda' dominates the register (94 vs 5 harvested)."
+    },
+    "grade-3": {
+      "primaryQuery": "schede didattiche classe terza",
+      "evidence": "serp",
+      "title": "Schede didattiche classe terza da stampare",
+      "h1": "Schede per la classe terza",
+      "metaDescription": "Schede didattiche per la classe terza: frazioni, geometria, l'orologio con i minuti e giochi di logica. Gratis in PDF, anche in versione online.",
+      "winnability": "winnable",
+      "notes": "Adjacent harvest evidence (frazioni/matematica terza elementare)."
+    },
+    "animals": {
+      "primaryQuery": "schede didattiche sugli animali",
+      "evidence": "serp",
+      "title": "Schede didattiche sugli animali da stampare",
+      "h1": "Schede sugli animali",
+      "metaDescription": "Cani, gatti, leoni e tanti altri animali: schede illustrate per contare, abbinare e cercare parole. Da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": ""
+    },
+    "fruits": {
+      "primaryQuery": "schede didattiche frutta scuola infanzia",
+      "evidence": "serp",
+      "title": "Schede sulla frutta – giochi da stampare",
+      "h1": "Schede sulla frutta",
+      "metaDescription": "Mele, banane e fragole nelle schede sulla frutta: giochi di conteggio, abbinamenti e prime parole. Da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": ""
+    },
+    "vehicles": {
+      "primaryQuery": "schede didattiche sui mezzi di trasporto",
+      "evidence": "serp",
+      "title": "Schede sui veicoli per bambini da stampare",
+      "h1": "Schede sui veicoli",
+      "metaDescription": "Auto, treni, aerei e camion: schede illustrate sui veicoli e i mezzi di trasporto con giochi di conteggio, logica e parole. Gratis in PDF e online.",
+      "winnability": "winnable",
+      "notes": ""
+    },
+    "toys": {
+      "primaryQuery": "schede didattiche giocattoli",
+      "evidence": "serp",
+      "title": "Schede sui giocattoli – giochi da stampare",
+      "h1": "Schede sui giocattoli",
+      "metaDescription": "Palloni, bambole e trenini: schede sui giocattoli con conte, abbinamenti e giochi di parole. Da stampare gratis in PDF o da giocare subito online.",
+      "winnability": "hard",
+      "notes": ""
+    },
+    "shapes": {
+      "primaryQuery": "forme geometriche scuola infanzia",
+      "evidence": "harvest",
+      "title": "Le forme – schede per la scuola dell'infanzia",
+      "h1": "Le forme",
+      "metaDescription": "Cerchi, quadrati e triangoli da riconoscere e abbinare: schede sulle forme per la scuola dell'infanzia, da stampare gratis in PDF o giocare online.",
+      "winnability": "winnable",
+      "notes": ""
+    },
+    "weather": {
+      "primaryQuery": "il tempo meteorologico schede infanzia",
+      "evidence": "serp",
+      "title": "Il meteo e il tempo – schede per bambini",
+      "h1": "Il meteo e il tempo",
+      "metaDescription": "Sole, pioggia, nuvole e neve: schede sul tempo meteorologico con giochi di abbinamento e prime parole. Da stampare gratis o da giocare online.",
+      "winnability": "hard",
+      "notes": ""
+    },
+    "space": {
+      "primaryQuery": "schede didattiche sullo spazio per bambini",
+      "evidence": "serp",
+      "title": "Lo spazio – schede per bambini da stampare",
+      "h1": "Lo spazio",
+      "metaDescription": "Razzi, pianeti e astronauti: schede sullo spazio con giochi di conteggio, logica e parole. Da stampare gratis in PDF o da giocare direttamente online.",
+      "winnability": "hard",
+      "notes": ""
+    },
+    "ocean_life": {
+      "primaryQuery": "animali del mare schede didattiche",
+      "evidence": "serp",
+      "title": "Gli animali del mare – schede da stampare",
+      "h1": "Gli animali del mare",
+      "metaDescription": "Pesci, polpi e stelle marine: schede sugli animali del mare con conte, abbinamenti e giochi. Da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": ""
+    },
+    "beach": {
+      "primaryQuery": "schede didattiche sulla spiaggia",
+      "evidence": "serp",
+      "title": "La spiaggia – schede estive per bambini",
+      "h1": "La spiaggia",
+      "metaDescription": "Ombrelloni, secchielli e conchiglie: schede sulla spiaggia con giochi estivi di conteggio e parole. Da stampare gratis in PDF o da giocare online.",
+      "winnability": "hard",
+      "notes": ""
+    },
+    "flowers": {
+      "primaryQuery": "schede didattiche sui fiori",
+      "evidence": "serp",
+      "title": "I fiori – schede didattiche da stampare",
+      "h1": "I fiori",
+      "metaDescription": "Margherite, tulipani e girasoli: schede sui fiori con giochi di conteggio e abbinamento, da stampare gratis in PDF o da giocare subito online.",
+      "winnability": "hard",
+      "notes": ""
+    },
+    "body_parts": {
+      "primaryQuery": "parti del corpo schede infanzia",
+      "evidence": "serp",
+      "title": "Le parti del corpo – schede per bambini",
+      "h1": "Le parti del corpo",
+      "metaDescription": "Mani, piedi, occhi e orecchie: schede sulle parti del corpo con giochi illustrati e prime parole. Da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": ""
+    },
+    "around_the_house": {
+      "primaryQuery": "oggetti della casa schede infanzia",
+      "evidence": "serp",
+      "title": "In giro per casa – schede di lessico",
+      "h1": "In giro per casa",
+      "metaDescription": "Gli oggetti di casa stanza per stanza: schede illustrate di lessico con conte e giochi di osservazione. Da stampare gratis o da giocare online.",
+      "winnability": "hard",
+      "notes": ""
+    },
+    "at_the_supermarket": {
+      "primaryQuery": "schede didattiche il supermercato",
+      "evidence": "serp",
+      "title": "Al supermercato – schede e giochi",
+      "h1": "Al supermercato",
+      "metaDescription": "La spesa diventa un gioco: schede sul supermercato con conte, abbinamenti e prime parole. Da stampare gratis in PDF o da giocare direttamente online.",
+      "winnability": "hard",
+      "notes": ""
+    },
+    "zoo_animals": {
+      "primaryQuery": "animali dello zoo schede didattiche",
+      "evidence": "serp",
+      "title": "Animali dello zoo – schede da stampare",
+      "h1": "Gli animali dello zoo",
+      "metaDescription": "Elefanti, giraffe e scimmie: schede sugli animali dello zoo con conte, abbinamenti e giochi di parole. Da stampare gratis in PDF o giocare online.",
+      "winnability": "winnable",
+      "notes": ""
+    },
+    "farm_animals": {
+      "primaryQuery": "animali della fattoria schede didattiche",
+      "evidence": "serp",
+      "title": "Animali della fattoria – schede didattiche",
+      "h1": "Gli animali della fattoria",
+      "metaDescription": "Mucche, galline e maialini: schede sugli animali della fattoria con conte e abbinamenti, da stampare gratis in PDF o da giocare subito online.",
+      "winnability": "winnable",
+      "notes": ""
+    },
+    "camping": {
+      "primaryQuery": "schede didattiche campeggio",
+      "evidence": "serp",
+      "title": "Il campeggio – giochi e schede per bambini",
+      "h1": "Il campeggio",
+      "metaDescription": "Tende, zaini e falò: schede sul campeggio con giochi di conteggio, logica e parole. Da stampare gratis in PDF o da giocare direttamente online.",
+      "winnability": "hard",
+      "notes": ""
+    },
+    "things_that_fly": {
+      "primaryQuery": "cose che volano schede per bambini",
+      "evidence": "serp",
+      "title": "Cose che volano – schede per bambini",
+      "h1": "Cose che volano",
+      "metaDescription": "Aerei, mongolfiere e farfalle: schede sulle cose che volano con conte e abbinamenti. Da stampare gratis in PDF o da giocare direttamente online.",
+      "winnability": "hard",
+      "notes": ""
+    },
+    "forest_creatures": {
+      "primaryQuery": "animali del bosco schede didattiche",
+      "evidence": "serp",
+      "title": "Animali del bosco – schede da stampare",
+      "h1": "Gli animali del bosco",
+      "metaDescription": "Volpi, gufi e ricci: schede sugli animali del bosco con giochi di conteggio e osservazione, da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": ""
+    },
+    "vegetables": {
+      "primaryQuery": "schede didattiche sulle verdure",
+      "evidence": "serp",
+      "title": "Le verdure – schede didattiche illustrate",
+      "h1": "Le verdure",
+      "metaDescription": "Carote, pomodori e zucchine: schede sulle verdure con conte, abbinamenti e prime parole. Da stampare gratis in PDF o da giocare direttamente online.",
+      "winnability": "hard",
+      "notes": ""
+    },
+    "dinosaurs": {
+      "primaryQuery": "schede didattiche dinosauri",
+      "evidence": "serp",
+      "title": "Dinosauri – schede e giochi da stampare",
+      "h1": "I dinosauri",
+      "metaDescription": "T-rex, triceratopi e brontosauri: schede sui dinosauri con giochi di conteggio, logica e parole. Da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": ""
+    },
+    "emotions": {
+      "primaryQuery": "schede didattiche emozioni scuola infanzia",
+      "evidence": "serp",
+      "title": "Le emozioni – schede per la scuola infanzia",
+      "h1": "Le emozioni",
+      "metaDescription": "Gioia, rabbia, paura e sorpresa: schede sulle emozioni per riconoscerle e dar loro un nome. Da stampare gratis in PDF o da giocare online.",
+      "winnability": "winnable",
+      "notes": ""
+    },
+    "occupations": {
+      "primaryQuery": "i mestieri schede didattiche",
+      "evidence": "serp",
+      "title": "I mestieri – schede didattiche per bambini",
+      "h1": "I mestieri e le professioni",
+      "metaDescription": "Dottori, pompieri e maestre: schede sui mestieri e le professioni con abbinamenti e giochi di parole. Da stampare gratis in PDF o giocare online.",
+      "winnability": "winnable",
+      "notes": ""
+    },
+    "breakfast": {
+      "primaryQuery": "schede didattiche la colazione",
+      "evidence": "serp",
+      "title": "La colazione – schede illustrate per bambini",
+      "h1": "La colazione",
+      "metaDescription": "Latte, biscotti e marmellata: schede sulla colazione con conte, abbinamenti e lessico illustrato. Da stampare gratis in PDF o da giocare online.",
+      "winnability": "hard",
+      "notes": ""
+    },
+    "classroom": {
+      "primaryQuery": "oggetti scolastici schede didattiche",
+      "evidence": "serp",
+      "title": "A scuola: gli oggetti dell'aula – schede",
+      "h1": "Gli oggetti dell'aula",
+      "metaDescription": "Matite, zaini e lavagne: schede sugli oggetti dell'aula, perfette per i giorni dell'accoglienza. Da stampare gratis in PDF o da giocare online.",
+      "winnability": "hard",
+      "notes": ""
+    },
+    "clothing": {
+      "primaryQuery": "schede didattiche abbigliamento infanzia",
+      "evidence": "serp",
+      "title": "L'abbigliamento – schede e giochi illustrati",
+      "h1": "L'abbigliamento",
+      "metaDescription": "Magliette, cappelli e scarpe: schede sull'abbigliamento con abbinamenti e giochi di parole. Da stampare gratis in PDF o da giocare direttamente online.",
+      "winnability": "hard",
+      "notes": ""
+    }
+  },
+  "intersections": [
+    {
+      "key": "kindergarten__pattern-train",
+      "type": "pattern-train",
+      "level": "kindergarten",
+      "query": "ritmi e sequenze scuola infanzia",
+      "evidence": "serp",
+      "decks": 251,
+      "title": "Ritmi e sequenze – scuola dell'infanzia",
+      "h1": "Ritmi e sequenze all'infanzia",
+      "metaDescription": "Rosso, blu, rosso... e poi? Ritmi e sequenze da completare sul trenino, per la scuola dell'infanzia: gratis da stampare o da giocare online."
+    },
+    {
+      "key": "kindergarten__subtraction",
+      "type": "subtraction",
+      "level": "kindergarten",
+      "query": "sottrazione prima elementare",
+      "evidence": "harvest",
+      "decks": 201,
+      "title": "Prime sottrazioni entro il 10 – schede",
+      "h1": "Prime sottrazioni entro il 10",
+      "metaDescription": "Togliere per contare quanto resta: prime sottrazioni entro il 10 con immagini, per bambini di 5-6 anni. Gratis in PDF, anche online.",
+      "regradeFlag": true
+    },
+    {
+      "key": "code-addition__kindergarten",
+      "type": "code-addition",
+      "level": "kindergarten",
+      "query": "addizione e sottrazione schede",
+      "evidence": "harvest",
+      "decks": 199,
+      "title": "Addizioni con simboli – calcola e scopri",
+      "h1": "Addizioni con simboli",
+      "metaDescription": "Ogni figura vale un numero: sostituisci i simboli, calcola e scopri il totale. Schede gioco per 5-6 anni, gratis in PDF e in versione online.",
+      "regradeFlag": true
+    },
+    {
+      "key": "addition__kindergarten",
+      "type": "addition",
+      "level": "kindergarten",
+      "query": "addizione prima elementare",
+      "evidence": "harvest",
+      "decks": 197,
+      "title": "Prime addizioni entro il 10 – da stampare",
+      "h1": "Prime addizioni entro il 10",
+      "metaDescription": "Le prime addizioni entro il 10 con l'aiuto delle immagini: schede semplici per bambini di 5-6 anni, da stampare gratis in PDF o svolgere online.",
+      "regradeFlag": true,
+      "notes": "Demand says classe prima; decks tagged 5-7 — the age-formed title stays honest until the re-band ruling."
+    },
+    {
+      "key": "kindergarten__math-worksheet",
+      "type": "math-worksheet",
+      "level": "kindergarten",
+      "query": "schede di matematica scuola dell infanzia",
+      "evidence": "harvest",
+      "decks": 150,
+      "title": "Schede di matematica per la scuola infanzia",
+      "h1": "Matematica per la scuola dell'infanzia",
+      "metaDescription": "Prime quantità, confronti e numeri fino a 10: schede di matematica illustrate per la scuola dell'infanzia, da stampare gratis o giocare online."
+    },
+    {
+      "key": "more-less__preschool",
+      "type": "more-less",
+      "level": "preschool",
+      "query": "schede più o meno classe prima",
+      "evidence": "harvest",
+      "decks": 150,
+      "title": "Di più o di meno? Confronta le quantità",
+      "h1": "Di più o di meno per i piccoli",
+      "metaDescription": "Due gruppi di oggetti: dove ce ne sono di più? Schede illustrate sul confronto di quantità per i più piccoli, gratis in PDF e online.",
+      "regradeFlag": true
+    },
+    {
+      "key": "kindergarten__shadow-match",
+      "type": "shadow-match",
+      "level": "kindergarten",
+      "query": "gioco delle ombre scuola infanzia",
+      "evidence": "serp",
+      "decks": 144,
+      "title": "Il gioco delle ombre – scuola dell'infanzia",
+      "h1": "Il gioco delle ombre",
+      "metaDescription": "Quale ombra appartiene alla figura? Il gioco delle ombre per la scuola dell'infanzia: osserva le sagome e collega. Gratis in PDF e online."
+    },
+    {
+      "key": "grade-1__math-puzzle",
+      "type": "math-puzzle",
+      "level": "grade-1",
+      "query": "puzzle matematico classe prima",
+      "evidence": "harvest",
+      "decks": 142,
+      "title": "Puzzle matematico per la classe prima (PDF)",
+      "h1": "Puzzle matematico – classe prima",
+      "metaDescription": "Calcola, trova la casella e ricomponi l'immagine: puzzle matematici pensati per la classe prima, da stampare gratis in PDF o da giocare online."
+    },
+    {
+      "key": "kindergarten__prepositions",
+      "type": "prepositions",
+      "level": "kindergarten",
+      "query": "concetti topologici scuola infanzia",
+      "evidence": "serp",
+      "decks": 101,
+      "title": "Concetti topologici alla scuola dell'infanzia",
+      "h1": "Concetti topologici all'infanzia",
+      "metaDescription": "Sopra o sotto? Dentro o fuori? Scenette illustrate sui concetti topologici per la scuola dell'infanzia, da stampare gratis o da giocare online."
+    },
+    {
+      "key": "kindergarten__sudoku",
+      "type": "sudoku",
+      "level": "kindergarten",
+      "query": "sudoku facili per bambini",
+      "evidence": "serp",
+      "decks": 99,
+      "title": "Sudoku 4×4 con immagini – primi sudoku",
+      "h1": "Sudoku 4×4 con immagini",
+      "metaDescription": "I primi sudoku dei più piccoli: griglie 4×4 con figure al posto dei numeri, una sola regola da ricordare. Gratis da stampare o giocare online."
+    },
+    {
+      "key": "grade-1__treasure-hunt",
+      "type": "treasure-hunt",
+      "level": "grade-1",
+      "query": "caccia al tesoro classe prima",
+      "evidence": "harvest",
+      "decks": 97,
+      "title": "Caccia al tesoro per la classe prima",
+      "h1": "Caccia al tesoro – classe prima",
+      "metaDescription": "Un labirinto a caselle per la classe prima: segui il percorso, evita i vicoli ciechi e trova il tesoro. Da stampare gratis o da giocare online."
+    },
+    {
+      "key": "grade-1__word-scramble",
+      "type": "word-scramble",
+      "level": "grade-1",
+      "query": "anagrammi classe prima",
+      "evidence": "harvest",
+      "decks": 95,
+      "title": "Anagrammi per la classe prima – da stampare",
+      "h1": "Anagrammi per la classe prima",
+      "metaDescription": "Anagrammi con parole semplici e immagini di aiuto, adatti alla classe prima: riordina le lettere e scrivi la parola. Gratis in PDF e online."
+    },
+    {
+      "key": "kindergarten__matching",
+      "type": "matching",
+      "level": "kindergarten",
+      "query": "abbinamenti scuola infanzia",
+      "evidence": "serp",
+      "decks": 95,
+      "title": "Giochi di abbinamento – scuola dell'infanzia",
+      "h1": "Abbinamenti alla scuola dell'infanzia",
+      "metaDescription": "Collega numero e quantità, immagine e coppia: giochi di abbinamento per la scuola dell'infanzia, da stampare gratis in PDF o giocare online."
+    },
+    {
+      "key": "kindergarten__missing-pieces",
+      "type": "missing-pieces",
+      "level": "kindergarten",
+      "query": "puzzle da stampare per bambini di 5 anni",
+      "evidence": "serp",
+      "decks": 95,
+      "title": "Pezzi mancanti – giochi per 5-6 anni",
+      "h1": "Pezzi mancanti per 5-6 anni",
+      "metaDescription": "Trova il pezzo che completa il disegno: giochi di osservazione per bambini di 5-6 anni, da stampare gratis in PDF o da giocare subito online."
+    },
+    {
+      "key": "big-small__preschool",
+      "type": "big-small",
+      "level": "preschool",
+      "query": "schede forme geometriche 3 anni",
+      "evidence": "harvest",
+      "decks": 95,
+      "title": "Grande o piccolo – giochi per 3-4 anni",
+      "h1": "Grande o piccolo per 3-4 anni",
+      "metaDescription": "Qual è il più grande? E il più piccolo? Giochi sulle grandezze per bambini di 3-4 anni, da stampare gratis in PDF o da toccare online."
+    },
+    {
+      "key": "find-objects__kindergarten",
+      "type": "find-objects",
+      "level": "kindergarten",
+      "query": "trova gli oggetti nascosti bambini",
+      "evidence": "harvest",
+      "decks": 94,
+      "title": "Cerca e trova per la scuola dell'infanzia",
+      "h1": "Cerca e trova all'infanzia",
+      "metaDescription": "Scene ricche di dettagli in cui scovare gli oggetti nascosti: schede cerca e trova per la scuola dell'infanzia, gratis in PDF e online."
+    },
+    {
+      "key": "kindergarten__word-guess",
+      "type": "word-guess",
+      "level": "kindergarten",
+      "query": "giochi con le lettere 5 anni",
+      "evidence": "serp",
+      "decks": 93,
+      "title": "Indovina la parola – giochi per 5-6 anni",
+      "h1": "Indovina la parola per 5-6 anni",
+      "metaDescription": "Guarda l'immagine e trova le lettere che mancano: primi giochi di parole per bambini di 5-6 anni, da stampare gratis o da giocare online."
+    },
+    {
+      "key": "kindergarten__odd-one-out",
+      "type": "odd-one-out",
+      "level": "kindergarten",
+      "query": "trova l'intruso classe prima",
+      "evidence": "harvest",
+      "decks": 92,
+      "title": "Trova l'intruso – giochi per 5-6 anni",
+      "h1": "Trova l'intruso per 5-6 anni",
+      "metaDescription": "Osserva la serie e scopri chi non c'entra: giochi trova l'intruso per bambini di 5-6 anni, da stampare gratis in PDF o da giocare online.",
+      "regradeFlag": true
+    },
+    {
+      "key": "find-and-count__preschool",
+      "type": "find-and-count",
+      "level": "preschool",
+      "query": "gioco trova e conta",
+      "evidence": "harvest",
+      "decks": 91,
+      "title": "Trova e conta – giochi per 3-4 anni",
+      "h1": "Trova e conta per 3-4 anni",
+      "metaDescription": "Cerca nell'immagine e conta insieme: primi giochi di conteggio per bambini di 3-4 anni, da stampare gratis in PDF o da giocare online."
+    },
+    {
+      "key": "kindergarten__picture-path",
+      "type": "picture-path",
+      "level": "kindergarten",
+      "query": "labirinti per bambini di 5 anni",
+      "evidence": "serp",
+      "decks": 89,
+      "title": "Labirinti per bambini di 5-6 anni",
+      "h1": "Labirinti per 5-6 anni",
+      "metaDescription": "Labirinti su misura per i 5-6 anni: percorsi chiari, muri ben visibili e una sola strada giusta. Da stampare gratis in PDF o giocare online."
+    },
+    {
+      "key": "kindergarten__picture-sort",
+      "type": "picture-sort",
+      "level": "kindergarten",
+      "query": "classificazione scuola infanzia schede",
+      "evidence": "serp",
+      "decks": 73,
+      "title": "Classificare le immagini – 5-6 anni",
+      "h1": "Classificare le immagini a 5-6 anni",
+      "metaDescription": "Cosa sta con cosa? Osserva le figure e mettile nel gruppo giusto: schede di classificazione per 5-6 anni, gratis in PDF e in versione online."
+    },
+    {
+      "key": "bingo__kindergarten",
+      "type": "bingo",
+      "level": "kindergarten",
+      "query": "bingo classe prima",
+      "evidence": "harvest",
+      "decks": 70,
+      "title": "Bingo illustrato – scuola dell'infanzia",
+      "h1": "Bingo illustrato all'infanzia",
+      "metaDescription": "Il bingo con le immagini per la scuola dell'infanzia: cartelle illustrate da stampare gratis per giocare in gruppo, anche in versione online.",
+      "regradeFlag": true
+    },
+    {
+      "key": "kindergarten__science-sort",
+      "type": "science-sort",
+      "level": "kindergarten",
+      "query": "schede di scienze scuola infanzia",
+      "evidence": "serp",
+      "decks": 60,
+      "title": "Scienze per l'infanzia – classifica gli animali",
+      "h1": "Scienze alla scuola dell'infanzia",
+      "metaDescription": "Chi vive in fattoria e chi nel bosco? Prime classificazioni di scienze per la scuola dell'infanzia, da stampare gratis o da giocare online."
+    },
+    {
+      "key": "alphabet-train__preschool",
+      "type": "alphabet-train",
+      "level": "preschool",
+      "query": "alfabeto scuola infanzia schede",
+      "evidence": "serp",
+      "decks": 60,
+      "title": "Prime lettere dell'alfabeto – 3-5 anni",
+      "h1": "Prime lettere dell'alfabeto",
+      "metaDescription": "Le prime lettere salgono sul trenino: schede sull'alfabeto per bambini di 3-5 anni, da stampare gratis in PDF o da riordinare online."
+    },
+    {
+      "key": "grade-1__pattern-worksheet",
+      "type": "pattern-worksheet",
+      "level": "grade-1",
+      "query": "sequenze e ritmi classe prima",
+      "evidence": "harvest",
+      "decks": 50,
+      "title": "Sequenze e ritmi per la classe prima – schede",
+      "h1": "Sequenze e ritmi – classe prima",
+      "metaDescription": "Osserva il ritmo e completa la sequenza: schede su sequenze e ritmi calibrate sulla classe prima, da stampare gratis in PDF o svolgere online."
+    },
+    {
+      "key": "grade-1__wordsearch",
+      "type": "wordsearch",
+      "level": "grade-1",
+      "query": "crucipuzzle facili da stampare",
+      "evidence": "serp",
+      "decks": 50,
+      "title": "Crucipuzzle per la classe prima – facili",
+      "h1": "Crucipuzzle per la classe prima",
+      "metaDescription": "Crucipuzzle facili con parole brevi e immagini: perfetti per chi legge le prime parole in classe prima. Da stampare gratis o da giocare online."
+    },
+    {
+      "key": "grid-match__kindergarten",
+      "type": "grid-match",
+      "level": "kindergarten",
+      "query": "giochi di attenzione 5 anni",
+      "evidence": "serp",
+      "decks": 50,
+      "title": "Abbinamenti a griglia per l'infanzia",
+      "h1": "Abbinamenti a griglia all'infanzia",
+      "metaDescription": "Trova la casella giusta per ogni immagine nella griglia: un gioco di attenzione per la scuola dell'infanzia, gratis in PDF e giocabile online."
+    },
+    {
+      "key": "chart-count__kindergarten",
+      "type": "chart-count",
+      "level": "kindergarten",
+      "query": "conta e colora scuola infanzia",
+      "evidence": "serp",
+      "decks": 50,
+      "title": "Conta e registra nel grafico – infanzia",
+      "h1": "Conta e registra nel grafico",
+      "metaDescription": "Conta gli elementi e colora una casella del grafico per ciascuno: prima statistica per la scuola dell'infanzia, gratis in PDF e online."
+    },
+    {
+      "key": "crossword__grade-2",
+      "type": "crossword",
+      "level": "grade-2",
+      "query": "cruciverba classe seconda",
+      "evidence": "harvest",
+      "decks": 44,
+      "title": "Cruciverba per la classe seconda – da stampare",
+      "h1": "Cruciverba per la classe seconda",
+      "metaDescription": "Cruciverba illustrati adatti alla classe seconda: parole del programma, immagini come definizioni e soluzioni. Gratis in PDF, anche online.",
+      "notes": "Richest typeGrade cluster in the harvest (italiano, doppie, sillabico)."
+    },
+    {
+      "key": "grade-3__telling-time",
+      "type": "telling-time",
+      "level": "grade-3",
+      "query": "leggere l'orologio esercizi",
+      "evidence": "harvest",
+      "decks": 40,
+      "title": "L'orologio in classe terza – ore e minuti",
+      "h1": "L'orologio in classe terza",
+      "metaDescription": "Leggere l'orologio con i minuti a cinque a cinque: esercizi per la classe terza con quadranti da completare, gratis in PDF e in versione online."
+    },
+    {
+      "key": "fractions__grade-2",
+      "type": "fractions",
+      "level": "grade-2",
+      "query": "frazioni classe seconda",
+      "evidence": "harvest",
+      "decks": 34,
+      "title": "Frazioni per la classe seconda – schede",
+      "h1": "Frazioni per la classe seconda",
+      "metaDescription": "Prime frazioni in classe seconda: metà e quarti da riconoscere nelle figure colorate. Schede da stampare gratis in PDF o da risolvere online."
+    },
+    {
+      "key": "fractions__grade-3",
+      "type": "fractions",
+      "level": "grade-3",
+      "query": "frazioni schede didattiche classe terza",
+      "evidence": "harvest",
+      "decks": 34,
+      "title": "Frazioni per la classe terza da stampare",
+      "h1": "Frazioni per la classe terza",
+      "metaDescription": "Frazioni in classe terza: unità frazionaria, confronto e figure da colorare secondo la frazione. Schede gratis in PDF, anche in versione online."
+    },
+    {
+      "key": "grade-1__science-sort",
+      "type": "science-sort",
+      "level": "grade-1",
+      "query": "classificazione animali classe prima",
+      "evidence": "serp",
+      "decks": 30,
+      "title": "Classificazione degli animali – classe prima",
+      "h1": "Classificare gli animali – classe prima",
+      "metaDescription": "Chi vola, chi nuota, chi striscia? Schede di scienze per classificare gli animali in classe prima, da stampare gratis in PDF o giocare online."
+    },
+    {
+      "key": "counting-pictures__kindergarten",
+      "type": "counting-pictures",
+      "level": "kindergarten",
+      "query": "attività di matematica scuola dell infanzia",
+      "evidence": "harvest",
+      "decks": 27,
+      "title": "Imparare a contare – schede infanzia",
+      "h1": "Imparare a contare all'infanzia",
+      "metaDescription": "Conta gli oggetti a voce e scrivi il numero: attività per imparare a contare fino a 10 alla scuola dell'infanzia, gratis in PDF e online."
+    },
+    {
+      "key": "kindergarten__phonological-awareness",
+      "type": "phonological-awareness",
+      "level": "kindergarten",
+      "query": "laboratorio fonologico scuola infanzia",
+      "evidence": "serp",
+      "decks": 25,
+      "title": "Giochi fonologici per la scuola dell'infanzia",
+      "h1": "Giochi fonologici all'infanzia",
+      "metaDescription": "Battere le sillabe, riconoscere suoni e rime: giochi fonologici per il laboratorio alla scuola dell'infanzia, gratis in PDF e online."
+    },
+    {
+      "key": "grade-1__telling-time",
+      "type": "telling-time",
+      "level": "grade-1",
+      "query": "orologio classe prima",
+      "evidence": "serp",
+      "decks": 21,
+      "title": "L'orologio in classe prima – le ore intere",
+      "h1": "L'orologio in classe prima",
+      "metaDescription": "Le prime letture dell'orologio: solo ore intere sul quadrante analogico, con esercizi illustrati per la classe prima. Gratis in PDF e online."
+    },
+    {
+      "key": "grade-2__telling-time",
+      "type": "telling-time",
+      "level": "grade-2",
+      "query": "leggere l'orologio classe seconda",
+      "evidence": "harvest",
+      "decks": 20,
+      "title": "Leggere l'orologio in classe seconda – schede",
+      "h1": "L'orologio in classe seconda",
+      "metaDescription": "Ore intere e mezze ore sull'orologio analogico: schede per la classe seconda con quadranti da leggere e completare. Gratis in PDF, anche online."
+    },
+    {
+      "key": "kindergarten__letter-knowledge",
+      "type": "letter-knowledge",
+      "level": "kindergarten",
+      "query": "riconoscere le lettere giochi infanzia",
+      "evidence": "serp",
+      "decks": 20,
+      "title": "Riconoscere le lettere – giochi infanzia",
+      "h1": "Riconoscere le lettere all'infanzia",
+      "metaDescription": "Trova la lettera giusta tra forme che si somigliano: giochi per riconoscere le lettere alla scuola dell'infanzia, gratis in PDF e online."
+    },
+    {
+      "key": "geometry__grade-2",
+      "type": "geometry",
+      "level": "grade-2",
+      "query": "forme geometriche classe seconda",
+      "evidence": "harvest",
+      "decks": 17,
+      "title": "Forme geometriche in classe seconda",
+      "h1": "Forme geometriche in classe seconda",
+      "metaDescription": "Riconoscere e classificare poligoni e figure piane: schede di geometria per la classe seconda, da stampare gratis in PDF o da risolvere online."
+    },
+    {
+      "key": "arrays-multiplication__grade-2",
+      "type": "arrays-multiplication",
+      "level": "grade-2",
+      "query": "schieramenti classe seconda",
+      "evidence": "serp",
+      "decks": 14,
+      "title": "Schieramenti in classe seconda – schede",
+      "h1": "Schieramenti in classe seconda",
+      "metaDescription": "Dallo schieramento alla moltiplicazione: conta righe e colonne e scrivi l'operazione. Schede per la classe seconda, gratis in PDF e online."
+    },
+    {
+      "key": "geometry__grade-3",
+      "type": "geometry",
+      "level": "grade-3",
+      "query": "geometria classe terza schede",
+      "evidence": "serp",
+      "decks": 14,
+      "title": "Geometria in classe terza – schede",
+      "h1": "Geometria in classe terza",
+      "metaDescription": "Figure piane, lati e prime proprietà: schede di geometria per la classe terza, da stampare gratis in PDF o da completare direttamente online."
+    },
+    {
+      "key": "grade-1__picture-arithmetic",
+      "type": "picture-arithmetic",
+      "level": "grade-1",
+      "query": "addizioni con i disegni classe prima",
+      "evidence": "serp",
+      "decks": 14,
+      "title": "Addizioni illustrate – classe prima",
+      "h1": "Addizioni illustrate – classe prima",
+      "metaDescription": "Il calcolo raccontato dalle immagini: conta gli elementi e scrivi addizione e risultato. Schede per la classe prima, gratis in PDF e online."
+    },
+    {
+      "key": "grade-1__number-charts",
+      "type": "number-charts",
+      "level": "grade-1",
+      "query": "tabella dei numeri prima elementare",
+      "evidence": "harvest",
+      "decks": 13,
+      "title": "Tabella dei numeri per la classe prima",
+      "h1": "Tabella dei numeri – classe prima",
+      "metaDescription": "Completa la tabella dei numeri fino a 100: caselle vuote da riempire per contare in avanti in classe prima. Gratis in PDF, anche online."
+    },
+    {
+      "key": "grade-1__measurement",
+      "type": "measurement",
+      "level": "grade-1",
+      "query": "misure classe prima schede",
+      "evidence": "serp",
+      "decks": 12,
+      "title": "Le misure in classe prima – schede",
+      "h1": "Le misure in classe prima",
+      "metaDescription": "Più lungo o più corto? Misura, confronta e ordina le lunghezze: schede sulle misure per la classe prima, gratis in PDF e in versione online."
+    },
+    {
+      "key": "grade-1__graphing-data",
+      "type": "graphing-data",
+      "level": "grade-1",
+      "query": "grafici classe prima",
+      "evidence": "serp",
+      "decks": 12,
+      "title": "Grafici e dati in classe prima",
+      "h1": "Grafici e dati in classe prima",
+      "metaDescription": "Leggi il grafico a colonne e rispondi: quanti sono? Schede su grafici e dati per la classe prima, da stampare gratis o da svolgere online."
+    }
+  ],
+  "demandWithoutInventory": [
+    {
+      "query": "pregrafismo schede da stampare",
+      "gap": "no tracing decks (writing/drawing-lines apps PDF-only, unpublished); the biggest Italian infanzia genre — top production fork"
+    },
+    {
+      "query": "cornicette da stampare",
+      "gap": "sibling tracing/grid-drawing genre, no content"
+    },
+    {
+      "query": "unisci i puntini da stampare",
+      "gap": "dot-to-dot genre, no content"
+    },
+    {
+      "query": "trova le differenze per bambini",
+      "gap": "spot-the-difference ≠ our visual-discrimination find-the-same; no honest content"
+    },
+    {
+      "query": "cruciverba classe prima",
+      "gap": "rich harvest demand; crossword decks all 7-9 (classe seconda)"
+    },
+    {
+      "query": "decine e unità classe prima",
+      "gap": "rich harvest cluster; only 12 base-ten decks"
+    },
+    {
+      "query": "linea dei numeri fino a 20 da stampare",
+      "gap": "rich harvest cluster; only 9 number-lines decks"
+    },
+    {
+      "query": "forme geometriche classe prima",
+      "gap": "harvest demand; geometry has 0 decks at grade-1 — shapes theme absorbs the infanzia face only"
+    },
+    {
+      "query": "tabelline / esercizi da stampare tabelline",
+      "gap": "multiplication-tables demand (harvested); arrays decks are pre-tabelline only"
+    }
+  ]
+}

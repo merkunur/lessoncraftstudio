@@ -1,0 +1,451 @@
+{
+  "$comment": "Demand-keyed SEO overrides authored from docs/SEO/demand-map-it.md (+ demand-terms-it.json). Validated by scripts/seo/validate-topic-overrides.js.",
+  "singleAxis": {
+    "addition": {
+      "title": "Addizioni per la classe prima da stampare e online",
+      "h1": "Addizioni per la classe prima",
+      "metaDescription": "Schede di addizioni entro il 10 e il 20: calcoli illustrati da stampare gratis in PDF, con soluzioni e versione interattiva online per la prima elementare."
+    },
+    "subtraction": {
+      "title": "Sottrazioni per la classe prima – schede gratis",
+      "h1": "Sottrazioni per la classe prima",
+      "metaDescription": "Sottrazioni illustrate entro il 10 e il 20: schede gratuite da stampare in PDF con soluzioni, più esercizi interattivi online per i primi calcoli in prima."
+    },
+    "code-addition": {
+      "title": "Addizioni con il codice segreto – da stampare",
+      "h1": "Addizioni con il codice segreto",
+      "metaDescription": "Ogni simbolo nasconde un numero: il bambino decifra il codice e risolve l'addizione. Schede gioco da stampare gratis in PDF o da svolgere online."
+    },
+    "more-less": {
+      "title": "Di più o di meno – schede per l'infanzia",
+      "h1": "Di più o di meno",
+      "metaDescription": "Dov'è di più? Dov'è di meno? Schede illustrate per confrontare le quantità alla scuola dell'infanzia, da stampare gratis in PDF o da giocare online."
+    },
+    "math-puzzle": {
+      "title": "Puzzle matematici per bambini – gratis in PDF",
+      "h1": "Puzzle matematici per bambini",
+      "metaDescription": "Risolvi i calcoli e ricomponi l'immagine: puzzle matematici da stampare gratis in PDF o da giocare online, per allenare la matematica divertendosi."
+    },
+    "math-worksheet": {
+      "title": "Schede di matematica miste da stampare (PDF)",
+      "h1": "Schede di matematica miste",
+      "metaDescription": "Esercizi di matematica misti e illustrati: numeri, calcoli e quantità in schede da stampare gratis in PDF o da svolgere online, con soluzioni incluse."
+    },
+    "big-small": {
+      "title": "Grande o piccolo – schede per bambini 3-5 anni",
+      "h1": "Grande o piccolo",
+      "metaDescription": "Grande o piccolo? Schede illustrate per confrontare le grandezze, pensate per bambini di 3-5 anni: osserva, confronta e tocca la risposta giusta."
+    },
+    "chart-count": {
+      "title": "Conta e completa il grafico – schede infanzia",
+      "h1": "Conta e completa il grafico",
+      "metaDescription": "Il bambino conta gli oggetti e colora le colonne del grafico: schede di prima statistica per la scuola dell'infanzia, da stampare gratis o usare online."
+    },
+    "pattern-train": {
+      "title": "Il trenino delle sequenze – ritmi da completare",
+      "h1": "Il trenino delle sequenze",
+      "metaDescription": "Osserva i vagoni del trenino e completa la sequenza: schede su ritmi e sequenze per la scuola dell'infanzia, da stampare gratis o da giocare online."
+    },
+    "pattern-worksheet": {
+      "title": "Sequenze e ritmi – schede da completare",
+      "h1": "Sequenze e ritmi",
+      "metaDescription": "Quale elemento continua la serie? Schede su sequenze e ritmi con figure e colori, da stampare gratis in PDF o da risolvere online con autocorrezione."
+    },
+    "patterns": {
+      "title": "Sequenze illustrate per i più piccoli",
+      "h1": "Sequenze illustrate",
+      "metaDescription": "Sequenze illustrate da completare per i più piccoli: riconoscere il ritmo e scegliere l'elemento che continua la serie. Schede gratuite, anche online."
+    },
+    "bingo": {
+      "title": "Bingo per bambini – cartelle da stampare gratis",
+      "h1": "Bingo illustrato per bambini",
+      "metaDescription": "Cartelle del bingo illustrate da stampare gratis: immagini al posto dei numeri, perfette per giocare in classe o a casa con i bambini più piccoli."
+    },
+    "grid-match": {
+      "title": "Abbina le immagini nella griglia – da stampare",
+      "h1": "Abbina le immagini nella griglia",
+      "metaDescription": "Osserva la griglia e trascina ogni immagine nella casella giusta: un gioco di attenzione visiva da stampare gratis o da giocare online, per 5-6 anni."
+    },
+    "matching": {
+      "title": "Giochi di abbinamento per bambini – schede PDF",
+      "h1": "Giochi di abbinamento",
+      "metaDescription": "Collega ogni elemento alla sua coppia: abbinamenti numero-quantità e immagine-immagine in schede da stampare gratis in PDF o da giocare online."
+    },
+    "picture-sort": {
+      "title": "Ordina e classifica le immagini – gioco PDF",
+      "h1": "Ordina e classifica le immagini",
+      "metaDescription": "Quale immagine appartiene al gruppo? Schede per osservare, ordinare e classificare le figure per categoria, da stampare gratis o da giocare online."
+    },
+    "shadow-match": {
+      "title": "Abbina le ombre – gioco da stampare e online",
+      "h1": "Abbina le ombre",
+      "metaDescription": "Collega ogni figura alla sua ombra: un classico gioco di osservazione per la scuola dell'infanzia, da stampare gratis in PDF o da giocare subito online."
+    },
+    "alphabet-train": {
+      "title": "Il treno dell'alfabeto – ordina le lettere",
+      "h1": "Il treno dell'alfabeto",
+      "metaDescription": "Rimetti in fila le lettere sui vagoni del treno dell'alfabeto: schede illustrate per imparare l'ordine alfabetico, da stampare gratis o giocare online."
+    },
+    "prepositions": {
+      "title": "Concetti topologici e indicatori spaziali – schede",
+      "h1": "Concetti topologici e indicatori spaziali",
+      "metaDescription": "Sopra, sotto, dentro, fuori: scenette illustrate sui concetti topologici e gli indicatori spaziali, da stampare gratis in PDF o da giocare online."
+    },
+    "word-guess": {
+      "title": "Indovina la parola dalle immagini – gioco",
+      "h1": "Indovina la parola dalle immagini",
+      "metaDescription": "Osserva l'immagine e completa la parola lettera per lettera: schede illustrate per le prime letture, da stampare gratis in PDF o da giocare online."
+    },
+    "word-scramble": {
+      "title": "Anagrammi per bambini da stampare gratis",
+      "h1": "Anagrammi per bambini",
+      "metaDescription": "Lettere in disordine: riordina l'anagramma e scrivi la parola giusta guardando l'immagine. Schede da stampare gratis in PDF o da risolvere online."
+    },
+    "wordsearch": {
+      "title": "Crucipuzzle per bambini – parole intrecciate",
+      "h1": "Crucipuzzle e parole intrecciate",
+      "metaDescription": "Trova le parole nascoste nello schema: crucipuzzle e parole intrecciate illustrati per bambini, da stampare gratis in PDF o da giocare subito online."
+    },
+    "crossword": {
+      "title": "Cruciverba per bambini da stampare gratis",
+      "h1": "Cruciverba per bambini",
+      "metaDescription": "Cruciverba illustrati per bambini: le immagini fanno da definizione, si scrive una lettera per casella. Schemi facili in PDF con soluzioni, anche online."
+    },
+    "find-and-count": {
+      "title": "Trova e conta – schede per contare 3-5 anni",
+      "h1": "Trova e conta",
+      "metaDescription": "Cerca gli elementi nell'immagine e conta quanti sono: schede illustrate per bambini di 3-5 anni, da stampare gratis in PDF o da giocare online."
+    },
+    "find-objects": {
+      "title": "Trova gli oggetti nascosti – da stampare",
+      "h1": "Trova gli oggetti nascosti",
+      "metaDescription": "Quanti oggetti nascosti riesci a scovare nella scena? Schede di osservazione in stile cerca e trova, da stampare gratis in PDF o da giocare online."
+    },
+    "treasure-hunt": {
+      "title": "Caccia al tesoro nel labirinto – da stampare",
+      "h1": "Caccia al tesoro nel labirinto",
+      "metaDescription": "Segui il percorso tra le caselle, evita i vicoli ciechi e raggiungi il tesoro: schede labirinto da stampare gratis in PDF o da giocare online."
+    },
+    "missing-pieces": {
+      "title": "Trova i pezzi mancanti – completa l'immagine",
+      "h1": "Trova i pezzi mancanti",
+      "metaDescription": "Quale pezzo completa il disegno? Un gioco di osservazione e logica visiva da stampare gratis in PDF o da giocare online, per bambini di 5-6 anni."
+    },
+    "odd-one-out": {
+      "title": "Trova l'intruso – schede didattiche gratis",
+      "h1": "Trova l'intruso",
+      "metaDescription": "Quale elemento non c'entra con gli altri? Schede trova l'intruso di difficoltà crescente, da stampare gratis in PDF o da giocare online in autonomia."
+    },
+    "sudoku": {
+      "title": "Sudoku illustrati per bambini – facili 4×4",
+      "h1": "Sudoku illustrati per bambini",
+      "metaDescription": "Sudoku 4×4 con immagini al posto dei numeri: schemi facili pensati per i più piccoli, da stampare gratis in PDF o da risolvere online trascinando le figure."
+    },
+    "cryptogram": {
+      "title": "Crittogrammi per bambini – decifra la parola",
+      "h1": "Crittogrammi per bambini",
+      "metaDescription": "Ogni simbolo corrisponde a una lettera: decifra il codice e scopri la parola nascosta. Crittogrammi illustrati da stampare gratis o risolvere online."
+    },
+    "picture-path": {
+      "title": "Labirinti per bambini da stampare gratis (PDF)",
+      "h1": "Labirinti per bambini",
+      "metaDescription": "Labirinti illustrati di difficoltà crescente: trova la strada giusta tra i muri del percorso. Da stampare gratis in PDF o da giocare online, dai 4 anni."
+    },
+    "counting-pictures": {
+      "title": "Contare con le immagini – schede 1-10",
+      "h1": "Contare con le immagini",
+      "metaDescription": "Conta gli oggetti nelle immagini e scrivi il numero giusto: schede per imparare a contare da 1 a 10, da stampare gratis o per esercitarsi online."
+    },
+    "counting-frames": {
+      "title": "La decina – contare con la tabella del 10",
+      "h1": "La decina e la tabella del 10",
+      "metaDescription": "La tabella del 10 rende visibili le quantità: conta i pallini, completa la decina e scrivi il numero. Schede da stampare gratis o da usare online."
+    },
+    "tally-counting": {
+      "title": "Contare con le stanghette – schede",
+      "h1": "Contare con le stanghette",
+      "metaDescription": "Conta con le stanghette e registra le quantità come in un vero sondaggio: schede sul conteggio con le tacche da stampare gratis o da provare online."
+    },
+    "number-charts": {
+      "title": "Tabella dei numeri da stampare – fino a 100",
+      "h1": "La tabella dei numeri",
+      "metaDescription": "Tabelle dei numeri con caselle vuote da completare: orientarsi tra i numeri fino a 100 riga per riga. Da stampare gratis in PDF o da riempire online."
+    },
+    "comparing-numbers": {
+      "title": "Confronto tra numeri – maggiore o minore",
+      "h1": "Confronto tra numeri",
+      "metaDescription": "Maggiore, minore o uguale? Schede per confrontare i numeri e scegliere il simbolo giusto, da stampare gratis in PDF o per esercitarsi online."
+    },
+    "comparing-groups": {
+      "title": "Confronto tra quantità – schede illustrate",
+      "h1": "Confronto tra quantità",
+      "metaDescription": "Quale gruppo ha più elementi? Conta, confronta le quantità e indica la risposta: schede illustrate da stampare gratis o da svolgere online."
+    },
+    "comparing-sizes": {
+      "title": "Confronto di grandezze – lungo, corto, alto",
+      "h1": "Confronto di grandezze",
+      "metaDescription": "Lungo o corto, alto o basso, largo o stretto? Schede illustrate sul confronto di grandezze per i più piccoli, da stampare gratis o giocare online."
+    },
+    "number-lines": {
+      "title": "La linea dei numeri da stampare – fino a 20",
+      "h1": "La linea dei numeri",
+      "metaDescription": "Salta avanti e indietro sulla linea dei numeri: schede per contare e calcolare fino a 20, da stampare gratis in PDF o per esercitarsi online."
+    },
+    "base-ten": {
+      "title": "Decine e unità – schede da stampare gratis",
+      "h1": "Decine e unità",
+      "metaDescription": "Da decine e unità al numero e ritorno: schede per comporre e scomporre i numeri, da stampare gratis in PDF o per esercitarsi online con soluzioni."
+    },
+    "telling-time": {
+      "title": "Leggere l'orologio – schede ed esercizi",
+      "h1": "Leggere l'orologio",
+      "metaDescription": "Che ore sono? Schede sull'orologio analogico con ore intere, mezze ore e minuti: da stampare gratis in PDF o per esercitarsi online con le lancette."
+    },
+    "fractions": {
+      "title": "Frazioni – schede didattiche da stampare",
+      "h1": "Le frazioni",
+      "metaDescription": "Metà, terzi e quarti spiegati con le figure: riconosci la frazione colorata e completa gli esercizi. Schede gratis in PDF, anche online con soluzioni."
+    },
+    "graphing-data": {
+      "title": "Grafici e dati – schede per la scuola primaria",
+      "h1": "Grafici e dati",
+      "metaDescription": "Leggi il grafico, confronta le colonne e rispondi alle domande: schede su grafici e dati per la scuola primaria, da stampare gratis o svolgere online."
+    },
+    "arrays-multiplication": {
+      "title": "Schieramenti e moltiplicazione – schede",
+      "h1": "Schieramenti e moltiplicazione",
+      "metaDescription": "Righe per colonne: osserva lo schieramento, conta e scrivi la moltiplicazione. Schede per avvicinarsi alle tabelline, gratis in PDF e online."
+    },
+    "geometry": {
+      "title": "Forme geometriche – schede da stampare (PDF)",
+      "h1": "Le forme geometriche",
+      "metaDescription": "Cerchio, quadrato, triangolo e rettangolo: riconosci le forme geometriche, abbinale e classificale. Schede gratis in PDF, anche da giocare online."
+    },
+    "measurement": {
+      "title": "Misurare: schede di misure per la primaria",
+      "h1": "Le misure",
+      "metaDescription": "Misura con il righello, confronta le lunghezze e ordina gli oggetti: schede sulle misure per la scuola primaria, da stampare gratis o usare online."
+    },
+    "visual-logic": {
+      "title": "Giochi di logica visiva per bambini",
+      "h1": "Giochi di logica visiva",
+      "metaDescription": "Rompicapi visivi che allenano ragionamento, attenzione e memoria: giochi di logica per bambini da stampare gratis in PDF o da risolvere online."
+    },
+    "visual-discrimination": {
+      "title": "Discriminazione visiva – schede da stampare",
+      "h1": "Discriminazione visiva",
+      "metaDescription": "Trova la figura identica al modello tra tante quasi uguali: schede di discriminazione visiva da stampare gratis, usate anche nel sostegno e per i DSA."
+    },
+    "visual-matching": {
+      "title": "Abbinamenti visivi – trova le coppie",
+      "h1": "Abbinamenti visivi",
+      "metaDescription": "Osserva bene e trova le coppie di immagini identiche: schede di abbinamento visivo da stampare gratis in PDF o da giocare direttamente online."
+    },
+    "position-words": {
+      "title": "Indicatori spaziali per la classe prima",
+      "h1": "Indicatori spaziali",
+      "metaDescription": "Davanti o dietro, vicino o lontano, destra o sinistra? Schede sugli indicatori spaziali per orientarsi nello spazio, da stampare gratis o online."
+    },
+    "sorting-categories": {
+      "title": "Classificare per categorie – schede infanzia",
+      "h1": "Classificare per categorie",
+      "metaDescription": "Cosa va con cosa? Metti ogni immagine nella categoria giusta: cibi, animali, vestiti. Schede per classificare da stampare gratis o giocare online."
+    },
+    "picture-arithmetic": {
+      "title": "Calcoli con le immagini – addizioni illustrate",
+      "h1": "Calcoli con le immagini",
+      "metaDescription": "Le immagini raccontano il calcolo: conta gli elementi, scrivi i numeri e il risultato. Schede illustrate da stampare gratis o da svolgere online."
+    },
+    "science-sort": {
+      "title": "Classificazione degli animali e scienze – schede",
+      "h1": "Classificazione di scienze",
+      "metaDescription": "Chi vive nella fattoria? Chi vola, chi nuota? Schede di scienze per classificare animali e oggetti, da stampare gratis in PDF o da giocare online."
+    },
+    "science-match": {
+      "title": "Abbinamenti di scienze – schede illustrate",
+      "h1": "Abbinamenti di scienze",
+      "metaDescription": "Abbina ogni animale al suo habitat, al suo verso o al suo cibo: schede di scienze illustrate da stampare gratis in PDF o da giocare online."
+    },
+    "science-sequence": {
+      "title": "Cicli di vita – sequenze di scienze",
+      "h1": "Cicli di vita",
+      "metaDescription": "Rimetti in ordine le fasi del ciclo di vita: dalla crisalide alla farfalla, dal seme alla pianta. Schede di scienze da stampare o riordinare online."
+    },
+    "beginning-sounds": {
+      "title": "Suoni iniziali – giochi fonologici da stampare",
+      "h1": "I suoni iniziali",
+      "metaDescription": "Con quale suono inizia la parola? Giochi fonologici sui suoni iniziali per la scuola dell'infanzia, da stampare gratis in PDF o da giocare online."
+    },
+    "letter-knowledge": {
+      "title": "Conoscere le lettere – schede per l'infanzia",
+      "h1": "Conoscere le lettere",
+      "metaDescription": "Riconoscere le lettere dell'alfabeto tra forme simili e primi suoni: schede illustrate per la scuola dell'infanzia, da stampare gratis o online."
+    },
+    "word-building": {
+      "title": "Costruzione di parole – componi le sillabe",
+      "h1": "Costruzione di parole",
+      "metaDescription": "Unisci le sillabe giuste e componi la parola dell'immagine: schede illustrate di costruzione di parole, da stampare gratis o da giocare online."
+    },
+    "picture-vocabulary": {
+      "title": "Vocabolario illustrato per bambini – schede",
+      "h1": "Vocabolario illustrato",
+      "metaDescription": "Impara parole nuove con le immagini, tema per tema: schede di vocabolario illustrato per bambini, da stampare gratis in PDF o da ripassare online."
+    },
+    "phonological-awareness": {
+      "title": "Consapevolezza fonologica – esercizi e schede",
+      "h1": "Consapevolezza fonologica",
+      "metaDescription": "Sillabe, suoni e rime: esercizi di consapevolezza fonologica che preparano alla letto-scrittura. Schede da stampare gratis in PDF o da giocare online."
+    },
+    "preschool": {
+      "title": "Schede per bambini di 3-4 anni da stampare",
+      "h1": "Schede per bambini di 3-4 anni",
+      "metaDescription": "Schede didattiche per bambini di 3 e 4 anni: prime quantità, grandezze e giochi di osservazione. Da stampare gratis in PDF o da giocare online."
+    },
+    "kindergarten": {
+      "title": "Schede didattiche scuola infanzia da stampare",
+      "h1": "Schede per la scuola dell'infanzia",
+      "metaDescription": "Centinaia di schede didattiche per la scuola dell'infanzia: logica, prime quantità, lettere e giochi illustrati. Gratis, in PDF e giocabili online."
+    },
+    "grade-1": {
+      "title": "Schede didattiche classe prima da stampare",
+      "h1": "Schede per la classe prima",
+      "metaDescription": "Schede didattiche per la classe prima (prima elementare): matematica, prime letture e giochi educativi da stampare gratis in PDF o svolgere online."
+    },
+    "grade-2": {
+      "title": "Schede didattiche classe seconda da stampare",
+      "h1": "Schede per la classe seconda",
+      "metaDescription": "Schede didattiche per la classe seconda: orologio, frazioni, cruciverba e schieramenti. Da stampare gratis in PDF o per esercitarsi online."
+    },
+    "grade-3": {
+      "title": "Schede didattiche classe terza da stampare",
+      "h1": "Schede per la classe terza",
+      "metaDescription": "Schede didattiche per la classe terza: frazioni, geometria, l'orologio con i minuti e giochi di logica. Gratis in PDF, anche in versione online."
+    },
+    "animals": {
+      "title": "Schede didattiche sugli animali da stampare",
+      "h1": "Schede sugli animali",
+      "metaDescription": "Cani, gatti, leoni e tanti altri animali: schede illustrate per contare, abbinare e cercare parole. Da stampare gratis in PDF o da giocare online."
+    },
+    "fruits": {
+      "title": "Schede sulla frutta – giochi da stampare",
+      "h1": "Schede sulla frutta",
+      "metaDescription": "Mele, banane e fragole nelle schede sulla frutta: giochi di conteggio, abbinamenti e prime parole. Da stampare gratis in PDF o da giocare online."
+    },
+    "vehicles": {
+      "title": "Schede sui veicoli per bambini da stampare",
+      "h1": "Schede sui veicoli",
+      "metaDescription": "Auto, treni, aerei e camion: schede illustrate sui veicoli e i mezzi di trasporto con giochi di conteggio, logica e parole. Gratis in PDF e online."
+    },
+    "toys": {
+      "title": "Schede sui giocattoli – giochi da stampare",
+      "h1": "Schede sui giocattoli",
+      "metaDescription": "Palloni, bambole e trenini: schede sui giocattoli con conte, abbinamenti e giochi di parole. Da stampare gratis in PDF o da giocare subito online."
+    },
+    "shapes": {
+      "title": "Le forme – schede per la scuola dell'infanzia",
+      "h1": "Le forme",
+      "metaDescription": "Cerchi, quadrati e triangoli da riconoscere e abbinare: schede sulle forme per la scuola dell'infanzia, da stampare gratis in PDF o giocare online."
+    },
+    "weather": {
+      "title": "Il meteo e il tempo – schede per bambini",
+      "h1": "Il meteo e il tempo",
+      "metaDescription": "Sole, pioggia, nuvole e neve: schede sul tempo meteorologico con giochi di abbinamento e prime parole. Da stampare gratis o da giocare online."
+    },
+    "space": {
+      "title": "Lo spazio – schede per bambini da stampare",
+      "h1": "Lo spazio",
+      "metaDescription": "Razzi, pianeti e astronauti: schede sullo spazio con giochi di conteggio, logica e parole. Da stampare gratis in PDF o da giocare direttamente online."
+    },
+    "ocean_life": {
+      "title": "Gli animali del mare – schede da stampare",
+      "h1": "Gli animali del mare",
+      "metaDescription": "Pesci, polpi e stelle marine: schede sugli animali del mare con conte, abbinamenti e giochi. Da stampare gratis in PDF o da giocare online."
+    },
+    "beach": {
+      "title": "La spiaggia – schede estive per bambini",
+      "h1": "La spiaggia",
+      "metaDescription": "Ombrelloni, secchielli e conchiglie: schede sulla spiaggia con giochi estivi di conteggio e parole. Da stampare gratis in PDF o da giocare online."
+    },
+    "flowers": {
+      "title": "I fiori – schede didattiche da stampare",
+      "h1": "I fiori",
+      "metaDescription": "Margherite, tulipani e girasoli: schede sui fiori con giochi di conteggio e abbinamento, da stampare gratis in PDF o da giocare subito online."
+    },
+    "body_parts": {
+      "title": "Le parti del corpo – schede per bambini",
+      "h1": "Le parti del corpo",
+      "metaDescription": "Mani, piedi, occhi e orecchie: schede sulle parti del corpo con giochi illustrati e prime parole. Da stampare gratis in PDF o da giocare online."
+    },
+    "around_the_house": {
+      "title": "In giro per casa – schede di lessico",
+      "h1": "In giro per casa",
+      "metaDescription": "Gli oggetti di casa stanza per stanza: schede illustrate di lessico con conte e giochi di osservazione. Da stampare gratis o da giocare online."
+    },
+    "at_the_supermarket": {
+      "title": "Al supermercato – schede e giochi",
+      "h1": "Al supermercato",
+      "metaDescription": "La spesa diventa un gioco: schede sul supermercato con conte, abbinamenti e prime parole. Da stampare gratis in PDF o da giocare direttamente online."
+    },
+    "zoo_animals": {
+      "title": "Animali dello zoo – schede da stampare",
+      "h1": "Gli animali dello zoo",
+      "metaDescription": "Elefanti, giraffe e scimmie: schede sugli animali dello zoo con conte, abbinamenti e giochi di parole. Da stampare gratis in PDF o giocare online."
+    },
+    "farm_animals": {
+      "title": "Animali della fattoria – schede didattiche",
+      "h1": "Gli animali della fattoria",
+      "metaDescription": "Mucche, galline e maialini: schede sugli animali della fattoria con conte e abbinamenti, da stampare gratis in PDF o da giocare subito online."
+    },
+    "camping": {
+      "title": "Il campeggio – giochi e schede per bambini",
+      "h1": "Il campeggio",
+      "metaDescription": "Tende, zaini e falò: schede sul campeggio con giochi di conteggio, logica e parole. Da stampare gratis in PDF o da giocare direttamente online."
+    },
+    "things_that_fly": {
+      "title": "Cose che volano – schede per bambini",
+      "h1": "Cose che volano",
+      "metaDescription": "Aerei, mongolfiere e farfalle: schede sulle cose che volano con conte e abbinamenti. Da stampare gratis in PDF o da giocare direttamente online."
+    },
+    "forest_creatures": {
+      "title": "Animali del bosco – schede da stampare",
+      "h1": "Gli animali del bosco",
+      "metaDescription": "Volpi, gufi e ricci: schede sugli animali del bosco con giochi di conteggio e osservazione, da stampare gratis in PDF o da giocare online."
+    },
+    "vegetables": {
+      "title": "Le verdure – schede didattiche illustrate",
+      "h1": "Le verdure",
+      "metaDescription": "Carote, pomodori e zucchine: schede sulle verdure con conte, abbinamenti e prime parole. Da stampare gratis in PDF o da giocare direttamente online."
+    },
+    "dinosaurs": {
+      "title": "Dinosauri – schede e giochi da stampare",
+      "h1": "I dinosauri",
+      "metaDescription": "T-rex, triceratopi e brontosauri: schede sui dinosauri con giochi di conteggio, logica e parole. Da stampare gratis in PDF o da giocare online."
+    },
+    "emotions": {
+      "title": "Le emozioni – schede per la scuola infanzia",
+      "h1": "Le emozioni",
+      "metaDescription": "Gioia, rabbia, paura e sorpresa: schede sulle emozioni per riconoscerle e dar loro un nome. Da stampare gratis in PDF o da giocare online."
+    },
+    "occupations": {
+      "title": "I mestieri – schede didattiche per bambini",
+      "h1": "I mestieri e le professioni",
+      "metaDescription": "Dottori, pompieri e maestre: schede sui mestieri e le professioni con abbinamenti e giochi di parole. Da stampare gratis in PDF o giocare online."
+    },
+    "breakfast": {
+      "title": "La colazione – schede illustrate per bambini",
+      "h1": "La colazione",
+      "metaDescription": "Latte, biscotti e marmellata: schede sulla colazione con conte, abbinamenti e lessico illustrato. Da stampare gratis in PDF o da giocare online."
+    },
+    "classroom": {
+      "title": "A scuola: gli oggetti dell'aula – schede",
+      "h1": "Gli oggetti dell'aula",
+      "metaDescription": "Matite, zaini e lavagne: schede sugli oggetti dell'aula, perfette per i giorni dell'accoglienza. Da stampare gratis in PDF o da giocare online."
+    },
+    "clothing": {
+      "title": "L'abbigliamento – schede e giochi illustrati",
+      "h1": "L'abbigliamento",
+      "metaDescription": "Magliette, cappelli e scarpe: schede sull'abbigliamento con abbinamenti e giochi di parole. Da stampare gratis in PDF o da giocare direttamente online."
+    }
+  },
+  "intersection": {}
+}

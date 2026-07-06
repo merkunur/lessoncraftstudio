@@ -73,6 +73,24 @@ function getLandingBySlug(locale, slug) {
   return f ? (f.landings.find((l) => l.slug === slug) || null) : null;
 }
 
+/* -------- real-content augment (Unit 3 "differentiate in place", 2026-07-06) --------
+ * Per-locale augment JSONs produced by scripts/seo-landing/augment-landings-real-content.js
+ * on Hetzner (manifest-derived word banks / sample problems / nouns / stats / dates).
+ * OPTIONAL by design: when the file is absent the landing renders exactly as before,
+ * so a missing augment can never fail a deploy. */
+let AUGMENT_DIR = process.env.LCS_AUGMENT_DIR || '/var/www/lcs-media/landings-augment';
+const _augCache = {};
+function loadAugment(locale) {
+  if (locale in _augCache) return _augCache[locale];
+  let data = null;
+  try {
+    const p = path.join(AUGMENT_DIR, `${locale}.json`);
+    if (fs.existsSync(p)) data = JSON.parse(fs.readFileSync(p, 'utf8'));
+  } catch (e) { data = null; }
+  _augCache[locale] = data;
+  return data;
+}
+
 /* ============================== lib/seo/url.ts ============================== */
 
 const CANONICAL_HOST = 'https://www.lessoncraftstudio.com';
@@ -400,6 +418,95 @@ const UI_STRINGS = {
   },
 };
 
+/* Unit 3 real-content section strings (2026-07-06). Simple label register;
+ * sv/da/no/fi authored with native-equivalent confidence, [NSR-FLAG] per §17.5.1. */
+const AUG_STRINGS = {
+  en: {
+    whatsInside: "What's inside", words: (n) => `The ${n} words in this worksheet`, nouns: 'Pictures on this worksheet',
+    problems: 'Sample problems from this worksheet', statProblems: (n) => `${n} exercises`, statWords: (n) => `${n} words`,
+    statImages: (n) => `${n} pictures`, answerKeyIncluded: 'Answer key included',
+    printPlay: 'Print as PDF or play online — free, no sign-up', updated: (d) => `Updated ${d}`,
+    moreVersions: 'More versions of this worksheet',
+  },
+  de: {
+    whatsInside: 'Das steckt im Arbeitsblatt', words: (n) => `Die ${n} Wörter in diesem Arbeitsblatt`, nouns: 'Bilder auf diesem Arbeitsblatt',
+    problems: 'Beispielaufgaben aus diesem Arbeitsblatt', statProblems: (n) => `${n} Aufgaben`, statWords: (n) => `${n} Wörter`,
+    statImages: (n) => `${n} Bilder`, answerKeyIncluded: 'Mit Lösungen',
+    printPlay: 'Als PDF drucken oder online spielen — kostenlos, ohne Anmeldung', updated: (d) => `Aktualisiert am ${d}`,
+    moreVersions: 'Weitere Versionen dieses Arbeitsblatts',
+  },
+  es: {
+    whatsInside: 'Qué contiene esta ficha', words: (n) => `Las ${n} palabras de esta ficha`, nouns: 'Imágenes de esta ficha',
+    problems: 'Ejercicios de ejemplo de esta ficha', statProblems: (n) => `${n} ejercicios`, statWords: (n) => `${n} palabras`,
+    statImages: (n) => `${n} imágenes`, answerKeyIncluded: 'Incluye solución',
+    printPlay: 'Imprime el PDF o juega en línea — gratis y sin registro', updated: (d) => `Actualizado el ${d}`,
+    moreVersions: 'Más versiones de esta ficha',
+  },
+  sv: {
+    whatsInside: 'Det här ingår i arbetsbladet', words: (n) => `De ${n} orden i det här arbetsbladet`, nouns: 'Bilder i arbetsbladet',
+    problems: 'Exempeluppgifter från arbetsbladet', statProblems: (n) => `${n} uppgifter`, statWords: (n) => `${n} ord`,
+    statImages: (n) => `${n} bilder`, answerKeyIncluded: 'Facit ingår',
+    printPlay: 'Skriv ut som PDF eller spela online — gratis, utan konto', updated: (d) => `Uppdaterad ${d}`,
+    moreVersions: 'Fler versioner av det här arbetsbladet',
+  },
+  nl: {
+    whatsInside: 'Dit zit er in het werkblad', words: (n) => `De ${n} woorden in dit werkblad`, nouns: 'Afbeeldingen op dit werkblad',
+    problems: 'Voorbeeldopgaven uit dit werkblad', statProblems: (n) => `${n} opgaven`, statWords: (n) => `${n} woorden`,
+    statImages: (n) => `${n} afbeeldingen`, answerKeyIncluded: 'Met antwoorden',
+    printPlay: 'Print als PDF of speel online — gratis, zonder account', updated: (d) => `Bijgewerkt op ${d}`,
+    moreVersions: 'Meer versies van dit werkblad',
+  },
+  da: {
+    whatsInside: 'Det indeholder opgavearket', words: (n) => `De ${n} ord i dette opgaveark`, nouns: 'Billeder på opgavearket',
+    problems: 'Eksempelopgaver fra opgavearket', statProblems: (n) => `${n} opgaver`, statWords: (n) => `${n} ord`,
+    statImages: (n) => `${n} billeder`, answerKeyIncluded: 'Facitliste medfølger',
+    printPlay: 'Print som PDF eller spil online — gratis, uden konto', updated: (d) => `Opdateret ${d}`,
+    moreVersions: 'Flere versioner af dette opgaveark',
+  },
+  it: {
+    whatsInside: 'Cosa contiene questa scheda', words: (n) => `Le ${n} parole di questa scheda`, nouns: 'Immagini della scheda',
+    problems: 'Esercizi di esempio dalla scheda', statProblems: (n) => `${n} esercizi`, statWords: (n) => `${n} parole`,
+    statImages: (n) => `${n} immagini`, answerKeyIncluded: 'Con soluzioni',
+    printPlay: 'Stampa il PDF o gioca online — gratis, senza registrazione', updated: (d) => `Aggiornata il ${d}`,
+    moreVersions: 'Altre versioni di questa scheda',
+  },
+  no: {
+    whatsInside: 'Dette inneholder arbeidsarket', words: (n) => `De ${n} ordene i dette arbeidsarket`, nouns: 'Bilder på arbeidsarket',
+    problems: 'Eksempeloppgaver fra arbeidsarket', statProblems: (n) => `${n} oppgaver`, statWords: (n) => `${n} ord`,
+    statImages: (n) => `${n} bilder`, answerKeyIncluded: 'Fasit følger med',
+    printPlay: 'Skriv ut som PDF eller spill online — gratis, uten konto', updated: (d) => `Oppdatert ${d}`,
+    moreVersions: 'Flere versjoner av dette arbeidsarket',
+  },
+  fr: {
+    whatsInside: 'Ce que contient cette fiche', words: (n) => `Les ${n} mots de cette fiche`, nouns: 'Images de la fiche',
+    problems: "Exemples d'exercices de la fiche", statProblems: (n) => `${n} exercices`, statWords: (n) => `${n} mots`,
+    statImages: (n) => `${n} images`, answerKeyIncluded: 'Corrigé inclus',
+    printPlay: 'Imprimez le PDF ou jouez en ligne — gratuit, sans inscription', updated: (d) => `Mise à jour le ${d}`,
+    moreVersions: "D'autres versions de cette fiche",
+  },
+  pt: {
+    whatsInside: 'O que tem nesta atividade', words: (n) => `As ${n} palavras desta atividade`, nouns: 'Imagens desta atividade',
+    problems: 'Exemplos de exercícios desta atividade', statProblems: (n) => `${n} exercícios`, statWords: (n) => `${n} palavras`,
+    statImages: (n) => `${n} imagens`, answerKeyIncluded: 'Com gabarito',
+    printPlay: 'Imprima o PDF ou jogue online — grátis, sem cadastro', updated: (d) => `Atualizado em ${d}`,
+    moreVersions: 'Mais versões desta atividade',
+  },
+  fi: {
+    whatsInside: 'Tehtäväpaperin sisältö', words: (n) => `Tehtävän ${n} sanaa`, nouns: 'Tehtävän kuvat',
+    problems: 'Esimerkkitehtäviä tästä tehtävästä', statProblems: (n) => `${n} tehtävää`, statWords: (n) => `${n} sanaa`,
+    statImages: (n) => `${n} kuvaa`, answerKeyIncluded: 'Vastaukset mukana',
+    printPlay: 'Tulosta PDF tai pelaa verkossa — ilmainen, ei rekisteröitymistä', updated: (d) => `Päivitetty ${d}`,
+    moreVersions: 'Muita versioita tästä tehtävästä',
+  },
+};
+
+function formatContentDate(locale, iso) {
+  try {
+    return new Intl.DateTimeFormat(getHreflangCode(locale), { year: 'numeric', month: 'long', day: 'numeric' })
+      .format(new Date(iso + 'T00:00:00Z'));
+  } catch (e) { return iso; }
+}
+
 const LEVELS = {
   'preschool': { chip: 'Preschool', schema: 'Preschool', age: '3-4' },
   'kindergarten': { chip: 'Kindergarten', schema: 'Kindergarten', age: '5-6' },
@@ -554,12 +661,32 @@ h1{font-family:'Fraunces',serif;font-weight:700;font-size:1.875rem;line-height:1
 .maker-soon{border-radius:1rem;border:2px dashed var(--cream-300);background:repeating-linear-gradient(45deg,rgba(20,107,94,.02),rgba(20,107,94,.02) 10px,transparent 10px,transparent 20px);padding:1.75rem;text-align:center}
 .maker-soon .t{font-family:'Fraunces',serif;font-weight:600;color:var(--ink-700);font-size:17px}
 .maker-soon .s{color:var(--ink-500);font-size:.875rem;margin-top:.25rem}
+.facts{max-width:48rem;background:#fff;border:1px solid var(--cream-300);border-radius:1rem;padding:1.25rem 1.5rem;margin-bottom:3rem;box-shadow:0 2px 8px rgba(20,30,28,.06)}
+.facts h2{font-family:'Fraunces',serif;font-weight:700;font-size:1.125rem;color:var(--ink-900);margin-bottom:.75rem}
+.facts ul{list-style:none;display:flex;flex-wrap:wrap;gap:.5rem .75rem;margin-bottom:.5rem}
+.facts li{display:inline-flex;align-items:center;gap:.375rem;background:var(--teal-soft);color:var(--teal-deep);font-weight:600;font-size:.875rem;border-radius:9999px;padding:.375rem .75rem}
+.facts .updated{font-size:.8125rem;color:var(--ink-500);margin-top:.25rem}
+.wordlist{max-width:48rem;margin-bottom:3rem}
+.wordlist h2{font-family:'Fraunces',serif;font-weight:700;font-size:1.25rem;color:var(--ink-900);margin-bottom:1rem}
+.wordlist ul{list-style:none;display:flex;flex-wrap:wrap;gap:.5rem}
+.wordlist li{background:#fff;border:1px solid var(--cream-300);color:var(--ink-700);font-weight:600;font-size:.9375rem;border-radius:9999px;padding:.375rem .875rem}
+.wordlist li.prob{font-family:ui-monospace,monospace;font-weight:700;color:var(--teal-deep)}
+.versions{margin-bottom:3rem}
+.versions h2{font-family:'Fraunces',serif;font-weight:700;font-size:1.25rem;color:var(--ink-900);margin-bottom:1.25rem}
+.versions .row{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;max-width:48rem}
+@media(min-width:768px){.versions .row{grid-template-columns:repeat(4,1fr)}}
+.versions a{display:block;border-radius:.75rem;overflow:hidden;border:1px solid var(--cream-300);background:#fff;transition:transform .15s}
+.versions a:hover{transform:translateY(-2px)}
+.versions img{display:block;width:100%;aspect-ratio:480/620;object-fit:cover}
 `.trim();
 
 /* ============================== render one landing ============================== */
 
 function renderLanding(locale, l) {
   const ui = UI_STRINGS[locale] || UI_STRINGS.en;
+  const au = AUG_STRINGS[locale] || AUG_STRINGS.en;
+  const augAll = loadAugment(locale);
+  const aug = (augAll && augAll[l.slug]) || null;
   const fw = FRAMEWORK_BY_LOCALE[locale] || FRAMEWORK_BY_LOCALE.en;
   const a = deckAssets(locale, l.canonicalDeckSlug);
   const canonical = canonicalUrl(localePath(locale, 'worksheets', l.slug));
@@ -649,6 +776,7 @@ function renderLanding(locale, l) {
       educationalFramework: fw.jsonld, targetName: l.standard,
     };
   }
+  if (aug && aug.contentDate) learningResource.dateModified = aug.contentDate;
   const quizSchema = (l.practiceProblems && l.practiceProblems.length >= 2) ? Object.assign(
     {
       '@context': 'https://schema.org', '@type': 'Quiz', name: l.h1,
@@ -711,6 +839,61 @@ ${l.carousel.map((c) => {
   }).join('\n')}
   </div>
 </section>` : '';
+
+  /* ---------- Unit 3 real-content sections (manifest-derived; absent → empty) ---------- */
+  let factsHtml = '', wordsHtml = '', problemsHtml = '', versionsHtml = '';
+  if (aug) {
+    const st = aug.deckStats || {};
+    const factItems = [];
+    if (st.problems) factItems.push(au.statProblems(st.problems));
+    if (st.words) factItems.push(au.statWords(st.words));
+    if (st.images && !st.words) factItems.push(au.statImages(st.images));
+    factItems.push(au.answerKeyIncluded);
+    factItems.push(au.printPlay);
+    factsHtml = `
+<section class="facts">
+  <h2>${esc(au.whatsInside)}</h2>
+  <ul>
+${factItems.map((x) => `    <li>${esc(x)}</li>`).join('\n')}
+  </ul>
+${aug.contentDate ? `  <p class="updated">${esc(au.updated(formatContentDate(locale, aug.contentDate)))}</p>` : ''}
+</section>`;
+
+    const chipWords = aug.realWords || aug.imageNouns || null;
+    if (chipWords && chipWords.length >= 3) {
+      const heading = aug.realWords ? au.words(chipWords.length) : au.nouns;
+      wordsHtml = `
+<section class="wordlist">
+  <h2>${esc(heading)}</h2>
+  <ul>
+${chipWords.map((w) => `    <li>${esc(w)}</li>`).join('\n')}
+  </ul>
+</section>`;
+    }
+
+    if (aug.sampleProblems && aug.sampleProblems.length >= 2) {
+      problemsHtml = `
+<section class="wordlist">
+  <h2>${esc(au.problems)}</h2>
+  <ul>
+${aug.sampleProblems.map((p) => `    <li class="prob">${esc(p)}</li>`).join('\n')}
+  </ul>
+</section>`;
+    }
+
+    if (aug.siblingThumbs && aug.siblingThumbs.length) {
+      versionsHtml = `
+<section class="versions">
+  <h2>${esc(au.moreVersions)}</h2>
+  <div class="row">
+${aug.siblingThumbs.map((s, i) => {
+      const sa = deckAssets(locale, s);
+      return `    <a href="${esc(sa.deckDir)}" aria-label="${esc(l.h1)} ${i + 2}"><img src="${esc(wwwImg(sa.thumbnail))}" alt="${esc(l.h1)} — ${i + 2}" loading="lazy"/></a>`;
+    }).join('\n')}
+  </div>
+</section>`;
+    }
+  }
 
   const mesh = getRelatedLandings(locale, l);
   const meshCol = (heading, items) => items.length === 0 ? '' : `
@@ -807,7 +990,9 @@ ${crumbs}
       <p>${esc(l.p2)}</p>
       <p>${esc(l.p3)}</p>
     </section>
-
+${factsHtml}
+${wordsHtml}
+${problemsHtml}
     <section class="play-section">
       <div class="play-card">
         <h2><span class="dot"></span>${esc(ui.tryInteractive)}</h2>
@@ -823,6 +1008,7 @@ ${crumbs}
         <button type="button" id="lcs-embed-copy" class="btn btn-copy" data-copy="${esc(ui.embedCopy)}" data-copied="${esc(ui.embedCopied)}">${esc(ui.embedCopy)}</button>
       </div>
     </section>
+${versionsHtml}
 ${carouselHtml}
 ${meshHtml}
 ${makerHtml}
@@ -865,6 +1051,7 @@ function parseArgs() {
     else if (a.startsWith('--out=')) args.out = a.slice(6);
     else if (a.startsWith('--slug=')) args.slug = a.slice(7);
     else if (a.startsWith('--limit=')) args.limit = parseInt(a.slice(8), 10) || 0;
+    else if (a.startsWith('--augment=')) AUGMENT_DIR = a.slice(10);
     else if (a === '--stdout') args.stdout = true;
     else { console.error(`unknown arg: ${a}`); process.exit(2); }
   }

@@ -169,6 +169,15 @@ git pull
 # webpack graph; a full regeneration is ~13s). Runs after git pull so landing-content
 # commits deploy through the same command. Non-fatal on error (landings already on
 # disk keep serving; the build below is independent).
+# 1b-i. Refresh the real-content AUGMENT (Unit 3 "differentiate in place", 2026-07-06):
+# manifest-derived word banks / sample problems / stats / dates per landing, written to
+# /var/www/lcs-media/landings-augment/<locale>.json. NON-FATAL by design — the renderer
+# tolerates a missing/stale augment file and renders the landing without the sections.
+echo "📄 Refreshing landing real-content augment..."
+node scripts/seo-landing/augment-landings-real-content.js --locales=all \
+  && echo "   ✅ landing augment refreshed" \
+  || echo "   ⚠️  landing augment failed (landings render without real-content sections)"
+
 echo "📄 Regenerating static worksheet landings..."
 node scripts/seo-landing/render-landing-html.js --out=/var/www/lcs-media/landings \
   && echo "   ✅ static landings regenerated" \

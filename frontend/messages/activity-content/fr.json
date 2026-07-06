@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "place-value-regroup.add-compose-ten.1-nbt-c-4": {
+      "about": [
+        "Tuck le hamster pose une addition toute simple, par exemple 27 + 5, et invite votre enfant à la construire de ses mains. Votre enfant dépose les quantités avec le matériel de numération : les petits cubes pour les unités, les barres pour les dizaines. En rassemblant les unités, il remarque qu'il y en a plus de dix. Il appuie alors sur « Grouper une dizaine » pour échanger 10 unités contre 1 dizaine, une barre apparaît, puis il écrit le total.",
+        "C'est tout l'essentiel du CP qui se joue ici : le principe « 10 unités = 1 dizaine ». Cet échange est le fondement concret de « la retenue » que votre enfant rencontrera bientôt dans le calcul posé ; en groupant les cubes, il comprend d'abord avec ses mains ce que le chiffre reporté signifiera plus tard. Le geste précède la technique : on manipule et on échange avant d'écrire, pour que le sens soit solide avant le symbole.",
+        "L'activité est entièrement gratuite, sans compte, sans minuteur et sans points. Elle est alignée sur les programmes officiels, dans le domaine « Nombres et calcul », et votre enfant avance à son rythme, aussi souvent qu'il le souhaite."
+      ],
+      "practices": [
+        "Additionner avec un échange dans le champ numérique inférieur à 100",
+        "Échanger et grouper 10 unités contre 1 dizaine",
+        "Distinguer les unités et les dizaines pour construire le sens du nombre et la numération",
+        "Faire le lien entre le geste concret de l'échange et « la retenue »"
+      ],
+      "howToPlay": [
+        "Regarder l'addition proposée et poser les deux nombres avec les cubes et les barres.",
+        "Appuyer sur « Grouper une dizaine » quand 10 unités sont réunies : elles deviennent une barre.",
+        "Écrire le total obtenu."
+      ],
+      "learningGoals": [
+        "Votre enfant comprend et utilise le principe « 10 unités = 1 dizaine ».",
+        "Il réalise l'échange qui fonde « la retenue » dans le calcul.",
+        "Il construit un solide sens de la numération décimale, base indispensable du calcul posé plus tard."
+      ]
+    },
     "shapeforge.compose.1-g-a-2": {
       "about": [
         "Mim, le petit renard forgeron de lumière, invite votre enfant à composer de grandes formes à partir de petites pièces. L'enfant choisit une pièce — un triangle ou un losange —, la fait tourner, puis la pose pour remplir un contour vide, sans laisser de trou ni de chevauchement. Chaque pièce trouve sa place, tranquillement, jusqu'à ce que la forme soit entièrement couverte.",

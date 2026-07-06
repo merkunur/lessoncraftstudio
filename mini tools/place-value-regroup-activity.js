@@ -131,34 +131,35 @@
   var _PVR_ID = (typeof window !== 'undefined' && window.location) ? (new URLSearchParams(window.location.search)).get('activity') : null;
   function _pvrTitle(id) {
     id = id || '';
-    if (/add-compose-hundred/.test(id)) return { title: { en: 'Tuck Makes a Hundred', de: 'Tuck bündelt einen Hunderter' }, instruction: { en: 'Tap “Make a hundred” to bundle 10 tens, then type the total.', de: 'Tippe auf „Hunderter bündeln", um 10 Zehner zu bündeln, und tippe dann das Ergebnis ein.' } };
-    if (/subtract-decompose-hundred/.test(id)) return { title: { en: 'Tuck Breaks a Hundred', de: 'Tuck entbündelt einen Hunderter' }, instruction: { en: 'Break a hundred, then a ten — then take some away and type the answer.', de: 'Entbündle einen Hunderter, dann einen Zehner – nimm dann welche weg und tippe das Ergebnis ein.' } };
-    if (/subtract/.test(id)) return { title: { en: 'Tuck Breaks a Ten', de: 'Tuck entbündelt einen Zehner' }, instruction: { en: 'Tap “Break a ten”, then take some away and type the answer.', de: 'Tippe auf „Zehner entbündeln", nimm dann welche weg und tippe das Ergebnis ein.' } };
+    if (/add-compose-hundred/.test(id)) return { title: { en: 'Tuck Makes a Hundred', de: 'Tuck bündelt einen Hunderter', fr: 'Tuck fait une centaine' }, instruction: { en: 'Tap “Make a hundred” to bundle 10 tens, then type the total.', de: 'Tippe auf „Hunderter bündeln", um 10 Zehner zu bündeln, und tippe dann das Ergebnis ein.', fr: 'Appuie sur « Grouper une centaine » pour faire un paquet de 10 dizaines, puis écris la réponse.' } };
+    if (/subtract-decompose-hundred/.test(id)) return { title: { en: 'Tuck Breaks a Hundred', de: 'Tuck entbündelt einen Hunderter', fr: 'Tuck casse une centaine' }, instruction: { en: 'Break a hundred, then a ten — then take some away and type the answer.', de: 'Entbündle einen Hunderter, dann einen Zehner – nimm dann welche weg und tippe das Ergebnis ein.', fr: 'Casse une centaine, puis une dizaine — enlève, puis écris la réponse.' } };
+    if (/subtract/.test(id)) return { title: { en: 'Tuck Breaks a Ten', de: 'Tuck entbündelt einen Zehner', fr: 'Tuck casse une dizaine' }, instruction: { en: 'Tap “Break a ten”, then take some away and type the answer.', de: 'Tippe auf „Zehner entbündeln", nimm dann welche weg und tippe das Ergebnis ein.', fr: 'Appuie sur « Casser une dizaine », enlève, puis écris la réponse.' } };
     return {};   /* add-compose-ten → strings.title/instruction (en+de below) */
   }
   var _PVR_TITLE = _pvrTitle(_PVR_ID);
 
-  /* DE engine-string overrides (native ensemble: linguist + Klasse-1/2 educator).
-     Merged over Core.strings in the activity below → 0 lines to the core. Verb pair
-     bündeln/entbündeln (educator's Lehrplan term). compose-ten exercises these this
-     round; the break/hundred keys are authored ready for the deferred 3 variants. */
+  /* Engine-string overrides (native ensembles). Merged over Core.strings in the
+     activity below → 0 lines to the core. DE verb pair bündeln/entbündeln; FR
+     verb pair grouper/casser (échange décimal; CP pedagogue + linguist). compose-
+     ten exercises these this round; the break/hundred keys are authored ready for
+     the deferred 3 within-1000 variants (DE Klasse 3 / FR CE2). */
   var _PVR_DE = {
-    title:        { en: "Tuck's Ten Bundles", de: 'Tuck bündelt einen Zehner' },
-    instruction:  { en: 'Tap “Make a ten” to bundle 10 ones, then type the total.', de: 'Tippe auf „Zehner bündeln", um 10 Einer zu bündeln, und tippe dann das Ergebnis ein.' },
-    colHundreds:  { en: 'hundreds', de: 'Hunderter' },
-    colTens:      { en: 'tens', de: 'Zehner' },
-    colOnes:      { en: 'ones', de: 'Einer' },
-    makeTen:      { en: '🔁 Make a ten', de: '🔁 Zehner bündeln' },
-    makeHundred:  { en: '🔁 Make a hundred', de: '🔁 Hunderter bündeln' },
-    breakTen:     { en: '🔁 Break a ten', de: '🔁 Zehner entbündeln' },
-    breakHundred: { en: '🔁 Break a hundred', de: '🔁 Hunderter entbündeln' },
-    hintBundleFirst:       { en: 'First tap “Make a ten” to bundle 10 ones!', de: 'Tippe zuerst auf „Zehner bündeln", um 10 Einer zu bündeln!' },
-    hintMakeHundredFirst:  { en: 'First tap “Make a hundred” to bundle 10 tens!', de: 'Tippe zuerst auf „Hunderter bündeln", um 10 Zehner zu bündeln!' },
-    hintBreakFirst:        { en: 'Break a ten first — there aren’t enough ones to take away.', de: 'Entbündle zuerst einen Zehner – es sind nicht genug Einer zum Wegnehmen da.' },
-    hintBreakHundredFirst: { en: 'No tens to break — tap “Break a hundred” first.', de: 'Hier gibt es keine Zehner – tippe zuerst auf „Hunderter entbündeln".' },
-    hintBreakTenNext:      { en: 'Now tap “Break a ten” to get enough ones.', de: 'Tippe jetzt auf „Zehner entbündeln", damit du genug Einer hast.' },
-    hintReadTotal:         { en: 'Now count the blocks and type the total.', de: 'Zähle jetzt alle Blöcke und tippe das Ergebnis ein.' },
-    srMat:        { en: '{t} tens and {o} ones', de: '{t} Zehner und {o} Einer' }
+    title:        { en: "Tuck's Ten Bundles", de: 'Tuck bündelt einen Zehner', fr: 'Tuck fait une dizaine' },
+    instruction:  { en: 'Tap “Make a ten” to bundle 10 ones, then type the total.', de: 'Tippe auf „Zehner bündeln", um 10 Einer zu bündeln, und tippe dann das Ergebnis ein.', fr: 'Appuie sur « Grouper une dizaine » pour faire un paquet de 10 unités, puis écris la réponse.' },
+    colHundreds:  { en: 'hundreds', de: 'Hunderter', fr: 'centaines' },
+    colTens:      { en: 'tens', de: 'Zehner', fr: 'dizaines' },
+    colOnes:      { en: 'ones', de: 'Einer', fr: 'unités' },
+    makeTen:      { en: '🔁 Make a ten', de: '🔁 Zehner bündeln', fr: '🔁 Grouper une dizaine' },
+    makeHundred:  { en: '🔁 Make a hundred', de: '🔁 Hunderter bündeln', fr: '🔁 Grouper une centaine' },
+    breakTen:     { en: '🔁 Break a ten', de: '🔁 Zehner entbündeln', fr: '🔁 Casser une dizaine' },
+    breakHundred: { en: '🔁 Break a hundred', de: '🔁 Hunderter entbündeln', fr: '🔁 Casser une centaine' },
+    hintBundleFirst:       { en: 'First tap “Make a ten” to bundle 10 ones!', de: 'Tippe zuerst auf „Zehner bündeln", um 10 Einer zu bündeln!', fr: 'Appuie d\'abord sur « Grouper une dizaine » pour faire un paquet de 10 !' },
+    hintMakeHundredFirst:  { en: 'First tap “Make a hundred” to bundle 10 tens!', de: 'Tippe zuerst auf „Hunderter bündeln", um 10 Zehner zu bündeln!', fr: 'Appuie d\'abord sur « Grouper une centaine » pour faire un paquet de 10 dizaines !' },
+    hintBreakFirst:        { en: 'Break a ten first — there aren’t enough ones to take away.', de: 'Entbündle zuerst einen Zehner – es sind nicht genug Einer zum Wegnehmen da.', fr: 'Il n\'y a pas assez d\'unités pour enlever. Casse d\'abord une dizaine !' },
+    hintBreakHundredFirst: { en: 'No tens to break — tap “Break a hundred” first.', de: 'Hier gibt es keine Zehner – tippe zuerst auf „Hunderter entbündeln".', fr: 'Il n\'y a pas de dizaine à casser — appuie d\'abord sur « Casser une centaine ».' },
+    hintBreakTenNext:      { en: 'Now tap “Break a ten” to get enough ones.', de: 'Tippe jetzt auf „Zehner entbündeln", damit du genug Einer hast.', fr: 'Casse une dizaine pour avoir 10 unités de plus, puis enlève.' },
+    hintReadTotal:         { en: 'Now count the blocks and type the total.', de: 'Zähle jetzt alle Blöcke und tippe das Ergebnis ein.', fr: 'Maintenant, compte tous les blocs et écris le total.' },
+    srMat:        { en: '{t} tens and {o} ones', de: '{t} Zehner und {o} Einer', fr: '{t} dizaines et {o} unités' }
   };
 
   /* order-only Fisher–Yates (array-activity contract): guaranteed ≠ prev when n≥2 */
@@ -198,8 +199,8 @@
       var wrap = stage && stage.querySelector('.pvr-cap');
       if (wrap) wrap.textContent = this.a + (sub ? ' − ' : ' + ') + this.b + ' = ' + this._target;
       if (global.LCSAudio && global.LCSAudio.speak) {
-        var op = sub ? ' minus ' : ' plus ';                 /* „plus"/„minus" read correctly by de + en TTS */
-        var verb = loc === 'de' ? ' macht ' : ' makes ';
+        var op = sub ? (loc === 'fr' ? ' moins ' : ' minus ') : ' plus ';   /* „plus"/„minus" read by de+en TTS; fr subtract → „moins" */
+        var verb = loc === 'fr' ? ' font ' : loc === 'de' ? ' macht ' : ' makes ';
         try { global.LCSAudio.speak({ type: 'number', text: this.a + op + this.b + verb + this._target, lang: loc, rate: 0.95 }); } catch (e) {}
       }
     },

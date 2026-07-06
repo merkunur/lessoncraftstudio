@@ -304,24 +304,24 @@
   "$comment_subjects": "Subject×grade hub registry (2026-07-05). Powers /[locale]/topic/<subject>/<grade> hub pages that match how teachers search (Fach×Klasse, e.g. 'Mathe Klasse 1'). Keys = the apps.*.default_subject buckets (math/logic/letters/spatial-reasoning/science). slug+name per locale; bucket→exercise-type mapping derived from apps.* in code (exerciseTypeKeysForSubject). NOTE: the older $comment_subject_vocabulary claim of '4 values, no science' is stale — the corpus has 5 (science = science-sort/match/sequence). Added de+en at MVP; other locales added per the per-locale SEO rollout with native Fach terms.",
   "subjects": {
     "math": {
-      "slug": { "en": "math", "de": "mathe", "nl": "rekenen", "es": "matematicas", "fr": "mathematiques", "pt": "matematica", "it": "matematica" },
-      "name": { "en": "Math", "de": "Mathe", "nl": "Rekenen", "es": "Matemáticas", "fr": "Mathématiques", "pt": "Matemática", "it": "Matematica" }
+      "slug": { "en": "math", "de": "mathe", "nl": "rekenen", "es": "matematicas", "fr": "mathematiques", "pt": "matematica", "it": "matematica", "sv": "matematik", "da": "matematik", "no": "matematikk" },
+      "name": { "en": "Math", "de": "Mathe", "nl": "Rekenen", "es": "Matemáticas", "fr": "Mathématiques", "pt": "Matemática", "it": "Matematica", "sv": "Matematik", "da": "Matematik", "no": "Matematikk" }
     },
     "letters": {
-      "slug": { "en": "reading", "de": "deutsch", "nl": "taal", "es": "espanol", "fr": "francais", "pt": "portugues", "it": "italiano" },
-      "name": { "en": "Reading & Writing", "de": "Deutsch", "nl": "Taal", "es": "Español", "fr": "Français", "pt": "Português", "it": "Italiano" }
+      "slug": { "en": "reading", "de": "deutsch", "nl": "taal", "es": "espanol", "fr": "francais", "pt": "portugues", "it": "italiano", "sv": "svenska-ovningar", "da": "dansk", "no": "norsk" },
+      "name": { "en": "Reading & Writing", "de": "Deutsch", "nl": "Taal", "es": "Español", "fr": "Français", "pt": "Português", "it": "Italiano", "sv": "Svenska", "da": "Dansk", "no": "Norsk" }
     },
     "science": {
-      "slug": { "en": "science", "de": "sachunterricht", "nl": "natuur", "es": "ciencias", "fr": "sciences", "pt": "ciencias", "it": "scienze" },
-      "name": { "en": "Science", "de": "Sachunterricht", "nl": "Natuur", "es": "Ciencias", "fr": "Sciences", "pt": "Ciências", "it": "Scienze" }
+      "slug": { "en": "science", "de": "sachunterricht", "nl": "natuur", "es": "ciencias", "fr": "sciences", "pt": "ciencias", "it": "scienze", "sv": "natur", "da": "natur-teknologi", "no": "naturfag" },
+      "name": { "en": "Science", "de": "Sachunterricht", "nl": "Natuur", "es": "Ciencias", "fr": "Sciences", "pt": "Ciências", "it": "Scienze", "sv": "Natur", "da": "Natur/teknologi", "no": "Naturfag" }
     },
     "logic": {
-      "slug": { "en": "logic", "de": "logik", "nl": "puzzelen", "es": "razonamiento-logico", "fr": "logique", "pt": "raciocinio-logico", "it": "logica" },
-      "name": { "en": "Logic", "de": "Logik", "nl": "Puzzelen", "es": "Razonamiento lógico", "fr": "Logique", "pt": "Raciocínio lógico", "it": "Logica" }
+      "slug": { "en": "logic", "de": "logik", "nl": "puzzelen", "es": "razonamiento-logico", "fr": "logique", "pt": "raciocinio-logico", "it": "logica", "sv": "logik", "da": "logik", "no": "logikk" },
+      "name": { "en": "Logic", "de": "Logik", "nl": "Puzzelen", "es": "Razonamiento lógico", "fr": "Logique", "pt": "Raciocínio lógico", "it": "Logica", "sv": "Logik", "da": "Logik", "no": "Logikk" }
     },
     "spatial-reasoning": {
-      "slug": { "en": "visual", "de": "wahrnehmung", "nl": "waarnemen", "es": "percepcion-visual", "fr": "reperage-espace", "pt": "percepcao-visual", "it": "percezione-visiva" },
-      "name": { "en": "Visual & Spatial", "de": "Wahrnehmung", "nl": "Waarnemen", "es": "Percepción visual", "fr": "Repérage dans l'espace", "pt": "Percepção visual", "it": "Percezione visiva" }
+      "slug": { "en": "visual", "de": "wahrnehmung", "nl": "waarnemen", "es": "percepcion-visual", "fr": "reperage-espace", "pt": "percepcao-visual", "it": "percezione-visiva", "sv": "perception", "da": "visuel-opmaerksomhed", "no": "visuell-persepsjon" },
+      "name": { "en": "Visual & Spatial", "de": "Wahrnehmung", "nl": "Waarnemen", "es": "Percepción visual", "fr": "Repérage dans l'espace", "pt": "Percepção visual", "it": "Percezione visiva", "sv": "Visuell perception", "da": "Visuel opmærksomhed", "no": "Visuell persepsjon" }
     }
   },
   "axes": {

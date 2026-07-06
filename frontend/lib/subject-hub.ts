@@ -208,6 +208,160 @@ const SUBJECT_COPY: Record<string, Record<string, SubjectCopy>> = {
       online: 'Giochi di percezione visiva online',
     },
   },
+  // Native Swedish (§A.13.48 ensemble, 2026-07-06, [NSR-FLAG]). Lgr22 register;
+  // letters = Bokstavsövningar/Språklekar below åk 1 (no handwriting claims);
+  // science = "Natur" (not the NO acronym — wl lowercasing would corrupt it).
+  sv: {
+    math: {
+      worksheets: 'Arbetsblad i matematik',
+      angle: 'räkning, addition, subtraktion och taluppfattning',
+      angleByLevel: {
+        preschool: 'att jämföra mängder (mer/mindre) och att räkna i bilder',
+        kindergarten: 'räkning och de första plus- och minusuppgifterna',
+        'grade-1': 'bildräkning, mattegåtor med symboler och klockan',
+        'grade-2': 'bråk, geometri, mätning och den första multiplikationen',
+        'grade-3': 'klockan, bråk, geometri och multiplikation',
+      },
+      online: 'Matte online',
+    },
+    letters: {
+      worksheets: 'Arbetsblad i svenska',
+      worksheetsByLevel: { preschool: 'Bokstavsövningar', kindergarten: 'Språklekar och bokstavsövningar' },
+      angle: 'läsning, stavning och ordförråd',
+      angleByLevel: {
+        preschool: 'att känna igen bokstäverna och alfabetets ordning',
+        kindergarten: 'språkljud, bokstäver och de första orden',
+        'grade-1': 'att känna igen ord, stava och bygga ordförråd',
+        'grade-2': 'stavning och ordförråd med bildkorsord',
+      },
+      online: 'Svenska online',
+    },
+    science: {
+      worksheets: 'Naturövningar',
+      angle: 'att sortera och gruppera djur, växter och föremål',
+      angleByLevel: { 'grade-1': 'att sortera och klassificera – ett första steg i NO' },
+      online: 'Naturövningar online',
+    },
+    logic: {
+      worksheets: 'Logikuppgifter',
+      angle: 'logiskt tänkande, jämförelser och klassificering',
+      angleByLevel: {
+        preschool: 'att jämföra storlekar (stor och liten) och tänka logiskt',
+        kindergarten: 'logiskt tänkande med para ihop, barnsudoku och hitta den udda',
+      },
+      online: 'Logikspel online',
+    },
+    'spatial-reasoning': {
+      worksheets: 'Visuella övningar',
+      angle: 'att titta noga, se skillnader och känna igen mönster',
+      angleByLevel: { kindergarten: 'att titta noga med mönstertåg, skuggbilder och bildstigar' },
+      online: 'Visuella övningar online',
+    },
+  },
+  // Native Danish (§A.13.48 ensemble, 2026-07-06, [NSR-FLAG]). Fælles Mål register;
+  // "til"-pattern throughout (templates supply "til {gp}"); science = natur/teknologi
+  // from 1. klasse, Naturopgaver at børnehaveklassen.
+  da: {
+    math: {
+      worksheets: 'Matematikopgaver',
+      angle: 'tælling, regning og den første talforståelse',
+      angleByLevel: {
+        preschool: 'tælling og sammenligning af mængder',
+        kindergarten: 'tælling, plus, minus og enkle diagrammer',
+        'grade-1': 'matematikgåder, klokken og billedregning',
+        'grade-2': 'brøker, klokken, geometri og multiplikation',
+        'grade-3': 'multiplikation, brøker, geometri og klokken',
+      },
+      online: 'Matematik online',
+    },
+    letters: {
+      worksheets: 'Danskopgaver',
+      worksheetsByLevel: { preschool: 'Bogstavopgaver' },
+      angle: 'læsning, stavning og ordforråd',
+      angleByLevel: {
+        preschool: 'bogstaverne og alfabetet',
+        kindergarten: 'sprog, lyde og de første bogstaver',
+        'grade-1': 'stavning og ordforråd med ordsøgning og bogstavsalat',
+        'grade-2': 'ordforråd og stavning med billedkrydsord',
+      },
+      online: 'Dansk online',
+    },
+    science: {
+      worksheets: 'Opgaver i natur/teknologi',
+      worksheetsByLevel: { kindergarten: 'Naturopgaver' },
+      angle: 'sortering af dyr, planter og ting fra hverdagen',
+      online: 'Naturopgaver online',
+    },
+    logic: {
+      worksheets: 'Logikopgaver',
+      angle: 'logisk tænkning, sortering og mønstre',
+      angleByLevel: {
+        preschool: 'begreberne stor og lille og tidlig logisk tænkning',
+        kindergarten: 'logisk tænkning med par-øvelser og børnesudoku',
+      },
+      online: 'Logikopgaver online',
+    },
+    'spatial-reasoning': {
+      worksheets: 'Visuelle opgaver',
+      angle: 'visuel opmærksomhed, koncentration og mønstre',
+      angleByLevel: { kindergarten: 'mønstre, skyggebilleder og billedstier' },
+      online: 'Visuel træning online',
+    },
+  },
+  // Native Norwegian bokmål (§A.13.48 ensemble, 2026-07-06, [NSR-FLAG]). LK20
+  // register; the two barnehage levels split honestly (barnehage 3-5 år vs
+  // skolestartere 5-7 år — school starts at 6).
+  no: {
+    math: {
+      worksheets: 'Matteoppgaver',
+      angle: 'telling, regning og tallforståelse',
+      angleByLevel: {
+        preschool: 'telling, mengder og mer og mindre',
+        kindergarten: 'de første pluss- og minusstykkene',
+        'grade-1': 'regning, bilderegning og å lese klokka',
+        'grade-2': 'brøk, geometri, måling og multiplikasjon',
+        'grade-3': 'multiplikasjon, brøk, geometri og klokka',
+      },
+      online: 'Matte online',
+    },
+    letters: {
+      worksheets: 'Norskoppgaver',
+      worksheetsByLevel: { preschool: 'Bokstavoppgaver', kindergarten: 'Bokstavoppgaver' },
+      angle: 'lesing, staving og ordforråd',
+      angleByLevel: {
+        preschool: 'bokstavene og alfabetet',
+        kindergarten: 'språklyder og de første ordene',
+        'grade-1': 'ordjakt, bokstavsalat og staving',
+        'grade-2': 'staving og ordforråd med bildekryssord',
+      },
+      online: 'Norsk online',
+    },
+    science: {
+      worksheets: 'Naturfagoppgaver',
+      worksheetsByLevel: { kindergarten: 'Naturoppgaver' },
+      angle: 'å utforske dyr, natur og hverdagen',
+      angleByLevel: {
+        kindergarten: 'å sortere dyr og ting fra naturen',
+        'grade-1': 'sortering av dyr og gjenstander',
+      },
+      online: 'Naturfag online',
+    },
+    logic: {
+      worksheets: 'Logikkoppgaver',
+      angle: 'logisk tenkning og sortering',
+      angleByLevel: {
+        preschool: 'å sammenligne stort og smått',
+        kindergarten: 'sortering, par-oppgaver og barnesudoku',
+      },
+      online: 'Logikkspill online',
+    },
+    'spatial-reasoning': {
+      worksheets: 'Visuelle oppgaver',
+      angle: 'å se nøye etter og sammenligne',
+      angleByLevel: { kindergarten: 'mønstre, skyggebilder og bildestier' },
+      online: 'Visuell trening online',
+    },
+  },
 };
 
 // Per-(locale, level): a clean label (for titles/H1) + a phrase with the correct
@@ -282,6 +436,30 @@ const GRADE_COPY: Record<string, Record<string, GradeCopy>> = {
     'grade-2': { label: 'la classe seconda', phrase: 'la classe seconda', display: 'Classe seconda' },
     'grade-3': { label: 'la classe terza', phrase: 'la classe terza', display: 'Classe terza' },
   },
+  // sv: compact searched labels ("åk 1"); prose phrases definite where Swedish requires.
+  sv: {
+    preschool: { label: 'förskola', phrase: 'förskolan', display: 'Förskola' },
+    kindergarten: { label: 'förskoleklass', phrase: 'förskoleklassen', display: 'Förskoleklass' },
+    'grade-1': { label: 'åk 1', phrase: 'årskurs 1', display: 'Årskurs 1' },
+    'grade-2': { label: 'åk 2', phrase: 'årskurs 2', display: 'Årskurs 2' },
+    'grade-3': { label: 'åk 3', phrase: 'årskurs 3', display: 'Årskurs 3' },
+  },
+  // da: "til"-pattern; bare definite forms composed as "til {gp}".
+  da: {
+    preschool: { label: 'børnehaven', phrase: 'børnehaven', display: 'Børnehave' },
+    kindergarten: { label: 'børnehaveklassen', phrase: 'børnehaveklassen', display: 'Børnehaveklasse (0. klasse)' },
+    'grade-1': { label: '1. klasse', phrase: '1. klasse', display: '1. klasse' },
+    'grade-2': { label: '2. klasse', phrase: '2. klasse', display: '2. klasse' },
+    'grade-3': { label: '3. klasse', phrase: '3. klasse', display: '3. klasse' },
+  },
+  // no: the two barnehage levels honestly split (school starts at 6).
+  no: {
+    preschool: { label: 'barnehage (3-5 år)', phrase: 'barnehagebarn (3-5 år)', display: 'Barnehage (3-5 år)' },
+    kindergarten: { label: 'skolestartere (5-7 år)', phrase: 'skolestartere (5-7 år)', display: 'Skolestartere (5-7 år)' },
+    'grade-1': { label: '1. trinn', phrase: '1. trinn', display: '1. trinn' },
+    'grade-2': { label: '2. trinn', phrase: '2. trinn', display: '2. trinn' },
+    'grade-3': { label: '3. trinn', phrase: '3. trinn', display: '3. trinn' },
+  },
 };
 
 // Per-locale authenticity rules beyond the deck-count gate. Default (de/en) =
@@ -299,6 +477,11 @@ const HUB_RULES: Record<string, { dropLevels?: string[]; subjectAllowedLevels?: 
   // standalone logic or visual-perception subject in primary — infanzia/EI only.
   pt: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
   it: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
+  // sv/da/no (native-educator rulings 2026-07-06): Lgr22 / Fælles Mål / LK20 have
+  // no standalone logic or visual-perception subject in school — pre-school levels only.
+  sv: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
+  da: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
+  no: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
 };
 
 /** Whether a subject×grade hub should exist at all for this locale (authenticity gate). */
@@ -367,7 +550,7 @@ export function subjectHubGradeLabel(locale: string, levelKey: string): string {
     const l = GRADE_COPY.es?.[levelKey]?.label;
     if (l) return capFirst(l);
   }
-  if (locale === 'fr' || locale === 'pt' || locale === 'it') {
+  if (locale === 'fr' || locale === 'pt' || locale === 'it' || locale === 'sv' || locale === 'da' || locale === 'no') {
     const gc = GRADE_COPY[locale]?.[levelKey];
     if (gc) return gc.display ?? capFirst(gc.label);
   }
@@ -486,6 +669,45 @@ const LOCALE_TEMPLATES: Record<string, LocaleTemplate> = {
     onlineIntro: (c, o, gp, a) => `Qui si fa pratica direttamente nel browser: ${c} esercizi interattivi gratis per ${gp}, senza registrazione e senza app da installare. Le attività allenano ${a}, con la correzione immediata a ogni verifica. E ogni esercizio è disponibile anche come scheda didattica da stampare in PDF, con le soluzioni incluse.`,
     onlineLinkLabel: 'Gioca online – esercizi interattivi →',
     printLinkLabel: (w, g) => `${w} per ${g} – PDF da stampare →`,
+  },
+  sv: {
+    title: (w, g) => `${w} ${g} – gratis att skriva ut (PDF)`,
+    h1: (w, g) => `${w} – ${g}`,
+    desc: (c, w, wl, gp, a) => `${c} gratis ${wl} för ${gp}: skriv ut som PDF med facit eller öva online utan konto. Tränar ${a}.`,
+    intro: (c, w, wl, gp, a) => `Här hittar du ${c} gratis ${wl} för ${gp}, noga utvalda för just den här åldern. Övningarna tränar ${a}. Varje arbetsblad kan skrivas ut gratis som PDF med facit – eller spelas direkt online, helt utan konto.`,
+    heading: 'Efter ämne och årskurs',
+    onlineTitle: (o, g) => `${o} ${g} – gratis interaktiva övningar`,
+    onlineH1: (o, g) => `${o} – ${g}`,
+    onlineDesc: (c, o, gp, a) => `${c} gratis interaktiva övningar för ${gp} – spela direkt i webbläsaren, utan konto. Tränar ${a}. Finns även som PDF med facit.`,
+    onlineIntro: (c, o, gp, a) => `Här övar du direkt i webbläsaren: ${c} gratis interaktiva övningar för ${gp}, utan konto och utan app. Övningarna tränar ${a}, och du ser direkt vad som blev rätt när du rättar. Varje övning finns dessutom som arbetsblad att skriva ut – PDF med facit.`,
+    onlineLinkLabel: 'Öva online – interaktiva övningar →',
+    printLinkLabel: (w, g) => `${w} ${g} – PDF att skriva ut →`,
+  },
+  da: {
+    title: (w, g) => `${w} til ${g} – gratis opgaveark til print (PDF)`,
+    h1: (w, g) => `${w} til ${g}`,
+    desc: (c, w, wl, gp, a) => `${c} gratis ${wl} til ${gp}: print som PDF med facitliste eller løs dem online – uden konto. Træn ${a}.`,
+    intro: (c, w, wl, gp, a) => `Her finder du ${c} gratis ${wl} til ${gp}, udvalgt med omhu til netop denne aldersgruppe. Opgaverne træner ${a}. Hvert opgaveark kan printes gratis som PDF med facitliste – eller løses direkte online, helt uden konto.`,
+    heading: 'Efter fag og klassetrin',
+    onlineTitle: (o, g) => `${o} til ${g} – gratis interaktive opgaver`,
+    onlineH1: (o, g) => `${o} – ${g}`,
+    onlineDesc: (c, o, gp, a) => `${c} gratis interaktive opgaver til ${gp} – løs dem direkte i browseren, uden konto og uden app. Træn ${a}. Alle opgaver findes også som PDF med facitliste.`,
+    onlineIntro: (c, o, gp, a) => `Her kan du øve direkte i browseren: ${c} gratis interaktive opgaver til ${gp}, uden konto og uden app. Opgaverne træner ${a}, og du får svar med det samme, hver gang du tjekker. Hver opgave findes også som opgaveark i PDF med facitliste, klar til print.`,
+    onlineLinkLabel: 'Øv online – interaktive opgaver →',
+    printLinkLabel: (w, g) => `${w} til ${g} – print som PDF →`,
+  },
+  no: {
+    title: (w, g) => `${w} ${g} – gratis å skrive ut (PDF)`,
+    h1: (w, g) => `${w} – ${g}`,
+    desc: (c, w, wl, gp, a) => `${c} gratis ${wl} for ${gp}: skriv ut som PDF med fasit eller løs dem rett i nettleseren – uten konto. Øv på ${a}.`,
+    intro: (c, w, wl, gp, a) => `Her finner du ${c} gratis ${wl} (arbeidsark) for ${gp}, nøye utvalgt for dette alderstrinnet. Oppgavene øver på ${a}. Hvert arbeidsark kan skrives ut gratis som PDF med fasit – eller løses direkte i nettleseren, helt uten konto.`,
+    heading: 'Etter fag og trinn',
+    onlineTitle: (o, g) => `${o} ${g} – gratis interaktive oppgaver`,
+    onlineH1: (o, g) => `${o} – ${g}`,
+    onlineDesc: (c, o, gp, a) => `${c} gratis interaktive oppgaver for ${gp} – løs dem rett i nettleseren, uten konto og uten app. Øv på ${a}. Alt finnes også som PDF med fasit.`,
+    onlineIntro: (c, o, gp, a) => `Her øver du rett i nettleseren: ${c} gratis interaktive oppgaver for ${gp}, uten konto og uten app. Oppgavene øver på ${a}, med tilbakemelding straks svaret sjekkes. Hver oppgave finnes også som arbeidsark (PDF med fasit) som kan skrives ut.`,
+    onlineLinkLabel: 'Øv online – interaktive oppgaver →',
+    printLinkLabel: (w, g) => `${w} ${g} – skriv ut som PDF →`,
   },
   en: {
     title: (w, g) => `Free ${w} for ${g} – Printable PDF`,

@@ -20,8 +20,9 @@
   var WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
   /* German number-words for the aria-labels (note the non-native traps: 16=sechzehn, 17=siebzehn, 1=eins not ein). */
   var WORDS_DE = ['null', 'eins', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn', 'elf', 'zwölf', 'dreizehn', 'vierzehn', 'fünfzehn', 'sechzehn', 'siebzehn', 'achtzehn', 'neunzehn', 'zwanzig'];
+  var WORDS_FR = ['zéro', 'un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix', 'onze', 'douze', 'treize', 'quatorze', 'quinze', 'seize', 'dix-sept', 'dix-huit', 'dix-neuf', 'vingt'];
   var LANG = 'en';
-  function numWord(n) { return (LANG === 'de' ? WORDS_DE : WORDS)[n]; }
+  function numWord(n) { return (LANG === 'de' ? WORDS_DE : LANG === 'fr' ? WORDS_FR : WORDS)[n]; }
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
   function speak(text, rate) {
     try {
@@ -37,22 +38,22 @@
     id: 'ten-stones-activity',
 
     strings: {
-      title: { en: "Lily's Ten Stones", de: 'Lilys Zehner-Steine' },
+      title: { en: "Lily's Ten Stones", de: 'Lilys Zehner-Steine', fr: 'Les nénuphars de Lily' },
       instruction: { en: '', de: '' },
-      prompt: { en: 'Help Lily cross.', de: 'Hilf Lily hinüber!' },
-      hop: { en: 'Hop! 🐸', de: 'Hüpf! 🐸' },
-      yes: { en: 'Yes — rest on the stone', de: 'Ja – auf dem Stein rasten' }, no: { en: 'No — hop straight there', de: 'Nein – direkt hinüber' },
-      stand: { en: 'Stand on', de: 'Stell dich auf' },
-      sayWelcome: { en: 'Help me cross the pond — make a ten on the golden stone!', de: 'Hilf mir über den Teich – mach auf dem goldenen Stein den Zehner voll!' },
-      sayWin: { en: 'We made it across! 🌸', de: 'Wir sind drüben! 🌸' },
-      sayOnStone: { en: 'On the Ten Stone! Now hop the rest.', de: 'Auf dem Zehner-Stein! Jetzt hüpf den Rest.' },
-      sayWrongTen: { en: 'That misses the golden stone — how many to make ten?', de: 'Das verfehlt den goldenen Stein – wie viele bis zum Zehner?' },
-      sayWrongRest: { en: 'Not quite the rest — how many more to land?', de: 'Noch nicht ganz der Rest – wie viele noch bis ans Ziel?' },
-      sayAgain: { en: "Let's look again.", de: 'Schauen wir noch mal.' },
-      sayRelation: { en: 'The same stones, backward! 🌸', de: 'Die gleichen Steine, rückwärts! 🌸' },
-      relYes: { en: 'Yes — same stones! 🌸', de: 'Ja – die gleichen Steine! 🌸' },
-      hintCheck: { en: 'Make a ten on the golden stone first, then hop the rest.', de: 'Mach erst auf dem goldenen Stein den Zehner voll, dann hüpf den Rest.' },
-      sayWinSpoken: { en: 'We made it!', de: 'Geschafft!' }
+      prompt: { en: 'Help Lily cross.', de: 'Hilf Lily hinüber!', fr: 'Aide Lily à traverser.' },
+      hop: { en: 'Hop! 🐸', de: 'Hüpf! 🐸', fr: 'Saute ! 🐸' },
+      yes: { en: 'Yes — rest on the stone', de: 'Ja – auf dem Stein rasten', fr: 'Oui — se poser sur le nénuphar' }, no: { en: 'No — hop straight there', de: 'Nein – direkt hinüber', fr: 'Non — sauter tout droit' },
+      stand: { en: 'Stand on', de: 'Stell dich auf', fr: 'Place-toi sur' },
+      sayWelcome: { en: 'Help me cross the pond — make a ten on the golden stone!', de: 'Hilf mir über den Teich – mach auf dem goldenen Stein den Zehner voll!', fr: 'Aide-moi à traverser la mare — passe par le nénuphar du dix !' },
+      sayWin: { en: 'We made it across! 🌸', de: 'Wir sind drüben! 🌸', fr: 'On est de l\'autre côté ! 🌸' },
+      sayOnStone: { en: 'On the Ten Stone! Now hop the rest.', de: 'Auf dem Zehner-Stein! Jetzt hüpf den Rest.', fr: 'Sur le nénuphar du dix ! Maintenant, saute le reste.' },
+      sayWrongTen: { en: 'That misses the golden stone — how many to make ten?', de: 'Das verfehlt den goldenen Stein – wie viele bis zum Zehner?', fr: 'Ça rate le nénuphar doré — combien pour arriver à 10 ?' },
+      sayWrongRest: { en: 'Not quite the rest — how many more to land?', de: 'Noch nicht ganz der Rest – wie viele noch bis ans Ziel?', fr: 'Pas tout à fait le reste — combien encore pour arriver ?' },
+      sayAgain: { en: "Let's look again.", de: 'Schauen wir noch mal.', fr: 'Regardons encore.' },
+      sayRelation: { en: 'The same stones, backward! 🌸', de: 'Die gleichen Steine, rückwärts! 🌸', fr: 'Les mêmes nénuphars, à l\'envers ! 🌸' },
+      relYes: { en: 'Yes — same stones! 🌸', de: 'Ja – die gleichen Steine! 🌸', fr: 'Oui — les mêmes nénuphars ! 🌸' },
+      hintCheck: { en: 'Make a ten on the golden stone first, then hop the rest.', de: 'Mach erst auf dem goldenen Stein den Zehner voll, dann hüpf den Rest.', fr: 'Passe d\'abord par le nénuphar doré du dix, puis saute le reste.' },
+      sayWinSpoken: { en: 'We made it!', de: 'Geschafft!', fr: 'On a réussi !' }
     },
     defaults: {},
 
@@ -122,7 +123,7 @@
     _eqChip: function () {
       var api = this.api, r = this.round, chip = api.el('span', 'ts-eq');
       var ans = this.solved ? r.target : '?';
-      var eqWord = LANG === 'de' ? ' ist ' : ' equals ';
+      var eqWord = LANG === 'fr' ? ' égale ' : LANG === 'de' ? ' ist ' : ' equals ';
       chip.setAttribute('aria-label', numWord(r.a) + ' ' + (r.op === '-' ? 'minus' : 'plus') + ' ' + numWord(r.b) + (this.solved ? (eqWord + numWord(r.target)) : ''));
       chip.innerHTML = '<b>' + r.a + '</b> ' + (r.op === '-' ? '−' : '+') + ' <b>' + r.b + '</b> = <b class="ts-ans">' + ans + '</b>';
       return chip;

@@ -38,7 +38,8 @@
      (Lila/Orange invariable). Standalone nominative labels — no inflection. */
   var COLOR_L = {
     en: { red: 'Red', blue: 'Blue', green: 'Green', yellow: 'Yellow', purple: 'Purple', orange: 'Orange' },
-    de: { red: 'Rot', blue: 'Blau', green: 'Grün', yellow: 'Gelb', purple: 'Lila', orange: 'Orange' }
+    de: { red: 'Rot', blue: 'Blau', green: 'Grün', yellow: 'Gelb', purple: 'Lila', orange: 'Orange' },
+    fr: { red: 'Rouge', blue: 'Bleu', green: 'Vert', yellow: 'Jaune', purple: 'Violet', orange: 'Orange' }
   };
   function clabel(color) { return (COLOR_L[LANG] && COLOR_L[LANG][color]) || (COLORS[color] && COLORS[color].label) || color; }
 
@@ -76,6 +77,27 @@
       relLonger: 'länger als die Schnur',
       relShorter: 'kürzer als die Schnur',
       relEqual: 'genauso lang wie die Schnur'
+    },
+    /* FR — native ensemble (linguiste + pédagogue CP, programmes officiels).
+       "la ficelle" (objet intermédiaire — PAS règle/mètre, qui relèvent de la
+       mesure en unités, une étape plus tardive); objets = "les rubans" (masc.,
+       tout reste masculin : le plus long / le plus court). srItem en forme deux-
+       points (Ruban {label} : {rel}) pour éviter l'accord de l'adjectif et
+       réutiliser les étiquettes nominatives ; espace avant les deux-points. */
+    fr: {
+      qLongest: 'Touche le ruban le plus long.',
+      qShortest: 'Touche le ruban le plus court.',
+      qSamecord: 'Quel ruban est aussi long que la ficelle ?',
+      win: 'Oui ! {note}', winNote: 'Tu as comparé les longueurs !',
+      nLongest: 'Le ruban le plus long dépasse tous les autres. Regarde bien !',
+      nShortest: 'Le ruban le plus court s\'arrête en premier. Regarde bien !',
+      nSamecord: 'Trouve le ruban qui se termine juste à la ligne de la ficelle. Regarde bien !',
+      cord: 'la ficelle',
+      srRef: 'La ficelle est la référence (longueur).',
+      srItem: 'Ruban {label} : {rel}',
+      relLonger: 'plus long que la ficelle',
+      relShorter: 'plus court que la ficelle',
+      relEqual: 'aussi long que la ficelle'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -99,8 +121,8 @@
   var SeriationActivity = {
     id: 'seriation-activity',
     strings: {
-      title: { en: 'The Faraway Shelf', de: 'Tillys fernes Regal' },
-      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!', de: 'Vergleiche die Bänder mit der Schnur und tippe dann auf deine Antwort!' },
+      title: { en: 'The Faraway Shelf', de: 'Tillys fernes Regal', fr: 'Les étagères lointaines de Tilly' },
+      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!', de: 'Vergleiche die Bänder mit der Schnur und tippe dann auf deine Antwort!', fr: 'Utilise la ficelle pour comparer les rubans, puis touche ta réponse !' },
       q: { en: '{q}' }
     },
 

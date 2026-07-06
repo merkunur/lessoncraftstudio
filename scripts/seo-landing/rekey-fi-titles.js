@@ -37,8 +37,13 @@ const FI_JSON = path.join(REPO_ROOT, 'frontend', 'content', 'seo-landing', 'fi.j
 const TAXONOMY = path.join(REPO_ROOT, 'frontend', 'config', 'topics-taxonomy.json');
 
 const META_CAP = 170;
-const TAIL_NUMERIC = ' | tulostettava PDF';            // arithmetic format cluster
-const TAIL_OTHER = ' | tulostettavia tehtäviä';        // readiness / non-arithmetic Pattern B
+// TAIL enriched 2026-07-06 with the "free" signal: the fi harvest surfaces
+// "ilmaiset tulostettavat tehtävät" / "ilmaisia tehtäviä lapsille" as real
+// queries, and the native fi review (pdf-seo-meta.js sign-off) confirms the
+// forms. Grammar: ilmainen+tulostettava+PDF all nominative-sg (agree);
+// ilmaisia+tulostettavia+tehtäviä all partitive-pl (agree). [NSR-FLAG][fi] cleared.
+const TAIL_NUMERIC = ' | ilmainen tulostettava PDF';    // free printable PDF (arithmetic cluster)
+const TAIL_OTHER = ' | ilmaisia tulostettavia tehtäviä'; // free printable exercises (readiness Pattern B)
 
 // grade label from coordinate.level (NOT injected into the title by default — range-led)
 const GRADE_LABEL = { 'esikoulu': 'Esikoulu', '1-luokka': '1. luokka', '2-luokka': '2. luokka' };

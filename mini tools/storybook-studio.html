@@ -110,7 +110,12 @@
   .stu-stage { position:absolute; width:1600px; height:1000px; transform-origin:top left; background:#fff; box-shadow:0 6px 30px rgba(0,0,0,.25); }
   .stu-scene { position:absolute; inset:0; width:1600px; height:1000px; pointer-events:none; user-select:none; }
   .stu-scene-empty { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#8a6d5c; font-size:34px; font-weight:800; text-align:center; padding:80px; }
-  .stu-layer { position:absolute; pointer-events:none; }
+  /* placed pictures (scene.layers) — page objects: drag to move, corner to
+     resize. z 15 = above the zone chrome (10, translucent dashed box) so
+     pictures stay grabbable, below characters (20) like the player paints. */
+  .stu-layer { position:absolute; cursor:move; z-index:15; }
+  .stu-layer img { display:block; pointer-events:none; user-select:none; -webkit-user-drag:none; }
+  .stu-layer.stu-selected { outline:4px dashed var(--coral); outline-offset:3px; }
   /* z-order: zone body UNDER characters (chars stay directly grabbable);
      drawables + points above; the zone stays grabbable on its uncovered area */
   .stu-zone { z-index:10; }
@@ -315,10 +320,10 @@
 <script src="/worksheet-generators/js/image-vocabulary.js?v=3"></script>
 
 <script src="/mini-tools/studio-core.js?v=3"></script>
-<script src="/mini-tools/studio-canvas.js?v=6"></script>
+<script src="/mini-tools/studio-canvas.js?v=7"></script>
 <script src="/mini-tools/studio-generator-bridge.js?v=2"></script>
 <script src="/mini-tools/studio-tour.js?v=2"></script>
-<script src="/mini-tools/studio-inspector.js?v=7"></script>
+<script src="/mini-tools/studio-inspector.js?v=8"></script>
 <script>
   (function () {
     var expected = 24;

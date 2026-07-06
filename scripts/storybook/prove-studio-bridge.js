@@ -400,6 +400,79 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
       'F: the +N chip counts the remaining lines (got "' + after3.more + '")');
   }
 
+  /* ================= G. library pictures as PAGE OBJECTS (scene.layers) ================= */
+  {
+    await page.evaluate(() => { Studio.state.pageIndex = 0; StudioCanvas.select(null); });
+    await sleep(250);
+    /* the background picker must no longer offer the object-library replace */
+    await clickPanelBtn('Change the background');
+    await page.waitForSelector('.stu-drawer', { timeout: 8000 });
+    const badBtn = await page.evaluate(() =>
+      [...document.querySelectorAll('.stu-drawer button')].some(b => b.textContent.indexOf('Use a picture from the library') >= 0));
+    assert(!badBtn, 'G: the background picker no longer replaces the scene with library objects');
+    await page.evaluate(() => { const x = document.querySelector('.stu-drawer .stu-x'); if (x) x.click(); });
+    await sleep(200);
+
+    /* + Add a picture → library grid → pick the first card → lands ON the page, selected */
+    await clickPanelBtn('+ Add a picture');
+    await page.waitForSelector('.stu-drawer .stu-libcard', { timeout: 15000 });
+    await page.evaluate(() => { document.querySelector('.stu-drawer .stu-libcard').click(); });
+    await page.waitForFunction(() => {
+      const pg = Studio.page();
+      return pg.scene && (pg.scene.layers || []).length === 1;
+    }, { timeout: 10000 });
+    await sleep(200);
+    const layer = await page.evaluate(() => {
+      const ly = Studio.page().scene.layers[0];
+      const a = Studio.state.doc.story.assets[ly.image];
+      return { x: ly.x, y: ly.y, w: ly.w, h: ly.h, src: a && a.src,
+               sel: Studio.state.selection,
+               inDom: !!document.querySelector('.stu-layer.stu-selected') };
+    });
+    assert(layer.w >= 48 && layer.h >= 24 && !!layer.src, 'G: picture placed with explicit aspect size (' + layer.w + '×' + layer.h + ')');
+    assert(layer.sel && layer.sel.kind === 'layer' && layer.inDom, 'G: the placed picture is SELECTED on the canvas');
+
+    /* drag it */
+    const lb = await (await page.$('.stu-layer')).boundingBox();
+    const scaleG = await page.evaluate(() =>
+      parseFloat(getComputedStyle(document.querySelector('.stu-stage')).transform.split('(')[1]));
+    await page.mouse.move(lb.x + lb.width / 2, lb.y + lb.height / 2);
+    await page.mouse.down();
+    await page.mouse.move(lb.x + lb.width / 2 - 160, lb.y + lb.height / 2 + 80, { steps: 8 });
+    await page.mouse.up();
+    await sleep(250);
+    const moved = await page.evaluate(() => ({ x: Studio.page().scene.layers[0].x, y: Studio.page().scene.layers[0].y }));
+    const expGX = Math.round((layer.x - 160 / scaleG) / 8) * 8;
+    const expGY = Math.round((layer.y + 80 / scaleG) / 8) * 8;
+    assert(moved.x === expGX && moved.y === expGY,
+      'G: dragging the picture commits snapped du (' + moved.x + ',' + moved.y + ' expected ' + expGX + ',' + expGY + ')');
+
+    /* resize via the corner handle — aspect stays locked */
+    const hb2 = await (await page.$('.stu-layer .stu-handle-se')).boundingBox();
+    await page.mouse.move(hb2.x + hb2.width / 2, hb2.y + hb2.height / 2);
+    await page.mouse.down();
+    await page.mouse.move(hb2.x + hb2.width / 2 + 120, hb2.y + hb2.height / 2 + 10, { steps: 8 });
+    await page.mouse.up();
+    await sleep(250);
+    const resized = await page.evaluate(() => ({ w: Studio.page().scene.layers[0].w, h: Studio.page().scene.layers[0].h }));
+    assert(resized.w > layer.w, 'G: corner drag grows the picture (' + layer.w + ' → ' + resized.w + ')');
+    const ratio0 = layer.h / layer.w, ratio1 = resized.h / resized.w;
+    assert(Math.abs(ratio0 - ratio1) < 0.08, 'G: aspect ratio preserved through resize (' + ratio0.toFixed(2) + ' vs ' + ratio1.toFixed(2) + ')');
+
+    /* second picture coexists; then remove via the panel */
+    await page.evaluate(() => StudioCanvas.select(null));
+    await sleep(150);
+    await clickPanelBtn('+ Add a picture');
+    await page.waitForSelector('.stu-drawer .stu-libcard', { timeout: 15000 });
+    await page.evaluate(() => { document.querySelectorAll('.stu-drawer .stu-libcard')[1].click(); });
+    await page.waitForFunction(() => (Studio.page().scene.layers || []).length === 2, { timeout: 10000 });
+    assert(true, 'G: MULTIPLE pictures on one page');
+    await clickPanelBtn('Remove this picture');
+    await sleep(250);
+    const leftOver = await page.evaluate(() => Studio.page().scene.layers.length);
+    assert(leftOver === 1, 'G: "Remove this picture" splices only the selected one (' + leftOver + ' left)');
+  }
+
   await browser.close();
   srv.close();
   fs.rmSync(path.join(STORIES, SCRATCH), { recursive: true, force: true });

@@ -856,9 +856,10 @@ ${l.carousel.map((c) => {
   if (aug) {
     const st = aug.deckStats || {};
     const factItems = [];
-    if (st.problems) factItems.push(au.statProblems(st.problems));
-    if (st.words) factItems.push(au.statWords(st.words));
-    if (st.images && !st.words) factItems.push(au.statImages(st.images));
+    // n=1 reads ungrammatical with the plural stat templates — counts show from 2 up.
+    if (st.problems >= 2) factItems.push(au.statProblems(st.problems));
+    if (st.words >= 2) factItems.push(au.statWords(st.words));
+    if (st.images >= 2 && !st.words) factItems.push(au.statImages(st.images));
     if (st.grid && au.statGrid) factItems.push(au.statGrid(st.grid));
     factItems.push(au.answerKeyIncluded);
     factItems.push(au.printPlay);

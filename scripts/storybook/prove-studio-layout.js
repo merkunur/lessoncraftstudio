@@ -210,9 +210,20 @@ const VIEWPORTS = [
   /* ============ wrapper (static assertion) ============ */
   {
     const tsx = fs.readFileSync(path.join(REPO, 'frontend', 'app', '[locale]', 'studio', '[storyId]', 'StudioEditorClient.tsx'), 'utf8');
-    assert(/absolute inset-0 h-full w-full/.test(tsx), 'wrapper: iframe fills the viewport (absolute inset-0)');
+    assert(/position:\s*'fixed',\s*inset:\s*0,\s*zIndex:\s*60/.test(tsx),
+      'wrapper: the overlay positions via INLINE fixed inset-0 z 60 (immune to class purging; above the z-50 site nav)');
+    assert(/position:\s*'absolute',\s*inset:\s*0,\s*width:\s*'100%',\s*height:\s*'100%'/.test(tsx),
+      'wrapper: iframe fills the viewport via inline styles');
     assert(!/border-b border-cream-300/.test(tsx), 'wrapper: the back-bar band is gone');
     assert(/lcs-studio-nav/.test(tsx), 'wrapper: listens for the studio toolbar\'s "← My stories" navigation');
+    /* the editor route must escape the site layout ENTIRELY — the nav is
+       `relative z-50` and paints over any lower overlay; the standalone
+       branch (the /get/ precedent) removes Navigation + Footer at the source */
+    const layoutTsx = fs.readFileSync(path.join(REPO, 'frontend', 'app', '[locale]', 'LocaleLayoutClient.tsx'), 'utf8');
+    assert(/isStudioEditor/.test(layoutTsx) && /startsWith\(`\/\$\{locale\}\/studio\/`\)/.test(layoutTsx),
+      'layout: the studio EDITOR route renders standalone (no Navigation, no Footer)');
+    assert(/isGetRoute \|\| isStudioEditor/.test(layoutTsx),
+      'layout: the standalone branch actually short-circuits for the editor');
   }
 
   await browser.close();

@@ -1,0 +1,456 @@
+{
+  "$comment": "Demand-keyed SEO overrides authored from docs/SEO/demand-map-fi.md (+ demand-terms-fi.json). Validated by scripts/seo/validate-topic-overrides.js.",
+  "singleAxis": {
+    "addition": {
+      "title": "Yhteenlaskutehtäviä lapsille – tulosta ilmaiseksi",
+      "h1": "Yhteenlaskutehtäviä lapsille kuvien avulla",
+      "metaDescription": "Yli 190 yhteenlaskutehtävää kuvien kanssa: ensimmäiset plussalaskut esiopetukseen ja alkuopetukseen, summat 10:een asti. Tulosta ilmaiseksi PDF:nä tai laske verkossa."
+    },
+    "subtraction": {
+      "title": "Vähennyslaskutehtäviä lapsille – tulostettava PDF",
+      "h1": "Vähennyslaskutehtäviä lapsille kuvien avulla",
+      "metaDescription": "Lähes 200 vähennyslaskutehtävää selkeillä kuvilla: ota pois ja laske, montako jää. Ensimmäiset miinuslaskut esiopetukseen — tulosta ilmaiseksi tai laske verkossa."
+    },
+    "code-addition": {
+      "title": "Kuvakoodilaskut lapsille – laske ja ratko (PDF)",
+      "h1": "Kuvakoodilaskut: ratko symbolit ja laske",
+      "metaDescription": "Jokainen kuva vastaa lukua: pura koodi ja laske summa. 149 pulmallista kuvakoodilaskua esiopetukseen ja alkuopetukseen — tulosta ilmaiseksi tai ratko verkossa."
+    },
+    "more-less": {
+      "title": "Enemmän vai vähemmän? Tehtäviä lapsille (PDF)",
+      "h1": "Enemmän vai vähemmän? Vertaile määriä",
+      "metaDescription": "Kummassa on enemmän, kummassa vähemmän? 146 tehtävää määrien vertailuun varhaiskasvatukseen ja eskariin — laske ja vertaa, tulosta ilmaiseksi tai pelaa verkossa."
+    },
+    "math-puzzle": {
+      "title": "Matikkapulmia lapsille – päättelytehtäviä (PDF)",
+      "h1": "Matikkapulmia lapsille: päättele ja laske",
+      "metaDescription": "Pulmia, jotka lapsi haluaa oikeasti ratkaista: 145 matemaattista päättelytehtävää symbolilausekkeilla 1. luokalle — tulosta ilmaiseksi tai ratko verkossa."
+    },
+    "math-worksheet": {
+      "title": "Sekalaisia matematiikan tehtäviä lapsille (PDF)",
+      "h1": "Sekalaiset matematiikan tehtävät lapsille",
+      "metaDescription": "Vaihtelevia laskutehtäviä: plus- ja miinuslaskut sekaisin, hyvä kertaukseen. Noin 100 tulostettavaa matematiikan tehtävää vastauksineen — ilmaiseksi PDF:nä."
+    },
+    "big-small": {
+      "title": "Iso ja pieni – kokovertailua lapsille (PDF)",
+      "h1": "Iso vai pieni? Vertaile kokoja",
+      "metaDescription": "Kumpi on isompi, kumpi pienempi? 93 tehtävää koon vertailuun varhaiskasvatukseen arjen kuvilla — harjaannuta vertailun silmää, tulosta ilmaiseksi PDF:nä."
+    },
+    "chart-count": {
+      "title": "Laske ja merkitse kaavioon – tehtäviä (PDF)",
+      "h1": "Laske ja merkitse: ensimmäiset pylväsdiagrammit",
+      "metaDescription": "Laske kuvat ja täytä pylväät: 49 tehtävää, joissa lapsi merkitsee laskutuloksensa kaavioon. Ensimmäiset tilastot esiopetuksesta alkaen — tulosta ilmaiseksi PDF."
+    },
+    "pattern-train": {
+      "title": "Kuviojunatehtäviä lapsille – jatka jonoa (PDF)",
+      "h1": "Kuviojuna: tunnista ja jatka kuviojonoa",
+      "metaDescription": "Mikä vaunu tulee seuraavaksi? 246 kuviojunatehtävää kuviojonojen jatkamiseen esiopetukseen — looginen ajattelu ja tarkkaavaisuus, tulosta ilmaiseksi tai pelaa verkossa."
+    },
+    "pattern-worksheet": {
+      "title": "Kuviotehtäviä lapsille – jatka kuviota (PDF)",
+      "h1": "Kuviotehtävät: jatka rivejä ja jonoja",
+      "metaDescription": "Muodot, värit ja jonot: 49 kuviotehtävää rivien jatkamiseen 1. luokalle — keskittyminen ja matematiikan valmiudet, tulosta ilmaiseksi vastauksineen PDF:nä."
+    },
+    "bingo": {
+      "title": "Kuvabingoa lapsille – tulostettavat pohjat (PDF)",
+      "h1": "Kuvabingo: valmiit bingopohjat lapsille",
+      "metaDescription": "Bingoa numeroiden sijaan kuvilla: 79 valmista pelipohjaa esiopetukseen ja eskariin — tulosta kortit ilmaiseksi ja pelaa heti ryhmässä yhdessä."
+    },
+    "grid-match": {
+      "title": "Ruudukkotehtäviä lapsille – hahmottaminen (PDF)",
+      "h1": "Ruudukkoyhdistys: sijoita kuva oikeaan ruutuun",
+      "metaDescription": "Lue rivi ja sarake, sijoita kuva: 48 ruudukkotehtävää esiopetusikäisille — avaruudellinen hahmottaminen ja tarkkaavaisuus, tulosta ilmaiseksi tai ratko verkossa."
+    },
+    "matching": {
+      "title": "Yhdistä kuvat pareiksi – tehtäviä lapsille (PDF)",
+      "h1": "Yhdistämistehtävät: mikä kuuluu yhteen?",
+      "metaDescription": "Etsi parit ja yhdistä viivalla: 88 yhdistämistehtävää kuvilla esiopetukseen — sanavarasto ja logiikka kehittyvät leikiten, tulosta ilmaiseksi PDF:nä."
+    },
+    "picture-sort": {
+      "title": "Lajittelutehtäviä lapsille – ryhmittele kuvat (PDF)",
+      "h1": "Lajittele kuvat: mikä kuuluu yhteen?",
+      "metaDescription": "Eläimet eläimiin, ajoneuvot ajoneuvoihin: 127 lajittelutehtävää, joissa lapsi ryhmittelee kuvia luokkiin. Ajattelua ryhmissä esiopetukseen — ilmaiseksi PDF."
+    },
+    "shadow-match": {
+      "title": "Varjotehtäviä lapsille – yhdistä kuva ja varjo (PDF)",
+      "h1": "Varjojen yhdistäminen: mikä varjo kuuluu kuvaan?",
+      "metaDescription": "Yhdistä jokainen kuva oikeaan varjoonsa: 94 varjotehtävää esiopetukseen — visuaalinen hahmottaminen ja tarkka katse, tulosta ilmaiseksi tai ratko verkossa."
+    },
+    "alphabet-train": {
+      "title": "Aakkostehtäviä lapsille – aakkoset järjestykseen (PDF)",
+      "h1": "Aakkosjuna: aakkoset oikeaan järjestykseen",
+      "metaDescription": "Sijoita puuttuvat kirjaimet junaan: 64 aakkostehtävää varhaiskasvatukseen — aakkosten järjestys ja kirjaintuntemus tutuksi, tulosta ilmaiseksi PDF:nä."
+    },
+    "prepositions": {
+      "title": "Sijaintikäsitteet – tehtäviä lapsille (PDF)",
+      "h1": "Missä esine on? Sijaintikäsitteet: edessä, takana, päällä, alla",
+      "metaDescription": "Missä pallo on – edessä, takana, päällä vai alla? 98 sijaintikäsitetehtävää kuvilla varhaiskasvatukseen ja S2-opetukseen — tulosta ilmaiseksi PDF:nä."
+    },
+    "word-guess": {
+      "title": "Arvaa sana – kirjainpulmia lapsille (PDF)",
+      "h1": "Arvaa sana: kirjain kerrallaan kohti ratkaisua",
+      "metaDescription": "Katso kuva, arvaa sana, täytä kirjaimet: 96 pulmatehtävää lukemaan opetteleville — sanavarasto ja oikeinkirjoitus leikiten, tulosta ilmaiseksi PDF:nä."
+    },
+    "word-scramble": {
+      "title": "Sekoitetut kirjaimet – järjestä sanaksi (PDF)",
+      "h1": "Kirjainsekoitus: järjestä kirjaimet sanaksi",
+      "metaDescription": "Sekaisin menneet kirjaimet oikeaan järjestykseen: 95 kirjainsekoitusta kuvavihjeillä 1. luokalle — lukemisen harjoittelua hauskasti, tulosta ilmaiseksi tai verkossa."
+    },
+    "wordsearch": {
+      "title": "Sanahakutehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Sanahaku: etsi sanat kirjaimista",
+      "metaDescription": "Etsi piilotetut sanat kirjainruudukosta: 49 lapsille sopivaa teemasanahakua 1. luokalle — jokainen ruudukko ilmaiseksi PDF:nä tai pelattavana verkossa."
+    },
+    "crossword": {
+      "title": "Kuvaristikoita lapsille – tulostettava (PDF)",
+      "h1": "Kuvaristikko: nimeä kuva ja täytä sana",
+      "metaDescription": "Ristikko kuvilla kysymysten sijaan: lapsi nimeää kuvan ja kirjoittaa sanan. 45 kuvaristikkoa lukemaan opetteleville — ilmaiseksi PDF:nä vastauksineen."
+    },
+    "sudoku": {
+      "title": "Kuvasudoku lapsille – tulostettava (PDF)",
+      "h1": "Kuvasudoku: sudoku kuvilla lapsille",
+      "metaDescription": "Sudoku ilman numeroita: 4x4-ruudukkoon tulevat kuvat, täydellinen esiopetukseen ja eskariin. 99 kuvasudokua vastauksineen — tulosta ilmaiseksi tai pelaa verkossa."
+    },
+    "cryptogram": {
+      "title": "Kryptogrammeja lapsille – salakoodit (PDF)",
+      "h1": "Kryptogrammi: pura salakoodi ja lue viesti",
+      "metaDescription": "Ratko symbolit, sijoita kirjaimet, pura salainen lause: 97 kryptogrammia lapsille alkuopetuksesta alkaen — logiikkaa ja lukemista, ilmaiseksi PDF tai verkossa."
+    },
+    "picture-path": {
+      "title": "Labyrintit ja kuvapolut – tehtäviä lapsille (PDF)",
+      "h1": "Kuvapolku: löydä oikea reitti ruudukossa",
+      "metaDescription": "Seuraa ruudusta ruutuun oikeaa reittiä maaliin: 88 labyrintti- ja kuvapolkutehtävää esiopetukseen — ensimmäinen looginen ajattelu, ilmaiseksi PDF tai verkossa."
+    },
+    "find-and-count": {
+      "title": "Etsi ja laske – tehtäviä lapsille (PDF)",
+      "h1": "Etsi ja laske: löydä kuvat ja laske määrä",
+      "metaDescription": "Löydä kuvat ja laske, montako niitä on: 94 etsi ja laske -tehtävää varhaiskasvatukseen — määrien hahmottaminen ja keskittyminen yhdessä, ilmaiseksi PDF."
+    },
+    "find-objects": {
+      "title": "Etsi piilotetut esineet – tehtäviä lapsille (PDF)",
+      "h1": "Etsi esineet: löydä piilotetut kuvat",
+      "metaDescription": "Etsi piilotetut esineet kuvasta: 96 etsintätehtävää esiopetukseen — tarkka katse ja keskittyminen kehittyvät, tulosta ilmaiseksi PDF:nä tai ratko verkossa."
+    },
+    "treasure-hunt": {
+      "title": "Aarteenetsintätehtäviä lapsille (PDF & verkossa)",
+      "h1": "Aarteenetsintä: reittipulmat aarteelle",
+      "metaDescription": "Seuraa polkua pelilaudalla aarteelle asti: 97 aarteenetsintäpulmaa 1. luokalle — suunnistus ja logiikka, tulosta ilmaiseksi tai pelaa verkossa."
+    },
+    "missing-pieces": {
+      "title": "Puuttuva pala – kuvatehtäviä lapsille (PDF)",
+      "h1": "Mikä pala puuttuu? Löydä puuttuva osa",
+      "metaDescription": "Mikä pala kuvasta puuttuu? 93 hahmotustehtävää esiopetukseen: tunnista puuttuva osa ja yhdistä oikein — visuaalinen hahmottaminen, ilmaiseksi PDF."
+    },
+    "odd-one-out": {
+      "title": "Mikä ei kuulu joukkoon? Tehtäviä lapsille (PDF)",
+      "h1": "Mikä ei kuulu joukkoon? Päättelyä kuvilla",
+      "metaDescription": "Neljä kuvaa, yksi ei kuulu joukkoon: 96 päättelytehtävää esiopetukseen ja eskariin — tunnista luokka ja perustele, tulosta ilmaiseksi tai ratko verkossa."
+    },
+    "counting-pictures": {
+      "title": "Laske kuvat – lukumäärätehtäviä lapsille (PDF)",
+      "h1": "Laske kuvat: lukumäärän harjoittelua",
+      "metaDescription": "Laske ensin, yhdistä sitten luku: 27 laskutehtävää iloisilla kuvilla esiopetukseen — varma määrien hallinta 10:een asti, tulosta ilmaiseksi PDF:nä."
+    },
+    "counting-frames": {
+      "title": "Kymmenkehys – lukumäärän hahmottaminen (PDF)",
+      "h1": "Kymmenkehys: hahmota lukumäärät kehyksessä",
+      "metaDescription": "Hahmota lukumäärä yhdellä silmäyksellä kymmenkehyksessä: harjoituksia luvun hajottamiseen 10:een asti alkuopetukseen — ilmaiseksi PDF vastauksineen."
+    },
+    "tally-counting": {
+      "title": "Tukkimiehen kirjanpito – laske ja merkitse (PDF)",
+      "h1": "Tukkimiehen kirjanpito: laske viivoilla",
+      "metaDescription": "Laske ja merkitse viivat viidellä nipuilla, kuten isot tekevät: harjoituksia tukkimiehen kirjanpitoon 1.–2. luokalle — tiedon keräämistä, ilmaiseksi PDF."
+    },
+    "number-charts": {
+      "title": "Lukutaulu ja satataulu – tehtäviä (PDF)",
+      "h1": "Lukutaulu: harjoituksia lukualueella 100",
+      "metaDescription": "Etsi luvut, täydennä ruudut, huomaa kuviot: 34 lukutaulutehtävää lukualueelle 100 alkuopetukseen — tulosta ilmaiseksi PDF vastauksineen."
+    },
+    "comparing-numbers": {
+      "title": "Lukujen vertailu: suurempi, pienempi, yhtä suuri (PDF)",
+      "h1": "Lukujen vertailu merkeillä <, > ja =",
+      "metaDescription": "Kumpi luku on suurempi? Harjoituksia lukujen vertailuun merkeillä <, > ja = 1.–2. luokalle — tulosta ilmaiseksi PDF:nä ja harjoittele."
+    },
+    "comparing-groups": {
+      "title": "Määrien vertailu – vertaile ryhmiä (PDF)",
+      "h1": "Määrien vertailu: missä on enemmän, missä vähemmän?",
+      "metaDescription": "Kaksi ryhmää, yksi silmäys: lapsi vertaa määriä ja merkitsee suuremman. 8 tehtävää määrien vertailuun esiopetukseen — tulosta ilmaiseksi PDF:nä."
+    },
+    "comparing-sizes": {
+      "title": "Kokojen vertailu – järjestä koon mukaan (PDF)",
+      "h1": "Kokojen vertailu: löydä suurin ja pienin",
+      "metaDescription": "Järjestä pienimmästä suurimpaan: 15 tehtävää koon vertailuun esiopetukseen — ensimmäiset mittaamisen käsitteet, tulosta ilmaiseksi PDF:nä."
+    },
+    "number-lines": {
+      "title": "Lukusuoratehtäviä – lukualue 0–20 (PDF)",
+      "h1": "Lukusuora: sijoita luvut lukusuoralle",
+      "metaDescription": "Etsi ja merkitse luvut lukusuoralle: harjoituksia lukualueille 0–20 ja 0–100 alkuopetukseen — tulosta ilmaiseksi PDF:nä vastauksineen."
+    },
+    "base-ten": {
+      "title": "Kymmenet ja ykköset – paikka-arvo (PDF)",
+      "h1": "Paikka-arvo: kymmenet ja ykköset",
+      "metaDescription": "Hajota luvut kymmeniin ja ykkösiin: 12 paikka-arvotehtävää havaintomateriaalilla 1.–2. luokalle — perusta laskennalle 100:aan asti, ilmaiseksi PDF."
+    },
+    "telling-time": {
+      "title": "Kellonaikatehtäviä lapsille – opettele kello (PDF)",
+      "h1": "Kellonajat: opettele lukemaan kelloa askel askeleelta",
+      "metaDescription": "Tasatunnit, puolet ja minuutit: 81 kellonaikatehtävää osoitinkellolla 1.–3. luokalle — kellon lukeminen tutuksi, tulosta ilmaiseksi tai harjoittele verkossa."
+    },
+    "fractions": {
+      "title": "Murtolukutehtäviä lapsille – ensimmäiset murtoluvut (PDF)",
+      "h1": "Ensimmäiset murtoluvut: puolikkaat ja neljäsosat",
+      "metaDescription": "Puolikas, neljäsosa, kokonainen havainnollisesti: 68 murtolukutehtävää kuvilla värittämiseen ja yhdistämiseen — ensimmäinen murtolukukäsitys, ilmaiseksi PDF."
+    },
+    "graphing-data": {
+      "title": "Kaaviot ja tilastot – tehtäviä lapsille (PDF)",
+      "h1": "Kaaviot ja tilastot: lue, laske, merkitse",
+      "metaDescription": "Lue pylväsdiagrammeja ja täytä ne itse: 28 kaavio- ja tilastotehtävää alakouluun — ensimmäiset tilastot, tulosta ilmaiseksi PDF vastauksineen."
+    },
+    "arrays-multiplication": {
+      "title": "Kertolaskun alkeet – kuvakertolasku (PDF)",
+      "h1": "Kertolaskun alkeet: kertolasku kuvilla ja ruudukoilla",
+      "metaDescription": "Rivit ja ruudukot tylsän ulkoluvun sijaan: 31 kertolaskun alkeistehtävää pistekuvilla 2.–3. luokalle — johdatus kertolaskuun, tulosta ilmaiseksi PDF."
+    },
+    "geometry": {
+      "title": "Geometriatehtäviä lapsille – muodot ja kappaleet (PDF)",
+      "h1": "Geometria: tunnista muodot ja kappaleet",
+      "metaDescription": "Tunnista muodot, erottele tasot ja kappaleet: 37 geometriatehtävää esiopetuksesta 3. luokalle — muototieto tutuksi, tulosta ilmaiseksi PDF vastauksineen."
+    },
+    "measurement": {
+      "title": "Mittaamistehtäviä lapsille – pituudet ja vertailu (PDF)",
+      "h1": "Mittaaminen: vertaile ja mittaa pituuksia",
+      "metaDescription": "Viivaimella ja silmämääräisesti: 35 mittaamistehtävää pituuksien vertailuun ja mittaamiseen esiopetuksesta 2. luokalle — tulosta ilmaiseksi PDF:nä."
+    },
+    "visual-logic": {
+      "title": "Loogisen päättelyn tehtäviä lapsille (PDF)",
+      "h1": "Looginen päättely: päättele ja yhdistä",
+      "metaDescription": "Päättele, älä arvaa: 14 loogisen päättelyn tehtävää kuvilla tekstin sijaan 5-vuotiaista alkaen — ajattelun harjoittelua esiopetuksesta 3. luokalle, ilmaiseksi PDF."
+    },
+    "visual-discrimination": {
+      "title": "Hahmotustehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Hahmottaminen: harjoituksia visuaaliseen erotteluun",
+      "metaDescription": "Löydä samat kuvat, huomaa erot, vertaa yksityiskohtia: hahmotustehtäviä esiopetukseen ja eskariin — tulosta ilmaiseksi PDF:nä tai harjoittele verkossa."
+    },
+    "visual-matching": {
+      "title": "Kuvaparit – yhdistä samanlaiset kuvat (PDF)",
+      "h1": "Kuvaparit: löydä samanlaiset kuvat",
+      "metaDescription": "Mikä kuva kuuluu mihinkin? 5 kuvaparitehtävää arjen kuvilla varhaiskasvatukseen ja esiopetukseen — hahmottamisen harjoittelua, tulosta ilmaiseksi PDF."
+    },
+    "patterns": {
+      "title": "Kuviojonot – jatka kuviota (PDF)",
+      "h1": "Kuviojonot: tunnista sääntö ja jatka",
+      "metaDescription": "Miten jono jatkuu? 17 kuviojonotehtävää muodoilla ja kuvilla esiopetukseen ja 1. luokalle — säännön tunnistaminen, tulosta ilmaiseksi PDF:nä."
+    },
+    "position-words": {
+      "title": "Sijainti- ja suuntakäsitteet – tehtäviä (PDF)",
+      "h1": "Sijainti- ja suuntakäsitteet matematiikassa",
+      "metaDescription": "Ylhäällä, alhaalla, oikealla, vasemmalla: 8 tehtävää sijainnin ja suunnan käsitteisiin varhaiskasvatukseen — avaruudellinen hahmottaminen, ilmaiseksi PDF."
+    },
+    "sorting-categories": {
+      "title": "Lajittelu – ryhmittele ryhmiin (PDF)",
+      "h1": "Lajittelu: jaa asiat ryhmiin",
+      "metaDescription": "Lajittele värin, muodon tai lajin mukaan: tehtäviä ryhmittelyyn ja luokitteluun varhaiskasvatukseen — ajattelun perustaa, tulosta ilmaiseksi PDF:nä."
+    },
+    "picture-arithmetic": {
+      "title": "Kuvalaskut – laske kuvilla (PDF)",
+      "h1": "Kuvalaskut: ensimmäiset plus- ja miinuslaskut kuvilla",
+      "metaDescription": "Laske ensin kuvat, sitten lasku: 14 kuvalaskutehtävää plussaan ja miinukseen 1. luokalle — havainnollinen laskennan aloitus, tulosta ilmaiseksi PDF:nä."
+    },
+    "beginning-sounds": {
+      "title": "Alkuäänteet – tehtäviä lapsille (PDF)",
+      "h1": "Alkuäänteet: kuule ja tunnista sanan ensimmäinen äänne",
+      "metaDescription": "Millä äänteellä sana alkaa? 10 alkuäännetehtävää kuvilla esiopetukseen ja eskariin — kielellinen tietoisuus ja lukemaan valmistautuminen, ilmaiseksi PDF."
+    },
+    "letter-knowledge": {
+      "title": "Kirjaintuntemus – tunnista kirjaimet (PDF)",
+      "h1": "Kirjaintuntemus: tunnista ja erottele kirjaimet",
+      "metaDescription": "Löydä etsitty kirjain rivistä: 20 kirjaintuntemustehtävää esiopetukseen ja koulun alkuun — kirjainten varmuus kasvaa, tulosta ilmaiseksi PDF:nä."
+    },
+    "word-building": {
+      "title": "Sananrakennus – rakenna sana kirjaimista (PDF)",
+      "h1": "Sananrakennus: rakenna sana kirjain kerrallaan",
+      "metaDescription": "Kirjain kerrallaan kokonaiseksi sanaksi: 10 sananrakennustehtävää lukemaan opetteleville — äänne-kirjain-vastaavuus vahvistuu, tulosta ilmaiseksi PDF:nä."
+    },
+    "picture-vocabulary": {
+      "title": "Kuvasanasto – opi sanat kuvien avulla (PDF)",
+      "h1": "Kuvasanasto: näe kuva, opi sana",
+      "metaDescription": "Katso kuva, opi sana: kuvasanastotehtäviä arjen aiheista — erinomainen S2-opetukseen, kielen tukeen ja varhaiskasvatukseen, tulosta ilmaiseksi PDF:nä."
+    },
+    "phonological-awareness": {
+      "title": "Kielellinen tietoisuus – tehtäviä lapsille (PDF)",
+      "h1": "Kielellinen tietoisuus: kuule äänteet ja tavut",
+      "metaDescription": "Taputa tavut, kuule äänteet: 25 kielellisen tietoisuuden tehtävää esiopetukseen ja varhaiskasvatukseen — perusta lukemiselle, tulosta ilmaiseksi PDF:nä."
+    },
+    "science-sort": {
+      "title": "Ympäristöoppi: lajittele ja yhdistä (PDF)",
+      "h1": "Ympäristöoppi: lajittele ja tutki luontoa",
+      "metaDescription": "Elinympäristöt, vuodenajat, luonto: 90 lajittelutehtävää ympäristöoppiin esiopetukseen ja 1. luokalle — tiedon järjestämistä, tulosta ilmaiseksi PDF:nä."
+    },
+    "science-match": {
+      "title": "Ympäristöoppi: yhdistä kuvat ja käsitteet (PDF)",
+      "h1": "Ympäristötieto: yhdistä kuva ja käsite",
+      "metaDescription": "Eläin elinympäristöön, työkalu ammattiin: 10 yhdistämistehtävää ympäristöoppiin uteliaille lapsille — tiedon liittämistä, tulosta ilmaiseksi PDF:nä."
+    },
+    "science-sequence": {
+      "title": "Järjestys ja elämänkierto – tehtäviä (PDF)",
+      "h1": "Elämänkierto: järjestä luonnon vaiheet",
+      "metaDescription": "Munasta toukaksi perhoseksi: tehtäviä elämänkiertoihin ja järjestyksiin ympäristöoppiin — luonnontiedon järjestämistä, tulosta ilmaiseksi PDF:nä."
+    },
+    "preschool": {
+      "title": "Varhaiskasvatuksen tehtäviä – tulostettava (PDF)",
+      "h1": "Varhaiskasvatus: tehtäviä 3–5-vuotiaille",
+      "metaDescription": "Satoja varhaiskasvatuksen tehtäviä: määrien vertailua, kuvioita, hahmottamista ja ensimmäisiä kirjaimia 3–5-vuotiaille — tulosta ilmaiseksi tai pelaa verkossa."
+    },
+    "kindergarten": {
+      "title": "Esiopetuksen ja eskarin tehtäviä – tulostettava (PDF)",
+      "h1": "Esiopetus ja eskari: tulostettavia tehtäviä",
+      "metaDescription": "Suurin osio: tuhansia eskaritehtäviä varjojen yhdistämisestä ensimmäisiin plussalaskuihin 5–7-vuotiaille — tulosta ilmaiseksi PDF:nä tai pelaa verkossa."
+    },
+    "grade-1": {
+      "title": "1. luokan tehtäviä – tulosta ilmaiseksi (PDF)",
+      "h1": "1. luokka: tehtäviä matematiikkaan, äidinkieleen ja logiikkaan",
+      "metaDescription": "Satoja 1. luokan tehtäviä: laskut 20:een, sanahaut, kirjainsekoitukset ja kellonajat — vastauksineen, tulosta ilmaiseksi PDF:nä tai pelaa verkossa."
+    },
+    "grade-2": {
+      "title": "2. luokan tehtäviä – tulostettava (PDF)",
+      "h1": "2. luokka: tehtäviä matematiikkaan, äidinkieleen ja pulmiin",
+      "metaDescription": "2. luokan tehtäviä: kuvaristikot, kellonajat, geometria ja laskut 100:aan — jokainen vastauksineen, tulosta ilmaiseksi PDF:nä tai harjoittele verkossa."
+    },
+    "grade-3": {
+      "title": "3. luokan tehtäviä – tulostettava (PDF)",
+      "h1": "3. luokka: tehtäviä harjoitteluun ja pulmailuun",
+      "metaDescription": "3. luokan tehtäviä: kellonajat minuutilleen, ensimmäiset murtoluvut, kertolaskun alkeet ja geometria — tulosta ilmaiseksi PDF:nä vastauksineen."
+    },
+    "animals": {
+      "title": "Eläinaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Eläimet: tehtäviä eläinmaailmasta",
+      "metaDescription": "124 eläinaiheista tehtävää: laske eläimiä, yhdistä ja ratko sanoja — esiopetuksesta 2. luokalle, jokainen ilmaiseksi PDF:nä tai pelattavana verkossa."
+    },
+    "vehicles": {
+      "title": "Ajoneuvoaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Ajoneuvot: tehtäviä autoista kaivinkoneisiin",
+      "metaDescription": "Autot, kaivinkoneet, paloautot: 156 ajoneuvotehtävää laskemiseen, yhdistämiseen ja sanoihin — lasten lempiaihe, tulosta ilmaiseksi PDF:nä tai verkossa."
+    },
+    "fruits": {
+      "title": "Hedelmäaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Hedelmät: tehtäviä hedelmistä ja marjoista",
+      "metaDescription": "Laske omenat, yhdistä hedelmät, ratko hedelmäsanoja: 116 hedelmätehtävää esiopetukseen ja varhaiskasvatukseen — tulosta ilmaiseksi PDF:nä."
+    },
+    "shapes": {
+      "title": "Muototehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Muodot: ympyrä, kolmio, neliö tutuksi",
+      "metaDescription": "Ympyrä, kolmio, neliö: 96 muototehtävää tunnistamiseen, yhdistämiseen ja lajitteluun varhaiskasvatukseen ja esiopetukseen — tulosta ilmaiseksi PDF:nä."
+    },
+    "space": {
+      "title": "Avaruusaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Avaruus: tehtäviä raketeista ja planeetoista",
+      "metaDescription": "Raketit, tähdet, astronautit: 58 avaruustehtävää laskemiseen, etsimiseen ja ratkomiseen — avaruuden lumo esiopetukseen ja alakouluun, ilmaiseksi PDF."
+    },
+    "dinosaurs": {
+      "title": "Dinosaurusaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Dinosaurukset: tehtäviä pienille dino-faneille",
+      "metaDescription": "Laske dinosauruksia, yhdistä ja ratko dino-sanoja: 48 dinosaurustehtävää esiopetukseen ja alakouluun — dino-fanien suosikki, tulosta ilmaiseksi PDF:nä."
+    },
+    "colors": {
+      "title": "Väriaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Värit: tehtäviä värien tunnistamiseen",
+      "metaDescription": "Tunnista ja yhdistä värit: 51 väritehtävää varhaiskasvatukseen ja esiopetukseen — värisanat leikiten tutuksi, tulosta ilmaiseksi PDF:nä tai verkossa."
+    },
+    "emotions": {
+      "title": "Tunneaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Tunteet: tehtäviä tunteiden tunnistamiseen",
+      "metaDescription": "Iloinen, surullinen, vihainen: 53 tunnetehtävää tunteiden tunnistamiseen ja nimeämiseen varhaiskasvatukseen ja esiopetukseen — tulosta ilmaiseksi PDF:nä."
+    },
+    "music": {
+      "title": "Musiikkiaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Musiikki: tehtäviä soittimista",
+      "metaDescription": "Rumpu, viulu, trumpetti: 54 soitintehtävää tunnistamiseen ja yhdistämiseen varhaiskasvatukseen ja alakouluun — musiikkisanasto, tulosta ilmaiseksi PDF:nä."
+    },
+    "farm_animals": {
+      "title": "Maatilan eläimet – tehtäviä lapsille (PDF)",
+      "h1": "Maatilan eläimet: tehtäviä maatilalta",
+      "metaDescription": "Lehmä, possu, kana: 54 maatilatehtävää laskemiseen, yhdistämiseen ja sanoihin varhaiskasvatukseen ja alakouluun — tulosta ilmaiseksi PDF:nä."
+    },
+    "forest_creatures": {
+      "title": "Metsän eläimet – tehtäviä lapsille (PDF)",
+      "h1": "Metsän eläimet: tehtäviä metsästä",
+      "metaDescription": "Kettu, siili, orava: 55 metsäeläintehtävää etsimiseen, laskemiseen ja yhdistämiseen — metsäprojektiin varhaiskasvatuksessa ja koulussa, ilmaiseksi PDF."
+    },
+    "insects_and_bugs": {
+      "title": "Ötökkäaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Hyönteiset ja ötökät: tehtäviä pikkueläimistä",
+      "metaDescription": "Perhoset, muurahaiset, leppäkertut: 52 ötökkätehtävää laskemiseen ja yhdistämiseen varhaiskasvatukseen ja alakouluun — tulosta ilmaiseksi PDF:nä."
+    },
+    "birds": {
+      "title": "Lintuaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Linnut: tehtäviä lintumaailmasta",
+      "metaDescription": "Varis, pöllö, papukaija: 40 lintutehtävää laskemiseen, yhdistämiseen ja sanoihin varhaiskasvatukseen ja alakouluun — tulosta ilmaiseksi PDF:nä."
+    },
+    "ocean_life": {
+      "title": "Meriaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Merielämä: tehtäviä meren eläimistä",
+      "metaDescription": "Kalat, meritähdet, mustekalat: 57 meritehtävää laskemiseen ja yhdistämiseen varhaiskasvatukseen ja esiopetukseen — merimaailma tutuksi, ilmaiseksi PDF."
+    },
+    "body_parts": {
+      "title": "Kehonosat – tehtäviä lapsille (PDF)",
+      "h1": "Kehonosat: tehtäviä omasta kehosta",
+      "metaDescription": "Pää, käsi, jalka nimeksi ja paikoilleen: 58 kehonosatehtävää varhaiskasvatukseen ja S2-opetukseen — oma keho tutuksi, tulosta ilmaiseksi PDF:nä."
+    },
+    "occupations": {
+      "title": "Ammattiaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Ammatit: tehtäviä lääkäristä leipuriin",
+      "metaDescription": "Kuka tekee mitä? 58 ammattitehtävää yhdistämiseen ja ratkomiseen varhaiskasvatukseen ja alakouluun — ammattisanasto tutuksi, tulosta ilmaiseksi PDF:nä."
+    },
+    "toys": {
+      "title": "Leluaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Lelut: tehtäviä lasten lempilelun ympärillä",
+      "metaDescription": "Nuket, pallot, palikat: 106 lelutehtävää laskemiseen, yhdistämiseen ja lajitteluun varhaiskasvatukseen ja esiopetukseen — tulosta ilmaiseksi PDF:nä."
+    },
+    "vegetables": {
+      "title": "Vihannesaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Vihannekset: tehtäviä porkkanasta paprikaan",
+      "metaDescription": "Laske porkkanat, lajittele vihannekset, opi sanat: 54 vihannestehtävää varhaiskasvatukseen ja S2-opetukseen — terveelliset aiheet, ilmaiseksi PDF."
+    },
+    "clothing": {
+      "title": "Vaateaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Vaatteet: tehtäviä vaatesanaston ympärillä",
+      "metaDescription": "Piposta kenkiin: 58 vaatetehtävää nimeämiseen, yhdistämiseen ja ratkomiseen — vahva S2-opetukseen ja varhaiskasvatukseen, tulosta ilmaiseksi PDF:nä."
+    },
+    "pets": {
+      "title": "Lemmikkiaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Lemmikit: tehtäviä koirasta hamsteriin",
+      "metaDescription": "Koira, kissa, marsu: 56 lemmikkitehtävää nimeämiseen, laskemiseen ja ratkomiseen varhaiskasvatukseen ja alakouluun — tulosta ilmaiseksi PDF:nä."
+    },
+    "zoo_animals": {
+      "title": "Eläintarhan eläimet – tehtäviä lapsille (PDF)",
+      "h1": "Eläintarhan eläimet: tehtäviä eläintarhavierailulle",
+      "metaDescription": "Leijona, norsu, pingviini: 56 eläintarhatehtävää laskemiseen ja yhdistämiseen ennen tai jälkeen eläintarhavierailun — tulosta ilmaiseksi PDF:nä."
+    },
+    "tools": {
+      "title": "Työkaluaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Työkalut: tehtäviä nimillä ja kuvilla",
+      "metaDescription": "Vasara, saha, ruuvimeisseli: 54 työkalutehtävää kuvilla ja nimillä yhdistämiseen ja ratkomiseen varhaiskasvatukseen — tulosta ilmaiseksi PDF:nä."
+    },
+    "weather": {
+      "title": "Sääaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Sää: tehtäviä auringosta lumeen",
+      "metaDescription": "Aurinko, pilvi, sateenkaari: 56 säätehtävää yhdistämiseen, laskemiseen ja ratkomiseen varhaiskasvatukseen ja esiopetukseen — tulosta ilmaiseksi PDF:nä."
+    },
+    "flowers": {
+      "title": "Kukka-aiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Kukat: tehtäviä kukista ja puutarhasta",
+      "metaDescription": "Laske tulppaanit, yhdistä kukat, etsi kukkasanoja: 58 kukkatehtävää varhaiskasvatukseen ja alakouluun — kevätaihe, tulosta ilmaiseksi PDF:nä."
+    },
+    "tree": {
+      "title": "Puut ja luonto – tehtäviä lapsille (PDF)",
+      "h1": "Puut: tehtäviä puiden ja luonnon ympärillä",
+      "metaDescription": "Laske puita, yhdistä lehtiä, etsi luontosanoja: 57 puu- ja luontotehtävää varhaiskasvatukseen ja alakouluun — luontoaihe, tulosta ilmaiseksi PDF:nä."
+    },
+    "things_that_fly": {
+      "title": "Lentävät asiat – tehtäviä lapsille (PDF)",
+      "h1": "Lentävät asiat: tehtäviä lentokoneista lintuihin",
+      "metaDescription": "Lentokoneet, helikopterit, perhoset: 56 tehtävää lentävistä asioista laskemiseen ja yhdistämiseen varhaiskasvatukseen — tulosta ilmaiseksi PDF:nä."
+    }
+  },
+  "intersection": {}
+}

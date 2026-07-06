@@ -105,6 +105,27 @@ export function getLandingLocales(): string[] {
   return LANDING_LOCALES.slice();
 }
 
+/* Real-content augment (Unit 3, 2026-07-06) — per-landing contentDate (+word banks etc.)
+ * produced server-side by scripts/seo-landing/augment-landings-real-content.js.
+ * Consumed here ONLY for the sitemap <lastmod>; OPTIONAL by design (absent file →
+ * lastmod omitted, exactly the pre-Unit-3 emission). */
+const _AUGMENT_DIRS = [
+  process.env.LCS_AUGMENT_DIR || '/var/www/lcs-media/landings-augment',
+];
+const _augmentCache: Record<string, Record<string, { contentDate?: string }> | null> = {};
+export function getLandingAugment(locale: string): Record<string, { contentDate?: string }> | null {
+  if (locale in _augmentCache) return _augmentCache[locale];
+  let data: Record<string, { contentDate?: string }> | null = null;
+  for (const dir of _AUGMENT_DIRS) {
+    try {
+      const p = path.join(dir, `${locale}.json`);
+      if (fs.existsSync(p)) { data = JSON.parse(fs.readFileSync(p, 'utf8')); break; }
+    } catch { /* tolerate — lastmod is optional */ }
+  }
+  _augmentCache[locale] = data;
+  return data;
+}
+
 export function getLandingSlugs(locale: string): string[] {
   const f = loadFile(locale);
   return f ? f.landings.map((l) => l.slug) : [];

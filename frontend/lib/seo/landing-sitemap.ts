@@ -48,7 +48,7 @@ function shardOf(key: string, partCount: number): number {
  */
 export async function landingShardXml(partIndex: number, partCount: number): Promise<NextResponse> {
   try {
-    const { getLandingLocales, getAllLandings, getSiblingLandingsByCoordinate, deckAssets } = await import(
+    const { getLandingLocales, getAllLandings, getSiblingLandingsByCoordinate, deckAssets, getLandingAugment } = await import(
       '@/lib/seo/landing-content'
     );
     const { buildHreflangAlternates } = await import('@/lib/seo/hreflang');
@@ -57,6 +57,7 @@ export async function landingShardXml(partIndex: number, partCount: number): Pro
     const urls: string[] = [];
 
     for (const locale of landingLocales) {
+      const augment = getLandingAugment(locale);
       for (const l of getAllLandings(locale)) {
         // Partition: each landing lands in exactly one shard (stable hash).
         if (shardOf(`${locale}/${l.slug}`, partCount) !== partIndex) continue;
@@ -85,6 +86,13 @@ export async function landingShardXml(partIndex: number, partCount: number): Pro
             '<url>',
             `  <loc>${xmlEscape(landingUrl)}</loc>`,
             ...hreflangLinks,
+            // Honest lastmod from the deck's real generation date (matches the
+            // on-page updated line + JSON-LD dateModified); omitted when the
+            // augment file is absent.
+            (() => {
+              const cd = augment?.[l.slug]?.contentDate;
+              return cd && /^\d{4}-\d{2}-\d{2}$/.test(cd) ? `  <lastmod>${cd}</lastmod>` : '';
+            })(),
             '  <changefreq>monthly</changefreq>',
             '  <priority>0.6</priority>',
             '  <image:image>',

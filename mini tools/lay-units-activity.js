@@ -29,11 +29,16 @@
     de: {
       count: ['null', 'eins', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn'],
       win:   ['Null', 'Ein', 'Zwei', 'Drei', 'Vier', 'Fünf', 'Sechs', 'Sieben', 'Acht', 'Neun', 'Zehn']
+    },
+    /* FR — no eins/ein split; the two registers differ only by capitalization. */
+    fr: {
+      count: ['zéro', 'un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix'],
+      win:   ['Zéro', 'Un', 'Deux', 'Trois', 'Quatre', 'Cinq', 'Six', 'Sept', 'Huit', 'Neuf', 'Dix']
     }
   };
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
-  function numCount(n) { return (LANG === 'de' && NUMW.de.count[n]) || WORDS[n] || String(n); }   /* spoken/tap counting */
-  function numWin(n) { return (LANG === 'de' && NUMW.de.win[n]) || (WORDS[n] ? cap(WORDS[n]) : String(n)); }   /* sentence-start before the noun */
+  function numCount(n) { return (NUMW[LANG] && NUMW[LANG].count[n]) || WORDS[n] || String(n); }   /* spoken/tap counting */
+  function numWin(n) { return (NUMW[LANG] && NUMW[LANG].win[n]) || (WORDS[n] ? cap(WORDS[n]) : String(n)); }   /* sentence-start before the noun */
   function speak(text, rate) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
@@ -46,30 +51,30 @@
     id: 'lay-units-activity',
 
     strings: {
-      title: { en: "Inchie's Garden Path", de: 'Inchies Gartenweg' },
+      title: { en: "Inchie's Garden Path", de: 'Inchies Gartenweg', fr: "Le chemin du jardin d'Inchie" },
       instruction: { en: '', de: '' },
-      prompt: { en: 'Lay the helpers, then count.', de: 'Leg die Helfer aus und zähl sie dann.' },
-      add: { en: '+ Add a helper', de: '+ Helfer dazu' },
-      addBig: { en: '+ Big helper', de: '+ Großer Helfer' },
-      nudgeL: { en: '◀' }, nudgeR: { en: '▶' }, take: { en: 'Take back', de: 'Zurücknehmen' },
-      count: { en: 'Count them! Tap each helper.', de: 'Zähl sie! Tipp jeden Helfer an.' },
-      sayWelcome: { en: 'Lay my helpers nose-to-tail to measure it!', de: 'Leg meine Helfer dicht hintereinander, dann messen wir zusammen!' },
-      sayWin: { en: 'helpers long! 🌸', de: 'Helfer lang! 🌸' },
-      sayWinSpoken: { en: 'helpers long', de: 'Helfer lang' },
-      sayGap: { en: 'A little gap snuck in — scootch them together!', de: 'Da hat sich eine Lücke eingeschlichen – schieb sie zusammen!' },
-      sayOverlap: { en: 'Two helpers are on top — give them room!', de: 'Zwei Helfer liegen übereinander – gib ihnen Platz!' },
-      sayShort: { en: 'Not all the way yet — add more helpers!', de: 'Noch nicht ganz bis zum Ende – leg noch ein paar Helfer dazu!' },
-      sayOverhang: { en: "That's past the end — take one back.", de: 'Das ragt über das Ende hinaus – nimm einen weg.' },
-      sayStart: { en: 'Start the first helper right at the tip!', de: 'Fang mit dem ersten Helfer genau an der Spitze an!' },
-      sayMixed: { en: 'Only the SAME helpers — they must match!', de: 'Nur die GLEICHEN Helfer – sie müssen alle gleich groß sein!' },
-      saySnug: { en: 'All snug, no holes! Now count them.', de: 'Schön lückenlos, keine Lücke! Jetzt zähl sie.' },
-      sayInverse: { en: 'Smaller helpers, more of them!', de: 'Kleinere Helfer – mehr davon!' },
-      hintCheck: { en: 'No gaps, no overlaps, all the same — then count.', de: 'Keine Lücken, nichts übereinander, alle gleich groß – dann zähl.' },
-      countBig: { en: 'Count the BIG helpers.', de: 'Zähl die GROSSEN Helfer.' },
-      countLittle: { en: 'Now count the LITTLE helpers!', de: 'Jetzt zähl die KLEINEN Helfer!' },
-      judgeMiss: { en: 'Look closely — same size, no gaps, no overhang?', de: 'Schau genau hin – gleich groß, keine Lücke, nichts steht über?' },
-      invMidA: { en: '{n} big helpers! Now the little ones.', de: '{n} große Helfer! Jetzt die kleinen.' },
-      invDone: { en: '{a} big, {b} little — smaller helpers, more of them! 🌸', de: '{a} große, {b} kleine – kleinere Helfer, mehr davon! 🌸' }
+      prompt: { en: 'Lay the helpers, then count.', de: 'Leg die Helfer aus und zähl sie dann.', fr: 'Pose les bâtonnets, puis compte-les.' },
+      add: { en: '+ Add a helper', de: '+ Helfer dazu', fr: '+ Un bâtonnet' },
+      addBig: { en: '+ Big helper', de: '+ Großer Helfer', fr: '+ Un grand bâtonnet' },
+      nudgeL: { en: '◀' }, nudgeR: { en: '▶' }, take: { en: 'Take back', de: 'Zurücknehmen', fr: 'Retirer' },
+      count: { en: 'Count them! Tap each helper.', de: 'Zähl sie! Tipp jeden Helfer an.', fr: 'Compte-les ! Touche chaque bâtonnet.' },
+      sayWelcome: { en: 'Lay my helpers nose-to-tail to measure it!', de: 'Leg meine Helfer dicht hintereinander, dann messen wir zusammen!', fr: 'Pose mes bâtonnets bout à bout pour le mesurer !' },
+      sayWin: { en: 'helpers long! 🌸', de: 'Helfer lang! 🌸', fr: 'bâtonnets de long ! 🌸' },
+      sayWinSpoken: { en: 'helpers long', de: 'Helfer lang', fr: 'bâtonnets de long' },
+      sayGap: { en: 'A little gap snuck in — scootch them together!', de: 'Da hat sich eine Lücke eingeschlichen – schieb sie zusammen!', fr: "Un petit trou s'est glissé — rapproche-les !" },
+      sayOverlap: { en: 'Two helpers are on top — give them room!', de: 'Zwei Helfer liegen übereinander – gib ihnen Platz!', fr: 'Deux bâtonnets se chevauchent — laisse-leur de la place !' },
+      sayShort: { en: 'Not all the way yet — add more helpers!', de: 'Noch nicht ganz bis zum Ende – leg noch ein paar Helfer dazu!', fr: 'Pas encore jusqu\'au bout — ajoute des bâtonnets !' },
+      sayOverhang: { en: "That's past the end — take one back.", de: 'Das ragt über das Ende hinaus – nimm einen weg.', fr: 'Ça dépasse le bout — retire-en un.' },
+      sayStart: { en: 'Start the first helper right at the tip!', de: 'Fang mit dem ersten Helfer genau an der Spitze an!', fr: 'Commence le premier bâtonnet pile au bord !' },
+      sayMixed: { en: 'Only the SAME helpers — they must match!', de: 'Nur die GLEICHEN Helfer – sie müssen alle gleich groß sein!', fr: 'Seulement les MÊMES bâtonnets — ils doivent être de la même taille !' },
+      saySnug: { en: 'All snug, no holes! Now count them.', de: 'Schön lückenlos, keine Lücke! Jetzt zähl sie.', fr: 'Bien serrés, sans trou ! Maintenant, compte-les.' },
+      sayInverse: { en: 'Smaller helpers, more of them!', de: 'Kleinere Helfer – mehr davon!', fr: 'Plus les bâtonnets sont petits, plus il en faut !' },
+      hintCheck: { en: 'No gaps, no overlaps, all the same — then count.', de: 'Keine Lücken, nichts übereinander, alle gleich groß – dann zähl.', fr: 'Pas de trou, pas de chevauchement, tous de la même taille — puis compte.' },
+      countBig: { en: 'Count the BIG helpers.', de: 'Zähl die GROSSEN Helfer.', fr: 'Compte les GRANDS bâtonnets.' },
+      countLittle: { en: 'Now count the LITTLE helpers!', de: 'Jetzt zähl die KLEINEN Helfer!', fr: 'Maintenant, compte les PETITS bâtonnets !' },
+      judgeMiss: { en: 'Look closely — same size, no gaps, no overhang?', de: 'Schau genau hin – gleich groß, keine Lücke, nichts steht über?', fr: 'Regarde bien — même taille, sans trou, rien qui dépasse ?' },
+      invMidA: { en: '{n} big helpers! Now the little ones.', de: '{n} große Helfer! Jetzt die kleinen.', fr: '{n} grands bâtonnets ! Maintenant, les petits.' },
+      invDone: { en: '{a} big, {b} little — smaller helpers, more of them! 🌸', de: '{a} große, {b} kleine – kleinere Helfer, mehr davon! 🌸', fr: '{a} grands, {b} petits — plus les bâtonnets sont petits, plus il en faut ! 🌸' }
     },
     defaults: {},
 
@@ -374,6 +379,8 @@
         + '@media (min-width:760px){.lu-root{padding:11px 14px;}.lu-svg{max-height:clamp(64px,10vh,84px);}.lu-judge .lu-svg{max-height:48px;}}'
         + '@media (max-width:480px){.lu-root{gap:4px;padding:8px;}}'
         + '@media (max-width:380px){.lu-root{gap:3px;padding:6px;}.lu-prompt{font-size:11.5px;line-height:1.15;}.lu-svg{max-height:clamp(58px,13vh,82px);}.lu-garden{height:9px;}.lu-controls{gap:6px;}.lu-saytop{font-size:10.5px;}}'
+        /* ≤340: the longest localized prompts (e.g. fr) wrap an extra line at 320 — trim the rail + gaps so the shell Check stays above the fold (§A.13.62). Text unchanged. */
+        + '@media (max-width:340px){.lu-root{gap:2px;padding:5px;}.lu-prompt{font-size:11px;line-height:1.1;}.lu-forge{padding:2px;}.lu-svg{max-height:clamp(40px,8vh,50px);}.lu-saytext{font-size:10.5px;line-height:1.12;}.lu-inchie{font-size:16px;}.lu-controls{gap:5px;}.lu-nudge{gap:5px;}.lu-garden{height:8px;}}'
         + '@media (prefers-reduced-motion: reduce){.lu-hop,.lu-flare{animation:none!important;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-lay-units', ''); tag.textContent = css; document.head.appendChild(tag);
     }

@@ -1,0 +1,1267 @@
+{
+  "locale": "fi",
+  "generated": "2026-07-06",
+  "source": "docs/SEO/harvests/fi.json (google.fi autocomplete, hl=fi&gl=fi, 2026-07-06, 461 unique) + 12-query SERP sample (google.fi). Native Finnish SEO + alkuopetus/varhaiskasvatus review.",
+  "titlePattern": {
+    "singleAxisType": "<Tyyppi-tehtäviä> lapsille – tulosta ilmaiseksi (PDF)",
+    "singleAxisTheme": "<Teema>aiheisia tehtäviä lapsille – tulostettava (PDF)",
+    "singleAxisLevel": "<Taso>: tulostettavia tehtäviä lapsille (ilmainen)",
+    "intersection": "<Tyyppi-tehtäviä> <tasolle> – tulostettava (PDF)",
+    "notes": "Demand-word (closed compound: yhteenlaskutehtäviä, sanahakutehtäviä, kellonaikatehtäviä) leads; honest qualifiers trail after an en-dash: tulostettava / ilmainen / ilmaiseksi / PDF are always true, 'verkossa' allowed (decks play in the browser). Finnish compounds run long — ideal ≤51 chars, 65 HARD max; if a natural compound exceeds 65, drop '(PDF)' or the trailing qualifier, NEVER the demand head. Root appends ' · LessonCraftStudio'. Level demand skews to 'eskari/esiopetus' (5-7) and grade-qualified '1./2. luokalle'; the eskari/esiopetus qualifier is the single strongest FI intent — intersections carry it. Seasonal themes (joulu/pääsiäinen/talvi/kevät/kesä/kiitospäivä/heinäkuun 4.) are OWNED BY THE SEASONAL HUBS (2026-07-06) and are deliberately absent from singleAxis below. Topic pages target SINGLE-AXIS type/theme/level heads + type×grade intersections; deck landings own type+theme+grade long-tail; subject×grade hubs own 'matematiikan tehtävät 1. luokalle'-class queries — do NOT title against them.",
+    "market": "FRAGMENTED — no grundschulkoenig-scale owner. Rivals are small blog/material sites (haaraamo.fi eskarimatikka, puuhakerho.com, varinautit.fi päättelytehtävät, kielipolku.info, lukimat.fi, ilmaisristikot.fi ristikko/sanahaku/sudoku, ryhmarenki.fi, papunet.net, matikkamatskut). Many niches winnable via exact-format + native FI head + eskari/luokka qualifier."
+  },
+  "singleAxis": {
+    "addition": {
+      "primaryQuery": "yhteenlasku tehtäviä",
+      "evidence": "harvest",
+      "title": "Yhteenlaskutehtäviä lapsille – tulosta ilmaiseksi",
+      "h1": "Yhteenlaskutehtäviä lapsille kuvien avulla",
+      "metaDescription": "Yli 190 yhteenlaskutehtävää kuvien kanssa: ensimmäiset plussalaskut esiopetukseen ja alkuopetukseen, summat 10:een asti. Tulosta ilmaiseksi PDF:nä tai laske verkossa.",
+      "winnability": "HARD head — 'yhteenlasku' on adjektiivinen (englanniksi/excel/allekkain) mutta 'yhteenlasku tehtäviä' on puhdas. SERP hajaantunut (hoxapp, haaraamo, lukimat), ei hallitsevaa omistajaa. WINNABLE eskari-intersectionin kautta.",
+      "notes": "Kuva-yhteenlasku on ero muihin: laske kuvat, kirjoita summa. Suurin osa decksistä 5-7 (esiopetus) — intersection addition__kindergarten on money-page."
+    },
+    "subtraction": {
+      "primaryQuery": "vähennyslasku tehtäviä",
+      "evidence": "harvest",
+      "title": "Vähennyslaskutehtäviä lapsille – tulostettava PDF",
+      "h1": "Vähennyslaskutehtäviä lapsille kuvien avulla",
+      "metaDescription": "Lähes 200 vähennyslaskutehtävää selkeillä kuvilla: ota pois ja laske, montako jää. Ensimmäiset miinuslaskut esiopetukseen — tulosta ilmaiseksi tai laske verkossa.",
+      "winnability": "HARD head (sama kuin yhteenlasku); 'vähennyslasku allekkain/lainaaminen' on ylempien luokkien intent. WINNABLE kuva-angle + eskari-intersection.",
+      "notes": "Pysy kuva-vähennyslaskussa (esiopetus), älä 'allekkain lainaaminen' (2.-3. luokka)."
+    },
+    "code-addition": {
+      "primaryQuery": "yhteenlasku tehtäviä",
+      "evidence": "echo",
+      "title": "Kuvakoodilaskut lapsille – laske ja ratko (PDF)",
+      "h1": "Kuvakoodilaskut: ratko symbolit ja laske",
+      "metaDescription": "Jokainen kuva vastaa lukua: pura koodi ja laske summa. 149 pulmallista kuvakoodilaskua esiopetukseen ja alkuopetukseen — tulosta ilmaiseksi tai ratko verkossa.",
+      "winnability": "SKIP head — 'koodattu yhteenlasku' ei ole natiivi hakusana; sivu elää sisäisistä linkeistä + yhteenlasku-longtailista.",
+      "notes": "Ei omaa demand-termiä; sanoita rehellisesti pulmapelinä. Ohjaa liikenne yhteenlasku-sivulta."
+    },
+    "more-less": {
+      "primaryQuery": "enemmän vähemmän tehtäviä",
+      "evidence": "harvest",
+      "title": "Enemmän vai vähemmän? Tehtäviä lapsille (PDF)",
+      "h1": "Enemmän vai vähemmän? Vertaile määriä",
+      "metaDescription": "Kummassa on enemmän, kummassa vähemmän? 146 tehtävää määrien vertailuun varhaiskasvatukseen ja eskariin — laske ja vertaa, tulosta ilmaiseksi tai pelaa verkossa.",
+      "winnability": "WINNABLE — 'enemmän vähemmän tehtäviä' + 'enemmän vähemmän eskari' (harvest verbatim); SERP ohut (wordwall, blogit). Vahva varhaiskasvatus-intent.",
+      "notes": "Decksit 3-5 (varhaiskasvatus), mutta harvest-kysyntä on myös 'eskari' — sanoita molemmat. Erota comparing-groupsista (määrien vertailu ilman merkkejä)."
+    },
+    "math-puzzle": {
+      "primaryQuery": "looginen päättely tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Matikkapulmia lapsille – päättelytehtäviä (PDF)",
+      "h1": "Matikkapulmia lapsille: päättele ja laske",
+      "metaDescription": "Pulmia, jotka lapsi haluaa oikeasti ratkaista: 145 matemaattista päättelytehtävää symbolilausekkeilla 1. luokalle — tulosta ilmaiseksi tai ratko verkossa.",
+      "winnability": "MID — 'matematiikkapulma' ei ole hakusana; liikenne 'looginen päättely tehtäviä lapsille' + 1. luokan intersectionin kautta. Aikuisten pulmat hallitsevat vain headin.",
+      "notes": "Decksit 6-8 (1. luokka) → intersection grade-1__math-puzzle on money-page."
+    },
+    "math-worksheet": {
+      "primaryQuery": "matematiikan tehtävät",
+      "evidence": "harvest",
+      "title": "Sekalaisia matematiikan tehtäviä lapsille (PDF)",
+      "h1": "Sekalaiset matematiikan tehtävät lapsille",
+      "metaDescription": "Vaihtelevia laskutehtäviä: plus- ja miinuslaskut sekaisin, hyvä kertaukseen. Noin 100 tulostettavaa matematiikan tehtävää vastauksineen — ilmaiseksi PDF:nä.",
+      "winnability": "DEFER-TO-HUB — 'matematiikan tehtävät <luokka>' kuuluu Aine×luokka-hubille; topic-sivu vain sekalais-longtailille.",
+      "notes": "ÄLÄ titteröi omaa matikka-hubia vastaan ('matematiikan tehtävät esiopetus/1. luokka'). Kapea sekalaistehtävä-nicheq."
+    },
+    "big-small": {
+      "primaryQuery": "iso vai pieni",
+      "evidence": "harvest",
+      "title": "Iso ja pieni – kokovertailua lapsille (PDF)",
+      "h1": "Iso vai pieni? Vertaile kokoja",
+      "metaDescription": "Kumpi on isompi, kumpi pienempi? 93 tehtävää koon vertailuun varhaiskasvatukseen arjen kuvilla — harjaannuta vertailun silmää, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID — VAROITUS: 'iso vai pieni' pur = oikeinkirjoitus ('iso vai pieni alkukirjain', harvest). Titteröi AINA 'koko/kokovertailu', ei 'alkukirjain'.",
+      "notes": "Älä koskaan optimoi 'iso vai pieni alkukirjain' -kysyntään — täysin eri intent (isot/pienet kirjaimet). Erota comparing-sizesista (järjestä koon mukaan)."
+    },
+    "chart-count": {
+      "primaryQuery": "laske ja merkitse kaavioon",
+      "evidence": "echo",
+      "title": "Laske ja merkitse kaavioon – tehtäviä (PDF)",
+      "h1": "Laske ja merkitse: ensimmäiset pylväsdiagrammit",
+      "metaDescription": "Laske kuvat ja täytä pylväät: 49 tehtävää, joissa lapsi merkitsee laskutuloksensa kaavioon. Ensimmäiset tilastot esiopetuksesta alkaen — tulosta ilmaiseksi PDF.",
+      "winnability": "LOW head — mekaniikalle ei ole selkeää hakusanaa. Elää sisäisistä linkeistä + 'kaaviot/tilastot' longtailista.",
+      "notes": "Kuvaa rehellisesti, älä keksi avainsanaa. Linkitä graphing-datan ja counting-picturesin kanssa."
+    },
+    "pattern-train": {
+      "primaryQuery": "hahmottaminen tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Kuviojunatehtäviä lapsille – jatka jonoa (PDF)",
+      "h1": "Kuviojuna: tunnista ja jatka kuviojonoa",
+      "metaDescription": "Mikä vaunu tulee seuraavaksi? 246 kuviojunatehtävää kuviojonojen jatkamiseen esiopetukseen — looginen ajattelu ja tarkkaavaisuus, tulosta ilmaiseksi tai pelaa verkossa.",
+      "winnability": "MID — 'kuviojuna' on lelu-intent; liikenne kuviojono-perheen ('jatka kuviota') + esiopetus-intersectionin kautta. Suurin yksittäinen deck-varasto (246).",
+      "notes": "Head 'jatka kuviota / kuviojonot' kuuluu patterns-avaimelle; tämä avain ottaa esiopetus-intersectionin (246 deckiä)."
+    },
+    "pattern-worksheet": {
+      "primaryQuery": "hahmottaminen tehtäviä",
+      "evidence": "echo",
+      "title": "Kuviotehtäviä lapsille – jatka kuviota (PDF)",
+      "h1": "Kuviotehtävät: jatka rivejä ja jonoja",
+      "metaDescription": "Muodot, värit ja jonot: 49 kuviotehtävää rivien jatkamiseen 1. luokalle — keskittyminen ja matematiikan valmiudet, tulosta ilmaiseksi vastauksineen PDF:nä.",
+      "winnability": "MID — 1. luokan intersection kantaa 'jatka kuviota 1 luokka' -kysynnän; SERP ohut (blogit, yksittäiset PDF:t).",
+      "notes": "Money-query on intersectionilla grade-1__pattern-worksheet. Erota pattern-trainista (esiopetus, juna-teema)."
+    },
+    "bingo": {
+      "primaryQuery": "bingo tehtäviä",
+      "evidence": "harvest",
+      "title": "Kuvabingoa lapsille – tulostettavat pohjat (PDF)",
+      "h1": "Kuvabingo: valmiit bingopohjat lapsille",
+      "metaDescription": "Bingoa numeroiden sijaan kuvilla: 79 valmista pelipohjaa esiopetukseen ja eskariin — tulosta kortit ilmaiseksi ja pelaa heti ryhmässä yhdessä.",
+      "winnability": "MID — 'bingo' head on peli/bingolotto-intent; 'bingo tehtäviä' + kuvabingo-vinkkelillä kysyntä on aitoa. Ryhmätehtävä-angle.",
+      "notes": "Fokusoi ryhmäpeli-pohjiin; erota arpajaisbingosta (bingolotto)."
+    },
+    "grid-match": {
+      "primaryQuery": "hahmottaminen tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Ruudukkotehtäviä lapsille – hahmottaminen (PDF)",
+      "h1": "Ruudukkoyhdistys: sijoita kuva oikeaan ruutuun",
+      "metaDescription": "Lue rivi ja sarake, sijoita kuva: 48 ruudukkotehtävää esiopetusikäisille — avaruudellinen hahmottaminen ja tarkkaavaisuus, tulosta ilmaiseksi tai ratko verkossa.",
+      "winnability": "SKIP head — mekaniikalle ei natiivia hakusanaa. Elää sisäisistä linkeistä + hahmottamis-klusterista.",
+      "notes": "Ei harvest-osumaa 'ruudukkoyhdistykselle'; pidä kuvaava. Linkitä hahmottamis-klusteriin (visual-discrimination)."
+    },
+    "matching": {
+      "primaryQuery": "yhdistä kuvat parit tehtävä",
+      "evidence": "serp",
+      "title": "Yhdistä kuvat pareiksi – tehtäviä lapsille (PDF)",
+      "h1": "Yhdistämistehtävät: mikä kuuluu yhteen?",
+      "metaDescription": "Etsi parit ja yhdistä viivalla: 88 yhdistämistehtävää kuvilla esiopetukseen — sanavarasto ja logiikka kehittyvät leikiten, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID — VAROITUS: 'yhdistäminen' pur = käsityö (silmukoimalla/virkkaamalla, harvest). Titteröi AINA 'yhdistä kuvat/parit'. SERP ohut (leikkipankki, wordwall).",
+      "notes": "Älä koskaan optimoi paljasta 'yhdistäminen' — johtaa neuletuloksiin. 'yhdistä kuvat niiden varjoihin' = shadow-match (erillinen)."
+    },
+    "picture-sort": {
+      "primaryQuery": "lajittelutehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Lajittelutehtäviä lapsille – ryhmittele kuvat (PDF)",
+      "h1": "Lajittele kuvat: mikä kuuluu yhteen?",
+      "metaDescription": "Eläimet eläimiin, ajoneuvot ajoneuvoihin: 127 lajittelutehtävää, joissa lapsi ryhmittelee kuvia luokkiin. Ajattelua ryhmissä esiopetukseen — ilmaiseksi PDF.",
+      "winnability": "MID — 'lajittelu' pur = jätteiden lajittelu (astia/opas); 'lajittelutehtäviä lapsille' (harvest) on puhdas. Kategoria-angle esiopetus-intersectionin kautta.",
+      "notes": "Erota sorting-categoriesista (yleinen lajittelu). 'mikä ei kuulu joukkoon' kuuluu odd-one-outille."
+    },
+    "shadow-match": {
+      "primaryQuery": "yhdistä kuvat niiden varjoihin",
+      "evidence": "serp",
+      "title": "Varjotehtäviä lapsille – yhdistä kuva ja varjo (PDF)",
+      "h1": "Varjojen yhdistäminen: mikä varjo kuuluu kuvaan?",
+      "metaDescription": "Yhdistä jokainen kuva oikeaan varjoonsa: 94 varjotehtävää esiopetukseen — visuaalinen hahmottaminen ja tarkka katse, tulosta ilmaiseksi tai ratko verkossa.",
+      "winnability": "WINNABLE — SERP ohut (websincloud, wordwall, Pinterest), ei suurta omistajaa. Paras yksittäinen mahdollisuus hahmottamis-klusterissa.",
+      "notes": "Klusterin iso varasto — rakenna paras varjotehtäväsivu. 'yhdistä kuvat varjoihin' verbatim SERP-osuma."
+    },
+    "alphabet-train": {
+      "primaryQuery": "aakkoset tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Aakkostehtäviä lapsille – aakkoset järjestykseen (PDF)",
+      "h1": "Aakkosjuna: aakkoset oikeaan järjestykseen",
+      "metaDescription": "Sijoita puuttuvat kirjaimet junaan: 64 aakkostehtävää varhaiskasvatukseen — aakkosten järjestys ja kirjaintuntemus tutuksi, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "LOW-MID — 'aakkosjuna' on TV/lelu-intent ('lolan aakkosjuna'); 'aakkoset tehtäviä lapsille' (harvest) on oikea kysyntä.",
+      "notes": "Titteröi 'aakkoset', ei 'aakkosjuna'. Suuntaa varhaiskasvatukseen + esiopetukseen."
+    },
+    "prepositions": {
+      "primaryQuery": "sijaintikäsitteet tehtäviä",
+      "evidence": "serp",
+      "title": "Sijaintikäsitteet – tehtäviä lapsille (PDF)",
+      "h1": "Missä esine on? Sijaintikäsitteet: edessä, takana, päällä, alla",
+      "metaDescription": "Missä pallo on – edessä, takana, päällä vai alla? 98 sijaintikäsitetehtävää kuvilla varhaiskasvatukseen ja S2-opetukseen — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "WINNABLE — 'sijaintikäsitteet' on natiivi FI-termi (Etsy, kielipolku, SERP); 'prepositiot' pur on kielenopiskelu-intent (englanti/ruotsi). S2/kielen tuki -moat.",
+      "notes": "Titteröi 'sijaintikäsitteet', ei 'prepositiot' (suomessa käytetään sijamuotoja). S2- ja kielenkehityksen tuki -yleisö. Naapuri position-words (matikan sijaintikäsitteet)."
+    },
+    "word-guess": {
+      "primaryQuery": "arvaa sana kirjaimista",
+      "evidence": "harvest",
+      "title": "Arvaa sana – kirjainpulmia lapsille (PDF)",
+      "h1": "Arvaa sana: kirjain kerrallaan kohti ratkaisua",
+      "metaDescription": "Katso kuva, arvaa sana, täytä kirjaimet: 96 pulmatehtävää lukemaan opetteleville — sanavarasto ja oikeinkirjoitus leikiten, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "LOW-MID — head on peli/lehti-intent ('arvaa sana peli/kaleva/iltalehti', Wordle-luokka). Tulostettava longtail ohut mutta saavutettavissa.",
+      "notes": "Ei vahvaa tulostettavaa avainsanaa; pysy 'kirjainpulma/kuvasana' -sanoituksessa (ei 'hirsipuu' — negatiivinen konnotaatio)."
+    },
+    "word-scramble": {
+      "primaryQuery": "kirjaimet järjestykseen sanaksi",
+      "evidence": "echo",
+      "title": "Sekoitetut kirjaimet – järjestä sanaksi (PDF)",
+      "h1": "Kirjainsekoitus: järjestä kirjaimet sanaksi",
+      "metaDescription": "Sekaisin menneet kirjaimet oikeaan järjestykseen: 95 kirjainsekoitusta kuvavihjeillä 1. luokalle — lukemisen harjoittelua hauskasti, tulosta ilmaiseksi tai verkossa.",
+      "winnability": "LOW-MID — 'kirjainsekoitus' ei ole vahva hakusana; SERP ohut. Saavutettavissa kuvavihje-angle + 1. luokan intersectionilla.",
+      "notes": "Ei kirkasta demand-termiä; kuvaava sanoitus. Intersection grade-1 kantaa lukija-alkeet."
+    },
+    "wordsearch": {
+      "primaryQuery": "sanahaku tehtäviä",
+      "evidence": "harvest",
+      "title": "Sanahakutehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Sanahaku: etsi sanat kirjaimista",
+      "metaDescription": "Etsi piilotetut sanat kirjainruudukosta: 49 lapsille sopivaa teemasanahakua 1. luokalle — jokainen ruudukko ilmaiseksi PDF:nä tai pelattavana verkossa.",
+      "winnability": "HARD head — ilmaisristikot.fi + ryhmarenki + värinautit hallitsevat 'sanahaku'; head myös ikäihmis-intent (peli/lehti). WINNABLE teema+luokka-longtailin kautta.",
+      "notes": "Demand-sana on 'sanahaku' (myös 'sanasokkelo'); 'sanahaku peli/netissä' on app-intent. Teemadeck-landingit kantavat teemat."
+    },
+    "crossword": {
+      "primaryQuery": "lasten ristikko tulostettava",
+      "evidence": "serp",
+      "title": "Kuvaristikoita lapsille – tulostettava (PDF)",
+      "h1": "Kuvaristikko: nimeä kuva ja täytä sana",
+      "metaDescription": "Ristikko kuvilla kysymysten sijaan: lapsi nimeää kuvan ja kirjoittaa sanan. 45 kuvaristikkoa lukemaan opetteleville — ilmaiseksi PDF:nä vastauksineen.",
+      "winnability": "HARD head — 'ristikko' pur = aikuisten sanaristikko (ratkojat/apteekki/kauppakeskus). WINNABLE 'kuvaristikko lapsille' + 2. luokan intersection (ilmaisristikot/ryhmärenki mukana mutta niche auki).",
+      "notes": "Vältä aikuisristikko-head tiukasti. Titteröi 'kuvaristikko lapsille'. Decksit 7-9 → intersection grade-2."
+    },
+    "sudoku": {
+      "primaryQuery": "kuvasudoku",
+      "evidence": "harvest",
+      "title": "Kuvasudoku lapsille – tulostettava (PDF)",
+      "h1": "Kuvasudoku: sudoku kuvilla lapsille",
+      "metaDescription": "Sudoku ilman numeroita: 4x4-ruudukkoon tulevat kuvat, täydellinen esiopetukseen ja eskariin. 99 kuvasudokua vastauksineen — tulosta ilmaiseksi tai pelaa verkossa.",
+      "winnability": "WINNABLE — 'kuvasudoku' on EKSAKTI natiivi-osuma (harvest). SERP hajaantunut (haaraamo eskarimatikka, supercoloring, livesudoku), ei hallitsevaa omistajaa. Tarkka sisältövastaavuus.",
+      "notes": "Vahvin yksittäinen niche: eksakti demand-sana + tarkka 4x4-formaatti. Teemasudokut (esim. eläinsudoku) deck-landingeille."
+    },
+    "cryptogram": {
+      "primaryQuery": "kryptogrammi",
+      "evidence": "harvest",
+      "title": "Kryptogrammeja lapsille – salakoodit (PDF)",
+      "h1": "Kryptogrammi: pura salakoodi ja lue viesti",
+      "metaDescription": "Ratko symbolit, sijoita kirjaimet, pura salainen lause: 97 kryptogrammia lapsille alkuopetuksesta alkaen — logiikkaa ja lukemista, ilmaiseksi PDF tai verkossa.",
+      "winnability": "WINNABLE niche — 'kryptogrammi' on ohut ja usein definitionaalinen ('mikä on kryptogrammi'); head = krypto/pankkikortti (vältä). Teematon (tekstinpurku).",
+      "notes": "Teematon → deck-tasolla landaamaton; topic-sivu kantaa kysynnän yksin. Selitä konsepti sivulla (definitionaalinen intent)."
+    },
+    "picture-path": {
+      "primaryQuery": "labyrintti tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Labyrintit ja kuvapolut – tehtäviä lapsille (PDF)",
+      "h1": "Kuvapolku: löydä oikea reitti ruudukossa",
+      "metaDescription": "Seuraa ruudusta ruutuun oikeaa reittiä maaliin: 88 labyrintti- ja kuvapolkutehtävää esiopetukseen — ensimmäinen looginen ajattelu, ilmaiseksi PDF tai verkossa.",
+      "winnability": "MID — 'labyrintti tehtäviä lapsille' (harvest verbatim) on aito kysyntä; 'kuvapolku' ei ole hakusana. Frame labyrinttinä.",
+      "notes": "Titteröi 'labyrintti' (attestoitu), kuvapolku toissijaisena. Logiikka-longtail."
+    },
+    "find-and-count": {
+      "primaryQuery": "etsi ja laske",
+      "evidence": "harvest",
+      "title": "Etsi ja laske – tehtäviä lapsille (PDF)",
+      "h1": "Etsi ja laske: löydä kuvat ja laske määrä",
+      "metaDescription": "Löydä kuvat ja laske, montako niitä on: 94 etsi ja laske -tehtävää varhaiskasvatukseen — määrien hahmottaminen ja keskittyminen yhdessä, ilmaiseksi PDF.",
+      "winnability": "WINNABLE niche — 'etsi ja laske' on eksakti osuma (harvest); SERP ohut. Erota find-objectsista (löydä esineet ilman laskemista).",
+      "notes": "Decksit 3-5 (varhaiskasvatus). Määrien hahmottaminen -angle; erillinen find-objectsista."
+    },
+    "find-objects": {
+      "primaryQuery": "etsi esineet",
+      "evidence": "harvest",
+      "title": "Etsi piilotetut esineet – tehtäviä lapsille (PDF)",
+      "h1": "Etsi esineet: löydä piilotetut kuvat",
+      "metaDescription": "Etsi piilotetut esineet kuvasta: 96 etsintätehtävää esiopetukseen — tarkka katse ja keskittyminen kehittyvät, tulosta ilmaiseksi PDF:nä tai ratko verkossa.",
+      "winnability": "LOW-MID — 'etsi esineet' head = peli-appi ('etsi piilotetut esineet pelit'); aito kysyntä ohut. Tulostettava etsintä-angle.",
+      "notes": "Erota find-and-countista (etsi + laske). 'piilotetut esineet' -sanoitus."
+    },
+    "treasure-hunt": {
+      "primaryQuery": "aarteenetsintä lapsille",
+      "evidence": "harvest",
+      "title": "Aarteenetsintätehtäviä lapsille (PDF & verkossa)",
+      "h1": "Aarteenetsintä: reittipulmat aarteelle",
+      "metaDescription": "Seuraa polkua pelilaudalla aarteelle asti: 97 aarteenetsintäpulmaa 1. luokalle — suunnistus ja logiikka, tulosta ilmaiseksi tai pelaa verkossa.",
+      "winnability": "LOW head — 'aarteenetsintä' pur = synttärit/aikuiset (vihjeet/metallinpaljastin). Longtail 'aarteenetsintä 1 luokka' intersectionin kautta.",
+      "notes": "Ole rehellinen: nämä ovat pulmatehtäviä, eivät synttäri-rastiratoja. Decksit 6-8 → intersection grade-1."
+    },
+    "missing-pieces": {
+      "primaryQuery": "hahmottaminen tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Puuttuva pala – kuvatehtäviä lapsille (PDF)",
+      "h1": "Mikä pala puuttuu? Löydä puuttuva osa",
+      "metaDescription": "Mikä pala kuvasta puuttuu? 93 hahmotustehtävää esiopetukseen: tunnista puuttuva osa ja yhdistä oikein — visuaalinen hahmottaminen, ilmaiseksi PDF.",
+      "winnability": "LOW-MID head — 'puuttuvat palat' pur = lego (harvest); esiopetus-longtail pieni mutta puhdas. Ranking aina konteksti-qualifierilla.",
+      "notes": "Titteröi konteksti (kuva/esiopetus), älä paljas 'puuttuvat palat'. Hahmottamis-klusteri."
+    },
+    "odd-one-out": {
+      "primaryQuery": "mikä ei kuulu joukkoon tehtävä",
+      "evidence": "harvest",
+      "title": "Mikä ei kuulu joukkoon? Tehtäviä lapsille (PDF)",
+      "h1": "Mikä ei kuulu joukkoon? Päättelyä kuvilla",
+      "metaDescription": "Neljä kuvaa, yksi ei kuulu joukkoon: 96 päättelytehtävää esiopetukseen ja eskariin — tunnista luokka ja perustele, tulosta ilmaiseksi tai ratko verkossa.",
+      "winnability": "WINNABLE — 'mikä ei kuulu joukkoon' on EKSAKTI osuma (harvest: +tehtävä/tulostettava/lapsille/kortit). SERP hajaantunut (värinautit, papunet, taikanorppa), ei ilmaista formaattiomistajaa.",
+      "notes": "Yksi vahvimmista: verbatim-suggestion + tarkka sisältö. Rakenna paras 'mikä ei kuulu joukkoon' -sivu."
+    },
+    "counting-pictures": {
+      "primaryQuery": "lukumäärä tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Laske kuvat – lukumäärätehtäviä lapsille (PDF)",
+      "h1": "Laske kuvat: lukumäärän harjoittelua",
+      "metaDescription": "Laske ensin, yhdistä sitten luku: 27 laskutehtävää iloisilla kuvilla esiopetukseen — varma määrien hallinta 10:een asti, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "LOW-MID — 'lukumäärä tehtäviä lapsille' (harvest) + 'numero tehtäviä lapsille'; pieni varasto (27). Prio more-lessin ja find-and-countin jälkeen.",
+      "notes": "Kapea varasto. Määrien hahmottaminen -angle esiopetukseen."
+    },
+    "counting-frames": {
+      "primaryQuery": "kymmenkehys tehtäviä",
+      "evidence": "echo",
+      "title": "Kymmenkehys – lukumäärän hahmottaminen (PDF)",
+      "h1": "Kymmenkehys: hahmota lukumäärät kehyksessä",
+      "metaDescription": "Hahmota lukumäärä yhdellä silmäyksellä kymmenkehyksessä: harjoituksia luvun hajottamiseen 10:een asti alkuopetukseen — ilmaiseksi PDF vastauksineen.",
+      "winnability": "WINNABLE niche mutta DECK-GAP — vain 9 deckiä. Kysyntä (kymmenkehys/tenframe alkuopetus) selkeä opettaja-intent, varasto liian ohut.",
+      "notes": "Suosittele deck-tuotantoa; sitten intersection grade-1. Naapuri counting-pictures."
+    },
+    "tally-counting": {
+      "primaryQuery": "tukkimiehen kirjanpito",
+      "evidence": "harvest",
+      "title": "Tukkimiehen kirjanpito – laske ja merkitse (PDF)",
+      "h1": "Tukkimiehen kirjanpito: laske viivoilla",
+      "metaDescription": "Laske ja merkitse viivat viidellä nipuilla, kuten isot tekevät: harjoituksia tukkimiehen kirjanpitoon 1.–2. luokalle — tiedon keräämistä, ilmaiseksi PDF.",
+      "winnability": "WINNABLE niche mutta DECK-GAP — vain 4 deckiä. 'tukkimiehen kirjanpito' -kysyntä (usein definitionaalinen 'mikä on') olemassa, varasto liian ohut.",
+      "notes": "Tuota decksejä ensin, sitten sivu kannattaa. Selitä konsepti (definitionaalinen intent)."
+    },
+    "number-charts": {
+      "primaryQuery": "lukutaulu",
+      "evidence": "harvest",
+      "title": "Lukutaulu ja satataulu – tehtäviä (PDF)",
+      "h1": "Lukutaulu: harjoituksia lukualueella 100",
+      "metaDescription": "Etsi luvut, täydennä ruudut, huomaa kuviot: 34 lukutaulutehtävää lukualueelle 100 alkuopetukseen — tulosta ilmaiseksi PDF vastauksineen.",
+      "winnability": "MID niche — 'lukutaulu / satataulu' selkeä opettaja-intent, kohtalainen kilpailu; varasto (34) ok. Kysyntä painottuu 1.–2. luokkaan.",
+      "notes": "Frame 'satataulu' (yleisempi koulutermi) rinnalla. Linkitä number-linesin kanssa."
+    },
+    "comparing-numbers": {
+      "primaryQuery": "lukujen vertailu",
+      "evidence": "harvest",
+      "title": "Lukujen vertailu: suurempi, pienempi, yhtä suuri (PDF)",
+      "h1": "Lukujen vertailu merkeillä <, > ja =",
+      "metaDescription": "Kumpi luku on suurempi? Harjoituksia lukujen vertailuun merkeillä <, > ja = 1.–2. luokalle — tulosta ilmaiseksi PDF:nä ja harjoittele.",
+      "winnability": "WINNABLE niche mutta DECK-GAP — vain 6 deckiä. 'lukujen vertailu' selkeä (head myös excel/prosentti-kohinaa); varasto liian ohut.",
+      "notes": "Klassinen 1. luokan aihe, puhdas opettaja-intent; kasvata varastoa. Erota comparing-groupsista (määrät, ei luvut)."
+    },
+    "comparing-groups": {
+      "primaryQuery": "määrien vertailu",
+      "evidence": "echo",
+      "title": "Määrien vertailu – vertaile ryhmiä (PDF)",
+      "h1": "Määrien vertailu: missä on enemmän, missä vähemmän?",
+      "metaDescription": "Kaksi ryhmää, yksi silmäys: lapsi vertaa määriä ja merkitsee suuremman. 8 tehtävää määrien vertailuun esiopetukseen — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID/DECK-GAP — semanttisesti lähellä more-lessia; vain 8 deckiä. Ota merkitön 'määrien vertailu' -muotoilu, jotta ei kannibalisoi more-lessia.",
+      "notes": "Kannibalisoinnin välttämiseksi: tämä avain = merkitön määrien vertailu, more-less = 'enemmän vai vähemmän'."
+    },
+    "comparing-sizes": {
+      "primaryQuery": "kokojen vertailu",
+      "evidence": "harvest",
+      "title": "Kokojen vertailu – järjestä koon mukaan (PDF)",
+      "h1": "Kokojen vertailu: löydä suurin ja pienin",
+      "metaDescription": "Järjestä pienimmästä suurimpaan: 15 tehtävää koon vertailuun esiopetukseen — ensimmäiset mittaamisen käsitteet, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID niche — 'kokojen vertailu' head myös 'maiden kokojen vertailu' (kohina); SERP ei erityisesti varattu. Erota big-smallista.",
+      "notes": "Erota big-smallista (iso/pieni varhaiskasvatus): tässä järjestetään koon mukaan."
+    },
+    "number-lines": {
+      "primaryQuery": "lukusuora tehtäviä",
+      "evidence": "harvest",
+      "title": "Lukusuoratehtäviä – lukualue 0–20 (PDF)",
+      "h1": "Lukusuora: sijoita luvut lukusuoralle",
+      "metaDescription": "Etsi ja merkitse luvut lukusuoralle: harjoituksia lukualueille 0–20 ja 0–100 alkuopetukseen — tulosta ilmaiseksi PDF:nä vastauksineen.",
+      "winnability": "HARD/DECK-GAP — 'lukusuora' + '0-20/0-100/tehtäviä' on yksi vahvimmista matikkaperheistä (harvest); vahvat omistajat (lukimat, summamutikka). Vain 9 deckiä = suurin bediöimätön matikkakysyntä.",
+      "notes": "Priorisoi deck-tuotanto — 'lukusuora' on suuri kysyntä, varasto minimaalinen. Sitten intersection grade-1."
+    },
+    "base-ten": {
+      "primaryQuery": "kymmenet ja ykköset",
+      "evidence": "harvest",
+      "title": "Kymmenet ja ykköset – paikka-arvo (PDF)",
+      "h1": "Paikka-arvo: kymmenet ja ykköset",
+      "metaDescription": "Hajota luvut kymmeniin ja ykkösiin: 12 paikka-arvotehtävää havaintomateriaalilla 1.–2. luokalle — perusta laskennalle 100:aan asti, ilmaiseksi PDF.",
+      "winnability": "MID niche — 'kymmenet ja ykköset' eksakti osuma (harvest); varasto (12) juuri rajalla. Kysyntä solidi.",
+      "notes": "Varasto rajalla omille intersectioneille; vahvista ensin tyyppisivu."
+    },
+    "telling-time": {
+      "primaryQuery": "kellonajat tehtäviä",
+      "evidence": "harvest",
+      "title": "Kellonaikatehtäviä lapsille – opettele kello (PDF)",
+      "h1": "Kellonajat: opettele lukemaan kelloa askel askeleelta",
+      "metaDescription": "Tasatunnit, puolet ja minuutit: 81 kellonaikatehtävää osoitinkellolla 1.–3. luokalle — kellon lukeminen tutuksi, tulosta ilmaiseksi tai harjoittele verkossa.",
+      "winnability": "HARD head (lukimat, freeed, wordwall) mutta WINNABLE luokka-intersectioneilla — 'kellonajat esiopetus/eskari/tehtäviä' (harvest) erittäin rikas perhe.",
+      "notes": "Suggestion-perhe laaja (tehtäviä/esiopetus/eskari/luokat) — intersectionit ovat money-paget. 3 tasoa: 6-8/7-9/8-10."
+    },
+    "fractions": {
+      "primaryQuery": "murtoluvut tehtäviä",
+      "evidence": "harvest",
+      "title": "Murtolukutehtäviä lapsille – ensimmäiset murtoluvut (PDF)",
+      "h1": "Ensimmäiset murtoluvut: puolikkaat ja neljäsosat",
+      "metaDescription": "Puolikas, neljäsosa, kokonainen havainnollisesti: 68 murtolukutehtävää kuvilla värittämiseen ja yhdistämiseen — ensimmäinen murtolukukäsitys, ilmaiseksi PDF.",
+      "winnability": "LOW-MID — suomalainen murtoluku-kysyntä painottuu 3.–5. luokkaan (harvest: 'murtoluku tehtäviä 3/4/5 lk'); K-3-osuus pieni. Frame 'ensimmäiset murtoluvut'.",
+      "notes": "Ei alempien luokkien intersectioneja (murtoluvut 1.–2. lk = harvinaista). Decksit 7-9/8-10 → grade-2/3."
+    },
+    "graphing-data": {
+      "primaryQuery": "kaaviot ja tilastot tehtäviä",
+      "evidence": "echo",
+      "title": "Kaaviot ja tilastot – tehtäviä lapsille (PDF)",
+      "h1": "Kaaviot ja tilastot: lue, laske, merkitse",
+      "metaDescription": "Lue pylväsdiagrammeja ja täytä ne itse: 28 kaavio- ja tilastotehtävää alakouluun — ensimmäiset tilastot, tulosta ilmaiseksi PDF vastauksineen.",
+      "winnability": "MID — SERP ei erityisesti varattu; ilmaiskulma auki. Intersection grade-1 kantaa 'kaaviot ja tilastot 1 luokka'.",
+      "notes": "Linkitä chart-countin kanssa. Kysyntä ohut mutta kilpailu vähäistä."
+    },
+    "arrays-multiplication": {
+      "primaryQuery": "kertotaulu tehtävät",
+      "evidence": "harvest",
+      "title": "Kertolaskun alkeet – kuvakertolasku (PDF)",
+      "h1": "Kertolaskun alkeet: kertolasku kuvilla ja ruudukoilla",
+      "metaDescription": "Rivit ja ruudukot tylsän ulkoluvun sijaan: 31 kertolaskun alkeistehtävää pistekuvilla 2.–3. luokalle — johdatus kertolaskuun, tulosta ilmaiseksi PDF.",
+      "winnability": "HARD head ('kertotaulu' vahva, tulostettavat kertotaulu tehtävät harvest); longtail 2. luokan intersection + kuvakulma. MID.",
+      "notes": "Decksit = kuvaruudukot (alkeet), ei kertotaulu-drilli — sanoita rehellisesti. Decksit 7-9/8-10 → grade-2/3."
+    },
+    "geometry": {
+      "primaryQuery": "geometria 2 luokka",
+      "evidence": "harvest",
+      "title": "Geometriatehtäviä lapsille – muodot ja kappaleet (PDF)",
+      "h1": "Geometria: tunnista muodot ja kappaleet",
+      "metaDescription": "Tunnista muodot, erottele tasot ja kappaleet: 37 geometriatehtävää esiopetuksesta 3. luokalle — muototieto tutuksi, tulosta ilmaiseksi PDF vastauksineen.",
+      "winnability": "MID — head painottuu 3.–6. luokkaan; 'geometria esiopetus/2 luokka' (harvest verbatim) on puhdas alakoulu-pääsy. Intersection grade-2 on selkein.",
+      "notes": "Intersection geometry__grade-2 (17 deckiä) kantaa verbatim-kysynnän. Silta shapes-teemalta (varhaiskasvatus)."
+    },
+    "measurement": {
+      "primaryQuery": "mittaaminen esiopetus",
+      "evidence": "harvest",
+      "title": "Mittaamistehtäviä lapsille – pituudet ja vertailu (PDF)",
+      "h1": "Mittaaminen: vertaile ja mittaa pituuksia",
+      "metaDescription": "Viivaimella ja silmämääräisesti: 35 mittaamistehtävää pituuksien vertailuun ja mittaamiseen esiopetuksesta 2. luokalle — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "WINNABLE niche — 'mittaaminen esiopetus/eskari/alkuopetus' (harvest verbatim, erittäin puhdas); 'mittaaminen 5 luokka/kulman mittaaminen' on ylempi kohina.",
+      "notes": "'mittaaminen esiopetus' + 'alkuopetus' vahvat verbatim-osumat. Intersection grade-1 (mittaaminen 12 deckiä 6-8)."
+    },
+    "visual-logic": {
+      "primaryQuery": "looginen päättely tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Loogisen päättelyn tehtäviä lapsille (PDF)",
+      "h1": "Looginen päättely: päättele ja yhdistä",
+      "metaDescription": "Päättele, älä arvaa: 14 loogisen päättelyn tehtävää kuvilla tekstin sijaan 5-vuotiaista alkaen — ajattelun harjoittelua esiopetuksesta 3. luokalle, ilmaiseksi PDF.",
+      "winnability": "MID — head on aikuis-/testi-intent (amk/psykologia/testi); 'looginen päättely tehtäviä lapsille / eskari' (harvest verbatim) on puhdas mutta vain 14 deckiä.",
+      "notes": "DECK-GAP-kandidaatti: demand-perhe (eskari…2. luokka) täysin olemassa. Erota math-puzzlesta (matikkapulmat)."
+    },
+    "visual-discrimination": {
+      "primaryQuery": "hahmottaminen tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Hahmotustehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Hahmottaminen: harjoituksia visuaaliseen erotteluun",
+      "metaDescription": "Löydä samat kuvat, huomaa erot, vertaa yksityiskohtia: hahmotustehtäviä esiopetukseen ja eskariin — tulosta ilmaiseksi PDF:nä tai harjoittele verkossa.",
+      "winnability": "WINNABLE — 'hahmottaminen' + 'tehtäviä lapsille / esiopetus / eskari / varhaiskasvatus' (harvest, erittäin rikas); SERP hajaantunut (kuvilla, kielipolku). Klusterin pää.",
+      "notes": "Klusterin kärki — linkitä täältä shadow-match, missing-pieces, odd-one-out, grid-match. Vain 15 deckiä = DECK-GAP kärkihaulle."
+    },
+    "visual-matching": {
+      "primaryQuery": "kuvaparit tehtäviä",
+      "evidence": "echo",
+      "title": "Kuvaparit – yhdistä samanlaiset kuvat (PDF)",
+      "h1": "Kuvaparit: löydä samanlaiset kuvat",
+      "metaDescription": "Mikä kuva kuuluu mihinkin? 5 kuvaparitehtävää arjen kuvilla varhaiskasvatukseen ja esiopetukseen — hahmottamisen harjoittelua, tulosta ilmaiseksi PDF.",
+      "winnability": "MID niche/DECK-GAP — vain 5 deckiä. Erota matchingista (yleinen yhdistäminen) ja shadow-matchista (varjot).",
+      "notes": "Hyvin ohut varasto; kasvata ennen omaa pushia. Hahmottamis-klusteri."
+    },
+    "patterns": {
+      "primaryQuery": "hahmottaminen tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Kuviojonot – jatka kuviota (PDF)",
+      "h1": "Kuviojonot: tunnista sääntö ja jatka",
+      "metaDescription": "Miten jono jatkuu? 17 kuviojonotehtävää muodoilla ja kuvilla esiopetukseen ja 1. luokalle — säännön tunnistaminen, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID — 'jatka kuviota / kuviojono' on aito kysyntä, SERP kohtalainen. Esiopetus-qualifier menee pattern-trainille (246 deckiä) — täällä EI kahdenneta.",
+      "notes": "Slug kuviojonot = kuvion jatkamisen head. Erota pattern-trainista (juna, esiopetus) ja pattern-worksheetista (1. luokka)."
+    },
+    "position-words": {
+      "primaryQuery": "sijaintikäsitteet tehtäviä",
+      "evidence": "serp",
+      "title": "Sijainti- ja suuntakäsitteet – tehtäviä (PDF)",
+      "h1": "Sijainti- ja suuntakäsitteet matematiikassa",
+      "metaDescription": "Ylhäällä, alhaalla, oikealla, vasemmalla: 8 tehtävää sijainnin ja suunnan käsitteisiin varhaiskasvatukseen — avaruudellinen hahmottaminen, ilmaiseksi PDF.",
+      "winnability": "LOW/DECK-GAP — vain 8 deckiä; semanttisesti lähellä prepositionsia. Sisäinen linkki, ei erillistä pushia.",
+      "notes": "Kannibalisoinnin välttämiseksi: prepositions = 'sijaintikäsitteet' (kieli/S2, 98 deckiä), tämä = matikan sijainti- ja suuntakäsitteet."
+    },
+    "sorting-categories": {
+      "primaryQuery": "lajittelutehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Lajittelu – ryhmittele ryhmiin (PDF)",
+      "h1": "Lajittelu: jaa asiat ryhmiin",
+      "metaDescription": "Lajittele värin, muodon tai lajin mukaan: tehtäviä ryhmittelyyn ja luokitteluun varhaiskasvatukseen — ajattelun perustaa, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "SKIP omana sivuna (4 deckiä) — 'lajittelu' head myös jätelajittelu. Kysyntä 'lajittelutehtäviä lapsille' menee picture-sort-klusteriin.",
+      "notes": "Kytke picture-sort-klusteriin, älä pushaa erikseen. Ohut varasto."
+    },
+    "picture-arithmetic": {
+      "primaryQuery": "matematiikka tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Kuvalaskut – laske kuvilla (PDF)",
+      "h1": "Kuvalaskut: ensimmäiset plus- ja miinuslaskut kuvilla",
+      "metaDescription": "Laske ensin kuvat, sitten lasku: 14 kuvalaskutehtävää plussaan ja miinukseen 1. luokalle — havainnollinen laskennan aloitus, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID — 'rechnen mit bildern' -vastine, aito kuva-laskenta-kysyntä; SERP keskitasoa. Tarkka sisältövastaavuus.",
+      "notes": "Kaikki decksit 1. luokka → ei erillistä intersectionia (olisi duplikaatti); kysyntä elää tyyppisivulla."
+    },
+    "beginning-sounds": {
+      "primaryQuery": "alkuäänteet",
+      "evidence": "harvest",
+      "title": "Alkuäänteet – tehtäviä lapsille (PDF)",
+      "h1": "Alkuäänteet: kuule ja tunnista sanan ensimmäinen äänne",
+      "metaDescription": "Millä äänteellä sana alkaa? 10 alkuäännetehtävää kuvilla esiopetukseen ja eskariin — kielellinen tietoisuus ja lukemaan valmistautuminen, ilmaiseksi PDF.",
+      "winnability": "HARD/DECK-GAP — 'alkuäänteet' puhdas mutta vain 10 deckiä = suurin lukemisen valmiuksien DECK-GAP. Kysyntä (esiopetus…) suuri.",
+      "notes": "Deck-tuotanto avaisi koko lukemisvalmiusperheen. Linkitä phonological-awarenessin kanssa."
+    },
+    "letter-knowledge": {
+      "primaryQuery": "kirjaintuntemus",
+      "evidence": "harvest",
+      "title": "Kirjaintuntemus – tunnista kirjaimet (PDF)",
+      "h1": "Kirjaintuntemus: tunnista ja erottele kirjaimet",
+      "metaDescription": "Löydä etsitty kirjain rivistä: 20 kirjaintuntemustehtävää esiopetukseen ja koulun alkuun — kirjainten varmuus kasvaa, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID — 'kirjaintuntemus' puhdas opettaja-intent, kohtalainen kilpailu. Lähikysyntä 'kirjain tehtäviä lapsille' suurempi mutta kirjoituslehden intent.",
+      "notes": "Meillä ei ole kirjoituslehtiä — pysy 'kirjainten tunnistus' -sanoituksessa, ei 'kirjoita kirjaimet'."
+    },
+    "word-building": {
+      "primaryQuery": "sananrakennus tehtäviä",
+      "evidence": "echo",
+      "title": "Sananrakennus – rakenna sana kirjaimista (PDF)",
+      "h1": "Sananrakennus: rakenna sana kirjain kerrallaan",
+      "metaDescription": "Kirjain kerrallaan kokonaiseksi sanaksi: 10 sananrakennustehtävää lukemaan opetteleville — äänne-kirjain-vastaavuus vahvistuu, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "LOW-MID niche — 'rakenna sana' aito mutta pieni (10 deckiä). Alkuäänne-perheen naapuri.",
+      "notes": "Longtail alkuäänteet-perheeseen. Kasvata varastoa."
+    },
+    "picture-vocabulary": {
+      "primaryQuery": "kuvasanasto",
+      "evidence": "harvest",
+      "title": "Kuvasanasto – opi sanat kuvien avulla (PDF)",
+      "h1": "Kuvasanasto: näe kuva, opi sana",
+      "metaDescription": "Katso kuva, opi sana: kuvasanastotehtäviä arjen aiheista — erinomainen S2-opetukseen, kielen tukeen ja varhaiskasvatukseen, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "WINNABLE niche — 'varhaiskasvatuksen kuvasanasto' (harvest verbatim), S2-yleisö, ohut SERP. 11 kielen moat-aihe.",
+      "notes": "Nosta S2/kielen tuki esiin; vain 10 deckiä — kasvata varastoa (teemadecksit raaka-aineena)."
+    },
+    "phonological-awareness": {
+      "primaryQuery": "kielellinen tietoisuus harjoituksia",
+      "evidence": "harvest",
+      "title": "Kielellinen tietoisuus – tehtäviä lapsille (PDF)",
+      "h1": "Kielellinen tietoisuus: kuule äänteet ja tavut",
+      "metaDescription": "Taputa tavut, kuule äänteet: 25 kielellisen tietoisuuden tehtävää esiopetukseen ja varhaiskasvatukseen — perusta lukemiselle, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID — 'kielellinen tietoisuus' + 'esiopetus/varhaiskasvatus/harjoituksia' (harvest, rikas, puhdas opettaja-intent); head myös definitionaalinen.",
+      "notes": "Vahva varhaiskasvatus/esiopetus-termi. Linkitä alkuäänteet + word-building."
+    },
+    "science-sort": {
+      "primaryQuery": "ympäristöoppi 1 luokka tehtäviä",
+      "evidence": "harvest",
+      "title": "Ympäristöoppi: lajittele ja yhdistä (PDF)",
+      "h1": "Ympäristöoppi: lajittele ja tutki luontoa",
+      "metaDescription": "Elinympäristöt, vuodenajat, luonto: 90 lajittelutehtävää ympäristöoppiin esiopetukseen ja 1. luokalle — tiedon järjestämistä, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "DEFER-TO-HUB — 'ympäristöoppi <luokka> tehtäviä' kuuluu Aine×luokka-hubille; topic-sivu vain mekaniikka-tukena.",
+      "notes": "Älä titteröi omaa ympäristöoppi-hubia vastaan."
+    },
+    "science-match": {
+      "primaryQuery": "ympäristöoppi tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Ympäristöoppi: yhdistä kuvat ja käsitteet (PDF)",
+      "h1": "Ympäristötieto: yhdistä kuva ja käsite",
+      "metaDescription": "Eläin elinympäristöön, työkalu ammattiin: 10 yhdistämistehtävää ympäristöoppiin uteliaille lapsille — tiedon liittämistä, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "LOW — 10 deckiä, ei omaa hakusanaa. Sisäinen linkki ympäristöoppi-klusterissa.",
+      "notes": "Tukisivu; ei erillistä pushia."
+    },
+    "science-sequence": {
+      "primaryQuery": "ympäristöoppi 2 luokka tehtäviä",
+      "evidence": "echo",
+      "title": "Järjestys ja elämänkierto – tehtäviä (PDF)",
+      "h1": "Elämänkierto: järjestä luonnon vaiheet",
+      "metaDescription": "Munasta toukaksi perhoseksi: tehtäviä elämänkiertoihin ja järjestyksiin ympäristöoppiin — luonnontiedon järjestämistä, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "SKIP — vain 1 deck; tuota varastoa ennen pushia.",
+      "notes": "Paikanvaraaja; ei pushia ennen deck-tuotantoa."
+    },
+    "preschool": {
+      "primaryQuery": "tulostettavia tehtäviä 5-vuotiaille",
+      "evidence": "harvest",
+      "title": "Varhaiskasvatuksen tehtäviä – tulostettava (PDF)",
+      "h1": "Varhaiskasvatus: tehtäviä 3–5-vuotiaille",
+      "metaDescription": "Satoja varhaiskasvatuksen tehtäviä: määrien vertailua, kuvioita, hahmottamista ja ensimmäisiä kirjaimia 3–5-vuotiaille — tulosta ilmaiseksi tai pelaa verkossa.",
+      "winnability": "HARD head mutta ikä-longtail auki — 'tulostettavia tehtäviä 3/4/5 vuotiaalle' + 'viskari' (harvest, rikas). Vahvista + linkitä alasivuille.",
+      "notes": "Ikä-longtail (3/4/5 vuotta, viskari) kannattaa sanoittaa. Jakelusivu tyyppi- ja teemasivuille."
+    },
+    "kindergarten": {
+      "primaryQuery": "eskari tehtäviä tulostettavia",
+      "evidence": "harvest",
+      "title": "Esiopetuksen ja eskarin tehtäviä – tulostettava (PDF)",
+      "h1": "Esiopetus ja eskari: tulostettavia tehtäviä",
+      "metaDescription": "Suurin osio: tuhansia eskaritehtäviä varjojen yhdistämisestä ensimmäisiin plussalaskuihin 5–7-vuotiaille — tulosta ilmaiseksi PDF:nä tai pelaa verkossa.",
+      "winnability": "HARD head mutta erittäin rikas longtail — 'eskari tehtäviä pdf/tulostettavia/kotona', 'tehtäviä esiopetus', '6 vuotiaille' (harvest). Vahvin FI-tason qualifier.",
+      "notes": "Käytä sekä 'eskari' että 'esiopetus' (molemmat vahvoja). Jakelusivu esiopetus-intersectioneihin."
+    },
+    "grade-1": {
+      "primaryQuery": "tehtäviä 1 luokkalaisille",
+      "evidence": "harvest",
+      "title": "1. luokan tehtäviä – tulosta ilmaiseksi (PDF)",
+      "h1": "1. luokka: tehtäviä matematiikkaan, äidinkieleen ja logiikkaan",
+      "metaDescription": "Satoja 1. luokan tehtäviä: laskut 20:een, sanahaut, kirjainsekoitukset ja kellonajat — vastauksineen, tulosta ilmaiseksi PDF:nä tai pelaa verkossa.",
+      "winnability": "HARD head ('tehtäviä 1 luokkalaisille' + 'matematiikan tehtäviä 1 luokkalaisille', harvest); vahvista jakelusivuna tyyppi×luokka-intersectioneihin.",
+      "notes": "Pysy aineettomana (kaikki tyypit); Aine×luokka-hubit omistavat 'matematiikan tehtäviä 1. luokalle'."
+    },
+    "grade-2": {
+      "primaryQuery": "tehtäviä 2 luokkalaisille",
+      "evidence": "harvest",
+      "title": "2. luokan tehtäviä – tulostettava (PDF)",
+      "h1": "2. luokka: tehtäviä matematiikkaan, äidinkieleen ja pulmiin",
+      "metaDescription": "2. luokan tehtäviä: kuvaristikot, kellonajat, geometria ja laskut 100:aan — jokainen vastauksineen, tulosta ilmaiseksi PDF:nä tai harjoittele verkossa.",
+      "winnability": "HARD head; vahvista jakelusivuna. Decks-varasto 7-9 ohuempi — kellonajat/geometria/ristikko painottuvat.",
+      "notes": "Pysy aineettomana. 2. luokan varasto on pullonkaula (harvest painottaa kellonajat/geometria/ristikko)."
+    },
+    "grade-3": {
+      "primaryQuery": "tehtäviä 3 luokkalaisille",
+      "evidence": "echo",
+      "title": "3. luokan tehtäviä – tulostettava (PDF)",
+      "h1": "3. luokka: tehtäviä harjoitteluun ja pulmailuun",
+      "metaDescription": "3. luokan tehtäviä: kellonajat minuutilleen, ensimmäiset murtoluvut, kertolaskun alkeet ja geometria — tulosta ilmaiseksi PDF:nä vastauksineen.",
+      "winnability": "LOW-prio — 134 deckiä, K-3-raja; head kova. Vain peruspidon.",
+      "notes": "Ei ekspansiota ennen 1.–2. luokan kylläisyyttä."
+    },
+    "animals": {
+      "primaryQuery": "eläimet tehtäviä",
+      "evidence": "harvest",
+      "title": "Eläinaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Eläimet: tehtäviä eläinmaailmasta",
+      "metaDescription": "124 eläinaiheista tehtävää: laske eläimiä, yhdistä ja ratko sanoja — esiopetuksesta 2. luokalle, jokainen ilmaiseksi PDF:nä tai pelattavana verkossa.",
+      "winnability": "MID — 'eläimet tehtäviä' + 'maatilan eläimet / eläimet talvella' (harvest); SERP sekoittaa ympäristöopin ja biologian, esiopetus-angle auki.",
+      "notes": "Suurin teema; ei omistajaa harjoitus-intentille (ympäristöoppi hallitsee). Erota farm_animals/forest_creatures/zoo_animals."
+    },
+    "vehicles": {
+      "primaryQuery": "auto tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Ajoneuvoaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Ajoneuvot: tehtäviä autoista kaivinkoneisiin",
+      "metaDescription": "Autot, kaivinkoneet, paloautot: 156 ajoneuvotehtävää laskemiseen, yhdistämiseen ja sanoihin — lasten lempiaihe, tulosta ilmaiseksi PDF:nä tai verkossa.",
+      "winnability": "MID niche — 'auto tehtäviä lapsille' (harvest); ohut SERP. Suosittu aihe, suurin fi-teemavarasto (156).",
+      "notes": "Vahva sisäänpääsy-aihe; monetisoituu deck-landingien kautta."
+    },
+    "fruits": {
+      "primaryQuery": "hedelmät tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Hedelmäaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Hedelmät: tehtäviä hedelmistä ja marjoista",
+      "metaDescription": "Laske omenat, yhdistä hedelmät, ratko hedelmäsanoja: 116 hedelmätehtävää esiopetukseen ja varhaiskasvatukseen — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID — aito ruoka/terveys-aihe; kysyntä ohut mutta puhdas. Ristiinlinkki vegetablesin kanssa.",
+      "notes": "Kytke vegetables (vihannekset) — hakijat eivät aina erota hedelmiä/vihanneksia."
+    },
+    "shapes": {
+      "primaryQuery": "muodot tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Muototehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Muodot: ympyrä, kolmio, neliö tutuksi",
+      "metaDescription": "Ympyrä, kolmio, neliö: 96 muototehtävää tunnistamiseen, yhdistämiseen ja lajitteluun varhaiskasvatukseen ja esiopetukseen — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "WINNABLE mid — 'muodot tehtäviä lapsille' (harvest verbatim); SERP kohtalainen. Silta geometriaan (1. luokka+).",
+      "notes": "Rakenna silta geometry-tyyppisivulle (kouluikäiset)."
+    },
+    "space": {
+      "primaryQuery": "avaruus tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Avaruusaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Avaruus: tehtäviä raketeista ja planeetoista",
+      "metaDescription": "Raketit, tähdet, astronautit: 58 avaruustehtävää laskemiseen, etsimiseen ja ratkomiseen — avaruuden lumo esiopetukseen ja alakouluun, ilmaiseksi PDF.",
+      "winnability": "MID — 'avaruus tehtäviä lapsille / alakoulu / avaruusaiheisia tehtäviä' (harvest, vahva verbatim-perhe). Suosittu projektiaihe.",
+      "notes": "Yksi vahvimmista teema-verbatimeista harvestissa."
+    },
+    "dinosaurs": {
+      "primaryQuery": "dinosaurus tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Dinosaurusaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Dinosaurukset: tehtäviä pienille dino-faneille",
+      "metaDescription": "Laske dinosauruksia, yhdistä ja ratko dino-sanoja: 48 dinosaurustehtävää esiopetukseen ja alakouluun — dino-fanien suosikki, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID — 'dinosaurus tehtäviä lapsille' (harvest verbatim); korkean kiinnostuksen aihe.",
+      "notes": "Suosittu, monetisoituva sisäänpääsy-aihe."
+    },
+    "colors": {
+      "primaryQuery": "värit tehtäviä",
+      "evidence": "harvest",
+      "title": "Väriaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Värit: tehtäviä värien tunnistamiseen",
+      "metaDescription": "Tunnista ja yhdistä värit: 51 väritehtävää varhaiskasvatukseen ja esiopetukseen — värisanat leikiten tutuksi, tulosta ilmaiseksi PDF:nä tai verkossa.",
+      "winnability": "MID — 'värit tehtäviä' (harvest, mutta myös 'värit englanti/ruotsi' = kielenopiskelu). Fokus suomenkielisiin värisanoihin + varhaiskasvatus.",
+      "notes": "Harvest painottaa kieltenoppimista; meidän angle = suomenkieliset värisanat + S2. Ristiinlinkki shapes."
+    },
+    "emotions": {
+      "primaryQuery": "tunteet tehtäviä",
+      "evidence": "harvest",
+      "title": "Tunneaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Tunteet: tehtäviä tunteiden tunnistamiseen",
+      "metaDescription": "Iloinen, surullinen, vihainen: 53 tunnetehtävää tunteiden tunnistamiseen ja nimeämiseen varhaiskasvatukseen ja esiopetukseen — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID niche — 'tunteet tehtäviä' (harvest verbatim); tunnetaito-yleisö (opettajat, varhaiskasvatus).",
+      "notes": "Tunnetaitokasvatus-angle; 'tunnetaito tehtäviä lapsille' harvest-naapuri."
+    },
+    "music": {
+      "primaryQuery": "musiikki tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Musiikkiaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Musiikki: tehtäviä soittimista",
+      "metaDescription": "Rumpu, viulu, trumpetti: 54 soitintehtävää tunnistamiseen ja yhdistämiseen varhaiskasvatukseen ja alakouluun — musiikkisanasto, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "LOW-MID — 'musiikki tehtäviä lapsille/koululaisille/netissä' (harvest); head myös musiikinteoria (ylemmät luokat). Vain soitin-angle.",
+      "notes": "Rehellisesti: meillä on soitinkuvat, ei nuottiteoriaa."
+    },
+    "farm_animals": {
+      "primaryQuery": "maatilan eläimet tehtäviä",
+      "evidence": "harvest",
+      "title": "Maatilan eläimet – tehtäviä lapsille (PDF)",
+      "h1": "Maatilan eläimet: tehtäviä maatilalta",
+      "metaDescription": "Lehmä, possu, kana: 54 maatilatehtävää laskemiseen, yhdistämiseen ja sanoihin varhaiskasvatukseen ja alakouluun — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID — 'maatilan eläimet tehtäviä' (harvest verbatim); ohut SERP. Klassinen varhaiskasvatuksen projektiaihe.",
+      "notes": "Erota animalsista (yleinen) ja forest/zoo-eläimistä."
+    },
+    "forest_creatures": {
+      "primaryQuery": "metsäretki tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Metsän eläimet – tehtäviä lapsille (PDF)",
+      "h1": "Metsän eläimet: tehtäviä metsästä",
+      "metaDescription": "Kettu, siili, orava: 55 metsäeläintehtävää etsimiseen, laskemiseen ja yhdistämiseen — metsäprojektiin varhaiskasvatuksessa ja koulussa, ilmaiseksi PDF.",
+      "winnability": "MID niche — 'metsäretki / luonto tehtäviä lapsille' (harvest); metsäprojekti-aihe. Erota animalsista.",
+      "notes": "Syksyn/luonto-projektiaihe. Ristiinlinkki tree/animals."
+    },
+    "insects_and_bugs": {
+      "primaryQuery": "ötökkä tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Ötökkäaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Hyönteiset ja ötökät: tehtäviä pikkueläimistä",
+      "metaDescription": "Perhoset, muurahaiset, leppäkertut: 52 ötökkätehtävää laskemiseen ja yhdistämiseen varhaiskasvatukseen ja alakouluun — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID niche — 'ötökkä tehtäviä lapsille' (harvest verbatim); kevät/kesä-projektiaihe.",
+      "notes": "Suosittu kevätaihe; ristiinlinkki spring (jos ei-kausiluontoinen)."
+    },
+    "birds": {
+      "primaryQuery": "lintu tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Lintuaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Linnut: tehtäviä lintumaailmasta",
+      "metaDescription": "Varis, pöllö, papukaija: 40 lintutehtävää laskemiseen, yhdistämiseen ja sanoihin varhaiskasvatukseen ja alakouluun — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID — 'lintu tehtäviä lapsille' (harvest); head myös biologia (ylemmät luokat). Talvilinnut-angle.",
+      "notes": "birds_2-duplikaatti (linnut-2) huomioi — konsolidoi yhdeksi lintu-hubiksi."
+    },
+    "ocean_life": {
+      "primaryQuery": "meren eläimet tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Meriaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Merielämä: tehtäviä meren eläimistä",
+      "metaDescription": "Kalat, meritähdet, mustekalat: 57 meritehtävää laskemiseen ja yhdistämiseen varhaiskasvatukseen ja esiopetukseen — merimaailma tutuksi, ilmaiseksi PDF.",
+      "winnability": "MID niche — aito aihe, ohut SERP; kesä/meri-projektikulma.",
+      "notes": "Suosittu kesäaihe (ei kausirajattu). Ristiinlinkki summer-hubiin."
+    },
+    "body_parts": {
+      "primaryQuery": "kehonosat tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Kehonosat – tehtäviä lapsille (PDF)",
+      "h1": "Kehonosat: tehtäviä omasta kehosta",
+      "metaDescription": "Pää, käsi, jalka nimeksi ja paikoilleen: 58 kehonosatehtävää varhaiskasvatukseen ja S2-opetukseen — oma keho tutuksi, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID niche — aito aihe, S2/kielen tuki -kulma. Ohut SERP.",
+      "notes": "S2-moat-aihe. Sanasto-painotus."
+    },
+    "occupations": {
+      "primaryQuery": "ammatit tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Ammattiaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Ammatit: tehtäviä lääkäristä leipuriin",
+      "metaDescription": "Kuka tekee mitä? 58 ammattitehtävää yhdistämiseen ja ratkomiseen varhaiskasvatukseen ja alakouluun — ammattisanasto tutuksi, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID niche — aito aihe; S2-osuus. Ohut SERP.",
+      "notes": "S2-moat-aihe. Yhdistä science-match (työkalu → ammatti)."
+    },
+    "toys": {
+      "primaryQuery": "lelu tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Leluaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Lelut: tehtäviä lasten lempilelun ympärillä",
+      "metaDescription": "Nuket, pallot, palikat: 106 lelutehtävää laskemiseen, yhdistämiseen ja lajitteluun varhaiskasvatukseen ja esiopetukseen — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID niche — läheinen lapsen kokemukselle, ohut SERP. Iso varasto (106).",
+      "notes": "Läheinen aihe pienimmille. Sisäänpääsy-aihe."
+    },
+    "vegetables": {
+      "primaryQuery": "vihannekset tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Vihannesaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Vihannekset: tehtäviä porkkanasta paprikaan",
+      "metaDescription": "Laske porkkanat, lajittele vihannekset, opi sanat: 54 vihannestehtävää varhaiskasvatukseen ja S2-opetukseen — terveelliset aiheet, ilmaiseksi PDF.",
+      "winnability": "MID — ristiinkytkös fruits (hedelmät); terveys/ruoka-kulma, S2.",
+      "notes": "Kytke fruits — hakijat harvoin erottavat hedelmiä/vihanneksia."
+    },
+    "clothing": {
+      "primaryQuery": "vaatteet tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Vaateaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Vaatteet: tehtäviä vaatesanaston ympärillä",
+      "metaDescription": "Piposta kenkiin: 58 vaatetehtävää nimeämiseen, yhdistämiseen ja ratkomiseen — vahva S2-opetukseen ja varhaiskasvatukseen, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID niche — S2-longtail selkeä (vaatesanasto); ohut SERP.",
+      "notes": "S2-moat-aihe."
+    },
+    "pets": {
+      "primaryQuery": "lemmikit tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Lemmikkiaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Lemmikit: tehtäviä koirasta hamsteriin",
+      "metaDescription": "Koira, kissa, marsu: 56 lemmikkitehtävää nimeämiseen, laskemiseen ja ratkomiseen varhaiskasvatukseen ja alakouluun — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID niche — aito aihe, ohut SERP. Erota animals/farm/zoo.",
+      "notes": "Läheinen aihe; erota muista eläinaiheista."
+    },
+    "zoo_animals": {
+      "primaryQuery": "eläintarhan eläimet tehtäviä",
+      "evidence": "echo",
+      "title": "Eläintarhan eläimet – tehtäviä lapsille (PDF)",
+      "h1": "Eläintarhan eläimet: tehtäviä eläintarhavierailulle",
+      "metaDescription": "Leijona, norsu, pingviini: 56 eläintarhatehtävää laskemiseen ja yhdistämiseen ennen tai jälkeen eläintarhavierailun — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID niche — aito aihe; ohut SERP. Erota animals/farm/forest.",
+      "notes": "Vierailu-angle (ennen/jälkeen eläintarhaa)."
+    },
+    "tools": {
+      "primaryQuery": "työkalut tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Työkaluaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Työkalut: tehtäviä nimillä ja kuvilla",
+      "metaDescription": "Vasara, saha, ruuvimeisseli: 54 työkalutehtävää kuvilla ja nimillä yhdistämiseen ja ratkomiseen varhaiskasvatukseen — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "WINNABLE niche — työkalu-nimet-kuvat -formaatti vastaa tarkasti; ohut SERP.",
+      "notes": "Tarkka formaatti (nimi + kuva). Kytke occupations."
+    },
+    "weather": {
+      "primaryQuery": "sää tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Sääaiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Sää: tehtäviä auringosta lumeen",
+      "metaDescription": "Aurinko, pilvi, sateenkaari: 56 säätehtävää yhdistämiseen, laskemiseen ja ratkomiseen varhaiskasvatukseen ja esiopetukseen — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID — 'sää tehtäviä lapsille' (harvest verbatim); ohut SERP. Ei kausirajattu.",
+      "notes": "Ympärivuotinen sää-aihe (ei sama kuin vuodenaika-kausihubit)."
+    },
+    "flowers": {
+      "primaryQuery": "kukat tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Kukka-aiheisia tehtäviä lapsille – tulostettava (PDF)",
+      "h1": "Kukat: tehtäviä kukista ja puutarhasta",
+      "metaDescription": "Laske tulppaanit, yhdistä kukat, etsi kukkasanoja: 58 kukkatehtävää varhaiskasvatukseen ja alakouluun — kevätaihe, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID niche — aito aihe; ohut SERP. Kevät-kulma (ei kausihub).",
+      "notes": "Ristiinlinkki spring-kausihubiin (erillinen)."
+    },
+    "tree": {
+      "primaryQuery": "luonto tehtäviä lapsille",
+      "evidence": "harvest",
+      "title": "Puut ja luonto – tehtäviä lapsille (PDF)",
+      "h1": "Puut: tehtäviä puiden ja luonnon ympärillä",
+      "metaDescription": "Laske puita, yhdistä lehtiä, etsi luontosanoja: 57 puu- ja luontotehtävää varhaiskasvatukseen ja alakouluun — luontoaihe, tulosta ilmaiseksi PDF:nä.",
+      "winnability": "LOW-MID — head ympäristöoppi (2.–4. lk); 'luonto tehtäviä lapsille' (harvest) varhaiskasvatus-longtail ohut.",
+      "notes": "Ristiinlinkki forest_creatures ja science-sort."
+    },
+    "things_that_fly": {
+      "primaryQuery": "lentävät asiat tehtäviä lapsille",
+      "evidence": "echo",
+      "title": "Lentävät asiat – tehtäviä lapsille (PDF)",
+      "h1": "Lentävät asiat: tehtäviä lentokoneista lintuihin",
+      "metaDescription": "Lentokoneet, helikopterit, perhoset: 56 tehtävää lentävistä asioista laskemiseen ja yhdistämiseen varhaiskasvatukseen — tulosta ilmaiseksi PDF:nä.",
+      "winnability": "MID niche — aito aihe; ohut SERP. Erota vehicles/birds.",
+      "notes": "Ilma/lentäminen-teema; ristiinlinkki vehicles ja birds."
+    }
+  },
+  "intersections": [
+    {
+      "key": "addition__kindergarten",
+      "type": "addition",
+      "level": "kindergarten",
+      "query": "yhteenlasku esiopetus",
+      "decks": 199,
+      "title": "Yhteenlaskutehtäviä esiopetukseen – ilmainen PDF",
+      "h1": "Yhteenlasku esiopetuksessa ja eskarissa",
+      "metaDescription": "Rauhallinen johdatus plussalaskuun: 199 yhteenlaskutehtävää kuvilla esiopetukseen ja eskariin — pienin askelin 10:een asti, tulosta ilmaiseksi tai laske verkossa."
+    },
+    {
+      "key": "kindergarten__subtraction",
+      "type": "subtraction",
+      "level": "kindergarten",
+      "query": "vähennyslasku esiopetus",
+      "decks": 198,
+      "title": "Vähennyslaskutehtäviä esiopetukseen – ilmainen PDF",
+      "h1": "Vähennyslasku esiopetuksessa ja eskarissa",
+      "metaDescription": "Ota pois ja katso, montako jää: 198 vähennyslaskutehtävää selkeillä kuvilla esiopetukseen ja eskariin — miinuslaskun aloitus, tulosta ilmaiseksi tai verkossa."
+    },
+    {
+      "key": "code-addition__kindergarten",
+      "type": "code-addition",
+      "level": "kindergarten",
+      "query": "matematiikka eskari tehtäviä",
+      "decks": 149,
+      "title": "Kuvakoodilaskut esiopetukseen – ilmainen PDF",
+      "h1": "Kuvakoodilaskut eskarissa",
+      "metaDescription": "Pura kuvakoodi ja laske: 149 pulmallista kuvakoodilaskua esiopetukseen ja eskariin — laskutaitoa leikin varjolla, tulosta ilmaiseksi tai ratko verkossa."
+    },
+    {
+      "key": "kindergarten__pattern-train",
+      "type": "pattern-train",
+      "level": "kindergarten",
+      "query": "hahmottaminen esiopetus",
+      "decks": 246,
+      "title": "Kuviojunatehtäviä esiopetukseen – ilmainen PDF",
+      "h1": "Kuviojuna esiopetuksessa: jatka jonoa",
+      "metaDescription": "Mikä vaunu tulee seuraavaksi? 246 kuviojunatehtävää kuvion jatkamiseen esiopetukseen ja eskariin — jonojen tunnistus, tulosta ilmaiseksi tai pelaa verkossa."
+    },
+    {
+      "key": "kindergarten__picture-sort",
+      "type": "picture-sort",
+      "level": "kindergarten",
+      "query": "lajittelutehtäviä lapsille",
+      "decks": 127,
+      "title": "Lajittelutehtäviä esiopetukseen – ilmainen PDF",
+      "h1": "Lajittelu esiopetuksessa: ryhmittele kuvat",
+      "metaDescription": "Mikä kuuluu yhteen? 127 lajittelutehtävää esiopetukseen ja eskariin: ryhmittele kuvia luokkiin ja perustele — ajattelua ryhmissä, tulosta ilmaiseksi PDF."
+    },
+    {
+      "key": "kindergarten__sudoku",
+      "type": "sudoku",
+      "level": "kindergarten",
+      "query": "kuvasudoku eskari",
+      "decks": 99,
+      "title": "Kuvasudokua esiopetukseen – ilmainen PDF",
+      "h1": "Kuvasudoku esiopetuksessa ja eskarissa",
+      "metaDescription": "Sudoku ilman numeroita: 99 kuvasudokua 4x4-ruudukossa esiopetukseen ja eskariin — päättelyä kuvilla vastauksineen, tulosta ilmaiseksi tai pelaa verkossa."
+    },
+    {
+      "key": "kindergarten__prepositions",
+      "type": "prepositions",
+      "level": "kindergarten",
+      "query": "kielellinen tietoisuus esiopetus",
+      "decks": 98,
+      "title": "Sijaintikäsitteet esiopetukseen – ilmainen PDF",
+      "h1": "Sijaintikäsitteet esiopetuksessa: edessä, takana, päällä, alla",
+      "metaDescription": "Missä esine on? 98 sijaintikäsitetehtävää kuvilla esiopetukseen ja S2-opetukseen — edessä, takana, päällä, alla tutuksi, tulosta ilmaiseksi PDF:nä."
+    },
+    {
+      "key": "kindergarten__odd-one-out",
+      "type": "odd-one-out",
+      "level": "kindergarten",
+      "query": "mikä ei kuulu joukkoon eskari",
+      "decks": 96,
+      "title": "Mikä ei kuulu joukkoon? Esiopetukseen (PDF)",
+      "h1": "Mikä ei kuulu joukkoon? Esiopetuksessa ja eskarissa",
+      "metaDescription": "Neljä kuvaa, yksi ei kuulu joukkoon: 96 päättelytehtävää esiopetukseen ja eskariin — luokkien tunnistus ja perustelu, tulosta ilmaiseksi tai ratko verkossa."
+    },
+    {
+      "key": "find-objects__kindergarten",
+      "type": "find-objects",
+      "level": "kindergarten",
+      "query": "tehtäviä eskari",
+      "decks": 96,
+      "title": "Etsi piilotetut esineet – esiopetukseen (PDF)",
+      "h1": "Etsi esineet esiopetuksessa ja eskarissa",
+      "metaDescription": "Etsi piilotetut esineet kuvasta: 96 etsintätehtävää esiopetukseen ja eskariin — tarkka katse ja keskittyminen kehittyvät, tulosta ilmaiseksi tai ratko verkossa."
+    },
+    {
+      "key": "kindergarten__shadow-match",
+      "type": "shadow-match",
+      "level": "kindergarten",
+      "query": "hahmottaminen eskari",
+      "decks": 94,
+      "title": "Varjotehtäviä esiopetukseen – ilmainen PDF",
+      "h1": "Varjojen yhdistäminen esiopetuksessa",
+      "metaDescription": "Yhdistä kuva ja oikea varjo: 94 varjotehtävää esiopetukseen ja eskariin — visuaalinen hahmottaminen ennen koulua vahvistuu, tulosta ilmaiseksi tai verkossa."
+    },
+    {
+      "key": "kindergarten__missing-pieces",
+      "type": "missing-pieces",
+      "level": "kindergarten",
+      "query": "hahmottaminen tehtäviä lapsille",
+      "decks": 93,
+      "title": "Mikä pala puuttuu? Esiopetukseen (PDF)",
+      "h1": "Mikä pala puuttuu? Esiopetuksessa",
+      "metaDescription": "Mikä pala kuvasta puuttuu? 93 hahmotustehtävää esiopetukseen ja eskariin: tunnista puuttuva osa ja yhdistä oikein — tarkka katse, tulosta ilmaiseksi PDF."
+    },
+    {
+      "key": "kindergarten__matching",
+      "type": "matching",
+      "level": "kindergarten",
+      "query": "yhdistä kuvat parit tehtävä",
+      "decks": 88,
+      "title": "Yhdistämistehtäviä esiopetukseen – ilmainen PDF",
+      "h1": "Yhdistä kuvat pareiksi esiopetuksessa",
+      "metaDescription": "Etsi parit ja yhdistä viivalla: 88 yhdistämistehtävää kuvilla esiopetukseen ja eskariin — sanavarasto ja keskittyminen kehittyvät, tulosta ilmaiseksi PDF."
+    },
+    {
+      "key": "kindergarten__picture-path",
+      "type": "picture-path",
+      "level": "kindergarten",
+      "query": "labyrintti tehtäviä lapsille",
+      "decks": 88,
+      "title": "Labyrintteja esiopetukseen – ilmainen PDF",
+      "h1": "Labyrintit ja kuvapolut esiopetuksessa",
+      "metaDescription": "Seuraa oikeaa reittiä maaliin: 88 labyrintti- ja kuvapolkutehtävää esiopetukseen ja eskariin — ensimmäistä loogista ajattelua, tulosta ilmaiseksi tai verkossa."
+    },
+    {
+      "key": "bingo__kindergarten",
+      "type": "bingo",
+      "level": "kindergarten",
+      "query": "tehtäviä eskari",
+      "decks": 79,
+      "title": "Kuvabingoa esiopetukseen – tulostettavat pohjat",
+      "h1": "Kuvabingo esiopetuksessa ja eskarissa",
+      "metaDescription": "Bingoa kuvilla numeroiden sijaan: 79 valmista bingopohjaa esiopetukseen ja eskariin — tulosta kortit ilmaiseksi ja pelaa heti ryhmässä yhdessä."
+    },
+    {
+      "key": "chart-count__kindergarten",
+      "type": "chart-count",
+      "level": "kindergarten",
+      "query": "matematiikka eskari tehtäviä",
+      "decks": 49,
+      "title": "Laske ja merkitse kaavioon – esiopetukseen (PDF)",
+      "h1": "Laske ja merkitse kaavioon esiopetuksessa",
+      "metaDescription": "Laske kuvat ja täytä pylväät: 49 tehtävää esiopetukseen ja eskariin, joissa lapsi merkitsee laskutuloksensa kaavioon — ensimmäiset tilastot, ilmaiseksi PDF."
+    },
+    {
+      "key": "grid-match__kindergarten",
+      "type": "grid-match",
+      "level": "kindergarten",
+      "query": "hahmottaminen esiopetus",
+      "decks": 48,
+      "title": "Ruudukkotehtäviä esiopetukseen – ilmainen PDF",
+      "h1": "Ruudukkoyhdistys esiopetuksessa",
+      "metaDescription": "Lue rivi ja sarake, sijoita kuva oikein: 48 ruudukkotehtävää esiopetukseen ja eskariin — avaruudellinen hahmottaminen ennen koulua, tulosta ilmaiseksi PDF."
+    },
+    {
+      "key": "counting-pictures__kindergarten",
+      "type": "counting-pictures",
+      "level": "kindergarten",
+      "query": "lukumäärä tehtäviä lapsille",
+      "decks": 27,
+      "title": "Laske kuvat – tehtäviä esiopetukseen (PDF)",
+      "h1": "Laske kuvat esiopetuksessa: lukumäärän harjoittelua",
+      "metaDescription": "Laske ensin, yhdistä sitten luku: 27 laskutehtävää esiopetukseen ja eskariin iloisilla kuvilla — varma määrien hallinta 10:een asti, tulosta ilmaiseksi PDF."
+    },
+    {
+      "key": "kindergarten__phonological-awareness",
+      "type": "phonological-awareness",
+      "level": "kindergarten",
+      "query": "kielellinen tietoisuus esiopetus",
+      "decks": 25,
+      "title": "Kielellinen tietoisuus esiopetukseen (PDF)",
+      "h1": "Kielellinen tietoisuus esiopetuksessa",
+      "metaDescription": "Taputa tavut, kuule äänteet: 25 kielellisen tietoisuuden tehtävää esiopetukseen ja eskariin — perusta lukemaan oppimiselle, tulosta ilmaiseksi PDF:nä."
+    },
+    {
+      "key": "kindergarten__letter-knowledge",
+      "type": "letter-knowledge",
+      "level": "kindergarten",
+      "query": "kirjaintuntemus",
+      "decks": 20,
+      "title": "Kirjaintuntemus esiopetukseen – ilmainen PDF",
+      "h1": "Kirjaintuntemus esiopetuksessa ja eskarissa",
+      "metaDescription": "Löydä etsitty kirjain rivistä: 20 kirjaintuntemustehtävää esiopetukseen ja eskariin — kirjainten varmuus kasvaa ennen koulua, tulosta ilmaiseksi PDF:nä."
+    },
+    {
+      "key": "kindergarten__visual-discrimination",
+      "type": "visual-discrimination",
+      "level": "kindergarten",
+      "query": "hahmottaminen esiopetus",
+      "decks": 15,
+      "title": "Hahmotustehtäviä esiopetukseen – ilmainen PDF",
+      "h1": "Hahmottaminen esiopetuksessa: visuaalinen erottelu",
+      "metaDescription": "Löydä samat kuvat, huomaa erot: 15 hahmotustehtävää esiopetukseen ja eskariin — kohdennettua harjoittelua ennen koulun alkua, tulosta ilmaiseksi PDF:nä."
+    },
+    {
+      "key": "comparing-sizes__kindergarten",
+      "type": "comparing-sizes",
+      "level": "kindergarten",
+      "query": "kokojen vertailu",
+      "decks": 15,
+      "title": "Kokojen vertailu esiopetukseen – ilmainen PDF",
+      "h1": "Kokojen vertailu esiopetuksessa",
+      "metaDescription": "Järjestä pienimmästä suurimpaan: 15 tehtävää koon vertailuun esiopetukseen ja eskariin — ensimmäiset mittaamisen käsitteet, tulosta ilmaiseksi PDF:nä."
+    },
+    {
+      "key": "kindergarten__patterns",
+      "type": "patterns",
+      "level": "kindergarten",
+      "query": "hahmottaminen esiopetus",
+      "decks": 15,
+      "title": "Kuviojonot esiopetukseen – jatka kuviota (PDF)",
+      "h1": "Kuviojonot esiopetuksessa: tunnista sääntö",
+      "metaDescription": "Miten jono jatkuu? 15 kuviojonotehtävää muodoilla esiopetukseen ja eskariin — säännön tunnistaminen ja jatkaminen, tulosta ilmaiseksi PDF:nä."
+    },
+    {
+      "key": "more-less__preschool",
+      "type": "more-less",
+      "level": "preschool",
+      "query": "enemmän vähemmän eskari",
+      "decks": 146,
+      "title": "Enemmän vai vähemmän – varhaiskasvatukseen (PDF)",
+      "h1": "Enemmän vai vähemmän? Varhaiskasvatuksessa",
+      "metaDescription": "Vertaile määriä yhdellä silmäyksellä: 146 enemmän vai vähemmän -tehtävää varhaiskasvatukseen ja eskariin — varma määräkäsitys ennen koulua, ilmaiseksi PDF."
+    },
+    {
+      "key": "big-small__preschool",
+      "type": "big-small",
+      "level": "preschool",
+      "query": "iso vai pieni",
+      "decks": 93,
+      "title": "Iso ja pieni – varhaiskasvatukseen (PDF)",
+      "h1": "Iso vai pieni? Varhaiskasvatuksessa",
+      "metaDescription": "Kumpi on isompi, kumpi pienempi? 93 kokovertailutehtävää varhaiskasvatukseen arjen kuvilla — vertailun silmä harjaantuu leikiten, tulosta ilmaiseksi PDF:nä."
+    },
+    {
+      "key": "find-and-count__preschool",
+      "type": "find-and-count",
+      "level": "preschool",
+      "query": "etsi ja laske",
+      "decks": 94,
+      "title": "Etsi ja laske – varhaiskasvatukseen (PDF)",
+      "h1": "Etsi ja laske varhaiskasvatuksessa",
+      "metaDescription": "Löydä kuvat ja laske, montako niitä on: 94 etsi ja laske -tehtävää varhaiskasvatukseen — määrien hahmottaminen ja keskittyminen yhdessä, ilmaiseksi PDF."
+    },
+    {
+      "key": "alphabet-train__preschool",
+      "type": "alphabet-train",
+      "level": "preschool",
+      "query": "aakkoset tehtäviä lapsille",
+      "decks": 64,
+      "title": "Aakkostehtäviä varhaiskasvatukseen – ilmainen PDF",
+      "h1": "Aakkoset varhaiskasvatuksessa: järjestykseen",
+      "metaDescription": "Sijoita puuttuvat kirjaimet junaan: 64 aakkostehtävää varhaiskasvatukseen ja eskariin — aakkosten järjestys ja kirjaimet tutuksi, tulosta ilmaiseksi PDF:nä."
+    },
+    {
+      "key": "grade-1__math-puzzle",
+      "type": "math-puzzle",
+      "level": "grade-1",
+      "query": "looginen päättely tehtäviä lapsille",
+      "decks": 145,
+      "title": "Matikkapulmia 1. luokalle – tulostettava (PDF)",
+      "h1": "Matikkapulmia 1. luokalle",
+      "metaDescription": "Pulmia laskurutiinin sijaan: 145 matemaattista päättelytehtävää symbolilausekkeilla 1. luokalle — lukukäsitys leikiten, tulosta ilmaiseksi tai ratko verkossa."
+    },
+    {
+      "key": "grade-1__treasure-hunt",
+      "type": "treasure-hunt",
+      "level": "grade-1",
+      "query": "aarteenetsintä lapsille",
+      "decks": 97,
+      "title": "Aarteenetsintätehtäviä 1. luokalle (PDF)",
+      "h1": "Aarteenetsintä 1. luokalla",
+      "metaDescription": "Seuraa polkua pelilaudalla aarteelle: 97 aarteenetsintäpulmaa 1. luokalle — suunnistus ja logiikka harjaantuvat, tulosta ilmaiseksi tai pelaa verkossa."
+    },
+    {
+      "key": "grade-1__word-scramble",
+      "type": "word-scramble",
+      "level": "grade-1",
+      "query": "tehtäviä 1 luokkalaisille",
+      "decks": 95,
+      "title": "Sekoitetut kirjaimet 1. luokalle – järjestä sanaksi",
+      "h1": "Kirjainsekoitus 1. luokalle",
+      "metaDescription": "Sekaisin menneet kirjaimet oikeaan järjestykseen: 95 kirjainsekoitusta kuvavihjeillä 1. luokalle — lukemisen harjoittelua hauskasti, tulosta ilmaiseksi PDF."
+    },
+    {
+      "key": "grade-1__pattern-worksheet",
+      "type": "pattern-worksheet",
+      "level": "grade-1",
+      "query": "tehtäviä 1 luokkalaisille",
+      "decks": 49,
+      "title": "Kuviotehtäviä 1. luokalle – jatka kuviota (PDF)",
+      "h1": "Kuviotehtävät 1. luokalle",
+      "metaDescription": "Muodot, värit ja jonot: 49 kuviotehtävää rivien jatkamiseen 1. luokalle — keskittyminen ja matematiikan valmiudet, tulosta ilmaiseksi vastauksineen PDF:nä."
+    },
+    {
+      "key": "grade-1__telling-time",
+      "type": "telling-time",
+      "level": "grade-1",
+      "query": "kellonajat tehtäviä lapsille",
+      "decks": 21,
+      "title": "Kellonaikatehtäviä 1. luokalle – ilmainen PDF",
+      "h1": "Kellonajat 1. luokalla: tasatunnit ja puolet",
+      "metaDescription": "Tasatunnit ja puolet: 21 kellonaikatehtävää osoitinkellolla 1. luokalle — ensimmäinen askel kellon lukemiseen, tulosta ilmaiseksi tai harjoittele verkossa."
+    },
+    {
+      "key": "grade-1__number-charts",
+      "type": "number-charts",
+      "level": "grade-1",
+      "query": "matematiikan tehtäviä 1 luokkalaisille",
+      "decks": 13,
+      "title": "Lukutaulu 1. luokalle – tehtäviä (PDF)",
+      "h1": "Lukutaulu 1. luokalla",
+      "metaDescription": "Etsi luvut ja täydennä ruudut: 13 lukutaulutehtävää lukualueella 100 1. luokalle — orientoituminen lukualueeseen, tulosta ilmaiseksi PDF vastauksineen."
+    },
+    {
+      "key": "grade-1__graphing-data",
+      "type": "graphing-data",
+      "level": "grade-1",
+      "query": "matematiikan tehtäviä 1 luokkalaisille",
+      "decks": 12,
+      "title": "Kaaviot ja tilastot 1. luokalle (PDF)",
+      "h1": "Kaaviot ja tilastot 1. luokalla",
+      "metaDescription": "Lue diagrammeja ja täytä ne itse: 12 kaavio- ja tilastotehtävää 1. luokalle — laske, merkitse ja tulkitse, tulosta ilmaiseksi PDF vastauksineen."
+    },
+    {
+      "key": "grade-1__measurement",
+      "type": "measurement",
+      "level": "grade-1",
+      "query": "mittaaminen alkuopetus",
+      "decks": 12,
+      "title": "Mittaamistehtäviä 1. luokalle – ilmainen PDF",
+      "h1": "Mittaaminen 1. luokalla: pituudet ja vertailu",
+      "metaDescription": "Pidempi, lyhyempi, yhtä pitkä: 12 mittaamistehtävää pituuksien vertailuun 1. luokalle — ensimmäiset mittauskokemukset, tulosta ilmaiseksi PDF:nä."
+    },
+    {
+      "key": "grade-1__picture-arithmetic",
+      "type": "picture-arithmetic",
+      "level": "grade-1",
+      "query": "matematiikka tehtäviä lapsille",
+      "decks": 14,
+      "title": "Kuvalaskut 1. luokalle – laske kuvilla (PDF)",
+      "h1": "Kuvalaskut 1. luokalla",
+      "metaDescription": "Laske ensin kuvat, sitten lasku: 14 kuvalaskutehtävää plussaan ja miinukseen 1. luokalle — havainnollinen laskennan aloitus, tulosta ilmaiseksi PDF:nä."
+    },
+    {
+      "key": "crossword__grade-2",
+      "type": "crossword",
+      "level": "grade-2",
+      "query": "lasten ristikko tulostettava",
+      "decks": 45,
+      "title": "Kuvaristikoita 2. luokalle – tulostettava (PDF)",
+      "h1": "Kuvaristikot 2. luokalle",
+      "metaDescription": "Kuvaristikko harjaantuneelle lukijalle: 45 ristikkoa 2. luokalle — nimeä kuva, kirjoita sana, vahvista oikeinkirjoitusta, tulosta ilmaiseksi PDF vastauksineen."
+    },
+    {
+      "key": "grade-2__telling-time",
+      "type": "telling-time",
+      "level": "grade-2",
+      "query": "kellonajat tehtäviä",
+      "decks": 20,
+      "title": "Kellonaikatehtäviä 2. luokalle – ilmainen PDF",
+      "h1": "Kellonajat 2. luokalla: vartit ja minuutit",
+      "metaDescription": "Vartit ja minuutit varmasti: 20 kellonaikatehtävää osoitinkellolla 2. luokalle vastauksineen — kellon lukeminen syvenee, tulosta ilmaiseksi tai harjoittele verkossa."
+    },
+    {
+      "key": "geometry__grade-2",
+      "type": "geometry",
+      "level": "grade-2",
+      "query": "geometria 2 luokka",
+      "decks": 17,
+      "title": "Geometriatehtäviä 2. luokalle – ilmainen PDF",
+      "h1": "Geometria 2. luokalla: muodot ja kappaleet",
+      "metaDescription": "Tunnista tasot ja kappaleet: 17 geometriatehtävää 2. luokalle — muototieto vahvistuu, tulosta ilmaiseksi PDF:nä vastauksineen tai harjoittele verkossa."
+    },
+    {
+      "key": "arrays-multiplication__grade-2",
+      "type": "arrays-multiplication",
+      "level": "grade-2",
+      "query": "kertotaulu tehtävät",
+      "decks": 14,
+      "title": "Kertolaskun alkeet 2. luokalle – kuvilla (PDF)",
+      "h1": "Kertolaskun alkeet 2. luokalla",
+      "metaDescription": "Ymmärrä malaskut ulkoluvun sijaan: 14 kertolaskun alkeistehtävää pistekuvilla 2. luokalle — johdatus kertolaskuun, tulosta ilmaiseksi PDF vastauksineen."
+    },
+    {
+      "key": "fractions__grade-2",
+      "type": "fractions",
+      "level": "grade-2",
+      "query": "murtoluvut tehtäviä",
+      "decks": 34,
+      "title": "Ensimmäiset murtoluvut 2. luokalle (PDF)",
+      "h1": "Ensimmäiset murtoluvut 2. luokalla",
+      "metaDescription": "Puolikas ja neljäsosa havainnollisesti: 34 murtolukutehtävää kuvilla 2. luokalle — ensimmäinen murtolukukäsitys värittämällä ja yhdistämällä, ilmaiseksi PDF."
+    },
+    {
+      "key": "grade-3__telling-time",
+      "type": "telling-time",
+      "level": "grade-3",
+      "query": "kellonajat tehtäviä",
+      "decks": 40,
+      "title": "Kellonaikatehtäviä 3. luokalle – ilmainen PDF",
+      "h1": "Kellonajat 3. luokalla: minuutin tarkkuudella",
+      "metaDescription": "Kello minuutin tarkkuudella: 40 kellonaikatehtävää osoitinkellolla 3. luokalle vastauksineen — kellon lukeminen varmaksi, tulosta ilmaiseksi tai harjoittele verkossa."
+    },
+    {
+      "key": "fractions__grade-3",
+      "type": "fractions",
+      "level": "grade-3",
+      "query": "murtoluvut tehtäviä",
+      "decks": 34,
+      "title": "Murtolukutehtäviä 3. luokalle – tulostettava (PDF)",
+      "h1": "Murtoluvut 3. luokalla",
+      "metaDescription": "Puolikkaat, neljäsosat ja kolmasosat: 34 murtolukutehtävää kuvilla 3. luokalle — murtolukukäsitys vahvistuu havainnollisesti, tulosta ilmaiseksi PDF:nä."
+    },
+    {
+      "key": "grade-1__wordsearch",
+      "type": "wordsearch",
+      "level": "grade-1",
+      "query": "sanahaku tehtäviä",
+      "decks": 49,
+      "title": "Sanahakutehtäviä 1. luokalle – tulostettava (PDF)",
+      "h1": "Sanahaku 1. luokalle",
+      "metaDescription": "Sanaruudukko lukemaan opettelevalle: 49 sanahakua lyhyillä, luettavilla sanoilla 1. luokalle — kirjaimet varmoiksi, tulosta ilmaiseksi tai pelaa verkossa."
+    },
+    {
+      "key": "kindergarten__word-guess",
+      "type": "word-guess",
+      "level": "kindergarten",
+      "query": "tehtäviä eskari",
+      "decks": 96,
+      "title": "Arvaa sana – tehtäviä esiopetukseen (PDF)",
+      "h1": "Arvaa sana esiopetuksessa ja eskarissa",
+      "metaDescription": "Katso kuva, arvaa sana, täytä kirjaimet: 96 kirjainpulmaa esiopetukseen ja eskariin — sanavarasto ja kirjaimet tutuiksi leikiten, tulosta ilmaiseksi PDF."
+    }
+  ]
+}

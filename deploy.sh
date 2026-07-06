@@ -548,6 +548,20 @@ done
 # do NOT exit non-zero here
 
 echo ""
+echo "🛡️  Verifying nginx contract (rate-limit carve-outs, static aliases)..."
+# Self-healing (broken-thumbnails fix 2026-07-06): a nginx-config rebuild that
+# drops the /_next/image carve-out silently re-breaks thumbnails with random
+# per-refresh 429s. verify-nginx-contract.sh asserts the load-bearing blocks
+# (config greps + a 48-concurrent behavioral probe) and --heal re-applies any
+# missing block via its idempotent patch script. lcs-status runs the same
+# checker read-only every 5 min (watchdog alerts on its "!!!" lines).
+# WARN-only here: runs after the live swap; must not abort remaining steps.
+( set +e
+  bash /opt/lessoncraftstudio/scripts/ops/verify-nginx-contract.sh --heal
+  [ $? -ne 0 ] && echo "   ⚠️  WARN: nginx contract violated — see !!! lines above (watchdog will keep alerting)"
+) || true
+
+echo ""
 echo "🔎 Checking deck URL-column drift (at-rest only; live links are slug-derived)..."
 # WARN-only recurrence guard (SEO-recovery 2026-06-25): the script always exits 0;
 # live deck links derive from slug (canonicalDeckAssets) so any drift here is at-rest

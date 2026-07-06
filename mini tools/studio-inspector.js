@@ -892,9 +892,17 @@
         chip.addEventListener('click', function () { global.StudioCanvas.select({ kind: 'text', index: ti }); });
         box.appendChild(chip);
       });
-      var add = el('button', 'stu-btn', T('+ Add text (then click the picture where it goes)', '+ Text hinzufügen (dann gewünschte Stelle anklicken)'));
-      add.addEventListener('click', function () { global.StudioCanvas.startPlaceText(); });
+      var add = el('button', 'stu-btn', T('+ Add text', '+ Text hinzufügen'));
+      add.addEventListener('click', function () {
+        global.StudioCanvas.addTextHere();
+        /* the text panel is up now — put the caret in the words box so the
+           operator types over the placeholder immediately */
+        var ta = refs.panel.querySelector('textarea.stu-cuetext');
+        if (ta) { try { ta.focus(); ta.select(); } catch (e) {} }
+      });
       box.appendChild(add);
+      box.appendChild(el('div', 'stu-note', T('The text appears on the picture right away — drag it where you want it.',
+        'Der Text erscheint sofort auf dem Bild – ziehen Sie ihn an die gewünschte Stelle.')));
     });
 
     /* characters */

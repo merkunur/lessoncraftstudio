@@ -312,28 +312,25 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
   {
     await page.evaluate(() => { Studio.state.pageIndex = 0; StudioCanvas.select(null); });
     await sleep(250);
+    /* "+ Add text" places IMMEDIATELY (the addCharacterHere precedent) —
+       no hidden click-the-canvas step */
     await clickPanelBtn('+ Add text');
-    /* click the stage at design-point (400, 300) */
-    const sp = await page.evaluate(() => {
-      const st = document.querySelector('.stu-stage');
-      const r = st.getBoundingClientRect();
-      const s = parseFloat(getComputedStyle(st).transform.split('(')[1]);
-      return { x: r.left + 400 * s, y: r.top + 300 * s };
-    });
-    await page.mouse.click(sp.x, sp.y);
     await sleep(300);
     const placedText = await page.evaluate(() => {
       const tx = (Studio.page().text || [])[0];
-      return tx ? { x: tx.x, y: tx.y, size: tx.size, words: Studio.str(tx.stringKey),
+      const ta = document.querySelector('#stu-panel textarea.stu-cuetext');
+      return tx ? { x: tx.x, y: tx.y, size: tx.size, align: tx.align, words: Studio.str(tx.stringKey),
                     sel: Studio.state.selection,
-                    inDom: !!document.querySelector('.stu-text.stu-selected') } : null;
+                    inDom: !!document.querySelector('.stu-text.stu-selected'),
+                    focused: !!ta && document.activeElement === ta } : null;
     });
-    assert(!!placedText, 'E: clicking after "+ Add text" creates a page.text item');
-    assert(placedText && Math.abs(placedText.x - 400) <= 8 && Math.abs(placedText.y - 300) <= 8 && placedText.size === 40,
-      'E: text placed at the clicked point ±1 snap step, default size (got ' + JSON.stringify(placedText) + ')');
+    assert(!!placedText, 'E: "+ Add text" creates a page.text item IMMEDIATELY');
+    assert(placedText && placedText.x === 400 && placedText.y === 120 && placedText.size === 40 && placedText.align === 'center',
+      'E: placed at the centered title spot (got ' + JSON.stringify(placedText) + ')');
     assert(placedText && placedText.words === 'Your text', 'E: seeded with editable default words');
     assert(placedText && placedText.sel && placedText.sel.kind === 'text' && placedText.inDom,
       'E: the new text is SELECTED on the canvas');
+    assert(placedText && placedText.focused, 'E: the words box is FOCUSED — type to replace the placeholder');
 
     /* edit the words through the panel */
     await page.evaluate(() => {
@@ -370,6 +367,37 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
     await sleep(250);
     const cleared = await page.evaluate(() => (Studio.page().text || []).length);
     assert(cleared === 0, 'E: "Remove this text" clears the item');
+  }
+
+  /* ================= F. story lines VISIBLE on the editor page ================= */
+  {
+    await page.evaluate(() => { Studio.state.pageIndex = 0; StudioCanvas.select(null); });
+    await sleep(250);
+    const start = await page.evaluate(() => ({
+      cues: ((Studio.page().narration || {}).cues || []).length,
+      mock: (document.querySelector('.stu-caption-mock') || {}).textContent || null
+    }));
+    assert(start.cues === 0 || !!start.mock,
+      'F: existing story lines render in the on-page caption band (' + start.cues + ' cues)');
+    await clickPanelBtn('+ Add a line');
+    await sleep(250);
+    await page.evaluate(() => {
+      const tas = [...document.querySelectorAll('#stu-panel .stu-cue textarea.stu-cuetext')];
+      const ta = tas[tas.length - 1];
+      ta.value = 'Once upon a time';
+      ta.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+    await sleep(250);
+    const after3 = await page.evaluate(() => ({
+      cues: ((Studio.page().narration || {}).cues || []).length,
+      mock: (document.querySelector('.stu-caption-mock') || {}).textContent || '',
+      more: (document.querySelector('.stu-caption-more') || {}).textContent || ''
+    }));
+    assert(after3.cues === start.cues + 1, 'F: the line was added (' + after3.cues + ' cues)');
+    assert(after3.mock.length > 2,
+      'F: the caption band shows on the page (got "' + after3.mock.slice(0, 40) + '")');
+    assert(after3.cues < 2 || after3.more === '+' + (after3.cues - 1),
+      'F: the +N chip counts the remaining lines (got "' + after3.more + '")');
   }
 
   await browser.close();

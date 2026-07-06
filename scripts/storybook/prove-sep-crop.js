@@ -80,5 +80,38 @@ const row3Ans = { x: 700, y: 410, w: 120, h: 50 };          /* 10px below the cr
     'inCrop: an element right of the crop (center out) does not belong');
 }
 
+{
+  /* the family-A palette contract: NUMERIC = a full 0-9 write-the-answer
+     keypad (never an answers+distractors candidate set — that reads as
+     multiple choice); LETTERS = answers + curated distractors */
+  const bigCrop = { x: 0, y: 0, w: 2480, h: 3508 };
+  const numericBundle = {
+    appType: 'addition', page: { width: 2480, height: 3508 }, contentLanguage: 'en',
+    slots: [
+      { slotType: 'symbol', kind: 'number', expected: '7', rect: { x: 400, y: 300, w: 90, h: 90 }, problemIndex: 0 },
+      { slotType: 'symbol', kind: 'number', expected: '14', rect: { x: 400, y: 600, w: 90, h: 90 }, problemIndex: 1 }
+    ]
+  };
+  const mNum = CE._sepMapForTest('A', numericBundle, bigCrop);
+  const pal = (mNum.input.tapPalette.letters || []).join('');
+  assert(pal === '0123456789',
+    'palette: NUMERIC answers yield the FULL 0-9 keypad (got "' + pal + '")');
+  const multi = (mNum.elements.slots || []).filter(s => s.multi).length;
+  assert(multi === 1, 'palette: the two-digit answer stays one multi-build slot');
+
+  const letterBundle = {
+    appType: 'word-guess', page: { width: 2480, height: 3508 }, contentLanguage: 'en', caseValue: 'upper',
+    slots: [
+      { slotType: 'letter', expected: 'C', rect: { x: 400, y: 300, w: 90, h: 90 } },
+      { slotType: 'letter', expected: 'A', rect: { x: 520, y: 300, w: 90, h: 90 } },
+      { slotType: 'letter', expected: 'T', rect: { x: 640, y: 300, w: 90, h: 90 } }
+    ]
+  };
+  const mLet = CE._sepMapForTest('A', letterBundle, bigCrop);
+  const lp = mLet.input.tapPalette.letters || [];
+  assert(lp.indexOf('C') >= 0 && lp.indexOf('A') >= 0 && lp.indexOf('T') >= 0 && lp.length >= 4 && lp.length <= 9,
+    'palette: LETTER answers keep the curated answers+distractors set (' + lp.join('') + ')');
+}
+
 console.log('\n[prove-sep-crop] ' + fails.length + ' failure(s)');
 process.exit(fails.length ? 1 : 0);

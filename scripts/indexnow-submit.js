@@ -22,7 +22,11 @@
  */
 
 const HOST = 'www.lessoncraftstudio.com';
-const KEY = process.env.INDEXNOW_KEY || 'f261bd8eb7ea657cdb8051d5d8e3bc4c';
+// Key issued by Bing Webmaster Tools → IndexNow for www.lessoncraftstudio.com
+// (2026-07-06). The prior self-generated key (f261bd8e…) was never recognized by
+// Bing → every submission 403'd ("key not valid"). Hosted at KEY_LOCATION below;
+// the middleware matcher carve-out must allow that .txt path (frontend/middleware.ts).
+const KEY = process.env.INDEXNOW_KEY || 'f1bea8a4e58d43eda62b09b891f305a4';
 const ORIGIN = `https://${HOST}`;
 const KEY_LOCATION = `${ORIGIN}/${KEY}.txt`;
 const ENDPOINT = 'https://api.indexnow.org/indexnow';

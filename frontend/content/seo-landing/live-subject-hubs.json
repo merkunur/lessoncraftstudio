@@ -65,6 +65,13 @@
    "gradeSlug": "barnehage-3-5-ar"
   },
   {
+   "locale": "fi",
+   "subjectKey": "math",
+   "levelKey": "preschool",
+   "subjectSlug": "matematiikka",
+   "gradeSlug": "varhaiskasvatus"
+  },
+  {
    "locale": "en",
    "subjectKey": "math",
    "levelKey": "kindergarten",
@@ -133,6 +140,13 @@
    "levelKey": "kindergarten",
    "subjectSlug": "matematikk",
    "gradeSlug": "barnehage-5-7-ar"
+  },
+  {
+   "locale": "fi",
+   "subjectKey": "math",
+   "levelKey": "kindergarten",
+   "subjectSlug": "matematiikka",
+   "gradeSlug": "esiopetus"
   },
   {
    "locale": "en",
@@ -205,6 +219,13 @@
    "gradeSlug": "1-trinn"
   },
   {
+   "locale": "fi",
+   "subjectKey": "math",
+   "levelKey": "grade-1",
+   "subjectSlug": "matematiikka",
+   "gradeSlug": "1-luokka"
+  },
+  {
    "locale": "en",
    "subjectKey": "math",
    "levelKey": "grade-2",
@@ -273,6 +294,13 @@
    "levelKey": "grade-2",
    "subjectSlug": "matematikk",
    "gradeSlug": "2-trinn"
+  },
+  {
+   "locale": "fi",
+   "subjectKey": "math",
+   "levelKey": "grade-2",
+   "subjectSlug": "matematiikka",
+   "gradeSlug": "2-luokka"
   },
   {
    "locale": "en",
@@ -345,6 +373,13 @@
    "gradeSlug": "3-trinn"
   },
   {
+   "locale": "fi",
+   "subjectKey": "math",
+   "levelKey": "grade-3",
+   "subjectSlug": "matematiikka",
+   "gradeSlug": "3-luokka"
+  },
+  {
    "locale": "en",
    "subjectKey": "letters",
    "levelKey": "preschool",
@@ -406,6 +441,13 @@
    "levelKey": "preschool",
    "subjectSlug": "norsk",
    "gradeSlug": "barnehage-3-5-ar"
+  },
+  {
+   "locale": "fi",
+   "subjectKey": "letters",
+   "levelKey": "preschool",
+   "subjectSlug": "aidinkieli",
+   "gradeSlug": "varhaiskasvatus"
   },
   {
    "locale": "en",
@@ -478,6 +520,13 @@
    "gradeSlug": "barnehage-5-7-ar"
   },
   {
+   "locale": "fi",
+   "subjectKey": "letters",
+   "levelKey": "kindergarten",
+   "subjectSlug": "aidinkieli",
+   "gradeSlug": "esiopetus"
+  },
+  {
    "locale": "en",
    "subjectKey": "letters",
    "levelKey": "grade-1",
@@ -546,6 +595,13 @@
    "levelKey": "grade-1",
    "subjectSlug": "norsk",
    "gradeSlug": "1-trinn"
+  },
+  {
+   "locale": "fi",
+   "subjectKey": "letters",
+   "levelKey": "grade-1",
+   "subjectSlug": "aidinkieli",
+   "gradeSlug": "1-luokka"
   },
   {
    "locale": "en",
@@ -618,6 +674,13 @@
    "gradeSlug": "2-trinn"
   },
   {
+   "locale": "fi",
+   "subjectKey": "letters",
+   "levelKey": "grade-2",
+   "subjectSlug": "aidinkieli",
+   "gradeSlug": "2-luokka"
+  },
+  {
    "locale": "en",
    "subjectKey": "science",
    "levelKey": "kindergarten",
@@ -686,6 +749,13 @@
    "levelKey": "kindergarten",
    "subjectSlug": "naturfag",
    "gradeSlug": "barnehage-5-7-ar"
+  },
+  {
+   "locale": "fi",
+   "subjectKey": "science",
+   "levelKey": "kindergarten",
+   "subjectSlug": "ymparistooppi",
+   "gradeSlug": "esiopetus"
   },
   {
    "locale": "en",
@@ -758,6 +828,13 @@
    "gradeSlug": "1-trinn"
   },
   {
+   "locale": "fi",
+   "subjectKey": "science",
+   "levelKey": "grade-1",
+   "subjectSlug": "ymparistooppi",
+   "gradeSlug": "1-luokka"
+  },
+  {
    "locale": "en",
    "subjectKey": "logic",
    "levelKey": "preschool",
@@ -819,6 +896,13 @@
    "levelKey": "preschool",
    "subjectSlug": "logikk",
    "gradeSlug": "barnehage-3-5-ar"
+  },
+  {
+   "locale": "fi",
+   "subjectKey": "logic",
+   "levelKey": "preschool",
+   "subjectSlug": "logiikka",
+   "gradeSlug": "varhaiskasvatus"
   },
   {
    "locale": "en",
@@ -891,6 +975,13 @@
    "gradeSlug": "barnehage-5-7-ar"
   },
   {
+   "locale": "fi",
+   "subjectKey": "logic",
+   "levelKey": "kindergarten",
+   "subjectSlug": "logiikka",
+   "gradeSlug": "esiopetus"
+  },
+  {
    "locale": "en",
    "subjectKey": "spatial-reasoning",
    "levelKey": "kindergarten",
@@ -959,6 +1050,13 @@
    "levelKey": "kindergarten",
    "subjectSlug": "visuell-persepsjon",
    "gradeSlug": "barnehage-5-7-ar"
+  },
+  {
+   "locale": "fi",
+   "subjectKey": "spatial-reasoning",
+   "levelKey": "kindergarten",
+   "subjectSlug": "visuaalinen-hahmottaminen",
+   "gradeSlug": "esiopetus"
   },
   {
    "locale": "en",

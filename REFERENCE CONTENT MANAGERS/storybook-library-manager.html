@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Storybook Library Manager — LessonCraftStudio</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; background: #f2ede1; color: #2b241d; min-height: 100vh; }
+  .header { background: linear-gradient(135deg, #146B5E, #0d4a41); color: #fff; padding: 22px 28px; display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+  .header h1 { font-size: 22px; }
+  .header .sub { opacity: .85; font-size: 13px; }
+  .header .spacer { margin-left: auto; }
+  .badge { border-radius: 999px; padding: 5px 14px; font-weight: 700; font-size: 13px; background: #1d8a77; }
+  .badge.err { background: #b3402a; }
+  .badge.warn { background: #c78a1f; }
+  .btn { border: none; border-radius: 9px; background: #e8dfc9; color: #2b241d; font-weight: 700; padding: 9px 16px; cursor: pointer; font-size: 14px; }
+  .btn:hover { filter: brightness(.96); }
+  .btn:disabled { opacity: .45; cursor: default; }
+  .btn.primary { background: #F2784B; color: #fff; }
+  .btn.danger { background: #cf5b41; color: #fff; }
+  .btn.small { padding: 5px 10px; font-size: 12.5px; }
+  .tabs { display: flex; gap: 8px; padding: 16px 28px 0; }
+  .tab { border: none; border-radius: 10px 10px 0 0; padding: 12px 22px; font-weight: 800; font-size: 15px; cursor: pointer; background: #e3dac4; color: #6b6154; }
+  .tab.on { background: #fffdf7; color: #146B5E; }
+  .pane { display: none; background: #fffdf7; margin: 0 28px 28px; border-radius: 0 12px 12px 12px; padding: 22px; min-height: 380px; }
+  .pane.on { display: block; }
+  .pane-head { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; flex-wrap: wrap; }
+  .pane-head h2 { font-size: 18px; color: #146B5E; }
+  .hint { font-size: 13px; color: #7c6a52; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
+  .card { border: 1px solid #e6dcc4; border-radius: 12px; background: #fff; padding: 12px; display: flex; flex-direction: column; gap: 8px; }
+  .card.broken { opacity: .75; border-color: #cf5b41; background: #fdf3f0; }
+  .card .thumbwrap { height: 150px; display: flex; align-items: center; justify-content: center; background: repeating-conic-gradient(#f4efe3 0 25%, #fff 0 50%) 0 0/22px 22px; border-radius: 9px; overflow: hidden; }
+  .card img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .card input[type=text] { width: 100%; padding: 6px 8px; border: 1.5px solid #e3d8bf; border-radius: 7px; font: inherit; font-size: 13px; }
+  .lab { font-size: 11px; font-weight: 800; color: #8a7a5e; text-transform: uppercase; letter-spacing: .4px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px; }
+  .chip { background: #e9f2ef; color: #146B5E; border-radius: 7px; padding: 2px 8px; font-size: 12px; font-weight: 700; }
+  .chip.clip { background: #fbeadf; color: #b05a2c; }
+  .kb { font-size: 12px; color: #7c6a52; }
+  .kb.heavy { color: #b3402a; font-weight: 700; }
+  .problems { background: #fdeee9; border-radius: 8px; padding: 7px 9px; font-size: 12px; color: #a4442f; }
+  .problems.warn { background: #fdf6e5; color: #8a6a1c; }
+  .row { display: flex; gap: 6px; flex-wrap: wrap; }
+  .addcard { border: 2px dashed #cbbfa2; border-radius: 12px; display: flex; align-items: center; justify-content: center; min-height: 220px; font-weight: 800; color: #146B5E; cursor: pointer; background: transparent; font-size: 15px; }
+  .addcard:hover { background: #f7f2e5; }
+  /* modal */
+  .modal-scrim { display: none; position: fixed; inset: 0; background: rgba(20,16,10,.5); z-index: 500; align-items: center; justify-content: center; padding: 20px; }
+  .modal-scrim.active { display: flex; }
+  .modal { background: #fffdf7; border-radius: 14px; padding: 22px; width: 560px; max-width: 96vw; max-height: 92vh; overflow-y: auto; }
+  .modal h3 { color: #146B5E; margin-bottom: 12px; }
+  .frow { margin: 10px 0; }
+  .frow label { display: block; font-size: 12.5px; font-weight: 800; color: #7c6a52; margin-bottom: 4px; }
+  .frow input[type=text], .frow input[type=file] { width: 100%; padding: 8px 10px; border: 1.5px solid #e3d8bf; border-radius: 8px; font: inherit; background: #fff; }
+  .contract { background: #eef5f3; border-left: 4px solid #146B5E; border-radius: 0 9px 9px 0; padding: 10px 12px; font-size: 12.5px; color: #3d5750; margin: 12px 0; line-height: 1.5; }
+  .mode { display: flex; gap: 8px; margin: 8px 0 4px; }
+  .mode button { flex: 1; }
+  .mode button.on { background: #146B5E; color: #fff; }
+  .modal-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 16px; }
+  /* login overlay */
+  .login-overlay { display: none; position: fixed; inset: 0; background: rgba(20,16,10,.7); z-index: 1000; align-items: center; justify-content: center; }
+  .login-overlay.active { display: flex; }
+  .login-box { background: #fff; border-radius: 14px; padding: 30px; width: 380px; max-width: 92vw; }
+  .login-box h2 { color: #146B5E; margin-bottom: 16px; }
+  .login-box input { width: 100%; padding: 10px 12px; margin: 6px 0; border: 1.5px solid #e3d8bf; border-radius: 8px; font: inherit; }
+  .login-error { display: none; color: #b3402a; font-size: 13px; margin-top: 8px; }
+  .login-error.show { display: block; }
+  /* toast */
+  #toast { position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%); background: #146B5E; color: #fff; border-radius: 999px; padding: 11px 22px; font-weight: 700; display: none; z-index: 1200; box-shadow: 0 10px 30px rgba(0,0,0,.3); }
+  #toast.error { background: #b3402a; }
+  .props-note { font-size: 14.5px; line-height: 1.7; color: #4c443a; max-width: 640px; }
+  .props-note a { color: #146B5E; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>🎬 Storybook Library Manager</h1>
+    <div class="sub">Characters, animation spritesheets &amp; scenes for the Story Studio — changes go live immediately</div>
+  </div>
+  <span class="spacer"></span>
+  <span id="statusBadge" class="badge">loading…</span>
+  <button class="btn" onclick="rebuild()">🔄 Rebuild manifest</button>
+</div>
+
+<div class="tabs">
+  <button class="tab on" data-tab="characters" onclick="switchTab('characters')">🧸 Characters</button>
+  <button class="tab" data-tab="backgrounds" onclick="switchTab('backgrounds')">🏞️ Backgrounds</button>
+  <button class="tab" data-tab="props" onclick="switchTab('props')">🧺 Props</button>
+</div>
+
+<div id="pane-characters" class="pane on">
+  <div class="pane-head">
+    <h2>Characters</h2>
+    <span class="hint">Poses live in the base sheet; animation clips are optional. New characters appear in the Studio's picker on its next load.</span>
+  </div>
+  <div id="charGrid" class="grid"></div>
+</div>
+
+<div id="pane-backgrounds" class="pane">
+  <div class="pane-head">
+    <h2>Backgrounds / scenes</h2>
+    <span class="hint">Any size accepted — automatically cover-fitted to 1600×1000 WebP. Keep scenes under 300 KB where possible (school tablets).</span>
+  </div>
+  <div id="bgGrid" class="grid"></div>
+</div>
+
+<div id="pane-props" class="pane">
+  <p class="props-note">
+    🧺 <strong>Props</strong> (the objects teachers place on pages — animals, food, things) come from the
+    <strong>worksheet image library</strong> and are managed in the
+    <a href="/worksheet-generators/content-manager-v2.html" target="_blank">Image Library Content Manager</a>.
+    Anything you add there shows up in the Studio's picture picker. After adding new themes/images, run
+    <code>node scripts/storybook/build-library-manifest.js</code> once (or ask the tech side) to refresh the
+    props index the Studio boots from.
+  </p>
+</div>
+
+<!-- character upload modal -->
+<div id="charModal" class="modal-scrim">
+  <div class="modal">
+    <h3 id="charModalTitle">Add a character</h3>
+    <div class="mode">
+      <button id="modeSheet" class="btn on" onclick="setCharMode('sheet')">TexturePacker sheet (.json + image)</button>
+      <button id="modeSingle" class="btn" onclick="setCharMode('single')">Single picture (one pose)</button>
+    </div>
+    <div class="contract" id="sheetContract">
+      <strong>Sheet contract:</strong> export <em>JSON (Hash)</em> from TexturePacker. Frames become poses named
+      after the frame files — include a frame named <strong>neutral</strong> (→ <code>pose_neutral</code>, required).
+      All frames must share <strong>one canvas size</strong> (recommended 512×640, full body, feet at bottom-center).
+      The sheet is re-baked upright automatically.
+    </div>
+    <div class="contract" id="singleContract" style="display:none;">
+      A single transparent PNG/WebP becomes a <strong>one-pose (neutral)</strong> character — great for simple
+      characters or mascots. You can never add clips to grow it later without re-uploading as a sheet.
+    </div>
+    <div class="frow"><label>Name (English) — becomes the id</label><input type="text" id="charNameEn" placeholder="e.g. Luna the Owl"></div>
+    <div class="frow"><label>Name (German, optional)</label><input type="text" id="charNameDe" placeholder="z.B. Luna die Eule"></div>
+    <div class="frow"><label>Tags (comma-separated, optional)</label><input type="text" id="charTags" placeholder="owl, guide"></div>
+    <div class="frow" id="atlasRow"><label>Atlas .json (TexturePacker JSON-Hash)</label><input type="file" id="charAtlas" accept=".json,application/json"></div>
+    <div class="frow"><label>Sheet image (.webp/.png — max 40 MB)</label><input type="file" id="charImage" accept="image/*"></div>
+    <div class="modal-actions">
+      <button class="btn" onclick="closeModal('charModal')">Cancel</button>
+      <button class="btn primary" id="charUploadBtn" onclick="uploadCharacter()">⬆ Upload</button>
+    </div>
+  </div>
+</div>
+
+<!-- clips upload modal -->
+<div id="clipsModal" class="modal-scrim">
+  <div class="modal">
+    <h3>Add animation clips to <span id="clipsCharName"></span></h3>
+    <div class="contract">
+      TexturePacker pair again. Frames grouped by animation (or by <code>name_0001…</code> numbering) become
+      <code>clip_&lt;name&gt;</code> animations (24-48 frames @12fps recommended, ≤2 clips per character).
+      Multipack clip sheets (<code>.clips-1.*</code>) are a CLI-only workflow (<code>pack-atlas.js</code>).
+    </div>
+    <div class="frow"><label>Clips atlas .json</label><input type="file" id="clipsAtlas" accept=".json,application/json"></div>
+    <div class="frow"><label>Clips sheet image (max 40 MB)</label><input type="file" id="clipsImage" accept="image/*"></div>
+    <div class="modal-actions">
+      <button class="btn" onclick="closeModal('clipsModal')">Cancel</button>
+      <button class="btn primary" id="clipsUploadBtn" onclick="uploadClips()">⬆ Upload clips</button>
+    </div>
+  </div>
+</div>
+
+<!-- background upload modal -->
+<div id="bgModal" class="modal-scrim">
+  <div class="modal">
+    <h3>Add a background / scene</h3>
+    <div class="contract">
+      Any image size — it is <strong>cover-fitted to 1600×1000</strong> (the storybook design space) and saved as
+      WebP. Pre-composed opaque scenes work best; aim for ≤300 KB after conversion (a size badge shows on the card).
+    </div>
+    <div class="frow"><label>Name (English) — becomes the id</label><input type="text" id="bgNameEn" placeholder="e.g. Meadow at Noon"></div>
+    <div class="frow"><label>Name (German, optional)</label><input type="text" id="bgNameDe"></div>
+    <div class="frow"><label>Theme (optional, e.g. outdoors)</label><input type="text" id="bgTheme"></div>
+    <div class="frow"><label>Image (max 20 MB)</label><input type="file" id="bgImage" accept="image/*"></div>
+    <div class="modal-actions">
+      <button class="btn" onclick="closeModal('bgModal')">Cancel</button>
+      <button class="btn primary" id="bgUploadBtn" onclick="uploadBackground()">⬆ Upload</button>
+    </div>
+  </div>
+</div>
+
+<!-- login overlay -->
+<div id="loginOverlay" class="login-overlay">
+  <div class="login-box">
+    <h2>🔐 Admin sign-in</h2>
+    <form onsubmit="handleLogin(event)">
+      <input type="email" id="loginEmail" placeholder="Email" required>
+      <input type="password" id="loginPassword" placeholder="Password" required>
+      <div id="loginError" class="login-error"></div>
+      <button type="submit" id="loginBtn" class="btn primary" style="width:100%;margin-top:10px;">Sign In</button>
+    </form>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script>
+(function () {
+  'use strict';
+  const API_URL = '';
+  let manifest = null;
+  let report = { errors: [], warns: [], perAsset: { characters: {}, backgrounds: {} } };
+  let charMode = 'sheet';
+  let clipsTargetId = null;
+
+  /* ---------- auth (the content-manager-v2 pattern) ---------- */
+  function getAuthToken() { try { return localStorage.getItem('accessToken'); } catch (e) { return null; } }
+  function getDeviceId() {
+    let deviceId = null;
+    try { deviceId = localStorage.getItem('deviceId'); } catch (e) {}
+    if (!deviceId) {
+      const fingerprint = [navigator.userAgent, navigator.language, screen.width + 'x' + screen.height,
+        new Date().getTimezoneOffset(), navigator.hardwareConcurrency || '', navigator.deviceMemory || ''].join('|');
+      deviceId = 'device_' + btoa(fingerprint).replace(/[^a-zA-Z0-9]/g, '').substring(0, 32);
+      try { localStorage.setItem('deviceId', deviceId); } catch (e) {}
+    }
+    return deviceId;
+  }
+  async function authenticatedFetch(url, options = {}) {
+    const token = getAuthToken();
+    if (!token) { showLoginOverlay(); throw new Error('No auth token'); }
+    const response = await fetch(url, {
+      ...options,
+      headers: { ...(options.headers || {}), 'Authorization': 'Bearer ' + token },
+    });
+    if (response.status === 401 || response.status === 403) {
+      showLoginOverlay();
+      throw new Error('Authentication required');
+    }
+    return response;
+  }
+  function showLoginOverlay() {
+    document.getElementById('loginOverlay').classList.add('active');
+    document.getElementById('loginPassword').value = '';
+    document.getElementById('loginEmail').focus();
+  }
+  function hideLoginOverlay() { document.getElementById('loginOverlay').classList.remove('active'); }
+  window.handleLogin = async function (event) {
+    event.preventDefault();
+    const email = document.getElementById('loginEmail').value;
+    const password = document.getElementById('loginPassword').value;
+    const loginBtn = document.getElementById('loginBtn');
+    const loginError = document.getElementById('loginError');
+    loginError.classList.remove('show'); loginError.textContent = '';
+    loginBtn.disabled = true; loginBtn.textContent = 'Signing in…';
+    try {
+      const deviceId = getDeviceId();
+      let response = await fetch(API_URL + '/api/auth/signin', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password, deviceId, rememberMe: false }),
+      });
+      if (response.status === 409) {
+        if (confirm('You are already signed in on another device. Sign out there and sign in here?')) {
+          response = await fetch(API_URL + '/api/auth/force-signin', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, password, deviceId, rememberMe: false }),
+          });
+        } else { loginBtn.disabled = false; loginBtn.textContent = 'Sign In'; return; }
+      }
+      if (response.ok) {
+        const data = await response.json();
+        if (data.accessToken) {
+          localStorage.setItem('accessToken', data.accessToken);
+          hideLoginOverlay();
+          showToast('Signed in');
+          loadLibrary();
+        } else { throw new Error('No access token received'); }
+      } else {
+        const error = await response.json().catch(() => ({}));
+        loginError.textContent = error.error || 'Invalid email or password';
+        loginError.classList.add('show');
+      }
+    } catch (e) {
+      loginError.textContent = 'Login failed. Please try again.';
+      loginError.classList.add('show');
+    } finally {
+      loginBtn.disabled = false; loginBtn.textContent = 'Sign In';
+    }
+  };
+
+  /* ---------- toast ---------- */
+  let toastTimer = null;
+  function showToast(msg, isError) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.className = isError ? 'error' : '';
+    t.style.display = 'block';
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { t.style.display = 'none'; }, 3200);
+  }
+
+  /* ---------- tabs ---------- */
+  window.switchTab = function (name) {
+    document.querySelectorAll('.tab').forEach(t => t.classList.toggle('on', t.dataset.tab === name));
+    document.querySelectorAll('.pane').forEach(p => p.classList.toggle('on', p.id === 'pane-' + name));
+  };
+
+  /* ---------- data ---------- */
+  async function loadLibrary() {
+    try {
+      const r = await authenticatedFetch(API_URL + '/api/admin/storybook-library');
+      const j = await r.json();
+      manifest = j.manifest;
+      report = j.report || report;
+      renderAll();
+    } catch (e) { /* login overlay already up on auth errors */ }
+  }
+  function applyResponse(j) {
+    if (j.report) report = j.report;
+    if (j.manifest !== undefined && j.manifest !== null) manifest = j.manifest;
+  }
+  window.rebuild = async function () {
+    try {
+      const r = await authenticatedFetch(API_URL + '/api/admin/storybook-library/rebuild', { method: 'POST' });
+      const j = await r.json();
+      applyResponse(j);
+      renderAll();
+      showToast(j.report && j.report.errors.length ? 'Rebuilt with problems — see the cards' : 'Manifest rebuilt');
+    } catch (e) {}
+  };
+
+  /* ---------- render ---------- */
+  function statusBadge() {
+    const b = document.getElementById('statusBadge');
+    const ne = report.errors.length, nw = report.warns.length;
+    if (ne) { b.className = 'badge err'; b.textContent = ne + ' error' + (ne > 1 ? 's' : ''); }
+    else if (nw) { b.className = 'badge warn'; b.textContent = nw + ' warning' + (nw > 1 ? 's' : ''); }
+    else { b.className = 'badge'; b.textContent = '✓ all assets valid'; }
+  }
+  function problemsBlock(kind, id) {
+    const pa = (report.perAsset[kind] || {})[id];
+    if (!pa) return null;
+    const div = document.createElement('div');
+    if (pa.errors.length) {
+      div.className = 'problems';
+      div.textContent = pa.errors.join(' • ');
+    } else if (pa.warns.length) {
+      div.className = 'problems warn';
+      div.textContent = pa.warns.join(' • ');
+    } else return null;
+    return div;
+  }
+  function esc(s) { const d = document.createElement('div'); d.textContent = String(s == null ? '' : s); return d.innerHTML; }
+  function bust(u) { return u + '?r=' + Date.now(); }
+
+  function renderCharacters() {
+    const grid = document.getElementById('charGrid');
+    grid.innerHTML = '';
+    const chars = (manifest && manifest.characters) || [];
+    const brokenIds = Object.keys(report.perAsset.characters || {})
+      .filter(id => (report.perAsset.characters[id].errors || []).length && !chars.some(c => c.id === id));
+    for (const c of chars) grid.appendChild(charCard(c, false));
+    for (const id of brokenIds) grid.appendChild(charCard({ id, name: { en: id }, poses: [], clips: [], card: null }, true));
+    const add = document.createElement('button');
+    add.className = 'addcard';
+    add.textContent = '＋ Add a character';
+    add.onclick = () => { openModal('charModal'); };
+    grid.appendChild(add);
+  }
+  function charCard(c, broken) {
+    const card = document.createElement('div');
+    card.className = 'card' + (broken ? ' broken' : '');
+    const tw = document.createElement('div');
+    tw.className = 'thumbwrap';
+    if (c.card) { const im = document.createElement('img'); im.src = bust(c.card); tw.appendChild(im); }
+    else tw.textContent = broken ? '⚠' : '🧸';
+    card.appendChild(tw);
+    card.insertAdjacentHTML('beforeend',
+      '<div class="lab">Name EN / DE — id: ' + esc(c.id) + '</div>' +
+      '<input type="text" data-f="en" value="' + esc(c.name && c.name.en || '') + '">' +
+      '<input type="text" data-f="de" placeholder="(German)" value="' + esc(c.name && c.name.de || '') + '">' +
+      '<div class="lab">Tags</div>' +
+      '<input type="text" data-f="tags" value="' + esc((c.tags || []).join(', ')) + '">');
+    const chips = document.createElement('div');
+    chips.className = 'chips';
+    (c.poses || []).forEach(p => { const s = document.createElement('span'); s.className = 'chip'; s.textContent = p; chips.appendChild(s); });
+    (c.clips || []).forEach(p => { const s = document.createElement('span'); s.className = 'chip clip'; s.textContent = '🎬 ' + p; chips.appendChild(s); });
+    card.appendChild(chips);
+    const probs = problemsBlock('characters', c.id);
+    if (probs) card.appendChild(probs);
+    const row = document.createElement('div');
+    row.className = 'row';
+    if (!broken) {
+      const save = document.createElement('button');
+      save.className = 'btn small'; save.textContent = '💾 Save';
+      save.onclick = () => saveCharMeta(c.id, card, save);
+      row.appendChild(save);
+      const clips = document.createElement('button');
+      clips.className = 'btn small'; clips.textContent = '🎬 Upload clips';
+      clips.onclick = () => { clipsTargetId = c.id; document.getElementById('clipsCharName').textContent = c.name && c.name.en || c.id; openModal('clipsModal'); };
+      row.appendChild(clips);
+    }
+    const del = document.createElement('button');
+    del.className = 'btn small danger'; del.textContent = '🗑 Delete';
+    del.onclick = () => deleteAsset('characters', c.id, c.name && c.name.en || c.id);
+    row.appendChild(del);
+    card.appendChild(row);
+    return card;
+  }
+
+  function renderBackgrounds() {
+    const grid = document.getElementById('bgGrid');
+    grid.innerHTML = '';
+    const bgs = (manifest && manifest.backgrounds) || [];
+    const brokenIds = Object.keys(report.perAsset.backgrounds || {})
+      .filter(id => (report.perAsset.backgrounds[id].errors || []).length && !bgs.some(b => b.id === id));
+    for (const b of bgs) grid.appendChild(bgCard(b, false));
+    for (const id of brokenIds) grid.appendChild(bgCard({ id, name: { en: id }, theme: null, thumb: null }, true));
+    const add = document.createElement('button');
+    add.className = 'addcard';
+    add.textContent = '＋ Add a background';
+    add.onclick = () => openModal('bgModal');
+    grid.appendChild(add);
+  }
+  function bgCard(b, broken) {
+    const card = document.createElement('div');
+    card.className = 'card' + (broken ? ' broken' : '');
+    const tw = document.createElement('div');
+    tw.className = 'thumbwrap';
+    if (b.thumb) { const im = document.createElement('img'); im.src = bust(b.thumb); tw.appendChild(im); }
+    else tw.textContent = broken ? '⚠' : '🏞️';
+    card.appendChild(tw);
+    card.insertAdjacentHTML('beforeend',
+      '<div class="lab">Name EN / DE — id: ' + esc(b.id) + '</div>' +
+      '<input type="text" data-f="en" value="' + esc(b.name && b.name.en || '') + '">' +
+      '<input type="text" data-f="de" placeholder="(German)" value="' + esc(b.name && b.name.de || '') + '">' +
+      '<div class="lab">Theme</div>' +
+      '<input type="text" data-f="theme" value="' + esc(b.theme || '') + '">');
+    const probs = problemsBlock('backgrounds', b.id);
+    if (probs) card.appendChild(probs);
+    const row = document.createElement('div');
+    row.className = 'row';
+    if (!broken) {
+      const save = document.createElement('button');
+      save.className = 'btn small'; save.textContent = '💾 Save';
+      save.onclick = () => saveBgMeta(b.id, card, save);
+      row.appendChild(save);
+    }
+    const del = document.createElement('button');
+    del.className = 'btn small danger'; del.textContent = '🗑 Delete';
+    del.onclick = () => deleteAsset('backgrounds', b.id, b.name && b.name.en || b.id);
+    row.appendChild(del);
+    card.appendChild(row);
+    return card;
+  }
+
+  function renderAll() { statusBadge(); renderCharacters(); renderBackgrounds(); }
+
+  /* ---------- mutations ---------- */
+  function val(card, f) { const i = card.querySelector('input[data-f="' + f + '"]'); return i ? i.value : ''; }
+  async function saveCharMeta(id, card, btn) {
+    btn.disabled = true;
+    try {
+      const r = await authenticatedFetch(API_URL + '/api/admin/storybook-library/characters/' + encodeURIComponent(id), {
+        method: 'PATCH', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: { en: val(card, 'en'), de: val(card, 'de') },
+          tags: val(card, 'tags').split(',').map(t => t.trim()).filter(Boolean),
+        }),
+      });
+      const j = await r.json();
+      if (!r.ok) throw new Error(j.error || 'save failed');
+      applyResponse(j); renderAll(); showToast('Saved');
+    } catch (e) { showToast(e.message, true); }
+    btn.disabled = false;
+  }
+  async function saveBgMeta(id, card, btn) {
+    btn.disabled = true;
+    try {
+      const r = await authenticatedFetch(API_URL + '/api/admin/storybook-library/backgrounds/' + encodeURIComponent(id), {
+        method: 'PATCH', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: { en: val(card, 'en'), de: val(card, 'de') }, theme: val(card, 'theme') || null }),
+      });
+      const j = await r.json();
+      if (!r.ok) throw new Error(j.error || 'save failed');
+      applyResponse(j); renderAll(); showToast('Saved');
+    } catch (e) { showToast(e.message, true); }
+    btn.disabled = false;
+  }
+  async function deleteAsset(kind, id, label) {
+    if (!confirm('Delete "' + label + '" from the library?\n\nStories already using it keep their own copies only if they embedded it; the picker entry disappears for everyone. This cannot be undone.')) return;
+    try {
+      const r = await authenticatedFetch(API_URL + '/api/admin/storybook-library/' + kind + '/' + encodeURIComponent(id), { method: 'DELETE' });
+      const j = await r.json();
+      if (!r.ok) throw new Error(j.error || 'delete failed');
+      applyResponse(j); await loadLibrary(); showToast('Deleted');
+    } catch (e) { showToast(e.message, true); }
+  }
+
+  /* ---------- modals + uploads ---------- */
+  window.openModal = function (id) { document.getElementById(id).classList.add('active'); };
+  window.closeModal = function (id) { document.getElementById(id).classList.remove('active'); };
+  window.setCharMode = function (m) {
+    charMode = m;
+    document.getElementById('modeSheet').classList.toggle('on', m === 'sheet');
+    document.getElementById('modeSingle').classList.toggle('on', m === 'single');
+    document.getElementById('atlasRow').style.display = m === 'sheet' ? '' : 'none';
+    document.getElementById('sheetContract').style.display = m === 'sheet' ? '' : 'none';
+    document.getElementById('singleContract').style.display = m === 'sheet' ? 'none' : '';
+  };
+  window.uploadCharacter = async function () {
+    const btn = document.getElementById('charUploadBtn');
+    const nameEn = document.getElementById('charNameEn').value.trim();
+    const img = document.getElementById('charImage').files[0];
+    const atl = charMode === 'sheet' ? document.getElementById('charAtlas').files[0] : null;
+    if (!nameEn) return showToast('Give the character a name', true);
+    if (!img) return showToast('Pick the image file', true);
+    if (charMode === 'sheet' && !atl) return showToast('Pick the atlas .json too (or switch to Single picture)', true);
+    btn.disabled = true; btn.textContent = 'Uploading…';
+    try {
+      const form = new FormData();
+      form.append('name_en', nameEn);
+      form.append('name_de', document.getElementById('charNameDe').value.trim());
+      form.append('tags', document.getElementById('charTags').value);
+      form.append('image', img);
+      if (atl) form.append('atlas', atl);
+      const r = await authenticatedFetch(API_URL + '/api/admin/storybook-library/characters', { method: 'POST', body: form });
+      const j = await r.json();
+      if (!r.ok) throw new Error(j.error || 'upload failed');
+      applyResponse(j); await loadLibrary();
+      closeModal('charModal');
+      showToast('Added "' + nameEn + '" (' + (j.poses || []).length + ' pose(s))');
+    } catch (e) { showToast(e.message, true); }
+    btn.disabled = false; btn.textContent = '⬆ Upload';
+  };
+  window.uploadClips = async function () {
+    const btn = document.getElementById('clipsUploadBtn');
+    const img = document.getElementById('clipsImage').files[0];
+    const atl = document.getElementById('clipsAtlas').files[0];
+    if (!img || !atl) return showToast('Pick BOTH the .json and the sheet image', true);
+    btn.disabled = true; btn.textContent = 'Uploading…';
+    try {
+      const form = new FormData();
+      form.append('image', img);
+      form.append('atlas', atl);
+      const r = await authenticatedFetch(API_URL + '/api/admin/storybook-library/characters/' + encodeURIComponent(clipsTargetId) + '/clips', { method: 'POST', body: form });
+      const j = await r.json();
+      if (!r.ok) throw new Error(j.error || 'upload failed');
+      applyResponse(j); await loadLibrary();
+      closeModal('clipsModal');
+      showToast('Clips added: ' + (j.clips || []).join(', '));
+    } catch (e) { showToast(e.message, true); }
+    btn.disabled = false; btn.textContent = '⬆ Upload clips';
+  };
+  window.uploadBackground = async function () {
+    const btn = document.getElementById('bgUploadBtn');
+    const nameEn = document.getElementById('bgNameEn').value.trim();
+    const img = document.getElementById('bgImage').files[0];
+    if (!nameEn) return showToast('Give the background a name', true);
+    if (!img) return showToast('Pick the image file', true);
+    btn.disabled = true; btn.textContent = 'Uploading…';
+    try {
+      const form = new FormData();
+      form.append('name_en', nameEn);
+      form.append('name_de', document.getElementById('bgNameDe').value.trim());
+      form.append('theme', document.getElementById('bgTheme').value.trim());
+      form.append('image', img);
+      const r = await authenticatedFetch(API_URL + '/api/admin/storybook-library/backgrounds', { method: 'POST', body: form });
+      const j = await r.json();
+      if (!r.ok) throw new Error(j.error || 'upload failed');
+      applyResponse(j); await loadLibrary();
+      closeModal('bgModal');
+      showToast('Added "' + nameEn + '"');
+    } catch (e) { showToast(e.message, true); }
+    btn.disabled = false; btn.textContent = '⬆ Upload';
+  };
+
+  /* ---------- boot ---------- */
+  if (!getAuthToken()) showLoginOverlay();
+  loadLibrary();
+}());
+</script>
+</body>
+</html>

@@ -2208,10 +2208,15 @@
     if (opts._exerciseBBox) rects.push(opts._exerciseBBox);
     return _sepUnionRects(rects);
   }
+  /* An element belongs to the crop when its CENTER is inside (± tol). The old
+     any-overlap test shipped half-visible interactive elements whenever a
+     deliberate crop-UI box clipped a neighboring exercise's edge. Center-based
+     is a no-op for the auto union-bbox crop (every element fully inside). */
   function _sepInCrop(rect, crop, tol) {
     tol = tol || 4;
-    return rect.x + rect.w > crop.x - tol && rect.x < crop.x + crop.w + tol &&
-           rect.y + rect.h > crop.y - tol && rect.y < crop.y + crop.h + tol;
+    var cx = rect.x + rect.w / 2, cy = rect.y + rect.h / 2;
+    return cx > crop.x - tol && cx < crop.x + crop.w + tol &&
+           cy > crop.y - tol && cy < crop.y + crop.h + tol;
   }
   function _sepRebase(rect, crop) {
     return { x: Math.round(rect.x - crop.x), y: Math.round(rect.y - crop.y),
@@ -2732,24 +2737,32 @@
   /* Forgiving crop: pull the answer boxes into the operator's crop. Answers sit
      in the SAME horizontal band (rows) as what they crop (question on the left,
      answer blank/box on the right), so expand the crop to union every answer box
-     whose Y-range overlaps the crop's Y-range. Stacked problems live in OTHER
-     rows, so this pulls in only the cropped exercise's answer — not the page. */
+     whose vertical CENTER lies inside the crop. Center-based, no pad: a padded
+     any-overlap test swallowed the NEXT stacked exercise whenever its answer box
+     came within 24px of the crop edge — overriding a deliberate crop-UI crop
+     (operator-reported 2026-07-06). A cropped row's answer has its center in
+     that row; the neighbor row's center is outside — never pulled in. */
   function _sepExpandCropToAnswers(crop, ansRects, pageW, pageH) {
     if (!ansRects || !ansRects.length) return crop;
-    var cy1 = crop.y - 24, cy2 = crop.y + crop.h + 24;
-    var x1 = crop.x, y1 = crop.y, x2 = crop.x + crop.w, y2 = crop.y + crop.h, grew = false;
+    var x1 = crop.x, y1 = crop.y, x2 = crop.x + crop.w, y2 = crop.y + crop.h;
+    var gx1 = false, gy1 = false, gx2 = false, gy2 = false;
     ansRects.forEach(function (r) {
-      if (r.y + r.h > cy1 && r.y < cy2) {           /* shares the crop's horizontal band */
-        if (r.x < x1) { x1 = r.x; grew = true; }
-        if (r.y < y1) { y1 = r.y; grew = true; }
-        if (r.x + r.w > x2) { x2 = r.x + r.w; grew = true; }
-        if (r.y + r.h > y2) { y2 = r.y + r.h; grew = true; }
+      var rc = r.y + r.h / 2;
+      if (rc >= crop.y && rc <= crop.y + crop.h) {  /* its ROW is inside the crop */
+        if (r.x < x1) { x1 = r.x; gx1 = true; }
+        if (r.y < y1) { y1 = r.y; gy1 = true; }
+        if (r.x + r.w > x2) { x2 = r.x + r.w; gx2 = true; }
+        if (r.y + r.h > y2) { y2 = r.y + r.h; gy2 = true; }
       }
     });
-    if (!grew) return crop;
+    if (!gx1 && !gy1 && !gx2 && !gy2) return crop;
+    /* breathing-room pad ONLY on the edges that actually grew — edges the
+       operator set stay exactly where they put them (crop fidelity) */
     var pad = 14;
-    x1 = Math.max(0, x1 - pad); y1 = Math.max(0, y1 - pad);
-    x2 = Math.min(pageW, x2 + pad); y2 = Math.min(pageH, y2 + pad);
+    if (gx1) x1 = Math.max(0, x1 - pad);
+    if (gy1) y1 = Math.max(0, y1 - pad);
+    if (gx2) x2 = Math.min(pageW, x2 + pad);
+    if (gy2) y2 = Math.min(pageH, y2 + pad);
     return { x: Math.round(x1), y: Math.round(y1), w: Math.round(x2 - x1), h: Math.round(y2 - y1) };
   }
   function _sepAnyRectOverlaps(rects, crop) {
@@ -3033,6 +3046,8 @@
     _sepMapForTest: function (family, bundle, crop) {
       return SEP_FAMILY_MAPPERS[family](bundle, crop, {});
     },
-    _sepDefaultCropForTest: _sepDefaultCrop
+    _sepDefaultCropForTest: _sepDefaultCrop,
+    _sepExpandCropToAnswersForTest: _sepExpandCropToAnswers,
+    _sepInCropForTest: _sepInCrop
   };
 }(typeof window !== 'undefined' ? window : this));

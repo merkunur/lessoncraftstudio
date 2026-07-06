@@ -735,7 +735,7 @@
     var c = desc && desc.crop;
     if (!c || !c.w || !c.h) return { x: 100, y: 110, w: 1400, h: 840 };
     var mod = global.SBModules.get('sb-worksheet-exercise');
-    var mz = (mod && mod.meta && mod.meta.minZone) || { w: 640, h: 520 };
+    var mz = (mod && mod.meta && mod.meta.minZone) || { w: 416, h: 320 };
     /* aspect-fit into the large box; never upscale a small exercise > 1.6× */
     var s = Math.min(1400 / c.w, 840 / c.h, 1.6);
     var w = Math.max(mz.w, Math.min(1400, Math.round(c.w * s)));

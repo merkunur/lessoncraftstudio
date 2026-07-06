@@ -52,3 +52,73 @@ Priority: **P0** = highest demand + we have content + no strong owner (build/str
 ## Open decisions for the operator
 - **Second slice locale: `sv` vs `nl`** (both low-competition moat; `nl` has the groep-system + more existing landing content, `sv` is the lead Nordic already proven in §22.5). Recommendation: **nl** (larger addressable market, more existing content to strengthen).
 - **Subject×grade hubs = a new page type.** Confirm appetite to build one new route (`/de/topic/<subject>/<grade>` or a dedicated `/de/arbeitsblaetter/<subject>/<klasse>`), since it's the highest-leverage German lever but the only non-trivial build in Phase 1b.
+
+---
+
+## Topic-page + intersection demand (2026-07-06 harvest)
+
+**Method:** ~700-seed google.de autocomplete harvest (`docs/SEO/harvests/de.json`, hl=de&gl=de, 414 seed families / 2,367 unique suggestions) crossed against the live de deck inventory (`deck-inventory-type-level.json`, `deck-inventory-themes.json`) and a 16-query SERP sample. **Target surface = single-axis topic pages `/de/topic/<slug>` + type×grade intersections** — NOT the subject×grade hubs (live, own "Arbeitsblätter Mathe Klasse 1") and NOT deck landings (own type+theme long-tail). Machine-readable output: **`docs/SEO/demand-terms-de.json`** (97 singleAxis + 26 intersections; all titles unique, ≤51c; metas 120-170c).
+
+### Core findings
+
+1. **The German type-noun is the ranking decision.** Autocomplete shows which synonym Germans actually type — several taxonomy names are NOT the demand word:
+   - wordsearch: demand = **Suchsel** (also Wortgitter); "wortsuche" harvest is app/Scrabble intent. SERP owners: suchsel.net, grundschule-arbeitsblaetter.de/themen/suchsel, materialguru.
+   - patterns family: demand = **"muster fortsetzen"** (huge family: vorschule/kindergarten/klasse 1/klasse 2 × pdf/kostenlos/arbeitsblatt); "musterzug" = wooden toy/pharma noise, "musterarbeitsblatt" = nothing.
+   - sudoku: demand = **"bilder sudoku für kinder zum ausdrucken"** (verbatim suggestion; even "bilder sudoku weihnachten").
+   - odd-one-out: demand = **"was passt nicht in die reihe"** (+ vorschule/kindergarten variants) — bare "was passt nicht" is gardening/astrology noise.
+   - find-objects: **Wimmelbild/Suchbild** — but the "wimmelbild zum ausdrucken" SERP is coloring-page dominated (Berner Wimmelbücher); Suchbild is the cleaner angle. "objekte finden" = hidden-object-game apps.
+   - fruits theme: demand word is **Obst**, not Früchte ("obst und gemüse arbeitsblätter" family).
+   - **Polluted / no-demand type-nouns (don't chase the head):** bildpfad (Excel), code-addition (customs codes), tabelle zählen (Excel), zählen mit bildern (calories), groß oder klein (= Groß-/Kleinschreibung!), messen (trade fairs; only "messen klasse X" is clean), "brüche 1./2. klasse" (Austrian Gymnasium/NMS Klassen!), suchen und zählen (Excel), bingo (lottery), schatzsuche (birthday parties), bare kreuzworträtsel/logikrätsel (adult puzzles).
+
+2. **The type×Klasse intersection class is real and rich.** The typeGrade seeds produced full qualifier families (pdf, kostenlos, zum ausdrucken, arbeitsblätter) for: mathe-rätsel / buchstabensalat / wortsuche / kreuzworträtsel / uhrzeit lernen / muster fortsetzen / geometrie / messen / hundertertafel / daten und diagramme / anlaute / zahlenstrahl / strichlisten / zehnerfeld / zahlen vergleichen / lagebeziehungen / visuelle wahrnehmung × Klasse 1/2, plus vorschule/kindergarten variants for the perception+quantity cluster. 26 flips clear the ≥12-deck + verbatim-evidence bar (JSON `intersections`).
+
+3. **Three structural level mismatches (operator forks, not title problems):**
+   - **Arithmetic decks sit on 5-7 (Kindergarten) while German demand says "klasse 1/2"** ("addition klasse 1", "subtraktion klasse 1", "übungsblätter 1 klasse … mathe bis 20" — the single richest family in the harvest). In the German system symbolic +/− within 10/20 IS Klasse-1 content (cf. the sv "within-10 symbolic = åk-1 CARRIES" ruling, §22.5). A level re-tag or a Klasse-1 deck wave would unlock addition__grade-1 / subtraction__grade-1 — the two biggest blocked intersections.
+   - "kreuzworträtsel klasse 1" demand exists; decks only at grade-2. "buchstabenzug klasse 1" demand vs decks at Vorschule.
+   - "mathe rätsel klasse 2 / kindergarten" demand exists; math-puzzle decks only grade-1.
+
+4. **Deck-production gaps with proven demand (build decks, THEN pages):** zahlenstrahl (9 decks vs one of the strongest Mathe families: bis 20 / bis 100 / klasse 1 / klasse 2), anlaute (10 decks vs a full family across all levels — the biggest literacy gap; grundschulkönig owns the head but the Vorschule/Kita angle is open), strichlisten (4), zehnerfeld (9; clean teacher intent "zehnerfeld klasse 1"), zahlen vergleichen (6; "krokodil" family), lagebeziehungen (8; thin SERP), bilder zuordnen (5), logikrätsel kinder (14), hundertertafel at Klasse 2 (6 decks at the level the demand wants). Schwungübungen remains the known content gap (tracing apps PDF-only — unchanged prior finding).
+
+5. **DaZ is a recurring long-tail thread** across themes (kleidung daz, körperteile daz, möbel daz, berufe daz, präpositionen daz kindergarten, deutsch als zweitsprache kindergarten) — maps directly to the 11-language moat; picture-vocabulary ("wortschatz mit bildern pdf", verbatim) is the natural anchor page.
+
+### SERP sample verdicts (16 queries, 2026-07-06)
+
+| Query | Who owns | Verdict |
+|---|---|---|
+| präpositionen kindergarten arbeitsblatt pdf | wgr.de PDF, wunderkiddy, **LCS already ~#6** | **WINNING** — extend, don't rebuild |
+| schatten zuordnen arbeitsblatt kindergarten | wunderkiddy, edukativespiele, kiwole, Pinterest | **WINNABLE** (no big owner; we have 143 decks) |
+| bilder sudoku für kinder zum ausdrucken | kleineschule, sudokuzok, raetseldino | **WINNABLE** (long-tail specialists; exact content match) |
+| was passt nicht in die reihe arbeitsblatt kindergarten | maxklug, gutemama, coloring sites | **WINNABLE** |
+| visuelle wahrnehmung arbeitsblätter kostenlos vorschule | kleineschule, abcund123, wunderkiddy, gutemama | **WINNABLE** (fragmented; grundschulkönig absent) |
+| muster fortsetzen klasse 1 arbeitsblätter kostenlos | grundschulkönig (only "Muster erkennen"), eduki (paid), single PDFs | **WINNABLE** |
+| buchstabensalat für kinder zum ausdrucken grundschule | materialguru, grundschule-arbeitsblaetter, raetseldino; grundschulkönig only Kl. 3 | **WINNABLE** (Klasse-1 gap) |
+| daten und diagramme klasse 1 arbeitsblätter | pikas, eduki/lernbiene/meinunterricht (paid) | **WINNABLE** (free angle open) |
+| kreuzworträtsel für kinder zum ausdrucken 1. klasse | raetseldino ×2, kleineschule, buchstaben.com | HARD head; mid via Bilderkreuzworträtsel + Kl.-2 intersection |
+| suchsel kostenlos ausdrucken grundschule | suchsel.net, grundschule-arbeitsblaetter, materialguru | HARD head; Klasse/theme long-tail winnable |
+| mehr oder weniger arbeitsblatt vorschule | grundschulkönig #1, grundschule-arbeitsblaetter #2 | HARD head; online-playable angle |
+| uhrzeit lernen arbeitsblätter kostenlos klasse 2 | materialguru, schulkreis, mathestunde, grundschulkönig | HARD head; intersections carry the long-tail |
+| hundertertafel übungen klasse 2 zum ausdrucken | mathestunde, schulkreis, grundschulkönig, materialguru | HARD + deck gap at Kl. 2 |
+| einmaleins übungsblätter 2. klasse | einmaleins.de (exact domain), grundschulkönig, lernwolf | HARD head; Punktefeld/arrays niche only |
+| anlaute arbeitsblätter kostenlos 1. klasse pdf | grundschulkönig, fraumohrsrasselbande, grundschulatelier | HARD + deck gap (10 decks) |
+| arbeitsblätter vorschule kostenlos pdf | vorschulkids.de (exact domain), kleineschule, grundschulheld | HARD head — strengthen the level hub only |
+| wimmelbild zum ausdrucken kostenlos kindergarten | coloring-page intent (Berner, leseliebe, wimmelkind) | MIXED — use Suchbild angle, not Wimmelbild head |
+| rechnen mit bildern 1. klasse arbeitsblätter | lernwolf, kleineschule, lerntrick | WINNABLE mid (exact match) |
+| geometrie klasse 2 arbeitsblätter kostenlos | klassenarbeiten.de, schulkreis, matheuebungen | MID (intersection access) |
+| arbeitsblätter tiere kindergarten kostenlos | Sachkunde/bio intent (grundschule-arbeitsblaetter, wildbruecke) | MID — exercise intent unoccupied |
+
+### Locked patterns (de topic pages)
+
+- **Type pages:** `<Demand-Begriff> – Arbeitsblätter kostenlos (PDF)` — demand noun FIRST, exactly as harvested (Suchsel, Anlaute, Muster fortsetzen, Hundertertafel, Bilder-Sudoku, Was passt nicht in die Reihe …).
+- **Theme pages:** `Arbeitsblätter <Thema> – kostenlos zum Ausdrucken` (em-dash before qualifiers — no dative traps, rekey precedent).
+- **Level pages:** `Arbeitsblätter <Stufe> – kostenlos zum Ausdrucken`.
+- **Intersections:** `<Demand-Begriff> <N. Klasse | im Kindergarten | Vorschule> – Arbeitsblätter` (harvest shows both "1. Klasse" and "Klasse 1"; titles use "1. Klasse").
+- **Qualifiers (honest only):** kostenlos ✓, zum Ausdrucken ✓, PDF ✓, mit Lösung(en) ✓ (answer keys ship), online / online spielbar ✓ (decks play in browser). Never Schreiblehrgang/Schwungübungen claims (we have none).
+- **Never chase:** Groß-/Kleinschreibung, Excel intents (tabelle zählen, suchen und zählen), Kindergeburtstag-Schatzsuche head, adult Kreuzworträtsel/Logikrätsel heads, Austrian "brüche 1./2. klasse" (= Sekundarstufe).
+
+### Intersection flip candidates (26 shipped in JSON; ≥12 de decks + grounded query)
+
+Top by demand × decks: kindergarten__pattern-train (245, "muster fortsetzen kindergarten") · addition__kindergarten (192, "addition kindergarten") · more-less__preschool (146, "mehr oder weniger vorschule") · grade-1__math-puzzle (146, "mathe-rätsel klasse 1") · kindergarten__shadow-match (143, serp) · kindergarten__picture-sort (100, "sortieren und ordnen im kindergarten") · grade-1__word-scramble (97, "buchstabensalat klasse 1") · kindergarten__prepositions (97, "präpositionen kindergarten arbeitsblatt pdf") · grade-1__treasure-hunt (97, "schatzsuche 1 klasse kostenlos") · kindergarten__missing-pieces (96) · kindergarten__matching (93) · kindergarten__odd-one-out (92, "was passt nicht in die reihe kindergarten") · bingo__kindergarten (74) · grade-1__wordsearch (49, "wortsuche 1 klasse") · crossword__grade-2 (47, "kreuzworträtsel 2. klasse zum ausdrucken") · grade-1__pattern-worksheet (47, "muster fortsetzen klasse 1") · grade-1__telling-time (21) · grade-2__telling-time (20) · geometry__grade-2 (17) · comparing-sizes__kindergarten (15) · kindergarten__visual-discrimination (15) · arrays-multiplication__grade-2 (14) · grade-1__picture-arithmetic (14; cannibalization caution vs its own type page) · grade-1__number-charts (13) · grade-1__measurement (12) · grade-1__graphing-data (12).
+
+**Blocked-by-inventory candidates (evidence exists, decks don't — the ~14 that would round out a top-40):** addition__grade-1 + subtraction__grade-1/2 (level re-tag fork above) · crossword__grade-1 · telling-time__grade-3 (40 decks but no harvested seed — SERP-check before flipping) · math-puzzle__grade-2 · number-lines__grade-1 ("zahlenstrahl klasse 1") · beginning-sounds__preschool/kindergarten/grade-1 (full "anlaute" family) · tally-counting__grade-1 ("strichlisten klasse 1") · counting-frames__grade-1 ("zehnerfeld klasse 1") · comparing-numbers__grade-1 ("zahlen vergleichen klasse 1") · position-words__grade-1 ("lagebeziehungen klasse 1") · visual-logic__grade-1/2 ("logikrätsel klasse 1/2") · measurement__grade-2 ("messen klasse 2"; 11 decks — one short of threshold).
+
+**Ownership guards:** science-sort / math-worksheet queries ("sachunterricht klasse 1 arbeitsblätter", "mathe arbeitsblatt klasse 1") belong to the live subject×grade hubs — their topic pages stay mechanic-framed (DEFER-TO-HUB in JSON). birds_2 is a duplicate-content risk vs birds (consolidation candidate). sorting-categories (4 decks) folds into the picture-sort cluster; its "sortieren und ordnen im kindergarten" query rides the kindergarten__picture-sort intersection.

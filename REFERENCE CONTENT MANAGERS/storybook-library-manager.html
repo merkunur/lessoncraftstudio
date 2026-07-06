@@ -129,7 +129,8 @@
     </div>
     <div class="contract" id="sheetContract">
       <strong>Sheet contract:</strong> export <em>JSON (Hash)</em> from TexturePacker. Frames become poses named
-      after the frame files — include a frame named <strong>neutral</strong> (→ <code>pose_neutral</code>, required).
+      after the frame files. If no frame is named <strong>neutral</strong>, pick the <strong>resting pose</strong>
+      below — it's used for the picker thumbnail and as the default pose.
       All frames must share <strong>one canvas size</strong> (recommended 512×640, full body, feet at bottom-center).
       The sheet is re-baked upright automatically.
     </div>
@@ -141,6 +142,7 @@
     <div class="frow"><label>Name (German, optional)</label><input type="text" id="charNameDe" placeholder="z.B. Luna die Eule"></div>
     <div class="frow"><label>Tags (comma-separated, optional)</label><input type="text" id="charTags" placeholder="owl, guide"></div>
     <div class="frow" id="atlasRow"><label>Atlas .json (TexturePacker JSON-Hash)</label><input type="file" id="charAtlas" accept=".json,application/json"></div>
+    <div class="frow" id="neutralRow" style="display:none;"><label>Resting pose (the picker thumbnail)</label><select id="charNeutral"></select></div>
     <div class="frow"><label>Sheet image (.webp/.png — max 40 MB)</label><input type="file" id="charImage" accept="image/*"></div>
     <div class="modal-actions">
       <button class="btn" onclick="closeModal('charModal')">Cancel</button>
@@ -504,7 +506,34 @@
     document.getElementById('atlasRow').style.display = m === 'sheet' ? '' : 'none';
     document.getElementById('sheetContract').style.display = m === 'sheet' ? '' : 'none';
     document.getElementById('singleContract').style.display = m === 'sheet' ? 'none' : '';
+    const nr = document.getElementById('neutralRow');
+    nr.style.display = m === 'sheet' && document.getElementById('charNeutral').options.length ? '' : 'none';
   };
+
+  /* On atlas pick: list its frames so the operator can choose the resting
+     pose (frames named "neutral" satisfy the contract on their own). */
+  document.getElementById('charAtlas').addEventListener('change', function () {
+    const sel = document.getElementById('charNeutral');
+    const row = document.getElementById('neutralRow');
+    sel.innerHTML = ''; row.style.display = 'none';
+    const f = this.files[0];
+    if (!f) return;
+    const rd = new FileReader();
+    rd.onload = function () {
+      let names = [];
+      try { names = Object.keys((JSON.parse(rd.result).frames) || {}); } catch (e) { /* server validates */ }
+      if (!names.length) return;
+      for (const n of names) {
+        const o = document.createElement('option');
+        o.value = n; o.textContent = n;
+        sel.appendChild(o);
+      }
+      const pre = names.find(function (n) { return /neutral/i.test(n); }) || names[0];
+      sel.value = pre;
+      if (charMode === 'sheet') row.style.display = '';
+    };
+    rd.readAsText(f);
+  });
   window.uploadCharacter = async function () {
     const btn = document.getElementById('charUploadBtn');
     const nameEn = document.getElementById('charNameEn').value.trim();
@@ -521,6 +550,9 @@
       form.append('tags', document.getElementById('charTags').value);
       form.append('image', img);
       if (atl) form.append('atlas', atl);
+      if (atl && document.getElementById('charNeutral').value) {
+        form.append('neutral_pose', document.getElementById('charNeutral').value);
+      }
       const r = await authenticatedFetch(API_URL + '/api/admin/storybook-library/characters', { method: 'POST', body: form });
       const j = await r.json();
       if (!r.ok) throw new Error(j.error || 'upload failed');

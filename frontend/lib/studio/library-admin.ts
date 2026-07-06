@@ -19,6 +19,7 @@ import {
   bakeCharacterSheet,
   bakeCharacterClips,
   bakeSingleImageCharacter,
+  frameSlug,
   sniffImageExt,
   StudioMediaError,
 } from './media';
@@ -121,6 +122,7 @@ export async function addLibraryCharacter(input: {
   tags: string[];
   atlas?: any; // TexturePacker JSON-Hash → full sheet re-bake; absent → one-pose synth
   imageBuf: Buffer;
+  neutralPose?: string; // sheet mode: which frame (name or slug) is the resting pose when none is named "neutral"
 }): Promise<{ id: string; poses: string[] }> {
   const base = slugifyName(input.nameEn);
   if (!base) throw new LibraryAdminError('Give the character a name (letters/numbers)');
@@ -129,6 +131,17 @@ export async function addLibraryCharacter(input: {
   const baked = input.atlas
     ? await bakeCharacterSheet(input.atlas, input.imageBuf)
     : { ...(await bakeSingleImageCharacter(input.imageBuf)), poses: ['neutral'] as string[] };
+
+  // The library contract requires pose_neutral (card.webp + picker default),
+  // but real TexturePacker exports name frames after the art files. ALIAS the
+  // chosen resting pose (default: first frame) as a second atlas key pointing
+  // at the same rect — the original pose name stays valid.
+  if (input.atlas && !baked.poses.includes('neutral')) {
+    const wanted = input.neutralPose ? frameSlug(input.neutralPose) : '';
+    const target = wanted && baked.poses.includes(wanted) ? wanted : baked.poses[0];
+    baked.atlas.frames['pose_neutral'] = { ...baked.atlas.frames['pose_' + target] };
+    baked.poses = ['neutral', ...baked.poses];
+  }
 
   const dir = libAssetPath('characters', id);
   fs.mkdirSync(dir, { recursive: true });

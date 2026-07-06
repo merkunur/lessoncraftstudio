@@ -200,6 +200,15 @@ export interface BakedSheet {
   atlas: any; // meta.image left as '' — caller fills it
   poses: string[];
 }
+/** Frame-file-name → pose slug ("Owl Happy.png" → "owl-happy"); the ONE
+ *  naming rule for baked pose keys, shared with the library-admin
+ *  neutral-pose aliasing so a UI-chosen frame name maps to the same slug. */
+export function frameSlug(fname: string): string {
+  return (
+    String(fname).replace(/\.[a-z0-9]+$/i, '').replace(/[^a-z0-9]+/gi, '-').replace(/^-+|-+$/g, '').toLowerCase() || 'pose'
+  );
+}
+
 export async function bakeCharacterSheet(atlasIn: any, imgBuf: Buffer): Promise<BakedSheet> {
   const atlas = atlasIn;
   if (!atlas || typeof atlas !== 'object' || !atlas.frames || typeof atlas.frames !== 'object') {
@@ -259,8 +268,7 @@ export async function bakeCharacterSheet(atlasIn: any, imgBuf: Buffer): Promise<
       .composite([{ input: spriteBuf, left: Math.max(0, sss.x | 0), top: Math.max(0, sss.y | 0) }])
       .png()
       .toBuffer();
-    let slug =
-      String(fname).replace(/\.[a-z0-9]+$/i, '').replace(/[^a-z0-9]+/gi, '-').replace(/^-+|-+$/g, '').toLowerCase() || 'pose';
+    let slug = frameSlug(fname);
     const base = slug;
     let k = 2;
     while (usedSlugs[slug]) slug = base + '-' + k++;

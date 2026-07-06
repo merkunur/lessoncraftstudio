@@ -6,6 +6,8 @@ export const dynamic = 'force-dynamic';
 //   atlas    (optional TexturePacker JSON-Hash .json ≤2MB → full sheet
 //             re-bake; absent → the image becomes a one-pose_neutral character)
 //   name_en  (required)  name_de  tags (comma-separated)
+//   neutral_pose (optional; sheet mode) — which frame is the resting pose
+//             when none is named "neutral" (aliased as pose_neutral)
 // Finishes with a tolerant manifest rebuild; returns the per-asset report.
 
 import { NextRequest, NextResponse } from 'next/server';
@@ -31,6 +33,7 @@ async function postHandler(request: NextRequest, _userId: string) {
       .filter(Boolean);
     const imageFile = form.get('image') as File | null;
     const atlasFile = form.get('atlas') as File | null;
+    const neutralPose = String(form.get('neutral_pose') || '').trim() || undefined;
 
     if (!nameEn) return NextResponse.json({ error: 'name_en is required' }, { status: 400 });
     if (!imageFile) return NextResponse.json({ error: 'image file is required' }, { status: 400 });
@@ -50,7 +53,7 @@ async function postHandler(request: NextRequest, _userId: string) {
     }
     const imageBuf = Buffer.from(await imageFile.arrayBuffer());
 
-    const created = await addLibraryCharacter({ nameEn, nameDe, tags, atlas, imageBuf });
+    const created = await addLibraryCharacter({ nameEn, nameDe, tags, atlas, imageBuf, neutralPose });
     const report = await rebuildLibraryManifest();
     return NextResponse.json({ ok: true, id: created.id, poses: created.poses, report });
   } catch (e: any) {

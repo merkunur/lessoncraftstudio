@@ -39,7 +39,9 @@
     loading:  { en: 'Loading your story…', de: 'Deine Geschichte lädt…', fr: 'Ton histoire arrive…', it: 'La tua storia sta arrivando…', es: 'Tu cuento está cargando…', pt: 'Sua história está chegando…', nl: 'Je verhaal wordt geladen…', sv: 'Din saga laddas…', da: 'Din historie indlæses…', no: 'Historien din lastes…', fi: 'Tarinasi latautuu…' },
     theEnd:   { en: 'The End!', de: 'Ende!', fr: 'Fin !', it: 'Fine!', es: '¡Fin!', pt: 'Fim!', nl: 'Einde!', sv: 'Slut!', da: 'Slut!', no: 'Slutt!', fi: 'Loppu!' },
     keepsake: { en: 'You earned a keepsake!', de: 'Du hast ein Andenken verdient!', fr: 'Tu as gagné un souvenir !', it: 'Hai guadagnato un ricordo!', es: '¡Has ganado un recuerdo!', pt: 'Você ganhou uma lembrança!', nl: 'Je hebt een aandenken verdiend!', sv: 'Du har fått ett minne!', da: 'Du har fået et minde!', no: 'Du har fått et minne!', fi: 'Sait muiston!' },
-    playAgain:{ en: 'Play again', de: 'Nochmal spielen', fr: 'Rejouer', it: 'Gioca ancora', es: 'Jugar otra vez', pt: 'Jogar de novo', nl: 'Speel opnieuw', sv: 'Spela igen', da: 'Spil igen', no: 'Spill igjen', fi: 'Pelaa uudelleen' }
+    playAgain:{ en: 'Play again', de: 'Nochmal spielen', fr: 'Rejouer', it: 'Gioca ancora', es: 'Jugar otra vez', pt: 'Jogar de novo', nl: 'Speel opnieuw', sv: 'Spela igen', da: 'Spil igen', no: 'Spill igjen', fi: 'Pelaa uudelleen' },
+    prevPage: { en: 'Previous page', de: 'Vorherige Seite', fr: 'Page précédente', it: 'Pagina precedente', es: 'Página anterior', pt: 'Página anterior', nl: 'Vorige pagina', sv: 'Föregående sida', da: 'Forrige side', no: 'Forrige side', fi: 'Edellinen sivu' },
+    nextPage: { en: 'Next page', de: 'Nächste Seite', fr: 'Page suivante', it: 'Pagina successiva', es: 'Página siguiente', pt: 'Próxima página', nl: 'Volgende pagina', sv: 'Nästa sida', da: 'Næste side', no: 'Neste side', fi: 'Seuraava sivu' }
   };
 
   var _locale = 'en';
@@ -88,6 +90,15 @@
       '.sb-ui button{width:44px;height:44px;border:none;border-radius:50%;background:rgba(28,26,23,.6);',
       '  color:#FBF3E4;font-size:19px;cursor:pointer;display:flex;align-items:center;justify-content:center;}',
       '.sb-ui button:active{transform:scale(.94);}',
+      /* page-nav arrows (reader-driven prev/next; SVG chevrons, no text) */
+      '.sb-nav{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border:none;border-radius:50%;',
+      '  background:rgba(28,26,23,.6);color:#FBF3E4;cursor:pointer;display:flex;align-items:center;justify-content:center;',
+      '  pointer-events:auto;z-index:80;box-shadow:0 2px 8px rgba(0,0,0,.25);}',
+      '.sb-nav:hover{background:rgba(28,26,23,.78);}',
+      '.sb-nav:active{transform:translateY(-50%) scale(.92);}',
+      '.sb-nav svg{display:block;}',
+      '.sb-nav-prev{left:10px;}',
+      '.sb-nav-next{right:10px;}',
       /* progress pips */
       '.sb-pips{position:absolute;top:14px;left:50%;transform:translateX(-50%);display:flex;gap:8px;pointer-events:none;z-index:70;}',
       '.sb-pip{width:12px;height:12px;border-radius:50%;background:rgba(251,243,228,.35);}',
@@ -404,6 +415,12 @@
     var live = null;               /* aria-live region */
     var caption = null, captionText = null, captionSpeaker = null, speakBtn = null;
     var checkHost = null, pips = null, tray = null;
+    var navPrev = null, navNext = null;  /* reader page-nav arrows */
+    var completeOv = null;         /* "The End" overlay (removed on back-nav) */
+    /* navigation generation: manual prev/next orphans the in-flight runPage
+       promise chain; every .then boundary bails when its gen went stale
+       (kills double-advance from the celebration hold + dead-page narration) */
+    var navGen = 0;
 
     /* ---------- helpers ---------- */
     function str(key, args) {
@@ -516,6 +533,61 @@
       checkHost.className = 'sb-check-host';
       stage.overlay.appendChild(checkHost);
       stage.registerPositioned(checkHost, { x: 1280, y: 872, w: 210, h: 108 });
+
+      /* reader page-nav arrows (hidden until the first page mounts) */
+      navPrev = navBtn('prev');
+      navNext = navBtn('next');
+      stage.frame.appendChild(navPrev);
+      stage.frame.appendChild(navNext);
+    }
+
+    function chevronSvg(dir) {
+      var NS = 'http://www.w3.org/2000/svg';
+      var s = doc.createElementNS(NS, 'svg');
+      s.setAttribute('viewBox', '0 0 24 24');
+      s.setAttribute('width', '26');
+      s.setAttribute('height', '26');
+      s.setAttribute('aria-hidden', 'true');
+      var p = doc.createElementNS(NS, 'polyline');
+      p.setAttribute('points', dir === 'prev' ? '14.5,5 7.5,12 14.5,19' : '9.5,5 16.5,12 9.5,19');
+      p.setAttribute('fill', 'none');
+      p.setAttribute('stroke', 'currentColor');
+      p.setAttribute('stroke-width', '3.2');
+      p.setAttribute('stroke-linecap', 'round');
+      p.setAttribute('stroke-linejoin', 'round');
+      s.appendChild(p);
+      return s;
+    }
+
+    function navBtn(dir) {
+      var b = doc.createElement('button');
+      b.type = 'button';
+      b.className = 'sb-nav sb-nav-' + dir;
+      b.setAttribute('aria-label', chromeT(dir === 'prev' ? 'prevPage' : 'nextPage'));
+      b.appendChild(chevronSvg(dir));
+      b.style.display = 'none';
+      b.addEventListener('click', function () { goTo(pageIndex + (dir === 'prev' ? -1 : 1)); });
+      return b;
+    }
+
+    function updateNav() {
+      if (!navPrev) return;
+      var onPage = pageIndex >= 0 && pageIndex < story.pages.length;
+      navPrev.style.display = (onPage && pageIndex > 0) ? 'flex' : 'none';
+      navNext.style.display = onPage ? 'flex' : 'none';
+    }
+
+    /* manual page navigation: free browsing (skipping an activity is allowed;
+       completing one still auto-advances — the arrows are the override) */
+    function goTo(i) {
+      if (!story || pageIndex < 0 || i < 0) return;           /* not booted / before page 1 */
+      if (i === pageIndex && i < story.pages.length) return;
+      if (pageIndex >= story.pages.length && i >= story.pages.length) return; /* already at The End */
+      global.SBAudio.stop();
+      if (completeOv && completeOv.parentNode) { completeOv.parentNode.removeChild(completeOv); }
+      completeOv = null;
+      if (i >= story.pages.length) { navGen++; completeStory(); return; }
+      runPage(i);
     }
 
     function updatePips() {
@@ -523,6 +595,7 @@
       for (var i = 0; i < kids.length; i++) {
         kids[i].className = 'sb-pip' + (i < pageIndex ? ' done' : (i === pageIndex ? ' now' : ''));
       }
+      updateNav();
     }
 
     function setCaption(speakerName, text) {
@@ -531,11 +604,14 @@
     }
 
     /* ---------- narration ---------- */
-    function playCues(cues, onLine) {
-      /* sequential promise chain over the page's narration cues */
+    function playCues(cues, onLine, liveFn) {
+      /* sequential promise chain over the page's narration cues; liveFn
+         (optional) short-circuits the rest when its page went stale (manual
+         page-nav) so a dead page stops captioning/speaking */
       var p = Promise.resolve();
       cues.forEach(function (cue) {
         p = p.then(function () {
+          if (liveFn && !liveFn()) return;
           var text = str(cue.id);
           var who = cue.characterId && castDefOf(cue.characterId);
           setCaption(who ? refStr(who.name) : '', text);
@@ -565,8 +641,10 @@
       if (replayBusy || !lastCues.length) return;
       replayBusy = true;
       track('replay');
-      playCues(lastCues).then(function () { replayBusy = false; },
-                              function () { replayBusy = false; });
+      var g = navGen;
+      playCues(lastCues, null, function () { return g === navGen; })
+        .then(function () { replayBusy = false; },
+              function () { replayBusy = false; });
     }
 
     /* ---------- celebration ---------- */
@@ -746,12 +824,14 @@
     }
 
     function runPage(i) {
+      var gen = ++navGen;
       pageIndex = i;
       var page = story.pages[i];
       updatePips();
       track('page', { i: i, id: page.id });
 
       return global.SBLoader.loadPage(i).then(function () {
+        if (gen !== navGen) return;
         var oldCont = pageContainer;
         clearPage();
         pageContainer = buildPagePixi(page);
@@ -803,6 +883,7 @@
         });
 
         return transitionIn(pageContainer, oldCont).then(function () {
+          if (gen !== navGen) return;
           global.SBLoader.releaseExcept([i, i + 1]);
           /* entrance animations: a placed character plays its clip as the page opens */
           (page.characters || []).forEach(function (pl) {
@@ -813,12 +894,14 @@
           lastCues = (page.narration && page.narration.cues) || [];
           var gate = (page.narration && page.narration.gate) || 'end';
           if (gate === 'immediate' && host) host.start();
-          return playCues(lastCues).then(function () {
+          return playCues(lastCues, null, function () { return gen === navGen; }).then(function () {
+            if (gen !== navGen) return new Promise(function () {}); /* park a dead chain */
             if (host && gate !== 'immediate') host.start();
             global.SBLoader.prefetchPage(i + 1);
             return successPromise;
           });
         }).then(function () {
+          if (gen !== navGen) return;
           /* CELEBRATING */
           celebrate(page);
           var p = Promise.resolve();
@@ -835,6 +918,7 @@
             return new Promise(function (res) { setTimeout(res, policy.reduced ? Math.min(hold, 600) : hold); });
           });
         }).then(function () {
+          if (gen !== navGen) return;
           if (i + 1 < story.pages.length) return runPage(i + 1);
           return completeStory();
         });
@@ -876,6 +960,7 @@
       again.addEventListener('click', function () { global.location.reload(); });
       ov.appendChild(again);
       stage.frame.appendChild(ov);
+      completeOv = ov;             /* back-nav (⌨ ArrowLeft) removes it */
       announce(chromeT('theEnd'));
       global.SBAudio.afterSpeech(function () {
         global.SBAudio.pop(880); setTimeout(function () { global.SBAudio.pop(1318); }, 150);
@@ -950,6 +1035,17 @@
       msg.className = 'sb-loading';
       msg.textContent = debug ? String(err) : chromeT('loading');
       (stage ? stage.frame : rootEl).appendChild(msg);
+    });
+
+    /* keyboard page-nav (skip when typing / inside the interaction zone —
+       some cores use arrow keys) */
+    doc.addEventListener('keydown', function (e) {
+      if (!story || pageIndex < 0) return;
+      var t = e.target;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+      if (t && t.closest && t.closest('.sb-zone')) return;
+      if (e.key === 'ArrowRight') { goTo(pageIndex + 1); }
+      else if (e.key === 'ArrowLeft') { goTo(pageIndex - 1); }
     });
 
     /* ---------- dev/QA seams ---------- */

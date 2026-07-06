@@ -1,0 +1,978 @@
+{
+ "_note": "Live indexable subject-x-grade hubs (from sitemap shard 3, 2026-07-06). Consumed by render-landing-html.js for the landing-to-hub equity links. Regenerate from the sitemap when hub coverage changes.",
+ "hubs": [
+  {
+   "locale": "en",
+   "subjectKey": "math",
+   "levelKey": "preschool",
+   "subjectSlug": "math",
+   "gradeSlug": "preschool"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "math",
+   "levelKey": "preschool",
+   "subjectSlug": "mathe",
+   "gradeSlug": "vorschule"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "math",
+   "levelKey": "preschool",
+   "subjectSlug": "matematicas",
+   "gradeSlug": "preescolar"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "math",
+   "levelKey": "preschool",
+   "subjectSlug": "matematica",
+   "gradeSlug": "scuola-dell-infanzia-3-5-anni"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "math",
+   "levelKey": "preschool",
+   "subjectSlug": "mathematiques",
+   "gradeSlug": "ecole-maternelle-petite-moyenne-section-3-5-ans"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "math",
+   "levelKey": "preschool",
+   "subjectSlug": "matematica",
+   "gradeSlug": "educacao-infantil-creche-3-5-anos"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "math",
+   "levelKey": "preschool",
+   "subjectSlug": "matematik",
+   "gradeSlug": "forskola"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "math",
+   "levelKey": "preschool",
+   "subjectSlug": "matematik",
+   "gradeSlug": "bornehave"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "math",
+   "levelKey": "preschool",
+   "subjectSlug": "matematikk",
+   "gradeSlug": "barnehage-3-5-ar"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "math",
+   "levelKey": "kindergarten",
+   "subjectSlug": "math",
+   "gradeSlug": "kindergarten"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "math",
+   "levelKey": "kindergarten",
+   "subjectSlug": "mathe",
+   "gradeSlug": "kindergarten"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "math",
+   "levelKey": "kindergarten",
+   "subjectSlug": "matematicas",
+   "gradeSlug": "jardin-infantil"
+  },
+  {
+   "locale": "nl",
+   "subjectKey": "math",
+   "levelKey": "kindergarten",
+   "subjectSlug": "rekenen",
+   "gradeSlug": "kleuterklas"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "math",
+   "levelKey": "kindergarten",
+   "subjectSlug": "matematica",
+   "gradeSlug": "scuola-dell-infanzia-5-7-anni"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "math",
+   "levelKey": "kindergarten",
+   "subjectSlug": "mathematiques",
+   "gradeSlug": "ecole-maternelle-grande-section-5-7-ans"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "math",
+   "levelKey": "kindergarten",
+   "subjectSlug": "matematica",
+   "gradeSlug": "educacao-infantil-pre-escola-5-7-anos"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "math",
+   "levelKey": "kindergarten",
+   "subjectSlug": "matematik",
+   "gradeSlug": "forskoleklass"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "math",
+   "levelKey": "kindergarten",
+   "subjectSlug": "matematik",
+   "gradeSlug": "bornehaveklasse"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "math",
+   "levelKey": "kindergarten",
+   "subjectSlug": "matematikk",
+   "gradeSlug": "barnehage-5-7-ar"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "math",
+   "levelKey": "grade-1",
+   "subjectSlug": "math",
+   "gradeSlug": "grade-1"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "math",
+   "levelKey": "grade-1",
+   "subjectSlug": "mathe",
+   "gradeSlug": "1-klasse"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "math",
+   "levelKey": "grade-1",
+   "subjectSlug": "matematicas",
+   "gradeSlug": "grado-1"
+  },
+  {
+   "locale": "nl",
+   "subjectKey": "math",
+   "levelKey": "grade-1",
+   "subjectSlug": "rekenen",
+   "gradeSlug": "groep-3"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "math",
+   "levelKey": "grade-1",
+   "subjectSlug": "matematica",
+   "gradeSlug": "scuola-primaria-classe-prima"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "math",
+   "levelKey": "grade-1",
+   "subjectSlug": "mathematiques",
+   "gradeSlug": "cp-cours-preparatoire"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "math",
+   "levelKey": "grade-1",
+   "subjectSlug": "matematica",
+   "gradeSlug": "1-ano-fundamental"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "math",
+   "levelKey": "grade-1",
+   "subjectSlug": "matematik",
+   "gradeSlug": "arskurs-1"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "math",
+   "levelKey": "grade-1",
+   "subjectSlug": "matematik",
+   "gradeSlug": "1-klasse"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "math",
+   "levelKey": "grade-1",
+   "subjectSlug": "matematikk",
+   "gradeSlug": "1-trinn"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "math",
+   "levelKey": "grade-2",
+   "subjectSlug": "math",
+   "gradeSlug": "grade-2"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "math",
+   "levelKey": "grade-2",
+   "subjectSlug": "mathe",
+   "gradeSlug": "2-klasse"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "math",
+   "levelKey": "grade-2",
+   "subjectSlug": "matematicas",
+   "gradeSlug": "grado-2"
+  },
+  {
+   "locale": "nl",
+   "subjectKey": "math",
+   "levelKey": "grade-2",
+   "subjectSlug": "rekenen",
+   "gradeSlug": "groep-4"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "math",
+   "levelKey": "grade-2",
+   "subjectSlug": "matematica",
+   "gradeSlug": "scuola-primaria-classe-seconda"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "math",
+   "levelKey": "grade-2",
+   "subjectSlug": "mathematiques",
+   "gradeSlug": "ce1-cours-elementaire-1"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "math",
+   "levelKey": "grade-2",
+   "subjectSlug": "matematica",
+   "gradeSlug": "2-ano-fundamental"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "math",
+   "levelKey": "grade-2",
+   "subjectSlug": "matematik",
+   "gradeSlug": "arskurs-2"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "math",
+   "levelKey": "grade-2",
+   "subjectSlug": "matematik",
+   "gradeSlug": "2-klasse"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "math",
+   "levelKey": "grade-2",
+   "subjectSlug": "matematikk",
+   "gradeSlug": "2-trinn"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "math",
+   "levelKey": "grade-3",
+   "subjectSlug": "math",
+   "gradeSlug": "grade-3"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "math",
+   "levelKey": "grade-3",
+   "subjectSlug": "mathe",
+   "gradeSlug": "3-klasse"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "math",
+   "levelKey": "grade-3",
+   "subjectSlug": "matematicas",
+   "gradeSlug": "grado-3"
+  },
+  {
+   "locale": "nl",
+   "subjectKey": "math",
+   "levelKey": "grade-3",
+   "subjectSlug": "rekenen",
+   "gradeSlug": "groep-5"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "math",
+   "levelKey": "grade-3",
+   "subjectSlug": "matematica",
+   "gradeSlug": "scuola-primaria-classe-terza"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "math",
+   "levelKey": "grade-3",
+   "subjectSlug": "mathematiques",
+   "gradeSlug": "ce2-cours-elementaire-2"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "math",
+   "levelKey": "grade-3",
+   "subjectSlug": "matematica",
+   "gradeSlug": "3-ano-fundamental"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "math",
+   "levelKey": "grade-3",
+   "subjectSlug": "matematik",
+   "gradeSlug": "arskurs-3"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "math",
+   "levelKey": "grade-3",
+   "subjectSlug": "matematik",
+   "gradeSlug": "3-klasse"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "math",
+   "levelKey": "grade-3",
+   "subjectSlug": "matematikk",
+   "gradeSlug": "3-trinn"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "letters",
+   "levelKey": "preschool",
+   "subjectSlug": "reading",
+   "gradeSlug": "preschool"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "letters",
+   "levelKey": "preschool",
+   "subjectSlug": "deutsch",
+   "gradeSlug": "vorschule"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "letters",
+   "levelKey": "preschool",
+   "subjectSlug": "espanol",
+   "gradeSlug": "preescolar"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "letters",
+   "levelKey": "preschool",
+   "subjectSlug": "italiano",
+   "gradeSlug": "scuola-dell-infanzia-3-5-anni"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "letters",
+   "levelKey": "preschool",
+   "subjectSlug": "francais",
+   "gradeSlug": "ecole-maternelle-petite-moyenne-section-3-5-ans"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "letters",
+   "levelKey": "preschool",
+   "subjectSlug": "portugues",
+   "gradeSlug": "educacao-infantil-creche-3-5-anos"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "letters",
+   "levelKey": "preschool",
+   "subjectSlug": "svenska-ovningar",
+   "gradeSlug": "forskola"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "letters",
+   "levelKey": "preschool",
+   "subjectSlug": "dansk",
+   "gradeSlug": "bornehave"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "letters",
+   "levelKey": "preschool",
+   "subjectSlug": "norsk",
+   "gradeSlug": "barnehage-3-5-ar"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "letters",
+   "levelKey": "kindergarten",
+   "subjectSlug": "reading",
+   "gradeSlug": "kindergarten"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "letters",
+   "levelKey": "kindergarten",
+   "subjectSlug": "deutsch",
+   "gradeSlug": "kindergarten"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "letters",
+   "levelKey": "kindergarten",
+   "subjectSlug": "espanol",
+   "gradeSlug": "jardin-infantil"
+  },
+  {
+   "locale": "nl",
+   "subjectKey": "letters",
+   "levelKey": "kindergarten",
+   "subjectSlug": "taal",
+   "gradeSlug": "kleuterklas"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "letters",
+   "levelKey": "kindergarten",
+   "subjectSlug": "italiano",
+   "gradeSlug": "scuola-dell-infanzia-5-7-anni"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "letters",
+   "levelKey": "kindergarten",
+   "subjectSlug": "francais",
+   "gradeSlug": "ecole-maternelle-grande-section-5-7-ans"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "letters",
+   "levelKey": "kindergarten",
+   "subjectSlug": "portugues",
+   "gradeSlug": "educacao-infantil-pre-escola-5-7-anos"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "letters",
+   "levelKey": "kindergarten",
+   "subjectSlug": "svenska-ovningar",
+   "gradeSlug": "forskoleklass"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "letters",
+   "levelKey": "kindergarten",
+   "subjectSlug": "dansk",
+   "gradeSlug": "bornehaveklasse"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "letters",
+   "levelKey": "kindergarten",
+   "subjectSlug": "norsk",
+   "gradeSlug": "barnehage-5-7-ar"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "letters",
+   "levelKey": "grade-1",
+   "subjectSlug": "reading",
+   "gradeSlug": "grade-1"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "letters",
+   "levelKey": "grade-1",
+   "subjectSlug": "deutsch",
+   "gradeSlug": "1-klasse"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "letters",
+   "levelKey": "grade-1",
+   "subjectSlug": "espanol",
+   "gradeSlug": "grado-1"
+  },
+  {
+   "locale": "nl",
+   "subjectKey": "letters",
+   "levelKey": "grade-1",
+   "subjectSlug": "taal",
+   "gradeSlug": "groep-3"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "letters",
+   "levelKey": "grade-1",
+   "subjectSlug": "italiano",
+   "gradeSlug": "scuola-primaria-classe-prima"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "letters",
+   "levelKey": "grade-1",
+   "subjectSlug": "francais",
+   "gradeSlug": "cp-cours-preparatoire"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "letters",
+   "levelKey": "grade-1",
+   "subjectSlug": "portugues",
+   "gradeSlug": "1-ano-fundamental"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "letters",
+   "levelKey": "grade-1",
+   "subjectSlug": "svenska-ovningar",
+   "gradeSlug": "arskurs-1"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "letters",
+   "levelKey": "grade-1",
+   "subjectSlug": "dansk",
+   "gradeSlug": "1-klasse"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "letters",
+   "levelKey": "grade-1",
+   "subjectSlug": "norsk",
+   "gradeSlug": "1-trinn"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "letters",
+   "levelKey": "grade-2",
+   "subjectSlug": "reading",
+   "gradeSlug": "grade-2"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "letters",
+   "levelKey": "grade-2",
+   "subjectSlug": "deutsch",
+   "gradeSlug": "2-klasse"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "letters",
+   "levelKey": "grade-2",
+   "subjectSlug": "espanol",
+   "gradeSlug": "grado-2"
+  },
+  {
+   "locale": "nl",
+   "subjectKey": "letters",
+   "levelKey": "grade-2",
+   "subjectSlug": "taal",
+   "gradeSlug": "groep-4"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "letters",
+   "levelKey": "grade-2",
+   "subjectSlug": "italiano",
+   "gradeSlug": "scuola-primaria-classe-seconda"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "letters",
+   "levelKey": "grade-2",
+   "subjectSlug": "francais",
+   "gradeSlug": "ce1-cours-elementaire-1"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "letters",
+   "levelKey": "grade-2",
+   "subjectSlug": "portugues",
+   "gradeSlug": "2-ano-fundamental"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "letters",
+   "levelKey": "grade-2",
+   "subjectSlug": "svenska-ovningar",
+   "gradeSlug": "arskurs-2"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "letters",
+   "levelKey": "grade-2",
+   "subjectSlug": "dansk",
+   "gradeSlug": "2-klasse"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "letters",
+   "levelKey": "grade-2",
+   "subjectSlug": "norsk",
+   "gradeSlug": "2-trinn"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "science",
+   "levelKey": "kindergarten",
+   "subjectSlug": "science",
+   "gradeSlug": "kindergarten"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "science",
+   "levelKey": "kindergarten",
+   "subjectSlug": "sachunterricht",
+   "gradeSlug": "kindergarten"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "science",
+   "levelKey": "kindergarten",
+   "subjectSlug": "ciencias",
+   "gradeSlug": "jardin-infantil"
+  },
+  {
+   "locale": "nl",
+   "subjectKey": "science",
+   "levelKey": "kindergarten",
+   "subjectSlug": "natuur",
+   "gradeSlug": "kleuterklas"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "science",
+   "levelKey": "kindergarten",
+   "subjectSlug": "scienze",
+   "gradeSlug": "scuola-dell-infanzia-5-7-anni"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "science",
+   "levelKey": "kindergarten",
+   "subjectSlug": "sciences",
+   "gradeSlug": "ecole-maternelle-grande-section-5-7-ans"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "science",
+   "levelKey": "kindergarten",
+   "subjectSlug": "ciencias",
+   "gradeSlug": "educacao-infantil-pre-escola-5-7-anos"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "science",
+   "levelKey": "kindergarten",
+   "subjectSlug": "natur",
+   "gradeSlug": "forskoleklass"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "science",
+   "levelKey": "kindergarten",
+   "subjectSlug": "natur-teknologi",
+   "gradeSlug": "bornehaveklasse"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "science",
+   "levelKey": "kindergarten",
+   "subjectSlug": "naturfag",
+   "gradeSlug": "barnehage-5-7-ar"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "science",
+   "levelKey": "grade-1",
+   "subjectSlug": "science",
+   "gradeSlug": "grade-1"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "science",
+   "levelKey": "grade-1",
+   "subjectSlug": "sachunterricht",
+   "gradeSlug": "1-klasse"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "science",
+   "levelKey": "grade-1",
+   "subjectSlug": "ciencias",
+   "gradeSlug": "grado-1"
+  },
+  {
+   "locale": "nl",
+   "subjectKey": "science",
+   "levelKey": "grade-1",
+   "subjectSlug": "natuur",
+   "gradeSlug": "groep-3"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "science",
+   "levelKey": "grade-1",
+   "subjectSlug": "scienze",
+   "gradeSlug": "scuola-primaria-classe-prima"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "science",
+   "levelKey": "grade-1",
+   "subjectSlug": "sciences",
+   "gradeSlug": "cp-cours-preparatoire"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "science",
+   "levelKey": "grade-1",
+   "subjectSlug": "ciencias",
+   "gradeSlug": "1-ano-fundamental"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "science",
+   "levelKey": "grade-1",
+   "subjectSlug": "natur",
+   "gradeSlug": "arskurs-1"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "science",
+   "levelKey": "grade-1",
+   "subjectSlug": "natur-teknologi",
+   "gradeSlug": "1-klasse"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "science",
+   "levelKey": "grade-1",
+   "subjectSlug": "naturfag",
+   "gradeSlug": "1-trinn"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "logic",
+   "levelKey": "preschool",
+   "subjectSlug": "logic",
+   "gradeSlug": "preschool"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "logic",
+   "levelKey": "preschool",
+   "subjectSlug": "logik",
+   "gradeSlug": "vorschule"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "logic",
+   "levelKey": "preschool",
+   "subjectSlug": "razonamiento-logico",
+   "gradeSlug": "preescolar"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "logic",
+   "levelKey": "preschool",
+   "subjectSlug": "logica",
+   "gradeSlug": "scuola-dell-infanzia-3-5-anni"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "logic",
+   "levelKey": "preschool",
+   "subjectSlug": "logique",
+   "gradeSlug": "ecole-maternelle-petite-moyenne-section-3-5-ans"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "logic",
+   "levelKey": "preschool",
+   "subjectSlug": "raciocinio-logico",
+   "gradeSlug": "educacao-infantil-creche-3-5-anos"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "logic",
+   "levelKey": "preschool",
+   "subjectSlug": "logik",
+   "gradeSlug": "forskola"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "logic",
+   "levelKey": "preschool",
+   "subjectSlug": "logik",
+   "gradeSlug": "bornehave"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "logic",
+   "levelKey": "preschool",
+   "subjectSlug": "logikk",
+   "gradeSlug": "barnehage-3-5-ar"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "logic",
+   "levelKey": "kindergarten",
+   "subjectSlug": "logic",
+   "gradeSlug": "kindergarten"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "logic",
+   "levelKey": "kindergarten",
+   "subjectSlug": "logik",
+   "gradeSlug": "kindergarten"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "logic",
+   "levelKey": "kindergarten",
+   "subjectSlug": "razonamiento-logico",
+   "gradeSlug": "jardin-infantil"
+  },
+  {
+   "locale": "nl",
+   "subjectKey": "logic",
+   "levelKey": "kindergarten",
+   "subjectSlug": "puzzelen",
+   "gradeSlug": "kleuterklas"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "logic",
+   "levelKey": "kindergarten",
+   "subjectSlug": "logica",
+   "gradeSlug": "scuola-dell-infanzia-5-7-anni"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "logic",
+   "levelKey": "kindergarten",
+   "subjectSlug": "logique",
+   "gradeSlug": "ecole-maternelle-grande-section-5-7-ans"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "logic",
+   "levelKey": "kindergarten",
+   "subjectSlug": "raciocinio-logico",
+   "gradeSlug": "educacao-infantil-pre-escola-5-7-anos"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "logic",
+   "levelKey": "kindergarten",
+   "subjectSlug": "logik",
+   "gradeSlug": "forskoleklass"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "logic",
+   "levelKey": "kindergarten",
+   "subjectSlug": "logik",
+   "gradeSlug": "bornehaveklasse"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "logic",
+   "levelKey": "kindergarten",
+   "subjectSlug": "logikk",
+   "gradeSlug": "barnehage-5-7-ar"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "spatial-reasoning",
+   "levelKey": "kindergarten",
+   "subjectSlug": "visual",
+   "gradeSlug": "kindergarten"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "spatial-reasoning",
+   "levelKey": "kindergarten",
+   "subjectSlug": "wahrnehmung",
+   "gradeSlug": "kindergarten"
+  },
+  {
+   "locale": "es",
+   "subjectKey": "spatial-reasoning",
+   "levelKey": "kindergarten",
+   "subjectSlug": "percepcion-visual",
+   "gradeSlug": "jardin-infantil"
+  },
+  {
+   "locale": "nl",
+   "subjectKey": "spatial-reasoning",
+   "levelKey": "kindergarten",
+   "subjectSlug": "waarnemen",
+   "gradeSlug": "kleuterklas"
+  },
+  {
+   "locale": "it",
+   "subjectKey": "spatial-reasoning",
+   "levelKey": "kindergarten",
+   "subjectSlug": "percezione-visiva",
+   "gradeSlug": "scuola-dell-infanzia-5-7-anni"
+  },
+  {
+   "locale": "fr",
+   "subjectKey": "spatial-reasoning",
+   "levelKey": "kindergarten",
+   "subjectSlug": "reperage-espace",
+   "gradeSlug": "ecole-maternelle-grande-section-5-7-ans"
+  },
+  {
+   "locale": "pt",
+   "subjectKey": "spatial-reasoning",
+   "levelKey": "kindergarten",
+   "subjectSlug": "percepcao-visual",
+   "gradeSlug": "educacao-infantil-pre-escola-5-7-anos"
+  },
+  {
+   "locale": "sv",
+   "subjectKey": "spatial-reasoning",
+   "levelKey": "kindergarten",
+   "subjectSlug": "perception",
+   "gradeSlug": "forskoleklass"
+  },
+  {
+   "locale": "da",
+   "subjectKey": "spatial-reasoning",
+   "levelKey": "kindergarten",
+   "subjectSlug": "visuel-opmaerksomhed",
+   "gradeSlug": "bornehaveklasse"
+  },
+  {
+   "locale": "no",
+   "subjectKey": "spatial-reasoning",
+   "levelKey": "kindergarten",
+   "subjectSlug": "visuell-persepsjon",
+   "gradeSlug": "barnehage-5-7-ar"
+  },
+  {
+   "locale": "en",
+   "subjectKey": "spatial-reasoning",
+   "levelKey": "grade-1",
+   "subjectSlug": "visual",
+   "gradeSlug": "grade-1"
+  },
+  {
+   "locale": "de",
+   "subjectKey": "spatial-reasoning",
+   "levelKey": "grade-1",
+   "subjectSlug": "wahrnehmung",
+   "gradeSlug": "1-klasse"
+  }
+ ]
+}

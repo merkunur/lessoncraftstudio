@@ -3,7 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { listNonEmptyAxisKeys, countDecksForSubjectLevel } from '@/lib/topic-decks';
 import { resolveAxisSlug, resolveAxisName, LABELS } from '@/lib/category-nav-data';
 import { listSubjectKeys, getSubjectSlugStrict, getSubjectName, getAxisSlug } from '@/lib/taxonomy';
-import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS, isSubjectHubAllowed, subjectHubHeading, subjectHubGradeLabel } from '@/lib/subject-hub';
+import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS, isSubjectHubAllowed, isOnlineHubAvailable, onlineHubLinkLabel, subjectHubHeading, subjectHubGradeLabel } from '@/lib/subject-hub';
 
 // SSR crawl-bait section (Remediation Part 2 / R2c). The homepage-v3 promotion
 // (bc215a5c) dropped the BreadthGrid, collapsing above-fold internal links from
@@ -35,7 +35,7 @@ export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
   // Subject×grade hub links (Fach×Klasse) — only for locales that define subjects
   // (de/en at MVP). The getSubjectSlugStrict null-check short-circuits the other
   // 9 locales to zero DB queries. Count-gated so we never link a thin/404 hub.
-  const subjectGradeLinks: Array<{ href: string; label: string }> = [];
+  const subjectGradeLinks: Array<{ href: string; label: string; onlineHref?: string | null }> = [];
   try {
     const combos = listSubjectKeys().flatMap(s => HUB_GRADE_KEYS.map(g => ({ s, g })));
     const resolved = await Promise.all(
@@ -47,7 +47,9 @@ export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
         const c = await countDecksForSubjectLevel(s, g, locale);
         if (c < MIN_INDEXABLE_SUBJECT_HUB_DECKS) return null;
         const gradeLabel = subjectHubGradeLabel(locale, g);
-        return { href: `/${locale}/topic/${ss}/${gs}`, label: `${getSubjectName(s, locale) ?? s} · ${gradeLabel}` };
+        // Online-exercise variant link (Unit 12) — same gate as the sitemap emitter.
+        const onlineHref = isOnlineHubAvailable(locale, s) ? `/${locale}/topic/${ss}/${gs}/online` : null;
+        return { href: `/${locale}/topic/${ss}/${gs}`, label: `${getSubjectName(s, locale) ?? s} · ${gradeLabel}`, onlineHref };
       }),
     );
     for (const r of resolved) if (r) subjectGradeLinks.push(r);
@@ -59,7 +61,8 @@ export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
   const labels = LABELS[locale] ?? LABELS.en;
   const subjectGradeHeading = subjectHubHeading(locale);
 
-  const group = (heading: string, links: Array<{ href: string; label: string }>, browseHref: string, browseLabel: string) => {
+  const onlineWord = (onlineHubLinkLabel(locale) ?? 'online').split(' ')[0].replace(/[–—-]$/, '') || 'online';
+  const group = (heading: string, links: Array<{ href: string; label: string; onlineHref?: string | null }>, browseHref: string, browseLabel: string) => {
     if (links.length === 0) return null;
     return (
       <nav aria-label={heading} className="hv3-card p-7 md:p-8">
@@ -73,6 +76,17 @@ export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
               >
                 {l.label}
               </Link>
+              {l.onlineHref && (
+                <>
+                  {' '}
+                  <Link
+                    href={l.onlineHref}
+                    className="text-[13px] text-[#5A5345] hover:text-[#F2784B] hover:underline"
+                  >
+                    · {onlineWord}
+                  </Link>
+                </>
+              )}
             </li>
           ))}
         </ul>

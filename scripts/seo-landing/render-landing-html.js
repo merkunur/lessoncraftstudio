@@ -91,6 +91,69 @@ function loadAugment(locale) {
   return data;
 }
 
+/* -------- landing → subject×grade hub equity link (Unit 12, 2026-07-06) --------
+ * Funnels the 30k-landing graph into the ~139 demand-aligned money hubs. The link
+ * universe is the committed manifest of LIVE indexable hubs (regenerated from
+ * sitemap shard 3 when hub coverage changes) — a landing links its hub ONLY when
+ * the exact (locale, subject, level) tuple is live, so a wrong/noindex/404 link
+ * is structurally impossible. Ambiguous landing-level keys are simply absent
+ * from the map (no link beats a wrong link). */
+
+const _hubManifestPath = [
+  path.join(ROOT, 'frontend', 'content', 'seo-landing', 'live-subject-hubs.json'),
+].find((p) => fs.existsSync(p));
+const LIVE_HUBS = (() => {
+  const idx = new Map();
+  try {
+    if (_hubManifestPath) {
+      for (const h of JSON.parse(fs.readFileSync(_hubManifestPath, 'utf8')).hubs) {
+        idx.set(`${h.locale}|${h.subjectKey}|${h.levelKey}`, h);
+      }
+    }
+  } catch (e) { /* optional — no links when absent */ }
+  return idx;
+})();
+
+// exercise-type axis key → subject bucket, from taxonomy apps.*.default_subject.
+const TYPE_TO_SUBJECT = (() => {
+  const m = {};
+  for (const [app, cfg] of Object.entries(TAXONOMY.apps || {})) {
+    if (cfg && cfg.default_subject) m[cfg.exercise_type_axis_key || app] = cfg.default_subject;
+  }
+  if (m['picture-path'] && !m['picture-trail']) m['picture-trail'] = m['picture-path'];
+  return m;
+})();
+
+// (locale, landing level key) → canonical educational-level axis key. Only
+// UNAMBIGUOUS mappings are listed; ambiguous band keys are deliberately absent.
+const LANDING_LEVEL_TO_AXIS = {
+  en: { preschool: 'preschool', kindergarten: 'kindergarten', 'grade-1': 'grade-1', 'grade-2': 'grade-2', 'grade-3': 'grade-3' },
+  de: { vorschule: 'preschool', kindergarten: 'kindergarten', '1-klasse': 'grade-1', '2-klasse': 'grade-2', '3-klasse': 'grade-3' },
+  es: { preescolar: 'kindergarten', 'primer-grado': 'grade-1', 'segundo-grado': 'grade-2', 'tercer-grado': 'grade-3' },
+  sv: { forskola: 'preschool', 'ak-1': 'grade-1', 'ak-2': 'grade-2', 'ak-3': 'grade-3' },
+  nl: { kleuters: 'kindergarten', 'groep-3': 'grade-1', 'groep-4': 'grade-2', 'groep-5': 'grade-3' },
+  da: { boernehaveklasse: 'kindergarten', '1-klasse': 'grade-1', '2-klasse': 'grade-2', '3-klasse': 'grade-3' },
+  it: { infanzia: 'kindergarten', 'classe-prima': 'grade-1', 'classe-seconda': 'grade-2', 'classe-terza': 'grade-3' },
+  no: { '1-trinn': 'grade-1', '2-trinn': 'grade-2', '3-trinn': 'grade-3' },
+  fr: { maternelle: 'preschool', cp: 'grade-1', ce1: 'grade-2', ce2: 'grade-3' },
+  pt: { 'educacao-infantil': 'preschool', '1o-ano': 'grade-1', '2o-ano': 'grade-2', '3o-ano': 'grade-3' },
+  fi: { esikoulu: 'kindergarten', '1-luokka': 'grade-1', '2-luokka': 'grade-2', '3-luokka': 'grade-3' },
+};
+
+function subjectHubFor(locale, l) {
+  if (l.coordinate.target) return null; // cross-language landings stay in the learn graph
+  const subjectKey = TYPE_TO_SUBJECT[l.coordinate.type];
+  const levelKey = LANDING_LEVEL_TO_AXIS[locale] && LANDING_LEVEL_TO_AXIS[locale][l.coordinate.level];
+  if (!subjectKey || !levelKey) return null;
+  const hub = LIVE_HUBS.get(`${locale}|${subjectKey}|${levelKey}`);
+  if (!hub) return null;
+  const subjName = (TAXONOMY.subjects && TAXONOMY.subjects[subjectKey] && TAXONOMY.subjects[subjectKey].name[locale]) || null;
+  const gradeEntry = TAXONOMY.axes['educational-level'][levelKey];
+  const gradeName = gradeEntry && gradeEntry.name[locale] ? gradeEntry.name[locale].replace(/\s*\([^)]*\)\s*$/, '') : null;
+  if (!subjName || !gradeName) return null;
+  return { href: `/${locale}/topic/${hub.subjectSlug}/${hub.gradeSlug}`, label: `${subjName} · ${gradeName}` };
+}
+
 /* ============================== lib/seo/url.ts ============================== */
 
 const CANONICAL_HOST = 'https://www.lessoncraftstudio.com';
@@ -1024,6 +1087,16 @@ ${problemsHtml}
 ${versionsHtml}
 ${carouselHtml}
 ${meshHtml}
+${(() => {
+    const hub = subjectHubFor(locale, l);
+    return hub ? `
+<section class="maker">
+  <a class="maker-card" href="${esc(hub.href)}">
+    <p class="t">${esc(hub.label)}</p>
+    <p class="cta">&rarr;</p>
+  </a>
+</section>` : '';
+  })()}
 ${makerHtml}
   </div>
 </main>

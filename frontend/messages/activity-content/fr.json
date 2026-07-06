@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "skipcount.fill.2-nbt-a-2": {
+      "about": [
+        "Hopper est une petite grenouille qui traverse un étang en sautant d'un nénuphar à l'autre, tous numérotés. À chaque bond, elle avance ou recule toujours du même pas : de 5 en 5, de 10 en 10 ou de 100 en 100. Sur son chemin, un nénuphar reste vide. Votre enfant tape alors le nombre manquant pour que la suite continue, ou indique de combien chaque bond avance ou recule.",
+        "L'idée essentielle du CE1 est ici d'« itérer une suite en avançant ou en reculant d'un pas constant ». Les suites ne commencent pas toujours sur un nombre rond : elles peuvent démarrer sur 8, 18, 28... Votre enfant ne peut donc pas réciter la comptine apprise depuis 0 ; il doit vraiment lire « la régularité de la suite » pour trouver ce qui manque. Le comptage à rebours est lui aussi proposé. C'est la base de la numération jusqu'à 1000 et une première porte vers les tables de multiplication.",
+        "Tout est gratuit, sans compte à créer, sans minuteur et sans points. L'activité suit « les programmes officiels » dans le domaine « Nombres et calcul », et votre enfant avance à son propre rythme, tranquillement, autant de fois qu'il le souhaite."
+      ],
+      "practices": [
+        "Compter de 5 en 5, de 10 en 10 et de 100 en 100 jusqu'à 1000, en avançant et en reculant.",
+        "Compléter une suite de nombres et trouver le nombre manquant.",
+        "Repérer la régularité de la suite : de combien avance-t-on à chaque bond ?",
+        "Démarrer sur un nombre non rond, par exemple 8, 18, 28..."
+      ],
+      "howToPlay": [
+        "Observez le chemin de Hopper d'un nénuphar à l'autre et lisez les nombres déjà posés.",
+        "Cherchez de combien chaque bond ajoute ou retire.",
+        "Tapez le nombre manquant — ou tapez la taille de chaque bond."
+      ],
+      "learningGoals": [
+        "Sait compter de 5 en 5, de 10 en 10 et de 100 en 100, en avant et à rebours, jusqu'à 1000.",
+        "Reconnaît et poursuit la régularité d'une suite de nombres.",
+        "Comprend le comptage de n en n comme base du système décimal et des tables de multiplication."
+      ]
+    },
     "lay-units.measure.1-md-a-2": {
       "about": [
         "Inchie, la petite chenille arpenteuse, se promène le long d'un crayon, d'une feuille ou d'un ruban et pose l'un après l'autre des bâtonnets tous identiques, bout à bout. Votre enfant tape sur chaque bâtonnet pour le compter : arrivé au bout de l'objet, il annonce la longueur, « 5 bâtonnets de long ». Rien à écrire, aucune règle — on mesure simplement en alignant des unités et en les comptant.",

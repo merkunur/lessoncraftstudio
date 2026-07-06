@@ -23,15 +23,18 @@
     },
     "slug": {
       "en": "skip-counting-by-5-10-100",
-      "de": "in-schritten-zaehlen-5-10-100"
+      "de": "in-schritten-zaehlen-5-10-100",
+      "fr": "compter-de-5-en-5-10-et-100"
     },
     "page_title": {
       "en": "Hopper's Lily Hops — Skip-Counting by 5s, 10s & 100s (Grade 2)",
-      "de": "Hoppers Seerosen-Sprünge – In Schritten zählen mit 5, 10 & 100 (Klasse 2)"
+      "de": "Hoppers Seerosen-Sprünge – In Schritten zählen mit 5, 10 & 100 (Klasse 2)",
+      "fr": "Les bonds de Hopper — Compter de 5, de 10 et de 100 (CE1)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: help Hopper the frog skip-count across the pond. Read the numbered lily pads, follow the +5, +10, or +100 hops, and tap the number that goes on the empty pad — counting forward and backward by 5s, 10s, and 100s within 1000. A clear, picture-first way to practice skip-counting. Common Core 2.NBT.A.2.",
-      "de": "Zähle mit Frosch Hopper in Fünfer-, Zehner- und Hunderterschritten bis 1000. Kostenlose interaktive Mathe-Übung für Klasse 2 — ohne Anmeldung, passend zum Lehrplan."
+      "de": "Zähle mit Frosch Hopper in Fünfer-, Zehner- und Hunderterschritten bis 1000. Kostenlose interaktive Mathe-Übung für Klasse 2 — ohne Anmeldung, passend zum Lehrplan.",
+      "fr": "Compte avec Hopper de 5 en 5, de 10 en 10 et de 100 en 100 jusqu'à 1000, en avant et à rebours. Exercice de maths gratuit et interactif — CE1, « Nombres et calcul »."
     },
     "kid_prompt_template": "skipcount"
   }

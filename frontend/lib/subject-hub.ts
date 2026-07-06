@@ -444,7 +444,14 @@ const _deepCopyCache: Record<string, Record<string, SubjectHubDeepCopy> | null> 
 export function getSubjectHubDeepCopy(locale: string, subjectKey: string, levelKey: string): SubjectHubDeepCopy | null {
   if (!(locale in _deepCopyCache)) {
     let data: Record<string, SubjectHubDeepCopy> | null = null;
-    for (const dir of [path.join(process.cwd(), 'content', 'subject-hub-copy'), path.join(process.cwd(), 'frontend', 'content', 'subject-hub-copy')]) {
+    // NOTE: cwd is NOT the checkout under the next-start release model (pm2 runs
+    // from frontend/releases/current, which has no content/); the absolute checkout
+    // path is the guaranteed fallback — same convention as landing-content.ts.
+    for (const dir of [
+      path.join(process.cwd(), 'content', 'subject-hub-copy'),
+      path.join(process.cwd(), 'frontend', 'content', 'subject-hub-copy'),
+      '/opt/lessoncraftstudio/frontend/content/subject-hub-copy',
+    ]) {
       try {
         const p = path.join(dir, `${locale}.json`);
         if (fs.existsSync(p)) { data = JSON.parse(fs.readFileSync(p, 'utf8')); break; }

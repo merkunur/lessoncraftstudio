@@ -1,0 +1,421 @@
+{
+  "$comment": "Demand-keyed SEO overrides authored from docs/SEO/demand-map-fr.md (+ demand-terms-fr.json). Validated by scripts/seo/validate-topic-overrides.js.",
+  "singleAxis": {
+    "wordsearch": {
+      "title": "Mots mêlés enfants à imprimer – gratuit (PDF)",
+      "h1": "Mots mêlés pour enfants à imprimer",
+      "metaDescription": "Grilles de mots mêlés illustrées pour enfants : repérer et entourer les mots cachés, thème par thème (animaux, Noël, fruits…). PDF gratuit avec corrigé, aussi en ligne."
+    },
+    "crossword": {
+      "title": "Mots croisés enfants à imprimer – gratuit (PDF)",
+      "h1": "Mots croisés pour enfants",
+      "metaDescription": "Mots croisés illustrés pour enfants (CE1) : écrire dans la grille le mot qui correspond à chaque image. PDF gratuit avec corrigé, à imprimer ou à jouer en ligne."
+    },
+    "sudoku": {
+      "title": "Sudoku enfant à imprimer – grilles faciles (PDF)",
+      "h1": "Sudoku pour enfants : grilles illustrées",
+      "metaDescription": "Sudokus illustrés 4×4 pour la maternelle : placer chaque image une seule fois par ligne et par colonne. Grilles PDF gratuites à imprimer, jouables aussi en ligne."
+    },
+    "shadow-match": {
+      "title": "Jeu des ombres à imprimer – gratuit (PDF)",
+      "h1": "Jeu des ombres : retrouve la silhouette",
+      "metaDescription": "Jeu des ombres : relier chaque dessin à sa silhouette pour travailler l'observation. Plus de 140 fiches PDF gratuites à imprimer, jouables aussi en ligne."
+    },
+    "odd-one-out": {
+      "title": "Trouver l'intrus – exercices à imprimer (PDF)",
+      "h1": "Jeu de l'intrus à imprimer",
+      "metaDescription": "Jeu de l'intrus : observer chaque série d'images et barrer celle qui ne va pas avec les autres. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne."
+    },
+    "find-objects": {
+      "title": "Cherche et trouve à imprimer – gratuit (PDF)",
+      "h1": "Cherche et trouve : objets cachés",
+      "metaDescription": "Cherche et trouve : retrouver tous les objets cachés dans une grande scène illustrée. Fiches PDF gratuites à imprimer, jouables aussi en ligne."
+    },
+    "picture-path": {
+      "title": "Labyrinthes à imprimer – maternelle GS (PDF)",
+      "h1": "Labyrinthes sur quadrillage",
+      "metaDescription": "Labyrinthes sur quadrillage pour la maternelle : tracer le chemin case par case jusqu'à l'arrivée sans traverser les murs. PDF gratuit + version en ligne."
+    },
+    "treasure-hunt": {
+      "title": "Chasse au trésor à imprimer – gratuit (PDF)",
+      "h1": "Chasse au trésor sur quadrillage",
+      "metaDescription": "Chasse au trésor sur quadrillage : suivre les indices case après case pour localiser le trésor sur la grille. Fiches PDF gratuites, à imprimer ou en ligne."
+    },
+    "more-less": {
+      "title": "Plus ou moins – comparer en maternelle (PDF)",
+      "h1": "Plus ou moins : compare les quantités",
+      "metaDescription": "Plus ou moins : compter deux collections d'images et entourer celle qui en a le plus ou le moins. Fiches maternelle PDF gratuites, à imprimer ou en ligne."
+    },
+    "big-small": {
+      "title": "Grand ou petit – exercices maternelle (PDF)",
+      "h1": "Grand ou petit ?",
+      "metaDescription": "Grand ou petit : observer des objets familiers et entourer le plus grand ou le plus petit de la série. Fiches maternelle PDF gratuites + jeu en ligne."
+    },
+    "matching": {
+      "title": "Jeux d'association à imprimer – maternelle (PDF)",
+      "h1": "Jeux d'association d'images",
+      "metaDescription": "Jeux d'association : relier chaque image à celle qui va avec pour former des paires logiques. 90 fiches maternelle PDF gratuites, à imprimer ou en ligne."
+    },
+    "grid-match": {
+      "title": "Association en grille – jeux à imprimer (PDF)",
+      "h1": "Retrouve la bonne case dans la grille",
+      "metaDescription": "Retrouver dans la grille la case qui correspond à chaque image donnée en légende. Fiches d'observation PDF gratuites à imprimer, jouables aussi en ligne."
+    },
+    "missing-pieces": {
+      "title": "Pièces manquantes – jeu à imprimer (PDF)",
+      "h1": "Retrouve la pièce manquante",
+      "metaDescription": "Retrouver la pièce qui complète l'image parmi plusieurs propositions proches. Fiches d'observation PDF gratuites, avec corrigé et version en ligne."
+    },
+    "math-puzzle": {
+      "title": "Puzzle mathématique à imprimer – CP (PDF)",
+      "h1": "Puzzles mathématiques",
+      "metaDescription": "Chaque symbole cache un nombre : additionner et soustraire pour percer le code du puzzle. Fiches CP en PDF gratuit avec corrigé, à imprimer ou en ligne."
+    },
+    "math-worksheet": {
+      "title": "Fiches de calcul GS – additions à imprimer (PDF)",
+      "h1": "Fiches de calcul en grande section",
+      "metaDescription": "Fiches de calcul : lignes d'additions et de soustractions jusqu'à 10 à compléter, avec appui d'images. PDF gratuit avec corrigé, à imprimer ou en ligne."
+    },
+    "addition": {
+      "title": "Addition maternelle GS – fiches à imprimer PDF",
+      "h1": "L'addition en maternelle",
+      "metaDescription": "Premières additions : compter les images de deux groupes et écrire la somme jusqu'à 10. Près de 200 fiches GS en PDF gratuit, à imprimer ou en ligne."
+    },
+    "subtraction": {
+      "title": "Soustraction maternelle GS – fiches à imprimer",
+      "h1": "La soustraction en maternelle",
+      "metaDescription": "Premières soustractions : barrer des images pour trouver ce qu'il reste, jusqu'à 10. Près de 200 fiches GS en PDF gratuit, à imprimer ou jouer en ligne."
+    },
+    "code-addition": {
+      "title": "Addition codée – jeux de calcul à imprimer PDF",
+      "h1": "Additions codées : décode et calcule",
+      "metaDescription": "Additions codées : chaque dessin vaut un nombre, l'enfant décode puis calcule la somme. Fiches GS en PDF gratuit avec corrigé, à imprimer ou en ligne."
+    },
+    "cryptogram": {
+      "title": "Messages codés à imprimer – jeux de décodage",
+      "h1": "Messages codés : décode le mot secret",
+      "metaDescription": "Messages codés : remplacer chaque symbole par sa lettre pour révéler le mot secret. Une centaine de fiches PDF gratuites, à imprimer ou à jouer en ligne."
+    },
+    "word-guess": {
+      "title": "Devine le mot – jeu de lecture à imprimer PDF",
+      "h1": "Devine le mot illustré",
+      "metaDescription": "Devine le mot : deviner le mot illustré lettre à lettre, avec indices. Fiches de lecture GS en PDF gratuit, à imprimer ou à jouer en ligne."
+    },
+    "word-scramble": {
+      "title": "Lettres mélangées – remettre en ordre (PDF)",
+      "h1": "Lettres mélangées : reforme le mot",
+      "metaDescription": "Lettres mélangées : remettre les lettres dans l'ordre pour reformer le mot illustré. Fiches CP en PDF gratuit avec corrigé, à imprimer ou en ligne."
+    },
+    "alphabet-train": {
+      "title": "Train de l'alphabet – fiches maternelle (PDF)",
+      "h1": "Le train de l'alphabet",
+      "metaDescription": "Le train de l'alphabet : compléter les wagons avec les lettres manquantes, dans l'ordre. Fiches maternelle PDF gratuites, à imprimer ou en ligne."
+    },
+    "prepositions": {
+      "title": "Prépositions spatiales – fiches maternelle PDF",
+      "h1": "Sur, sous, devant, derrière…",
+      "metaDescription": "Prépositions spatiales : dire si l'objet est sur, sous, devant ou derrière, et choisir la bonne image. Fiches maternelle PDF gratuites + jeu en ligne."
+    },
+    "bingo": {
+      "title": "Loto maternelle à imprimer – cartes gratuites PDF",
+      "h1": "Jeux de loto pour la maternelle",
+      "metaDescription": "Lotos illustrés : cartons et planches à imprimer sur les animaux, les fruits, Noël… pour le vocabulaire et l'attention. PDF gratuit + version en ligne."
+    },
+    "picture-sort": {
+      "title": "Jeux de tri maternelle – images à classer (PDF)",
+      "h1": "Trier et classer les images",
+      "metaDescription": "Ateliers de tri : classer les images en deux familles (fruits ou légumes, animaux ou véhicules…). Fiches maternelle PDF gratuites + jeu en ligne."
+    },
+    "find-and-count": {
+      "title": "Cherche, trouve et compte – fiches maternelle",
+      "h1": "Cherche, trouve et compte !",
+      "metaDescription": "Cherche, trouve et compte : retrouver chaque dessin dans l'image puis écrire combien il y en a. Fiches maternelle PDF gratuites + jeu en ligne."
+    },
+    "chart-count": {
+      "title": "Compter et remplir le graphique – maternelle",
+      "h1": "Compte et remplis le graphique",
+      "metaDescription": "Compter chaque type d'objet et colorier le graphique à la bonne hauteur. Fiches de numération GS en PDF gratuit, à imprimer ou à jouer en ligne."
+    },
+    "pattern-train": {
+      "title": "Suites logiques maternelle à imprimer (PDF)",
+      "h1": "Suites logiques : continue la suite",
+      "metaDescription": "Suites logiques : observer le train d'images et compléter ce qui vient ensuite (rythmes AB, AAB, ABC…). 240 fiches PDF gratuites + jeu en ligne."
+    },
+    "pattern-worksheet": {
+      "title": "Suites logiques CP – exercices à imprimer PDF",
+      "h1": "Suites logiques au CP",
+      "metaDescription": "Suites logiques CP : repérer la régularité d'une suite et entourer ce qui la continue. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne."
+    },
+    "patterns": {
+      "title": "Suites logiques – exercices et régularités PDF",
+      "h1": "Régularités et suites logiques",
+      "metaDescription": "Régularités et algorithmes : poursuivre des suites d'images selon la règle observée. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne."
+    },
+    "counting-pictures": {
+      "title": "Dénombrement maternelle – compter les images",
+      "h1": "Dénombrement : compte les images",
+      "metaDescription": "Dénombrement : compter les objets de chaque collection et écrire le nombre correspondant. Fiches maternelle PDF gratuites + jeu en ligne."
+    },
+    "counting-frames": {
+      "title": "Boîtes de dix – fiches de numération (PDF)",
+      "h1": "Les boîtes de dix",
+      "metaDescription": "Boîtes de dix : représenter les quantités dans des cadres de dix cases pour structurer le nombre. Fiches PDF gratuites, à imprimer ou en ligne."
+    },
+    "tally-counting": {
+      "title": "Comptage en bâtons – fiches à imprimer (PDF)",
+      "h1": "Compter avec des bâtons",
+      "metaDescription": "Compter avec des bâtons de dénombrement et relier les marques aux quantités. Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne."
+    },
+    "number-charts": {
+      "title": "Tableau des nombres à imprimer – exercices PDF",
+      "h1": "Le tableau des nombres",
+      "metaDescription": "Tableaux des nombres à compléter jusqu'à 100 : écrire les nombres manquants et s'orienter dans la grille. PDF gratuit avec corrigé + en ligne."
+    },
+    "comparing-numbers": {
+      "title": "Comparer les nombres – exercices à imprimer",
+      "h1": "Comparer les nombres",
+      "metaDescription": "Comparer les nombres avec <, > et = et ranger des nombres en ordre croissant. Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne."
+    },
+    "comparing-groups": {
+      "title": "Comparer les quantités GS – fiches à imprimer",
+      "h1": "Comparer les quantités",
+      "metaDescription": "Comparer les quantités : compter deux collections et dire laquelle en a le plus. Fiches GS en PDF gratuit, à imprimer ou à jouer en ligne."
+    },
+    "comparing-sizes": {
+      "title": "Comparer les tailles et longueurs – maternelle",
+      "h1": "Comparer tailles et longueurs",
+      "metaDescription": "Comparer tailles et longueurs : entourer le plus long, le plus court, le plus grand. Fiches maternelle PDF gratuites, à imprimer ou en ligne."
+    },
+    "number-lines": {
+      "title": "Droite numérique à imprimer – exercices (PDF)",
+      "h1": "La droite numérique",
+      "metaDescription": "Droites numériques : placer des nombres et compléter les graduations manquantes. Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne."
+    },
+    "base-ten": {
+      "title": "Dizaines et unités – exercices à imprimer PDF",
+      "h1": "Dizaines et unités",
+      "metaDescription": "Dizaines et unités : décomposer les nombres avec barres et cubes puis écrire le total. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne."
+    },
+    "telling-time": {
+      "title": "Lire l'heure – exercices à imprimer (PDF)",
+      "h1": "Apprendre à lire l'heure",
+      "metaDescription": "Lire l'heure sur l'horloge : heures justes, demi-heures puis minutes ; lire et placer les aiguilles. Fiches CP-CE2 en PDF gratuit + horloge en ligne."
+    },
+    "fractions": {
+      "title": "Fractions – exercices à imprimer CE1-CE2 (PDF)",
+      "h1": "Les fractions en CE1 et CE2",
+      "metaDescription": "Fractions CE1-CE2 : colorier la part indiquée, lire et écrire 1/2, 1/3, 1/4. Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne."
+    },
+    "graphing-data": {
+      "title": "Lire un graphique – exercices à imprimer PDF",
+      "h1": "Lire et compléter un graphique",
+      "metaDescription": "Lire un graphique : compter, comparer et interpréter des données illustrées. Fiches CP-CE2 en PDF gratuit avec corrigé, à imprimer ou en ligne."
+    },
+    "arrays-multiplication": {
+      "title": "Multiplication CE1-CE2 – exercices illustrés",
+      "h1": "Premières multiplications",
+      "metaDescription": "Premières multiplications : compter des rangées égales et écrire l'addition répétée. Fiches CE1-CE2 en PDF gratuit avec corrigé + en ligne."
+    },
+    "geometry": {
+      "title": "Géométrie – exercices à imprimer CE1-CE2 PDF",
+      "h1": "La géométrie en CE1 et CE2",
+      "metaDescription": "Formes géométriques : reconnaître, nommer et trier carrés, cercles, triangles… Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne."
+    },
+    "measurement": {
+      "title": "Grandeurs et mesures – exercices à imprimer",
+      "h1": "Grandeurs et mesures",
+      "metaDescription": "Grandeurs et mesures : comparer, estimer et mesurer des longueurs avec la règle. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne."
+    },
+    "visual-logic": {
+      "title": "Logique visuelle – jeux à imprimer (PDF)",
+      "h1": "Jeux de logique visuelle",
+      "metaDescription": "Jeux de logique visuelle : matrices, positions et enchaînements d'images à compléter. Fiches PDF gratuites, à imprimer ou à jouer en ligne."
+    },
+    "visual-discrimination": {
+      "title": "Discrimination visuelle à imprimer – maternelle",
+      "h1": "Discrimination visuelle",
+      "metaDescription": "Discrimination visuelle : retrouver les images identiques et repérer les différences. Fiches maternelle PDF gratuites + jeu en ligne."
+    },
+    "visual-matching": {
+      "title": "Associations visuelles – fiches à imprimer PDF",
+      "h1": "Associations visuelles",
+      "metaDescription": "Associations visuelles : relier les images qui vont ensemble parmi des propositions proches. Fiches PDF gratuites, à imprimer ou en ligne."
+    },
+    "position-words": {
+      "title": "Se repérer dans l'espace – fiches maternelle",
+      "h1": "Se repérer dans l'espace",
+      "metaDescription": "Se repérer dans l'espace : sur, sous, devant, derrière… choisir l'image qui correspond à la position. Fiches GS en PDF gratuit + en ligne."
+    },
+    "sorting-categories": {
+      "title": "Trier par catégories – fiches à imprimer PDF",
+      "h1": "Trier par catégories",
+      "metaDescription": "Trier par catégories : regrouper les images qui appartiennent à la même famille. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne."
+    },
+    "picture-arithmetic": {
+      "title": "Calcul illustré – additions en images (PDF)",
+      "h1": "Calcul illustré",
+      "metaDescription": "Calcul illustré : additionner et soustraire à partir d'images puis écrire l'opération en chiffres. Fiches CP en PDF gratuit + jeu en ligne."
+    },
+    "science-sort": {
+      "title": "Tri en sciences – vivant, objets, matières (PDF)",
+      "h1": "Trier en sciences",
+      "metaDescription": "Trier en sciences : vivant ou non-vivant, flotte ou coule… classer des images selon un critère. Fiches PDF gratuites + version en ligne."
+    },
+    "science-match": {
+      "title": "Associations en sciences – fiches à imprimer",
+      "h1": "Associer en sciences",
+      "metaDescription": "Associer en sciences : relier chaque animal à son habitat, son petit ou son alimentation. Fiches PDF gratuites, à imprimer ou en ligne."
+    },
+    "science-sequence": {
+      "title": "Ordre et cycles de vie – fiches sciences (PDF)",
+      "h1": "Cycles de vie : remets dans l'ordre",
+      "metaDescription": "Remettre dans l'ordre les étapes d'un cycle de vie illustré. Fiches sciences PDF gratuites avec corrigé, à imprimer ou à jouer en ligne."
+    },
+    "beginning-sounds": {
+      "title": "Sons initiaux – fiches de phonologie (PDF)",
+      "h1": "Le son d'attaque des mots",
+      "metaDescription": "Sons initiaux : dire le mot illustré et retrouver le son d'attaque. Fiches de phonologie GS en PDF gratuit, à imprimer ou à jouer en ligne."
+    },
+    "letter-knowledge": {
+      "title": "Connaissance des lettres GS – fiches (PDF)",
+      "h1": "Connaissance des lettres",
+      "metaDescription": "Connaissance des lettres : reconnaître capitales, scriptes et cursives et les associer. Fiches GS en PDF gratuit, à imprimer ou en ligne."
+    },
+    "word-building": {
+      "title": "Construction de mots – lettres à replacer PDF",
+      "h1": "Construis le mot",
+      "metaDescription": "Construction de mots : replacer les lettres pour écrire le mot illustré. Fiches GS-CP en PDF gratuit avec corrigé, à imprimer ou en ligne."
+    },
+    "picture-vocabulary": {
+      "title": "Vocabulaire en images – imagiers à imprimer",
+      "h1": "Vocabulaire en images",
+      "metaDescription": "Imagiers et vocabulaire en images : nommer, relier et écrire les mots illustrés. Fiches maternelle PDF gratuites, à imprimer ou en ligne."
+    },
+    "phonological-awareness": {
+      "title": "Conscience phonologique – exercices à imprimer",
+      "h1": "Conscience phonologique",
+      "metaDescription": "Conscience phonologique : compter les syllabes, repérer rimes et sons d'attaque à partir d'images. Fiches GS en PDF gratuit + jeu en ligne."
+    },
+    "preschool": {
+      "title": "Fiches maternelle à imprimer – PS et MS (PDF)",
+      "h1": "Fiches maternelle (petite et moyenne section)",
+      "metaDescription": "Près de 400 fiches PS-MS : comparer les quantités, grand/petit, observation, premières lettres. PDF gratuit à imprimer, jouable aussi en ligne."
+    },
+    "kindergarten": {
+      "title": "Fiches grande section (GS) à imprimer – gratuit",
+      "h1": "Fiches grande section à imprimer",
+      "metaDescription": "Plus de 2 400 fiches grande section : numération, additions, phonologie, suites logiques et observation. PDF gratuit à imprimer + jeux en ligne."
+    },
+    "grade-1": {
+      "title": "Fiches CP à imprimer – exercices gratuits (PDF)",
+      "h1": "Fiches et exercices CP à imprimer",
+      "metaDescription": "Plus de 500 fiches CP : calcul, puzzles mathématiques, mots mêlés, lecture de l'heure. PDF gratuit avec corrigé, à imprimer ou à jouer en ligne."
+    },
+    "grade-2": {
+      "title": "Exercices CE1 à imprimer – fiches gratuites PDF",
+      "h1": "Exercices CE1 à imprimer",
+      "metaDescription": "Exercices CE1 : fractions, géométrie, multiplication, lire l'heure, mots croisés. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne."
+    },
+    "grade-3": {
+      "title": "Exercices CE2 à imprimer – fiches gratuites PDF",
+      "h1": "Exercices CE2 à imprimer",
+      "metaDescription": "Exercices CE2 : fractions, géométrie, multiplications et lecture de l'heure. Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne."
+    },
+    "animals": {
+      "title": "Fiches animaux maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les animaux",
+      "metaDescription": "Fiches sur les animaux pour la maternelle et le CP : loto, mots mêlés, tri, dénombrement… environ 150 fiches PDF gratuites, à imprimer ou en ligne."
+    },
+    "farm_animals": {
+      "title": "Animaux de la ferme – fiches maternelle (PDF)",
+      "h1": "Les animaux de la ferme",
+      "metaDescription": "Les animaux de la ferme en fiches : loto, ombres, tri et dénombrement à la ferme. PDF gratuit maternelle, à imprimer ou en ligne."
+    },
+    "zoo_animals": {
+      "title": "Animaux du zoo – fiches maternelle à imprimer",
+      "h1": "Les animaux du zoo",
+      "metaDescription": "Les animaux du zoo en fiches : loto, ombres, comptage et jeux d'observation. PDF gratuit maternelle, à imprimer ou à jouer en ligne."
+    },
+    "pets": {
+      "title": "Animaux de compagnie – fiches à imprimer PDF",
+      "h1": "Les animaux de compagnie",
+      "metaDescription": "Les animaux de compagnie en fiches : associer, compter et observer chiens, chats… PDF gratuit maternelle, à imprimer ou en ligne."
+    },
+    "birds": {
+      "title": "Oiseaux – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les oiseaux",
+      "metaDescription": "Fiches sur les oiseaux : loto, mots mêlés, tri et comptage autour des oiseaux. PDF gratuit maternelle-CP, à imprimer ou à jouer en ligne."
+    },
+    "dinosaurs": {
+      "title": "Dinosaures – fiches à imprimer gratuit (PDF)",
+      "h1": "Fiches dinosaures",
+      "metaDescription": "Fiches dinosaures : comptage, ombres, mots mêlés et jeux d'observation. PDF gratuit maternelle-CP, à imprimer ou à jouer en ligne."
+    },
+    "fruits": {
+      "title": "Fruits – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les fruits",
+      "metaDescription": "Les fruits en fiches : dénombrement, tri fruits/légumes, mots mêlés et loto. Plus de 110 fiches PDF gratuites, à imprimer ou en ligne."
+    },
+    "vegetables": {
+      "title": "Légumes – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les légumes",
+      "metaDescription": "Les légumes en fiches : tri, dénombrement, loto et vocabulaire du potager. PDF gratuit maternelle, à imprimer ou à jouer en ligne."
+    },
+    "colors": {
+      "title": "Couleurs – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les couleurs",
+      "metaDescription": "Les couleurs en fiches : trier, associer et nommer les couleurs à travers des jeux. PDF gratuit maternelle, à imprimer ou à jouer en ligne."
+    },
+    "shapes": {
+      "title": "Formes géométriques – fiches maternelle (PDF)",
+      "h1": "Les formes géométriques",
+      "metaDescription": "Les formes géométriques en fiches : reconnaître, trier et prolonger des suites de formes. PDF gratuit maternelle, à imprimer ou en ligne."
+    },
+    "body_parts": {
+      "title": "Parties du corps – fiches maternelle (PDF)",
+      "h1": "Les parties du corps",
+      "metaDescription": "Les parties du corps en fiches : nommer, associer et compter autour du corps humain. PDF gratuit maternelle, à imprimer ou à jouer en ligne."
+    },
+    "clothing": {
+      "title": "Vêtements – fiches maternelle à imprimer PDF",
+      "h1": "Les vêtements",
+      "metaDescription": "Les vêtements en fiches : vocabulaire, tri, association et jeux d'observation. PDF gratuit maternelle, à imprimer ou à jouer en ligne."
+    },
+    "emotions": {
+      "title": "Émotions – fiches maternelle à imprimer (PDF)",
+      "h1": "Les émotions",
+      "metaDescription": "Les émotions en fiches : reconnaître, nommer et associer les expressions du visage. PDF gratuit maternelle, à imprimer ou à jouer en ligne."
+    },
+    "toys": {
+      "title": "Jouets – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les jouets",
+      "metaDescription": "Fiches sur les jouets : dénombrement, tri, ombres et mots mêlés des jouets. Plus de 100 fiches PDF gratuites, à imprimer ou en ligne."
+    },
+    "vehicles": {
+      "title": "Véhicules – fiches maternelle à imprimer PDF",
+      "h1": "Fiches sur les véhicules",
+      "metaDescription": "Fiches sur les véhicules : loto des transports, comptage, tri et ombres. Plus de 110 fiches PDF gratuites, à imprimer ou en ligne."
+    },
+    "flowers": {
+      "title": "Fleurs – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les fleurs",
+      "metaDescription": "Fiches sur les fleurs : compter, trier, associer et observer autour du jardin. PDF gratuit maternelle, à imprimer ou à jouer en ligne."
+    },
+    "tree": {
+      "title": "Arbres – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les arbres",
+      "metaDescription": "Fiches sur les arbres : compter, trier et observer la nature au fil des saisons. PDF gratuit maternelle, à imprimer ou à jouer en ligne."
+    },
+    "music": {
+      "title": "Musique – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur la musique",
+      "metaDescription": "Fiches sur la musique : instruments à nommer, associer, compter et retrouver. PDF gratuit maternelle, à imprimer ou à jouer en ligne."
+    },
+    "kitchen_tools": {
+      "title": "Ustensiles de cuisine – fiches maternelle PDF",
+      "h1": "Les ustensiles de cuisine",
+      "metaDescription": "Les ustensiles de cuisine en fiches : vocabulaire, tri et jeux d'observation. PDF gratuit maternelle, à imprimer ou à jouer en ligne."
+    }
+  },
+  "intersection": {}
+}

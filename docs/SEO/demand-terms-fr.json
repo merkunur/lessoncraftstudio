@@ -1,0 +1,1101 @@
+{
+  "locale": "fr",
+  "generated": "2026-07-06",
+  "sources": {
+    "harvest": "docs/SEO/harvests/fr.json (357 seeds, 2154 unique google.fr suggestions, hl=fr&gl=fr, 2026-07-06)",
+    "serp": "18 WebSearch SERP samples 2026-07-06 (verdicts in docs/SEO/demand-map-fr.md §Topic-page)",
+    "inventory": "docs/SEO/deck-inventory-type-level.json + deck-inventory-themes.json (fr = 3 705 decks)"
+  },
+  "titlePattern": {
+    "maxChars": 65,
+    "idealChars": 51,
+    "brandNote": "brand is appended by template — never include '| LessonCraftStudio' in these strings",
+    "typeHead": "{Nom du jeu, forme de demande} à imprimer – {qualificatif honnête} (PDF)",
+    "typeGrade": "{Type} {grande section|CP|CE1|CE2} – {fiches|exercices|jeu} à imprimer (PDF)",
+    "themeHead": "{Thème} – fiches maternelle à imprimer (PDF)",
+    "levelHead": "{Fiches|Exercices} {niveau} à imprimer – gratuit (PDF)",
+    "register": "maternelle → «fiches» ; élémentaire (CP+) → «exercices». «à imprimer» quasi obligatoire ; gratuit + PDF portent la longue traîne ; «en ligne» honnête (decks jouables) mais réservé au corps/méta, sauf pages online dédiées.",
+    "avoid": [
+      "«fiches de travail» (calque belge)",
+      "«mots fléchés» en titre (nos grilles sont des mots croisés à images numérotés, pas des grilles fléchées)",
+      "«coloriage magique» (produit absent — gap connu)",
+      "«mathématiques» en titre (le registre de recherche est «maths»)"
+    ]
+  },
+  "singleAxis": {
+    "wordsearch": {
+      "primaryQuery": "mots mêlés enfant à imprimer",
+      "evidence": "harvest",
+      "title": "Mots mêlés enfants à imprimer – gratuit (PDF)",
+      "h1": "Mots mêlés pour enfants à imprimer",
+      "metaDescription": "Grilles de mots mêlés illustrées pour enfants : repérer et entourer les mots cachés, thème par thème (animaux, Noël, fruits…). PDF gratuit avec corrigé, aussi en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Tête «mots mêlés à imprimer» = HARD (caboucadin, maviedesenior, face seniors/adultes) ; la face enfant/CP est ouverte (blogs seulement). Synonyme «mots cachés» dans le corps. Decks fr = CP uniquement."
+    },
+    "crossword": {
+      "primaryQuery": "mots croisés faciles",
+      "evidence": "harvest",
+      "title": "Mots croisés enfants à imprimer – gratuit (PDF)",
+      "h1": "Mots croisés pour enfants",
+      "metaDescription": "Mots croisés illustrés pour enfants (CE1) : écrire dans la grille le mot qui correspond à chaque image. PDF gratuit avec corrigé, à imprimer ou à jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Tête «mots croisés» = journaux (Le Parisien…), SKIP ; face enfant fragmentée (lululataupe, anniversaire-en-or). Ne PAS titrer «mots fléchés» (grilles non fléchées) ; «mots croisés en images» honnête en corps. Gap production : «mots croisés grande section/maternelle» a une vraie demande, 0 deck GS."
+    },
+    "sudoku": {
+      "primaryQuery": "sudoku enfant à imprimer",
+      "evidence": "serp",
+      "title": "Sudoku enfant à imprimer – grilles faciles (PDF)",
+      "h1": "Sudoku pour enfants : grilles illustrées",
+      "metaDescription": "Sudokus illustrés 4×4 pour la maternelle : placer chaque image une seule fois par ligne et par colonne. Grilles PDF gratuites à imprimer, jouables aussi en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "SERP = blogs (caboucadin, ieducatif, lululataupe, petiteschassesautresor) ; notre sudoku-images 4×4 colle exactement à la face maternelle/débutant."
+    },
+    "shadow-match": {
+      "primaryQuery": "jeu des ombres à imprimer",
+      "evidence": "serp",
+      "title": "Jeu des ombres à imprimer – gratuit (PDF)",
+      "h1": "Jeu des ombres : retrouve la silhouette",
+      "metaDescription": "Jeu des ombres : relier chaque dessin à sa silhouette pour travailler l'observation. Plus de 140 fiches PDF gratuites à imprimer, jouables aussi en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "SERP = petits sites (turbulus, lepopeeludique, lululataupe, tibidous) ; 141 decks GS = la plus grosse offre du marché sur cette face."
+    },
+    "odd-one-out": {
+      "primaryQuery": "trouver l'intrus maternelle",
+      "evidence": "harvest",
+      "title": "Trouver l'intrus – exercices à imprimer (PDF)",
+      "h1": "Jeu de l'intrus à imprimer",
+      "metaDescription": "Jeu de l'intrus : observer chaque série d'images et barrer celle qui ne va pas avec les autres. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«l'intrus» nu = noise (livre L'Intruse) ; les formes «trouver/barre l'intrus + niveau» sont scolaires et ouvertes (lululataupe, tibidous, pass-education)."
+    },
+    "find-objects": {
+      "primaryQuery": "cherche et trouve à imprimer",
+      "evidence": "serp",
+      "title": "Cherche et trouve à imprimer – gratuit (PDF)",
+      "h1": "Cherche et trouve : objets cachés",
+      "metaDescription": "Cherche et trouve : retrouver tous les objets cachés dans une grande scène illustrée. Fiches PDF gratuites à imprimer, jouables aussi en ligne.",
+      "winnability": "HARD",
+      "notes": "«cherche et trouve» est LA formulation française (pas «trouve les objets») ; concurrence moyenne (escape-kit, lescoffresmagiques, lululataupe) mais demande large ; longue traîne thèmes forte."
+    },
+    "picture-path": {
+      "primaryQuery": "labyrinthe à imprimer maternelle",
+      "evidence": "serp",
+      "title": "Labyrinthes à imprimer – maternelle GS (PDF)",
+      "h1": "Labyrinthes sur quadrillage",
+      "metaDescription": "Labyrinthes sur quadrillage pour la maternelle : tracer le chemin case par case jusqu'à l'arrivée sans traverser les murs. PDF gratuit + version en ligne.",
+      "winnability": "HARD",
+      "notes": "«labyrinthe» est le mot de demande (pas «parcours illustré») ; tête occupée (caboucadin 150 grilles, dessinemoiunehistoire, lululataupe) ; jouer la face «labyrinthe en grille/quadrillage» + thèmes."
+    },
+    "treasure-hunt": {
+      "primaryQuery": "chasse au trésor gratuite à imprimer pdf",
+      "evidence": "harvest",
+      "title": "Chasse au trésor à imprimer – gratuit (PDF)",
+      "h1": "Chasse au trésor sur quadrillage",
+      "metaDescription": "Chasse au trésor sur quadrillage : suivre les indices case après case pour localiser le trésor sur la grille. Fiches PDF gratuites, à imprimer ou en ligne.",
+      "winnability": "HARD",
+      "notes": "MISMATCH d'intention : la tête = kits d'anniversaire à énigmes (escape-kit, petiteschassesautresor 101 kits) — notre deck est un jeu de repérage sur grille. Copy 100 % honnête, viser «chasse au trésor cp» (intersection) et les faces scolaires."
+    },
+    "more-less": {
+      "primaryQuery": "plus ou moins maternelle",
+      "evidence": "harvest",
+      "title": "Plus ou moins – comparer en maternelle (PDF)",
+      "h1": "Plus ou moins : compare les quantités",
+      "metaDescription": "Plus ou moins : compter deux collections d'images et entourer celle qui en a le plus ou le moins. Fiches maternelle PDF gratuites, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«plus ou moins» nu = noise (symbole, synonyme) ; la face maternelle («plus ou moins maternelle», «jeu plus ou moins maternelle») est étroite mais propre. 146 decks PS-MS."
+    },
+    "big-small": {
+      "primaryQuery": "grand petit maternelle",
+      "evidence": "harvest",
+      "title": "Grand ou petit – exercices maternelle (PDF)",
+      "h1": "Grand ou petit ?",
+      "metaDescription": "Grand ou petit : observer des objets familiers et entourer le plus grand ou le plus petit de la série. Fiches maternelle PDF gratuites + jeu en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«grand ou petit» nu = noise total ; «grand petit maternelle» / «grand moyen petit maternelle» sont les vraies formes. Niche calme, 94 decks PS."
+    },
+    "matching": {
+      "primaryQuery": "jeu d appariement maternelle",
+      "evidence": "harvest",
+      "title": "Jeux d'association à imprimer – maternelle (PDF)",
+      "h1": "Jeux d'association d'images",
+      "metaDescription": "Jeux d'association : relier chaque image à celle qui va avec pour former des paires logiques. 90 fiches maternelle PDF gratuites, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«appariement» nu = registre universitaire (SES, chromosomes) — titrer «jeux d'association», le mot parent/instit. «appariement» reste dans le slug taxonomie, pas dans le titre."
+    },
+    "grid-match": {
+      "primaryQuery": "jeu d appariement maternelle",
+      "evidence": "harvest",
+      "title": "Association en grille – jeux à imprimer (PDF)",
+      "h1": "Retrouve la bonne case dans la grille",
+      "metaDescription": "Retrouver dans la grille la case qui correspond à chaque image donnée en légende. Fiches d'observation PDF gratuites à imprimer, jouables aussi en ligne.",
+      "winnability": "SKIP",
+      "notes": "Aucune face de requête propre distincte de matching ; page servie par les thèmes et le maillage. Ne pas pousser en priorité."
+    },
+    "missing-pieces": {
+      "primaryQuery": "pièces manquantes puzzle",
+      "evidence": "harvest",
+      "title": "Pièces manquantes – jeu à imprimer (PDF)",
+      "h1": "Retrouve la pièce manquante",
+      "metaDescription": "Retrouver la pièce qui complète l'image parmi plusieurs propositions proches. Fiches d'observation PDF gratuites, avec corrigé et version en ligne.",
+      "winnability": "SKIP",
+      "notes": "«pièces manquantes» = intention produit (Lego, Ikea, Ravensburger) ; pas de face scolaire harvestée. Longue traîne thèmes uniquement."
+    },
+    "math-puzzle": {
+      "primaryQuery": "puzzle mathématique",
+      "evidence": "harvest",
+      "title": "Puzzle mathématique à imprimer – CP (PDF)",
+      "h1": "Puzzles mathématiques",
+      "metaDescription": "Chaque symbole cache un nombre : additionner et soustraire pour percer le code du puzzle. Fiches CP en PDF gratuit avec corrigé, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«puzzle mathématique(s) à imprimer / gratuit» harvesté avec quasi zéro concurrence dédiée. 146 decks CP."
+    },
+    "math-worksheet": {
+      "primaryQuery": "exercices calcul maternelle grande section",
+      "evidence": "harvest",
+      "title": "Fiches de calcul GS – additions à imprimer (PDF)",
+      "h1": "Fiches de calcul en grande section",
+      "metaDescription": "Fiches de calcul : lignes d'additions et de soustractions jusqu'à 10 à compléter, avec appui d'images. PDF gratuit avec corrigé, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Face «calcul» (drill d'opérations), distincte du hub Maths×GS qui possède «exercices maths grande section» — ne pas empiéter sur l'ombrelle «maths»."
+    },
+    "addition": {
+      "primaryQuery": "addition maternelle",
+      "evidence": "harvest",
+      "title": "Addition maternelle GS – fiches à imprimer PDF",
+      "h1": "L'addition en maternelle",
+      "metaDescription": "Premières additions : compter les images de deux groupes et écrire la somme jusqu'à 10. Près de 200 fiches GS en PDF gratuit, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«addition maternelle» + qualifiers pdf/à imprimer/en ligne harvestés ; concurrence = blogs (tizofun, webinstit). «addition cp» (énorme) est HORS page : 0 deck CP — géré par hub Maths×CP et landings."
+    },
+    "subtraction": {
+      "primaryQuery": "soustraction maternelle",
+      "evidence": "harvest",
+      "title": "Soustraction maternelle GS – fiches à imprimer",
+      "h1": "La soustraction en maternelle",
+      "metaDescription": "Premières soustractions : barrer des images pour trouver ce qu'il reste, jusqu'à 10. Près de 200 fiches GS en PDF gratuit, à imprimer ou jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«soustraction maternelle / grande section / fiche soustraction maternelle» harvestés. «soustraction ce1 avec retenue» (gros) = hors inventaire, ne pas viser."
+    },
+    "code-addition": {
+      "primaryQuery": "jeu addition maternelle",
+      "evidence": "harvest",
+      "title": "Addition codée – jeux de calcul à imprimer PDF",
+      "h1": "Additions codées : décode et calcule",
+      "metaDescription": "Additions codées : chaque dessin vaut un nombre, l'enfant décode puis calcule la somme. Fiches GS en PDF gratuit avec corrigé, à imprimer ou en ligne.",
+      "winnability": "HARD",
+      "notes": "«addition codée» n'a aucune demande fr (le seed a renvoyé du bruit CPT). La grosse classe adjacente = «coloriage magique addition» (produit absent — gap). Page portée par le maillage + la face «jeu addition maternelle»."
+    },
+    "cryptogram": {
+      "primaryQuery": "code secret grande section",
+      "evidence": "harvest",
+      "title": "Messages codés à imprimer – jeux de décodage",
+      "h1": "Messages codés : décode le mot secret",
+      "metaDescription": "Messages codés : remplacer chaque symbole par sa lettre pour révéler le mot secret. Une centaine de fiches PDF gratuites, à imprimer ou à jouer en ligne.",
+      "winnability": "HARD",
+      "notes": "«cryptogramme» = carte bancaire, SKIP le mot en tête de titre côté demande ; la petite face réelle est «code secret / message codé enfant». Précédent : cryptogramme = mur sans thème au niveau landing."
+    },
+    "word-guess": {
+      "primaryQuery": "devine le mot jeu",
+      "evidence": "harvest",
+      "title": "Devine le mot – jeu de lecture à imprimer PDF",
+      "h1": "Devine le mot illustré",
+      "metaDescription": "Devine le mot : deviner le mot illustré lettre à lettre, avec indices. Fiches de lecture GS en PDF gratuit, à imprimer ou à jouer en ligne.",
+      "winnability": "HARD",
+      "notes": "«devine le mot» = intention jeu en ligne type wordle (devinelemot.fr) ; nos decks jouent en ligne donc partiellement compatible, mais la face fiches est étroite."
+    },
+    "word-scramble": {
+      "primaryQuery": "lettres mélangées à imprimer",
+      "evidence": "harvest",
+      "title": "Lettres mélangées – remettre en ordre (PDF)",
+      "h1": "Lettres mélangées : reforme le mot",
+      "metaDescription": "Lettres mélangées : remettre les lettres dans l'ordre pour reformer le mot illustré. Fiches CP en PDF gratuit avec corrigé, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«lettres mélangées à imprimer / pour former un mot / cp / gs» harvestés ; concurrence = solveurs scrabble (autre intention) → face scolaire ouverte."
+    },
+    "alphabet-train": {
+      "primaryQuery": "le train de l'alphabet maternelle",
+      "evidence": "harvest",
+      "title": "Train de l'alphabet – fiches maternelle (PDF)",
+      "h1": "Le train de l'alphabet",
+      "metaDescription": "Le train de l'alphabet : compléter les wagons avec les lettres manquantes, dans l'ordre. Fiches maternelle PDF gratuites, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Noise Lego/Duplo sur «train alphabet» ; la face maternelle harvestée est à nous (63 decks PS, quasi aucune fiche concurrente)."
+    },
+    "prepositions": {
+      "primaryQuery": "prépositions spatiales maternelle",
+      "evidence": "harvest",
+      "title": "Prépositions spatiales – fiches maternelle PDF",
+      "h1": "Sur, sous, devant, derrière…",
+      "metaDescription": "Prépositions spatiales : dire si l'objet est sur, sous, devant ou derrière, et choisir la bonne image. Fiches maternelle PDF gratuites + jeu en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«prépositions» nu = grammaire/langues (SKIP) ; «prépositions spatiales maternelle / de lieu maternelle» harvesté, face propre. Le hub Repérage-espace×GS garde l'ombrelle «se repérer dans l'espace»."
+    },
+    "bingo": {
+      "primaryQuery": "loto maternelle à imprimer",
+      "evidence": "harvest",
+      "title": "Loto maternelle à imprimer – cartes gratuites PDF",
+      "h1": "Jeux de loto pour la maternelle",
+      "metaDescription": "Lotos illustrés : cartons et planches à imprimer sur les animaux, les fruits, Noël… pour le vocabulaire et l'attention. PDF gratuit + version en ligne.",
+      "winnability": "HARD",
+      "notes": "«loto» nu = FDJ (SKIP absolu) ; «loto maternelle à imprimer» réel mais tenu par dessinemoiunehistoire + laclassedelaurene → jouer les thèmes («loto des animaux…») et «loto des nombres GS»."
+    },
+    "picture-sort": {
+      "primaryQuery": "tri images maternelle",
+      "evidence": "harvest",
+      "title": "Jeux de tri maternelle – images à classer (PDF)",
+      "h1": "Trier et classer les images",
+      "metaDescription": "Ateliers de tri : classer les images en deux familles (fruits ou légumes, animaux ou véhicules…). Fiches maternelle PDF gratuites + jeu en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«tri images maternelle» harvesté ; genre atelier-tri bien connu des instits, concurrence blogs seulement. 139 decks GS."
+    },
+    "find-and-count": {
+      "primaryQuery": "cherche trouve et compte",
+      "evidence": "harvest",
+      "title": "Cherche, trouve et compte – fiches maternelle",
+      "h1": "Cherche, trouve et compte !",
+      "metaDescription": "Cherche, trouve et compte : retrouver chaque dessin dans l'image puis écrire combien il y en a. Fiches maternelle PDF gratuites + jeu en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "La forme harvestée vient d'un livre («cherche trouve et compte jusqu'à 10») — demande réelle, zéro offre de fiches gratuites en face."
+    },
+    "chart-count": {
+      "primaryQuery": "compter et colorier le graphique",
+      "evidence": "serp",
+      "title": "Compter et remplir le graphique – maternelle",
+      "h1": "Compte et remplis le graphique",
+      "metaDescription": "Compter chaque type d'objet et colorier le graphique à la bonne hauteur. Fiches de numération GS en PDF gratuit, à imprimer ou à jouer en ligne.",
+      "winnability": "SKIP",
+      "notes": "«comptage graphique» = zéro demande (noise Excel). Genre américain (graphing) sans équivalent de recherche fr — servir via thèmes + hub Maths GS."
+    },
+    "pattern-train": {
+      "primaryQuery": "suite logique maternelle à imprimer",
+      "evidence": "harvest",
+      "title": "Suites logiques maternelle à imprimer (PDF)",
+      "h1": "Suites logiques : continue la suite",
+      "metaDescription": "Suites logiques : observer le train d'images et compléter ce qui vient ensuite (rythmes AB, AAB, ABC…). 240 fiches PDF gratuites + jeu en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "LA vraie demande du type (pas «train de modèles») ; «suites logiques maternelle/gs/à imprimer/pdf» harvesté fort ; concurrence blogs (caboucadin 25 fiches) vs nos 242 decks + interactif. Le terme officiel «algorithmes» en corps."
+    },
+    "pattern-worksheet": {
+      "primaryQuery": "suite logique cp à imprimer",
+      "evidence": "harvest",
+      "title": "Suites logiques CP – exercices à imprimer PDF",
+      "h1": "Suites logiques au CP",
+      "metaDescription": "Suites logiques CP : repérer la régularité d'une suite et entourer ce qui la continue. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Face CP distincte de pattern-train (maternelle) — le grade sature la copy (précédent Wave 8). 49 decks CP."
+    },
+    "patterns": {
+      "primaryQuery": "suites logiques exercices",
+      "evidence": "harvest",
+      "title": "Suites logiques – exercices et régularités PDF",
+      "h1": "Régularités et suites logiques",
+      "metaDescription": "Régularités et algorithmes : poursuivre des suites d'images selon la règle observée. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne.",
+      "winnability": "HARD",
+      "notes": "3e face de la famille suites-logiques (après pattern-train maternelle + pattern-worksheet CP) : ne shipper qu'avec une copy visiblement distincte (face générique «régularités»), sinon replier. 17 decks."
+    },
+    "counting-pictures": {
+      "primaryQuery": "exercices numération maternelle",
+      "evidence": "harvest",
+      "title": "Dénombrement maternelle – compter les images",
+      "h1": "Dénombrement : compte les images",
+      "metaDescription": "Dénombrement : compter les objets de chaque collection et écrire le nombre correspondant. Fiches maternelle PDF gratuites + jeu en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«dénombrement» = le mot instit (cycle 1) ; «exercices numération maternelle» harvesté. 27 decks GS — grossir l'inventaire aiderait."
+    },
+    "counting-frames": {
+      "primaryQuery": "boite de 10 maternelle",
+      "evidence": "harvest",
+      "title": "Boîtes de dix – fiches de numération (PDF)",
+      "h1": "Les boîtes de dix",
+      "metaDescription": "Boîtes de dix : représenter les quantités dans des cadres de dix cases pour structurer le nombre. Fiches PDF gratuites, à imprimer ou en ligne.",
+      "winnability": "HARD",
+      "notes": "Demande minuscule (1 suggestion) ; concept peu installé en France (les instits disent «boîtes de 10» via Picbille). 9 decks — ni prioritaire ni produit."
+    },
+    "tally-counting": {
+      "primaryQuery": "compter avec des bâtons maternelle",
+      "evidence": "serp",
+      "title": "Comptage en bâtons – fiches à imprimer (PDF)",
+      "h1": "Compter avec des bâtons",
+      "metaDescription": "Compter avec des bâtons de dénombrement et relier les marques aux quantités. Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne.",
+      "winnability": "SKIP",
+      "notes": "Tally marks = genre anglo-saxon, pas de demande fr harvestée. 4 decks. Maillage seulement."
+    },
+    "number-charts": {
+      "primaryQuery": "tableau des nombres à imprimer",
+      "evidence": "harvest",
+      "title": "Tableau des nombres à imprimer – exercices PDF",
+      "h1": "Le tableau des nombres",
+      "metaDescription": "Tableaux des nombres à compléter jusqu'à 100 : écrire les nombres manquants et s'orienter dans la grille. PDF gratuit avec corrigé + en ligne.",
+      "winnability": "HARD",
+      "notes": "Tête tenue par recreakidz/lutinbazar/ecoledecrevette ; jouer «à compléter» + l'intersection CP. Le mot demande «file numérique» = affichage classe, autre intention."
+    },
+    "comparing-numbers": {
+      "primaryQuery": "comparer les nombres cp",
+      "evidence": "harvest",
+      "title": "Comparer les nombres – exercices à imprimer",
+      "h1": "Comparer les nombres",
+      "metaDescription": "Comparer les nombres avec <, > et = et ranger des nombres en ordre croissant. Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne.",
+      "winnability": "HARD",
+      "notes": "Demande forte («comparer les nombres cp/ce1» harvesté) mais 6 decks seulement — GAP DE PRODUCTION prioritaire, la page restera faible sans inventaire."
+    },
+    "comparing-groups": {
+      "primaryQuery": "comparer les quantités gs",
+      "evidence": "harvest",
+      "title": "Comparer les quantités GS – fiches à imprimer",
+      "h1": "Comparer les quantités",
+      "metaDescription": "Comparer les quantités : compter deux collections et dire laquelle en a le plus. Fiches GS en PDF gratuit, à imprimer ou à jouer en ligne.",
+      "winnability": "HARD",
+      "notes": "«comparer les quantités gs/ms/maternelle» harvesté (vrai vocabulaire cycle 1) mais 8 decks — gap de production ; more-less (146 decks PS) porte la face «plus ou moins»."
+    },
+    "comparing-sizes": {
+      "primaryQuery": "comparer les longueurs maternelle",
+      "evidence": "harvest",
+      "title": "Comparer les tailles et longueurs – maternelle",
+      "h1": "Comparer tailles et longueurs",
+      "metaDescription": "Comparer tailles et longueurs : entourer le plus long, le plus court, le plus grand. Fiches maternelle PDF gratuites, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Le registre réel est «comparer les longueurs» (grandeurs, cycle 1-2) plutôt que «tailles» ; les deux dans la copy. 15 decks GS."
+    },
+    "number-lines": {
+      "primaryQuery": "droite numérique à imprimer",
+      "evidence": "harvest",
+      "title": "Droite numérique à imprimer – exercices (PDF)",
+      "h1": "La droite numérique",
+      "metaDescription": "Droites numériques : placer des nombres et compléter les graduations manquantes. Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne.",
+      "winnability": "HARD",
+      "notes": "Grosse demande («droite numérique cp/vierge/à imprimer») mais 9 decks — GAP DE PRODUCTION ; la face «vierge» (gabarit) est une intention différente que nous ne servons pas."
+    },
+    "base-ten": {
+      "primaryQuery": "dizaines et unités exercices",
+      "evidence": "harvest",
+      "title": "Dizaines et unités – exercices à imprimer PDF",
+      "h1": "Dizaines et unités",
+      "metaDescription": "Dizaines et unités : décomposer les nombres avec barres et cubes puis écrire le total. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne.",
+      "winnability": "HARD",
+      "notes": "Demande TRÈS forte («dizaines et unités cp exercices» + en ligne) tenue par maitrelucas/recreakidz/pass-education ; 12 decks seulement — GAP DE PRODUCTION n°1 en maths CP."
+    },
+    "telling-time": {
+      "primaryQuery": "lire l'heure exercices",
+      "evidence": "harvest",
+      "title": "Lire l'heure – exercices à imprimer (PDF)",
+      "h1": "Apprendre à lire l'heure",
+      "metaDescription": "Lire l'heure sur l'horloge : heures justes, demi-heures puis minutes ; lire et placer les aiguilles. Fiches CP-CE2 en PDF gratuit + horloge en ligne.",
+      "winnability": "HARD",
+      "notes": "Tête tenue (maitrelucas 13 fiches, lutinbazar, pass-education, laclassebleue) ; les intersections CP/CE1/CE2 sont les vraies pages de conquête. 81 decks."
+    },
+    "fractions": {
+      "primaryQuery": "fractions exercices",
+      "evidence": "harvest",
+      "title": "Fractions – exercices à imprimer CE1-CE2 (PDF)",
+      "h1": "Les fractions en CE1 et CE2",
+      "metaDescription": "Fractions CE1-CE2 : colorier la part indiquée, lire et écrire 1/2, 1/3, 1/4. Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne.",
+      "winnability": "HARD",
+      "notes": "Tête générique = collège/CM (SKIP) ; la valeur est dans «fractions ce1» / «fractions ce2» (intersections). 68 decks."
+    },
+    "graphing-data": {
+      "primaryQuery": "lire un graphique ce1",
+      "evidence": "serp",
+      "title": "Lire un graphique – exercices à imprimer PDF",
+      "h1": "Lire et compléter un graphique",
+      "metaDescription": "Lire un graphique : compter, comparer et interpréter des données illustrées. Fiches CP-CE2 en PDF gratuit avec corrigé, à imprimer ou en ligne.",
+      "winnability": "SKIP",
+      "notes": "Pas de demande harvestée au primaire (genre US «graphing») ; «gestion de données» existe côté prof mais faible. Maillage seulement."
+    },
+    "arrays-multiplication": {
+      "primaryQuery": "exercices maths ce1 multiplication",
+      "evidence": "harvest",
+      "title": "Multiplication CE1-CE2 – exercices illustrés",
+      "h1": "Premières multiplications",
+      "metaDescription": "Premières multiplications : compter des rangées égales et écrire l'addition répétée. Fiches CE1-CE2 en PDF gratuit avec corrigé + en ligne.",
+      "winnability": "HARD",
+      "notes": "«tables de multiplication à imprimer» (énorme) = autre produit (gabarits), tenu — SKIP la tête ; face honnête = sens de la multiplication en réseaux/rangées."
+    },
+    "geometry": {
+      "primaryQuery": "géométrie ce1 exercices",
+      "evidence": "harvest",
+      "title": "Géométrie – exercices à imprimer CE1-CE2 PDF",
+      "h1": "La géométrie en CE1 et CE2",
+      "metaDescription": "Formes géométriques : reconnaître, nommer et trier carrés, cercles, triangles… Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne.",
+      "winnability": "HARD",
+      "notes": "Tête «géométrie» = noise (geometry dash !) ; faces grade (ce1/ce2 à imprimer) réelles → intersections. «fiche formes géométriques gs» appartient au THÈME formes (shapes), pas à ce type."
+    },
+    "measurement": {
+      "primaryQuery": "grandeurs et mesures maternelle",
+      "evidence": "harvest",
+      "title": "Grandeurs et mesures – exercices à imprimer",
+      "h1": "Grandeurs et mesures",
+      "metaDescription": "Grandeurs et mesures : comparer, estimer et mesurer des longueurs avec la règle. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne.",
+      "winnability": "HARD",
+      "notes": "«mesures» nu = noise (contention, soutien-gorge…) ; le registre scolaire est «grandeurs et mesures». Tenu par bout-de-gomme/lutinbazar au CE ; 35 decks répartis."
+    },
+    "visual-logic": {
+      "primaryQuery": "jeux de logique visuelle",
+      "evidence": "harvest",
+      "title": "Logique visuelle – jeux à imprimer (PDF)",
+      "h1": "Jeux de logique visuelle",
+      "metaDescription": "Jeux de logique visuelle : matrices, positions et enchaînements d'images à compléter. Fiches PDF gratuites, à imprimer ou à jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Petite demande propre («jeux/exercice de logique visuelle» harvesté), concurrence quasi nulle sur fiches enfants. 14 decks."
+    },
+    "visual-discrimination": {
+      "primaryQuery": "discrimination visuelle à imprimer",
+      "evidence": "harvest",
+      "title": "Discrimination visuelle à imprimer – maternelle",
+      "h1": "Discrimination visuelle",
+      "metaDescription": "Discrimination visuelle : retrouver les images identiques et repérer les différences. Fiches maternelle PDF gratuites + jeu en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Demande forte et très scolaire (ps/ms/gs/cp harvestés) ; concurrence = blogs maternelle (mamaternelle, jardindalysse). 15 decks seulement — les types adjacents (ombres, intrus) alimentent le maillage ; produire des decks aiderait."
+    },
+    "visual-matching": {
+      "primaryQuery": "jeu d association d images à imprimer",
+      "evidence": "serp",
+      "title": "Associations visuelles – fiches à imprimer PDF",
+      "h1": "Associations visuelles",
+      "metaDescription": "Associations visuelles : relier les images qui vont ensemble parmi des propositions proches. Fiches PDF gratuites, à imprimer ou en ligne.",
+      "winnability": "SKIP",
+      "notes": "5 decks, pas de face distincte de matching. Maillage seulement."
+    },
+    "position-words": {
+      "primaryQuery": "se repérer dans l'espace maternelle",
+      "evidence": "harvest",
+      "title": "Se repérer dans l'espace – fiches maternelle",
+      "h1": "Se repérer dans l'espace",
+      "metaDescription": "Se repérer dans l'espace : sur, sous, devant, derrière… choisir l'image qui correspond à la position. Fiches GS en PDF gratuit + en ligne.",
+      "winnability": "SKIP",
+      "notes": "La grosse demande est réelle MAIS le hub sujet Repérage-espace×GS (514 decks) possède déjà cette requête — ne pas cannibaliser ; cette page type (8 decks) reste longue traîne."
+    },
+    "sorting-categories": {
+      "primaryQuery": "trier par catégories",
+      "evidence": "harvest",
+      "title": "Trier par catégories – fiches à imprimer PDF",
+      "h1": "Trier par catégories",
+      "metaDescription": "Trier par catégories : regrouper les images qui appartiennent à la même famille. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne.",
+      "winnability": "SKIP",
+      "notes": "4 decks ; picture-sort (139 decks) porte la face tri. Maillage seulement."
+    },
+    "picture-arithmetic": {
+      "primaryQuery": "additions en images cp",
+      "evidence": "serp",
+      "title": "Calcul illustré – additions en images (PDF)",
+      "h1": "Calcul illustré",
+      "metaDescription": "Calcul illustré : additionner et soustraire à partir d'images puis écrire l'opération en chiffres. Fiches CP en PDF gratuit + jeu en ligne.",
+      "winnability": "SKIP",
+      "notes": "Pas de formulation harvestée distincte de «addition cp» (hub/landings). 14 decks. Maillage."
+    },
+    "science-sort": {
+      "primaryQuery": "fiche sciences cp",
+      "evidence": "harvest",
+      "title": "Tri en sciences – vivant, objets, matières (PDF)",
+      "h1": "Trier en sciences",
+      "metaDescription": "Trier en sciences : vivant ou non-vivant, flotte ou coule… classer des images selon un critère. Fiches PDF gratuites + version en ligne.",
+      "winnability": "SKIP",
+      "notes": "La demande passe par «questionner le monde cp» / «fiche sciences cp» — possédée par les hubs Sciences×GS/CP (Explorer/Questionner le monde). Page type = longue traîne."
+    },
+    "science-match": {
+      "primaryQuery": "associer chaque animal à son habitat",
+      "evidence": "serp",
+      "title": "Associations en sciences – fiches à imprimer",
+      "h1": "Associer en sciences",
+      "metaDescription": "Associer en sciences : relier chaque animal à son habitat, son petit ou son alimentation. Fiches PDF gratuites, à imprimer ou en ligne.",
+      "winnability": "SKIP",
+      "notes": "10 decks, pas de demande harvestée («associations sciences po» = noise total). Maillage."
+    },
+    "science-sequence": {
+      "primaryQuery": "cycle de vie maternelle à imprimer",
+      "evidence": "serp",
+      "title": "Ordre et cycles de vie – fiches sciences (PDF)",
+      "h1": "Cycles de vie : remets dans l'ordre",
+      "metaDescription": "Remettre dans l'ordre les étapes d'un cycle de vie illustré. Fiches sciences PDF gratuites avec corrigé, à imprimer ou à jouer en ligne.",
+      "winnability": "SKIP",
+      "notes": "1 deck. La demande «cycle de vie papillon maternelle» existe mais sans inventaire — gap éventuel, pas une page."
+    },
+    "beginning-sounds": {
+      "primaryQuery": "son initial maternelle",
+      "evidence": "harvest",
+      "title": "Sons initiaux – fiches de phonologie (PDF)",
+      "h1": "Le son d'attaque des mots",
+      "metaDescription": "Sons initiaux : dire le mot illustré et retrouver le son d'attaque. Fiches de phonologie GS en PDF gratuit, à imprimer ou à jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Vocabulaire réel GS («attaque du mot», «son initial») ; niche propre, 10 decks — production souhaitable."
+    },
+    "letter-knowledge": {
+      "primaryQuery": "connaissance des lettres gs",
+      "evidence": "harvest",
+      "title": "Connaissance des lettres GS – fiches (PDF)",
+      "h1": "Connaissance des lettres",
+      "metaDescription": "Connaissance des lettres : reconnaître capitales, scriptes et cursives et les associer. Fiches GS en PDF gratuit, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Terme pédagogique exact (éval GS harvestée : «évaluation connaissance des lettres gs») ; concurrence blogs/Hatier. 20 decks."
+    },
+    "word-building": {
+      "primaryQuery": "construction de mots avec lettres",
+      "evidence": "harvest",
+      "title": "Construction de mots – lettres à replacer PDF",
+      "h1": "Construis le mot",
+      "metaDescription": "Construction de mots : replacer les lettres pour écrire le mot illustré. Fiches GS-CP en PDF gratuit avec corrigé, à imprimer ou en ligne.",
+      "winnability": "HARD",
+      "notes": "Suggestions dominées par «mots fléchés» (autre intention) ; petite face réelle «construction de mots avec lettres». 10 decks."
+    },
+    "picture-vocabulary": {
+      "primaryQuery": "vocabulaire en images français à imprimer",
+      "evidence": "harvest",
+      "title": "Vocabulaire en images – imagiers à imprimer",
+      "h1": "Vocabulaire en images",
+      "metaDescription": "Imagiers et vocabulaire en images : nommer, relier et écrire les mots illustrés. Fiches maternelle PDF gratuites, à imprimer ou en ligne.",
+      "winnability": "HARD",
+      "notes": "Le vrai mot de tête est «imagier» (dessinemoiunehistoire domine avec 200 fiches) ; 10 decks — longue traîne + synonyme imagier dans la copy."
+    },
+    "phonological-awareness": {
+      "primaryQuery": "conscience phonologique exercices à imprimer",
+      "evidence": "harvest",
+      "title": "Conscience phonologique – exercices à imprimer",
+      "h1": "Conscience phonologique",
+      "metaDescription": "Conscience phonologique : compter les syllabes, repérer rimes et sons d'attaque à partir d'images. Fiches GS en PDF gratuit + jeu en ligne.",
+      "winnability": "HARD",
+      "notes": "Demande forte et exactement notre contenu, mais tête très installée (apprendre-reviser-memoriser, laclasse, éduscol). 25 decks ; l'intersection GS + la production CP sont les leviers."
+    },
+    "preschool": {
+      "primaryQuery": "fiches maternelle à imprimer",
+      "evidence": "harvest",
+      "title": "Fiches maternelle à imprimer – PS et MS (PDF)",
+      "h1": "Fiches maternelle (petite et moyenne section)",
+      "metaDescription": "Près de 400 fiches PS-MS : comparer les quantités, grand/petit, observation, premières lettres. PDF gratuit à imprimer, jouable aussi en ligne.",
+      "winnability": "HARD",
+      "notes": "Ombrelle énorme, tenue (fiche-maternelle.com, mamaternelle) ; la page niveau capte la longue traîne «fiches maternelle ps/ms». Le gros manque du marché PS-MS = graphisme (voir gaps)."
+    },
+    "kindergarten": {
+      "primaryQuery": "fiche à imprimer grande section",
+      "evidence": "harvest",
+      "title": "Fiches grande section (GS) à imprimer – gratuit",
+      "h1": "Fiches grande section à imprimer",
+      "metaDescription": "Plus de 2 400 fiches grande section : numération, additions, phonologie, suites logiques et observation. PDF gratuit à imprimer + jeux en ligne.",
+      "winnability": "HARD",
+      "notes": "«fiche maternelle grande section à imprimer (pdf)» harvesté fort ; 2 450 decks GS = notre niveau le plus profond. Les hubs sujet×GS gardent «exercices maths grande section» etc."
+    },
+    "grade-1": {
+      "primaryQuery": "fiches à imprimer cp",
+      "evidence": "harvest",
+      "title": "Fiches CP à imprimer – exercices gratuits (PDF)",
+      "h1": "Fiches et exercices CP à imprimer",
+      "metaDescription": "Plus de 500 fiches CP : calcul, puzzles mathématiques, mots mêlés, lecture de l'heure. PDF gratuit avec corrigé, à imprimer ou à jouer en ligne.",
+      "winnability": "HARD",
+      "notes": "«fiches à imprimer cp» + «exercices à imprimer cp» harvestés ; ombrelle tenue (pass-education, i-profs) — la page vaut par le maillage vers types×CP."
+    },
+    "grade-2": {
+      "primaryQuery": "exercices à imprimer ce1",
+      "evidence": "harvest",
+      "title": "Exercices CE1 à imprimer – fiches gratuites PDF",
+      "h1": "Exercices CE1 à imprimer",
+      "metaDescription": "Exercices CE1 : fractions, géométrie, multiplication, lire l'heure, mots croisés. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne.",
+      "winnability": "HARD",
+      "notes": "166 decks CE1 — inventaire mince pour une ombrelle ; prioriser les intersections (lire l'heure CE1, fractions CE1, mots croisés CE1)."
+    },
+    "grade-3": {
+      "primaryQuery": "exercices à imprimer ce2",
+      "evidence": "harvest",
+      "title": "Exercices CE2 à imprimer – fiches gratuites PDF",
+      "h1": "Exercices CE2 à imprimer",
+      "metaDescription": "Exercices CE2 : fractions, géométrie, multiplications et lecture de l'heure. Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne.",
+      "winnability": "HARD",
+      "notes": "134 decks CE2 ; même stratégie que CE1 : intersections d'abord."
+    },
+    "animals": {
+      "primaryQuery": "animaux fiche maternelle",
+      "evidence": "harvest",
+      "title": "Fiches animaux maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les animaux",
+      "metaDescription": "Fiches sur les animaux pour la maternelle et le CP : loto, mots mêlés, tri, dénombrement… environ 150 fiches PDF gratuites, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«fiche animaux maternelle (pdf)» harvesté ; concurrence = imagiers (dessinemoiunehistoire) et fiches d'identité — notre face «jeux/exercices par thème» est distincte. Thème n°1 (157 decks)."
+    },
+    "farm_animals": {
+      "primaryQuery": "fiche animaux de la ferme gs",
+      "evidence": "harvest",
+      "title": "Animaux de la ferme – fiches maternelle (PDF)",
+      "h1": "Les animaux de la ferme",
+      "metaDescription": "Les animaux de la ferme en fiches : loto, ombres, tri et dénombrement à la ferme. PDF gratuit maternelle, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Harvesté par section (ps/ms/gs/cp) — vrai thème d'école. 57 decks."
+    },
+    "zoo_animals": {
+      "primaryQuery": "les animaux du zoo fiche",
+      "evidence": "harvest",
+      "title": "Animaux du zoo – fiches maternelle à imprimer",
+      "h1": "Les animaux du zoo",
+      "metaDescription": "Les animaux du zoo en fiches : loto, ombres, comptage et jeux d'observation. PDF gratuit maternelle, à imprimer ou à jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Demande faible mais propre ; «mots mêlés du zoo» apparaît côté SERP mots mêlés. 58 decks."
+    },
+    "pets": {
+      "primaryQuery": "fiche animaux de compagnie",
+      "evidence": "harvest",
+      "title": "Animaux de compagnie – fiches à imprimer PDF",
+      "h1": "Les animaux de compagnie",
+      "metaDescription": "Les animaux de compagnie en fiches : associer, compter et observer chiens, chats… PDF gratuit maternelle, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Petit mais propre. 56 decks."
+    },
+    "birds": {
+      "primaryQuery": "fiche oiseaux maternelle",
+      "evidence": "harvest",
+      "title": "Oiseaux – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les oiseaux",
+      "metaDescription": "Fiches sur les oiseaux : loto, mots mêlés, tri et comptage autour des oiseaux. PDF gratuit maternelle-CP, à imprimer ou à jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Noise LPO/jardins sur la tête ; face maternelle harvestée. birds + birds_2 ≈ 109 decks cumulés."
+    },
+    "dinosaurs": {
+      "primaryQuery": "fiches dinosaures maternelle",
+      "evidence": "harvest",
+      "title": "Dinosaures – fiches à imprimer gratuit (PDF)",
+      "h1": "Fiches dinosaures",
+      "metaDescription": "Fiches dinosaures : comptage, ombres, mots mêlés et jeux d'observation. PDF gratuit maternelle-CP, à imprimer ou à jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Thème passion enfants, demande harvestée. 46 decks."
+    },
+    "fruits": {
+      "primaryQuery": "fiche fruits maternelle",
+      "evidence": "harvest",
+      "title": "Fruits – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les fruits",
+      "metaDescription": "Les fruits en fiches : dénombrement, tri fruits/légumes, mots mêlés et loto. Plus de 110 fiches PDF gratuites, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Noise «fruits et légumes de saison» (adultes) ; face maternelle propre. 113 decks."
+    },
+    "vegetables": {
+      "primaryQuery": "fiche légumes maternelle",
+      "evidence": "harvest",
+      "title": "Légumes – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les légumes",
+      "metaDescription": "Les légumes en fiches : tri, dénombrement, loto et vocabulaire du potager. PDF gratuit maternelle, à imprimer ou à jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "58 decks. Face maternelle harvestée."
+    },
+    "colors": {
+      "primaryQuery": "fiche couleurs maternelle",
+      "evidence": "harvest",
+      "title": "Couleurs – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les couleurs",
+      "metaDescription": "Les couleurs en fiches : trier, associer et nommer les couleurs à travers des jeux. PDF gratuit maternelle, à imprimer ou à jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Noise électrique (fiche RJ45) sur la tête ; face maternelle propre. 46 decks."
+    },
+    "shapes": {
+      "primaryQuery": "fiche formes géométriques gs",
+      "evidence": "harvest",
+      "title": "Formes géométriques – fiches maternelle (PDF)",
+      "h1": "Les formes géométriques",
+      "metaDescription": "Les formes géométriques en fiches : reconnaître, trier et prolonger des suites de formes. PDF gratuit maternelle, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«fiche formes géométriques gs/ms» harvesté — cette requête appartient au THÈME (decks GS toutes mécaniques), pas au type geometry (CE1-CE2). 93 decks."
+    },
+    "body_parts": {
+      "primaryQuery": "fiche parties du corps maternelle",
+      "evidence": "harvest",
+      "title": "Parties du corps – fiches maternelle (PDF)",
+      "h1": "Les parties du corps",
+      "metaDescription": "Les parties du corps en fiches : nommer, associer et compter autour du corps humain. PDF gratuit maternelle, à imprimer ou à jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Harvesté (+ face FLE). 57 decks. Attention validity : body_parts exclu des mécaniques somme/comptage côté landing — ici thème hub, OK."
+    },
+    "clothing": {
+      "primaryQuery": "fiche vêtements maternelle",
+      "evidence": "harvest",
+      "title": "Vêtements – fiches maternelle à imprimer PDF",
+      "h1": "Les vêtements",
+      "metaDescription": "Les vêtements en fiches : vocabulaire, tri, association et jeux d'observation. PDF gratuit maternelle, à imprimer ou à jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Harvesté (+ face FLE/anglais à ignorer). 59 decks."
+    },
+    "emotions": {
+      "primaryQuery": "fiche émotions maternelle",
+      "evidence": "harvest",
+      "title": "Émotions – fiches maternelle à imprimer (PDF)",
+      "h1": "Les émotions",
+      "metaDescription": "Les émotions en fiches : reconnaître, nommer et associer les expressions du visage. PDF gratuit maternelle, à imprimer ou à jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«fiche émotions maternelle/enfant/à imprimer» harvesté — thème porteur cycle 1 (couleur des émotions). 53 decks."
+    },
+    "christmas": {
+      "primaryQuery": "noel fiche maternelle",
+      "evidence": "harvest",
+      "title": "Noël – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches de Noël",
+      "metaDescription": "Fiches de Noël : mots mêlés, loto, suites logiques et comptage sur le thème de Noël. PDF gratuit maternelle-CP, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Saisonnier fort (nov-déc) ; harvesté par section (ms/gs). 57 decks. Relier au hub saisonnier Noël."
+    },
+    "easter": {
+      "primaryQuery": "paques fiche maternelle",
+      "evidence": "harvest",
+      "title": "Pâques – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches de Pâques",
+      "metaDescription": "Fiches de Pâques : cherche et trouve, comptage, suites logiques et loto de Pâques. PDF gratuit maternelle-CP, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Saisonnier (mars-avr) ; harvesté par section (ps/ms/gs). 57 decks."
+    },
+    "spring": {
+      "primaryQuery": "printemps fiche maternelle",
+      "evidence": "harvest",
+      "title": "Printemps – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur le printemps",
+      "metaDescription": "Fiches sur le printemps : cherche et trouve, comptage et vocabulaire du printemps. PDF gratuit maternelle-CP, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "«fiches maternelle printemps» harvesté dans le seed cœur — saisonnier mars-juin. 59 decks."
+    },
+    "summer": {
+      "primaryQuery": "fiche été maternelle",
+      "evidence": "harvest",
+      "title": "Été – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur l'été",
+      "metaDescription": "Fiches sur l'été : jeux d'observation, comptage et vocabulaire des vacances. PDF gratuit maternelle-CP, à imprimer ou à jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Saisonnier (mai-août, cahiers de vacances). 59 decks."
+    },
+    "winter": {
+      "primaryQuery": "hiver fiche maternelle",
+      "evidence": "harvest",
+      "title": "Hiver – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur l'hiver",
+      "metaDescription": "Fiches sur l'hiver : comptage, ombres, suites logiques et vocabulaire de l'hiver. PDF gratuit maternelle-CP, à imprimer ou en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Saisonnier (déc-fév) ; harvesté par section (gs/ms/ps/cp). 59 decks."
+    },
+    "toys": {
+      "primaryQuery": "mots mêlés des jouets",
+      "evidence": "serp",
+      "title": "Jouets – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les jouets",
+      "metaDescription": "Fiches sur les jouets : dénombrement, tri, ombres et mots mêlés des jouets. Plus de 100 fiches PDF gratuites, à imprimer ou en ligne.",
+      "winnability": "HARD",
+      "notes": "«jouets fiche» harvest = noise ; la demande passe par les combinaisons type×thème (SERP mots mêlés). 109 decks — porter par le maillage."
+    },
+    "vehicles": {
+      "primaryQuery": "loto véhicules à imprimer",
+      "evidence": "serp",
+      "title": "Véhicules – fiches maternelle à imprimer PDF",
+      "h1": "Fiches sur les véhicules",
+      "metaDescription": "Fiches sur les véhicules : loto des transports, comptage, tri et ombres. Plus de 110 fiches PDF gratuites, à imprimer ou en ligne.",
+      "winnability": "HARD",
+      "notes": "«véhicules fiche» harvest = noise auto ; la demande réelle est «loto/imagier des transports» (SERP loto). 111 decks."
+    },
+    "flowers": {
+      "primaryQuery": "fiche fleurs maternelle",
+      "evidence": "harvest",
+      "title": "Fleurs – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les fleurs",
+      "metaDescription": "Fiches sur les fleurs : compter, trier, associer et observer autour du jardin. PDF gratuit maternelle, à imprimer ou à jouer en ligne.",
+      "winnability": "WINNABLE",
+      "notes": "Petit thème propre (printemps). 52 decks."
+    },
+    "tree": {
+      "primaryQuery": "fiche arbres",
+      "evidence": "harvest",
+      "title": "Arbres – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur les arbres",
+      "metaDescription": "Fiches sur les arbres : compter, trier et observer la nature au fil des saisons. PDF gratuit maternelle, à imprimer ou à jouer en ligne.",
+      "winnability": "HARD",
+      "notes": "Demande faible («arbres fiches pédagogiques»). 50 decks. Basse priorité."
+    },
+    "music": {
+      "primaryQuery": "fiche musique maternelle",
+      "evidence": "harvest",
+      "title": "Musique – fiches maternelle à imprimer (PDF)",
+      "h1": "Fiches sur la musique",
+      "metaDescription": "Fiches sur la musique : instruments à nommer, associer, compter et retrouver. PDF gratuit maternelle, à imprimer ou à jouer en ligne.",
+      "winnability": "HARD",
+      "notes": "Demande faible, noise CRPE/cycle 3. 57 decks. Basse priorité."
+    },
+    "kitchen_tools": {
+      "primaryQuery": "fiche ustensiles de cuisine",
+      "evidence": "harvest",
+      "title": "Ustensiles de cuisine – fiches maternelle PDF",
+      "h1": "Les ustensiles de cuisine",
+      "metaDescription": "Les ustensiles de cuisine en fiches : vocabulaire, tri et jeux d'observation. PDF gratuit maternelle, à imprimer ou à jouer en ligne.",
+      "winnability": "HARD",
+      "notes": "1 suggestion harvestée, vocabulaire FLE-adjacent. 57 decks. Basse priorité."
+    }
+  },
+  "intersections": [
+    {
+      "key": "addition__kindergarten",
+      "type": "addition",
+      "level": "kindergarten",
+      "query": "addition grande section",
+      "decks": 197,
+      "title": "Addition grande section – fiches à imprimer PDF",
+      "h1": "L'addition en grande section",
+      "metaDescription": "Fiches d'addition pour la grande section : compter deux collections d'images et écrire la somme jusqu'à 10. Près de 200 PDF gratuits avec corrigé + en ligne."
+    },
+    {
+      "key": "kindergarten__subtraction",
+      "type": "subtraction",
+      "level": "kindergarten",
+      "query": "soustraction grande section",
+      "decks": 196,
+      "title": "Soustraction grande section – fiches à imprimer",
+      "h1": "La soustraction en grande section",
+      "metaDescription": "Soustraction en grande section : barrer des images pour trouver ce qu'il reste, résultats jusqu'à 10. Fiches PDF gratuites avec corrigé, aussi en ligne."
+    },
+    {
+      "key": "kindergarten__pattern-train",
+      "type": "pattern-train",
+      "level": "kindergarten",
+      "query": "suites logiques grande section",
+      "decks": 242,
+      "title": "Suites logiques grande section – à imprimer PDF",
+      "h1": "Suites logiques en grande section",
+      "metaDescription": "Suites logiques en grande section : compléter le rythme d'images (AB, AAB, ABC…) du train. Plus de 240 fiches PDF gratuites, à imprimer ou en ligne."
+    },
+    {
+      "key": "grade-1__math-puzzle",
+      "type": "math-puzzle",
+      "level": "grade-1",
+      "query": "puzzle mathématique cp",
+      "decks": 146,
+      "title": "Puzzle mathématique CP – jeux de calcul (PDF)",
+      "h1": "Puzzles mathématiques au CP",
+      "metaDescription": "Puzzles mathématiques niveau CP : décoder les symboles et résoudre additions et soustractions. Fiches PDF gratuites avec corrigé + version en ligne."
+    },
+    {
+      "key": "bingo__kindergarten",
+      "type": "bingo",
+      "level": "kindergarten",
+      "query": "loto des nombres grande section",
+      "decks": 73,
+      "title": "Loto grande section – cartes à imprimer (PDF)",
+      "h1": "Lotos pour la grande section",
+      "metaDescription": "Lotos pour la grande section : cartons illustrés et loto des nombres pour vocabulaire et numération. PDF gratuit à imprimer, jouable aussi en ligne."
+    },
+    {
+      "key": "kindergarten__odd-one-out",
+      "type": "odd-one-out",
+      "level": "kindergarten",
+      "query": "trouver l intrus grande section",
+      "decks": 83,
+      "title": "Trouver l'intrus grande section – fiches PDF",
+      "h1": "L'intrus en grande section",
+      "metaDescription": "Trouver l'intrus en grande section : repérer dans chaque série l'image qui n'appartient pas à la famille. Fiches PDF gratuites + jeu en ligne."
+    },
+    {
+      "key": "kindergarten__sudoku",
+      "type": "sudoku",
+      "level": "kindergarten",
+      "query": "sudoku à imprimer facile pour la maternelle",
+      "decks": 99,
+      "title": "Sudoku maternelle – grilles faciles à imprimer",
+      "h1": "Sudoku en maternelle",
+      "metaDescription": "Sudokus 4×4 pour la maternelle (GS) : compléter la grille d'images sans répéter une ligne ou une colonne. PDF gratuit à imprimer + en ligne."
+    },
+    {
+      "key": "kindergarten__shadow-match",
+      "type": "shadow-match",
+      "level": "kindergarten",
+      "query": "jeu des ombres maternelle",
+      "decks": 141,
+      "title": "Jeu des ombres maternelle – fiches gratuites PDF",
+      "h1": "Le jeu des ombres en maternelle",
+      "metaDescription": "Jeu des ombres pour la maternelle (GS) : relier chaque image à la bonne silhouette. Plus de 140 fiches PDF gratuites, à imprimer ou en ligne."
+    },
+    {
+      "key": "find-objects__kindergarten",
+      "type": "find-objects",
+      "level": "kindergarten",
+      "query": "cherche et trouve à imprimer maternelle",
+      "decks": 98,
+      "title": "Cherche et trouve maternelle – à imprimer PDF",
+      "h1": "Cherche et trouve en maternelle",
+      "metaDescription": "Cherche et trouve pour la maternelle : retrouver les objets cachés dans de grandes scènes illustrées. Fiches GS en PDF gratuit + jeu en ligne."
+    },
+    {
+      "key": "grade-1__word-scramble",
+      "type": "word-scramble",
+      "level": "grade-1",
+      "query": "lettres mélangées cp",
+      "decks": 96,
+      "title": "Lettres mélangées CP – exercices à imprimer",
+      "h1": "Lettres mélangées au CP",
+      "metaDescription": "Lettres mélangées au CP : remettre les lettres dans l'ordre pour écrire le mot illustré. Fiches PDF gratuites avec corrigé, aussi en ligne."
+    },
+    {
+      "key": "grade-1__wordsearch",
+      "type": "wordsearch",
+      "level": "grade-1",
+      "query": "mots mêlés cp à imprimer",
+      "decks": 49,
+      "title": "Mots mêlés CP à imprimer – grilles gratuites PDF",
+      "h1": "Mots mêlés au CP",
+      "metaDescription": "Mots mêlés niveau CP : retrouver dans la grille des mots simples illustrés, thème par thème. PDF gratuit avec corrigé, à imprimer ou en ligne."
+    },
+    {
+      "key": "crossword__grade-2",
+      "type": "crossword",
+      "level": "grade-2",
+      "query": "mots croisés ce1 à imprimer",
+      "decks": 45,
+      "title": "Mots croisés CE1 à imprimer – gratuit (PDF)",
+      "h1": "Mots croisés au CE1",
+      "metaDescription": "Mots croisés niveau CE1 : écrire dans la grille le mot correspondant à chaque image. 45 grilles PDF gratuites avec corrigé, aussi en ligne."
+    },
+    {
+      "key": "grade-1__treasure-hunt",
+      "type": "treasure-hunt",
+      "level": "grade-1",
+      "query": "chasse au trésor cp",
+      "decks": 96,
+      "title": "Chasse au trésor CP – jeu à imprimer (PDF)",
+      "h1": "Chasse au trésor au CP",
+      "metaDescription": "Chasse au trésor pour le CP : suivre les indices sur le quadrillage pour trouver le trésor. Fiches PDF gratuites, à imprimer ou à jouer en ligne."
+    },
+    {
+      "key": "kindergarten__phonological-awareness",
+      "type": "phonological-awareness",
+      "level": "kindergarten",
+      "query": "conscience phonologique grande section",
+      "decks": 25,
+      "title": "Conscience phonologique GS – fiches à imprimer",
+      "h1": "Conscience phonologique en grande section",
+      "metaDescription": "Conscience phonologique en GS : syllabes à compter, rimes et sons d'attaque à repérer en images. Fiches PDF gratuites + jeu en ligne."
+    },
+    {
+      "key": "kindergarten__visual-discrimination",
+      "type": "visual-discrimination",
+      "level": "kindergarten",
+      "query": "discrimination visuelle grande section",
+      "decks": 15,
+      "title": "Discrimination visuelle GS – fiches à imprimer",
+      "h1": "Discrimination visuelle en grande section",
+      "metaDescription": "Discrimination visuelle en grande section : retrouver les images identiques, repérer les différences. Fiches PDF gratuites + jeu en ligne."
+    },
+    {
+      "key": "comparing-sizes__kindergarten",
+      "type": "comparing-sizes",
+      "level": "kindergarten",
+      "query": "comparer des longueurs grande section",
+      "decks": 15,
+      "title": "Comparer les longueurs GS – fiches à imprimer",
+      "h1": "Comparer les longueurs en grande section",
+      "metaDescription": "Comparer les longueurs et les tailles en GS : entourer le plus long, le plus court, le plus grand. Fiches PDF gratuites, aussi en ligne."
+    },
+    {
+      "key": "grade-1__telling-time",
+      "type": "telling-time",
+      "level": "grade-1",
+      "query": "lire l'heure cp",
+      "decks": 21,
+      "title": "Lire l'heure CP – exercices à imprimer (PDF)",
+      "h1": "Lire l'heure au CP",
+      "metaDescription": "Lire l'heure au CP : heures justes et demi-heures sur l'horloge à aiguilles. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne."
+    },
+    {
+      "key": "grade-2__telling-time",
+      "type": "telling-time",
+      "level": "grade-2",
+      "query": "lire l'heure ce1 exercices",
+      "decks": 20,
+      "title": "Lire l'heure CE1 – exercices à imprimer (PDF)",
+      "h1": "Lire l'heure au CE1",
+      "metaDescription": "Lire l'heure au CE1 : heures, demi-heures et quarts d'heure ; lire et placer les aiguilles. Fiches PDF gratuites avec corrigé + horloge en ligne."
+    },
+    {
+      "key": "grade-3__telling-time",
+      "type": "telling-time",
+      "level": "grade-3",
+      "query": "lire l'heure ce2 exercices",
+      "decks": 40,
+      "title": "Lire l'heure CE2 – exercices à imprimer (PDF)",
+      "h1": "Lire l'heure au CE2",
+      "metaDescription": "Lire l'heure au CE2 : lecture à 5 minutes près et placement des aiguilles. 40 fiches PDF gratuites avec corrigé, à imprimer ou en ligne."
+    },
+    {
+      "key": "fractions__grade-2",
+      "type": "fractions",
+      "level": "grade-2",
+      "query": "fractions ce1",
+      "decks": 34,
+      "title": "Fractions CE1 – exercices à imprimer (PDF)",
+      "h1": "Les fractions au CE1",
+      "metaDescription": "Fractions au CE1 : reconnaître et colorier moitiés, tiers et quarts sur des figures. Fiches PDF gratuites avec corrigé, aussi en ligne."
+    },
+    {
+      "key": "fractions__grade-3",
+      "type": "fractions",
+      "level": "grade-3",
+      "query": "fractions ce2 exercices",
+      "decks": 34,
+      "title": "Fractions CE2 – exercices à imprimer (PDF)",
+      "h1": "Les fractions au CE2",
+      "metaDescription": "Fractions au CE2 : lire, écrire et représenter 1/2, 1/3, 1/4 et au-delà. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne."
+    },
+    {
+      "key": "geometry__grade-2",
+      "type": "geometry",
+      "level": "grade-2",
+      "query": "géométrie ce1 à imprimer",
+      "decks": 17,
+      "title": "Géométrie CE1 – exercices à imprimer (PDF)",
+      "h1": "La géométrie au CE1",
+      "metaDescription": "Géométrie au CE1 : reconnaître les figures planes et leurs propriétés simples. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne."
+    },
+    {
+      "key": "geometry__grade-3",
+      "type": "geometry",
+      "level": "grade-3",
+      "query": "géométrie ce2 à imprimer",
+      "decks": 14,
+      "title": "Géométrie CE2 – exercices à imprimer (PDF)",
+      "h1": "La géométrie au CE2",
+      "metaDescription": "Géométrie au CE2 : figures planes, côtés et sommets, premiers solides. Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne."
+    },
+    {
+      "key": "arrays-multiplication__grade-2",
+      "type": "arrays-multiplication",
+      "level": "grade-2",
+      "query": "exercices maths ce1 multiplication",
+      "decks": 14,
+      "title": "Multiplication CE1 – exercices à imprimer PDF",
+      "h1": "La multiplication au CE1",
+      "metaDescription": "Premières multiplications au CE1 : compter des rangées égales et passer de l'addition répétée au produit. PDF gratuit avec corrigé + en ligne."
+    },
+    {
+      "key": "arrays-multiplication__grade-3",
+      "type": "arrays-multiplication",
+      "level": "grade-3",
+      "query": "exercices maths ce2 multiplication à imprimer",
+      "decks": 13,
+      "title": "Multiplication CE2 – exercices à imprimer PDF",
+      "h1": "La multiplication au CE2",
+      "metaDescription": "Multiplications au CE2 : réseaux et rangées pour consolider le sens du produit. Fiches PDF gratuites avec corrigé, à imprimer ou en ligne."
+    },
+    {
+      "key": "grade-1__number-charts",
+      "type": "number-charts",
+      "level": "grade-1",
+      "query": "tableau des nombres cp à compléter",
+      "decks": 13,
+      "title": "Tableau des nombres CP – à compléter (PDF)",
+      "h1": "Le tableau des nombres au CP",
+      "metaDescription": "Tableau des nombres au CP : compléter les nombres manquants jusqu'à 100 et se déplacer dans la grille. PDF gratuit avec corrigé + en ligne."
+    },
+    {
+      "key": "grade-1__measurement",
+      "type": "measurement",
+      "level": "grade-1",
+      "query": "mesure cp exercices",
+      "decks": 12,
+      "title": "Mesures CP – exercices à imprimer (PDF)",
+      "h1": "Grandeurs et mesures au CP",
+      "metaDescription": "Grandeurs et mesures au CP : comparer et mesurer des longueurs simples. Fiches PDF gratuites avec corrigé, à imprimer ou à jouer en ligne."
+    },
+    {
+      "key": "kindergarten__math-worksheet",
+      "type": "math-worksheet",
+      "level": "kindergarten",
+      "query": "exercices calcul grande section maternelle",
+      "decks": 100,
+      "title": "Calcul grande section – fiches à imprimer (PDF)",
+      "h1": "Le calcul en grande section",
+      "metaDescription": "Fiches de calcul en grande section : lignes d'additions et de soustractions jusqu'à 10, avec images. PDF gratuit avec corrigé + en ligne."
+    }
+  ]
+}

@@ -69,17 +69,19 @@ if grep -qE 'location /_next/image' "$CONF"; then
   fi
 fi
 
-# Behavioral probe: 48 concurrent optimizer requests from one IP. With the
-# carve-out (burst=300) → zero 429. Without it (lcsperip burst=40) → some 429.
+# Behavioral probe: 80 concurrent optimizer requests from one IP. With the
+# carve-out (burst=300) → zero 429. Without it (lcsperip burst=40 + 8r/s
+# drain ≈ 48 absorbed within the probe window) → 30+ guaranteed 429s. 48 was
+# empirically too gentle to discriminate — do not lower this below ~60.
 # Identical URL = optimizer cache hit (31d TTL), so the probe is cheap.
 PROBE_URL='/_next/image?url=https%3A%2F%2Fwww.lessoncraftstudio.com%2Fen%2Fdecks%2Faddition-find-addend-animals%2Fthumbnail.png&w=384&q=75'
-RATE_LIMITED=$(seq 48 | xargs -P 48 -I{} curl -sk -o /dev/null -m 10 -w '%{http_code}\n' \
+RATE_LIMITED=$(seq 80 | xargs -P 80 -I{} curl -sk -o /dev/null -m 10 -w '%{http_code}\n' \
   -H 'Host: www.lessoncraftstudio.com' "https://127.0.0.1${PROBE_URL}" 2>/dev/null | grep -c '^429$')
 if [ "${RATE_LIMITED:-0}" -gt 0 ]; then
-  echo "!!! NGINX CONTRACT: ${RATE_LIMITED}/48 concurrent /_next/image requests got 429 — carve-out not effective !!!"
+  echo "!!! NGINX CONTRACT: ${RATE_LIMITED}/80 concurrent /_next/image requests got 429 — carve-out not effective !!!"
   FAIL=1
 else
-  echo "   ok  behavioral: 48-concurrent /_next/image burst, zero 429"
+  echo "   ok  behavioral: 80-concurrent /_next/image burst, zero 429"
 fi
 
 exit $FAIL

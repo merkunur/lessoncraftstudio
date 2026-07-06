@@ -2367,7 +2367,9 @@
       "filterTheme": "Tema",
       "all": "Alle",
       "results": "{count} arbeidsark",
-      "showAllThemes": "Vis alle temaer"
+      "showAllThemes": "Vis alle temaer",
+      "sortVariety": "Variasjon",
+      "topicLinksHeading": "Bla etter oppgavetype"
     }
   },
   "standardsPage": {

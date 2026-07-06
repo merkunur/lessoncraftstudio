@@ -3958,7 +3958,9 @@
       "filterTheme": "Tema",
       "all": "Todos",
       "results": "{count} hojas de trabajo",
-      "showAllThemes": "Ver todos los temas"
+      "showAllThemes": "Ver todos los temas",
+      "sortVariety": "Variedad",
+      "topicLinksHeading": "Explorar por tipo de ejercicio"
     }
   },
   "standardsPage": {

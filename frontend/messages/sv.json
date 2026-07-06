@@ -2363,7 +2363,9 @@
       "filterTheme": "Tema",
       "all": "Alla",
       "results": "{count} arbetsblad",
-      "showAllThemes": "Visa alla teman"
+      "showAllThemes": "Visa alla teman",
+      "sortVariety": "Variation",
+      "topicLinksHeading": "Bläddra efter övningstyp"
     }
   },
   "standardsPage": {

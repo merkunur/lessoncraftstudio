@@ -2363,7 +2363,9 @@
       "filterTheme": "Thema",
       "all": "Alle",
       "results": "{count} werkbladen",
-      "showAllThemes": "Alle thema's tonen"
+      "showAllThemes": "Alle thema's tonen",
+      "sortVariety": "Variatie",
+      "topicLinksHeading": "Bladeren op oefentype"
     }
   },
   "standardsPage": {

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "graph-it.bar-graph.2-md-d-10": {
+      "about": [
+        "Pip l'écureuil parcourt la forêt et ramasse des trésors : des feuilles, des glands, des pommes de pin, des baies et des champignons. Avec votre enfant, il range tout cela dans un diagramme en barres : on empile chaque catégorie pour construire sa barre, on lit la hauteur pour savoir combien Pip en a trouvé, puis on compare deux barres pour dire combien il y a de feuilles « de plus » ou « de moins » que de baies. Les quantités restent petites, jusqu'à une dizaine, sans aucune pression liée au temps.",
+        "La grande idée de CE1 est celle de l'« Organisation et gestion de données ». Votre enfant apprend à passer d'un tableau de comptage — ces marques ou ces bâtons qui notent chaque objet ramassé — à un diagramme en barres clair et lisible. Il découvre ensuite comment exploiter ce graphique pour résoudre de vrais petits problèmes : combien y en a-t-il de plus, de moins, ou en tout ? Lire la hauteur d'une barre et représenter des données deviennent des gestes naturels, ancrés dans une situation concrète et amusante.",
+        "Tout est gratuit, sans compte à créer, sans minuteur et sans points. L'activité est alignée aux programmes officiels, dans le domaine « Organisation et gestion de données », et votre enfant avance entièrement à son rythme, en explorant et en recommençant autant de fois qu'il le souhaite."
+      ],
+      "practices": [
+        "Construire un diagramme en barres à partir d'un tableau de comptage.",
+        "Lire la hauteur d'une barre pour répondre à « Combien de feuilles ? ».",
+        "Comparer deux barres pour trouver « de plus », « de moins » ou « en tout ».",
+        "Vérifier quel diagramme correspond bien aux données récoltées par Pip."
+      ],
+      "howToPlay": [
+        "Regardez le tableau de comptage avec votre enfant et empilez chaque barre jusqu'à la bonne hauteur.",
+        "Lisez ensuite les barres du diagramme pour répondre aux questions de Pip.",
+        "Comparez deux barres ou choisissez le diagramme qui correspond au tableau de comptage."
+      ],
+      "learningGoals": [
+        "Votre enfant sait construire et lire un diagramme en barres.",
+        "Il exploite un graphique pour comparer des données : de plus, de moins, en tout.",
+        "Il découvre l'organisation et la représentation de données au CE1."
+      ]
+    },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
       "about": [
         "Tuck le hamster adore rassembler ses barres de dizaines : dès qu'il en réunit dix, elles forment une belle plaque de centaine ! Dans cette activité gratuite, votre enfant additionne deux nombres inférieurs à 1000 et découvre le moment magique où les dizaines se regroupent pour « monter » vers les centaines.",

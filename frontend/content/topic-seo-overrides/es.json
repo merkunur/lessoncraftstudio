@@ -1,0 +1,426 @@
+{
+  "$comment": "Demand-keyed SEO overrides authored from docs/SEO/demand-map-es.md (+ demand-terms-es.json). Validated by scripts/seo/validate-topic-overrides.js.",
+  "singleAxis": {
+    "wordsearch": {
+      "title": "Sopa de letras para niños – para imprimir gratis",
+      "h1": "Sopas de letras para niños",
+      "metaDescription": "Sopas de letras con palabras ilustradas del vocabulario escolar: busca, encierra y lee. Resuélvelas en línea o imprímelas gratis en PDF con solución."
+    },
+    "crossword": {
+      "title": "Crucigramas para niños – fáciles y para imprimir",
+      "h1": "Crucigramas para niños",
+      "metaDescription": "Crucigramas fáciles con pistas de imágenes: el niño escribe cada palabra letra por letra. Resuélvelos en línea o imprímelos gratis en PDF con respuestas."
+    },
+    "sudoku": {
+      "title": "Sudoku de imágenes para niños – para imprimir",
+      "h1": "Sudoku de imágenes",
+      "metaDescription": "Sudokus 4×4 con dibujos en lugar de números: cada imagen aparece una sola vez por fila y columna. Juega en línea o imprime el PDF gratis, ideal para kínder."
+    },
+    "cryptogram": {
+      "title": "Criptogramas para niños – para imprimir gratis",
+      "h1": "Criptogramas para niños",
+      "metaDescription": "Descifra la palabra secreta con la clave de símbolos: cada dibujo revela una letra. Criptogramas infantiles en línea y en PDF gratis con respuestas."
+    },
+    "addition": {
+      "title": "Sumas para niños – fichas para imprimir gratis",
+      "h1": "Sumas para niños",
+      "metaDescription": "Fichas de suma con dibujos para contar y sumar hasta 10 y 20. Resuelve en línea con revisión inmediata o imprime el PDF gratis con su hoja de respuestas."
+    },
+    "subtraction": {
+      "title": "Restas para niños – fichas para imprimir gratis",
+      "h1": "Restas para niños",
+      "metaDescription": "Restas ilustradas para empezar: tacha los dibujos, cuenta los que quedan y escribe el resultado. Fichas de resta en línea y en PDF gratis para kínder."
+    },
+    "more-less": {
+      "title": "Más o menos: comparar cantidades – imprimir",
+      "h1": "Más o menos — comparar cantidades",
+      "metaDescription": "¿Dónde hay más y dónde hay menos? El niño compara dos grupos de dibujos y toca la respuesta correcta. Actividades en línea y en PDF gratis para preescolar."
+    },
+    "big-small": {
+      "title": "Grande o pequeño – fichas para imprimir gratis",
+      "h1": "Grande o pequeño",
+      "metaDescription": "Grande, mediano o pequeño: el niño observa los dibujos y elige el objeto del tamaño que se pide. Fichas de comparación para preescolar, en línea o en PDF."
+    },
+    "math-puzzle": {
+      "title": "Rompecabezas matemáticos – para imprimir gratis",
+      "h1": "Rompecabezas matemáticos",
+      "metaDescription": "Rompecabezas numéricos donde las sumas y restas se cruzan: completa cada casilla para armar el cuadro. En línea o en PDF gratis para primer grado."
+    },
+    "math-worksheet": {
+      "title": "Fichas de matemáticas – ejercicios para imprimir",
+      "h1": "Fichas de matemáticas",
+      "metaDescription": "Cuadrículas de operaciones para practicar sumas y restas en serie. Cada ficha se resuelve en línea o se imprime gratis en PDF con hoja de respuestas."
+    },
+    "code-addition": {
+      "title": "Criptogramas de sumas para niños – imprimir",
+      "h1": "Suma codificada — criptogramas de sumas",
+      "metaDescription": "Cada dibujo vale un número: descifra el código y resuelve la suma. Criptogramas de sumas en línea y en PDF gratis, un reto con dibujos para kínder."
+    },
+    "picture-path": {
+      "title": "Laberintos de imágenes para niños – imprimir",
+      "h1": "Sendero de imágenes — laberintos con dibujos",
+      "metaDescription": "Laberintos de cuadrícula: traza el camino correcto de imagen en imagen sin cruzar los muros. Juega en línea o imprime el PDF gratis para kínder."
+    },
+    "treasure-hunt": {
+      "title": "Búsqueda del tesoro para niños – para imprimir",
+      "h1": "Búsqueda del tesoro",
+      "metaDescription": "Sigue las pistas por la cuadrícula hasta llegar al tesoro: un reto de orientación espacial para primer grado. Mapas en línea y en PDF gratis."
+    },
+    "pattern-train": {
+      "title": "Tren de patrones: ¿qué sigue? – para imprimir",
+      "h1": "Tren de patrones",
+      "metaDescription": "¿Qué vagón sigue en el tren? Secuencias de colores y dibujos para completar el patrón. Actividades de kínder en línea y fichas en PDF gratis."
+    },
+    "pattern-worksheet": {
+      "title": "Fichas de patrones para imprimir – gratis (PDF)",
+      "h1": "Fichas de patrones",
+      "metaDescription": "Fichas de patrones de repetición y secuencias gráficas: observa la serie y elige lo que falta. Para primer grado, en línea o en PDF gratis con respuestas."
+    },
+    "patterns": {
+      "title": "Patrones para niños – actividades para imprimir",
+      "h1": "Patrones para niños",
+      "metaDescription": "Patrones AB, ABC y de crecimiento con imágenes: identifica la regla y continúa la serie. Actividades de patrones en línea y en PDF gratis para kínder."
+    },
+    "bingo": {
+      "title": "Bingo para imprimir – cartones educativos gratis",
+      "h1": "Bingo educativo",
+      "metaDescription": "Cartones de bingo con imágenes y palabras para jugar en clase: el cantor dice, los niños marcan. Bingos educativos de kínder en PDF gratis y en línea."
+    },
+    "grid-match": {
+      "title": "Emparejar en cuadrícula – fichas para imprimir",
+      "h1": "Emparejar en cuadrícula",
+      "metaDescription": "Arrastra cada imagen a su casilla correcta en la cuadrícula: memoria visual y atención para kínder. Juega en línea o imprime la ficha en PDF gratis."
+    },
+    "matching": {
+      "title": "Relacionar y unir – actividades para imprimir",
+      "h1": "Relacionar columnas — unir con líneas",
+      "metaDescription": "Une cada imagen con su pareja trazando una línea: actividades de relacionar columnas para kínder. Juegos de unir en línea y fichas en PDF gratis."
+    },
+    "picture-sort": {
+      "title": "Clasificar imágenes – actividades para imprimir",
+      "h1": "Clasificar imágenes",
+      "metaDescription": "¿Cuál va con cuál? Clasifica las imágenes en dos grupos: animales o vehículos, frutas o verduras. Clasificación para kínder en línea y en PDF gratis."
+    },
+    "shadow-match": {
+      "title": "Emparejar sombras – actividades para imprimir",
+      "h1": "Emparejar sombras",
+      "metaDescription": "Une cada dibujo con su sombra: discriminación visual con siluetas para kínder. Juega en línea con revisión al instante o imprime el PDF gratis."
+    },
+    "alphabet-train": {
+      "title": "Tren del abecedario para imprimir – completar",
+      "h1": "El tren del abecedario",
+      "metaDescription": "El tren del abecedario para completar: escribe las letras que faltan en cada vagón, de la A a la Z. En línea o en PDF gratis para preescolar."
+    },
+    "prepositions": {
+      "title": "Preposiciones de lugar – fichas para imprimir",
+      "h1": "Preposiciones de lugar",
+      "metaDescription": "¿Dónde está el gato: arriba, abajo o dentro? Preposiciones de lugar con escenas ilustradas para kínder. Fichas interactivas y en PDF gratis."
+    },
+    "word-guess": {
+      "title": "Adivina la palabra con imágenes – imprimir",
+      "h1": "Adivina la palabra",
+      "metaDescription": "Mira el dibujo y adivina la palabra: escríbela letra por letra con casillas de ayuda. Juego de vocabulario en línea y en PDF gratis para kínder."
+    },
+    "word-scramble": {
+      "title": "Letras revueltas para formar palabras – PDF",
+      "h1": "Letras revueltas",
+      "metaDescription": "Ordena las letras revueltas y forma la palabra del dibujo: ortografía y vocabulario para primer grado. Resuelve en línea o imprime gratis el PDF."
+    },
+    "find-and-count": {
+      "title": "Busca y cuenta – actividades para imprimir gratis",
+      "h1": "Busca y cuenta",
+      "metaDescription": "Busca cada objeto en la lámina, cuenta cuántos hay y anota el número: atención y conteo para preescolar. Escenas en línea y en PDF gratis."
+    },
+    "find-objects": {
+      "title": "Encuentra los objetos ocultos – para imprimir",
+      "h1": "Encuentra los objetos ocultos",
+      "metaDescription": "Láminas de busca y encuentra: localiza los objetos ocultos en la escena y márcalos. Agudeza visual para kínder, en línea o en PDF gratis."
+    },
+    "missing-pieces": {
+      "title": "Piezas faltantes – rompecabezas para imprimir",
+      "h1": "Piezas faltantes",
+      "metaDescription": "¿Qué pieza falta en la imagen? Elige el fragmento exacto que completa el dibujo: percepción visual para kínder. Retos en línea y en PDF gratis."
+    },
+    "odd-one-out": {
+      "title": "Encuentra el intruso – actividades para imprimir",
+      "h1": "El intruso — ¿cuál no pertenece?",
+      "metaDescription": "¿Cuál no pertenece al grupo? Marca el intruso entre los dibujos y explica por qué: razonamiento lógico para kínder. En línea y en PDF gratis."
+    },
+    "counting-pictures": {
+      "title": "Contar con dibujos – fichas de conteo (PDF)",
+      "h1": "Contar con dibujos",
+      "metaDescription": "Cuenta los dibujos y escribe cuántos hay: fichas de conteo del 1 al 10 con imágenes grandes. Para kínder, en línea o para imprimir gratis."
+    },
+    "counting-frames": {
+      "title": "Marcos de 10 – fichas de conteo para imprimir",
+      "h1": "Marcos de 10 (ten frames)",
+      "metaDescription": "Marcos de 10 para formar cada número: dibuja o cuenta los puntos y completa la decena. Base del cálculo mental en kínder, en línea y en PDF gratis."
+    },
+    "tally-counting": {
+      "title": "Marcas de conteo para niños – para imprimir",
+      "h1": "Marcas de conteo",
+      "metaDescription": "Lee y escribe marcas de conteo: agrupa de 5 en 5 y registra cuántos hay. Fichas de conteo con rayitas para kínder, en línea o en PDF gratis."
+    },
+    "number-charts": {
+      "title": "Tabla del 100 para imprimir – ejercicios gratis",
+      "h1": "La tabla del 100",
+      "metaDescription": "La tabla del 100 con números faltantes: complétala y descubre los patrones del 1 al 100. Ejercicios interactivos y en PDF gratis para primaria."
+    },
+    "comparing-numbers": {
+      "title": "Comparar números – mayor, menor o igual (PDF)",
+      "h1": "Comparar números",
+      "metaDescription": "Mayor que, menor que o igual: compara los números y elige el signo correcto. Ejercicios de comparación para primaria, en línea y en PDF gratis."
+    },
+    "comparing-groups": {
+      "title": "Comparar cantidades – fichas para imprimir",
+      "h1": "Comparar cantidades",
+      "metaDescription": "¿Qué grupo tiene más elementos? Cuenta y compara colecciones de dibujos. Fichas de comparar cantidades para kínder, en línea o en PDF gratis."
+    },
+    "comparing-sizes": {
+      "title": "Comparar tamaños – actividades para niños",
+      "h1": "Comparar tamaños",
+      "metaDescription": "Ordena del más chico al más grande y encuentra el objeto de otro tamaño: comparación de tamaños para kínder. En línea y para imprimir gratis."
+    },
+    "number-lines": {
+      "title": "Recta numérica para imprimir – ejercicios PDF",
+      "h1": "La recta numérica",
+      "metaDescription": "La recta numérica hasta el 10, el 20 y el 100: ubica los números faltantes y da saltos para sumar. Ejercicios en línea y en PDF gratis para primaria."
+    },
+    "base-ten": {
+      "title": "Valor posicional: unidades y decenas – imprimir",
+      "h1": "Valor posicional — unidades y decenas",
+      "metaDescription": "Unidades, decenas y centenas con bloques base diez: representa cada número y escribe su valor. Ejercicios en línea y en PDF gratis para primaria."
+    },
+    "telling-time": {
+      "title": "El reloj: aprender la hora – fichas para imprimir",
+      "h1": "Aprender la hora — el reloj",
+      "metaDescription": "Lee el reloj de manecillas: horas en punto, y media y de 5 en 5 minutos. Fichas del reloj interactivas y en PDF gratis para primaria."
+    },
+    "fractions": {
+      "title": "Fracciones para niños – fichas para imprimir",
+      "h1": "Fracciones para niños",
+      "metaDescription": "Mitades, tercios y cuartos con figuras divididas para colorear y comparar: primeras fracciones para segundo y tercer grado. En línea y en PDF gratis."
+    },
+    "graphing-data": {
+      "title": "Gráficas de barras para niños – para imprimir",
+      "h1": "Gráficas de barras y pictogramas",
+      "metaDescription": "Lee la gráfica de barras y el pictograma: responde cuántos hay y compara categorías. Ejercicios de gráficas para primaria en línea y en PDF gratis."
+    },
+    "chart-count": {
+      "title": "Cuenta y grafica – actividades para imprimir",
+      "h1": "Contar en gráfico — cuenta y grafica",
+      "metaDescription": "Cuenta los objetos de cada tipo y colorea la barra hasta la altura correcta: tu primera gráfica en kínder. Actividades en línea y en PDF gratis."
+    },
+    "arrays-multiplication": {
+      "title": "Multiplicación para niños – fichas para imprimir",
+      "h1": "Multiplicación con arreglos",
+      "metaDescription": "Multiplicar con arreglos: filas y columnas de dibujos que se cuentan como suma repetida. Fichas de multiplicación en línea y en PDF gratis, 2.º y 3.º."
+    },
+    "geometry": {
+      "title": "Figuras geométricas – fichas para imprimir",
+      "h1": "Figuras geométricas",
+      "metaDescription": "Reconoce triángulos, cuadrados y hexágonos: cuenta lados y vértices y clasifica cada figura. Geometría para primaria en línea y en PDF gratis."
+    },
+    "measurement": {
+      "title": "Medición para niños – actividades para imprimir",
+      "h1": "Medición para niños",
+      "metaDescription": "Mide con regla, compara longitudes y ordena por tamaño: primeras nociones de medición para primaria. Actividades en línea y en PDF gratis."
+    },
+    "visual-logic": {
+      "title": "Lógica visual – ejercicios para imprimir gratis",
+      "h1": "Lógica visual",
+      "metaDescription": "Series y acertijos visuales: descubre la regla, completa el que sigue y justifica la elección. Ejercicios de lógica en línea y en PDF gratis."
+    },
+    "visual-discrimination": {
+      "title": "Discriminación visual – fichas para imprimir",
+      "h1": "Discriminación visual",
+      "metaDescription": "Encuentra el dibujo igual al modelo y detecta el diferente: fichas de discriminación visual para kínder. Trabaja en línea o imprime el PDF gratis."
+    },
+    "visual-matching": {
+      "title": "Emparejamiento visual – fichas para imprimir",
+      "h1": "Emparejamiento visual",
+      "metaDescription": "Localiza las dos imágenes idénticas entre otras muy parecidas: atención al detalle y memoria visual en kínder. Fichas en línea y en PDF gratis."
+    },
+    "position-words": {
+      "title": "Conceptos espaciales – arriba, abajo, dentro",
+      "h1": "Conceptos espaciales",
+      "metaDescription": "Arriba o abajo, dentro o fuera, delante o detrás: ubica el objeto en la escena. Conceptos espaciales para kínder, en línea y en PDF gratis."
+    },
+    "sorting-categories": {
+      "title": "Clasificar y agrupar – actividades para imprimir",
+      "h1": "Clasificar y agrupar",
+      "metaDescription": "Agrupa lo que va junto: ropa, alimentos y transportes en su categoría. Clasificación para kínder y primaria, en línea o para imprimir gratis."
+    },
+    "science-sort": {
+      "title": "Clasificar en ciencias – vivo o no vivo (PDF)",
+      "h1": "Clasificar en ciencias",
+      "metaDescription": "Clasifica en ciencias: seres vivos y no vivos, alimentos saludables y no saludables. Actividades de kínder y primaria en línea y en PDF gratis."
+    },
+    "science-match": {
+      "title": "Relacionar en ciencias – fichas para imprimir",
+      "h1": "Relacionar en ciencias",
+      "metaDescription": "Relaciona cada animal con su hábitat y cada cría con su madre: ciencias naturales para kínder. Fichas de relacionar en línea y en PDF gratis."
+    },
+    "beginning-sounds": {
+      "title": "Sonidos iniciales – actividades para imprimir",
+      "h1": "Sonidos iniciales",
+      "metaDescription": "¿Con qué sonido empieza? Di el nombre del dibujo e identifica su sonido inicial: conciencia fonológica temprana en kínder. En línea y en PDF gratis."
+    },
+    "letter-knowledge": {
+      "title": "Conocimiento de letras – fichas para imprimir",
+      "h1": "Conocimiento de letras",
+      "metaDescription": "Reconoce letras mayúsculas y minúsculas y encuéntralas entre otras parecidas: primeras letras para kínder. Fichas en línea y para imprimir gratis."
+    },
+    "word-building": {
+      "title": "Formar palabras con sílabas – para imprimir",
+      "h1": "Formar palabras con sílabas",
+      "metaDescription": "Toca las sílabas en orden y forma la palabra del dibujo: ma-ri-po-sa. Sílabas para kínder al estilo alfabeto móvil, en línea y en PDF gratis."
+    },
+    "picture-vocabulary": {
+      "title": "Vocabulario con dibujos – fichas para imprimir",
+      "h1": "Vocabulario con dibujos",
+      "metaDescription": "Fichas de vocabulario ilustrado en español: nombra cada dibujo y relaciónalo con su palabra escrita. Para kínder, en línea o en PDF gratis."
+    },
+    "phonological-awareness": {
+      "title": "Conciencia fonológica – actividades para imprimir",
+      "h1": "Conciencia fonológica",
+      "metaDescription": "Cuenta sílabas con palmadas, encuentra rimas y separa sonidos: conciencia fonológica para preescolar y kínder. Actividades en línea y en PDF gratis."
+    },
+    "preschool": {
+      "title": "Actividades para preescolar – imprimir gratis PDF",
+      "h1": "Actividades para preescolar",
+      "metaDescription": "Actividades para preescolar listas para imprimir gratis: conteo, tamaños, patrones y vocabulario con imágenes. También se juegan en línea, sin registro."
+    },
+    "kindergarten": {
+      "title": "Actividades para kínder – para imprimir gratis",
+      "h1": "Actividades para kínder",
+      "metaDescription": "Fichas y actividades para kínder: sumas con dibujos, letras, sopas de letras y clasificación. Imprime el PDF gratis o juega en línea, sin registro."
+    },
+    "grade-1": {
+      "title": "Actividades para primer grado – imprimir (PDF)",
+      "h1": "Actividades para primer grado",
+      "metaDescription": "Actividades para primer grado de primaria: sopa de letras, rompecabezas matemáticos, patrones y más. En línea o en PDF para imprimir gratis."
+    },
+    "grade-2": {
+      "title": "Actividades para segundo grado – imprimir (PDF)",
+      "h1": "Actividades para segundo grado",
+      "metaDescription": "Actividades para segundo grado: crucigramas, fracciones, multiplicación y la hora del reloj. Ejercicios interactivos y fichas PDF gratis con respuestas."
+    },
+    "grade-3": {
+      "title": "Actividades para tercer grado – imprimir (PDF)",
+      "h1": "Actividades para tercer grado",
+      "metaDescription": "Fichas para tercer grado: el reloj a 5 minutos, fracciones y multiplicación con arreglos. Practica en línea o imprime gratis el PDF con respuestas."
+    },
+    "animals": {
+      "title": "Actividades de animales para niños – imprimir",
+      "h1": "Actividades de animales",
+      "metaDescription": "Actividades con animales: cuenta, clasifica, une sombras y resuelve sopas de letras con vocabulario de animales. En línea y en PDF gratis."
+    },
+    "farm_animals": {
+      "title": "Animales de la granja – actividades para niños",
+      "h1": "Animales de la granja",
+      "metaDescription": "La vaca, el cerdo y la gallina en fichas de contar, emparejar y clasificar: animales de la granja para preescolar y kínder. PDF gratis y en línea."
+    },
+    "zoo_animals": {
+      "title": "Animales del zoológico – actividades infantiles",
+      "h1": "Animales del zoológico",
+      "metaDescription": "León, elefante y jirafa protagonizan sumas, sopas de letras y juegos de sombras: el zoológico en fichas para niños. En línea o en PDF gratis."
+    },
+    "pets": {
+      "title": "Actividades de mascotas para niños – imprimir",
+      "h1": "Actividades de mascotas",
+      "metaDescription": "Perros, gatos y peces en actividades de contar, emparejar y vocabulario: fichas de mascotas para preescolar y kínder. En línea y en PDF gratis."
+    },
+    "dinosaurs": {
+      "title": "Actividades de dinosaurios – para imprimir gratis",
+      "h1": "Actividades de dinosaurios",
+      "metaDescription": "Dinosaurios para contar, clasificar y buscar en sopas de letras: fichas con los favoritos de los niños. Imprime gratis el PDF o juega en línea."
+    },
+    "fruits": {
+      "title": "Actividades de frutas para niños – para imprimir",
+      "h1": "Actividades de frutas",
+      "metaDescription": "Manzanas, plátanos y sandías en fichas de conteo, sumas y vocabulario: actividades de frutas para preescolar y kínder. PDF gratis y en línea."
+    },
+    "vegetables": {
+      "title": "Actividades de verduras para niños – imprimir",
+      "h1": "Actividades de verduras",
+      "metaDescription": "Verduras para contar, clasificar y nombrar: fichas ilustradas que refuerzan vocabulario y conteo en kínder. Imprime el PDF gratis o juega en línea."
+    },
+    "body_parts": {
+      "title": "Partes del cuerpo – fichas para imprimir gratis",
+      "h1": "Las partes del cuerpo",
+      "metaDescription": "Cabeza, hombros, rodillas y pies: fichas de las partes del cuerpo para nombrar, unir y clasificar en español. Para kínder, en línea y en PDF gratis."
+    },
+    "emotions": {
+      "title": "Actividades de emociones para niños – imprimir",
+      "h1": "Actividades de emociones",
+      "metaDescription": "Alegría, tristeza, enojo y sorpresa: reconoce y nombra emociones en fichas de unir y clasificar. Educación socioemocional en kínder, PDF gratis."
+    },
+    "shapes": {
+      "title": "Actividades de formas y figuras – para imprimir",
+      "h1": "Figuras y formas",
+      "metaDescription": "Círculo, cuadrado y triángulo en juegos de clasificar, contar y emparejar: figuras geométricas básicas para preescolar y kínder. PDF gratis."
+    },
+    "space": {
+      "title": "Actividades del espacio para niños – imprimir",
+      "h1": "Actividades del espacio",
+      "metaDescription": "Cohetes, planetas y astronautas en fichas de contar, sumar y buscar en sopas de letras: el espacio para niños curiosos. En línea y en PDF gratis."
+    },
+    "vehicles": {
+      "title": "Actividades de vehículos para niños – imprimir",
+      "h1": "Actividades de vehículos",
+      "metaDescription": "Coches, trenes y aviones en fichas de conteo, patrones y emparejar: los transportes en actividades para kínder. En línea o en PDF gratis."
+    },
+    "toys": {
+      "title": "Actividades de juguetes para niños – imprimir",
+      "h1": "Actividades de juguetes",
+      "metaDescription": "Pelotas, ositos y trompos para contar, comparar y clasificar: fichas con juguetes para preescolar y kínder. Imprime gratis o juega en línea."
+    },
+    "clothing": {
+      "title": "Actividades de la ropa para niños – imprimir",
+      "h1": "La ropa — vocabulario y juegos",
+      "metaDescription": "Camisas, zapatos y gorros: vocabulario de la ropa en fichas de nombrar, unir y clasificar en español. Para kínder, en línea y en PDF gratis."
+    },
+    "weather": {
+      "title": "Actividades del clima para niños – imprimir",
+      "h1": "El clima — actividades para niños",
+      "metaDescription": "Sol, lluvia y nubes en fichas de vocabulario, conteo y clasificación: el clima para preescolar y kínder. Imprime el PDF gratis o juega en línea."
+    },
+    "flowers": {
+      "title": "Actividades de flores para niños – imprimir",
+      "h1": "Actividades de flores",
+      "metaDescription": "Flores para contar, sumar y emparejar: fichas de primavera con vocabulario ilustrado para preescolar y kínder. En línea y en PDF gratis."
+    },
+    "music": {
+      "title": "Actividades de música para niños – imprimir",
+      "h1": "Actividades de música",
+      "metaDescription": "Tambores, guitarras y maracas en fichas de contar, emparejar y sopa de letras: los instrumentos musicales en kínder. PDF gratis y en línea."
+    },
+    "ocean_life": {
+      "title": "Vida marina – actividades para niños (PDF)",
+      "h1": "Vida marina — animales del mar",
+      "metaDescription": "Peces, pulpos y tortugas del mar en fichas de conteo, sombras y clasificación: vida marina para preescolar y kínder. En línea y en PDF gratis."
+    },
+    "birds_2": {
+      "title": "Actividades de aves para niños – para imprimir",
+      "h1": "Actividades de aves",
+      "metaDescription": "Búhos, loros y colibríes para contar, unir y buscar: fichas de aves con vocabulario ilustrado para kínder. Imprime gratis o juega en línea."
+    },
+    "occupations": {
+      "title": "Oficios y profesiones – actividades para niños",
+      "h1": "Ocupaciones — oficios y profesiones",
+      "metaDescription": "Bombero, doctora y panadero: oficios y profesiones en fichas de vocabulario, unir y clasificar. Para preescolar y kínder, en línea y PDF gratis."
+    },
+    "beach": {
+      "title": "Actividades de la playa para niños – imprimir",
+      "h1": "Actividades de la playa",
+      "metaDescription": "Cubetas, conchas y castillos de arena para contar y clasificar: la playa en fichas de verano para kínder. Imprime el PDF gratis o juega en línea."
+    },
+    "accessories": {
+      "title": "Accesorios – fichas para niños para imprimir",
+      "h1": "Accesorios — objetos de uso diario",
+      "metaDescription": "Lentes, gorras y paraguas en fichas de contar, emparejar y clasificar: objetos de uso diario para kínder. En línea o para imprimir gratis en PDF."
+    }
+  },
+  "intersection": {}
+}

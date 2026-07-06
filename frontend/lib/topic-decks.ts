@@ -286,6 +286,21 @@ export async function fetchDecksForSubjectLevel(
   }) as unknown as Promise<TopicDeckSummary[]>;
 }
 
+/** Latest content update in a subject×grade bucket — the hub's honest "Updated" date (Unit 6). */
+export async function latestDeckUpdateForSubjectLevel(
+  subjectKey: string,
+  levelKey: string,
+  locale: string
+): Promise<Date | null> {
+  const w = buildSubjectLevelWhere(subjectKey, levelKey);
+  if (!w) return null;
+  const r = await prisma.deck.aggregate({
+    where: { language: locale, status: 'published', contentLanguage: null, ...w },
+    _max: { updatedAt: true },
+  });
+  return r._max.updatedAt ?? null;
+}
+
 /** Count published decks for a subject×grade hub — empty-guard + header count. */
 export async function countDecksForSubjectLevel(
   subjectKey: string,

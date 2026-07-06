@@ -155,7 +155,9 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 
   /* ---------- create the story through the launcher flow ---------- */
   await page.goto(base + '/mini-tools/storybook-studio.html', { waitUntil: 'domcontentloaded' });
-  await page.waitForFunction("window.SBModules && SBModules.types().length === 17", { timeout: 15000 });
+  /* >= 17: the catalog has grown since (24 with the preschool pack); the
+     studio HTML's own banner check owns the exact-count invariant */
+  await page.waitForFunction("window.SBModules && SBModules.types().length >= 17", { timeout: 15000 });
   /* the New-story dialog uses prompt(); drive scaffold via the same API the
      dialog calls, then open through the launcher card (the one non-UI step
      puppeteer can't type into a native prompt) */

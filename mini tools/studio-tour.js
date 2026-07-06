@@ -30,6 +30,14 @@
     if (!teacher && !force) return;
     try { if (!force && localStorage.getItem('studio.toured')) return; } catch (e) {}
 
+    /* the coach marks anchor to the shell containers — make sure the shell
+       is open (a returning user may have collapsed it) */
+    try {
+      if (global.StudioInspector && global.StudioInspector.setShell) {
+        global.StudioInspector.setShell({ top: true, rail: true, panel: true }, { transient: true });
+      }
+    } catch (e) {}
+
     var de = (global.Studio && global.Studio.state && global.Studio.state.storyLocale) === 'de';
     var steps = tourSteps(de);
     var idx = 0;

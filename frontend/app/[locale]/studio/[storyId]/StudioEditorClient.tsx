@@ -2,17 +2,20 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/auth-context';
 import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import { studioStrings } from '../studio-strings';
 
-// Story Studio — full-viewport editor host. Auth + tier gates, a small-screen
-// posture card (<1024px: editing is desktop/tablet-landscape), and the
-// 401-from-inside listener (studio-core posts lcs-studio-auth when the token
-// dies mid-session; autosave's localStorage backup protects the work).
+// Story Studio — TRUE full-viewport editor host: the iframe owns the entire
+// screen (the canvas is the product; no wrapper band). Auth + tier gates, a
+// small-screen posture card (<1024px: editing is desktop/tablet-landscape),
+// the 401-from-inside listener (studio-core posts lcs-studio-auth when the
+// token dies mid-session; autosave's localStorage backup protects the work),
+// and the lcs-studio-nav listener (the studio toolbar's "← My stories").
 
-const STUDIO_CLIENT_VERSION = 2; // bump with any storybook-studio.html/js change (§A.13.42)
+const STUDIO_CLIENT_VERSION = 3; // bump with any storybook-studio.html/js change (§A.13.42)
 
 export default function StudioEditorClient({
   locale,
@@ -22,6 +25,7 @@ export default function StudioEditorClient({
   storyId: string;
 }) {
   const s = studioStrings(locale);
+  const router = useRouter();
   const { user, loading: authLoading } = useAuth();
   const [authLost, setAuthLost] = useState(false);
   const [tooSmall, setTooSmall] = useState(false);
@@ -32,10 +36,13 @@ export default function StudioEditorClient({
       if (e.data && e.data.type === 'lcs-studio-auth' && e.data.status === 401) {
         setAuthLost(true);
       }
+      if (e.data && e.data.type === 'lcs-studio-nav' && e.data.target === 'stories') {
+        router.push(`/${locale}/studio`);
+      }
     };
     window.addEventListener('message', onMessage);
     return () => window.removeEventListener('message', onMessage);
-  }, []);
+  }, [locale, router]);
 
   useEffect(() => {
     const check = () => setTooSmall(window.innerWidth < 1024);
@@ -103,18 +110,15 @@ export default function StudioEditorClient({
   }
 
   return (
-    <div className="fixed inset-0 z-40 bg-cream-50 flex flex-col">
-      <div className="flex items-center gap-3 px-4 py-2 border-b border-cream-300 bg-cream-50">
-        <Link
-          href={`/${locale}/studio`}
-          className="text-sm font-semibold text-ink-700 hover:text-terracotta-500 transition"
-        >
-          ← {s.backToStories}
-        </Link>
-      </div>
+    <div className="fixed inset-0 z-40 bg-cream-50">
+      <iframe
+        src={`/mini-tools/storybook-studio.html?story=${encodeURIComponent(storyId)}&mode=teacher${user.isAdmin ? '&admin=1' : ''}&v=${STUDIO_CLIENT_VERSION}`}
+        title="Story Studio"
+        className="absolute inset-0 h-full w-full border-0"
+      />
       {authLost && (
-        <div className="flex items-center justify-between gap-4 px-4 py-2 bg-terracotta-400 text-cream-50">
-          <p className="text-sm font-semibold">{s.editorAuthLost}</p>
+        <div className="absolute left-1/2 top-3 z-10 flex -translate-x-1/2 items-center gap-4 rounded-full bg-terracotta-400 px-5 py-2.5 text-cream-50 shadow-lg">
+          <p className="whitespace-nowrap text-sm font-semibold">{s.editorAuthLost}</p>
           <Link
             href={`/${locale}/auth/signin`}
             className="shrink-0 text-sm font-bold underline"
@@ -123,11 +127,6 @@ export default function StudioEditorClient({
           </Link>
         </div>
       )}
-      <iframe
-        src={`/mini-tools/storybook-studio.html?story=${encodeURIComponent(storyId)}&mode=teacher${user.isAdmin ? '&admin=1' : ''}&v=${STUDIO_CLIENT_VERSION}`}
-        title="Story Studio"
-        className="flex-1 w-full border-0"
-      />
     </div>
   );
 }

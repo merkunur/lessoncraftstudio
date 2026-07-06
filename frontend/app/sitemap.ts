@@ -10,7 +10,7 @@ import {
   intersectionLastModified,
   countDecksForSubjectLevel,
 } from '@/lib/topic-decks';
-import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS, isSubjectHubAllowed } from '@/lib/subject-hub';
+import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS, isSubjectHubAllowed, isOnlineHubAvailable } from '@/lib/subject-hub';
 // SEO RESCUE Part 2 W1: only authored (genuinely-unique) 2-axis intersections
 // belong in the sitemap; thin generic-template pairs are noindex'd in the route
 // and omitted here (single SoT shared with the [secondary] route).
@@ -324,6 +324,34 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
               priority: 0.6,
               alternates: { languages: alternates },
             });
+          }
+
+          // Online-exercise hub variant (Unit 4) — only locales with online copy.
+          const onlineSibs = sibs.filter((loc) => isOnlineHubAvailable(loc, subjectKey));
+          if (onlineSibs.length > 0) {
+            const onlineAlternates: Record<string, string> = {};
+            for (const sib of onlineSibs) {
+              const ss = getSubjectSlugStrict(subjectKey, sib);
+              const gs = getAxisSlug('educational-level', levelKey, sib);
+              if (ss && gs) onlineAlternates[getHreflangCode(sib)] = `${baseUrl}/${sib}/topic/${ss}/${gs}/online`;
+            }
+            if (onlineSibs.includes('en')) {
+              const ess = getSubjectSlugStrict(subjectKey, 'en');
+              const egs = getAxisSlug('educational-level', levelKey, 'en');
+              if (ess && egs) onlineAlternates['x-default'] = `${baseUrl}/en/topic/${ess}/${egs}/online`;
+            }
+            for (const loc of onlineSibs) {
+              const ss = getSubjectSlugStrict(subjectKey, loc);
+              const gs = getAxisSlug('educational-level', levelKey, loc);
+              if (!ss || !gs) continue;
+              routes.push({
+                url: `${baseUrl}/${loc}/topic/${ss}/${gs}/online`,
+                lastModified: STATIC_CONTENT_DATE,
+                changeFrequency: 'weekly',
+                priority: 0.6,
+                alternates: { languages: onlineAlternates },
+              });
+            }
           }
         }
       }

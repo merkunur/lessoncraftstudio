@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "seriation.compare-length.1-md-a-1": {
+      "about": [
+        "Tilly, la chatte de la boutique, a caché de jolis rubans colorés sur des étagères placées loin les unes des autres. Votre enfant part à leur recherche, puis se sert d'une ficelle — une longue cordelette — pour savoir lequel est le plus long, lequel est le plus court, et lequel mesure exactement la même longueur que la ficelle. Il n'y a ni chiffres, ni centimètres : on regarde, on compare, on décide avec ses yeux et un petit outil de mesure tout simple.",
+        "L'idée mathématique cachée derrière ce jeu est essentielle au CP : comparer des longueurs, les ranger de la plus grande à la plus petite, et surtout comparer deux objets sans les poser côte à côte. Quand les rubans sont sur des étagères éloignées, on ne peut pas les rapprocher pour les mettre bout à bout. On utilise alors un troisième objet, la ficelle, comme intermédiaire : on la compare à un ruban, puis à l'autre. C'est ce qu'on appelle la comparaison indirecte, une étape clé pour raisonner sur les grandeurs et, plus tard, pour comprendre à quoi sert vraiment une règle graduée.",
+        "Cette activité est entièrement gratuite, sans compte à créer, sans minuteur et sans points à gagner. Elle est conçue en lien avec les programmes officiels, dans le domaine « Grandeurs et mesures », et votre enfant avance à son rythme, aussi longtemps qu'il en a besoin, en explorant tranquillement chaque étagère de la boutique de Tilly."
+      ],
+      "practices": [
+        "Comparer la longueur de deux rubans",
+        "Ranger trois rubans du plus long au plus court",
+        "Utiliser la ficelle comme objet intermédiaire pour comparer",
+        "Employer le vocabulaire « plus long », « plus court », « aussi long que »"
+      ],
+      "howToPlay": [
+        "Observe bien les rubans cachés sur les étagères et la ficelle de Tilly.",
+        "Compare chaque ruban à la ficelle pour voir s'il est plus long, plus court ou aussi long qu'elle.",
+        "Touche le ruban le plus long, le plus court, ou celui qui est aussi long que la ficelle, selon la consigne."
+      ],
+      "learningGoals": [
+        "Votre enfant sait comparer et ranger des longueurs sans utiliser de chiffres.",
+        "Il comprend la comparaison indirecte : passer par un troisième objet quand on ne peut pas rapprocher les deux longueurs.",
+        "Il maîtrise le vocabulaire de la longueur, une base solide avant de mesurer plus tard en centimètres avec une règle."
+      ]
+    },
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
         "Une forme de départ partagée en parts égales s'affiche, puis quatre autres formes : l'enfant touche celle qui montre le même partage, en autant de parts égales — même si les morceaux n'ont pas tout à fait la même allure. C'est une activité de géométrie gratuite et interactive pour le CE1, qui se joue directement dans le navigateur, sans rien à installer et sans compte.",

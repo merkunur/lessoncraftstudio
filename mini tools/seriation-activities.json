@@ -23,15 +23,18 @@
     },
     "slug": {
       "en": "compare-and-order-by-length",
-      "de": "laengen-vergleichen-und-ordnen"
+      "de": "laengen-vergleichen-und-ordnen",
+      "fr": "comparer-et-ranger-par-longueur"
     },
     "page_title": {
       "en": "The Faraway Shelf — Compare & Order by Length (Grade 1)",
-      "de": "Tillys Bänder — Längen vergleichen und ordnen (Klasse 1)"
+      "de": "Tillys Bänder — Längen vergleichen und ordnen (Klasse 1)",
+      "fr": "Les rubans de Tilly — Comparer et ranger par longueur (CP)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 measurement activity: help Tilly the shop cat compare things on far-apart shelves using a measuring cord. Read each ribbon against the cord, then tap the longest, the shortest, or the one that is just as long as the cord. A friendly first look at ordering by length and comparing two things indirectly using a third. Common Core 1.MD.A.1.",
-      "de": "Tilly versteckt Bänder auf weit entfernten Regalen. Vergleiche und ordne die Längen mit einer Schnur – kostenlose Mathe-Übung, Klasse 1, nach Lehrplan."
+      "de": "Tilly versteckt Bänder auf weit entfernten Regalen. Vergleiche und ordne die Längen mit einer Schnur – kostenlose Mathe-Übung, Klasse 1, nach Lehrplan.",
+      "fr": "Tilly cache ses rubans sur des étagères éloignées : votre enfant les compare avec une ficelle, du plus long au plus court. Activité gratuite, Grandeurs et mesures, CP."
     },
     "kid_prompt_template": "seriation"
   }

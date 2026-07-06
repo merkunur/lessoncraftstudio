@@ -1,0 +1,1201 @@
+{
+  "locale": "es",
+  "generated": "2026-07-06",
+  "source": "docs/SEO/harvests/es.json (hl=es&gl=mx, 348 seeds, 2344 unique) + 18-query SERP sample + docs/SEO/deck-inventory-type-level.json + docs/SEO/deck-inventory-themes.json",
+  "titlePattern": {
+    "register": "es-MX (México): fichas/actividades/ejercicios — NUNCA 'hojas de cálculo'; display 'Kínder' — NUNCA 'jardín infantil' in copy; preescolar / primer grado / segundo grado / tercer grado",
+    "typeHead": "<término de demanda> – para imprimir gratis | (PDF)",
+    "levelHead": "Actividades para <grado> – imprimir (PDF)",
+    "themeHead": "Actividades de <tema> para niños – imprimir",
+    "intersection": "<Tipo> para <grado> – para imprimir",
+    "qualifiers": "para imprimir > gratis > PDF > para niños. 'en línea' honest (every deck playable). 'sin llevar' only on no-carry decks. Grade wording only at the deck pool's TRUE level (3-5 preescolar / 5-7 kínder / 6-8 primer grado / 7-9 segundo grado / 8-10 tercer grado).",
+    "lengths": { "ideal": 51, "max": 65 },
+    "ownership": "Do NOT title-target 'ejercicios/fichas de matemáticas <grado>' or 'español <grado>' (live subject×grade hubs) nor type+theme+grade 3-axis phrases (deck landings)."
+  },
+  "singleAxis": {
+    "wordsearch": {
+      "primaryQuery": "sopa de letras para niños",
+      "evidence": "harvest+serp",
+      "title": "Sopa de letras para niños – para imprimir gratis",
+      "h1": "Sopas de letras para niños",
+      "metaDescription": "Sopas de letras con palabras ilustradas del vocabulario escolar: busca, encierra y lee. Resuélvelas en línea o imprímelas gratis en PDF con solución.",
+      "winnability": "HARD head (mundosopas, letrasenlasopa, edufichas, generators) / WINNABLE grade tail",
+      "notes": "Richest type in the harvest; full grade ladder (preescolar→segundo grado) present. Grade-mixed demand absorbed here; decks sit at 6-8."
+    },
+    "crossword": {
+      "primaryQuery": "crucigrama para niños",
+      "evidence": "harvest+serp",
+      "title": "Crucigramas para niños – fáciles y para imprimir",
+      "h1": "Crucigramas para niños",
+      "metaDescription": "Crucigramas fáciles con pistas de imágenes: el niño escribe cada palabra letra por letra. Resuélvelos en línea o imprímelos gratis en PDF con respuestas.",
+      "winnability": "HARD head (maestrajudith, edufichas, twinkl) / WINNABLE at segundo grado tail",
+      "notes": "Decks at 7-9 (segundo grado) — the grade intersection is the winnable face."
+    },
+    "sudoku": {
+      "primaryQuery": "sudoku de imagenes para niños",
+      "evidence": "harvest+serp",
+      "title": "Sudoku de imágenes para niños – para imprimir",
+      "h1": "Sudoku de imágenes",
+      "metaDescription": "Sudokus 4×4 con dibujos en lugar de números: cada imagen aparece una sola vez por fila y columna. Juega en línea o imprime el PDF gratis, ideal para kínder.",
+      "winnability": "WINNABLE — generic number-sudoku sites own the broad term; the image-sudoku face is sparsely served",
+      "notes": "Exact-match our type name; 'como se juega' suggestion → add a how-to-play block."
+    },
+    "cryptogram": {
+      "primaryQuery": "criptogramas para niños",
+      "evidence": "harvest+serp",
+      "title": "Criptogramas para niños – para imprimir gratis",
+      "h1": "Criptogramas para niños",
+      "metaDescription": "Descifra la palabra secreta con la clave de símbolos: cada dibujo revela una letra. Criptogramas infantiles en línea y en PDF gratis con respuestas.",
+      "winnability": "WINNABLE — PE fichas mills are the incumbents; no interactive owner",
+      "notes": "HONESTY: MX/PE demand skews 'criptograma numérico' (letter=digit math) — ours is symbol→letter decode; never claim 'numérico'. code-addition owns the sums face."
+    },
+    "addition": {
+      "primaryQuery": "ejercicios de suma para imprimir",
+      "evidence": "harvest",
+      "title": "Sumas para niños – fichas para imprimir gratis",
+      "h1": "Sumas para niños",
+      "metaDescription": "Fichas de suma con dibujos para contar y sumar hasta 10 y 20. Resuelve en línea con revisión inmediata o imprime el PDF gratis con su hoja de respuestas.",
+      "winnability": "HARD head / WINNABLE with dibujos+kínder qualifiers",
+      "notes": "Bare 'suma' polluted (sumatriptan, fracciones). 'sin llevar' qualifier only on no-carry decks. All 198 decks at kínder."
+    },
+    "subtraction": {
+      "primaryQuery": "ejercicios de resta para imprimir",
+      "evidence": "harvest",
+      "title": "Restas para niños – fichas para imprimir gratis",
+      "h1": "Restas para niños",
+      "metaDescription": "Restas ilustradas para empezar: tacha los dibujos, cuenta los que quedan y escribe el resultado. Fichas de resta en línea y en PDF gratis para kínder.",
+      "winnability": "HARD head / WINNABLE with dibujos+kínder qualifiers",
+      "notes": "Bare 'resta' polluted (restaurantes). 'prestando/llevando' demand exists but is NOT our content — never claim."
+    },
+    "more-less": {
+      "primaryQuery": "comparar cantidades",
+      "evidence": "harvest+serp",
+      "title": "Más o menos: comparar cantidades – imprimir",
+      "h1": "Más o menos — comparar cantidades",
+      "metaDescription": "¿Dónde hay más y dónde hay menos? El niño compara dos grupos de dibujos y toca la respuesta correcta. Actividades en línea y en PDF gratis para preescolar.",
+      "winnability": "WINNABLE — SEP PDFs + Pinterest only; no worksheet owner",
+      "notes": "Demand carrier is 'comparar cantidades' (bare 'más o menos' = filler-phrase pollution)."
+    },
+    "big-small": {
+      "primaryQuery": "grande pequeño para imprimir",
+      "evidence": "harvest",
+      "title": "Grande o pequeño – fichas para imprimir gratis",
+      "h1": "Grande o pequeño",
+      "metaDescription": "Grande, mediano o pequeño: el niño observa los dibujos y elige el objeto del tamaño que se pide. Fichas de comparación para preescolar, en línea o en PDF.",
+      "winnability": "WINNABLE — 'grande mediano pequeño' formulation has no strong owner",
+      "notes": "MX says the trio 'grande, mediano, pequeño' — use in body even though decks are binary."
+    },
+    "math-puzzle": {
+      "primaryQuery": "rompecabezas matemáticos para imprimir",
+      "evidence": "harvest+serp",
+      "title": "Rompecabezas matemáticos – para imprimir gratis",
+      "h1": "Rompecabezas matemáticos",
+      "metaDescription": "Rompecabezas numéricos donde las sumas y restas se cruzan: completa cada casilla para armar el cuadro. En línea o en PDF gratis para primer grado.",
+      "winnability": "HARD-mid head (webmundoinfantil, materialparamaestros) / WINNABLE at primer grado",
+      "notes": "'para secundaria' suggestions are NOT ours — keep primaria framing."
+    },
+    "math-worksheet": {
+      "primaryQuery": "ficha de matematica para imprimir",
+      "evidence": "harvest",
+      "title": "Fichas de matemáticas – ejercicios para imprimir",
+      "h1": "Fichas de matemáticas",
+      "metaDescription": "Cuadrículas de operaciones para practicar sumas y restas en serie. Cada ficha se resuelve en línea o se imprime gratis en PDF con hoja de respuestas.",
+      "winnability": "HARD — and BOUNDARY: 'ejercicios/fichas de matemáticas <grado>' belongs to the live subject hubs",
+      "notes": "Keep title grade-free; H1/body mechanic-specific (cuadrículas de operaciones) to avoid hub cannibalization."
+    },
+    "code-addition": {
+      "primaryQuery": "criptogramas de sumas y restas",
+      "evidence": "harvest",
+      "title": "Criptogramas de sumas para niños – imprimir",
+      "h1": "Suma codificada — criptogramas de sumas",
+      "metaDescription": "Cada dibujo vale un número: descifra el código y resuelve la suma. Criptogramas de sumas en línea y en PDF gratis, un reto con dibujos para kínder.",
+      "winnability": "WINNABLE — same PE-mill incumbent class as cryptogram",
+      "notes": "code-addition honestly owns the 'criptograma de sumas' face; cryptogram owns the letter-decode face."
+    },
+    "picture-path": {
+      "primaryQuery": "actividades para imprimir laberintos",
+      "evidence": "harvest",
+      "title": "Laberintos de imágenes para niños – imprimir",
+      "h1": "Sendero de imágenes — laberintos con dibujos",
+      "metaDescription": "Laberintos de cuadrícula: traza el camino correcto de imagen en imagen sin cruzar los muros. Juega en línea o imprime el PDF gratis para kínder.",
+      "winnability": "WINNABLE via the laberintos reframe — 'sendero de imágenes' has zero volume",
+      "notes": "Reframe ruling: picture-path = maze mechanics → 'laberintos' is the honest MX demand word."
+    },
+    "treasure-hunt": {
+      "primaryQuery": "búsqueda del tesoro para imprimir",
+      "evidence": "harvest",
+      "title": "Búsqueda del tesoro para niños – para imprimir",
+      "h1": "Búsqueda del tesoro",
+      "metaDescription": "Sigue las pistas por la cuadrícula hasta llegar al tesoro: un reto de orientación espacial para primer grado. Mapas en línea y en PDF gratis.",
+      "winnability": "PARTIAL — head intent skews scavenger-hunt clue cards (pistas); our grid-game face is adjacent",
+      "notes": "Do not promise 'pistas para fiestas'; body clarifies the grid mechanic."
+    },
+    "pattern-train": {
+      "primaryQuery": "tren de patrones",
+      "evidence": "harvest",
+      "title": "Tren de patrones: ¿qué sigue? – para imprimir",
+      "h1": "Tren de patrones",
+      "metaDescription": "¿Qué vagón sigue en el tren? Secuencias de colores y dibujos para completar el patrón. Actividades de kínder en línea y fichas en PDF gratis.",
+      "winnability": "WINNABLE — exact-match type name, thin SERP",
+      "notes": "246 decks — biggest es type; also feeds the patrones kínder intersection."
+    },
+    "pattern-worksheet": {
+      "primaryQuery": "ficha de patrones",
+      "evidence": "harvest",
+      "title": "Fichas de patrones para imprimir – gratis (PDF)",
+      "h1": "Fichas de patrones",
+      "metaDescription": "Fichas de patrones de repetición y secuencias gráficas: observa la serie y elige lo que falta. Para primer grado, en línea o en PDF gratis con respuestas.",
+      "winnability": "WINNABLE — harvest shows the exact 'ficha de patrones' + grade ladder; incumbents are PE mills",
+      "notes": "'patrones aditivos/numéricos' suggestions are numeric-sequence intent — only claim if decks carry it."
+    },
+    "patterns": {
+      "primaryQuery": "patrones kinder",
+      "evidence": "harvest",
+      "title": "Patrones para niños – actividades para imprimir",
+      "h1": "Patrones para niños",
+      "metaDescription": "Patrones AB, ABC y de crecimiento con imágenes: identifica la regla y continúa la serie. Actividades de patrones en línea y en PDF gratis para kínder.",
+      "winnability": "WINNABLE at kínder/preescolar tail; head 'patrones' = sewing/crochet pollution",
+      "notes": "Only 17 decks — demand exceeds supply; production candidate."
+    },
+    "bingo": {
+      "primaryQuery": "bingo para imprimir",
+      "evidence": "harvest",
+      "title": "Bingo para imprimir – cartones educativos gratis",
+      "h1": "Bingo educativo",
+      "metaDescription": "Cartones de bingo con imágenes y palabras para jugar en clase: el cantor dice, los niños marcan. Bingos educativos de kínder en PDF gratis y en línea.",
+      "winnability": "HARD-mid — party-bingo intent mixed; 'educativo/de letras/de números' qualifiers carve the face",
+      "notes": "'bingo para imprimir del 1 al 20' harvested — number-bingo body section."
+    },
+    "grid-match": {
+      "primaryQuery": "emparejar fichas",
+      "evidence": "harvest",
+      "title": "Emparejar en cuadrícula – fichas para imprimir",
+      "h1": "Emparejar en cuadrícula",
+      "metaDescription": "Arrastra cada imagen a su casilla correcta en la cuadrícula: memoria visual y atención para kínder. Juega en línea o imprime la ficha en PDF gratis.",
+      "winnability": "SKIP-head — 'emparejar' = Bluetooth pairing pollution; rank via level/theme pages",
+      "notes": "Keep page for internal linking; no external demand face found."
+    },
+    "matching": {
+      "primaryQuery": "juegos de emparejar para imprimir",
+      "evidence": "harvest",
+      "title": "Relacionar y unir – actividades para imprimir",
+      "h1": "Relacionar columnas — unir con líneas",
+      "metaDescription": "Une cada imagen con su pareja trazando una línea: actividades de relacionar columnas para kínder. Juegos de unir en línea y fichas en PDF gratis.",
+      "winnability": "WINNABLE-mid on 'relacionar/unir' framing; bare 'emparejar' polluted",
+      "notes": "MX classroom verbs: relacionar, unir. 'unir puntos' (connect-the-dots) is a DIFFERENT product — do not claim."
+    },
+    "picture-sort": {
+      "primaryQuery": "clasificar imágenes",
+      "evidence": "harvest",
+      "title": "Clasificar imágenes – actividades para imprimir",
+      "h1": "Clasificar imágenes",
+      "metaDescription": "¿Cuál va con cuál? Clasifica las imágenes en dos grupos: animales o vehículos, frutas o verduras. Clasificación para kínder en línea y en PDF gratis.",
+      "winnability": "SKIP-head (AI-tool intent) / WINNABLE on theme-specific faces (alimentos saludables)",
+      "notes": "162 decks; the '-vs-' theme faces (frutas o verduras) are the real query surface."
+    },
+    "shadow-match": {
+      "primaryQuery": "emparejar sombras",
+      "evidence": "harvest",
+      "title": "Emparejar sombras – actividades para imprimir",
+      "h1": "Emparejar sombras",
+      "metaDescription": "Une cada dibujo con su sombra: discriminación visual con siluetas para kínder. Juega en línea con revisión al instante o imprime el PDF gratis.",
+      "winnability": "WINNABLE — exact-match, tiny clean demand ('juego de emparejar sombras')",
+      "notes": ""
+    },
+    "alphabet-train": {
+      "primaryQuery": "tren del abecedario para imprimir",
+      "evidence": "harvest+serp",
+      "title": "Tren del abecedario para imprimir – completar",
+      "h1": "El tren del abecedario",
+      "metaDescription": "El tren del abecedario para completar: escribe las letras que faltan en cada vagón, de la A a la Z. En línea o en PDF gratis para preescolar.",
+      "winnability": "WINNABLE — but dominant intent is classroom-decoration posters; our face is 'para completar' (harvested)",
+      "notes": "Body must disambiguate worksheet vs poster early."
+    },
+    "prepositions": {
+      "primaryQuery": "preposiciones para imprimir",
+      "evidence": "harvest",
+      "title": "Preposiciones de lugar – fichas para imprimir",
+      "h1": "Preposiciones de lugar",
+      "metaDescription": "¿Dónde está el gato: arriba, abajo o dentro? Preposiciones de lugar con escenas ilustradas para kínder. Fichas interactivas y en PDF gratis.",
+      "winnability": "HARD-mid — grammar-class intent (primaria 4°-6°) dominates; 'de lugar' carves our K-2 face",
+      "notes": "'preposiciones de lugar' harvested — lead with it."
+    },
+    "word-guess": {
+      "primaryQuery": "adivina la palabra con imagenes",
+      "evidence": "harvest",
+      "title": "Adivina la palabra con imágenes – imprimir",
+      "h1": "Adivina la palabra",
+      "metaDescription": "Mira el dibujo y adivina la palabra: escríbela letra por letra con casillas de ayuda. Juego de vocabulario en línea y en PDF gratis para kínder.",
+      "winnability": "SKIP-head (game-show/baby-shower intent); the 'con imágenes/para imprimir' tail is ours",
+      "notes": ""
+    },
+    "word-scramble": {
+      "primaryQuery": "letras revueltas para formar palabras",
+      "evidence": "harvest",
+      "title": "Letras revueltas para formar palabras – PDF",
+      "h1": "Letras revueltas",
+      "metaDescription": "Ordena las letras revueltas y forma la palabra del dibujo: ortografía y vocabulario para primer grado. Resuelve en línea o imprime gratis el PDF.",
+      "winnability": "WINNABLE — clean exact phrase; biblia-themed tail is separate intent",
+      "notes": ""
+    },
+    "find-and-count": {
+      "primaryQuery": "busca y cuenta",
+      "evidence": "harvest+serp",
+      "title": "Busca y cuenta – actividades para imprimir gratis",
+      "h1": "Busca y cuenta",
+      "metaDescription": "Busca cada objeto en la lámina, cuenta cuántos hay y anota el número: atención y conteo para preescolar. Escenas en línea y en PDF gratis.",
+      "winnability": "WINNABLE — no exact-match owner; book-brand (Bruño/Pokémon) tail is navigational",
+      "notes": "Theme tails harvested (busca y cuenta animales / navidad) → theme intersections later."
+    },
+    "find-objects": {
+      "primaryQuery": "encuentra los objetos ocultos para niños",
+      "evidence": "harvest",
+      "title": "Encuentra los objetos ocultos – para imprimir",
+      "h1": "Encuentra los objetos ocultos",
+      "metaDescription": "Láminas de busca y encuentra: localiza los objetos ocultos en la escena y márcalos. Agudeza visual para kínder, en línea o en PDF gratis.",
+      "winnability": "WINNABLE — 'ocultos' + pdf/para imprimir tail underserved",
+      "notes": "'ocultos' is the demand word — always include it."
+    },
+    "missing-pieces": {
+      "primaryQuery": "piezas faltantes de rompecabezas",
+      "evidence": "harvest",
+      "title": "Piezas faltantes – rompecabezas para imprimir",
+      "h1": "Piezas faltantes",
+      "metaDescription": "¿Qué pieza falta en la imagen? Elige el fragmento exacto que completa el dibujo: percepción visual para kínder. Retos en línea y en PDF gratis.",
+      "winnability": "SKIP-head — Lego/Panini replacement-parts intent; rank via level/theme pages",
+      "notes": ""
+    },
+    "odd-one-out": {
+      "primaryQuery": "encuentra el intruso",
+      "evidence": "serp",
+      "title": "Encuentra el intruso – actividades para imprimir",
+      "h1": "El intruso — ¿cuál no pertenece?",
+      "metaDescription": "¿Cuál no pertenece al grupo? Marca el intruso entre los dibujos y explica por qué: razonamiento lógico para kínder. En línea y en PDF gratis.",
+      "winnability": "WINNABLE — only small blogs own 'encuentra el intruso'; bare 'el intruso' is movie intent",
+      "notes": "Always the full phrase 'encuentra el intruso'."
+    },
+    "counting-pictures": {
+      "primaryQuery": "contar con dibujos",
+      "evidence": "harvest",
+      "title": "Contar con dibujos – fichas de conteo (PDF)",
+      "h1": "Contar con dibujos",
+      "metaDescription": "Cuenta los dibujos y escribe cuántos hay: fichas de conteo del 1 al 10 con imágenes grandes. Para kínder, en línea o para imprimir gratis.",
+      "winnability": "WINNABLE-mid — 'aprender a contar con dibujos' tail clean",
+      "notes": "MX word 'conteo' in body (juegos de conteo harvested)."
+    },
+    "counting-frames": {
+      "primaryQuery": "marcos de diez",
+      "evidence": "harvest",
+      "title": "Marcos de 10 – fichas de conteo para imprimir",
+      "h1": "Marcos de 10 (ten frames)",
+      "metaDescription": "Marcos de 10 para formar cada número: dibuja o cuenta los puntos y completa la decena. Base del cálculo mental en kínder, en línea y en PDF gratis.",
+      "winnability": "SKIP-head — 'marcos de diez' resolves to person names; niche teacher term",
+      "notes": "Keep for internal linking; teachers who know the term will convert."
+    },
+    "tally-counting": {
+      "primaryQuery": "marcas de conteo para niños",
+      "evidence": "harvest",
+      "title": "Marcas de conteo para niños – para imprimir",
+      "h1": "Marcas de conteo",
+      "metaDescription": "Lee y escribe marcas de conteo: agrupa de 5 en 5 y registra cuántos hay. Fichas de conteo con rayitas para kínder, en línea o en PDF gratis.",
+      "winnability": "WINNABLE — thin but exact ('marcas de conteo para niños' harvested)",
+      "notes": "Only 4 decks — substrate-honesty: thin page."
+    },
+    "number-charts": {
+      "primaryQuery": "tabla del 100 para imprimir",
+      "evidence": "harvest+serp",
+      "title": "Tabla del 100 para imprimir – ejercicios gratis",
+      "h1": "La tabla del 100",
+      "metaDescription": "La tabla del 100 con números faltantes: complétala y descubre los patrones del 1 al 100. Ejercicios interactivos y en PDF gratis para primaria.",
+      "winnability": "HARD — ABN ecosystem (Spain) owns it; our angle = ejercicios interactivos, not the lona/poster",
+      "notes": "'del 1 al 100' harvested — include in body."
+    },
+    "comparing-numbers": {
+      "primaryQuery": "comparar números",
+      "evidence": "harvest",
+      "title": "Comparar números – mayor, menor o igual (PDF)",
+      "h1": "Comparar números",
+      "metaDescription": "Mayor que, menor que o igual: compara los números y elige el signo correcto. Ejercicios de comparación para primaria, en línea y en PDF gratis.",
+      "winnability": "WINNABLE-mid — 'comparar números hasta el 10' style tails match our range",
+      "notes": "Only 6 decks — thin; production candidate before pushing."
+    },
+    "comparing-groups": {
+      "primaryQuery": "comparar cantidades para niños",
+      "evidence": "harvest",
+      "title": "Comparar cantidades – fichas para imprimir",
+      "h1": "Comparar cantidades",
+      "metaDescription": "¿Qué grupo tiene más elementos? Cuenta y compara colecciones de dibujos. Fichas de comparar cantidades para kínder, en línea o en PDF gratis.",
+      "winnability": "WINNABLE — same open face as more-less; 8 decks only",
+      "notes": "more-less owns the preescolar face; this page keeps the kínder/counted face."
+    },
+    "comparing-sizes": {
+      "primaryQuery": "comparar tamaños",
+      "evidence": "harvest",
+      "title": "Comparar tamaños – actividades para niños",
+      "h1": "Comparar tamaños",
+      "metaDescription": "Ordena del más chico al más grande y encuentra el objeto de otro tamaño: comparación de tamaños para kínder. En línea y para imprimir gratis.",
+      "winnability": "SKIP-head — country/phone comparison intent; big-small owns the real demand",
+      "notes": "'más chico' = MX register (not 'más pequeño' alone)."
+    },
+    "number-lines": {
+      "primaryQuery": "recta numérica para imprimir",
+      "evidence": "harvest+serp",
+      "title": "Recta numérica para imprimir – ejercicios PDF",
+      "h1": "La recta numérica",
+      "metaDescription": "La recta numérica hasta el 10, el 20 y el 100: ubica los números faltantes y da saltos para sumar. Ejercicios en línea y en PDF gratis para primaria.",
+      "winnability": "WINNABLE-mid — Twinkl/webdeldocente rank but no interactive ejercicios owner",
+      "notes": "'hasta el 10/20/100' harvested — mirror our ranges honestly. Only 9 decks — production candidate."
+    },
+    "base-ten": {
+      "primaryQuery": "valor posicional para imprimir",
+      "evidence": "harvest",
+      "title": "Valor posicional: unidades y decenas – imprimir",
+      "h1": "Valor posicional — unidades y decenas",
+      "metaDescription": "Unidades, decenas y centenas con bloques base diez: representa cada número y escribe su valor. Ejercicios en línea y en PDF gratis para primaria.",
+      "winnability": "WINNABLE — strong harvest ladder (primer/segundo grado) vs PE-mill incumbents",
+      "notes": "Only 12 decks — top production candidate (demand≫supply)."
+    },
+    "telling-time": {
+      "primaryQuery": "reloj para aprender la hora para imprimir",
+      "evidence": "harvest+serp",
+      "title": "El reloj: aprender la hora – fichas para imprimir",
+      "h1": "Aprender la hora — el reloj",
+      "metaDescription": "Lee el reloj de manecillas: horas en punto, y media y de 5 en 5 minutos. Fichas del reloj interactivas y en PDF gratis para primaria.",
+      "winnability": "HARD head (edufichas, proferecursos, fichasdematematicas) / grade tail moderate",
+      "notes": "Demand phrases through 'el reloj', never 'telling time'. 'reloj de agujas' (ES) vs 'manecillas' (MX) — use manecillas."
+    },
+    "fractions": {
+      "primaryQuery": "fracciones para imprimir",
+      "evidence": "harvest",
+      "title": "Fracciones para niños – fichas para imprimir",
+      "h1": "Fracciones para niños",
+      "metaDescription": "Mitades, tercios y cuartos con figuras divididas para colorear y comparar: primeras fracciones para segundo y tercer grado. En línea y en PDF gratis.",
+      "winnability": "HARD head / WINNABLE at segundo grado tail",
+      "notes": "'pizza fracciones' + 'para colorear' harvested — visual body angle."
+    },
+    "graphing-data": {
+      "primaryQuery": "fichas para imprimir grafico de barras",
+      "evidence": "harvest",
+      "title": "Gráficas de barras para niños – para imprimir",
+      "h1": "Gráficas de barras y pictogramas",
+      "metaDescription": "Lee la gráfica de barras y el pictograma: responde cuántos hay y compara categorías. Ejercicios de gráficas para primaria en línea y en PDF gratis.",
+      "winnability": "WINNABLE — thin exact demand, no owner",
+      "notes": "MX says 'gráficas' (Spain 'gráficos') — title uses gráficas."
+    },
+    "chart-count": {
+      "primaryQuery": "marcas de conteo y frecuencia",
+      "evidence": "harvest",
+      "title": "Cuenta y grafica – actividades para imprimir",
+      "h1": "Contar en gráfico — cuenta y grafica",
+      "metaDescription": "Cuenta los objetos de cada tipo y colorea la barra hasta la altura correcta: tu primera gráfica en kínder. Actividades en línea y en PDF gratis.",
+      "winnability": "SKIP-head — no distinct face; graphing-data owns the gráfica face; keep for internal linking",
+      "notes": "Differentiated from graphing-data: MAKE the graph (kínder) vs READ the graph (primaria)."
+    },
+    "arrays-multiplication": {
+      "primaryQuery": "multiplicación para imprimir",
+      "evidence": "harvest",
+      "title": "Multiplicación para niños – fichas para imprimir",
+      "h1": "Multiplicación con arreglos",
+      "metaDescription": "Multiplicar con arreglos: filas y columnas de dibujos que se cuentan como suma repetida. Fichas de multiplicación en línea y en PDF gratis, 2.º y 3.º.",
+      "winnability": "HARD head (tablas de multiplicar giants) / WINNABLE on arreglos+grado faces",
+      "notes": "'fichas multiplicación como suma' harvested — exactly our mechanic."
+    },
+    "geometry": {
+      "primaryQuery": "actividades para imprimir figuras geometricas",
+      "evidence": "harvest",
+      "title": "Figuras geométricas – fichas para imprimir",
+      "h1": "Figuras geométricas",
+      "metaDescription": "Reconoce triángulos, cuadrados y hexágonos: cuenta lados y vértices y clasifica cada figura. Geometría para primaria en línea y en PDF gratis.",
+      "winnability": "WINNABLE on 'figuras geométricas' face; bare 'geometría' = university pollution",
+      "notes": "Lead with figuras geométricas everywhere; 'geometría' only as secondary."
+    },
+    "measurement": {
+      "primaryQuery": "medicion primer grado",
+      "evidence": "harvest",
+      "title": "Medición para niños – actividades para imprimir",
+      "h1": "Medición para niños",
+      "metaDescription": "Mide con regla, compara longitudes y ordena por tamaño: primeras nociones de medición para primaria. Actividades en línea y en PDF gratis.",
+      "winnability": "WINNABLE-mid — grade tails clean; bare 'medición' polluted (presión/glucosa)",
+      "notes": ""
+    },
+    "visual-logic": {
+      "primaryQuery": "juegos de logica visual",
+      "evidence": "harvest",
+      "title": "Lógica visual – ejercicios para imprimir gratis",
+      "h1": "Lógica visual",
+      "metaDescription": "Series y acertijos visuales: descubre la regla, completa el que sigue y justifica la elección. Ejercicios de lógica en línea y en PDF gratis.",
+      "winnability": "SKIP — 'razonamiento lógico' demand is owned by the live subject hub; this stays a niche face",
+      "notes": ""
+    },
+    "visual-discrimination": {
+      "primaryQuery": "discriminación visual",
+      "evidence": "harvest",
+      "title": "Discriminación visual – fichas para imprimir",
+      "h1": "Discriminación visual",
+      "metaDescription": "Encuentra el dibujo igual al modelo y detecta el diferente: fichas de discriminación visual para kínder. Trabaja en línea o imprime el PDF gratis.",
+      "winnability": "WINNABLE — clean pedagogic demand (preescolar/primer grado/dislexia tails), weak incumbents",
+      "notes": "Therapy adjacency (dislexia, TDAH) — respectful body mention only."
+    },
+    "visual-matching": {
+      "primaryQuery": "emparejamiento visual",
+      "evidence": "harvest",
+      "title": "Emparejamiento visual – fichas para imprimir",
+      "h1": "Emparejamiento visual",
+      "metaDescription": "Localiza las dos imágenes idénticas entre otras muy parecidas: atención al detalle y memoria visual en kínder. Fichas en línea y en PDF gratis.",
+      "winnability": "SKIP-head — near-zero volume; discriminación visual owns the class",
+      "notes": "Only 5 decks."
+    },
+    "position-words": {
+      "primaryQuery": "conceptos espaciales para niños",
+      "evidence": "harvest",
+      "title": "Conceptos espaciales – arriba, abajo, dentro",
+      "h1": "Conceptos espaciales",
+      "metaDescription": "Arriba o abajo, dentro o fuera, delante o detrás: ubica el objeto en la escena. Conceptos espaciales para kínder, en línea y en PDF gratis.",
+      "winnability": "WINNABLE — clean preescolar demand (arasaac/wordwall-class incumbents)",
+      "notes": "Only 8 decks — production candidate."
+    },
+    "sorting-categories": {
+      "primaryQuery": "clasificar y agrupar",
+      "evidence": "harvest",
+      "title": "Clasificar y agrupar – actividades para imprimir",
+      "h1": "Clasificar y agrupar",
+      "metaDescription": "Agrupa lo que va junto: ropa, alimentos y transportes en su categoría. Clasificación para kínder y primaria, en línea o para imprimir gratis.",
+      "winnability": "WINNABLE-mid — definitional intent mixed; only 4 decks (thin)",
+      "notes": ""
+    },
+    "science-sort": {
+      "primaryQuery": "clasificar imágenes de alimentos saludables y no saludables",
+      "evidence": "harvest",
+      "title": "Clasificar en ciencias – vivo o no vivo (PDF)",
+      "h1": "Clasificar en ciencias",
+      "metaDescription": "Clasifica en ciencias: seres vivos y no vivos, alimentos saludables y no saludables. Actividades de kínder y primaria en línea y en PDF gratis.",
+      "winnability": "WINNABLE on the specific faces (alimentos saludables harvested verbatim)",
+      "notes": "SEP framing: Exploración del Mundo (kínder) / Conocimiento del Medio (1°-2°) in body."
+    },
+    "science-match": {
+      "primaryQuery": "clasificar en ciencias naturales",
+      "evidence": "harvest",
+      "title": "Relacionar en ciencias – fichas para imprimir",
+      "h1": "Relacionar en ciencias",
+      "metaDescription": "Relaciona cada animal con su hábitat y cada cría con su madre: ciencias naturales para kínder. Fichas de relacionar en línea y en PDF gratis.",
+      "winnability": "SKIP-head — no distinct face; rides the ciencias subject hub + themes",
+      "notes": "10 decks."
+    },
+    "beginning-sounds": {
+      "primaryQuery": "sonidos iniciales",
+      "evidence": "harvest",
+      "title": "Sonidos iniciales – actividades para imprimir",
+      "h1": "Sonidos iniciales",
+      "metaDescription": "¿Con qué sonido empieza? Di el nombre del dibujo e identifica su sonido inicial: conciencia fonológica temprana en kínder. En línea y en PDF gratis.",
+      "winnability": "WINNABLE — clean phonics demand ('sonidos iniciales en palabras sencillas', estrellita)",
+      "notes": "'estrellita' = MX classroom method; cite in body as credibility squiggle. 10 decks — production candidate."
+    },
+    "letter-knowledge": {
+      "primaryQuery": "conocimiento de letras",
+      "evidence": "harvest",
+      "title": "Conocimiento de letras – fichas para imprimir",
+      "h1": "Conocimiento de letras",
+      "metaDescription": "Reconoce letras mayúsculas y minúsculas y encuéntralas entre otras parecidas: primeras letras para kínder. Fichas en línea y para imprimir gratis.",
+      "winnability": "SKIP-head — real demand is per-letter ('las vocales', 'letra m') which needs letter-level faces",
+      "notes": "Huge 'vocales/letra X/ma me mi mo mu' demand class recorded as production gap."
+    },
+    "word-building": {
+      "primaryQuery": "formar palabras con silabas",
+      "evidence": "harvest",
+      "title": "Formar palabras con sílabas – para imprimir",
+      "h1": "Formar palabras con sílabas",
+      "metaDescription": "Toca las sílabas en orden y forma la palabra del dibujo: ma-ri-po-sa. Sílabas para kínder al estilo alfabeto móvil, en línea y en PDF gratis.",
+      "winnability": "WINNABLE — exact-match demand + 'alfabeto móvil' face; only 10 decks (demand≫supply)",
+      "notes": "'para imprimir y recortar' harvested — mention recortable use of the PDF."
+    },
+    "picture-vocabulary": {
+      "primaryQuery": "vocabulario con dibujos",
+      "evidence": "harvest",
+      "title": "Vocabulario con dibujos – fichas para imprimir",
+      "h1": "Vocabulario con dibujos",
+      "metaDescription": "Fichas de vocabulario ilustrado en español: nombra cada dibujo y relaciónalo con su palabra escrita. Para kínder, en línea o en PDF gratis.",
+      "winnability": "WINNABLE-mid — demand skews English-learning; 'en español' qualifier carves our face",
+      "notes": ""
+    },
+    "phonological-awareness": {
+      "primaryQuery": "conciencia fonológica",
+      "evidence": "harvest+serp",
+      "title": "Conciencia fonológica – actividades para imprimir",
+      "h1": "Conciencia fonológica",
+      "metaDescription": "Cuenta sílabas con palmadas, encuentra rimas y separa sonidos: conciencia fonológica para preescolar y kínder. Actividades en línea y en PDF gratis.",
+      "winnability": "HARD — Spain incumbents (aulapt, orientacionandujar, educapeques); MX register + interactive is the crack",
+      "notes": "Full ladder harvested (fichas/actividades/preescolar/kínder/primer grado/pdf). 25 decks."
+    },
+    "preschool": {
+      "primaryQuery": "actividades para preescolar para imprimir",
+      "evidence": "harvest+serp",
+      "title": "Actividades para preescolar – imprimir gratis PDF",
+      "h1": "Actividades para preescolar",
+      "metaDescription": "Actividades para preescolar listas para imprimir gratis: conteo, tamaños, patrones y vocabulario con imágenes. También se juegan en línea, sin registro.",
+      "winnability": "HARD — editorialmd, materialescolar.com.mx + exact-match domains; must own anyway (biggest MX level demand)",
+      "notes": "Age-ladder demand (3/4/5 años) → body sections per age."
+    },
+    "kindergarten": {
+      "primaryQuery": "actividades para kínder",
+      "evidence": "harvest",
+      "title": "Actividades para kínder – para imprimir gratis",
+      "h1": "Actividades para kínder",
+      "metaDescription": "Fichas y actividades para kínder: sumas con dibujos, letras, sopas de letras y clasificación. Imprime el PDF gratis o juega en línea, sin registro.",
+      "winnability": "WINNABLE — incumbents all target 'preescolar'; kínder wording is the open MX moat",
+      "notes": "Display 'Kínder' (taxonomy 'jardín infantil' is Colombian — hub-unit ruling). 'kinder 1/2/3' tails harvested."
+    },
+    "grade-1": {
+      "primaryQuery": "actividades para primer grado para imprimir",
+      "evidence": "harvest",
+      "title": "Actividades para primer grado – imprimir (PDF)",
+      "h1": "Actividades para primer grado",
+      "metaDescription": "Actividades para primer grado de primaria: sopa de letras, rompecabezas matemáticos, patrones y más. En línea o en PDF para imprimir gratis.",
+      "winnability": "HARD-mid — fichas mills own 'fichas de primer grado'; actividades face more open",
+      "notes": "Alias 'primero de primaria' in body."
+    },
+    "grade-2": {
+      "primaryQuery": "actividades para segundo grado de primaria",
+      "evidence": "harvest",
+      "title": "Actividades para segundo grado – imprimir (PDF)",
+      "h1": "Actividades para segundo grado",
+      "metaDescription": "Actividades para segundo grado: crucigramas, fracciones, multiplicación y la hora del reloj. Ejercicios interactivos y fichas PDF gratis con respuestas.",
+      "winnability": "WINNABLE-mid",
+      "notes": ""
+    },
+    "grade-3": {
+      "primaryQuery": "fichas para imprimir tercer grado",
+      "evidence": "harvest",
+      "title": "Actividades para tercer grado – imprimir (PDF)",
+      "h1": "Actividades para tercer grado",
+      "metaDescription": "Fichas para tercer grado: el reloj a 5 minutos, fracciones y multiplicación con arreglos. Practica en línea o imprime gratis el PDF con respuestas.",
+      "winnability": "WINNABLE-mid — but thin es inventory at 8-10; keep page honest and lean",
+      "notes": "Substrate-honesty: ~90 decks total at tercer grado."
+    },
+    "animals": {
+      "primaryQuery": "animales fichas para imprimir",
+      "evidence": "harvest+serp",
+      "title": "Actividades de animales para niños – imprimir",
+      "h1": "Actividades de animales",
+      "metaDescription": "Actividades con animales: cuenta, clasifica, une sombras y resuelve sopas de letras con vocabulario de animales. En línea y en PDF gratis.",
+      "winnability": "WINNABLE — no dominant exact page (blogs/Pinterest/Twinkl category)",
+      "notes": "146 decks — strongest theme face."
+    },
+    "farm_animals": {
+      "primaryQuery": "animales de granja fichas",
+      "evidence": "harvest",
+      "title": "Animales de la granja – actividades para niños",
+      "h1": "Animales de la granja",
+      "metaDescription": "La vaca, el cerdo y la gallina en fichas de contar, emparejar y clasificar: animales de la granja para preescolar y kínder. PDF gratis y en línea.",
+      "winnability": "WINNABLE",
+      "notes": "MX says 'animales de la granja' (with la)."
+    },
+    "zoo_animals": {
+      "primaryQuery": "animales fichas para niños",
+      "evidence": "harvest",
+      "title": "Animales del zoológico – actividades infantiles",
+      "h1": "Animales del zoológico",
+      "metaDescription": "León, elefante y jirafa protagonizan sumas, sopas de letras y juegos de sombras: el zoológico en fichas para niños. En línea o en PDF gratis.",
+      "winnability": "WINNABLE-mid — rides the animales class; no zoo-specific harvest hit",
+      "notes": ""
+    },
+    "pets": {
+      "primaryQuery": "fichas mascotas infantil",
+      "evidence": "harvest",
+      "title": "Actividades de mascotas para niños – imprimir",
+      "h1": "Actividades de mascotas",
+      "metaDescription": "Perros, gatos y peces en actividades de contar, emparejar y vocabulario: fichas de mascotas para preescolar y kínder. En línea y en PDF gratis.",
+      "winnability": "WINNABLE-mid",
+      "notes": ""
+    },
+    "dinosaurs": {
+      "primaryQuery": "fichas dinosaurios para imprimir",
+      "evidence": "harvest",
+      "title": "Actividades de dinosaurios – para imprimir gratis",
+      "h1": "Actividades de dinosaurios",
+      "metaDescription": "Dinosaurios para contar, clasificar y buscar en sopas de letras: fichas con los favoritos de los niños. Imprime gratis el PDF o juega en línea.",
+      "winnability": "WINNABLE — age-ladder demand (3/4/5 años) and weak incumbents",
+      "notes": "44 es decks under the dinosaurs tag."
+    },
+    "fruits": {
+      "primaryQuery": "fichas frutas para imprimir",
+      "evidence": "harvest",
+      "title": "Actividades de frutas para niños – para imprimir",
+      "h1": "Actividades de frutas",
+      "metaDescription": "Manzanas, plátanos y sandías en fichas de conteo, sumas y vocabulario: actividades de frutas para preescolar y kínder. PDF gratis y en línea.",
+      "winnability": "WINNABLE-mid — 'frutas y verduras' combined face is the demand shape",
+      "notes": "Cross-link fruits↔vegetables both directions."
+    },
+    "vegetables": {
+      "primaryQuery": "frutas y verduras fichas",
+      "evidence": "harvest",
+      "title": "Actividades de verduras para niños – imprimir",
+      "h1": "Actividades de verduras",
+      "metaDescription": "Verduras para contar, clasificar y nombrar: fichas ilustradas que refuerzan vocabulario y conteo en kínder. Imprime el PDF gratis o juega en línea.",
+      "winnability": "WINNABLE-mid",
+      "notes": ""
+    },
+    "body_parts": {
+      "primaryQuery": "partes del cuerpo fichas para imprimir",
+      "evidence": "harvest",
+      "title": "Partes del cuerpo – fichas para imprimir gratis",
+      "h1": "Las partes del cuerpo",
+      "metaDescription": "Cabeza, hombros, rodillas y pies: fichas de las partes del cuerpo para nombrar, unir y clasificar en español. Para kínder, en línea y en PDF gratis.",
+      "winnability": "WINNABLE — strong exact demand; incumbents skew English-teaching",
+      "notes": "'en español' qualifier differentiates from the inglés-class demand."
+    },
+    "christmas": {
+      "primaryQuery": "fichas navidad infantil pdf",
+      "evidence": "harvest",
+      "title": "Actividades de Navidad para niños – imprimir",
+      "h1": "Actividades de Navidad",
+      "metaDescription": "Sopa de letras navideña, conteo de esferas y sumas con regalos: actividades de Navidad para preescolar y primaria. En línea y en PDF gratis.",
+      "winnability": "WINNABLE (seasonal) — publish/refresh before November",
+      "notes": "'esferas' = MX for baubles. Ties into the seasonal-hub program."
+    },
+    "easter": {
+      "primaryQuery": "fichas pascua infantil",
+      "evidence": "harvest",
+      "title": "Actividades de Pascua para niños – imprimir",
+      "h1": "Actividades de Pascua",
+      "metaDescription": "Huevos y conejos de Pascua en fichas de contar, emparejar y buscar diferencias de sombras: actividades para kínder. En línea o en PDF gratis.",
+      "winnability": "WINNABLE (seasonal, smaller in MX than Spain)",
+      "notes": ""
+    },
+    "winter": {
+      "primaryQuery": "fichas invierno infantil",
+      "evidence": "harvest",
+      "title": "Actividades de invierno para niños – imprimir",
+      "h1": "Actividades de invierno",
+      "metaDescription": "Gorros, muñecos de nieve y trineos en fichas de conteo, patrones y sopa de letras: el invierno en actividades de kínder. PDF gratis y en línea.",
+      "winnability": "WINNABLE (seasonal)",
+      "notes": ""
+    },
+    "summer": {
+      "primaryQuery": "fichas verano infantil",
+      "evidence": "harvest",
+      "title": "Actividades de verano para niños – para imprimir",
+      "h1": "Actividades de verano",
+      "metaDescription": "Helados, sol y alberca en fichas de contar, emparejar y vocabulario: actividades de verano para repasar en vacaciones. En línea y en PDF gratis.",
+      "winnability": "WINNABLE (seasonal — MX summer-homework demand)",
+      "notes": "'alberca' = MX register."
+    },
+    "emotions": {
+      "primaryQuery": "emociones fichas para niños",
+      "evidence": "harvest",
+      "title": "Actividades de emociones para niños – imprimir",
+      "h1": "Actividades de emociones",
+      "metaDescription": "Alegría, tristeza, enojo y sorpresa: reconoce y nombra emociones en fichas de unir y clasificar. Educación socioemocional en kínder, PDF gratis.",
+      "winnability": "WINNABLE-mid — SEL demand strong, NEM socioemocional angle",
+      "notes": "NEM cites educación socioemocional — credibility squiggle in body."
+    },
+    "shapes": {
+      "primaryQuery": "fichas figuras geometricas",
+      "evidence": "harvest",
+      "title": "Actividades de formas y figuras – para imprimir",
+      "h1": "Figuras y formas",
+      "metaDescription": "Círculo, cuadrado y triángulo en juegos de clasificar, contar y emparejar: figuras geométricas básicas para preescolar y kínder. PDF gratis.",
+      "winnability": "WINNABLE — 'figuras geometricas 3/4 años' harvested; geometry TYPE page owns the primaria face",
+      "notes": "Face split vs geometry type: theme = identify/play at K, type = lados/vértices at 2°-3°."
+    },
+    "space": {
+      "primaryQuery": "fichas espacio infantil",
+      "evidence": "harvest",
+      "title": "Actividades del espacio para niños – imprimir",
+      "h1": "Actividades del espacio",
+      "metaDescription": "Cohetes, planetas y astronautas en fichas de contar, sumar y buscar en sopas de letras: el espacio para niños curiosos. En línea y en PDF gratis.",
+      "winnability": "WINNABLE-mid",
+      "notes": ""
+    },
+    "vehicles": {
+      "primaryQuery": "fichas vehiculos",
+      "evidence": "harvest",
+      "title": "Actividades de vehículos para niños – imprimir",
+      "h1": "Actividades de vehículos",
+      "metaDescription": "Coches, trenes y aviones en fichas de conteo, patrones y emparejar: los transportes en actividades para kínder. En línea o en PDF gratis.",
+      "winnability": "SKIP-head (fichas técnicas intent) — body leads with 'los transportes'",
+      "notes": "'medios de transporte' is the cleaner MX classroom term — use in body/H2."
+    },
+    "toys": {
+      "primaryQuery": "juguetes fichas para niños",
+      "evidence": "harvest",
+      "title": "Actividades de juguetes para niños – imprimir",
+      "h1": "Actividades de juguetes",
+      "metaDescription": "Pelotas, ositos y trompos para contar, comparar y clasificar: fichas con juguetes para preescolar y kínder. Imprime gratis o juega en línea.",
+      "winnability": "WINNABLE-mid",
+      "notes": ""
+    },
+    "clothing": {
+      "primaryQuery": "fichas ropa español",
+      "evidence": "harvest",
+      "title": "Actividades de la ropa para niños – imprimir",
+      "h1": "La ropa — vocabulario y juegos",
+      "metaDescription": "Camisas, zapatos y gorros: vocabulario de la ropa en fichas de nombrar, unir y clasificar en español. Para kínder, en línea y en PDF gratis.",
+      "winnability": "WINNABLE-mid — demand skews inglés; 'en español' carves the face",
+      "notes": ""
+    },
+    "weather": {
+      "primaryQuery": "el clima fichas para imprimir",
+      "evidence": "harvest",
+      "title": "Actividades del clima para niños – imprimir",
+      "h1": "El clima — actividades para niños",
+      "metaDescription": "Sol, lluvia y nubes en fichas de vocabulario, conteo y clasificación: el clima para preescolar y kínder. Imprime el PDF gratis o juega en línea.",
+      "winnability": "WINNABLE-mid",
+      "notes": ""
+    },
+    "flowers": {
+      "primaryQuery": "fichas flores infantil",
+      "evidence": "harvest",
+      "title": "Actividades de flores para niños – imprimir",
+      "h1": "Actividades de flores",
+      "metaDescription": "Flores para contar, sumar y emparejar: fichas de primavera con vocabulario ilustrado para preescolar y kínder. En línea y en PDF gratis.",
+      "winnability": "WINNABLE-mid",
+      "notes": ""
+    },
+    "music": {
+      "primaryQuery": "fichas musica infantil",
+      "evidence": "harvest",
+      "title": "Actividades de música para niños – imprimir",
+      "h1": "Actividades de música",
+      "metaDescription": "Tambores, guitarras y maracas en fichas de contar, emparejar y sopa de letras: los instrumentos musicales en kínder. PDF gratis y en línea.",
+      "winnability": "WINNABLE-mid",
+      "notes": ""
+    },
+    "ocean_life": {
+      "primaryQuery": "animales fichas interactivas",
+      "evidence": "harvest",
+      "title": "Vida marina – actividades para niños (PDF)",
+      "h1": "Vida marina — animales del mar",
+      "metaDescription": "Peces, pulpos y tortugas del mar en fichas de conteo, sombras y clasificación: vida marina para preescolar y kínder. En línea y en PDF gratis.",
+      "winnability": "WINNABLE-mid — 'animales del mar' is the searchable face (rides the animales class)",
+      "notes": "106 decks; no direct harvest hit — H2 'animales del mar'."
+    },
+    "birds_2": {
+      "primaryQuery": "aves fichas para niños",
+      "evidence": "harvest",
+      "title": "Actividades de aves para niños – para imprimir",
+      "h1": "Actividades de aves",
+      "metaDescription": "Búhos, loros y colibríes para contar, unir y buscar: fichas de aves con vocabulario ilustrado para kínder. Imprime gratis o juega en línea.",
+      "winnability": "WINNABLE-mid — thin exact demand",
+      "notes": "Display 'aves' — never surface the internal '2' of the birds_2 tag."
+    },
+    "occupations": {
+      "primaryQuery": "actividades para imprimir de oficios y profesiones",
+      "evidence": "harvest",
+      "title": "Oficios y profesiones – actividades para niños",
+      "h1": "Ocupaciones — oficios y profesiones",
+      "metaDescription": "Bombero, doctora y panadero: oficios y profesiones en fichas de vocabulario, unir y clasificar. Para preescolar y kínder, en línea y PDF gratis.",
+      "winnability": "WINNABLE — verbatim harvested demand; taxonomy name 'Ocupaciones' is not the search word",
+      "notes": "Lead copy with 'oficios y profesiones'; keep slug/taxonomy as-is."
+    },
+    "beach": {
+      "primaryQuery": "playa fichas",
+      "evidence": "harvest",
+      "title": "Actividades de la playa para niños – imprimir",
+      "h1": "Actividades de la playa",
+      "metaDescription": "Cubetas, conchas y castillos de arena para contar y clasificar: la playa en fichas de verano para kínder. Imprime el PDF gratis o juega en línea.",
+      "winnability": "WINNABLE-mid (seasonal, pairs with verano)",
+      "notes": ""
+    },
+    "accessories": {
+      "primaryQuery": "accesorios fichas",
+      "evidence": "harvest",
+      "title": "Accesorios – fichas para niños para imprimir",
+      "h1": "Accesorios — objetos de uso diario",
+      "metaDescription": "Lentes, gorras y paraguas en fichas de contar, emparejar y clasificar: objetos de uso diario para kínder. En línea o para imprimir gratis en PDF.",
+      "winnability": "SKIP — fashion/hardware intent only; biggest es theme (187 decks) with NO educational search face; internal linking only",
+      "notes": "Do not spend build effort here; page exists for crawl paths."
+    }
+  },
+  "intersections": [
+    {
+      "key": "grade-1__wordsearch",
+      "type": "wordsearch",
+      "level": "grade-1",
+      "query": "sopa de letras primer grado",
+      "decks": 48,
+      "title": "Sopa de letras para primer grado – para imprimir",
+      "h1": "Sopas de letras para primer grado",
+      "metaDescription": "Sopas de letras para primer grado con palabras cortas e ilustradas: busca, encierra y lee. Resuélvelas en línea o imprímelas gratis en PDF."
+    },
+    {
+      "key": "grade-1__math-puzzle",
+      "type": "math-puzzle",
+      "level": "grade-1",
+      "query": "rompecabezas matematico primer grado",
+      "decks": 142,
+      "title": "Rompecabezas matemáticos primer grado – imprimir",
+      "h1": "Rompecabezas matemáticos para primer grado",
+      "metaDescription": "Rompecabezas matemáticos para primer grado: sumas y restas cruzadas que se completan como puzzle. Juega en línea o imprime el PDF gratis."
+    },
+    {
+      "key": "grade-1__pattern-worksheet",
+      "type": "pattern-worksheet",
+      "level": "grade-1",
+      "query": "ficha de patrones primer grado",
+      "decks": 51,
+      "title": "Fichas de patrones para primer grado – imprimir",
+      "h1": "Fichas de patrones para primer grado",
+      "metaDescription": "Fichas de patrones para primer grado: series gráficas y de repetición donde el niño descubre la regla. En línea o en PDF gratis con respuestas."
+    },
+    {
+      "key": "grade-1__picture-arithmetic",
+      "type": "picture-arithmetic",
+      "level": "grade-1",
+      "query": "sumas y restas con dibujos primer grado",
+      "decks": 14,
+      "title": "Sumas y restas con dibujos para primer grado",
+      "h1": "Sumas y restas con dibujos — primer grado",
+      "metaDescription": "Sumas y restas con dibujos para primer grado: cuenta las imágenes de cada operación y escribe el resultado. En línea o en PDF gratis."
+    },
+    {
+      "key": "crossword__grade-2",
+      "type": "crossword",
+      "level": "grade-2",
+      "query": "crucigrama segundo grado",
+      "decks": 47,
+      "title": "Crucigramas para segundo grado – para imprimir",
+      "h1": "Crucigramas para segundo grado",
+      "metaDescription": "Crucigramas de segundo grado con pistas de imágenes: escribe cada palabra en su lugar. En línea con revisión o en PDF gratis con respuestas."
+    },
+    {
+      "key": "more-less__preschool",
+      "type": "more-less",
+      "level": "preschool",
+      "query": "comparar cantidades preescolar",
+      "decks": 145,
+      "title": "Más o menos para preescolar – para imprimir",
+      "h1": "Más o menos — comparar cantidades en preescolar",
+      "metaDescription": "¿Dónde hay más y dónde hay menos? Comparar cantidades en preescolar con grupos de dibujos para contar y tocar. En línea y en PDF gratis."
+    },
+    {
+      "key": "big-small__preschool",
+      "type": "big-small",
+      "level": "preschool",
+      "query": "grande pequeño preescolar",
+      "decks": 142,
+      "title": "Grande o pequeño para preescolar – imprimir",
+      "h1": "Grande o pequeño en preescolar",
+      "metaDescription": "Grande, mediano y pequeño en preescolar: observa los dibujos y elige el tamaño que se pide. Actividades en línea y fichas en PDF gratis."
+    },
+    {
+      "key": "addition__kindergarten",
+      "type": "addition",
+      "level": "kindergarten",
+      "query": "suma kinder",
+      "decks": 198,
+      "title": "Sumas para kínder – fichas para imprimir gratis",
+      "h1": "Sumas para kínder",
+      "metaDescription": "Sumas para kínder con dibujos que se cuentan uno a uno: primeros cálculos hasta 10. Fichas interactivas y en PDF gratis con hoja de respuestas."
+    },
+    {
+      "key": "kindergarten__subtraction",
+      "type": "subtraction",
+      "level": "kindergarten",
+      "query": "resta kinder",
+      "decks": 187,
+      "title": "Restas para kínder – fichas para imprimir gratis",
+      "h1": "Restas para kínder",
+      "metaDescription": "Restas para kínder: tacha los dibujos que se van y cuenta los que quedan. Fichas de resta ilustradas en línea y en PDF gratis con respuestas."
+    },
+    {
+      "key": "kindergarten__pattern-train",
+      "type": "pattern-train",
+      "level": "kindergarten",
+      "query": "patrones kinder",
+      "decks": 246,
+      "title": "Tren de patrones para kínder – para imprimir",
+      "h1": "El tren de patrones en kínder",
+      "metaDescription": "El tren de patrones en kínder: mira los vagones y elige cuál sigue en la secuencia. Patrones de colores y dibujos en línea y en PDF gratis."
+    },
+    {
+      "key": "kindergarten__patterns",
+      "type": "patterns",
+      "level": "kindergarten",
+      "query": "patrones kinder ejercicios",
+      "decks": 15,
+      "title": "Patrones para kínder – fichas para imprimir",
+      "h1": "Patrones para kínder",
+      "metaDescription": "Ejercicios de patrones para kínder: series AB y ABC con imágenes para continuar y completar. Fichas de patrones en línea y en PDF gratis."
+    },
+    {
+      "key": "bingo__kindergarten",
+      "type": "bingo",
+      "level": "kindergarten",
+      "query": "bingo para imprimir niños",
+      "decks": 86,
+      "title": "Bingo para kínder – cartones para imprimir",
+      "h1": "Bingo para kínder",
+      "metaDescription": "Cartones de bingo para kínder con imágenes, letras y números: juego para toda la clase. Imprime los cartones gratis en PDF o juega en línea."
+    },
+    {
+      "key": "kindergarten__prepositions",
+      "type": "prepositions",
+      "level": "kindergarten",
+      "query": "preposiciones kinder",
+      "decks": 99,
+      "title": "Preposiciones para kínder – fichas para imprimir",
+      "h1": "Preposiciones de lugar para kínder",
+      "metaDescription": "Preposiciones de lugar en kínder: arriba, abajo, dentro y fuera con escenas para señalar. Fichas ilustradas en línea y en PDF gratis."
+    },
+    {
+      "key": "fractions__grade-2",
+      "type": "fractions",
+      "level": "grade-2",
+      "query": "fracciones segundo grado",
+      "decks": 34,
+      "title": "Fracciones para segundo grado – para imprimir",
+      "h1": "Fracciones para segundo grado",
+      "metaDescription": "Fracciones en segundo grado: mitades, tercios y cuartos con figuras divididas para colorear y comparar. En línea o en PDF gratis con respuestas."
+    },
+    {
+      "key": "fractions__grade-3",
+      "type": "fractions",
+      "level": "grade-3",
+      "query": "fracciones primaria 3 grado",
+      "decks": 34,
+      "title": "Fracciones para tercer grado – para imprimir",
+      "h1": "Fracciones para tercer grado",
+      "metaDescription": "Fracciones para tercer grado: identifica la fracción sombreada y compara partes de la figura. Ejercicios en línea y fichas en PDF gratis."
+    },
+    {
+      "key": "arrays-multiplication__grade-2",
+      "type": "arrays-multiplication",
+      "level": "grade-2",
+      "query": "multiplicación segundo grado",
+      "decks": 14,
+      "title": "Multiplicación para segundo grado – imprimir",
+      "h1": "Multiplicación para segundo grado",
+      "metaDescription": "Multiplicación en segundo grado con arreglos: filas y columnas que se suman de forma repetida. Fichas interactivas y PDF gratis con respuestas."
+    },
+    {
+      "key": "arrays-multiplication__grade-3",
+      "type": "arrays-multiplication",
+      "level": "grade-3",
+      "query": "multiplicación primaria",
+      "decks": 13,
+      "title": "Multiplicación para tercer grado – imprimir",
+      "h1": "Multiplicación para tercer grado",
+      "metaDescription": "Multiplicación para tercer grado: arreglos y grupos iguales para consolidar las tablas. Practica en línea o imprime el PDF gratis con respuestas."
+    },
+    {
+      "key": "grade-2__telling-time",
+      "type": "telling-time",
+      "level": "grade-2",
+      "query": "fichas para aprender la hora 2o primaria",
+      "decks": 20,
+      "title": "Aprender la hora en segundo grado – fichas PDF",
+      "h1": "Aprender la hora en segundo grado",
+      "metaDescription": "El reloj en segundo grado: lee horas en punto y y media y dibuja las manecillas. Fichas para aprender la hora en línea y en PDF gratis."
+    },
+    {
+      "key": "grade-3__telling-time",
+      "type": "telling-time",
+      "level": "grade-3",
+      "query": "aprender la hora primaria",
+      "decks": 40,
+      "title": "La hora del reloj para tercer grado – imprimir",
+      "h1": "La hora del reloj en tercer grado",
+      "metaDescription": "El reloj a 5 minutos en tercer grado: lee la hora exacta en el reloj de manecillas y resuelve retos de tiempo. Fichas en línea y en PDF gratis."
+    },
+    {
+      "key": "kindergarten__visual-discrimination",
+      "type": "visual-discrimination",
+      "level": "kindergarten",
+      "query": "discriminación visual preescolar",
+      "decks": 15,
+      "title": "Discriminación visual para kínder – imprimir",
+      "h1": "Discriminación visual para kínder",
+      "metaDescription": "Discriminación visual en kínder: encuentra el dibujo idéntico al modelo y señala el diferente. Fichas de percepción en línea y en PDF gratis."
+    },
+    {
+      "key": "kindergarten__phonological-awareness",
+      "type": "phonological-awareness",
+      "level": "kindergarten",
+      "query": "conciencia fonologica kinder",
+      "decks": 25,
+      "title": "Conciencia fonológica para kínder – imprimir",
+      "h1": "Conciencia fonológica para kínder",
+      "metaDescription": "Conciencia fonológica en kínder: cuenta sílabas con palmadas, busca rimas y aísla sonidos iniciales. Actividades en línea y en PDF gratis."
+    },
+    {
+      "key": "counting-pictures__kindergarten",
+      "type": "counting-pictures",
+      "level": "kindergarten",
+      "query": "contar con dibujos para niños",
+      "decks": 27,
+      "title": "Contar con dibujos para kínder – para imprimir",
+      "h1": "Contar con dibujos en kínder",
+      "metaDescription": "Conteo en kínder: cuenta los dibujos de cada fila y escribe el número correcto. Fichas de contar con imágenes en línea y en PDF gratis."
+    },
+    {
+      "key": "find-and-count__preschool",
+      "type": "find-and-count",
+      "level": "preschool",
+      "query": "busca y cuenta",
+      "decks": 89,
+      "title": "Busca y cuenta para preescolar – para imprimir",
+      "h1": "Busca y cuenta en preescolar",
+      "metaDescription": "Busca y cuenta en preescolar: encuentra cada objeto en la lámina y registra cuántos hay. Escenas de atención y conteo en línea y en PDF gratis."
+    },
+    {
+      "key": "alphabet-train__preschool",
+      "type": "alphabet-train",
+      "level": "preschool",
+      "query": "tren del abecedario para completar",
+      "decks": 67,
+      "title": "Tren del abecedario para preescolar – imprimir",
+      "h1": "El tren del abecedario en preescolar",
+      "metaDescription": "El tren del abecedario en preescolar: completa las letras que faltan en los vagones, de la A a la Z. En línea o para imprimir gratis en PDF."
+    },
+    {
+      "key": "cryptogram__kindergarten",
+      "type": "cryptogram",
+      "level": "kindergarten",
+      "query": "criptogramas para niños",
+      "decks": 101,
+      "title": "Criptogramas para kínder – para imprimir gratis",
+      "h1": "Criptogramas para kínder",
+      "metaDescription": "Criptogramas para kínder: usa la clave de dibujos para descubrir la palabra escondida letra por letra. Retos en línea y en PDF gratis."
+    },
+    {
+      "key": "code-addition__kindergarten",
+      "type": "code-addition",
+      "level": "kindergarten",
+      "query": "criptogramas de sumas y restas",
+      "decks": 149,
+      "title": "Criptogramas de sumas para kínder – imprimir",
+      "h1": "Suma codificada para kínder",
+      "metaDescription": "Suma codificada en kínder: cada dibujo esconde un número, descífralo y resuelve la operación. Criptogramas de sumas en línea y en PDF gratis."
+    },
+    {
+      "key": "kindergarten__odd-one-out",
+      "type": "odd-one-out",
+      "level": "kindergarten",
+      "query": "encuentra el intruso",
+      "decks": 78,
+      "title": "El intruso: actividades para kínder – imprimir",
+      "h1": "Encuentra el intruso — kínder",
+      "metaDescription": "Encuentra el intruso en kínder: marca el dibujo que no pertenece al grupo y di por qué. Razonamiento lógico en línea y en PDF gratis."
+    },
+    {
+      "key": "find-objects__kindergarten",
+      "type": "find-objects",
+      "level": "kindergarten",
+      "query": "encuentra los objetos ocultos para niños",
+      "decks": 97,
+      "title": "Encuentra los objetos para kínder – imprimir",
+      "h1": "Encuentra los objetos ocultos — kínder",
+      "metaDescription": "Objetos ocultos para kínder: revisa la escena, localiza cada cosa de la lista y márcala. Láminas de atención en línea y en PDF gratis."
+    },
+    {
+      "key": "grade-1__word-scramble",
+      "type": "word-scramble",
+      "level": "grade-1",
+      "query": "formar palabras con letras desordenadas",
+      "decks": 97,
+      "title": "Letras revueltas para primer grado – imprimir",
+      "h1": "Letras revueltas para primer grado",
+      "metaDescription": "Letras revueltas en primer grado: ordena las letras y escribe la palabra que muestra el dibujo. Ortografía en línea y en PDF gratis."
+    },
+    {
+      "key": "grade-1__treasure-hunt",
+      "type": "treasure-hunt",
+      "level": "grade-1",
+      "query": "busqueda del tesoro para niños de primaria",
+      "decks": 97,
+      "title": "Búsqueda del tesoro para primer grado – PDF",
+      "h1": "Búsqueda del tesoro para primer grado",
+      "metaDescription": "Búsqueda del tesoro en primer grado: sigue las pistas por la cuadrícula hasta la meta. Retos de orientación espacial en línea y en PDF gratis."
+    },
+    {
+      "key": "grade-1__number-charts",
+      "type": "number-charts",
+      "level": "grade-1",
+      "query": "tabla del 100 primaria",
+      "decks": 13,
+      "title": "Tabla del 100 para primer grado – para imprimir",
+      "h1": "La tabla del 100 en primer grado",
+      "metaDescription": "La tabla del 100 en primer grado: completa los números faltantes y descubre patrones de decenas. Ejercicios en línea y en PDF gratis."
+    },
+    {
+      "key": "geometry__grade-2",
+      "type": "geometry",
+      "level": "grade-2",
+      "query": "geometría segundo grado",
+      "decks": 17,
+      "title": "Geometría para segundo grado – para imprimir",
+      "h1": "Geometría para segundo grado",
+      "metaDescription": "Geometría en segundo grado: reconoce figuras, cuenta lados y vértices y clasifícalas. Fichas de figuras geométricas en línea y en PDF gratis."
+    },
+    {
+      "key": "grade-1__measurement",
+      "type": "measurement",
+      "level": "grade-1",
+      "query": "medicion primer grado",
+      "decks": 12,
+      "title": "Medición para primer grado – para imprimir",
+      "h1": "Medición en primer grado",
+      "metaDescription": "Medición en primer grado: mide con regla, compara longitudes y ordena objetos por tamaño. Actividades en línea y fichas en PDF gratis."
+    },
+    {
+      "key": "grade-1__graphing-data",
+      "type": "graphing-data",
+      "level": "grade-1",
+      "query": "fichas para imprimir grafico de barras",
+      "decks": 12,
+      "title": "Gráficas de barras para primer grado – imprimir",
+      "h1": "Gráficas de barras en primer grado",
+      "metaDescription": "Gráficas en primer grado: lee la gráfica de barras, cuenta y compara categorías. Primeros ejercicios de datos en línea y en PDF gratis."
+    },
+    {
+      "key": "kindergarten__science-sort",
+      "type": "science-sort",
+      "level": "kindergarten",
+      "query": "clasificar imágenes de alimentos saludables y no saludables",
+      "decks": 60,
+      "title": "Clasificar en ciencias para kínder – imprimir",
+      "h1": "Clasificar en ciencias — kínder",
+      "metaDescription": "Ciencias en kínder: clasifica imágenes en saludable o no saludable, vivo o no vivo. Exploración del mundo en línea y en PDF gratis."
+    },
+    {
+      "key": "kindergarten__sudoku",
+      "type": "sudoku",
+      "level": "kindergarten",
+      "query": "sudoku de imagenes para niños",
+      "decks": 148,
+      "title": "Sudoku de imágenes para kínder – para imprimir",
+      "h1": "Sudoku de imágenes para kínder",
+      "metaDescription": "Sudokus de imágenes para kínder: acomoda los dibujos sin repetir en filas ni columnas. Cuadrículas 4×4 en línea y en PDF gratis."
+    },
+    {
+      "key": "kindergarten__shadow-match",
+      "type": "shadow-match",
+      "level": "kindergarten",
+      "query": "juego de emparejar sombras",
+      "decks": 91,
+      "title": "Emparejar sombras para kínder – para imprimir",
+      "h1": "Emparejar sombras en kínder",
+      "metaDescription": "Sombras en kínder: une cada dibujo con su silueta exacta y afina la percepción visual. Juegos de emparejar en línea y en PDF gratis."
+    },
+    {
+      "key": "kindergarten__picture-sort",
+      "type": "picture-sort",
+      "level": "kindergarten",
+      "query": "clasificar imágenes",
+      "decks": 162,
+      "title": "Clasificar imágenes para kínder – imprimir",
+      "h1": "Clasificar imágenes en kínder",
+      "metaDescription": "Clasificación en kínder: separa las imágenes en dos grupos y explica qué tienen en común. Actividades de ordenar en línea y en PDF gratis."
+    },
+    {
+      "key": "kindergarten__matching",
+      "type": "matching",
+      "level": "kindergarten",
+      "query": "juegos de emparejar para imprimir",
+      "decks": 95,
+      "title": "Relacionar y unir para kínder – para imprimir",
+      "h1": "Relacionar columnas en kínder",
+      "metaDescription": "Relacionar columnas en kínder: traza una línea de cada imagen a su pareja correcta. Juegos de unir en línea y fichas en PDF gratis."
+    }
+  ]
+}

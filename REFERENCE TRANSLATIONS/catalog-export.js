@@ -2110,6 +2110,24 @@
      deriveExerciseModeName.
      ===================================================================== */
   var SEP_FORMAT = 'sep-1';
+  /* ---- Studio-embedded detection (?sepEmbed=1 on the app URL, set by
+     mini tools/studio-generator-bridge.js). When embedded AND the parent
+     Studio exposes its receiver (window.__lcsSepBridge — same-origin, the
+     same trust model as the bridge calling our __sepExport directly), the
+     in-app "Export for Storybook" button hands the in-memory package straight
+     to the Studio instead of downloading a zip. Feature-detected at click
+     time: a stale/absent parent bridge falls back to the standalone zip. */
+  var SEP_EMBED = false;
+  try {
+    SEP_EMBED = /[?&]sepEmbed=1(&|$)/.test(global.location.search) && global.parent !== global;
+  } catch (e) {}
+  function _sepParentBridge() {
+    try {
+      var b = global.parent.__lcsSepBridge;
+      return (b && typeof b.receive === 'function') ? b : null;
+    } catch (e) { return null; }   /* cross-origin access throws => standalone */
+  }
+  var _sepCropOpen = false;   /* while the crop UI is up, Esc cancels the crop only */
   /* seeded PRNG (mulberry32) — lets a headless __sepGenerate override
      Math.random around a generate() call so a story's exercise regenerates
      IDENTICALLY every build (the apps shuffle with bare Math.random). */
@@ -2599,7 +2617,18 @@
     if (!canvas) return Promise.reject(new Error('exportStorybookExercise: canvas required'));
     if (typeof global.JSZip !== 'function') return Promise.reject(new Error('JSZip missing'));
 
-    return Promise.resolve(opts.extractBundle(canvas, { loadingMode: 'inline', exerciseMode: opts.exerciseMode }))
+    /* Studio-embedded direct handoff: the in-app button is the ONLY caller
+       with returnPackage unset (__sepExport/__sepGenerate pass true) — under
+       ?sepEmbed=1 with a live parent bridge it becomes "Add to my story":
+       auto union-bbox crop (the bar's "Choose a part…" keeps the crop UI),
+       in-memory package delivered to the parent, zero downloads. */
+    var _deliver = null;
+    if (SEP_EMBED && !opts.returnPackage) {
+      _deliver = _sepParentBridge();
+      if (_deliver) { opts.returnPackage = true; opts.noDownload = true; }
+    }
+
+    var p = Promise.resolve(opts.extractBundle(canvas, { loadingMode: 'inline', exerciseMode: opts.exerciseMode }))
       .then(function (bundle) {
         var pageW = bundle.page.width, pageH = bundle.page.height;
         /* Opt-in: an exercise is coherent only if the crop shows the content the
@@ -2655,6 +2684,16 @@
           return _sepBuildPackage(opts, bundle, crop, pageW, pageH, defaultCrop);
         });
       });
+    if (_deliver) {
+      p = p.then(function (pkg) {
+        if (pkg) { try { _deliver.receive(pkg); } catch (e) {} }
+        return pkg;
+      }, function (err) {
+        try { _deliver.fail(String((err && err.message) || err)); } catch (e) {}
+        throw err;
+      });
+    }
+    return p;
   }
 
   /* Does the mapped exercise carry a solvable answer? Used to warn the operator
@@ -2915,7 +2954,14 @@
       function up() { drag = null; }
       global.addEventListener('pointermove', move);
       global.addEventListener('pointerup', up);
+      /* Escape cancels the crop (matches Cancel/scrim-click); while the crop
+         UI is open the Studio Esc-relay below stands down (_sepCropOpen). */
+      function onKey(ev) { if (ev.key === 'Escape') { ev.stopPropagation(); cleanup(); resolve(null); } }
+      doc.addEventListener('keydown', onKey, true);
+      _sepCropOpen = true;
       function cleanup() {
+        _sepCropOpen = false;
+        doc.removeEventListener('keydown', onKey, true);
         global.removeEventListener('pointermove', move);
         global.removeEventListener('pointerup', up);
         [scrim, panel, rect].concat(markers).forEach(function (n) { if (n && n.parentNode) n.parentNode.removeChild(n); });
@@ -2925,6 +2971,33 @@
       scrim.addEventListener('click', function () { cleanup(); resolve(null); });
     });
   }
+
+  /* ---- Studio-embedded chrome: relabel + reveal the in-app export button,
+     and relay Escape to the parent overlay (keydown inside an iframe never
+     reaches the parent document). Runs only under ?sepEmbed=1 with a live
+     parent bridge; the standalone app is byte-identically unaffected. */
+  if (SEP_EMBED) (function () {
+    function _sepEmbedInit() {
+      if (!_sepParentBridge()) return;   /* stale parent => keep standalone look */
+      var b = global.document.getElementById('sepExportBtn');
+      if (b) {
+        var loc = String(global.currentLocale || 'en').slice(0, 2);
+        b.textContent = (loc === 'de') ? 'In meine Geschichte einfügen' : 'Add to my story';
+        /* teachers must see it too — inline important beats the admin-gate
+           stylesheet WITHOUT removing .lcs-admin-only (whose `+ hr` sibling
+           rule would otherwise reveal a stray divider) */
+        try { b.style.setProperty('display', 'inline-block', 'important'); } catch (e) {}
+      }
+      global.document.addEventListener('keydown', function (ev) {
+        if (ev.key !== 'Escape' || _sepCropOpen) return;
+        var br = _sepParentBridge();
+        if (br && typeof br.esc === 'function') { try { br.esc(); } catch (e) {} }
+      });
+    }
+    if (global.document.readyState === 'loading') {
+      global.document.addEventListener('DOMContentLoaded', _sepEmbedInit);
+    } else { _sepEmbedInit(); }
+  }());
 
   global.LCSCatalogExport = {
     SCHEMA_VERSION: SCHEMA_VERSION,

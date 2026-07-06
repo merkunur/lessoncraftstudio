@@ -4,18 +4,28 @@
    Studio; the exercise lands in the story with no zip roundtrip).
 
    Mechanics: a full-screen overlay hosts the generator in a SAME-ORIGIN
-   iframe (/worksheet-generators/<app>.html — no frame-busting, verified),
-   so the parent calls iframe.contentWindow.__sepExport directly:
-     __sepExport()      → in-memory package, AUTO crop (the union-bbox
-                          default — the whole generated exercise)
-     __sepExport('ui')  → the app's own crop UI (inside the overlay) then
-                          the in-memory package (catalog-export.js ?v>=40;
-                          feature-degraded to auto-crop on older caches)
-   Result {descriptor, files:{name:Blob}} is posted to the story:
+   iframe (/worksheet-generators/<app>.html?sepEmbed=1 — no frame-busting,
+   verified). Two directions, one trust model:
+     parent → child : the bar buttons call iframe.contentWindow.__sepExport
+       __sepExport()      → in-memory package, AUTO crop (union-bbox default)
+       __sepExport('ui')  → the app's own crop UI, then the in-memory package
+                            (catalog-export.js ?v>=41; degraded to auto-crop
+                            on older caches)
+     child → parent : the app's own "Export for Storybook" button (relabeled
+       "Add to my story" by catalog-export.js under sepEmbed) delivers its
+       package to window.__lcsSepBridge.receive — exposed here while the
+       overlay is open, torn down on close. Same receiver carries the
+       Escape relay (esc) and error surface (fail).
+   Every package flows through ONE import path:
      tenant mode   → FormData → /api/studio/stories/<id>/exercises
      operator mode → JSON base64 → /studio/import-exercise-package/<id>
-   Then onAdded({package, appType, family}) — the inspector applies the
-   sb-worksheet-exercise mechanic. Generation logic in the apps: 0 lines.
+   then onAdded({package, exId, appType, family, descriptor}) — the inspector
+   places the sb-worksheet-exercise on the CURRENT page, selected. The overlay
+   shows "✓ Placed — back to your story" and closes itself.
+   Lifecycle: one overlay at a time (open() replaces any existing one),
+   Esc closes (parent capture listener + the in-iframe relay), Close button
+   always visible; busy operations make Esc/Close inert until they settle.
+   Generation logic in the apps: 0 lines.
    ========================================================================= */
 (function (global) {
   'use strict';
@@ -33,6 +43,7 @@
       cancelled: 'No problem — adjust your worksheet and try again.',
       failed: 'That didn\'t work — press Generate in the maker, then try again.',
       saving: 'Adding it to your story…',
+      placed: '✓ Placed — back to your story',
       genFirst: 'Generate a worksheet first, then press "Add to my story".'
     },
     de: {
@@ -45,6 +56,7 @@
       cancelled: 'Kein Problem – passen Sie das Arbeitsblatt an und versuchen Sie es erneut.',
       failed: 'Das hat nicht geklappt – bitte erst auf „Generate“ klicken und dann noch einmal versuchen.',
       saving: 'Wird zu Ihrer Geschichte hinzugefügt…',
+      placed: '✓ Eingefügt – zurück zu Ihrer Geschichte',
       genFirst: 'Erstellen Sie zuerst ein Arbeitsblatt und tippen Sie dann auf „In meine Geschichte einfügen“.'
     }
   };
@@ -91,9 +103,12 @@
     });
   }
 
+  var _current = null;   /* the one live overlay — open() replaces it cleanly */
+
   /* open(app, { onAdded }) — app = an entry of studio-generators.json */
   function open(app, opts) {
     opts = opts || {};
+    if (_current) _current.destroy();   /* opening another generator replaces the session */
     var loc = (global.Studio && global.Studio.state && global.Studio.state.storyLocale) || 'en';
     var title = (app.title && (app.title[loc] || app.title.en)) || app.id;
 
@@ -104,21 +119,76 @@
     var btnPart = el('button', 'stu-btn stu-btn-small', t('part'));
     var btnAdd = el('button', 'stu-btn stu-btn-primary', t('add'));
     var btnClose = el('button', 'stu-btn stu-btn-small', t('cancel'));
+    btnClose.title = t('cancel') + ' (Esc)';
     bar.appendChild(name); bar.appendChild(status);
     bar.appendChild(btnPart); bar.appendChild(btnAdd); bar.appendChild(btnClose);
     ov.appendChild(bar);
-    var frame = el('iframe', 'stu-genframe');
-    frame.src = '/worksheet-generators/' + app.id + '.html?sepEmbed=1';
-    ov.appendChild(frame);
-    document.body.appendChild(ov);
 
     var busy = false;
     function setBusy(b) {
       busy = b;
       btnAdd.disabled = b; btnPart.disabled = b;
     }
-    function close() { if (ov.parentNode) ov.parentNode.removeChild(ov); }
+    function close() {
+      if (ov.parentNode) ov.parentNode.removeChild(ov);
+      try { delete global.__lcsSepBridge; } catch (e) { global.__lcsSepBridge = undefined; }
+      document.removeEventListener('keydown', onKey, true);
+      if (_current && _current.destroy === close) _current = null;
+    }
+    /* Esc closes — capture phase so it never reaches studio-canvas's own
+       Escape (which would clear the selection underneath). Inert while busy. */
+    function onKey(ev) {
+      if (ev.key !== 'Escape') return;
+      ev.stopPropagation(); ev.preventDefault();
+      if (!busy) close();
+    }
+    document.addEventListener('keydown', onKey, true);
     btnClose.addEventListener('click', function () { if (!busy) close(); });
+
+    /* ONE import path for every package, bar- or button-initiated */
+    function handlePackage(pkg) {
+      if (!pkg || !pkg.descriptor) {
+        /* crop UI cancelled (null) or nothing generated */
+        setBusy(false);
+        status.textContent = t('cancelled');
+        return null;
+      }
+      setBusy(true);
+      status.textContent = t('saving');
+      return importPackage(pkg).then(function (j) {
+        if (!j || j.__status !== 200 || !j.package) {
+          setBusy(false);
+          status.textContent = '✗ ' + ((j && j.error) || t('failed'));
+          return;
+        }
+        /* place FIRST (selected on the current page, visible behind the
+           overlay), then the "back to your story" beat, then close */
+        if (typeof opts.onAdded === 'function') {
+          opts.onAdded({ package: j.package, exId: j.exId, appType: j.appType || app.id,
+                         family: j.family || app.sepFamily, descriptor: pkg.descriptor });
+        }
+        status.textContent = t('placed');
+        setTimeout(function () { setBusy(false); close(); }, 900);
+      }).catch(function () {
+        setBusy(false);
+        status.textContent = t('failed');
+      });
+    }
+
+    /* the child-side receiver: the app's own relabeled export button lands
+       here (catalog-export.js _sepParentBridge). Exposed BEFORE the iframe
+       loads so the app's embed-init feature-detects it reliably. */
+    global.__lcsSepBridge = {
+      receive: function (pkg) { if (!busy) handlePackage(pkg); },
+      esc: function () { if (!busy) close(); },
+      fail: function (msg) { setBusy(false); status.textContent = '✗ ' + (msg || t('failed')); }
+    };
+
+    var frame = el('iframe', 'stu-genframe');
+    frame.src = '/worksheet-generators/' + app.id + '.html?sepEmbed=1';
+    ov.appendChild(frame);
+    document.body.appendChild(ov);
+    _current = { destroy: close };
 
     frame.addEventListener('load', function () {
       status.textContent = '';
@@ -147,24 +217,8 @@
 
       Promise.race([exportPromise, timeout]).then(function (pkg) {
         clearTimeout(timer);
-        if (!pkg || !pkg.descriptor) {
-          /* crop UI cancelled (null) or nothing generated */
-          setBusy(false);
-          status.textContent = t('cancelled');
-          return null;
-        }
-        status.textContent = t('saving');
-        return importPackage(pkg).then(function (j) {
-          setBusy(false);
-          if (!j || j.__status !== 200 || !j.package) {
-            status.textContent = '✗ ' + ((j && j.error) || t('failed'));
-            return;
-          }
-          close();
-          if (typeof opts.onAdded === 'function') {
-            opts.onAdded({ package: j.package, exId: j.exId, appType: j.appType || app.id, family: j.family || app.sepFamily });
-          }
-        });
+        setBusy(false);          /* handlePackage re-arms busy for the import */
+        return handlePackage(pkg);
       }).catch(function () {
         clearTimeout(timer);
         setBusy(false);

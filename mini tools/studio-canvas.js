@@ -182,6 +182,23 @@
     /* interaction zone + drawables */
     if (pg.interaction && pg.interaction.zone) renderZone(pg.interaction);
 
+    /* WYSIWYG caption band: the story lines PLAY in the caption strip at the
+       page bottom — show that on the editor page too (first line + a count) */
+    var cues = (pg.narration && pg.narration.cues) || [];
+    if (cues.length) {
+      var cap = el('div', 'stu-caption-mock');
+      var who = (st.doc.story.cast || []).filter(function (c) { return c.id === cues[0].characterId; })[0];
+      var whoName = who ? (global.Studio.str('cast.' + who.id + '.name') || who.id) : '';
+      var line1 = global.Studio.str(cues[0].id) || '…';
+      cap.textContent = '🔉 ' + (whoName ? whoName + ': ' : '') + line1;
+      if (cues.length > 1) {
+        var more = el('span', 'stu-caption-more');
+        more.textContent = '+' + (cues.length - 1);
+        cap.appendChild(more);
+      }
+      stage.appendChild(cap);
+    }
+
     fitBadges();
   }
 
@@ -651,6 +668,26 @@
     placeMode = { kind: 'text' };
     host.classList.add('stu-placing');
   }
+  /* the addCharacterHere precedent: "+ Add text" places IMMEDIATELY (no
+     hidden click-the-canvas step) — a centered title position, each new one
+     stepping down so repeats don't stack; selected and ready to retype */
+  function addTextHere() {
+    var pg = pageObj();
+    if (!pg) return;
+    var n = (pg.text || []).length;
+    var key = global.Studio.allocKey(pg.id + '.txt');
+    var loc = S().storyLocale || 'en';
+    var placedTi = -1;
+    global.Studio.mutate('add text', function (draft) {
+      var dpg = draft.story.pages[S().pageIndex];
+      draft.strings[key] = {};
+      draft.strings[key][loc] = (loc === 'de') ? 'Ihr Text' : 'Your text';
+      dpg.text = dpg.text || [];
+      dpg.text.push({ stringKey: key, x: 400, y: Math.min(760, 120 + n * 64), w: 800, size: 40, align: 'center' });
+      placedTi = dpg.text.length - 1;
+    });
+    select({ kind: 'text', index: placedTi });
+  }
   /* single-click SCALAR point (sb-maze start/end): one click sets taskData[bind]={x,y}. */
   function startPlaceScalarPoint(drawable) {
     placeMode = { kind: 'scalarPoint', drawable: drawable };
@@ -970,6 +1007,7 @@
     startPlaceRect: startPlaceRect,
     startPlacePoint: startPlacePoint,
     startPlaceText: startPlaceText,
+    addTextHere: addTextHere,
     startPlaceScalarPoint: startPlaceScalarPoint,
     startPlacePath: startPlacePath,
     startPlaceMaze: startPlaceMaze,

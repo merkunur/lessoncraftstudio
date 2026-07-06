@@ -140,6 +140,13 @@
   .stu-dpoint { position:absolute; width:56px; height:56px; margin:-28px 0 0 -28px; border-radius:50%; background:#fff; border:5px solid var(--teal); color:var(--teal); font-weight:900; font-size:22px; display:flex; align-items:center; justify-content:center; cursor:move; }
   .stu-dpoint.stu-selected { border-color:var(--coral); color:var(--coral); }
   .stu-offstage { position:absolute; left:16px; bottom:16px; background:#f6d2a4; border-radius:10px; padding:6px 12px; font-weight:800; font-size:20px; }
+  /* WYSIWYG caption band: where the story lines play (player geometry) */
+  .stu-caption-mock { position:absolute; left:120px; top:872px; width:1140px; height:108px; z-index:5;
+    pointer-events:none; background:rgba(28,26,23,.72); color:#fff; border-radius:18px;
+    display:flex; align-items:center; gap:14px; padding:0 26px; font-size:24px; font-weight:700;
+    overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+  .stu-caption-more { flex:0 0 auto; margin-left:auto; background:rgba(255,255,255,.22); border-radius:999px;
+    padding:2px 12px; font-size:18px; }
   /* on-page text (page.text[]) — WYSIWYG match of the player's .sb-text */
   .stu-text { position:absolute; z-index:25; cursor:move; color:#3d2f21; font-weight:800;
     font-family:"Nunito","Baloo 2","Segoe UI",system-ui,sans-serif; line-height:1.25;
@@ -304,14 +311,14 @@
 <script src="/mini-tools/sb-mod-complete-picture.js?v=1"></script>
 <script src="/mini-tools/sb-mod-listen-place.js?v=1"></script>
 <script src="/mini-tools/sb-mod-maze.js?v=1"></script>
-<script src="/mini-tools/sb-mod-worksheet-exercise.js?v=4"></script>
+<script src="/mini-tools/sb-mod-worksheet-exercise.js?v=5"></script>
 <script src="/worksheet-generators/js/image-vocabulary.js?v=3"></script>
 
 <script src="/mini-tools/studio-core.js?v=3"></script>
-<script src="/mini-tools/studio-canvas.js?v=5"></script>
+<script src="/mini-tools/studio-canvas.js?v=6"></script>
 <script src="/mini-tools/studio-generator-bridge.js?v=2"></script>
 <script src="/mini-tools/studio-tour.js?v=2"></script>
-<script src="/mini-tools/studio-inspector.js?v=6"></script>
+<script src="/mini-tools/studio-inspector.js?v=7"></script>
 <script>
   (function () {
     var expected = 24;

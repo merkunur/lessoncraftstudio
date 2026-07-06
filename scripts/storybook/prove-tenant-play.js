@@ -72,14 +72,16 @@ async function j(method, path, { token, body, raw, form } = {}) {
   if (!sid) return finish(null);
 
   /* 2. a minimal but PLAYABLE family-A SEP package */
+  /* a NUMERIC package with an OLD-STYLE baked candidate palette — the player
+     must normalize it to the full 0-9 write-the-answer keypad */
   const descriptor = {
-    formatVersion: 'sep-1', appType: 'word-guess', family: 'A',
+    formatVersion: 'sep-1', appType: 'addition', family: 'A',
     meta: { contentLanguage: 'en' }, page: { width: 2480, height: 3508 },
     crop: { x: 0, y: 0, w: 400, h: 200, pad: 16 },
     visual: { file: 'visual@2x.webp', format: 'webp', scale: 2, width: 800, height: 400 },
-    input: { policy: 'tap-palette', tapPalette: { case: 'upper', letters: ['A', 'B', 'C'] } },
-    elements: { slots: [{ id: 's1', expected: 'A', rect: { x: 10, y: 10, w: 40, h: 40 } }] },
-    locales: { en: { prompt: 'Tap the letter', success: 'Nice!', tryAgain: 'Try again', hint: null } },
+    input: { policy: 'tap-palette', tapPalette: { case: 'upper', letters: ['3', '4', '7'] } },
+    elements: { slots: [{ id: 's1', expected: '7', rect: { x: 10, y: 10, w: 40, h: 40 } }] },
+    locales: { en: { prompt: 'Tap the answer', success: 'Nice!', tryAgain: 'Try again', hint: null } },
   };
   const form = new FormData();
   form.append('descriptor', JSON.stringify(descriptor));
@@ -128,6 +130,10 @@ async function j(method, path, { token, body, raw, form } = {}) {
   }
   const slots = await page.evaluate(() => document.querySelectorAll('.sbwe-cell, .sbwe-slot').length).catch(() => 0);
   check('interactive elements rendered (' + slots + ')', boardOk ? slots >= 1 : true);
+  /* the write-the-answer keypad: a baked 3-digit candidate palette must
+     normalize to the FULL 0-9 (10 keys) in the player */
+  const keys = await page.evaluate(() => document.querySelectorAll('.sbwe-key').length).catch(() => 0);
+  check('numeric palette normalized to the full 0-9 keypad (' + keys + ' keys incl. backspace)', boardOk ? keys >= 11 : true);
   await browser.close();
 
   return finish(sid, token);

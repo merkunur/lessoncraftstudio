@@ -141,6 +141,13 @@
     var slots = (desc.elements && desc.elements.slots) || [];
     var caseMode = (desc.input && desc.input.tapPalette && desc.input.tapPalette.case) || 'upper';
     var letters = (desc.input && desc.input.tapPalette && desc.input.tapPalette.letters) || [];
+    /* NUMERIC normalization: an all-digit palette becomes the FULL 0-9 keypad
+       (write-the-answer, not multiple-choice) — covers packages exported
+       before the keypad fix, whose descriptors baked an answers+distractors
+       candidate set. Letter palettes stay curated. */
+    if (letters.length && letters.every(function (c) { return /^[0-9-]$/.test(String(c)); })) {
+      letters = ('0123456789' + (letters.indexOf('-') >= 0 ? '-' : '')).split('');
+    }
     var values = slots.map(function () { return ''; });
     var locked = slots.map(function () { return false; });
     var slotEls = [];
@@ -1097,10 +1104,12 @@
         label: 'Worksheet exercise', group: 'Worksheet', icon: '📄',
         blurb: 'A ready-made worksheet exercise (spelled words, drag boards, connect, count).',
         defaults: { package: '' },
+        /* the .zip upload field was removed 2026-07-06 (operator-directed):
+           the in-Studio generator bridge hands exercises over directly —
+           no download/upload roundtrip exists anymore. The server import
+           endpoints stay (the bridge's FormData intake IS one of them). */
         fields: [
-          { key: 'package', kind: 'enum', label: 'The exercise', from: 'endpoint:/studio/exercises' },
-          { key: 'package', kind: 'upload', label: '⬆ Upload a worksheet (.zip)', accept: '.zip', endpoint: '/studio/import-exercise',
-            note: 'Export a worksheet from any generator ("Export for Storybook"), then upload the .zip here — it becomes selectable above.' }
+          { key: 'package', kind: 'enum', label: 'The exercise', from: 'endpoint:/studio/exercises' }
         ]
       }
     },

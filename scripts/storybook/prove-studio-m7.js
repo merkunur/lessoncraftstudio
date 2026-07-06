@@ -192,8 +192,15 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   await clickBtn('← Back to the page');
 
   await pickMechanic('Tap the answer');
-  /* three options: apple ×2, ×3, ×5 via the list form + groupCount mapping */
-  for (let i = 0; i < 1; i++) await clickBtn('+ Add', '#stu-panel');   /* 3 default? defaults ship 3 */
+  /* three options: apple ×2, ×3, ×5 via the list form + groupCount mapping.
+     EXACT-text click: startsWith('+ Add') is ambiguous against the page
+     recipe's "+ Add text"/"+ Add a character"/"+ Add a line" buttons. */
+  await page.evaluate(() => {
+    const b = [...document.querySelectorAll('#stu-panel button')]
+      .find(x => x.textContent.trim() === '+ Add');
+    if (b) b.click();
+  });
+  await sleep(250);
   const counts = [2, 3, 5];
   for (let i = 0; i < 3; i++) {
     await page.evaluate((idx) => {

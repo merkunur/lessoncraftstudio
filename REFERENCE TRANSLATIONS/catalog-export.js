@@ -2376,21 +2376,30 @@
       // the whole string. Letter/single-digit slots are unchanged (one char per box).
       var caseMode = (bundle.caseValue === 'lower') ? 'lower' : 'upper';
       var lang = (bundle.contentLanguage || 'en').slice(0, 2);
-      // Palette = every distinct CHARACTER across the answers (each digit of a multi-digit answer counts).
       var allChars = [];
       raw.forEach(function (x) { String(x.s.expected == null ? '' : x.s.expected).split('').forEach(function (c) { allChars.push(c.toUpperCase()); }); });
-      var alpha = isNumeric
-        ? ('0123456789' + (allChars.indexOf('-') >= 0 ? '-' : '')).split('')
-        : (SEP_ALPHABETS[lang] || SEP_ALPHABETS.en).split('');
-      var uniq = {}; allChars.forEach(function (c) { uniq[c] = true; });
-      var letters = Object.keys(uniq);
-      var pool = alpha.filter(function (c) { return !uniq[c]; });
-      var want = Math.min(5, Math.max(3, letters.length));  /* distractor count */
-      for (var k = 0; k < want && pool.length; k++) {
-        var pick = pool.splice(Math.floor((k * 7 + 3) % pool.length), 1)[0];
-        letters.push(pick);
+      var letters, want;
+      if (isNumeric) {
+        // Numeric = a WRITE-the-answer keypad: the FULL 0-9 (+ '-' only when a
+        // negative answer exists). An answers-plus-distractors candidate set
+        // reads as multiple choice — the paper worksheet has the child WRITE
+        // the number (operator-reported 2026-07-06).
+        letters = ('0123456789' + (allChars.indexOf('-') >= 0 ? '-' : '')).split('');
+        want = 0;
+      } else {
+        // Letters = every distinct answer character + a few curated
+        // distractors (a full 26-key board is wrong for K-3 literacy).
+        var alpha = (SEP_ALPHABETS[lang] || SEP_ALPHABETS.en).split('');
+        var uniq = {}; allChars.forEach(function (c) { uniq[c] = true; });
+        letters = Object.keys(uniq);
+        var pool = alpha.filter(function (c) { return !uniq[c]; });
+        want = Math.min(5, Math.max(3, letters.length));  /* distractor count */
+        for (var k = 0; k < want && pool.length; k++) {
+          var pick = pool.splice(Math.floor((k * 7 + 3) % pool.length), 1)[0];
+          letters.push(pick);
+        }
+        letters.sort();
       }
-      letters.sort();
       return {
         family: 'A',
         input: { policy: 'tap-palette', tapPalette: { case: caseMode, letters: letters, distractorCount: want } },

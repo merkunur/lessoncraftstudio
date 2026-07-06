@@ -116,6 +116,98 @@ const SUBJECT_COPY: Record<string, Record<string, SubjectCopy>> = {
     logic: { worksheets: 'Fiches de logique', angle: 'développer le raisonnement, l’observation et la logique', online: 'Jeux de logique en ligne' },
     'spatial-reasoning': { worksheets: 'Fiches de repérage dans l’espace', angle: 'travailler le repérage dans l’espace et l’attention visuelle', online: "Jeux de repérage dans l'espace en ligne" },
   },
+  // Native Brazilian Portuguese (§A.13.48 ensemble, 2026-07-06). "Atividades de …"
+  // feminine-plural throughout (agreement by construction); letters reads
+  // "alfabetização" through 1º ano (the BNCC alfabetização cycle + the giant
+  // "atividades de alfabetização" query), "português" from 2º ano. Angles carry
+  // their own articles ("a contagem, …") — composed as "Para treinar {a}".
+  pt: {
+    math: {
+      worksheets: 'Atividades de matemática',
+      angle: 'a contagem, a adição, a subtração e o senso numérico',
+      angleByLevel: {
+        preschool: 'a contagem, a comparação de quantidades e a atenção',
+        'grade-1': 'o cálculo, os enigmas com números e a leitura das horas',
+        'grade-2': 'as frações, as horas, a geometria, as medidas e o valor posicional',
+        'grade-3': 'a multiplicação, as frações, a geometria e as horas',
+      },
+      online: 'Jogos de matemática online',
+    },
+    letters: {
+      worksheets: 'Atividades de português',
+      worksheetsByLevel: { preschool: 'Atividades de alfabetização', kindergarten: 'Atividades de alfabetização', 'grade-1': 'Atividades de alfabetização' },
+      angle: 'a leitura, a ortografia e o vocabulário',
+      angleByLevel: {
+        preschool: 'o reconhecimento das letras e a ordem do alfabeto',
+        kindergarten: 'a consciência fonológica, as letras e as primeiras palavras',
+        'grade-1': 'a leitura de palavras, a escrita e o vocabulário',
+      },
+      online: 'Jogos de alfabetização online',
+    },
+    science: { worksheets: 'Atividades de ciências', angle: 'a observação e a classificação de seres vivos e objetos do dia a dia', online: 'Jogos de ciências online' },
+    logic: {
+      worksheets: 'Atividades de raciocínio lógico',
+      angle: 'o raciocínio lógico, a atenção e a classificação',
+      angleByLevel: { preschool: 'a comparação de tamanhos e o primeiro raciocínio lógico' },
+      online: 'Jogos de raciocínio lógico online',
+    },
+    'spatial-reasoning': { worksheets: 'Atividades de percepção visual', angle: 'a percepção visual, a atenção e a noção espacial', online: 'Jogos de percepção visual online' },
+  },
+  // Native Italian (§A.13.48 ensemble, 2026-07-06). "Schede didattiche di …" head
+  // noun (the searched form); infanzia letters reads prelettura (we have letter-
+  // recognition decks, NOT pregrafismo tracing — honesty per the maestra); logic
+  // reads "Giochi di logica" (the searched form for the puzzle family).
+  it: {
+    math: {
+      worksheets: 'Schede didattiche di matematica',
+      angle: 'il contare, il calcolo e il ragionamento matematico',
+      angleByLevel: {
+        preschool: 'i primi confronti di quantità (di più / di meno) e i giochi cerca-e-conta',
+        kindergarten: 'il contare, le prime addizioni e sottrazioni e la lettura di semplici grafici',
+        'grade-1': 'il calcolo con le figure, la lettura dell’orologio e i primi enigmi matematici',
+        'grade-2': 'le frazioni, la geometria, le misure e l’avvio alla moltiplicazione con gli schieramenti',
+        'grade-3': 'le frazioni, la geometria, la moltiplicazione e la lettura dell’orologio',
+      },
+      online: 'Esercizi di matematica online',
+    },
+    letters: {
+      worksheets: 'Schede didattiche di italiano',
+      worksheetsByLevel: { preschool: 'Schede di prelettura e alfabeto', kindergarten: 'Schede di prelettura e consapevolezza fonologica' },
+      angle: 'la lettura, l’ortografia e il vocabolario',
+      angleByLevel: {
+        preschool: 'il riconoscimento delle lettere e la scoperta dell’alfabeto',
+        kindergarten: 'la consapevolezza fonologica, il riconoscimento delle lettere e le prime parole',
+        'grade-1': 'il riconoscimento delle parole, l’ortografia e il vocabolario con crucipuzzle e anagrammi',
+        'grade-2': 'il vocabolario e l’ortografia con i cruciverba illustrati',
+      },
+      online: 'Esercizi di italiano online',
+    },
+    science: {
+      worksheets: 'Schede didattiche di scienze',
+      worksheetsByLevel: { kindergarten: 'Schede sulla conoscenza del mondo' },
+      angle: 'l’osservazione e la classificazione del mondo naturale',
+      angleByLevel: {
+        kindergarten: 'l’osservazione della natura e la classificazione di animali e oggetti',
+        'grade-1': 'la classificazione di esseri viventi e oggetti del mondo che ci circonda',
+      },
+      online: 'Attività di scienze online',
+    },
+    logic: {
+      worksheets: 'Giochi di logica',
+      angle: 'il ragionamento logico, l’attenzione e la classificazione',
+      angleByLevel: {
+        preschool: 'l’osservazione, i confronti di grandezza e il primo ragionamento logico',
+        kindergarten: 'il ragionamento logico con abbinamenti, sudoku per bambini e giochi dell’intruso',
+      },
+      online: 'Giochi di logica online',
+    },
+    'spatial-reasoning': {
+      worksheets: 'Schede di percezione visiva',
+      angle: 'l’attenzione visiva, il riconoscimento di sequenze e ritmi e l’orientamento nello spazio',
+      angleByLevel: { kindergarten: 'l’attenzione visiva con sequenze e ritmi, ombre da abbinare e percorsi illustrati' },
+      online: 'Giochi di percezione visiva online',
+    },
+  },
 };
 
 // Per-(locale, level): a clean label (for titles/H1) + a phrase with the correct
@@ -171,6 +263,25 @@ const GRADE_COPY: Record<string, Record<string, GradeCopy>> = {
     'grade-2': { label: 'CE1', phrase: 'le CE1', display: 'CE1' },
     'grade-3': { label: 'CE2', phrase: 'le CE2', display: 'CE2' },
   },
+  // pt (Brazilian). Both educação-infantil sub-levels kept, disambiguated
+  // honestly (preschool = "educação infantil", kindergarten = "pré-escola" —
+  // the fr maternelle/GS pattern). Prose phrases carry the article ("para {gp}").
+  pt: {
+    preschool: { label: 'educação infantil', phrase: 'a educação infantil', display: 'Educação Infantil' },
+    kindergarten: { label: 'pré-escola', phrase: 'a pré-escola', display: 'Pré-escola' },
+    'grade-1': { label: '1º ano', phrase: 'o 1º ano do ensino fundamental', display: '1º ano' },
+    'grade-2': { label: '2º ano', phrase: 'o 2º ano do ensino fundamental', display: '2º ano' },
+    'grade-3': { label: '3º ano', phrase: 'o 3º ano do ensino fundamental', display: '3º ano' },
+  },
+  // it. Labels carry the article (templates compose "per {g}"); the two infanzia
+  // sub-levels are disambiguated honestly by age band.
+  it: {
+    preschool: { label: 'la scuola dell’infanzia (3-5 anni)', phrase: 'la scuola dell’infanzia (3-5 anni)', display: 'Scuola dell’infanzia (3-5 anni)' },
+    kindergarten: { label: 'l’ultimo anno dell’infanzia (5-6 anni)', phrase: 'l’ultimo anno della scuola dell’infanzia (5-6 anni)', display: 'Ultimo anno dell’infanzia (5-6 anni)' },
+    'grade-1': { label: 'la classe prima', phrase: 'la classe prima', display: 'Classe prima' },
+    'grade-2': { label: 'la classe seconda', phrase: 'la classe seconda', display: 'Classe seconda' },
+    'grade-3': { label: 'la classe terza', phrase: 'la classe terza', display: 'Classe terza' },
+  },
 };
 
 // Per-locale authenticity rules beyond the deck-count gate. Default (de/en) =
@@ -184,6 +295,10 @@ const HUB_RULES: Record<string, { dropLevels?: string[]; subjectAllowedLevels?: 
   // fr (France educator): KEEP maternelle (fiches-maternelle flagship market); logic +
   // spatial are activity families, standalone only at maternelle, folded into maths at CP+.
   fr: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
+  // pt + it (native-educator rulings 2026-07-06): BNCC / Indicazioni have no
+  // standalone logic or visual-perception subject in primary — infanzia/EI only.
+  pt: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
+  it: { subjectAllowedLevels: { logic: ['preschool', 'kindergarten'], 'spatial-reasoning': ['preschool', 'kindergarten'] } },
 };
 
 /** Whether a subject×grade hub should exist at all for this locale (authenticity gate). */
@@ -252,8 +367,8 @@ export function subjectHubGradeLabel(locale: string, levelKey: string): string {
     const l = GRADE_COPY.es?.[levelKey]?.label;
     if (l) return capFirst(l);
   }
-  if (locale === 'fr') {
-    const gc = GRADE_COPY.fr?.[levelKey];
+  if (locale === 'fr' || locale === 'pt' || locale === 'it') {
+    const gc = GRADE_COPY[locale]?.[levelKey];
     if (gc) return gc.display ?? capFirst(gc.label);
   }
   return getAxisName('educational-level', levelKey, locale) ?? levelKey;
@@ -345,6 +460,32 @@ const LOCALE_TEMPLATES: Record<string, LocaleTemplate> = {
     onlineIntro: (c, o, gp, a) => `Entraînez-vous directement dans le navigateur : ${c} exercices interactifs gratuits pour ${gp}, sans inscription ni application. Les réponses sont corrigées immédiatement à chaque vérification — de quoi ${a} en toute autonomie. Chaque exercice existe aussi en fiche PDF à imprimer, avec corrigé.`,
     onlineLinkLabel: "S'entraîner en ligne – exercices interactifs →",
     printLinkLabel: (w, g) => `${w} ${g} à imprimer (PDF) →`,
+  },
+  pt: {
+    title: (w, g) => `${w} ${g} – para imprimir grátis (PDF)`,
+    h1: (w, g) => `${w} – ${g}`,
+    desc: (c, w, wl, gp, a) => `${c} ${wl} grátis para ${gp}: PDF para imprimir com gabarito ou para fazer online, sem cadastro. Para treinar ${a}.`,
+    intro: (c, w, wl, gp, a) => `Aqui você encontra ${c} ${wl} grátis para ${gp}, selecionadas para essa etapa da aprendizagem. Os exercícios desenvolvem ${a}. Cada atividade pode ser impressa grátis em PDF com gabarito — ou feita online na hora, sem cadastro.`,
+    heading: 'Por matéria e ano',
+    onlineTitle: (o, g) => `${o} ${g} – grátis, sem cadastro`,
+    onlineH1: (o, g) => `${o} – ${g}`,
+    onlineDesc: (c, o, gp, a) => `${c} jogos e exercícios interativos grátis para ${gp} – direto no navegador, sem cadastro e sem instalar nada. Para treinar ${a}. Tudo também em PDF com gabarito.`,
+    onlineIntro: (c, o, gp, a) => `Pratique direto no navegador: ${c} jogos e exercícios interativos grátis para ${gp}, sem cadastro e sem instalar nada. As atividades trabalham ${a}, com correção automática a cada verificação. E cada exercício também existe como atividade em PDF com gabarito, pronta para imprimir.`,
+    onlineLinkLabel: 'Praticar online – jogos e exercícios interativos →',
+    printLinkLabel: (w, g) => `${w} ${g} – PDF para imprimir →`,
+  },
+  it: {
+    title: (w, g) => `${w} per ${g} – da stampare gratis (PDF)`,
+    h1: (w, g) => `${w} per ${g}`,
+    desc: (c, w, wl, gp, a) => `${c} ${wl} gratis per ${gp}: da stampare in PDF con soluzioni o da fare online, senza registrazione. Allenano ${a}.`,
+    intro: (c, w, wl, gp, a) => `Qui trovi ${c} ${wl} gratis per ${gp}, una raccolta pensata apposta per questa fascia d’età. Le attività allenano ${a}. Ogni scheda si scarica come PDF da stampare con le soluzioni incluse — oppure si gioca subito online, senza registrazione e senza installare nulla.`,
+    heading: 'Per materia e classe',
+    onlineTitle: (o, g) => `${o} per ${g} – gratis e senza registrazione`,
+    onlineH1: (o, g) => `${o} per ${g}`,
+    onlineDesc: (c, o, gp, a) => `${c} esercizi interattivi gratis per ${gp}: si fanno subito nel browser, senza registrazione e senza app. Allenano ${a}. Ogni esercizio è anche una scheda PDF da stampare con soluzioni.`,
+    onlineIntro: (c, o, gp, a) => `Qui si fa pratica direttamente nel browser: ${c} esercizi interattivi gratis per ${gp}, senza registrazione e senza app da installare. Le attività allenano ${a}, con la correzione immediata a ogni verifica. E ogni esercizio è disponibile anche come scheda didattica da stampare in PDF, con le soluzioni incluse.`,
+    onlineLinkLabel: 'Gioca online – esercizi interattivi →',
+    printLinkLabel: (w, g) => `${w} per ${g} – PDF da stampare →`,
   },
   en: {
     title: (w, g) => `Free ${w} for ${g} – Printable PDF`,

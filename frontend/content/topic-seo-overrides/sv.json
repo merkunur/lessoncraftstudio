@@ -1,0 +1,456 @@
+{
+  "$comment": "Demand-keyed SEO overrides authored from docs/SEO/demand-map-sv.md (+ demand-terms-sv.json). Validated by scripts/seo/validate-topic-overrides.js.",
+  "singleAxis": {
+    "addition": {
+      "title": "Addition för barn – gratis att skriva ut (PDF)",
+      "h1": "Addition: plusuppgifter med bilder",
+      "metaDescription": "197 additionsblad med glada bilder: enkla plusuppgifter inom 10 för de yngsta, varje blad med facit. Skriv ut gratis som PDF eller räkna online."
+    },
+    "subtraction": {
+      "title": "Subtraktion för barn – skriva ut gratis (PDF)",
+      "h1": "Subtraktion: minusuppgifter med bilder",
+      "metaDescription": "193 subtraktionsblad för räknestarten: minusuppgifter med tydliga bilder inom 10, facit på varje blad. Gratis att skriva ut som PDF eller lösa online."
+    },
+    "code-addition": {
+      "title": "Räkna med symboler – hemlig kod (PDF)",
+      "h1": "Kodaddition: lös den hemliga koden",
+      "metaDescription": "Knäck koden: bilder står för tal och barnet räknar sig fram till lösningen. 145 klurblad med facit — gratis att skriva ut som PDF eller spela online."
+    },
+    "more-less": {
+      "title": "Fler eller färre? Jämföra mängder (PDF)",
+      "h1": "Fler eller färre? Jämför antal med bilder",
+      "metaDescription": "Var finns det fler äpplen, var färre? 145 arbetsblad om att jämföra mängder för förskolan — räkna och jämföra utan siffror, gratis som PDF."
+    },
+    "math-puzzle": {
+      "title": "Mattepussel för barn – med facit (PDF)",
+      "h1": "Mattepussel: kluringar med tal",
+      "metaDescription": "Mattepussel som barn vill lösa: 146 klurblad med bildekvationer och facit, för de som knäckt de första talen. Skriv ut gratis eller pussla online."
+    },
+    "math-worksheet": {
+      "title": "Blandade matteuppgifter – arbetsblad (PDF)",
+      "h1": "Blandade matteuppgifter att skriva ut",
+      "metaDescription": "Blandade räkneblad: plus och minus om vartannat, perfekt för repetition. 98 matteblad med facit för förskoleklass — gratis att skriva ut som PDF."
+    },
+    "big-small": {
+      "title": "Stor och liten – jämför storlek (PDF)",
+      "h1": "Stor och liten: jämför storlekar i förskolan",
+      "metaDescription": "Vad är störst, vad är minst? 110 förskoleblad om att jämföra storlek med vardagsmotiv — träna blicken för stor och liten, gratis att skriva ut."
+    },
+    "chart-count": {
+      "title": "Räkna och fyll i diagram (PDF)",
+      "h1": "Räkna och fyll i: enkla diagram för barn",
+      "metaDescription": "Räkna motiven, fyll staplarna: 50 arbetsblad där barn för in sitt räkneresultat i ett diagram — första datakänsla från förskoleklass, gratis PDF."
+    },
+    "pattern-train": {
+      "title": "Fortsätt mönstret med mönstertåget (PDF)",
+      "h1": "Mönstertåget: känn igen och fortsätt mönster",
+      "metaDescription": "Vilken vagn kommer härnäst? 245 mönstertåg-blad om att fortsätta mönster — logiskt tänkande för förskoleklass, gratis att skriva ut eller spela online."
+    },
+    "pattern-worksheet": {
+      "title": "Mönsterblad – fortsätt raden (PDF)",
+      "h1": "Mönsterblad: fortsätt rader och följder",
+      "metaDescription": "Former, färger, följder: 50 mönsterblad för årskurs 1 om att fortsätta rader — koncentration och matematiska förkunskaper, gratis som PDF med facit."
+    },
+    "bingo": {
+      "title": "Bildbingo för förskolan – skriva ut (PDF)",
+      "h1": "Bildbingo: bingobrickor för förskolan",
+      "metaDescription": "Bingo med bilder istället för siffror: 79 färdiga spelbrickor för förskola och förskoleklass — skriv ut gratis och spela i grupp på en gång."
+    },
+    "grid-match": {
+      "title": "Rutmatchning – bild i rätt ruta (PDF)",
+      "h1": "Rutmatchning: sätt bilden på rätt plats",
+      "metaDescription": "Läs rad och kolumn, sätt bilden rätt: 50 rutgåtor för förskoleklass — träna rumsuppfattning, gratis att skriva ut eller lösa online med facit."
+    },
+    "matching": {
+      "title": "Para ihop – matcha bilder som hör ihop (PDF)",
+      "h1": "Para ihop: vad hör samman?",
+      "metaDescription": "Hitta paren och dra streck: 94 arbetsblad om att para ihop bilder för förskola och förskoleklass — ordförråd och logik, gratis att skriva ut."
+    },
+    "picture-sort": {
+      "title": "Sortera bilder – vad hör ihop? (PDF)",
+      "h1": "Sortera bilder: ordna efter kategori",
+      "metaDescription": "Djur till djur, fordon till fordon: 154 sorteringsblad där barn ordnar bilder efter kategori — tänka i grupper från förskolan, gratis att skriva ut."
+    },
+    "shadow-match": {
+      "title": "Matcha skuggor – arbetsblad gratis (PDF)",
+      "h1": "Matcha skuggor: vilken skugga hör till bilden?",
+      "metaDescription": "94 skugggåtor: barn kopplar bilden till rätt skugga och tränar visuell perception — för förskola och förskoleklass, skriv ut gratis eller spela online."
+    },
+    "alphabet-train": {
+      "title": "Alfabetståget – bokstäver i ordning (PDF)",
+      "h1": "Alfabetståget: alfabetet i rätt ordning",
+      "metaDescription": "Sätt de saknade bokstäverna i tåget: 77 alfabetsblad för förskolan — lär dig alfabetet och bokstavsordningen, gratis att skriva ut eller spela online."
+    },
+    "prepositions": {
+      "title": "Prepositioner och lägesord – förskola (PDF)",
+      "h1": "Lägesord: i, på, under, bredvid – med bilder",
+      "metaDescription": "Var är bollen? 94 bildblad om prepositioner och lägesord som i, på, under och bredvid — perfekt för förskola och språkträning, gratis som PDF."
+    },
+    "word-guess": {
+      "title": "Gissa ordet – bokstavsgåtor för barn (PDF)",
+      "h1": "Gissa ordet: bokstav för bokstav till lösningen",
+      "metaDescription": "Titta på bilden, gissa ordet, fyll i bokstäverna: 97 gåtblad för läsnybörjare — ordförråd och stavning på lek, gratis att skriva ut eller spela online."
+    },
+    "word-scramble": {
+      "title": "Bokstavspussel att skriva ut – gratis (PDF)",
+      "h1": "Bokstavspussel: lägg bokstäverna till ord",
+      "metaDescription": "Reda ut de rörda bokstäverna: 96 bokstavspussel med bildstöd för årskurs 1 — lästräning med bus, gratis att skriva ut som PDF eller spela online."
+    },
+    "wordsearch": {
+      "title": "Ordsök för barn – skriva ut gratis (PDF)",
+      "h1": "Ordsök: hitta orden i bokstavsrutan",
+      "metaDescription": "Hitta orden i bokstavsrutan: 49 ordsök med barnvänliga temaord för årskurs 1 — varje ordsök gratis att skriva ut som PDF eller spela online."
+    },
+    "crossword": {
+      "title": "Bilderkorsord för barn – skriva ut (PDF)",
+      "h1": "Bilderkorsord för barn som börjat läsa",
+      "metaDescription": "Korsord med bilder istället för frågor: barnet benämner motivet och skriver ordet. 47 korsord för läsnybörjare — gratis som PDF med facit."
+    },
+    "sudoku": {
+      "title": "Bildsudoku för barn – skriva ut (PDF)",
+      "h1": "Bildsudoku: sudoku med bilder för barn",
+      "metaDescription": "Sudoku utan siffror: i 4x4-rutorna hamnar bilder — perfekt för förskola och förskoleklass. 99 bildsudoku med facit, gratis att skriva ut eller spela online."
+    },
+    "cryptogram": {
+      "title": "Kryptogram för barn – knäck koden (PDF)",
+      "h1": "Kryptogram: knäck den hemliga meningen",
+      "metaDescription": "Symboler för bokstäver, tyda meningen: 101 kryptogram-gåtor för barn från förskoleklass — logik och läsning, gratis att skriva ut eller spela online."
+    },
+    "picture-path": {
+      "title": "Bildväg och labyrint – hitta vägen (PDF)",
+      "h1": "Bildväg: hitta rätt väg genom rutorna",
+      "metaDescription": "Följ lösningsvägen ruta för ruta: 85 bildväg-gåtor för förskoleklass — första logiska tänkandet, varje blad gratis att skriva ut eller spela online."
+    },
+    "find-and-count": {
+      "title": "Hitta och räkna – förskoleblad (PDF)",
+      "h1": "Hitta och räkna: vimmelbilder att räkna",
+      "metaDescription": "Upptäck motiven i bilden och räkna dem: 91 hitta-och-räkna-blad för förskolan — mängduppfattning och koncentration i ett, gratis att skriva ut."
+    },
+    "find-objects": {
+      "title": "Hitta föremålen – leta i bilden (PDF)",
+      "h1": "Hitta föremålen: leta upp sakerna i bilden",
+      "metaDescription": "Spåra de gömda sakerna i bilden: 97 leta-och-hitta-blad för förskola och förskoleklass — träna noggrann blick, gratis att skriva ut eller spela online."
+    },
+    "treasure-hunt": {
+      "title": "Skattjakt-gåtor för barn (PDF & online)",
+      "h1": "Skattjakt: gåtvägar fram till skatten",
+      "metaDescription": "Följ vägen över spelplanen till skatten: 99 skattjakt-gåtor för årskurs 1 — orientering och logik, gratis att skriva ut eller spela online."
+    },
+    "missing-pieces": {
+      "title": "Vad saknas? Bildgåtor att skriva ut (PDF)",
+      "h1": "Vad saknas? Hitta den saknade biten",
+      "metaDescription": "Vilken bit saknas i bilden? 96 sökgåtor för förskoleklass: känn igen och para ihop den saknade delen — visuell perception, gratis som PDF."
+    },
+    "odd-one-out": {
+      "title": "Vilken passar inte? Arbetsblad (PDF)",
+      "h1": "Vilken passar inte in? Logik med bilder",
+      "metaDescription": "Fyra bilder, en passar inte in: 90 arbetsblad om logiskt tänkande för förskola och förskoleklass — känn igen kategorier, gratis att skriva ut som PDF."
+    },
+    "counting-pictures": {
+      "title": "Räkna bilder – lär dig räkna (PDF)",
+      "h1": "Räkna bilder: räkna motiv och antal",
+      "metaDescription": "Räkna först, para ihop med talet sen: 27 räkneblad med glada motiv för förskoleklass — säker mängdkänsla inom 10, gratis att skriva ut som PDF."
+    },
+    "counting-frames": {
+      "title": "Tioramar och tiokompisar (PDF)",
+      "h1": "Tioramar: se mängder i tioramen",
+      "metaDescription": "Se prickarna i tioramen på en gång: övningsblad om taluppdelning och tiokompisar inom 10 för räknestarten — gratis att skriva ut som PDF med facit."
+    },
+    "tally-counting": {
+      "title": "Räkna med streck – stapelräkning (PDF)",
+      "h1": "Räkna med streck: räkna och notera",
+      "metaDescription": "Räkna med streck som de stora: räkna, bunta i femmor, läs av. Övningsblad om räknestreck för förskoleklass och åk 1 — samla data, gratis som PDF."
+    },
+    "number-charts": {
+      "title": "Hundraruta att skriva ut – övningar (PDF)",
+      "h1": "Hundraruta: övningar i talområdet 0-100",
+      "metaDescription": "Hitta tal, fyll i luckor, upptäck mönster: 34 hundraruta-blad i talområdet upp till 100 — övningar, inte bara tom ruta, gratis att skriva ut som PDF."
+    },
+    "comparing-numbers": {
+      "title": "Jämföra tal – större, mindre, lika (PDF)",
+      "h1": "Jämföra tal med <, > och =",
+      "metaDescription": "Vilket tal är störst? Arbetsblad om att jämföra tal med tecknen <, > och = för åk 1 och 2 — gäddan gapar mot det större talet, gratis som PDF."
+    },
+    "comparing-groups": {
+      "title": "Jämföra mängder – fler eller färre (PDF)",
+      "h1": "Jämföra mängder: var finns fler, var färre?",
+      "metaDescription": "Två grupper, en blick: barnet jämför mängder och markerar den större. Förskoleblad om mängduppfattning utan tecken — gratis att skriva ut som PDF."
+    },
+    "comparing-sizes": {
+      "title": "Jämföra storlekar – störst och minst (PDF)",
+      "h1": "Jämföra storlekar: hitta störst och minst",
+      "metaDescription": "Ordna från minsta till största motivet: 15 arbetsblad om att jämföra storlek i förskolan — bygg upp första mätföreställningar, gratis att skriva ut."
+    },
+    "number-lines": {
+      "title": "Tallinje att skriva ut – övningar (PDF)",
+      "h1": "Tallinje: placera tal på tallinjen",
+      "metaDescription": "Hitta och skriv tal på tallinjen: övningsblad i talområdet 0-20 för räknestarten — placera talen rätt, gratis att skriva ut som PDF med facit."
+    },
+    "base-ten": {
+      "title": "Tiotal och ental – övningar (PDF)",
+      "h1": "Tiotal och ental: dela upp tal",
+      "metaDescription": "Dela upp tal i tiotal och ental: arbetsblad med åskådligt material för åk 1 och 2 — grund för att räkna upp till 100, gratis att skriva ut som PDF."
+    },
+    "telling-time": {
+      "title": "Lära sig klockan – arbetsblad gratis (PDF)",
+      "h1": "Lära sig klockan: läs klockan steg för steg",
+      "metaDescription": "Hela timmar, halvtimmar, minuter: 81 arbetsblad om att läsa analog klocka — från åk 1 till åk 3, gratis att skriva ut som PDF eller öva online."
+    },
+    "fractions": {
+      "title": "Enkla bråk – halva och fjärdedel (PDF)",
+      "h1": "Första bråken: hel, halva, fjärdedel",
+      "metaDescription": "Halva, fjärdedel och hel åskådligt: 68 bråkblad med bilder att färglägga och para ihop — första bråkföreställning för åk 2-3, gratis att skriva ut."
+    },
+    "graphing-data": {
+      "title": "Diagram och tabeller – arbetsblad (PDF)",
+      "h1": "Diagram och tabeller: läs av och fyll i",
+      "metaDescription": "Läs av stapeldiagram och fyll i själv: 28 arbetsblad om tabeller och diagram för lågstadiet — gratis att skriva ut som PDF, facit medföljer."
+    },
+    "arrays-multiplication": {
+      "title": "Första multiplikationen – med bilder (PDF)",
+      "h1": "Första multiplikationen: gånger med bilder",
+      "metaDescription": "Rader och rutor istället för stel plugg: 31 multiplikationsblad med prickbilder som ingång till gångertabellen — gratis att skriva ut som PDF."
+    },
+    "geometry": {
+      "title": "Geometri för lågstadiet – arbetsblad (PDF)",
+      "h1": "Geometri: känn igen former och figurer",
+      "metaDescription": "Känn igen former, skilj figurer och kroppar: 37 geometriblad från förskoleklass till åk 3 — gratis att skriva ut som PDF med facit."
+    },
+    "measurement": {
+      "title": "Mätning och mäta längd – arbetsblad (PDF)",
+      "h1": "Mätning: jämför och mät längder",
+      "metaDescription": "Med linjal och ögonmått: 35 arbetsblad om att mäta och jämföra längder — från förskoleklass till åk 2, gratis att skriva ut som PDF."
+    },
+    "visual-logic": {
+      "title": "Logiska pussel för barn – gratis (PDF)",
+      "h1": "Logiska pussel: klura och kombinera",
+      "metaDescription": "Kombinera istället för att gissa: 14 logiska pussel för barn med bilder istället för text — tankträning från förskoleklass till åk 3, gratis som PDF."
+    },
+    "visual-discrimination": {
+      "title": "Visuell perception – arbetsblad gratis (PDF)",
+      "h1": "Visuell perception: träna ögat för detaljer",
+      "metaDescription": "Hitta lika bilder, se skillnader, jämför detaljer: 15 arbetsblad för visuell perception för förskola och förskoleklass — gratis att skriva ut som PDF."
+    },
+    "visual-matching": {
+      "title": "Para ihop bilder – arbetsblad för barn (PDF)",
+      "h1": "Para ihop bilder: hitta paren och det som passar",
+      "metaDescription": "Vilken bild hör till vilken? Arbetsblad om att para ihop bilder för förskola och förskoleklass med vardagsmotiv — träna perception, gratis som PDF."
+    },
+    "patterns": {
+      "title": "Mönster – fortsätt raden, arbetsblad (PDF)",
+      "h1": "Mönster: känn igen och fortsätt raden",
+      "metaDescription": "Hur fortsätter raden? Arbetsblad om att fortsätta mönster med former och bilder för förskola och åk 1 — gratis att skriva ut som PDF med facit."
+    },
+    "position-words": {
+      "title": "Lägesord i matematik – över, under (PDF)",
+      "h1": "Lägesord: över, under, bredvid, framför",
+      "metaDescription": "Var ligger bollen — över, under eller bredvid korgen? Arbetsblad om lägesord och rumsuppfattning för förskola och åk 1, gratis att skriva ut."
+    },
+    "sorting-categories": {
+      "title": "Sortera i kategorier – övningsblad (PDF)",
+      "h1": "Sortera i kategorier: dela in i grupper",
+      "metaDescription": "Sortera efter färg, form eller sort: övningsblad om att ordna och kategorisera för förskola — lägg grunden för tänkande i grupper, gratis som PDF."
+    },
+    "picture-arithmetic": {
+      "title": "Räkna med bilder – plus och minus (PDF)",
+      "h1": "Räkna med bilder: första plus och minus",
+      "metaDescription": "Räkna bilderna först, räkna sen: 14 arbetsblad med bilduppgifter i plus och minus för åk 1 — åskådlig räknestart, gratis att skriva ut som PDF."
+    },
+    "science-sort": {
+      "title": "NO/SO: sortera i naturen – arbetsblad (PDF)",
+      "h1": "Sortera i naturen: ordna och upptäck",
+      "metaDescription": "Livsmiljöer, årstider, natur: 90 sorteringsblad för NO och SO i förskoleklass och åk 1 — ordna kunskap om naturen, gratis att skriva ut som PDF."
+    },
+    "science-match": {
+      "title": "NO/SO: para ihop i naturen – arbetsblad (PDF)",
+      "h1": "Para ihop i naturen: vad hör samman?",
+      "metaDescription": "Djur till livsmiljö, redskap till yrke: 10 arbetsblad om att para ihop natur- och sakteman för nyfikna barn — koppla kunskap, gratis som PDF."
+    },
+    "science-sequence": {
+      "title": "Livscykler och ordningsföljd – arbetsblad (PDF)",
+      "h1": "Livscykler: ordna naturens ordningsföljder",
+      "metaDescription": "Från ägg till larv till fjäril: arbetsblad om livscykler och ordningsföljder i naturen — ordna naturkunskap på lek, gratis att skriva ut som PDF."
+    },
+    "beginning-sounds": {
+      "title": "Första ljudet – arbetsblad gratis (PDF)",
+      "h1": "Första ljudet: hör och känn igen begynnelseljud",
+      "metaDescription": "Vilket ljud börjar ordet på? 10 arbetsblad om första ljudet med bilder för förskoleklass — träna fonologisk medvetenhet, gratis att skriva ut som PDF."
+    },
+    "letter-knowledge": {
+      "title": "Känna igen bokstäver – arbetsblad (PDF)",
+      "h1": "Bokstavskunskap: känn igen och skilj bokstäver",
+      "metaDescription": "Hitta rätt bokstav i raden: 20 arbetsblad om bokstavskunskap för förskola och skolstart — säker bokstavskännedom, gratis att skriva ut som PDF."
+    },
+    "word-building": {
+      "title": "Bygga ord av bokstäver – arbetsblad (PDF)",
+      "h1": "Bygga ord: lägg ord av bokstäver",
+      "metaDescription": "Bokstav för bokstav till ett helt ord: 10 arbetsblad om att bygga ord för läsnybörjare — befäst ljud-bokstav-koppling, gratis att skriva ut som PDF."
+    },
+    "picture-vocabulary": {
+      "title": "Ordförråd med bilder – gratis som PDF",
+      "h1": "Bildordförråd: se ordet och lär dig det",
+      "metaDescription": "Titta på bilden, lär dig ordet: bildordförråds-blad om vardagsteman — perfekt för språkträning och förskola, gratis att skriva ut som PDF."
+    },
+    "phonological-awareness": {
+      "title": "Fonologisk medvetenhet – arbetsblad (PDF)",
+      "h1": "Ljud och stavelser: höra, klappa, läsa",
+      "metaDescription": "Klappa stavelser och höra ljud: 25 arbetsblad om fonologisk medvetenhet för förskola och förskoleklass — grunden för läsning, gratis som PDF."
+    },
+    "preschool": {
+      "title": "Arbetsblad förskola – gratis att skriva ut (PDF)",
+      "h1": "Förskola: arbetsblad för barn från 3 år",
+      "metaDescription": "423 förskoleblad: jämföra mängder, mönster, perception, första bokstäverna — allt gratis att skriva ut som PDF eller spela online."
+    },
+    "kindergarten": {
+      "title": "Arbetsblad förskoleklass – gratis (PDF)",
+      "h1": "Förskoleklass: arbetsblad för sexåringar",
+      "metaDescription": "Största området: 2 431 arbetsblad för förskoleklass — från skuggmatchning till första plusuppgifter, gratis att skriva ut som PDF eller öva online."
+    },
+    "grade-1": {
+      "title": "Arbetsblad åk 1 – gratis att skriva ut (PDF)",
+      "h1": "Årskurs 1: arbetsblad i matte, svenska och logik",
+      "metaDescription": "569 arbetsblad för årskurs 1: räkna, bokstavspussel, ordsök, mönster och klockan — med facit, gratis att skriva ut som PDF eller spela online."
+    },
+    "grade-2": {
+      "title": "Arbetsblad åk 2 – gratis att skriva ut (PDF)",
+      "h1": "Årskurs 2: arbetsblad i matte, svenska och gåtor",
+      "metaDescription": "168 arbetsblad för årskurs 2: korsord, klockan, geometri och räkna upp till 100 — varje blad med facit, gratis som PDF eller spela online."
+    },
+    "grade-3": {
+      "title": "Arbetsblad åk 3 – gratis att skriva ut (PDF)",
+      "h1": "Årskurs 3: arbetsblad att öva och klura på",
+      "metaDescription": "134 arbetsblad för årskurs 3: klockan på minuten, enkla bråk, multiplikation och geometri — gratis att skriva ut som PDF, facit medföljer."
+    },
+    "animals": {
+      "title": "Arbetsblad djur – gratis att skriva ut",
+      "h1": "Djur: arbetsblad om djurvärlden",
+      "metaDescription": "159 djur-arbetsblad: räkna djur, para ihop, klura ut djurord — för förskola till åk 2, varje blad gratis att skriva ut som PDF eller spela online."
+    },
+    "fruits": {
+      "title": "Arbetsblad frukt – gratis att skriva ut",
+      "h1": "Frukt och bär: arbetsblad att skriva ut",
+      "metaDescription": "Räkna äpplen, para ihop frukter, klura ut fruktord: 114 arbetsblad om frukt för förskola och förskoleklass — gratis att skriva ut som PDF."
+    },
+    "vehicles": {
+      "title": "Arbetsblad fordon – gratis att skriva ut",
+      "h1": "Fordon: arbetsblad från bil till grävmaskin",
+      "metaDescription": "Bilar, grävmaskiner, brandbilar: 112 fordonsblad om att räkna, para ihop och klura — många barns favorittema, gratis att skriva ut som PDF."
+    },
+    "toys": {
+      "title": "Arbetsblad leksaker – gratis att skriva ut",
+      "h1": "Leksaker: arbetsblad om barnens favoriter",
+      "metaDescription": "Räkna leksaker, para ihop och sortera: 108 arbetsblad om leksaker för förskola och förskoleklass — lekfulla motiv barn känner igen, gratis som PDF."
+    },
+    "shapes": {
+      "title": "Arbetsblad former – förskola & förskoleklass",
+      "h1": "Former: cirkel, triangel, kvadrat att upptäcka",
+      "metaDescription": "Cirkel, triangel, kvadrat: 97 form-arbetsblad om att känna igen, para ihop och sortera former för förskola och förskoleklass, gratis att skriva ut."
+    },
+    "bakery": {
+      "title": "Arbetsblad bageri – gratis att skriva ut",
+      "h1": "Bageri: arbetsblad om bröd och bakverk",
+      "metaDescription": "Bullar, bröd och bakverk: 64 bageri-arbetsblad om att räkna, para ihop och sortera för förskola — mysigt vardagstema, gratis att skriva ut som PDF."
+    },
+    "body_parts": {
+      "title": "Arbetsblad kroppsdelar – gratis (PDF)",
+      "h1": "Kroppsdelar: arbetsblad om kroppen",
+      "metaDescription": "Namnge och para ihop kroppsdelar: 57 arbetsblad om kroppen för förskola och åk 1 — ordförråd och kroppskännedom, gratis att skriva ut som PDF."
+    },
+    "occupations": {
+      "title": "Arbetsblad yrken – gratis att skriva ut",
+      "h1": "Yrken: arbetsblad om olika jobb",
+      "metaDescription": "Vad gör de olika yrkena? 58 arbetsblad om yrken för förskola och åk 1 — para ihop redskap och jobb, ordförråd och SO, gratis att skriva ut som PDF."
+    },
+    "flowers": {
+      "title": "Arbetsblad blommor – gratis att skriva ut",
+      "h1": "Blommor: arbetsblad om blommor och växter",
+      "metaDescription": "Räkna, para ihop och sortera blommor: 56 arbetsblad om blommor för förskola och förskoleklass — vårnära naturtema, gratis att skriva ut som PDF."
+    },
+    "space": {
+      "title": "Arbetsblad rymden – gratis att skriva ut",
+      "h1": "Rymden: arbetsblad om planeter och rymd",
+      "metaDescription": "Planeter, raketer, stjärnor: 58 arbetsblad om rymden om att räkna, para ihop och klura för förskoleklass och åk 1-2 — gratis att skriva ut som PDF."
+    },
+    "farm_animals": {
+      "title": "Arbetsblad bondgårdsdjur – gratis (PDF)",
+      "h1": "Bondgårdsdjur: arbetsblad om djuren på gården",
+      "metaDescription": "Ko, gris, höna och får: 57 arbetsblad om bondgårdsdjur om att räkna, para ihop och sortera för förskolan — populärt djurtema, gratis som PDF."
+    },
+    "colors": {
+      "title": "Arbetsblad färger – gratis att skriva ut",
+      "h1": "Färger: arbetsblad om att lära färger",
+      "metaDescription": "Känn igen och para ihop färger: 48 arbetsblad om färger för förskola — lär färgernas namn på lek, gratis att skriva ut som PDF eller spela online."
+    },
+    "clothing": {
+      "title": "Arbetsblad kläder – gratis att skriva ut",
+      "h1": "Kläder: arbetsblad om plagg och klädsel",
+      "metaDescription": "Namnge och para ihop kläder: 58 arbetsblad om plagg för förskola och förskoleklass — ordförråd och SVA-tema, gratis att skriva ut som PDF."
+    },
+    "music": {
+      "title": "Arbetsblad musik – gratis att skriva ut",
+      "h1": "Musik: arbetsblad om instrument och musik",
+      "metaDescription": "Instrument och musikord: 56 arbetsblad om musik om att para ihop, räkna och sortera för förskola och lågstadiet — gratis att skriva ut som PDF."
+    },
+    "weather": {
+      "title": "Arbetsblad väder – gratis att skriva ut",
+      "h1": "Väder: arbetsblad om vädret och årstider",
+      "metaDescription": "Sol, regn, moln och snö: 58 arbetsblad om väder om att para ihop och sortera för förskola och åk 1 — SO/NO-tema, gratis att skriva ut som PDF."
+    },
+    "tree": {
+      "title": "Arbetsblad träd – gratis att skriva ut",
+      "h1": "Träd: arbetsblad om träd och natur",
+      "metaDescription": "Svenska träd och löv: 55 arbetsblad om träd om att para ihop, räkna och sortera för förskoleklass och åk 1 — naturkunskap, gratis som PDF."
+    },
+    "dinosaurs": {
+      "title": "Arbetsblad dinosaurier – gratis (PDF)",
+      "h1": "Dinosaurier: arbetsblad om dinosaurier",
+      "metaDescription": "Räkna dinosaurier, para ihop och klura ut dino-ord: 45 arbetsblad om dinosaurier för förskola och förskoleklass — populärt tema, gratis som PDF."
+    },
+    "emotions": {
+      "title": "Arbetsblad känslor – gratis att skriva ut",
+      "h1": "Känslor: arbetsblad om att känna igen känslor",
+      "metaDescription": "Glad, ledsen, arg, rädd: 52 arbetsblad om känslor om att para ihop och benämna ansiktsuttryck för förskolan — socialt lärande, gratis som PDF."
+    },
+    "birds": {
+      "title": "Arbetsblad fåglar – gratis att skriva ut",
+      "h1": "Fåglar: arbetsblad om fåglar",
+      "metaDescription": "Räkna och para ihop fåglar: 51 arbetsblad om fåglar för förskola och åk 1 — igenkänning och ordförråd om naturen, gratis att skriva ut som PDF."
+    },
+    "vegetables": {
+      "title": "Arbetsblad grönsaker – gratis att skriva ut",
+      "h1": "Grönsaker: arbetsblad om grönsaker",
+      "metaDescription": "Morötter, tomater och ärtor: 58 arbetsblad om grönsaker om att räkna, para ihop och sortera för förskolan — mat och natur, gratis som PDF."
+    },
+    "zoo_animals": {
+      "title": "Arbetsblad djurparksdjur – gratis (PDF)",
+      "h1": "Djurparksdjur: arbetsblad om djur på zoo",
+      "metaDescription": "Lejon, elefant, giraff: 58 arbetsblad om djurparksdjur om att räkna, para ihop och klura för förskola och förskoleklass — gratis att skriva ut som PDF."
+    },
+    "ocean_life": {
+      "title": "Arbetsblad havsdjur – gratis att skriva ut",
+      "h1": "Havsliv: arbetsblad om havets djur",
+      "metaDescription": "Fiskar, valar och krabbor: 58 arbetsblad om havsliv om att räkna, para ihop och sortera för förskolan — havets värld, gratis att skriva ut som PDF."
+    },
+    "forest_creatures": {
+      "title": "Arbetsblad skogsdjur – gratis att skriva ut",
+      "h1": "Skogsdjur: arbetsblad om djuren i skogen",
+      "metaDescription": "Räv, ekorre, älg och igelkott: 57 arbetsblad om skogsdjur om att räkna, para ihop och sortera för förskolan — svensk natur, gratis som PDF."
+    },
+    "pets": {
+      "title": "Arbetsblad husdjur – gratis att skriva ut",
+      "h1": "Husdjur: arbetsblad om husdjur",
+      "metaDescription": "Hund, katt, kanin och marsvin: 56 arbetsblad om husdjur om att räkna och para ihop för förskola och förskoleklass — nära barnens vardag, gratis som PDF."
+    },
+    "insects_and_bugs": {
+      "title": "Arbetsblad insekter och kryp – gratis (PDF)",
+      "h1": "Insekter och kryp: arbetsblad om småkryp",
+      "metaDescription": "Fjärilar, myror och nyckelpigor: 50 arbetsblad om insekter och kryp om att räkna, para ihop och sortera för förskolan — småkryp, gratis som PDF."
+    },
+    "things_that_fly": {
+      "title": "Arbetsblad saker som flyger – gratis (PDF)",
+      "h1": "Saker som flyger: arbetsblad om det som flyger",
+      "metaDescription": "Flygplan, fåglar, ballonger och fjärilar: 58 arbetsblad om saker som flyger om att räkna och sortera för förskolan — gratis att skriva ut som PDF."
+    }
+  },
+  "intersection": {}
+}

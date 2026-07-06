@@ -1,0 +1,1129 @@
+{
+  "locale": "nl",
+  "generatedAt": "2026-07-06",
+  "source": "docs/SEO/harvests/nl.json (1,384 unique google.nl autocomplete queries, 254 seeds, harvested 2026-07-06) + 12 live SERP samples (WebSearch, 2026-07-06). Research SoT: docs/SEO/demand-map-nl.md",
+  "titlePattern": {
+    "singleAxisType": "\"<Demand-term> – gratis werkbladen printen (PDF)\" — the harvest shows the same qualifiers dominate every Dutch worksheet query: printen/uitprinten, gratis, pdf, and the grade/age word (kleuters, groep 3). Demand-noun leads; qualifiers trail after an en-dash. ≤51 chars ideal before the \" · LessonCraftStudio\" suffix, 65 hard max.",
+    "singleAxisTheme": "\"Werkbladen <thema> – gratis printen (PDF)\" — theme queries formulate as '<thema> werkbladen' or 'werkbladen <thema>' (minipret.nl owns the 'werkbladen <thema>' pattern); keep the theme hub broad (no grade) so it does not collide with the theme+grade deck landings.",
+    "singleAxisLevel": "\"Werkbladen <niveau> – gratis printen (PDF)\" — level hubs own the bare grade head ('gratis werkbladen kleuters/groep 3'). Subject×grade hubs own '<vak> werkbladen groep N'; level topic pages stay subject-free.",
+    "intersection": "\"<Demand-term> groep 3/4 – werkbladen printen\" (grade-trailing, the exact Dutch word order the harvest shows: 'woordzoeker groep 3', 'klokkijken groep 4', 'keersommen groep 4'). Grades lowercase mid-string. No theme — theme+type+grade belongs to deck landings.",
+    "notes": "Every title unique across this file. 'online' is honest (decks play in the browser) but reserved for meta/body — the online-exercise hubs own the 'online oefenen' query class. Grades lowercase ('groep 3', 'kleuters', 'peuters'); de/het correct in prose. The 5 seasonal themes (christmas/easter/winter/spring/summer) are OWNED BY THE SEASONAL HUBS and are deliberately absent from singleAxis. NL market rivals: minipret.nl (dominant on themes+grades+woordzoekers), jufmaike/juf-milou/jufsanne (teacher blogs), printwerkblad.nl, mamaliefde.nl, kleuters-oefenen.nl, klokblaadjes.nl/klokrekenen.nl (klok generators), sommenprinter.nl/sommenmaker.nl (math generators), zwijsen.nl, squla.nl."
+  },
+  "singleAxis": {
+    "addition": {
+      "primaryQuery": "optellen werkbladen",
+      "evidence": "harvest",
+      "title": "Optellen – gratis werkbladen printen (PDF)",
+      "h1": "Optellen",
+      "metaDescription": "Gratis werkbladen optellen met plaatjes: eerste plussommen en sommen tot 10 en 20 voor jonge kinderen. Print de pdf met antwoordblad of maak elke som online.",
+      "winnability": "hard",
+      "notes": "Head 'optellen' is Excel-vervuild ('optellen in excel'); de schoolvraag draait om 'optellen tot 20 met brug' + 'optellen groep 3'. Alle nl-decks staan op 5-7 (kleuterklas) terwijl de vraag groep 3/4 is — level-mismatch, zie map. Winnbare vlak = de kleuter-intersection + thema-landings."
+    },
+    "subtraction": {
+      "primaryQuery": "aftrekken werkbladen",
+      "evidence": "harvest",
+      "title": "Aftrekken – gratis werkbladen printen (PDF)",
+      "h1": "Aftrekken",
+      "metaDescription": "Gratis werkbladen aftrekken met plaatjes: minsommen tot 10 en 20 waarbij kinderen figuurtjes doorstrepen en het antwoord opschrijven. Pdf met antwoorden of online.",
+      "winnability": "hard",
+      "notes": "Geen eigen 'aftrekken' seed in de harvest; zelfde level-mismatch als optellen (decks op kleuterklas, vraag op groep 3). Rijdt mee op de reken-intersecties."
+    },
+    "code-addition": {
+      "primaryQuery": "code-optellen",
+      "evidence": "harvest",
+      "title": "Code-optellen – reken met symbolen (PDF)",
+      "h1": "Code-optellen",
+      "metaDescription": "Gratis werkbladen code-optellen: elk plaatje staat voor een getal — ontcijfer de symbolen en tel ze op. Knappe kraak-de-code-sommen als pdf of om online te spelen.",
+      "winnability": "skip",
+      "notes": "Geen native zoekterm ('code-optellen' 1 suggestie). Leeft van interne links + de optel-longtail; geen aparte SEO-investering."
+    },
+    "more-less": {
+      "primaryQuery": "meer of minder werkbladen",
+      "evidence": "harvest",
+      "title": "Meer of minder – werkbladen printen (PDF)",
+      "h1": "Meer of minder",
+      "metaDescription": "Gratis werkbladen meer of minder: vergelijk twee groepen plaatjes en kies waar er meer of minder zijn. Spelenderwijs leren tellen voor peuters, als pdf of online.",
+      "winnability": "hard",
+      "notes": "Head 'meer of minder' is vervuild ('meer of minder teken/vakantiegeld'); echte kleuter-vraag is dun. Decks staan op peuterklas (3-5). Getal-vergelijken gaat naar comparing-numbers (fence)."
+    },
+    "math-puzzle": {
+      "primaryQuery": "rekenpuzzel",
+      "evidence": "harvest",
+      "title": "Rekenpuzzels voor kinderen – gratis printen",
+      "h1": "Rekenpuzzels",
+      "metaDescription": "Gratis rekenpuzzels voor kinderen: kruiswoord-achtige getallenroosters waarin elke rij en kolom moet kloppen. Print de pdf met antwoordblad of puzzel online.",
+      "winnability": "winnable",
+      "notes": "Rijke suggestie-familie ('rekenpuzzel groep 3/4', 'rekenpuzzels'). SERP: zwijsen (Maan roos vis), nvorwo, meesteriy, eurowijskids — geen dominante owner. De groep-3-intersection (147 decks) is de money-page."
+    },
+    "math-worksheet": {
+      "primaryQuery": "rekenwerkblad",
+      "evidence": "harvest",
+      "title": "Rekenwerkbladen – optellen en aftrekken (PDF)",
+      "h1": "Rekenwerkbladen",
+      "metaDescription": "Gratis rekenwerkbladen met gemengde plus- en minsommen tot 10 en 20 om dagelijks te oefenen. Elk blad heeft een pdf, een antwoordblad en een online-versie.",
+      "winnability": "defer-to-hub",
+      "notes": "'rekenwerkblad groep 3/4' (10 suggesties elk) is de grootste reken-vraag, maar gaat naar de Vak×Groep-hubs — decks staan bovendien op kleuterklas (5-7), niet groep 3. Deze typepagina mikt alleen op de gemengde optel-aftrek-formulering."
+    },
+    "big-small": {
+      "primaryQuery": "groot of klein",
+      "evidence": "harvest",
+      "title": "Groot of klein – werkbladen voor peuters (PDF)",
+      "h1": "Groot of klein",
+      "metaDescription": "Gratis werkbladen groot of klein: bekijk elk paar plaatjes en kies het grootste of kleinste. Grootte vergelijken voor peuters en kleuters, als pdf of online.",
+      "winnability": "hard",
+      "notes": "Head 'groot of klein' is volledig vervuild (auto-onderhoud, muziek-cryptogram). Alleen 'groot of klein kleuters' is schoon (2). Decks op peuterklas. Fence vs comparing-sizes: deze key houdt 'groot of klein'."
+    },
+    "chart-count": {
+      "primaryQuery": "grafieken lezen",
+      "evidence": "harvest",
+      "title": "Tellen en in de grafiek zetten (PDF)",
+      "h1": "Tellen en grafiek",
+      "metaDescription": "Gratis werkbladen tellen-en-grafiek: tel elk soort plaatje en kleur de staaf die erbij hoort. Eerste kennismaking met grafieken en data, als pdf of online.",
+      "winnability": "skip",
+      "notes": "Geen zuivere zoekterm voor de mechaniek ('grafiek tellen' bestaat niet als vraag). Leeft van interne links; eerlijk beschrijven, geen keyword verzinnen."
+    },
+    "pattern-train": {
+      "primaryQuery": "patronen kleuters",
+      "evidence": "harvest",
+      "title": "Patroontrein – patronen voortzetten (PDF)",
+      "h1": "Patroontrein",
+      "metaDescription": "Gratis werkbladen patroontrein: bekijk de wagons van de trein en kies welk plaatje als volgende komt. AB- en ABC-patronen voor kleuters, als pdf of online.",
+      "winnability": "winnable",
+      "notes": "'patroontrein' zelf heeft nauwelijks vraag; verkeer komt via de 'patronen'-familie ('patronen kleuters' 10). De generieke head 'patronen' hoort bij de patterns-key (fence). 246 kleuter-decks dragen deze pagina."
+    },
+    "pattern-worksheet": {
+      "primaryQuery": "patronen werkbladen",
+      "evidence": "harvest",
+      "title": "Patroonwerkbladen – reeksen voortzetten (PDF)",
+      "h1": "Patroonwerkbladen",
+      "metaDescription": "Gratis patroonwerkbladen: bestudeer de rij vormen of kleuren en teken wat er volgt. AB-, ABB- en ABC-patronen voor groep 3, met pdf, antwoorden en online-modus.",
+      "winnability": "winnable",
+      "notes": "'patronen groep 3' (7) is verbatim. Fence: pattern-worksheet neemt de groep-3-formulering, patterns neemt de kleuter-formulering, pattern-train de treinvorm. De groep-3-intersection is de money-page."
+    },
+    "bingo": {
+      "primaryQuery": "bingo kleuters",
+      "evidence": "harvest",
+      "title": "Beeldbingo voor kleuters – gratis printen (PDF)",
+      "h1": "Beeldbingo",
+      "metaDescription": "Gratis bingokaarten met plaatjes voor kleuters: roep een plaatje, zoek het op je kaart, dek het af — lezen niet nodig. Klaar-voor-de-klas kaarten als pdf of online.",
+      "winnability": "winnable",
+      "notes": "'bingo kleuters' (10) + 'bingo groep 3/4' (10 elk) sterk. SERP: bingo-generatoren owns de kale head, maar 'beeldbingo voor kleuters' vernauwt eerlijk (onze decks = plaatjeskaarten). De kleuter-intersection is de betere ingang."
+    },
+    "grid-match": {
+      "primaryQuery": "rooster koppelen",
+      "evidence": "harvest",
+      "title": "Rooster koppelen – beeldrasterpuzzels (PDF)",
+      "h1": "Rooster koppelen",
+      "metaDescription": "Gratis rasterpuzzels voor kleuters: sleep elk plaatje naar het juiste vak in het rooster tot het bord vol is. Ruimtelijk inzicht oefenen, als pdf of online.",
+      "winnability": "skip",
+      "notes": "'rooster koppelen' harvest = agenda-koppelen-intent (iphone/outlook). Geen echte vraag voor de mechaniek; crawl-substraat, geen title-budget."
+    },
+    "matching": {
+      "primaryQuery": "koppelen werkbladen",
+      "evidence": "harvest",
+      "title": "Koppelen – werkbladen om te verbinden (PDF)",
+      "h1": "Koppelen",
+      "metaDescription": "Gratis koppel-werkbladen: trek een lijn of tik om elk plaatje aan zijn partner te verbinden — voorwerpen, letters en meer. Download de pdf of koppel online.",
+      "winnability": "winnable",
+      "notes": "Head 'koppelen' breed vervuild (windows/airpods). 'koppelen werkbladen' (4) is schoon. Schaduw- en natuur-koppelen hebben eigen keys (fence). Kleuter-decks (93)."
+    },
+    "picture-sort": {
+      "primaryQuery": "sorteren kleuters",
+      "evidence": "harvest",
+      "title": "Beelden sorteren – wat hoort bij elkaar? (PDF)",
+      "h1": "Beelden sorteren",
+      "metaDescription": "Gratis sorteer-werkbladen voor kleuters: sleep of knip-en-plak elk plaatje in de groep waar het bij hoort. Categoriseren voor jonge kinderen, als pdf of online.",
+      "winnability": "winnable",
+      "notes": "'sorteren kleuters' (10) verbatim. Head 'sorteren' is Excel-intent; de kleuter-hoek is schoon. 140 decks vs 4 bij sorting-categories → deze pagina absorbeert de kleuter-sorteervraag (fence)."
+    },
+    "shadow-match": {
+      "primaryQuery": "schaduw koppelen",
+      "evidence": "serp",
+      "title": "Schaduw koppelen – werkbladen kleuters (PDF)",
+      "h1": "Schaduw koppelen",
+      "metaDescription": "Gratis schaduw-werkbladen: verbind elk plaatje met de juiste schaduw. Klassieke visuele-waarnemingsoefening voor peuters en kleuters, als pdf of online.",
+      "winnability": "winnable",
+      "notes": "SERP 2026-07-06: kleuters-oefenen ('welke schaduw hoort bij het plaatje'), jufmarije, jufjanneke — allemaal niche, geen owner. Grootste voorraad van het waarnemings-cluster (95); best-in-class-pagina bouwen."
+    },
+    "alphabet-train": {
+      "primaryQuery": "alfabet werkblad kleuters",
+      "evidence": "harvest",
+      "title": "Alfabettrein – letters op volgorde (PDF)",
+      "h1": "Alfabettrein",
+      "metaDescription": "Gratis werkbladen alfabettrein: zet de letterwagons in de goede ABC-volgorde en bouw de trein. Speelse alfabet-oefening voor peuters, als pdf of online.",
+      "winnability": "hard",
+      "notes": "'alfabettrein' is speelgoed-intent; letter-vraag draait om beginklanken/letterkennis. Decks op peuterklas (83). Longtail via letters-cluster."
+    },
+    "prepositions": {
+      "primaryQuery": "voorzetsels werkbladen",
+      "evidence": "harvest",
+      "title": "Voorzetsels – werkbladen met plaatjes (PDF)",
+      "h1": "Voorzetsels",
+      "metaDescription": "Gratis werkbladen voorzetsels: waar ligt de bal — op, onder, naast of achter? Kies het plaatje dat bij de zin past. Ideaal voor kleuters en NT2, als pdf of online.",
+      "winnability": "winnable",
+      "notes": "'voorzetsels kleuters' (6) verbatim; SERP: juf-milou, taal-oefenen, k2-publisher — teacher-mid, geen mega-owner. NT2/taal-arme-longtail is de moat (11 talen). De kleuter-intersection draagt de vraag."
+    },
+    "word-guess": {
+      "primaryQuery": "woord raden",
+      "evidence": "harvest",
+      "title": "Woord raden – letterpuzzels voor kinderen",
+      "h1": "Woord raden",
+      "metaDescription": "Gratis werkbladen woord raden: bekijk het plaatje en vul de ontbrekende letters in om het woord te spellen. Eerste spellingoefening als pdf of om online te spelen.",
+      "winnability": "hard",
+      "notes": "Head 'woord raden' = app/spel-intent (5/6/7 letters hulp, Wordle-klasse). Print-longtail dun; blijf weg van galgje-wording. Lage prioriteit; geen grade-bewijs, dus geen intersection."
+    },
+    "word-scramble": {
+      "primaryQuery": "woordpuzzel",
+      "evidence": "harvest",
+      "title": "Woordpuzzels – gratis printen voor kinderen",
+      "h1": "Woordpuzzels",
+      "metaDescription": "Gratis woordpuzzels: haal de door elkaar gehusselde letters uit de knoop en gebruik het plaatje als hint om elk woord te spellen. Spelling oefenen, pdf of online.",
+      "winnability": "hard",
+      "notes": "Head 'woordpuzzel' is maak-je-eigen/puzzelboek-intent (woordpuzzel maken/maker). 'woordpuzzel groep 3/4' (1 elk) dun maar aanwezig. Decks op groep 3 (6-8)."
+    },
+    "wordsearch": {
+      "primaryQuery": "woordzoeker printen",
+      "evidence": "serp",
+      "title": "Woordzoekers voor kinderen – gratis printen (PDF)",
+      "h1": "Woordzoekers voor kinderen",
+      "metaDescription": "Gratis woordzoekers voor kinderen met plaatjes-hints: vind en omcirkel elk verborgen woord in het letterraster. Makkelijke woordpuzzels als pdf of online.",
+      "winnability": "hard",
+      "notes": "KRITISCH: minipret.nl domineert 'woordzoeker groep 3/4' zwaar (SERP 2026-07-06). Head 'woordzoeker' = maak-generator + volwassenen-intent. De groep-3-intersection ('woordzoeker groep 3' 10) is het echte vlak — themawoordzoekers als differentiator."
+    },
+    "crossword": {
+      "primaryQuery": "kruiswoordraadsel",
+      "evidence": "serp",
+      "title": "Kruiswoordraadsels voor kinderen – gratis (PDF)",
+      "h1": "Beeldkruiswoordraadsels",
+      "metaDescription": "Gratis kruiswoordraadsels voor kinderen met plaatjes in plaats van vragen, zodat beginnende lezers elk rooster oplossen. Print de pdf met antwoorden of speel online.",
+      "winnability": "hard",
+      "notes": "Head 'kruiswoordraadsel' = generator + volwassenen (oplossingen/woordenboek). SERP: schoolplaten-generator, kids-n-fun, depuzzelmaker. Differentiator = beeldkruiswoord (het product). Groep-4-intersection aanwezig maar dun bewijs."
+    },
+    "find-and-count": {
+      "primaryQuery": "zoek en tel",
+      "evidence": "harvest",
+      "title": "Zoek en tel – werkbladen voor peuters (PDF)",
+      "h1": "Zoek en tel",
+      "metaDescription": "Gratis werkbladen zoek en tel: speur door het wemelbeeld, tel elk soort voorwerp en schrijf op hoeveel. Zoek-en-tel-oefening voor peuters en kleuters, pdf of online.",
+      "winnability": "winnable",
+      "notes": "'zoek en tel' + 'zoek en tel tot 10/20' verbatim (Educo-lijn adjacency in SERP). Grootste deck-pool van de site (92 op peuterklas). De peuter-intersection draagt de vraag."
+    },
+    "find-objects": {
+      "primaryQuery": "verborgen objecten zoeken",
+      "evidence": "harvest",
+      "title": "Objecten zoeken – zoekplaten voor kinderen (PDF)",
+      "h1": "Objecten zoeken",
+      "metaDescription": "Gratis zoekplaten voor kinderen: speur door de drukke plaat en vind elk voorwerp op de lijst. Aandacht en nauwkeurig kijken oefenen, als pdf of om online te spelen.",
+      "winnability": "winnable",
+      "notes": "Head 'objecten zoeken' = iphone/spel-app-intent; 'verborgen objecten zoeken' iets schoner maar spel-getint. 'zoekplaat' is de eerlijke term. Fence vs find-and-count (dat neemt tel-vraag). 98 kleuter-decks."
+    },
+    "treasure-hunt": {
+      "primaryQuery": "schatzoektocht",
+      "evidence": "harvest",
+      "title": "Schatzoektocht-puzzels – gratis printen (PDF)",
+      "h1": "Schatzoektocht-puzzels",
+      "metaDescription": "Gratis schatzoektocht-werkbladen: volg de plaatjes-aanwijzingen over de kaart tot je bij de schat komt. Route-puzzels voor groep 3, als pdf of om online te spelen.",
+      "winnability": "hard",
+      "notes": "Head 'schatzoektocht' = kinderfeest/speurtocht-sets (verloren kabouterdorp etc.), niet werkbladen. Eerlijk blijven: onze decks zijn puzzelbladen, geen feest-schnitzeljacht. Longtail-only."
+    },
+    "missing-pieces": {
+      "primaryQuery": "ontbrekende stukken",
+      "evidence": "harvest",
+      "title": "Ontbrekende stukken – zoekpuzzels (PDF)",
+      "h1": "Wat ontbreekt er?",
+      "metaDescription": "Gratis werkbladen ontbrekende stukken: bedenk welk stukje het plaatje compleet maakt en zet het op zijn plek. Wat-mist-puzzels voor kleuters, als pdf of online.",
+      "winnability": "hard",
+      "notes": "Head 'ontbrekende stukjes' = Lego/Van Haasteren/IKEA-intent. Altijd met context-qualifier ranken (kleuter/plaatje), nooit op 'ontbrekende stukken' puur. 96 kleuter-decks."
+    },
+    "odd-one-out": {
+      "primaryQuery": "welke hoort er niet bij",
+      "evidence": "serp",
+      "title": "Wat hoort er niet bij? – werkbladen (PDF)",
+      "h1": "Wat hoort er niet bij?",
+      "metaDescription": "Gratis werkbladen wat-hoort-er-niet-bij: bekijk elke rij plaatjes en zet een kruis bij het plaatje dat er niet bij hoort. Logisch denken voor kleuters, pdf of online.",
+      "winnability": "winnable",
+      "notes": "SERP: kleuters-oefenen, mamaliefde, aduis — allemaal niche, exacte content-match. Verbatim varianten 'welke/wat hoort er niet bij' + kleuters. 122 kleuter-decks."
+    },
+    "counting-pictures": {
+      "primaryQuery": "tellen met plaatjes",
+      "evidence": "harvest",
+      "title": "Tellen met plaatjes – werkbladen (PDF)",
+      "h1": "Tellen met plaatjes",
+      "metaDescription": "Gratis werkbladen tellen met plaatjes: tel de voorwerpen in elke groep en schrijf het getal, van 1-10 tot 20. Eerste getal-oefening voor kleuters, pdf of online.",
+      "winnability": "winnable",
+      "notes": "'tellen met plaatjes' (1) verbatim maar klein; de bredere 'zoek en tel tot 10' hoort bij find-and-count (fence). Kleine voorraad (27) — prioriteit achter more-less/find-and-count."
+    },
+    "counting-frames": {
+      "primaryQuery": "tienraam werkblad",
+      "evidence": "harvest",
+      "title": "Tienraam – werkbladen om te printen (PDF)",
+      "h1": "Tienraam",
+      "metaDescription": "Gratis werkbladen tienraam: tel de stippen in het tienraam, schrijf het getal en bouw getallen tot 20. Getalbegrip voor het begin van groep 3, als pdf of online.",
+      "winnability": "hard",
+      "notes": "'tienraam' schone leraren-intent maar concurrentie (sommenprinter/generatoren). Slechts 9 decks — DECK-GAP; lage prioriteit tot voorraad groeit."
+    },
+    "tally-counting": {
+      "primaryQuery": "turven",
+      "evidence": "harvest",
+      "title": "Turven – werkbladen om te printen (PDF)",
+      "h1": "Turven",
+      "metaDescription": "Gratis werkbladen turven: tel elke set turfstreepjes en koppel ze aan het getal dat ze aangeven. Turfstaatjes lezen in groep 3, als pdf of om online te oefenen.",
+      "winnability": "hard",
+      "notes": "'turven kleuters/groep 2/3' aanwezig maar head 'turven' vervuild (betekenis/excel/word). Slechts 4 decks — DECK-GAP: eerst voorraad bouwen, dan loont de pagina."
+    },
+    "number-charts": {
+      "primaryQuery": "honderdveld printen",
+      "evidence": "harvest",
+      "title": "Honderdveld – werkbladen printen (PDF)",
+      "h1": "Honderdveld",
+      "metaDescription": "Gratis werkbladen honderdveld: zoek getallen, vul ontbrekende getallen aan en ontdek patronen in het getallenrijk tot 100. Voor groep 3 en 4, als pdf of online.",
+      "winnability": "winnable",
+      "notes": "'honderdveld' + 'honderdveld printen/leeg/pdf/groep 3' schone reken-intent, SERP redelijk (sommenprinter, klokrekenen-adjacency). 34 decks, groep-3-intersection de money-page."
+    },
+    "comparing-numbers": {
+      "primaryQuery": "getallen vergelijken",
+      "evidence": "harvest",
+      "title": "Getallen vergelijken – groter, kleiner, gelijk",
+      "h1": "Getallen vergelijken",
+      "metaDescription": "Gratis werkbladen getallen vergelijken: bepaal welk getal groter of kleiner is en zet het juiste teken (< > =). Vergelijken voor groep 3, als pdf of online.",
+      "winnability": "winnable",
+      "notes": "Head 'getallen vergelijken' deels Excel-intent; schoolvraag dun maar schoon. Slechts 6 decks — DECK-GAP, deck-productie-kandidaat. Fence vs more-less (kleuter-mengsel-vraag)."
+    },
+    "comparing-groups": {
+      "primaryQuery": "groepen vergelijken",
+      "evidence": "harvest",
+      "title": "Groepen vergelijken – werkbladen (PDF)",
+      "h1": "Groepen vergelijken",
+      "metaDescription": "Gratis werkbladen groepen vergelijken: tel twee groepen plaatjes en kies de groep met meer of minder. Hoeveelheden vergelijken voor kleuters, als pdf of online.",
+      "winnability": "skip",
+      "notes": "Head 'groepen vergelijken' volledig statistiek/SPSS/fietsgroepen-intent. 8 decks, vraag overlapt more-less bijna volledig. Substraat; niet in investeren."
+    },
+    "comparing-sizes": {
+      "primaryQuery": "groottes vergelijken",
+      "evidence": "harvest",
+      "title": "Groottes vergelijken – werkbladen (PDF)",
+      "h1": "Groottes vergelijken",
+      "metaDescription": "Gratis werkbladen groottes vergelijken: orden plaatjes van klein naar groot en zoek de langste, hoogste of kortste. Meten-vooraf voor kleuters, als pdf of online.",
+      "winnability": "hard",
+      "notes": "Fence vs big-small: deze key neemt 'groottes vergelijken' (ordenen naar grootte), big-small neemt 'groot of klein'. Slechts 2 harvest-suggesties; 15 decks. Niche."
+    },
+    "number-lines": {
+      "primaryQuery": "getallenlijn werkbladen",
+      "evidence": "harvest",
+      "title": "Getallenlijn – werkbladen printen (PDF)",
+      "h1": "Getallenlijn",
+      "metaDescription": "Gratis werkbladen getallenlijn: spring over de lijn om op te tellen, af te trekken en ontbrekende getallen te vinden. Getallenlijn tot 20 en 100, als pdf of online.",
+      "winnability": "hard",
+      "notes": "'getallenlijn' + 'tot 20/100/printen/groep 3' is een van de sterkste reken-families in de harvest, maar SERP hard (sommenprinter/sommenmaker/minipret). Slechts 9 decks — grootste onbediende reken-vraag; deck-productie prioriteren."
+    },
+    "base-ten": {
+      "primaryQuery": "getalbegrip werkbladen",
+      "evidence": "harvest",
+      "title": "Getalbegrip – tientallen en eenheden (PDF)",
+      "h1": "Getalbegrip",
+      "metaDescription": "Gratis werkbladen getalbegrip: splits getallen in tientallen en eenheden met blokjes-materiaal. Basis voor rekenen tot 100 in groep 3 en 4, als pdf of online.",
+      "winnability": "winnable",
+      "notes": "'getalbegrip' + 'tot 100/groep 3/kleuters' rijke, schone leraren-familie. 12 decks (grens); eerst typepagina versterken. NB: harvest 'getalbegrip' is breder dan alleen tientallen-splitsen — copy eerlijk houden."
+    },
+    "telling-time": {
+      "primaryQuery": "klokkijken werkbladen",
+      "evidence": "serp",
+      "title": "Klokkijken – werkbladen printen (PDF)",
+      "h1": "Klokkijken",
+      "metaDescription": "Gratis werkbladen klokkijken: lees elke analoge klok en schrijf de tijd — hele uren, halve uren en later de minuten. Van groep 3 tot 5, als pdf of om online te oefenen.",
+      "winnability": "hard",
+      "notes": "SERP: klokblaadjes.nl + klokrekenen.nl (generatoren), juf-milou, jufmaike, squla domineren. Extreem rijke familie ('klokkijken oefenen/groep 3/4/5', 'hele en halve uren'). De groep-3/4-intersecties zijn de money-pages."
+    },
+    "fractions": {
+      "primaryQuery": "breuken werkbladen",
+      "evidence": "harvest",
+      "title": "Breuken ontdekken – werkbladen (PDF)",
+      "h1": "Eerste breuken",
+      "metaDescription": "Gratis werkbladen breuken: helften, kwarten en derden met gekleurde vormen en plaatjes-modellen. Eerste kennismaking met breuken, als pdf of om online te oefenen.",
+      "winnability": "hard",
+      "notes": "'breuken' head is bewerkings-intent (vermenigvuldigen/delen/vereenvoudigen); NL-breukenvraag ligt in groep 5-8. K-3-aandeel klein. Eerlijk 'eerste breuken' framen; groep-5-intersection dun."
+    },
+    "graphing-data": {
+      "primaryQuery": "grafieken lezen",
+      "evidence": "harvest",
+      "title": "Grafieken lezen – werkbladen (PDF)",
+      "h1": "Grafieken en data",
+      "metaDescription": "Gratis werkbladen grafieken lezen: lees eenvoudige staaf- en beeldgrafieken en beantwoord vragen over wat ze laten zien. Data voor groep 3 en 4, als pdf of online.",
+      "winnability": "hard",
+      "notes": "Head 'grafieken lezen' deels crypto/aandelen-intent. School-longtail dun (8 suggesties). 28 decks; lage prioriteit."
+    },
+    "arrays-multiplication": {
+      "primaryQuery": "keersommen werkblad",
+      "evidence": "harvest",
+      "title": "Keersommen – eerste maal-werkbladen (PDF)",
+      "h1": "Keersommen",
+      "metaDescription": "Gratis werkbladen keersommen: tel rijen en kolommen plaatjes om herhaald optellen en de eerste tafels te bouwen. Rooster-model voor groep 4, als pdf of online.",
+      "winnability": "hard",
+      "notes": "'keersommen' + 'oefenen/werkblad/groep 4' (10!) sterke familie, maar SERP hard (tafels-generatoren). Onze decks = arrays/roostermodel (instap), geen tafeldril — eerlijk positioneren. Groep-4-intersection is het vlak."
+    },
+    "geometry": {
+      "primaryQuery": "meetkunde werkbladen",
+      "evidence": "harvest",
+      "title": "Meetkunde – werkbladen voor de basisschool",
+      "h1": "Meetkunde",
+      "metaDescription": "Gratis werkbladen meetkunde: herken vormen, tel zijden en hoeken en sorteer figuren op hun kenmerken. Voor kleuters tot groep 5, als pdf of om online te oefenen.",
+      "winnability": "hard",
+      "notes": "Head 'meetkunde' leunt naar leerjaar 3-6/wiskunde-B; groep-4-intersection ('meetkunde groep 4' 4) is de schone ingang. Fence: het thema 'vormen' neemt 'vormen werkbladen', deze key neemt 'meetkunde'."
+    },
+    "measurement": {
+      "primaryQuery": "meten werkbladen",
+      "evidence": "harvest",
+      "title": "Meten – werkbladen voor de basisschool (PDF)",
+      "h1": "Meten",
+      "metaDescription": "Gratis werkbladen meten: meet plaatjes met een liniaal en blokjes en vergelijk lengte en hoogte. Meten met inzicht voor groep 3 en 4, als pdf of om online te oefenen.",
+      "winnability": "winnable",
+      "notes": "'meten' + 'meten groep 1-4' (10 elk voor groep 3/4) heel rijk; head 'meten' deels tech-intent (maps/iphone), maar 'meten groep N' is schoon en SERP redelijk. Groep-3-intersection is de money-page."
+    },
+    "visual-logic": {
+      "primaryQuery": "logisch denken werkbladen kinderen",
+      "evidence": "harvest",
+      "title": "Visuele logica – logische puzzels voor kinderen",
+      "h1": "Visuele logica",
+      "metaDescription": "Gratis logische puzzels voor kinderen: ontdek de regel in elke beeldpuzzel en vind het antwoord. Denktraining voor kleuters tot groep 5, als pdf of online.",
+      "winnability": "winnable",
+      "notes": "Geen sterke native head; 'visuele logica' is geen zoekterm — copy leunt op 'logisch denken kinderen'. Slechts 14 decks — DECK-GAP-kandidaat. Cluster met de waarnemings-keys."
+    },
+    "visual-discrimination": {
+      "primaryQuery": "visuele waarneming werkbladen",
+      "evidence": "harvest",
+      "title": "Visuele waarneming – werkbladen kleuters (PDF)",
+      "h1": "Visuele waarneming",
+      "metaDescription": "Gratis werkbladen visuele waarneming: vind hetzelfde plaatje, zoek het afwijkende en train nauwkeurig kijken. Voor kleuters en peuters, als pdf of om online te oefenen.",
+      "winnability": "winnable",
+      "notes": "'visuele waarneming' + 'kleuters/peuters/oefeningen' schone ergo/onderwijs-intent, SERP gefragmenteerd (kleuters-oefenen, jufsanne). Cluster-kop: verwijs vandaar naar shadow-match, missing-pieces, odd-one-out, grid-match. 15 decks."
+    },
+    "visual-matching": {
+      "primaryQuery": "koppelen werkbladen kinderen",
+      "evidence": "harvest",
+      "title": "Visueel koppelen – werkbladen voor kinderen",
+      "h1": "Visueel koppelen",
+      "metaDescription": "Gratis werkbladen visueel koppelen: scan de rij en vind het plaatje dat precies gelijk is aan het voorbeeld. Zelfde-plaatje-koppelen voor kleuters, pdf of online.",
+      "winnability": "skip",
+      "notes": "5 decks, geen aparte vraag t.o.v. 'koppelen'. Alleen substraat."
+    },
+    "patterns": {
+      "primaryQuery": "patronen kleuters",
+      "evidence": "harvest",
+      "title": "Patronen voortzetten – werkbladen (PDF)",
+      "h1": "Patronen voortzetten",
+      "metaDescription": "Gratis werkbladen patronen voortzetten: bekijk de herhalende rij plaatjes of vormen en kies wat er volgt. Patroon-oefening voor kleuters en groep 3, als pdf of online.",
+      "winnability": "winnable",
+      "notes": "'patronen kleuters' (10) verbatim; head 'patronen' deels naai/kleding-intent, maar 'patronen kleuters/groep 3' schoon. Fence: pattern-worksheet neemt de groep-3-formulering, pattern-train de trein; deze key neemt de kleuter-formulering — niet dubbelen."
+    },
+    "position-words": {
+      "primaryQuery": "positiewoorden werkblad",
+      "evidence": "harvest",
+      "title": "Positiewoorden – boven, onder, naast (PDF)",
+      "h1": "Positiewoorden",
+      "metaDescription": "Gratis werkbladen positiewoorden: waar ligt de bal — boven, onder of naast de mand? Koppel elke zin aan het juiste plaatje. Ruimtelijke taal voor kleuters, pdf of online.",
+      "winnability": "skip",
+      "notes": "CANNIBALISATIE: zelfde vraagpool als prepositions (96 decks daar vs 8 hier). Prepositions-pagina neemt 'voorzetsels'; deze pagina neemt hooguit de 'positiewoorden'-variant of wordt geconsolideerd. Geen intersection bouwen."
+    },
+    "sorting-categories": {
+      "primaryQuery": "sorteren werkbladen",
+      "evidence": "harvest",
+      "title": "Sorteren en ordenen – oefenbladen (PDF)",
+      "h1": "Sorteren en ordenen",
+      "metaDescription": "Gratis oefenbladen sorteren en ordenen: bepaal in welke groep elk plaatje hoort en sorteer de hele set. Categoriseren voor peuters en kleuters, als pdf of online.",
+      "winnability": "skip",
+      "notes": "'sorteren kleuters' (10) bestaat maar slechts 4 decks — picture-sort (140 decks) is de pagina die deze intentie absorbeert. Herzien als deze familie een deck-golf krijgt."
+    },
+    "picture-arithmetic": {
+      "primaryQuery": "rekenen met plaatjes",
+      "evidence": "harvest",
+      "title": "Plaatjes rekenen – plus en min (PDF)",
+      "h1": "Plaatjes rekenen",
+      "metaDescription": "Gratis werkbladen plaatjes rekenen: eerst plaatjes tellen, dan optellen en aftrekken met plaatjes in plaats van getallen. Voor groep 3, als pdf of online.",
+      "winnability": "winnable",
+      "notes": "'plaatjes rekenen'/'rekenen met plaatjes' (1) verbatim maar klein; exacte content-match. Alle decks op groep 3 (6-8) → geen aparte intersection nodig (zou duplicaat zijn); vraag leeft op de typepagina."
+    },
+    "science-sort": {
+      "primaryQuery": "wereldoriëntatie werkbladen",
+      "evidence": "harvest",
+      "title": "Natuur sorteren – sorteer- en zoekbladen (PDF)",
+      "h1": "Natuur sorteren",
+      "metaDescription": "Gratis werkbladen natuur sorteren: leefgebieden, seizoenen en natuur — sorteer de plaatjes in de juiste groep. Wereldoriëntatie voor kleuters en groep 3, pdf of online.",
+      "winnability": "defer-to-hub",
+      "notes": "'wereldoriëntatie/natuur werkbladen groep N' hoort bij de Vak×Groep-hub; typepagina alleen als mechaniek-support. Niet tegen de eigen wereldoriëntatie-hub titelen."
+    },
+    "science-match": {
+      "primaryQuery": "natuur verbinden",
+      "evidence": "harvest",
+      "title": "Natuur verbinden – koppel-werkbladen (PDF)",
+      "h1": "Natuur verbinden",
+      "metaDescription": "Gratis koppel-werkbladen natuur: verbind dieren met hun leefgebied, jong of voedsel. Eenvoudige natuurverbanden voor nieuwsgierige kinderen, als pdf of online.",
+      "winnability": "skip",
+      "notes": "'natuur verbinden' (1) geen eigen zoekterm; 10 decks. Support-pagina in het wereldoriëntatie-cluster, interne links."
+    },
+    "science-sequence": {
+      "primaryQuery": "levenscyclus werkblad",
+      "evidence": "harvest",
+      "title": "Volgorde en levenscyclus – werkbladen (PDF)",
+      "h1": "Levenscyclus",
+      "metaDescription": "Gratis werkbladen levenscyclus: van ei naar rups naar vlinder — leg de stappen van de natuur in de juiste volgorde. Natuurkennis ordenen voor groep 3, als pdf of online.",
+      "winnability": "skip",
+      "notes": "Slechts 1 deck — plaatshouder; geen push voor deck-productie."
+    },
+    "beginning-sounds": {
+      "primaryQuery": "beginklank kleuters",
+      "evidence": "harvest",
+      "title": "Beginklanken – werkbladen voor kleuters (PDF)",
+      "h1": "Beginklanken",
+      "metaDescription": "Gratis werkbladen beginklanken: met welke klank begint het woord? Koppel elk plaatje aan de juiste letter. Fonemisch bewustzijn oefenen voor kleuters, pdf of online.",
+      "winnability": "hard",
+      "notes": "'beginklank oefenen kleuters' + 'beginklank spel' schone kleuter-intent, maar SERP druk (jufsanne, zwijsen, kleuters-oefenen) en slechts 10 decks — grootste taal-DECK-GAP. Vraag over alle niveaus; deck-productie zou een hele familie openen."
+    },
+    "letter-knowledge": {
+      "primaryQuery": "letterkennis werkblad",
+      "evidence": "harvest",
+      "title": "Letterkennis – werkbladen voor kleuters (PDF)",
+      "h1": "Letterkennis",
+      "metaDescription": "Gratis werkbladen letterkennis: zoek en markeer de gevraagde letter en koppel hoofdletter aan kleine letter. Letters herkennen voor kleuters en groep 3, pdf of online.",
+      "winnability": "winnable",
+      "notes": "'letterkennis' + 'kleuters/groep 2/oefenen/testen' schone intent, SERP mid (teacher-blogs). 20 decks; de kleuter-intersection is aanwezig."
+    },
+    "word-building": {
+      "primaryQuery": "woorden bouwen",
+      "evidence": "harvest",
+      "title": "Woorden bouwen – werkbladen (PDF)",
+      "h1": "Woorden bouwen",
+      "metaDescription": "Gratis werkbladen woorden bouwen: leg de letterkaartjes in de goede volgorde om het woord bij het plaatje te spellen. Klank-letter-koppeling voor groep 3, pdf of online.",
+      "winnability": "winnable",
+      "notes": "'woorden bouwen' (4) verbatim maar klein. Slechts 10 decks — deck-productie-kandidaat in de beginklanken-familie."
+    },
+    "picture-vocabulary": {
+      "primaryQuery": "woordenschat werkbladen",
+      "evidence": "harvest",
+      "title": "Woordenschat met plaatjes – gratis (PDF)",
+      "h1": "Woordenschat met plaatjes",
+      "metaDescription": "Gratis werkbladen woordenschat met plaatjes: benoem alledaagse voorwerpen per thema, van de keuken tot het klaslokaal. Ideaal voor NT2 en kleuters, als pdf of online.",
+      "winnability": "winnable",
+      "notes": "'woordenschat' + 'oefenen/spelletjes/groep N' groot maar deels breed; 'woordenschat werkbladen' (10) schoon. NT2/taal-arme-moat. Thema-pagina's dekken '<thema> woordenschat'; deze pagina generiek houden. 10 decks — voorraad uitbouwen."
+    },
+    "phonological-awareness": {
+      "primaryQuery": "klanken en lettergrepen werkbladen",
+      "evidence": "harvest",
+      "title": "Klanken en lettergrepen – werkbladen (PDF)",
+      "h1": "Klanken en lettergrepen",
+      "metaDescription": "Gratis werkbladen klanken en lettergrepen: klap de lettergrepen, tel ze en koppel woorden met dezelfde klanken. Fonologisch bewustzijn voor kleuters, pdf of online.",
+      "winnability": "hard",
+      "notes": "Silben/klank-vraag solide via 'beginklank lettergreep' maar head 'klanken en lettergrepen' schoolboek-intent. 25 decks; leunt op de beginklanken-familie."
+    },
+    "preschool": {
+      "primaryQuery": "gratis werkbladen peuters",
+      "evidence": "harvest",
+      "title": "Werkbladen peuters – gratis printen (PDF)",
+      "h1": "Werkbladen voor peuters",
+      "metaDescription": "Gratis werkbladen voor peuters van 3-5 jaar: tellen, groot en klein, koppelen, patronen en eerste letters. Elke set is een pdf die je ook online kunt spelen.",
+      "winnability": "hard",
+      "notes": "'gratis werkbladen peuters' + mamaliefde/printwerkblad domineren. De niveau-hub aggregeert en linkt intern; niet op de head jagen. NB: platform-leeftijd 3-5; NL 'peuters' = 2-4, dekt overgang naar kleuters."
+    },
+    "kindergarten": {
+      "primaryQuery": "werkbladen kleuters printen",
+      "evidence": "serp",
+      "title": "Werkbladen kleuters – gratis printen (PDF)",
+      "h1": "Werkbladen voor kleuters",
+      "metaDescription": "Gratis werkbladen voor kleuters: tellen, letters, sorteren, puzzels en meer voor 5-7 jaar — duizenden bladen, elk met een pdf en een speel-online-versie.",
+      "winnability": "hard",
+      "notes": "Grootste niveau (bulk van de catalogus) en de grootste head. SERP: minipret, printwerkblad, mamaliefde, zwijsen. Vak×Groep-hubs nemen 'rekenen/taal kleuters werkbladen'; deze pagina blijft vak-vrij. NB: taxonomie labelt 5-7 als kleuterklas."
+    },
+    "grade-1": {
+      "primaryQuery": "gratis werkbladen groep 3",
+      "evidence": "harvest",
+      "title": "Werkbladen groep 3 – gratis printen (PDF)",
+      "h1": "Werkbladen groep 3",
+      "metaDescription": "Gratis werkbladen voor groep 3: woordzoekers, rekenpuzzels, klokkijken, patronen en meten. Download de pdf met antwoordblad of speel elk werkblad online.",
+      "winnability": "hard",
+      "notes": "'gratis werkbladen groep 3' + 'oefenbladen groep 3' zeer rijk; head door minipret/junioreinstein/squla bezet. Rol = verdeelpagina naar de groep-3-intersecties. Groep 3 = start formeel lezen/rekenen (leeftijd 6)."
+    },
+    "grade-2": {
+      "primaryQuery": "gratis werkbladen groep 4",
+      "evidence": "harvest",
+      "title": "Werkbladen groep 4 – gratis printen (PDF)",
+      "h1": "Werkbladen groep 4",
+      "metaDescription": "Gratis werkbladen voor groep 4: kruiswoordraadsels, klokkijken, keersommen, meetkunde en rekenen tot 100. Elk blad heeft een pdf met antwoorden, ook online speelbaar.",
+      "winnability": "hard",
+      "notes": "'gratis werkbladen groep 4' + 'werkbladen printen groep 4' sterk; head authority-bezet. Verdeelpagina naar de groep-4-intersecties (klokkijken/keersommen/meetkunde/kruiswoord)."
+    },
+    "grade-3": {
+      "primaryQuery": "gratis werkbladen groep 5",
+      "evidence": "harvest",
+      "title": "Werkbladen groep 5 – gratis printen (PDF)",
+      "h1": "Werkbladen groep 5",
+      "metaDescription": "Gratis werkbladen voor groep 5: klokkijken op de minuut, eerste breuken, keersommen en meetkunde. Download de pdf met antwoordblad of oefen elk werkblad online.",
+      "winnability": "hard",
+      "notes": "'werkbladen groep 5' + 'gratis werkbladen groep 5' aanwezig; K-3-rand, head hard. Alleen basisonderhoud tot groep 3/4 verzadigd is."
+    },
+    "animals": {
+      "primaryQuery": "dieren werkbladen",
+      "evidence": "serp",
+      "title": "Werkbladen dieren – gratis printen (PDF)",
+      "h1": "Dieren werkbladen",
+      "metaDescription": "Gratis werkbladen dieren: tellen, koppelen, sorteren en woordpuzzels, allemaal met dieren die kinderen leuk vinden. Elk blad is een pdf, ook online speelbaar.",
+      "winnability": "hard",
+      "notes": "SERP 2026-07-06: minipret ('dieren werkbladen') + kleuters-oefenen + juf-milou thema dieren domineren. Grootste thema (146 decks); boerderij/dierentuin/bos-subthema's zijn de winnbare ingangen."
+    },
+    "fruits": {
+      "primaryQuery": "fruit werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen fruit – gratis printen (PDF)",
+      "h1": "Fruit werkbladen",
+      "metaDescription": "Gratis werkbladen fruit: tel appels, koppel paren, sorteer fruit en los fruitige plaatjes-puzzels op. Woordenschatrijke bladen als pdf of om online te spelen.",
+      "winnability": "winnable",
+      "notes": "'fruit werkbladen' (2) verbatim; NT2-mid SERP. 115 decks. Taxonomie-naam 'Fruit' = demand-woord (niet 'fruits')."
+    },
+    "vehicles": {
+      "primaryQuery": "voertuigen werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen voertuigen – gratis printen (PDF)",
+      "h1": "Voertuigen werkbladen",
+      "metaDescription": "Gratis werkbladen voertuigen: auto's, vrachtwagens, vliegtuigen en boten in tel-, koppel- en sorteeropdrachten. Vervoer-thema als pdf of om online te spelen.",
+      "winnability": "winnable",
+      "notes": "'voertuigen werkbladen' (1) verbatim; dunne SERP. Geliefd thema (109 decks), goed als instap-verkeer via deck-landings."
+    },
+    "toys": {
+      "primaryQuery": "speelgoed werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen speelgoed – gratis printen (PDF)",
+      "h1": "Speelgoed werkbladen",
+      "metaDescription": "Gratis werkbladen speelgoed: tel, koppel en sorteer bekend speelgoed en leer meteen de namen. Speelkamer-thema als pdf of om online te spelen.",
+      "winnability": "winnable",
+      "notes": "Niche-thema (106 decks), NT2-getinte staart. Geen eigen thema-seed in harvest maar bekend kleuter-thema."
+    },
+    "shapes": {
+      "primaryQuery": "vormen werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen vormen – kleuters & groep 3 (PDF)",
+      "h1": "Vormen werkbladen",
+      "metaDescription": "Gratis werkbladen vormen: herken cirkel, vierkant en driehoek in puzzels, patronen en sorteeropdrachten. Vormen herkennen voor kleuters, als pdf of online.",
+      "winnability": "winnable",
+      "notes": "'vormen werkbladen' (3) verbatim; SERP matig. Brug naar meetkunde (groep 3+) in de copy. Fence: dit THEMA neemt 'vormen werkbladen', de meetkunde-TYPE-pagina neemt 'meetkunde werkbladen'. 97 decks."
+    },
+    "flowers": {
+      "primaryQuery": "bloemen werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen bloemen – gratis printen (PDF)",
+      "h1": "Bloemen werkbladen",
+      "metaDescription": "Gratis werkbladen bloemen: tel bloemen, koppel paren en sorteer op soort of kleur. Voorjaars- en natuurthema voor kleuters, als pdf of om online te spelen.",
+      "winnability": "winnable",
+      "notes": "'bloemen werkbladen' (1) verbatim; 88 decks (relatief groot voor nl). Natuur/lente-adjacency in de copy."
+    },
+    "tree": {
+      "primaryQuery": "bomen werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen bomen – gratis printen (PDF)",
+      "h1": "Bomen werkbladen",
+      "metaDescription": "Gratis werkbladen bomen: tel, koppel en sorteer bomen en bladeren en leer hun namen. Natuurthema voor kleuters en groep 3, als pdf of om online te spelen.",
+      "winnability": "winnable niche",
+      "notes": "Geen eigen thema-seed; 64 decks (nl-specifiek groot). Support-thema in het natuur-cluster."
+    },
+    "vegetables": {
+      "primaryQuery": "groenten werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen groenten – gratis printen (PDF)",
+      "h1": "Groenten werkbladen",
+      "metaDescription": "Gratis werkbladen groenten: wortels, paprika's en erwtjes om te tellen, koppelen, sorteren en benoemen. Groente-thema als pdf of om online te spelen.",
+      "winnability": "winnable niche",
+      "notes": "Vraag formuleert vaak als 'obst gemüse'-achtig combi ('fruit werkbladen' groter). 57 decks; NT2-getint."
+    },
+    "body_parts": {
+      "primaryQuery": "lichaamsdelen werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen lichaamsdelen – gratis printen (PDF)",
+      "h1": "Lichaamsdelen",
+      "metaDescription": "Gratis werkbladen lichaamsdelen: wijs aan, tel en benoem ogen, oren, handen en voeten. Mijn-lichaam-woordenschat voor kleuters, als pdf of om online te spelen.",
+      "winnability": "winnable",
+      "notes": "'lichaamsdelen werkbladen' (1) verbatim; NT2-mid SERP. 57 decks. NB compat: lichaamsdelen uitgesloten van som/tel-mechanieken — thema-pagina prima."
+    },
+    "clothing": {
+      "primaryQuery": "kleding werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen kleding – gratis printen (PDF)",
+      "h1": "Kleding werkbladen",
+      "metaDescription": "Gratis werkbladen kleding: sorteer, tel en koppel shirts, schoenen en mutsen en leer de namen. Kleding-woordenschat voor kleuters, als pdf of om online te spelen.",
+      "winnability": "winnable",
+      "notes": "'kleding werkbladen' (2) verbatim; NT2-niche. Accessoires heeft een eigen key. 57 decks."
+    },
+    "colors": {
+      "primaryQuery": "kleuren werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen kleuren – gratis printen (PDF)",
+      "h1": "Kleuren werkbladen",
+      "metaDescription": "Gratis werkbladen kleuren: benoem, koppel en sorteer op kleur met vrolijke plaatjes. Kleuren leren voor peuters en kleuters, als pdf of om online te spelen.",
+      "winnability": "winnable",
+      "notes": "'kleuren werkbladen' (6) verbatim, redelijk sterk voor een thema. 48 decks. NB: waak voor 'kleurplaten'-intent (ander product); copy houdt het op kleuren-herkennen."
+    },
+    "dinosaurs": {
+      "primaryQuery": "dinosaurussen werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen dino's – gratis printen (PDF)",
+      "h1": "Dinosaurussen werkbladen",
+      "metaDescription": "Gratis werkbladen dino's: tel, koppel en sorteer dinosaurussen en los dino-plaatjespuzzels op. Favoriet thema van veel kinderen, als pdf of om online te spelen.",
+      "winnability": "winnable",
+      "notes": "'dinosaurussen werkbladen' (3) verbatim; geliefd kinderthema. 44 decks."
+    },
+    "emotions": {
+      "primaryQuery": "emoties werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen emoties – gratis printen (PDF)",
+      "h1": "Emoties en gevoelens",
+      "metaDescription": "Gratis werkbladen emoties: benoem blije, boze, verdrietige en verbaasde gezichten en koppel gevoelens aan situaties. Sociaal-emotionele woordenschat, pdf of online.",
+      "winnability": "winnable",
+      "notes": "'emoties werkbladen' (2) verbatim; SEO-mid (SEL-blogs). 50 decks."
+    },
+    "hospital": {
+      "primaryQuery": "ziekenhuis werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen ziekenhuis – gratis printen (PDF)",
+      "h1": "In het ziekenhuis",
+      "metaDescription": "Gratis werkbladen ziekenhuis: dokters, verpleegkundigen en verband-spullen om te benoemen, tellen en koppelen. Zorg-woordenschat voor kleuters, als pdf of online.",
+      "winnability": "winnable niche",
+      "notes": "'ziekenhuis werkbladen' (1) verbatim; klein niche-thema. 57 decks."
+    },
+    "music": {
+      "primaryQuery": "muziek werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen muziek – gratis printen (PDF)",
+      "h1": "Muziek werkbladen",
+      "metaDescription": "Gratis werkbladen muziek: trommels, gitaren en piano's om te tellen, koppelen en benoemen. Instrumenten-woordenschat voor kleuters, als pdf of om online te spelen.",
+      "winnability": "winnable niche",
+      "notes": "'muziek werkbladen' (1) verbatim. Let op intent-splitsing: veel 'muziek werkbladen' = muziektheorie (noten lezen) — onze decks zijn instrument-woordenschat; meta houdt het eerlijk. 55 decks."
+    },
+    "occupations": {
+      "primaryQuery": "beroepen werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen beroepen – gratis printen (PDF)",
+      "h1": "Beroepen werkbladen",
+      "metaDescription": "Gratis werkbladen beroepen: koppel beroepen aan hun gereedschap en werkplek. Beroepen-woordenschat voor kleuters en groep 3, als pdf of om online te spelen.",
+      "winnability": "winnable",
+      "notes": "'beroepen werkbladen' (2) verbatim; NT2-getint. 57 decks."
+    },
+    "pets": {
+      "primaryQuery": "huisdieren werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen huisdieren – gratis printen (PDF)",
+      "h1": "Huisdieren werkbladen",
+      "metaDescription": "Gratis werkbladen huisdieren: honden, katten en goudvissen in tel-, koppel- en sorteeropdrachten. Huisdier-thema als pdf of om online te spelen.",
+      "winnability": "winnable",
+      "notes": "'huisdieren werkbladen' (2) verbatim; NT2-niche. 54 decks."
+    },
+    "space": {
+      "primaryQuery": "ruimte werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen ruimte – gratis printen (PDF)",
+      "h1": "Ruimte werkbladen",
+      "metaDescription": "Gratis werkbladen ruimte: raketten, planeten en sterren in tel-, koppel- en puzzelopdrachten. Ruimtevaart-thema als pdf of om online te spelen.",
+      "winnability": "winnable",
+      "notes": "'ruimte werkbladen' (7) verbatim, relatief sterk. 57 decks. Let op: 'ruimte' ook meetkunde-intent — copy houdt het op ruimtevaart."
+    },
+    "weather": {
+      "primaryQuery": "weer werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen weer – gratis printen (PDF)",
+      "h1": "Weer werkbladen",
+      "metaDescription": "Gratis werkbladen weer: zon, regen, wolken en sneeuw in koppel-, sorteer- en woordenschatopdrachten. Weer-thema als pdf of om online te spelen.",
+      "winnability": "winnable niche",
+      "notes": "'weer werkbladen' (1) verbatim; natuur/seizoen-adjacency. 57 decks."
+    },
+    "insects_and_bugs": {
+      "primaryQuery": "insecten werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen insecten – gratis printen (PDF)",
+      "h1": "Insecten en beestjes",
+      "metaDescription": "Gratis werkbladen insecten: bijen, kevers en vlinders om te tellen, koppelen en sorteren. Beestjes-thema voor kleuters, als pdf of om online te spelen.",
+      "winnability": "winnable niche",
+      "notes": "Geen eigen thema-seed; natuur-cluster. 51 decks."
+    },
+    "ocean_life": {
+      "primaryQuery": "zeedieren werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen zeedieren – gratis printen (PDF)",
+      "h1": "Zeedieren",
+      "metaDescription": "Gratis werkbladen zeedieren: vissen, walvissen en krabben in tel-, koppel- en woordpuzzels. Onder-water-thema voor kleuters, als pdf of om online te spelen.",
+      "winnability": "winnable niche",
+      "notes": "Weergave naar 'zeedieren' (demand-woord) boven 'oceaanleven'. 54 decks."
+    },
+    "farm_animals": {
+      "primaryQuery": "boerderijdieren werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen boerderijdieren – gratis printen (PDF)",
+      "h1": "Boerderijdieren",
+      "metaDescription": "Gratis werkbladen boerderijdieren: koeien, varkens en kippen in tel-, koppel-, sorteer- en woordpuzzels. Boerderij-thema als pdf of om online te spelen.",
+      "winnability": "winnable",
+      "notes": "Boerderij-thema populair bij kleuters (SERP jufanke dierentuin/boerderij). 56 decks."
+    },
+    "zoo_animals": {
+      "primaryQuery": "dierentuindieren werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen dierentuin – gratis printen (PDF)",
+      "h1": "Dierentuindieren",
+      "metaDescription": "Gratis werkbladen dierentuin: leeuwen, olifanten en giraffen in tel-, koppel- en woordpuzzels. Dierentuin-thema voor kleuters, als pdf of om online te spelen.",
+      "winnability": "winnable niche",
+      "notes": "SERP: jufanke 'werkboekje dierentuin'. Weergave 'dierentuin' als demand-woord. 56 decks."
+    },
+    "forest_creatures": {
+      "primaryQuery": "bosdieren werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen bosdieren – gratis printen (PDF)",
+      "h1": "Bosdieren",
+      "metaDescription": "Gratis werkbladen bosdieren: vossen, uilen en herten in tel-, koppel- en sorteeropdrachten. Bos-thema voor peuters en kleuters, als pdf of om online te spelen.",
+      "winnability": "winnable niche",
+      "notes": "Weergave naar 'bosdieren' (demand-woord) boven 'boswezens'. 56 decks."
+    },
+    "birds": {
+      "primaryQuery": "vogels werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen vogels – gratis printen (PDF)",
+      "h1": "Vogels werkbladen",
+      "metaDescription": "Gratis werkbladen vogels: tel, koppel en sorteer vogels en leer hun namen. Vogel-thema voor kleuters en groep 3, als pdf of om online te spelen.",
+      "winnability": "winnable niche",
+      "notes": "'vogels werkbladen' (1) verbatim. NB: nl heeft ook een 'vogels 2'-thema — samenvoegen in copy. 47 decks (birds) + 56 (birds_2)."
+    },
+    "bakery": {
+      "primaryQuery": "bakkerij werkbladen",
+      "evidence": "harvest",
+      "title": "Werkbladen bakkerij – gratis printen (PDF)",
+      "h1": "In de bakkerij",
+      "metaDescription": "Gratis werkbladen bakkerij: brood, taart en gebak in tel-, koppel- en sorteeropdrachten. Bakkerij-thema voor kleuters, als pdf of om online te spelen.",
+      "winnability": "winnable niche",
+      "notes": "Geen eigen thema-seed; 55 decks. Absorbeert de zoete-etenswaren-intent (desserts_and_sweets zonder eigen demand)."
+    }
+  },
+  "intersections": [
+    {
+      "key": "grade-1__wordsearch",
+      "type": "wordsearch",
+      "level": "grade-1",
+      "query": "woordzoeker groep 3",
+      "decks": 50,
+      "title": "Woordzoekers groep 3 – gratis printen (PDF)",
+      "h1": "Woordzoekers groep 3",
+      "metaDescription": "Gratis woordzoekers voor groep 3 met plaatjes-hints: vind en omcirkel elk verborgen woord in het letterraster. Elke themawoordzoeker als pdf of online speelbaar."
+    },
+    {
+      "key": "grade-1__telling-time",
+      "type": "telling-time",
+      "level": "grade-1",
+      "query": "klokkijken groep 3",
+      "decks": 21,
+      "title": "Klokkijken groep 3 – werkbladen printen (PDF)",
+      "h1": "Klokkijken groep 3",
+      "metaDescription": "Gratis klokkijken-werkbladen voor groep 3: lees hele en halve uren op de analoge klok en schrijf de tijd op. Elk blad als pdf met antwoorden of om online te oefenen."
+    },
+    {
+      "key": "grade-2__telling-time",
+      "type": "telling-time",
+      "level": "grade-2",
+      "query": "klokkijken groep 4",
+      "decks": 20,
+      "title": "Klokkijken groep 4 – werkbladen printen (PDF)",
+      "h1": "Klokkijken groep 4",
+      "metaDescription": "Gratis klokkijken-werkbladen voor groep 4: lees kwartieren en tijden op vijf minuten nauwkeurig op de analoge klok. Als pdf met antwoorden of om online te oefenen."
+    },
+    {
+      "key": "grade-3__telling-time",
+      "type": "telling-time",
+      "level": "grade-3",
+      "query": "klokkijken oefenen groep 5",
+      "decks": 40,
+      "title": "Klokkijken groep 5 – werkbladen printen (PDF)",
+      "h1": "Klokkijken groep 5",
+      "metaDescription": "Gratis klokkijken-werkbladen voor groep 5: lees de tijd op de minuut nauwkeurig op de analoge klok en schrijf hem op. Als pdf met antwoorden of om online te oefenen."
+    },
+    {
+      "key": "grade-1__math-puzzle",
+      "type": "math-puzzle",
+      "level": "grade-1",
+      "query": "rekenpuzzel groep 3",
+      "decks": 147,
+      "title": "Rekenpuzzels groep 3 – gratis printen (PDF)",
+      "h1": "Rekenpuzzels groep 3",
+      "metaDescription": "Gratis rekenpuzzels voor groep 3: getallenroosters waarin elke rij en kolom moet kloppen tot 20. Print de pdf met antwoordblad of los de puzzel online op."
+    },
+    {
+      "key": "kindergarten__picture-sort",
+      "type": "picture-sort",
+      "level": "kindergarten",
+      "query": "sorteren kleuters",
+      "decks": 140,
+      "title": "Sorteren voor kleuters – werkbladen (PDF)",
+      "h1": "Sorteren voor kleuters",
+      "metaDescription": "Gratis sorteer-werkbladen voor kleuters: sleep of knip-en-plak elk plaatje in de juiste categorie. Denken in groepen oefenen, als pdf met antwoorden of online."
+    },
+    {
+      "key": "bingo__kindergarten",
+      "type": "bingo",
+      "level": "kindergarten",
+      "query": "bingo kleuters",
+      "decks": 77,
+      "title": "Bingo voor kleuters – gratis kaarten (PDF)",
+      "h1": "Bingo voor kleuters",
+      "metaDescription": "Gratis beeldbingo voor kleuters: roep een plaatje, zoek het op de kaart en dek het af — lezen niet nodig. Kant-en-klare kaarten als pdf of om online te spelen."
+    },
+    {
+      "key": "kindergarten__prepositions",
+      "type": "prepositions",
+      "level": "kindergarten",
+      "query": "voorzetsels kleuters",
+      "decks": 96,
+      "title": "Voorzetsels voor kleuters – werkbladen (PDF)",
+      "h1": "Voorzetsels voor kleuters",
+      "metaDescription": "Gratis werkbladen voorzetsels voor kleuters: waar ligt de bal — op, onder, naast of achter? Kies het juiste plaatje. Ideaal voor NT2, als pdf of online."
+    },
+    {
+      "key": "grade-1__pattern-worksheet",
+      "type": "pattern-worksheet",
+      "level": "grade-1",
+      "query": "patronen groep 3",
+      "decks": 50,
+      "title": "Patronen groep 3 – werkbladen printen (PDF)",
+      "h1": "Patronen groep 3",
+      "metaDescription": "Gratis patroonwerkbladen voor groep 3: bestudeer de rij vormen of kleuren en teken wat er volgt. AB-, ABB- en ABC-patronen als pdf met antwoorden of online."
+    },
+    {
+      "key": "kindergarten__patterns",
+      "type": "patterns",
+      "level": "kindergarten",
+      "query": "patronen kleuters",
+      "decks": 15,
+      "title": "Patronen voor kleuters – werkbladen (PDF)",
+      "h1": "Patronen voor kleuters",
+      "metaDescription": "Gratis werkbladen patronen voor kleuters: bekijk de herhalende rij plaatjes en kies wat er als volgende komt. Speels patroon-denken, als pdf of om online te spelen."
+    },
+    {
+      "key": "arrays-multiplication__grade-2",
+      "type": "arrays-multiplication",
+      "level": "grade-2",
+      "query": "keersommen groep 4",
+      "decks": 14,
+      "title": "Keersommen groep 4 – werkbladen printen (PDF)",
+      "h1": "Keersommen groep 4",
+      "metaDescription": "Gratis werkbladen keersommen voor groep 4: tel rijen en kolommen plaatjes om de eerste tafels te bouwen via herhaald optellen. Als pdf met antwoorden of online."
+    },
+    {
+      "key": "grade-1__measurement",
+      "type": "measurement",
+      "level": "grade-1",
+      "query": "meten groep 3",
+      "decks": 12,
+      "title": "Meten groep 3 – werkbladen printen (PDF)",
+      "h1": "Meten groep 3",
+      "metaDescription": "Gratis werkbladen meten voor groep 3: meet plaatjes met een liniaal en blokjes en vergelijk lengte en hoogte. Meten met inzicht, als pdf met antwoorden of online."
+    },
+    {
+      "key": "geometry__grade-2",
+      "type": "geometry",
+      "level": "grade-2",
+      "query": "meetkunde groep 4",
+      "decks": 17,
+      "title": "Meetkunde groep 4 – werkbladen printen (PDF)",
+      "h1": "Meetkunde groep 4",
+      "metaDescription": "Gratis werkbladen meetkunde voor groep 4: herken vormen, tel zijden en hoeken en sorteer figuren op hun kenmerken. Als pdf met antwoorden of om online te oefenen."
+    },
+    {
+      "key": "grade-1__number-charts",
+      "type": "number-charts",
+      "level": "grade-1",
+      "query": "honderdveld groep 3",
+      "decks": 13,
+      "title": "Honderdveld groep 3 – werkbladen printen (PDF)",
+      "h1": "Honderdveld groep 3",
+      "metaDescription": "Gratis werkbladen honderdveld voor groep 3: zoek getallen, vul ontbrekende getallen aan en ontdek patronen in het getallenrijk tot 100. Als pdf of om online te oefenen."
+    },
+    {
+      "key": "kindergarten__odd-one-out",
+      "type": "odd-one-out",
+      "level": "kindergarten",
+      "query": "welke hoort er niet bij kleuters",
+      "decks": 122,
+      "title": "Wat hoort er niet bij? Kleuters (PDF)",
+      "h1": "Wat hoort er niet bij? Voor kleuters",
+      "metaDescription": "Gratis werkbladen wat-hoort-er-niet-bij voor kleuters: bekijk elke rij plaatjes en zet een kruis bij het plaatje dat er niet bij hoort. Logisch denken, pdf of online."
+    },
+    {
+      "key": "kindergarten__shadow-match",
+      "type": "shadow-match",
+      "level": "kindergarten",
+      "query": "welke schaduw hoort bij het plaatje",
+      "decks": 95,
+      "title": "Schaduw koppelen kleuters – werkbladen (PDF)",
+      "h1": "Schaduw koppelen voor kleuters",
+      "metaDescription": "Gratis schaduw-werkbladen voor kleuters: welke schaduw hoort bij het plaatje? Verbind elk plaatje met de juiste schaduw. Visuele waarneming, als pdf of online."
+    },
+    {
+      "key": "find-and-count__preschool",
+      "type": "find-and-count",
+      "level": "preschool",
+      "query": "zoek en tel tot 10",
+      "decks": 92,
+      "title": "Zoek en tel voor peuters – werkbladen (PDF)",
+      "h1": "Zoek en tel voor peuters",
+      "metaDescription": "Gratis werkbladen zoek en tel voor peuters: speur door het wemelbeeld, tel elk soort voorwerp tot 10 en schrijf op hoeveel. Als pdf of om online te spelen."
+    },
+    {
+      "key": "addition__kindergarten",
+      "type": "addition",
+      "level": "kindergarten",
+      "query": "optellen kleuters",
+      "decks": 196,
+      "title": "Optellen voor kleuters – werkbladen (PDF)",
+      "h1": "Optellen voor kleuters",
+      "metaDescription": "Gratis werkbladen optellen voor kleuters: eerste plussommen en optellen met plaatjes tot 10, met vrolijke thema's. Als pdf met antwoordblad of om online op te lossen."
+    },
+    {
+      "key": "kindergarten__subtraction",
+      "type": "subtraction",
+      "level": "kindergarten",
+      "query": "aftrekken kleuters",
+      "decks": 196,
+      "title": "Aftrekken voor kleuters – werkbladen (PDF)",
+      "h1": "Aftrekken voor kleuters",
+      "metaDescription": "Gratis werkbladen aftrekken voor kleuters: streep plaatjes door en trek af tot 10. Elke set met een pdf, een antwoordblad en een online-versie om te oefenen."
+    },
+    {
+      "key": "kindergarten__letter-knowledge",
+      "type": "letter-knowledge",
+      "level": "kindergarten",
+      "query": "letterkennis kleuters",
+      "decks": 20,
+      "title": "Letterkennis kleuters – werkbladen (PDF)",
+      "h1": "Letterkennis voor kleuters",
+      "metaDescription": "Gratis werkbladen letterkennis voor kleuters: zoek en markeer de gevraagde letter en koppel hoofdletter aan kleine letter. Letters herkennen, als pdf of online."
+    },
+    {
+      "key": "kindergarten__visual-discrimination",
+      "type": "visual-discrimination",
+      "level": "kindergarten",
+      "query": "visuele waarneming kleuters",
+      "decks": 15,
+      "title": "Visuele waarneming kleuters – werkbladen (PDF)",
+      "h1": "Visuele waarneming voor kleuters",
+      "metaDescription": "Gratis werkbladen visuele waarneming voor kleuters: vind hetzelfde plaatje, zoek het afwijkende en train nauwkeurig kijken. Als pdf of om online te oefenen."
+    },
+    {
+      "key": "grade-1__word-scramble",
+      "type": "word-scramble",
+      "level": "grade-1",
+      "query": "woordpuzzel groep 3",
+      "decks": 96,
+      "title": "Woordpuzzels groep 3 – gratis printen (PDF)",
+      "h1": "Woordpuzzels groep 3",
+      "metaDescription": "Gratis woordpuzzels voor groep 3: haal de gehusselde letters uit de knoop en gebruik het plaatje als hint om elk woord te spellen. Als pdf met antwoorden of online."
+    },
+    {
+      "key": "crossword__grade-2",
+      "type": "crossword",
+      "level": "grade-2",
+      "query": "kruiswoordraadsel groep 4",
+      "decks": 47,
+      "title": "Kruiswoordraadsels groep 4 – gratis (PDF)",
+      "h1": "Kruiswoordraadsels groep 4",
+      "metaDescription": "Gratis beeldkruiswoordraadsels voor groep 4: benoem het plaatje en vul het woord in het rooster in. Voor beginnende lezers, als pdf met antwoorden of online."
+    },
+    {
+      "key": "grade-1__graphing-data",
+      "type": "graphing-data",
+      "level": "grade-1",
+      "query": "grafieken lezen groep 3",
+      "decks": 12,
+      "title": "Grafieken lezen groep 3 – werkbladen (PDF)",
+      "h1": "Grafieken lezen groep 3",
+      "metaDescription": "Gratis werkbladen grafieken lezen voor groep 3: lees eenvoudige staaf- en beeldgrafieken en beantwoord vragen over wat ze laten zien. Als pdf of om online te oefenen."
+    },
+    {
+      "key": "arrays-multiplication__grade-3",
+      "type": "arrays-multiplication",
+      "level": "grade-3",
+      "query": "keersommen groep 5",
+      "decks": 13,
+      "title": "Keersommen groep 5 – werkbladen printen (PDF)",
+      "h1": "Keersommen groep 5",
+      "metaDescription": "Gratis werkbladen keersommen voor groep 5: bouw de tafels verder uit met rijen en kolommen plaatjes en herhaald optellen. Als pdf met antwoorden of om online te oefenen."
+    },
+    {
+      "key": "fractions__grade-3",
+      "type": "fractions",
+      "level": "grade-3",
+      "query": "breuken groep 5",
+      "decks": 34,
+      "title": "Breuken groep 5 – werkbladen printen (PDF)",
+      "h1": "Breuken groep 5",
+      "metaDescription": "Gratis werkbladen breuken voor groep 5: helften, kwarten en derden met gekleurde vormen en modellen. Eerste breukenwerk, als pdf met antwoorden of om online te oefenen."
+    },
+    {
+      "key": "grade-1__treasure-hunt",
+      "type": "treasure-hunt",
+      "level": "grade-1",
+      "query": "schatzoektocht groep 3",
+      "decks": 99,
+      "title": "Schatzoektocht groep 3 – puzzels printen (PDF)",
+      "h1": "Schatzoektocht-puzzels groep 3",
+      "metaDescription": "Gratis schatzoektocht-werkbladen voor groep 3: volg de plaatjes-aanwijzingen over de kaart tot de schat. Route- en oriëntatie-puzzels, als pdf of om online te spelen."
+    },
+    {
+      "key": "kindergarten__matching",
+      "type": "matching",
+      "level": "kindergarten",
+      "query": "koppelen kleuters",
+      "decks": 93,
+      "title": "Koppelen voor kleuters – werkbladen (PDF)",
+      "h1": "Koppelen voor kleuters",
+      "metaDescription": "Gratis koppel-werkbladen voor kleuters: trek een lijn om elk plaatje aan zijn partner te verbinden — voorwerpen, letters en meer. Als pdf of om online te koppelen."
+    },
+    {
+      "key": "find-objects__kindergarten",
+      "type": "find-objects",
+      "level": "kindergarten",
+      "query": "objecten zoeken kleuters",
+      "decks": 98,
+      "title": "Zoekplaten voor kleuters – werkbladen (PDF)",
+      "h1": "Zoekplaten voor kleuters",
+      "metaDescription": "Gratis zoekplaten voor kleuters: speur door de drukke plaat en vind elk voorwerp op de lijst. Nauwkeurig kijken oefenen, als pdf of om online te spelen."
+    },
+    {
+      "key": "kindergarten__missing-pieces",
+      "type": "missing-pieces",
+      "level": "kindergarten",
+      "query": "ontbrekende stukken kleuters",
+      "decks": 96,
+      "title": "Wat ontbreekt er? Kleuters (PDF)",
+      "h1": "Wat ontbreekt er? Voor kleuters",
+      "metaDescription": "Gratis werkbladen wat-ontbreekt-er voor kleuters: bedenk welk stukje het plaatje compleet maakt en zet het op zijn plek. Visuele waarneming, als pdf of online."
+    },
+    {
+      "key": "kindergarten__sudoku",
+      "type": "sudoku",
+      "level": "kindergarten",
+      "query": "foto sudoku kleuters",
+      "decks": 97,
+      "title": "Foto-sudoku voor kleuters – printen (PDF)",
+      "h1": "Foto-sudoku voor kleuters",
+      "metaDescription": "Gratis foto-sudoku voor kleuters: vul het 4x4-rooster zo dat elke rij, kolom en vak elk plaatje één keer laat zien. Sudoku zonder getallen, als pdf of online."
+    },
+    {
+      "key": "big-small__preschool",
+      "type": "big-small",
+      "level": "preschool",
+      "query": "groot of klein kleuters",
+      "decks": 92,
+      "title": "Groot of klein – werkbladen peuters (PDF)",
+      "h1": "Groot of klein voor peuters",
+      "metaDescription": "Gratis werkbladen groot of klein voor peuters en kleuters: bekijk elk paar plaatjes en kies het grootste of kleinste. Grootte vergelijken, als pdf of online."
+    },
+    {
+      "key": "more-less__preschool",
+      "type": "more-less",
+      "level": "preschool",
+      "query": "meer of minder kleuters",
+      "decks": 148,
+      "title": "Meer of minder – werkbladen peuters (PDF)",
+      "h1": "Meer of minder voor peuters",
+      "metaDescription": "Gratis werkbladen meer of minder voor peuters en kleuters: vergelijk twee groepen plaatjes en kies waar er meer of minder zijn. Spelend tellen, als pdf of online."
+    }
+  ]
+}

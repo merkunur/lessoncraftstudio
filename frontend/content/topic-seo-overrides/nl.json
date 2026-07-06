@@ -1,0 +1,441 @@
+{
+  "$comment": "Demand-keyed SEO overrides authored from docs/SEO/demand-map-nl.md (+ demand-terms-nl.json). Validated by scripts/seo/validate-topic-overrides.js.",
+  "singleAxis": {
+    "addition": {
+      "title": "Optellen – gratis werkbladen printen (PDF)",
+      "h1": "Optellen",
+      "metaDescription": "Gratis werkbladen optellen met plaatjes: eerste plussommen en sommen tot 10 en 20 voor jonge kinderen. Print de pdf met antwoordblad of maak elke som online."
+    },
+    "subtraction": {
+      "title": "Aftrekken – gratis werkbladen printen (PDF)",
+      "h1": "Aftrekken",
+      "metaDescription": "Gratis werkbladen aftrekken met plaatjes: minsommen tot 10 en 20 waarbij kinderen figuurtjes doorstrepen en het antwoord opschrijven. Pdf met antwoorden of online."
+    },
+    "code-addition": {
+      "title": "Code-optellen – reken met symbolen (PDF)",
+      "h1": "Code-optellen",
+      "metaDescription": "Gratis werkbladen code-optellen: elk plaatje staat voor een getal — ontcijfer de symbolen en tel ze op. Knappe kraak-de-code-sommen als pdf of om online te spelen."
+    },
+    "more-less": {
+      "title": "Meer of minder – werkbladen printen (PDF)",
+      "h1": "Meer of minder",
+      "metaDescription": "Gratis werkbladen meer of minder: vergelijk twee groepen plaatjes en kies waar er meer of minder zijn. Spelenderwijs leren tellen voor peuters, als pdf of online."
+    },
+    "math-puzzle": {
+      "title": "Rekenpuzzels voor kinderen – gratis printen",
+      "h1": "Rekenpuzzels",
+      "metaDescription": "Gratis rekenpuzzels voor kinderen: kruiswoord-achtige getallenroosters waarin elke rij en kolom moet kloppen. Print de pdf met antwoordblad of puzzel online."
+    },
+    "math-worksheet": {
+      "title": "Rekenwerkbladen – optellen en aftrekken (PDF)",
+      "h1": "Rekenwerkbladen",
+      "metaDescription": "Gratis rekenwerkbladen met gemengde plus- en minsommen tot 10 en 20 om dagelijks te oefenen. Elk blad heeft een pdf, een antwoordblad en een online-versie."
+    },
+    "big-small": {
+      "title": "Groot of klein – werkbladen voor peuters (PDF)",
+      "h1": "Groot of klein",
+      "metaDescription": "Gratis werkbladen groot of klein: bekijk elk paar plaatjes en kies het grootste of kleinste. Grootte vergelijken voor peuters en kleuters, als pdf of online."
+    },
+    "chart-count": {
+      "title": "Tellen en in de grafiek zetten (PDF)",
+      "h1": "Tellen en grafiek",
+      "metaDescription": "Gratis werkbladen tellen-en-grafiek: tel elk soort plaatje en kleur de staaf die erbij hoort. Eerste kennismaking met grafieken en data, als pdf of online."
+    },
+    "pattern-train": {
+      "title": "Patroontrein – patronen voortzetten (PDF)",
+      "h1": "Patroontrein",
+      "metaDescription": "Gratis werkbladen patroontrein: bekijk de wagons van de trein en kies welk plaatje als volgende komt. AB- en ABC-patronen voor kleuters, als pdf of online."
+    },
+    "pattern-worksheet": {
+      "title": "Patroonwerkbladen – reeksen voortzetten (PDF)",
+      "h1": "Patroonwerkbladen",
+      "metaDescription": "Gratis patroonwerkbladen: bestudeer de rij vormen of kleuren en teken wat er volgt. AB-, ABB- en ABC-patronen voor groep 3, met pdf, antwoorden en online-modus."
+    },
+    "bingo": {
+      "title": "Beeldbingo voor kleuters – gratis printen (PDF)",
+      "h1": "Beeldbingo",
+      "metaDescription": "Gratis bingokaarten met plaatjes voor kleuters: roep een plaatje, zoek het op je kaart, dek het af — lezen niet nodig. Klaar-voor-de-klas kaarten als pdf of online."
+    },
+    "grid-match": {
+      "title": "Rooster koppelen – beeldrasterpuzzels (PDF)",
+      "h1": "Rooster koppelen",
+      "metaDescription": "Gratis rasterpuzzels voor kleuters: sleep elk plaatje naar het juiste vak in het rooster tot het bord vol is. Ruimtelijk inzicht oefenen, als pdf of online."
+    },
+    "matching": {
+      "title": "Koppelen – werkbladen om te verbinden (PDF)",
+      "h1": "Koppelen",
+      "metaDescription": "Gratis koppel-werkbladen: trek een lijn of tik om elk plaatje aan zijn partner te verbinden — voorwerpen, letters en meer. Download de pdf of koppel online."
+    },
+    "picture-sort": {
+      "title": "Beelden sorteren – wat hoort bij elkaar? (PDF)",
+      "h1": "Beelden sorteren",
+      "metaDescription": "Gratis sorteer-werkbladen voor kleuters: sleep of knip-en-plak elk plaatje in de groep waar het bij hoort. Categoriseren voor jonge kinderen, als pdf of online."
+    },
+    "shadow-match": {
+      "title": "Schaduw koppelen – werkbladen kleuters (PDF)",
+      "h1": "Schaduw koppelen",
+      "metaDescription": "Gratis schaduw-werkbladen: verbind elk plaatje met de juiste schaduw. Klassieke visuele-waarnemingsoefening voor peuters en kleuters, als pdf of online."
+    },
+    "alphabet-train": {
+      "title": "Alfabettrein – letters op volgorde (PDF)",
+      "h1": "Alfabettrein",
+      "metaDescription": "Gratis werkbladen alfabettrein: zet de letterwagons in de goede ABC-volgorde en bouw de trein. Speelse alfabet-oefening voor peuters, als pdf of online."
+    },
+    "prepositions": {
+      "title": "Voorzetsels – werkbladen met plaatjes (PDF)",
+      "h1": "Voorzetsels",
+      "metaDescription": "Gratis werkbladen voorzetsels: waar ligt de bal — op, onder, naast of achter? Kies het plaatje dat bij de zin past. Ideaal voor kleuters en NT2, als pdf of online."
+    },
+    "word-guess": {
+      "title": "Woord raden – letterpuzzels voor kinderen",
+      "h1": "Woord raden",
+      "metaDescription": "Gratis werkbladen woord raden: bekijk het plaatje en vul de ontbrekende letters in om het woord te spellen. Eerste spellingoefening als pdf of om online te spelen."
+    },
+    "word-scramble": {
+      "title": "Woordpuzzels – gratis printen voor kinderen",
+      "h1": "Woordpuzzels",
+      "metaDescription": "Gratis woordpuzzels: haal de door elkaar gehusselde letters uit de knoop en gebruik het plaatje als hint om elk woord te spellen. Spelling oefenen, pdf of online."
+    },
+    "wordsearch": {
+      "title": "Woordzoekers voor kinderen – gratis printen (PDF)",
+      "h1": "Woordzoekers voor kinderen",
+      "metaDescription": "Gratis woordzoekers voor kinderen met plaatjes-hints: vind en omcirkel elk verborgen woord in het letterraster. Makkelijke woordpuzzels als pdf of online."
+    },
+    "crossword": {
+      "title": "Kruiswoordraadsels voor kinderen – gratis (PDF)",
+      "h1": "Beeldkruiswoordraadsels",
+      "metaDescription": "Gratis kruiswoordraadsels voor kinderen met plaatjes in plaats van vragen, zodat beginnende lezers elk rooster oplossen. Print de pdf met antwoorden of speel online."
+    },
+    "find-and-count": {
+      "title": "Zoek en tel – werkbladen voor peuters (PDF)",
+      "h1": "Zoek en tel",
+      "metaDescription": "Gratis werkbladen zoek en tel: speur door het wemelbeeld, tel elk soort voorwerp en schrijf op hoeveel. Zoek-en-tel-oefening voor peuters en kleuters, pdf of online."
+    },
+    "find-objects": {
+      "title": "Objecten zoeken – zoekplaten voor kinderen (PDF)",
+      "h1": "Objecten zoeken",
+      "metaDescription": "Gratis zoekplaten voor kinderen: speur door de drukke plaat en vind elk voorwerp op de lijst. Aandacht en nauwkeurig kijken oefenen, als pdf of om online te spelen."
+    },
+    "treasure-hunt": {
+      "title": "Schatzoektocht-puzzels – gratis printen (PDF)",
+      "h1": "Schatzoektocht-puzzels",
+      "metaDescription": "Gratis schatzoektocht-werkbladen: volg de plaatjes-aanwijzingen over de kaart tot je bij de schat komt. Route-puzzels voor groep 3, als pdf of om online te spelen."
+    },
+    "missing-pieces": {
+      "title": "Ontbrekende stukken – zoekpuzzels (PDF)",
+      "h1": "Wat ontbreekt er?",
+      "metaDescription": "Gratis werkbladen ontbrekende stukken: bedenk welk stukje het plaatje compleet maakt en zet het op zijn plek. Wat-mist-puzzels voor kleuters, als pdf of online."
+    },
+    "odd-one-out": {
+      "title": "Wat hoort er niet bij? – werkbladen (PDF)",
+      "h1": "Wat hoort er niet bij?",
+      "metaDescription": "Gratis werkbladen wat-hoort-er-niet-bij: bekijk elke rij plaatjes en zet een kruis bij het plaatje dat er niet bij hoort. Logisch denken voor kleuters, pdf of online."
+    },
+    "counting-pictures": {
+      "title": "Tellen met plaatjes – werkbladen (PDF)",
+      "h1": "Tellen met plaatjes",
+      "metaDescription": "Gratis werkbladen tellen met plaatjes: tel de voorwerpen in elke groep en schrijf het getal, van 1-10 tot 20. Eerste getal-oefening voor kleuters, pdf of online."
+    },
+    "counting-frames": {
+      "title": "Tienraam – werkbladen om te printen (PDF)",
+      "h1": "Tienraam",
+      "metaDescription": "Gratis werkbladen tienraam: tel de stippen in het tienraam, schrijf het getal en bouw getallen tot 20. Getalbegrip voor het begin van groep 3, als pdf of online."
+    },
+    "tally-counting": {
+      "title": "Turven – werkbladen om te printen (PDF)",
+      "h1": "Turven",
+      "metaDescription": "Gratis werkbladen turven: tel elke set turfstreepjes en koppel ze aan het getal dat ze aangeven. Turfstaatjes lezen in groep 3, als pdf of om online te oefenen."
+    },
+    "number-charts": {
+      "title": "Honderdveld – werkbladen printen (PDF)",
+      "h1": "Honderdveld",
+      "metaDescription": "Gratis werkbladen honderdveld: zoek getallen, vul ontbrekende getallen aan en ontdek patronen in het getallenrijk tot 100. Voor groep 3 en 4, als pdf of online."
+    },
+    "comparing-numbers": {
+      "title": "Getallen vergelijken – groter, kleiner, gelijk",
+      "h1": "Getallen vergelijken",
+      "metaDescription": "Gratis werkbladen getallen vergelijken: bepaal welk getal groter of kleiner is en zet het juiste teken (< > =). Vergelijken voor groep 3, als pdf of online."
+    },
+    "comparing-groups": {
+      "title": "Groepen vergelijken – werkbladen (PDF)",
+      "h1": "Groepen vergelijken",
+      "metaDescription": "Gratis werkbladen groepen vergelijken: tel twee groepen plaatjes en kies de groep met meer of minder. Hoeveelheden vergelijken voor kleuters, als pdf of online."
+    },
+    "comparing-sizes": {
+      "title": "Groottes vergelijken – werkbladen (PDF)",
+      "h1": "Groottes vergelijken",
+      "metaDescription": "Gratis werkbladen groottes vergelijken: orden plaatjes van klein naar groot en zoek de langste, hoogste of kortste. Meten-vooraf voor kleuters, als pdf of online."
+    },
+    "number-lines": {
+      "title": "Getallenlijn – werkbladen printen (PDF)",
+      "h1": "Getallenlijn",
+      "metaDescription": "Gratis werkbladen getallenlijn: spring over de lijn om op te tellen, af te trekken en ontbrekende getallen te vinden. Getallenlijn tot 20 en 100, als pdf of online."
+    },
+    "base-ten": {
+      "title": "Getalbegrip – tientallen en eenheden (PDF)",
+      "h1": "Getalbegrip",
+      "metaDescription": "Gratis werkbladen getalbegrip: splits getallen in tientallen en eenheden met blokjes-materiaal. Basis voor rekenen tot 100 in groep 3 en 4, als pdf of online."
+    },
+    "telling-time": {
+      "title": "Klokkijken – werkbladen printen (PDF)",
+      "h1": "Klokkijken",
+      "metaDescription": "Gratis werkbladen klokkijken: lees elke analoge klok en schrijf de tijd — hele uren, halve uren en later de minuten. Van groep 3 tot 5, als pdf of om online te oefenen."
+    },
+    "fractions": {
+      "title": "Breuken ontdekken – werkbladen (PDF)",
+      "h1": "Eerste breuken",
+      "metaDescription": "Gratis werkbladen breuken: helften, kwarten en derden met gekleurde vormen en plaatjes-modellen. Eerste kennismaking met breuken, als pdf of om online te oefenen."
+    },
+    "graphing-data": {
+      "title": "Grafieken lezen – werkbladen (PDF)",
+      "h1": "Grafieken en data",
+      "metaDescription": "Gratis werkbladen grafieken lezen: lees eenvoudige staaf- en beeldgrafieken en beantwoord vragen over wat ze laten zien. Data voor groep 3 en 4, als pdf of online."
+    },
+    "arrays-multiplication": {
+      "title": "Keersommen – eerste maal-werkbladen (PDF)",
+      "h1": "Keersommen",
+      "metaDescription": "Gratis werkbladen keersommen: tel rijen en kolommen plaatjes om herhaald optellen en de eerste tafels te bouwen. Rooster-model voor groep 4, als pdf of online."
+    },
+    "geometry": {
+      "title": "Meetkunde – werkbladen voor de basisschool",
+      "h1": "Meetkunde",
+      "metaDescription": "Gratis werkbladen meetkunde: herken vormen, tel zijden en hoeken en sorteer figuren op hun kenmerken. Voor kleuters tot groep 5, als pdf of om online te oefenen."
+    },
+    "measurement": {
+      "title": "Meten – werkbladen voor de basisschool (PDF)",
+      "h1": "Meten",
+      "metaDescription": "Gratis werkbladen meten: meet plaatjes met een liniaal en blokjes en vergelijk lengte en hoogte. Meten met inzicht voor groep 3 en 4, als pdf of om online te oefenen."
+    },
+    "visual-logic": {
+      "title": "Visuele logica – logische puzzels voor kinderen",
+      "h1": "Visuele logica",
+      "metaDescription": "Gratis logische puzzels voor kinderen: ontdek de regel in elke beeldpuzzel en vind het antwoord. Denktraining voor kleuters tot groep 5, als pdf of online."
+    },
+    "visual-discrimination": {
+      "title": "Visuele waarneming – werkbladen kleuters (PDF)",
+      "h1": "Visuele waarneming",
+      "metaDescription": "Gratis werkbladen visuele waarneming: vind hetzelfde plaatje, zoek het afwijkende en train nauwkeurig kijken. Voor kleuters en peuters, als pdf of om online te oefenen."
+    },
+    "visual-matching": {
+      "title": "Visueel koppelen – werkbladen voor kinderen",
+      "h1": "Visueel koppelen",
+      "metaDescription": "Gratis werkbladen visueel koppelen: scan de rij en vind het plaatje dat precies gelijk is aan het voorbeeld. Zelfde-plaatje-koppelen voor kleuters, pdf of online."
+    },
+    "patterns": {
+      "title": "Patronen voortzetten – werkbladen (PDF)",
+      "h1": "Patronen voortzetten",
+      "metaDescription": "Gratis werkbladen patronen voortzetten: bekijk de herhalende rij plaatjes of vormen en kies wat er volgt. Patroon-oefening voor kleuters en groep 3, als pdf of online."
+    },
+    "position-words": {
+      "title": "Positiewoorden – boven, onder, naast (PDF)",
+      "h1": "Positiewoorden",
+      "metaDescription": "Gratis werkbladen positiewoorden: waar ligt de bal — boven, onder of naast de mand? Koppel elke zin aan het juiste plaatje. Ruimtelijke taal voor kleuters, pdf of online."
+    },
+    "sorting-categories": {
+      "title": "Sorteren en ordenen – oefenbladen (PDF)",
+      "h1": "Sorteren en ordenen",
+      "metaDescription": "Gratis oefenbladen sorteren en ordenen: bepaal in welke groep elk plaatje hoort en sorteer de hele set. Categoriseren voor peuters en kleuters, als pdf of online."
+    },
+    "picture-arithmetic": {
+      "title": "Plaatjes rekenen – plus en min (PDF)",
+      "h1": "Plaatjes rekenen",
+      "metaDescription": "Gratis werkbladen plaatjes rekenen: eerst plaatjes tellen, dan optellen en aftrekken met plaatjes in plaats van getallen. Voor groep 3, als pdf of online."
+    },
+    "science-sort": {
+      "title": "Natuur sorteren – sorteer- en zoekbladen (PDF)",
+      "h1": "Natuur sorteren",
+      "metaDescription": "Gratis werkbladen natuur sorteren: leefgebieden, seizoenen en natuur — sorteer de plaatjes in de juiste groep. Wereldoriëntatie voor kleuters en groep 3, pdf of online."
+    },
+    "science-match": {
+      "title": "Natuur verbinden – koppel-werkbladen (PDF)",
+      "h1": "Natuur verbinden",
+      "metaDescription": "Gratis koppel-werkbladen natuur: verbind dieren met hun leefgebied, jong of voedsel. Eenvoudige natuurverbanden voor nieuwsgierige kinderen, als pdf of online."
+    },
+    "science-sequence": {
+      "title": "Volgorde en levenscyclus – werkbladen (PDF)",
+      "h1": "Levenscyclus",
+      "metaDescription": "Gratis werkbladen levenscyclus: van ei naar rups naar vlinder — leg de stappen van de natuur in de juiste volgorde. Natuurkennis ordenen voor groep 3, als pdf of online."
+    },
+    "beginning-sounds": {
+      "title": "Beginklanken – werkbladen voor kleuters (PDF)",
+      "h1": "Beginklanken",
+      "metaDescription": "Gratis werkbladen beginklanken: met welke klank begint het woord? Koppel elk plaatje aan de juiste letter. Fonemisch bewustzijn oefenen voor kleuters, pdf of online."
+    },
+    "letter-knowledge": {
+      "title": "Letterkennis – werkbladen voor kleuters (PDF)",
+      "h1": "Letterkennis",
+      "metaDescription": "Gratis werkbladen letterkennis: zoek en markeer de gevraagde letter en koppel hoofdletter aan kleine letter. Letters herkennen voor kleuters en groep 3, pdf of online."
+    },
+    "word-building": {
+      "title": "Woorden bouwen – werkbladen (PDF)",
+      "h1": "Woorden bouwen",
+      "metaDescription": "Gratis werkbladen woorden bouwen: leg de letterkaartjes in de goede volgorde om het woord bij het plaatje te spellen. Klank-letter-koppeling voor groep 3, pdf of online."
+    },
+    "picture-vocabulary": {
+      "title": "Woordenschat met plaatjes – gratis (PDF)",
+      "h1": "Woordenschat met plaatjes",
+      "metaDescription": "Gratis werkbladen woordenschat met plaatjes: benoem alledaagse voorwerpen per thema, van de keuken tot het klaslokaal. Ideaal voor NT2 en kleuters, als pdf of online."
+    },
+    "phonological-awareness": {
+      "title": "Klanken en lettergrepen – werkbladen (PDF)",
+      "h1": "Klanken en lettergrepen",
+      "metaDescription": "Gratis werkbladen klanken en lettergrepen: klap de lettergrepen, tel ze en koppel woorden met dezelfde klanken. Fonologisch bewustzijn voor kleuters, pdf of online."
+    },
+    "preschool": {
+      "title": "Werkbladen peuters – gratis printen (PDF)",
+      "h1": "Werkbladen voor peuters",
+      "metaDescription": "Gratis werkbladen voor peuters van 3-5 jaar: tellen, groot en klein, koppelen, patronen en eerste letters. Elke set is een pdf die je ook online kunt spelen."
+    },
+    "kindergarten": {
+      "title": "Werkbladen kleuters – gratis printen (PDF)",
+      "h1": "Werkbladen voor kleuters",
+      "metaDescription": "Gratis werkbladen voor kleuters: tellen, letters, sorteren, puzzels en meer voor 5-7 jaar — duizenden bladen, elk met een pdf en een speel-online-versie."
+    },
+    "grade-1": {
+      "title": "Werkbladen groep 3 – gratis printen (PDF)",
+      "h1": "Werkbladen groep 3",
+      "metaDescription": "Gratis werkbladen voor groep 3: woordzoekers, rekenpuzzels, klokkijken, patronen en meten. Download de pdf met antwoordblad of speel elk werkblad online."
+    },
+    "grade-2": {
+      "title": "Werkbladen groep 4 – gratis printen (PDF)",
+      "h1": "Werkbladen groep 4",
+      "metaDescription": "Gratis werkbladen voor groep 4: kruiswoordraadsels, klokkijken, keersommen, meetkunde en rekenen tot 100. Elk blad heeft een pdf met antwoorden, ook online speelbaar."
+    },
+    "grade-3": {
+      "title": "Werkbladen groep 5 – gratis printen (PDF)",
+      "h1": "Werkbladen groep 5",
+      "metaDescription": "Gratis werkbladen voor groep 5: klokkijken op de minuut, eerste breuken, keersommen en meetkunde. Download de pdf met antwoordblad of oefen elk werkblad online."
+    },
+    "animals": {
+      "title": "Werkbladen dieren – gratis printen (PDF)",
+      "h1": "Dieren werkbladen",
+      "metaDescription": "Gratis werkbladen dieren: tellen, koppelen, sorteren en woordpuzzels, allemaal met dieren die kinderen leuk vinden. Elk blad is een pdf, ook online speelbaar."
+    },
+    "fruits": {
+      "title": "Werkbladen fruit – gratis printen (PDF)",
+      "h1": "Fruit werkbladen",
+      "metaDescription": "Gratis werkbladen fruit: tel appels, koppel paren, sorteer fruit en los fruitige plaatjes-puzzels op. Woordenschatrijke bladen als pdf of om online te spelen."
+    },
+    "vehicles": {
+      "title": "Werkbladen voertuigen – gratis printen (PDF)",
+      "h1": "Voertuigen werkbladen",
+      "metaDescription": "Gratis werkbladen voertuigen: auto's, vrachtwagens, vliegtuigen en boten in tel-, koppel- en sorteeropdrachten. Vervoer-thema als pdf of om online te spelen."
+    },
+    "toys": {
+      "title": "Werkbladen speelgoed – gratis printen (PDF)",
+      "h1": "Speelgoed werkbladen",
+      "metaDescription": "Gratis werkbladen speelgoed: tel, koppel en sorteer bekend speelgoed en leer meteen de namen. Speelkamer-thema als pdf of om online te spelen."
+    },
+    "shapes": {
+      "title": "Werkbladen vormen – kleuters & groep 3 (PDF)",
+      "h1": "Vormen werkbladen",
+      "metaDescription": "Gratis werkbladen vormen: herken cirkel, vierkant en driehoek in puzzels, patronen en sorteeropdrachten. Vormen herkennen voor kleuters, als pdf of online."
+    },
+    "flowers": {
+      "title": "Werkbladen bloemen – gratis printen (PDF)",
+      "h1": "Bloemen werkbladen",
+      "metaDescription": "Gratis werkbladen bloemen: tel bloemen, koppel paren en sorteer op soort of kleur. Voorjaars- en natuurthema voor kleuters, als pdf of om online te spelen."
+    },
+    "tree": {
+      "title": "Werkbladen bomen – gratis printen (PDF)",
+      "h1": "Bomen werkbladen",
+      "metaDescription": "Gratis werkbladen bomen: tel, koppel en sorteer bomen en bladeren en leer hun namen. Natuurthema voor kleuters en groep 3, als pdf of om online te spelen."
+    },
+    "vegetables": {
+      "title": "Werkbladen groenten – gratis printen (PDF)",
+      "h1": "Groenten werkbladen",
+      "metaDescription": "Gratis werkbladen groenten: wortels, paprika's en erwtjes om te tellen, koppelen, sorteren en benoemen. Groente-thema als pdf of om online te spelen."
+    },
+    "body_parts": {
+      "title": "Werkbladen lichaamsdelen – gratis printen (PDF)",
+      "h1": "Lichaamsdelen",
+      "metaDescription": "Gratis werkbladen lichaamsdelen: wijs aan, tel en benoem ogen, oren, handen en voeten. Mijn-lichaam-woordenschat voor kleuters, als pdf of om online te spelen."
+    },
+    "clothing": {
+      "title": "Werkbladen kleding – gratis printen (PDF)",
+      "h1": "Kleding werkbladen",
+      "metaDescription": "Gratis werkbladen kleding: sorteer, tel en koppel shirts, schoenen en mutsen en leer de namen. Kleding-woordenschat voor kleuters, als pdf of om online te spelen."
+    },
+    "colors": {
+      "title": "Werkbladen kleuren – gratis printen (PDF)",
+      "h1": "Kleuren werkbladen",
+      "metaDescription": "Gratis werkbladen kleuren: benoem, koppel en sorteer op kleur met vrolijke plaatjes. Kleuren leren voor peuters en kleuters, als pdf of om online te spelen."
+    },
+    "dinosaurs": {
+      "title": "Werkbladen dino's – gratis printen (PDF)",
+      "h1": "Dinosaurussen werkbladen",
+      "metaDescription": "Gratis werkbladen dino's: tel, koppel en sorteer dinosaurussen en los dino-plaatjespuzzels op. Favoriet thema van veel kinderen, als pdf of om online te spelen."
+    },
+    "emotions": {
+      "title": "Werkbladen emoties – gratis printen (PDF)",
+      "h1": "Emoties en gevoelens",
+      "metaDescription": "Gratis werkbladen emoties: benoem blije, boze, verdrietige en verbaasde gezichten en koppel gevoelens aan situaties. Sociaal-emotionele woordenschat, pdf of online."
+    },
+    "hospital": {
+      "title": "Werkbladen ziekenhuis – gratis printen (PDF)",
+      "h1": "In het ziekenhuis",
+      "metaDescription": "Gratis werkbladen ziekenhuis: dokters, verpleegkundigen en verband-spullen om te benoemen, tellen en koppelen. Zorg-woordenschat voor kleuters, als pdf of online."
+    },
+    "music": {
+      "title": "Werkbladen muziek – gratis printen (PDF)",
+      "h1": "Muziek werkbladen",
+      "metaDescription": "Gratis werkbladen muziek: trommels, gitaren en piano's om te tellen, koppelen en benoemen. Instrumenten-woordenschat voor kleuters, als pdf of om online te spelen."
+    },
+    "occupations": {
+      "title": "Werkbladen beroepen – gratis printen (PDF)",
+      "h1": "Beroepen werkbladen",
+      "metaDescription": "Gratis werkbladen beroepen: koppel beroepen aan hun gereedschap en werkplek. Beroepen-woordenschat voor kleuters en groep 3, als pdf of om online te spelen."
+    },
+    "pets": {
+      "title": "Werkbladen huisdieren – gratis printen (PDF)",
+      "h1": "Huisdieren werkbladen",
+      "metaDescription": "Gratis werkbladen huisdieren: honden, katten en goudvissen in tel-, koppel- en sorteeropdrachten. Huisdier-thema als pdf of om online te spelen."
+    },
+    "space": {
+      "title": "Werkbladen ruimte – gratis printen (PDF)",
+      "h1": "Ruimte werkbladen",
+      "metaDescription": "Gratis werkbladen ruimte: raketten, planeten en sterren in tel-, koppel- en puzzelopdrachten. Ruimtevaart-thema als pdf of om online te spelen."
+    },
+    "weather": {
+      "title": "Werkbladen weer – gratis printen (PDF)",
+      "h1": "Weer werkbladen",
+      "metaDescription": "Gratis werkbladen weer: zon, regen, wolken en sneeuw in koppel-, sorteer- en woordenschatopdrachten. Weer-thema als pdf of om online te spelen."
+    },
+    "insects_and_bugs": {
+      "title": "Werkbladen insecten – gratis printen (PDF)",
+      "h1": "Insecten en beestjes",
+      "metaDescription": "Gratis werkbladen insecten: bijen, kevers en vlinders om te tellen, koppelen en sorteren. Beestjes-thema voor kleuters, als pdf of om online te spelen."
+    },
+    "ocean_life": {
+      "title": "Werkbladen zeedieren – gratis printen (PDF)",
+      "h1": "Zeedieren",
+      "metaDescription": "Gratis werkbladen zeedieren: vissen, walvissen en krabben in tel-, koppel- en woordpuzzels. Onder-water-thema voor kleuters, als pdf of om online te spelen."
+    },
+    "farm_animals": {
+      "title": "Werkbladen boerderijdieren – gratis printen (PDF)",
+      "h1": "Boerderijdieren",
+      "metaDescription": "Gratis werkbladen boerderijdieren: koeien, varkens en kippen in tel-, koppel-, sorteer- en woordpuzzels. Boerderij-thema als pdf of om online te spelen."
+    },
+    "zoo_animals": {
+      "title": "Werkbladen dierentuin – gratis printen (PDF)",
+      "h1": "Dierentuindieren",
+      "metaDescription": "Gratis werkbladen dierentuin: leeuwen, olifanten en giraffen in tel-, koppel- en woordpuzzels. Dierentuin-thema voor kleuters, als pdf of om online te spelen."
+    },
+    "forest_creatures": {
+      "title": "Werkbladen bosdieren – gratis printen (PDF)",
+      "h1": "Bosdieren",
+      "metaDescription": "Gratis werkbladen bosdieren: vossen, uilen en herten in tel-, koppel- en sorteeropdrachten. Bos-thema voor peuters en kleuters, als pdf of om online te spelen."
+    },
+    "birds": {
+      "title": "Werkbladen vogels – gratis printen (PDF)",
+      "h1": "Vogels werkbladen",
+      "metaDescription": "Gratis werkbladen vogels: tel, koppel en sorteer vogels en leer hun namen. Vogel-thema voor kleuters en groep 3, als pdf of om online te spelen."
+    },
+    "bakery": {
+      "title": "Werkbladen bakkerij – gratis printen (PDF)",
+      "h1": "In de bakkerij",
+      "metaDescription": "Gratis werkbladen bakkerij: brood, taart en gebak in tel-, koppel- en sorteeropdrachten. Bakkerij-thema voor kleuters, als pdf of om online te spelen."
+    }
+  },
+  "intersection": {}
+}

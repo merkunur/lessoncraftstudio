@@ -36,6 +36,7 @@ if [ ! -f "$CONF" ]; then
   exit 1
 fi
 
+HEALED=0
 req() { # req <grep-pattern> <description> [heal-script-path]
   local pattern="$1" desc="$2" heal="${3:-}"
   if grep -qE "$pattern" "$CONF"; then
@@ -47,6 +48,7 @@ req() { # req <grep-pattern> <description> [heal-script-path]
     python3 "$heal" 2>&1 | sed 's/^/        /'
     if grep -qE "$pattern" "$CONF"; then
       echo "   ok  $desc (healed)"
+      HEALED=1
       return
     fi
   fi
@@ -69,19 +71,28 @@ if grep -qE 'location /_next/image' "$CONF"; then
   fi
 fi
 
-# Behavioral probe: 80 concurrent optimizer requests from one IP. With the
-# carve-out (burst=300) → zero 429. Without it (lcsperip burst=40 + 8r/s
-# drain ≈ 48 absorbed within the probe window) → 30+ guaranteed 429s. 48 was
-# empirically too gentle to discriminate — do not lower this below ~60.
-# Identical URL = optimizer cache hit (31d TTL), so the probe is cheap.
+# Behavioral probe: 120 optimizer requests fired as a TRUE burst from ONE curl
+# process (--parallel over HTTP/2 lands them within tens of ms — xargs-spawned
+# curls were empirically too slow: process spawn + TLS spread 80 requests over
+# seconds and the 8r/s drain absorbed them, hiding a broken config). With the
+# carve-out (lcsasset burst=300) → zero 429. Without it (lcsperip burst=40) →
+# ~80 guaranteed 429s. Identical URL = optimizer cache hit (31d TTL) → cheap.
+# After a heal, wait for nginx's new workers — a probe against the old workers
+# measures the OLD config (empirically produced a false 39/80).
+[ "$HEALED" = 1 ] && sleep 3
 PROBE_URL='/_next/image?url=https%3A%2F%2Fwww.lessoncraftstudio.com%2Fen%2Fdecks%2Faddition-find-addend-animals%2Fthumbnail.png&w=384&q=75'
-RATE_LIMITED=$(seq 80 | xargs -P 80 -I{} curl -sk -o /dev/null -m 10 -w '%{http_code}\n' \
-  -H 'Host: www.lessoncraftstudio.com' "https://127.0.0.1${PROBE_URL}" 2>/dev/null | grep -c '^429$')
+PROBE_CFG=$(mktemp)
+for _ in $(seq 120); do
+  printf 'url = "https://127.0.0.1%s"\noutput = "/dev/null"\n' "$PROBE_URL"
+done > "$PROBE_CFG"
+RATE_LIMITED=$(curl -sk --parallel --parallel-max 120 -m 30 -w '%{http_code}\n' \
+  -H 'Host: www.lessoncraftstudio.com' -K "$PROBE_CFG" 2>/dev/null | grep -c '^429$')
+rm -f "$PROBE_CFG"
 if [ "${RATE_LIMITED:-0}" -gt 0 ]; then
-  echo "!!! NGINX CONTRACT: ${RATE_LIMITED}/80 concurrent /_next/image requests got 429 — carve-out not effective !!!"
+  echo "!!! NGINX CONTRACT: ${RATE_LIMITED}/120 burst /_next/image requests got 429 — carve-out not effective !!!"
   FAIL=1
 else
-  echo "   ok  behavioral: 80-concurrent /_next/image burst, zero 429"
+  echo "   ok  behavioral: 120-request /_next/image burst, zero 429"
 fi
 
 exit $FAIL

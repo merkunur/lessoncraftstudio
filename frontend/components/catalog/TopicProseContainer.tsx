@@ -1,5 +1,6 @@
 import { getTranslations, getMessages } from 'next-intl/server';
 import { Axis } from '@/lib/taxonomy';
+import { getSingleAxisOverride, getIntersectionOverride } from '@/lib/seo/topic-overrides';
 
 // Arc 6a/6d — Descriptive prose container with Q3 fallback chain.
 //
@@ -99,7 +100,15 @@ export default async function TopicProseContainer({
   const t = await getTranslations({ locale, namespace: 'topicPage' });
   const messages = (await getMessages({ locale })) as Record<string, unknown> | null;
 
-  let prose: string | null = lookupTopicProse(messages, axisKey1, axisKey2);
+  // Demand-keyed override (topic-seo-overrides content JSON, server-only fs —
+  // NOT messages, which would bloat every page's RSC flight payload) wins over
+  // the topicProse namespace; falls through the existing Q3 chain otherwise.
+  const override = axisKey1 && axisKey2
+    ? getIntersectionOverride(locale, axisKey1, axisKey2)
+    : axisKey1 ? getSingleAxisOverride(locale, axisKey1) : null;
+  let prose: string | null =
+    (override?.prose && override.prose.trim() ? override.prose : null)
+    ?? lookupTopicProse(messages, axisKey1, axisKey2);
 
   if (!prose) {
     const n = count ?? 0;

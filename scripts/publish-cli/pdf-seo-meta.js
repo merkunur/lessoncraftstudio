@@ -12,8 +12,8 @@
  * localized metadata instead, distinct from the landing title.
  *
  * Keyword patterns are grounded in real per-locale SERP research (printable +
- * free + native worksheet word + level term + "pdf"). sv/da/no/fi strings are
- * framework-credible but [NSR] (native-speaker-review pending per §17.5.1).
+ * free + native worksheet word + level term + "pdf"). sv/da/no/fi strings
+ * native-speaker-reviewed 2026-07-06 (NSR flag resolved per §17.5.1).
  *
  * Anti-cannibalization:
  *   - PDF /Title leads with the download facet ("Printable {Type} Worksheet PDF
@@ -191,7 +191,7 @@ var PATTERNS = {
       ];
     }
   },
-  sv: { // [NSR]
+  sv: { // native-reviewed 2026-07-06
     title: function (p) { return 'Arbetsblad ' + p.type.toLowerCase() + ' att skriva ut (PDF)' + tail(p.theme, p.level) + setSuffix(p.setN, 'Set'); },
     subject: function (p) {
       var th = p.theme ? ' med ' + p.theme.toLowerCase() : '';
@@ -202,13 +202,13 @@ var PATTERNS = {
       return [
         'arbetsblad ' + p.type.toLowerCase() + ' gratis',
         p.type.toLowerCase() + ' ' + p.level.toLowerCase() + ' pdf',
-        p.theme ? p.theme.toLowerCase() + ' ' + p.type.toLowerCase() + ' arbetsblad' : null,
-        p.type.toLowerCase() + ' att skriva ut',
+        p.theme ? 'arbetsblad ' + p.type.toLowerCase() + ' med ' + p.theme.toLowerCase() : null,
+        'arbetsblad ' + p.type.toLowerCase() + ' att skriva ut gratis',
         'arbetsblad ' + p.type.toLowerCase() + ' pdf'
       ];
     }
   },
-  da: { // [NSR]
+  da: { // native-reviewed 2026-07-06
     title: function (p) { return p.type + '-opgaver til print (PDF)' + tail(p.theme, p.level) + setSuffix(p.setN, 'Sæt'); },
     subject: function (p) {
       var th = p.theme ? ' med ' + p.theme.toLowerCase() : '';
@@ -217,15 +217,15 @@ var PATTERNS = {
     },
     keywords: function (p) {
       return [
-        p.type.toLowerCase() + ' opgaver gratis',
+        p.type.toLowerCase() + '-opgaver gratis',
         p.type.toLowerCase() + ' ' + p.level.toLowerCase() + ' pdf',
-        p.theme ? p.theme.toLowerCase() + ' ' + p.type.toLowerCase() + ' opgaver' : null,
-        p.type.toLowerCase() + ' til print',
-        p.type.toLowerCase() + ' opgaver pdf'
+        p.theme ? p.type.toLowerCase() + '-opgaver med ' + p.theme.toLowerCase() : null,
+        p.type.toLowerCase() + '-opgaver til print gratis',
+        p.type.toLowerCase() + '-opgaver pdf'
       ];
     }
   },
-  no: { // [NSR]
+  no: { // native-reviewed 2026-07-06
     title: function (p) { return 'Arbeidsark ' + p.type.toLowerCase() + ' til utskrift (PDF)' + tail(p.theme, p.level) + setSuffix(p.setN, 'Sett'); },
     subject: function (p) {
       var th = p.theme ? ' med ' + p.theme.toLowerCase() : '';
@@ -234,30 +234,32 @@ var PATTERNS = {
     },
     keywords: function (p) {
       return [
-        'arbeidsark ' + p.type.toLowerCase() + ' gratis',
+        p.type.toLowerCase() + '-oppgaver gratis',
         p.type.toLowerCase() + ' ' + p.level.toLowerCase() + ' pdf',
-        p.theme ? p.theme.toLowerCase() + ' ' + p.type.toLowerCase() + ' arbeidsark' : null,
-        p.type.toLowerCase() + ' til utskrift',
+        p.theme ? p.type.toLowerCase() + '-oppgaver med ' + p.theme.toLowerCase() : null,
+        p.type.toLowerCase() + '-oppgaver til utskrift gratis',
         'arbeidsark ' + p.type.toLowerCase() + ' pdf'
       ];
     }
   },
-  fi: { // [NSR]
-    title: function (p) { return 'Tulostettava ' + p.type.toLowerCase() + 'tehtävä (PDF)' + tail(p.theme, p.level) + setSuffix(p.setN, 'Sarja'); },
+  fi: { // native-reviewed 2026-07-06
+    title: function (p) { return 'Tulostettavat ' + p.type.toLowerCase() + 'tehtävät (PDF)' + tail(p.theme, p.level) + setSuffix(p.setN, 'Sarja'); },
     subject: function (p) {
-      var th = p.theme ? ', aihe ' + p.theme.toLowerCase() : '';
+      var th = p.theme ? ', aiheena ' + p.theme.toLowerCase() : '';
       var vo = p.vocab ? ' (' + p.vocab + ')' : '';
-      // Native FI review: drop the allative "tasolle" (wrong case for stage nouns);
-      // "Ilmaiseksi ladattava ja tulostettava" not "Ilmainen ladata ja tulostaa".
-      return 'Tulostettava ' + p.type.toLowerCase() + 'tehtävä (PDF), ' + p.level + th + vo + '. Ilmaiseksi ladattava ja tulostettava — ei kirjautumista.';
+      // Native FI review: drop the allative "tasolle" (wrong case for stage nouns).
+      // Plural "Tulostettavat …tehtävät" (a worksheet carries several tasks; matches
+      // the demand pattern "tulostettavat tehtävät"); participles agree in plural.
+      return 'Tulostettavat ' + p.type.toLowerCase() + 'tehtävät (PDF), ' + p.level + th + vo + '. Ilmaiseksi ladattavat ja tulostettavat — ei kirjautumista.';
     },
     keywords: function (p) {
       return [
-        'tulostettava ' + p.type.toLowerCase() + ' tehtäviä',
+        'tulostettavia ' + p.type.toLowerCase() + 'tehtäviä',
         p.type.toLowerCase() + ' ' + p.level.toLowerCase() + ' pdf',
-        p.theme ? p.theme.toLowerCase() + ' ' + p.type.toLowerCase() + ' tehtävä' : null,
-        p.type.toLowerCase() + ' tulostettava ilmainen',
-        p.type.toLowerCase() + ' tehtävä pdf'
+        p.theme ? p.type.toLowerCase() + 'tehtävät ' + p.theme.toLowerCase() : null,
+        'ilmaiset tulostettavat ' + p.type.toLowerCase() + 'tehtävät',
+        p.type.toLowerCase() + 'tehtäviä lapsille',
+        p.type.toLowerCase() + 'tehtävät pdf'
       ];
     }
   }

@@ -38,18 +38,12 @@ const path = require('path');
 const SCENE_W = 1600, SCENE_H = 1000;
 const SCENE_CAP = 300 * 1024;
 
-function lazySharp() {
-  // eslint-disable-next-line global-require
-  return require('sharp');
-}
-
 function readJson(p, errs) {
   try { return JSON.parse(fs.readFileSync(p, 'utf8')); }
   catch (e) { errs.push(p + ' parse: ' + e.message); return null; }
 }
 
-async function buildCharacter(dir, id, urlBase) {
-  const sharp = lazySharp();
+async function buildCharacter(dir, id, urlBase, sharp) {
   const errs = [], wrns = [];
   const err = (m) => errs.push('characters/' + id + ': ' + m);
   const warn = (m) => wrns.push('characters/' + id + ': ' + m);
@@ -141,8 +135,7 @@ async function buildCharacter(dir, id, urlBase) {
   };
 }
 
-async function buildBackground(bgsDir, f, metaMap, thumbsDir, urlBase) {
-  const sharp = lazySharp();
+async function buildBackground(bgsDir, f, metaMap, thumbsDir, urlBase, sharp) {
   const errs = [], wrns = [];
   const id = f.replace(/@2x\.webp$/i, '');
   const p = path.join(bgsDir, f);
@@ -176,6 +169,11 @@ async function buildLibraryManifest(libRoot, opts = {}) {
   const tolerant = !!opts.tolerant;
   const write = opts.write !== false;
   const urlBase = opts.urlBase || '/mini-tools/storybook-library';
+  /* sharp must be INJECTED by bundled (Next/webpack) callers — a deep CJS
+     require gets webpack-bundled and the native binary cannot load from a
+     chunk. The CLI path falls back to a plain require (node runtime). */
+  // eslint-disable-next-line global-require
+  const sharp = opts.sharpImpl || require('sharp');
 
   const errors = [];
   const warns = [];
@@ -188,7 +186,7 @@ async function buildLibraryManifest(libRoot, opts = {}) {
     for (const id of fs.readdirSync(charsDir).sort()) {
       const dir = path.join(charsDir, id);
       if (!fs.statSync(dir).isDirectory()) continue;
-      const res = await buildCharacter(dir, id, urlBase);
+      const res = await buildCharacter(dir, id, urlBase, sharp);
       if (res.errs.length || res.wrns.length) perAsset.characters[id] = { errors: res.errs, warns: res.wrns };
       errors.push(...res.errs);
       warns.push(...res.wrns);
@@ -206,7 +204,7 @@ async function buildLibraryManifest(libRoot, opts = {}) {
     fs.mkdirSync(thumbsDir, { recursive: true });
     for (const f of fs.readdirSync(bgsDir).sort()) {
       if (!/@2x\.webp$/i.test(f)) continue;
-      const res = await buildBackground(bgsDir, f, metaMap, thumbsDir, urlBase);
+      const res = await buildBackground(bgsDir, f, metaMap, thumbsDir, urlBase, sharp);
       if (res.errs.length || res.wrns.length) perAsset.backgrounds[res.id] = { errors: res.errs, warns: res.wrns };
       errors.push(...res.errs);
       warns.push(...res.wrns);

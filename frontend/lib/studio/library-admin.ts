@@ -86,14 +86,17 @@ function queued<T>(fn: () => Promise<T>): Promise<T> {
 
 export function rebuildLibraryManifest(): Promise<LibReport> {
   return queued(async () => {
-    const res = await buildLibraryManifest(STORYBOOK_LIBRARY_ROOT, { tolerant: true, write: true });
+    // sharp injected: the top-level TS import is externalized by Next; a deep
+    // CJS require inside the bundled core would be webpack-bundled and the
+    // native binary cannot load from a chunk (prod-observed 2026-07-06).
+    const res = await buildLibraryManifest(STORYBOOK_LIBRARY_ROOT, { tolerant: true, write: true, sharpImpl: sharp });
     return { errors: res.errors, warns: res.warns, perAsset: res.perAsset };
   });
 }
 
 export function libraryReport(): Promise<LibReport> {
   return queued(async () => {
-    const res = await buildLibraryManifest(STORYBOOK_LIBRARY_ROOT, { tolerant: true, write: false });
+    const res = await buildLibraryManifest(STORYBOOK_LIBRARY_ROOT, { tolerant: true, write: false, sharpImpl: sharp });
     return { errors: res.errors, warns: res.warns, perAsset: res.perAsset };
   });
 }

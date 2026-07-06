@@ -162,6 +162,17 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
     assert(/^exercises\//.test(placed.pkg || ''), 'A: taskData.package set (' + placed.pkg + ')');
     assert(placed.selection && placed.selection.kind === 'zone', 'A: the placed element is SELECTED (selection.kind=zone)');
     assert(placed.selectedZoneInDom, 'A: .stu-zone.stu-selected rendered with drag/resize handles');
+    /* the worksheet must be VISIBLE on the canvas — the exported visual
+       renders letterboxed inside the zone (not an empty labeled frame) */
+    const visOk = await page.waitForFunction(() => {
+      const im = document.querySelector('.stu-zone .stu-zone-sep');
+      return im && im.naturalWidth > 0;
+    }, { timeout: 10000 }).then(() => true).catch(() => false);
+    assert(visOk, 'A: the exported worksheet VISUAL renders inside the zone (img loaded)');
+    if (visOk) {
+      const visSrc = await page.evaluate(() => document.querySelector('.stu-zone .stu-zone-sep').getAttribute('src'));
+      assert(visSrc.indexOf(placed.pkg) >= 0, 'A: the zone visual is THIS package\'s export (' + visSrc + ')');
+    }
     /* zone ≈ aspect-fit of the descriptor's crop (caps/floors allowed) */
     const exDir = path.join(STORIES, SCRATCH, placed.pkg);
     const desc = JSON.parse(fs.readFileSync(path.join(exDir, 'descriptor.json'), 'utf8'));

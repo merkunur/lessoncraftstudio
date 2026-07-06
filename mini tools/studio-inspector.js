@@ -1996,7 +1996,11 @@
       iframe.src = makeSrc();
       iframe.style.width = '900px';
       body.appendChild(iframe);
-      var onSaved = function (ev) { if (ev === 'saved' && drawer) iframe.src = makeSrc(); };
+      /* Studio.on has no off(): listeners from every drawer open stay
+         registered forever. Guard on THIS iframe still being in the DOM so
+         stale listeners are no-ops (a detached iframe getting a new src
+         still fetches — that was a phantom request storm on every save). */
+      var onSaved = function (ev) { if (ev === 'saved' && iframe.isConnected) iframe.src = makeSrc(); };
       global.Studio.on(onSaved);
     }, true);
   }

@@ -234,11 +234,53 @@
     }).catch(function (e) { console.error(e); });
   }
 
+  /* ---- placed-worksheet (SEP) visual: the editor shows the exported
+     exercise INSIDE its zone, letterboxed like the player renders it —
+     a placed worksheet must be VISIBLE on the canvas, not an empty frame.
+     Same media shapes as sb-mod-worksheet-exercise's packageBase(). ---- */
+  var sepThumbs = {};   /* packagePath -> {src} | 'loading' | 'failed' */
+  function sepMediaBase() {
+    var st = S();
+    if (global.Studio.tenant) {
+      return st.previewLinkId ? ('/api/play/' + st.previewLinkId + '/m/') : null;
+    }
+    return '/mini-tools/stories/' + st.id + '/';
+  }
+  function loadSepThumb(pkg) {
+    if (sepThumbs[pkg]) return;
+    var base = sepMediaBase();
+    if (!base) { sepThumbs[pkg] = 'failed'; return; }
+    sepThumbs[pkg] = 'loading';
+    fetch(base + pkg + '/descriptor.json', { cache: 'no-cache' })
+      .then(function (r) { if (!r.ok) throw new Error('descriptor ' + r.status); return r.json(); })
+      .then(function (d) {
+        var src = base + pkg + '/' + ((d.visual && d.visual.file) || 'visual@2x.webp');
+        var img = new Image();
+        img.onload = function () { sepThumbs[pkg] = { src: src }; render(); };
+        img.onerror = function () { sepThumbs[pkg] = 'failed'; };
+        img.src = src;
+      })
+      .catch(function () { sepThumbs[pkg] = 'failed'; });   /* defensive-skip: the labeled zone remains */
+  }
+
   function renderZone(inter) {
     var z = inter.zone;
     var zoneEl = el('div', 'stu-zone');
     zoneEl.style.left = z.x + 'px'; zoneEl.style.top = z.y + 'px';
     zoneEl.style.width = z.w + 'px'; zoneEl.style.height = z.h + 'px';
+    /* a placed worksheet exercise shows its exported visual in the zone
+       (first child: label + handles paint above it) */
+    if (inter.moduleType === 'sb-worksheet-exercise' && inter.taskData && inter.taskData.package) {
+      var sepPkg = inter.taskData.package;
+      var th = sepThumbs[sepPkg];
+      if (!th) loadSepThumb(sepPkg);
+      else if (th.src) {
+        var vi = el('img', 'stu-zone-sep');
+        vi.src = th.src;
+        vi.draggable = false;
+        zoneEl.appendChild(vi);
+      }
+    }
     var sel = S().selection;
     if (sel && sel.kind === 'zone') zoneEl.classList.add('stu-selected');
     var mz = minZone(inter);

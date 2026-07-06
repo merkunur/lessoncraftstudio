@@ -95,23 +95,66 @@
     return { url: (url || pathname) + q, opts: opts };
   }
 
-  function api(pathname, opts) {
-    if (TENANT) {
-      var mapped = tenantRoute(pathname, opts);
-      pathname = mapped.url;
-      opts = mapped.opts || {};
-      var token = null;
-      try { token = localStorage.getItem('accessToken'); } catch (e) {}
-      opts = Object.assign({}, opts);
-      opts.headers = Object.assign({}, opts.headers || {},
-        token ? { Authorization: 'Bearer ' + token } : {});
-    }
-    return fetch(pathname, opts).then(function (r) {
-      if (TENANT && r.status === 401) {
-        /* signed out / expired: tell the wrapper page (it owns re-auth UX).
-           The debounced-autosave localStorage backup protects unsaved work. */
-        try { global.parent.postMessage({ type: 'lcs-studio-auth', status: 401 }, location.origin); } catch (e) {}
+  /* One shared token refresh via the wrapper (single-flight: parallel 401s —
+     the 800ms autosave can race enumerations — share one round-trip). The
+     wrapper runs the app's refreshToken() and answers lcs-studio-refresh-done. */
+  var _refreshInFlight = null;
+  function requestParentRefresh() {
+    if (_refreshInFlight) return _refreshInFlight;
+    _refreshInFlight = new Promise(function (resolve) {
+      var settled = false;
+      function finish(ok) {
+        if (settled) return;
+        settled = true;
+        global.removeEventListener('message', onMsg);
+        resolve(!!ok);
       }
+      function onMsg(ev) {
+        if (ev.origin !== location.origin) return;
+        if (ev.data && ev.data.type === 'lcs-studio-refresh-done') finish(ev.data.ok);
+      }
+      global.addEventListener('message', onMsg);
+      try { global.parent.postMessage({ type: 'lcs-studio-refresh' }, location.origin); } catch (e) {}
+      setTimeout(function () { finish(false); }, 8000);
+    }).then(function (ok) { _refreshInFlight = null; return ok; });
+    return _refreshInFlight;
+  }
+  function notifyAuthLost() {
+    try { global.parent.postMessage({ type: 'lcs-studio-auth', status: 401 }, location.origin); } catch (e) {}
+  }
+
+  function api(pathname, opts) {
+    /* the token is re-read from localStorage on EVERY send, so a retry after
+       the wrapper's refresh automatically carries the rotated token */
+    function send() {
+      var p = pathname, o = opts;
+      if (TENANT) {
+        var mapped = tenantRoute(pathname, opts);
+        p = mapped.url;
+        o = Object.assign({}, mapped.opts || opts || {});
+        var token = null;
+        try { token = localStorage.getItem('accessToken'); } catch (e) {}
+        o.headers = Object.assign({}, o.headers || {},
+          token ? { Authorization: 'Bearer ' + token } : {});
+      }
+      return fetch(p, o);
+    }
+    return send().then(function (r) {
+      if (TENANT && r.status === 401) {
+        /* the Session row's token rotates on any refresh/sign-in anywhere —
+           a mid-edit 401 is usually a rotation race, not a real sign-out.
+           Refresh through the wrapper and retry ONCE; only a failed retry
+           surfaces the sign-in pill. */
+        return requestParentRefresh().then(function (ok) {
+          if (!ok) { notifyAuthLost(); return r; }
+          return send().then(function (r2) {
+            if (r2.status === 401) notifyAuthLost();
+            return r2;
+          });
+        });
+      }
+      return r;
+    }).then(function (r) {
       return r.json().then(function (j) { j.__status = r.status; return j; });
     });
   }
@@ -132,9 +175,42 @@
       S.selection = null;
       S.undoStack = []; S.redoStack = [];
       S.dirty = false; S.saveState = 'saved'; S.savedAt = new Date();
+      offerBackupRestore(id);
       refreshAudio();
       emit('loaded');
     });
+  }
+
+  /* The backup blob is written on every mutation and removed on successful
+     save — one existing at load time means a previous session ended with
+     UNSAVED edits (a 401 race, a crash, a closed tab). Offer it back instead
+     of silently dropping work; restoring goes through mutate(), so it is
+     undoable and autosaves to the server. */
+  function offerBackupRestore(id) {
+    try {
+      var key = 'studio.backup.' + id;
+      var raw = localStorage.getItem(key);
+      if (!raw) return;
+      var bk = JSON.parse(raw);
+      var fresh = bk && bk.doc && bk.at && (Date.now() - bk.at) < 48 * 3600 * 1000;
+      if (!fresh || JSON.stringify(bk.doc) === JSON.stringify(S.doc)) {
+        localStorage.removeItem(key);
+        return;
+      }
+      var de = S.storyLocale === 'de';
+      var when = new Date(bk.at).toLocaleString();
+      var msg = de
+        ? 'Wir haben nicht gespeicherte Änderungen an dieser Geschichte gefunden (' + when + ').\n\nWiederherstellen? („Abbrechen" behält die zuletzt gespeicherte Version.)'
+        : 'We found unsaved changes to this story from ' + when + '.\n\nRestore them? ("Cancel" keeps the last saved version.)';
+      if (global.confirm(msg)) {
+        mutate('restore unsaved work', function (draft) {
+          draft.story = bk.doc.story;
+          draft.strings = bk.doc.strings;
+        });
+      } else {
+        localStorage.removeItem(key);
+      }
+    } catch (e) {}
   }
 
   function refreshAudio() {

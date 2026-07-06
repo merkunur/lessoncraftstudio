@@ -174,6 +174,11 @@
       renderCharacter(pl, ci, story);
     });
 
+    /* on-page text (page.text[] — the same shape the player renders) */
+    (pg.text || []).forEach(function (tx, ti) {
+      renderText(tx, ti);
+    });
+
     /* interaction zone + drawables */
     if (pg.interaction && pg.interaction.zone) renderZone(pg.interaction);
 
@@ -223,6 +228,22 @@
       wrap.appendChild(handle);
     }
     stage.appendChild(wrap);
+  }
+
+  /* on-page text item, WYSIWYG-matched to the player's .sb-text rendering
+     (same coords/size semantics; the player scales by the stage transform) */
+  function renderText(tx, ti) {
+    var d = el('div', 'stu-text');
+    d.dataset.ti = ti;
+    d.textContent = global.Studio.str(tx.stringKey) || '…';
+    d.style.left = tx.x + 'px';
+    d.style.top = tx.y + 'px';
+    d.style.width = (tx.w || (DESIGN_W - tx.x - 40)) + 'px';
+    d.style.fontSize = (tx.size || 40) + 'px';
+    d.style.textAlign = tx.align || 'left';
+    var sel = S().selection;
+    if (sel && sel.kind === 'text' && sel.index === ti) d.classList.add('stu-selected');
+    stage.appendChild(d);
   }
 
   function loadAtlasFor(castDef) {
@@ -444,6 +465,12 @@
       drag = { mode: 'point-move', bind: pEl.dataset.bind, i: Number(pEl.dataset.i),
                startPt: pt, el: pEl,
                start: { x: parseFloat(pEl.style.left), y: parseFloat(pEl.style.top) } };
+    } else if (t.closest && t.closest('.stu-text')) {
+      var txEl = t.closest('.stu-text');
+      var ti0 = Number(txEl.dataset.ti);
+      selQuiet({ kind: 'text', index: ti0 });
+      drag = { mode: 'text-move', ti: ti0, startPt: pt, el: txEl,
+               start: { x: parseFloat(txEl.style.left), y: parseFloat(txEl.style.top) } };
     } else if (t.closest && t.closest('.stu-zone')) {
       selQuiet({ kind: 'zone' });
       drag = { mode: 'zone-move', startPt: pt,
@@ -520,6 +547,9 @@
     } else if (drag.mode === 'point-move') {
       drag.cur = { x: drag.start.x + dx, y: drag.start.y + dy };
       drag.el.style.left = drag.cur.x + 'px'; drag.el.style.top = drag.cur.y + 'px';
+    } else if (drag.mode === 'text-move') {
+      drag.cur = { x: drag.start.x + dx, y: drag.start.y + dy };
+      drag.el.style.left = drag.cur.x + 'px'; drag.el.style.top = drag.cur.y + 'px';
     }
   }
 
@@ -589,6 +619,13 @@
         inter.taskData[d.bind][d.i].x = rel.x;
         inter.taskData[d.bind][d.i].y = rel.y;
       });
+    } else if (d.mode === 'text-move' && d.cur) {
+      global.Studio.mutate('move text', function (draft) {
+        var tx = (draft.story.pages[S().pageIndex].text || [])[d.ti];
+        if (!tx) return false;
+        tx.x = Math.max(0, Math.min(DESIGN_W - 80, snap(d.cur.x, alt)));
+        tx.y = Math.max(0, Math.min(DESIGN_H - 40, snap(d.cur.y, alt)));
+      });
     } else {
       render();   /* no-op drag (a plain click): reflect the new selection */
     }
@@ -607,6 +644,11 @@
   }
   function startPlacePoint(drawable) {
     placeMode = { kind: 'point', drawable: drawable };
+    host.classList.add('stu-placing');
+  }
+  /* on-page text: click where the text should start */
+  function startPlaceText() {
+    placeMode = { kind: 'text' };
     host.classList.add('stu-placing');
   }
   /* single-click SCALAR point (sb-maze start/end): one click sets taskData[bind]={x,y}. */
@@ -716,6 +758,22 @@
         inter.taskData[pm.drawable.bind] = inter.taskData[pm.drawable.bind] || [];
         inter.taskData[pm.drawable.bind].push(global.Studio.toZoneRelPt(z, abs));
       });
+    } else if (pm.kind === 'text') {
+      /* alloc + seed the string OUTSIDE the draft (allocKey reads S.doc),
+         then write both the string and the text item in one mutation */
+      var pgId = pageObj().id;
+      var key = global.Studio.allocKey(pgId + '.txt');
+      var loc = S().storyLocale || 'en';
+      var placedTi = -1;
+      global.Studio.mutate('add text', function (draft) {
+        var dpg = draft.story.pages[S().pageIndex];
+        draft.strings[key] = {};
+        draft.strings[key][loc] = (loc === 'de') ? 'Ihr Text' : 'Your text';
+        dpg.text = dpg.text || [];
+        dpg.text.push({ stringKey: key, x: snap(pt.x), y: snap(pt.y), size: 40, align: 'left' });
+        placedTi = dpg.text.length - 1;
+      });
+      select({ kind: 'text', index: placedTi });
     } else if (pm.kind === 'scalarPoint') {
       global.Studio.mutate('set ' + pm.drawable.bind, function (draft) {
         var inter = draft.story.pages[S().pageIndex].interaction;
@@ -780,6 +838,9 @@
       if (sel.kind === 'character') {
         var pl = dpg.characters[sel.index];
         pl.anchor.x += dx; pl.anchor.y += dy;
+      } else if (sel.kind === 'text' && (dpg.text || [])[sel.index]) {
+        var txn = dpg.text[sel.index];
+        txn.x += dx; txn.y += dy;
       } else if (sel.kind === 'zone' && dpg.interaction) {
         var oldZone = global.Studio.clone(dpg.interaction.zone);
         dpg.interaction.zone.x += dx; dpg.interaction.zone.y += dy;
@@ -798,6 +859,7 @@
     global.Studio.mutate('delete', function (draft) {
       var dpg = draft.story.pages[S().pageIndex];
       if (sel.kind === 'character') dpg.characters.splice(sel.index, 1);
+      else if (sel.kind === 'text' && dpg.text) dpg.text.splice(sel.index, 1);
       else if (sel.kind === 'drawable') dpg.interaction.taskData[sel.bind].splice(sel.index, 1);
       else if (sel.kind === 'point') dpg.interaction.taskData[sel.bind].splice(sel.index, 1);
       else return false;
@@ -907,6 +969,7 @@
     startPlaceCharacter: startPlaceCharacter,
     startPlaceRect: startPlaceRect,
     startPlacePoint: startPlacePoint,
+    startPlaceText: startPlaceText,
     startPlaceScalarPoint: startPlaceScalarPoint,
     startPlacePath: startPlacePath,
     startPlaceMaze: startPlaceMaze,

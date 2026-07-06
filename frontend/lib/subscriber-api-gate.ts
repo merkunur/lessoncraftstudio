@@ -76,6 +76,16 @@ export async function requireSubscriber(
     );
   }
 
+  // Keep actively-working sessions out of the sign-in route's 24h idle sweep:
+  // lastActivityAt otherwise only updates on refresh/sign-in, so a teacher
+  // editing in the Studio for hours looks "idle" and gets reaped by their next
+  // sign-in elsewhere. Fire-and-forget, throttled to once per hour per session.
+  if (session.lastActivityAt < new Date(Date.now() - 60 * 60 * 1000)) {
+    prisma.session
+      .update({ where: { id: session.id }, data: { lastActivityAt: new Date() } })
+      .catch(() => {});
+  }
+
   const user = await prisma.user.findUnique({
     where: { id: payload.userId },
     select: {

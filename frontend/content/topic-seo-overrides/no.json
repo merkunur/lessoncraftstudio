@@ -1,0 +1,416 @@
+{
+  "$comment": "Demand-keyed SEO overrides authored from docs/SEO/demand-map-no.md (+ demand-terms-no.json). Validated by scripts/seo/validate-topic-overrides.js.",
+  "singleAxis": {
+    "addition": {
+      "title": "Addisjonsoppgaver for barn – til utskrift (PDF)",
+      "h1": "Addisjon: plussoppgaver til å skrive ut og øve på nett",
+      "metaDescription": "Nesten 200 addisjonsark med muntre bilder: første plussoppgaver for skolestartere, hvert ark med fasit. Skriv ut gratis som PDF eller løs på nett."
+    },
+    "subtraction": {
+      "title": "Subtraksjonsoppgaver for barn – minus (PDF)",
+      "h1": "Subtraksjon: minusoppgaver med bilder til utskrift",
+      "metaDescription": "193 subtraksjonsark for regnestarten: minusoppgaver med tydelige bilder, fasit på hvert ark. Gratis å skrive ut som PDF eller løse direkte på nett."
+    },
+    "code-addition": {
+      "title": "Kodeaddisjon: regn med symboler (PDF)",
+      "h1": "Kodeaddisjon: knekk koden og regn ut",
+      "metaDescription": "Bildene står for tall: i kodeaddisjon knekker barnet koden og regner ut. 147 knøttete regneark med fasit – skriv ut gratis eller spill på nett."
+    },
+    "more-less": {
+      "title": "Flere eller færre? Sammenlign mengder (PDF)",
+      "h1": "Flere eller færre? Se og sammenlign mengder",
+      "metaDescription": "Hvor er det flest, hvor er det færrest? 146 ark der barnehagebarn sammenligner mengder og teller uten tall. Gratis å skrive ut som PDF eller på nett."
+    },
+    "math-puzzle": {
+      "title": "Mattepuslespill for barn – til utskrift",
+      "h1": "Mattepuslespill: knekk tallgåten",
+      "metaDescription": "Regnegåter barna vil løse: 142 mattepuslespill med symbol-likninger, hvert ark med fasit. Skriv ut gratis som PDF eller pusle på skjermen."
+    },
+    "math-worksheet": {
+      "title": "Matteark – blandede oppgaver til utskrift",
+      "h1": "Matteark: blandede regneoppgaver å skrive ut",
+      "metaDescription": "Blandede regneark: pluss og minus om hverandre, fint til repetisjon. Rundt 100 matteark med fasit for skolestartere, gratis å skrive ut som PDF."
+    },
+    "big-small": {
+      "title": "Stor eller liten? Størrelser for barn (PDF)",
+      "h1": "Stor eller liten? Sammenlign størrelser i barnehagen",
+      "metaDescription": "Hva er størst, hva er minst? 92 barnehageark der barnet sammenligner størrelser på kjente ting. Gratis å skrive ut som PDF eller løse på nett."
+    },
+    "chart-count": {
+      "title": "Tell og fyll inn i diagram (PDF)",
+      "h1": "Tell og fyll inn: første søylediagram for barn",
+      "metaDescription": "Tell motiver, fyll søylene: 49 ark der barnet fører telleresultatet inn i et diagram. Første datainnsikt fra barnehagen, gratis som PDF å skrive ut."
+    },
+    "pattern-train": {
+      "title": "Mønstertoget – fortsett mønsteret (PDF)",
+      "h1": "Mønstertoget: kjenn igjen og fortsett mønsteret",
+      "metaDescription": "Hvilken vogn kommer nå? 245 mønstertog-ark der barnet fortsetter mønsteret – logisk tenkning for barnehagen, gratis å skrive ut eller spille på nett."
+    },
+    "pattern-worksheet": {
+      "title": "Mønsterark – fortsett rekka (PDF)",
+      "h1": "Mønsterark: fortsett rekker og følger",
+      "metaDescription": "Former, farger, følger: 52 mønsterark for 1. trinn der barnet fortsetter rekka. Konsentrasjon og matteforståelse, gratis å skrive ut som PDF."
+    },
+    "bingo": {
+      "title": "Bildebingo for barnehagen – til utskrift",
+      "h1": "Bildebingo: ferdige bingobrett for barnehagen",
+      "metaDescription": "Bingo med bilder i stedet for tall: 78 ferdige spillebrett for barnehage og skolestart. Skriv ut gratis og spill med en gang i gruppa."
+    },
+    "grid-match": {
+      "title": "Rutenettmatch – finn maken i rutenettet",
+      "h1": "Rutenettmatch: sett bildet på riktig plass",
+      "metaDescription": "Les rad og kolonne, sett bildet på plass: 48 rutenett-oppgaver for barnehagen. Trener romforståelse, gratis å skrive ut som PDF eller løse på nett."
+    },
+    "matching": {
+      "title": "Koble sammen – finn parene (PDF)",
+      "h1": "Koble sammen: hva hører sammen?",
+      "metaDescription": "Finn paret og koble bildene: 92 koble-sammen-ark med bilder for barnehage og skolestart. Styrk ordforråd og logikk, gratis å skrive ut som PDF."
+    },
+    "picture-sort": {
+      "title": "Sorter bilder i grupper – for barn (PDF)",
+      "h1": "Sorter bilder: ordne etter kategori",
+      "metaDescription": "Dyr til dyr, kjøretøy til kjøretøy: 181 sorteringsark der barnet ordner bilder i kategorier. Tenke i grupper, gratis å skrive ut som PDF eller på nett."
+    },
+    "shadow-match": {
+      "title": "Match skyggen – finn riktig skygge (PDF)",
+      "h1": "Match skyggen: hvilken skygge hører til bildet?",
+      "metaDescription": "93 skyggeoppgaver: barnet kobler bildet til riktig skygge og trener visuell oppmerksomhet. For barnehage og skolestart, gratis PDF og på nett."
+    },
+    "alphabet-train": {
+      "title": "Alfabettoget – ABC i riktig rekkefølge",
+      "h1": "Alfabettoget: sett bokstavene i rekkefølge",
+      "metaDescription": "Sett de manglende bokstavene inn i toget: 69 ABC-ark for barnehagen. Lær alfabetet og bokstavrekka, gratis å skrive ut som PDF eller spill på nett."
+    },
+    "prepositions": {
+      "title": "Preposisjoner med bilder – barnehage (PDF)",
+      "h1": "Preposisjoner: i, på, under, ved siden av – med bilder",
+      "metaDescription": "Hvor er ballen? 98 bildeoppgaver med preposisjoner som i, på, under og ved siden av – ideelt for barnehage, norsk som andrespråk og språkstøtte, gratis PDF."
+    },
+    "word-guess": {
+      "title": "Gjett ordet – bokstav for bokstav (PDF)",
+      "h1": "Gjett ordet: bokstav for bokstav til løsningen",
+      "metaDescription": "Se bildet, gjett ordet, skriv inn bokstavene: 96 gåteark for lesestartere. Øv ordforråd og staving på en leken måte, gratis å skrive ut som PDF."
+    },
+    "word-scramble": {
+      "title": "Bokstavspill – ordne bokstavene (PDF)",
+      "h1": "Bokstavspill: sett bokstavene i riktig rekkefølge",
+      "metaDescription": "Rotete ord som skal ordnes riktig: 96 bokstavspill-ark med bildehjelp for 1. trinn. Lesetrening med moro, gratis å skrive ut som PDF eller på nett."
+    },
+    "wordsearch": {
+      "title": "Finn ord (ordleting) – ordgitter for barn",
+      "h1": "Finn ord: ordgitter og ordleting for barn",
+      "metaDescription": "Finn ordene i bokstavgitteret: 48 ordgitter med barnevennlige temaord for 1. trinn. Hvert ordleting-ark gratis som PDF eller spillbart på nett."
+    },
+    "crossword": {
+      "title": "Kryssord for barn – til utskrift (PDF)",
+      "h1": "Bildekryssord for barn",
+      "metaDescription": "Kryssord med bilder i stedet for spørsmål: barnet navngir motivet og skriver inn ordet. 48 kryssord for lesestartere, gratis som PDF med fasit."
+    },
+    "sudoku": {
+      "title": "Bildesudoku for barn – til utskrift (PDF)",
+      "h1": "Bildesudoku: sudoku med bilder for barn",
+      "metaDescription": "Sudoku uten tall: i 4x4-rutene kommer bilder – perfekt for barnehage og skolestart. 98 bildesudoku med fasit, gratis å skrive ut eller løse på nett."
+    },
+    "cryptogram": {
+      "title": "Kryptogram for barn – knekk koden (PDF)",
+      "h1": "Kryptogram: knekk koden og finn setningen",
+      "metaDescription": "Knekk symbolene, sett inn bokstavene, løs setningen: 100 kryptogram-gåter for barn fra 1. trinn. Logikk og lesing, gratis PDF og på nett."
+    },
+    "picture-path": {
+      "title": "Bildevei – finn veien gjennom rutene",
+      "h1": "Bildevei: følg riktig vei gjennom bildefeltet",
+      "metaDescription": "Følg løsningsveien fra rute til rute: 91 bildevei-gåter for barnehagen. Første logiske tenkning, hvert ark gratis som PDF eller spillbart på nett."
+    },
+    "find-and-count": {
+      "title": "Søk og tell – for barnehagen (PDF)",
+      "h1": "Søk og tell: finn motivene og tell dem",
+      "metaDescription": "Oppdag motivene i bildet og tell dem: 93 søk-og-tell-ark for barnehagen. Mengdeforståelse og konsentrasjon i ett, gratis å skrive ut som PDF."
+    },
+    "find-objects": {
+      "title": "Finn objektene – letebilder for barn (PDF)",
+      "h1": "Letebilder: finn de gjemte objektene",
+      "metaDescription": "Spor opp de gjemte tingene i bildet: 95 letebilde-ark for barnehage og skolestart. Trener nøyaktig titting, gratis som PDF eller spillbart på nett."
+    },
+    "treasure-hunt": {
+      "title": "Skattejakt-oppgaver for barn (PDF)",
+      "h1": "Skattejakt: gåteveier fram til skatten",
+      "metaDescription": "Følg stien over spillebrettet fram til skatten: 98 skattejakt-gåter for 1. trinn. Orientering og logikk, gratis å skrive ut som PDF eller på nett."
+    },
+    "missing-pieces": {
+      "title": "Hva mangler? Finn den manglende brikken",
+      "h1": "Hva mangler? Finn den delen som mangler i bildet",
+      "metaDescription": "Hvilken del mangler i bildet? 93 letegåter for barnehagen der barnet kjenner igjen og setter inn manglende utsnitt. Visuell oppmerksomhet, gratis PDF."
+    },
+    "odd-one-out": {
+      "title": "Hvem skal ut? Logikkoppgaver med bilder",
+      "h1": "Hvem skal ut? Finn bildet som ikke passer",
+      "metaDescription": "Fire bilder, ett passer ikke: 137 ark til logisk tenkning for barnehage og skolestart. Kjenne kategorier, gratis å skrive ut som PDF eller på nett."
+    },
+    "counting-pictures": {
+      "title": "Tell bildene – lær å telle med bilder (PDF)",
+      "h1": "Tell bildene: telle og oppfatte mengder",
+      "metaDescription": "Først telle, så koble til tall: 27 telleark med muntre motiver for barnehagen. Trygg omgang med mengder opp til 10, gratis å skrive ut som PDF."
+    },
+    "counting-frames": {
+      "title": "Tierramme – øvelser til utskrift (PDF)",
+      "h1": "Tierramme: oppfatt mengder i tierrammen",
+      "metaDescription": "Se prikkene i tierrammen på et blikk: øvingsark til tallforståelse opp til 10 for begynneropplæringen. Gratis som PDF med fasit å skrive ut."
+    },
+    "tally-counting": {
+      "title": "Tellestreker – tell og noter (PDF)",
+      "h1": "Tellestreker: telle, bunte og lese av",
+      "metaDescription": "Før tellestreker som de store: telle, bunte i femmere, lese av. Øvingsark for 1. og 2. trinn – datainnsamling fra starten, gratis som PDF."
+    },
+    "number-charts": {
+      "title": "Hundrerute – øvelser til utskrift (PDF)",
+      "h1": "Hundrerute: øv i tallområdet opp til 100",
+      "metaDescription": "Finn tall, fyll ut utsnitt, oppdag mønstre: 34 hundrerute-ark for tallområdet opp til 100. Gratis å skrive ut som PDF med fasit."
+    },
+    "comparing-numbers": {
+      "title": "Sammenligne tall: større, mindre, lik (PDF)",
+      "h1": "Sammenligne tall med <, > og =",
+      "metaDescription": "Hvilket tall er størst? Øvingsark der barnet sammenligner tall med tegnene større enn, mindre enn og lik. For 1. og 2. trinn, gratis å skrive ut."
+    },
+    "comparing-groups": {
+      "title": "Sammenligne mengder – hvor er det flest?",
+      "h1": "Sammenligne mengder: hvor er det flest, hvor færrest?",
+      "metaDescription": "To grupper, ett blikk: barnet sammenligner mengder og markerer den største. Barnehageark til mengdeforståelse, gratis å skrive ut som PDF."
+    },
+    "comparing-sizes": {
+      "title": "Sammenligne størrelser – ordne etter størrelse",
+      "h1": "Sammenligne størrelser: finn det største og minste",
+      "metaDescription": "Ordne fra minst til størst: 15 ark til størrelsessammenligning for barnehagen. Første målforståelse, gratis å skrive ut som PDF eller løse på nett."
+    },
+    "number-lines": {
+      "title": "Tallinje – oppgaver til utskrift (PDF)",
+      "h1": "Tallinje: plassér tall opp til 20",
+      "metaDescription": "Finn og sett tall på tallinja: øvingsark for tallområdet opp til 20 i begynneropplæringen. Gratis å skrive ut som PDF med fasit."
+    },
+    "base-ten": {
+      "title": "Plassverdi: tiere og enere – øvelser (PDF)",
+      "h1": "Plassverdi: forstå tiere og enere",
+      "metaDescription": "Del tall i tiere og enere: 12 plassverdi-ark med anskuelsesmateriell for 1. og 2. trinn. Grunnlag for regning opp til 100, gratis som PDF."
+    },
+    "telling-time": {
+      "title": "Lære klokka – oppgaver til utskrift (PDF)",
+      "h1": "Lære klokka: les klokka steg for steg",
+      "metaDescription": "Hele timer, halve timer, minutter: 81 ark til klokkelesing med visere – fra 1. til 3. trinn. Gratis å skrive ut som PDF og øve på nett."
+    },
+    "fractions": {
+      "title": "Brøk for barn – oppdag halve og fjerdedeler",
+      "h1": "Første brøk: halve, fjerdedeler, hele",
+      "metaDescription": "Halv, fjerdedel, tredjedel anskuelig: 68 brøk-ark med bilder til å fargelegge og koble. Første brøkforståelse for mellomtrinnet, gratis som PDF."
+    },
+    "graphing-data": {
+      "title": "Diagram og data – oppgaver til utskrift",
+      "h1": "Diagram og data: les av, tell og fyll inn",
+      "metaDescription": "Les søylediagram og fyll dem selv: 28 ark til diagram og data for grunnskolen. Gratis å skrive ut som PDF, fasit inkludert."
+    },
+    "arrays-multiplication": {
+      "title": "Ganging med rader – første multiplikasjon (PDF)",
+      "h1": "Ganging med rader: multiplikasjon med prikkefelt",
+      "metaDescription": "Rader og felt i stedet for pugging: 31 gange-ark med prikkefelt for inngangen til multiplikasjon på 2.-3. trinn. Gratis å skrive ut som PDF."
+    },
+    "geometry": {
+      "title": "Geometri – former og figurer for barn (PDF)",
+      "h1": "Geometri: kjenne igjen former og figurer",
+      "metaDescription": "Kjenne former, skille flater og figurer: 37 geometri-ark fra barnehage til 3. trinn. Gratis å skrive ut som PDF med fasit."
+    },
+    "measurement": {
+      "title": "Måling – lengde og vekt for barn (PDF)",
+      "h1": "Måling: sammenlign og mål lengder",
+      "metaDescription": "Med linjal og øyemål: 35 ark til å måle og sammenligne lengder – fra barnehagen til 2. trinn. Gratis å skrive ut som PDF eller løse på nett."
+    },
+    "visual-logic": {
+      "title": "Logiske gåter for barn – gratis (PDF)",
+      "h1": "Logiske gåter: tenke og kombinere for barn",
+      "metaDescription": "Kombinere i stedet for å gjette: 14 logiske gåter for barn med bilder i stedet for tekst. Tenketrening for barnehage til 3. trinn, gratis som PDF."
+    },
+    "visual-discrimination": {
+      "title": "Visuell oppmerksomhet – finn forskjeller (PDF)",
+      "h1": "Visuell oppmerksomhet: finn like og ulike bilder",
+      "metaDescription": "Finn like bilder, se forskjeller, sammenlign detaljer: 15 ark til visuell oppmerksomhet for barnehage og skolestart. Gratis å skrive ut som PDF."
+    },
+    "visual-matching": {
+      "title": "Finn par – like bilder for barn (PDF)",
+      "h1": "Finn par: koble like bilder sammen",
+      "metaDescription": "Hvilke bilder hører sammen? Par-oppgaver for barnehagen med hverdagsmotiver – trener oppmerksomhet og hukommelse, gratis å skrive ut som PDF."
+    },
+    "patterns": {
+      "title": "Mønster – fortsett rekka (PDF)",
+      "h1": "Mønster: kjenne igjen og fortsette rekker",
+      "metaDescription": "Hvordan går rekka videre? Ark til å fortsette mønster med former og bilder for barnehage og 1. trinn. Gratis å skrive ut som PDF eller på nett."
+    },
+    "position-words": {
+      "title": "Plasseringsord – over, under, ved siden av",
+      "h1": "Plasseringsord: over, under, foran, bak",
+      "metaDescription": "Hvor ligger ballen – over, under eller ved siden av? Ark til plasseringsord og romforståelse for barnehage og 1. trinn, gratis å skrive ut som PDF."
+    },
+    "sorting-categories": {
+      "title": "Sortere i grupper – øvingsark for barn",
+      "h1": "Sortere i grupper: dele ting inn i kategorier",
+      "metaDescription": "Sortere etter farge, form eller type: øvingsark til å ordne og kategorisere for barnehagen. Legg tenkegrunnlag, gratis å skrive ut som PDF."
+    },
+    "picture-arithmetic": {
+      "title": "Regne med bilder – pluss og minus (PDF)",
+      "h1": "Regne med bilder: første pluss- og minusoppgaver",
+      "metaDescription": "Først telle bilder, så regne: 14 ark med bildeoppgaver til pluss og minus for 1. trinn. Anskuelig regnestart, gratis å skrive ut som PDF."
+    },
+    "science-sort": {
+      "title": "Naturfag: sortere og kategorisere (PDF)",
+      "h1": "Naturfag: sortere, kategorisere, oppdage",
+      "metaDescription": "Levesteder, årstider, natur: 90 sorteringsark til naturfag for barnehage og 1. trinn. Ordne kunnskap i grupper, gratis å skrive ut som PDF."
+    },
+    "science-match": {
+      "title": "Naturfag: para sammen bilder og begrep",
+      "h1": "Para sammen i naturfag: hva hører sammen?",
+      "metaDescription": "Dyr til levested, redskap til yrke: 10 koble-sammen-ark med naturfagstemaer for nysgjerrige barn. Knytte kunnskap, gratis å skrive ut som PDF."
+    },
+    "science-sequence": {
+      "title": "Rekkefølge og livssykluser – naturfag (PDF)",
+      "h1": "Livssykluser: ordne naturens rekkefølger",
+      "metaDescription": "Fra egg til larve til sommerfugl: ark til livssykluser og rekkefølger i naturfag – ordne naturkunnskap på en leken måte, gratis som PDF."
+    },
+    "beginning-sounds": {
+      "title": "Førstelyd – første lyd i ordet (PDF)",
+      "h1": "Førstelyd: hør og kjenn igjen første lyd",
+      "metaDescription": "Hvilken lyd begynner ordet med? 10 førstelyd-ark med bilder for barnehage og 1. trinn – språklig bevissthet, gratis å skrive ut som PDF."
+    },
+    "letter-knowledge": {
+      "title": "Bokstavkjennskap – kjenn igjen bokstaver (PDF)",
+      "h1": "Bokstavkjennskap: kjenne igjen og skille bokstaver",
+      "metaDescription": "Finn bokstaven i rekka: 20 ark til bokstavkjennskap for barnehage og skolestart – bokstavsikkerhet før lesing, gratis å skrive ut som PDF."
+    },
+    "word-building": {
+      "title": "Ordbygging – bygg ord av bokstaver (PDF)",
+      "h1": "Ordbygging: legg bokstaver til hele ord",
+      "metaDescription": "Bokstav for bokstav til hele ordet: 10 ordbygging-ark for lesestartere – feste lyd-bokstav-kobling, gratis å skrive ut som PDF eller løse på nett."
+    },
+    "picture-vocabulary": {
+      "title": "Bildeordforråd – ord med bilder (PDF)",
+      "h1": "Bildeordforråd: se ordet, lær ordet",
+      "metaDescription": "Se bildet, lær ordet: bildeordforråd-ark til hverdagstemaer – ideelt for norsk som andrespråk, språkstøtte og barnehage, gratis å skrive ut som PDF."
+    },
+    "phonological-awareness": {
+      "title": "Språklig bevissthet – lyder og stavelser (PDF)",
+      "h1": "Språklig bevissthet: hør, klapp, les",
+      "metaDescription": "Klapp stavelser og hør lyder: 25 ark til språklig bevissthet for barnehage og 1. trinn – grunnlaget for lesing, gratis å skrive ut som PDF."
+    },
+    "preschool": {
+      "title": "Oppgaver for barnehagen – gratis til utskrift",
+      "h1": "Barnehage: oppgaver for barn fra 3 år",
+      "metaDescription": "Over 400 barnehageark: sammenligne mengder, mønster, oppmerksomhet, første bokstaver – alt gratis å skrive ut som PDF eller spille på nett."
+    },
+    "kindergarten": {
+      "title": "Oppgaver for skolestartere – gratis (PDF)",
+      "h1": "Skolestartere: oppgaver for 5- til 6-åringer",
+      "metaDescription": "Den største samlingen: tusenvis av oppgaver for skolestartere – fra skyggematch til første plussoppgaver. Gratis å skrive ut som PDF eller øve på nett."
+    },
+    "grade-1": {
+      "title": "Oppgaver 1. trinn – gratis til utskrift (PDF)",
+      "h1": "1. trinn: oppgaver i matte, norsk og logikk",
+      "metaDescription": "Oppgaver for 1. trinn: regne til 20, finn ord, mønster og klokka – med fasit, gratis å skrive ut som PDF eller spille på nett."
+    },
+    "grade-2": {
+      "title": "Oppgaver 2. trinn – gratis til utskrift (PDF)",
+      "h1": "2. trinn: oppgaver i matte, norsk og gåter",
+      "metaDescription": "Oppgaver for 2. trinn: kryssord, klokka, geometri og regning – hvert ark med fasit, gratis å skrive ut som PDF eller løse på nett."
+    },
+    "grade-3": {
+      "title": "Oppgaver 3. trinn – gratis til utskrift (PDF)",
+      "h1": "3. trinn: oppgaver til å øve og knekke",
+      "metaDescription": "Oppgaver for 3. trinn: klokka på minuttet, ganging med rader, geometri og de første brøkdelene – gratis å skrive ut som PDF, fasit inkludert."
+    },
+    "animals": {
+      "title": "Oppgaver dyr – gratis til utskrift (PDF)",
+      "h1": "Dyr: oppgaver rundt dyreverdenen",
+      "metaDescription": "127 dyre-ark: telle dyr, koble sammen, gjette dyreord – for barnehage til 2. trinn, hvert ark gratis å skrive ut som PDF eller spille på nett."
+    },
+    "fruits": {
+      "title": "Oppgaver frukt – gratis til utskrift (PDF)",
+      "h1": "Frukt: oppgaver til å telle, koble og sortere",
+      "metaDescription": "Telle epler, koble frukter, gjette fruktord: 113 ark rundt frukt for barnehage og skolestart. Gratis å skrive ut som PDF eller løse på nett."
+    },
+    "vegetables": {
+      "title": "Oppgaver grønnsaker – gratis til utskrift (PDF)",
+      "h1": "Grønnsaker: oppgaver til å telle og sortere",
+      "metaDescription": "Sortere, telle og koble grønnsaker: 59 ark rundt grønnsaker for barnehagen. Fint til tema om mat og helse, gratis å skrive ut som PDF."
+    },
+    "vehicles": {
+      "title": "Oppgaver kjøretøy – gratis til utskrift (PDF)",
+      "h1": "Kjøretøy: oppgaver fra bil til gravemaskin",
+      "metaDescription": "Biler, gravemaskiner, brannbil: 110 kjøretøy-ark til å telle, koble og gjette. Yndlingstema for mange barn, gratis å skrive ut som PDF eller på nett."
+    },
+    "toys": {
+      "title": "Oppgaver leker – gratis til utskrift (PDF)",
+      "h1": "Leker: oppgaver rundt lekekassen",
+      "metaDescription": "Telle leker, koble sammen, sortere: 107 leke-ark for barnehagen. Kjente motiver barna elsker, gratis å skrive ut som PDF eller spille på nett."
+    },
+    "shapes": {
+      "title": "Oppgaver former – barnehage og skolestart (PDF)",
+      "h1": "Former: sirkel, trekant, firkant",
+      "metaDescription": "Sirkel, trekant, firkant: 96 former-ark til å kjenne igjen, koble og sortere for barnehagen. Gratis å skrive ut som PDF eller løse på nett."
+    },
+    "bakery": {
+      "title": "Oppgaver bakeri – gratis til utskrift (PDF)",
+      "h1": "Bakeri: oppgaver fra bolle til kake",
+      "metaDescription": "Boller, kaker, brød: 101 bakeri-ark til å telle, koble og sortere for barnehagen. Fint til tema om mat, gratis å skrive ut som PDF eller på nett."
+    },
+    "flowers": {
+      "title": "Oppgaver blomster – gratis til utskrift (PDF)",
+      "h1": "Blomster: oppgaver rundt blomster og hage",
+      "metaDescription": "Telle blomster, koble sammen, sortere: 74 blomster-ark for barnehagen. Fint til vår- og naturtema, gratis å skrive ut som PDF eller løse på nett."
+    },
+    "body_parts": {
+      "title": "Oppgaver kroppsdeler – gratis til utskrift (PDF)",
+      "h1": "Kroppsdeler: oppgaver om kroppen",
+      "metaDescription": "Navngi og koble kroppsdeler: 57 ark om kroppen for barnehage og skolestart. Fint til tema om kroppen, gratis å skrive ut som PDF eller på nett."
+    },
+    "clothing": {
+      "title": "Oppgaver klær – gratis til utskrift (PDF)",
+      "h1": "Klær: oppgaver om klær og farger",
+      "metaDescription": "Sortere og koble klær: 56 klær-ark for barnehagen, fint sammen med farger. Norsk og andrespråk, gratis å skrive ut som PDF eller løse på nett."
+    },
+    "colors": {
+      "title": "Oppgaver farger – gratis til utskrift (PDF)",
+      "h1": "Farger: oppgaver om farger for barn",
+      "metaDescription": "Kjenne igjen og sortere etter farge: 48 farge-ark for barnehagen. Fint sammen med klær og former, gratis å skrive ut som PDF eller på nett."
+    },
+    "occupations": {
+      "title": "Oppgaver yrker – gratis til utskrift (PDF)",
+      "h1": "Yrker: oppgaver om jobber og yrker",
+      "metaDescription": "Koble redskap til yrke, sortere og gjette: 58 yrke-ark for barnehage og skolestart. Fint til samfunnstema, gratis å skrive ut som PDF eller på nett."
+    },
+    "dinosaurs": {
+      "title": "Oppgaver dinosaurer – gratis til utskrift (PDF)",
+      "h1": "Dinosaurer: oppgaver for dinosaur-fans",
+      "metaDescription": "Telle, koble og sortere dinosaurer: 57 dino-ark for barnehage og skolestart. Populært yndlingstema, gratis å skrive ut som PDF eller løse på nett."
+    },
+    "space": {
+      "title": "Oppgaver verdensrommet – gratis (PDF)",
+      "h1": "Verdensrommet: oppgaver om rommet",
+      "metaDescription": "Planeter, raketter, stjerner: 58 verdensrom-ark til å telle, koble og sortere for barnehagen. Gratis å skrive ut som PDF eller løse på nett."
+    },
+    "emotions": {
+      "title": "Oppgaver følelser – gratis til utskrift (PDF)",
+      "h1": "Følelser: oppgaver om følelser for barn",
+      "metaDescription": "Kjenne igjen og koble følelser: 52 følelses-ark for barnehage og skolestart. Fint til livsmestring og sosial kompetanse, gratis å skrive ut som PDF."
+    },
+    "music": {
+      "title": "Oppgaver musikk – gratis til utskrift (PDF)",
+      "h1": "Musikk: oppgaver om instrumenter og lyd",
+      "metaDescription": "Koble instrumenter, sortere og telle: 54 musikk-ark for barnehage og skolestart. Fint til musikktema, gratis å skrive ut som PDF eller på nett."
+    },
+    "ocean_life": {
+      "title": "Oppgaver havliv – gratis til utskrift (PDF)",
+      "h1": "Havliv: oppgaver om havet og dyrene",
+      "metaDescription": "Fisk, krabber, sjøstjerner: 58 havliv-ark til å telle, koble og sortere for barnehagen. Fint til naturtema, gratis å skrive ut som PDF eller på nett."
+    },
+    "pets": {
+      "title": "Oppgaver kjæledyr – gratis til utskrift (PDF)",
+      "h1": "Kjæledyr: oppgaver om dyrene hjemme",
+      "metaDescription": "Hund, katt, kanin: 58 kjæledyr-ark til å telle, koble og sortere for barnehagen. Nær barnas hverdag, gratis å skrive ut som PDF eller på nett."
+    }
+  },
+  "intersection": {}
+}

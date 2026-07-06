@@ -1,0 +1,1154 @@
+{
+  "locale": "no",
+  "generated": "2026-07-06",
+  "source": "docs/SEO/harvests/no.json (google.no autocomplete, hl=no&gl=no, 2026-07-06) + 15-query SERP sample (matteoppgaver.com, ukemal.no, spireserien.no, kittysoppgaver.com, salaby, skolekassa.no, matematikk.org, kryssordet.no, lekogskole.no, NTNU)",
+  "titlePattern": {
+    "singleAxisType": "<Demand-begrep> for barn – til utskrift (PDF)",
+    "singleAxisTheme": "Oppgaver <tema> – gratis til utskrift",
+    "singleAxisLevel": "Oppgaver <nivå> – gratis til utskrift (PDF)",
+    "intersection": "<Demand-begrep> <trinn/nivå> – til utskrift",
+    "notes": "Demand word FIRST (the Norwegian type-noun teachers/parents actually type per harvest — ordleting/finn ord not 'wordsearch', hvem skal ut for odd-one-out, mønster fortsette, hundrerute, tallinje). Honest qualifiers only: 'gratis' + 'til utskrift'/'skrive ut' + 'PDF' are always true; 'på nett'/'online' allowed (decks play in the browser); 'med fasit' allowed (answer keys ship). En-dash before theme/qualifier keeps it clean. ≤51 chars ideal, 65 hard max — the deck-landing sibling pattern is '... | til utskrift PDF gratis' (frontend/content/seo-landing/no.json); topic pages use the shorter forms above. NORWAY LEVEL NOTE: the taxonomy tags most decks 5-7 = kindergarten (barnehage 5-7 år / skolestartere), but the demand for math types is overwhelmingly '1 trinn' because Norwegian 1st-graders are age 6 (inside the 5-7 band) — this is the level-re-tag / deck-production fork flagged per entry (see demand-map-no.md §Level mismatch)."
+  },
+  "singleAxis": {
+    "addition": {
+      "primaryQuery": "addisjon oppgaver",
+      "evidence": "harvest",
+      "title": "Addisjonsoppgaver for barn – til utskrift (PDF)",
+      "h1": "Addisjon: plussoppgaver til å skrive ut og øve på nett",
+      "metaDescription": "Nesten 200 addisjonsark med muntre bilder: første plussoppgaver for skolestartere, hvert ark med fasit. Skriv ut gratis som PDF eller løs på nett.",
+      "winnability": "HARD head — matteoppgaver.com (exact-domain), spireserien.no og salaby eier 'addisjon oppgaver'. WINNABLE mid via bilde- og online-vinkelen.",
+      "notes": "Harvest-kvalifikatorer: oppgaver, utskrift, 1/2 trinn, med tierovergang. Sterkest '1 trinn'-demand men alle no-decks ligger på 5-7 (kindergarten) — se level-mismatch. Intersection addition__kindergarten er money-siden."
+    },
+    "subtraction": {
+      "primaryQuery": "subtraksjon oppgaver",
+      "evidence": "harvest",
+      "title": "Subtraksjonsoppgaver for barn – minus (PDF)",
+      "h1": "Subtraksjon: minusoppgaver med bilder til utskrift",
+      "metaDescription": "193 subtraksjonsark for regnestarten: minusoppgaver med tydelige bilder, fasit på hvert ark. Gratis å skrive ut som PDF eller løse direkte på nett.",
+      "winnability": "HARD head — samme eiere som addisjon (matteoppgaver.com, spireserien). WINNABLE mid via bilde-vinkelen.",
+      "notes": "Harvest: 'subtraksjon oppgaver 1/2 trinn', 'med låning/veksling'. Samme level-mismatch som addisjon (decks på 5-7)."
+    },
+    "code-addition": {
+      "primaryQuery": "addisjon oppgaver utskrift",
+      "evidence": "inventory",
+      "title": "Kodeaddisjon: regn med symboler (PDF)",
+      "h1": "Kodeaddisjon: knekk koden og regn ut",
+      "metaDescription": "Bildene står for tall: i kodeaddisjon knekker barnet koden og regner ut. 147 knøttete regneark med fasit – skriv ut gratis eller spill på nett.",
+      "winnability": "SKIP head — ingen norsk søkebegrep ('kodeaddisjon' finnes ikke i harvest). Lever av intern lenking + addisjon-longtail.",
+      "notes": "Ingen nativ demand-term; siden bæres av intern kryssenkobling til addisjon og skolestarter-nivået."
+    },
+    "more-less": {
+      "primaryQuery": "mer eller mindre",
+      "evidence": "harvest",
+      "title": "Flere eller færre? Sammenlign mengder (PDF)",
+      "h1": "Flere eller færre? Se og sammenlign mengder",
+      "metaDescription": "Hvor er det flest, hvor er det færrest? 146 ark der barnehagebarn sammenligner mengder og teller uten tall. Gratis å skrive ut som PDF eller på nett.",
+      "winnability": "MID — 'mer eller mindre' pur er idiom/uttrykk-støy; 'flere eller færre' er renere barne-intent. SERP tynn.",
+      "notes": "Bruk 'flere eller færre' i tittel, ikke 'mer eller mindre' (head er uttrykks-/synonym-intent). Decks på 3-5 (barnehage)."
+    },
+    "math-puzzle": {
+      "primaryQuery": "mattepuslespill",
+      "evidence": "harvest",
+      "title": "Mattepuslespill for barn – til utskrift",
+      "h1": "Mattepuslespill: knekk tallgåten",
+      "metaDescription": "Regnegåter barna vil løse: 142 mattepuslespill med symbol-likninger, hvert ark med fasit. Skriv ut gratis som PDF eller pusle på skjermen.",
+      "winnability": "WINNABLE mid — 'mattepuslespill' er tynt besatt; voksen-gåter dominerer bare toppen. Intersection grade-1 er money-siden.",
+      "notes": "Decks ligger på 1. trinn (6-8) — intersection math-puzzle__grade-1 bærer siden."
+    },
+    "math-worksheet": {
+      "primaryQuery": "matteark",
+      "evidence": "harvest",
+      "title": "Matteark – blandede oppgaver til utskrift",
+      "h1": "Matteark: blandede regneoppgaver å skrive ut",
+      "metaDescription": "Blandede regneark: pluss og minus om hverandre, fint til repetisjon. Rundt 100 matteark med fasit for skolestartere, gratis å skrive ut som PDF.",
+      "winnability": "DEFER-TO-HUB — 'matteark 1/2 trinn' eies av fag×trinn-hubene og ukemal.no; topic-siden tar bare mekanikk-longtail.",
+      "notes": "Ikke titulere mot egne matte-hubs; 'matteark' head er hardt besatt (ukemal.no, matteoppgaver.com)."
+    },
+    "big-small": {
+      "primaryQuery": "stor eller liten",
+      "evidence": "harvest",
+      "title": "Stor eller liten? Størrelser for barn (PDF)",
+      "h1": "Stor eller liten? Sammenlign størrelser i barnehagen",
+      "metaDescription": "Hva er størst, hva er minst? 92 barnehageark der barnet sammenligner størrelser på kjente ting. Gratis å skrive ut som PDF eller løse på nett.",
+      "winnability": "WINNABLE mid — men 'stor eller liten' pur er rettskrivnings-intent (stor/liten forbokstav). Rank med kontekst-kvalifikator (barnehage/størrelse).",
+      "notes": "ALDRI optimalisere mot 'stor eller liten bokstav' — helt annen intent (harvest-belagt: forbokstav, etter kolon). Decks 3-5."
+    },
+    "chart-count": {
+      "primaryQuery": "tell i diagram",
+      "evidence": "inventory",
+      "title": "Tell og fyll inn i diagram (PDF)",
+      "h1": "Tell og fyll inn: første søylediagram for barn",
+      "metaDescription": "Tell motiver, fyll søylene: 49 ark der barnet fører telleresultatet inn i et diagram. Første datainnsikt fra barnehagen, gratis som PDF å skrive ut.",
+      "winnability": "LOW head — ingen ren søketerm for mekanikken. Lever av intern lenking + 'diagram/data'-longtail.",
+      "notes": "Beskriv ærlig i stedet for å oppfinne søkeord; koble til graphing-data-klyngen."
+    },
+    "pattern-train": {
+      "primaryQuery": "mønster oppgaver barnehage",
+      "evidence": "harvest",
+      "title": "Mønstertoget – fortsett mønsteret (PDF)",
+      "h1": "Mønstertoget: kjenn igjen og fortsett mønsteret",
+      "metaDescription": "Hvilken vogn kommer nå? 245 mønstertog-ark der barnet fortsetter mønsteret – logisk tenkning for barnehagen, gratis å skrive ut eller spille på nett.",
+      "winnability": "WINNABLE mid — 'mønstertog' selv er treleke-intent; trafikken kommer via 'mønster fortsette/oppgaver barnehage'-familien + barnehage-intersection.",
+      "notes": "Head 'mønster' pur er dekk-/strikke-støy (mønsterdybde, mønsterpapir). Ranker på 'mønster oppgaver barnehage' (verbatim). Størst bestand (245)."
+    },
+    "pattern-worksheet": {
+      "primaryQuery": "mønster oppgaver matematikk",
+      "evidence": "harvest",
+      "title": "Mønsterark – fortsett rekka (PDF)",
+      "h1": "Mønsterark: fortsett rekker og følger",
+      "metaDescription": "Former, farger, følger: 52 mønsterark for 1. trinn der barnet fortsetter rekka. Konsentrasjon og matteforståelse, gratis å skrive ut som PDF.",
+      "winnability": "WINNABLE via grade-1 intersection — 'mønster 1 trinn / former og mønster 1 trinn' (verbatim harvest); SERP fragmentert.",
+      "notes": "Money-query ligger på intersection grade-1__pattern-worksheet."
+    },
+    "bingo": {
+      "primaryQuery": "bingo barnehage",
+      "evidence": "harvest",
+      "title": "Bildebingo for barnehagen – til utskrift",
+      "h1": "Bildebingo: ferdige bingobrett for barnehagen",
+      "metaDescription": "Bingo med bilder i stedet for tall: 78 ferdige spillebrett for barnehage og skolestart. Skriv ut gratis og spill med en gang i gruppa.",
+      "winnability": "MID — 'bingo' head er blandet (bingolotto, spill); men 'bingo barnehage' (verbatim, vårtegn/høst/trafikk-bingo) viser ekte brett-demand.",
+      "notes": "Sterk verbatim-familie 'bingo barnehage'. Voksen-bingo (bingolotto) må unngås i tekst."
+    },
+    "grid-match": {
+      "primaryQuery": "matching oppgaver barn",
+      "evidence": "inventory",
+      "title": "Rutenettmatch – finn maken i rutenettet",
+      "h1": "Rutenettmatch: sett bildet på riktig plass",
+      "metaDescription": "Les rad og kolonne, sett bildet på plass: 48 rutenett-oppgaver for barnehagen. Trener romforståelse, gratis å skrive ut som PDF eller løse på nett.",
+      "winnability": "SKIP head — ingen norsk søketerm for mekanikken. Lever av intern lenking fra matching/visuell-klyngen.",
+      "notes": "Ingen harvest-treff for 'rutenettmatch'; hold teksten ærlig beskrivende."
+    },
+    "matching": {
+      "primaryQuery": "matching oppgaver barnehage",
+      "evidence": "harvest",
+      "title": "Koble sammen – finn parene (PDF)",
+      "h1": "Koble sammen: hva hører sammen?",
+      "metaDescription": "Finn paret og koble bildene: 92 koble-sammen-ark med bilder for barnehage og skolestart. Styrk ordforråd og logikk, gratis å skrive ut som PDF.",
+      "winnability": "MID — 'matching' head er mote (matching set); men 'matching oppgaver barnehage/barn/autisme' (verbatim) treffer spesialpedagogikk-publikum.",
+      "notes": "Harvest 'matching oppgaver autisme' er et reelt spesped-longtail — nevn i teksten. Bruk 'koble sammen' som norsk demand-ord."
+    },
+    "picture-sort": {
+      "primaryQuery": "sorter bilder",
+      "evidence": "harvest",
+      "title": "Sorter bilder i grupper – for barn (PDF)",
+      "h1": "Sorter bilder: ordne etter kategori",
+      "metaDescription": "Dyr til dyr, kjøretøy til kjøretøy: 181 sorteringsark der barnet ordner bilder i kategorier. Tenke i grupper, gratis å skrive ut som PDF eller på nett.",
+      "winnability": "MID — 'sorter bilder' pur er foto-app-intent (Dahlia/rose-sortering); kategori-vinkelen over barnehage-intersection.",
+      "notes": "Barnehage-intersection tar 'sortere og ordne'-demand. Størst bildeklynge-bestand etter pattern-train."
+    },
+    "shadow-match": {
+      "primaryQuery": "match skyggen barn",
+      "evidence": "inventory",
+      "title": "Match skyggen – finn riktig skygge (PDF)",
+      "h1": "Match skyggen: hvilken skygge hører til bildet?",
+      "metaDescription": "93 skyggeoppgaver: barnet kobler bildet til riktig skygge og trener visuell oppmerksomhet. For barnehage og skolestart, gratis PDF og på nett.",
+      "winnability": "WINNABLE — SERP tynn, ingen stor norsk eier. God enkeltsjanse i persepsjons-klyngen.",
+      "notes": "Ryddig innhold, klar mekanikk; bygg beste-i-klassen-side og koble fra visuell-oppmerksomhet."
+    },
+    "alphabet-train": {
+      "primaryQuery": "arbeidsark bokstaver",
+      "evidence": "harvest",
+      "title": "Alfabettoget – ABC i riktig rekkefølge",
+      "h1": "Alfabettoget: sett bokstavene i rekkefølge",
+      "metaDescription": "Sett de manglende bokstavene inn i toget: 69 ABC-ark for barnehagen. Lær alfabetet og bokstavrekka, gratis å skrive ut som PDF eller spill på nett.",
+      "winnability": "LOW-MID — 'arbeidsark alfabetet/bokstaver' er hardt (norsk bokstavinnlæring); vår vinkel er bokstavrekkefølge, ikke skriveøvelse.",
+      "notes": "Level-mismatch: søkende mener ofte 1. trinn, decks er barnehage (3-5). Vi har IKKE skrive-/formeøvelser — hold teksten ærlig."
+    },
+    "prepositions": {
+      "primaryQuery": "preposisjoner oppgaver barnehage",
+      "evidence": "harvest",
+      "title": "Preposisjoner med bilder – barnehage (PDF)",
+      "h1": "Preposisjoner: i, på, under, ved siden av – med bilder",
+      "metaDescription": "Hvor er ballen? 98 bildeoppgaver med preposisjoner som i, på, under og ved siden av – ideelt for barnehage, norsk som andrespråk og språkstøtte, gratis PDF.",
+      "winnability": "WINNABLE — SERP er Pinterest-tavler, bnorsk og voksen-A1/A2; ingen sterk K-3-eier. Moat-tema (11 språk + bilder).",
+      "notes": "Norsk-som-andrespråk-longtail ('preposisjoner norsk som andrespråk') er harvest-belagt — nevn i teksten. Verbatim demand-treff."
+    },
+    "word-guess": {
+      "primaryQuery": "gjett ordet",
+      "evidence": "harvest",
+      "title": "Gjett ordet – bokstav for bokstav (PDF)",
+      "h1": "Gjett ordet: bokstav for bokstav til løsningen",
+      "metaDescription": "Se bildet, gjett ordet, skriv inn bokstavene: 96 gåteark for lesestartere. Øv ordforråd og staving på en leken måte, gratis å skrive ut som PDF.",
+      "winnability": "LOW-MID — 'gjett ordet' head er app/spill (Coop, brettspill). Print-longtail tynt, men naabart.",
+      "notes": "Ikke bruk 'hangman'/'galge'-ord (negativt ladet). Bygg på bilde-hint-vinkelen."
+    },
+    "word-scramble": {
+      "primaryQuery": "bokstavspill",
+      "evidence": "harvest",
+      "title": "Bokstavspill – ordne bokstavene (PDF)",
+      "h1": "Bokstavspill: sett bokstavene i riktig rekkefølge",
+      "metaDescription": "Rotete ord som skal ordnes riktig: 96 bokstavspill-ark med bildehjelp for 1. trinn. Lesetrening med moro, gratis å skrive ut som PDF eller på nett.",
+      "winnability": "MID — 'bokstavspill' head er apper (Poio, GraphoGame) og brettspill; print/ordbrikker-longtailen er åpen.",
+      "notes": "Mekanikk = stokk-om-bokstavene, ikke bokstavinnlæringsapp — posisjoner ærlig. Intersection grade-1 tar '1 trinn'."
+    },
+    "wordsearch": {
+      "primaryQuery": "ordleting oppgaver",
+      "evidence": "serp",
+      "title": "Finn ord (ordleting) – ordgitter for barn",
+      "h1": "Finn ord: ordgitter og ordleting for barn",
+      "metaDescription": "Finn ordene i bokstavgitteret: 48 ordgitter med barnevennlige temaord for 1. trinn. Hvert ordleting-ark gratis som PDF eller spillbart på nett.",
+      "winnability": "WINNABLE — SERP er generatorer (infobilder), lekogskole og Pinterest; ingen dominant eier.",
+      "notes": "KRITISK: 'ordleting' pur kolliderer med ordletingsvansker (afasi/demens/ADHD) — bruk 'finn ord' + 'ordgitter' i tittel/tekst. Vurder taksonomi-navn."
+    },
+    "crossword": {
+      "primaryQuery": "kryssord for barn",
+      "evidence": "serp",
+      "title": "Kryssord for barn – til utskrift (PDF)",
+      "h1": "Bildekryssord for barn",
+      "metaDescription": "Kryssord med bilder i stedet for spørsmål: barnet navngir motivet og skriver inn ordet. 48 kryssord for lesestartere, gratis som PDF med fasit.",
+      "winnability": "MID-HARD — kryssordet.no og dagenskryssord.net/barn har egne barnekryssord; 'bildekryssord' + 2.trinn-intersection er åpningen.",
+      "notes": "Unngå voksen-kryssord-head strengt (kryssordhjelpen). Demand 'kryssord barn/1 trinn' finnes — intersection grade-2 (48 decks) bærer."
+    },
+    "sudoku": {
+      "primaryQuery": "bildesudoku for barn",
+      "evidence": "serp",
+      "title": "Bildesudoku for barn – til utskrift (PDF)",
+      "h1": "Bildesudoku: sudoku med bilder for barn",
+      "metaDescription": "Sudoku uten tall: i 4x4-rutene kommer bilder – perfekt for barnehage og skolestart. 98 bildesudoku med fasit, gratis å skrive ut eller løse på nett.",
+      "winnability": "WINNABLE — SERP domineres av SVENSKE sider (skolbilder, klurigheterforbarn, sudokus.se); ingen norsk eier for bildesudoku. Eksakt innholdsmatch.",
+      "notes": "Klar mulighet: 4x4 bildesudoku uten tall, ingen norsk konkurrent. Tema-longtail over deck-landings."
+    },
+    "cryptogram": {
+      "primaryQuery": "kryptogram online",
+      "evidence": "harvest",
+      "title": "Kryptogram for barn – knekk koden (PDF)",
+      "h1": "Kryptogram: knekk koden og finn setningen",
+      "metaDescription": "Knekk symbolene, sett inn bokstavene, løs setningen: 100 kryptogram-gåter for barn fra 1. trinn. Logikk og lesing, gratis PDF og på nett.",
+      "winnability": "WINNABLE niche — 'kryptogram' head er sang-tekst-/korsord-støy; barne-intent tynt besatt.",
+      "notes": "Temaløst (tekst-decode) — kjent uladbart på deck-nivå; topic-siden bærer demand alene."
+    },
+    "picture-path": {
+      "primaryQuery": "labyrint for barn",
+      "evidence": "inventory",
+      "title": "Bildevei – finn veien gjennom rutene",
+      "h1": "Bildevei: følg riktig vei gjennom bildefeltet",
+      "metaDescription": "Følg løsningsveien fra rute til rute: 91 bildevei-gåter for barnehagen. Første logiske tenkning, hvert ark gratis som PDF eller spillbart på nett.",
+      "winnability": "SKIP head — 'bildevei' er ikke et søkeord; 'labyrint' head er blandet. Intern lenking + logikk-longtail.",
+      "notes": "Ingen ren norsk søketerm for mekanikken; labyrint-longtail deles med treasure-hunt."
+    },
+    "find-and-count": {
+      "primaryQuery": "oppgaver for barn i barnehage",
+      "evidence": "harvest",
+      "title": "Søk og tell – for barnehagen (PDF)",
+      "h1": "Søk og tell: finn motivene og tell dem",
+      "metaDescription": "Oppdag motivene i bildet og tell dem: 93 søk-og-tell-ark for barnehagen. Mengdeforståelse og konsentrasjon i ett, gratis å skrive ut som PDF.",
+      "winnability": "LOW-MID — 'finn og tell' pur er navne-støy (Finn Tells); ekte demand går via 'telle/søke' + vrimmelbilde-naboskap.",
+      "notes": "Bruk 'søk og tell' (ikke 'finn og tell' — kolliderer med Finn Tells-episoder). Vrimmelbilde-ordet gis til find-objects."
+    },
+    "find-objects": {
+      "primaryQuery": "oppgaver for barn hjemme",
+      "evidence": "inventory",
+      "title": "Finn objektene – letebilder for barn (PDF)",
+      "h1": "Letebilder: finn de gjemte objektene",
+      "metaDescription": "Spor opp de gjemte tingene i bildet: 95 letebilde-ark for barnehage og skolestart. Trener nøyaktig titting, gratis som PDF eller spillbart på nett.",
+      "winnability": "MID — 'objekter finne' er spill-app-intent; 'letebilde/vrimmelbilde'-vinkelen mindre omkjempet.",
+      "notes": "H1 fører de ekte ordene (letebilde/vrimmelbilde). Skille fra find-and-count (telling)."
+    },
+    "treasure-hunt": {
+      "primaryQuery": "skattejakt oppgaver barn",
+      "evidence": "harvest",
+      "title": "Skattejakt-oppgaver for barn (PDF)",
+      "h1": "Skattejakt: gåteveier fram til skatten",
+      "metaDescription": "Følg stien over spillebrettet fram til skatten: 98 skattejakt-gåter for 1. trinn. Orientering og logikk, gratis å skrive ut som PDF eller på nett.",
+      "winnability": "LOW head — bursdags-intent dominerer massivt (bursdag, rebusløp, uteaktiviteter). Longtail 'skattejakt oppgaver barn' via intersection.",
+      "notes": "Vær ærlig: våre decks er gåteark, ikke bursdags-rebusløp. Intersection grade-1 tar den lille skoledemanden."
+    },
+    "missing-pieces": {
+      "primaryQuery": "manglende brikker",
+      "evidence": "harvest",
+      "title": "Hva mangler? Finn den manglende brikken",
+      "h1": "Hva mangler? Finn den delen som mangler i bildet",
+      "metaDescription": "Hvilken del mangler i bildet? 93 letegåter for barnehagen der barnet kjenner igjen og setter inn manglende utsnitt. Visuell oppmerksomhet, gratis PDF.",
+      "winnability": "LOW-MID — 'manglende brikker' head er Lego-støy; barnehage-longtail liten men ren.",
+      "notes": "Rank alltid med kontekst-kvalifikator (hva mangler/bilde), aldri 'manglende brikker' pur (Lego-reservedeler)."
+    },
+    "odd-one-out": {
+      "primaryQuery": "hvem skal ut",
+      "evidence": "serp",
+      "title": "Hvem skal ut? Logikkoppgaver med bilder",
+      "h1": "Hvem skal ut? Finn bildet som ikke passer",
+      "metaDescription": "Fire bilder, ett passer ikke: 137 ark til logisk tenkning for barnehage og skolestart. Kjenne kategorier, gratis å skrive ut som PDF eller på nett.",
+      "winnability": "WINNABLE — 'hvem skal ut?' er DEN norske klasseroms-termen (NTNU matematisk argumentasjon); SERP tynn. Eksakt innholdsmatch.",
+      "notes": "Bruk 'hvem skal ut?' (autentisk pedagogisk term) i tittel/tekst, ikke taksonomiens 'hvilken passer ikke'. Vurder taksonomi-navn."
+    },
+    "counting-pictures": {
+      "primaryQuery": "matteoppgaver barnehage",
+      "evidence": "harvest",
+      "title": "Tell bildene – lær å telle med bilder (PDF)",
+      "h1": "Tell bildene: telle og oppfatte mengder",
+      "metaDescription": "Først telle, så koble til tall: 27 telleark med muntre motiver for barnehagen. Trygg omgang med mengder opp til 10, gratis å skrive ut som PDF.",
+      "winnability": "LOW-MID — 'telle med bilder' via 'matteoppgaver barnehage / enkle matteoppgaver'-miljøet + mengde-longtail.",
+      "notes": "Liten bestand (27) — prioriter bak more-less/find-and-count."
+    },
+    "counting-frames": {
+      "primaryQuery": "tierramme oppgaver",
+      "evidence": "harvest",
+      "title": "Tierramme – øvelser til utskrift (PDF)",
+      "h1": "Tierramme: oppfatt mengder i tierrammen",
+      "metaDescription": "Se prikkene i tierrammen på et blikk: øvingsark til tallforståelse opp til 10 for begynneropplæringen. Gratis som PDF med fasit å skrive ut.",
+      "winnability": "WINNABLE niche — 'tierramme oppgaver' er ren lærer-intent, tynn SERP; men bare 9 decks: DECK-GAP.",
+      "notes": "Demand klar, bestand for tynn — anbefal deck-produksjon, deretter intersection grade-1."
+    },
+    "tally-counting": {
+      "primaryQuery": "tellestreker oppgaver",
+      "evidence": "harvest",
+      "title": "Tellestreker – tell og noter (PDF)",
+      "h1": "Tellestreker: telle, bunte og lese av",
+      "metaDescription": "Før tellestreker som de store: telle, bunte i femmere, lese av. Øvingsark for 1. og 2. trinn – datainnsamling fra starten, gratis som PDF.",
+      "winnability": "WINNABLE niche — 'tellestreker oppgaver' ren lærer-intent; men bare 4 decks: DECK-GAP.",
+      "notes": "Deck-produksjon først, så lønner siden seg. Demand finnes."
+    },
+    "number-charts": {
+      "primaryQuery": "hundrerute",
+      "evidence": "harvest",
+      "title": "Hundrerute – øvelser til utskrift (PDF)",
+      "h1": "Hundrerute: øv i tallområdet opp til 100",
+      "metaDescription": "Finn tall, fyll ut utsnitt, oppdag mønstre: 34 hundrerute-ark for tallområdet opp til 100. Gratis å skrive ut som PDF med fasit.",
+      "winnability": "MID — 'hundrerute/hundrerutenett' tynn, ren lærer-intent; ingen dominant eier.",
+      "notes": "Demand skewer 1.-2. trinn; intersection grade-1 (13 decks) bærer den lille grade-familien."
+    },
+    "comparing-numbers": {
+      "primaryQuery": "sammenligne tall",
+      "evidence": "harvest",
+      "title": "Sammenligne tall: større, mindre, lik (PDF)",
+      "h1": "Sammenligne tall med <, > og =",
+      "metaDescription": "Hvilket tall er størst? Øvingsark der barnet sammenligner tall med tegnene større enn, mindre enn og lik. For 1. og 2. trinn, gratis å skrive ut.",
+      "winnability": "WINNABLE niche — 'sammenligne tall' ren intent men 'i excel'-støy i head; bare 6 decks: DECK-GAP.",
+      "notes": "Klassisk 1.trinn-tema; bygg bestand. Skill fra comparing-groups (mengder, uten tegn)."
+    },
+    "comparing-groups": {
+      "primaryQuery": "sammenligne mengder",
+      "evidence": "harvest",
+      "title": "Sammenligne mengder – hvor er det flest?",
+      "h1": "Sammenligne mengder: hvor er det flest, hvor færrest?",
+      "metaDescription": "To grupper, ett blikk: barnet sammenligner mengder og markerer den største. Barnehageark til mengdeforståelse, gratis å skrive ut som PDF.",
+      "winnability": "MID niche — 'sammenligne mengder' verbatim, men bare 8 decks: DECK-GAP. Semantisk nær more-less.",
+      "notes": "Unngå kanibalisering med more-less: denne tar tegn-fri mengdeformulering."
+    },
+    "comparing-sizes": {
+      "primaryQuery": "sammenligne størrelser",
+      "evidence": "harvest",
+      "title": "Sammenligne størrelser – ordne etter størrelse",
+      "h1": "Sammenligne størrelser: finn det største og minste",
+      "metaDescription": "Ordne fra minst til størst: 15 ark til størrelsessammenligning for barnehagen. Første målforståelse, gratis å skrive ut som PDF eller løse på nett.",
+      "winnability": "MID niche — echo-evidens, SERP ikke spesielt besatt.",
+      "notes": "Skill fra big-small (stor/liten) i teksten: her ordner man etter størrelse."
+    },
+    "number-lines": {
+      "primaryQuery": "tallinje oppgaver",
+      "evidence": "harvest",
+      "title": "Tallinje – oppgaver til utskrift (PDF)",
+      "h1": "Tallinje: plassér tall opp til 20",
+      "metaDescription": "Finn og sett tall på tallinja: øvingsark for tallområdet opp til 20 i begynneropplæringen. Gratis å skrive ut som PDF med fasit.",
+      "winnability": "HARD demand / DECK-GAP — 'tallinje 0-20/0-100/oppgaver 1/2 trinn' er en av de sterkeste mattefamiliene i harvest, men bare 9 decks. Størst ubetjent demand.",
+      "notes": "Prioriter deck-produksjon: rivaler mathanvil, salaby, netteleven, undervisningsmetoder er ikke uslåelige."
+    },
+    "base-ten": {
+      "primaryQuery": "arbeidsark tiere og enere",
+      "evidence": "harvest",
+      "title": "Plassverdi: tiere og enere – øvelser (PDF)",
+      "h1": "Plassverdi: forstå tiere og enere",
+      "metaDescription": "Del tall i tiere og enere: 12 plassverdi-ark med anskuelsesmateriell for 1. og 2. trinn. Grunnlag for regning opp til 100, gratis som PDF.",
+      "winnability": "MID niche — 12 decks akkurat på grensa; demand solid ('tiere og enere', 'plassverdisystemet').",
+      "notes": "Bestand grensetilfelle for egne intersections; styrk typ-siden først."
+    },
+    "telling-time": {
+      "primaryQuery": "arbeidsark klokka",
+      "evidence": "harvest",
+      "title": "Lære klokka – oppgaver til utskrift (PDF)",
+      "h1": "Lære klokka: les klokka steg for steg",
+      "metaDescription": "Hele timer, halve timer, minutter: 81 ark til klokkelesing med visere – fra 1. til 3. trinn. Gratis å skrive ut som PDF og øve på nett.",
+      "winnability": "HARD head — spireserien.no, kittysoppgaver.com, salaby fast etablert. WINNABLE via 2./3.trinn-intersections.",
+      "notes": "Ekstremt rik suggestion-familie (klokka 1/2 trinn, utskrift, analog). Intersections er money-sidene."
+    },
+    "fractions": {
+      "primaryQuery": "brøk oppgaver",
+      "evidence": "harvest",
+      "title": "Brøk for barn – oppdag halve og fjerdedeler",
+      "h1": "Første brøk: halve, fjerdedeler, hele",
+      "metaDescription": "Halv, fjerdedel, tredjedel anskuelig: 68 brøk-ark med bilder til å fargelegge og koble. Første brøkforståelse for mellomtrinnet, gratis som PDF.",
+      "winnability": "LOW-MID — norsk brøk-demand ligger på 4.-8. trinn ('brøk oppgaver 4/5/7 trinn'); K-3-andelen liten. Framing 'første brøk'.",
+      "notes": "Ingen ekte K-3-intersection lav nok; decks er 7-9/8-10. Vær ærlig om nivå."
+    },
+    "graphing-data": {
+      "primaryQuery": "diagram og data",
+      "evidence": "inventory",
+      "title": "Diagram og data – oppgaver til utskrift",
+      "h1": "Diagram og data: les av, tell og fyll inn",
+      "metaDescription": "Les søylediagram og fyll dem selv: 28 ark til diagram og data for grunnskolen. Gratis å skrive ut som PDF, fasit inkludert.",
+      "winnability": "WINNABLE — 'diagram data' head er database-/IT-støy; barne-/skole-vinkelen er åpen. Intersection grade-1 bærer.",
+      "notes": "Head er IT-forurenset; rank via 'diagram 1 trinn' + intern lenking fra chart-count."
+    },
+    "arrays-multiplication": {
+      "primaryQuery": "arbeidsark ganging",
+      "evidence": "harvest",
+      "title": "Ganging med rader – første multiplikasjon (PDF)",
+      "h1": "Ganging med rader: multiplikasjon med prikkefelt",
+      "metaDescription": "Rader og felt i stedet for pugging: 31 gange-ark med prikkefelt for inngangen til multiplikasjon på 2.-3. trinn. Gratis å skrive ut som PDF.",
+      "winnability": "HARD head — 'gangetabellen' (gangetabellen.net exact-domain) og 'multiplikasjon' hardt; longtail via 2.trinn-intersection + prikkefelt-vinkel.",
+      "notes": "Våre decks = rader/prikkefelt (inngang), ikke tabell-drill — posisjoner ærlig."
+    },
+    "geometry": {
+      "primaryQuery": "geometri oppgaver",
+      "evidence": "harvest",
+      "title": "Geometri – former og figurer for barn (PDF)",
+      "h1": "Geometri: kjenne igjen former og figurer",
+      "metaDescription": "Kjenne former, skille flater og figurer: 37 geometri-ark fra barnehage til 3. trinn. Gratis å skrive ut som PDF med fasit.",
+      "winnability": "MID — head skewer 3.-10. trinn (kittysoppgaver, matematikk.org); 2.trinn-intersection er den rene inngangen.",
+      "notes": "Intersection geometry__grade-2 (17 decks) tar 'geometri oppgaver 2. trinn' (verbatim)."
+    },
+    "measurement": {
+      "primaryQuery": "måling oppgaver",
+      "evidence": "harvest",
+      "title": "Måling – lengde og vekt for barn (PDF)",
+      "h1": "Måling: sammenlign og mål lengder",
+      "metaDescription": "Med linjal og øyemål: 35 ark til å måle og sammenligne lengder – fra barnehagen til 2. trinn. Gratis å skrive ut som PDF eller løse på nett.",
+      "winnability": "MID — 'måling' head er blodsukker/radon-støy; skole-longtail via 1./2.trinn-intersection.",
+      "notes": "'oppgaver måling 1/2 trinn' er verbatim harvest. Intersection grade-1 (12) på grensa."
+    },
+    "visual-logic": {
+      "primaryQuery": "logiske gåter for barn",
+      "evidence": "harvest",
+      "title": "Logiske gåter for barn – gratis (PDF)",
+      "h1": "Logiske gåter: tenke og kombinere for barn",
+      "metaDescription": "Kombinere i stedet for å gjette: 14 logiske gåter for barn med bilder i stedet for tekst. Tenketrening for barnehage til 3. trinn, gratis som PDF.",
+      "winnability": "MID — head er voksen-dominert; 'logiske gåter for barn' rent men bare 14 decks.",
+      "notes": "DECK-GAP-kandidat: demand-familien (barn/voksne/med svar) er der."
+    },
+    "visual-discrimination": {
+      "primaryQuery": "visuell oppmerksomhet",
+      "evidence": "harvest",
+      "title": "Visuell oppmerksomhet – finn forskjeller (PDF)",
+      "h1": "Visuell oppmerksomhet: finn like og ulike bilder",
+      "metaDescription": "Finn like bilder, se forskjeller, sammenlign detaljer: 15 ark til visuell oppmerksomhet for barnehage og skolestart. Gratis å skrive ut som PDF.",
+      "winnability": "WINNABLE — SERP fragmentert (Pinterest, læringsverkstedet, lirumlarumleg); ergo-/spesialped-publikum søker mye.",
+      "notes": "'finn fem feil' demand er STOR men mekanikken vår er finn-like/ulike, IKKE spot-5-forskjeller mellom to scener — ikke lov mer enn vi leverer. Klyngehode: koble til shadow-match, missing-pieces, odd-one-out."
+    },
+    "visual-matching": {
+      "primaryQuery": "finne par",
+      "evidence": "harvest",
+      "title": "Finn par – like bilder for barn (PDF)",
+      "h1": "Finn par: koble like bilder sammen",
+      "metaDescription": "Hvilke bilder hører sammen? Par-oppgaver for barnehagen med hverdagsmotiver – trener oppmerksomhet og hukommelse, gratis å skrive ut som PDF.",
+      "winnability": "MID niche — 'finne par' head er parkering/partner-støy; bare 5 decks: DECK-GAP.",
+      "notes": "Demand-familie tynn; bygg bestand. Rank med 'finn par bilder barn'-kontekst."
+    },
+    "patterns": {
+      "primaryQuery": "mønster oppgaver",
+      "evidence": "harvest",
+      "title": "Mønster – fortsett rekka (PDF)",
+      "h1": "Mønster: kjenne igjen og fortsette rekker",
+      "metaDescription": "Hvordan går rekka videre? Ark til å fortsette mønster med former og bilder for barnehage og 1. trinn. Gratis å skrive ut som PDF eller på nett.",
+      "winnability": "MID — SERP moderat (websincloud, undervisningsbyen, Pinterest); demand-familie rik.",
+      "notes": "Barnehage-kvalifikator går til pattern-train (245 decks) — IKKE dobbel opp her."
+    },
+    "position-words": {
+      "primaryQuery": "plasseringsord",
+      "evidence": "harvest",
+      "title": "Plasseringsord – over, under, ved siden av",
+      "h1": "Plasseringsord: over, under, foran, bak",
+      "metaDescription": "Hvor ligger ballen – over, under eller ved siden av? Ark til plasseringsord og romforståelse for barnehage og 1. trinn, gratis å skrive ut som PDF.",
+      "winnability": "WINNABLE niche — matte-lærer-intent klart, SERP tynn; men bare 8 decks: DECK-GAP.",
+      "notes": "Nabo av prepositions: plasseringsord = matte-ord, preposisjoner = norsk/andrespråk-ord."
+    },
+    "sorting-categories": {
+      "primaryQuery": "sortere og ordne",
+      "evidence": "harvest",
+      "title": "Sortere i grupper – øvingsark for barn",
+      "h1": "Sortere i grupper: dele ting inn i kategorier",
+      "metaDescription": "Sortere etter farge, form eller type: øvingsark til å ordne og kategorisere for barnehagen. Legg tenkegrunnlag, gratis å skrive ut som PDF.",
+      "winnability": "SKIP som egen side (4 decks) — demand 'sortere og ordne' går til picture-sort-intersection.",
+      "notes": "Heng inn i picture-sort-klyngen, ikke push separat."
+    },
+    "picture-arithmetic": {
+      "primaryQuery": "matematikk 1 trinn oppgaver",
+      "evidence": "harvest",
+      "title": "Regne med bilder – pluss og minus (PDF)",
+      "h1": "Regne med bilder: første pluss- og minusoppgaver",
+      "metaDescription": "Først telle bilder, så regne: 14 ark med bildeoppgaver til pluss og minus for 1. trinn. Anskuelig regnestart, gratis å skrive ut som PDF.",
+      "winnability": "WINNABLE mid — verbatim demand-miljø, SERP middels; eksakt innholdsmatch.",
+      "notes": "Alle decks på 1. trinn → ingen egen intersection nødvendig (ville vært duplikat)."
+    },
+    "science-sort": {
+      "primaryQuery": "arbeidsark naturfag",
+      "evidence": "harvest",
+      "title": "Naturfag: sortere og kategorisere (PDF)",
+      "h1": "Naturfag: sortere, kategorisere, oppdage",
+      "metaDescription": "Levesteder, årstider, natur: 90 sorteringsark til naturfag for barnehage og 1. trinn. Ordne kunnskap i grupper, gratis å skrive ut som PDF.",
+      "winnability": "DEFER-TO-HUB — 'naturfag arbeidsark' hører fag×trinn-hubben til; topic-siden bare mekanikk-støtte.",
+      "notes": "Ikke titulere mot egen naturfag-hub."
+    },
+    "science-match": {
+      "primaryQuery": "arbeidsark naturfag",
+      "evidence": "inventory",
+      "title": "Naturfag: para sammen bilder og begrep",
+      "h1": "Para sammen i naturfag: hva hører sammen?",
+      "metaDescription": "Dyr til levested, redskap til yrke: 10 koble-sammen-ark med naturfagstemaer for nysgjerrige barn. Knytte kunnskap, gratis å skrive ut som PDF.",
+      "winnability": "LOW — 10 decks, ingen egen søketerm. Intern lenking i naturfag-klyngen.",
+      "notes": "Støtte-side i naturfag-klyngen."
+    },
+    "science-sequence": {
+      "primaryQuery": "arbeidsark naturfag",
+      "evidence": "inventory",
+      "title": "Rekkefølge og livssykluser – naturfag (PDF)",
+      "h1": "Livssykluser: ordne naturens rekkefølger",
+      "metaDescription": "Fra egg til larve til sommerfugl: ark til livssykluser og rekkefølger i naturfag – ordne naturkunnskap på en leken måte, gratis som PDF.",
+      "winnability": "SKIP (1 deck) — bygg bestand først.",
+      "notes": "Plassholder; ingen push før deck-produksjon."
+    },
+    "beginning-sounds": {
+      "primaryQuery": "språklig bevissthet",
+      "evidence": "harvest",
+      "title": "Førstelyd – første lyd i ordet (PDF)",
+      "h1": "Førstelyd: hør og kjenn igjen første lyd",
+      "metaDescription": "Hvilken lyd begynner ordet med? 10 førstelyd-ark med bilder for barnehage og 1. trinn – språklig bevissthet, gratis å skrive ut som PDF.",
+      "winnability": "MID / DECK-GAP — 'språklig bevissthet' + 'første lyd' demand solid (barnehage-læreplan), men bare 10 decks.",
+      "notes": "Deck-produksjon åpner en hel demand-familie (førstelyd/anlyd over barnehage…2. trinn)."
+    },
+    "letter-knowledge": {
+      "primaryQuery": "arbeidsark bokstaver",
+      "evidence": "harvest",
+      "title": "Bokstavkjennskap – kjenn igjen bokstaver (PDF)",
+      "h1": "Bokstavkjennskap: kjenne igjen og skille bokstaver",
+      "metaDescription": "Finn bokstaven i rekka: 20 ark til bokstavkjennskap for barnehage og skolestart – bokstavsikkerhet før lesing, gratis å skrive ut som PDF.",
+      "winnability": "MID — ren intent ('bokstaver/bokstavinnlæring'), moderat konkurranse.",
+      "notes": "Relatert demand 'arbeidsark bokstaver' er større men skrivelærgangs-intent (vi har ingen skriveark — vær ærlig)."
+    },
+    "word-building": {
+      "primaryQuery": "arbeidsark bokstaver",
+      "evidence": "inventory",
+      "title": "Ordbygging – bygg ord av bokstaver (PDF)",
+      "h1": "Ordbygging: legg bokstaver til hele ord",
+      "metaDescription": "Bokstav for bokstav til hele ordet: 10 ordbygging-ark for lesestartere – feste lyd-bokstav-kobling, gratis å skrive ut som PDF eller løse på nett.",
+      "winnability": "LOW-MID niche — verbatim-nær, liten (10 decks).",
+      "notes": "Longtail-nabo av førstelyd-familien."
+    },
+    "picture-vocabulary": {
+      "primaryQuery": "arbeidsark ordforråd bilder",
+      "evidence": "inventory",
+      "title": "Bildeordforråd – ord med bilder (PDF)",
+      "h1": "Bildeordforråd: se ordet, lær ordet",
+      "metaDescription": "Se bildet, lær ordet: bildeordforråd-ark til hverdagstemaer – ideelt for norsk som andrespråk, språkstøtte og barnehage, gratis å skrive ut som PDF.",
+      "winnability": "WINNABLE niche — norsk-som-andrespråk-publikum, tynn SERP. Moat-tema (11 språk).",
+      "notes": "Løft frem andrespråk-vinkelen; bare 10 decks — bygg bestand (tema-decks som råstoff)."
+    },
+    "phonological-awareness": {
+      "primaryQuery": "språklig bevissthet barnehage",
+      "evidence": "harvest",
+      "title": "Språklig bevissthet – lyder og stavelser (PDF)",
+      "h1": "Språklig bevissthet: hør, klapp, les",
+      "metaDescription": "Klapp stavelser og hør lyder: 25 ark til språklig bevissthet for barnehage og 1. trinn – grunnlaget for lesing, gratis å skrive ut som PDF.",
+      "winnability": "MID — 'språklig bevissthet' + 'barnehage' solid (Frost/TRAS-miljø); rik pedagogisk demand.",
+      "notes": "Verbatim 'språklig bevissthet barnehage'. Kobler til førstelyd + ordbygging."
+    },
+    "preschool": {
+      "primaryQuery": "oppgaver barnehage",
+      "evidence": "harvest",
+      "title": "Oppgaver for barnehagen – gratis til utskrift",
+      "h1": "Barnehage: oppgaver for barn fra 3 år",
+      "metaDescription": "Over 400 barnehageark: sammenligne mengder, mønster, oppmerksomhet, første bokstaver – alt gratis å skrive ut som PDF eller spille på nett.",
+      "winnability": "MID head — lekogskole.no har en barnehage-seksjon men fragmentert; interaktiv + bredde-vinkelen er åpen.",
+      "notes": "Harvest: 'oppgaver for barnehagebarn', 'førskole oppgaver'. Nivå-hub som fordeler til barnehage-intersections."
+    },
+    "kindergarten": {
+      "primaryQuery": "oppgaver for skolestartere",
+      "evidence": "harvest",
+      "title": "Oppgaver for skolestartere – gratis (PDF)",
+      "h1": "Skolestartere: oppgaver for 5- til 6-åringer",
+      "metaDescription": "Den største samlingen: tusenvis av oppgaver for skolestartere – fra skyggematch til første plussoppgaver. Gratis å skrive ut som PDF eller øve på nett.",
+      "winnability": "MID — 'oppgaver for skolestartere' verbatim, tynn SERP; alders-longtail (5/6 år) åpen.",
+      "notes": "Norsk skolestart er 6 år: 5-7-båndet er skolestarter-/1.trinn-forberedende. Verdeler til de fleste 5-7-intersections."
+    },
+    "grade-1": {
+      "primaryQuery": "oppgaver for 1 trinn",
+      "evidence": "harvest",
+      "title": "Oppgaver 1. trinn – gratis til utskrift (PDF)",
+      "h1": "1. trinn: oppgaver i matte, norsk og logikk",
+      "metaDescription": "Oppgaver for 1. trinn: regne til 20, finn ord, mønster og klokka – med fasit, gratis å skrive ut som PDF eller spille på nett.",
+      "winnability": "HARD head — matteoppgaver.com, ukemal.no, salaby, skolekassa. Styrk + lenk til typ-intersections.",
+      "notes": "Harvest-familie ekstremt rik. Nivå-hub som fordeler til 1.trinn-intersections."
+    },
+    "grade-2": {
+      "primaryQuery": "oppgaver for 2 trinn",
+      "evidence": "harvest",
+      "title": "Oppgaver 2. trinn – gratis til utskrift (PDF)",
+      "h1": "2. trinn: oppgaver i matte, norsk og gåter",
+      "metaDescription": "Oppgaver for 2. trinn: kryssord, klokka, geometri og regning – hvert ark med fasit, gratis å skrive ut som PDF eller løse på nett.",
+      "winnability": "HARD head; styrk som fordelerside. Sterk verbatim-familie 'oppgaver … 2 trinn'.",
+      "notes": "Harvest: 'oppgaver klokka/måling/tallinje/geometri/norsk 2 trinn'. Verdeler til 2.trinn-intersections."
+    },
+    "grade-3": {
+      "primaryQuery": "matteark 3.trinn",
+      "evidence": "harvest",
+      "title": "Oppgaver 3. trinn – gratis til utskrift (PDF)",
+      "h1": "3. trinn: oppgaver til å øve og knekke",
+      "metaDescription": "Oppgaver for 3. trinn: klokka på minuttet, ganging med rader, geometri og de første brøkdelene – gratis å skrive ut som PDF, fasit inkludert.",
+      "winnability": "LOW-priori — K-3-rand, tynnere 3.trinn-demand i harvest. Kun grunnstell.",
+      "notes": "Ingen utbygging før 1./2.trinn-metning."
+    },
+    "animals": {
+      "primaryQuery": "oppgaver dyr",
+      "evidence": "harvest",
+      "title": "Oppgaver dyr – gratis til utskrift (PDF)",
+      "h1": "Dyr: oppgaver rundt dyreverdenen",
+      "metaDescription": "127 dyre-ark: telle dyr, koble sammen, gjette dyreord – for barnehage til 2. trinn, hvert ark gratis å skrive ut som PDF eller spille på nett.",
+      "winnability": "MID — 'oppgaver dyr' verbatim; SERP blander naturfag og biologi, øve-/barnehage-vinkelen åpen.",
+      "notes": "Størst tema; ingen eier for øve-intent."
+    },
+    "fruits": {
+      "primaryQuery": "frukt og grønnsaker oppgaver",
+      "evidence": "harvest",
+      "title": "Oppgaver frukt – gratis til utskrift (PDF)",
+      "h1": "Frukt: oppgaver til å telle, koble og sortere",
+      "metaDescription": "Telle epler, koble frukter, gjette fruktord: 113 ark rundt frukt for barnehage og skolestart. Gratis å skrive ut som PDF eller løse på nett.",
+      "winnability": "MID — 'frukt og grønnsaker oppgaver' verbatim; kombinér med grønnsaker.",
+      "notes": "Demand-ord er 'frukt' (ofte sammen med grønnsaker)."
+    },
+    "vegetables": {
+      "primaryQuery": "frukt og grønnsaker oppgaver",
+      "evidence": "harvest",
+      "title": "Oppgaver grønnsaker – gratis til utskrift (PDF)",
+      "h1": "Grønnsaker: oppgaver til å telle og sortere",
+      "metaDescription": "Sortere, telle og koble grønnsaker: 59 ark rundt grønnsaker for barnehagen. Fint til tema om mat og helse, gratis å skrive ut som PDF.",
+      "winnability": "MID — deles med frukt; 'frukt og grønnsaker' verbatim.",
+      "notes": "Kobling til frukt + mat/helse-tema i teksten."
+    },
+    "vehicles": {
+      "primaryQuery": "oppgaver dyr",
+      "evidence": "inventory",
+      "title": "Oppgaver kjøretøy – gratis til utskrift (PDF)",
+      "h1": "Kjøretøy: oppgaver fra bil til gravemaskin",
+      "metaDescription": "Biler, gravemaskiner, brannbil: 110 kjøretøy-ark til å telle, koble og gjette. Yndlingstema for mange barn, gratis å skrive ut som PDF eller på nett.",
+      "winnability": "MID niche — echo-evidens, tynn SERP; populært barnetema.",
+      "notes": "Godt inngangstema via deck-landings."
+    },
+    "toys": {
+      "primaryQuery": "oppgaver dyr",
+      "evidence": "inventory",
+      "title": "Oppgaver leker – gratis til utskrift (PDF)",
+      "h1": "Leker: oppgaver rundt lekekassen",
+      "metaDescription": "Telle leker, koble sammen, sortere: 107 leke-ark for barnehagen. Kjente motiver barna elsker, gratis å skrive ut som PDF eller spille på nett.",
+      "winnability": "MID niche — echo-evidens; nært barnas hverdag.",
+      "notes": "Inngangstema; monetariser via deck-landings."
+    },
+    "shapes": {
+      "primaryQuery": "geometriske former oppgaver",
+      "evidence": "harvest",
+      "title": "Oppgaver former – barnehage og skolestart (PDF)",
+      "h1": "Former: sirkel, trekant, firkant",
+      "metaDescription": "Sirkel, trekant, firkant: 96 former-ark til å kjenne igjen, koble og sortere for barnehagen. Gratis å skrive ut som PDF eller løse på nett.",
+      "winnability": "WINNABLE mid — 'geometriske former oppgaver / oppgaver former' verbatim; SERP moderat.",
+      "notes": "Bro til geometry (1. trinn+) i teksten."
+    },
+    "bakery": {
+      "primaryQuery": "oppgaver dyr",
+      "evidence": "inventory",
+      "title": "Oppgaver bakeri – gratis til utskrift (PDF)",
+      "h1": "Bakeri: oppgaver fra bolle til kake",
+      "metaDescription": "Boller, kaker, brød: 101 bakeri-ark til å telle, koble og sortere for barnehagen. Fint til tema om mat, gratis å skrive ut som PDF eller på nett.",
+      "winnability": "LOW-MID niche — ingen egen søketerm; inngangstema.",
+      "notes": "Stort bestand (101); intern lenking + deck-landings."
+    },
+    "flowers": {
+      "primaryQuery": "oppgaver dyr",
+      "evidence": "inventory",
+      "title": "Oppgaver blomster – gratis til utskrift (PDF)",
+      "h1": "Blomster: oppgaver rundt blomster og hage",
+      "metaDescription": "Telle blomster, koble sammen, sortere: 74 blomster-ark for barnehagen. Fint til vår- og naturtema, gratis å skrive ut som PDF eller løse på nett.",
+      "winnability": "LOW-MID niche — inngangstema, tynn SERP.",
+      "notes": "Naturtema-nabo; unngå å kollidere med sesong (vår er egen sesonghub)."
+    },
+    "body_parts": {
+      "primaryQuery": "kroppsdeler oppgaver",
+      "evidence": "harvest",
+      "title": "Oppgaver kroppsdeler – gratis til utskrift (PDF)",
+      "h1": "Kroppsdeler: oppgaver om kroppen",
+      "metaDescription": "Navngi og koble kroppsdeler: 57 ark om kroppen for barnehage og skolestart. Fint til tema om kroppen, gratis å skrive ut som PDF eller på nett.",
+      "winnability": "MID — 'kroppsdeler oppgaver' verbatim; tema kroppen bredt undervist.",
+      "notes": "Kobling til 'kroppen'-tema (harvest 'arbeidsark kroppen')."
+    },
+    "clothing": {
+      "primaryQuery": "klær oppgaver",
+      "evidence": "harvest",
+      "title": "Oppgaver klær – gratis til utskrift (PDF)",
+      "h1": "Klær: oppgaver om klær og farger",
+      "metaDescription": "Sortere og koble klær: 56 klær-ark for barnehagen, fint sammen med farger. Norsk og andrespråk, gratis å skrive ut som PDF eller løse på nett.",
+      "winnability": "MID — 'klær oppgaver', 'klær og farger oppgaver' verbatim.",
+      "notes": "Kombinér med farger i teksten (harvest 'klær og farger oppgaver')."
+    },
+    "colors": {
+      "primaryQuery": "farger oppgaver",
+      "evidence": "harvest",
+      "title": "Oppgaver farger – gratis til utskrift (PDF)",
+      "h1": "Farger: oppgaver om farger for barn",
+      "metaDescription": "Kjenne igjen og sortere etter farge: 48 farge-ark for barnehagen. Fint sammen med klær og former, gratis å skrive ut som PDF eller på nett.",
+      "winnability": "MID — 'farger oppgaver' verbatim; barnehage-basistema.",
+      "notes": "Nabo av klær og former."
+    },
+    "occupations": {
+      "primaryQuery": "yrker oppgaver",
+      "evidence": "harvest",
+      "title": "Oppgaver yrker – gratis til utskrift (PDF)",
+      "h1": "Yrker: oppgaver om jobber og yrker",
+      "metaDescription": "Koble redskap til yrke, sortere og gjette: 58 yrke-ark for barnehage og skolestart. Fint til samfunnstema, gratis å skrive ut som PDF eller på nett.",
+      "winnability": "MID niche — 'yrker oppgaver' verbatim, tynn SERP.",
+      "notes": "Samfunnsfag-nabo; koble til science-match (yrke↔redskap)."
+    },
+    "dinosaurs": {
+      "primaryQuery": "dinosaurer oppgaver",
+      "evidence": "harvest",
+      "title": "Oppgaver dinosaurer – gratis til utskrift (PDF)",
+      "h1": "Dinosaurer: oppgaver for dinosaur-fans",
+      "metaDescription": "Telle, koble og sortere dinosaurer: 57 dino-ark for barnehage og skolestart. Populært yndlingstema, gratis å skrive ut som PDF eller løse på nett.",
+      "winnability": "MID niche — 'dinosaurer oppgaver' verbatim; sterkt barne-appelltema.",
+      "notes": "Høy engasjementsverdi; inngangstema via deck-landings."
+    },
+    "space": {
+      "primaryQuery": "verdensrommet oppgaver",
+      "evidence": "harvest",
+      "title": "Oppgaver verdensrommet – gratis (PDF)",
+      "h1": "Verdensrommet: oppgaver om rommet",
+      "metaDescription": "Planeter, raketter, stjerner: 58 verdensrom-ark til å telle, koble og sortere for barnehagen. Gratis å skrive ut som PDF eller løse på nett.",
+      "winnability": "MID niche — 'verdensrommet oppgaver' verbatim.",
+      "notes": "Naturfag-/temanabo; høy barne-appell."
+    },
+    "emotions": {
+      "primaryQuery": "følelser oppgaver",
+      "evidence": "harvest",
+      "title": "Oppgaver følelser – gratis til utskrift (PDF)",
+      "h1": "Følelser: oppgaver om følelser for barn",
+      "metaDescription": "Kjenne igjen og koble følelser: 52 følelses-ark for barnehage og skolestart. Fint til livsmestring og sosial kompetanse, gratis å skrive ut som PDF.",
+      "winnability": "MID — 'følelser oppgaver / følelser oppgaver barn' verbatim; livsmestring-tema populært.",
+      "notes": "Livsmestring-vinkel; harvest 'arbeidsark følelser' verbatim."
+    },
+    "music": {
+      "primaryQuery": "oppgaver musikk",
+      "evidence": "harvest",
+      "title": "Oppgaver musikk – gratis til utskrift (PDF)",
+      "h1": "Musikk: oppgaver om instrumenter og lyd",
+      "metaDescription": "Koble instrumenter, sortere og telle: 54 musikk-ark for barnehage og skolestart. Fint til musikktema, gratis å skrive ut som PDF eller på nett.",
+      "winnability": "LOW-MID niche — 'oppgaver musikk' verbatim, tynn SERP.",
+      "notes": "Fagnabo; intern lenking + deck-landings."
+    },
+    "ocean_life": {
+      "primaryQuery": "oppgaver dyr",
+      "evidence": "inventory",
+      "title": "Oppgaver havliv – gratis til utskrift (PDF)",
+      "h1": "Havliv: oppgaver om havet og dyrene",
+      "metaDescription": "Fisk, krabber, sjøstjerner: 58 havliv-ark til å telle, koble og sortere for barnehagen. Fint til naturtema, gratis å skrive ut som PDF eller på nett.",
+      "winnability": "LOW-MID niche — inngangstema, echo-evidens.",
+      "notes": "Naturfag-/dyrenabo; deck-landings."
+    },
+    "pets": {
+      "primaryQuery": "oppgaver dyr",
+      "evidence": "inventory",
+      "title": "Oppgaver kjæledyr – gratis til utskrift (PDF)",
+      "h1": "Kjæledyr: oppgaver om dyrene hjemme",
+      "metaDescription": "Hund, katt, kanin: 58 kjæledyr-ark til å telle, koble og sortere for barnehagen. Nær barnas hverdag, gratis å skrive ut som PDF eller på nett.",
+      "winnability": "LOW-MID niche — under 'dyr'-paraplyen; inngangstema.",
+      "notes": "Underklynge av animals; unngå kanibalisering (kjæledyr-spesifikt motiv)."
+    }
+  },
+  "intersections": [
+    {
+      "key": "grade-1__pattern-worksheet",
+      "type": "pattern-worksheet",
+      "level": "grade-1",
+      "query": "mønster 1 trinn",
+      "decks": 52,
+      "title": "Mønster 1. trinn – fortsett rekka (PDF)",
+      "h1": "Mønster for 1. trinn: fortsett rekker og følger",
+      "metaDescription": "52 mønsterark for 1. trinn: former og farger som skal fortsettes i rekka. Matteforståelse og konsentrasjon, gratis å skrive ut som PDF eller på nett."
+    },
+    {
+      "key": "crossword__grade-2",
+      "type": "crossword",
+      "level": "grade-2",
+      "query": "kryssord 2. trinn",
+      "decks": 48,
+      "title": "Kryssord 2. trinn – for barn til utskrift",
+      "h1": "Bildekryssord for 2. trinn",
+      "metaDescription": "48 bildekryssord for 2. trinn: barnet navngir motivet og skriver inn ordet. Lesetrening med fasit, gratis å skrive ut som PDF eller løse på nett."
+    },
+    {
+      "key": "grade-2__telling-time",
+      "type": "telling-time",
+      "level": "grade-2",
+      "query": "oppgaver klokka 2 trinn",
+      "decks": 20,
+      "title": "Klokka 2. trinn – oppgaver til utskrift",
+      "h1": "Lære klokka på 2. trinn",
+      "metaDescription": "20 klokke-ark for 2. trinn: hele og halve timer på visere. Øv klokkelesing steg for steg, gratis å skrive ut som PDF eller øve på nett."
+    },
+    {
+      "key": "grade-3__telling-time",
+      "type": "telling-time",
+      "level": "grade-3",
+      "query": "klokka 3 trinn",
+      "decks": 40,
+      "title": "Klokka 3. trinn – på minuttet (PDF)",
+      "h1": "Lære klokka på 3. trinn: på minuttet",
+      "metaDescription": "40 klokke-ark for 3. trinn: les klokka på nærmeste fem minutter med visere. Med fasit, gratis å skrive ut som PDF eller øve på nett."
+    },
+    {
+      "key": "grade-1__telling-time",
+      "type": "telling-time",
+      "level": "grade-1",
+      "query": "klokka 1 trinn",
+      "decks": 21,
+      "title": "Klokka 1. trinn – hele timer (PDF)",
+      "h1": "Lære klokka på 1. trinn: hele timer",
+      "metaDescription": "21 klokke-ark for 1. trinn: hele timer på analoge visere, rolig start på klokkelesing. Gratis å skrive ut som PDF eller øve på nett."
+    },
+    {
+      "key": "geometry__grade-2",
+      "type": "geometry",
+      "level": "grade-2",
+      "query": "oppgaver geometri 2. trinn",
+      "decks": 17,
+      "title": "Geometri 2. trinn – former og figurer (PDF)",
+      "h1": "Geometri for 2. trinn: former og figurer",
+      "metaDescription": "17 geometri-ark for 2. trinn: kjenne igjen og skille former og figurer. Med fasit, gratis å skrive ut som PDF eller løse på nett."
+    },
+    {
+      "key": "geometry__grade-3",
+      "type": "geometry",
+      "level": "grade-3",
+      "query": "geometri 3 trinn",
+      "decks": 14,
+      "title": "Geometri 3. trinn – former og figurer (PDF)",
+      "h1": "Geometri for 3. trinn: figurer og egenskaper",
+      "metaDescription": "14 geometri-ark for 3. trinn: skille figurer og kjenne egenskaper. Gratis å skrive ut som PDF med fasit eller løse på nett."
+    },
+    {
+      "key": "grade-1__measurement",
+      "type": "measurement",
+      "level": "grade-1",
+      "query": "oppgaver måling 1 trinn",
+      "decks": 12,
+      "title": "Måling 1. trinn – lengder til utskrift (PDF)",
+      "h1": "Måling på 1. trinn: sammenlign lengder",
+      "metaDescription": "12 måle-ark for 1. trinn: sammenlign lengder med linjal og øyemål. Første målforståelse, gratis å skrive ut som PDF eller løse på nett."
+    },
+    {
+      "key": "grade-1__number-charts",
+      "type": "number-charts",
+      "level": "grade-1",
+      "query": "hundrerute 1 trinn",
+      "decks": 13,
+      "title": "Hundrerute 1. trinn – til utskrift (PDF)",
+      "h1": "Hundrerute for 1. trinn: tall opp til 100",
+      "metaDescription": "13 hundrerute-ark for 1. trinn: finn tall, fyll utsnitt og oppdag mønstre i tallområdet opp til 100. Gratis å skrive ut som PDF med fasit."
+    },
+    {
+      "key": "grade-1__graphing-data",
+      "type": "graphing-data",
+      "level": "grade-1",
+      "query": "diagram 1 trinn",
+      "decks": 12,
+      "title": "Diagram og data 1. trinn – til utskrift",
+      "h1": "Diagram og data for 1. trinn",
+      "metaDescription": "12 ark til diagram og data for 1. trinn: les av søylediagram og fyll dem selv. Første datainnsikt, gratis å skrive ut som PDF eller på nett."
+    },
+    {
+      "key": "arrays-multiplication__grade-2",
+      "type": "arrays-multiplication",
+      "level": "grade-2",
+      "query": "ganging 2 trinn",
+      "decks": 14,
+      "title": "Ganging 2. trinn – med rader (PDF)",
+      "h1": "Ganging på 2. trinn: rader og prikkefelt",
+      "metaDescription": "14 gange-ark for 2. trinn: rader og prikkefelt som inngang til multiplikasjon. Anskuelig start, gratis å skrive ut som PDF eller løse på nett."
+    },
+    {
+      "key": "arrays-multiplication__grade-3",
+      "type": "arrays-multiplication",
+      "level": "grade-3",
+      "query": "ganging 3 trinn",
+      "decks": 13,
+      "title": "Ganging 3. trinn – med rader (PDF)",
+      "h1": "Ganging på 3. trinn: rader og prikkefelt",
+      "metaDescription": "13 gange-ark for 3. trinn: bygg multiplikasjon med rader og prikkefelt. Gratis å skrive ut som PDF med fasit eller øve på nett."
+    },
+    {
+      "key": "fractions__grade-3",
+      "type": "fractions",
+      "level": "grade-3",
+      "query": "brøk 3 trinn",
+      "decks": 34,
+      "title": "Brøk 3. trinn – halve og fjerdedeler (PDF)",
+      "h1": "Brøk for 3. trinn: halve, fjerdedeler, hele",
+      "metaDescription": "34 brøk-ark for 3. trinn: halve, fjerdedeler og tredjedeler med bilder å fargelegge og koble. Første brøkforståelse, gratis å skrive ut som PDF."
+    },
+    {
+      "key": "fractions__grade-2",
+      "type": "fractions",
+      "level": "grade-2",
+      "query": "brøk 2 trinn",
+      "decks": 34,
+      "title": "Brøk 2. trinn – første brøkdeler (PDF)",
+      "h1": "Brøk for 2. trinn: se og kjenne igjen brøkdeler",
+      "metaDescription": "34 brøk-ark for 2. trinn: kjenne igjen halve og fjerdedeler med bilder. Anskuelig inngang til brøk, gratis å skrive ut som PDF eller på nett."
+    },
+    {
+      "key": "grade-1__math-puzzle",
+      "type": "math-puzzle",
+      "level": "grade-1",
+      "query": "mattepuslespill 1 trinn",
+      "decks": 142,
+      "title": "Mattepuslespill 1. trinn – til utskrift",
+      "h1": "Mattepuslespill for 1. trinn",
+      "metaDescription": "142 mattepuslespill for 1. trinn: symbol-likninger barna vil løse, hvert ark med fasit. Gratis å skrive ut som PDF eller pusle på skjermen."
+    },
+    {
+      "key": "grade-1__treasure-hunt",
+      "type": "treasure-hunt",
+      "level": "grade-1",
+      "query": "skattejakt oppgaver barn",
+      "decks": 98,
+      "title": "Skattejakt 1. trinn – gåteark til utskrift",
+      "h1": "Skattejakt-gåter for 1. trinn",
+      "metaDescription": "98 skattejakt-gåter for 1. trinn: følg stien over spillebrettet fram til skatten. Orientering og logikk, gratis å skrive ut som PDF eller på nett."
+    },
+    {
+      "key": "grade-1__word-scramble",
+      "type": "word-scramble",
+      "level": "grade-1",
+      "query": "bokstavspill 1 trinn",
+      "decks": 96,
+      "title": "Bokstavspill 1. trinn – ordne bokstavene",
+      "h1": "Bokstavspill for 1. trinn",
+      "metaDescription": "96 bokstavspill-ark for 1. trinn: rotete ord med bildehjelp som skal ordnes riktig. Lesetrening med moro, gratis å skrive ut som PDF eller på nett."
+    },
+    {
+      "key": "grade-1__wordsearch",
+      "type": "wordsearch",
+      "level": "grade-1",
+      "query": "finn ord 1 trinn",
+      "decks": 48,
+      "title": "Finn ord 1. trinn – ordgitter til utskrift",
+      "h1": "Finn ord: ordgitter for 1. trinn",
+      "metaDescription": "48 ordgitter for 1. trinn: finn ordene med barnevennlige temaord. Hvert ordleting-ark gratis å skrive ut som PDF eller spille på nett."
+    },
+    {
+      "key": "grade-1__science-sort",
+      "type": "science-sort",
+      "level": "grade-1",
+      "query": "naturfag 1 trinn oppgaver",
+      "decks": 30,
+      "title": "Naturfag 1. trinn – sortere og gruppere (PDF)",
+      "h1": "Naturfag for 1. trinn: sortere og kategorisere",
+      "metaDescription": "30 sorteringsark til naturfag for 1. trinn: ordne levesteder, natur og årstider i grupper. Gratis å skrive ut som PDF eller løse på nett."
+    },
+    {
+      "key": "grade-1__picture-arithmetic",
+      "type": "picture-arithmetic",
+      "level": "grade-1",
+      "query": "regne med bilder 1 trinn",
+      "decks": 14,
+      "title": "Regne med bilder 1. trinn – pluss og minus",
+      "h1": "Regne med bilder på 1. trinn",
+      "metaDescription": "14 ark med bildeoppgaver til pluss og minus for 1. trinn: først telle bilder, så regne. Anskuelig regnestart, gratis å skrive ut som PDF."
+    },
+    {
+      "key": "addition__kindergarten",
+      "type": "addition",
+      "level": "kindergarten",
+      "query": "addisjon oppgaver 1 trinn",
+      "decks": 195,
+      "title": "Addisjon for skolestartere – pluss (PDF)",
+      "h1": "Addisjon for skolestartere: første plussoppgaver",
+      "metaDescription": "195 addisjonsark for skolestartere: første plussoppgaver med bilder og fasit, tilpasset overgangen til 1. trinn. Gratis å skrive ut som PDF eller på nett."
+    },
+    {
+      "key": "kindergarten__subtraction",
+      "type": "subtraction",
+      "level": "kindergarten",
+      "query": "subtraksjon oppgaver 1 trinn",
+      "decks": 193,
+      "title": "Subtraksjon for skolestartere – minus (PDF)",
+      "h1": "Subtraksjon for skolestartere: første minusoppgaver",
+      "metaDescription": "193 subtraksjonsark for skolestartere: første minusoppgaver med tydelige bilder og fasit. Rolig start på regning, gratis å skrive ut som PDF."
+    },
+    {
+      "key": "code-addition__kindergarten",
+      "type": "code-addition",
+      "level": "kindergarten",
+      "query": "addisjon oppgaver utskrift",
+      "decks": 147,
+      "title": "Kodeaddisjon for skolestartere (PDF)",
+      "h1": "Kodeaddisjon for skolestartere: knekk koden",
+      "metaDescription": "147 kodeaddisjon-ark for skolestartere: bildene står for tall, knekk koden og regn ut. Knøttete regnestart, gratis å skrive ut som PDF eller på nett."
+    },
+    {
+      "key": "kindergarten__pattern-train",
+      "type": "pattern-train",
+      "level": "kindergarten",
+      "query": "mønster oppgaver barnehage",
+      "decks": 245,
+      "title": "Mønster barnehage – mønstertoget (PDF)",
+      "h1": "Mønster i barnehagen: fortsett mønstertoget",
+      "metaDescription": "245 mønstertog-ark for barnehagen: hvilken vogn kommer nå? Fortsett mønsteret og tren logisk tenkning, gratis å skrive ut som PDF eller på nett."
+    },
+    {
+      "key": "kindergarten__picture-sort",
+      "type": "picture-sort",
+      "level": "kindergarten",
+      "query": "sortere og ordne",
+      "decks": 181,
+      "title": "Sortere bilder barnehage – i grupper (PDF)",
+      "h1": "Sortere bilder i barnehagen: ordne i grupper",
+      "metaDescription": "181 sorteringsark for barnehagen: ordne bilder i kategorier – dyr til dyr, kjøretøy til kjøretøy. Tenke i grupper, gratis å skrive ut som PDF."
+    },
+    {
+      "key": "kindergarten__odd-one-out",
+      "type": "odd-one-out",
+      "level": "kindergarten",
+      "query": "hvem skal ut barnehage",
+      "decks": 137,
+      "title": "Hvem skal ut? Barnehage – finn bildet som ikke passer",
+      "h1": "Hvem skal ut? Logikk for barnehagen",
+      "metaDescription": "137 hvem-skal-ut-ark for barnehagen: fire bilder, ett passer ikke. Kjenne kategorier og begrunne valget, gratis å skrive ut som PDF eller på nett."
+    },
+    {
+      "key": "kindergarten__prepositions",
+      "type": "prepositions",
+      "level": "kindergarten",
+      "query": "preposisjoner oppgaver barnehage",
+      "decks": 98,
+      "title": "Preposisjoner barnehage – med bilder (PDF)",
+      "h1": "Preposisjoner i barnehagen: i, på, under, ved siden av",
+      "metaDescription": "98 bildeoppgaver med preposisjoner for barnehagen: hvor er ballen – i, på, under eller ved siden av? Fint til andrespråk og språkstøtte, gratis PDF."
+    },
+    {
+      "key": "kindergarten__sudoku",
+      "type": "sudoku",
+      "level": "kindergarten",
+      "query": "bildesudoku for barn",
+      "decks": 98,
+      "title": "Bildesudoku barnehage – uten tall (PDF)",
+      "h1": "Bildesudoku for barnehagen: sudoku med bilder",
+      "metaDescription": "98 bildesudoku for barnehagen: 4x4-ruter med bilder i stedet for tall. Første logikk-knep med fasit, gratis å skrive ut som PDF eller løse på nett."
+    },
+    {
+      "key": "find-objects__kindergarten",
+      "type": "find-objects",
+      "level": "kindergarten",
+      "query": "oppgaver for barn i barnehage",
+      "decks": 95,
+      "title": "Finn objektene barnehage – letebilder (PDF)",
+      "h1": "Letebilder for barnehagen: finn de gjemte tingene",
+      "metaDescription": "95 letebilde-ark for barnehagen: spor opp de gjemte objektene i bildet. Trener nøyaktig titting, gratis å skrive ut som PDF eller spille på nett."
+    },
+    {
+      "key": "kindergarten__shadow-match",
+      "type": "shadow-match",
+      "level": "kindergarten",
+      "query": "matching oppgaver barnehage",
+      "decks": 93,
+      "title": "Match skyggen barnehage – finn riktig skygge",
+      "h1": "Match skyggen i barnehagen",
+      "metaDescription": "93 skyggeoppgaver for barnehagen: koble bildet til riktig skygge og tren visuell oppmerksomhet. Gratis å skrive ut som PDF eller løse på nett."
+    },
+    {
+      "key": "kindergarten__missing-pieces",
+      "type": "missing-pieces",
+      "level": "kindergarten",
+      "query": "oppgaver for barn i barnehage",
+      "decks": 93,
+      "title": "Hva mangler? Barnehage – finn den manglende brikken",
+      "h1": "Hva mangler? Letegåter for barnehagen",
+      "metaDescription": "93 letegåter for barnehagen: hvilken del mangler i bildet? Kjenne igjen og sette inn manglende utsnitt, gratis å skrive ut som PDF eller på nett."
+    },
+    {
+      "key": "kindergarten__matching",
+      "type": "matching",
+      "level": "kindergarten",
+      "query": "matching oppgaver barnehage",
+      "decks": 92,
+      "title": "Koble sammen barnehage – finn parene (PDF)",
+      "h1": "Koble sammen i barnehagen: hva hører sammen?",
+      "metaDescription": "92 koble-sammen-ark for barnehagen: finn paret og koble bildene. Styrk ordforråd og logikk, fint til spesialpedagogikk, gratis som PDF."
+    },
+    {
+      "key": "bingo__kindergarten",
+      "type": "bingo",
+      "level": "kindergarten",
+      "query": "bingo barnehage",
+      "decks": 78,
+      "title": "Bingo barnehage – bildebingo til utskrift",
+      "h1": "Bildebingo for barnehagen",
+      "metaDescription": "78 bildebingo-brett for barnehagen: bingo med bilder i stedet for tall. Skriv ut gratis som PDF og spill med en gang i gruppa, eller på nett."
+    },
+    {
+      "key": "kindergarten__word-guess",
+      "type": "word-guess",
+      "level": "kindergarten",
+      "query": "gjett ordet norsk",
+      "decks": 96,
+      "title": "Gjett ordet skolestartere – bokstav for bokstav",
+      "h1": "Gjett ordet for skolestartere",
+      "metaDescription": "96 gjett-ordet-ark for skolestartere: se bildet, gjett ordet og skriv inn bokstavene. Ordforråd og staving på en leken måte, gratis som PDF."
+    },
+    {
+      "key": "kindergarten__picture-path",
+      "type": "picture-path",
+      "level": "kindergarten",
+      "query": "labyrint for barn",
+      "decks": 91,
+      "title": "Bildevei barnehage – finn veien (PDF)",
+      "h1": "Bildevei for barnehagen: finn veien gjennom rutene",
+      "metaDescription": "91 bildevei-gåter for barnehagen: følg løsningsveien fra rute til rute. Første logiske tenkning, gratis å skrive ut som PDF eller spille på nett."
+    },
+    {
+      "key": "kindergarten__phonological-awareness",
+      "type": "phonological-awareness",
+      "level": "kindergarten",
+      "query": "språklig bevissthet barnehage",
+      "decks": 25,
+      "title": "Språklig bevissthet barnehage – lyder og stavelser",
+      "h1": "Språklig bevissthet i barnehagen",
+      "metaDescription": "25 ark til språklig bevissthet for barnehagen: klapp stavelser og hør lyder. Grunnlaget for lesing, gratis å skrive ut som PDF eller løse på nett."
+    },
+    {
+      "key": "more-less__preschool",
+      "type": "more-less",
+      "level": "preschool",
+      "query": "matteoppgaver barnehage",
+      "decks": 146,
+      "title": "Flere eller færre? Barnehage – mengder (PDF)",
+      "h1": "Flere eller færre? Mengder i barnehagen",
+      "metaDescription": "146 barnehageark: hvor er det flest, hvor færrest? Barnet sammenligner mengder og teller uten tall. Gratis å skrive ut som PDF eller på nett."
+    },
+    {
+      "key": "big-small__preschool",
+      "type": "big-small",
+      "level": "preschool",
+      "query": "stor eller liten barnehage",
+      "decks": 92,
+      "title": "Stor eller liten? Barnehage – størrelser (PDF)",
+      "h1": "Stor eller liten? Størrelser i barnehagen",
+      "metaDescription": "92 barnehageark: hva er størst, hva er minst? Barnet sammenligner størrelser på kjente ting. Gratis å skrive ut som PDF eller løse på nett."
+    },
+    {
+      "key": "find-and-count__preschool",
+      "type": "find-and-count",
+      "level": "preschool",
+      "query": "oppgaver for barn i barnehage",
+      "decks": 93,
+      "title": "Søk og tell barnehage – finn og tell (PDF)",
+      "h1": "Søk og tell i barnehagen",
+      "metaDescription": "93 søk-og-tell-ark for barnehagen: oppdag motivene i bildet og tell dem. Mengdeforståelse og konsentrasjon i ett, gratis å skrive ut som PDF."
+    },
+    {
+      "key": "alphabet-train__preschool",
+      "type": "alphabet-train",
+      "level": "preschool",
+      "query": "arbeidsark alfabetet",
+      "decks": 69,
+      "title": "Alfabetet barnehage – alfabettoget (PDF)",
+      "h1": "Alfabetet i barnehagen: sett bokstavene i rekkefølge",
+      "metaDescription": "69 ABC-ark for barnehagen: sett de manglende bokstavene inn i toget og lær alfabetets rekkefølge. Gratis å skrive ut som PDF eller spille på nett."
+    }
+  ]
+}

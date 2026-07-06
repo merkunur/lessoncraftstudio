@@ -26,21 +26,25 @@ interface SubjectCopy {
   angle: string;
   worksheetsByLevel?: Record<string, string>;
   angleByLevel?: Record<string, string>;
+  /** Online-intent leading phrase for the /online hub variant (Unit 4, 2026-07-06):
+   * de "Mathe online üben", en "Online math exercises". A locale ships the online
+   * hub only when BOTH this field and the locale's online templates exist. */
+  online?: string;
 }
 const SUBJECT_COPY: Record<string, Record<string, SubjectCopy>> = {
   de: {
-    math: { worksheets: 'Mathe-Arbeitsblätter', angle: 'Zählen, Rechnen und ein erstes Zahlenverständnis' },
-    letters: { worksheets: 'Deutsch-Arbeitsblätter', angle: 'Buchstaben, Silben, erstes Lesen und Schreiben' },
-    science: { worksheets: 'Sachunterricht-Arbeitsblätter', angle: 'das Entdecken von Tieren, Natur und Alltag' },
-    logic: { worksheets: 'Logik-Arbeitsblätter', angle: 'logisches Denken, Zuordnen und das Erkennen von Mustern' },
-    'spatial-reasoning': { worksheets: 'Wahrnehmungsübungen', angle: 'genaues Hinsehen, Konzentration und die visuelle Wahrnehmung' },
+    math: { worksheets: 'Mathe-Arbeitsblätter', angle: 'Zählen, Rechnen und ein erstes Zahlenverständnis', online: 'Mathe online üben' },
+    letters: { worksheets: 'Deutsch-Arbeitsblätter', angle: 'Buchstaben, Silben, erstes Lesen und Schreiben', online: 'Deutsch online üben' },
+    science: { worksheets: 'Sachunterricht-Arbeitsblätter', angle: 'das Entdecken von Tieren, Natur und Alltag', online: 'Sachunterricht online üben' },
+    logic: { worksheets: 'Logik-Arbeitsblätter', angle: 'logisches Denken, Zuordnen und das Erkennen von Mustern', online: 'Logik online üben' },
+    'spatial-reasoning': { worksheets: 'Wahrnehmungsübungen', angle: 'genaues Hinsehen, Konzentration und die visuelle Wahrnehmung', online: 'Wahrnehmung online trainieren' },
   },
   en: {
-    math: { worksheets: 'Math worksheets', angle: 'counting, arithmetic, and early number sense' },
-    letters: { worksheets: 'Reading & Writing worksheets', angle: 'letters, sounds, reading, and writing' },
-    science: { worksheets: 'Science worksheets', angle: 'exploring animals, nature, and everyday life' },
-    logic: { worksheets: 'Logic worksheets', angle: 'logical thinking, sorting, and spotting patterns' },
-    'spatial-reasoning': { worksheets: 'Visual & Spatial worksheets', angle: 'close looking, focus, and visual perception' },
+    math: { worksheets: 'Math worksheets', angle: 'counting, arithmetic, and early number sense', online: 'Online math exercises' },
+    letters: { worksheets: 'Reading & Writing worksheets', angle: 'letters, sounds, reading, and writing', online: 'Online reading & phonics exercises' },
+    science: { worksheets: 'Science worksheets', angle: 'exploring animals, nature, and everyday life', online: 'Online science activities' },
+    logic: { worksheets: 'Logic worksheets', angle: 'logical thinking, sorting, and spotting patterns', online: 'Online logic games' },
+    'spatial-reasoning': { worksheets: 'Visual & Spatial worksheets', angle: 'close looking, focus, and visual perception', online: 'Online visual perception games' },
   },
   // Native Dutch (§A.13.48 ensemble + operator sign-off). Formal-grade titles use
   // the searched form ("{Vak} werkbladen"); the kindergarten override gives
@@ -271,6 +275,15 @@ interface LocaleTemplate {
   desc: (c: number, w: string, wl: string, gp: string, a: string) => string;
   intro: (c: number, w: string, wl: string, gp: string, a: string) => string;
   heading: string;
+  /** Online-hub variant templates (Unit 4). `o` = the subject's online phrase
+   * (SUBJECT_COPY.online). A locale without these never emits /online URLs. */
+  onlineTitle?: (o: string, g: string) => string;
+  onlineH1?: (o: string, g: string) => string;
+  onlineDesc?: (c: number, o: string, gp: string, a: string) => string;
+  onlineIntro?: (c: number, o: string, gp: string, a: string) => string;
+  /** Cross-link labels between the print hub and its online variant. */
+  onlineLinkLabel?: string;
+  printLinkLabel?: (w: string, g: string) => string;
 }
 const LOCALE_TEMPLATES: Record<string, LocaleTemplate> = {
   de: {
@@ -279,6 +292,12 @@ const LOCALE_TEMPLATES: Record<string, LocaleTemplate> = {
     desc: (c, w, wl, gp, a) => `${c} kostenlose ${w} für ${gp} zum Ausdrucken – jedes als PDF mit Lösungen und direkt online spielbar, ganz ohne Anmeldung. Übungen zu ${a}.`,
     intro: (c, w, wl, gp, a) => `Hier findest du ${c} kostenlose ${w} für ${gp}, sorgfältig für diese Altersstufe zusammengestellt. Die Übungen fördern ${a}; jedes Arbeitsblatt gibt es als PDF mit Lösungen zum Ausdrucken – oder direkt online zum Ausprobieren, ganz ohne Anmeldung.`,
     heading: 'Nach Fach & Klassenstufe',
+    onlineTitle: (o, g) => `${o} ${g} – kostenlose interaktive Übungen`,
+    onlineH1: (o, g) => `${o} – ${g}`,
+    onlineDesc: (c, o, gp, a) => `${c} kostenlose interaktive Online-Übungen für ${gp} – direkt im Browser spielen, ohne Anmeldung und ohne App. Trainiert ${a}. Jede Übung gibt es auch als PDF zum Ausdrucken.`,
+    onlineIntro: (c, o, gp, a) => `Hier kannst du direkt im Browser üben: ${c} kostenlose interaktive Übungen für ${gp}, ohne Anmeldung und ohne App. Die Aufgaben trainieren ${a} – mit sofortiger Rückmeldung beim Prüfen. Jede Übung gibt es zusätzlich als Arbeitsblatt (PDF mit Lösungen) zum Ausdrucken.`,
+    onlineLinkLabel: 'Online üben – interaktive Übungen →',
+    printLinkLabel: (w, g) => `Alle ${w} für ${g} (PDF) →`,
   },
   nl: {
     title: (w, g) => `${w} ${g} – gratis om uit te printen (PDF)`,
@@ -307,6 +326,12 @@ const LOCALE_TEMPLATES: Record<string, LocaleTemplate> = {
     desc: (c, w, wl, gp, a) => `${c} free ${wl} for ${gp}, printable as PDF with answer keys and playable online — no sign-up. Practice ${a}.`,
     intro: (c, w, wl, gp, a) => `Here are ${c} free ${wl} for ${gp}, curated for this age group. The exercises build ${a}; every worksheet is available as a printable PDF with an answer key — or playable online right away, no sign-up required.`,
     heading: 'By subject & grade',
+    onlineTitle: (o, g) => `Free ${o} for ${g} – Play in Your Browser`,
+    onlineH1: (o, g) => `${o} – ${g}`,
+    onlineDesc: (c, o, gp, a) => `${c} free interactive exercises for ${gp} — play right in the browser, no sign-up and no app. Practice ${a}. Every exercise doubles as a printable PDF worksheet.`,
+    onlineIntro: (c, o, gp, a) => `Practice right in the browser: ${c} free interactive exercises for ${gp}, no sign-up and no app required. The activities build ${a}, with instant feedback on every check. Each exercise is also available as a printable PDF worksheet with an answer key.`,
+    onlineLinkLabel: 'Practice online – interactive exercises →',
+    printLinkLabel: (w, g) => `All printable ${w.toLowerCase()} for ${g} (PDF) →`,
   },
 };
 function tpl(locale: string): LocaleTemplate {
@@ -340,4 +365,54 @@ export function subjectHubIntro(locale: string, subjectKey: string, levelKey: st
 /** Homepage "by subject & grade" grid heading. */
 export function subjectHubHeading(locale: string): string {
   return tpl(locale).heading;
+}
+
+/* ---------------- Online-exercise hub variant (Unit 4, 2026-07-06) ----------------
+ * URL: /[locale]/topic/<subject>/<grade>/online — targets the online/interactive-
+ * exercise query class ("online übungen mathe klasse 1") that the printable-hub
+ * incumbents structurally can't serve. Same deck set as the print hub, play-first
+ * presentation + online-intent copy. A locale ships it only when its templates
+ * AND per-subject online phrases exist (de+en at MVP; others via native ensembles). */
+
+function onlinePhrase(locale: string, subjectKey: string): string | null {
+  return SUBJECT_COPY[locale]?.[subjectKey]?.online ?? null;
+}
+
+/** Whether the online hub variant exists for this (locale, subject). */
+export function isOnlineHubAvailable(locale: string, subjectKey: string): boolean {
+  const t = LOCALE_TEMPLATES[locale];
+  return Boolean(t?.onlineTitle && t.onlineDesc && t.onlineIntro && onlinePhrase(locale, subjectKey));
+}
+
+export function onlineHubTitle(locale: string, subjectKey: string, levelKey: string): string {
+  const t = tpl(locale);
+  return t.onlineTitle!(onlinePhrase(locale, subjectKey)!, gradeLabel(locale, levelKey));
+}
+
+export function onlineHubH1(locale: string, subjectKey: string, levelKey: string): string {
+  const t = tpl(locale);
+  return t.onlineH1!(onlinePhrase(locale, subjectKey)!, gradeLabel(locale, levelKey));
+}
+
+export function onlineHubDescription(locale: string, subjectKey: string, levelKey: string, count: number): string {
+  const { angle } = subjectCopy(locale, subjectKey, levelKey);
+  return tpl(locale).onlineDesc!(count, onlinePhrase(locale, subjectKey)!, gradePhrase(locale, levelKey), angle);
+}
+
+export function onlineHubIntro(locale: string, subjectKey: string, levelKey: string, count: number): string {
+  const { angle } = subjectCopy(locale, subjectKey, levelKey);
+  return tpl(locale).onlineIntro!(count, onlinePhrase(locale, subjectKey)!, gradePhrase(locale, levelKey), angle);
+}
+
+/** Print-hub → online-hub cross-link label ("Online üben – interaktive Übungen →"). */
+export function onlineHubLinkLabel(locale: string): string | null {
+  return LOCALE_TEMPLATES[locale]?.onlineLinkLabel ?? null;
+}
+
+/** Online-hub → print-hub cross-link label ("Alle Mathe-Arbeitsblätter für 1. Klasse (PDF) →"). */
+export function printHubLinkLabel(locale: string, subjectKey: string, levelKey: string): string | null {
+  const t = LOCALE_TEMPLATES[locale];
+  if (!t?.printLinkLabel) return null;
+  const { worksheets } = subjectCopy(locale, subjectKey, levelKey);
+  return t.printLinkLabel(worksheets, gradeLabel(locale, levelKey));
 }

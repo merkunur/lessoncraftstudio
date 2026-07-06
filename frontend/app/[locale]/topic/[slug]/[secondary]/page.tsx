@@ -38,6 +38,8 @@ import {
   HUB_GRADE_KEYS,
   isSubjectHubAllowed,
   subjectHubGradeLabel,
+  isOnlineHubAvailable,
+  onlineHubLinkLabel,
 } from '@/lib/subject-hub';
 import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
@@ -713,6 +715,13 @@ async function renderSubjectGradeHub(
           <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink-900 mb-3">{h1}</h1>
           <ResultCount locale={locale} count={count} />
           <p className="mt-3 text-ink-700 max-w-3xl leading-relaxed">{intro}</p>
+          {isOnlineHubAvailable(locale, subjectKey) && count >= MIN_INDEXABLE_SUBJECT_HUB_DECKS && onlineHubLinkLabel(locale) && (
+            <p className="mt-3">
+              <a href={`/${locale}/topic/${slug}/${secondary}/online`} className={`font-medium ${linkCls}`}>
+                {onlineHubLinkLabel(locale)}
+              </a>
+            </p>
+          )}
         </header>
 
         {decks.length > 0 && (

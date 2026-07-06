@@ -21,6 +21,7 @@ import {
   fetchDecksForTopicWithFilters,
   fetchDecksForSubjectLevel,
   countDecksForSubjectLevel,
+  latestDeckUpdateForSubjectLevel,
   getExerciseModeCountsForType,
   getFacetCounts,
   listAllNonEmptyThemesWithCounts,
@@ -40,6 +41,7 @@ import {
   subjectHubGradeLabel,
   isOnlineHubAvailable,
   onlineHubLinkLabel,
+  getSubjectHubDeepCopy,
 } from '@/lib/subject-hub';
 import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
@@ -690,6 +692,27 @@ async function renderSubjectGradeHub(
   ];
   const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbTrail);
 
+  // Unit 6 (2026-07-06): hand-authored deep copy + FAQ + honest updated-date.
+  const deepCopy = getSubjectHubDeepCopy(locale, subjectKey, levelKey);
+  const latestUpdate = await latestDeckUpdateForSubjectLevel(subjectKey, levelKey, locale);
+  let updatedLine: string | null = null;
+  if (latestUpdate) {
+    try {
+      const d = new Intl.DateTimeFormat(getHreflangCode(locale), { year: 'numeric', month: 'long', day: 'numeric' }).format(latestUpdate);
+      updatedLine = locale === 'de' ? `Zuletzt aktualisiert am ${d}` : `Last updated ${d}`;
+    } catch { /* non-critical */ }
+  }
+  const faqSchema = deepCopy && deepCopy.faq.length >= 2 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: deepCopy.faq.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  } : null;
+  const faqHeading = locale === 'de' ? 'Häufige Fragen' : 'Frequently asked questions';
+
   const moreSubjectsLabel = locale === 'de' ? `Weitere Fächer für ${gradeName}` : `More subjects for ${gradeName}`;
   const otherGradesLabel = locale === 'de' ? `${subjectName} für andere Klassenstufen` : `${subjectName} for other grades`;
   const showAllLabel = locale === 'de' ? `Alle Arbeitsblätter für ${gradeName} ansehen →` : `Browse all worksheets for ${gradeName} →`;
@@ -699,6 +722,7 @@ async function renderSubjectGradeHub(
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       <main className="container mx-auto px-4 max-w-6xl py-12">
         <nav className="text-sm text-ink-500 mb-4" aria-label="Breadcrumb">
           {breadcrumbTrail.map((c, i) => (
@@ -722,6 +746,10 @@ async function renderSubjectGradeHub(
               </a>
             </p>
           )}
+          {deepCopy && deepCopy.paragraphs.map((p, i) => (
+            <p key={i} className="mt-3 text-ink-700 max-w-3xl leading-relaxed">{p}</p>
+          ))}
+          {updatedLine && <p className="mt-3 text-sm text-ink-500">{updatedLine}</p>}
         </header>
 
         {decks.length > 0 && (
@@ -771,6 +799,20 @@ async function renderSubjectGradeHub(
               </section>
             )}
           </div>
+        )}
+
+        {deepCopy && deepCopy.faq.length > 0 && (
+          <section className="mt-12 max-w-3xl">
+            <h2 className="font-display text-xl font-semibold text-ink-900 mb-4">{faqHeading}</h2>
+            <dl className="space-y-5">
+              {deepCopy.faq.map((f) => (
+                <div key={f.q}>
+                  <dt className="font-semibold text-ink-900">{f.q}</dt>
+                  <dd className="mt-1 text-ink-700 leading-relaxed">{f.a}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
         )}
       </main>
     </>

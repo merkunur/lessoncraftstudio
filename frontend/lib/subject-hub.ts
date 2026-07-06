@@ -8,6 +8,8 @@
 // intersection URL never triggers this). Content is native-authored per locale
 // (§A.13.48); de+en shipped at MVP, other locales added with the per-locale roll.
 
+import fs from 'fs';
+import path from 'path';
 import { getAxisName, getSubjectName, getSubjectSlug, getSubjectSlugStrict, resolveSubjectSlug, resolveTopicSlug } from './taxonomy';
 
 // A hub needs at least this many decks to be worth indexing (thinner hubs still
@@ -40,21 +42,21 @@ const SUBJECT_COPY: Record<string, Record<string, SubjectCopy>> = {
     'spatial-reasoning': { worksheets: 'Wahrnehmungsübungen', angle: 'genaues Hinsehen, Konzentration und die visuelle Wahrnehmung', online: 'Wahrnehmung online trainieren' },
   },
   en: {
-    math: { worksheets: 'Math worksheets', angle: 'counting, arithmetic, and early number sense', online: 'Online math exercises' },
-    letters: { worksheets: 'Reading & Writing worksheets', angle: 'letters, sounds, reading, and writing', online: 'Online reading & phonics exercises' },
-    science: { worksheets: 'Science worksheets', angle: 'exploring animals, nature, and everyday life', online: 'Online science activities' },
-    logic: { worksheets: 'Logic worksheets', angle: 'logical thinking, sorting, and spotting patterns', online: 'Online logic games' },
-    'spatial-reasoning': { worksheets: 'Visual & Spatial worksheets', angle: 'close looking, focus, and visual perception', online: 'Online visual perception games' },
+    math: { worksheets: 'Math worksheets', angle: 'counting, arithmetic, and early number sense', online: 'Online Math Exercises' },
+    letters: { worksheets: 'Reading & Writing worksheets', angle: 'letters, sounds, reading, and writing', online: 'Online Reading & Phonics Exercises' },
+    science: { worksheets: 'Science worksheets', angle: 'exploring animals, nature, and everyday life', online: 'Online Science Activities' },
+    logic: { worksheets: 'Logic worksheets', angle: 'logical thinking, sorting, and spotting patterns', online: 'Online Logic Games' },
+    'spatial-reasoning': { worksheets: 'Visual & Spatial worksheets', angle: 'close looking, focus, and visual perception', online: 'Online Visual Perception Games' },
   },
   // Native Dutch (§A.13.48 ensemble + operator sign-off). Formal-grade titles use
   // the searched form ("{Vak} werkbladen"); the kindergarten override gives
   // "Letters" (formal reading starts groep 3) + voorbereidend framing.
   nl: {
-    math: { worksheets: 'Rekenen werkbladen', angle: 'tellen, rekenen en getalbegrip', angleByLevel: { kindergarten: 'tellen, getalbegrip en voorbereidend rekenen' } },
-    letters: { worksheets: 'Taal werkbladen', worksheetsByLevel: { kindergarten: 'Letters werkbladen' }, angle: 'lezen, spelling en woordenschat', angleByLevel: { kindergarten: 'letters, klanken en voorbereidend lezen' } },
-    science: { worksheets: 'Natuur werkbladen', angle: 'dieren, natuur en de wereld om je heen ontdekken' },
-    logic: { worksheets: 'Puzzelwerkbladen', angle: 'redeneren, patronen herkennen en logisch nadenken' },
-    'spatial-reasoning': { worksheets: 'Werkbladen waarnemen', angle: 'goed kijken, verschillen zien en ruimtelijk inzicht' },
+    math: { worksheets: 'Rekenen werkbladen', angle: 'tellen, rekenen en getalbegrip', angleByLevel: { kindergarten: 'tellen, getalbegrip en voorbereidend rekenen' }, online: 'Rekenen online oefenen' },
+    letters: { worksheets: 'Taal werkbladen', worksheetsByLevel: { kindergarten: 'Letters werkbladen' }, angle: 'lezen, spelling en woordenschat', angleByLevel: { kindergarten: 'letters, klanken en voorbereidend lezen' }, online: 'Taal online oefenen' },
+    science: { worksheets: 'Natuur werkbladen', angle: 'dieren, natuur en de wereld om je heen ontdekken', online: 'Natuur online ontdekken' },
+    logic: { worksheets: 'Puzzelwerkbladen', angle: 'redeneren, patronen herkennen en logisch nadenken', online: 'Online puzzelen' },
+    'spatial-reasoning': { worksheets: 'Werkbladen waarnemen', angle: 'goed kijken, verschillen zien en ruimtelijk inzicht', online: 'Waarnemen online oefenen' },
   },
   // Native Mexican Spanish (§A.13.48 ensemble + operator sign-off). Head noun by
   // intent (Ejercicios/Fichas); labels vary by grade-band: literacy Español→
@@ -62,24 +64,27 @@ const SUBJECT_COPY: Record<string, Record<string, SubjectCopy>> = {
   // Conocimiento del Medio (1°). NEM/campos-formativos cited in body, not as hub names.
   es: {
     math: {
+      online: 'Ejercicios de matemáticas en línea',
       worksheets: 'Ejercicios de matemáticas',
       angle: 'el conteo, la suma y la resta y el reconocimiento de números y figuras',
       angleByLevel: { preschool: 'el conteo, la clasificación y el reconocimiento de números y formas', kindergarten: 'el conteo, la clasificación y el reconocimiento de números y formas' },
     },
     letters: {
+      online: 'Ejercicios de lectoescritura en línea',
       worksheets: 'Fichas de español',
       worksheetsByLevel: { preschool: 'Actividades de lectoescritura', kindergarten: 'Actividades de lectoescritura' },
       angle: 'la lectoescritura: las letras, las sílabas y la formación de palabras',
       angleByLevel: { preschool: 'la iniciación a la lectoescritura: los sonidos, los trazos y las primeras letras', kindergarten: 'la iniciación a la lectoescritura: los sonidos, los trazos y las primeras letras' },
     },
     science: {
+      online: 'Actividades de ciencias en línea',
       worksheets: 'Fichas de ciencias',
       worksheetsByLevel: { kindergarten: 'Fichas de exploración del mundo', 'grade-1': 'Fichas de conocimiento del medio' },
       angle: 'el conocimiento del medio natural y social',
       angleByLevel: { kindergarten: 'la exploración del mundo natural: los seres vivos y la naturaleza' },
     },
-    logic: { worksheets: 'Ejercicios de razonamiento lógico', angle: 'el razonamiento lógico, la atención y la clasificación' },
-    'spatial-reasoning': { worksheets: 'Fichas de percepción visual', angle: 'la percepción visual y la orientación espacial' },
+    logic: { worksheets: 'Ejercicios de razonamiento lógico', angle: 'el razonamiento lógico, la atención y la clasificación', online: 'Juegos de razonamiento lógico en línea' },
+    'spatial-reasoning': { worksheets: 'Fichas de percepción visual', angle: 'la percepción visual y la orientación espacial', online: 'Juegos de percepción visual en línea' },
   },
   // Native French / France (§A.13.48 ensemble + operator sign-off). Head noun by
   // band: "Fiches de …" at maternelle → "Exercices de …" at élémentaire (CP+); CP
@@ -88,25 +93,28 @@ const SUBJECT_COPY: Record<string, Record<string, SubjectCopy>> = {
   // adverb "gratuitement" in the templates.
   fr: {
     math: {
+      online: 'Exercices de maths en ligne',
       worksheets: 'Exercices de maths',
       worksheetsByLevel: { preschool: 'Fiches de maths', kindergarten: 'Fiches de maths' },
       angle: 'développer le sens des nombres, le calcul et le raisonnement',
       angleByLevel: { preschool: 'découvrir les nombres, les formes et les quantités', kindergarten: 'construire le nombre et préparer l’entrée au CP' },
     },
     letters: {
+      online: 'Exercices de lecture en ligne',
       worksheets: 'Exercices de français',
       worksheetsByLevel: { preschool: 'Fiches de lecture', kindergarten: 'Fiches de lecture', 'grade-1': 'Fiches de lecture' },
       angle: 'renforcer la lecture, l’écriture et la maîtrise du français',
       angleByLevel: { preschool: 'préparer la lecture et l’écriture : les sons, les lettres et les premiers mots', kindergarten: 'renforcer la phonologie et préparer la lecture', 'grade-1': 'accompagner l’apprentissage de la lecture, le grand objectif du CP' },
     },
     science: {
+      online: 'Activités de sciences en ligne',
       worksheets: 'Fiches de sciences',
       worksheetsByLevel: { kindergarten: 'Fiches Explorer le monde', 'grade-1': 'Fiches Questionner le monde' },
       angle: 'observer et comprendre le monde qui nous entoure',
       angleByLevel: { kindergarten: 'explorer le monde : le vivant, les objets, le temps et l’espace', 'grade-1': 'questionner le monde : le vivant, la matière, le temps et l’espace' },
     },
-    logic: { worksheets: 'Fiches de logique', angle: 'développer le raisonnement, l’observation et la logique' },
-    'spatial-reasoning': { worksheets: 'Fiches de repérage dans l’espace', angle: 'travailler le repérage dans l’espace et l’attention visuelle' },
+    logic: { worksheets: 'Fiches de logique', angle: 'développer le raisonnement, l’observation et la logique', online: 'Jeux de logique en ligne' },
+    'spatial-reasoning': { worksheets: 'Fiches de repérage dans l’espace', angle: 'travailler le repérage dans l’espace et l’attention visuelle', online: "Jeux de repérage dans l'espace en ligne" },
   },
 };
 
@@ -305,6 +313,12 @@ const LOCALE_TEMPLATES: Record<string, LocaleTemplate> = {
     desc: (c, w, wl, gp, a) => `${c} gratis ${wl} ${gp}: printen als PDF met antwoorden of direct online oefenen, zonder account. Oefen ${a}.`,
     intro: (c, w, wl, gp, a) => `Hier vind je ${c} gratis ${wl} (oefenbladen) ${gp}, zorgvuldig samengesteld voor deze leeftijd. De oefeningen versterken ${a}. Elk werkblad kun je gratis printen als PDF met antwoorden — of meteen online spelen, zonder account.`,
     heading: 'Op vak & groep',
+    onlineTitle: (o, g) => `${o} ${g} – gratis interactieve oefeningen`,
+    onlineH1: (o, g) => `${o} – ${g}`,
+    onlineDesc: (c, o, gp, a) => `${c} gratis interactieve oefeningen ${gp} — speel ze direct in de browser, zonder account en zonder app. Oefen ${a}. Elke oefening is er ook als PDF-werkblad met antwoorden.`,
+    onlineIntro: (c, o, gp, a) => `Hier oefen je direct in de browser: ${c} gratis interactieve oefeningen ${gp}, zonder account en zonder app. De oefeningen versterken ${a}; bij het nakijken zie je meteen wat goed en fout is. Elke oefening kun je ook gratis printen als PDF-werkblad met antwoorden.`,
+    onlineLinkLabel: 'Online oefenen – interactieve oefeningen →',
+    printLinkLabel: (w, g) => `${w} ${g} – printen als PDF →`,
   },
   es: {
     title: (w, g) => `${w} para ${g} – para imprimir gratis (PDF)`,
@@ -312,6 +326,12 @@ const LOCALE_TEMPLATES: Record<string, LocaleTemplate> = {
     desc: (c, w, wl, gp, a) => `${c} ${wl} gratis para ${gp}, para imprimir en PDF (con respuestas) o para resolver en línea, sin registro. Refuerza ${a}.`,
     intro: (c, w, wl, gp, a) => `Aquí encontrarás ${c} ${wl} gratis para ${gp}, cuidadosamente seleccionadas para esta edad. Los ejercicios refuerzan ${a}. Cada ficha se puede imprimir en PDF con respuestas — o resolver en línea al instante, sin necesidad de registrarse.`,
     heading: 'Por materia y grado',
+    onlineTitle: (o, g) => `${o} para ${g} – gratis`,
+    onlineH1: (o, g) => `${o} para ${g}`,
+    onlineDesc: (c, o, gp, a) => `${c} ejercicios interactivos gratis para ${gp}: se resuelven en el navegador, sin registro ni descargas. Refuerza ${a}. Cada uno se imprime también en PDF con respuestas.`,
+    onlineIntro: (c, o, gp, a) => `En esta página se puede practicar directamente en el navegador: ${c} ejercicios interactivos gratis para ${gp}, sin registro y sin instalar nada. Los ejercicios refuerzan ${a}, con retroalimentación inmediata al comprobar cada respuesta. Además, cada uno está disponible como ficha en PDF con respuestas, lista para imprimir.`,
+    onlineLinkLabel: 'Practicar en línea – ejercicios interactivos →',
+    printLinkLabel: (w, g) => `${w} para ${g} – PDF para imprimir →`,
   },
   fr: {
     title: (w, g) => `${w} ${g} à imprimer – gratuit (PDF)`,
@@ -319,6 +339,12 @@ const LOCALE_TEMPLATES: Record<string, LocaleTemplate> = {
     desc: (c, w, wl, gp, a) => `${c} ${wl} pour ${gp}, à imprimer gratuitement au format PDF (avec corrigés) ou à faire en ligne, sans inscription. De quoi ${a}.`,
     intro: (c, w, wl, gp, a) => `Retrouvez ${c} ${wl} pour ${gp}. Tout est à imprimer gratuitement au format PDF (avec corrigé) ou à faire directement en ligne, sans inscription — de quoi ${a}.`,
     heading: 'Par matière et niveau',
+    onlineTitle: (o, g) => `${o} ${g} – gratuit, sans inscription`,
+    onlineH1: (o, g) => `${o} – ${g}`,
+    onlineDesc: (c, o, gp, a) => `${c} exercices interactifs gratuits pour ${gp} : à faire directement dans le navigateur, sans inscription ni application. De quoi ${a}. Chaque exercice existe aussi en PDF avec corrigé.`,
+    onlineIntro: (c, o, gp, a) => `Entraînez-vous directement dans le navigateur : ${c} exercices interactifs gratuits pour ${gp}, sans inscription ni application. Les réponses sont corrigées immédiatement à chaque vérification — de quoi ${a} en toute autonomie. Chaque exercice existe aussi en fiche PDF à imprimer, avec corrigé.`,
+    onlineLinkLabel: "S'entraîner en ligne – exercices interactifs →",
+    printLinkLabel: (w, g) => `${w} ${g} à imprimer (PDF) →`,
   },
   en: {
     title: (w, g) => `Free ${w} for ${g} – Printable PDF`,
@@ -402,6 +428,31 @@ export function onlineHubDescription(locale: string, subjectKey: string, levelKe
 export function onlineHubIntro(locale: string, subjectKey: string, levelKey: string, count: number): string {
   const { angle } = subjectCopy(locale, subjectKey, levelKey);
   return tpl(locale).onlineIntro!(count, onlinePhrase(locale, subjectKey)!, gradePhrase(locale, levelKey), angle);
+}
+
+/* ---------------- hub deep copy (Unit 6, 2026-07-06) ----------------
+ * Hand-authored per-(subject×grade) body paragraphs + FAQ, native per locale
+ * (§A.13.48 ensemble for de). Data file: frontend/content/subject-hub-copy/
+ * <locale>.json keyed "subject.level". fs-loaded (kept out of the webpack
+ * graph per the landing-content precedent); absent file → hubs render as before. */
+
+export interface SubjectHubDeepCopy {
+  paragraphs: string[];
+  faq: Array<{ q: string; a: string }>;
+}
+const _deepCopyCache: Record<string, Record<string, SubjectHubDeepCopy> | null> = {};
+export function getSubjectHubDeepCopy(locale: string, subjectKey: string, levelKey: string): SubjectHubDeepCopy | null {
+  if (!(locale in _deepCopyCache)) {
+    let data: Record<string, SubjectHubDeepCopy> | null = null;
+    for (const dir of [path.join(process.cwd(), 'content', 'subject-hub-copy'), path.join(process.cwd(), 'frontend', 'content', 'subject-hub-copy')]) {
+      try {
+        const p = path.join(dir, `${locale}.json`);
+        if (fs.existsSync(p)) { data = JSON.parse(fs.readFileSync(p, 'utf8')); break; }
+      } catch { /* tolerate malformed file — hub renders without deep copy */ }
+    }
+    _deepCopyCache[locale] = data;
+  }
+  return _deepCopyCache[locale]?.[`${subjectKey}.${levelKey}`] ?? null;
 }
 
 /** Print-hub → online-hub cross-link label ("Online üben – interaktive Übungen →"). */

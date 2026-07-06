@@ -1,0 +1,5 @@
+{
+  "$comment": "Demand-keyed SEO overrides for topic pages (single-axis + intersections). Authored per docs/SEO/demand-map-en.md; validated by scripts/seo/validate-topic-overrides.js.",
+  "singleAxis": {},
+  "intersection": {}
+}

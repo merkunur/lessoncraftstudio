@@ -45,6 +45,7 @@ import {
 } from '@/lib/subject-hub';
 import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
 import { isSeasonalHubUpgraded, seasonalGradeTitle, SeasonalKey } from '@/lib/seasonal-hub';
+import { getIntersectionOverride } from '@/lib/seo/topic-overrides';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
 import TopicProseContainer, { intentForAxis } from '@/components/catalog/TopicProseContainer';
@@ -274,6 +275,11 @@ function deckLinkFor(deck: TopicDeckSummary): string {
  * Returns null when no prose authored (long-tail intersections per §16.7.3 Path B).
  */
 async function getIntersectionProse(locale: string, axisKey1: string, axisKey2: string): Promise<string | null> {
+  // Demand-keyed override (topic-seo-overrides content JSON) wins — the 2026-07
+  // long-tail program authors intersection flips there. Falls through to the
+  // messages namespace. Stays in lockstep with intersectionIsAuthored (SoT).
+  const ovProse = getIntersectionOverride(locale, axisKey1, axisKey2)?.prose;
+  if (ovProse && ovProse.trim()) return ovProse;
   try {
     const tp = await getTranslations({ locale, namespace: 'topicProse' });
     const sorted = [axisKey1, axisKey2].sort().join('__');
@@ -293,6 +299,9 @@ async function getIntersectionProse(locale: string, axisKey1: string, axisKey2: 
  * then template fallback. Authored per §A.13.48 cadence.
  */
 async function getIntersectionMeta(locale: string, axisKey1: string, axisKey2: string): Promise<string | null> {
+  // Demand-keyed override wins over the messages namespace.
+  const ovMeta = getIntersectionOverride(locale, axisKey1, axisKey2)?.metaDescription;
+  if (ovMeta && ovMeta.trim()) return ovMeta;
   try {
     const tm = await getTranslations({ locale, namespace: 'topicMeta' });
     const sorted = [axisKey1, axisKey2].sort().join('__');
@@ -526,6 +535,13 @@ export async function generateMetadata({
     const levelKey = themeFirst ? axisKey2 : levelFirst ? axisKey1 : null;
     if (themeKey && levelKey && isSeasonalHubUpgraded(locale, themeKey)) {
       pageTitle = seasonalGradeTitle(locale, themeKey as SeasonalKey, levelKey);
+    } else {
+      // Demand-keyed override (2026-07 long-tail program): final-form title
+      // authored per (pair, locale) from the demand maps. Seasonal keeps
+      // precedence; the validator forbids authoring overrides for upgraded
+      // season×grade pairs, so the two mechanisms never contend.
+      const ovTitle = getIntersectionOverride(locale, axisKey1, axisKey2)?.title;
+      if (ovTitle) pageTitle = ovTitle;
     }
   }
 
@@ -1053,7 +1069,8 @@ export default async function IntersectionPage({
 
         <header className="mb-6">
           <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink-900 mb-3">
-            {t('intersection.heading', { primary: name1, secondary: name2 })}
+            {getIntersectionOverride(locale, axisKey1, axisKey2)?.h1
+              ?? t('intersection.heading', { primary: name1, secondary: name2 })}
           </h1>
           <ResultCount locale={locale} count={totalCount} />
         </header>

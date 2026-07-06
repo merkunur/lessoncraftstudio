@@ -36,6 +36,7 @@ import {
   getSeasonalDeepCopy,
   SeasonalKey,
 } from '@/lib/seasonal-hub';
+import { getSingleAxisOverride } from '@/lib/seo/topic-overrides';
 import { subjectHubGradeLabel, HUB_GRADE_KEYS } from '@/lib/subject-hub';
 import { intersectionIsAuthored } from '@/lib/seo/intersection-authored';
 import VarietyStrip from '@/components/catalog/VarietyStrip';
@@ -193,6 +194,10 @@ function firstSentenceOf(prose: string | null | undefined, maxLen = 155): string
  * Returns null when no prose authored (long-tail axis-keys per §16.7.3 Path B).
  */
 async function getTopicProse(locale: string, axisKey: string): Promise<string | null> {
+  // Demand-keyed override (topic-seo-overrides content JSON) wins over the
+  // messages namespace; falls through when the axis-key has no override.
+  const ovProse = getSingleAxisOverride(locale, axisKey)?.prose;
+  if (ovProse && ovProse.trim()) return ovProse;
   try {
     const tp = await getTranslations({ locale, namespace: 'topicProse' });
     const v = tp(axisKey);
@@ -213,6 +218,10 @@ async function getTopicProse(locale: string, axisKey: string): Promise<string | 
  * fallback per generateMetadata description chain.
  */
 async function getTopicMeta(locale: string, axisKey: string): Promise<string | null> {
+  // Demand-keyed override wins over the messages namespace (research-grounded
+  // per-locale copy from docs/SEO/demand-map-<locale>.md).
+  const ovMeta = getSingleAxisOverride(locale, axisKey)?.metaDescription;
+  if (ovMeta && ovMeta.trim()) return ovMeta;
   try {
     const tm = await getTranslations({ locale, namespace: 'topicMeta' });
     const v = tm(axisKey);
@@ -243,9 +252,11 @@ export async function generateMetadata({
   // "Arbeitsblätter Weihnachten – kostenlos zum Ausdrucken") instead of the
   // generic template. Fails closed to renderTopicTitle for everything else.
   // R14c: per-locale casing + FR elision (replaces the bare capFirst).
+  // Precedence: seasonal final-form > demand-keyed override > ICU template.
   const renderedTitle = (axis === 'theme' && isSeasonalHubUpgraded(locale, axisKey))
     ? seasonalHubTitle(locale, axisKey as SeasonalKey)
-    : renderTopicTitle(locale, t, 'title', topicName, intentForAxis(axis));
+    : (getSingleAxisOverride(locale, axisKey)?.title
+        ?? renderTopicTitle(locale, t, 'title', topicName, intentForAxis(axis)));
 
   const siblings = await getTopicSiblings(axis, axisKey);
   const hreflangAlternates: Record<string, string> = {};
@@ -700,7 +711,8 @@ export default async function TopicPage({
           <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink-900 mb-3">
             {seasonalUpgraded
               ? seasonalHubH1(locale, axisKey as SeasonalKey)
-              : renderTopicTitle(locale, t, `heading.${intent}`, topicName, intent)}
+              : (getSingleAxisOverride(locale, axisKey)?.h1
+                  ?? renderTopicTitle(locale, t, `heading.${intent}`, topicName, intent))}
           </h1>
           <ResultCount locale={locale} count={totalCount} />
         </header>

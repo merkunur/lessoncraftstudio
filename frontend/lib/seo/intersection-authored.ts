@@ -1,4 +1,5 @@
 import { getTranslations } from 'next-intl/server';
+import { intersectionOverrideAuthored } from '@/lib/seo/topic-overrides';
 
 /**
  * SEO RESCUE Part 2 W1 — single source of truth for "is this 2-axis topic
@@ -22,6 +23,11 @@ export async function intersectionIsAuthored(
   axisKey1: string,
   axisKey2: string,
 ): Promise<boolean> {
+  // Demand-keyed override file (topic-seo-overrides content JSON) — the
+  // 2026-07 long-tail program authors intersection flips there (server-only
+  // fs content, not messages, to avoid RSC flight-payload bloat). Substantive
+  // entries (prose/metaDescription) count as authored; title-only do not.
+  if (intersectionOverrideAuthored(locale, axisKey1, axisKey2)) return true;
   const sorted = [axisKey1, axisKey2].sort().join('__');
   for (const ns of ['topicProse', 'topicMeta'] as const) {
     try {

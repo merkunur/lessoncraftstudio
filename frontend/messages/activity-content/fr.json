@@ -192,6 +192,75 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
+      "about": [
+        "Tuck le hamster adore rassembler ses barres de dizaines : dès qu'il en réunit dix, elles forment une belle plaque de centaine ! Dans cette activité gratuite, votre enfant additionne deux nombres inférieurs à 1000 et découvre le moment magique où les dizaines se regroupent pour « monter » vers les centaines.",
+        "Le principe est concret et rassurant : on manipule d'abord, on calcule ensuite. Votre enfant voit les cubes (unités), les barres (dizaines) et les plaques (centaines) bouger à l'écran, ce qui donne du sens au geste de « la retenue » au lieu de l'apprendre par cœur.",
+        "Conçue pour le CE2 et alignée sur les programmes officiels, dans le domaine « Nombres et calcul », l'activité avance en douceur, sans chronomètre, sans points et sans compte à créer. Votre enfant progresse à son rythme, tranquillement, aux côtés de Tuck."
+      ],
+      "practices": [
+        "Additionner deux nombres inférieurs à 1000 en s'appuyant sur le matériel de numération.",
+        "Comprendre l'échange décimal : dix dizaines valent exactement une centaine.",
+        "Repérer le moment où il faut « poser une retenue » vers la colonne des centaines.",
+        "Consolider la valeur des positions en distinguant unités, dizaines et centaines."
+      ],
+      "howToPlay": [
+        "Tuck présente une addition, par exemple 160 + 50 : votre enfant observe les barres de dizaines qui s'accumulent dans la colonne des dizaines.",
+        "Quand il y a dix dizaines ou plus, on appuie sur le bouton « Grouper une centaine » pour échanger 10 dizaines contre 1 plaque de centaine.",
+        "Une fois l'échange fait, votre enfant tape le total dans la case réponse et Tuck confirme le résultat d'un signe joyeux."
+      ],
+      "learningGoals": [
+        "Donner du sens à la retenue en addition en la reliant à un échange concret entre dizaines et centaines.",
+        "Renforcer la compréhension de la numération de position jusqu'à 1000.",
+        "Gagner en confiance dans le calcul posé, en s'appuyant sur une image mentale claire du groupement."
+      ]
+    },
+    "place-value-regroup.subtract-decompose.2-nbt-b-7": {
+      "about": [
+        "Parfois, Tuck n'a pas assez de cubes pour retirer ce qu'on lui demande : il doit alors casser une de ses barres pour récupérer dix petites unités ! Dans cette activité gratuite, votre enfant soustrait des nombres inférieurs à 1000 et comprend, geste après geste, pourquoi et comment on « échange » en soustraction.",
+        "Ici, l'échange n'est plus un mystère : votre enfant voit une dizaine se transformer en dix unités avant de pouvoir enlever ce qu'il faut. Cette manipulation visuelle éclaire ce qu'on appelle souvent « l'emprunt » dans le calcul posé.",
+        "Pensée pour le CE2 et fidèle aux programmes officiels, dans le domaine « Nombres et calcul », l'activité progresse calmement, sans minuteur, sans score et sans inscription. Votre enfant apprend à son rythme, épaulé par Tuck."
+      ],
+      "practices": [
+        "Soustraire deux nombres inférieurs à 1000 à l'aide du matériel de numération.",
+        "Comprendre l'échange décimal inverse : une dizaine se casse en dix unités.",
+        "Reconnaître le moment où il n'y a « pas assez d'unités » pour retirer.",
+        "Renforcer la lecture des colonnes unités, dizaines et centaines."
+      ],
+      "howToPlay": [
+        "Tuck propose une soustraction, par exemple 342 − 5 : votre enfant remarque qu'il n'y a que deux unités, donc pas assez pour en enlever cinq.",
+        "On appuie sur le bouton « Casser une dizaine » : une barre se transforme aussitôt en dix cubes, et la colonne des unités se remplit.",
+        "Votre enfant retire alors ce qu'il faut, tape la réponse dans la case, et Tuck valide le résultat avec un petit clin d'œil."
+      ],
+      "learningGoals": [
+        "Comprendre l'échange en soustraction en le vivant comme un geste concret plutôt qu'une règle abstraite.",
+        "Solidifier la numération de position jusqu'à 1000.",
+        "Aborder la soustraction posée avec sérénité et une image mentale fiable de l'emprunt."
+      ]
+    },
+    "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
+      "about": [
+        "C'est le défi préféré de Tuck : quand il n'a plus aucune dizaine sous la main, il doit d'abord casser une plaque de centaine pour en fabriquer dix ! Dans cette activité gratuite, votre enfant soustrait des nombres inférieurs à 1000 et découvre l'échange en cascade, le cas le plus délicat du calcul posé.",
+        "On l'appelle souvent soustraire « par-dessus le zéro » : quand la colonne des dizaines est vide, il faut remonter jusqu'aux centaines. Votre enfant voit la plaque devenir dix barres, puis une barre devenir dix cubes, dans un enchaînement clair et logique.",
+        "Réservée au CE2 et conforme aux programmes officiels, dans le domaine « Nombres et calcul », l'activité se déroule en douceur, sans chronomètre, sans points et sans compte. Votre enfant relève le défi tranquillement, main dans la patte avec Tuck."
+      ],
+      "practices": [
+        "Soustraire deux nombres inférieurs à 1000 avec un double échange successif.",
+        "Enchaîner deux échanges décimaux : une centaine en dix dizaines, puis une dizaine en dix unités.",
+        "Gérer le cas d'une colonne des dizaines vide, la fameuse soustraction « par-dessus le zéro ».",
+        "Coordonner les trois colonnes unités, dizaines et centaines dans un même calcul."
+      ],
+      "howToPlay": [
+        "Tuck affiche une soustraction exigeante, par exemple 302 − 5 : votre enfant constate qu'il n'y a ni assez d'unités, ni aucune dizaine à casser.",
+        "On appuie d'abord sur « Casser une centaine » pour obtenir dix dizaines, puis sur « Casser une dizaine » pour obtenir dix unités.",
+        "Votre enfant retire enfin ce qu'il faut, tape la réponse dans la case, et Tuck le félicite pour avoir réussi l'échange en cascade."
+      ],
+      "learningGoals": [
+        "Maîtriser l'échange en cascade en soustraction en le construisant pas à pas, sans le subir.",
+        "Approfondir la numération de position jusqu'à 1000, y compris quand un zéro complique le calcul.",
+        "Aborder le cas le plus difficile de la soustraction posée avec confiance et méthode."
+      ]
+    },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
         "Tuck le hamster pose une addition toute simple, par exemple 27 + 5, et invite votre enfant à la construire de ses mains. Votre enfant dépose les quantités avec le matériel de numération : les petits cubes pour les unités, les barres pour les dizaines. En rassemblant les unités, il remarque qu'il y en a plus de dix. Il appuie alors sur « Grouper une dizaine » pour échanger 10 unités contre 1 dizaine, une barre apparaît, puis il écrit le total.",

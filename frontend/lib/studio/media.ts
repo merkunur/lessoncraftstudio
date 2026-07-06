@@ -83,6 +83,43 @@ export async function importScene(storyId: string, buf: Buffer) {
  * the PIXI player.
  */
 export async function importSingleImageCharacter(storyId: string, buf: Buffer, requestedName: string) {
+  const baked = await bakeSingleImageCharacter(buf);
+
+  let slug =
+    String(requestedName || '')
+      .replace(/[^a-z0-9]+/gi, '-')
+      .replace(/^-+|-+$/g, '')
+      .toLowerCase() || 'character';
+  const castRoot = path.join(studioStoryDir(storyId), 'cast');
+  if (fs.existsSync(path.join(castRoot, slug))) slug = slug + '-' + sha1Hex(baked.imageBuf).slice(0, 4);
+  const dir = path.join(castRoot, slug);
+  ensureDir(dir);
+
+  const imgName = slug + '.base.webp';
+  fs.writeFileSync(path.join(dir, imgName), baked.imageBuf);
+  const atlas = { ...baked.atlas, meta: { ...baked.atlas.meta, image: imgName } };
+  const atlasJson = JSON.stringify(atlas);
+  fs.writeFileSync(path.join(dir, slug + '.base.json'), atlasJson);
+
+  return {
+    characterId: slug,
+    relAtlas: 'cast/' + slug + '/' + slug + '.base.json',
+    poses: ['neutral'],
+    bytes: baked.imageBuf.length + Buffer.byteLength(atlasJson),
+  };
+}
+
+/**
+ * PURE bake: sanitize a single picture into a one-frame (pose_neutral)
+ * character atlas — no filesystem writes; the caller stores the pair and
+ * fills meta.image with its chosen filename. Shared by the per-story
+ * upload above and the GLOBAL library manager (library-admin.ts).
+ */
+export interface BakedSingle {
+  imageBuf: Buffer;
+  atlas: any; // meta.image left as '' — caller fills it
+}
+export async function bakeSingleImageCharacter(buf: Buffer): Promise<BakedSingle> {
   if (!sniffImageExt(buf)) throw new StudioMediaError('That file is not a PNG, JPG, WEBP, or GIF image');
   let out: Buffer;
   let W = 0;
@@ -100,39 +137,20 @@ export async function importSingleImageCharacter(storyId: string, buf: Buffer, r
     throw new StudioMediaError('Could not read that image (' + e.message + ')');
   }
   if (!W || !H) throw new StudioMediaError('Could not read the image dimensions');
-
-  let slug =
-    String(requestedName || '')
-      .replace(/[^a-z0-9]+/gi, '-')
-      .replace(/^-+|-+$/g, '')
-      .toLowerCase() || 'character';
-  const castRoot = path.join(studioStoryDir(storyId), 'cast');
-  if (fs.existsSync(path.join(castRoot, slug))) slug = slug + '-' + sha1Hex(out).slice(0, 4);
-  const dir = path.join(castRoot, slug);
-  ensureDir(dir);
-
-  const imgName = slug + '.base.webp';
-  fs.writeFileSync(path.join(dir, imgName), out);
-  const atlas = {
-    frames: {
-      pose_neutral: {
-        frame: { x: 0, y: 0, w: W, h: H },
-        rotated: false,
-        trimmed: false,
-        spriteSourceSize: { x: 0, y: 0, w: W, h: H },
-        sourceSize: { w: W, h: H },
-      },
-    },
-    meta: { app: 'lcs-upload', version: '1.0', image: imgName, format: 'RGBA8888', size: { w: W, h: H }, scale: '1' },
-  };
-  const atlasJson = JSON.stringify(atlas);
-  fs.writeFileSync(path.join(dir, slug + '.base.json'), atlasJson);
-
   return {
-    characterId: slug,
-    relAtlas: 'cast/' + slug + '/' + slug + '.base.json',
-    poses: ['neutral'],
-    bytes: out.length + Buffer.byteLength(atlasJson),
+    imageBuf: out,
+    atlas: {
+      frames: {
+        pose_neutral: {
+          frame: { x: 0, y: 0, w: W, h: H },
+          rotated: false,
+          trimmed: false,
+          spriteSourceSize: { x: 0, y: 0, w: W, h: H },
+          sourceSize: { w: W, h: H },
+        },
+      },
+      meta: { app: 'lcs-upload', version: '1.0', image: '', format: 'RGBA8888', size: { w: W, h: H }, scale: '1' },
+    },
   };
 }
 
@@ -147,13 +165,48 @@ export async function importCharacterSheet(
   storyId: string,
   body: { name?: string; atlas?: any; imageBase64?: string }
 ) {
-  const atlas = body && body.atlas;
+  const imgBuf = Buffer.from(String(body.imageBase64 || ''), 'base64');
+  const baked = await bakeCharacterSheet(body && body.atlas, imgBuf);
+
+  let slug =
+    String(body.name || '').replace(/[^a-z0-9]+/gi, '-').replace(/^-+|-+$/g, '').toLowerCase() || 'character';
+  const castRoot = path.join(studioStoryDir(storyId), 'cast');
+  if (fs.existsSync(path.join(castRoot, slug))) slug = slug + '-' + sha1Hex(baked.sheetBuf).slice(0, 4);
+  const dir = path.join(castRoot, slug);
+  ensureDir(dir);
+  const imgName = slug + '.base.webp';
+  fs.writeFileSync(path.join(dir, imgName), baked.sheetBuf);
+  const outAtlas = { ...baked.atlas, meta: { ...baked.atlas.meta, image: imgName } };
+  const atlasJson = JSON.stringify(outAtlas);
+  fs.writeFileSync(path.join(dir, slug + '.base.json'), atlasJson);
+
+  return {
+    characterId: slug,
+    relAtlas: 'cast/' + slug + '/' + slug + '.base.json',
+    poses: baked.poses,
+    bytes: baked.sheetBuf.length + Buffer.byteLength(atlasJson),
+  };
+}
+
+/**
+ * PURE bake: TexturePacker JSON-Hash sheet → the fully NORMALIZED base
+ * atlas + re-composited sheet buffer (rotated:false, trimmed:false, frames
+ * renamed pose_<slug>, uniform grid) — no filesystem writes; the caller
+ * stores the pair and fills meta.image. Shared by the per-story admin
+ * upload above and the GLOBAL library manager (library-admin.ts).
+ */
+export interface BakedSheet {
+  sheetBuf: Buffer;
+  atlas: any; // meta.image left as '' — caller fills it
+  poses: string[];
+}
+export async function bakeCharacterSheet(atlasIn: any, imgBuf: Buffer): Promise<BakedSheet> {
+  const atlas = atlasIn;
   if (!atlas || typeof atlas !== 'object' || !atlas.frames || typeof atlas.frames !== 'object') {
     throw new StudioMediaError('That .json is not a TexturePacker atlas (no "frames") — export "JSON (Hash)" from TexturePacker');
   }
   const frameNames = Object.keys(atlas.frames);
   if (!frameNames.length) throw new StudioMediaError('The atlas has no frames');
-  const imgBuf = Buffer.from(String(body.imageBase64 || ''), 'base64');
   if (!imgBuf.length) throw new StudioMediaError('No sheet image was sent — also select the .webp/.png, not just the .json');
   if (!sniffImageExt(imgBuf)) throw new StudioMediaError('The sheet is not a PNG, JPG, WEBP, or GIF image');
 
@@ -242,26 +295,13 @@ export async function importCharacterSheet(
     .webp()
     .toBuffer();
 
-  let slug =
-    String(body.name || '').replace(/[^a-z0-9]+/gi, '-').replace(/^-+|-+$/g, '').toLowerCase() || 'character';
-  const castRoot = path.join(studioStoryDir(storyId), 'cast');
-  if (fs.existsSync(path.join(castRoot, slug))) slug = slug + '-' + sha1Hex(sheetBuf).slice(0, 4);
-  const dir = path.join(castRoot, slug);
-  ensureDir(dir);
-  const imgName = slug + '.base.webp';
-  fs.writeFileSync(path.join(dir, imgName), sheetBuf);
-  const outAtlas = {
-    frames: outFrames,
-    meta: { app: 'lcs-sheet', version: '1.0', image: imgName, format: 'RGBA8888', size: { w: cols * cellW, h: rows * cellH }, scale: '1' },
-  };
-  const atlasJson = JSON.stringify(outAtlas);
-  fs.writeFileSync(path.join(dir, slug + '.base.json'), atlasJson);
-
   return {
-    characterId: slug,
-    relAtlas: 'cast/' + slug + '/' + slug + '.base.json',
+    sheetBuf,
     poses,
-    bytes: sheetBuf.length + Buffer.byteLength(atlasJson),
+    atlas: {
+      frames: outFrames,
+      meta: { app: 'lcs-sheet', version: '1.0', image: '', format: 'RGBA8888', size: { w: cols * cellW, h: rows * cellH }, scale: '1' },
+    },
   };
 }
 
@@ -281,11 +321,38 @@ export async function importCharacterClips(
   if (!charSlug || !dir || !fs.existsSync(dir)) {
     throw new StudioMediaError('Unknown character "' + charSlug + '" — upload the character first');
   }
-  const atlas = body && body.atlas;
+  const imgBuf = Buffer.from(String(body.imageBase64 || ''), 'base64');
+  const baked = await bakeCharacterClips(charSlug, body && body.atlas, imgBuf);
+  const atlasJson = JSON.stringify(baked.atlas);
+  fs.writeFileSync(path.join(dir, baked.imgName), baked.imgBuf);
+  fs.writeFileSync(path.join(dir, charSlug + '.clips.json'), atlasJson);
+
+  return {
+    characterId: charSlug,
+    relClips: 'cast/' + charSlug + '/' + charSlug + '.clips.json',
+    clips: baked.clips,
+    bytes: baked.imgBuf.length + Buffer.byteLength(atlasJson),
+  };
+}
+
+/**
+ * PURE bake: TexturePacker clips sheet → the clip_<name>-grouped clips
+ * atlas (pass-through frames; the PIXI parser honors rotated/trimmed) —
+ * no filesystem writes. meta.image / imgName = <charSlug>.clips.<ext>.
+ * Shared by the per-story admin upload above and the GLOBAL library
+ * manager (library-admin.ts).
+ */
+export interface BakedClips {
+  imgBuf: Buffer;
+  imgName: string;
+  atlas: any;
+  clips: string[];
+}
+export async function bakeCharacterClips(charSlug: string, atlasIn: any, imgBuf: Buffer): Promise<BakedClips> {
+  const atlas = atlasIn;
   if (!atlas || typeof atlas !== 'object' || !atlas.frames || typeof atlas.frames !== 'object') {
     throw new StudioMediaError('That .json is not a TexturePacker atlas (no "frames")');
   }
-  const imgBuf = Buffer.from(String(body.imageBase64 || ''), 'base64');
   if (!imgBuf.length) throw new StudioMediaError('No animation sheet image was sent — also select the .webp/.png, not just the .json');
   const ext = sniffImageExt(imgBuf);
   if (!ext) throw new StudioMediaError('The animation sheet is not a PNG, JPG, WEBP, or GIF image');
@@ -345,20 +412,15 @@ export async function importCharacterClips(
     outAnims['clip_' + g] = keys;
   });
   const imgName = charSlug + '.clips.' + ext;
-  const outAtlas = {
-    frames: outFrames,
-    animations: outAnims,
-    meta: { app: 'lcs-sheet', version: '1.0', image: imgName, format: 'RGBA8888', size: (atlas.meta && atlas.meta.size) || { w: 0, h: 0 }, scale: '1' },
-  };
-  const atlasJson = JSON.stringify(outAtlas);
-  fs.writeFileSync(path.join(dir, imgName), imgBuf);
-  fs.writeFileSync(path.join(dir, charSlug + '.clips.json'), atlasJson);
-
   return {
-    characterId: charSlug,
-    relClips: 'cast/' + charSlug + '/' + charSlug + '.clips.json',
+    imgBuf,
+    imgName,
     clips: groupNames,
-    bytes: imgBuf.length + Buffer.byteLength(atlasJson),
+    atlas: {
+      frames: outFrames,
+      animations: outAnims,
+      meta: { app: 'lcs-sheet', version: '1.0', image: imgName, format: 'RGBA8888', size: (atlas.meta && atlas.meta.size) || { w: 0, h: 0 }, scale: '1' },
+    },
   };
 }
 

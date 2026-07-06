@@ -41,6 +41,14 @@ export const STUDIO_MINI_TOOLS_DIR: string =
     path.join(sourceRoot(), 'public', 'mini-tools')
   );
 
+/** The GLOBAL storybook asset library (characters/backgrounds). The LIVE
+ *  served tree is authoritative (the git copy under "mini tools/" is the
+ *  bootstrap seed); the admin library manager writes here directly and the
+ *  studio backup cron covers it. */
+export const STORYBOOK_LIBRARY_ROOT: string =
+  process.env.STORYBOOK_LIBRARY_ROOT ||
+  path.join(STUDIO_MINI_TOOLS_DIR, 'storybook-library');
+
 /** The worksheet-generator image library (props). Repo-root sibling of frontend/. */
 export const STUDIO_IMAGE_LIBRARY_THEMES_DIR: string =
   process.env.STUDIO_IMAGE_LIBRARY_DIR ||

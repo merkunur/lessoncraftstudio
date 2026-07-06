@@ -29,10 +29,18 @@ if [ ! -d "$STUDIO_DIR" ]; then
   exit 0
 fi
 
+# The GLOBAL storybook asset library (characters/backgrounds) is written
+# LIVE by the library manager (/api/admin/storybook-library) — the served
+# tree is authoritative (git holds only the bootstrap seed), so it rides
+# in the same weekly tarball.
+LIB_DIR="/var/www/lcs-media/mini-tools/storybook-library"
+TARGETS="studio"
+[ -d "$LIB_DIR" ] && TARGETS="$TARGETS mini-tools/storybook-library"
+
 mkdir -p "$BACKUP_DIR"
 OUT="$BACKUP_DIR/studio_${TIMESTAMP}.tar.gz"
-tar -czf "$OUT" -C /var/www/lcs-media studio
-echo "Wrote $OUT ($(du -h "$OUT" | cut -f1))"
+tar -czf "$OUT" -C /var/www/lcs-media $TARGETS
+echo "Wrote $OUT ($(du -h "$OUT" | cut -f1)) [$TARGETS]"
 
 # retain the newest $KEEP
 ls -t "$BACKUP_DIR"/studio_*.tar.gz 2>/dev/null | tail -n +$((KEEP + 1)) | xargs -r rm

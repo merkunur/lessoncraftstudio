@@ -49,6 +49,12 @@
 
   /* ---------------- stage state ---------------- */
   var host = null, stage = null, scale = 1;
+  /* the VIEW: scale (the one source duPoint divides by) + a translation.
+     mode 'fit' re-fits on host resize; 'manual' (any zoom/pan) holds and
+     clamps. transform stays a PURE scale() (prove-studio reads its coeff);
+     translation rides on left/top exactly as the original fit() did. */
+  var view = { mode: 'fit', tx: 12, ty: 12 };
+  var viewListeners = [];
   var loadedAtlases = {};   /* assetId -> frame set (resolved) */
   var placeMode = null;     /* {kind:'character', castDef} | {kind:'rect', drawable} | {kind:'point', drawable} */
 
@@ -74,15 +80,64 @@
     return s;
   }
 
-  /* ---------------- rendering ---------------- */
-  function fit() {
+  /* ---------------- the view (fit / zoom / pan) ---------------- */
+  function fitScale() {
+    var r = host.getBoundingClientRect();
+    return Math.min((r.width - 24) / DESIGN_W, (r.height - 24) / DESIGN_H);
+  }
+  function applyView() {
+    if (!host || !stage) return;
+    stage.style.transform = 'scale(' + scale + ')';
+    stage.style.left = view.tx + 'px';
+    stage.style.top = view.ty + 'px';
+    viewListeners.forEach(function (fn) { try { fn(getView()); } catch (e) {} });
+  }
+  /* Fit = the load-time default (and the old fit() behavior, kept exported
+     under the same name): scale to the host, center. */
+  function zoomFit() {
     if (!host || !stage) return;
     var r = host.getBoundingClientRect();
-    scale = Math.min((r.width - 24) / DESIGN_W, (r.height - 24) / DESIGN_H);
-    stage.style.transform = 'scale(' + scale + ')';
-    stage.style.left = Math.max(12, (r.width - DESIGN_W * scale) / 2) + 'px';
-    stage.style.top = Math.max(12, (r.height - DESIGN_H * scale) / 2) + 'px';
+    scale = fitScale();
+    view.mode = 'fit';
+    view.tx = Math.max(12, (r.width - DESIGN_W * scale) / 2);
+    view.ty = Math.max(12, (r.height - DESIGN_H * scale) / 2);
+    applyView();
   }
+  /* keep at least 80px of the stage visible in each axis */
+  function clampPan() {
+    var r = host.getBoundingClientRect();
+    view.tx = Math.max(80 - DESIGN_W * scale, Math.min(view.tx, r.width - 80));
+    view.ty = Math.max(80 - DESIGN_H * scale, Math.min(view.ty, r.height - 80));
+  }
+  /* setZoom(s2, cx, cy): cx/cy = CLIENT-coordinate anchor (default: host
+     center) — the design point under the anchor stays under it. */
+  function setZoom(s2, cx, cy) {
+    if (!host || !stage) return;
+    var r = host.getBoundingClientRect();
+    var lo = fitScale() * 0.5;
+    s2 = Math.max(lo, Math.min(4, s2));
+    var hx = (cx === undefined ? r.width / 2 : cx - r.left);
+    var hy = (cy === undefined ? r.height / 2 : cy - r.top);
+    var px = (hx - view.tx) / scale, py = (hy - view.ty) / scale;
+    scale = s2;
+    view.tx = hx - px * scale;
+    view.ty = hy - py * scale;
+    view.mode = 'manual';
+    clampPan();
+    applyView();
+  }
+  function zoomIn() { setZoom(scale * 1.25); }
+  function zoomOut() { setZoom(scale / 1.25); }
+  function zoom100() { setZoom(1); }
+  function panBy(dx, dy) {
+    view.tx += dx; view.ty += dy;
+    view.mode = 'manual';
+    clampPan();
+    applyView();
+  }
+  function getView() { return { scale: scale, tx: view.tx, ty: view.ty, mode: view.mode, fitScale: host ? fitScale() : 1 }; }
+  function onView(fn) { viewListeners.push(fn); }
+  function fit() { zoomFit(); }
 
   function render() {
     if (!stage) return;
@@ -630,6 +685,8 @@
   function onKeyDown(ev) {
     var tag = (doc.activeElement && doc.activeElement.tagName) || '';
     if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+    /* space = pan mode while held (Figma convention) */
+    if (ev.key === ' ' && !spaceHeld) { spaceHeld = true; if (host) host.classList.add('stu-pan-ready'); }
     /* while drawing a path/maze: Enter/Escape finish/cancel (works with no selection) */
     if (placeMode && (placeMode.kind === 'path' || placeMode.kind === 'maze')) {
       if (ev.key === 'Enter') { ev.preventDefault(); finishPlace(); return; }
@@ -639,6 +696,13 @@
       ev.preventDefault();
       if (ev.shiftKey) global.Studio.redo(); else global.Studio.undo();
       return;
+    }
+    /* zoom shortcuts: Ctrl+= / Ctrl+- / Ctrl+0 (fit) / Ctrl+1 (100%) */
+    if (ev.ctrlKey || ev.metaKey) {
+      if (ev.key === '=' || ev.key === '+') { ev.preventDefault(); zoomIn(); return; }
+      if (ev.key === '-') { ev.preventDefault(); zoomOut(); return; }
+      if (ev.key === '0') { ev.preventDefault(); zoomFit(); return; }
+      if (ev.key === '1') { ev.preventDefault(); zoom100(); return; }
     }
     var sel = S().selection;
     if (!sel) return;
@@ -687,6 +751,46 @@
     select(null);
   }
 
+  /* ---------------- pan input (space-drag / middle-drag / wheel) ---------------- */
+  var spaceHeld = false;
+  var panDrag = null;
+  function onKeyUp(ev) {
+    if (ev.key === ' ') { spaceHeld = false; if (host) host.classList.remove('stu-pan-ready'); }
+  }
+  /* capture-phase on the HOST: intercept ONLY space/middle drags so plain
+     left-drags reach the stage handlers untouched (the m2 drag contract) */
+  function onHostPointerDownCapture(ev) {
+    if (!spaceHeld && ev.button !== 1) return;
+    ev.preventDefault(); ev.stopPropagation();
+    panDrag = { x: ev.clientX, y: ev.clientY, tx: view.tx, ty: view.ty };
+    host.classList.add('stu-panning');
+    var move = function (e2) {
+      if (!panDrag) return;
+      view.tx = panDrag.tx + (e2.clientX - panDrag.x);
+      view.ty = panDrag.ty + (e2.clientY - panDrag.y);
+      view.mode = 'manual';
+      clampPan(); applyView();
+    };
+    var up = function () {
+      panDrag = null;
+      host.classList.remove('stu-panning');
+      global.removeEventListener('pointermove', move);
+      global.removeEventListener('pointerup', up);
+    };
+    global.addEventListener('pointermove', move);
+    global.addEventListener('pointerup', up);
+  }
+  function onWheel(ev) {
+    ev.preventDefault();   /* the host owns its wheel (no page scroll behind) */
+    if (ev.ctrlKey || ev.metaKey) {
+      setZoom(scale * (ev.deltaY < 0 ? 1.12 : 1 / 1.12), ev.clientX, ev.clientY);
+    } else if (ev.shiftKey) {
+      panBy(-(ev.deltaY || ev.deltaX), 0);
+    } else {
+      panBy(-ev.deltaX, -ev.deltaY);
+    }
+  }
+
   /* ---------------- boot ---------------- */
   function mount(hostEl) {
     host = hostEl;
@@ -696,15 +800,29 @@
     stage.addEventListener('pointermove', onPointerMove);
     stage.addEventListener('pointerup', onPointerUp);
     stage.addEventListener('dblclick', function (ev) { if (placeMode && placeMode.kind === 'path') { ev.preventDefault(); finishPlace(); } });
+    host.addEventListener('pointerdown', onHostPointerDownCapture, true);
+    host.addEventListener('wheel', onWheel, { passive: false });
     doc.addEventListener('keydown', onKeyDown);
-    global.addEventListener('resize', fit);
+    doc.addEventListener('keyup', onKeyUp);
+    global.addEventListener('resize', onHostResized);
+    if (typeof ResizeObserver === 'function') {
+      /* rail/panel collapse resizes the grid track — refit (or re-clamp) live;
+         never mid-drag (a refit would yank the element under the pointer) */
+      var ro = new ResizeObserver(function () { onHostResized(); });
+      ro.observe(host);
+    }
     global.Studio.on(function (ev) {
       if (ev === 'change' || ev === 'loaded') {
         preloadPageAtlases().then(function () { render(); });
-        if (ev === 'loaded') fit();
+        if (ev === 'loaded') zoomFit();
       }
     });
-    fit();
+    zoomFit();
+  }
+  function onHostResized() {
+    if (drag || panDrag) return;
+    if (view.mode === 'fit') zoomFit();
+    else { clampPan(); applyView(); }
   }
 
   function preloadPageAtlases() {
@@ -722,6 +840,14 @@
     mount: mount,
     render: render,
     fit: fit,
+    zoomFit: zoomFit,
+    setZoom: setZoom,
+    zoomIn: zoomIn,
+    zoomOut: zoomOut,
+    zoom100: zoom100,
+    panBy: panBy,
+    getView: getView,
+    onView: onView,
     select: select,
     FrameCache: FrameCache,
     startPlaceCharacter: startPlaceCharacter,

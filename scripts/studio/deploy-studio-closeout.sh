@@ -26,7 +26,7 @@ git pull
 
 echo "== 2/7 mini-tools sync (pre-build) =="
 for f in storybook-studio.html storybook.html storybook-player.js storybook-audio.js \
-         studio-core.js studio-inspector.js studio-generator-bridge.js \
+         studio-core.js studio-canvas.js studio-inspector.js studio-generator-bridge.js \
          studio-generators.json studio-tour.js; do
   cp "mini tools/$f" /var/www/lcs-media/mini-tools/
 done

@@ -50,6 +50,19 @@
     drawer = null;
   }
 
+  /* ---- transient toast (bottom-center teal pill; non-blocking) ---- */
+  var _toastEl = null, _toastTimer = null;
+  function toast(msg) {
+    if (_toastEl && _toastEl.parentNode) _toastEl.parentNode.removeChild(_toastEl);
+    if (_toastTimer) clearTimeout(_toastTimer);
+    _toastEl = el('div', 'stu-toast', msg);
+    doc.body.appendChild(_toastEl);
+    _toastTimer = setTimeout(function () {
+      if (_toastEl && _toastEl.parentNode) _toastEl.parentNode.removeChild(_toastEl);
+      _toastEl = null;
+    }, 2400);
+  }
+
   /* ================= teacher mode =================
      TEACHER (== tenant mode, ?mode=teacher) hides operator-only affordances
      (raw JSON, zip uploads, cross-story pools, tech copy) and swaps chrome
@@ -66,6 +79,53 @@
   function POWER() {
     return !TEACHER || !!global.Studio.state.isAdmin;
   }
+  /* ================= shell state (canvas-first chrome) =================
+     Three collapsibles — toolbar / page rail / inspector — as classes on
+     #stu-app, remembered per browser. Focus collapses all three at once and
+     restores what was open. Zoom is never persisted (every load = Fit). */
+  var UI = { top: true, rail: true, panel: true, focus: false, focusPrev: null };
+  function loadUI() {
+    try {
+      ['top', 'rail', 'panel'].forEach(function (k) {
+        var v = localStorage.getItem('studio.ui.' + k);
+        if (v === '0') UI[k] = false;
+        if (v === '1') UI[k] = true;
+      });
+    } catch (e) {}
+  }
+  function saveUI() {
+    try {
+      ['top', 'rail', 'panel'].forEach(function (k) {
+        localStorage.setItem('studio.ui.' + k, UI[k] ? '1' : '0');
+      });
+    } catch (e) {}
+  }
+  function syncShellClasses() {
+    var app = doc.getElementById('stu-app');
+    if (!app) return;
+    app.classList.toggle('stu-top-closed', !UI.top);
+    app.classList.toggle('stu-rail-closed', !UI.rail);
+    app.classList.toggle('stu-panel-closed', !UI.panel);
+  }
+  function setShell(o, opts2) {
+    o = o || {};
+    ['top', 'rail', 'panel'].forEach(function (k) { if (typeof o[k] === 'boolean') UI[k] = o[k]; });
+    if (!(opts2 && opts2.transient)) saveUI();
+    syncShellClasses();
+    if (!(opts2 && opts2.noRender)) render();
+  }
+  function toggleFocus() {
+    if (!UI.focus) {
+      UI.focusPrev = { top: UI.top, rail: UI.rail, panel: UI.panel };
+      UI.focus = true;
+      setShell({ top: false, rail: false, panel: false }, { transient: true });
+    } else {
+      UI.focus = false;
+      setShell(UI.focusPrev || { top: true, rail: true, panel: true }, { transient: true });
+      UI.focusPrev = null;
+    }
+  }
+
   /* minZone → a teacher-readable size word (du² thresholds) */
   function sizeWord(minZone) {
     var a = (minZone.w || 0) * (minZone.h || 0);
@@ -627,7 +687,7 @@
               c.addEventListener('click', function () {
                 closeDrawer();
                 global.StudioGeneratorBridge.open(a, {
-                  onAdded: function (res) { applyWorksheetExercise(res.package); }
+                  onAdded: function (res) { applyWorksheetExercise(res); }
                 });
               });
               row.appendChild(c);
@@ -643,18 +703,44 @@
     }, true);
   }
 
-  /* a freshly imported SEP package becomes THE page activity. Worksheet
-     exports are the densest module (a whole generated sheet in one board),
-     so claim the LARGE default zone — the validator's 16px density floor
-     fails full worksheets in the standard minZone-derived box. */
-  function applyWorksheetExercise(pkg) {
+  /* a freshly imported SEP package becomes THE page activity, placed ON the
+     current page as a SELECTED element ready to drag/resize:
+       - a zone the operator already drew on this page is PRESERVED (their
+         intent wins; an under-density zone shows the existing amber cue),
+       - else the zone is aspect-fit to the exercise's crop, centered, capped
+         at 1400×840 and floored at the module minZone. Density-safe: the
+         validator's boardScale is a min(), so an aspect-fit zone at the cap
+         letterboxes to the SAME scale the old fixed 1400×840 box gave —
+         full sheets keep clearing the 16px density floor. res may be a bare
+         package path (legacy/upload path) or the bridge's full result
+         {package, descriptor, …}. */
+  function applyWorksheetExercise(res) {
+    var pkg = (typeof res === 'string') ? res : (res && res.package);
+    var desc = (res && typeof res === 'object') ? res.descriptor : null;
+    if (!pkg) return;
+    var prev = pageObj() && pageObj().interaction;
+    var prevZone = (prev && prev.zone) ? global.Studio.clone(prev.zone) : null;
     applyMechanic('sb-worksheet-exercise');
     mutate('set worksheet exercise', function (draft) {
       var inter = draft.story.pages[pgIdx()].interaction;
       if (!inter) return;
       inter.taskData.package = pkg;
-      inter.zone = { x: 100, y: 110, w: 1400, h: 840 };
+      inter.zone = prevZone || zoneFromCrop(desc);
     });
+    global.StudioCanvas.select({ kind: 'zone' });
+    toast(T('Activity placed — drag or resize it on the page.',
+            'Aufgabe eingefügt – auf der Seite verschieben oder vergrößern.'));
+  }
+  function zoneFromCrop(desc) {
+    var c = desc && desc.crop;
+    if (!c || !c.w || !c.h) return { x: 100, y: 110, w: 1400, h: 840 };
+    var mod = global.SBModules.get('sb-worksheet-exercise');
+    var mz = (mod && mod.meta && mod.meta.minZone) || { w: 640, h: 520 };
+    /* aspect-fit into the large box; never upscale a small exercise > 1.6× */
+    var s = Math.min(1400 / c.w, 840 / c.h, 1.6);
+    var w = Math.max(mz.w, Math.min(1400, Math.round(c.w * s)));
+    var h = Math.max(mz.h, Math.min(840, Math.round(c.h * s)));
+    return { x: Math.round((1600 - w) / 2), y: Math.round((940 - h) / 2) + 60, w: w, h: h };
   }
 
   function applyMechanic(type) {
@@ -673,13 +759,101 @@
     });
   }
 
+  /* ================= floating shell chrome =================
+     Lives INSIDE #stu-canvas-host (over the canvas, never reserving space):
+     the toolbar-restore pill, the inspector edge tab, the zoom cluster.
+     openStory() wipes the host, so this rebuilds idempotently on render. */
+  function renderShellChrome() {
+    var host = refs.canvasHost;
+    if (!host || !S().doc) return;
+
+    if (!host.querySelector('.stu-menu-pill')) {
+      var pill = el('button', 'stu-menu-pill');
+      pill.appendChild(el('span', 'stu-savedot'));
+      pill.appendChild(doc.createTextNode('∨ ' + T('Menu', 'Menü')));
+      pill.title = T('Show the toolbar', 'Werkzeugleiste anzeigen');
+      pill.addEventListener('click', function () { setShell({ top: true }); });
+      host.appendChild(pill);
+    }
+    var pillDot = host.querySelector('.stu-menu-pill .stu-savedot');
+    if (pillDot) {
+      var st = S().saveState;
+      pillDot.className = 'stu-savedot' +
+        (st === 'saving' ? ' stu-dot-saving' : (st === 'conflict' || st === 'error') ? ' stu-dot-bad' : '');
+    }
+
+    if (!host.querySelector('.stu-panel-tab')) {
+      var tab = el('button', 'stu-panel-tab', '« ' + T('Page setup', 'Seiten-Einstellungen'));
+      tab.title = T('Show the page panel', 'Seitenpanel anzeigen');
+      tab.addEventListener('click', function () { setShell({ panel: true }); });
+      host.appendChild(tab);
+    }
+
+    if (!host.querySelector('.stu-zoombar')) {
+      var z = el('div', 'stu-zoombar');
+      var mk = function (label, title, fn, cls) {
+        var b = el('button', 'stu-zbtn' + (cls ? ' ' + cls : ''), label);
+        b.title = title;
+        b.addEventListener('click', fn);
+        z.appendChild(b);
+        return b;
+      };
+      mk('−', T('Zoom out', 'Verkleinern') + ' (Ctrl −)', function () { global.StudioCanvas.zoomOut(); });
+      var pct = mk('100%', T('Zoom to 100%', 'Auf 100 % zoomen') + ' (Ctrl 1)', function () { global.StudioCanvas.zoom100(); }, 'stu-zpct');
+      mk('+', T('Zoom in', 'Vergrößern') + ' (Ctrl +)', function () { global.StudioCanvas.zoomIn(); });
+      z.appendChild(el('span', 'stu-zdiv'));
+      mk(T('Fit', 'Einpassen'), T('Fit the whole page', 'Ganze Seite einpassen') + ' (Ctrl 0)', function () { global.StudioCanvas.zoomFit(); });
+      z.appendChild(el('span', 'stu-zdiv'));
+      var focusBtn = mk('⛶ ' + T('Focus', 'Fokus'),
+        T('Hide the panels for a clean view', 'Alle Leisten ausblenden – freie Sicht') + ' (Ctrl \\)',
+        function () { toggleFocus(); renderShellChrome(); }, 'stu-zfocus');
+      mk('⤢', T('Fullscreen', 'Vollbild'), function () {
+        try {
+          if (doc.fullscreenElement) doc.exitFullscreen();
+          else doc.documentElement.requestFullscreen();
+        } catch (e) {}
+      });
+      host.appendChild(z);
+      if (global.StudioCanvas.onView) {
+        global.StudioCanvas.onView(function (v) {
+          var p2 = refs.canvasHost && refs.canvasHost.querySelector('.stu-zpct');
+          if (p2) p2.textContent = Math.round(v.scale * 100) + '%';
+        });
+      }
+      var v0 = global.StudioCanvas.getView && global.StudioCanvas.getView();
+      if (v0) pct.textContent = Math.round(v0.scale * 100) + '%';
+    }
+    var fb = host.querySelector('.stu-zfocus');
+    if (fb) {
+      fb.classList.toggle('stu-on', !!UI.focus);
+      fb.textContent = UI.focus ? '⛶ ' + T('Exit focus', 'Fokus beenden') : '⛶ ' + T('Focus', 'Fokus');
+    }
+  }
+
   /* ================= inspector panel ================= */
+  var _lastSelKey = null;
   function render() {
     if (!refs.panel || !S().doc) return;
+    /* a NEW selection summons the inspector — a collapsed panel can never
+       strand a non-technical user (change-triggered, so collapsing while
+       something stays selected sticks) */
+    var selNow = S().selection;
+    var selKey = selNow ? JSON.stringify(selNow) : null;
+    if (selNow && selKey !== _lastSelKey && !UI.panel) {
+      UI.panel = true;
+      saveUI();
+      syncShellClasses();
+    }
+    _lastSelKey = selKey;
     renderRail();
     renderTopbar();
+    renderShellChrome();
     var p = refs.panel;
     p.innerHTML = '';
+    var hide = el('button', 'stu-panel-collapse', '»');
+    hide.title = T('Hide this panel', 'Panel ausblenden');
+    hide.addEventListener('click', function () { setShell({ panel: false }); });
+    p.appendChild(hide);
     var sel = S().selection;
     var pg = pageObj();
     if (!pg) return;
@@ -1651,6 +1825,11 @@
   function renderRail() {
     var r = refs.rail;
     r.innerHTML = '';
+    var tog = el('button', 'stu-rail-toggle', UI.rail ? '«' : '»');
+    tog.title = UI.rail ? T('Collapse the page strip', 'Seitenleiste einklappen')
+                        : T('Show the page strip', 'Seitenleiste anzeigen');
+    tog.addEventListener('click', function () { setShell({ rail: !UI.rail }); });
+    r.appendChild(tog);
     var story = S().doc.story;
     story.pages.forEach(function (pg, i) {
       var t = el('button', 'stu-thumb' + (i === pgIdx() ? ' stu-on' : ''));
@@ -1684,9 +1863,55 @@
   }
 
   /* ---- topbar + validate + preview ---- */
+  function saveStateText() {
+    var st = S().saveState;
+    return st === 'saving' ? T('Saving…', 'Wird gespeichert…')
+      : st === 'saved' ? T('All changes saved', 'Alles gespeichert') + (S().savedAt ? ' · ' + S().savedAt.toLocaleTimeString().slice(0, 5) : '')
+      : st === 'conflict' ? (TEACHER
+          ? '⚠ ' + T('This story was edited somewhere else — reload to see the latest.', 'Diese Geschichte wurde woanders bearbeitet — bitte neu laden.')
+          : '⚠ This story also changed on disk — reload to get the latest version before editing more')
+      : st === 'error' ? (TEACHER
+          ? '⚠ ' + T('Could not save — check your connection.', 'Speichern fehlgeschlagen — bitte Verbindung prüfen.')
+          : '⚠ Could not save — is the Studio server running?')
+      : '';
+  }
+  function makeSaveState() {
+    var st = S().saveState;
+    var save = el('span', 'stu-savestate');
+    var dot = el('span', 'stu-savedot');
+    if (st === 'saving') dot.classList.add('stu-dot-saving');
+    if (st === 'conflict' || st === 'error') dot.classList.add('stu-dot-bad');
+    save.appendChild(dot);
+    var txt = el('span', 'stu-savetext', saveStateText());
+    save.appendChild(txt);
+    save.title = saveStateText();
+    if (st === 'conflict' || st === 'error') save.classList.add('stu-savebad');
+    return save;
+  }
+  function goMyStories() {
+    if (TEACHER) {
+      /* the Next wrapper owns navigation (full-viewport iframe) */
+      try { global.parent.postMessage({ type: 'lcs-studio-nav', target: 'stories' }, location.origin); } catch (e) {}
+      return;
+    }
+    try { history.replaceState(null, '', location.pathname); } catch (e) {}
+    launcher();
+  }
   function renderTopbar() {
     var t = refs.topbar;
     t.innerHTML = '';
+
+    /* a failed/conflicted save must never be hidden behind a collapsed bar */
+    var st = S().saveState;
+    if ((st === 'conflict' || st === 'error') && !UI.top) {
+      UI.top = true;
+      syncShellClasses();
+    }
+
+    var back = el('button', 'stu-tb-back', '← ' + T('My stories', 'Meine Geschichten'));
+    back.addEventListener('click', goMyStories);
+    t.appendChild(back);
+
     var title = el('input', 'stu-title');
     title.value = global.Studio.str('story.title') || S().id;
     title.addEventListener('change', function () { global.Studio.setStr('story.title', title.value); });
@@ -1701,32 +1926,44 @@
     redo.addEventListener('click', global.Studio.redo);
     t.appendChild(redo);
 
+    t.appendChild(el('span', 'stu-tb-spacer'));
+    t.appendChild(makeSaveState());
+
     var prev = el('button', 'stu-btn stu-btn-primary',
       TEACHER ? '▶ ' + T('Preview as a student', 'Aus Schülersicht ansehen') : '▶ Try it');
     prev.addEventListener('click', openPreview);
     t.appendChild(prev);
-    var check = el('button', 'stu-btn', '✔ ' + T('Check my story', 'Geschichte prüfen'));
+    var check = el('button', 'stu-btn stu-tb-wide', '✔ ' + T('Check my story', 'Geschichte prüfen'));
     check.addEventListener('click', runCheck);
     t.appendChild(check);
     if (TEACHER) {
-      var share = el('button', 'stu-btn', '🔗 ' + T('Share with your class', 'Mit der Klasse teilen'));
+      var share = el('button', 'stu-btn stu-tb-wide', '🔗 ' + T('Share with your class', 'Mit der Klasse teilen'));
       share.addEventListener('click', openShare);
       t.appendChild(share);
     }
 
-    var save = el('span', 'stu-savestate');
-    var st = S().saveState;
-    save.textContent = st === 'saving' ? T('Saving…', 'Wird gespeichert…')
-      : st === 'saved' ? T('All changes saved', 'Alles gespeichert') + (S().savedAt ? ' · ' + S().savedAt.toLocaleTimeString().slice(0, 5) : '')
-      : st === 'conflict' ? (TEACHER
-          ? '⚠ ' + T('This story was edited somewhere else — reload to see the latest.', 'Diese Geschichte wurde woanders bearbeitet — bitte neu laden.')
-          : '⚠ This story also changed on disk — reload to get the latest version before editing more')
-      : st === 'error' ? (TEACHER
-          ? '⚠ ' + T('Could not save — check your connection.', 'Speichern fehlgeschlagen — bitte Verbindung prüfen.')
-          : '⚠ Could not save — is the Studio server running?')
-      : '';
-    if (st === 'conflict' || st === 'error') save.classList.add('stu-savebad');
-    t.appendChild(save);
+    /* narrow viewports: the same actions live behind ⋯ (both sets always in
+       the DOM; a media query decides which set is visible) */
+    var over = el('span', 'stu-tb-over');
+    var dots = el('button', 'stu-btn', '⋯');
+    dots.title = T('More actions', 'Weitere Aktionen');
+    var pop = el('div', 'stu-tb-pop');
+    var check2 = el('button', 'stu-btn', '✔ ' + T('Check my story', 'Geschichte prüfen'));
+    check2.addEventListener('click', function () { pop.classList.remove('stu-open'); runCheck(); });
+    pop.appendChild(check2);
+    if (TEACHER) {
+      var share2 = el('button', 'stu-btn', '🔗 ' + T('Share with your class', 'Mit der Klasse teilen'));
+      share2.addEventListener('click', function () { pop.classList.remove('stu-open'); openShare(); });
+      pop.appendChild(share2);
+    }
+    dots.addEventListener('click', function () { pop.classList.toggle('stu-open'); });
+    over.appendChild(dots); over.appendChild(pop);
+    t.appendChild(over);
+
+    var collapse = el('button', 'stu-collapse', '∧');
+    collapse.title = T('Hide the toolbar', 'Werkzeugleiste ausblenden');
+    collapse.addEventListener('click', function () { setShell({ top: false }); });
+    t.appendChild(collapse);
   }
 
   function openPreview() {
@@ -2042,6 +2279,17 @@
   /* ---- boot ---- */
   function mount(r) {
     refs = r;
+    loadUI();
+    syncShellClasses();
+    doc.addEventListener('keydown', function (ev) {
+      var tag = (doc.activeElement && doc.activeElement.tagName) || '';
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+      if ((ev.ctrlKey || ev.metaKey) && ev.key === '\\') {
+        ev.preventDefault();
+        toggleFocus();
+        renderShellChrome();
+      }
+    });
     global.Studio.on(function (ev) {
       if (ev === 'change' || ev === 'loaded' || ev === 'savestate' || ev === 'audio') render();
     });
@@ -2061,5 +2309,6 @@
     });
   }
 
-  global.StudioInspector = { mount: mount, render: render, openLibrary: openLibrary, launcher: launcher };
+  global.StudioInspector = { mount: mount, render: render, openLibrary: openLibrary, launcher: launcher,
+    setShell: setShell, toggleFocus: toggleFocus };
 }(typeof window !== 'undefined' ? window : this));

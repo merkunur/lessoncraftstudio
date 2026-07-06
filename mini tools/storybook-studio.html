@@ -12,16 +12,84 @@
   .stu-h2, .stu-h3, .stu-drawer-title, .stu-launcher h1, .stu-genname { font-family:"Baloo 2","Nunito","Segoe UI",system-ui,sans-serif; }
   * { box-sizing: border-box; }
   html, body { margin:0; height:100%; font-family:"Nunito","Segoe UI",system-ui,sans-serif; color:var(--ink); background:#efe7d8; }
-  #stu-banner { display:none; background:#7A3016; color:#fff; padding:14px 18px; font-weight:700; }
-  #stu-app { display:grid; grid-template-rows:52px 1fr; grid-template-columns:120px 1fr 360px; height:100vh; }
-  #stu-topbar { grid-column:1/4; display:flex; align-items:center; gap:10px; padding:0 14px; background:var(--teal); }
-  #stu-rail { overflow-y:auto; background:#e5dbc6; padding:8px; display:flex; flex-direction:column; gap:8px; }
+  #stu-banner { display:none; position:fixed; left:0; right:0; top:0; z-index:99999; background:#7A3016; color:#fff; padding:14px 18px; font-weight:700; box-shadow:0 6px 18px rgba(0,0,0,.3); }
+  /* ---- the canvas-first shell: one slim collapsible toolbar row, a
+     collapsible page rail, a collapsible inspector column — the canvas
+     owns everything they give back. All three states are CSS classes on
+     #stu-app; the DOM containers and their IDs never change. ---- */
+  #stu-app { --railw:120px; --panelw:360px;
+    display:grid; grid-template-rows:44px 1fr; grid-template-columns:var(--railw) 1fr var(--panelw); height:100vh; }
+  #stu-app.stu-top-closed { grid-template-rows:0 1fr; }
+  #stu-app.stu-rail-closed { --railw:44px; }
+  #stu-app.stu-panel-closed { --panelw:0px; }
+  @media (max-width:1279px) { #stu-app { --railw:96px; --panelw:320px; } #stu-app.stu-rail-closed { --railw:44px; } }
+  #stu-topbar { grid-column:1/4; display:flex; align-items:center; gap:8px; padding:0 10px; background:var(--teal); overflow:hidden; }
+  #stu-rail { overflow-y:auto; overflow-x:hidden; background:#e5dbc6; padding:8px; display:flex; flex-direction:column; gap:8px; }
+  #stu-app.stu-rail-closed #stu-rail { padding:6px 4px; gap:6px; }
   #stu-canvas-host { position:relative; overflow:hidden; background:#d8cdb6; }
   #stu-panel { overflow-y:auto; background:#fffdf7; border-left:1px solid #d8cdb6; padding:14px; }
+  #stu-app.stu-panel-closed #stu-panel { display:none; }
   /* topbar */
-  .stu-title { flex:0 1 340px; font-size:17px; font-weight:800; padding:6px 10px; border-radius:8px; border:none; background:rgba(255,255,255,.92); }
-  .stu-savestate { margin-left:auto; color:#dff3ee; font-size:13px; font-weight:700; }
+  #stu-topbar .stu-btn { padding:6px 12px; font-size:13.5px; white-space:nowrap; }
+  .stu-title { flex:0 1 260px; min-width:120px; font-size:15px; font-weight:800; padding:5px 9px; border-radius:8px; border:none; background:rgba(255,255,255,.92); }
+  .stu-tb-back { border:none; background:transparent; color:#dff3ee; font-weight:800; font-size:13.5px; cursor:pointer; padding:6px 8px; border-radius:8px; white-space:nowrap; }
+  .stu-tb-back:hover { background:rgba(255,255,255,.14); color:#fff; }
+  .stu-tb-spacer { margin-left:auto; }
+  .stu-savestate { display:flex; align-items:center; gap:6px; color:#dff3ee; font-size:12.5px; font-weight:700; white-space:nowrap; }
+  .stu-savedot { width:9px; height:9px; border-radius:50%; background:#8fd8c6; flex:0 0 auto; }
+  .stu-savedot.stu-dot-saving { background:#f3cf8a; }
+  .stu-savedot.stu-dot-bad { background:#ff9d7a; }
   .stu-savebad { color:#ffd9a8; }
+  /* narrow toolbar: Check/Share fold into the ⋯ menu (both sets stay in the DOM) */
+  .stu-tb-over { position:relative; display:none; }
+  .stu-tb-pop { position:absolute; right:0; top:calc(100% + 6px); z-index:600; display:none;
+    background:#fffdf7; border:1px solid #d8cdb6; border-radius:12px; padding:8px; box-shadow:0 10px 30px rgba(0,0,0,.25);
+    flex-direction:column; gap:6px; min-width:220px; }
+  .stu-tb-pop.stu-open { display:flex; }
+  @media (max-width:1279px) {
+    #stu-topbar .stu-tb-wide { display:none; }
+    .stu-tb-over { display:block; }
+    .stu-savestate .stu-savetext { display:none; }
+    .stu-savestate.stu-savebad .stu-savetext { display:inline; }
+  }
+  .stu-collapse { border:none; background:transparent; color:#bfe6dc; font-size:15px; font-weight:900; cursor:pointer; padding:6px 8px; border-radius:8px; }
+  .stu-collapse:hover { background:rgba(255,255,255,.14); color:#fff; }
+  /* floating restore pill when the toolbar is hidden */
+  .stu-menu-pill { display:none; position:absolute; right:14px; top:10px; z-index:60;
+    align-items:center; gap:8px; border:1px solid #d8cdb6; background:rgba(255,253,247,.96); color:var(--ink);
+    font-weight:800; font-size:13px; padding:7px 13px; border-radius:999px; cursor:pointer;
+    box-shadow:0 6px 20px rgba(0,0,0,.18); }
+  .stu-menu-pill:hover { background:#fff; }
+  #stu-app.stu-top-closed .stu-menu-pill { display:flex; }
+  /* rail collapse: numbered page squares, same DOM */
+  .stu-rail-toggle { border:none; background:transparent; color:#7c6a52; font-weight:900; font-size:13px;
+    cursor:pointer; border-radius:8px; padding:5px 0; flex:0 0 auto; }
+  .stu-rail-toggle:hover { background:#dbd0b8; }
+  #stu-app.stu-rail-closed .stu-thumb img { display:none; }
+  #stu-app.stu-rail-closed .stu-thumb { min-height:34px; }
+  #stu-app.stu-rail-closed .stu-thumb-n { inset:0; border-radius:7px; display:flex; align-items:center; justify-content:center;
+    background:transparent; color:var(--ink); font-size:13px; }
+  #stu-app.stu-rail-closed .stu-thumb-badge, #stu-app.stu-rail-closed .stu-thumb-move { display:none; }
+  #stu-app.stu-rail-closed .stu-thumb-add { min-height:34px; font-size:20px; }
+  /* the inspector's edge tab when the panel is collapsed */
+  .stu-panel-tab { display:none; position:absolute; right:0; top:50%; transform:translateY(-50%); z-index:60;
+    writing-mode:vertical-rl; border:none; background:var(--teal); color:#fff; font-weight:800; font-size:13px;
+    padding:14px 6px; border-radius:12px 0 0 12px; cursor:pointer; box-shadow:-4px 4px 16px rgba(0,0,0,.2); letter-spacing:.4px; }
+  .stu-panel-tab:hover { filter:brightness(1.08); }
+  #stu-app.stu-panel-closed .stu-panel-tab { display:block; }
+  /* the floating zoom cluster (always reachable, bottom-right of the canvas) */
+  .stu-zoombar { position:absolute; right:14px; bottom:14px; z-index:60; display:flex; align-items:center; gap:2px;
+    background:rgba(255,253,247,.96); border:1px solid #d8cdb6; border-radius:12px; padding:4px;
+    box-shadow:0 6px 20px rgba(0,0,0,.18); }
+  .stu-zbtn { border:none; background:transparent; border-radius:8px; padding:5px 9px; font-weight:800;
+    cursor:pointer; color:var(--ink); font-size:13px; white-space:nowrap; }
+  .stu-zbtn:hover { background:#f0e8d5; }
+  .stu-zbtn.stu-on { background:var(--coral); color:#fff; }
+  .stu-zpct { min-width:50px; text-align:center; }
+  .stu-zdiv { width:1px; height:18px; background:#d8cdb6; margin:0 3px; }
+  /* pan cursors (space-drag / middle-drag) */
+  #stu-canvas-host.stu-pan-ready .stu-stage { cursor:grab; }
+  #stu-canvas-host.stu-panning .stu-stage { cursor:grabbing; }
   /* buttons */
   .stu-btn { border:none; border-radius:10px; background:#e8dfc9; color:var(--ink); font-weight:800; padding:8px 14px; cursor:pointer; font-size:14px; }
   .stu-btn:hover { filter:brightness(.97); }
@@ -71,6 +139,9 @@
   .stu-offstage { position:absolute; left:16px; bottom:16px; background:#f6d2a4; border-radius:10px; padding:6px 12px; font-weight:800; font-size:20px; }
   .stu-placing .stu-stage { cursor:crosshair; }
   /* inspector */
+  .stu-panel-collapse { float:right; border:none; background:transparent; color:#a49478; font-weight:900;
+    cursor:pointer; font-size:15px; padding:2px 7px; border-radius:7px; }
+  .stu-panel-collapse:hover { background:#f0e8d5; color:var(--ink); }
   .stu-h2 { margin:4px 0 10px; font-size:19px; }
   .stu-h3 { margin:0 0 8px; font-size:14px; color:var(--teal); text-transform:uppercase; letter-spacing:.4px; }
   .stu-section { border-top:1px solid #eee3cf; padding:12px 0; }
@@ -174,6 +245,12 @@
   .stu-tour-bubble p { margin:0 0 12px; font-size:13.5px; line-height:1.45; color:#4c443a; }
   .stu-tour-row { display:flex; justify-content:flex-end; gap:8px; }
   .stu-tour-count { position:absolute; left:14px; bottom:12px; font-size:11.5px; color:#a99e8c; font-weight:700; }
+  /* ---- transient toast (studio-inspector.js toast()) ---- */
+  .stu-toast { position:fixed; left:50%; bottom:26px; transform:translateX(-50%); z-index:100010;
+    background:var(--teal); color:#fff; font-weight:800; font-size:14.5px; padding:11px 20px;
+    border-radius:999px; box-shadow:0 10px 30px rgba(0,0,0,.35); pointer-events:none;
+    animation:stu-toast-in .18s ease-out; }
+  @keyframes stu-toast-in { from { opacity:0; transform:translate(-50%, 12px); } to { opacity:1; transform:translate(-50%, 0); } }
   /* ---- share drawer ---- */
   .stu-sharerow { display:flex; gap:8px; margin:10px 0; align-items:center; }
   .stu-sharerow input { flex:1; padding:9px 10px; border:2px solid #e3d8bf; border-radius:9px; font:inherit; background:#fff; }
@@ -223,10 +300,10 @@
 <script src="/worksheet-generators/js/image-vocabulary.js?v=3"></script>
 
 <script src="/mini-tools/studio-core.js?v=2"></script>
-<script src="/mini-tools/studio-canvas.js?v=1"></script>
-<script src="/mini-tools/studio-generator-bridge.js?v=1"></script>
-<script src="/mini-tools/studio-tour.js?v=1"></script>
-<script src="/mini-tools/studio-inspector.js?v=2"></script>
+<script src="/mini-tools/studio-canvas.js?v=2"></script>
+<script src="/mini-tools/studio-generator-bridge.js?v=2"></script>
+<script src="/mini-tools/studio-tour.js?v=2"></script>
+<script src="/mini-tools/studio-inspector.js?v=3"></script>
 <script>
   (function () {
     var expected = 24;

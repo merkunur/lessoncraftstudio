@@ -54,7 +54,11 @@ var hashTitleOrDescription = require('./seo-reconciliation').hashTitleOrDescript
 var DECKS_DIR = '/var/www/lcs-media/decks';
 var ALL_LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 var TAILS = require('./demand-title-tails.json');
-var MAX_TITLE_CHARS = 72; // unescaped rendered title incl. tail
+// Unescaped rendered title incl. tail. The tail sits LAST, so a title beyond
+// Google's ~60-char SERP display clips the tail (not the keyword head) yet the
+// full title is still indexed for ranking — so a generous 80 lets the demand
+// qualifier reach more titles; only genuinely runaway titles are skipped.
+var MAX_TITLE_CHARS = 80;
 
 function parseArgs(argv) {
   var out = { locales: null, dryRun: false, confirm: false, limit: 0 };

@@ -3939,7 +3939,9 @@
       "filterTheme": "Theme",
       "all": "All",
       "results": "{count} worksheets",
-      "showAllThemes": "Show all themes"
+      "showAllThemes": "Show all themes",
+      "sortVariety": "Variety",
+      "topicLinksHeading": "Browse by exercise type"
     }
   },
   "standardsPage": {

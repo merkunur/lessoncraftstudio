@@ -2360,7 +2360,9 @@
       "filterTheme": "Tema",
       "all": "Alle",
       "results": "{count} arbejdsark",
-      "showAllThemes": "Vis alle temaer"
+      "showAllThemes": "Vis alle temaer",
+      "sortVariety": "Variation",
+      "topicLinksHeading": "Gennemse efter opgavetype"
     }
   },
   "standardsPage": {

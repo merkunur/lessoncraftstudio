@@ -36,7 +36,7 @@ import {
 } from "@/components/activities/ActivityCatalogFilters";
 import { buildFilterUrl, withoutParam } from "@/components/catalog/filterUrl";
 import Pagination from "@/components/catalog/Pagination";
-import "./activities-catalog.css";
+import "@/styles/catalog-cards.css";
 
 /**
  * Activities index — /<locale>/activities/

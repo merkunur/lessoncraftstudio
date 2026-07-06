@@ -3961,7 +3961,9 @@
       "filterTheme": "Tema",
       "all": "Tutti",
       "results": "{count} schede",
-      "showAllThemes": "Mostra tutti i temi"
+      "showAllThemes": "Mostra tutti i temi",
+      "sortVariety": "Varietà",
+      "topicLinksHeading": "Esplora per tipo di esercizio"
     }
   },
   "standardsPage": {

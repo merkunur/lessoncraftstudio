@@ -43,6 +43,11 @@ const nextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     formats: ['image/webp', 'image/avif'],
+    // 2026-07-06 broken-thumbnails fix: deck thumbnails are immutable per
+    // slug-version, but the default 60s TTL forced constant sharp re-encodes
+    // and made every repeat view re-hit /_next/image at the origin (which the
+    // per-IP nginx rate limit then 429'd). 31 days lets browsers/CDN cache.
+    minimumCacheTTL: 2678400,
   },
 
   // Increase file upload size limit

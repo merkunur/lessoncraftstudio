@@ -1,7 +1,10 @@
-/* Activities catalog index — Direction A card surfaces.
+/* Shared Direction A catalog-card surfaces (activities + worksheets hubs).
+   Originally authored as app/[locale]/activities/activities-catalog.css;
+   relocated here 2026-07-06 when the worksheets hub adopted the same faceted
+   catalog. Class names (.actcat-*) intentionally unchanged.
    Lifted (unscoped) from the .hv3-card vocabulary in homepage-v3.css so the
-   dual-shadow + paper-grain "sheet of handmade paper" look applies on
-   /[locale]/activities/ without importing the entire homepage stylesheet.
+   dual-shadow + paper-grain "sheet of handmade paper" look applies without
+   importing the entire homepage stylesheet.
    Colors are the locked Direction A palette (teal #146B5E on cream #FBF3E4). */
 
 .actcat-card {

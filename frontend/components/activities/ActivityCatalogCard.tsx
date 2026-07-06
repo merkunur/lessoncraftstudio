@@ -9,7 +9,7 @@
  * Presentational + server-rendered: all localized strings are passed in
  * (grade from seo.educational_level.*, strand from localizeStrand) so this
  * file needs no i18n context. Keyboard-focusable; hover lift is CSS-only and
- * respects prefers-reduced-motion (see activities-catalog.css).
+ * respects prefers-reduced-motion (see styles/catalog-cards.css).
  */
 import Link from 'next/link';
 import ActivityGlyph from './ActivityGlyph';
@@ -42,7 +42,9 @@ export default function ActivityCatalogCard({
 }: ActivityCatalogCardProps) {
   const s = SUBJECT_STYLE[subject];
   return (
-    <Link href={href} className="actcat-card group flex flex-col rounded-3xl p-3.5 md:p-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-lcs-cream">
+    // prefetch={false}: 48 cards × viewport _rsc prefetch rides the nginx
+    // per-IP burst (zone=lcsperip burst=40) and starves the page's own requests.
+    <Link href={href} prefetch={false} className="actcat-card group flex flex-col rounded-3xl p-3.5 md:p-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-lcs-cream">
       {/* "Thumbnail": a REAL rendered preview of this activity's play area
           (so the content is visually clear + distinct per activity), with a
           saturated top edge band for the Math/Literacy signal. Falls back to

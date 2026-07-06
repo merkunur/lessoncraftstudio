@@ -2352,7 +2352,9 @@
       "filterTheme": "Aihe",
       "all": "Kaikki",
       "results": "{count} tehtävää",
-      "showAllThemes": "Näytä kaikki aiheet"
+      "showAllThemes": "Näytä kaikki aiheet",
+      "sortVariety": "Vaihtelu",
+      "topicLinksHeading": "Selaa tehtävätyypin mukaan"
     }
   },
   "standardsPage": {

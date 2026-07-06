@@ -177,13 +177,29 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
     const exDir = path.join(STORIES, SCRATCH, placed.pkg);
     const desc = JSON.parse(fs.readFileSync(path.join(exDir, 'descriptor.json'), 'utf8'));
     const s = Math.min(1400 / desc.crop.w, 840 / desc.crop.h, 1.6);
-    const expW = Math.max(640, Math.min(1400, Math.round(desc.crop.w * s)));
-    const expH = Math.max(520, Math.min(840, Math.round(desc.crop.h * s)));
+    const expW = Math.max(416, Math.min(1400, Math.round(desc.crop.w * s)));
+    const expH = Math.max(320, Math.min(840, Math.round(desc.crop.h * s)));
     assert(placed.zone.w === expW && placed.zone.h === expH,
       'A: zone aspect-fit to the crop (' + placed.zone.w + '×' + placed.zone.h + ', expected ' + expW + '×' + expH + ')');
     assert(placed.zone.x === Math.round((1600 - expW) / 2), 'A: zone centered');
     assert((dl || 0) === 0, 'A: ZERO anchor downloads in the app (spy=' + dl + ')');
     assert(downloadAttempts === 0, 'A: ZERO browser download attempts (CDP=' + downloadAttempts + ')');
+
+    /* A2: the placed zone SHRINKS by dragging its corner and stops cleanly
+       at the module minimum (the "can make it bigger but not smaller" fix) */
+    const hb = await (await page.$('.stu-zone .stu-handle-se')).boundingBox();
+    await page.mouse.move(hb.x + hb.width / 2, hb.y + hb.height / 2);
+    await page.mouse.down();
+    await page.mouse.move(hb.x + hb.width / 2 - 900, hb.y + hb.height / 2 - 900, { steps: 10 });
+    await page.mouse.up();
+    await sleep(250);
+    const shrunk = await page.evaluate(() => Studio.page().interaction.zone);
+    assert(shrunk.w === 416 && shrunk.h === 320,
+      'A2: dragging the corner far inward clamps the zone exactly at the 416×320 minimum (got ' + shrunk.w + '×' + shrunk.h + ')');
+    const amber = await page.evaluate(() => !!document.querySelector('.stu-zone.stu-amber'));
+    assert(!amber, 'A2: no amber under-min state after the clamped shrink');
+    await page.evaluate(() => Studio.undo());
+    await sleep(150);
   }
 
   /* ================= B. drawn-zone preservation via the bar button ================= */

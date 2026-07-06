@@ -491,11 +491,23 @@
       drag.el.style.top = drag.cur.y + 'px';
     } else if (drag.mode === 'zone-resize') {
       var z = resizeRect(drag.startZone, drag.corner, dx, dy);
+      /* live-clamp at the module's minZone — the box simply STOPS at the
+         minimum (a free shrink that springs back on release reads as broken;
+         operator-reported). Corner-aware: west/north corners pin x/y so the
+         opposite edge holds still at the clamp. */
+      var mz = minZone(pg.interaction);
+      if (z.w < mz.w) {
+        if (drag.corner.indexOf('w') >= 0) z.x = drag.startZone.x + drag.startZone.w - mz.w;
+        z.w = mz.w;
+      }
+      if (z.h < mz.h) {
+        if (drag.corner.indexOf('n') >= 0) z.y = drag.startZone.y + drag.startZone.h - mz.h;
+        z.h = mz.h;
+      }
       drag.cur = z;
       drag.el.style.left = z.x + 'px'; drag.el.style.top = z.y + 'px';
       drag.el.style.width = z.w + 'px'; drag.el.style.height = z.h + 'px';
-      var mz = minZone(pg.interaction);
-      drag.el.classList.toggle('stu-amber', z.w < mz.w || z.h < mz.h);
+      drag.el.classList.remove('stu-amber');
     } else if (drag.mode === 'drect-move') {
       drag.cur = { x: drag.startRect.x + dx, y: drag.startRect.y + dy, w: drag.startRect.w, h: drag.startRect.h };
       drag.el.style.left = drag.cur.x + 'px'; drag.el.style.top = drag.cur.y + 'px';

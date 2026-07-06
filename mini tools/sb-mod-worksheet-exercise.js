@@ -1088,7 +1088,11 @@
       version: 1,
       surfaces: ['dom'],
       completionModes: ['check'],
-      minZone: { w: 640, h: 520 },
+      /* the blanket floor only guards absurdly-small boxes: small CROPPED
+         exercises may sit quarter-page; the validator's content-relative
+         16px density floor (with the "make its box bigger" teacher message)
+         remains the binding gate for full sheets in small zones */
+      minZone: { w: 416, h: 320 },   /* both on the editor's 8du snap grid */
       studio: {
         label: 'Worksheet exercise', group: 'Worksheet', icon: '📄',
         blurb: 'A ready-made worksheet exercise (spelled words, drag boards, connect, count).',

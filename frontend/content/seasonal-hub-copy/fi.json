@@ -1,0 +1,32 @@
+{
+  "christmas": {
+    "paragraphs": [
+      "Joulutehtävät toimivat luontevasti joulukalenterin tapaan: valitse joulukuulle yksi tehtävä päivää kohden, niin odotusajasta tulee samalla pieni harjoittelujakso. Eskarissa ja alkuopetuksessa tehtäväpaperit sopivat aamupiirin jatkoksi, joulujuhlaviikon rauhoittumishetkiin ja nopeimmille lisätehtäviksi. Koska samasta kuva-aiheesta löytyy sekä helppoja laskutehtäviä että kirjain- ja sanatehtäviä, koko ryhmä voi työskennellä saman teeman parissa omalla tasollaan – ilman että kenellekään tarvitsee keksiä erillistä tekemistä.",
+      "Kotona tulostettavat joulutehtävät pelastavat monta pimeää iltapäivää: tulosta muutama paperi valmiiksi, niin puuhaa löytyy heti kun sitä kaivataan. Vastaussivun avulla lapsi voi tarkistaa tehtävänsä itse, mikä on monelle puolet hauskuudesta. Jos tulostinta ei ole, samat tehtävät voi tehdä suoraan selaimessa vaikka matkalla mummolaan – mitään ei tarvitse asentaa eikä tiliä luoda."
+    ]
+  },
+  "easter": {
+    "paragraphs": [
+      "Pääsiäistehtävät sopivat pääsiäistä edeltävälle viikolle, jolloin arki on usein tavallista lyhyempi ja kaipaa mukavaa, rauhallista tekemistä. Eskarissa tehtäväpaperit täydentävät pääsiäisaskarteluja: kun rairuoho on kylvetty ja virpovitsat koristeltu, pupu- ja munakuvien parissa harjoitellaan huomaamatta laskemista, lajittelua ja kirjaimia. Saman aiheen eri vaikeustasot antavat jokaiselle lapselle sopivan haasteen, joten tehtäviä voi jakaa koko ryhmälle yhtä aikaa.",
+      "Kotona pääsiäistehtävät toimivat hyvin pääsiäisloman puuhana ja vaikka munajahdin väliin. Tulosta valmiiksi pieni nippu tai anna lapsen tehdä tehtäviä suoraan selaimessa – kumpikin tapa on ilmainen, eikä tiliä tarvita. Vastaussivut helpottavat aikuisen elämää: tarkistaminen sujuu nopeasti, ja lapsi näkee heti, mikä meni oikein."
+    ]
+  },
+  "winter": {
+    "paragraphs": [
+      "Talvitehtävät kantavat pitkälle, sillä ne eivät ole sidoksissa yhteen juhlapäivään: samat lumiukko- ja lumihiutalekuvat toimivat tammikuusta hiihtolomaan asti. Eskarissa ja alkuopetuksessa ne sopivat talvijakson runkomateriaaliksi – aamupiirissä puhutaan vuodenajasta, ja tehtäväpaperilla sama aihe muuttuu laskemiseksi, sarjoiksi ja sanaharjoituksiksi. Ulkoiluhetken jälkeen rauhallinen tehtävätuokio auttaa palautumaan, ja nopeimmille löytyy aina seuraava paperi.",
+      "Kotona talvitehtävät ovat hyvä pakkaspäivien varasto: kun ulos ei pääse, tulostettava tehtävänippu tai selaimessa tehtävä harjoitus tuo tekemistä ilman ruutuaikatunnontuskia – tehtävä on sama paperilla ja näytöllä. Hiihtolomalle voi tulostaa oman vihkosen matkaan. Kaikki on ilmaista, ja vastaussivut kulkevat jokaisen PDF:n mukana."
+    ]
+  },
+  "spring": {
+    "paragraphs": [
+      "Kevättehtävät kulkevat luontevasti luonnon heräämisen rinnalla: kun retkellä on bongattu ensimmäiset perhoset ja leskenlehdet, samat aiheet jatkuvat tehtäväpaperilla laskemisena, lajitteluna ja sanoina. Eskarissa kevät on usein kertaamisen aikaa ennen koulun alkua – kukka- ja hyönteiskuvien parissa vahvistetaan lukumääriä, kynätaitoja ja kirjaimia ilman, että harjoittelu tuntuu suorittamiselta. Tehtäviä riittää koko kevätjaksolle.",
+      "Kotona kevättehtävät sopivat sadepäiviin ja iltapäivien rauhoittumishetkiin. Tulosta muutama tehtävä valmiiksi keittiön pöydälle tai anna lapsen valita mieluinen tehtävä selaimesta – tili tai sovellus ei ole tarpeen. Moni perhe käyttää tehtäviä myös kouluun valmistautumiseen: tutut kuvat tekevät ensimmäisistä yhteenlaskuista ja sanatehtävistä helposti lähestyttäviä."
+    ]
+  },
+  "summer": {
+    "paragraphs": [
+      "Kesätehtävät on tehty lukuvuoden lopun ja kesäloman tarpeisiin. Toukokuussa ne toimivat kertaavana teemamateriaalina, kun oppikirjat on jo laskettu käsistä: jäätelö- ja rantakuvien parissa kerrataan laskemista, kuvioita ja kirjaimia kevyellä otteella. Esiopetuksen viimeisille viikoille tehtävät antavat mukavan tavan koota vuoden aikana opittua ilman koetunnelmaa.",
+      "Kesäloman aikana pieni tehtävätuokio silloin tällöin pitää opitut taidot vireässä syksyyn asti – tutkitusti pitkä tauko ilman minkäänlaista harjoittelua näkyy koulun alussa. Tulosta mökkireissulle valmis nippu tehtäviä vastauksineen tai tee tehtäviä selaimessa vaikka automatkalla. Kaikki tehtävät ovat ilmaisia, eikä lomalla todellakaan tarvitse luoda yhtään uutta tiliä."
+    ]
+  }
+}

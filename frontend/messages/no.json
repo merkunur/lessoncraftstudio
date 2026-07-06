@@ -1732,6 +1732,76 @@
           "q": "Hvilke språk finnes de på?",
           "a": "På alle de 11 språkene vi publiserer på."
         }
+      ],
+      "christmas": [
+        {
+          "q": "Er juleoppgavene gratis?",
+          "a": "Ja, alle arbeidsarkene til jul er helt gratis. Du kan skrive ut så mange du vil som PDF med fasit, eller la barna løse dem direkte i nettleseren – uten konto og uten skjulte kostnader."
+        },
+        {
+          "q": "Hvilken alder passer juleoppgavene for?",
+          "a": "Oppgavene dekker alderen 3–8 år: enkel telling og par-oppgaver for de yngste i barnehagen, og plusstykker og ordarbeid for skolestartere og 1.–2. trinn. Nivået står på hvert arbeidsark, så det er lett å finne riktig vanskelighetsgrad."
+        },
+        {
+          "q": "Kan oppgavene løses på nett i stedet for å skrives ut?",
+          "a": "Ja. Hvert arbeidsark finnes også som interaktiv oppgave som løses rett i nettleseren, med tilbakemelding med en gang. Det fungerer på PC, nettbrett og mobil – uten app og uten registrering."
+        }
+      ],
+      "easter": [
+        {
+          "q": "Hva slags påskeoppgaver finner jeg her?",
+          "a": "Du finner arbeidsark med telling og antall, tidlige plusstykker, sortering, mønstre, par-oppgaver og bokstav- og ordoppgaver – alle med påskemotiver som egg, kaniner og kyllinger. Til sammen over 50 forskjellige ark."
+        },
+        {
+          "q": "Trenger jeg konto for å bruke arbeidsarkene?",
+          "a": "Nei. Alt på siden er åpent: last ned PDF-ene med fasit, skriv ut og bruk dem fritt i barnehagen, på skolen eller hjemme. Vil barna heller løse oppgavene i nettleseren, går det også uten registrering."
+        },
+        {
+          "q": "Passer oppgavene til påskeferien?",
+          "a": "Absolutt. Mange skriver ut en liten bunke før ferien – arkene trenger verken skjerm eller nett og passer fint på hytta. Hjemme kan barnet i stedet løse de samme oppgavene interaktivt på nettbrett."
+        }
+      ],
+      "winter": [
+        {
+          "q": "Er vinteroppgavene gratis å skrive ut?",
+          "a": "Ja, alle vinterarkene er gratis. Hver oppgave lastes ned som PDF med fasit, klar for vanlig A4-utskrift – og du kan skrive ut så mange kopier du trenger til barnegruppen din."
+        },
+        {
+          "q": "Hvordan kan jeg bruke vinteroppgavene i barnehagen?",
+          "a": "Bruk dem i vintertemaet: la barna telle snømenn, sortere votter og luer eller finne to like snøfnugg etter en økt ute i snøen. Arkene passer i samlingsstund, som stasjonsarbeid og som rolig aktivitet for de eldste barna."
+        },
+        {
+          "q": "Finnes oppgavene på flere språk?",
+          "a": "Ja, de samme vinteroppgavene finnes på 11 språk, blant annet engelsk, tysk og spansk. Det gjør dem nyttige i flerspråklige barnegrupper – og morsomme for barn som vil se kjente oppgaver på et nytt språk."
+        }
+      ],
+      "spring": [
+        {
+          "q": "Hvilke temaer dekker våroppgavene?",
+          "a": "Arbeidsarkene bruker vårbilder som blomster, fugler og sommerfugler i oppgaver med telling, små plusstykker, sortering, mønstre, par-oppgaver og bokstaver og ord. De passer fint sammen med vårtema og naturprosjekter."
+        },
+        {
+          "q": "Passer arbeidsarkene for barnehagebarn?",
+          "a": "Ja. De enkleste arkene, med telling og par-oppgaver, passer fra rundt 3 år, mens skolestartere og 1.–2. trinn får oppgaver med regning og ordarbeid. Nivået står på hvert ark, så du velger enkelt riktig vanskelighetsgrad."
+        },
+        {
+          "q": "Får jeg fasit med arbeidsarkene?",
+          "a": "Ja, hver PDF kommer med egen fasit. Det gjør rettingen rask for voksne – og lar de eldste barna sjekke svarene sine selv. Løses oppgavene i nettleseren, får barnet tilbakemelding automatisk."
+        }
+      ],
+      "summer": [
+        {
+          "q": "Kan barnet bruke sommeroppgavene i ferien?",
+          "a": "Ja, det er nettopp da de gjør størst nytte. Et par ark i uka gjennom sommerferien holder telling, regning og bokstaver ved like fram mot skolestart – uten at det kjennes som lekser. Skriv ut før ferieturen, eller løs oppgavene i nettleseren."
+        },
+        {
+          "q": "Er oppgavene gratis, og trenger jeg konto?",
+          "a": "Alt er gratis, og du trenger ingen konto. Last ned arbeidsarkene som PDF med fasit og skriv ut fritt – eller la barnet løse oppgavene direkte i nettleseren, uten app og uten registrering."
+        },
+        {
+          "q": "Hvilken alder passer sommeroppgavene for?",
+          "a": "Oppgavene passer for barn i alderen 3–8 år. De yngste teller og finner par, skolestartere øver på de første plusstykkene og bokstavene, og barn på 1. og 2. trinn får regning og ordoppgaver med sommermotiver."
+        }
       ]
     },
     "fallback": {
@@ -2005,7 +2075,17 @@
     "word-guess": "Gjett Ordet-arbeidsark gir de yngste staverne en vennlig måte å bygge ord på. Et bildehint viser ordet, og barnet fyller de tomme bokstavene for å stave det — ved å lydere, koble bokstaver til lyder og bekrefte med bildet. Det er fonologisk bevissthet og staving som føles som et lite puslespill, med ordlengde og støtte tilpasset barnehage og småtrinn. Hvert Gjett Ordet-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive tar imot tastede bokstaver og sjekker stavingen, den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
     "word-scramble": "Bokstavspill-arbeidsark gjør staving til en tilfredsstillende oppgave med å ordne bokstaver. Bokstavene i et ord ligger blandet ved siden av bildet, og barnet stokker dem om til riktig rekkefølge — og øver på bokstavgjenkjenning, stavemønstre og lydene som holder et ord sammen, med bildet som hint. Ordlengden er tilpasset barnehage og småtrinn. Hvert Bokstavspill-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive lar barna ordne bokstavene og sjekker ordet, den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
     "crossword": "Kryssord-arbeidsark gir tidlige lesere en mild og givende måte å knytte sammen bilder, lyder og staving. I stedet for tekstledetråder bruker hvert puslespill bildehint: barnet ser et bilde, sier ordet, og skriver bokstavene inn i det krysningende rutenettet, der de kryssende bokstavene gir en god kontroll underveis. Det er staving og ordforråd som føles som å løse, ikke å bli testet, og det passer for barnehage og småtrinn fordi ordene holdes korte og kjente. Hvert kryssord-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av — den interaktive lar barna skrive i rutenettet og bekrefter hver oppføring, mens den utskrivbare passer til stasjonsarbeid, pararbeid eller lekser, og en fasit følger alltid med. Hele samlingen finnes på de 11 språkene vi publiserer på, slik at barna kan bygge staving og ordforråd på språket de lærer å lese på.",
-    "find-objects": "Finn Objektene-arbeidsark er en lete-oppgave: barnet leter i et detaljert bilde etter de oppførte tingene og markerer hver enkelt etter hvert som det får øye på dem. Det er målrettet øving i visuell skjelning, oppmerksomhet på detaljer og det å matche et mål mot det som er på arket — og siden målene er bilder, kan hvert barn delta uansett lesenivå. Bildene passer for barnehage og småtrinn og belønner et nøye, rolig blikk. Hvert Finn Objektene-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive registrerer hvert trykk på en funnet ting, den utskrivbare er klar til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på."
+    "find-objects": "Finn Objektene-arbeidsark er en lete-oppgave: barnet leter i et detaljert bilde etter de oppførte tingene og markerer hver enkelt etter hvert som det får øye på dem. Det er målrettet øving i visuell skjelning, oppmerksomhet på detaljer og det å matche et mål mot det som er på arket — og siden målene er bilder, kan hvert barn delta uansett lesenivå. Bildene passer for barnehage og småtrinn og belønner et nøye, rolig blikk. Hvert Finn Objektene-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive registrerer hvert trykk på en funnet ting, den utskrivbare er klar til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "christmas": "Her finner du gratis arbeidsark til jul for barn i alderen 3–8 år. Juleoppgavene bruker kjente julebilder – nisser, gaver, juletrær og snømenn – i over 50 forskjellige oppgaver: telle og skrive antall, løse de første små plusstykkene, sortere og finne par, fortsette mønstre og jobbe med bokstaver og ord. Oppgavene passer like godt i adventstiden i barnehagen og på 1. og 2. trinn som hjemme ved kjøkkenbordet i desember. Hvert arbeidsark kan skrives ut gratis som PDF med fasit – eller løses direkte i nettleseren, uten konto og uten app. Alt finnes dessuten på 11 språk, så de samme juleoppgavene kan brukes i flerspråklige barnegrupper. Velg et arbeidsark nedenfor, skriv ut og sett i gang – god førjulstid!",
+    "easter": "Her finner du gratis påskeoppgaver for barn i alderen 3–8 år. Arbeidsarkene bruker fargerike påskebilder – egg, kaniner, kyllinger og påskeliljer – i over 50 oppgaver som øver på telling og antall, tidlige plusstykker, sortering, mønstre, par-oppgaver og bokstaver og ord. Det gjør dem midt i blinken for påskeuka i barnehagen, for de siste dagene før ferien på 1. og 2. trinn – og for rolige stunder hjemme eller på hytta i påskeferien. Hvert arbeidsark lastes ned gratis som PDF med fasit, eller løses rett i nettleseren uten konto. Oppgavene finnes på 11 språk, så barn med ulike morsmål kan jobbe med de samme påskeoppgavene side om side. Finn arkene som passer din barnegruppe nedenfor – god påske!",
+    "winter": "Her finner du gratis vinteroppgaver for barn i alderen 3–8 år. Arbeidsarkene er fulle av vinterbilder – snømenn, ski, snøfnugg og varme klær – og dekker over 50 oppgaver: telle og sammenligne antall, løse de første regnestykkene, sortere, fortsette mønstre, finne par og øve på bokstaver og ord. De passer perfekt til vintertemaet i barnehagen, som ekstraoppgaver på 1. og 2. trinn i januar og februar, eller som koselig hjemmeaktivitet etter en dag i snøen. Hvert arbeidsark kan skrives ut gratis som PDF med fasit – eller løses direkte i nettleseren, uten konto og uten app. Alle oppgavene finnes på 11 språk. Bla i vinterarkene nedenfor og velg det som passer barna dine best.",
+    "spring": "Her finner du gratis våroppgaver for barn i alderen 3–8 år. Arbeidsarkene bruker glade vårbilder – blomster, fugler, sommerfugler og regnbuer – i over 50 oppgaver som øver på telling og antall, små plusstykker, sortering, mønstre, par-oppgaver og bokstaver og ord. De passer fint til vårtema og naturprosjekter i barnehagen i april og mai, som variasjon på 1. og 2. trinn, og som hyggelig aktivitet hjemme når kveldene blir lysere. Hvert arbeidsark kan skrives ut gratis som PDF med fasit – eller løses rett i nettleseren, uten konto og uten noe å installere. Oppgavene finnes på 11 språk, klare til bruk i flerspråklige grupper. Velg blant vårarkene nedenfor og la våren flytte inn i oppgavestunden.",
+    "summer": "Her finner du gratis sommeroppgaver for barn i alderen 3–8 år. Arbeidsarkene er fylt med sommerbilder – sol, is, vannmeloner og badeliv – og byr på over 50 oppgaver: telle og skrive antall, løse tidlige plusstykker, sortere, fortsette mønstre, finne par og jobbe med bokstaver og ord. De passer i de siste skoleukene før ferien, i sommeråpen barnehage og SFO – og ikke minst i selve sommerferien, når litt lek med tall og bokstaver holder ferdighetene ved like fram mot skolestart. Hvert arbeidsark kan skrives ut gratis som PDF med fasit, eller løses direkte i nettleseren uten konto. Alt finnes på 11 språk. Finn sommerarkene som passer barnet ditt nedenfor – riktig god sommer!",
+    "christmas__kindergarten": "For skolestartere (5–7 år) har vi samlet nesten 40 juleoppgaver som treffer akkurat i overgangen mellom barnehage og skole. Barna teller nisser og gaver, løser sine aller første plusstykker med julemotiver, finner par, fortsetter mønstre og møter bokstavene gjennom julens ord. Oppgavene er korte og tydelige, med bilder som bærer oppgaven – laget for barn som snart skal begynne på skolen eller nettopp har begynt. Skriv ut arkene gratis som PDF med fasit, eller la barna løse dem rett i nettleseren i adventstiden.",
+    "easter__kindergarten": "Disse påskeoppgavene er laget for skolestartere (5–7 år) – nesten 40 arbeidsark som passer perfekt i påskeuka. Barna teller egg og kyllinger, sammenligner antall, sorterer, legger mønstre og setter sammen bokstaver til påskens ord. Nivået ligger akkurat der femåringer og seksåringer er: konkrete bilder, én oppgave om gangen og mestring i hvert ark. Alt kan skrives ut gratis som PDF med fasit – eller løses på nettbrett i nettleseren, helt uten konto. Fint før ferien i barnehagen, og like fint hjemme i påskeferien.",
+    "kindergarten__winter": "For skolestartere (5–7 år) finnes det nesten 40 vinteroppgaver her – akkurat passe utfordring for barn på vei fra barnehage til skole. Barna teller snømenn og snøfnugg, sammenligner mengder, sorterer vinterklær, fortsetter mønstre og øver på bokstaver gjennom vinterens ord. Oppgavene er selvforklarende og bildestyrte, så barna kommer raskt i gang på egen hånd. Skriv ut gratis som PDF med fasit til samlingsstunden eller stasjonsarbeidet – eller la barna løse oppgavene interaktivt i nettleseren, uten konto.",
+    "kindergarten__spring": "Her er nesten 40 våroppgaver for skolestartere (5–7 år) – barna som skal begynne på skolen til høsten, eller som nettopp har begynt. Med blomster, fugler og sommerfugler som motiv øver de på å telle, sammenligne antall, sortere, fortsette mønstre og kjenne igjen bokstaver i vårens ord. Oppgavene knytter seg fint til turer og naturobservasjoner om våren, og hvert ark gir en liten, overkommelig mestringsopplevelse. Alt er gratis: last ned som PDF med fasit, eller løs oppgavene direkte i nettleseren.",
+    "kindergarten__summer": "Sommeren før skolestart er gull verdt – og disse nesten 40 sommeroppgavene for skolestartere (5–7 år) gjør det lett å holde tall og bokstaver varme gjennom ferien. Barna teller iskremer og vannmeloner, løser små plusstykker, sorterer, fortsetter mønstre og leker med bokstavene i sommerens ord. Et par ark i uka er nok, og det skal kjennes som lek, ikke lekser. Skriv ut gratis som PDF med fasit før ferieturen, eller la barnet løse oppgavene i nettleseren – uten konto og uten app."
   },
   "bulk": {
     "toggleSelect": "Select",
@@ -2114,7 +2194,11 @@
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
   },
   "workspace": {
-    "billing": { "line": "Lærerabonnement — aktivt", "renewsOn": "fornyes den", "manage": "Administrer betaling" },
+    "billing": {
+      "line": "Lærerabonnement — aktivt",
+      "renewsOn": "fornyes den",
+      "manage": "Administrer betaling"
+    },
     "metadata": {
       "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."

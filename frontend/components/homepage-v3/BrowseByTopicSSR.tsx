@@ -4,6 +4,7 @@ import { listNonEmptyAxisKeys, countDecksForSubjectLevel } from '@/lib/topic-dec
 import { resolveAxisSlug, resolveAxisName, LABELS } from '@/lib/category-nav-data';
 import { listSubjectKeys, getSubjectSlugStrict, getSubjectName, getAxisSlug } from '@/lib/taxonomy';
 import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS, isSubjectHubAllowed, isOnlineHubAvailable, onlineHubLinkLabel, subjectHubHeading, subjectHubGradeLabel } from '@/lib/subject-hub';
+import { isSeasonalHubUpgraded, seasonalHeading, seasonsByProximity } from '@/lib/seasonal-hub';
 
 // SSR crawl-bait section (Remediation Part 2 / R2c). The homepage-v3 promotion
 // (bc215a5c) dropped the BreadthGrid, collapsing above-fold internal links from
@@ -55,8 +56,20 @@ export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
     for (const r of resolved) if (r) subjectGradeLinks.push(r);
   } catch { /* DB unreachable — omit the group, honesty */ }
 
+  // Seasonal hub links (2026-07-06) — the upgraded seasonal theme pages,
+  // ordered by demand proximity (in-season first; month-granular UTC →
+  // ISR-cache-safe). Honesty-gated twice: the theme must have published decks
+  // (themeKeys) AND the (locale, season) must be copy-upgraded. Locales
+  // without seasonal copy render no group (fails closed).
+  const seasonalLinks = seasonsByProximity(new Date().getUTCMonth())
+    .filter(k => themeKeys.includes(k) && isSeasonalHubUpgraded(locale, k))
+    .map(k => ({
+      href: `/${locale}/topic/${resolveAxisSlug(k, locale, 'theme')}/`,
+      label: resolveAxisName(k, locale, 'theme'),
+    }));
+
   // Nothing to show for a substrate-empty locale — render nothing (honesty).
-  if (themeLinks.length === 0 && typeLinks.length === 0 && subjectGradeLinks.length === 0) return null;
+  if (themeLinks.length === 0 && typeLinks.length === 0 && subjectGradeLinks.length === 0 && seasonalLinks.length === 0) return null;
 
   const labels = LABELS[locale] ?? LABELS.en;
   const subjectGradeHeading = subjectHubHeading(locale);
@@ -104,6 +117,7 @@ export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
     <section id="browse-by-topic" className="hv3-section-cream py-16 md:py-20">
       <div className="container mx-auto px-4 max-w-6xl grid gap-6 md:grid-cols-2">
         {group(subjectGradeHeading, subjectGradeLinks, `/${locale}/worksheets/`, labels.browseAllTopics)}
+        {group(seasonalHeading(locale), seasonalLinks, `/${locale}/topic/`, labels.browseAllTopics)}
         {group(tFooter('byTopic'), themeLinks, `/${locale}/topic/`, labels.browseAllTopics)}
         {group(tFooter('byExerciseType'), typeLinks, `/${locale}/worksheets/`, labels.browseAllTopics)}
       </div>

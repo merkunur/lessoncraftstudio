@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { notFound, permanentRedirect, redirect } from 'next/navigation';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
@@ -24,9 +25,19 @@ import {
   TopicDeckSummary,
   TOPIC_PAGE_SIZE,
   TopicSortKey,
+  topicLastModified,
 } from '@/lib/topic-decks';
 import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
 import { buildDeckRichAlt } from '@/lib/deck-seo';
+import {
+  isSeasonalHubUpgraded,
+  seasonalHubTitle,
+  seasonalHubH1,
+  getSeasonalDeepCopy,
+  SeasonalKey,
+} from '@/lib/seasonal-hub';
+import { subjectHubGradeLabel, HUB_GRADE_KEYS } from '@/lib/subject-hub';
+import { intersectionIsAuthored } from '@/lib/seo/intersection-authored';
 import VarietyStrip from '@/components/catalog/VarietyStrip';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import SiblingAxisStrip from '@/components/catalog/SiblingAxisStrip';
@@ -227,8 +238,14 @@ export async function generateMetadata({
 
   const t = await getTranslations({ locale, namespace: 'topicPage.meta' });
   const topicName = getAxisName(axis, axisKey, locale) ?? params.slug;
+  // Seasonal-hub override (2026-07-06): upgraded seasonal theme pages carry a
+  // demand-keyed final-form title (native query composition, e.g. de
+  // "Arbeitsblätter Weihnachten – kostenlos zum Ausdrucken") instead of the
+  // generic template. Fails closed to renderTopicTitle for everything else.
   // R14c: per-locale casing + FR elision (replaces the bare capFirst).
-  const renderedTitle = renderTopicTitle(locale, t, 'title', topicName, intentForAxis(axis));
+  const renderedTitle = (axis === 'theme' && isSeasonalHubUpgraded(locale, axisKey))
+    ? seasonalHubTitle(locale, axisKey as SeasonalKey)
+    : renderTopicTitle(locale, t, 'title', topicName, intentForAxis(axis));
 
   const siblings = await getTopicSiblings(axis, axisKey);
   const hreflangAlternates: Record<string, string> = {};
@@ -597,6 +614,44 @@ export default async function TopicPage({
   })();
 
   const canonical = canonicalUrl(basePath);
+
+  // Seasonal-hub upgrade (2026-07-06): upgraded seasonal theme pages add
+  // native deep-copy paragraphs, a localized updated-date line, and links to
+  // their authored season×grade children. Every piece fails closed — no deep
+  // copy → no paragraphs; no authored intersection → no child link (the
+  // children are noindex until their topicProse key exists, and we never
+  // link a noindex page).
+  const seasonalUpgraded = axis === 'theme' && isSeasonalHubUpgraded(locale, axisKey);
+  const seasonalDeepCopy = seasonalUpgraded ? getSeasonalDeepCopy(locale, axisKey) : null;
+  let seasonalUpdatedLine: string | null = null;
+  const seasonalGradeLinks: Array<{ href: string; label: string }> = [];
+  if (seasonalUpgraded) {
+    const SEASONAL_UPDATED_PREFIX: Record<string, (d: string) => string> = {
+      de: (d) => `Zuletzt aktualisiert am ${d}`, en: (d) => `Last updated ${d}`,
+      nl: (d) => `Laatst bijgewerkt op ${d}`, es: (d) => `Última actualización: ${d}`,
+      fr: (d) => `Dernière mise à jour : ${d}`, pt: (d) => `Atualizado em ${d}`,
+      it: (d) => `Ultimo aggiornamento: ${d}`, sv: (d) => `Senast uppdaterad ${d}`,
+      da: (d) => `Senest opdateret ${d}`, no: (d) => `Sist oppdatert ${d}`,
+      fi: (d) => `Päivitetty ${d}`,
+    };
+    const latest = await topicLastModified('theme', axisKey, locale);
+    if (latest) {
+      try {
+        const d = new Intl.DateTimeFormat(getHreflangCode(locale), { year: 'numeric', month: 'long', day: 'numeric' }).format(latest);
+        seasonalUpdatedLine = (SEASONAL_UPDATED_PREFIX[locale] ?? SEASONAL_UPDATED_PREFIX.en)(d);
+      } catch { /* non-critical */ }
+    }
+    for (const levelKey of HUB_GRADE_KEYS) {
+      const gradeSlug = getAxisSlug('educational-level', levelKey, locale);
+      if (!gradeSlug) continue;
+      if (!(await intersectionIsAuthored(locale, axisKey, levelKey))) continue;
+      seasonalGradeLinks.push({
+        href: `/${locale}/topic/${params.slug}/${gradeSlug}`,
+        label: `${topicName} · ${subjectHubGradeLabel(locale, levelKey)}`,
+      });
+    }
+  }
+
   // Topic prose feeds CollectionPage schema description (rich snippet
   // eligibility) — same prose substrate the meta description first-sentence
   // is extracted from. Long-tail axis-keys without authored prose pass
@@ -643,7 +698,9 @@ export default async function TopicPage({
 
         <header className="mb-6">
           <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink-900 mb-3">
-            {renderTopicTitle(locale, t, `heading.${intent}`, topicName, intent)}
+            {seasonalUpgraded
+              ? seasonalHubH1(locale, axisKey as SeasonalKey)
+              : renderTopicTitle(locale, t, `heading.${intent}`, topicName, intent)}
           </h1>
           <ResultCount locale={locale} count={totalCount} />
         </header>
@@ -655,6 +712,34 @@ export default async function TopicPage({
           topicName1={topicName}
           count={totalCount}
         />
+
+        {/* Seasonal-hub upgrade block (2026-07-06) — deep-copy paragraphs +
+            updated-date + authored season×grade children links. Renders
+            nothing on non-seasonal pages and non-upgraded locales. */}
+        {seasonalUpgraded && (seasonalDeepCopy || seasonalUpdatedLine || seasonalGradeLinks.length > 0) && (
+          <section className="mb-8 max-w-3xl">
+            {seasonalDeepCopy?.paragraphs.map((p, i) => (
+              <p key={i} className="text-ink-700 leading-relaxed mb-3">{p}</p>
+            ))}
+            {seasonalGradeLinks.length > 0 && (
+              <ul className="flex flex-wrap gap-2 mt-4">
+                {seasonalGradeLinks.map(l => (
+                  <li key={l.href}>
+                    <Link
+                      href={l.href}
+                      className="inline-block rounded-full border border-[#146B5E]/30 px-4 py-1.5 text-[14px] font-semibold text-[#146B5E] hover:bg-[#146B5E] hover:text-white transition-colors"
+                    >
+                      {l.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {seasonalUpdatedLine && (
+              <p className="text-[13px] text-ink-500 mt-4">{seasonalUpdatedLine}</p>
+            )}
+          </section>
+        )}
 
         <PageUsageBlock
           locale={locale}

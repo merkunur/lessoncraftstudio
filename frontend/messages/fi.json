@@ -1717,6 +1717,76 @@
           "q": "Millä kielillä ne ovat saatavilla?",
           "a": "Kaikilla 11 kielellä, joilla julkaisemme."
         }
+      ],
+      "christmas": [
+        {
+          "q": "Ovatko joulutehtävät ilmaisia?",
+          "a": "Kyllä. Jokaisen joulutehtävän voi tulostaa ilmaiseksi PDF-muodossa, ja mukana tulee aina vastaussivu. Saman tehtävän voi tehdä myös suoraan selaimessa. Tiliä, kirjautumista tai maksua ei tarvita."
+        },
+        {
+          "q": "Minkä ikäisille joulutehtävät sopivat?",
+          "a": "Tehtäviä on eskari-ikäisistä noin 2.-luokkalaisiin eli suunnilleen 5–9-vuotiaille. Helpoimmat ovat kuvien laskemista ja lajittelua, vaativimmissa harjoitellaan yhteenlaskuja ja joulusanojen kirjoittamista. Jokaisen tehtävän kohdalla näkyy suositeltu ikäryhmä."
+        },
+        {
+          "q": "Miten voin käyttää joulutehtäviä joulukalenterina?",
+          "a": "Valitse joulukuulle yksi tehtävä päivää kohden ja tulosta ne valmiiksi nippuun – tehtäviä on reilusti yli kahdenkymmenen luukun tarpeisiin. Vaihtele laskutehtäviä, sarjoja ja kirjaintehtäviä, niin jokainen luukku tuntuu erilaiselta."
+        }
+      ],
+      "easter": [
+        {
+          "q": "Ovatko pääsiäistehtävät ilmaisia?",
+          "a": "Kyllä. Kaikki pääsiäistehtävät voi tulostaa ilmaiseksi PDF-muodossa vastauksineen tai tehdä suoraan selaimessa. Tiliä tai kirjautumista ei tarvita, eikä mitään tarvitse asentaa."
+        },
+        {
+          "q": "Sopivatko pääsiäistehtävät eskariin?",
+          "a": "Sopivat hyvin – iso osa tehtävistä on suunniteltu juuri 5–7-vuotiaille. Kuvalliset lasku-, lajittelu- ja sarjatehtävät eivät vaadi lukutaitoa, joten eskarilainen pärjää niissä itsenäisesti, kun aikuinen lukee ohjeen ääneen."
+        },
+        {
+          "q": "Millaisia tehtäviä pääsiäisaiheesta löytyy?",
+          "a": "Pupu-, muna- ja tipukuvilla harjoitellaan laskemista, ensimmäisiä yhteenlaskuja, lajittelua, kuvioita ja sarjoja, parien yhdistämistä sekä kirjaimia ja pääsiäissanoja. Jokainen tehtävä on oma tulostettava paperinsa, joten voit poimia juuri sopivat."
+        }
+      ],
+      "winter": [
+        {
+          "q": "Ovatko talvitehtävät ilmaisia?",
+          "a": "Kyllä. Jokaisen talvitehtävän voi tulostaa ilmaiseksi PDF-muodossa vastauksineen tai tehdä suoraan selaimessa ilman tiliä. Voit tulostaa niin monta tehtävää kuin tarvitset – vaikka koko ryhmälle."
+        },
+        {
+          "q": "Kuinka pitkään talvitehtäviä voi käyttää?",
+          "a": "Koko talvikauden. Toisin kuin joulutehtävät, talvitehtävät eivät liity yhteen juhlaan: lumiukko-, hiutale- ja luisteluaiheet toimivat tammikuusta hiihtolomaan asti niin eskarin talvijaksossa kuin kotona pakkaspäivinä."
+        },
+        {
+          "q": "Voiko talvitehtävät tehdä ilman tulostinta?",
+          "a": "Voi. Jokainen tehtävä on pelattavissa suoraan selaimessa tietokoneella tai tabletilla, ilman tiliä ja sovellusta. Sisältö on sama kuin tulostettavassa PDF:ssä, joten paperiton harjoittelu ei jää mistään paitsi."
+        }
+      ],
+      "spring": [
+        {
+          "q": "Ovatko kevättehtävät ilmaisia?",
+          "a": "Kyllä. Kaikki kevättehtävät ovat ilmaisia: tulosta PDF vastauksineen tai tee tehtävä suoraan selaimessa. Tiliä, kirjautumista tai maksua ei tarvita."
+        },
+        {
+          "q": "Sopivatko kevättehtävät kouluun valmistautumiseen?",
+          "a": "Sopivat. Eskarikevään aikana tehtävillä voi kerrata lukumääriä, kuvioita, kynätaitoja ja kirjaimia – juuri niitä taitoja, joiden varaan ekaluokka rakentuu. Tutut kevätkuvat pitävät harjoittelun kevyenä ja mukavana."
+        },
+        {
+          "q": "Millaisia aiheita kevättehtävissä on?",
+          "a": "Kuvissa esiintyvät kukat, mehiläiset, perhoset, sade ja sateenkaaret. Niiden parissa harjoitellaan laskemista, ensimmäisiä yhteenlaskuja, lajittelua, sarjoja, yhdistämistä sekä kirjaimia ja kevätsanoja."
+        }
+      ],
+      "summer": [
+        {
+          "q": "Ovatko kesätehtävät ilmaisia?",
+          "a": "Kyllä. Jokaisen kesätehtävän voi tulostaa ilmaiseksi PDF-muodossa vastauksineen tai tehdä suoraan selaimessa ilman tiliä. Voit tulostaa lomalle valmiin nipun tai poimia tehtäviä yksitellen."
+        },
+        {
+          "q": "Miksi tehtäviä kannattaa tehdä kesälomalla?",
+          "a": "Pitkä tauko ilman minkäänlaista harjoittelua näkyy usein syksyllä koulun alkaessa. Pieni tehtävätuokio silloin tällöin – ilman pakkoa ja läksyjen makua – pitää laskemisen ja kirjaimet vireässä, niin elokuun aloitus sujuu pehmeämmin."
+        },
+        {
+          "q": "Voiko kesätehtäviä tehdä mökillä tai matkalla?",
+          "a": "Voi. Tulosta tehtävät vastauksineen valmiiksi mukaan, niin ne toimivat missä vain ilman nettiä. Verkon äärellä samat tehtävät voi tehdä suoraan selaimessa vaikka automatkalla – mitään ei tarvitse asentaa."
+        }
       ]
     },
     "fallback": {
@@ -1990,7 +2060,17 @@
     "word-guess": "Sanan arvaustehtävät tarjoavat aloitteleville oikeinkirjoittajille mukavan tavan rakentaa sanoja. Kuvavihje näyttää sanan, ja lapsi täyttää puuttuvat kirjaimet kirjoittaakseen sen — äännellen, liittäen kirjaimet äänteisiin ja vahvistaen ratkaisun kuvan avulla. Se on äänteiden yhdistämisen ja oikeinkirjoituksen harjoittelua, joka tuntuu pieneltä pulmalta, ja sanan pituus sekä tuki on mitoitettu alkuopetukseen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa kirjoitetaan kirjaimet ja oikeinkirjoitus tarkistetaan, tulostettava sopii oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
     "word-scramble": "Kirjainsekoitustehtävät muuttavat oikeinkirjoituksen tyydyttäväksi järjestelypulmaksi. Sanan kirjaimet on sekoitettu kuvan viereen, ja lapsi järjestää ne oikeaan järjestykseen — harjoitellen kirjainten tunnistamista, oikeinkirjoituksen säännönmukaisuuksia ja sanaa koossa pitäviä äänteitä, kuva vihjeenä. Tehtävä tuntuu pieneltä pulmalta eikä koeti, mikä auttaa lasta kokeilemaan rohkeasti eri järjestyksiä, kunnes sana löytää muotonsa. Sanan pituus on mitoitettu alkuopetuksen lukijoille. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa lapset järjestävät kirjaimet ja sana tarkistetaan heti, kun taas tulostettava sopii oppimispisteelle, parityöhön tai kotitehtäväksi, ja vastaukset ovat aina mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
     "crossword": "Ristikkotehtävät tarjoavat aloitteleville lukijoille lempeän ja palkitsevan tavan yhdistää kuvia, äänteitä ja oikeinkirjoitusta. Tekstivihjeiden sijaan jokainen pulma käyttää kuvavihjeitä: lapsi näkee kuvan, sanoo sanan ja kirjoittaa sen kirjaimet risteävään ruudukkoon, jossa risteävät kirjaimet antavat avuliaan tarkistuksen matkan varrella. Se on oikeinkirjoituksen ja sanaston harjoittelua, joka tuntuu ratkaisemiselta eikä testaamiselta, ja se sopii alkuopetukseen, koska sanat pysyvät lyhyinä ja tuttuina. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa lapset kirjoittavat ruudukkoon ja jokainen sana vahvistetaan, kun taas tulostettava sopii oppimispisteelle, parityöhön tai kotitehtäväksi, ja vastaukset ovat aina mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
-    "find-objects": "Piilokuvatehtävät ovat etsi-ja-löydä-jahti: lapsi etsii yksityiskohtaisesta kuvasta luetellut esineet ja merkitsee jokaisen löytäessään. Se on keskittynyttä harjoitusta näönvaraisessa erottelussa, yksityiskohtien huomaamisessa ja kohteen yhdistämisessä siihen, mitä sivulla on, ja koska kohteet ovat kuvia, jokainen lapsi voi osallistua lukutaidosta riippumatta. Kuvat sopivat varhaiskasvatuksesta alkuopetukseen ja palkitsevat huolellisen, kiireettömän katsomisen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa jokainen napautus löydettyyn esineeseen rekisteröidään, tulostettava on valmis oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme."
+    "find-objects": "Piilokuvatehtävät ovat etsi-ja-löydä-jahti: lapsi etsii yksityiskohtaisesta kuvasta luetellut esineet ja merkitsee jokaisen löytäessään. Se on keskittynyttä harjoitusta näönvaraisessa erottelussa, yksityiskohtien huomaamisessa ja kohteen yhdistämisessä siihen, mitä sivulla on, ja koska kohteet ovat kuvia, jokainen lapsi voi osallistua lukutaidosta riippumatta. Kuvat sopivat varhaiskasvatuksesta alkuopetukseen ja palkitsevat huolellisen, kiireettömän katsomisen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa jokainen napautus löydettyyn esineeseen rekisteröidään, tulostettava on valmis oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "christmas": "Joulutehtävät tuovat joulukuun odotuksen tehtäväpapereihin: kuuset, lahjapaketit, tontut ja tähdet toistuvat yli viidessäkymmenessä ilmaisessa tehtävässä. Jouluisten kuvien avulla harjoitellaan laskemista ja lukumäärän hahmottamista, ensimmäisiä yhteenlaskuja, lajittelua, kuvioita ja sarjoja, parien yhdistämistä sekä kirjaimia ja sanoja. Tehtävät sopivat eskariin ja alkuopetukseen sekä kotiin joulunodotuksen puuhahetkiin – vaikka joulukalenterin kylkeen, yksi tehtävä päivässä. Helpoimmat tehtävät onnistuvat jo viisivuotiaalta, ja vaativammat sopivat 1.–2.-luokkalaisille, joten samasta aiheesta löytyy sopivaa tekemistä eri-ikäisille sisaruksillekin. Jokaisen tehtävän voit tulostaa ilmaiseksi PDF-muodossa vastauksineen tai tehdä suoraan selaimessa ilman tiliä ja kirjautumista. Samat tehtävät ovat saatavilla 11 kielellä, joten ne toimivat myös kielirikasteisessa opetuksessa ja monikielisissä perheissä. Valitse mieluinen tehtävä, tulosta tai avaa se – ja jouluinen harjoitushetki on valmis.",
+    "easter": "Pääsiäistehtävissä kevään juhla näkyy joka paperilla: puput, pääsiäismunat, tiput ja virpovitsat kuvittavat yli viittäkymmentä ilmaista tehtävää. Tuttujen kuvien parissa harjoitellaan laskemista ja lukumääriä, ensimmäisiä yhteenlaskuja, lajittelua, kuvioita ja sarjoja, yhdistämistä sekä kirjaimia ja sanoja. Tehtävät sopivat esiopetuksen ja alkuopetuksen pääsiäisviikolle sekä kotiin pääsiäisloman rauhallisiin hetkiin. Vaikeustaso vaihtelee: helpoimmat kuvatehtävät sujuvat jo eskarilaiselta, ja sanatehtävät haastavat mukavasti jo lukemaan opettelevaa ekaluokkalaista. Jokainen tehtävä on tulostettavissa ilmaiseksi PDF-muodossa vastauksineen, ja saman tehtävän voi tehdä myös suoraan selaimessa – ilman tiliä, kirjautumista tai sovellusta. Koko pääsiäissarja on saatavilla 11 kielellä, mikä tekee siitä kätevän myös kielisuihkuun ja monikielisten perheiden yhteisiin hetkiin.",
+    "winter": "Talvitehtävät pukevat harjoittelun lumiseen asuun: lumiukot, lumihiutaleet, sukset ja luistimet kuvittavat yli viittäkymmentä ilmaista tehtävää, jotka kantavat tammikuun pakkasista hiihtolomaan asti. Talvikuvien avulla harjoitellaan laskemista ja lukumäärän hahmottamista, ensimmäisiä yhteenlaskuja, lajittelua, kuvioita ja sarjoja, parien yhdistämistä sekä kirjaimia ja sanoja. Tehtävät sopivat eskarin ja alkuopetuksen talvijaksoon, jossa vuodenaikaa tarkastellaan muutenkin, sekä kotiin pakkaspäivien ja loma-arjen puuhaksi. Mukana on sekä helppoja kuvatehtäviä nuorimmille että vaativampia lasku- ja sanatehtäviä koululaisille. Jokaisen tehtävän voit tulostaa ilmaiseksi PDF-muodossa vastauksineen tai tehdä suoraan selaimessa ilman tiliä. Samat talvitehtävät löytyvät 11 kielellä, joten sama paperi taipuu myös kielirikasteiseen opetukseen ja kotikielen harjoitteluun.",
+    "spring": "Kevättehtävissä luonto herää: kukat, mehiläiset, perhoset, sadepisarat ja sateenkaaret kuvittavat yli viittäkymmentä ilmaista tehtävää. Keväisten kuvien parissa harjoitellaan laskemista ja lukumääriä, ensimmäisiä yhteenlaskuja, lajittelua, kuvioita ja sarjoja, yhdistämistä sekä kirjaimia ja sanoja. Tehtävät sopivat eskarin ja alkuopetuksen kevätjaksoon luontoretkien ja kevätseurannan rinnalle sekä kotiin sadepäivien tekemiseksi. Kevät on esiopetuksessa myös kertaamisen aikaa, ja tutut kuva-aiheet tekevät kouluvalmiuksien vahvistamisesta mukavaa: lukumäärät, kynätaidot ja kirjaimet harjaantuvat kuin huomaamatta. Jokainen tehtävä on tulostettavissa ilmaiseksi PDF-muodossa vastauksineen, ja saman harjoituksen voi tehdä myös suoraan selaimessa ilman tiliä ja sovellusta. Koko kevätsarja on saatavilla 11 kielellä, joten se palvelee myös kielisuihkua ja monikielisiä perheitä.",
+    "summer": "Kesätehtävät tuovat loman tunnelman harjoitteluun: aurinko, uimaranta, jäätelö ja rantapallo kuvittavat yli viittäkymmentä ilmaista tehtävää. Kesäisten kuvien avulla harjoitellaan laskemista ja lukumäärän hahmottamista, ensimmäisiä yhteenlaskuja, lajittelua, kuvioita ja sarjoja, parien yhdistämistä sekä kirjaimia ja sanoja. Tehtävät sopivat lukuvuoden viimeisille viikoille kertaavaksi teemamateriaaliksi sekä kesäloman puuhaksi kotiin, mökille ja matkalle. Pieni tehtävätuokio silloin tällöin pitää eskarissa ja koulussa opitut taidot vireässä syksyyn asti – ilman läksyjen makua. Jokaisen tehtävän voit tulostaa ilmaiseksi PDF-muodossa vastauksineen tai tehdä suoraan selaimessa ilman tiliä ja kirjautumista, vaikka automatkalla. Samat kesätehtävät ovat saatavilla 11 kielellä, joten ne sopivat myös monikielisten perheiden kesään ja kielisuihkun jatkoksi.",
+    "christmas__kindergarten": "Eskarilaisen joulutehtävät on valittu juuri 5–7-vuotiaille: lähes neljäkymmentä ilmaista tehtävää, joissa jouluiset kuvat kantavat harjoittelua. Tonttuja lasketaan, lahjapaketteja lajitellaan, kuusisarjoja jatketaan ja joulusanojen kirjaimia tunnistellaan – juuri sitä, mitä esiopetusvuonna muutenkin harjoitellaan. Tehtävät sopivat eskarin joulujaksoon ja kotiin joulunodotuksen puuhahetkiin, vaikka joulukalenterin kaveriksi. Jokaisen tehtävän voi tulostaa ilmaiseksi PDF-muodossa vastauksineen tai tehdä suoraan selaimessa ilman tiliä. Aikuisen tueksi mukana on aina vastaussivu, joten tarkistaminen käy hetkessä.",
+    "easter__kindergarten": "Pääsiäistehtävät eskarilaisille kokoavat lähes neljäkymmentä ilmaista, 5–7-vuotiaille sopivaa tehtävää. Pupuja ja pääsiäismunia lasketaan ja lajitellaan, tipusarjoja jatketaan, kuvapareja yhdistetään ja pääsiäissanojen kirjaimia harjoitellaan – kaikki tutuilla kevätkuvilla, ilman lukutaidon vaatimusta. Tehtävät sopivat esiopetuksen pääsiäisviikolle askartelujen rinnalle ja kotiin pääsiäisloman rauhallisiin hetkiin. Jokainen tehtävä on tulostettavissa ilmaiseksi PDF-muodossa vastauksineen, ja saman voi tehdä myös suoraan selaimessa ilman tiliä. Lyhyet, selkeät tehtävät jaksavat innostaa eskari-ikäistä alusta loppuun.",
+    "kindergarten__winter": "Talvitehtävät eskarilaisille tarjoavat lähes neljäkymmentä ilmaista tehtävää, jotka on mitoitettu 5–7-vuotiaille. Lumiukkoja ja lumihiutaleita lasketaan, talvivaatteita lajitellaan, luistinsarjoja jatketaan ja talvisanojen kirjaimia tunnistellaan. Kuvat tekevät tehtävistä helposti lähestyttäviä, eikä lukutaitoa tarvita – aikuinen lukee ohjeen, loput lapsi tekee itse. Tehtävät sopivat eskarin talvijaksoon, ulkoiluhetken jälkeiseen rauhoittumiseen ja kotiin pakkaspäivien puuhaksi. Jokaisen tehtävän voi tulostaa ilmaiseksi PDF-muodossa vastauksineen tai tehdä suoraan selaimessa ilman tiliä.",
+    "kindergarten__spring": "Kevättehtävät eskarilaisille sisältävät lähes neljäkymmentä ilmaista, 5–7-vuotiaille valittua tehtävää. Kukkia ja perhosia lasketaan, hyönteisiä lajitellaan, kevätsarjoja jatketaan, kuvapareja yhdistetään ja kevätsanojen kirjaimia harjoitellaan. Esiopetuksen viimeisinä kuukausina tehtävät toimivat mukavana kouluvalmiuksien kertauksena: lukumäärät, kynäote ja kirjaimet vahvistuvat tutuissa kuva-aiheissa ilman suorittamisen tuntua. Tehtävät sopivat eskarin kevätjaksoon ja kotiin sadepäivien tekemiseksi. Jokainen tehtävä on tulostettavissa ilmaiseksi PDF-muodossa vastauksineen, ja saman voi tehdä myös selaimessa ilman tiliä.",
+    "kindergarten__summer": "Kesätehtävät eskarilaisille kokoavat lähes neljäkymmentä ilmaista tehtävää 5–7-vuotiaille – juuri sopivia eskarin viimeisille viikoille ja koulua edeltävään kesään. Jäätelöitä lasketaan, rantatavaroita lajitellaan, kesäsarjoja jatketaan ja kesäsanojen kirjaimia tunnistellaan. Pieni tehtävähetki silloin tällöin pitää eskarivuoden taidot vireässä ja tekee elokuun koulunaloituksesta pehmeämmän. Tulosta mökkireissulle valmis nippu vastauksineen tai anna lapsen tehdä tehtäviä suoraan selaimessa – ilmaiseksi ja ilman tiliä. Lyhyet tehtävät sopivat loma-arjen lomaan ilman läksyjen makua."
   },
   "bulk": {
     "toggleSelect": "Select",
@@ -2099,7 +2179,11 @@
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
   },
   "workspace": {
-    "billing": { "line": "Opettajatilaus — aktiivinen", "renewsOn": "uusiutuu", "manage": "Hallinnoi laskutusta" },
+    "billing": {
+      "line": "Opettajatilaus — aktiivinen",
+      "renewsOn": "uusiutuu",
+      "manage": "Hallinnoi laskutusta"
+    },
     "metadata": {
       "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."

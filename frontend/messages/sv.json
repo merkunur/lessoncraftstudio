@@ -1728,6 +1728,76 @@
           "q": "Vilka språk finns arbetsbladen på?",
           "a": "Arbetsblad med Djur finns på de 11 språk vi publicerar på."
         }
+      ],
+      "christmas": [
+        {
+          "q": "Vilka arbetsblad med jultema finns här?",
+          "a": "Över 50 arbetsblad där julens bilder – tomtar, granar, paket och pepparkakor – bär övningarna: räkna och jämföra antal, tidiga additioner, sortering, mönster, para ihop samt de första bokstäverna och orden. De flesta passar barn i förskolan och förskoleklassen, och en del även skolans första år."
+        },
+        {
+          "q": "Är arbetsbladen för julen gratis att skriva ut?",
+          "a": "Ja, allt är gratis. Varje arbetsblad laddas ner som PDF med facit och kan skrivas ut så många gånger du vill – till hela barngruppen om det behövs. Du behöver inget konto, och varje övning går dessutom att spela direkt i webbläsaren."
+        },
+        {
+          "q": "Finns julens arbetsblad på andra språk än svenska?",
+          "a": "Ja, samma övningar finns på elva språk, bland annat engelska, tyska, franska och spanska. Det är praktiskt i flerspråkiga barngrupper – och för familjer som vill öva på fler språk än ett hemma under julen."
+        }
+      ],
+      "easter": [
+        {
+          "q": "Vad innehåller arbetsbladen med påsktema?",
+          "a": "Här finns över 50 arbetsblad där påskägg, kycklingar och påskharar dyker upp i övningarna: räkna och jämföra antal, enkla additioner, sortering, mönster, para ihop samt de första bokstäverna och orden. Materialet riktar sig till förskolan, förskoleklassen och de första skolåren."
+        },
+        {
+          "q": "Kostar det något att använda påskens arbetsblad?",
+          "a": "Nej, alla arbetsblad är gratis. Du skriver ut dem som PDF med facit utan att skapa konto, och varje övning kan också spelas direkt i webbläsaren. Det går utmärkt att skriva ut ett helt häfte att skicka med hem inför påsklovet."
+        },
+        {
+          "q": "Finns påskövningarna på flera språk?",
+          "a": "Ja, arbetsbladen finns på elva språk. Samma påskmotiv och samma typ av övningar återkommer i varje språkversion, vilket gör dem lätta att använda i flerspråkiga grupper eller när familjen övar på ett annat språk hemma."
+        }
+      ],
+      "winter": [
+        {
+          "q": "Vilken typ av arbetsblad med vintertema finns här?",
+          "a": "Över 50 arbetsblad där snö, snögubbar, vantar och mössor bär uppgifterna: räkna och jämföra antal, tidiga additioner, sortering, mönster, para ihop samt de första bokstäverna och orden. Nivån passar förskolan, förskoleklassen och skolans första år."
+        },
+        {
+          "q": "Är vinterarbetsbladen gratis?",
+          "a": "Ja, allt på sidan är gratis. Varje arbetsblad laddas ner som PDF med facit och skrivs ut utan konto – hur många gånger som helst. Föredrar ni skärmen går varje övning också att spela direkt i webbläsaren."
+        },
+        {
+          "q": "Kan jag använda vinterövningarna på andra språk?",
+          "a": "Ja, materialet finns på elva språk med samma vintermotiv och samma övningstyper. Det gör arbetsbladen användbara i flerspråkiga barngrupper, i modersmålsundervisning och för familjer som talar fler språk än svenska hemma."
+        }
+      ],
+      "spring": [
+        {
+          "q": "Vilka arbetsblad med vårtema finns på sidan?",
+          "a": "Här finns över 50 arbetsblad där vårens motiv – blommor, knoppar och fågelungar – följer med i övningarna: räkna och jämföra antal, enkla additioner, sortering, mönster, para ihop samt de första bokstäverna och orden. Materialet passar förskolan, förskoleklassen och de första skolåren."
+        },
+        {
+          "q": "Är arbetsbladen för våren gratis att skriva ut?",
+          "a": "Ja, alla arbetsblad är gratis. De laddas ner som PDF med facit och skrivs ut utan konto, och varje övning kan även spelas direkt i webbläsaren. Skriv gärna ut till hela gruppen – det kostar inget extra."
+        },
+        {
+          "q": "Finns vårens övningar på fler språk än svenska?",
+          "a": "Ja, samma övningar finns på elva språk. Vårbilderna är desamma i alla språkversioner, så materialet fungerar bra både i flerspråkiga barngrupper och hemma när familjen vill öva på ett annat språk."
+        }
+      ],
+      "summer": [
+        {
+          "q": "Vad finns det för arbetsblad med sommartema?",
+          "a": "Över 50 arbetsblad där sol, glass och badbilder gör övandet lockande: räkna och jämföra antal, tidiga additioner, sortering, mönster, para ihop samt de första bokstäverna och orden. Nivån är vald för förskolan, förskoleklassen och skolans första år."
+        },
+        {
+          "q": "Kostar sommarens arbetsblad något?",
+          "a": "Nej, allt är gratis. Varje arbetsblad laddas ner som PDF med facit och skrivs ut utan konto – perfekt att ta med till sommarstugan. Varje övning går dessutom att spela direkt i webbläsaren, till exempel på surfplattan under resan."
+        },
+        {
+          "q": "Finns sommarövningarna på andra språk?",
+          "a": "Ja, arbetsbladen finns på elva språk med samma sommarmotiv. Det passar familjer som övar på flera språk under sommarlovet – och pedagoger som vill erbjuda samma övning på barnens olika modersmål."
+        }
       ]
     },
     "fallback": {
@@ -2001,7 +2071,17 @@
     "word-guess": "Bläddra bland Gissa Ordet arbetsblad här, där barnen fyller i de saknade bokstäverna för att skriva ordet till en bild. Det tränar bokstäver, ljudning och tidig skrivning på ett konkret sätt, eftersom bilden ger stöd för vilket ord som menas. Med tydligt bildstöd passar Gissa Ordet arbetsblad barn som börjat känna igen bokstäver och vill skriva sina första ord. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Be barnen läsa ordet högt när det är klart. Allt finns på de 11 språk vi publicerar på.",
     "word-scramble": "Bläddra bland Bokstavspussel arbetsblad här, där barnen lägger blandade bokstäver i rätt ordning för att skriva ordet till en bild. Det tränar stavning och bokstavskännedom, och bilden ger stöd så barnen vet vilket ord de bygger. Med tydligt bildstöd passar Bokstavspussel arbetsblad barn som börjat läsa och vill öva på att stava sina första ord. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Använd dem som en klurig uppgift i klassen eller som hemövning. Allt finns på de 11 språk vi publicerar på.",
     "crossword": "Bläddra bland Korsord arbetsblad här, där barnen löser ett korsord med bildledtrådar och skriver in bokstäverna i det korsande rutnätet. Det tränar stavning, ordförråd och förmågan att se hur ord delar bokstäver med varandra. Med tydligt bildstöd passar Korsord arbetsblad barn som börjat läsa och vill öva ord på ett lekfullt sätt. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Den interaktiva versionen visar tydligt vilket ord du arbetar med just nu. Allt finns på de 11 språk vi publicerar på.",
-    "find-objects": "Bläddra bland Hitta Föremålen arbetsblad här, där barnen letar gömda föremål i en scen och markerar dem ett efter ett. Det tränar visuell diskriminering, uppmärksamhet och tålamod när barnen söker igenom hela bilden. Med tydligt bildstöd passar Hitta Föremålen arbetsblad barn i förskolan och tidiga skolår, helt utan läsning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Använd dem som en rolig stund vid bordet eller i hörn och stationer. Allt finns på de 11 språk vi publicerar på."
+    "find-objects": "Bläddra bland Hitta Föremålen arbetsblad här, där barnen letar gömda föremål i en scen och markerar dem ett efter ett. Det tränar visuell diskriminering, uppmärksamhet och tålamod när barnen söker igenom hela bilden. Med tydligt bildstöd passar Hitta Föremålen arbetsblad barn i förskolan och tidiga skolår, helt utan läsning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Använd dem som en rolig stund vid bordet eller i hörn och stationer. Allt finns på de 11 språk vi publicerar på.",
+    "christmas": "Här hittar du över 50 gratis arbetsblad med jultema för barn i förskolan, förskoleklassen och skolans första år. Bilderna hämtas ur julens värld – tomtar, granar, paket och pepparkakor – och övningarna tränar just det barnen arbetar med under adventstiden: att räkna och jämföra antal, tidiga additioner, sortering, mönster, para ihop och de första bokstäverna och orden. Varje arbetsblad laddas ner gratis som PDF med facit och skrivs ut utan konto – och vill barnen hellre öva vid skärmen går samma övning att spela direkt i webbläsaren. Arbetsbladen finns dessutom på elva språk, så de fungerar lika bra i klassrummet och på fritids som hemma vid köksbordet när julstöket behöver en lugn stund.",
+    "easter": "När påsken närmar sig fylls både klassrum och köksbord av ägg, kycklingar och påskharar – och här får motiven följa med in i övandet. Sidan samlar över 50 gratis arbetsblad med påsktema för förskolan, förskoleklassen och de första skolåren. Barnen räknar och jämför antal, löser tidiga additioner, sorterar påskbilder, fortsätter mönster, parar ihop och möter de första bokstäverna och orden – allt med påskens bildvärld som röd tråd. Varje arbetsblad skrivs ut gratis som PDF med facit, eller spelas direkt i webbläsaren utan konto. Samma övningar finns på elva språk, vilket gör dem användbara i flerspråkiga barngrupper – och praktiska att skicka med hem veckorna före påsklovet.",
+    "winter": "Vintern är en lång årstid, och här finns över 50 gratis arbetsblad med vintertema som räcker från första snön till vårkanten. Motiven känns igen från barnens egen vardag – snö, snögubbar, vantar, mössor och vinterkläder – och övningarna tränar det som står i centrum i förskolan och förskoleklassen: att räkna och jämföra antal, tidiga additioner, sortering, mönster, para ihop samt de första bokstäverna och orden. Alla arbetsblad är gratis att skriva ut som PDF med facit, utan konto, och varje övning går också att spela direkt i webbläsaren. Eftersom materialet finns på elva språk passar det både i klassrummet, på fritids under mörka eftermiddagar och hemma en snöig helg.",
+    "spring": "Våren är full av sådant som barn lägger märke till: knoppar som spricker, blommor som tittar upp och fågelungar som pockar på uppmärksamhet. Här hittar du över 50 gratis arbetsblad med vårtema för förskolan, förskoleklassen och skolans första år, där just de motiven bär övningarna. Barnen räknar och jämför antal, löser tidiga additioner, sorterar vårbilder, fortsätter mönster, parar ihop och övar de första bokstäverna och orden. Varje arbetsblad skrivs ut gratis som PDF med facit – eller spelas direkt i webbläsaren, helt utan konto. Materialet finns på elva språk och passar lika bra för temaarbete om våren i barngruppen som för en stunds övande hemma under vårterminen.",
+    "summer": "Sol, glass, bad och lediga dagar – sommarens bildvärld gör övandet lockande även för barn som hellre vill vara ute. Här finns över 50 gratis arbetsblad med sommartema för förskolan, förskoleklassen och de första skolåren. Övningarna tränar att räkna och jämföra antal, tidiga additioner, sortering, mönster, para ihop samt de första bokstäverna och orden – med sommarens motiv i varje uppgift. Alla arbetsblad laddas ner gratis som PDF med facit och skrivs ut utan konto, och varje övning kan också spelas direkt i webbläsaren. Att materialet finns på elva språk gör det extra praktiskt under sommarlovet, när övandet gärna får ske hemma, i sommarstugan eller på resan – några blad i taget, i barnets egen takt.",
+    "christmas__kindergarten": "För barn i förskoleklassen (5–7 år) finns här närmare 40 arbetsblad med jultema, utvalda för just den här åldern. Övningarna ligger där sexåringar ofta befinner sig: räkna säkert inom tio och tjugo, jämföra antal, prova enkla additioner, fortsätta mönster, sortera och para ihop – och känna igen de första bokstäverna i ord som hör julen till. Tomtar, granar och paket gör uppgifterna välbekanta under adventstiden. Skriv ut gratis som PDF med facit eller låt barnen spela övningarna direkt i webbläsaren, utan konto.",
+    "easter__kindergarten": "Här samlas närmare 40 arbetsblad med påsktema för barn i förskoleklassen (5–7 år). Med påskägg, kycklingar och harar i bilderna övar barnen sådant som hör den här åldern till: räkna och jämföra antal, enkla additioner, sortering, mönster och para ihop – samt de första bokstäverna och korta ord. Uppgifterna passar veckorna före påsklovet, som morgonuppgift eller i smågrupper, och lika bra hemma. Varje arbetsblad är gratis att skriva ut som PDF med facit, och samma övning går att spela direkt i webbläsaren utan konto.",
+    "kindergarten__winter": "För förskoleklassen (5–7 år) finns här närmare 40 arbetsblad med vintertema. Snögubbar, vantar och mössor bär uppgifter som passar sexåringens nivå: räkna och jämföra antal, tidiga additioner, sortera vinterbilder, fortsätta mönster, para ihop och känna igen de första bokstäverna och orden. Bladen fungerar fint som återkommande inslag under vinterhalvåret – i klassrummet, på fritids eller hemma en snöig eftermiddag. Allt är gratis: skriv ut som PDF med facit utan konto, eller låt barnen öva direkt i webbläsaren.",
+    "kindergarten__spring": "Här finns närmare 40 arbetsblad med vårtema för barn i förskoleklassen (5–7 år). Blommor, knoppar och fågelungar dyker upp i övningar som passar åldern: räkna och jämföra antal, enkla additioner, sortering, mönster, para ihop och de första bokstäverna och orden. Under vårterminen fungerar bladen både i temaarbete om våren och som repetition inför sommaren – befäst det barnen lärt sig medan motiven följer det de ser utomhus. Skriv ut gratis som PDF med facit eller spela övningarna direkt i webbläsaren, utan konto.",
+    "kindergarten__summer": "För barn i förskoleklassen (5–7 år) finns här närmare 40 arbetsblad med sommartema. Sol, glass och badbilder gör uppgifterna lockande, och innehållet ligger rätt för åldern: räkna och jämföra antal, tidiga additioner, sortera sommarbilder, fortsätta mönster, para ihop samt de första bokstäverna och korta ord. Bladen passar som lättsam repetition under sommarlovet och som mjuk uppstart i augusti. Allt är gratis – skriv ut som PDF med facit utan konto, eller låt barnet spela övningarna direkt i webbläsaren."
   },
   "bulk": {
     "toggleSelect": "Select",
@@ -2110,7 +2190,11 @@
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
   },
   "workspace": {
-    "billing": { "line": "Lärarprenumeration — aktiv", "renewsOn": "förnyas den", "manage": "Hantera fakturering" },
+    "billing": {
+      "line": "Lärarprenumeration — aktiv",
+      "renewsOn": "förnyas den",
+      "manage": "Hantera fakturering"
+    },
     "metadata": {
       "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."

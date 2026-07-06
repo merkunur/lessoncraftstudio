@@ -1,5 +1,476 @@
 {
   "$comment": "Demand-keyed SEO overrides for topic pages (single-axis + intersections). Authored per docs/SEO/demand-map-en.md; validated by scripts/seo/validate-topic-overrides.js.",
-  "singleAxis": {},
+  "singleAxis": {
+    "addition": {
+      "title": "Addition Worksheets – Free Printable PDF",
+      "h1": "Addition Worksheets",
+      "metaDescription": "Free printable addition worksheets: picture addition, sums to 10 and 20, and missing-addend practice. Download the PDF with answer key or play each worksheet online."
+    },
+    "subtraction": {
+      "title": "Subtraction Worksheets – Free Printable PDF",
+      "h1": "Subtraction Worksheets",
+      "metaDescription": "Free printable subtraction worksheets with pictures: take-away problems within 10 and 20, plus find-the-missing-number practice. PDF with answer key, or solve online."
+    },
+    "sudoku": {
+      "title": "Picture Sudoku for Kids – Free Printable Puzzles",
+      "h1": "Picture Sudoku",
+      "metaDescription": "Free printable picture sudoku puzzles for kids: fill the 4x4 grid so every row, column and box shows each picture once. Print the PDF or play online — no numbers needed."
+    },
+    "cryptogram": {
+      "title": "Cryptogram Worksheets for Kids – Free Printable",
+      "h1": "Cryptogram Puzzles",
+      "metaDescription": "Free printable cryptogram worksheets for kids: use the picture-letter key to crack the code and reveal a hidden word. Easy decoding puzzles as PDF or playable online."
+    },
+    "picture-trail": {
+      "title": "Picture Path Puzzles – Free Printable for Kids",
+      "h1": "Picture Path Puzzles",
+      "metaDescription": "Free printable picture path puzzles: follow the pictures in order to find a way across the grid, one step at a time. Maze-style logic pages as PDF or playable online."
+    },
+    "code-addition": {
+      "title": "Secret Code Math Worksheets – Free PDF",
+      "h1": "Secret Code Math",
+      "metaDescription": "Free printable secret code math worksheets: each picture stands for a number — decode the symbols, then add them up. Crack-the-code addition as PDF or played online."
+    },
+    "more-less": {
+      "title": "More or Less Worksheets – Free Printable PDF",
+      "h1": "More or Less",
+      "metaDescription": "Free printable more or less worksheets: compare two groups of pictures and tap or circle the one with more (or fewer). Early comparison practice as PDF or online."
+    },
+    "math-puzzle": {
+      "title": "Math Puzzles for Kids – Free Printable Worksheets",
+      "h1": "Math Puzzles",
+      "metaDescription": "Free printable math puzzles for kids: crossword-style number grids where every row and column has to add up. Print the PDF with answer key or solve the puzzle online."
+    },
+    "math-worksheet": {
+      "title": "Addition & Subtraction Worksheets – Free PDF",
+      "h1": "Addition & Subtraction Practice",
+      "metaDescription": "Free printable mixed addition and subtraction worksheets: equation grids within 10 and 20 for daily math practice. Every page has a PDF, answer key and online mode."
+    },
+    "big-small": {
+      "title": "Big and Small Worksheets – Free Printable PDF",
+      "h1": "Big and Small",
+      "metaDescription": "Free printable big and small worksheets: look at each pair of pictures and pick the bigger or smaller one. Size comparison for ages 3-6, as PDF or played online."
+    },
+    "chart-count": {
+      "title": "Count and Graph Worksheets – Free Printables",
+      "h1": "Count and Graph",
+      "metaDescription": "Free count-and-graph worksheets: count each kind of picture, then fill in the bar chart to match. Early graphing and data practice as a printable PDF or online."
+    },
+    "pattern-train": {
+      "title": "Pattern Train Worksheets – Free Printable",
+      "h1": "Pattern Trains",
+      "metaDescription": "Free printable pattern train worksheets: look at the pictures riding each train and pick what comes next in the pattern. AB and ABC patterns as PDF or online play."
+    },
+    "pattern-worksheet": {
+      "title": "Pattern Worksheets – Free Printable PDF",
+      "h1": "Pattern Worksheets",
+      "metaDescription": "Free printable pattern worksheets: study the repeating row of pictures and choose what comes next. AB, ABB and ABC pattern practice with PDF, answers and online mode."
+    },
+    "bingo": {
+      "title": "Picture Bingo Cards – Free Printable PDF",
+      "h1": "Picture Bingo",
+      "metaDescription": "Free printable picture bingo cards for young kids: call a picture, find it on the board, mark it — no reading required. Classroom-ready boards as PDF or online."
+    },
+    "grid-match": {
+      "title": "Grid Matching Puzzles – Free Printable",
+      "h1": "Grid Match",
+      "metaDescription": "Free grid matching puzzles: drag each picture tile onto its matching spot in the grid until the board is complete. Visual matching practice as PDF or played online."
+    },
+    "matching": {
+      "title": "Matching Worksheets – Free Printable PDF",
+      "h1": "Matching Worksheets",
+      "metaDescription": "Free printable matching worksheets: draw a line or tap to pair each picture with its partner — objects, letters and more. Download the PDF or match online."
+    },
+    "picture-sort": {
+      "title": "Picture Sorting Worksheets – Free Printable",
+      "h1": "Picture Sorting",
+      "metaDescription": "Free printable picture sorting worksheets: drag or cut-and-paste each picture into the group where it belongs. Category sorting for early learners, as PDF or online."
+    },
+    "shadow-match": {
+      "title": "Shadow Matching Worksheets – Free Printable PDF",
+      "h1": "Shadow Matching",
+      "metaDescription": "Free printable shadow matching worksheets: match every picture to its silhouette. Classic visual discrimination practice for preschool and kindergarten, PDF or online."
+    },
+    "alphabet-train": {
+      "title": "Alphabet Train Worksheets – Free Printable",
+      "h1": "Alphabet Train",
+      "metaDescription": "Free printable alphabet train worksheets: put the letter cars in ABC order to build the train. Playful alphabet-sequence practice for ages 3-5, as PDF or online."
+    },
+    "prepositions": {
+      "title": "Position Words Worksheets – Free Printable PDF",
+      "h1": "Position Words",
+      "metaDescription": "Free printable position words worksheets: above, below, next to, behind — pick the picture that matches the sentence. Spatial language practice as PDF or online."
+    },
+    "word-guess": {
+      "title": "Word Guess Worksheets – Free Printable",
+      "h1": "Word Guess",
+      "metaDescription": "Free printable word guess worksheets: look at the picture and fill in the missing letters to spell the word. Early spelling practice as a PDF or played online."
+    },
+    "word-scramble": {
+      "title": "Word Scramble Worksheets – Free Printable PDF",
+      "h1": "Word Scrambles",
+      "metaDescription": "Free printable word scramble worksheets: unscramble the letters and use the picture clue to spell each word. Spelling and vocabulary puzzles as PDF or online play."
+    },
+    "wordsearch": {
+      "title": "Word Searches for Kids – Free Printable PDF",
+      "h1": "Word Search Puzzles",
+      "metaDescription": "Free printable word searches for kids with picture clues: find and circle every hidden word in the grid. Easy vocabulary puzzles as a PDF or playable online."
+    },
+    "crossword": {
+      "title": "Crossword Puzzles for Kids – Free Printable PDF",
+      "h1": "Picture Crosswords",
+      "metaDescription": "Free printable crossword puzzles for kids: picture clues instead of written hints, so early readers can solve every grid. Print the PDF with answers or play online."
+    },
+    "find-and-count": {
+      "title": "Find and Count Worksheets – Free Printable PDF",
+      "h1": "Find and Count",
+      "metaDescription": "Free printable find and count worksheets: hunt through the picture scene, count each kind of object, and write how many. I-spy style counting as PDF or online."
+    },
+    "find-objects": {
+      "title": "Hidden Objects Worksheets – Free Printable PDF",
+      "h1": "Hidden Objects",
+      "metaDescription": "Free printable hidden objects worksheets: search the busy scene and find every object on the list. Seek-and-find attention practice as a PDF or played online."
+    },
+    "treasure-hunt": {
+      "title": "Treasure Hunt Worksheets – Free Printable PDF",
+      "h1": "Treasure Hunt Puzzles",
+      "metaDescription": "Free printable treasure hunt worksheets: follow the picture clues across the map grid to reach the treasure. Path-finding puzzles for kids as PDF or online play."
+    },
+    "missing-pieces": {
+      "title": "Missing Parts Worksheets – Free Printable PDF",
+      "h1": "Find the Missing Part",
+      "metaDescription": "Free printable missing parts worksheets: work out which piece completes each picture and put it in place. What's-missing visual puzzles as a PDF or played online."
+    },
+    "odd-one-out": {
+      "title": "Odd One Out Worksheets – Free Printable PDF",
+      "h1": "Odd One Out",
+      "metaDescription": "Free printable odd one out worksheets: look at each row of pictures and circle the one that doesn't belong. Classification and logic practice as PDF or online."
+    },
+    "counting-pictures": {
+      "title": "Counting Pictures Worksheets – Free Printable",
+      "h1": "Counting Pictures",
+      "metaDescription": "Free printable counting pictures worksheets: count the objects in each group and write the number, from 1-10 up to 20. Early number practice as PDF or online."
+    },
+    "counting-frames": {
+      "title": "Ten Frame Worksheets – Free Printable PDF",
+      "h1": "Ten Frames",
+      "metaDescription": "Free printable ten frame worksheets: count the dots in each frame, write the number, and build numbers 1-20. Ten-frame counting practice as PDF or played online."
+    },
+    "tally-counting": {
+      "title": "Tally Marks Worksheets – Free Printable PDF",
+      "h1": "Tally Marks",
+      "metaDescription": "Free printable tally marks worksheets: count each set of tallies and match it to the number it shows. Tally chart reading for early grades, as PDF or online."
+    },
+    "number-charts": {
+      "title": "Number Charts & Hundreds Charts – Free PDF",
+      "h1": "Number Charts",
+      "metaDescription": "Free printable number chart worksheets: fill in the missing numbers on 1-20, 1-50 and hundreds charts. Number-sequence practice as a PDF or completed online."
+    },
+    "comparing-numbers": {
+      "title": "Comparing Numbers Worksheets – Free PDF",
+      "h1": "Comparing Numbers",
+      "metaDescription": "Free printable comparing numbers worksheets: decide which number is greater or less and circle the right answer. Number comparison practice as PDF or online."
+    },
+    "comparing-groups": {
+      "title": "Comparing Groups Worksheets – Free Printable",
+      "h1": "Comparing Groups",
+      "metaDescription": "Free printable comparing groups worksheets: count two sets of pictures and pick the group with more or fewer. Set comparison for young learners, PDF or online."
+    },
+    "comparing-sizes": {
+      "title": "Comparing Sizes Worksheets – Free Printable",
+      "h1": "Comparing Sizes",
+      "metaDescription": "Free printable comparing sizes worksheets: order pictures from smallest to biggest and spot the taller, longer or shorter one. Size practice as PDF or online."
+    },
+    "number-lines": {
+      "title": "Number Line Worksheets – Free Printable PDF",
+      "h1": "Number Lines",
+      "metaDescription": "Free printable number line worksheets: hop along the line to add, subtract and find missing numbers. Number line practice for early grades as PDF or online."
+    },
+    "base-ten": {
+      "title": "Base Ten Blocks Worksheets – Free Printable PDF",
+      "h1": "Base Ten Blocks",
+      "metaDescription": "Free printable base ten blocks worksheets: count the tens and ones blocks and write the number they build. Place value practice as a PDF or completed online."
+    },
+    "telling-time": {
+      "title": "Telling Time Worksheets – Free Printable PDF",
+      "h1": "Telling Time",
+      "metaDescription": "Free printable telling time worksheets: read each analog clock and write the time — whole hours, half hours, then 5 minutes. Clock practice as PDF or online."
+    },
+    "fractions": {
+      "title": "Fraction Worksheets for Kids – Free Printable",
+      "h1": "First Fractions",
+      "metaDescription": "Free printable fraction worksheets for kids: halves, thirds and fourths shown with shaded shapes and picture models. Early fraction practice as PDF or online."
+    },
+    "graphing-data": {
+      "title": "Graphing Data Worksheets – Free Printable PDF",
+      "h1": "Graphs and Data",
+      "metaDescription": "Free printable graphing and data worksheets: read simple bar graphs and picture graphs, then answer questions about what they show. PDF or completed online."
+    },
+    "arrays-multiplication": {
+      "title": "Multiplication Arrays Worksheets – Free PDF",
+      "h1": "Multiplication Arrays",
+      "metaDescription": "Free printable multiplication arrays worksheets: count rows and columns of pictures to build repeated addition and times facts. Array practice as PDF or online."
+    },
+    "geometry": {
+      "title": "Geometry Worksheets for Kids – Free Printable",
+      "h1": "Geometry for Kids",
+      "metaDescription": "Free printable geometry worksheets for kids: name 2D shapes, count sides and corners, and sort shapes by their features. Shape practice as PDF or online."
+    },
+    "measurement": {
+      "title": "Measurement Worksheets – Free Printable PDF",
+      "h1": "Measurement",
+      "metaDescription": "Free printable measurement worksheets: measure pictures with rulers and blocks, and compare length and height. Hands-on measuring practice as PDF or online."
+    },
+    "visual-logic": {
+      "title": "Visual Logic Puzzles for Kids – Free Printable",
+      "h1": "Visual Logic Puzzles",
+      "metaDescription": "Free printable visual logic puzzles for kids: spot the rule in each picture puzzle and use it to find the answer. Reasoning practice as a PDF or played online."
+    },
+    "visual-discrimination": {
+      "title": "Visual Discrimination Worksheets – Free PDF",
+      "h1": "Visual Discrimination",
+      "metaDescription": "Free printable visual discrimination worksheets: find the picture that's the same, spot the different one, and train careful looking. PDF or played online."
+    },
+    "visual-matching": {
+      "title": "Visual Matching Worksheets – Free Printables",
+      "h1": "Visual Matching",
+      "metaDescription": "Free printable visual matching worksheets: scan the row and find the picture that matches the model exactly. Same-picture matching practice, PDF or online."
+    },
+    "patterns": {
+      "title": "Complete the Pattern Worksheets – Free PDF",
+      "h1": "Complete the Pattern",
+      "metaDescription": "Free printable complete-the-pattern worksheets: figure out what comes next and finish each picture pattern row. Pattern completion practice as PDF or online."
+    },
+    "position-words": {
+      "title": "Positional Words Worksheets – Free Printable",
+      "h1": "Positional Words",
+      "metaDescription": "Free printable positional words worksheets: in, on, under, beside — match each sentence to the picture that shows it. Early spatial vocabulary, PDF or online."
+    },
+    "sorting-categories": {
+      "title": "Sorting and Categorizing Worksheets – Free PDF",
+      "h1": "Sorting and Categorizing",
+      "metaDescription": "Free printable sorting and categorizing worksheets: decide which group each picture belongs to and sort the whole set. Classification practice, PDF or online."
+    },
+    "picture-arithmetic": {
+      "title": "Picture Math Worksheets – Free Printable PDF",
+      "h1": "Picture Math",
+      "metaDescription": "Free printable picture math worksheets: add and subtract with pictures standing in for numbers, then write the answer. Visual arithmetic as PDF or online."
+    },
+    "science-sort": {
+      "title": "Science Sorting Worksheets – Free Printables",
+      "h1": "Science Sorting",
+      "metaDescription": "Free printable science sorting worksheets: living or non-living, animal habitats, materials — sort the pictures into the right group. PDF or sorted online."
+    },
+    "science-match": {
+      "title": "Science Matching Worksheets – Free Printables",
+      "h1": "Science Matching",
+      "metaDescription": "Free printable science matching worksheets: pair animals with their babies, homes and food. Simple science connections for early grades, as PDF or online."
+    },
+    "beginning-sounds": {
+      "title": "Beginning Sounds Worksheets – Free Printable",
+      "h1": "Beginning Sounds",
+      "metaDescription": "Free printable beginning sounds worksheets: say each picture's name and match it to the letter it starts with. Phonics first-sound practice as PDF or online."
+    },
+    "letter-knowledge": {
+      "title": "Letter Recognition Worksheets – Free PDF",
+      "h1": "Letter Recognition",
+      "metaDescription": "Free printable letter recognition worksheets: find and mark the target letter, and match uppercase to lowercase. Alphabet identification as PDF or online."
+    },
+    "word-building": {
+      "title": "Word Building Worksheets – Free Printable PDF",
+      "h1": "Word Building",
+      "metaDescription": "Free printable word building worksheets: put the letter tiles in order to spell the word shown in the picture. CVC and early spelling practice, PDF or online."
+    },
+    "picture-vocabulary": {
+      "title": "Picture Vocabulary Worksheets – Free PDF",
+      "h1": "Picture Vocabulary",
+      "metaDescription": "Free printable picture vocabulary worksheets: label everyday objects by theme, from the kitchen to the classroom. Word-and-picture practice as PDF or online."
+    },
+    "phonological-awareness": {
+      "title": "Sounds & Syllables Worksheets – Free Printables",
+      "h1": "Sounds and Syllables",
+      "metaDescription": "Free printable sounds and syllables worksheets: clap the syllables, count them, and match words with the same sounds. Phonological awareness, PDF or online."
+    },
+    "preschool": {
+      "title": "Preschool Worksheets – Free Printable PDF",
+      "h1": "Preschool Worksheets",
+      "metaDescription": "Free printable preschool worksheets for ages 3-5: counting, size comparison, matching, patterns and first letters. Every set is a PDF you can also play online."
+    },
+    "kindergarten": {
+      "title": "Kindergarten Worksheets – Free Printable PDF",
+      "h1": "Kindergarten Worksheets",
+      "metaDescription": "Free printable kindergarten worksheets: math, letters, sorting, puzzles and more for ages 5-7 — 3,000+ pages, each with a PDF and a play-online version."
+    },
+    "grade-1": {
+      "title": "1st Grade Worksheets – Free Printable PDF",
+      "h1": "1st Grade Worksheets",
+      "metaDescription": "Free printable 1st grade worksheets: word searches, math puzzles, telling time, patterns and science sorting. Download PDFs with answer keys or play online."
+    },
+    "grade-2": {
+      "title": "2nd Grade Worksheets – Free Printable PDF",
+      "h1": "2nd Grade Worksheets",
+      "metaDescription": "Free printable 2nd grade worksheets: crosswords, fractions, telling time to 5 minutes, arrays and geometry. Each one is a PDF with answers, playable online."
+    },
+    "grade-3": {
+      "title": "3rd Grade Worksheets – Free Printable PDF",
+      "h1": "3rd Grade Worksheets",
+      "metaDescription": "Free printable 3rd grade worksheets: multiplication arrays, fractions, telling time and geometry practice. Download the PDF with answer key or play online."
+    },
+    "animals": {
+      "title": "Animal Worksheets for Kids – Free Printable PDF",
+      "h1": "Animal Worksheets",
+      "metaDescription": "Free printable animal worksheets: counting, matching, sorting and word puzzles, all starring animals kids love. Every page is a PDF, also playable online."
+    },
+    "fruits": {
+      "title": "Fruit Worksheets for Kids – Free Printables",
+      "h1": "Fruit Worksheets",
+      "metaDescription": "Free printable fruit worksheets: count apples, match pairs, sort fruit and solve fruity picture puzzles. Vocabulary-rich pages as a PDF or played online."
+    },
+    "vehicles": {
+      "title": "Vehicle Worksheets for Kids – Free Printables",
+      "h1": "Vehicle Worksheets",
+      "metaDescription": "Free printable vehicle worksheets: cars, trucks, planes and boats in counting, matching and sorting activities. Transport-themed pages as PDF or online."
+    },
+    "toys": {
+      "title": "Toys Worksheets for Kids – Free Printables",
+      "h1": "Toys Worksheets",
+      "metaDescription": "Free printable toys worksheets: count, match and sort familiar toys, and learn their names along the way. Playroom-themed activities as a PDF or online."
+    },
+    "shapes": {
+      "title": "Shapes Worksheets for Kids – Free Printable PDF",
+      "h1": "Shapes Worksheets",
+      "metaDescription": "Free printable shapes worksheets: spot circles, squares and triangles in puzzles, patterns and sorting activities. Shape recognition as a PDF or online."
+    },
+    "around_the_house": {
+      "title": "Around the House Worksheets – Free Printables",
+      "h1": "Around the House",
+      "metaDescription": "Free printable around-the-house worksheets: name and sort everyday household objects room by room. Home vocabulary and matching pages, PDF or online."
+    },
+    "at_the_supermarket": {
+      "title": "At the Supermarket Worksheets – Free PDF",
+      "h1": "At the Supermarket",
+      "metaDescription": "Free printable supermarket worksheets: shop the shelves while counting, matching and naming groceries. Food-shopping vocabulary pages as PDF or online."
+    },
+    "forest_creatures": {
+      "title": "Forest Animals Worksheets – Free Printables",
+      "h1": "Forest Animals",
+      "metaDescription": "Free printable forest animals worksheets: foxes, owls and deer in counting, matching and sorting activities. Woodland-themed pages as a PDF or online."
+    },
+    "kitchen_tools": {
+      "title": "Kitchen Tools Worksheets – Free Printables",
+      "h1": "Kitchen Tools",
+      "metaDescription": "Free printable kitchen tools worksheets: name, count and match spoons, pots and pans. Everyday kitchen vocabulary practice as a PDF or played online."
+    },
+    "clothing": {
+      "title": "Clothing Worksheets for Kids – Free Printables",
+      "h1": "Clothing Worksheets",
+      "metaDescription": "Free printable clothing worksheets: sort, count and match shirts, shoes and hats while learning their names. Clothes vocabulary pages as PDF or online."
+    },
+    "camping": {
+      "title": "Camping Worksheets for Kids – Free Printables",
+      "h1": "Camping Worksheets",
+      "metaDescription": "Free printable camping worksheets: tents, campfires and trail gear in counting, matching and puzzle pages. Camping-themed practice as a PDF or online."
+    },
+    "activities": {
+      "title": "Activities Worksheets for Kids – Free PDF",
+      "h1": "Everyday Activities",
+      "metaDescription": "Free printable activities worksheets: match and name everyday actions — running, reading, painting and more. Action-word vocabulary pages, PDF or online."
+    },
+    "beach": {
+      "title": "Beach Worksheets for Kids – Free Printables",
+      "h1": "Beach Worksheets",
+      "metaDescription": "Free printable beach worksheets: shells, sandcastles and sea gear in counting, matching and sorting pages. Seaside-themed practice as a PDF or online."
+    },
+    "accessories": {
+      "title": "Clothes and Accessories Worksheets – Free PDF",
+      "h1": "Accessories",
+      "metaDescription": "Free printable accessories worksheets: hats, bags, glasses and scarves to count, match and sort by kind. Dress-up vocabulary pages as a PDF or online."
+    },
+    "zoo_animals": {
+      "title": "Zoo Animals Worksheets – Free Printables",
+      "h1": "Zoo Animals",
+      "metaDescription": "Free printable zoo animals worksheets: lions, elephants and giraffes in counting, matching and word puzzles. Zoo-themed practice as a PDF or online."
+    },
+    "music": {
+      "title": "Music Worksheets for Kids – Free Printables",
+      "h1": "Music Worksheets",
+      "metaDescription": "Free printable music worksheets: drums, guitars and pianos to count, match and name. Instrument-themed vocabulary and puzzles as a PDF or played online."
+    },
+    "classroom": {
+      "title": "Classroom Worksheets for Kids – Free Printables",
+      "h1": "Classroom Objects",
+      "metaDescription": "Free printable classroom worksheets: pencils, scissors and books to count, match and sort. School-supplies vocabulary practice as a PDF or played online."
+    },
+    "body_parts": {
+      "title": "Body Parts Worksheets – Free Printable PDF",
+      "h1": "Body Parts",
+      "metaDescription": "Free printable body parts worksheets: point to, count and name eyes, ears, hands and feet. My-body vocabulary pages for early learners, PDF or online."
+    },
+    "furniture": {
+      "title": "Furniture Worksheets for Kids – Free Printables",
+      "h1": "Furniture Worksheets",
+      "metaDescription": "Free printable furniture worksheets: chairs, tables and beds to name, count and match room by room. Home-furniture vocabulary as a PDF or played online."
+    },
+    "breakfast": {
+      "title": "Breakfast Worksheets for Kids – Free Printables",
+      "h1": "Breakfast Foods",
+      "metaDescription": "Free printable breakfast worksheets: eggs, toast and cereal in counting, matching and sorting pages. Morning-food vocabulary practice as a PDF or online."
+    },
+    "farm_animals": {
+      "title": "Farm Animals Worksheets – Free Printable PDF",
+      "h1": "Farm Animals",
+      "metaDescription": "Free printable farm animals worksheets: cows, pigs and hens in counting, matching, sorting and word puzzles. Barnyard-themed pages as a PDF or online."
+    },
+    "hospital": {
+      "title": "Hospital Worksheets for Kids – Free Printables",
+      "h1": "At the Hospital",
+      "metaDescription": "Free printable hospital worksheets: doctors, nurses and first-aid gear to name, count and match. Health-helper vocabulary pages as a PDF or played online."
+    },
+    "bakery": {
+      "title": "Bakery Worksheets for Kids – Free Printables",
+      "h1": "At the Bakery",
+      "metaDescription": "Free printable bakery worksheets: bread, cakes and pastries in counting, matching and sorting activities. Bakery-themed vocabulary as a PDF or online."
+    },
+    "insects_and_bugs": {
+      "title": "Insects and Bugs Worksheets – Free Printables",
+      "h1": "Insects and Bugs",
+      "metaDescription": "Free printable insects and bugs worksheets: bees, beetles and butterflies to count, match and sort. Bug-themed practice pages as a PDF or played online."
+    },
+    "pets": {
+      "title": "Pets Worksheets for Kids – Free Printables",
+      "h1": "Pets Worksheets",
+      "metaDescription": "Free printable pets worksheets: dogs, cats and goldfish in counting, matching and sorting activities. Pet-themed vocabulary practice as a PDF or online."
+    },
+    "ocean_life": {
+      "title": "Ocean Animals Worksheets – Free Printables",
+      "h1": "Ocean Animals",
+      "metaDescription": "Free printable ocean animals worksheets: fish, whales and crabs in counting, matching and word puzzles. Under-the-sea practice as a PDF or played online."
+    },
+    "vegetables": {
+      "title": "Vegetables Worksheets – Free Printable PDF",
+      "h1": "Vegetables",
+      "metaDescription": "Free printable vegetables worksheets: carrots, peppers and peas to count, match, sort and name. Veggie-themed vocabulary practice as a PDF or online."
+    },
+    "weather": {
+      "title": "Weather Worksheets for Kids – Free Printable PDF",
+      "h1": "Weather Worksheets",
+      "metaDescription": "Free printable weather worksheets: sun, rain, clouds and snow in matching, sorting and vocabulary pages. Weather-watching practice as a PDF or online."
+    },
+    "space": {
+      "title": "Space Worksheets for Kids – Free Printables",
+      "h1": "Space Worksheets",
+      "metaDescription": "Free printable space worksheets: rockets, planets and stars in counting, matching and puzzle pages. Out-of-this-world practice as a PDF or played online."
+    },
+    "occupations": {
+      "title": "Jobs and Occupations Worksheets – Free PDF",
+      "h1": "Jobs and Occupations",
+      "metaDescription": "Free printable jobs and occupations worksheets: match community helpers to their tools and workplaces. Career vocabulary for early grades, PDF or online."
+    },
+    "emotions": {
+      "title": "Emotions Worksheets for Kids – Free Printables",
+      "h1": "Emotions and Feelings",
+      "metaDescription": "Free printable emotions worksheets: name happy, sad, angry and surprised faces, and match feelings to situations. SEL vocabulary pages, PDF or online."
+    }
+  },
   "intersection": {}
 }

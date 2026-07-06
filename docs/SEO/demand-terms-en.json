@@ -1,0 +1,1244 @@
+{
+  "locale": "en",
+  "generatedAt": "2026-07-06",
+  "source": "docs/SEO/harvests/en.json (3,653 unique US Google-autocomplete queries, harvested 2026-07-06) + 18 live SERP samples (WebSearch, 2026-07-06). Research SoT: docs/SEO/demand-map-en.md",
+  "titlePattern": {
+    "topicType": "\"<Dominant type query, keyword-led> – Free Printable PDF\" — the harvest shows the same 3 qualifiers dominate every worksheet-class query in the US market: printable, free, pdf. All three are honest (everything is free, every deck has a printable PDF). Keyword leads; qualifiers trail after an en-dash. ≤51 chars before the \" · LessonCraftStudio\" suffix.",
+    "topicTheme": "\"<Theme demand-noun> Worksheets for Kids – Free Printables\" — theme queries formulate as '<theme> worksheets for <grade|kids>' (never '<theme> printable activities'). 'for Kids' keeps the theme hub broad so it does not collide with the theme+grade deck landings, which carry the grade.",
+    "topicLevel": "\"<Grade> Worksheets – Free Printable PDF\" — level hubs own the bare grade head ('worksheets for kindergarten free printable'). Subject×grade hubs own '<subject> worksheets for <grade>'; level topic pages stay subject-free.",
+    "intersection": "\"<Type demand-noun> Worksheets for <Grade> – Free PDF\" (or grade-trailing '<Type> Worksheets <1st|2nd> Grade – Free PDF' where the harvest shows grade-trailing word order, e.g. 'word search 1st grade', 'telling time worksheets grade 1'). No theme — theme+type+grade belongs to deck landings.",
+    "notes": "Every title unique across this file. 'interactive/online' is honest but reserved for meta descriptions and body copy — the online-exercise hubs (/topic/<subject>/<grade>/online) own the 'online' query class. Seasonal themes (christmas, easter, winter, spring, summer, thanksgiving, 4th_of_july, halloween) are OWNED BY THE SEASONAL HUBS shipped 2026-07-06 and are deliberately absent from singleAxis below."
+  },
+  "singleAxis": {
+    "addition": {
+      "primaryQuery": "addition worksheets pdf",
+      "evidence": "harvest",
+      "title": "Addition Worksheets – Free Printable PDF",
+      "h1": "Addition Worksheets",
+      "metaDescription": "Free printable addition worksheets: picture addition, sums to 10 and 20, and missing-addend practice. Download the PDF with answer key or play each worksheet online.",
+      "winnability": "hard",
+      "notes": "Head owned by K5 Learning/Superstar/TPT (SERP-sampled). Keep the page; the winnable surface is the kindergarten intersection + themed deck landings."
+    },
+    "subtraction": {
+      "primaryQuery": "subtraction worksheets pdf",
+      "evidence": "harvest",
+      "title": "Subtraction Worksheets – Free Printable PDF",
+      "h1": "Subtraction Worksheets",
+      "metaDescription": "Free printable subtraction worksheets with pictures: take-away problems within 10 and 20, plus find-the-missing-number practice. PDF with answer key, or solve online.",
+      "winnability": "hard",
+      "notes": "Same SERP class as addition (K5/Superstar). Intersection page carries the demand."
+    },
+    "sudoku": {
+      "primaryQuery": "picture sudoku for kids printable",
+      "evidence": "harvest",
+      "title": "Picture Sudoku for Kids – Free Printable Puzzles",
+      "h1": "Picture Sudoku",
+      "metaDescription": "Free printable picture sudoku puzzles for kids: fill the 4x4 grid so every row, column and box shows each picture once. Print the PDF or play online — no numbers needed.",
+      "winnability": "winnable",
+      "notes": "SERP-sampled: myhomeschoolmath, Superstar, Pinterest, niche blogs — no big-authority owner. 'picture sudoku printable' + 'picture sudoku 4x4' both verbatim in harvest."
+    },
+    "cryptogram": {
+      "primaryQuery": "cryptogram worksheets for kids",
+      "evidence": "harvest",
+      "title": "Cryptogram Worksheets for Kids – Free Printable",
+      "h1": "Cryptogram Puzzles",
+      "metaDescription": "Free printable cryptogram worksheets for kids: use the picture-letter key to crack the code and reveal a hidden word. Easy decoding puzzles as PDF or playable online.",
+      "winnability": "winnable",
+      "notes": "SERP-sampled: easyteacherworksheets, Superstar, allkidsnetwork, teach-nology — mid-tier only. 'cryptogram worksheets pdf/printable/free' all verbatim in harvest."
+    },
+    "picture-trail": {
+      "primaryQuery": "picture path puzzle",
+      "evidence": "harvest",
+      "title": "Picture Path Puzzles – Free Printable for Kids",
+      "h1": "Picture Path Puzzles",
+      "metaDescription": "Free printable picture path puzzles: follow the pictures in order to find a way across the grid, one step at a time. Maze-style logic pages as PDF or playable online.",
+      "winnability": "winnable",
+      "notes": "Tiny but exact-match ownable ('picture path', 'picture path puzzle' verbatim). Low volume — low priority."
+    },
+    "code-addition": {
+      "primaryQuery": "secret code math worksheets pdf",
+      "evidence": "harvest",
+      "title": "Secret Code Math Worksheets – Free PDF",
+      "h1": "Secret Code Math",
+      "metaDescription": "Free printable secret code math worksheets: each picture stands for a number — decode the symbols, then add them up. Crack-the-code addition as PDF or played online.",
+      "winnability": "winnable",
+      "notes": "RE-KEY from internal 'Code Addition' — zero demand for the literal name; 'secret code math worksheets pdf' + 'color code addition worksheets' verbatim in harvest."
+    },
+    "more-less": {
+      "primaryQuery": "free printable more or less worksheets pdf",
+      "evidence": "harvest",
+      "title": "More or Less Worksheets – Free Printable PDF",
+      "h1": "More or Less",
+      "metaDescription": "Free printable more or less worksheets: compare two groups of pictures and tap or circle the one with more (or fewer). Early comparison practice as PDF or online.",
+      "winnability": "hard",
+      "notes": "K5 owns comparison worksheets generically, but 'more or less' exact phrasing is mid-tier. Preschool intersection is the stronger target. 'comparing numbers' formulation belongs to comparing-numbers (fence)."
+    },
+    "math-puzzle": {
+      "primaryQuery": "math puzzle kids printable",
+      "evidence": "harvest",
+      "title": "Math Puzzles for Kids – Free Printable Worksheets",
+      "h1": "Math Puzzles",
+      "metaDescription": "Free printable math puzzles for kids: crossword-style number grids where every row and column has to add up. Print the PDF with answer key or solve the puzzle online.",
+      "winnability": "hard",
+      "notes": "'math puzzles' head is competitive (Prodigy/mathequalslove class); the 1st-grade intersection ('math puzzle 1st grade' verbatim) is the winnable surface."
+    },
+    "math-worksheet": {
+      "primaryQuery": "printable worksheets addition and subtraction",
+      "evidence": "harvest",
+      "title": "Addition & Subtraction Worksheets – Free PDF",
+      "h1": "Addition & Subtraction Practice",
+      "metaDescription": "Free printable mixed addition and subtraction worksheets: equation grids within 10 and 20 for daily math practice. Every page has a PDF, answer key and online mode.",
+      "winnability": "hard",
+      "notes": "OWNERSHIP FENCE: bare 'math worksheets for kindergarten' belongs to the subject×grade hubs — this type page targets the MIXED add/sub formulation only ('math worksheet kindergarten addition and subtraction' verbatim in harvest)."
+    },
+    "big-small": {
+      "primaryQuery": "big and small worksheets pdf free download kindergarten",
+      "evidence": "harvest",
+      "title": "Big and Small Worksheets – Free Printable PDF",
+      "h1": "Big and Small",
+      "metaDescription": "Free printable big and small worksheets: look at each pair of pictures and pick the bigger or smaller one. Size comparison for ages 3-6, as PDF or played online.",
+      "winnability": "hard",
+      "notes": "K5 holds the head (SERP-sampled) but the pdf-qualified tail is Indian/ESL mid-tier. Preschool intersection is the priority. Fence vs comparing-sizes: this key owns 'big and small / big or small'."
+    },
+    "chart-count": {
+      "primaryQuery": "2nd grade math picture graph",
+      "evidence": "harvest",
+      "title": "Count and Graph Worksheets – Free Printables",
+      "h1": "Count and Graph",
+      "metaDescription": "Free count-and-graph worksheets: count each kind of picture, then fill in the bar chart to match. Early graphing and data practice as a printable PDF or online.",
+      "winnability": "skip",
+      "notes": "No aligned harvest demand ('chart count' queries are navigational noise; the one graph query is grade-2, decks are kindergarten). 'count and graph' is the plausible re-key but NOT harvest/SERP-verified — hold until verified."
+    },
+    "pattern-train": {
+      "primaryQuery": "pattern train worksheet",
+      "evidence": "harvest",
+      "title": "Pattern Train Worksheets – Free Printable",
+      "h1": "Pattern Trains",
+      "metaDescription": "Free printable pattern train worksheets: look at the pictures riding each train and pick what comes next in the pattern. AB and ABC patterns as PDF or online play.",
+      "winnability": "winnable",
+      "notes": "Exact term exists but tiny (toy/Topmarks adjacency in SERP). The generic 'pattern worksheets' head belongs to pattern-worksheet (fence). 257 kindergarten decks back it."
+    },
+    "pattern-worksheet": {
+      "primaryQuery": "pattern worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Pattern Worksheets – Free Printable PDF",
+      "h1": "Pattern Worksheets",
+      "metaDescription": "Free printable pattern worksheets: study the repeating row of pictures and choose what comes next. AB, ABB and ABC pattern practice with PDF, answers and online mode.",
+      "winnability": "hard",
+      "notes": "'pattern worksheets' head held by Worksheetfun/K5/TPT. Owns the generic head; pattern-train and patterns (complete-the-pattern) carry distinct formulations (fence)."
+    },
+    "bingo": {
+      "primaryQuery": "bingo printable pdf free",
+      "evidence": "harvest",
+      "title": "Picture Bingo Cards – Free Printable PDF",
+      "h1": "Picture Bingo",
+      "metaDescription": "Free printable picture bingo cards for young kids: call a picture, find it on the board, mark it — no reading required. Classroom-ready boards as PDF or online.",
+      "winnability": "hard",
+      "notes": "Bingo-generator sites own the bare head; 'picture bingo' narrows honestly (decks are picture boards). Kindergarten intersection ('bingo kindergarten printable' verbatim) is the better surface."
+    },
+    "grid-match": {
+      "primaryQuery": "grid matching game",
+      "evidence": "harvest",
+      "title": "Grid Matching Puzzles – Free Printable",
+      "h1": "Grid Match",
+      "metaDescription": "Free grid matching puzzles: drag each picture tile onto its matching spot in the grid until the board is complete. Visual matching practice as PDF or played online.",
+      "winnability": "skip",
+      "notes": "No real demand for any formulation of this mechanic (152 decks, ~0 queries). Keep the page as crawl substrate; do not spend title-budget re-keying."
+    },
+    "matching": {
+      "primaryQuery": "matching worksheets pdf",
+      "evidence": "harvest",
+      "title": "Matching Worksheets – Free Printable PDF",
+      "h1": "Matching Worksheets",
+      "metaDescription": "Free printable matching worksheets: draw a line or tap to pair each picture with its partner — objects, letters and more. Download the PDF or match online.",
+      "winnability": "winnable",
+      "notes": "pdf-qualified tail is mid-tier (kiddoworksheets/worksheetfun class); the kindergarten intersection ('matching worksheets for kindergarten pdf' verbatim) is equally strong. Shadow/science matching have their own keys (fence)."
+    },
+    "picture-sort": {
+      "primaryQuery": "picture sort kindergarten",
+      "evidence": "harvest",
+      "title": "Picture Sorting Worksheets – Free Printable",
+      "h1": "Picture Sorting",
+      "metaDescription": "Free printable picture sorting worksheets: drag or cut-and-paste each picture into the group where it belongs. Category sorting for early learners, as PDF or online.",
+      "winnability": "winnable",
+      "notes": "'picture sort/sorting' formulations are niche and ownable; 245 decks back it. The bigger 'sorting and classifying' head is shared with sorting-categories — this page owns the picture-first phrasing (fence)."
+    },
+    "shadow-match": {
+      "primaryQuery": "shadow matching worksheet pdf",
+      "evidence": "harvest",
+      "title": "Shadow Matching Worksheets – Free Printable PDF",
+      "h1": "Shadow Matching",
+      "metaDescription": "Free printable shadow matching worksheets: match every picture to its silhouette. Classic visual discrimination practice for preschool and kindergarten, PDF or online.",
+      "winnability": "winnable",
+      "notes": "SERP-sampled: eslvault, printxoxo, scribd, Etsy — all niche/mid. Rich verbatim tail (pdf, kindergarten, preschool, free download)."
+    },
+    "alphabet-train": {
+      "primaryQuery": "alphabet train worksheet",
+      "evidence": "harvest",
+      "title": "Alphabet Train Worksheets – Free Printable",
+      "h1": "Alphabet Train",
+      "metaDescription": "Free printable alphabet train worksheets: put the letter cars in ABC order to build the train. Playful alphabet-sequence practice for ages 3-5, as PDF or online.",
+      "winnability": "winnable",
+      "notes": "Exact term exists ('alphabet train worksheet', 'kindergarten alphabet train printable' verbatim) but SERP is toy-heavy — expect modest volume. Preschool intersection included."
+    },
+    "prepositions": {
+      "primaryQuery": "position words worksheet pdf",
+      "evidence": "harvest",
+      "title": "Position Words Worksheets – Free Printable PDF",
+      "h1": "Position Words",
+      "metaDescription": "Free printable position words worksheets: above, below, next to, behind — pick the picture that matches the sentence. Spatial language practice as PDF or online.",
+      "winnability": "hard",
+      "notes": "K5/mathworksheets4kids/education.com in top-5 (SERP-sampled) but tail is rich (108 harvest queries). OWNS the 'position words' term; the 8-deck position-words family key is consolidated here (see its entry)."
+    },
+    "word-guess": {
+      "primaryQuery": "word guess worksheet",
+      "evidence": "harvest",
+      "title": "Word Guess Worksheets – Free Printable",
+      "h1": "Word Guess",
+      "metaDescription": "Free printable word guess worksheets: look at the picture and fill in the missing letters to spell the word. Early spelling practice as a PDF or played online.",
+      "winnability": "winnable",
+      "notes": "Tiny exact-match demand ('word guess worksheet' verbatim); most 'word guessing game' intent is app/game-oriented. Low priority; no grade evidence, so no intersection."
+    },
+    "word-scramble": {
+      "primaryQuery": "word scramble worksheets for kids",
+      "evidence": "harvest",
+      "title": "Word Scramble Worksheets – Free Printable PDF",
+      "h1": "Word Scrambles",
+      "metaDescription": "Free printable word scramble worksheets: unscramble the letters and use the picture clue to spell each word. Spelling and vocabulary puzzles as PDF or online play.",
+      "winnability": "winnable",
+      "notes": "SERP-sampled: puzzles-to-print, kiddoworksheets, treevalleyacademy — niche puzzle sites only. 'word scramble worksheets pdf/free/kindergarten' all verbatim."
+    },
+    "wordsearch": {
+      "primaryQuery": "word search kids pdf",
+      "evidence": "harvest",
+      "title": "Word Searches for Kids – Free Printable PDF",
+      "h1": "Word Search Puzzles",
+      "metaDescription": "Free printable word searches for kids with picture clues: find and circle every hidden word in the grid. Easy vocabulary puzzles as a PDF or playable online.",
+      "winnability": "hard",
+      "notes": "Grade-qualified SERPs carry K5/education.com/SplashLearn (sampled); bare kids-head owned by puzzle megasites. Grade-1 intersection ('word search 1st grade printable' verbatim, 87 harvest queries on this key) is the real surface."
+    },
+    "crossword": {
+      "primaryQuery": "crossword puzzle pdf for kids",
+      "evidence": "harvest",
+      "title": "Crossword Puzzles for Kids – Free Printable PDF",
+      "h1": "Picture Crosswords",
+      "metaDescription": "Free printable crossword puzzles for kids: picture clues instead of written hints, so early readers can solve every grid. Print the PDF with answers or play online.",
+      "winnability": "hard",
+      "notes": "'crossword' head is a monster (NYT/solver noise); kids-pdf tail is mid-tier. Differentiator = picture crosswords (the actual product). Grade-2 intersection evidenced ('crossword 2nd grade')."
+    },
+    "find-and-count": {
+      "primaryQuery": "find and count worksheets",
+      "evidence": "harvest",
+      "title": "Find and Count Worksheets – Free Printable PDF",
+      "h1": "Find and Count",
+      "metaDescription": "Free printable find and count worksheets: hunt through the picture scene, count each kind of object, and write how many. I-spy style counting as PDF or online.",
+      "winnability": "winnable",
+      "notes": "Exact term verbatim ('find and count worksheets', '+ for kindergarten', '+ pdf'). NOTE: 'i spy' did NOT surface in this harvest despite being the obvious synonym — re-harvest with an 'i spy' seed before chasing that head. Largest deck pool on the site (380)."
+    },
+    "find-objects": {
+      "primaryQuery": "hidden objects worksheets pdf",
+      "evidence": "harvest",
+      "title": "Hidden Objects Worksheets – Free Printable PDF",
+      "h1": "Hidden Objects",
+      "metaDescription": "Free printable hidden objects worksheets: search the busy scene and find every object on the list. Seek-and-find attention practice as a PDF or played online.",
+      "winnability": "winnable",
+      "notes": "RE-KEY from internal 'Find Objects' to the demand term 'hidden objects'. SERP-sampled: printablee, elcivics, 99worksheets — no authority owner. Rich verbatim tail incl. kindergarten + preschool."
+    },
+    "treasure-hunt": {
+      "primaryQuery": "treasure hunt worksheet pdf",
+      "evidence": "harvest",
+      "title": "Treasure Hunt Worksheets – Free Printable PDF",
+      "h1": "Treasure Hunt Puzzles",
+      "metaDescription": "Free printable treasure hunt worksheets: follow the picture clues across the map grid to reach the treasure. Path-finding puzzles for kids as PDF or online play.",
+      "winnability": "winnable",
+      "notes": "INTENT SPLIT (SERP-sampled): 'treasure hunt printable' returns party scavenger-hunt clue cards, not worksheets — target only the worksheet-qualified tail ('treasure hunt worksheet pdf', '+ for kids' verbatim). Grade-1 intersection evidenced."
+    },
+    "missing-pieces": {
+      "primaryQuery": "missing parts worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Missing Parts Worksheets – Free Printable PDF",
+      "h1": "Find the Missing Part",
+      "metaDescription": "Free printable missing parts worksheets: work out which piece completes each picture and put it in place. What's-missing visual puzzles as a PDF or played online.",
+      "winnability": "winnable",
+      "notes": "RE-KEY from internal 'Missing Pieces' to demand term 'missing parts' (US formulation; 'missing pieces' queries are Lego/movie noise). SERP-sampled: fragmented, no dedicated hub. 290 decks."
+    },
+    "odd-one-out": {
+      "primaryQuery": "odd one out worksheets pdf",
+      "evidence": "harvest",
+      "title": "Odd One Out Worksheets – Free Printable PDF",
+      "h1": "Odd One Out",
+      "metaDescription": "Free printable odd one out worksheets: look at each row of pictures and circle the one that doesn't belong. Classification and logic practice as PDF or online.",
+      "winnability": "winnable",
+      "notes": "SERP-sampled: megaworkbook, wunderkiddy, wonjo.kids — all niche. 46 harvest queries incl. kindergarten/preschool/pdf-with-answers variants."
+    },
+    "counting-pictures": {
+      "primaryQuery": "counting pictures worksheets pdf",
+      "evidence": "harvest",
+      "title": "Counting Pictures Worksheets – Free Printable",
+      "h1": "Counting Pictures",
+      "metaDescription": "Free printable counting pictures worksheets: count the objects in each group and write the number, from 1-10 up to 20. Early number practice as PDF or online.",
+      "winnability": "winnable",
+      "notes": "Exact phrase 'counting pictures worksheets' (+1-10, +1-20, +pdf) verbatim; the generic 'counting worksheets 1-10' head is mid-tier-held (sampled). Kindergarten intersection evidenced."
+    },
+    "counting-frames": {
+      "primaryQuery": "ten frame worksheets free printables",
+      "evidence": "harvest",
+      "title": "Ten Frame Worksheets – Free Printable PDF",
+      "h1": "Ten Frames",
+      "metaDescription": "Free printable ten frame worksheets: count the dots in each frame, write the number, and build numbers 1-20. Ten-frame counting practice as PDF or played online.",
+      "winnability": "hard",
+      "notes": "SERP-sampled: K5 (x2), Superstar, Superteacher own it. Only 9 decks — thin backing; low priority until the deck pool grows."
+    },
+    "tally-counting": {
+      "primaryQuery": "tally marks worksheets",
+      "evidence": "harvest",
+      "title": "Tally Marks Worksheets – Free Printable PDF",
+      "h1": "Tally Marks",
+      "metaDescription": "Free printable tally marks worksheets: count each set of tallies and match it to the number it shows. Tally chart reading for early grades, as PDF or online.",
+      "winnability": "hard",
+      "notes": "68 harvest queries but only 4 decks — the demand-to-content gap runs the wrong way. Grow decks before investing; keep the honest title meanwhile."
+    },
+    "number-charts": {
+      "primaryQuery": "hundred chart worksheet pdf",
+      "evidence": "harvest",
+      "title": "Number Charts & Hundreds Charts – Free PDF",
+      "h1": "Number Charts",
+      "metaDescription": "Free printable number chart worksheets: fill in the missing numbers on 1-20, 1-50 and hundreds charts. Number-sequence practice as a PDF or completed online.",
+      "winnability": "hard",
+      "notes": "Chart-generator and big-math sites own the head; grade-1 intersection ('number charts for grade 1', 'hundreds chart 1st grade' verbatim) is the target."
+    },
+    "comparing-numbers": {
+      "primaryQuery": "comparing numbers worksheets",
+      "evidence": "harvest",
+      "title": "Comparing Numbers Worksheets – Free PDF",
+      "h1": "Comparing Numbers",
+      "metaDescription": "Free printable comparing numbers worksheets: decide which number is greater or less and circle the right answer. Number comparison practice as PDF or online.",
+      "winnability": "hard",
+      "notes": "56 harvest queries but only 6 decks — biggest demand/content mismatch on the site alongside tally. Deck production candidate. K5-class SERP."
+    },
+    "comparing-groups": {
+      "primaryQuery": "comparing sets kindergarten worksheets free",
+      "evidence": "harvest",
+      "title": "Comparing Groups Worksheets – Free Printable",
+      "h1": "Comparing Groups",
+      "metaDescription": "Free printable comparing groups worksheets: count two sets of pictures and pick the group with more or fewer. Set comparison for young learners, PDF or online.",
+      "winnability": "skip",
+      "notes": "8 decks, demand overlaps more-less and comparing-numbers almost entirely. Keep as substrate; do not invest."
+    },
+    "comparing-sizes": {
+      "primaryQuery": "comparing sizes worksheets",
+      "evidence": "harvest",
+      "title": "Comparing Sizes Worksheets – Free Printable",
+      "h1": "Comparing Sizes",
+      "metaDescription": "Free printable comparing sizes worksheets: order pictures from smallest to biggest and spot the taller, longer or shorter one. Size practice as PDF or online.",
+      "winnability": "hard",
+      "notes": "Fence vs big-small: this key owns 'comparing sizes'; big-small owns 'big and small'. K5 owns the comparison head. Kindergarten intersection evidenced ('comparing size kindergarten worksheets')."
+    },
+    "number-lines": {
+      "primaryQuery": "number line worksheets pdf",
+      "evidence": "harvest",
+      "title": "Number Line Worksheets – Free Printable PDF",
+      "h1": "Number Lines",
+      "metaDescription": "Free printable number line worksheets: hop along the line to add, subtract and find missing numbers. Number line practice for early grades as PDF or online.",
+      "winnability": "hard",
+      "notes": "67 harvest queries, 9 decks — demand/content gap; K5/commoncoresheets-class SERP. Deck production candidate before SEO investment."
+    },
+    "base-ten": {
+      "primaryQuery": "base ten blocks worksheets",
+      "evidence": "harvest",
+      "title": "Base Ten Blocks Worksheets – Free Printable PDF",
+      "h1": "Base Ten Blocks",
+      "metaDescription": "Free printable base ten blocks worksheets: count the tens and ones blocks and write the number they build. Place value practice as a PDF or completed online.",
+      "winnability": "hard",
+      "notes": "SERP-sampled: mathworksheets4kids, cuemath, dadsworksheets. 46 harvest queries vs 12 decks — grow decks first."
+    },
+    "telling-time": {
+      "primaryQuery": "printable telling time worksheets pdf",
+      "evidence": "harvest",
+      "title": "Telling Time Worksheets – Free Printable PDF",
+      "h1": "Telling Time",
+      "metaDescription": "Free printable telling time worksheets: read each analog clock and write the time — whole hours, half hours, then 5 minutes. Clock practice as PDF or online.",
+      "winnability": "hard",
+      "notes": "SERP-sampled: K5, ABCmouse, math-salamanders. Grade-1 and grade-2 intersections evidenced and included; they are the winnable surfaces."
+    },
+    "fractions": {
+      "primaryQuery": "fractions worksheets grade 2",
+      "evidence": "harvest",
+      "title": "Fraction Worksheets for Kids – Free Printable",
+      "h1": "First Fractions",
+      "metaDescription": "Free printable fraction worksheets for kids: halves, thirds and fourths shown with shaded shapes and picture models. Early fraction practice as PDF or online.",
+      "winnability": "hard",
+      "notes": "'fractions worksheets' head is authority-held; grade-2 intersection evidenced ('fractions 2nd grade worksheets' verbatim). Grade-3 tuple has no harvest evidence — skipped."
+    },
+    "graphing-data": {
+      "primaryQuery": "graphing data worksheets pdf",
+      "evidence": "harvest",
+      "title": "Graphing Data Worksheets – Free Printable PDF",
+      "h1": "Graphs and Data",
+      "metaDescription": "Free printable graphing and data worksheets: read simple bar graphs and picture graphs, then answer questions about what they show. PDF or completed online.",
+      "winnability": "hard",
+      "notes": "Verbatim but thin demand (7 queries); commoncoresheets-class competition. Low priority."
+    },
+    "arrays-multiplication": {
+      "primaryQuery": "arrays and multiplication worksheets",
+      "evidence": "harvest",
+      "title": "Multiplication Arrays Worksheets – Free PDF",
+      "h1": "Multiplication Arrays",
+      "metaDescription": "Free printable multiplication arrays worksheets: count rows and columns of pictures to build repeated addition and times facts. Array practice as PDF or online.",
+      "winnability": "hard",
+      "notes": "'array multiplication worksheets pdf' verbatim. Grade-2 ('math arrays 2nd grade worksheets') and grade-3 ('arrays multiplication 3rd grade') intersections evidenced."
+    },
+    "geometry": {
+      "primaryQuery": "geometry worksheets grade 2",
+      "evidence": "harvest",
+      "title": "Geometry Worksheets for Kids – Free Printable",
+      "h1": "Geometry for Kids",
+      "metaDescription": "Free printable geometry worksheets for kids: name 2D shapes, count sides and corners, and sort shapes by their features. Shape practice as PDF or online.",
+      "winnability": "hard",
+      "notes": "FENCE: theme 'shapes' page owns 'shapes worksheets'; this key owns 'geometry worksheets'. Geometry-dash noise pollutes the head. Grade-2 intersection evidenced."
+    },
+    "measurement": {
+      "primaryQuery": "measurement worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Measurement Worksheets – Free Printable PDF",
+      "h1": "Measurement",
+      "metaDescription": "Free printable measurement worksheets: measure pictures with rulers and blocks, and compare length and height. Hands-on measuring practice as PDF or online.",
+      "winnability": "hard",
+      "notes": "82 harvest queries; authority SERP (K5-class). Grade-1 intersection evidenced ('measurement 1st grade worksheets')."
+    },
+    "visual-logic": {
+      "primaryQuery": "visual logic puzzles for kids",
+      "evidence": "harvest",
+      "title": "Visual Logic Puzzles for Kids – Free Printable",
+      "h1": "Visual Logic Puzzles",
+      "metaDescription": "Free printable visual logic puzzles for kids: spot the rule in each picture puzzle and use it to find the answer. Reasoning practice as a PDF or played online.",
+      "winnability": "winnable",
+      "notes": "'visual logic' alone is a programming tool (intent mix) — always kids-qualified. 'kindergarten/preschool/1st grade logic worksheets' verbatim support the tail."
+    },
+    "visual-discrimination": {
+      "primaryQuery": "visual discrimination worksheets pdf",
+      "evidence": "harvest",
+      "title": "Visual Discrimination Worksheets – Free PDF",
+      "h1": "Visual Discrimination",
+      "metaDescription": "Free printable visual discrimination worksheets: find the picture that's the same, spot the different one, and train careful looking. PDF or played online.",
+      "winnability": "winnable",
+      "notes": "SERP-sampled: therapy/niche sites (yourtherapysource, literacylearn) — teacher/OT term with no big owner. Kindergarten intersection evidenced."
+    },
+    "visual-matching": {
+      "primaryQuery": "matching worksheets for kids",
+      "evidence": "harvest",
+      "title": "Visual Matching Worksheets – Free Printables",
+      "h1": "Visual Matching",
+      "metaDescription": "Free printable visual matching worksheets: scan the row and find the picture that matches the model exactly. Same-picture matching practice, PDF or online.",
+      "winnability": "skip",
+      "notes": "5 decks, no distinct demand vs 'matching'. Keep as substrate only."
+    },
+    "patterns": {
+      "primaryQuery": "complete pattern worksheet kindergarten",
+      "evidence": "harvest",
+      "title": "Complete the Pattern Worksheets – Free PDF",
+      "h1": "Complete the Pattern",
+      "metaDescription": "Free printable complete-the-pattern worksheets: figure out what comes next and finish each picture pattern row. Pattern completion practice as PDF or online.",
+      "winnability": "winnable",
+      "notes": "FENCE: pattern-worksheet owns the bare 'pattern worksheets' head; this printable family takes the 'complete the pattern' formulation (verbatim). Kindergarten intersection included."
+    },
+    "position-words": {
+      "primaryQuery": "positional words for kinder",
+      "evidence": "harvest",
+      "title": "Positional Words Worksheets – Free Printable",
+      "h1": "Positional Words",
+      "metaDescription": "Free printable positional words worksheets: in, on, under, beside — match each sentence to the picture that shows it. Early spatial vocabulary, PDF or online.",
+      "winnability": "skip",
+      "notes": "CANNIBALIZATION: same demand pool as prepositions (102 decks vs 8 here). Prepositions page owns 'position words'; this page takes only the 'positional words' variant or gets consolidated. Do not build an intersection."
+    },
+    "sorting-categories": {
+      "primaryQuery": "sorting and categorizing worksheets",
+      "evidence": "harvest",
+      "title": "Sorting and Categorizing Worksheets – Free PDF",
+      "h1": "Sorting and Categorizing",
+      "metaDescription": "Free printable sorting and categorizing worksheets: decide which group each picture belongs to and sort the whole set. Classification practice, PDF or online.",
+      "winnability": "skip",
+      "notes": "Verbatim demand exists ('sorting and classifying worksheets for kindergarten') but only 4 decks — picture-sort (245 decks) is the page that should absorb this intent. Revisit if this family gets a deck wave."
+    },
+    "picture-arithmetic": {
+      "primaryQuery": "picture math worksheets",
+      "evidence": "harvest",
+      "title": "Picture Math Worksheets – Free Printable PDF",
+      "h1": "Picture Math",
+      "metaDescription": "Free printable picture math worksheets: add and subtract with pictures standing in for numbers, then write the answer. Visual arithmetic as PDF or online.",
+      "winnability": "winnable",
+      "notes": "SERP-sampled: mathworksheets4kids tops 'picture addition' but the 'picture math' phrase itself is fringe-owned. 'picture math worksheets for kindergarten/free/problems' verbatim."
+    },
+    "science-sort": {
+      "primaryQuery": "science sorting activities for kindergarten",
+      "evidence": "harvest",
+      "title": "Science Sorting Worksheets – Free Printables",
+      "h1": "Science Sorting",
+      "metaDescription": "Free printable science sorting worksheets: living or non-living, animal habitats, materials — sort the pictures into the right group. PDF or sorted online.",
+      "winnability": "winnable",
+      "notes": "'science sorting' is niche-ownable; 'kindergarten science worksheets living and nonliving things' verbatim. FENCE: bare '<grade> science worksheets' belongs to the science subject hubs, not this type page."
+    },
+    "science-match": {
+      "primaryQuery": "science matching worksheets",
+      "evidence": "harvest",
+      "title": "Science Matching Worksheets – Free Printables",
+      "h1": "Science Matching",
+      "metaDescription": "Free printable science matching worksheets: pair animals with their babies, homes and food. Simple science connections for early grades, as PDF or online.",
+      "winnability": "winnable",
+      "notes": "Verbatim but tiny; 10 decks. Low priority."
+    },
+    "beginning-sounds": {
+      "primaryQuery": "beginning sounds worksheets free printable",
+      "evidence": "harvest",
+      "title": "Beginning Sounds Worksheets – Free Printable",
+      "h1": "Beginning Sounds",
+      "metaDescription": "Free printable beginning sounds worksheets: say each picture's name and match it to the letter it starts with. Phonics first-sound practice as PDF or online.",
+      "winnability": "hard",
+      "notes": "50 harvest queries but a crowded phonics SERP (education.com/superstar class) and only 10 decks. Grow the deck pool; keep the demand title."
+    },
+    "letter-knowledge": {
+      "primaryQuery": "letter recognition worksheets pdf",
+      "evidence": "harvest",
+      "title": "Letter Recognition Worksheets – Free PDF",
+      "h1": "Letter Recognition",
+      "metaDescription": "Free printable letter recognition worksheets: find and mark the target letter, and match uppercase to lowercase. Alphabet identification as PDF or online.",
+      "winnability": "winnable",
+      "notes": "RE-KEY from internal 'Letter Knowledge' to demand term 'letter recognition'. SERP-sampled: all mid-tier blogs (123homeschool4me, thistinybluehouse) — no authority owner. Kindergarten intersection evidenced."
+    },
+    "word-building": {
+      "primaryQuery": "word building worksheets",
+      "evidence": "harvest",
+      "title": "Word Building Worksheets – Free Printable PDF",
+      "h1": "Word Building",
+      "metaDescription": "Free printable word building worksheets: put the letter tiles in order to spell the word shown in the picture. CVC and early spelling practice, PDF or online.",
+      "winnability": "winnable",
+      "notes": "45 harvest queries incl. grade tail; ESL-mid SERP expected. Only 10 decks — deck production candidate for a demand-rich literacy key."
+    },
+    "picture-vocabulary": {
+      "primaryQuery": "picture vocabulary worksheets pdf",
+      "evidence": "harvest",
+      "title": "Picture Vocabulary Worksheets – Free PDF",
+      "h1": "Picture Vocabulary",
+      "metaDescription": "Free printable picture vocabulary worksheets: label everyday objects by theme, from the kitchen to the classroom. Word-and-picture practice as PDF or online.",
+      "winnability": "winnable",
+      "notes": "Verbatim; ESL-niche SERP. Theme pages (furniture, supermarket) cover the '<theme> vocabulary worksheet' variants — keep this page generic."
+    },
+    "phonological-awareness": {
+      "primaryQuery": "sounds and syllables worksheets",
+      "evidence": "harvest",
+      "title": "Sounds & Syllables Worksheets – Free Printables",
+      "h1": "Sounds and Syllables",
+      "metaDescription": "Free printable sounds and syllables worksheets: clap the syllables, count them, and match words with the same sounds. Phonological awareness, PDF or online.",
+      "winnability": "winnable",
+      "notes": "Verbatim but modest; 'syllable worksheets' bigger head not evidenced with grade in this harvest — re-harvest with a 'syllable' seed before chasing it."
+    },
+    "preschool": {
+      "primaryQuery": "worksheets for preschool free printable",
+      "evidence": "harvest",
+      "title": "Preschool Worksheets – Free Printable PDF",
+      "h1": "Preschool Worksheets",
+      "metaDescription": "Free printable preschool worksheets for ages 3-5: counting, size comparison, matching, patterns and first letters. Every set is a PDF you can also play online.",
+      "winnability": "hard",
+      "notes": "Mega-head (education.com/123homeschool4me class). The level hub's job is aggregation + internal linking, not head ranking."
+    },
+    "kindergarten": {
+      "primaryQuery": "worksheets for kindergarten free printable",
+      "evidence": "harvest",
+      "title": "Kindergarten Worksheets – Free Printable PDF",
+      "h1": "Kindergarten Worksheets",
+      "metaDescription": "Free printable kindergarten worksheets: math, letters, sorting, puzzles and more for ages 5-7 — 3,000+ pages, each with a PDF and a play-online version.",
+      "winnability": "hard",
+      "notes": "Largest level (3,031 decks) and the biggest head. Subject×grade hubs own 'math/reading worksheets for kindergarten'; this page stays subject-free."
+    },
+    "grade-1": {
+      "primaryQuery": "worksheets for 1st graders free printable",
+      "evidence": "harvest",
+      "title": "1st Grade Worksheets – Free Printable PDF",
+      "h1": "1st Grade Worksheets",
+      "metaDescription": "Free printable 1st grade worksheets: word searches, math puzzles, telling time, patterns and science sorting. Download PDFs with answer keys or play online.",
+      "winnability": "hard",
+      "notes": "547 grade-1 harvest queries make it the most-queried level; head is authority-held. Aggregator role."
+    },
+    "grade-2": {
+      "primaryQuery": "printable worksheets for 2nd grade",
+      "evidence": "harvest",
+      "title": "2nd Grade Worksheets – Free Printable PDF",
+      "h1": "2nd Grade Worksheets",
+      "metaDescription": "Free printable 2nd grade worksheets: crosswords, fractions, telling time to 5 minutes, arrays and geometry. Each one is a PDF with answers, playable online.",
+      "winnability": "hard",
+      "notes": "166 decks — thinner than K/G1; keep honest breadth claims."
+    },
+    "grade-3": {
+      "primaryQuery": "printable worksheets for 3rd grade",
+      "evidence": "harvest",
+      "title": "3rd Grade Worksheets – Free Printable PDF",
+      "h1": "3rd Grade Worksheets",
+      "metaDescription": "Free printable 3rd grade worksheets: multiplication arrays, fractions, telling time and geometry practice. Download the PDF with answer key or play online.",
+      "winnability": "hard",
+      "notes": "134 decks, thin harvest presence (54 queries, mostly science/summer). Lowest-priority level."
+    },
+    "animals": {
+      "primaryQuery": "animals worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Animal Worksheets for Kids – Free Printable PDF",
+      "h1": "Animal Worksheets",
+      "metaDescription": "Free printable animal worksheets: counting, matching, sorting and word puzzles, all starring animals kids love. Every page is a PDF, also playable online.",
+      "winnability": "hard",
+      "notes": "SERP-sampled: Twinkl/K5 present plus mid blogs — head is contested; farm/zoo/forest sub-themes are the winnable entries. 41 harvest queries."
+    },
+    "fruits": {
+      "primaryQuery": "fruits worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Fruit Worksheets for Kids – Free Printables",
+      "h1": "Fruit Worksheets",
+      "metaDescription": "Free printable fruit worksheets: count apples, match pairs, sort fruit and solve fruity picture puzzles. Vocabulary-rich pages as a PDF or played online.",
+      "winnability": "winnable",
+      "notes": "ESL-mid SERP expected; 'fruits worksheets for kindergarten/preschool/pdf' verbatim. 131 decks."
+    },
+    "vehicles": {
+      "primaryQuery": "vehicles worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Vehicle Worksheets for Kids – Free Printables",
+      "h1": "Vehicle Worksheets",
+      "metaDescription": "Free printable vehicle worksheets: cars, trucks, planes and boats in counting, matching and sorting activities. Transport-themed pages as PDF or online.",
+      "winnability": "winnable",
+      "notes": "'vehicles worksheets', '+ for preschool', 'construction vehicles worksheets' verbatim. 125 decks."
+    },
+    "toys": {
+      "primaryQuery": "toys worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Toys Worksheets for Kids – Free Printables",
+      "h1": "Toys Worksheets",
+      "metaDescription": "Free printable toys worksheets: count, match and sort familiar toys, and learn their names along the way. Playroom-themed activities as a PDF or online.",
+      "winnability": "winnable",
+      "notes": "ESL-flavored tail ('toys worksheets esl kids'); niche SERP. 113 decks."
+    },
+    "shapes": {
+      "primaryQuery": "shapes worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Shapes Worksheets for Kids – Free Printable PDF",
+      "h1": "Shapes Worksheets",
+      "metaDescription": "Free printable shapes worksheets: spot circles, squares and triangles in puzzles, patterns and sorting activities. Shape recognition as a PDF or online.",
+      "winnability": "hard",
+      "notes": "Big kindergarten head (K5/education.com class). FENCE: this THEME page owns 'shapes worksheets'; the geometry TYPE page owns 'geometry worksheets'."
+    },
+    "around_the_house": {
+      "primaryQuery": "around the house worksheets",
+      "evidence": "harvest",
+      "title": "Around the House Worksheets – Free Printables",
+      "h1": "Around the House",
+      "metaDescription": "Free printable around-the-house worksheets: name and sort everyday household objects room by room. Home vocabulary and matching pages, PDF or online.",
+      "winnability": "winnable",
+      "notes": "ESL-niche verbatim ('around the house esl worksheet', 'objects around the house worksheet'). 83 decks."
+    },
+    "at_the_supermarket": {
+      "primaryQuery": "at the supermarket worksheet pdf",
+      "evidence": "harvest",
+      "title": "At the Supermarket Worksheets – Free PDF",
+      "h1": "At the Supermarket",
+      "metaDescription": "Free printable supermarket worksheets: shop the shelves while counting, matching and naming groceries. Food-shopping vocabulary pages as PDF or online.",
+      "winnability": "winnable",
+      "notes": "'at the supermarket worksheet for kids / vocabulary worksheet' verbatim; ESL-niche. 83 decks."
+    },
+    "forest_creatures": {
+      "primaryQuery": "forest animals worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Forest Animals Worksheets – Free Printables",
+      "h1": "Forest Animals",
+      "metaDescription": "Free printable forest animals worksheets: foxes, owls and deer in counting, matching and sorting activities. Woodland-themed pages as a PDF or online.",
+      "winnability": "winnable",
+      "notes": "RE-KEY display toward 'forest animals' (demand term) over 'forest creatures'. 'forest animal worksheets for preschool' verbatim. 80 decks."
+    },
+    "kitchen_tools": {
+      "primaryQuery": "kitchen tools worksheets",
+      "evidence": "harvest",
+      "title": "Kitchen Tools Worksheets – Free Printables",
+      "h1": "Kitchen Tools",
+      "metaDescription": "Free printable kitchen tools worksheets: name, count and match spoons, pots and pans. Everyday kitchen vocabulary practice as a PDF or played online.",
+      "winnability": "winnable",
+      "notes": "'kitchen tools worksheet pdf / for kids' verbatim; ESL-niche. 79 decks."
+    },
+    "clothing": {
+      "primaryQuery": "clothing worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Clothing Worksheets for Kids – Free Printables",
+      "h1": "Clothing Worksheets",
+      "metaDescription": "Free printable clothing worksheets: sort, count and match shirts, shoes and hats while learning their names. Clothes vocabulary pages as PDF or online.",
+      "winnability": "winnable",
+      "notes": "'clothing worksheets esl/for preschool/pdf' verbatim. Accessories has its own key via 'clothes and accessories' (fence). 78 decks."
+    },
+    "camping": {
+      "primaryQuery": "camping worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Camping Worksheets for Kids – Free Printables",
+      "h1": "Camping Worksheets",
+      "metaDescription": "Free printable camping worksheets: tents, campfires and trail gear in counting, matching and puzzle pages. Camping-themed practice as a PDF or online.",
+      "winnability": "winnable",
+      "notes": "'camping worksheets free/for first grade/for kids' verbatim. 77 decks."
+    },
+    "activities": {
+      "primaryQuery": "activities worksheets for kids",
+      "evidence": "harvest",
+      "title": "Activities Worksheets for Kids – Free PDF",
+      "h1": "Everyday Activities",
+      "metaDescription": "Free printable activities worksheets: match and name everyday actions — running, reading, painting and more. Action-word vocabulary pages, PDF or online.",
+      "winnability": "winnable",
+      "notes": "Generic-sounding but verbatim tail exists ('activities worksheets for grade 1/2'). Watch for query ambiguity (activity-sheet intent). 77 decks."
+    },
+    "beach": {
+      "primaryQuery": "beach worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Beach Worksheets for Kids – Free Printables",
+      "h1": "Beach Worksheets",
+      "metaDescription": "Free printable beach worksheets: shells, sandcastles and sea gear in counting, matching and sorting pages. Seaside-themed practice as a PDF or online.",
+      "winnability": "winnable",
+      "notes": "'beach worksheets for preschool/1st grade' verbatim. Distinct from ocean_life (underwater animals). 77 decks."
+    },
+    "accessories": {
+      "primaryQuery": "clothes and accessories worksheets",
+      "evidence": "harvest",
+      "title": "Clothes and Accessories Worksheets – Free PDF",
+      "h1": "Accessories",
+      "metaDescription": "Free printable accessories worksheets: hats, bags, glasses and scarves to count, match and sort by kind. Dress-up vocabulary pages as a PDF or online.",
+      "winnability": "winnable",
+      "notes": "Demand formulates as 'clothes and accessories worksheets (pdf)' — verbatim. 77 decks."
+    },
+    "zoo_animals": {
+      "primaryQuery": "zoo animals worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Zoo Animals Worksheets – Free Printables",
+      "h1": "Zoo Animals",
+      "metaDescription": "Free printable zoo animals worksheets: lions, elephants and giraffes in counting, matching and word puzzles. Zoo-themed practice as a PDF or online.",
+      "winnability": "winnable",
+      "notes": "'zoo animals worksheets pdf/for preschool/for first grade' + 'zoo animals printables' verbatim. 75 decks."
+    },
+    "music": {
+      "primaryQuery": "music worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Music Worksheets for Kids – Free Printables",
+      "h1": "Music Worksheets",
+      "metaDescription": "Free printable music worksheets: drums, guitars and pianos to count, match and name. Instrument-themed vocabulary and puzzles as a PDF or played online.",
+      "winnability": "winnable",
+      "notes": "Note intent split: much 'music worksheets' demand is music-theory (note reading) — ours are instrument-vocabulary decks; the meta keeps it honest. 75 decks."
+    },
+    "classroom": {
+      "primaryQuery": "classroom worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Classroom Worksheets for Kids – Free Printables",
+      "h1": "Classroom Objects",
+      "metaDescription": "Free printable classroom worksheets: pencils, scissors and books to count, match and sort. School-supplies vocabulary practice as a PDF or played online.",
+      "winnability": "winnable",
+      "notes": "'classroom worksheets pdf/free' verbatim; ESL-niche. 75 decks."
+    },
+    "body_parts": {
+      "primaryQuery": "body parts worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Body Parts Worksheets – Free Printable PDF",
+      "h1": "Body Parts",
+      "metaDescription": "Free printable body parts worksheets: point to, count and name eyes, ears, hands and feet. My-body vocabulary pages for early learners, PDF or online.",
+      "winnability": "winnable",
+      "notes": "13 verbatim queries incl. preschool/toddler/pdf variants; ESL-mid SERP. VALIDITY note per compat table: body_parts excluded from sum/count mechanics — theme page fine. 73 decks."
+    },
+    "furniture": {
+      "primaryQuery": "furniture worksheets for kids",
+      "evidence": "harvest",
+      "title": "Furniture Worksheets for Kids – Free Printables",
+      "h1": "Furniture Worksheets",
+      "metaDescription": "Free printable furniture worksheets: chairs, tables and beds to name, count and match room by room. Home-furniture vocabulary as a PDF or played online.",
+      "winnability": "winnable",
+      "notes": "'furniture vocabulary worksheets pdf', 'furniture esl worksheets' verbatim. 73 decks."
+    },
+    "breakfast": {
+      "primaryQuery": "breakfast worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Breakfast Worksheets for Kids – Free Printables",
+      "h1": "Breakfast Foods",
+      "metaDescription": "Free printable breakfast worksheets: eggs, toast and cereal in counting, matching and sorting pages. Morning-food vocabulary practice as a PDF or online.",
+      "winnability": "winnable",
+      "notes": "'breakfast worksheets pdf / breakfast food worksheets' verbatim; very niche. 73 decks."
+    },
+    "farm_animals": {
+      "primaryQuery": "farm animals worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Farm Animals Worksheets – Free Printable PDF",
+      "h1": "Farm Animals",
+      "metaDescription": "Free printable farm animals worksheets: cows, pigs and hens in counting, matching, sorting and word puzzles. Barnyard-themed pages as a PDF or online.",
+      "winnability": "winnable",
+      "notes": "Strong verbatim tail ('+ for preschoolers pdf', '+ for toddlers'). Mid-tier blog SERP expected. 72 decks."
+    },
+    "hospital": {
+      "primaryQuery": "hospital worksheets for kids",
+      "evidence": "harvest",
+      "title": "Hospital Worksheets for Kids – Free Printables",
+      "h1": "At the Hospital",
+      "metaDescription": "Free printable hospital worksheets: doctors, nurses and first-aid gear to name, count and match. Health-helper vocabulary pages as a PDF or played online.",
+      "winnability": "winnable",
+      "notes": "'hospital worksheets for kindergarten' verbatim; tiny niche. 72 decks."
+    },
+    "bakery": {
+      "primaryQuery": "bakery worksheets for kids",
+      "evidence": "harvest",
+      "title": "Bakery Worksheets for Kids – Free Printables",
+      "h1": "At the Bakery",
+      "metaDescription": "Free printable bakery worksheets: bread, cakes and pastries in counting, matching and sorting activities. Bakery-themed vocabulary as a PDF or online.",
+      "winnability": "winnable",
+      "notes": "'bakery worksheets preschool', 'bakery math worksheets' verbatim. 69 decks. desserts_and_sweets has NO harvest demand — bakery absorbs the sweet-foods intent."
+    },
+    "insects_and_bugs": {
+      "primaryQuery": "insects and bugs worksheets",
+      "evidence": "harvest",
+      "title": "Insects and Bugs Worksheets – Free Printables",
+      "h1": "Insects and Bugs",
+      "metaDescription": "Free printable insects and bugs worksheets: bees, beetles and butterflies to count, match and sort. Bug-themed practice pages as a PDF or played online.",
+      "winnability": "winnable",
+      "notes": "'bugs and insects worksheets preschool' verbatim. 66 decks."
+    },
+    "pets": {
+      "primaryQuery": "pets worksheets",
+      "evidence": "harvest",
+      "title": "Pets Worksheets for Kids – Free Printables",
+      "h1": "Pets Worksheets",
+      "metaDescription": "Free printable pets worksheets: dogs, cats and goldfish in counting, matching and sorting activities. Pet-themed vocabulary practice as a PDF or online.",
+      "winnability": "winnable",
+      "notes": "'free pet worksheets for preschool', 'pet worksheets for grade 1' verbatim. 66 decks."
+    },
+    "ocean_life": {
+      "primaryQuery": "ocean animals worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Ocean Animals Worksheets – Free Printables",
+      "h1": "Ocean Animals",
+      "metaDescription": "Free printable ocean animals worksheets: fish, whales and crabs in counting, matching and word puzzles. Under-the-sea practice as a PDF or played online.",
+      "winnability": "winnable",
+      "notes": "RE-KEY display toward 'ocean animals' (demand term) over 'ocean life'. 'ocean animals worksheets preschool' verbatim. 64 decks."
+    },
+    "vegetables": {
+      "primaryQuery": "vegetables worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Vegetables Worksheets – Free Printable PDF",
+      "h1": "Vegetables",
+      "metaDescription": "Free printable vegetables worksheets: carrots, peppers and peas to count, match, sort and name. Veggie-themed vocabulary practice as a PDF or online.",
+      "winnability": "winnable",
+      "notes": "'printable vegetables worksheets for kindergarten', '+ pdf', '+ for nursery' verbatim. 62 decks."
+    },
+    "weather": {
+      "primaryQuery": "weather worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Weather Worksheets for Kids – Free Printable PDF",
+      "h1": "Weather Worksheets",
+      "metaDescription": "Free printable weather worksheets: sun, rain, clouds and snow in matching, sorting and vocabulary pages. Weather-watching practice as a PDF or online.",
+      "winnability": "winnable",
+      "notes": "13 verbatim queries incl. grade tail. Mid-tier science-blog SERP expected. 61 decks."
+    },
+    "space": {
+      "primaryQuery": "space worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Space Worksheets for Kids – Free Printables",
+      "h1": "Space Worksheets",
+      "metaDescription": "Free printable space worksheets: rockets, planets and stars in counting, matching and puzzle pages. Out-of-this-world practice as a PDF or played online.",
+      "winnability": "winnable",
+      "notes": "'space worksheets preschool/free/printable' verbatim. 60 decks."
+    },
+    "occupations": {
+      "primaryQuery": "jobs and occupations worksheets pdf",
+      "evidence": "harvest",
+      "title": "Jobs and Occupations Worksheets – Free PDF",
+      "h1": "Jobs and Occupations",
+      "metaDescription": "Free printable jobs and occupations worksheets: match community helpers to their tools and workplaces. Career vocabulary for early grades, PDF or online.",
+      "winnability": "winnable",
+      "notes": "'occupations worksheets', 'matching occupations worksheets' verbatim; 'community helpers' is the US classroom synonym — use in body copy. 60 decks."
+    },
+    "emotions": {
+      "primaryQuery": "emotions worksheets for kindergarten",
+      "evidence": "harvest",
+      "title": "Emotions Worksheets for Kids – Free Printables",
+      "h1": "Emotions and Feelings",
+      "metaDescription": "Free printable emotions worksheets: name happy, sad, angry and surprised faces, and match feelings to situations. SEL vocabulary pages, PDF or online.",
+      "winnability": "winnable",
+      "notes": "'emotions worksheets for preschoolers/for kids printable' verbatim; SEL-blog mid SERP. 56 decks."
+    }
+  },
+  "intersections": [
+    {
+      "key": "addition__kindergarten",
+      "type": "addition",
+      "level": "kindergarten",
+      "query": "addition worksheets for kindergarten",
+      "decks": 231,
+      "title": "Addition Worksheets for Kindergarten – Free PDF",
+      "h1": "Kindergarten Addition",
+      "metaDescription": "Free printable addition worksheets for kindergarten: picture addition and sums to 10 with cheerful themes. Download PDFs with answer keys or solve them online."
+    },
+    {
+      "key": "kindergarten__subtraction",
+      "type": "subtraction",
+      "level": "kindergarten",
+      "query": "subtraction kindergarten worksheets",
+      "decks": 212,
+      "title": "Subtraction Worksheets for Kindergarten – Free PDF",
+      "h1": "Kindergarten Subtraction",
+      "metaDescription": "Free printable subtraction worksheets for kindergarten: cross out pictures and take away within 10. Every set has a PDF, an answer key and an online version."
+    },
+    {
+      "key": "kindergarten__missing-pieces",
+      "type": "missing-pieces",
+      "level": "kindergarten",
+      "query": "missing parts worksheets for kindergarten",
+      "decks": 290,
+      "title": "Missing Parts Worksheets for Kindergarten – PDF",
+      "h1": "Find the Missing Part",
+      "metaDescription": "Free missing parts worksheets for kindergarten: spot which piece completes each picture and snap it into place. Printable PDFs plus a play-online mode."
+    },
+    {
+      "key": "kindergarten__picture-sort",
+      "type": "picture-sort",
+      "level": "kindergarten",
+      "query": "picture sort kindergarten",
+      "decks": 245,
+      "title": "Picture Sorting Worksheets for Kindergarten",
+      "h1": "Kindergarten Picture Sorts",
+      "metaDescription": "Free picture sorting worksheets for kindergarten: drag or cut-and-paste each picture into its category. Printable sorting PDFs, also playable online."
+    },
+    {
+      "key": "kindergarten__math-worksheet",
+      "type": "math-worksheet",
+      "level": "kindergarten",
+      "query": "math worksheet kindergarten addition and subtraction",
+      "decks": 207,
+      "title": "Kindergarten Addition & Subtraction Worksheets",
+      "h1": "Add and Subtract in Kindergarten",
+      "metaDescription": "Free kindergarten addition and subtraction worksheets: mixed practice within 10 on one friendly page. Printable PDFs with answer keys, playable online too."
+    },
+    {
+      "key": "more-less__preschool",
+      "type": "more-less",
+      "level": "preschool",
+      "query": "more or less for preschoolers",
+      "decks": 158,
+      "title": "More or Less Worksheets for Preschool – Free PDF",
+      "h1": "More or Less for Preschoolers",
+      "metaDescription": "Free more or less worksheets for preschoolers: compare two groups of pictures and point to the one with more. Gentle first comparisons, PDF or online."
+    },
+    {
+      "key": "grade-1__math-puzzle",
+      "type": "math-puzzle",
+      "level": "grade-1",
+      "query": "math puzzle 1st grade",
+      "decks": 148,
+      "title": "Math Puzzles for 1st Grade – Free Printable",
+      "h1": "1st Grade Math Puzzles",
+      "metaDescription": "Free printable math puzzles for 1st grade: crossword-style grids where rows and columns must add up within 20. PDFs with answer keys, solvable online."
+    },
+    {
+      "key": "kindergarten__shadow-match",
+      "type": "shadow-match",
+      "level": "kindergarten",
+      "query": "shadow match worksheets kindergarten",
+      "decks": 140,
+      "title": "Shadow Matching Worksheets for Kindergarten",
+      "h1": "Kindergarten Shadow Matching",
+      "metaDescription": "Free shadow matching worksheets for kindergarten: connect every picture to its silhouette. Printable visual discrimination PDFs, also playable online."
+    },
+    {
+      "key": "big-small__preschool",
+      "type": "big-small",
+      "level": "preschool",
+      "query": "big or small preschool worksheet",
+      "decks": 102,
+      "title": "Big and Small Worksheets for Preschool – PDF",
+      "h1": "Big and Small for Preschoolers",
+      "metaDescription": "Free big and small worksheets for preschool: look at each picture pair and pick the bigger or smaller one. Simple size comparison as a PDF or online."
+    },
+    {
+      "key": "kindergarten__prepositions",
+      "type": "prepositions",
+      "level": "kindergarten",
+      "query": "position words worksheets for kindergarten",
+      "decks": 102,
+      "title": "Position Words Worksheets for Kindergarten",
+      "h1": "Kindergarten Position Words",
+      "metaDescription": "Free position words worksheets for kindergarten: above, below, next to and behind, shown with pictures kids can point to. Printable PDFs plus online play."
+    },
+    {
+      "key": "kindergarten__odd-one-out",
+      "type": "odd-one-out",
+      "level": "kindergarten",
+      "query": "odd one out worksheets for kindergarten",
+      "decks": 100,
+      "title": "Odd One Out Worksheets for Kindergarten – PDF",
+      "h1": "Kindergarten Odd One Out",
+      "metaDescription": "Free odd one out worksheets for kindergarten: circle the picture that doesn't belong in each row. Printable logic PDFs with answers, playable online."
+    },
+    {
+      "key": "cryptogram__kindergarten",
+      "type": "cryptogram",
+      "level": "kindergarten",
+      "query": "kindergarten cryptogram",
+      "decks": 100,
+      "title": "Cryptogram Worksheets for Kindergarten – Free",
+      "h1": "Kindergarten Cryptograms",
+      "metaDescription": "Free kindergarten cryptogram worksheets: use the picture key to decode simple hidden words, letter by letter. Printable PDFs plus an online play mode."
+    },
+    {
+      "key": "grade-1__treasure-hunt",
+      "type": "treasure-hunt",
+      "level": "grade-1",
+      "query": "treasure hunt for 1st graders",
+      "decks": 99,
+      "title": "Treasure Hunt Worksheets for 1st Grade – Free",
+      "h1": "1st Grade Treasure Hunts",
+      "metaDescription": "Free treasure hunt worksheets for 1st graders: follow picture clues across the map grid to reach the treasure. Printable puzzle PDFs, playable online."
+    },
+    {
+      "key": "find-objects__kindergarten",
+      "type": "find-objects",
+      "level": "kindergarten",
+      "query": "hidden objects worksheets kindergarten",
+      "decks": 94,
+      "title": "Hidden Objects Worksheets for Kindergarten",
+      "h1": "Kindergarten Hidden Objects",
+      "metaDescription": "Free hidden objects worksheets for kindergarten: search the scene and find everything on the picture list. Printable seek-and-find PDFs, playable online."
+    },
+    {
+      "key": "grade-1__wordsearch",
+      "type": "wordsearch",
+      "level": "grade-1",
+      "query": "word search 1st grade free printable",
+      "decks": 93,
+      "title": "Word Search 1st Grade – Free Printable PDF",
+      "h1": "1st Grade Word Searches",
+      "metaDescription": "Free printable word searches for 1st grade: find grade-level words in the grid with picture clues to help. Easy puzzles as PDFs, also playable online."
+    },
+    {
+      "key": "kindergarten__matching",
+      "type": "matching",
+      "level": "kindergarten",
+      "query": "matching worksheets for kindergarten pdf",
+      "decks": 92,
+      "title": "Matching Worksheets for Kindergarten – Free PDF",
+      "h1": "Kindergarten Matching",
+      "metaDescription": "Free matching worksheets for kindergarten: draw lines or tap to pair pictures, letters and objects that go together. Printable PDFs plus online play."
+    },
+    {
+      "key": "alphabet-train__preschool",
+      "type": "alphabet-train",
+      "level": "preschool",
+      "query": "alphabet train preschool",
+      "decks": 78,
+      "title": "Alphabet Train Worksheets for Preschool – Free",
+      "h1": "Preschool Alphabet Train",
+      "metaDescription": "Free alphabet train worksheets for preschool: line up the letter cars in ABC order to complete the train. Playful printable PDFs, also playable online."
+    },
+    {
+      "key": "kindergarten__science-sort",
+      "type": "science-sort",
+      "level": "kindergarten",
+      "query": "science sorting activities for kindergarten",
+      "decks": 60,
+      "title": "Science Sorting Worksheets for Kindergarten",
+      "h1": "Kindergarten Science Sorting",
+      "metaDescription": "Free science sorting worksheets for kindergarten: living or non-living, habitats and materials — sort the pictures into groups. PDFs plus online play."
+    },
+    {
+      "key": "grade-1__pattern-worksheet",
+      "type": "pattern-worksheet",
+      "level": "grade-1",
+      "query": "pattern worksheet 1st grade",
+      "decks": 49,
+      "title": "Pattern Worksheets for 1st Grade – Free PDF",
+      "h1": "1st Grade Patterns",
+      "metaDescription": "Free pattern worksheets for 1st grade: continue AB, ABB and growing picture patterns and explain the rule. Printable PDFs with answers, online too."
+    },
+    {
+      "key": "grade-1__word-scramble",
+      "type": "word-scramble",
+      "level": "grade-1",
+      "query": "word scramble 1st grade",
+      "decks": 48,
+      "title": "Word Scramble 1st Grade – Free Printable PDF",
+      "h1": "1st Grade Word Scrambles",
+      "metaDescription": "Free printable word scrambles for 1st grade: unscramble grade-level words with a picture clue for each one. Spelling puzzle PDFs, also playable online."
+    },
+    {
+      "key": "find-and-count__kindergarten",
+      "type": "find-and-count",
+      "level": "kindergarten",
+      "query": "find and count worksheets for kindergarten",
+      "decks": 47,
+      "title": "Find and Count Worksheets for Kindergarten",
+      "h1": "Kindergarten Find and Count",
+      "metaDescription": "Free find and count worksheets for kindergarten: search the scene, count each object type and write how many. Printable I-spy math PDFs, online too."
+    },
+    {
+      "key": "crossword__grade-2",
+      "type": "crossword",
+      "level": "grade-2",
+      "query": "crossword 2nd grade",
+      "decks": 45,
+      "title": "Crossword Puzzles for 2nd Grade – Free Printable",
+      "h1": "2nd Grade Crosswords",
+      "metaDescription": "Free printable crossword puzzles for 2nd grade: picture clues guide kids to spell each answer in the grid. Vocabulary puzzle PDFs, playable online."
+    },
+    {
+      "key": "grade-1__telling-time",
+      "type": "telling-time",
+      "level": "grade-1",
+      "query": "telling time 1st grade worksheets",
+      "decks": 21,
+      "title": "Telling Time Worksheets 1st Grade – Free PDF",
+      "h1": "1st Grade Telling Time",
+      "metaDescription": "Free telling time worksheets for 1st grade: read analog clocks to the hour and half hour and write the time. Printable PDFs with answers, online too."
+    },
+    {
+      "key": "grade-2__telling-time",
+      "type": "telling-time",
+      "level": "grade-2",
+      "query": "telling time 2nd grade worksheet",
+      "decks": 20,
+      "title": "Telling Time Worksheets 2nd Grade – Free PDF",
+      "h1": "2nd Grade Telling Time",
+      "metaDescription": "Free telling time worksheets for 2nd grade: read analog clocks to five minutes and match digital times. Printable clock PDFs, also playable online."
+    },
+    {
+      "key": "bingo__kindergarten",
+      "type": "bingo",
+      "level": "kindergarten",
+      "query": "bingo kindergarten printable",
+      "decks": 36,
+      "title": "Kindergarten Bingo – Free Printable Cards",
+      "h1": "Kindergarten Picture Bingo",
+      "metaDescription": "Free printable kindergarten bingo: picture boards little kids can play without reading — call it, find it, mark it. Classroom-ready PDFs, online too."
+    },
+    {
+      "key": "fractions__grade-2",
+      "type": "fractions",
+      "level": "grade-2",
+      "query": "fractions 2nd grade worksheets",
+      "decks": 34,
+      "title": "Fractions Worksheets 2nd Grade – Free PDF",
+      "h1": "2nd Grade Fractions",
+      "metaDescription": "Free fractions worksheets for 2nd grade: halves, thirds and fourths with shaded shapes and picture models. Printable PDFs with answers, online too."
+    },
+    {
+      "key": "grade-1__science-sort",
+      "type": "science-sort",
+      "level": "grade-1",
+      "query": "1st grade science worksheets printable",
+      "decks": 30,
+      "title": "1st Grade Science Worksheets – Free Printable",
+      "h1": "1st Grade Science Sorting",
+      "metaDescription": "Free printable 1st grade science worksheets: sort living and non-living things, habitats and materials. Picture-based science PDFs, playable online.",
+      "notes": "FENCE CHECK: confirm the science subject hub (if live for grade-1) does not already own this exact head before shipping."
+    },
+    {
+      "key": "counting-pictures__kindergarten",
+      "type": "counting-pictures",
+      "level": "kindergarten",
+      "query": "counting pictures for kindergarten",
+      "decks": 27,
+      "title": "Counting Pictures Worksheets for Kindergarten",
+      "h1": "Kindergarten Counting Pictures",
+      "metaDescription": "Free counting pictures worksheets for kindergarten: count each group of objects and write the number, 1 to 20. Printable counting PDFs, online too."
+    },
+    {
+      "key": "kindergarten__letter-knowledge",
+      "type": "letter-knowledge",
+      "level": "kindergarten",
+      "query": "letter recognition kindergarten worksheets",
+      "decks": 20,
+      "title": "Letter Recognition Worksheets for Kindergarten",
+      "h1": "Kindergarten Letter Recognition",
+      "metaDescription": "Free letter recognition worksheets for kindergarten: find target letters and match uppercase to lowercase. Printable alphabet PDFs, playable online."
+    },
+    {
+      "key": "geometry__grade-2",
+      "type": "geometry",
+      "level": "grade-2",
+      "query": "geometry 2nd grade worksheets",
+      "decks": 17,
+      "title": "Geometry Worksheets 2nd Grade – Free PDF",
+      "h1": "2nd Grade Geometry",
+      "metaDescription": "Free geometry worksheets for 2nd grade: identify shapes, count sides and corners, and sort by attributes. Printable shape PDFs, also playable online."
+    },
+    {
+      "key": "kindergarten__patterns",
+      "type": "patterns",
+      "level": "kindergarten",
+      "query": "complete pattern worksheet kindergarten",
+      "decks": 15,
+      "title": "Pattern Worksheets for Kindergarten – Free PDF",
+      "h1": "Kindergarten Pattern Practice",
+      "metaDescription": "Free pattern worksheets for kindergarten: look at each picture row, find the rule and complete the pattern. Printable PDFs with answers, online too."
+    },
+    {
+      "key": "kindergarten__visual-discrimination",
+      "type": "visual-discrimination",
+      "level": "kindergarten",
+      "query": "visual discrimination worksheets for kindergarten",
+      "decks": 15,
+      "title": "Visual Discrimination Worksheets – Kindergarten",
+      "h1": "Kindergarten Visual Discrimination",
+      "metaDescription": "Free visual discrimination worksheets for kindergarten: find the matching picture and spot the one that's different. Printable PDFs, playable online."
+    },
+    {
+      "key": "comparing-sizes__kindergarten",
+      "type": "comparing-sizes",
+      "level": "kindergarten",
+      "query": "comparing size kindergarten worksheets",
+      "decks": 15,
+      "title": "Comparing Sizes Worksheets for Kindergarten",
+      "h1": "Kindergarten Size Comparison",
+      "metaDescription": "Free comparing sizes worksheets for kindergarten: pick the taller, longer or bigger picture and order sets by size. Printable PDFs, playable online."
+    },
+    {
+      "key": "arrays-multiplication__grade-2",
+      "type": "arrays-multiplication",
+      "level": "grade-2",
+      "query": "math arrays 2nd grade worksheets",
+      "decks": 14,
+      "title": "Math Arrays 2nd Grade Worksheets – Free PDF",
+      "h1": "2nd Grade Arrays",
+      "metaDescription": "Free math arrays worksheets for 2nd grade: count rows and columns to write repeated addition and first times facts. Printable PDFs, playable online."
+    },
+    {
+      "key": "grade-1__number-charts",
+      "type": "number-charts",
+      "level": "grade-1",
+      "query": "number charts for grade 1",
+      "decks": 13,
+      "title": "Number Charts for Grade 1 – Free Printable",
+      "h1": "Grade 1 Number Charts",
+      "metaDescription": "Free number charts for grade 1: fill in missing numbers on 1-100 and hundreds charts to build number sense. Printable chart PDFs, completable online."
+    },
+    {
+      "key": "arrays-multiplication__grade-3",
+      "type": "arrays-multiplication",
+      "level": "grade-3",
+      "query": "arrays multiplication 3rd grade",
+      "decks": 13,
+      "title": "Arrays & Multiplication 3rd Grade – Free PDF",
+      "h1": "3rd Grade Arrays and Multiplication",
+      "metaDescription": "Free arrays and multiplication worksheets for 3rd grade: build times-table facts from picture arrays. Printable PDFs with answer keys, online too."
+    },
+    {
+      "key": "grade-1__measurement",
+      "type": "measurement",
+      "level": "grade-1",
+      "query": "measurement 1st grade worksheets",
+      "decks": 12,
+      "title": "Measurement Worksheets 1st Grade – Free PDF",
+      "h1": "1st Grade Measurement",
+      "metaDescription": "Free measurement worksheets for 1st grade: measure pictures with rulers and unit blocks, then compare lengths. Printable PDFs with answers, online too."
+    },
+    {
+      "key": "grade-1__picture-arithmetic",
+      "type": "picture-arithmetic",
+      "level": "grade-1",
+      "query": "quick picture math 1st grade",
+      "decks": 14,
+      "title": "Picture Math Worksheets 1st Grade – Free PDF",
+      "h1": "1st Grade Picture Math",
+      "metaDescription": "Free picture math worksheets for 1st grade: pictures stand in for numbers — work out their values and solve. Visual arithmetic PDFs, playable online.",
+      "notes": "Weakest evidencing query in this list (single verbatim hit); ship late in the wave."
+    }
+  ]
+}

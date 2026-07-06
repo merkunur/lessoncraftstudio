@@ -40,7 +40,11 @@
      native ensemble. clabel() reads the shell's current locale (like txt). */
   var CAT_L = {
     en: { leaf: 'Leaves', berry: 'Berries', acorn: 'Acorns', pinecone: 'Pinecones', mushroom: 'Mushrooms', flower: 'Flowers' },
-    de: { leaf: 'Blätter', berry: 'Beeren', acorn: 'Eicheln', pinecone: 'Tannenzapfen', mushroom: 'Pilze', flower: 'Blumen' }
+    de: { leaf: 'Blätter', berry: 'Beeren', acorn: 'Eicheln', pinecone: 'Tannenzapfen', mushroom: 'Pilze', flower: 'Blumen' },
+    /* FR — lowercase article-less plurals so they slot into the comparatives
+       « Combien de {a} de plus que de {b} ? » (agreement-proof; French common
+       nouns are not capitalized mid-sentence). Also the bar labels. */
+    fr: { leaf: 'feuilles', berry: 'baies', acorn: 'glands', pinecone: 'pommes de pin', mushroom: 'champignons', flower: 'fleurs' }
   };
   function clabel(k) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (CAT_L[lang] && CAT_L[lang][k]) || (CAT_L.en && CAT_L.en[k]) || cdef(k).label; }
 
@@ -84,6 +88,27 @@
       tru: 'Richtig', fls: 'Falsch',
       announceBar: 'Die {label}-Säule ist jetzt {n}',
       srCaption: 'Daten des Säulendiagramms'
+    },
+    /* FR — native ensemble (linguiste + pédagogue CE1, « Organisation et gestion
+       de données »). « diagramme en barres »/« tableau de comptage »/« hauteur ».
+       miss-lines use the colon form ({A} : {ca}) to dodge the plural-verb agreement
+       trap, exactly like DE. */
+    fr: {
+      buildLine: 'Lis le tableau de comptage — tape sur chaque barre pour l\'empiler !',
+      fixLine: 'Une barre est fausse. Corrige-la pour qu\'elle corresponde au tableau de comptage !',
+      matchLine: 'Quel diagramme correspond au tableau de comptage ?',
+      readLine: 'Lis le diagramme de Pip et choisis la bonne réponse.',
+      undo: 'Annuler',
+      commit: 'C\'est ma réponse !',
+      yes: 'Oui — tu as bien lu !',
+      buildDone: 'Le diagramme est fini — bel empilement !',
+      missMore: '{A} : {ca}, {B} : {cb} — compte à partir de {cb}.',
+      missTotal: '{A} : {ca} et {B} : {cb} — additionne-les.',
+      missVerify: '{A} : {ca}, {B} : {cb}. Regarde encore bien !',
+      missMatch: 'Pas tout à fait — compare chaque barre au tableau de comptage.',
+      tru: 'Vrai', fls: 'Faux',
+      announceBar: 'La barre des {label} est maintenant à {n}.',
+      srCaption: 'Données du diagramme en barres'
     }
   };
   function txt(key) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (L[lang] || L.en)[key] || L.en[key] || key; }
@@ -152,15 +177,15 @@
   var GraphItActivity = {
     id: 'graph-it',
     strings: {
-      title: { en: "Pip's Stacking Fence", de: 'Pips Stapelzaun' },
-      instruction: { en: 'Build a bar graph, then read how many more!', de: 'Baue ein Säulendiagramm und lies dann ab, wie viele mehr!' },
-      qBuild: { en: 'Build the fence to match the tally.', de: 'Baue das Säulendiagramm nach der Strichliste.' },
-      qFix: { en: 'One fence bar is wrong — fix it!', de: 'Eine Säule ist falsch – verbessere sie!' },
-      qMatch: { en: 'Which fence matches the tally?', de: 'Welches Säulendiagramm passt zur Strichliste?' },
-      qMore: { en: 'How many MORE {a} than {b}?', de: 'Wie viele {a} mehr als {b}?' },
-      qFewer: { en: 'How many FEWER {a} than {b}?', de: 'Wie viele {a} weniger als {b}?' },
-      qTotal: { en: 'How many {a} and {b} TOGETHER?', de: 'Wie viele {a} und {b} zusammen?' },
-      qVerify: { en: '{x} beat {y} by {by}. True or false?', de: 'Es gibt {by} {x} mehr als {y}. Stimmt das?' }
+      title: { en: "Pip's Stacking Fence", de: 'Pips Stapelzaun', fr: 'La palissade de Pip' },
+      instruction: { en: 'Build a bar graph, then read how many more!', de: 'Baue ein Säulendiagramm und lies dann ab, wie viele mehr!', fr: 'Construis un diagramme en barres, puis lis combien il y en a de plus !' },
+      qBuild: { en: 'Build the fence to match the tally.', de: 'Baue das Säulendiagramm nach der Strichliste.', fr: 'Construis le diagramme en barres d\'après le tableau de comptage.' },
+      qFix: { en: 'One fence bar is wrong — fix it!', de: 'Eine Säule ist falsch – verbessere sie!', fr: 'Une barre est fausse — corrige-la !' },
+      qMatch: { en: 'Which fence matches the tally?', de: 'Welches Säulendiagramm passt zur Strichliste?', fr: 'Quel diagramme correspond au tableau de comptage ?' },
+      qMore: { en: 'How many MORE {a} than {b}?', de: 'Wie viele {a} mehr als {b}?', fr: 'Combien de {a} de plus que de {b} ?' },
+      qFewer: { en: 'How many FEWER {a} than {b}?', de: 'Wie viele {a} weniger als {b}?', fr: 'Combien de {a} de moins que de {b} ?' },
+      qTotal: { en: 'How many {a} and {b} TOGETHER?', de: 'Wie viele {a} und {b} zusammen?', fr: 'Combien de {a} et de {b} en tout ?' },
+      qVerify: { en: '{x} beat {y} by {by}. True or false?', de: 'Es gibt {by} {x} mehr als {y}. Stimmt das?', fr: 'Il y a {by} {x} de plus que de {y}. Vrai ou faux ?' }
     },
 
     init: function (api) {
